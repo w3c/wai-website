@@ -1,0 +1,8 @@
+[submodule "_external/wai-website-components"]
+	path = _external/wai-website-components
+	url = https://github.com/w3c/wai-website-components.git
+	fetchrecursesubmodules = true
+[submodule "_external/wai-website-jekyll-templates"]
+	path = _external/wai-website-jekyll-templates
+	url = https://github.com/w3c/wai-website-jekyll-templates.git
+	fetchrecursesubmodules = true
