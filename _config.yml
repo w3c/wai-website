@@ -25,6 +25,16 @@ repository: w3c/wai-website
 includes_dir: _external/wai-website-jekyll-templates/_includes
 layouts_dir: _external/wai-website-jekyll-templates/_layouts
 
+collections:
+  perspective-videos:
+    area: "Accessibility Fundamentals"
+    name: "Web Accessibility Perspective Videos"
+    shortname: "Perspective Videos"
+    icon: book # TODO
+    repostitory: w3c/wai-showcase-examples
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   -
     scope:
