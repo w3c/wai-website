@@ -24,3 +24,10 @@ repository: w3c/wai-website
 
 includes_dir: _external/wai-website-jekyll-templates/_includes
 layouts_dir: _external/wai-website-jekyll-templates/_layouts
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
