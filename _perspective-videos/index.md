@@ -3,6 +3,16 @@ title: "Web Accessibility Perspectives: Explore the Impact and Benefits for Ever
 nav_title: "Perspective Videos Overview"
 permalink: /perspective-videos/
 order: 0
+date: 2016-09-15
+people:
+  editorslabel: "Editor and project lead"
+  editors:
+    - name: Shadi Abou-Zahra
+      url: https://www.w3.org/People/shadi
+  contributors:
+support:
+  - name: the WAI-DEV project, co-fundend by the European Commision
+    url: https://www.w3.org/WAI/DEV/
 ---
 
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.

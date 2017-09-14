@@ -1,6 +1,16 @@
 ---
 title: Clear Layout and Design
 order: 3
+date: 2016-09-15
+people:
+  editorslabel: "Editor and project lead"
+  editors:
+    - name: Shadi Abou-Zahra
+      url: https://www.w3.org/People/shadi
+  contributors:
+support:
+  - name: the WAI-DEV project, co-fundend by the European Commision
+    url: https://www.w3.org/WAI/DEV/
 ---
 
 Web accessibility is essential for people with disabilities and useful
