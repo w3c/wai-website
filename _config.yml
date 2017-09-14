@@ -37,6 +37,7 @@ collections:
     icon: "book" # TODO
     repostitory: w3c/wai-showcase-examples
     output: true
+    acknowledgements: true
     permalink: /:collection/:path/
 
 defaults:
