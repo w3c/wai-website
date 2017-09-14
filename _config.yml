@@ -18,6 +18,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 exclude:
   - "_external"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "w3c.json"
 # Build settings
 markdown: kramdown
 repository: w3c/wai-website
