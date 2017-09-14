@@ -41,6 +41,14 @@ collections:
     output: true
     acknowledgements: true
     permalink: /:collection/:path/
+  people-use-web:
+    area: "Accessibility Fundamentals"
+    name: "How People with Disabilities Use the Web"
+    icon: "book" # TODO
+    repostitory: w3c/wai-people-use-web
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
 
 defaults:
   -
@@ -48,3 +56,13 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: "_perspective-videos"
+    values:
+      layout: "sidenav"
+  -
+    scope:
+      path: "_people-use-web"
+    values:
+      layout: "sidenav"
