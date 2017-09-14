@@ -1,6 +1,6 @@
 ---
 title: "Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone"
-resource: "Perspective Videos"
+nav_title: "Perspective Videos Overview"
 permalink: /perspective-videos/
 order: 0
 ---

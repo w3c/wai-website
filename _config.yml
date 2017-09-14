@@ -30,7 +30,7 @@ collections:
     area: "Accessibility Fundamentals"
     name: "Web Accessibility Perspective Videos"
     shortname: "Perspective Videos"
-    icon: book # TODO
+    icon: "book" # TODO
     repostitory: w3c/wai-showcase-examples
     output: true
     permalink: /:collection/:path/
