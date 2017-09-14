@@ -26,6 +26,8 @@ exclude:
 markdown: kramdown
 repository: w3c/wai-website
 
+ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
+
 includes_dir: _external/wai-website-jekyll-templates/_includes
 layouts_dir: _external/wai-website-jekyll-templates/_layouts
 
