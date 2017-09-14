@@ -9,7 +9,7 @@ people:
       url: https://www.w3.org/People/shadi
   contributors:
 support:
-  - name: the WAI-DEV project, co-fundend by the European Commision
+  - name: WAI-DEV project, co-fundend by the European Commision
     url: https://www.w3.org/WAI/DEV/
 ---
 
