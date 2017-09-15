@@ -50,6 +50,14 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
+  planning-and-managing:
+    area: "Plan and Manage"
+    name: "Planning and Managing Web Accessibility"
+    icon: "book" # TODO
+    repostitory: w3c/wai-dynamic-planning
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
 
 defaults:
   -
@@ -66,7 +74,12 @@ defaults:
     scope:
       path: "_people-use-web"
     values:
-      layout: "sidenav"plugins:
+      layout: "sidenav"
+  -
+    scope:
+      path: "_planning-and-managing"
+    values:
+      layout: "sidenav"
 
 plugins:
   - jekyll-seo-tag
