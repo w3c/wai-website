@@ -46,7 +46,7 @@ tools.
     the techniques and tools that people with disabilities use to
     interact with the Web, such as browser settings, text-to-speech,
     voice recognition, and many more.
--   [**Accessibility Principles**]({{ site.github.url }}{% link pages/accessibility-principles.md %}) – introduces
+-   [**Accessibility Principles**]({{ site.github.url }}{% link pages/fundamentals/accessibility-principles.md %}) – introduces
     some of the web accessibility requirements and provides references
     to the international accessibility standards from the W3C Web
     Accessibility Initiative (WAI).

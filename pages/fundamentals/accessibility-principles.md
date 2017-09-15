@@ -4,7 +4,7 @@ permalink: /fundamentals/accessibility-principles/
 ---
 
 ## Introduction
-{:.no-display}
+{:.no-display.no_toc}
 
 This page introduces some of the web accessibility requirements for
 websites, web applications, browsers, and other tools. It provides
@@ -15,27 +15,11 @@ of web users](diversity) and [ways people use the Web](browsing).
 **Note:** This page is illustrative and is not intended to be an
 exhaustive listing of all accessibility requirements.
 
-## On this page {#toc}
+## On this page
+{:#toc.no_toc}
 
--   [Web accessibility standards](#standards)
--   [Perceivable information and user interface](#perceivable)
-    -   [Text alternatives for non-text content](#alternatives)
-    -   [Captions and other alternatives for multimedia](#captions)
-    -   [Content can be presented in different ways](#adaptable)
-    -   [Content is easier to see and hear](#distinguishable)
--   [Operable user interface and navigation](#operable)
-    -   [Functionality is available from a keyboard](#keyboard)
-    -   [Users have enough time to read and use the content](#time)
-    -   [Content does not cause seizures](#safe)
-    -   [Users can easily navigate, find content, and determine where
-        they are](#navigable)
--   [Understandable information and user interface](#understandable)
-    -   [Text is readable and understandable](#readable)
-    -   [Content appears and operates in predictable ways](#predictable)
-    -   [Users are helped to avoid and correct mistakes](#tolerant)
--   [Robust content and reliable interpretation](#robust)
-    -   [Content is compatible with current and future user
-        tools](#compatible)
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 
 Web accessibility standards {#standards}
@@ -56,7 +40,8 @@ of these include:
     conversion tools, content management systems, blogs, database
     scripts, and other tools.
 
-### More about web accessibility standards {#more-about-web-accessibility-standards}
+### More about web accessibility standards
+{:.no_toc}
 
 These components inter-relate and support each other. For instance,
 **web content** needs to include text alternatives for images. This
@@ -125,6 +110,7 @@ audio, video, and files in other formats, as well as applications that
 are embedded as part of a website.
 
 #### Accessibility requirements related to text alternatives (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -154,8 +140,7 @@ are embedded as part of a website.
     content](https://www.w3.org/TR/ATAG20/#part_b)
 
 #### Stories related to text alternatives {#stories-related-to-text-alternatives}
-
-
+{:.no_toc}
 
 -   [Mr. Jones, Reporter with repetitive stress
     injury](stories#reporter)
@@ -187,8 +172,7 @@ auditory or visual information provide a basic level of accessibility
 and facilitate the production of captions and audio descriptions.
 
 #### Accessibility requirements related to multimedia (links to technical specification)
-
-
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -217,8 +201,7 @@ and facilitate the production of captions and audio descriptions.
 
 
 #### Stories related to multimedia {#stories-related-to-multimedia}
-
-
+{:.no_toc}
 
 -   [Ms. Martinez, Online student who is hard of
     hearing](stories#onlinestudent)
@@ -247,8 +230,8 @@ requirement also facilitates other forms of adaptation, including
 automatic generation of page outlines and summaries to help people get
 an overview and to focus on particular parts more easily.
 
-#### Accessibility requirements related to adaptability (links to technical specification) {#accessibility-requirements-related-to-adaptability-links-to-technical-specification}
-
+#### Accessibility requirements related to adaptability (links to technical specification)
+{:.no_toc}
 
 
 **WCAG 2.0**
@@ -287,9 +270,8 @@ an overview and to focus on particular parts more easily.
 
 
 
-#### Stories related to adaptability {#stories-related-to-adaptability}
-
-
+#### Stories related to adaptability
+{:.no_toc}
 
 -   [Mr. Lee, Online shopper with color blindness](stories#shopper)
 -   [Mr. Jones, Reporter with repetitive stress
@@ -335,9 +317,8 @@ played could interfere with text-to-speech or with [assistive listening
 devices
 (ALDs)](http://www.w3.org/WAI/training/accessible#ald "definition").
 
-#### Accessibility requirements related to distinguishability (links to technical specification) {#accessibility-requirements-related-to-distinguishability-links-to-technical-specification}
-
-
+#### Accessibility requirements related to distinguishability (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -376,7 +357,8 @@ devices
 
 
 
-#### Stories related to distinguishability {#stories-related-to-distinguishability}
+#### Stories related to distinguishability
+{:.no_toc}
 
 -   [Mr. Lee, Online shopper with color blindness](stories#shopper)
 -   [Ms. Martinez, Online student who is hard of
@@ -410,9 +392,8 @@ on-screen keyboards, or switch devices. It also helps people using voice
 recognition (speech input) to operate websites and to dictate text
 through the keyboard interface.
 
-#### Accessibility requirements related to keyboard accessibility (links to technical specification) {#accessibility-requirements-related-to-keyboard-accessibility-links-to-technical-specification}
-
-
+#### Accessibility requirements related to keyboard accessibility (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -443,9 +424,8 @@ through the keyboard interface.
 
 
 
-#### Stories related to keyboard accessibility {#stories-related-to-keyboard-accessibility}
-
-
+#### Stories related to keyboard accessibility
+{:.no_toc}
 
 -   [Mr. Jones, Reporter with repetitive stress
     injury](stories#reporter)
@@ -467,7 +447,8 @@ Examples of providing enough time include providing mechanisms to:
 -   Postpone or suppress interruptions, except where necessary;
 -   Re-authenticate when a session expires without losing data.
 
-#### Accessibility requirements related to sufficient time (links to technical specification) {#accessibility-requirements-related-to-sufficient-time-links-to-technical-specification}
+#### Accessibility requirements related to sufficient time (links to technical specification)
+{:.no_toc}
 
 
 
@@ -495,9 +476,8 @@ Examples of providing enough time include providing mechanisms to:
 
 
 
-#### Stories related to sufficient time {#stories-related-to-sufficient-time}
-
-
+#### Stories related to sufficient time
+{:.no_toc}
 
 -   [Mr. Jones, Reporter with repetitive stress
     injury](stories#reporter)
@@ -518,9 +498,8 @@ photosensitive reactions, including seizures. Flashing content is
 ideally avoided entirely or only used in a way that does not cause known
 risks.
 
-#### Accessibility requirements related to seizures (links to technical specification) {#accessibility-requirements-related-to-seizures-links-to-technical-specification}
-
-
+#### Accessibility requirements related to seizures (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -572,9 +551,8 @@ while others may be hearing it or seeing and hearing it at the same
 time. Some people may be using the content with only a mouse or a
 keyboard, while others may be using both.
 
-#### Accessibility requirements related to navigation (links to technical specification) {#accessibility-requirements-related-to-navigation-links-to-technical-specification}
-
-
+#### Accessibility requirements related to navigation (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -612,9 +590,8 @@ keyboard, while others may be using both.
 
 
 
-#### Stories related to navigation {#stories-related-to-navigation}
-
-
+#### Stories related to navigation
+{:.no_toc}
 
 -   [Mr. Jones, Reporter with repetitive stress
     injury](stories#reporter)
@@ -654,9 +631,8 @@ helps people who have difficulty understanding more complex sentences,
 phrases, and vocabulary. In particular, it helps people with different
 types of cognitive disabilities.
 
-#### Accessibility requirements related to readability (links to technical specification) {#accessibility-requirements-related-to-readability-links-to-technical-specification}
-
-
+#### Accessibility requirements related to readability (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -674,11 +650,8 @@ types of cognitive disabilities.
 -   [Part B. Support the production of accessible
     content](https://www.w3.org/TR/ATAG20/#part_b)
 
-
-
-#### Stories related to readability {#stories-related-to-readability}
-
-
+#### Stories related to readability
+{:.no_toc}
 
 -   [Ms. Martinez, Online student who is hard of
     hearing](stories#onlinestudent)
@@ -713,9 +686,8 @@ use to enhance keyboard navigation. Others memorize the steps to reach
 certain pages or to complete processes on a website. Both rely on
 predictable and consistent functionality.
 
-#### Accessibility requirements related to predictability (links to technical specification) {#accessibility-requirements-related-to-predictability-links-to-technical-specification}
-
-
+#### Accessibility requirements related to predictability (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -741,10 +713,8 @@ predictable and consistent functionality.
 -   [Part B. Support the production of accessible
     content](https://www.w3.org/TR/ATAG20/#part_b)
 
-
-
-#### Stories related to predictability {#stories-related-to-predictability}
-
+#### Stories related to predictability
+{:.no_toc}
 
 
 -   [Mr. Jones, Reporter with repetitive stress
@@ -778,9 +748,8 @@ other cues. It also helps people who do not understand the
 functionality, are disoriented or confused, forget, or make mistakes
 using forms and interaction for any other reason.
 
-#### Accessibility requirements related to input assistance (links to technical specification) {#accessibility-requirements-related-to-input-assistance-links-to-technical-specification}
-
-
+#### Accessibility requirements related to input assistance (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -808,9 +777,8 @@ using forms and interaction for any other reason.
 
 
 
-#### Stories related to input assistance {#stories-related-to-input-assistance}
-
-
+#### Stories related to input assistance
+{:.no_toc}
 
 -   [Mr. Lee, Online shopper with color blindness](stories#shopper)
 -   [Mr. Jones, Reporter with repetitive stress
@@ -843,9 +811,8 @@ enables assistive technologies to process the content reliably, and to
 present or to operate it in different ways. This includes non-standard
 (scripted) buttons, input fields, and other controls.
 
-#### Accessibility requirements related to compatibility (links to technical specification) {#accessibility-requirements-related-to-compatibility-links-to-technical-specification}
-
-
+#### Accessibility requirements related to compatibility (links to technical specification)
+{:.no_toc}
 
 **WCAG 2.0**
 
@@ -871,9 +838,8 @@ present or to operate it in different ways. This includes non-standard
 
 
 
-#### Stories related to compatibility {#stories-related-to-compatibility}
-
-
+#### Stories related to compatibility
+{:.no_toc}
 
 -   [Mr. Lee, Online shopper with color blindness](stories#shopper)
 -   [Mr. Jones, Reporter with repetitive stress
@@ -884,9 +850,3 @@ present or to operate it in different ways. This includes non-standard
 -   [Mr. Sands, Supermarket assistant with Down
     syndrome](stories#supermarketassistant)
 -   [Ms. Kaseem, Teenager with deaf-blindness](stories#teenager)
-
-
-
-
-
-

@@ -5,9 +5,18 @@ title: "Homepage"
 
 TBD :-)
 
-- [Intro to Accessibility]({{ site.github.url }}{% link pages/intro-accessibility.md %})
-- [Accessibility Principles]({{ site.github.url }}{% link pages/accessibility-principles.md %})
-- [People Use Web]({{ site.github.url }}{% link _people-use-web/index.md %})
-- [Perspectives Videos]({{ site.github.url }}{% link _perspective-videos/index.md %})
-- [Standards Harmonization]({{ site.github.url }}{% link pages/standards-harmonization.md %})
-- [Accessibility, Usability, Inclusion]({{ site.github.url }}{% link pages/accessibility-usability-inclusion.md %})
+## Fundamentals
+
+- [Intro to Accessibility](pages/fundamentals/intro-accessibility.md)
+- [Accessibility Principles](pages/fundamentals/accessibility-principles.md)
+- [People Use Web](/people-use-web/)
+- [Perspectives Videos](/perspective-videos/)
+- [Standards Harmonization](pages/fundamentals/standards-harmonization.md)
+- [Accessibility, Usability, Inclusion](pages/fundamentals/accessibility-usability-inclusion.md)
+
+## Plan & Manage
+
+- [Interim Repairs](/pages/plan/interim-repairs.md)
+- [Business Case](/pages/plan/business-case.md)
+- [Planning and Managing Accessibility](/planning-and-managing/)
+- [Business Case](/pages/plan/develop-org-policies.md)
