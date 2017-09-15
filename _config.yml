@@ -9,13 +9,12 @@
 title: "Web Accessibility Initiative (WAI)"
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Website of the World Wide Web Consortium’s Web Accessibility Initiative.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter:
+  username: w3c_wai
+author: w3c_wai
 exclude:
   - "_external"
   - "Gemfile"
@@ -24,6 +23,8 @@ exclude:
   - "w3c.json"
 # Build settings
 markdown: kramdown
+kramwdown:
+  - toc_levels: "2,3"
 repository: w3c/wai-website
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
@@ -65,4 +66,13 @@ defaults:
     scope:
       path: "_people-use-web"
     values:
-      layout: "sidenav"
+      layout: "sidenav"plugins:
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+relative_links:
+  -  enabled:     true
+  -  collections: true

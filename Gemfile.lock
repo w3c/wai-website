@@ -214,6 +214,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 160)
   jekyll-github-metadata
+  jekyll-relative-links
+  jekyll-seo-tag
+  jekyll-sitemap
 
 BUNDLED WITH
    1.16.0.pre.2
