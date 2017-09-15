@@ -58,6 +58,15 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
+  tutorials:
+    area: "Design & Develop"
+    name: "Web Accessibility Tutorials"
+    shortname: Tutorials
+    icon: "book" # TODO
+    repostitory: w3c/wai-tutorials
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
 
 defaults:
   -
@@ -78,6 +87,11 @@ defaults:
   -
     scope:
       path: "_planning-and-managing"
+    values:
+      layout: "sidenav"
+  -
+    scope:
+      path: "_tutorials"
     values:
       layout: "sidenav"
 
