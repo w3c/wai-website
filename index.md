@@ -66,31 +66,31 @@ nopagefooter: true
 <div class="grid-4q nogap teaser">
     <a href="#" class="q1-start q1-end stealthy-link area-teaser">
         <header class="teaser-h">
-            <h2 class="title"><svg aria-hidden="true" class="icon-loupe teaser-h-icon full"><use xlink:href="../../assets/images/icons.svg#icon-loupe"></use></svg>Audit</h2>
+            <h2 class="title">{% include icon.html name="loupe" class="teaser-h-icon full" %}Audit</h2>
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-        <span class="fakelink">Learn more<svg aria-hidden="true" class="icon-chevron-right "><use xlink:href="../../assets/images/icons.svg#icon-chevron-right"></use></svg></span>
+        <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span>
     </a>
     <a href="#" class="q2-start q2-end stealthy-link area-teaser">
         <header class="teaser-h">
-            <h2 class="title"><svg aria-hidden="true" class="icon-design teaser-h-icon full"><use xlink:href="../../assets/images/icons.svg#icon-design"></use></svg>Design</h2>
+            <h2 class="title">{% include icon.html name="design" class="teaser-h-icon full" %}Design</h2>
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-        <span class="fakelink">Learn more<svg aria-hidden="true" class="icon-chevron-right "><use xlink:href="../../assets/images/icons.svg#icon-chevron-right"></use></svg></span>
+        <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span>
     </a>
     <a href="#" class="q3-start q3-end stealthy-link area-teaser">
         <header class="teaser-h">
-            <h2 class="title"><svg aria-hidden="true" class="icon-development teaser-h-icon full"><use xlink:href="../../assets/images/icons.svg#icon-development"></use></svg>Develop</h2>
+            <h2 class="title">{% include icon.html name="development" class="teaser-h-icon full" %}Develop</h2>
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-        <span class="fakelink">Learn more<svg aria-hidden="true" class="icon-chevron-right "><use xlink:href="../../assets/images/icons.svg#icon-chevron-right"></use></svg></span>
+        <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span>
     </a>
     <a href="#" class="q4-start q4-end stealthy-link area-teaser">
         <header class="teaser-h">
-            <h2 class="title"><svg aria-hidden="true" class="icon-laws teaser-h-icon full"><use xlink:href="../../assets/images/icons.svg#icon-laws"></use></svg>Laws &amp; Policies</h2>
+            <h2 class="title">{% include icon.html name="laws" class="teaser-h-icon full" %}Laws &amp; Policies</h2>
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-        <span class="fakelink">Learn more<svg aria-hidden="true" class="icon-chevron-right "><use xlink:href="../../assets/images/icons.svg#icon-chevron-right"></use></svg></span>
+        <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span>
     </a>
 </div>
 
