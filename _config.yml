@@ -67,6 +67,15 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
+  accessibility-training:
+    area: "Teach & Advocate"
+    name: "Accessibility Training"
+    shortname: Trainings
+    icon: "book" # TODO
+    repostitory: w3c/wai-tbd
+    output: true
+    acknowledgements: false
+    permalink: /teach-advocate/:collection/:path/
 
 defaults:
   -
@@ -94,6 +103,11 @@ defaults:
       path: "_tutorials"
     values:
       layout: "sidenav"
+  -
+    scope:
+      path: "_accessibility-training"
+    values:
+      layout: "sidenav"
 
 plugins:
   - jekyll-seo-tag
@@ -103,3 +117,5 @@ plugins:
 relative_links:
   -  enabled:     true
   -  collections: true
+
+incremental: true
