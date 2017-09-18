@@ -24,7 +24,7 @@ exclude:
 # Build settings
 markdown: kramdown
 kramwdown:
-  - toc_levels: "2,3"
+  toc_levels: 2..3
 repository: w3c/wai-website
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
