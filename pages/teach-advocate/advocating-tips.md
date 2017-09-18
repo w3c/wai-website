@@ -1,6 +1,6 @@
 ---
 title: "Tips for Advocating"
-permalink: /teach-advocate/tips/
+permalink: /teach-advocate/advocating-tips/
 ---
 
 TBD

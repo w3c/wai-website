@@ -1,5 +1,5 @@
 ---
-title: "ba"
+title: "Handouts"
 permalink: /teach-advocate/handouts/
 ---
 

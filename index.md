@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "WAI Home"
-nopagefooter:true
+nopagefooter: true
 ---
 
 <section class="teaser featured grid-three-five" style="background-image: url({{ site.github.url }}/assets/images/teaser-image@1x.jpg); background-image: -webkit-image-set(url({{ site.github.url }}/assets/images/teaser-image@1x.jpg) 1x, url({{ site.github.url }}/assets/images/teaser-image@2x.jpg) 2x)">

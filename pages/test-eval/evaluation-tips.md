@@ -1,6 +1,6 @@
 ---
 title: Tips for Evaluating
-permalink: /test-evaluate/evaluation-tips/
+permalink: /test-evaluate/evaluating-tips/
 ---
 
 TBD
