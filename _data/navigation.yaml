@@ -1,0 +1,146 @@
+- name: Accessibility Fundamentals
+  url: "#"
+  pages:
+    - name: Introduction to Accessibility
+      url: "/fundamentals/accessibility-intro/"
+    - name: Accessibility Principles
+      url: "/fundamentals/accessibility-principles/"
+    - name: Perspectives Videos
+      url: "/perspective-videos/"
+    - name: How People with Disabilities Use the Web
+      url: "/people-use-web/"
+      pages:
+        - name: Stories of Web Users
+          url: "/people-use-web/user-stories/"
+        - name: Diverse Abilities and Barriers
+          url: "/people-use-web/abilities-barriers/"
+        - name: Tools and Techniques
+          url: "/people-use-web/tools-techniques/"
+    - name: Standards Harmonization is Essential
+      url: "/fundamentals/standards-harmonization/"
+    - name: Accessibility, Usability, Inclusion
+      url: "/fundamentals/accessibility-usability-inclusion/"
+
+- name: Plan & Manage
+  url: "#"
+  pages:
+    - name: Approaches for Interim Repairs
+      url: "/plan/interim-repairs/"
+    - name: Business Case
+      url: "/plan/business-case/"
+    - name: Planning and Managing Accessibility
+      url: "/planning-and-managing/"
+      pages:
+        - name: Initiate
+          url: "/planning-and-managing/initiate/"
+        - name: Plan
+          url: "/planning-and-managing/plan/"
+        - name: Implement
+          url: "/planning-and-managing/implement/"
+        - name: Sustain
+          url: "/planning-and-managing/sustain/"
+    - name: Developing an Organizational Policy
+      url: "/plan/org-policies/"
+    - name: Involving Users for Better Accessibility
+      url: "/plan/involving-users/"
+    - name: Tips for Procuring
+      url: "/plan/procurment-tips/"
+    - name: Accessibility Laws and Policies
+      url: "/plan/laws-policies/"
+
+- name: Design & Develop
+  url: "#"
+  pages:
+    - name: Tips for Writing
+      url: "/design-develop/writing-tips/"
+    - name: Tips for Designing
+      url: "/design-develop/designing-tips/"
+    - name: Tips for Developing
+      url: "/design-develop/developing-tips/"
+    - name: Mobile Accessibility Intro
+      url: "/design-develop/mobile-accessibility-intro/"
+    - name: WAI-ARIA Developers' Intro
+      url: "/design-develop/wai-aria-dev-intro/"
+    - name: Tutorials
+      url: "/tutorials/"
+      pages:
+        - name: Page Structure
+          url: "/tutorials/page-structure/"
+        - name: Menus
+          url: "/tutorials/menus/"
+        - name: Images
+          url: "/tutorials/images/"
+        - name: Tables
+          url: "/tutorials/tables/"
+        - name: Forms
+          url: "/tutorials/forms/"
+        - name: Carousels
+          url: "/tutorials/carousels/"
+        - name: Media
+          url: "#"
+
+- name: Test & Evaluate
+  url: "#"
+  pages:
+    - name: Easy Checks – A First Review
+      url: "/test-evaluate/easychecks/"
+    - name: Tips for Evaluating
+      url: "/test-evaluate/evaluating-tips/"
+    - name: Evaluation Tools
+      url: "/test-evaluate/tools/"
+      pages:
+        - name: Selecting Evaluation Tools
+          url: "/test-evaluate/tools/select/"
+        - name: List of Evaluation Tools
+          url: "/test-evaluate/tools/list/"
+    - name: Conformance Evaluation
+      url: "/test-evaluate/conformance/"
+      pages:
+        - name: WCAG-EM Conformance Methodology
+          url: "/test-evaluate/conformance/methodology/"
+        - name: WCAG-EM Report Tool
+          url: "/test-evaluate/conformance/methodology/report-tool/"
+    - name: Report Template
+      url: "/test-evaluate/evaluation-report-template/"
+    - name: Using Combined Expertise
+      url: "/test-evaluate/combined-expertise/"
+    - name: Involving Users
+      url: "/plan/involving-users/"
+
+- name: Teach & Advocate
+  url: "#"
+  pages:
+    - name: Make Presentations Accessible
+      url: "/teach-advocate/accessible-presentations/"
+    - name: Develop Accessibility Training
+      url: "/accessibility-training/"
+    - name: Presentations You Can Use
+      url: "/teach-advocate/presentations-to-use/"
+    - name: Handouts
+      url: "/teach-advocate/handouts/"
+    - name: Tips for Advocating
+      url: "/teach-advocate/advocating-tips/"
+    - name: Contacting Inaccessible Websites
+      url: "/teach-advocate/contact-inaccessible-websites/"
+    - name: Before and After Demo (BAD)
+      url: "/teach-advocate/bad/"
+
+- name: Standards/ Guidelines
+  url: "#"
+  pages:
+    - name: Components of Web Accessibility
+      url: "/standards/web-accessibility-components/"
+    - name: Web Content - WCAG
+      url: "/standards/wcag/"
+    - name: WAI-ARIA
+      url: "/standards/aria/"
+    - name: Authoring Tools - ATAG
+      url: "/standards/atag/"
+    - name: User Agents - UAAG
+      url: "/standards/uaag/"
+    - name: Evaluation & Report - EARL
+      url: "/standards/earl/"
+    - name: Mobile Accessibility at W3C
+      url: "/standards/mobile-accessibility/"
+    - name: Referencing and Linking to Standards
+      url: "/standards/linking/"
