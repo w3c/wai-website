@@ -2,6 +2,7 @@
 title: Page Structure Concepts
 tutorial_title: Page Structure
 nav_title: Concepts
+permalink: /tutorials/page-structure/
 order: 1
 topic_order: 6
 type: intro

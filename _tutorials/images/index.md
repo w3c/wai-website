@@ -1,6 +1,7 @@
 ---
 title: Images Concepts
 tutorial_title: Images
+permalink: /tutorials/images/
 order: 1
 topic_order: 1
 first_published: "September 2014"

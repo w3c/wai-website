@@ -3,6 +3,7 @@ title: Tables Concepts
 order: 1
 topic_order: 2
 tutorial_title: Tables
+permalink: /tables/menus/
 first_published: "September 2014"
 wcag_success_criteria:
   - 1.3.1

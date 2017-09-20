@@ -3,6 +3,7 @@ title: Forms Concepts
 tutorial_title: Forms
 order: 1
 topic_order: 3
+permalink: /tutorials/forms/
 wcag_success_criteria:
   - 1.3.1
   - 2.4.6
