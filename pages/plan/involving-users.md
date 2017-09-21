@@ -54,7 +54,7 @@ projects.
 How Involving Users Early Helps {#why}
 ---------------------------------------
 
-[Involving users early in web projects ]{.listintro}results in better
+Involving users early in web projects results in better
 products for users, more efficient development, and other benefits to
 project stakeholders.
 
