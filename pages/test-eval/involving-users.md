@@ -1,5 +1,5 @@
 ---
-title: "Involving Users in Evaluation"
+title: "Involving Users in Evaluating Web Accessibility"
 permalink: /test-evaluate/involving-users/
 ---
 
