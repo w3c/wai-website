@@ -19,235 +19,299 @@ support:
     url: http://www.w3.org/WAI/ACT/
 ---
 
+## Contents
+{:.no_toc}
+
+* Content will be replaced by the TOC
 {:toc}
 
-## 1. Definitions
+Involving users early in projects helps you understand real-world
+accessibility issues, such as how people with disabilities and older
+people use the web with [adaptive strategies](#strategies){:.termref} and
+[assistive technologies](#at){:.termref}.
 
-**authoring tool**
-:   Includes WYSIWYG web page editing tools, content management tools,
-    development tool for applet, scripts, or applications, non-text
-    media (e.g. video, audio, images) editing tools, social media
-    content authoring tools (e.g. blogs, wikis, social networks).
+Involving users early helps you implement more effective accessibility
+solutions. It also broadens your perspective in a way that can lead you
+to discover new ways of thinking about your product that will make it
+work better for more people in more situations.
 
-**Authoring Tool Accessibility Guidelines (ATAG)**
-:   Accessibility requirements for web authoring tools, including
-    software and services that are used to produce web content, for
-    example HTML editors, content management systems (CMS), or online
-    forums. ATAG guidelines outline both how to make the tools
-    accessible and also how the tools can be built to help create more
-    accessible content.
+This applies when designing and developing:
 
-**internal website**
-:   Website developed or procured to meet an internal ACME Inc. business
-    need, such as timesheet management. Access to such sites is only
-    available to ACME Inc. members of staff, both permanent and
-    temporary.
+-   Websites and web applications
+-   Browsers, media players, and assistive technologies
+-   Authoring tools such as content management systems (CMS), blog
+    software, and WYSIWYG editors
+-   Accessibility standards and policies
+-   Web technologies and technical specifications, such as HTML
 
-**public website**
-:   Website developed or procured to support or inform ACME Inc.
-    customers and members of the public.
+This page gets you started reaping the benefits of **involving users —
+specifically people with disabilities and older people with
+accessibility needs due to aging — early and throughout different types
+of projects**. A separate page focuses on [including users in
+evaluation](http://www.w3.org/WAI/eval/users.html) for web development
+projects.
 
-**user agent**
-:   Includes browsers, media players and applications that render web
-    content.
+How Involving Users Early Helps {#why}
+---------------------------------------
 
-**User Agent Accessibility Guidelines (UAAG)**
-:   Accessibility requirements for web browsers, media players, and some
-    assistive technologies that process and present web content to
-    users.
+[Involving users early in web projects ]{.listintro}results in better
+products for users, more efficient development, and other benefits to
+project stakeholders.
 
-**Web content**
-:   Includes electronic documents, websites, services, and applications
-    delivered via the web.
+### **Better Accessibility and Better Usability** for All Users
 
-**Web Content Accessibility Guidelines (WCAG) 2.0**
-:   Accessibility requirements for web content, including text, images,
-    audio-visual materials, and the code used for structure, style, and
-    interactions.
+When developers understand accessibility issues, they can implement
+**more effective** accessibility solutions; for example, their website
+will work better and be more usable for people with disabilities, older
+users, and [other target
+groups](http://www.w3.org/WAI/bcase/soc#groups). Making websites and web
+tools more usable for people with a range of disabilities improves
+general usability for everybody, including people *without*
+disabilities. (You could say that involving users with disabilities in
+your development project gives you **improved usability** for free.)
 
-**website**
-:   Includes websites, services, and applications created using Open Web
-    Platform technologies. Note this includes web applications developed
-    solely for mobile platform delivery.
+This benefits not only users, but also stakeholders; for example, when
+websites get [increased
+use](http://www.w3.org/WAI/bcase/fin.html#increase-use) and other
+[business benefits](http://www.w3.org/WAI/bcase/) from increased
+accessibility.
 
-## 2. Policy statement
+### More Efficient Development
 
-1.  All new and redesigned web content published after the effective
-    date of this policy by ACME Inc, both for public and internal
-    websites and services, will conform to WCAG 2.0 Level AA success
-    criteria.
-2.  All existing web content published prior to the effective date of
-    this policy will either be archived or modified to conform to WCAG
-    2.0 Level AA success criteria. Web content hosted on ACME Inc.
-    public websites will be addressed no later than August, 20XX. Web
-    content hosted on internal websites will be addressed no later than
-    September, 2016.
-3.  All internal content management systems (CMS) and web content
-    authoring tools will conform to ATAG Level AA success criteria by
-    Jan, 2016. Where websites, services, or applications provide users
-    with the opportunity to generate content, the interfaces provided
-    will conform to ATAG Level AA.
-4.  All internal user agents will conform to UAAG Level AA success
-    criteria by Jan, 2016. Where user agents are used as part of a
-    website, service, or application, such as a media player, they will
-    conform with UAAG Level AA success criteria by Oct, 20XX.
-5.  This policy does not stipulate any particular technology or design
-    approach. The aim is to maximize access to and use of ACME Inc.
-    websites by people with disabilities.
+Including users in the development process helps you **more efficiently
+develop** accessible products that work well for real users in real
+situations, thus [maximizing your return on investment
+(ROI)](http://www.w3.org/WAI/bcase/) in accessibility.
 
-## 3. Need for policy
+When you understand how people use the web and your particular product,
+you can:
 
-1.  The June 2011 [World Health Organization (WHO) Report on
-    Disability](http://www.who.int/disabilities/world_report/2011/en/index.html)
-    estimated that there are a billion people with disabilities. Many of
-    these disabilities can affect access to information technologies,
-    and/or can benefit from the use of information technologies
-    including the Web.
-2.  Accessibility of the Web is of critical importance to people with
-    disabilities around the world, including people with auditory,
-    cognitive, physical, neurological, and visual disabilities, and is
-    likewise important to those with accessibility needs due to aging.
-3.  Providing accessible web content can also benefit people who do not
-    have disabilities but who are experiencing situational barriers. For
-    instance, when accessing the Web from devices with small screens or
-    in low bandwidth situations, or when experiencing barriers due to
-    language or literacy levels, accessibility solutions can also
-    support improved access.
-4.  ACME Inc. is committed to ensuring equal access for people with
-    disabilities. As potential customers and employees they are
-    important contributor to ACME Inc. business success and should not
-    be excluded.
-5.  As a consequence of this policy, ACME Inc. will meet its legal
-    obligations as defined by the @@@@.
+-   plan accessibility into appropriate project phases from the
+    beginning
+-   more quickly develop accessibility solutions
+-   make informed decisions between different options, avoid wasting
+    time guessing
+-   limit having to go back and fix problems
+-   avoid having to make compromises later because you waited too long
+    to address accessibility
+-   have a better perspective on accessibility standards, guidelines,
+    and other requirements (which you might need to meet now or later,
+    for example, if you sell to the government)
 
-## 4. Responsibilities
+All these benefit developers, project managers, and other stakeholders.
 
-1.  **Accessibility Coordinator**
-    1.  Consolidate annual status reports for presentation to the board
-        at annual review meeting.
-    2.  Prepare and provide accessibility training and guidance.
-    3.  Promote web accessibility awareness internally.
-    4.  Respond to user enquiries related to web accessibility.
-    5.  Organize on-going assessment of the accessibility of websites,
-        content, services, and applications identified as in scope.
-2.  **Web project managers**
-    1.  Ensure compliance with this policy.
-    2.  Prepare project accessibility report at key project stages;
-        analysis, design, development, and QA.
-    3.  Ensure user feedback mechanisms are included as part of project
-        deliverables.
-    4.  Ensure all staff receive appropriate and regular accessibility
-        training.
-3.  **ICT department and webmasters**
-    1.  Choose and implement tools that conform to this policy.
-    2.  Provide tools to support in automated accessibility checking.
-    3.  Remedy identified accessibility barriers.
-4.  **Web content management teams**
-    1.  Ensure all staff receive appropriate and regular accessibility
-        training.
-    2.  Ensure submitted content is compliant with this policy.
-    3.  Fix identified accessibility issues in authored web content.
+### **Motivation**
 
-## 5. Exclusions {#scope}
+When designers and developers see people with disabilities use products
+like theirs, most are highly motivated by a new understanding of
+accessibility. Rather than seeing accessibility as only a checklist
+item, the real-life experience shows the human side of accessibility.
+Designers and developers get a different level of understanding of the
+opportunity for their work to impact lives.
 
-1.  Web content that has been archived is not subject to the standards
-    referenced in this policy.
-2.  Should there be a specific request for access to archived content by
-    any individual with a disability, that content will be made
-    available in a suitable format within 10 business days. Where it is
-    not technically possible to make the content available, a suitable
-    alternative should be agreed with the individual. The department or
-    team responsible for the creation of the content is responsible for
-    making it accessible.
+When managers and stakeholders share such experiences of people with
+disabilities using their products, it often helps get resources budgeted
+and scheduled to address accessibility well.
 
-## 6. Procurement
+How to Involve Users throughout Your Project {#range}
+------------------------------------------------------
 
-1.  This policy applies to all web content developed by or for ACME Inc.
-2.  This policy should be referenced within any contract of services or
-    statements of work for web content, websites, services, or
-    applications.
-3.  Any contract must include provision for an independent statement of
-    conformance stating that the work meets the required standard. This
-    should form part of the deliverables approval process.
+This section focuses on including real people in the process. Note that
+accessibility considerations should be addressed even earlier in the
+project; really from project inception so that accessibility is
+considered early in project planning, budgeting, scheduling, and such.
+Accessibility should also be included in your [user-centered design
+processes (UCD)](http://www.w3.org/WAI/redesign/ucd) or other design
+methodologies and techniques; for example, ensure that the use cases,
+user analysis, personas, scenarios, workflows, design walkthroughs, etc.
+include people with disabilities and older users.
 
-## 7. Syndicated content {#syndicated}
+Below are the basics that you can do yourself to include users in your
+projects. If you have the resources, consider getting assistance from
+accessibility, disability, and user-centered design specialists.
 
-1.  Elements of ACME Inc. websites might include web content syndicated
-    from other providers. For example, a social media stream.
-2.  When considering a syndication service for inclusion in any of ACME
-    Inc. websites, any service review should include an evaluation of
-    the accessibility of the service. Such evaluations must form a part
-    of the service selection criteria.
-3.  Where a service is selected with known accessibility issues, ACME
-    Inc. will develop or procure a solution that ensures the content
-    delivered via ACME Inc. websites meets the policy standards.
+### Including Users to Understand the Issues
 
-## 8. Reporting
+As early as possible in your project:
 
-1.  Each department with responsibility for web content, websites,
-    services, or applications must submit an annual status report to the
-    Accessibility Coordinator.
-2.  The status report will summarize the efforts and progress towards
-    the aims defined by this policy.
+1.  Learn the basics of [how people with disabilities use the
+    web](http://www.w3.org/WAI/intro/people-use-web.php) by reading
+    online resources and watching videos.
+2.  Find people with disabilities, with a range of characteristics. See
+    [Getting a Range of Users](#diverse) and [Working with Users](#with)
+    below.
+3.  Early on, learn about general issues related to what you are
+    developing, *e.g., websites, web tools, standards, or other
+    products*. Ask people to show you websites or related products that
+    work well for them. Then, ask them to show you problems in products
+    that do not work well. Ask lots of questions to help you understand
+    the accessibility issues.
 
-## 9. Policy review
+### Including Users in Implementation
 
-1.  This policy shall be reviewed at least once a year by the
-    Accessibility Coordinator.
-2.  The review should include input from ICT, Marketing, HR, and Legal.
+For example, for websites, web applications, and web tools:
 
-## 10. Contacts
+4.  When you are considering a specific design aspect, such as
+    expanding/collapsing navigation, find other products that are
+    already doing it and have users explore with you what works well and
+    what does not.
+5.  Throughout your design and development, ask users to review
+    prototypes. Give them specific tasks to complete and see how the
+    different aspects of the design and coding could be improved. Ask
+    lots of questions.
 
-1.  **Accessibility Coordinator** Jessie Grant, (555) 123-1234,
-    <jessie@acme.inc>
+For more in this, see [Involving Users in Evaluating Web
+Accessibility](http://www.w3.org/WAI/eval/users), especially the
+sections on [Analyzing Accessibility
+Issues](http://www.w3.org/WAI/eval/users#analyz) and [Drawing
+Conclusions and Reporting](http://www.w3.org/WAI/eval/users#drawing).
 
-## 11. Documents
+### Carefully Consider Input
 
-**W3C WCAG 2.0**: <http://www.w3.org/TR/WCAG20/>\
-**W3C ATAG 2.0**:
-[http://www.w3.org/TR/WCAG20/](http://www.w3.org/TR/ATAG20/ "W3C ATAG 2.0")\
-**W3C UAAG 2.0**:
-[http://www.w3.org/TR/WCAG20/](http://www.w3.org/TR/UAAG20/ "W3C UAAG 2.0")\
+<mark>**Caution:** Carefully consider all input and **avoid assuming that
+input from one person with a disability applies to all people with
+disabilities**.</mark> A person with a disability does not
+necessarily know how other people with the same disability interact with
+the web, nor know enough about other disabilities to provide valid
+guidance on other accessibility issues. Getting input from a range of
+users is best.
 
-## 12. Review history {#reviewdetails}
---------------
+Getting a Range of Users {#diverse}
+------------------------------------
 
-**Last reviewed:** dd-MMM-YYYY
+People with disabilities are as diverse as any people. They have diverse
+experiences, expectations, and preferences. They use diverse interaction
+techniques, [adaptive strategies](#strategies){:.termref}, and [assistive
+technology](#at){:.termref} configurations. People have different
+disabilities: auditory, cognitive, neurological, physical, speech, and
+visual — and some have multiple disabilities. Even within one category,
+there is extreme variation; for example, "visual disability" includes
+people who have been totally blind since birth, people who have
+distortion in their central vision from age-related degeneration, and
+people who temporarily have blurry vision from an injury or disease.
 
-**Review comments:** ...
+Include users with a variety of disabilities and [user
+characteristics](#userchars){.termref}. Most projects have limited time
+and budget and cannot include many different users. Selecting the
+optimum number of users with the best suited characteristics can be
+difficult. There are resources on the web that provide guidance on
+selecting participants with disabilities; for example, [determining
+participant characteristics](http://www.uiaccess.com/accessucd/ut_plan.html#characteristics)
+and [finding participants with disabilities](http://www.uiaccess.com/accessucd/ut_plan.html#recruiting).
 
- 
-<table>
-  <thead>
-    <tr>
-      <td>&nbsp;</td>
-      <th scope="col">Name</th>
-      <th scope="col">Title</th>
-      <th scope="col">Signature</th>
-      <th scope="col">Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Author</th>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th scope="row">Reviewer</th>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <th scope="row">Authorizer</th>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
+### Users' Experience Interacting with the Web {#experience}
+
+A primary consideration in selecting users is their experience
+interacting with the web. For example, some [assistive
+technologies](#at){.termref} (AT) are complicated and difficult to
+learn. A user with insufficient experience may not know how to use the
+AT effectively. On the other hand, a very advanced user might know
+uncommon work-arounds to overcome problems in a website that the
+"average" user would not be able to handle.
+
+In the early stages when you are first learning how people with
+disabilities interact with the web, it is usually best to get people
+with a fairly high experience level. ([Involving Users in Evaluating Web
+Accessibility](../eval/users) says more about different experience
+levels in later evaluation phases.)
+
+Working with Users {#with}
+---------------------------
+
+Follow common practices for working with people informally and formally,
+for example:
+
+-   Develop appropriate relationships with your users. For example,
+    spending time talking informally over lunch may help you work
+    together more comfortably.
+-   Ensure informed consent and other research ethics. For example,
+    participants in studies should be told that they are free to stop at
+    any time.
+-   Treat people with disabilities and older users with the respect you
+    would any other users. For example, respect their time and provide
+    appropriate compensation.
+
+There are resources on the web that provide detailed guidance on working
+with users; for example, [Interacting with People with
+Disabilities](http://uiaccess.com/accessucd/interact.html),
+[Assistive Technology and Location](http://www.uiaccess.com/accessucd/involve.html#atloc),
+and [The RESPECT Code of Practice](http://www.respectproject.org/code/charm.php?id=).
+
+Combine User Involvement with Standards
+------------------------------------------------
+{:#stds}
+
+While including users with disabilities and older users with
+accessibility needs is key to making your accessibility efforts more
+effective and more efficient, that alone cannot address all issues. Even
+large projects cannot cover the [diversity](#diverse) of disabilities,
+adaptive strategies, and assistive technologies. That is **the role of
+accessibility standards**.
+
+-   For websites and web applications, using comprehensive standards
+    such as [Web Content Accessibility Guidelines (WCAG)
+    2.0](/WAI/intro/wcag) helps ensure that you address all issues.
+    Combine user involvement with [evaluating conformance to
+    WCAG](http://www.w3.org/WAI/eval/conformance.html) to ensure that
+    accessibility is provided to users with a range of disabilities and
+    situations.
+-   For authoring tools such as content management systems (CMS), blog
+    software, and WYSIWYG editors, follow [Authoring Tool Accessibility
+    Guidelines (ATAG)](http://www.w3.org/WAI/intro/atag.php).
+-   For browsers, media players, and other 'user agents', follow [User
+    Agent Accessibility Guidelines
+    (UAAG)](http://www.w3.org/WAI/intro/uaag.php).
+
+[More Information and Guidance]{#fmi}
+-------------------------------------
+
+This document briefly addresses a few points of a very complex topic.
+Many resources on other aspects of involving users throughout projects
+are available on the web, such as:
+
+-   [Involving Users in Evaluating Web
+    Accessibility](http://www.w3.org/WAI/eval/users.html) provides more
+    details on specifically on evaluation with users.
+-   [Recommendations - User Empowerment in Standardisation](http://www.usem-net.eu/index.php?Itemid=77&option=com_content)
+    links to recommendations for end users, user organizations, and
+    others in the standardization process.
+-   [Just Ask: Integrating Accessibility Throughout Design](http://www.uiaccess.com/accessucd/overview.html)
+    provides detailed guidance on incorporating accessibility throughout
+    projects. For example, see [Incorporating Accessibility Early and
+    Throughout](http://uiaccess.com/accessucd/early.html).
+
+[Terminology]{#terms}
+---------------------
+
+**adaptive strategies**{#strategies}
+:   Adaptive strategies are techniques that people with disabilities use
+    to improve interaction with the web, such as increasing the font
+    size in a common browser. Adaptive strategies include techniques
+    with mainstream browsers or with [assistive
+    technologies](#at){.termref}.
+
+**assistive technologies**{:#at}
+:   Assistive technologies are software or equipment that people with
+    disabilities use to improve interaction with the web, such as
+    [**screen readers**]{#screenreader} that read aloud web pages for
+    people who cannot read text, **screen magnifiers** for people with
+    some types of low vision, and **voice recognition software** and
+    **selection switches** for people who cannot use a keyboard or
+    mouse.
+
+**user characteristics**{:#userchars}
+:   User characteristics typically include things like age, job
+    responsibilities, software, hardware, environment (for example,
+    home, shared office, private office, shared public terminal),
+    computer experience, and web experience.User characteristics can
+    also include type of disability, [adaptive
+    strategies](#strategies){.termref} used, and experience with
+    specific [assistive technologies](#at){.termref}.
+
+**web content**{:#content}
+:   Web "content" generally refers to the information in a web page or
+    web application, including text, images, forms, sounds, and such.
+    More specific definitions are available in the WCAG documents, which
+    are linked from the [Web Content Accessibility Guidelines (WCAG)
+    Overview](http://www.w3.org/WAI/intro/wcag).
+
