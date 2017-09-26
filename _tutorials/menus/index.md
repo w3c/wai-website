@@ -4,7 +4,7 @@ tutorial_title: Menus
 permalink: /tutorials/menus/
 nav_title: Concepts
 order: 1
-topic_order: 6
+group: menus
 type: intro
 wcag_success_criteria:
   - 2.4.3
@@ -35,13 +35,13 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 ---
 Menus are used for navigation and to provide functionality which are critical parts of web page operability.
 
-* **[Structure](structure.html):** Mark up menus in a way that reflects their structure and appropriately labels them.
+* **[Structure]({% link _tutorials/menus/structure.md %}):** Mark up menus in a way that reflects their structure and appropriately labels them.
 
-* **[Styling](styling.html):** Use commonly recognized design patterns to distinguish menus and the state of menu items.
+* **[Styling]({% link _tutorials/menus/styling.md %}):** Use commonly recognized design patterns to distinguish menus and the state of menu items.
 
-* **[Fly-out Menus](flyout.html):** Ensure fly-out (drop-down) submenus can be used appropriately by mouse and keyboard.
+* **[Fly-out Menus]({% link _tutorials/menus/flyout.md %}):** Ensure fly-out (drop-down) submenus can be used appropriately by mouse and keyboard.
 
-* **[Application Menus](application-menus.html):** Add specific markup and keyboard behavior to resemble desktop application menus.
+* **[Application Menus]({% link _tutorials/menus/application-menus.md %}):** Add specific markup and keyboard behavior to resemble desktop application menus.
 
 ## Why is this important?
 

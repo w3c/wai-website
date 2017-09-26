@@ -1,6 +1,7 @@
 ---
 title: "Application Menus"
 order: 5
+group: menus
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -25,8 +26,8 @@ In addition to the `aria-expanded` and `aria-haspopup` attributes, the following
 {:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <ul role="menubar" id="appmenu">
@@ -47,8 +48,8 @@ In addition to the `aria-expanded` and `aria-haspopup` attributes, the following
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}<%= ref :middle %>{:/}
 
@@ -67,8 +68,8 @@ Web application menus are expected to work like desktop application menus. For e
 To allow focus to be set to menu items by keyboard, the items are given a `tabindex` attribute with the value `-1`. The first main menu item (“File” in this example) is assigned a `tabindex` value of `0` which adds it to the tab order and lets the user access the menu using the keyboard.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~js
 Array.prototype.forEach.call(appsMenuItems, function(el, i){
@@ -88,8 +89,8 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Top-Level Menu Items
 

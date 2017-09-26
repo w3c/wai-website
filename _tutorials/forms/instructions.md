@@ -1,6 +1,7 @@
 ---
 title: Form Instructions
 order: 4
+group: forms
 wcag_success_criteria:
   - 1.3.1
   - 2.4.6
@@ -36,8 +37,8 @@ Where relevant, provide overall instructions that apply to the entire form. For 
 In the example below, form instructions indicate how required fields are marked, the expected format for the main data fields, and where to find additional help for each input.
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 - All fields marked “required” must be completed.
 - Dates should all be typed in the format dd/mm/yyyy, (as in 21/07/2013).
@@ -45,8 +46,8 @@ In the example below, form instructions indicate how required fields are marked,
 - Extra help can be found immediately after each field.
 
 {::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## In-line instructions
 {:.newex}
@@ -61,7 +62,8 @@ For simple use cases, providing instructions within labels may be sufficient. Th
 In the example below, the required format for the “Expiration Date” is indicated by “MM/YYYY” within the same label:
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="#">
 	<div>
@@ -69,20 +71,21 @@ In the example below, the required format for the “Expiration Date” is indic
 	</div>
 </form>
 
-<%= sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <label for="expire">Expiration date (MM/YYYY): </label> <input type="text" name="expire" id="expire">
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Providing instructions outside labels
 {:.newex}
@@ -95,7 +98,8 @@ Providing instructions outside of labels allows more flexible positioning and de
 One approach is to use the WAI-ARIA `aria-labelledby` attribute to associate instructions with form controls. At the time of writing this tutorial, this approach is not fully supported by all web browsers and assistive technologies, for example, Braille displays. To ensure backward compatibility, the `for` and `id` attributes are also used in this example.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <style>
 	#ex3 span {
@@ -117,12 +121,13 @@ One approach is to use the WAI-ARIA `aria-labelledby` attribute to associate ins
 	</div>
 </form>
 
-<%= sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <label id="expLabel" for="expire" tabindex="-1">Expiration date:</label>
@@ -133,18 +138,18 @@ One approach is to use the WAI-ARIA `aria-labelledby` attribute to associate ins
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** At the time of writing those tutorials, it is necessary to add `tabindex="-1"` to elements that are referenced by `aria-labelledby` or `aria-describedby` if those attributes point to _two or more_ elements to make this technique work in Internet Explorer.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 #### Using `aria-describedby`
 {:.ap}
@@ -152,8 +157,8 @@ One approach is to use the WAI-ARIA `aria-labelledby` attribute to associate ins
 By using `aria-describedby` to reference the format of the field, this information is made available to the users on request. That is, it is not automatically displayed or read aloud. This makes sense if the user has been informed of the format before, or when there are lots of input fields with the same format, for example.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <label id="expLabel" for="expire">Expiration date:</label>
@@ -164,8 +169,8 @@ By using `aria-describedby` to reference the format of the field, this informati
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Placeholder text
 {:.newex}
@@ -174,10 +179,11 @@ Placeholder text provides instructions or an example of the required data format
 
 While placeholder text provides valuable guidance for many users, **placeholder text is not a replacement for labels**. Assistive technologies, such as screen readers, do not treat placeholder text as labels. Moreover, at the time of writing this tutorial, placeholder text is not broadly supported across assistive technologies and not displayed in older web browsers.
 
-Note: Section [Hidden labels](labels.html#hidden) of this tutorial describes how to hide information visually but keep it available to assistive technology. This same approach can be used to avoid visual redundancy of displaying both labels and placeholder text. Be aware that this makes it very hard for users to review the form. To avoid this problem, JavaScript can be used to make labels appear visually (in the associated label element) above or beside the input that has focus.
+Note: Section [Hidden labels]({% link _tutorials/forms/labels.md %}#hidden) of this tutorial describes how to hide information visually but keep it available to assistive technology. This same approach can be used to avoid visual redundancy of displaying both labels and placeholder text. Be aware that this makes it very hard for users to review the form. To avoid this problem, JavaScript can be used to make labels appear visually (in the associated label element) above or beside the input that has focus.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="#">
 	<div>
@@ -210,12 +216,13 @@ Note: Section [Hidden labels](labels.html#hidden) of this tutorial describes how
 }
 </style>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <div>
@@ -227,16 +234,16 @@ Note: Section [Hidden labels](labels.html#hidden) of this tutorial describes how
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Styling
 
 At the time of writing this tutorial, web browsers usually display the placeholder text in a color that does not meet the [minimum contrast requirement of WCAG 2.0](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast). This means they are hard to see for many people. Web browsers use a combination of color and opacity to achieve this effect. In most web browsers the color of the placeholder can be styled using proprietary CSS selectors. The following code snippet sets the color to a light gray, which has just enough contrast to meet the contrast requirement, assuming the background of the element is white.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ css
 ::-webkit-input-placeholder {
@@ -261,5 +268,5 @@ At the time of writing this tutorial, web browsers usually display the placehold
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

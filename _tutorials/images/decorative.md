@@ -1,6 +1,7 @@
 ---
 title: Decorative Images
 technologies: WAI-ARIA, HTML5
+group: images
 wcag_techniques:
   - H2
   - H67
@@ -19,7 +20,7 @@ Decorative images don’t add information to the content of a page. For example,
 
 In these cases, a null (empty) `alt` text should be provided (`alt=""`) so that they can be ignored by assistive technologies, such as screen readers. Text values for these types of images would add audible clutter to screen reader output or could distract users if the topic is different from that in adjacent text. Leaving out the `alt` attribute is also not an option because when it is not provided, some screen readers will announce the file name of the image instead.
 
-Whether to treat an image as decorative or [informative](informative.html) is a judgment that only the author can make, based on the reason for including the image on the page. Images may be decorative when they are:
+Whether to treat an image as decorative or [informative]({% link _tutorials/images/informative.md %}) is a judgment that only the author can make, based on the reason for including the image on the page. Images may be decorative when they are:
 
 -   Visual styling such as borders, spacers, and corners;
 -   Supplementary to link text to improve its appearance or increase the clickable area;
@@ -35,50 +36,50 @@ This image is used as a border in the page design and has a purely
 decorative purpose.
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-![](topinfo_bg.png)
-
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+![](../../img/topinfo_bg.png)
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <img src="topinfo_bg.png" alt="">
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 Screen readers also allow the use of WAI-ARIA to hide elements by using `role="presentation"`. However, currently, this feature is not as widely supported as using a null `alt` attribute.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <img src="topinfo_bg.png" role="presentation">
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** If the image was used to indicate a thematic break, e.g. a scene change in a story, or a transition to another topic, using the `<hr>` element would be appropriate to notify assistive technology.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Decorative image as part of a text link
 {:.ex}
@@ -86,18 +87,18 @@ Screen readers also allow the use of WAI-ARIA to hide elements by using `role="p
 This illustration of a crocus bulb is used to make the link easier to identify and to increase the clickable area but doesn’t add to the information already provided in the adjacent link text (of the same anchor). In this case, use a null (empty) `alt` value for the image.
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-[![](crocus.jpg){:style="vertical-align: middle; margin-right: 1em;"}**Crocus bulbs**](../beyond.html)
-
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+[![](../../img/crocus.jpg){:style="vertical-align: middle; margin-right: 1em;"}**Crocus bulbs**](../beyond.md %})
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <a href="crocuspage.html">
@@ -107,8 +108,8 @@ This illustration of a crocus bulb is used to make the link easier to identify a
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Image with adjacent text alternative
 {:.ex}
@@ -116,18 +117,18 @@ This illustration of a crocus bulb is used to make the link easier to identify a
 This picture of a sleeping dog is already sufficiently described by the adjacent text. There is no need to repeat this information, and a null (empty) `alt` value can be used for this image.
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-![](../img/sleeping.jpg){:style="float:left; margin-right: 1em;"} **The sleeping dog:** Let sleeping dogs lie is a proverb that means “don’t initiate trouble. If something that could be troublesome is quiet, then leave it alone”.
-
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+![](../../img/sleeping.jpg){:style="float:left; margin-right: 1em;"} **The sleeping dog:** Let sleeping dogs lie is a proverb that means “don’t initiate trouble. If something that could be troublesome is quiet, then leave it alone”.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <p>
@@ -137,8 +138,8 @@ This picture of a sleeping dog is already sufficiently described by the adjacent
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Image used for ambiance (eye-candy)
 {:.ex}
@@ -146,33 +147,33 @@ This picture of a sleeping dog is already sufficiently described by the adjacent
 This image is used only to add ambiance or visual interest to the page.
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-![](kew.jpg){:style="float:left; margin-right: 1em;"} Don’t miss the impressive Tropical House – a huge greenhouse that displays examples of exotic plant-life from every tropical environment on the planet.
-
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+![](../../img/kew.jpg){:style="float:left; margin-right: 1em;"} Don’t miss the impressive Tropical House – a huge greenhouse that displays examples of exotic plant-life from every tropical environment on the planet.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <img src="tropical.jpg" alt="">
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
-**Note:** If the purpose of this image was to identify a plant or convey other information, rather than just to improve the look of the page, it should probably be treated as [informative](informative.html). The author determines the purpose for the use of the image.
+**Note:** If the purpose of this image was to identify a plant or convey other information, rather than just to improve the look of the page, it should probably be treated as [informative]({% link _tutorials/images/informative.md %}). The author determines the purpose for the use of the image.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}

@@ -1,6 +1,7 @@
 ---
 title: Labeling Regions
 order: 3
+group: page-structure
 wcag_success_criteria:
   - 2.4.1
   - 2.4.6
@@ -27,8 +28,8 @@ Provide labels to distinguish two page regions of the same type, such as “main
 Use `aria-labelledby` to point to an existing element by its (unique) `id`. The label of the region is the content of the referenced element. Every element can be a label this way. Labels should be short and descriptive. If a heading is present in the region, consider using it as the label:
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <nav aria-labelledby="regionheading">
@@ -38,8 +39,8 @@ Use `aria-labelledby` to point to an existing element by its (unique) `id`. The 
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= ref :middle %>
@@ -68,8 +69,8 @@ Use the WAI-ARIA `aria-label` attribute to label the region. Consider this appro
 {:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <nav aria-label="Main Navigation">
@@ -78,14 +79,14 @@ Use the WAI-ARIA `aria-label` attribute to label the region. Consider this appro
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= demo :middle %>
 {:/}
 
-View a [complete code example](example.html) with regions and labels.
+View a [complete code example]({% link _tutorials/page-structure/example.md %}) with regions and labels.
 
 {::nomarkdown}
 <%= demo :end %>

@@ -1,7 +1,6 @@
 ---
 title: Long description
 source: ../complex.html#image-containing-substantial-information
-layout: fullcode
 ---
 
 ## Site visitors for example.com

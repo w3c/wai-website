@@ -1,6 +1,7 @@
 ---
 title: User Notifications
 order: 6
+group: forms
 wcag_success_criteria:
   - 3.3.1
   - 3.3.3
@@ -33,34 +34,38 @@ When a form is submitted, it is important that the user is notified whether the 
 A common way to provide feedback is by using the main heading of the web page, usually, the most prominently displayed `<h1>` or `<h2>` element. This technique is particularly useful when forms are processed by the server, but can also be useful for client-side scripting.
 
 {::nomarkdown}
-<%= code_start('','Error') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: Error" class="example" %}
+{:/}
+
 ~~~html
 <h1>3 Errors – Billing Address</h1>
 ~~~
-{::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start('','Success') %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code: Success" class="example" %}
+{:/}
+
 ~~~html
 <h1>Thank you for submitting your order.</h1>
 ~~~
-{::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** The primary purpose of the main heading is still to identify the web page that the user is currently on. When the user is sent back to the same web page because of an error, then a simple indication using the word “error” and possibly the number of errors is helpful.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ###  Using the page title
 {:.ex}
@@ -68,24 +73,28 @@ A common way to provide feedback is by using the main heading of the web page, u
 The `<title>` element of the web page can be useful to indicate successes and errors. In particular, screen reader users will receive this feedback immediately when the web page is loaded. This can be helpful when the main heading is located deeper within the content, for example, after the navigation menus.
 
 {::nomarkdown}
-<%= code_start('','Error') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: Error" class="example" %}
+{:/}
+
 ~~~html
 <title>3 Errors – Billing Address</title>
 ~~~
-{::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start('','Success') %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code: Success" class="example" %}
+{:/}
+
 ~~~html
 <title>Thank you for submitting your order.</title>
 ~~~
+
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Using dialogs
 {:.ex}
@@ -97,7 +106,8 @@ JavaScript provides a very basic alert dialog box that provides proper keyboard 
 The basic example below shows a pop-up that is displayed when the user activates the “save” button. A message is displayed in the dialog box, and the web page is disabled until the user selects “OK”.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <button id="alertconfirm" type="button">Save</button>
 
@@ -105,22 +115,26 @@ The basic example below shows a pop-up that is displayed when the user activates
 	document.getElementById('alertconfirm').addEventListener('click', function(){ alert('Thanks for submitting the form!'); });
 </script>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
+
 ~~~html
 <button type="button" id="alertconfirm">Save</button>
 ~~~
-{::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start('','JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
+
 ~~~js
 document.getElementById('alertconfirm')
 	.addEventListener('click', function() {
@@ -129,8 +143,8 @@ document.getElementById('alertconfirm')
 	});
 ~~~
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Listing errors
 {:.ex}
@@ -145,7 +159,9 @@ When errors occur, it is helpful to list them at the top of the page, before the
 Sometimes, for example, when using AJAX techniques, the browser is not loading a new page but shows changes, such as form errors, dynamically on the page. The list of errors should be inserted into a prominent container on the top to inform the user in such a case. In addition to the advice above, this container should have the `role` attribute set to `alert` to make assistive technology users aware of this change.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
+
 <div role="alert">
   <h4 role="presentation">There are 2 errors in this form</h4>
   <ul>
@@ -161,12 +177,14 @@ Sometimes, for example, when using AJAX techniques, the browser is not loading a
   	</li>
   </ul>
 </div>
-<%= sample_end%>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <div role="alert">
@@ -187,14 +205,14 @@ Sometimes, for example, when using AJAX techniques, the browser is not loading a
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 Also, form fields can be associated with the corresponding error message using aria-describedby.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <label for="firstname">First Name:</label>
@@ -202,15 +220,15 @@ Also, form fields can be associated with the corresponding error message using a
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## In-line feedback
 {:.newap#inline}
 
 In addition to overall feedback, more specific feedback at or near the form controls can better help users to use your form. This includes feedback to indicate correctly entered input as well as errors in the input.
 
-Typically a combination of messages and visual cues are used to provide in-line feedback. For example, valid input can be indicated by a checkmark (✓) and green border, while errors can be indicated by an error icon (like a red ✗ or an exclamation mark) and red border. Error messages should also provide guidance on how to correct mistakes. The concepts for such error messages are essentially the same as for providing [instructions](instructions.html).
+Typically a combination of messages and visual cues are used to provide in-line feedback. For example, valid input can be indicated by a checkmark (✓) and green border, while errors can be indicated by an error icon (like a red ✗ or an exclamation mark) and red border. Error messages should also provide guidance on how to correct mistakes. The concepts for such error messages are essentially the same as for providing [instructions]({% link _tutorials/forms/instructions.md %}).
 
 ### After submit
 {:.ap}
@@ -222,7 +240,8 @@ When the form is submitted, the entries are checked, and feedback is provided to
 If the submitted data contains errors, it is convenient to set the focus to the first `<input>` element that contains an error.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <style>
 	#ex3 div {margin-bottom:.75em;}
@@ -285,12 +304,13 @@ document.getElementById('ex3').addEventListener('submit', function(event){
 	return false;
 });
 </script>
-<%= sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <div class="success">
@@ -318,12 +338,12 @@ document.getElementById('ex3').addEventListener('submit', function(event){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'CSS') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: CSS" class="example" %}
+{:/}
 
 ~~~css
 .error   { color: #900; }
@@ -333,8 +353,8 @@ document.getElementById('ex3').addEventListener('submit', function(event){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### During typing
 {:.ap.newex}
@@ -347,7 +367,8 @@ Instant feedback during typing can be extremely helpful. For example, checking t
 In the following example, the availability of a username is checked instantly while the user is typing text in the input field. Corresponding success and error messages are displayed without the user needing to submit the form.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="#">
 	<div>
@@ -384,12 +405,13 @@ In the following example, the availability of a username is checked instantly wh
 	});
 </script>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <div>
@@ -400,12 +422,12 @@ In the following example, the availability of a username is checked instantly wh
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~ js
 document.getElementById('username').addEventListener('keyup', function(){
@@ -436,18 +458,18 @@ document.getElementById('username').addEventListener('keyup', function(){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** The displayed message in this example is coded using a `<span>` element that has an `aria-live` attribute with the value `polite`. The contents of this so called “live region” are conveyed to screen readers and other assistive technology. The value “polite” de-emphasizes the importance of the message and does not cause screen readers to interrupt their current tasks to read aloud this message. Thus the message is only read once when the user stops typing rather than on every keystroke that the user makes.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 #### Scaled feedback
 {:.ex.inap}
@@ -455,17 +477,18 @@ document.getElementById('username').addEventListener('keyup', function(){
 The example below illustrates a range of possible types of feedback in addition to success and error messages. In the example, the strength of the password is checked as it is typed by the user. The feedback indicates a scale of how strong the password is. The feedback is indicated using several cues, including color coding, a barometer, and label “Weak”, “Okay”, and “Strong”, as well as the time that would be needed to crack the password.
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 The password is shown in plain text for demonstration purposes.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="#">
 	<label for="ex2_password">Password:</label>
@@ -521,10 +544,11 @@ document.getElementById('ex2_password').addEventListener('keyup',
 
 </script>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
-[See commented example code in full.](examples/password.html)
+[See commented example code in full.]({% link _tutorials/forms/examples/password.md %})
 
 ### On focus change
 {:.ap}
@@ -534,7 +558,8 @@ In some cases, it does not make sense to check input as it is being typed by the
 In the example below, the user is expected to provide an expiry date. The input is checked when the user leaves the form field, for example, by using the tab key to move the focus to the next field or by clicking on another field.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <style>
 	#ex4 div {margin-bottom:.75em;}
@@ -584,12 +609,13 @@ for (var i = inputs.length - 1; i >= 0; i--) {
 };
 
 </script>
-<%= sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 ~~~html
 <div>
 	<label for="expire"><strong></strong> Expiry date:</label>
@@ -598,15 +624,15 @@ for (var i = inputs.length - 1; i >= 0; i--) {
 </div>
 ~~~
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** The displayed message in this example is coded using a `<span>` element that has an `aria-live` attribute with the value `assertive`. The contents of this so called “live region” is conveyed to screen readers and other assistive technology. The value “assertive” emphasizes the importance of the message and causes screen readers to interrupt their current tasks to read aloud this message. Thus the message is read aloud before the next element that received the focus is announced to the user.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}

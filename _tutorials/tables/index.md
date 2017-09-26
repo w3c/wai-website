@@ -1,7 +1,7 @@
 ---
 title: Tables Concepts
 order: 1
-topic_order: 2
+group: tables
 tutorial_title: Tables
 permalink: /tables/menus/
 first_published: "September 2014"
@@ -26,15 +26,15 @@ Header cells must be marked up with `<th>`, and data cells with `<td>` to make t
 
 This tutorial shows you how to apply appropriate structural markup to tables. It includes the following pages:
 
--   **[Tables with one header![](img-simple.png)](one-header.html)** for rows or columns: For tables with content that is easy to distinguish, mark up header cells with `<th>` and data cells with `<td>` elements.
+-   **[Tables with one header![](img-simple.png)]({% link _tutorials/tables/one-header.md %})** for rows or columns: For tables with content that is easy to distinguish, mark up header cells with `<th>` and data cells with `<td>` elements.
 
--   **[Tables with two headers![](img-multidir.png)](two-headers.html)** have a simple row header and a simple column header: For tables with unclear header directions, define the direction of each header by setting the `scope` attribute to `col` or `row`.
+-   **[Tables with two headers![](img-multidir.png)]({% link _tutorials/tables/two-headers.md %})** have a simple row header and a simple column header: For tables with unclear header directions, define the direction of each header by setting the `scope` attribute to `col` or `row`.
 
--   **[Tables with irregular headers![](img-irreg.png)](irregular.html)** have header cells that span multiple columns and/or rows: For these tables, define column and row groups and set the range of the header cells using the `colgroup` and `rowgroup` values of the scope attribute.
+-   **[Tables with irregular headers![](img-irreg.png)]({% link _tutorials/tables/irregular.md %})** have header cells that span multiple columns and/or rows: For these tables, define column and row groups and set the range of the header cells using the `colgroup` and `rowgroup` values of the scope attribute.
 
--   **[Tables with multi-level headers![](img-multi.png)](multi-level.html)**  have multiple header cells associated per data cell:  For tables that are so complex that header cells can’t be associated in a strictly horizontal or vertical way, use `id` and `headers` attributes to associate header and data cells explicitly.
+-   **[Tables with multi-level headers![](img-multi.png)]({% link _tutorials/tables/multi-level.md %})**  have multiple header cells associated per data cell:  For tables that are so complex that header cells can’t be associated in a strictly horizontal or vertical way, use `id` and `headers` attributes to associate header and data cells explicitly.
 
--   **[Caption & Summary![](img-caption.png)](caption-summary.html):** A caption identifies the overall topic of a table and is useful in most situations. A summary provides orientation or navigation hints in complex tables.
+-   **[Caption & Summary![](img-caption.png)](caption-summary.md %}):** A caption identifies the overall topic of a table and is useful in most situations. A summary provides orientation or navigation hints in complex tables.
 {:.withicons.nobullets}
 
 Some document formats other than HTML, such as PDF, provide similar mechanisms to markup table structures. Word processing applications may also provide mechanisms to markup tables. Tables markup is often lost when converting from one format to another, though some programs may provide functionality to assist converting table markup.
@@ -42,14 +42,14 @@ Some document formats other than HTML, such as PDF, provide similar mechanisms t
 Many web authoring tools and content management systems (CMS) provide functions to define header cells during table creation without having to edit the code manually.
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Notes:** This tutorial provides guidance for creating tables used to display data in a grid. This tutorial does not apply to tables used for layout. As a general rule, tables aren't meant to be used for layout purposes. Instead, a best practice is to use Cascading Style Sheets (CSS) for visual presentation.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Why is this important?
 

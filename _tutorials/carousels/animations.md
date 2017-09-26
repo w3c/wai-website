@@ -4,6 +4,7 @@ order: 4
 wcag_success_criteria:
   - 2.2.2
 first_published: "May 2015"
+group: carousels
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -23,56 +24,56 @@ Provide a button to allow users to stop and resume animation. The example below 
 {:/}
 
 {::nomarkdown}
-<%= code_start('','While animation is running') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: While animation is running" class="code" %}
+{:/}
 
 ~~~html
 <button data-action="stop"><span class="visuallyhidden">Stop Animation </span>￭</button>
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','While animation is stopped') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: While animation is stopped" class="code" %}
+{:/}
 
 ~~~html
 <button data-action="start"><span class="visuallyhidden">Start Animation </span>▶</button>
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= demo :middle %>
 {:/}
 
-A [working demo example](working-example.html) for this code is available.
+A [working demo example]({% link _tutorials/carousels/working-example.md %}) for this code is available.
 
 {::nomarkdown}
 <%= demo :end %>
 {:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** The JavaScript only replaces the value of the `<button>` element and its attributes. Replacing the entire button would result in loss of keyboard focus.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Pause on mouse hover and keyboard focus
 
 Pause the carousel animation when the mouse pointer is hovering over the carousel or when it receives keyboard focus. Pausing on mouse hover is useful for people who need more time to read the content and makes it easier to click links in the carousel. Keyboard users do not lose their position when the carousel is paused.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~js
 carousel.addEventListener('mouseenter', suspendAnimation);
@@ -95,18 +96,18 @@ carousel.addEventListener('focusout',
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** The [`focusin`](https://www.w3.org/TR/DOM-Level-3-Events/#event-type-focusIn) and [`focusout`](https://www.w3.org/TR/DOM-Level-3-Events/#event-type-focusout) events are defined in the [W3C Document Object Model (DOM) Level 3 Events Specification](https://www.w3.org/TR/DOM-Level-3-Events/) (Working Draft) and implemented in many browsers. Firefox needs [a short polyfill](full-code.html) at the time of publication of this tutorial.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Hiding transitioning elements from assistive technologies
 
@@ -115,8 +116,8 @@ During transitions, the current and next items are visible. This also means that
 In the following example, the item that is being activated gets an `in-transition` class that makes it visible. The `aria-hidden` is attribute set to `true` to hide the item from assistive technologies. When the transition completes, the `aria-hidden` attribute is removed.
 
 {::nomarkdown}
-<%= code_start('', 'JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="code" %}
+{:/}
 
 ~~~js
 
@@ -133,5 +134,5 @@ slides[new_current].removeAttribute('aria-hidden');
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

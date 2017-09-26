@@ -3,6 +3,7 @@ title: Complete Code
 order: 7
 type: tips
 first_published: "May 2015"
+group: carousels
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -389,5 +390,5 @@ carousel.init({
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

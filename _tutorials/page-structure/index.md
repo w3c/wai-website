@@ -2,6 +2,7 @@
 title: Page Structure Concepts
 tutorial_title: Page Structure
 nav_title: Concepts
+group: page-structure
 permalink: /tutorials/page-structure/
 order: 1
 topic_order: 6
@@ -22,13 +23,13 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Well-structured content allows more efficient navigation and processing. Use HTML and WAI-ARIA to improve navigation and orientation on web pages and in applications.
 
-* **[Page Regions](regions.html):** Identify and mark up regions on web pages using HTML5 and WAI-ARIA roles.
+* **[Page Regions]({% link _tutorials/page-structure/regions.md %}):** Identify and mark up regions on web pages using HTML5 and WAI-ARIA roles.
 
-* **[Labeling Regions](labels.html):** Label regions to allow users to distinguish and access them.
+* **[Labeling Regions]({% link _tutorials/page-structure/labels.md %}):** Label regions to allow users to distinguish and access them.
 
-* **[Headings](headings.html):** Add headings and nest them logically to label sections of web pages according to their relationships and importance.
+* **[Headings]({% link _tutorials/page-structure/headings.md %}):** Add headings and nest them logically to label sections of web pages according to their relationships and importance.
 
-* **[Content Structure](content.html):** Mark up the content on a page in a way that uses appropriate and meaningful elements.
+* **[Content Structure]({% link _tutorials/page-structure/content.md %}):** Mark up the content on a page in a way that uses appropriate and meaningful elements.
 
 ## Why is this important?
 

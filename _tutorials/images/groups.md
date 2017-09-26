@@ -1,6 +1,7 @@
 ---
 title: Groups of Images
 technologies: WAI-ARIA, HTML5
+group: images
 wcag_techniques:
   - G196
   - H67
@@ -26,18 +27,18 @@ In other cases, a group of images may represent a collection of related images. 
 This group of five images combined shows a product rating. There are five images (three filled stars, one half-filled star and one empty star) indicating the overall rating. The text alternative for the first image is “Rating: 3.5 out of 5 stars”. All other images have a null (empty) `alt` attribute (`alt=""`).
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-Rating: ![3.5 out of 5 stars](star-full.png)![](../img/star-full.png)![](../img/star-full.png)![](star-half.png)![](star-empty.png)
-
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+Rating: ![3.5 out of 5 stars](../../img/star-full.png)![](../../img/star-full.png)![](../../img/star-full.png)![](../../img/star-half.png)![](../../img/star-empty.png)
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 Rating:
@@ -49,8 +50,8 @@ Rating:
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## A collection of images
 {:.ex}
@@ -60,7 +61,8 @@ In the example below, the HTML5 `<figure>` and `<figcaption>` elements are used 
 Note: The web browser and assistive technology support vary for this particular WAI-ARIA attribute and value.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <figure role="group" aria-labelledby="fig1">
 <figcaption id="fig1">The castle through the ages: 1423, 1756, and 1936 respectively.</figcaption>
@@ -82,12 +84,13 @@ alt="The castle lies in ruins, the original tower all that remains in one piece.
 
 </figure>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <figure role="group" aria-labelledby="fig1">
@@ -118,5 +121,5 @@ alt="The castle lies in ruins, the original tower all that remains in one piece.
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

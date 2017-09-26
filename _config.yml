@@ -25,6 +25,9 @@ exclude:
 markdown: kramdown
 kramwdown:
   toc_levels: 2..3
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
 repository: w3c/wai-website
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
@@ -67,6 +70,21 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
+    groups:
+      - name: index # Note: index is a magic word, it links to the index of the resource
+        title: Overview
+      - name: page-structure
+        title: Page Structure
+      - name: menus
+        title: Menus
+      - name: images
+        title: Images
+      - name: tables
+        title: Tables
+      - name: forms
+        title: Forms
+      - name: carousels
+        title: Carousels
   accessibility-training:
     area: "Teach & Advocate"
     name: "Accessibility Training"

@@ -1,10 +1,8 @@
 ---
 title: Complete Image Maps Example
-source: ../imagemap.html#an-organizational-chart-with-links-to-individual-pages
-layout: fullcode
 ---
 
-![Board of directors and related staff: ](orgchart.png){:usemap="#Map"}
+![Board of directors and related staff: ](../../../img/orgchart.png){:usemap="#Map"}
 
 <map name="Map" id="Map">
   <area shape="rect" coords="176,14,323,58" href="../res/beyond" alt="Davy Jones: Chairman">

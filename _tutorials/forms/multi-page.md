@@ -1,6 +1,7 @@
 ---
 title: Multi-page Forms
 order: 7
+group: forms
 wcag_success_criteria:
   - 1.3.1
   - 2.2.1
@@ -23,7 +24,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Where possible, divide long forms into multiple smaller forms that constitute a series of logical steps or stages. This helps make long forms less daunting and easier to understand, particularly for people who are less experienced using computers or who have various cognitive disabilities. The following basic principles should apply for multi-step forms:
 
-- Repeat [overall instructions](instructions.html#overall-instructions) on every page.
+- Repeat [overall instructions]({% link _tutorials/forms/instructions.md %}#overall-instructions) on every page.
 - Split the form up according to its logical groups of controls. For example, in an online shop, shipping and payment information are typically separated.
 - Make it easy to recognize and to skip optional stages. For example, highlight optional steps in the main heading of the web page and provide an option to skip.
 - If possible, don’t set a time limit to fill out the form. If a time limit is required, provide a feature that allows the user to adjust or extend the time limit.
@@ -39,24 +40,26 @@ If possible, the first step of a form should explain how many steps will follow.
 The `<title>` element is the first item read by many people, such as screen reader users. Changing the title of the page to include the progress gives immediate feedback. This information should precede other information provided in the title, such as the name of the step or any error notifications.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 Step 2 of 4: Shipping Address – Complete Purchase – Galactic Teddy Bears Shop
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <title>Step 2 of 4: Shipping Address – Complete Purchase – Galactic Teddy Bears Shop</title>
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Using the main heading
 {:.ap}
@@ -64,24 +67,26 @@ Step 2 of 4: Shipping Address – Complete Purchase – Galactic Teddy Bears Sho
 Using the main heading to inform users is a good way to provide the same information for people scanning the page visually, as the main heading usually is prominent in the document.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <h1 role="presentation">Shipping Address (Step 2 of 4)</h1>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <h1>Shipping Address (Step 2 of 4)</h1>
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Using the HTML5 progress element
 {:.ap}
@@ -89,7 +94,8 @@ Using the main heading to inform users is a good way to provide the same informa
 HTML5 provides a `progress` element that can be used to inform users about the progress. This can be particularly useful in situations where the number of steps depends on user input, such as in a survey where steps are skipped depending on how questions were answered.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 Survey <progress max="7" value="1">(Step 1 of circa 7)</progress><br>
 
@@ -124,12 +130,13 @@ progress::-moz-progress-bar {
 }
 </style>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 Survey <progress max="7" value="1">(Step 1 of circa 7)</progress><br>
@@ -144,16 +151,16 @@ Survey <progress max="7" value="7">(Finished)</progress>
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 The progress element, like other form elements, is a component from the operating system rendered directly on the website. Those components are animated in some operating systems which would violate WCAG 2.0’s [2.2.2 Pause, Stop, Hide](https://www.w3.org/TR/WCAG20/#time-limits-pause) success criterion that requires that users are able to disable an animation that starts automatically, lasts more than 5 seconds and is presented in parallel with other content.
 
 The animation can be stopped by using custom styling with browser-specific CSS as shown below.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ css
 /* Microsoft IE */
@@ -173,8 +180,8 @@ progress::-moz-progress-bar {
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Using step-by-step indicator
 {:.ap}
@@ -182,7 +189,8 @@ progress::-moz-progress-bar {
 If a form has a known number of steps to be completed, a step-by-step indicator can help users orient themselves. In the example below, we use an ordered list with a list item for every step. Visually hidden text is used to indicate the current and completed steps. If possible, provide a link to steps already completed, so the user can review them. In this case, any data already entered in the current step should be saved.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 <div class="tlwrapper">
 	<ol class="timeline">
 		<li class="timeline-past">
@@ -292,12 +300,13 @@ If a form has a known number of steps to be completed, a step-by-step indicator 
 	color: #fff;
 }
 </style>
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~html
 <div class="tlwrapper">
@@ -318,5 +327,5 @@ If a form has a known number of steps to be completed, a step-by-step indicator 
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

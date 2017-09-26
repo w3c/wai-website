@@ -1,6 +1,7 @@
 ---
 title: An alt Decision Tree
 order: 9
+group: images
 type: tips
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
@@ -18,34 +19,34 @@ This decision tree describes how to use the `alt` attribute of the `<img>` eleme
 -   **Does the image contain text?**
 	-   {:.yes} **Yes:**
 		-   **… and the text is also present as *real* text nearby.**
-			_Use an empty `alt` attribute. See [Decorative Images](decorative.html)._
+			_Use an empty `alt` attribute. See [Decorative Images]({% link _tutorials/images/decorative.md %})._
 		-   **… and the text is only shown for visual effects.**
-			_Use an empty `alt` attribute. See [Decorative Images](decorative.html)._
+			_Use an empty `alt` attribute. See [Decorative Images]({% link _tutorials/images/decorative.md %})._
 		-   **… and the text has a specific function, for example is an icon.**
-      _Use the `alt` attribute to communicate the function of the image. See [Functional Images](functional.html)._
-		-   **… and the text in the image is not present otherwise.** _Use the `alt` attribute to include the text of the image. See [Images of Text](textual.html#image-of-styled-text-with-decorative-effect)._
+      _Use the `alt` attribute to communicate the function of the image. See [Functional Images]({% link _tutorials/images/functional.md %})._
+		-   **… and the text in the image is not present otherwise.** _Use the `alt` attribute to include the text of the image. See [Images of Text]({% link _tutorials/images/textual.md %}#image-of-styled-text-with-decorative-effect)._
 	-   {:.no} **No:**
 		- Continue.
 -   **Is the image used in a link or a button, and would it be hard or impossible to understand what the link or the button does, if the image wasn’t there?**
 	-   {:.yes} **Yes:**
-		- _Use the `alt` attribute to communicate the destination of the link or action taken. See [Functional Images](functional.html)._
+		- _Use the `alt` attribute to communicate the destination of the link or action taken. See [Functional Images]({% link _tutorials/images/functional.md %})._
 	-   {:.no} **No:**
 		- Continue.
 -   **Does the image contribute meaning to the current page or context?**
 	-   {:.yes} **Yes:**
 		-   **… and it’s a simple graphic or photograph.**
-			_Use a brief description of the image in a way that conveys that meaning in the `alt` attribute. See [Informative Images](informative.html)._
+			_Use a brief description of the image in a way that conveys that meaning in the `alt` attribute. See [Informative Images]({% link _tutorials/images/informative.md %})._
 		-   **… and it’s a graph or complex piece of information.**
-			_Include the information contained in the image elsewhere on the page. See [Complex Images](complex.html)._
+			_Include the information contained in the image elsewhere on the page. See [Complex Images]({% link _tutorials/images/complex.md %})._
 		-   **… and it shows content that is redundant to *real* text nearby.**
-			_Use an empty `alt` attribute. See (redundant) [Functional Images](functional.html#logo-image-within-link-text)._
+			_Use an empty `alt` attribute. See (redundant) [Functional Images]({% link _tutorials/images/functional.md %}#logo-image-within-link-text)._
 	-   {:.no} **No:**
 		-   Continue.
 -   **Is the image purely decorative or not intended for the user?**
 	-   {:.yes} **Yes:**
-		- _Use an empty `alt` attribute. See [Decorative Images](decorative.html)._
+		- _Use an empty `alt` attribute. See [Decorative Images]({% link _tutorials/images/decorative.md %})._
 	-   {:.no} **No:**
 		- Continue.
 -   **Is the image’s use not listed above or it’s unclear what `alt` text to provide?**
-	-   {:.yes} This decision tree **does not** cover all cases. For detailed information on the provision of text alternatives refer to the [Image Concepts Page](index.html).
+	-   {:.yes} This decision tree **does not** cover all cases. For detailed information on the provision of text alternatives refer to the [Image Concepts Page]({% link _tutorials/images/index.md %}).
 {:.decision-tree}

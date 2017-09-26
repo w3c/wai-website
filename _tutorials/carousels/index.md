@@ -2,7 +2,7 @@
 title: Carousel Concepts
 tutorial_title: Carousels
 order: 1
-topic_order: 4
+group: carousels
 type: intro
 wcag_success_criteria:
   - 1.3.1

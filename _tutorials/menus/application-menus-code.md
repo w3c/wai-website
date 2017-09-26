@@ -1,6 +1,7 @@
 ---
 title: Application Menu Example & Code
 order: 6
+group: menus
 type: tips
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
@@ -11,9 +12,13 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 ---
 
-{::nomarkdown}
 <div class="show-overflow2">
-<%= sample_start %>
+
+
+{::nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
+
 <ul role="menubar" aria-label="functions" id="appmenu">
 		<li role="menuitem" aria-haspopup="true">
 			File
@@ -283,14 +288,15 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 });
 </script>
 
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
-<%= sample_end %>
 </div>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start('','HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <ul role="menubar" aria-label="functions" id="appmenu">
@@ -332,12 +338,12 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'CSS') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: CSS" class="example" %}
+{:/}
 
 ~~~ css
 #appmenu {
@@ -395,12 +401,12 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~ js
 var appsMenuItems = document.querySelectorAll('#appmenu > li');
@@ -560,5 +566,5 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

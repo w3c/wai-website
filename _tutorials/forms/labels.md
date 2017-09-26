@@ -1,6 +1,7 @@
 ---
 title: Labeling Controls
 order: 2
+group: forms
 contributors:
   - HTML5 Boilerplate
   - the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)
@@ -31,7 +32,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Provide labels to identify all form controls, including text fields, checkboxes, radio buttons, and drop-down menus. In most cases, this is done by using the `<label>` element.
 
-Labels need to describe the purpose of the form control. This section of the tutorial describes how to provide labels that are properly associated with form controls. Later sections explain how to provide [instructions](instructions.html), [validate user input](validation.html), and [provide feedback](notifications.html) to help users complete your form.
+Labels need to describe the purpose of the form control. This section of the tutorial describes how to provide labels that are properly associated with form controls. Later sections explain how to provide [instructions]({% link _tutorials/forms/instructions.md %}), [validate user input]({% link _tutorials/forms/validation.md %}), and [provide feedback]({% link _tutorials/forms/notifications.md %}) to help users complete your form.
 
 A label and a form control should be associated with each other either implicitly or explicitly. Web browsers provide the label as a larger clickable area, for example, to select or activate the control. It also ensures that assistive technology can refer to the correct label when presenting a form control.
 
@@ -41,7 +42,8 @@ A label and a form control should be associated with each other either implicitl
 Whenever possible, use the `label` element to associate text with form elements explicitly. The `for` attribute of the label must exactly match the `id` of the form control.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="#">
   <label for="firstname">First name: </label>
@@ -50,12 +52,13 @@ Whenever possible, use the `label` element to associate text with form elements 
   <label for="subscribe">Subscribe to newsletter</label>
 </form>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <label for="firstname">First name:</label>
@@ -66,8 +69,8 @@ Whenever possible, use the `label` element to associate text with form elements 
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Hiding label text
 {:.newex}
@@ -77,7 +80,8 @@ A label for a form control helps everyone better understand its purpose. In some
 In the example below, the search field is positioned directly beside the search button. The purpose of the text input field is evident from the context in most situations.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="#">
   <div>
@@ -87,8 +91,9 @@ In the example below, the search field is positioned directly beside the search 
   </div>
 </form>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Hiding the label element
 {:.ap}
@@ -96,8 +101,8 @@ In the example below, the search field is positioned directly beside the search 
 In this approach, the `<label>` element is provided to identify a form control within the code, but it is visually hidden to avoid redundancy for users who can derive the purpose from the visual cues.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <label for="search" class="visuallyhidden">Search: </label>
@@ -106,8 +111,8 @@ In this approach, the `<label>` element is provided to identify a form control w
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Using aria-label
 {:.ap}
@@ -115,8 +120,8 @@ In this approach, the `<label>` element is provided to identify a form control w
 The `aria-label` attribute can also be used to identify form controls. This approach is well supported by screen readers and other assistive technology, but, unlike the `title` attribute (see below), the information is not conveyed to visual users. The approach should therefore only be used when the label of the control is clear from the surrounding content, like the button in the example below.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <input type="text" name="search" aria-label="Search">
@@ -124,8 +129,8 @@ The `aria-label` attribute can also be used to identify form controls. This appr
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Using aria-labelledby
 {:.ap}
@@ -135,8 +140,8 @@ The `aria-labelledby` attribute can also be used to identify form controls. This
 The `id` of the element containing the label text is used as the value of the `aria-labelledby` attribute.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <input type="text" name="search" aria-labelledby="searchbutton">
@@ -144,8 +149,8 @@ The `id` of the element containing the label text is used as the value of the `a
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Using the `title` attribute
 {:.ap}
@@ -153,7 +158,8 @@ The `id` of the element containing the label text is used as the value of the `a
 The `title` attribute can also be used to identify form controls. This approach is generally less reliable and not recommended because some screen readers and assistive technologies do not interpret the `title` attribute as a replacement for the label element, possibly because the `title` attribute is often used to provide non-essential information. The information of the `title` attribute is shown to visual users as a tool tip when hovering over the form field with the mouse.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="#">
   <div>
@@ -162,12 +168,13 @@ The `title` attribute can also be used to identify form controls. This approach 
   </div>
 </form>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <input title="Search" type="text" name="search">
@@ -175,8 +182,8 @@ The `title` attribute can also be used to identify form controls. This approach 
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Note on hiding elements
 
@@ -185,8 +192,8 @@ Screen readers and other assistive technology, just as web browsers, hide elemen
 The common approach used to hide information visually but keep them available to screen reader and other assistive technology users is to use CSS that will keep the information technically visible but practically hidden. For example, presenting the label in a 1-by-1 pixel area with a 1-pixel margin, as demonstrated with the CSS class `visuallyhidden` (**do not confuse** with CSS `visibility: hidden`) below:
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ css
 .visuallyhidden {
@@ -202,8 +209,8 @@ The common approach used to hide information visually but keep them available to
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 Note that interactive elements are still active when using this code, so it is not suitable to hide other parts of forms but the labels.
 
@@ -213,8 +220,8 @@ Note that interactive elements are still active when using this code, so it is n
 In some situations, form controls cannot be labeled explicitly. For example, a content author might not know the `id` of a form field generated by a script, or that script might not add an `id` at all. In this case, the `label` element is used as a container for both the form control and the label text, so that the two are associated implicitly. Generally, explicit labels are better supported by assistive technology.
 
 {::nomarkdown}
-<%= code_start('', 'HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <label>
@@ -229,16 +236,16 @@ In some situations, form controls cannot be labeled explicitly. For example, a c
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Labelling buttons
 
 The label of a `<button>` element is set inside the element and can include markup. This allows more advanced accessibility hints to be included, like marking up language change. When using the `<input>` element to create buttons, the label is set in the `value` attribute of the element.
 
 {::nomarkdown}
-<%= code_start('', 'HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <button type="submit">Submit</button>
@@ -249,19 +256,19 @@ The label of a `<button>` element is set inside the element and can include mark
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** If the image button (`<input type="image">`) is used, the label is set in the `alt` attribute, for example:
-`<input type="image" src="searchbutton.png" alt="Search">`. See [Functional Images](/images/functional.html#image-used-in-a-button) for more information on how to describe images in buttons.
+`<input type="image" src="searchbutton.png" alt="Search">`. See [Functional Images]({% link _tutorials/images/functional.md %}#image-used-in-a-button) for more information on how to describe images in buttons.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Visual position of label text
 {:.newex}

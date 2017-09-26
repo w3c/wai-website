@@ -57,6 +57,8 @@
       url: "/design-develop/designing-tips/"
     - name: Tips for Developing
       url: "/design-develop/developing-tips/"
+    - name: Accessible Audio and Video
+      url: "#"
     - name: Mobile Accessibility Intro
       url: "/design-develop/mobile-accessibility-intro/"
     - name: WAI-ARIA Developers' Intro
@@ -76,8 +78,6 @@
           url: "/tutorials/forms/"
         - name: Carousels
           url: "/tutorials/carousels/"
-        - name: Media
-          url: "#"
 
 - name: Test & Evaluate
   url: "#"

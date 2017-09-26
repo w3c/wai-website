@@ -3,7 +3,7 @@ title: Images Concepts
 tutorial_title: Images
 permalink: /tutorials/images/
 order: 1
-topic_order: 1
+group: images
 first_published: "September 2014"
 wcag_success_criteria:
   - 1.1.1
@@ -55,11 +55,11 @@ However, images are used extensively on websites and can create major barriers w
 
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** Removing images from websites (so-called “text-only versions”) make them less accessible and functional for these users and situations.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}

@@ -1,6 +1,7 @@
 ---
 title: Custom Controls
 order: 8
+group: forms
 wcag_success_criteria:
 wcag_techniques:
 editors:
@@ -26,7 +27,8 @@ The custom button relies on CSS to style a regular `<button>` element so that th
 Also, the `action` attribute of the `<form>` element references a server-side script that carries out the same functionality for cases when JavaScript is not supported.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form action="#submit-like">
 	<button type="submit" id="share-btn" class="btn-primary">
@@ -78,12 +80,15 @@ document.getElementById('share-btn').addEventListener('click', function(event){
 	this.setAttribute("disabled", "true");
 });
 </script>
-<%= sample_end %>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start('','HTML') %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
+
 
 ~~~ html
 <form action="path/to/submit">
@@ -95,12 +100,12 @@ document.getElementById('share-btn').addEventListener('click', function(event){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~ js
 document.getElementById('share-btn').addEventListener('click', function(event){
@@ -118,8 +123,8 @@ document.getElementById('share-btn').addEventListener('click', function(event){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## A Star Rating
 {:.ex}
@@ -131,7 +136,8 @@ To make this as accessible as possible, a form is used with its fields visually 
 The images of the stars are generated using <abbr title="Scalable Vector Graphics">SVG</abbr>. The coloring animation of these stars is initiated through the <abbr title="Cascading Style Sheets">CSS</abbr> `:focus` and `:hover` pseudo-classes so that they can be activated using a mouse, keyboard, and other input methods. The `:checked` pseudo-class and the general sibling selector `~` are used to indicate the selected, active, and inactive stars.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form action="#" id="star_rating">
  <input value="0" id="star0" checked
@@ -258,12 +264,13 @@ document.querySelector('#star_rating').addEventListener('submit', function(event
 });
 </script>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <form action="#" id="star_rating">
@@ -321,12 +328,12 @@ document.querySelector('#star_rating').addEventListener('submit', function(event
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','CSS') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: CSS" class="example" %}
+{:/}
 
 ~~~ css
 #star_rating svg {
@@ -382,12 +389,12 @@ document.querySelector('#star_rating').addEventListener('submit', function(event
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~ js
 var radios = document.querySelectorAll('#star_rating input[type=radio]');
@@ -416,5 +423,5 @@ document.querySelector('#star_rating').addEventListener('submit', function(event
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

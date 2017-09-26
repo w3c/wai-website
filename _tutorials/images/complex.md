@@ -1,6 +1,7 @@
 ---
 title: Complex Images
 technologies: WAI-ARIA, HTML5
+group: images
 wcag_techniques:
   - G95
   - G92
@@ -41,24 +42,24 @@ It is also good practice to refer to and summarize more complex images from the 
 In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3”, provided through the `alt` attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart. The [longdesc approach](#providing-a-link-to-the-long-description-via-longdesc) used in the following example is described later in the section.
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <img src="../../img/chart.png" alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3" longdesc="../examples/2014-first-qtr/"><br><a href="../examples/2014-first-qtr/">Image Description</a>
 
 {::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
-**Note:** See [example long description](examples/2014-first-qtr.html) associated with this image.
+**Note:** See [example long description]({% link _tutorials/images/examples/2014-first-qtr.md %}) associated with this image.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 Among the approaches below, the first and fourth one make the information available to other programs, such as web browsers and search engines.
 
@@ -68,8 +69,8 @@ Among the approaches below, the first and fourth one make the information availa
 This approach provides a text link next to the image that refers to a separate web page or a section of the same web page that contains the long description. The link text needs to clarify the destination, and associate it with the image.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <p>
@@ -77,36 +78,39 @@ This approach provides a text link next to the image that refers to a separate w
 		src="chart.png"
 		alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3">
 	<br>
-	<a href="2014-first-qtr.html">Example.com Site visitors Jan to March 2014 text description of the bar chart</a>
+	<a href="2014-first-qtr.html">Example.com Site visitors
+  Jan to March 2014 text description of the bar chart</a>
 </p>
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 This approach is supported by all web browsers and assistive technologies and makes the long descriptions available to everyone. However, the link is not associated with the image in a semantic way.
 
 The HTML5 `<figure>` and `<figcaption>` elements can be used to group image and link semantically. Adding `role="group"` to the figure maintains backward compatibility with web browsers that don’t support the native semantics of the `<figure>` element.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <figure role="group">
     <img
         src="chart.png"
-        alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3">
+        alt="Bar chart showing monthly and total visitors
+        for the first quarter 2014 for sites 1 to 3">
     <figcaption>
-        <a href="2014-first-qtr.html">Example.com Site visitors Jan to March 2014 text description of the bar chart</a>
+        <a href="2014-first-qtr.html">Example.com Site visitors
+        Jan to March 2014 text description of the bar chart</a>
     </figcaption>
 </figure>
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Describing the location of the long description in the `alt` attribute
 {:.ap}
@@ -114,14 +118,17 @@ The HTML5 `<figure>` and `<figcaption>` elements can be used to group image and 
 When a long description is provided on the same web page as an image, its location can be described using the `alt` attribute of the image. The location information needs to be clear and accurate to help users locate the content.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <p>
 	<img
 		src="chart.png"
-		alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3. Described under the heading Site visitors full text.">
+		alt="Bar chart showing monthly and total visitors
+         for the first quarter 2014 for sites 1 to 3.
+         Described under the heading Site visitors
+         full text.">
 </p>
 […]
 <h4>Site visitors full text</h4>
@@ -129,8 +136,8 @@ When a long description is provided on the same web page as an image, its locati
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Structurally associating the image and its adjacent long description (HTML5)
 {:.ap}
@@ -138,13 +145,14 @@ When a long description is provided on the same web page as an image, its locati
 The HTML5 `<figure>` element can be used to enclose both the image and its long description. The long description (presented as headings, text, and a table) is wrapped in the `<figcaption>` element. It is explicitly associated with the image using `role="group"` on the containing `<figure>` element in web browsers that don’t convey the semantics of the `<figure>` element.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <figure role="group">
 	<img src="chart.png"
-		alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3, described in detail below.">
+		alt="Bar chart showing monthly and total visitors for the first
+    quarter 2014 for sites 1 to 3, described in detail below.">
     <figcaption>
     	<h2>Overview</h2>
     	<p>The chart shows the website hits for the first quarter of 2014 …</p>
@@ -158,8 +166,8 @@ The HTML5 `<figure>` element can be used to enclose both the image and its long 
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Providing a link to the long description via `longdesc`
 {:.ap}
@@ -177,8 +185,8 @@ The `longdesc` attribute can contain the URI of a separate web page that provide
 When the `longdesc` attribute contains a URI to refer to another web page with the long description, it is recommended to also apply [Approach 3 (a text link to the long description adjacent to the image)](#a-text-link-to-the-long-description-adjacent-to-the-image). This method is a workaround for web browsers and assistive technologies that don’t fully support the `longdesc` attribute.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <img
@@ -189,14 +197,14 @@ When the `longdesc` attribute contains a URI to refer to another web page with t
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 When the `longdesc` attribute contains a fragment identifier (`#` followed by the `id` of an element on the same web page - a “hash link”), it refers to an element on the same web page that provides the long description. It addresses a similar use case as [Example 2, Approach 1](#structurally-associating-image-and-long-description-with-aria-describedby), though the support by web browsers and assistive technologies may vary. An additional link (by applying [Approach 2](#a-text-link-to-the-long-description-adjacent-to-the-image)) is not needed when the long description is in close proximity to the image.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <img
@@ -210,8 +218,8 @@ When the `longdesc` attribute contains a fragment identifier (`#` followed by th
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Description containing textual information
 {:.ex}
@@ -223,19 +231,21 @@ Important: The element referenced by `aria-describedby` is treated as one contin
 In this example, the head of the peacock is described using a paragraph of text that is on the web page.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <img src="../../img/peafowl.jpg" alt="Male peacock head" aria-describedby="description">
 <p id="description">
   The male is metallic blue on the crown, the feathers of the head being short and curled. The fan-shaped crest on the head is made of feathers with bare black shafts and tipped with blush-green webbing. A white stripe above the eye and a crescent shaped white patch below the eye are formed by bare white skin. The sides of the head have iridescent greenish blue feathers. The back has scaly bronze-green feathers with black and copper markings.
 </p>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <img src="peacock.jpg"
@@ -243,10 +253,16 @@ In this example, the head of the peacock is described using a paragraph of text 
      aria-describedby="description">
 […]
 <p id="description">
-  The male is metallic blue on the crown, the feathers of the head being short and curled. The fan-shaped crest on the head is made of feathers with bare black shafts and tipped with blush-green webbing. A white stripe above the eye and a crescent shaped white patch below the eye are formed by bare white skin. The sides of the head have iridescent greenish blue feathers. The back has scaly bronze-green feathers with black and copper markings.
+  The male is metallic blue on the crown, the feathers of the head
+  being short and curled. The fan-shaped crest on the head is made
+  of feathers with bare black shafts and tipped with blush-green
+  webbing. A white stripe above the eye and a crescent shaped white
+  patch below the eye are formed by bare white skin. The sides of
+  the head have iridescent greenish blue feathers. The back has
+  scaly bronze-green feathers with black and copper markings.
 </p>
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

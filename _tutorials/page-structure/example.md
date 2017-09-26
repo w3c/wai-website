@@ -1,6 +1,7 @@
 ---
 title: Page Structure Code Example
 nav_title: Example
+group: page-structure
 order: 6
 type: tips
 editors:
@@ -11,8 +12,8 @@ contributors:
 support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
 ---
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 …
@@ -68,5 +69,5 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

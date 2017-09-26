@@ -2,7 +2,7 @@
 title: Forms Concepts
 tutorial_title: Forms
 order: 1
-topic_order: 3
+group: forms
 permalink: /tutorials/forms/
 wcag_success_criteria:
   - 1.3.1
@@ -24,19 +24,19 @@ Forms are commonly used to provide user interaction on websites and in web appli
 
 Aside from technical considerations, users usually prefer simple and short forms. Only ask users to enter what is required to complete the transaction or process; if irrelevant or excessive data is requested, users are more likely to abandon the form.
 
-- **[Labeling Controls](labels.html):** Use the `<label>` element, and, in specific cases, other mechanisms (e.g. WAI-ARIA, `title` attribute etc.), to identify each form control.
+- **[Labeling Controls]({% link _tutorials/forms/labels.md %}):** Use the `<label>` element, and, in specific cases, other mechanisms (e.g. WAI-ARIA, `title` attribute etc.), to identify each form control.
 
-- **[Grouping Controls](grouping.html):** Use the `<fieldset>` and `<legend>` elements to group and associate related form controls.
+- **[Grouping Controls]({% link _tutorials/forms/grouping.md %}):** Use the `<fieldset>` and `<legend>` elements to group and associate related form controls.
 
-- **[Form Instructions](instructions.html):** Provide instructions to help users understand how to complete the form and individual form controls.
+- **[Form Instructions]({% link _tutorials/forms/instructions.md %}):** Provide instructions to help users understand how to complete the form and individual form controls.
 
-- **[Validating Input](validation.html):** Validate input provided by the user and provide options to undo changes and confirm data entry.
+- **[Validating Input]({% link _tutorials/forms/validation.md %}):** Validate input provided by the user and provide options to undo changes and confirm data entry.
 
-- **[User Notifications](notifications.html):** Notify users about successful task completion, any errors, and provide instructions to help them correct mistakes.
+- **[User Notifications]({% link _tutorials/forms/notifications.md %}):** Notify users about successful task completion, any errors, and provide instructions to help them correct mistakes.
 
-- **[Multi-Page Forms](multi-page.html):** Divide long forms into multiple smaller forms that constitute a series of logical steps or stages and inform users about their progress.
+- **[Multi-Page Forms]({% link _tutorials/forms/multi-page.md %}):** Divide long forms into multiple smaller forms that constitute a series of logical steps or stages and inform users about their progress.
 
-- **[Custom Controls](custom-controls.html):** Use stylized form elements and other progressive enhancement techniques to provide custom controls.
+- **[Custom Controls]({% link _tutorials/forms/custom-controls.md %}):** Use stylized form elements and other progressive enhancement techniques to provide custom controls.
 
 ## A note on time limits
 

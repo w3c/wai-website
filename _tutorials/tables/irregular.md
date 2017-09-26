@@ -2,6 +2,7 @@
 title: Tables with irregular headers
 nav_title: Irregular Headers
 order: 4
+group: tables
 technologies: HTML5
 wcag_techniques:
   - H63
@@ -35,7 +36,8 @@ The column structure needs to be defined at the beginning of the table to associ
 Also, the value of the `scope` attribute in the first-level headers is set to `colgroup` so that it is associated with the entire group of columns. The second-level headers only apply to the corresponding column, so the `scope` attribute is set to `col` as shown in previous examples.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 <table class="numbers">
   <col>
   <colgroup span="2"></colgroup>
@@ -66,12 +68,13 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
     <td>9,000</td>
   </tr>
 </table>
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <table>
@@ -107,18 +110,18 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 Note: A `<colgroup>` element can contain a `<col>` element to identify individual columns in the group. The combined sum of `<col>` elements (not contained in `<colgroup>` elements) and column elements indicated by the `span` attributes of the `<colgroup>` elements should be equal to the total number of columns in the table.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Table with headers spanning multiple rows or columns
 {:.ex}
@@ -130,7 +133,8 @@ If a header spans multiple header rows, wrap the rows in a `<thead>` element ins
 Due to the complexity of the table a [summary technique](caption-summary.html) could be used to describe the layout of the table in detail.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <table>
   <caption>
@@ -184,12 +188,13 @@ Due to the complexity of the table a [summary technique](caption-summary.html) c
   </tbody>
 </table>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <table>
@@ -246,15 +251,15 @@ Due to the complexity of the table a [summary technique](caption-summary.html) c
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 Note: Using `<thead>`, `<tbody>` and `<tfoot>` in every table, even if there are no headers spanning columns may avoid confusion on when to use them.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}

@@ -2,6 +2,7 @@
 title: Menu Styling
 nav_title: Styling
 order: 3
+group: menus
 wcag_success_criteria:
   - 1.4.1
 wcag_techniques:
@@ -21,7 +22,7 @@ Clear and consistent styling allows users to find and recognize menus more quick
 
 ## General considerations
 
-Menus often use images, such as icons, that can be decorative or communicate functionality. These images require text alternatives, as described in the [Images Tutorial](/images/index.html). Contrast requirements are also applicable to menus and their items.
+Menus often use images, such as icons, that can be decorative or communicate functionality. These images require text alternatives, as described in the [Images Tutorial]({% link _tutorials/images/index.md %}). Contrast requirements are also applicable to menus and their items.
 
 ### Location
 
@@ -58,8 +59,8 @@ Change hovered or focused menu items, which gives users visual guidance when nav
 {:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start('','CSS') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: CSS" class="example" %}
+{:/}
 
 ~~~ css
 nav a:hover,
@@ -70,8 +71,8 @@ nav a:focus {
 }
 ~~~
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= demo :middle %>
@@ -93,8 +94,8 @@ Indicate the menu item that was activated through clicking, tapping, or keyboard
 {:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start('','CSS') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: CSS" class="example" %}
+{:/}
 
 ~~~ css
 nav a:active {
@@ -105,8 +106,8 @@ nav a:active {
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= demo :middle %>
@@ -129,8 +130,8 @@ In this example, a different color combination (black on gray) and a bottom bord
 {:/nomarkdown}
 
 {::nomarkdown}
-<%= code_start('','CSS') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: CSS" class="example" %}
+{:/}
 
 ~~~ css
 nav [aria-current=page] {
@@ -141,8 +142,8 @@ nav [aria-current=page] {
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= demo :middle %>
@@ -161,7 +162,8 @@ For some types of menus, such as instructional steps, it may be useful to indica
 ## Example
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <nav aria-label="(example) Main Navigation" id="currentnav">
 		<ul>
@@ -217,5 +219,6 @@ For some types of menus, such as instructional steps, it may be useful to indica
 	}
 </style>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}

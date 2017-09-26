@@ -3,6 +3,7 @@ title: Tables with one header
 nav_title: One Header
 order: 2
 technologies: HTML5
+group: tables
 wcag_techniques:
   - H51
   - H63
@@ -17,7 +18,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 ![](img-simple.png){:.symbol} This page covers tables that have one simple header for rows <strong>or</strong> one simple header for columns. Data in such tables is descriptive on its own and unambiguous.
 
-If the table content is ambiguous or has both column and row headings, the `scope` attribute should be used to avoid confusion. For more guidance on such tables, see [tables with two headers](two-headers.html).
+If the table content is ambiguous or has both column and row headings, the `scope` attribute should be used to avoid confusion. For more guidance on such tables, see [tables with two headers]({% link _tutorials/tables/two-headers.md %}).
 
 ## Table with header cells in the top row only
 {:.ex}
@@ -25,17 +26,18 @@ If the table content is ambiguous or has both column and row headings, the `scop
 The following table of concerts has the cells in the first row marked up using the `<th>` element. This is only acceptable because it is such a small table and the data itself is distinctly different in each column so that the relationship between the header and data cells is evident.
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** Some screen readers will read “Date – Event – Venue” in the “Venue” cell because the direction of the `<th>` elements is ambiguous.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <p><strong>Concerts:</strong></p>
 <table>
@@ -61,12 +63,13 @@ The following table of concerts has the cells in the first row marked up using t
 	</tr>
 </table>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <table>
@@ -85,8 +88,8 @@ The following table of concerts has the cells in the first row marked up using t
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Table with header cells in the first column only
 {:.ex}
@@ -94,7 +97,8 @@ The following table of concerts has the cells in the first row marked up using t
 In the following table, the data from the previous example is laid out with the header column on the left. Also in this situation, it is only acceptable to use this code because it is such a small and straightforward table. The next pages in this tutorial explain how to code more complex tables.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <p><strong>Concerts:</strong></p>
 <table>
@@ -118,12 +122,13 @@ In the following table, the data from the previous example is laid out with the 
 	</tr>
 </table>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <table>
@@ -149,8 +154,8 @@ In the following table, the data from the previous example is laid out with the 
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Table with ambiguous data
 {:.ex}
@@ -158,7 +163,8 @@ In the following table, the data from the previous example is laid out with the 
 In this example, the data (first name, last name, and city) can’t be distinguished from one another without knowing which header each corresponds to. The `scope` attribute with the value `col` defines the direction of the header cells and associates them with the corresponding data cells. The `scope` attribute is also needed for larger tables with one header row or column.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 <table>
   <caption>Teddy bear collectors:</caption>
   <tr>
@@ -183,12 +189,13 @@ In this example, the data (first name, last name, and city) can’t be distingui
   </tr>
 </table>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <table>
@@ -217,5 +224,5 @@ In this example, the data (first name, last name, and city) can’t be distingui
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

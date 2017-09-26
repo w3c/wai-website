@@ -5,7 +5,8 @@ layout: fullcode
 ---
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="#">
 	<label for="ex2_password">Password:</label>
@@ -61,12 +62,13 @@ document.getElementById('ex2_password').addEventListener('keyup',
 
 </script>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <label for="password">Password:</label>
@@ -76,12 +78,12 @@ document.getElementById('ex2_password').addEventListener('keyup',
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'CSS') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: CSS" class="example" %}
+{:/}
 
 ~~~ css
 #passwordmeter {
@@ -101,12 +103,12 @@ document.getElementById('ex2_password').addEventListener('keyup',
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~ js
 document.getElementById('password').addEventListener('keyup',
@@ -151,5 +153,5 @@ document.getElementById('password').addEventListener('keyup',
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

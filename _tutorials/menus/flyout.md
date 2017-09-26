@@ -1,6 +1,7 @@
 ---
 title: "Fly-out Menus"
 order: 4
+group: menus
 wcag_techniques:
   - SCR26
   - H4
@@ -24,8 +25,8 @@ Indicate menu items with submenus visually and using markup. Indicate menu items
 * `aria-expanded="false"` declares that the submenu is hidden.
 
 {::nomarkdown}
-<%= code_start('','HTML') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~ html
 <nav aria-label="Main Navigation">
@@ -48,8 +49,8 @@ Indicate menu items with submenus visually and using markup. Indicate menu items
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Fly-out functionality
 
@@ -60,8 +61,8 @@ The fly-out functionality is created using CSS and scripting with slightly separ
 The following example uses this CSS code to show and hide the submenus when the parent menu items are hovered:
 
 {::nomarkdown}
-<%= code_start('','CSS') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: CSS" class="example" %}
+{:/}
 
 ~~~ css
 nav > ul li       ul { display: none; }
@@ -69,15 +70,16 @@ nav > ul li:hover ul { display: block;}
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 In addition, scripting is used to slightly delay the immediate closing of submenu items when the mouse leaves the area. This delay makes it easier to use the menu when navigation by a mouse is not very precise.
 
 In the following example, a delay of one second is added using a timer:
 
 {::nomarkdown}
-<%= sample_start('show-overflow') %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <nav role="presentation" aria-label="Main Navigation" id="flyoutnavmousefixed">
 		<ul>
@@ -180,12 +182,13 @@ Array.prototype.forEach.call(menuItems1, function(el, i){
 });
 </script>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('','JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~ js
 var menuItems = document.querySelectorAll('li.has-submenu');
@@ -203,8 +206,8 @@ Array.prototype.forEach.call(menuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Keyboard Users
 
@@ -216,17 +219,18 @@ Submenus should not open when using the tab key to navigate through the menu, as
 Use this approach in situations where the parent menu item only summarizes the submenu and doesn’t have to carry out a function, such as linking to a web page. In this case, the submenu is opened by a script when the user activates the top-level item and closed when the focus leaves the submenu.
 
 {::nomarkdown}
-<%= notes_start() %>
+{% include notes.html type="start" %}
 {:/}
 
 **Note:** The value of the `href` attribute is ignored but you might still want to link to an existing document in case JavaScript is not loaded.
 
 {::nomarkdown}
-<%= notes_end() %>
+{% include notes.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= sample_start('show-overflow') %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <nav role="presentation" aria-label="Main Navigation" id="flyoutnavkbfixed">
 		<ul>
@@ -397,24 +401,25 @@ Array.prototype.forEach.call(menuItems1, function(el, i){
 });
 </script>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 The following code iterates through all top-level items with the class `has-submenu` and adds a click event, which opens or closes the submenu depending on its state. Also, the `aria-expanded` attribute is set to `true` while the submenu is open, and to `false` otherwise.
 
 {::nomarkdown}
-<%= notes_start() %>
+{% include notes.html type="start" %}
 {:/}
 
 **Note:** Despite the name, click events are activated regardless of the input method as soon as the link gets activated.
 
 {::nomarkdown}
-<%= notes_end() %>
+{% include notes.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= code_start('', 'JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~js
 var menuItems = document.querySelectorAll('li.has-submenu');
@@ -434,8 +439,8 @@ Array.prototype.forEach.call(menuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Use button as toggle
 {:.ap}
@@ -443,7 +448,8 @@ Array.prototype.forEach.call(menuItems, function(el, i){
 For situations when the parent menu item needs to carry out a function, such as linking to a web page, a separate button can be added to the parent item, to open and close the submenu. This button can also act as a visual indicator for the presence of a submenu.
 
 {::nomarkdown}
-<%= sample_start('show-overflow') %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <nav role="presentation" aria-label="Main Navigation" id="flyoutnavkbbtn">
 	<ul>
@@ -662,24 +668,25 @@ Array.prototype.forEach.call(menuItems1, function(el, i){
 });
 </script>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 The following code adds a button to every top-level menu item with a submenu. When the button is activated, it shows or hides the submenu. The invisible label of the button is set to “show submenu” or “hide submenu”, reflecting the state of the submenu.
 
 {::nomarkdown}
-<%= notes_start() %>
+{% include notes.html type="start" %}
 {:/}
 
 **Note:** If possible, include the name of the parent menu item in the button label; for example: “show Space Bears submenu”.
 
 {::nomarkdown}
-<%= notes_end() %>
+{% include notes.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= code_start('','JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~js
 var menuItems = document.querySelectorAll('li.has-submenu');
@@ -704,5 +711,5 @@ Array.prototype.forEach.call(menuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

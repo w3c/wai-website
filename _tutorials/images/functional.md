@@ -1,6 +1,7 @@
 ---
 title: Functional Images
 technologies: HTML5
+group: images
 order: 4
 wcag_techniques:
   - H37
@@ -25,22 +26,20 @@ Missing or empty `alt` values create significant problems for screen reader user
 The following image is the only content of a link that leads to the W3C home page. It has the text alternative “W3C home” to indicate where the link will take the user. The next example, [“Logo image within link text” example](#logo-image-within-link-text), discusses what to do when there is more text in the link to identify the destination:
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <a href="https://www.w3.org/" style="display:inline-block;">
-{:/nomarkdown}
-
-![W3C home](w3c.png)
-
-{::nomarkdown}
+![W3C home](../../img/w3c.png)
 </a>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <a href="https://www.w3.org/">
@@ -49,20 +48,20 @@ The following image is the only content of a link that leads to the W3C home pag
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note 1:** In this situation, the logo is also an image of the text “W3C”, but in this case, its primary function is to link to the homepage, so the word “home” was added to the text alternative.
 
 **Note 2:** Images used as logos are exempt from some of the accessibility requirements that apply to other images of text, for instance, there are no minimum color contrast and text size requirements.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Logo image within link text
 {:.ex}
@@ -70,18 +69,18 @@ The following image is the only content of a link that leads to the W3C home pag
 In this example, the W3C logo is used to supplement text within a link that leads to the W3C home page. The image does not represent different functionality or convey other information than that already provided in the link text, so a null (empty) value is applied, (`alt=""`), to avoid redundancy and repetition. In effect the image is a decorative adjunct or visual cue to the link text:
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-[![](../img/w3c.png){:style="vertical-align: middle; margin-right: 1em;"}W3C Home](https://www.w3.org/){:style="display:inline-block;"}
-
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+[![](../../img/w3c.png){:style="vertical-align: middle; margin-right: 1em;"}W3C Home](https://www.w3.org/){:style="display:inline-block;"}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <a href="https://www.w3.org/">
@@ -90,8 +89,8 @@ In this example, the W3C logo is used to supplement text within a link that lead
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Icon image conveying information within link text
 {:.ex}
@@ -99,18 +98,18 @@ In this example, the W3C logo is used to supplement text within a link that lead
 In this example, the image follows text within a link to inform users that the link will open in a new window. It has the text alternative “new window” to convey the meaning of the icon:
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-[W3C Home page ![new window](new-window.png)](https://www.w3.org/)
-
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+[W3C Home page ![new window](../../img/new-window.png)](https://www.w3.org/)
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <a href="https://www.w3.org/" target="_blank">
@@ -119,18 +118,18 @@ In this example, the image follows text within a link to inform users that the l
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
-**Note:** This technique is often used with icons to indicate different file formats such as AVI, ODF, MP3, PDF, Word, and many more. In this case, the text alternative should equally convey the format represented by each icon, see [Informative Images](informative.html#images-conveying-file-format).
+**Note:** This technique is often used with icons to indicate different file formats such as AVI, ODF, MP3, PDF, Word, and many more. In this case, the text alternative should equally convey the format represented by each icon, see [Informative Images]({% link _tutorials/images/informative.md %}#images-conveying-file-format).
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Stand-alone icon image that has a function
 {:.ex}
@@ -138,18 +137,18 @@ In this example, the image follows text within a link to inform users that the l
 The following image is an icon representing a printer to denote print functionality. It has the text alternative “Print this page” because its purpose is to activate the print dialog when it is selected:
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-[![Print this page](print.png)](javascript:print())
-
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+[![Print this page](../../img/print.png)](javascript:print())
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <a href="javascript:print()">
@@ -158,8 +157,8 @@ The following image is an icon representing a printer to denote print functional
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Image used in a button
 {:.ex}
@@ -167,8 +166,8 @@ The following image is an icon representing a printer to denote print functional
 The following image is used to give the button a distinct style. In this case, it is the button to initiate a search request and is an icon representing a magnifying lens. The text alternative for the image is “search” to convey the purpose of the button:
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form action="#" method="post">
   <p>
@@ -179,17 +178,17 @@ The following image is used to give the button a distinct style. In this case, i
 </form>
 
 {::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <input type="image" src="searchbutton.png" alt="Search">
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

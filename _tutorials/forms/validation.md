@@ -1,6 +1,7 @@
 ---
 title: Validating Input
 order: 5
+group: forms
 wcag_success_criteria:
   - 3.3.1
   - 3.3.4
@@ -22,7 +23,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 In addition to providing instructions, validate user input to help users avoid mistakes. HTML5 defines a range of built-in functionality to validate common types of input, such as email addresses and dates. In some situations, such as validating custom controls or supporting legacy browsers, additional scripting may be necessary to validate user input.
 
-Custom validation needs to notify users in an accessible way as described in the [User Notifications](notifications.html) part of this tutorial. Client-side validation alone does not ensure security; therefore data needs to be validated on the server-side as well.
+Custom validation needs to notify users in an accessible way as described in the [User Notifications]({% link _tutorials/forms/notifications.md %}) part of this tutorial. Client-side validation alone does not ensure security; therefore data needs to be validated on the server-side as well.
 
 ## Validating required input
 {:.newex}
@@ -34,7 +35,8 @@ In the example below, the `required` attribute is added to the input field. If y
 Note that the label also displays “(required)”, to inform users that don’t use assistive technology or use older web browsers that do not support the HTML5 `required` attribute.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="../../beyond/">
 	<div>
@@ -43,12 +45,13 @@ Note that the label also displays “(required)”, to inform users that don’t
 	</div>
 </form>
 
-<%= sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <label for="name">Name (required): </label>
@@ -56,18 +59,18 @@ Note that the label also displays “(required)”, to inform users that don’t
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** The `aria-required` attribute informs assistive technologies about required controls so that they are appropriately announced to the users (as opposed to validating the input). Most current web browsers automatically set its value to `true` when the HTML5 `required` attribute is present. In this example, it is provided redundantly to support web browsers that don’t communicate the `required` attribute to assistive technology.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Validating common input
 {:.newex}
@@ -77,7 +80,8 @@ HTML5 also provides input types for other data, including `email`, `url`, `numbe
 The example below shows these HTML5 input types in action. Depending on your web browser, the “Range” input field will be displayed as a slider control to help users provide input more easily. Similarly, the “Number” input field may be displayed with buttons to increase or decrease the number incrementally. Input errors, such as an incorrect email address, will be indicated using the web browser dialogs as in the previous example.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="../../beyond/" id="valform">
 	<div>
@@ -116,12 +120,13 @@ The example below shows these HTML5 input types in action. Depending on your web
 	#valform>div>div {display:table-cell; padding: .1em;}
 </style>
 
-<%= sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <div>
@@ -151,12 +156,12 @@ The example below shows these HTML5 input types in action. Depending on your web
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** Several of these HTML5 input types have additional parameters to help limit and validate the input. They include:
 
@@ -165,8 +170,8 @@ The example below shows these HTML5 input types in action. Depending on your web
 * `steps` defines in what steps number and range fields can be incremented and decremented.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}
 
 ## Validating patterned input
 {:.newex}
@@ -179,7 +184,8 @@ The HTML5 `pattern` attribute allows the use of [regular expressions](https://ww
 In the example below, the `pattern` attribute of the `input` element specifies a particular format that matches car license plate (registration) numbers in Germany. The required pattern consists of one to three letters (for the city where the car is registered), followed by a space, two to four random letters, another space, then one to four random numbers.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <form method="post" action="../../beyond/">
 	<div>
@@ -189,12 +195,13 @@ In the example below, the `pattern` attribute of the `input` element specifies a
 	</div>
 </form>
 
-<%= sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <div>
@@ -205,8 +212,8 @@ In the example below, the `pattern` attribute of the `input` element specifies a
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 
 ## Be forgiving of different input formats

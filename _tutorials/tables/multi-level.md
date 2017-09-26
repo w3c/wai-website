@@ -3,6 +3,7 @@ title: Tables with multi-level headers
 nav_title: Multi-level Headers
 order: 5
 technologies: HTML5
+group: tables
 wcag_techniques:
   - H43
 editors:
@@ -22,7 +23,7 @@ Tables that should be marked up this way include:
 - Tables with column headers that repeat or change part-way through the table.
 - Tables with three or more header cells associated with each data cell.
 
-Tables with multiple headers may also need to have a caption to identify it and a summary to describe the layout of the table, see [Caption & Summary](caption-summary.html).
+Tables with multiple headers may also need to have a caption to identify it and a summary to describe the layout of the table, see [Caption & Summary]({% link _tutorials/tables/caption-summary.md %}).
 
 In many cases, it is worth considering to restructure the information in such tables to make them less complex for all readers, for example by splitting the information in smaller, more manageable tables as shown in [Example 3](#split-up-multi-level-tables).
 
@@ -32,7 +33,8 @@ In many cases, it is worth considering to restructure the information in such ta
 In the table below, the headers for the top half of the tables are different to the headers of the bottom half. The header changes halfway through the table which makes the headers in columns ambiguous. To ensure each data cell is associated with the correct header, each `<th>` element has a unique `id` and each `<td>` cell has a `headers` attribute that lists the `id` values of the associated header cells.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <table>
   <caption>
@@ -80,12 +82,13 @@ In the table below, the headers for the top half of the tables are different to 
   </tr>
 </table>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'Assigning <strong>id</strong> attributes to <code>&lt;th></code> cells') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: Assigning <strong>id</strong> attributes to <code>&lt;th></code> cells" class="example" %}
+{:/}
 
 ~~~ html
 […]
@@ -97,12 +100,12 @@ In the table below, the headers for the top half of the tables are different to 
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'Assigning <strong>header</strong> attributes to <code>&lt;td></code> cells') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: Assigning <strong>header</strong> attributes to <code>&lt;td></code> cells" class="example" %}
+{:/}
 
 ~~~ html
 […]
@@ -112,10 +115,10 @@ In the table below, the headers for the top half of the tables are different to 
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
-[Full code for Example “Table with multiple column headers in each column”](examples/multiplecolumnheaders.html)
+[Full code for Example “Table with multiple column headers in each column”]({% link _tutorials/tables/examples/multiplecolumnheaders.md %})
 
 ## Table with three headers related to each data cell
 {:.ex}
@@ -123,7 +126,8 @@ In the table below, the headers for the top half of the tables are different to 
 In this example, table headers are used as subheadings to describe what the next section of the table is about. Without these headers, the information would be unclear. Using the `headers` attribute, all three headers can be properly associated with the data cell.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <table class="numbers" summary="Column one has the location and size of accommodation, other columns show the type and number of properties available">
 <caption>
@@ -262,12 +266,13 @@ In this example, table headers are used as subheadings to describe what the next
 </tbody>
 </table>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'Assigning <code class="attrib">id</code> attributes to <code class="elem">&lt;th></code> cells') %>
-{:/nomarkdown}
+{% include box.html type="start" title='Code: Assigning <code class="attrib">id</code> attributes to <code class="elem">&lt;th></code> cells' class="example" %}
+{:/}
 
 ~~~ html
 […]
@@ -279,12 +284,12 @@ In this example, table headers are used as subheadings to describe what the next
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'Assigning <code class="attrib">header</code> attributes to <code class="elem">&lt;td></code> cells') %>
-{:/nomarkdown}
+{% include box.html type="start" title='Code: Assigning <code class="attrib">header</code> attributes to <code class="elem">&lt;td></code> cells' class="example" %}
+{:/}
 
 ~~~ html
 […]
@@ -294,10 +299,10 @@ In this example, table headers are used as subheadings to describe what the next
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
-[Full code for Example “Table with three headers related to each data cell”](examples/threeheaders.html)
+[Full code for Example “Table with three headers related to each data cell”]({% link _tutorials/tables/examples/threeheaders.md %})
 
 ## Split up multi-level tables
 {:.ex}
@@ -305,7 +310,8 @@ In this example, table headers are used as subheadings to describe what the next
 The two tables below provide the same information as the mutli-level table in [the example above](#table-with-three-headers-related-to-each-data-cell). This makes the information easier to understand for everyone and easier to code. Also, simple tables are much better supported by tools to create web content, including WYSIWYG (“What you see is what you get”) editors.
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 <p><strong>Availability of holiday accommodation</strong></p>
 <table class="numbers" summary="Column one has the location and size of accommodation, other columns show the type and number of properties available">
 <caption>
@@ -458,5 +464,6 @@ The two tables below provide the same information as the mutli-level table in [t
 </tbody>
 </table>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}

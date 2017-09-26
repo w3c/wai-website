@@ -1,6 +1,7 @@
 ---
 title: Image Maps
 technologies: HTML5
+group: images
 wcag_techniques:
   - H37
   - H24
@@ -23,10 +24,10 @@ A client-side image map is an image divided into selectable regions defined by `
 The following organizational chart is used to provide links to each director's home page. The text alternative for the image is “Board of Directors and related staff:”. Each linked `<area>` has a text alternative to identify the individual -- for example, “Davy Jones: Chairman”. The text alternative for individuals also states their relation in the graph.
 
 {::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
-![Board of directors and related staff: ](orgchart.png){:usemap="#Map"}
+![Board of directors and related staff: ](../../img/orgchart.png){:usemap="#Map"}
 
 <map name="Map" id="Map">
 	<area shape="rect" coords="176,14,323,58" href="../res/beyond" alt="Davy Jones: Chairman">
@@ -37,12 +38,12 @@ The following organizational chart is used to provide links to each director's h
 </map>
 
 {::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~ html
 <img src="orgchart.png"
@@ -63,22 +64,22 @@ The following organizational chart is used to provide links to each director's h
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
-[Full code for Image map example](examples/imagemap.html)
+[Full code for Image map example]({% link _tutorials/images/examples/imagemap.md %})
 
-Browser implementation for image maps varies at the time of writing; see [this HTML bug](https://lists.w3.org/Archives/Public/public-html-bugzilla/2015Jan/0020.html). To accommodate for the different implementations, keep in mind to:
+Browser implementation for image maps varies at the time of writing; see [this HTML bug](https://lists.w3.org/Archives/Public/public-html-bugzilla/2015Jan/0020.md %}). To accommodate for the different implementations, keep in mind to:
 
 * use every image map only once. That means if multiple images with the same map are to be used, the map should be duplicated and have a different `id`s;
 * place the `<map>` element as a direct sibling to the image.
 
 {::nomarkdown}
-<%= notes_start %>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 **Note:** Image maps may not function correctly on some mobile devices if the coordinates for the areas are not scaled using the same proportions as the image. To compensate for this, provide redundant text links on the same page.
 
 {::nomarkdown}
-<%= notes_end %>
-{:/nomarkdown}
+{% include notes.html type="end" %}
+{:/}

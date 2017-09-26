@@ -6,6 +6,7 @@ wcag_success_criteria:
   - 2.1.1
   - 4.1.2
 first_published: "May 2015"
+group: carousels
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -25,8 +26,8 @@ Provide buttons to allow users to switch back and forth between items. Use `<but
 {:/}
 
 {::nomarkdown}
-<%= code_start('', 'JavaScript') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{:/}
 
 ~~~js
 var ctrls = document.createElement('ul');
@@ -55,8 +56,8 @@ carousel.appendChild(ctrls);
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= demo :middle %>
@@ -82,15 +83,15 @@ Allow the user to maintain control of the keyboard focus. When the carousel adva
 <%= ref :middle %>
 {:/}
 
-Find more information about WAI-ARIA in the [WAI-ARIA Overview](https://www.w3.org/WAI/intro/aria), the [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) and the [Specification](https://www.w3.org/TR/wai-aria-1.1/).
+Find more information about WAI-ARIA in the [WAI-ARIA Overview]({% link pages/standards/aria.md %}), the [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) and the [Specification](https://www.w3.org/TR/wai-aria-1.1/).
 
 {::nomarkdown}
 <%= ref :end %>
 {:/}
 
 {::nomarkdown}
-<%= code_start('', 'Add a live region to the carousel') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: Add a live region to the carousel" %}
+{:/}
 
 ~~~js
 var liveregion = document.createElement('div');
@@ -101,12 +102,12 @@ carousel.appendChild(liveregion);
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= code_start('', 'Change text in the liveregion to have that text announced') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: Change text in the live region to have that text announced" %}
+{:/}
 
 ~~~js
 if (announceItem) {
@@ -115,8 +116,8 @@ if (announceItem) {
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Add navigation buttons
 {:.newex}
@@ -133,15 +134,15 @@ The list with buttons in the example below is added using JavaScript, with a num
 <%= ref :middle %>
 {:/}
 
-See the [carousel styling](styling.html) page for more information on how to highlight the active carousel item in an accessible way.
+See the [carousel styling]({% link _tutorials/carousels/styling.md %}) page for more information on how to highlight the active carousel item in an accessible way.
 
 {::nomarkdown}
 <%= ref :end %>
 {:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <ul class="slidenav">
@@ -164,11 +165,12 @@ See the [carousel styling](styling.html) page for more information on how to hig
 </ul>
 ~~~
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <style>
 .slidenav li {
@@ -226,8 +228,9 @@ See the [carousel styling](styling.html) page for more information on how to hig
   }
 </style>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Focus the selected carousel item
 

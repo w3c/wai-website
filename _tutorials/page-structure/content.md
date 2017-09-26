@@ -1,5 +1,6 @@
 ---
 title: Content Structure
+group: page-structure
 order: 5
 wcag_success_criteria:
   - 1.3.1
@@ -23,8 +24,8 @@ Mark up website content semantically, so that the website is extensible. Valid s
 The HTML5 `<article>` element represents a complete or self-contained composition in a web page. Examples of articles include an item at a shopping site or a news article on a news site.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <article>
@@ -38,16 +39,16 @@ The HTML5 `<article>` element represents a complete or self-contained compositio
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Sections
 
 The HTML5 `<section>` element marks a general region of a web page or an article. It is used for thematic grouping of content.
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <section>
@@ -57,8 +58,8 @@ The HTML5 `<section>` element marks a general region of a web page or an article
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Paragraphs
 
@@ -395,7 +396,7 @@ Each figure is wrapped in a `<figure>` element and labeled using a nested `<figc
 
 * **Note:** At the time of writing, WAI-ARIA attributes `role="group"` and `aria-labelledby` are used to provide the information to assistive technologies in a consistent way.
 
-* **Note:** For more information on how to mark up diagrams, see [complex images](/images/complex.html).
+* **Note:** For more information on how to mark up diagrams, see [complex images]({% link _tutorials/images/complex.md %}).
 
 {::nomarkdown}
 <%=notes_end%>
@@ -404,8 +405,8 @@ Each figure is wrapped in a `<figure>` element and labeled using a nested `<figc
 
 ## Images and illustrations
 
-Images and illustrations are useful to create visual engagement for many users. They may also clarify text for people with reading disabilities. Where images or illustrations are used, proper alternative text needs to be added. See the [Images Tutorial](/images/index.html) for guidance on alternative text.
+Images and illustrations are useful to create visual engagement for many users. They may also clarify text for people with reading disabilities. Where images or illustrations are used, proper alternative text needs to be added. See the [Images Tutorial]({% link _tutorials/images/index.md %}) for guidance on alternative text.
 
 ## Tables
 
-Data tables provide a useful way to display the data so that the structure of the table can be communicated to everyone. Proper table layout allows people to understand meaningful data relationships without seeing the grid. For more details, see the [Tables Tutorial](/tables/index.html).
+Data tables provide a useful way to display the data so that the structure of the table can be communicated to everyone. Proper table layout allows people to understand meaningful data relationships without seeing the grid. For more details, see the [Tables Tutorial]({% link _tutorials/tables/index.md %}).

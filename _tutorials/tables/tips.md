@@ -2,6 +2,7 @@
 title: Tips and Tricks
 order: 7
 type: tips
+group: tables
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -12,9 +13,9 @@ contributors:
 support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
 ---
 
--   **Keep it simple:** Complex tables are more work for content creators as well as being harder to interpret for users. It’s usually better to [break up complex tables into simple individual tables](multi-level.html#split-up-multi-level-tables), each containing the data for one sub-topic.
+-   **Keep it simple:** Complex tables are more work for content creators as well as being harder to interpret for users. It’s usually better to [break up complex tables into simple individual tables]({% link _tutorials/tables/multi-level.md %}#split-up-multi-level-tables), each containing the data for one sub-topic.
 
--   **Table separation:** If several tables follow one another, don’t use a single table and put in an additional row of `<th>` cells. Screen readers may read aloud all `<th>` cells in a column, resulting in confusion. [Start a new `<table>` when the topic changes.](multi-level.html#split-up-multi-level-tables)
+-   **Table separation:** If several tables follow one another, don’t use a single table and put in an additional row of `<th>` cells. Screen readers may read aloud all `<th>` cells in a column, resulting in confusion. [Start a new `<table>` when the topic changes.]({% link _tutorials/tables/multi-level.md %}#split-up-multi-level-tables)
 
 -   **Data separation:**
 

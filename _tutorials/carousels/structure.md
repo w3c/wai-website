@@ -2,6 +2,7 @@
 title: Carousel Structure
 nav_title: Structure
 order: 2
+group: carousels
 wcag_success_criteria:
   - 1.3.1
   - 2.4.6
@@ -45,8 +46,8 @@ See the Page Structure Tutorial for more information on [regions](/page-structur
 {:/}
 
 {::nomarkdown}
-<%= code_start %>
-{:/nomarkdown}
+{% include box.html type="start" title="Code: HTML" class="example" %}
+{:/}
 
 ~~~html
 <section class="carousel" aria-labelledby="carouselheading">
@@ -61,8 +62,8 @@ See the Page Structure Tutorial for more information on [regions](/page-structur
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= demo :middle %>
@@ -81,8 +82,8 @@ Carousels are often used as a gallery to display a series of images. However, mo
 This first example shows a carousel item with images as content:
 
 {::nomarkdown}
-<%= code_start('', 'Example 1') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example 1" class="example" %}
+{:/}
 
 ~~~html
 …
@@ -93,14 +94,14 @@ This first example shows a carousel item with images as content:
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 This example of an article that includes a heading and a paragraph shows how more complex content can be used.
 
 {::nomarkdown}
-<%= code_start('', 'Example 2') %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example 2" class="example" %}
+{:/}
 
 ~~~html
 …
@@ -115,5 +116,5 @@ This example of an article that includes a heading and a paragraph shows how mor
 ~~~
 
 {::nomarkdown}
-<%= code_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}

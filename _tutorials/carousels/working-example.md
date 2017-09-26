@@ -2,6 +2,7 @@
 title: Working Example
 order: 6
 type: tips
+group: carousels
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -10,8 +11,8 @@ contributors:
 support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
 ---
 {::nomarkdown}
-<%= sample_start("", "Complete Working Example") %>
-{:/nomarkdown}
+{% include box.html type="start" title="Example: Complete Working Example" class="example" %}
+{:/}
 
 <h3 role="presentation">Featured Articles:</h3>
 <div id="c" class="carousel">
@@ -68,8 +69,8 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 </style>
 
 {::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 <style>
   .carousel, .slide {

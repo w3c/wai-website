@@ -1,6 +1,7 @@
 ---
 title: Styling
 order: 5
+group: carousels
 wcag_success_criteria:
 - 1.4.1
 - 1.4.3
@@ -49,7 +50,8 @@ In the following example, a filled square is used for buttons associated with it
 {:/}
 
 {::nomarkdown}
-<%= sample_start %>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <style>
 .slidenav li {
@@ -107,8 +109,9 @@ In the following example, a filled square is used for buttons associated with it
   }
 </style>
 
-<%= sample_end %>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= demo :middle %>
