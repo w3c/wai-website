@@ -7,7 +7,7 @@ nopagefooter: true
 <section class="teaser featured grid-three-five" style="background-image: url({{ site.github.url }}/assets/images/teaser-image@1x.jpg); background-image: -webkit-image-set(url({{ site.github.url }}/assets/images/teaser-image@1x.jpg) 1x, url({{ site.github.url }}/assets/images/teaser-image@2x.jpg) 2x)">
     <a class="teaser-c stealthy-link col1" href="{{ site.github.url }}/test-evaluate/easychecks/">
         <header class="teaser-h featured">
-            <p>Featured Resource</p>
+            <p class="subtitle">Featured Resource</p>
             <h2 class="title">
               {% include icon.html name="checkmark" class="teaser-h-icon" %}
               Easy Checks
@@ -118,13 +118,13 @@ nopagefooter: true
                 <p><a href="http://w3.org/WAI/tutorials">Web Accessibility Tutorials</a> on Menus, Page Structure, Forms, Images, Tables, and Carousels have been updated. These tutorials show you how to create web content that is accessible to people with
                     disabilities and that improves the user experience for all users. They include general guidance, and specific examples for HTML5 and WAI-ARIA. (<a href="#">2017-Apr-18</a>)</p>
             </article>
-            <button class="button button-more"><span>See All News and Announcements</span></button>
+            <button class="button button-more"><span>See All News</span></button>
         </div>
         <div class="col2">
             <h3>Announcements</h3>
             <ul class="nolist announcements-list">
                 <li class="announce-box">Open position: <a href="#">Web Accessibility Engineer (China)</a></li>
-                <li class="announce-box"><a href="#">Get WAI Announcements</a></li>
+                <li class="announce-box"><a href="#">Get WAI News</a></li>
             </ul>
             <h3>Upcoming Events, Meetings, and Presentations</h3>
             <div class="announce-box">
