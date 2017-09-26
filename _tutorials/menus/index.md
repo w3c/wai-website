@@ -1,6 +1,6 @@
 ---
 title: Menu Concepts
-tutorial_title: Menus
+breadcrumb_title: Menus
 permalink: /tutorials/menus/
 nav_title: Concepts
 order: 1

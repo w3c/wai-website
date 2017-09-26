@@ -1,6 +1,6 @@
 ---
 title: Images Concepts
-tutorial_title: Images
+breadcrumb_title: Images
 permalink: /tutorials/images/
 order: 1
 group: images

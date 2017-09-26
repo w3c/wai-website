@@ -2,7 +2,7 @@
 title: Tables Concepts
 order: 1
 group: tables
-tutorial_title: Tables
+breadcrumb_title: Tables
 permalink: /tables/menus/
 first_published: "September 2014"
 wcag_success_criteria:

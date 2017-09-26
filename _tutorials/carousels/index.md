@@ -1,6 +1,6 @@
 ---
 title: Carousel Concepts
-tutorial_title: Carousels
+breadcrumb_title: Carousels
 order: 1
 group: carousels
 type: intro

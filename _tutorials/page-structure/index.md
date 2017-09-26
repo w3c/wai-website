@@ -1,6 +1,6 @@
 ---
 title: Page Structure Concepts
-tutorial_title: Page Structure
+breadcrumb_title: Page Structure
 nav_title: Concepts
 group: page-structure
 permalink: /tutorials/page-structure/
