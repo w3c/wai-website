@@ -214,6 +214,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 160)
   jekyll-github-metadata
+  jekyll-redirect-from
   jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
