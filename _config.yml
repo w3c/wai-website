@@ -94,6 +94,15 @@ collections:
     output: true
     acknowledgements: false
     permalink: /teach-advocate/:collection/:path/
+  policies:
+    area: "Plan & Manage"
+    name: "Web Accessibility Laws & Policies"
+    shortname: "Laws & Policies"
+    icon: "book" # TODO
+    repostitory: w3c/wai-tbd
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
 
 defaults:
   -
@@ -126,6 +135,11 @@ defaults:
       path: "_accessibility-training"
     values:
       layout: "sidenav"
+  -
+    scope:
+      path: "_policies"
+    values:
+      layout: "policy"
 
 plugins:
   - jekyll-seo-tag
