@@ -3,7 +3,7 @@ title: Tables Concepts
 order: 1
 group: tables
 breadcrumb_title: Tables
-permalink: /tables/menus/
+permalink: /tutorials/tables/
 first_published: "September 2014"
 wcag_success_criteria:
   - 1.3.1
