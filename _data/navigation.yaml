@@ -45,8 +45,8 @@
       url: "/plan/involving-users/"
     - name: Tips for Procuring
       url: "/plan/procurment-tips/"
-    - name: Accessibility Laws and Policies
-      url: "/plan/laws-policies/"
+    - name: Accessibility Laws & Policies
+      url: "/policies/"
 
 - name: Design & Develop
   url: "#"
