@@ -49,8 +49,7 @@ nopagefooter: true
             </p>
             <h2 class="title">Keyboard Compatibility</h2>
         </header>
-        <p>[Short description for Keyboard Compatibility] All functionality must be usable with the keyboard. That is, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not
-            require a mouse;…</p>
+        <p>All functionality must be usable with the keyboard. That is, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse. Learn more about how Keyboard Compatibility is essential for people with disabilities and useful for all.</p>
         <div class="button-group">
             <a href="{{ site.github.url }}/perspective-videos/keyboard/" class="button button-more"><span>More About Keyboard Compatibility</span></a>
             <!-- <a href="{{ site.github.url }}/perspective-videos/"          class="button button-more button-secondary"><span>See All Perspectives Videos</span></a> -->
