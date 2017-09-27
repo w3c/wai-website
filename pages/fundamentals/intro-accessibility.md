@@ -1,265 +1,77 @@
 ---
-title: Introduction to Accessibility
+title: Introduction to Web Accessibility
 permalink: /fundamentals/accessibility-intro/
 ---
 
-> “The power of the Web is in its universality.<br>
-> Access by everyone regardless of disability is an essential aspect.”<br>
-> **Tim Berners-Lee, W3C Director and inventor of the World Wide
-> Web**
-
-The Web is fundamentally designed to work for all people, whatever their
-hardware, software, language, culture, location, or physical or mental
-ability. When the Web meets this goal, it is accessible to people with a
-diverse range of hearing, movement, sight, and cognitive ability.
-
-Thus **the impact of disability is radically changed on the Web because
-the Web removes barriers** to communication and interaction that many
-people face in the physical world. However, when websites, web
-technologies, or web tools are badly designed, they can create barriers
-that exclude people from using the Web.
-
-The mission of the [Web Accessibility Initiative (WAI)](#wai) is to lead
-the Web to its full potential to be accessible, enabling people with
-disabilities to participate equally on the Web.
-
-See below for:
-
--   [why: the case for web accessibility](#case)
--   [what: examples of web accessibility](#examples)
--   [how: make your website and web tools accessible](#doit)
--   [Web Accessibility Initiative (WAI) at W3C](#wai)
--   [learn more](#learnmore)
-
-Why: The Case for Web Accessibility {#case}
---------------------------------------------
-
-It is essential that the Web be accessible in order to provide equal
-access and equal opportunity to people with diverse abilities. Indeed,
-the [UN Convention on the Rights of Persons with
-Disabilities](http://www.un.org/disabilities/convention/conventionfull.shtml)
-recognizes access to information and communications technologies,
-including the Web, as **a basic human right**.
-
-**Accessibility supports social inclusion** for people with disabilities
-as well as [others](http://www.w3.org/WAI/bcase/soc.html#groups), such
-as [older people](http://www.w3.org/WAI/bcase/soc.html#older), people in
-rural areas, and people in developing countries.
-
-Accessibility also benefits people without disabilities. The [Web
-Accessibility Perspectives
-video](https://www.youtube.com/watch?v=3f31oufqFSM) shows examples of
-how accessibility is essential for people with disabilities and useful
-for everyone in a variety of situations.
-
-**There is also a strong business case for accessibility.**
-Accessibility overlaps with other best practices such as [mobile web
-design](http://www.w3.org/WAI/mobile/), device independence, multi-modal
-interaction, usability, [design for older
-users](http://www.w3.org/WAI/bcase/soc.html#older), and [search engine
-optimization (SEO)](http://www.w3.org/WAI/bcase/fin.html#seo). Case
-studies show that accessible websites have better search results,
-reduced maintenance costs, and increased audience reach, among other
-benefits. [Developing a Web Accessibility Business Case for Your
-Organization](/WAI/bcase/Overview) details the social, technical,
-financial, and legal benefits of web accessibility.
-
-What: Examples of Web Accessibility {#examples}
------------------------------------
-
-Properly designed websites and web tools can be [used by people with
-disabilities](http://www.w3.org/WAI/intro/people-use-web.php). However,
-currently many sites and tools are developed with accessibility barriers
-that make it difficult or impossible for some people to use them. Below
-are just a few examples.
-
-### Alternative Text for Images
-
-![image of logo; HTML markup img alt='Web Accessibility Initiative
-logo'](http://www.w3.org/WAI/intro/alt-logo.png)
-
-Alt text is the classic example. Images should include *[equivalent
-alternative
-text](http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html)* in the
-markup/code.
-
-If alt text isn't provided for images, the image information is
-inaccessible, for example, to people who cannot see and use a screen
-reader that reads aloud the information on a page, including the alt
-text for the visual image.
-
-When equivalent alt text is provided, the information is available to
-people who are blind, as well as to people who turned off images on
-their mobile phone to lower bandwidth charges, people in a rural area
-with low bandwidth who turned off images to speed download, and others.
-It's also available to technologies that cannot see the image, such as
-search engines.
-
-### Keyboard Input
-
-![mouse crossed
-out](https://www.w3.org/WAI/intro/no-mouse.png)
-
-Some people cannot use a mouse, including many older users with limited
-fine motor control. An accessible website does not rely on the mouse; it
-provides [all functionality via a
-keyboard](http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html).
-Then people with disabilities can use [assistive
-technologies](http://www.w3.org/WAI/users/involving#at) that mimic the
-keyboard, such as speech input.
-
-### Transcripts for Audio
-
-[![example
-transcript](http://www.w3.org/WAI/intro/transcript.png)](http://www.w3.org/WAI/highlights/200606wcag2interview.html)
-
-Just as images aren't available to people who can't see, audio files
-aren't available to people who can't hear. Providing a text transcript
-makes the audio information accessible to people who are deaf or hard of
-hearing, as well as to search engines and other technologies that can't
-hear.
-
-It's easy and relatively inexpensive for websites to provide
-transcripts. There are also [transcription
-services](http://www.uiaccess.com/transcripts/transcript_services.html)
-that create text transcripts in HTML format.
-
-How: Make Your Website and Web Tools Accessible {#doit}
---------------------------------------------------------
-
-Most of the basics of accessibility are even easier and less expensive
-than providing transcripts. However, the proper techniques are poorly
-integrated into some web tools, education, and development processes. If
-you are new to accessibility, it takes some time and effort to learn the
-common issues and solutions. Here are places to start:
-
--   [Accessibility
-    Principles](https://www.w3.org/WAI/intro/people-use-web/principles)
-    — introduces accessibility requirements and provides references
-    international web accessibility standards.
--   [Easy Checks - A First
-    Review](https://www.w3.org/WAI/eval/preliminary) — helps you start
-    to test the accessibility of a web page and understand some common
-    accessibility barriers.
--   [Tips for Getting
-    Started](https://www.w3.org/WAI/gettingstarted/tips/) — introduces
-    some basic considerations for designing, writing, and developing for
-    web accessibility.
-
-Some accessibility barriers are more complicated to avoid and the
-solutions take more development time and effort. W3C WAI provides
-extensive resources to help, such as [Understanding WCAG 2.0: A guide to
-understanding and implementing Web Content Accessibility Guidelines
-2.0](http://www.w3.org/TR/UNDERSTANDING-WCAG20/).
-
-Using [authoring tools that support
-accessibility](http://www.w3.org/WAI/impl/software) makes it easier for
-website developers. Browsers also play a role in accessibility.
-[Essential Components of Web
-Accessibility](http://www.w3.org/WAI/intro/components.php) explains the
-relationships between the different components of web development and
-interaction.
-
-**Accessibility is essential for developers and organizations that want
-to create high quality websites and web tools, and not exclude people
-from using their products and services.**
-
-Web Accessibility Initiative (WAI) at W3C {#wai}
--------------------------------------------------
-
-The W3C [Web Accessibility Initiative (WAI)](http://www.w3.org/WAI/)
-brings together people from industry, disability organizations,
-government, and research labs from around the world to [develop
-guidelines](http://www.w3.org/WAI/intro/w3c-process.php) and
-[resources](http://www.w3.org/WAI/Resources/) to help make the Web
-accessible to people with disabilities including auditory, cognitive,
-neurological, physical, speech, and visual disabilities.
-
-WAI's coverage of web accessibility includes '[web
-content](http://www.w3.org/WAI/intro/wcag.php)' (websites and web
-applications), [authoring tools](http://www.w3.org/WAI/intro/atag.php)
-(such as content management systems (CMS) and blog software), browsers
-and other '[user agents](http://www.w3.org/WAI/intro/uaag.php)', and
-[W3C technical specifications](http://www.w3.org/WAI/PF/), including
-[WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) for accessible rich
-Internet applications.
-
-We invite individuals and organizations to [participate in
-WAI](http://www.w3.org/WAI/participation) by implementing, promoting,
-and reviewing guidelines; contributing to the [WAI Interest
-Group](http://www.w3.org/WAI/IG/); and participating in [Working
-Groups](http://www.w3.org/WAI/groups.html).
-
-Learn More {#learnmore}
-----------
-
-WAI provides a wide range of resources on different aspects of web
-accessibility [standards](https://www.w3.org/WAI/guid-tech),
-[education](https://www.w3.org/WAI/train),
-[testing/evaluation](https://www.w3.org/WAI/eval), [project management,
-and policy](https://www.w3.org/WAI/managing). We encourage you to
-explore the [WAI website](http://www.w3.org/WAI/), or look through the
-[WAI Resources](http://www.w3.org/WAI/Resources/) list.
-
-Current Status of Specifications {#specifications}
---------------------------------
-
-Learn more about the current status of specifications related to:
-
--   [Accessibility (All)](/standards/techs/accessibility)
--   [Web Content Accessibility Guidelines (WCAG)](/standards/techs/wcag)
--   [Accessible Rich Internet Applications
-    (WAI-ARIA)](/standards/techs/aria)
--   [User Agent Accessibility Guidelines (UAAG)](/standards/techs/uaag)
--   [Authoring Tool Accessibility Guidelines
-    (ATAG)](/standards/techs/atag)
--   [Evaluation and Report Language (EARL)](/standards/techs/earl)
--   [IndieUI](/standards/techs/indieui) *\[@@ need to figure out how to
-    have this not included in this list\]*
--   [Mobile Accessibility](/standards/techs/mobileaccessibility) *\[@@
-    need to figure out how to have this not included in this list\]*
-
-These [W3C Groups](/Consortium/activities) are working on the related
-specifications:
-
--   [Education and Outreach Working Group](http://www.w3.org/WAI/EO/)
--   [Evaluation and Repair Tools Working
-    Group](http://www.w3.org/WAI/ER/)
--   [Web Content Accessibility Guidelines Working
-    Group](http://www.w3.org/WAI/GL/)
--   [Accessible Rich Internet Applications Working
-    Group](http://www.w3.org/WAI/ARIA/)
--   [Digital Publishing Interest Group](http://www.w3.org/dpub/IG/)
--   [Internationalization Working
-    Group](http://www.w3.org/International/core/)
--   [SVG Working Group](http://www.w3.org/Graphics/SVG/WG/)
--   [Timed Text Working Group](http://www.w3.org/AudioVideo/TT/)
--   [Web Platform Working Group](http://www.w3.org/WebPlatform/WG/)
-
-Current Status {#current-status}
---------------
-
--   [Accessibility (All)](/standards/techs/accessibility)
--   [Web Content Accessibility Guidelines (WCAG)](/standards/techs/wcag)
--   [Accessible Rich Internet Applications
-    (WAI-ARIA)](/standards/techs/aria)
--   [User Agent Accessibility Guidelines (UAAG)](/standards/techs/uaag)
--   [Authoring Tool Accessibility Guidelines
-    (ATAG)](/standards/techs/atag)
--   [Evaluation and Report Language (EARL)](/standards/techs/earl)
--   ~~[IndieUI](/standards/techs/indieui)~~
--   ~~[Mobile Accessibility](/standards/techs/mobileaccessibility)~~
-
-
-Use It {#use-it}
-------
-
-\[@@ what do we want in this section?\]
-
--   [How People with Disabilities Use the
-    Web](http://www.w3.org/WAI/Resources/)
--   [Improving the Accessibility of Your Web
-    Site](http://www.w3.org/WAI/impl/improving)
--   [Managing Accessibility](http://www.w3.org/WAI/managing.html)
--   [Evaluating Web Accessibility](http://www.w3.org/WAI/eval/)
--   [More resources…](/WAI/Resources/)
+  <h1>Introduction to Web Accessibility</h1>
+  <p class="highlight-version"><strong>A shorter introduction with examples is on a W3C page: <a href="http://www.w3.org/standards/webdesign/accessibility" shape="rect">Accessibility - W3C</a></strong>. This page has more throrough coverage of issues.</p>
+  <div id="contents">
+    <h2>Page Contents</h2>
+    <ul>
+      <li><a href="#i-what" shape="rect">What is Web Accessibility</a></li>
+      <li><a href="#important" shape="rect">Why Web Accessibility is Important</a></li>
+      <li><a href="#making" shape="rect">Making the Web Accessible</a></li>
+      <li><a href="#more-info" shape="rect">For More Information</a></li>
+      <li><a href="#terms" shape="rect">Terminology</a></li>
+    </ul>
+    <!-- end (page) contents (list)--></div>
+  <h2><a name="i-what" id="i-what" shape="rect">What is Web Accessibility</a></h2>
+  <p><strong>Web accessibility means that people with disabilities can use the Web</strong>.
+    More specifically, Web accessibility means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can  contribute to the Web. Web accessibility also benefits others, including <a href="../bcase/soc.html#of" shape="rect">older people</a> with changing abilities due to aging.</p>
+  <p>Web accessibility encompasses all disabilities that  affect access to the Web, including visual, auditory, physical, speech, cognitive, and neurological disabilities. The document "<strong><a href="http://www.w3.org/WAI/intro/people-use-web/Overview.html" shape="rect">How People with Disabilities Use the Web</a></strong>" describes how different
+    disabilities affect Web use and includes scenarios of people with
+    disabilities using the Web. 
+    <!-- when done, link to intro doc --> 
+  </p>
+  <p></p>
+  <p>Millions of people  have disabilities that affect their use
+    of the Web. Currently most Web sites and <a href="#software" shape="rect">Web software</a> have <strong>accessibility barriers</strong> that make it
+    difficult or impossible for many people with disabilities to use the Web. As more accessible Web sites and  software become available, people with disabilities are able to use and contribute to the Web more effectively.</p>
+  <p>Web accessibility  also <strong>benefits</strong> people <em>without</em> disabilities. For example, a key  principle of Web accessibility is designing Web sites and software that are flexible to meet different user needs, preferences, and situations. This <strong>flexibility</strong> also benefits people <em>without</em> disabilities in certain situations, such as people using a slow Internet connection, people with "temporary disabilities" such as a broken arm, and people with changing abilities due to aging. The document "<a href="../bcase/Overview" shape="rect">Developing a
+    Web Accessibility Business Case for Your Organization</a>" describes  many different benefits of Web accessibility, including <strong>benefits for organizations</strong>.</p>
+  <h2><a name="important" id="important" shape="rect">Why Web Accessibility is
+    Important</a></h2>
+  <p>The Web is an increasingly important resource in many aspects of life: education, employment, government, commerce, health care, recreation, and more. It is essential that the Web be accessible in order to provide <strong>equal access</strong> and <strong>equal opportunity</strong> to people with disabilities. An accessible Web can also help people with disabilities more actively participate  in society.</p>
+  <p>The Web offers the possibility of <strong>unprecedented access to information and interaction</strong> for many people with disabilities. That is, the  accessibility barriers to print, audio, and visual media can be much more easily overcome through Web technologies.</p>
+  <p>The document "<a href="../bcase/soc" shape="rect">Social Factors in Developing a Web Accessibility Business Case for Your Organization</a>" discusses  how the Web  impacts the lives of people with disabilities, the overlap with digital divide issues, and Web accessibility as an aspect of corporate social responsibility.</p>
+  <p>Another important consideration for organizations is that Web accessibility is required by laws and policies in some cases. <a href="../policy-res" shape="rect">WAI  Web Accessibility Policy Resources</a> links to resources for addressing legal and policy factors within organizations, including a list of relevant <a href="../Policy/" shape="rect">laws and policies around the world</a>.</p>
+  <h2><a name="making" id="making" shape="rect">Making the Web Accessible</a></h2>
+  <p> Much of the focus on Web accessibility has been on the responsibilities of Web developers. However, <a href="#software" shape="rect">Web software</a> also has a vital role in Web accessibility. Software needs to help developers produce and evaluate accessible Web sites, and be usable by people with disabilities.</p>
+  <p>One of the roles of the Web Accessibility Initiative (<a href="../about-links" shape="rect">WAI</a>) is to develop <a href="../guid-tech" shape="rect">guidelines and techniques</a> that describe accessibility solutions for Web software and Web developers. These WAI guidelines  are considered the international standard for Web accessibility.</p>
+  <p>The document "<a href="components.php" shape="rect"><strong>Essential Components of
+    Web Accessibility</strong></a>" describes the different  Web accessibility roles, and how specific improvements could substantially advance Web accessibility.</p>
+  <h3><a name="specific" id="specific" shape="rect">Making Your Web Site Accessible</a></h3>
+  <p>Making a Web site accessible can be simple or complex, depending on many factors such as the type of <a href="#content" shape="rect">content</a>, the size and complexity of the site, and the
+    development tools and environment.</p>
+  <p>Many accessibility features are easily implemented if they are planned from the beginning of Web site development or redesign. Fixing inaccessible Web sites can require significant effort, especially sites that were not originally "coded" properly with standard <acronym title="Extensible HyperText Markup Language">XHTML</acronym> markup, and
+    sites with certain types of content such as multimedia.</p>
+  <p>The document "<a href="/WAI/impl/Overview" shape="rect">Implementation Plan for Web
+    Accessibility</a>" 
+    <!-- title of resource might change --> 
+    lists basic steps for addressing  accessibility in Web projects. The <a href="wcag.php" shape="rect">Web Content Accessibility Guidelines</a> and techniques documents provide detailed information for developers.</p>
+  <h3><a name="evaluate" id="evaluate" shape="rect"> Evaluating the Accessibility of a Web Site</a></h3>
+  <p>When developing or redesigning a site, evaluating accessibility early and throughout the development process can identify accessibility problems early when it is easier to address them. Simple techniques such as changing settings in a  browser can  determine if a Web page meets some accessibility guidelines. A comprehensive evaluation to determine if a site  meets all accessibility guidelines  is much more complex.</p>
+  <p>There are <a href="/WAI/ER/existingtools.html" shape="rect">evaluation  tools</a> that  help with evaluation. However, no tool alone can determine if a site meets accessibility guidelines. Knowledgeable <strong>human evaluation is required</strong> to determine if a site is accessible.</p>
+  <p>The document "<a href="/WAI/eval/Overview.html" shape="rect">Evaluating Web Sites for
+    Accessibility</a>"  provides guidance on <a href="/WAI/eval/preliminary" shape="rect">preliminary reviews</a> using techniques to quickly assess some of the accessibility problems on a site. It also provides  general procedures and tips for evaluating <a href="/WAI/eval/conformance" shape="rect">conformance to accessibility guidelines</a>.</p>
+  <h2><a id="more-info" name="more-info" shape="rect">For More Information</a></h2>
+  <p>The <a href="/WAI/" shape="rect">WAI Web site</a> provides <a href="../guid-tech" shape="rect">guidelines</a> and <a href="/WAI/Resources/" shape="rect"> resources</a> to help make the Web accessible. These range from very short summaries, such as "<a href="/WAI/References/QuickTips/" shape="rect">Quick Tips to
+    Make Accessible Web Sites</a>," to resources on <a href="../managing" shape="rect">managing accessibility</a>, to detailed <a href="/TR/tr-activity#WAITechnicalActivity" shape="rect">technical references</a>.</p>
+  <p>Related resources for making the Web accessible are also available from other organizations, and many can be found on the Web.</p>
+  <h2><a id="terms" name="terms" shape="rect">Terminology</a></h2>
+  <p><a name="content" id="content" shape="rect"></a><strong>Web "content"</strong> generally refers to the information in a Web page or Web application,
+    including text, images, forms, sounds, and such. More specific definitions
+    are available in the WCAG documents, which are linked from the <a href="wcag.php" shape="rect">Web Content Accessibility Guidelines (WCAG) Overview</a>.</p>
+  <p><a name="software" id="software" shape="rect"></a><strong>Web software</strong> includes:</p>
+  <ul>
+    <li><strong>Web browsers</strong>, media players, and other "user agents"; for more
+      information, see <a href="uaag.php" shape="rect">User Agent Accessibility Guidelines
+      (UAAG) Overview</a>.</li>
+    <!-- add assisitve technologies -->
+    <li><strong>Authoring tools</strong> that creates Web sites; for more information see, <a href="atag.php" shape="rect">Authoring Tool Accessibility Guidelines (ATAG)
+      Overview</a>.</li>
+    <li><strong>Evaluation tools</strong> that determine if a Web site meets standards and
+      guidelines; for a list of accessibility evaluation tools, see <a href="/WAI/ER/existingtools" shape="rect">Evaluation, Repair, and Transformation Tools
+      for Web Content Accessibility</a>.</li>
+  </ul>
+  <p>People with disabilities sometimes use other software, called <strong>assistive technologies</strong>, to interact with the Web.</p>
