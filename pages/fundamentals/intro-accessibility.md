@@ -3,7 +3,6 @@ title: Introduction to Web Accessibility
 permalink: /fundamentals/accessibility-intro/
 ---
 
-  <h1>Introduction to Web Accessibility</h1>
   <p class="highlight-version"><strong>A shorter introduction with examples is on a W3C page: <a href="http://www.w3.org/standards/webdesign/accessibility" shape="rect">Accessibility - W3C</a></strong>. This page has more throrough coverage of issues.</p>
   <div id="contents">
     <h2>Page Contents</h2>
