@@ -112,6 +112,15 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
+  media-intro:
+    area: "Design & Develop"
+    name: "Accessible Audio and Video"
+    shortname: "Audio & Video"
+    icon: "book" # TODO
+    repostitory: w3c/wai-media-intro
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
 
 defaults:
   -
@@ -154,6 +163,11 @@ defaults:
       path: "_policies"
     values:
       layout: "policy"
+  -
+    scope:
+      path: "_media-intro"
+    values:
+      layout: "sidenav"
 
 plugins:
   - jekyll-seo-tag

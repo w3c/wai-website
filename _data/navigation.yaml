@@ -58,7 +58,7 @@
     - name: Tips for Developing
       url: "/tips/developing/"
     - name: Accessible Audio and Video
-      url: "#"
+      url: "/media-intro/"
     - name: Mobile Accessibility Intro
       url: "/design-develop/mobile-accessibility-intro/"
     - name: WAI-ARIA Developers' Intro
