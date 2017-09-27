@@ -1,6 +1,7 @@
 ---
 title: Tips for Procuring
-permalink: /plan/procurment-tips/
+nav_title: Procuring
+order: 5
 ---
 
 TBD

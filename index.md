@@ -29,15 +29,15 @@ nopagefooter: true
         </header>
         <p>[Placeholder short description] W3C’s WAI develops guidelines widely regarded as the international standard for Web accessibility support materials to help understand and implement Web accessibility resources, through international collaboration.</p>
     </div>
-    <a href="#" class="col2 stealthy-link teaser-tip">
+    <a href="{{site.github.url}}/tips/designing/#provide-sufficient-contrast-between-foreground-and-background" class="col2 stealthy-link teaser-tip">
         <header class="teaser-h">
             <h2>
               {% include icon.html name="lightbulb" class="tips" %}
               <span>Tip of the Week</span>
             </h2>
         </header>
-        <p>Provide sufficient contrast between foreground and background</p>
-        <span class="fakelink">More Design Tips{% include icon.html name="chevron-right" %}</span>
+        <p class="fakelink">Provide sufficient contrast between foreground and background{% include icon.html name="chevron-right" %}</p>
+        <!-- <span class="fakelink">More Design Tips{% include icon.html name="chevron-right" %}</span> -->
     </a>
 </section>
 
@@ -53,7 +53,7 @@ nopagefooter: true
             require a mouse;…</p>
         <div class="button-group">
             <a href="{{ site.github.url }}/perspective-videos/keyboard/" class="button button-more"><span>More About Keyboard Compatibility</span></a>
-            <a href="{{ site.github.url }}/perspective-videos/"          class="button button-more button-secondary"><span>See All Perspectives Videos</span></a>
+            <!-- <a href="{{ site.github.url }}/perspective-videos/"          class="button button-more button-secondary"><span>See All Perspectives Videos</span></a> -->
         </div>
     </div>
     <div class="q3-start q4-end media">

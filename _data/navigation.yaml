@@ -44,7 +44,7 @@
     - name: Involving Users for Better Accessibility
       url: "/plan/involving-users/"
     - name: Tips for Procuring
-      url: "/plan/procurment-tips/"
+      url: "/tips/procurment/"
     - name: Accessibility Laws & Policies
       url: "/policies/"
 
@@ -52,11 +52,11 @@
   url: "#"
   pages:
     - name: Tips for Writing
-      url: "/design-develop/writing-tips/"
+      url: "/tips/writing/"
     - name: Tips for Designing
-      url: "/design-develop/designing-tips/"
+      url: "/tips/designing/"
     - name: Tips for Developing
-      url: "/design-develop/developing-tips/"
+      url: "/tips/developing/"
     - name: Accessible Audio and Video
       url: "#"
     - name: Mobile Accessibility Intro
@@ -85,7 +85,7 @@
     - name: Easy Checks – A First Review
       url: "/test-evaluate/easychecks/"
     - name: Tips for Evaluating
-      url: "/test-evaluate/evaluating-tips/"
+      url: "/tips/evaluating/"
     - name: Evaluation Tools
       url: "/test-evaluate/tools/"
       pages:
@@ -119,7 +119,7 @@
     - name: Handouts
       url: "/teach-advocate/handouts/"
     - name: Tips for Advocating
-      url: "/teach-advocate/advocating-tips/"
+      url: "/tips/advocating/"
     - name: Contacting Inaccessible Websites
       url: "/teach-advocate/contact-inaccessible-websites/"
     - name: Before and After Demo (BAD)

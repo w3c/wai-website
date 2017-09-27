@@ -94,6 +94,15 @@ collections:
     output: true
     acknowledgements: false
     permalink: /teach-advocate/:collection/:path/
+  tips:
+    area: "All Areas"
+    name: "Tips for Getting Started"
+    shortname: Getting Started Tips
+    icon: "book" # TODO
+    repostitory: w3c/wai-quick-start
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
   policies:
     area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
@@ -133,6 +142,11 @@ defaults:
   -
     scope:
       path: "_accessibility-training"
+    values:
+      layout: "sidenav"
+  -
+    scope:
+      path: "_tips"
     values:
       layout: "sidenav"
   -

@@ -1,6 +1,7 @@
 ---
 title: Tips on Writing for Web Accessibility
-permalink: /design-develop/writing-tips/
+nav_title: Writing
+order: 2
 ---
 
 This page introduces some basic considerations to help you get started writing web content that is more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.

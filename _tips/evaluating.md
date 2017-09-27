@@ -1,7 +1,7 @@
 ---
 title: Tips on Evaluating Web Accessibility
-nav_title: Tips for Evaluating
-permalink: /test-evaluate/evaluating-tips/
+nav_title: Evaluating
+order: 4
 ---
 
 {:.toc .no_toc}

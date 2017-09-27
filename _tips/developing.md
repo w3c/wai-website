@@ -1,6 +1,7 @@
 ---
 title: Tips on Developing for Web Accessibility
-permalink: /design-develop/developing-tips/
+nav_title: Developing
+order: 3
 ---
 This page introduces some basic considerations to help you get started developing web content that is more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.
 
