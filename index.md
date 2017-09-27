@@ -9,7 +9,7 @@ nopagefooter: true
         <header class="teaser-h featured">
             <p class="subtitle">Featured Resource</p>
             <h2 class="title">
-              {% include icon.html name="book" class="teaser-h-icon" %}
+              {% include icon.html name="development" class="teaser-h-icon" %}
               Web Accessibility Tutorials
             </h2>
         </header>
@@ -57,9 +57,11 @@ nopagefooter: true
         </div>
     </div>
     <div class="q3-start q4-end media">
-        <div class="media-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/93UgG72os8M" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <a href="{{site.github.url}}/perspective-videos/keyboard/" class="media-wrapper" style="display:block;">
+            <div class="img" style="background-image: url('{{site.github.url}}/perspective-videos/img/keyboard.jpg'); background-size: stretch; background-position: center;">
+                <span class="visuallyhidden">Keyboard Compatibility Video Page</span>
+            </div>
+        </a>
     </div>
 </div>
 
@@ -139,7 +141,7 @@ nopagefooter: true
                 <p><a href="http://w3.org/WAI/tutorials">Web Accessibility Tutorials</a> on Menus, Page Structure, Forms, Images, Tables, and Carousels have been updated. These tutorials show you how to create web content that is accessible to people with
                     disabilities and that improves the user experience for all users. They include general guidance, and specific examples for HTML5 and WAI-ARIA. (<a href="#">2017-Apr-18</a>)</p>
             </article>
-            <button class="button button-more"><span>See All News</span></button>
+            <a href="{{site.github.url}}/news/" class="button button-more"><span>See All News</span></a>
         </div>
         <div class="col2">
             <h3>Announcements</h3>
