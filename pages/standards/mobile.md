@@ -142,7 +142,7 @@ accessibility at W3C WAI, see [Getting WAI
 Announcements](http://www.w3.org/WAI/about/announcements).
 
 
-<! @@@@@@@@@@@ commented out for now
+<!-- @@@@@@@@@@@ commented out for now
 
 Mobile and Accessibility Overlap {#overlap}
 --------------------------------------------
@@ -177,7 +177,7 @@ using "traditional" computers*.
     WCAG, or are familiar with WCAG and want to know how it relates to
     MWBP.
     
-    @@@@@@@@@ end comment out ->
+    @@@@@@@@@ end comment out -->
 
 About W3C and WAI {#about}
 ---------------------------
