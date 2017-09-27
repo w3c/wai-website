@@ -9,12 +9,12 @@ nopagefooter: true
         <header class="teaser-h featured">
             <p class="subtitle">Featured Resource</p>
             <h2 class="title">
-              {% include icon.html name="checkmark" class="teaser-h-icon" %}
-              Easy Checks
+              {% include icon.html name="book" class="teaser-h-icon" %}
+              Web Accessibility Tutorials
             </h2>
         </header>
         <p>
-            Is accessibility addressed in even the most basic way on your site?
+            Guidance on developing content that is accessible to people with disabilities.
         </p>
         <div>
             <span class="button">Read More</span>
@@ -66,6 +66,7 @@ nopagefooter: true
 <div class="grid-4q nogap teaser">
     <a href="#" class="q1-start q1-end stealthy-link area-teaser">
         <header class="teaser-h">
+            <p class="subtitle"></p>
             <h2 class="title">{% include icon.html name="loupe" class="teaser-h-icon full" %}Audit</h2>
         </header>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
