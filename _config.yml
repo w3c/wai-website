@@ -121,6 +121,15 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
+  business-case:
+    area: "Plan & Manage"
+    name: "Business Case"
+    shortname: "Business Case"
+    icon: "book" # TODO
+    repostitory: w3c/wai-bcase
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
 
 defaults:
   -
@@ -166,6 +175,11 @@ defaults:
   -
     scope:
       path: "_media-intro"
+    values:
+      layout: "sidenav"
+  -
+    scope:
+      path: "_business-case"
     values:
       layout: "sidenav"
 
