@@ -3,13 +3,18 @@ title: "Contacting Organizations about Inaccessible Websites"
 permalink: /teach-advocate/contact-inaccessible-websites/
 ---
 
-Page Contents
--------------
-{:.no_toc}
 {::options toc_levels="2" /}
 
--   This text will be replaced by the TOC.
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
 {:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 Overview {#overview}
 --------------------

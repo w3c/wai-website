@@ -49,7 +49,7 @@ details[open] > summary > *:first-child::before {
   can  use as building blocks to create presentations and training
   sessions. These are examples that you can adapt and combine for your
   specific audience and goals.</p>
-<h2 id="toc">List of Topics</h2>
+<h2>List of Topics</h2>
 <ul class="toc">
   <li><strong>Introducing Accessibility </strong>
      <ol>

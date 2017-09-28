@@ -19,29 +19,25 @@ support:
     url: http://www.w3.org/WAI/ACT/
 ---
 
-Page contents
--------------
-
--   [Reference standards](#reference)
--   [Define conformance levels](#conformance)
--   [Define scope of policy](#scope)
--   [Set conformance milestones](#milestones)
--   [Consider third-party content](#thirdparty)
--   [Define monitoring and review process](#monitor)
--   [Example policies](#examples)
--   [Policy template](#template)
--   [Next steps: Maintaining your policy](#maintain)
--   [Longer term: Strategic planning](#strategic)
-
-Introduction
-------------
-{:#intro.no-display}
-
 This guide helps you develop a policy for creating, managing, and
 delivering accessible websites. Refer to [Planning and Managing Web
 Accessibility](https://www.w3.org/WAI/impl/Overview) to learn about how
 such policies form part of a broader approach to implementing
 accessibility.
+
+{::options toc_levels="2" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
 
 ### Designing a policy {#about}
 
