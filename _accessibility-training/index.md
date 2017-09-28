@@ -13,14 +13,14 @@ introductory slides for those new to accessibility, to updated
 statistics and demos for experienced trainers. This set of resources
 includes:
 
--   [**Accessibility Topics**](topics.md) - provides descriptions and
+-   [**Accessibility Topics**]({% link _accessibility-training/topics.md %}) - provides descriptions and
     resources for topics that can be covered in presentations and
     training, including:
     -   Introducing accessibility (4 topics)
     -   Guidelines and techniques (6 topics)
     -   Managing accessibility (6 topics)
     -   Evaluating accessibility (2 topics)
--   [**Presentation Outlines**](presentation-outlines.md) - example
+-   [**Presentation Outlines**]({% link _accessibility-training/presentation-outlines.md %}) - example
     outlines of presentations that combine some of the Topics:
     -   Introducing web accessibility (20 minutes for any audience)
     -   Promoting web accessibility (10 minutes for senior management)
@@ -28,7 +28,7 @@ includes:
         needs)
     -   Accessible web design (2 hour lecture as part of a web design
         course)
--   [**Workshop Outline**](workshop-outlines.md) - an example outline for:
+-   [**Workshop Outline**]({% link _accessibility-training/workshop-outline.md %}) - an example outline for:
     -   Three-day hands-on web accessibility training workshop for:
         -   Website developers and application programmers (all 3 days)
         -   Web content authors and visual designers (days 1 & 2 only)
