@@ -96,7 +96,7 @@ nopagefooter: true
         <header class="teaser-h">
             <h3 class="title">
                 {% include icon.html name="development" class="teaser-h-icon full" %}
-                <span class="subtitle">Reference the Standard</span><br>
+                <span class="subtitle">WCAG Checklist</span><br>
                 How to Meet WCAG 2.0
             </h3>
         </header>
