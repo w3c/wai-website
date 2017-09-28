@@ -19,6 +19,20 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Mark up website content semantically, so that the website is extensible. Valid semantics create content that is reusable and more meaningful to assistive technologies.
 
+{::options toc_levels="2,3" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
+
 ## Articles
 
 The HTML5 `<article>` element represents a complete or self-contained composition in a web page. Examples of articles include an item at a shopping site or a news article on a news site.
@@ -81,7 +95,9 @@ Individual list items can contain a variety of HTML elements, including paragrap
 The unordered list consists of one `<ul>` element and multiple list item (`<li>`) elements:
 
 {::nomarkdown}
-<%=sample_start%>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
+
 <ul>
     <li>Corn</li>
     <li>Tomatoes</li>
@@ -90,12 +106,14 @@ The unordered list consists of one `<ul>` element and multiple list item (`<li>`
     <li>Garlic</li>
     …
 </ul>
-<%=sample_end%>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <ul>
@@ -109,15 +127,17 @@ The unordered list consists of one `<ul>` element and multiple list item (`<li>`
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Ordered list
 
 The ordered list consists of one `<ol>` element and multiple list item (`<li>`) elements:
 
 {::nomarkdown}
-<%=sample_start%>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
+
 <ol>
     <li>Cook beans for 45 minutes.</li>
     <li>Cut vegetables in small cubes.</li>
@@ -126,12 +146,14 @@ The ordered list consists of one `<ol>` element and multiple list item (`<li>`) 
     <li>Add corn and beans.</li>
     …
 </ol>
-<%=sample_end%>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <ol>
@@ -145,15 +167,16 @@ The ordered list consists of one `<ol>` element and multiple list item (`<li>`) 
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Nested lists
 
 Every list can be nested into another list. In the following example, the order of preparation is not critical, but the preparation itself should be done before using the ingredients. The information is still easy to digest, assistive technology can easily inform users about the number of steps.
 
 {::nomarkdown}
-<%=sample_start%>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <ol>
     <li>
@@ -169,12 +192,13 @@ Every list can be nested into another list. In the following example, the order 
     …
 </ol>
 
-<%=sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <ol>
@@ -193,8 +217,8 @@ Every list can be nested into another list. In the following example, the order 
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Description lists
 {:.newex}
@@ -209,7 +233,9 @@ A grouping begins either on the first item of the list or whenever a `<dt>` elem
 In the following example, John and Luke are described as authors, and Frank is described as editor.
 
 {::nomarkdown}
-<%=sample_start%>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
+
 <dl>
   <dt>Authors</dt>
   <dd>John</dd>
@@ -217,12 +243,14 @@ In the following example, John and Luke are described as authors, and Frank is d
   <dt>Editor</dt>
   <dd>Frank</dd>
 </dl>
-<%=sample_end%>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <dl>
@@ -235,8 +263,8 @@ In the following example, John and Luke are described as authors, and Frank is d
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Multiple terms, one description
 {:.ex}
@@ -244,18 +272,22 @@ In the following example, John and Luke are described as authors, and Frank is d
 In the next example, two different spellings of a word are defined using description lists. In such cases, use the `dfn` element to mark up the defined term.
 
 {::nomarkdown}
-<%=sample_start%>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
+
 <dl>
    <dt lang="en-US"><dfn>color</dfn></dt>
    <dt lang="en-GB"><dfn>colour</dfn></dt>
    <dd>A sensation which (in humans) derives from the ability of the fine structure of the eye to distinguish three differently filtered analyses of a view.</dd>
 </dl>
-<%=sample_end%>
-{:/nomarkdown}
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <dl>
@@ -266,8 +298,8 @@ In the next example, two different spellings of a word are defined using descrip
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 #### Multiple terms, multiple descriptions
 {:.ex}
@@ -275,19 +307,22 @@ In the next example, two different spellings of a word are defined using descrip
 In this example, John and Luke are authors and also editors:
 
 {::nomarkdown}
-<%=sample_start%>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
+
 <dl>
   <dt>Authors</dt>
   <dt>Editors</dt>
   <dd>John</dd>
   <dd>Luke</dd>
 </dl>
-<%=sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <dl>
@@ -299,8 +334,8 @@ In this example, John and Luke are authors and also editors:
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Quotes
 {:.newex}
@@ -313,19 +348,21 @@ Identifying a quotation helps clarify that the content is attributed to another 
 Use the `<blockquote>` element for longer and more complex quotes. It can contain paragraphs, headings, and other text structure elements. Those should reflect the structure of the cited document. The `<cite>` element is used to refer to the source of the quote.
 
 {::nomarkdown}
-<%=sample_start%>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <p>The following is an excerpt from the <cite>The Story of my Life</cite> by Helen Keller</p>
 <blockquote>
     <p>Even in the days before my teacher came, I used to feel along the square stiff boxwood hedges, and, guided by the sense of smell, would find the first violets and lilies. There, too, after a fit of temper, I went to find comfort and to hide my hot face in the cool leaves and grass.</p>
 </blockquote>
 
-<%=sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <p>The following is an excerpt from the <cite>The Story of my Life</cite> by Helen Keller</p>
@@ -335,8 +372,8 @@ Use the `<blockquote>` element for longer and more complex quotes. It can contai
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ### Inline quote
 {:.ex}
@@ -344,24 +381,26 @@ Use the `<blockquote>` element for longer and more complex quotes. It can contai
 For shorter quotes, that are usually embedded in another sentence, use the `<q>` element.
 
 {::nomarkdown}
-<%=sample_start%>
+{% include box.html type="start" title="Example" class="example" %}
+{:/}
 
 <p>Helen Keller said, <q>Self-pity is our worst enemy and if we yield to it, we can never do anything good in the world.</q></p>
 
-<%=sample_end%>
-{:/nomarkdown}
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <p>Helen Keller said, <q>Self-pity is our worst enemy and if we yield to it, we can never do anything good in the world.</q></p>
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 ## Figures
 
@@ -371,8 +410,8 @@ Each figure is wrapped in a `<figure>` element and labeled using a nested `<figc
 
 
 {::nomarkdown}
-<%=code_start%>
-{:/nomarkdown}
+{% include box.html type="start" title="Code" class="example" %}
+{:/}
 
 ~~~html
 <p>The sales volume of our SpaceBear product was steadily the first three quarters but had a huge success in quarter four with the introduction of SuperBear in time for the holiday season. See graphic G3 for details.</p>
@@ -387,21 +426,20 @@ Each figure is wrapped in a `<figure>` element and labeled using a nested `<figc
 ~~~
 
 {::nomarkdown}
-<%=code_end%>
-{:/nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::nomarkdown}
-<%=notes_start%>
-{:/nomarkdown}
+{% include notes.html type="start" %}
+{:/}
 
 * **Note:** At the time of writing, WAI-ARIA attributes `role="group"` and `aria-labelledby` are used to provide the information to assistive technologies in a consistent way.
 
 * **Note:** For more information on how to mark up diagrams, see [complex images]({% link _tutorials/images/complex.md %}).
 
 {::nomarkdown}
-<%=notes_end%>
-{:/nomarkdown}
-
+{% include notes.html type="end" %}
+{:/}
 
 ## Images and illustrations
 

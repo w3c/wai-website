@@ -4,11 +4,18 @@ nav_title: Advocating
 order: 6
 ---
 
-{:.toc .no_toc}
-## On this page
+{::options toc_levels="2" /}
 
-{:toc .toc}
-* Will be replaced with the ToC
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 {::nomarkdown}
 <%= tip %>

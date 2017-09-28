@@ -15,6 +15,19 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Use fly-out (or drop-down) menus to provide an overview of a web site’s page hierarchy. It removes the need for multiple page loads provided that users know where to find the information. Application menus are usually implemented this way, too.
 
+{::options toc_levels="2,3" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
 People with reduced dexterity, such as tremors, often have trouble operating fly-out menus. For some, it might be impossible. Make sure to provide other ways to the submenu items, for example by repeating them on the page of the parent menu item.
 
 ## Indicate submenus

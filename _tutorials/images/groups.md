@@ -19,6 +19,19 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Sometimes groups of images are used together to represent one piece of information. For example, a collection of star icons that together represent a rating. In this case, only one of the images needs a text alternative to describe the entire collection, while the other images have a null (empty) `alt` attribute so that they are ignored by assistive technology.
 
+{::options toc_levels="2,3" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
 In other cases, a group of images may represent a collection of related images. For example, showing a collection of art impressions that are thematically related. In this case, each image needs its text alternative that describes it individually, as well as its relationship within the group.
 
 ## Multiple images conveying a single piece of information
