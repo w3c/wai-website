@@ -36,698 +36,470 @@ and do not address every kind of disability.
 {:/}
 
 
-Mr. Lee, Online shopper with color blindness {#shopper}
---------------------------------------------------------
+Lee, online shopper with color blindness {#shopper}
+---------------------------------------------------
 
-Mr. Lee wants to buy some new clothes, appliances, and music. As he
-frequently does, he is spending an evening shopping online with his
-tablet computer. He has one of the most common visual disabilities for
-men: color blindness, which in his case means an inability to
-distinguish between green and red.
+Lee has one of the most common visual disabilities that affect men, red and green color blindness. Lee frequently shops online and sometimes encounters problems on websites and with apps where the color contrast of text and images is not adequate and where color alone is used to indicate required fields and sale prices. When red and green color combinations are used, Lee cannot distinguish between the two, since both look brown to him. It is also very difficult for him to make product choices when color swatches are not labeled with the name of the color.
 
-### More about Mr. Lee {#more-about-mr-lee}
+Lee has better experiences with online content and apps that use adequate contrast and allow him to adjust contrast settings in his browser. He is also better able to recognize when information is required when asterisks are used. Lee can more easily identify the products he would like to purchase, especially clothing, when the color label names are included in the selection options rather than color swatches alone.
 
+For more information on implementing techniques that remove barriers for Lee, see the following resources:
 
+{% include excol.html type="start" id="lee-sections" %}
 
-Mr. Lee has difficulty reading the text on many websites because they
-use color combinations with poor contrast for text and images, which
-appear to him in indistinguishable shades of brown. For example, some
-websites highlight discount prices using red text, but all of the text
-look brown to him. Other websites use red to indicate required fields on
-forms, but again he cannot tell which fields have red text.
+### Sections related to Lee
 
-Mr. Lee prefers websites that use colors with good contrast, and
-indications that do not rely on color alone. One of his favorite
-websites accomplishes this by:
-
--   including the name of the color while showing a sample of the
-    clothing;
--   adding the word "discount" to discounted prices in addition to
-    showing them in a different color;
--   using text cues, such as an asterisk, to indicate the required
-    fields on the order form in addition to showing them by color.
-
-After additional experimentation, Mr. Lee discovered settings in his web
-browser that allow him to define customized color combinations for text,
-links, and the background. He also found a setting for high color
-contrast combinations in his web browser that he can switch on when he
-encounters websites that are difficult to read. However, this approach
-does not work for all websites — some are not coded to allow readers to
-override the default presentation.
-
-Eventually, Mr. Lee bookmarked a series of online shopping sites where
-he could get reliable information on product colors or where he could
-override the colors, and not have to guess at which items were
-discounted.
-
-
-### Sections related to Mr. Lee {#sections-related-to-mr-lee}
-
-
+{% include excol.html type="middle" %}
 
 **Diversity of web users:**
 
--   [Color blindness (Visual disabilities)](diversity#visual)
+-   [Color blindness (Visual disabilities)]({% link _people-use-web/abilities-barriers.md %}#visual)
 
 **Diversity in web use:**
 
--   [Customized fonts and colors (Presentation)](browsing#presentation)
+-   [Customized fonts and colors (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
 
 **Accessibility principles:**
 
 -   [Content can be presented in different ways
-    (Perceivable)](principles#adaptable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#adaptable)
 -   [Content is easier to see and hear
-    (Perceivable)](principles#distinguishable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#distinguishable)
 -   [Content is compatible with current and future user tools
-    (Robust)](principles#compatible)
+    (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
+{% include excol.html type="end" %}
 
-
-Mr. Jones, Reporter with repetitive stress injury {#reporter}
+Jonah, reporter with repetitive stress injury {#reporter}
 --------------------------------------------------------------
 
-Mr. Jones is a reporter for an online journal who must submit his
-articles using a web-based authoring tool (a content management system –
-CMS) provided by the publisher. Over his twenty-year career, Mr. Jones
-developed repetitive stress injury (RSI) in his hands and arms, and it
-has become painful for him to type.
+Jonah has worked as a reporter for more than 20 years and has developed a repetitive strain injury that makes it painful to use a mouse and to type for extended periods of time.
 
-### More about Mr. Jones {#more-about-mr-jones}
+With the following modifications to his work environment, which took research, time, and commitment to learn, he is able to continue working with less pain:
 
+* use of an ergonomic keyboard
+* use of keyboard commands without a mouse
+* voice recognition software on his computer and mobile phone
+*  assistive touch on his mobile phone
 
+Jonah encounters problems when websites and other online content cannot be navigated by keyboard commands alone. He frequently encounters web forms that do not have keyboard equivalents. Sometimes it is also difficult to skip content and navigate to sections on a web page without using many keyboard commands, which is very tiring and limits the time he can spend working comfortably. He also recently began to explore the use of assistive touch on his mobile phone which also helps him use fewer gestures and work for longer periods of time.) As a temporary fix, Jonah’s employer has built several custom work arounds that provide keyboard support for his use of the company’s internal Content Management System with the intention to implement improved keyboard support to benefit all users on the next release of the software.
 
-Mr. Jones does not use a mouse because it strains his wrists. He also
-cannot type for extended periods of time without serious pain. After
-dedicated research and consultation, Mr. Jones developed an approach
-that allows him to continue working as a reporter. He uses:
+For more information on implementing techniques that remove barriers for Jonah, see the following resources:
 
--   keyboard with an ergonomic layout to relieve strain on his hands and
-    arms;
--   web browser with keyboard support to use websites without a mouse;
--   voice recognition software to control computer functionality by
-    voice;
--   mobile phone to dictate long passages of text rather than typing.
+{% include excol.html type="start" id="jonah-sections" %}
 
-It took him several months to become sufficiently accustomed to using
-voice recognition software and be comfortable working with it for many
-hours at a time. It also took him a while to learn the keyboard commands
-built into his web browser and use them effectively on different types
-of web pages.
+### Sections related to Jonah
 
-Still, Mr. Jones cannot use websites that do not provide keyboard
-support. For instance, some websites have forms and controls that do not
-have keyboard equivalents. To activate these, he would have to use a
-mouse instead of voice recognition or typing, and this would worsen his
-RSI. Many websites also do not provide mechanisms to skip over forms,
-menus, and other parts of a web page using the keyboard alone. To
-navigate through such websites, he would have to use the keyboard
-extensively, and this would again strain his hands.
-
-For Mr. Jones to continue working with the publisher, web developers
-built customized workarounds into the CMS to add some of the keyboard
-support that was initially missing. It is not an optimal solution and
-only works for some of the functions, but the publisher intends to
-upgrade the CMS to one with full keyboard support, especially since
-other employees found that keyboard support was easier on their hands.
-
-
-### Sections related to Mr. Jones {#sections-related-to-mr-jones}
-
-
+{% include excol.html type="middle" %}
 
 **Diversity of web users:**
 
 -   [Repetitive stress injury (Physical
-    disabilities)](diversity#physical)
+    disabilities)]({% link _people-use-web/abilities-barriers.md %}#physical)
 
 **Diversity in web use:**
 
--   [Accelerators (Input)](browsing#input)
--   [Alternative keyboard and mouse (Input)](browsing#input)
--   [Voice recognition (Input)](browsing#input)
--   [Word prediction (Input)](browsing#input)
--   [Keyboard navigation (Interaction)](browsing#interaction)
--   [Skip links (Interation)](browsing#interaction)
+-   [Accelerators (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Alternative keyboard and mouse (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Voice recognition (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Word prediction (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Keyboard navigation (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Skip links (Interation)]({% link _people-use-web/tools-techniques.md %}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](principles#alternatives)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#alternatives)
 -   [Content can be presented in different ways
-    (Perceivable)](principles#adaptable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#adaptable)
 -   [Functionality is available from a keyboard
-    (Operable)](principles#keyboard)
+    (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#keyboard)
 -   [Users have enough time to read and use the content
-    (Operable)](principles#time)
+    (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](principles#navigable)
+    are (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#navigable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](principles#predictable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#predictable)
 -   [Users are helped to avoid and correct mistakes
-    (Understandable)](principles#tolerant)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#tolerant)
 -   [Content is compatible with current and future user tools
-    (Robust)](principles#compatible)
+    (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
+{% include excol.html type="end" %}
 
-
-Ms. Martinez, Online student who is hard of hearing {#onlinestudent}
+Martine, online student who is hard of hearing {#onlinestudent}
 ---------------------------------------------------------------------
 
-Ms. Martinez is taking several distance learning courses in physics. She
-is 62 years old and has been hard of hearing since birth. She can hear
-some sounds but not enough to understand all speech, so she learned sign
-language early on in addition to the written language. She likes to use
-text messaging and chat to communicate with her instructors and
-classmates.
+Martine is 62 years old and has been hard of hearing since birth. She can hear some sounds, but not enough to understand speech. As a child she learned sign language and during her early school years learned written language. She is currently a student again, taking online college courses.
 
-### More about Ms. Martinez {#more-about-ms-martinez}
+The university she attends provides sign language interpreters and CART writers who provide written verbatim text interpreting of spoken language for her courses. However, Martine has encountered barriers when video and other media content are not captioned. The university became aware of the need and requirement to provide captioned media and transcripts for audio content and is now working with a captioning provider to caption all content posted on university websites and course content in learning management systems, following the WCAG guidelines. In addition to providing access to the content for students who are deaf or hard of hearing, the university has found that the use of captions and transcripts facilitates easier production of subtitles in a number of languages and improves the indexing of their online content which provides improved search engine optimization and improved discoverability of the university’s online content.
 
+For more information on implementing techniques that remove barriers for Martine, see the following resources:
 
+{% include excol.html type="start" id="martine-sections" %}
 
-She had little trouble with the curriculum until the university upgraded
-their online material to a multimedia approach, using an extensive
-collection of audio lectures. For classroom-based lectures, the
-university provided sign language interpreters and CART writers
-(professionals typing spoken language verbatim). However, for web-based
-instruction, they initially did not realize that accessibility was an
-issue, then said they had no idea how to provide the material in
-accessible format.
+### Sections related to Ms. Martinez
 
-With the help of a local disability organization, Ms. Martinez was able
-to point out that the university was clearly covered by a policy
-requiring accessibility of the online educational material. She was also
-able to show the [Web Content Accessibility Guidelines
-(WCAG)](http://www.w3.org/WAI/intro/wcag) as a resource providing
-guidance on how to make websites accessible, including those with
-multimedia content.
-
-The university had the audio-only lectures (no video) transcribed and
-made these transcripts available through their website along with audio
-files. For multimedia presentations that include video and audio, the
-university provides captioning of the audio. Ms. Martinez uses a media
-player that displays these captions directly below the video so that she
-can better understand the context of what is being said.
-
-Through this process, the university discovered many more benefits of
-transcripts and captions. For instance, it was much easier to
-comprehensively index the accessible multimedia resources and provide
-them to the search engine of the website. They also found they can
-provide captions in other languages to support international students,
-students who could not download or play the audio, and much more.
-
-
-### Sections related to Ms. Martinez {#sections-related-to-ms-martinez}
-
-
+{% include excol.html type="middle" %}
 
 **Diversity of web users:**
 
--   [Hard of hearing (Auditory disabilities)](diversity#auditory)
+-   [Hard of hearing (Auditory disabilities)]({% link _people-use-web/abilities-barriers.md %}#auditory)
 
 **Diversity in web use:**
 
--   [Captions (Perception)](browsing#perception)
--   [Transcripts (Perception)](browsing#perception)
--   [Sign language (Presentation)](browsing#presentation)
+-   [Captions (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Transcripts (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Sign language (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](principles#alternatives)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#alternatives)
 -   [Captions and other alternatives for multimedia
-    (Perceivable)](principles#captions)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#captions)
 -   [Content is easier to see and hear
-    (Perceivable)](principles#distinguishable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#distinguishable)
 -   [Content is readable and understandable
-    (Understandable)](principles#readable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#readable)
 
+{% include excol.html type="end" %}
 
+Leena, senior staff member who is blind
+---------------------------------------
 
-Ms. Laitinen, Accountant with blindness {#accountant}
-------------------------------------------------------
+Leena is blind. She is the chief accountant at an insurance company that uses web-based documents and forms over a corporate intranet and like many other blind computer users,
+she does not read Braille.
 
-Ms. Laitinen is the chief accountant at an insurance company that uses
-web-based documents and forms over a corporate intranet. She is blind
-and does not read Braille, like many other blind computer users.
+Leena uses a screen reader and mobile phone to access the web. Both her screen reader and her mobile phone accessibility features provide her with information regarding the device’s operating system, applications, and text content in a speech output form.
 
-### More about Ms. Laitinen {#more-about-ms-laitinen}
+When accessing web content, the screen reader indicates aloud the structural information on a webpage such as headings, column and row headers in tables, list items, links, form controls, and more that enable her to better navigate the page, complete and submit forms, and access information in an effective manner. She is able to listen to and understand speech output at a very high speed. Leena encounters problems when websites are not properly coded and do not include alt text descriptions on images. These sites are unnavigable and require large amounts of time to read text from the top of the page to the bottom without navigation cues. Occasionally she finds herself trapped in areas on a webpage unable to move to another area and must abandon the page altogether.
 
+As a senior member of her organization, Leena provides training to employees in online environments through the use of video conferencing applications, document and slide sharing applications as well as chat rooms. Leena and her staff evaluated a number of training tools before finding an effective application with accessibility features that meet the needs of a diverse staff with diverse abilities.
 
+For more information on implementing techniques that remove barriers for Leena, see the following resources:
 
-Ms. Laitinen uses her desktop computer and mobile phone to access the
-Web. On her computer she uses:
+{% include excol.html type="start" id="leena-sections" %}
 
--   screen reader software that interprets what is displayed on the
-    screen and generates speech output;
--   web browser with keyboard support to help use websites without a
-    mouse.
+### Sections related to Leena
 
-She uses the keyboard to navigate websites, often by jumping from
-heading to heading to get an overview of what is on a web page. Her
-screen reader indicates the structural information on a webpage such as
-headings, column and row headings in tables, list items, links, form
-controls, and more. She has become accustomed to listening to speech
-output at a speed that her co-workers cannot understand at all. However,
-when websites are not coded correctly and do not include structural
-information, Ms. Laitinen would have to read every web page from top to
-bottom to find the information that she needs, which is unmanageable.
-She avoids such websites where she can, both for business and for
-leisure.
-
-Her company uses tables to organize much of the information on the
-intranet documents, which can sometimes be difficult to read by people
-using screen readers. However, since the tables in these documents are
-marked up properly, she readily orients herself to the information in
-the tables. The materials also include alternative text for images,
-labels for form elements, and other navigational cues that are
-interpreted by the screen reader.
-
-As one of the more senior members of the accounting staff, Ms. Laitenen
-must frequently train employees in different locations using a virtual
-learning environment. This includes video conferencing, document and
-slide sharing, as well as a live chatroom. It was a challenge to find a
-tool that is accessible to her and other employees with disabilities,
-but in the end, this proved to be more beneficial for most of the staff.
-
-
-### Sections related to Ms. Laitinen {#sections-related-to-ms-laitinen}
-
-
+{% include excol.html type="middle" %}
 
 **Diversity of web users:**
 
--   [Blindness (Visual disabilities)](diversity#visual)
+-   [Blindness (Visual disabilities)]({% link _people-use-web/abilities-barriers.md %}#visual)
 
 **Diversity in web use:**
 
--   [Screen reader (Perception)](browsing#perception)
--   [Text-to-speech (Perception)](browsing#perception)
--   [Transcripts (Perception)](browsing#perception)
--   [Consistency and predictability (Interaction)](browsing#interaction)
+-   [Screen reader (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Text-to-speech (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Transcripts (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Consistency and predictability (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 -   [Descriptive titles, headings, and labels
-    (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 -   [Helpful error and success messages
-    (Interaction)](browsing#interaction)
--   [Keyboard navigation (Interaction)](browsing#interaction)
--   [Skip links (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Keyboard navigation (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Skip links (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](principles#alternatives)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#alternatives)
 -   [Captions and other alternatives for multimedia
-    (Perceivable)](principles#captions)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#captions)
 -   [Content can be presented in different ways
-    (Perceivable)](principles#adaptable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#adaptable)
 -   [Content is easier to see and hear
-    (Perceivable)](principles#distinguishable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#distinguishable)
 -   [Functionality is available from a keyboard
-    (Operable)](principles#keyboard)
+    (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#keyboard)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](principles#navigable)
+    are (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#navigable)
 -   [Content is readable and understandable
-    (Understandable)](principles#readable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#readable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](principles#predictable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#predictable)
 -   [Content is compatible with current and future user tools
-    (Robust)](principles#compatible)
+    (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
+{% include excol.html type="end" %}
 
+Katie, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia {#classroomstudent}
+-----------------------------------------------------------------------------------------------------------
 
-Ms. Olsen, Classroom student with attention deficit hyperactivity disorder (ADHD) nd dyslexia {#classroomstudent}
--------------------------------------------------------------------------------------------------------------------
+Katie is a middle school student with attention deficit hyperactivity disorder with dyslexia. Although she has substantial difficulty reading, she particularly enjoys her literature class.
 
-Ms. Olsen attends middle school and particularly likes her literature
-class. She has attention deficit hyperactivity disorder (ADHD) with
-dyslexia — a combination that, in her case, leads to substantial
-difficulty reading. However, with new accommodations to the curriculum,
-she has become enthusiastic about this class.
+Katie’s school recently started using online digital textbooks. Katie was initially worried about using this new format, but with the use of text-to-speech software that highlights the text on the screen as it reads it aloud, she has found that she can focus on the content more easily instead of struggling over every word. The text-to-speech software is also helpful with other online text, however, Katie’s experience with websites varies greatly from one site to another. Some sites use graphics and illustrations in a way that helps her to focus on the sections and content that she would like to read, while other sites have a lot of advertisements and moving content that is very distracting. She also experiences problems with online content when the navigation is not clearly evident. She finds websites and apps that provide multiple means of navigation such as a navigation bar, search box, bread-crumb trails, and a sitemap to be much easier to use.
 
-### More about Ms. Olsen {#more-about-ms-olsen}
+Katie’s school is also using a new online library catalog with improved accessibility. Before the new catalog was implemented Katie had to physically visit the library to receive assistance in searching and locating material. Now she can search the catalog on her own using her mobile phone, tablet, or laptop. Katie still struggles with spelling but has found that search functionality that suggest alternative spellings and provide error corrections are very helpful and greatly improve her experience.
 
+For more information on implementing techniques that remove barriers for Katie, see the following resources:
 
+{% include excol.html type="start" id="katie-sections" %}
 
-Her school recently started to use more online curricula to supplement
-class textbooks. She was initially worried about the reading load since
-she reads slowly. She experimented with text-to-speech software that
-highlighted the text on the screen and read it aloud at the same time.
-She found she was able to read much more easily when she could see and
-hear the text, instead of struggling over every word.
+### Sections related to Katie
 
-When she goes onto the Web, she finds that some websites are much easier
-for her to use than others. Some pages have useful graphics and
-illustrations that help her quickly focus on sections she wants to read.
-In some cases, though, where the graphics are animated, it is very hard
-for her to focus and she is constantly distracted by the movement. She
-set her web browser to freeze or hide animated graphics so that she can
-concentrate on the relevant information but that does not always work on
-every website.
-
-One of the most important things for her is the level of accessibility
-of the online library catalogs and the general search functions on the
-Web. Until recently, Ms. Olsen often needed to visit the library
-physically, to seek assistance in finding the information that she
-needs. Today, the accessible online library catalog of the school
-enables her to find the right information without any help at any time
-and from any device — her mobile phone, tablet, or laptop.
-
-Her teacher taught a number of different search strategies, but
-sometimes the search options are still quite confusing for her. She
-finds that websites that provide error corrections and suggest
-alternative spellings assist her significantly. Also, websites that
-provide multiple navigation mechanisms such as a navigation bar, a
-search box, a sitemap, or bread-crumb trails, are easier for her to use.
-
-
-### Sections related to Ms. Olsen {#sections-related-to-ms-olsen}
-
-
+{% include excol.html type="middle" %}
 
 **Diversity of web users:**
 
 -   [Attention deficit hyperactivity disorder, ADHD (Cognitive
-    disabilities)](diversity#cognitive)
--   [Dyslexia (Cognitive disabilities)](diversity#cognitive)
+    disabilities)]({% link _people-use-web/abilities-barriers.md %}#cognitive)
+-   [Dyslexia (Cognitive disabilities)]({% link _people-use-web/abilities-barriers.md %}#cognitive)
 
 **Diversity in web use:**
 
--   [Captions (Perception)](browsing#perception)
--   [Screen reader (Perception)](browsing#perception)
--   [Text-to-speech (Perception)](browsing#perception)
+-   [Captions (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Screen reader (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Text-to-speech (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
 -   [Pop-up and animations blockers
-    (Presentation)](browsing#presentation)
--   [Reading assistants (Presentation)](browsing#presentation)
--   [Spelling and grammar tools (input)](browsing#input)
--   [Consistency and predictability (Interaction)](browsing#interaction)
+    (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Reading assistants (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Spelling and grammar tools (input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Consistency and predictability (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 -   [Helpful error and success messages
-    (Interaction)](browsing#interaction)
--   [Keyword search (Interaction)](browsing#interaction)
--   [Multiple navigation mechanisms (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Keyword search (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Multiple navigation mechanisms (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](principles#alternatives)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#alternatives)
 -   [Content can be presented in different ways
-    (Perceivable)](principles#adaptable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#adaptable)
 -   [Users have enough time to read and use the content
-    (Operable)](principles#time)
+    (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](principles#navigable)
+    are (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#navigable)
 -   [Content is readable and understandable
-    (Understandable)](principles#readable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#readable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](principles#predictable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#predictable)
 -   [Users are helped to avoid and correct mistakes
-    (Understandable)](principles#tolerant)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#tolerant)
 -   [Content is compatible with current and future user tools
-    (Robust)](principles#compatible)
+    (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
+{% include excol.html type="end" %}
 
-
-Mr. Yunus, Retiree with low vision, hand tremor, and mild short-term memory loss {#retiree}
+Yun, retiree with low vision, hand tremor, and mild short-term memory loss {#retiree}
 --------------------------------------------------------------------------------------------
 
-Mr. Yunus is 85 years old and started to use the Web several years ago
-to stay in touch with family and friends and to read about art history.
-He has reduced vision, hand tremor, and mild short-term memory loss.
+Yun is an 85 year-old with reduced vision, hand-tremor, and mild memory loss, common age- related impairments for someone his age. Yun regularly browses the web reading news sites In recent years he also started using social media to stay in touch with his family and friends. He maintains his own blog where he posts articles on art history and other topics he enjoys.
 
-### More about Mr. Yunus {#more-about-mr-yunus}
+Like many older individuals, Yun has difficulty reading small text and clicking on small links and form elements. His daughter showed him how to enlarge text in the web browser, which works well on many websites. He encounters problems when text does not reflow when it is enlarged and he is forced to scroll back and forth to read the enlarged content, which means he easily loses track of his place. He also has problems with CAPTCHA images found on many social media sites. The text is so distorted even when he enlarges it he often cannot accurately enter the text. He has a better experience on sites that use alternative CAPTCHA options, unfortunately only a small number currently do.
 
+Yun’s daughter gave him a special mouse that is easier to control with his hand tremors. He also uses a web browser that saves thumbnail images of his frequently visited sites, which makes it easier for him to keep track of the sites he goes to most often.
 
+For more information on implementing techniques that remove barriers for Yun, see the following resources:
 
-Mr. Yunus regularly reads selected news websites and tracks several
-blogs that interest him. He also uses several social networking sites
-with which he can communicate with his children, grandchildren, other
-relatives, and friends. Mr. Yunus maintains a blog where he writes about
-art history and other topics that he enjoys. His grandchildren set up a
-photo-sharing website that his family uses to post pictures and videos,
-and he enjoys seeing family members who are far away and that he
-otherwise can not see as frequently.
+{% include excol.html type="start" id="yun-sections" %}
 
-Mr. Yunus has difficulty reading small text and clicking on small links
-and form elements. His daughter gave him a specialized mouse that
-compensates hand trembling and showed him how to enlarge the text on
-websites using the web browser settings, since enlarging makes reading
-texts and clicking links easier. His web browser has a zoom function
-that enlarges the entire page and a text enlarging setting that only
-increases the text size. He prefers to enlarge the text only rather than
-the whole web page since zooming the entire web page on his browser
-distorts the images and forces him to scroll horizontally to read some
-of the text. Besides the difficulty in using a mouse, it is also
-difficult for him to concentrate on scrolling and reading at the same
-time.
+### Sections related to Yun
 
-Unfortunately, Mr. Yunus discovered that many websites are not designed
-to support text enlarging. For instance, sometimes the text can not be
-resized, or the text on the web pages starts to overlap each other as he
-increases the text size. Another barrier that he encounters is CAPTCHA
-images that he finds on several social networking websites. These
-distorted images of text are intended to tell computers and humans
-apart, but Mr. Yunus cannot read the small and distorted text, even if
-he enlarges the image. Only a few websites provide alternatives to
-CAPTCHA images that are more accessible to him.
-
-Mr. Yunus has gradually found and bookmarked websites that work well for
-him. He also found a web browser that helps him organize these
-bookmarks, and that shows him pictures of his favorite websites so that
-he does not need to remember their web address or name.
-
-
-### Sections related to Mr. Yunus {#sections-related-to-mr-yunus}
-
-
+{% include excol.html type="middle" %}
 
 **Diversity of web users:**
 
--   [Low vision (Visual disabilities)](diversity#visual)
--   [Hand tremor (Physical disabilities)](diversity#physical)
+-   [Low vision (Visual disabilities)]({% link _people-use-web/abilities-barriers.md %}#visual)
+-   [Hand tremor (Physical disabilities)]({% link _people-use-web/abilities-barriers.md %}#physical)
 -   [Mild short-term memory loss (Cognitive
-    disabilities)](diversity#cognitive)
+    disabilities)]({% link _people-use-web/abilities-barriers.md %}#cognitive)
 
 **Diversity in web use:**
 
--   [Screen magnification (Presentation)](browsing#presentation)
--   [Alternative keyboard and mouse (Input)](browsing#input)
--   [Keyboard and mouse filters (Input)](browsing#input)
--   [Mouse customization (Input)](browsing#input)
--   [Bookmarks and history (Interaction)](browsing#interaction)
--   [Consistency and predictability (Interaction)](browsing#interaction)
+-   [Screen magnification (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Alternative keyboard and mouse (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Keyboard and mouse filters (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Mouse customization (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Bookmarks and history (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Consistency and predictability (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 -   [Descriptive titles, headings, and labels
-    (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 -   [Helpful error and success messages
-    (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](principles#alternatives)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#alternatives)
 -   [Content can be presented in different ways
-    (Perceivable)](principles#adaptable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#adaptable)
 -   [Content is easier to see and hear
-    (Perceivable)](principles#distinguishable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#distinguishable)
 -   [Users have enough time to read and use the content
-    (Operable)](principles#time)
+    (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](principles#navigable)
+    are (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#navigable)
 -   [Content is readable and understandable
-    (Understandable)](principles#readable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#readable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](principles#predictable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#predictable)
 -   [Users are helped to avoid and correct mistakes
-    (Understandable)](principles#tolerant)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#tolerant)
 -   [Content is compatible with current and future user tools
-    (Robust)](principles#compatible)
+    (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
+{% include excol.html type="end" %}
 
-
-Mr. Sands, Supermarket assistant with Down syndrome {#supermarketassistant}
+Stephen, supermarket assistant with Down syndrome {#supermarketassistant}
 ----------------------------------------------------------------------------
 
-Mr. Sands has worked for the past year bagging groceries for customers
-at a supermarket. He has Down syndrome and has difficulty with abstract
-concepts, reading, and doing mathematical calculations.
+Stephen has Down syndrome and has difficulty with abstract concepts, reading, and math calculations.
 
-### More about Mr. Sands {#more-about-mr-sands}
+Stephen works at a market, bagging groceries for customers. Typically he buys his groceries at the same market where he works, but he is sometimes confused by the large number of product choices and sometimes has problems finding his favorite items when the store layout is changed.
 
-Mr. Sands usually buys his groceries at the supermarket where he works
-because he is familiar with it. He sometimes becomes confused because
-there are so many product choices, and he finds it difficult to keep
-track of how much he is spending. He has difficulty re-learning where
-his favorite products are each time the supermarket changes the layout
-of its products.
+Recently, a friend showed him an app for online grocery purchases that has consistent, easy-to-use navigation with clear and direct instructions. Stephen is able to add the list of his most frequently purchased items into the app and save it for additional purchases. He also likes the search functionality that makes suggestions for mistyped or misspelled words. The app also keeps a running total of the items in his virtual shopping cart which helps him keep up with how much he is spending.
 
-Recently, he downloaded an app on his mobile phone for an online grocery
-store. He explored the app the first few times with a friend. He found
-that he could use the app without much difficulty because of clearly
-indicated items and easy to understand information and instructions in
-simple language. The navigation was consistent and easy to use. The app
-also provided a search functionality that helped him find items when the
-navigation did not show them immediately.
+His friend also showed him several accessibility features in his mobile phone that he finds very helpful including word prediction which provides a selection of possible word choices based on the first characters he enters and the speak selection which allows him to listen to reviews posted by other users on the grocery app. With the use of these tools, Stephen has begun posting his own reviews of items he has purchased.
 
-His friend also showed him accessibility features on his mobile phone
-that help him complete the order and checkout forms. These functions
-include word prediction which highlights a selection of possible words
-based on the first few characters that he can quickly select. Mr. Sands
-uses this feature frequently when he is entering text, for example when
-he is writing comments and product reviews. He is happy that the app
-provides an opportunity for him to review and correct entries before
-they are sent.
+Stephen now uses the shopping app a couple of times a month for frequently purchased items and buys a few fresh items regularly from the store where he works.
 
-The app also offers an option that lets him select from a list of
-products that he has ordered in the past or that he chose as his
-favorites. Once he decides what he wants to buy, he selects the item and
-puts it into his virtual shopping basket. The app gives him an updated
-total each time he adds an item, helping him make sure that he does not
-overspend his budget.
+For more information on implementing techniques that remove barriers for Stephen, see the following resources:
 
-Mr. Sands now shops on the online grocery store a few times a month, and
-just buys a few fresh items each day at the supermarket where he works.
-He is one of the many happy customers of this usable app.
+{% include excol.html type="start" id="stephen-sections" %}
 
+### Sections related to Stephen
 
-### Sections related to Mr. Sands {#sections-related-to-mr-sands}
-
-
+{% include excol.html type="middle" %}
 
 **Diversity of web users:**
 
--   [Down syndrome (Cognitive disabilities)](diversity#cognitive)
+-   [Down syndrome (Cognitive disabilities)]({% link _people-use-web/abilities-barriers.md %}#cognitive)
 
 **Diversity in web use:**
 
--   [Easy-to-read text (Presentation)](browsing#presentation)
+-   [Easy-to-read text (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
 -   [Pop-up and animations blockers
-    (Presentation)](browsing#presentation)
--   [Progressive disclosure (Presentation)](browsing#presentation)
--   [Reading assistants (Presentation)](browsing#presentation)
--   [Reduced interface (Presentation)](browsing#presentation)
--   [Accelerators (Input)](browsing#input)
--   [Spelling and grammar tools (Input)](browsing#input)
--   [Consistency and predictability (Interaction)](browsing#interaction)
+    (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Progressive disclosure (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Reading assistants (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Reduced interface (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Accelerators (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Spelling and grammar tools (Input)]({% link _people-use-web/tools-techniques.md %}#input)
+-   [Consistency and predictability (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 -   [Descriptive titles, headings, and labels
-    (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 -   [Helpful error and success messages
-    (Interaction)](browsing#interaction)
--   [Multiple navigation mechanisms (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Multiple navigation mechanisms (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 
 **Accessibility principles:**
 
 -   [Content can be presented in different ways
-    (Perceivable)](principles#adaptable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#adaptable)
 -   [Users have enough time to read and use the content
-    (Operable)](principles#time)
+    (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](principles#navigable)
+    are (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#navigable)
 -   [Content is readable and understandable
-    (Understandable)](principles#readable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#readable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](principles#predictable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#predictable)
 -   [Users are helped to avoid and correct mistakes
-    (Understandable)](principles#tolerant)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#tolerant)
 -   [Content is compatible with current and future user tools
-    (Robust)](principles#compatible)
+    (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
+{% include excol.html type="end" %}
 
-
-Ms. Kaseem, Teenager with deaf-blindness {#teenager}
+Kaseem, teenager who is deaf and blind {#teenager}
 -----------------------------------------------------
 
-Ms. Kaseem uses the Web to find new restaurants to go to with friends
-and classmates. She is deaf and recently became legally blind too. In
-her case, this means she can see small portions of a screen, which
-allows her to read text when it is enlarged.
+Kaseem is a teenager who is deaf and recently became legally blind too, which means she can see only small portions of a screen and read text when it is significantly enlarged.
 
-### More about Ms. Kaseem {#more-about-ms-kaseem}
+Kaseem uses:
+•   screen magnification software to enlarge the text on websites to a suitable font size;
+•   screen reader software that displays text on a refreshable Braille device;
+•   large computer screen with high resolution and high luminosity (brightness).
 
+Kaseem’s portable electronic Braille notetaker includes a calendar, e-mail, web browsing, and note-taking functionality. Her mobile device includes GPS which helps her orient herself and navigate around the city. Kaseem uses the public transportation online site to plan her trips and view bus schedules, but encounters problems when she enlarges the text and it does not reflow or wrap properly, making the maps very difficult to use. She has a better experience viewing the train schedules that are properly marked up and allow text reflow. Kaseem found the web team contact information listed at the public transportation website and sent a message to the team informing them of the problems she encountered using their site. She also sent them the link to the train website and described how that site works better for her. She recently received an email message thanking her for her information and informing her that the public transportation web team plans to implement accessibility improvements in the launch of their new website.
 
+For more information on implementing techniques that remove barriers for Kaseem, see the following resources:
 
-At home, Ms. Kaseem uses the following combination of hardware and
-software to use the Web:
-
--   screen magnification software to enlarge the text on websites to a
-    suitable font size;
--   screen reader software that displays text on the screen on a
-    refreshable Braille device;
--   large computer screen with high resolution and high luminosity
-    (brightness).
-
-She uses screen magnification to enlarge small portions of a web page on
-the entire screen. The magnifier also enlarges the mouse pointer on the
-display so that she can see it. When screen magnification is not
-sufficient, she uses a screen reader to drive the refreshable Braille
-display, which she reads slowly because she started to learn Braille
-only recently.
-
-Ms. Kaseem also uses a portable electronic Braille notetaker when she is
-not at home. It is a small hand-held device with a refreshable Braille
-display that provides basic functionality such as note taking, calendar,
-e-mail, and web browsing. She has a device which also offers GPS, which
-she uses for orientation and to navigate around the city.
-
-She often uses the website of her local public transportation service to
-plan her trips. However, the bus schedules get distorted when she
-enlarges the font because the text does not wrap and reflow properly.
-The schedules for the local train are in a different format that allows
-better enlarging. The local trains website also uses proper markup to
-indicate the page headings, column and row headings in tables, list
-items, links, form controls, and more. Her friend told her that this
-website was easier to use by others using a mobile phone too.
-
-Ms. Kaseem found advice on [Contacting Organizations about Inaccessible
-Websites](http://www.w3.org/WAI/users/inaccessible) and notified the web
-team of the public buses website about the accessibility barriers she
-encounters on the website. She also explained how the website of the
-public trains works better for her and other mobile phone users and
-hopes she will soon get a response.
-
+{% include excol.html type="start" id="kaseem-sections" %}
 
 ### Sections related to Ms. Kaseem {#sections-related-to-ms-kaseem}
 
-
+{% include excol.html type="middle" %}
 
 **Diversity of web users:**
 
--   [Deaf-blindness (Auditory disabilities)](diversity#auditory)
--   [Deaf-blindness (Visual disabilities)](diversity#visual)
+-   [Deaf-blindness (Auditory disabilities)]({% link _people-use-web/abilities-barriers.md %}#auditory)
+-   [Deaf-blindness (Visual disabilities)]({% link _people-use-web/abilities-barriers.md %}#visual)
 
 **Diversity in web use:**
 
--   [Braille (Perception)](browsing#perception)
--   [Refreshable Braille display (Perception)](browsing#perception)
--   [Screen reader (Perception)](browsing#perception)
--   [Text-to-speech (Perception)](browsing#perception)
--   [Transcripts (Perception)](browsing#perception)
--   [Customized fonts and colors (Presentation)](browsing#presentation)
--   [Screen magnification (Presentation)](browsing#presentation)
--   [Screen magnifier (Presentation)](browsing#presentation)
+-   [Braille (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Refreshable Braille display (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Screen reader (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Text-to-speech (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Transcripts (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Customized fonts and colors (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Screen magnification (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Screen magnifier (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
 -   [Descriptive titles, headings, and labels
-    (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 -   [Helpful error and success messages
-    (Interaction)](browsing#interaction)
--   [Keyboard navigation (Interaction)](browsing#interaction)
--   [Skip links (Interaction)](browsing#interaction)
+    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Keyboard navigation (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Skip links (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](principles#alternatives)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#alternatives)
 -   [Alternatives for audio and video content
-    (Perceivable)](principles#captions)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#captions)
 -   [Content can be presented in different ways
-    (Perceivable)](principles#adaptable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#adaptable)
 -   [Content is easier to see and hear
-    (Perceivable)](principles#distinguishable)
+    (Perceivable)]({% link pages/fundamentals/accessibility-principles.md %}#distinguishable)
 -   [Users have enough time to read and use the content
-    (Operable)](principles#time)
+    (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](principles#navigable)
+    are (Operable)]({% link pages/fundamentals/accessibility-principles.md %}#navigable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](principles#predictable)
+    (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#predictable)
 -   [Content is compatible with current and future user tools
-    (Robust)](principles#compatible)
+    (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
+{% include excol.html type="end" %}
 
+<style>
+details {
+  padding-left: 2rem;
+}
+summary {
+  display: block;
+  margin-left: -2rem;
+}
 
+summary > * {
+  display: inline;
+}
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary > *:first-child::before {
+  content: '+';
+  margin-right: 0.5rem;
+  margin-bottom: .25rem;
+  display: inline-block;
+  border-radius: 5px;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #036;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+details[open] > summary > *:first-child::before {
+  content: '–';
+}
+</style>
