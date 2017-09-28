@@ -138,7 +138,7 @@ For more information on implementing techniques that remove barriers for Martine
 
 {% include excol.html type="start" id="martine-sections" %}
 
-### Sections related to Ms. Martinez
+### Sections related to Martine
 
 {% include excol.html type="middle" %}
 
@@ -421,7 +421,7 @@ For more information on implementing techniques that remove barriers for Kaseem,
 
 {% include excol.html type="start" id="kaseem-sections" %}
 
-### Sections related to Ms. Kaseem {#sections-related-to-ms-kaseem}
+### Sections related to Kaseem
 
 {% include excol.html type="middle" %}
 
