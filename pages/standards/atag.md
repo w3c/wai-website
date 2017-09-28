@@ -5,16 +5,20 @@ permalink: /standards/atag/
 
 [TODO: Add quicklinks]
 
-Page Contents
--------------
-{:.no_toc}
-{::options toc_levels="2" /}
+{::options toc_levels="2,3" /}
 
--   This text will be replaced by the TOC.
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
 {:toc}
 
-Introduction
-------------
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
+## Introduction
 {:#intro.no_toc}
 
 Authoring tools are software and services that "authors" (web

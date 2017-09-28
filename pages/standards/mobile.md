@@ -3,12 +3,18 @@ title: Mobile Accessibility at W3C
 permalink: /standards/mobile-accessibility/
 ---
 
-Page Contents
--------------
-{:.no_toc}
+{::options toc_levels="2,3" /}
 
--   Will be replaced by the actual TOC.
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
 {:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 Summary
 -------
@@ -176,7 +182,7 @@ using "traditional" computers*.
     people who are familiar with MWBP and want to know how it relates to
     WCAG, or are familiar with WCAG and want to know how it relates to
     MWBP.
-    
+
     @@@@@@@@@ end comment out -->
 
 About W3C and WAI {#about}
