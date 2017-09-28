@@ -3,18 +3,13 @@ title: Referencing and Linking to WAI Guidelines and Technical Documents
 permalink: /standards/linking/
 ---
 
+Page Contents
+-------------
+{:.no_toc}
 {::options toc_levels="2" /}
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
+-   This text will be replaced by the TOC.
 {:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
 
 This page provides general guidance on references and links, along with
 [WCAG links](#wcag) for policies, tools support, and others. If you have
