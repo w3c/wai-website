@@ -12,6 +12,19 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Web application menus use the same basic structure as navigation menus. They often consist of a horizontal menu bar and use fly-out functionality. However, additional markup and keyboard behavior must be added.
 
+{::options toc_levels="2,3" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
 ## Additional markup
 
 In addition to the `aria-expanded` and `aria-haspopup` attributes, the following WAI-ARIA roles are used to provide the necessary semantics of an application menu:
@@ -150,7 +163,7 @@ The following table summarizes the typical behavior of top-level menu items:
 	</tbody>
 </table>
 
-### submenu Items
+### Sub-Menu Items
 
 The following table summarizes the typical behavior of submenu items:
 

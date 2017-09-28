@@ -1,5 +1,6 @@
 ---
 title: Images Concepts
+nav_title: Concepts
 breadcrumb_title: Images
 permalink: /tutorials/images/
 order: 1
@@ -25,21 +26,21 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Images must have text alternatives that describe the information or function represented by them. This ensures that images can be used by [people with various disabilities](#why-is-this-important). This tutorial demonstrates how to provide appropriate text alternatives based on the purpose of the image:
 
--   **[Informative images](informative.md)**: Images that graphically represent concepts and information, typically pictures, photos, and illustrations. The text alternative should be at least a short description conveying the essential information presented by the image.
+-   **[Informative images]({% link _tutorials/images/informative.md %})**: Images that graphically represent concepts and information, typically pictures, photos, and illustrations. The text alternative should be at least a short description conveying the essential information presented by the image.
 
--   **[Decorative images](decorative.md)**: Provide a null text alternative (`alt=""`) when the only purpose of an image is to add visual decoration to the page, rather than to convey information that is important to understanding the page.
+-   **[Decorative images]({% link _tutorials/images/decorative.md %})**: Provide a null text alternative (`alt=""`) when the only purpose of an image is to add visual decoration to the page, rather than to convey information that is important to understanding the page.
 
--   **[Functional images](functional.md)**: The text alternative of an image used as a link or as a button should describe the functionality of the link or button rather than the visual image. Examples of such images are a printer icon to represent the print function or a button to submit a form.
+-   **[Functional images]({% link _tutorials/images/functional.md %})**: The text alternative of an image used as a link or as a button should describe the functionality of the link or button rather than the visual image. Examples of such images are a printer icon to represent the print function or a button to submit a form.
 
--   **[Images of text](textual.md)**: Readable text is sometimes presented within an image. If the image is not a logo, avoid text in images. However, if images of text are used, the text alternative should contain the same words as in the image.
+-   **[Images of text]({% link _tutorials/images/textual.md %})**: Readable text is sometimes presented within an image. If the image is not a logo, avoid text in images. However, if images of text are used, the text alternative should contain the same words as in the image.
 
--   **[Complex images](complex.md)** such as graphs and diagrams: To convey data or detailed information, provide a full-text equivalent of the data or information provided in the image as the text alternative.
+-   **[Complex images]({% link _tutorials/images/complex.md %})** such as graphs and diagrams: To convey data or detailed information, provide a full-text equivalent of the data or information provided in the image as the text alternative.
 
--   **[Groups of images](groups.md)**: If multiple images convey a single piece of information, the text alternative for one image should convey the information for the entire group.
+-   **[Groups of images]({% link _tutorials/images/groups.md %})**: If multiple images convey a single piece of information, the text alternative for one image should convey the information for the entire group.
 
--   **[Image maps](imagemap.md)**: The text alternative for an image that contains multiple clickable areas should provide an overall context for the set of links. Also, each individually clickable area should have alternative text that describes the purpose or destination of the link.
+-   **[Image maps]({% link _tutorials/images/imagemap.md %})**: The text alternative for an image that contains multiple clickable areas should provide an overall context for the set of links. Also, each individually clickable area should have alternative text that describes the purpose or destination of the link.
 
-For a quick overview on deciding which category a particular image fits into, see the [alt Decision Tree](decision-tree.md). The text alternative needs to be determined by the author, depending on the usage, context, and content of an image. For example, the exact type and look of a bird in an image might be less relevant and described only briefly on a website about parks, but may be appropriate on a website specifically about birds.
+For a quick overview on deciding which category a particular image fits into, see the [alt Decision Tree]({% link _tutorials/images/decision-tree.md %}). The text alternative needs to be determined by the author, depending on the usage, context, and content of an image. For example, the exact type and look of a bird in an image might be less relevant and described only briefly on a website about parks, but may be appropriate on a website specifically about birds.
 
 ## Why is this important?
 

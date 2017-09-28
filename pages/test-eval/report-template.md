@@ -3,10 +3,6 @@ title: "Evaluation Report Template"
 permalink: /test-evaluate/evaluation-report-template/
 ---
 
-Introduction
-----------------------
-{:#intro.no_toc.no_display}
-
 This document presents a recommended format for communicating results of
 the evaluation of Web site accessibility according to the Web Content
 Accessibility Guidelines (WCAG) 1.0. A consistent and comprehensive
@@ -19,9 +15,6 @@ Words in brackets \[...\] are intended to be filled in with information
 from the actual review. Related documents describing the evaluation
 method, and organization of review teams, are listed in the References
 section below.
-
-
------------------------------------------------------------------------
 
 Template
 --------
