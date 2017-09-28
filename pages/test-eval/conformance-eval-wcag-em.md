@@ -8,18 +8,13 @@ Quick links:
 -   [Website Accessibility Conformance Evaluation Methodology (WCAG-EM)](http://www.w3.org/TR/WCAG-EM/)
 -   [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](http://www.w3.org/WAI/eval/report-tool/#/)
 
-{::options toc_levels="2,3" /}
+Page Contents
+-------------
+{:.no_toc}
+{::options toc_levels="2" /}
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
+-   This text will be replaced by the TOC.
 {:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
 
 Introduction
 ------------

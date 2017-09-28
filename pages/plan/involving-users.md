@@ -19,19 +19,11 @@ support:
     url: http://www.w3.org/WAI/ACT/
 ---
 
-{::options toc_levels="2" /}
+## Contents
+{:.no_toc}
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
+* Content will be replaced by the TOC
 {:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
 
 Involving users early in projects helps you understand real-world
 accessibility issues, such as how people with disabilities and older
@@ -270,7 +262,7 @@ accessibility standards**.
     Agent Accessibility Guidelines
     (UAAG)](http://www.w3.org/WAI/intro/uaag.php).
 
-More Information and Guidance {#fmi}
+[More Information and Guidance]{#fmi}
 -------------------------------------
 
 This document briefly addresses a few points of a very complex topic.
@@ -288,7 +280,7 @@ are available on the web, such as:
     projects. For example, see [Incorporating Accessibility Early and
     Throughout](http://uiaccess.com/accessucd/early.html).
 
-Terminology {#terms}
+[Terminology]{#terms}
 ---------------------
 
 **adaptive strategies**{#strategies}

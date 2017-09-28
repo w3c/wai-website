@@ -2,18 +2,14 @@
 title: "Presentations You Can Use"
 permalink: /teach-advocate/presentations-to-use/
 ---
-{::options toc_levels="2,3" /}
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
+Page Contents
+-------------
+{:.no_toc}
 
--   TOC is created automatically.
+-   This list is replaced by the TOC.
 {:toc}
 
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
 
 Presentation Material Designed for Others to Use {#others}
 -----------------------------------------------------------
