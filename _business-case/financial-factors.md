@@ -4,15 +4,16 @@ order: 4
 ---
 {::options toc_levels="2" /}
 
-## Page Contents
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
 
+-   TOC gets automatically created.
+{:toc}
 
--   [Introduction](#intro)
--   [Identifying Financial Factors for a Specific Organization](#custom)
--   [Increases Website Use](#increase-use)
--   [Direct Cost Savings](#direct)
--   [Cost Considerations](#invest)
--   [Decreasing Costs](#decreasing)
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 ## Introduction
 {:#intro}
