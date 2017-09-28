@@ -1,7 +1,7 @@
 ---
 title: "Developing Accessibility Presentations & Training"
 nav_title: Overview
-permalink: /teach-advocate/accessibility-training/
+permalink: /accessibility-training/
 order: 0
 date: 2013-02-21
 ---
