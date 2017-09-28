@@ -21,6 +21,20 @@ Careful planning is critical to effective implementation of any
 accessibility effort. It ensures a clear assessment of the required
 work, distribution of tasks, and continual follow-up on progress.
 
+{::options toc_levels="2" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
+
 Create accessibility policy {#create-accessibility-policy}
 ---------------------------
 

@@ -15,9 +15,6 @@ support:
     url: https://www.w3.org/WAI/EO/2008/wai-age-tf
 ---
 
-## Introduction
-{:#introduction.no-display}
-
 This page introduces some of the techniques and tools that people with
 disabilities use to interact with the Web, such as web browser settings,
 text-to-speech, voice recognition, and many more.
@@ -25,14 +22,19 @@ text-to-speech, voice recognition, and many more.
 **Note:** This page is illustrative and is not intended to be an
 exhaustive listing of all web browsing methods.
 
-On this page {#toc}
---------------------
+{::options toc_levels="2" /}
 
--   [Tools and preferences](#tools)
--   [Perception – hearing, feeling, and seeing](#perception)
--   [Presentation – distinguishing and understanding](#presentation)
--   [Input – typing, writing, and clicking](#input)
--   [Interaction – navigating and finding](#interaction)
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
 
 Tools and preferences {#tools}
 -------------------------------

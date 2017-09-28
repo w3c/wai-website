@@ -17,14 +17,25 @@ support:
     url: https://www.w3.org/WAI/WAI-DEV/
 ---
 
-
-
 Keeping momentum helps with the accessibility maintenance for completed
 projects and builds on completed work for new projects. Regular reviews
 of content, organizational processes, and resources will help ensure
 that accessibility remains a priority and issues are identified.
 Developing a management reporting process will help ensure that it is
 clear where activity is required for follow-up work.
+
+{::options toc_levels="2" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 
 Monitor websites {#monitor-websites}

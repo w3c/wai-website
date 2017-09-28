@@ -23,6 +23,19 @@ accessibility with existing organizational approaches; develop and
 communicate clear, measurable objectives; and engage stakeholders to
 secure understanding and broad support throughout the organization.
 
+{::options toc_levels="2" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
 
 Learn the basics {#learn-the-basics}
 ----------------
@@ -70,7 +83,7 @@ user experiences, particularly on mobile devices.
     Web](/WAI/intro/people-use-web) – Explores the impact of accessible
     design with real-life examples.
 
-Explore the current environment {#explore-the-current-environment .attach_permalink}
+Explore the current environment {#explore-the-current-environment}
 -------------------------------
 
 Learn the organization's current state of accessibility and obligations
@@ -106,7 +119,7 @@ addressed.
     Accessibility](/WAI/eval/preliminary.html) – Provides simple steps
     to help assess if a web page addresses accessibility.
 
-Set objectives {#set-objectives .attach_permalink}
+Set objectives {#set-objectives}
 --------------
 
 Clear objectives identify key deliverables, establish a timeline, and
@@ -137,7 +150,7 @@ Examples of objectives might include:
 -   Modify design approval process to include accessibility
     considerations before June.
 
-Develop business case {#develop-business-case .attach_permalink}
+Develop business case {#develop-business-case}
 ---------------------
 
 A strong business case helps gain buy-in from stakeholders and can make
@@ -175,7 +188,7 @@ investment.
     age-related impairments overlap with the accessibility needs of
     people with disabilities.
 
-Raise awareness {#raise-awareness .attach_permalink}
+Raise awareness {#raise-awareness}
 ---------------
 
 Communicate the goals, value-adds, and importance of accessibility
@@ -207,7 +220,7 @@ departmental events to talk about accessibility.
     Training](/WAI/training/Overview.html) – Provides help on developing
     training on web accessibility.
 
-Gather support {#gather-support .attach_permalink}
+Gather support {#gather-support}
 --------------
 
 Organization-wide support is vital to ensure accessibility is

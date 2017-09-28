@@ -15,9 +15,6 @@ support:
     url: https://www.w3.org/WAI/EO/2008/wai-age-tf
 ---
 
-## Introduction
-{:#introduction.no-display}
-
 This page explores the wide range of diversity of people and abilities
 and highlights some of the types of web accessibility barriers that
 people commonly encounter due to inaccessible designs of websites and
@@ -26,15 +23,18 @@ web tools.
 **Note:** This page is illustrative and is not intended to be an
 exhaustive listing of all disabilities and barriers.
 
-On this page {#toc}
---------------------
+{::options toc_levels="2" /}
 
--   [Diversity of abilities](#diversity)
--   [Auditory](#auditory)
--   [Cognitive and neurological](#cognitive)
--   [Physical](#physical)
--   [Speech](#speech)
--   [Visual](#visual)
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 Diversity of abilities {#diversity}
 ------------------------------------

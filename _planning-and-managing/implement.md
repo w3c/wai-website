@@ -22,7 +22,21 @@ overhead and improve the overall quality of the final outcome.
 Prioritize quick wins and communicate progress to increase commitment
 and develop a sense of accomplishment.
 
-Build skills and expertise {#build-skills-and-expertise .attach_permalink}
+{::options toc_levels="2" /}
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
+
+Build skills and expertise {#build-skills-and-expertise}
 --------------------------
 
 Improve accessibility awareness and develop core skills for key staff.
@@ -66,7 +80,7 @@ helping to reduce evaluation and rework costs and limit risk.
     website and a retrofitted version of the same website with
     annotations.
 
-Integrate goals into policies {#integrate-goals-into-policies .attach_permalink}
+Integrate goals into policies {#integrate-goals-into-policies}
 -----------------------------
 
 Create a policy framework that builds accessibility throughout the
@@ -103,7 +117,7 @@ employment policies, workspace accommodation, and customer care.
 -   Plan: [Create accessibility
     policy](plan.html#create-accessibility-policy)
 
-Assign tasks and support delivery {#assign-tasks-and-support-delivery .attach_permalink}
+Assign tasks and support delivery {#assign-tasks-and-support-delivery}
 ---------------------------------
 
 Assign tasks according to the set objectives and identified
@@ -148,7 +162,7 @@ departments.
 -   [How to Meet WCAG 2.0](/WAI/WCAG20/quickref/) – A customizable quick
     reference to WCAG 2.0.
 
-Evaluate early and regularly {#evaluate-early-and-regularly .attach_permalink}
+Evaluate early and regularly {#evaluate-early-and-regularly}
 ----------------------------
 
 Find and fix issues early in the process to reduce risk and cost.
@@ -191,7 +205,7 @@ standard quality assurance cycle.
     Describes how to involve users to help better understand
     accessibility issues.
 
-Prioritize issues {#prioritize-issues .attach_permalink}
+Prioritize issues {#prioritize-issues}
 -----------------
 
 Use resources effectively by addressing high impact, easy-to-resolve
@@ -223,7 +237,7 @@ regularly to benefit from arising opportunities.
     Website](/WAI/impl/improving#prioritize) – Describes further
     prioritization criteria.
 
-Track and communicate progress {#track-and-communicate-progress .attach_permalink}
+Track and communicate progress {#track-and-communicate-progress}
 ------------------------------
 
 Monitor progress towards accessibility goals and share the good and bad

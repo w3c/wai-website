@@ -15,11 +15,16 @@ of web users](diversity) and [ways people use the Web](browsing).
 **Note:** This page is illustrative and is not intended to be an
 exhaustive listing of all accessibility requirements.
 
-## On this page
-{:#toc.no_toc}
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
 
-* Will be replaced with the ToC, excluding the "Contents" header
+-   TOC is created automatically.
 {:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 
 Web accessibility standards {#standards}

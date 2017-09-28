@@ -15,9 +15,6 @@ support:
     url: https://www.w3.org/WAI/EO/2008/wai-age-tf
 ---
 
-## Introduction
-{:#introduction.no-display}
-
 The following stories are selected scenarios of people with disabilities
 using the Web, to highlight the effect of web accessibility barriers and
 the broader benefits of accessible websites and web tools.
@@ -25,21 +22,18 @@ the broader benefits of accessible websites and web tools.
 **Note:** The following scenarios do not represent actual individuals
 and do not address every kind of disability.
 
-## On this page
-{:#toc}
+{::options toc_levels="2" /}
 
--   [Mr. Lee, Online shopper with color blindness](#shopper)
--   [Mr. Jones, Reporter with repetitive stress injury](#reporter)
--   [Ms. Martinez, Online student who is hard of
-    hearing](#onlinestudent)
--   [Ms. Laitinen, Accountant with blindness](#accountant)
--   [Ms. Olsen, Classroom student with attention deficit hyperactivity
-    disorder (ADHD) and dyslexia](#classroomstudent)
--   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
-    short-term memory loss](#retiree)
--   [Mr. Sands, Supermarket assistant with Down
-    syndrome](#supermarketassistant)
--   [Ms. Kaseem, Teenager with deaf-blindness](#teenager)
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 
 Mr. Lee, Online shopper with color blindness {#shopper}
