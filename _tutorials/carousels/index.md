@@ -3,6 +3,7 @@ title: Carousel Concepts
 breadcrumb_title: Carousels
 order: 1
 group: carousels
+permalink: /tutorials/carousels/
 type: intro
 wcag_success_criteria:
   - 1.3.1
