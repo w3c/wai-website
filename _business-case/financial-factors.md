@@ -8,7 +8,7 @@ order: 4
 {% include toc.html type="start" title="Page Contents" %}
 {:/}
 
--   TOC gets automatically created.
+-   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}

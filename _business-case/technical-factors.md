@@ -4,11 +4,16 @@ order: 3
 ---
 {::options toc_levels="2" /}
 
-## Page Contents
-{:.no_toc}
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
 
--  Replaced by TOC.
+-   TOC is created automatically.
 {:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 ## Introduction
 {:#intro}
