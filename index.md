@@ -79,7 +79,7 @@ nopagefooter: true
             </h3>
         </header>
         <p>If you need to urgently address accessibility in an existing web project, see Web Accessibility First Aid: Approaches for Interim Repairs.</p>
-        <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span>
+        <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
     </a>
     <a href="{% link pages/fundamentals/accessibility-principles.md %}" class="q2-start q2-end stealthy-link area-teaser">
         <header class="teaser-h">
@@ -90,7 +90,7 @@ nopagefooter: true
             </h3>
         </header>
         <p>For an introduction to requirements for websites, web applications, browsers, and other tools, see Web Accessibility Principles.</p>
-        <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span>
+        <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
     </a>
     <a href="https://www.w3.org/WAI/WCAG20/quickref/" class="q3-start q3-end stealthy-link area-teaser">
         <header class="teaser-h">
@@ -101,7 +101,7 @@ nopagefooter: true
             </h3>
         </header>
         <p>For a customizable checklist of Web Content Accessibility Guidelines requirements (success criteria), see How to Meet WCAG 2.0.</p>
-        <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span>
+        <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
     </a>
     <a href="{% link pages/standards/wcag.md %}#wcag21" class="q4-start q4-end stealthy-link area-teaser">
         <header class="teaser-h">
@@ -112,7 +112,7 @@ nopagefooter: true
             </h3>
         </header>
         <p>To learn more about the status of the WCAG 2.1 Working Draft and plans for completing it in 2018, see What about WCAG 2.1?</p>
-        <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span>
+        <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
     </a>
 </div>
 
@@ -170,7 +170,7 @@ nopagefooter: true
             <h2 class="title">Sponsors and Funders</h2>
         </header>
         <p>WAI is supported in part by the following organizations. Thank you!</p>
-        <ul class="four columns">
+        <ul class="">
             <li><a href="#">Adobe Systems</a></li>
             <li><a href="#">Deque Systems</a></li>
             <li><a href="#">ETS</a></li>
