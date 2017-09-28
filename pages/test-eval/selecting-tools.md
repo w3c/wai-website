@@ -3,18 +3,13 @@ title: Selecting Tools
 permalink: /test-evaluate/tools/select/
 ---
 
+Page Contents
+-------------
+{:.no_toc}
 {::options toc_levels="2" /}
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
+-   This text will be replaced by the TOC.
 {:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
 
 Introduction {#introduction}
 -----------------------------
