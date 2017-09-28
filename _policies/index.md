@@ -2,6 +2,7 @@
 title: "Web Accessibility Laws & Policies"
 nav_title: Overview
 permalink: /policies/
+order: 0
 layout: sidenav
 ---
 

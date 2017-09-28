@@ -1,4 +1,5 @@
 ---
+order: 20
 title: Switzerland
 country:
   en: Switzerland

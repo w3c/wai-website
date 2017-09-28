@@ -1,5 +1,6 @@
 ---
 layout: none
+nosidenav: true
 permalink: /policies/js/data.json
 ---
 [{% for policy in site.policies %}{% if forloop.last == true %}{% assign outerlast = true %}{% endif %}{% for p in policy.policies %}
