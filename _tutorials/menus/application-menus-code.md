@@ -12,6 +12,8 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 ---
 
+<div class="show-overflow2">
+
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
@@ -289,6 +291,8 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+</div>
 
 {::nomarkdown}
 {% include box.html type="start" title="Code: HTML" class="example" %}

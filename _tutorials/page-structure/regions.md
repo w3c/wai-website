@@ -19,20 +19,6 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Mark up different regions of web pages and applications, so that they can be identified by web browsers and assistive technologies.
 
-{::options toc_levels="2" /}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
-
 ## Page header
 
 {::nomarkdown}<%= image_tag 'page-structure-header.png', srcset: image_path('page-structure-header.png') + ', ' + image_path('page-structure-header@2x.png') + ' 2x, ' + image_path('page-structure-header@3x.png') + ' 3x', :alt => '', :class => "symbol" %>{:/nomarkdown} Most websites have a region at the top of every page that contains site-wide information, such as the website logo, search function, and navigation options. HTML5 provides the `<header>` element, which can be used to define such a region.

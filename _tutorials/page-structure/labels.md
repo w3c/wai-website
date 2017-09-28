@@ -18,20 +18,6 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 ---
 Provide labels to distinguish two page regions of the same type, such as “main navigation” and “sub-navigation” menus using a `<nav>` element on the same page. Labels are also used to change the default identification of page regions, for example, to identify a `<aside>` region as “advertisement”. Regions that are unique, such as `<main>`, do not need additional labels.
 
-{::options toc_levels="2" /}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
-
 ## Using `aria-labelledby`
 {:.ap}
 

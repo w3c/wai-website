@@ -18,20 +18,6 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Semantic markup conveys the menu structure to users. Menus coded semantically can easily adapt to different situations, such as small screen displays, screen magnification, and other assistive technology.
 
-{::options toc_levels="2,3" /}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
-
 ## Menu representation
 {:.newap}
 

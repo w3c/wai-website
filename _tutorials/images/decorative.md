@@ -18,19 +18,6 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Decorative images don’t add information to the content of a page. For example, the information provided by the image might already be given using adjacent text, or the image might be included to make the website more visually attractive.
 
-{::options toc_levels="2,3" /}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
 In these cases, a null (empty) `alt` text should be provided (`alt=""`) so that they can be ignored by assistive technologies, such as screen readers. Text values for these types of images would add audible clutter to screen reader output or could distract users if the topic is different from that in adjacent text. Leaving out the `alt` attribute is also not an option because when it is not provided, some screen readers will announce the file name of the image instead.
 
 Whether to treat an image as decorative or [informative]({% link _tutorials/images/informative.md %}) is a judgment that only the author can make, based on the reason for including the image on the page. Images may be decorative when they are:

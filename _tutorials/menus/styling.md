@@ -20,20 +20,6 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Clear and consistent styling allows users to find and recognize menus more quickly. Such styling includes consistency in the behavior, appearance, and relative location on pages across a website.
 
-{::options toc_levels="2,3" /}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
-
 ## General considerations
 
 Menus often use images, such as icons, that can be decorative or communicate functionality. These images require text alternatives, as described in the [Images Tutorial]({% link _tutorials/images/index.md %}). Contrast requirements are also applicable to menus and their items.

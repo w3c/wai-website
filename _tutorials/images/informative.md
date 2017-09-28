@@ -19,19 +19,6 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 Informative images convey a simple concept or information that can be expressed in a short phrase or sentence. The text alternative should convey the meaning or content that is displayed visually, which typically isn’t a literal description of the image.
 
-{::options toc_levels="2,3" /}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
 In some situations a detailed literal description may be needed, but only when the content of the image is all or part of the conveyed information. Whether to treat an image as informative or [decorative]({% link _tutorials/images/decorative.md %}) is a judgment that authors make, based on the reason for including the image on the page.
 
 ## Images used to label other information

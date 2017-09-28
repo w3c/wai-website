@@ -4,19 +4,11 @@ nav_title: Evaluating
 order: 4
 ---
 
-{::options toc_levels="2" /}
+{:.toc .no_toc}
+## On this page
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
+{:toc .toc}
+* Will be replaced with the ToC
 
 {::nomarkdown}
 <%= tip %>

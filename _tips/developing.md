@@ -5,19 +5,11 @@ order: 3
 ---
 This page introduces some basic considerations to help you get started developing web content that is more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.
 
-{::options toc_levels="2" /}
+{:.toc .no_toc}
+## On this page
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
+{:toc .toc}
+* Will be replaced with the ToC
 
 {::nomarkdown}
 <%= tip %>
