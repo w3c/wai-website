@@ -3,13 +3,18 @@ title: Essential Components of Web Accessibility
 permalink: /standards/web-accessibility-components/
 ---
 
-Page Contents
--------------
-{:.no_toc}
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" class="simple" %}
+{:/}
+
 {::options toc_levels="2" /}
 
 -   This text will be replaced by the TOC.
 {:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 This document shows how Web accessibility depends on several components
 working together and how improvements in specific components could
