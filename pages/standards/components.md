@@ -133,11 +133,11 @@ other components and the result is inaccessibility, making it impossible
 for some people with disabilities to use a particular Web site, page, or
 feature.
 
-Guidelines for Different Components {#guidelines}
+Guidelines and Other Standards {#guidelines}
 --------------------------------------------------
 
 The World Wide Web Consortium ([W3C](/)) Web Accessibility Initiative
-([WAI](/WAI/)) develops **Web accessibility guidelines** for the
+([WAI](/WAI/)) develops **Web accessibility standards** for the
 different components:
 
 -   [Authoring Tool Accessibility Guidelines (**ATAG**)](atag.php)
@@ -149,11 +149,13 @@ different components:
     Web browsers and media players, including some aspects of assistive
     technologies
 
-WAI guidelines are based on the fundamental technical specifications of
-the Web, and are developed in coordination with:
-
--   [W3C technical specifications](/TR/) (HTML, XML, CSS, SVG, SMIL,
-    etc.)
+<p>These accessibility guidelines are based on the fundamental technical specifications of the Web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications</a> (HTML, XML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:</p>
+<ul>
+  <li><a href="https://w3c.github.io/wai-website/standards/aria/">ARIA, the Accessible Rich Internet Applications</a> Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.</li>
+  <li><a href="https://www.w3.org/TR/ttml1/">Timed Text Markup Language</a></li>
+  <li><a href="https://www.w3.org/TR/webvtt1/">WebVTT: The Web Video Text Tracks Format</a></li>
+  <li>@@...</li>
+</ul>
 
 ![illustration showing the guidelines for the different components, detailed description at http://www.w3.org/WAI/intro/components-desc.html#guide](images/specs.png)
 
