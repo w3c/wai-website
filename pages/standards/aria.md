@@ -3,7 +3,7 @@ title: Accessible Rich Internet Applications (WAI-ARIA)
 permalink: /standards/aria/
 ---
 
-[TODO: Add quicklinks]
+<p>Quick links: <a href="https://w3c.github.io/wai-website/design-develop/wai-aria-dev-intro/">ARIA Developers' Intro</a>, <a href="/TR/wai-aria/">WAI-ARIA</a>, <a href="/TR/wai-aria-implementation/">User Agent Implementation Guide</a>, <a href="/WAI/aria/faq">FAQ</a></p>
 
 {::options toc_levels="2" /}
 
