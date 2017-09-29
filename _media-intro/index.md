@@ -1,6 +1,6 @@
 ---
-title: Accessible Media Concepts
-tutorial_title: Accessible Media
+title: Accessible Audio and Video Guide
+tutorial_title: Accessible Audio & Video
 nav_title: Concepts
 permalink: /media-intro/
 order: 1
