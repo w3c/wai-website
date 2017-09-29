@@ -9,7 +9,7 @@ Introduction
 
 Web accessibility evaluation often focuses on [conformance to
 accessibility standards]({% link pages/test-eval/conformance-eval.md %}) such as
-[WCAG](http://www.w3.org/WAI/intro/wcag.php). While conformance is
+[WCAG]({% link pages/standards/wcag.md %}). While conformance is
 important, there are many [benefits to evaluating with real
 people](http://www.w3.org/WAI/EO/Drafts/involving/Overview.html#why) to
 learn how your website or web tool really works for users and to better

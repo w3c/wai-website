@@ -92,7 +92,7 @@ What is in ATAG 2.0 {#whatis}
     levels](http://www.w3.org/TR/ATAG20/#intro_understand_levels_conformance):
     A, AA, AAA.
 
-[**ATAG at a Glance**](http://www.w3.org/WAI/intro/atag-glance) provides
+[**ATAG at a Glance**]({% link pages/standards/atag.md %}-glance) provides
 a short summary of the accessibility principles and guidelines in ATAG
 2.0.
 

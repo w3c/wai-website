@@ -33,11 +33,11 @@ introduction, links to related documents, and the status of revisions in
 progress**. Overview pages include:
 
 -   Authoring Tool Accessibility Guidelines **(ATAG) Overview**
-    <br>\<http://www.w3.org/WAI/intro/atag>
+    <br>\<{% link pages/standards/atag.md %}>
 -   Evaluation and Report Language **(EARL) Overview**
     <br>\<http://www.w3.org/WAI/intro/earl>
 -   User Agent Accessibility Guidelines **(UAAG) Overview**
-    <br>\<http://www.w3.org/WAI/intro/uaag>
+    <br>\<{% link pages/standards/uaag.md %}>
 -   Web Content Accessibility Guidelines **(WCAG) Overview**
     <br>\<http://www.w3.org/WAI/intro/wcag>
 -   **WAI-ARIA Overview** for Accessible Rich Internet Applications

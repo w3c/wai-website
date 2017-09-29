@@ -93,7 +93,7 @@ accessibility apply to the organization:
     Cost Savings](#direct).
 
 See [Web Content Accessibility Guidelines (WCAG)
-Overview](/WAI/intro/wcag.php) for more information about the WCAG
+Overview]({% link pages/standards/wcag.md %}) for more information about the WCAG
 references below.
 
 ## Increases Website Use
@@ -424,7 +424,7 @@ implementing accessibility, including the following:
 **Using authoring tools that support accessibility**
 :   Using authoring tools, such content management systems (CMS), that
     support accessibility and meet [Authoring Tool Accessibility
-    Guidelines (ATAG)](http://www.w3.org/WAI/intro/atag.php) can help
+    Guidelines (ATAG)]({% link pages/standards/atag.md %}) can help
     decrease the time and effort needed to make websites accessible.
 
 **Addressing accessibility and mobile together**

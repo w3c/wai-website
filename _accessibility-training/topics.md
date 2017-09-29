@@ -240,8 +240,8 @@ details[open] > summary > *:first-child::before {
   <li><a href="http://www.w3.org/WAI/intro/components.php">Essential Components of Web Accessibility</a> - shows how Web accessibility depends on several components working together</li>
   <li><a href="http://www.w3.org/WAI/intro/people-use-web">How People with Disabilities use the Web</a> - provides examples of people with different disabilities using websites, web applications, browsers, and authoring tools</li>
   <li><a href="http://www.w3.org/WAI/intro/wcag">Web Content Accessibility Guidelines (WCAG) Overview</a> - an overview of WCAG and the related documentation</li>
-  <li><a href="http://www.w3.org/WAI/intro/atag">Authoring Tool Accessibility Guidelines (ATAG) Overview</a> - an overview of ATAG and the related documentation</li>
-  <li><a href="http://www.w3.org/WAI/intro/uaag">User Agent Accessibility Guidelines (UAAG) Overview</a> - an overview of UAAG and the related documentation</li>
+  <li><a href="{% link pages/standards/atag.md %}">Authoring Tool Accessibility Guidelines (ATAG) Overview</a> - an overview of ATAG and the related documentation</li>
+  <li><a href="{% link pages/standards/uaag.md %}">User Agent Accessibility Guidelines (UAAG) Overview</a> - an overview of UAAG and the related documentation</li>
   <li><a href="http://www.w3.org/WAI/intro/aria">WAI-ARIA Overview</a> - describes the problems that WAI-ARIA addresses, and introduces the WAI-ARIA suite of technical documents</li>
 </ul>
 <h4>Handouts</h4>
@@ -290,7 +290,7 @@ details[open] > summary > *:first-child::before {
 <h4>Additional resources</h4>
 <ul>
   <li><a href="http://www.w3.org/WAI/translation">Translating WAI Documents</a> - pointer to translation policy; list of existing translations; priority list of documents for translation</li>
-  <li><a href="http://www.w3.org/WAI/impl/pol">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing  organizational policies on Web accessibility</li>
+  <li><a href="http://www.w3.org{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing  organizational policies on Web accessibility</li>
 </ul>
 <h4>Handouts</h4>
 <ul>
@@ -466,7 +466,7 @@ details[open] > summary > *:first-child::before {
   <li>How user agents interface with assistive technologies</li>
   <li>Adaptive strategies used by people with disabilities in using user agents</li>
 </ul>
-<p><strong>Note:</strong> UAAG 2.0 is a mature draft and we expect that it will not change   significantly. We recommend that you use the UAAG 2.0 draft in most   cases,  understanding that it might change. (For more information on the   status of UAAG 2.0, see the <a href="http://www.w3.org/WAI/intro/uaag.php#version" rel="nofollow">UAAG Versions section</a> of the UAAG Overview.)</p>
+<p><strong>Note:</strong> UAAG 2.0 is a mature draft and we expect that it will not change   significantly. We recommend that you use the UAAG 2.0 draft in most   cases,  understanding that it might change. (For more information on the   status of UAAG 2.0, see the <a href="http://www.w3.org{% link pages/standards/uaag.md %}#version" rel="nofollow">UAAG Versions section</a> of the UAAG Overview.)</p>
 <h3>Resources for developing a presentation</h3>
 <h4>Sample presentation</h4>
 <ul>
@@ -474,7 +474,7 @@ details[open] > summary > *:first-child::before {
 </ul>
 <h4>Primary resources</h4>
 <ul>
-  <li><a href="http://www.w3.org/WAI/intro/uaag">User Agent Accessibility Guidelines (UAAG) Overview</a> - an overview of UAAG and the related documentation</li>
+  <li><a href="{% link pages/standards/uaag.md %}">User Agent Accessibility Guidelines (UAAG) Overview</a> - an overview of UAAG and the related documentation</li>
   <li><a href="http://www.w3.org/TR/UAAG20/">[Draft] User Agent Accessibility Guidelines (UAAG) 2.0</a> - working draft for UAAG 2.0</li>
   <li><a href="http://www.w3.org/TR/UAAG10/">User Agent Accessibility Guidelines 1.0</a> - specifies requirements that, if satisfied by user agent developers, will lower barriers to accessibility</li>
   <li><a href="http://www.w3.org/TR/UAAG/uaag10-chktable">Table of Checkpoints for User Agent Accessibility Guidelines 1.0</a> - list may be used to review a tool or set of tools for accessibility</li>
@@ -519,7 +519,7 @@ details[open] > summary > *:first-child::before {
   <li>Considerations for selecting and using authoring tools that support accessibility</li>
   <li>Ensuring that authoring tools are themselves accessible to people with disabilities</li>
 </ul>
-<p><strong>Note:</strong> ATAG 2.0 is a mature draft and we expect that it will not change   significantly. We recommend that you use the ATAG 2.0 draft in most   cases,  understanding that it might change. (For more information on the   status of ATAG 2.0, see the <a href="http://www.w3.org/WAI/intro/atag.php#version" rel="nofollow">ATAG Versions section</a> of the ATAG Overview.)</p>
+<p><strong>Note:</strong> ATAG 2.0 is a mature draft and we expect that it will not change   significantly. We recommend that you use the ATAG 2.0 draft in most   cases,  understanding that it might change. (For more information on the   status of ATAG 2.0, see the <a href="{% link pages/standards/atag.md %}#version" rel="nofollow">ATAG Versions section</a> of the ATAG Overview.)</p>
 <h3>Resources for developing a presentation</h3>
 <h4>Sample presentation</h4>
 <ul>
@@ -527,7 +527,7 @@ details[open] > summary > *:first-child::before {
 </ul>
 <h4>Primary resources</h4>
 <ul>
-  <li><a href="http://www.w3.org/WAI/intro/atag">Authoring Tool Accessibility Guidelines (ATAG) Overview</a> -  an overview of ATAG and the related documentation</li>
+  <li><a href="{% link pages/standards/atag.md %}">Authoring Tool Accessibility Guidelines (ATAG) Overview</a> -  an overview of ATAG and the related documentation</li>
   <!-- Checklist for ATAG 2.0 has been discontinued at at mid-2012 - may return when ATAG 2.0 finalsed -->
   <!--
 <li><a href="http://www.w3.org/TR/ATAG/atag10-chktable">Checklist of Checkpoints for Authoring Tool Accessibility Guidelines 1.0</a> - lists of all checkpoints from the Authoring Tool Accessibility Guidelines 1.0</li>
@@ -653,7 +653,7 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
   <li><a href="http://www.w3.org/WAI/Policy/">Policies Relating to Web Accessibility</a> - links to laws and policies regarding web accessibility around the world</li>
-  <li><a href="http://www.w3.org/WAI/impl/pol">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing organizational policies on web accessibility</li>
+  <li><a href="http://www.w3.org{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing organizational policies on web accessibility</li>
 </ul>
 <h4>Additional resources</h4>
 <ul>
@@ -869,7 +869,7 @@ details[open] > summary > *:first-child::before {
      the Internet and other information and communications technology (ICT)</li>
   <li>International <a href="http://www.w3.org/WAI/Policy/">Policies Relating to Web Accessibility</a> - links to laws and policies regarding Web accessibility around the world (not definitive)</li>
   <li><a href="http://www.w3.org/WAI/Policy/harmon">Why Standards Harmonization is Essential to Web Accessibility</a> - explains the key role that harmonization of standards plays in increasing the accessibility of the Web</li>
-  <li><a href="http://www.w3.org/WAI/impl/pol">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing organizational policies on Web accessibility</li>
+  <li><a href="http://www.w3.org{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing organizational policies on Web accessibility</li>
 </ul>
 <h3>Suggestions for speakers</h3>
 <ul>

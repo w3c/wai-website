@@ -70,14 +70,14 @@ by governments and organizations from around the world. These include:
 
 -   **Web Content Accessibility Guidelines (WCAG) 2.0** is applicable to
     all web content and applications, including on mobile, television,
-    and other delivery channels. The [WCAG Overview](/WAI/intro/wcag)
+    and other delivery channels. The [WCAG Overview]({% link pages/standards/wcag.md %})
     provides more background.
 -   **Authoring Tool Accessibility Guidelines (ATAG) 2.0** is applicable
     for websites that provide users the opportunity to generate content,
     such as adding comments, posting to forums, or uploading images or
     videos. ATAG is also relevant if your organization provides tools,
     such as CMS's, for staff or customers to manage websites and
-    content. The [ATAG Overview](/WAI/intro/atag) provides more
+    content. The [ATAG Overview]({% link pages/standards/atag.md %}) provides more
     background.
 -   **User Agent Accessibility Guidelines (UAAG) 2.0** is applicable
     when additional plug-ins, such as media players, are provided to
@@ -85,7 +85,7 @@ by governments and organizations from around the world. These include:
     non-standard functionality. UAAG may also be relevant where mobile
     applications deliver web content as part of the application, and to
     the procurement process if your organization provides browsers for
-    staff. The [UAAG Overview](/WAI/intro/uaag) provides more
+    staff. The [UAAG Overview]({% link pages/standards/uaag.md %}) provides more
     background.
 
 ### Referencing Approaches
@@ -99,7 +99,7 @@ define a mechanism to transition to newer versions of the standards when
 they become available.
 
 Referencing options are explained in [Referencing Guidelines and Other
-Technical Specifications](/WAI/intro/linking#trs).
+Technical Specifications]({% link pages/standards/linking.md %}#trs).
 
 Define conformance levels {#conformance}
 -------------------------
@@ -257,7 +257,7 @@ More comprehensive policies may capture broader information, such as how
 the policy might be implemented, who or what departments are
 responsible, specific exclusions.
 
-An [example comprehensive policy](/plan/org-policies/example/) is provided.
+An [example comprehensive policy]({% link pages/plan/develop-org-policies-example.md %}) is provided.
 
 Policy template {#template}
 ---------------
@@ -307,7 +307,7 @@ development strategy is more cost effective and efficient than
 considering it in isolation. There are several things you can do to help
 your organization create more accessible websites as standard.
 
-[Planning and Managing Web Accessibility](Overview) outlines how to
+[Planning and Managing Web Accessibility]({% link _planning-and-managing/index.md %}) outlines how to
 integrate accessibility throughout your web development. Ensure that
 when redesigns or updates are planned, accessibility is included from
 the start of the project. Accessibility is much less costly and
