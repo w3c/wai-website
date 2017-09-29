@@ -15,8 +15,10 @@ of web users]({% link _people-use-web/abilities-barriers.md %}) and [ways people
 **Note:** This page is illustrative and is not intended to be an
 exhaustive listing of all accessibility requirements.
 
+{::options toc_levels="2,3" /}
+
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.
