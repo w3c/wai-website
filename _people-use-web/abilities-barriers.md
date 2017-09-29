@@ -26,7 +26,7 @@ exhaustive listing of all disabilities and barriers.
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" class="full" %}
+{% include toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
