@@ -297,6 +297,8 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 * **WCAG**
   * [Captions (Prerecorded) 1.2.2](/WAI/WCAG20/quickref/#media-equiv-captions) ([Understanding 1.2.2](/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html))
   * [Audio Description or Media Alternative (Prerecorded) 1.2.3](/WAI/WCAG20/quickref/#media-equiv-audio-desc) ([Understanding 1.2.3](/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html))
+* **Guide**
+  * [Accessible Audio and Video](https://w3c.github.io/wai-website/media-intro/)
 * **User Story**
   * [Describes how captions help a deaf student](/WAI/intro/people-use-web/stories#onlinestudent)
 
