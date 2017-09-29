@@ -2,6 +2,7 @@
 layout: news
 title: "News & Announcements"
 nopagefooter: true
+permalink: /news/
 ---
 
 <div class="grid-five-three">
