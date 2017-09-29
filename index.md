@@ -151,7 +151,7 @@ nopagefooter: true
             </ul>
             <h3>Upcoming Events, Meetings, and Presentations</h3>
             <div class="announce-box">
-                <p>At AccessU in Austin, TX, USA in May 2017</p>
+                <p>At AccessU in Austin, TX, USA in November 2018</p>
                 <ul>
                     <li><a href="#">Catching Up with Accessibility: Beginner’s Basics</a></li>
                     <li><a href="#">Easy Checks for Web Accessibility: Get the Gist (No Experience Necessary)</a></li>
