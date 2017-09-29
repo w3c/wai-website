@@ -54,7 +54,7 @@ One of the best times to comment on developing documents is during a
 formal period for public review. Calls for review of WAI documents are
 announced on the [WAI Interest Group](/WAI/IG/) mailing list, [W3C\_WAI
 on Twitter](http://twitter.com/w3c_wai), [WAI Highlights RSS
-feed](/WAI/highlights/about-rss), and the [WAI home page](/WAI/).
+feed](/WAI/highlights/about-rss), and the [WAI home page]({% link index.md %}).
 
 ### Submitting Techniques for Implementing Guidelines {#techniques}
 
@@ -103,7 +103,7 @@ Sponsoring WAI {#sp}
 WAI's work is supported in part by sponsorship from industry,
 disability, and government organizations interested in contributing to
 WAI's efforts to make the Web more accessible. Please see the list of
-current sponsors on the [WAI home page](/WAI/), and [Sponsoring
+current sponsors on the [WAI home page]({% link index.md %}), and [Sponsoring
 WAI](Sponsor) for more information on WAI sponsorship.
 
 Promoting and Implementing Web Accessibility {#promo}
@@ -145,7 +145,7 @@ Promoting and Implementing Web Accessibility {#promo}
     other user agents to meet
     [UAAG](http://www.w3.org/WAI/intro/uaag.php).
 -   Encourage organizations to [adopt an accessibility
-    policy](/WAI/impl/pol) for their organization that defines their
+    policy]({% link _planning-and-managing/implement.md %}) for their organization that defines their
     commitment to Web accessibility.
 -   Encourage websites to be accessible, for example, provide [feedback
     on inaccessible websites and inaccessible Web products

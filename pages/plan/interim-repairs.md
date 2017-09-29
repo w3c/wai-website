@@ -61,7 +61,7 @@ section. If you need to identify potential issues, these resources can
 help:
 
 -   [Easy Checks — A First Review of Web
-    Accessibility](https://www.w3.org/WAI/eval/preliminary.html) —
+    Accessibility]({% link pages/test-eval/easychecks.md %}) —
     Simple checks that can be carried out by anyone, regardless of
     technical skills and accessibility knowledge.
 -   [List of Web Accessibility Evaluation
@@ -73,7 +73,7 @@ help:
 When you want to do a comprehensive evaluation:
 
 -   [Website Accessibility Conformance Evaluation Methodology
-    (WCAG-EM)](https://www.w3.org/WAI/eval/conformance.html) — Provides
+    (WCAG-EM)](https://www.w3.org{% link pages/test-eval/conformance-eval.md %}) — Provides
     a structured approach to help evaluate websites for accessibility.
 -   [WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/) —
     Free online tool to help create evaluation reports following the
@@ -111,7 +111,7 @@ Set your Accessibility Target Level {#target}
 -----------------------------------
 
 The generally accepted target for accessibility is [Web Content
-Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/WAI/intro/wcag)
+Accessibility Guidelines (WCAG) 2.0]({% link pages/standards/wcag.md %})
 Level AA. This may already be the standard specified in your
 organizational policy or it may be the legal requirement for your
 website.

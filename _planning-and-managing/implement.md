@@ -115,7 +115,7 @@ employment policies, workspace accommodation, and customer care.
 ### Related activities
 
 -   Plan: [Create accessibility
-    policy](plan.html#create-accessibility-policy)
+    policy]({% link _planning-and-managing/plan.md %}#create-accessibility-policy)
 
 Assign tasks and support delivery {#assign-tasks-and-support-delivery}
 ---------------------------------
@@ -147,8 +147,8 @@ departments.
 ### Related activities
 
 -   Plan: [Assign
-    responsibilities](plan.html#assign-responsibilities)
--   Plan: [Review websites](plan.html#review-websites)
+    responsibilities]({% link _planning-and-managing/plan.md %}#assign-responsibilities)
+-   Plan: [Review websites]({% link _planning-and-managing/plan.md %}#review-websites)
 
 ### For more information
 
@@ -192,14 +192,14 @@ standard quality assurance cycle.
 ### Related activities
 
 -   Plan: [Establish monitoring
-    framework](plan.html#establish-monitoring-framework)
+    framework]({% link _planning-and-managing/plan.md %}#establish-monitoring-framework)
 
 ### For more information
 
 -   [Easy Checks - A First Review of Web
-    Accessibility](/WAI/eval/preliminary.html) – Provides simple steps
+    Accessibility]({% link pages/test-eval/easychecks.md %}) – Provides simple steps
     to help assess if a web page addresses accessibility.
--   [WCAG-EM Overview](/WAI/eval/conformance) – Introduces a methodology
+-   [WCAG-EM Overview]({% link pages/test-eval/conformance-eval.md %}) – Introduces a methodology
     for determining how well a website conforms to WCAG 2.0.
 -   [Involving Users with Disabilities](/WAI/users/involving) –
     Describes how to involve users to help better understand
@@ -273,6 +273,6 @@ Possible communication opportunities include:
 
 ### Related activities
 
--   Initiate: [Set objectives](initiate.html#set-objectives)
+-   Initiate: [Set objectives]({% link _planning-and-managing/initiate.md %}#set-objectives)
 -   Plan: [Establish monitoring
-    framework](plan.html#establish-monitoring-framework)
+    framework]({% link _planning-and-managing/plan.md %}#establish-monitoring-framework)

@@ -80,7 +80,7 @@ across a website.
         labels](https://www.w3.org/WAI/gettingstarted/tips/designing.html#ensure-that-form-elements-include-clearly-associated-labels)
 -   **Easy Check:**
     -   [Forms, labels, and
-        errors](https://www.w3.org/WAI/eval/preliminary.html#forms)
+        errors]({% link pages/test-eval/easychecks.md %}#forms)
 -   **User Story:**
     -   [Ms. Olsen, Classroom student with attention deficit
         hyperactivity disorder (ADHD) and
@@ -91,7 +91,7 @@ across a website.
     -   [Mr. Sands, Supermarket assistant with Down
         syndrome](https://www.w3.org/WAI/intro/people-use-web/stories.html#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to
         "layout"](https://www.w3.org/WAI/WCAG20/quickref/?tags=layout)
 -   **Tutorial:**

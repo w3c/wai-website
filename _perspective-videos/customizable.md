@@ -77,7 +77,7 @@ Learn more {#resources}
     -   [Write code that adapts to the user's
         technology](https://www.w3.org/WAI/gettingstarted/tips/developing.html#write-code-that-adapts-to-the-users-technology)
 -   **Easy Check:**
-    -   [Resize text](https://www.w3.org/WAI/eval/preliminary#resize)
+    -   [Resize text]({% link pages/test-eval/easychecks.md %}#resize)
 -   **User Story:**
     -   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
         short-term memory
@@ -86,7 +86,7 @@ Learn more {#resources}
         hyperactivity disorder (ADHD) and
         dyslexia](https://www.w3.org/WAI/intro/people-use-web/stories.html#classroomstudent)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to
         "text"](https://www.w3.org/WAI/WCAG20/quickref/?tags=text)
 -   **User Agent Accessibility Guidelines ([UAAG

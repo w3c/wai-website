@@ -35,5 +35,5 @@ These tutorials provide best-practice guidance on implementing accessibility in 
 
 * **[How People with Disabilities Use the Web](https://www.w3.org/WAI/intro/people-use-web/Overview):** An introduction covering a variety of disabilities, including age-related impairments
 * **[Accessibility Principles](https://www.w3.org/WAI/intro/people-use-web/principles):** Introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools
-* **[Web Content Accessibility Guidelines (WCAG) 2.0 Overview](https://www.w3.org/WAI/intro/wcag):** Introduces the international standard that defines requirements on how to make web content more accessible to people with disabilities
-* **[Authoring Tool Accessibility Guidelines (ATAG) 2.0 Overview](https://www.w3.org/WAI/intro/atag):** Introduces the international standard that defines requirements on how to make web authoring tools that support accessibility for people with disabilities
+* **[Web Content Accessibility Guidelines (WCAG) 2.0 Overview]({% link pages/standards/wcag.md %}):** Introduces the international standard that defines requirements on how to make web content more accessible to people with disabilities
+* **[Authoring Tool Accessibility Guidelines (ATAG) 2.0 Overview]({% link pages/standards/atag.md %}):** Introduces the international standard that defines requirements on how to make web authoring tools that support accessibility for people with disabilities

@@ -1070,7 +1070,7 @@ details[open] > summary > *:first-child::before {
 <ul>
    <li>Check that the information makes sense when read in the order it is shown; for example, headings are right above the information they apply to.<br />
       <em>(Data tables do not need to make sense linearized, per the <a href="#dtnote">note</a> above.)</em></li>
-   <li>Check that the alternative text provides adequate information for the missing images (per the <a href="http://www.w3.org/WAI/eval/preliminary#images">Image text alternatives</a> section above).</li>
+   <li>Check that the alternative text provides adequate information for the missing images (per the <a href="{% link pages/test-eval/easychecks.md %}#images">Image text alternatives</a> section above).</li>
    <li>Check that blocks of information have clear headings (see also the <a href="#headings">Headings</a> section above). When navigation, main content, and other sections have  good headings, it's easier for people to find their way around the information.</li>
 </ul>
 
@@ -1132,7 +1132,7 @@ details[open] > summary > *:first-child::before {
  Skim down and notice that under “Welcome to CityLights” there are 3 article headlines with summary text under each headline.</li>
   <li>Next use the Inaccessible Home Page <code><a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a></code> with one of the checks above to turn off images, disable CSS, and linearize.
      <ul>
-        <li>Skim down to find “Welcome to CityLights”. Notice that it's much harder to find. That's because it's not <a href="#markup" class="termref">marked up</a> as a <a href="http://www.w3.org/WAI/eval/preliminary#headings">heading, per above</a>.</li>
+        <li>Skim down to find “Welcome to CityLights”. Notice that it's much harder to find. That's because it's not <a href="#markup" class="termref">marked up</a> as a <a href="{% link pages/test-eval/easychecks.md %}#headings">heading, per above</a>.</li>
         <li>Notice that the 3 article headings are together and the article text is together. (For fun, read the article text together.)</li>
      </ul>
   </li>
@@ -1155,7 +1155,7 @@ details[open] > summary > *:first-child::before {
 <p id="evalresources">More robust assessment is needed to evaluate accessibility comprehensively. Guidance is available from:</p>
 <ul>
  <li>Evaluation methodology and report generator &mdash;<br>
-<a href="http://www.w3.org/WAI/eval/conformance">WCAG-EM Overview</a>: Website Accessibility Conformance Evaluation Methodology<br/> <a href="http://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM Report Tool</a>: Website Accessibility Evaluation Report Generator </li>
+<a href="{% link pages/test-eval/conformance-eval.md %}">WCAG-EM Overview</a>: Website Accessibility Conformance Evaluation Methodology<br/> <a href="http://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM Report Tool</a>: Website Accessibility Evaluation Report Generator </li>
   <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>
   <li><a href="http://www.w3.org/WAI/eval/users">Involving Users in Evaluating Web Accessibility</a></li>
 </ul>

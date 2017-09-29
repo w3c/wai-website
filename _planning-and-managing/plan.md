@@ -131,7 +131,7 @@ statistics, or improved corporate social responsibility.
 ### Related activities
 
 -   Initiate: [Develop business
-    case](initiate.html#develop-business-case)
+    case]({% link _planning-and-managing/initiate.md %}#develop-business-case)
 
 ### For more information
 
@@ -214,7 +214,7 @@ skills and experience needed to undertake a thorough review.
 
 ### For more information
 
--   [WCAG-EM Overview](/WAI/eval/conformance) – Introduces a methodology
+-   [WCAG-EM Overview]({% link pages/test-eval/conformance-eval.md %}) – Introduces a methodology
     for determining how well a website conforms to WCAG 2.0.
 -   [Assess the Situation](/WAI/impl/improving#assess) – Describes how
     you might approach evaluating your website.
@@ -259,7 +259,7 @@ the checks and there are clear escalation paths for identified issues.
 
 ### Related activities
 
--   Initiate: [Set objectives](initiate.html#set-objectives)
+-   Initiate: [Set objectives]({% link _planning-and-managing/initiate.md %}#set-objectives)
 -   Implement: [Evaluate early and regularly](implement.html#evaluate-early-and-regularly)
 
 Engage with stakeholders {#engage-with-stakeholders}

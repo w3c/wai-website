@@ -76,13 +76,13 @@ Learn more {#resources}
         labels](https://www.w3.org/WAI/gettingstarted/tips/designing.html#ensure-that-form-elements-include-clearly-associated-labels)
 -   **Easy Check:**
     -   [Forms, labels, and
-        errors](https://www.w3.org/WAI/eval/preliminary.html#forms)
+        errors]({% link pages/test-eval/easychecks.md %}#forms)
 -   **User Story:**
     -   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
         short-term memory
         loss](https://www.w3.org/WAI/intro/people-use-web/stories.html#retiree)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to
         "labels"](https://www.w3.org/WAI/WCAG20/quickref/?tags=labels)
 

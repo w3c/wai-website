@@ -703,12 +703,12 @@ details[open] > summary > *:first-child::before {
 <ul>
   <li><a href="http://www.w3.org/WAI/impl/improving">Improving the Accessibility of Your Web Site</a> - approaches to make the process of improving accessibility more efficient and effective</li>
   <li><a href="http://www.w3.org/WAI/impl/">Implementation Plan for Web Accessibility</a> - considerations for the planning process for implementing web accessibility</li>
-  <li><a href="http://www.w3.org/WAI/eval/preliminary">Preliminary Review of Web Sites for Accessibility</a> - describes a method to quickly identify some accessibility problems on a website</li>
-  <li><a href="http://www.w3.org/WAI/eval/conformance">Conformance Evaluation of Web Sites for Accessibility</a> - describes a conformance evaluation method that combines automatic, semi-automatic, and manual testing</li>
+  <li><a href="{% link pages/test-eval/easychecks.md %}">Preliminary Review of Web Sites for Accessibility</a> - describes a method to quickly identify some accessibility problems on a website</li>
+  <li><a href="{% link pages/test-eval/conformance-eval.md %}">Conformance Evaluation of Web Sites for Accessibility</a> - describes a conformance evaluation method that combines automatic, semi-automatic, and manual testing</li>
 </ul>
 <h3>Suggestions for speakers</h3>
 <ul>
-  <li><strong>Activity/Demonstration:</strong> Explore web accessibility barriers using some of the techniques from <a href="http://www.w3.org/WAI/eval/preliminary">Preliminary Review of Web Sites for Accessibility</a>. For example use some techniques for examining pages using <a href="http://www.w3.org/WAI/eval/preliminary#guibrowsers">graphical browsers</a> or <a href="http://www.w3.org/WAI/eval/preliminary#altbrowsers">specialized browsers</a>.</li>
+  <li><strong>Activity/Demonstration:</strong> Explore web accessibility barriers using some of the techniques from <a href="{% link pages/test-eval/easychecks.md %}">Preliminary Review of Web Sites for Accessibility</a>. For example use some techniques for examining pages using <a href="{% link pages/test-eval/easychecks.md %}#guibrowsers">graphical browsers</a> or <a href="{% link pages/test-eval/easychecks.md %}#altbrowsers">specialized browsers</a>.</li>
   <li><strong>Discussion:</strong> Explore the failures and repairs in the <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration</a>. Discuss how websites can be made accessible with little or no change to their visual design.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activity/demonstration with other websites, including their own, after the session.</li>
 </ul>{% include excol.html type="end" %}
@@ -735,7 +735,7 @@ details[open] > summary > *:first-child::before {
 <h3>Resources for developing a presentation</h3>
 <h4>Primary resources</h4>
 <ul>
-  <li><a href="http://www.w3.org/WAI/users/involving">Involving Users in Web Projects for Better, Easier Accessibility</a> - a start to reaping the benefits of involving people with disabilities and older people throughout your projects</li>
+  <li><a href="{% link pages/plan/involving-users.md %}">Involving Users in Web Projects for Better, Easier Accessibility</a> - a start to reaping the benefits of involving people with disabilities and older people throughout your projects</li>
   <li><a href="http://www.w3.org/WAI/eval/users">Involving Users in Evaluating Web Accessibility</a> - describes the benefits of evaluating with real people and identifying
      usability issues that are not discovered by conformance evaluation
      alone</li>
@@ -912,7 +912,7 @@ details[open] > summary > *:first-child::before {
 <h3>Resources for developing a presentation</h3>
 <h4>Primary resources</h4>
 <ul>
-  <li><a href="http://www.w3.org/WAI/eval/preliminary">Preliminary Review of Web Sites for Accessibility</a> - describes a method to quickly identify some accessibility problems on a website</li>
+  <li><a href="{% link pages/test-eval/easychecks.md %}">Preliminary Review of Web Sites for Accessibility</a> - describes a method to quickly identify some accessibility problems on a website</li>
   <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a> - highlights different features of evaluation tools which can assist during evaluation reviews</li>
   <li><a href="http://www.w3.org/WAI/ER/tools/">Web Accessibility Evaluation Tools</a> - filterable list of Web accessibility evaluation tools</li>
   <li><a href="http://www.w3.org/WAI/eval/users">Involving Users in Evaluating Web Accessibility</a> - describes the benefits of evaluating with real people and identifying
@@ -922,7 +922,7 @@ details[open] > summary > *:first-child::before {
 </ul>
 <h3>Suggestions for speakers</h3>
 <ul>
-  <li><strong>Activity/Demonstration:</strong> Explore web accessibility barriers using some of the techniques from <a href="http://www.w3.org/WAI/eval/preliminary">Preliminary Review of Web Sites for Accessibility</a>. For example use some techniques for examining pages using <a href="http://www.w3.org/WAI/eval/preliminary#guibrowsers">graphical browsers</a> or <a href="http://www.w3.org/WAI/eval/preliminary#altbrowsers">specialized browsers</a>.</li>
+  <li><strong>Activity/Demonstration:</strong> Explore web accessibility barriers using some of the techniques from <a href="{% link pages/test-eval/easychecks.md %}">Preliminary Review of Web Sites for Accessibility</a>. For example use some techniques for examining pages using <a href="{% link pages/test-eval/easychecks.md %}#guibrowsers">graphical browsers</a> or <a href="{% link pages/test-eval/easychecks.md %}#altbrowsers">specialized browsers</a>.</li>
   <li><strong>Activity/Demonstration:</strong> Use evaluation tools to help identify failures and repairs in the <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration</a>. Discuss the different types of evaluation tools, their benefits, and their limitations.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activities/demonstrations with other websites, including their own, after the session.</li>
 </ul>
@@ -949,7 +949,7 @@ details[open] > summary > *:first-child::before {
 <h3>Resources for developing a presentation</h3>
 <h4>Primary resources</h4>
 <ul>
-  <li><a href="http://www.w3.org/WAI/eval/conformance">Conformance Evaluation of Web Sites for Accessibility</a> - describes a conformance evaluation method that combines automatic, semi-automatic, and manual testing</li>
+  <li><a href="{% link pages/test-eval/conformance-eval.md %}">Conformance Evaluation of Web Sites for Accessibility</a> - describes a conformance evaluation method that combines automatic, semi-automatic, and manual testing</li>
   <li><a href="http://www.w3.org/WAI/eval/considerations">Evaluation Approaches for Specific Contexts</a> - describes considerations for evaluation of large and complex websites</li>
   <li><a href="http://www.w3.org/WAI/eval/reviewteams">Using Combined Expertise to Evaluate Web Accessibility</a> - describes the diverse kinds of expertise and perspectives required to evaluate the accessibility of web content</li>
   <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a> - highlights different features of evaluation tools which can assist during evaluation reviews</li>

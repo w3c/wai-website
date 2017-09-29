@@ -79,7 +79,7 @@ Learn more {#resources}
         mistakes](https://www.w3.org/WAI/gettingstarted/tips/developing.html#help-users-avoid-and-correct-mistakes)
 -   **Easy Check:**
     -   [Forms, labels, and errors (including Search
-        fields)](https://www.w3.org/WAI/eval/preliminary#forms)
+        fields)]({% link pages/test-eval/easychecks.md %}#forms)
 -   **User Story:**
     -   [Ms. Olsen, Classroom student with attention deficit
         hyperactivity disorder (ADHD) and
@@ -90,7 +90,7 @@ Learn more {#resources}
     -   [Mr. Sands, Supermarket assistant with Down
         syndrome](https://www.w3.org/WAI/intro/people-use-web/stories.html#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to
         "errors"](https://www.w3.org/WAI/WCAG20/quickref/?tags=errors)
 -   **Tutorial:**

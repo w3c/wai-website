@@ -79,7 +79,7 @@ Learn more {#resources}
     -   [Use headings to convey meaning and
         structure](https://www.w3.org/WAI/gettingstarted/tips/writing.html#use-headings-to-convey-meaning-and-structure)
 -   **Easy Check:**
-    -   [Headings](https://www.w3.org/WAI/eval/preliminary#headings)
+    -   [Headings]({% link pages/test-eval/easychecks.md %}#headings)
 -   **User Story:**
     -   [Ms. Olsen, Classroom student with attention deficit
         hyperactivity disorder (ADHD) and
@@ -90,7 +90,7 @@ Learn more {#resources}
     -   [Mr. Sands, Supermarket assistant with Down
         syndrome](https://www.w3.org/WAI/intro/people-use-web/stories.html#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to
         "text"](https://www.w3.org/WAI/WCAG20/quickref/?tags=text)
 -   **Mobile Applicability:**

@@ -19,8 +19,8 @@ permalink: /fundamentals/accessibility-intro/
     More specifically, Web accessibility means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can  contribute to the Web. Web accessibility also benefits others, including <a href="../bcase/soc.html#of" shape="rect">older people</a> with changing abilities due to aging.</p>
   <p>Web accessibility encompasses all disabilities that  affect access to the Web, including visual, auditory, physical, speech, cognitive, and neurological disabilities. The document "<strong><a href="http://www.w3.org/WAI/intro/people-use-web/Overview.html" shape="rect">How People with Disabilities Use the Web</a></strong>" describes how different
     disabilities affect Web use and includes scenarios of people with
-    disabilities using the Web. 
-    <!-- when done, link to intro doc --> 
+    disabilities using the Web.
+    <!-- when done, link to intro doc -->
   </p>
   <p></p>
   <p>Millions of people  have disabilities that affect their use
@@ -45,14 +45,14 @@ permalink: /fundamentals/accessibility-intro/
   <p>Many accessibility features are easily implemented if they are planned from the beginning of Web site development or redesign. Fixing inaccessible Web sites can require significant effort, especially sites that were not originally "coded" properly with standard <acronym title="Extensible HyperText Markup Language">XHTML</acronym> markup, and
     sites with certain types of content such as multimedia.</p>
   <p>The document "<a href="/WAI/impl/Overview" shape="rect">Implementation Plan for Web
-    Accessibility</a>" 
-    <!-- title of resource might change --> 
+    Accessibility</a>"
+    <!-- title of resource might change -->
     lists basic steps for addressing  accessibility in Web projects. The <a href="wcag.php" shape="rect">Web Content Accessibility Guidelines</a> and techniques documents provide detailed information for developers.</p>
   <h3><a name="evaluate" id="evaluate" shape="rect"> Evaluating the Accessibility of a Web Site</a></h3>
   <p>When developing or redesigning a site, evaluating accessibility early and throughout the development process can identify accessibility problems early when it is easier to address them. Simple techniques such as changing settings in a  browser can  determine if a Web page meets some accessibility guidelines. A comprehensive evaluation to determine if a site  meets all accessibility guidelines  is much more complex.</p>
   <p>There are <a href="/WAI/ER/existingtools.html" shape="rect">evaluation  tools</a> that  help with evaluation. However, no tool alone can determine if a site meets accessibility guidelines. Knowledgeable <strong>human evaluation is required</strong> to determine if a site is accessible.</p>
   <p>The document "<a href="/WAI/eval/Overview.html" shape="rect">Evaluating Web Sites for
-    Accessibility</a>"  provides guidance on <a href="/WAI/eval/preliminary" shape="rect">preliminary reviews</a> using techniques to quickly assess some of the accessibility problems on a site. It also provides  general procedures and tips for evaluating <a href="/WAI/eval/conformance" shape="rect">conformance to accessibility guidelines</a>.</p>
+    Accessibility</a>"  provides guidance on <a href="/WAI/eval/preliminary" shape="rect">preliminary reviews</a> using techniques to quickly assess some of the accessibility problems on a site. It also provides  general procedures and tips for evaluating <a href="{% link pages/test-eval/conformance-eval.md %}" shape="rect">conformance to accessibility guidelines</a>.</p>
   <h2><a id="more-info" name="more-info" shape="rect">For More Information</a></h2>
   <p>The <a href="/WAI/" shape="rect">WAI Web site</a> provides <a href="../guid-tech" shape="rect">guidelines</a> and <a href="/WAI/Resources/" shape="rect"> resources</a> to help make the Web accessible. These range from very short summaries, such as "<a href="/WAI/References/QuickTips/" shape="rect">Quick Tips to
     Make Accessible Web Sites</a>," to resources on <a href="../managing" shape="rect">managing accessibility</a>, to detailed <a href="/TR/tr-activity#WAITechnicalActivity" shape="rect">technical references</a>.</p>

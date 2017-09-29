@@ -62,7 +62,7 @@ Native HTML controls, like links, buttons, and form elements, work with the keyb
         accessible](https://www.w3.org/WAI/gettingstarted/tips/developing.html#ensure-that-all-interactive-elements-are-keyboard-accessible)
 -   **Easy Check:**
     -   [Keyboard access and visual
-        focus](https://www.w3.org/WAI/eval/preliminary.html#interaction)
+        focus]({% link pages/test-eval/easychecks.md %}#interaction)
 -   **User Story:**
     -   [Mr. Jones, Reporter with repetitive stress
         injury](https://www.w3.org/WAI/intro/people-use-web/stories.html#reporter)
@@ -71,7 +71,7 @@ Native HTML controls, like links, buttons, and form elements, work with the keyb
     -   [Ms. Kaseem, Teenager with
         deaf-blindness](https://www.w3.org/WAI/intro/people-use-web/stories.html#teenager)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to
         "keyboard"](https://www.w3.org/WAI/WCAG20/quickref/?tags=keyboard)
 -   **Mobile Applicability:**

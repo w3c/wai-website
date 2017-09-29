@@ -85,9 +85,9 @@ Learn more {#resources}
         changes](https://www.w3.org/WAI/gettingstarted/tips/developing.html#identify-page-language-and-language-changes)
 -   **Easy Check:**
     -   [Image text alternatives ("alt
-        text")](https://www.w3.org/WAI/eval/preliminary.html#images)
+        text")]({% link pages/test-eval/easychecks.md %}#images)
     -   [Basic Structure
-        Check](https://www.w3.org/WAI/eval/preliminary.html#structure)
+        Check]({% link pages/test-eval/easychecks.md %}#structure)
 -   **User Story:**
     -   [Ms. Laitinen, Accountant with
         blindness](https://www.w3.org/WAI/intro/people-use-web/stories.html#accountant)
@@ -97,7 +97,7 @@ Learn more {#resources}
         hyperactivity disorder (ADHD) and
         dyslexia](https://www.w3.org/WAI/intro/people-use-web/stories.html#classroomstudent)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to "images" and
         "structure"](https://www.w3.org/WAI/WCAG20/quickref/?tags=images%2Cstructure)
 -   **Mobile Applicability:**

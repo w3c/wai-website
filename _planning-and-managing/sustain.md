@@ -73,7 +73,7 @@ issues occurring.
 ### Related activities
 
 -   Plan: [Establish monitoring
-    framework](plan.html#establish-monitoring-framework)
+    framework]({% link _planning-and-managing/plan.md %}#establish-monitoring-framework)
 
 
 Engage with stakeholders {#engage-with-stakeholders}
@@ -108,7 +108,7 @@ Examples include:
 
 ### Related activities
 
--   Initiate: [Gather support](initiate.html#gather-support)
+-   Initiate: [Gather support]({% link _planning-and-managing/initiate.md %}#gather-support)
 
 
 Track standards and legislation {#track-standards-and-legislation}

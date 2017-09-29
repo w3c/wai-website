@@ -260,7 +260,7 @@ accessibility standards**.
     such as [Web Content Accessibility Guidelines (WCAG)
     2.0](/WAI/intro/wcag) helps ensure that you address all issues.
     Combine user involvement with [evaluating conformance to
-    WCAG](http://www.w3.org/WAI/eval/conformance.html) to ensure that
+    WCAG]({% link pages/test-eval/conformance-eval.md %}) to ensure that
     accessibility is provided to users with a range of disabilities and
     situations.
 -   For authoring tools such as content management systems (CMS), blog

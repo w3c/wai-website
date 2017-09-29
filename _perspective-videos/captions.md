@@ -83,12 +83,12 @@ Learn more {#resources}
         multimedia](https://www.w3.org/WAI/gettingstarted/tips/writing.html#create-transcripts-and-captions-for-multimedia)
 -   **Easy Check:**
     -   [Multimedia (video, audio)
-        alternatives](https://www.w3.org/WAI/eval/preliminary#media)
+        alternatives]({% link pages/test-eval/easychecks.md %}#media)
 -   **User Story:**
     -   [Ms. Martinez, Online student who is hard of
         hearing](https://www.w3.org/WAI/intro/people-use-web/stories.html#onlinestudent)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to
         "captions"](https://www.w3.org/WAI/WCAG20/quickref/?tags=captions)
 -   **Mobile Applicability:**

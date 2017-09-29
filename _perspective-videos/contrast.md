@@ -70,7 +70,7 @@ sensitive to brightness and need to [change the colors]({{ site.github.url }}{% 
         background](https://www.w3.org/WAI/gettingstarted/tips/designing.html#provide-sufficient-contrast-between-foreground-and-background)
 -   **Easy Check:**
     -   [Contrast ratio ("color
-        contrast")](https://www.w3.org/WAI/eval/preliminary.html#contrast)
+        contrast")]({% link pages/test-eval/easychecks.md %}#contrast)
 -   **User Story:**
     -   [Mr. Lee, Online shopper with color
         blindness](https://www.w3.org/WAI/intro/people-use-web/stories.html#shopper)
@@ -81,7 +81,7 @@ sensitive to brightness and need to [change the colors]({{ site.github.url }}{% 
     -   [Accessibility Requirements for People with Low
         Vision](http://www.w3.org/TR/low-vision-needs/)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to
         "contrast"](https://www.w3.org/WAI/WCAG20/quickref/?tags=contrast)
 -   **Mobile Applicability:**

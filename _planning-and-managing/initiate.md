@@ -110,13 +110,13 @@ addressed.
 
 ### Related activities
 
--   Plan: [Review websites](plan.html#review-websites)
--   Plan: [Review environment](plan.html#review-environment)
+-   Plan: [Review websites]({% link _planning-and-managing/plan.md %}#review-websites)
+-   Plan: [Review environment]({% link _planning-and-managing/plan.md %}#review-environment)
 
 ### For more information
 
 -   [Easy Checks - A First Review of Web
-    Accessibility](/WAI/eval/preliminary.html) – Provides simple steps
+    Accessibility]({% link pages/test-eval/easychecks.md %}) – Provides simple steps
     to help assess if a web page addresses accessibility.
 
 Set objectives {#set-objectives}

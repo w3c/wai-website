@@ -8,7 +8,7 @@ Introduction
 {:#intro.no_toc.no-display}
 
 Web accessibility evaluation often focuses on [conformance to
-accessibility standards](http://www.w3.org/WAI/eval/conformance) such as
+accessibility standards]({% link pages/test-eval/conformance-eval.md %}) such as
 [WCAG](http://www.w3.org/WAI/intro/wcag.php). While conformance is
 important, there are many [benefits to evaluating with real
 people](http://www.w3.org/WAI/EO/Drafts/involving/Overview.html#why) to
@@ -30,8 +30,8 @@ Initial Review {#prelim}
 
 A first step in evaluating web accessibility is reviewing the website to
 check for any obvious accessibility problems. The [Preliminary
-Review](http://www.w3.org/WAI/eval/preliminary.html) and [Conformance
-Evaluation](http://www.w3.org/WAI/eval/conformance.html) pages provide
+Review]({% link pages/test-eval/easychecks.md %}) and [Conformance
+Evaluation]({% link pages/test-eval/conformance-eval.md %}) pages provide
 guidance.
 
 Even web developers with little accessibility knowledge can find some accessibility issues through a
@@ -131,7 +131,7 @@ Combine User Evaluation with Standards {#stdstoo}
 Involving users with disabilities in evaluation has many benefits;
 however, it alone cannot determine if a website is accessible. Combine
 user involvement with [evaluating conformance to
-WCAG](http://www.w3.org/WAI/eval/conformance) to ensure that
+WCAG]({% link pages/test-eval/conformance-eval.md %}) to ensure that
 accessibility is provided to users with a range of disabilities and
 situations.
 
@@ -182,7 +182,7 @@ Many resources on other aspects of involving users in evaluation are
 available on the Web.
 
 -   [Involving Users in Web Projects for Better, Easier
-    Accessibility](http://www.w3.org/WAI/users/involving.html) is a
+    Accessibility]({% link pages/plan/involving-users.md %}) is a
     prerequisite for this document that covers broader issues of
     including users *early* in website design, tool development,
     standards, and other web projects.

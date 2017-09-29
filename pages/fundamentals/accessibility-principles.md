@@ -10,7 +10,7 @@ This page introduces some of the web accessibility requirements for
 websites, web applications, browsers, and other tools. It provides
 references to the international standards from W3C Web Accessibility
 Initiative (WAI), which include considerations for the broad [diversity
-of web users](diversity) and [ways people use the Web](browsing).
+of web users]({% link _people-use-web/abilities-barriers.md %}) and [ways people use the Web]({% link _people-use-web/tools-techniques.md %}).
 
 **Note:** This page is illustrative and is not intended to be an
 exhaustive listing of all accessibility requirements.
@@ -39,7 +39,7 @@ of these include:
 -   **User agents**{:#useragents} - software that people use to access
     web content, including desktop graphical browsers, voice browsers,
     mobile phone browsers, multimedia players, plug-ins, and some
-    [assistive technologies](browsing#at "definition").
+    [assistive technologies]({% link _people-use-web/tools-techniques.md %}#at "definition").
 -   **Authoring tools**{:#authoringtools} - software or services that
     people use to produce web content, including code editors, document
     conversion tools, content management systems, blogs, database
@@ -63,7 +63,7 @@ the Web helps implement them more effectively and efficiently. Some
 aspects of accessibility require more technical skills or advanced
 knowledge of how people use the Web. In all cases, [involving users
 early and throughout your web
-projects](http://www.w3.org/WAI/users/involving) will make your work
+projects]({% link pages/plan/involving-users.md %}) will make your work
 better and easier.
 
 The W3C Web Accessibility Initiative (WAI) provides a set of guidelines
@@ -71,11 +71,11 @@ that are internationally recognized as the standard for web
 accessibility. These include:
 
 -   **[Web Content Accessibility Guidelines
-    (WCAG)](https://www.w3.org/WAI/intro/wcag.php)**
+    (WCAG)]({% link pages/standards/wcag.md %})**
 -   **[User Agent Accessibility Guidelines
-    (UAAG)](https://www.w3.org/WAI/intro/uaag.php)**
+    (UAAG)]({% link pages/standards/uaag.md %})**
 -   **[Authoring Tool Accessibility Guidelines
-    (ATAG)](https://www.w3.org/WAI/intro/atag.php)**
+    (ATAG)]({% link pages/standards/wcag.md %})**
 
 There is also a WAI specification for **[Accessible Rich Internet
 Applications (WAI-ARIA)](https://www.w3.org/WAI/intro/aria.php)**, which

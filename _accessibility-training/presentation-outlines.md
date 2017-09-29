@@ -223,7 +223,7 @@ details[open] > summary > *:first-child::before {
      <ul>
         <li><a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration</a></li>
         <li><a href="http://www.w3.org/WAI/WCAG20/quickref/">How to Meet WCAG 2.0</a></li>
-        <li><a href="http://www.w3.org/WAI/users/involving">Involving Users in Web Projects for Better, Easier Accessibility</a></li>
+        <li><a href="{% link pages/plan/involving-users.md %}">Involving Users in Web Projects for Better, Easier Accessibility</a></li>
      </ul>
   </li>
 </ul>

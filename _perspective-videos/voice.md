@@ -83,14 +83,14 @@ Learn more {#resources}
         images](https://www.w3.org/WAI/gettingstarted/tips/designing.html#provide-alternative-text-for-images)
 -   **Easy Check:**
     -   [Keyboard access and visual
-        focus](https://www.w3.org/WAI/eval/preliminary.html#interaction)
+        focus]({% link pages/test-eval/easychecks.md %}#interaction)
     -   [Forms, labels, and
-        errors](https://www.w3.org/WAI/eval/preliminary#forms)
+        errors]({% link pages/test-eval/easychecks.md %}#forms)
 -   **User Story:**
     -   [Mr. Jones, Reporter with repetitive stress
         injury](https://www.w3.org/WAI/intro/people-use-web/stories.html#reporter)
 -   **Web Content Accessibility Guidelines ([WCAG
-    Overview](https://www.w3.org/WAI/intro/wcag)):**
+    Overview]({% link pages/standards/wcag.md %})):**
     -   [Success Criteria relating to "keyboard" and
         "controls"](https://www.w3.org/WAI/WCAG20/quickref/?tags=keyboard%2Ccontrols)
 -   **Mobile Applicability:**

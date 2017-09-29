@@ -59,7 +59,7 @@ Foreground text needs to have sufficient contrast with background colors. This i
 * **User Story**
   * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 * **Easy Check**
-  * [How to check contrast ratio](/WAI/eval/preliminary.html#contrast)
+  * [How to check contrast ratio]({% link pages/test-eval/easychecks.md %}#contrast)
 * **Support Tools**
   * [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
