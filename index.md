@@ -70,7 +70,7 @@ nopagefooter: true
     </div>
 </div>
 <div class="grid-4q nogap teaser">
-    <a href="{% link pages/plan/interim-repairs.md %}" class="q1-start q1-end stealthy-link area-teaser">
+    <a href="{{site.github.url}}/plan/interim-repairs/" class="q1-start q1-end stealthy-link area-teaser">
         <header class="teaser-h">
             <h3 class="title">
                 {% include icon.html name="loupe" class="teaser-h-icon full" %}
@@ -81,7 +81,7 @@ nopagefooter: true
         <p>If you need to urgently address accessibility in an existing web project, see Web Accessibility First Aid: Approaches for Interim Repairs.</p>
         <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
     </a>
-    <a href="{% link pages/fundamentals/accessibility-principles.md %}" class="q2-start q2-end stealthy-link area-teaser">
+    <a href="{{site.github.url}}/fundamentals/accessibility-principles/" class="q2-start q2-end stealthy-link area-teaser">
         <header class="teaser-h">
             <h3 class="title">
                 {% include icon.html name="design" class="teaser-h-icon full" %}
@@ -103,7 +103,7 @@ nopagefooter: true
         <p>For a customizable checklist of Web Content Accessibility Guidelines requirements (success criteria), see How to Meet WCAG 2.0.</p>
         <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
     </a>
-    <a href="{% link pages/standards/wcag.md %}#wcag21" class="q4-start q4-end stealthy-link area-teaser">
+    <a href="{{site.github.url}}/standards/wcag/21/" class="q4-start q4-end stealthy-link area-teaser">
         <header class="teaser-h">
             <h3 class="title">
                 {% include icon.html name="development" class="teaser-h-icon full" %}
