@@ -61,7 +61,7 @@
       url: "/media-intro/"
     - name: Mobile Accessibility Intro
       url: "/design-develop/mobile-accessibility-intro/"
-    - name: WAI-ARIA Developers' Intro
+    - name: ARIA Developers' Intro
       url: "/design-develop/wai-aria-dev-intro/"
     - name: Tutorials
       url: "/tutorials/"
