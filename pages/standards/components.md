@@ -16,10 +16,8 @@ permalink: /standards/web-accessibility-components/
 {% include toc.html type="end" %}
 {:/}
 
-This document shows how Web accessibility depends on several components
-working together and how improvements in specific components could
-substantially improve Web accessibility. It also shows how the WAI
-guidelines address these components.
+<p>This page shows how web accessibility depends on several components working together, and how improvements in specific components could substantially improve web accessibility.</p>
+<p>It provides the foundation for understanding the different accessibility standards develop by the <abbr title="World Wide Web Consortium">W3C</abbr> Web Accessibility Initiative (WAI). W3C's web standards are called <em>W3C Recommendations</em>. WAI's <em><strong>accessibility guidelines</strong></em> that are W3C Recommendations are international web standards.</p>
 
 Introduction {#intro}
 ----------------------
