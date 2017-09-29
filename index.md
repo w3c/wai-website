@@ -106,7 +106,7 @@ nopagefooter: true
     <a href="{% link pages/standards/wcag.md %}#wcag21" class="q4-start q4-end stealthy-link area-teaser">
         <header class="teaser-h">
             <h3 class="title">
-                {% include icon.html name="laws" class="teaser-h-icon full" %}
+                {% include icon.html name="checkmark" class="teaser-h-icon full" %}
                 <span class="subtitle">WCAG 2.1 Update</span><br>
                 What About WCAG 2.1?
             </h3>
