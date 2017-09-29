@@ -25,7 +25,7 @@ and develop a sense of accomplishment.
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.

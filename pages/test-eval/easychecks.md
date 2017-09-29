@@ -58,36 +58,43 @@ details[open] > summary > *:first-child::before {
 }
 </style>
 
-<h2 class="no-display" id="introduction">Introduction</h2>
 <p><strong>This page helps you start to assess the accessibility of a web page. With these simple steps, you can get an idea whether or not accessibility is addressed in even the most basic way.</strong></p>
 <h3 id="scope">Scope</h3>
 <p>These checks cover just a few accessibility issues and are designed to be quick and easy, rather than definitive. A web page could seem to pass these checks, yet still have significant accessibility barriers. More robust assessment is needed to evaluate accessibility comprehensively.</p>
 <p><a id="toc"></a>This page provides checks for the following specific aspects of a web page. It also provides guidance on <span class="ptoc"><a href="#next">Next Steps</a></span> and links to more <a href="#evalresources">evaluation resources</a>.</p>
-<ul class="toc listafterpul listtight">
+
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" class="full" %}
+{:/}
+
+<ul class="toc listafterpul">
   <li><a href="#title">Page title</a></li>
   <li><a href="#images">Image text alternatives (“alt text”)</a> (pictures, illustrations, charts, etc.)</li>
-  <li><em>Text:</em>
-     <ul>
-        <li><a href="#headings">Headings</a></li>
-        <li><a href="#contrast">Contrast ratio (“color contrast”)</a></li>
-        <li><a href="#resize">Resize Text</a></li>
-     </ul>
+  <li><strong>Text:</strong>
+    <ul>
+      <li><a href="#headings">Headings</a></li>
+      <li><a href="#contrast">Contrast ratio (“color contrast”)</a></li>
+      <li><a href="#resize">Resize Text</a></li>
+    </ul>
   </li>
-  <li><em>Interaction:</em>
+  <li><strong>Interaction:</strong>
      <ul>
         <li><a href="#interaction">Keyboard access and visual focus</a></li>
         <li><a href="#forms">Forms, labels, and errors</a> (including  Search fields)</li>
      </ul>
   </li>
-  <li><em>General:</em>
+  <li><strong>General:</strong>
      <ul>
         <li><a href="#moving">Moving, Flashing, or Blinking Content</a></li>
         <li><a href="#media">Multimedia (video, audio) alternatives</a></li>
         <li><a href="#structure">Basic Structure Check</a></li>
      </ul>
-  </li>
+</li>
 </ul>
-<div class="f_controls_accordion f_fileToLoad_accordionControls"></div>
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
 
 <h2><a id="using"></a>Using these Easy Checks</h2>
 <h3 id="excolbuttomns">Click headings with [+] buttons to get hidden information</h3>
@@ -98,7 +105,7 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="middle" %}
    <p><strong>You can do most of these checks with any browser, that is, you do <i>not</i> need to download special tools.</strong></p>
 <p>However, some checks are easier if you can download tools. To keep it simple, we’ve included instructions for just two tools: the Web Developer Toolbar for Chrome, Opera, and Firefox (“WebDev Toolbar”) and the Web Accessibility Toolbar for Internet Explorer (“IE WAT”). Both are free extensions/add-ons available in different languages.</p>
-<ul class="listafterpul">
+<ul>
 <li>WebDev Toolbar - To do the checks that are indicated “with the WebDev Toolbar”, you’ll need <em>either</em>
 <ul>
   <li>the <a href="http://www.google.com/chrome/">Chrome browser</a> and the <a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm">Web Developer extension for Chrome</a></li>
@@ -129,14 +136,14 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="middle" %}
 <p>These checks are designed for anyone who can use the web. You don’t need much knowledge or skill. Some of the checks require seeing the web page or hearing the audio. However, there are many things that anyone can check.</p>
 <p>Here are some things to know that will help you understand the brief explanations throughout this page:</p>
-<ul class="listafterpul">
+<ul>
   <li><strong><em><a id="markup"></a>markup</em></strong> refers to web page code, called HTML. You can see the markup of a web page in most browsers by selecting from the menu: View &gt; Source. You do not  need to look at the markup to do these checks; however, it does help to understand what  “markup” and “marked up” means.</li>
   <li><i><a href="http://www.w3.org/WAI/intro/people-use-web/browsing#at">assistive technologies</a></i> (AT) are software or hardware that people with disabilities use to improve interaction with the web.</li>
   <li><i><a href="http://www.w3.org/WAI/intro/people-use-web/browsing#sr">screen readers</a></i> are software that reads aloud the information in web pages and enables keyboard navigation. They are used by people who are blind.</li>
   <li><i><a href="http://www.w3.org/WAI/intro/people-use-web/browsing#voice">voice input</a></i> is using speech instead of a keyboard and mouse.</li>
 </ul>
 <p>To learn more, see:</p>
-<ul class="listafterpul">
+<ul>
   <li><a href="http://www.w3.org/WAI/intro/people-use-web/principles">Accessibility Principles</a></li>
   <li><a href="http://www.w3.org/standards/webdesign/accessibility">Introduction to Accessibility</a></li>
   <li><a href="http://www.w3.org/WAI/yourWAI">Other WAI resources</a></li>
@@ -158,7 +165,7 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="end" %}
 <h2 id="title">Page title</h2>
 <p>Page titles are:</p>
-<ul class="listafterpul">
+<ul>
    <li>shown in the window title bar in some browsers</li>
    <li>shown in browsers' tabs when there are multiple web pages open</li>
    <li>shown in search engine results</li>
@@ -173,25 +180,25 @@ details[open] > summary > *:first-child::before {
 </figure>
 <p>Good page titles are particularly important for  orientation — to help people know where they are and move between pages open in their browser. The first thing screen readers say when the user goes to a different web page is the page title.</p>
 <h3 class="whathead">What to do:</h3>
-<ul class="listwithpul">
+<ul>
    <li>Look at the page’s title (or with a screen reader, listen to it).</li>
    <li>Look at titles of other pages within the website.</li>
 </ul>
 <h3 class="whathead">What to check for:</h3>
-<ul class="listwithpul">
+<ul>
    <li>Check that there is a title that adequately and briefly describes the content of the page.</li>
    <li>Check that the title is different from other pages on the website, and adequately distinguishes the page from other web pages.</li>
 </ul>
 {% include excol.html type="start" id="titletips" %}
 <h3>Tips</h3>
 {% include excol.html type="middle" %}
-   <ul class="listwithpul listtight">
+   <ul>
       <li>There is flexibility on what makes a good page title.</li>
       <li>Best practice is for titles to be “front-loaded” with the important and unique identifying information first.<br />
          For example:
-         <ul class="listwithpul">
+         <ul>
             <li>Poor titles:
-               <ul class="listwithpul">
+               <ul>
                   <li>Welcome to home page of  Acme Web Solutions, Inc.</li>
                   <li>Acme Web Solutions, Inc. | About Us</li>
                   <li>Acme Web Solutions, Inc. | Contact Us</li>
@@ -199,7 +206,7 @@ details[open] > summary > *:first-child::before {
                </ul>
             </li>
             <li>Better page titles:
-               <ul class="listwithpul">
+               <ul>
                   <li>Acme Web Solutions home page</li>
                   <li>About Acme Web Solutions</li>
                   <li>Contact Acme Web Solutions</li>
@@ -238,7 +245,7 @@ details[open] > summary > *:first-child::before {
 <h4>To check page title <em>with IE WAT</em></h4>
 {% include excol.html type="middle" %}
 <p><em>(Some versions of IE have the title bar so you can just look there, you don't need to do the steps below.)</em></p>
-<ol class="listwithpul">
+<ol>
   <li>Open the web page you are checking.</li>
   <li>In the toolbar, select “Structure”, then “Heading structure”. Or, with the keyboard: Ctrl/cmd+Alt+6, then down arrow key to “Heading structure”.<br/>
      <em>A new page opens.</em><br />
@@ -248,7 +255,7 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="start" %}
 <h3>Learn more about page titles</h3>
 {% include excol.html type="middle" %}
-<ul class="listwithpul">
+<ul>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG 2.0 (Level A)</li>
 </ul>
 {% include excol.html type="end" %}
@@ -259,13 +266,13 @@ details[open] > summary > *:first-child::before {
   <p>You don’t usually see the alt text on a web page, it is in the web page <a href="#markup" class="termref">markup</a> (like this:<br />
      <code>&lt;img src="pointer_to_image.png” alt="here's where the alternative text goes&quot;&gt;</code>).<br />
      Every image should include <code>alt</code> in the markup.</p>
-  <ul class="listafterpul">
+  <ul>
      <li>If an image conveys information useful for interacting with or understanding the web page content, then it needs alternative text.</li>
      <li>If an image is just decorative and people don’t need to know about the image, then it should have null alt (<code>alt="”</code>).</li>
   </ul>
   <p>Automated tests can tell you if <code>alt</code> is missing. To determine if the alternative text is appropriate, you need to see the image and judge it in context.</p>
   <h3 class="whathead">What to check for:</h3>
-  <ul class="listwithpul">
+  <ul>
      <li>Every image has <code>alt</code> with appropriate alternative text.</li>
   </ul>
   <h3>Tips</h3>
@@ -352,28 +359,28 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="start" %}  <h4 class="" id="bad-alt">To practice checking alt text in BAD</h4>{% include excol.html type="middle" %}
 <p>With one of the checks above, use the inaccessible home page <code><a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a></code> <br />
   Notice: </p>
-<ul class="listwithpul">
+<ul>
   <li>Missing alt:
-     <ul class="listwithpul">
+     <ul>
         <li>There are lots of images without alt text. (Many of these are just decorative and should have null alt text, per the Tips above.)</li>
         <li>The weather image of the cloud and sun is missing alt.</li>
      </ul>
   </li>
   <li>Inappropriate alt text:
-     <ul class="listwithpul">
+     <ul>
         <li>Near the top, left, see the long alt text starting with “Red dot with...”. That description is way too detailed and includes unimportant information. The appropriate alt text in the accessible page is: “Citylights: your access to the city.”</li>
         <li>Near the bottom in the middle, see the image of text: “(1)269C-H-O-K-E”. The alt is 123456789, which is not equivalent.</li>
      </ul>
   </li>
   <li>Appropriate alt text:
-     <ul class="listwithpul">
+     <ul>
         <li>Near the top, see the W3C image; the alt text is: “W3C logo”.</li>
      </ul>
   </li>
 </ul>
 {% include excol.html type="end" %}
 {% include excol.html type="start" %}  <h3 class="">Learn more about alt text</h3>{% include excol.html type="middle" %}
-<ul class="listwithpul">
+<ul>
   <li><a href="http://www.w3.org/WAI/intro/people-use-web/principles#alternatives">Text alternatives for non-text content</a> is an easy introduction with links to more details</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.0 (Level A)</li>
   <li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">An alt text decision tree</a></li>
@@ -383,7 +390,7 @@ details[open] > summary > *:first-child::before {
   <h2 id="headings">Headings</h2>
   <p>Web pages often have sections of information separated by visual headings, for example, heading text is bigger and bold (like “Headings” right above this sentence :-). To make these work for everyone, the headings need to be <a href="#markup" class="termref">marked up</a>. That way people can navigate to the headings — including people who cannot use a mouse and use only the keyboard, and people who use a screen reader.</p>
   <p>Heading levels should have a meaningful hierarchy, e.g.: </p>
-  <ul class="listafterpul listtight">
+  <ul>
      <li>Heading Level 1 &lt;h1&gt;
        <ul>
            <li>Heading Level 2 &lt;h2&gt;
@@ -429,7 +436,7 @@ details[open] > summary > *:first-child::before {
   </figure>
 {% include excol.html type="start" %}  <h4 class="">To check headings <em>with WebDev toolbar</em></h4>{% include excol.html type="middle" %}
 <h5>Headings outline:</h5>
-<ol class="listafterpul">
+<ol>
   <li>Open the web page you are checking.</li>
   <li>In the toolbar, select “Information”, then “View Document Outline”.Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, M<br/>
      <em>A new page opens with the outline</em>. </li>
@@ -447,7 +454,7 @@ details[open] > summary > *:first-child::before {
   </li>
 </ol>
 <h5>Heading markup in the page: </h5>
-<ol class="listafterpul">
+<ol>
   <li>Open the web page you are checking.</li>
   <li>In the toolbar, select “Outline”, then “Show Element Tags Names When Outlining”. Or, with the keyboard: Alt+T, W (to Web Developer Extension), O, S<br/>
   </li>
@@ -459,7 +466,7 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="end" %}
 {% include excol.html type="start" %}  <h4 class="">To check headings <em>with IE WAT</em></h4>{% include excol.html type="middle" %}
 <h5>Headings outline:</h5>
-<ol class="listafterpul">
+<ol>
   <li>Open the web page you are checking.</li>
   <li>In the toolbar, select “Structure”, then “Heading Structure”. Or, with the keyboard: Ctrl/cmd+Alt+6, then down arrow  to “Heading structure”.<br/>
      <em>A new page opens with the outline.</em> </li>
@@ -477,7 +484,7 @@ details[open] > summary > *:first-child::before {
   </li>
 </ol>
 <h5>Heading markup in the page:</h5>
-<ol class="listafterpul">
+<ol>
   <li>Open the web page you are checking.</li>
   <li>In the toolbar, select “Structure”, then “Headings”. Or, with the keyboard: Ctrl/cmd+Alt+6, then down arrow  to “Headings”.<br/>
      <em>Headings will be surrounded with &lt;h1&gt;, &lt;h2&gt;, etc. icons in purple text on a light background.</em></li>
@@ -487,7 +494,7 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="end" %}
 {% include excol.html type="start" %}  <h4 class="">To check headings <em> in any browser</em></h4>{% include excol.html type="middle" %}
 <h5>Headings outline:</h5>
-<ol class="listafterpul">
+<ol>
   <li>In any browser, open the <a href="http://validator.w3.org/">W3C HTML Validator (The W3C Markup Validation Service)</a>.</li>
   <li>In the Address field, type the URI (e.g., www.w3.org).</li>
   <li>Click the More Options link.</li>
@@ -509,7 +516,7 @@ details[open] > summary > *:first-child::before {
   </li>
 </ol>
 <h5>Heading markup in the page:</h5>
-<ol class="listafterpul">
+<ol>
   <li>Open <a href="http://wave.webaim.org/">WAVE</a> web accessibility evaluation tool.</li>
   <li>Type the website address in the box after “Enter the URL of the web site you want to evaluate:”</li>
   <li>Click the “WAVE this page!” button.<br/>
@@ -520,12 +527,12 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="end" %}
 {% include excol.html type="start" %}  <h4 class="" id="bad-headings">To practice checking headings in BAD:</h4>{% include excol.html type="middle" %}
 <h5>Headings outline:</h5>
-<ul class="listafterpul">
+<ul>
   <li>Follow  one of the instructions under “Headings outline” above and use the accessible News page: <code><a href="http://www.w3.org/WAI/demos/bad/after/news">www.w3.org/WAI/demos/bad/after/news</a></code>. Notice there is a nice hierarchical outline.</li>
   <li>Next, use the inaccessible News page: <code><a href="http://www.w3.org/WAI/demos/bad/before/news">www.w3.org/WAI/demos/bad/before/news</a></code>. (In HTML Validator, the “Check” button might now say “Revalidate”.) Notice there is just one heading.</li>
 </ul>
 <h5>Heading markup in the page:</h5>
-<ul class="listafterpul">
+<ul>
   <li>Start by visually looking at the inaccessible BAD news page: <a href="http://www.w3.org/WAI/demos/bad/before/news.html"><code>www.w3.org/WAI/demos/bad/before/news</code></a>. What looks like headings? <i>(Citylights News, Heat wave linked to temperatures, Man Gets Nine Months in Violin Case, ...)</i></li>
   <li>Next, see how it should look. Follow one of the instructions for “Heading markup in the page” above on the accessible News page: <code><a href="http://www.w3.org/WAI/demos/bad/after/home">www.w3.org/WAI/demos/bad/after/home</a></code>. Notice the headings have icons next to them.</li>
   <li>Next, see what it looks like when headings are not marked up. Use the inaccessible News page: <code><a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a></code>. Notice there is text that visually looks like headings, but does not have headings icons next to it. (With WAVE, there are yellow icons with “h?” because it thinks these might be headings.)</li>
@@ -563,7 +570,7 @@ details[open] > summary > *:first-child::before {
 <h3 class="whathead">What to check for:</h3>
 <p>The contrast between all text and its background is at least 4.5:1 for normal-size text.</p>
 <p>There are basically three ways to check  contrast, each with strengths and weaknesses. </p>
-<ol class="listafterpul">
+<ol>
    <li><strong>Table with contrast ratio</strong> - The tool displays a table with all the possible contrast ratios in the web page. With some tools, you can click in the table and it will show where that color combination is in the web page.
       <ul>
          <li><em>Pro: </em>Comprehensive.</li>
@@ -623,7 +630,7 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="start" %}  <h4 class="">To practice checking contrast with BAD</h4>{% include excol.html type="middle" %}
 <p>Open the  inaccessible Tickets page: <code><a href="http://www.w3.org/WAI/demos/bad/before/tickets.html">www.w3.org/WAI/demos/bad/before/tickets</a><br/>
   </code>Use one of the checks above. Notice:</p>
-<ul class="listafterpul">
+<ul>
   <li>The text in some rows is dark gray on light gray with a contrast ratio of 3.76:1.</li>
 </ul>
 {% include excol.html type="end" %}
@@ -639,7 +646,7 @@ details[open] > summary > *:first-child::before {
   <h2 id="resize">Resize text</h2>
   <p>Some people need to enlarge web content in order to read it. Some  need to change other aspects of text display: font, space between lines, and more.</p>
   <p>Most browsers allow users to change text size through:</p>
-  <ul class="listafterpul">
+  <ul>
      <li> text size settings (usually through Options or Preferences)</li>
      <li>text-only  zoom</li>
      <li>page zoom (which also zooms images, buttons, etc.)</li>
@@ -672,7 +679,7 @@ details[open] > summary > *:first-child::before {
   <h3>Resize text checks</h3>
   <p><em>The instructions below are for text-only zoom. You can also change the text size settings, for example, through Tools &gt; Options or Preferences. To keep this simple, we don't include instructions for changing those settings. We also don't include instructions for page zoom because it does not usually reveal the accessibility barriers described above.</em></p>
 {% include excol.html type="start" %}  <h4 class="">To check text-only zoom in Firefox, Safari, and some other browsers</h4>{% include excol.html type="middle" %}
-<ol class="listafterpul">
+<ol>
   <li>From the menubar,
      do one of the following <em>(depending on your browser) </em>
      <ul>
@@ -689,11 +696,11 @@ details[open] > summary > *:first-child::before {
 </ol>
 {% include excol.html type="end" %}
 {% include excol.html type="start" %}  <h4 class="">To check text resize  in IE</h4>{% include excol.html type="middle" %}
-<ol class="listafterpul">
+<ol>
   <li>From the menubar, select View &gt; Text Size &gt; Largest. Or, with the keyboard: Alt+V, X, G.</li>
 </ol>
 <p>If you don't have a menubar, one of these may work to display it, depending on your version:</p>
-<ul class="listafterpul">
+<ul>
   <li>In the search box, type Internet Explorer,  then in the list of results, click Internet Explorer.<br />
      To display the menus temporarily: Press the Alt key.<br />
      To display the menus permanently: Click the Tools button, point to Toolbars, and then click Menu Bar.</li>
@@ -724,7 +731,7 @@ details[open] > summary > *:first-child::before {
 
   <h3 class="whathead">What to do:</h3>
   <p>In a browser that supports  keyboard navigation with the Tab key (for example, Firefox, IE, Chrome, and Safari; <em>not</em> Opera): </p>
-  <ul class="listafterpul">
+  <ul>
      <li>In Mac browsers, enable keyboard navigation to all controls.
         <ul>
            <li>In newer browsers: Select System Preferences &gt; Keyboard &gt; Shortcuts. Select the “All controls” option button.</li>
@@ -755,7 +762,7 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="start" %}  <h4 id="visualfocusBAD" class="">To see visual focus with BAD</h4>{% include excol.html type="middle" %}
 <p>Open the accessible Survey page: <code><a href="http://www.w3.org/WAI/demos/bad/after/survey">www.w3.org/WAI/demos/bad/after/survey</a><br/>
   </code>Tab through the page. Notice:</p>
-<ul class="listafterpul">
+<ul>
   <li>Most things get a red background when they get focus.</li>
   <li>The other Survey pages get a dotted border and arrows.</li>
   <li>The radio buttons get a dotted border.</li>
@@ -786,11 +793,11 @@ details[open] > summary > *:first-child::before {
   <p class="whathead">Find  any forms on the page. A form could be a single text box, such as Search, or could be a complex form with text  fields, radio buttons, checkboxes, drop-down lists, and  buttons.</p>
   <h3 class="whathead">What to check for:</h3>
   <h4 class="small4">Keyboard access</h4>
-  <ul class="listafterpul">
+  <ul>
      <li> Check that all form controls are keyboard accessible by following the <a href="#interaction">keyboard access</a> checks above, including checking that you can get to all items in any <a href="http://www.w3.org/WAI/EO/Drafts/eval/checks#dropdown">drop-down lists</a>.</li>
   </ul>
   <h4 class="small4">Labels</h4>
-  <ul class="listafterpul">
+  <ul>
      <li>Check that every form control has a label associated with it <span> using 'label', 'for', and 'id'</span>, as shown in the <a href="#labelschecks">labels checks</a> below. (This is best practice in most cases, though not a requirement because a form control label can be associated in other ways.)</li>
      <li>Check that the labels are positioned correctly. For left-to-right languages, labels should usually be:
         <ul>
@@ -802,7 +809,7 @@ details[open] > summary > *:first-child::before {
      </li>
   </ul>
   <h4 class="small4">Required fields and other instructions</h4>
-  <ul class="listafterpul">
+  <ul>
      <li>Check that any fields that are required/mandatory are clearly indicated.
         <ul>
            <li>Check that the indicator does not rely on color alone, for example, if required fields were only indicated by red colored labels, they would not be accessible to people who do not see the different colors.</li>
@@ -818,7 +825,7 @@ details[open] > summary > *:first-child::before {
   </ul>
   <h4 class="small4 listintro">Error handling</h4>
   <p class="listintro spacenotop">Some simple forms, such as a single search field, might not have any errors. If you think the form(s) on the page you are checking might have error messages, try leaving required fields blank or entering incorrectly-formatted information (such as telephone number or e-mail address), then submitting the form. If you get errors:</p>
-  <ul class="listafterpul">
+  <ul>
      <li>Check that clear and specific guidance is provided to help people understand and fix the error. If the error concerns a format such as date, time, or address, check that the  correct format is clearly explained.</li>
      <li>Check that the errors are easily findable. Generally it is best if the error messages are before the form, rather than after the form.</li>
      <li>Check that the fields without errors are still populated with the data you entered. (This is best practice, though not a requirement.) People should not have to re-enter all the information in the form, except for some sensitive data such as credit card numbers.</li>
@@ -935,7 +942,7 @@ details[open] > summary > *:first-child::before {
         <li>Distraction from moving content — Moving content can make focusing and reading elsewhere difficult; that is, people cannot focus on some content because the movement in another area of the web page grabs their attention.</li>
  </ol>
  <p>Additionally,  flashing or blinking content can cause seizures in people with photosensitive epilepsy, particularly if it:</p>
- <ol class="listafterpul">
+ <ol>
    <li>flashes more than three times in one second,</li>
         <li>covers a large enough area of the screen, and</li>
         <li>is bright enough.</li>
@@ -963,7 +970,7 @@ details[open] > summary > *:first-child::before {
   <p>Follow the steps above for <a href="#interaction">keyboard access</a> to ensure that the media player controls are labeled and keyboard accessible.</p>
   <h4>Auto-start control</h4>
   <p>It is best if audio (including background noise and video with sound) does not start automatically when a web page opens. If it does start automatically, it should either:</p>
-  <ul class="listafterpul">
+  <ul>
      <li>Stop after 3 seconds.</li>
      <li>Include controls to pause or stop the audio.</li>
      <li>Include controls to turn down the volume.</li>
@@ -979,7 +986,7 @@ details[open] > summary > *:first-child::before {
   </figure>
 
   <p>If there are captions, you can check that:</p>
-  <ul class="listafterpul">
+  <ul>
      <li>The captions seem in sync with the spoken content.</li>
      <li>The people who are speaking are identified when they speak.</li>
      <li>Important sound other than dialogue &mdash; e.g., footsteps approaching, doors closing, glass breaking &mdash; is included.</li>
@@ -1048,19 +1055,19 @@ details[open] > summary > *:first-child::before {
 
 <p>While it is useful to have an experienced screen reader user check web pages, anyone can get an initial idea of  potential accessibility barriers for screen reader users and others who change the way the page is presented. The steps below show you how to disable images, disable styles for how the page is usually displayed, and linearize the page to check the page structure.</p>
 <p id="dtnote">Notes:</p>
-<ul class="listafterpul">
+<ul>
    <li>Data tables will not make sense when linearized &mdash; that's OK because  screen readers have functionality to make data tables usable (when they are marked up correctly).</li>
    <li>BAD provides a clear example of how the basic structure check reveals accessibility barriers. (It's also a bit funny, and we suggest you check it out, by following the <a href="#plainBAD">BAD instructions</a> below.)</li>
 </ul>
 <h3 class="whathead listintro">What to do:</h3>
 <p>Get a basic structure view of the page by following the instructions under <a href="#structure">Basic structure checks</a> below to: </p>
-<ul class="listafterpul">
+<ul>
    <li> Turn off images and show the text alternatives.</li>
    <li>Turn off style sheets (CSS), which specifies how the page is displayed with layout, colors, etc.</li>
    <li>Linearize the page or the tables (depending on the toolbar).</li>
 </ul>
 <h3 class="whathead listintro">What to check for:</h3>
-<ul class="listafterpul">
+<ul>
    <li>Check that the information makes sense when read in the order it is shown; for example, headings are right above the information they apply to.<br />
       <em>(Data tables do not need to make sense linearized, per the <a href="#dtnote">note</a> above.)</em></li>
    <li>Check that the alternative text provides adequate information for the missing images (per the <a href="http://www.w3.org/WAI/eval/preliminary#images">Image text alternatives</a> section above).</li>
@@ -1093,7 +1100,7 @@ details[open] > summary > *:first-child::before {
 {% include excol.html type="end" %}
 {% include excol.html type="start" %}  <h4 class="">To check  basic structure <em>with any browser</em></h4>{% include excol.html type="middle" %}
 <p>Most browsers provide the option to turn off images and disable CSS from the menus. For example:</p>
-<ul class="listafterpul">
+<ul>
   <li>In Opera:
      <ul>
         <li>View &gt; Images &gt; Show Images<br />
@@ -1136,7 +1143,7 @@ details[open] > summary > *:first-child::before {
 
 <h2 id="next">Next steps</h2>
 <p>Now that you have an idea of the accessibility issues on a web page, two things you can do:</p>
-<ol class="listafterpul">
+<ol>
    <li>Share your findings with someone who can fix accessibility barriers.</li>
    <li>Encourage thorough accessibility evaluation.</li>
 </ol>
@@ -1146,7 +1153,7 @@ details[open] > summary > *:first-child::before {
 <p>The checks on this page are not definitive; a web page could seem to pass these checks, yet still have significant accessibility barriers.</p>
 <p>This page covers just a few accessibility issues. There are other accessibility issues not covered in these easy checks, for example: links, data table <a href="#markup" class="termref">markup</a>, reliance on color, and much more.</p>
 <p id="evalresources">More robust assessment is needed to evaluate accessibility comprehensively. Guidance is available from:</p>
-<ul class="listafterpul">
+<ul>
  <li>Evaluation methodology and report generator &mdash;<br>
 <a href="http://www.w3.org/WAI/eval/conformance">WCAG-EM Overview</a>: Website Accessibility Conformance Evaluation Methodology<br/> <a href="http://www.w3.org/WAI/eval/report-tool/#/">WCAG-EM Report Tool</a>: Website Accessibility Evaluation Report Generator </li>
   <li><a href="http://www.w3.org/WAI/eval/selectingtools">Selecting Web Accessibility Evaluation Tools</a></li>

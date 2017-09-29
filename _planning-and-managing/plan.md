@@ -24,7 +24,7 @@ work, distribution of tasks, and continual follow-up on progress.
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.

@@ -27,7 +27,7 @@ clear where activity is required for follow-up work.
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.
