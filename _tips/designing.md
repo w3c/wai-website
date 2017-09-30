@@ -18,40 +18,35 @@ This page introduces some basic considerations to help you get started making yo
 {::nomarkdown}
 {% include toc.html type="end" %}
 {:/}
-
-
-{::nomarkdown}
-<%= tip :start %>
-{:/}
-
-{:.attach_permalink}
 ## Provide sufficient contrast between foreground and background
 
 Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr>WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
 
 {::nomarkdown}
-<%= example 'Contrast ratio'  %>
+{% include box.html type="start" title="Example: Contrast ratio" class="example" %}
+{:/}
 
 <div class="contrast two-column">
   <figure>
-    <figcaption><%= svg_icon 'cross' %> Insufficient</figcaption>
+    <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} Insufficient</figcaption>
     <div>
       <p class="fail">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
   <figure>
-    <figcaption><%= svg_icon 'tick' %> Sufficient</figcaption>
+    <figcaption>{% include icon.html name="check-circle" label="OK" %} Sufficient</figcaption>
     <div>
       <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -64,25 +59,19 @@ Foreground text needs to have sufficient contrast with background colors. This i
   * [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip :start %>
-{:/}
-
-{:.attach_permalink}
 ## Don't use color alone to convey information
 
 While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. For example, use an asterisk in addition to color to indicate required form fields, and use labels to distinguish areas on graphs.
 
 {::nomarkdown}
-<%= example 'Using color to convey meaning' %>
+{% include box.html type="start" title="Example: Using color to convey meaning" class="example" %}
+{:/}
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption><%= svg_icon 'cross' %> Color only</figcaption>
+    <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} Color only</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
@@ -96,7 +85,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption><%= svg_icon 'tick' %> Color and symbol</figcaption>
+    <figcaption>{% include icon.html name="check-circle" label="OK" %} Color and symbol</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">*</span></p>
@@ -110,12 +99,17 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
 </div>
-<%= example :end%>
 
-<%= example 'Refer to something using color alone' %>
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Example: Refer to something using color alone" class="example" %}
+{:/}
 <div class="color-alone two-column">
   <figure class="question fail">
-    <figcaption><%= svg_icon 'cross' %> Color only</figcaption>
+    <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} Color only</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
@@ -139,7 +133,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="question pass">
-    <figcaption><%= svg_icon 'tick' %> Color and number</figcaption>
+    <figcaption>{% include icon.html name="check-circle" label="OK" %} Color and number</figcaption>
     <div>
       <svg version="1.1" width="153" height="154">
         <g>
@@ -167,11 +161,12 @@ While color can be useful to convey information, color should not be the only wa
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -180,26 +175,22 @@ While color can be useful to convey information, color should not be the only wa
   * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip :start %>
-{:/}
 
-{:.attach_permalink}
 ## Ensure that interactive elements are easy to identify
 
 Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation. Ensure that styles and naming for interactive elements are used consistently throughout the website.
 
 {::nomarkdown}
-<%= example 'Unique styles for different link states' %>
+{% include box.html type="start" title="Example: Unique styles for different link states" class="example" %}
+{:/}
 
 <div class="focus two-column">
   <div>
     <figure>
-      <figcaption><%= svg_icon 'tick' %> Style links to stand out from text</figcaption>
+      <figcaption>{% include icon.html name="check-circle" label="OK" %} Style links to stand out from text</figcaption>
       <div>
         <p>Some people can't use a mouse and use only a <a href="javascript:return false;" aria-label="Link is styled to stand out from main text">keyboard to navigate</a> through web pages.</p>
         <p>It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
@@ -209,19 +200,19 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   </div>
   <div>
     <figure class="hover">
-      <figcaption><%= svg_icon 'tick' %> Mouse hover style</figcaption>
+      <figcaption>{% include icon.html name="check-circle" label="OK" %} Mouse hover style</figcaption>
       <div>
         <p><a href="javascript:return false;" aria-label="Link is styled with a subtle background to highlight hover state">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
-      <figcaption><%= svg_icon 'tick' %> Keyboard focus style</figcaption>
+      <figcaption>{% include icon.html name="check-circle" label="OK" %} Keyboard focus style</figcaption>
       <div>
         <p><a href="javascript:return false;" aria-label="Link is styled with a stronger version of the hover style to make it stand out">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
-      <figcaption><%= svg_icon 'tick' %> Touch or click style</figcaption>
+      <figcaption>{% include icon.html name="check-circle" label="OK" %} Touch or click style</figcaption>
       <div>
         <p><a href="javascript:return false;" aria-label="Link is given a strong styling to show an action will occur">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
@@ -229,11 +220,12 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   </div>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -244,21 +236,15 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Provide clear and consistent navigation options
 
 Ensure that navigation across pages within a website has consistent naming, styling, and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs and clear headings.
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -268,21 +254,16 @@ Ensure that navigation across pages within a website has consistent naming, styl
   * [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Ensure that form elements include clearly associated labels
 
 Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.
 
 {::nomarkdown}
-<%= example 'Labels and input fields associated by proximity' %>
+{% include box.html type="start" title="Example: Labels and input fields associated by proximity" class="example" %}
+{:/}
 
 <div class="labels">
   <figure>
@@ -312,11 +293,12 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -328,21 +310,16 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
   * [How clear labelling can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Provide easily identifiable feedback
 
 Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Instructions should be easy to identify. Important feedback that requires user action should be presented in a prominent style.
 
 {::nomarkdown}
-<%= example 'Using error list, icon, and background color to make errors stand out' %>
+{% include box.html type="start" title="Example: Using error list, icon, and background color to make errors stand out" class="example" %}
+{:/}
 
 <div class="errors">
   <figure>
@@ -380,11 +357,12 @@ Provide feedback for interactions, such as confirming form submission, alerting 
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -397,25 +375,20 @@ Provide feedback for interactions, such as confirming form submission, alerting 
   * [How making important content easily identifiable can help](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Use headings and spacing to group related content
 
 Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand.
 
 {::nomarkdown}
-<%= example 'Spacing highlights relationship between content' %>
+{% include box.html type="start" title="Example: Spacing highlights relationship between content" class="example" %}
+{:/}
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption id="inaccessible-headings-title"><%= svg_icon 'cross' %> Little spacing and unclear relationship</figcaption>
+    <figcaption id="inaccessible-headings-title">{% include icon.html name="ex-circle" label="Wrong" %} Little spacing and unclear relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
@@ -452,7 +425,7 @@ Use whitespace and proximity to make relationships between content more apparent
     </div>
   </figure>
   <figure class="pass">
-    <figcaption id="accessible-headings-title"><%= svg_icon 'tick' %> More spacing and clearer relationship</figcaption>
+    <figcaption id="accessible-headings-title">{% include icon.html name="check-circle" label="OK" %} More spacing and clearer relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
@@ -496,11 +469,12 @@ Use whitespace and proximity to make relationships between content more apparent
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -512,38 +486,34 @@ Use whitespace and proximity to make relationships between content more apparent
   * [Describes how headings can be helpful for navigation](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Create designs for different viewport sizes
 
 Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
-<%= example 'Content and navigation adapt to smaller mobile screen' %>
+{% include box.html type="start" title="Example: Content and navigation adapt to smaller mobile screen" class="example" %}
+{:/}
 
 <div class="responsive">
   <figure>
     <div>
-      <img src="images/content_in_browser.png" alt="">
-      <img src="images/content_in_phone.png" alt="">
+      {% include img.html src="content_in_browser.png" %}
+      {% include img.html src="content_in_phone.png" %}
       <p>Display in a wide window with small text uses multiple columns for primary content, visible navigation options, and visible secondary information.</p>
       <p>Display in a narrow window, such as a mobile phone, or with large text uses single column for primary content, navigation options are revealed using an icon, and secondary information is also revealed via icon.</p>
     </div>
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **Background**
@@ -553,15 +523,9 @@ Consider how page information is presented in different sized viewports, such as
   * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Include image and media alternatives in your design
 
 Provide a place in your design for alternatives for images and media. For example, you might need:
@@ -574,21 +538,23 @@ Provide a place in your design for alternatives for images and media. For exampl
 Work with content authors and developers to provide alternatives for non-text content.
 
 {::nomarkdown}
-<%= example 'Design includes links to a transcript and to an alternative video' %>
+{% include box.html type="start" title="Example: Design includes links to a transcript and to an alternative video" class="example" %}
+{:/}
 
 <div class="text-alt">
   <figure>
     <div>
-      <img src="images/example_media_player.png" alt="A media player is shown. In additon to the standard play/pause buttons, progress bar and volume, a closed captions (CC) button is available as well as links to a transcript and a version with audio description.">
+      {% include img.html src="example_media_player.png" alt="A media player is shown. In additon to the standard play/pause buttons, progress bar and volume, a closed captions (CC) button is available as well as links to a transcript and a version with audio description." %}
     </div>
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -599,35 +565,31 @@ Work with content authors and developers to provide alternatives for non-text co
   * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Provide controls for content that starts automatically
 
 Provide visible controls to allow users to stop any animations or auto-playing sound. This applies to carousels, image sliders, background sound, and videos.
 
 {::nomarkdown}
-<%= example 'Show play/stop and selection controls in carousel design' %>
+{% include box.html type="start" title="Example: Show play/stop and selection controls in carousel design" class="example" %}
+{:/}
 
 <div class="autoplay">
   <figure>
     <div>
-      <img src="images/carousel_controls.png" alt="Example of carousel with play and slide selection controls">
+      {% include img.html src="carousel_controls.png" alt="Example of carousel with play and slide selection controls" %}
     </div>
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -637,15 +599,9 @@ Provide visible controls to allow users to stop any animations or auto-playing s
   * [Carousel Concepts](/WAI/tutorials/carousels/)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Learn more about accessibility
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
@@ -657,7 +613,3 @@ These tips are a few of the things you need to consider for web accessibility. T
 * [Before and After Demonstration](/WAI/demos/bad/) &mdash; shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
 * [<abbr>WCAG</abbr> Quick Reference](/WAI/WCAG20/quickref/) &mdash; customizable reference of all <abbr>WCAG</abbr> 2.0 requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) &mdash; includes tools to help explore contrast ratio
-
-{::nomarkdown}
-<%= tip :end %>
-{:/}

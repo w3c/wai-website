@@ -8,7 +8,7 @@ This page introduces some basic considerations to help you get started developin
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.
@@ -19,17 +19,14 @@ This page introduces some basic considerations to help you get started developin
 {:/}
 
 
-{::nomarkdown}
-<%= tip %>
-{:/}
 
-{:.attach_permalink}
 ## Associate a label with every form control
 
 Use a `for` attribute on the `<label>` element linked to the `id` attribute of the form element, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide `<label>` elements visually, but in most cases labels are needed to help all readers understand the required input.
 
 {::nomarkdown}
-<%= example 'Using <code>for</code> and <code>id</code> attributes' %>
+{% include box.html type="start" title="Example: Using <code>for</code> and <code>id</code> attributes" class="example" %}
+{:/}
 
 <div class="form-labels html-example">
   <div>
@@ -40,11 +37,12 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
   </div>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -53,21 +51,15 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
   * [Labelling Controls](/WAI/tutorials/forms/labels/)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Include alternative text for images
 
 Ensure that alternative text for images is added to all informational and functional images. Use empty alternative text, `alt=""` for decorative images, or include them in the CSS instead. Text alternatives are usually provided by those responsible for written content.
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -78,21 +70,15 @@ Ensure that alternative text for images is added to all informational and functi
   * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Identify page language and language changes
 
 Indicate the primary language of every page by using the `lang` attribute in the `html` tag, for example `<html lang="en">`. Use the `lang` attribute on specific elements when the language of the element differs from the rest of the page.
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -102,21 +88,16 @@ Indicate the primary language of every page by using the `lang` attribute in the
   * [Declaring language in HTML](/International/questions/qa-html-language-declarations)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
 Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role="search"` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
-<%= example 'Using HTML to provide structure and meaning' %>
+{% include box.html type="start" title="Example: Using HTML to provide structure and meaning" class="example" %}
+{:/}
 
 <div class="mark-up html-example">
   <div>
@@ -138,8 +119,14 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
     <% end %>
   </div>
 </div>
-<%= example :end %>
-<%= example 'Search field using <abbr>WAI-ARIA</abbr>' %>
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+
+{::nomarkdown}
+{% include box.html type="start" title="Example: Search field using <abbr>WAI-ARIA</abbr>" class="example" %}
+{:/}
 <div class="mark-up html-example">
   <div>
     <% html_example do %>
@@ -155,11 +142,12 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   </div>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -171,15 +159,9 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   * [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Help users avoid and correct mistakes
 
 Provide clear instructions, error messages, and notifications to help users complete forms on your site. When an error occurs:
@@ -191,7 +173,8 @@ Provide clear instructions, error messages, and notifications to help users comp
 Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed.
 
 {::nomarkdown}
-<%= example 'Australian phone number field with forgiving validation' %>
+{% include box.html type="start" title="Example: Australian phone number field with forgiving validation" class="example" %}
+{:/}
 
 <div class="avoid-mistakes html-example">
   <div>
@@ -203,11 +186,12 @@ Be as forgiving of format as possible when processing user input. For example, a
   </div>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -218,32 +202,27 @@ Be as forgiving of format as possible when processing user input. For example, a
   * [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Reflect the reading order in the code order
 
 Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove CSS styling and review that the order of the content makes sense.
 
 {::nomarkdown}
-<%= example 'Reflecting the logical reading order in the code' %>
+{% include box.html type="start" title="Example: Reflecting the logical reading order in the code" class="example" %}
+{:/}
 
 <div class="order">
   <article class="product">
     <h3 class="name">Space trainers</h3>
-    <img src="images/trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
+    {% include img.html src="trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" %}
     <p class="desc">Space trainer for a classic and stylish look.</p>
     <p class="buy"><a href="javascript:return false"><%= svg_icon 'cart-plus' %> Add to cart</a></p>
   </article>
   <div class="two-column">
     <figure>
-      <figcaption><%= svg_icon 'cross' %> Image before heading may be missed</figcaption>
+      <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} Image before heading may be missed</figcaption>
       <div class="fail code">
         <% code('html') do %>
 <img src="images/trainer.png" alt="...">
@@ -269,7 +248,7 @@ Ensure that the order of elements in the code matches the logical order of the i
     </figure>
 
     <figure>
-      <figcaption><%= svg_icon 'tick' %> Heading marks the start of the section</figcaption>
+      <figcaption>{% include icon.html name="check-circle" label="OK" %} Heading marks the start of the section</figcaption>
       <div class="pass code">
         <% code('html') do %>
 <h3>Space trainers</h3>
@@ -296,32 +275,28 @@ Ensure that the order of elements in the code matches the logical order of the i
   </div>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
   * [Meaningful Sequence 1.3.2](/WAI/WCAG20/quickref/#qr-content-structure-separation-sequence) ([Understanding 1.3.2](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html))
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Write code that adapts to the user's technology
 
 Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. When font size is increased by at least 200%, avoid horizontal scrolling and prevent any clipping of content. Use progressive enhancement to help ensure that core functionality and content is available regardless of technology being used.
 
 {::nomarkdown}
-<%= example 'Using media queries to adapt navigation' %>
+{% include box.html type="start" title="Example: Using media queries to adapt navigation" class="example" %}
+{:/}
 
 <div class="adapt-code">
   <figure>
@@ -356,11 +331,12 @@ Use responsive design to adapt the display to different zoom states and viewport
   </figure>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -372,21 +348,16 @@ Use responsive design to adapt the display to different zoom states and viewport
   * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Provide meaning for non-standard interactive elements
 
 Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role="navigation"` and `aria-expanded="true"`. Additional code is required to implement the behavior of such widgets, such as expanding and collapsing content or how the widget responds to keyboard events.
 
 {::nomarkdown}
-<%= example 'Menu function and state identified using WAI-ARIA' %>
+{% include box.html type="start" title="Example: Menu function and state identified using WAI-ARIA" class="example" %}
+{:/}
 
 <div class="non-standard">
   <figure>
@@ -411,11 +382,12 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
       </div>
   </figure>
 </div>
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -424,21 +396,16 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
   * [Notes on Using ARIA in HTML](/TR/aria-in-html/)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
 Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex="0"` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
-<%= example 'Keyboard accessible menu button' %>
+{% include box.html type="start" title="Example: Keyboard accessible menu button" class="example" %}
+{:/}
 
 <div class="keyboard-accessible html-example">
   <div>
@@ -479,11 +446,12 @@ buttonExample.addEventListener('click', function(e) {
   </div>
 </div>
 
-<%= example :end %>
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -492,15 +460,9 @@ buttonExample.addEventListener('click', function(e) {
   * [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Avoid CAPTCHA where possible
 
 CAPTCHAs create problems for many people. There are other means of verifying that user input was generated by a human that are easier to use, such as automatic detection or interface interactions. If CAPTCHA really needs to be included, ensure that it is simple to understand and includes alternatives for users with disabilities, such as:
@@ -510,7 +472,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 * Not requiring CAPTCHAs for authorized users.
 
 {::nomarkdown}
-<%= more_information %>
+{% include box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -519,15 +481,9 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
   * [Inaccessibility of CAPTCHA](/TR/turingtest/)
 
 {::nomarkdown}
-<%= more_information :end %>
+{% include box.html type="end" %}
 {:/}
 
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Learn more about accessibility
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
@@ -540,7 +496,3 @@ These tips are a few of the things you need to consider for web accessibility. T
 * [<abbr>WCAG</abbr> Quick Reference](/WAI/WCAG20/quickref/) &mdash; customizable reference of all <abbr>WCAG</abbr> 2.0 requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) &mdash; Provides a range of tools to help explore the accessibility of code
 * [<abbr>WAI-ARIA</abbr> Overview](/WAI/intro/aria) &mdash; Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
-
-{::nomarkdown}
-<%= tip :end %>
-{:/}
