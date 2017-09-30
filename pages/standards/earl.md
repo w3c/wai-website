@@ -117,7 +117,7 @@ Who develops EARL {#wg}
 
 EARL documents are developed by the [Evaluation and Repair Tools Working
 Group (ERT WG)](/WAI/ER), which is part of the World Wide Web Consortium
-([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](/WAI/)).
+([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI]({% link index.md %})).
 For more information about the Working Group, see the [ERT WG home
 page](/WAI/ER/).
 

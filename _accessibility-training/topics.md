@@ -290,7 +290,7 @@ details[open] > summary > *:first-child::before {
 <h4>Additional resources</h4>
 <ul>
   <li><a href="http://www.w3.org/WAI/translation">Translating WAI Documents</a> - pointer to translation policy; list of existing translations; priority list of documents for translation</li>
-  <li><a href="http://www.w3.org{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing  organizational policies on Web accessibility</li>
+  <li><a href="{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing  organizational policies on Web accessibility</li>
 </ul>
 <h4>Handouts</h4>
 <ul>
@@ -466,7 +466,7 @@ details[open] > summary > *:first-child::before {
   <li>How user agents interface with assistive technologies</li>
   <li>Adaptive strategies used by people with disabilities in using user agents</li>
 </ul>
-<p><strong>Note:</strong> UAAG 2.0 is a mature draft and we expect that it will not change   significantly. We recommend that you use the UAAG 2.0 draft in most   cases,  understanding that it might change. (For more information on the   status of UAAG 2.0, see the <a href="http://www.w3.org{% link pages/standards/uaag.md %}#version" rel="nofollow">UAAG Versions section</a> of the UAAG Overview.)</p>
+<p><strong>Note:</strong> UAAG 2.0 is a mature draft and we expect that it will not change   significantly. We recommend that you use the UAAG 2.0 draft in most   cases,  understanding that it might change. (For more information on the   status of UAAG 2.0, see the <a href="{% link pages/standards/uaag.md %}#version" rel="nofollow">UAAG Versions section</a> of the UAAG Overview.)</p>
 <h3>Resources for developing a presentation</h3>
 <h4>Sample presentation</h4>
 <ul>
@@ -653,7 +653,7 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
   <li><a href="http://www.w3.org/WAI/Policy/">Policies Relating to Web Accessibility</a> - links to laws and policies regarding web accessibility around the world</li>
-  <li><a href="http://www.w3.org{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing organizational policies on web accessibility</li>
+  <li><a href="{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing organizational policies on web accessibility</li>
 </ul>
 <h4>Additional resources</h4>
 <ul>
@@ -869,7 +869,7 @@ details[open] > summary > *:first-child::before {
      the Internet and other information and communications technology (ICT)</li>
   <li>International <a href="http://www.w3.org/WAI/Policy/">Policies Relating to Web Accessibility</a> - links to laws and policies regarding Web accessibility around the world (not definitive)</li>
   <li><a href="http://www.w3.org/WAI/Policy/harmon">Why Standards Harmonization is Essential to Web Accessibility</a> - explains the key role that harmonization of standards plays in increasing the accessibility of the Web</li>
-  <li><a href="http://www.w3.org{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing organizational policies on Web accessibility</li>
+  <li><a href="{% link _planning-and-managing/implement.md %}">Developing Organizational Policies on Web Accessibility</a> - addresses considerations that can arise when developing organizational policies on Web accessibility</li>
 </ul>
 <h3>Suggestions for speakers</h3>
 <ul>

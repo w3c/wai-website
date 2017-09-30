@@ -95,11 +95,11 @@ Accessibility Initiative](http://www.w3.org/WAI/) (WAI) has developed:
     (WCAG)](http://www.w3.org/WAI/intro/wcag.php), which describe how to
     make Web content and Web sites accessible;
 -   [Authoring Tool Accessibility Guidelines
-    (ATAG)](http://www.w3.org/WAI/intro/atag.php), which describe how to
+    (ATAG)]({% link pages/standards/atag.md %}), which describe how to
     make Web authoring tools that produce content conforming to WCAG and
     that are accessible for people with disabilities;
 -   [User Agent Accessibility Guidelines
-    (UAAG)](http://www.w3.org/WAI/intro/uaag.php), which describe how to
+    (UAAG)]({% link pages/standards/uaag.md %}), which describe how to
     make browsers and media players accessible, and how to ensure their
     interoperability with assistive technologies.
 
@@ -358,4 +358,4 @@ For examples of how to reference a consistent set of international Web
 accessibility standards within diverse kinds of governmental and
 organizational laws and policies, in order to promote standards
 harmonization, see [Developing Organizational Policies for Web
-Accessibility](http://www.w3.org/WAI/impl/pol.html).
+Accessibility]({% link _planning-and-managing/implement.md %}).

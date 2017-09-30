@@ -301,7 +301,7 @@ Make Your Website Shine, Polished with Accessibility — video *(awaiting transc
     highlight how recent developments in [W3C
     WAI](http://www.w3.org/WAI/)'s [WCAG
     2.0](http://www.w3.org/WAI/intro/wcag20), [ATAG
-    2.0](http://www.w3.org/WAI/intro/atag.php), and
+    2.0]({% link pages/standards/atag.md %}), and
     [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) impact your Web
     projects now, and provide flexibility for the future. For example,
     scripting was once frowned upon for accessibility, and is now

@@ -265,10 +265,10 @@ accessibility standards**.
     situations.
 -   For authoring tools such as content management systems (CMS), blog
     software, and WYSIWYG editors, follow [Authoring Tool Accessibility
-    Guidelines (ATAG)](http://www.w3.org/WAI/intro/atag.php).
+    Guidelines (ATAG)]({% link pages/standards/atag.md %}).
 -   For browsers, media players, and other 'user agents', follow [User
     Agent Accessibility Guidelines
-    (UAAG)](http://www.w3.org/WAI/intro/uaag.php).
+    (UAAG)]({% link pages/standards/uaag.md %}).
 
 More Information and Guidance {#fmi}
 -------------------------------------

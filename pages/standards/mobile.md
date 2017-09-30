@@ -65,7 +65,7 @@ W3C WAI Addresses Mobile Accessibility {#covered}
     -   To learn how WCAG addresses similar issues as Mobile Web Best
         Practices and Mobile Web Application Best Practices, see [Shared
         Web Experiences](http://www.w3.org/WAI/mobile/experiences).
--   **[UAAG](http://www.w3.org/WAI/intro/uaag.php)** (User Agent
+-   **[UAAG]({% link pages/standards/uaag.md %})** (User Agent
     Accessibility Guidelines) covers web browsers and other 'user
     agents', including mobile browsers.
     -   For examples of how web browsers that follow UAAG benefit people
@@ -75,7 +75,7 @@ W3C WAI Addresses Mobile Accessibility {#covered}
     -   A rough draft of [Applying UAAG to Mobile
         Phones](http://www.w3.org/WAI/UA/work/wiki/Applying_UAAG_to_Mobile_Phones)
         is available.
--   **[ATAG](http://www.w3.org/WAI/intro/atag.php)** (Authoring Tool
+-   **[ATAG]({% link pages/standards/atag.md %})** (Authoring Tool
     Accessibility Guidelines) covers software used to create web pages
     and applications, including for mobile.
 -   **[WAI-ARIA](http://www.w3.org/WAI/intro/aria.php)** (Accessible

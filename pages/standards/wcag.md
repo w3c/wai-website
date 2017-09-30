@@ -144,7 +144,7 @@ Who develops WCAG {#wg}
 The WCAG technical documents are developed by the Accessibility
 Guidelines Working Group ([AG WG](/WAI/GL/)) *(formerly WCAG Working
 Group)*, which is part of the World Wide Web Consortium
-([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](/WAI/)).
+([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI]({% link index.md %})).
 
 WAI updates Techniques for WCAG 2.0 and Understanding WCAG 2.0
 periodically. We welcome

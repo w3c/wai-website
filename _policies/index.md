@@ -10,7 +10,7 @@ This page lists governmental policies related to web accessibility, although it 
 
 The information on this page is _not_ legal advice. If you have questions about the applicability of the policies to specific situations, please consult legal authorities for the appropriate jurisdiction.
 
-For guidance on developing an accessibility policy for an organization, see [Developing Organizational Policies on Web Accessibility](https://www.w3.org/WAI/impl/pol).
+For guidance on developing an accessibility policy for an organization, see [Developing Organizational Policies on Web Accessibility]({% link _planning-and-managing/implement.md %}).
 
 <details open>
  <summary><h3 id="xterms" style="display:inline-block;">Terms used on this page</h3></summary>

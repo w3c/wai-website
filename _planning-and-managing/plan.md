@@ -56,7 +56,7 @@ available and activities are prioritized.
 ### For more information
 
 -   [Developing Organizational Policies on Web
-    Accessibility](/WAI/impl/pol) – Provides information on what needs
+    Accessibility]({% link _planning-and-managing/implement.md %}) – Provides information on what needs
     to be considered when creating your policy.
 
 Assign responsibilities {#assign-responsibilities}
@@ -182,7 +182,7 @@ accessibility objectives much more effectively.
     which evaluation tools to use to help.
 -   [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) – List of
     vendor provided tools that help support accessibility evaluations.
--   [ATAG Overview](/WAI/intro/atag.php) – Provides information on
+-   [ATAG Overview]({% link pages/standards/wcag.md %}) – Provides information on
     Authoring Tools Accessibility Guidelines (ATAG), how it is
     structured, and how best to use it.
 
