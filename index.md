@@ -5,7 +5,7 @@ nopagefooter: true
 ---
 
 <section class="teaser featured grid-three-five" style="background-image: url({{ site.github.url }}/assets/images/teaser-image@1x.jpg); background-image: -webkit-image-set(url({{ site.github.url }}/assets/images/teaser-image@1x.jpg) 1x, url({{ site.github.url }}/assets/images/teaser-image@2x.jpg) 2x)">
-    <a class="teaser-c stealthy-link col1" href="{{ site.github.url }}/test-evaluate/easychecks/">
+    <a class="teaser-c stealthy-link col1" href="{{ site.github.url }}/tutorials/">
         <header class="teaser-h featured">
             <p class="subtitle">Featured Resource</p>
             <h2 class="title">
