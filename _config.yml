@@ -186,11 +186,4 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-#  - jekyll-relative-links
   - jekyll-redirect-from
-
-relative_links:
-  -  enabled:     true
-  -  collections: true
-
-incremental: true
