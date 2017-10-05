@@ -186,7 +186,7 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-relative-links
+#  - jekyll-relative-links
   - jekyll-redirect-from
 
 relative_links:
