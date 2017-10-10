@@ -76,36 +76,7 @@ permalink: /standards/mobile-accessibility/
     and time availability to the Task Force facilitators <a href="mailto:kathy@interactiveaccessibility.com,Kim@redstartsystems.com?cc=wai@w3.org,shadi@w3.org&amp;subject=Mobile%20Accessibility%20Task%20Force%20Enquiry">Kathy Wahlbin and Kim Patch</a>.</p>
   <h2><a shape="rect" id="updates" name="updates"></a>Get Updates</h2>
   <p>If you would like to get notification of future work on mobile accessibility at W3C WAI, see <a shape="rect" href="http://www.w3.org/WAI/about/announcements">Getting WAI Announcements</a>.</p>
-  <!--  <h2><a shape="rect" id="overlap" name="overlap"></a>Mobile and
-    Accessibility Overlap</h2>
-  <p class="listintro">Most of this page addresses people with disabilities
-    using mobile devices. We also have related resources that address
-    situations such as: a web development project wants to make their
-    websites and web applications work better for <i>all mobile users
-    (including those without disabilities)</i> <strong>and also</strong> work better for <i>users with disabilities using &quot;traditional&quot;
-    computers</i>.</p>
-  <ul class="listafterpul">
-    <li><a shape="rect" href="http://www.w3.org/WAI/mobile/overlap.html"><strong>Web
-      Content Accessibility and Mobile Web</strong>: Making a Web Site
-      Accessible Both for People with Disabilities and for Mobile Devices</a> introduces the significant overlap between making a website accessible
-      for a mobile device and for people with disabilities. Provides a brief
-      overview that is <em>useful for the <a shape="rect" href="http://www.w3.org/WAI/bcase/">business
-      case</a></em>.</li>
-    <li><a shape="rect" href="http://www.w3.org/WAI/mobile/experiences"><strong>Shared
-      Web Experiences: Barriers Common to Mobile Device Users and People
-      with Disabilities</strong></a> provides examples of barriers that
-      people with disabilities and people using mobile devices experience
-      when interacting with web content. It is organized by the principles
-      perceivable, operable, understandable, and robust, and includes links
-      to the relevant sections of MWBP (Mobile Web Best Practices) and WCAG
-      (Web Content Accessibility Guidelines).</li>
-    <li><a shape="rect" href="http://www.w3.org/TR/mwbp-wcag/">Relationship
-      between Mobile Web Best Practices (MWBP) and Web Content
-      Accessibility Guidelines (WCAG)</a> provides guidance for people who
-      are familiar with MWBP and want to know how it relates to WCAG, or are
-      familiar with WCAG and want to know how it relates to MWBP.</li>
-  </ul>
-  -->
+  <!--  figure out how to link to old overlap documents wihtout causing confusion  -->
   <h2><a shape="rect" id="about" name="about"></a>About W3C and WAI</h2>
   <p>The World Wide Web Consortium (W3C) is an international consortium where Member organizations, a full-time staff, and the public work
     together to develop Web standards. W3C primarily pursues its mission through the creation of Web standards and guidelines designed to ensure
