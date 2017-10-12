@@ -6,7 +6,7 @@ people:
   editorslabel: "Editor"
   editors:
     - name: Kevin White
-      url: https://www.w3.org/People/shadi
+      url: https://www.w3.org/People/Kevin
     - name: Shadi Abou-Zahra
       url: https://www.w3.org/People/shadi
     - name: Shawn Lawton Henry
