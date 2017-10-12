@@ -1,7 +1,7 @@
 ---
 title: Complete “Table with an offset column of header cells” Example
 source: ../irregular.html#table-with-an-offset-column-of-header-cells
-layout: fullcode
+layout: default
 ---
 
 ~~~ html

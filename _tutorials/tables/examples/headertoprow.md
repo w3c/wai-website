@@ -1,7 +1,7 @@
 ---
 title: Complete “Table with header cells in the top row only” Example
 source: ../simple.html#table-with-header-cells-in-the-top-row-only
-layout: fullcode
+layout: default
 ---
 
 ~~~ html

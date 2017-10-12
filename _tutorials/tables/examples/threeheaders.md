@@ -1,7 +1,7 @@
 ---
 title: Complete “Table with three headers related to each data cell” Example
 source: ../multi-level.html#table-with-three-headers-related-to-each-data-cell
-layout: fullcode
+layout: default
 ---
 
 ~~~ html

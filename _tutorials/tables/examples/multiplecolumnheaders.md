@@ -1,7 +1,7 @@
 ---
 title: Complete “Table with multiple column headers in each column” Example
 source: ../multi-level.html#table-with-multiple-column-headers-in-each-column
-layout: fullcode
+layout: default
 ---
 
 ~~~ html
