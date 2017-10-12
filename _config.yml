@@ -55,7 +55,7 @@ collections:
     permalink: /:collection/:path/
   planning-and-managing:
     area: "Plan and Manage"
-    name: "Planning and Managing Web Accessibility"
+    name: "Planning and Managing"
     icon: "book" # TODO
     repostitory: w3c/wai-dynamic-planning
     output: true
