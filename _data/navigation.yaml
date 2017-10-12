@@ -16,12 +16,10 @@
           url: "/people-use-web/abilities-barriers/"
         - name: Tools and Techniques
           url: "/people-use-web/tools-techniques/"
-    - name: Standards Harmonization is Essential
-      url: "/fundamentals/standards-harmonization/"
     - name: Accessibility, Usability, Inclusion
       url: "/fundamentals/accessibility-usability-inclusion/"
 
-- name: Plan & Manage
+- name: Planning & Policies
   url: "#"
   pages:
     - name: Approaches for Interim Repairs
@@ -45,7 +43,7 @@
       url: "/plan/involving-users/"
     - name: Tips for Procuring
       url: "/tips/procuring/"
-    - name: Accessibility Laws & Policies
+    - name: International Laws & Policies
       url: "/policies/"
 
 - name: Design & Develop
@@ -57,7 +55,7 @@
       url: "/tips/designing/"
     - name: Tips for Developing
       url: "/tips/developing/"
-    - name: Accessible Audio and Video
+    - name: Make Audio and Video Accessible
       url: "/media-intro/"
     - name: Mobile Accessibility Intro
       url: "/design-develop/mobile-accessibility-intro/"
@@ -140,6 +138,8 @@
       url: "/standards/uaag/"
     - name: Evaluation & Report - EARL
       url: "/standards/earl/"
+    - name: Standards Harmonization is Essential
+      url: "/fundamentals/standards-harmonization/"
     - name: Mobile Accessibility at W3C
       url: "/standards/mobile-accessibility/"
     - name: Referencing and Linking to Standards
