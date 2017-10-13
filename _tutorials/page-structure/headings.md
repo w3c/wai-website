@@ -55,11 +55,7 @@ In the following example, headings are used to only organize passages of text on
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example" class="example" %}
-{:/}
-
-<%= image_tag 'page-structure-headings-intro.png', srcset: image_path('page-structure-headings-intro.png') + ', ' + image_path('page-structure-headings-intro@2x.png') + ' 2x, ' + image_path('page-structure-headings-intro@3x.png') + ' 3x', :alt => 'One example (h1) heading (Space Teddy) with three h2 headings inside the content (Cotton Fur, Sapphire Eyes, Synthetic Felt Paws).', :class => "" %>
-
-{::nomarkdown}
+{% include img.html src="page-structure-headings-intro.png" srcset="page-structure-headings-intro.png, page-structure-headings-intro@2x.png 2x, page-structure-headings-intro@3x.png 3x" alt="One example (h1) heading (Space Teddy) with three h2 headings inside the content (Cotton Fur, Sapphire Eyes, Synthetic Felt Paws)." %}
 {% include_cached box.html type="end" %}
 {:/}
 
@@ -78,11 +74,7 @@ In this first example, the heading with the rank 1 is the first heading in the d
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example" class="example" %}
-{:/}
-
-<%= image_tag 'page-structure-headings.png', srcset: image_path('page-structure-headings.png') + ', ' + image_path('page-structure-headings@2x.png') + ' 2x, ' + image_path('page-structure-headings@3x.png') + ' 3x', :alt => 'One h1 heading with several h2s and h3 creating subsections. One subsection’s heading is ”(h3) Sapphire Eyes” which has a subsection “(h4) How they are made”. The next heading is an h2, indicating that the (h4) and (h3) subsections are both closed now.', :class => "" %>
-
-{::nomarkdown}
+{% include img.html src="page-structure-headings.png" srcset="page-structure-headings.png, page-structure-headings@2x.png 2x, page-structure-headings@3x.png 3x" alt="One h1 heading with several h2s and h3 creating subsections. One subsection’s heading is ”(h3) Sapphire Eyes” which has a subsection “(h4) How they are made”. The next heading is an h2, indicating that the (h4) and (h3) subsections are both closed now." %}
 {% include_cached box.html type="end" %}
 {:/}
 
@@ -105,7 +97,7 @@ In this second example, the main heading is not the site name but the content he
 {% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
-<%= image_tag 'page-structure-headings-2.png', srcset: image_path('page-structure-headings-2.png') + ', ' + image_path('page-structure-headings-2@2x.png') + ' 2x, ' + image_path('page-structure-headings-2@3x.png') + ' 3x', :alt => 'The page starts with an (h2) Navigation Menu, followed by an (h2) Sidebar and an (h1) Space Teddy. The following headings are all (h2) subsections, including the footer which – ', :class => "" %>
+{% include img.html src="page-structure-headings-2.png" srcset="page-structure-headings-2.png, page-structure-headings-2@2x.png 2x, page-structure-headings-2@3x.png 3x" alt="The page starts with an (h2) Navigation Menu, followed by an (h2) Sidebar and an (h1) Space Teddy. The following headings are all (h2) subsections, including the footer which has (h3) subsections" %}
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
