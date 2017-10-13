@@ -52,9 +52,9 @@ details[open] > summary > *:first-child::before {
 </ol>
 <p><em><strong>Note:</strong> See also</em> <a href="http://www.w3.org/WAI/training/accessible">How to Make Your Presentations Accessible to All</a> for guidance on making your presentations and training accessible to people with disabilities and others in your audience.</p>
 
-{% include excol.html type="start" id="intro" %}
+{% include_cached excol.html type="start" id="intro" %}
 <h2>1. Introducing web accessibility (20 minutes, for any audience)</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Example scenario:</strong> general overview of web accessibility, as one of  several short presentations from a panel of speakers.</p>
 <p><strong>Notes:</strong></p>
 <ul>
@@ -101,10 +101,10 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="bcase" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="bcase" %}
 <h2>2. Web accessibility business case (10 minutes, for senior management)</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Example scenario:</strong> short presentation during a senior management meeting to introduce the business case for web accessibility.</p>
 <p><strong>Notes:</strong></p>
 <ul>
@@ -151,10 +151,10 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="users" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="users" %}
 <h2>3. Using an accessible web (1 hour, for people with accessibility needs)</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Example scenario:</strong> presentation for non-technical
   people (such as users, trainers, or accessibility advocates) about web
   accessibility and accessibility features of computers, browsers, and
@@ -211,10 +211,10 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="design" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="design" %}
 <h2>4. Accessible web design (2 hour lecture, for web design students)</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Example scenario:</strong> lecture/presentation on web accessibility as part of a full semester's introductory course on general web design.</p>
 <p><strong>Notes:</strong></p>
 <ul>
@@ -300,4 +300,4 @@ details[open] > summary > *:first-child::before {
 <ul>
   <li>Ask students to fix some web pages (possibly from the <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration</a>), using <a href="http://www.w3.org/WAI/WCAG20/quickref/">How to Meet WCAG 2.0</a>, and describe the barriers addressed and solutions applied. </li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}

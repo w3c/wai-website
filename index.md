@@ -9,7 +9,7 @@ nopagefooter: true
         <header class="teaser-h featured">
             <p class="subtitle">Featured Resource</p>
             <h2 class="title">
-              {% include icon.html name="development" class="teaser-h-icon" %}
+              {% include_cached icon.html name="development" class="teaser-h-icon" %}
               Web Accessibility Tutorials
             </h2>
         </header>
@@ -32,12 +32,12 @@ nopagefooter: true
     <a href="{{site.github.url}}/tips/designing/#provide-sufficient-contrast-between-foreground-and-background" class="col2 stealthy-link teaser-tip">
         <header class="teaser-h">
             <h2>
-              {% include icon.html name="lightbulb" class="tips" %}
+              {% include_cached icon.html name="lightbulb" class="tips" %}
               <span>Tip of the Week</span>
             </h2>
         </header>
-        <p class="fakelink">Provide sufficient contrast between foreground and background{% include icon.html name="chevron-right" %}</p>
-        <!-- <span class="fakelink">More Design Tips{% include icon.html name="chevron-right" %}</span> -->
+        <p class="fakelink">Provide sufficient contrast between foreground and background{% include_cached icon.html name="chevron-right" %}</p>
+        <!-- <span class="fakelink">More Design Tips{% include_cached icon.html name="chevron-right" %}</span> -->
     </a>
 </section>
 
@@ -73,46 +73,46 @@ nopagefooter: true
     <a href="{{site.github.url}}/plan/interim-repairs/" class="q1-start q1-end stealthy-link area-teaser">
         <header class="teaser-h">
             <h3 class="title">
-                {% include icon.html name="loupe" class="teaser-h-icon full" %}
+                {% include_cached icon.html name="loupe" class="teaser-h-icon full" %}
                 <span class="subtitle">Help Getting Started</span><br>
                 First Aid: Approaches for Interim Repairs
             </h3>
         </header>
         <p>If you need to urgently address accessibility in an existing web project, see Web Accessibility First Aid: Approaches for Interim Repairs.</p>
-        <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
+        <!-- <span class="fakelink">Learn more{% include_cached icon.html name="chevron-right" %}</span> -->
     </a>
     <a href="{{site.github.url}}/fundamentals/accessibility-principles/" class="q2-start q2-end stealthy-link area-teaser">
         <header class="teaser-h">
             <h3 class="title">
-                {% include icon.html name="design" class="teaser-h-icon full" %}
+                {% include_cached icon.html name="design" class="teaser-h-icon full" %}
                 <span class="subtitle">Learn the Basics</span><br>
                 Web Accessibility Principles
             </h3>
         </header>
         <p>For an introduction to requirements for websites, web applications, browsers, and other tools, see Web Accessibility Principles.</p>
-        <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
+        <!-- <span class="fakelink">Learn more{% include_cached icon.html name="chevron-right" %}</span> -->
     </a>
     <a href="https://www.w3.org/WAI/WCAG20/quickref/" class="q3-start q3-end stealthy-link area-teaser">
         <header class="teaser-h">
             <h3 class="title">
-                {% include icon.html name="checkmark" class="teaser-h-icon full" %}
+                {% include_cached icon.html name="checkmark" class="teaser-h-icon full" %}
                 <span class="subtitle">WCAG Checklist</span><br>
                 How to Meet WCAG 2.0
             </h3>
         </header>
         <p>For a customizable checklist of Web Content Accessibility Guidelines requirements (success criteria), see How to Meet WCAG 2.0.</p>
-        <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
+        <!-- <span class="fakelink">Learn more{% include_cached icon.html name="chevron-right" %}</span> -->
     </a>
     <a href="{{site.github.url}}/standards/wcag/21/" class="q4-start q4-end stealthy-link area-teaser">
         <header class="teaser-h">
             <h3 class="title">
-                {% include icon.html name="development" class="teaser-h-icon full" %}
+                {% include_cached icon.html name="development" class="teaser-h-icon full" %}
                 <span class="subtitle">WCAG 2.1 Update</span><br>
                 What About WCAG 2.1?
             </h3>
         </header>
         <p>To learn more about the status of the WCAG 2.1 Working Draft and plans for completing it in 2018, see What about WCAG 2.1?</p>
-        <!-- <span class="fakelink">Learn more{% include icon.html name="chevron-right" %}</span> -->
+        <!-- <span class="fakelink">Learn more{% include_cached icon.html name="chevron-right" %}</span> -->
     </a>
 </div>
 

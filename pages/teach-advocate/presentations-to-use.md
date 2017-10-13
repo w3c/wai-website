@@ -5,14 +5,14 @@ permalink: /teach-advocate/presentations-to-use/
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 Presentation Material Designed for Others to Use {#others}

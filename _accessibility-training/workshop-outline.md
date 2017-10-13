@@ -40,9 +40,9 @@ details[open] > summary > *:first-child::before {
 }
 </style>
 
-{% include excol.html type="start" id="overview" open="true" %}
+{% include_cached excol.html type="start" id="overview" open="true" %}
 <h2>Overview</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Scenario:</strong> A three-day hands-on workshop to inform
   participants about web accessibility and to teach developers how to
   implement accessibility requirements.</p>
@@ -75,10 +75,10 @@ details[open] > summary > *:first-child::before {
   <li>Apply WCAG 2.0 techniques to develop accessible layouts, forms, tables, and other content</li>
   <li>Evaluate websites for conformance with WCAG 2.0 and communicate the results</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="schedule" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="schedule" %}
 <h2>Schedule</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <h3>Day 1 schedule</h3>
 <ol style="list-style:none">
   <li><strong>09:00 - 10:30 <a href="#d1s1">Session 1 - Introduction to web accessibility</a></strong></li>
@@ -112,10 +112,10 @@ details[open] > summary > *:first-child::before {
   <li><strong>15:30 - 16:00 <a href="#d3s4">Session 4 - Principles of conformance evaluation</a></strong></li>
   <li><strong>16:00 - 17:00 <a href="#d3s5">Session 5 - Workshop review and lessons learned</a></strong></li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="sessions" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="sessions" %}
 <h2>Session Descriptions</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <h3><a name="d1s1" id="d1s1">Day 1 - Session 1: Introduction to web accessibility</a></h3>
 <p><strong>Target audience:</strong> Managers and decision makers, web
   content authors and visual designers, website developers and
@@ -677,10 +677,10 @@ details[open] > summary > *:first-child::before {
      learned. Discuss some of the impressions from the participants to share
      lessons learned.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="notes" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="notes" %}
 <h2>Important Notes</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p>This example workshop is not a complete set of training material.
   Trainers will need to adapt the material to suit their audience. For
   example, for an in-house workshop, trainers should focus on the issues
@@ -711,4 +711,4 @@ details[open] > summary > *:first-child::before {
   <li class="listspaced">Introduce appropriate evaluation techniques and tools for each issue as it is covered.</li>
   <li class="listspaced">Carry out activities and exercises to reinforce the learning effect.</li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}

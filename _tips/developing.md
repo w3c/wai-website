@@ -8,14 +8,14 @@ This page introduces some basic considerations to help you get started developin
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 
@@ -25,7 +25,7 @@ This page introduces some basic considerations to help you get started developin
 Use a `for` attribute on the `<label>` element linked to the `id` attribute of the form element, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide `<label>` elements visually, but in most cases labels are needed to help all readers understand the required input.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Using <code>for</code> and <code>id</code> attributes" class="example" %}
+{% include_cached box.html type="start" title="Example: Using <code>for</code> and <code>id</code> attributes" class="example" %}
 {:/}
 
 <div class="form-labels html-example">
@@ -38,11 +38,11 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -51,7 +51,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
   * [Labelling Controls](/WAI/tutorials/forms/labels/)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Include alternative text for images
@@ -59,7 +59,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 Ensure that alternative text for images is added to all informational and functional images. Use empty alternative text, `alt=""` for decorative images, or include them in the CSS instead. Text alternatives are usually provided by those responsible for written content.
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -70,7 +70,7 @@ Ensure that alternative text for images is added to all informational and functi
   * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Identify page language and language changes
@@ -78,7 +78,7 @@ Ensure that alternative text for images is added to all informational and functi
 Indicate the primary language of every page by using the `lang` attribute in the `html` tag, for example `<html lang="en">`. Use the `lang` attribute on specific elements when the language of the element differs from the rest of the page.
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -88,7 +88,7 @@ Indicate the primary language of every page by using the `lang` attribute in the
   * [Declaring language in HTML](/International/questions/qa-html-language-declarations)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Use mark-up to convey meaning and structure
@@ -96,7 +96,7 @@ Indicate the primary language of every page by using the `lang` attribute in the
 Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role="search"` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Using HTML to provide structure and meaning" class="example" %}
+{% include_cached box.html type="start" title="Example: Using HTML to provide structure and meaning" class="example" %}
 {:/}
 
 <div class="mark-up html-example">
@@ -120,12 +120,12 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   </div>
 </div>
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Search field using <abbr>WAI-ARIA</abbr>" class="example" %}
+{% include_cached box.html type="start" title="Example: Search field using <abbr>WAI-ARIA</abbr>" class="example" %}
 {:/}
 <div class="mark-up html-example">
   <div>
@@ -143,11 +143,11 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -159,7 +159,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   * [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Help users avoid and correct mistakes
@@ -173,7 +173,7 @@ Provide clear instructions, error messages, and notifications to help users comp
 Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Australian phone number field with forgiving validation" class="example" %}
+{% include_cached box.html type="start" title="Example: Australian phone number field with forgiving validation" class="example" %}
 {:/}
 
 <div class="avoid-mistakes html-example">
@@ -187,11 +187,11 @@ Be as forgiving of format as possible when processing user input. For example, a
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -202,7 +202,7 @@ Be as forgiving of format as possible when processing user input. For example, a
   * [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Reflect the reading order in the code order
@@ -210,19 +210,19 @@ Be as forgiving of format as possible when processing user input. For example, a
 Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove CSS styling and review that the order of the content makes sense.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Reflecting the logical reading order in the code" class="example" %}
+{% include_cached box.html type="start" title="Example: Reflecting the logical reading order in the code" class="example" %}
 {:/}
 
 <div class="order">
   <article class="product">
     <h3 class="name">Space trainers</h3>
-    {% include img.html src="trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" %}
+    {% include_cached img.html src="trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" %}
     <p class="desc">Space trainer for a classic and stylish look.</p>
     <p class="buy"><a href="javascript:return false"><%= svg_icon 'cart-plus' %> Add to cart</a></p>
   </article>
   <div class="two-column">
     <figure>
-      <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} Image before heading may be missed</figcaption>
+      <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Image before heading may be missed</figcaption>
       <div class="fail code">
         <% code('html') do %>
 <img src="images/trainer.png" alt="...">
@@ -248,7 +248,7 @@ Ensure that the order of elements in the code matches the logical order of the i
     </figure>
 
     <figure>
-      <figcaption>{% include icon.html name="check-circle" label="OK" %} Heading marks the start of the section</figcaption>
+      <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Heading marks the start of the section</figcaption>
       <div class="pass code">
         <% code('html') do %>
 <h3>Space trainers</h3>
@@ -276,18 +276,18 @@ Ensure that the order of elements in the code matches the logical order of the i
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
   * [Meaningful Sequence 1.3.2](/WAI/WCAG20/quickref/#qr-content-structure-separation-sequence) ([Understanding 1.3.2](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html))
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Write code that adapts to the user's technology
@@ -295,7 +295,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. When font size is increased by at least 200%, avoid horizontal scrolling and prevent any clipping of content. Use progressive enhancement to help ensure that core functionality and content is available regardless of technology being used.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Using media queries to adapt navigation" class="example" %}
+{% include_cached box.html type="start" title="Example: Using media queries to adapt navigation" class="example" %}
 {:/}
 
 <div class="adapt-code">
@@ -332,11 +332,11 @@ Use responsive design to adapt the display to different zoom states and viewport
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -348,7 +348,7 @@ Use responsive design to adapt the display to different zoom states and viewport
   * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Provide meaning for non-standard interactive elements
@@ -356,7 +356,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role="navigation"` and `aria-expanded="true"`. Additional code is required to implement the behavior of such widgets, such as expanding and collapsing content or how the widget responds to keyboard events.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Menu function and state identified using WAI-ARIA" class="example" %}
+{% include_cached box.html type="start" title="Example: Menu function and state identified using WAI-ARIA" class="example" %}
 {:/}
 
 <div class="non-standard">
@@ -383,11 +383,11 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
   </figure>
 </div>
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -396,7 +396,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
   * [Notes on Using ARIA in HTML](/TR/aria-in-html/)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Ensure that all interactive elements are keyboard accessible
@@ -404,7 +404,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex="0"` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Keyboard accessible menu button" class="example" %}
+{% include_cached box.html type="start" title="Example: Keyboard accessible menu button" class="example" %}
 {:/}
 
 <div class="keyboard-accessible html-example">
@@ -447,11 +447,11 @@ buttonExample.addEventListener('click', function(e) {
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -460,7 +460,7 @@ buttonExample.addEventListener('click', function(e) {
   * [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Avoid CAPTCHA where possible
@@ -472,7 +472,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 * Not requiring CAPTCHAs for authorized users.
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -481,7 +481,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
   * [Inaccessibility of CAPTCHA](/TR/turingtest/)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Learn more about accessibility

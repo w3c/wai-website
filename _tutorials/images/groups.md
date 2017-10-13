@@ -22,14 +22,14 @@ Sometimes groups of images are used together to represent one piece of informati
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 In other cases, a group of images may represent a collection of related images. For example, showing a collection of art impressions that are thematically related. In this case, each image needs its text alternative that describes it individually, as well as its relationship within the group.
@@ -40,17 +40,17 @@ In other cases, a group of images may represent a collection of related images. 
 This group of five images combined shows a product rating. There are five images (three filled stars, one half-filled star and one empty star) indicating the overall rating. The text alternative for the first image is “Rating: 3.5 out of 5 stars”. All other images have a null (empty) `alt` attribute (`alt=""`).
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 Rating: ![3.5 out of 5 stars](../../img/star-full.png)![](../../img/star-full.png)![](../../img/star-full.png)![](../../img/star-half.png)![](../../img/star-empty.png)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -63,7 +63,7 @@ Rating:
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## A collection of images
@@ -74,7 +74,7 @@ In the example below, the HTML5 `<figure>` and `<figcaption>` elements are used 
 Note: The web browser and assistive technology support vary for this particular WAI-ARIA attribute and value.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <figure role="group" aria-labelledby="fig1">
@@ -98,11 +98,11 @@ alt="The castle lies in ruins, the original tower all that remains in one piece.
 </figure>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -134,5 +134,5 @@ alt="The castle lies in ruins, the original tower all that remains in one piece.
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

@@ -75,7 +75,7 @@ to set the value of the `kind` attribute to `"subtitles"` and to specify
 the language in the `label` attribute:
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -86,7 +86,7 @@ the language in the `label` attribute:
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 In some cases, it may be necessary to use captions and subtitles

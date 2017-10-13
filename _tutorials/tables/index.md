@@ -42,13 +42,13 @@ Some document formats other than HTML, such as PDF, provide similar mechanisms t
 Many web authoring tools and content management systems (CMS) provide functions to define header cells during table creation without having to edit the code manually.
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Notes:** This tutorial provides guidance for creating tables used to display data in a grid. This tutorial does not apply to tables used for layout. As a general rule, tables aren't meant to be used for layout purposes. Instead, a best practice is to use Cascading Style Sheets (CSS) for visual presentation.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Why is this important?

@@ -21,14 +21,14 @@ Functional images are used to initiate actions rather than to convey information
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 Missing or empty `alt` values create significant problems for screen reader users because functional images are essential to the functionality of the content. Screen readers will typically announce the image file name, the image URL, or the URL for the link destination, which is unlikely to help users understand the action that will be initiated by the image.
@@ -39,7 +39,7 @@ Missing or empty `alt` values create significant problems for screen reader user
 The following image is the only content of a link that leads to the W3C home page. It has the text alternative “W3C home” to indicate where the link will take the user. The next example, [“Logo image within link text” example](#logo-image-within-link-text), discusses what to do when there is more text in the link to identify the destination:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <a href="https://www.w3.org/" style="display:inline-block;">
@@ -47,11 +47,11 @@ The following image is the only content of a link that leads to the W3C home pag
 </a>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -61,11 +61,11 @@ The following image is the only content of a link that leads to the W3C home pag
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note 1:** In this situation, the logo is also an image of the text “W3C”, but in this case, its primary function is to link to the homepage, so the word “home” was added to the text alternative.
@@ -73,7 +73,7 @@ The following image is the only content of a link that leads to the W3C home pag
 **Note 2:** Images used as logos are exempt from some of the accessibility requirements that apply to other images of text, for instance, there are no minimum color contrast and text size requirements.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Logo image within link text
@@ -82,17 +82,17 @@ The following image is the only content of a link that leads to the W3C home pag
 In this example, the W3C logo is used to supplement text within a link that leads to the W3C home page. The image does not represent different functionality or convey other information than that already provided in the link text, so a null (empty) value is applied, (`alt=""`), to avoid redundancy and repetition. In effect the image is a decorative adjunct or visual cue to the link text:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 [![](../../img/w3c.png){:style="vertical-align: middle; margin-right: 1em;"}W3C Home](https://www.w3.org/){:style="display:inline-block;"}
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -102,7 +102,7 @@ In this example, the W3C logo is used to supplement text within a link that lead
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Icon image conveying information within link text
@@ -111,17 +111,17 @@ In this example, the W3C logo is used to supplement text within a link that lead
 In this example, the image follows text within a link to inform users that the link will open in a new window. It has the text alternative “new window” to convey the meaning of the icon:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 [W3C Home page ![new window](../../img/new-window.png)](https://www.w3.org/)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -131,17 +131,17 @@ In this example, the image follows text within a link to inform users that the l
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** This technique is often used with icons to indicate different file formats such as AVI, ODF, MP3, PDF, Word, and many more. In this case, the text alternative should equally convey the format represented by each icon, see [Informative Images]({% link _tutorials/images/informative.md %}#images-conveying-file-format).
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Stand-alone icon image that has a function
@@ -150,17 +150,17 @@ In this example, the image follows text within a link to inform users that the l
 The following image is an icon representing a printer to denote print functionality. It has the text alternative “Print this page” because its purpose is to activate the print dialog when it is selected:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 [![Print this page](../../img/print.png)](javascript:print())
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -170,7 +170,7 @@ The following image is an icon representing a printer to denote print functional
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Image used in a button
@@ -179,7 +179,7 @@ The following image is an icon representing a printer to denote print functional
 The following image is used to give the button a distinct style. In this case, it is the button to initiate a search request and is an icon representing a magnifying lens. The text alternative for the image is “search” to convey the purpose of the button:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form action="#" method="post">
@@ -191,11 +191,11 @@ The following image is used to give the button a distinct style. In this case, i
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -203,5 +203,5 @@ The following image is used to give the button a distinct style. In this case, i
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

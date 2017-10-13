@@ -25,14 +25,14 @@ and do not address every kind of disability.
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 
@@ -45,11 +45,11 @@ Lee has better experiences with online content and apps that use adequate contra
 
 For more information on implementing techniques that remove barriers for Lee, see the following resources:
 
-{% include excol.html type="start" id="lee-sections" %}
+{% include_cached excol.html type="start" id="lee-sections" %}
 
 ### Sections related to Lee
 
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 **Diversity of web users:**
 
@@ -68,7 +68,7 @@ For more information on implementing techniques that remove barriers for Lee, se
 -   [Content is compatible with current and future user tools
     (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 Jonah, reporter with repetitive stress injury {#reporter}
 --------------------------------------------------------------
@@ -86,11 +86,11 @@ Jonah encounters problems when websites and other online content cannot be navig
 
 For more information on implementing techniques that remove barriers for Jonah, see the following resources:
 
-{% include excol.html type="start" id="jonah-sections" %}
+{% include_cached excol.html type="start" id="jonah-sections" %}
 
 ### Sections related to Jonah
 
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 **Diversity of web users:**
 
@@ -125,7 +125,7 @@ For more information on implementing techniques that remove barriers for Jonah, 
 -   [Content is compatible with current and future user tools
     (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 Martine, online student who is hard of hearing {#onlinestudent}
 ---------------------------------------------------------------------
@@ -136,11 +136,11 @@ The university she attends provides sign language interpreters and CART writers 
 
 For more information on implementing techniques that remove barriers for Martine, see the following resources:
 
-{% include excol.html type="start" id="martine-sections" %}
+{% include_cached excol.html type="start" id="martine-sections" %}
 
 ### Sections related to Martine
 
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 **Diversity of web users:**
 
@@ -163,7 +163,7 @@ For more information on implementing techniques that remove barriers for Martine
 -   [Content is readable and understandable
     (Understandable)]({% link pages/fundamentals/accessibility-principles.md %}#readable)
 
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 Leena, senior staff member who is blind
 ---------------------------------------
@@ -179,11 +179,11 @@ As a senior member of her organization, Leena provides training to employees in 
 
 For more information on implementing techniques that remove barriers for Leena, see the following resources:
 
-{% include excol.html type="start" id="leena-sections" %}
+{% include_cached excol.html type="start" id="leena-sections" %}
 
 ### Sections related to Leena
 
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 **Diversity of web users:**
 
@@ -223,7 +223,7 @@ For more information on implementing techniques that remove barriers for Leena, 
 -   [Content is compatible with current and future user tools
     (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 Katie, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia {#classroomstudent}
 -----------------------------------------------------------------------------------------------------------
@@ -236,11 +236,11 @@ Katie’s school is also using a new online library catalog with improved access
 
 For more information on implementing techniques that remove barriers for Katie, see the following resources:
 
-{% include excol.html type="start" id="katie-sections" %}
+{% include_cached excol.html type="start" id="katie-sections" %}
 
 ### Sections related to Katie
 
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 **Diversity of web users:**
 
@@ -282,7 +282,7 @@ For more information on implementing techniques that remove barriers for Katie, 
 -   [Content is compatible with current and future user tools
     (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 Yun, retiree with low vision, hand tremor, and mild short-term memory loss {#retiree}
 --------------------------------------------------------------------------------------------
@@ -295,11 +295,11 @@ Yun’s daughter gave him a special mouse that is easier to control with his han
 
 For more information on implementing techniques that remove barriers for Yun, see the following resources:
 
-{% include excol.html type="start" id="yun-sections" %}
+{% include_cached excol.html type="start" id="yun-sections" %}
 
 ### Sections related to Yun
 
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 **Diversity of web users:**
 
@@ -342,7 +342,7 @@ For more information on implementing techniques that remove barriers for Yun, se
 -   [Content is compatible with current and future user tools
     (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 Stephen, supermarket assistant with Down syndrome {#supermarketassistant}
 ----------------------------------------------------------------------------
@@ -359,11 +359,11 @@ Stephen now uses the shopping app a couple of times a month for frequently purch
 
 For more information on implementing techniques that remove barriers for Stephen, see the following resources:
 
-{% include excol.html type="start" id="stephen-sections" %}
+{% include_cached excol.html type="start" id="stephen-sections" %}
 
 ### Sections related to Stephen
 
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 **Diversity of web users:**
 
@@ -403,7 +403,7 @@ For more information on implementing techniques that remove barriers for Stephen
 -   [Content is compatible with current and future user tools
     (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 Kaseem, teenager who is deaf and blind {#teenager}
 -----------------------------------------------------
@@ -419,11 +419,11 @@ Kaseem’s portable electronic Braille notetaker includes a calendar, e-mail, we
 
 For more information on implementing techniques that remove barriers for Kaseem, see the following resources:
 
-{% include excol.html type="start" id="kaseem-sections" %}
+{% include_cached excol.html type="start" id="kaseem-sections" %}
 
 ### Sections related to Kaseem
 
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 **Diversity of web users:**
 
@@ -466,7 +466,7 @@ For more information on implementing techniques that remove barriers for Kaseem,
 -   [Content is compatible with current and future user tools
     (Robust)]({% link pages/fundamentals/accessibility-principles.md %}#compatible)
 
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 <style>
 details {

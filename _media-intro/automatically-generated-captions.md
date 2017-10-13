@@ -42,7 +42,7 @@ using auto-captions as part of the caption-production process, using
 YouTube's auto-caption service as an example.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 1.  [Upload a video to
@@ -59,7 +59,7 @@ YouTube's auto-caption service as an example.
     YouTube](https://support.google.com/youtube/answer/2734796?hl=en).
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 Once an accurate caption track has been uploaded, [disable the automatic-caption track](https://support.google.com/youtube/answer/2734701).

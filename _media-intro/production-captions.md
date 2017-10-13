@@ -62,7 +62,7 @@ a variety of do-it-yourself tools available for creating captions for pre-produc
 ### Basic workflow for creating pre-produced captions:
 
 {::nomarkdown}
-{% include box.html type="start" title="Basic Workflow" class="example" %}
+{% include_cached box.html type="start" title="Basic Workflow" class="example" %}
 {:/}
 
 1.  **Enter caption text into the editor**<br>
@@ -84,7 +84,7 @@ a variety of do-it-yourself tools available for creating captions for pre-produc
     examples](formats.html) for more information.
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 
@@ -136,7 +136,7 @@ row of text is bold.](text_bold.png)
 And here is the WebVTT markup for that caption…
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -147,13 +147,13 @@ The genome is a storybook that's been edited
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 …and the TTML markup for the same caption:
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -163,7 +163,7 @@ The genome is a storybook that's been edited<br />
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Automatically generated captions

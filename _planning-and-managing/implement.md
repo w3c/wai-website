@@ -25,14 +25,14 @@ and develop a sense of accomplishment.
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 

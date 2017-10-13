@@ -14,7 +14,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <ul role="menubar" aria-label="functions" id="appmenu">
@@ -287,11 +287,11 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 </script>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -334,11 +334,11 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: CSS" class="example" %}
+{% include_cached box.html type="start" title="Code: CSS" class="example" %}
 {:/}
 
 ~~~ css
@@ -397,11 +397,11 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{% include_cached box.html type="start" title="Code: JavaScript" class="example" %}
 {:/}
 
 ~~~ js
@@ -562,5 +562,5 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

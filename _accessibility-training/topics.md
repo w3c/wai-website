@@ -88,9 +88,9 @@ details[open] > summary > *:first-child::before {
 </ul>
 <p><strong><em>See also:</em></strong> <a href="http://www.w3.org/WAI/training/accessible">How to Make Your Presentations Accessible to All</a> for guidance on ensuring that your training is accessible to all of your audience, including participants with disabilities.</p>
 
-{% include excol.html type="start" id="intro" %}
+{% include_cached excol.html type="start" id="intro" %}
 <h2>1. Introducing Web Accessibility</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Communicate the basic principles of web accessibility, why it is important, and who is affected.</p>
 <p><strong>Audience:</strong> Anyone with an interest in the web, disability, or related topics.</p>
 <h3>Description</h3>
@@ -147,10 +147,10 @@ details[open] > summary > *:first-child::before {
      accessibility features benefit everyone. Draw the analogy with web
      accessibility.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="people" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="people" %}
 <h2>2. How People with Disabilities Use the Web</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Provide an understanding of how people with
   disabilities and older people access the Web, and the type of barriers
   they can encounter. Highlight the importance of web accessibility in an
@@ -201,10 +201,10 @@ details[open] > summary > *:first-child::before {
      be encountering accessibility barriers as they go online.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activity/demonstration on other websites after the session.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="components" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="components" %}
 <h2>3. Components of Web Accessibility</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Introduction to the WAI standards and guidelines for web accessibility.</p>
 <p><strong>Audience:</strong> Web developers and others responsible for creating accessible online content and applications, accessibility advocates, <abbr title="information and communications technology">ICT</abbr> departments</p>
 <h3>Description</h3>
@@ -260,10 +260,10 @@ details[open] > summary > *:first-child::before {
      tools by requesting accessibility features, especially during
      procurement.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="promoting" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="promoting" %}
 <h2>4. Promoting Web Accessibility</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Encourage web accessibility advocates and support their efforts to promote inclusive design practices.</p>
 <p><strong>Audience:</strong> Accessibility advocates</p>
 <h3>Description</h3>
@@ -297,10 +297,10 @@ details[open] > summary > *:first-child::before {
   <li><a href="http://www.w3.org/WAI/flyer/#resources">WAI Web Accessibility Resources</a> - includes information about Essential Components of Web Accessibility with a diagram</li>
   <li><a href="http://www.w3.org/WAI/flyer/#glance">WCAG 2 at a Glance</a> - a paraphrased summary of Web Content Accessibility Guidelines WCAG 2.0</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="intro20" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="intro20" %}
 <h2>5. Introducing WCAG 2.0</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Provide basic familiarity with WCAG 2.0 and its benefits.</p>
 <p><strong>Audience:</strong> Anyone requiring an introduction to WCAG 2.0 and familiarization with the WCAG 2.0 documents.</p>
 <h3>Description</h3>
@@ -344,10 +344,10 @@ details[open] > summary > *:first-child::before {
 <ul>
   <li><strong>Demonstration:</strong> Show how to effectively access WCAG 2.0 Guidelines, Success Criteria and associated techniques using <a href="http://www.w3.org/WAI/WCAG20/quickref/">How to Meet WCAG 2.0</a>.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="migrate" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="migrate" %}
 <h2>6. Migrating to WCAG 2</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Help people wanting to transition to WCAG 2.0.</p>
 <p><strong>Audience:</strong> Web developers, policy makers, and accessibility advocates</p>
 <h3>Description</h3>
@@ -391,10 +391,10 @@ details[open] > summary > *:first-child::before {
 <ul>
   <li><strong>Tip:</strong> Explain to participants that communicating migration plans in accessibility statements helps manage expectations.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="design" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="design" %}
 <h2>7. Designing and Developing Accessible Websites with WCAG 2</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Teach web developers how to create accessible web content and applications.</p>
 <p><strong>Audience:</strong> Web designers and developers</p>
 <h3>Description</h3>
@@ -445,10 +445,10 @@ details[open] > summary > *:first-child::before {
      accessible web design can be applied to a wide range of websites.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activity/demonstration on other websites after the session.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="browsers" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="browsers" %}
 <h2>8. Browser Accessibility and UAAG</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Help people understand the importance of browsers and media players in enabling web accessibility.</p>
 <p><strong>Audience:</strong> Web browser and media player developers, plug-in developers, assistive technology developers, <abbr title="information and communications technology">ICT</abbr> and procurement departments, web developers, accessibility advocates</p>
 <h3>Description</h3>
@@ -496,10 +496,10 @@ details[open] > summary > *:first-child::before {
      from <a href="http://www.w3.org/WAI/users/browsing">Better Web Browsing: Tips for Configuring Your Computer</a>. Discuss the importance of user agents as the point of contact between people and the Web.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activity/demonstration with different user agents and websites after the session.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="authoring" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="authoring" %}
 <h2>9. Authoring Tool Accessibility and ATAG</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Help people understand the importance of authoring tools in achieving web accessibility.</p>
 <p><strong>Audience:</strong> Authoring tool developers, web developers, <abbr title="information and communications technology">ICT</abbr> and procurement departments, web developers, accessibility advocates</p>
 <h3>Description</h3>
@@ -557,10 +557,10 @@ details[open] > summary > *:first-child::before {
      disabilities among developers too.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activity/demonstration with other authoring tools after the session.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="aria" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="aria" %}
 <h2>10. Accessible Rich Internet Applications (WAI-ARIA)</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Provide an understanding of the requirements for accessible rich internet applications.</p>
 <p><strong>Audience:</strong> Web developers, framework/library developers, assistive technology developers, <abbr title="information and communications technology">ICT</abbr> and procurement departments</p>
 <h3>Description</h3>
@@ -605,10 +605,10 @@ details[open] > summary > *:first-child::before {
      current issues, including incomplete support and other open issues that
      will be resolved when WAI-ARIA is completed.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="bcase" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="bcase" %}
 <h2>11. Business Case for Web Accessibility</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Provide an appreciation of the business case for web accessibility.</p>
 <p><strong>Audience:</strong> Managers and decision makers, <abbr title="information and communications technology">ICT</abbr> and procurement departments, marketing and legal departments,
   accessibility advocates and others who inform decisions and policies</p>
@@ -680,10 +680,10 @@ details[open] > summary > *:first-child::before {
      example by relating it to older relatives, such as grandparents, who may
      be encountering accessibility barriers as they go online.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="improve" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="improve" %}
 <h2>12. Improving the Accessibility of Existing Websites</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Assistance for organizations taking the initial steps towards implementing web accessibility.</p>
 <p><strong>Audience:</strong> Web developers, website owners, decision makers</p>
 <h3>Description</h3>
@@ -711,10 +711,10 @@ details[open] > summary > *:first-child::before {
   <li><strong>Activity/Demonstration:</strong> Explore web accessibility barriers using some of the techniques from <a href="{% link pages/test-eval/easychecks.md %}">Preliminary Review of Web Sites for Accessibility</a>. For example use some techniques for examining pages using <a href="{% link pages/test-eval/easychecks.md %}#guibrowsers">graphical browsers</a> or <a href="{% link pages/test-eval/easychecks.md %}#altbrowsers">specialized browsers</a>.</li>
   <li><strong>Discussion:</strong> Explore the failures and repairs in the <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration</a>. Discuss how websites can be made accessible with little or no change to their visual design.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activity/demonstration with other websites, including their own, after the session.</li>
-</ul>{% include excol.html type="end" %}
-{% include excol.html type="start" id="involving" %}
+</ul>{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="involving" %}
 <h2>13. Involving Users in Web Projects</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Encourage all web projects to involve users from the start.</p>
 <p><strong>Audience:</strong> Managers, development teams, quality assurance and usability departments</p>
 <h3>Description</h3>
@@ -752,10 +752,10 @@ details[open] > summary > *:first-child::before {
      of involving users throughout design processes. Help participants
      identify opportunities to involve users in their own projects.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="older" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="older" %}
 <h2>14. Web Accessibility and Older People</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Help people understand the importance of web accessibility for older people.</p>
 <p><strong>Audience:</strong> Managers and decision makers, web developers, <abbr title="information and communications technology">ICT</abbr> and procurement departments, marketing and legal departments,
   accessibility advocates and others who inform decisions and policies</p>
@@ -793,10 +793,10 @@ details[open] > summary > *:first-child::before {
   <li><strong>Demonstration:</strong> Show some <a href="http://www.uiaccess.com/accessucd/resources_videos.html">videos with older people using the Web <img src="/Icons/offsite.png" alt="- external page" /></a>.</li>
   <li><strong>Activity:</strong> Show some simulations of low vision; get participants to experience some impairments, e.g. using the mouse with other hand and browsing some sites with text enlarged.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="mobile" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="mobile" %}
 <h2>15. Accessibility and the Mobile Web</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Provide an understanding of the overlapping issues between web accessibility and mobile web use.</p>
 <p><strong>Audience: </strong>Managers and decision makers, web developers, <abbr title="information and communications technology">ICT</abbr> and procurement departments, accessibility advocates and others who inform decisions and policies</p>
 <h3>Description</h3>
@@ -839,10 +839,10 @@ details[open] > summary > *:first-child::before {
      benefit mobile web users and many more.</li>
   <li><strong>Tip:</strong> Use Independent User Interfaces (<a href="http://www.w3.org/WAI/intro/indieui">IndieUI</a>) to attract advanced web   developers to leading edge accessibility work and how it is relevant to   many others.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="policy" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="policy" %}
 <h2>16. Web Accessibility Policy and Legislation</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Provide an appreciation of local web
   accessibility policy and legislation, the need for  international
   harmonization, and the essential elements of an organizational policy.</p>
@@ -888,10 +888,10 @@ details[open] > summary > *:first-child::before {
      example by relating it to older relatives, such as grandparents, who may
      be encountering accessibility barriers as they go online.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="check" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="check" %}
 <h2>17. Quick Check for Web Accessibility</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Introduce the concept of a quick website accessibility check, including benefits, techniques, and limitations.</p>
 <p><strong>Audience:</strong> Anyone wanting to learn how to do a quick website accessibility check</p>
 <h3>Description</h3>
@@ -926,10 +926,10 @@ details[open] > summary > *:first-child::before {
   <li><strong>Activity/Demonstration:</strong> Use evaluation tools to help identify failures and repairs in the <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration</a>. Discuss the different types of evaluation tools, their benefits, and their limitations.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activities/demonstrations with other websites, including their own, after the session.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="conform" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="conform" %}
 <h2>18. Conformance Evaluation for Web Accessibility</h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><strong>Goal:</strong> Provide an understanding of how to undertake a conformance review for website accessibility.</p>
 <p><strong>Audience:</strong> Web developers and quality assurers, accessibility experts, researchers</p>
 <h3>Description</h3>
@@ -974,4 +974,4 @@ details[open] > summary > *:first-child::before {
      different types of solutions to meet accessibility requirements.</li>
   <li><strong>Tip:</strong> Suggest participants repeat the activity/demonstration with other websites, including their own, after the session.</li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}

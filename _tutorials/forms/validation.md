@@ -35,7 +35,7 @@ In the example below, the `required` attribute is added to the input field. If y
 Note that the label also displays “(required)”, to inform users that don’t use assistive technology or use older web browsers that do not support the HTML5 `required` attribute.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="../../beyond/">
@@ -46,11 +46,11 @@ Note that the label also displays “(required)”, to inform users that don’t
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -59,17 +59,17 @@ Note that the label also displays “(required)”, to inform users that don’t
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** The `aria-required` attribute informs assistive technologies about required controls so that they are appropriately announced to the users (as opposed to validating the input). Most current web browsers automatically set its value to `true` when the HTML5 `required` attribute is present. In this example, it is provided redundantly to support web browsers that don’t communicate the `required` attribute to assistive technology.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Validating common input
@@ -80,7 +80,7 @@ HTML5 also provides input types for other data, including `email`, `url`, `numbe
 The example below shows these HTML5 input types in action. Depending on your web browser, the “Range” input field will be displayed as a slider control to help users provide input more easily. Similarly, the “Number” input field may be displayed with buttons to increase or decrease the number incrementally. Input errors, such as an incorrect email address, will be indicated using the web browser dialogs as in the previous example.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="../../beyond/" id="valform">
@@ -121,11 +121,11 @@ The example below shows these HTML5 input types in action. Depending on your web
 </style>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -156,11 +156,11 @@ The example below shows these HTML5 input types in action. Depending on your web
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** Several of these HTML5 input types have additional parameters to help limit and validate the input. They include:
@@ -170,7 +170,7 @@ The example below shows these HTML5 input types in action. Depending on your web
 * `steps` defines in what steps number and range fields can be incremented and decremented.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Validating patterned input
@@ -184,7 +184,7 @@ The HTML5 `pattern` attribute allows the use of [regular expressions](https://ww
 In the example below, the `pattern` attribute of the `input` element specifies a particular format that matches car license plate (registration) numbers in Germany. The required pattern consists of one to three letters (for the city where the car is registered), followed by a space, two to four random letters, another space, then one to four random numbers.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="../../beyond/">
@@ -196,11 +196,11 @@ In the example below, the `pattern` attribute of the `input` element specifies a
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -212,7 +212,7 @@ In the example below, the `pattern` attribute of the `input` element specifies a
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 

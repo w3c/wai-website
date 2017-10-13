@@ -64,7 +64,7 @@ details[open] > summary > *:first-child::before {
 <p><a id="toc"></a>This page provides checks for the following specific aspects of a web page. It also provides guidance on <span class="ptoc"><a href="#next">Next Steps</a></span> and links to more <a href="#evalresources">evaluation resources</a>.</p>
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 <ul class="toc listafterpul">
@@ -93,16 +93,16 @@ details[open] > summary > *:first-child::before {
 </ul>
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 <h2><a id="using"></a>Using these Easy Checks</h2>
 <h3 id="excolbuttomns">Click headings with [+] buttons to get hidden information</h3>
 <p>Some sections of this page might not apply to your situation, for example, they are for a  browser you don't have, or you  only need to read them once. These sections are hidden by default so they don't clutter the page. You can expand them to see the information. The headings of hidden  sections have a plus button [+] before them. Screen readers will say something like: “graphic, expand this section”. To get the hidden information, click the button or click anywhere on the heading.</p>
 <p>The  sections below all have hidden information under expandable headings. The first time you read this page, <strong>we recommend that you expand the headings of these five sections and  read them.</strong></p>
-{% include excol.html type="start" id="tools" %}
+{% include_cached excol.html type="start" id="tools" %}
 <h3>Tools: WebDev Toolbar and IE WAT <em>(optional)</em></h3>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
    <p><strong>You can do most of these checks with any browser, that is, you do <i>not</i> need to download special tools.</strong></p>
 <p>However, some checks are easier if you can download tools. To keep it simple, we’ve included instructions for just two tools: the Web Developer Toolbar for Chrome, Opera, and Firefox (“WebDev Toolbar”) and the Web Accessibility Toolbar for Internet Explorer (“IE WAT”). Both are free extensions/add-ons available in different languages.</p>
 <ul>
@@ -117,23 +117,23 @@ details[open] > summary > *:first-child::before {
 </ul>
 <p>Note that we’re not endorsing these tools over others. There are many other useful <a href="http://www.w3.org/WAI/eval/selectingtools">tools to help with evaluation</a>.</p>
 <p><i>(If you can’t download these tools, that’s OK; you can still do the checks indicated “with any browser”.)</i></p>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
-{% include excol.html type="start" id="wcaglinks" %}
+{% include_cached excol.html type="start" id="wcaglinks" %}
 <h3>WCAG links</h3>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p>These checks are based on the Web Content Accessibility Guidelines (WCAG) 2.0. The main points in WCAG are called “Success Criteria”. In the “Learn more from” sections of this page, there are links to pages that explain the relevant success criteria in the “Understanding WCAG 2.0” document.</p>
 <p><strong>Please see the <a href="http://www.w3.org/WAI/intro/wcag">WCAG Overview</a> for an introduction to WCAG.</strong></p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="bad" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="bad" %}
 <h3>Practicing with BAD, the Before-After Demo</h3>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p>The <a href="http://www.w3.org/WAI/demos/bad/">Before and After Demonstration (BAD)</a> from W3C WAI shows an inaccessible website and a retrofitted version of this same website with the accessibility barriers fixed. You can use the BAD pages to learn how to do these checks. For example, first, do the check on an accessible version of a page to see what it should look like. Then, do the check on the corresponding inaccessible page to see what it looks like when there are accessibility barriers.</p>
 <p>The BAD pages have annotations that are notes on what is accessible and not accessible in the demo pages. To turn on annotations, click “Show Annotations” in the yellow box near the top, middle of the page; then click a number and a box titled <em>“Note ##”</em> will open with the explanation.</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="background" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="background" %}
 <h3>Background</h3>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p>These checks are designed for anyone who can use the web. You don’t need much knowledge or skill. Some of the checks require seeing the web page or hearing the audio. However, there are many things that anyone can check.</p>
 <p>Here are some things to know that will help you understand the brief explanations throughout this page:</p>
 <ul>
@@ -148,10 +148,10 @@ details[open] > summary > *:first-child::before {
   <li><a href="http://www.w3.org/standards/webdesign/accessibility">Introduction to Accessibility</a></li>
   <li><a href="http://www.w3.org/WAI/yourWAI">Other WAI resources</a></li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="ctrlcmd" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="ctrlcmd" %}
 <h3>Keyboard instructions: Ctrl for Windows, cmd for Mac</h3>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p>Some of the  keyboard instructions are different for Windows and Mac; for example, “Ctrl” versus “cmd” in:</p>
 <ul>
   <li>For Windows: With the keyboard: Ctrl+Alt+4, then arrow down to "Show Images".</li>
@@ -162,7 +162,7 @@ details[open] > summary > *:first-child::before {
   <li>With the keyboard: Ctrl/cmd+Alt+4, then arrow down to "Show Images".</li>
 </ul>
 <p>For such instructions, Windows users press the Ctrl key, and Mac users press the cmd key.</p>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 <h2 id="title">Page title</h2>
 <p>Page titles are:</p>
 <ul>
@@ -189,9 +189,9 @@ details[open] > summary > *:first-child::before {
    <li>Check that there is a title that adequately and briefly describes the content of the page.</li>
    <li>Check that the title is different from other pages on the website, and adequately distinguishes the page from other web pages.</li>
 </ul>
-{% include excol.html type="start" id="titletips" %}
+{% include_cached excol.html type="start" id="titletips" %}
 <h3>Tips</h3>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
    <ul>
       <li>There is flexibility on what makes a good page title.</li>
       <li>Best practice is for titles to be “front-loaded” with the important and unique identifying information first.<br />
@@ -216,11 +216,11 @@ details[open] > summary > *:first-child::before {
          </ul>
       </li>
    </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 <h3>Page title checks</h3>
-{% include excol.html type="start" %}
+{% include_cached excol.html type="start" %}
 <h4>To check page title <em>with different browsers</em></h4>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <ul>
   <li>If you have a  browser that displays the page title in the window title bar by default, use that browser. Some versions of Firefox, Safari, Opera, and older versions of IE show the title by default.
      <ul>
@@ -240,10 +240,10 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}
 <h4>To check page title <em>with IE WAT</em></h4>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p><em>(Some versions of IE have the title bar so you can just look there, you don't need to do the steps below.)</em></p>
 <ol>
   <li>Open the web page you are checking.</li>
@@ -251,14 +251,14 @@ details[open] > summary > *:first-child::before {
      <em>A new page opens.</em><br />
  The page title is shown after “Title:”.</li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}
 <h3>Learn more about page titles</h3>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <ul>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">Page Titled</a> - Understanding Success Criterion 2.4.2 for WCAG 2.0 (Level A)</li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
   <h2 id="images">Image text alternatives (“alt text”)</h2>
   <p>Text alternatives (“alt text”) convey the purpose of an image, including pictures, illustrations, charts, etc. Text alternatives are used by people who do not see the image. (For example, people who are blind and use screen readers can hear the alt text read out; and people who have turned off images to speed download or save bandwidth can see the alt text.)</p>
@@ -277,7 +277,7 @@ details[open] > summary > *:first-child::before {
   </ul>
   <h3>Tips</h3>
   <p>Appropriate alternative text is not an exact science. Some people prefer most images to have more detailed  description; and others prefer much less description.</p>
-{% include excol.html type="start" %}  <h4 class=" listintro">Appropriate alt text:</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h4 class=" listintro">Appropriate alt text:</h4>{% include_cached excol.html type="middle" %}
      <ul class="listspaced">
         <li>The text needs to convey the same meaning as the image. That is, if someone cannot see the image, they get the important information from the image in the alternative text.</li>
         <li>Alternative text depends on context. For example, for an image of a dog on a kennel club website, the alt text might include the breed of the dog; however, the same image on a dog park website may be there just to make the page more attractive, and the image might not need any alt text (and should have null alt). One way to help think about appropriate alt text is: if you were helping someone read and interact with the web page and they cannot see it, what would you say about the image?</li>
@@ -286,20 +286,20 @@ details[open] > summary > *:first-child::before {
         </li>
         <li>If the image has complex information  — such as charts or graphs — the image should have a short alt text to identify the image, and then the detailed description of the information should be provided elsewhere (for example, in a data table).</li>
      </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class=" listintro">What is not needed in the alt text:</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class=" listintro">What is not needed in the alt text:</h4>{% include_cached excol.html type="middle" %}
 <ul class="listspaced">
   <li>If the image is not important for understanding the content — for example, it is just decoration or “eye candy” — it should have null alt (<code>alt=""</code>). One way to help determine if an image should have null alt is to ask yourself: <em>If the image was removed, would the user still get all the information from the page?</em></li>
   <li>The alternative text does not need to include the words “button”, “link”, or “image of”. (Screen readers automatically provide that information.)</li>
   <li>If the image is sufficiently described in the text — for example, a simple diagram illustrating what’s written in the web page text — it can have brief alt text such as “Diagram of work flow as describe above.”</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class=" listintro"><code>alt</code> attribute in HTML (not “alt tag”)</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class=" listintro"><code>alt</code> attribute in HTML (not “alt tag”)</h4>{% include_cached excol.html type="middle" %}
      <p>In HTML (which is web page code, called <a href="#markup" class="termref">markup</a>), alt is an attribute of the image element, and other elements. (So “alt tag” is technically incorrect; the correct terminology is “alt attribute”, or you can say “alt text”.) It looks like this in markup: <code>&lt;img alt="WAI logo" src="/wai/logo.png"&gt;</code></p>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
   <h3>Alt text checks</h3>
   <p>There are three options to check alt text listed below. The first one is the easiest, if you have the IE WAT toolbar. If you don’t have any toolbars, there is a check at the end for any browser.</p>
-{% include excol.html type="start" %}  <h4 class="">To check alt text <em>with IE WAT</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check alt text <em>with IE WAT</em></h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li>Open the web page you are checking.</li>
   <li>In the toolbar, select “Images”, then “Show Images”. Or, with the keyboard: Ctrl/cmd+Alt+4, then arrow down to “Show Images”<br />
@@ -314,8 +314,8 @@ details[open] > summary > *:first-child::before {
   <li>To check if alt text is appropriate:<br/>
      For each image, see if the alt text adequately conveys the information in the image it is next to, per the Tips above. </li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 id="altff" class="">To check alt text <em>with WebDev toolbar</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 id="altff" class="">To check alt text <em>with WebDev toolbar</em></h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li>Open the web page you are checking.</li>
   <li>In the toolbar, select “Images”, then “Outline Images”, then “Outline Images Without Alt Attributes”. Or, with the keyboard: Alt+T, W (to Web Developer Extension), I, O, A<br />
@@ -338,8 +338,8 @@ details[open] > summary > *:first-child::before {
 </li>
   <li>For each image, see if the alt text adequately conveys the information in the image it is next to, per the Tips above.</li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">To check alt text <em>with any browser</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check alt text <em>with any browser</em></h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li>Open <a href="http://wave.webaim.org/">WAVE</a> web accessibility evaluation tool web page.</li>
   <li>Type the website address in the box after “Enter the URL of the web site you want to evaluate:”</li>
@@ -355,8 +355,8 @@ details[open] > summary > *:first-child::before {
 </figure>
 </li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="" id="bad-alt">To practice checking alt text in BAD</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="" id="bad-alt">To practice checking alt text in BAD</h4>{% include_cached excol.html type="middle" %}
 <p>With one of the checks above, use the inaccessible home page <code><a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a></code> <br />
   Notice: </p>
 <ul>
@@ -378,14 +378,14 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h3 class="">Learn more about alt text</h3>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h3 class="">Learn more about alt text</h3>{% include_cached excol.html type="middle" %}
 <ul>
   <li><a href="http://www.w3.org/WAI/intro/people-use-web/principles#alternatives">Text alternatives for non-text content</a> is an easy introduction with links to more details</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Non-text Content</a> - Understanding Success Criterion 1.1.1 for WCAG 2.0 (Level A)</li>
   <li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">An alt text decision tree</a></li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
   <h2 id="headings">Headings</h2>
   <p>Web pages often have sections of information separated by visual headings, for example, heading text is bigger and bold (like “Headings” right above this sentence :-). To make these work for everyone, the headings need to be <a href="#markup" class="termref">marked up</a>. That way people can navigate to the headings — including people who cannot use a mouse and use only the keyboard, and people who use a screen reader.</p>
@@ -434,7 +434,7 @@ details[open] > summary > *:first-child::before {
       <figcaption class="figcaption">Figure: Heading markup in page.</figcaption>
     <!--figure-->
   </figure>
-{% include excol.html type="start" %}  <h4 class="">To check headings <em>with WebDev toolbar</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check headings <em>with WebDev toolbar</em></h4>{% include_cached excol.html type="middle" %}
 <h5>Headings outline:</h5>
 <ol>
   <li>Open the web page you are checking.</li>
@@ -463,8 +463,8 @@ details[open] > summary > *:first-child::before {
   <li>Anything that is a functional heading should have a heading icon before it.</li>
   <li>Anything that is a <b>not</b> functional heading should <b>not</b> have a heading icon before it.</li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">To check headings <em>with IE WAT</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check headings <em>with IE WAT</em></h4>{% include_cached excol.html type="middle" %}
 <h5>Headings outline:</h5>
 <ol>
   <li>Open the web page you are checking.</li>
@@ -491,8 +491,8 @@ details[open] > summary > *:first-child::before {
   <li>Anything that is a functional heading should have a heading icon before it.</li>
   <li>Anything that is a <b>not</b> functional heading should <b>not</b> have a heading icon before it.</li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">To check headings <em> in any browser</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check headings <em> in any browser</em></h4>{% include_cached excol.html type="middle" %}
 <h5>Headings outline:</h5>
 <ol>
   <li>In any browser, open the <a href="http://validator.w3.org/">W3C HTML Validator (The W3C Markup Validation Service)</a>.</li>
@@ -524,8 +524,8 @@ details[open] > summary > *:first-child::before {
   <li>Anything that is a functional heading should have a heading icon (<img src="images/h1.png" alt="H1 WAVE Tool Icon" />, <img src="images/h2.png" alt="H2 WAVE Tool Icon" />, <img src="images/h3.png" alt="H3 WAVE Tool Icon" />, etc.) before it.</li>
   <li>Anything that is a <b>not</b> functional heading should <b>not</b> have a heading icon before it.</li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="" id="bad-headings">To practice checking headings in BAD:</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="" id="bad-headings">To practice checking headings in BAD:</h4>{% include_cached excol.html type="middle" %}
 <h5>Headings outline:</h5>
 <ul>
   <li>Follow  one of the instructions under “Headings outline” above and use the accessible News page: <code><a href="http://www.w3.org/WAI/demos/bad/after/news">www.w3.org/WAI/demos/bad/after/news</a></code>. Notice there is a nice hierarchical outline.</li>
@@ -537,14 +537,14 @@ details[open] > summary > *:first-child::before {
   <li>Next, see how it should look. Follow one of the instructions for “Heading markup in the page” above on the accessible News page: <code><a href="http://www.w3.org/WAI/demos/bad/after/home">www.w3.org/WAI/demos/bad/after/home</a></code>. Notice the headings have icons next to them.</li>
   <li>Next, see what it looks like when headings are not marked up. Use the inaccessible News page: <code><a href="http://www.w3.org/WAI/demos/bad/before/home">www.w3.org/WAI/demos/bad/before/home</a></code>. Notice there is text that visually looks like headings, but does not have headings icons next to it. (With WAVE, there are yellow icons with “h?” because it thinks these might be headings.)</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h3 class="" id="headingsmore">Learn more about headings</h3>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h3 class="" id="headingsmore">Learn more about headings</h3>{% include_cached excol.html type="middle" %}
 <ul>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.0 (Level A)</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">Headings and Labels</a> - Understanding Success Criterion 2.4.6 for WCAG 2.0 (Level AA)</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">Section Headings</a> - Understanding Success Criterion 2.4.10 for WCAG 2.0 (Level AAA)</li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 <h2 id="contrast"> Contrast ratio (“color contrast”)</h2>
 <p>Some people cannot read text if there is not sufficient contrast between the text and background, for example,  light gray text on a light background.</p>
 <figure> <div class="figcontent"><img src="images/contrast-gray-white.png" alt="" width="301" height="127" /></div>
@@ -592,7 +592,7 @@ details[open] > summary > *:first-child::before {
 </ol>
 <h3 id="contrastchecks">Contrast checks</h3>
 <p>Below are instructions for checking contrast with IE WAT; a list of other contrast analyzer tools is in the <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head">Related Resources section</a> of Understanding Success Criterion 1.4.3.</p>
-{% include excol.html type="start" %}  <h4 class="" id="contrastiewat">To check contrast <em> with IE WAT</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h4 class="" id="contrastiewat">To check contrast <em> with IE WAT</em></h4>{% include_cached excol.html type="middle" %}
 <p>Here's how to do the three checks for sufficient contrast described above.</p>
 <ol>
   <li><strong>Table with contrast ratio</strong>:
@@ -623,24 +623,24 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">Checking contrast <em>with other browsers</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">Checking contrast <em>with other browsers</em></h4>{% include_cached excol.html type="middle" %}
 <p>There is not an easy way to check contrast with the WebDev toolbar. There is a <a href="https://addons.mozilla.org/en-US/firefox/addon/juicy-studio-accessibility-too/">Juicy Studio Accessibility Toolbar</a> add-on that provides the same information as IE WAT above and works with Firefox.</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">To practice checking contrast with BAD</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To practice checking contrast with BAD</h4>{% include_cached excol.html type="middle" %}
 <p>Open the  inaccessible Tickets page: <code><a href="http://www.w3.org/WAI/demos/bad/before/tickets.html">www.w3.org/WAI/demos/bad/before/tickets</a><br/>
   </code>Use one of the checks above. Notice:</p>
 <ul>
   <li>The text in some rows is dark gray on light gray with a contrast ratio of 3.76:1.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h3 class="">Learn more about contrast ratio</h3>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h3 class="">Learn more about contrast ratio</h3>{% include_cached excol.html type="middle" %}
 <ul>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Contrast (Minimum)</a> - Understanding Success Criterion 1.4.3 for WCAG 2.0 (Level AA)</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast">Contrast (Enhanced)</a> - Understanding Success Criterion 1.4.6 for WCAG 2.0 (Level AAA)<br />
   </li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
   <a id="zoom"></a>
   <!-- for old links -->
   <h2 id="resize">Resize text</h2>
@@ -678,7 +678,7 @@ details[open] > summary > *:first-child::before {
   </ul>
   <h3>Resize text checks</h3>
   <p><em>The instructions below are for text-only zoom. You can also change the text size settings, for example, through Tools &gt; Options or Preferences. To keep this simple, we don't include instructions for changing those settings. We also don't include instructions for page zoom because it does not usually reveal the accessibility barriers described above.</em></p>
-{% include excol.html type="start" %}  <h4 class="">To check text-only zoom in Firefox, Safari, and some other browsers</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check text-only zoom in Firefox, Safari, and some other browsers</h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li>From the menubar,
      do one of the following <em>(depending on your browser) </em>
@@ -694,8 +694,8 @@ details[open] > summary > *:first-child::before {
      </ul>
      <em>(To confirm that you have text-only zoom set per step 1, make sure  that only the text is getting larger, not the images.) </em></li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">To check text resize  in IE</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check text resize  in IE</h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li>From the menubar, select View &gt; Text Size &gt; Largest. Or, with the keyboard: Alt+V, X, G.</li>
 </ol>
@@ -708,14 +708,14 @@ details[open] > summary > *:first-child::before {
      <em>A pop-up menu appears.</em><br />
      Select Menu bar.<span class="quiet"></span></li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h3 class="">Learn more about resize text</h3>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h3 class="">Learn more about resize text</h3>{% include_cached excol.html type="middle" %}
 <ul>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale">Resize text</a> - Understanding Success Criterion  1.4.4 for WCAG 2.0 (Level AA)</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation">Images of Text</a> - Understanding Success Criterion  1.4.5 for WCAG 2.0 (Level AA)<br />
   </li>
 </ul>
-  {% include excol.html type="end" %}
+  {% include_cached excol.html type="end" %}
 
   <h2 id="interaction">Keyboard access and visual focus</h2>
   <p>Many people cannot use a mouse and rely on the keyboard to interact with the Web. People who are blind and some sighted people with mobility impairments  rely on the keyboard or on assistive technologies and strategies that rely on keyboard commands, such as voice input. Accessible websites enable people to access all content and functionality &mdash; links, forms, media controls, etc. &mdash; through a keyboard.</p>
@@ -759,7 +759,7 @@ details[open] > summary > *:first-child::before {
      <li><strong><a id="dropdown"></a>Drop-down lists: </strong>Check that after you  tab into a drop-down list, you can  use the arrow keys to move through all the options without triggering an action. (A common problem for drop-downs used for navigation is that as soon as you arrow down, it automatically selects the first item in the list and goes to a new page &mdash; you cannot get to other items in the list.)</li>
      <li><strong>Image links: </strong>Check that when images  are links, they have clear visual focus and  can be  activated using the keyboard (usually by pressing the Enter key).</li>
   </ul>
-{% include excol.html type="start" %}  <h4 id="visualfocusBAD" class="">To see visual focus with BAD</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h4 id="visualfocusBAD" class="">To see visual focus with BAD</h4>{% include_cached excol.html type="middle" %}
 <p>Open the accessible Survey page: <code><a href="http://www.w3.org/WAI/demos/bad/after/survey">www.w3.org/WAI/demos/bad/after/survey</a><br/>
   </code>Tab through the page. Notice:</p>
 <ul>
@@ -767,8 +767,8 @@ details[open] > summary > *:first-child::before {
   <li>The other Survey pages get a dotted border and arrows.</li>
   <li>The radio buttons get a dotted border.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h3 class="">Learn more about keyboard access</h3>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h3 class="">Learn more about keyboard access</h3>{% include_cached excol.html type="middle" %}
 <ul>
   <li><a href="http://www.w3.org/WAI/intro/people-use-web/principles#keyboard">Functionality is available from a keyboard</a> section in Accessibility Principles</li>
   <li><a href="http://www.w3.org/WAI/users/browsing#keyboard">Browsing the Web by Keyboard</a> section in Better Web Browsing: Tips for Customizing Your Computer</li>
@@ -781,7 +781,7 @@ details[open] > summary > *:first-child::before {
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">Focus Order</a> - Understanding Success Criterion 2.4.3  for WCAG 2.0 (Level A) </li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">Focus Visible</a> - Understanding Success Criterion 2.4.7  for WCAG 2.0 (Level AA)</li>
 </ul>
-  {% include excol.html type="end" %}
+  {% include_cached excol.html type="end" %}
 
   <h2 id="forms">Forms, labels, and errors</h2>
   <p><em>Note: This section is more complex than the others. If it's too complicated, consider skipping it for now and proceeding through the remaining checks</em>.</p>
@@ -832,7 +832,7 @@ details[open] > summary > *:first-child::before {
   </ul>
   <h3 id="labelschecks">Labels checks</h3>
   <p><span><em><strong>Note:</strong></em> These instructions help you check  if labels are <a href="#markup" class="termref">marked up</a> with 'label', 'for', and 'id'; they do <strong>not</strong> check if  form controls are identified in other ways.</span> Therefore, even if a form does not pass these checks, it might still meet WCAG 2.0.</p>
-{% include excol.html type="start" %}  <h4 class="" id="labelsWAT">To check  labels <em>with IE WAT</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h4 class="" id="labelsWAT">To check  labels <em>with IE WAT</em></h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li>Open the web page you are checking.</li>
   <li>In the toolbar, select “Structure”, then “FieldSet / Labels”.
@@ -886,11 +886,11 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">Checking labels <em> with other browsers</em>  </h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">Checking labels <em> with other browsers</em>  </h4>{% include_cached excol.html type="middle" %}
 <p>There is not an easy way to check form control labels with the WebDev toolbar. There is a <a href="http://jimthatcher.com/favelets/">Form Labels favelet</a> that provides the same information as <a href="#labelsWAT">IE WAT above</a> and works with Firefox. It requires installation.</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="" id="labelsmarkup">To check labels if you're comfortable looking at the <a href="#markup" class="termref">HTML markup</a></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="" id="labelsmarkup">To check labels if you're comfortable looking at the <a href="#markup" class="termref">HTML markup</a></h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li>Open the source HTML and find the form markup.</li>
   <li>Check that:
@@ -903,8 +903,8 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="" id="formsbad">To practice checking form labels and errors with  BAD</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="" id="formsbad">To practice checking form labels and errors with  BAD</h4>{% include_cached excol.html type="middle" %}
 <h5>Labels:</h5>
 <ol>
   <li>Open the Accessible Survey Page: <a href="http://www.w3.org/WAI/demos/bad/after/survey">www.w3.org/WAI/demos/bad/after/survey</a> that has several forms. Do  the label  checks above.
@@ -920,8 +920,8 @@ details[open] > summary > *:first-child::before {
      Notice errors are only indicated by the label being red, and there is no explanation of the errors.</li>
 </ul>
 </div>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h3 class="">Learn more about forms</h3>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h3 class="">Learn more about forms</h3>{% include_cached excol.html type="middle" %}
 <ul>
   <li> <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">Labels or Instructions</a> - Understanding Success Criterion 3.3.2 for WCAG 2.0 (Level A)</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">Info and Relationships</a> - Understanding Success Criterion 1.3.1 for WCAG 2.0 (Level A)</li>
@@ -929,7 +929,7 @@ details[open] > summary > *:first-child::before {
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html">Error Suggestion</a> - Understanding Success Criterion 3.3.3 for WCAG 2.0 (Level AA)</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html">Error Prevention (Legal, Financial, Data)</a> - Understanding Success Criterion 3.3.4 for WCAG 2.0 (Level AA) </li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 
 
@@ -954,13 +954,13 @@ details[open] > summary > *:first-child::before {
   <li>Check if there is any <strong>auto-updated information</strong> (such as stock price). If there is, check that there is a way for the user to pause, stop, or hide the updated information, or for the user to control the frequency of the update.</li>
   <li>Check that <strong>no content flashes or blinks</strong> more than three times in one second. If it does, further evaluation is needed as explained in <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a>.</li>
 </ul>
-{% include excol.html type="start" %}<h3 class="">To learn more about moving, flashing, or blinking content</h3>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}<h3 class="">To learn more about moving, flashing, or blinking content</h3>{% include_cached excol.html type="middle" %}
 <ul>
   <li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">Pause, Stop, Hide</a> – Understanding Success Criterion 2.2.2 for WCAG 2.0 (Level A)</li>
   <li><a href="https://www.w3.org/WAI/tutorials/carousels/animations/">Carousel Animations</a> – WAI Web Accessibility Tutorial</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">Three Flashes or Below Threshold</a> Understanding Success Criterion 2.3.1 for WCAG 2.0 (Level A)</li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
   <h2 id="media">Multimedia (video, audio) alternatives</h2>
   <p>Information in podcasts or other audio is not available to people who are deaf or some people who are hard of hearing, unless it is provided in an alternative format such as captions and text  transcripts. Visual information in videos is not available to people who are blind or some people what have low vision, unless it is provided in an alternative format such as audio or  text. (Text can be read  by a screen reader or Braille display, or enlarged and reformatted for people with low vision.)</p>
@@ -1002,7 +1002,7 @@ details[open] > summary > *:first-child::before {
      <li>Audio description - where the audio track includes someone describing the important visuals. Audio description can be included in the main video, or it can be provided in a separate video.</li>
      <li>Text transcript - that includes description of meaningful visual information (so it's kind of like  a screenplay).</li>
   </ul>
-{% include excol.html type="start" %}  <h3 class="">Learn more about multimedia alternatives</h3>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h3 class="">Learn more about multimedia alternatives</h3>{% include_cached excol.html type="middle" %}
 <ul>
   <li><a href="http://www.w3.org/2008/06/video-notes">W3C Multimedia Accessibility FAQ</a></li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html" >Captions</a> - Understanding Success Criterion 1.2.2 for WCAG 2.0 (Level A)</li>
@@ -1010,7 +1010,7 @@ details[open] > summary > *:first-child::before {
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html">Audio Control</a> - Understanding Success Criterion 1.4.2 for WCAG 2.0 (Level A)</li>
   <li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html">Media Alternative</a> - Understanding Success Criterion 1.2.8 for WCAG 2.0 (Level AAA)</li>
 </ul>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
   <a id="plain"></a>
   <!-- anchor for historical purposes - so old links work -->
@@ -1018,7 +1018,7 @@ details[open] > summary > *:first-child::before {
   <p><em>While the other checks on this page focus on specific success criteria in WCAG 2.0, this check is more broad. It helps you understand how some people “see” the web page differently. For this basic structure check, you look at the web page without images, styles, and layout.</em></p>
   <p>Web pages are often designed with multiple columns, sections, colors, and other visual  aspects that help organize information for people who see the page in its default display. However, some people do not see the page this way. People who are blind listen to the page with a screen reader or read it from a Braille display. Some people  with low vision and others change the way the page is displayed so they can read it; for example, change from multiple columns to one column, change the text size, and more.</p>
   <p>An important issue is how the web page works when it is “linearized” into one column and the presentation is changed, as shown in the images below.</p>
-{% include excol.html type="start" %}  <p class="" id="limgs"><strong>Images showing linearized and changed display </strong><em>(click to show images)</em></p>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <p class="" id="limgs"><strong>Images showing linearized and changed display </strong><em>(click to show images)</em></p>{% include_cached excol.html type="middle" %}
 <p>The images below illustrate how a web page is displayed in 3 columns by default and how it can be changed.</p>
 <p>Figure A shows the default display of three columns, with the navigation at the left.</p>
 <figure>
@@ -1051,7 +1051,7 @@ details[open] > summary > *:first-child::before {
  <figcaption class="figcaption">Figure E.</figcaption>
  <!--figure-->
 </figure>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 <p>While it is useful to have an experienced screen reader user check web pages, anyone can get an initial idea of  potential accessibility barriers for screen reader users and others who change the way the page is presented. The steps below show you how to disable images, disable styles for how the page is usually displayed, and linearize the page to check the page structure.</p>
 <p id="dtnote">Notes:</p>
@@ -1075,7 +1075,7 @@ details[open] > summary > *:first-child::before {
 </ul>
 
 <h3 id="bschecks">Basic structure checks</h3>
-{% include excol.html type="start" %}  <h4 class="">To check basic structure <em>with IE WAT</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check basic structure <em>with IE WAT</em></h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li> Open the web page you are checking.</li>
   <li>In the toolbar, select “Images”, then “Remove Images”.<br />
@@ -1085,8 +1085,8 @@ details[open] > summary > *:first-child::before {
   <li>In the toolbar, select “Tables”, then “Linearize”.<br />
  Or, with the keyboard: Ctrl+Alt+7, then arrow down to  “Linearize”.</li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">To check  basic structure <em>with WebDev toolbar</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check  basic structure <em>with WebDev toolbar</em></h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li> Open the web page you are checking.</li>
   <li> In the toolbar, select “Images”, then “Disable Images”, then “Disable All Images”.<br />
@@ -1097,8 +1097,8 @@ details[open] > summary > *:first-child::before {
      Or, with the keyboard: Alt+T, W (to Web Developer Extension), M, I.<br />
   </li>
 </ol>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="">To check  basic structure <em>with any browser</em></h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="">To check  basic structure <em>with any browser</em></h4>{% include_cached excol.html type="middle" %}
 <p>Most browsers provide the option to turn off images and disable CSS from the menus. For example:</p>
 <ul>
   <li>In Opera:
@@ -1125,8 +1125,8 @@ details[open] > summary > *:first-child::before {
      </ul>
   </li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" %}  <h4 class="" id="plainBAD">To practice checking  basic structure with BAD</h4>{% include excol.html type="middle" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" %}  <h4 class="" id="plainBAD">To practice checking  basic structure with BAD</h4>{% include_cached excol.html type="middle" %}
 <ol>
   <li>First use the Accessible Home Page <code><a href="http://www.w3.org/WAI/demos/bad/after/home">www.w3.org/WAI/demos/bad/after/home</a></code> with one of the checks above to turn off images, disable CSS, and linearize.<br />
  Skim down and notice that under “Welcome to CityLights” there are 3 article headlines with summary text under each headline.</li>
@@ -1139,7 +1139,7 @@ details[open] > summary > *:first-child::before {
   <li>To check a form, use the Inaccessible Survey Page <a href="http://www.w3.org/WAI/demos/bad/before/survey"><code>www.w3.org/WAI/demos/bad/before/survey</code></a> (This example is easier to see with IE WAT.) Look at how the radio buttons are laid out. Then linearize.<br />
      Notice that that radio button labels are not with the buttons. (This is because the page uses layout tables incorrectly.)</li>
 </ol>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
 
 <h2 id="next">Next steps</h2>
 <p>Now that you have an idea of the accessibility issues on a web page, two things you can do:</p>

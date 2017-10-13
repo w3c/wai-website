@@ -29,7 +29,7 @@ The following table of opening times has header information in both the top row 
 In the header row, the `col` value for `scope` associates each header cell with the data cells in the column. In the header column, the `row` value associates the individual headers with their rows. Without this information, some users would not easily understand the relationship between header and data cells. In the example below, the “Open” and “Closed” labels are only useful if they can be assigned to a particular day and time.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <table>
@@ -77,11 +77,11 @@ In the header row, the `col` value for `scope` associates each header cell with 
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -116,7 +116,7 @@ In the header row, the `col` value for `scope` associates each header cell with 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 [Full code for “Table with header cells in the top row and first column”]({% link _tutorials/tables/examples/headertoprowfirstcol.md %})
@@ -127,7 +127,7 @@ In the header row, the `col` value for `scope` associates each header cell with 
 In this table, the row header cells are in the second rather than in the first column. The approach is similar to the examples above: The scope of the header cells in the top row is set to `col`. By using the `row` value for `scope` assigns the header cells in the second column to the data cells on the left and the right of the individual header cell.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <table class="numbers">
@@ -206,11 +206,11 @@ In this table, the row header cells are in the second rather than in the first c
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -229,7 +229,7 @@ In this table, the row header cells are in the second rather than in the first c
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 [Full code for “Table with an offset column of header cells”]({% link _tutorials/tables/examples/scope-offset.md %})

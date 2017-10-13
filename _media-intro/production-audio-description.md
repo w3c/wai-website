@@ -82,7 +82,7 @@ Project](http://www.acb.org/adp/).
 ### Basic workflow for creating pre-produced audio descriptions:
 
 {::nomarkdown}
-{% include box.html type="start" title="Workflow" class="example" %}
+{% include_cached box.html type="start" title="Workflow" class="example" %}
 {:/}
 
 1. **Watch the video**<br>
@@ -107,7 +107,7 @@ Project](http://www.acb.org/adp/).
     to the presentation.
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 
@@ -138,7 +138,7 @@ for TTS audio descriptions generally follows this pattern:
 ### Basic workflow for creating pre-produced TTS audio descriptions:
 
 {::nomarkdown}
-{% include box.html type="start" title="Workflow" class="example" %}
+{% include_cached box.html type="start" title="Workflow" class="example" %}
 {:/}
 
 1. **Watch the video**<br>
@@ -156,7 +156,7 @@ for TTS audio descriptions generally follows this pattern:
     will be read aloud by the user's screen reader.
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 Below is an image of a caption editor being used to timestamp an audio-description script.
@@ -166,7 +166,7 @@ Below is an image of a caption editor being used to timestamp an audio-descripti
 <p>Using the <code>track</code> element and the <code><a href="https://www.w3.org/TR/html51/semantics-embedded-content.html#the-track-element">kind</a></code> attribute, the descriptions can be delivered at the time of playback and a screen reader will read them aloud. Below is a code sample:</p>
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -177,7 +177,7 @@ Below is an image of a caption editor being used to timestamp an audio-descripti
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 The `kind` attribute will cause the description file to be received invisibly (i.e., off-screen) so sighted users will not see it, but screen readers will be aware of it. Screen readers will then read the description text as it is delivered, synchronized at the time of playback. Read more about [techniques for delivering TTS descriptions](https://www.w3.org/TR/WCAG20-TECHS/H96.html). See [functioning examples of TTS descriptions](http://ncamftp.wgbh.org/ibm/dvs/#videos) using the `track` element along with Javascript to illustrate how screen readers will read off-screen descriptions aloud.

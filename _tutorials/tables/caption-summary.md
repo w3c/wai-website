@@ -34,7 +34,7 @@ The caption should be a short heading for the table content. In this example “
 The `<caption>` element is placed directly as a child of the `<table>` element.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <table>
@@ -62,11 +62,11 @@ The `<caption>` element is placed directly as a child of the `<table>` element.
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -87,7 +87,7 @@ The `<caption>` element is placed directly as a child of the `<table>` element.
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Summaries for more complex tables
@@ -103,7 +103,7 @@ This complex table shows availability of different types and sizes of accommodat
 If implemented this way, the summary is available to visual users as well.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <table>
@@ -176,11 +176,11 @@ If implemented this way, the summary is available to visual users as well.
 
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -190,17 +190,17 @@ If implemented this way, the summary is available to visual users as well.
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** A `span` element was added to style the summary differently from the caption. This is not required.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ### Using `aria-describedby` to provide a table summary
@@ -211,17 +211,17 @@ In this approach, an element with an `id` attribute is associated with a summary
 The element containing the summary doesn’t need to be in front of the table in the document, but it helps users to discover the summary more quickly if the summary is near the table, especially if they are not using a screen reader.
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** This WAI-ARIA feature may not be as widely supported by assistive technology than other approaches for summaries on this page.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <p id="tblDesc" style="max-width: 25.333333333em; font-size: .75em; lin-height: 1.5;">Column one has the location and size of accommodation, other columns show the type and number of properties available.</p>
@@ -264,11 +264,11 @@ The element containing the summary doesn’t need to be in front of the table in
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -278,7 +278,7 @@ The element containing the summary doesn’t need to be in front of the table in
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using the `<figure>` element to mark up a table summary
@@ -289,17 +289,17 @@ In this approach, the table is wrapped in a `<figure>` element. The `<figcaption
 Screen reader users navigating in “Tables Mode” are usually unable to identify a table by a caption applied like this. The caption part of the `<figcaption>` element can be explicitly associated to the table by using the `aria-labelledby` attribute and the summary part by using the `aria-describedby` attributes. Note that this could lead to the caption and summary being read out multiple times.
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** This HTML5 feature may not be as widely supported by assistive technology than other approaches for summaries on this page.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <figure>
@@ -343,11 +343,11 @@ Screen reader users navigating in “Tables Mode” are usually unable to identi
 </figure>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Not using WAI-ARIA" class="example" %}
+{% include_cached box.html type="start" title="Code: Not using WAI-ARIA" class="example" %}
 {:/}
 
 ~~~ html
@@ -363,11 +363,11 @@ Screen reader users navigating in “Tables Mode” are usually unable to identi
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Using WAI-ARIA" class="example" %}
+{% include_cached box.html type="start" title="Code: Using WAI-ARIA" class="example" %}
 {:/}
 
 ~~~ html
@@ -383,20 +383,20 @@ Screen reader users navigating in “Tables Mode” are usually unable to identi
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using the `summary` attribute
 {:.ap}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note: The `summary` attribute is deprecated in HTML5.**
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 In this approach, the summary text is in the `summary` attribute of the table. Such summaries are not displayed visually. They are commonly only available to screen reader users.
@@ -404,7 +404,7 @@ In this approach, the summary text is in the `summary` attribute of the table. S
 See WCAG 2.0 technique [H73: Using the summary attribute of the table element to give an overview of data tables](https://www.w3.org/TR/WCAG20-TECHS/H73) for advice on the summary attribute.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <table summary="Column one has the location and size of accommodation, other columns show the type and number of properties available.">
@@ -444,11 +444,11 @@ See WCAG 2.0 technique [H73: Using the summary attribute of the table element to
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -457,5 +457,5 @@ See WCAG 2.0 technique [H73: Using the summary attribute of the table element to
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

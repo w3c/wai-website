@@ -15,14 +15,14 @@ Web application menus use the same basic structure as navigation menus. They oft
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 ## Additional markup
@@ -39,7 +39,7 @@ In addition to the `aria-expanded` and `aria-haspopup` attributes, the following
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -61,7 +61,7 @@ In addition to the `aria-expanded` and `aria-haspopup` attributes, the following
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}<%= ref :middle %>{:/}
@@ -81,7 +81,7 @@ Web application menus are expected to work like desktop application menus. For e
 To allow focus to be set to menu items by keyboard, the items are given a `tabindex` attribute with the value `-1`. The first main menu item (“File” in this example) is assigned a `tabindex` value of `0` which adds it to the tab order and lets the user access the menu using the keyboard.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~js
@@ -102,7 +102,7 @@ Array.prototype.forEach.call(subMenuItems, function(el, i){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Top-Level Menu Items

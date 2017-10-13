@@ -50,7 +50,7 @@ transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#bes
 ### Basic workflow for creating transcripts:
 
 {::nomarkdown}
-{% include box.html type="start" title="Workflow" class="example" %}
+{% include_cached box.html type="start" title="Workflow" class="example" %}
 {:/}
 
 1.  Write a brief summary of the subject matter.
@@ -63,7 +63,7 @@ transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#bes
     credits, etc.).
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 
@@ -81,7 +81,7 @@ Here's an example of markup that could be used to present a transcript
 of a simple interview (one host, one guest):
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -111,5 +111,5 @@ of a simple interview (one host, one guest):
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

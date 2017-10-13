@@ -27,7 +27,7 @@ The custom button relies on CSS to style a regular `<button>` element so that th
 Also, the `action` attribute of the `<form>` element references a server-side script that carries out the same functionality for cases when JavaScript is not supported.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form action="#submit-like">
@@ -82,11 +82,11 @@ document.getElementById('share-btn').addEventListener('click', function(event){
 </script>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 
@@ -100,11 +100,11 @@ document.getElementById('share-btn').addEventListener('click', function(event){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{% include_cached box.html type="start" title="Code: JavaScript" class="example" %}
 {:/}
 
 ~~~ js
@@ -123,7 +123,7 @@ document.getElementById('share-btn').addEventListener('click', function(event){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## A Star Rating
@@ -136,7 +136,7 @@ To make this as accessible as possible, a form is used with its fields visually 
 The images of the stars are generated using <abbr title="Scalable Vector Graphics">SVG</abbr>. The coloring animation of these stars is initiated through the <abbr title="Cascading Style Sheets">CSS</abbr> `:focus` and `:hover` pseudo-classes so that they can be activated using a mouse, keyboard, and other input methods. The `:checked` pseudo-class and the general sibling selector `~` are used to indicate the selected, active, and inactive stars.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form action="#" id="star_rating">
@@ -265,11 +265,11 @@ document.querySelector('#star_rating').addEventListener('submit', function(event
 </script>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -328,11 +328,11 @@ document.querySelector('#star_rating').addEventListener('submit', function(event
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: CSS" class="example" %}
+{% include_cached box.html type="start" title="Code: CSS" class="example" %}
 {:/}
 
 ~~~ css
@@ -389,11 +389,11 @@ document.querySelector('#star_rating').addEventListener('submit', function(event
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{% include_cached box.html type="start" title="Code: JavaScript" class="example" %}
 {:/}
 
 ~~~ js
@@ -423,5 +423,5 @@ document.querySelector('#star_rating').addEventListener('submit', function(event
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

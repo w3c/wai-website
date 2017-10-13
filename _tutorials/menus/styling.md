@@ -23,14 +23,14 @@ Clear and consistent styling allows users to find and recognize menus more quick
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 
@@ -73,7 +73,7 @@ Change hovered or focused menu items, which gives users visual guidance when nav
 {:/nomarkdown}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: CSS" class="example" %}
+{% include_cached box.html type="start" title="Code: CSS" class="example" %}
 {:/}
 
 ~~~ css
@@ -85,7 +85,7 @@ nav a:focus {
 }
 ~~~
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -108,7 +108,7 @@ Indicate the menu item that was activated through clicking, tapping, or keyboard
 {:/nomarkdown}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: CSS" class="example" %}
+{% include_cached box.html type="start" title="Code: CSS" class="example" %}
 {:/}
 
 ~~~ css
@@ -120,7 +120,7 @@ nav a:active {
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -144,7 +144,7 @@ In this example, a different color combination (black on gray) and a bottom bord
 {:/nomarkdown}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: CSS" class="example" %}
+{% include_cached box.html type="start" title="Code: CSS" class="example" %}
 {:/}
 
 ~~~ css
@@ -156,7 +156,7 @@ nav [aria-current=page] {
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -176,7 +176,7 @@ For some types of menus, such as instructional steps, it may be useful to indica
 ## Example
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <nav aria-label="(example) Main Navigation" id="currentnav">
@@ -234,5 +234,5 @@ For some types of menus, such as instructional steps, it may be useful to indica
 </style>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

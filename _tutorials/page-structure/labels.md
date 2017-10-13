@@ -21,14 +21,14 @@ Provide labels to distinguish two page regions of the same type, such as “main
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 
@@ -42,7 +42,7 @@ Provide labels to distinguish two page regions of the same type, such as “main
 Use `aria-labelledby` to point to an existing element by its (unique) `id`. The label of the region is the content of the referenced element. Every element can be a label this way. Labels should be short and descriptive. If a heading is present in the region, consider using it as the label:
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -53,7 +53,7 @@ Use `aria-labelledby` to point to an existing element by its (unique) `id`. The 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -83,7 +83,7 @@ Use the WAI-ARIA `aria-label` attribute to label the region. Consider this appro
 {:/nomarkdown}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -93,7 +93,7 @@ Use the WAI-ARIA `aria-label` attribute to label the region. Consider this appro
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}

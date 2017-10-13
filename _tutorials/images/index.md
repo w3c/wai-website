@@ -56,11 +56,11 @@ However, images are used extensively on websites and can create major barriers w
 
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** Removing images from websites (so-called “text-only versions”) make them less accessible and functional for these users and situations.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}

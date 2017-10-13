@@ -26,7 +26,7 @@ Provide buttons to allow users to switch back and forth between items. Use `<but
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{% include_cached box.html type="start" title="Code: JavaScript" class="example" %}
 {:/}
 
 ~~~js
@@ -56,7 +56,7 @@ carousel.appendChild(ctrls);
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -90,7 +90,7 @@ Find more information about WAI-ARIA in the [WAI-ARIA Overview]({% link pages/st
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Add a live region to the carousel" %}
+{% include_cached box.html type="start" title="Code: Add a live region to the carousel" %}
 {:/}
 
 ~~~js
@@ -102,11 +102,11 @@ carousel.appendChild(liveregion);
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Change text in the live region to have that text announced" %}
+{% include_cached box.html type="start" title="Code: Change text in the live region to have that text announced" %}
 {:/}
 
 ~~~js
@@ -116,7 +116,7 @@ if (announceItem) {
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Add navigation buttons
@@ -141,7 +141,7 @@ See the [carousel styling]({% link _tutorials/carousels/styling.md %}) page for 
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -165,11 +165,11 @@ See the [carousel styling]({% link _tutorials/carousels/styling.md %}) page for 
 </ul>
 ~~~
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <style>
@@ -229,7 +229,7 @@ See the [carousel styling]({% link _tutorials/carousels/styling.md %}) page for 
 </style>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Focus the selected carousel item

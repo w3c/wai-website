@@ -5,7 +5,7 @@ layout: default
 ---
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -63,11 +63,11 @@ document.getElementById('ex2_password').addEventListener('keyup',
 </script>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -78,11 +78,11 @@ document.getElementById('ex2_password').addEventListener('keyup',
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: CSS" class="example" %}
+{% include_cached box.html type="start" title="Code: CSS" class="example" %}
 {:/}
 
 ~~~ css
@@ -103,11 +103,11 @@ document.getElementById('ex2_password').addEventListener('keyup',
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{% include_cached box.html type="start" title="Code: JavaScript" class="example" %}
 {:/}
 
 ~~~ js
@@ -153,5 +153,5 @@ document.getElementById('password').addEventListener('keyup',
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

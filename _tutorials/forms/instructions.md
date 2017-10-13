@@ -37,7 +37,7 @@ Where relevant, provide overall instructions that apply to the entire form. For 
 In the example below, form instructions indicate how required fields are marked, the expected format for the main data fields, and where to find additional help for each input.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 - All fields marked “required” must be completed.
@@ -46,7 +46,7 @@ In the example below, form instructions indicate how required fields are marked,
 - Extra help can be found immediately after each field.
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## In-line instructions
@@ -62,7 +62,7 @@ For simple use cases, providing instructions within labels may be sufficient. Th
 In the example below, the required format for the “Expiration Date” is indicated by “MM/YYYY” within the same label:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -72,11 +72,11 @@ In the example below, the required format for the “Expiration Date” is indic
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -84,7 +84,7 @@ In the example below, the required format for the “Expiration Date” is indic
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Providing instructions outside labels
@@ -98,7 +98,7 @@ Providing instructions outside of labels allows more flexible positioning and de
 One approach is to use the WAI-ARIA `aria-labelledby` attribute to associate instructions with form controls. At the time of writing this tutorial, this approach is not fully supported by all web browsers and assistive technologies, for example, Braille displays. To ensure backward compatibility, the `for` and `id` attributes are also used in this example.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <style>
@@ -122,11 +122,11 @@ One approach is to use the WAI-ARIA `aria-labelledby` attribute to associate ins
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -138,17 +138,17 @@ One approach is to use the WAI-ARIA `aria-labelledby` attribute to associate ins
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** At the time of writing those tutorials, it is necessary to add `tabindex="-1"` to elements that are referenced by `aria-labelledby` or `aria-describedby` if those attributes point to _two or more_ elements to make this technique work in Internet Explorer.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 #### Using `aria-describedby`
@@ -157,7 +157,7 @@ One approach is to use the WAI-ARIA `aria-labelledby` attribute to associate ins
 By using `aria-describedby` to reference the format of the field, this information is made available to the users on request. That is, it is not automatically displayed or read aloud. This makes sense if the user has been informed of the format before, or when there are lots of input fields with the same format, for example.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -169,7 +169,7 @@ By using `aria-describedby` to reference the format of the field, this informati
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Placeholder text
@@ -182,7 +182,7 @@ While placeholder text provides valuable guidance for many users, **placeholder 
 Note: Section [Hidden labels]({% link _tutorials/forms/labels.md %}#hidden) of this tutorial describes how to hide information visually but keep it available to assistive technology. This same approach can be used to avoid visual redundancy of displaying both labels and placeholder text. Be aware that this makes it very hard for users to review the form. To avoid this problem, JavaScript can be used to make labels appear visually (in the associated label element) above or beside the input that has focus.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -217,11 +217,11 @@ Note: Section [Hidden labels]({% link _tutorials/forms/labels.md %}#hidden) of t
 </style>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -234,7 +234,7 @@ Note: Section [Hidden labels]({% link _tutorials/forms/labels.md %}#hidden) of t
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 #### Styling
@@ -242,7 +242,7 @@ Note: Section [Hidden labels]({% link _tutorials/forms/labels.md %}#hidden) of t
 At the time of writing this tutorial, web browsers usually display the placeholder text in a color that does not meet the [minimum contrast requirement of WCAG 2.0](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast). This means they are hard to see for many people. Web browsers use a combination of color and opacity to achieve this effect. In most web browsers the color of the placeholder can be styled using proprietary CSS selectors. The following code snippet sets the color to a light gray, which has just enough contrast to meet the contrast requirement, assuming the background of the element is white.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ css
@@ -268,5 +268,5 @@ At the time of writing this tutorial, web browsers usually display the placehold
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

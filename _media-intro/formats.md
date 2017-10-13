@@ -75,7 +75,7 @@ was created specifically for carrying text tracks, such as captions,
 subtitles and [text-based audio descriptions]({% link _media-intro/production-audio-description.md %}). `track` is used as a child element of the `video` element:
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -86,7 +86,7 @@ subtitles and [text-based audio descriptions]({% link _media-intro/production-au
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 In the example above, the `kind` attribute is set to "captions" to identify what type of text track it is.  The `label` attribute is set to "Caption," which is the visible text (or label) that the user agent will display to identify the track to the user. [Learn more about attributes for the `track` element](https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-track-element).

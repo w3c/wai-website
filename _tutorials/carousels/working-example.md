@@ -11,7 +11,7 @@ contributors:
 support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
 ---
 {::nomarkdown}
-{% include box.html type="start" title="Example: Complete Working Example" class="example" %}
+{% include_cached box.html type="start" title="Example: Complete Working Example" class="example" %}
 {:/}
 
 <h3 role="presentation">Featured Articles:</h3>
@@ -69,7 +69,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/ACT/">W
 </style>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 <style>

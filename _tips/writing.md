@@ -9,26 +9,26 @@ This page introduces some basic considerations to help you get started writing w
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 ## Provide informative, unique page titles
 
 For each web page, provide a short title that describes the page content and distinguishes it from other pages. The page title is often the same as the main heading of the page. Put the unique and most relevant information first; for example, put the name of the page before the name of the organization. For pages that are part of a multi-step process, include the current step in the page title.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Page Titles" class="example" %}
+{% include_cached box.html type="start" title="Example: Page Titles" class="example" %}
 {:/}
 
 <div class="page-title">
   <figure>
-    <figcaption>{% include icon.html name="check-circle" label="OK" %} Home page title</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Home page title</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
@@ -44,7 +44,7 @@ For each web page, provide a short title that describes the page content and dis
     </div>
   </figure>
   <figure>
-    <figcaption>{% include icon.html name="check-circle" label="OK" %} Page name followed by organization name</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Page name followed by organization name</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
@@ -60,7 +60,7 @@ For each web page, provide a short title that describes the page content and dis
     </div>
   </figure>
   <figure>
-    <figcaption>{% include icon.html name="check-circle" label="OK" %} Page name including step in a process</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Page name including step in a process</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
@@ -78,36 +78,36 @@ For each web page, provide a short title that describes the page content and dis
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
   * [Page Titled 2.4.2](/WAI/WCAG20/quickref/#navigation-mechanisms-title) ([Understanding 2.4.2](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html))
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 ## Use headings to convey meaning and structure
 
 Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline of the content.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Using headings to organize content" class="example" %}
+{% include_cached box.html type="start" title="Example: Using headings to organize content" class="example" %}
 {:/}
 
 <div class="heading-structure two-column">
   <figure>
-    <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} Lack of headings</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Lack of headings</figcaption>
     <div>
-      {% include img.html src="headings-poor.png" alt="Illustration of no headings, see below for detailed example" %}
+      {% include_cached img.html src="headings-poor.png" alt="Illustration of no headings, see below for detailed example" %}
     </div>
-    {% include excol.html type="start" id="no-headings" %}
+    {% include_cached excol.html type="start" id="no-headings" %}
 View inline example
-    {% include excol.html type="middle" %}
+    {% include_cached excol.html type="middle" %}
 <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
 
 <p>HTML elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
@@ -123,16 +123,16 @@ View inline example
 <p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
 
 <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
-    {% include excol.html type="end" %}
+    {% include_cached excol.html type="end" %}
   </figure>
   <figure>
-    <figcaption>{% include icon.html name="check-circle" label="OK" %} Using headings and subheadings</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Using headings and subheadings</figcaption>
     <div>
-      {% include img.html src="headings-good.png" alt="Illustration of good heading structure, see below for detailed example"%}
+      {% include_cached img.html src="headings-good.png" alt="Illustration of good heading structure, see below for detailed example"%}
     </div>
-{% include excol.html type="start" id="headings-good" %}
+{% include_cached excol.html type="start" id="headings-good" %}
 View inline example
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <h2 id="headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
 
 <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
@@ -154,16 +154,16 @@ View inline example
 <p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
 
 <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}
   </figure>
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -174,7 +174,7 @@ View inline example
   * [How a screen reader user uses headings to navigate](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Make link text meaningful
@@ -182,18 +182,18 @@ View inline example
 Write link text so that it describes the content of the link target. Avoid using ambiguous link text, such as 'click here' or 'read more'. Indicate relevant information about the link target, such as document type and size, for example, 'Proposal Documents (RTF, 20MB)'.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Using link text to describe target page" class="example" %}
+{% include_cached box.html type="start" title="Example: Using link text to describe target page" class="example" %}
 {:/}
 
 <div class="meaningful-links two-column">
   <figure>
-    <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} No information</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} No information</figcaption>
     <div>
       <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>{% include icon.html name="check-circle" label="OK" %} Meaningful information</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Meaningful information</figcaption>
     <div>
       <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
     </div>
@@ -201,11 +201,11 @@ Write link text so that it describes the content of the link target. Avoid using
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -213,7 +213,7 @@ Write link text so that it describes the content of the link target. Avoid using
   * [Link Purpose (Link Only) 2.4.9](/WAI/WCAG20/quickref/#navigation-mechanisms-link) ([Understanding 2.4.9](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html))
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Write meaningful text alternatives for images
@@ -221,14 +221,14 @@ Write link text so that it describes the content of the link target. Avoid using
 For every image, write alternative text that provides the information or function of the image. For purely decorative images, there is no need to write alternative text.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Using alternative text to communicate important information" class="example" %}
+{% include_cached box.html type="start" title="Example: Using alternative text to communicate important information" class="example" %}
 {:/}
 
 <div class="text-alt two-column">
   <figure>
-    <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} Uninformative</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Uninformative</figcaption>
     <div>
-      {% include img.html src="phone_charging.png" alt="Charging phone" %}
+      {% include_cached img.html src="phone_charging.png" alt="Charging phone" %}
       <div>
         <p> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
         <p><strong>Alternative text for image</strong>: "Charging phone"</p>
@@ -236,9 +236,9 @@ For every image, write alternative text that provides the information or functio
     </div>
   </figure>
   <figure>
-    <figcaption>{% include icon.html name="check-circle" label="OK" %} Informative</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Informative</figcaption>
     <div>
-      {% include img.html src="phone_charging.png" alt="Plug cable into the bottom edge of the phone." %}
+      {% include_cached img.html src="phone_charging.png" alt="Plug cable into the bottom edge of the phone." %}
       <div>
         <p>Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
         <p><strong>Alternative text for image</strong>: "Plug cable into the bottom edge of the phone."</p>
@@ -249,11 +249,11 @@ For every image, write alternative text that provides the information or functio
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -264,7 +264,7 @@ For every image, write alternative text that provides the information or functio
   * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Create transcripts and captions for multimedia
@@ -272,7 +272,7 @@ For every image, write alternative text that provides the information or functio
 For audio-only content, such a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door creaks'. For video transcripts, also include a description of the important visual content, for example 'Athan leaves the room'.
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -284,7 +284,7 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
   * [Describes how captions help a deaf student](/WAI/intro/people-use-web/stories#onlinestudent)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Provide clear instructions
@@ -292,7 +292,7 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 Ensure that instructions, guidance, and error messages are clear, easy to understand, and avoid unnecessarily technical language. Describe input requirements, such as date formats.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Instructions communicate what information the user should provide" class="example" %}
+{% include_cached box.html type="start" title="Example: Instructions communicate what information the user should provide" class="example" %}
 {:/}
 
 <div class="errors">
@@ -322,11 +322,11 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -335,7 +335,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
   * [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Keep content clear and concise
@@ -350,18 +350,18 @@ Use simple language and formatting, as appropriate for the context.
 * Consider using images, illustrations, video, audio, and symbols to help clarify meaning.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Making content readable and understandable" class="example" %}
+{% include_cached box.html type="start" title="Example: Making content readable and understandable" class="example" %}
 {:/}
 
 <div class="two-column">
   <figure>
-    <figcaption>{% include icon.html name="ex-circle" label="Wrong" %} Unnecessarily complex</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Unnecessarily complex</figcaption>
     <div>
       <p class="fail">CPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to all parties involved. Once our representative obtains information that allows us to understand the causality, we may or may not assign appropriate monetary compensation. The resulting decision may occasion one of the following options: the claim is not approved and is assigned a rejected status, the status of the claim is ambiguous and will require additional information before further processing can occur, the claim is partially approved and reduced payment is assigned and issued, or claim is fully approved and total claim payment is assigned and issued.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>{% include icon.html name="check-circle" label="OK" %} Easier to understand</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Easier to understand</figcaption>
     <div>
       <p class="pass">Claims Processing Procedure (CPP): If you have a car accident, our agent will investigate. Findings will determine any claim payment. This could result in:</p>
       <ul>
@@ -370,17 +370,17 @@ Use simple language and formatting, as appropriate for the context.
         <li>Undetermined claim - more information needed</li>
         <li>Rejected claim - no payment</li>
       </ul>
-      <p>{% include img.html src="clear_text_diagram.png" alt="" %}</p>
+      <p>{% include_cached img.html src="clear_text_diagram.png" alt="" %}</p>
     </div>
   </figure>
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -391,7 +391,7 @@ Use simple language and formatting, as appropriate for the context.
   * [User with reading disabilities benefits from easy to read text](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Learn more about accessibility

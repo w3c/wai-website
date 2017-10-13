@@ -36,7 +36,7 @@ The column structure needs to be defined at the beginning of the table to associ
 Also, the value of the `scope` attribute in the first-level headers is set to `colgroup` so that it is associated with the entire group of columns. The second-level headers only apply to the corresponding column, so the `scope` attribute is set to `col` as shown in previous examples.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 <table class="numbers">
   <col>
@@ -69,11 +69,11 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
   </tr>
 </table>
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -110,17 +110,17 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 Note: A `<colgroup>` element can contain a `<col>` element to identify individual columns in the group. The combined sum of `<col>` elements (not contained in `<colgroup>` elements) and column elements indicated by the `span` attributes of the `<colgroup>` elements should be equal to the total number of columns in the table.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Table with headers spanning multiple rows or columns
@@ -133,7 +133,7 @@ If a header spans multiple header rows, wrap the rows in a `<thead>` element ins
 Due to the complexity of the table a [summary technique](caption-summary.html) could be used to describe the layout of the table in detail.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <table>
@@ -189,11 +189,11 @@ Due to the complexity of the table a [summary technique](caption-summary.html) c
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -251,15 +251,15 @@ Due to the complexity of the table a [summary technique](caption-summary.html) c
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 Note: Using `<thead>`, `<tbody>` and `<tfoot>` in every table, even if there are no headers spanning columns may avoid confusion on when to use them.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}

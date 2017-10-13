@@ -50,7 +50,7 @@ In the following example, a filled square is used for buttons associated with it
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <style>
@@ -110,7 +110,7 @@ In the following example, a filled square is used for buttons associated with it
 </style>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}

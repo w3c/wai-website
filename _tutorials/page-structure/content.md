@@ -22,14 +22,14 @@ Mark up website content semantically, so that the website is extensible. Valid s
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 
@@ -38,7 +38,7 @@ Mark up website content semantically, so that the website is extensible. Valid s
 The HTML5 `<article>` element represents a complete or self-contained composition in a web page. Examples of articles include an item at a shopping site or a news article on a news site.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -53,7 +53,7 @@ The HTML5 `<article>` element represents a complete or self-contained compositio
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Sections
@@ -61,7 +61,7 @@ The HTML5 `<article>` element represents a complete or self-contained compositio
 The HTML5 `<section>` element marks a general region of a web page or an article. It is used for thematic grouping of content.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -72,7 +72,7 @@ The HTML5 `<section>` element marks a general region of a web page or an article
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Paragraphs
@@ -95,7 +95,7 @@ Individual list items can contain a variety of HTML elements, including paragrap
 The unordered list consists of one `<ul>` element and multiple list item (`<li>`) elements:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <ul>
@@ -108,11 +108,11 @@ The unordered list consists of one `<ul>` element and multiple list item (`<li>`
 </ul>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -127,7 +127,7 @@ The unordered list consists of one `<ul>` element and multiple list item (`<li>`
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Ordered list
@@ -135,7 +135,7 @@ The unordered list consists of one `<ul>` element and multiple list item (`<li>`
 The ordered list consists of one `<ol>` element and multiple list item (`<li>`) elements:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <ol>
@@ -148,11 +148,11 @@ The ordered list consists of one `<ol>` element and multiple list item (`<li>`) 
 </ol>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -167,7 +167,7 @@ The ordered list consists of one `<ol>` element and multiple list item (`<li>`) 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Nested lists
@@ -175,7 +175,7 @@ The ordered list consists of one `<ol>` element and multiple list item (`<li>`) 
 Every list can be nested into another list. In the following example, the order of preparation is not critical, but the preparation itself should be done before using the ingredients. The information is still easy to digest, assistive technology can easily inform users about the number of steps.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <ol>
@@ -193,11 +193,11 @@ Every list can be nested into another list. In the following example, the order 
 </ol>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -217,7 +217,7 @@ Every list can be nested into another list. In the following example, the order 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Description lists
@@ -233,7 +233,7 @@ A grouping begins either on the first item of the list or whenever a `<dt>` elem
 In the following example, John and Luke are described as authors, and Frank is described as editor.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <dl>
@@ -245,11 +245,11 @@ In the following example, John and Luke are described as authors, and Frank is d
 </dl>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -263,7 +263,7 @@ In the following example, John and Luke are described as authors, and Frank is d
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 #### Multiple terms, one description
@@ -272,7 +272,7 @@ In the following example, John and Luke are described as authors, and Frank is d
 In the next example, two different spellings of a word are defined using description lists. In such cases, use the `dfn` element to mark up the defined term.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <dl>
@@ -282,11 +282,11 @@ In the next example, two different spellings of a word are defined using descrip
 </dl>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -298,7 +298,7 @@ In the next example, two different spellings of a word are defined using descrip
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 #### Multiple terms, multiple descriptions
@@ -307,7 +307,7 @@ In the next example, two different spellings of a word are defined using descrip
 In this example, John and Luke are authors and also editors:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <dl>
@@ -317,11 +317,11 @@ In this example, John and Luke are authors and also editors:
   <dd>Luke</dd>
 </dl>
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -334,7 +334,7 @@ In this example, John and Luke are authors and also editors:
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Quotes
@@ -348,7 +348,7 @@ Identifying a quotation helps clarify that the content is attributed to another 
 Use the `<blockquote>` element for longer and more complex quotes. It can contain paragraphs, headings, and other text structure elements. Those should reflect the structure of the cited document. The `<cite>` element is used to refer to the source of the quote.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <p>The following is an excerpt from the <cite>The Story of my Life</cite> by Helen Keller</p>
@@ -357,11 +357,11 @@ Use the `<blockquote>` element for longer and more complex quotes. It can contai
 </blockquote>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -372,7 +372,7 @@ Use the `<blockquote>` element for longer and more complex quotes. It can contai
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Inline quote
@@ -381,17 +381,17 @@ Use the `<blockquote>` element for longer and more complex quotes. It can contai
 For shorter quotes, that are usually embedded in another sentence, use the `<q>` element.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <p>Helen Keller said, <q>Self-pity is our worst enemy and if we yield to it, we can never do anything good in the world.</q></p>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -399,7 +399,7 @@ For shorter quotes, that are usually embedded in another sentence, use the `<q>`
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Figures
@@ -410,7 +410,7 @@ Each figure is wrapped in a `<figure>` element and labeled using a nested `<figc
 
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -426,11 +426,11 @@ Each figure is wrapped in a `<figure>` element and labeled using a nested `<figc
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 * **Note:** At the time of writing, WAI-ARIA attributes `role="group"` and `aria-labelledby` are used to provide the information to assistive technologies in a consistent way.
@@ -438,7 +438,7 @@ Each figure is wrapped in a `<figure>` element and labeled using a nested `<figc
 * **Note:** For more information on how to mark up diagrams, see [complex images]({% link _tutorials/images/complex.md %}).
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Images and illustrations

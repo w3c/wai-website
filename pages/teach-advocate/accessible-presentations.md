@@ -44,9 +44,9 @@ Be careful not to leave out information for some people in your audience. For ex
 
 This page helps you make your presentations, talks, meetings, and training accessible to all of your potential audience, including people with disabilities and others. Inclusive presentations have <a href="#benefits">many benefits</a>.
 
-{% include excol.html type="start" id="basic" %}
+{% include_cached excol.html type="start" id="basic" %}
 <h2>Basics <span class="subtext">(for organizers &amp; speakers)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 
 <p>Be open to diversity in your audience and any accessibility issues. Basically, be aware that some of your audience might not be able to:</p>
 <ul class="listafterpul listwithpbelow">
@@ -60,10 +60,10 @@ This page helps you make your presentations, talks, meetings, and training acces
 <p><strong>Respect participant's needs</strong> and be open for other accessibility issues. While most issues are addressed here, people might have specific accessibility needs that aren't covered here and you didn't think of. For example: Someone might need to take breaks at set times for insulin injections. Someone with Tourette syndrome might randomly shout out during a session. Someone with a physical disability who cannot take notes might need to record the session.</p>
 <p>Often speakers won't know if participants have disabilities, for example, a presentation at a large conference where organizers didn't ask registrants. In some cases you might know the accessibility needs of participants ahead of time, such as for an internal training. Even then something could change, for example, a new participant could join the training at the last minute or someone could develop accessibility needs before the training.</p>
 <p>To be prepared for any situation, make your event and your presentations fully accessible.</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="benefits" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="benefits" %}
 <h2>Benefits <span class="subtext">(organizers &amp; speakers)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p>Presentations that are accessible to people with disabilities are <strong>inclusive</strong> to many more audiences as well, including people who are not fluent in the language and people with different learning styles.</p>
 <p>Accessible presentations also have additional benefits, such as in these situations:</p>
 <ul class="listafterpul">
@@ -72,10 +72,10 @@ This page helps you make your presentations, talks, meetings, and training acces
    <li>Transcripts can be put online to increase search engine optimization (SEO) and realize the <a href="http://www.uiaccess.com/transcripts/transcripts_on_the_web.html">other benefits of transcripts <img src="http://www.w3.org/Icons/offsite.png" alt="links off WAI website" /></a>.</li>
 </ul>
 <p>For additional benefits of making online material accessible, see <a href="http://www.w3.org/WAI/bcase/">Developing a Web Accessibility Business Case for Your Organization</a>.</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="arrange" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="arrange" %}
 <h2>Planning the Event <span class="subtext">(organizers)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
    <h3>Ask speakers and participants if they have accessibility requirements.</h3>
    <p>For example, include a question on registration forms for conferences, send an email to company-internal training participants, etc. Invite participants to include specific requests; for example, someone who is hard of hearing might request seating small discussion groups in a circle to make it easier to hear people talking, or someone with low vision might ask to sit in the front row to see the screen better.</p>
    <h3><a name="facility" id="facility">Ensure the facility and area is accessible to speakers and participants.</a></h3>
@@ -92,20 +92,20 @@ This page helps you make your presentations, talks, meetings, and training acces
    <p>Some people need more time to get from room to room; for example, because the accessible route is longer, or they move slowly. Schedule sufficient breaks. People might need to take care of medical needs during breaks. Keep to the schedule as much as possible, and inform participants ahead of time of any changes.</p>
    <h3><a name="tospeakers" id="tospeakers"></a>Give speakers accessibility requirements and guidance.</h3>
    <p>Tell speakers that you expect their material and presentations to be accessible to people with disabilities. Consider including accessibility requirements in any contracts. Consider pointing speakers to this page (www.w3.org/WAI/training/accessible) for guidance, including the link in any speaker guidelines, e-mails, web pages, etc.</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="material" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="material" %}
 <h2>Provide Accessible Material and Media <span class="subtext">(organizers &amp; speakers)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
    <h3>Offer handouts, slides, and other material in accessible formats.</h3>
    <p>Electronic formats such as <acronym title="Hyper-Text Mark-up Language">HTML</acronym> (that is, web page format) and <acronym title="rich text format">RTF</acronym> are often the most flexible to meet different people's needs. Participants might need material in alternative formats such as large print or braille; however, if they get the material in advance electronically, they might not need it in hard copy at all.</p>
    <h3>Ensure slides, handouts, and other electronic material for participants is accessible.</h3>
    <p>For example, provide alternative text for images and mark up headings. HTML material, such as a conference website, should meet <a href="/WAI/intro/wcag.php">WCAG 2.0</a>, at least Level AA. (<a href="#slides">Preparing Slides and Projected Material</a> below has details for speakers. Some other resources are listed under <a href="#fyi">For More Information</a> below.)</p>
    <h3>Make media fully accessible — including audio and video used in sessions, and recordings of sessions provided afterwards.</h3>
    <p>For example, provide captions and/or transcripts as appropriate for audio, and provide audio description for videos as needed. <a href="http://www.w3.org/WAI/WCAG20/quickref/#media-equiv">Guidelines for media on the web</a> is available in <a href="/WAI/intro/wcag.php">WCAG 2.0</a>; it includes specific guidance such as <a href="http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G158">providing an alternative for audio-only content</a> (like podcasts).</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="plan" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="plan" %}
 <h2>Planning Your Session <span class="subtext">(speakers)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
    <h3>Provide material ahead of time, if requested.</h3>
    <p>Provide slides, handouts, and other material to  participants, <a href="#terps" class="termref">interpreters</a>, translators, and <a href="#cart" class="termref">CART</a> writers, as needed. Make it accessible. (More about <a href="#material">providing accessible material</a> is above.)</p>
    <h3>Work with <a href="#terps" class="termref">interpreters</a>, translators, and <a href="#cart" class="termref">CART</a> writers.</h3>
@@ -116,10 +116,10 @@ This page helps you make your presentations, talks, meetings, and training acces
    <p>Remember accessibility issues with any participant activities, such as responding to questions, arranging sticky notes, small group projects, etc.</p>
    <h3>Use multiple communication methods for different learning styles.</h3>
    <p>Some people can better understand verbal information, others  pictures and diagrams, and others text.</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="slides" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="slides" %}
 <h2>Preparing Slides and Projected Material <span class="subtext">(speakers)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
    <h3>Make text and important visuals big enough to be read even from the back of the room.</h3>
    <p>This includes graphics on slides, videos, posters, and other non-electronic material.</p>
    <h3>Use an easy-to-read font face.</h3>
@@ -129,10 +129,10 @@ This page helps you make your presentations, talks, meetings, and training acces
       Use appropriate background and text colors. Some suggest when presenting in a light room to display dark text on a light background. When presenting in a darkened room to display light text on a dark background, and ensure that the weight of text is sufficient (for example, bold).</p>
    <h3><a name="expres" id="expres">Make provided material accessible.</a></h3>
    <p>If you are giving participants material, make it accessible. See <a href="#material">provide accessible material</a> above. An <a href="http://www.w3.org/WAI/presentations/WCAG20_benefits/">example of presentation material provided in both presentation format and web format (HTML and CSS)</a> is linked from the top of the page after "The Benefits of WCAG 2 presentation is available in 2 formats:".</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="during" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="during" %}
 <h2>During the Presentation <span class="subtext">(speakers)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
    <h3>Speak clearly.</h3>
    <p>And avoid speaking too fast, so participants and sign language interpreters can better understand you and keep up.</p>
    <h3>Use simple language.</h3>
@@ -151,10 +151,10 @@ This page helps you make your presentations, talks, meetings, and training acces
    <p>Describe them to the extent needed to understand the presentation. (You usually do not need to describe decorative images.)</p>
    <h3>Describe other visual information.</h3>
    <p>For example, if you ask a question of the audience, summarize the response, such as, Speaker: "If you make your websites fully accessible, please raise your hand."...then: "About half raised their hand."</p>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="fyi" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="fyi" %}
 <h2>For More Information <span class="subtext">(speakers &amp; organizers)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <p>This web page addresses in-person sessions; there are additional considerations for online, remote, and virtual sessions.<br clear="none" />
    <span>Details on how to make material that you give to participants accessible is beyond the scope of this document.</span></p>
 <p>There are resources online that provide related guidance, such as:</p>
@@ -170,10 +170,10 @@ This page helps you make your presentations, talks, meetings, and training acces
    <li><a href="http://www.w3.org/WAI/intro/wcag">Web Content Accessibility Guidelines (WCAG) Overview</a> - introduces guidelines for making web content accessible, including presentation material, online learning, and other material provided in web formats.</li>
    <li><a href="/WAI/">Web Accessibility Initiative (WAI) home page</a> - links to guidelines/standards and a wide range of <a href="http://www.w3.org/WAI/yourWAI">support material</a>.</li>
 </ul>
-{% include excol.html type="end" %}
-{% include excol.html type="start" id="terms" %}
+{% include_cached excol.html type="end" %}
+{% include_cached excol.html type="start" id="terms" %}
 <h2>Terminology <span class="subtext">(appendix)</span></h2>
-{% include excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <dl class="listafterpul">
    <dt><a name="at" id="at">assistive technology</a></dt>
    <dd>Assistive technologies are software or equipment that people with disabilities use to improve interaction with the web, such as <strong>screen readers</strong> that read aloud web pages for people who cannot read text, <strong>screen magnifiers</strong> for people with some types of low vision, and <strong>voice recognition software</strong> and <strong>selection switches</strong> for people who cannot use a keyboard or mouse.</dd>
@@ -184,4 +184,4 @@ This page helps you make your presentations, talks, meetings, and training acces
    <dt><a name="terps" id="terps">interpreters</a></dt>
    <dd>This includes sign language interpreters, cued speech transliterators, and others. Note that sign languages are different from spoken languages and there is not a one-to-one translation.</dd>
 </dl>
-{% include excol.html type="end" %}
+{% include_cached excol.html type="end" %}

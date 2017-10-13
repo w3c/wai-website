@@ -4,7 +4,7 @@ permalink: /standards/web-accessibility-components/
 ---
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" class="simple" %}
+{% include_cached toc.html type="start" title="Page Contents" class="simple" %}
 {:/}
 
 {::options toc_levels="2" /}
@@ -13,7 +13,7 @@ permalink: /standards/web-accessibility-components/
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 <p>This page shows how web accessibility depends on several components working together, and how improvements in specific components could substantially improve web accessibility.</p>

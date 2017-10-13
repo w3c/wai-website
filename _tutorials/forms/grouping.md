@@ -35,7 +35,7 @@ The legend for a group of controls can also highlight common attributes of all c
 In the example below, there are three radio buttons that allow the user to choose an output format. Radio button groups should always be grouped using `<fieldset>`.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -54,11 +54,11 @@ In the example below, there are three radio buttons that allow the user to choos
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -77,7 +77,7 @@ In the example below, there are three radio buttons that allow the user to choos
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Checkboxes
@@ -86,7 +86,7 @@ In the example below, there are three radio buttons that allow the user to choos
 In the example below, three checkboxes are part of an opt-in function for receiving different types of information.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -105,11 +105,11 @@ In the example below, three checkboxes are part of an opt-in function for receiv
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -124,7 +124,7 @@ In the example below, three checkboxes are part of an opt-in function for receiv
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Related fields
@@ -133,7 +133,7 @@ In the example below, three checkboxes are part of an opt-in function for receiv
 This example shows form fields to enter shipping and billing addresses. As the labels in both groups have the same text, the `fieldset` element also helps to distinguish the form fields by their groups. In case the `<legend>` is not read by screen readers (see note below), labels for the first form control in each group should include the group’s name. This name can be hidden visually.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -186,11 +186,11 @@ This example shows form fields to enter shipping and billing addresses. As the l
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -225,7 +225,7 @@ This example shows form fields to enter shipping and billing addresses. As the l
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 **Note:** Depending on the configuration, some screen readers read out the legend either _with every form element_, _once_, or, rarely, _not at all_. To accommodate this consider the following:
@@ -241,7 +241,7 @@ WAI-ARIA provides a grouping role that functions similarly to `fieldset` and `le
 This technique provides additional styling possibilities.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -294,13 +294,13 @@ This technique provides additional styling possibilities.
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 Because WAI-ARIA not fully supported in all web browser and screen reader combinations, a group identifier should be added to the first form control in the group.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -327,7 +327,7 @@ Because WAI-ARIA not fully supported in all web browser and screen reader combin
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Grouping items in `select` elements
@@ -335,7 +335,7 @@ Because WAI-ARIA not fully supported in all web browser and screen reader combin
 For `select` elements with groups of options, the `optgroup` element can be used to indicate such groups. The `label` attribute of the `optgroup` element is used to provide a label for the group. This is especially useful for lists with many related options. In the example below, users can choose from lectures in one of three courses.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form action="#" method="get">
@@ -365,11 +365,11 @@ For `select` elements with groups of options, the `optgroup` element can be used
 </form>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -388,5 +388,5 @@ For `select` elements with groups of options, the `optgroup` element can be used
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

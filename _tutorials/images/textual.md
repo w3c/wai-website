@@ -22,14 +22,14 @@ Images of text display text that is intended to be read. With the current CSS ca
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 Genuine text is much more flexible than images: It can be resized without losing clarity, and background and text colors can be modified to suit the reading preferences of users. Images are more likely to distort and pixelate when resized. In those rare situations where images of text must be used, the text alternative must contain the same text presented in the image.
@@ -40,13 +40,13 @@ Genuine text is much more flexible than images: It can be resized without losing
 This following image is used to convey a slogan text with decorative effects.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ![City Lights: your access to the city.](../../img/bad-top-text.png)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using an image
@@ -55,7 +55,7 @@ This following image is used to convey a slogan text with decorative effects.
 Previously it was not possible to create such text using CSS styling that would be rendered consistently across browsers, which is why images of text were used. The text alternative for this image is the same as the slogan presented in the image: “Your access to the city”. The decorative effects (stylized text and shadow) are not be described because they are not relevant.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -63,7 +63,7 @@ Previously it was not possible to create such text using CSS styling that would 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using CSS3
@@ -84,7 +84,7 @@ The visual effects in the above image can be produced using CSS3 and an embedded
 </aside>
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 <div class="background">
@@ -120,11 +120,11 @@ The visual effects in the above image can be produced using CSS3 and an embedded
 </style>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -132,11 +132,11 @@ The visual effects in the above image can be produced using CSS3 and an embedded
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: CSS" class="example" %}
+{% include_cached box.html type="start" title="Code: CSS" class="example" %}
 {:/}
 
 ~~~ css
@@ -168,17 +168,17 @@ The visual effects in the above image can be produced using CSS3 and an embedded
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** The code snippet doesn’t show any [vendor prefixes](https://www.w3.org/TR/css-2010/#experimental). These can be added to increase compatibility with older versions of web browsers using their experimental implementation of CSS3 features.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Image of text used as an unlinked logo
@@ -187,17 +187,17 @@ The visual effects in the above image can be produced using CSS3 and an embedded
 The following image is the logo for the Web Accessibility Initiative. It is not part of a link, so the text alternative is “Web Accessibility Initiative”. There’s no need to mention that it is a logo.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ![Web Accessibility Initiative](../../img/wai.png)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -205,11 +205,11 @@ The following image is the logo for the Web Accessibility Initiative. It is not 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note 1:** Images used as logos are exempt from some of the accessibility requirements that apply to other images of text. For example, there are no minimum color contrast and text size requirements.
@@ -217,7 +217,7 @@ The following image is the logo for the Web Accessibility Initiative. It is not 
 **Note 2:** If this logo were linked then it would become a functional image. See [Functional Images: Image used alone as a linked logo]({% link _tutorials/images/functional.md %}#image-used-alone-as-a-linked-logo).
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Mathematical expressions
@@ -233,17 +233,17 @@ The image below displays a recurring decimal number (decimal numbers that never 
 In this particular example, the way that the recurrence is shown is important, so it is also described in the text alternative. As with other images, the author is in the best position to determine what information is intended to be conveyed by the image and construct the text alternative accordingly.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ![0.3333 recurring. (The recurrence is indicated by a line over the ‘3’ in the fourth decimal place)](../../img/repeat1.png)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -254,7 +254,7 @@ In this particular example, the way that the recurrence is shown is important, s
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using MathML
@@ -277,7 +277,7 @@ If math forms are a substantial part of the content (for example, for online mat
 The simple example of the recurring number illustrates the difficulty of describing both the content and presentation in mathematical expressions succinctly and clearly. Specifically, it is cumbersome to describe the position and location of the over-line representing recurrence, though it is important for some classroom settings. For more complex expressions or equations, text alternatives for images are unlikely to provide sufficient detail succinctly. MathML helps provide such semantics within the code rather than as text.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 <math>
@@ -288,11 +288,11 @@ The simple example of the recurring number illustrates the difficulty of describ
 </math>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -305,15 +305,15 @@ The simple example of the recurring number illustrates the difficulty of describ
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** The above code includes semantic information that conveys both content and presentation to assistive technologies.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}

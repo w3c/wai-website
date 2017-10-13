@@ -22,14 +22,14 @@ Informative images convey a simple concept or information that can be expressed 
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 In some situations a detailed literal description may be needed, but only when the content of the image is all or part of the conveyed information. Whether to treat an image as informative or [decorative]({% link _tutorials/images/decorative.md %}) is a judgment that authors make, based on the reason for including the image on the page.
@@ -40,7 +40,7 @@ In some situations a detailed literal description may be needed, but only when t
 This example shows two image icons – one of a telephone, one of a fax machine. A phone number follows each image. Consistent with the visual presentation, the text alternatives “Telephone:” and “Fax:” are used to identify the device associated with each number.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 ![Telephone:](../../img/phone.png){:style="vertical-align:middle;"} 0123 456 7890
@@ -48,11 +48,11 @@ This example shows two image icons – one of a telephone, one of a fax machine.
 ![Fax:](../../img/fax.png){:style="vertical-align:middle;"} 0123 456 7891
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="code" %}
+{% include_cached box.html type="start" title="Code" class="code" %}
 {:/}
 
 ~~~ html
@@ -65,7 +65,7 @@ This example shows two image icons – one of a telephone, one of a fax machine.
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Images used to supplement other information
@@ -74,17 +74,17 @@ This example shows two image icons – one of a telephone, one of a fax machine.
 The following image shows a dog wearing a bell. It supplements the adjacent text that explains the purpose of this bell. A short text alternative is sufficient to describe the information that is displayed visually but is not explained in the text; in this case, the text alternative is “Dog with a bell attached to its collar.”.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 ![Dog with a bell attached to its collar.](../../img/dog.jpg){:style="float: left; margin-right: 1em;"} Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="code" %}
+{% include_cached box.html type="start" title="Code" class="code" %}
 {:/}
 
 ~~~ html
@@ -95,17 +95,17 @@ The following image shows a dog wearing a bell. It supplements the adjacent text
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** If the text included an explanation of how the dog wears a bell, the image might be considered redundant and therefore [decorative]({% link _tutorials/images/decorative.md %}). As this isn’t mentioned in the text, the image is deemed to be informative.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Images conveying succinct information
@@ -114,17 +114,17 @@ The following image shows a dog wearing a bell. It supplements the adjacent text
 This simple diagram illustrates a counter-clockwise direction for unscrewing a bottle top or cap. The information can be described in a short sentence, so the text alternative “Push the cap down and turn it counter-clockwise (from right to left)” is given in the `alt` attribute.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <img src="../../img/counter-clockwise.jpg" alt="Push the cap down and turn it counter-clockwise (from right to left)" style="vertical-align: middle; margin-right: .5em;">
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="code" %}
+{% include_cached box.html type="start" title="Code" class="code" %}
 {:/}
 
 ~~~ html
@@ -132,11 +132,11 @@ This simple diagram illustrates a counter-clockwise direction for unscrewing a b
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note 1:** An alternative technique would be to provide the instructions within the main content rather than as a text alternative to the image. This technique makes all information available in text for everyone while providing an illustration for people who prefer to view the information visually.
@@ -144,7 +144,7 @@ This simple diagram illustrates a counter-clockwise direction for unscrewing a b
 **Note 2:** If more information than that of the diagram is intended to be conveyed by the image, it may be better to follow one of the approaches described in [Complex images]({% link _tutorials/images/complex.md %}). For example, if the fact that this diagram appears on a bottle or if the shape and size of the bottle were relevant pieces of information, use a more detailed alternative text.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 
 {:/}
 
@@ -154,17 +154,17 @@ This simple diagram illustrates a counter-clockwise direction for unscrewing a b
 This photograph shows a happy family group. It’s a stock image so the individuals should not be identified. It’s being used to give the impression that the website or the company it represents is family-friendly. The text alternative is “We’re family-friendly” as this best describes the intended impression.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 ![We’re family-friendly.](../../img/family.jpg)
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="code" %}
+{% include_cached box.html type="start" title="Code" class="code" %}
 {:/}
 
 ~~~ html
@@ -172,17 +172,17 @@ This photograph shows a happy family group. It’s a stock image so the individu
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** If the purpose of this image were simply to improve the look of a page rather than convey an impression, it could be deemed to be decorative, as shown in [“Decorative Images: Image used for ambiance”]({% link _tutorials/images/decorative.md %}#image-used-for-ambiance-eye-candy). The author determines the purpose for using the image.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ## Images conveying file format
@@ -194,17 +194,17 @@ alternatives “HTML”, “Word document”, and “PDF” to distinguish the f
 type for each link:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 [2012 Annual report and accounts ![HTML](../../img/html5logo.png) (43KB)]({% link _tutorials/beyond.md %}), also available in [![Word document](../../img/worddocument.png) (254KB)]({% link _tutorials/beyond.md %}) or [![PDF](../../img/pdfdocument.png) (353KB)]({% link _tutorials/beyond.md %}) format.
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="code" %}
+{% include_cached box.html type="start" title="Code" class="code" %}
 {:/}
 
 ~~~ html
@@ -225,11 +225,11 @@ type for each link:
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note 1:** If the format identification were written as part of the link text, the image might be considered [decorative]({% link _tutorials/images/decorative.md %}) and have a null (empty) `alt` attribute (`alt=""`). It could remain in the same link element (`<a>`) as the text, to include it in the clickable area. Further discussion is provided in [“Functional Images: Logo image within link text”]({% link _tutorials/images/functional.md %}#logo-image-within-link-text).
@@ -237,5 +237,5 @@ type for each link:
 **Note 2:** This particular example is similar to the [Functional Images: icon within linked text]({% link _tutorials/images/functional.md %}#icon-image-conveying-information-within-link-text) in that the image conveys information that isn’t given in the link text.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}

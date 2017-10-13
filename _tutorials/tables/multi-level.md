@@ -33,7 +33,7 @@ In many cases, it is worth considering to restructure the information in such ta
 In the table below, the headers for the top half of the tables are different to the headers of the bottom half. The header changes halfway through the table which makes the headers in columns ambiguous. To ensure each data cell is associated with the correct header, each `<th>` element has a unique `id` and each `<td>` cell has a `headers` attribute that lists the `id` values of the associated header cells.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <table>
@@ -83,11 +83,11 @@ In the table below, the headers for the top half of the tables are different to 
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Assigning <strong>id</strong> attributes to <code>&lt;th></code> cells" class="example" %}
+{% include_cached box.html type="start" title="Code: Assigning <strong>id</strong> attributes to <code>&lt;th></code> cells" class="example" %}
 {:/}
 
 ~~~ html
@@ -100,11 +100,11 @@ In the table below, the headers for the top half of the tables are different to 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Assigning <strong>header</strong> attributes to <code>&lt;td></code> cells" class="example" %}
+{% include_cached box.html type="start" title="Code: Assigning <strong>header</strong> attributes to <code>&lt;td></code> cells" class="example" %}
 {:/}
 
 ~~~ html
@@ -115,7 +115,7 @@ In the table below, the headers for the top half of the tables are different to 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 [Full code for Example “Table with multiple column headers in each column”]({% link _tutorials/tables/examples/multiplecolumnheaders.md %})
@@ -126,7 +126,7 @@ In the table below, the headers for the top half of the tables are different to 
 In this example, table headers are used as subheadings to describe what the next section of the table is about. Without these headers, the information would be unclear. Using the `headers` attribute, all three headers can be properly associated with the data cell.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <table class="numbers" summary="Column one has the location and size of accommodation, other columns show the type and number of properties available">
@@ -267,11 +267,11 @@ In this example, table headers are used as subheadings to describe what the next
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title='Code: Assigning <code class="attrib">id</code> attributes to <code class="elem">&lt;th></code> cells' class="example" %}
+{% include_cached box.html type="start" title='Code: Assigning <code class="attrib">id</code> attributes to <code class="elem">&lt;th></code> cells' class="example" %}
 {:/}
 
 ~~~ html
@@ -284,11 +284,11 @@ In this example, table headers are used as subheadings to describe what the next
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title='Code: Assigning <code class="attrib">header</code> attributes to <code class="elem">&lt;td></code> cells' class="example" %}
+{% include_cached box.html type="start" title='Code: Assigning <code class="attrib">header</code> attributes to <code class="elem">&lt;td></code> cells' class="example" %}
 {:/}
 
 ~~~ html
@@ -299,7 +299,7 @@ In this example, table headers are used as subheadings to describe what the next
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 [Full code for Example “Table with three headers related to each data cell”]({% link _tutorials/tables/examples/threeheaders.md %})
@@ -310,7 +310,7 @@ In this example, table headers are used as subheadings to describe what the next
 The two tables below provide the same information as the mutli-level table in [the example above](#table-with-three-headers-related-to-each-data-cell). This makes the information easier to understand for everyone and easier to code. Also, simple tables are much better supported by tools to create web content, including WYSIWYG (“What you see is what you get”) editors.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 <p><strong>Availability of holiday accommodation</strong></p>
 <table class="numbers" summary="Column one has the location and size of accommodation, other columns show the type and number of properties available">
@@ -465,5 +465,5 @@ The two tables below provide the same information as the mutli-level table in [t
 </table>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

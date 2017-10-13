@@ -46,7 +46,7 @@ See the Page Structure Tutorial for more information on [regions](/page-structur
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~html
@@ -62,7 +62,7 @@ See the Page Structure Tutorial for more information on [regions](/page-structur
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -82,7 +82,7 @@ Carousels are often used as a gallery to display a series of images. However, mo
 This first example shows a carousel item with images as content:
 
 {::nomarkdown}
-{% include box.html type="start" title="Example 1" class="example" %}
+{% include_cached box.html type="start" title="Example 1" class="example" %}
 {:/}
 
 ~~~html
@@ -94,13 +94,13 @@ This first example shows a carousel item with images as content:
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 This example of an article that includes a heading and a paragraph shows how more complex content can be used.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example 2" class="example" %}
+{% include_cached box.html type="start" title="Example 2" class="example" %}
 {:/}
 
 ~~~html
@@ -116,5 +116,5 @@ This example of an article that includes a heading and a paragraph shows how mor
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

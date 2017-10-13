@@ -40,17 +40,17 @@ If possible, the first step of a form should explain how many steps will follow.
 The `<title>` element is the first item read by many people, such as screen reader users. Changing the title of the page to include the progress gives immediate feedback. This information should precede other information provided in the title, such as the name of the step or any error notifications.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 Step 2 of 4: Shipping Address – Complete Purchase – Galactic Teddy Bears Shop
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -58,7 +58,7 @@ Step 2 of 4: Shipping Address – Complete Purchase – Galactic Teddy Bears Sho
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using the main heading
@@ -67,17 +67,17 @@ Step 2 of 4: Shipping Address – Complete Purchase – Galactic Teddy Bears Sho
 Using the main heading to inform users is a good way to provide the same information for people scanning the page visually, as the main heading usually is prominent in the document.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <h1 role="presentation">Shipping Address (Step 2 of 4)</h1>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -85,7 +85,7 @@ Using the main heading to inform users is a good way to provide the same informa
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using the HTML5 progress element
@@ -94,7 +94,7 @@ Using the main heading to inform users is a good way to provide the same informa
 HTML5 provides a `progress` element that can be used to inform users about the progress. This can be particularly useful in situations where the number of steps depends on user input, such as in a survey where steps are skipped depending on how questions were answered.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 Survey <progress max="7" value="1">(Step 1 of circa 7)</progress><br>
@@ -131,11 +131,11 @@ progress::-moz-progress-bar {
 </style>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -151,7 +151,7 @@ Survey <progress max="7" value="7">(Finished)</progress>
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 The progress element, like other form elements, is a component from the operating system rendered directly on the website. Those components are animated in some operating systems which would violate WCAG 2.0’s [2.2.2 Pause, Stop, Hide](https://www.w3.org/TR/WCAG20/#time-limits-pause) success criterion that requires that users are able to disable an animation that starts automatically, lasts more than 5 seconds and is presented in parallel with other content.
@@ -159,7 +159,7 @@ The progress element, like other form elements, is a component from the operatin
 The animation can be stopped by using custom styling with browser-specific CSS as shown below.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ css
@@ -180,7 +180,7 @@ progress::-moz-progress-bar {
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using step-by-step indicator
@@ -189,7 +189,7 @@ progress::-moz-progress-bar {
 If a form has a known number of steps to be completed, a step-by-step indicator can help users orient themselves. In the example below, we use an ordered list with a list item for every step. Visually hidden text is used to indicate the current and completed steps. If possible, provide a link to steps already completed, so the user can review them. In this case, any data already entered in the current step should be saved.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 <div class="tlwrapper">
 	<ol class="timeline">
@@ -301,11 +301,11 @@ If a form has a known number of steps to be completed, a step-by-step indicator 
 }
 </style>
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~html
@@ -327,5 +327,5 @@ If a form has a known number of steps to be completed, a step-by-step indicator 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

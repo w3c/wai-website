@@ -21,14 +21,14 @@ Semantic markup conveys the menu structure to users. Menus coded semantically ca
 {::options toc_levels="2,3" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 
@@ -43,7 +43,7 @@ Convey the menu structure, typically by using a list. Such structural informatio
 Use an unordered list (`<ul>`) when the menu items are not in a specific order. Most types of menus, such as website navigation, fall in this category.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -58,7 +58,7 @@ Use an unordered list (`<ul>`) when the menu items are not in a specific order. 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 
@@ -68,7 +68,7 @@ Use an unordered list (`<ul>`) when the menu items are not in a specific order. 
 Use an ordered list (`<ol>`) when the sequence of the menu items is important. In the following example, the menu items represent the steps of a construction manual:
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -83,7 +83,7 @@ Use an ordered list (`<ol>`) when the sequence of the menu items is important. I
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Identify menus
@@ -91,7 +91,7 @@ Use an ordered list (`<ol>`) when the sequence of the menu items is important. I
 Identify the menu, ideally using the HTML5 `<nav>` element to allow users access to the menu directly. Other techniques to mark up a menu are described in the [page regions]({% link _tutorials/page-structure/regions.md %}) tutorial.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -103,7 +103,7 @@ Identify the menu, ideally using the HTML5 `<nav>` element to allow users access
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Label menus
@@ -112,7 +112,7 @@ Identify the menu, ideally using the HTML5 `<nav>` element to allow users access
 Label menus to make them easier to find and understand. Labels should be short but descriptive, to allow users to distinguish between multiple menus on a web page. Use a heading, `aria-label`, or `aria-labelledby` to provide the label. Those techniques are described in the [labeling regions]({% link _tutorials/page-structure/labels.md %}) tutorial.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -122,7 +122,7 @@ Label menus to make them easier to find and understand. Labels should be short b
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Indicate the current item
@@ -139,7 +139,7 @@ Remove the anchor (`<a>`), so users cannot interact with the current item. That 
 In the following example, the menu item has the invisible text “Current Page:” and the `<a>` element is replaced by a `<span>` with a class `current`:
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -151,7 +151,7 @@ In the following example, the menu item has the invisible text “Current Page:�
 </li>
 ~~~
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using WAI-ARIA
@@ -162,7 +162,7 @@ Use the `aria-current="page"` attribute to indicate the current page in the menu
 In the following example the link in the navigation points to the main content of the page.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -174,5 +174,5 @@ In the following example the link in the navigation points to the main content o
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}

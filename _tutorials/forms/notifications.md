@@ -34,7 +34,7 @@ When a form is submitted, it is important that the user is notified whether the 
 A common way to provide feedback is by using the main heading of the web page, usually, the most prominently displayed `<h1>` or `<h2>` element. This technique is particularly useful when forms are processed by the server, but can also be useful for client-side scripting.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Error" class="example" %}
+{% include_cached box.html type="start" title="Code: Error" class="example" %}
 {:/}
 
 ~~~html
@@ -42,11 +42,11 @@ A common way to provide feedback is by using the main heading of the web page, u
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Success" class="example" %}
+{% include_cached box.html type="start" title="Code: Success" class="example" %}
 {:/}
 
 ~~~html
@@ -54,17 +54,17 @@ A common way to provide feedback is by using the main heading of the web page, u
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** The primary purpose of the main heading is still to identify the web page that the user is currently on. When the user is sent back to the same web page because of an error, then a simple indication using the word “error” and possibly the number of errors is helpful.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 ###  Using the page title
@@ -73,7 +73,7 @@ A common way to provide feedback is by using the main heading of the web page, u
 The `<title>` element of the web page can be useful to indicate successes and errors. In particular, screen reader users will receive this feedback immediately when the web page is loaded. This can be helpful when the main heading is located deeper within the content, for example, after the navigation menus.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Error" class="example" %}
+{% include_cached box.html type="start" title="Code: Error" class="example" %}
 {:/}
 
 ~~~html
@@ -81,11 +81,11 @@ The `<title>` element of the web page can be useful to indicate successes and er
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Success" class="example" %}
+{% include_cached box.html type="start" title="Code: Success" class="example" %}
 {:/}
 
 ~~~html
@@ -93,7 +93,7 @@ The `<title>` element of the web page can be useful to indicate successes and er
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Using dialogs
@@ -106,7 +106,7 @@ JavaScript provides a very basic alert dialog box that provides proper keyboard 
 The basic example below shows a pop-up that is displayed when the user activates the “save” button. A message is displayed in the dialog box, and the web page is disabled until the user selects “OK”.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <button id="alertconfirm" type="button">Save</button>
@@ -116,11 +116,11 @@ The basic example below shows a pop-up that is displayed when the user activates
 </script>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~html
@@ -128,11 +128,11 @@ The basic example below shows a pop-up that is displayed when the user activates
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{% include_cached box.html type="start" title="Code: JavaScript" class="example" %}
 {:/}
 
 ~~~js
@@ -143,7 +143,7 @@ document.getElementById('alertconfirm')
 	});
 ~~~
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### Listing errors
@@ -159,7 +159,7 @@ When errors occur, it is helpful to list them at the top of the page, before the
 Sometimes, for example, when using AJAX techniques, the browser is not loading a new page but shows changes, such as form errors, dynamically on the page. The list of errors should be inserted into a prominent container on the top to inform the user in such a case. In addition to the advice above, this container should have the `role` attribute set to `alert` to make assistive technology users aware of this change.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <div role="alert">
@@ -179,11 +179,11 @@ Sometimes, for example, when using AJAX techniques, the browser is not loading a
 </div>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -205,13 +205,13 @@ Sometimes, for example, when using AJAX techniques, the browser is not loading a
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 Also, form fields can be associated with the corresponding error message using aria-describedby.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
@@ -220,7 +220,7 @@ Also, form fields can be associated with the corresponding error message using a
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## In-line feedback
@@ -240,7 +240,7 @@ When the form is submitted, the entries are checked, and feedback is provided to
 If the submitted data contains errors, it is convenient to set the focus to the first `<input>` element that contains an error.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <style>
@@ -305,11 +305,11 @@ document.getElementById('ex3').addEventListener('submit', function(event){
 });
 </script>
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -338,11 +338,11 @@ document.getElementById('ex3').addEventListener('submit', function(event){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: CSS" class="example" %}
+{% include_cached box.html type="start" title="Code: CSS" class="example" %}
 {:/}
 
 ~~~css
@@ -353,7 +353,7 @@ document.getElementById('ex3').addEventListener('submit', function(event){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ### During typing
@@ -367,7 +367,7 @@ Instant feedback during typing can be extremely helpful. For example, checking t
 In the following example, the availability of a username is checked instantly while the user is typing text in the input field. Corresponding success and error messages are displayed without the user needing to submit the form.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -406,11 +406,11 @@ In the following example, the availability of a username is checked instantly wh
 </script>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: HTML" class="example" %}
+{% include_cached box.html type="start" title="Code: HTML" class="example" %}
 {:/}
 
 ~~~ html
@@ -422,11 +422,11 @@ In the following example, the availability of a username is checked instantly wh
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: JavaScript" class="example" %}
+{% include_cached box.html type="start" title="Code: JavaScript" class="example" %}
 {:/}
 
 ~~~ js
@@ -458,17 +458,17 @@ document.getElementById('username').addEventListener('keyup', function(){
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** The displayed message in this example is coded using a `<span>` element that has an `aria-live` attribute with the value `polite`. The contents of this so called “live region” are conveyed to screen readers and other assistive technology. The value “polite” de-emphasizes the importance of the message and does not cause screen readers to interrupt their current tasks to read aloud this message. Thus the message is only read once when the user stops typing rather than on every keystroke that the user makes.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 #### Scaled feedback
@@ -477,17 +477,17 @@ document.getElementById('username').addEventListener('keyup', function(){
 The example below illustrates a range of possible types of feedback in addition to success and error messages. In the example, the strength of the password is checked as it is typed by the user. The feedback indicates a scale of how strong the password is. The feedback is indicated using several cues, including color coding, a barometer, and label “Weak”, “Okay”, and “Strong”, as well as the time that would be needed to crack the password.
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 The password is shown in plain text for demonstration purposes.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <form method="post" action="#">
@@ -545,7 +545,7 @@ document.getElementById('ex2_password').addEventListener('keyup',
 </script>
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 [See commented example code in full.]({% link _tutorials/forms/examples/password.md %})
@@ -558,7 +558,7 @@ In some cases, it does not make sense to check input as it is being typed by the
 In the example below, the user is expected to provide an expiry date. The input is checked when the user leaves the form field, for example, by using the tab key to move the focus to the next field or by clicking on another field.
 
 {::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
+{% include_cached box.html type="start" title="Example" class="example" %}
 {:/}
 
 <style>
@@ -610,11 +610,11 @@ for (var i = inputs.length - 1; i >= 0; i--) {
 
 </script>
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 ~~~html
 <div>
@@ -624,15 +624,15 @@ for (var i = inputs.length - 1; i >= 0; i--) {
 </div>
 ~~~
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** The displayed message in this example is coded using a `<span>` element that has an `aria-live` attribute with the value `assertive`. The contents of this so called “live region” is conveyed to screen readers and other assistive technology. The value “assertive” emphasizes the importance of the message and causes screen readers to interrupt their current tasks to read aloud this message. Thus the message is read aloud before the next element that received the focus is announced to the user.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}

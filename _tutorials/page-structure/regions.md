@@ -22,14 +22,14 @@ Mark up different regions of web pages and applications, so that they can be ide
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" %}
 {:/}
 
 -   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
 
@@ -38,13 +38,13 @@ Mark up different regions of web pages and applications, so that they can be ide
 {::nomarkdown}<%= image_tag 'page-structure-header.png', srcset: image_path('page-structure-header.png') + ', ' + image_path('page-structure-header@2x.png') + ' 2x, ' + image_path('page-structure-header@3x.png') + ' 3x', :alt => '', :class => "symbol" %>{:/nomarkdown} Most websites have a region at the top of every page that contains site-wide information, such as the website logo, search function, and navigation options. HTML5 provides the `<header>` element, which can be used to define such a region.
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** If the `<header>` element is used inside `<article>` and `<section>` elements, it is not associated with the whole page, but only with that specific `<article>` or `<section>`.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -52,7 +52,7 @@ Mark up different regions of web pages and applications, so that they can be ide
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -64,7 +64,7 @@ Mark up different regions of web pages and applications, so that they can be ide
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -82,17 +82,17 @@ View a [complete code example]({% link _tutorials/page-structure/example.md %}) 
 {::nomarkdown}<%= image_tag 'page-structure-footer.png', srcset: image_path('page-structure-footer.png') + ', ' + image_path('page-structure-footer@2x.png') + ' 2x, ' + image_path('page-structure-footer@3x.png') + ' 3x', :alt => '', :class => "symbol" %>{:/nomarkdown} Similar to the page header, most websites also have a region at the bottom of every page that contains site-wide information, such as copyright information, privacy statements, or disclaimers. HTML5 provides the `<footer>` element, which can be used to define such a region.
 
 {::nomarkdown}
-{% include notes.html type="start" %}
+{% include_cached notes.html type="start" %}
 {:/}
 
 **Note:** If the `<footer>` element is used inside `<article>` and `<section>` elements, it is not identified as the footer for the whole page but only relates to that specific `<article>` or `<section>`.
 
 {::nomarkdown}
-{% include notes.html type="end" %}
+{% include_cached notes.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -104,7 +104,7 @@ View a [complete code example]({% link _tutorials/page-structure/example.md %}) 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Navigation
@@ -116,7 +116,7 @@ View a [complete code example]({% link _tutorials/page-structure/example.md %}) 
 {::nomarkdown}<%= image_tag 'page-structure-navigation.png', srcset: image_path('page-structure-navigation.png') + ', ' + image_path('page-structure-navigation@2x.png') + ' 2x, ' + image_path('page-structure-navigation@3x.png') + ' 3x', :alt => '', :class => "symbol" %>{:/nomarkdown} The HTML5 `<nav>` element can be used to identify a navigation menu. A web page can have any number of navigation menus. Use [labels]({% link _tutorials/page-structure/labels.md %}) to identify each navigation menu.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -131,7 +131,7 @@ View a [complete code example]({% link _tutorials/page-structure/example.md %}) 
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -149,7 +149,7 @@ The [Menus tutorial]({% link _tutorials/menus/index.md %}) provides more details
 {::nomarkdown}<%= image_tag 'page-structure-main.png', srcset: image_path('page-structure-main.png') + ', ' + image_path('page-structure-main@2x.png') + ' 2x, ' + image_path('page-structure-main@3x.png') + ' 3x', :alt => '', :class => "symbol" %>{:/nomarkdown} Use the HTML5 `<main>` element to identify the main content region of a web page or application.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -160,7 +160,7 @@ The [Menus tutorial]({% link _tutorials/menus/index.md %}) provides more details
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Complementary content
@@ -168,7 +168,7 @@ The [Menus tutorial]({% link _tutorials/menus/index.md %}) provides more details
 {::nomarkdown}<%= image_tag 'page-structure-aside.png', srcset: image_path('page-structure-aside.png') + ', ' + image_path('page-structure-aside@2x.png') + ' 2x, ' + image_path('page-structure-aside@3x.png') + ' 3x', :alt => '', :class => "symbol" %>{:/nomarkdown} Use the HTML5 `<aside>` element to identify regions that support the main content, yet are separate and meaningful sections on their own; For example, a side note explaining or annotating the main content.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
+{% include_cached box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~html
@@ -179,7 +179,7 @@ The [Menus tutorial]({% link _tutorials/menus/index.md %}) provides more details
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 ## Page Regions in HTML5 Using WAI-ARIA
@@ -192,7 +192,7 @@ The [Menus tutorial]({% link _tutorials/menus/index.md %}) provides more details
 Most current web browsers support the above HTML5 elements and convey the information to assistive technology through the accessibility APIs. However, to maximize compatibility with web browsers and assistive technologies that support WAI-ARIA but do not yet support HTML5, it is currently advisable to use both the HTML5 elements and the corresponding WAI-ARIA roles.
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Examples in HTML5" class="example" %}
+{% include_cached box.html type="start" title="Code: Examples in HTML5" class="example" %}
 {:/}
 ~~~html
 <header role="banner">…</header>
@@ -208,7 +208,7 @@ Most current web browsers support the above HTML5 elements and convey the inform
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -230,7 +230,7 @@ Explore other WAI-ARIA resources:
 If HTML5 cannot be used or if an HTML4 page is retrofitted to improve accessibility, add WAI-ARIA code to `div` elements that function as their HTML5 counterparts, for example:
 
 {::nomarkdown}
-{% include box.html type="start" title="Code: Examples in HTML4" class="example" %}
+{% include_cached box.html type="start" title="Code: Examples in HTML4" class="example" %}
 {:/}
 
 ~~~html
@@ -247,5 +247,5 @@ If HTML5 cannot be used or if an HTML4 page is retrofitted to improve accessibil
 ~~~
 
 {::nomarkdown}
-{% include box.html type="end" %}
+{% include_cached box.html type="end" %}
 {:/}
