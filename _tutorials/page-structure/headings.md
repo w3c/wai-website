@@ -69,7 +69,7 @@ Headings are useful for labeling page regions. Use `aria-labelledby` to associat
 In this first example, the heading with the rank 1 is the first heading in the document. All other headings for structuring the page (Navigation Menu, Sidebar, Footer) are one rank lower, and so is the heading for the main content.
 
 {::nomarkdown}
-<%= demo :start %>
+{% include_cached sidenote.html type="start" %}
 {:/}
 
 {::nomarkdown}
@@ -79,13 +79,13 @@ In this first example, the heading with the rank 1 is the first heading in the d
 {:/}
 
 {::nomarkdown}
-<%= demo :middle %>
+{% include_cached sidenote.html type="middle" %}
 {:/}
 
 View a [complete code example]({% link _tutorials/page-structure/example.md %}) to see headings used like this.
 
 {::nomarkdown}
-<%= demo :end %>
+{% include_cached sidenote.html type="end" %}
 {:/}
 
 ### Main heading after navigation

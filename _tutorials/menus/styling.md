@@ -69,8 +69,8 @@ Use distinct styling to visually indicate menu items as regions of the page that
 Change hovered or focused menu items, which gives users visual guidance when navigating the menu. In this example, hover and focus states use an inverted color scheme (blue on white instead of white on blue) and underline.
 
 {::nomarkdown}
-<%= demo :start %>
-{:/nomarkdown}
+{% include_cached sidenote.html type="start" %}
+{:/}
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Code: CSS" class="example" %}
@@ -104,8 +104,8 @@ See this code in action in the [live example](#example).
 Indicate the menu item that was activated through clicking, tapping, or keyboard selection. Users can identify unintended activation, for instance when they have clicked on the wrong menu item. In this example, the active item has a darker blue background and an underline.
 
 {::nomarkdown}
-<%= demo :start %>
-{:/nomarkdown}
+{% include_cached sidenote.html type="start" %}
+{:/}
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Code: CSS" class="example" %}
@@ -140,8 +140,8 @@ Also visually indicate the current menu item in addition to the structural marku
 In this example, a different color combination (black on gray) and a bottom border were added to give the current menu item a distinct color and shape.
 
 {::nomarkdown}
-<%= demo :start %>
-{:/nomarkdown}
+{% include_cached sidenote.html type="start" %}
+{:/}
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Code: CSS" class="example" %}

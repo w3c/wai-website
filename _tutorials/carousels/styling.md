@@ -24,19 +24,19 @@ WCAG 2.0 does not have specific recommendations for button and link sizes, and s
 ## Contrast
 
 {::nomarkdown}
-<%= ref :start %>
+{% include_cached sidenote.html type="start" %}
 {:/}
 
 ![Example using semi-transparent background colors to ensure sufficient contrast.](carousels-styling-contrast.png){:.sideimage.left} Ensure sufficient contrast between the foreground and the background of text, links, and buttons. This can be a challenge when text or buttons are positioned on top of images. In that case, a (semi-) opaque background color can help to maintain the contrast regardless of the image used.
 
 {::nomarkdown}
-<%= ref :middle %>
+{% include_cached sidenote.html type="middle" %}
 {:/}
 
 For more information on contrast requirements, see [Provide sufficient contrast between foreground and background](https://www.w3.org/WAI/gettingstarted/tips/designing.html#provide-sufficient-contrast-between-foreground-and-background).
 
 {::nomarkdown}
-<%= ref :end %>
+{% include_cached sidenote.html type="end" %}
 {:/}
 
 ## Indicate Button Status
@@ -114,11 +114,11 @@ In the following example, a filled square is used for buttons associated with it
 {:/}
 
 {::nomarkdown}
-<%= demo :middle %>
+{% include_cached sidenote.html type="middle" %}
 {:/}
 
 A [working demo example](working-example.html) for this code is available.
 
 {::nomarkdown}
-<%= demo :end %>
+{% include_cached sidenote.html type="end" %}
 {:/}

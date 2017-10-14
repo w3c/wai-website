@@ -36,8 +36,8 @@ Provide labels to distinguish two page regions of the same type, such as “main
 {:.ap}
 
 {::nomarkdown}
-<%= ref :start %>
-{:/nomarkdown}
+{% include_cached sidenote.html type="start" %}
+{:/}
 
 Use `aria-labelledby` to point to an existing element by its (unique) `id`. The label of the region is the content of the referenced element. Every element can be a label this way. Labels should be short and descriptive. If a heading is present in the region, consider using it as the label:
 
@@ -57,8 +57,8 @@ Use `aria-labelledby` to point to an existing element by its (unique) `id`. The 
 {:/}
 
 {::nomarkdown}
-<%= ref :middle %>
-{:/nomarkdown}
+{% include_cached sidenote.html type="middle" %}
+{:/}
 
 Explore other WAI-ARIA resources:
 
@@ -66,8 +66,8 @@ Explore other WAI-ARIA resources:
 * [Notes on Using ARIA in HTML](https://www.w3.org/TR/aria-in-html/)
 
 {::nomarkdown}
-<%= ref :end %>
-{:/nomarkdown}
+{% include_cached sidenote.html type="end" %}
+{:/}
 
 Note: This approach using headings is also backward compatible for older web browsers and assistive technologies do not process HTML5 and WAI-ARIA.
 
@@ -79,8 +79,8 @@ Note: This approach using headings is also backward compatible for older web bro
 Use the WAI-ARIA `aria-label` attribute to label the region. Consider this approach if the label should not appear visually on the page.
 
 {::nomarkdown}
-<%= demo :start %>
-{:/nomarkdown}
+{% include_cached sidenote.html type="start" %}
+{:/}
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Code" class="example" %}
@@ -97,11 +97,11 @@ Use the WAI-ARIA `aria-label` attribute to label the region. Consider this appro
 {:/}
 
 {::nomarkdown}
-<%= demo :middle %>
+{% include_cached sidenote.html type="middle" %}
 {:/}
 
 View a [complete code example]({% link _tutorials/page-structure/example.md %}) with regions and labels.
 
 {::nomarkdown}
-<%= demo :end %>
+{% include_cached sidenote.html type="end" %}
 {:/}

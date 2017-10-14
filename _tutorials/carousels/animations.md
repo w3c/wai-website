@@ -48,13 +48,13 @@ Provide a button to allow users to stop and resume animation. The example below 
 {:/}
 
 {::nomarkdown}
-<%= demo :middle %>
+{% include_cached sidenote.html type="middle" %}
 {:/}
 
 A [working demo example]({% link _tutorials/carousels/working-example.md %}) for this code is available.
 
 {::nomarkdown}
-<%= demo :end %>
+{% include_cached sidenote.html type="end" %}
 {:/}
 
 {::nomarkdown}

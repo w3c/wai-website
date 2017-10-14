@@ -35,7 +35,7 @@ In addition to the `aria-expanded` and `aria-haspopup` attributes, the following
 * **`separator`:** Represents a separator between two groups of menu items in a menu.
 
 {::nomarkdown}
-<%= ref :start %>
+{% include_cached sidenote.html type="start" %}
 {:/}
 
 {::nomarkdown}

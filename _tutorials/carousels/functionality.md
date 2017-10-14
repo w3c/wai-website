@@ -60,19 +60,19 @@ carousel.appendChild(ctrls);
 {:/}
 
 {::nomarkdown}
-<%= demo :middle %>
+{% include_cached sidenote.html type="middle" %}
 {:/}
 
 A [working demo example](working-example.html) for this code is available.
 
 {::nomarkdown}
-<%= demo :end %>
+{% include_cached sidenote.html type="end" %}
 {:/}
 
 ### Announce the current item
 
 {::nomarkdown}
-<%= ref :start %>
+{% include_cached sidenote.html type="start" %}
 {:/}
 
 Use a [WAI-ARIA live region](https://www.w3.org/TR/wai-aria-1.1/#live_region_roles) to inform screen reader users what item is currently shown. In this example, a visually hidden, “polite” live region is used and added to the carousel when the carousel is loaded. Then, when clicking the previous or next buttons, the text “Item x of y” (with <var>x</var> for current item number and <var>y</var> for the number of items) is set to this live region. Capable screen readers will announce this text.
@@ -80,13 +80,13 @@ Use a [WAI-ARIA live region](https://www.w3.org/TR/wai-aria-1.1/#live_region_rol
 Allow the user to maintain control of the keyboard focus. When the carousel advances automatically, users should not be drawn away from their current place in the page. Also, do not move keyboard focus when the previous or next buttons are used; moving the focus makes it harder for users to browse back and forth between the slides.
 
 {::nomarkdown}
-<%= ref :middle %>
+{% include_cached sidenote.html type="middle" %}
 {:/}
 
 Find more information about WAI-ARIA in the [WAI-ARIA Overview]({% link pages/standards/aria.md %}), the [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.1/) and the [Specification](https://www.w3.org/TR/wai-aria-1.1/).
 
 {::nomarkdown}
-<%= ref :end %>
+{% include_cached sidenote.html type="end" %}
 {:/}
 
 {::nomarkdown}
@@ -123,7 +123,7 @@ if (announceItem) {
 {:.newex}
 
 {::nomarkdown}
-<%= ref :start %>
+{% include_cached sidenote.html type="start" %}
 {:/}
 
 Display buttons for each item in the carousel and highlight the current item. This allows users to get an overview of the carousel content, where they are in the sequence and will enable them to navigate directly to any item.
@@ -131,13 +131,13 @@ Display buttons for each item in the carousel and highlight the current item. Th
 The list with buttons in the example below is added using JavaScript, with a number on the button that corresponds to the carousel item. The buttons are numbered matching the corresponding carousel items. The button for the active carousel item is highlighted both visually, and by using text that is visually hidden (for screen readers).
 
 {::nomarkdown}
-<%= ref :middle %>
+{% include_cached sidenote.html type="middle" %}
 {:/}
 
 See the [carousel styling]({% link _tutorials/carousels/styling.md %}) page for more information on how to highlight the active carousel item in an accessible way.
 
 {::nomarkdown}
-<%= ref :end %>
+{% include_cached sidenote.html type="end" %}
 {:/}
 
 {::nomarkdown}
