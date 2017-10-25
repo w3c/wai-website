@@ -108,7 +108,7 @@ collections:
     name: "Web Accessibility Laws & Policies"
     shortname: "Laws & Policies"
     icon: "book" # TODO
-    repostitory: w3c/wai-tbd
+    repostitory: w3c/wai-policies-prototype
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
