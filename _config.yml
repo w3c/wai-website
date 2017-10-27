@@ -90,7 +90,7 @@ collections:
     name: "Accessibility Training"
     shortname: Trainings
     icon: "book" # TODO
-    repostitory: w3c/wai-tbd
+    repostitory: w3c/wai-training
     output: true
     acknowledgements: false
     permalink: /teach-advocate/:collection/:path/
