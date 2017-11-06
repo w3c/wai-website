@@ -137,6 +137,8 @@
 - name: Standards/ Guidelines
   url: "#"
   pages:
+    - name: Overview
+      url: "/standards/"
     - name: Components of Web Accessibility
       url: "/standards/web-accessibility-components/"
     - name: Web Content - WCAG
