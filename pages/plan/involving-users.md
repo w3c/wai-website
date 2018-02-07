@@ -7,7 +7,7 @@ people:
   editors:
     - name: Kevin White
       url: https://www.w3.org/People/kevin/
-    - name: shadi Abou-Zahra
+    - name: Shadi Abou-Zahra
       url: https://www.w3.org/People/Shadi/
   contributors:
     - name: Judy Brewer

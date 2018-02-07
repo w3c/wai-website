@@ -32,8 +32,7 @@ repository: w3c/wai-website
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
-includes_dir: _external/wai-website-jekyll-templates/_includes
-layouts_dir: _external/wai-website-jekyll-templates/_layouts
+remote_theme: w3c/wai-website-theme
 
 collections:
   perspective-videos:
@@ -188,3 +187,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-remote-theme
