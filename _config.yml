@@ -42,7 +42,7 @@ collections:
     area: "Accessibility Fundamentals"
     name: "Web Accessibility Perspective Videos"
     shortname: "Perspective Videos"
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-showcase-examples
     output: true
     acknowledgements: true
@@ -50,7 +50,7 @@ collections:
   people-use-web:
     area: "Accessibility Fundamentals"
     name: "How People with Disabilities Use the Web"
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-people-use-web
     output: true
     acknowledgements: false
@@ -58,7 +58,7 @@ collections:
   planning-and-managing:
     area: "Plan and Manage"
     name: "Planning and Managing"
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-dynamic-planning
     output: true
     acknowledgements: false
@@ -67,7 +67,7 @@ collections:
     area: "Design & Develop"
     name: "Web Accessibility Tutorials"
     shortname: Tutorials
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-tutorials
     output: true
     acknowledgements: false
@@ -91,7 +91,7 @@ collections:
     area: "Teach & Advocate"
     name: "Accessibility Training"
     shortname: Trainings
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-training
     output: true
     acknowledgements: false
@@ -100,7 +100,7 @@ collections:
     area: "All Areas"
     name: "Tips for Getting Started"
     shortname: Getting Started Tips
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-quick-start
     output: true
     acknowledgements: false
@@ -109,7 +109,7 @@ collections:
     area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
     shortname: "Laws & Policies"
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-policies-prototype
     output: true
     acknowledgements: false
@@ -118,7 +118,7 @@ collections:
     area: "Design & Develop"
     name: "Accessible Audio and Video"
     shortname: "Audio & Video"
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-media-intro
     output: true
     acknowledgements: false
@@ -127,7 +127,7 @@ collections:
     area: "Plan & Manage"
     name: "Business Case"
     shortname: "Business Case"
-    icon: "book" # TODO
+    # icon: "book" # TODO
     repostitory: w3c/wai-bcase
     output: true
     acknowledgements: false
