@@ -237,6 +237,7 @@ DEPENDENCIES
   github-pages (= 175)
   jekyll-github-metadata
   jekyll-include-cache
+  jekyll-paginate
   jekyll-redirect-from
   jekyll-relative-links
   jekyll-remote-theme

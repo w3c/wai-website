@@ -11,3 +11,6 @@
 [submodule "_external/resources/wai-develop-training"]
 	path = _external/resources/wai-develop-training
 	url = https://github.com/w3c/wai-develop-training.git
+[submodule "_external/resources/wai-news"]
+	path = _external/resources/wai-news
+	url = https://github.com/w3c/wai-news.git

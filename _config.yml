@@ -34,6 +34,9 @@ ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
 remote_theme: w3c/wai-website-theme
 
+paginate: 5
+paginate_path: "/news/:num/"
+
 collections:
   perspective-videos:
     area: "Accessibility Fundamentals"
@@ -129,6 +132,9 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /news/:year-:month-:day/:title/
 
 defaults:
   -
@@ -181,10 +187,16 @@ defaults:
       path: "_business-case"
     values:
       layout: "sidenav"
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "default"
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-paginate
   - jekyll-remote-theme
