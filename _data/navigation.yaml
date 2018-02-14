@@ -3,6 +3,8 @@
   pages:
     - name: Introduction to Accessibility
       url: "/fundamentals/accessibility-intro/"
+    - name: Accessibility, Usability, Inclusion
+      url: "/fundamentals/accessibility-usability-inclusion/"
     - name: Accessibility Principles
       url: "/fundamentals/accessibility-principles/"
     - name: Perspectives Videos
@@ -16,8 +18,6 @@
           url: "/people-use-web/abilities-barriers/"
         - name: Tools and Techniques
           url: "/people-use-web/tools-techniques/"
-    - name: Accessibility, Usability, Inclusion
-      url: "/fundamentals/accessibility-usability-inclusion/"
 
 - name: Planning & Policies
   url: "#"
