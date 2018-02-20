@@ -14,3 +14,6 @@
 [submodule "_external/resources/wai-news"]
 	path = _external/resources/wai-news
 	url = https://github.com/w3c/wai-news.git
+[submodule "_external/resources/wai-quick-start"]
+	path = _external/resources/wai-quick-start
+	url = https://github.com/w3c/wai-quick-start.git
