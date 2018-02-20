@@ -35,7 +35,7 @@ nopagefooter: true
             <article class="news-teaser">
                 <h4>{{post.title}}</h4>
                 {{ post.excerpt | markdownify }}
-                <footer>(<a href="{{ post.url | relative_url }}" aria-label="Permalink for {{ post.title | escape }}">{{post.date | date: "%Y-%m-%d"}}</a>)</footer>
+                <footer>(<a href="{{ post.url | relative_url }}" title="Permalink for {{ post.title | escape }}">{{post.date | date: "%Y-%m-%d"}}</a>)</footer>
             </article>
             {%- if forloop.index == 5 -%}
                 {%- break -%}
