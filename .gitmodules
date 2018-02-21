@@ -22,3 +22,6 @@
 	path = _external/resources/wai-intro-accessibility
 	url = https://github.com/w3c/wai-intro-accessibility.git
 	branch = publish
+[submodule "_external/resources/wai-components"]
+	path = _external/resources/wai-components
+	url = https://github.com/w3c/wai-components.git
