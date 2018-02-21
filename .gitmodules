@@ -17,3 +17,8 @@
 [submodule "_external/resources/wai-quick-start"]
 	path = _external/resources/wai-quick-start
 	url = https://github.com/w3c/wai-quick-start.git
+	branch = publish
+[submodule "_external/resources/wai-intro-accessibility"]
+	path = _external/resources/wai-intro-accessibility
+	url = https://github.com/w3c/wai-intro-accessibility.git
+	branch = publish
