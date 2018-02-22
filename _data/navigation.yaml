@@ -25,11 +25,11 @@
       url: "/fundamentals/accessibility-usability-inclusion/"
     - name: Older Users and Accessibility
       url: "/older-users/"
-      pages:
-        - name: How WCAG 2 Applies
-          url: "/older-users/developing/"
-        - name: Literature Review
-          url: "/older-users/literature/"
+      #pages:
+      #  - name: How WCAG 2 Applies
+      #    url: "/older-users/developing/"
+      #  - name: Literature Review
+      #    url: "/older-users/literature/"
 - name: Planning & Policies
   url: "#"
   cols:
