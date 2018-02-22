@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "WAI Home"
+title: "Home"
 nopagefooter: true
 ---
 
