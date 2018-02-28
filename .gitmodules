@@ -25,3 +25,6 @@
 [submodule "_external/resources/wai-components"]
 	path = _external/resources/wai-components
 	url = https://github.com/w3c/wai-components.git
+[submodule "_external/resources/wai-accessibility-principles"]
+	path = _external/resources/wai-accessibility-principles
+	url = https://github.com/w3c/wai-accessibility-principles.git
