@@ -5,10 +5,10 @@ permalink: /search/
 tipue_search_active: true
 exclude_from_search: true
 ---
-<script src="{{ "/assets/scripts/jquery.min.js" | relative_url }}"></script>
-<script src="{{ "/assets/search/tipuesearch_content.js" | relative_url }}"></script>
-<script src="{{ "/assets/search/tipuesearch_set.js" | relative_url }}"></script>
-<script src="{{ "/assets/search/tipuesearch.js" | relative_url }}"></script>
+<script src="{{site.github.url}}/assets/scripts/jquery.min.js"></script>
+<script src="{{site.github.url}}/assets/search/tipuesearch_content.js"></script>
+<script src="{{site.github.url}}/assets/search/tipuesearch_set.js"></script>
+<script src="{{site.github.url}}/assets/search/tipuesearch.js"></script>
 
 ## Search Form
 
