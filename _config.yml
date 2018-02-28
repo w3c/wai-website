@@ -193,6 +193,11 @@ defaults:
     values:
       layout: "default"
 
+tipue_search:
+  include:
+    pages: true
+    collections: ["perspective-videos", "people-use-web", "planning-and-managing", "tutorials", "accessibility-training", "tips", "policies", "media-intro", "business-case"]
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
