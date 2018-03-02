@@ -132,6 +132,16 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
+  older-users:
+    area: "Plan & Manage"
+    name: "Older Users"
+    shortname: "Older Users"
+    # icon: "book" # TODO
+    repostitory: w3c/wai-older-users
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
+    prevnext: false
   posts:
     output: true
     permalink: /news/:year-:month-:day/:title/
@@ -185,6 +195,11 @@ defaults:
   -
     scope:
       path: "_business-case"
+    values:
+      layout: "sidenav"
+  -
+    scope:
+      path: "_older-users"
     values:
       layout: "sidenav"
   -
