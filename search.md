@@ -10,6 +10,12 @@ exclude_from_search: true
 <script src="{{site.github.url}}/assets/search/tipuesearch_set.js"></script>
 <script src="{{site.github.url}}/assets/search/tipuesearch.js"></script>
 
+
+This page searches accessibility introductory and educational materials on the WAI website. You can also:
+
+* [Search W3C standards, guidelines, and Notes](https://duckduckgo.com/?q=site%3Aw3.org%2FTR%2F+wcag&ia=web), including accessibility and other areas
+* [Search the entire W3C website](https://duckduckgo.com/?q=site%3Aw3.org+wcag&ia=web)
+
 ## Search Form
 
 <form action="{{site.github.url}}{{ page.url }}" style="display: flex;">
