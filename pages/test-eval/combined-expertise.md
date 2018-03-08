@@ -182,7 +182,7 @@ expertise needed for Web accessibility evaluation.
         Accessibility](http://www.w3.org/WAI/eval/Overview.html),
         including:
         -   [Conformance Evaluation to WCAG
-            1.0]({% link pages/test-eval/conformance-eval.md %})
+            1.0]({{ "/test-evaluate/conformance/" | relative_url }})
         -   [Evaluation Approaches for Specific
             Contexts](http://www.w3.org/WAI/eval/considerations.html)
         -   [Template for Web Accessibility Evaluation
