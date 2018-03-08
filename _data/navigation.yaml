@@ -68,20 +68,20 @@
         url: "/tips/developing/"
     - pages:
       - name: Tutorials
-        url: "/tutorials/"
+        url: "https://www.w3c/WAI/tutorials/"
         pages:
           - name: Page Structure
-            url: "/tutorials/page-structure/"
+            url: "https://www.w3.org/WAI/tutorials/page-structure/"
           - name: Menus
-            url: "/tutorials/menus/"
+            url: "https://www.w3.org/WAI/tutorials/menus/"
           - name: Images
-            url: "/tutorials/images/"
+            url: "https://www.w3.org/WAI/tutorials/images/"
           - name: Tables
-            url: "/tutorials/tables/"
+            url: "https://www.w3.org/WAI/tutorials/tables/"
           - name: Forms
-            url: "/tutorials/forms/"
+            url: "https://www.w3.org/WAI/tutorials/forms/"
           - name: Carousels
-            url: "/tutorials/carousels/"
+            url: "https://www.w3.org/WAI/tutorials/carousels/"
 
 - name: Test & Evaluate
   url: "#"

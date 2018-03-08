@@ -63,30 +63,30 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
-  tutorials:
-    area: "Design & Develop"
-    name: "Web Accessibility Tutorials"
-    shortname: Tutorials
-    # icon: "book" # TODO
-    repostitory: w3c/wai-tutorials
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
-    groups:
-      - name: index # Note: index is a magic word, it links to the index of the resource
-        title: Overview
-      - name: page-structure
-        title: Page Structure
-      - name: menus
-        title: Menus
-      - name: images
-        title: Images
-      - name: tables
-        title: Tables
-      - name: forms
-        title: Forms
-      - name: carousels
-        title: Carousels
+  # tutorials:
+  #   area: "Design & Develop"
+  #   name: "Web Accessibility Tutorials"
+  #   shortname: Tutorials
+  #   # icon: "book" # TODO
+  #   repostitory: w3c/wai-tutorials
+  #   output: true
+  #   acknowledgements: false
+  #   permalink: /:collection/:path/
+  #   groups:
+  #     - name: index # Note: index is a magic word, it links to the index of the resource
+  #       title: Overview
+  #     - name: page-structure
+  #       title: Page Structure
+  #     - name: menus
+  #       title: Menus
+  #     - name: images
+  #       title: Images
+  #     - name: tables
+  #       title: Tables
+  #     - name: forms
+  #       title: Forms
+  #     - name: carousels
+  #       title: Carousels
   accessibility-training:
     area: "Teach & Advocate"
     name: "Accessibility Training"
