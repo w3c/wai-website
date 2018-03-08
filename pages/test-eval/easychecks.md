@@ -1,1 +1,1 @@
-../../_external/resources/EasyChecks/index.html
+../../_external/resources/EasyChecks/index.md
