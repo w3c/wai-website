@@ -89,3 +89,9 @@
 [submodule "_external/resources/wai-std-gl-overview"]
 	path = _external/resources/wai-std-gl-overview
 	url = https://github.com/w3c/wai-std-gl-overview.git
+[submodule "_external/resources/wai-intro-aria"]
+	path = _external/resources/wai-intro-aria
+	url = https://github.com/w3c/wai-intro-aria.git
+[submodule "_external/resources/wai-intro-atag"]
+	path = _external/resources/wai-intro-atag
+	url = https://github.com/w3c/wai-intro-atag.git
