@@ -62,3 +62,6 @@
 [submodule "_external/resources/wai-selecting-eval-tools"]
 	path = _external/resources/wai-selecting-eval-tools
 	url = https://github.com/w3c/wai-selecting-eval-tools.git
+[submodule "_external/resources/wai-conformance-eval-overview"]
+	path = _external/resources/wai-conformance-eval-overview
+	url = https://github.com/w3c/wai-conformance-eval-overview.git
