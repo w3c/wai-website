@@ -110,3 +110,6 @@
 [submodule "_external/resources/wai-intro-linking"]
 	path = _external/resources/wai-intro-linking
 	url = https://github.com/w3c/wai-intro-linking.git
+[submodule "_external/resources/wai-std-harmonization"]
+	path = _external/resources/wai-std-harmonization
+	url = https://github.com/w3c/wai-std-harmonization.git
