@@ -116,3 +116,6 @@
 [submodule "_external/resources/wai-audiences"]
 	path = _external/resources/wai-audiences
 	url = https://github.com/w3c/wai-audiences.git
+[submodule "_external/resources/wai-about-w3c-process"]
+	path = _external/resources/wai-about-w3c-process
+	url = https://github.com/w3c/wai-about-w3c-process.git
