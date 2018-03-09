@@ -103,16 +103,13 @@ nopagefooter: true
             <h2 class="title">Sponsors and Funders</h2>
         </header>
         <p>WAI is supported in part by the following organizations. Thank you!</p>
-        <ul class="">
-            <li><a href="#">Adobe Systems</a></li>
-            <li><a href="#">Deque Systems</a></li>
-            <li><a href="#">ETS</a></li>
-            <li><a href="#">HP Enterprise</a></li>
-            <li><a href="#">HP Inc.</a></li>
-            <li><a href="#">IBM Corporation</a></li>
-            <li>US Department of Health and Human Services, <a href="#">National Institute for Disability</a>, Independent Living and Rehabilitation Research, contract HHSP23301500054 (<a href="#">WAI-Core 2015 Project</a>)</li>
-            <li>US Access Board (<a href="#">WCAG TA Project</a>)</li>
+        <ul>
+          <li><a href="https://bocoup.com/">Bocoup</a></li>
+          <li><a href="http://www.hp.com/">HP Inc.</a></li>
+          <li><a href="http://www.ibm.com/able">IBM Corporation</a></li>
+          <li>European Commission (<acronym>EC</acronym>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (780057) (<a href="https://www.w3.org/WAI/Tools/">WAI-Tools Project</a>)</li>
+          <li>US Department of Health and Human Services, <a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">National Institute for Disability, Independent Living and Rehabilitation Research</a>, contract HHSP23301500054 (<a href="https://www.w3.org/WAI/Core2015/">WAI-Core 2015 Project</a>)</li>
         </ul>
-        <p>WAI welcomes <a href="#">additional sponsors and contributors</a>.</p>
+        <p>WAI welcomes <a href="{{ "/about/sponsoring/" | relative_url }}">additional sponsors and contributors</a>.</p>
     </div>
 </div>
