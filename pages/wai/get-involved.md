@@ -129,23 +129,23 @@ Promoting and Implementing Web Accessibility {#promo}
 -   If you develop authoring tools—any software or service that people
     use to create or modify Web content, including content management
     systems—implement the [Authoring Tool Accessibility Guidelines
-    (ATAG)]({% link pages/standards/wcag.md %}).
+    (ATAG)]({{ "/standards-guidelines/atag/" | relative_url}}).
 -   If you develop Web browsers, media players, assistive technologies,
     or other user agents—implement the [User Agent Accessibility
-    Guidelines (UAAG)]({% link pages/standards/uaag.md %}).
+    Guidelines (UAAG)]({{ "/standards-guidelines/uaag/" | relative_url}}).
 
 ### Encouraging Accessibility {#proim}
 
 -   [Encourage authoring tools](/WAI/impl/software) to meet
-    [ATAG]({% link pages/standards/atag.md %}) by directly contacting
+    [ATAG]({{ "/standards-guidelines/atag/" | relative_url}}) by directly contacting
     vendors and requesting increased accessibility support in future
     versions, and by purchasing tools that provide the best support for
     accessibility.
 -   Encourage Web browsers, media players, assistive technologies, and
     other user agents to meet
-    [UAAG]({% link pages/standards/uaag.md %}).
+    [UAAG]({{ "/standards-guidelines/uaag/" | relative_url}}).
 -   Encourage organizations to [adopt an accessibility
-    policy]({% link _planning-and-managing/implement.md %}) for their organization that defines their
+    policy]({{ "/planning-and-managing/implement/" | relative_url}}) for their organization that defines their
     commitment to Web accessibility.
 -   Encourage websites to be accessible, for example, provide [feedback
     on inaccessible websites and inaccessible Web products
