@@ -56,3 +56,9 @@
 	path = _external/resources/EasyChecks
 	url = https://github.com/w3c/EasyChecks.git
 	branch = master
+[submodule "_external/resources/wai-eval-tools-overview"]
+	path = _external/resources/wai-eval-tools-overview
+	url = https://github.com/w3c/wai-eval-tools-overview.git
+[submodule "_external/resources/wai-selecting-eval-tools"]
+	path = _external/resources/wai-selecting-eval-tools
+	url = https://github.com/w3c/wai-selecting-eval-tools.git
