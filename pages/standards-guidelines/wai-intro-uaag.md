@@ -1,0 +1,1 @@
+../../_external/resources/wai-intro-uaag/index.md

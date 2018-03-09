@@ -101,3 +101,6 @@
 [submodule "_external/resources/wai-intro-earl"]
 	path = _external/resources/wai-intro-earl
 	url = https://github.com/w3c/wai-intro-earl.git
+[submodule "_external/resources/wai-intro-uaag"]
+	path = _external/resources/wai-intro-uaag
+	url = https://github.com/w3c/wai-intro-uaag.git
