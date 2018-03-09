@@ -120,13 +120,13 @@
     - pages:
       - name: Make Presentations Accessible
         url: "/teach-advocate/accessible-presentations/"
-      - name: Develop Accessibility Training
-        url: "/teach-advocate/accessibility-training/"
+      # - name: Develop Accessibility Training
+      #   url: "/teach-advocate/accessibility-training/"
     # - name: Presentations You Can Use
     #   url: "/teach-advocate/presentations-to-use/"
     - pages:
       - name: Before and After Demo (BAD)
-        url: "/teach-advocate/bad/"
+        url: "https://www.w3.org/WAI/demos/bad/"
       - name: Contacting Inaccessible Websites
         url: "/teach-advocate/contact-inaccessible-websites/"
     - pages:
