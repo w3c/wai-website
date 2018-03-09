@@ -119,3 +119,6 @@
 [submodule "_external/resources/wai-about-w3c-process"]
 	path = _external/resources/wai-about-w3c-process
 	url = https://github.com/w3c/wai-about-w3c-process.git
+[submodule "_external/resources/wai-about-wai"]
+	path = _external/resources/wai-about-wai
+	url = https://github.com/w3c/wai-about-wai.git
