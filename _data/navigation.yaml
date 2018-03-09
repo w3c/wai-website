@@ -97,7 +97,7 @@
           - name: Selecting Evaluation Tools
             url: "/test-evaluate/tools/select/"
           - name: List of Evaluation Tools
-            url: "/test-evaluate/tools/list/"
+            url: "https://www.w3.org/WAI/ER/tools/"
     - pages:
       - name: Conformance Evaluation
         url: "/test-evaluate/conformance/"
