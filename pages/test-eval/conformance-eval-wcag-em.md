@@ -31,7 +31,7 @@ Accessibility Guidelines ([WCAG](http://www.w3.org/WAI/intro/wcag)).
 
 If you want to get a general sense of how a web page addresses a few
 accessibility issues, see [Easy Checks - A First Review of Web
-Accessibility]({% link pages/test-eval/easychecks.md %}). It is
+Accessibility]({{"/test-eval/preliminary/" | relative_url }}). It is
 usually best to do preliminary checks before applying WCAG-EM, and to
 address potential accessibility barriers before investing in a more
 thorough review such as WCAG-EM.
@@ -43,7 +43,7 @@ Group Note.
 ### Scope
 
 WCAG-EM applies to all websites, including web applications and mobile
-websites. ****** It covers different situations, including
+websites. It covers different situations, including
 self-assessment and third-party evaluation. It is independent of
 particular evaluation tools, web browsers, or assistive technologies.
 
