@@ -80,3 +80,6 @@
 [submodule "_external/resources/wai-wcag-em-overview"]
 	path = _external/resources/wai-wcag-em-overview
 	url = https://github.com/w3c/wai-wcag-em-overview.git
+[submodule "_external/resources/wai-presentations2all"]
+	path = _external/resources/wai-presentations2all
+	url = https://github.com/w3c/wai-presentations2all.git
