@@ -83,3 +83,6 @@
 [submodule "_external/resources/wai-presentations2all"]
 	path = _external/resources/wai-presentations2all
 	url = https://github.com/w3c/wai-presentations2all.git
+[submodule "_external/resources/wai-contacting-orgs"]
+	path = _external/resources/wai-contacting-orgs
+	url = https://github.com/w3c/wai-contacting-orgs.git
