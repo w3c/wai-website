@@ -143,6 +143,16 @@ collections:
     acknowledgements: false
     permalink: /:collection/:path/
     prevnext: false
+  audiences:
+    # area: "Plan & Manage"
+    name: "Audiences"
+    shortname: "Audiences"
+    # icon: "book" # TODO
+    repostitory: w3c/wai-audiences
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
+    prevnext: false
   posts:
     output: true
     permalink: /news/:year-:month-:day/:title/
@@ -208,6 +218,11 @@ defaults:
       path: "_posts"
     values:
       layout: "default"
+  -
+    scope:
+      path: "_audiences"
+    values:
+      layout: "sidenav"
 
 tipue_search:
   include:
