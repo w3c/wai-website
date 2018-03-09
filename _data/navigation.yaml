@@ -5,7 +5,7 @@
     - name: Introduction to Accessibility
       url: "/fundamentals/accessibility-intro/"
     - name: Components of Web Accessibility
-      url: "/standards/components/"
+      url: "/standards-guidelines/components/"
     - name: Accessibility Principles
       url: "/fundamentals/accessibility-principles/"
     - name: Perspectives Videos
@@ -149,24 +149,24 @@
   cols:
     - pages:
       - name: Standards Overview
-        url: "/standards/"
+        url: "/standards-guidelines/"
       - name: Web Content - WCAG
-        url: "/standards/wcag/"
+        url: "/standards-guidelines/wcag/"
       - name: Authoring Tools - ATAG
-        url: "/standards/atag/"
+        url: "/standards-guidelines/atag/"
       - name: User Agents - UAAG
-        url: "/standards/uaag/"
+        url: "/standards-guidelines/uaag/"
     - pages:
       - name: WAI-ARIA
-        url: "/standards/aria/"
+        url: "/standards-guidelines/aria/"
       - name: Evaluation Standards - ACT & EARL
-        url: "/standards/earl/"
+        url: "/standards-guidelines/earl/"
       - name: Mobile Accessibility at W3C
-        url: "/standards/mobile-accessibility/"
+        url: "/standards-guidelines/mobile-accessibility/"
       - name: Standards Harmonization is Essential
-        url: "/standards/harmonization/"
+        url: "/standards-guidelines/harmonization/"
     - pages:
       - name: W3C Process for Developing Standards
-      - url: "/standards/w3c-process/"
+      - url: "/standards-guidelines/w3c-process/"
       - name: Referencing and Linking to Standards
-        url: "/standards/linking/"
+        url: "/standards-guidelines/linking/"
