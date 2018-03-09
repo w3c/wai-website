@@ -65,3 +65,6 @@
 [submodule "_external/resources/wai-conformance-eval-overview"]
 	path = _external/resources/wai-conformance-eval-overview
 	url = https://github.com/w3c/wai-conformance-eval-overview.git
+[submodule "_external/resources/wai-eval-report-templates"]
+	path = _external/resources/wai-eval-report-templates
+	url = https://github.com/w3c/wai-eval-report-templates.git

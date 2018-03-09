@@ -103,16 +103,16 @@
         url: "/test-evaluate/conformance/"
         pages:
           - name: WCAG-EM Conformance Methodology
-            url: "/test-evaluate/conformance/methodology/"
+            url: "/test-evaluate/conformance/wcag-em/"
           - name: WCAG-EM Report Tool
-            url: "/test-evaluate/conformance/methodology/report-tool/"
+            url: "https://www.w3.org/WAI/eval/report-tool/#/"
     - pages:
       - name: Report Template
-        url: "/test-evaluate/evaluation-report-template/"
+        url: "/test-evaluate/report-template/"
       - name: Using Combined Expertise
         url: "/test-evaluate/combined-expertise/"
       - name: Involving Users
-        url: "/plan/involving-users/"
+        url: "/test-evaluate/involving-users/"
 
 - name: Teach & Advocate
   url: "#"
