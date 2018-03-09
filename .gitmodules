@@ -46,9 +46,6 @@
 [submodule "_external/resources/wai-org-policies"]
 	path = _external/resources/wai-org-policies
 	url = https://github.com/w3c/wai-org-policies.git
-[submodule "_external/resources/wai-InvolveUsersAll"]
-	path = _external/resources/wai-InvolveUsersAll
-	url = https://github.com/w3c/wai-InvolveUsersAll.git
 [submodule "_external/resources/wai-eval-overview"]
 	path = _external/resources/wai-eval-overview
 	url = https://github.com/w3c/wai-eval-overview.git
@@ -68,3 +65,18 @@
 [submodule "_external/resources/wai-eval-report-templates"]
 	path = _external/resources/wai-eval-report-templates
 	url = https://github.com/w3c/wai-eval-report-templates.git
+[submodule "_external/resources/wai-combined-expertise"]
+	path = _external/resources/wai-combined-expertise
+	url = https://github.com/w3c/wai-combined-expertise.git
+[submodule "_external/resources/wai-involveUsersEval"]
+	path = _external/resources/wai-involveUsersEval
+	url = https://github.com/w3c/wai-involveUsersEval.git
+[submodule "_external/resources/wai-involveUsersAll"]
+	path = _external/resources/wai-involveUsersAll
+	url = https://github.com/w3c/wai-involveUsersAll.git
+[submodule "_external/resources/wai-InvolveUsersAll"]
+	path = _external/resources/wai-InvolveUsersAll
+	url = https://github.com/w3c/wai-InvolveUsersAll.git
+[submodule "_external/resources/wai-wcag-em-overview"]
+	path = _external/resources/wai-wcag-em-overview
+	url = https://github.com/w3c/wai-wcag-em-overview.git
