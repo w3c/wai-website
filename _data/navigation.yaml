@@ -162,11 +162,11 @@
       - name: Evaluation Standards - ACT & EARL
         url: "/standards-guidelines/earl/"
       - name: Mobile Accessibility at W3C
-        url: "/standards-guidelines/mobile-accessibility/"
+        url: "/standards-guidelines/mobile/"
       - name: Standards Harmonization is Essential
         url: "/standards-guidelines/harmonization/"
     - pages:
       - name: W3C Process for Developing Standards
-      - url: "/standards-guidelines/w3c-process/"
+        url: "/standards-guidelines/w3c-process/"
       - name: Referencing and Linking to Standards
         url: "/standards-guidelines/linking/"
