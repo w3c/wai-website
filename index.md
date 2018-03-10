@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "Home"
-nopagefooter: true
 ---
 
 <section class="default-grid teaser making-web-accessible">
