@@ -90,7 +90,7 @@
       - name: Evaluation Overview
         url: "/test-evaluate/"
       - name: Easy Checks – A First Review
-        url: "/test-evaluate/easychecks/"
+        url: "/test-evaluate/preliminary/"
       - name: Evaluation Tools
         url: "/test-evaluate/tools/"
         pages:
