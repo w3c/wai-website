@@ -153,6 +153,13 @@ collections:
     acknowledgements: false
     permalink: /:collection/:path/
     prevnext: false
+  about:
+    name: "About"
+    repostitory: w3c/wai-about-wai
+    output: true
+    acknowledgements: false
+    permalink: /:collection/:path/
+    prevnext: false
   posts:
     output: true
     permalink: /news/:year-:month-:day/:title/
@@ -211,6 +218,11 @@ defaults:
   -
     scope:
       path: "_older-users"
+    values:
+      layout: "sidenav"
+  -
+    scope:
+      path: "_about"
     values:
       layout: "sidenav"
   -
