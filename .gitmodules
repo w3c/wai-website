@@ -8,9 +8,6 @@
 	path = _external/resources/wai-policies-prototype
 	url = https://github.com/w3c/wai-policies-prototype.git
 	branch = release
-[submodule "_external/resources/wai-develop-training"]
-	path = _external/resources/wai-develop-training
-	url = https://github.com/w3c/wai-develop-training.git
 [submodule "_external/resources/wai-news"]
 	path = _external/resources/wai-news
 	url = https://github.com/w3c/wai-news.git
