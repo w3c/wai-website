@@ -52,12 +52,12 @@ title: "Home"
         </h2>
       </header>
       <ul class="two columns">
-        <li><a href="…">Developers</a></li>
-        <li><a href="…">Designers</a></li>
-        <li><a href="…">Managers</a></li>
-        <li><a href="…">Policy Makers</a></li>
-        <li><a href="…">Testers</a></li>
-        <li><a href="…">Advocates</a></li>
+        <li><a href="{{ "/audiences/developers/" | relative_url }}">Developers</a></li>
+        <li><a href="{{ "/audiences/designers/" | relative_url }}">Designers</a></li>
+        <li><a href="{{ "/audiences/managers/" | relative_url }}">Managers</a></li>
+        <li><a href="{{ "/audiences/policy-makers/" | relative_url }}">Policy Makers</a></li>
+        <li><a href="{{ "/audiences/testers/" | relative_url }}">Testers</a></li>
+        <li><a href="{{ "/audiences/advocates/" | relative_url }}">Advocates</a></li>
       </ul>
     </section>
     <section class="teaser media-inline">
@@ -72,13 +72,13 @@ title: "Home"
       </div>
       <p>[Short description for Keyboard Compatibility] All functionality must be usable with the keyboard. That is, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse;…</p>
       <div class="button-group">
-        <a class="button button-more" href="{{site.github.url}}/perspective-videos/keyboard/"><span>More About Keyboard Compatibility</span></a>
-        <a class="button button-more button-secondary" href="{{site.github.url}}/perspective-videos/"><span>See All Perspectives Videos</span></a>
+        <a class="button button-more" href="{{ "/perspective-videos/keyboard/" | relative_url }}"><span>More About Keyboard Compatibility</span></a>
+        <a class="button button-more button-secondary" href="{{ "/perspective-videos/" | relative_url }}"><span>See All Perspectives Videos</span></a>
       </div>
     </section>
 
     <section class="teaser resource-inline">
-      <a class="teaser-c stealthy-link col1" href="{{site.github.url}}/test-evaluate/easychecks/">
+      <a class="teaser-c stealthy-link col1" href="{{ "/test-evaluate/preliminary/" | relative_url }}">
         <header class="teaser-h">
           <h2>
             <span class="subtitle">Featured Resource</span>
