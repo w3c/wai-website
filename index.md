@@ -40,7 +40,7 @@ title: "Home"
                 {%- break -%}
             {%- endif -%}
         {%- endfor -%}
-        <a href="{{site.github.url}}/news/" class="button button-more"><span>See All News</span></a>
+        <a href="{{ "/news/" | relative_url }}" class="button button-more"><span>See All News</span></a>
     </section>
   </div>
   <div class="col2">
