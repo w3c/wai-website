@@ -6,7 +6,7 @@ title: "Home"
 <section class="default-grid teaser making-web-accessible">
   <div class="inner">
     <h2>Making the Web Accessible</h2>
-    <p>Strategies, guidelines, and resources to make the web accessible to people with disabilities.</p>
+    <p>W3C WAI provides you strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
   </div>
   <div class="inner grid-3">
     <div class="col1 making-web-accessible-box">{% include_cached icon.html name="hp-book" class="mwa-icon" %}<h3>W3C</h3>
