@@ -4,8 +4,8 @@ nopagefooter: true
 permalink: /sitemap/
 ---
 
-See also: [annotated list of primary WAI
-Resources](https://www.w3.org/WAI/Resources/Overview).
+<!-- See also: [annotated list of primary WAI
+Resources](https://www.w3.org/WAI/Resources/Overview). @@not sure if we'll update and include this or not... -->
 
 {::nomarkdown}
 <ul>
