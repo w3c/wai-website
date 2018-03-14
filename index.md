@@ -108,6 +108,6 @@ title: "Home"
           <li>European Commission (<acronym>EC</acronym>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (780057) (<a href="https://www.w3.org/WAI/Tools/">WAI-Tools Project</a>)</li>
           <li>US Department of Health and Human Services, <a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">National Institute for Disability, Independent Living and Rehabilitation Research</a>, contract HHSP23301500054 (<a href="https://www.w3.org/WAI/Core2015/">WAI-Core 2015 Project</a>)</li>
         </ul>
-        <p>WAI welcomes <a href="{{ "/about/sponsoring/" | relative_url }}">additional sponsors and contributors</a>.</p>
+        <p>WAI welcomes <a href="{{ "/about/sponsoring/" | relative_url }}">additional sponsors</a>.</p>
     </div>
 </div>
