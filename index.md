@@ -47,17 +47,16 @@ title: "Home"
     <section class="teaser audiences-inline">
       <header class="teaser-h">
         <h2>
-          <span class="subtitle">See what we have for you!</span>
+          <span class="subtitle">See what we have for you</span>
           <span class="title">Get Resources for…</span>
         </h2>
       </header>
       <ul class="two columns">
-        <li><a href="{{ "/audiences/developers/" | relative_url }}">Developers</a></li>
         <li><a href="{{ "/audiences/designers/" | relative_url }}">Designers</a></li>
+        <li><a href="{{ "/audiences/developers/" | relative_url }}">Developers</a></li>
         <li><a href="{{ "/audiences/managers/" | relative_url }}">Managers</a></li>
         <li><a href="{{ "/audiences/policy-makers/" | relative_url }}">Policy Makers</a></li>
-        <li><a href="{{ "/audiences/testers/" | relative_url }}">Testers</a></li>
-        <li><a href="{{ "/audiences/advocates/" | relative_url }}">Advocates</a></li>
+        <li><a href="{{ "/audiences/testers/" | relative_url }}">Testers/Evaluators</a></li>
       </ul>
     </section>
     <section class="teaser media-inline">
