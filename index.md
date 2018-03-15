@@ -47,7 +47,7 @@ title: "Home"
     <section class="teaser audiences-inline">
       <header class="teaser-h">
         <h2>
-          <span class="subtitle">See what we have for you</span>
+          <span class="subtitle">See what we have for you: </span>
           <span class="title">Get Resources for…</span>
         </h2>
       </header>
@@ -63,7 +63,7 @@ title: "Home"
     <section class="teaser media-inline">
       <header class="teaser-h">
         <h2>
-          <span class="subtitle">Web Accessibility Perspectives</span>
+          <span class="subtitle">Web Accessibility Perspectives: </span>
           <span class="title">Keyboard Compatibility</span>
         </h2>
       </header>
@@ -81,7 +81,7 @@ title: "Home"
       <a class="teaser-c stealthy-link col1" href="{{ "/test-evaluate/preliminary/" | relative_url }}">
         <header class="teaser-h">
           <h2>
-            <span class="subtitle">Featured Resource</span>
+            <span class="subtitle">Featured Resource: </span>
             <span class="title">Easy Checks</span>
           </h2>
         </header>
