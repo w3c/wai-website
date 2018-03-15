@@ -46,7 +46,7 @@ collections:
     name: "Web Accessibility Perspective Videos"
     shortname: "Perspective Videos"
     # icon: "book" # TODO
-    repostitory: w3c/wai-showcase-examples
+    repository: w3c/wai-showcase-examples
     output: true
     acknowledgements: true
     permalink: /:collection/:path/
@@ -54,7 +54,7 @@ collections:
     area: "Accessibility Fundamentals"
     name: "How People with Disabilities Use the Web"
     # icon: "book" # TODO
-    repostitory: w3c/wai-people-use-web
+    repository: w3c/wai-people-use-web
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -62,7 +62,7 @@ collections:
     area: "Plan and Manage"
     name: "Planning and Managing"
     # icon: "book" # TODO
-    repostitory: w3c/wai-dynamic-planning
+    repository: w3c/wai-dynamic-planning
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -71,7 +71,7 @@ collections:
   #   name: "Web Accessibility Tutorials"
   #   shortname: Tutorials
   #   # icon: "book" # TODO
-  #   repostitory: w3c/wai-tutorials
+  #   repository: w3c/wai-tutorials
   #   output: true
   #   acknowledgements: false
   #   permalink: /:collection/:path/
@@ -95,7 +95,7 @@ collections:
     name: "Accessibility Training"
     shortname: Trainings
     # icon: "book" # TODO
-    repostitory: w3c/wai-training
+    repository: w3c/wai-training
     output: true
     acknowledgements: false
     permalink: /teach-advocate/:collection/:path/
@@ -104,7 +104,7 @@ collections:
     name: "Tips for Getting Started"
     shortname: Getting Started Tips
     # icon: "book" # TODO
-    repostitory: w3c/wai-quick-start
+    repository: w3c/wai-quick-start
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -113,7 +113,7 @@ collections:
     name: "Web Accessibility Laws & Policies"
     shortname: "Laws & Policies"
     # icon: "book" # TODO
-    repostitory: w3c/wai-policies-prototype
+    repository: w3c/wai-policies-prototype
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -122,7 +122,7 @@ collections:
     name: "Accessible Audio and Video"
     shortname: "Audio & Video"
     # icon: "book" # TODO
-    repostitory: w3c/wai-media-intro
+    repository: w3c/wai-media-intro
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -131,7 +131,7 @@ collections:
     name: "Business Case"
     shortname: "Business Case"
     # icon: "book" # TODO
-    repostitory: w3c/wai-bcase
+    repository: w3c/wai-bcase
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -140,7 +140,7 @@ collections:
     name: "Older Users"
     shortname: "Older Users"
     # icon: "book" # TODO
-    repostitory: w3c/wai-older-users
+    repository: w3c/wai-older-users
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -150,14 +150,14 @@ collections:
     name: "Audiences"
     shortname: "Audiences"
     # icon: "book" # TODO
-    repostitory: w3c/wai-audiences
+    repository: w3c/wai-audiences
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
     prevnext: false
   about:
     name: "About"
-    repostitory: w3c/wai-about-wai
+    repository: w3c/wai-about-wai
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
