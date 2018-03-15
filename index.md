@@ -57,7 +57,8 @@ title: "Home"
         <li><a href="{{ "/audiences/managers/" | relative_url }}">Managers</a></li>
         <li><a href="{{ "/audiences/policy-makers/" | relative_url }}">Policy Makers</a></li>
         <li><a href="{{ "/audiences/testers/" | relative_url }}">Testers/Evaluators</a></li>
-        <li><a href="{{ "/audiences/users/" | relative_url }}">Web Users</a></li>
+        <li><a href="{{ "/audiences/trainers/" | relative_url }}"> Trainers/Educators </a></li>
+        <li><a href="{{ "/audiences/users/" | relative_url }}">Web Users, Advocates</a></li>
       </ul>
     </section>
     <section class="teaser media-inline">
