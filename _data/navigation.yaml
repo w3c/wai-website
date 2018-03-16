@@ -68,7 +68,7 @@
         url: "/tips/developing/"
     - pages:
       - name: Tutorials
-        url: "https://www.w3c/WAI/tutorials/"
+        url: "https://www.w3.org/WAI/tutorials/"
         pages:
           - name: Page Structure
             url: "https://www.w3.org/WAI/tutorials/page-structure/"
