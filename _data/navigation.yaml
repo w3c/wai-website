@@ -144,7 +144,7 @@
         #   - name: Resources
         #     url: "/business-case/resources/"
 
-- name: Standards/ Guidelines
+- name: Standards/<wbr>Guidelines
   url: "#"
   cols:
     - pages:
