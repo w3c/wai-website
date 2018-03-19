@@ -90,7 +90,7 @@ title: "Home"
           Is accessibility addressed in even the most basic way on your site?
         </p>
         <div>
-          <span class="button">Read More</span>
+          <span class="button">More About EasyChecks</span>
         </div>
       </a>
     </section>
