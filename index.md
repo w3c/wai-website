@@ -40,7 +40,7 @@ title: "Home"
                 {%- break -%}
             {%- endif -%}
         {%- endfor -%}
-        <a href="{{ "/news/" | relative_url }}" class="button button-more"><span>See All News</span></a>
+        <a href="{{ '/news/' | relative_url }}" class="button button-more"><span>See All News</span></a>
     </section>
   </div>
   <div class="col2">
@@ -52,13 +52,13 @@ title: "Home"
         </h2>
       </header>
       <ul class="two columns">
-        <li><a href="{{ "/audiences/designers/" | relative_url }}">Designers</a></li>
-        <li><a href="{{ "/audiences/developers/" | relative_url }}">Developers</a></li>
-        <li><a href="{{ "/audiences/managers/" | relative_url }}">Managers</a></li>
-        <li><a href="{{ "/audiences/policy-makers/" | relative_url }}">Policy Makers</a></li>
-        <li><a href="{{ "/audiences/testers/" | relative_url }}">Testers/Evaluators</a></li>
-        <li><a href="{{ "/audiences/trainers/" | relative_url }}"> Trainers/Educators </a></li>
-        <li><a href="{{ "/audiences/users/" | relative_url }}">Web Users, Advocates</a></li>
+        <li><a href="{{ '/audiences/designers/' | relative_url }}">Designers</a></li>
+        <li><a href="{{ '/audiences/developers/' | relative_url }}">Developers</a></li>
+        <li><a href="{{ '/audiences/managers/' | relative_url }}">Managers</a></li>
+        <li><a href="{{ '/audiences/policy-makers/' | relative_url }}">Policy Makers</a></li>
+        <li><a href="{{ '/audiences/testers/' | relative_url }}">Testers/Evaluators</a></li>
+        <li><a href="{{ '/audiences/trainers/' | relative_url }}"> Trainers/Educators </a></li>
+        <li><a href="{{ '/audiences/users/' | relative_url }}">Web Users, Advocates</a></li>
       </ul>
     </section>
     <section class="teaser media-inline">
@@ -73,13 +73,13 @@ title: "Home"
       </div>
       <p>[Short description for Keyboard Compatibility] All functionality must be usable with the keyboard. That is, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse;…</p>
       <div class="button-group">
-        <a class="button button-more" href="{{ "/perspective-videos/keyboard/" | relative_url }}"><span>More About Keyboard Compatibility</span></a>
-        <a class="button button-more button-secondary" href="{{ "/perspective-videos/" | relative_url }}"><span>See All Perspectives Videos</span></a>
+        <a class="button button-more" href="{{ '/perspective-videos/keyboard/' | relative_url }}"><span>More About Keyboard Compatibility</span></a>
+        <a class="button button-more button-secondary" href="{{ '/perspective-videos/' | relative_url }}"><span>See All Perspectives Videos</span></a>
       </div>
     </section>
 
     <section class="teaser resource-inline">
-      <a class="teaser-c stealthy-link col1" href="{{ "/test-evaluate/preliminary/" | relative_url }}">
+      <a class="teaser-c stealthy-link col1" href="{{ '/test-evaluate/preliminary/' | relative_url }}">
         <header class="teaser-h">
           <h2>
             <span class="subtitle">Featured Resource: </span>
@@ -110,6 +110,6 @@ title: "Home"
           <li>European Commission (<abbr>EC</abbr>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (780057) (<a href="https://www.w3.org/WAI/Tools/">WAI-Tools Project</a>)</li>
           <li>US Department of Health and Human Services, <a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">National Institute for Disability, Independent Living and Rehabilitation Research</a>, contract HHSP23301500054 (<a href="https://www.w3.org/WAI/Core2015/">WAI-Core 2015 Project</a>)</li>
         </ul>
-        <p>WAI welcomes <a href="{{ "/about/sponsoring/" | relative_url }}">additional sponsors</a>.</p>
+        <p>WAI welcomes <a href="{{ '/about/sponsoring/' | relative_url }}">additional sponsors</a>.</p>
     </div>
 </div>
