@@ -5,7 +5,7 @@ title: "Home"
 
 <section class="default-grid teaser making-web-accessible">
   <div class="inner">
-    <h2>Making the Web Accessible</h2>
+    <h1>Making the Web Accessible</h1>
     <p>W3C WAI provides you strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
   </div>
   <div class="inner grid-3">
