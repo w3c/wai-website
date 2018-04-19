@@ -2,13 +2,15 @@
 layout: home
 title: "Home"
 ---
-
-<section class="default-grid teaser making-web-accessible">
-  <div class="inner">
-    <h1>Making the Web Accessible</h1>
-    <p>W3C WAI provides you strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
-  </div>
-  <div class="inner grid-3">
+<h1 class="visuallyhidden">W3C Web Accessibility Initiative Home</h1>
+<section class="default-grid teaser making-web-accessible" aria-labelledby="mwa-title">
+  <header class="inner teaser-h">
+    <h2 id="mwa-title">
+      <span class="title">Making the Web Accessible</span>
+      <span class="subtitle">W3C WAI provides you with strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</span>
+    </h2>
+  </header>
+  <div class="inner grid-3 nogap">
     <div class="col1 making-web-accessible-box">{% include_cached icon.html name="hp-book" class="mwa-icon" %}<h3>W3C</h3>
       <p>The World Wide Web Consortium (W3C) develops international standards for the Web: HTML, CSS, and many more.</p>
     </div>
@@ -23,9 +25,9 @@ title: "Home"
 
 <div class="white-bg grid-five-three">
   <div class="col1 grid-line-right">
-    <section class="teaser news-teaser">
+    <section class="teaser news-teaser" aria-labelledby="news-teaser-title">
         <header class="teaser-h">
-          <h2>
+          <h2 id="news-teaser-title">
             <span class="subtitle">&nbsp;</span>
             <span class="title">News</span>
           </h2>
@@ -44,9 +46,9 @@ title: "Home"
     </section>
   </div>
   <div class="col2">
-    <section class="teaser audiences-inline">
+    <section class="teaser audiences-inline" aria-labelledby="audiences-title">
       <header class="teaser-h">
-        <h2>
+        <h2 id="audiences-title">
           <span class="subtitle">See what we have for you: </span>
           <span class="title">Get Resources for…</span>
         </h2>
@@ -61,9 +63,9 @@ title: "Home"
         <li><a href="{{ '/audiences/users/' | relative_url }}">Web Users, Advocates</a></li>
       </ul>
     </section>
-    <section class="teaser media-inline">
+    <section class="teaser media-inline" aria-labelledby="perspectives-title">
       <header class="teaser-h">
-        <h2>
+        <h2 id="perspectives-title">
           <span class="subtitle">Web Accessibility Perspectives: </span>
           <span class="title">Keyboard Compatibility</span>
         </h2>
@@ -78,10 +80,10 @@ title: "Home"
       </div>
     </section>
 
-    <section class="teaser resource-inline">
+    <section class="teaser resource-inline" aria-labelledby="easychecks-title">
       <a class="teaser-c stealthy-link col1" href="{{ '/test-evaluate/preliminary/' | relative_url }}">
         <header class="teaser-h">
-          <h2>
+          <h2 id="easychecks-title">
             <span class="subtitle">Featured Resource: </span>
             <span class="title">Easy Checks</span>
           </h2>
