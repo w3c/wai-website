@@ -7,7 +7,7 @@ title: "Home"
   <header class="inner teaser-h">
     <h2 id="mwa-title">
       <span class="title">Making the Web Accessible</span>
-      <span class="subtitle">W3C WAI provides you with strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</span>
+      <span class="subtitle">Strategies, standards, and supporting resources to help you make the Web more accessible to people with disabilities.</span>
     </h2>
   </header>
   <div class="inner grid-3 nogap">
