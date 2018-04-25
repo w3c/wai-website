@@ -34,9 +34,8 @@ title: "Home"
         </header>
         {%- for post in site.posts -%}
             <article class="news-teaser">
-                <h4>{{post.title}}</h4>
+                <h4><a href="{{ post.url | relative_url }}">{{post.title}}</a> <small>({{post.date | date: "%Y-%m-%d"}})</small></h4>
                 {{ post.excerpt | markdownify }}
-                <footer>(<a href="{{ post.url | relative_url }}" title="Permalink for {{ post.title | escape }}">{{post.date | date: "%Y-%m-%d"}}</a>)</footer>
             </article>
             {%- if forloop.index == 5 -%}
                 {%- break -%}
