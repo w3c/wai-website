@@ -176,32 +176,32 @@ defaults:
     scope:
       path: "_perspective-videos"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_people-use-web"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_planning-and-managing"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_tutorials"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_accessibility-training"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_tips"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_policies"
@@ -211,17 +211,17 @@ defaults:
     scope:
       path: "_media-intro"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_business-case"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_older-users"
     values:
-      layout: "sidenav"
+      layout: "default"
   -
     scope:
       path: "_about"
