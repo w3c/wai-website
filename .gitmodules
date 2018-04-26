@@ -1,6 +1,7 @@
 [submodule "_external/resources/wai-inclusion"]
 	path = _external/resources/wai-inclusion
 	url = https://github.com/w3c/wai-inclusion.git
+	branch = gh-pages
 [submodule "_external/resources/wai-bcase"]
 	path = _external/resources/wai-bcase
 	url = https://github.com/w3c/wai-bcase.git
@@ -14,7 +15,7 @@
 [submodule "_external/resources/wai-quick-start"]
 	path = _external/resources/wai-quick-start
 	url = https://github.com/w3c/wai-quick-start.git
-	branch = publish
+	branch = release
 [submodule "_external/resources/wai-intro-accessibility"]
 	path = _external/resources/wai-intro-accessibility
 	url = https://github.com/w3c/wai-intro-accessibility.git
@@ -104,6 +105,7 @@
 [submodule "_external/resources/wai-intro-linking"]
 	path = _external/resources/wai-intro-linking
 	url = https://github.com/w3c/wai-intro-linking.git
+	branch = gh-pages
 [submodule "_external/resources/wai-std-harmonization"]
 	path = _external/resources/wai-std-harmonization
 	url = https://github.com/w3c/wai-std-harmonization.git
