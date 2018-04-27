@@ -147,13 +147,13 @@ collections:
     prevnext: false
   audiences:
     # area: "Plan & Manage"
-    name: "Audiences"
-    shortname: "Audiences"
+    name: "Roles"
+    shortname: "Roles"
     # icon: "book" # TODO
     repository: w3c/wai-audiences
     output: true
     acknowledgements: false
-    permalink: /:collection/:path/
+    permalink: /roles/:path/
     prevnext: false
   about:
     name: "About"

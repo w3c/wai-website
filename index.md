@@ -54,13 +54,13 @@ title: "Home"
         </h2>
       </header>
       <ul class="two columns">
-        <li><a href="{{ '/audiences/designers/' | relative_url }}">Designers</a></li>
-        <li><a href="{{ '/audiences/developers/' | relative_url }}">Developers</a></li>
-        <li><a href="{{ '/audiences/managers/' | relative_url }}">Managers</a></li>
-        <li><a href="{{ '/audiences/policy-makers/' | relative_url }}">Policy Makers</a></li>
-        <li><a href="{{ '/audiences/testers/' | relative_url }}">Testers/Evaluators</a></li>
-        <li><a href="{{ '/audiences/trainers/' | relative_url }}"> Trainers/Educators </a></li>
-        <li><a href="{{ '/audiences/users/' | relative_url }}">Web Users, Advocates</a></li>
+        <li><a href="{{ '/roles/designers/' | relative_url }}">Designers</a></li>
+        <li><a href="{{ '/roles/developers/' | relative_url }}">Developers</a></li>
+        <li><a href="{{ '/roles/managers/' | relative_url }}">Managers</a></li>
+        <li><a href="{{ '/roles/policy-makers/' | relative_url }}">Policy Makers</a></li>
+        <li><a href="{{ '/roles/testers/' | relative_url }}">Testers/Evaluators</a></li>
+        <li><a href="{{ '/roles/trainers/' | relative_url }}"> Trainers/Educators </a></li>
+        <li><a href="{{ '/roles/users/' | relative_url }}">Web Users, Advocates</a></li>
       </ul>
     </section>
     <section class="teaser media-inline" aria-labelledby="perspectives-title">
