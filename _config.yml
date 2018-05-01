@@ -112,7 +112,7 @@ collections:
     area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
     shortname: "Laws & Policies"
-    # icon: "book" # TODO
+    parent: '/plan/'
     repository: w3c/wai-policies-prototype
     output: true
     acknowledgements: false
