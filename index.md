@@ -115,4 +115,3 @@ title: "Home"
         <p>WAI welcomes <a href="{{ '/about/sponsoring/' | relative_url }}">additional sponsors</a>.</p>
     </div>
 </div>
-
