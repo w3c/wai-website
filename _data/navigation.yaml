@@ -125,6 +125,8 @@
 
 - name: Teach & Advocate
   pages:
+  - name: Overview
+    url: "/teach-advocate/"
   - name: Make Presentations Accessible
     url: "/teach-advocate/accessible-presentations/"
 # - name: Develop Accessibility Training

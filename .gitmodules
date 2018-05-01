@@ -139,3 +139,6 @@
 [submodule "_external/resources/wai-design-develop-overview"]
 	path = _external/resources/wai-design-develop-overview
 	url = https://github.com/w3c/wai-design-develop-overview.git
+[submodule "_external/resources/wai-teach-advocate-overview"]
+	path = _external/resources/wai-teach-advocate-overview
+	url = https://github.com/w3c/wai-teach-advocate-overview.git
