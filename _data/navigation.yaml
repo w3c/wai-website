@@ -129,8 +129,15 @@
     url: "/teach-advocate/"
   - name: Make Presentations Accessible
     url: "/teach-advocate/accessible-presentations/"
-# - name: Develop Accessibility Training
-#   url: "/teach-advocate/accessibility-training/"
+  - name: Develop Accessibility Training
+    url: "/teach-advocate/accessibility-training/"
+    pages:
+    - name: Topics
+      url: "/teach-advocate/accessibility-training/topics/"
+    - name: Presentation Outlines
+      url: "/teach-advocate/accessibility-training/presentation-outlines/"
+    - name: Workshop Outline
+      url: "/teach-advocate/accessibility-training/workshop-outline/"
 # - name: Presentations You Can Use
 #   url: "/teach-advocate/presentations-to-use/"
   - name: Before and After Demo (BAD)

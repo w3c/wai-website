@@ -45,7 +45,6 @@ collections:
     area: "Accessibility Fundamentals"
     name: "Web Accessibility Perspective Videos"
     shortname: "Perspective Videos"
-    # icon: "book" # TODO
     repository: w3c/wai-showcase-examples
     output: true
     acknowledgements: true
@@ -53,7 +52,6 @@ collections:
   people-use-web:
     area: "Accessibility Fundamentals"
     name: "How People with Disabilities Use the Web"
-    # icon: "book" # TODO
     repository: w3c/wai-people-use-web
     output: true
     acknowledgements: false
@@ -61,7 +59,6 @@ collections:
   planning-and-managing:
     area: "Plan and Manage"
     name: "Planning and Managing"
-    # icon: "book" # TODO
     repository: w3c/wai-dynamic-planning
     output: true
     acknowledgements: false
@@ -70,7 +67,6 @@ collections:
   #   area: "Design & Develop"
   #   name: "Web Accessibility Tutorials"
   #   shortname: Tutorials
-  #   # icon: "book" # TODO
   #   repository: w3c/wai-tutorials
   #   output: true
   #   acknowledgements: false
@@ -94,8 +90,7 @@ collections:
     area: "Teach & Advocate"
     name: "Accessibility Training"
     shortname: Trainings
-    # icon: "book" # TODO
-    repository: w3c/wai-training
+    repository: w3c/wai-develop-training
     output: true
     acknowledgements: false
     permalink: /teach-advocate/:collection/:path/
@@ -103,7 +98,6 @@ collections:
     area: "All Areas"
     name: "Tips for Getting Started"
     shortname: Getting Started Tips
-    # icon: "book" # TODO
     repository: w3c/wai-quick-start
     output: true
     acknowledgements: false
@@ -121,7 +115,6 @@ collections:
     area: "Design & Develop"
     name: "Accessible Audio and Video"
     shortname: "Audio & Video"
-    # icon: "book" # TODO
     repository: w3c/wai-media-intro
     output: true
     acknowledgements: false
@@ -130,7 +123,6 @@ collections:
     area: "Plan & Manage"
     name: "Business Case"
     shortname: "Business Case"
-    # icon: "book" # TODO
     repository: w3c/wai-bcase
     output: true
     acknowledgements: false
@@ -139,7 +131,6 @@ collections:
     area: "Plan & Manage"
     name: "Older Users"
     shortname: "Older Users"
-    # icon: "book" # TODO
     repository: w3c/wai-older-users
     output: true
     acknowledgements: false
@@ -149,7 +140,6 @@ collections:
     # area: "Plan & Manage"
     name: "Roles"
     shortname: "Roles"
-    # icon: "book" # TODO
     repository: w3c/wai-audiences
     output: true
     acknowledgements: false
