@@ -38,8 +38,6 @@
       url: "/people-use-web/abilities-barriers/"
     - name: Tools and Techniques
       url: "/people-use-web/tools-techniques/"
-  - name: Accessibility, Usability, Inclusion
-    url: "/fundamentals/accessibility-usability-inclusion/"
   - name: Older Users and Accessibility
     url: "/older-users/"
     pages:
@@ -47,6 +45,8 @@
       url: "/older-users/developing/"
     - name: Literature Review
       url: "/older-users/literature/"
+  - name: Accessibility, Usability, Inclusion
+    url: "/fundamentals/accessibility-usability-inclusion/"
 - name: Planning & Policies
   pages:
   - name: Overview
@@ -64,12 +64,12 @@
         url: "/planning-and-managing/implement/"
       - name: Sustain
         url: "/planning-and-managing/sustain/"
-  - name: International Laws & Policies
-    url: "/policies/"
   - name: Developing an Organizational Policy
     url: "/plan/org-policies/"
   - name: Involving Users for Better Accessibility
     url: "/plan/involving-users/"
+  - name: International Laws & Policies
+    url: "/policies/"
 - name: Design & Develop
   pages:
   - name: Overview
@@ -172,11 +172,11 @@
     url: "/standards-guidelines/aria/"
   - name: Evaluation Standards - ACT & EARL
     url: "/standards-guidelines/earl/"
-  - name: Mobile Accessibility at W3C
-    url: "/standards-guidelines/mobile/"
   - name: Standards Harmonization is Essential
     url: "/standards-guidelines/harmonization/"
   - name: W3C Process for Developing Standards
     url: "/standards-guidelines/w3c-process/"
   - name: Referencing and Linking to Standards
     url: "/standards-guidelines/linking/"
+  - name: Mobile Accessibility at W3C
+    url: "/standards-guidelines/mobile/"
