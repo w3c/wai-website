@@ -154,6 +154,19 @@ collections:
     permalink: /:collection/:path/
     prevnext: false
     parent: '/'
+    groups:
+    - name: index # Note: index is a magic word, it links to the index of the resource
+      title: About WAI
+    - name: translating
+      title: Translating
+    - name: contacting
+      title: Contacting
+    - name: sponsoring
+      title: Sponsoring
+    - name: projects
+      title: Projects
+    - name: groups
+      title: Groups
   posts:
     output: true
     permalink: /news/:year-:month-:day/:title/
