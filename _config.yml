@@ -145,6 +145,7 @@ collections:
     acknowledgements: false
     permalink: /roles/:path/
     prevnext: false
+    parent: '/'
   about:
     name: "About"
     repository: w3c/wai-about-wai
