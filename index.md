@@ -88,7 +88,7 @@ title: "Home"
             <span class="title">Accessibility Principles</span>
           </h2>
         </header>
-        <p>The Accessibility Principles page introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools. It provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to [stories of web users]({{ "/people-use-web/user-stories/" | relative_url }}).</p>
+        <p>The Accessibility Principles page introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools. It provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to stories of web users.</p>
         <div>
           <span class="button">Accessibility Principles</span>
         </div>
