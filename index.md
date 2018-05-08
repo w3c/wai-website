@@ -72,7 +72,8 @@ title: "Home"
       <div class="media-wrapper">
         <iframe title="Video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/93UgG72os8M" frameborder="0" allowfullscreen=""></iframe>
       </div>
-      <p>[Short description for Keyboard Compatibility] All functionality must be usable with the keyboard. That is, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse;…</p>
+      <p>All functionality must be usable with the keyboard. That is, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse.</p>
+      <p>Keyboard accessibility is essential for people with disabilities and benefits everyone in a variety of situations.</p>
       <div class="button-group">
         <a class="button button-more" href="{{ '/perspective-videos/keyboard/' | relative_url }}"><span>More About Keyboard Compatibility</span></a>
         <a class="button button-more button-secondary" href="{{ '/perspective-videos/' | relative_url }}"><span>See All Perspectives Videos</span></a>
