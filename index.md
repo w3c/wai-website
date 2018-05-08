@@ -80,19 +80,17 @@ title: "Home"
       </div>
     </section>
 
-    <section class="teaser resource-inline" aria-labelledby="easychecks-title">
-      <a class="teaser-c stealthy-link col1" href="{{ '/test-evaluate/preliminary/' | relative_url }}">
+    <section class="teaser resource-inline" aria-labelledby="principles-title">
+      <a class="teaser-c stealthy-link col1" href="{{ '/fundamentals/accessibility-principles/' | relative_url }}">
         <header class="teaser-h">
-          <h2 id="easychecks-title">
+          <h2 id="principles-title">
             <span class="subtitle">Featured Resource: </span>
-            <span class="title">Easy Checks</span>
+            <span class="title">Accessibility Principles</span>
           </h2>
         </header>
-        <p>
-          Is accessibility addressed in even the most basic way on your site?
-        </p>
+        <p>The Accessibility Principles page introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools. It provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to [stories of web users]({{ "/people-use-web/user-stories/" | relative_url }}).</p>
         <div>
-          <span class="button">More About EasyChecks</span>
+          <span class="button">Accessibility Principles</span>
         </div>
       </a>
     </section>
