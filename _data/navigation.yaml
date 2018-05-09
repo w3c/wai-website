@@ -162,16 +162,21 @@
   pages:
   - name: Standards Overview
     url: "/standards-guidelines/"
-  - name: Web Content - WCAG
+  - name: Web Content – WCAG
     url: "/standards-guidelines/wcag/"
-  - name: Authoring Tools - ATAG
+  - name: Authoring Tools – ATAG
     url: "/standards-guidelines/atag/"
-  - name: User Agents - UAAG
+  - name: User Agents – UAAG
     url: "/standards-guidelines/uaag/"
   - name: WAI-ARIA
     url: "/standards-guidelines/aria/"
-  - name: Evaluation Standards - ACT & EARL
-    url: "/standards-guidelines/earl/"
+  - name: Evaluation – ACT & EARL
+    url: "/standards-guidelines/evaluation/"
+    pages:
+    - name: Accessibility Conformance Testing – ACT
+      url: "/standards-guidelines/act/"
+    - name: Evaluation and Report Language – EARL
+      url: "/standards-guidelines/earl/"
   - name: Standards Harmonization is Essential
     url: "/standards-guidelines/harmonization/"
   - name: W3C Process for Developing Standards

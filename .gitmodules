@@ -145,3 +145,9 @@
 [submodule "_external/resources/wai-develop-training"]
 	path = _external/resources/wai-develop-training
 	url = https://github.com/w3c/wai-develop-training.git
+[submodule "_external/resources/wai-eval-standards"]
+	path = _external/resources/wai-eval-standards
+	url = https://github.com/w3c/wai-eval-standards.git
+[submodule "_external/resources/wai-intro-act"]
+	path = _external/resources/wai-intro-act
+	url = https://github.com/w3c/wai-intro-act.git
