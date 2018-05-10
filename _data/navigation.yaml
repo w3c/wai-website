@@ -50,9 +50,9 @@
 - name: Planning & Policies
   pages:
   - name: Overview
-    url: "/plan/"
+    url: "/planning/"
   - name: Approaches for Interim Repairs
-    url: "/plan/interim-repairs/"
+    url: "/planning/interim-repairs/"
   - name: Planning and Managing Accessibility
     url: "/planning-and-managing/"
     pages:
@@ -65,9 +65,9 @@
       - name: Sustain
         url: "/planning-and-managing/sustain/"
   - name: Developing an Organizational Policy
-    url: "/plan/org-policies/"
+    url: "/planning/org-policies/"
   - name: Involving Users for Better Accessibility
-    url: "/plan/involving-users/"
+    url: "/planning/involving-users/"
   - name: International Laws & Policies
     url: "/policies/"
 - name: Design & Develop

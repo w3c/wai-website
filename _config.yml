@@ -108,7 +108,7 @@ collections:
     area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
     shortname: "Laws & Policies"
-    parent: '/plan/'
+    parent: '/planning/'
     repository: w3c/wai-policies-prototype
     output: true
     acknowledgements: false
