@@ -164,6 +164,8 @@ collections:
     groups:
     - name: index # Note: index is a magic word, it links to the index of the resource
       title: About WAI
+    - name: participating
+      title: Participating
     - name: translating
       title: Translating
     - name: contacting
