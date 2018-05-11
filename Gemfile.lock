@@ -247,6 +247,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 183)
+  jekyll-feed
   jekyll-github-metadata
   jekyll-include-cache
   jekyll-paginate

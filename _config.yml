@@ -7,6 +7,7 @@
 
 # Site settings
 title: "Web Accessibility Initiative (WAI)"
+author: "W3C Web Accessibility Initiative"
 claim: "Strategies, standards, and resources to make<br>the web accessible to people with disabilities."
 warning_icon: false
 warning_message: >
@@ -263,3 +264,4 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-feed
