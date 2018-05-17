@@ -48,7 +48,7 @@ collections:
     area: "Accessibility Fundamentals"
     name: "Web Accessibility Perspective Videos"
     shortname: "Perspective Videos"
-    repository: w3c/wai-showcase-examples
+    repository: w3c/wai-perspective-videos
     output: true
     acknowledgements: true
     permalink: /:collection/:path/
