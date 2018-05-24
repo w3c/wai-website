@@ -82,19 +82,26 @@
     url: "/tips/developing/"
   - name: Tutorials
     url: "https://www.w3.org/WAI/tutorials/"
+    external: true
     pages:
       - name: Page Structure
         url: "https://www.w3.org/WAI/tutorials/page-structure/"
+        external: true
       - name: Menus
         url: "https://www.w3.org/WAI/tutorials/menus/"
+        external: true
       - name: Images
         url: "https://www.w3.org/WAI/tutorials/images/"
+        external: true
       - name: Tables
         url: "https://www.w3.org/WAI/tutorials/tables/"
+        external: true
       - name: Forms
         url: "https://www.w3.org/WAI/tutorials/forms/"
+        external: true
       - name: Carousels
         url: "https://www.w3.org/WAI/tutorials/carousels/"
+        external: true
 
 - name: Test & Evaluate
   pages:
@@ -109,6 +116,7 @@
         url: "/test-evaluate/tools/selecting/"
       - name: List of Evaluation Tools
         url: "https://www.w3.org/WAI/ER/tools/"
+        external: true
   - name: Conformance Evaluation
     url: "/test-evaluate/conformance/"
     pages:
@@ -116,6 +124,7 @@
         url: "/test-evaluate/conformance/wcag-em/"
       - name: WCAG-EM Report Tool
         url: "https://www.w3.org/WAI/eval/report-tool/#/"
+        external: true
   - name: Report Template
     url: "/test-evaluate/report-template/"
   - name: Using Combined Expertise
@@ -142,6 +151,7 @@
 #   url: "/teach-advocate/presentations-to-use/"
   - name: Before and After Demo (BAD)
     url: "https://www.w3.org/WAI/demos/bad/"
+    external: true
   - name: Contacting Inaccessible Websites
     url: "/teach-advocate/contact-inaccessible-websites/"
   - name: Business Case
