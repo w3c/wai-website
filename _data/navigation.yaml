@@ -174,6 +174,24 @@
     url: "/standards-guidelines/"
   - name: Web Content – WCAG
     url: "/standards-guidelines/wcag/"
+    pages:
+    - name: "How to Meet WCAG 2 (Quick Reference)"
+      url: "https://www.w3.org/WAI/WCAG20/quickref/"
+      external: true
+    - name: "At a Glance"
+      url: "/standards-guidelines/wcag/glance/"
+    - name: The Documents
+      url: "/standards-guidelines/wcag/docs/"
+    - name: Translations
+      url: "/standards-guidelines/wcag/translations/"
+    - name: "Applying to Non-Web ICT"
+      url: "/standards-guidelines/wcag/non-web-ict/"
+    - name: "Commenting"
+      url: "/standards-guidelines/wcag/commenting/"
+    - name: "Conformance Logos"
+      url: "/standards-guidelines/wcag/conformance-logos/"
+    - name: FAQ
+      url: "/standards-guidelines/wcag/faq/"
   - name: Authoring Tools – ATAG
     url: "/standards-guidelines/atag/"
   - name: User Agents – UAAG

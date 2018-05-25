@@ -1,0 +1,1 @@
+../../../_external/resources/wai-intro-wcag/conformance-logos.md
