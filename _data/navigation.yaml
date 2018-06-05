@@ -182,6 +182,8 @@
       url: "/standards-guidelines/wcag/glance/"
     - name: The Documents
       url: "/standards-guidelines/wcag/docs/"
+    - name: New in 2.1
+      url: "/standards-guidelines/wcag/new-in-21/"
     - name: Translations
       url: "/standards-guidelines/wcag/translations/"
     - name: "Applying to Non-Web ICT"
