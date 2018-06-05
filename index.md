@@ -94,7 +94,22 @@ title: "Home"
         </div>
       </a>
     </section>
-  </div>
+
+    <section class="teaser resource-inline" aria-labelledby="new21-title">
+      <a class="teaser-c stealthy-link col1" href="{{ '/standards-guidelines/wcag/new-in-21/' | relative_url }}">
+        <header class="teaser-h">
+          <h2 id="new21-title">
+            <span class="subtitle">Featured Resource: </span>
+            <span class="title">What's New in WCAG 2.1</span>
+          </h2>
+        </header>
+        <p>WCAG 2.1 has 17 additional requirements (“success criteria”) that address mobile accessibility, people with low vision, and people with cognitive and learning disabilities. The What’s New in WCAG 2.1 page introduces the new success criteria. It includes quotes from personas to help you understand the issues.</p>
+        <div>
+          <span class="button">What's New in WCAG 2.1</span>
+        </div>
+      </a>
+    </section>
+</div>
 </div>
 
 <div class="default-grid teaser teaser-sponsors">
