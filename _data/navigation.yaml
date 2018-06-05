@@ -175,8 +175,8 @@
   - name: Web Content – WCAG
     url: "/standards-guidelines/wcag/"
     pages:
-    - name: "How to Meet WCAG 2 (Quick Reference)"
-      url: "https://www.w3.org/WAI/WCAG20/quickref/"
+    - name: "How to Meet WCAG 2 (Quick Reference)"
+      url: "https://www.w3.org/WAI/WCAG21/quickref/"
       external: true
     - name: "At a Glance"
       url: "/standards-guidelines/wcag/glance/"

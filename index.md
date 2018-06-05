@@ -103,6 +103,7 @@ title: "Home"
             <span class="title">What's New in WCAG 2.1</span>
           </h2>
         </header>
+        <img src="{{ "/content-images/home/wcag21-release.png" | relative_url }}" alt="">
         <p>WCAG 2.1 has 17 additional requirements (“success criteria”) that address mobile accessibility, people with low vision, and people with cognitive and learning disabilities. The What’s New in WCAG 2.1 page introduces the new success criteria. It includes quotes from personas to help you understand the issues.</p>
         <div>
           <span class="button">What's New in WCAG 2.1</span>
