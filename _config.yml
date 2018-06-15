@@ -27,6 +27,8 @@ exclude:
   - "README.md"
   - "w3c.json"
   - ".build"
+  - "script"
+  - ".travis.yml"
 # Build settings
 markdown: kramdown
 kramwdown:
