@@ -29,6 +29,7 @@ exclude:
   - ".build"
   - "script"
   - ".travis.yml"
+  - "vendor"
 # Build settings
 markdown: kramdown
 kramwdown:
