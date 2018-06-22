@@ -27,22 +27,27 @@ cache: bundler # caching bundler gem packages will speed up build
 notifications:
   email: false
 
-deploy:
-  - provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-    keep-history: true
-    target-branch: gh-pages
-    local-dir: _site
-    script: ./script/cibuild-preview.sh
-    on:
-      branch: master
-  - provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-    keep-history: true
-    target-branch: live
-    local-dir: _site
-    script: ./script/cibuild-live.sh
-    on:
-      branch: master
+jobs:
+  include:
+    - stage: deploy
+      script: ./script/cibuild-preview.sh
+      deploy: &preview
+        provider: pages
+        skip-cleanup: true
+        github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+        keep-history: true
+        target-branch: gh-pages
+        local-dir: _site
+        on:
+          branch: master
+    - stage: deploy
+      script: ./script/cibuild-live.sh
+      deploy: &live
+        provider: pages
+        skip-cleanup: true
+        github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+        keep-history: true
+        target-branch: live
+        local-dir: _site
+        on:
+          branch: master
