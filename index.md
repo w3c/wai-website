@@ -21,6 +21,9 @@ title: "Home"
       <p>You can use W3C WAI resources to make your websites, applications, and other digital creations more accessible and usable to everyone.</p>
     </div>
   </div>
+  <div class="inner hidesection">
+    <button class="showhidebutton" data-target=".making-web-accessible .inner:not(.hidesection)" aria-expanded="true" data-showhidebuttonid="homepage-making-web-accessible" data-showtext="Show information about W3C, WAI, You" data-hidetext="Hide Section">Hide Section</button>
+  </div>
 </section>
 
 <div class="white-bg grid-five-three">
