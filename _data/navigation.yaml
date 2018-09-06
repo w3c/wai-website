@@ -2,6 +2,9 @@
   pages:
   - name: Introduction to Accessibility
     url: "/fundamentals/accessibility-intro/"
+    pages:
+    - name: Video Introduction
+      url: "/videos/standards-and-benefits/"
   - name: Components of Web Accessibility
     url: "/fundamentals/components/"
   - name: Accessibility Principles
