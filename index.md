@@ -38,7 +38,7 @@ title: "Home"
         {%- for post in site.posts -%}
           <article class="news-teaser">
               <h3>{%comment%}<a href="{{ post.url | relative_url }}">{%endcomment%}{{post.title}}{%comment%}</a>{%endcomment%}</h3>
-              {{ post.excerpt | markdownify }}
+              {{ post.content | markdownify }}
               <p><small>({{post.date | date: "%Y-%m-%d"}})</small></p>
           </article>
           {%- if forloop.index == 5 -%}
