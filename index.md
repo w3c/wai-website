@@ -45,7 +45,7 @@ title: "Home"
               {%- break -%}
           {%- endif -%}
         {%- endfor -%}
-        <a href="{{ '/news/' | relative_url }}" class="button button-more"><span>See All News</span></a>
+        <a href="{{ '/news/' | relative_url }}" class="button button-more"><span>See All News</span></a> <a href="{{ '/news/subscribe/' | relative_url }}" class="button button-more button-secondary"><span>Subscribe to WAI News</span></a>
     </section>
   </div>
   <div class="col2">
