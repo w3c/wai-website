@@ -218,3 +218,11 @@
     url: "/standards-guidelines/linking/"
   - name: Mobile Accessibility at W3C
     url: "/standards-guidelines/mobile/"
+- name: News
+  mainnav: false
+  pages:
+  - name: "News"
+    url: "/news/"
+    pages:
+    - name: "Subscribe"
+      url: "/news/subscribe/"
