@@ -199,6 +199,9 @@
       url: "/standards-guidelines/wcag/faq/"
   - name: Authoring Tools – ATAG
     url: "/standards-guidelines/atag/"
+    pages:
+    - name: "At a Glance"
+      url: "/standards-guidelines/atag/glance/"
   - name: User Agents – UAAG
     url: "/standards-guidelines/uaag/"
   - name: WAI-ARIA
