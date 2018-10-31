@@ -129,14 +129,14 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
-  business-case:
-    area: "Plan & Manage"
-    name: "Business Case"
-    shortname: "Business Case"
-    repository: w3c/wai-bcase
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
+  # business-case:
+  #   area: "Plan & Manage"
+  #   name: "Business Case"
+  #   shortname: "Business Case"
+  #   repository: w3c/wai-bcase
+  #   output: true
+  #   acknowledgements: false
+  #   permalink: /:collection/:path/
   older-users:
     area: "Plan & Manage"
     name: "Older Users"
@@ -244,7 +244,7 @@ defaults:
 tipue_search:
   include:
     pages: true
-    collections: ["perspective-videos", "people-use-web", "planning-and-managing", "tutorials", "accessibility-training", "tips", "policies", "media-intro", "business-case"]
+    collections: ["perspective-videos", "people-use-web", "planning-and-managing", "accessibility-training", "tips", "policies", "media-intro", "business-case", "older-users", "audiences", "about"]
 
 plugins:
   - jekyll-seo-tag
