@@ -280,3 +280,5 @@
       url: "/about/groups/waiig/"
     - name: 'Group Task Forces'
       url: "/about/groups/taskforces/"
+  - name: Using WAI Material
+    url: "/about/using-wai-material/"
