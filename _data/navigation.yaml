@@ -159,17 +159,9 @@
     url: "/teach-advocate/contact-inaccessible-websites/"
   - name: Business Case
     url: "/business-case/"
-  # pages:
-  #   - name: Social Factors
-  #     url: "/business-case/social-factors/"
-  #   - name: Technical Factors
-  #     url: "/business-case/technical-factors/"
-  #   - name: Financial Factors
-  #     url: "/business-case/financial-factors/"
-  #   - name: Legal & Policy Factors
-  #     url: "/business-case/legal-policy-factors/"
-  #   - name: Resources
-  #     url: "/business-case/resources/"
+    pages:
+    - name: Bibliography
+      url: "/business-case/bibliography/"
 
 - name: Standards/<wbr>Guidelines
   pages:
