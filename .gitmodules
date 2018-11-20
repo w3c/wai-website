@@ -153,3 +153,6 @@
 [submodule "_external/resources/wai-video-standards-and-benefits"]
 	path = _external/resources/wai-video-standards-and-benefits
 	url = https://github.com/w3c/wai-video-standards-and-benefits.git
+[submodule "_external/resources/wai-statements"]
+	path = _external/resources/wai-statements
+	url = https://github.com/w3c/wai-statements.git

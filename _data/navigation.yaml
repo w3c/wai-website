@@ -69,6 +69,15 @@
         url: "/planning-and-managing/sustain/"
   - name: Developing an Organizational Policy
     url: "/planning/org-policies/"
+  - name: Developing an Accessibility Statement
+    url: "/planning/statements/"
+    pages:
+    - name: Generator Tool
+      url: "/planning/statements/generator/"
+    - name: Minimal Example
+      url: "/planning/statements/minimal-example/"
+    - name: Complete Example
+      url: "/planning/statements/complete-example/"
   - name: Involving Users for Better Accessibility
     url: "/planning/involving-users/"
   - name: International Laws & Policies
