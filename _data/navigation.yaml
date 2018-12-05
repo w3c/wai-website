@@ -283,3 +283,5 @@
       url: "/about/groups/taskforces/"
   - name: Using WAI Material
     url: "/about/using-wai-material/"
+  - name: Accessibility Statement
+    url: "/about/accessibility-statement/"
