@@ -277,6 +277,11 @@
       url: "https://www.w3.org/WAI/ARIA/"
     - name: 'EOWG: Education and Outreach <abbr title="Working Group">WG</abbr>'
       url: "/about/groups/eowg/"
+      pages:
+      - name: Participate
+        url: "/about/groups/eowg/participate/"
+      - name: Current Participants
+        url: "/about/groups/eowg/participants/"
     - name: 'WAI IG: WAI Interest Group'
       url: "/about/groups/waiig/"
     - name: 'Group Task Forces'
