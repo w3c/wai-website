@@ -6,7 +6,6 @@
 	path = _external/resources/wai-bcase
 	url = https://github.com/w3c/wai-bcase.git
 	branch = publish
-	shallow = true
 [submodule "_external/resources/wai-policies-prototype"]
 	path = _external/resources/wai-policies-prototype
 	url = https://github.com/w3c/wai-policies-prototype.git
@@ -14,7 +13,6 @@
 [submodule "_external/resources/wai-news"]
 	path = _external/resources/wai-news
 	url = https://github.com/w3c/wai-news.git
-	shallow = true
 	branch = publish
 [submodule "_external/resources/wai-quick-start"]
 	path = _external/resources/wai-quick-start
