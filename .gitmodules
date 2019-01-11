@@ -130,6 +130,7 @@
 [submodule "_external/resources/wai-customize-design"]
 	path = _external/resources/wai-customize-design
 	url = https://github.com/w3c/wai-customize-design.git
+	branch = publish
 [submodule "_external/resources/wai-sitemap"]
 	path = _external/resources/wai-sitemap
 	url = https://github.com/w3c/wai-sitemap.git
@@ -154,6 +155,7 @@
 [submodule "_external/resources/wai-video-standards-and-benefits"]
 	path = _external/resources/wai-video-standards-and-benefits
 	url = https://github.com/w3c/wai-video-standards-and-benefits.git
+	branch = publish
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
