@@ -37,6 +37,7 @@
 [submodule "_external/resources/wai-perspective-videos"]
 	path = _external/resources/wai-perspective-videos
 	url = https://github.com/w3c/wai-perspective-videos.git
+	branch = publish
 [submodule "_external/resources/wai-first-aid"]
 	path = _external/resources/wai-first-aid
 	url = https://github.com/w3c/wai-first-aid.git
