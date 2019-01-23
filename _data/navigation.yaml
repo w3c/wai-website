@@ -32,6 +32,9 @@
       url: "/perspective-videos/understandable/"
     - name: Notifications and Feedback
       url: "/perspective-videos/notifications/"
+    - name: Acknowledgements
+      url: "/perspective-videos/acknowledgements/"
+      hide: true
   - name: How People with Disabilities Use the Web
     url: "/people-use-web/"
     pages:
