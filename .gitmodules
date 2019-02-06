@@ -162,3 +162,6 @@
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
 	branch = publish
+[submodule "_external/data"]
+	path = _external/data
+	url = https://github.com/w3c/wai-website-data.git
