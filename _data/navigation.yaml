@@ -263,6 +263,9 @@
           url: "/about/projects/wai-tools/symposium/record/"
       - name: First Open Meeting
         url: "/about/projects/wai-tools/first-open-meeting/"
+    - name: WAI Expanding Access
+      url: "https://www.w3.org/WAI/expand-access/"
+      different: true
     - name: WAI-Core 2015
       url: "https://www.w3.org/WAI/CORE2015/"
       different: true
