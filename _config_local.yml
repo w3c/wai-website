@@ -1,0 +1,16 @@
+# Built the site with the following command for production:
+# > bundle exec jekyll serve --incremental --config "_config.yml,_config_local.yml"
+
+limit_posts: 15
+
+
+# exclude robots.txt
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .github
+  - "script"
+  - ".travis.yml"
+  - "vendor"
+  - robots.txt
