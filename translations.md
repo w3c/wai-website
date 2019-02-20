@@ -31,3 +31,5 @@ This page lists translations of Web Accessibility Initiative (WAI) website resou
 {% include excol.html type="end" %}
 {% endif %}
 {% endfor -%}
+
+If you might be interesting in translating resources, see [Translating WAI Resources](https://www.w3.org/WAI/about/translating/).
