@@ -8,7 +8,7 @@ github:
   path: translations.md
 ---
 
-This page lists translations of Web Accessibility Initiative (WAI) website resources. For translations of Web Content Accessibility Guidelines (WCAG), see [WCAG 2 Translations](https://www.w3.org/WAI/standards-guidelines/wcag/translations/). {% comment %}after we integrate those, then we can delete this paragraph.{% endcomment %}
+This page lists translations of Web Accessibility Initiative (WAI) website resources. For translations of Web Content Accessibility Guidelines (WCAG), see [WCAG 2 Translations]({{ "/standards-guidelines/wcag/translations/" | relative_url }}). {% comment %}after we integrate those, then we can delete this paragraph.{% endcomment %}
 
 {% assign lang1=site.documents | where_exp:"item", "item.lang != 'en'" | sort: 'lang'| map: "lang" %}
 {% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | sort: 'lang' | map: "lang" %}
@@ -32,4 +32,4 @@ This page lists translations of Web Accessibility Initiative (WAI) website resou
 {% endif %}
 {% endfor -%}
 
-If you might be interesting in translating resources, see [Translating WAI Resources](https://www.w3.org/WAI/about/translating/).
+If you might be interesting in translating resources, see [Translating WAI Resources]({{ "/about/translating/" | relative_url }}).
