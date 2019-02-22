@@ -31,6 +31,7 @@
 [submodule "_external/resources/wai-people-use-web"]
 	path = _external/resources/wai-people-use-web
 	url = https://github.com/w3c/wai-people-use-web.git
+	branch = add-translations
 [submodule "_external/resources/wai-older-users"]
 	path = _external/resources/wai-older-users
 	url = https://github.com/w3c/wai-older-users.git
