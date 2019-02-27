@@ -28,6 +28,7 @@
 [submodule "_external/resources/wai-accessibility-principles"]
 	path = _external/resources/wai-accessibility-principles
 	url = https://github.com/w3c/wai-accessibility-principles.git
+	branch = add-translations
 [submodule "_external/resources/wai-people-use-web"]
 	path = _external/resources/wai-people-use-web
 	url = https://github.com/w3c/wai-people-use-web.git
