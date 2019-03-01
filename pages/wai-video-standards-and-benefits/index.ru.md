@@ -1,0 +1,1 @@
+../../_external/resources/wai-video-standards-and-benefits/index.ru.md
