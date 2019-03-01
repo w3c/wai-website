@@ -1,0 +1,1 @@
+../../_external/resources/wai-cognitive/index.md
