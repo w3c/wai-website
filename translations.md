@@ -18,7 +18,7 @@ This page lists translations of Web Accessibility Initiative (WAI) website resou
 {%- for l in langs %}
 {% if l %}
 {% include excol.html type="start" id=l %}
-<span lang="{{l}}" bidi="auto">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }})
+<span lang="{{l}}" bidi="auto" style="text-transform: capitalize;">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }})
 {% include excol.html type="middle" %}
   {% assign p1=site.documents | where: "lang", l %}
   {% assign p2=site.pages | where: "lang", l %}
