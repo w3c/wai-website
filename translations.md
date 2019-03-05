@@ -10,7 +10,7 @@ github:
 
 This page lists translations of Web Accessibility Initiative (WAI) website resources. For translations of Web Content Accessibility Guidelines (WCAG), see [WCAG 2 Translations]({{ "/standards-guidelines/wcag/translations/" | relative_url }}). {% comment %}after we integrate those, then we can delete this paragraph.{% endcomment %}
 
-{% include excol.html type="end" %}
+{% include excol.html type="all" %}
 
 {% assign lang1=site.documents | where_exp:"item", "item.lang != 'en'" | sort: 'lang'| map: "lang" %}
 {% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | sort: 'lang' | map: "lang" %}
