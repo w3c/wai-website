@@ -165,6 +165,3 @@
 	path = _external/resources/wai-cognitive
 	url = https://github.com/w3c/wai-cognitive.git
 	branch = slhenry-content-1
-[submodule "_external/resources/_external/data"]
-	path = _external/resources/_external/data
-	url = https://github.com/w3c/wai-website-data.git
