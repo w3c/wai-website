@@ -157,7 +157,6 @@
 [submodule "_external/resources/wai-video-standards-and-benefits"]
 	path = _external/resources/wai-video-standards-and-benefits
 	url = https://github.com/w3c/wai-video-standards-and-benefits.git
-	branch = link-fixes
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
@@ -165,3 +164,7 @@
 [submodule "_external/data"]
 	path = _external/data
 	url = https://github.com/w3c/wai-website-data.git
+[submodule "_external/resources/wai-cognitive"]
+	path = _external/resources/wai-cognitive
+	url = https://github.com/w3c/wai-cognitive.git
+	branch = slhenry-content-1
