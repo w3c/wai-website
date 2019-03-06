@@ -12,7 +12,6 @@
 [submodule "_external/resources/wai-news"]
 	path = _external/resources/wai-news
 	url = https://github.com/w3c/wai-news.git
-	branch = publish
 [submodule "_external/resources/wai-quick-start"]
 	path = _external/resources/wai-quick-start
 	url = https://github.com/w3c/wai-quick-start.git
@@ -89,7 +88,6 @@
 [submodule "_external/resources/wai-intro-aria"]
 	path = _external/resources/wai-intro-aria
 	url = https://github.com/w3c/wai-intro-aria.git
-	branch = publish
 [submodule "_external/resources/wai-intro-atag"]
 	path = _external/resources/wai-intro-atag
 	url = https://github.com/w3c/wai-intro-atag.git
