@@ -17,6 +17,16 @@ This page lists translations of Web Accessibility Initiative (WAI) website resou
 
 {% assign langs = lang1 | concat: lang2 | uniq %}
 
+{% include excol.html type="start" id="ar" %}
+
+<span lang="ar" bidi="auto">العربية</span> (Arabic)
+
+{% include excol.html type="middle" %}
+
+* Available in April 2019.
+
+{% include excol.html type="end" %}
+
 {%- for l in langs %}
 {% if l %}
 {% include excol.html type="start" id=l %}
