@@ -9,11 +9,15 @@ github:
   
 feedbackmail: wai@w3.org
 footer: |
-  <p>Developed with support from the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
+  <p>Translations management is part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
 
 ---
 
-This page lists translations of Web Accessibility Initiative (WAI) website resources.<br>For translations of Web Content Accessibility Guidelines (WCAG), see [WCAG 2 Translations]({{ "/standards-guidelines/wcag/translations/" | relative_url }}). {% comment %}after we integrate those, then we can delete this paragraph.{% endcomment %}
+Translations of current Web Accessibility Initiative (WAI) website resources are listed below.
+
+Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are listed in [WCAG 2 Translations]( https://www.w3.org/WAI/standards-guidelines/wcag/translations/).
+
+Other translations will be linked from here in April 2019.
 
 {% include excol.html type="all" %}
 
