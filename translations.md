@@ -6,9 +6,14 @@ layout: default
 github:
   repository: w3c/wai-website
   path: translations.md
+  
+feedbackmail: wai@w3.org
+footer: |
+  <p>Developed with support from the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
+
 ---
 
-This page lists translations of Web Accessibility Initiative (WAI) website resources. For translations of Web Content Accessibility Guidelines (WCAG), see [WCAG 2 Translations]({{ "/standards-guidelines/wcag/translations/" | relative_url }}). {% comment %}after we integrate those, then we can delete this paragraph.{% endcomment %}
+This page lists translations of Web Accessibility Initiative (WAI) website resources.<br>For translations of Web Content Accessibility Guidelines (WCAG), see [WCAG 2 Translations]({{ "/standards-guidelines/wcag/translations/" | relative_url }}). {% comment %}after we integrate those, then we can delete this paragraph.{% endcomment %}
 
 {% include excol.html type="all" %}
 
