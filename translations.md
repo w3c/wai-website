@@ -46,7 +46,8 @@ Other translations will be linked from here in April 2019.
   {% assign pages = p1 | concat: p2 | sort: "title" %}
   {% for p in pages %}
     {%- if forloop.first %}<ul lang="{{l}}">{% endif -%}
-      <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+      <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> — {% if p.translator %}{% include t.html t='Translator:' %} {{p.translator}}.{% endif %}
+    {% if p.contributors %}{% include t.html t='Contributor:' %} {{p.contributors}}.{% endif %}</li>
     {%- if forloop.last  %}</ul>{% endif -%}
   {% endfor%}
 {% include excol.html type="end" %}
