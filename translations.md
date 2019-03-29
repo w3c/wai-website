@@ -15,9 +15,7 @@ footer: |
 
 Translations of current Web Accessibility Initiative (WAI) website resources are listed below.
 
-Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are listed in [WCAG 2 Translations]( https://www.w3.org/WAI/standards-guidelines/wcag/translations/).
-
-Other translations will be linked from here in April 2019.
+Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are listed in [WCAG 2 Translations]( https://www.w3.org/WAI/standards-guidelines/wcag/translations/).<br>Other accessibility Technical Reports (including Authoring Tool Accessibility Guidelines (ATAG) 2.0) are listed in [Translations of W3C Technical Reports](https://www.w3.org/Translations/?filter=accessibility). <!-- When ARIA and other key ones are translated, list them here, too. ... if we haven't gotten them integrated in the list below yet. :-) -->
 
 {% include excol.html type="all" %}
 
