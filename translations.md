@@ -44,8 +44,8 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
   {% assign pages = p1 | concat: p2 | sort: "title" %}
   {% for p in pages %}
     {%- if forloop.first %}<ul lang="{{l}}">{% endif -%}
-      <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> — {% if p.translator %}{% include t.html t='Translator:' %} {{p.translator}}.{% endif %}
-    {% if p.contributors %}{% include t.html t='Contributor:' %} {{p.contributors}}.{% endif %}</li>
+      <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> — {% if p.translator %}{% include t.html t='Translator:' lang=l %} {{p.translator}}.{% endif %}
+    {% if p.contributors %}{% include t.html t='Contributor:' lang=l %} {{p.contributors}}.{% endif %}</li>
     {%- if forloop.last  %}</ul>{% endif -%}
   {% endfor%}
 {% include excol.html type="end" %}
