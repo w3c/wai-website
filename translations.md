@@ -24,16 +24,6 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
 
 {% assign langs = lang1 | concat: lang2 | uniq %}
 
-{% include excol.html type="start" id="ar" %}
-
-<span lang="ar" bidi="auto">العربية</span> (Arabic)
-
-{% include excol.html type="middle" %}
-
-* Available in April 2019.
-
-{% include excol.html type="end" %}
-
 {%- for l in langs %}
 {% if l %}
 {% include excol.html type="start" id=l %}
