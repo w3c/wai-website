@@ -26,9 +26,26 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
 
 {%- for l in langs %}
 {% if l %}
+
+{::nomarkdown}
+
 {% include excol.html type="start" id=l %}
+
+{:/}
+
 <span lang="{{l}}" bidi="auto" style="text-transform: capitalize;">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }})
-{% include excol.html type="middle" %}
+
+{::nomarkdown}
+
+  {% if site.data.lang[l].rtl %}
+    {% include excol.html type="middle" dir="rtl" lang=l %}
+  {% else %}
+    {% include excol.html type="middle" %}
+  {% endif %}
+
+{:/}
+
+
   {% assign p1=site.documents | where: "lang", l %}
   {% assign p2=site.pages | where: "lang", l %}
   {% assign pages = p1 | concat: p2 | sort: "title" %}
@@ -37,8 +54,14 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
       <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> — {% if p.translator %}{% include t.html t='Translator:' lang=l %} {{p.translator}}.{% endif %}
     {% if p.contributors %}{% include t.html t='Contributor:' lang=l %} {{p.contributors}}.{% endif %}</li>
     {%- if forloop.last  %}</ul>{% endif -%}
-  {% endfor%}
+  {% endfor %}
+
+{::nomarkdown}
+
 {% include excol.html type="end" %}
+
+{:/}
+
 {% endif %}
 {% endfor -%}
 
