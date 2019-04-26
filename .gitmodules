@@ -1,3 +1,6 @@
+[submodule "_external/data"]
+	path = _external/data
+	url = https://github.com/w3c/wai-website-data.git
 [submodule "_external/resources/wai-inclusion"]
 	path = _external/resources/wai-inclusion
 	url = https://github.com/w3c/wai-inclusion.git
@@ -5,7 +8,6 @@
 [submodule "_external/resources/wai-bcase"]
 	path = _external/resources/wai-bcase
 	url = https://github.com/w3c/wai-bcase.git
-	branch = publish
 [submodule "_external/resources/wai-policies-prototype"]
 	path = _external/resources/wai-policies-prototype
 	url = https://github.com/w3c/wai-policies-prototype.git
@@ -13,15 +15,13 @@
 [submodule "_external/resources/wai-news"]
 	path = _external/resources/wai-news
 	url = https://github.com/w3c/wai-news.git
-	branch = publish
 [submodule "_external/resources/wai-quick-start"]
 	path = _external/resources/wai-quick-start
 	url = https://github.com/w3c/wai-quick-start.git
-	branch = release
 [submodule "_external/resources/wai-intro-accessibility"]
 	path = _external/resources/wai-intro-accessibility
 	url = https://github.com/w3c/wai-intro-accessibility.git
-	branch = publish
+	branch = gh-pages
 [submodule "_external/resources/wai-components"]
 	path = _external/resources/wai-components
 	url = https://github.com/w3c/wai-components.git
@@ -37,7 +37,6 @@
 [submodule "_external/resources/wai-perspective-videos"]
 	path = _external/resources/wai-perspective-videos
 	url = https://github.com/w3c/wai-perspective-videos.git
-	branch = publish
 [submodule "_external/resources/wai-first-aid"]
 	path = _external/resources/wai-first-aid
 	url = https://github.com/w3c/wai-first-aid.git
@@ -90,7 +89,6 @@
 [submodule "_external/resources/wai-intro-aria"]
 	path = _external/resources/wai-intro-aria
 	url = https://github.com/w3c/wai-intro-aria.git
-	branch = publish
 [submodule "_external/resources/wai-intro-atag"]
 	path = _external/resources/wai-intro-atag
 	url = https://github.com/w3c/wai-intro-atag.git
@@ -122,7 +120,6 @@
 [submodule "_external/resources/wai-about-wai"]
 	path = _external/resources/wai-about-wai
 	url = https://github.com/w3c/wai-about-wai.git
-	branch = publish
 [submodule "_external/resources/wai-wcag-mob-overlap"]
 	path = _external/resources/wai-wcag-mob-overlap
 	url = https://github.com/w3c/wai-wcag-mob-overlap.git
@@ -132,7 +129,6 @@
 [submodule "_external/resources/wai-customize-design"]
 	path = _external/resources/wai-customize-design
 	url = https://github.com/w3c/wai-customize-design.git
-	branch = publish
 [submodule "_external/resources/wai-sitemap"]
 	path = _external/resources/wai-sitemap
 	url = https://github.com/w3c/wai-sitemap.git
@@ -157,12 +153,12 @@
 [submodule "_external/resources/wai-video-standards-and-benefits"]
 	path = _external/resources/wai-video-standards-and-benefits
 	url = https://github.com/w3c/wai-video-standards-and-benefits.git
-	branch = publish
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
-	branch = publish
 [submodule "_external/resources/wai-cognitive"]
 	path = _external/resources/wai-cognitive
 	url = https://github.com/w3c/wai-cognitive.git
-	branch = slhenry-content-1
+[submodule "_external/resources/wai-personalization-standards"]
+	path = _external/resources/wai-personalization-standards
+	url = https://github.com/w3c/wai-personalization-standards.git

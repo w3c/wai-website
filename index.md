@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Home"
+lang: 'en'
 ---
 <h1 class="visuallyhidden">W3C Web Accessibility Initiative Home</h1>
 <section class="default-grid teaser making-web-accessible" aria-labelledby="mwa-title">
