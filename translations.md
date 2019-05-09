@@ -6,11 +6,9 @@ layout: default
 github:
   repository: w3c/wai-website
   path: translations.md
-  
 feedbackmail: wai@w3.org
 footer: |
   <p>Translations management is part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
-
 ---
 
 Translations of current Web Accessibility Initiative (WAI) website resources are listed below.
@@ -51,8 +49,13 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
   {% assign pages = p1 | concat: p2 | sort: "title" %}
   {% for p in pages %}
     {%- if forloop.first %}<ul lang="{{l}}">{% endif -%}
-      <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> — {% if p.translator %}{% include t.html t='Translator:' lang=l %} {{p.translator}}.{% endif %}
-    {% if p.contributors %}{% include t.html t='Contributor:' lang=l %} {{p.contributors}}.{% endif %}</li>
+      <li>
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a> —
+        {%- capture translatorslabel %}{% include_cached t.html t='Translator:' lang=l %}{%- endcapture %}
+        {% include_cached peoplelist.html label=translatorslabel people=p.translators %}
+        {%- capture contributorslabel %}{% include_cached t.html t='Contributor:' lang=l%}{%- endcapture %}
+        {% include_cached peoplelist.html label=contributorslabel people=p.contributors %}
+      </li>
     {%- if forloop.last  %}</ul>{% endif -%}
   {% endfor %}
 
