@@ -28,7 +28,7 @@ exclude:
   - "w3c.json"
   - ".build"
   - "script"
-  - ".travis.yml"
+  - "netlify.toml"
   - "vendor"
 # Build settings
 markdown: kramdown
@@ -204,11 +204,6 @@ defaults:
       layout: "policy"
   -
     scope:
-      path: "_media-intro"
-    values:
-      layout: "default"
-  -
-    scope:
       path: "_older-users"
     values:
       layout: "default"
@@ -231,7 +226,7 @@ defaults:
 tipue_search:
   include:
     pages: true
-    collections: ["perspective-videos", "people-use-web", "planning-and-managing", "accessibility-training", "tips", "policies", "media-intro", "older-users", "audiences", "about"]
+    collections: ["perspective-videos", "people-use-web", "planning-and-managing", "accessibility-training", "tips", "policies", "older-users", "audiences", "about"]
 
 plugins:
   - jekyll-seo-tag
