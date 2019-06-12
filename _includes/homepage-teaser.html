@@ -1,0 +1,37 @@
+{%- assign pagelang = 'en' -%}
+{%- if page.lang -%}
+  {%- assign pagelang = page.lang -%}
+{%- endif -%}
+{%- if include.lang -%}
+  {%- assign pagelang = include.lang -%}
+{%- endif -%}
+{%- assign in_lang = true -%}
+{%- assign link_page=site.documents | where:"ref", include.to | where: "lang", pagelang | first -%}
+{%- unless link_page.url -%}
+  {%- assign link_page=site.pages | where:"ref", include.to | where: "lang", pagelang | first -%}
+{%- endunless -%}
+{%- unless link_page.url -%}
+  {%- assign in_lang = false -%}
+  {%- assign link_page=site.documents | where:"url", include.to | first -%}
+{%- endunless -%}
+{%- unless link_page.url -%}
+  {%- assign in_lang = false -%}
+  {%- assign link_page=site.pages | where:"url", include.to | first -%}
+{%- endunless -%}
+{%- if pagelang == 'en' %}{%- assign in_lang = true -%}{% endif -%}
+
+<section class="teaser resource-inline" aria-labelledby="teaser-{{ link_page.title | handleize }}-title">
+  <a class="teaser-c stealthy-link col1" href="{{ link_page.url | relative_url }}">
+    <header class="teaser-h">
+      <h2 id="teaser-{{ link_page.title | handleize }}-title">
+        <span class="subtitle">{% include t.html t="Featured Resource: " %}</span>
+        <span class="title">{{ link_page.title }}</span>
+      </h2>
+    </header>
+    {%- if include.image %}<img src="{{ include.image | relative_url }}" alt="">{% else %}{%- if link_page.image %}<img src="{{ link_page.image | relative_url }}" alt="">{% endif -%}{% endif -%}
+    <p>{%if link_page.teaser_text %}{{ link_page.teaser_text }}{% else %}{{ link_page.description }}{% endif %}</p>
+    <div>
+      <span class="button">{{ link_page.title }}</span>
+    </div>
+  </a>
+</section>
