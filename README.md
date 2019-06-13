@@ -1,5 +1,5 @@
 # wai-website
 
-Preview: https://w3c.github.io/wai-website/
+Preview: https://wai-website.netlify.com/
 
-[Deployment of the live site code in the live branch ![](https://api.travis-ci.org/w3c/wai-website.svg?branch=master)](https://github.com/w3c/wai-website/tree/live)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/faaa4954-0194-47fa-9b74-540ab79f4a8d/deploy-status)](https://app.netlify.com/sites/wai-website/deploys)
