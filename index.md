@@ -90,13 +90,6 @@ lang: 'en'
       {% include_cached homepage-teaser.html to="/test-evaluate/preliminary/" %}
   
   </div>
-  <!--
-  <div class="col4">
-
-      {% include_cached homepage-teaser.html to="/standards-guidelines/wcag/new-in-21/" image="/content-images/home/wcag21-release.png" %}
-  
-  </div>
--->
 </div>
 
 
