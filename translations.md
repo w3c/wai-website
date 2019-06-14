@@ -16,6 +16,11 @@ footer: |
   <p>Translations management is part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
 ref: /translations/
 
+inline_css: |
+  dl.translations > div {
+    margin-block-end: 1em;
+  }
+
 translated_standards:
 - lang: "zh-hans"
   docs:
@@ -75,64 +80,66 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
 {%- assign resource_pages = p1 | concat: p2 | sort: "title" -%}
 {%- assign resources = resource_pages | group_by_exp: 'item', 'item.resource.ref' -%}
 
-<dl lang="{{l}}">
+<dl lang="{{l}}" class="translations">
 
 {%- for pages in resources -%}
-{%- if pages.name -%}
-  <div>
-    <dt>{% include_cached resource-title.html to=pages.name lang=l %}</dt>
-    <dd>
-{% endif %}
-{% for p in pages.items %}
-{%- if pages.name -%}
-{%- if forloop.first %}<dl lang="{{l}}">{% endif -%}
-{% endif %}
-<div>
-<dt><a href="{{ p.url | relative_url }}">{{ p.title }}</a></dt>
-<dd>
-  {%- capture translatorslabel %}{% include_cached t.html t='Translator:' lang=l %}{%- endcapture %}
-  {% include_cached peoplelist.html label=translatorslabel people=p.translators %}
-  {%- capture contributorslabel %}{% include_cached t.html t='Contributor:' lang=l%}{%- endcapture %}
-  {% include_cached peoplelist.html label=contributorslabel people=p.contributors %}
-</dd>
-<dd lang="en">
-  {%- assign o1=site.documents | where: "ref", p.ref | where: "lang", "en" -%}
-  {%- assign o2=site.pages | where: "ref", p.ref | where: "lang", "en" -%}
-  {%- assign original = o1 | concat: o2 | sort: "title" -%}
-  English title: <i>{{original.first.title}}</i>
-</dd>
-</div>
-{%- if forloop.last %}</dl>{% endif -%}
-{% endfor %}
-{% if pages.name %}
-</dd>
-</div>
-{% endif %}
+  {%- if pages.name -%}
+    <div>
+      <dt>{% include_cached resource-title.html to=pages.name lang=l %}</dt>
+      <dd>
+        <dl>
+  {% endif %}
+  {% for p in pages.items %}
+          <div>
+            <dt><a href="{{ p.url | relative_url }}">{{ p.title }}</a></dt>
+            <dd>
+              {%- capture translatorslabel %}{% include_cached t.html t='Translator:' lang=l %}{%- endcapture %}
+              {% include_cached peoplelist.html label=translatorslabel people=p.translators %}
+              {%- capture contributorslabel %}{% include_cached t.html t='Contributor:' lang=l%}{%- endcapture %}
+              {% include_cached peoplelist.html label=contributorslabel people=p.contributors %}
+            </dd>
+            <dd lang="en">
+              {%- assign o1=site.documents | where: "ref", p.ref | where: "lang", "en" -%}
+              {%- assign o2=site.pages | where: "ref", p.ref | where: "lang", "en" -%}
+              {%- assign original = o1 | concat: o2 | sort: "title" -%}
+              English title: <i>{{original.first.title}}</i>
+            </dd>
+          </div>
+  {% endfor %}
+  {% if pages.name %}
+        </dl>
+      </dd>
+    </div>
+  {% endif %}
 {% endfor %}
 
 {% assign stds = page.translated_standards | where: "lang", l %}
 
 {% for std in stds.first.docs %}
-{%- if forloop.first -%}
-  <div>
-    <dt>{% include_cached t.html t="Translated Standards/Guidelines" lang=l %}</dt>
-    <dd>
-      <dl lang="{{l}}">
-{%- endif -%}
+  {%- if forloop.first -%}
     <div>
-      <dt><a href="std.url">{{ std.title }}</a> ({{std.type}}}</dt>
-      <dd lang="en">
-        English title: <i>{{std.en_title}}</i>
+      <dt>{% include_cached t.html t="Translated Standards/Guidelines" lang=l %}</dt>
+      <dd>
+        <dl lang="{{l}}">
+  {%- endif -%}
+          <div>
+            <dt><a href="std.url">{{ std.title }}</a></dt>
+            <dd lang="en">
+              English title: <i>{{std.en_title}}</i>
+            </dd>
+          </div>
+  {%- if forloop.last %}
+        </dl>
       </dd>
     </div>
-{%- if forloop.last %}</dl>{% endif -%}
+  {% endif -%}
 {% endfor %}
-  </div>
+
 </dl>
 
 {% include excol.html type="end" %}
 
 {% endif %}
-{% endfor -%}
+{% endfor %}
 
 If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
