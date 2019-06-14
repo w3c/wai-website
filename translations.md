@@ -22,6 +22,104 @@ inline_css: |
   }
 
 translated_standards:
+- lang: "ar"
+  docs:
+  - title: "المبادئ التوجيهية للنفاذ إلى محتوى الويب WCAG2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: http://www.alecso.org/wcag2.0/
+    type: candidate
+- lang: "be"
+  docs:
+  - title: "Кіраўніцтва па забеспячэнні даступнасці Web-кантэнту (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.fatcow.com/resources/wai-be.html
+    type: candidate
+- lang: "ca"
+  docs:
+  - title: "Directrius per a l'accessibilitat del contingut web (WCAG), versió 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-ca/
+    type: authorized
+- lang: "da"
+  docs:
+  - title: "Retningslinjer for tilgængeligt webindhold (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-da/
+    type: authorized
+- lang: "nl"
+  docs:
+  - title: "Richtlijnen voor de Toegankelijkheid van Webcontent (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-nl/
+    type: authorized
+- lang: "et"
+  docs:
+  - title: "Veebi sisu juurdepääsetavussuunised (WCAG 2.0)"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-et/
+    type: authorized
+- lang: "fi"
+  docs:
+  - title: "Verkkosisällön saavutettavuusohjeet (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-fi/
+    type: authorized
+- lang: "fr"
+  docs:
+  - title: "Règles pour l'accessibilité des contenus Web (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-fr/
+    type: authorized
+  - title: "Un guide pour comprendre et mettre en œuvre la version 2.0 des Règles pour l'accessibilité des contenus Web"
+    en_title: Understanding WCAG 2.0"
+    url: https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/
+    type: authorized
+- lang: "de"
+  docs:
+  - title: "Richtlinien für barrierefreie Webinhalte (WCAG) 2.0 (Web Content Accessibility Guidelines (WCAG) 2.0)"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-de/
+    type: authorized
+- lang: "it"
+  docs:
+  - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.1"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/Translations/WCAG21-it/
+    type: authorized
+  - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-it/
+    type: authorized
+- lang: "no"
+  docs:
+  - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-no/
+    type: authorized
+- lang: "pt"
+  docs:
+  - title: "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-pt/
+    type: authorized
+- lang: "pt-BR"
+  docs:
+  - title: "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-pt-br/
+    type: authorized
+- lang: "ru"
+  docs:
+  - title: "Руководство по обеспечению доступности Web-контента (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-ru/
+    type: authorized
+- lang: "sv"
+  docs:
+  - title: "Riktlinjer för tillgängligt webbinnehåll (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.w3.org/Translations/WCAG20-sv/
+    type: authorized
 - lang: "zh-hans"
   docs:
   - title: "Web内容无障碍指南 (WCAG) 2.1"
@@ -31,12 +129,6 @@ translated_standards:
   - title: "Web内容无障碍指南 (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: http://www.w3.org/translations/wcag20-zh/
-    type: authorized
-- lang: "it"
-  docs:
-  - title: "Web内容无障碍指南 (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-zh/
     type: authorized
 ---
 
@@ -64,7 +156,7 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
 {% endfor %}
 
 {% assign lang3 = lang3 | split: "," %}
-{% assign langs = lang1 | concat: lang2 | concat: lang3 | uniq %}
+{% assign langs = lang3 | concat: lang2 | concat: lang1 | uniq %}
 
 {%- for l in langs %}
 {% if l %}
