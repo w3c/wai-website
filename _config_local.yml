@@ -1,8 +1,7 @@
 # Built the site with the following command for production:
 # > bundle exec jekyll serve --incremental --config "_config.yml,_config_local.yml"
 
-limit_posts: 3
-strict_front_matter: true
+limit_posts: 15
 
 
 # exclude robots.txt
@@ -15,12 +14,3 @@ exclude:
   - ".travis.yml"
   - "vendor"
   - robots.txt
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-remote-theme
-  - wai-website-plugin

@@ -1,0 +1,51 @@
+{%- assign pagelang = 'en' -%}
+{%- if page.lang -%}
+  {%- assign pagelang = page.lang -%}
+{%- endif -%}
+{%- if include.lang -%}
+  {%- assign pagelang = include.lang -%}
+{%- endif -%}
+{%- assign in_lang = true -%}
+{%- assign link_page=site.documents | where:"ref", include.to | where: "lang", pagelang | first -%}
+{%- unless link_page.url -%}
+  {%- assign link_page=site.pages | where:"ref", include.to | where: "lang", pagelang | first -%}
+{%- endunless -%}
+{%- unless link_page.url -%}
+  {%- assign in_lang = false -%}
+  {%- assign link_page=site.documents | where:"url", include.to | first -%}
+{%- endunless -%}
+{%- unless link_page.url -%}
+  {%- assign in_lang = false -%}
+  {%- assign link_page=site.pages | where:"url", include.to | first -%}
+{%- endunless -%}
+{%- if pagelang == 'en' %}{%- assign in_lang = true -%}{% endif -%}
+
+{%- if include.secondary -%}
+{%- assign secondary_page=site.documents | where:"ref", include.secondary | where: "lang", pagelang | first -%}
+{%- unless secondary_page.url -%}
+  {%- assign secondary_page=site.pages | where:"ref", include.secondary | where: "lang", pagelang | first -%}
+{%- endunless -%}
+{%- unless secondary_page.url -%}
+  {%- assign secondary_page=site.documents | where:"url", include.secondary | first -%}
+{%- endunless -%}
+{%- unless secondary_page.url -%}
+  {%- assign secondary_page=site.pages | where:"url", include.secondary | first -%}
+{%- endunless -%}
+{%- endif -%}
+
+<section class="teaser media-inline" aria-labelledby="teaser-{{ link_page.title | handleize }}-title">
+      <header class="teaser-h">
+        <h2 id="teaser-{{ link_page.title | handleize }}-title">
+          <span class="subtitle">{{ include.subtitle }}</span>
+          <span class="title">{{ link_page.title }}</span>
+        </h2>
+      </header>
+      {%- if include.image or link_page.image %}<img src="{{ link_page.image | relative_url }}" alt="">{% endif -%}
+      <p>{%if link_page.teaser_text %}{{ link_page.teaser_text }}{% else %}{{ link_page.description }}{% endif %}</p>
+      <div class="button-group">
+        <a class="button button-more" href="{{ link_page.url | relative_url }}"><span>{% include t.html t="More About " %}{{ link_page.title }}</span></a>
+        {%- if include.secondary %}
+        <a class="button button-more button-secondary" href="{{ secondary_page.url | relative_url }}"><span>{{include.secondarylabel}}</span></a>
+        {% endif -%}
+      </div>
+    </section>
