@@ -136,12 +136,11 @@ translated_standards:
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Translations of current Web Accessibility Initiative (WAI) website resources are listed below.
+**This page lists translations of current accessibility standards and other resources from the Web Accessibility Initiative (WAI).**
 
-Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are listed in [WCAG 2 Translations](/standards-guidelines/wcag/translations/).<br>Other accessibility Technical Reports (including Authoring Tool Accessibility Guidelines (ATAG) 2.0) are listed in [Translations of W3C Technical Reports](https://www.w3.org/Translations/?filter=accessibility).
+If you want to get announcements of future WAI translations, you can subscribe to the WAI Translations mailing list by sending e-mail to <a href="mailto:public-wai-translations-request@w3.org?subject=subscribe">public-wai-translations-request@w3.org with subject: &ldquo;subscribe&rdquo;</a>
 
-{% comment %}<!-- When ARIA and other key ones are translated, list them here, too. ... if we haven't gotten them integrated in the list below yet. :-) -->{% endcomment %}
-
+If you might be interesting in translating resources, see [Translating WAI Resources]( https://www.w3.org/WAI/about/translating/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -233,5 +232,3 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
 
 {% endif %}
 {% endfor %}
-
-If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
