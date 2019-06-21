@@ -210,7 +210,7 @@ Translations of Web Content Accessibility Guidelines (WCAG) 2.0 and 2.1 are list
 {% for std in stds.first.docs %}
   {%- if forloop.first -%}
     <div>
-      <dt>{% include_cached t.html t="Translated Standards/Guidelines" lang=l %}</dt>
+      <dt lang="en">Standards/Guidelines</dt>
       <dd>
         <dl lang="{{l}}">
   {%- endif -%}
