@@ -71,7 +71,7 @@ translated_standards:
     url: https://www.w3.org/Translations/WCAG20-fr/
     type: authorized
   - title: "Un guide pour comprendre et mettre en œuvre la version 2.0 des Règles pour l'accessibilité des contenus Web"
-    en_title: Understanding WCAG 2.0"
+    en_title: "Understanding WCAG 2.0"
     url: https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/
     type: authorized
 - lang: "de"
@@ -138,9 +138,9 @@ translated_standards:
 
 **This page lists translations of current accessibility standards and other resources from the Web Accessibility Initiative (WAI).**
 
-If you want to get announcements of future WAI translations, you can subscribe to the WAI Translations mailing list by sending e-mail to <a href="mailto:public-wai-translations-request@w3.org?subject=subscribe">public-wai-translations-request@w3.org with subject: &ldquo;subscribe&rdquo;</a>
+If you want to get announcements of future WAI translations, you can subscribe to the WAI Translations mailing list by sending e-mail to [public-wai-translations-request@w3.org with subject: “subscribe”](mailto:public-wai-translations-request@w3.org?subject=subscribe).
 
-If you might be interesting in translating resources, see [Translating WAI Resources]( https://www.w3.org/WAI/about/translating/).
+If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -209,7 +209,7 @@ If you might be interesting in translating resources, see [Translating WAI Resou
 {% for std in stds.first.docs %}
   {%- if forloop.first -%}
     <div>
-      <dt lang="en">Standards/Guidelines</dt>
+      <dt>{% include_cached t.html t='Standards/Guidelines' lang=l hideTranslationHints=true %}</dt>
       <dd>
         <dl lang="{{l}}">
   {%- endif -%}
