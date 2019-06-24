@@ -205,7 +205,7 @@ If you might be interesting in translating resources, see [[Translating WAI Reso
 {% assign lang3 = lang3 | split: "," %}
 {% assign langs = lang3 | concat: lang2 | concat: lang1 | uniq %}
 
-{%- for l in langs %}
+{%- for l in langs -%}
 {% if l %}
 
 {% include excol.html type="start" id=l %}
