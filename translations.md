@@ -22,54 +22,62 @@ inline_css: |
   }
 
 translated_standards:
-- lang: "ar"
-  docs:
-  - title: "المبادئ التوجيهية للنفاذ إلى محتوى الويب WCAG2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: http://www.alecso.org/wcag2.0/
-    type: candidate
 - lang: "be"
   docs:
   - title: "Кіраўніцтва па забеспячэнні даступнасці Web-кантэнту (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.fatcow.com/resources/wai-be.html
-    type: candidate
+    url: http://www.fatcow.com/resources/wai-be.html
+    type: external
+    translator: "FatCow Web Hosting team"
 - lang: "ca"
   docs:
   - title: "Directrius per a l'accessibilitat del contingut web (WCAG), versió 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-ca/
     type: authorized
+    translator: "Facultat de Biblioteconomia i Documentació - Universitat de Barcelona"
 - lang: "da"
   docs:
   - title: "Retningslinjer for tilgængeligt webindhold (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-da/
     type: authorized
+    translator: "Danske Handicaporganisationer"
 - lang: "nl"
   docs:
   - title: "Richtlijnen voor de Toegankelijkheid van Webcontent (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-nl/
     type: authorized
+    translator: "The Bartiméus Accessibility Foundation"
+- lang: "es"
+  docs:
+  - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: http://www.sidar.org/traducciones/wcag20/es/
+    type: external
+    translator: "Saúl González Fernández"
 - lang: "et"
   docs:
   - title: "Veebi sisu juurdepääsetavussuunised (WCAG 2.0)"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-et/
     type: authorized
+    translator: "Ministry of Economic Affairs and Communications"
 - lang: "fi"
   docs:
   - title: "Verkkosisällön saavutettavuusohjeet (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-fi/
     type: authorized
+    translator: "Tampere University of Technology, Hypermedia Laboratory, W3C Finnish Office"
 - lang: "fr"
   docs:
   - title: "Règles pour l'accessibilité des contenus Web (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-fr/
     type: authorized
+    translator: "Association BrailleNet"
   - title: "Un guide pour comprendre et mettre en œuvre la version 2.0 des Règles pour l'accessibilité des contenus Web"
     en_title: "Understanding WCAG 2.0"
     url: https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/
@@ -80,56 +88,96 @@ translated_standards:
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-de/
     type: authorized
+    translator: "Deutsche Behindertenhilfe Aktion Mensch e.V."
+- lang: "he"
+  docs:
+  - title: "הנחיות להנגשת תכני אתרי אינטרנט WCAG) 2.0)"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://www.isoc.org.il/files/w3c-wai/guidelines.html
+    type: external
+    translator: "Eyal Sela"
+- lang: "hu"
+  docs:
+  - title: "Web Akadálymentesítési Útmutató 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: http://www.w3c.hu/forditasok/WCAG20/
+    type: external
+    translator: "Krisztina Vankó (Vankozak Bt)"
 - lang: "it"
   docs:
   - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.1"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
     url: https://www.w3.org/Translations/WCAG21-it/
     type: authorized
+    translator: "nternational Web Association"
   - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-it/
     type: authorized
+    translator: "International Webmasters Association / HTML Writers Guild"
+- lang: "ja"
+  docs:
+  - en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: https://waic.jp/docs/WCAG20/Overview.html
+    type: external
 - lang: "no"
   docs:
   - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-no/
     type: authorized
+    translator: "The Delta Centre - The National Centre for Accessibility and Participation for Persons with Disabilities in Norway"
+- lang: "pl"
+  docs: 
+  - title: "Wytyczne dla dostępności treści internetowych 2.0 (WCAG 2.0)"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    url: http://fdc.org.pl/wcag2/
+    type: external
 - lang: "pt"
   docs:
   - title: "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-pt/
+    url: https://www.w3.org/Translations/WCAG20-pt-PT/
     type: authorized
+    translator: "DSI/Unidade ACESSO da FCT, IP"
 - lang: "pt-BR"
   docs:
   - title: "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-pt-br/
     type: authorized
+    translator: "W3C Brazil Office"
 - lang: "ru"
   docs:
   - title: "Руководство по обеспечению доступности Web-контента (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-ru/
     type: authorized
+    translator: "UN Information Center"
 - lang: "sv"
   docs:
   - title: "Riktlinjer för tillgängligt webbinnehåll (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-sv/
     type: authorized
+    translator: "Funka Nu AB"
 - lang: "zh-hans"
   docs:
   - title: "Web内容无障碍指南 (WCAG) 2.1"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
     url: https://www.w3.org/Translations/WCAG21-zh/
     type: authorized
+    translator: "Zhejiang University"
   - title: "Web内容无障碍指南 (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: http://www.w3.org/translations/wcag20-zh/
     type: authorized
+    translator: "W3C China Host, Beihang"
+  - title: "无障碍创作工具指南(ATAG) 2.0"
+    en_title: "Authoring Tool Accessibility Guidelines (ATAG) 2.0he"
+    url: https://www.w3.org/Translations/ATAG20-zh/
+    type: authorized
+    translator: "Zhejiang University"
 ---
 
 {::nomarkdown}
@@ -214,7 +262,10 @@ If you might be interesting in translating resources, see [[Translating WAI Reso
         <dl lang="{{l}}">
   {%- endif -%}
           <div>
-            <dt><a href="std.url">{{ std.title }}</a></dt>
+            <dt><a href="{{std.url}}">{%if std.title %}{{ std.title }}{% else %}<span lang="en">{{std.title_en}}</span>{%endif%}{% if std.type == "external" %} {% include_cached external.html lang=l %}{% endif %}</a></dt>
+            {%- if std.translator -%}
+            <dd>{% include_cached t.html t='Translator:' lang=l hideTranslationHints=true %} {{std.translator}}</dd>
+            {%- endif -%}
             <dd lang="en">
               English title: <i>{{std.en_title}}</i>
             </dd>
