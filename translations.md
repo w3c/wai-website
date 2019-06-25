@@ -196,14 +196,14 @@ If you might be interesting in translating resources, see [[Translating WAI Reso
 
 {% include excol.html type="all" %}
 
-{% assign lang1=site.documents | where_exp:"item", "item.lang != 'en'" | sort: 'lang' | map: "lang" %}
-{% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | sort: 'lang' | map: "lang" %}
+{% assign lang1=site.documents | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
+{% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
 {% for lang in page.translated_standards %}
 {%- if forloop.first %}{% assign lang3 = lang.lang %}{%else%}{% assign lang3 = lang3 | append: "," | append: lang.lang %}{% endif -%}
 {% endfor %}
 
 {% assign lang3 = lang3 | split: "," %}
-{% assign langs = lang3 | concat: lang2 | concat: lang1 | uniq %}
+{% assign langs = lang3 | concat: lang2 | concat: lang1 | uniq | sort %}
 
 {%- for l in langs -%}
 {% if l %}
