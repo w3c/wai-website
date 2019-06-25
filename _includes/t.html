@@ -1,0 +1,33 @@
+{%- assign pagelang = 'en' -%}
+{%- if page.lang -%}
+  {%- assign pagelang = page.lang -%}
+{%- endif -%}
+{%- if include.lang -%}
+  {%- assign pagelang = include.lang -%}
+{%- endif -%}
+{%- if pagelang == "en" -%}
+  {%- assign phrase = include.t -%}
+  {%- if include.replace -%}
+    {%- assign replacements = include.replace | split: "||" -%}
+    {%- for r in replacements -%}
+      {%- assign pair = r | split: "|" -%}
+      {%- assign phrase = phrase | replace: pair[0], pair[1] -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign source=site.data.translations | where: "en", include.t | first -%}
+  {%- if source[pagelang] -%}
+    {%- assign phrase=source[pagelang] -%}
+  {%- else -%}
+    {%- unless site.hideTranslationHints or include.hideTranslationHints %}<mark lang="en">Needs Translation</mark> {% endunless -%}
+    {%- assign phrase=include.t | prepend: '<span lang="en">' | append: '</span>' -%}
+  {%- endif -%}
+  {%- if include.replace -%}
+    {%- assign replacements = include.replace | split: "||" -%}
+    {%- for r in replacements -%}
+      {%- assign pair = r | split: "|" -%}
+      {%- assign phrase = phrase | replace: pair[0], pair[1] -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endif -%}
+{{- phrase -}}
