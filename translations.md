@@ -109,7 +109,7 @@ translated_standards:
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
     url: https://www.w3.org/Translations/WCAG21-it/
     type: authorized
-    translator: "nternational Web Association"
+    translator: "International Web Association"
   - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-it/
@@ -117,9 +117,11 @@ translated_standards:
     translator: "International Webmasters Association / HTML Writers Guild"
 - lang: "ja"
   docs:
-  - en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+  - title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://waic.jp/docs/WCAG20/Overview.html
     type: external
+    translator: "JIS Web Accessibility Committee"
 - lang: "no"
   docs:
   - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0"
