@@ -117,8 +117,7 @@ translated_standards:
     translator: "International Webmasters Association / HTML Writers Guild"
 - lang: "ja"
   docs:
-  - title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+  - en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://waic.jp/docs/WCAG20/Overview.html
     type: external
     translator: "JIS Web Accessibility Committee"
