@@ -263,7 +263,7 @@ If you might be interesting in translating resources, see [[Translating WAI Reso
         <dl lang="{{l}}">
   {%- endif -%}
           <div>
-            <dt><a href="{{std.url}}">{%if std.title %}{{ std.title }}{% else %}<span lang="en">{{std.title_en}}</span>{%endif%}{% if std.type == "external" %} {% include_cached external.html lang=l %}{% endif %}</a></dt>
+            <dt><a href="{{std.url}}"{%if std.title %}>{{ std.title }}{% else %} lang="en">{{std.en_title}}{%endif%}{% if std.type == "external" %} {% include_cached external.html lang=l %}{% endif %}</a></dt>
             {%- if std.translator -%}
             <dd>{% include_cached t.html t='Translator:' lang=l hideTranslationHints=true %} {{std.translator}}</dd>
             {%- endif -%}
