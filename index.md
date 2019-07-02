@@ -2,6 +2,19 @@
 layout: home
 title: "Home"
 lang: 'en'
+inline_css: |
+  li::marker {
+    color: var(--faded-red);
+  }
+  .audiences-inline li, .teaser-sponsors li{
+    color: var(--faded-red);
+  }
+  .audiences-inline li a {
+    color: var(--w3c-blue);
+  }
+  .teaser-sponsors li>span{
+    color: var(--off-black);
+  }
 ---
 <h1 class="visuallyhidden">W3C Web Accessibility Initiative Home</h1>
 <section class="default-grid teaser making-web-accessible" aria-labelledby="mwa-title">
@@ -124,11 +137,11 @@ lang: 'en'
     </header>
     <p>WAI is supported in part by the following organizations. Thank you!</p>
     <ul>
-      <li><a href="http://www.ibm.com/able">IBM Corporation</a></li>
-      <li>European Commission (<abbr>EC</abbr>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (780057) (<a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>)</li>
-      <li>European Commission (<abbr>EC</abbr>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (822245) (<a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a>)</li>
-      <li><a href="https://www.fordfoundation.org/">Ford Foundation</a>, <a href="https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/">Technology and Society Program</a> (<a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access Project</a>)</li>
-      <li>US Department of Health and Human Services, <a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">National Institute for Disability, Independent Living and Rehabilitation Research</a>, contract HHSP23301500054 (<a href="https://www.w3.org/WAI/Core2015/">WAI-Core 2015 Project</a>)</li>
+      <li><span><a href="http://www.ibm.com/able">IBM Corporation</a></span></li>
+      <li><span>European Commission (<abbr>EC</abbr>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (780057) (<a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>)</span></li>
+      <li><span>European Commission (<abbr>EC</abbr>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (822245) (<a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a>)</span></li>
+      <li><span><a href="https://www.fordfoundation.org/">Ford Foundation</a>, <a href="https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/">Technology and Society Program</a> (<a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access Project</a>)</span></li>
+      <li><span>US Department of Health and Human Services, <a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">National Institute for Disability, Independent Living and Rehabilitation Research</a>, contract HHSP23301500054 (<a href="https://www.w3.org/WAI/Core2015/">WAI-Core 2015 Project</a>)</span></li>
     </ul>
     <p>WAI welcomes <a href="{{ '/about/sponsoring/' | relative_url }}">additional sponsors</a>.</p>
   </div>
