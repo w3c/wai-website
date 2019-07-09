@@ -46,9 +46,7 @@ lang: 'en'
               {%- break -%}
           {%- endif -%}
         {%- endfor -%}
-        <a href="{{ '/news/' | relative_url }}" class="button button-more" style="margin-right:1em;"><span>See All News</span></a> 
-        <a href="https://twitter.com/w3c_wai" style="font-size: 1.5em; vertical-align: middle; margin-right: 1em;">{% include icon.html name="twitter" label="Twitter" %}</a> <a href="https://www.w3.org/WAI/feed.xml" style="font-size: 1.5em; vertical-align: middle; margin-right: 1em;">{% include icon.html name="rss" label="Feed" %}</a>
-        <a href="{{ '/news/subscribe/' | relative_url }}" class="button button-more button-secondary"><span>Get WAI News in e-mail</span></a>
+        <a href="{{ '/news/' | relative_url }}" class="button button-more"><span>See All News</span></a> <a href="{{ '/news/subscribe/' | relative_url }}" class="button button-more button-secondary"><span>Subscribe to WAI News</span></a>
     </section>
   </div>
   <div class="col2">
