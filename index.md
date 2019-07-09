@@ -79,56 +79,32 @@ inline_css: |
         {% endfor %}
       </ul>
     </section>
-    <section class="teaser media-inline" aria-labelledby="perspectives-title">
-      <header class="teaser-h">
-        <h2 id="perspectives-title">
-          <span class="subtitle">Web Accessibility Perspectives: </span>
-          <span class="title">Keyboard Compatibility</span>
-        </h2>
-      </header>
-      <div class="media-wrapper">
-        <iframe title="Video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/93UgG72os8M" allowfullscreen=""></iframe>
-      </div>
-      <p>All functionality must be usable with the keyboard. That is, users can access links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse.</p>
-      <p>Keyboard accessibility is essential for people with disabilities and benefits everyone in a variety of situations.</p>
-      <div class="button-group">
-        <a class="button button-more" href="{{ '/perspective-videos/keyboard/' | relative_url }}"><span>More About Keyboard Compatibility</span></a>
-        <a class="button button-more button-secondary" href="{{ '/perspective-videos/' | relative_url }}"><span>See All Perspectives Videos</span></a>
-      </div>
-    </section>
 
-    <section class="teaser resource-inline" aria-labelledby="principles-title">
-      <a class="teaser-c stealthy-link col1" href="{{ '/fundamentals/accessibility-principles/' | relative_url }}">
-        <header class="teaser-h">
-          <h2 id="principles-title">
-            <span class="subtitle">Featured Resource: </span>
-            <span class="title">Accessibility Principles</span>
-          </h2>
-        </header>
-        <p>The Accessibility Principles page introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools. It provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to stories of web users.</p>
-        <div>
-          <span class="button">Accessibility Principles</span>
-        </div>
-      </a>
-    </section>
+    {% include_cached homepage-video-teaser.html to="/perspective-videos/keyboard/" subtitle="Web Accessibility Perspectives:" secondary="/perspective-videos/" secondarylabel="See All Perspectives Videos" %}
 
-    <section class="teaser resource-inline" aria-labelledby="new21-title">
-      <a class="teaser-c stealthy-link col1" href="{{ '/standards-guidelines/wcag/new-in-21/' | relative_url }}">
-        <header class="teaser-h">
-          <h2 id="new21-title">
-            <span class="subtitle">Featured Resource: </span>
-            <span class="title">What's New in WCAG 2.1</span>
-          </h2>
-        </header>
-        <img src="{{ "/content-images/home/wcag21-release.png" | relative_url }}" alt="">
-        <p>WCAG 2.1 has 17 additional requirements (“success criteria”) that address mobile accessibility, people with low vision, and people with cognitive and learning disabilities. The What’s New in WCAG 2.1 page introduces the new success criteria. It includes quotes from personas to help you understand the issues.</p>
-        <div>
-          <span class="button">What's New in WCAG 2.1</span>
-        </div>
-      </a>
-    </section>
+    {% include_cached homepage-teaser.html to="/fundamentals/accessibility-principles/" %}
+
 </div>
 </div>
+
+<div class="default-grid grid-3">
+  <div class="col1">
+
+    {% include_cached homepage-teaser.html to="/business-case/" %}
+
+  </div>
+  <div class="col2">
+
+    {% include_cached homepage-teaser.html to="/fundamentals/accessibility-intro/" %}
+  
+  </div>
+  <div class="col3">
+
+      {% include_cached homepage-teaser.html to="/test-evaluate/preliminary/" %}
+  
+  </div>
+</div>
+
 
 <div class="default-grid teaser teaser-sponsors">
   <div class="inner">
