@@ -7,6 +7,8 @@ permalink: /translations/
 
 parent: /
 
+sidebaricon: translations
+
 github:
   repository: w3c/wai-website
   path: translations.md
