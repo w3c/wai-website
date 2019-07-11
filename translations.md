@@ -191,7 +191,7 @@ translated_standards:
 
 If you want to get announcements of future WAI translations, you can subscribe to the WAI Translations mailing list by sending e-mail to [public-wai-translations-request@w3.org with subject: “subscribe”](mailto:public-wai-translations-request@w3.org?subject=subscribe).
 
-If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
+**WAI thanks translators**, and welcomes other translations. If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
