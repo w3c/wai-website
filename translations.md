@@ -187,17 +187,19 @@ translated_standards:
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-**This page lists translations of current accessibility standards and other resources from the Web Accessibility Initiative (WAI).**
-
-If you want to get announcements of future WAI translations, you can subscribe to the WAI Translations mailing list by sending e-mail to [public-wai-translations-request@w3.org with subject: “subscribe”](mailto:public-wai-translations-request@w3.org?subject=subscribe).
-
-**WAI thanks translators**, and welcomes other translations. If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
+This page lists translations of current accessibility standards and other resources from the Web Accessibility Initiative (WAI).
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
+**If you want to get announcements of future WAI translations**, you can subscribe to the WAI Translations mailing list by sending e-mail to [public-wai-translations-request@w3.org with subject: “subscribe”](mailto:public-wai-translations-request@w3.org?subject=subscribe).
+
+**WAI thanks translators**, and welcomes other translations. If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
+
 {% include excol.html type="all" %}
+
+_Languages are sorted alphabetically by language code. For example, Chinese is "zh" and near the bottom of this page._
 
 {% assign lang1=site.documents | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
 {% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
