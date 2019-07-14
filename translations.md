@@ -199,7 +199,7 @@ To get announcements of future translations, you can [subscribe to the WAI Trans
 
 {% include excol.html type="all" %}
 
-_Languages are sorted alphabetically by language code. For example, Chinese is "zh" near the bottom of this page._
+_Languages are sorted alphabetically by language code. For example, "Chinese" is sorted by "zh", thus it is near the bottom of this page._
 
 {% assign lang1=site.documents | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
 {% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
