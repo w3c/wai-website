@@ -62,7 +62,6 @@ translated_standards:
 - lang: "et"
   docs:
   - title: "Veebi sisu juurdepääsetavussuunised (WCAG 2.0)"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-et/
     type: authorized
     translator: "Ministry of Economic Affairs and Communications"
@@ -86,7 +85,7 @@ translated_standards:
     type: authorized
 - lang: "de"
   docs:
-  - title: "Richtlinien für barrierefreie Webinhalte (WCAG) 2.0 (Web Content Accessibility Guidelines (WCAG) 2.0)"
+  - title: "Richtlinien für barrierefreie Webinhalte (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-de/
     type: authorized
