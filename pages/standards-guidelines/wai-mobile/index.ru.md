@@ -1,0 +1,1 @@
+../../../_external/resources/wai-mobile/index.ru.md
