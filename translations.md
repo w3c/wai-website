@@ -58,7 +58,7 @@ translated_standards:
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: http://www.sidar.org/traducciones/wcag20/es/
     type: external
-    translator: "Saúl González Fernández"
+    translator: "Fundación Sidar - Acceso Universal"
 - lang: "et"
   docs:
   - title: "Veebi sisu juurdepääsetavussuunised (WCAG 2.0)"
