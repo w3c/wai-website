@@ -12,6 +12,12 @@ sidebaricon: translations
 github:
   repository: w3c/wai-website
   path: translations.md
+  
+description: Translations of current accessibility standards and other resources from the W3C Web Accessibility Initiative (WAI).
+image: /content-images/social-translations.png
+
+teaser_text: Web accessibility resources in multiple languages. Translations of W3C Web Accessibility Initiative (WAI) resources covering strategies, standards, and support to make the Web accessible to people with disabilities.
+ 
 
 feedbackmail: wai@w3.org
 footer: |
