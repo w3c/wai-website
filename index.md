@@ -77,6 +77,7 @@ inline_css: |
           <li><a href="{{ role.url | relative_url }}">{% if role.nav_title %}{{role.nav_title}}{% else %}{{role.title}}{% endif %}</a></li>
           {% endunless %}
         {% endfor %}
+        <li><a href="{{ '/translations/' | relative_url }}">Other Languages</a></li>
       </ul>
     </section>
     <section class="teaser media-inline" aria-labelledby="perspectives-title">
