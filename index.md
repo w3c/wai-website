@@ -102,10 +102,10 @@ inline_css: |
         <header class="teaser-h">
           <h2 id="translations-title">
             <span class="subtitle">Feature: </span>
-            <span class="title">Translations of Accessibility Resources</span>
+            <span class="title">Translations</span>
           </h2>
         </header>
-        <p>WAI's resources are available in over 20 languages, with more coming. Translations are linked from the top of WAI website pages.</p>
+        <p>WAI accessibility resources are available in over 20 languages, with more coming. Translations are linked from the top of WAI website pages.</p>
         <div>
           <span class="button">All WAI Translations</span>
         </div>
@@ -117,11 +117,11 @@ inline_css: |
         <header class="teaser-h">
           <h2 id="quickref-title">
             <span class="subtitle">Featured Resource: </span>
-            <span class="title">How to Meet WCAG (Quick Reference)</span>
+            <span class="title">WCAG Quick Ref</span>
           </h2>
         </header>
         <img src="{{ "/content-images/home/wcag21-release.png" | relative_url }}" alt="">
-        <p>The Web Content Accessibility Guidelines (WCAG) "Quick Ref" includes WCAG 2.1 requirements (“success criteria”) and updated Techniques.</p>
+        <p>How to Meet WCAG (Quick Reference) includes Web Content Accessibility Guidelines (WCAG) 2.1 requirements (“success criteria”) and updated Techniques.</p>
         <div>
           <span class="button">How to Meet WCAG (Quick Reference)</span>
         </div>
