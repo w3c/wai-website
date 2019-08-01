@@ -55,7 +55,7 @@ inline_css: |
               {{ post.content | markdownify }}
               <p><small>({{post.date | date: "%Y-%m-%d"}})</small></p>
           </article>
-          {%- if forloop.index == 5 -%}
+          {%- if forloop.index == 7 -%}
               {%- break -%}
           {%- endif -%}
         {%- endfor -%}
@@ -83,47 +83,47 @@ inline_css: |
       <header class="teaser-h">
         <h2 id="perspectives-title">
           <span class="subtitle">Web Accessibility Perspectives: </span>
-          <span class="title">Keyboard Compatibility</span>
+          <span class="title">Customizable Text</span>
         </h2>
       </header>
       <div class="media-wrapper">
-        <iframe title="Video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/93UgG72os8M" allowfullscreen=""></iframe>
+        <iframe title="Video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/rbiI65Jcz5s" allowfullscreen=""></iframe>
       </div>
-      <p>All functionality must be usable with the keyboard. That is, users can access links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse.</p>
-      <p>Keyboard accessibility is essential for people with disabilities and benefits everyone in a variety of situations.</p>
+      <p>Some users need to be able to change the way text is displayed. Websites and apps need to work when users change size, spacing, font, color, and other text properties.</p>
+      <p>Customizable Text is essential for people with disabilities and benefits everyone in a variety of situations.</p>
       <div class="button-group">
-        <a class="button button-more" href="{{ '/perspective-videos/keyboard/' | relative_url }}"><span>More About Keyboard Compatibility</span></a>
+        <a class="button button-more" href="{{ '/perspective-videos/customizable/' | relative_url }}"><span>More About Customizable Text</span></a>
         <a class="button button-more button-secondary" href="{{ '/perspective-videos/' | relative_url }}"><span>See All Perspectives Videos</span></a>
       </div>
     </section>
 
-    <section class="teaser resource-inline" aria-labelledby="principles-title">
-      <a class="teaser-c stealthy-link col1" href="{{ '/fundamentals/accessibility-principles/' | relative_url }}">
+    <section class="teaser resource-inline" aria-labelledby="translations-title">
+      <a class="teaser-c stealthy-link col1" href="{{ '/translations/' | relative_url }}">
         <header class="teaser-h">
-          <h2 id="principles-title">
-            <span class="subtitle">Featured Resource: </span>
-            <span class="title">Accessibility Principles</span>
+          <h2 id="translations-title">
+            <span class="subtitle">Feature: </span>
+            <span class="title">Translations of Accessibility Resources</span>
           </h2>
         </header>
-        <p>The Accessibility Principles page introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools. It provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to stories of web users.</p>
+        <p>WAI's resources are available in over 20 languages, with more coming. Translations are linked from the top of WAI website pages.</p>
         <div>
-          <span class="button">Accessibility Principles</span>
+          <span class="button">All WAI Translations</span>
         </div>
       </a>
     </section>
 
-    <section class="teaser resource-inline" aria-labelledby="new21-title">
-      <a class="teaser-c stealthy-link col1" href="{{ '/standards-guidelines/wcag/new-in-21/' | relative_url }}">
+    <section class="teaser resource-inline" aria-labelledby="quickref-title">
+      <a class="teaser-c stealthy-link col1" href="{{ '/WCAG21/quickref/' | relative_url }}">
         <header class="teaser-h">
-          <h2 id="new21-title">
+          <h2 id="quickref-title">
             <span class="subtitle">Featured Resource: </span>
-            <span class="title">What's New in WCAG 2.1</span>
+            <span class="title">How to Meet WCAG (Quick Reference)</span>
           </h2>
         </header>
         <img src="{{ "/content-images/home/wcag21-release.png" | relative_url }}" alt="">
-        <p>WCAG 2.1 has 17 additional requirements (“success criteria”) that address mobile accessibility, people with low vision, and people with cognitive and learning disabilities. The What’s New in WCAG 2.1 page introduces the new success criteria. It includes quotes from personas to help you understand the issues.</p>
+        <p>The Web Content Accessibility Guidelines (WCAG) "Quick Ref" includes WCAG 2.1 requirements (“success criteria”) and updated Techniques.</p>
         <div>
-          <span class="button">What's New in WCAG 2.1</span>
+          <span class="button">How to Meet WCAG (Quick Reference)</span>
         </div>
       </a>
     </section>
