@@ -128,7 +128,7 @@ translated_standards:
   - en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://waic.jp/docs/WCAG20/Overview.html
     type: external
-    translator: "JIS Web Accessibility Committee"
+    translator: "WAIC (Web Accessibility Infrastructure Committee)"
 - lang: "no"
   docs:
   - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0"
