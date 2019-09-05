@@ -1,0 +1,1 @@
+../../_external/resources/wai-media-guide/index.md
