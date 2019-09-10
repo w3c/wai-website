@@ -24,14 +24,17 @@ inline_css: |
     </h2>
     <p class="subtitle">Strategies, standards, and supporting resources to help you make the Web more accessible to people with disabilities.</p>
   </header>
-  <div class="inner grid-3 nogap">
-    <div class="col1 making-web-accessible-box">{% include_cached icon.html name="hp-book" class="mwa-icon" %}<h3>W3C</h3>
+  <div class="inner grid-3">
+    <div class="col1 making-web-accessible-box">
+      <h3>{%- include_cached icon.html name="hp-book" class="mwa-icon mwa-icon-book" -%} W3C</h3>
       <p>The World Wide Web Consortium (W3C) develops international standards for the Web: HTML, CSS, and many more.</p>
     </div>
-    <div class="col2 making-web-accessible-box">{% include_cached icon.html name="hp-tools" class="mwa-icon" %}<h3>WAI</h3>
+    <div class="col2 making-web-accessible-box">
+      <h3>{%- include_cached icon.html name="hp-tools" class="mwa-icon" -%} WAI</h3>
       <p>The W3C Web Accessibility Initiative (WAI) develops standards and support materials to help you understand and implement accessibility.</p>
     </div>
-    <div class="col3 making-web-accessible-box">{% include_cached icon.html name="hp-computer" class="mwa-icon" %}<h3>You</h3>
+    <div class="col3 making-web-accessible-box">
+      <h3>{%- include_cached icon.html name="hp-computer" class="mwa-icon mwa-icon-computer" -%} You</h3>
       <p>You can use W3C WAI resources to make your websites, applications, and other digital creations more accessible and usable to everyone.</p>
     </div>
   </div>
@@ -52,8 +55,8 @@ inline_css: |
         {%- for post in site.posts -%}
           <article class="news-teaser">
               <h3>{%comment%}<a href="{{ post.url | relative_url }}">{%endcomment%}{{post.title}}{%comment%}</a>{%endcomment%}</h3>
-              {{ post.content | markdownify }}
               <p><small>({{post.date | date: "%Y-%m-%d"}})</small></p>
+              {{ post.content | markdownify }}
           </article>
           {%- if forloop.index == 7 -%}
               {%- break -%}
