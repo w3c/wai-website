@@ -160,24 +160,28 @@
   - name: Tips for Developing
     url: "/tips/developing/"
   - name: Audio & Video Media
-    url: "/design-develop/media/"
+    url: "/media/av/"
     pages:
       - name: Planning
-        url: "/design-develop/media/planning/"
+        url: "/media/av/planning/"
       - name: Audio Content & Video Content
-        url: "/design-develop/media/av-content/"
+        url: "/media/av/av-content/"
       - name: Media Player
-        url: "/design-develop/media/player/"
+        url: "/media/av/player/"
       - name: Description
-        url: "/design-develop/media/description/"
+        url: "/media/av/description/"
       - name: Captions/Subtitles
-        url: "/design-develop/media/captions/"
+        url: "/media/av/captions/"
       - name: Transcripts
-        url: "/design-develop/media/transcripts/"
+        url: "/media/av/transcripts/"
       - name: Sign Languages
-        url: "/design-develop/media/sign-languages/"
+        url: "/media/av/sign-languages/"
       - name: Transcribing Audio to Text
-        url: "/design-develop/media/transcribing/"
+        url: "/media/av/transcribing/"
+      - name:
+          en: Achnowledgements
+        url: /media/av/acknowledgements/
+        hide: true
   - name: Tutorials
     url: "https://www.w3.org/WAI/tutorials/"
     different: true
