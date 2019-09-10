@@ -162,3 +162,6 @@
 [submodule "_external/resources/wai-mobile"]
 	path = _external/resources/wai-mobile
 	url = https://github.com/w3c/wai-mobile.git
+[submodule "_external/resources/wai-media-guide"]
+	path = _external/resources/wai-media-guide
+	url = https://github.com/w3c/wai-media-guide.git
