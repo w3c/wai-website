@@ -165,3 +165,6 @@
 [submodule "_external/resources/wai-media-guide"]
 	path = _external/resources/wai-media-guide
 	url = https://github.com/w3c/wai-media-guide.git
+[submodule "_external/resources/wai-pronunciation"]
+	path = _external/resources/wai-pronunciation
+	url = https://github.com/w3c/wai-pronunciation.git
