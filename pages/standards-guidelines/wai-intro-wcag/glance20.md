@@ -1,1 +1,0 @@
-../../../_external/resources/wai-intro-wcag/glance20.md
