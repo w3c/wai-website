@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Home"
-lang: 'en'
+lang: en
 inline_css: |
   li::marker {
     color: var(--faded-red);
