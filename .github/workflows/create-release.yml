@@ -30,14 +30,14 @@ jobs:
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec jekyll build --config "_config.yml,_config_prod.yml" --profile
-#    - name: Zip Files
-#      uses: montudor/action-zip@v0.1.0
-#      args: zip -r build.zip ./_site"
+    - name: Zip Files
+      uses: montudor/action-zip@v0.1.0
+      args: zip -r build.zip ./_site"
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: _site
+        file: build.zip
         asset_name: build
         tag: ${{ github.ref }}
         overwrite: true
