@@ -50,7 +50,7 @@ jobs:
     - name: Check Links
       uses: peter-evans/link-checker@v1.0.0
       with:
-        args: -v -d https://www.w3.org/WAI/ -r _site
+        args: -v -d https://www.w3.org/ -r _site
     - name: Upload link check report to release
       uses: svenstaro/upload-release-action@v1-release
       with:
