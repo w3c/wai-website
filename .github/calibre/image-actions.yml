@@ -1,3 +1,2 @@
 ignorePaths:
-  - "node_modules/**"
-  - "_externals/**"
+  - "!(_site)/**"
