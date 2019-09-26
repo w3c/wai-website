@@ -1,4 +1,4 @@
-name: Ruby
+name: Create Downloadable Release
 
 on:
   release
@@ -47,22 +47,22 @@ jobs:
         asset_name: build.zip
         tag: ${{ github.ref }}
         overwrite: true
-    - name: Check Links
-      uses: peter-evans/link-checker@v1.0.0
-      with:
-        args: -v -d https://www.w3.org/ -r _site
-    - name: Upload link check report to release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: ./link-checker/out.md
-        asset_name: link-report.md
-        tag: ${{ github.ref }}
-        overwrite: true
-    - name: Create Issue From File
-      uses: peter-evans/create-issue-from-file@v1.0.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ISSUE_TITLE: Link Checker Report
-        ISSUE_CONTENT_FILEPATH: ./link-checker/out.md
-        ISSUE_LABELS: report, automated issue
+    # - name: Check Links
+    #   uses: peter-evans/link-checker@v1.0.0
+    #   with:
+    #     args: -v -d https://www.w3.org/ -r _site
+    # - name: Upload link check report to release
+    #   uses: svenstaro/upload-release-action@v1-release
+    #   with:
+    #     repo_token: ${{ secrets.GITHUB_TOKEN }}
+    #     file: ./link-checker/out.md
+    #     asset_name: link-report.md
+    #     tag: ${{ github.ref }}
+    #     overwrite: true
+    # - name: Create Issue From File
+    #   uses: peter-evans/create-issue-from-file@v1.0.1
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #     ISSUE_TITLE: Link Checker Report
+    #     ISSUE_CONTENT_FILEPATH: ./link-checker/out.md
+    #     ISSUE_LABELS: report, automated issue
