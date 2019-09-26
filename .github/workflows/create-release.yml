@@ -1,9 +1,7 @@
 name: Ruby
 
 on:
-  push:
-    tags:
-      - '*'
+  release
 
 jobs:
   build:
@@ -16,7 +14,17 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
-    - name: Build and test with Rake
+    - name: Update Externals
+      run: |
+        git submodules update --remote
+    - name: commit changed files
+      uses: stefanzweifel/git-auto-commit-action@v2.1.0
+      with:
+        commit_message: Apply automatic changes
+        branch: ${{ github.head_ref }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Build and test with Jekyll
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
