@@ -32,7 +32,8 @@ jobs:
         bundle exec jekyll build --config "_config.yml,_config_prod.yml" --profile
     - name: Zip Files
       uses: montudor/action-zip@v0.1.0
-      args: zip -r build.zip ./_site
+      with:
+        args: zip -r build.zip ./_site
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v1-release
       with:
