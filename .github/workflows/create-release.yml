@@ -18,13 +18,13 @@ jobs:
       run: |
         git submodule init
         git submodule update --remote
-#    - name: commit changed files
-#      uses: stefanzweifel/git-auto-commit-action@v2.1.0
-#      with:
-#        commit_message: Apply automatic changes
-#        branch: ${{ github.head_ref }}
-#      env:
-#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: commit changed files
+      uses: stefanzweifel/git-auto-commit-action@v2.1.0
+      with:
+        commit_message: Apply automatic changes
+        branch: ${{ github.head_ref }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build and test with Jekyll
       run: |
         gem install bundler
