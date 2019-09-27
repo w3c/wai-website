@@ -1,7 +1,9 @@
 name: Create Downloadable Release
 
 on:
-  release
+  release:
+    types: [created]
+  
 
 jobs:
   build:
