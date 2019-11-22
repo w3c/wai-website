@@ -74,6 +74,11 @@ translated_standards:
     translator: "Ministry of Economic Affairs and Communications"
 - lang: "fi"
   docs:
+  - title: "Verkkosisällön saavutettavuusohjeet (WCAG) 2.1"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/Translations/WCAG21-fi/
+    type: authorized
+    translator: "Kehitysvammaliitto ry" 
   - title: "Verkkosisällön saavutettavuusohjeet (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-fi/
