@@ -46,6 +46,11 @@ translated_standards:
     translator: "Facultat de Biblioteconomia i Documentació - Universitat de Barcelona"
 - lang: "da"
   docs:
+  - title: "Retningslinjer for Tilgængeligt Webindhold (WCAG) 2.1"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/Translations/WCAG21-da/
+    type: authorized
+    translator: "Digitaliseringsstyrelsen"
   - title: "Retningslinjer for tilgængeligt webindhold (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-da/
