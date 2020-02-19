@@ -224,3 +224,4 @@
 [submodule "_external/resources/wai-curricula"]
 	path = _external/resources/wai-curricula
 	url = https://github.com/w3c/wai-curricula.git
+	branch = master
