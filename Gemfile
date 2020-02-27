@@ -11,3 +11,6 @@ gem 'jekyll-remote-theme'
 gem 'jekyll-paginate'
 gem 'jekyll-feed'
 gem 'wai-website-plugin'
+
+gem 'liquid', github: 'Shopify/liquid', branch: 'master'
+gem 'liquid-c', github: 'Shopify/liquid-c', branch: 'master'
