@@ -83,22 +83,55 @@ inline_css: |
         <li><a href="{{ '/translations/' | relative_url }}">Other Languages</a></li>
       </ul>
     </section>
+    <section class="teaser resource-inline" aria-labelledby="course-title">
+      <a class="teaser-c stealthy-link col1" href="https://www.w3.org/blog/2019/12/free-online-course-introduction-to-web-accessibility/">
+        <header class="teaser-h">
+          <h2 id="media-title">
+            <span class="subtitle">Training Course: </span>
+            <span class="title">Introduction to Web Accessibility</span>
+          </h2>
+        </header>
+        <img src="{{ "/content-images/wai-news/2019-12-03-w3cx-accessibility-intro.jpg" | relative_url }}" alt="">
+        <p>This free online training course is designed for technical and non-technical audiences, including developers, designers, content authors, project managers, people with disabilities, and others. For information on the free audit, optional certificate,  open dates, and more, see the blog post: </p>
+        <div>
+          <span class="button">About the Free Online Course</span>
+        </div>
+      </a>
+    </section>
+	
+	
+
     <section class="teaser media-inline" aria-labelledby="perspectives-title">
       <header class="teaser-h">
         <h2 id="perspectives-title">
           <span class="subtitle">Web Accessibility Perspectives: </span>
-          <span class="title">Customizable Text</span>
-        </h2>
+          <span class="title">Video Captions</span></h2>
       </header>
       <div class="media-wrapper">
-        <iframe title="Video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/rbiI65Jcz5s" allowfullscreen=""></iframe>
+        <iframe title="Video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iWO5N3n1DXU" allowfullscreen=""></iframe>
       </div>
-      <p>Some users need to be able to change the way text is displayed. Websites and apps need to work when users change size, spacing, font, color, and other text properties.</p>
-      <p>Customizable Text is essential for people with disabilities and benefits everyone in a variety of situations.</p>
+      <p>Captions are the audio information in text that is synchronized with the audio and visual content. Captions are called "subtitles" in some regions. </p>
+      <p>Video Captions are essential for people with disabilities and benefit everyone in a variety of situations.</p>
       <div class="button-group">
-        <a class="button button-more" href="{{ '/perspective-videos/customizable/' | relative_url }}"><span>More About Customizable Text</span></a>
+        <a class="button button-more" href="{{ '/perspective-videos/captions/' | relative_url }}"><span>More About Video Captions</span></a>
         <a class="button button-more button-secondary" href="{{ '/perspective-videos/' | relative_url }}"><span>See All Perspectives Videos</span></a>
       </div>
+    </section>
+
+    <section class="teaser resource-inline" aria-labelledby="media-title">
+      <a class="teaser-c stealthy-link col1" href="{{ '/media/av/' | relative_url }}">
+        <header class="teaser-h">
+          <h2 id="media-title">
+            <span class="subtitle">Featured Resource: </span>
+            <span class="title">Making Audio and Video Media Accessible</span>
+          </h2>
+        </header>
+        <img src="{{ "/content-images/wai-news/2019-09-10-making-audio-and-video-media-accessible.png" | relative_url }}" alt="">
+        <p>This media resource helps you understand and create captions/subtitles, audio description of visual information, descriptive transcripts, and sign language for media. It introduces user experiences and benefits to organizations.</p>
+        <div>
+          <span class="button">Making Audio and Video Media Accessible</span>
+        </div>
+      </a>
     </section>
 
     <section class="teaser resource-inline" aria-labelledby="translations-title">
@@ -113,22 +146,6 @@ inline_css: |
         <p>WAI accessibility resources are available in over 20 languages, with more coming. Translations are linked from the top of WAI website pages.</p>
         <div>
           <span class="button">All WAI Translations</span>
-        </div>
-      </a>
-    </section>
-
-    <section class="teaser resource-inline" aria-labelledby="quickref-title">
-      <a class="teaser-c stealthy-link col1" href="{{ '/WCAG21/quickref/' | relative_url }}">
-        <header class="teaser-h">
-          <h2 id="quickref-title">
-            <span class="subtitle">Featured Resource: </span>
-            <span class="title">WCAG Quick Ref</span>
-          </h2>
-        </header>
-        <img src="{{ "/content-images/home/wcag21-release.png" | relative_url }}" alt="">
-        <p>How to Meet WCAG (Quick Reference) includes Web Content Accessibility Guidelines (WCAG) 2.1 requirements (“success criteria”) and updated Techniques.</p>
-        <div>
-          <span class="button">How to Meet WCAG (Quick Reference)</span>
         </div>
       </a>
     </section>
