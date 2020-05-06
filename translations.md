@@ -139,6 +139,13 @@ translated_standards:
     url: https://waic.jp/docs/WCAG20/Overview.html
     type: external
     translator: "WAIC (Web Accessibility Infrastructure Committee)"
+- lang: "ko"
+  docs:
+  - title: "웹 콘텐츠 접근성 지침 (WCAG) 2.1"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: http://www.kwacc.or.kr/WAI/wcag21/
+    type: external
+    translator: "한국웹접근성평가센터 , 성신여자대학교"
 - lang: "no"
   docs:
   - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0"
