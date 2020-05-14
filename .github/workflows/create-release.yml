@@ -1,4 +1,4 @@
-name: Create Downloadable Release
+name: Deploy
 
 on:
   release:
