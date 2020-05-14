@@ -58,6 +58,10 @@ jobs:
         asset_name: build.zip
         tag: ${{ github.ref }}
         overwrite: true
+    - name: Wait for gh-pages to be updated
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '30s'
     - name: Update URL mapping on W3C site
       uses: fjogeleit/http-request-action@master
       with:
