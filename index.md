@@ -133,7 +133,7 @@ inline_css: |
         </div>
       </a>
     </section>
-
+<!--
     <section class="teaser resource-inline" aria-labelledby="translations-title">
       <a class="teaser-c stealthy-link col1" href="{{ '/translations/' | relative_url }}">
         <header class="teaser-h">
@@ -149,6 +149,7 @@ inline_css: |
         </div>
       </a>
     </section>
+-->
 </div>
 </div>
 
