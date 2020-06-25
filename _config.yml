@@ -19,7 +19,6 @@ baseurl: "/wai-website" # the subpath of your site, e.g. /blog
 url: "https://w3c.github.io" # the base hostname & protocol for your site
 twitter:
   username: w3c_wai
-author: w3c_wai
 exclude:
   - "_external"
   - "Gemfile"
