@@ -227,3 +227,6 @@
 [submodule "_external/resources/wai-InvolveUsersEval"]
 	path = _external/resources/wai-InvolveUsersEval
 	url = https://github.com/w3c/wai-InvolveUsersEval.git
+[submodule "_external/resources/wai-resource-list"]
+	path = _external/resources/wai-resource-list
+	url = https://github.com/w3c/wai-resource-list.git
