@@ -86,7 +86,7 @@ inline_css: |
     <section class="teaser resource-inline" aria-labelledby="course-title">
       <a class="teaser-c stealthy-link col1" href="https://www.w3.org/blog/2019/12/free-online-course-introduction-to-web-accessibility/">
         <header class="teaser-h">
-          <h2 id="media-title">
+          <h2 id="course-title">
             <span class="subtitle">Training Course: </span>
             <span class="title">Introduction to Web Accessibility</span>
           </h2>
