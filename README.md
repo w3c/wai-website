@@ -1,5 +1,5 @@
 # wai-website 
--Make Website Developmet Accessable For All!
+-Website Developmet Accessable For All!
 
 Preview: https://wai-website.netlify.com/
 WAI Website Manual: https://wai-website-theme.netlify.com/overview/
