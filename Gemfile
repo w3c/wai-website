@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyl', '3.9.0'
+gem 'jekyll', '3.9.0'
 gem 'kramdown-parser-gfm'
 gem 'jekyll-relative-links'
 gem 'jekyll-seo-tag'
