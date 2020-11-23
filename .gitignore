@@ -4,3 +4,6 @@ _site
 .DS_Store
 .jekyll-cache
 Gemfile.lock
+
+# Local Netlify folder
+.netlify
