@@ -4,5 +4,5 @@ ID = "wai-website"
 
 [build]
 
-command = "bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
+command = "bundle exec jekyll build --trace --verbose --config '_config.yml,_config_staging.yml'"
 publish = "_site"
