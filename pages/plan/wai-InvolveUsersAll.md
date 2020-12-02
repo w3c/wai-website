@@ -1,1 +1,1 @@
-../../_external/resources/wai-InvolveUsersAll/content
+../../_external/resources/wai-InvolveUsersAll/content/index.md
