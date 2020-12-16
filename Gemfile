@@ -2,7 +2,6 @@ ruby '2.6.2'
 
 source 'https://rubygems.org'
 
-gem 'bundler'
 gem 'jekyll-github-metadata'
 gem 'jekyll-relative-links'
 gem 'jekyll-seo-tag'

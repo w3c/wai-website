@@ -1,5 +1,5 @@
 [build]
-command = "git submodule update --init --remote; bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
+command = "sed -i '/BUNDLED WITH/,$d' Gemfile.lock; git submodule update --init --remote; bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
 publish = "_site"
 
 [build.environment]
