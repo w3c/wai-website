@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
 gem 'jekyll-github-metadata'
 gem 'jekyll-relative-links'
 gem 'jekyll-seo-tag'
@@ -12,5 +11,6 @@ gem 'jekyll-paginate'
 gem 'jekyll-feed'
 gem 'wai-website-plugin'
 
-gem 'liquid', github: 'Shopify/liquid', branch: 'master'
-gem 'liquid-c', github: 'Shopify/liquid-c', branch: '3-0-stable'
+# Following are an optimisation to use C implementation
+#gem 'liquid', github: 'Shopify/liquid', branch: 'master'
+#gem 'liquid-c', github: 'Shopify/liquid-c', branch: '3-0-stable'
