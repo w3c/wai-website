@@ -1,16 +1,15 @@
 [build]
-command = "git submodule update --init --remote; bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
+command = "git submodule update --init --remote && bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
 publish = "_site"
 
 [build.environment]
 RUBY_VERSION = "2.6.2" 
 
-[dev]
-publish = "_site"
-framework = "#static"
-
 [[redirects]]
-# when not on github pages
   from = "/wai-website"
   to = "/"
   status = 404
+
+[dev]
+publish = "_site"
+framework = "#static"

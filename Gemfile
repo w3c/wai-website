@@ -1,17 +1,6 @@
-ruby '2.6.2'
-
 source 'https://rubygems.org'
 
-gem 'jekyll-github-metadata'
-gem 'jekyll-relative-links'
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
-gem 'jekyll-redirect-from'
-gem 'jekyll-include-cache'
-gem 'jekyll-remote-theme'
-gem 'jekyll-paginate'
-gem 'jekyll-feed'
-gem 'wai-website-plugin'
+gem "wai-gems", :path => "_external/data/wai-gems"
 
 # Following are an optimisation to use C implementation
 #gem 'liquid', github: 'Shopify/liquid', branch: 'master'
