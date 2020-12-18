@@ -84,15 +84,15 @@ inline_css: |
       </ul>
     </section>
     <section class="teaser resource-inline" aria-labelledby="course-title">
-      <a class="teaser-c stealthy-link col1" href="https://www.w3.org/blog/2019/12/free-online-course-introduction-to-web-accessibility/">
+      <a class="teaser-c stealthy-link col1" href="https://www.w3.org/WAI/fundamentals/foundations-course/">
         <header class="teaser-h">
           <h2 id="course-title">
             <span class="subtitle">Training Course: </span>
-            <span class="title">Introduction to Web Accessibility</span>
+            <span class="title">Digital Accessibility Foundations</span>
           </h2>
         </header>
         <img src="{{ "/content-images/wai-news/2019-12-03-w3cx-accessibility-intro.jpg" | relative_url }}" alt="">
-        <p>This free online training course is designed for technical and non-technical audiences, including developers, designers, content authors, project managers, people with disabilities, and others. For information on the free audit, optional certificate,  open dates, and more, see the blog post: </p>
+        <p>The free "Introduction to Web Accessibility" online course provides the foundation you need to make your digital technology accessible. It's designed for technical and non-technical learners - developers, designers, ux, writers, managers, advocates - professionals, instructors, students.</p>
         <div>
           <span class="button">About the Free Online Course</span>
         </div>
