@@ -4,6 +4,7 @@ PATH
     wai-gems (1.0.0)
       jekyll-github-metadata
       jekyll-include-cache
+      jekyll-paginate
       jekyll-redirect-from
       jekyll-relative-links
       jekyll-remote-theme
@@ -110,8 +111,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-feed
-  jekyll-paginate
   wai-gems!
 
 BUNDLED WITH
-   2.2.1
+   2.2.2

@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem "wai-gems", :path => "_external/data/wai-gems"
-gem 'jekyll-paginate'
 gem 'jekyll-feed'
 
 # Following are an optimisation to use C implementation
