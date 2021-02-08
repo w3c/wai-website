@@ -34,7 +34,7 @@ jobs:
     - name: Commit changed files
       uses: stefanzweifel/git-auto-commit-action@v2.1.0
       with:
-        commit_message: Action add new resource
+        commit_message: Apply automatic changes
         branch: master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
