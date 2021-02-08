@@ -18,14 +18,19 @@ jobs:
       with:
         submodules: true
     - run: |
-        echo "Linking in resource: $WAI_NEW_RESOURCE"
+        echo "Adding resource submodule: $WAI_NEW_RESOURCE"
         [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists" && exit 1
         git submodule update --remote
+        echo 'zzz'
         git submodule add https://github.com/w3c/$WAI_NEW_RESOURCE.git _external/resources/$WAI_NEW_RESOURCE
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
+    - run: |
+        echo "Linking in resource: $WAI_NEW_RESOURCE"
         ln -s _external/resources/$WAI_NEW_RESOURCE/content pages/$WAI_NEW_RESOURCE
         ln -s _external/resources/$WAI_NEW_RESOURCE/content-images/$WAI_NEW_RESOURCE content-images/$WAI_NEW_RESOURCE
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
     - name: commit changed files
       uses: stefanzweifel/git-auto-commit-action@v4
