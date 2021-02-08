@@ -22,7 +22,7 @@ jobs:
         pwd
         [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists" && exit 1
         echo 'aaa'
-        git submodule update --remote
+        git submodule update --init --remote
         echo 'zzz'
         git submodule add https://github.com/w3c/$WAI_NEW_RESOURCE.git _external/resources/$WAI_NEW_RESOURCE
       env:
