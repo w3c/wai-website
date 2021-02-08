@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v1
       with:
         submodules: true
-    - name: Adding resource submodule {{ github.event.inputs.resource }}
+    - name: Adding resource submodule
       run: |
         [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists" && exit 1
         git submodule update --init --remote
@@ -25,16 +25,16 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
-    - name: Linking in resource {{ github.event.inputs.resource }}
+    - name: Linking in resource 
       run: |
         ln -s _external/resources/$WAI_NEW_RESOURCE/content pages/$WAI_NEW_RESOURCE
         ln -s _external/resources/$WAI_NEW_RESOURCE/content-images/$WAI_NEW_RESOURCE content-images/$WAI_NEW_RESOURCE
       env:
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
-    - name: commit changed files
+    - name: Commit changed files
       uses: stefanzweifel/git-auto-commit-action@v2.1.0
       with:
-        commit_message: Action Add Resource ${{ github.event.inpts.resource }}
+        commit_message: Action add new resource
         branch: master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
