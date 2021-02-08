@@ -34,11 +34,7 @@ jobs:
     - name: commit changed files
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Action "Add Resource" added ${{ github.event.inpts.resource }}
+        commit_message: Action Add Resource added ${{ github.event.inpts.resource }}
         branch: master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
-      
-
-    
