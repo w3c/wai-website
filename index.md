@@ -166,6 +166,7 @@ inline_css: |
     </header>
     <p>WAI is supported in part by the following organizations. Thank you!</p>
     <ul>
+      <li><span><a href="https://www.hp.com">HP</a></span></li>
       <li><span><a href="http://www.ibm.com/able">IBM Corporation</a></span></li>
       <li><span>European Commission (<abbr>EC</abbr>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (780057) (<a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>)</span></li>
       <li><span>European Commission (<abbr>EC</abbr>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> (822245) (<a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a>)</span></li>
