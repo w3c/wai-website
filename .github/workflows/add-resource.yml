@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - run: |
-        echo "Linking in resource: ${{ github.event.inputs.resource }} $ZZZ"
+        echo "Linking in resource: ${{ github.event.inputs.resource }}" $ZZZ
       env: 
         ZZZ: hello
 
