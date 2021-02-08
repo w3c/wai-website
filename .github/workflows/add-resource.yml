@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
       with:
         submodules: true
     - name: Adding resource submodule
@@ -32,9 +32,7 @@ jobs:
       env:
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
     - name: Commit changed files
-      uses: stefanzweifel/git-auto-commit-action@v2.1.0
+      uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Apply automatic changes
-        branch: master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
