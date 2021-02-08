@@ -1,6 +1,7 @@
 name: AddResource
 
-workflow_dispatch:
+on:
+  workflow_dispatch:
     inputs:
       resource:
         description: 'Resource Name'     
