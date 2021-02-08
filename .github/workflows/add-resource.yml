@@ -16,9 +16,8 @@ jobs:
     steps:
     - run: |
         echo "Linking in resource: $WAI_NEW_RESOURCE"
-        [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists"
+        [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists" && exit 1
         echo "zzzz"
-        [ -d _external/resources/$WAI_NEW_RESOURCE ] && exit 1
         exit 0
       env:
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
