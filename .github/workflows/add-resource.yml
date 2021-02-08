@@ -14,12 +14,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2.3.4
+    - uses: actions/checkout@v1
       with:
         submodules: true
     - run: |
         echo "Adding resource submodule: $WAI_NEW_RESOURCE"
         pwd
+        ls 
         [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists" && exit 1
         echo 'aaa'
         git submodule update --init --remote
