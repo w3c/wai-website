@@ -25,16 +25,16 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
-    - name: echo "Linking in resource {{ github.event.inputs.resource }}
+    - name: Linking in resource {{ github.event.inputs.resource }}
       run: |
         ln -s _external/resources/$WAI_NEW_RESOURCE/content pages/$WAI_NEW_RESOURCE
         ln -s _external/resources/$WAI_NEW_RESOURCE/content-images/$WAI_NEW_RESOURCE content-images/$WAI_NEW_RESOURCE
       env:
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
     - name: commit changed files
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v2.1.0
       with:
-        commit_message: Action Add Resource added ${{ github.event.inpts.resource }}
+        commit_message: Action Add Resource ${{ github.event.inpts.resource }}
         branch: master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
