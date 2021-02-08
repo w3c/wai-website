@@ -19,12 +19,8 @@ jobs:
         submodules: true
     - run: |
         echo "Adding resource submodule: $WAI_NEW_RESOURCE"
-        pwd
-        ls 
         [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists" && exit 1
-        echo 'aaa'
         git submodule update --init --remote
-        echo 'zzz'
         git submodule add https://github.com/w3c/$WAI_NEW_RESOURCE.git _external/resources/$WAI_NEW_RESOURCE
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,7 +35,6 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Action "Add Resource" added ${{ github.event.inputs.resource }}
-        branch: steve-resource-add
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
