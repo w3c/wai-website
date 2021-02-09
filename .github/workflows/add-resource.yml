@@ -25,8 +25,8 @@ jobs:
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
     - name: Linking in resource 
       run: |
-        ln -s _external/resources/$WAI_NEW_RESOURCE/content pages/$WAI_NEW_RESOURCE
-        ln -s _external/resources/$WAI_NEW_RESOURCE/content-images/$WAI_NEW_RESOURCE content-images/$WAI_NEW_RESOURCE
+        ln -s ../_external/resources/$WAI_NEW_RESOURCE/content pages/$WAI_NEW_RESOURCE
+        ln -s ../_external/resources/$WAI_NEW_RESOURCE/content-images/$WAI_NEW_RESOURCE content-images/$WAI_NEW_RESOURCE
       env:
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
     - name: Commit changed files
