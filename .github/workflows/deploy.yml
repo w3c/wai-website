@@ -15,9 +15,9 @@ jobs:
       with:
         submodules: true
     - name: Set up Ruby 2.6
-      uses: ruby/setup-ruby@v1
+      uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.6.2
+        ruby-version: 2.6.x
     - name: Update Externals
       run: |
         git submodule update --remote
@@ -32,7 +32,7 @@ jobs:
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-        bundle exec jekyll build --verbose --trace --config "_config.yml,_config_prod.yml" --profile
+        bundle exec jekyll build --trace --config "_config.yml,_config_prod.yml" --profile
 # Only works for pushes to PRs and that is not useful for our approach.
 #    - name: calibreapp/image-actions
 #      uses: docker://calibreapp/github-image-actions
