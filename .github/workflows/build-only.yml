@@ -30,7 +30,7 @@ jobs:
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-        bundle exec jekyll build --config "_config.yml,_config_prod.yml" --profile
+        bundle exec jekyll --trace build --trace --config "_config.yml,_config_prod.yml" --profile
 # Only works for pushes to PRs and that is not useful for our approach.
 #    - name: calibreapp/image-actions
 #      uses: docker://calibreapp/github-image-actions
