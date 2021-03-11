@@ -1,0 +1,17 @@
+name: mapsite
+
+on:
+  workflow_dispatch
+  
+jobs:
+  map:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Update URL mapping on W3C site
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://www.w3.org/services/update-wai-map'
+        method: 'POST'
+        timeout: 30000
