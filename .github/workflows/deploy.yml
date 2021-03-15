@@ -44,33 +44,33 @@ jobs:
     - name: Check _site folder contents
       run: |
         ls -l _site
-#    - name: Publish to gh-pages
-#      uses: peaceiris/actions-gh-pages@v3
-#      with:
-#        github_token: ${{ secrets.GITHUB_TOKEN }}
-#        publish_dir: _site
+    - name: Publish to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: _site
 #    - name: Zip Files
 #      uses: montudor/action-zip@v0.1.0
 #      with:
- #       args: zip -r build.zip ./_site
+#        args: zip -r build.zip ./_site
 #    - name: Upload zip file to release
 #      uses: svenstaro/upload-release-action@v1-release
-##      with:
+#      with:
 #        repo_token: ${{ secrets.GITHUB_TOKEN }}
 #        file: build.zip
 #        asset_name: build.zip
 #        tag: ${{ github.ref }}
 #        overwrite: true
-#    - name: Wait for gh-pages to be updated
-#      uses: jakejarvis/wait-action@master
-#      with:
-#        time: '30s'
-#    - name: Update URL mapping on W3C site
-#      uses: fjogeleit/http-request-action@master
-#      with:
-#        url: 'https://www.w3.org/services/update-wai-map'
-#        method: 'POST'
-#        timeout: 30000
+    - name: Wait for gh-pages to be updated
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '30s'
+    - name: Update URL mapping on W3C site
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://www.w3.org/services/update-wai-map'
+        method: 'POST'
+        timeout: 30000
     # - name: Check Links
     #   uses: peter-evans/link-checker@v1.0.0
     #   with:
