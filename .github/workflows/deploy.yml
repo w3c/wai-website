@@ -15,7 +15,7 @@ jobs:
       with:
         submodules: true
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6.x
     - name: Update Externals
@@ -32,7 +32,7 @@ jobs:
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-        bundle exec jekyll build --config "_config.yml,_config_prod.yml" --profile
+        bundle exec jekyll build --trace --config "_config.yml,_config_prod.yml" --profile
 # Only works for pushes to PRs and that is not useful for our approach.
 #    - name: calibreapp/image-actions
 #      uses: docker://calibreapp/github-image-actions
@@ -45,7 +45,7 @@ jobs:
       run: |
         ls -l _site
     - name: Publish to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v3.7.3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: _site
