@@ -39,6 +39,9 @@ jobs:
     - name: Generate list of resources
       run: |
         find ./_site -type f | sed 's,^\.\/_site,,' | sort > ./_site/manifest.txt
+    - name check output
+      run: |
+        ls -la _site
 #    - name: Publish to gh-pages
 #      uses: peaceiris/actions-gh-pages@v3
 #      with:
