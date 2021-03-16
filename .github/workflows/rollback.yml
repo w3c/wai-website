@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       targetRef:
-        description: 'The git ref to roll back too (on right of commits list)'
+        description: 'The git ref to roll back too\n(Use the "copy" icon on right of commits list)'
         required: true
 
 jobs:
@@ -18,5 +18,5 @@ jobs:
         ref: gh-pages
     - name: Rollback
       run: |
-        git reset --hard github.event.inputs.targetRef
+        git reset --hard ${{ github.event.inputs.targetRef }}
         git push -f
