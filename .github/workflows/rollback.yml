@@ -1,4 +1,4 @@
-name: Deploy
+name: Rollback Website
 
 on:
   workflow_dispatch:
