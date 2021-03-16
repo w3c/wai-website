@@ -38,6 +38,11 @@ jobs:
 #      uses: docker://calibreapp/github-image-actions
 #      env:
 #        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Test copy
+      run: |
+       mkdir /home/runner/actions_github_pages_1615920984605
+       chdir /home/runner/actions_github_pages_1615920984605
+       cp -RfLv  home/runner/work/wai-website/wai-website/_site/* home/runner/work/wai-website/wai-website/_site/.* /home/runner/actions_github_pages_1615920984605
     - name: Generate list of resources
       run: |
         find ./_site -type f | sed 's,^\.\/_site,,' | sort > ./_site/manifest.txt
