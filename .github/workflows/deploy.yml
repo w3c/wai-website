@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
       with:
-        submodules: true
+        submodules: false
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: 2.6.2
     - name: Update Externals
       run: |
-        git submodule update --remote
+        git submodule update --remote --init
     - name: Commit changed files
       uses: stefanzweifel/git-auto-commit-action@v2.1.0
       with:
