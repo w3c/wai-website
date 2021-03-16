@@ -9,6 +9,9 @@ on:
       targetRef:
         description: 'The git ref to roll back too (Hint: Use the "clipboard" icon on right of commits list and then paste)'
         required: true
+      AreYouSure:
+        description: 'Type "yes" to confirm. Commits that happened later can be hard to recover'
+        required: true
 
 jobs:
   build:
@@ -24,3 +27,9 @@ jobs:
       run: |
         git reset --hard ${{ github.event.inputs.targetRef }}
         git push -f
+    - name: Update URL mapping on W3C site
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://www.w3.org/services/update-wai-map'
+        method: 'POST'
+        timeout: 30000
