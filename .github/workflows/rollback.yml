@@ -1,10 +1,13 @@
+# Warning this hides checkouts from the Github commits view
+# So unless you record a latter ref you will not be able to revert to the pre rollback state
+
 name: Rollback Website
 
 on:
   workflow_dispatch:
     inputs:
       targetRef:
-        description: 'The git ref to roll back too\n(Use the "copy" icon on right of commits list)'
+        description: 'The git ref to roll back too (Hint: Use the "clipboard" icon on right of commits list and then paste)'
         required: true
 
 jobs:
@@ -16,6 +19,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: gh-pages
+        fetch-depth: 10
     - name: Rollback
       run: |
         git reset --hard ${{ github.event.inputs.targetRef }}
