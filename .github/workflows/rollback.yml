@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      targetRef:
+        description: 'The git ref to roll back too (on right of commits list)'
+        required: true
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+      ref: gh-pages
+    - name: Rollback
+      run: |
+        git reset --hard github.event.inputs.targetRef
+        git push -f
