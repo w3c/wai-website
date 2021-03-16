@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-      ref: gh-pages
+        ref: gh-pages
     - name: Rollback
       run: |
         git reset --hard github.event.inputs.targetRef
