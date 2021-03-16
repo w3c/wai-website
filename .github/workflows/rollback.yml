@@ -10,7 +10,7 @@ on:
         description: 'The git ref to roll back too (Hint: Use the "clipboard" icon on right of commits list and then paste)'
         required: true
       areYouSure:
-        description: 'Type "yes" to confirm. Commits that happened later can be hard to recover'
+        description: 'Type "yes" to confirm. Commits that happened after the selected ref will be lost'
         required: true
 
 jobs:
@@ -21,8 +21,7 @@ jobs:
     steps:
     - name: Check confirmation
       run: |
-        test "yes" -eq "${{ github.event.inputs.areYouSure }}"
-        exit 0
+        test "yes" == "${{ github.event.inputs.areYouSure }}"
     - uses: actions/checkout@v2
       with:
         ref: gh-pages
