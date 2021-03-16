@@ -9,9 +9,10 @@ on:
       targetRef:
         description: 'The git ref to roll back too (Hint: Use the "clipboard" icon on right of commits list and then paste)'
         required: true
-      AreYouSure:
+      areYouSure:
         description: 'Type "yes" to confirm. Commits that happened later can be hard to recover'
         required: true
+    - name: Check
 
 jobs:
   build:
@@ -19,11 +20,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Check
+    run: |
+      test "yes" -eq "${{ github.event.inputs.areYouSure }}"
+      exit 0
     - uses: actions/checkout@v2
       with:
         ref: gh-pages
         fetch-depth: 10
-    - name: Rollback
+    - name: Reset gh-pages history
       run: |
         git reset --hard ${{ github.event.inputs.targetRef }}
         git push -f
