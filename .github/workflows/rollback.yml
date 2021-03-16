@@ -12,7 +12,6 @@ on:
       areYouSure:
         description: 'Type "yes" to confirm. Commits that happened later can be hard to recover'
         required: true
-    - name: Check
 
 jobs:
   build:
@@ -20,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check
-    run: |
-      test "yes" -eq "${{ github.event.inputs.areYouSure }}"
-      exit 0
+    - name: Check confirmation
+      run: |
+        test "yes" -eq "${{ github.event.inputs.areYouSure }}"
+        exit 0
     - uses: actions/checkout@v2
       with:
         ref: gh-pages
