@@ -1,0 +1,59 @@
+name: Deploy
+
+on:
+  release:
+    types: [created]
+  
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: false
+    - name: Set up Ruby 2.6
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6.2
+    - name: Update Externals
+      run: |
+        git submodule update --remote --init
+    - name: Commit changed files
+      uses: stefanzweifel/git-auto-commit-action@v2.1.0
+      with:
+        commit_message: Apply automatic changes
+        branch: master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Build and test with Jekyll
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec jekyll build --trace --config "_config.yml,_config_prod.yml" --profile
+# Only works for pushes to PRs and that is not useful for our approach.
+#    - name: calibreapp/image-actions
+#      uses: docker://calibreapp/github-image-actions
+#      env:
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Test copy
+      run: |
+       pwd
+       mkdir /home/runner/actions_github_pages_1615920984605
+       cd /home/runner/actions_github_pages_1615920984605
+       cp -RfL  /home/runner/work/wai-website/wai-website/_site/ /home/runner/actions_github_pages_1615920984605
+    - name: Generate list of resources
+      run: |
+        find ./_site -type f | sed 's,^\.\/_site,,' | sort > ./_site/manifest.txt
+    - name: Check _site folder contents
+      run: |
+        ls -l _site/test-evaluate
+        ls -l _site
+    - name: Publish to gh-pages
+      uses: peaceiris/actions-gh-pages@v3.7.3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: _site
+        publish_branch: steve-gh-pages
