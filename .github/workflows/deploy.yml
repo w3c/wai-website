@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
       with:
-        submodules: false
+        submodules: true
     - name: Set up Ruby 2.6
-      uses: ruby/setup-ruby@v1
+      uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.6.2
+        ruby-version: 2.6.x
     - name: Update Externals
       run: |
-        git submodule update --remote --init
+        git submodule update --remote
     - name: Commit changed files
       uses: stefanzweifel/git-auto-commit-action@v2.1.0
       with:
@@ -32,28 +32,58 @@ jobs:
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-        bundle exec jekyll build --trace --config "_config.yml,_config_prod.yml" --profile
+        bundle exec jekyll build --config "_config.yml,_config_prod.yml" --profile
 # Only works for pushes to PRs and that is not useful for our approach.
 #    - name: calibreapp/image-actions
 #      uses: docker://calibreapp/github-image-actions
 #      env:
 #        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Test copy
-      run: |
-       pwd
-       mkdir /home/runner/actions_github_pages_1615920984605
-       cd /home/runner/actions_github_pages_1615920984605
-       cp -RfLv  home/runner/work/wai-website/wai-website/_site/* home/runner/work/wai-website/wai-website/_site/.* /home/runner/actions_github_pages_1615920984605
     - name: Generate list of resources
       run: |
         find ./_site -type f | sed 's,^\.\/_site,,' | sort > ./_site/manifest.txt
-    - name: Check _site folder contents
-      run: |
-        ls -l _site/test-evaluate
-        ls -l _site
     - name: Publish to gh-pages
-      uses: peaceiris/actions-gh-pages@v3.7.3
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: _site
-        publish_branch: steve-gh-pages
+    - name: Zip Files
+      uses: montudor/action-zip@v0.1.0
+      with:
+        args: zip -r build.zip ./_site
+    - name: Upload zip file to release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: build.zip
+        asset_name: build.zip
+        tag: ${{ github.ref }}
+        overwrite: true
+    - name: Wait for gh-pages to be updated
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '30s'
+    - name: Update URL mapping on W3C site
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://www.w3.org/services/update-wai-map'
+        method: 'POST'
+        timeout: 30000
+    # - name: Check Links
+    #   uses: peter-evans/link-checker@v1.0.0
+    #   with:
+    #     args: -v -d https://www.w3.org/ -r _site
+    # - name: Upload link check report to release
+    #   uses: svenstaro/upload-release-action@v1-release
+    #   with:
+    #     repo_token: ${{ secrets.GITHUB_TOKEN }}
+    #     file: ./link-checker/out.md
+    #     asset_name: link-report.md
+    #     tag: ${{ github.ref }}
+    #     overwrite: true
+    # - name: Create Issue From File
+    #   uses: peter-evans/create-issue-from-file@v1.0.1
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #     ISSUE_TITLE: Link Checker Report
+    #     ISSUE_CONTENT_FILEPATH: ./link-checker/out.md
+    #     ISSUE_LABELS: report, automated issue
