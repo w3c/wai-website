@@ -193,7 +193,7 @@
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
-	branch = steve-rollback
+	branch = steve-test-statements
 [submodule "_external/resources/wai-cognitive"]
 	path = _external/resources/wai-cognitive
 	url = https://github.com/w3c/wai-cognitive.git
