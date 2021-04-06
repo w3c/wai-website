@@ -61,7 +61,7 @@ jobs:
     - name: Wait for gh-pages to be updated
       uses: jakejarvis/wait-action@master
       with:
-        time: '30s'
+        time: '1m'
     - name: Update URL mapping on W3C site
       uses: fjogeleit/http-request-action@master
       with:
