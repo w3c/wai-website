@@ -228,9 +228,20 @@ To get announcements of future translations, you can [subscribe to the WAI Trans
 
 **WAI thanks translators. We welcome other translations**. If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
 
-{% include excol.html type="all" %}
+_Languages are listed alphabetically by language code. For example, "Chinese" is sorted by "zh", thus it is near the bottom of this page._
 
-_Languages are sorted alphabetically by language code. For example, "Chinese" is sorted by "zh", thus it is near the bottom of this page._
+{::nomarkdown}
+{% include toc.html type="start" title="Page Contents" %}
+{:/}
+
+- This will be replaced by an automatically generated TOC when using Markdown formatting.
+{:toc}
+
+{::nomarkdown}
+{% include toc.html type="end" %}
+{:/}
+
+{% include excol.html type="all" %}
 
 {% assign lang1=site.documents | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
 {% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
