@@ -331,6 +331,19 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 {% endif %}
 {% endfor %}
 
+## Other Languages: Video Subtitles
+
+Subtitles for the [Video Introduction to Web Accessibility and W3C Standards](https://www.w3.org/WAI/videos/standards-and-benefits/) are available in the following languages (in addition to the ones listed above): 
+* فارسی (Persian) fa
+* ગુજરાતી (Gujarati) gu
+* हिन्दी, हिंदी (Hindi) hi
+* Magyar (Hungarian) hu
+* Italiano (Italian) it
+* kok कोंकणी (Goan Konkani) kok
+* മലയാളം (Malayalam) ml
+* मराठी (Marathi) mr
+* తెలుగు (Telugu) te
+
 ## Other WAI Translations Listings
 
 _The lists below are for specific standards, whereas the lists above include all published WAI translations. The completed translations in the lists below are included under the languages above._
