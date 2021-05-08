@@ -224,8 +224,6 @@ This page lists translations of current accessibility standards and other resour
 {% include box.html type="end" %}
 {:/}
 
-To get announcements of future translations, you can [subscribe to the WAI Translations mailing list](mailto:public-wai-translations-request@w3.org?subject=subscribe).
-
 **WAI thanks translators. We welcome other translations**. If you might be interesting in translating resources, see [[Translating WAI Resources]](/about/translating/).
 
 _Languages are listed alphabetically by language code. For example, "Chinese" is sorted by "zh", thus it is near the bottom of this page._
