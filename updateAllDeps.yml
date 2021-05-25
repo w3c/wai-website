@@ -1,0 +1,18 @@
+# update all WAI resource repos dependecies by running "bundle update" in each
+
+name: CI
+
+# Controls when the action will run. 
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      
+      - name: process each resource
+        run: |
+          RESOURCES="wai-InvolveUsersAll wai-mobile wai-InvolveUsersEval wai-news wai-about-w3c-process wai-older-users wai-about-wai wai-org-policies wai-accessibility-principles wai-people-use-web wai-arrm wai-personalization-standards wai-audiences wai-perspective-videos wai-bcase wai-plan-policies-overview wai-coga-design-guide wai-planning-and-managing wai-cognitive wai-policies-prototype wai-combined-expertise wai-presentations2all wai-components wai-pronunciation wai-conformance-eval-overview wai-quick-start wai-contacting-orgs wai-resource-list wai-curricula wai-resource-template wai-customize-design wai-selecting-eval-tools wai-design-develop-overview wai-shared-experiences wai-develop-training wai-sitemap wai-eval-overview wai-statements wai-eval-report-templates wai-std-gl-overview wai-eval-standards wai-std-harmonization wai-eval-tools-overview wai-teach-advocate-overview wai-first-aid wai-tutorials wai-fundamentals-overview wai-video-standards-and-benefits wai-inclusion wai-wcag-em-overview wai-intro-accessibility wai-wcag-mob-overlap wai-intro-act wai-website wai-intro-aria wai-website-data wai-intro-atag wai-website-deploy-test wai-intro-earl wai-website-theme wai-intro-linking wcag-act-rules"
+          for d in $RESOURCES; do cd $d; git status; cd ..; done
