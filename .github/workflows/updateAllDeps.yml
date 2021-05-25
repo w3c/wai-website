@@ -1,6 +1,6 @@
 # update all WAI resource repos dependecies by running "bundle update" in each
 
-name: CI
+name: Update all Resource Deps
 
 # Controls when the action will run. 
 on:
