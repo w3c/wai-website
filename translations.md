@@ -163,6 +163,11 @@ translated_standards:
     translator: "The Delta Centre - The National Centre for Accessibility and Participation for Persons with Disabilities in Norway"
 - lang: "pl"
   docs: 
+  - title: "Wytyczne dla dostępności treści internetowych (WCAG) 2.1"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/Translations/WCAG21-pl/
+    type: authorized
+	translator: "Fundacja Instytut Rozwoju Regionalnego"
   - title: "Wytyczne dla dostępności treści internetowych 2.0 (WCAG 2.0)"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: http://fdc.org.pl/wcag2/
