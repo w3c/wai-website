@@ -1,1 +1,0 @@
-../../_external/resources/wai-inclusion/index.md

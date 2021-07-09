@@ -1,4 +1,5 @@
 [build]
+# with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml'"
 command = "git submodule update --init --remote && bundle exec jekyll build --trace --config '_config.yml,_config_staging.yml'"
 publish = "_site"
 
