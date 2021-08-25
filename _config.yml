@@ -45,6 +45,7 @@ remote_theme: w3c/wai-website-theme
 paginate: 5
 paginate_path: "/news/:num/"
 
+collections_dir: _collections
 collections:
   perspective-videos:
     area: "Accessibility Fundamentals"
@@ -68,29 +69,6 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
-  # tutorials:
-  #   area: "Design & Develop"
-  #   name: "Web Accessibility Tutorials"
-  #   shortname: Tutorials
-  #   repository: w3c/wai-tutorials
-  #   output: true
-  #   acknowledgements: false
-  #   permalink: /:collection/:path/
-  #   groups:
-  #     - name: index # Note: index is a magic word, it links to the index of the resource
-  #       title: Overview
-  #     - name: page-structure
-  #       title: Page Structure
-  #     - name: menus
-  #       title: Menus
-  #     - name: images
-  #       title: Images
-  #     - name: tables
-  #       title: Tables
-  #     - name: forms
-  #       title: Forms
-  #     - name: carousels
-  #       title: Carousels
   accessibility-training:
     area: "Teach & Advocate"
     name: "Accessibility Training"
@@ -120,14 +98,6 @@ collections:
       <p><strong>Date:</strong> Updated 21 March 2018.</p>
       <p><strong>Editors and Developers:</strong> Mary Jo Mueller, Robert Jolly, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Contributors: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/WAI/EO/EOWG-members">EOWG Participants</a>. Previous editors: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a> and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>; previous contributor: Jennifer Sutton.</p>
       <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-  media-intro:
-    area: "Design & Develop"
-    name: "Accessible Audio and Video"
-    shortname: "Audio & Video"
-    repository: w3c/wai-media-intro
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
   older-users:
     area: "Plan & Manage"
     name: "Older Users"
@@ -159,6 +129,16 @@ collections:
     permalink: /news/:year-:month-:day/:title/
     parent: "/news/"
     repository: "w3c/wai-news"
+  patterns:
+    title: Patterns
+    permalink: /:collection/:name/
+    output: true
+    sort_by: ref
+  objectives:
+    title: Objectives
+    permalink: /:collection/:name/
+    output: true
+    sort_by: ref
 
 defaults:
   -
@@ -221,11 +201,63 @@ defaults:
       path: "_audiences"
     values:
       layout: "sidenav"
+  -
+    scope: 
+      type: "patterns"
+      path: "_patterns"
+    values:
+      feedbackmail: wai@w3.org 
+      standalone_resource_nav_links:
+        - name: All Supplemental Guidance to WCAG
+          ref: /coga-dg/supplemental-guidance
+        - name: About Supplemental Guidance
+          ref: /coga-dg/about
+      standalone_resource_doc_name: Supplemental Guidance to WCAG
+      layout: "pattern"
+      type_of_guidance: Design Pattern   
+      sidebar:
+        title: About this Pattern
+        text: <em>Design Patterns</em> explain how to improve accessibility for people with cognitive and learning disabilities.
+        toplinks: 
+          - title: Cognitive Accessibility Glossary
+            url: https://www.w3.org/TR/coga-usable/#glossary     
+  -
+    scope: 
+      type: "objectives"
+      path: "_objectives"
+    values:
+      feedbackmail: wai@w3.org 
+      standalone_resource_nav_links:
+        - name: All Supplemental Guidance to WCAG
+          ref: /coga-dg/supplemental-guidance
+        - name: About Supplemental Guidance
+          ref: /coga-dg/about
+      standalone_resource_doc_name: Supplemental Guidance to WCAG
+      layout: "objective"
+      type_of_guidance: Objective
+      sidebar:
+        title: About this Objective
+        text: <em>Objectives</em> are collections of Cognitive Design Patterns on a topic.
+        toplinks: 
+          - title: Cognitive Accessibility Glossary
+            url: https://www.w3.org/TR/coga-usable/#glossary     
+  -
+    scope: 
+      path: "pages/wai-coga-design-guide"
+    values:
+      feedbackmail: wai@w3.org 
+      layout: standalone_resource
+      standalone_resource_nav_links:
+        - name: All Supplemental Guidance to WCAG
+          ref: /coga-dg/supplemental-guidance
+        - name: About Supplemental Guidance
+          ref: /coga-dg/about
+      standalone_resource_doc_name: Supplemental Guidance to WCAG
 
 tipue_search:
   include:
     pages: true
-    collections: ["perspective-videos", "people-use-web", "planning-and-managing", "accessibility-training", "tips", "policies", "older-users", "audiences", "about"]
+    collections: ["perspective-videos", "people-use-web", "planning-and-managing", "accessibility-training", "tips", "policies", "older-users", "audiences", "about", "objectives", "patterns"]
 
 plugins:
   - jekyll-seo-tag
