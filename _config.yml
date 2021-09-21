@@ -210,9 +210,9 @@ defaults:
       feedbackmail: wai@w3.org 
       standalone_resource_nav_links:
         - name: All Supplemental Guidance to WCAG
-          ref: /coga-dg/supplemental-guidance
+          ref: /wcag-supplemental/supplemental-guidance
         - name: About Supplemental Guidance
-          ref: /coga-dg/about
+          ref: /wcag-supplemental/about
       standalone_resource_doc_name: Supplemental Guidance to WCAG
       layout: "pattern"
       type_of_guidance: Design Pattern   
@@ -230,9 +230,9 @@ defaults:
       feedbackmail: wai@w3.org 
       standalone_resource_nav_links:
         - name: All Supplemental Guidance to WCAG
-          ref: /coga-dg/supplemental-guidance
+          ref: /wcag-supplemental/supplemental-guidance
         - name: About Supplemental Guidance
-          ref: /coga-dg/about
+          ref: /wcag-supplemental/about
       standalone_resource_doc_name: Supplemental Guidance to WCAG
       layout: "objective"
       type_of_guidance: Objective
@@ -250,9 +250,9 @@ defaults:
       layout: standalone_resource
       standalone_resource_nav_links:
         - name: All Supplemental Guidance to WCAG
-          ref: /coga-dg/supplemental-guidance
+          ref: /wcag-supplemental/supplemental-guidance
         - name: About Supplemental Guidance
-          ref: /coga-dg/about
+          ref: /wcag-supplemental/about
       standalone_resource_doc_name: Supplemental Guidance to WCAG
 
 # include all collections here so they are searchable
