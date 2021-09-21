@@ -233,7 +233,7 @@
 [submodule "_external/resources/wai-arrm"]
 	path = _external/resources/wai-arrm
 	url = https://github.com/w3c/wai-arrm.git
-[submodule "_external/resources/wai-coga-design-guide"]
-	path = _external/resources/wai-coga-design-guide
-	url = https://github.com/w3c/wai-coga-design-guide/
-	branch = master
+[submodule "_external/resources/wai-wcag-supplemental"]
+	path = _external/resources/wai-wcag-supplemental
+	url = https://github.com/w3c/wai-wcag-supplemental/
+	branch = main
