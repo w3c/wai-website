@@ -229,13 +229,12 @@ defaults:
       sidebar:
         footer:
           content: Test Rules describe ways to test conformance to WCAG success criteria. They are <a href="../about">for evaluation</a>.
-
-standalone_resource_nav_links:
-  - name: All Rules
-    ref: /standards-guidelines/act/rules/
-  - name: About Rules
-    ref: /standards-guidelines/act/rules/about/
-standalone_resource_doc_name: "WCAG 2 Test Rules"
+      standalone_resource_nav_links:
+        - name: All Rules
+          ref: /standards-guidelines/act/rules/
+        - name: About Rules
+          ref: /standards-guidelines/act/rules/about/
+      standalone_resource_doc_name: "WCAG 2 Test Rules"
 
 tipue_search:
   include:
