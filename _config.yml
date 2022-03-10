@@ -182,10 +182,6 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "_tutorials"
-    values:
-      layout: "default"
-  - scope:
       path: "_accessibility-training"
     values:
       layout: "default"
