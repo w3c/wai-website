@@ -90,7 +90,7 @@ collections:
     area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
     shortname: "Laws & Policies"
-    parent: '/planning/'
+    parent: "/planning/"
     repository: w3c/wai-policies-prototype
     output: true
     acknowledgements: false
@@ -117,7 +117,7 @@ collections:
     acknowledgements: false
     permalink: /roles/:path/
     prevnext: false
-    parent: '/'
+    parent: "/"
   about:
     name: "About"
     repository: w3c/wai-about-wai
@@ -140,65 +140,53 @@ collections:
     permalink: /:collection/:name/
     output: true
     sort_by: ref
+  wai-wcag-act-rules-patterns:
+    title: Glossary
+    permalink: /:collection/:name/
+    output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_perspective-videos"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_people-use-web"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_planning-and-managing"
     values:
       layout: "default"
-  -
-    scope:
-      path: "_tutorials"
-    values:
-      layout: "default"
-  -
-    scope:
+  - scope:
       path: "_accessibility-training"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_tips"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_policies"
     values:
       layout: "policy"
-  -
-    scope:
+  - scope:
       path: "_older-users"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_about"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_posts"
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "_audiences"
     values:
       layout: "sidenav"
@@ -215,7 +203,7 @@ defaults:
           ref: /wcag-supplemental/about
       standalone_resource_doc_name: Supplemental Guidance to WCAG
       layout: "pattern"
-      type_of_guidance: Design Pattern   
+      type_of_guidance: Cognitive Accessibility Design Pattern
       sidebar:
         title: About this Pattern
         text: <em>Design Patterns</em> explain how to improve accessibility for people with cognitive and learning disabilities.
@@ -254,12 +242,48 @@ defaults:
         - name: About Supplemental Guidance
           ref: /wcag-supplemental/about
       standalone_resource_doc_name: Supplemental Guidance to WCAG
+  - scope:
+      path: "pages/wcag-act-rules"
+    values:
+      layout: standalone_resource
+      feedbackmail: wai@w3.org # NEW: delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
+      footer:
+        > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
+        <p><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@.</p>
+        <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href="https://www.w3.org/groups/wg/@@wg/participants">participants of the @@WG</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
+        <p>Developed by the @@ Working Group (<a href="http://www.w3.org/WAI/@@/">@@WG</a>). Developed as part of the <a href="https://www.w3.org/WAI/@@/">WAI-@@ project</a>, @@co-funded by the European Commission.</p>
+      type_of_guidance: "Test Rule"
+      rule_meta:
+        rule_type: "atomic rule"
+      sidebar:
+        footer:
+          content: Test Rules describe ways to test conformance to WCAG success criteria. They are <a href="../about">for evaluation</a>.
+      standalone_resource_nav_links:
+        - name: All Rules
+          ref: /standards-guidelines/act/rules/
+        - name: About Rules
+          ref: /standards-guidelines/act/rules/about/
+      standalone_resource_doc_name: "WCAG 2 Test Rules"
 
 # include all collections here so they are searchable
 tipue_search:
   include:
     pages: true
-    collections: ["perspective-videos", "people-use-web", "planning-and-managing", "accessibility-training", "tips", "policies", "older-users", "audiences", "about", "objectives", "patterns"]
+    collections:
+      [
+        "wai-wcag-act-rules-patterns",
+        "perspective-videos",
+        "people-use-web",
+        "planning-and-managing",
+        "accessibility-training",
+        "tips",
+        "policies",
+        "older-users",
+        "audiences",
+        "about",
+        "objectives", 
+        "patterns"
+      ]
 
 # TODO docs say don't need to declare any used in the Theme
 plugins:
