@@ -212,7 +212,7 @@ defaults:
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /WCAG2/supplemental/all-supplemental-guidance#-cognitive-accessibility-guidance
+        ref: /WCAG2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
         include: dg-pager.liquid
       footer:
         > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
@@ -247,7 +247,7 @@ defaults:
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /WCAG2/supplemental/all-supplemental-guidance#-cognitive-accessibility-guidance
+        ref: /WCAG2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
         include: dg-pager.liquid
       footer:
         > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
@@ -279,12 +279,13 @@ defaults:
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /WCAG2/supplemental/all-supplemental-guidance#-cognitive-accessibility-guidance
+        ref: /WCAG2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
         include: dg-pager.liquid
   - scope:
       path: "pages/wcag-act-rules"
     values:
       layout: standalone_resource
+      external_css: /content-assets/wcag-act-rules/act-styles.css
       feedbackmail: wai@w3.org # NEW: delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
       footer:
         > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
