@@ -132,12 +132,12 @@ collections:
     repository: "w3c/wai-news"
   patterns:
     title: Patterns
-    permalink: WCAG2/supplemental/:collection/:name/
+    permalink: wcag2/supplemental/:collection/:name/
     output: true
     sort_by: ref
   objectives:
     title: Objectives
-    permalink: WCAG2/supplemental/:collection/:name/
+    permalink: wcag2/supplemental/:collection/:name/
     output: true
     sort_by: ref
   wai-wcag-act-rules-patterns:
@@ -208,11 +208,11 @@ defaults:
           ref: /standards-guidelines/wcag/docs
           icon: different-view
         - name: Supplemental Guidance
-          ref: /WCAG2/supplemental/about
+          ref: /wcag2/supplemental/about
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /WCAG2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
+        ref: /wcag2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
         include: dg-pager.liquid
       footer:
         > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
@@ -247,7 +247,7 @@ defaults:
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /WCAG2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
+        ref: /wcag2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
         include: dg-pager.liquid
       footer:
         > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
@@ -275,11 +275,11 @@ defaults:
           ref: /standards-guidelines/wcag/docs
           icon: different-view
         - name: Supplemental Guidance
-          ref: /WCAG2/supplemental/about
+          ref: /wcag2/supplemental/about
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /WCAG2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
+        ref: /wcag2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
         include: dg-pager.liquid
   - scope:
       path: "pages/wcag-act-rules"
