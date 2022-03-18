@@ -255,6 +255,7 @@ defaults:
       path: "pages/wai-wcag-supplemental"
     values:
       layout: standalone_resource
+      feedbackmail: wai@w3.org
       standalone_resource_header:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility (not required to meet WCAG)
