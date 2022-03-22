@@ -195,6 +195,7 @@ defaults:
       type: "patterns"
       path: "_patterns"
     values:
+      class: tight-page
       layout: "pattern"
       type_of_guidance: Cognitive Accessibility Design Pattern
       feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
@@ -225,6 +226,7 @@ defaults:
       type: "objectives"
       path: "_objectives"
     values:
+      class: tight-page
       layout: "objective"
       type_of_guidance: Cognitive Accessibility Objective
       feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
@@ -254,6 +256,7 @@ defaults:
     scope: 
       path: "pages/wai-wcag-supplemental"
     values:
+      class: tight-page
       layout: standalone_resource
       feedbackmail: wai@w3.org
       standalone_resource_header:
@@ -270,6 +273,7 @@ defaults:
   - scope:
       path: "pages/wcag-act-rules"
     values:
+      class: tight-page
       layout: standalone_resource
       external_css: /content-assets/wcag-act-rules/act-styles.css
       feedbackmail: wai@w3.org # NEW: delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
