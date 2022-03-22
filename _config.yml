@@ -40,11 +40,13 @@ repository: w3c/wai-website
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
+# remote_themes are an extension for Jekyll running in GitHub pages and are a GitHub repo 
 remote_theme: w3c/wai-website-theme
 
 paginate: 5
 paginate_path: "/news/:num/"
 
+collections_dir: collections
 collections:
   perspective-videos:
     area: "Accessibility Fundamentals"
@@ -68,29 +70,6 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
-  # tutorials:
-  #   area: "Design & Develop"
-  #   name: "Web Accessibility Tutorials"
-  #   shortname: Tutorials
-  #   repository: w3c/wai-tutorials
-  #   output: true
-  #   acknowledgements: false
-  #   permalink: /:collection/:path/
-  #   groups:
-  #     - name: index # Note: index is a magic word, it links to the index of the resource
-  #       title: Overview
-  #     - name: page-structure
-  #       title: Page Structure
-  #     - name: menus
-  #       title: Menus
-  #     - name: images
-  #       title: Images
-  #     - name: tables
-  #       title: Tables
-  #     - name: forms
-  #       title: Forms
-  #     - name: carousels
-  #       title: Carousels
   accessibility-training:
     area: "Teach & Advocate"
     name: "Accessibility Training"
@@ -120,14 +99,6 @@ collections:
       <p><strong>Date:</strong> Updated 21 March 2018.</p>
       <p><strong>Editors and Developers:</strong> Mary Jo Mueller, Robert Jolly, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Contributors: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/WAI/EO/EOWG-members">EOWG Participants</a>. Previous editors: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a> and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>; previous contributor: Jennifer Sutton.</p>
       <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-  media-intro:
-    area: "Design & Develop"
-    name: "Accessible Audio and Video"
-    shortname: "Audio & Video"
-    repository: w3c/wai-media-intro
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
   older-users:
     area: "Plan & Manage"
     name: "Older Users"
@@ -159,6 +130,16 @@ collections:
     permalink: /news/:year-:month-:day/:title/
     parent: "/news/"
     repository: "w3c/wai-news"
+  patterns:
+    title: Patterns
+    permalink: WCAG2/supplemental/:collection/:name/
+    output: true
+    sort_by: ref
+  objectives:
+    title: Objectives
+    permalink: WCAG2/supplemental/:collection/:name/
+    output: true
+    sort_by: ref
   wai-wcag-act-rules-patterns:
     title: Glossary
     permalink: /:collection/:name/
@@ -209,9 +190,90 @@ defaults:
       path: "_audiences"
     values:
       layout: "sidenav"
+  -
+    scope: 
+      type: "patterns"
+      path: "_patterns"
+    values:
+      class: tight-page
+      layout: "pattern"
+      type_of_guidance: Cognitive Accessibility Design Pattern
+      feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
+      standalone_resource_header:
+        title: Supplemental Guidance to WCAG 2
+        subtitle: Additional ways to improve accessibility (not required to meet WCAG)
+        link:
+          ref: /WCAG2/supplemental/about
+          title: About Supplemental Guidance and WCAG
+      standalone_resource_pager:
+        icon: /content-images/wai-wcag-supplemental/brain.svg
+        name: All Cognitive
+        ref: /WCAG2/supplemental/#cognitiveaccessibilityguidance
+        include: dg-pager.liquid
+      footer:
+        > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
+        <p><strong>Date:</strong> Content first published 29 April 2021 in <a href="https://www.w3.org/TR/coga-usable/">Making Content 
+        Usable for People with Cognitive and Learning Disabilities</a> ("Content Usable"). This user interface posted in January 2022.</p>
+        <p>This content is from the "Content Usable" Working Group Note by Cognitive and Learning Disabilities Accessibility Task Force 
+        (<a href="https://www.w3.org/groups/tf/cognitive-a11y-tf">Coga TF</a>) <a href="https://www.w3.org/groups/tf/cognitive-a11y-tf/participants">participants</a>.
+        It is published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>) and the 
+        Accessible Platform Architectures (<a href="https://www.w3.org/groups/wg/apa">APA</a>) Working Group. This user interface was 
+        designed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>) with contributions
+        from Steve Lee, Hidde de Vries, Shadi Abou-Zahra, and Shawn Lawton Henry, as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">
+        WAI-Guide project</a>, co-funded by the European Commission.</p>
+  -
+    scope: 
+      type: "objectives"
+      path: "_objectives"
+    values:
+      class: tight-page
+      layout: "objective"
+      type_of_guidance: Cognitive Accessibility Objective
+      feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
+      standalone_resource_header:
+        title: Supplemental Guidance to WCAG 2
+        subtitle: Additional ways to improve accessibility (not required to meet WCAG)
+        link:
+          ref: /WCAG2/supplemental/about
+          title: About Supplemental Guidance and WCAG
+      standalone_resource_pager:
+        icon: /content-images/wai-wcag-supplemental/brain.svg
+        name: All Cognitive
+        ref: /WCAG2/supplemental/#cognitiveaccessibilityguidance
+        include: dg-pager.liquid
+      footer:
+        > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
+        <p><strong>Date:</strong> Content first published 29 April 2021 in <a href="https://www.w3.org/TR/coga-usable/">Making Content 
+        Usable for People with Cognitive and Learning Disabilities</a> ("Content Usable"). This user interface posted in January 2022.</p>
+        <p>This content is from the "Content Usable" Working Group Note by Cognitive and Learning Disabilities Accessibility Task Force 
+        (<a href="https://www.w3.org/groups/tf/cognitive-a11y-tf">Coga TF</a>) <a href="https://www.w3.org/groups/tf/cognitive-a11y-tf/participants">participants</a>.
+        It is published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>) and the 
+        Accessible Platform Architectures (<a href="https://www.w3.org/groups/wg/apa">APA</a>) Working Group. This user interface was 
+        designed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>) with contributions
+        from Steve Lee, Hidde de Vries, Shadi Abou-Zahra, and Shawn Lawton Henry, as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">
+        WAI-Guide project</a>, co-funded by the European Commission.</p>
+  -
+    scope: 
+      path: "pages/wai-wcag-supplemental"
+    values:
+      class: tight-page
+      layout: standalone_resource
+      feedbackmail: wai@w3.org
+      standalone_resource_header:
+        title: Supplemental Guidance to WCAG 2
+        subtitle: Additional ways to improve accessibility (not required to meet WCAG)
+        link:
+          ref: /WCAG2/supplemental/about
+          title: About Supplemental Guidance and WCAG
+      standalone_resource_pager:
+        icon: /content-images/wai-wcag-supplemental/brain.svg
+        name: All Cognitive
+        ref: /WCAG2/supplemental/#cognitiveaccessibilityguidance
+        include: dg-pager.liquid
   - scope:
       path: "pages/wcag-act-rules"
     values:
+      class: tight-page
       layout: standalone_resource
       external_css: /content-assets/wcag-act-rules/act-styles.css
       feedbackmail: wai@w3.org # NEW: delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
@@ -223,16 +285,18 @@ defaults:
       type_of_guidance: "Test Rule"
       rule_meta:
         rule_type: "atomic rule"
-      sidebar:
-        footer:
-          content: Test Rules describe ways to test conformance to WCAG success criteria. They are <a href="../about">for evaluation</a>.
-      standalone_resource_nav_links:
-        - name: All Rules
-          ref: /standards-guidelines/act/rules/
-        - name: About Rules
+      sidebar: true
+      standalone_resource_header:
+        title: WCAG 2 Test Rules
+        subtitle: For developers of evaluation tools and test methodologies
+        link:
+          title: About WCAG 2 Test Rules
           ref: /standards-guidelines/act/rules/about/
-      standalone_resource_doc_name: "WCAG 2 Test Rules"
+      standalone_resource_pager:
+        name: All Test Rules
+        ref: /standards-guidelines/act/rules/
 
+# include all collections here so they are searchable
 tipue_search:
   include:
     pages: true
@@ -248,8 +312,11 @@ tipue_search:
         "older-users",
         "audiences",
         "about",
+        "objectives", 
+        "patterns"
       ]
 
+# TODO docs say don't need to declare any used in the Theme
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
