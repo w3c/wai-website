@@ -274,7 +274,7 @@ defaults:
       path: "pages/wcag-act-rules"
     values:
       class: tight-page
-      layout: standalone_resource
+      layout: act_rule
       external_css: /content-assets/wcag-act-rules/act-styles.css
       feedbackmail: wai@w3.org # NEW: delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
       footer:
