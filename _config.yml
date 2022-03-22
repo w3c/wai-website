@@ -132,12 +132,12 @@ collections:
     repository: "w3c/wai-news"
   patterns:
     title: Patterns
-    permalink: wcag2/supplemental/:collection/:name/
+    permalink: WCAG2/supplemental/:collection/:name/
     output: true
     sort_by: ref
   objectives:
     title: Objectives
-    permalink: wcag2/supplemental/:collection/:name/
+    permalink: WCAG2/supplemental/:collection/:name/
     output: true
     sort_by: ref
   wai-wcag-act-rules-patterns:
@@ -202,12 +202,12 @@ defaults:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility (not required to meet WCAG)
         link:
-          ref: /wcag2/supplemental/about
+          ref: /WCAG2/supplemental/about
           title: About Supplemental Guidance and WCAG
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /wcag2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
+        ref: /WCAG2/supplemental/#cognitiveaccessibilityguidance
         include: dg-pager.liquid
       footer:
         > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
@@ -232,12 +232,12 @@ defaults:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility (not required to meet WCAG)
         link:
-          ref: /wcag2/supplemental/about
+          ref: /WCAG2/supplemental/about
           title: About Supplemental Guidance and WCAG
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /wcag2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
+        ref: /WCAG2/supplemental/#cognitiveaccessibilityguidance
         include: dg-pager.liquid
       footer:
         > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
@@ -260,12 +260,12 @@ defaults:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility (not required to meet WCAG)
         link:
-          ref: /wcag2/supplemental/about
+          ref: /WCAG2/supplemental/about
           title: About Supplemental Guidance and WCAG
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
-        ref: /wcag2/supplemental/all-supplemental-guidance#cognitiveaccessibilityguidance
+        ref: /WCAG2/supplemental/#cognitiveaccessibilityguidance
         include: dg-pager.liquid
   - scope:
       path: "pages/wcag-act-rules"
