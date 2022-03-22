@@ -237,7 +237,7 @@ defaults:
           ref: /WCAG2/supplemental/about
           title: About Supplemental Guidance and WCAG
       standalone_resource_pager:
-        icon: /content-images/wai-wcag-supplemental/brain.svg
+        icon: /WAI/content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
         ref: /WCAG2/supplemental/#cognitiveaccessibilityguidance
         include: dg-pager.liquid
@@ -266,7 +266,7 @@ defaults:
           ref: /WCAG2/supplemental/about
           title: About Supplemental Guidance and WCAG
       standalone_resource_pager:
-        icon: /content-images/wai-wcag-supplemental/brain.svg
+        icon: /WAI/content-images/wai-wcag-supplemental/brain.svg
         name: All Cognitive
         ref: /WCAG2/supplemental/#cognitiveaccessibilityguidance
         include: dg-pager.liquid
