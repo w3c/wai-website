@@ -232,7 +232,7 @@ defaults:
       feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
       standalone_resource_header:
         title: Supplemental Guidance to WCAG 2
-        subtitle: Additional ways to improve accessibility (not required to meet WCAG)
+        subtitle: Additional ways to improve accessibility, not required to meet WCAG
         link:
           ref: /WCAG2/supplemental/about
           title: About Supplemental Guidance and WCAG
@@ -261,7 +261,7 @@ defaults:
       feedbackmail: wai@w3.org
       standalone_resource_header:
         title: Supplemental Guidance to WCAG 2
-        subtitle: Additional ways to improve accessibility (not required to meet WCAG)
+        subtitle: Additional ways to improve accessibility, not required to meet WCAG
         link:
           ref: /WCAG2/supplemental/about
           title: About Supplemental Guidance and WCAG
