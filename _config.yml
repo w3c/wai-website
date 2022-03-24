@@ -203,7 +203,7 @@ defaults:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility, not required to meet WCAG)
         link:
-          ref: /WCAG2/supplemental/about
+          ref: /WCAG2/supplemental/about/
           title: About Supplemental Guidance and WCAG
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
@@ -234,7 +234,7 @@ defaults:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility, not required to meet WCAG
         link:
-          ref: /WCAG2/supplemental/about
+          ref: /WCAG2/supplemental/about/
           title: About Supplemental Guidance and WCAG
       standalone_resource_pager:
         icon: content-images/wai-wcag-supplemental/brain.svg
@@ -263,7 +263,7 @@ defaults:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility, not required to meet WCAG
         link:
-          ref: /WCAG2/supplemental/about
+          ref: /WCAG2/supplemental/about/
           title: About Supplemental Guidance and WCAG
       standalone_resource_pager:
         icon: /content-images/wai-wcag-supplemental/brain.svg
