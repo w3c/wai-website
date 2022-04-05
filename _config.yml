@@ -14,7 +14,7 @@ warning_message: >
   This is <strong>beta redesign</strong> of the W3C WAI website. (<a href="https://github.com/w3c/wai-website/wiki/W3C-WAI-Website-Redesign-Information">Beta Info and Comments</a>) The published website is at <a href="https://www.w3.org/WAI/">w3.org/WAI/</a>.
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  The Website of the World Wide Web Consortium’s Web Accessibility Initiative.
+  Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).
 baseurl: "/wai-website" # the subpath of your site, e.g. /blog
 url: "https://w3c.github.io" # the base hostname & protocol for your site
 twitter:
