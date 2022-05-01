@@ -24,7 +24,7 @@ inline_css: |
     </h2>
     <p class="subtitle">Strategies, standards, and supporting resources to help you make the Web more accessible to people with disabilities.</p>
   </header>
-  <div class="inner grid-3">
+  <div class="inner grid-3"> https://ng-d-ng-tich-h-p-facebook-youtube-websi.mn.co/
     <div class="col1 making-web-accessible-box">
       <h3>{%- include_cached icon.html name="hp-book" class="mwa-icon mwa-icon-book" -%} W3C</h3>
       <p>The World Wide Web Consortium (W3C) develops international standards for the Web: HTML, CSS, and many more.</p>
