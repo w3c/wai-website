@@ -146,7 +146,7 @@ collections:
     output: true
   apg-examples:
     output: true
-    permalink: /ARIA/APG/example-index/:path/
+    permalink: /aria/apg/example-index/:path/
 
 defaults:
   - scope:
@@ -304,18 +304,19 @@ defaults:
       layout: "standalone_resource"
       standalone_resource_header:
         title: "ARIA Authoring Practices Guide (APG)"
+        title-ref: /aria/apg/
         subtitle: "How to build accessibility semantics into web patterns and widgets"
       standalone_resource_nav_links:
         - name: APG Home
-          ref: /ARIA/APG/
+          ref: /aria/apg/
         - name: Patterns
-          ref: /ARIA/APG/patterns/
+          ref: /aria/apg/patterns/
         - name: Practices
-          ref: /ARIA/APG/practices/
+          ref: /aria/apg/practices/
         - name: Index
-          ref: /ARIA/APG/example-index/
+          ref: /aria/apg/example-index/
         - name: About
-          ref: /ARIA/APG/about/
+          ref: /aria/apg/about/
   -
     scope: 
       type: "apg-examples"
@@ -324,18 +325,19 @@ defaults:
       layout: "standalone_resource"
       standalone_resource_header:
         title: "ARIA Authoring Practices Guide (APG)"
+        title-ref: /aria/apg/
         subtitle: "How to build accessibility semantics into web patterns and widgets"
       standalone_resource_nav_links:
         - name: APG Home
-          ref: /ARIA/APG/
+          ref: /aria/apg/
         - name: Patterns
-          ref: /ARIA/APG/patterns/
+          ref: /aria/apg/patterns/
         - name: Practices
-          ref: /ARIA/APG/practices/
+          ref: /aria/apg/practices/
         - name: Index
-          ref: /ARIA/APG/example-index/
+          ref: /aria/apg/example-index/
         - name: About
-          ref: /ARIA/APG/about/
+          ref: /aria/apg/about/
 
 
 # include all collections here so they are searchable
