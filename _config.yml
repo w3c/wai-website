@@ -146,7 +146,7 @@ collections:
     output: true
   apg-examples:
     output: true
-    permalink: /aria/apg/example-index/:path/
+    permalink: /ARIA/apg/example-index/:path/
 
 defaults:
   - scope:
@@ -304,19 +304,19 @@ defaults:
       layout: "standalone_resource"
       standalone_resource_header:
         title: "ARIA Authoring Practices Guide (APG)"
-        title-ref: /aria/apg/
+        title-ref: /ARIA/apg/
         subtitle: "How to build accessibility semantics into web patterns and widgets"
       standalone_resource_nav_links:
         - name: APG Home
-          ref: /aria/apg/
+          ref: /ARIA/apg/
         - name: Patterns
-          ref: /aria/apg/patterns/
+          ref: /ARIA/apg/patterns/
         - name: Practices
-          ref: /aria/apg/practices/
+          ref: /ARIA/apg/practices/
         - name: Index
-          ref: /aria/apg/example-index/
+          ref: /ARIA/apg/example-index/
         - name: About
-          ref: /aria/apg/about/
+          ref: /ARIA/apg/about/
   -
     scope: 
       type: "apg-examples"
@@ -325,19 +325,19 @@ defaults:
       layout: "standalone_resource"
       standalone_resource_header:
         title: "ARIA Authoring Practices Guide (APG)"
-        title-ref: /aria/apg/
+        title-ref: /ARIA/apg/
         subtitle: "How to build accessibility semantics into web patterns and widgets"
       standalone_resource_nav_links:
         - name: APG Home
-          ref: /aria/apg/
+          ref: /ARIA/apg/
         - name: Patterns
-          ref: /aria/apg/patterns/
+          ref: /ARIA/apg/patterns/
         - name: Practices
-          ref: /aria/apg/practices/
+          ref: /ARIA/apg/practices/
         - name: Index
-          ref: /aria/apg/example-index/
+          ref: /ARIA/apg/example-index/
         - name: About
-          ref: /aria/apg/about/
+          ref: /ARIA/apg/about/
 
 
 # include all collections here so they are searchable
@@ -357,7 +357,8 @@ tipue_search:
         "audiences",
         "about",
         "objectives", 
-        "patterns"
+        "patterns",
+        "apg-examples"
       ]
 
 # TODO docs say don't need to declare any used in the Theme
