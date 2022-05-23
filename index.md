@@ -45,6 +45,17 @@ inline_css: |
 
 <div class="white-bg grid-five-three">
   <div class="col1 grid-line-right">
+      <section class="teaser update-teaser" aria-labelledby="update-teaser-title">
+        <header class="teaser-h">
+          <h2 id="update-teaser-title">
+            <span class="subtitle">&nbsp;</span>
+            <span class="title">Current Work</span>
+          </h2>
+        </header>
+		        <img src="{{ "/content-images/wai-about-wai/update_social.png" | relative_url }}" alt="">
+	    <p><strong>See</strong> <a href="{{ '/update/' | relative_url }}">What We're Working On this month &ndash; Accessibility Activities and Publications</a></p>
+    </section>
+
     <section class="teaser news-teaser" aria-labelledby="news-teaser-title">
         <header class="teaser-h">
           <h2 id="news-teaser-title">
