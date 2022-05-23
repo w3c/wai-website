@@ -83,6 +83,7 @@ inline_css: |
           <li><a href="{{ role.url | relative_url }}">{% if role.nav_title %}{{role.nav_title}}{% else %}{{role.title}}{% endif %}</a></li>
           {% endunless %}
         {% endfor %}
+        <li><a href="{{ '/resources/' | relative_url }}">Everyone (All WAI Resources)</a></li>
         <li><a href="{{ '/translations/' | relative_url }}">Other Languages</a></li>
       </ul>
     </section>
