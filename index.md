@@ -52,6 +52,7 @@ inline_css: |
             <span class="title">News</span>
           </h2>
         </header>
+	    <h3>Current Work</h3>
 	    <p><strong>See</strong> <a href="{{ '/update/' | relative_url }}"><strong>What We're Working On</strong> this month &ndash; Accessibility Activities and Publications</a></p>
         {%- for post in site.posts -%}
           <article class="news-teaser">
