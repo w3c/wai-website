@@ -1,6 +1,6 @@
 [build]
 # with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml'"
-command = "git submodule update --init --remote && bundle exec jekyll build --trace --config '_config.yml,_config_staging.yml'"
+command = "git submodule update --init --remote && npm install && bundle exec jekyll build --trace --config '_config.yml,_config_staging.yml'"
 publish = "_site"
 
 [build.environment]
@@ -14,3 +14,10 @@ RUBY_VERSION = "2.6.2"
 [dev]
 publish = "_site"
 framework = "#static"
+
+[functions]
+directory = "_functions"
+node_bundler = "esbuild"
+
+[[plugins]]
+package = "@netlify/plugin-functions-install-core"

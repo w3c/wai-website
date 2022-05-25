@@ -339,6 +339,12 @@ defaults:
         - name: About
           ref: /ARIA/apg/about/
 
+  -
+    scope:
+      path: "pages/wai-course-list"
+    values:
+      layout: standalone_resource
+      standalone_resource_doc_name: List of Accessibility Courses
 
 # include all collections here so they are searchable
 tipue_search:
