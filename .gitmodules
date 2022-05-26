@@ -248,4 +248,4 @@
 [submodule "_external/resources/wai-course-list"]
 	path = _external/resources/wai-course-list
 	url = https://github.com/w3c/wai-course-list.git
-	branch = steve-integration
+	branch = master
