@@ -18,7 +18,7 @@ function callGitHubWebhook(formData) {
     body: `Missing repository for GitHub Action`,
   }}
   const GITHUB_URI = `/repos/w3c/${repository}/dispatches`
-console.log(GITHUB_URI)
+
   // clone and clean up data
   const data = {...formData}; // NB shallow copy. Semicolon as next line starts with [
   ['success', 'failure'].forEach((prop) => {delete data[prop]})
@@ -83,10 +83,11 @@ function formEncodedToPOJO(formEncoded) {
   }, {})
 }
 
+
 exports.handler = async function (event, context) {
   const response = (code, redir, body) =>
     ({ statusCode: redir ? 303 : code,     // this is the correct redirect code, UA will GET
-      headers: { ...{"content-type": "application/json"}, ...(redir ? { "Location": redir } : {}) },
+      headers: { ...{"content-type": "application/json", "Access-Control-Allow-Origin": "*"}, ...(redir ? { "Location": redir } : {}) },
       body: body ? JSON.stringify(body, null, '  ') : ''
   })
 
@@ -111,7 +112,7 @@ exports.handler = async function (event, context) {
   console.info(`Processing form ${formData['repository']}/${formData['form_name']} ${formData['submission_ref']}`)
 
   // uncomment following to stop GitHub action processing
-  // return response(200, mkURI(formData['success']), formData )
+  return response(200, mkURI(formData['success']), formData )
 
  // Invoke GitHub Action
   const res = await callGitHubWebhook(formData)
