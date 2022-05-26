@@ -348,7 +348,7 @@ defaults:
     scope:
       path: "pages/wai-course-list/content/index.html"
     values:
-      publish=: false
+      published: false
 
 # include all collections here so they are searchable
 tipue_search:
