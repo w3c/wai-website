@@ -344,11 +344,6 @@ defaults:
     values:
       layout: standalone_resource
       standalone_resource_doc_name: List of Accessibility Courses
-  -
-    scope:
-      path: "pages/wai-course-list/content/index.html"
-    values:
-      published: false
 
 # include all collections here so they are searchable
 tipue_search:

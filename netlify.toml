@@ -6,10 +6,6 @@ publish = "_site"
 [build.environment]
 RUBY_VERSION = "2.6.2" 
 
-[context.production]
-# We don't need this but it means will test the full URL access to forms function
-environment = { JEKYLL_ENV = "production" }
-
 [[redirects]]
   from = "/wai-website"
   to = "/"

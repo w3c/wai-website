@@ -21,14 +21,8 @@
 
 {%- if include.type == 'start' -%}
 
-zzz {{jekyll.environment | inspect}}
-
   {%- if include.action == nil -%}
-    {% if jekyll.environment == "production" %} 
-      {% assign action = "https://wai-website.netlify.app/.netlify/functions/form-action" %}
-    {% else %}
-      {% assign action = "/.netlify/functions/form-action" %}
-    {%- endif -%}
+    {% assign action = "https://wai-website.netlify.app/.netlify/functions/list-submission" %}
   {% else %}
     {% assign action = include.action %}
   {%- endif -%}
@@ -41,8 +35,8 @@ zzz {{jekyll.environment | inspect}}
   {% capture args %}
     {% if include.version %}form_version:{{include.version}}, {% endif %}
     {% if include.ref %}submission_ref:{{include.ref}}, {% endif %}
-    success:{{ page.dir }}{{include.success}}, 
-    failure:{{ page.dir }}{{include.failure}}, 
+    success:{{include.success}}, 
+    failure:{{include.failure}}, 
     repository:{{include.repository}}{% endcapture %}
   {%- include html-form.liquid type="start"
                                     name=include.name

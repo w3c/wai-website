@@ -112,7 +112,7 @@ exports.handler = async function (event, context) {
   console.info(`Processing form ${formData['repository']}/${formData['form_name']} ${formData['submission_ref']}`)
 
   // uncomment following to stop GitHub action processing
-  return response(200, mkURI(formData['success']), formData )
+  // return response(200, mkURI(formData['success']), formData )
 
  // Invoke GitHub Action
   const res = await callGitHubWebhook(formData)
