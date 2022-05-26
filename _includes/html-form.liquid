@@ -1,0 +1,72 @@
+{% comment %}
+  HTML form - adds valdiation of a group of required checkboxes
+
+      start - begining of form
+
+        name - form name - required
+        action - url to send to required
+        method - http verb for submission - get or post (default get)
+        onsubmit - function to call for onsubmit event
+        args - string of args to pass to function as hidden form fields "foo:bar,wibble:wobble"
+
+      end - end of form
+
+{% endcomment %}
+
+{%- if include.type == 'start' -%}
+  {%- if include.method == nil -%}
+    {% assign method = "get" %}
+  {% else %}
+    {% assign method = include.method %}
+  {% endif -%}
+  {%- if firstForm == nil -%}
+    {% assign firstForm = true %}
+  {%- else -%}
+    {% assign firstForm = false %}
+  {% endif -%}
+  {%- if include.onsubmit %}
+    {% assign onsubmit = include.onsubmit %}
+  {% endif -%}
+
+  <form name="{{ include.name }}" method="{{ method }}" action="{{ include.action }}">
+    <input type="hidden" name="form_name" value="{{ include.name }}">
+    {%- if include.args -%}
+    {% assign args = include.args | split: "," %}
+      {%- for arg in args %}
+        {% assign argt = arg | split: ":" %}
+        <input type="hidden" name="{{argt[0] | strip }}" value="{{ argt[1] | strip }}">
+      {% endfor -%}
+    {% endif -%}
+{%- elsif include.type == 'end' -%}
+  </form>
+  {%- if firstForm or onsubmit %}
+    <script>
+    {%- if firstForm %}
+      // Adds check for one or more checkboxes in a required group
+      // TODO handle more than one form
+      const form = document.querySelector('form')
+      const submitButton = form.querySelector('button[type="submit"]')
+      submitButton.addEventListener('click', (event) => {
+        const requiredCheckboxes = form.querySelectorAll('input[type="checkbox"][required][group]')
+        const groups = Array.from(requiredCheckboxes).map((n) => n.getAttribute('group'))
+        const uniqueGroups = [...new Set(groups)]
+
+        uniqueGroups.forEach((groupName) => {
+          const checkboxs = form.querySelectorAll(`input[type="checkbox"][group="${groupName}"]`)
+          const checkedCheckboxs = form.querySelectorAll(`input[type="checkbox"][group="${groupName}"]:checked`)
+
+          // if any checkbox in the group is checked we removed required from them all
+          if (checkedCheckboxs.length) {
+            for (let checkbox of checkboxs) {
+              checkbox.required = false
+            }
+          }
+        })
+      })
+    {% endif -%}
+    {%- if onsubmit %}
+      form.onsubmit = {{ onsubmit }}
+    {% endif -%}
+    </script>
+  {% endif -%}
+{% endif %}

@@ -1,0 +1,59 @@
+{% comment %}
+  Netlify form integation to submit a list entry form and great a PR with the form data as JSON. 
+
+  The netlify function is posted the form contents and in turn invokes a GitHub Action to create the PR
+
+      start - begining of form
+
+        name - form name - required
+        version - version of form - recommended
+        action - url to send to - defaults to '/.netlify/functions/form-action'
+        method - http verb  for submission - get or post (default post)
+        onsubmit - function to call for onsubmit event
+        ref - unique form ref (default added by netlify function)
+        success - url to redirect to when succeeded - requiured
+        failure - url to redirect to when failed - required
+        repository - repository containing the action - required
+
+      end - end of form
+
+{% endcomment %}
+
+{%- if include.type == 'start' -%}
+
+zzz {{jekyll.environment | inspect}}
+
+  {%- if include.action == nil -%}
+    {% if jekyll.environment == "production" %} 
+      {% assign action = "https://wai-website.netlify.app/.netlify/functions/form-action" %}
+    {% else %}
+      {% assign action = "/.netlify/functions/form-action" %}
+    {%- endif -%}
+  {% else %}
+    {% assign action = include.action %}
+  {%- endif -%}
+  {%- if include.method == nil -%}
+    {% assign method = "post" %}
+  {% else %}
+    {% assign method = include.method %}
+  {% endif -%}
+
+  {% capture args %}
+    {% if include.version %}form_version:{{include.version}}, {% endif %}
+    {% if include.ref %}submission_ref:{{include.ref}}, {% endif %}
+    success:{{ page.dir }}{{include.success}}, 
+    failure:{{ page.dir }}{{include.failure}}, 
+    repository:{{include.repository}}{% endcapture %}
+  {%- include html-form.liquid type="start"
+                                    name=include.name
+                                    version=include.version
+                                    action=action
+                                    method=method
+                                    onsubmit=include.onsubmit
+                                    args=args -%}
+
+{%- elsif include.type == 'end' -%}
+
+  {%- include html-form.liquid type="end" -%}
+
+{% endif -%}
