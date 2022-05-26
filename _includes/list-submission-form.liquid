@@ -32,11 +32,17 @@
     {% assign method = include.method %}
   {% endif -%}
 
+  {% if jekyll.environment == "production" %}
+    {%assign WAI_REFERRER_HACK = "/WAI"%}
+  {%else%}
+    {%assign WAI_REFERRER_HACK = ""%}
+  {%endif%}
+
   {% capture args %}
     {% if include.version %}form_version:{{include.version}}, {% endif %}
     {% if include.ref %}submission_ref:{{include.ref}}, {% endif %}
-    success:{{include.success}}, 
-    failure:{{include.failure}}, 
+    success:{{WAI_REFERRER_HACK}}{{include.success}}, 
+    failure:{{WAI_REFERRER_HACK}}{{include.failure}}, 
     repository:{{include.repository}}{% endcapture %}
   {%- include html-form.liquid type="start"
                                     name=include.name
