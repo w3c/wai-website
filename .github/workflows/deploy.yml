@@ -30,7 +30,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build and test with Jekyll
       run: |
-        export JEKYLL_ENV=production
+        export WAI_LIVE_SITE=true
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec jekyll build --config "_config.yml,_config_prod.yml" --profile
