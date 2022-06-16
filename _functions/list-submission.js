@@ -86,7 +86,8 @@ function formEncodedToPOJO(formEncoded) {
 
 exports.handler = async function (event, context) {
   const response = (code, redir, body) =>
-    ({ statusCode: redir ? 303 : code,     // this is the correct redirect code, UA will GET
+    ({ statusCode: redir ? 303 : code,     // this is the correct redirect code, UA will GET the location header
+      //TDO check if Access-Control-Allow-Origin is actually needed or if can make more specific
       headers: { ...{"content-type": "application/json", "Access-Control-Allow-Origin": "*"}, ...(redir ? { "Location": redir } : {}) },
       body: body ? JSON.stringify(body, null, '  ') : ''
   })
@@ -111,8 +112,11 @@ exports.handler = async function (event, context) {
 
   console.info(`Processing form ${formData['repository']}/${formData['form_name']} ${formData['submission_ref']}`)
 
-  // uncomment following to stop GitHub action processing
-  // return response(200, mkURI(formData['success']), formData )
+  if (formData['DEBUG']) {
+    console.info("Debugging: returning form JSON and not calling GitHub")
+    const result = {formJSON: formData, form: event.body, headers: event.headers}
+    return response(200, false, result )
+  }
 
  // Invoke GitHub Action
   const res = await callGitHubWebhook(formData)

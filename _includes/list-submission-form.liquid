@@ -14,6 +14,8 @@
         success - url to redirect to when succeeded - requiured
         failure - url to redirect to when failed - required
         repository - repository containing the action - required
+        DEBUG_FUNCTION - pass DEBUG to submission function, causes function to return JSON rather than submitting to GitHub 
+        DEBUG_USE_LOCAL_FUNCTION - use local/domain function rather than live one and set DEBUG 
 
       end - end of form
 
@@ -21,7 +23,9 @@
 
 {%- if include.type == 'start' -%}
 
-  {%- if include.action == nil -%}
+  {%- if include.DEBUG_USE_LOCAL_FUNCTION != nil -%}
+    {% assign action = "/.netlify/functions/list-submission" %}
+  {%- elsif include.action == nil -%}
     {% assign action = "https://wai-website.netlify.app/.netlify/functions/list-submission" %}
   {% else %}
     {% assign action = include.action %}
@@ -32,13 +36,14 @@
     {% assign method = include.method %}
   {% endif -%}
 
-  {% if jekyll.environment == "production" %}
+  {% if site.env.WAI_LIVE_SITE %}
     {%assign WAI_REFERRER_HACK = "/WAI"%}
   {%else%}
     {%assign WAI_REFERRER_HACK = ""%}
   {%endif%}
 
   {% capture args %}
+    {% if include.DEBUG_FUNCTION %}DEBUG:true, {% endif %}
     {% if include.version %}form_version:{{include.version}}, {% endif %}
     {% if include.ref %}submission_ref:{{include.ref}}, {% endif %}
     success:{{WAI_REFERRER_HACK}}{{include.success}}, 
