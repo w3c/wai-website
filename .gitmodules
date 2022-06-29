@@ -245,7 +245,7 @@
 [submodule "_external/resources/wai-aria-practices"]
 	path = _external/resources/wai-aria-practices
 	url = https://github.com/w3c/wai-aria-practices.git
-	branch = main
+	branch = publication
 [submodule "_external/resources/wai-course-list"]
 	path = _external/resources/wai-course-list
 	url = https://github.com/w3c/wai-course-list.git
