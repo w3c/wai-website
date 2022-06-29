@@ -290,14 +290,16 @@ defaults:
         rule_type: "Atomic rule"
       sidebar: true
       standalone_resource_header:
-        title: WCAG 2 Test Rules
-        subtitle: For developers of evaluation tools and test methodologies
-        link:
-          title: About WCAG 2 Test Rules
+        title: ACT Rules
+        title-ref: /standards-guidelines/act/rules/
+        subtitle: Rules for accessibility conformance testing (ACT)
+      standalone_resource_nav_links:
+        - name: All Rules
+          ref: /standards-guidelines/act/rules/
+        - name: About
           ref: /standards-guidelines/act/rules/about/
-      standalone_resource_pager:
-        name: All Test Rules
-        ref: /standards-guidelines/act/rules/
+        - name: Implementations
+          ref: /standards-guidelines/act/implementations/
   - scope:
       path: "pages/wai-aria-practices"
     values:
