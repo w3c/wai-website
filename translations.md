@@ -2,7 +2,6 @@
 title: "All WAI Translations"
 
 lang: en
-last_updated: 2019-06-13
 permalink: /translations/
 
 parent: /
@@ -31,13 +30,13 @@ inline_css: |
   }
 
 translated_standards:
-- lang: "be"
+- lang: "ar"
   docs:
-  - title: "Кіраўніцтва па забеспячэнні даступнасці Web-кантэнту (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: http://www.fatcow.com/resources/wai-be.html
-    type: external
-    translator: "FatCow Web Hosting team"
+  - title: "مبادئ النفاذ إلى محتوى الويب (WCAG2.1)"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/Translations/WCAG20-ar/
+    type: authorized
+    translator: "Mada Center, Qatar"
 - lang: "ca"
   docs:
   - title: "Directrius per a l'accessibilitat del contingut web (WCAG), versió 2.0"
@@ -109,7 +108,7 @@ translated_standards:
     url: https://www.w3.org/Translations/WCAG20-fr/
     type: authorized
     translator: "Association BrailleNet"
-  - title: "Un guide pour comprendre et mettre en œuvre la version 2.0 des Règles pour l'accessibilité des contenus Web"
+  - title: "[OUTDATED] Un guide pour comprendre et mettre en œuvre la version 2.0 des Règles pour l'accessibilité des contenus Web"
     en_title: "Understanding WCAG 2.0"
     url: https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/
     type: authorized
@@ -161,6 +160,11 @@ translated_standards:
     translator: "한국웹접근성평가센터 , 성신여자대학교"
 - lang: "no"
   docs:
+  - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.1"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/Translations/WCAG21-no/
+    type: authorized
+    translator: "Digitaliseringsdirektoratet (Norwegian Digitalisation Agency)"
   - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-no/
@@ -173,10 +177,6 @@ translated_standards:
     url: https://www.w3.org/Translations/WCAG21-pl/
     type: authorized
     translator: "Fundacja Instytut Rozwoju Regionalnego"
-  - title: "Wytyczne dla dostępności treści internetowych 2.0 (WCAG 2.0)"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: http://fdc.org.pl/wcag2/
-    type: external
 - lang: "pt"
   docs:
   - title: "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.0"
