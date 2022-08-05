@@ -39,7 +39,7 @@ function callGitHubWebhook(formData) {
     headers: {
       'User-Agent': `W3C WAI Website ${repository}`,
       Accept: 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json',
+      'Content-Type': 'application/json;charset=UTF-8',
       Authorization: `Bearer ${process.env.GITHUB_PAT}`,
       'Content-Length': reqBody.length,
     },
@@ -88,7 +88,7 @@ exports.handler = async function (event, context) {
   const response = (code, redir, body) =>
     ({ statusCode: redir ? 303 : code,     // this is the correct redirect code, UA will GET the location header
       // TODO check if Access-Control-Allow-Origin is actually needed or if can make more specific
-      headers: { ...{"content-type": "application/json", "Access-Control-Allow-Origin": "*"}, ...(redir ? { "Location": redir } : {}) },
+      headers: { ...{"content-type": "application/json;charset=UTF-8", "Access-Control-Allow-Origin": "*"}, ...(redir ? { "Location": redir } : {}) },
       body: body ? JSON.stringify(body, null, '  ') : ''
   })
 
