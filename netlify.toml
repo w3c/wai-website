@@ -12,8 +12,7 @@ RUBY_VERSION = "2.6.2"
   status = 404
 
 [dev]
-publish = "_site"
-framework = "#static"
+command = "bundle exec jekyll serve -w --livereload --config _config.yml,_config_staging.yml"
 
 [functions]
 directory = "_functions"
