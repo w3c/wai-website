@@ -200,6 +200,7 @@ defaults:
     values:
       class: tight-page
       layout: "pattern"
+      type_of_guidance_in_content: true
       type_of_guidance: Cognitive Accessibility Design Pattern
       feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
       standalone_resource_header:
@@ -231,6 +232,7 @@ defaults:
     values:
       class: tight-page
       layout: "objective"
+      type_of_guidance_in_content: true
       type_of_guidance: Cognitive Accessibility Objective
       feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
       standalone_resource_header:
