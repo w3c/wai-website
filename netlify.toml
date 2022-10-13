@@ -4,12 +4,12 @@ command = "git submodule update --init --remote && npm install && bundle exec je
 publish = "_site"
 
 [build.environment]
-RUBY_VERSION = "2.6.2" 
+RUBY_VERSION = "2.6.2"
 
 [[redirects]]
-  from = "/wai-website"
-  to = "/"
-  status = 404
+from = "/wai-website"
+to = "/"
+status = 404
 
 [dev]
 command = "bundle exec jekyll serve -w --livereload --config _config.yml,_config_staging.yml"
@@ -20,3 +20,13 @@ node_bundler = "esbuild"
 
 [[plugins]]
 package = "@netlify/plugin-functions-install-core"
+
+[[plugins]]
+# See https://github.com/netlify/netlify-plugin-lighthouse#readme
+package = "@netlify/plugin-lighthouse"
+[plugins.inputs.settings]
+preset = "desktop" # default is mobile
+locale = "en"
+# to audit an HTML file other than index.html in a sub path of the build directory
+#[[plugins.inputs.audits]]
+#path = "pages/contact.html"
