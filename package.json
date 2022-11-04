@@ -4,6 +4,6 @@
         "uuid": "^8.3.2"
     },
     "devDependencies": {
-        "@netlify/plugin-lighthouse": "^4.0.1"
+        "@netlify/plugin-lighthouse": "^4.0.2"
     }
 }
