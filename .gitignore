@@ -4,3 +4,5 @@ _site
 .DS_Store
 .netlify
 node_modules/
+
+C:\\Users\\steve\\AppData\\Local\\lighthouse*

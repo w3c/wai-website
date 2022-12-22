@@ -254,3 +254,7 @@
 	path = _external/resources/wai-authoring-tools-list
 	url = https://github.com/w3c/wai-authoring-tools-list.git
 	branch = master
+[submodule "_external/resources/wai-evaluation-tools-list"]
+	path = _external/resources/wai-evaluation-tools-list
+	url = https://github.com/w3c/wai-evaluation-tools-list.git
+	branch = master

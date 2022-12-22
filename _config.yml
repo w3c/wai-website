@@ -352,6 +352,11 @@ defaults:
       path: "pages/wai-authoring-tools-list"
     values:
       layout: "default"
+  -
+    scope:
+      path: "pages/wai-evaluation-tools-list"
+    values:
+      layout: "default"
 
 # include all collections here so they are searchable
 tipue_search:
