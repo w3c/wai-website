@@ -39,6 +39,11 @@ translated_standards:
     translator: "Mada Center, Qatar"
 - lang: "ca"
   docs:
+  - title: "Directrius per a l'accessibilitat del contingut web (WCAG) 2.1"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/Translations/WCAG21-ca/
+    type: authorized
+    translator: "Facultat de Matemàtiques i Informàtica - Universitat de Barcelona"
   - title: "Directrius per a l'accessibilitat del contingut web (WCAG), versió 2.0"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
     url: https://www.w3.org/Translations/WCAG20-ca/
