@@ -210,6 +210,13 @@ translated_standards:
     url: https://www.w3.org/Translations/WCAG20-sv/
     type: authorized
     translator: "Funka Nu AB"
+- lang: "ua"
+  docs:
+  - title: "Настанови з доступності вебвмісту (WCAG) 2.1"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+    url: https://www.w3.org/Translations/WCAG21-ua/
+    type: authorized
+    translator: "United Nations Development Program (UNDP) in Ukraine"
 - lang: "zh-hans"
   docs:
   - title: "Web内容无障碍指南 (WCAG) 2.1"
