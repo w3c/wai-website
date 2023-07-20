@@ -188,7 +188,7 @@ defaults:
   - scope:
       path: "_posts"
     values:
-      layout: "default"
+      layout: "news"
   - scope:
       path: "_audiences"
     values:
