@@ -375,8 +375,7 @@ tipue_search:
         "audiences",
         "about",
         "objectives", 
-        "patterns",
-        "apg-examples"
+        "patterns"
       ]
 
 # TODO docs say don't need to declare any used in the Theme
