@@ -378,6 +378,22 @@ tipue_search:
         "patterns",
         "apg-examples"
       ]
+  exclude:
+    files:
+      [
+        "pages/wai-aria-practices/patterns/landmarks/examples/HTML5.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/at.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/banner.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/complementary.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/contentinfo.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/form.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/general-principles.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/main.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/navigation.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/region.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/resources.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/search.html",
+      ]
 
 # TODO docs say don't need to declare any used in the Theme
 plugins:
