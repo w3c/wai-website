@@ -145,7 +145,7 @@
 [submodule "_external/resources/wai-about-wai"]
 	path = _external/resources/wai-about-wai
 	url = https://github.com/w3c/wai-about-wai.git
-	branch = master
+	branch = new-translation-resources
 [submodule "_external/resources/wai-wcag-mob-overlap"]
 	path = _external/resources/wai-wcag-mob-overlap
 	url = https://github.com/w3c/wai-wcag-mob-overlap.git
