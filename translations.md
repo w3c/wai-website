@@ -20,7 +20,7 @@ teaser_text: Web accessibility resources in multiple languages. Translations of 
 
 feedbackmail: wai@w3.org
 footer: |
-  <p>Translations manager: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Programmer: Eric Eggert.</p>
+  <p>Translations managers: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin. Programmers: Eric Eggert and Rémi Bétin.</p>
   <p>Translations management is part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> and <a href="https://www.w3.org/WAI/about/projects/wai-core-ford/">WAI-Core Ford</a> projects, funded by the Ford Foundation; and the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-Coop</a> project, co-funded by the European Commission.</p>
 ref: /translations/
 
