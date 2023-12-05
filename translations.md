@@ -29,6 +29,29 @@ inline_css: |
     margin-block-end: 1em;
   }
 
+other_resources:
+  - lang: "fr"
+    docs:
+      - title: "Outil de rapport WCAG-EM"
+        en_title: "WCAG-EM Report Tool"
+        url: https://www.w3.org/WAI/eval/report-tool/
+        translators:
+          - name: "Alexandre Massot"
+            org: "République et canton de Genève"
+          - name: "Mark Thiebaut"
+            org: "Iron Cloud"
+          - name: "Yves Dubois-Pèlerin"
+            org: "République et canton de Genève"
+          - name: "Eric Porlier"
+        contributors:
+          - name: "Julien Conti"
+            org: "République et canton de Genève"
+          - name: "Dimitri Zaslavsky"
+            org: "République et canton de Genève"
+          - name: "Audrey Maniez"
+            org: "Access 42"
+          - name: "Rémi Bétin"
+
 translated_standards:
 - lang: "ar"
   docs:
@@ -279,7 +302,12 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 {%- endfor -%}
 {% assign lang4 = lang4 | split: ',' %}
 
-{% assign langs = lang4 | concat: lang3 | concat: lang2 | concat: lang1 | uniq | sort %}
+{% for lang-others in page.other_resources %}
+{%- if forloop.first %}{% assign lang5 = lang-others.lang %}{%else%}{% assign lang5 = lang5 | append: "," | append: lang-others.lang %}{% endif -%}
+{% endfor %}
+{% assign lang5 = lang5 | split: "," %}
+
+{% assign langs = lang5 | concat: lang4 | concat: lang3 | concat: lang2 | concat: lang1 | uniq | sort %}
 
 {%- for l in langs -%}
 {% if l %}
@@ -326,6 +354,23 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
       </dd>
     </div>
   {% endif %}
+{% endfor %}
+
+{% assign other_resources = page.other_resources | where: "lang", l %}
+
+{% for resource in other_resources.first.docs %}
+    <div>
+      <dt><a href="{{resource.url}}"{%if resource.title %}>{{ resource.title }}{% else %} lang="en">{{resource.en_title}}{%endif%}{% if resource.type == "external" %} {% include_cached external.html lang=l %}{% endif %}</a></dt>
+      {%- if resource.translators -%}
+      <dd>
+        {% include_cached peoplelist.html label=translatorslabel people=resource.translators %}
+        {% include_cached peoplelist.html label=contributorslabel people=resource.contributors %}
+      </dd>
+      {%- endif -%}
+      <dd lang="en">
+        English title: <i>{{resource.en_title}}</i>
+      </dd>
+    </div>
 {% endfor %}
 
 {% assign stds = page.translated_standards | where: "lang", l %}
