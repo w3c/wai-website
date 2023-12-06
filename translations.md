@@ -140,6 +140,11 @@ translated_standards:
     translator: "Krisztina Vankó (Vankozak Bt)"
 - lang: "it"
   docs:
+  - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.2"
+    en_title: "Web Content Accessibility Guidelines (WCAG) 2.2"
+    url: https://www.w3.org/Translations/WCAG22-it/
+    type: authorized
+    translator: "International Web Association"
   - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.1"
     en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
     url: https://www.w3.org/Translations/WCAG21-it/
