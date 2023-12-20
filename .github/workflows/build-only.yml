@@ -28,7 +28,7 @@ jobs:
 #        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build and test with Jekyll
       run: |
-        gem install bundler
+        gem install bundler -v '2.4.22'
         bundle install --jobs 4 --retry 3
         bundle exec jekyll build --verbose --trace --config "_config.yml,_config_prod.yml" --profile
 # Only works for pushes to PRs and that is not useful for our approach.
