@@ -53,8 +53,7 @@ other_resources:
           - name: "Rémi Bétin"
   - lang: "nl"
     docs:
-      - title: "WCAG-EM Report Tool"
-        en_title: "WCAG-EM Report Tool"
+      - en_title: "WCAG-EM Report Tool"
         url: https://www.w3.org/WAI/eval/report-tool/
         translators:
           - name: "Roel Antonisse"
