@@ -51,6 +51,17 @@ other_resources:
           - name: "Audrey Maniez"
             org: "Access 42"
           - name: "Rémi Bétin"
+  - lang: "nl"
+    docs:
+      - en_title: "WCAG-EM Report Tool"
+        url: https://www.w3.org/WAI/eval/report-tool/
+        translators:
+          - name: "Roel Antonisse"
+            org: "accessibility.nl"
+          - name: "Michel Hansma"
+            org: "HAN University"
+          - name: "Hidde de Vries"
+            org: "W3C WAI"
 
 translated_standards:
 - lang: "ar"
