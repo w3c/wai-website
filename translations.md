@@ -28,6 +28,22 @@ inline_css: |
   dl.translations > div {
     margin-block-end: 1em;
   }
+  .translation-level {
+    background-color: rgba(206, 205, 205, 0.5);
+    border-radius: 0.25rem;
+    display: inline-block;
+    margin-top: 0.3125rem;
+    padding: 0.15625rem 0.3125rem;
+    font-size: 0.9rem;
+  }
+  .translation-level--authorized {
+    background-color: var(--w3c-classic);
+    color: #fff;
+  }
+  .translation-level--unofficial {
+    background-color: var(--cloudy-subtle);
+    color: #000;
+  }
 
 other_resources:
   - lang: "fr"
@@ -62,217 +78,6 @@ other_resources:
             org: "HAN University"
           - name: "Hidde de Vries"
             org: "W3C WAI"
-
-translated_standards:
-- lang: "ar"
-  docs:
-  - title: "مبادئ النفاذ إلى محتوى الويب (WCAG2.1)"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG20-ar/
-    type: authorized
-    translator: "Mada Center, Qatar"
-- lang: "ca"
-  docs:
-  - title: "Directrius per a l'accessibilitat del contingut web (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-ca/
-    type: authorized
-    translator: "Facultat de Matemàtiques i Informàtica - Universitat de Barcelona"
-  - title: "Directrius per a l'accessibilitat del contingut web (WCAG), versió 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-ca/
-    type: authorized
-    translator: "Facultat de Biblioteconomia i Documentació - Universitat de Barcelona"
-- lang: "da"
-  docs:
-  - title: "Retningslinjer for Tilgængeligt Webindhold (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-da/
-    type: authorized
-    translator: "Digitaliseringsstyrelsen"
-  - title: "Retningslinjer for tilgængeligt webindhold (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-da/
-    type: authorized
-    translator: "Danske Handicaporganisationer"
-- lang: "nl"
-  docs:
-  - title: "Richtlijnen voor de Toegankelijkheid van Webcontent (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-nl/
-    type: authorized
-    translator: "Accessibility Foundation"
-- lang: "nl"
-  docs:
-  - title: "Richtlijnen voor de Toegankelijkheid van Webcontent (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-nl/
-    type: authorized
-    translator: "Accessibility Foundation"
-- lang: "es"
-  docs:
-  - title: "Pautas de Accesibilidad para el Contenido Web (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: http://www.sidar.org/traducciones/wcag20/es/
-    type: external
-    translator: "Fundación Sidar - Acceso Universal"
-- lang: "et"
-  docs:
-  - title: "Veebi sisu juurdepääsetavussuunised (WCAG 2.0)"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-et/
-    type: authorized
-    translator: "Ministry of Economic Affairs and Communications"
-- lang: "fi"
-  docs:
-  - title: "Verkkosisällön saavutettavuusohjeet (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-fi/
-    type: authorized
-    translator: "Kehitysvammaliitto ry" 
-  - title: "Verkkosisällön saavutettavuusohjeet (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-fi/
-    type: authorized
-    translator: "Tampere University of Technology, Hypermedia Laboratory, W3C Finnish Office"
-- lang: "fr"
-  docs:
-  - title: "Règles pour l'accessibilité des contenus Web (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-fr/
-    type: authorized
-    translator: "Access42"
-  - title: "Règles pour l'accessibilité des contenus Web (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-fr/
-    type: authorized
-    translator: "Association BrailleNet"
-  - title: "[OUTDATED] Un guide pour comprendre et mettre en œuvre la version 2.0 des Règles pour l'accessibilité des contenus Web"
-    en_title: "Understanding WCAG 2.0"
-    url: https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/
-    type: authorized
-- lang: "de"
-  docs:
-  - title: "Richtlinien für barrierefreie Webinhalte (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-de/
-    type: authorized
-    translator: "Deutsche Behindertenhilfe Aktion Mensch e.V."
-- lang: "he"
-  docs:
-  - title: "הנחיות להנגשת תכני אתרי אינטרנט WCAG) 2.0)"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.isoc.org.il/files/w3c-wai/guidelines.html
-    type: external
-    translator: "Eyal Sela"
-- lang: "hu"
-  docs:
-  - title: "Web Akadálymentesítési Útmutató 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: http://www.w3c.hu/forditasok/WCAG20/
-    type: external
-    translator: "Krisztina Vankó (Vankozak Bt)"
-- lang: "it"
-  docs:
-  - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.2"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.2"
-    url: https://www.w3.org/Translations/WCAG22-it/
-    type: authorized
-    translator: "International Web Association"
-  - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-it/
-    type: authorized
-    translator: "International Web Association"
-  - title: "Linee guida per l'accessibilità dei contenuti Web (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-it/
-    type: authorized
-    translator: "International Webmasters Association / HTML Writers Guild"
-- lang: "ja"
-  docs:
-  - en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://waic.jp/docs/WCAG20/Overview.html
-    type: external
-    translator: "WAIC (Web Accessibility Infrastructure Committee)"
-- lang: "ko"
-  docs:
-  - title: "웹 콘텐츠 접근성 지침 (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: http://www.kwacc.or.kr/WAI/wcag21/
-    type: external
-    translator: "한국웹접근성평가센터 , 성신여자대학교"
-- lang: "no"
-  docs:
-  - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-no/
-    type: authorized
-    translator: "Digitaliseringsdirektoratet (Norwegian Digitalisation Agency)"
-  - title: "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-no/
-    type: authorized
-    translator: "The Delta Centre - The National Centre for Accessibility and Participation for Persons with Disabilities in Norway"
-- lang: "pl"
-  docs: 
-  - title: "Wytyczne dla dostępności treści internetowych (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-pl/
-    type: authorized
-    translator: "Fundacja Instytut Rozwoju Regionalnego"
-- lang: "pt"
-  docs:
-  - title: "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-pt-PT/
-    type: authorized
-    translator: "DSI/Unidade ACESSO da FCT, IP"
-- lang: "pt-BR"
-  docs:
-  - title: "Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-pt-br/
-    type: authorized
-    translator: "W3C Brazil Office"
-- lang: "ru"
-  docs:
-  - title: "Руководство по обеспечению доступности Web-контента (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-ru/
-    type: authorized
-    translator: "UN Information Center"
-- lang: "sv"
-  docs:
-  - title: "Riktlinjer för tillgängligt webbinnehåll (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: https://www.w3.org/Translations/WCAG20-sv/
-    type: authorized
-    translator: "Funka Nu AB"
-- lang: "uk"
-  docs:
-  - title: "Настанови з доступності вебвмісту (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-ua/
-    type: authorized
-    translator: "United Nations Development Program (UNDP) in Ukraine"
-- lang: "zh-hans"
-  docs:
-  - title: "Web内容无障碍指南 (WCAG) 2.1"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.1"
-    url: https://www.w3.org/Translations/WCAG21-zh/
-    type: authorized
-    translator: "Zhejiang University"
-  - title: "Web内容无障碍指南 (WCAG) 2.0"
-    en_title: "Web Content Accessibility Guidelines (WCAG) 2.0"
-    url: http://www.w3.org/translations/wcag20-zh/
-    type: authorized
-    translator: "W3C China Host, Beihang"
-  - title: "无障碍创作工具指南(ATAG) 2.0"
-    en_title: "Authoring Tool Accessibility Guidelines (ATAG) 2.0he"
-    url: https://www.w3.org/Translations/ATAG20-zh/
-    type: authorized
-    translator: "Zhejiang University"
 ---
 
 {::nomarkdown}
@@ -304,11 +109,7 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 
 {% assign lang1=site.documents | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
 {% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
-
-{% for lang in page.translated_standards %}
-{%- if forloop.first %}{% assign lang3 = lang.lang %}{%else%}{% assign lang3 = lang3 | append: "," | append: lang.lang %}{% endif -%}
-{% endfor %}
-{% assign lang3 = lang3 | split: "," %}
+{% assign lang3 = site.data.standards-translations | where_exp: "item", "item.type == 'authorized' or item.type == 'unofficial'" | map: "lang" %}
 
 {% assign video-translations=site.data.video-metadata | where_exp: "item", "item.name.en and item.main-page" | map: "subtitles" %}
 {%- for video in video-translations -%}
@@ -332,86 +133,96 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 
 ## <span lang="{{l}}" bidi="auto" style="text-transform: capitalize;">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }})
 
+{::nomarkdown}
 {% if site.data.lang[l].rtl -%}{%- include excol.html type="middle" dir="rtl" lang=l -%}{%- else -%}{%- include excol.html type="middle" -%}{%- endif %}
 
 {%- assign p1=site.documents | where: "lang", l -%}
 {%- assign p2=site.pages | where: "lang", l -%}
 {%- assign resource_pages = p1 | concat: p2 | sort: "title" -%}
 {%- assign resources = resource_pages | group_by_exp: 'item', 'item.resource.ref' -%}
-
-<dl lang="{{l}}" class="translations">
-
 {%- for pages in resources -%}
+  {% if forloop.first %}
+    <h3>{% include_cached t.html t='Resources' lang=l hideTranslationHints=true %}</h3>
+    <dl lang="{{l}}" class="translations">
+  {%- endif -%}
   {%- if pages.name -%}
-    <div>
-      <dt>{% include_cached resource-title.html to=pages.name lang=l %}</dt>
-      <dd>
-        <dl>
+      <div>
+        <dt>{% include_cached resource-title.html to=pages.name lang=l %}</dt>
+        <dd>
+          <dl>
   {% endif %}
   {% for p in pages.items %}
-          <div>
-            <dt><a href="{{ p.url | relative_url }}">{{ p.title }}</a></dt>
-            <dd>
-              {%- capture translatorslabel %}{% include_cached t.html t='Translator:' lang=l %}{%- endcapture %}
-              {% include_cached peoplelist.html label=translatorslabel people=p.translators %}
-              {%- capture contributorslabel %}{% include_cached t.html t='Contributor:' lang=l%}{%- endcapture %}
-              {% include_cached peoplelist.html label=contributorslabel people=p.contributors %}
-            </dd>
-            <dd lang="en">
-              {%- assign o1=site.documents | where: "ref", p.ref | where: "lang", "en" -%}
-              {%- assign o2=site.pages | where: "ref", p.ref | where: "lang", "en" -%}
-              {%- assign original = o1 | concat: o2 | sort: "title" -%}
-              English title: <i>{{original.first.title}}</i>
-            </dd>
-          </div>
+            <div>
+              <dt><a href="{{ p.url | relative_url }}">{{ p.title }}</a></dt>
+              <dd>
+                {%- capture translatorslabel %}{% include_cached t.html t='Translator:' lang=l %}{%- endcapture %}
+                {% include_cached peoplelist.html label=translatorslabel people=p.translators %}
+                {%- capture contributorslabel %}{% include_cached t.html t='Contributor:' lang=l%}{%- endcapture %}
+                {% include_cached peoplelist.html label=contributorslabel people=p.contributors %}
+              </dd>
+              <dd lang="en">
+                {%- assign o1=site.documents | where: "ref", p.ref | where: "lang", "en" -%}
+                {%- assign o2=site.pages | where: "ref", p.ref | where: "lang", "en" -%}
+                {%- assign original = o1 | concat: o2 | sort: "title" -%}
+                English title: <i>{{original.first.title}}</i>
+              </dd>
+            </div>
   {% endfor %}
   {% if pages.name %}
-        </dl>
-      </dd>
-    </div>
+          </dl>
+        </dd>
+      </div>
   {% endif %}
+  {%- if forloop.last -%}
+    </dl>
+  {%- endif -%}
 {% endfor %}
 
 {% assign other_resources = page.other_resources | where: "lang", l %}
-
-{% for resource in other_resources.first.docs %}
-    <div>
-      <dt><a href="{{resource.url}}"{%if resource.title %}>{{ resource.title }}{% else %} lang="en">{{resource.en_title}}{%endif%}{% if resource.type == "external" %} {% include_cached external.html lang=l %}{% endif %}</a></dt>
-      {%- if resource.translators -%}
-      <dd>
-        {% include_cached peoplelist.html label=translatorslabel people=resource.translators %}
-        {% include_cached peoplelist.html label=contributorslabel people=resource.contributors %}
-      </dd>
-      {%- endif -%}
-      <dd lang="en">
-        English title: <i>{{resource.en_title}}</i>
-      </dd>
-    </div>
-{% endfor %}
-
-{% assign stds = page.translated_standards | where: "lang", l %}
-
-{% for std in stds.first.docs %}
+{%- for resource in other_resources.first.docs -%}
   {%- if forloop.first -%}
-    <div>
-      <dt>{% include_cached t.html t='Standards/Guidelines' lang=l hideTranslationHints=true %}</dt>
-      <dd>
-        <dl lang="{{l}}">
+    <dl lang="{{l}}" class="translations">
   {%- endif -%}
-          <div>
-            <dt><a href="{{std.url}}"{%if std.title %}>{{ std.title }}{% else %} lang="en">{{std.en_title}}{%endif%}{% if std.type == "external" %} {% include_cached external.html lang=l %}{% endif %}</a></dt>
-            {%- if std.translator -%}
-            <dd>{% include_cached t.html t='Translator:' lang=l hideTranslationHints=true %} {{std.translator}}</dd>
-            {%- endif -%}
-            <dd lang="en">
-              English title: <i>{{std.en_title}}</i>
-            </dd>
-          </div>
-  {%- if forloop.last %}
-        </dl>
-      </dd>
-    </div>
-  {% endif -%}
+      <div>
+        <dt><a href="{{ resource.url }}"{% if resource.title %}>{{ resource.title }}{% else %} lang="en">{{ resource.en_title }}{% endif %}{% if resource.type == "external" %} {% include_cached external.html lang=l %}{% endif %}</a></dt>
+        {%- if resource.translators -%}
+        <dd>
+          {% include_cached peoplelist.html label=translatorslabel people=resource.translators %}
+          {% include_cached peoplelist.html label=contributorslabel people=resource.contributors %}
+        </dd>
+        {%- endif -%}
+        <dd lang="en">
+          English title: <i>{{resource.en_title}}</i>
+        </dd>
+      </div>
+  {%- if forloop.last -%}
+    </dl>
+  {%- endif -%}
+{%- endfor -%}
+
+{% assign stds = site.data.standards-translations | where_exp: "item", "item.lang == l and item.type == 'authorized' or item.type == 'unofficial'" %}
+{% for std in stds %}
+  {% assign std_data = site.data.standards | where_exp: "item", "item.standard == std.standard and item.standard_version == std.standard_version" | first %}
+  {%- if forloop.first -%}
+    <h3>{% include_cached t.html t='Standards/Guidelines' lang=l hideTranslationHints=true %}</h3>
+    <dl lang="{{l}}" class="translations">
+  {%- endif -%}
+      <div>
+        <dt><a href="{{std.url}}"{%if std.title %}>{{ std.title }}{% else %} lang="en">{{std_data.title}}{%endif%}{% if std.type == "external" %} {% include_cached external.html lang=l %}{% endif %}</a></dt>
+        {% case std.type %}
+          {% when "authorized" %}
+            <dd><span class="translation-level translation-level--authorized" lang="en">{% include_cached t.html t='Authorized Translation' lang=l hideTranslationHints=true %}</span></dd>
+          {% when "unofficial" %}
+            <dd><span class="translation-level translation-level--unofficial" lang="en">{% include_cached t.html t='Unofficial Translation' lang=l hideTranslationHints=true %}</span></dd>
+        {% endcase %}
+        {%- if std.translator -%}
+        <dd>{% include_cached t.html t='Translator:' lang=l hideTranslationHints=true %} {{std.translator}}</dd>
+        {%- endif -%}
+        <dd lang="en">English title: <i>{{std_data.title}}</i></dd>
+      </div>
+  {%- if forloop.last -%}
+    </dl>
+  {%- endif -%}
 {% endfor %}
 
 {% assign videos = site.data.video-metadata | where_exp: "item", "item.subtitles contains l and item.name.en and item.main-page" | sort: "main-page" %}
@@ -419,31 +230,29 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
   {%- assign alldocs=site.documents | concat: site.pages -%}
   {%- assign t-video-page=alldocs | where: "ref", video.main-page | where: "lang", l | first -%}
   {%- if forloop.first -%}
-    <div>
-      <dt>{% include_cached t.html t='Video Subtitles' lang=l hideTranslationHints=true %}</dt>
-      <dd>
-        <dl lang="{{l}}">
+    <h3>{% include_cached t.html t='Video Subtitles' lang=l hideTranslationHints=true %}</h3>
+    <dl lang="{{l}}" class="translations">
   {%- endif -%}
-          <div>
-            <dt>
-            <a href="{% if t-video-page %}{{ t-video-page.url | relative_url }}"{% else %}{{ video.main-page | relative_url }}" lang="en"{% endif %}>
-            {% if video.name[l] %}{{ video.name[l]}}{% else %}<span lang="en">{{ video.name.en }}</span>{% endif %}
-            </a>
-            </dt>
-            <dd lang="en">{% if video.name[l] %}English title: <i>{{ video.name.en }}</i>{% endif %}</dd>
-          </div>
-  {%- if forloop.last %}
-        </dl>
-      </dd>
-    </div>
-  {% endif -%}
+      <div>
+        <dt>
+        <a href="{% if t-video-page %}{{ t-video-page.url | relative_url }}"{% else %}{{ video.main-page | relative_url }}" lang="en"{% endif %}>
+        {% if video.name[l] %}{{ video.name[l]}}{% else %}<span lang="en">{{ video.name.en }}</span>{% endif %}
+        </a>
+        </dt>
+        <dd lang="en">{% if video.name[l] %}English title: <i>{{ video.name.en }}</i>{% endif %}</dd>
+      </div>
+  {%- if forloop.last -%}
+    </dl>
+  {%- endif -%}
 {% endfor %}
 </dl>
 
 {% include excol.html type="end" %}
+{:/}
 
 {% endif %}
 {% endfor %}
+
 
 ## Other WAI Translations Listings
 
