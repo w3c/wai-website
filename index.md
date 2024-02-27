@@ -58,7 +58,7 @@ inline_css: |
         {%- for post in site.posts -%}
           <article class="news-teaser">
               <h3>{%comment%}<a href="{{ post.url | relative_url }}">{%endcomment%}{{post.title}}{%comment%}</a>{%endcomment%}</h3>
-              <p><small>({{post.date | date: "%Y-%m-%d"}})</small></p>
+              <p><small>({{post.date | date: "%Y-%b-%d"}})</small></p>
               {{ post.content | markdownify }}
           </article>
           {%- if forloop.index == 7 -%}
