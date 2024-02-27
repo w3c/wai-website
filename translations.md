@@ -11,12 +11,12 @@ sidebaricon: translations
 github:
   repository: w3c/wai-website
   path: translations.md
-  
+
 description: Translations of current accessibility standards and other resources from the W3C Web Accessibility Initiative (WAI).
 image: /content-images/social-translations.png
 
 teaser_text: Web accessibility resources in multiple languages. Translations of W3C Web Accessibility Initiative (WAI) resources covering strategies, standards, and support to make the Web accessible to people with disabilities.
- 
+
 
 feedbackmail: wai@w3.org
 footer: |
@@ -44,6 +44,19 @@ inline_css: |
     background-color: var(--cloudy-subtle);
     color: #000;
   }
+
+subtitles_only:
+  - video_id: video-introduction
+    langs:
+      - fa
+      - gu
+      - hi
+      - hu
+      - it
+      - kok
+      - ml
+      - mr
+      - te
 
 other_resources:
   - lang: "fr"
@@ -111,7 +124,7 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 {% assign lang2=site.pages | where_exp:"item", "item.lang != 'en'" | where_exp:"item", "item.lang !=  nil" | map: "lang" %}
 {% assign lang3 = site.data.standards-translations | where_exp: "item", "item.type == 'authorized' or item.type == 'unofficial'" | map: "lang" %}
 
-{% assign video-translations=site.data.video-metadata | where_exp: "item", "item.name.en and item.main-page" | map: "subtitles" %}
+{% assign video-translations=page.subtitles_only | map: "langs" %}
 {%- for video in video-translations -%}
 {%- for video-lang in video -%}
 {%- if forloop.first and forloop.parentloop.first -%}{% assign lang4 = video-lang %}{% else %}{% assign lang4 = lang4 | append: "," | append: video-lang %}{% endif -%}
@@ -225,27 +238,26 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
   {%- endif -%}
 {% endfor %}
 
-{% assign videos = site.data.video-metadata | where_exp: "item", "item.subtitles contains l and item.name.en and item.main-page" | sort: "main-page" %}
+{% assign videos = page.subtitles_only | where_exp: "item", "item.langs contains l" %}
 {% for video in videos %}
+  {%- assign video-data=site.data.video-metadata | where: "id", video.video_id | first -%}
   {%- assign alldocs=site.documents | concat: site.pages -%}
-  {%- assign t-video-page=alldocs | where: "ref", video.main-page | where: "lang", l | first -%}
   {%- if forloop.first -%}
     <h3>{% include_cached t.html t='Video Subtitles' lang=l hideTranslationHints=true %}</h3>
     <dl lang="{{l}}" class="translations">
   {%- endif -%}
       <div>
         <dt>
-        <a href="{% if t-video-page %}{{ t-video-page.url | relative_url }}"{% else %}{{ video.main-page | relative_url }}" lang="en"{% endif %}>
-        {% if video.name[l] %}{{ video.name[l]}}{% else %}<span lang="en">{{ video.name.en }}</span>{% endif %}
+        <a href="{{ video-data.main-page | relative_url }}">
+        {% if video-data.name[l] %}{{ video-data.name[l]}}{% else %}<span lang="en">{{ video-data.name.en }}</span>{% endif %}
         </a>
         </dt>
-        <dd lang="en">{% if video.name[l] %}English title: <i>{{ video.name.en }}</i>{% endif %}</dd>
+        <dd lang="en">{% if video-data.name[l] %}English title: <i>{{ video-data.name.en }}</i>{% endif %}</dd>
       </div>
   {%- if forloop.last -%}
     </dl>
   {%- endif -%}
 {% endfor %}
-</dl>
 
 {% include excol.html type="end" %}
 {:/}
