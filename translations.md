@@ -28,6 +28,9 @@ inline_css: |
   dl.translations > div {
     margin-block-end: 1em;
   }
+  dl.translations h4 + div {
+    margin-inline-start: 32px;
+  }
   .translation-level {
     background-color: rgba(206, 205, 205, 0.5);
     border-radius: 0.25rem;
@@ -160,30 +163,26 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
   {%- endif -%}
   {%- if pages.name -%}
       <div>
-        <dt>{% include_cached resource-title.html to=pages.name lang=l %}</dt>
-        <dd>
-          <dl>
+        <h4>{% include_cached resource-title.html to=pages.name lang=l %}</h4>
   {% endif %}
   {% for p in pages.items %}
-            <div>
-              <dt><a href="{{ p.url | relative_url }}">{{ p.title }}</a></dt>
-              <dd>
-                {%- capture translatorslabel %}{% include_cached t.html t='Translator:' lang=l %}{%- endcapture %}
-                {% include_cached peoplelist.html label=translatorslabel people=p.translators %}
-                {%- capture contributorslabel %}{% include_cached t.html t='Contributor:' lang=l%}{%- endcapture %}
-                {% include_cached peoplelist.html label=contributorslabel people=p.contributors %}
-              </dd>
-              <dd lang="en">
-                {%- assign o1=site.documents | where: "ref", p.ref | where: "lang", "en" -%}
-                {%- assign o2=site.pages | where: "ref", p.ref | where: "lang", "en" -%}
-                {%- assign original = o1 | concat: o2 | sort: "title" -%}
-                English title: <i>{{original.first.title}}</i>
-              </dd>
-            </div>
+        <div>
+          <dt><a href="{{ p.url | relative_url }}">{{ p.title }}</a></dt>
+          <dd>
+            {%- capture translatorslabel %}{% include_cached t.html t='Translator:' lang=l %}{%- endcapture %}
+            {% include_cached peoplelist.html label=translatorslabel people=p.translators %}
+            {%- capture contributorslabel %}{% include_cached t.html t='Contributor:' lang=l%}{%- endcapture %}
+            {% include_cached peoplelist.html label=contributorslabel people=p.contributors %}
+          </dd>
+          <dd lang="en">
+            {%- assign o1=site.documents | where: "ref", p.ref | where: "lang", "en" -%}
+            {%- assign o2=site.pages | where: "ref", p.ref | where: "lang", "en" -%}
+            {%- assign original = o1 | concat: o2 | sort: "title" -%}
+            English title: <i>{{original.first.title}}</i>
+          </dd>
+        </div>
   {% endfor %}
   {% if pages.name %}
-          </dl>
-        </dd>
       </div>
   {% endif %}
   {%- if forloop.last -%}
