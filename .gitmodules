@@ -154,10 +154,6 @@
 	path = _external/resources/wai-shared-experiences
 	url = https://github.com/w3c/wai-shared-experiences.git
 	branch = master
-[submodule "_external/resources/wai-customize-design"]
-	path = _external/resources/wai-customize-design
-	url = https://github.com/w3c/wai-customize-design.git
-	branch = master
 [submodule "_external/resources/wai-sitemap"]
 	path = _external/resources/wai-sitemap
 	url = https://github.com/w3c/wai-sitemap.git
