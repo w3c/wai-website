@@ -170,10 +170,6 @@
 	path = _external/resources/wai-eval-standards
 	url = https://github.com/w3c/wai-eval-standards.git
 	branch = master
-[submodule "_external/resources/wai-intro-act"]
-	path = _external/resources/wai-intro-act
-	url = https://github.com/w3c/wai-intro-act.git
-	branch = master
 [submodule "_external/resources/wai-video-standards-and-benefits"]
 	path = _external/resources/wai-video-standards-and-benefits
 	url = https://github.com/w3c/wai-video-standards-and-benefits.git
