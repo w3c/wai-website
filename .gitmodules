@@ -146,10 +146,6 @@
 	path = _external/resources/wai-about-wai
 	url = https://github.com/w3c/wai-about-wai.git
 	branch = master
-[submodule "_external/resources/wai-wcag-mob-overlap"]
-	path = _external/resources/wai-wcag-mob-overlap
-	url = https://github.com/w3c/wai-wcag-mob-overlap.git
-	branch = master
 [submodule "_external/resources/wai-shared-experiences"]
 	path = _external/resources/wai-shared-experiences
 	url = https://github.com/w3c/wai-shared-experiences.git
