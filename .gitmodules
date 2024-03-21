@@ -2,10 +2,6 @@
 	path = _external/data
 	url = https://github.com/w3c/wai-website-data.git
 	branch = master
-[submodule "_external/resources/wai-inclusion"]
-	path = _external/resources/wai-inclusion
-	url = https://github.com/w3c/wai-inclusion.git
-	branch = gh-pages
 [submodule "_external/resources/wai-bcase"]
 	path = _external/resources/wai-bcase
 	url = https://github.com/w3c/wai-bcase.git
