@@ -82,10 +82,6 @@
 	path = _external/resources/wai-eval-report-templates
 	url = https://github.com/w3c/wai-eval-report-templates.git
 	branch = master
-[submodule "_external/resources/wai-combined-expertise"]
-	path = _external/resources/wai-combined-expertise
-	url = https://github.com/w3c/wai-combined-expertise.git
-	branch = master
 [submodule "_external/resources/wai-InvolveUsersAll"]
 	path = _external/resources/wai-InvolveUsersAll
 	url = https://github.com/w3c/wai-InvolveUsersAll.git
