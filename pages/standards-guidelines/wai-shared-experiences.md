@@ -1,6 +1,7 @@
 ---
 title: "Shared Web Experiences: Barriers Common to Mobile Device Users and People with Disabilities"
 title_html: "Shared Web Experiences:<br>Barriers Common to Mobile Device Users and People with Disabilities"
+lang: en
 permalink: /standards-guidelines/shared-experiences/
 github:
   repository: w3c/wai-website

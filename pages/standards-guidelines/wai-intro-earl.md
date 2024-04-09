@@ -1,5 +1,6 @@
 ---
 title: Evaluation and Report Language (EARL) Overview
+lang: en
 permalink: /standards-guidelines/earl/
 layout: default
 github:

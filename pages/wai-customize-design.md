@@ -1,5 +1,6 @@
 ---
 title: How to Change Text Size or Colors
+lang: en
 layout: default
 parent: "/"
 permalink: /meta/customize/
