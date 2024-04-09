@@ -28,7 +28,7 @@ inline_css: |
   dl.translations > div {
     margin-block-end: 1em;
   }
-  dl.translations h4 + div {
+  dl.translations .resource div {
     margin-inline-start: 32px;
   }
   .translation-level {
@@ -162,7 +162,7 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
     <dl lang="{{l}}" class="translations">
   {%- endif -%}
   {%- if pages.name -%}
-      <div>
+      <div class="resource">
         <h4>{% include_cached resource-title.html to=pages.name lang=l %}</h4>
   {% endif %}
   {% for p in pages.items %}
