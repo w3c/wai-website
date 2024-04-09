@@ -59,6 +59,7 @@ subtitles_only:
       - kok
       - ml
       - mr
+      - pl
       - te
 
 other_resources:
