@@ -41,7 +41,7 @@ repository: w3c/wai-website
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
 # remote_themes are an extension for Jekyll running in GitHub pages and are a GitHub repo 
-remote_theme: w3c/wai-website-theme
+remote_theme: w3c/wai-website-theme@update-github-issue
 
 paginate: 5
 paginate_path: "/news/:num/"
