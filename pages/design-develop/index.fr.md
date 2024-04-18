@@ -15,7 +15,7 @@ contributors:
 
 github:
   repository: w3c/wai-website
-  path: "pages/design-develop-overview/index.fr.md"
+  path: "pages/design-develop/index.fr.md"
   label: wai-design-develop
 
 permalink: /design-develop/fr
