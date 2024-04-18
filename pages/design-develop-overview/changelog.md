@@ -7,7 +7,7 @@ lang: en
 
 github:
   repository: w3c/wai-website
-  path: "pages/wai-design-develop-overview/changelog.md"
+  path: "pages/design-develop-overview/changelog.md"
   label: design-develop
 
 permalink: /design-develop/changelog/

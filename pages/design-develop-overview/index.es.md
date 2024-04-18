@@ -13,7 +13,7 @@ translators:
 
 github:
   repository: w3c/wai-website
-  path: "pages/wai-design-develop-overview/index.es.md"
+  path: "pages/design-develop-overview/index.es.md"
   label: wai-design-develop
 
 permalink: /design-develop/es
