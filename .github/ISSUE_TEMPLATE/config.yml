@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Translations intents
+    url: https://github.com/w3c/wai-translations/issues/new/choose
+    about: Want to translate a WAI resource? Use this link to declare your intent.
+  - name: WCAG
+    url: https://github.com/w3c/wcag/issues/
+    about: WCAG discussions take place in the repository hosting WCAG data.
+  - name: WCAG-EM Report Tool
+    url: https://github.com/w3c/wai-wcag-em-report-tool/issues/new/choose
+    about: Issues concerning the WCAG-EM Report Tool should be reported using this link.

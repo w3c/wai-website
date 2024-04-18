@@ -1,0 +1,26 @@
+name: "Content issue"
+description: Report a problem with content on WAI website.
+body:
+  - type: input
+    id: wai-url
+    attributes:
+      label: Resource URL
+      description: The link to the page this issue is about or, if it's about multiple pages, an example or most important page.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        The following field is prefilled and should not be modified. Please click "Submit new issue".
+  - type: input
+    id: wai-resource-id
+    attributes:
+      label: Resource Shortname
+      description: Set automatically. Do not modify.
