@@ -142,10 +142,6 @@
 	path = _external/resources/wai-plan-policies-overview
 	url = https://github.com/w3c/wai-plan-policies-overview.git
 	branch = master
-[submodule "_external/resources/wai-teach-advocate-overview"]
-	path = _external/resources/wai-teach-advocate-overview
-	url = https://github.com/w3c/wai-teach-advocate-overview.git
-	branch = master
 [submodule "_external/resources/wai-develop-training"]
 	path = _external/resources/wai-develop-training
 	url = https://github.com/w3c/wai-develop-training.git
