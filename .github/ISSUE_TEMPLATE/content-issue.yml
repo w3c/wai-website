@@ -20,7 +20,7 @@ body:
         ---
         The following field is prefilled and should not be modified. Please click "Submit new issue".
   - type: input
-    id: wai-id
+    id: wai-resource-id
     attributes:
       label: Resource Shortname
       description: Set automatically. Do not modify.
