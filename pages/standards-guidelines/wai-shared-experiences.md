@@ -6,6 +6,7 @@ permalink: /standards-guidelines/shared-experiences/
 github:
   repository: w3c/wai-website
   path: 'pages/standards-guidelines/wai-shared-experiences.md'
+  label: wai-shared-experiences
 doc-note-type: archived
 doc-note-message: >
   <p><strong>If you want current information on <em>mobile accessibility</em> &mdash; that is, people with disabilities using content on mobile devices, see <a  href="https://www.w3.org/WAI/mobile/">https://www.w3.org/WAI/mobile/</a></strong></p>

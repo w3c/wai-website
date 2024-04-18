@@ -7,6 +7,7 @@ layout: default
 github:
   repository: w3c/wai-website
   path: 'pages/standards-guidelines/wai-wcag-mob-overlap.md'
+  label: wai-wcag-mob-overlap
 doc-note-type: archived
 doc-note-message-md: >
   This page introduces how:

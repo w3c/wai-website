@@ -5,6 +5,7 @@ lang: en
 github:
   repository: w3c/wai-website
   path: 'pages/standards-guidelines/wai-intro-act.md'
+  label: wai-intro-act
 feedbackmail: wai@w3.org
 footer: >
   <p><strong>Date:</strong> Updated 30 October 2020.</p>

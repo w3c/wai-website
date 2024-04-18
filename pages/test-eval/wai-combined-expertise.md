@@ -6,6 +6,7 @@ layout: default
 github:
   repository: w3c/wai-website
   path: 'pages/test-eval/wai-combined-expertise.md'
+  label: wai-combined-expertise
 footer: >
   <p><strong>Date:</strong> Versions and links updated 21 March 2024. Substantive content updated 2002.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Brewer">Judy Brewer</a>.</p>

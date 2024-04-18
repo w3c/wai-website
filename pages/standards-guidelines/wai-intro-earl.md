@@ -6,6 +6,7 @@ layout: default
 github:
   repository: w3c/wai-website
   path: 'pages/standards-guidelines/wai-intro-earl.md'
+  label: wai-intro-earl
 feedbackmail: wai@w3.org
 footer: >
   <p><strong>Date:</strong> Updated 3 July 2018. First published 23 July 2005.</p>

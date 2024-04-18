@@ -1,7 +1,3 @@
-pronunciation:
-  - 'wai-pronunciation'
-tips:
-  - 'wai-tips'
 customize-design:
   - 'wai-customize-design'
 shared-experiences:
@@ -14,3 +10,5 @@ combined-expertise:
   - 'wai-combined-expertise'
 inclusion:
   - 'wai-inclusion'
+wcag-mob-overlap:
+  - 'wai-wcag-mob-overlap'
