@@ -3,6 +3,6 @@ _site
 .jekyll-metadata
 .DS_Store
 .netlify
+.bundle/
+.vscode/
 node_modules/
-
-C:\\Users\\steve\\AppData\\Local\\lighthouse*
