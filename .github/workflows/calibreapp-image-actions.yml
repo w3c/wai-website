@@ -21,4 +21,4 @@ jobs:
         uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          ignorePaths: "!(_site)/**"
+          ignorePaths: "!(content-images)/**"
