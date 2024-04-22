@@ -12,3 +12,11 @@ inclusion:
   - 'wai-inclusion'
 wcag-mob-overlap:
   - 'wai-wcag-mob-overlap'
+design-develop:
+  - 'wai-design-develop'
+first-aid:
+  - 'wai-first-aid'
+teach-advocate:
+  - 'wai-teach-advocate'
+wcag-em:
+  - 'wai-wcag-em'
