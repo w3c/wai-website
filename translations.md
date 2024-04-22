@@ -17,7 +17,6 @@ image: /content-images/social-translations.png
 
 teaser_text: Web accessibility resources in multiple languages. Translations of W3C Web Accessibility Initiative (WAI) resources covering strategies, standards, and support to make the Web accessible to people with disabilities.
 
-
 feedbackmail: wai@w3.org
 footer: |
   <p>Translations managers: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin. Programmers: Eric Eggert and Rémi Bétin.</p>
