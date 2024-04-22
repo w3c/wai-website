@@ -27,6 +27,3 @@ package = "@netlify/plugin-lighthouse"
 [plugins.inputs.settings]
 preset = "desktop" # default is mobile
 locale = "en"
-# to audit an HTML file other than index.html in a sub path of the build directory
-#[[plugins.inputs.audits]]
-#path = "pages/contact.html"
