@@ -1,12 +1,24 @@
 name: Compress images
-on: pull_request
+on:
+  pull_request:
+  # Run Image Actions when JPG, JPEG, PNG or WebP files are added or changed.
+  # See https://help.github.com/en/actions/automating-your-workflow-with-github-actions/workflow-syntax-for-github-actions#onpushpull_requestpaths for reference.
+  paths:
+    - '**.jpg'
+    - '**.jpeg'
+    - '**.png'
+    - '**.webp'
 jobs:
   build:
     name: calibreapp/image-actions
+    permissions:
+      pull-requests: write
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - name: calibreapp/image-actions
-        uses: docker://calibreapp/github-image-actions
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: calibreapp/image-actions@main
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          ignorePaths: "!(_site)/**"
