@@ -164,7 +164,7 @@ Provide details about what you were trying to do, and why it was difficult or im
 *   **color combinations** - It's hard to read some of the product descriptions because the colors make it hard to see the text. I have problems with blue/yellow and blue/orange color combinations.
 *   **alt text** - I'm using a screen reader to listen to your website. Screen readers can’t read images; they read the alt text from the code. The images on this page are missing alt text. For example, I hear "240.gif" which my friend tells me is an image for Special Discounts.
 *   **distracting animations** - I found the home page very confusing and it was difficult to find the information I wanted with all the animated things all over the page. They kept drawing my attention away from what I was trying to read.
-*   **captions** - I was told there are good video tutorials on your website. But I cannot get much information from the videos because I can't hear them. They videos are missing captions.
+*   **captions** - I was told there are good video tutorials on your website. But I cannot get much information from the videos because I can't hear them. The videos are missing captions.
 
 {::nomarkdown}
 {% include box.html type="end" %}
