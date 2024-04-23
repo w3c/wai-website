@@ -3,52 +3,51 @@ name: Deploy
 on:
   release:
     types: [created]
-  
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
       with:
         submodules: true
+        fetch-depth: 0
     - name: Set up Ruby 2.6.2
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '2.6.2' # matches Netlify of ruby version
-#        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Update Externals
       run: |
         git submodule update --remote
     - name: Commit changed files
-      uses: stefanzweifel/git-auto-commit-action@v2.1.0
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Apply automatic changes
         branch: master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build and test with Jekyll
       run: |
         export WAI_LIVE_SITE=true
-        gem install bundler -v '2.4.22'
-        bundle install --jobs 4 --retry 3
         bundle exec jekyll build --config "_config.yml,_config_prod.yml" --profile
     - name: Generate list of resources
       run: |
         find ./_site -type f | sed 's,^\.\/_site,,' | sort > ./_site/manifest.txt
     - name: Publish to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: _site
     - name: Zip Files
-      uses: montudor/action-zip@v0.1.0
+      uses: montudor/action-zip@v1
       with:
         args: zip -r build.zip ./_site
     - name: Upload zip file to release
-      uses: svenstaro/upload-release-action@v1-release
+      uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: build.zip
@@ -59,27 +58,8 @@ jobs:
       run: sleep 90s
       shell: bash
     - name: Update URL mapping on W3C site
-      uses: fjogeleit/http-request-action@master
+      uses: fjogeleit/http-request-action@v1
       with:
         url: 'https://www.w3.org/services/update-wai-map'
         method: 'POST'
         timeout: 70000
-    # - name: Check Links
-    #   uses: peter-evans/link-checker@v1.0.0
-    #   with:
-    #     args: -v -d https://www.w3.org/ -r _site
-    # - name: Upload link check report to release
-    #   uses: svenstaro/upload-release-action@v1-release
-    #   with:
-    #     repo_token: ${{ secrets.GITHUB_TOKEN }}
-    #     file: ./link-checker/out.md
-    #     asset_name: link-report.md
-    #     tag: ${{ github.ref }}
-    #     overwrite: true
-    # - name: Create Issue From File
-    #   uses: peter-evans/create-issue-from-file@v1.0.1
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     ISSUE_TITLE: Link Checker Report
-    #     ISSUE_CONTENT_FILEPATH: ./link-checker/out.md
-    #     ISSUE_LABELS: report, automated issue

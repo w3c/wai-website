@@ -22,7 +22,7 @@ jobs:
     - name: Check confirmation
       run: |
         test "yes" == "${{ github.event.inputs.areYouSure }}"
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         ref: gh-pages
         fetch-depth: 10
@@ -31,7 +31,7 @@ jobs:
         git reset --hard ${{ github.event.inputs.targetRef }}
         git push -f
     - name: Update URL mapping on W3C site
-      uses: fjogeleit/http-request-action@master
+      uses: fjogeleit/http-request-action@v1
       with:
         url: 'https://www.w3.org/services/update-wai-map'
         method: 'POST'

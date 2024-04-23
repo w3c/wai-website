@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Update URL mapping on W3C site
-      uses: fjogeleit/http-request-action@master
+      uses: fjogeleit/http-request-action@v1
       with:
         url: 'https://www.w3.org/services/update-wai-map'
         method: 'POST'
