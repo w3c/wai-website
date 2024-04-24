@@ -24,3 +24,5 @@ evaluation-tools:
   - 'wai-evaluation-tools'
 planning-policies:
   - 'wai-planning-policies'
+conformance-eval:
+  - 'wai-conformance-eval'
