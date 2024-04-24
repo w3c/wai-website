@@ -22,3 +22,5 @@ wcag-em:
   - 'wai-wcag-em'
 evaluation-tools:
   - 'wai-evaluation-tools'
+planning-policies:
+  - 'wai-planning-policies'
