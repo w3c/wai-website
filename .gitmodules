@@ -58,17 +58,9 @@
 	path = _external/resources/wai-easy-checks
 	url = https://github.com/w3c/wai-easy-checks.git
 	branch = master
-[submodule "_external/resources/wai-eval-tools-overview"]
-	path = _external/resources/wai-eval-tools-overview
-	url = https://github.com/w3c/wai-eval-tools-overview.git
-	branch = master
 [submodule "_external/resources/wai-selecting-eval-tools"]
 	path = _external/resources/wai-selecting-eval-tools
 	url = https://github.com/w3c/wai-selecting-eval-tools.git
-	branch = master
-[submodule "_external/resources/wai-conformance-eval-overview"]
-	path = _external/resources/wai-conformance-eval-overview
-	url = https://github.com/w3c/wai-conformance-eval-overview.git
 	branch = master
 [submodule "_external/resources/wai-eval-report-templates"]
 	path = _external/resources/wai-eval-report-templates
@@ -106,10 +98,6 @@
 	path = _external/resources/wai-intro-linking
 	url = https://github.com/w3c/wai-intro-linking.git
 	branch = gh-pages
-[submodule "_external/resources/wai-std-harmonization"]
-	path = _external/resources/wai-std-harmonization
-	url = https://github.com/w3c/wai-std-harmonization.git
-	branch = master
 [submodule "_external/resources/wai-audiences"]
 	path = _external/resources/wai-audiences
 	url = https://github.com/w3c/wai-audiences.git
@@ -125,10 +113,6 @@
 [submodule "_external/resources/wai-sitemap"]
 	path = _external/resources/wai-sitemap
 	url = https://github.com/w3c/wai-sitemap.git
-	branch = master
-[submodule "_external/resources/wai-plan-policies-overview"]
-	path = _external/resources/wai-plan-policies-overview
-	url = https://github.com/w3c/wai-plan-policies-overview.git
 	branch = master
 [submodule "_external/resources/wai-develop-training"]
 	path = _external/resources/wai-develop-training
@@ -150,10 +134,6 @@
 	path = _external/resources/wai-cognitive
 	url = https://github.com/w3c/wai-cognitive.git
 	branch = master
-[submodule "_external/resources/wai-personalization-standards"]
-	path = _external/resources/wai-personalization-standards
-	url = https://github.com/w3c/wai-personalization-standards.git
-	branch = master
 [submodule "_external/resources/wai-mobile"]
 	path = _external/resources/wai-mobile
 	url = https://github.com/w3c/wai-mobile.git
@@ -161,10 +141,6 @@
 [submodule "_external/resources/wai-media-guide"]
 	path = _external/resources/wai-media-guide
 	url = https://github.com/w3c/wai-media-guide.git
-	branch = master
-[submodule "_external/resources/wai-pronunciation"]
-	path = _external/resources/wai-pronunciation
-	url = https://github.com/w3c/wai-pronunciation.git
 	branch = master
 [submodule "_external/resources/wcag-act-rules"]
 	path = _external/resources/wcag-act-rules
