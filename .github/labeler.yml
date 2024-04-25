@@ -26,3 +26,5 @@ planning-policies:
   - 'wai-planning-policies'
 conformance-eval:
   - 'wai-conformance-eval'
+wai-adapt:
+  - 'wai-adapt'
