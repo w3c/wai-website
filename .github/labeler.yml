@@ -28,3 +28,5 @@ conformance-eval:
   - 'wai-conformance-eval'
 wai-adapt:
   - 'wai-adapt'
+intro-aria:
+  - 'wai-intro-aria'
