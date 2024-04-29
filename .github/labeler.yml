@@ -36,3 +36,5 @@ std-harmonization:
   - 'wai-std-harmonization'
 cognitive:
   - 'wai-cognitive'
+resources-list:
+  - 'wai-resources-list'
