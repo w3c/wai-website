@@ -122,7 +122,7 @@ The WAI-ARIA documents follow the W3C format for technical specifications which 
 
 ## Who develops WAI-ARIA
 
-The WAI-ARIA technical documents are developed by the Accessible Rich Internet Applications Working Group ([ARIA WG](/WAI/ARIA/)), which is part of the World Wide Web Consortium ([W3C](/)) Web Accessibility Initiative ([WAI](/WAI/)). For more information about the working group, see the [ARIA WG public page](/WAI/ARIA/).
+The WAI-ARIA technical documents are developed by the Accessible Rich Internet Applications Working Group ([ARIA WG](/WAI/ARIA/)), which is part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](/WAI/)). For more information about the working group, see the [ARIA WG public page](/WAI/ARIA/).
 
 [[How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute]](/standards-guidelines/w3c-process/) describes formal periods for public review. Opportunities for review and comment of WAI documents are announced on the [WAI home page](/WAI/) and [WAI Interest Group](/WAI/IG/) mailing list. An email address for sending comments is included in the "Status of this Document" section.
 
