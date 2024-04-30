@@ -145,9 +145,6 @@
 [submodule "_external/resources/wai-fundamentals-overview"]
 	path = _external/resources/wai-fundamentals-overview
 	url = https://github.com/w3c/wai-fundamentals-overview.git
-[submodule "_external/resources/wai-InvolveUsersEval"]
-	path = _external/resources/wai-InvolveUsersEval
-	url = https://github.com/w3c/wai-InvolveUsersEval.git
 [submodule "_external/resources/wai-arrm"]
 	path = _external/resources/wai-arrm
 	url = https://github.com/w3c/wai-arrm.git

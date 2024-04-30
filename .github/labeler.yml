@@ -40,3 +40,5 @@ resources-list:
   - 'wai-resources-list'
 eval-report-template:
   - 'wai-eval-report-template'
+involve-users-eval:
+  - 'wai-involve-users-eval'
