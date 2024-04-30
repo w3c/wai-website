@@ -70,10 +70,6 @@
 	path = _external/resources/wai-presentations2all
 	url = https://github.com/w3c/wai-presentations2all.git
 	branch = master
-[submodule "_external/resources/wai-std-gl-overview"]
-	path = _external/resources/wai-std-gl-overview
-	url = https://github.com/w3c/wai-std-gl-overview.git
-	branch = master
 [submodule "_external/resources/wai-intro-aria"]
 	path = _external/resources/wai-intro-aria
 	url = https://github.com/w3c/wai-intro-aria.git
