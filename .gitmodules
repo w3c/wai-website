@@ -130,10 +130,6 @@
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
 	branch = master
-[submodule "_external/resources/wai-cognitive"]
-	path = _external/resources/wai-cognitive
-	url = https://github.com/w3c/wai-cognitive.git
-	branch = master
 [submodule "_external/resources/wai-mobile"]
 	path = _external/resources/wai-mobile
 	url = https://github.com/w3c/wai-mobile.git
