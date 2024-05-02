@@ -62,10 +62,6 @@
 	path = _external/resources/wai-selecting-eval-tools
 	url = https://github.com/w3c/wai-selecting-eval-tools.git
 	branch = master
-[submodule "_external/resources/wai-eval-report-templates"]
-	path = _external/resources/wai-eval-report-templates
-	url = https://github.com/w3c/wai-eval-report-templates.git
-	branch = master
 [submodule "_external/resources/wai-InvolveUsersAll"]
 	path = _external/resources/wai-InvolveUsersAll
 	url = https://github.com/w3c/wai-InvolveUsersAll.git
@@ -73,10 +69,6 @@
 [submodule "_external/resources/wai-presentations2all"]
 	path = _external/resources/wai-presentations2all
 	url = https://github.com/w3c/wai-presentations2all.git
-	branch = master
-[submodule "_external/resources/wai-std-gl-overview"]
-	path = _external/resources/wai-std-gl-overview
-	url = https://github.com/w3c/wai-std-gl-overview.git
 	branch = master
 [submodule "_external/resources/wai-intro-aria"]
 	path = _external/resources/wai-intro-aria
@@ -90,14 +82,6 @@
 	path = _external/resources/wai-intro-wcag
 	url = https://github.com/w3c/wai-intro-wcag.git
 	branch = master
-[submodule "_external/resources/wai-intro-uaag"]
-	path = _external/resources/wai-intro-uaag
-	url = https://github.com/w3c/wai-intro-uaag.git
-	branch = master
-[submodule "_external/resources/wai-intro-linking"]
-	path = _external/resources/wai-intro-linking
-	url = https://github.com/w3c/wai-intro-linking.git
-	branch = gh-pages
 [submodule "_external/resources/wai-audiences"]
 	path = _external/resources/wai-audiences
 	url = https://github.com/w3c/wai-audiences.git
@@ -109,10 +93,6 @@
 [submodule "_external/resources/wai-about-wai"]
 	path = _external/resources/wai-about-wai
 	url = https://github.com/w3c/wai-about-wai.git
-	branch = master
-[submodule "_external/resources/wai-sitemap"]
-	path = _external/resources/wai-sitemap
-	url = https://github.com/w3c/wai-sitemap.git
 	branch = master
 [submodule "_external/resources/wai-develop-training"]
 	path = _external/resources/wai-develop-training
@@ -149,12 +129,6 @@
 [submodule "_external/resources/wai-fundamentals-overview"]
 	path = _external/resources/wai-fundamentals-overview
 	url = https://github.com/w3c/wai-fundamentals-overview.git
-[submodule "_external/resources/wai-InvolveUsersEval"]
-	path = _external/resources/wai-InvolveUsersEval
-	url = https://github.com/w3c/wai-InvolveUsersEval.git
-[submodule "_external/resources/wai-resource-list"]
-	path = _external/resources/wai-resource-list
-	url = https://github.com/w3c/wai-resource-list.git
 [submodule "_external/resources/wai-arrm"]
 	path = _external/resources/wai-arrm
 	url = https://github.com/w3c/wai-arrm.git

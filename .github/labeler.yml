@@ -36,3 +36,19 @@ std-harmonization:
   - 'wai-std-harmonization'
 cognitive:
   - 'wai-cognitive'
+resources-list:
+  - 'wai-resources-list'
+eval-report-template:
+  - 'wai-eval-report-template'
+involve-users-eval:
+  - 'wai-involve-users-eval'
+standards-guidelines:
+  - 'wai-standards-guidelines'
+intro-uaag:
+  - 'wai-intro-uaag'
+intro-linking:
+  - 'wai-intro-linking'
+sitemap:
+  - 'wai-sitemap'
+org-policies:
+  - 'wai-org-policies'
