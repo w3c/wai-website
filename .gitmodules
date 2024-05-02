@@ -82,10 +82,6 @@
 	path = _external/resources/wai-intro-wcag
 	url = https://github.com/w3c/wai-intro-wcag.git
 	branch = master
-[submodule "_external/resources/wai-intro-linking"]
-	path = _external/resources/wai-intro-linking
-	url = https://github.com/w3c/wai-intro-linking.git
-	branch = gh-pages
 [submodule "_external/resources/wai-audiences"]
 	path = _external/resources/wai-audiences
 	url = https://github.com/w3c/wai-audiences.git
