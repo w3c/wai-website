@@ -26,10 +26,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>Datum:</strong> Aktualizováno 30. dubna 2021. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Vyvinuto Pracovní skupinou pro vzdělání a osvětu (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-# Read Translations Notes for this resource at https://github.com/w3c/wai-std-gl-overview#readme
 ---
-
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Shrnutí" class="full" %}

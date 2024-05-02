@@ -25,8 +25,6 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>日期:</strong> 更新于2021年4月30日. CHANGELOG.</p>
   <p><strong>编辑:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>。</p>
   <p>由教育和外联工作组（<a href="https://www.w3.org/WAI/EO/">EOWG</a>）开发。</p>
-
-# Read Translations Notes for this resource at https://github.com/w3c/wai-std-gl-overview#readme
 ---
 
 

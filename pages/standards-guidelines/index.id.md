@@ -34,10 +34,7 @@ footer: >
   <p><strong>Tanggal:</strong> Diperbarui 29 Juni 2022. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Dikembangkan dengan masukan dari Kelompok Kerja Edukasi dan Pendampingan (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-# Read Translations Notes for this resource at https://github.com/w3c/wai-std-gl-overview#readme
 ---
-
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Ringkasan" class="full" %}

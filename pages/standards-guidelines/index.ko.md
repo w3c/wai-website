@@ -27,10 +27,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>날짜:</strong> 2021년 4월 30일 업데이트됨. CHANGELOG.</p>
   <p><strong>편집자:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>교육과 활동관련 실무 그룹인 (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)의 지원을 받아 제작되었습니다.</p>
-
-# Read Translations Notes for this resource at https://github.com/w3c/wai-std-gl-overview#readme
 ---
-
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}

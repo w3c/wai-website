@@ -28,8 +28,6 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>Date :</strong> Mis à jour le 29 février 2024. CHANGELOG.</p>
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Élaboré avec des contributions du groupe de travail « Éducation et Promotion » (Education and Outreach Working Group <a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-# Read Translations Notes for this resource at https://github.com/w3c/wai-std-gl-overview#readme
 ---
 
 {::nomarkdown}
