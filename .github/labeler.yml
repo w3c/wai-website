@@ -48,3 +48,5 @@ intro-uaag:
   - 'wai-intro-uaag'
 intro-linking:
   - 'wai-intro-linking'
+sitemap:
+  - 'wai-sitemap'
