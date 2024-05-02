@@ -50,3 +50,5 @@ intro-linking:
   - 'wai-intro-linking'
 sitemap:
   - 'wai-sitemap'
+org-policies:
+  - 'wai-org-policies'
