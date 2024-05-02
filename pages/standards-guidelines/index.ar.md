@@ -27,10 +27,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
   <p><strong>التاريخ:</strong> تم التحديث في 13 مارس 2019.</p>
   <p><strong>محرر:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p> تم تطويره بمساهمة فريق التعليم و التوعية (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-# Read Translations Notes for this resource at https://github.com/w3c/wai-std-gl-overview#readme
 ---
-
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="الملخص" class="full" %}
