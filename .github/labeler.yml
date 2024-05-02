@@ -44,3 +44,5 @@ involve-users-eval:
   - 'wai-involve-users-eval'
 standards-guidelines:
   - 'wai-standards-guidelines'
+intro-uaag:
+  - 'wai-intro-uaag'
