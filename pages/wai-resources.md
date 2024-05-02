@@ -436,7 +436,8 @@ Additional resources related to evaluation are listed in the [[Evaluating Web Ac
 
 - [How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and **Opportunities to Contribute**](/standards-guidelines/w3c-process/)
 
-![Illustration showing the guidelines for the different components, detailed description at https://www.w3.org/WAI/fundamentals/components/examples/#guide](https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png)
+{% assign longdesc_url = "/fundamentals/components/examples/#guide" | relative_url %}
+{% include image.html src="components/specs.png" alt="Illustration showing the guidelines for the different components" longdesc=longdesc_url %}
 
 {% include_cached excol.html type="end" %}
 

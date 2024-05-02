@@ -15,7 +15,7 @@ last_updated: 2024-02-29   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-std-gl-overview
+  repository: w3c/wai-website
   path: content/index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
   label: wai-standards-guidelines
 
