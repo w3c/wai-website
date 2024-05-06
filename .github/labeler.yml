@@ -54,3 +54,5 @@ org-policies:
   - 'wai-org-policies'
 eval-standards:
   - 'wai-eval-standards'
+components:
+  - 'wai-components'
