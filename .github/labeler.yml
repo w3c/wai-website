@@ -52,3 +52,5 @@ sitemap:
   - 'wai-sitemap'
 org-policies:
   - 'wai-org-policies'
+eval-standards:
+  - 'wai-eval-standards'
