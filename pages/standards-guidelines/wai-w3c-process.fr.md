@@ -31,7 +31,7 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 2 novembre 2020. Première publication : septembre 2006.</p>
+  <p><strong>Date :</strong> Mise à jour : 2 novembre 2020. Première publication en septembre 2006.</p>
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé avec les contributions du Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
@@ -40,7 +40,7 @@ footer: >
 {% include box.html type="start" h="2" title="Introduction" class="full" %}
 {:/}
 
-L'Initiative pour l'accessibilité du Web (WAI) élabore les règles en matière d'accessibilité du Web, les spécifications techniques et les ressources pédagogiques dans le but de rendre le Web accessible aux personnes en situation de handicap. Ce document présente comment WAI travaille selon un processus conçu pour :
+L'Initiative pour l'accessibilité du Web (WAI) élabore les règles en matière d'accessibilité du Web, les spécifications techniques et les ressources pédagogiques dans le but de rendre le Web accessible aux personnes en situation de handicap. Ce document présente comment WAI travaille selon un processus conçu pour :
 
 - assurer une large participation de la communauté et
 - encourager le développement du [consensus](https://www.w3.org/Consortium/Process/#Consensus).
@@ -78,14 +78,14 @@ Les standards du Web du W3C sont appelés « **Recommandations du W3C** ». WA
 
 ### Étapes importantes {#milestones}
 
-**Les « Ébauches des rédacteurs » (<i lang="en">Editor's Drafts</i> en anglais)** n'ont pas de statut officiel et ne représentent pas nécessairement le consensus d'un groupe de travail ; dit autrement, l'ébauche peut contenir des propositions sur lesquelles le groupe de travail ne n'est pas mis d'accord.
+**Les « Ébauches des rédacteurs » (<i lang="en">Editor's Drafts</i> en anglais)** n'ont pas de statut officiel et ne représentent pas nécessairement le consensus d'un groupe de travail ; dit autrement, l'ébauche peut contenir des propositions sur lesquelles le groupe de travail ne s'est pas mis d'accord.
 
 Les étapes importantes par lesquelles passe un « rapport technique » du W3C pour devenir une recommandation du W3C sont énumérées ci-dessous.
 {:#stages}
 
-1. {:#wd}![Versions de travail :]({{ "/content-images/w3c-process/wd.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Version de travail (<i lang="en">Working Draft</i> en anglais)** : les versions de travail sont publiés et annoncés dans le but de demander un examen et une participation de la communauté. Souvent, un groupe de travail souhaite recueillir des retours sur certaines questions en particulier. Habituellement, plusieurs versions de travail d'un rapport technique sont publiées.
+1. {:#wd}![Versions de travail :]({{ "/content-images/w3c-process/wd.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Version de travail (<i lang="en">Working Draft</i> en anglais)** : les versions de travail sont publiées et annoncées dans le but de demander un examen et une participation de la communauté. Souvent, un groupe de travail souhaite recueillir des retours sur certaines questions en particulier. Habituellement, plusieurs versions de travail d'un rapport technique sont publiées.
 2. {:#lcwd}![Rapport technique complet :]({{ "/content-images/w3c-process/lcwd.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Version de travail pour un examen large (<i lang="en">Wide Review Working Draft</i> en anglais)** : lorsqu'un groupe de travail pense avoir traité tous les commentaires et exigences techniques, il fournit le document complet pour examen par la communauté, et annonce que le document est prêt pour un examen large.
-3. {:#cr}![Utiliser un ordinateur avec un rapport technique :]({{ "/content-images/w3c-process/cr.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Recommandation candidate (<i lang="en">Wide Candidate Recommendation</i> en anglais)** : L'objectif principal du statut de "Recommandation candidate" est de s'assurer que le rapport technique peut être implémenté. W3C encourage les développeurs à utiliser le rapport technique dans leurs projets. Le rapport technique est stable à cette étape ; toutefois, il pourrait être modifié en fonction des résultats de l'implémentation.
+3. {:#cr}![Utiliser un ordinateur avec un rapport technique :]({{ "/content-images/w3c-process/cr.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Recommandation candidate (<i lang="en">Candidate Recommendation</i> en anglais)** : L'objectif principal du statut de "Recommandation candidate" est de s'assurer que le rapport technique peut être implémenté. W3C encourage les développeurs à utiliser le rapport technique dans leurs projets. Le rapport technique est stable à cette étape ; toutefois, il pourrait être modifié en fonction des résultats de l'implémentation.
 4. {:#pr}![Approuver le rapport technique :]({{ "/content-images/w3c-process/pr.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Proposition de recommandation (<i lang="en">Proposed Recommendation</i> en anglais)** : après des implémentations de  chaque fonctionnalité du rapport technique, W3C annonce qu'il s'agit désormais d'une « Proposition de recommandation ». À ce stade, le rapport est soumis aux membres du W3C pour être approuvé.
 5. {:#rec}![approved technical report:]({{ "/content-images/w3c-process/rec.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Recommandation du W3C (Standard du Web)** : Une fois que le rapport technique a reçu un soutien significatif de la part des membres du W3C, du directeur du W3C et du public, il est publié en tant que « Recommandation ». W3C encourage le déploiement à grande échelle de ses « Recommandations ».
 
