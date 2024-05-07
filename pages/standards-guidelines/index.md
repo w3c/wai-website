@@ -16,7 +16,7 @@ last_updated: 2024-02-29   # Put the date of this translation YYYY-MM-DD (with m
 
 github:
   repository: w3c/wai-website
-  path: content/index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
+  path: pages/standards-guidelines/index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
   label: wai-standards-guidelines
 
 permalink: /standards-guidelines/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
