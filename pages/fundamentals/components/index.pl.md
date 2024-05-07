@@ -85,7 +85,7 @@ Aby Internet był dostępny dla osób z&nbsp;niepełnosprawnościami, konieczne 
 ## Jak komponenty są ze sobą powiązane {#relate}
 
 {% assign longdesc_url = "/fundamentals/components/examples/pl#relate" | relative_url %}
-{% include image.html src="relate.pl.png" alt="Ilustruje, jak komponenty są powiązanie" longdesc=longdesc_url %}
+{% include image.html src="components/relate.pl.png" alt="Ilustruje, jak komponenty są powiązanie" longdesc=longdesc_url %}
 
 **Twórcy** stron internetowych zwykle używają **narzędzi autorskich** i narzędzi oceniających do tworzenia **treści** cyfrowych.
 
@@ -107,7 +107,7 @@ Między tymi komponentami istnieją istotne współzależności; to znaczy że k
 
 Gdy funkcje dostępności zostaną skutecznie zaimplementowane w jednym komponencie, istnieje większe prawdopodobieństwo, że zostaną wdrożone w innych komponentach.
 
-{% include image.html src="cycle.pl.png" alt="" %}
+{% include image.html src="components/cycle.pl.png" alt="" %}
 
 - Gdy **przeglądarki internetowe, odtwarzacze mediów, technologie wspomagające** i inne **programy użytkownika** obsługują funkcje dostępności, użytkownicy częściej będą tego wymagać, a programiści częściej implementować je w swoich **treściach**.
 - Gdy twórcy chcą wdrażać funkcje dostępności w swoich **treściach**, częściej domagają się, aby **narzędzie autorskie** ułatwiało ich wdrożenie. 
@@ -119,7 +119,7 @@ Gdy funkcje dostępności zostaną skutecznie zaimplementowane w jednym komponen
 Gdy funkcje dostępności nie są zaimplementowane w którymś z komponentów, motywacja do zaimplementowania ich w&nbsp;pozostałych komponentach spada, jeśli nie skutkuje to zwiększeniem dostępności dla użytkownika. Na przykład mało prawdopodobne jest, aby programiści wdrożyli funkcję dostępności, która nie jest obsługiwana przez narzędzia autorskie i której nie obsługuje większość przeglądarek lub technologii wspomagających.
 
 {% assign longdesc_url = "/fundamentals/components/examples/pl#weak" | relative_url %}
-{% include image.html src="bridge.pl.png" alt="Ilustruje, co dzieje się, gdy jeden komponent jest słaby" longdesc=longdesc_url %}
+{% include image.html src="components/bridge.pl.png" alt="Ilustruje, co dzieje się, gdy jeden komponent jest słaby" longdesc=longdesc_url %}
 
 Gdy jeden komponent kiepsko obsługuje dostępność, inne komponenty mogą to czasami zrekompensować poprzez „obejścia”, choć wymaga to znacznie większego wysiłku i ogólnie nie jest dobre dla dostępności. Na przykład:
 
@@ -141,7 +141,7 @@ Te wytyczne opierają się na podstawowych specyfikacjach technicznych Internetu
 - [ARIA, Złożone Dostępne Aplikacje Internetowe](/standards-guidelines/aria/), która wskazuje, jak uczynić złożone aplikacje internetowe bardziej dostępnymi dla osób z&nbsp;niepełnosprawnościami. Szczególnie pomaga w tworzeniu treści dynamicznych i zaawansowanych kontrolek interfejsu użytkownika opracowanych przy użyciu Ajax, HTML, JavaScript i&nbsp;pokrewnych technologii.
 
 {% assign longdesc_url = "/fundamentals/components/examples/pl#guide" | relative_url %}
-{% include image.html src="specs.pl.png" alt="Pokazuje wytyczne dla różnych komponentów" longdesc=longdesc_url %}
+{% include image.html src="components/specs.pl.png" alt="Pokazuje wytyczne dla różnych komponentów" longdesc=longdesc_url %}
 
 Aby uzyskać więcej informacji, zobacz [[Omówienie standardów dostępności W3C]](/standards-guidelines/).
 

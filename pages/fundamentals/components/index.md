@@ -84,7 +84,7 @@ It is essential that several different components of web development and interac
 ## How the Components Relate {#relate}
 
 {% assign longdesc_url = "/fundamentals/components/examples/#relate" | relative_url %}
-{% include image.html src="relate.png" alt="Illustration showing how components relate" longdesc=longdesc_url %}
+{% include image.html src="components/relate.png" alt="Illustration showing how components relate" longdesc=longdesc_url %}
 
 Web **developers** usually use **authoring tools** and evaluation tools to create web **content**.
 
@@ -107,7 +107,7 @@ There are significant interdependencies between the components; that is, the com
 
 When accessibility features are effectively implemented in one component, the other components are more likely to implement them.
 
-{% include image.html src="cycle.png" alt="" %}
+{% include image.html src="components/cycle.png" alt="" %}
 
 - When **web browsers, media players, assistive technologies, and other user agents** support an accessibility feature, users are more likely to demand it and developers are more likely to implement it in their **content**. 
 - When developers want to implement an accessibility feature in their **content**, they are more likely to demand that their **authoring tool** make it easy to implement. 
@@ -119,7 +119,7 @@ When accessibility features are effectively implemented in one component, the ot
 If an accessibility feature is not implemented in one component, there is little motivation for the other components to implement it when it does not result in an accessible user experience. For example, developers are unlikely to implement an accessibility feature that authoring tools do not support and that most browsers or assistive technologies do not implement consistently.
 
 {% assign longdesc_url = "/fundamentals/components/examples/#weak" | relative_url %}
-{% include image.html src="bridge.png" alt="Illustration of what happens when one component is weak" longdesc=longdesc_url %}
+{% include image.html src="components/bridge.png" alt="Illustration of what happens when one component is weak" longdesc=longdesc_url %}
 
 If one component has poor accessibility support, sometimes other components can compensate through "work-arounds" that require much more effort and are not good for accessibility overall. For example,
 
@@ -142,6 +142,6 @@ These accessibility guidelines are based on the fundamental technical specificat
 * [ARIA, the Accessible Rich Internet Applications](/standards-guidelines/aria/) Suite, which defines a way to make web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies.
 
 {% assign longdesc_url = "/fundamentals/components/examples/#guide" | relative_url %}
-{% include image.html src="specs.png" alt="Illustration showing the guidelines for the different components" longdesc=longdesc_url %}
+{% include image.html src="components/specs.png" alt="Illustration showing the guidelines for the different components" longdesc=longdesc_url %}
 
 For more information, see [[W3C Accessibility Standards Overview]](/standards-guidelines/).

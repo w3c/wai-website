@@ -82,7 +82,7 @@ Il est essentiel que des composantes distinctes et multiples du développement w
 ## Comment les composantes s’articulent {#relate}
 
 {% assign longdesc_url = "/fundamentals/components/examples/fr#relate" | relative_url %}
-{% include image.html src="relate.fr.png" alt="Illustration montrant comment les composantes s’articulent" longdesc=longdesc_url %}
+{% include image.html src="components/relate.fr.png" alt="Illustration montrant comment les composantes s’articulent" longdesc=longdesc_url %}
 
 Les **créateurs** web utilisent généralement **des outils de création** et des outils d’évaluation pour créer du **contenu** web.
  
@@ -105,7 +105,7 @@ Il y a des interdépendances cruciales entre les composantes&nbsp;; c’est-à-d
  
 Quand les fonctionnalités d’accessibilité sont effectivement mises en œuvre dans une composante, les autres composantes sont plus susceptibles de les mettre en œuvre elles aussi.
 
-{% include image.html src="cycle.fr.png" alt="" %}
+{% include image.html src="components/cycle.fr.png" alt="" %}
  
 - Quand **les navigateurs web, les lecteurs de média, les technologies d’assistance, et les autres agents utilisateurs** fournissent une fonctionnalité d’accessibilité, les utilisateurs sont plus susceptibles de l’exiger  et les créateurs sont plus susceptibles de l’implémenter dans leur **contenu**&nbsp;;
 - Quand les créateurs veulent implémenter une fonctionnalité d’accessibilité dans leur **contenu**, ils sont plus susceptibles d’exiger que leur **outil de création** en rende simple la mise en œuvre&nbsp;;
@@ -117,7 +117,7 @@ Quand les fonctionnalités d’accessibilité sont effectivement mises en œuvre
 Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans une composante, il y a peu de motivation pour les autres composantes pour l’implémenter s’il n’en résulte pas une expérience utilisateur accessible. Par exemple les créateurs n’implémenteront probablement pas une fonctionnalité d’accessibilité que les outils de création ne fournissent pas et que la plupart des navigateurs et des technologies d’assistance ne mettent pas en œuvre systématiquement.
 
 {% assign longdesc_url = "/fundamentals/components/examples/fr#weak" | relative_url %}
-{% include image.html src="bridge.fr.png" alt="Illustration de ce qui arrive quand une composante est déficiente" longdesc=longdesc_url %}
+{% include image.html src="components/bridge.fr.png" alt="Illustration de ce qui arrive quand une composante est déficiente" longdesc=longdesc_url %}
 
 Si une composante a une faible prise en compte de l'accessibilité, d’autres composantes peuvent parfois compenser cela au travers de «&nbsp;contournements&nbsp;» qui nécessitent beaucoup plus d’effort et ne sont pas positifs pour l’accessibilité en général. Par exemple&nbsp;:
  
@@ -139,7 +139,7 @@ Ces règles d’accessibilité reposent sur le socle des spécifications techniq
 * la suite des spécifications [<abbr lang="en" title="Accessible Rich Internet Applications">ARIA</abbr>, les applications Internet riches accessibles](/standards-guidelines/aria/), qui définit une façon de créer des applications web plus accessibles aux personnes handicapées. Elle facilite notamment le développement de contenu dynamique et de contrôles d’interface utilisateur avancés avec Ajax, HTML, JavaScript et les technologies associées.
 
 {% assign longdesc_url = "/fundamentals/components/examples/fr#guide" | relative_url %}
-{% include image.html src="specs.fr.png" alt="Illustration montrant les règles pour les différentes composantes" longdesc=longdesc_url %}
+{% include image.html src="components/specs.fr.png" alt="Illustration montrant les règles pour les différentes composantes" longdesc=longdesc_url %}
 
 Pour plus d’informations, consultez [[Vue d’ensemble des standards d’accessibilité du W3C
 ]](/standards-guidelines/).
