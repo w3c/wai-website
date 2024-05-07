@@ -2,7 +2,7 @@
 title: Accessibility, Usability, and Inclusion
 lang: en
 github:
-  repository: remibetin/wai-website
+  repository: w3c/wai-website
   path: 'pages/fundamentals/accessibility-usability-inclusion.md'
   label: wai-inclusion
 permalink: /fundamentals/accessibility-usability-inclusion/

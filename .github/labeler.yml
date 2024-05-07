@@ -52,3 +52,9 @@ sitemap:
   - 'wai-sitemap'
 org-policies:
   - 'wai-org-policies'
+eval-standards:
+  - 'wai-eval-standards'
+components:
+  - 'wai-components'
+w3c-process:
+  - 'wai-w3c-process'
