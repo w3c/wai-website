@@ -60,3 +60,5 @@ w3c-process:
   - 'wai-w3c-process'
 accessible-events:
   - 'wai-accessible-events'
+selecting-eval-tools:
+  - 'wai-selecting-eval-tools'
