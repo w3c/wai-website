@@ -1,64 +1,66 @@
-customize-design:
-  - 'wai-customize-design'
-shared-experiences:
-  - 'wai-shared-experiences'
-intro-act:
-  - 'wai-intro-act'
-intro-earl:
-  - 'wai-intro-earl'
-combined-expertise:
-  - 'wai-combined-expertise'
-inclusion:
-  - 'wai-inclusion'
-wcag-mob-overlap:
-  - 'wai-wcag-mob-overlap'
-design-develop:
-  - 'wai-design-develop'
-first-aid:
-  - 'wai-first-aid'
-teach-advocate:
-  - 'wai-teach-advocate'
-wcag-em:
-  - 'wai-wcag-em'
-evaluation-tools:
-  - 'wai-evaluation-tools'
-planning-policies:
-  - 'wai-planning-policies'
-conformance-eval:
-  - 'wai-conformance-eval'
-wai-adapt:
-  - 'wai-adapt'
-intro-aria:
-  - 'wai-intro-aria'
-pronunciation:
-  - 'wai-pronunciation'
-std-harmonization:
-  - 'wai-std-harmonization'
-cognitive:
-  - 'wai-cognitive'
-resources-list:
-  - 'wai-resources-list'
-eval-report-template:
-  - 'wai-eval-report-template'
-involve-users-eval:
-  - 'wai-involve-users-eval'
-standards-guidelines:
-  - 'wai-standards-guidelines'
-intro-uaag:
-  - 'wai-intro-uaag'
-intro-linking:
-  - 'wai-intro-linking'
-sitemap:
-  - 'wai-sitemap'
-org-policies:
-  - 'wai-org-policies'
-eval-standards:
-  - 'wai-eval-standards'
-components:
-  - 'wai-components'
-w3c-process:
-  - 'wai-w3c-process'
 accessible-events:
-  - 'wai-accessible-events'
+  - wai-accessible-events
+cognitive:
+  - wai-cognitive
+combined-expertise:
+  - wai-combined-expertise
+components:
+  - wai-components
+conformance-eval:
+  - wai-conformance-eval
+customize-design:
+  - wai-customize-design
+design-develop:
+  - wai-design-develop
+eval-report-template:
+  - wai-eval-report-template
+eval-standards:
+  - wai-eval-standards
+evaluation-tools:
+  - wai-evaluation-tools
+first-aid:
+  - wai-first-aid
+inclusion:
+  - wai-inclusion
+intro-act:
+  - wai-intro-act
+intro-aria:
+  - wai-intro-aria
+intro-earl:
+  - wai-intro-earl
+intro-linking:
+  - wai-intro-linking
+intro-uaag:
+  - wai-intro-uaag
+involve-users-eval:
+  - wai-involve-users-eval
+mobile:
+  - wai-mobile
+org-policies:
+  - wai-org-policies
+planning-policies:
+  - wai-planning-policies
+pronunciation:
+  - wai-pronunciation
+resources-list:
+  - wai-resources-list
 selecting-eval-tools:
-  - 'wai-selecting-eval-tools'
+  - wai-selecting-eval-tools
+shared-experiences:
+  - wai-shared-experiences
+sitemap:
+  - wai-sitemap
+standards-guidelines:
+  - wai-standards-guidelines
+std-harmonization:
+  - wai-std-harmonization
+teach-advocate:
+  - wai-teach-advocate
+w3c-process:
+  - wai-w3c-process
+wai-adapt:
+  - wai-adapt
+wcag-em:
+  - wai-wcag-em
+wcag-mob-overlap:
+  - wai-wcag-mob-overlap
