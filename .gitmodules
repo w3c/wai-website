@@ -90,10 +90,6 @@
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
 	branch = master
-[submodule "_external/resources/wai-mobile"]
-	path = _external/resources/wai-mobile
-	url = https://github.com/w3c/wai-mobile.git
-	branch = master
 [submodule "_external/resources/wai-media-guide"]
 	path = _external/resources/wai-media-guide
 	url = https://github.com/w3c/wai-media-guide.git
