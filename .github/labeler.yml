@@ -58,3 +58,5 @@ components:
   - 'wai-components'
 w3c-process:
   - 'wai-w3c-process'
+accessible-events:
+  - 'wai-accessible-events'
