@@ -54,17 +54,9 @@
 	path = _external/resources/wai-easy-checks
 	url = https://github.com/w3c/wai-easy-checks.git
 	branch = master
-[submodule "_external/resources/wai-selecting-eval-tools"]
-	path = _external/resources/wai-selecting-eval-tools
-	url = https://github.com/w3c/wai-selecting-eval-tools.git
-	branch = master
 [submodule "_external/resources/wai-InvolveUsersAll"]
 	path = _external/resources/wai-InvolveUsersAll
 	url = https://github.com/w3c/wai-InvolveUsersAll.git
-	branch = master
-[submodule "_external/resources/wai-presentations2all"]
-	path = _external/resources/wai-presentations2all
-	url = https://github.com/w3c/wai-presentations2all.git
 	branch = master
 [submodule "_external/resources/wai-intro-aria"]
 	path = _external/resources/wai-intro-aria
@@ -97,10 +89,6 @@
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
-	branch = master
-[submodule "_external/resources/wai-mobile"]
-	path = _external/resources/wai-mobile
-	url = https://github.com/w3c/wai-mobile.git
 	branch = master
 [submodule "_external/resources/wai-media-guide"]
 	path = _external/resources/wai-media-guide
