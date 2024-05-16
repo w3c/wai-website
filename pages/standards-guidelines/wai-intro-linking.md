@@ -17,7 +17,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page provides general guidance on how to reference and link to guidelines and other technical documents. It suggests that you include a link to the overview page. It describes when to include a version number and when not to.
+This page provides general guidance on how to reference and link to guidelines and other technical documents. It suggests that you include a link to the overview page. It describes when to include a version number and when not to. For more details on how to refer to the Web Content Accessibility Guidelines (WCAG), see [How to Refer to WCAG from Other Documents](https://www.w3.org/WAI/WCAG22/Understanding/refer-to-wcag).
 
 {::nomarkdown}
 {% include box.html type="end" %}
