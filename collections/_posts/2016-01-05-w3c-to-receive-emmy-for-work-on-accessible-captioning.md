@@ -1,0 +1,5 @@
+---
+title: "W3C to Receive Emmy® for Work on Accessible Captioning"
+date: 2016-01-05
+---
+<p>W3C     will receive a Technology &amp; Engineering Emmy ® Award for  work on standardization and pioneering development of broadband captioning. W3C's Timed Text Markup Language (TTML) helps make video content more accessible to people with disabilities, particularly people who are deaf or hard of hearing, through text captioning. More info about the award and about TTML is available in a <a href="https://www.w3.org/2016/01/emmyawardttml.html.en">press release</a>, and info about WAI's related work is in the <a href="https://lists.w3.org/Archives/Public/w3c-wai-ig/2016JanMar/0015.html">W3C to Receive Emmy® for  Work on Accessible  Captioning e-mail</a>. Thanks to everyone who contributes to accessibility  work through W3C and WAI!</p>

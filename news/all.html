@@ -1,0 +1,19 @@
+---
+title: News (One Page)
+lang: en
+github:
+  hide: true
+parent: /news/
+permalink: /news/all/
+layout: default
+exclude_from_search: true
+---
+
+{%- for post in site.posts -%}
+{%- assign linkstring = post.url | relative_url | prepend: "<strong><a href='" | append: "'>" -%}
+{%- assign postpreviewdate = post.date | date: "%Y-%b-%d" -%}
+{%- assign postpreviewtitle = "</a></strong> (" | prepend: post.title | append: postpreviewdate | append: ")" | prepend: linkstring -%}
+{% include box.html type="start" title=postpreviewtitle h=2 class="large" %}
+{{ post.content }}
+{% include box.html type="end" %}
+{%- endfor -%}

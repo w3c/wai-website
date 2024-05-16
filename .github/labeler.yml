@@ -36,6 +36,8 @@ involve-users-eval:
   - wai-involve-users-eval
 mobile:
   - wai-mobile
+news:
+  - wai-news
 org-policies:
   - wai-org-policies
 planning-policies:

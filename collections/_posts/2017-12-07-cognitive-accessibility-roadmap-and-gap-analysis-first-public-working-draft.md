@@ -1,0 +1,5 @@
+---
+title: "Cognitive Accessibility Roadmap and Gap Analysis First Public Working Draft"
+date: 2017-12-07
+---
+<p>The <a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/">Cognitive and Learning Disabilities Accessibility Task Force</a> has published a first public Working Draft of <a href="https://www.w3.org/TR/2017/WD-coga-gap-analysis-20171207/">Cognitive Accessibility Roadmap and Gap Analysis</a>. It explores user needs for people with cognitive or learning disabilities and identifies where additional web content authoring guidance is needed to help authors meet these needs. This information is important to new guidance being added to Web Content Accessibility Guidelines 2.1. Please comment by <strong>16 January 2018</strong>. Read about the <a href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures</a> and <a href="https://www.w3.org/WAI/GL/">Accessibility Guidelines</a> Working Groups and the <a href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a>.</p>

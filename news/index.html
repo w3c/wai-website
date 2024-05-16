@@ -1,0 +1,82 @@
+---
+title: News
+lang: en
+github:
+  path: news/index.html
+  label: wai-news
+# Do not set a permalink: see https://jekyllrb.com/docs/pagination/
+layout: default
+exclude_from_search: true
+---
+
+{%- for post in paginator.posts -%}
+{%- assign linkstring = post.url | relative_url | prepend: "<strong><a href='" | append: "'>" -%}
+{%- assign postpreviewdate = post.date | date: "%Y-%b-%d" -%}
+{%- assign postpreviewtitle = "</a></strong> (" | prepend: post.title | append: postpreviewdate | append: ")" | prepend: linkstring -%}
+{% include box.html type="start" title=postpreviewtitle h=2 class="large" %}
+{{ post.content }}
+{% include box.html type="end" %}
+{%- endfor -%}
+
+{%- assign currentboundary = 2 -%}
+{%- comment -%} Sets the boundaries around the current page. “2” shows two links left and right from the current page.{%- endcomment -%}
+
+{%- assign minbound = paginator.page | minus: currentboundary -%}
+{%- assign maxbound = paginator.page | plus: currentboundary -%}
+
+{%- comment -%} Calculate the boundary around the current page. {%- endcomment -%}
+
+{%- assign lowerneedellipsisnumber = 2 | plus: currentboundary -%}
+{%- assign upperneedellipsisnumber = paginator.total_pages | minus: 1 | minus: currentboundary -%}
+
+{%- comment -%} Determines the lower number needed to display an ellipsis between 1 and the following boundary number. And the highest in relation to the last page. {%- endcomment -%}
+
+{%- assign totalpenultimate = paginator.total_pages | minus: 1 -%}
+
+{%- comment -%} Iterate from page 2 to page total-1 to display the ellipses. we set page one and the last one by hand. {%- endcomment -%}
+
+<footer>
+  <nav class="pagination">
+    <ul>
+      <li>{% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">Previous</a>
+      {% else %}
+        <span class="like-a previous">Previous</span>
+      {% endif %}</li>
+      {%- if paginator.page == 1 -%}
+      <li class="is-active"><span class="like-a">1</span></li>
+      {%- else -%}
+      <li><a href="{{ "/news/" | relative_url }}">1</a></li>
+      {%- endif -%}
+      {%- unless paginator.page <= lowerneedellipsisnumber -%}
+      <li>…</li>
+      {%- endunless -%}
+      {%- for i in (2..totalpenultimate) -%}
+      {%- assign render = true -%}
+      {%- if i < minbound -%}{%- assign render = false -%}{%- endif -%}
+      {%- if i > maxbound -%}{%- assign render = false -%}{%- endif -%}
+      {%- if render -%}
+      {%- if paginator.page == i -%}
+      <li class="is-active"><span class="like-a">{{i}}</span></li>
+      {%- else -%}
+      <li><a href="{{ "/news/" | append: i | append: "/" | relative_url }}">{{i}}</a></li>
+      {%- endif -%}
+      {%- endif -%}
+      {%- endfor -%}
+      {%- unless paginator.page >= upperneedellipsisnumber -%}
+      <li>…</li>
+      {%- endunless -%}
+      {%- if paginator.page == paginator.total_pages -%}
+      <li class="is-active"><li class="is-active"><span class="like-a">{{paginator.total_pages}}</span></li>
+      {%- else -%}
+      <li><a href="{{ "/news/" | append: paginator.total_pages | append: "/" | relative_url }}">{{paginator.total_pages}}</a></li>
+      {%- endif -%}
+      <li>{% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next</a>
+      {% else %}
+        <span class="like-a next">Next</span>
+      {% endif %}</li>
+      <li style="margin: 0 auto 0 0; order:-1;"><a href="{{"/news/all/" | relative_url}}">All on one Page</a></li>
+    </ul>
+  </nav>
+</footer>

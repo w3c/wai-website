@@ -11,7 +11,7 @@ author: "W3C Web Accessibility Initiative (WAI)"
 claim: "Strategies, standards, and resources to make<br>the web accessible to people with disabilities."
 warning_icon: false
 warning_message: >
-  This is <strong>beta redesign</strong> of the W3C WAI website. (<a href="https://github.com/w3c/wai-website/wiki/W3C-WAI-Website-Redesign-Information">Beta Info and Comments</a>) The published website is at <a href="https://www.w3.org/WAI/">w3.org/WAI/</a>.
+  This is a local preview of the W3C WAI website. The published website is at <a href="https://www.w3.org/WAI/">w3.org/WAI/</a>.
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).

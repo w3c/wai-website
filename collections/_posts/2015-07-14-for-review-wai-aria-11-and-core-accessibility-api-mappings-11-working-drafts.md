@@ -1,0 +1,5 @@
+---
+title: "For Review: WAI-ARIA 1.1 and Core Accessibility API Mappings 1.1 Working Drafts"
+date: 2015-07-14
+---
+<p>Updated Working Drafts of <a href="http://www.w3.org/TR/2015/WD-wai-aria-1.1-20150714/">Accessible Rich Internet Applications (WAI-ARIA) 1.1</a>, <a href="http://www.w3.org/TR/2015/WD-core-aam-1.1-20150714/">Core Accessibility API Mappings 1.1</a> (Core-AAM), and <a href="http://www.w3.org/TR/2015/WD-accname-aam-1.1-20150714/">Accessible Name and Description: Computation and API Mappings 1.1</a> (AccName-AAM) are available for review. For information on updates in these drafts, see the <a href="https://lists.w3.org/Archives/Public/w3c-wai-ig/2015JulSep/0017.html">Call for Review: WAI-ARIA 1.1 and Core Accessibility API Mappings 1.1 Working Drafts</a> e-mail. Please send comments by <strong>28 August 2015</strong>.</p>

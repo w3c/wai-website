@@ -1,0 +1,5 @@
+---
+title: "Web Content Accessibility Guidelines 2.1 First Public Working Draft"
+date: 2017-02-28
+---
+<p><a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a> has been published as a First Public Working Draft. Sites that conform to WCAG 2.1 will also conform to WCAG 2.0, which means they meet the requirements of any policies that reference WCAG 2.0. This first draft includes 28 new Success Criteria, three of which have been formally accepted by the Working Group and the remainder included as proposals to provide an opportunity for early feedback. Further information is available in the <a href="https://www.w3.org/blog/2017/02/wcag21-fpwd/">blog post: Web Content Accessibility Guidelines 2.1 First Public Working Draft</a>. Please comment by <strong>31 March 2017</strong>. Read about the <a href="https://www.w3.org/WAI/GL/">Accessibility Guidelines Working Group</a> and the <a href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a></p>

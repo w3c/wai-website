@@ -1,0 +1,5 @@
+---
+title: "For Review: WAI-ARIA 1.1, DPub Roles, Accessibility API Mappings, and Authoring Practices Working Drafts"
+date: 2016-03-17
+---
+<p>Updated Working Drafts of <a href="http://www.w3.org/TR/2016/WD-wai-aria-1.1-20160317/">Accessible Rich Internet Applications (WAI-ARIA) 1.1</a>, <a href="http://www.w3.org/TR/2016/WD-dpub-aria-1.0-20160317/">Digital Publishing WAI-ARIA Module 1.0</a>, <a href="http://www.w3.org/TR/2016/WD-core-aam-1.1-20160317/">Core Accessibility API Mappings 1.1</a>, <a href="http://www.w3.org/TR/2016/WD-accname-aam-1.1-20160317/">Accessible Name and Description: Computation and API Mappings 1.1</a>, <a href="http://www.w3.org/TR/2016/WD-dpub-aam-1.0-20160317/">Digital Publishing Accessibility API Mappings 1.0</a>, and <a href="http://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20160317/">WAI-ARIA Authoring Practices 1.1</a> are available for review. Please send comments by <strong>15 April 2016</strong>.</p>

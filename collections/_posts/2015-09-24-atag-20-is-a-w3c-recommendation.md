@@ -1,0 +1,5 @@
+---
+title: "ATAG 2.0 is a W3C Recommendation"
+date: 2015-09-24
+---
+<p>The <a href="http://www.w3.org/TR/ATAG20/">Authoring Tool Accessibility Guidelines (ATAG) 2.0</a> was published today as a completed web standard. ATAG  provides guidelines for designing web content authoring      tools that are both more accessible to authors with disabilities (Part A) and  designed to enable,      support, and promote the production of more accessible web content by all authors (Part B).  Selecting authoring tools that conform to ATAG 2.0 can facilitate   the process of creating accessible Web content, and can also remove   barriers to content creation by people with disabilities. <a href="http://www.w3.org/TR/IMPLEMENTING-ATAG20/">Implementing ATAG 2.0</a> has been published as a Working Group Note to provide additional explanation, examples and resources for the ATAG 2.0 success criteria.</p>

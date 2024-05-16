@@ -1,0 +1,5 @@
+---
+title: "For Review: Digital Publishing WAI-ARIA Module Working Draft"
+date: 2015-11-19
+---
+<p><a href="http://www.w3.org/TR/dpub-aria-1.0/">Digital Publishing WAI-ARIA Module 1.0</a> is available for review as a First Public Working Draft. This specification extends <a href="http://www.w3.org/WAI/intro/aria"><abbr title="Accessible Rich Internet Applications">WAI-ARIA 1.1</abbr></a> to facilitate automated processing and accessibility support for digital publications. This specification extends <a href="http://www.w3.org/WAI/intro/aria"><abbr title="Accessible Rich Internet Applications">WAI-ARIA 1.1</abbr></a> to define an ontology of roles, states, and properties specific to digital publishing to allow authors to convey structural information to assistive technologies, and to enable semantic navigation, styling, and interactive features used by readers. For more information, see the [<a href="https://lists.w3.org/Archives/Public/w3c-wai-ig/2015OctDec/0020.html">Call for Review: Digital Publishing WAI-ARIA Module Working Draft</a> e-mail. Please send comments by <strong>15 January 2016</strong>.</p>

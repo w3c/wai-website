@@ -1,0 +1,20 @@
+{%- if include.p.github.repository -%}
+    {%- assign repo = include.p.github.repository -%}
+{%- else -%}
+    {%- assign repo = site.repository -%}
+{%- endif -%}
+{%- if include.p.github.branch -%}
+    {%- assign branch = include.p.github.branch -%}
+{%- else -%}
+    {%- assign branch = "master" -%}
+{%- endif -%}
+{%- if include.p.github.path -%}
+    {%- assign path = include.p.github.path -%}
+{%- elsif include.p.collection %}
+  {%- assign path = include.p.path | prepend: "collections/" -%}
+{%- elsif include.p.collection and include.p.github.repository and include.p.github.repository != "wai-website"-%}
+  {%- assign path = include.p.path -%}
+{%- else -%}
+    {%- assign path = "index.md" -%}
+{%- endif- %}
+https://github.com/{{repo}}/edit/{{branch}}/{{path}}
