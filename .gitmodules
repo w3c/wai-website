@@ -46,10 +46,6 @@
 	path = _external/resources/wai-audiences
 	url = https://github.com/w3c/wai-audiences.git
 	branch = master
-[submodule "_external/resources/wai-about-wai"]
-	path = _external/resources/wai-about-wai
-	url = https://github.com/w3c/wai-about-wai.git
-	branch = master
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git

@@ -1,0 +1,1522 @@
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Transcript of the "Artificial Intelligence and Accessibility Research Symposium" Day 1: 10 January 2023
+  </title>
+</head>
+
+
+<body>
+
+  <aside style="border: solid #900 1px; background: #ebf4f5; font-weight: bold; padding: 0.5em; margin-bottom: 3em;">
+    <p>This document is the transcript of the symposium <a
+        href="https://www.w3.org/WAI/about/projects/wai-coop/symposium2/">"Artificial Intelligence and Accessibility
+        Research Symposium"</a>. This document was not developed by the W3C Web
+      Accessibility Initiative and does not necessarily represent the consensus view of its membership.</p>
+    <p>This document is based on live transcription. Communication Access Realtime Translation (CART), captioning,
+      and/or live transcription are provided in order to facilitate communication accessibility and may not be a totally
+      verbatim record of the proceedings.
+      This document is not to be distributed or used in any way that may violate copyright law.</p>
+  </aside>
+
+  <h1>Transcript of the "Artificial Intelligence and Accessibility Research Symposium" Day 1: 10 January 2023</h1>
+
+  <h2 id="welcome">Welcome session</h2>
+
+  <p>>> CARLOS DUARTE: People are still joining, but it's about time we start. We are delighted that you are able to
+    join us in this Artificial Intelligence and Accessibility Research Symposium. We are looking forward to a couple of
+    days of stimulating presentations and discussions. My name is Carlos Duarte and, on behalf of the whole organizing
+    team, I would like to offer you our warmest welcome. Let me just take a moment to say a big thank you to the
+    wonderful people that made this happen, my colleague here at the University of Lisbon, Letícia Seixas Pereira, and a
+    group of people from the W3C Architecture Working Group, and those from the W3C Accessibility Initiative.</p>
+  <p>Before we get going, just a couple of important reminders. By taking part in this symposium you agree to follow the
+    W3C code of ethics and professional conduct and ensure to promote a safe environment for everyone in this meeting.
+    Also, this session is being video recorded and transcribed. The transcription will be posted on the symposium
+    website later. If you object to being transcribed, we ask you to refrain from commenting.</p>
+  <p>I would also like to take this opportunity to thank the European Commission that funds the WAI-CooP project
+    through the Horizon 2020 program.</p>
+  <p>Now let me describe some of the logistics of this meeting. Audio and video are off by default. Please turn them on
+    only if requested and turn them off again when no longer needed. During the keynote presentations and the panel
+    discussion, you can enter your questions using the Q&A feature of Zoom. Speakers will monitor the Q&A and they might
+    answer your questions either live if time allows it, or directly in the Q&A system. You can use the chat feature to
+    report any technical issues you are experiencing. We will monitor the chat and try to assist you if needed. If
+    during the seminar your connection drops, please try to reconnect. If it is the whole meeting that's disrupted, you
+    won't be able to reconnect. We'll try to resume the meeting for a period of up to 15 minutes. If we're unsuccessful,
+    we will contact you by email with further instructions.</p>
+  <p>As I mentioned before, this symposium is one of the results of the WAI-CooP project. That project started in
+    January of 2021 and will run until the end of this year. This is the second symposium which means that we will still
+    have another symposium later this year. The main goal of the WAI CooP project is to support the implementation of
+    international standards for digital accessibility. It aims to achieve this goal from various perspectives. It will
+    provide different overviews of accessibility related resources, including tools or training resources. It will
+    develop actions like this one to promote collaboration between research and development players, and it is creating
+    opportunities for the stakeholders in this domain to exchange their best practices through, for example, a series of
+    open meetings.</p>
+  <p>As I just mentioned, this is the second of three symposiums that will be organized by the WAI-CooP project. This
+    symposium aims to identify current challenges and opportunities raised by the increasing use of AI regarding digital
+    accessibility and to explore our ongoing research that can leverage and hinder digital accessibility. I'll now
+    finish by introducing you to today's agenda. We will start with a keynote by Jutta Treviranus. This will be followed
+    by our first panel, the panel will focus on the use of computer vision techniques in the scope of accessibility of
+    media resources. Before the second panel, we'll have a 10 minute coffee break. The second, and the last panel of
+    today, it will also address the accessibility of media resources but now from the perspective of natural language
+    processing.</p>
+  <p>Now let's move to the opening keynote, for which we're delighted to welcome Jutta Treviranus. Jutta Treviranus is
+    the director of the Inclusive Design Research Center and the professor in the faculty of design at the OCAD
+    University in Toronto. The floor is yours.</p>
+
+  <h2 id="opening_keynote">Opening keynote: Jutta Treviranus</h2>
+  <p>>> JUTTA TREVIRANUS: Thank you, Carlos. It is a great pleasure to be able to talk to you about this important
+    topic. I am going to just start my slides. I'm hoping that what you see is just the primary slide, correct?</p>
+  <p>>> CARLOS DUARTE: Correct.</p>
+  <p>>> JUTTA TREVIRANUS: Wonderful. Okay. Thank you, everyone. I will voice my slides and the information and the
+    images. I have titled my talk First, Do No Harm. I'm usually really optimistic of a person, I'm hoping to provide an
+    optimistic message.</p>
+  <p>
+    To realize the benefits of AI, I believe we need to further recognize and take into account the harms. I'm going to
+    limit my discussion to the harms that are specific to People with Disabilities. There is a great deal of work
+    detailing the ethical concerns of currently deployed AI from lack of representation to human bigotry, finding its
+    way into algorithms to manipulative practices, unfair value extraction and exploitation and disinformation. I'll
+    focus on accessibility and disability, including the recognition that disability is at the margins of all other
+    justice deserving groups, therefore, most vulnerable to the general and emerging harms, but also the potential
+    opportunities of AI.
+    Carlos shared a number of questions and they're all great questions. We agreed this is better covered through a
+    conversation than a presentation. At the end of my talk, I'm going to invite Shari and we'll talk more about this
+    tomorrow after the book talk.
+  </p>
+  <p>Our society is plagued by more and more difficulties. As the world becomes more and more complex and entangled, the
+    choices increase in ambiguity, the risks associated with each decision becomes more consequential, the factors to
+    consider in each decision more numerous, convoluted, confusing. Especially times of crisis, like we have been
+    experiencing these last few years, in highly competitive situations where there is scarcity, AI decision tools
+    become more and more attractive and useful. As an illustrative example, it is no wonder that over 90% of
+    organizations use some form of AI hiring tool according to the U.S. equal employment opportunity commission. As work
+    becomes less formulated and finding the right fit becomes more difficult, they are a highly seductive tool. As an
+    employer, when choosing who to hire from a huge pool of applicants what, better way to sift through, find the gems
+    and eliminate the potential fail choices than to use AI system, with an AI tool making the decisions we remove the
+    risks of conflicts of interest and nepotism. What better way to determine who will be a successful candidate than to
+    use all of the evidence we have gathered from our current successful employees, especially when the jobs we're
+    trying to fill are not formulating and there is not a valid test to devise for candidates to determine their
+    suitability, AI can use predictive analytics to find the optimal candidates.
+  </p>
+  <p>In this way, we're applying solid, rigorous science in what would be an unscientific decision, otherwise we're not
+    relying on fallible human intuition. Tools are adding information beyond the application to rule out falsehoods in
+    the applications, after all, you never know, there are so many ways to fake a work history, a cover letter or to
+    cheat in academia. The AI hiring tools can verify through gleaned social media data and information available on the
+    web or through networked employment data. After all, employees have agreed to share this as part of the conditions
+    of employment, and other employers have agreed as a conditions of using the tool. If that is not enough, AI
+    administered and processed assessments can be integrated. The tools are going beyond the practical and qualitatively
+    determinable capacity of candidates to finding the best fit culturally to make sure that the chosen candidates don't
+    cause friction but integrate comfortably. The tools will even analyze data from interviews to have a socio emotional
+    fit of candidates. If that's not satisfactory, the employer can tweak the system to add factors like the favored
+    university or an ideal persona and
+    pick an ideal employee as a model and the systems are better and more sophisticated in finding a match. The same
+    system can then guide promotion and termination ensuring consistency of employment policies.
+  </p>
+  <p>So what's wrong with this? Science, math, statistical reasoning, efficiency, accuracy, consistency, better and more
+    accurate screening for the best fit of the scientifically determined optimal employee, accurate replication and
+    scaling of a winning formula, it is a very seductive opportunity. What could be wrong? For the employing
+    organization we have a mono culture recreating and showing the successful patterns of the past .with more data and
+    more powerful analysis the intended target becomes more and more precise. The employer finds more and more perfect
+    fits. What's wrong with that? For the organization, what happens when the context changes? Then the unexpected
+    happens, a monoculture doesn't offer much adaptation, flexibility, alternative choices.
+  </p>
+  <p>As a visual description, I have an image showing what happened to cloned potatoes in a plight that was survived by
+    a diverse crop.
+    Of course, we have diversity, equity and inclusion measures to compensate for discriminatory hiring and increase the
+    number of employees from protected, underrepresented groups. Even there, there will be an even greater rift between
+    the mono culture and the candidates hired through diversity and equity programs. What happens to the candidate with
+    the disability who would otherwise be a great fit for doing the job when judged by these hiring systems. When AI is
+    analyzing sorting and filtering data about a large group of people, what does disability look like? Where is
+    disability in a complex entangled adopt active multivarying dataset. Self identification is often disallowed and
+    many people don't self identify, even if we had a way to identify the definition and boundaries of disability are
+    highly contested. Disability statisticians are acutely aware of some of the challenges. In any normal distribution,
+    someone with a disability is an outlier, the only common data characteristic of disability is different from the
+    average, the norm, People with Disabilities are also more diverse from each other than people without disabilities.
+    Data points in the middle are close together, meaning that they are more alike, data points at the periphery,
+    they're further apart, meaning that they're more different from each other. Data regarding people living with
+    disabilities are spread the furthest in what I call the starburst of human needs. As a result of this pattern, any
+    statistically determined prediction is highly accurate for people that cluster in the middle, inaccurate moving from
+    the middle and wrong as you get to the edge of a data plot.
+  </p>
+  <p>Here I'm not talking about AI's ability to recognize and translate things that are average or typical, like typical
+    speech or text or from one typical language to another or to label typical objects in the environment or to find the
+    path that most people are taking from one place to another. Even there, in these miraculous tools we're using, if we
+    have a disability, if the speech is not average, if the environment you're in is not typical, AI also fails.
+    Disability is the Achilles' heel of AI applying statistical reasoning in disability. You have the combination of
+    diversity, variability, the unexpected, complexity and entanglement and the exception to every rule or
+    determination. AI systems are used to find applicants that match predetermined optima with large datasets of
+    successful employees and hires. The system is optimizing the successful patterns of the past, all data is from the
+    past. The analytical power tool is honing in on and polishing the factors that worked before and we know how much
+    hiring there is of people with disabilities in the past. The tool is built to be biased against different
+    disabilities, different ways of doing the job, different digital traces, different work and education history,
+    different social media topics and entangled profile of many differences.</p>
+  <p>As AI gets better or more accurate in its identification of the optima, AI gets more discriminatory and better at
+    eliminating applicants that don't match the optima in some way. The assumptions the AI power tools are built on,
+    scaling and replicating past success will bring about future success. Optimizing data characteristics associated
+    with past successes increases future successes. The data characteristics that determine success need not be
+    specified or known to the operators of the AI or the people who are subject to the decisions, and the AI cannot
+    articulate at the moment the highly defused, possibly an adaptive reasons behind the choices. Current AI systems
+    cannot really explain themselves or the choices despite the emergence of explainable AI. How many of you have
+    experienced tools like Microsoft and other similar tools that purport to help you be more efficient and productive
+    by analyzing the work habits. The surveillance systems provide more and more granular data about employment
+    providing intelligence about the details of the average optimal employee. The results of the AI design is that the
+    optima will not be a person with a disability. There are not enough successfully employed Persons with Disabilities
+    but it is more than data gaps, even if we have full representation of data from Persons with Disabilities there will
+    not be enough consistent data regarding success to reach probability thresholds. Even if all data gaps are filled,
+    each pattern will still be an outlier or minority, and will lack problematic power in the algorithm. The same
+    pattern is happening in all life altering difficult decisions. AI is being applied and offered to competitive
+    academic admissions departments, so you won't get admitted to beleaguered health providers in the form of medical
+    calculators and emergency triage tools resulting in more death and illness if you're different from your
+    classification, to policing, to parole board, to immigration and refugee adjudications, to tax
+    auditor, meaning more tax payer with disabilities are flagged, to loan, mortgage officers, meaning people with
+    unusual asset patterns won't get credit, to security departments, meaning outliers become collateral damage.
+  </p>
+  <p>At a community level we have evidence based investment by governments, AI guiding political platforms, public
+    health decision, urban planning, emergency preparedness and security programs. None will decide with the
+    marginalized outlier, the outliers will be marked as security risks. These are monumental life changing decisions,
+    but even the smaller seemingly inconsequential decisions can harm by a million cuts. What gets covered by the new,
+    what products make it to the market, the recommended root route provided by GPS, the priority given to supply chain
+    process, what design features make it to the market.
+  </p>
+  <p>Statistical reasoning that's inherently biased against difference from the average is not only used to apply the
+    metrics, but to determine the optimum metrics. This harm predates AI. Statistical reasoning as the means of making
+    decisions does harm. It does harm to anyone not like the statistical average or the statistically determined optima.
+    Assuming that what we know about the majority applies to the minority does harm. Equating truth and valid
+    evidence with singular statistically determined findings or majority truth does harm. AI amplifies, accelerates and
+    automates this harm. It is used to exonerate us of responsibility for this harm.
+  </p>
+  <p>We have even heard a great deal about the concern for privacy. Well, people with disability, they're most
+    vulnerable to data abuse and misuse. Deidentification does not work if you're highly unique, you will be
+    reidentified. Differential privacy will remove the helpful data specifics that you need to make the AI work for you
+    and your unique needs. Most People with Disabilities are actually forced to barter their privacy for essential
+    services. We need to go beyond privacy, assume there will be breaches and create systems to prevent data abuse and
+    misuse. We need to ensure transparency regarding how data is used, by whom and what purpose. It is wonderful that
+    the E.U. is organizing this talk, because the E.U. is doing some wonderful measures in this regard.
+  </p>
+  <p>Wait, we're talking about a great number of harms. Haven't we developed some approaches, some solutions to this?
+    Don't we have auditing tools that detect and eliminate bias and discrimination of AI? Don't we have some systems
+    that certify whether an AI is ethical or not? Can't we test tools for unwanted bias?</p>
+  <p>Unfortunately, AI auditing tools are misleading in that they don't detect bias against outliers and small
+    minorities or anyone who doesn't fit the bounded groupings. Most AI ethics auditing systems use cluster analysis
+    comparing the performance regarding a bounded justice deserving group with the performance for the general
+    population. There is no bounded cluster for disability. Disability means a defused, highly diverse set of
+    differences. Those AI ethic certification systems and the industry that is growing around them raise the expectation
+    of ethical conduct, that the problem has been fixed, making it even more difficult for the individual to address
+    harm. Many falls prey to cobra effects or the unintended consequences of over simplistic solutions to complex
+    problems or linear thinking, falling into the the rut of mono causality, where the causes are complex and entangled.
+  </p>
+  <p>There is some helpful progress in regulatory guidance, one example, it is the U.S. Equal Employment Opportunity
+    Commission which has developed the The Americans with Disabilities Act and the Use of Software, Algorithms, and
+    Artificial Intelligence to Assess Job Applicants and Employees, it is a very long title. Much of the guidance
+    focuses on fair assessments or tests and accommodation, not on the filtering out of applicants before they're
+    invited to take an assessment or by employers who don't use assessments. The data related suggestion is to remove
+    the disability related data that is the basis of disability discrimination. What we found, it is that the data
+    cannot be isolated. For example, in an interrupted work history, it will have other data effects and markers, making
+    it
+    hard to match the optimal pattern, even when that is removed.
+  </p>
+  <p>For the ethical harms, that are common to a whole group of marginalized and individuals, there are numerous AI
+    ethic efforts emerging globally. We have tried to capture the disability relevant ones in the <a
+      href="https://wecount.inclusivedesign.ca">We Count project</a>. This
+    includes standard bodies creating a number of standards that act as guidance, government initiatives that are
+    looking at impact of decisions using automated decision tools, academic research units that are looking at the
+    effects process and others. We have found that disability is often left out of the considerations or the ethic
+    approaches. As the questions that were submitted indicated, we're at an inflection point and this current inflection
+    point we're at, reminds me of the book the Axemaker's Gift, by Burke & Ornstein. They wanted us to be aware of the
+    Axemaker's Gifts. Each time there was an offering of a new way to cut and control the world to make us rich or safe
+    or invincible, more knowledgeable, we accepted the gift and used it and we changed the world, we changed our minds,
+    for each gift, redefined the way we thought, the values by which we lived and the truths for which we died.
+  </p>
+  <p>But to regain my optimism, even AI's potential harm may be a double edged sword. The most significant gift of AI is
+    that it manifests the harms that have been dismissed as unscientific concerns. It gives us an opportunity to step
+    back and reconsider what we want to automate or what we want to accelerate. It makes us consider what we mean by
+    best, by optimal, by truth, democracy, planning, efficiency, fairness, progress and the common good.</p>
+  <p>Some of the things we have done within my unit to provoke this rethinking include our inverted word cloud, a tiny
+    little mechanism that conventional word cloud increases the size and centrality of the most popular or statistically
+    frequent words. The less popular, outlying words decrease in size and disappear. We have simply inverted that
+    behavior. The novel, the unique words go to the center and grow in size. We have been trying to prove, indicate with
+    models, like the lawnmower of justice where we take the top off of the Gaussian or the bell curve, as it may be
+    called, to remove the privilege of being the same as the majority. The model needs to pay greater attention to the
+    breadth of data. We're exploring bottom up community led data ecosystems where the members govern and share in the
+    value of the data. This fills the gap left by things, like impact investing, for example. When social
+    entrepreneurship efforts that are supposedly addressing these problems can't scale a single impactful formula
+    sufficiently to garner support, it also works well to grow knowledge of things like rare illnesses that won't garner
+    a market for the treatments and therefore are not invested in.</p>
+  <p>We're creating tools to reduce harm by signaling when a model will be wrong, unreliable, because the evidence based
+    guidance is wrong for the person being decided about. Here we're using a tool, the dataset nutrition label that
+    gives information about what data is used to train the model.</p>
+  <p>Back to the Axemaker's Gift and the opportunity to reconsider where we're going, from a complexity perspective,
+    we're collectively stuck on a local optima, unable to unlearn our fundamental summits and approaches to find the
+    global optima. I believe there is a global optima. At the moment, as a society, we believe, or we act like that, to
+    succeed we need to do what we have been doing more effectively, efficiently, accurately, consistently. We're hill
+    climb, optimizing the patterns of the past, eroding the slope for anyone following us. We need to stop doing the
+    same things more efficiently and potentially reverse course.</p>
+  <p>I have been considering the many local optima. We keep hill climbing, not just statistical reasoning finding a
+    single winning answer, not just winner takes all, zero sum gain capitalism and growth at all cost but majority
+    rules, all or nothing decisions. And even in our community, the accessibility community, the notion of a single
+    checklist of full accessibility for a group of hugely diverse people, many of whom are not represented when coming
+    up with the list.</p>
+  <p>The people closest to the bottom are more diverse, closest to the path we need to follow to find the global optima,
+    less invested in current conventions. We need to diversify and learn to use our complementary skills and learn from
+    people who are currently marginalized, even in this community focused on accessibility. If anyone knows, we know
+    that it is at the margins, outer edge of our human starburst that we find the greatest innovation and the weakest
+    and the weak signals of crisis to come. This is where you feel the extremes of both the opportunities and the risks.
+    One of the emerging uncertainties that holds both greater opportunities and risks, it is generative AI.
+  </p>
+  <p>What are the implications, if you have a disability, what will it do for accessibility? I'm sure you have heard
+    about tools like chatGPT, Stable Infusion, various versions of DALL-E, Midjourney and other tools, even today there
+    are announcements of new tools. They don't rely purely on statistical reasoning, they can transfer learning from
+    context to context, they use new processes called transformers that can pivot to new applications. They can also
+    create convincing, toxic lies. People with Disabilities tend to be most vulnerable to the misuse and abuse of toxic
+    tools.</p>
+  <p>I'm going to invite Shari to help me address the emerging possibilities.</p>
+  <p>>> SHARI TREWIN: Hello, everybody. I'm from Google, Shari Trewin, a middle age white woman with a lot of smile
+    lines on my face.</p>
+  <p>So there's a lot to think about there! I wonder if we might start off where you ended there
+    talking a little bit about generative AI models and language models, and they're trained on a large amount of data
+    that may not reflect the moral values that we would like our models to incorporate. One question I think that would
+    be interesting for to us talk about is can we teach these large language models or generative AI to apply these
+    moral
+    values -- even though the very large datasets may not represent that.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: That's a great question. Thinking of how that might be done, one of the dilemmas is that we may
+    need to find a way to quantify abstract qualitative values. In that process, will that reduce these values. Deep
+    winning lacks judgment, the human sort of value, the human judgment that isn't quantitative, perhaps one way to
+    start is by recognizing human diversity and the diversity of context. There is a lot of talk about individualizing
+    applications, without making the cost exorbitant to the people that need them. The irony, of course, in that is that
+    the people that need that type of individualization the most are most likely to be the people that can't afford it.
+    It is not yet known, can we do that? Of course, there has been surprising advances and all sorts of different areas
+    with respect to AI and generative AI, but I think this is the issue of values and shared values, and the
+    articulation, and making “mechanizable” because, of course, we're talking about a machine and recognition, values
+    that we have difficulty even fully expressing is quite a challenge.What do you think, Shari?
+  </p>
+  <p>>> SHARI TREWIN: It is a good point, can we express, or can we measure whether a model meets our values, or whether
+    we think it is free from bias or as free from bias as we can make it? Do we know how to evaluate that? I think is an
+    important question. Some of the steps that often get missed when creating a system that uses AI, what may help with
+    that, it would be starting off from the beginning by thinking about who are the people who may be at risk, what are
+    the issues that might be in the data, what historical biases may that data represent or include, and then actively
+    working with members of those communities to understand how are we going to measure fairness here? How will we going
+    to measure bias, what's our goal, how will we test, how will we know when we have achieved our goal. I think there
+    is some progress that could be made in the design process and thinking about the larger system that we're embedding
+    AI in. Everything doesn't have to be built into the one AI model and we can augment models, build systems around
+    models, taking into account their limitations and create a better overall whole system.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: Thinking about what the models are currently trained on and the masses of data used to build
+    the models, the training data is rife with discrimination against difference, right. How do we, how do they unlearn?
+    It is sort of, it matches some of the training that I do within my program, in that students have been socialized
+    with very similar things and often the issue is not learning, the issue is unlearning. How do you remove those
+    unconscious habituated values that are so embedded in our learning systems.
+    I agree, it is a huge opportunity especially with more context aware systems. Maybe what we need to pursue is, even
+    to address things like privacy, and the need to swim against this massive amount of data that's not applicable to
+    you, is on device, personalized, not personalized, because personalized, it is a term that's also sort of been
+    hijacked to mean cushioning, but individualized, let's use that term, system that takes your data and creates a
+    bottom up picture of what's needed.
+  </p>
+  <p>
+    >> SHARI TREWIN: There is definitely interesting avenues to explore with transfer learning and to take a model
+    that's been trained on data and has learned some of the concepts of the task that we want, but maybe we would like
+    it to unlearn some of the things that it has learned, can we use techniques like transfer learning to layer on top
+    and unteach the model, and direct the model more in the direction that we want. I think the hopeful thing about
+    that, it needs magnitudes less data to train such a model. That make it is a little more achievable, a little less
+    daunting for the community to take on.
+  </p>
+  <p>Do we think that current regulation systems are currently to the task of regulating current and emerging AI and
+    preventing the kind of harms you have been talking about?</p>
+  <p>
+    >> JUTTA TREVIRANUS:No. (Laughter). No, for a simple answer, I don't think so. There is so many issues. Laws and
+    policies are developed at a much slower pace. We're dealing with an uncertain, very, very quickly moving, quickly
+    adapting area. When laws well, they need to be testable. In order to be testable, we have to create these static
+    rules that can be tested, which means we have to be fairly specific as opposed to general and abstract. That tends
+    to lead us towards one size fits one criteria, which we know are not great if we're trying to design for diversity
+    or encourage diversity. I think one of
+    the things we need to innovate, it is the regulatory instruments that we can use here. What's you're thinking about
+    this?
+  </p>
+  <p>
+    >> SHARI TREWIN: Yeah. I think some of these regulatory instruments that we have do apply. If you're a company that
+    is using an AI system in screening job applicants, the disability discrimination laws still apply to you, somebody
+    could still bring a lawsuit against you, saying that your system discriminated against them, you're still liable to
+    defend against that and to watch out for those kinds of issues. In some ways, there are important pieces that we
+    need in place, that can be used to tackle problems introduced when AI systems are introduced. In other ways, there
+    is a little more of a gray area when the technology is not making discriminatory decisions, but it still may make
+    harmful mistakes or that mislead people, that people are relying on it for. You know, if anybody here has a legal
+    background, I would love to hear their take as well on how well the current consumer protections apply, for example,
+    if you're using any of these tools.
+  </p>
+  <p>>> JUTTA TREVIRANUS: I have become aware of and worried about the people for whom the law isn't adequate. The fact
+    that we have a law, the fact that we supposedly have measures that prevent abuse or unethical practice, if you are
+    still being treated unethically, it makes it even harder for you. I think that the measures that we do have, the
+    regulations that we do have, have to some way of continuously being it traded upon so that we can catch the
+    individuals that are not included. We have to recognize that our “supposed” solutions are actually not solutions.
+    This is never fixed, that it is, it requires this ongoing vigilance. Yeah. There is much more to say
+    about that. Yes. It would be great to hear from anyone with a legal background.</p>
+  <p>
+    >> SHARI TREWIN: Let's talk a little bit more about generative AI, it was mentioned in the end there. It produces
+    very multiple convincing statements when asked a question, but also, very plausible, it completely makes things up
+    and isn't always reliable. In fact, right now, is not connected to any form of ground truth, or able to assess the
+    accuracy of what it makes. One question that I think is interesting is, will this technology reach a stage where it
+    can support the kinds of decisions that we are using statistical reasoning for now, eventually. Obviously, right
+    now, it is not there yet.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: It is interesting because just recently there have been the announcements of the systems being
+    used for medical guidance, using large language models to come up with answers to your medical questions which, of
+    course, is quite… It will be interesting to see what happens.
+  </p>
+  <p>
+    >> SHARI TREWIN: Scary, I think.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: Exactly, scary. And what about the medical device given to someone within the dataset that's
+    provided, there isn't a lot of advice. Given that the system, I mean, doesn't ask any of the LLM, the chatbots, how
+    confident they are in their answers, they'll answer that they are confident, because there isn't a sense of, what is
+    the risk level, or the confidence level at this particular response setup, there is no self awareness of what's
+    wrong, what is right, what is the context in front of me.
+  </p>
+  <p>
+    >> SHARI TREWIN: That's a great opportunity there to explore whether we can enable models a little bit to know
+    better what they don't know. To know when the case that they're dealing with right now is not well represented in
+    their models or may be an outlier case that they should perhaps pass on to some other form of decision making or at
+    least convey less confidence. You know, I think generative AI today gives us a glimpse of the future, the kind of
+    interactions that are possible, the kind of ways we might interact with technology in the future. Clearly, there is
+    a research priority to ground it better in truth and it needs to be much more reliable, much more trustworthy, much
+    more accurate, but then, you know, today, it can't support the applications and the idea of using it to get medical
+    advice, it is just, that's a very scary thing. Because it is so eloquent that it is immediately trustworthy, and it
+    gets enough things right that we begin to trust it very quickly. In some ways, the advances that have been made, it
+    is so good that it really highlights the dangers more effectively.
+  </p>
+  <p>
+    I think this is interesting to think about what a human AI interaction would look like in the future. Would we need
+    to train it to identify bias and kind of work with a larger language model to adapt responses. Would we, you know
+    how automatic image description has sort of evolved. At first, we would throw out words, that may should be in the
+    picture, sometimes it was right, sometimes it would be wrong. Now you see these generated alternative texts being
+    praised in the way that conveys the uncertainty. “Could be a tree”, or something like that. I think that the large
+    language models could do something similar to reduce the chances of misleading people. They may say things like
+    “many people seem to think blah, blah, blah”, or get better at citing sources. I think there is a lot of ways that
+    we can use these in direct research to overcome some of the obvious failings that are there right now, other
+    limitations that we currently have.
+  </p>
+  <p>
+    Mark has shared in the chat that I can see, from the U.S. government regulatory side much of the current laws, or
+    regulations, they are to access government service, they're about the technical accessibility of the interfaces
+    rather than the more AI-focused questions around system exclusion or mismatch. That's coming back to our point about
+    the regulatory instances.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: I just noticed that Mark says what a Debbie Downer my talk is. I think, by design, we decided
+    between Shari and I, that I would provide the mournings and Shari would provide the optimism.
+  </p>
+  <p>
+    >> SHARI TREWIN: I have the best job there.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: I think there are quite a few questions in the question and answer panel. Maybe what we should
+    do, there are so many things to explore with the emerging models and so many uncertainties, there are some great
+    questions there as well.
+  </p>
+  <p>
+    >> SHARI TREWIN: Yeah. How about… they're jumping around on me. New questions. I know this is not in the right
+    order, but, as people are adding questions, they're kind of jumping. (Chuckle).
+  </p>
+  <p>
+    So, Bruce Bailey is asking, he says fantastic keynote, please expound on personalization having been hijacked to
+    mean cushioning. I can guess, but that term and perspective is new to me.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: I can talk about that. A way that we recognize that we're all diverse, and especially if you
+    have a disability, you are diverse from other People with Disabilities and that our needs are there for diverse, it
+    is to look at how do we personalize. Personalization, it has been used as a term to look at using recommender
+    engines, using various ways in which we're offered only information and recommendations from people like us which,
+    of course, removes any dissidence and any diverse thinking and our exposure to alternative views and perspectives.
+    To some extent, it causes us to, it causes greater polarization because we're also offered a personalized view of
+    the current stance that we're taking, so that it gets confirmed again and again and again. I'm not talking that type
+    of personalization. I'm talking about the type of personalization where the interface makes it easier for us to
+    participate and addresses our specific very diverse requirements with respect to that participation. I moved away
+    from the term personalization simply because I don't want it to be mistaken for the type of personalization that
+    cushions us away from diverse perspectives because certainly, we need to be exposed to those, that diversity of
+    perspectives and we need to consider the diverse stories that people have.
+  </p>
+  <p>
+    >> SHARI TREWIN: I think personalization is an essential part of accessibility in general but there's, you were
+    talking a particular kind of personalization. AI personalization, I'll talk a bit more in the keynote at the end,
+    about an example of AI personalization of personalized models that are permitting access to digital content which I
+    think is a, you could have, it is the lack of use of personalization.
+  </p>
+  <p>
+    Yeah, so Kave Noori from EDF, thank you for this important keynote, I have seen different toolkits to test and
+    mitigate bias in AI. What is your view on them and their usefulness?
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: We have been doing, actually as a part of a number of our projects, including ODD (Optimizing
+    Diversity with Disability) and We Count, looking at a variety of AI ethics auditing tools and also we have done sort
+    of the secret shopper, testing of employment tools, and seeing if we can detect the particular biases that comes,
+    unwanted biases, as made clear by us, the tools are intended to be biased. It is the unwanted bias as a proviso.
+    What we find, it is that they're great at cluster analysis and then they supplement the cluster analysis with a
+    number of questions that is asked by the implementer of the system. The primary technical key to the tools is
+    determining whether there is unfair treatment of one bounded group with another. That works well if you have
+    something like determining whether there is discrimination regarding gender, discrimination regarding declared race,
+    language, those sorts of things, which do cluster well. It doesn't, none of the tools really detect whether there is
+    discrimination based upon disability. Because the particular discriminating characteristics are so diffuse and
+    different from person to person, we don't see how it is possible in a litigation perspective, or in a regulatory
+    perspective, to prove that you have been discriminated against. It is going to very, very difficult to come up with
+    that proof because the particular characteristics are themselves so entangled and defused. It may not be one
+    particular characteristic associated with your disability that you would use to say, well, look at here, I'm being
+    discriminated against because of this characteristic that relates to my disability.
+  </p>
+  <p>
+    >> SHARI TREWIN: I think there are a lot of the toolkits, many of them that are in the toolkits, they're group
+    fairness metrics like you say, where, and that's an important thing to measure and to look at. When we do have the
+    ability to identify groups and to know for sure who's in which group, which one. The boundaries of the groups,
+    they're always not fuzzy, you know, there's deeply embedded assumption that there are only two genders, for example.
+    In the data, and many of the tools, and they have their problems, and disability emphasize these problems, the same
+    problems. There are also individual fair metrics in measures and some of the toolkits include some of these kinds of
+    measures. Instead of asking, is this group as a whole treated equivalently to this other group? They ask, are
+    similar individuals treated similarly? You could imagine with an approach like that, if I as an individual with my
+    unique data, I could make a case that I was discriminated against by creating another person who was similar to me
+    in the respects that are important for this job. And see what kind of result they got compared to my result, and
+    that would be a way to measure individual fairness and build up a case.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: Yeah. Yes. Unfortunately, there is not that many tools that currently do that. The
+    certification systems that currently exist are not implementing those. There is much to work on there.
+  </p>
+  <p>
+    >> SHARI TREWIN: Yeah. It is more of a case by case basis for this particular job. It is not so easy to make a
+    blanket statement about it, but I think it is not impossible to assess. Do we have time for one more? How much
+    longer do we have? Another 3 minutes?
+  </p>
+  <p>
+    >> CARLOS DUARTE: Well, you have almost 10 minutes more. You can definitely take one more.
+  </p>
+  <p>
+    >> SHARI TREWIN: Awesome. Great. Let's see. So, Fabien Berger, I feel that AI, but before it was KPIs or else, are
+    searched by managers to justify their decisions or run away from the responsibility of their decisions. It follows a
+    need for them, but with a wrong, incomplete answer. Do you agree?
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: Yes. I think the issue, and I was trying to make that point but possibly not well enough, that
+    AI is doing much of what we have done before, but it is amplifying, accelerating, and automating those things.
+    Certainly, AI can be used for confirmation bias to find the specific justification for what it is that we need to
+    justify, whether it is something good or something bad. A lot of the harms of AI already existed because of course
+    AI is learning from our past practices and our data. Because, I guess I have often used the analogy of a power tool,
+    before it was this practice that was not that we did manually, so there was an opportunity to make exceptions, to
+    reconsider, you know, is this actually what we're doing to do something different but with the power tool, it
+    becomes this much more impactful thing, and there is less opportunity to craft the approach that we take.
+  </p>
+  <p>
+    >> SHARI TREWIN: I think that's why it is really important to try to design for outliers and to consider outliers.
+    Again, I come back to this point of a system, the system as a whole, that includes AI. If we can't guarantee that
+    the AI itself is going to give us the characteristics we want, then we have to design around that, and be mindful of
+    that while we're designing. There is also, of course, the opportunity to try to clean up our data in general, if
+    there are, you know, in situations where we can identify problems with the data, we should certainly tackle that or
+    imbalances in the data, we should certainly tackle that, that's one other step and I think there are many steps to
+    fairness and to ethical application of AI and no one step is a magic solution to all of them. But, if we stay aware
+    of the risks, make sure that we're talking to the right people and involving them, then I think that we can, you can
+    at least mitigate problems and know the limits of the technologies that we're using better.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: I have been looking at some of the ethical questions that have come in. One of the discussions
+    was about the Gaussian Curve or the Gaussian center, one thing that I think, one point that I may not have made as
+    clearly, it is that, in fact, the myth that we need to have a single answer at the very middle of the Gaussian curve
+    which, of course, matches our notion of majority rules, or as the way to decide amongst difficult decisions, an
+    alternative to that, it is to address the very, very diverse edges initially and to prioritize those. Because, what
+    then happens, it gives us room to change, it helps us to address the uncertainty and makes the whole design, or
+    decision, or options that are available much more generous and, therefore, prepares us better for the
+    vulnerabilities that we're going to experience and the future. Of course, I'm an academic, to say that that
+    statistical reasoning, evidence through scientific methods is at fault is a fairly dangerous thing to say,
+    especially during a time when truth is so much under attack. But, I think what we need to do is not reduce truth to
+    statistical reasoning but to acknowledge that there are a variety of perspectives on truth and that we need to come
+    up with one that addresses the people that we're currently excluding in our notions of truth.
+  </p>
+  <p>
+    >> SHARI TREWIN: There are two minutes left I think now. Maybe we can squeeze in one more question here. Jan
+    Beniamin Kwiek asks do you think that AI and big companies driving research on it can be problematic towards
+    societal issues that don't necessarily give the highest revenue? If so, how can it be fixed?
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: Yeah. That's a huge question. The government efforts are basing their decision making on profit
+    and economic progress and impact measures. I think one of the things that we need to abandon, it is this idea that a
+    solution needs to be formulated and we need to scale it by this formula type replication. We need to recognize that
+    there is a different form of scaling, it is by diversification and that we need to contextually apply things. I
+    mean, that's one of the lessons of indigenous cultures, that what's labeled as colonialist, it is what many
+    governments are in fact still implementing even in things like social entrepreneurship. Yes, big companies, of
+    course, they're driven by profit. Is that the best approach to achieve the common good? That's a huge question.
+  </p>
+  <p>
+    >> SHARI TREWIN: It is a huge question. It would be a great one to come back to tomorrow in the symposium. Let's
+    come back to that one. I see we're out of time right now. Thank you very much, Jutta.
+  </p>
+  <p>
+    >> JUTTA TREVIRANUS: Thank you. We'll have the positive tomorrow! (Laughter).
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you so much, Jutta and Shari, a great keynote, a very interesting follow up, great
+    discussion between you both. Also, there are still some open questions in the Q&A, if you feel like tackling them
+    now offline, feel free to do so.
+  </p>
+  <h2 id="panel_CV_media_accessibility">Panel 1: Computer vision for media accessibility</h2>
+  <p>
+    >> CARLOS DUARTE: Let's move on to our first panel. The topic for this panel will be computer vision for media
+    accessibility, here we aim to foster a discussion on the current state of computer vision techniques and focus on
+    image recognition, identification, recognition of elements and text in web images and media, and considering all of
+    the different usage scenarios that emerge on the web. We'll be looking here at aspects of how can we improve
+    quality, how do we define quality for this, the quality and accuracy of the current computer vision techniques, and
+    what are the opportunities and what are the future directions for this, in this domain.
+  </p>
+  <p>
+    We'll be joined by three panelists for this first panel. Amy Pavel, from the University of Texas, Shivam Singh, from
+    mavQ and Michael Cooper, from the W3C. Great. Everyone is online, sharing their videos. Thank you all for agreeing
+    to join. I will ask you before your first intervention to give a brief introduction to yourself to let people know
+    who you are and what you're doing.
+  </p>
+  <p>
+    I would like to start on one of the issues with quality, how do we define quality here? I was looking at aspects
+    such as how do we, or how can we train AI models that are able to identify aspects in an image, such as identity,
+    emotion, appearance, which are particularly relevant for personal images. How can we get AI to do that, what we
+    humans can do. I'll start with you, Amy.
+  </p>
+  <p>
+    >> AMY PAVEL: Excellent. Thank you so much. My name is Amy Pavel. I'm an assistant professor at UT Austin in the
+    computer science department. I'm super excited to be here because a big part of my research is exploring how to
+    create better descriptions for online media. I have worked everywhere from social medias, like describing images on
+    Twitter as well as new forms of online media like GIFs, memes and I also worked on video, educational videos making
+    the descriptions for lectures better as well as entertainment videos to improve the accessibility of user generated
+    YouTube videos, for instance.
+  </p>
+  <p>
+    I think this question you bring up it is really important and I typically think about it in two ways. I think about
+    what does our computer understand about an image, and then how do we express what the computer understands about an
+    image or other form of media. So, I think that we're getting better and better at having computers that can
+    understand more of the underlying image. For instance, we have gotten if we think about something like emotion, we
+    have got an lot better at determining exact landmarks on the face, how they move, for instance, or we may be able to
+    describe something specific about a person if you look at me, in this image, I have brown hair tied back into a bun
+    and a black turtle neck on. This is a type of thing we might be able to understand using automated systems.
+  </p>
+  <p>
+    However, the second question is kind of how do we describe what we know about an image. If I gave you all of the
+    information about my facial landmarks, what I'm wearing for every context, that may not be super useful. So a lot of
+    what I think about, it is sort of how we can best describe or what people may want to know about an image given its
+    context and the background of the user. Just briefly on that point, I usually think about who is viewing this image,
+    what might they want to get out of it. Also, who is creating it? What did they intend to communicate? So, there are
+    these two questions I think give us interesting ideas on what data we could use to train, to create better
+    descriptions based on the context. For example, we might use descriptions that are actually given by people to
+    describe their own images or their identities or aspects that they have shown in videos in the past. On the other
+    hand, we might improve, we may use a bunch of different methods, and improve our ability to select a method based on
+    the context of the image. For instance, when I worked on Twitter images, we would run things like captioning to
+    describe the image like an image of a note may just say note. We also ran OCR to automatically extract the text and
+    tried to pick the best strategy to give people, you know, what we thought may be the best amount of information
+    given the image. That's my initial, I'm sure more aspects of this will come up as we have a conversation. I just
+    wanted to give that as my first part of my answer. Yes.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you so much. Shivam, you want to go next?
+  </p>
+  <p>
+    >> SHIVAM SINGH: Sure. Yeah. Hi, everyone. I'm Shivam Singh. I lead the document based products at mavQ, India. It
+    is a pleasure to be here with all of you. The question here, how should we train models dedicating on identifying
+    aspects like identity, emotion, personal appearances. That is a two part answer.
+  </p>
+  <p>
+    I'm more of a technical background, I will go a bit of technical diversity here. Preparing a data on diversity,
+    that's the first point. Most available data, it is from publicly available data. We can carefully plan and prepare
+    the data before creating our models to include the weights for peripheral data of surrounding environment, like in
+    an image, there can be a subject, and there can be a lot of careful data . If we train, choose an algorithm that
+    take care of that peripheral data as well, that will be helpful in getting a better output. For example, you have a
+    subject gesturing, its relation with the environment, and it is linking emotion to its external manifestation on our
+    subjects area. This gives a more inclusive output, if you have a user, a person, it has a better identity, emotion,
+    and appearance and there should be a […] where we could have a diverse dataset, not, but it is not totally depending
+    on the availability of data.
+  </p>
+  <p>
+    The second part of it, it would be fine tuning the model based on personal preferences. Let's say you have a better,
+    bigger model, right, you use that as a general model and then you can fine tune that based on the small, little,
+    small scale trainings and smaller datasets and you can fine tune it together to have a better result. Now, this fine
+    tuning, it is kind of a human in the loop feature, where every time you get the data you can expect some feedback on
+    your data and then perform a better output effect. That's something which is a bit of, it involves some human
+    intervention there. Yeah. That's how I see how we can train models.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Great. Thank you, Shivam. Michael.
+  </p>
+  <p>
+    >> MICHAEL COOPER: Hey. So my name is Michael Cooper, I work with the Web Accessibility Initiative. I'm speaking
+    specifically from my role there, I'm not a machine learning professional, I'm not speaking about technology so much
+    as some considerations for accessibility that I'm aware of for that. In terms of improving quality descriptions, the
+    other two speakers spoke about, you know, technically how we do it. I think we may be able to give advice on some of
+    what needs to be done. For instance, machine learning, the output should be able to conform to the media
+    accessibility user requirements and the cognitive accessibility guidance, for instance, as sources of information
+    about what will be useful to users.
+  </p>
+  <p>I'm also thinking of machine learning more broadly in terms of what tools might be used in different circumstances
+    and in particular, in the context as potential assistive technology. So the question for accessibility there is not
+    just what is the description of this image, what was the image description in this page for me, for the purpose I'm
+    seeking? You know, tools can get context from HML semantic, accessibility semantics like ARIA, and adaptive
+    technology, they can also generate their own context from machine learning algorithms. I think there is going to be
+    a need to have a way to communicate user preferences to machine learning, whether that is added to the semantics or
+    something.
+  </p>
+  <p>
+    Let's see, just a couple of closing notes on that, users need to be involved in the design and training process,
+    that's sort of something that needs to be repeated. You know, we have to pay attention to that as we look to improve
+    that. I would also note that while this session is mainly focused on, you know, images and media, virtual, augmented
+    reality has a lot of the same problems and solutions that we should be looking at.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Okay. Thank you for starting that discussion. One thing, I guess it was mentioned by all of you,
+    in different ways, it is the role of the end user and in fact, I guess both users were mentioned, the one that is
+    viewing or requiring the image or the description of the image, but also the one that's creating or sharing the
+    image. For that one, there is the responsibility of generating a description and, of course, we know most people
+    don't do that, so, that's why we also need these AI based systems to take on that role. But this leads me to another
+    aspect, if we have an AI based system that's capable of assisting both the content creator and consumer, how does
+    this impact the agency of end users? Will end users feel this is no longer their responsibility because there is a
+    tool that can do this for them, or if we explore this as something that we're now looking at this from the content
+    producer perspective, if we see this tool as something that helps someone generating a description, would this
+    producer just start relying on the output from the AI and thinking about what Jutta had introduced earlier today,
+    wouldn't the, and she mentioned this as an organizational mono culture, can we also think about the description mono
+    culture, which all descriptions would start conveying the same kind of information. What's your perspectives on the
+    impact that this has on the agency and end users? I will start with you.
+  </p>
+  <p>
+    >> SHIVAM SINGH: Awesome. It is a bit of a question. Let's say we're talking about the quality of our output based
+    on the user, right, the end user. The quality of this description depends on how end users consume it. For example,
+    most models currently provide high-level and grammatically correct captions in English, but that would not be true
+    for captions generated in other native language of other users, it may not have enough of a dataset to train the
+    model. Now, the premise of training restricts this diversity of generated captions and the use cases of what all
+    things in the model it can comprehend and then generate the caption which includes, like, the diverse text like a
+    diverse text, line an email, a date, or correctly explaining graphs, which is a big problem until now. Once a
+    translation with AI is employed, how well it becomes an input is […], for example, you can have two different
+    models, one is precise and a general one. The general output of a model can become an input for a specialized model
+    for a model and then you can refine it. This is how we're now achieving it.
+  </p>
+  <p>
+    The other thing is the caption generated by AI consumes very large amounts of data to curate content, and in many
+    cases of live caption generation, AI should put in context the earlier events or early inputs as well, and this is
+    true for a context of the conversational bots, but this can be also a talk where you have a live caption generation.
+    So you have to put some context there and then you have to generate the captions. Now, we have mature engines like
+    GPT3, but this is more complex than a simple image to text generation, the speed, and handing of the peripherals, it
+    is very much necessary. We're looking forward to a better solution where the end users are really satisfied with
+    what they're getting.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you. Michael what about the perspective from the end users, the agency of end users from
+    your point of view? I guess more the Web Accessibility Initiative role and how can we guide technical creators to
+    ensure that end users remain with autonomy to, when creating this kind of content.
+  </p>
+  <p>
+    >> MICHAEL COOPER: Yeah. So ,first I would, you know, look at, you know, what are the ways in which the machine
+    learning generated descriptions and captions increase user agency and there are ways to decrease that as well. For
+    instance, although we would prefer that authors provide these features, if they don't, providing them via machine
+    learning will help the user access the page and give them the agency that they're looking for in the task.
+    Descriptions don't have to be perfect to provide that agency. That said, it is frustrating when they're not good
+    enough, they can often mislead users and, you know, cause them to not get what they're looking for, spend time, et
+    cetera. That's a way this can be a risk for users and, as you mentioned, there is likely to be a tendency for
+    content developers to say machine descriptions are there, so we don't need to worry about it. You know, I think
+    those are, you know, simply considerations that we have to pay attention to in our advocacy, in the education work
+    in the field, also in documenting the best practices for machine learning. For instance, W3C has a publication
+    called <a href="https://www.w3.org/TR/webmachinelearning-ethics/">Ethical Principles for Web Machine Learning</a>
+    that talk about, they address accessibility considerations among others, and it is possible that the industry might
+    want a documented set of ethical principles or a code of conduct that the industry organizations signed on to saying
+    here's accessibility ethics and machine learning in addition to other ethics that we're paying attention to. Those
+    could be ways that we can support the growth of user agency in the end of this. Yeah.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you for that perspective and raising awareness to the information that the WAI group is
+    making it available. I think that's really important for everyone else to know. Amy, what's your take on this, on
+    the impact that these tools can have on the agency of end users?
+  </p>
+  <p>>> AMY PAVEL: Yeah. So I might answer this briefly from the content creator side. Say you are out to make a
+    description, how could we use AI to improve the description, improve the quality of descriptions and the efficiency,
+    rather than sacrificing one for the other? I'll start with, I worked on tools a lot in this space. I'll kind of
+    start with what hasn't worked in the past and then share some possibilities on things that work a little bit better.
+    One thing that I worked on for quite a while has been creating user generated descriptions of videos. Video
+    descriptions currently appear mostly in highly produced TV and film and they're quite difficult to produce yourself
+    because they're sort of an art form. You have to fit the descriptions within the dialogue. They're really hard to
+    make. So one thing we worked on is some tools to make it easier for people to create video descriptions by using AI.
+    So, what didn't work was automatically generating these descriptions, the descriptions were often uninteresting, and
+    they didn't provide quite the depth that the original content creator had included in the visual, in the visual
+    information of the scene, if it is simple, a house, a tree, it may get it. If it was something domain specific or
+    had something extra to it that you may want to share, it was completely missing. One thing we looked at, how to
+    identify areas where people could add description, silences or how to identify things that were not described in the
+    narration. At this point, the narration of the video talks about, is talking about something completely unrelated to
+    the visual content. People may be missing out on that visual content.
+  </p>
+  <p>
+    Rather than trying to, like, automatically generate descriptions, I think one promising approach can be to identify
+    places where people could put in descriptions or if they write a description, identify parts of the image that that
+    description doesn't cover yet. I think that there is kind of some cool opportunities to use AI in unexpected ways to
+    help people create better descriptions.
+  </p>
+  <p>
+    I'll briefly address the end user part. You know, if the user is lacking, so the person using the captions, the
+    descriptions, if they're lacking information that can decrease the ability to have agency and responding to that
+    information, right? If you give them all of the information, you know, in one, big, piece of Alt text, you may not
+    give people much agency over what they're hearing or probably not matching with the cognitive accessibility
+    guidelines that Michael had mentioned.
+  </p>
+  <p>
+    I have experimented with some ways to try to, like, maybe help people get agency over their descriptions, one thing
+    we have played with a little bit, it is, you know, asking basically alerting people to the fact that there is a
+    mismatch between the audio and visuals, for instance, in listening to a lecture, hey, the lecturer hasn't talked
+    about this piece of text that's on the slide. Would you like to hear more about it? Then people can optionally hear
+    a little bit more about it. That's something like OCR, automatically detecting text works quite well. There are
+    these opportunities that you don't want to overwhelm people with information when they're doing a task that's not
+    related, but there are some cool opportunities, I think, to give people control over when they get more information.
+    Yeah.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you, Amy.
+    Before moving to the next question I have here, there is a follow up question on this by Matt Campbell on what you
+    just mentioned, Michael. You mentioned descriptions not being good enough are a risk for user agency, what Matt is
+    inquiring is how much can this be mitigated by just tagging the descriptions as automatically generated. Can you
+    give a perspective on this, also, Amy, if you want to following Michael?
+  </p>
+  <p>
+    >> MICHAEL COOPER: Yeah. I'll try to give a quick answer.
+    So is the ARIA technology, accessible rich Internet applications, enhances HTML with the ability to point to a
+    description elsewhere in the HML document rather than providing a simple alt text and that gives you the rich
+    capability and we have that now in terms of identifying it is a machine generated description, we don't have a
+    semantic for that, but that's the sort of thing that would get added to ARIA if the use case were emerging.
+  </p>
+  <p>
+    >> AMY PAVEL: Yeah. I will also, I'm happy to also answer this question, maybe I was looking at Matt's other
+    question, kind of related, I think. Are there other alternatives that are richer than alt text alone? One thing
+    we've looked at a little bit for, I worked a little bit on the accessibility of complex scientific images. What you
+    end up with, it is complex multipart diagrams that if you try to describe in one single, you know, alt text field it
+    performs quite badly. We're kind of starting to see, like, could we automatically break that big piece of alt text
+    down to a hierarchy to match the image so that maybe people can more flexibly explore like they would basically an
+    HTML version that sort of captures the structure of the image that people could explore.
+    Kind of thinking about other ways to present all of the information that currently gets relegated sometimes to a
+    single alt text into something that's a little bit more rich.
+  </p>
+  <p>
+    >> SHIVAM SINGH: Carlos, you're on mute.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thanks.
+    What I was saying, since we have been coming always around to the topic of or to the concept of quality, also one
+    question by Mark, Mark Urban, I think, it would be interesting to know what's your take on this. So is there a
+    documented metric that measures the quality of an image description, and if there is, what would be the most
+    important priorities for the defining quality.
+    Amy, you want to go first?
+  </p>
+  <p>
+    >> AMY PAVEL: This is a hard question for me. I think that the answer is no. It is really a good, it is a really
+    good question and something that we constantly sort of battle with. So, we kind of abused in our work, you have used
+    a four point description, literally nothing, there is something in the description field but it is in no way
+    related, there is something related to the image but it is missing some key points, and this covers most of the key
+    points in the image. We kind of have been using this and what the values mean depends a lot on the domain and what
+    task the person is using the image for. But it's been like... you know, we've used this in a couple of papers and
+    it's just been like a way for us to, you know, make progress on this problem. and we have also tried to for each
+    domain we're working in, kind of tried to inform it based on existing guidelines as well as literally the existing
+    W3C guidelines and what users have told us about specific to that domain. I don't know of a good one. That's
+    something that we just sort of worked around. It would be great to have more efforts on that in the future.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Definitely something that's more qualitative than quantitative, definitely. What you just
+    described is a good way to start. So, Shivam, your take on the quality of image description?
+  </p>
+  <p>
+    >> SHIVAM SINGH: Sure. So I guess when we come to industry set up, we have certain evaluation tools, we evaluate our
+    models as well as the outputs, there's a rigorous testing that goes on, but there is no set of metrics that we have,
+    but certainly we have some rules, we have W3C guidelines, we have some other guidelines as well that are in place.
+    They are not set rules, but, yeah, we have tools as a yardstick and we can build that test based on that only. There
+    can be some work done with that, yeah, certainly this is what we have currently.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Okay. Michael, Amy just mentioned, answered looking also at the definitions that W3C provide, do
+    you want to add something
+    on how can we measure quality of image descriptions?
+  </p>
+  <p>
+    >> MICHAEL COOPER: The only thing I would really add to what she said is, so, we produce resources like
+    understanding WCAG, ,understanding the web content accessibility guidelines which goes into when you're writing the
+    image descriptions, what are the considerations, how do you make a good one. A big challenge for machine learning I
+    think, in particular, it is the quality, the appropriate description for an
+    image would depend very much on the context. We described several different contexts in the support materials and,
+    yeah, the right description for one is the wrong one for another. Sorting that out, I think it is one of the big
+    challenges beyond what others have said.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Yeah. Definitely. I have to agree with you. Apparently we're losing Shivam intermittently and he's
+    back!
+  </p>
+  <p>
+    I'm going to combine two questions that we have here in the Q&A, and the one from Jan Benjamin and the other from
+    Wilco Fiers. It is more about qualifying images than really generating descriptions for the image. Jan asked can AI
+    differentiate between, for example, functional and decorative images rather than just generating a description, just
+    differentiating between an image that needs a description and one that doesn't? And Wilco asks if it is viable to
+    spot images where automated captions will likely be insufficient, so that content authors can focus on those and
+    leave the AI to caption, to describe others that might be easier for them. Amy, want to go first?
+  </p>
+  <p>
+    >> AMY PAVEL: Sure. Yeah. I love both of these questions. I would say to Jan's question, I don't think, you know,
+    when the question is can AI do this, you know, we have tried this a little bit for slide presentations. The answer
+    is yes to some extent. It will fail some places.
+    To give you an idea of how, you know, AI could help may help detect decorative from non decorative, from more
+    informative images, like in the context of a slide presentation, it is informative images might be more complex,
+    they might be more related to the content on the rest of the slide and in the narration. Informative, they might be
+    larger on the screen and decorative on the slides might be, you know, like little decorations on the sides, they may
+    be logos, or like emojis, or less related to the content on the screen. What we have found out, we can do a decent
+    job at this, but it will fail in some cases always. Like maybe an image is included, but there is no other
+    information about it and it is tricky. In doing this, you want to be overly inclusive of the images you identified
+    as informative so that maybe you could help content authors make sure that they at least review most of the images.
+
+  </p>
+  <p>
+    I would say to Wilco yeah, that's a great idea. We have tried it a little bit on Twitter. One time we ran basically
+    a bunch of different AI methods to try to describe images on Twitter, and so for each image we try to run captioning
+    OCR, we did this URL tracing to see if we could find a caption elsewhere on the web and basically if all of those
+    had low confidence, or they didn't return anything, then we kind of automatically sent the image to get more human
+    written descriptions. Another thing we explored, users optionally, retrieving the description. It is possible. The
+    subtleties that are there, they're difficult to view automatically. At least that was a way, given how many images
+    were on Twitter without descriptions, it was sort of a way to filter out the ones we definitely need to get more
+    information from a human. Yeah.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Great. Thank you for sharing those experiences. Shivam?
+  </p>
+  <p>
+    >> SHIVAM SINGH: I guess I have been in contact with this scenario, where I had to get descriptions of images that
+    most likely will not get very sufficient on a machine description. So there are ways, tools that can do that for
+    you, on websites, there are multiple plug ins to use. You can give certain descriptions and people can put certain
+    human descriptions over there.
+    To mark them, to spot them in a scalable manner, it sometimes does not become scalable.
+    That's the whole issue.
+    You can have a tool, it may not be scalable for every user out there, every website out there. This can be done,
+    but, yeah, again, there are instances where it can be used and where it can't. The technology, that's the answer,
+    how to scale it, that's the question.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Great. Thank you.
+    Michael, do you have any input on this?
+
+  </p>
+  <p>
+    >> MICHAEL COOPER: No. Not on this one.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Okay.
+    That takes me back to one question that I had here, taking this opportunity to go back there.
+    I will start with you, Michael.
+    It's going in a different direction than what we have been going so far.
+    How do you think that we need to deal with legal copyright and responsibility issues when generating descriptions
+    with AI based models? How do we tackle that?
+
+  </p>
+  <p>
+    >> MICHAEL COOPER: Yeah. Okay.
+    You know, also, you know, not speaking as a legal professional, but issues that I know about, in general, at least
+    for accessibility, there is often a fair use, the right to transform content, but I'll circle back to that, but, you
+    know, that's the first question, but then there are issues around accuracy.
+    If a machine has generated a caption or description, you know, how accurate is that description, who knows how
+    accurate it is, and also publishing it, especially with potential accuracies can bring on liability consequences
+    even if the use is otherwise allowing that publication.
+
+  </p>
+  <p>
+    Another, you know, challenge, it is meeting requirements.
+    If accuracy is high, pretty high, but still not quite right, if it is a legal document, it may not be sufficient, so
+    depending on the accuracy of these kind of descriptions is going to be a vague, you know, legal challenge for a
+    bunch of different directions. Of course, you know, there is the benefit, the reason to do it, this still can be
+    better than nothing for many users, you know, who get used to some of the inaccuracies and it does provide
+    scalability given how image and video focused our web has become. I would highlight one of the ethical principles
+    from the ethical machine learning document is that it should be clear that the content is machine generated allowing
+    many actors to evaluate it.
+
+  </p>
+  <p>
+    Circling back to fair use, I think who is doing the generating, or publishing machine learning content will probably
+    impact that if it is a user agent and assistive technology, it is probably covered by fair use. If the content
+    producer is doing, they're probably declaring fair use for themselves but the responsibility for accuracy, it will
+    be higher for them because they're now the publisher. There are third party agents of various sorts, accessibility,
+    remediation tools, other sorts, where I assume it is a legal wild west.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Definitely. To make it worse, I guess, there are many wild wests because every country, every
+    region might have different legal constraints there. Shivam, any take on this?
+  </p>
+  <p>
+    >> SHIVAM SINGH: Yeah. So I have a holistic view of how technical this has been. This was when this is an ongoing
+    issue with a lot of countries now.
+    You see almost all publicly available data sets, right... These are the data that are associated in some or other
+    form as a copyright one. There is no frame, in most part of the world that deals with the legality of the generated
+    captions, there is no written law in any place, or it might be coming later, maybe in the U.S. first. This is a
+    complexity these are some complexities. The owning of the AI owners of the data, if it is a machine generated data,
+    who will be owning that data? The industry that built that model or the dataset that has been gathered from
+    different data sources. This is a very complex challenge.
+  </p>
+  <p>
+    The other part of it, how would you fix the responsibility? To keep that in mind, it depends on the end user of the
+    model. When you use it, in what context are you using it? For example, some of the models that are used in academia,
+    these are just for the research and development purposes, there is no way where you can fix the responsibility on
+    the academy of work. These are the this is helping in two ways.
+    This is how you source the data, either you have to get text on the data, where it is coming from, you gather the
+    data, based on written sources, you have the mutual understanding between the data creator and you, then you train
+    on the data. That gives you a complexity where you have the small dataset and there is a large input going in the
+    training to the data.
+    These are the complexities currently and yeah, it all depends on where the model or audit is being used. That's
+    where the fair use policy comes.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE:
+    Context all the way in all scenarios, right?
+    Amy.
+
+  </p>
+  <p>
+    >> AMY PAVEL: I'm not as familiar with the legal and copyright side of this. I think, you know, oftentimes I do
+    think about the responsibility aspects of the captions that we're generating, especially when doing these kind of
+    new forms of we're generating things like user generated media.
+    This more goes back to the potential harms brought up in the keynote.
+    For instance, I think one thing I'm often thinking about, when are errors not that big of a deal and when are they a
+    bigger deal? Kind of looking at their risks and trade offs in terms of who like who is receiving the image and who
+    who is getting identified by the tool and who is receiving the image. For instance, if you misidentified my shirt as
+    dark blue rather than black, this error is unlikely to be as harmful to me, but for some people might experience
+    misgendering them with image classification to be harmful. Two ways of dealing with this, you know, not to say that
+    either of them is good right now, one, a lot of tools back off the same person, rather than saying women or man.
+    Another way that you could imagine doing it, it is describing physical characteristics of the person that are less
+    subjective and a final way you may imagine doing it, it is considering people's own identifications of how they
+    would like to be described. Sometimes that varies in different contexts. That itself is a hard problem. Yeah. I
+    don't have much to say on the legal, copyright side, I wanted to bring up that's something that's come up in my work
+    before.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you so much.
+    We're almost at the end. We have less than 10 minutes, and questions keep coming. That's great. You will have the
+    opportunity, I guess, to guess try to answer some of them offline if you wish to. I'll still take another one. The
+    last one we have here, it is Antonio Gambabari. The question is how do you envision the challenges of explainable AI
+    initiatives in the context of image recognition. This relates to several of the aspects that we have dealt with,
+    with the uncertainty of images and how to convey that to users, just by labeling something as automatically
+    generated, would it be a way to convey that. Do you think that explainable AI initiatives have the potential to
+    improve this kind of augmented context for the user and where did the description came from.
+    This time, I'll start with you.
+  </p>
+  <p>
+    >> SHIVAM SINGH: I think, yes. It is a good point. Explainable AI initiative, it deals with how metadata can help
+    the end user to know the context of what's being generated, any quantitative score on any of the models , it is
+    supported by a lot of data going beyond your training. Right.
+    There is a restriction though, whatever things you're getting an output, the metadata can, there are multiple layers
+    of training if you look at the training. There are multiple layers of training. How it is made by AI, it gives a
+    different level of metadata but not all. It could augment the user but that won't be the complete solution. That's
+    how I see it.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Amy, any thoughts on this.
+  </p>
+  <p>
+    >> AMY PAVEL: Yeah.
+    That's a good question. I don't know.
+    I think some things, one thing I would think about a little bit in this, and I have had to think about before, it is
+    sort of, like, the trade off between receiving information efficiently and explaining where you got all of that
+    information from.
+    I think both are important. I think maybe, like what my experience has been, users are used to certain different
+    types of errors and can recover from them quickly.
+    For instance, like when a user is reviewing their own content, for example, they took picture, video, and they hear
+    something described as a leash. I have had the experience of users being like, Oh no, that's my cane, it always
+    calls my cane a leash. In some cases, people can get used to identifying the errors for the known unknowns. This is
+    just a wrong identification, I'm used to it. I think it is harder to recover from errors that are unknowns,
+    unknowns. There are no other contexts about it, you don't know what else it could be. Maybe in the cases where the
+    users haven't identified it before that confidence, that information is extra important and so, yeah, not really
+    sure what the answer is.
+    I think that considering the balance between what is important and to know more information about this, will be a
+    tricky design question, a question for how to develop technology.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Great. Thank you.
+    Michael, any input on this one?
+
+  </p>
+  <p>
+    >> MICHAEL COOPER: No. I would just add to all that, you know, this again falls into the question of ethics,
+    transparency and explainability, it is one of the section of the machine learning ethics and addresses several
+    aspects of knowing how the machine learning was built, it should be auditable for various issues. These ethics are
+    probably less specific to some of the use cases that we're discussing in the symposium so there may be room for
+    adding to this section of the document.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Yeah. Yeah. I think that may be a good idea.
+    I'll take just a final one, going back to the topic, one from Matt, it is something that we have touched upon
+    before. I'll mention you this, Michael, we have mentioned this already in the scope of ARIA, the question is about
+    having richer alternatives for the image description, to the standard alt text, which is usually short. What are the
+    thoughts on the usefulness of having richer descriptions for image alternatives.
+
+  </p>
+  <p>
+    >> MICHAEL COOPER: As far as the general idea in terms of the usefulness of making use of richer descriptions. So,
+    for very simple images, as for the way that the web has started, images were largely providing small functional
+    roles, things were sufficient for many cases, images are now used nowadays for a variety of purposes and some are
+    reducible to an alt, like a photo of my dog, it is not really providing the experience.
+    You know, there is definitely a need for richer alternatives and longer alternatives, ones with structures to skim
+    them, depending on the context, ones that you can provide links to the necessary bits of alternative data, the
+    question about images on charts, often the description for a chart is much more structured semantically than for
+    other kinds of images, and you want to be able to take advantage of a rich text mark up. I believe that assistive
+    technology, they're supporting, you know, rich text descriptions whenever available, it is a question of getting
+    people to use them more.
+    For machine learning generated, I would rather than do richer rather than less rich output.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Yeah. Following up on that , for Shivam and for Amy, by having richer and longer descriptions, are
+    we increasing the chances that AI generated descriptions will mess up or isn't that a risk? Who wants to start? Amy?
+  </p>
+  <p>
+    >> AMY PAVEL: Sure. I think we're definitely I agree, oftentimes the more detailed that you get, the more
+    opportunities there are for errors. A way we have kind of explored this a little bit, is seeing bring especially for
+    very informative images, that maybe a lot of people will see, we thought of how to combine automated tools with
+    human written descriptions to hopefully make some of the descriptions better, maybe automated tools could help you
+    help automatically extract the structure of the image and humans go in to write more detail about the parts of the
+    image that are really unlikely to be fully described by the computer.
+    For now, the way I think about the complex images, it is often in a how are we going to help humans create
+    descriptions more efficiently by still maintaining high quality, rather than thinking of how to do it fully
+    automatically based on the images I have looked at in the past. Yeah.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you. Shivam, any input?
+  </p>
+  <p>
+    >> SHIVAM SINGH: I think the inspiration behind this question would be to give us structure to the output. So it is
+    a structured output that makes more sense than to have a fallback estimate.
+    You can provide more information to the output but the output would, should be shorter and more explainable, it may
+    be grammatically incorrect, that could make more sense to the end user and he may have another option to explain
+    that. It's not like you have a string generated out of an image, right? When you read out to a screen, right, it
+    should concisely read it, short, briefly. And for more description, there should be some other excellent data can be
+    supplied to it. And then there are multiple ways we can do this. But the description of an ultimate should remain
+    concise and grammatically correct. So that screen readers can try to read it, but that's how I see it.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Okay. Thank you so much. And I want to thank the three of you once more for agreeing to take part
+    in this panel, also for agreeing to take part in the next panel. So as we can see, media accessibility, it's really
+    a rich topic and definitely computer generated descriptions are also linked with natural language processing. So
+    what that will be the topic for the next panel in just under 10 minutes. So we'll have a coffee break now and I hope
+    everyone's enjoying, and we'll be back at ten past the hour.
+  </p>
+  <h2 id="panel_NLP_media_accessibility">Panel 2: Natural language processing for media accessibility</h2>
+  <p>
+    >> CARLOS DUARTE: Welcome to the second panel of the first day.
+    This panel will aim to discuss the current status of natural language processing techniques, and, here in the
+    context of the web we can think or, we know that they can be used to generate textual descriptions for images and
+    also for other visual media presented on webpages.
+    We'll focus today our discussion or, or start to consider aspects such as providing understandable text to better
+    meet web user needs and the different contexts of use, and also what are future perspectives for natural language
+    processing on web accessibility or to support web accessibility.
+    I'm glad to welcome back Michael, Shivam and Amy, there you are, Amy!.
+    Also to welcome Shaomei Wu from Almpower.org who agreed to join us on the second panel of the day. I welcome you all
+    back, welcome, Shaomei.
+    For the first intervention, I ask you to briefly introduce yourself, your three other copanelists have already done
+    that in the previous panel. No need to reintroduce yourselves.
+  </p>
+  <p>
+    I will start by thinking about once again the quality, we go back to the quality topic and now the quality of
+    machine generated descriptions and now no longer from the perspective of image processing but from the perspective
+    of the natural language generation. How do we improve the quality of the machine generated descriptions, especially
+    taking into account the personalized preferences from users.
+    I will start with you, Shaomei.
+  </p>
+  <p>
+    >> SHAOMEI WU: Thank you all for having me here today, my name is Shaomei Wu, and right now I'm the founder and CEO
+    of Almpower.org, a non profit that researches and cocreates in empowering technology for marginalized users and
+    first of all, I want to also share that I do have a stutter. You may hear that there'll be more pauses when I talk.
+    Before Almpower.org, I was a research scientist at Facebook leading a lot of research and product work on
+    accessibility, inclusion, equity.
+    One of the products that I shipped was automatic alt text, a feature that provided short and machine generated
+    description of images on Facebook and Instagram to screen reader users in realtime.
+  </p>
+  <p>
+    When it comes to quality of automated Alt text and other familiar systems, we saw two biggest areas of development
+    that we wanted to do. The first one is accuracy, which I think we talked a lot about in the last panel as well and I
+    want to talk a bit more about the second one which is the richness of the descriptions. To be honest, what we
+    generated, the alt text, it was quite limited, and a lot of users, many say it is more of a teaser, oh, yeah, people
+    smiling, pizza, indoor, but no more than that. What kind of environment is it? Is it a home? Is it a restaurant? So
+    I think our users, they really wanted kind of get all kind of all the richness of someone who has eyesight can see,
+    can handle the access.
+  </p>
+  <p>
+    One particular kind of area that users want to know more, it is about people, who they are, how do they look like,
+    race, gender, even how attractive they are, because that is something that's socially salient. That was a kind of a
+    big challenge for us, when we were designing our system because, like how can we share those kind of attributes in
+    the most accurate, and kind of socially conscience way.
+    We actually chose not to show the race and the gender of the people being photographed, which we got a lot of
+    complaints on, but how to kind of look at this in a socially respectful way and I think it is you know, we should
+    really work on this and now I can see handling a few ways that we can make that better. For example considering the
+    relationship between kind of people in the photo and viewers, for example, like if they're friends, then we can put
+    in the name, you know, other things about those people, and another thing, it is kind of to give progressive
+    details, so to have some kind of an option to kind of allow the consumer to kind of request more details that we
+    cannot just provide by our systems.
+    I will be done here and allow other panelists to talk.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you, Shaomei Wu.
+    Shivam, your thoughts on how can we improve the quality of machine generated descriptions?
+  </p>
+  <p>
+    >> SHIVAM SINGH: This is a two part thing.
+    When you come to technically implementing models, how you have designed the model, how you have trained them, and
+    who are the stakeholders of designing a particular model, it is very much necessary and how they're going to get the
+    quality machine generated description.
+    When we take into account users personalized preferences, this is two parts. Let's first take an example. I am a
+    person who knows Spanish, right, my model, a very famous model, it gives descriptions in English. So now the model,
+    whatever the consumption of the model is, let's say you use an API to consume the model. That should take into
+    account the personalized preferences of the users of the language and write the output based on that as well. This
+    diversity of model to prepare output in multiple formats and languages, it is something that can be looked into,
+    this is how the quality of machine generated description increases. Now, you did not train the complete model
+    separately. What you can do is to create post-processing scripts for the models and that can help end users. There
+    is not much of an effort when we say as a model training input, it is a simple solution to what can be the solution.
+  </p>
+  <p>
+    The other thing is, how you prepare the quality data. You should fully and carefully categorize it, the structure of
+    the data, if needed, and let's say you have input data that are blurred images and all sorts of this.. You have to
+    carefully prepare the model and train the data, and based on that, the description would be a bit more clear and the
+    personalization would also be affected when you look into how you can post process the data for certain groups of
+    people.
+    That's how I see it.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you.
+    Amy, want to share your experiences.
+  </p>
+  <p>
+    >> AMY PAVEL: Sure.
+    A couple of ways that I have seen that are sort of promising to use NLP to improve quality, one thing I have seen
+    recently, people starting to consider context around the image that's going to be described to maybe create a
+    description that's more helpful. Imagine someone writes a post on Twitter, and they have coupled that post with an
+    image. Considering the post and the image together, maybe it may inform models on how to create something that's
+    more informative. For instance, if I posted a picture of myself snowboarding, I said I learned a new trick, then it
+    may be important to tell me what trick you learned. Whereas on the other hand, I said I just went on vacation, you
+    know, the exact trick may not matter as much. I think that the idea of, like, using language understanding to get
+    more information about the context before making a prediction is promising.
+  </p>
+  <p>
+    Another way I have sort of seen it used to maybe improve the quality, it goes back to the other answers that were
+    given. Maybe you can use question answering about the image to gain more information when you need it. One thing I
+    have also thought about, it is seeing if maybe users could give examples of their preferences about descriptions in
+    natural language. This is an example of a description, maybe we can copy the style of this description when we're
+    applying it to other descriptions. Maybe I like to hear about the costumes someone wears in a video and I wish that
+    future descriptions could include more information about that rather than summarizing them.
+  </p>
+  <p>
+    Finally, one other way, I have used NLP to improve quality, it is also based on summarization. So there can be times
+    when there is more to describe than time to describe it, especially videos, there is often a really small amount of
+    time to describe without overlapping the other audio. One way you can use NLP to improve that quality, it is by
+    trying to summarize the descriptions so that they fit within the time that you have. They don't decrease the
+    experience of people trying to watch the video and hear the audio at the same time. Yeah.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Yeah.
+    That's a good use for NLP.
+    Michael, still on this topic, I would like to have your perspective on initiatives on WAI that may assist users in
+    providing their preferences, so that eventually models can use those for anything that may be ongoing in that
+    regard.
+  </p>
+  <p>
+    >> MICHAEL COOPER: Yeah.
+    First of all, to repeat this, for anyone doing this session that I'm not a machine learning professional, I'm
+    speaking from my perspective of the work on the Web Accessibility Initiative.
+    I want to talk briefly, other panelists covered almost anything that I would have said. One thing that, based on my
+    knowledge of how machine learning works generally today, and models tend to be focused on, you know, a particular
+    ability and it is not universal and in the future AI models will have more abilities combined and so there may be
+    more than one model recognizing this is a human, here are the attributes, another one saying that is this human, and
+    another one that can say this human plus that human equals this relationship. All of that information I believe is
+    separate right now. The ability for models to share context, it is going to be the part of the solution that we
+    need.
+  </p>
+  <p>
+    What I can speak of from the Web Accessibility Initiative, we are only beginning to explore what AI and
+    accessibility means and this symposium is part of that process.
+    We have a practice of doing research papers, sort of literature reviews and then proposing accessibility user
+    requirements. That would be something that we could be working on to start gathering this information and from there
+    we decide what to do with it, does it go in guidelines, new technologies, whatever. I think most of the resources
+    around AI would fit into new resources for those categories.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thanks.
+    I would like to now move on to addressing something that was at the core of the keynote, discriminating bias, or any
+    other sort of bias. Here looking at something that's been entered in the Q&A for the previously panel but I think it
+    is also very well, it fits well into this topic, and it brought out the use of large language models (LLMs) which
+    are currently getting a lot of attraction and a lot of spotlight.
+    Do you think this LLM can open up new avenues, Antonio Gambabari mentioned for reducing different types of bias that
+    we see as a result of the use, of AI training models? Shivam, you want to go first this time?
+
+  </p>
+  <p>
+    >> SHIVAM SINGH: Yeah. Sure. Sure.
+    This is quite a question, which has been close to my heart as well, how to address social bias in Large Language
+    Models. Right. We have seen a lot of trainings on this, so socializing this, this is also data that they have been
+    trained on, how the social attitude is of the data presented within that model. Most of the available data, it is
+    used to train models and we use old ones, containing a certain degree of bias, most of the data generated on the
+    Internet, it is basically those, people who can consume it, it is not everybody, some don't even know what the
+    Internet is, they cannot create data over there.
+    Most of the data available to train the model is based out of that. That's how you see the bias in one way.
+
+  </p>
+  <p>
+    The other instance I can give an example, you will see a lot of violence, homelessness, other things, all of those
+    things are over represented in the text and that's, these are both not similar, but you will find these kinds of
+    representations in the LLM outputs.
+    How to address this, there is another way of human in the loop feedback on existing models where you provide some
+    feedback to the already existing model, that this is the sort of output that's not correct, this can be a correct
+    version, this can be another version.
+    Some human interface is needed with that. Now, this aspect of the data, it is a representation of the models now and
+    the underlying data of model, the main source of the issue here. You need to correctly source the data and correctly
+    structure the data so that you're not over representing one section of data, for example, let's say that you have a
+    bigger society and the society can be underprivileged, over privileged, maybe other sections of the society. You
+    cannot just take the data from one section of society and train that model and say this is a picture of this
+    particular area. There are many areas underrepresented, that's happening with all of the models at the start of LLM
+    you can see.
+
+  </p>
+  <p>
+    Now, what we can also do to mitigate this, you can create an inclusive workflow and develop the models and the
+    designing of that model and you give the inclusive workflow training to them, you get them aware of what's happening
+    and what and how to mitigate this. All of the persons who are included in the generation, there is a lot going on, a
+    lot of data extraction goes on. All of these people can be trained for inclusiveness. There are multiple tools that
+    help to us do that. Like, if you're creating a model, you can test that and Google helps us, Google has the tools,
+    how the models are performing when you talk about a lot of inclusive outputs of the data. Also, you need to do a
+    thorough testing of the models when you go ahead to include tha,t all of the outputs, they're properly aligned and
+    properly represented, all of the sections of the model which it is intended to be used, it should be represented
+    well. The testing, it should be there in case of any models that you're creating. Now we have noted that we're at
+    the stage that AI and LLMs, they're quite mature right now and we're seeing a lot of data technologies and we can do
+    this going forward, I guess this can be a solution.
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you, Shivam. Shaomei, can I have your input on how can we address social bias or other types
+    of bias?
+  </p>
+  <p>
+    >> SHAOMEI WU: Yeah. So on these, I want to kind of go back to what I had talked about before, in particular on the
+    sensitive social identities about people on the photos.
+    I don't see a good way for the current machine learning system to accurately come out with those labels. The key
+    kind of issues here, it is a lot of those systems, they really assume these like fixed social categorizations such
+    as race and gender.
+    I think maybe we should think beyond the machine learning systems and kind of find the way to kind of attribute
+    people respectfully through, you know, having the agencies, of those being photographed and being described.
+    For example, I think now a lot of people has been kind of intensifying their pronouns in their social media bios,
+    all of this information should be made use of or should be kind of made use of when assigning on the way that we're
+    describing the gender of somebody in the photo.
+  </p>
+  <p>
+    We have the other directions that we have been exploring, it is sort of describing the appearances instead of
+    identities.
+    For example, kind of describing skin tones or hairstyle and outfit instead of assigning a kind of race or a gender
+    label of somebody. I don't think any of those solutions can really adjust the kind of the real cause of the problem,
+    so I don't really have a very good answer on this. I think maybe we should, maybe the alternative, is to kind of
+    think of a way to come away and kind of share who we are., so much relying on the images like we are today. You
+    know, how can we convey the information that we want to share online in a not so visual centric way. I think that's
+    kind of a bigger question.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you, Shaomei Wu. Amy, next, to you
+  </p>
+  <p>
+    >> AMY PAVEL: I think that the prior answers mostly covered the things I was going to mention. I loved Shaomei Wu's
+    answer about describing ourselves in ways, or like figuring outweighs that don't rely on the visual information and
+    giving agency to people to add their own identities that they want to be shared.
+    I will say that I think that depends in different context, you may want to share different parts of your identity if
+    it is important to you and you might, I think, even things that give end users agency may have a lot of subtlety and
+    how they would be applied in different cases. I like the idea of describing, you know, aspects of appearance. I
+    think you're missing one challenge with that, you might be sort of trading off between these aspects of appearance
+    that you're describing and the efficiency with which someone can, like, maybe they're not going to get the
+    information as quickly as a sighted person would perceiving that person and just because, you know, audio occurs
+    over time. I think that it is an extremely difficult challenge and in some cases it can matter, like I can imagine,
+    you know, seeing a photograph of the leadership of a company, you may want to know some quick details about the
+    demographics of who is leading it for instance?
+
+  </p>
+  <p>
+    One thing, I have noticed, it is that it is sort of related to this. You know, when I'm, when I'm asking, so I
+    sometimes, you know, have people describe videos. There can be a lot of differences in which aspects, even if
+    they're going to describe the aspects of someone's appearance, the way they describe those based on who is in front
+    of them can also differ based on biases people have.
+    So if people see a women, they may describe her differently than they would describe a man, they may focus on
+    different aspects of appearance and different things going towards describing aspects of appearance will have to be
+    very carefully designed and it feels like a challenging problem. Yeah.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you so much, Amy.
+    Michael, any thoughts on this and I would add something here, especially for you, it is that do you see any future
+    role of accessibility guidelines in contributing to preventing bias in machine learning generated descriptions or
+    whatever results in these models.
+
+  </p>
+  <p>
+    >> MICHAEL COOPER: I have an answer for that question, it could be longer than my prepared answers. Let's see where
+    we go.
+    I would like to add a couple of thoughts to what others have been saying, I want to first categorize bias, we're
+    talking so far of being labeled bias in recognition, is there biases of how machine learning recognizes objects,
+    people, et cetera, context, and in that, one thing that magnifies this challenge, in accessibility context, it is
+    that the sample size of People with Disabilities can be smaller in various training sets and there is a risk that,
+    you know, images of People with Disabilities, the training set, contexts that are important for them, wheelchair
+    ramps, something, it will be excluded as outliers or will be less well recognizable by the AI than, you know, the
+    images of other people.
+
+  </p>
+  <p>
+    You know, that's just another, another added dimension to the aspects that we need to look at.
+    We also need to look at the bias in the application of this. You know, we have talked a few times during the session
+    about the risk of relying on machine generated descriptions and captions as being good enough, whereas content that
+    has more mainstream audience may also have captions and descriptions that get more curated in what you will call
+    assurance. That kind of bias could creep in and that can magnify the impact on disability bias because it can cause
+    people to be excluded from the fora that, from which people are recruited to be part of training sets, et cetera.
+    So again, the ethical principles of where machine learning speaks to that, and I think we may be identifying some
+    content that we need to add to that.
+
+  </p>
+  <p>
+    Moving on to what WAI can do about that, you know, I do believe it is within the scope of the Web Accessibility
+    Initiative, or the W3C to provide guidance in some form about how AI and accessibility should work together
+    addressing many of these things.
+    You know, typically, this sort of thing would be a Working Group note which means it is a formal document published
+    by the W3C that has a certain level of review. There is even opportunities for versions that have had more review
+    and sign off. I think that's one thing we may need to do.
+
+  </p>
+  <p>
+    I will talk briefly about the work that we're doing on the Web Content Accessibility Guidelines 3.0, sorry, the W3C
+    accessibility guidelines or WCAG3, it is a substantial re-envisioning and it has been a clarifier since the
+    beginning that he want to address , that we want to address equity in the guidelines, how to make sure they're
+    equitable to People with Disabilities. We have explored that in certain ways in the Working Group really unpacking
+    that, understanding the relationship with equity, accessibility, bias and other dimensions. That's turning, you
+    know, we're connecting that with other work W3C has been doing to make itself more equitable of an organization and,
+    you know, this is to say that I believe that WCAG3 will have some structure built in and support resources
+    addressing the issues of bias specifically.
+    These are hopes, not promises, but, you know, that's the direction from activities like this.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you so much.
+    Those are exciting avenues we hope will come to fruition in the near future.
+    I guess final question for everyone, and it is I would like to know a bit about your future perspectives on the use
+    of Natural Language Processing for the field or in the field of accessibility.
+    I will start with you this time, Amy.
+
+  </p>
+  <p>
+    >> AMY PAVEL: I think this is an exciting area.
+    One thing, one shift I have found recently among people in NLP I talk to, as models are getting better at creating
+    fluent text that looks reasonable that a lot of people are becoming more interested in what are the actual
+    applications of this and how can we build tools that support these applications, rather than relying on automated
+    metrics and that may not capture people's experiences.
+    I wanted to note that that's a direction that I find exciting.
+    A couple of things that could be promising and I mentioned them in other response, you know, as we gain the ability
+    to describe more and more about the image, I think that NLP can provide a really good opportunity to personalize
+    those descriptions based on the person and what they want as well as the context.
+    There is, if you think about walking in a room, there is so much you could possibly describe, if we could make it
+    easier for people getting the information they're looking for quickly from their media, that would be a great
+    improvement and, you know, combining computer vision to recognize things in the underlying image and using something
+    like NLP to summarize that description I think is promising and exciting.
+
+  </p>
+  <p>
+    Another way I think I'm excited about it, it is opportunities to maybe help people with their own description tasks.
+    When we have humans working on descriptions, it is really hard. You know, novices sometimes have a hard time
+    remembering and applying the guidelines that exist. Maybe we could rewrite people's descriptions of videos to be
+    more in line with how an expert would write them by making them more concise or changing the grammar a bit so that
+    it fits what people are expecting from their guidelines, or we may alert people to aspects of their own descriptions
+    that may need, that could be changed a little bit to perhaps reduce something like bias that they have in a
+    description.
+    There is really lots of exciting opportunities in terms of authoring descriptions as well as making the end
+    descriptions a little bit better.
+    Yeah.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Great, thanks a lot. Shivam.
+  </p>
+  <p>
+    >> SHIVAM SINGH: I see a bit more of an opportunity now than earlier because now model engines are advanced.
+    I see a good context aware solution giving you faster processing of data and it works on text, videos and audio.
+    This could be a reality. A good use case I have been following also, it is how to make the academic textbooks,
+    academic assignments, they have multiple graph, all associated data, if some models could create better
+    understanding of those things, it would help a lot of people in understanding who has difficulties, or maybe in
+    absence of good quality descriptions of these charts, I see this happening in the next few years. As a closing
+    comment, I would say there are different sets of consumers of media, right. Some can read but not comprehend, some
+    can comprehend easily and have difficulty consuming it visually. In that sense, the coming, NLP technology, it would
+    help designers of contextual description of outputs and that I will say in simple terms, if you give me a simple
+    efficient output that's familiar, aesthetic, it would be the pinnacle of what I see as NLP. These are for natural
+    language processing, understanding as well as generation for all technologies.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you. Exciting times ahead, definitely.
+    Michael, you want to share your vision?
+
+  </p>
+  <p>
+    >> MICHAEL COOPER: Based on my knowledge of how machine learning and how present day works, the tools tend to be
+    more focused on specific abilities which means that the context is isolated. I think I'm speaking more of the person
+    working in the field, recognizing a need that may not be a technological potential, but in the Internet of Things
+    used as APIs to exchange data between different types of devices and if we can model some structure and share
+    context with each other, the tools, and negotiate a better group description, I think that may be an opportunity for
+    early evolution of this field.
+    Long term, of course, tools will emerge with greater sense of context built in, but that will probably be another
+    tier/similarity/whatever, that's my view on the near term future based on my knowledge.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Good suggestions to look at also.
+    Shaomei.
+
+  </p>
+  <p>
+    >> SHAOMEI WU: Yeah.
+    Looking into the future, I can see kind of two areas that I think will have a lot of potentials.
+    First one, it is from the technology perspectives which I agree with my colleagues, I see a lot of gain in kind of
+    incorporating the context surrounding photos and by taking advantage of the recent progress in deep learning models
+    that handles the modal representations spaces. So we can embed both the image as well as the kind of text
+    surrounding it and then going through the metadata, the author, you have the time where the photo was taken or
+    posted. A lot of those, they can be kind of joined and represented in a sufficient space that provides us a lot more
+    than just visual information alone. I think that's kind of a big technology breakthrough that we can see in the near
+    term future. The kind of second thing, I think it is more important to me, it is a use case perspectives. I think
+    right now when we think about or talk about the media accessibility, we are mostly thinking about the consumption
+    case, how do we help somebody that cannot see to kind of, to consume the photos that are posted by others, and
+    mostly posted by sighted folks. I think it is equally important but largely kind of overlooked, it is a media
+    creation use cases, so how can we support people with visual impairment to create and to kind of share photos and
+    videos.
+
+  </p>
+  <p>
+    In my own work, into these use cases, which is why there is such a gap in what the current technology can do, for
+    example, all of the modern AI models, they really failed when it came to processing photos taken by people with
+    visual impairments because they're just not in the same kind of photo that are used and share. You know, there is a
+    huge gap in what kind of current, like, the current fundamentals of those models and what they can do.
+    Then second, it is there is a need for a lot more personalized and aesthetic needs. I take 10 selfies, I want to
+    find the one that I want to post to kind of share who I am and that is , we cannot do, you know, we can kind of tell
+    you, okay, you have ten photos, and they are all kind of containing your face inside, but then how can we share the
+    models that really kind a represent somebody's taste and somebody's kind of aesthetics and that's another
+    interesting future development that I want to see. That's all.
+
+  </p>
+  <p>
+    >> CARLOS DUARTE: Thank you so much, Shaomei Wu.
+    I think we only have 4 minutes more. I won't risk another question because we need to end at the top of the hour. I
+    will take the opportunity to once again thank our panelists. I hope everyone enjoyed it as much as I did. It was
+    really interesting, very optimistic perspectives so that we can see that it is not just the more risky or risk
+    enabling outputs that AI can have.
+    It is nice to have this perspectives.
+    Thank you once again, Shivam Singh, Amy Pavel, Shaomei Wu, Michael Cooper, it was brilliant to have you here.
+
+  </p>
+  <p>Thanks, everyone who attended. We'll be back tomorrow starting at the same time, 3:00 p.m. Central European time. I
+    thank you to those attending especially on the West Coast of the U.S. where it is really early and also India, I
+    guess it is the other way around, right, where it is really late, Shivam, thank you all for joining.
+    So as I was saying, tomorrow we'll start at the same time, we'll have another two panels, first panel on machine
+    learning for web accessibility evaluation and in the second panel we will come back to the topic of natural language
+    processing but now focusing on accessible communication and we'll close with what I'm sure will be another really
+    interesting keynote, from Shari, and looking forward to a similar discussion between Shari and Jutta Treviranus at
+    the end of the keynote. Thank you again, Jutta Treviranus, for your informative, provoking keynote. I hope to see
+    you all tomorrow.
+    Good bye!
+  </p>
+
+</body>
+
+</html>
