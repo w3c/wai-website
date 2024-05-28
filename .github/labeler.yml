@@ -60,6 +60,8 @@ std-harmonization:
   - wai-std-harmonization
 teach-advocate:
   - wai-teach-advocate
+video-introduction:
+  - wai-video-introduction
 w3c-process:
   - wai-w3c-process
 wai-adapt:
