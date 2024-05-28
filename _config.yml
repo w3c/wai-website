@@ -161,42 +161,63 @@ defaults:
       path: "_perspective-videos"
     values:
       layout: "default"
+      github:
+        repository: w3c/wai-perspective-videos
   - scope:
       path: "_people-use-web"
     values:
       layout: "default"
+      github:
+        repository: w3c/wai-people-use-web
   - scope:
       path: "_planning-and-managing"
     values:
       layout: "default"
+      github:
+        repository: w3c/wai-dynamic-planning
   - scope:
       path: "_accessibility-training"
     values:
       layout: "default"
+      github:
+        repository: w3c/wai-develop-training
   - scope:
       path: "_tips"
     values:
       layout: "default"
+      github:
+        repository: w3c/wai-quick-start
   - scope:
       path: "_policies"
     values:
       layout: "policy"
+      github:
+        repository: w3c/wai-policies-prototype
   - scope:
       path: "_older-users"
     values:
       layout: "default"
+      github:
+        repository: w3c/wai-older-users
   - scope:
       path: "_about"
     values:
       layout: "default"
+      github:
+        repository: w3c/wai-about-wai
   - scope:
       path: "_posts"
     values:
       layout: "default"
+      github:
+        repository: w3c/wai-news
+        label: wai-news
   - scope:
       path: "_audiences"
     values:
       layout: "sidenav"
+      github:
+        repository: w3c/wai-audiences
   -
     scope: 
       type: "patterns"
