@@ -41,7 +41,7 @@ repository: w3c/wai-website
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
 # remote_themes are an extension for Jekyll running in GitHub pages and are a GitHub repo 
-remote_theme: w3c/wai-website-theme
+remote_theme: w3c/wai-website-theme@github-file-path
 
 paginate: 5
 paginate_path: "/news/:num/"
@@ -52,21 +52,18 @@ collections:
     area: "Accessibility Fundamentals"
     name: "Web Accessibility Perspective Videos"
     shortname: "Perspective Videos"
-    repository: w3c/wai-perspective-videos
     output: true
     acknowledgements: true
     permalink: /:collection/:path/
   people-use-web:
     area: "Accessibility Fundamentals"
     name: "How People with Disabilities Use the Web"
-    repository: w3c/wai-people-use-web
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
   planning-and-managing:
     area: "Plan and Manage"
     name: "Planning and Managing"
-    repository: w3c/wai-dynamic-planning
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -74,7 +71,6 @@ collections:
     area: "Teach & Advocate"
     name: "Accessibility Training"
     shortname: Trainings
-    repository: w3c/wai-develop-training
     output: true
     acknowledgements: false
     permalink: /teach-advocate/:collection/:path/
@@ -82,7 +78,6 @@ collections:
     area: "All Areas"
     name: "Tips for Getting Started"
     shortname: Getting Started Tips
-    repository: w3c/wai-quick-start
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -91,7 +86,6 @@ collections:
     name: "Web Accessibility Laws & Policies"
     shortname: "Laws & Policies"
     parent: "/planning/"
-    repository: w3c/wai-policies-prototype
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -103,7 +97,6 @@ collections:
     area: "Plan & Manage"
     name: "Older Users"
     shortname: "Older Users"
-    repository: w3c/wai-older-users
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -112,7 +105,6 @@ collections:
     # area: "Plan & Manage"
     name: "Roles"
     shortname: "Roles"
-    repository: w3c/wai-audiences
     output: true
     acknowledgements: false
     permalink: /roles/:path/
@@ -120,7 +112,6 @@ collections:
     parent: "/"
   about:
     name: "About"
-    repository: w3c/wai-about-wai
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
@@ -129,7 +120,6 @@ collections:
     output: true
     permalink: /news/:year-:month-:day/:title/
     parent: "/news/"
-    repository: "w3c/wai-news"
   patterns:
     title: Patterns
     permalink: WCAG2/supplemental/:collection/:name/
