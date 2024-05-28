@@ -38,6 +38,8 @@ mobile:
   - wai-mobile
 news:
   - wai-news
+older-users:
+  - wai-older-users
 org-policies:
   - wai-org-policies
 planning-policies:

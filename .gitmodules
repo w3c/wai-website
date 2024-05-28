@@ -26,10 +26,6 @@
 	path = _external/resources/wai-people-use-web
 	url = https://github.com/w3c/wai-people-use-web.git
 	branch = master
-[submodule "_external/resources/wai-older-users"]
-	path = _external/resources/wai-older-users
-	url = https://github.com/w3c/wai-older-users.git
-	branch = master
 [submodule "_external/resources/wai-perspective-videos"]
 	path = _external/resources/wai-perspective-videos
 	url = https://github.com/w3c/wai-perspective-videos.git
