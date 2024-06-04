@@ -1,0 +1,5 @@
+---
+title: "Accessibility Conformance Testing (ACT) Rules Format 1.0 First Public Working Draft"
+date: 2017-05-06
+---
+<p><a href="https://www.w3.org/TR/act-rules-format/">Accessibility Conformance Testing (ACT) Rules Format 1.0</a> has been published as a First Public Working Draft. It specifies a common format for accessibility test rules, and how to write test procedures for quality assurance. It facilitates harmonization of automated, semi-automated, and manual accessibility testing approaches, and helps organizations to better document and share their testing methods. Please comment by <strong>5 May 2017</strong>. More information is in the blog post <a href="https://www.w3.org/blog/2017/04/wcag-accessibility-conformance-testing-act/">WCAG Accessibility Conformance Testing (ACT)</a>; Read about the <a href="https://www.w3.org/WAI/GL/">Accessibility Guidelines Working Group</a> and the <a href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a></p>

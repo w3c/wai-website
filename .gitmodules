@@ -10,10 +10,6 @@
 	path = _external/resources/wai-policies-prototype
 	url = https://github.com/w3c/wai-policies-prototype.git
 	branch = master
-[submodule "_external/resources/wai-news"]
-	path = _external/resources/wai-news
-	url = https://github.com/w3c/wai-news.git
-	branch = master
 [submodule "_external/resources/wai-quick-start"]
 	path = _external/resources/wai-quick-start
 	url = https://github.com/w3c/wai-quick-start.git
@@ -29,10 +25,6 @@
 [submodule "_external/resources/wai-people-use-web"]
 	path = _external/resources/wai-people-use-web
 	url = https://github.com/w3c/wai-people-use-web.git
-	branch = master
-[submodule "_external/resources/wai-older-users"]
-	path = _external/resources/wai-older-users
-	url = https://github.com/w3c/wai-older-users.git
 	branch = master
 [submodule "_external/resources/wai-perspective-videos"]
 	path = _external/resources/wai-perspective-videos
@@ -53,10 +45,6 @@
 [submodule "_external/resources/wai-easy-checks"]
 	path = _external/resources/wai-easy-checks
 	url = https://github.com/w3c/wai-easy-checks.git
-	branch = master
-[submodule "_external/resources/wai-InvolveUsersAll"]
-	path = _external/resources/wai-InvolveUsersAll
-	url = https://github.com/w3c/wai-InvolveUsersAll.git
 	branch = master
 [submodule "_external/resources/wai-intro-aria"]
 	path = _external/resources/wai-intro-aria
@@ -81,10 +69,6 @@
 [submodule "_external/resources/wai-develop-training"]
 	path = _external/resources/wai-develop-training
 	url = https://github.com/w3c/wai-develop-training.git
-	branch = master
-[submodule "_external/resources/wai-video-standards-and-benefits"]
-	path = _external/resources/wai-video-standards-and-benefits
-	url = https://github.com/w3c/wai-video-standards-and-benefits.git
 	branch = master
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements

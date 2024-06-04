@@ -32,10 +32,16 @@ intro-linking:
   - wai-intro-linking
 intro-uaag:
   - wai-intro-uaag
-involve-users-eval:
-  - wai-involve-users-eval
+involving-users-eval:
+  - wai-involving-users-eval
+involving-users:
+  - wai-involving-users
 mobile:
   - wai-mobile
+news:
+  - wai-news
+older-users:
+  - wai-older-users
 org-policies:
   - wai-org-policies
 planning-policies:
@@ -56,6 +62,8 @@ std-harmonization:
   - wai-std-harmonization
 teach-advocate:
   - wai-teach-advocate
+video-introduction:
+  - wai-video-introduction
 w3c-process:
   - wai-w3c-process
 wai-adapt:

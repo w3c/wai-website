@@ -11,7 +11,7 @@ author: "W3C Web Accessibility Initiative (WAI)"
 claim: "Strategies, standards, and resources to make<br>the web accessible to people with disabilities."
 warning_icon: false
 warning_message: >
-  This is <strong>beta redesign</strong> of the W3C WAI website. (<a href="https://github.com/w3c/wai-website/wiki/W3C-WAI-Website-Redesign-Information">Beta Info and Comments</a>) The published website is at <a href="https://www.w3.org/WAI/">w3.org/WAI/</a>.
+  This is a local preview of the W3C WAI website. The published website is at <a href="https://www.w3.org/WAI/">w3.org/WAI/</a>.
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).
@@ -93,14 +93,6 @@ collections:
       <p><strong>Date: 4 December 2023</strong>. Listings are updated regularly. Near the top of each country listing is a 'last updated' date. This user interface was updated 21 March 2018.</p>
       <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Britt Classen, Michel Hansma, Vera Lange, Eric Velleman. <strong>Previous Editors:</strong> Mary Jo Mueller, Robert Jolly, Eric Eggert, Judy Brewer, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Previous contributors: Jennifer Sutton and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
       <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
-  older-users:
-    area: "Plan & Manage"
-    name: "Older Users"
-    shortname: "Older Users"
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
-    prevnext: false
   audiences:
     # area: "Plan & Manage"
     name: "Roles"
@@ -183,12 +175,6 @@ defaults:
       layout: "policy"
       github:
         repository: w3c/wai-policies-prototype
-  - scope:
-      path: "_older-users"
-    values:
-      layout: "default"
-      github:
-        repository: w3c/wai-older-users
   - scope:
       path: "_about"
     values:
@@ -405,7 +391,6 @@ tipue_search:
         "accessibility-training",
         "tips",
         "policies",
-        "older-users",
         "audiences",
         "about",
         "objectives", 

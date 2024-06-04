@@ -1,0 +1,5 @@
+---
+title: "For Review: HTML Accessibility API Mappings (HTML-AAM) Working Draft"
+date: 2015-04-07
+---
+<p><a href="http://www.w3.org/TR/html-aam-1.0/">HTML Accessibility API Mappings 1.1</a> (HTML-AAM) is available for review as a First Public Working Draft. This specification defines how user agents map HTML markup to platform accessibility application programming interfaces (APIs). It provides HTML-specific guidance to define how the HTML user agent must respond to keyboard focus, native HTML features, and role, state, and property attributes provided in web content via <a href="http://www.w3.org/WAI/intro/aria.php"><abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr></a>. For more information, see the <a href="https://lists.w3.org/Archives/Public/w3c-wai-ig/2015AprJun/0012.html">Call for Review: HTML Accessibility API Mappings (HTML-AAM) Working Draft</a> e-mail. Please send comments by <strong>8 May 2015</strong>.</p>

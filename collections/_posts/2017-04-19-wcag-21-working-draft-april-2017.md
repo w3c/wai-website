@@ -1,0 +1,5 @@
+---
+title: "WCAG 2.1 Working Draft – April 2017"
+date: 2017-04-19
+---
+<p><a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a> Working Draft is updated. This  draft includes only success criteria that have been formally accepted by the Working Group, and not the "proposed" success criteria that were in the previous draft. The Working Group has not addressed all comments yet; they  are in queue for upcoming work. We plan to publish updated drafts monthly, to encourage timely review of the success criteria that the Working Group has approved. More information is in the <a href="https://lists.w3.org/Archives/Public/w3c-wai-ig/2017AprJun/0026.html">WCAG 2.1 April 2017 announcement</a> and <a href="https://www.w3.org/WAI/GL/wiki/WCAG_2.1_Status">WCAG 2.1 status</a>. Please comment by <strong>9  May 2017</strong>.</p>

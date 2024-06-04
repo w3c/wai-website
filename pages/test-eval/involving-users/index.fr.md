@@ -14,7 +14,7 @@ contributors:
 github:
     repository: w3c/wai-website
     path: pages/test-eval/involving-users/index.fr.md  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-    label: wai-involve-users-eval
+    label: wai-involving-users-eval
 
 permalink: /test-evaluate/involving-users/fr
 ref: /test-evaluate/involving-users/    # Do not change this

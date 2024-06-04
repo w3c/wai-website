@@ -1,0 +1,5 @@
+---
+title: "For Review: User Agent Accessibility Guidelines (UAAG) 2.0"
+date: 2015-09-15
+---
+<p>Updated Working Drafts of <a href="http://www.w3.org/TR/UAAG20/">UAAG 2.0</a> and the <a href="http://www.w3.org/TR/UAAG20-Reference/">UAAG 2.0 Reference: Explanations, Examples, and Resources for User Agent Accessibility Guidelines 2.0</a> are now available for r")UAAG defines how  browsers, browser extensions, media players, readers, and other   "user agents"  should support accessibility for  people with   disabilities and work with  assistive technologies. UAAG 2.0 is changing from a W3C Recommendation track document to a Working Group Note. It is  introduced in   the <a href="{{ "/standards-guidelines/uaag/" | relative_url }}">UAAG Overview</a>. Please send any comments by <strong>13 October 2015</strong>. </p>

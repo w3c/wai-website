@@ -1,0 +1,5 @@
+---
+title: "For Review: Digital Publishing WAI-ARIA Module Working Draft"
+date: 2015-07-07
+---
+<p><a href="http://www.w3.org/TR/dpub-aria-1.0/">Digital Publishing WAI-ARIA Module 1.0</a> is available for review as a First Public Working Draft. This specification extends <a href="http://www.w3.org/WAI/intro/aria"><abbr title="Accessible Rich Internet Applications">WAI-ARIA 1.1</abbr></a> to facilitate automated processing and accessibility support for digital publications. For more information, see the [<a href="https://lists.w3.org/Archives/Public/w3c-wai-ig/2015JulSep/0004.html">Call for Review: Digital Publishing WAI-ARIA Module Working Draft</a> e-mail and <a href="http://www.w3.org/blog/2015/07/aria-and-dpub-publish-fpwd/">blog post "ARIA and DPUB publish FPWD"</a>. Please send comments by <strong>11 September 2015</strong>.</p>
