@@ -15,8 +15,6 @@ last_updated: 2021-05-07    # Put the date of this translation YYYY-MM-DD (with 
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    repository: w3c/wai-website
-    path: pages/plan/index.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
     label: wai-planning-policies
 
 permalink: /planning/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr

@@ -11,8 +11,6 @@ contributors:
 - name: "Sandra Velarde Gonzalez (ETNIC)"
 
 github:
-    repository: w3c/wai-website
-    path: pages/plan/index.fr.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
     label: wai-planning-policies
 
 permalink: /planning/fr

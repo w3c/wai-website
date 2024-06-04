@@ -9,8 +9,6 @@ translators:
   link: "http://www.muncharaz.eu/"
 
 github:
-    repository: w3c/wai-website
-    path: pages/plan/index.es.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
     label: wai-planning-policies
 
 permalink: /planning/es

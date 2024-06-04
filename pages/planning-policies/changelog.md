@@ -6,8 +6,7 @@ nav_title: "Changelog"
 lang: en
 
 github:
-  repository: w3c/wai-website
-  path: pages/plan/changelog.md
+  label: wai-planning-policies
 
 permalink: /planning/changelog/
 ref: /planning/changelog/
