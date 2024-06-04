@@ -2,10 +2,6 @@
 	path = _external/data
 	url = https://github.com/w3c/wai-website-data.git
 	branch = master
-[submodule "_external/resources/wai-bcase"]
-	path = _external/resources/wai-bcase
-	url = https://github.com/w3c/wai-bcase.git
-	branch = master
 [submodule "_external/resources/wai-policies-prototype"]
 	path = _external/resources/wai-policies-prototype
 	url = https://github.com/w3c/wai-policies-prototype.git
