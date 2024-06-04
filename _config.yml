@@ -186,7 +186,6 @@ defaults:
     values:
       layout: "default"
       github:
-        repository: w3c/wai-news
         label: wai-news
   - scope:
       path: "_audiences"
