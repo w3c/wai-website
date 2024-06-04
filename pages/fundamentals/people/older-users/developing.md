@@ -262,7 +262,7 @@ More techniques are listed under [1.1.1 - Non-text Content](https://www.w3.org/W
 
 Older people with declining eyesight may not be able to discern the characters in a CAPTCHA, especially because CAPTCHAs often have low contrast and do not increase in size when users have text sized larger.
 
-CAPTCHA stands for 'Completely Automated Public Turing tests to tell Computers and Humans Apart'. An example of CAPTCHA is:<br>![the letters 'c a p t c h a' are difficult to read because they are skewed and on a complex background](../img/captcha.png)
+CAPTCHA stands for 'Completely Automated Public Turing tests to tell Computers and Humans Apart'. An example of CAPTCHA is:<br>![the letters 'c a p t c h a' are difficult to read because they are skewed and on a complex background]({{ "/content-images/older-users/captcha.png" | relative_url }})
 
 **WCAG 2.0 success criteria:**
 
