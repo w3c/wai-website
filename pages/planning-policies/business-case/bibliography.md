@@ -82,7 +82,7 @@ Summary: A list of those countries that have signed on to the UN Convention alon
 
 * [_Absence of U.S. Regulation Leads to Web Accessibility Lawsuits_](https://www.practicalecommerce.com/Absence-of-U-S-Regulation-Leads-to-Web-Accessibility-Lawsuits){:rel="nofollow"}. Roggio, A.; Practical Ecommerce (2015).<br />
 Type: Opinion piece/editorial  <br />
-Summary: An article that expresses the authors view that the U.S. Department of Justice sis sending mixed signals about whether or not websites really need to be accessible. The author feels this leads to the rapid increase in litigation seen in the US vs other countries. 
+Summary: An article that expresses the authors view that the U.S. Department of Justice is sending mixed signals about whether or not websites really need to be accessible. The author feels this leads to the rapid increase in litigation seen in the US vs other countries. 
 
 * [_List of Web Accessibility-Related Litigation and Settlements_](http://www.karlgroves.com/2011/11/15/list-of-web-accessibility-related-litigation-and-settlements/){:rel="nofollow"}. Groves, K. (2017).<br />
 Type: Begun in 2011 as curated list, now maintained by the community via GitHub  <br />
@@ -115,7 +115,7 @@ Summary: While the page itself is mostly a promotional vehicle for IBM products,
 * [_Apple Eases iTunes Access For The Blind_](https://www.cbsnews.com/news/apple-eases-itunes-access-for-the-blind/){:rel="nofollow"} Associated Press, CBS News Online. (2008) <br /> Type: News article <br /> Summary: Apple settles with the Massachusetts Attorney General's Office in agreeing to make products more accessible. Apple's industry leadership position encourages other businesses to work to make the Internet more accessible by realizing the marketing advantage of giving more people a way to buy their products. 
 
 * [_Reaping The Benefits Of Diversity For Modern Business Innovation_](https://www.forbes.com/sites/ekaterinawalter/2014/01/14/reaping-the-benefits-of-diversity-for-modern-business-innovation/#155c39652a8f){:rel="nofollow"}. Walter, E.; Forbes Magazine (2014). <br />Type: Magazine Article <br />
-Summary: The author interviews  Neil Lenane, Business Leader of Talent Management at Progressive who is a strong advocate of the value of diversity.Not specifically focused on disability and includes links to related articles and research. 
+Summary: The author interviews  Neil Lenane, Business Leader of Talent Management at Progressive who is a strong advocate of the value of diversity. Not specifically focused on disability and includes links to related articles and research. 
 
 ## Increase Revenue/Decrease Costs
 * [_SEO and Web Accessibility CrossOver_](http://www.iadcontrol.com/seo-and-web-accessibility-crossover){:rel="nofollow"}. By iAdControl.com. (2018) <br />
@@ -145,7 +145,7 @@ Summary: American businesses claim they can’t find workers, and disabled Ameri
 
 * [_Getting to Equal: The Disability Inclusion Advantage_](https://www.accenture.com/t20181029T185446Z__w__/us-en/_acnmedia/PDF-89/Accenture-Disability-Inclusion-Research-Report.pdf#zoom=50)  Accenture Research Report,  (2018) <br />
 Type: Research commissioned by Disability:In and the American Association of People with Disabilities (AAPD) <br />
-Summary: Research demonstrates that companies that embrace best practices for employing and supporting more persons with disabilities in their workforce outperform their peers.</p>
+Summary: Research demonstrates that companies that embrace best practices for employing and supporting more persons with disabilities in their workforce outperform their peers.
 
 * [_The Accessible Workforce_](https://www.ibm.com/ibm/history/ibm100/us/en/icons/accessibleworkforce/) IBM 100 Icons of Progress, (2016) <br />
 Type: Article<br />
@@ -195,8 +195,8 @@ Summary: How the leadership style of Satya Nadella, influenced by his being a pa
 Type: Personal account   <br />
 Summary: Microsoft CEO in his own words.
 
-* [_We Are Original Life Hackers_](https://www.nytimes.com/2018/05/30/opinion/disability-design-lifehacks.html){:rel="nofollow"}. Jackson, Liz. New York Times,online edition. May, 2018.
-Type: Editorial
+* [_We Are Original Life Hackers_](https://www.nytimes.com/2018/05/30/opinion/disability-design-lifehacks.html){:rel="nofollow"}. Jackson, Liz. New York Times, online edition. May, 2018.
+Type: Editorial  <br />
 Summary: Disability design advocate Liz Jackson makes the case for how and why people with disabilities must be included in design thinking and narratives.
 
 ## Corporate Social Responsibility/Brand Reputation
