@@ -26,10 +26,6 @@
 	path = _external/resources/wai-perspective-videos
 	url = https://github.com/w3c/wai-perspective-videos.git
 	branch = master
-[submodule "_external/resources/wai-planning-and-managing"]
-	path = _external/resources/wai-planning-and-managing
-	url = https://github.com/w3c/wai-planning-and-managing.git
-	branch = master
 [submodule "_external/resources/wai-org-policies"]
 	path = _external/resources/wai-org-policies
 	url = https://github.com/w3c/wai-org-policies.git

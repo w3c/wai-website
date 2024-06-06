@@ -62,12 +62,6 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
-  planning-and-managing:
-    area: "Plan and Manage"
-    name: "Planning and Managing"
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
   tips:
     area: "All Areas"
     name: "Tips for Getting Started"
@@ -145,12 +139,6 @@ defaults:
       layout: "default"
       github:
         repository: w3c/wai-people-use-web
-  - scope:
-      path: "_planning-and-managing"
-    values:
-      layout: "default"
-      github:
-        repository: w3c/wai-dynamic-planning
   - scope:
       path: "_tips"
     values:
@@ -374,7 +362,6 @@ tipue_search:
         "wai-wcag-act-rules-patterns",
         "perspective-videos",
         "people-use-web",
-        "planning-and-managing",
         "tips",
         "policies",
         "audiences",

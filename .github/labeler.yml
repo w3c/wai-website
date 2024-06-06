@@ -50,6 +50,8 @@ older-users:
   - wai-older-users
 org-policies:
   - wai-org-policies
+planning-managing:
+  - wai-planning-managing
 planning-policies:
   - wai-planning-policies
 pronunciation:
