@@ -445,10 +445,10 @@ This topic presents the use of WCAG 2 when developing websites (especially techn
     -   [WCAG 2 Conformance](https://www.w3.org/WAI/WCAG20/quickref#conformance-reqs) - lists the WCAG 2 conformance levels and requirements
     -   [Benefits of WCAG 2 Presentation *(old draft)*](https://www.w3.org/WAI/presentations/WCAG20_benefits/) - a complete presentation to draw from
 -   Tips for Getting Started with Web Accessibility - introduces some basic considerations for making your website more accessible to people with disabilities, and provide links to additional guidance:
-    -   [Writing for Web Accessibility]({{"/tips/writing) - tips for writing and presenting content
-    -   [Designing for Web Accessibility]({{"/tips/designing) - tips for user interface and visual design
-    -   [Developing for Web Accessibility]({{"/tips/developing) - tips for markup and coding
--  [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/) - provide guidance on how to create components that meet Web Content Accessibility Guidelines (WCAG)
+    -   [Writing for Web Accessibility](/tips/writing/) - tips for writing and presenting content
+    -   [Designing for Web Accessibility](/tips/designing/) - tips for user interface and visual design
+    -   [Developing for Web Accessibility](/tips/developing/) - tips for markup and coding
+-  [Web Accessibility Tutorials](/tutorials/) - provide guidance on how to create components that meet Web Content Accessibility Guidelines (WCAG)
 -   [WAI-ARIA Overview](/standards-guidelines/aria/) - describes the problems that WAI-ARIA addresses, and introduces the WAI-ARIA suite of technical document
 
 #### Additional resources
@@ -484,8 +484,7 @@ This topic presents the use of WCAG 2 when developing websites (especially techn
 
 This topic explains the relationship between user agents (browsers, media players, and other tools that access content), web content, assistive technologies and adaptive strategies. It introduces the User Agent Accessibility Guidelines (UAAG), and explains their importance for people with disabilities and older people.
 
-**Note:** See also the related [Topic 3: Components of Web
-Accessibility](#components).
+**Note:** See also the related [Topic 3: Components of Web Accessibility](#components).
 
 ### What this topic covers
 
