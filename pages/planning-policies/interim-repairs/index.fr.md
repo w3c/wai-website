@@ -15,8 +15,6 @@ contributors:
     - name: "Rémi Bétin"
 
 github:
-  repository: w3c/wai-website
-  path: pages/first-aid/index.fr.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-first-aid
 
 permalink: /planning/interim-repairs/fr   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
