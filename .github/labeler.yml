@@ -32,6 +32,8 @@ intro-act:
   - wai-intro-act
 intro-aria:
   - wai-intro-aria
+intro-atag:
+  - wai-intro-atag
 intro-earl:
   - wai-intro-earl
 intro-linking:
