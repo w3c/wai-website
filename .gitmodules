@@ -62,10 +62,6 @@
 	path = _external/resources/wai-about-wai
 	url = https://github.com/w3c/wai-about-wai.git
 	branch = master
-[submodule "_external/resources/wai-develop-training"]
-	path = _external/resources/wai-develop-training
-	url = https://github.com/w3c/wai-develop-training.git
-	branch = master
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
