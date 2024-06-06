@@ -20,6 +20,8 @@ eval-report-template:
   - wai-eval-report-template
 eval-standards:
   - wai-eval-standards
+evaluation-overview:
+  - wai-evaluation-overview
 evaluation-tools:
   - wai-evaluation-tools
 first-aid:
