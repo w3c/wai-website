@@ -34,20 +34,20 @@ footer: >
 
 WAI offers materials for speakers, lecturers, educators, and other presenters to help their participants understand more about web accessibility. The materials provide a range of information from introductory slides for those new to accessibility, to statistics and demos for experienced trainers. This set of resources includes:
 
--   [**Accessibility Topics**](/teach-advocate/accessibility-training/topics/) - descriptions and resources for topics that can be covered in presentations and training, including:
-  -   Introducing accessibility (4 topics)
-  -   Guidelines and techniques (6 topics)
-  -   Managing accessibility (5 topics)
-  -   Evaluating accessibility (2 topics)
--   [**Presentation Outlines**](/teach-advocate/accessibility-training/presentation-outlines/) - example outlines of presentations that combine some of the Topics:
-  -   Introducing web accessibility (20 minutes for any audience)
-  -   Promoting web accessibility (10 minutes for senior management)
-  -   Using an accessible web (1 hour for people with accessibility needs)
-  -   Accessible web design (2 hour lecture as part of a web design course)
--   [**Workshop Outline**](/teach-advocate/accessibility-training/workshop-outline/) - description of a 3-day hands-on web accessibility training workshop for:
-  -   Web developers and application programmers (all 3 days)
-  -   Web content authors and visual designers (days 1 & 2 only)
-  -   Managers and decision-makers (day 1 only)
+- [**Accessibility Topics**](/teach-advocate/accessibility-training/topics/) - descriptions and resources for topics that can be covered in presentations and training, including:
+  - Introducing accessibility (4 topics)
+  - Guidelines and techniques (6 topics)
+  - Managing accessibility (5 topics)
+  - Evaluating accessibility (2 topics)
+- [**Presentation Outlines**](/teach-advocate/accessibility-training/presentation-outlines/) - example outlines of presentations that combine some of the Topics:
+  - Introducing web accessibility (20 minutes for any audience)
+  - Promoting web accessibility (10 minutes for senior management)
+  - Using an accessible web (1 hour for people with accessibility needs)
+  - Accessible web design (2 hour lecture as part of a web design course)
+- [**Workshop Outline**](/teach-advocate/accessibility-training/workshop-outline/) - description of a 3-day hands-on web accessibility training workshop for:
+  - Web developers and application programmers (all 3 days)
+  - Web content authors and visual designers (days 1 & 2 only)
+  - Managers and decision-makers (day 1 only)
 
 ## Notes:
 

@@ -84,12 +84,12 @@ several short presentations from a panel of speakers.
 
 - **[Introducing web accessibility](/teach-advocate/accessibility-training/topics/#intro)** (5 minutes)
   - Describe what web accessibility is and why it's important
-  - Mention the WAI guidelines as the international standard for   making the web accessible
+  - Mention the WAI guidelines as the international standard for making the web accessible
 - **[How people with disabilities use the web](/teach-advocate/accessibility-training/topics/#people)** (10 minutes)
-  - Discuss some of the ways that people with disabilities use the   web and/or show some short videos of people with disabilities   using the web
-    - Mention some of the types of barriers that arise from   inaccessible design
+  - Discuss some of the ways that people with disabilities use the web and/or show some short videos of people with disabilities using the web
+    - Mention some of the types of barriers that arise from inaccessible design
 - **[Business case for digital accessibility](/teach-advocate/accessibility-training/topics/#bcase)** (5 minutes)
-  - Introduce aspects of the business case that are most relevant to   your audience, such as:
+  - Introduce aspects of the business case that are most relevant to your audience, such as:
     - The demographics of the disability marketplace
     - The carry-over benefits of universal design
     - The changing demographics with the ageing population
@@ -123,15 +123,15 @@ meeting to introduce the business case for digital accessibility.
 
 - [**Introducing web accessibility**](/teach-advocate/accessibility-training/topics/#intro) (4 minutes)
   - Describe what web accessibility is
-  - Briefly introduce demographics of the disability marketplace   and/or demographics of the ageing population
+  - Briefly introduce demographics of the disability marketplace and/or demographics of the ageing population
   - Mention a range of barriers faced by people with disabilities
 - **[Business case for web accessibility](/teach-advocate/accessibility-training/topics/#bcase)** (6 minutes)
-  - Introduce the carry-over benefits of universal design   highlighting some of the additional business benefits that   accrue to accessible websites, including:
+  - Introduce the carry-over benefits of universal design highlighting some of the additional business benefits that accrue to accessible websites, including:
     - Better access by older people and mobile users
     - Improved search engine optimization (SEO)
     - Improved usability for everyone
-  - Give a brief policy overview if relevant for the organization's   locale or markets, mentioning national legal requirements and   the UN Convention on the Rights of Persons with Disabilities   (CRPD)<br/>**or**<br/>   Introduce the social factors that an organization might consider   and mention web accessibility as an aspect of corporate social   responsibility (CSR)
-  - Highlight some of the documented case studies of accessibility   improvements
+  - Give a brief policy overview if relevant for the organization's locale or markets, mentioning national legal requirements and the UN Convention on the Rights of Persons with Disabilities (CRPD)<br/>**or**<br/> Introduce the social factors that an organization might consider and mention web accessibility as an aspect of corporate social responsibility (CSR)
+  - Highlight some of the documented case studies of accessibility improvements
 
 {% include_cached excol.html type="end" %}
 
@@ -148,8 +148,8 @@ accessibility features of computers, browsers, and websites.
 
 - Handout: [WCAG 2.1 at a Glance](/standards-guidelines/wcag/glance/)
 - Useful resources:
-  - [Before and After   Demonstration](https://www.w3.org/WAI/demos/bad/)
-  - [Better Web Browsing: Tips for Customizing Your   Computer](https://www.w3.org/WAI/users/browsing)
+  - [Before and After Demonstration](https://www.w3.org/WAI/demos/bad/)
+  - [Better Web Browsing: Tips for Customizing Your Computer](https://www.w3.org/WAI/users/browsing)
 
 ### The audience will:
 
@@ -162,17 +162,17 @@ accessibility features of computers, browsers, and websites.
 
 - **[Introducing web accessibility](/teach-advocate/accessibility-training/topics/#intro)** (5 minutes)
   - Describe what web accessibility is
-  - Introduce the different ways people with disabilities and older   people use the web by describing some scenarios or showing some   videos
+  - Introduce the different ways people with disabilities and older people use the web by describing some scenarios or showing some videos
 - **[How people with disabilities use the web](/teach-advocate/accessibility-training/topics/#people)** (25 minutes)
-  - Discuss and illustrate the range of adaptive strategies and   assistive technologies
-  - Demonstrate some adaptive strategies and/or assistive   technologies that may be useful to the audience
-  - Draw examples from "Better Web Browsing: Tips for Customizing   Your Computer" resource
+  - Discuss and illustrate the range of adaptive strategies and assistive technologies
+  - Demonstrate some adaptive strategies and/or assistive technologies that may be useful to the audience
+  - Draw examples from "Better Web Browsing: Tips for Customizing Your Computer" resource
 - **[Components of web accessibility](/teach-advocate/accessibility-training/topics/#components)** (10 minutes)
-  - Explain the four principles of accessible web design:   perceivable, operable, understandable and robust (POUR)
-  - Discuss some of the WCAG guidelines using "WCAG 2.1 at a   Glance"
-  - Explain the components of web accessibility and how they relate   to the WAI Guidelines
+  - Explain the four principles of accessible web design: perceivable, operable, understandable and robust (POUR)
+  - Discuss some of the WCAG guidelines using "WCAG 2.1 at a Glance"
+  - Explain the components of web accessibility and how they relate to the WAI Guidelines
 - **[Promoting web accessibility](/teach-advocate/accessibility-training/topics/#promoting)** (5 minutes)
-  - Introduce how to contact organizations with inaccessible   websites
+  - Introduce how to contact organizations with inaccessible websites
 - **Questions** (15 minutes)
   - *Leave plenty of time for questions and discussion.*
 
@@ -192,9 +192,9 @@ of a full semester's introductory course on general web design.
   - [WCAG 2.1 at a Glance](/standards-guidelines/wcag/glance/)
   - [WAI Web Accessibility Resources](https://www.w3.org/WAI/flyer/#resources)
 - Useful resources:
-    - [Before and After   Demonstration](https://www.w3.org/WAI/demos/bad/)
-      - [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG20/quickref/)
-      - [Involving Users in Web Projects for Better, Easier Accessibility](/planning/involving-users/)
+  - [Before and After Demonstration](https://www.w3.org/WAI/demos/bad/)
+  - [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG20/quickref/)
+  - [Involving Users in Web Projects for Better, Easier Accessibility](/planning/involving-users/)
 
 ### Learning objectives:
 
@@ -211,29 +211,29 @@ After the lecture and exercise, students should be able to:
 - [**Introduction to web accessibility**](/teach-advocate/accessibility-training/topics/#intro) (5 minutes)
   - Describe what web accessibility is
 - **[How people with disabilities use the web](/teach-advocate/accessibility-training/topics/#people)** (15 minutes)
-  - Discuss some of the ways that people with disabilities use the   web and/or show some short videos of people with disabilities   using the web
-  - Mention some of the types of barriers that arise from   inaccessible design
+  - Discuss some of the ways that people with disabilities use the web and/or show some short videos of people with disabilities using the web
+  - Mention some of the types of barriers that arise from inaccessible design
 - **[Business case for web accessibility](/teach-advocate/accessibility-training/topics/#bcase)** (15 minutes)
-  - Introduce the carry-over benefits of universal design   highlighting some of the additional business benefits that   accrue to accessible websites, including:
+  - Introduce the carry-over benefits of universal design highlighting some of the additional business benefits that accrue to accessible websites, including:
     - Better access by older people and mobile users
     - Improved search engine optimization (SEO)
     - Improved usability for everyone
-  - Briefly introduce demographics of the disability marketplace   and/or demographics of the ageing population
-  - Highlight some of the documented case studies of accessibility   improvements
-  - **[Components of web accessibility](/teach-advocate/accessibility-training/topics/#components)** (10 minutes)
-  - Explain the four principles of accessible web design:   perceivable, operable, understandable and robust (POUR)
-  - Discuss some of the WCAG guidelines using "WCAG 2.1 at a   Glance"
-  - Explain the components of web accessibility and how they relate   to the WAI Guidelines
-  - **[Designing accessible websites with WCAG 2](/teach-advocate/accessibility-training/topics/#design)** (45 minutes)
-  - Explain some of the WCAG requirements using real examples to   demonstrate their applicability
-  - Demonstrate using "How to Meet WCAG (Quick Reference)" reference to help   design accessible websites
-  - Introduce the importance of involving users throughout the   design process
+  - Briefly introduce demographics of the disability marketplace and/or demographics of the ageing population
+  - Highlight some of the documented case studies of accessibility improvements
+- **[Components of web accessibility](/teach-advocate/accessibility-training/topics/#components)** (10 minutes)
+  - Explain the four principles of accessible web design: perceivable, operable, understandable and robust (POUR)
+  - Discuss some of the WCAG guidelines using "WCAG 2.1 at a Glance"
+  - Explain the components of web accessibility and how they relate to the WAI Guidelines
+- **[Designing accessible websites with WCAG 2](/teach-advocate/accessibility-training/topics/#design)** (45 minutes)
+  - Explain some of the WCAG requirements using real examples to demonstrate their applicability
+  - Demonstrate using "How to Meet WCAG (Quick Reference)" reference to help design accessible websites
+  - Introduce the importance of involving users throughout the design process
   - Consider using interactive coding exercises to engage students
-  - **[Evaluation for web accessibility](/teach-advocate/accessibility-training/topics/#conform)** (30 minutes)
-  - Introduce preliminary and conformance evaluation of websites for   accessibility
+- **[Evaluation for web accessibility](/teach-advocate/accessibility-training/topics/#conform)** (30 minutes)
+  - Introduce preliminary and conformance evaluation of websites for accessibility
   - Demonstrate some evaluation techniques and tools
-  - Introduce the importance of involving users in web accessibility   evaluation
-  - Consider using interactive evaluation exercises to engage   students
+  - Introduce the importance of involving users in web accessibility evaluation
+  - Consider using interactive evaluation exercises to engage students
 
 **Suggested preparatory reading for students:**
 
