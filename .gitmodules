@@ -2,10 +2,6 @@
 	path = _external/data
 	url = https://github.com/w3c/wai-website-data.git
 	branch = master
-[submodule "_external/resources/wai-bcase"]
-	path = _external/resources/wai-bcase
-	url = https://github.com/w3c/wai-bcase.git
-	branch = master
 [submodule "_external/resources/wai-policies-prototype"]
 	path = _external/resources/wai-policies-prototype
 	url = https://github.com/w3c/wai-policies-prototype.git
@@ -30,17 +26,9 @@
 	path = _external/resources/wai-perspective-videos
 	url = https://github.com/w3c/wai-perspective-videos.git
 	branch = master
-[submodule "_external/resources/wai-planning-and-managing"]
-	path = _external/resources/wai-planning-and-managing
-	url = https://github.com/w3c/wai-planning-and-managing.git
-	branch = master
 [submodule "_external/resources/wai-org-policies"]
 	path = _external/resources/wai-org-policies
 	url = https://github.com/w3c/wai-org-policies.git
-	branch = master
-[submodule "_external/resources/wai-eval-overview"]
-	path = _external/resources/wai-eval-overview
-	url = https://github.com/w3c/wai-eval-overview.git
 	branch = master
 [submodule "_external/resources/wai-easy-checks"]
 	path = _external/resources/wai-easy-checks
@@ -49,10 +37,6 @@
 [submodule "_external/resources/wai-intro-aria"]
 	path = _external/resources/wai-intro-aria
 	url = https://github.com/w3c/wai-intro-aria.git
-	branch = master
-[submodule "_external/resources/wai-intro-atag"]
-	path = _external/resources/wai-intro-atag
-	url = https://github.com/w3c/wai-intro-atag.git
 	branch = master
 [submodule "_external/resources/wai-intro-wcag"]
 	path = _external/resources/wai-intro-wcag
@@ -65,10 +49,6 @@
 [submodule "_external/resources/wai-about-wai"]
 	path = _external/resources/wai-about-wai
 	url = https://github.com/w3c/wai-about-wai.git
-	branch = master
-[submodule "_external/resources/wai-develop-training"]
-	path = _external/resources/wai-develop-training
-	url = https://github.com/w3c/wai-develop-training.git
 	branch = master
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements

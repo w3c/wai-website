@@ -37,6 +37,7 @@ kramwdown:
   syntax_highlighter: rouge
 highlighter: rouge
 repository: w3c/wai-website
+branch: master
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
@@ -61,19 +62,6 @@ collections:
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
-  planning-and-managing:
-    area: "Plan and Manage"
-    name: "Planning and Managing"
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
-  accessibility-training:
-    area: "Teach & Advocate"
-    name: "Accessibility Training"
-    shortname: Trainings
-    output: true
-    acknowledgements: false
-    permalink: /teach-advocate/:collection/:path/
   tips:
     area: "All Areas"
     name: "Tips for Getting Started"
@@ -151,18 +139,6 @@ defaults:
       layout: "default"
       github:
         repository: w3c/wai-people-use-web
-  - scope:
-      path: "_planning-and-managing"
-    values:
-      layout: "default"
-      github:
-        repository: w3c/wai-dynamic-planning
-  - scope:
-      path: "_accessibility-training"
-    values:
-      layout: "default"
-      github:
-        repository: w3c/wai-develop-training
   - scope:
       path: "_tips"
     values:
@@ -386,8 +362,6 @@ tipue_search:
         "wai-wcag-act-rules-patterns",
         "perspective-videos",
         "people-use-web",
-        "planning-and-managing",
-        "accessibility-training",
         "tips",
         "policies",
         "audiences",
