@@ -60,10 +60,10 @@ inline_css: |
 
 This article examines the rationale for organizations to address accessibility. It includes tangible and intangible benefits, and the risks of not addressing accessibility adequately. It explores how accessibility can:
 
-- <strong>Drive Innovation</strong> Accessibility features in products and services often solve unanticipated problems.
-- <strong>Enhance Your Brand</strong> Diversity and inclusion efforts so important to business success are accelerated with a clear, well-integrated accessibility commitment.
-- <strong>Extend Market Reach</strong> The global market of people with disabilities is over 1 billion people with a spending power of more than $6 trillion. Accessibility often improves the online experience for all users.
-- <strong>Minimize Legal Risk</strong> Many countries have laws requiring digital accessibility, and the issue is of increased legal concern.
+- **Drive Innovation:** Accessibility features in products and services often solve unanticipated problems.
+- **Enhance Your Brand:** Diversity and inclusion efforts so important to business success are accelerated with a clear, well-integrated accessibility commitment.
+- **Extend Market Reach:** The global market of people with disabilities is over 1 billion people with a spending power of more than $6 trillion. Accessibility often improves the online experience for all users.
+- **Minimize Legal Risk:** Many countries have laws requiring digital accessibility, and the issue is of increased legal concern.
 
 Note that "web accessibility" and "websites" throughout this article include web and mobile applications and other digital technologies.
 
@@ -152,9 +152,9 @@ The following case studies from two large technology companies provide useful ex
 
 Apple engineers have been innovators in the accessibility space since the inception of the company, both willing to listen and work with outside constituents. [^6] The company also anticipates market direction by integrating disability needs into product development. Examples include:
 
-- <strong>iTunes U</strong> In the early 2000’s, the 23-campus California State University system was unable to take advantage of Apple’s iTunes U educational program because the application was not fully accessible to blind students. Teachers within the CSU system were prohibited from using it. This was resolved by innovation, not litigation, as Apple listened to CSU’s concerns and worked to make iTunes accessible on both the Mac and Windows platforms. CSU System was soon able to use the program widely.
+- **iTunes U:**In the early 2000’s, the 23-campus California State University system was unable to take advantage of Apple’s iTunes U educational program because the application was not fully accessible to blind students. Teachers within the CSU system were prohibited from using it. This was resolved by innovation, not litigation, as Apple listened to CSU’s concerns and worked to make iTunes accessible on both the Mac and Windows platforms. CSU System was soon able to use the program widely.
 
-- <strong>VoiceOver on iPhone</strong> Early in the evolution of the iPhone, Apple began considering the implications that a touchscreen device would have on their blind customers. Iterating over several years behind the scenes, the company invested the resources to develop the voice technology that led to VoiceOver, the world’s first gesture-based screen reader. Within weeks of launch, Apple received a special commendation from the National Federation of the Blind "For designing the first fully accessible touchscreen interface.” [^7]
+- **VoiceOver on iPhone:** Early in the evolution of the iPhone, Apple began considering the implications that a touchscreen device would have on their blind customers. Iterating over several years behind the scenes, the company invested the resources to develop the voice technology that led to VoiceOver, the world’s first gesture-based screen reader. Within weeks of launch, Apple received a special commendation from the National Federation of the Blind "For designing the first fully accessible touchscreen interface.” [^7]
 
 Screen readers on other touch screen devices have now become more prevalent in the industry and Apple has shown important leadership in the effort to ensure inclusion for all.
 

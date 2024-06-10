@@ -57,10 +57,10 @@ inline_css: |
 
 Cet article décrit les raisons pour une organisation d’intégrer l’accessibilité. Il inclut des bénéfices tangibles et intangibles, ainsi que les risques qu’on prend en ne traitant pas l’accessibilité de façon adéquate. Il montre comment l’accessibilité peut :
 
-- <strong>Porter l’innovation :</strong> des fonctionnalités pour l’accessibilité intégrées dans des produits et services résolvent des problèmes inattendus.
-- <strong>Améliorer la perception de votre marque :</strong> les efforts de diversité et d’inclusion si nécessaires au succès de l’entreprise sont accélérés par un engagement clair et bien intégré en faveur de l’accessibilité.
-- <strong>Augmenter les parts de marché :</strong> le marché global des personnes ayant un ou plusieurs handicaps est de plus d’un milliard de personnes, avec un pouvoir d’achat de plus de six mille milliards de dollars. L’accessibilité numérique augmente souvent l’expérience de tous les utilisateurs.
-- <strong>Minimiser le risque légal :</strong> de nombreux pays ont mis en place des lois exigeant l’accessibilité numérique, et la question légale de l’accessibilité devient de plus en plus prégnante.
+- **Porter l’innovation :** des fonctionnalités pour l’accessibilité intégrées dans des produits et services résolvent des problèmes inattendus.
+- **Améliorer la perception de votre marque :** les efforts de diversité et d’inclusion si nécessaires au succès de l’entreprise sont accélérés par un engagement clair et bien intégré en faveur de l’accessibilité.
+- **Augmenter les parts de marché :** le marché global des personnes ayant un ou plusieurs handicaps est de plus d’un milliard de personnes, avec un pouvoir d’achat de plus de six mille milliards de dollars. L’accessibilité numérique augmente souvent l’expérience de tous les utilisateurs.
+- **Minimiser le risque légal :** de nombreux pays ont mis en place des lois exigeant l’accessibilité numérique, et la question légale de l’accessibilité devient de plus en plus prégnante.
 
 Veuillez noter que les termes « accessibilité web » et « sites web » dans cet article incluent aussi les applications mobiles et web, ainsi que toute autre technologie numérique.
 

@@ -56,10 +56,10 @@ inline_css: |
 
 Este artículo examina las razones que tienen las organizaciones para cumplir con la accesibilidad. Comprende beneficios tangibles e intangibles, así como los riesgos de no cumplir con la accesibilidad adecuadamente. Explora cómo la accesibilidad puede:
 
--   <strong>Impulsar la innovación:</strong> Las características accesibles de productos y servicios solucionan problemas imprevistos con frecuencia.
--   <strong>Mejorar la marca:</strong> Los esfuerzos en diversidad e inclusión que tan importantes son para el éxito de una empresa se ven impulsados cuando existe un compromiso claro y bien integrado con la accesibilidad.  
--   <strong>Ampliar el alcance del mercado:</strong> El mercado global de personas con discapacidad incluye a más de un billón de personas que tienen un poder adquisitivo de más de 6 trillones de dólares. Además, la accesibilidad mejora la experiencia para todos los usuarios.
--   <strong>Minimizar el riesgo legal:</strong> Muchos países cuentan con leyes que exigen la accesibilidad web y se trata de una preocupación legal creciente.
+-   **Impulsar la innovación:** Las características accesibles de productos y servicios solucionan problemas imprevistos con frecuencia.
+-   **Mejorar la marca:** Los esfuerzos en diversidad e inclusión que tan importantes son para el éxito de una empresa se ven impulsados cuando existe un compromiso claro y bien integrado con la accesibilidad.  
+-   **Ampliar el alcance del mercado:** El mercado global de personas con discapacidad incluye a más de un billón de personas que tienen un poder adquisitivo de más de 6 trillones de dólares. Además, la accesibilidad mejora la experiencia para todos los usuarios.
+-   **Minimizar el riesgo legal:** Muchos países cuentan con leyes que exigen la accesibilidad web y se trata de una preocupación legal creciente.
 
 Advierta que los términos “accesibilidad web” y “sitios web” de este artículo también hacen referencia a las aplicaciones móviles y otras tecnologías digitales.
 
@@ -137,9 +137,9 @@ Los siguientes casos de estudio de dos grandes empresas tecnológicas ofrecen ej
 
 Los ingenieros de Apple han estado innovando en el espacio de la accesibilidad desde el inicio de la empresa, con voluntad tanto para escuchar como para trabajar con partes externas. [^6] La empresa también anticipa la dirección del mercado al integrar necesidades de la discapacidad en el desarrollo del producto. Algunos ejemplos:
 
--  <strong>iTunes U:</strong> Al principio de los años 2000, el sistema de 23 campus de la Universidad Estatal de California no era capaz de beneficiarse del programa educativo de Apple, iTunes U, porque la aplicación no era totalmente accesible para los estudiantes ciegos. A los profesores de la universidad se les prohibió usarla. Esto se resolvió con innovación y no con pleitos, pues Apple escuchó las demandas de la universidad y trabajó para hacer iTunes accesible tanto desde las plataformas Mac como Windows. El sistema de la universidad estuvo en condiciones de usar el programa extensivamente.
+-  **iTunes U:** Al principio de los años 2000, el sistema de 23 campus de la Universidad Estatal de California no era capaz de beneficiarse del programa educativo de Apple, iTunes U, porque la aplicación no era totalmente accesible para los estudiantes ciegos. A los profesores de la universidad se les prohibió usarla. Esto se resolvió con innovación y no con pleitos, pues Apple escuchó las demandas de la universidad y trabajó para hacer iTunes accesible tanto desde las plataformas Mac como Windows. El sistema de la universidad estuvo en condiciones de usar el programa extensivamente.
 
--  <strong>VoiceOver en el iPhone:</strong> Al principio de la evolución del iPhone, Apple empezó a considerar cuáles serían las implicaciones que tendría un dispositivo táctil en sus clientes ciegos. Trabajando durante varios años entre bastidores, la empresa invirtió los recursos necesarios para desarrollar la tecnología de voz que desembocó en VoiceOver, el primer lector de pantallas basado en gestos del mundo. Pocas semanas después del lanzamiento, Apple recibió elogios especiales por parte de la Federación Nacional de Ciegos por “diseñar la primera interfaz táctil totalmente accesible”. [^7]
+-  **VoiceOver en el iPhone:** Al principio de la evolución del iPhone, Apple empezó a considerar cuáles serían las implicaciones que tendría un dispositivo táctil en sus clientes ciegos. Trabajando durante varios años entre bastidores, la empresa invirtió los recursos necesarios para desarrollar la tecnología de voz que desembocó en VoiceOver, el primer lector de pantallas basado en gestos del mundo. Pocas semanas después del lanzamiento, Apple recibió elogios especiales por parte de la Federación Nacional de Ciegos por “diseñar la primera interfaz táctil totalmente accesible”. [^7]
 
 Los lectores de pantalla en dispositivos táctiles son cada vez más prevalentes en la industria y Apple ha mostrado un liderazgo importante en el esfuerzo para asegurar la inclusión de todos. 
 
