@@ -40,7 +40,7 @@ inline_css: ".teaser-h-icon { fill: #036; }"
 This guide outlines activities to help you integrate accessibility throughout the web production process. This applies to individual
 projects and on an organizational level. These activities are not necessarily carried out in sequence, and are ideally repeated over time to continually raise the level of accessibility capability.
 
-A companion document, [Web Accessibility First Aid: Approaches for Interim Repairs](/planning/interim-repairs/), provides guidance on more gimmediate remediation of accessibility barriers in existing websites.
+A companion document, [Web Accessibility First Aid: Approaches for Interim Repairs](/planning/interim-repairs/), provides guidance on more immediate remediation of accessibility barriers in existing websites.
 
 <div class="grid-4q nogap teaser" style="padding:0">
   <div class="q1-start q2-end area-teaser">
