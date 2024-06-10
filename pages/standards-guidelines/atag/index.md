@@ -68,7 +68,7 @@ Authoring tools are software and services that "authors" (web developers, design
 Authoring Tool Accessibility Guidelines (ATAG) explains how to:
 
 -   make the authoring tools themselves accessible, so that people with disabilities can create web content, ***and***
--   help authors create more accessible web content — specifically: enable, support, and promote the production of content that conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/).
+-   help authors create more accessible web content — specifically: enable, support, and promote the production of content that conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
 
 ATAG is part of a series of accessibility guidelines, including Web Content Accessibility Guidelines (WCAG) and User Agent Accessibility Guidelines (UAAG). [Essential Components of Web Accessibility](/fundamentals/components/) explains the relationship between the different guidelines.
 
