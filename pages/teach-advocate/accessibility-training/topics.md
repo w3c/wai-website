@@ -51,7 +51,7 @@ This page provides material for web accessibility topics that you can use as bui
 <ul class="toc">
   <li><strong>Introducing Accessibility </strong>
      <ol>
-        <li><a href="#introduction">Introducing Web Accessibility</a></li>
+        <li><a href="#intro">Introducing Web Accessibility</a></li>
         <li><a href="#people">How People with Disabilities Use the Web</a></li>
         <li><a href="#components">Components of Web Accessibility</a><!--(sample presentation available) --></li>
         <li><a href="#promoting">Promoting Web Accessibility</a></li>
