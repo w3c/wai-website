@@ -1,12 +1,13 @@
 ---
 title: Accessibility, Usability, and Inclusion
 lang: en
+
 github:
-  repository: w3c/wai-website
-  path: 'pages/fundamentals/accessibility-usability-inclusion.md'
   label: wai-inclusion
+
 permalink: /fundamentals/accessibility-usability-inclusion/
-layout: default
+ref: /fundamentals/accessibility-usability-inclusion/
+
 footer: >
   <p><strong>Date:</strong> Updated 6 May 2016. First published March 2010.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/kevin">Kevin White</a>. Contributors: Sharron Rush, and <a href="https://www.w3.org/WAI/EO/EOWG-members">EOWG Participants</a>.</p>

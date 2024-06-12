@@ -15,9 +15,7 @@ last_updated: 2024-03-14   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    repository: w3c/wai-website
-    path: pages/fundamentals/components/index.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-    label: wai-components
+  label: wai-components
 
 permalink: /fundamentals/components/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/components/   # Do not change this
@@ -72,8 +70,8 @@ It provides the foundation for understanding the different accessibility standar
 It is essential that several different components of web development and interaction work together in order for the web to be accessible to people with disabilities. These components include:
 
 -   **content** - the information in a web page or web application, including:
-    -   natural information such as text, images, and sounds
-    -   code or markup that defines structure, presentation, etc.
+  -   natural information such as text, images, and sounds
+  -   code or markup that defines structure, presentation, etc.
 -   **web browsers, media players**, and other "user agents"
 -   **assistive technology**, in some cases - screen readers, alternative keyboards, switches, scanning software, etc.
 -   **users**' knowledge, experiences, and in some cases, adaptive strategies using the web
@@ -109,9 +107,9 @@ When accessibility features are effectively implemented in one component, the ot
 
 {% include image.html src="components/cycle.png" alt="" %}
 
-- When **web browsers, media players, assistive technologies, and other user agents** support an accessibility feature, users are more likely to demand it and developers are more likely to implement it in their **content**. 
-- When developers want to implement an accessibility feature in their **content**, they are more likely to demand that their **authoring tool** make it easy to implement. 
-- When **authoring tools** make a feature easy to implement, developers are more likely to implement it in their **content**. 
+- When **web browsers, media players, assistive technologies, and other user agents** support an accessibility feature, users are more likely to demand it and developers are more likely to implement it in their **content**.
+- When developers want to implement an accessibility feature in their **content**, they are more likely to demand that their **authoring tool** make it easy to implement.
+- When **authoring tools** make a feature easy to implement, developers are more likely to implement it in their **content**.
 - When an accessibility feature is implemented in **most content**, developers and users are more likely to demand that **user agents** support it.
 
 ### When One Component is Weak

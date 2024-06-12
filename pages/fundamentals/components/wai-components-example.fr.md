@@ -1,5 +1,6 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 
 title: Descriptions des illustrations de « Composantes essentielles de l'accessibilité du Web »
 nav_title: Descriptions des illustrations
@@ -13,8 +14,6 @@ contributors:
   - name: "@code-elegant"
 
 github:
-  repository: w3c/wai-website
-  path: pages/fundamentals/components/wai-components-example.fr.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-components
 
 permalink: /fundamentals/components/examples/fr # Add the language shortcode to the end; for example /path/to/file/fr

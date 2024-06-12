@@ -4,24 +4,18 @@
 
 title: Podstawowe komponenty dostępności Internetu
 nav_title: "Komponenty dostępności Internetu" # A short title that is used in the navigation
-
-lang: pl   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-
+lang: pl   # Change "en" to the translated language shortcode
 last_updated: 2024-03-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stefan Wajda"
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 
 github:
-    repository: w3c/wai-website
-    path: pages/fundamentals/components/index.pl.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-    label: wai-components
+  label: wai-components
 
-permalink: /fundamentals/components/pl 
+permalink: /fundamentals/components/pl
 ref: /fundamentals/components/   # Do not change this
- 
+
 feedbackmail: wai@w3.org
 
 # In the footer below:
@@ -73,8 +67,8 @@ Stanowi on podstawę do zrozumienia różnych standardów dostępności opracowa
 Aby Internet był dostępny dla osób z&nbsp;niepełnosprawnościami, konieczne jest współdziałanie kilku różnych komponentów związanych z&nbsp;projektowaniem i&nbsp;tworzeniem treści cyfrowych. Te komponenty to:
 
 -   **treść** - informacje na stronie internetowej lub w aplikacji internetowej, w tym:
-    -   informacje naturalne (takie jak tekst, obraz i dźwięki) oraz
-    -   kod lub znaczniki definiujące strukturę, prezentację itp.
+  -   informacje naturalne (takie jak tekst, obraz i dźwięki) oraz
+  -   kod lub znaczniki definiujące strukturę, prezentację itp.
 -   **przeglądarki internetowe, odtwarzacze multimedialne**, i inne „programy użytkownika”
 -   **technologie wspomagające**, w niektórych przypadkach - czytniki ekranu, alternatywne klawiatury, przełączniki, oprogramowanie skanujące itp.
 -   **użytkownicy**, ich wiedza, doświadczenia, a w niektórych przypadkach, sposób korzystania z internetu (strategie adaptacyjne
@@ -102,7 +96,7 @@ Między tymi komponentami istnieją istotne współzależności; to znaczy że k
 -   **narzędzia oceny** służą do sprawdzenia, czy istnieje tekst alternatywny
 -   **oprogramowanie użytkownika** zapewnia ludziom i maszynom interfejs do obsługi tekstu alternatywnego w&nbsp;różnych trybach
 -   **użytkownicy** wiedzą jak odczytać tekst alternatywny w&nbsp;wykorzystywanym przez nich oprogramowaniu i/lub technologiach wspomagających, w razie potrzeby.
-	  
+
 ### Cykl implementacji
 
 Gdy funkcje dostępności zostaną skutecznie zaimplementowane w jednym komponencie, istnieje większe prawdopodobieństwo, że zostaną wdrożone w innych komponentach.
@@ -110,8 +104,8 @@ Gdy funkcje dostępności zostaną skutecznie zaimplementowane w jednym komponen
 {% include image.html src="components/cycle.pl.png" alt="" %}
 
 - Gdy **przeglądarki internetowe, odtwarzacze mediów, technologie wspomagające** i inne **programy użytkownika** obsługują funkcje dostępności, użytkownicy częściej będą tego wymagać, a programiści częściej implementować je w swoich **treściach**.
-- Gdy twórcy chcą wdrażać funkcje dostępności w swoich **treściach**, częściej domagają się, aby **narzędzie autorskie** ułatwiało ich wdrożenie. 
-- Gdy **narzędzia autorskie** umożliwiają łatwą implementację funkcji dostępności, twórcy chętniej je wdrożą w swoich **treściach**. 
+- Gdy twórcy chcą wdrażać funkcje dostępności w swoich **treściach**, częściej domagają się, aby **narzędzie autorskie** ułatwiało ich wdrożenie.
+- Gdy **narzędzia autorskie** umożliwiają łatwą implementację funkcji dostępności, twórcy chętniej je wdrożą w swoich **treściach**.
 - Gdy funkcje dostępności są zaimplementowane w **większości treści**, twórcy i&nbsp;użytkownicy częściej żądają, aby obsługiwały je **programy użytkownika**.
 
 ### Gdy jeden komponent jest słaby

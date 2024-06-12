@@ -12,8 +12,6 @@ translators:
   - name: "hwahyeon"
 
 github:
-  repository: w3c/wai-website
-  path: pages/fundamentals/components/wai-components-example.ko.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-components
 
 permalink: /fundamentals/components/examples/ko # Add the language shortcode to the end; for example /path/to/file/fr

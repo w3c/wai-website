@@ -13,8 +13,6 @@ contributors:
 - name: "Rémi Bétin"
 
 github:
-  repository: w3c/wai-website
-  path: pages/fundamentals/components/index.fr.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-components
 
 permalink: /fundamentals/components/fr   # Add the language shortcode to the end; for example /path/to/file/fr

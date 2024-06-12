@@ -1,22 +1,17 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 
 title: "Opisy ilustracji w artykule Podstawowe komponenty dostępności Internetu"
 nav_title: Opisy ilustracji
-lang: pl  # Change "en" to the translated language shortcode
+lang: pl
 last_updated: 2024-03-26  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 parent: /fundamentals/components/ # Do not change this
 
-translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-- name: "Stefan Wajda"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+translators:
+- name: "Stefan Wajda"
 
 github:
-  repository: w3c/wai-website
-  path: pages/fundamentals/components/wai-components-example.pl.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-components
 
 permalink: /fundamentals/components/examples/pl # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr

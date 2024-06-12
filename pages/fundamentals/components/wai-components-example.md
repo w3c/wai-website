@@ -16,8 +16,6 @@ parent: /fundamentals/components/ # Do not change this
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-website
-  path: pages/fundamentals/components/wai-components-example.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-components
 
 permalink: /fundamentals/components/examples/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr

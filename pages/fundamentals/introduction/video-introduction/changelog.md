@@ -4,13 +4,13 @@ title: "Changelog for Video Introduction to Web Accessibility and W3C Standards"
 title_html: 'Changelog for <a href="https://www.w3.org/WAI/videos/standards-and-benefits/">Video Introduction to Web Accessibility and W3C Standards</a>'
 nav_title: "Changelog"
 lang: en
-layout: default
 class: tight-page
+
+github:
+  label: wai-video-introduction
 
 permalink: /videos/standards-and-benefits/changelog/
 ref: /videos/standards-and-benefits/changelog/
-github:
-   label: wai-video-introduction
 
 feedbackmail: wai@w3.org
 footer: >
