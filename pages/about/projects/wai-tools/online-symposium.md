@@ -3,12 +3,11 @@ title: "ACT Rules for Manual Web Accessibility Evaluation Methodologies – Onli
 title_html: "ACT Rules for Manual Web Accessibility Evaluation Methodologies<br>Online Symposium, 14 March 2018"
 nav_title: Online Symposium
 lang: en
-
 permalink: /about/projects/wai-tools/symposium/
 ref: /about/projects/wai-tools/symposium/
 ---
 
-![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right style="width: 105px; margin-top:-1px;"}
+![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right style="width: 105px; margin-top:-1px;"}
 
 {::nomarkdown}
 {% include box.html type="start" title="Sponsors" class="simple right" %}

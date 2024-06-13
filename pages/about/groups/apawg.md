@@ -1,11 +1,9 @@
 ---
 title: Accessible Platform Architectures (APA) Working Group
 nav_title: '<span>APA: Accessible Platform <abbr title="Working Group">WG</abbr></span>'
-order: 3
-group: groups
+lang: en
 permalink: /about/groups/apawg/
 ref: /about/groups/apawg/
-lang: en
 ---
 
 {::nomarkdown}
@@ -42,7 +40,7 @@ No announcements at the moment.
 
 The APA WG is engaged on the following work:
 
-- Publications: The Working Group maintains a comprehensive list of [publications and status](https://www.w3.org/WAI/APA/deliverables), which include:
+- Publications: The Working Group maintains a comprehensive list of publications and status](/about/groups/apawg/deliverables/), which include:
     - Several [Accessibility User Requirements](https://www.w3.org/TR/?filter-tr-name=accessibility+user+requirements) guides for specific technologies;
     - [Framework for Accessible Specification of Technologies](https://w3c.github.io/apa/fast/) plus [FAST checklist](https://w3c.github.io/apa/fast/checklist.html),
     - [Inaccessibility of CAPTCHA](https://w3c.github.io/apa/captcha/),
@@ -51,7 +49,7 @@ The APA WG is engaged on the following work:
 - Specification reviews: input is solicited on the [WAI Interest Group mailing list](http://lists.w3.org/Archives/Public/w3c-wai-ig/), tracked in the [APA specification review wiki pages](https://www.w3.org/WAI/APA/wiki/Category:Spec_Review)and comments are copied to the [public-apa mailing list](https://lists.w3.org/Archives/Public/public-apa/).
 - Community groups: the Working Group maintains a [list of community groups to track](https://www.w3.org/WAI/APA/wiki/Community_Groups).
 
-The [APA Project Plan](https://www.w3.org/WAI/APA/project) details intended timeline and milestones for this work.
+The [APA Project Plan](/about/groups/apawg/deliverables/) details intended timeline and milestones for this work.
 
 ## Horizontal Review
 
@@ -61,19 +59,19 @@ To request review of a GitHub issue from the APA, add the "a11y-tracker" label t
 
 ## Task Forces
 
-The APA WG uses [task forces](https://www.w3.org/WAI/APA/task-forces) to focus work on specific projects. Task Forces are described on the related page.
+The APA WG uses [task forces](/about/groups/apawg/task-forces/) to focus work on specific projects. Task Forces are described on the related page.
 
 ## How to Comment, Contribute, and Participate
 
 The APA Working Group engages with stakeholders in a variety of ways. See the following resources for information on:
 
-- [How to contribute to the Working Group and file comments](https://www.w3.org/WAI/APA/contribute);
+- [How to contribute to the Working Group and file comments](/about/groups/apawg/contribute/);
 - [How to contribute to the source repository directly](https://github.com/w3c/apa/);
-- [How to participate in (join) the Working Group](https://www.w3.org/WAI/APA/participation).
+- [How to participate in (join) the Working Group](/about/groups/apawg/participate/).
 
 ## Meetings and Communication
 
-The APA WG conducts its work using a variety of synchronous and asynchronous tools. The [communication](https://www.w3.org/WAI/APA/communication) page provides details about:
+The APA WG conducts its work using a variety of synchronous and asynchronous tools. The [communication](/about/groups/apawg/communication/) page provides details about:
 
 - Teleconferences of the Working Group and its task forces (also see [meeting minutes](https://www.w3.org/WAI/APA/minutes));
 - Face to face meetings (also see face to face [meeting pages](https://www.w3.org/WAI/APA/wiki/Meetings));
@@ -81,10 +79,9 @@ The APA WG conducts its work using a variety of synchronous and asynchronous too
 - [apa source repository](https://github.com/w3c/apa/);
 - [Wiki](https://www.w3.org/WAI/APA/wiki/);
 - [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/83907/);
-- [Issue Tracker](https://www.w3.org/WAI/APA/track/);
 - [apa source repository issue tracker](https://github.com/w3c/apa/issues).
 
-These tools are used by participants of the Working Group. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](https://www.w3.org/WAI/APA/contribute).
+These tools are used by participants of the Working Group. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/apawg/contribute/).
 
 ### Meeting Minutes
 
@@ -98,7 +95,7 @@ The chairs of the APA WG, responsible for overall leadership and management, are
 
 The Accessible Platform Architectures maintains the following operational resources:
 
-- [Decision policy](https://www.w3.org/WAI/APA/decision-policy);
+- [Decision policy](/about/groups/apawg/decision-policy/);
 - [Record of decisions made by the WG](https://www.w3.org/WAI/APA/wiki/Decisions);
 - [Archives of past activity](https://www.w3.org/WAI/APA/archive);
 - [meeting minutes](https://www.w3.org/WAI/APA/minutes).

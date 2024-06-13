@@ -1,7 +1,5 @@
 ---
 title: ARIA Working Group Work Flow
-order: 3
-group: ariawg
 permalink: /about/groups/ariawg/workflow/
 ref: /about/groups/ariawg/workflow/
 lang: en
@@ -23,14 +21,14 @@ In order to minimize the occurrence of such problems in the future, the ARIA Wor
 
 For each ARIA feature:
 
-1. Create / modify a single ARIA feature in a [working branch](https://www.w3.org/WAI/ARIA/workflow#branching) of the specification repository.
+1. Create / modify a single ARIA feature in a working branch of the specification repository.
 2. Obtain platform mappings for that feature from platform mapping maintainers and add in a working branch of the mappings repository.
 3. Create test file(s) for that feature and add to the [web-platform-tests repository](https://github.com/w3c/web-platform-tests).
 4. Execute tests and obtain test results for that feature and add to the [test-results repository](https://github.com/w3c/test-results).
 5. If tests report failures, double-check that the mapping, test file, and test methodology are correct. If so, file bugs against user agents for that feature and track progress via periodic retesting.
 6. Solicit assistive technology implementations for that feature.
 7. Write authoring guidance for that feature in a working branch of the authoring practices repository.
-8. When a feature meets the [criteria for readiness](https://www.w3.org/WAI/ARIA/workflow#readiness), merge working branch related to the feature into the stable branch of the respective repositories.
+8. When a feature meets the [criteria for readiness](#criteria-for-readiness-of-an-aria-feature), merge working branch related to the feature into the stable branch of the respective repositories.
 
 ## Criteria for "Readiness" of an ARIA Feature
 

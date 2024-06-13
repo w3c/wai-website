@@ -38,7 +38,7 @@ Some information on this page is also shown on, and may be more current in, the 
 
 The WCAG2ICT TF conducts its work using a variety of synchronous and asynchronous tools. Work is being done via teleconference, email and GitHub issues.
 
-- [Email lists](https://www.w3.org/WAI/GL/task-forces/wcag2ict/#email);
+- [Email lists](#mailing-lists);
 - [wcag2ict GitHub repository](https://github.com/w3c/wcag2ict/) and [GitHub draft document](https://w3c.github.io/wcag2ict/);
 - IRC discussion on the [#wcag2ict IRC channel](http://irc.w3.org/?channels=#wcag2ict), used largely for minute-taking. IF you use your own IRC client:
   - Server: irc.w3.org;
@@ -74,7 +74,7 @@ The WCAG2ICT TF uses the public-wcag2ict-tf@w3.org mailing list ([mailing list a
 
 ## How to Comment, Contribute, and Participate {#contribute}
 
-To join the WCAG2ICT TF, individuals must be participants of the Accessibility Guidelines Working Group. Participants are expected to [actively contribute](/about/groups/task-forces/wcag2ict/work-statement#participation) to the work of the Task Force. If you are interested in participating in the WCAG2ICT TF, email the task force leadership and working group chairs at [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the instructions on [How to join the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/). Once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
+To join the WCAG2ICT TF, individuals must be participants of the Accessibility Guidelines Working Group. Participants are expected to [actively contribute](/about/groups/task-forces/wcag2ict/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the WCAG2ICT TF, email the task force leadership and working group chairs at [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the instructions on [How to join the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/). Once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
 
 [Current participants in the WCAG2ICT TF](https://www.w3.org/groups/tf/wcag2ict/participants).
 
@@ -91,4 +91,4 @@ Contact the task force leadership and working group chairs via email at [group-a
 
 ### Work Statement
 
-The [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement) defines the objectives, scope, approach, and participation of the Task Force. The work statement has been approved by the Accessibility Guidelines WG.
+The [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/) defines the objectives, scope, approach, and participation of the Task Force. The work statement has been approved by the Accessibility Guidelines WG.

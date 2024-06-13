@@ -3,12 +3,11 @@ title: "WAI-Tools Open Meeting — 20 May 2019, Brussels, Belgium"
 title_html: "WAI-Tools Open Meeting <br />20 May 2019, Brussels, Belgium"
 nav_title: Second Open Meeting
 lang: en
-
 permalink: /about/projects/wai-tools/second-open-meeting/
 ref: /about/projects/wai-tools/second-open-meeting/
 ---
 
-![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right width="105px"}
+![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right width="105px"}
 
 {::nomarkdown}
 {% include toc.html type="start" title="Page Contents" class="full" %}

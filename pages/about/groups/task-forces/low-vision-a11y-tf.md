@@ -79,7 +79,7 @@ The objective of the Task Force is to address web accessibility issues specific 
 
 ### Work Statement
 
-- Initial [Low Vision Accessibility Task Force Work Statement](/about/groups/task-forces/low-vision-a11y-tf/work-statement) (some details have changed since then)
+- Initial [Low Vision Accessibility Task Force Work Statement](/about/groups/task-forces/low-vision-a11y-tf/work-statement/) (some details have changed since then)
 
 ### Mailing List
 
@@ -88,7 +88,7 @@ The objective of the Task Force is to address web accessibility issues specific 
 When using the Low Vision Accessibility Task Force mailing list:
 
 1. Treat other list members with respect.
-2. Keep comments within the scope of this group (see [Low Vision Accessibility Task Force Work Statement](/about/groups/task-forces/low-vision-a11y-tf/work-statement)).
+2. Keep comments within the scope of this group (see [Low Vision Accessibility Task Force Work Statement](/about/groups/task-forces/low-vision-a11y-tf/work-statement/)).
 3. When raising an issue:
     - provide a clear subject line including the topic it relates to
     - explain the issue briefly

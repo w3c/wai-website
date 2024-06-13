@@ -1,7 +1,5 @@
 ---
 title: ARIA Editors
-order: 7
-group: ariawg
 permalink: /about/groups/ariawg/editors/
 ref: /about/groups/ariawg/editors/
 lang: en

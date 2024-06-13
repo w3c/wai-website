@@ -40,14 +40,14 @@ The APG Task Force conducts its work using a variety of synchronous and asynchro
 
 - Teleconferences of the Working Group and its task forces (also see [meeting minutes](https://www.w3.org/WAI/ARIA/task-forces/practices/minutes));
 - Face to face meetings;
-- [Email lists](https://www.w3.org/WAI/ARIA/task-forces/practices/#email);
+- [Email lists](#mailing-lists);
 - IRC discussion on the [#aria-apg](irc://irc.w3.org/aria-apg) IRC channel, used largely for minute-taking;
 - [aria-practices source repository](https://github.com/w3c/aria-practices/);
 - [Wiki](https://github.com/w3c/aria-practices/wiki);
 - [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/102172/);
 - [aria-practices source repository issue tracker](https://github.com/w3c/aria-practices/issues).
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](https://www.w3.org/WAI/ARIA/contribute).
+These tools are used by participants of the Task Force. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/ariawg/contribute/).
 
 ### Teleconferences
 
@@ -73,15 +73,15 @@ The APG Task Force is primarily developing [WAI-ARIA Authoring Practices 1.1](ht
 
 ## How to Comment, Contribute, and Participate
 
-To join the APG Task Force, individuals must be participants of the [ARIA WG](https://www.w3.org/WAI/ARIA/). Participants are expected to [actively contribute](https://www.w3.org/WAI/ARIA/task-forces/practices/work-statement#participation) to the work of the Task Force. If you are interested in participating in the APG Task Force, please send e-mail to: [Matt King, Jemma Ku](mailto:a11ythinker@gmail.com,jku@illinois.edu?subject=APG%20Task%20Force%20Enquiry) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [ARIA Working Group participation](https://www.w3.org/WAI/ARIA/participation) procedures to join the Working Group, and once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
+To join the APG Task Force, individuals must be participants of the [ARIA WG](/about/groups/apawg/). Participants are expected to [actively contribute](/about/groups/task-forces/practices/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the APG Task Force, please send e-mail to: [Matt King, Jemma Ku](mailto:a11ythinker@gmail.com,jku@illinois.edu?subject=APG%20Task%20Force%20Enquiry) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [ARIA Working Group participation](/about/groups/ariawg/participate/) procedures to join the Working Group, and once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
 
-To contribute without joining the task force, see the [ARIA Working Group contribute page](https://www.w3.org/WAI/ARIA/contribute) for general instructions. To contribute to documents under development, see [how to contribute to the source repository directly](https://github.com/w3c/aria-practices/).
+To contribute without joining the task force, see the [ARIA Working Group contribute page](/about/groups/ariawg/contribute/) for general instructions. To contribute to documents under development, see [how to contribute to the source repository directly](https://github.com/w3c/aria-practices/).
 
 [Current participants in the APG Task Force](https://www.w3.org/2000/09/dbwg/details?group=102172&public=1).
 
 ## Administrative Information
 
-The APG Task Force is a Task Force of the [Accessible Rich Internet (ARIA) Working Group](https://www.w3.org/WAI/ARIA/). It assists this Working Group to develop [WAI-ARIA Authoring Practices](http://w3c.github.io/aria-practices/) and keep it in sync with WAI-ARIA.
+The APG Task Force is a Task Force of the [Accessible Rich Internet (ARIA) Working Group](/about/groups/ariawg/). It assists this Working Group to develop [WAI-ARIA Authoring Practices](http://w3c.github.io/aria-practices/) and keep it in sync with WAI-ARIA.
 
 ### Facilitator and Contacts
 
@@ -90,4 +90,4 @@ The APG Task Force is a Task Force of the [Accessible Rich Internet (ARIA) Worki
 
 ### Work Statement
 
-The [APG Task Force Work Statement](https://www.w3.org/WAI/ARIA/task-forces/practices/work-statement) defines the initial objective, scope, approach, and participation of the Task Force.
+The [APG Task Force Work Statement](/about/groups/task-forces/practices/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.

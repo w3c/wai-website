@@ -3,15 +3,14 @@ title: "Session 2: Accessibility Conformance Testing (ACT) Rules"   # Do not tra
 nav_title: "ACT Rules" # A short title that is used in the navigation
 lang: en
 last_updated: 2021-03-16
-
 permalink: /about/projects/wai-tools/session2/
 ref: /about/projects/wai-tools/
 ---
 
 {% include video-player.html 
-           yt-id="MJQonlttQps"
-           path="/content-images/about/wai-tools/"
-           captions="video2.vtt|en|default"
+  yt-id="MJQonlttQps"
+  path="/content-images/wai-about-wai/wai-tools/"
+  captions="video2.vtt|en|default"
 %}
 
 This video information is available:

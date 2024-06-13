@@ -2,10 +2,8 @@
 title: "WAI Projects"
 nav_title: "Overview"
 lang: en
-
 permalink: /about/projects/
 ref: /about/projects/
-
 feedbackmail: wai@w3.org
 class: tight-page
 ---

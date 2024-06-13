@@ -3,15 +3,14 @@ title: "Session 3: Portuguese national observatory"   # Do not translate "title:
 nav_title: "Portuguese Observatory" # A short title that is used in the navigation
 lang: en
 last_updated: 2021-03-16
-
 permalink: /about/projects/wai-tools/session3/
 ref: /about/projects/wai-tools/
 ---
 
 {% include video-player.html 
-           yt-id="k-xbzdxaysA"
-           path="/content-images/about/wai-tools/"
-           captions="video3.vtt|en|default"
+  yt-id="k-xbzdxaysA"
+  path="/content-images/wai-about-wai/wai-tools/"
+  captions="video3.vtt|en|default"
 %}
 
 This video information is available:

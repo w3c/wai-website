@@ -1,9 +1,9 @@
 ---
 title: Accessible Rich Internet Applications (ARIA) Working Group
 nav_title: '<span>ARIA: Accessible Rich Internet Applications <abbr title="Working Group">WG</abbr></span>'
-order: 4
-group: groups
+lang: en
 permalink: /about/groups/ariawg/
+ref: /about/groups/ariawg/
 ---
 
 {::nomarkdown}
@@ -44,7 +44,7 @@ The Working Group has established a [road map](roadmap) for upcoming work. This 
 - Accessibility API Mappings for ARIA, Digital Publishing, HTML, and SVG, and
 - WAI-ARIA Authoring Practices.
 
-The [ARIA Project Plan](project) details intended timeline and milestones for this work and proceeds according to the [ARIA Working Group Work Flow](workflow).
+The [ARIA Project Plan](/about/groups/ariawg/planning/) details intended timeline and milestones for this work and proceeds according to the [ARIA Working Group Work Flow](/about/groups/ariawg/workflow/).
 
 ## Task Forces
 
@@ -62,7 +62,7 @@ The ARIA Working Group engages with stakeholders in a variety of ways. See the f
 
 ## Meetings and Communication
 
-The ARIA WG conducts its work using a variety of synchronous and asynchronous tools. The [communication](aria/communication) page provides details about:
+The ARIA WG conducts its work using a variety of synchronous and asynchronous tools. The [communication](/about/groups/ariawg/communication/) page provides details about:
 
 - Teleconferences of the Working Group and its task forces (also see [meeting minutes](https://www.w3.org/WAI/ARIA/minutes));
 - Face to face meetings (also see face to face [meeting pages](https://www.w3.org/WAI/ARIA/wiki/Meetings));
@@ -87,7 +87,7 @@ The chairs of the ARIA WG, responsible for overall leadership and management, ar
 
 The Accessible Rich Internet Applications Working Group maintains the following operational resources:
 
-- [Decision policy](/about/groups/aria/decision-policy);
+- [Decision policy](/about/groups/ariawg/decision-policy/);
 - [Record of decisions made by the WG](https://www.w3.org/WAI/ARIA/wiki/Decisions);
 - [meeting minutes](https://www.w3.org/WAI/ARIA/minutes).
 

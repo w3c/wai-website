@@ -1,7 +1,5 @@
 ---
 title: Decision Policy
-order: 2
-group: agwg
 permalink: /about/groups/agwg/decision-policy/
 ref: /about/groups/agwg/decision-policy/
 lang: en
@@ -21,7 +19,7 @@ During discussion on a topic, participants are welcome to raise objections freel
 
 1. Discussion on a topic proceeds until the Chairs believe that all points of view have been expressed and the group has considered the variety of information presented. Depending on the topic, this discussion may take a couple of days or a couple of weeks, or more.
     
-    1. Discussion can take place in any [recognized channel of the Working Group](https://www.w3.org/about/groups/agwg/communication/) including email on the AG mailing list, comment threads for GitHub issues or pull requests, or on Working Group calls.
+    1. Discussion can take place in any [recognized channel of the Working Group](/about/groups/agwg/communication/) including email on the AG mailing list, comment threads for GitHub issues or pull requests, or on Working Group calls.
         
 2. When the Chairs believe that the group is ready to come to a decision they will propose a resolution for a vote using the Call for Consensus process. Optionally, a “final call” email can be used to prepare the group for the upcoming CFC and capture any outstanding comments. After the CFC, the decision is recorded as a resolution.
     

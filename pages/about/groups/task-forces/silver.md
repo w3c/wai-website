@@ -47,7 +47,7 @@ The Silver TF conducts its work using a variety of synchronous and asynchronous 
 - Teleconferences of the task force
 - Face to face meetings;
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see how to [participate in the Working Group](https://www.w3.org/WAI/GL/participation) and [file comments](https://www.w3.org/WAI/WCAG20/comments/).
+These tools are used by participants of the Task Force. For ways non-participants can contribute, see how to [participate in the Working Group](/about/groups/agwg/participate/) and [file comments](https://www.w3.org/WAI/WCAG20/comments/).
 
 ### Teleconferences
 
@@ -75,7 +75,7 @@ The Silver TF uses the public-silver@w3.org mailing list ([mailing list archives
 
 ## How to Comment, Contribute, and Participate
 
-To join the Silver TF, individuals must be participants of the Accessibility Guidelines Working Group. Participants are expected to [actively contribute](https://www.w3.org/WAI/GL/task-forces/silver/work-statement#participation) to the work of the Task Force. If you are interested in participating in the Silver TF, please send e-mail to: [Jeanne Spellman and Shawn Lauriat](mailto:jspellman@spellmanconsulting.com,lauriat@google.com?subject=Silver%20Task%20Force%20Enquiry) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [participation procedures of the Accessibility Guidelines Working Group](https://www.w3.org/WAI/GL/participation), and once you have joined ask [Michael Cooper](mailto:cooper@w3.org) to add you to the task force.
+To join the Silver TF, individuals must be participants of the Accessibility Guidelines Working Group. Participants are expected to [actively contribute](/about/groups/task-forces/silver/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the Silver TF, please send e-mail to: [Jeanne Spellman and Shawn Lauriat](mailto:jspellman@spellmanconsulting.com,lauriat@google.com?subject=Silver%20Task%20Force%20Enquiry) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [participation procedures of the Accessibility Guidelines Working Group](/about/groups/agwg/participate/), and once you have joined ask [Michael Cooper](mailto:cooper@w3.org) to add you to the task force.
 
 [Current participants in the Silver TF](https://www.w3.org/2000/09/dbwg/details?group=94845&public=1).
 
@@ -83,7 +83,7 @@ In addition to the task force, the [Silver Community Group](https://www.w3.org/c
 
 ## Administrative Information
 
-The Silver TF is a Task Force of the [Accessible Guidelines Working Group (AG WG)](https://www.w3.org/WAI/GL/). It assists this Working Group with preliminary development of a new version of Accessibility Guidelines to address current technological and cultural web accessibility requirements and provide a base for continued evolution of the guidelines.
+The Silver TF is a Task Force of the [Accessible Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists this Working Group with preliminary development of a new version of Accessibility Guidelines to address current technological and cultural web accessibility requirements and provide a base for continued evolution of the guidelines.
 
 ### Facilitator and Contacts
 
@@ -95,4 +95,4 @@ Contact the task force leadership and working group chairs by email to [group-ag
 
 ### Work Statement
 
-The [Silver Task Force Work Statement](https://www.w3.org/WAI/GL/task-forces/silver/work-statement) defines the initial objective, scope, approach, and participation of the Task Force.
+The [Silver Task Force Work Statement](/about/groups/task-forces/silver/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.

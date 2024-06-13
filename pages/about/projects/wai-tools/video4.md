@@ -3,15 +3,14 @@ title: "Session 4: WCAG-EM Report Tool and Statements Generator"   # Do not tran
 nav_title: "Support Tools" # A short title that is used in the navigation
 lang: en
 last_updated: 2021-03-16
-
 permalink: /about/projects/wai-tools/session4/
 ref: /about/projects/wai-tools/
 ---
 
 {% include video-player.html 
-           yt-id="zhbhMYZjZF8"
-           path="/content-images/about/wai-tools/"
-           captions="video4.vtt|en|default"
+  yt-id="zhbhMYZjZF8"
+  path="/content-images/wai-about-wai/wai-tools/"
+  captions="video4.vtt|en|default"
 %}
 
 This video information is available:

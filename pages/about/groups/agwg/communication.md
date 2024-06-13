@@ -1,7 +1,5 @@
 ---
 title: Meetings and Communication
-order: 3
-group: agwg
 permalink: /about/groups/agwg/communication/
 ref: /about/groups/agwg/communication/
 lang: en
@@ -24,7 +22,7 @@ The Accessibility Guidelines Working Group uses the following tools and procedur
 
 ## Teleconferences
 
-The AG WG and its task forces participate in the following teleconferences. Unless otherwise mentioned, times are given in Boston time because the UTC time floats with U.S. Daylight Savings Time changes. Follow the link to convert to local time. Meetings take place on [WebEx](https://www.w3.org/2006/tools/wiki/Category:WebEx), using the link given or by dial-in to +1-617-324-0000. If using the web interface to WebEx, the meeting password must be obtained in advance from the chair or staff contact. [IRC](https://www.w3.org/WAI/GL/communication#irc) is used for text chat and [minute taking](http://dev.w3.org/cvsweb/~checkout~/2002/scribe/scribedoc.htm?content-type=text/html). It is not expected that participants will join all meetings; instead please strive to be a regular participant in the meeting(s) of greatest relevance to your work in the group.
+The AG WG and its task forces participate in the following teleconferences. Unless otherwise mentioned, times are given in Boston time because the UTC time floats with U.S. Daylight Savings Time changes. Follow the link to convert to local time. Meetings take place on [WebEx](https://www.w3.org/2006/tools/wiki/Category:WebEx), using the link given or by dial-in to +1-617-324-0000. If using the web interface to WebEx, the meeting password must be obtained in advance from the chair or staff contact. [IRC](#irc) is used for text chat and [minute taking](http://dev.w3.org/cvsweb/~checkout~/2002/scribe/scribedoc.htm?content-type=text/html). It is not expected that participants will join all meetings; instead please strive to be a regular participant in the meeting(s) of greatest relevance to your work in the group.
 
 - **[Accessibility Guidelines Working Group](https://www.w3.org/events/meetings/fad52978-dc63-4427-90b9-e64dd31b0566/)**: Tuesdays at 11:00 until 13:00 Boston time
 - **[AG Facilitators](https://www.w3.org/events/meetings/eaacc8a7-94d4-4a66-83d5-5ded358d69cc/)**: Every second Monday at 13:00 until 13:30 Boston time
@@ -79,5 +77,4 @@ The ARIA WG uses the following web-based resources as well:
 
 - [Wiki](https://www.w3.org/WAI/GL/wiki/), to develop or record content not immediately intended for formal publication. This is writeable by WG members and publicly readable.
 - [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/35422/), to measure aggregate group opinion. These can be completed by WG members with publicly readable results.
-- [Issue Tracker](https://www.w3.org/WAI/GL/track/), to track issues and action items. This is maintainable by WG members and publicly readable.
 - [WCAG 2 GitHub Issues](https://github.com/w3c/wcag/issues) to track issues for publications maintained in the GitHub repository. Users with a [GitHub account](https://github.com/) can file or comment on issues, and issues are publicly readable.

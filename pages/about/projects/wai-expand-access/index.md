@@ -1,12 +1,14 @@
 ---
-title: "WAI Expanding Access Project: Expanding Web and Mobile Accessibility in Low Resource Regions and Communities"
-title_html: "WAI Expanding Access Project:<br>Expanding Web and Mobile Accessibility in Low Resource Regions and Communities"
-nav_title: "WAI Expanding Access"
-lang: en
-last_updated: 2022-00-00
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 
-permalink: /expand-access/
-ref: /expand-access/
+title: "WAI Expanding Access Project: Expanding Web and Mobile Accessibility in Low Resource Regions and Communities"   # Do not translate "title:". Do translate the text after "title:".
+title_html: "WAI Expanding Access Project:<br>Expanding Web and Mobile Accessibility in Low Resource Regions and Communities"    # Do translate the text with <br>
+nav_title: "WAI Expanding Access" # A short title that is used in the navigation
+lang: en   # Change "en" to the translated language shortcode
+last_updated: 2022-00-00   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
+permalink: /expand-access/   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
+ref: /expand-access/   # Do not change this
 
 feedbackmail: wai@w3.org
 ---

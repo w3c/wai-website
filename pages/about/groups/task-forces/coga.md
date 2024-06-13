@@ -57,7 +57,7 @@ The Coga TF conducts its work using a variety of synchronous and asynchronous to
 - Teleconferences of the task force (also see [meeting minutes](https://www.w3.org/WAI/GL/task-forces/coga/minutes));
 - Face to face meetings;
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see how to [participate in the Working Group](https://www.w3.org/WAI/GL/participation) and [file comments](https://www.w3.org/WAI/WCAG20/comments/).
+These tools are used by participants of the Task Force. For ways non-participants can contribute, see how to [participate in the Working Group](/about/groups/agwg/participate/) and [file comments](https://www.w3.org/WAI/WCAG20/comments/).
 
 ### Meeting Minutes
 
@@ -95,11 +95,11 @@ The [task force wiki](https://www.w3.org/WAI/GL/task-forces/coga/wiki/) contains
 
 ### Work Statement
 
-**[Cognitive and Learning Disabilities Accessibility Task Force Work Statement](https://www.w3.org/WAI/GL/task-forces/coga/work-statement)** defines the initial objective, scope, approach, and participation of the Task Force.
+**[Cognitive and Learning Disabilities Accessibility Task Force Work Statement](/about/groups/task-forces/coga/work-statement/)** defines the initial objective, scope, approach, and participation of the Task Force.
 
 ### Participation
 
-To join the Cognitive A11Y TF, individuals must be participants of either the [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/) or the [Web Content Accessibility Guidelines Working Group (AG WG)](https://www.w3.org/WAI/GL/). Participants are expected to actively contribute to the work of the Task Force, including:
+To join the Cognitive A11Y TF, individuals must be participants of either the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/) or the [Web Content Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). Participants are expected to actively contribute to the work of the Task Force, including:
 
 - Minimum 4 hours per week of Cognitive A11Y TF work (this time also counts towards the individual's participation requirement in the sponsoring WG through which they have joined);
 - Remain current on the Cognitive and Learning Disabilities Accessibility Task Force mailing list and respond in a timely manner to postings;

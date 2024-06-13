@@ -1,7 +1,5 @@
 ---
 title: ARIA Communication
-order: 6
-group: ariawg
 permalink: /about/groups/ariawg/communication/
 ref: /about/groups/ariawg/communication/
 lang: en
@@ -73,4 +71,4 @@ The ARIA WG uses the following web-based resources as well:
 - [Web-Based Surveys (WBS)](http://www.w3.org/2002/09/wbs/83726/), to measure aggregate group opinion. These can be completed by WG members with publicly readable results.
 - [Issue Tracker](https://www.github.com/w3c/aria/issues/), to track issues and action items. This is maintainable by WG members and publicly readable.
 - [Bugzilla](https://www.w3.org/Bugs/Public/), to track issues specific to publications. This shared tool allows some collaboration with other W3C groups, but in general is not actively used by the WG. Users with a [W3C Bugzilla account](https://www.w3.org/Bugs/Public/createaccount.cgi) can file or comment on issues, and bugs are publicly readable.
-- GitHub Issues, to track issues for publications maintained in the [GitHub repositories](/about/groups/aria/contribute#github). Users with a [GitHub account](https://github.com/) can file or comment on issues, and issues are publicly readable.
+- GitHub Issues, to track issues for publications maintained in the [GitHub repositories](/about/groups/ariawg/contribute/#github). Users with a [GitHub account](https://github.com/) can file or comment on issues, and issues are publicly readable.

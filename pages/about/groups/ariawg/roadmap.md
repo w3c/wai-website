@@ -1,7 +1,5 @@
 ---
 title: ARIA Working Group Road Map
-order: 4
-group: ariawg
 permalink: /about/groups/ariawg/roadmap/
 ref: /about/groups/ariawg/roadmap/
 lang: en
@@ -9,7 +7,7 @@ lang: en
 
 ## Introduction
 
-This road map describes the current and planned work to be accomplished by the ARIA Working Group. The targets found herein are based on the version of the relevant specification. In order to determine the intended delivery date, please see the [ARIA Project Plan](https://www.w3.org/WAI/ARIA/project).
+This road map describes the current and planned work to be accomplished by the ARIA Working Group. The targets found herein are based on the version of the relevant specification. In order to determine the intended delivery date, please see the [ARIA Project Plan](/about/groups/ariawg/planning/).
 
 ## Achieve Parity with Native Host Language Semantics
 

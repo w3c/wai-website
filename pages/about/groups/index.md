@@ -1,11 +1,9 @@
 ---
 nav_title: "Overview"
 title: WAI Working Groups and Interest Groups
-order: 1
-group: groups
+lang: en
 permalink: /about/groups/
 ref: /about/groups/
-lang: en
 ---
 
 WAI has Working Groups developing accessibility guidelines and related
@@ -52,7 +50,7 @@ See also:
 -   [**Task Forces**](/about/groups/task-forces/) - Lists some active Task Forces that
     operate under WAI Working Groups, and/or jointly between WAI groups
     and other W3C groups.
--   **[Participating in WAI](/get-involved/)** - Describes participation
+-   **[Participating in WAI](/about/participate/)** - Describes participation
     opportunities ranging from volunteering to implement, promote, and
     review guidelines, to occasional participation in an interest group,
     to dedicated participation in a working group.

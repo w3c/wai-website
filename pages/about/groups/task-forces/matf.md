@@ -38,13 +38,13 @@ _4 January 2024_ **New facilitator appointed**: Jan Jaap de Groot has been appoi
 
 The Mobile Accessibility Task Force conducts its work using a variety of synchronous and asynchronous tools. Most work is done via email and issues as shown below, supplemented by occasional teleconferences.
 
-- [Email lists](https://www.w3.org/WAI/GL/task-forces/matf/#email);
+- [Email lists](#mailing-lists);
 - [wiki](https://www.w3.org/WAI/GL/task-forces/matf/wiki);
 - [Tracker](https://www.w3.org/WAI/GL/task-forces/matf/track/);
 - IRC discussion (server: **irc.w3.org**, port: **6665,** channel: **#matf**) is used by some members during the teleconferences. Please type "present+" _your name_ in the IRC channel when joining a meeting.;
 - [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/66524/);
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see how to [participate in the Working Group](https://www.w3.org/WAI/GL/task-forces/participation) and [file comments](https://www.w3.org/WAI/GL/WCAG20/comments/).
+These tools are used by participants of the Task Force. For ways non-participants can contribute, see how to [participate in the Working Group](/about/groups/agwg/participate/) and [file comments](https://www.w3.org/WAI/GL/WCAG20/comments/).
 
 ### Online Meetings
 
@@ -87,7 +87,7 @@ The MATF is currently regrouping and creating a new Work Statement for its new d
 
 ### Participation
 
-To join the Mobile Accessibility Task Force, individuals must be participants of the [Accessibility Guidelines Working Group (AG WG)](https://www.w3.org/WAI/GL/). Participants are expected to actively contribute to the work of the Task Force, including:
+To join the Mobile Accessibility Task Force, individuals must be participants of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). Participants are expected to actively contribute to the work of the Task Force, including:
 
 - Minimum 2 hours per week of MATF work (this time also counts towards the individual's participation requirement in the sponsoring WG through which they have joined);
 - Remain current on the MATF mailing list and respond in a timely manner to postings;

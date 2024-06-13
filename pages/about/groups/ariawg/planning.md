@@ -1,7 +1,5 @@
 ---
 title: ARIA Project Plan
-order: 5
-group: ariawg
 permalink: /about/groups/ariawg/planning/
 ref: /about/groups/ariawg/planning/
 lang: en

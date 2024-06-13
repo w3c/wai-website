@@ -1,12 +1,11 @@
 ---
 title: "WAI-CooP"
 lang: en
-
 permalink: /about/projects/wai-coop/
 ref: /about/projects/wai-coop/
 ---
 
-![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}
+![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right.small}
 
 {::nomarkdown}
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}
@@ -77,9 +76,9 @@ EM Report Tool
 
 Most of the project work listed above was developed through or in coordination with:
 
--   [Accessibility Education and Outreach Working Group (EOWG)](https://www.w3.org/WAI/EO/)
--   [Accessibility Conformance Testing (ACT) Task Force](https://www.w3.org/wai/gl/task-forces/conformance-testing/)
--   [Research Questions Task Force (RQTF)](https://www.w3.org/WAI/APA/task-forces/research-questions/)
+-   [Accessibility Education and Outreach Working Group (EOWG)](/about/groups/eowg/)
+-   [Accessibility Conformance Testing (ACT) Task Force](/about/groups/task-forces/conformance-testing/)
+-   [Research Questions Task Force (RQTF)](/about/groups/task-forces/research-questions/)
 
 See also [Participating in WAI](http://www.w3.org/WAI/participation). If you have any questions, contact [Kevin White](https://www.w3.org/staff/#kevin).
 

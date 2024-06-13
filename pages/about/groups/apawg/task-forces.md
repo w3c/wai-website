@@ -1,8 +1,6 @@
 ---
 title: Task Forces
 nav_title: Task Forces
-order: 1
-group: apawg
 permalink: /about/groups/apawg/task-forces/
 ref: /about/groups/apawg/task-forces/
 lang: en
@@ -25,20 +23,20 @@ The APA Working Group conducts accessibility review of W3C specifications, and f
 
 ## Cognitive and Learning Disabilities Accessibility Task Force
 
-The [Cognitive and Learning Disabilities Accessibility Task Force](/groups/task-forces/coga/) will develop draft proposed guidance and techniques to make web content, content authoring, and user agent implementation accessible and more usable by people with cognitive and learning disabilities.
+The [Cognitive and Learning Disabilities Accessibility Task Force](/about/groups/task-forces/coga/) will develop draft proposed guidance and techniques to make web content, content authoring, and user agent implementation accessible and more usable by people with cognitive and learning disabilities.
 
 ## WAI-Adapt Task Force
 
-The work of [WAI-Adapt Task Force](/groups/task-forces/adapt/) enables users to use adaptive widgets and user preferences to customize their user experience. It enables content authors to provide a default design and enable user adaptation with minimal work.
+The work of [WAI-Adapt Task Force](/about/groups/task-forces/personalization/) enables users to use adaptive widgets and user preferences to customize their user experience. It enables content authors to provide a default design and enable user adaptation with minimal work.
 
 ## Research Questions Task Force
 
-The [Research Questions Task Force (RQTF)](/groups/task-forces/research-questions/) works to identify accessibility knowledge gaps and barriers in emerging and future web technologies, and to identify research findings, researchers, and research opportunities to inform and fill those gaps where possible.
+The [Research Questions Task Force (RQTF)](/about/groups/task-forces/research-questions/) works to identify accessibility knowledge gaps and barriers in emerging and future web technologies, and to identify research findings, researchers, and research opportunities to inform and fill those gaps where possible.
 
 ## Spoken Presentation Task Force
 
-The [Spoken Presentation Task Force](/groups/task-forces/pronunciation/) will develop normative specifications and best practices guidance collaborating with other W3C groups as appropriate, to provide for proper pronunciation in HTML content when using text to speech (TTS) synthesis.
+The [Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/) will develop normative specifications and best practices guidance collaborating with other W3C groups as appropriate, to provide for proper pronunciation in HTML content when using text to speech (TTS) synthesis.
 
 ## Maturity Model Task Force
 
-The [Maturity Model Task Force](/groups/task-forces/maturity-model/) is to craft an Accessibility Maturity Model (AMM) narrative and assessment tool in support of W3C standards and other related guidance, such as Web Content Accessibility Guidelines (WCAG) and Accessibility Rich Internet Applications (ARIA), in consultation with the APA Working Group. Specifically, the MMTF Accessibility Maturity Model will assist organizations in building capacity to develop, and maintain, accessible products or services.
+The [Maturity Model Task Force](/about/groups/task-forces/maturity-model/) is to create an Accessibility Maturity Model (AMM) narrative and assessment tool in support of W3C standards and other related guidance, such as Web Content Accessibility Guidelines (WCAG) and Accessibility Rich Internet Applications (ARIA), in consultation with the APA Working Group. The Accessibility Maturity Model will assist organizations in building capacity to develop, and maintain, accessible products or services.

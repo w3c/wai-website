@@ -5,10 +5,6 @@ lang: en
 last_updated: 2024-04-09
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
-github:
-  repository: w3c/wai-about-wai
-  path: '_about/translating.md'
-
 permalink: /about/translating/
 ref: /about/translating/
 redirect_from:

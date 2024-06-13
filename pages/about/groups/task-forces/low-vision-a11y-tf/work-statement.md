@@ -18,15 +18,15 @@ lang: en
 {% include_cached toc.html type="end" %}
 {:/}
 
-This Work Statement was approved in 2015. Updated information is available from the [Low Vision Accessibility Task Force home page](https://www.w3.org/WAI/GL/low-vision-a11y-tf/) and [wiki page](https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Main_Page).
+This Work Statement was approved in 2015. Updated information is available from the [Low Vision Accessibility Task Force home page](/about/groups/task-forces/low-vision-a11y-tf/) and [wiki page](https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Main_Page).
 
 The Low Vision Accessibility Task Force (Low Vision A11Y TF) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly also of the [User Agent Accessibility Guidelines Working Group (UAWG)](https://www.w3.org/WAI/UA/) which has closed). It assists this Working Group with the work identified below.
 
 ## Status
 
-The Low Vision Accessibility Force is now active. The [Task Force home page](https://www.w3.org/WAI/GL/task-forces/low-vision-a11y-tf/) contains information about the operation and resources of the group.
+The Low Vision Accessibility Force is now active. The [Task Force home page](/about/groups/task-forces/low-vision-a11y-tf/) contains information about the operation and resources of the group.
 
-This Work Statement was updated 27 January 2017 to change the name of the sponsoring Working Group to "Accessibility Guidelines", and previously was updated to clarify that it is now a task force just of the AG WG because the UAWG closed, and to update a liasion from the PFWG, which has closed, to the APA WG.
+This Work Statement was updated 27 January 2017 to change the name of the sponsoring Working Group to "Accessibility Guidelines", and previously was updated to clarify that it is now a task force just of the AG WG because the UAWG closed, and to update a liaison from the PFWG, which has closed, to the APA WG.
 
 ## Objective
 
@@ -47,9 +47,9 @@ The work will be carried out iteratively with continual involvement of the publi
 
 ## Dependencies
 
-The Low Vision Accessibility Task Force depends on the [AG WG](https://www.w3.org/WAI/GL/) to ensure accurate interpretation and representation of WCAG requirements.
+The Low Vision Accessibility Task Force depends on the [AG WG](/about/groups/agwg/) to ensure accurate interpretation and representation of WCAG requirements.
 
-The Low Vision Accessibility Task Force will also coordinate with the [Accessible Platform Architectures Working Group (APA WG)](https://www.w3.org/WAI/APA/), for technical advice and [Education and Outreach Working Group (EOWG)](https://www.w3.org/WAI/EO/) where necessary to improve the writing, presentation, and educational value of the developed materials.
+The Low Vision Accessibility Task Force will also coordinate with the [Accessible Platform Architectures Working Group (APA WG)](/about/groups/apawg/), for technical advice and [Education and Outreach Working Group (EOWG)](/about/groups/eowg/) where necessary to improve the writing, presentation, and educational value of the developed materials.
 
 ## Communication
 

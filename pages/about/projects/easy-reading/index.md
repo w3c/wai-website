@@ -1,16 +1,16 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+
 title: "Easy Reading"   # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Easy Reading" # A short title that is used in the navigation
-lang: en   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+lang: en   # Change "en" to the translated language shortcode
 last_updated: 2019-09-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
-
 permalink: /about/projects/easy-reading/   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /about/projects/easy-reading/   # Do not change this
-
 feedbackmail: wai@w3.org
 ---
 
-![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}
+![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right.small}
 
 {::nomarkdown}
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}

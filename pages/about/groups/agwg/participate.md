@@ -1,7 +1,5 @@
 ---
 title: Participating in the Accessibility Guidelines Working Group (AGWG) 
-order: 4
-group: agwg
 permalink: /about/groups/agwg/participate/
 ref: /about/groups/agwg/participate/
 lang: en
@@ -40,7 +38,7 @@ Participants should:
 - Provide input in a timely fashion.
 - Maintain familiarity with the progress of the Working Group via minutes of past meetings, mailing list discussion, issue comments, etc.
 
-Participating in the Working Group requires a W3C account; you can [create an account](https://www.w3.org/accounts/request) if you do not already have one. Before applying to join, please read the [AG WG Charter](https://www.w3.org/WAI/GL/charter) to review the activity and commitments. When you join the group, you are automatically added to the mailing lists and provide access to the WG [communication tools](https://www.w3.org/about/groups/agwg/communication/).
+Participating in the Working Group requires a W3C account; you can [create an account](https://www.w3.org/accounts/request) if you do not already have one. Before applying to join, please read the [AG WG Charter](https://www.w3.org/WAI/GL/charter) to review the activity and commitments. When you join the group, you are automatically added to the mailing lists and provide access to the WG [communication tools](/about/groups/agwg/communication/).
 
 [Current participants in the AG WG](https://www.w3.org/2000/09/dbwg/details?group=35422&public=1).
 

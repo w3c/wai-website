@@ -3,12 +3,11 @@ title: "WAI-Tools Open Meeting — Online, 22 September 2020"
 title_html: "WAI-Tools Open Meeting <br />Online, 22 September 2020"
 nav_title: Third Open Meeting
 lang: en
-
 permalink: /about/projects/wai-tools/third-open-meeting/
 ref: /about/projects/wai-tools/third-open-meeting/
 ---
 
-![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right width="105px"}
+![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right width="105px"}
 
 {::nomarkdown}
 {% include toc.html type="start" title="Page Contents" class="full" %}
@@ -18,7 +17,6 @@ ref: /about/projects/wai-tools/third-open-meeting/
 
 -   The TOC will replace this text.
 {:toc}
-
 
 {::nomarkdown}
 {% include toc.html type="end" %}

@@ -1,11 +1,11 @@
 ---
 title: "WAI-Tools"
+lang: en
 permalink: /about/projects/wai-tools/
 ref: /about/projects/wai-tools/
-lang: en
 ---
 
-![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}
+![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right.small}
 
 {::nomarkdown}
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}
@@ -91,8 +91,8 @@ These deliverables were complemented by project management, dissemination, and e
 Most of the project work listed above was developed through or in coordination with:
 
 -   [W3C ACT Rules Community Group](https://act-rules.github.io/) (previously Auto-WCAG Community Group, which has been renamed)
--   [Accessibility Conformance Testing (ACT) Task Force](https://www.w3.org/wai/gl/task-forces/conformance-testing/)
--   [Education and Outreach Working Group (EOWG)](https://www.w3.org/WAI/EO/)
+-   [Accessibility Conformance Testing (ACT) Task Force](/about/groups/task-forces/conformance-testing/)
+-   [Education and Outreach Working Group (EOWG)](/about/groups/eowg/)
 
 We invited participation, comments, and contributions by anyone interested. This includes reviewing drafts of these resources and actively participating in the relevant groups to help develop these resources. All project results are provided openly on royalty-free basis. Work of the project continues in various W3C groups, in particular the ones listed above.
 

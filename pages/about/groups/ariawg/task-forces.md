@@ -1,7 +1,5 @@
 ---
 title: ARIA Task Forces
-order: 1
-group: ariawg
 permalink: /about/groups/ariawg/task-forces/
 ref: /about/groups/ariawg/task-forces/
 lang: en
@@ -24,19 +22,19 @@ The ARIA Working Group conducts some of its work via the following task forces. 
 
 ## ARIA Authoring Practices Task Force
 
-The [ARIA Authoring Practices task force](https://www.w3.org/WAI/ARIA/task-forces/practices/) to develop WAI-ARIA Authoring Practices, which describes considerations that might not be evident to most authors from the WAI-ARIA specification alone and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
+The [ARIA Authoring Practices task force](/about/groups/task-forces/practices/) to develop WAI-ARIA Authoring Practices, which describes considerations that might not be evident to most authors from the WAI-ARIA specification alone and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
 
 ## CSS Accessibility Task Force
 
-The [CSS Accessibility Task Force](https://www.w3.org/WAI/APA/task-forces/css-a11y/) is a joint task force of the ARIA WG, the [Accessible Platform Architectures Working Group](https://www.w3.org/WAI/APA/), and the [Cascading Style Sheets Working Group](https://www.w3.org/Style/CSS/). It will focus effort on identifying accessibility problems that can be created by use of Cascading Style Sheets (CSS), and to develop solutions.
+The [CSS Accessibility Task Force](/about/groups/task-forces/css-a11y/) is a joint task force of the ARIA WG, the [Accessible Platform Architectures Working Group](/about/groups/apawg/), and the [Cascading Style Sheets Working Group](https://www.w3.org/Style/CSS/). It will focus effort on identifying accessibility problems that can be created by use of Cascading Style Sheets (CSS), and to develop solutions.
 
 ## Personalization Task Force
 
-The [Personalization Task Force](https://www.w3.org/WAI/APA/task-forces/personalization/) has been moved to the APA Working Group.
+The [Personalization Task Force](/about/groups/task-forces/personalization/) has been moved to the APA Working Group.
 
 ## WAI-ARIA User Agent Implementation Task Force
 
-The [WAI-ARIA User Agent Implementation Task Force](https://www.w3.org/WAI/ARIA/task-forces/aria-ua/) has closed.
+The WAI-ARIA User Agent Implementation Task Force has closed.
 
 ## SVG Accessibility Task Force
 

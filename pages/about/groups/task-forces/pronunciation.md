@@ -9,7 +9,7 @@ lang: en
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Spoken Presentation Task Force is a task force of the [Accessible Platform Architectures Working Group](/about/groups/apa/).
+The Spoken Presentation Task Force is a task force of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
 
 Some information on this page is also shown on, and may be more current in, the [Spoken Presentation Task Force page](https://www.w3.org/groups/tf/pronunciation-tf/).
 
@@ -44,11 +44,11 @@ There is also a short [pronunciation technical video](https://ln.sync.com/dl/10e
 
 ## Meetings and Communication
 
-The APA WG conducts its work using a variety of synchronous and asynchronous tools. The [communication](https://www.w3.org/WAI/APA/task-forces/pronunciation/#communication) page provides details about:
+The APA WG conducts its work using a variety of synchronous and asynchronous tools:
 
-- [Teleconferences of the Spoken Presentation Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/#teleconferences);
+- [Teleconferences of the Spoken Presentation Task Force](#teleconferences);
 - Face to face meetings (The Task Force will plan a face-to-face meeting at a later stage.);
-- [Email lists](https://www.w3.org/WAI/APA/task-forces/pronunciation/#email);
+- [Email lists](#mailing-lists);
 - IRC discussion on the [#pronunciation](irc://irc.w3.org/pronunciation) IRCchannel, used largely for minute-taking;
 - [Spoken Presentation source repository](https://github.com/w3c/pronunciation/);
 - [Wiki](https://github.com/w3c/pronunciation/wiki/);
@@ -57,7 +57,7 @@ The APA WG conducts its work using a variety of synchronous and asynchronous too
 - [Spoken Presentation source repository issue tracker](https://github.com/w3c/pronunciation/issues);
 - [Current participants in the Spoken Presentation Task Force](https://www.w3.org/2000/09/dbwg/details?group=110437&public=1).
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](https://www.w3.org/WAI/APA/contribute).
+These tools are used by participants of the Task Force. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/apawg/contribute/).
 
 ### Teleconferences
 
@@ -94,25 +94,21 @@ The Spoken Presentation Task Force uses the public-pronunciation@w3.org mailing 
 
 ## How to Comment, Contribute, and Participate
 
-To join the Spoken Presentation Task Force, individuals must be participants of the APA WG. Participants are expected to [actively contribute](https://www.w3.org/WAI/APA/task-forces/pronunciation/work-statement#participation) to the work of the Task Force. If you are interested in participating in the Spoken Presentation Task Force, please send e-mail to: [Janina Sajka](mailto:janina@rednote.net), [Irfan Ali](mailto:iali@ets.org) and [Paul Grenier](mailto:pgrenier@gmail.com) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [APA Working Group participation](https://www.w3.org/WAI/APA/participation) procedures to join the Working Group, and once you have joined ask [Ruoxi(Roy) Ran](mailto:ran@w3.org) to add you to the task force.
+To join the Spoken Presentation Task Force, individuals must be participants of the APA WG. Participants are expected to [actively contribute](/about/groups/task-forces/pronunciation/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the Spoken Presentation Task Force, please send e-mail to: [Janina Sajka](mailto:janina@rednote.net), [Irfan Ali](mailto:iali@ets.org) and [Paul Grenier](mailto:pgrenier@gmail.com) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [APA Working Group participation](/about/groups/apawg/participate/) procedures to join the Working Group, and once you have joined ask [Ruoxi(Roy) Ran](mailto:ran@w3.org) to add you to the task force.
 
-To contribute without joining the task force, see the [APA Working Group contribute page](https://www.w3.org/WAI/APA/contribute) for general instructions. To contribute to documents under development, see [how to contribute to the source repository directly](https://github.com/w3c/pronunciation/).
+To contribute without joining the task force, see the [APA Working Group contribute page](/about/groups/apawg/contribute/) for general instructions. To contribute to documents under development, see [how to contribute to the source repository directly](https://github.com/w3c/pronunciation/).
 
 [Current participants in the Spoken Presentation Task Force](https://www.w3.org/2000/09/dbwg/details?group=110437&public=1).
 
 ## Administrative Information
 
-The Spoken Presentation Task Force is a Task Force of the [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/). It assists these Working Groups to produce techniques, understanding, and guidance documents, as well as updates to existing related W3C material that addresses the cognitive space.
+The Spoken Presentation Task Force is a Task Force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists these Working Groups to produce techniques, understanding, and guidance documents, as well as updates to existing related W3C material that addresses the cognitive space.
 
 ### Facilitator and Contacts
 
 - **Task Force facilitator:** [Irfan Ali](mailto:iali@ets.org), [Paul Grenier](mailto:pgrenier@gmail.com)
 - **Staff Contact: [Ruoxi(Roy) Ran](https://www.w3.org/People/roy/)**
 
-**
-
 ### Work Statement
 
-The [Spoken Presentation Accessibility Task Force Work Statement](https://www.w3.org/WAI/APA/task-forces/pronunciation/work-statement) defines the initial objective, scope, approach, and participation of the Task Force.
-
-**
+The [Spoken Presentation Accessibility Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.

@@ -3,13 +3,12 @@ title: "Captions from ACT Rules for Manual Web Accessibility Evaluation Methodol
 title_html: "Captions from ACT Rules for Manual Web Accessibility Evaluation Methodologies<br>Online Symposium, 14 March 2018"
 nav_title: Record
 lang: en
-
 permalink: /about/projects/wai-tools/symposium/record/
 ref: /about/projects/wai-tools/symposium/record/
 parent: /about/projects/wai-tools/symposium/
 ---
 
-![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right style="width: 105px; margin-top:-1px;"}
+![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right style="width: 105px; margin-top:-1px;"}
 
 {::nomarkdown}
 {% include box.html type="start" title="Sponsors" class="simple right" %}

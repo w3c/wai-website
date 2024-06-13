@@ -1,11 +1,9 @@
 ---
 title: WAI Interest Group (WAI IG)
 nav_title: 'WAI IG: WAI Interest Group'
-order: 6
-group: groups
+lang: en
 permalink: /about/groups/waiig/
 ref: /about/groups/waiig/
-lang: en
 ---
 
 {::options toc_levels="2,3" /}
@@ -120,7 +118,7 @@ The [scope of the WAI IG](/WAI/IG/20200804#scope)
 includes:
 
 -   reviewing and discussing deliverables being developed by [WAI
-    Working Groups](https://www.w3.org/WAI/groups.html)
+    Working Groups](/about/groups/)
 -   providing input into specification reviews, research topics, and
     educational materials development
 -   exploring web accessibility issues and solutions
@@ -134,7 +132,7 @@ Sponsors](http://www.w3.org/WAI/Sponsor).
 
 ### Chair and Contacts
 
--   The WAI IG Chair is Katie Haritos-Shea
+-   The WAI IG Chair is Ashley Abaragu (Knowbility)
 -   The W3C Staff Contact is [Shawn Lawton
     Henry](http://www.w3.org/People/Shawn/)
 

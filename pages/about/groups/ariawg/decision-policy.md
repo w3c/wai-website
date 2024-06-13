@@ -1,7 +1,5 @@
 ---
 title: ARIA Decision Policy
-order: 2
-group: ariawg
 permalink: /about/groups/ariawg/decision-policy/
 ref: /about/groups/ariawg/decision-policy/
 lang: en

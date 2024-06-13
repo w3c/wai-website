@@ -3,15 +3,14 @@ title: "Session 5: Accessibility Data Browser"   # Do not translate "title:". Do
 nav_title: "Test Data Browser" # A short title that is used in the navigation
 lang: en
 last_updated: 2021-03-16
-
 permalink: /about/projects/wai-tools/session5/
 ref: /about/projects/wai-tools/
 ---
 
 {% include video-player.html 
-           yt-id="iv1sHHjh3zo"
-           path="/content-images/about/wai-tools/"
-           captions="video5.vtt|en|default"
+  yt-id="iv1sHHjh3zo"
+  path="/content-images/wai-about-wai/wai-tools/"
+  captions="video5.vtt|en|default"
 %}
 
 This video information is available:

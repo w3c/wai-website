@@ -51,10 +51,10 @@ Task 3:
 
 WAI-Core work is developed through [W3C/WAI Working Groups](http://www.w3.org/WAI/groups). Working Groups that are currently relevant to WAI-Core work, and links to information on participation, include:
 
-*   [Accessible Platform Architectures (APA) Working Group](http://www.w3.org/WAI/APA/) ([participation in APA WG](https://www.w3.org/WAI/APA/#contribute)), for review of accessibility in W3C specifications;
-*   [Accessible Rich Internet Applications (ARIA) Working Group](http://www.w3.org/WAI/ARIA/) ([participation in ARIA WG](https://www.w3.org/WAI/ARIA/#contribute)), for development of accessibility specifications as needed, such as ARIA, and Accessibility Application Programming Interface Mappings;
-*   [Accessibility Guidelines (WCAG) Working Group](http://www.w3.org/WAI/GL/) ([participation in AG WG](https://www.w3.org/WAI/GL/participation.html)), for development of accessibility guidelines;
-*   [Education and Outreach Working Group (EOWG)](http://www.w3.org/WAI/EO/) ([participation in EOWG](https://www.w3.org/WAI/EO/participation.html)) for improving understanding and usability of accessibility standards and implementation reference materials, developing non-technical introductions to accessibility guidelines and standards, and providing education and outreach to support implementation of Web accessibility guidance.
+*   [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/) ([participation in APA WG](/about/groups/apawg/participate/)), for review of accessibility in W3C specifications;
+*   [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/) ([participation in ARIA WG](/about/groups/ariawg/participate/)), for development of accessibility specifications as needed, such as ARIA, and Accessibility Application Programming Interface Mappings;
+*   [Accessibility Guidelines (WCAG) Working Group](/about/groups/agwg/) ([participation in AG WG](/about/groups/agwg/participate/)), for development of accessibility guidelines;
+*   [Education and Outreach Working Group (EOWG)](/about/groups/eowg/) ([participation in EOWG](/about/groups/eowg/participate/)) for improving understanding and usability of accessibility standards and implementation reference materials, developing non-technical introductions to accessibility guidelines and standards, and providing education and outreach to support implementation of Web accessibility guidance.
 
 In addition to participation opportunities, everyone is welcome to review drafts. Draft in progress are highlighted on the [WAI home page](http://www.w3.org/WAI/). To get notifications of drafts for review, see [Getting WAI Announcements](http://www.w3.org/WAI/about/announcements) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails.
 

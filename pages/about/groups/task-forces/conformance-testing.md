@@ -65,7 +65,7 @@ The ACT TF uses the public-wcag-act@w3.org mailing list ([mailing list archives]
 
 ### Tools and Information
 
-- [ACT TF Work Statement](/about/groups/task-forces/conformance-testing/work-statement)
+- [ACT TF Work Statement](/about/groups/task-forces/conformance-testing/work-statement/)
 - [Wiki main page](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/)
     - [ACT Overview](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/ACT_Overview_-_What_is_ACT)
     - [Meeting minutes](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Meeting_Minutes) (also see [automatically collected minutes](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes))
@@ -100,9 +100,9 @@ See the [wiki for current planning and draft documents](https://www.w3.org/WAI/G
 
 ## How to Comment, Contribute, and Participate
 
-To join the ACT TF, individuals must be participants of the AG WG. Participants are expected to [actively contribute](https://www.w3.org/WAI/GL/task-forces/conformance-testing/work-statement#participation) to the work of the Task Force. If you are interested in participating in the ACT TF, please send e-mail to: [Daniel Montalvo](mailto:dmontalvo@w3.org?subject=ACT%20TF%20Enquiry) and include a little bit about what you're interested in and how you think that you may be able to contribute to the Task Force. Then follow the [AG Working Group participation](https://www.w3.org/WAI/GL/participation) procedures to join the Working Group, and once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
+To join the ACT TF, individuals must be participants of the AG WG. Participants are expected to [actively contribute](/about/groups/task-forces/conformance-testing/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the ACT TF, please send e-mail to: [Daniel Montalvo](mailto:dmontalvo@w3.org?subject=ACT%20TF%20Enquiry) and include a little bit about what you're interested in and how you think that you may be able to contribute to the Task Force. Then follow the [AG Working Group participation](/about/groups/agwg/participate/) procedures to join the Working Group, and once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
 
-To contribute without joining the task force, see the [AG Working Group contribute page](https://www.w3.org/WAI/GL/contribute) for general instructions. To contribute to documents under development, see [GitHub repository](https://github.com/w3c/wcag-act/) directly.
+To contribute without joining the task force, see the [AG Working Group contribute page](/about/groups/agwg/#how-to-comment-contribute-and-participate) for general instructions. To contribute to documents under development, see [GitHub repository](https://github.com/w3c/wcag-act/) directly.
 
 [Current participants in the ACT TF](https://www.w3.org/2000/09/dbwg/details?group=93339&public=1).
 

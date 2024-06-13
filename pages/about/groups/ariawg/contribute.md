@@ -1,7 +1,5 @@
 ---
 title: ARIA Contribution 
-order: 8
-group: ariawg
 permalink: /about/groups/ariawg/contribute/
 ref: /about/groups/ariawg/contribute/
 lang: en
@@ -38,7 +36,7 @@ The ARIA WG accepts public comments on publications on the [public-aria](http://
 
 ## Github Issues and pull requests
 
-Technical work is done in a set of GitHub repositories. Work on a given feature may take place in several repositories, and follows the [ARIA Working Group Work Flow](https://www.w3.org/WAI/ARIA/workflow). Repositories maintained by the ARIA Working Group include:
+Technical work is done in a set of GitHub repositories. Work on a given feature may take place in several repositories, and follows the [ARIA Working Group Work Flow](/about/groups/ariawg/workflow/). Repositories maintained by the ARIA Working Group include:
 
 - [w3c/aria](https://github.com/w3c/aria/) for Accessible Rich Internet Applications;
 - [w3c/core-aam](https://github.com/w3c/core-aam/) for Core Accessibility API Mappings;
@@ -49,8 +47,8 @@ Technical work is done in a set of GitHub repositories. Work on a given feature 
 - [w3c/graphics-aam](https://github.com/w3c/graphics-aam/) for Graphics Accessibility API Mappings;
 - [w3c/svg-aam](https://github.com/w3c/svg-aam/) for SVG Accessibility API Mappings, now developed by the [SVG Working Group](http://www.w3.org/Graphics/SVG/WG/);
 - [w3c/html-aam](https://github.com/w3c/html-aam/) for HTML Accessibility API Mappings, now developed by the [Web Platform Working Group](http://www.w3.org/WebPlatform/WG/);
-- [w3c/css-aam](https://github.com/w3c/css-aam/) for CSS Accessibility API Mappings, with the [CSS Accessibility Task Force](https://www.w3.org/WAI/APA/task-forces/css-a11y/);
-- [w3c/aria-practices](https://github.com/w3c/aria-practices/) for WAI-ARIA Authoring Practices, with the [ARIA Authoring Practices Task Force](https://www.w3.org/WAI/ARIA/task-forces/practices/);
+- [w3c/css-aam](https://github.com/w3c/css-aam/) for CSS Accessibility API Mappings, with the [CSS Accessibility Task Force](/about/groups/task-forces/css-a11y/);
+- [w3c/aria-practices](https://github.com/w3c/aria-practices/) for WAI-ARIA Authoring Practices, with the [ARIA Authoring Practices Task Force](/about/groups/task-forces/practices/);
 - [w3c/aria-at](https://github.com/w3c/aria-at/) for Assistive Technology ARIA Experience Assessment, with the [ARIA and Assistive Technologies Community Group](https://www.w3.org/community/aria-at/);
 
 A [GitHub account](http://github.com/) is required for the following functionality. In addition to using the comments list described above to submit input, you may:

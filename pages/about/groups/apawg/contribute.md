@@ -1,13 +1,11 @@
 ---
 title: How to Contribute 
-order: 6
-group: apawg
 permalink: /about/groups/apawg/contribute/
 ref: /about/groups/apawg/contribute/
 lang: en
 ---
 
-There are a number of ways non-participants in the APA WG can contribute to the work. If you wish to be an active contributer, however, you should [join the Working Group](https://www.w3.org/WAI/APA/participation).
+There are a number of ways non-participants in the APA WG can contribute to the work. If you wish to be an active contributer, however, you should [join the Working Group](/about/groups/apawg/participate/).
 
 ## Public comments
 

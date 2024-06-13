@@ -7,9 +7,6 @@ feedbackmail: wai@w3.org
 class: tight-page
 footer: > # Text in footer in HTML
   <p><strong>Date:</strong> Updated 13 March 2024.</p>
-github:
-  repository: w3c/wai-about-wai
-  path: '_about/index.md'
 ---
 
 {::nomarkdown}
