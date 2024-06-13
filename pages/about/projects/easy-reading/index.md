@@ -10,7 +10,7 @@ ref: /about/projects/easy-reading/   # Do not change this
 feedbackmail: wai@w3.org
 ---
 
-![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right.small}
+![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}
 
 {::nomarkdown}
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}

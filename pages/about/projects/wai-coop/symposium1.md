@@ -8,7 +8,7 @@ permalink: /about/projects/wai-coop/symposium1/
 ref: /about/projects/wai-coop/symposium1/
 ---
 
-![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right.small}
+![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}
 
 {::nomarkdown}
 {% include toc.html type="start" title="Page Contents" class="full" %}
@@ -179,8 +179,8 @@ Contributions will be reviewed by the Review Committee. Each paper will get at l
 ## Acknowledgements
 {:#acknowledgements}
 
-![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right.small}
+![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}
 
 This research symposium is organized by the [WAI-CooP Project](https://www.w3.org/WAI/about/projects/wai-coop/), an European Commission co-funded project, and the [W3C Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). The conference management system is donated by [OpenConf](https://www.openconf.com/).
 
-![OpenConf logo]({{ "/content-images/wai-about-wai/logo-OpenConf.png" | relative_url }}){:.small}
+![OpenConf logo]({{ "/content-images/about/logo-OpenConf.png" | relative_url }}){:.small}

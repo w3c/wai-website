@@ -9,7 +9,7 @@ ref: /about/projects/wai-tools/
 
 {% include video-player.html 
   yt-id="iv1sHHjh3zo"
-  path="/content-images/wai-about-wai/wai-tools/"
+  path="/content-images/about/wai-tools/"
   captions="video5.vtt|en|default"
 %}
 

@@ -7,7 +7,7 @@ permalink: /about/projects/wai-tools/symposium/
 ref: /about/projects/wai-tools/symposium/
 ---
 
-![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right style="width: 105px; margin-top:-1px;"}
+![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right style="width: 105px; margin-top:-1px;"}
 
 {::nomarkdown}
 {% include box.html type="start" title="Sponsors" class="simple right" %}

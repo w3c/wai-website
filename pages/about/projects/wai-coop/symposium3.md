@@ -14,7 +14,7 @@ footer: >
    <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
 
-![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right.small}
+![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}
 
 {::nomarkdown}
 {% include toc.html type="start" title="Page Contents" class="full" %}

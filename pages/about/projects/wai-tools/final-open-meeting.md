@@ -7,7 +7,7 @@ permalink: /about/projects/wai-tools/final-open-meeting/
 ref: /about/projects/wai-tools/final-open-meeting/
 ---
 
-![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right width="105px"}
+![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right width="105px"}
 
 {::nomarkdown}
 {% include toc.html type="start" title="Page Contents" class="full" %}

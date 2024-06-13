@@ -7,7 +7,7 @@ permalink: /about/projects/wai-tools/first-open-meeting/
 ref: /about/projects/wai-tools/first-open-meeting/
 ---
 
-![An EU Project]({{ "/content-images/wai-about-wai/eu.svg" | relative_url }}){:.right style="width: 105px;"}
+![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right style="width: 105px;"}
 
 {::nomarkdown}
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}
