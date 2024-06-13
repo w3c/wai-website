@@ -90,12 +90,6 @@ collections:
     permalink: /roles/:path/
     prevnext: false
     parent: "/"
-  about:
-    name: "About"
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
-    prevnext: false
   posts:
     output: true
     permalink: /news/:year-:month-:day/:title/
@@ -151,12 +145,6 @@ defaults:
       layout: "policy"
       github:
         repository: w3c/wai-policies-prototype
-  - scope:
-      path: "_about"
-    values:
-      layout: "default"
-      github:
-        repository: w3c/wai-about-wai
   - scope:
       path: "_posts"
     values:
@@ -338,8 +326,6 @@ defaults:
     scope:
       path: "_translations-sitemaps"
     values:
-      github:
-        repository: w3c/wai-website
       lang: en
       layout: translation-sitemap
       description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
@@ -351,7 +337,6 @@ defaults:
         .translations-table p{
           margin: 0.2rem 0 0.4rem;
         }
-
 
 # include all collections here so they are searchable
 tipue_search:
@@ -365,10 +350,10 @@ tipue_search:
         "tips",
         "policies",
         "audiences",
-        "about",
-        "objectives", 
+        "objectives",
         "patterns",
-        "apg-examples"
+        "apg-examples",
+        "translations-sitemaps"
       ]
 
 # TODO docs say don't need to declare any used in the Theme

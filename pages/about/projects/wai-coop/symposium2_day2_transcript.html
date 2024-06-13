@@ -1,0 +1,1620 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Transcript of the "Artificial Intelligence and Accessibility Research Symposium" Day 2: 11 January 2023
+    </title>
+</head>
+
+
+<body>
+
+    <aside style="border: solid #900 1px; background: #ebf4f5; font-weight: bold; padding: 0.5em; margin-bottom: 3em;">
+        <p>This document is the transcript of the symposium <a
+                href="https://www.w3.org/WAI/about/projects/wai-coop/symposium2/">"Artificial Intelligence and
+                Accessibility
+                Research Symposium"</a>. This document was not developed by the W3C Web
+            Accessibility Initiative and does not necessarily represent the consensus view of its membership.</p>
+        <p>This document is based on live transcription. Communication Access Realtime Translation (CART), captioning,
+            and/or live transcription are provided in order to facilitate communication accessibility and may not be a
+            totally
+            verbatim record of the proceedings.
+            This document is not to be distributed or used in any way that may violate copyright law.</p>
+    </aside>
+
+    <h1>Transcript of the "Artificial Intelligence and Accessibility Research Symposium" Day 2: 11 January 2023</h1>
+
+    <h2 id="welcome">Welcome session</h2>
+
+    <p>
+        >> CARLOS DUARTE: Hello, everyone, and welcome back to all of you who were with us yesterday. I am Carlos
+        Duarte. On behalf of the whole organizing team, I would like to welcome you to the second day of the Artificial
+        Intelligence and Accessibility Research Symposium. Welcome. This symposium is a joint effort by the WAI-CooP
+        Project and the Platform Architectures Working Group. I will start by taking this opportunity to thank the
+        European Commission that funds the WAI-CooP Project.
+
+    </p>
+    <p>
+        Before we get going, I want to give you some important
+        reminders and a few points about the logistics of the meeting.
+        By taking part in this symposium, you agree to follow the W3C Code of Ethics and Professional Conduct and be
+        sure to promote a safe environment for everywhere in this meeting. Also, today's session is being video-recorded
+        and transcribed. The transcription will be posted on the symposium website later. If you object to being
+        transcribed, we ask you to refrain from commenting.
+        Audio and video are off by default. Please turn them on only if requested, and turn them off again, when no
+        longer needed. During the keynote, presentations and panel discussions, you can enter your questions using the
+        Q&A tool on Zoom. Speakers will monitor the Q&A, and they might answer your questions, either live, if time
+        allows it, or directly in the system.
+        Let me draw your attention to a couple of features in the Q&A tool. You can comment and up vote any question in
+        there. That will make it easier for us to address any questions in the session. You can use the chat feature to
+        report any technical issues you are experiencing; we will monitor the chat and try to assist you if needed.
+        If during the seminar your connection drops, please try to reconnect. If the whole meeting is disrupted, you
+        won't be able to reconnect, we will try to resume the meeting for a period of up to 15 min if we are
+        unsuccessful we will contact you by email with further instructions.
+    </p>
+    <p>
+        Now, I will finish by introducing you to today's agenda. And we will start with the first of two panels. This
+        panel will focus on how machine learning or other AI techniques can be used in the context of Web Accessibility
+        evaluation. After a 10 minute coffee break, we will have our second panel.
+        This panel will address natural language processing, which we already discussed yesterday, but now from the
+        perspective of accessible communication.
+        And, finally, we will have our closing Keynote by Shari Trewin. Now, let's move onto the first panel. Let me
+        just stop sharing and invite our panelists to join. Turn their video on and join me.
+
+    </p>
+    <h2 id="panel_ML_evaluation">Panel 1: Machine learning for web accessibility evaluation</h2>
+    <p>
+        >> CARLOS DUARTE: So, we have Willian Massami Watanabe, from the Universidade Tecnologica Federal do Parana in
+        Brazil. We have Yeliz Yesilada from the Middle East Technical University. We have Sheng Zhou from Zhejiang
+        University in China. I hope I pronounced it correctly. And Fabio Paterno from CNR-IST, HIIS Laboratory in Italy.
+        Okay. Thank you all for joining us. And for some of you, it is earlier in the morning. For others of you it is
+        later, well, for some of you, I guess, it is really late in the evening, so, thank you all for your
+        availability.
+    </p>
+    <p>
+        Let's start this discussion on how, I would say, current machine learning algorithms and current machine
+        learning applications can support or can improve methodologies for automatically assessing Web Accessibility.
+        And, from your previous works, you have touched different aspects about how this can be done. So, machine
+        learning has been used to support Web Accessibility Evaluation through different aspects, just a sampling, such
+        as metrics, such as evaluation prediction and handling dynamic pages.
+        I understand not all the domains you have worked on those, but some of you have worked on specific domains, so,
+        I would like you to focus on the ones that you have been working more closely in. For us to start, just let us
+        know, what are the current challenges that prevent further development and prevent further use of machine
+        learning or other AI techniques in these specific domains. Okay? I can start with you, Willian.
+    </p>
+    <p>
+        >> WILLIAN WATANABE: First of all, thank you so much for everything that is being organized. Just to give you
+        some context, I am Willian, I'm a professor here in Brazil, where I work with web accessibility. My research
+        focuses is on web technology, the ARIA specification, to be more specific, and just in regard to everything that
+        has been said by Carlos Duarte, my focus is on evaluation prediction, according to the ARIA specification. I
+        believe the main, I was invited to this panel considering my research on identification of web elements on web
+        applications. The problem I address is identifying components in web applications, when we implement web
+        applications, we use same structured language such as HTML. My job is to find what these elements in the HTML
+        structure represent in the web page. Like, they can represent some specific type of widget, there are some
+        components, some landmarks that we need to find on the web page, and this is basically what I do.
+    </p>
+    <p>
+        So, what I have been doing for the last year, I have been using machine learning for identifying these elements.
+        I use supervised learning and I use data provided by the DOM structure of the web application. I search for
+        elements in the web page and I cross file them as an element or a widget or anything else. The challenge in
+        regards to that, they are kind of different from the challenges that have been addressed yesterday.
+        Yesterday applications of machine learning, I think they work with video and text that are unstructured data, so
+        they are more complicated, I would say. The main challenge that I address in my research is associated to data
+        acquisition, data extraction, identifying what kind of features I should use to identify those components in web
+        applications.
+        Associated to that I should say, to summarize, my problems are associated with the diversity of web
+        applications, there are different domains and this kind of bias, any dataset that we use, it is difficult for
+        me, for instance, to identify a number of websites that implement, that represent all the themes of websites
+        that can be used in web applications, variability in the implementation of HTML and JavaScript, and the use of
+        automatic tools to extract this data, such as WebDriver API, the DOM structure dynamics, annotation observers.
+        There are a lot of specifications that are currently being developed that I must use, and I always must keep my
+        observing to see if I can use them to improve my research.
+        And, lastly, there is always the problem of manual classification in AI for generating the datasets that I can
+        use. That is it, Carlos. Thank you.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you, Willian. Thank you for introducing yourself, because I forgot to ask all of you to
+        do that. So, in your first intervention, please give us a brief introduction about yourself and the work you are
+        doing. So, Yeliz, I will follow with you.
+    </p>
+    <p>
+        >> YELIZ YESILADA: Hi, everybody. Good afternoon. Good afternoon for me. Good afternoon, everybody.I'm Yeliz,
+        I'm associated professor at Middle East Technical University in Northern Cyprus Campus, I've been doing
+        accessibility web research for more than 20 years now. Time goes really fast. Recently I have been exploring
+        machine learning and AI, specifically, for Web Accessibility, supporting Web Accessibility from different
+        dimensions.
+    </p>
+    <p>
+        Regarding the challenges, I think there are, of course, many challenges, but as Willian mentioned, I can
+        actually say that kind of the biggest challenge for my work has been data collection. So, I can actually say
+        that data, of course, is critical, as it was discussed yesterday in the other panels. Data is very critical for
+        machine learning approaches.
+        For us, collecting data, making sure that the data is representing our user groups, different user groups, and
+        not biasing any user groups, and also, of course, preparing and labeling the data, certain machine learning
+        algorithms, of course, supervised ones, require labeling. Labeling has also been a challenge for us, because
+        sometimes certain tasks, it is not so straightforward to do the labeling. It is not black and white. So, it has
+        been a challenge for us, I think, in that sense.
+    </p>
+    <p>
+        And the other two challenges I can mention, I think the second one is the complexity of the domain. When you
+        think about the Web Accessibility, sometimes people think, oh, it is quite straightforward, but it is actually a
+        very complex domain. There are many different user groups, different user requirements, so, understanding those
+        and making sure that you actually address different users and different requirements is quite challenging.
+        And, since we also are working, this is last one that I wanted to mention, since we are also working with web
+        pages, they are complex. They are not well designed or well properly coded. As we always say, browsers are
+        tolerating, but for developing algorithms, machine learning algorithms, they also have to deal with those
+        complexities, which makes the task quite complex, I think.
+        So, just to wrap up, I think, in my work, there are three major challenges. Data, or the lack in quality of
+        data. Complexity of the domain, different users and different user requirements. And the complexity of the
+        resources we are using. So, web pages, the source codes and the complexity of pages that are not conforming to
+        standards. I think they are really posing a lot of challenges to algorithms that we are developing.
+        So, these are all I wanted to say.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you, Yeliz. A very good summary of major challenges facing everyone that works in this
+        field. So, thank you for that. Sheng, I wanted to go with you next.
+    </p>
+    <p>
+        >> SHENG ZHOU: Thank you, Carlos. Hi, everyone. I am Sheng Zhou from Zhejiang University in China. From my point
+        of view, I think three challenges occurs currently now, first, I totally agree that it is hard to compare labels
+        for model training. Since the success of machine learning heavily relies on a large number of label data,
+        however assessing these label data usually takes a lot of time, which is hard to realize, especially in the
+        accessibility domain.
+        I want to take a, I am sorry, I am a little bit nervous here. Sorry. I want to take the WCAG rule, the image or
+        text, as an example, as we discussed in the panel yesterday. Most of the current image captioning or OCR methods
+        are trained on images dataset, rather than the image, like a logo that is essential in text alternative, the
+        label for Web Accessibility solution should fully consider the experience of different populations. There are
+        very few datasets that are specifically designed for the accessibility of evaluation tasks and satisfies the
+        requirements.
+        So, the machine learning models that are trained, or traditional models cannot be aware, generalized to
+        accessibility evaluation. Second one, I think, about the web page sampling, since I had a little bit of work on
+        this, I think currently, there are much factors that affect the sampling subject.
+
+    </p>
+    <p>
+        First, sampling has been a fundamental technique in Web Accessibility Evaluation when dealing with millions of
+        pages. The previous page sampling methods are usually based on the features of each page of such elements or the
+        DOM structure. Similar features are assumed to generated by the same development framework and have similar
+        accessibility problems.
+        However, with the fast growth of web development framework, pages have developed with diverse tools, for
+        example, pages that look very similar may be developed by totally different framework, and some pages that look
+        totally different may be developed by the same framework. This poses great challenges for feature-based web
+        accessibility evaluations. It is necessary to incorporate more factors into the sampling process, such as the
+        connection typology among pages, and visual similarity, and typesetting. So, how to identify similarity between
+        pages considering multiple factors into a unified sampling probability is critical for sampling.
+        I think this can be a problem that the literature, the graph typology, could try to understand, and metric
+        learning, which is a comprehensive research program.
+
+    </p>
+    <p>
+        So, the third one, the third challenge, I think is the subjective evaluation rules. When we evaluate the Web
+        Accessibility, there are both subjective and objective rules, right? So, for example, when evaluating the WCAG
+        success criteria 1.4.5, image of text, the image is expected to be associated with accurate description texts
+        which has been discussed in the panel yesterday.
+        It is still challenging to verify the matching between the (speaking paused)
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: I guess there are connection issues? Let's see. Okay. He has dropped. We will let Sheng, okay,
+        he is coming back, so, you are muted.
+    </p>
+    <p>
+        >> SHENG ZHOU: Sorry.
+    </p>
+    <p>
+        >> CARLOS DUARTE: It is okay. Can you continue?
+    </p>
+    <p>
+        >> SHENG ZHOU: Okay, okay. I am so sorry. I think there are three challenges under the first challenges, as same
+        as Yeliz described, it is hard to…
+    </p>
+    <p>
+        >> CARLOS DUARTE: You dropped when you were starting to talk about the third challenge.
+    </p>
+    <p>
+        >> SHENG ZHOU: Okay.
+    </p>
+    <p>
+        >> CARLOS DUARTE: We got the first and second challenge. We heard that loud and clear, so now you can resume on
+        the third challenge.
+    </p>
+    <p>
+        >> SHENG ZHOU: Okay, okay. So, the third challenge is the subjective evaluation rules. There are both subjective
+        and objective rules. For example, when evaluating the WCAG success criteria 1.4.5 image of text, the image is
+        expected to be associated with accurate description text, as discussed in the panel yesterday, it is still
+        challenges to verify whether the matching between image with text since we do not have access to the ground
+        truth of the text of image. So, I think (video freezing)
+    </p>
+    <p>
+        >> CARLOS DUARTE: Apparently, we lost Sheng again. Let's just give him 10 seconds and see if he reconnects,
+        otherwise we will move on to Fabio.
+        Okay. So, perhaps it is better to move on to Fabio and get the perspective of also someone who is making an
+        automated accessibility evaluation tool available, so it is certainly going to be interesting, so, Fabio, can
+        you take it from here?
+
+    </p>
+    <p>
+        >> FABIO PATERNO: Yes. I am Fabio Paterno. I'm a researcher in the Italian National Research Council where I
+        lead the Laboratory on Human Interfaces in Information Systems. We have now a project funded by the National
+        Recovery and Resilience Plan which is about monitoring the accessibility of the public administration websites.
+        In this project we have our tool, MAUVE, which is a tool open, freely available, and it has already more than
+        2000 registered users. Recently, we performed the accessibility evolution of 10000 websites and considered
+        grounded pages for each website, obviously it was an effort .So, we were very interested in understanding how
+        machine learning can get passed in this larger scale monitoring work. So, for this panel, I did a systematic
+        literature review, and I went to the ACM digital library, I entered machine learning and accessibility
+        evaluation to see what has been done so far. I got only 43 results, which is not too many, I would expected
+        more, and actually only 18 actually applied because other works were more about machine learning can be
+        interesting in future work and so. To say the specific research effort has been so far limited in this area. And
+        another characteristic was that there are other valid attempts. There are people trying to predict web site
+        accessibility based on the accessibility of some web pages, others trying to check the rules of the alternative
+        description, and trying to make the user control the content areas. So, I would say challenge is, well, machine
+        learning can be, you know, used for a complementary support to automatic tools that we already have. There are
+        many, in theory there are many opportunities, but in practice… there are a lot of progress. The challenge I
+        think is to find the relevant one with the accessibility features that are able to collect the type of aspect
+        that we want to investigate.
+    </p>
+    <p>
+        And I would say the third and last main general challenge is that we really, really want to continuously work
+        with the changes not only the web but also how people implement, how people use the application, this
+        continuously change. So, there is also the risk that the dataset will become obsolete, not sufficiently updated
+        for addressing all the methods for that.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Okay, thank you for that perspective. Sheng, I want to give you now the opportunity to finish
+        up your intervention.
+    </p>
+    <p>
+        >> SHENG ZHOU: Okay. Thank you, Carlos. Sorry for the lagging here. So, I will continue my third opinion of the
+        challenge. From my opinion, the third challenge is the subjectivity evaluation rules. In relation to Web
+        Accessibility, there are subjective and objective rules, and for example, when evaluating, an image to text
+        rule. The image is expected to be associated with the accurate description text. And as discussed in the panel
+        yesterday, it is still challenging to verify the matching between the image and the text, since there are no
+        ground truth of what kind of text should describe the image.
+        As a result of the accessibility evaluation system, it is harder to justify whether the alternative text really
+        matches the image. So, thanks.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Okay, thank you. I will take it, from, I guess, most of you, well, all of you have in one way
+        or another mentioned one aspect of Web Accessibility Evaluation, which is conformance to requirements, to
+        guidelines. Several of you mentioned the web content Accessibility Guidelines in one way or another. Checking,
+        what we do currently, so far, and following up on what Sheng just mentioned, are objective rules. That is what
+        we can do so far, right? Then when we start thinking about, because the guidelines are themselves also subject
+        to subjectivity, unfortunately. How can we try to make the evaluation of those more subjective guidelines, or
+        more subjective rules, and how do you all think that Artificial Intelligence, algorithms, or machine
+        learning-based approaches can help us to assess conformance to those technical requirements to Accessibility
+        Guidelines? Okay?
+        I will start with you, now, Yeliz.
+
+    </p>
+    <p>
+        >> YELIZ YESILADA: Thank you, Carlos. So, regarding the conformance testing, so, maybe we can actually think of
+        this as two kinds of problems. One is the testing, the other one is confirming, basically repairing, or
+        automatically fixing the problems.
+        So, I see, actually, that machine learning and AI in general can, I think, help in both sides, in both parties.
+        So, regarding the testing and auditing, if we take, for example, WCAG Evaluation Methodology as the most
+        systematic methodology to evaluate for accessibility, it includes, for example, five stages, five steps. So, I
+        think machine learning can actually help us in certain steps.
+
+    </p>
+    <p>
+        For example, it can help us to choose a representative sample, which is the third step in WCAG-EM. We are
+        currently doing some work on that, for example, to explore how to use unsupervised learning algorithms to
+        decide, for example, what is a representative sample. Fabio, for example, mentioned the problem of evaluating a
+        large-scale website with millions of pages.
+        So, how do you decide, for example, which ones to represent, I mean, which ones to evaluate. Do they really, for
+        example, if you evaluate some of them, how much of the site you actually cover, for example. So, there, I think,
+        machine learning and AI can help. As I said, we are currently doing some work on that, trying to explore machine
+        learning algorithms for choosing representative samples, making sure that the pages that you are evaluating
+        really represent the site, and reduces the workloads, because evaluating millions of pages is not an easy task,
+        so maybe we can pick certain sample pages.
+
+    </p>
+    <p>
+        Once we evaluate them, we can transfer the knowledge from those pages to the other ones, because more or less
+        the pages these days are developed with templates or automatically developed, so, maybe we can transfer the
+        errors we identified, or the ways we are fixing to the others which are representative.
+        Regarding the step four in WCAG-EM, that is about auditing the select sample, so how do you evaluate as test the
+        sample, I think in that part, as we all know, and Sheng mentioned, there are a lot of subjective rules which
+        require human testing. So, maybe there we need to explore more how people, I mean, how humans evaluate certain
+        requirements, and how we can actually automate those processes. So, can we have machine learning algorithms that
+        learn from how people evaluate and assess and implement those. But, of course, as we mentioned in the first
+        part, data is critical, valid data, and quality of data is very critical for those parts.
+
+    </p>
+    <p>
+        Regarding the repairing, or automatically fixing certain problems, I also think that machine learning algorithms
+        can help. For example, regarding the images Sheng mentioned, we can automatically test whether there is an Alt
+        Text or not, but not the quality of the Alt Text, so maybe there we can explore more, do more about
+        understanding whether it is a good Alt Text or not, and try to fix it automatically by learning from the context
+        and other aspects of the site.
+        Or, I have been doing, for example, research in complex structures like tables. They are also very difficult and
+        challenges for accessibility, for testing and for repairing. We have been doing, for example, research in
+        understanding whether we can differentiate, and learn to differentiate a layout table from a data table, and if
+        it is a complex table, can we actually, for example, learn how people are reading that and guiding the repairing
+        of those.
+        We can, I guess, also do similar things with the forms. We can learn how people are interacting with these forms
+        and complex structures with the forms like reach and dynamic content like Willian is working on. Maybe we can,
+        for example, do more work there to automatically fix, which can be encoded in, let's say, authoring tools or
+        authoring environments, that include AI, without the developers noticing that they are actually using AI to fix
+        the problems.
+        So, I know I need to wrap up. I think I would say contributing two things, both testing and repairing can help.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: I agree. Some of the things you mentioned, they can really be first steps. We can assist a
+        human expert, a human evaluator, and take away some of the load. That is also what I take from the intervention.
+        So, Fabio, I would like your take on this, now.
+
+    </p>
+    <p>
+        >> FABIO PATERNO: I mean, I think ideally what Yeliz said before. We have to be aware of the complexity of
+        accessibility evaluation. Because just think about WCAG 2.1. It is composed of 78 success criteria, which are
+        associates with hundreds of techniques, specific validation techniques, so, this is the current state and it
+        seems like it is going to increase the number of techniques and so on. So, the automatic support is really
+        fundamental.
+
+
+    </p>
+    <p>
+        And, secondly, when you use automatic support, the results of the check are to be ok, this pass, this fails, or
+        cannot tell. So, one possibility that I think would be interesting is how to explore machine learning in the
+        situation in which automatic solution is not able to deterministically provide an ok or fail, these could be an
+        interesting opportunity to also explore in other European projects. Ideally this would have a group,
+        accessibility, human accessibility expert, in this case to provide the input, and then to try to use this input
+        to train an intelligent system. And then if it was not possible to validate these solutions, but for sure, it
+        might be really easy for AI to detect whether an alternative description exists, but it is much more difficult
+        to say whether it is meaningful.
+    </p>
+    <p>
+        So, in this case, for example, I have seen a lot of improvement of AI in recognizing images and the content
+        keys, I have also seen some of (Muffled audio). You can think in a situation in which AI provides the
+        descriptors and then there is some kind of similarity checking between these automatic generated descriptions
+        and the ones being provided by the developer and see in what extent these are meaningful.
+        This is something I think is possible, what I'm not sure is how much we can find a general solution. I can see
+        this kind of AI, associated with some level of confidence, and then I think is a part of the solution let the
+        user decide what should be level of confidence that is acceptable, when these automatic supporters use it to
+        understand the way the description is meaningful. So that would be the direction where I would try from a
+        perspective of people working on tools for automatic evaluation, trying to introduce AI inside of such an
+        automatic framework. But another key point we have to be aware of is the transparency. When we are talking about
+        AI, we are talking about the Blackbox, there is a lot of discussion about explainable AI. Some people say AI is
+        not able to explain why this data generated this result, or how can we change it to obtain different results
+        (Muffled audio), so this is a question that people encounter when they happen to run an evaluation tool.
+
+    </p>
+    <p>
+        And also, in addition to the study about the transparency of tools, the tools that are now available, it was
+        published on ACM Transactions in computing anything about that often these tools are a little bit Blackboxes,
+        they are not sufficiently transparent. For example, they say, we support these success criteria, but they do not
+        say which techniques they actually apply, how these techniques are implemented. So, they say that often the
+        users are in disadvantage because they use different tools and get different results, and they do not understand
+        the reason for such differences.
+
+        Let's say this is point of transparency is already for now, with such validation tools that do not use AI. We
+        have to be carefully that if it is added AI it should be added in such a way that is explainable, so we can help
+        people to better understand what happened in the evaluation and not just give the results without any sufficient
+        explanation.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: I think that is a very important part, because if I am a developer, and I am trying to solve
+        accessibility issues, I need to understand why is there an error, and not just that there is an error. That is a
+        very important part. Thank you, Fabio.
+        So, Sheng, next, to you.
+
+    </p>
+    <p>
+        >> SHENG ZHOU: Thanks. Incorporating the artificial intelligence, I will try to find some way to help the
+        developers. First of all is the code generation for automatically fixing the accessibility problems. As Yeliz
+        just said, always web accessibility evaluation has been targeted, but we have to stand at the view of the
+        developers.
+        If it is the evaluation system only identifies or located the accessibility problem, it may be still hard for
+        developers to fix these problems since some developers may lack experience on this. And the recently artificial
+        intelligence based code generation has been well developed and give some historical code of fixing accessibility
+        problems. We have tried to train artificial intelligence model to automatically detect the problem, make a code
+        snippet, fix the problem code and provide suggestions for the developers. We expect this function could help the
+        developers fix the accessibility problem and improve the websites more efficiently.
+
+    </p>
+    <p>
+        And the second reason for the developer is the content generation. As discussed in the panel yesterday, there
+        have been several attempts in generating text for images or videos with the help of the computation vision and
+        NLP techniques. It may not be very practical for the images generators to provide an alt text since the state of
+        art methods requires large models deployed on GP servers which is not convenient for frequently updated images.
+        Recently we have been working on some knowledge distillation method, which aims at distilling a lightweight
+        model from a large model. We want to develop a lightweight access model that can be deployed in the broader
+        extension, or some like lightweight software. We hope to reduce the time cost and competition cost of image
+        providers and encourage them to conform to the accessibility technique or requirements. Okay. Thank you.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you. That is another very relevant point. Make sure that whatever new techniques we
+        develop are really accessible to those who need to use them. So the computational resources are also a very
+        important aspect to take into account. So, Willian, your take on this, please.
+    </p>
+    <p>
+        >> WILLIAN WATANABE: First, I would like to take from what Yeliz said, that we have basically, it is nice to see
+        everyone agreeing, before we didn't talk at all so it is nice to see that everywhere is having the same
+        problems. And, about what Yeliz said, she divided the work into automatic evaluation into two steps. The first
+        one is testing, and the second one is automatically repairing accessibility in websites.
+        From my end, specifically, I don't work with something, I would say subjective, like image content generation.
+        My work mostly focuses on identifying widgets, it is kind of objective, right? It is a dropdown, it is not a
+        tooltip… I don't need to worry to be sued over a bad classification, or something else. So, that is a different
+        aspect of accessibility that I work on.
+        Specifically, I work with supervised learning, as everyone, I classify the elements as a specific interface
+        component. I use features extracted from the DOM structure to, I think everyone mentioned this, Sheng mentioned
+        it, as well, Yeliz mentioned the question about labels and everything else.
+
+    </p>
+    <p>
+        I am trying to use data from websites that I evaluate as accessible to enhance the accessibility of websites
+        that I don't, that don't have these requirements. For instance, I see a website that implements rules, that
+        implements the ARIA specification. So, I use it. I expect data from it to maybe apply it on a website that
+        doesn't. This is kind of the work that I am working, this is kind of what I am doing right now.
+
+
+    </p>
+    <p>
+        There is another thing. So, Fabio also mentioned the question about confidence. I think this is critical for us.
+        In terms of machine learning, I think the word that we use usually is accuracy. What will guide us, as
+        researchers, whether we work on test or automatically repair is basically the accuracy of our methodologies. If
+        I have a lower accuracy problem, I will use a testing approach. Otherwise, I will try to automatically repair
+        the web page. Of course, the best result we can get is an automatic repair. This is what will scale better for
+        our users, ultimately offer more benefit in terms of scale.
+        I think that is it. Everyone talked about everything I wanted to say, so this is mostly what I would say
+        differently. This is nice.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Okay. Let me just, a small provocation. You said that, in your work, everything that you work
+        with widget identification is objective. I will disagree a little bit. I am sure we can find several examples of
+        pages where you don't know if that is a link or a button, so there can be subjectivity in there, also. So, yes.
+        But just a small provocation, as I was saying.
+    </p>
+    <p>
+        So, we are fast approaching, the conversation is good. Time flies by. We are fast approaching the end. I would
+        ask you to quickly comment on the final aspect, just one minute or two, so please try to stick to that so that
+        we don't go over time.
+        You have already been in some ways approaching this, but just what do you expect, what would be one of the main
+        contributions, what are your future perspectives about the use of machine learning techniques for web
+        accessibility evaluation. I will start with you now, Fabio.
+    </p>
+    <p>
+        >> FABIO PATERNO: Okay. If I think about a couple of interesting, you know, possibilities opened up, about
+        machine learning. When we evaluate a user interface, generally speaking we have two possibilities. One is to
+        look at the code associated, the generated interface and see whether it is compliant with some rules. And
+        another approach is to look at how people interact with the system. So, look at the levels of user interaction.
+        In the past we did some work where we created a tool to identify various usability patterns, which means
+        patterns of interaction that highlight that there is some usability problem. For example, we looked at mobile
+        devices where there's a lot of work on (?) machine, that means that probably the information is not well
+        presented, or people access computers in different (?) it means the (?) are too close. So, it is possibly to
+        identify a sequence of interaction that highlight that is some usability problem. So, one possibility is to use
+        some kind of machine learning for classifying interaction with some Assistive Technology, that highlights this
+        kind of problem. So, allow us from the data (?), yes, there are specific accessibility problems.
+    </p>
+    <p>
+        And the second one is about, we mentioned before, the importance of providing an explanation about a problem, or
+        why it is a problem, and how to solve. So, that would be, the idea in theory, an ideal application for a
+        conversational agent. Now there is a lot of discussion on this, about ChatGTP, but is very difficult to actually
+        design, in this case, a conversational agent that is able to take into account the relevant context, which in
+        this case is the type of user that is actually now asking for help. Because now there are really many types of
+        users, when people look at accessibility results, that can be a web commission, the person who decide to have a
+        service but doesn't know anything about its implementation, then the user, the developer, the accessibility
+        expert, each of them require a different language, different terms, a different type of explanation, because one
+        day, I look “is this website accessible?”. They really have different criteria in order to understand the level
+        of accessibility and how to operate it in order to improve it. So, this is one dimension of the complexity.
+    </p>
+    <p>
+        The other dimension of the complexity is the actual implementation. It is really not, this (?) we are conducting
+        in our laboratory (?). It is really amazing to see how different implementation languages, technical components
+        that people use in order to implement the website. Even people that use the same JavaScript frameworks, they can
+        use it in very different ways. So, when you want to provide an explanation, of course, there is a point just
+        providing the standard, the description, the error, some of the standards examples, how to solve the problem,
+        because fften there are different situations that require some specific system consideration for explaining how,
+        or what can be done. But this complex conversational agent for accessibility, it would be a great result.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you, Sheng?
+    </p>
+    <p>
+        >> SHENG ZHOU: In the sake of time, I will talk about the future perspective about the efficient page sampling.
+        According to our data analysis, we found that the pages, the web pages with similar connection structures with
+        other pages visually have some similar accessibility problem.
+        So, we try to take this into account for the accessibility evaluation. And recently we used a graph knowledge
+        that works, that has been a hot research topic in the machine learning community. It combines both the network
+        topology and the node attributes, to an only unified representation for each node. Each node (frozen video)
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Okay. I guess we lost Sheng again. In the interest of time, we will skip immediately to you,
+        Willian.
+    </p>
+    <p>
+        >> WILLIAN WATANABE: Okay. My take on this, I think it will be pretty direct. I think Fabio talked about it, but
+        we are all working with specific guidelines, a set of Accessibility Guidelines of WCAG. And I think the next
+        step that we should address is associated to generalization, and incorporating it into relevant products, just
+        incorporating any automatic evaluation tool. So, in regard to all the problems that we mentioned, data
+        acquisition, mental classification, we had to find a way to scale our experiment so that we can guarantee it
+        will work in any website.
+    </p>
+    <p>
+        In regards to my work, specifically, I think that are some, I’m trying to work on automatic generation for
+        structure websites, for instance, generating heading structures and other specific structures that users can use
+        to righteous and automatically enhance the accessibility of the web page. I think that is it. In regard to what
+        you said, Carlos, just so that I can clear myself, what I wanted to say is that, different from the panelists
+        from yesterday, and different from Chao, for instance, I think I am working with a similar machine learning
+        approach. I don't use deep learning, for instance. Since I don't see the use for it yet, in my research, because
+        for my research I think it is mentioned that she might use for labeling and other stuff, data generation. I
+        haven't reached that point yet. I think there are a lot of things we can do just with classification, for
+        instance. That is it.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Okay, thank you, Willian. Yeliz, do you want to conclude?
+    </p>
+    <p>
+        >> YELIZ YESILADA: Yes. I actually, at least I hope, that we will see developments, again, in two things. I
+        think the first one is automated testing. I think we now are at the stage that we have many tools and we know
+        how to implement and automate, for example, certain guidelines, but there are a bunch of others that they are
+        very objective, they require human evaluation. It is very costly and expensive, I think, from an evaluation
+        perspective.
+        So, I am hoping that there will be developments in machine learning and AI algorithms to support and have more
+        automation in those ones that are really now requiring a human to do the evaluations.
+        And the other one is about the repairing. So, I am also hoping that we will also see developments in automating
+        the kind of fixing the problems automatically, learning from the good examples, and being able to develop
+        solutions while the pages are developed, they are actually automatically fixed.
+        And, sometimes, maybe seamless to the developers so that they are not worried about, you know, certain issues.
+        Of course, explainability is very important, to explain to developers what is going on. But I think automating
+        certain things there would really help. Automating the repairment. Of course, to do that I think we need
+        datasets. Hopefully in the community we will have shared datasets that we can all work with and explore
+        different algorithms. As we know, it is costly. So, exploring and doing research with existing data, it helps a
+        lot.
+
+    </p>
+    <p>
+        So, I am hoping that in the community we will see public datasets. And, of course, technical skills are very
+        important, so human-centered AI I think is needed here and is also very important. So hopefully we will see more
+        people contributing to that and the development. And, of course, we should always remember, as Jutta mentioned
+        yesterday, the bias is critical.
+        When we are talking about, for example, automatically testing, automating the test of certain rules, we should
+        make sure we are not bias with certain user groups, and we are really targeting everybody in different user
+        groups, different needs and users.
+        So, that is all I wanted to say.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you so much, Yeliz. And also, that note I think is a great way to finish this panel.
+        So, thank you so much, the four of you. It is really interesting to see all those perspectives and what you are
+        working on and what you are planning on doing in the next years, I guess.
+
+    </p>
+    <p>
+        Let me draw your attention. There are several interesting questions on the Q&A. If you do have a chance, try to
+        answer them there. We, unfortunately, didn't have time to get to those during our panel. But I think that are
+        some that really have your names on it. (Chuckles) So, you are exactly the correct persons to answer those. So,
+        once again, thank you so much for your participation. It was great.
+    </p>
+    <p>
+        We will now have a shorter break than the ten minutes. And we will be back in 5 minutes. So, 5 minutes past the
+        hour.
+    </p>
+    <h2 id="panel_NLP_communication">Panel 2: Natural language processing for accessible communication</h2>
+    <p>
+        >> CARLOS DUARTE: Hello, everyone. Welcome back to the second panel. I am now joined by Chaohai Ding from the
+        University of Southampton, Lourdes Moreno of the Universidad Carlos III de Madrid in Spain, and Vikas Ashok from
+        the Old Dominion University in the US. It is great to have you here. As I said before, let's bring back the
+        topic of natural language processing.
+        We have addressed yesterday, but not from the perspective of how it can be used to enhance Web Accessibility on
+        the web.
+
+    </p>
+    <p>
+        So, now, similarly to what I’ve done in the first panel, you have been working on different aspects of this
+        large domain of accessible communication. You have pursued advances in machine translation, in Sign Language,
+        AAC, so from your perspective and your focus on the work, what are the current challenges that you have been
+        facing and that are preventing the next breakthrough, I guess.
+        Also, I would like to ask you to, for your first intervention, also, to do a brief introduction to yourself and
+        what you have been doing. Okay?
+        I can start with you, Chaohai.
+
+    </p>
+    <p>
+        >> CHAOHAI DING: Hi. Thank you for having me today. I am a senior research fellow at the University of
+        Southampton. My research interest is on AI and inclusion, which includes Data Science and AI tactics to enhance
+        accessible learning, travelling and communication.
+        So, yes, we use, AI has been widely used in our research to support accessible communication. Currently we are
+        working on several projects on AAC. For example, we applied the concept map, not the single knowledge graph, to
+        interlinking AAC symbols from different symbol sets. This can be used for symbol-to-symbol translation. And we
+        also adapted a NLP model to translate the AAC single sequence into spoken text sequence.
+
+    </p>
+    <p>
+        So, those are the two projects we are working on currently. We are also working on an accessible e-learning
+        project that applies the machine translation to provide transcripts from English to other languages for our
+        international users. So, that is another scenario we are working with machine translation for accessible
+        communication.
+        So, there are a few challenges we have identified in our kind of research. The first one is always the data.
+        Data availability and data optimality. So, as you know, NLP models are a large amount of data, especially for
+        AAC.
+
+    </p>
+    <p>
+        We are, well, one of the biggest challenges is the lack of data, like user data, AAC data, and also how the user
+        interacts with the AAC. So, also, we have several different AAC single sets used by the different invidious
+        which makes it very difficult to develop NLP models, as well, because the AAC symbols are separated from each
+        single set. And another challenge, the lack of data interoperability in AAC symbol sets.
+        The third challenge we are identifying is the inclusion. Because we are working on AAC single sets from Arabic,
+        English and Chinese. So, there are cultural and social differences in AAC singles, which is important to
+        consider the needs of different user groups under the cultural and social factors and to involve them in the
+        development of NLP models for AAC.
+
+    </p>
+    <p>
+        The first one is data privacy and safety. This has been identified in our web application from AAC symbols to
+        spoken text. So, how do we, if we want to more accurately, or more personalized application, we need the user's
+        information. So, the challenge is how do we store this personal information and how do we prevent the data
+        misuse and the bridge and how to make the tradeoff between the user information and the model performance.
+    </p>
+    <p>
+        The last one is always the accessible user interface, and how to make this AI power tool, and NLP power tools
+        accessible for end users. And also there are more generic issues in AI like accountability, explainability. So I
+        think that is the list of challenges we have identified in our current research. Thank you.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you. A great summary of definitely some of the major challenges that are spread across
+        the entire domain. Definitely. Thank you so much. Lourdes, do you want to go next?
+    </p>
+    <p>
+        >> LOURDES MORENO: Thank you. Thank you for the invitation. Good afternoon, everyone. I am Lourdes Moreno, I
+        work as an Associate Professor in the Computer Science Department at the Universidad Carlos III de Madrid in
+        Spain. I am an accessibility expert. I have been working in the area of technology for disability for 20 years.
+        I have previously worked on sensory disability, and currently I work on cognitive accessibility. In my research
+        areas, I combine method from Human Computer Interaction and Natural Language Processing areas, to obtain
+        accessible solutions from the point of the view of reliability and the stability of the language in the user
+        interface.
+    </p>
+    <p>
+        So, the question currently in natural language research is being developed at our language model, in recent
+        years there have been many advances due to the increase in resources, such as large datasets and cloud platform
+        that allow the training of large models. But the most crucial factor is the use of transforming technology, and
+        the use of transfer learning. These are method based on the learning to create language model based on the
+        neural network. They are universal models, but they support different natural processing language tasks. Such as
+        questions and answering and translations, summarization, speech recognition, and more. The most expensive use
+        models are the GPT from OpenAI, and Bearly from Google. But new and bigger models continue to appear, and out
+        outperform previous ones, because their performance continues to scale as more parameters are added to the
+        models and more data are added.
+    </p>
+    <p>
+        However, despite these great advances, there are issues in the accessibility scope and challenges to address.
+        One of them is bias, language models have different type of bias, such as gender, race, and disability. But a
+        gender and race biases are highly analyzed. However, it isn't the case with disability biases. It has been
+        relatively under-explored.
+        There are studies related to these models, for example, in these words, in the sentiment analysis text, the
+        terms related to disability have a negative value. Or in another work, you see a model to moderate conversation
+        classifying text with mention to disability as more toxics. That is, algorithms are trained to give results that
+        can be offensive and cause disadvantage to individuals with disabilities. So, an investigation is necessary to
+        study that model to reduce biases. We cannot only use this language model and directly use the outcome.
+
+    </p>
+    <p>
+        Another problem with these models is that there aren't too many datasets related to the accessibility area. So,
+        this time there are a few labels corpora to be used in training simplification algorithms, lexical or syntactic
+        simplification, in natural language processing. I work in cognitive accessibility in Spanish, to simplify text
+        to plain language, easy reading language. To carry out this task we have created a corpus with expert initial
+        reading and with participation of older people and with People with Disabilities, intellectual disabilities,
+        because the current corpora have been created with non experts in disability and non experts in plain language
+        and they haven't taken into account people with disabilities. Also, efforts devoted to solving the scarcity of
+        resources are required in languages with low resources. English is the language we've more developed with many
+        natural language processing, but others, such as Spanish, have hadn't many resources. We need systems trained
+        for English language words and for Spanish, as well.
+        Finally with the proliferation of GPT models and its applications, such as ChatGPT, another problem to address
+        is the regulation and ethical aspect of Artificial Intelligence.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you so much, Lourdes. Definitely some very relevant challenges in there. Vikas, I will
+        end this first talk with you.
+    </p>
+    <p>
+        >> VIKAS ASHOK: Thank you. I'm Vikas Ashok, from Old Dominion University, Virginia, in the United States. I have
+        been working, researching in the area of accessible computing for ten years now. My specialty focus area is
+        people with visual disabilities, so mostly concentrated on their accessibility, as well as usability needs, when
+        it comes to computer applications.
+    </p>
+    <p>
+        So, with the topic at hand, which is accessible communication, so, one of the projects that I am currently
+        looking at is understandability of Social Media content, for people who listen to content, such as, you know,
+        people who are blind. So, listening to Social Media content text is not the same as looking at it. So, even
+        though the Social Media text is accessible, it is not necessarily understandable because of the presence a lot
+        of non-standard language content in Social Media, such as Twitter. People create their own words, they are very
+        inventive there. They hardly follow any grammar. So, text-to-speech systems such as those used in screen data,
+        cannot necessarily pronounce these out of vocabulary words in the right way.
+        Because most of the words, even though they are in text form, they are mostly intended for vision consumption,
+        some type of exaggeration where the letters are duplicated just for additional effect. Sometimes emotions are
+        attached to the text itself, without any emoticons or anything else. And sometimes to phonetically match it, use
+        a different with spelling of the word just for fun purposes.
+
+    </p>
+    <p>
+        So, as communication increases, tremendously with social media, people are depending on social media to
+        understand or getting news even, you know, some kind of disaster news or if something happens anywhere, some
+        event, they first flock the social media to get it. So, people that listen to content should also be able to
+        easily understand. I am focusing on that area, how to use NLP to make this possible. Even though this is not
+        exactly a question of accessibility in a conventional sense, but it is more like accessibility in terms of being
+        able to understand the already accessible content. So, it is one of the things.
+    </p>
+    <p>
+        The other thing I am looking at that is related to this panel is the disability bias of natural language models,
+        especially those Large Language Models. So, unfortunately, these models are reflective of the data it is trained
+        on, because most of the data associates words that are used to describe People with Disabilities, somehow end up
+        having negative connotation, they use negative context. Nobody is telling the models to learn it that way,
+        except that the documents of the text corpus that these models are looking at inherently put these words that
+        are many times not offensive into the negative category.
+    </p>
+    <p>
+        So, I am looking at how we can counter this. The example is toxicity detection in discussion forum, online
+        discussion forums are very popular. People go there, sometimes anonymously, post content, interact with each
+        other. You know, some of the posts get flagged as, you know, toxic, or they get filtered out. So, even if they
+        are not toxic, because of the use of certain words to describe disabilities or something. So, we want to avoid
+        that. How can we use an NLP to not do that. These two projects are what are closely related to the panel
+        specifically to this session.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you, Vikas. I will follow up with that, with what you mentioned and Lourdes has also
+        previously highlighted, the disability bias. I am wondering if you have any ideas, suggestions on how can NLP
+        tools address such issues, I'm thinking for instance, text summarization tools, but also other NLP tools. How
+        can they help us address the issues of disability bias, also how can they explore other aspects like
+        accountability or personalization, in the case of text summaries. How can I personalize a summary for specific
+        audiences, or for the needs of specific people. I will start with you, Lourdes.
+    </p>
+    <p>
+        >> LOURDES MORENO: Text summarization is a natural language task, is a great resource because improve cognitive
+        accessibility in order to help people with disabilities to process long and tedious texts. Also, In the Web
+        Content Accessibility Guidelines, following success criteria 3.1.5 Reading Level, the readable summary is very
+        socially recommended. But these tasks have challenges, such us disability biases, and the summaries that are
+        generated and are not understandable for people with disabilities. Therefore, some aspects must be taken into
+        account. It is necessary to approach these tasks with a summary of the extract type, where the extract sentences
+        can be modified with paraphrasis resources, and help the understandability and reliability of the text.
+        To summarize this, different input are required. Not only knowledge about the sequences of word, not only about
+        sentences, but also about the targeted audience is important. Different types of users require different types
+        of personalization of summaries.
+
+    </p>
+    <p>
+        It was also, I think that it will be recommendable to include a readability metric in the summary generation
+        process to ensure that the result summary is minimally readable. For instance, if we are in the context of
+        assistant that provides summaries of public administration information for all people, it is necessary to take
+        into account that the summary must be in plain language. Therefore, in addition to extract relevant sentences
+        and paraphrases, it will necessary to include knowledge about guidelines of plain language to make the text
+        easier to read.
+    </p>
+    <p>
+        Finally, corpora used to train natural language process assistants should be tested with the user in order to
+        obtain a useful solution. Only then it will be possible to obtain understandable summaries for all the society
+        and their elderly.
+        Then with respect to accountability, as in every Artificial Intelligence algorithm, it must be explainable. So,
+        it is necessary to respond, to answer, to questions such as how processing actually performed, a limitation of
+        the dataset use to train and test algorithms and these outcome of the model.
+        Therefore, good data management and machine learning models training practices should be promoted to ensure
+        quality results. Nothing else.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you, Lourdes. Vikas, do you want to, even though from what I understand you don't work
+        directly with text summarization, but how does this aspect of disability bias accountability, and
+        personalization impact what you are doing?
+    </p>
+    <p>
+        >> VIKAS ASHOK: I use a lot of text summarization, so I can add to it. To add to what Lourdes said,
+        simplification is also as important at summarization because sometimes it is not just summarizing, or shortening
+        the content to be consumed, but it is also making it understandable, like I said. It means that certain complex
+        sentences structures and some more tricky words, we need to replace them with equal and easier to understand,
+        more frequently used words. There is some work there that has been done into text simplification, we created
+        some kind of text summarization, in this special case if from the same language, text between the same language,
+        so the input is text in the same language as the output text, except that the output text is more readable, more
+        understandable. So, that is extremely important.
+    </p>
+    <p>
+        The other thing is summarization, most of them tend to rely on extractive summarization, where they just pick
+        certain sentences from the original piece of text so that they don't have to worry about the grammatical
+        correctness and proper sentence structures, so that because they rely on humans who have written the text in
+        order to generate the summaries. So I can speak how summarization need to be personalized in a certain way, for
+        certain groups, especially for people with visual disabilities. What I have noticed in some of my study is that,
+        even though they can hear it, they don't necessarily understand it, because the writing is sort of visual, in
+        other words it needs you to be visually imaginative. So, what is the non-visual alternative for such kind of
+        text. How do you summarize the text that includes a lot of visual elements to it? How do you convert it into
+        non-equal and non-visual explanations. This necessarily goes beyond the extractive summarization. You cannot
+        just pick and choose. You need to replace the wordings in the sentence with other wordings that they can
+        understand. Some of the text, you know, these days, especially the articles, in news articles and all, they
+        don't come purely as text. They are sort of multi-modal in the sense that there are pictures that are the GIFS,
+        everything, and the text sort of refers to these pictures. So, this is another problem, because then it becomes
+        highly visual.
+        So, you have to take some of the visual elements of the picture, probably through computer vision techniques or
+        something, and then inject it into the text in order to make it more self-sufficient and understandable for
+        people who cannot see the images.
+        So, that is my take on it.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Yes. That is a very good point about the multimedia information and how do we summarize
+        everything into text. Yes. That is a great point. Chaohai, your take on this?
+    </p>
+    <p>
+        >> CHAOHAI DING: Yes. We don't have must experience on text summarization. Most of our research is on AAC and
+        the interlinking of the AAC generation. But we do held a project that involves part of text summarization. We
+        constructed a knowledge graph for an e-learning platform and then we needed to extract the text summarization
+        from lecture notes to make it easier and accessible for people, students with disabilities.
+        So, based on that project, what we learned is that text summarization is a very difficult task in NLP, because
+        it is highly dependent on the text, context domain and target audience, and even the goal of the summary.
+        For example, in our scenario, we want to have a summary of each lecture notes, but we have very long transcripts
+        in that lecture. So, we use a few text summarization models to generate the summaries, but the outcome is not
+        good.
+        As Vikas just said, some of the text summarization is just pick some of the text, and replace some of the words.
+        That is it. And some of it doesn't make sense. So, that is one problem we identified in text summarization.
+
+    </p>
+    <p>
+        And we also have some method to, because we need to personalize, because the project is related to adapted
+        learning for individual students, so we need personalization for each student. So, text summarization could be
+        customized and adapted to a user's need.
+        But this actually can be improved with user's personal preference or feedback, and also allow the user to set
+        their summary goal and also, the simplification is very important, because some students may have cognitive
+        disabilities, or other types of disabilities that they need to have simplified into plain language. Yes, I think
+        that is mainly what we have for text summarization.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you so much. Let's move on to, we started with the challenges and now I would like to
+        move onto the future perspectives. What are the breakthroughs that you see happening, promoted by the use of NLP
+        for accessible communication. I will start with you, Vikas.
+    </p>
+    <p>
+        >> VIKAS ASHOK: So, my perspective is that there are plenty of NLP in the tools out there already that haven't
+        been exploited to the fullest extent to address accessibility and usability issues. The growth in NLP techniques
+        and methods have been extremely steep in recent years. And the rest of us in different fields are trying to
+        catch up.
+        Still, there is a lot to be explored as to how they can be used to address real world accessibility problems,
+        and we are in the process of doing that, I would say. So, text summarization is one thing we discussed already
+        that can be explored in a lot of scenarios to improve the efficiency of computer interaction for People with
+        Disabilities. But the main problem, as we discussed not only in this panel, but also on other panels is the
+        data.
+
+    </p>
+    <p>
+        So, for some languages there is enough of that little corpus where the translation is good, because the
+        translation depends on how much data you have trained on. But for some pair of languages it may not be that
+        easy, or even if it does something, it may not be that accurate, so that could be a problem.
+        Then the biggest area where I see, which can be very useful for solving many accessibility problems is the
+        improvement in dialogue systems. So, national language dialogue is a very intuitive interface for many users,
+        including many People with Disabilities.
+
+    </p>
+    <p>
+        So, those are physical impairments which prevent them from conveniently using the keyboard or the mouse, and
+        those that are blind who have to use screen readers, which is time consuming , it is known to be time consuming.
+        So, dialog systems are under explored. They are still exploring it. You can see the commercialization is going
+        on, like with Smartphones and all, but still, with some high-level interaction, like setting alarms, turning on
+        lights and answering some types of questions, but what about using that to interact with applications in the
+        context of an application.
+        So, if I see a play, I had a user comment to this particular document text, say in Word or Docs. Can an
+        assistant spoken, dialog assistant, understand that, and automate it. So that automation I feel of address many
+        of the issues that people face interacting with digital content. So, that is one of the things I would say we
+        can use NLP for.
+
+    </p>
+    <p>
+        The other thing is the increased availability of Large Language Models, pre-trained models, like one Lourdes
+        mentioned, GPT, which is essentially a transformer decoder or generator base model. Then there is also Bert,
+        which is encoder based. So, this help us in a wat that we don't need large amount of data to solve problems
+        because they're already pre-trained on a large amount of data. So, what we need are kind of small datasets that
+        are more fine-tuned toward the problem here we are addressing.
+        So, the accessibility datasets, there I think there needs to be a little more investment.
+        It doesn't have to be that big, because the Large Language Models, already take care of most of the language
+        complexities. It is more like fine tuning to the problem at hand. So, that is where I think some effort should
+        go, and once we do that, obviously, we can fine tune and solve the problems, and then there is a tremendous
+        advancement in transfer learning techniques, of which we can explore that, as well, in order to not do that from
+        scratch, instead borrowing somethings that are already there, I mean, similar problem. There is a lot to be
+        explored, but we haven't done that yet. So, there is plenty of opportunity for research using NLP expertise for
+        problems in accessible communication, especially.
+
+    </p>
+    <p>
+        >> CARLOS DUARTE: Yes. Definitely some exciting avenues there. So, Chaohai, can we have your take on this? Your
+        breakthroughs?
+    </p>
+    <p>
+        >> CHAOHAI DING: Yes, I totally agree with Vikas' opinions. For my research, because I mainly work with AAC,
+        currently, I would take AAC, for example. The future perspective for AAC and NLP for AAC, I think, first of all
+        would be the personalized adaptive communication for each individual. Because each individual has their own
+        communication, their own way to communicate with each other.
+        And NLP techniques can be used to make this communication more accessible, more personalized and adapted based
+        on their personal preference, feedback.
+        So, this can be used for personalized AAC symbols. Currently AAC users are just using standard AAC symbol sets
+        for their daily communication. So, how can we use NLP to, and the generic AI models to create more customized,
+        personalized AAC symbols. Which could be having the ability to adapt to their individual's unique culture and
+        social needs.
+        I think that is one potential contribution to AAC users.
+
+    </p>
+    <p>
+        The second one will be accessible multi modal communication. Because NLP techniques, they have the potential to
+        enhance this accessible communication by improving interoperability in training data, and the between the verbal
+        language, Sign Language and the AAC.
+        So, data interoperability can provide a more high-quality training data for this language with elastic set.
+        Additionally, it can provide the ability to translate different communication models and make it more accessible
+        and inclusive. So, in AAC, we can have multiple AAC symbol sets that can be linked, mapped and interlinked by
+        NLP models, and this can be contributed to translation between the AAC to AAC, and the AAC to text, AAC to Sign
+        Language and vice versa. That is the second perspective I think about.
+
+    </p>
+    <p>
+        And the third one is the AI assistant communication that Vikas just talked about, the ChatGPT. So, with this,
+        this large language model has been trained by these big companies and they have been widely spreading on the
+        Social Media. So, how to use this trained Large Language Models incorporated with other applications, then you
+        can use it for more accessible communication to help People with Disabilities. That is another future we are
+        looking for.
+    </p>
+    <p>
+        The last one I am going to talk about is more regarding the AAC. AAC is quite expensive. So, affordability is
+        very important. It can be achieved by a NLP or AI. That is one thing I mentioned that we are currently looking
+        into how to turn image into symbols, and how to generate AAC symbols automatically by using image generative AI
+        models, like stable diffusion. So, that is another future we are looking forward, how to reduce the cost for
+        accessible communication. Thank you.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you, Chaohai. Definitely a relevant point, reducing the cost of getting data and all of
+        that. That is important everywhere. So, Lourdes, what are you looking for in the near future? And you are muted.
+    </p>
+    <p>
+        >> LOURDES MORENO: Sorry. As we mentioned before, there are two trends, the appearance of newer and better
+        language models than the previous one, working in these new models, and to reduce disability biases. Also, I
+        will list a specific natural language processing task and Data application that I will work in the coming years.
+        One is accessibility to domain specific task, such as health. The health language is highly demanded and needed,
+        but patients have problems understanding information about their health condition, diagnosis, treatment, and the
+        natural processing methods could improve their understanding of health related documents. Similarly, sample
+        appearance in legal and financial documents, the language of administration, government, … Current natural
+        process language technology that simplify and summarize this could help in the roadmap.
+    </p>
+    <p>
+        Another line is speech-to-text. Speech-to-text will be a relevant area of research in the field of virtual
+        meetings in order to facilitate accessible communication by generating summaries of meetings, as well as minutes
+        in plain language.
+    </p>
+    <p>
+        Another topic is the integration of natural language processing methods into the design and development of
+        multimedia use interface. It is necessary to face accessible communication from a multidisciplinary approach
+        between different areas, such as human computer interaction software engineering and natural language
+        processing.
+    </p>
+    <p>
+        Finally, another issue is advancing application in smart assistant in natural language processing method to
+        support People with Disabilities and the elderly, assist them in their daily task and promote active living.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Thank you so much, Lourdes, and every one of you for those perspectives. I guess we still have
+        five minutes more in this session. So, I will risk another question. I will ask you to try to be brief on this
+        one.
+        But, the need for data was common across all your interventions. And if we go back to the previous panel, also,
+        it was brought up by all the panelists. So, yes, definitely, we need data.
+        What are your thoughts on how can we make it easier to collect more data for the specific aspect of accessible
+        communication, because we communicate a lot, right? Technology has allowed us, opened up several channels to
+        where we can communicate even when we are not co-located.
+        So, yes, everywhere one of us is in different parts of the planet and communicating right now. Technology has
+        improved that possibility a lot.
+        However, we always hear that we need more data, we can't get data. So, how do you think we can get more data?
+        And, of course, we need the data to train these models, but can't we also rely on these models to generate data?
+        So, let me just drop this on you now. Do any of you want to go first?
+    </p>
+    <p>
+        >> CHAOHAI DING: I can go first. Yes. We have been working on open data four years ago, I mean the AI and the
+        Data Science, because when I started my PhD we worked on open data and there is an open data initiative in the
+        UK. We wanted to open our data, government data, and the public transport data. That is how long I have been
+        working on public transportation with accessibility needs. So, there is a lack of data. At the beginning of my
+        PhD, so, a few years later we still lack accessibility information data.
+        So, how can we, how this, I mean, in the accessibility area, how can we have such a data to train our models?
+        What I used to do with public transport data, I used to map available data into a larger dataset. That's
+        incurred into a lot of label work like cleaning, data integration, and all this method to make this data
+        available. That is the first approach.
+
+    </p>
+    <p>
+        Secondly, we think about how can we contribute like a data repository, or something like an image net or a word
+        net that we can collaboratively to, together, to contribute to identify data related to accessibility and
+        research. I think that is a way, as a community, we can create such a universal repository or some kind of data
+        initiative that we can work on accessibility research.
+    </p>
+    <p>
+        Then the third approach is that definitely we can generate data based on small data. We can use generative AI
+        model to generate more, but the question is, is that data reliable? Is the data generating enough or is that
+        have been bias? That is my conclusion. Thank you.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Yes. Thank you. I think the big question mark is that synthetic data reliable or not. Vikas or
+        Lourdes, do you want to add something?
+    </p>
+    <p>
+        >> VIKAS ASHOK: Yes. I have used synthetic data before based on the little bit of real data. And in some cases,
+        you can generate synthetic data. One of the things I had to do was extract user comments in documents. Most of
+        this word processing applications allow you to post comments to the right, for your collaborators to look at and
+        then, you know, address them. So, automatically extracting that, I had to generate synthetic data, because
+        obviously only a few documents with collaborative comments. So, the appearance there is like, okay, comments
+        will appear somewhere on the right side, right corner, which will have some text in it with a few sentences, so
+        there are some characteristics. So, in those cases we were able to generate synthetic data, we train the machine
+        learning model. It was pretty accurate on this data, which was like real data. So, in some cases you can exploit
+        the way data will appear, and then generate the synthetic data. But in many cases, it may not be possible. Like
+        the project I mentioned in Social Media where the text contains a lot of non standard words. Simply replacing
+        the non standard words with synonyms may not do the job, because then you take the fun aspect away from Social
+        Media, right? It should be as fun and entertaining when you listen to Social Media text as it is when you look
+        at it.
+    </p>
+    <p>
+        So, you have to do some kind of clever replacement. So for that you need some kind of human expert going there
+        and doing that. Crowdsourcing, I think, is one way to get data quickly. It is pretty reliable. I have seen in
+        the NLP community, like NLP papers that appears in ACL and they rely heavily on the Amazon Mechanical Turk and
+        other online incentivized data collection mechanisms. So, that I think is one thing.
+    </p>
+    <p>
+        The other thing I do, you know, in my classes, especially, I get the students to help each other out to collect
+        the data. It doesn't have to be that intensive. Every day, if they just, even one student collects, like, ten
+        data points, over the semester there can be enough data for a lot of things. So, you know, in each of their
+        projects and in the end of the course, pretty much they will have a lot of data for research. So, everybody can
+        contribute in a way. Students, especially, are much more reliable because they are familiar with the mechanisms,
+        how to label, collect data and all that stuff. They can understand how things work, as well. So, it is like a
+        win win.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Yes. Thank you for that contribution. Good suggestion. And Lourdes, we are really running out
+        of time, but if you still want to intervene, I can give you a couple of minutes.
+    </p>
+    <p>
+        >> LOURDES MORENO: Okay. I think that also we don't find, we need a few data but in my vision is also negative
+        because obtaining the dataset is expensive. And in accessible communication, I work in simplification, this data
+        must be prepared by the expert in Accessibility. It is important that this data is validated by people with
+        accessibility, and use plain language resources. And then it is a problem to obtain data with quality.
+    </p>
+    <p>
+        >> CARLOS DUARTE: Okay. Thank you so much, Lourdes. And thanks, a very big thank you to the three of you,
+        Chaohai, Vikas and Lourdes. It was a really interesting panel. Thank you so much for your availability.
+    </p>
+    <h2 id="closing_keynote">Closing Keynote: Shari Trewin</h2>
+    <p>
+        >> CARLOS DUARTE: Okay. Since we are, we should have already started the closing keynote, I am going to move on
+        to introducing Shari Trewin.
+        She is an Engineering Manager at Google, leading a team that develops Assisted Technologies. So, I am really
+        looking forward to your vision of what is next, what is the future holding for us in Assisted AI. So, as we had
+        yesterday, at the end of the keynote Jutta will join us and we will have this even more interesting conversation
+        between Shari and Jutta, making it really appetizing for the keynote.
+        So, Shari, the floor is yours.
+
+    </p>
+    <p>
+        >> SHARI TREWIN: Okay, thank you very much. Can you hear me okay?
+    </p>
+    <p>
+        >> CARLOS DUARTE: Yes.
+    </p>
+    <p>
+        >> SHARI TREWIN: Okay. What a pleasure it is to participate in the symposium and hear from our opening keynote
+        Jutta, and all out panelist over the last two days. Thank you so much for inviting me. It's my privilege to
+        finish this up now. Yesterday Jutta grounded us all in the need to do no harm and talked about some of the ways
+        we can think about detecting and avoiding harm.
+        Today I will focus on digital accessibility applications of AI in general and ask what is next for Assistive AI.
+
+    </p>
+    <p>
+        So, my name is Shari Trewin. I am an Engineering Manager in the Google Accessibility team. I'm also the past
+        chair of the ACM's SIGACESS, Special Interest Group on Accessible Computing. My background is computer science
+        and AI. I have been thinking about the ways that AI plays into accessibility for many years. Much of my work in
+        thinking on AI and the AI fairness was done when I worked at IBM as a Program Director for IBM Accessibility. A
+        shout out to any IBM friend in the audience.
+        At Google, my team focuses on developing new assistive capabilities and as we have been discussing for the last
+        few days, AI has an important role to play.
+
+    </p>
+    <p>
+        There has been a lot of buzz in the news lately, both exciting and alarming, about generative AI, especially
+        these Large Language Models. For example, the ChatGPT model from OpenAI has been in the news quite a bit. In
+        case you haven't played with it yet, here is an example. I asked ChatGPT how will AI enhance Digital
+        Accessibility. Let's try to get it to write my talk for me. It responded with a positive viewpoint. It said AI
+        has the potential to significantly improve Digital Accessibility for People with Disabilities. Here are a few
+        ways that AI can contribute to this goal.
+        It went on to list four examples of transformative AI. All of these have been major topics at this symposium.
+        For each one it gave a one or two sentence explanation of what it was, and who it is helpful for.
+    </p>
+    <p>
+        Finally, it concluded that AI has the potential to make digital content and devices more accessible to People
+        with Disabilities, allowing them to fully participate in the digital world. It seems pretty convincing and well
+        written.
+        Perhaps I should just end here and let AI have the last part. But, you know, it is kind of mind blowing,
+        although it was pretty terrible at jokes.
+        So, what it can do without explicitly being connected to any source of truth, it does get things, sometimes,
+        flat out wrong, with the risk of bias in the training data being reflected in the prediction.
+    </p>
+    <p>
+        This limits the ways we can apply this technology today, but it also gives us a glimpse into the future. I am
+        not going to take medical advice from a generative AI model yet, but as we get better at connecting this level
+        of language fluency with knowledge, improving the accuracy, detecting and removing bias, this opens up so many
+        new possibilities for interaction models, and ways to find and consume information in the future.
+        So, I will come back to that later.
+
+    </p>
+    <p>
+        For today's talk, I am going to slice the topic a little bit differently. I want to focus on some of the general
+        research directions that I see as being important, moving Digital Accessibility forward with AI.
+        In our opening keynote, Jutta laid out some of the risks that can be associated with AI. It is not created and
+        applied with equity and safety in mind. It is important to keep these considerations in mind as we move forward
+        with AI. When the benefits of AI do outweigh the risks in enabling digital access, we still have a way to go in
+        making these benefits available to everyone, in fact, to make them accessible.
+        So, start by talking about some current effects in that direction, making Assistive AI itself more inclusive.
+        The second topic I want to cover is where we choose to apply AI, focusing in what I call AI at source. And
+        finally, Web Accessibility work in role emphasizes the need to shift left, that is to bake accessibility in as
+        early as possible in the development of the digital experience. So, I will discuss some of the places where AI
+        can help with that shift left, and highlight both opportunities and important emerging challenges that we have
+        for Web Accessibility.
+    </p>
+    <p>
+        So, we know that AI has already changed the landscape of assistive technology. So, one research direction is how
+        do we make these AI models more inclusive? And I want to start with a little story about captions. In 2020, I
+        was accessibility chair for a very large virtual conference. We provided a human captioner, who was live
+        transcribing the sessions in a separated live feed. I am showing an image of a slide from a presentation here
+        with a transcription window to the right. I spoke with a Hard of Hearing attendee during the conference who used
+        captions to supplement what he could hear. He told me, well, the live feed had quite a delay, so he was also
+        using automated captions that were being streamed through the conference provider, let's add them to this view,
+        highlighted in green. This had a little less delay but had accuracy problems, especially for foreign speakers or
+        people with atypical speech. And especially for people's names or technical terms. You know, the important
+        parts.
+        So, he also turned on the automated captions in his browser which used a different speech detect engine. I added
+        those on the screen, too. And he supplemented that with an app on his phone, using a third different speech
+        recognition engine capturing the audio as it was played from his computer and transcribing it. So that is four
+        sources of captions to read.
+        None of them was perfect, but he combined them to triangulate interpretations where the transcriptions seemed to
+        be wrong. So, we could say AI powered captions were helping him to access the conference, no doubt about it, but
+        it wasn't a very usable experience. He was empowered but he also had a huge burden in managing his own
+        accessibility, and there were still gaps.
+
+    </p>
+    <p>
+        As Michael Cooper pointed out yesterday, imperfect captions and descriptions can provide agency, but can also
+        mislead users and waste their time.
+        I also want to point out this particular user was in a really privileged position, because he knows about all
+        these services, he has devices powerful enough to stream all these channels. He has good internet access. He has
+        a Smartphone. He has the cognitive ability to make sense of this incredible information overload. This really
+        isn't equitable access, right? And the captions themselves were not providing accurate representation of the
+        conference speakers, so those with atypical speech were at a disadvantage in having their message communicated
+        clearly, so there is an important gap to be filled.
+        One of the current limitations of automated captions is poor transcriptions of people with atypical speech,
+        especially when they are using technical or specialized language. For example, Dimitri Kavensky is a Google
+        researcher and inventor, he is an expert in optimization and algebraic geometry, among many other topics. He is
+        Russian and deaf, both of which affect his English speech. I will play a short video clip of Dimitri.
+
+    </p>
+    <p>
+        (Pre Captioned Video)
+    </p>
+    <p>
+        So, Dimitri said, Google has very good general speech recognition, but if you do not sound like most people, it
+        will not understand you. On the screen a speech engine translated that last part of his sentence as “but if you
+        look at most of people, it will look and defended you”. So, People with Disabilities that impact speech such as
+        Cerebral Palsy, stroke, Down Syndrome, Parkinson's, ALS, are also impacted by lack of access to speech
+        recognition, whether it is for controlling a digital assistant, communicating with others or creating accessible
+        digital content.
+        I want to go to the next slide.
+
+    </p>
+    <p>
+        So, Google's project Euphonia, has set out to explore whether personalized speech recognition models can provide
+        accurate speech recognition for people with atypical speech, like Dimitri. And this is a great example of the
+        way research can move the state of the art forward. The first challenge, as many people have mentioned today, is
+        the lack of suitable speech data. Project euphonia collected over a million utterances from people with speech
+        impairments and the researchers built individual models for 432 people and compared them to state of the art
+        general models. They found the personalized models could significantly reduce the word error rates, and so the
+        error rates had gone from something like 31% with the generated models down to 4.6%.
+        So, it is not just a significant improvement, but it is enough of improvement that gets to a high enough point
+        to make the technology practical and useful. In fact, they found these personalized models could sometimes
+        perform better than human transcribers for people with more several disorder speech. Here is an example of
+        Dimitri using his personal speech recognition model.
+
+    </p>
+    <p>
+        (Captions on Smartphone demonstration in video)
+    </p>
+    <p>
+        So, the transcription this time is make all voice interactive devices be able to understand any person speak to
+        them. It is not perfect but it is much more useful. Project Euphonia started in English but it is now expanding
+        to include Hindi, French, Spanish and Japanese.
+        So, that project demonstrated how much better speech recognition technology could be, but the original data
+        wasn't shareable outside of Google and that limited the benefits of all that data gathering effort.
+
+    </p>
+    <p>
+        So, the Speech Accessibility Project at the University of Illinois is an example of what we might do about that
+        problem. It is an initiative to make a dataset for broader research purposes.
+        It was launched in 2022, and it is a coalition of technologists, academic researchers and community
+        organizations. The goal is to collect the diverse speech dataset for training, speech recognition model, to do
+        better at recognizing atypical speech. It is building on some of the lessons learned in project euphonia, paying
+        attention to ethical data collection, so individuals are paid for participating, their samples are de-identified
+        to protect privacy. The dataset is private, and it is managed by UIUC and made available for research purposes
+        and this effort is backed by cross-industry very broad support from Amazon, Apple, Google, Meta, and Microsoft.
+        It's going to enable both academic researchers and partners to make progress. Although the current work is focus
+        on speech data, this is in general a model that could be used for other data that's needed to make models more
+        inclusive. We could think of touch data. There are already significant efforts going on together. Sign Language
+        video data for Sign Language translation.
+
+    </p>
+    <p>
+        And Project Relate is an example of the kind of app that can be developed with this kind of data. It is an
+        Android app that provides individuals with the ability to build their own personalized speech models and use
+        them for text to speech, for communication and for communicating with home assistants.
+    </p>
+    <p>
+        Personalized speech models look really promising, and potentially a similar approach to be taken to build
+        personalized models for other things like gesture recognition, touchscreen interactions, interpreting inaccurate
+        typing. I think there is a world of opportunity there that we haven't really begun to explore.
+        So, now that we know we can build effective personal models from just a few hundred utterances, can we learn
+        from this? How to build more inclusive general models, would be a very important goal.
+
+    </p>
+    <p>
+        Can we improve the performance even further by drawing on a person's frequently used vocabulary? Can we prime
+        models with vocabulary from the current context? And as Shivam Singh mentioned yesterday, we're beginning to be
+        able to combine text, image, and audio sources to provide a richer context for AI to use. So, there's very fast
+        progress happening in all of these areas. Just another example, the best student paper at the ASSETS 2022
+        conference was using vocabularies that were generated automatically from photographs to prime the word
+        prediction component of a communication system for more efficient conversation around those photographs.
+    </p>
+    <p>
+        Finally, bring your own model. I really agree with Shaomei Wu when she said yesterday use cases of media
+        creation are under investigated. We can apply personalized models in content creation. Think about plugging in
+        your personal speech model to contribute captions for your live streamed audio for this meeting. The potential
+        is huge, and web standards might need to evolve to support some of these kind of use cases.
+    </p>
+    <p>
+        When we talk about assistive AI, we're often talking about other technologies that are being applied at the
+        point of consumption, helping an individual to overcome accessibility barriers in digital content or in the
+        world. I want to focus this section on AI at source and why that is so important. Powerful AI tools in the hands
+        of users don't mean that authors can forget about accessibility. We have been talking about many examples of
+        this through this symposium, but here are a few that appeal to me.
+    </p>
+    <p>
+        So, I am showing a figure from a paper. The figure is captioned user response time by authentication condition.
+        And the figure itself is a boxplot that shows response times from an experiment for six different experimental
+        conditions.
+        So, it is a pretty complex figure. And if I am going to publish this in my paper, my paper is available, I need
+        to provide a description of this image. There is so much information in there. When faced with this task, about
+        50% of academic authors resort to simply repeating the caption of the figure. And this is really no help at all
+        to a blind scholar.
+        They can already read the caption. That is in text. So, usually the caption is saying what information you will
+        find in the figure, but it is not giving you the actual information that is in the figure.
+
+    </p>
+    <p>
+        Now, as we discussed in yesterday's panel, the blind scholar reading my paper could use AI to get a description
+        of the figure, but the AI doesn't really have the context to generate a good description. Only the author knows
+        what is important to convey.
+        At the same time, most authors aren't familiar with the guidelines for describing images like this. And writing
+        a description can seem like a chore. That is why I really love the idea that Amy Pavel shared yesterday for ways
+        that AI tools could help content creators with their own description task, perhaps by generating an overall
+        structure or initial attempt that a person can edit.
+
+    </p>
+    <p>
+        There are existing guidelines for describing different kinds of charts. Why not teach AI how to identify
+        different kinds of charts and sort of generate a beginning description.
+        And Shivam Singh was talking yesterday as well about recent progress in this area.
+        Ideally the AI could refine its text in an interactive dialogue with the author, and a resulting description
+        would be provided in the paper and anyone could access it, whether or not they had their own AI. So, that is
+        what I mean by applying AI at source. Where there is a person with the context to make sure the description is
+        appropriate, and that can provide a better description.
+        Of course, it can only provide one description. There is also an important role for image understanding that can
+        support personalized exploration of images. So that a reader could clearly read information that wasn't
+        available in a short description, like what were the maximum and minimum response times for the gesture
+        condition in this experiment.
+        I am not saying that AI at source is the only solution, but it is important, and perhaps, an undeveloped piece.
+
+    </p>
+    <p>
+        Here is a second example. I love examples! As we were just talking about in the earlier panel, text
+        transformations can make written content more accessible. So, for example, using literal language is preferable
+        for cognitive accessibility.
+        So, an idiom like "she was in for a penny, in for a pound," can be hard to spot if you are not familiar with
+        that particular idiom and can be very confusing if you try to interpret it literally. Content authors may use
+        this kind of language without realizing. Language models could transform text to improve accessibility in many
+        ways, and one is by replacing idioms with more literal phrasing.
+        So, I asked the language model to rephrase this sentence without the idiom and it came up with a sensible,
+        although complex literal replacement. "she decided to fully commit to the situation, no matter the cost." Again,
+        this can be applied as a user tool, and as a tool for authors to help them identify where their writing could be
+        misinterpreted.
+        So, one puts the onus on the consumer to bring their own solution, apply it and be alert for potential mistakes.
+        The other fixes the potential access problems at source, where the author can verify accuracy.
+
+    </p>
+    <p>
+        As I mentioned earlier, because today's Large Language Models are not connected to a grounded truth, and they do
+        have a tendency to hallucinate, applying them at source is one way to reach the benefit much more quickly
+        without risking harm to vulnerable users.
+        Once we collect language models, connect them to facts, or connect speech to the domain of discourse, well, we
+        will really see a huge leap in performance, reliability and trustworthiness.
+        So, in the previous two examples, AI could be applied at source. What about when the AI has to be on the
+        consumer side, like when using text to speech to read out text on the web?
+
+    </p>
+    <p>
+        On the screen here is the start of the Google information side bar about Edinburgh, the capital city of
+        Scotland. There is a heading, subheading and main paragraph. Text to speech is making huge advances with more
+        and more natural sounding voices becoming available and the capability of more expressive speech, which itself
+        makes comprehension more easy. And expressiveness can include things like adjusting the volume, verbosity. When
+        reading a heading, maybe I would naturally read it a little louder. Pause afterwards. For a TTS service to do
+        the best job reading out text on the web, it helps to have the semantics explicitly expressed.
+        For example, the use of heading markups on Edinburgh on this passage.
+        It is also important that domain specific terms and people's names and or place names are pronounced correctly.
+        Many people not from UK on first sight would pronounce Edinburgh as Edinburgh. Web standards, if they're applied
+        properly, can mark up the semantics like headings and pronunciation of specialized or unusual words, helping the
+        downstream AI to perform better. AI can also be used to identify the intended structure and compare against the
+        markup or identify unusual words or acronyms where pronunciation information could be helpful.
+        And then the passage can be read appropriately by your preferred text to speech voice, at your preferred speed
+        and pitch.
+
+    </p>
+    <p>
+        It can also be used by a speech to text model to marry the vocabulary on the page with what you are saying as
+        you are interacting with the page, to use voice controls.
+        So, I am showing you this example to illustrate that Web Accessibility standards work together with Assistive AI
+        techniques to enable the best outcome. And many uses of Assisted Technology can benefit from this information.
+        So, thinking about applying AI at source, there is an important role here for AI that makes sure that the visual
+        and structural DOM representations are aligned.
+        So, I want to reiterate the powerful benefits of applying AI at authoring time, that these examples illustrate.
+
+    </p>
+    <p>
+        So, first off, we are removing the burden from People with Disabilities to supply their own tools to bridge
+        gaps. Secondly, it benefits more people, including those people who don't have access to the AI tools. People
+        with low end devices, poor internet connectivity, less technology literacy.
+        Thirdly, a content creator can verify the accuracy and safety of suggestions, mitigating harms from bias or
+        errors, because they have the context.
+        And AI can also potentially mitigate harms in other ways. For example, flagging videos, images or animations
+        that might trigger adverse health consequences for some people, like flashing lights.
+
+
+    </p>
+    <p>
+        So, AI inside is likely to reach more people than AI provided by end users. I think this is how we get the most
+        benefit for the least harm.
+        It is also a huge opportunity to make accessibility easier to achieve. AI can make it much quicker and easier to
+        generate the accessibility information, like captions or image descriptions, as we discussed.
+        And lower the barrier entry with assistive tools is one way to encourage good accessibility practice.
+        AI can proactively identify where accessibility work is needed. And evaluate designs before even a line of code
+        has been written.
+    </p>
+    <p>
+        But perhaps the biggest opportunity and the greatest need for our attention is the use of AI to generate code,
+        which brings us to the final section of this talk.
+    </p>
+    <p>
+        So, in the previous section we talked about ways that AI can be applied in content creation to help build
+        accessibility in. But AI itself is also impacting the way websites are designed and developed, independent of
+        accessibility. So, in this section, let's think about how this change will impact our ability to bake
+        accessibility in, and can we use AI to help us?
+    </p>
+    <p>
+        As accessibility advocates, we have long been pushing the need to shift left. By that, we mean paying attention
+        to accessibility right from the start of a project, when you are understanding the market potential, when you
+        are gathering the requirements, when you are understanding and evaluating risks, developing design, and
+        developing the code that implements those designs.
+        In a reactive approach to accessibility, which is too often what happens, the first attention to accessibility
+        comes when automated tools are run on an already implemented system. Even then they don't find all issues and
+        may not even find the most significant ones which can lead teams to prioritize poorly. So, with that reactive
+        approach, teams can be kind of overwhelmed with hundreds or even thousands of issues, kind of linked in their
+        process, and have difficulty tackling it and it makes accessibility seem much harder than it could be.
+
+    </p>
+    <p>
+        So, this morning's panel, we discussed ways AI can be used in testing to help find accessibility problems. Ai is
+        also already being used earlier in the process by designers and developers. In development, for example, GitHub
+        Copilot as an AI model that makes code completion predictions. GitHub claims in files where it is turned on,
+        nearly 40% of code is being written by GitHub Copilot in popular coding languages. There are also systems that
+        generate code from design wireframes or from high resolution mockups, or even from text prompts. So, it is
+        incumbent on us to ask, what data are those systems trained on. In the case of Copilot, it is trained on GitHub
+        open source project code.
+        So, what is the probability that this existing code is accessible? We know that we still have a lot of work to
+        do to make Digital Accessibility the norm on the web. Today is the exception. And many of you probably know
+        WebAIM does an annual survey of the top million website Home Pages. It runs an automated tool and imports the
+        issues that it found. Almost 97% of their million pages had accessibility issues. And that is only the
+        automatically detectable ones. They found an average of 50 issues per page, and they also found that page
+        complexity is growing significantly. Over 80% of the pages they looked at had low contrast text issues.
+        More than half had alternative text missing for images. Almost half had missing form labels. So, even though
+        these are issues, they're easy to find with the automated tools we have today, these are still not being
+        addressed. These are very basic accessibility issues and they are everywhere. Though we know what this means
+        from AI models learning from today's web.
+
+    </p>
+    <p>
+        Here is an example of how this might be playing out already. So, code snippets are one off the most common
+        things that developers search for. A Large Language Model can come up with pretty decent code snippets and it is
+        a game changer for developers and is already happening. Let's say a developer is new to Flutter, the new
+        Google's open source mobile app development platform. They want to create a button labeled with an icon known as
+        an icon button.
+        On the slide is the code that ChatGPT produced when asked for a Flutter code for an icon button. Along with the
+        code snippet, it is also provided some explanation and it even links to the documentation page, so it is pretty
+        useful. The code it gave for an icon button includes a reference to what icon to use, and a function to execute
+        when the button is pressed.
+        There is really just one important difference between the example generated by ChatGPT, and the example given in
+        the Flutter documentation. The ChatGPT didn't include a tool tip, which means there is no text label associated
+        with this button. That is an accessibility problem. Let's give it credit, ChatGPT did mention that it is
+        possible to add a tooltip, but developers look first at the code example. If it is not in the example, it is
+        easily missed. But in the training data here, it seems the tooltip was not present enough of the time for it to
+        surface as an essential component of an icon button.
+
+    </p>
+    <p>
+        So, there are a lot of example code available online, but how much of that code demonstrates accessible coding
+        practices given the state of Web Accessibility, it is likely the answer is not much.
+        So, our AI models are not going to learn to generate accessible code. It is really just like the societal bias
+        of the past being entrenched in training sets of today. The past lack of accessibility could be propagated into
+        the future. So, here we have an opportunity, and a potential risk.
+        AI can help to write accessible code, but it needs to be trained on accessible code, or augmented with the tools
+        that can correct accessibility issues. And I think that is important to point out, as well, I deliberately used
+        an example in a framework, rather than an HTML example, because that is what developers are writing in these
+        days.
+        They are not writing raw HTML. They are writing frameworks, and there are many, many different frameworks, each
+        with their own levels of accessibility, and ways to incorporate accessibility.
+
+    </p>
+    <p>
+        So, one thing is that the theme of this morning about data being really essential comes up here again. Do we
+        have training data to train a code prediction model, perhaps with transfer learning to generate more accessible
+        code. Do we have test settings, even, that we can test code generation for its ability to produce accessible
+        code.
+        So, when we are developing datasets for other training or testing, we have to think in terms of the diversity of
+        frameworks and methods that developers are actually working with, if we want to catch those issues at the point
+        of creation.
+        Again, where AI is generating code for a whole user interface based on a visual design, we need to be thinking
+        about what semantics should that design tool capture to support the generation of code with the right structure,
+        the right roles for each area, kind of the basic fundamentals of accessibility.
+
+    </p>
+    <p>
+        So, um, a final call to action for the community here is to think about, what do we need to do here? Whether it
+        is advocacy, awareness raising, research, data gathering, standards, or refining models to write accessible
+        code. This technology is still really young. It has a lot of room for improvement. This is a perfect time for us
+        to define how accessibility should be built in, and to experiment with different ways.
+        And, you know, in my opinion, this, perhaps more than anything, is the trend we need to get in front of as an
+        accessibility community, before the poorer practices of the past are entrenched in the automated code generators
+        of the future. AI is already shifting left, we must make sure accessibility goes with it.
+    </p>
+    <p>
+        So, to summarize, we can broaden access to Assistive AI through personalization. To get the benefits of AI based
+        empowerment to all users, we should make sure that AI integration with authoring tools and processes is applied
+        where it can, to make it easier to meet accessibility standards and improve the overall standard. Born
+        accessible is still our goal and AI can help us get there if we steer it right. As a community we have a lot of
+        work to do, but I am really excited about the potential here.
+    </p>
+    <p>
+        So, thank you all for listening. Thanks to my Google colleagues and IBM Accessibility team, also, for the
+        feedback and ideas and great conversations.
+        Now I want to invite Jutta to join. Let's have a conversation.
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Thank you, Shari. I really, really appreciate your coverage of authoring and the prevention of barriers and the emphasis on timely proactive measures. There may be an opportunity actually to re-look at authoring environments, et cetera, within W3C.
+    </p>
+    <p>
+        >> SHARI TREWIN: Yes, just to respond to that really quickly. I do wonder, like, should we be focusing on evaluating frameworks more than evaluating individual pages? You know? I think we would get more bang for our buck if that was where we paid attention.
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Yes. Exactly. The opportunity to, and especially as these tools are now also assisting authors, which was part of what the authoring standards were looking at prompting, providing the necessary supports, and making it possible for individuals with disabilities to also become authors of code and to produce code.
+        So, the greater participation of the community, I think, will create some of that culture shift. So, thank you very much for covering this.
+        
+    </p>
+    <p>
+        So, in terms of the questions that we were going to talk about, you had suggested that we might start with one of the thorny questions asked yesterday that we didn't get time to respond to. So, the question was:  Do you think that AI and big companies such as Google and Meta driving research in AI can be problematic with respect to social, societal issues, which don't necessarily garner the highest revenue? And, if so, how do you think we can approach this?
+    </p>
+    <p>
+        >> SHARI TREWIN: Yes. Thank you, Jutta and thank you to the person who asked that question, too. You know, it is true that company goals and society can pull in different directions. I do think there are benefits to having big companies working on these core models, because they often have better access to very large datasets that can, you know, bring breakthroughs that others can share in, that can help raise the tide to raise all votes, but advocacy and policy definitely have an important role to play in guiding the application of AI and the direction of AI research, the way it is applied.
+        Also, I wanted to say one approach here could be through initiatives like the speech accessibility project that I talked about. So, that is an example of big tech working together with advocacy groups and academia to create data that can be applied to many different research projects, and that is a model that we can try to replicate.
+        
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Do you think, you talked quite a bit about the opportunity for personalization. Of course, one of the biggest issues here is that large companies are looking for the largest population, the largest profit, which means the largest customer base, which tends to push them toward thinking about, not thinking about minorities, diversity, etc. But the training models and the personalization strategies that you have talked about are things that are emerging possibilities within large learning models. We have if opportunity to take what has already been done generally, and apply more personalized, smaller datasets, etc. Do you think there is a role for the large companies to prepare the ground, and then for the remaining issues to piggy back on that with the new training sets? Or, do you think even there we are going to have both cost and availability issues?
+    </p>
+    <p>
+        >> SHARI TREWIN: Well, yeah. I think that the model that you described is already happening in places like with the speech accessibility project. The ultimate goal would be to have one model that can handle more diverse datasets. And it takes a concerted effort to gather that data. But if the community gathered the data and it was possible to contribute that data, then that is another direction that we can influence the larger models that are depending on large data.
+        But personalization, I think will be very important for tackling some of that tail-end. So, personalization is not just an accessibility benefit. There are a lot of tail populations, small end populations, that add up to a large end for a lot of people.
+        The more the, I think that the big companies benefit greatly by exploring these smaller populations and learning how to adapt models to different populations, and then, as I mentioned, the ultimate goal would be to learn how to pull that back into a larger model without it being lost in the process.
+        
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Yes. We have the dilemma that the further you are from the larger model, the more you actually need to work to shift it in your direction. So, that is something I think that will need to be addressed whatever personalization happens. The people that need the personalization the most will have the greatest difficulty with the personalization.
+        Do you think there is any strategies that might be available for us to use to address that particular dilemma?
+        
+    </p>
+    <p>
+        >> SHARI TREWIN: Yeah. Yes. You are touching my heart with that question, because I really, that has been an ongoing problem in accessibility forever. Not just in the context of AI, but people who would benefit the most from personalization may be in a position that makes it hard to discover and activate even personalizations that are already available.
+        So, one approach I think that works in some context is dynamic adaptation. Where, instead of a person needing to adapt to a system, the system can effectively adapt to the person using it. I think that works in situations where the person doesn't need to behave any different to take advantage of that adaptation.
+        It doesn't work so well where there is maybe a specific input method that you might want to use that would be beneficial where you need to do something different.
+        So, for language models, maybe we can manage an uber language model that, first, recognized oh, this person's speech is closest to this sub model that I have learned.
+        And I am going to use that model for this person, and you can think of that in terms of...
+        
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Increasing the distance, yeah.
+    </p>
+    <p>
+        >> SHARI TREWIN: Yeah. So, that is one idea. What do you think?
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Yes. I am wondering if there is an opportunity, or if there ever will be taken an opportunity, to re-think just how we design, what design decisions we make, how we develop and bring the systems to market, such that there is the opportunity for greater the democratization or access to the tools, and that we don't begin with the notion of, let's design first for the majority, and then think about, I mean, this is an inflection point.
+        There is an opportunity for small datasets, zero shot training, et cetera, transfer, transformation transfer. Is this a time where we can have a strategic push to say, let's think about other ways of actually developing these tools and releasing these tools. Maybe that is a little too idealistic, I don't know what your thinking is there?
+        
+    </p>
+    <p>
+        >> SHARI TREWIN: Yes. I think especially if you are in a domain where you have identified that there is, you know, real risk and strong risk of bias, it should be part of the design process to include people who would be outliers, people who are going to test the boundaries of what your solution can do, people that are going to help you understand the problems that it might introduce.
+        So, it is what should happen, I think, in design, in any system. But especially if you are baking in AI, you need to think about the risks that you might be introducing, and you can't really think about that without having the right people involved.
+        
+    </p>
+    <p>
+        Somebody yesterday, I think, mentioned something about teaching designers and developers more about accessibility and I think that is a really important point, too. That building diverse teams is really important. Getting more diversity into computer science is really important. But teaching the people who are already there, building things, is also important.
+        I don't meet very many people who say, oh, I don't care about accessibility. It is not important. It is more that it is still too difficult to do. And that is one place when I think AI can really, really help in some of the tools that people have talked about today. The examples of, where, if we can make it easy enough and lower that barrier, and take the opportunity of these creation points to teach people, as well, about accessibility. So, not always to fix everything for them, but to fix things with them so that they can learn going forward and grow. I think that is a really exciting area.
+        
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: And a great way to support born accessible, accessible by default with respect to what is the tools used to create it.
+        You contributed some questions that you would love to discuss. And one of the first ones is:  Is AI's role mostly considered as improving Assistive Technology and Digital Accessibility in general? Of course, this gets to the idea of not creating a segregated set of innovations that specifically address People with Disabilities, but also making sure that the innovations that are brought about by addressing the needs of people whose needs, well, who face barriers, can benefit the population at large.
+        So, what do you think? What is the future direction?
+        
+    </p>
+    <p>
+        >> SHARI TREWIN: Yeah. This was a question that came from an attendee that they put into the registration process. I do think it is really important to view AI as a tool for Digital Accessibility in general, and not to just think about the end user applications. Although those personal AI technologies are really important, and they are life changing, and they can do things that aren't achievable in any other way.
+        But AI is already a part of the development process, and accessibility needs to be part of that, and we have so many challenges to solve there. I think it is an area that we need to pay more attention to. So, not just applying AI to detect accessibility problems, but engaging those mainstream development tools to make sure that accessibility is considered.
+        
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: One sort of associated piece to this that came to mind, and I am going to take the privilege of being the person asking the questions, I mean, the focus of most of AI innovation has been on replicating and potentially replacing human intelligence, as opposed to augmenting, or thinking about other forms of intelligence.
+        I wonder whether the, I mean, our experiences in Assistive Technology, and how technology can become an accompaniment or an augmentation, rather than a replacement, might have some insights to give in this improvement of digital inclusion?
+        
+    </p>
+    <p>
+        >> SHARI TREWIN: Yeah. I think you are absolutely right. It is human AI cooperation and collaboration that is going to get us the best results. The language models that we have, the promise that they have, to be more interactive, dialogue like interactions, are heading in a direction that are going to support much more natural human AI dialogue. And accessibility is such a complex topic, where it is not always obvious what I am trying to convey with this image. How important is this thing.
+        It is not necessarily easy to decide what exactly is the correct alternatives for something, or there is plenty of other examples where the combination of an AI that has been trained on some of the general principles of good accessibility practice, and a person who may not be as familiar, but really understands the domain and the context of this particular application, it is when you put those two things together that things are going to start to work, so the AI can support the person, not replace the person.
+        
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: And, of course, the one issue that we need to, thorny issue, that we need to overcome with respect to AI is the challenge of addressing more qualitative, non-quantitative values and ideas, etc. So, it will be interesting to see what happens there.
+    </p>
+    <p>
+        >> SHARI TREWIN: Yes. Yes. Yeliz had a very good suggestion this morning, perhaps we should pay attention to how people are making these judgments. How do accessibility experts make these judgments? What are the principles and can we articulate those better than we do now, and communicate those better to designers.
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Right. This notion of thick data, which includes the context. Because frequently we isolate the data from the actual context. And many of these things are very contextually bound, so, do you see that there might be a reinvestigation of where the data came from, what the context of the data was, et cetera?
+    </p>
+    <p>
+        >> SHARI TREWIN: I think there may be a rise in methods that bring in the whole context, bring in more on the context, multimodal inputs. Even for speech recognition. It is doing what it does without even really knowing the domain that it is working in. And that is pretty mind blowing, really.
+        But when it breaks down is when there are technical terms, when you are talking about a domain that is less frequently talked about, less represented. And bringing in that domain knowledge, I think is going to be huge, and, similarly, in terms of hoping to create text alternatives for things, the domain knowledge will help to get a better kind of base suggestion from the AI.
+        Perhaps with dialogue, we can prompt people with the right questions to help them decide, is this actually a decorative image, or is it important for me to describe what is in this image? That is not always a trivial question to answer, actually.
+        
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Right. That brings in the issue of classification and labeling, and the need to box or classify specific things. And many of these things are very fuzzy context, and classifiers are also determined hierarchically and maybe there is...
+    </p>
+    <p>
+        >> SHARI TREWIN: Yes. Maybe we don't need a perfect classifier, but we need a good dialogue where the system knows what questions to ask to help the person decide.
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Right. And, oh, I just saw a message from Carlos saying we are only down to a few more minutes. Can we fit in one more question?
+    </p>
+    <p>
+        >> SHARI TREWIN: I actually have to stop at the top of the hour.
+    </p>
+    <p>
+        >> JUTTA TREVIRANUS: Oh, okay. We will have an opportunity to answer the questions that people have submitted in the question and answer dialogue, and we have access to those, so Shari will be able to respond to some of these additional questions that have been asked. Apologies that we went a little over time, Carlos. I will turn it back over to you.
+    </p>
+    <p>
+        >> CARLOS DUARTE: No. Thank you so much. And thank you, Shari, for the keynote presentation. Thank you Shari and Jutta, I was loving this discussion. It is really unfortunate that we have to stop now. But, thank you so much for your presentations. Thank you, also, to all the panelists yesterday and today for making this a great symposium. Lots of interesting and thought provoking ideas.
+    </p>
+    <p>
+        And, thank you all for attending. We are at the top of the hour, so we are going to have to close. Let me just, a final ask from me. When you exit this Zoom meeting, you will receive a request for completing a survey, so if you can take a couple of minutes from your time to complete it, it will be important information for us to make these kinds of events better in the future.
+    </p>
+    <p>
+        Okay. Thank you so much, and see you in the next opportunity.
+    </p>
+</body>
+
+</html>

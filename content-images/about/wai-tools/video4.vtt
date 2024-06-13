@@ -1,0 +1,1963 @@
+WEBVTT
+
+00:00:00.400 --> 00:00:02.833 align:middle line:79% position:50% size:70%
+&gt;&gt; SHADI ABOU-ZAHRA: For the
+reporting support tools, I
+
+00:00:02.899 --> 00:00:05.133 align:middle line:79% position:50% size:55%
+would like to call
+Eric Velleman from the
+
+00:00:05.200 --> 00:00:08.566 align:middle line:79% position:50% size:68%
+Accessibility Foundation to
+come to the virtual stage.
+
+00:00:08.633 --> 00:00:12.166 align:middle line:79% position:50% size:55%
+Eric, please introduce
+yourself and take it
+
+00:00:12.233 --> 00:00:14.733 align:middle line:85% position:50% size:38%
+away from here.
+
+00:00:14.800 --> 00:00:16.199 align:middle line:79% position:50% size:58%
+&gt;&gt; ERIC VELLEMAN: Okay.
+So, hi.
+
+00:00:16.266 --> 00:00:18.266 align:middle line:85% position:50% size:45%
+I'm Eric Velleman.
+
+00:00:18.333 --> 00:00:25.000 align:middle line:79% position:50% size:63%
+And let me first start up
+here on my desktop here.
+
+00:00:25.066 --> 00:00:27.566 align:middle line:85% position:50% size:68%
+So I hope you all see this.
+
+00:00:27.633 --> 00:00:32.633 align:middle line:85% position:50% size:45%
+That should be it.
+
+00:00:35.766 --> 00:00:36.666 align:middle line:85% position:50% size:53%
+So I'm Eric Velleman.
+
+00:00:36.733 --> 00:00:40.033 align:middle line:79% position:50% size:70%
+I'm from the -- I work at
+the Accessibility Foundation
+
+00:00:40.100 --> 00:00:41.766 align:middle line:85% position:50% size:48%
+in the Netherlands.
+
+00:00:41.833 --> 00:00:46.433 align:middle line:79% position:50% size:50%
+We worked on the ACT
+Rules and on the
+
+00:00:46.500 --> 00:00:48.233 align:middle line:85% position:50% size:60%
+reporting support tools.
+
+00:00:48.299 --> 00:00:50.399 align:middle line:79% position:50% size:53%
+So I'll be presenting
+the two tools that we
+
+00:00:50.466 --> 00:00:53.633 align:middle line:85% position:50% size:48%
+worked on recently.
+
+00:00:53.700 --> 00:00:56.600 align:middle line:79% position:50% size:53%
+Both tools are
+undergoing an update.
+
+00:00:56.666 --> 00:00:59.700 align:middle line:79% position:50% size:73%
+And in this short -- the two
+short presentations that will
+
+00:00:59.766 --> 00:01:03.700 align:middle line:79% position:50% size:63%
+follow now, I'll show you
+what the updated tools
+
+00:01:03.766 --> 00:01:05.200 align:middle line:85% position:50% size:38%
+will look like.
+
+00:01:05.266 --> 00:01:08.266 align:middle line:79% position:50% size:65%
+And probably -- and I hope
+you can see them soon
+
+00:01:08.333 --> 00:01:12.400 align:middle line:85% position:50% size:48%
+on the W3C website.
+
+00:01:12.466 --> 00:01:13.700 align:middle line:85% position:50% size:13%
+Okay.
+
+00:01:13.766 --> 00:01:19.166 align:middle line:79% position:50% size:50%
+So first the
+WCAG-EM Report Tool.
+
+00:01:19.233 --> 00:01:23.033 align:middle line:79% position:50% size:60%
+So it used to be the --
+does everybody see this?
+
+00:01:26.166 --> 00:01:28.400 align:middle line:79% position:50% size:65%
+&gt;&gt; SHADI ABOU-ZAHRA: Yeah,
+we see your screen, Eric.
+
+00:01:28.466 --> 00:01:29.700 align:middle line:79% position:50% size:43%
+&gt;&gt; ERIC VELLEMAN:
+Okay. Good.
+
+00:01:29.766 --> 00:01:33.766 align:middle line:79% position:50% size:68%
+So it used to be this left
+thing here, which is if you
+
+00:01:33.833 --> 00:01:37.033 align:middle line:79% position:50% size:70%
+still go to the website, you
+will still see this one.
+
+00:01:37.099 --> 00:01:40.299 align:middle line:79% position:50% size:65%
+And in the meantime, we've
+been working on this one,
+
+00:01:40.366 --> 00:01:41.466 align:middle line:85% position:50% size:53%
+the one on the right.
+
+00:01:41.533 --> 00:01:43.099 align:middle line:85% position:50% size:70%
+So it's the updated version.
+
+00:01:43.166 --> 00:01:49.233 align:middle line:79% position:50% size:73%
+And to get an overview, it
+can be found at w3.org/WAI --
+
+00:01:49.299 --> 00:01:55.133 align:middle line:79% position:50% size:73%
+W-A-I -- /eval/reports -- how
+do you call that small line
+
+00:01:55.200 --> 00:01:59.000 align:middle line:85% position:50% size:55%
+tool -- forward slash.
+
+00:01:59.066 --> 00:02:05.599 align:middle line:79% position:50% size:70%
+And what we did is we follow
+the procedure to evaluate
+
+00:02:05.666 --> 00:02:08.233 align:middle line:79% position:50% size:38%
+websites in the
+reporting tool.
+
+00:02:08.300 --> 00:02:11.866 align:middle line:79% position:50% size:70%
+It helps you generate a
+report according to WCAG-EM.
+
+00:02:11.933 --> 00:02:14.199 align:middle line:79% position:50% size:43%
+It supports and
+links to relevant
+
+00:02:14.266 --> 00:02:16.266 align:middle line:85% position:50% size:55%
+information and tools.
+
+00:02:16.333 --> 00:02:18.933 align:middle line:79% position:50% size:58%
+It aligns with the WCAG
+conformant claims.
+
+00:02:19.000 --> 00:02:22.199 align:middle line:79% position:50% size:50%
+And it supports WCAG
+2.0 and WCAG 2.1.
+
+00:02:22.266 --> 00:02:27.199 align:middle line:85% position:50% size:75%
+It doesn't support WCAG 3 yet.
+
+00:02:27.266 --> 00:02:30.566 align:middle line:79% position:50% size:68%
+And it can also show the
+difference between the two.
+
+00:02:30.633 --> 00:02:34.000 align:middle line:79% position:50% size:63%
+So if you had a previous
+one in WCAG -- a previous
+
+00:02:34.066 --> 00:02:41.599 align:middle line:79% position:50% size:75%
+evaluation in WCAG 2.0, you
+can just add -- just only show
+
+00:02:41.666 --> 00:02:44.866 align:middle line:85% position:50% size:75%
+the WCAG 2.1 success criteria.
+
+00:02:44.933 --> 00:02:47.900 align:middle line:79% position:50% size:65%
+It is a manual tool, so it
+doesn't do any automated
+
+00:02:47.966 --> 00:02:51.666 align:middle line:79% position:50% size:73%
+checks by itself, but it does
+have the possibility, the new
+
+00:02:51.733 --> 00:02:54.466 align:middle line:79% position:50% size:45%
+version, to import
+automated checks.
+
+00:02:54.533 --> 00:03:00.866 align:middle line:79% position:50% size:70%
+So if you use Axe or Alfa by
+Siteimprove, you can import
+
+00:03:00.933 --> 00:03:05.733 align:middle line:79% position:50% size:63%
+the results as long as
+they comply with the JSON
+
+00:03:05.800 --> 00:03:07.833 align:middle line:85% position:50% size:60%
+standard for the import.
+
+00:03:07.900 --> 00:03:10.566 align:middle line:79% position:50% size:75%
+It has the possibility to open
+and save input, so you can
+
+00:03:10.633 --> 00:03:11.566 align:middle line:85% position:50% size:43%
+exchange results.
+
+00:03:11.633 --> 00:03:14.599 align:middle line:79% position:50% size:68%
+So at the end of an
+evaluation, you can sort of
+
+00:03:14.666 --> 00:03:18.599 align:middle line:79% position:50% size:73%
+save your evaluation, send it
+to a friend, and the friend
+
+00:03:18.666 --> 00:03:21.699 align:middle line:79% position:50% size:73%
+can import the evaluation and
+continue with it or check it
+
+00:03:21.766 --> 00:03:26.599 align:middle line:79% position:50% size:75%
+and send it back to you or --
+well, in this way you can work
+
+00:03:26.666 --> 00:03:31.866 align:middle line:79% position:50% size:65%
+with multiple people on an
+evaluation as long as you
+
+00:03:31.933 --> 00:03:34.766 align:middle line:79% position:50% size:43%
+don't work on it
+at the same time.
+
+00:03:34.833 --> 00:03:37.300 align:middle line:79% position:50% size:68%
+It supports and links to
+relevant information tools.
+
+00:03:37.366 --> 00:03:39.099 align:middle line:79% position:50% size:55%
+I think I said that
+in the previous slide.
+
+00:03:39.166 --> 00:03:41.633 align:middle line:85% position:50% size:75%
+It's an easy translation file.
+
+00:03:41.699 --> 00:03:46.733 align:middle line:79% position:50% size:73%
+So it used to be rather
+complex to translate, but now
+
+00:03:46.800 --> 00:03:50.433 align:middle line:79% position:50% size:55%
+it's -- it has an easy
+translation file, so
+
+00:03:50.500 --> 00:03:51.599 align:middle line:85% position:50% size:48%
+that makes it easy.
+
+00:03:51.666 --> 00:03:52.800 align:middle line:85% position:50% size:63%
+There is an English file.
+
+00:03:52.866 --> 00:03:55.833 align:middle line:79% position:50% size:68%
+If you translate everything
+that is in English to your
+
+00:03:55.900 --> 00:03:59.033 align:middle line:79% position:50% size:73%
+language, you will have your
+own language file or your own
+
+00:03:59.099 --> 00:04:02.533 align:middle line:79% position:50% size:48%
+language version of
+the reporting tool.
+
+00:04:02.599 --> 00:04:05.699 align:middle line:79% position:50% size:70%
+It has changed the new WAI
+design and framework, and it
+
+00:04:05.766 --> 00:04:08.166 align:middle line:79% position:50% size:63%
+has the possibility of
+importing data from tools
+
+00:04:08.233 --> 00:04:11.199 align:middle line:85% position:50% size:55%
+using the EARL format.
+
+00:04:11.266 --> 00:04:17.899 align:middle line:79% position:50% size:45%
+So now let's shift
+to the live demo.
+
+00:04:17.966 --> 00:04:20.733 align:middle line:85% position:50% size:55%
+It should be this one.
+
+00:04:20.800 --> 00:04:21.766 align:middle line:85% position:50% size:13%
+Yeah.
+
+00:04:21.833 --> 00:04:23.899 align:middle line:79% position:50% size:68%
+So this is the live demo of
+the tool that is currently
+
+00:04:23.966 --> 00:04:27.166 align:middle line:85% position:50% size:40%
+still on GitHub.
+
+00:04:27.233 --> 00:04:30.699 align:middle line:79% position:50% size:75%
+And we are working on it, so
+you will see that you have the
+
+00:04:30.766 --> 00:04:32.566 align:middle line:85% position:50% size:58%
+same walk-through here.
+
+00:04:32.633 --> 00:04:36.433 align:middle line:79% position:50% size:58%
+So the Overview, Scope,
+Explore, Sample, Audit,
+
+00:04:36.500 --> 00:04:40.266 align:middle line:79% position:50% size:60%
+Summary, and View Report
+are the menu items.
+
+00:04:40.333 --> 00:04:43.266 align:middle line:79% position:50% size:48%
+And it explains you
+how the tool works.
+
+00:04:43.333 --> 00:04:45.633 align:middle line:85% position:50% size:68%
+It gives tips for using it.
+
+00:04:45.699 --> 00:04:49.699 align:middle line:79% position:50% size:73%
+If you go to it, at the right
+there's sort of a menu bar.
+
+00:04:49.766 --> 00:04:53.566 align:middle line:79% position:50% size:70%
+You can view the reports,
+start a new evaluation, open
+
+00:04:53.633 --> 00:04:57.000 align:middle line:79% position:50% size:63%
+an evaluation from a JSON
+file, or import data from
+
+00:04:57.066 --> 00:05:01.366 align:middle line:85% position:50% size:68%
+automated evaluation tools.
+
+00:05:01.433 --> 00:05:05.199 align:middle line:79% position:50% size:75%
+So to start a new evaluation,
+you just click the button, and
+
+00:05:05.266 --> 00:05:07.333 align:middle line:79% position:50% size:45%
+then you go to the
+first page, Scope.
+
+00:05:07.399 --> 00:05:10.266 align:middle line:79% position:50% size:73%
+Well, here you can -- this is
+not really different from the
+
+00:05:10.333 --> 00:05:16.033 align:middle line:79% position:50% size:73%
+previous version, only that
+it also has a WCAG 2.1 and it
+
+00:05:16.100 --> 00:05:19.399 align:middle line:85% position:50% size:48%
+works a bit better.
+
+00:05:19.466 --> 00:05:23.766 align:middle line:79% position:50% size:75%
+It has all the parts that were
+in the previous tools except,
+
+00:05:23.833 --> 00:05:26.166 align:middle line:79% position:50% size:48%
+of course, the nice
+part is this one.
+
+00:05:26.233 --> 00:05:28.399 align:middle line:79% position:50% size:55%
+I should show you the
+translation file here.
+
+00:05:28.466 --> 00:05:30.699 align:middle line:85% position:50% size:73%
+So I should push Netherlands.
+
+00:05:30.766 --> 00:05:34.366 align:middle line:79% position:50% size:75%
+You'll get the Netherlands
+version of the tool, which is,
+
+00:05:34.433 --> 00:05:36.833 align:middle line:85% position:50% size:43%
+of course, great.
+
+00:05:36.899 --> 00:05:39.899 align:middle line:79% position:50% size:73%
+If you want your language
+there, you just translate the
+
+00:05:39.966 --> 00:05:45.000 align:middle line:79% position:50% size:75%
+file, and ask somebody at W3C
+to put it in the right folder.
+
+00:05:45.066 --> 00:05:49.433 align:middle line:79% position:50% size:73%
+And then all of a sudden, you
+will have your own language
+
+00:05:49.500 --> 00:05:54.000 align:middle line:79% position:50% size:70%
+web accessibility evaluation
+report tool generator.
+
+00:05:54.066 --> 00:05:57.600 align:middle line:85% position:50% size:43%
+Here, the sample.
+
+00:05:57.666 --> 00:06:01.633 align:middle line:79% position:50% size:70%
+You can audit the selected
+sample, which is, like, here
+
+00:06:01.699 --> 00:06:04.500 align:middle line:85% position:50% size:43%
+with perceivable.
+
+00:06:04.566 --> 00:06:09.333 align:middle line:79% position:50% size:70%
+You can sort of declare
+something as passed, failed,
+
+00:06:09.399 --> 00:06:13.966 align:middle line:79% position:50% size:70%
+cannot tell, not present, or
+not checked, et cetera, for
+
+00:06:14.033 --> 00:06:17.233 align:middle line:79% position:50% size:53%
+all the guidelines
+and success criteria.
+
+00:06:17.300 --> 00:06:21.399 align:middle line:79% position:50% size:73%
+You can add information for a
+summary, like the name of the
+
+00:06:21.466 --> 00:06:24.800 align:middle line:79% position:50% size:63%
+evaluator, the evaluation
+commissioner, the date,
+
+00:06:24.866 --> 00:06:27.266 align:middle line:85% position:50% size:45%
+executive summary.
+
+00:06:27.333 --> 00:06:30.399 align:middle line:79% position:50% size:65%
+And then, finally, you can
+sort of view the report.
+
+00:06:30.466 --> 00:06:32.100 align:middle line:85% position:50% size:70%
+Multiple buttons to do that.
+
+00:06:32.166 --> 00:06:34.833 align:middle line:79% position:50% size:70%
+And it will generate the
+complete report with all the
+
+00:06:34.899 --> 00:06:38.600 align:middle line:79% position:50% size:65%
+things that you just input
+in the previous pages.
+
+00:06:38.666 --> 00:06:40.600 align:middle line:79% position:50% size:58%
+And on this page is the
+interesting button.
+
+00:06:40.666 --> 00:06:44.100 align:middle line:79% position:50% size:50%
+Save the evaluation
+data as a JSON file.
+
+00:06:44.166 --> 00:06:49.000 align:middle line:79% position:50% size:75%
+So if you click it, you'll see
+here at the bottom it saves
+
+00:06:49.066 --> 00:06:51.433 align:middle line:85% position:50% size:48%
+an evaluation.json.
+
+00:06:51.500 --> 00:06:53.966 align:middle line:79% position:50% size:68%
+And if you go to the first
+page, you can then open the
+
+00:06:54.033 --> 00:06:56.133 align:middle line:85% position:50% size:53%
+evaluation from JSON.
+
+00:06:56.199 --> 00:06:58.766 align:middle line:79% position:50% size:70%
+I won't do that here because
+you'll see all the documents
+
+00:06:58.833 --> 00:07:03.000 align:middle line:79% position:50% size:48%
+on my computer, but
+trust me, it works.
+
+00:07:03.066 --> 00:07:05.366 align:middle line:79% position:50% size:50%
+That's the website
+accessibility report
+
+00:07:05.433 --> 00:07:09.566 align:middle line:85% position:50% size:38%
+generator live.
+
+00:07:09.633 --> 00:07:14.233 align:middle line:79% position:50% size:45%
+But, once again,
+great translation.
+
+00:07:14.300 --> 00:07:15.566 align:middle line:79% position:50% size:60%
+&gt;&gt; SHADI ABOU-ZAHRA:
+So you just changed from
+
+00:07:15.633 --> 00:07:16.633 align:middle line:85% position:50% size:43%
+English to Dutch.
+
+00:07:16.699 --> 00:07:18.699 align:middle line:85% position:50% size:40%
+Thank you, Eric.
+
+00:07:18.766 --> 00:07:23.033 align:middle line:79% position:50% size:73%
+So there are already a couple
+of questions and just some
+
+00:07:23.100 --> 00:07:27.699 align:middle line:85% position:50% size:75%
+additional visual description.
+
+00:07:27.766 --> 00:07:30.533 align:middle line:79% position:50% size:55%
+So this is not the
+final design of how it
+
+00:07:30.600 --> 00:07:32.399 align:middle line:85% position:50% size:38%
+will look like.
+
+00:07:32.466 --> 00:07:37.366 align:middle line:79% position:50% size:65%
+It's the kind of tool
+Eric had read out the URL.
+
+00:07:37.433 --> 00:07:41.433 align:middle line:79% position:50% size:75%
+And you can find that URL also
+from the project page and from
+
+00:07:41.500 --> 00:07:44.500 align:middle line:85% position:50% size:70%
+the agenda, the report tool.
+
+00:07:44.566 --> 00:07:48.800 align:middle line:79% position:50% size:70%
+We're updating it primarily
+to support translations more
+
+00:07:48.866 --> 00:07:53.133 align:middle line:79% position:50% size:60%
+easily, but also to put
+it in the new WAI style.
+
+00:07:53.199 --> 00:07:56.300 align:middle line:79% position:50% size:73%
+Many things here is not going
+to be the final way it looks.
+
+00:07:56.366 --> 00:07:58.933 align:middle line:85% position:50% size:75%
+It's still a work in progress.
+
+00:07:59.000 --> 00:08:07.633 align:middle line:85% position:50% size:53%
+And so, yeah -- yeah.
+
+00:08:07.699 --> 00:08:14.033 align:middle line:79% position:50% size:73%
+There's several questions,
+Eric, that -- if you can stop
+
+00:08:14.100 --> 00:08:16.733 align:middle line:79% position:50% size:53%
+moving around because
+it's distracting me.
+
+00:08:18.033 --> 00:08:20.800 align:middle line:85% position:50% size:60%
+&gt;&gt; ERIC VELLEMAN: Sorry.
+
+00:08:20.866 --> 00:08:23.000 align:middle line:79% position:50% size:68%
+&gt;&gt; SHADI ABOU-ZAHRA: Moving
+content is distracting.
+
+00:08:23.066 --> 00:08:24.533 align:middle line:85% position:50% size:70%
+&gt;&gt; ERIC VELLEMAN: Oh, sorry.
+
+00:08:24.600 --> 00:08:25.466 align:middle line:85% position:50% size:68%
+&gt;&gt; SHADI ABOUT-ZAHRA: Yeah.
+
+00:08:25.533 --> 00:08:28.300 align:middle line:79% position:50% size:68%
+So can you clarify the
+difference between open and
+
+00:08:28.366 --> 00:08:29.899 align:middle line:85% position:50% size:38%
+importing data?
+
+00:08:29.966 --> 00:08:36.299 align:middle line:79% position:50% size:65%
+&gt;&gt; ERIC VELLEMAN: Yeah.
+So open is to open a file.
+
+00:08:36.366 --> 00:08:40.299 align:middle line:79% position:50% size:73%
+So I just showed you at the
+end of the evaluation you can
+
+00:08:40.366 --> 00:08:48.299 align:middle line:79% position:50% size:68%
+save your evaluation report
+in the form of a JSON file.
+
+00:08:48.366 --> 00:08:50.466 align:middle line:79% position:50% size:53%
+And somebody else
+can open your report.
+
+00:08:50.533 --> 00:08:54.000 align:middle line:79% position:50% size:45%
+So an import, that
+is to import data
+
+00:08:54.066 --> 00:08:55.233 align:middle line:85% position:50% size:53%
+from automated tools.
+
+00:08:55.299 --> 00:08:58.533 align:middle line:85% position:50% size:65%
+So like Axe, for instance.
+
+00:08:58.600 --> 00:09:05.333 align:middle line:79% position:50% size:70%
+So you can use a tool to
+evaluate a website, and then
+
+00:09:05.399 --> 00:09:10.399 align:middle line:79% position:50% size:60%
+the evaluation results
+can be imported into the
+
+00:09:10.466 --> 00:09:13.566 align:middle line:85% position:50% size:50%
+WCAG-EM Report Tool.
+
+00:09:13.633 --> 00:09:18.066 align:middle line:79% position:50% size:73%
+The small angle there is that
+the only thing that will be
+
+00:09:18.133 --> 00:09:24.100 align:middle line:79% position:50% size:70%
+imported currently are the
+URLs that are in the sample.
+
+00:09:24.166 --> 00:09:27.100 align:middle line:79% position:50% size:75%
+So it will choose from all the
+URLs that you have checked
+
+00:09:27.166 --> 00:09:28.333 align:middle line:85% position:50% size:63%
+with the automated tools.
+
+00:09:28.399 --> 00:09:32.466 align:middle line:79% position:50% size:73%
+It will only use the results
+of the pages that are in your
+
+00:09:32.533 --> 00:09:36.899 align:middle line:85% position:50% size:53%
+sample at the moment.
+
+00:09:36.966 --> 00:09:38.266 align:middle line:79% position:50% size:53%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Excellent. Thank you.
+
+00:09:38.333 --> 00:09:42.466 align:middle line:79% position:50% size:70%
+And then some more technical
+questions regarding the
+
+00:09:42.533 --> 00:09:45.166 align:middle line:85% position:50% size:40%
+underlying data.
+
+00:09:45.233 --> 00:09:46.433 align:middle line:85% position:50% size:55%
+Somebody is concerned.
+
+00:09:46.500 --> 00:09:50.000 align:middle line:79% position:50% size:63%
+The underlying JSON data,
+will it stay the same
+
+00:09:50.066 --> 00:09:52.066 align:middle line:85% position:50% size:48%
+in the new version?
+
+00:09:53.066 --> 00:09:55.299 align:middle line:79% position:50% size:58%
+&gt;&gt; ERIC VELLEMAN:
+Yeah, as far as I know.
+
+00:09:55.366 --> 00:09:57.399 align:middle line:79% position:50% size:43%
+You know, I'm not
+sure about that.
+
+00:09:57.466 --> 00:10:00.666 align:middle line:79% position:50% size:70%
+So you mean if you have JSON
+data from the previous tool?
+
+00:10:00.733 --> 00:10:02.399 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Yeah. No.
+
+00:10:02.466 --> 00:10:06.899 align:middle line:79% position:50% size:58%
+The reports you have
+so far will stay valid.
+
+00:10:06.966 --> 00:10:10.500 align:middle line:79% position:50% size:70%
+So, yeah, so the
+functionality, the importing
+
+00:10:10.566 --> 00:10:14.899 align:middle line:79% position:50% size:75%
+and the opening and closing
+will be the same, and the JSON
+
+00:10:14.966 --> 00:10:18.866 align:middle line:85% position:50% size:73%
+format will remain unchanged.
+
+00:10:18.933 --> 00:10:20.333 align:middle line:85% position:50% size:13%
+Okay.
+
+00:10:20.399 --> 00:10:25.366 align:middle line:79% position:50% size:65%
+Another question that came
+also in the -- similar
+
+00:10:25.433 --> 00:10:28.433 align:middle line:79% position:50% size:43%
+question was on
+the registration.
+
+00:10:28.500 --> 00:10:33.799 align:middle line:79% position:50% size:75%
+Can you export -- so we can
+now export an HTML and in JSON
+
+00:10:33.866 --> 00:10:36.700 align:middle line:85% position:50% size:70%
+format for machine readable.
+
+00:10:36.766 --> 00:10:39.933 align:middle line:79% position:50% size:68%
+Are there other formats,
+for example, pdf or Word or
+
+00:10:40.000 --> 00:10:42.000 align:middle line:85% position:50% size:48%
+Excel or something?
+
+00:10:44.333 --> 00:10:45.566 align:middle line:85% position:50% size:63%
+&gt;&gt; ERIC VELLEMAN: No. No.
+
+00:10:45.633 --> 00:10:47.766 align:middle line:79% position:50% size:48%
+Just HTML as far
+as I know and JSON.
+
+00:10:47.833 --> 00:10:48.966 align:middle line:85% position:50% size:68%
+&gt;&gt; SHADI ABOU-ZAHRA: Right.
+
+00:10:49.033 --> 00:10:52.733 align:middle line:79% position:50% size:75%
+We do have GitHub where you
+can put wish list requirements
+
+00:10:52.799 --> 00:10:53.966 align:middle line:85% position:50% size:58%
+or you can open issues.
+
+00:10:54.033 --> 00:10:59.000 align:middle line:79% position:50% size:75%
+Also, if you find bugs, please
+do report these, and we will
+
+00:10:59.066 --> 00:11:03.533 align:middle line:79% position:50% size:63%
+-- yeah, we will see what
+we can do in the future.
+
+00:11:03.600 --> 00:11:08.200 align:middle line:79% position:50% size:70%
+But right now, yeah, we do
+not export to other formats.
+
+00:11:08.266 --> 00:11:10.833 align:middle line:79% position:50% size:73%
+There was a question: Can you
+show an example of importing
+
+00:11:10.899 --> 00:11:12.600 align:middle line:85% position:50% size:48%
+an Axe EARL report?
+
+00:11:12.666 --> 00:11:14.600 align:middle line:79% position:50% size:68%
+So this was about reporting
+from -- importing from
+
+00:11:14.666 --> 00:11:17.933 align:middle line:85% position:50% size:40%
+automated tools.
+
+00:11:18.000 --> 00:11:25.333 align:middle line:79% position:50% size:65%
+So on -- I think you said
+you don't want to show the
+
+00:11:25.399 --> 00:11:28.966 align:middle line:79% position:50% size:58%
+files on your computer,
+which is fair enough.
+
+00:11:29.033 --> 00:11:34.899 align:middle line:79% position:50% size:73%
+I think the best we can do is
+there's -- the EARL GitHub --
+
+00:11:34.966 --> 00:11:38.733 align:middle line:79% position:50% size:63%
+and I'll give the URL
+later to the EARL GitHub.
+
+00:11:38.799 --> 00:11:41.766 align:middle line:79% position:50% size:68%
+I think it should be linked
+from the WAI-Tools Project
+
+00:11:41.833 --> 00:11:46.633 align:middle line:79% position:50% size:68%
+page as well, and there --
+there should be some sample
+
+00:11:46.700 --> 00:11:51.733 align:middle line:79% position:50% size:55%
+reports there that you
+can use from there.
+
+00:11:51.799 --> 00:11:53.366 align:middle line:85% position:50% size:13%
+Okay.
+
+00:11:53.433 --> 00:11:56.000 align:middle line:79% position:50% size:55%
+Eric, does the report
+generator evaluate web
+
+00:11:56.066 --> 00:11:58.066 align:middle line:85% position:50% size:38%
+or mobile apps?
+
+00:11:58.966 --> 00:12:00.366 align:middle line:85% position:50% size:55%
+&gt;&gt; ERIC VELLEMAN: Web.
+
+00:12:03.399 --> 00:12:06.833 align:middle line:79% position:50% size:73%
+&gt;&gt; SHADI ABOU-ZAHRA: And it's
+WCAG, so it's independent.
+
+00:12:06.899 --> 00:12:09.866 align:middle line:79% position:50% size:68%
+So, actually, the important
+thing is this is not an
+
+00:12:09.933 --> 00:12:14.466 align:middle line:79% position:50% size:75%
+automated tool, so it actually
+uses all the criteria, so you
+
+00:12:14.533 --> 00:12:20.866 align:middle line:79% position:50% size:70%
+can use it just as well to
+create reports for the apps.
+
+00:12:20.933 --> 00:12:22.333 align:middle line:79% position:50% size:70%
+&gt;&gt; ERIC VELLEMAN: At
+Accessibility Foundation, we
+
+00:12:22.399 --> 00:12:27.733 align:middle line:79% position:50% size:43%
+use the same tool
+to evaluate apps.
+
+00:12:27.799 --> 00:12:29.133 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Right. Good.
+
+00:12:29.200 --> 00:12:30.200 align:middle line:85% position:50% size:33%
+Good to hear.
+
+00:12:30.266 --> 00:12:32.266 align:middle line:79% position:50% size:65%
+Wow, there's a whole bunch
+of questions coming in.
+
+00:12:32.333 --> 00:12:35.233 align:middle line:85% position:50% size:48%
+We want to move on.
+
+00:12:35.299 --> 00:12:39.466 align:middle line:79% position:50% size:53%
+When this new version
+will be released?
+
+00:12:39.533 --> 00:12:41.633 align:middle line:85% position:50% size:75%
+That's a really good question.
+
+00:12:41.700 --> 00:12:43.033 align:middle line:85% position:50% size:13%
+Yeah.
+
+00:12:43.100 --> 00:12:45.533 align:middle line:79% position:50% size:48%
+We hope in the
+coming week or two.
+
+00:12:45.600 --> 00:12:47.200 align:middle line:85% position:50% size:45%
+So please hang on.
+
+00:12:47.266 --> 00:12:49.700 align:middle line:79% position:50% size:53%
+We'll let you know as
+quickly as possible.
+
+00:12:49.766 --> 00:12:51.966 align:middle line:79% position:50% size:75%
+At the end of the presentation
+today, at the end of the
+
+00:12:52.033 --> 00:12:54.633 align:middle line:79% position:50% size:68%
+session, I'll be giving you
+information on how you can
+
+00:12:54.700 --> 00:12:59.500 align:middle line:79% position:50% size:73%
+receive updates, how you can
+be notified, and so we'll let
+
+00:12:59.566 --> 00:13:03.466 align:middle line:79% position:50% size:63%
+you know as soon as the
+new version is available.
+
+00:13:03.533 --> 00:13:06.600 align:middle line:79% position:50% size:70%
+Another question: Austria
+and Spain uses the tool from
+
+00:13:06.666 --> 00:13:08.966 align:middle line:79% position:50% size:43%
+monitoring bodies
+and make changes.
+
+00:13:09.033 --> 00:13:11.433 align:middle line:79% position:50% size:68%
+Is there any exchange
+between your organizations?
+
+00:13:11.500 --> 00:13:19.100 align:middle line:79% position:50% size:70%
+So, yes, we did actually ask
+for inputs through GitHub.
+
+00:13:19.166 --> 00:13:24.433 align:middle line:79% position:50% size:75%
+And I believe we got comments
+from Austria, I believe, maybe
+
+00:13:24.500 --> 00:13:26.366 align:middle line:85% position:50% size:68%
+directly, maybe indirectly.
+
+00:13:26.433 --> 00:13:31.633 align:middle line:79% position:50% size:65%
+And so, yeah, we developed
+this, you know, openly.
+
+00:13:31.700 --> 00:13:35.799 align:middle line:79% position:50% size:75%
+Of course, we always love more
+input so that we can consider
+
+00:13:35.866 --> 00:13:38.033 align:middle line:79% position:50% size:48%
+any requirements
+in future versions.
+
+00:13:40.433 --> 00:13:43.000 align:middle line:85% position:50% size:55%
+Then another question.
+
+00:13:43.066 --> 00:13:46.366 align:middle line:79% position:50% size:60%
+Would it be easy to add
+non-WCAG criteria to the
+
+00:13:46.433 --> 00:13:47.600 align:middle line:85% position:50% size:43%
+report generator?
+
+00:13:47.666 --> 00:13:51.133 align:middle line:79% position:50% size:75%
+For example, other clauses
+from the EN, from the European
+
+00:13:51.200 --> 00:13:56.666 align:middle line:85% position:50% size:65%
+standard of the directive.
+
+00:13:56.733 --> 00:13:58.899 align:middle line:79% position:50% size:75%
+&gt;&gt; ERIC VELLEMAN: Well, I
+mean, if you have a programmer
+
+00:13:58.966 --> 00:14:01.133 align:middle line:79% position:50% size:50%
+then I think it
+would be easy maybe.
+
+00:14:01.200 --> 00:14:03.866 align:middle line:85% position:50% size:43%
+But it's -- yeah.
+
+00:14:03.933 --> 00:14:04.899 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+It's open source.
+
+00:14:04.966 --> 00:14:08.333 align:middle line:79% position:50% size:63%
+So, yeah, you
+would be -- yeah. It's --
+
+00:14:08.399 --> 00:14:09.933 align:middle line:85% position:50% size:80%
+&gt;&gt; ERIC VELLEMAN: All on GitHub.
+
+00:14:10.000 --> 00:14:11.566 align:middle line:79% position:50% size:73%
+&gt;&gt; SHADI ABOU-ZAHRA: Not out
+of the box, but you should be
+
+00:14:11.633 --> 00:14:17.133 align:middle line:85% position:50% size:65%
+able to adapt the -- okay.
+
+00:14:17.200 --> 00:14:19.299 align:middle line:79% position:50% size:68%
+And then last question
+before we move to your next
+
+00:14:19.366 --> 00:14:20.700 align:middle line:85% position:50% size:48%
+presentation, Eric.
+
+00:14:20.766 --> 00:14:23.700 align:middle line:79% position:50% size:75%
+We often have multiple
+analysts working on evaluating
+
+00:14:23.766 --> 00:14:25.066 align:middle line:85% position:50% size:60%
+a site at the same time.
+
+00:14:25.133 --> 00:14:28.133 align:middle line:79% position:50% size:73%
+Is there any way to break out
+of a page for evaluation and
+
+00:14:28.200 --> 00:14:31.700 align:middle line:79% position:50% size:70%
+upload these results back to
+the main evaluation so they
+
+00:14:31.766 --> 00:14:35.600 align:middle line:79% position:50% size:70%
+could work in tandem so that
+somebody -- I understand the
+
+00:14:35.666 --> 00:14:38.299 align:middle line:79% position:50% size:68%
+question that somebody
+evaluates part and then the
+
+00:14:38.366 --> 00:14:39.933 align:middle line:79% position:50% size:53%
+other evaluates other
+parts and then we can
+
+00:14:40.000 --> 00:14:42.733 align:middle line:85% position:50% size:50%
+combine the reports.
+
+00:14:42.799 --> 00:14:47.066 align:middle line:79% position:50% size:70%
+&gt;&gt; ERIC VELLEMAN: No, not if
+do you that simultaneously.
+
+00:14:47.133 --> 00:14:51.600 align:middle line:79% position:50% size:70%
+So if somebody stops
+evaluating and another takes
+
+00:14:51.666 --> 00:14:55.600 align:middle line:79% position:50% size:70%
+up, then you can send each
+other the JSON file, and the
+
+00:14:55.666 --> 00:14:57.333 align:middle line:85% position:50% size:58%
+other one can continue.
+
+00:14:57.399 --> 00:15:01.966 align:middle line:79% position:50% size:63%
+But if you -- as far as I
+know, if you both do the
+
+00:15:02.033 --> 00:15:05.100 align:middle line:79% position:50% size:40%
+evaluation, you
+import the file.
+
+00:15:05.166 --> 00:15:08.766 align:middle line:79% position:50% size:45%
+I'm not quite sure
+what happens then.
+
+00:15:08.833 --> 00:15:11.700 align:middle line:79% position:50% size:43%
+So could be
+that it is added.
+
+00:15:11.766 --> 00:15:13.433 align:middle line:85% position:50% size:10%
+Hmm.
+
+00:15:13.500 --> 00:15:17.100 align:middle line:79% position:50% size:58%
+I'll put it on the list
+of things to check.
+
+00:15:17.166 --> 00:15:19.666 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Right. Yeah.
+
+00:15:19.733 --> 00:15:22.500 align:middle line:79% position:50% size:73%
+And then information in
+Germany, we also use the tool
+
+00:15:22.566 --> 00:15:25.833 align:middle line:79% position:50% size:53%
+and make changes, but
+we're still at work.
+
+00:15:25.899 --> 00:15:30.333 align:middle line:79% position:50% size:73%
+So, obviously, using that and
+making changes to it, yeah,
+
+00:15:30.399 --> 00:15:33.166 align:middle line:79% position:50% size:73%
+welcome to -- we also welcome
+translations --
+
+00:15:33.233 --> 00:15:35.033 align:middle line:85% position:50% size:55%
+&gt;&gt; ERIC VELLEMAN: Yep.
+
+00:15:35.100 --> 00:15:37.000 align:middle line:79% position:50% size:68%
+&gt;&gt; SHADI ABOU-ZAHRA: -- for
+all resources that
+
+00:15:37.066 --> 00:15:38.466 align:middle line:85% position:50% size:50%
+you've talked about.
+
+00:15:38.533 --> 00:15:40.633 align:middle line:79% position:50% size:70%
+There were some questions on
+translations that I'll come
+
+00:15:40.700 --> 00:15:43.933 align:middle line:79% position:50% size:43%
+back to later
+again in the Q&amp;A.
+
+00:15:44.000 --> 00:15:45.533 align:middle line:85% position:50% size:13%
+Yeah.
+
+00:15:45.600 --> 00:15:53.333 align:middle line:79% position:50% size:63%
+So -- oh, and somebody --
+at the moment we add
+
+00:15:53.399 --> 00:15:55.733 align:middle line:85% position:50% size:48%
+an Excel converter.
+
+00:15:55.799 --> 00:15:58.966 align:middle line:79% position:50% size:70%
+So that's nice to hear that
+there's something like that.
+
+00:15:59.033 --> 00:16:01.333 align:middle line:79% position:50% size:73%
+Again, this is an open-source
+project, so you're always
+
+00:16:01.399 --> 00:16:06.100 align:middle line:79% position:50% size:65%
+welcome to contribute
+things back into GitHub if
+
+00:16:06.166 --> 00:16:07.133 align:middle line:85% position:50% size:35%
+you wanted to.
+
+00:16:07.200 --> 00:16:11.533 align:middle line:79% position:50% size:68%
+There are several issues in
+GitHub of people asking to
+
+00:16:11.600 --> 00:16:15.966 align:middle line:79% position:50% size:75%
+have, for example, this
+collaborative so that multiple
+
+00:16:16.033 --> 00:16:17.733 align:middle line:79% position:50% size:43%
+people can edit
+at the same time.
+
+00:16:17.799 --> 00:16:20.733 align:middle line:79% position:50% size:75%
+We know that this is a feature
+request, but that's actually
+
+00:16:20.799 --> 00:16:23.366 align:middle line:85% position:50% size:68%
+quite a project on its own.
+
+00:16:23.433 --> 00:16:28.266 align:middle line:79% position:50% size:75%
+For now we started really with
+just this import to allow when
+
+00:16:28.333 --> 00:16:35.600 align:middle line:79% position:50% size:70%
+you select a sample of pages
+from your site and you have
+
+00:16:35.666 --> 00:16:39.799 align:middle line:79% position:50% size:70%
+automated results, you can
+fill in what the tool knows,
+
+00:16:39.866 --> 00:16:42.133 align:middle line:79% position:50% size:63%
+but you still need to
+continue doing the manual
+
+00:16:42.200 --> 00:16:43.966 align:middle line:85% position:50% size:45%
+part of your work.
+
+00:16:44.033 --> 00:16:49.166 align:middle line:79% position:50% size:73%
+But it helps combine
+automated and manual testing.
+
+00:16:49.233 --> 00:16:50.233 align:middle line:85% position:50% size:13%
+Okay.
+
+00:16:50.299 --> 00:16:52.399 align:middle line:79% position:50% size:70%
+We're a bit behind schedule,
+Eric, so please go
+
+00:16:52.466 --> 00:16:57.100 align:middle line:85% position:50% size:48%
+ahead and continue.
+
+00:16:57.166 --> 00:16:58.633 align:middle line:85% position:50% size:58%
+&gt;&gt; ERIC VELLEMAN: Okay.
+
+00:16:58.700 --> 00:17:02.133 align:middle line:79% position:50% size:45%
+Let me get my
+presentation back.
+
+00:17:02.200 --> 00:17:05.933 align:middle line:85% position:50% size:33%
+Get you back.
+
+00:17:06.000 --> 00:17:07.700 align:middle line:85% position:50% size:33%
+Share screen.
+
+00:17:11.666 --> 00:17:15.866 align:middle line:85% position:50% size:40%
+So there we are.
+
+00:17:15.933 --> 00:17:17.599 align:middle line:85% position:50% size:73%
+The accessibility statements.
+
+00:17:17.666 --> 00:17:22.033 align:middle line:79% position:50% size:75%
+Well, this is a shorter story
+because we did a lot more work
+
+00:17:22.099 --> 00:17:27.700 align:middle line:79% position:50% size:75%
+on the evaluation tool, and
+not just adding translation --
+
+00:17:27.766 --> 00:17:30.099 align:middle line:79% position:50% size:68%
+the possibility of easy
+translation there, but also
+
+00:17:30.166 --> 00:17:35.433 align:middle line:79% position:50% size:73%
+adding a lot of functionality
+like the imports and like the
+
+00:17:35.500 --> 00:17:38.500 align:middle line:79% position:50% size:50%
+saving and opening
+files and to be able
+
+00:17:38.566 --> 00:17:41.200 align:middle line:85% position:50% size:53%
+to share evaluations.
+
+00:17:41.266 --> 00:17:44.433 align:middle line:79% position:50% size:68%
+So for the accessibility
+statements generator, it is
+
+00:17:44.500 --> 00:17:48.666 align:middle line:79% position:50% size:75%
+still the version that you can
+see live on the W3 website.
+
+00:17:48.733 --> 00:17:51.900 align:middle line:79% position:50% size:70%
+If you search for statements
+generator on W3, you'll
+
+00:17:51.966 --> 00:17:53.500 align:middle line:85% position:50% size:50%
+find it immediately.
+
+00:17:53.566 --> 00:18:00.366 align:middle line:79% position:50% size:68%
+It's at W3.org/WAI -- W-A-I
+-- /planning/statements
+
+00:18:00.433 --> 00:18:04.233 align:middle line:85% position:50% size:25%
+and slash.
+
+00:18:04.299 --> 00:18:07.466 align:middle line:79% position:50% size:68%
+And there's a page there to
+generate an accessibility
+
+00:18:07.533 --> 00:18:12.200 align:middle line:79% position:50% size:65%
+statement with a lot of
+information on the Preview
+
+00:18:12.266 --> 00:18:15.233 align:middle line:79% position:50% size:73%
+button, but you still have to
+fill in everything by hand.
+
+00:18:15.299 --> 00:18:19.866 align:middle line:79% position:50% size:73%
+So what the generator does is
+it guides you on providing
+
+00:18:19.933 --> 00:18:21.900 align:middle line:85% position:50% size:63%
+accessibility statements.
+
+00:18:21.966 --> 00:18:25.066 align:middle line:79% position:50% size:73%
+It is aligned with the EU Web
+Accessibility Directive and
+
+00:18:25.133 --> 00:18:27.333 align:middle line:79% position:50% size:48%
+with WCAG 2
+Conformance Claims.
+
+00:18:27.400 --> 00:18:30.333 align:middle line:79% position:50% size:63%
+It is a manual generator,
+so this one does not do
+
+00:18:30.400 --> 00:18:32.366 align:middle line:85% position:50% size:53%
+any automatic checks.
+
+00:18:32.433 --> 00:18:37.633 align:middle line:79% position:50% size:65%
+But you could link to the
+evaluation reports or to a
+
+00:18:37.700 --> 00:18:42.766 align:middle line:79% position:50% size:65%
+JSON file, but you output
+it from the previous tool.
+
+00:18:42.833 --> 00:18:44.633 align:middle line:79% position:50% size:58%
+The output is available
+in both human and
+
+00:18:44.700 --> 00:18:46.200 align:middle line:85% position:50% size:63%
+machine-readable formats.
+
+00:18:46.266 --> 00:18:49.466 align:middle line:79% position:50% size:73%
+The tool includes examples of
+statements, guidance, how to
+
+00:18:49.533 --> 00:18:51.200 align:middle line:85% position:50% size:75%
+make accessibility statements.
+
+00:18:51.266 --> 00:18:53.033 align:middle line:79% position:50% size:55%
+Most people are, like,
+what is important for
+
+00:18:53.099 --> 00:18:54.966 align:middle line:85% position:50% size:63%
+people with disabilities?
+
+00:18:55.033 --> 00:18:57.233 align:middle line:79% position:50% size:68%
+What would they like to see
+in a statement like that?
+
+00:18:57.299 --> 00:18:59.933 align:middle line:79% position:50% size:40%
+And a statements
+generator tool.
+
+00:19:00.000 --> 00:19:02.900 align:middle line:79% position:50% size:70%
+It includes input from
+communities and experts, and
+
+00:19:02.966 --> 00:19:07.599 align:middle line:79% position:50% size:70%
+it is almost ready for
+translation to your language
+
+00:19:07.666 --> 00:19:12.333 align:middle line:79% position:50% size:68%
+because we're still working
+the last bits of that.
+
+00:19:12.400 --> 00:19:17.166 align:middle line:79% position:50% size:70%
+So, also, in, like, a week
+or two, this should be done.
+
+00:19:17.233 --> 00:19:20.500 align:middle line:79% position:50% size:75%
+And then you could just take
+one file, translate everything
+
+00:19:20.566 --> 00:19:25.433 align:middle line:79% position:50% size:75%
+in that file, and you would
+immediately have your language
+
+00:19:25.500 --> 00:19:28.433 align:middle line:79% position:50% size:70%
+version of the accessibility
+statements generator.
+
+00:19:28.500 --> 00:19:31.866 align:middle line:79% position:50% size:73%
+The only thing that has to be
+done is that somebody at W3C
+
+00:19:31.933 --> 00:19:37.833 align:middle line:79% position:50% size:75%
+will then have to put the
+translated file into a folder.
+
+00:19:37.900 --> 00:19:40.266 align:middle line:79% position:50% size:68%
+So why would you provide an
+accessibility statement?
+
+00:19:40.333 --> 00:19:45.433 align:middle line:79% position:50% size:70%
+Well, that is to show users
+that you care about them and
+
+00:19:45.500 --> 00:19:48.166 align:middle line:79% position:50% size:65%
+about accessibility, to
+provide them with valuable
+
+00:19:48.233 --> 00:19:53.333 align:middle line:79% position:50% size:73%
+help, for CSR reasons, or it
+may be a requirement, like in
+
+00:19:53.400 --> 00:19:57.133 align:middle line:79% position:50% size:63%
+Europe for the Directive,
+for public sector bodies.
+
+00:19:57.200 --> 00:20:00.033 align:middle line:79% position:50% size:43%
+And what does
+the tool then do?
+
+00:20:00.099 --> 00:20:04.133 align:middle line:79% position:50% size:73%
+Well, the tool asks you the
+questions you need to answer.
+
+00:20:04.200 --> 00:20:07.766 align:middle line:79% position:50% size:65%
+So it asks you basic
+information, your efforts,
+
+00:20:07.833 --> 00:20:11.933 align:middle line:79% position:50% size:68%
+technical information about
+the accessibility, and
+
+00:20:12.000 --> 00:20:14.866 align:middle line:79% position:50% size:58%
+regarding the approval
+and complaints process.
+
+00:20:14.933 --> 00:20:16.933 align:middle line:79% position:50% size:70%
+It helps create an
+accessibility statement that
+
+00:20:17.000 --> 00:20:20.000 align:middle line:79% position:50% size:63%
+can be further customized
+and branded, et cetera.
+
+00:20:20.066 --> 00:20:25.433 align:middle line:79% position:50% size:75%
+So you can just save the end
+result and make your very much
+
+00:20:25.500 --> 00:20:28.700 align:middle line:79% position:50% size:55%
+most -- more beautiful
+version out of it.
+
+00:20:28.766 --> 00:20:31.299 align:middle line:79% position:50% size:68%
+It helps make accessibility
+statements conformant with
+
+00:20:31.366 --> 00:20:33.066 align:middle line:85% position:50% size:43%
+the EU Directive.
+
+00:20:33.133 --> 00:20:35.799 align:middle line:79% position:50% size:63%
+And the output is not for
+lawyers, but for users
+
+00:20:35.866 --> 00:20:38.033 align:middle line:85% position:50% size:40%
+of your content.
+
+00:20:38.099 --> 00:20:41.500 align:middle line:79% position:50% size:70%
+So make sure they understand
+so they know what to do.
+
+00:20:41.566 --> 00:20:43.566 align:middle line:79% position:50% size:60%
+That was the idea behind
+the accessibility
+
+00:20:43.633 --> 00:20:45.533 align:middle line:85% position:50% size:50%
+statement generator.
+
+00:20:45.599 --> 00:20:47.566 align:middle line:79% position:50% size:50%
+And the future work
+is the translations.
+
+00:20:47.633 --> 00:20:49.933 align:middle line:85% position:50% size:60%
+We're working on it now.
+
+00:20:50.000 --> 00:20:53.033 align:middle line:79% position:50% size:58%
+And we also looked into
+the possibility to add
+
+00:20:53.099 --> 00:20:55.700 align:middle line:85% position:50% size:48%
+your own questions.
+
+00:20:55.766 --> 00:20:57.333 align:middle line:85% position:50% size:68%
+That was one of the issues.
+
+00:20:57.400 --> 00:20:59.633 align:middle line:79% position:50% size:65%
+So if you go to the GitHub
+page, you'll find a lot of
+
+00:20:59.700 --> 00:21:02.466 align:middle line:79% position:50% size:45%
+proposals there
+for changes to the
+
+00:21:02.533 --> 00:21:04.166 align:middle line:79% position:50% size:60%
+accessibility statements
+generator.
+
+00:21:04.233 --> 00:21:06.033 align:middle line:85% position:50% size:53%
+We had to prioritize.
+
+00:21:06.099 --> 00:21:10.333 align:middle line:79% position:50% size:75%
+So besides a few other things,
+the most important thing was
+
+00:21:10.400 --> 00:21:12.000 align:middle line:85% position:50% size:43%
+the translations.
+
+00:21:12.066 --> 00:21:14.066 align:middle line:85% position:50% size:65%
+But all the code is there.
+
+00:21:14.133 --> 00:21:17.533 align:middle line:79% position:50% size:70%
+So, also, in this case you
+could take the complete code
+
+00:21:17.599 --> 00:21:19.066 align:middle line:85% position:50% size:68%
+and add your own questions.
+
+00:21:19.133 --> 00:21:21.000 align:middle line:79% position:50% size:70%
+And I think in the case of
+the accessibility statements
+
+00:21:21.066 --> 00:21:25.133 align:middle line:79% position:50% size:78%
+generator, that would really
+be a fairly simple thing to do.
+
+00:21:25.200 --> 00:21:28.099 align:middle line:79% position:50% size:65%
+I think even if you're not
+really extremely technical
+
+00:21:28.166 --> 00:21:31.400 align:middle line:85% position:50% size:68%
+you could probably do that.
+
+00:21:31.466 --> 00:21:32.700 align:middle line:85% position:50% size:13%
+Okay.
+
+00:21:32.766 --> 00:21:34.900 align:middle line:85% position:50% size:55%
+Now for the live demo.
+
+00:21:34.966 --> 00:21:37.233 align:middle line:85% position:50% size:38%
+Let me go here.
+
+00:21:37.299 --> 00:21:41.733 align:middle line:79% position:50% size:58%
+So this is the live
+page on the W3 website.
+
+00:21:41.799 --> 00:21:48.366 align:middle line:79% position:50% size:78%
+And it's at
+W3.org/WAI/planning/statements.
+
+00:21:48.433 --> 00:21:53.200 align:middle line:79% position:50% size:70%
+And then if you go to
+/generator and then slash --
+
+00:21:53.266 --> 00:21:57.333 align:middle line:79% position:50% size:65%
+well, then you will get to
+this create page, where it
+
+00:21:57.400 --> 00:22:00.366 align:middle line:79% position:50% size:65%
+asks you basic information
+like the name of your
+
+00:22:00.433 --> 00:22:04.599 align:middle line:79% position:50% size:63%
+organization, which could
+be like this, and then a
+
+00:22:04.666 --> 00:22:08.133 align:middle line:79% position:50% size:60%
+telephone number or
+address of your website.
+
+00:22:08.200 --> 00:22:10.066 align:middle line:85% position:50% size:63%
+That's not a correct one.
+
+00:22:10.133 --> 00:22:13.166 align:middle line:79% position:50% size:60%
+Over here the standards
+applied, the conformance
+
+00:22:13.233 --> 00:22:16.799 align:middle line:79% position:50% size:55%
+status, the additional
+considerations.
+
+00:22:18.700 --> 00:22:21.933 align:middle line:85% position:50% size:55%
+Don't send them to me.
+
+00:22:22.000 --> 00:22:22.966 align:middle line:85% position:50% size:25%
+Et cetera.
+
+00:22:23.033 --> 00:22:27.766 align:middle line:79% position:50% size:65%
+So there's the efforts you
+did, like organizational
+
+00:22:27.833 --> 00:22:30.900 align:middle line:79% position:50% size:60%
+measures you took or any
+other measures, you can
+
+00:22:30.966 --> 00:22:33.133 align:middle line:85% position:50% size:35%
+add them here.
+
+00:22:33.200 --> 00:22:39.599 align:middle line:79% position:50% size:75%
+Technical information like the
+accessibility limitations,
+
+00:22:39.666 --> 00:22:42.133 align:middle line:79% position:50% size:58%
+compatibility with user
+environment, et cetera.
+
+00:22:42.200 --> 00:22:45.933 align:middle line:79% position:50% size:60%
+So it's all -- this is
+all described in detail.
+
+00:22:46.000 --> 00:22:52.233 align:middle line:79% position:50% size:70%
+If you show info here, below
+every header or form fields,
+
+00:22:52.299 --> 00:22:54.900 align:middle line:79% position:50% size:65%
+there is -- or above every
+form field, there is more
+
+00:22:54.966 --> 00:22:59.666 align:middle line:79% position:50% size:60%
+information about what
+you could fill in there.
+
+00:22:59.733 --> 00:23:02.099 align:middle line:79% position:50% size:40%
+The technologies
+used, et cetera.
+
+00:23:02.166 --> 00:23:05.000 align:middle line:79% position:50% size:68%
+Then somewhere at the
+bottom you can preview your
+
+00:23:05.066 --> 00:23:07.400 align:middle line:79% position:50% size:60%
+accessibility statement,
+and it takes you to your
+
+00:23:07.466 --> 00:23:10.400 align:middle line:85% position:50% size:60%
+accessibility statement.
+
+00:23:10.466 --> 00:23:12.033 align:middle line:79% position:50% size:48%
+So I haven't filled
+in anything, so now
+
+00:23:12.099 --> 00:23:14.299 align:middle line:85% position:50% size:45%
+it's website name.
+
+00:23:14.366 --> 00:23:20.533 align:middle line:79% position:50% size:53%
+But if I would go
+back, let's see here.
+
+00:23:20.599 --> 00:23:24.166 align:middle line:79% position:50% size:48%
+I will put at least
+a name in here.
+
+00:23:24.233 --> 00:23:26.733 align:middle line:79% position:50% size:43%
+Oh, I did put
+the name in here.
+
+00:23:32.033 --> 00:23:34.000 align:middle line:85% position:50% size:60%
+Terrible things of life.
+
+00:23:36.799 --> 00:23:38.599 align:middle line:85% position:50% size:13%
+Okay.
+
+00:23:38.666 --> 00:23:40.633 align:middle line:85% position:50% size:43%
+Well, here it is.
+
+00:23:40.700 --> 00:23:43.066 align:middle line:79% position:50% size:43%
+So I probably
+forgot something.
+
+00:23:43.133 --> 00:23:44.900 align:middle line:79% position:50% size:58%
+It does the description
+of the name.
+
+00:23:44.966 --> 00:23:48.766 align:middle line:85% position:50% size:65%
+So it's a few forms later.
+
+00:23:48.833 --> 00:23:52.500 align:middle line:79% position:50% size:70%
+So it will generate --
+everything that you fill out
+
+00:23:52.566 --> 00:23:55.366 align:middle line:85% position:50% size:73%
+will be appearing below here.
+
+00:23:55.433 --> 00:23:57.966 align:middle line:79% position:50% size:75%
+So that is why it is currently
+very short, but the more
+
+00:23:58.033 --> 00:24:00.799 align:middle line:79% position:50% size:68%
+information you input, the
+more information you get in
+
+00:24:00.866 --> 00:24:04.466 align:middle line:85% position:50% size:73%
+this accessibility statement.
+
+00:24:04.533 --> 00:24:07.599 align:middle line:85% position:50% size:25%
+That's it.
+
+00:24:07.666 --> 00:24:10.266 align:middle line:79% position:50% size:68%
+And then above here -- of
+course, before I say that's
+
+00:24:10.333 --> 00:24:12.766 align:middle line:79% position:50% size:73%
+it, I should have said
+somewhere here above you will
+
+00:24:12.833 --> 00:24:17.366 align:middle line:79% position:50% size:70%
+soon see this translation
+button where you can get the
+
+00:24:17.433 --> 00:24:21.666 align:middle line:79% position:50% size:68%
+file, translate it to your
+language, and then see your
+
+00:24:21.733 --> 00:24:25.466 align:middle line:79% position:50% size:70%
+own language version of this
+accessibility statement.
+
+00:24:25.533 --> 00:24:29.566 align:middle line:85% position:50% size:13%
+Yeah.
+
+00:24:29.633 --> 00:24:31.566 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Thank you, Eric.
+
+00:24:31.633 --> 00:24:32.466 align:middle line:85% position:50% size:13%
+Yeah.
+
+00:24:32.533 --> 00:24:33.799 align:middle line:85% position:50% size:43%
+So right on time.
+
+00:24:33.866 --> 00:24:36.033 align:middle line:79% position:50% size:73%
+We have a couple of questions
+that I think are a little bit
+
+00:24:36.099 --> 00:24:39.233 align:middle line:79% position:50% size:68%
+beyond the scope of this
+project, but they're really
+
+00:24:39.299 --> 00:24:40.400 align:middle line:85% position:50% size:38%
+good questions.
+
+00:24:40.466 --> 00:24:43.866 align:middle line:79% position:50% size:68%
+So one question is: I've
+seen public sector websites
+
+00:24:43.933 --> 00:24:47.366 align:middle line:79% position:50% size:65%
+publishing accessibility
+statements only to conform
+
+00:24:47.433 --> 00:24:49.200 align:middle line:85% position:50% size:43%
+with regulations.
+
+00:24:49.266 --> 00:24:52.533 align:middle line:79% position:50% size:60%
+In those statements they
+say that some parts
+
+00:24:52.599 --> 00:24:54.733 align:middle line:85% position:50% size:48%
+are not accessible.
+
+00:24:54.799 --> 00:24:57.266 align:middle line:79% position:50% size:58%
+What's the use of
+having such statements?
+
+00:24:57.333 --> 00:24:58.933 align:middle line:79% position:50% size:53%
+So, yeah, that's a
+really good question.
+
+00:24:59.000 --> 00:25:03.500 align:middle line:79% position:50% size:75%
+And this is one of the reasons
+why, you know, in addition to
+
+00:25:03.566 --> 00:25:08.466 align:middle line:79% position:50% size:70%
+the generator, we have
+guidance, including examples
+
+00:25:08.533 --> 00:25:12.233 align:middle line:79% position:50% size:70%
+of accessibility statements,
+to really try to
+
+00:25:12.299 --> 00:25:14.166 align:middle line:85% position:50% size:55%
+promote good practice.
+
+00:25:14.233 --> 00:25:18.133 align:middle line:79% position:50% size:68%
+But, yeah, this issue, I
+guess, of what people do or
+
+00:25:18.200 --> 00:25:21.833 align:middle line:79% position:50% size:53%
+don't is a little
+bit beyond our scope.
+
+00:25:21.900 --> 00:25:25.433 align:middle line:79% position:50% size:65%
+Another question that also
+Jorge might be interested
+
+00:25:25.500 --> 00:25:26.666 align:middle line:85% position:50% size:30%
+to weigh in.
+
+00:25:26.733 --> 00:25:30.200 align:middle line:79% position:50% size:68%
+It was saying: I was
+interested to learn that in
+
+00:25:30.266 --> 00:25:33.700 align:middle line:79% position:50% size:68%
+Portugal there's a proposed
+standard URL pass for
+
+00:25:33.766 --> 00:25:36.333 align:middle line:85% position:50% size:63%
+accessibility statements.
+
+00:25:36.400 --> 00:25:40.133 align:middle line:79% position:50% size:73%
+So on a public website if you
+write "acessibilidade" in the
+
+00:25:40.200 --> 00:25:44.766 align:middle line:79% position:50% size:60%
+URL, you should get the
+accessibility statement.
+
+00:25:44.833 --> 00:25:48.400 align:middle line:79% position:50% size:73%
+Are there more countries with
+such standard locations?
+
+00:25:48.466 --> 00:25:52.966 align:middle line:79% position:50% size:73%
+Eric, first, are you aware of
+other countries that have a
+
+00:25:53.033 --> 00:25:54.433 align:middle line:85% position:50% size:43%
+similar practice?
+
+00:25:54.500 --> 00:25:57.066 align:middle line:79% position:50% size:75%
+&gt;&gt; ERIC VELLEMAN: Yeah. I know
+that the Netherlands has a
+
+00:25:57.133 --> 00:25:59.166 align:middle line:79% position:50% size:58%
+standard location where
+you can find all the
+
+00:25:59.233 --> 00:26:00.666 align:middle line:85% position:50% size:63%
+accessibility statements.
+
+00:26:00.733 --> 00:26:04.599 align:middle line:79% position:50% size:78%
+That is at the
+toegankelijkheidsverklaring.nl.
+
+00:26:04.666 --> 00:26:08.900 align:middle line:79% position:50% size:55%
+And you can find
+enough of you of 2,500
+
+00:26:08.966 --> 00:26:12.966 align:middle line:85% position:50% size:70%
+toegankelijkheidsverklaring.
+
+00:26:13.033 --> 00:26:15.433 align:middle line:79% position:50% size:73%
+And that is also the place --
+sometimes they're not even on
+
+00:26:15.500 --> 00:26:18.166 align:middle line:79% position:50% size:73%
+the website or you can't find
+them on the website of the
+
+00:26:18.233 --> 00:26:22.033 align:middle line:79% position:50% size:73%
+public sector body, but you
+can find them on this website
+
+00:26:22.099 --> 00:26:27.200 align:middle line:79% position:50% size:53%
+that is hosted by the
+central government.
+
+00:26:27.266 --> 00:26:34.633 align:middle line:79% position:50% size:68%
+&gt;&gt; SHADI ABOU-ZAHRA: Jorge,
+any other thoughts on this?
+
+00:26:34.700 --> 00:26:36.866 align:middle line:79% position:50% size:68%
+&gt;&gt; JORGE FERNANDES: Well, I
+don't know other countries
+
+00:26:36.933 --> 00:26:43.000 align:middle line:79% position:50% size:48%
+where they use also
+the standard URL.
+
+00:26:43.066 --> 00:26:47.866 align:middle line:79% position:50% size:55%
+But, yes, in Portugal
+we are using this one.
+
+00:26:47.933 --> 00:26:52.700 align:middle line:79% position:50% size:68%
+For example, I know that in
+Italy they centralized the
+
+00:26:52.766 --> 00:26:58.766 align:middle line:79% position:50% size:70%
+accessibility statement
+in a website, and you make a
+
+00:26:58.833 --> 00:27:02.400 align:middle line:85% position:50% size:53%
+link to that website.
+
+00:27:02.466 --> 00:27:07.799 align:middle line:79% position:50% size:75%
+The accessibility statement is
+not on the website of the --
+
+00:27:07.866 --> 00:27:14.033 align:middle line:79% position:50% size:73%
+of the public sector bodies,
+so it is outside, centralized
+
+00:27:14.099 --> 00:27:23.400 align:middle line:79% position:50% size:58%
+in a server managed by
+the national authority.
+
+00:27:23.466 --> 00:27:29.500 align:middle line:79% position:50% size:63%
+But I don't know other --
+or other examples.
+
+00:27:29.566 --> 00:27:30.700 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Thank you. Yeah.
+
+00:27:30.766 --> 00:27:33.000 align:middle line:79% position:50% size:55%
+And that goes directly
+to the next question.
+
+00:27:33.066 --> 00:27:36.866 align:middle line:79% position:50% size:70%
+Do all countries adopt this
+statement generator, knowing
+
+00:27:36.933 --> 00:27:40.733 align:middle line:79% position:50% size:73%
+that some countries in the EU
+have additional requirements,
+
+00:27:40.799 --> 00:27:43.299 align:middle line:79% position:50% size:48%
+for example, France
+and Netherlands?
+
+00:27:43.366 --> 00:27:46.366 align:middle line:79% position:50% size:48%
+The latter also has
+its own generator.
+
+00:27:46.433 --> 00:27:49.966 align:middle line:79% position:50% size:68%
+And then there is the Dutch
+name, which I cannot read.
+
+00:27:50.033 --> 00:27:53.033 align:middle line:79% position:50% size:78%
+&gt;&gt; ERIC VELLEMAN:
+Toegankelijkheidsverklaring.nl.
+
+00:27:53.099 --> 00:27:56.966 align:middle line:79% position:50% size:73%
+&gt;&gt; SHADI ABOU-ZAHRA: Yeah, be
+nice to the captioner, Eric.
+
+00:27:57.033 --> 00:27:58.866 align:middle line:79% position:50% size:48%
+&gt;&gt; ERIC VELLEMAN:
+Oh, that's trouble.
+
+00:27:58.933 --> 00:27:59.799 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Having a match.
+
+00:27:59.866 --> 00:28:02.166 align:middle line:85% position:50% size:60%
+&gt;&gt; ERIC VELLEMAN: Woops.
+
+00:28:02.233 --> 00:28:03.400 align:middle line:85% position:50% size:65%
+&gt;&gt; SHADI ABOU-ZAHRA: Okay.
+
+00:28:03.466 --> 00:28:06.366 align:middle line:85% position:50% size:53%
+So we do not -- yeah.
+
+00:28:06.433 --> 00:28:11.700 align:middle line:79% position:50% size:73%
+We provide this accessibility
+statement generator as an
+
+00:28:11.766 --> 00:28:15.866 align:middle line:79% position:50% size:75%
+example as the minimum
+requirements in the Directive.
+
+00:28:15.933 --> 00:28:18.366 align:middle line:79% position:50% size:75%
+Also something internationally
+-- this is not only for
+
+00:28:18.433 --> 00:28:20.400 align:middle line:79% position:50% size:73%
+Europe, but providing
+accessibility statements as a
+
+00:28:20.466 --> 00:28:23.200 align:middle line:85% position:50% size:75%
+best practice internationally.
+
+00:28:23.266 --> 00:28:28.233 align:middle line:79% position:50% size:75%
+And the expectation is whoever
+wants can take it, adapt it.
+
+00:28:28.299 --> 00:28:31.099 align:middle line:79% position:50% size:73%
+So this is why Eric mentioned
+that you can actually add
+
+00:28:31.166 --> 00:28:36.299 align:middle line:79% position:50% size:73%
+additional questions, so we
+try to write the code in such
+
+00:28:36.366 --> 00:28:42.900 align:middle line:79% position:50% size:75%
+a way that you can extend this
+basis and also translations so
+
+00:28:42.966 --> 00:28:45.733 align:middle line:79% position:50% size:40%
+that you can use
+this separately.
+
+00:28:45.799 --> 00:28:48.900 align:middle line:85% position:50% size:75%
+So, yeah, it's a tool to help.
+
+00:28:48.966 --> 00:28:51.333 align:middle line:79% position:50% size:50%
+Some have reused it,
+like in Portugal.
+
+00:28:51.400 --> 00:28:53.366 align:middle line:85% position:50% size:40%
+Others have not.
+
+00:28:53.433 --> 00:28:55.599 align:middle line:79% position:50% size:63%
+And it's totally up to --
+you know, to people
+
+00:28:55.666 --> 00:28:57.500 align:middle line:85% position:50% size:53%
+what they do with it.
+
+00:28:57.566 --> 00:28:59.466 align:middle line:79% position:50% size:70%
+We did notice -- we did
+learn from Portugal that the
+
+00:28:59.533 --> 00:29:02.433 align:middle line:79% position:50% size:73%
+translation was not as easy,
+and this is why we're redoing
+
+00:29:02.500 --> 00:29:05.033 align:middle line:85% position:50% size:73%
+that, to support translation.
+
+00:29:05.099 --> 00:29:06.700 align:middle line:85% position:50% size:13%
+Good.
+
+00:29:06.766 --> 00:29:14.033 align:middle line:79% position:50% size:60%
+And then somebody re --
+put the Dutch URL again.
+
+00:29:14.099 --> 00:29:16.833 align:middle line:79% position:50% size:58%
+I think somebody wants
+to have fun with Dutch.
+
+00:29:16.900 --> 00:29:17.633 align:middle line:85% position:50% size:13%
+Good.
+
+00:29:17.700 --> 00:29:19.166 align:middle line:85% position:50% size:65%
+Thank you very much, Eric.
+
+00:29:19.233 --> 00:29:20.433 align:middle line:85% position:50% size:60%
+&gt;&gt; ERIC VELLEMAN: Sorry.
+
+00:29:20.500 --> 00:29:23.233 align:middle line:79% position:50% size:68%
+&gt;&gt; SHADI ABOU-ZAHRA: Dutch
+lesson in the next webinar.
+
+00:29:23.299 --> 00:29:26.299 align:middle line:85% position:50% size:45%
+Let's now move on.
