@@ -16,8 +16,6 @@ description: Introduces considerations for usability testing and other evaluatio
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    repository: w3c/wai-website
-    path: pages/test-eval/involving-users/index.md  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
     label: wai-involving-users-eval
 
 permalink: /test-evaluate/involving-users/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr

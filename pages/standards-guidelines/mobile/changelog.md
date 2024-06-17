@@ -7,8 +7,6 @@ lang: en
 class: tight-page
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/mobile/changelog.md
   label: wai-mobile
 
 permalink: /standards-guidelines/mobile/changelog/

@@ -3,8 +3,6 @@ title: Referencing and Linking to WAI Guidelines and Technical Documents
 permalink: /standards-guidelines/linking/
 layout: default
 github:
-  repository: w3c/wai-website
-  branch: pages/standards-guidelines/wai-intro-linking.md
   label: wai-intro-linking
 feedbackmail: wai@w3.org
 footer: >

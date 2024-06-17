@@ -14,8 +14,6 @@ last_updated: 2024-04-19    # Put the date of this translation YYYY-MM-DD (with 
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    repository: w3c/wai-website
-    path: pages/teach-advocate/contacting-orgs.md
     label: wai-contacting-orgs
 
 permalink: /teach-advocate/contact-inaccessible-websites/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr

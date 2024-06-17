@@ -11,8 +11,6 @@ permalink: /standards-guidelines/changelog/
 ref: /standards-guidelines/changelog/
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/changelog.md
   label: wai-standards-guidelines
 
 feedbackmail: wai@w3.org

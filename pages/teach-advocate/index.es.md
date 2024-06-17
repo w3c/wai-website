@@ -9,8 +9,6 @@ translators:
   link: "http://www.muncharaz.eu/"
 
 github:
-  repository: w3c/wai-website
-  path: "pages/teach-advocate/index.es.md"
   label: wai-teach-advocate
 
 permalink: /teach-advocate/es

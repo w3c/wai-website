@@ -4,8 +4,6 @@ title_html: "Shared Web Experiences:<br>Barriers Common to Mobile Device Users a
 lang: en
 permalink: /standards-guidelines/shared-experiences/
 github:
-  repository: w3c/wai-website
-  path: 'pages/standards-guidelines/wai-shared-experiences.md'
   label: wai-shared-experiences
 doc-note-type: archived
 doc-note-message: >
@@ -15,7 +13,6 @@ doc-note-message: >
     <li>Many of the issues around designing for mobile devices are addressed by designing for people with disabilities.</li>
     <li>When you address accessibility, you improve the mobile experience. This can help in presenting your business case for accessibility.</li>
   </ul>
-layout: default
 footer: >
   <p><strong>Date: Archived.</strong>  Updated 22 January 2013. First published January 2008.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/"></a>Yeliz Yesilada (University of Manchester), Alan Chuter (Fundación ONCE), and <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> (W3C WAI).</p>

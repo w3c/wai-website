@@ -9,8 +9,6 @@ contributors:
 - name: "Sylvie Duchateau"
 
 github:
-  repository: w3c/wai-website
-  path: pages/test-eval/conformance-eval/index.fr.md  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-conformance-eval
 
 permalink: /test-evaluate/conformance/fr

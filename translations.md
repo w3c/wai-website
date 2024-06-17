@@ -1,28 +1,19 @@
 ---
 title: "All WAI Translations"
-
 lang: en
-permalink: /translations/
+description: Translations of current accessibility standards and other resources from the W3C Web Accessibility Initiative (WAI).
+teaser_text: Web accessibility resources in multiple languages. Translations of W3C Web Accessibility Initiative (WAI) resources covering strategies, standards, and support to make the Web accessible to people with disabilities.
 
+permalink: /translations/
+ref: /translations/
 parent: /
 
 sidebaricon: translations
-
-github:
-  repository: w3c/wai-website
-  path: translations.md
-
-description: Translations of current accessibility standards and other resources from the W3C Web Accessibility Initiative (WAI).
 image: /content-images/social-translations.png
-
-teaser_text: Web accessibility resources in multiple languages. Translations of W3C Web Accessibility Initiative (WAI) resources covering strategies, standards, and support to make the Web accessible to people with disabilities.
-
-
 feedbackmail: wai@w3.org
 footer: |
   <p>Translations managers: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin. Programmers: Eric Eggert and Rémi Bétin.</p>
   <p>Translations management is part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> and <a href="https://www.w3.org/WAI/about/projects/wai-core-ford/">WAI-Core Ford</a> projects, funded by the Ford Foundation; and the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-Coop</a> project, co-funded by the European Commission.</p>
-ref: /translations/
 
 inline_css: |
   dl.translations > div {

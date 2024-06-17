@@ -14,8 +14,6 @@ contributors:
 - name: "Sandra Velarde Gonzalez (ETNIC)"
 
 github:
-  repository: w3c/wai-website
-  path: "pages/design-develop/index.fr.md"
   label: wai-design-develop
 
 permalink: /design-develop/fr

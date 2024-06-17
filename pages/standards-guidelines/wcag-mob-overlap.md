@@ -3,10 +3,7 @@ title: "Web Content Accessibility and Mobile Web: Making a Website Accessible Bo
 title_html: "Web Content Accessibility and Mobile Web:<br>Making a Website Accessible Both for People with Disabilities and for Mobile Devices"
 lang: en
 permalink: /standards-guidelines/wcag-mobile-overlap/
-layout: default
 github:
-  repository: w3c/wai-website
-  path: 'pages/standards-guidelines/wai-wcag-mob-overlap.md'
   label: wai-wcag-mob-overlap
 doc-note-type: archived
 doc-note-message-md: >

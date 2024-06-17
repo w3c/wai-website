@@ -5,8 +5,6 @@ layout: default
 parent: "/"
 permalink: /meta/customize/
 github:
-  repository: w3c/wai-website
-  path: 'pages/wai-customize-design.md'
   label: wai-customize-design
 license: creative-commons
 feedbackmail: wai@w3.org

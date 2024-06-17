@@ -15,8 +15,6 @@ last_updated: 2024-04-25    # Put the date of this translation YYYY-MM-DD (with 
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    repository: w3c/wai-website
-    path: pages/standards-guidelines/wai-std-harmonization.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
     label: wai-std-harmonization
 
 permalink: /standards-guidelines/harmonization/ # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr

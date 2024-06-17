@@ -4,8 +4,6 @@ lang: en
 last_updated: 2024-04-29
 
 github:
-  repository: w3c/wai-website
-  path: pages/wai-resources.md
   label: wai-resources-list
 
 permalink: /resources/

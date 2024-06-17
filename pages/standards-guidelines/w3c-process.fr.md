@@ -16,14 +16,11 @@ contributors:
   - name: "Sandra Velarde Gonzalez (ETNIC)"
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/wai-w3c-process.fr.md  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-w3c-process
 
 permalink: /standards-guidelines/w3c-process/fr   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/w3c-process/    # Do not change this
 
-layout: default
 feedbackmail: wai@w3.org
 
 # In the footer below:

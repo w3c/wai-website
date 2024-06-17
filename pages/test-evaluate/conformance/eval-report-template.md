@@ -4,8 +4,6 @@ lang: en
 title: "Template for Accessibility Evaluation Reports"
 permalink: '/test-evaluate/report-template/'
 github:
-  repository: w3c/wai-website
-  path: pages/test-eval/conformance-eval/eval-report-template.md
   label: wai-eval-report-template
 footer: >
   <p><strong>Date:</strong> Substantive content updated 2002. Versions and links updated April 2024. Link to Report Tool added February 2022.</p>

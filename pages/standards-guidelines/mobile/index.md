@@ -15,8 +15,6 @@ last_updated: 2024-05-13    # Put the date of this translation YYYY-MM-DD (with 
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    repository: w3c/wai-website
-    path: pages/standards-guidelines/mobile/index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
     label: wai-mobile
 
 permalink: /standards-guidelines/mobile/    # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr

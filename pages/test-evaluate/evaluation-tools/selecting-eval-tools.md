@@ -14,14 +14,10 @@ last_updated: 2024-05-13  # Put the date of this translation YYYY-MM-DD (with mo
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-website
-  path: pages/test-eval/evaluation-tools/selecting-eval-tools.md  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-selecting-eval-tools
 
 permalink: /test-evaluate/tools/selecting/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /test-evaluate/tools/selecting/  # Do not change this
-
-layout: default
 
 # In the footer below:
 # Do not change the dates

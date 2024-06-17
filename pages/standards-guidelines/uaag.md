@@ -15,14 +15,11 @@ last_updated: 2024-03-04
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    repository: w3c/wai-website
-    path: pages/standards-guidelines/wai-intro-uaag.md  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
     label: wai-intro-uaag
 
 permalink: /standards-guidelines/uaag/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/uaag/    # Do not change this
 
-layout: default
 feedbackmail: wai@w3.org
 
 # In the footer below:

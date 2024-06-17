@@ -11,8 +11,6 @@ translators:
 - name: "Fri Rasyidi"   # Replace @@ with translator name
 
 github:
-    repository: w3c/wai-website
-    path: pages/standards-guidelines/mobile/index.id.md
     label: wai-mobile
 
 permalink: /standards-guidelines/mobile/id    # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr

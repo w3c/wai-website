@@ -16,14 +16,11 @@ last_updated: 2020-02-20   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/wai-w3c-process.md  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-w3c-process
 
 permalink: /standards-guidelines/w3c-process/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/w3c-process/    # Do not change this
 
-layout: default
 feedbackmail: wai@w3.org
 
 # In the footer below:

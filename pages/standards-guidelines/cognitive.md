@@ -15,8 +15,6 @@ parent: "/standards-guidelines/"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/cognitive.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-cognitive
   
 permalink: /cognitive/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr

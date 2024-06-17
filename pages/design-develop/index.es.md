@@ -12,8 +12,6 @@ translators:
   link: "http://www.muncharaz.eu/"
 
 github:
-  repository: w3c/wai-website
-  path: "pages/design-develop/index.es.md"
   label: wai-design-develop
 
 permalink: /design-develop/es

@@ -9,10 +9,10 @@ lang: fr   # Change "en" to the translated-language shortcode
 last_updated: 2023-10-18   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
-    - name: "Sofia Ahmed"
+  - name: "Sofia Ahmed"
 contributors:
-    - name: "Sandra Velarde Velazquez (ETNIC)"
-    - name: "Rémi Bétin"
+  - name: "Sandra Velarde Velazquez (ETNIC)"
+  - name: "Rémi Bétin"
 
 github:
   label: wai-first-aid
@@ -53,7 +53,6 @@ Retrouvez une approche plus détaillée de prise en compte de l'accessibilité d
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
-
 
 Ressources essentielles pour les designers et les développeurs {#resources}
 ------------------------------------------
@@ -108,13 +107,13 @@ Vous pourriez ne pas réussir à aborder en une fois tous les problèmes sur cha
 Au sein de votre périmètre de réparations, pensez à prioriser les solutions à apporter en vous concentrant sur&nbsp;:
 
 -   Les **réparations à fort impact**
-    -   Elles concernent plusieurs pages Web, telles que les barres de navigation
-    -   Elles concernent des pages Web fréquemment consultées, telles que la page d'accueil
-    -   Elles sont essentielles pour finaliser des processus, tels que les formulaires de commande
-    -   Elles sont en lien avec des problèmes de niveau A des Règles pour l'accessibilité des contenus Web (WCAG)
+  -   Elles concernent plusieurs pages Web, telles que les barres de navigation
+  -   Elles concernent des pages Web fréquemment consultées, telles que la page d'accueil
+  -   Elles sont essentielles pour finaliser des processus, tels que les formulaires de commande
+  -   Elles sont en lien avec des problèmes de niveau A des Règles pour l'accessibilité des contenus Web (WCAG)
 -   Les **réparations qui demandent peu d'efforts**
-    -   Elles demandent moins de temps, moins de compétences ou sont moins coûteuses
-    -   Elles nécessitent moins de temps d'évaluation et de validation
+  -   Elles demandent moins de temps, moins de compétences ou sont moins coûteuses
+  -   Elles nécessitent moins de temps d'évaluation et de validation
 
 Fixer un niveau d'accessibilité à atteindre {#target}
 -----------------------------------

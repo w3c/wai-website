@@ -17,7 +17,7 @@ last_updated: 2020-02-20   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-first-aid
+  label: wai-first-aid
 
 permalink: /planning/interim-repairs/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /planning/interim-repairs/   # Do not change this
@@ -56,7 +56,6 @@ Find a more comprehensive accessibility approach for the entire design and devel
 {% include_cached toc.html type="end" %}
 {:/}
 
-
 Key Resources for Designers and Developers {#resources}
 ------------------------------------------
 
@@ -85,7 +84,7 @@ basic understanding of accessibility:
 
 When you need more in-depth background:
 
--   [[How People with Disabilities Use the 
+-   [[How People with Disabilities Use the
     Web]](/people-use-web/) — Introduces
     experiences and terminology in accessibility and disability.
 -   [[Accessibility Principles]](/fundamentals/accessibility-principles/)
@@ -138,13 +137,13 @@ Within your scope of repair, consider prioritizing what you repair first
 by focusing on:
 
 -   **High-impact repairs**
-    -   Appear on multiple web pages, such as navigation bars
-    -   Appear on frequently-used web pages, such as the home page
-    -   Are critical to complete processes, such as purchase forms
-    -   Web Content Accessibility Guidelines (WCAG) Level A issues
+  -   Appear on multiple web pages, such as navigation bars
+  -   Appear on frequently-used web pages, such as the home page
+  -   Are critical to complete processes, such as purchase forms
+  -   Web Content Accessibility Guidelines (WCAG) Level A issues
 -   **Low-effort repairs**
-    -   Require less time, cost, or skills to repair
-    -   Requires less testing and validation
+  -   Require less time, cost, or skills to repair
+  -   Requires less testing and validation
 
 Set your Accessibility Target Level {#target}
 -----------------------------------

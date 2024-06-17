@@ -12,8 +12,6 @@ contributors:
     - name: "Sylvie Duchateau"
 
 github:
-    repository: w3c/wai-website
-    path: pages/test-eval/involving-users/index.fr.md  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
     label: wai-involving-users-eval
 
 permalink: /test-evaluate/involving-users/fr
