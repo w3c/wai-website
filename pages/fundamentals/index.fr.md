@@ -64,6 +64,6 @@ Cours sur l'accessibilité numérique :
 : - [[Fondations de l'accessibilité numérique – Cours en ligne gratuit]](/fundamentals/foundations-course/) - Présente un cours créé par W3C WAI pour les développeurs, les designers, les UX, les rédacteurs, les responsables et les promoteurs, qui peut être suivi à son propre rythme. **Conçu pour des apprenants techniques et non-techniques**, notamment les étudiants, les instructeurs, les professionnels et les personnes en situation de handicap. Le cours est gratuit, avec une option payante pour obtenir un certificat.
 - [[Liste de cours d'éducation, de formation et de certification sur l'accessibilité numérique]](/courses/list/) - Liste des courses de différents fournisseurs.
 
-La page associée [[[Obtenir des ressources pour…]]](/roles/) renvoie à des ressources pour les designers, les développeurs, les testeurs, les responsables, et plus encore.
+La page associée [[[Obtenir des ressources pour…]](/roles/) renvoie à des ressources pour les designers, les développeurs, les testeurs, les responsables, et plus encore.
 
 {% include image.html src="banner-with-blur.png" alt="" %}
