@@ -57,7 +57,7 @@ It provides the foundation for understanding the different accessibility standar
 
 {::options toc_levels="2" /}
 
--   This text will be replaced by the TOC.
+- This text will be replaced by the TOC.
 {:toc}
 
 {::nomarkdown}
@@ -69,15 +69,15 @@ It provides the foundation for understanding the different accessibility standar
 
 It is essential that several different components of web development and interaction work together in order for the web to be accessible to people with disabilities. These components include:
 
--   **content** - the information in a web page or web application, including:
-  -   natural information such as text, images, and sounds
-  -   code or markup that defines structure, presentation, etc.
--   **web browsers, media players**, and other "user agents"
--   **assistive technology**, in some cases - screen readers, alternative keyboards, switches, scanning software, etc.
--   **users**' knowledge, experiences, and in some cases, adaptive strategies using the web
--   **developers** - designers, coders, authors, etc., including developers with disabilities and users who contribute content
--   **authoring tools** - software that creates websites
--   **evaluation tools** - web accessibility evaluation tools, HTML validators, CSS validators, etc.
+- **content** - the information in a web page or web application, including:
+  - natural information such as text, images, and sounds
+  - code or markup that defines structure, presentation, etc.
+- **web browsers, media players**, and other "user agents"
+- **assistive technology**, in some cases - screen readers, alternative keyboards, switches, scanning software, etc.
+- **users**' knowledge, experiences, and in some cases, adaptive strategies using the web
+- **developers** - designers, coders, authors, etc., including developers with disabilities and users who contribute content
+- **authoring tools** - software that creates websites
+- **evaluation tools** - web accessibility evaluation tools, HTML validators, CSS validators, etc.
 
 ## How the Components Relate {#relate}
 
@@ -92,14 +92,14 @@ Web **developers** usually use **authoring tools** and evaluation tools to creat
 
 There are significant interdependencies between the components; that is, the components must work together in order for the web to be accessible. For example, for alternative text on images:
 
--   **technical specifications** address alternative text (for example, HTML defines the alternative text attribute (`alt`) of the image element (`img`))
--   **WAI guidelines** ([WCAG, ATAG, UAAG described below](#guidelines)) - define how to implement alternative text for accessibility in the different components
--   **developers** provide the appropriate alternative text wording
--   **authoring tools** enable, facilitate, and promote providing alternative text in a web page
--   **evaluation tools** are used to help check that alternative text exists
--   **user agents** provide human and machine interface to the alternative text
--   **assistive technologies** provide human interface to the alternative text in various modalities
--   **users** know how to get the alternative text from their user agent and/or assistive technology as needed
+- **technical specifications** address alternative text (for example, HTML defines the alternative text attribute (`alt`) of the image element (`img`))
+- **WAI guidelines** ([WCAG, ATAG, UAAG described below](#guidelines)) - define how to implement alternative text for accessibility in the different components
+- **developers** provide the appropriate alternative text wording
+- **authoring tools** enable, facilitate, and promote providing alternative text in a web page
+- **evaluation tools** are used to help check that alternative text exists
+- **user agents** provide human and machine interface to the alternative text
+- **assistive technologies** provide human interface to the alternative text in various modalities
+- **users** know how to get the alternative text from their user agent and/or assistive technology as needed
 
 ### The Implementation Cycle
 
@@ -121,8 +121,8 @@ If an accessibility feature is not implemented in one component, there is little
 
 If one component has poor accessibility support, sometimes other components can compensate through "work-arounds" that require much more effort and are not good for accessibility overall. For example,
 
--   developers can do more work to compensate for some lack of accessibility support in authoring tools; for example, coding markup directly instead of through a tool
--   users can do more work to compensate for some lack of accessibility support in browsers, media players, and assistive technology and lack of accessibility of content; for example, using different browsers or assistive technologies to overcome different accessibility issues
+- developers can do more work to compensate for some lack of accessibility support in authoring tools; for example, coding markup directly instead of through a tool
+- users can do more work to compensate for some lack of accessibility support in browsers, media players, and assistive technology and lack of accessibility of content; for example, using different browsers or assistive technologies to overcome different accessibility issues
 
 However, in most cases the works-arounds are not implemented and the result is still poor accessibility. Additionally, sometimes poor accessibility support in one component cannot be reasonably overcome by other components and the result is inaccessibility, making it impossible for some people with disabilities to use a particular website, page, or feature.
 
@@ -130,9 +130,9 @@ However, in most cases the works-arounds are not implemented and the result is s
 
 The World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) develops **web accessibility standards** for the different components:
 
--   [[Authoring Tool Accessibility Guidelines (ATAG)]](/standards-guidelines/atag/) addresses authoring tools
--   [[Web Content Accessibility Guidelines (WCAG)]](/standards-guidelines/wcag/) addresses web content, and is used by developers, authoring tools, and accessibility evaluation tools
--   [[User Agent Accessibility Guidelines (UAAG)]](/standards-guidelines/uaag/) addresses web browsers and media players, including some aspects of assistive technologies
+- [[Authoring Tool Accessibility Guidelines (ATAG)]](/standards-guidelines/atag/) addresses authoring tools
+- [[Web Content Accessibility Guidelines (WCAG)]](/standards-guidelines/wcag/) addresses web content, and is used by developers, authoring tools, and accessibility evaluation tools
+- [[User Agent Accessibility Guidelines (UAAG)]](/standards-guidelines/uaag/) addresses web browsers and media players, including some aspects of assistive technologies
 
 
 These accessibility guidelines are based on the fundamental technical specifications of the web, and are developed in coordination with all <a href="https://www.w3.org/TR/">W3C technical specifications</a> (HTML, CSS, SVG, SMIL, etc.). W3C also develops technical specifications that directly address accessibility, including:
