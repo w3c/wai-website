@@ -63,4 +63,4 @@ Kursy dostępności cyfrowej:
 
 Powiązana strona: [[Uzyskaj materiały dla…]](/roles/) łącza do materiałów dla projektantów, programistów, testerów, menedżerów i nie tylko.
 
-{% include image.html src="banner-with-blur.png" alt="" %}
+{% include image.html src="fundamentals/banner-with-blur.png" alt="" %}

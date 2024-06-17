@@ -95,7 +95,7 @@ And also:
 *  professionals
 *  people with disabilities
 
-{% include image.html src="checks-image-1.png" alt="'Checks': boxes of text. monitor with green checkmarks and red x-marks." class="medium right" %}
+{% include image.html src="courses/checks-image-1.png" alt="'Checks': boxes of text. monitor with green checkmarks and red x-marks." class="medium right" %}
 
 ## What you get from the course
 
@@ -117,7 +117,7 @@ We encourage you to go through the whole course, even if you focus more on some 
 
 {% include excol.html type="middle" %}
 
-{% include image.html src="wcag2.1AAA-blue-v.svg" alt="W3C WAI-AAA WCAG 2.1 logo" class="small right" %}
+{% include image.html src="courses/wcag2.1AAA-blue-v.svg" alt="W3C WAI-AAA WCAG 2.1 logo" class="small right" %}
 
 The course covers principles from the World Wide Web Consortium (W3C) Web Accessibility Initiative's (WAI) Web Content Accessibility Guidelines (WCAG), and much more:
 
@@ -148,7 +148,7 @@ This course will be available on the edX platform through at least August 2024. 
 
 **The course is free.** The audit option gives you access to all of the content.
 
-{% include image.html src="certificate.png" alt="" class="normal right" %}
+{% include image.html src="courses/certificate.png" alt="" class="normal right" %}
 
 Optionally, you can choose to get a **Verified Certificate** for $99 USD to demonstrate successful course completion.
 
@@ -162,13 +162,13 @@ _(For information about edX certificate verification and accessibility, see: [ed
 
 ## Video excerpts from the course
 
-{% include image.html src="video6-tagline.png" alt="Accessibility: Essential for some, useful for all" class="normal right" %}
+{% include image.html src="courses/video6-tagline.png" alt="Accessibility: Essential for some, useful for all" class="normal right" %}
 
 From Module 1, on how accessibility impacts the lives of people interacting in the digital world:
 * **[Reading with and without text wrapping, on YouTube](https://youtu.be/5nlcEgJGIs8)**<br>_([same reading video on W3C website](https://www.w3.org/2020/10/TPAC/w3cx-reading-wrapping.html#talk))_
 * **[Low vision: Challenging assumptions and understanding differences, on YouTube](https://youtu.be/JUfmCvdzqbM)**<br>_([same low vision video on W3C website](https://www.w3.org/2020/10/TPAC/w3cx-challenging-assumptions.html#talk))_
 
-{% include image.html src="makoto-video.png" class="normal right mspaceabove" %}
+{% include image.html src="courses/makoto-video.png" class="normal right mspaceabove" %}
 
 From Module 4, on designing and developing accessibly, and checking (evaluating or testing) for accessibility:
 * **[Check Headings, on YouTube](https://youtu.be/JR5hCvifJVo)**<br>_([same check headings video on W3C website](https://www.w3.org/2020/10/TPAC/w3cx-headings.html#talk))_
@@ -205,41 +205,41 @@ This unique course is **based on the [open curricula](https://www.w3.org/WAI/cur
 
 <p style="padding-bottom:0;margin-bottom:0;">Course Manager and Development Lead:</p>
 <figure class="trainers">
-  {% include image.html src="shadi.png" alt="" %} <figcaption>Shadi Abou-Zahra</figcaption>
+  {% include image.html src="courses/shadi.png" alt="" %} <figcaption>Shadi Abou-Zahra</figcaption>
   </figure>
 <div style="clear: both;"></div>
 
 <p style="padding-bottom:0;margin-bottom:0;">Course Trainers:</p>
 <figure class="trainers">
-  {% include image.html src="shawn.png" alt="" %}
+  {% include image.html src="courses/shawn.png" alt="" %}
   <figcaption>Shawn<br>Henry</figcaption>
   </figure>
 <figure class="trainers">
-  {% include image.html src="anthony.png" alt="" %}
+  {% include image.html src="courses/anthony.png" alt="" %}
   <figcaption>Anthony<br>Vasquez</figcaption>
   </figure>
 <figure class="trainers">
-  {% include image.html src="henny.png" alt="" %}
+  {% include image.html src="courses/henny.png" alt="" %}
   <figcaption>Henny<br>Swan</figcaption>
   </figure>
 <figure class="trainers">
-  {% include image.html src="vivienne.png" alt="" %}
+  {% include image.html src="courses/vivienne.png" alt="" %}
   <figcaption>Vivienne<br>Conway</figcaption>
   </figure>
 <figure class="trainers">
-  {% include image.html src="makoto.png" alt="" %}
+  {% include image.html src="courses/makoto.png" alt="" %}
   <figcaption>Makoto<br>Ueki</figcaption>
   </figure>
 <figure class="trainers">
-  {% include image.html src="carie.png" alt="" %}
+  {% include image.html src="courses/carie.png" alt="" %}
   <figcaption>Carie<br>Fisher</figcaption>
   </figure>
 <figure class="trainers">
-  {% include image.html src="sarah.png" alt="" %}
+  {% include image.html src="courses/sarah.png" alt="" %}
   <figcaption>Sarah<br>Pulis</figcaption>
   </figure>
 <figure class="trainers">
-  {% include image.html src="andrew.png" alt="" %}
+  {% include image.html src="courses/andrew.png" alt="" %}
   <figcaption>Andrew<br>Arch</figcaption>
   </figure>
 

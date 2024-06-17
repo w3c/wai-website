@@ -35,20 +35,20 @@ inline_css: |
   img.icon {--img-width:1em}
 ---
 
-{% include image.html src="still-dog-outside.png" alt="" class="normal right" %}
+{% include image.html src="people/still-dog-outside.png" alt="" class="normal right" %}
 
 Accessibility is about ensuring that digital technology is usable by people with disabilities. Checklists, standards, and laws are important tools to help achieve accessibility — yet sometimes they get the focus instead of the fundamental goal of accessibility: meeting the needs of disabled people in the real world. Accessibility is an important aspect of diversity, equity, and inclusion (DEI).
 
 Many WAI resources cover the organizational, technical, and standards aspects of accessibility. The following WAI resources help you understand the **people** aspects:
 
 <div style="float:right; margin-left:1em; clear:both;">
-{% include image.html src="two-smiling.png" alt="" class="mini" %}<br>
-{% include image.html src="low-vision.png" alt="" class="mini" %}<br>
-{% include image.html src="older-user-laptop.png" alt="" class="mini" %}<br>
-{% include image.html src="sip-puff.png" alt="" class="mini" %}<br>
-{% include image.html src="hearing-aid.png" alt="" class="mini" %}<br>
-{% include image.html src="low-vision-pizza.png" alt="" class="mini" %}<br>
-{% include image.html src="mobile-outside.png" alt="" class="mini" %}
+{% include image.html src="people/two-smiling.png" alt="" class="mini" %}<br>
+{% include image.html src="people/low-vision.png" alt="" class="mini" %}<br>
+{% include image.html src="people/older-user-laptop.png" alt="" class="mini" %}<br>
+{% include image.html src="people/sip-puff.png" alt="" class="mini" %}<br>
+{% include image.html src="people/hearing-aid.png" alt="" class="mini" %}<br>
+{% include image.html src="people/low-vision-pizza.png" alt="" class="mini" %}<br>
+{% include image.html src="people/mobile-outside.png" alt="" class="mini" %}
 </div>
 
 [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](/perspective-videos/) 

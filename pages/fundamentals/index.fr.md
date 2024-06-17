@@ -66,4 +66,4 @@ Cours sur l'accessibilité numérique :
 
 La page associée [[[Obtenir des ressources pour…]](/roles/) renvoie à des ressources pour les designers, les développeurs, les testeurs, les responsables, et plus encore.
 
-{% include image.html src="banner-with-blur.png" alt="" %}
+{% include image.html src="fundamentals/banner-with-blur.png" alt="" %}

@@ -65,4 +65,4 @@ Digital Accessibility Courses:
 
 Related page: [[Get Resources for…]](/roles/) links to resources for designers, developers, testers, managers, and more.
 
-{% include image.html src="banner-with-blur.png" alt="" %}
+{% include image.html src="fundamentals/banner-with-blur.png" alt="" %}
