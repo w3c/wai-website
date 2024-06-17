@@ -15,15 +15,12 @@ last_updated: 2024-02-29   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/index.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
   label: wai-standards-guidelines
 
 permalink: /standards-guidelines/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/   # Do not change this
 
 changelog: /standards-guidelines/changelog/ # Do not change this
-layout: default
 feedbackmail: wai@w3.org
 
 # In the footer below:

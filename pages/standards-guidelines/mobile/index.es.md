@@ -14,8 +14,6 @@ contributors:
 - name: "Martín Álvarez-Espinar (CTIC)"
 
 github:
-    repository: w3c/wai-website
-    path: pages/standards-guidelines/mobile/index.es.md
     label: wai-mobile
 
 permalink: /standards-guidelines/mobile/es    # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr

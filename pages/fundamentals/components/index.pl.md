@@ -4,24 +4,18 @@
 
 title: Podstawowe komponenty dostępności Internetu
 nav_title: "Komponenty dostępności Internetu" # A short title that is used in the navigation
-
-lang: pl   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-
+lang: pl   # Change "en" to the translated language shortcode
 last_updated: 2024-03-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stefan Wajda"
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 
 github:
-    repository: w3c/wai-website
-    path: pages/fundamentals/components/index.pl.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-    label: wai-components
+  label: wai-components
 
-permalink: /fundamentals/components/pl 
+permalink: /fundamentals/components/pl
 ref: /fundamentals/components/   # Do not change this
- 
+
 feedbackmail: wai@w3.org
 
 # In the footer below:
@@ -59,7 +53,7 @@ Stanowi on podstawę do zrozumienia różnych standardów dostępności opracowa
 
 {::options toc_levels="2" /}
 
--   This text will be replaced by the TOC.
+- This text will be replaced by the TOC.
 {:toc}
 
 {::nomarkdown}
@@ -72,15 +66,15 @@ Stanowi on podstawę do zrozumienia różnych standardów dostępności opracowa
 
 Aby Internet był dostępny dla osób z&nbsp;niepełnosprawnościami, konieczne jest współdziałanie kilku różnych komponentów związanych z&nbsp;projektowaniem i&nbsp;tworzeniem treści cyfrowych. Te komponenty to:
 
--   **treść** - informacje na stronie internetowej lub w aplikacji internetowej, w tym:
-    -   informacje naturalne (takie jak tekst, obraz i dźwięki) oraz
-    -   kod lub znaczniki definiujące strukturę, prezentację itp.
--   **przeglądarki internetowe, odtwarzacze multimedialne**, i inne „programy użytkownika”
--   **technologie wspomagające**, w niektórych przypadkach - czytniki ekranu, alternatywne klawiatury, przełączniki, oprogramowanie skanujące itp.
--   **użytkownicy**, ich wiedza, doświadczenia, a w niektórych przypadkach, sposób korzystania z internetu (strategie adaptacyjne
--   **twórcy** - projektanci, programiści, autorzy itd., w tym twórcy z&nbsp;niepełnosprawnościami i&nbsp;użytkownicy, którzy współtworzą treść
--   **narzędzia autorskie** - oprogramowanie do tworzenia treści cyfrowych
--   **narzędzia oceniające** - oprogramowanie do oceny dostępności cyfrowej, walidatory HTML i CSS itp.
+- **treść** - informacje na stronie internetowej lub w aplikacji internetowej, w tym:
+  - informacje naturalne (takie jak tekst, obraz i dźwięki) oraz
+  - kod lub znaczniki definiujące strukturę, prezentację itp.
+- **przeglądarki internetowe, odtwarzacze multimedialne**, i inne „programy użytkownika”
+- **technologie wspomagające**, w niektórych przypadkach - czytniki ekranu, alternatywne klawiatury, przełączniki, oprogramowanie skanujące itp.
+- **użytkownicy**, ich wiedza, doświadczenia, a w niektórych przypadkach, sposób korzystania z internetu (strategie adaptacyjne
+- **twórcy** - projektanci, programiści, autorzy itd., w tym twórcy z&nbsp;niepełnosprawnościami i&nbsp;użytkownicy, którzy współtworzą treść
+- **narzędzia autorskie** - oprogramowanie do tworzenia treści cyfrowych
+- **narzędzia oceniające** - oprogramowanie do oceny dostępności cyfrowej, walidatory HTML i CSS itp.
 
 ## Jak komponenty są ze sobą powiązane {#relate}
 
@@ -95,14 +89,14 @@ Aby Internet był dostępny dla osób z&nbsp;niepełnosprawnościami, konieczne 
 
 Między tymi komponentami istnieją istotne współzależności; to znaczy że komponenty muszą ze sobą współpracować, aby Internet był dostępny. Na przykład, dla tekstu alternatywnego opisującego obraz:
 
--   **specyfikacja techniczna** wymaga alternatywy tekstowej (np. HTML definiuje atrybut tekstu alternatywnego (`alt`) w elemencie obrazka (`img`)
--   **wytyczne WAI** - ([WCAG, ATAG i UAAG, wymienione w dalszej części](#guidelines)) - określają, jak wdrożyć tekst alternatywny w&nbsp;różnych komponentach, aby zwiększyć dostępność
--   **twórcy** zapewniają odpowiednie sformułowania tekstu alternatywnego
--   **narzędzia autorskie** umożliwiają, ułatwiają i promują zamieszczanie tekstu alternatywnego na stronie internetowej
--   **narzędzia oceny** służą do sprawdzenia, czy istnieje tekst alternatywny
--   **oprogramowanie użytkownika** zapewnia ludziom i maszynom interfejs do obsługi tekstu alternatywnego w&nbsp;różnych trybach
--   **użytkownicy** wiedzą jak odczytać tekst alternatywny w&nbsp;wykorzystywanym przez nich oprogramowaniu i/lub technologiach wspomagających, w razie potrzeby.
-	  
+- **specyfikacja techniczna** wymaga alternatywy tekstowej (np. HTML definiuje atrybut tekstu alternatywnego (`alt`) w elemencie obrazka (`img`)
+- **wytyczne WAI** - ([WCAG, ATAG i UAAG, wymienione w dalszej części](#guidelines)) - określają, jak wdrożyć tekst alternatywny w&nbsp;różnych komponentach, aby zwiększyć dostępność
+- **twórcy** zapewniają odpowiednie sformułowania tekstu alternatywnego
+- **narzędzia autorskie** umożliwiają, ułatwiają i promują zamieszczanie tekstu alternatywnego na stronie internetowej
+- **narzędzia oceny** służą do sprawdzenia, czy istnieje tekst alternatywny
+- **oprogramowanie użytkownika** zapewnia ludziom i maszynom interfejs do obsługi tekstu alternatywnego w&nbsp;różnych trybach
+- **użytkownicy** wiedzą jak odczytać tekst alternatywny w&nbsp;wykorzystywanym przez nich oprogramowaniu i/lub technologiach wspomagających, w razie potrzeby.
+
 ### Cykl implementacji
 
 Gdy funkcje dostępności zostaną skutecznie zaimplementowane w jednym komponencie, istnieje większe prawdopodobieństwo, że zostaną wdrożone w innych komponentach.
@@ -110,8 +104,8 @@ Gdy funkcje dostępności zostaną skutecznie zaimplementowane w jednym komponen
 {% include image.html src="components/cycle.pl.png" alt="" %}
 
 - Gdy **przeglądarki internetowe, odtwarzacze mediów, technologie wspomagające** i inne **programy użytkownika** obsługują funkcje dostępności, użytkownicy częściej będą tego wymagać, a programiści częściej implementować je w swoich **treściach**.
-- Gdy twórcy chcą wdrażać funkcje dostępności w swoich **treściach**, częściej domagają się, aby **narzędzie autorskie** ułatwiało ich wdrożenie. 
-- Gdy **narzędzia autorskie** umożliwiają łatwą implementację funkcji dostępności, twórcy chętniej je wdrożą w swoich **treściach**. 
+- Gdy twórcy chcą wdrażać funkcje dostępności w swoich **treściach**, częściej domagają się, aby **narzędzie autorskie** ułatwiało ich wdrożenie.
+- Gdy **narzędzia autorskie** umożliwiają łatwą implementację funkcji dostępności, twórcy chętniej je wdrożą w swoich **treściach**.
 - Gdy funkcje dostępności są zaimplementowane w **większości treści**, twórcy i&nbsp;użytkownicy częściej żądają, aby obsługiwały je **programy użytkownika**.
 
 ### Gdy jeden komponent jest słaby
@@ -123,8 +117,8 @@ Gdy funkcje dostępności nie są zaimplementowane w którymś z komponentów, m
 
 Gdy jeden komponent kiepsko obsługuje dostępność, inne komponenty mogą to czasami zrekompensować poprzez „obejścia”, choć wymaga to znacznie większego wysiłku i ogólnie nie jest dobre dla dostępności. Na przykład:
 
--   twórcy mogą wykonać więcej pracy, aby zrekompensować brak obsługi dostępności w&nbsp;narzędziach autorskich; na przykład poprzez bezpośrednie kodowanie znaczników zamiast za pomocą narzędzia,
--   użytkownicy mogą wykonać więcej pracy, aby zrekompensować  brak obsługi dostępności w przeglądarkach, odtwarzaczach mediów lub technologiach wspomagających; na przykład, używając innej przeglądarki lub technologii wspomagającej, aby przezwyciężyć różne problemy z dostępnością.
+- twórcy mogą wykonać więcej pracy, aby zrekompensować brak obsługi dostępności w&nbsp;narzędziach autorskich; na przykład poprzez bezpośrednie kodowanie znaczników zamiast za pomocą narzędzia,
+- użytkownicy mogą wykonać więcej pracy, aby zrekompensować  brak obsługi dostępności w przeglądarkach, odtwarzaczach mediów lub technologiach wspomagających; na przykład, używając innej przeglądarki lub technologii wspomagającej, aby przezwyciężyć różne problemy z dostępnością.
 
 Jednak w większości przypadków obejścia nie są wdrażane, a efektem jest wciąż ograniczona dostępność. Ponadto, czasami słaba obsługa dostępności w jednym komponencie nie może być rozsądnie przezwyciężona przez inne komponenty, a efektem jest niedostępność uniemożliwiająca niektórym osobom niepełnosprawnym korzystanie z określonej witryny, strony lub funkcji.
 
@@ -132,9 +126,9 @@ Jednak w większości przypadków obejścia nie są wdrażane, a efektem jest wc
 
 Inicjatywa na Rzecz Dostępności Internetu ([WAI](https://www.w3.org/WAI/)) w Konsorcjum <span lang="en">World Wide Web</span> ([W3C](https://www.w3.org/)) opracowuje **standardy dostępności cyfrowej** dla różnych komponentów:
 
--   [[Wytyczne dla dostępności narzędzi autorskich (ATAG)]](/standards-guidelines/atag/) dotyczące narzędzi do tworzenia treści
--   [[Wytyczne dla dostępności treści internetowych (WCAG)]](/standards-guidelines/wcag/) dotyczące treści i wykorzystywane przez twórców oraz narzędzia autorskie i oceniające
--   [Wytyczne dla dostępności programów użytkownika (UAAG)](/standards-guidelines/uaag/) dotyczące przeglądarek i odtwarzaczy mediów oraz niektórych aspektów technologii wspomagających
+- [[Wytyczne dla dostępności narzędzi autorskich (ATAG)]](/standards-guidelines/atag/) dotyczące narzędzi do tworzenia treści
+- [[Wytyczne dla dostępności treści internetowych (WCAG)]](/standards-guidelines/wcag/) dotyczące treści i wykorzystywane przez twórców oraz narzędzia autorskie i oceniające
+- [Wytyczne dla dostępności programów użytkownika (UAAG)](/standards-guidelines/uaag/) dotyczące przeglądarek i odtwarzaczy mediów oraz niektórych aspektów technologii wspomagających
 
 Te wytyczne opierają się na podstawowych specyfikacjach technicznych Internetu i są opracowywane w połączeniu ze <a href="https://www.w3.org/TR/">wszystkimi specyfikacjami technicznymi W3C</a> (HTML, CSS, SVG, SMIL itp.). W3C opracowuje również specyfikacje techniczne, które bezpośrednio dotyczą dostępności, w tym:
 

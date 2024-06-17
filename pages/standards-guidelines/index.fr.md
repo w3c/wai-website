@@ -13,8 +13,6 @@ contributors:
 - name: "Victoria Menezes Miller"
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/index.fr.md   # Add the language shortcode to the middle of the filename, for example content/index.fr.md
   label: wai-standards-guidelines
 
 permalink: /standards-guidelines/fr   # Add the language shortcode to the end; for example /standards-guidelines/fr

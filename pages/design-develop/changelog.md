@@ -6,8 +6,6 @@ nav_title: "Changelog"
 lang: en
 
 github:
-  repository: w3c/wai-website
-  path: "pages/design-develop/changelog.md"
   label: wai-design-develop
 
 permalink: /design-develop/changelog/

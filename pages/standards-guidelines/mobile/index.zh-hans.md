@@ -12,8 +12,6 @@ translators:
   link: "https://imnerd.org/about.html"
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/mobile/index.zh-hans.md
   label: wai-mobile
 
 permalink: /standards-guidelines/mobile/zh-hans    # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr

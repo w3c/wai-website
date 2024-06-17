@@ -11,8 +11,6 @@ contributors:
   - name: "محمد سليم"
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/mobile/index.ar.md
   label: wai-mobile
 
 permalink: /standards-guidelines/mobile/ar    # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr

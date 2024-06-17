@@ -16,14 +16,11 @@ last_updated: 2023-01-05  # Put the date of this translation YYYY-MM-DD (with mo
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-website
-  path: pages/standards-guidelines/wai-adapt.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-adapt
 
 permalink: /adapt/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /adapt/  # Do not change this
 
-layout: default
 feedbackmail: wai@w3.org
 
 # In the footer below:

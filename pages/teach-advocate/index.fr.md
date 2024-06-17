@@ -11,8 +11,6 @@ contributors:
 - name: "Sandra Velarde Gonzalez (ETNIC)"
 
 github:
-  repository: w3c/wai-website
-  path: "pages/teach-advocate/index.fr.md"
   label: wai-teach-advocate
 
 permalink: /teach-advocate/fr

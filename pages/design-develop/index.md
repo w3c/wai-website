@@ -15,8 +15,6 @@ last_updated: 2022-05-19  # Put the date of this translation YYYY-MM-DD (with mo
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-website
-  path: "pages/design-develop/index.md"  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-design-develop
 
 permalink: /design-develop/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr

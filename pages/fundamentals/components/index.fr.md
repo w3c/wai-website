@@ -13,8 +13,6 @@ contributors:
 - name: "Rémi Bétin"
 
 github:
-  repository: w3c/wai-website
-  path: pages/fundamentals/components/index.fr.md   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
   label: wai-components
 
 permalink: /fundamentals/components/fr   # Add the language shortcode to the end; for example /path/to/file/fr
@@ -56,7 +54,7 @@ Elle fournit les bases pour comprendre les différents standards d’accessibili
  
 {::options toc_levels="2" /}
  
--   This text will be replaced by the TOC.
+- This text will be replaced by the TOC.
 {:toc}
  
 {::nomarkdown}
@@ -69,15 +67,15 @@ Elle fournit les bases pour comprendre les différents standards d’accessibili
  
 Il est essentiel que des composantes distinctes et multiples du développement web et de l’interaction utilisateur s’articulent convenablement pour que le Web soit accessible aux personnes handicapées. Ces composantes incluent&nbsp;:
  
--   **du contenu** – l’information contenue dans une page web ou une application web, y compris&nbsp;:
-  -   de l’information primaire telle que du texte, des images et des sons,
-  -   du code ou du balisage qui définit la structure, la présentation… &nbsp;;
--   **des navigateurs web, des lecteurs de média**, et d’autres «&nbsp;agents utilisateurs&nbsp;»&nbsp;;
--   **une technologie d’assistance**, dans certains cas – lecteurs d’écran, claviers alternatifs, contacteurs, logiciel de numérisation… &nbsp;;
--   les connaissances, l’expérience et dans certains cas les stratégies d’adaptation **des utilisateurs** pour l’utilisation du Web&nbsp;;
--   **des créateurs** – concepteurs, graphistes, codeurs, auteurs… y compris des créateurs handicapés et des utilisateurs qui contribuent&nbsp;;
--   **des outils de création** – logiciels de création de sites web&nbsp;;
--   **des outils d’évaluation** – outils d’évaluation de l’accessibilité web, validateurs HTML ou CSS…
+- **du contenu** – l’information contenue dans une page web ou une application web, y compris&nbsp;:
+  - de l’information primaire telle que du texte, des images et des sons,
+  - du code ou du balisage qui définit la structure, la présentation… &nbsp;;
+- **des navigateurs web, des lecteurs de média**, et d’autres «&nbsp;agents utilisateurs&nbsp;»&nbsp;;
+- **une technologie d’assistance**, dans certains cas – lecteurs d’écran, claviers alternatifs, contacteurs, logiciel de numérisation… &nbsp;;
+- les connaissances, l’expérience et dans certains cas les stratégies d’adaptation **des utilisateurs** pour l’utilisation du Web&nbsp;;
+- **des créateurs** – concepteurs, graphistes, codeurs, auteurs… y compris des créateurs handicapés et des utilisateurs qui contribuent&nbsp;;
+- **des outils de création** – logiciels de création de sites web&nbsp;;
+- **des outils d’évaluation** – outils d’évaluation de l’accessibilité web, validateurs HTML ou CSS…
  
 ## Comment les composantes s’articulent {#relate}
 
@@ -92,14 +90,14 @@ Les **créateurs** web utilisent généralement **des outils de création** et d
  
 Il y a des interdépendances cruciales entre les composantes&nbsp;; c’est-à-dire que les composantes doivent s’articuler correctement pour que le web soit accessible. Par exemple, pour les équivalents textuels aux images&nbsp;:
  
--   les **spécifications techniques** traitent des équivalents textuels (par exemple, HTML définit l’attribut d’équivalent textuel (`alt`) pour l’élément image (`img`))&nbsp;;
--   **les règles WAI** ([WCAG, ATAG, UAAG décrites ci-dessous](#guidelines)) définissent comment mettre en place les équivalents textuels dans la perspective de l’accessibilité pour les différentes composantes&nbsp;;
--   les **créateurs** fournissent la formulation appropriée de l’équivalent textuel&nbsp;;
--   les **outils de création** permettent, facilitent et promeuvent la fourniture d’un équivalent textuel dans une page web&nbsp;;
--   les **outils d’évaluation** sont utilisés pour faciliter la vérification de la présence d’équivalents textuels&nbsp;;
--   les **agents utilisateurs** fournissent des interfaces à destination des êtres humains et des machines pour l’équivalent textuel&nbsp;;
--   les **technologies d’assistance** fournissent un accès aux êtres humains à l’équivalent textuel suivant différentes modalités&nbsp;;
--   les **utilisateurs** savent comment obtenir l’équivalent textuel depuis leur agent utilisateur ou leur technologie d’assistance ou les deux, selon que de besoin.
+- les **spécifications techniques** traitent des équivalents textuels (par exemple, HTML définit l’attribut d’équivalent textuel (`alt`) pour l’élément image (`img`))&nbsp;;
+- **les règles WAI** ([WCAG, ATAG, UAAG décrites ci-dessous](#guidelines)) définissent comment mettre en place les équivalents textuels dans la perspective de l’accessibilité pour les différentes composantes&nbsp;;
+- les **créateurs** fournissent la formulation appropriée de l’équivalent textuel&nbsp;;
+- les **outils de création** permettent, facilitent et promeuvent la fourniture d’un équivalent textuel dans une page web&nbsp;;
+- les **outils d’évaluation** sont utilisés pour faciliter la vérification de la présence d’équivalents textuels&nbsp;;
+- les **agents utilisateurs** fournissent des interfaces à destination des êtres humains et des machines pour l’équivalent textuel&nbsp;;
+- les **technologies d’assistance** fournissent un accès aux êtres humains à l’équivalent textuel suivant différentes modalités&nbsp;;
+- les **utilisateurs** savent comment obtenir l’équivalent textuel depuis leur agent utilisateur ou leur technologie d’assistance ou les deux, selon que de besoin.
  
 ### Le cycle de mise en œuvre
  
@@ -121,8 +119,8 @@ Si une fonctionnalité d’accessibilité n’est pas mise en œuvre dans une co
 
 Si une composante a une faible prise en compte de l'accessibilité, d’autres composantes peuvent parfois compenser cela au travers de «&nbsp;contournements&nbsp;» qui nécessitent beaucoup plus d’effort et ne sont pas positifs pour l’accessibilité en général. Par exemple&nbsp;:
  
--   les créateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des outils de création&nbsp;; par exemple en codant du balisage directement plutôt que grâce à un outil&nbsp;;
--   les utilisateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des navigateurs, des lecteurs de média, et de la technologie d’assistance&nbsp;; et le manque d’accessibilité du contenu&nbsp;; par exemple en utilisant différents navigateurs ou technologies d’assistance pour surmonter différents problèmes d'accessibilité.
+- les créateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des outils de création&nbsp;; par exemple en codant du balisage directement plutôt que grâce à un outil&nbsp;;
+- les utilisateurs peuvent avoir plus de travail pour compenser des lacunes dans les fonctionnalités d’accessibilité des navigateurs, des lecteurs de média, et de la technologie d’assistance&nbsp;; et le manque d’accessibilité du contenu&nbsp;; par exemple en utilisant différents navigateurs ou technologies d’assistance pour surmonter différents problèmes d'accessibilité.
  
 Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre et le résultat reste décevant en matière  d’accessibilité. De plus un support défaillant de l’accessibilité dans une composante ne peut parfois pas toujours être raisonnablement compensé par les autres composantes&nbsp;; le résultat étant l’inaccessibilité, rendant impossible pour certaines personnes handicapées l’utilisation d’un site, d’une page ou d’une fonctionnalité en particulier.
  
@@ -130,9 +128,9 @@ Cependant dans la plupart des cas les contournements ne sont pas mis en œuvre e
  
 L’Initiative pour l’accessibilité du Web (<abbr lang="en" title="Web Accessibility Initiative">[WAI](https://www.w3.org/WAI/)</abbr>) du <span lang="en">World Wide Web Consortium</span> ([W3C](https://www.w3.org/)) développe des **standards d’accessibilité du Web** pour différentes composantes&nbsp;:
  
--   [les Règles pour l'accessibilité des outils d'édition (<abbr lang="en" title="Authoring Tool Accessibility Guidelines">ATAG</abbr>)](/standards-guidelines/atag/) traite des outils de création&nbsp;;
--   [les Règles pour l'accessibilité des contenus Web (<abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr>)](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
--   [les Règles pour l'accessibilité des agents utilisateurs (<abbr lang="en" title="User Agent Accessibility Guidelines ">UAAG</abbr>)](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
+- [les Règles pour l'accessibilité des outils d'édition (<abbr lang="en" title="Authoring Tool Accessibility Guidelines">ATAG</abbr>)](/standards-guidelines/atag/) traite des outils de création&nbsp;;
+- [les Règles pour l'accessibilité des contenus Web (<abbr lang="en" title="Web Content Accessibility Guidelines">WCAG</abbr>)](/standards-guidelines/wcag/) traite du contenu web, et est utilisé par les créateurs, outils de création et outils d’évaluation de l’accessibilité&nbsp;;
+- [les Règles pour l'accessibilité des agents utilisateurs (<abbr lang="en" title="User Agent Accessibility Guidelines ">UAAG</abbr>)](/standards-guidelines/uaag/) traite des navigateurs et lecteurs de média, y compris certains aspects des technologies d’assistance.
  
 Ces règles d’accessibilité reposent sur le socle des spécifications techniques fondamentales du Web, et sont développées en coordination avec toutes les <a href="https://www.w3.org/TR/">spécifications techniques de W3C {% include_cached different.html %}</a> (HTML, CSS, SVG, SMIL, etc.). W3C développe aussi des spécifications techniques qui traitent directement d’accessibilité, dont&nbsp;:
  

@@ -6,8 +6,6 @@ nav_title: "Changelog"
 lang: en
 
 github:
-  repository: w3c/wai-website
-  path: "pages/teach-advocate/changelog.md"
   label: wai-teach-advocate
 
 permalink: /teach-advocate/changelog/
