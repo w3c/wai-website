@@ -44,7 +44,7 @@ This online symposium took place on 10 and 11 January 2023 and brought together 
 In this symposium, Jutta Treviranus delivers an opening keynote that sheds light on the harms of AI specific to people with disabilities. She addresses ethical concerns surrounding AI, such as lack of representation, human bigotry, manipulative practices, unfair value extraction, exploitation, and disinformation. Jutta emphasizes the significance of considering the impact of AI on people with disabilities, as they are often at the margins of justice-deserving groups, making them more vulnerable to both existing and emerging harms. She discusses the increasing complexity of decision-making processes and the growing appeal and usefulness of AI decision tools. Jutta also highlights the challenges of data diversity, predictive accuracy, data privacy, and the need for transparency in data usage. The discussion expands to include topics such as ethics, bias, and the efforts being made globally to address AI ethics. Jutta concludes by exploring the potential of AI and the opportunity it presents to reassess what we want to automate, what we mean by concepts such as best, optimal, and fairness, and how we can include marginalized individuals in the development and use of AI technologies.
 
 <div class="video-container" data-video-type="" dir="ltr">
-  <video id="video-do-no-harm" data-able-player preload="metadata" data-youtube-id="cRdfU-H0o6I" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/about/projects/wai-coop/symposium2-captions/do_no_harm.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
+  <video id="video-do-no-harm" data-able-player preload="metadata" data-youtube-id="cRdfU-H0o6I" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/wai-videos/symposium2/do_no_harm.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
 </div>
 
 {% include excol.html type="start" id="opening-keynote-transcription" %}
@@ -196,7 +196,7 @@ In this symposium, Jutta Treviranus delivers an opening keynote that sheds light
 This session began with panelists addressing the quality of automated image description, specifically focusing on how to define quality and train AI models to identify aspects like identity, emotion, and appearance in personal images. Different viewpoints were shared, including the recognition of emotions and specific characteristics by current systems, the importance of considering the context and user preferences, and the need for diverse training data. Responsibility and agency were also discussed, highlighting the roles of content creators and users in generating and consuming media descriptions. The impact of AI tools on user agency, the challenge of maintaining diversity in automated descriptions, and the role of the Web Accessibility Initiative (WAI) were examined. The legal and ethical issues related to AI-generated descriptions, including copyright, liability, and fair use, were explored. The potential uses of AI beyond generating alternative descriptions were considered, such as identifying functional and complex images and allowing authors to focus on those that require more attention. The challenges of explainable AI and the potential for improving augmented content were addressed, emphasizing the importance of ethics, transparency, and user understanding. Finally, the panelists discussed the value of richer alternative descriptions, the risks of errors with more detailed descriptions, and the need for a balance between concise and explanatory information.
 
 <div class="video-container" data-video-type="" dir="ltr">
-  <video id="video-computer-vision" data-able-player preload="metadata" data-youtube-id="Po4q5HrMQfY" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/about/projects/wai-coop/symposium2-captions/computer_vision.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
+  <video id="video-computer-vision" data-able-player preload="metadata" data-youtube-id="Po4q5HrMQfY" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/wai-videos/symposium2/computer_vision.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
 </div>
 
 {% include excol.html type="start" id="panel1-transcription" %}
@@ -346,7 +346,7 @@ CARLOS DUARTE: Okay. Thank you so much. And I want to thank the three of you onc
 During the second panel of the symposium, the focus shifted to media accessibility from a natural language processing perspective. Shaomei Wu discussed the importance of accuracy and richness in these descriptions, emphasizing the need to provide more details, particularly about people. The challenge lies in sharing personal and physical attributes accurately and conscientiously. Shivam highlighted the significance of data diversity and the quality of generated data, advocating for categorizing data carefully to ensure clearer descriptions. Amy emphasized the role of context in improving description quality and suggested using language understanding and question-answering approaches. The panelists also discussed the potential of Large Language Models (LLMs) in reducing bias and emphasized the need for inclusive workflows, careful handling of social identities, and considering the trade-off between providing comprehensive information and efficiency. They addressed biases in recognition, application, and the impact of disability bias. The future perspectives included NLP for personalization, rewriting descriptions, and using NLP in academic textbooks, context sharing, augmenting media descriptions, and supporting visually impaired individuals in media creation.
 
 <div class="video-container" data-video-type="" dir="ltr">
-  <video id="video-media-accessibility" data-able-player preload="metadata" data-youtube-id="9Zub3Xs-wpw" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/about/projects/wai-coop/symposium2-captions/media_accessibility.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
+  <video id="video-media-accessibility" data-able-player preload="metadata" data-youtube-id="9Zub3Xs-wpw" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/wai-videos/symposium2/media_accessibility.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
 </div>
 
 {% include excol.html type="start" id="panel2-transcription" %}
@@ -452,7 +452,7 @@ Thanks, everyone who attended. We'll be back tomorrow starting at the same time,
 This panel featured researchers discussing web accessibility assessment and the challenges it presents. The panelists highlighted various obstacles, including the diversity and fast-changing nature of dynamic elements on web pages, the complexity of data collection and user requirements, and the subjectivity of some current evaluation rules. They emphasized the need for datasets specifically designed for accessibility and the incorporation of additional factors into the sampling process. The panelists also discussed how AI can support conformance assessment to accessibility guidelines, such as selecting representative samples and evaluating them using machine learning algorithms. AI was seen as a valuable tool for repairing accessibility issues, distinguishing complex web structures, and supporting developers in creating accessible products. The panelists envisioned future applications of machine learning techniques in web accessibility evaluation, including user interaction classification, simulating user interactions, and efficient page sampling. They emphasized the importance of scalability, automating evaluations, and generalizing approaches to integrate accessibility more easily. The development of automated testing and problem fixing, along with the availability and sharing of datasets, were seen as crucial for advancing research in AI and accessibility. Addressing bias in media accessibility was also highlighted as an important consideration for inclusive development and assessment.
 
 <div class="video-container" data-video-type="" dir="ltr">
-  <video id="video-machine-learning" data-able-player preload="metadata" data-youtube-id="dxV9niaotrk" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/about/projects/wai-coop/symposium2-captions/machine_learning.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
+  <video id="video-machine-learning" data-able-player preload="metadata" data-youtube-id="dxV9niaotrk" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/wai-videos/symposium2/machine_learning.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
 </div>
 
 {% include excol.html type="start" id="panel3-transcription" %}
@@ -590,7 +590,7 @@ We will now have a shorter break than the ten minutes. And we will be back in 5 
 The last panel of the symposium focused on NLP for accessible communication. The panelists discussed the challenges hindering breakthroughs in this field. Chaohai Ding highlighted the lack of data availability for AAC systems, as they require large amounts of user data and AAC data. Another challenge is the lack of data interoperability in AAC symbol sets. Cultural differences and personalization are also important considerations. Lourdes Moreno emphasized the need to address bias, particularly disability bias, in language models. She also highlighted the scarcity of datasets related to accessibility. Vikas Ashok discussed the understandability of social media content for blind individuals and the challenges of bias in natural language models. The panelists explored the issues of disability bias, accountability, and personalization in NLP tools. They discussed the importance of considering the target audience's knowledge and the need for data management. Future perspectives included the exploration of NLP metrics for accessibility, advancements in dialog systems, personalized communication, accessible modal communication, and AI assistant communication. Language simplification, data integration, and evolving apps were also mentioned as opportunities. The panelists addressed the challenge of collecting more data for accessible communication, suggesting approaches such as creating larger datasets, data repositories, and involving human experts in data generation.
 
 <div class="video-container" data-video-type="" dir="ltr">
-  <video id="video-accessible-communication" data-able-player preload="metadata" data-youtube-id="YkJNOlywBZ0" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/about/projects/wai-coop/symposium2-captions/accessible_communication.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
+  <video id="video-accessible-communication" data-able-player preload="metadata" data-youtube-id="YkJNOlywBZ0" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/wai-videos/symposium2/accessible_communication.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
 </div>
 
 {% include excol.html type="start" id="panel4-transcription" %}
@@ -720,7 +720,7 @@ CARLOS DUARTE: Okay. Thank you so much, Lourdes. And thanks, a very big thank yo
 The closing keynote of the symposium by Shari Trewin focused on the digital capabilities of AI and its potential for assistive AI. Shari discussed the transformative power of AI in improving digital accessibility for people with disabilities and provided examples of how AI can contribute to this goal. She also highlighted the limitations and challenges of AI, such as biases in training data and inaccuracies in predictions. Shari emphasized the importance of research and innovation in moving digital accessibility forward with AI. She explored the concept of AI at source, where AI tools can assist content creators in generating accurate descriptions and making written content more accessible. Shari also discussed the use of AI in text-to-speech applications and the benefits of applying AI at authoring time. She highlighted the potential of AI in generating accessible code but stressed the need for training AI models on accessible code to avoid propagating past accessibility issues. Shari concluded by emphasizing the need for AI integration with authoring tools and processes to improve accessibility standards. The keynote ended with a discussion on the role of big companies in AI research, the challenges of personalization, and the importance of democratizing access to AI tools.
 
 <div class="video-container" data-video-type="" dir="ltr">
-  <video id="video-where-next" data-able-player preload="metadata" data-youtube-id="DICDDBHAngs" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/about/projects/wai-coop/symposium2-captions/where_next.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
+  <video id="video-where-next" data-able-player preload="metadata" data-youtube-id="DICDDBHAngs" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="{{ '/wai-videos/symposium2/where_next.vtt' | relative_url }}" label="English" kind="captions" srclang="en" /></video>
 </div>
 
 {% include excol.html type="start" id="optional-id" %}
@@ -899,18 +899,14 @@ The symposium on AI and digital accessibility highlighted the potential of AI to
 - Michael Cooper (W3C)
 - Scott Hollier (University of South Australia)
 
-
-<script src="{{ "/assets/ableplayer/thirdparty/modernizr.custom.js" | relative_url }}"></script>
-<script src="{{ "/assets/scripts/jquery.min.js" | relative_url }}"></script>
-<script src="{{ "/assets/ableplayer/thirdparty/js.cookie.js" | relative_url }}"></script>
-<script src="{{ "/assets/ableplayer/build/ableplayer.min.js" | relative_url }}"></script>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+<script src="{{ '/assets/ableplayer/build/ableplayer.min.js' | relative_url }}"></script>
 <script>
-  var youTubeDataAPIKey = "{{site.ytkey}}";
-  var googleApiReady = false;
-  function initGoogleClientApi() {
-    googleApiReady = true;
-  }
+    var youTubeDataAPIKey = "{{ site.ytkey }}";
+    var googleApiReady = false;
+    function initGoogleClientApi() {
+        googleApiReady = true;
+    }
 </script>
-
 <script src="//apis.google.com/js/client.js?onload=initGoogleClientApi"></script>
