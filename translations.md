@@ -86,6 +86,16 @@ other_resources:
             org: "HAN University"
           - name: "Hidde de Vries"
             org: "W3C WAI"
+  - lang: "pl"
+    docs:
+      - title: "Generator raportów WCAG-EM"
+        en_title: "WCAG-EM Report Tool"
+        url: https://www.w3.org/WAI/eval/report-tool/
+        translators:
+          - name: "Stefan Wajda"
+        contributors:
+          - name: "Wojtek Kutyla"
+            org: "Human Thing Ltd"
 ---
 
 {::nomarkdown}
