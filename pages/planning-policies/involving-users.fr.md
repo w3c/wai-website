@@ -60,7 +60,7 @@ Cette page vous permet de commencer à récolter les bénéfices d'une implicati
 
 {% include excol.html type="start" id="video-intro" %}
 
-## {% include image.html src="video-thumb-involving-users.png" alt="" class="video tiny" %} Vidéo: Impliquer les utilisateurs dans l'accessibilité Web - Vue d'ensemble {#video}
+## {% include image.html src="involving-users/video-thumb-involving-users.png" alt="" class="video tiny" %} Vidéo: Impliquer les utilisateurs dans l'accessibilité Web - Vue d'ensemble {#video}
 
 {% include excol.html type="middle" %}
 
