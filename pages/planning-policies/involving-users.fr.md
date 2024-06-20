@@ -158,7 +158,7 @@ Transcription textuelle avec description des visuels
 
 ## Introduction {#intro}
 
-Impliquer les utilisateurs tôt dans les projets vous permet de comprendre les problèmes d'accessibilité qu'ils rencontrent dans la vie réelle, telle que la façon dont les personnes en situation de handicap ou âgées utilisent le Web grâce à des [stratégies d'adaptation](#strategies){:.termref} et des [technologies d'assistance](#at){:.termref}.
+Impliquer les utilisateurs tôt dans les projets vous permet de comprendre les problèmes d'accessibilité qu'ils rencontrent dans la vie réelle, tels que la façon dont les personnes en situation de handicap ou âgées utilisent le Web grâce à des [stratégies d'adaptation](#strategies){:.termref} et des [technologies d'assistance](#at){:.termref}.
 
 Impliquer les utilisateurs tôt vous permet d'implémenter des solutions plus efficaces pour assurer l'accessibilité. Cela élargit aussi votre perspective et peut vous amener à repenser votre produit afin qu'il soit utile à un public plus large et dans des contextes plus variés.
 
@@ -170,20 +170,20 @@ Ceci est valable lors de la conception et du développement :
 -   de standards et politiques d'accessibilité
 -   de technologies et de spécifications techniques du Web, comme le HTML
 
-Cette page vous permet de commencer à révolter les bénéfices d'une **implication des utilisateurs — plus particulièrement de personnes en situation de handicap, et de personnes âgées ayant des besoins en accessibilité dûs au vieillissement — tôt et tout au long de différents types de projets**.
+Cette page vous permet de commencer à récolter les bénéfices d'une **implication des utilisateurs — plus particulièrement de personnes en situation de handicap, et de personnes âgées ayant des besoins en accessibilité dûs au vieillissement — tôt et tout au long de différents types de projets**.
 
 Une page dédiée se concentre sur l'[implication des utilisateurs dans l'évaluation de l'accessibilité Web](/test-evaluate/involving-users/fr).
 
 En quoi impliquer les utilisateurs tôt peut aider {#why}
 ---------------------------------------
 
-Impliquer les utilisateurs tôt dans les projets Web aboutit à de meilleurs produits pour  les utilisateurs, des développements plus efficaces, et d'autres bénéfices pour les parties-prenantes du projet.
+Impliquer les utilisateurs tôt dans les projets Web aboutit à de meilleurs produits pour  les utilisateurs, des développements plus efficaces, et d'autres bénéfices pour les parties prenantes du projet.
 
 ### Une meilleure accessibilité et utilisabilité pour tous les utilisateurs
 
 Quand les personnes en charge de l'implémentation comprennent les problématiques liées à l'accessibilité, elles développent des solutions **plus efficaces** pour assurer l'accessibilité. Par exemple, leurs sites Web fonctionneront mieux et seront plus utilisables par les personnes en situation de handicap, âgées et faisant partie d'[autres groupes cibles](https://www.w3.org/WAI/business-case/archive/soc#groups). Construire des sites et outils Web plus utilisables pour des personnes présentant différents types de handicap améliore l'utilisabilité de manière générale, pour tout le monde. C'est aussi vrai pour les personnes qui n'ont *pas* de handicap. (On pourrait dire qu'impliquer des personnes en situation de handicap dans vos projets vous permet d'obtenir gratuitement une **meilleure utilisabilité**.)
 
-Cela bénéficie aux utilisateurs, mais aussi aux parties-prenantes. Par exemple, quand les sites Web voient leur [utilisation augmenter](https://www.w3.org/WAI/business-case/archive/fin#increase-use), parmi d'autres [bénéfices business](https://www.w3.org/WAI/business-case/archive/) d'une accessibilité accrue.
+Cela bénéficie aux utilisateurs, mais aussi aux parties prenantes. Par exemple, quand les sites Web voient leur [utilisation augmenter](https://www.w3.org/WAI/business-case/archive/fin#increase-use), parmi d'autres [bénéfices business](https://www.w3.org/WAI/business-case/archive/) d'une accessibilité accrue.
 
 ### Des développements plus efficaces
 
@@ -242,7 +242,7 @@ Cherchez à inclure des utilisateurs présentant des handicaps et [caractéristi
 
 ### Expérience des utilisateurs dans l'interaction avec le Web {#experience}
 
-Un critère primordial à prendre en compte lors du recrutement d'utilisateurs est leur expérence dans l'interaction avec le Web. Par exemple, il est compliqué et difficile d'apprendre à utiliser certaines [technologies d'assistance](#at){:.termref} (TA). Un utilisateur peu expérimenté peut ne pas savoir comment utiliser efficacement la TA. Et un utilisateur très avancé pourrait connaître des moyens de contournement inhabituels pour surmonter des problèmes d'accessibilité d'un site Web qu'un utilisateur "moyen" ne réussirait pas à surmonter.
+Un critère primordial à prendre en compte lors du recrutement d'utilisateurs est leur expérience dans l'interaction avec le Web. Par exemple, il est compliqué et difficile d'apprendre à utiliser certaines [technologies d'assistance](#at){:.termref} (TA). Un utilisateur peu expérimenté peut ne pas savoir comment utiliser efficacement la TA. Et un utilisateur très avancé pourrait connaître des moyens de contournement inhabituels pour surmonter des problèmes d'accessibilité d'un site Web qu'un utilisateur "moyen" ne réussirait pas à surmonter.
 
 Dans les premiers temps, lorsque vous apprenez comment les personnes en situation de handicap interagissent avec le Web, il est généralement préférable de recruter des personnes qui ont un niveau d'expérience plutôt élevé. ([[Impliquer les utilisateurs dans l'évaluation de l'accessibilité Web]](/test-evaluate/involving-users/) en dit plus sur les différents niveaux d'expérience dans les phases d'évaluation ultérieures.)
 
