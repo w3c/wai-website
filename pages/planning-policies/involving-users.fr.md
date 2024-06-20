@@ -5,7 +5,7 @@
 title: "Impliquer les utilisateurs dans les projets Web pour améliorer et faciliter l'accessibilité"
 nav_title: "Impliquer les utilisateurs pour améliorer l'accessibilité"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2024-05-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-20   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Cette page vous aide à démarrer afin que vous tiriez les bénéfices d'une implication des personnes en situation de handicap, rapidement et tout au long de différents types de projets.
 
 translators:
