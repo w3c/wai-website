@@ -11,7 +11,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Add a description
+      label: Description
     validations:
       required: true
   - type: markdown

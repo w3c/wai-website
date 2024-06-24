@@ -10,7 +10,6 @@ exclude_from_search: true
 <script src="{{ "/assets/search/tipuesearch_set.js" | relative_url }}"></script>
 <script src="{{ "/assets/search/tipuesearch.js" | relative_url }}"></script>
 
-
 <strong>This page searches accessibility introductory and educational materials on the WAI website.</strong>
 
 You can also:

@@ -2,11 +2,9 @@
 title: Get WAI News
 lang: en
 github:
-  path: news/subscribe.md
   label: wai-news
 parent: /news/
 permalink: /news/subscribe/
-layout: default
 ---
 
 To get caught up, read: **[What We're Working On &mdash; Accessibility Activities and Publications](/update/)**.

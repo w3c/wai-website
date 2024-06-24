@@ -5,10 +5,7 @@ lang: en
 permalink: /sitemap/
 parent: "/"
 github:
-  repository: w3c/wai-website
-  path: sitemap.md
   label: wai-sitemap
-layout: default
 feedbackmail: wai@w3.org
 footer: >
   <p><strong>Date:</strong> Updated 2 May 2024.</p>
