@@ -52,10 +52,10 @@ Many WAI resources cover the organizational, technical, and standards aspects of
 </div>
 
 [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](/perspective-videos/) 
-:   Videos that demonstrate that web accessibility is **_essential for people with disabilities and useful for all_**. Learn about the impact of accessibility and the benefits for everyone in a variety of situations. Pages include supporting information. Ten 1-minute videos, and a 7-minute compilation {% include image.html src="video.svg" alt="" class="icon" %}
+:   Videos that illustrate **_Accessibility: essential for some, useful for all_**. Learn about the impact of accessibility on people with disabilities and the benefits for everyone in a variety of situations. Pages include supporting information. Ten 1-minute videos, and a 7-minute compilation {% include image.html src="video.svg" alt="" class="icon" %}
 
 [[How People with Disabilities Use the Web]](/people-use-web/)
-:   Introduces how people with disabilities use the web. Describes tools and approaches that people with different kinds of disabilities use to browse the web and the barriers they encounter due to poor design. <!-- @@sub-bullet: [Videos of How People with Disabilities Use the Web](/people-use-web/) links to eighteen 2+minute videos, and 3 compliations {% include image.html src="video.svg" alt="" class="icon" %} -->
+:   Provides user stories ("personas") of people with different disabilities. Describes tools and approaches that people use to browse the web and the barriers they encounter due to poor design. Includes videos that illustrate **_Accessibility: It's about people._** {% include image.html src="video.svg" alt="" class="icon" %}
 
 [[Older Users and Web Accessibility: Meeting the Needs of Ageing Web Users]](/older-users/)
 :   Explains that designing products that are easier for older people to use is similar to designing for people with disabilities. Links to: [Developing Websites for Older People: How Web Content Accessibility Guidelines (WCAG) 2.0 Applies](/older-users/developing/) and [Web Accessibility for Older Users: A Literature Review](/older-users/literature/).
