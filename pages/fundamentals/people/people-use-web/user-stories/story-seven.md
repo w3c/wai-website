@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/user-stories/story-six/
   next: /people-use-web/user-stories/story-eight/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:
@@ -119,7 +119,7 @@ computer. Marta is learning braille and hopes to use her new braille display for
    captions="wai-videos/people-use-web/user-stories_7.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Marta, marketing assistant who is deaf and blind"
-   poster="content-images/wai-people-use-web/user-stories/marta-video-frame.png"
+   poster="content-images/people-use-web/user-stories/marta-video-frame.png"
 %}
 </div>
 

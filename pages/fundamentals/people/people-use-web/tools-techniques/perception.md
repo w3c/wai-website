@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/tools-techniques/
   next: /people-use-web/tools-techniques/presentation/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -122,7 +122,7 @@ People perceive content through different senses depending on their needs and pr
    captions="wai-videos/people-use-web/tools-techniques_perception.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Tools and Techniques - Perception"
-   poster="content-images/wai-people-use-web/tools-techniques/perception-video-frame.png"
+   poster="content-images/people-use-web/tools-techniques/perception-video-frame.png"
 %}
 
 </div>

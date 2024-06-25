@@ -28,7 +28,7 @@ parent_in_h1:
 navigation:
   next: /people-use-web/user-stories/story-one/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -48,23 +48,23 @@ footer: >
 
 The following user stories represent the experiences of some people with disabilities. They do not address all disabilities or all impacts faced by people with disabilities. These and other disabilities may be present from birth or may develop as a results of an accident, illness, or aging.
 
-* {:.left} [{% include image.html src="user-stories/ade.png" alt="Ade" %} Ade, reporter with limited use of his arms](/people-use-web/user-stories/story-one/)<br> Ade was involved in an accident that caused a spinal cord injury, leaving him with limited use of his arms. He often relies only on the keyboard to navigate websites and other digital content.
+* {:.left} [{% include image.html src="people-use-web/user-stories/ade.png" alt="Ade" %} Ade, reporter with limited use of his arms](/people-use-web/user-stories/story-one/)<br> Ade was involved in an accident that caused a spinal cord injury, leaving him with limited use of his arms. He often relies only on the keyboard to navigate websites and other digital content.
 
-* {:.left} [{% include image.html src="user-stories/ian.png" alt="Ian" %} Ian, data entry clerk with autism](/people-use-web/user-stories/story-two/)<br> Ian is autistic. He has difficulty understanding online content and layouts that change often, including carousels, pop-up ads, and videos that play automatically.
+* {:.left} [{% include image.html src="people-use-web/user-stories/ian.png" alt="Ian" %} Ian, data entry clerk with autism](/people-use-web/user-stories/story-two/)<br> Ian is autistic. He has difficulty understanding online content and layouts that change often, including carousels, pop-up ads, and videos that play automatically.
 
-* {:.left} [{% include image.html src="user-stories/lakshmi.png" alt="Lakshmi" %} Lakshmi, senior accountant who is blind](/people-use-web/user-stories/story-three/)<br> Lakshmi is blind. She uses a screen reader on her computer and mobile device to interact with online content, including images, form controls, and navigation.
+* {:.left} [{% include image.html src="people-use-web/user-stories/lakshmi.png" alt="Lakshmi" %} Lakshmi, senior accountant who is blind](/people-use-web/user-stories/story-three/)<br> Lakshmi is blind. She uses a screen reader on her computer and mobile device to interact with online content, including images, form controls, and navigation.
 
-* {:.left} [{% include image.html src="user-stories/lexie.png" alt="" %} Lexie, online shopper who cannot distinguish between certain colors (color blindness)](/people-use-web/user-stories/story-four/)<br> Lexie has deuteranopia and protanopia (often called "color blindness"). She has difficulty distinguishing among items that are red, green, orange, and brown, which makes it hard to derive meaning from these colors.
+* {:.left} [{% include image.html src="people-use-web/user-stories/lexie.png" alt="" %} Lexie, online shopper who cannot distinguish between certain colors (color blindness)](/people-use-web/user-stories/story-four/)<br> Lexie has deuteranopia and protanopia (often called "color blindness"). She has difficulty distinguishing among items that are red, green, orange, and brown, which makes it hard to derive meaning from these colors.
 
-* {:.left} [{% include image.html src="user-stories/sophie.png" alt="" %} Sophie, basketball fan with Down syndrome](/people-use-web/user-stories/story-five/)<br> Sophie has Down syndrome. She sometimes has difficulty comprehending content, especially when it includes acronyms, abbreviations, and unfamiliar words.
+* {:.left} [{% include image.html src="people-use-web/user-stories/sophie.png" alt="" %} Sophie, basketball fan with Down syndrome](/people-use-web/user-stories/story-five/)<br> Sophie has Down syndrome. She sometimes has difficulty comprehending content, especially when it includes acronyms, abbreviations, and unfamiliar words.
 
-* {:.left} [{% include image.html src="user-stories/dhruv.png" alt="" %} Dhruv, older adult student who is deaf](/people-use-web/user-stories/story-six/)<br> Dhruv is deaf. When watching videos or other online content that contains audio, he relies on real-time captions or transcripts of what is being said.
+* {:.left} [{% include image.html src="people-use-web/user-stories/dhruv.png" alt="" %} Dhruv, older adult student who is deaf](/people-use-web/user-stories/story-six/)<br> Dhruv is deaf. When watching videos or other online content that contains audio, he relies on real-time captions or transcripts of what is being said.
 
-* {:.left} [{% include image.html src="user-stories/marta.png" alt="" %} Marta, marketing assistant who is deaf and blind](/people-use-web/user-stories/story-seven/)<br> Marta is deaf and blind, although she can see small portions of a computer screen when it is significantly enlarged using screen magnification software. She uses captions and transcripts for audio content.
+* {:.left} [{% include image.html src="people-use-web/user-stories/marta.png" alt="" %} Marta, marketing assistant who is deaf and blind](/people-use-web/user-stories/story-seven/)<br> Marta is deaf and blind, although she can see small portions of a computer screen when it is significantly enlarged using screen magnification software. She uses captions and transcripts for audio content.
 
-* {:.left} [{% include image.html src="user-stories/stefan.png" alt="" %} Stefan, student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/story-eight/)<br> Stefan has dyslexia and attention deficit hyperactivity disorder (ADHD), both of which make it difficult to focus on and read online content.
+* {:.left} [{% include image.html src="people-use-web/user-stories/stefan.png" alt="" %} Stefan, student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/story-eight/)<br> Stefan has dyslexia and attention deficit hyperactivity disorder (ADHD), both of which make it difficult to focus on and read online content.
 
-* {:.left} [{% include image.html src="user-stories/elias.png" alt="" %} Elias, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/story-nine/)<br> Elias has low vision, a hand tremor, and short-term memory loss. Combined, these traits make using digital technology difficult, although consistent layouts and being able to adjust text size help.
+* {:.left} [{% include image.html src="people-use-web/user-stories/elias.png" alt="" %} Elias, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/story-nine/)<br> Elias has low vision, a hand tremor, and short-term memory loss. Combined, these traits make using digital technology difficult, although consistent layouts and being able to adjust text size help.
 {:.nolist.withicons.mini}
 
 ## Related WAI resources

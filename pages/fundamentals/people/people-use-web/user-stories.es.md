@@ -9,7 +9,7 @@ lang: es
 last_updated: 2019-09-11
 order: 1
 description: Historias de personas con discapacidad usando la web resaltan el efecto de las barreras de accesibilidad y los grandes beneficios de los sitios web y herramientas accesibles.
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 translators: 
 - name: "Carlos Muncharaz"
   link: "http://www.muncharaz.eu/"

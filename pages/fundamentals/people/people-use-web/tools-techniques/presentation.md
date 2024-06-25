@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/tools-techniques/perception/
   next: /people-use-web/tools-techniques/input/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -122,7 +122,7 @@ People adjust the presentation of content to make it easier to distinguish and u
    captions="wai-videos/people-use-web/tools-techniques_presentation.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Tools and Techniques - Presentation"
-   poster="content-images/wai-people-use-web/tools-techniques/presentation-video-frame.png"
+   poster="content-images/people-use-web/tools-techniques/presentation-video-frame.png"
 %}
 
 </div>

@@ -8,7 +8,7 @@ permalink: /people-use-web/user-stories/fr # Add the language shortcode to the e
 ref: /people-use-web/user-stories/  # Do not change this
 lang: fr
 description: Des personas de personnes atteintes de handicaps et utilisant le Web qui montrent l’effet des points de blocage non accessibles, et les avantages pour tous de faire des sites et des outils web accessibles.
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 last_updated: 2024-03-11
 translators:
 - name: "Stéphane Deschamps"

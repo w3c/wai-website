@@ -31,7 +31,7 @@ parent_in_h1:
   - ref: /people-use-web/
     name: nav_title
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -119,7 +119,7 @@ Cognitive and learning disabilities affect how people store, retrieve, or use in
    captions="wai-videos/people-use-web/abilities-barriers_cognitive.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Diverse Abilities and Barriers - Cognitive"
-   poster="content-images/wai-people-use-web/abilities-barriers/cognitive-video-frame.png"
+   poster="content-images/people-use-web/abilities-barriers/cognitive-video-frame.png"
 %}
 
 </div>

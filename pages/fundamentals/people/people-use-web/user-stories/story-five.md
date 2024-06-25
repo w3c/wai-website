@@ -30,7 +30,7 @@ parent_in_h1:
   - ref: /people-use-web/
     name: nav_title
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:
@@ -124,7 +124,7 @@ app is easier because there are fewer options and less clutter.
    captions="wai-videos/people-use-web/user-stories_5.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Sophie, basketball fan with Down syndrome"
-   poster="content-images/wai-people-use-web/user-stories/sophie-video-frame.png"
+   poster="content-images/people-use-web/user-stories/sophie-video-frame.png"
 %}
 </div>
 

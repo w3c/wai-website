@@ -30,7 +30,7 @@ parent_in_h1:
 navigation:
   previous: /people-use-web/abilities-barriers/speech/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -118,7 +118,7 @@ Visual disabilities range from mild or moderate vision loss in one or both eyes 
    captions="wai-videos/people-use-web/abilities-barriers_visual.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Diverse Abilities and Barriers - Visual"
-   poster="content-images/wai-people-use-web/abilities-barriers/visual-video-frame.png"
+   poster="content-images/people-use-web/abilities-barriers/visual-video-frame.png"
 %}
 
 </div>

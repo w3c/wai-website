@@ -26,7 +26,7 @@ resource:
   title: "How People with Disabilities Use the Web"
   ref: /people-use-web/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 

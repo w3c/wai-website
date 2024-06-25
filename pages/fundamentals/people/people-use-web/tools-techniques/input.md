@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/tools-techniques/presentation/
   next: /people-use-web/tools-techniques/navigation/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -124,7 +124,7 @@ People use different approaches to enter text and activate commands, for example
    captions="wai-videos/people-use-web/tools-techniques_input.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Tools and Techniques - Input"
-   poster="content-images/wai-people-use-web/tools-techniques/input-video-frame.png"
+   poster="content-images/people-use-web/tools-techniques/input-video-frame.png"
 %}
 
 </div>

@@ -31,7 +31,7 @@ parent_in_h1:
   - ref: /people-use-web/
     name: nav_title
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -119,7 +119,7 @@ Auditory disabilities range from mild or moderate hearing loss in one or both ea
    captions="wai-videos/people-use-web/abilities-barriers_auditory.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Diverse Abilities and Barriers - Auditory"
-   poster="content-images/wai-people-use-web/abilities-barriers/auditory-video-frame.png"
+   poster="content-images/people-use-web/abilities-barriers/auditory-video-frame.png"
 %}
 
 </div>

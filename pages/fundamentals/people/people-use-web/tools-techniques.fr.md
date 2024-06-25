@@ -8,7 +8,7 @@ permalink: /people-use-web/tools-techniques/fr # Add the language shortcode to t
 ref: /people-use-web/tools-techniques/  # Do not change this
 lang: fr
 description: Introduit quelques techniques et outils que les personnes atteintes de handicaps utilisent pour interagir avec le Web – réglages de navigateurs, synthèse vocale, reconnaissance vocale et bien d’autres.
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 last_updated: 2018-09-12
 translators:
 - name: "Stéphane Deschamps"

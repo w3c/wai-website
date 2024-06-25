@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/user-stories/story-two/
   next: /people-use-web/user-stories/story-four/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:

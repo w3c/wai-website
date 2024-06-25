@@ -31,7 +31,7 @@ navigation:
   previous: /people-use-web/abilities-barriers/physical/
   next: /people-use-web/abilities-barriers/visual/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -119,7 +119,7 @@ Speech disabilities include difficulty producing speech that is recognizable by 
    captions="wai-videos/people-use-web/abilities-barriers_speech.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Diverse Abilities and Barriers - Speech"
-   poster="content-images/wai-people-use-web/abilities-barriers/speech-video-frame.png"
+   poster="content-images/people-use-web/abilities-barriers/speech-video-frame.png"
 %}
 
 </div>

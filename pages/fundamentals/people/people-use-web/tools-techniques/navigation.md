@@ -29,7 +29,7 @@ parent_in_h1:
 navigation:
   previous: /people-use-web/tools-techniques/input/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -122,7 +122,7 @@ People navigate digital technology differently depending on their preferences, s
    captions="wai-videos/people-use-web/tools-techniques_interaction.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Tools and Techniques - Interaction"
-   poster="content-images/wai-people-use-web/tools-techniques/interaction-video-frame.png"
+   poster="content-images/people-use-web/tools-techniques/interaction-video-frame.png"
 %}
 
 </div>

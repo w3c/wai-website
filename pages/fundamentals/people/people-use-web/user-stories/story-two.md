@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/user-stories/story-one/
   next: /people-use-web/user-stories/story-three/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:
@@ -126,7 +126,7 @@ automatically are frustrating and confusing.
    captions="wai-videos/people-use-web/user-stories_2.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Ian, data entry clerk with autism"
-   poster="content-images/wai-people-use-web/user-stories/ian-video-frame.png"
+   poster="content-images/people-use-web/user-stories/ian-video-frame.png"
 %}
 
 </div>

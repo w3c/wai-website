@@ -29,7 +29,7 @@ parent_in_h1:
 navigation:
   previous: /people-use-web/user-stories/story-eight/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:
@@ -117,7 +117,7 @@ Elias is an 85-year-old retired architect. Over the years, Elias has experienced
    captions="wai-videos/people-use-web/user-stories_9.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Elias, retiree with low vision, hand tremor, and mild short-term memory loss"
-   poster="content-images/wai-people-use-web/user-stories/elias-video-frame.png"
+   poster="content-images/people-use-web/user-stories/elias-video-frame.png"
 %}  
 </div>
 

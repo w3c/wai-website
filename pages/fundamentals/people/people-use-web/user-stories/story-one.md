@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/user-stories/
   next: /people-use-web/user-stories/story-two/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:
@@ -118,7 +118,7 @@ Ade is a reporter who has limited use of his arms. He has several strategies for
    captions="wai-videos/people-use-web/user-stories_1.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Ade, reporter with limited use of his arms"
-   poster="content-images/wai-people-use-web/user-stories/ade-video-frame.png"
+   poster="content-images/people-use-web/user-stories/ade-video-frame.png"
 %}
 
 </div>

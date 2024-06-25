@@ -10,7 +10,7 @@ last_updated: 2019-08-27
 permalink: /people-use-web/es # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /people-use-web/  # Do not change this
 description: Presenta cómo usan la web las personas con discapacidad y las personas con problemas relacionados con la edad.
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 translators: 
 - name: "Carlos Muncharaz"
   link: "http://www.muncharaz.eu/"

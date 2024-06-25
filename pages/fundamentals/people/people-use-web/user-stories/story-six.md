@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/user-stories/story-five/
   next: /people-use-web/user-stories/story-seven/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:
@@ -118,7 +118,7 @@ Dhruv is a student who is deaf. Because his first, or native, language is sign l
    captions="wai-videos/people-use-web/user-stories_6.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Dhruv, older adult student who is deaf"
-   poster="content-images/wai-people-use-web/user-stories/dhruv-video-frame.png"
+   poster="content-images/people-use-web/user-stories/dhruv-video-frame.png"
 %}
 </div>
 

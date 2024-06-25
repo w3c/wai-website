@@ -30,7 +30,7 @@ navigation:
   previous: /people-use-web/user-stories/story-seven/
   next: /people-use-web/user-stories/story-nine/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:
@@ -118,7 +118,7 @@ Stefan is a student who has dyslexia and attention deficit hyperactivity disorde
    captions="wai-videos/people-use-web/user-stories_8.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Stefan, student with attention deficit hyperactivity disorder and dyslexia"
-   poster="content-images/wai-people-use-web/user-stories/stefan-video-frame.png"
+   poster="content-images/people-use-web/user-stories/stefan-video-frame.png"
 %}
 
 </div>

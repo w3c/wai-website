@@ -31,7 +31,7 @@ navigation:
   previous: /people-use-web/abilities-barriers/cognitive/
   next: /people-use-web/abilities-barriers/speech/
 
-image: /content-images/wai-people-use-web/social.png
+image: /content-images/people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 
@@ -119,7 +119,7 @@ Physical disabilities (sometimes called "motor disabilities") include weakness a
    captions="wai-videos/people-use-web/abilities-barriers_physical.en.vtt|en"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Diverse Abilities and Barriers - Physical"
-   poster="content-images/wai-people-use-web/abilities-barriers/physical-video-frame.png"
+   poster="content-images/people-use-web/abilities-barriers/physical-video-frame.png"
 %}
 
 </div>
