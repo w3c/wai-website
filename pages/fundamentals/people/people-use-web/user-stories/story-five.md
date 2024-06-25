@@ -4,8 +4,8 @@
 
 title: "Sophie, basketball fan with Down syndrome"
 nav_title: "Sophie"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -15,20 +15,20 @@ last_updated: 2024-06-25
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-people-use-web
+  label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-five/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/story-five/fr
-ref: /people-use-web/user-stories/story-five/      # Translators, do not change this
+permalink: /people-use-web/user-stories/story-five/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/story-five/  # Do not change this
 
 navigation:
   previous: /people-use-web/user-stories/story-four/
   next: /people-use-web/user-stories/story-six/
 
 parent_in_h1:
-    - ref: /people-use-web/user-stories/
-      name: nav_title
-    - ref: /people-use-web/
-      name: nav_title
+  - ref: /people-use-web/user-stories/
+    name: nav_title
+  - ref: /people-use-web/
+    name: nav_title
 
 image: /content-images/wai-people-use-web/social.png
 changelog: /people-use-web/changelog/
@@ -107,12 +107,12 @@ footer: >
   <div>
 {:/}
 
-Sophie, a mother with Down syndrome, works at a basketball stadium. She would like to be a senior assistant 
-but is hesitant to apply because she will have to learn new websites and software that may not 
-be written in language she can understand, for example using unfamiliar words, as well as 
-acronyms and abbreviations. Consistency, writing in plain language, and having small 
-paragraphs of information all help Sophie comprehend written content. Outside of work, Sophie 
-likes to take her kids to basketball games and has found that buying tickets using the venue’s 
+Sophie, a mother with Down syndrome, works at a basketball stadium. She would like to be a senior assistant
+but is hesitant to apply because she will have to learn new websites and software that may not
+be written in language she can understand, for example using unfamiliar words, as well as
+acronyms and abbreviations. Consistency, writing in plain language, and having small
+paragraphs of information all help Sophie comprehend written content. Outside of work, Sophie
+likes to take her kids to basketball games and has found that buying tickets using the venue’s
 app is easier because there are fewer options and less clutter.
 
 {::options toc_levels="2..2" /}
@@ -136,7 +136,7 @@ app is easier because there are fewer options and less clutter.
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -227,16 +227,12 @@ Animation
 {% include excol.html type="middle" %}
 
 {% include video-player-data.html
-    video-id="user-stories_5"
-    yt-id="gmrnVAQuSI8"
+  video-id="user-stories_5"
+  yt-id="gmrnVAQuSI8"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_5.mp4">Video: Sophie, basketball fan with Down syndrome (file format: MP4, file size: 282MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |
@@ -248,6 +244,5 @@ Animation
 | My dream is to become a senior assistant. I know I can do it. Sometimes it is hard for me to write long things but I use the spell-checker every time. It helps me when coaches use words I already know. Otherwise, it takes me even longer to find the words in the dictionary. | The woman is sitting at a desk using a laptop. She is reading a text and using the dictionary function to check words. |
 | You can help make technology accessible to me. Accessibility: It’s about people. | The woman speaks directly to the camera. |
 | For more information from the Web Accessibility Initiative on how people with disabilities use digital technology, visit w3.org/WAI/people | Accessibility: It's about people; w3.org/WAI/people |
-
 
 {% include excol.html type="end" %}

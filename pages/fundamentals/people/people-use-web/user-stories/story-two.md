@@ -4,8 +4,8 @@
 
 title: "Ian, data entry clerk with autism"
 nav_title: "Ian"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -15,10 +15,10 @@ last_updated: 2024-06-25
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-people-use-web
+  label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-two/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/story-two/fr
-ref: /people-use-web/user-stories/story-two/      # Translators, do not change this
+permalink: /people-use-web/user-stories/story-two/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/story-two/  # Do not change this
 
 parent_in_h1:
   - ref: /people-use-web/user-stories/
@@ -224,11 +224,7 @@ Moving or blinking content
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_2.mp4">Video: Ian, data entry clerk with autism (file format: MP4, file size: 291MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 | Audio | Visual |
 | --- | --- |
 | How people with disabilities use digital technology; Ian, data scientist with autism.| How people with disabilities use digital technology; Ian, data scientist with autism. |

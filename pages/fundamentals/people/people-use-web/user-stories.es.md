@@ -1,7 +1,10 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Historias de usuarios de la web"
-permalink: /people-use-web/user-stories/es
-ref: /people-use-web/user-stories/
+permalink: /people-use-web/user-stories/es # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/  # Do not change this
 lang: es
 last_updated: 2019-09-11
 order: 1
@@ -16,6 +19,8 @@ footer: >
   <p>Desarrollado por el Grupo de Trabajo de Educación y Difusión (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Anteriormente desarrollado con el <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">equipo de trabajo WAI-AGE </a>, con apoyo del <a href="https://www.w3.org/WAI/WAI-AGE/">proyecto WAI-AGE</a>.</p>
 resource:
   ref: /people-use-web/
+github:
+  label: wai-people-use-web
 ---
 
 {::nomarkdown}

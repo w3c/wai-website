@@ -4,8 +4,8 @@
 
 title: "Dhruv, older adult student who is deaf"
 nav_title: "Dhruv"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -15,16 +15,16 @@ last_updated: 2024-06-25
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-people-use-web
+  label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-six/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/story-six/fr
-ref: /people-use-web/user-stories/story-six/      # Translators, do not change this
+permalink: /people-use-web/user-stories/story-six/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/story-six/  # Do not change this
 
 parent_in_h1:
-    - ref: /people-use-web/user-stories/
-      name: nav_title
-    - ref: /people-use-web/
-      name: nav_title
+  - ref: /people-use-web/user-stories/
+    name: nav_title
+  - ref: /people-use-web/
+    name: nav_title
 
 navigation:
   previous: /people-use-web/user-stories/story-five/
@@ -130,7 +130,7 @@ Dhruv is a student who is deaf. Because his first, or native, language is sign l
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -142,7 +142,7 @@ Dhruv is a student who is deaf. Because his first, or native, language is sign l
 
 Dhruv has been deaf since birth. He is a mature student, taking online courses. While he can hear some sounds, he does not hear enough to understand speech. Dhruv learned to sign as a young child. Sign language is his first language. As a result, written language can be difficult. He prefers written content to have good structure and headings with minimal jargon so that it's easier to understand.
 
-Dhruv can lip read but can only do so effectively when he can see the full face of the person who is speaking. Even then, he can only do it well enough to pick up a few words here and there and can't rely on lip reading alone to understand content. 
+Dhruv can lip read but can only do so effectively when he can see the full face of the person who is speaking. Even then, he can only do it well enough to pick up a few words here and there and can't rely on lip reading alone to understand content.
 
 The university where Dhruv studies provides sign language interpreters and Communication Access Realtime Translation (CART); however, this captioning is not always present on video and other media content. The university is now working to caption all content across their curriculum, however it is a lengthy process. As more and more content is captioned, Dhruv is finding it easier to complete his studies remotely.
 
@@ -198,16 +198,12 @@ No alternative for audio
 {% include excol.html type="middle" %}
 
 {% include video-player-data.html
-    video-id="user-stories_6"
-    yt-id="jft__DXkPv8"
+  video-id="user-stories_6"
+  yt-id="jft__DXkPv8"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_6.mp4">Video: Dhruv, older adult student who is deaf (file format: MP4, file size: 307MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |

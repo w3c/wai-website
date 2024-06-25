@@ -4,8 +4,8 @@
 
 title: "Lakshmi, senior accountant who is blind"
 nav_title: "Lakshmi"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -15,10 +15,10 @@ last_updated: 2024-06-25
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-people-use-web
+  label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-three/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/story-three/fr
-ref: /people-use-web/user-stories/story-three/      # Translators, do not change this
+permalink: /people-use-web/user-stories/story-three/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/story-three/  # Do not change this
 
 parent_in_h1:
   - ref: /people-use-web/user-stories/

@@ -1,9 +1,12 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Comment les personnes handicapées utilisent le web"
 order: 0
 nav_title: Introduction
-permalink: /people-use-web/fr
-ref: /people-use-web/
+permalink: /people-use-web/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/  # Do not change this
 lang: fr
 description: Comment les personnes handicapées, y compris pour le cas des handicaps liés à l’âge, utilisent-elles le Web ?
 image: /content-images/wai-people-use-web/social.png
@@ -19,6 +22,8 @@ footer: > # Translate all the words below, including "Date:" and "Editor:". Do n
 resource:
   title: "Comment les personnes handicapées utilisent le web"
   ref: /people-use-web/
+github:
+  label: wai-people-use-web
 ---
 
 ## Introduction

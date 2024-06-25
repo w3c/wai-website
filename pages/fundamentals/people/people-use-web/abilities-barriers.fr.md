@@ -1,8 +1,11 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Des capacités et des points bloquants variés"
 order: 2
-permalink: /people-use-web/abilities-barriers/fr
-ref: /people-use-web/abilities-barriers/
+permalink: /people-use-web/abilities-barriers/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/abilities-barriers/  # Do not change this
 lang: fr
 description: Explore la grande diversité de publics et de capacités et souligne quelques points bloquants en accessibilité web qu’on rencontre fréquemment à cause de sites et d’outils web inaccessibles.
 image: /content-images/wai-people-use-web/social.png
@@ -17,6 +20,8 @@ footer: > # Translate all the words below, including "Date:" and "Editor:". Do n
   <p>Développé par le <i lang="en">Education and Outreach Working Group</i> (<a hreflang="en" href="http://www.w3.org/WAI/EO/">EOWG</a>). Développé précédemment avec le <a hreflang="en" href="https://www.w3.org/WAI/EO/2008/wai-age-tf">Groupe de Travail WAI-AGE</a>, avec le soutien du <a hreflang="en" href="https://www.w3.org/WAI/WAI-AGE/">Projet WAI-AGE</a>.</p>
 resource:
   ref: /people-use-web/
+github:
+  label: wai-people-use-web
 ---
 
 {::nomarkdown}

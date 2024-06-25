@@ -4,8 +4,8 @@
 
 title: "Elias, retiree with low vision, hand tremor, and mild short-term memory loss"
 nav_title: "Elias"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -15,16 +15,16 @@ last_updated: 2024-06-25
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-people-use-web
+  label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-nine/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/story-nine/fr
-ref: /people-use-web/user-stories/story-nine/      # Translators, do not change this
+permalink: /people-use-web/user-stories/story-nine/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/story-nine/  # Do not change this
 
 parent_in_h1:
-    - ref: /people-use-web/user-stories/
-      name: nav_title
-    - ref: /people-use-web/
-      name: nav_title
+  - ref: /people-use-web/user-stories/
+    name: nav_title
+  - ref: /people-use-web/
+    name: nav_title
 
 navigation:
   previous: /people-use-web/user-stories/story-eight/
@@ -129,7 +129,7 @@ Elias is an 85-year-old retired architect. Over the years, Elias has experienced
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -141,7 +141,7 @@ Elias is an 85-year-old retired architect. Over the years, Elias has experienced
 
 Elias is hard of hearing and has low vision, hand tremor, and short term memory loss. Elias had a long and successful career as an architect. He delayed retirement until he was in his 70's because as the senior architect in his firm, he was often sought after to mentor the new hires and guest lecture at local universities. Elias has macular degeneration that blurs his vision and makes reading more difficult. Over time, the demands of the close-up work necessary to render architectural drawings strained his eyes to the point that he could only work a couple of hours at a time. He finally had to stop work when he developed a mild hand tremor and found it too difficult to maintain the precision required for his work.
 
-Currently, at age 85, Elias's family has started to notice some short term memory loss. Even so, Elias maintains an active interest in the history of architecture and is part of a small group of people who share his passion and write about it online. His blog has an active following and helps ensure he is still able to contribute to the field. 
+Currently, at age 85, Elias's family has started to notice some short term memory loss. Even so, Elias maintains an active interest in the history of architecture and is part of a small group of people who share his passion and write about it online. His blog has an active following and helps ensure he is still able to contribute to the field.
 
 Like many older people, Elias has difficulty reading small text. He subscribes to an online rather than physical version of the newspaper because he is able to increase the size of the text, making it easier to read. However, on some sites this does not work as well because either the text gets cut off or the larger text doesn’t flow to the next line and he has to scroll horizontally off screen. His tremor makes it difficult to scroll across in a straight line. While this is easier than managing the large pages of a print newspaper, the best instance is when the text resizes and reflows properly.
 
@@ -231,16 +231,12 @@ Saved information
 
 
 {% include video-player-data.html
-    video-id="user-stories_9"
-    yt-id="c-IqJdL0i38"
+  video-id="user-stories_9"
+  yt-id="c-IqJdL0i38"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_9.mp4">Video: Elias, retiree with low vision, hand tremor, and mild short-term memory loss (file format: MP4, file size: 162MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | ----- | ----- |

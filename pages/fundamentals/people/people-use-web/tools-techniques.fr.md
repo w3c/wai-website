@@ -1,8 +1,11 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Outils et techniques"
 order: 3
-permalink: /people-use-web/tools-techniques/fr
-ref: /people-use-web/tools-techniques/
+permalink: /people-use-web/tools-techniques/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/tools-techniques/  # Do not change this
 lang: fr
 description: Introduit quelques techniques et outils que les personnes atteintes de handicaps utilisent pour interagir avec le Web – réglages de navigateurs, synthèse vocale, reconnaissance vocale et bien d’autres.
 image: /content-images/wai-people-use-web/social.png
@@ -18,7 +21,8 @@ footer: > # Translate all the words below, including "Date:" and "Editor:". Do n
   <p>Développé par le <i lang="en">Education and Outreach Working Group</i> (<a hreflang="en" href="http://www.w3.org/WAI/EO/">EOWG</a>). Développé précédemment avec le <a hreflang="en" href="https://www.w3.org/WAI/EO/2008/wai-age-tf">Groupe de Travail WAI-AGE</a>, avec le soutien du <a hreflang="en" href="https://www.w3.org/WAI/WAI-AGE/">Projet WAI-AGE</a>.</p>
 resource:
   ref: /people-use-web/
-
+github:
+  label: wai-people-use-web
 ---
 
 {::nomarkdown}

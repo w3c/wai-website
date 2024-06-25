@@ -4,8 +4,8 @@
 
 title: "Lexie, online shopper who cannot distinguish between certain colors (color blindness)"
 nav_title: "Lexie"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -15,23 +15,22 @@ last_updated: 2024-06-25
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-people-use-web
+  label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-four/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/story-four/fr
-ref: /people-use-web/user-stories/story-four/      # Translators, do not change this
+permalink: /people-use-web/user-stories/story-four/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/story-four/  # Do not change this
 
 parent_in_h1:
-    - ref: /people-use-web/user-stories/
-      name: nav_title
-    - ref: /people-use-web/
-      name: nav_title
+  - ref: /people-use-web/user-stories/
+    name: nav_title
+  - ref: /people-use-web/
+    name: nav_title
 
 navigation:
   previous: /people-use-web/user-stories/story-three/
   next: /people-use-web/user-stories/story-five/
 
 image: /content-images/wai-people-use-web/social.png
-
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 # In the footer below:
@@ -131,7 +130,7 @@ Lexie is an older adult who loves online shopping and fantasy football. Lexie ca
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -156,7 +155,7 @@ Using color only
 : **Works well:** "Color choices are shown with a descriptive name. The good sites have a link to a slightly longer description of the color."
 
 Color only used for errors
-: **Barrier:** "When filling out a form online, required fields and errors are marked with a red outline." 
+: **Barrier:** "When filling out a form online, required fields and errors are marked with a red outline."
 : **Works well:** "In addition to color, an asterisk or words are used to identify required fields and errors."
 
 Color only in games
@@ -198,16 +197,12 @@ Chart labels
 
 
 {% include video-player-data.html
-    video-id="user-stories_4"
-    yt-id="eh091V45uqc"
+  video-id="user-stories_4"
+  yt-id="eh091V45uqc"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_4.mp4">Video: Lexie, online shopper who cannot distinguish between certain colors (color blindness) (file format: MP4, file size: 274MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |

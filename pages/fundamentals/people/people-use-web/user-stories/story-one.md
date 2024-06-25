@@ -4,8 +4,8 @@
 
 title: "Ade, reporter with limited use of his arms"
 nav_title: "Ade"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -15,16 +15,16 @@ last_updated: 2024-06-25
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-people-use-web
+  label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-one/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/story-one/fr
-ref: /people-use-web/user-stories/story-one/      # Translators, do not change this
+permalink: /people-use-web/user-stories/story-one/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/story-one/  # Do not change this
 
 parent_in_h1:
-    - ref: /people-use-web/user-stories/
-      name: nav_title
-    - ref: /people-use-web/
-      name: nav_title
+  - ref: /people-use-web/user-stories/
+    name: nav_title
+  - ref: /people-use-web/
+    name: nav_title
 
 navigation:
   previous: /people-use-web/user-stories/
@@ -131,7 +131,7 @@ Ade is a reporter who has limited use of his arms. He has several strategies for
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -143,7 +143,7 @@ Ade is a reporter who has limited use of his arms. He has several strategies for
 
 > It's not like I can't use a keyboard or pointer, I just can't use them for long periods because it is tiring.
 
-Ade was involved in a accident which caused a spinal cord injury. This left him with limited use of his arms and no movement or sensation in his legs. He has worked as a reporter for many years. Ade sometimes uses a keyboard with larger keys to help him more easily hit the correct key and a joystick instead of a mouse. However, using these for extended periods can be tiring so he has started using speech recognition software for some tasks, such as dictating long pieces. 
+Ade was involved in a accident which caused a spinal cord injury. This left him with limited use of his arms and no movement or sensation in his legs. He has worked as a reporter for many years. Ade sometimes uses a keyboard with larger keys to help him more easily hit the correct key and a joystick instead of a mouse. However, using these for extended periods can be tiring so he has started using speech recognition software for some tasks, such as dictating long pieces.
 
 Rather than using his fingers, Ade uses the palm of his hand to operate a joystick that has an enlarged lever. This can be inaccurate to use, particularly when pointing to and clicking on small areas. When this happens, he sometimes switches to using the keyboard for navigation. He can use the tab key to move through links and form elements. When using the keyboard, Ade has found that on some sites he couldn't see which field or link had focus. He also found that sometimes the links weren't in a logical order, which made it hard to find the element he was interested in. He could always use his joystick but that can interrupt his flow and slow him down. Sites often include good visual styling when you hover over a link but sometimes don't include this when the link has keyboard focus. For Ade, it is important that websites clearly show which link has the current focus and to navigate through links in a logical order, that is, following the visual order of links on the page.
 
@@ -210,16 +210,12 @@ Popup windows barrier
 
 
 {% include video-player-data.html
-    video-id="user-stories_1"
-    yt-id="Z5dMdJzUy7w"
+  video-id="user-stories_1"
+  yt-id="Z5dMdJzUy7w"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_1.mp4">Video: Ade, reporter with limited use of his arms (file format: MP4, file size: 162MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |

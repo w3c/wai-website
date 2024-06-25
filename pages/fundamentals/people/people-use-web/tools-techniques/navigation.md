@@ -1,11 +1,24 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Interaction - navigating and finding"
-lang: en
-last_updated: 2024-06-25
+lang: en  # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Introduces some of the techniques and tools that people with disabilities use to interact with digital technology — browser settings, text-to-speech, speech recognition, and many more.
 
-permalink: /people-use-web/tools-techniques/navigation/
-ref: /people-use-web/tools-techniques/navigation/
+# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  label: wai-people-use-web
+
+permalink: /people-use-web/tools-techniques/navigation/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/tools-techniques/navigation/  # Do not change this
 
 parent_in_h1:
   - ref: /people-use-web/tools-techniques/
@@ -14,7 +27,7 @@ parent_in_h1:
     name: nav_title
 
 navigation:
-    previous: /people-use-web/tools-techniques/input/
+  previous: /people-use-web/tools-techniques/input/
 
 image: /content-images/wai-people-use-web/social.png
 changelog: /people-use-web/changelog/
@@ -122,7 +135,7 @@ People navigate digital technology differently depending on their preferences, s
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -176,16 +189,12 @@ Many functions to support different styles of navigation are built directly into
 
 
 {% include video-player-data.html
-    video-id="tools-techniques_interaction"
-    yt-id="4xF23iGIAPE"
+  video-id="tools-techniques_interaction"
+  yt-id="4xF23iGIAPE"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/tools-techniques_interaction.mp4">Video: Tools and Techniques - Interaction (file format: MP4, file size: 241MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |

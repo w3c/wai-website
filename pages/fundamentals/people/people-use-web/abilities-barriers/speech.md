@@ -1,12 +1,25 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Speech"
 nav_title: "Speech"
-lang: en
-last_updated: 2024-06-25
+lang: en  # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Explores the wide diversity of people and abilities. Highlights accessibility barriers that people may experience because of inaccessible digital technology.
 
-permalink: /people-use-web/abilities-barriers/speech/
-ref: /people-use-web/abilities-barriers/speech/
+# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  label: wai-people-use-web
+
+permalink: /people-use-web/abilities-barriers/speech/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/abilities-barriers/speech/  # Do not change this
 
 parent_in_h1:
   - ref: /people-use-web/abilities-barriers/
@@ -15,8 +28,8 @@ parent_in_h1:
     name: nav_title
 
 navigation:
-    previous: /people-use-web/abilities-barriers/physical/
-    next: /people-use-web/abilities-barriers/visual/
+  previous: /people-use-web/abilities-barriers/physical/
+  next: /people-use-web/abilities-barriers/visual/
 
 image: /content-images/wai-people-use-web/social.png
 changelog: /people-use-web/changelog/
@@ -119,7 +132,7 @@ Speech disabilities include difficulty producing speech that is recognizable by 
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -131,11 +144,11 @@ People with speech disabilities encounter barriers with voice-based services, su
 
 ## Examples of speech disabilities {#examples-of-speech-disabilities}
 
-- **Apraxia of speech (AOS)**{:#apraxia} – includes inconsistent articulation and production of speech sounds, and errors producing sounds in the correct order so that spoken words or phrases become difficult to understand. 
+- **Apraxia of speech (AOS)**{:#apraxia} – includes inconsistent articulation and production of speech sounds, and errors producing sounds in the correct order so that spoken words or phrases become difficult to understand.
 - **Cluttering**{:#cluttering} (also called "tachyphemia") – includes increased speaking rate, incorrect rhythm, intonation, and co-articulation of sounds, and other influent speech that is sometimes similar to [stuttering](#stuttering){:.termref}.
-- **Dysarthria**{:#dysarthria} – involves weakness or complete paralysis of muscles that are necessary to produce speech, including lips, lungs, throat, tongue, and others. 
-- **Speech sound disorder**{:#sound} – involves difficulty or inability to produce certain sounds or patterns of sound and sometimes results in addition, distortion, omission, or substitution of such sounds with others. 
-- **Stuttering**{:#stuttering} – includes influent speech, repetition of individual sounds or entire words and phrases, and misplacement or prolongation of pauses and sounds while speaking that is different from [cluttering](#cluttering){:.termref}. 
+- **Dysarthria**{:#dysarthria} – involves weakness or complete paralysis of muscles that are necessary to produce speech, including lips, lungs, throat, tongue, and others.
+- **Speech sound disorder**{:#sound} – involves difficulty or inability to produce certain sounds or patterns of sound and sometimes results in addition, distortion, omission, or substitution of such sounds with others.
+- **Stuttering**{:#stuttering} – includes influent speech, repetition of individual sounds or entire words and phrases, and misplacement or prolongation of pauses and sounds while speaking that is different from [cluttering](#cluttering){:.termref}.
 - **Muteness**{:#muteness} (also called "mutism") – involves the inability to speak due to various reasons such as anxiety, brain injuries, or inability to hear and learn speech.
 
 ## Examples of barriers for people with speech disabilities {#examples-of-barriers-for-people-with-speech-disabilities}
@@ -151,16 +164,12 @@ People with speech disabilities encounter barriers with voice-based services, su
 
 
 {% include video-player-data.html
-    video-id="abilities-barriers_speech"
-    yt-id="oFF0lbRskKg"
+  video-id="abilities-barriers_speech"
+  yt-id="oFF0lbRskKg"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_speech.mp4">Video: Diverse Abilities and Barriers - Speech (file format: MP4, file size: 199MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |

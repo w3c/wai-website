@@ -1,20 +1,32 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "How People with Disabilities Use the Web"
 nav_title: Overview
-lang: "en"
-last_updated: 2024-06-25
+lang: en  # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
+class: tight-page
 
-permalink: /people-use-web/
-ref: /people-use-web/
+# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  label: wai-people-use-web
+
+permalink: /people-use-web/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/  # Do not change this
 
 resource:
   title: "How People with Disabilities Use the Web"
   ref: /people-use-web/
 
 image: /content-images/wai-people-use-web/social.png
-class: tight-page
-
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
 

@@ -1,16 +1,29 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Auditory"
 nav_title: "Auditory"
-lang: en
-last_updated: 2024-06-25
+lang: en  # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Explores the wide diversity of people and abilities. Highlights accessibility barriers that people may experience because of inaccessible digital technology.
 
-permalink: /people-use-web/abilities-barriers/auditory/
-ref: /people-use-web/abilities-barriers/auditory/
+# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  label: wai-people-use-web
+
+permalink: /people-use-web/abilities-barriers/auditory/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/abilities-barriers/auditory/  # Do not change this
 
 navigation:
-    previous: /people-use-web/abilities-barriers/
-    next: /people-use-web/abilities-barriers/cognitive/
+  previous: /people-use-web/abilities-barriers/
+  next: /people-use-web/abilities-barriers/cognitive/
 
 parent_in_h1:
   - ref: /people-use-web/abilities-barriers/
@@ -119,7 +132,7 @@ Auditory disabilities range from mild or moderate hearing loss in one or both ea
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -167,16 +180,12 @@ For some people with auditory disabilities, sign language is the primary languag
 
 
 {% include video-player-data.html
-    video-id="abilities-barriers_auditory"
-    yt-id="WZ4J8tKQ-Kw"
+  video-id="abilities-barriers_auditory"
+  yt-id="WZ4J8tKQ-Kw"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_auditory.mp4">Video: Diverse Abilities and Barriers - Auditory (file format: MP4, file size: 362MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |

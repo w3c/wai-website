@@ -1,12 +1,25 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Physical"
 nav_title: "Physical"
-lang: en
-last_updated: 2024-06-25
+lang: en  # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Explores the wide diversity of people and abilities. Highlights accessibility barriers that people may experience because of inaccessible digital technology.
 
-permalink: /people-use-web/abilities-barriers/physical/
-ref: /people-use-web/abilities-barriers/physical/
+# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  label: wai-people-use-web
+
+permalink: /people-use-web/abilities-barriers/physical/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/abilities-barriers/physical/  # Do not change this
 
 parent_in_h1:
   - ref: /people-use-web/abilities-barriers/
@@ -15,8 +28,8 @@ parent_in_h1:
     name: nav_title
 
 navigation:
-    previous: /people-use-web/abilities-barriers/cognitive/
-    next: /people-use-web/abilities-barriers/speech/
+  previous: /people-use-web/abilities-barriers/cognitive/
+  next: /people-use-web/abilities-barriers/speech/
 
 image: /content-images/wai-people-use-web/social.png
 changelog: /people-use-web/changelog/
@@ -119,7 +132,7 @@ Physical disabilities (sometimes called "motor disabilities") include weakness a
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -129,10 +142,10 @@ Physical disabilities (sometimes called "motor disabilities") include weakness a
 
 To use digital technology, people with physical disabilities often use specialized hardware and software such as:
 
-- Ergonomic or specially designed keyboard or mouse; 
-- Head pointer, mouth stick, and other aids to help with typing; 
-- On-screen keyboard with trackball, joysticks, or other pointing devices; 
-- Switches operated by foot, shoulder, sip-and-puff, or other movements; 
+- Ergonomic or specially designed keyboard or mouse;
+- Head pointer, mouth stick, and other aids to help with typing;
+- On-screen keyboard with trackball, joysticks, or other pointing devices;
+- Switches operated by foot, shoulder, sip-and-puff, or other movements;
 - Speech recognition, eye tracking, and other approaches for hands-free interaction.
 
 People with physical disabilities may be using a mouse or mouse-like device only, or keyboard or keyboard-like device only to operate the computer. People with physical disabilities rely on keyboard support to activate functionality provided on web pages. They may need more time to type, click, or carry out other interactions, and they may type single keystrokes in sequence or use sticky keys rather than typing simultaneous keystrokes ("chording") to activate commands. Such keystrokes include commands for special characters, shortcut keys, and to active menu items.
@@ -141,29 +154,29 @@ People with physical disabilities may have trouble clicking small areas and are 
 
 ## Examples of physical disabilities {#examples-of-physical-disabilities}
 
-- **Amputation**{:#limbs} – includes missing fingers, limbs, or other parts of the human body. 
-- **Arthritis**{:#arthritis} (previously called "[rheumatism](#rheumatism){:.termref}") – inflammation, degeneration, or damage to the joints. 
-- **Fibromyalgia**{:#fibromyalgia} (formerly called "[rheumatism](#rheumatism){:.termref}") – the chronic pain of muscle and connective tissues. 
-- **Rheumatism**{:#rheumatism} – typically refers to [arthritis](#arthritis){:.termref} and other causes of bone or joint pain, and sometimes to [fibromyalgia](#fibromyalgia){:.termref} and other causes for muscular and other soft tissue pain. 
+- **Amputation**{:#limbs} – includes missing fingers, limbs, or other parts of the human body.
+- **Arthritis**{:#arthritis} (previously called "[rheumatism](#rheumatism){:.termref}") – inflammation, degeneration, or damage to the joints.
+- **Fibromyalgia**{:#fibromyalgia} (formerly called "[rheumatism](#rheumatism){:.termref}") – the chronic pain of muscle and connective tissues.
+- **Rheumatism**{:#rheumatism} – typically refers to [arthritis](#arthritis){:.termref} and other causes of bone or joint pain, and sometimes to [fibromyalgia](#fibromyalgia){:.termref} and other causes for muscular and other soft tissue pain.
 - **Reduced dexterity**{:#dexterity} – is a functional term (rather than a medical condition) that describes the ability to control the hand, such as hand-eye coordination of people with cognitive and neurological disabilities.
 - **Multiple sclerosis**{:#ms} – causes damage to nerve cells in the brain and spinal cord, and can affect physical, cognitive, and visual abilities, in particular during relapses.
-- **Muscular dystrophy**{:#md} – progressive weakness and degeneration of muscles, sometimes including in arms and hands. 
+- **Muscular dystrophy**{:#md} – progressive weakness and degeneration of muscles, sometimes including in arms and hands.
 - **Repetitive stress injury (RSI)**{:#rsi} (also called "repetitive motion disorder" (RMD) and "cumulative trauma disorder" (CT)) - involves injuries to the musculoskeletal system (bones, joints, tendons, and other connective tissues) and the nervous system from repetitive tasks and damage.
-- **Tremor and spasms**{:#tremor} – involuntary movement or muscle contraction, including short twitches, and continual or rhythmic muscle contractions. 
+- **Tremor and spasms**{:#tremor} – involuntary movement or muscle contraction, including short twitches, and continual or rhythmic muscle contractions.
 - **Quadriplegia**{:#quadriplegia} (sometimes called "tetraplegia") - partial or total paralysis (includes motor control and sensation) to all four body limbs (legs and arms) and the torso.
 - **Seizure disorders**{:#seizure} – includes different types of epilepsy and migraines, which may be in reaction to visual flickering or audio signals at certain frequencies or patterns.
 
 ## Examples of barriers for people with physical disabilities {#examples-of-barriers-for-people-with-physical-disabilities}
 
-- Websites, web browsers, and authoring tools that do not provide full keyboard support. 
-- Insufficient time limits to respond or to complete tasks, such as to fill out online forms. 
-- Controls, including links with images of text, that do not have equivalent text alternatives. 
-- Missing visual and non-visual orientation cues, page structure, and other navigational aids. 
+- Websites, web browsers, and authoring tools that do not provide full keyboard support.
+- Insufficient time limits to respond or to complete tasks, such as to fill out online forms.
+- Controls, including links with images of text, that do not have equivalent text alternatives.
+- Missing visual and non-visual orientation cues, page structure, and other navigational aids.
 - Inconsistent, unpredictable, and overly complicated navigation mechanisms and page functions.
 
 ## Stories related to physical disabilities {#stories-related-to-physical-disabilities}
 
-- [Ade, reporter with limited use of arms](/people-use-web/user-stories/story-one/) 
+- [Ade, reporter with limited use of arms](/people-use-web/user-stories/story-one/)
 - [Elias, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/story-nine/)
 
 {% include excol.html type="start" id="video-transcript" %}
@@ -174,16 +187,12 @@ People with physical disabilities may have trouble clicking small areas and are 
 
 
 {% include video-player-data.html
-    video-id="abilities-barriers_physical"
-    yt-id="z_5l75rksSA"
+  video-id="abilities-barriers_physical"
+  yt-id="z_5l75rksSA"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_physical.mp4">Video: Diverse Abilities and Barriers - Physical (file format: MP4, file size: 277MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |

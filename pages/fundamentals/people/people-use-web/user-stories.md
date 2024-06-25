@@ -4,8 +4,8 @@
 
 title: "Stories of Web Users"
 nav_title: "User Stories"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description:  Personas of people with disabilities using the Web that highlight the effect of accessibility barriers and the broader benefits of accessible digital technologies.
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -16,11 +16,10 @@ description:  Personas of people with disabilities using the Web that highlight 
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-people-use-web
-  path: people-use-web/user-stories.md    # Add the language shortcode to the middle of the filename, for example: people-use-web/user-stories.fr.md
+  label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/fr
-ref: /people-use-web/user-stories/      # Translators, do not change this
+permalink: /people-use-web/user-stories/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/  # Do not change this
 
 parent_in_h1:
   - ref: /people-use-web/
@@ -32,6 +31,7 @@ navigation:
 image: /content-images/wai-people-use-web/social.png
 changelog: /people-use-web/changelog/
 acknowledgements: /people-use-web/acknowledgements/
+
 # In the footer below:
 # Do not change the dates
 # Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.

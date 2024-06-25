@@ -4,8 +4,8 @@
 
 title: "Stefan, student with attention deficit hyperactivity disorder and dyslexia"
 nav_title: "Stefan"
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-06-25
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -17,14 +17,14 @@ last_updated: 2024-06-25
 github:
   label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-eight/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/story-eight/fr
-ref: /people-use-web/user-stories/story-eight/      # Do not change this
+permalink: /people-use-web/user-stories/story-eight/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/story-eight/  # Do not change this
 
 parent_in_h1:
-    - ref: /people-use-web/user-stories/
-      name: nav_title
-    - ref: /people-use-web/
-      name: nav_title
+  - ref: /people-use-web/user-stories/
+    name: nav_title
+  - ref: /people-use-web/
+    name: nav_title
 
 navigation:
   previous: /people-use-web/user-stories/story-seven/
@@ -107,7 +107,7 @@ footer: >
   <div>
 {:/}
 
-Stefan is a student who has dyslexia and attention deficit hyperactivity disorder (ADHD). Stefan finds it hard to maintain focus on his schoolwork, especially when reading a lot of dense text or following written instructions. He likes digital textbooks and websites that allow him to use text-to-speech software because he can follow both the written and auditory words. It’s important though that websites and other digital technology use plain language, a consistent layout, and don’t display pop-up ads or moving images, which are very distracting and confusing. Mobile apps and websites are often less cluttered and easier to use. 
+Stefan is a student who has dyslexia and attention deficit hyperactivity disorder (ADHD). Stefan finds it hard to maintain focus on his schoolwork, especially when reading a lot of dense text or following written instructions. He likes digital textbooks and websites that allow him to use text-to-speech software because he can follow both the written and auditory words. It’s important though that websites and other digital technology use plain language, a consistent layout, and don’t display pop-up ads or moving images, which are very distracting and confusing. Mobile apps and websites are often less cluttered and easier to use.
 
 {::options toc_levels="2..2" /}
 
@@ -120,7 +120,7 @@ Stefan is a student who has dyslexia and attention deficit hyperactivity disorde
    accessible-version-label="Video: Stefan, student with attention deficit hyperactivity disorder and dyslexia"
    poster="content-images/wai-people-use-web/user-stories/stefan-video-frame.png"
 %}
-  
+
 </div>
 
 {% include_cached toc.html type="start" title="Page Contents" class="full" %}
@@ -131,7 +131,7 @@ Stefan is a student who has dyslexia and attention deficit hyperactivity disorde
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -144,7 +144,7 @@ Stefan is a student who has dyslexia and attention deficit hyperactivity disorde
 Stefan is a student with dyslexia and attention deficit hyperactivity disorder (ADHD). As a person with ADHD, Stefan has difficulty following multi-step or long tasks. This can make it hard to maintain focus on his schoolwork. Visual supports, such as icons and images, and good use of whitespace around what he is looking at can help him to focus. He can become lost in dense text and is unable to find the meaning. When this happens he gives up because it takes too long and is tiring. This has caused him to fall behind in his work compared to other students.
 
 Stefan's school has recently transitioned to using digital textbooks. This has been a huge improvement for Stefan who can now use his text-to-speech software to aid his understanding of what are sometimes complex texts. Stefan also uses the web for research. Unfortunately, his experience on the web can be varied. Often sites contain content such as animated advertisments and graphics which he can find distracting.
- 
+
 Stefan finds it easier to use websites that have a simple and consistent layout with content written in plain language. Images or icons can also help to reinforce the meaning of the text. Sometimes he uses functionality in his text-to-speech software that allows him to change the page background color. This is especially helpful when he is tired. Stefan also uses captions when watching videos because both hearing and seeing the words reinforces their meaning.
 
 Stefan is a fan of old science fiction movies and spends a lot of time on fan made sites and forums. He has spending limits on his card and he uses this to buy fan memorabilia. The design of these sites and purchasing process can make this difficult. They are often quite busy with distracting advertisements and complicated checkout forms. He has found that he can access these sites on his mobile phone where he can switch on the browser reading mode to remove a lot of the background clutter. This allows him to focus on the task and makes the steps much clearer.
@@ -159,14 +159,14 @@ Spelling suggestions
 
 Browser settings aren't respected
 : **Barrier:** "I use browser settings to specify the font, text size, and line spacing I need but some sites don't display my settings."
-: **Works well:** "When I change settings in my browser, websites show those settings." 
+: **Works well:** "When I change settings in my browser, websites show those settings."
 
 <!--Distracting pop-ups
 : **Barrier:** "Banner ads and popups are distracting and make me lose focus on what I'm doing."
 : **Works well:** "It's great when I can turn off these images using the ad blocker in my browser."-->
 
 Complex language
-: **Barrier:** "Complex language and sentence structure are confusing to me and hard to read and retain. 
+: **Barrier:** "Complex language and sentence structure are confusing to me and hard to read and retain.
 : **Works well:** Use short sentences and plain language as much as possible."
 
 Excessive acronyms and abbreviations
@@ -225,14 +225,12 @@ Excessive acronyms and abbreviations
 
 
 {% include video-player-data.html
-    video-id="user-stories_8"
-    yt-id="Ie-RaV7UTCU"
+  video-id="user-stories_8"
+  yt-id="Ie-RaV7UTCU"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_8.mp4">Video: Stefan, student with attention deficit hyperactivity disorder and dyslexia (file format: MP4, file size: 346MB)</a>.</em></p>
 
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 | Audio | Visual |
 | --- | --- |
 | How people with disabilities use digital technology; Stefan, student with attention deficit hyperactivity disorder and dyslexia. | How people with disabilities use digital technology; Stefan, student with attention deficit hyperactivity disorder and dyslexia. |

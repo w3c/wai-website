@@ -1,22 +1,35 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Cognitive and learning"
 nav_title: "Cognitive and learning"
-lang: en
-last_updated: 2024-06-25
+lang: en  # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Explores the wide diversity of people and abilities. Highlights accessibility barriers that people may experience because of inaccessible digital technology.
 
-permalink: /people-use-web/abilities-barriers/cognitive/
-ref: /people-use-web/abilities-barriers/cognitive/
+# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  label: wai-people-use-web
+
+permalink: /people-use-web/abilities-barriers/cognitive/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/abilities-barriers/cognitive/  # Do not change this
+
+navigation:
+  previous: /people-use-web/abilities-barriers/auditory/
+  next: /people-use-web/abilities-barriers/physical/
 
 parent_in_h1:
   - ref: /people-use-web/abilities-barriers/
     name: nav_title
   - ref: /people-use-web/
     name: nav_title
-
-navigation:
-    previous: /people-use-web/abilities-barriers/auditory/
-    next: /people-use-web/abilities-barriers/physical/
 
 image: /content-images/wai-people-use-web/social.png
 changelog: /people-use-web/changelog/
@@ -119,7 +132,7 @@ Cognitive and learning disabilities affect how people store, retrieve, or use in
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -152,9 +165,9 @@ People with cognitive and learning disabilities may use different types of brows
 
 ## Examples of cognitive and learning disabilities {#examples-of-cognitive-and-learning-disabilities}
 
--   **Age-related forgetfulness**{:#ageforgetful} (sometimes called "age-appropriate forgetfulness" or "age-related memory loss") —  impaired memory that can be a normal part of healthy aging, such as taking longer to learn new things and occasionally forget particular words. 
+-   **Age-related forgetfulness**{:#ageforgetful} (sometimes called "age-appropriate forgetfulness" or "age-related memory loss") —  impaired memory that can be a normal part of healthy aging, such as taking longer to learn new things and occasionally forget particular words.
 -   **Attention deficit hyperactivity disorder (ADHD)**{:#adhd} (formerly "attention deficit disorder (ADD)") – involves difficulty focusing on a single task, focusing for longer periods, or being easily distracted.
--   **Autism spectrum disorder (ASD)**{:#asd} (includes “autism,” “Asperger syndrome,” and “pervasive developmental disorder” (PDD)) - involves impairments of social communication and interaction abilities, and sometimes restricted habits and interests. 
+-   **Autism spectrum disorder (ASD)**{:#asd} (includes “autism,” “Asperger syndrome,” and “pervasive developmental disorder” (PDD)) - involves impairments of social communication and interaction abilities, and sometimes restricted habits and interests.
 -   **Brain Injury**{:injury} (traumatic or acquired) — damage that can happen at any stage in life and can lead to long-term impairment of executive function, memory, learning, coordination, speech, and emotions as well as other physical and sensory impairments.
 -   **Dementia** — includes memory loss and trouble concentrating, following a conversation, and finding the right word.
 -   **Dyslexia** - learning disability best known for its effect on the development of literacy and language-related skills.
@@ -171,19 +184,19 @@ People with cognitive and learning disabilities may use different types of brows
 -   Complex or inconsistent navigation mechanisms and page layouts that are difficult to understand and use.
 -   Complex sentences that are difficult to read and unusua words that are difficult to understand.
 -   Metaphors and other non-literal text whose meaning is not predictable from the usual meanings of the words.
--   Long passages of text without images, graphs, or other illustrations to highlight the context. 
--   Moving, blinking, or flickering content, and background audio that cannot be turned off. 
+-   Long passages of text without images, graphs, or other illustrations to highlight the context.
+-   Moving, blinking, or flickering content, and background audio that cannot be turned off.
 -   Passwords and access codes that rely on memory.
 -   Time-outs on activities
--   Web browsers and media players that do not provide mechanisms to suppress animations and audio. 
+-   Web browsers and media players that do not provide mechanisms to suppress animations and audio.
 -   Visual page designs that cannot be adapted using web browser controls or custom style sheets.
 
 ## Stories related to cognitive and learning disabilities {#stories-related-to-cognitive-and-learning-disabilities}
 
 - [Sophie, basketball fan with Down syndrome](/people-use-web/user-stories/story-five/)
-- [Ian, data entry clerk with autism](/people-use-web/user-stories/story-two/) 
-- [Stefan, student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/story-eight/) 
-- [Elias, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/story-nine/) 
+- [Ian, data entry clerk with autism](/people-use-web/user-stories/story-two/)
+- [Stefan, student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/story-eight/)
+- [Elias, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/story-nine/)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -193,15 +206,11 @@ People with cognitive and learning disabilities may use different types of brows
 
 
 {% include video-player-data.html
-    video-id="abilities-barriers_cognitive"
-    yt-id="4UaUSbyVFjk"
+  video-id="abilities-barriers_cognitive"
+  yt-id="4UaUSbyVFjk"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_cognitive.mp4">Video: Diverse Abilities and Barriers - Cognitive (file format: MP4, file size: 321MB)</a>.</em></p>
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |

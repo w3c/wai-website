@@ -1,11 +1,24 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Perception - hearing, feeling and seeing"
-lang: en
-last_updated: 2024-06-25
+lang: en  # Change "en" to the translated-language shortcode
+last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Introduces some of the techniques and tools that people with disabilities use to interact with digital technology — browser settings, text-to-speech, speech recognition, and many more.
 
-permalink: /people-use-web/tools-techniques/perception/
-ref: /people-use-web/tools-techniques/perception/
+# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  label: wai-people-use-web
+
+permalink: /people-use-web/tools-techniques/perception/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/tools-techniques/perception/  # Do not change this
 
 parent_in_h1:
   - ref: /people-use-web/tools-techniques/
@@ -14,8 +27,8 @@ parent_in_h1:
     name: nav_title
 
 navigation:
-    previous: /people-use-web/tools-techniques/
-    next: /people-use-web/tools-techniques/presentation/
+  previous: /people-use-web/tools-techniques/
+  next: /people-use-web/tools-techniques/presentation/
 
 image: /content-images/wai-people-use-web/social.png
 changelog: /people-use-web/changelog/
@@ -122,7 +135,7 @@ People perceive content through different senses depending on their needs and pr
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
-    
+
 </aside>
 {:/}
 
@@ -141,7 +154,7 @@ In some cases, content can be converted into different forms using software or h
 - **Audio descriptions**{:#audio} – (also referred to as "video descriptions" and "described video") narrations that describe important visual details in a video. These narrations can be during natural pauses in the audio, or in separate audio files or audio tracks in multimedia.
 - **Auditory, tactile, and visual notifications**{:#notifications} – prompting or alerting the user in different ways such as by blinking or displaying visual dialogs, by using sound, or by vibration.
 - **Braille**{:#braille} – a system using six to eight raised dots in various patterns, to represent letters and numbers. These characters are read by scanning over the raised dots using the fingertips. Braille is used by people who are blind but not all individuals who are blind know braille.
-- **Captions**{:#captions} (called “subtitles” in some areas) – a text version of the speech and non-speech audio information needed by people who are deaf and hard-of-hearing to understand content. Captions are synchronized with the audio and usually shown in a media player when users turn them on. 
+- **Captions**{:#captions} (called “subtitles” in some areas) – a text version of the speech and non-speech audio information needed by people who are deaf and hard-of-hearing to understand content. Captions are synchronized with the audio and usually shown in a media player when users turn them on.
 - **Sign language**{:#sign} – a visual form of communication that is primarily used by people who are deaf. It involves hand, body, and facial expressions to transmit words, phrase, and tone. For instance, the intensity of a gesture could indicate the mood or emphasis of particular information. As in written languages, there are many sign languages and dialects, some of which are recognized as official languages in some countries. Not all people who have auditory disabilities or who are deaf know sign language.
 - **Symbols**{:#symbols} – icons that represent words or concepts used instead of text by some people with impaired communication, including people with difficulties reading or writing.
 - **Text-to-speech**{:#tts} (sometimes called "speech synthesis" or "speech output") - automatic conversion of text into a synthesized voice reading the text aloud.
@@ -168,16 +181,12 @@ In some cases, content can be converted into different forms using software or h
 
 
 {% include video-player-data.html
-    video-id="tools-techniques_perception"
-    yt-id="dL8W-A4F1ZE"
+  video-id="tools-techniques_perception"
+  yt-id="dL8W-A4F1ZE"
 %}
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/tools-techniques_perception.mp4">Video: Tools and Techniques - Perception (file format: MP4, file size: 264MB)</a>.</em></p>
 
-
-
 ###  Text Transcript with Description of Visuals {#transcript}
-
-
 
 | Audio | Visual |
 | --- | --- |
