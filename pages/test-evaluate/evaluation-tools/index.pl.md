@@ -53,7 +53,7 @@ Powiązane materiały przedstawiono w: [[Omówienie oceniania dostępności inte
 
 {% include excol.html type="start" id="video-intro-transcript" %}
 
-##  Alternatives for Evaluation Tools Overview Video {#alternatives}
+##  Omówienie alternatywnych narzędzi oceny {#alternatives}
 
 {% include excol.html type="middle" %}
 
