@@ -1,11 +1,14 @@
 ---
 # Do not translate Acknowledgements
-
 title: "How People with Disabilities Use the Web: Acknowledgments"
 nav_title: "Acknowledgements"
-nosidenav: true
+
+github:
+  label: wai-people-use-web
+
 permalink: /people-use-web/acknowledgements/
 ref: /people-use-web/acknowledgements/
+
 resource:
   ref: /people-use-web/
 ---
