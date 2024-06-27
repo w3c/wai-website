@@ -44,6 +44,8 @@ involving-users-eval:
   - wai-involving-users-eval
 involving-users:
   - wai-involving-users
+media-guide:
+  - wai-media-guide
 mobile:
   - wai-mobile
 news:
