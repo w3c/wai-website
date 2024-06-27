@@ -225,6 +225,7 @@ Moving or blinking content
 <p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_2.mp4">Video: Ian, data entry clerk with autism (file format: MP4, file size: 291MB)</a>.</em></p>
 
 ###  Text Transcript with Description of Visuals {#transcript}
+
 | Audio | Visual |
 | --- | --- |
 | How people with disabilities use digital technology; Ian, data scientist with autism.| How people with disabilities use digital technology; Ian, data scientist with autism. |
