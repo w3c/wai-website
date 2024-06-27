@@ -31,7 +31,7 @@ exclude:
   - "vendor"
 # Build settings
 markdown: kramdown
-kramwdown:
+kramdown:
   toc_levels: 2..3
   input: GFM
   syntax_highlighter: rouge
