@@ -20,7 +20,7 @@ jobs:
     - name: Set up Ruby 3.3
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.3' # matches Netlify of ruby version
+        ruby-version: '3.3.3' # matches Netlify of ruby version
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Update Externals
       run: |
