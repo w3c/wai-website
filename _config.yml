@@ -56,12 +56,6 @@ collections:
     output: true
     acknowledgements: true
     permalink: /:collection/:path/
-  people-use-web:
-    area: "Accessibility Fundamentals"
-    name: "How People with Disabilities Use the Web"
-    output: true
-    acknowledgements: false
-    permalink: /:collection/:path/
   tips:
     area: "All Areas"
     name: "Tips for Getting Started"
@@ -127,12 +121,6 @@ defaults:
       layout: "default"
       github:
         repository: w3c/wai-perspective-videos
-  - scope:
-      path: "_people-use-web"
-    values:
-      layout: "default"
-      github:
-        repository: w3c/wai-people-use-web
   - scope:
       path: "_tips"
     values:
@@ -346,7 +334,6 @@ tipue_search:
       [
         "wai-wcag-act-rules-patterns",
         "perspective-videos",
-        "people-use-web",
         "tips",
         "policies",
         "audiences",
