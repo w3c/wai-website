@@ -86,7 +86,7 @@ You can start with an automatically-generated text file. There's lots of softwar
 {% include box.html type="start" title="Example of bad automatic captions (that cause a fire)" class="simple aside"  %}
 {:/}
 
-{% include image.html src="food-fire.jpg" alt="food on fire under broiler" class="normal right" %}
+{% include image.html src="media-guide/food-fire.jpg" alt="food on fire under broiler" class="normal right" %}
   _Spoken text:_<br>&quot;Broil on high for <strong>4 to 5 minutes</strong>. You should <strong>not</strong> preheat the oven.&quot;<br>
   _Automatic caption:_<br>&quot;Broil on high for <strong>45 minutes</strong>. You should <strong>know to</strong> preheat the oven.&quot;
 

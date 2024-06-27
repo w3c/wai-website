@@ -144,7 +144,7 @@ For any text, consider the font family, size, and contrast between the text and 
 
 ### Plan for sign language – _storyboarding, script, recording_ (WCAG AAA)
 
-Often sign languages are provided as an overlay in the bottom right corner of videos. For example: [NHS 111 British Sign Language (BSL) Advert (YouTube)<br>{% include image.html src="sign-example.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
+Often sign languages are provided as an overlay in the bottom right corner of videos. For example: [NHS 111 British Sign Language (BSL) Advert (YouTube)<br>{% include image.html src="media-guide/sign-example.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
 
 Plan for the video not to include important information that would be obstructed by a sign language overlay.
 
@@ -181,7 +181,7 @@ For some videos, such as presentations and instructional videos, the best way to
   </tr>
 </table>
 
-Here is an example [training video with the description integrated in what the trainer is saying (YouTube)<br>{% include image.html src="eg-integrated-description.png" alt="" class="normal video" %}](https://www.youtube.com/watch?v=JUfmCvdzqbM)
+Here is an example [training video with the description integrated in what the trainer is saying (YouTube)<br>{% include image.html src="media-guide/eg-integrated-description.png" alt="" class="normal video" %}](https://www.youtube.com/watch?v=JUfmCvdzqbM)
 
 If you want guidance on what to include in description, see the "Description of Visual Information" page, [Tips for Writing Description section](/media/av/description/#writing).
 

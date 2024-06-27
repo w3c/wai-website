@@ -69,7 +69,7 @@ Cette page vous aide à comprendre et à créer des sous-titres.
 
 _Qui :_ Les sous-titres (aussi appelés « sous-titres intralinguistiques ») fournissent du contenu pour les personnes sourdes et celles qui ne peuvent pas entendre l’audio. Ils sont aussi utilisés par les personnes qui comprennent plus facilement l’information écrite que l’audio.
 
-{% include image.html src="captions.png" alt="" class="normal right" %}
+{% include image.html src="media-guide/captions.png" alt="" class="normal right" %}
 
 _Quoi :_ Les sous-titres sont une version texte des informations audio, parlées ou non, nécessaires à la compréhension du contenu. Ils apparaissent dans le lecteur multimédia et sont synchronisés avec l’audio.
 
@@ -204,7 +204,7 @@ Il existe des outils qui utilisent une technologie de reconnaissance vocale pour
 {% include box.html type="start" title="Exemple de sous-titres automatiques mal transcrits (pouvant provoquer un incendie)" class="simple aside"  %}
 {:/}
 
-{% include image.html src="food-fire.jpg" alt="" class="normal right" %}
+{% include image.html src="media-guide/food-fire.jpg" alt="" class="normal right" %}
   _Audio prononcé :_<br>&quot;Grillez à feu vif pendant <strong>4 à 5 minutes</strong>. Ne préchauffez <strong>pas</strong> le four.&quot;<br>
   _Sous-titre automatique :_<br>&quot;Grillez à feu vif pendant <strong>45 minutes</strong>. <strong>Préchauffez</strong> le four.&quot;
 

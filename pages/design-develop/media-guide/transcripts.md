@@ -75,7 +75,7 @@ _Who:_ Basic transcripts are used by people who are Deaf, are hard of hearing, h
 
 **_Descriptive transcripts_** for videos also include visual information needed to understand the content.
 
-{% include image.html src="braille.jpg" alt="" class="normal right" %}
+{% include image.html src="media-guide/braille.jpg" alt="" class="normal right" %}
 
 _Who:_ Descriptive transcripts are needed to provide audio and video content to people who are both Deaf and blind. They are also used by people who process text information better than audio and visual/pictorial information.
 

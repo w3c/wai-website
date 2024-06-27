@@ -63,11 +63,11 @@ Cette page présente des besoins et des expériences d’utilisateurs. Elle expl
 ## Comprendre les besoins des utilisateurs et les expériences des personnes en situation de handicap
 
 <div style="float:right; margin-left:1em;">
-{% include image.html src="ear.svg" alt="" class="mini" %}<br><br> 
-{% include image.html src="eye.svg" alt="" class="mini" %}<br><br>
-{% include image.html src="brain.svg" alt="" class="mini" %}<br><br>
-{% include image.html src="hand.svg" alt="" class="mini" %}<br><br>
-{% include image.html src="speech.svg" alt="" class="mini" %}
+{% include image.html src="media-guide/ear.svg" alt="" class="mini" %}<br><br> 
+{% include image.html src="media-guide/eye.svg" alt="" class="mini" %}<br><br>
+{% include image.html src="media-guide/brain.svg" alt="" class="mini" %}<br><br>
+{% include image.html src="media-guide/hand.svg" alt="" class="mini" %}<br><br>
+{% include image.html src="media-guide/speech.svg" alt="" class="mini" %}
 </div>
 
 Il est tout d’abord utile de comprendre les expériences utilisateurs des personnes en situation de handicap. Ensuite, vous saurez le « pourquoi » derrière les exigences d’accessibilité des médias présentées dans cette ressource. Par exemple, une personne qui est sourde ne peut pas entendre l’audio, vous devez donc fournir les informations audio importantes sous une autre forme.
@@ -90,14 +90,14 @@ Si vous souhaitez en savoir plus, consultez ces autres ressources :
 
 Un média accessible est **essentiel pour les personnes en situation de handicap**, et est **utile pour tous**. Les fonctionnalités d’accessibilité sont également utilisées par des personnes _sans_ handicaps dans une multitude de situations.
 
-{% include image.html src="transcript.svg" alt="" class="mini right" %}
+{% include image.html src="media-guide/transcript.svg" alt="" class="mini right" %}
 
 Par exemple, les transcriptions peuvent être :
 * Parcourues ou lues à la place d’un visionnage ou d’une écoute. Cela est significativement plus simple et plus rapide pour beaucoup d’utilisateurs. Parfois, des personnes veulent d’abord parcourir la transcription avant de décider ou non de lire le média.
 * Utilisées sans avoir besoin de télécharger les fichiers vidéos. Par exemple, pour économiser des données sur mobile.
 * Utilisées hors connexion, imprimées, ou converties en braille.
 
-{% include image.html src="cc.svg" alt="" class="mini right" %}
+{% include image.html src="media-guide/cc.svg" alt="" class="mini right" %}
 
 Et les sous-titres peuvent être utilisés :
 * Dans des environnements bruyants où les utilisateurs ne peuvent pas entendre l’audio. Par exemple, dans un bar, un aéroport ou un concert.
@@ -108,19 +108,19 @@ Et les sous-titres peuvent être utilisés :
 
 ## Bénéfices pour les organisations {#benefits}
 
-{% include image.html src="brand.svg" alt="inclusif, divers, responsable" class="normal right" %}
+{% include image.html src="media-guide/brand.svg" alt="inclusif, divers, responsable" class="normal right" %}
 
 Les organisations qui rendent leurs contenus audio et vidéo accessibles peuvent récolter des bénéfices tels que :
 * Une augmentation du trafic et un site Web utilisé par des personnes avec ou sans handicaps, par exemple, dans les [situations décrites ci-dessus](#situations).
 * Une meilleure expérience utilisateur pour tous et une amélioration de la satisfaction client.
 * Une meilleure indexation par les moteurs de recherche. 
 
-{% include image.html src="market-reach.svg" alt="" class="small right" %}
+{% include image.html src="media-guide/market-reach.svg" alt="" class="small right" %}
 
 Les bénéfices pour les organisations sont illustrés dans d’autres ressources :
 * <em>Les bénéfices business de l’accessibilité numérique</em> incluent **des données d’une étude de cas** sur l’ajout de transcriptions, et plus d’informations sur la manière dont l’accessibilité peut [étendre votre marché](https://www.w3.org/WAI/business-case/#increase-market-reach).
 * Les bénéfices des transcriptions et des sous-titres pour une université sont mentionnés dans un [**scénario utilisateur/persona** d’une étudiante en ligne malentendante](https://www.w3.org/WAI/people-use-web/user-stories/#onlinestudent).
 * Certains bénéfices des sous-titres sont illustrés dans une [**Vidéo** d’une minute sur les sous-titres<br>
-{% include image.html src="captions-video-still.jpg" alt="" class="normal video" %}](https://www.w3.org/WAI/perspective-videos/captions/)
+{% include image.html src="media-guide/captions-video-still.jpg" alt="" class="normal video" %}](https://www.w3.org/WAI/perspective-videos/captions/)
 
 Cette ressource vous aide à rendre vos médias utilisables par des personnes avec et sans handicaps, et à bénéficier à votre organisation. La page suivante vous permet de commencer à **[planifier la réalisation de médias audio et vidéo accessibles](/media/av/planning/)**.

@@ -68,7 +68,7 @@ Cette page vous aide à comprendre et à créer une interprétation en langue de
 
 ## Introduction
 
-{% include image.html src="signing-person.jpg" alt="" class="normal right" %}
+{% include image.html src="media-guide/signing-person.jpg" alt="" class="normal right" %}
 
 Les langues des signes utilisent les mouvements des mains et des bras, les expressions faciales, et les positions du corps pour transmettre un sens.
 
@@ -97,7 +97,7 @@ Pour inclure des alternatives en langue des signes, vous aurez besoin de personn
 
 ## Exemple
 
-Exemple d’interprétation en langue des signes dans une vidéo : [Publicité NHS 111 en langue des signes britannique (BSL) (Youtube)<br>{% include image.html src="sign-example.jpg" alt="" class="large video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
+Exemple d’interprétation en langue des signes dans une vidéo : [Publicité NHS 111 en langue des signes britannique (BSL) (Youtube)<br>{% include image.html src="media-guide/sign-example.jpg" alt="" class="large video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
 
 ## Créer des alternatives en langue des signes
 

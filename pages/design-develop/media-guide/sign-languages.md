@@ -69,7 +69,7 @@ This page helps you understand and create sign language interpretation for audio
 
 ## Introduction
 
-{% include image.html src="signing-person.jpg" alt="" class="normal right" %}
+{% include image.html src="media-guide/signing-person.jpg" alt="" class="normal right" %}
 
 Sign languages use hand and arm movements, facial expressions, and body positions to convey meaning.
 
@@ -98,7 +98,7 @@ To include sign language alternatives, you will need people, skills, and tools t
 
 ## Example
 
-Example sign language in video: [NHS 111 British Sign Language (BSL) Advert (YouTube)<br>{% include image.html src="sign-example.jpg" alt="" class="large video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
+Example sign language in video: [NHS 111 British Sign Language (BSL) Advert (YouTube)<br>{% include image.html src="media-guide/sign-example.jpg" alt="" class="large video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
 
 ## Creating Sign Language Alternatives
 

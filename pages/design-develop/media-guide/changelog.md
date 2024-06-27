@@ -123,7 +123,7 @@ resource:
 * Added alt ([per 146](https://github.com/w3c/wai-media-guide/issues/146):
   * In [Captions/Subtitles](/media/av/captions/) and [Transcribing Audio to Text](/media/av/transcribing/) added alt "food on fire under broiler" to:
     ```
-    {% include image.html src="food-fire.jpg" alt="food on fire under broiler" class="normal right" %}
+    {% include image.html src="media-guide/food-fire.jpg" alt="food on fire under broiler" class="normal right" %}
     ```
 
 ## 2020-October-09

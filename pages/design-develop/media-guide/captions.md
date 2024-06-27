@@ -71,7 +71,7 @@ This page helps you understand and create captions and subtitles.
 
 _Who:_ Captions (also called "intralingual subtitles") provide content to people who are Deaf and others who cannot hear the audio. They are also used by people who process written information better than audio.
 
-{% include image.html src="captions.png" alt="" class="normal right" %}
+{% include image.html src="media-guide/captions.png" alt="" class="normal right" %}
 
 _What:_ Captions are a text version of the speech and non-speech audio information needed to understand the content. They are displayed within the media player and are synchronized with the audio.
 
@@ -206,7 +206,7 @@ There are tools that use speech recognition technology to turn a soundtrack into
 {% include box.html type="start" title="Example of bad automatic captions (that cause a fire)" class="simple aside"  %}
 {:/}
 
-{% include image.html src="food-fire.jpg" alt="food on fire under broiler" class="normal right" %}
+{% include image.html src="media-guide/food-fire.jpg" alt="food on fire under broiler" class="normal right" %}
   _Spoken audio:_<br>&quot;Broil on high for <strong>4 to 5 minutes</strong>. You should <strong>not</strong> preheat the oven.&quot;<br>
   _Automatic caption:_<br>&quot;Broil on high for <strong>45 minutes</strong>. You should <strong>know to</strong> preheat the oven.&quot;
 

@@ -96,9 +96,9 @@ Plus d’informations sur les types de description :
 
 _Exemples :_
 
-* Intégrée: [Vidéo de formation avec la description intégrée dans le discours de la formatrice (YouTube)<br>{% include image.html src="eg-integrated-description.png" alt="" class="normal video" %}](https://www.youtube.com/watch?v=JUfmCvdzqbM)
+* Intégrée: [Vidéo de formation avec la description intégrée dans le discours de la formatrice (YouTube)<br>{% include image.html src="media-guide/eg-integrated-description.png" alt="" class="normal video" %}](https://www.youtube.com/watch?v=JUfmCvdzqbM)
 
-* Vidéo alternative: [Vidéo alternative d’un reportage comprenant une audio-description avec une voix différente (YouTube)<br>{% include image.html src="using-description.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=F3A1VffiOH4)
+* Vidéo alternative: [Vidéo alternative d’un reportage comprenant une audio-description avec une voix différente (YouTube)<br>{% include image.html src="media-guide/using-description.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=F3A1VffiOH4)
 
 <p style="color:#686868; line-height:100%; font-size:0.875rem;">Ces vidéos sont également disponibles depuis le site de W3C : <a href="https://www.w3.org/2020/10/TPAC/w3cx-challenging-assumptions.html#talk" style="color:#686868">vidéo de formation (page Web)</a>, <a href=" https://media.w3.org/wai/perspective-videos/text-to-speech-ad.mp4" style="color:#686868">reportage vidéo (taille du fichier MP4 28 Mo)</a>.</p>
 

@@ -82,7 +82,7 @@ Vous pouvez commencer avec un fichier de texte généré automatiquement. Il exi
 {% include box.html type="start" title="Exemple de sous-titres automatiques mal transcrits (pouvant provoquer un incendie)" class="simple aside" %}
 {:/}
 
-{% include image.html src="food-fire.jpg" alt="" class="normal right" %}
+{% include image.html src="media-guide/food-fire.jpg" alt="" class="normal right" %}
 _Texte énoncé :_<br>&quot;Grillez à feu vif pendant <strong>4 à 5 minutes</strong>. Ne préchauffez <strong>pas</strong> le four.&quot;<br>
 _Sous-titre automatique :_<br>&quot;Grillez à feu vif pendant <strong>45 minutes</strong>. <strong>Préchauffez</strong> le four.&quot;
 

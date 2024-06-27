@@ -140,7 +140,7 @@ Pour tout texte, prenez en considération la famille de polices, la taille, et l
 
 ### Prévoyez l’interprétation en langue des signes – _story-board, enregistrement_ (WCAG AAA)
 
-Souvent, une interprétation en langue des signes est fournie en superposition dans le coin en bas à droite des vidéos. Par exemple : [Publicité NHS 111 en langue des signes britannique (BSL) (YouTube)<br>{% include image.html src="sign-example.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
+Souvent, une interprétation en langue des signes est fournie en superposition dans le coin en bas à droite des vidéos. Par exemple : [Publicité NHS 111 en langue des signes britannique (BSL) (YouTube)<br>{% include image.html src="media-guide/sign-example.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
 
 Prévoyez que la vidéo ne comprenne pas d’information importante qui serait masquée par la superposition de l’interprétation en langue des signes.
 
@@ -177,7 +177,7 @@ Pour de nombreuses vidéos, telles que les présentations ou les vidéos didacti
   </tr>
 </table>
 
-Voici un exemple de [vidéo de formation avec la description intégrée dans le discours du formateur  (YouTube)<br>{% include image.html src="eg-integrated-description.png" alt="" class="normal video" %}](https://www.youtube.com/watch?v=JUfmCvdzqbM)
+Voici un exemple de [vidéo de formation avec la description intégrée dans le discours du formateur  (YouTube)<br>{% include image.html src="media-guide/eg-integrated-description.png" alt="" class="normal video" %}](https://www.youtube.com/watch?v=JUfmCvdzqbM)
 
 Si vous souhaitez des conseils sur ce qu’il faut inclure dans la description, consultez la page « Description des informations visuelles », dans la section [Conseils pour rédiger une description](/media/av/description/#writing).
 

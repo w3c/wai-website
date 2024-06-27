@@ -73,7 +73,7 @@ _Qui :_ Les transcriptions de base sont utilisées par les personnes sourdes, m
 
 **_Les transcriptions descriptives_** pour vidéos comprennent également les informations visuelles nécessaires à la compréhension du contenu.
 
-{% include image.html src="braille.jpg" alt="" class="normal right" %}
+{% include image.html src="media-guide/braille.jpg" alt="" class="normal right" %}
 
 _Qui :_ Les transcriptions descriptives sont nécessaires pour fournir un contenu audio et vidéo aux personnes sourdes-aveugles. Elles sont aussi utilisées par les personnes qui comprennent mieux l’information textuelle que l’information audio et visuelle/illustrée.
 
