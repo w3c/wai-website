@@ -105,7 +105,6 @@ We plan to publish the following documents in early July 2024. <!-- To learn abo
 * More [WAI Translations](/translations/) - usually some each week
 * [Guidance on Applying WCAG 2.2 to Non-Web Information and Communications Technologies (WCAG2ICT) Draft](https://www.w3.org/TR/2023/DNOTE-wcag2ict-20230815/)
 * [Collaboration Tools Accessibility User Requirements Draft](https://w3c.github.io/ctaur/)
-* and some updated educational resources
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
@@ -119,7 +118,6 @@ This page _only lists about half_ of the active work on accessibility at W3C. Mu
 
 To learn more about what the Working Groups are working on right now, see:
 
-<!-- * [EOWG Current Work](https://www.w3.org/WAI/EO/wiki/EOWG_Current_Projects) - lists over 20 current and upcoming projects of the Accessibility Education and Outreach (EO) Working Group   -->
 * [APA Current Work](/about/groups/apawg/#current-work) - Accessible Platform Architectures (APA) Working Group
 * ARIA - Accessible Rich Internet Applications (ARIA) Working Group
   * [ARIA Working Drafts](https://www.w3.org/groups/wg/aria/publications#WD)
