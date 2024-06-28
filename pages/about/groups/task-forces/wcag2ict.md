@@ -72,6 +72,8 @@ The WCAG2ICT TF uses the public-wcag2ict-tf@w3.org mailing list ([mailing list a
 
 2013 W3C Working Group Note [Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/)
 
+2024 W3C Draft Working Group Note [Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/)
+
 ## How to Comment, Contribute, and Participate {#contribute}
 
 To join the WCAG2ICT TF, individuals must be participants of the Accessibility Guidelines Working Group. Participants are expected to [actively contribute](/about/groups/task-forces/wcag2ict/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the WCAG2ICT TF, email the task force leadership and working group chairs at [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the instructions on [How to join the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/). Once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
