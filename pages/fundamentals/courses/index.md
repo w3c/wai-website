@@ -11,7 +11,7 @@ ref: /courses/
 github:
   label: wai-courses
 
-image: /content-images/wai-fundamentals-overview/social-course1.png
+image: /content-images/courses/social-course1.png
 
 feedbackmail: wai@w3.org
 footer: >
