@@ -94,7 +94,7 @@ See the [wiki for current planning and draft documents](https://www.w3.org/WAI/G
 
 **Accessibility Conformance Testing (ACT) Rules Format 1.1**
 
-- First Public Working Draft: [https://www.w3.org/TR/act-rules-format-1.1/](https:/www.w3.org/TR/act-rules-format-1.1/)
+- First Public Working Draft: [https://www.w3.org/TR/act-rules-format-1.1/](https://www.w3.org/TR/act-rules-format-1.1/)
 - Editor draft: [https://w3c.github.io/wcag-act/act-rules-format.html](https://w3c.github.io/wcag-act/act-rules-format.html)
 
 **Accessibility Conformance Testing (ACT) Rules Repository**
