@@ -2,6 +2,8 @@ accessible-events:
   - wai-accessible-events
 accessibility-training:
   - wai-accessibility-training
+audiences:
+  - wai-audiences
 business-case:
   - wai-business-case
 cognitive:

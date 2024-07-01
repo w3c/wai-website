@@ -76,14 +76,12 @@ collections:
       <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Britt Classen, Michel Hansma, Vera Lange, Eric Velleman. <strong>Previous Editors:</strong> Mary Jo Mueller, Robert Jolly, Eric Eggert, Judy Brewer, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Previous contributors: Jennifer Sutton and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
       <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
   audiences:
-    # area: "Plan & Manage"
     name: "Roles"
     shortname: "Roles"
     output: true
-    acknowledgements: false
     permalink: /roles/:path/
-    prevnext: false
     parent: "/"
+    prevnext: false
   posts:
     output: true
     permalink: /news/:year-:month-:day/:title/
