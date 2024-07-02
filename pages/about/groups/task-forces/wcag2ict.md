@@ -70,9 +70,8 @@ The WCAG2ICT TF uses the public-wcag2ict-tf@w3.org mailing list ([mailing list a
 
 ## Publications
 
-- W3C Working Group Note [Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/) &mdash; Provides guidance on WCAG 2.0 success criteria
-- W3C Draft Working Group Note [Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) &mdash; Provides guidance on 2.0, 2.1, and 2.2 success criteria, will supersede the previous Note.
-
+- W3C Group Note [Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/) &mdash; provides guidance on WCAG 2.0 success criteria
+- Draft W3C Group Note [Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) &mdash; provides guidance on 2.0, 2.1, and 2.2 success criteria, and will supersede the previous Note
 
 ## How to Comment, Contribute, and Participate {#contribute}
 
