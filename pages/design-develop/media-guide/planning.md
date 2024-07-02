@@ -319,7 +319,7 @@ The links in the tables below go to a page in a separate resource: Understanding
 
 <table class="quiet">
 <tr>
-<th scope="col">&nbsp;</th>
+<td>&nbsp;</td>
 <th scope="col">Transcript <span class="normal-weight">(including auditory and visual content)</span></th>
 <th scope="col">Captions</th>
 <th scope="col">Audio Description <span class="normal-weight">(if visual content not in audio)</span></th>
@@ -356,7 +356,7 @@ The links in the tables below go to a page in a separate resource: Understanding
 
 <table class="quiet">
 <tr>
-<th scope="col">&nbsp;</th>
+<td>&nbsp;</td>
 <th scope="col">Transcript</th>
 <th scope="col">Captions</th>
 <th scope="col">Audio Description</th>
