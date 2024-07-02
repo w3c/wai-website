@@ -200,21 +200,32 @@ Where the description is longer than you want to leave space in the main audio, 
     <th scope="col">Described Video Scene Duration</th>
     <th scope="col">Description</th>
   </tr>
-  <tr>
-    <td><q>Captions are also handy for people who want to watch video in loud environments.</q></td>
-    <td>3&nbsp;seconds</td>
-    <td>7&nbsp;seconds</td>
-    <td>A man is watching the captioned video with a group of people chatting away next to him.</td>
+<tr>
+    <td><q>Any web user will get frustrated with bad layout and design.</q></td>
+    <td>5&nbsp;seconds</td>
+    <td>16&nbsp;seconds</td>
+    <td>A woman is using the same complex website with screen magnification. She   only sees a portion of the screen at a time, so the website appears   even more confusing.</td>
   </tr>
   <tr>
-    <td><q>Or where you need to be very, very quiet.</q></td>
-    <td>2&nbsp;seconds</td>
-    <td>5&nbsp;seconds</td>
-    <td>Turns out that they are in a library. The group is shushed by the librarian.</td>
+    <td><q>Complex layouts also make finding information difficult or impossible for people with visual disabilities.</q></td>
+    <td>4&nbsp;seconds</td>
+    <td>9&nbsp;seconds</td>
+    <td>The woman is shaking her head and is unable to use that website.</td>
+  </tr>
+  <tr>
+    <td><q>And they are confusing for people with cognitive and learning disabilities who need clarity and consistency of the presentation</q></td>
+    <td>6&nbsp;seconds</td>
+    <td>14&nbsp;seconds</td>
+    <td>The man calls a friend over to help. The friend is just as confused and navigates to a different, better pizza website.</td>
   </tr>
 </table>
 
-An example of this is the [Web Accessibility Perspectives: Video Captions](/perspective-videos/captions/) video. The main video is 48 seconds long. The described version is 1 minute and 18 seconds long, yet there are no pauses in the visual aspect of the video.
+#### Description examples
+
+For example, [Web Accessibility Perspectives: Clear Layout and Design](/perspective-videos/layout/):
+* The main video is **1 minute long: [main video on YouTube](https://www.youtube.com/watch?v=tfkzj5VC9P8)**, [main video on W3C server](https://media.w3.org/wai/perspective-videos/clear-layout-design.mp4).
+* The described version is **1 minute and 53 seconds long, and there are no pauses** in the visual aspect of the video: **[described video on YouTube](https://www.youtube.com/watch?v=w-2nFEUBELo)**, [described video on W3C server.](https://media.w3.org/wai/perspective-videos/clear-layout-design-ad.mp4)
+* If extra video footage was not recorded, the scenes would have to be **paused to add description: [paused video on YouTube](@@)**, [paused video on W3C server](@@).
 
 #### More about description
 
