@@ -18,17 +18,9 @@
 	path = _external/resources/wai-accessibility-principles
 	url = https://github.com/w3c/wai-accessibility-principles.git
 	branch = master
-[submodule "_external/resources/wai-people-use-web"]
-	path = _external/resources/wai-people-use-web
-	url = https://github.com/w3c/wai-people-use-web.git
-	branch = master
 [submodule "_external/resources/wai-perspective-videos"]
 	path = _external/resources/wai-perspective-videos
 	url = https://github.com/w3c/wai-perspective-videos.git
-	branch = master
-[submodule "_external/resources/wai-org-policies"]
-	path = _external/resources/wai-org-policies
-	url = https://github.com/w3c/wai-org-policies.git
 	branch = master
 [submodule "_external/resources/wai-easy-checks"]
 	path = _external/resources/wai-easy-checks
@@ -42,17 +34,9 @@
 	path = _external/resources/wai-intro-wcag
 	url = https://github.com/w3c/wai-intro-wcag.git
 	branch = master
-[submodule "_external/resources/wai-audiences"]
-	path = _external/resources/wai-audiences
-	url = https://github.com/w3c/wai-audiences.git
-	branch = master
 [submodule "_external/resources/wai-statements"]
 	path = _external/resources/wai-statements
 	url = https://github.com/w3c/wai-statements.git
-	branch = master
-[submodule "_external/resources/wai-media-guide"]
-	path = _external/resources/wai-media-guide
-	url = https://github.com/w3c/wai-media-guide.git
 	branch = master
 [submodule "_external/resources/wcag-act-rules"]
 	path = _external/resources/wcag-act-rules

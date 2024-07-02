@@ -165,7 +165,7 @@ Process time outs barrier
 
 Saving progress barrier
 : **Barrier:** "Completing long forms with no way to save progress and take a break can be tiring."
-: **Words well:** "I have an option to save progress and take a break when completing long, multi-step forms like when I have to get a code in email or text and type it in."
+: **Works well:** "I have an option to save progress and take a break when completing long, multi-step forms like when I have to get a code in email or text and type it in."
 
 Popup windows barrier
 : **Barrier:** "When a window opens and I can't close it using only the keyboard it can be difficult."
