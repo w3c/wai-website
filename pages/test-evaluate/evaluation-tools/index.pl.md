@@ -88,7 +88,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
     <td>Osoba obok komputera ze stroną internetową używa lupy ze słowem „dostępność”.</td>
   </tr>
   <tr>
-    <td>Niektóre narzędzia poprowadzą Cię przez testy, których nie można zautomatyzować.</td>
+    <td>Niektóre narzędzia poprowadzą Cię przez te testy, których nie można zautomatyzować.</td>
     <td>Lista kontrolna obok komputera.</td>
   </tr>
   <tr>
