@@ -85,15 +85,15 @@ Transkrypcja tekstu z opisem wizualizacji
     <td>Otwiera się skrzynka narzędziowa przy komputerze. Ze skrzynki wychodzi lupa, aby sprawdzić stronę internetową na komputerze. Lupa powiększa słowo „dostępność”.</td>
   </tr>
   <tr>
-    <td>Mogą one zaoszczędzić wiele czasu i wysiłku podczas oceny oraz zapobiec powstawaniu nowych barier w dostępności.</td>
+    <td>Mogą one zaoszczędzić wiele czasu i wysiłku podczas oceny oraz zapobiec powstawaniu nowych barier dostępności.</td>
     <td>Oszczędzaj czas i wysiłek. Unikaj barier dostępności.</td>
   </tr>
   <tr>
-    <td>Jednak narzędzia nie mogą zrobić wszystkiego. Niektórych testy dostępności po prostu nie można zautomatyzować i muszą być przeprowadzone ręcznie.</td>
+    <td>Jednak narzędzia nie mogą zrobić wszystkiego. Niektórych testów dostępności po prostu nie można zautomatyzować i muszą być przeprowadzone ręcznie.</td>
     <td>Osoba obok komputera ze stroną internetową używa lupy ze słowem „dostępność”.</td>
   </tr>
   <tr>
-    <td>Niektóre narzędzia poprowadzą Cię przez testy, których nie można zautomatyzować.</td>
+    <td>Niektóre narzędzia poprowadzą Cię przez te testy, których nie można zautomatyzować.</td>
     <td>Lista kontrolna obok komputera.</td>
   </tr>
   <tr>
@@ -105,16 +105,16 @@ Transkrypcja tekstu z opisem wizualizacji
     <td>Słowa „Przeglądarka internetowa”, „CMS” i „środowisko wdrożeniowe” wokół ikony narzędzi wyświetlanej na komputerze.</td>
   </tr>
   <tr>
-    <td>Wspierają różne role w zespole projektowym, takie jak autorów treści, twórców kodu, projektantów i właścicieli produktów.</td>
-    <td>Ikona narzędzi jest otoczona czterema ikonami: długopis, kodowanie, pędzel i osoba z kluczem.</td>
+    <td>Wspierają różne role w zespole projektowym, takie jak autorów treści, twórców kodu, projektantów oraz właścicieli produktów.</td>
+    <td>Ikona narzędzi jest otoczona czterema ikonami: długopisu, kodu, pędzla i osoby z kluczem.</td>
   </tr>
   <tr>
     <td>Trzeba pamiętać, że w niektórych przypadkach narzędzia mogą dawać nieprawidłowe wyniki.</td>
     <td>Lupa powiększająca znak ostrzegawczy z wykrzyknikiem. Wyświetlanych jest wiele lup. </td>
   </tr>
   <tr>
-    <td>Dlatego nie polegaj zbytnio na tym, co mówią narzędzia i poznaj rzeczywiste doświadczenia osób korzystających z Twojej witryny.</td>
-    <td>Na ekranie 12 pól, w każdym z nich przed komputerami są różne osoby.</td>
+    <td>Dlatego nie polegaj nadmiernie na tym, co mówią narzędzia w stosunku do tego jakie są rzeczywiste doświadczenia osób korzystających z Twojej witryny.</td>
+    <td>Na ekranie 12 pól, w każdym z nich inna osoba przed komputerem.</td>
   </tr>
   <tr>
     <td>„Wybór narzędzi oceny dostępności cyfrowej” wyjaśnia, co narzędzia mogą, a czego nie mogą zrobić, oraz na co zwrócić uwagę, aby znaleźć narzędzia spełniające Twoje potrzeby.</td>
@@ -122,15 +122,15 @@ Transkrypcja tekstu z opisem wizualizacji
   </tr>
   <tr>
     <td>„Lista narzędzi oceny dostępności cyfrowej” zawiera filtry, które pomogą Ci znaleźć odpowiednie narzędzie dla Twojej konkretnej sytuacji.</td>
-    <td>Dokumenty Word z listą narzędzi płyną w dół do ikony filtra, z którego wychodzą tylko dwa dokumenty.</td>
+    <td>Lista dokumentów z rozwijanym polem wyboru i ikoną filtra, pozostają tylko dwa dokumenty.</td>
   </tr>
   <tr>
-    <td>Po uzyskaniu narzędzi i wiedzy, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
-    <td>Osoba, ikony narzędzi i żarówki. Obie ikony łączą się ze sobą, tworząc szkło powiększające ze słowem „bariery”.</td>
+    <td>Z narzędziami i wiedzą, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
+    <td>Osoba,przy niej ikony narzędzi i żarówki. Ikony łączą się ze sobą, tworząc szkło powiększające ze słowem „bariery”.</td>
   </tr>
   <tr>
     <td>Dostępność internetowa: niezbędna dla niektórych, przydatna dla wszystkich.</td>
-    <td>Wokół komputera układają się ikony: ręka, oko, mózg, ucho i usta z falą dźwiękową.</td>
+    <td>Wokół komputera układają się ikony: ręki, oka, mózgu, ucha i ust z falą dźwiękową.</td>
   </tr>
   <tr>
     <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę w3.o-r-g/W-A-I/evaluation.</td>
