@@ -125,7 +125,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Dostępność internetowa: niezbędna dla niektórych, przydatna dla wszystkich.</td>
-    <td>Wokół komputera układają się ikony: ręka, oko, mózg, ucho i usta z falą dźwiękową.</td>
+    <td>Wokół komputera układają się ikony: ręki, oka, mózgu, ucha i ust z falą dźwiękową.</td>
   </tr>
   <tr>
     <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę w3.o-r-g/W-A-I/evaluation.</td>
