@@ -84,7 +84,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
     <td>Oszczędzaj czas i wysiłek. Unikaj barier dostępności.</td>
   </tr>
   <tr>
-    <td>Jednak narzędzia nie mogą zrobić wszystkiego. Niektórych testy dostępności po prostu nie można zautomatyzować i muszą być przeprowadzone ręcznie.</td>
+    <td>Jednak narzędzia nie mogą zrobić wszystkiego. Niektórych testów dostępności po prostu nie można zautomatyzować i muszą być przeprowadzone ręcznie.</td>
     <td>Osoba obok komputera ze stroną internetową używa lupy ze słowem „dostępność”.</td>
   </tr>
   <tr>
