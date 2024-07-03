@@ -38,7 +38,7 @@ Narzędzia do oceny dostępności cyfrowej to programy lub usługi online, któr
       video-id="tools-for-evaluating"
       yt-id="bn1XJSjc_qM"
   %}
-  <p><a href="#alternatives">Omówienie alternatywnych narzędzi oceny - film</a></p>
+  <p><a href="#alternatives">Transkrypcja filmu „Omówienie narzędzi oceny” </a></p>
 </div>
 
 [Lista narzędzi oceny dostępności cyfrowej](/test-evaluate/tools/list/)
