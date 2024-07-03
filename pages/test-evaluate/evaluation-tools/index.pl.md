@@ -120,7 +120,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
     <td>Lista dokumentów z rozwijanym polem wyboru i ikoną filtra, pozostają tylko dwa dokumenty.</td>
   </tr>
   <tr>
-    <td>Po uzyskaniu narzędzi i wiedzy, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
+    <td>Z narzędziami i wiedzą, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
     <td>Osoba, ikony narzędzi i żarówki. Obie ikony łączą się ze sobą, tworząc szkło powiększające ze słowem „bariery”.</td>
   </tr>
   <tr>
