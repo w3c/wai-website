@@ -53,7 +53,7 @@ Powiązane materiały przedstawiono w: [[Omówienie oceniania dostępności inte
 
 {% include excol.html type="start" id="video-intro-transcript" %}
 
-##  Omówienie alternatywnych narzędzi oceny {#alternatives}
+##  Omówienie narzędzi diagnostycznych {#alternatives}
 
 {% include excol.html type="middle" %}
 
