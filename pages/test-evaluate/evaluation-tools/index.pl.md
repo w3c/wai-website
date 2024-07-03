@@ -101,7 +101,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Wspierają różne role w zespole projektowym, takie jak autorów treści, twórców kodu, projektantów oraz właścicieli produktów.</td>
-    <td>Ikona narzędzi jest otoczona czterema ikonami: długopis, kodowanie, pędzel i osoba z kluczem.</td>
+    <td>Ikona narzędzi jest otoczona czterema ikonami: długopisu, kodu, pędzla i osoby z kluczem.</td>
   </tr>
   <tr>
     <td>Trzeba pamiętać, że w niektórych przypadkach narzędzia mogą dawać nieprawidłowe wyniki.</td>
