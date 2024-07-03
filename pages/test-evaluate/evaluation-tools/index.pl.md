@@ -108,7 +108,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
     <td>Lupa powiększająca znak ostrzegawczy z wykrzyknikiem. Wyświetlanych jest wiele lup. </td>
   </tr>
   <tr>
-    <td>Dlatego nie polegaj zbytnio na tym, co mówią narzędzia i poznaj rzeczywiste doświadczenia osób korzystających z Twojej witryny.</td>
+    <td>Dlatego nie polegaj nadmiernie na tym, co mówią narzędzia w stosunku do tego jakie są rzeczywiste doświadczenia osób korzystających z Twojej witryny.</td>
     <td>Na ekranie 12 pól, w każdym z nich przed komputerami są różne osoby.</td>
   </tr>
   <tr>
