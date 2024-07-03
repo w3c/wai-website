@@ -109,7 +109,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Dlatego nie polegaj nadmiernie na tym, co mówią narzędzia w stosunku do tego jakie są rzeczywiste doświadczenia osób korzystających z Twojej witryny.</td>
-    <td>Na ekranie 12 pól, w każdym z nich przed komputerami są różne osoby.</td>
+    <td>Na ekranie 12 pól, w każdym z nich inna osoba przed komputerem.</td>
   </tr>
   <tr>
     <td>„Wybór narzędzi oceny dostępności cyfrowej” wyjaśnia, co narzędzia mogą, a czego nie mogą zrobić, oraz na co zwrócić uwagę, aby znaleźć narzędzia spełniające Twoje potrzeby.</td>
