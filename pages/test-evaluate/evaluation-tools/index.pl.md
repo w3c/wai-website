@@ -100,7 +100,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
     <td>Słowa „Przeglądarka internetowa”, „CMS” i „środowisko wdrożeniowe” wokół ikony narzędzi wyświetlanej na komputerze.</td>
   </tr>
   <tr>
-    <td>Wspierają różne role w zespole projektowym, takie jak autorów treści, twórców kodu, projektantów i właścicieli produktów.</td>
+    <td>Wspierają różne role w zespole projektowym, takie jak autorów treści, twórców kodu, projektantów oraz właścicieli produktów.</td>
     <td>Ikona narzędzi jest otoczona czterema ikonami: długopis, kodowanie, pędzel i osoba z kluczem.</td>
   </tr>
   <tr>
