@@ -121,7 +121,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Z narzędziami i wiedzą, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
-    <td>Osoba, ikony narzędzi i żarówki. Obie ikony łączą się ze sobą, tworząc szkło powiększające ze słowem „bariery”.</td>
+    <td>Osoba,przy niej ikony narzędzi i żarówki. Ikony łączą się ze sobą, tworząc szkło powiększające ze słowem „bariery”.</td>
   </tr>
   <tr>
     <td>Dostępność internetowa: niezbędna dla niektórych, przydatna dla wszystkich.</td>
