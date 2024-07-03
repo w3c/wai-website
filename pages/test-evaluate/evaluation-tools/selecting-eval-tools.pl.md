@@ -1,14 +1,14 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
-title: Selecting Web Accessibility Evaluation Tools
+title: Wybór narzędzi oceny dostępności cyfrowej
 lang: pl  # Change "en" to the translated-language shortcode
 last_updated: 2024-06-27  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Stefan Wajda" # Add one -name: line for every translator
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+contributors:
+- name: "Michał Sobkowiak"   
 
 github:
   label: wai-selecting-eval-tools
