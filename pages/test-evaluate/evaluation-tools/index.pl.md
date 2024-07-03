@@ -25,7 +25,7 @@ ref: /test-evaluate/tools/  # Do not change this
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p>Uwaga dotycząca opisu wideo: Wideo na tej stronie nie zawiera zsynchronizowanej audiodeskrypcji, ponieważ obrazy jedynie ilustrują dźwięk i nie dostarczają dodatkowych informacji. W tym przypadku audiodeskrypcja byłaby bardziej rozpraszająca niż przydatna dla większości osób, w tym osób, które nie widzą elementów wizualnych. Opis informacji wizualnych jest zintegrowany w transkrypcji tekstowej z opisem wizualnym („transkrypcja opisowa”).</p>
+  <p>Uwaga dotycząca opisu wideo: Wideo na tej stronie nie zawiera zsynchronizowanej audiodeskrypcji, ponieważ obrazy jedynie ilustrują dźwięk i nie dostarczają dodatkowych informacji. W tym przypadku audiodeskrypcja byłaby bardziej rozpraszająca niż przydatna dla większości osób, w tym osób, które nie widzą elementów wizualnych. Opis informacji wizualnych jest zintegrowany w transkrypcji z opisem wizualnym („transkrypcja opisowa”).</p>
    <p><strong>Data:</strong> Aktualizacja 28 kwietnia 2020.</p>
    <p><strong>Redakcja:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Film opracowany przez Grupę Roboczą ds. Edukacji i Promocji (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) przy wsparciu projektu <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> finansowanego przez Komisję Europejską (KE) w ramach programu Horyzont 2020 (Umowa o dotację 822245).</p>
