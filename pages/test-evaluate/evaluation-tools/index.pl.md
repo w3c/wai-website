@@ -80,7 +80,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
     <td>Otwiera się skrzynka narzędziowa przy komputerze. Ze skrzynki wychodzi lupa, aby sprawdzić stronę internetową na komputerze. Lupa powiększa słowo „dostępność”.</td>
   </tr>
   <tr>
-    <td>Mogą one zaoszczędzić wiele czasu i wysiłku podczas oceny oraz zapobiec powstawaniu nowych barier w dostępności.</td>
+    <td>Mogą one zaoszczędzić wiele czasu i wysiłku podczas oceny oraz zapobiec powstawaniu nowych barier dostępności.</td>
     <td>Oszczędzaj czas i wysiłek. Unikaj barier dostępności.</td>
   </tr>
   <tr>
