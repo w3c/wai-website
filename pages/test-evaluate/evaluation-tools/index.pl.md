@@ -117,7 +117,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>„Lista narzędzi oceny dostępności cyfrowej” zawiera filtry, które pomogą Ci znaleźć odpowiednie narzędzie dla Twojej konkretnej sytuacji.</td>
-    <td>Dokumenty Word z listą narzędzi płyną w dół do ikony filtra, z którego wychodzą tylko dwa dokumenty.</td>
+    <td>Lista dokumentów z rozwijanym polem wyboru i ikoną filtra, pozostają tylko dwa dokumenty.</td>
   </tr>
   <tr>
     <td>Po uzyskaniu narzędzi i wiedzy, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
