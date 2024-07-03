@@ -61,7 +61,7 @@ _Ten film jest również dostępny na serwerze W3C: Film: Omówienie narzędzi o
 
 ###  Transkrypcja tekstowa z opisem elementów wizualnych dla filmu Wybór i stosowanie narzędzi oceny {#transcript}
 
-Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ekranu. Ludzie są reprezentowani przez postacie ikon.
+Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ekranu. Ludzie są przedstawieni za pomocą symboli graficznych.
 
 <table aria-labelledby="transcript">
   <thead>
