@@ -64,7 +64,7 @@ _Ten film jest również dostępny na serwerze W3C: [Wideo: Omówienie narzędzi
 
 {% include excol.html type="start" id="video-intro-transcript" %}
 
-Transkrypcja tekstu z opisem wizualizacji
+Transkrypcja oraz opis wizualnej strony filmu
 
 {% include excol.html type="middle" %}
 
