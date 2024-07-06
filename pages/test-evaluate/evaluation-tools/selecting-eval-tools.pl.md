@@ -144,7 +144,7 @@ Transkrypcja oraz opis wizualnej strony filmu
 ## Co mogą zrobić narzędzia oceny, a *czego nie potrafią*
 {:#cannot}
 
-Narzędzia oceny dostępności stron internetowych mogą pomóc w szybkim rozpoznaniu potencjalnych problemów z dostępnością. Można z nich korzystać na wszystkich etapach procesu projektowania i tworzenia stron internetowych. Narzędzia mogą zapewniać w pełni zautomatyzowane testy i pomagać w ręcznym przeglądaniu.
+Narzędzia oceny dostępności stron internetowych mogą pomóc w szybkim rozpoznaniu potencjalnych barier dostępności. Można z nich korzystać na wszystkich etapach procesu projektowania i tworzenia stron internetowych. Narzędzia mogą zapewniać w pełni zautomatyzowane testy i pomagać w ręcznej ocenie.
 
 Nie jesteśmy w stanie automatycznie sprawdzić wszystkich aspektów dostępności. Wymagany jest ludzki osąd. Czasami narzędzia oceny mogą dawać fałszywe lub wprowadzające w błąd wyniki. Narzędzia oceny dostępności stron internetowych nie mogą określić dostępności, mogą jedynie w tym pomóc.
 
