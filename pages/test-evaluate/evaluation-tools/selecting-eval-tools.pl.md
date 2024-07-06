@@ -223,7 +223,7 @@ Zespoły programistyczne mogą zyskać na połączeniu kilku narzędzi oceny. Ko
 
 ### Złożoność i rozmiar treści internetowych
 
-Niektóre złożone witryny mogą zawierać dużo treści multimedialnych. Inne złożone witryny mogą wykorzystywać specjalistyczne technologie, takie jak MathML. Specjalistyczne narzędzia oceny mogą mieć kluczowe znaczenie dla tych witryn.
+Niektóre złożone witryny mogą zawierać dużo treści multimedialnych. Inne mogą wykorzystywać specjalistyczne technologie, takie jak MathML. Specjalistyczne narzędzia oceny mogą mieć kluczowe znaczenie dla oceny tych witryn.
 
 ### Umiejętności i wiedza twórców stron internetowych
 
