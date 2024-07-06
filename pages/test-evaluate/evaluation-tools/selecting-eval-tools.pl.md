@@ -217,7 +217,7 @@ Projektanci stron internetowych mogą szukać narzędzi do analizowania dostępn
 
 Przy wyborze narzędzia ewaluacyjnego warto rozważyć następujące kwestie:
 
-### Struktura organizacyjna i proces tworzenia
+### Struktura organizacji i proces tworzenia
 
 Zespoły programistyczne mogą zyskać na zastosowaniu kombinacji narzędzi oceny. Korzystanie z kombinacji narzędzi może zaspokoić potrzeby różnych członków zespołu na wszystkich etapach projektu.
 
