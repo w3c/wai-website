@@ -202,7 +202,7 @@ Poniższe własności opisują narzędzia znajdujące się na [[Liście narzędz
 
   - *Wygenerować raport z wynikami oceny:* Raporty są przydatne do określenia zgodności z kryteriami, które można sprawdzić automatycznie i ręcznie. Może to również obejmować ocenę dostępności.
 
-  - *Wyświetlać informacje w ramach stron internetowych:* Oznacza to, że narzędzie może wstawiać tymczasowe ikony i znaczniki, aby wyświetlić wyniki testów dostępności. Dzięki temu można wyniki testu w kontekście dokumentu. Są one również przydatne do zrozumienia względnego znaczenia każdego problemu.
+  - *Wyświetlać informacje w ramach stron internetowych:* Oznacza to, że narzędzie może wstawiać tymczasowe ikony i znaczniki, aby wyświetlić wyniki testów dostępności. Dzięki temu można zobaczyć wyniki testu w kontekście dokumentu. Są one również przydatne do zrozumienia względnego znaczenia każdego problemu.
   
   - *Zmienić prezentację na stronie:* Narzędzia do transformacji mogą modyfikować sposób prezentacji treści, aby pomóc rozpoznać problemy projektowe. Narzędzie może na przykład wyświetlić witrynę wyłącznie w formie tekstowej lub bez koloru. Takie narzędzia są przydatne do zniwelowania ograniczeń testów automatycznych.
 
