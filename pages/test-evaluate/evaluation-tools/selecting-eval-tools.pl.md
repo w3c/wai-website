@@ -32,7 +32,7 @@ footer: >
 {:/}
 
 
-Narzędzia oceny dostępności cyfrowej to programy lub usługi internetowe, które pomagają określić, czy treść internetowa spełnia standardy dostępności. W tym dokumencie omówiono cechy narzędzi oceny i inne aspekty, które należy wziąć pod uwagę przy wyborze narzędzi oceny. Łącza do różnych narzędzi znajdują się na [[Liście narzędzi oceny dostępności cyfrowej]](/test-evaluate/tools/list/). Strona oferuje również filtry, które pomagają dokonać pierwszego wyboru, aby znaleźć najbardziej pomocne narzędzie.
+Narzędzia oceny dostępności cyfrowej to programy lub usługi internetowe, które pomagają określić, czy treść internetowa spełnia standardy dostępności. W tym dokumencie omówiono cechy narzędzi oceny i inne aspekty, które należy wziąć pod uwagę przy wyborze narzędzi oceny. Łącza do różnych narzędzi znajdują się na [[Liście narzędzi oceny dostępności cyfrowej]](/test-evaluate/tools/list/). Strona oferuje również filtry, które pomagają dokonać wstępnego wyboru, aby znaleźć najbardziej pomocne narzędzie.
 
 
 {::nomarkdown}
