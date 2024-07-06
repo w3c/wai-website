@@ -219,7 +219,7 @@ Przy wyborze narzędzia ewaluacyjnego warto rozważyć następujące kwestie:
 
 ### Struktura organizacji i proces tworzenia
 
-Zespoły programistyczne mogą zyskać na zastosowaniu kombinacji narzędzi oceny. Korzystanie z kombinacji narzędzi może zaspokoić potrzeby różnych członków zespołu na wszystkich etapach projektu.
+Zespoły programistyczne mogą zyskać na połączeniu kilku narzędzi oceny. Korzystanie z wielu współdziałających narzędzi może zaspokoić potrzeby różnych członków zespołu na wszystkich etapach projektu.
 
 ### Złożoność i rozmiar treści internetowych
 
