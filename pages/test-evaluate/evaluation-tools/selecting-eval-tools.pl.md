@@ -52,7 +52,7 @@ Narzędzia oceny dostępności cyfrowej to programy lub usługi internetowe, kt�
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Wideo: Omówienie narzędzi ewaluacyjnych {#video}
+## Wideo: Omówienie narzędzi oceny {#video}
 
 {% include video-player-data.html
     yt-id="bn1XJSjc_qM"
