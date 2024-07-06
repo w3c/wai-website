@@ -215,7 +215,7 @@ Każda organizacja, projekt i zespół ma inne potrzeby w zakresie różnych wł
 
 Projektanci stron internetowych mogą szukać narzędzi do analizowania dostępności swoich projektów. Twórcy stron internetowych będą preferować narzędzia, które pomogą im ocenić kod. Organizacja może potrzebować w pełni zautomatyzowanego narzędzia oceny do monitorowania całej witryny internetowej. Inna organizacja może potrzebować jedynie sporadycznych testów wyrywkowych.
 
-Przy wyborze narzędzia ewaluacyjnego rozważ następujące kwestie:
+Przy wyborze narzędzia ewaluacyjnego warto rozważyć następujące kwestie:
 
 ### Struktura organizacyjna i proces tworzenia
 
