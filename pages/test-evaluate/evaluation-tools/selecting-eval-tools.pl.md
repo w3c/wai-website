@@ -227,4 +227,4 @@ Niektóre złożone witryny mogą zawierać dużo treści multimedialnych. Inne 
 
 ### Umiejętności i wiedza twórców stron internetowych
 
-Dobierz narzędzie proporcjonalnie do umiejętności zespołu. Niektóre narzędzia ewaluacyjne wymagają od użytkowników większej wiedzy na temat dostępności lub kodu. Niektóre narzędzia pomagają również zwiększyć dostępność lub wiedzę o kodzie.
+Dobierz narzędzie odpowiednie do umiejętności zespołu. Niektóre narzędzia ewaluacyjne wymagają od użytkowników większej wiedzy na temat dostępności lub kodu. Inne pomagają zwiększyć dostępność lub wiedzę o kodzie.
