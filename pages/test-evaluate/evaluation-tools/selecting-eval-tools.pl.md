@@ -157,20 +157,20 @@ Narzędzia oceny dostępności cyfrowej są skierowane do różnych odbiorców. 
 
 
 
-### Główne cechy
+### Główne zastosowania
 
-Poniższe funkcje opisują narzędzia znajdujące się na [[Liście narzędzi oceny dostępności cyfrowej]](/test-evaluate/tools/list/). Można ich używać jako filtrów, aby zmniejszyć liczbę wyświetlanych narzędzi.
+Poniższe własności opisują narzędzia znajdujące się na [[Liście narzędzi oceny dostępności cyfrowej]](/test-evaluate/tools/list/). Można ich używać jako filtrów, aby zmniejszyć liczbę wyświetlanych narzędzi.
 
 **Cel**
 : Czy szukasz narzędzia, które wykona zautomatyzowany test, czy też narzędzie powinno pomóc Ci w ręcznym testowaniu lub symulacji doświadczenia użytkownika.
 
-**Ocena produktu**
-: Zależnie od rodzaju produktu, który oceniasz (np. strona internetowa, dokument, aplikacja), możesz potrzebować konkretnego narzędzia, które będzie Ci najbardziej pomocne. Niektóre narzędzia specjalizują się w ocenie stron internetowych, inne w dokumentach, aplikacjach komputerowych, aplikacjach mobilnych itp.
+**Oceniany produkt**
+: Zależnie od rodzaju produktu, który oceniasz (np. strona internetowa, dokument, aplikacja), możesz potrzebować konkretnego narzędzia, które będzie Ci najbardziej pomocne. Niektóre narzędzia są przystosowane do oceny stron internetowych, inne do dokumentów, aplikacji komputerowych, aplikacji mobilnych itp.
 
 **Płatne lub bezpłatne**
 : Narzędzia oceny są dostępne w ramach różnych typów licencji, takich jak licencja Open Source, komercyjna, korporacyjna itp. Niektóre narzędzia są płatne, inne darmowe.
 
-**Typy narzędzi**
+**Zasada działania**
 : Narzędziami oceny mogą być wtyczki (rozszerzenia) do narzędzi autorskich i przeglądarek internetowych, narzędzia wiersza poleceń, aplikacje komputerowe lub mobilne oraz usługi internetowe. W zależności od procesu projektowania i tworzenia można łączyć różne narzędzia.
 
 **Standardy**
@@ -183,9 +183,9 @@ Poniższe funkcje opisują narzędzia znajdujące się na [[Liście narzędzi oc
 : Zakres tego, co narzędzie oceny może automatycznie testować, różni się w zależności od narzędzia. Niektóre narzędzia sprawdzają pojedynczą stronę, inne natomiast sprawdzają całe grupy powiązanych stron. Niektóre mogą również uzyskać dostęp do treści chronionych hasłem.
 
 **System operacyjny**
-: Niektóre narzędzia działają tylko na określonych systemach operacyjnych, takich jak Windows, MacOS, Linux, Android, iOS.
+: Niektóre narzędzia działają tylko w określonych systemach operacyjnych, takich jak Windows, MacOS, Linux, Android, iOS.
 
-**Przeglądarka dla wtyczki**
+**Przeglądarka**
 : Niekiedy narzędzia działają tylko w określonych przeglądarkach, takich jak Chrome, Edge, Safari, Firefox itp.
 
 **Deklaracja dostępności**
@@ -197,14 +197,14 @@ Poniższe funkcje opisują narzędzia znajdujące się na [[Liście narzędzi oc
 **Język**
 : Narzędzia oceny obsługują różne języki. Obejmuje to interfejs użytkownika narzędzia, a także język obsługiwanych treści (na przykład w celu wykrycia barier językowych).
 
-**Asysta przy**
+**Wsparcie dla**
 : Niektóre narzędzia oceny dostępności cyfrowej mogą wygenerować pełny raport dostępności. Możesz filtrować, aby znaleźć narzędzia, które mogą Ci pomóc:
 
   - *Wygenerować raport z wynikami oceny:* Raporty są przydatne do określenia zgodności z kryteriami, które można sprawdzić automatycznie i ręcznie. Może to również obejmować ocenę dostępności.
 
-  - *Wyświetlać na stronach informacje zwrotne:* Oznacza to, że narzędzie może wstawiać tymczasowe ikony i znaczniki, aby wyświetlić wyniki testów dostępności. Dięki temu można oglądać problemy w kontekście. Są one również przydatne do zrozumienia względnego znaczenia każdego problemu.
+  - *Wyświetlać informacje w ramach stron internetowych:* Oznacza to, że narzędzie może wstawiać tymczasowe ikony i znaczniki, aby wyświetlić wyniki testów dostępności. Dzięki temu można wyniki testu w kontekście dokumentu. Są one również przydatne do zrozumienia względnego znaczenia każdego problemu.
   
-  - *Zmienić prezentację na stronie:* Narzędzia do transformacji mogą modyfikować sposób prezentacji treści, aby pomóc rozpoznać problemy projektowe. Narzędzie może na przykład wyświetlić witrynę wyłącznie w formie tekstowej lub bez koloru. Narzędzia te są przydatne, aby zrekompensować ograniczenia testów automatycznych.
+  - *Zmienić prezentację na stronie:* Narzędzia do transformacji mogą modyfikować sposób prezentacji treści, aby pomóc rozpoznać problemy projektowe. Narzędzie może na przykład wyświetlić witrynę wyłącznie w formie tekstowej lub bez koloru. Takie narzędzia są przydatne do zniwelowania ograniczeń testów automatycznych.
 
 ## Dalsze rozważania
 {: #further}
