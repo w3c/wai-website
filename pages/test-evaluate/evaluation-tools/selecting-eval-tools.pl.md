@@ -150,7 +150,7 @@ Automatyczne narzędzia nie mogą sprawdzić wszystkich aspektów dostępności.
 
 
 
-## Cechy narzędzi oceny
+## Własności narzędzi oceny
 {:#features}
 
 Narzędzia oceny dostępności cyfrowej są skierowane do różnych odbiorców. Korzystają z nich projektanci, programiści, nietechniczni autorzy treści, testerzy jakości, a czasem także użytkowniczki i użytkownicy. Narzędzia oferują różne cechy i funkcjonalności, które użytkowniy mogą porównać i ocenić, aby dobrać narzędzia pod kątem swoich konkretnych potrzeb.
