@@ -114,7 +114,6 @@ People use different approaches to enter text and activate commands, for example
 - Mouse and keyboard with software that compensates for hand tremor;
 - Speech recognition and other hands-free interaction.
 
-
 {::options toc_levels="2..2" /}
 
 {::nomarkdown}
@@ -175,7 +174,6 @@ Accessible content supports people who need more time typing, writing, and click
 - [Elias, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/story-nine/)
 - [Sophie, basketball fan with Down syndrome](/people-use-web/user-stories/story-five/)
 
-
 {% include excol.html type="start" id="video-transcript" %}
 
 ##  Video: Tools and Techniques - Input {#accessible-video}
@@ -187,7 +185,8 @@ Accessible content supports people who need more time typing, writing, and click
     video-id="tools-techniques_input"
     yt-id="HG4PXNRjXoU"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/tools-techniques_input.mp4">Video: Tools and Techniques - Input (file format: MP4, file size: 305MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Tools and Techniques - Input (file format: MP4, file size: 305MB)](https://media.w3.org/wai/people-use-web/tools-techniques_input.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

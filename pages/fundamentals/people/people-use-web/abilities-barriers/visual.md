@@ -192,7 +192,8 @@ Some people are only seeing small portions of the content at a time or are perce
     video-id="abilities-barriers_visual"
     yt-id="bm8h1p9knzY"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_visual.mp4">Video: Diverse Abilities and Barriers - Visual (file format: MP4, file size: 318MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Diverse Abilities and Barriers - Visual (file format: MP4, file size: 318MB)](https://media.w3.org/wai/people-use-web/abilities-barriers_visual.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

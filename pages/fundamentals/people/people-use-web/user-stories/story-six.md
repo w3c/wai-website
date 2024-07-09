@@ -175,19 +175,19 @@ No alternative for audio
 ## Related WAI resources
 
 
-* Video: [Video Captions](https://www.w3.org/WAI/perspective-videos/captions/)
-* Tip: [Create transcripts and captions for multimedia](https://www.w3.org/WAI/tips/writing/#create-transcripts-and-captions-for-multimedia)
-* Tip: [Include image and media alternatives in your design](https://www.w3.org/WAI/tips/designing/#include-image-and-media-alternatives-in-your-design)
-* Tip: [Provide controls for content that starts automatically](https://www.w3.org/WAI/tips/designing/#provide-controls-for-content-that-starts-automatically)
-* Tip: [Write code that adapts to the user's technology](https://www.w3.org/WAI/tips/developing/#write-code-that-adapts-to-the-users-technology)
-* Check: [Multimedia (video, audio) alternatives](https://www.w3.org/WAI/test-evaluate/preliminary/#media)
+* Video: [Video Captions](/perspective-videos/captions/)
+* Tip: [Create transcripts and captions for multimedia](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* Tip: [Include image and media alternatives in your design](/tips/designing/#include-image-and-media-alternatives-in-your-design)
+* Tip: [Provide controls for content that starts automatically](/tips/designing/#provide-controls-for-content-that-starts-automatically)
+* Tip: [Write code that adapts to the user's technology](/tips/developing/#write-code-that-adapts-to-the-users-technology)
+* Check: [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#alternatives)
-* [Captions and other alternatives for multimedia (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#captions)
-* [Content is easier to see and hear (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#distinguishable)
-* [Content is readable and understandable (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#readable)
+* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
+* [Captions and other alternatives for multimedia (Perceivable)](/fundamentals/accessibility-principles/#captions)
+* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
+* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
 * [Success Criteria relating to “captions”](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
 
 
@@ -201,7 +201,8 @@ No alternative for audio
   video-id="user-stories_6"
   yt-id="jft__DXkPv8"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_6.mp4">Video: Dhruv, older adult student who is deaf (file format: MP4, file size: 307MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Dhruv, older adult student who is deaf (file format: MP4, file size: 307MB)](https://media.w3.org/wai/people-use-web/user-stories_6.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

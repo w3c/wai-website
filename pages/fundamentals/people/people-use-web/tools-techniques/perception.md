@@ -184,7 +184,8 @@ In some cases, content can be converted into different forms using software or h
   video-id="tools-techniques_perception"
   yt-id="dL8W-A4F1ZE"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/tools-techniques_perception.mp4">Video: Tools and Techniques - Perception (file format: MP4, file size: 264MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Tools and Techniques - Perception (file format: MP4, file size: 264MB)](https://media.w3.org/wai/people-use-web/tools-techniques_perception.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

@@ -192,35 +192,35 @@ Saved information
 ## Related WAI resources
 
 * Use case: [Gopal: A Retired Lawyer with Dementia](https://www.w3.org/TR/coga-usable/#gopal-a-retired-lawyer-with-dementia)
-* Video: [Large Links, Buttons, and Controls](https://www.w3.org/WAI/perspective-videos/controls/)
-* Tip: [Provide sufficient contrast between foreground and background](https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background)
-* Tip: [Avoid CAPTCHA where possible](https://www.w3.org/WAI/tips/developing/#avoid-captcha-where-possible)
-* Tip: [Make link text meaningful](https://www.w3.org/WAI/tips/writing/#make-link-text-meaningful)
-* Tip: [Provide clear instructions](https://www.w3.org/WAI/tips/writing/#provide-clear-instructions)
-* Tip: [Keep content clear and concise](https://www.w3.org/WAI/tips/writing/#keep-content-clear-and-concise)
-* Tip: [Ensure that interactive elements are easy to identify](https://www.w3.org/WAI/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Provide clear and consistent navigation options](https://www.w3.org/WAI/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Tip: [Provide easily identifiable feedback](https://www.w3.org/WAI/tips/designing/#provide-easily-identifiable-feedback)
-* Tip: [Use headings and spacing to group related content](https://www.w3.org/WAI/tips/designing/#use-headings-and-spacing-to-group-related-content)
-* Tip: [Help users avoid and correct mistakes](https://www.w3.org/WAI/tips/developing/#help-users-avoid-and-correct-mistakes)
-* Tip: [Provide meaning for non-standard interactive elements](https://www.w3.org/WAI/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
-* Tip: [Ensure that all interactive elements are keyboard accessible](https://www.w3.org/WAI/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
-* Check: [Contrast ratio ("color contrast")](https://www.w3.org/WAI/test-evaluate/preliminary/#contrast)
-* Check: [Resize Text](https://www.w3.org/WAI/test-evaluate/preliminary/#resize)
-* Check: [Keyboard access and visual focus](https://www.w3.org/WAI/test-evaluate/preliminary/#interaction)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
+* Video: [Large Links, Buttons, and Controls](/perspective-videos/controls/)
+* Tip: [Provide sufficient contrast between foreground and background](/tips/designing/#provide-sufficient-contrast-between-foreground-and-background)
+* Tip: [Avoid CAPTCHA where possible](/tips/developing/#avoid-captcha-where-possible)
+* Tip: [Make link text meaningful](/tips/writing/#make-link-text-meaningful)
+* Tip: [Provide clear instructions](/tips/writing/#provide-clear-instructions)
+* Tip: [Keep content clear and concise](/tips/writing/#keep-content-clear-and-concise)
+* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* Tip: [Provide easily identifiable feedback](/tips/designing/#provide-easily-identifiable-feedback)
+* Tip: [Use headings and spacing to group related content](/tips/designing/#use-headings-and-spacing-to-group-related-content)
+* Tip: [Help users avoid and correct mistakes](/tips/developing/#help-users-avoid-and-correct-mistakes)
+* Tip: [Provide meaning for non-standard interactive elements](/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
+* Tip: [Ensure that all interactive elements are keyboard accessible](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
+* Check: [Contrast ratio ("color contrast")](/test-evaluate/preliminary/#contrast)
+* Check: [Resize Text](/test-evaluate/preliminary/#resize)
+* Check: [Keyboard access and visual focus](/test-evaluate/preliminary/#interaction)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#alternatives)
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Content is easier to see and hear (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#distinguishable)
-* [Users have enough time to read and use the content (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#navigable)
-* [Content is readable and understandable (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#tolerant)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
+* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
+* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
+* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
+* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
+* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
 
 
 {% include excol.html type="start" id="video-transcript" %}
@@ -234,7 +234,8 @@ Saved information
   video-id="user-stories_9"
   yt-id="c-IqJdL0i38"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_9.mp4">Video: Elias, retiree with low vision, hand tremor, and mild short-term memory loss (file format: MP4, file size: 162MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Elias, retiree with low vision, hand tremor, and mild short-term memory loss (file format: MP4, file size: 162MB)](https://media.w3.org/wai/people-use-web/user-stories_9.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

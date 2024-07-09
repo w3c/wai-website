@@ -201,24 +201,24 @@ Animation
 ## Related WAI resources
 
 * Use case: [George: A User who Works in a Supermarket and has Down Syndrome](https://www.w3.org/TR/coga-usable/#george-a-user-who-works-in-a-supermarket-and-has-down-syndrome)
-* Video: [Understandable Content](https://www.w3.org/WAI/perspective-videos/understandable/)
-* Tip: [Keep content clear and concise](https://www.w3.org/WAI/tips/writing/#keep-content-clear-and-concise)
-* Tip: [Ensure that interactive elements are easy to identify](https://www.w3.org/WAI/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Provide clear and consistent navigation options](https://www.w3.org/WAI/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Tip: [Provide meaning for non-standard interactive elements](https://www.w3.org/WAI/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
-* Tip: [Use heading and spacing to group related content](https://www.w3.org/WAI/tips/designing/#use-headings-and-spacing-to-group-related-content)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
-* Check: [Moving, Flashing, or Blinking Content](https://www.w3.org/WAI/test-evaluate/preliminary/#moving)
+* Video: [Understandable Content](/perspective-videos/understandable/)
+* Tip: [Keep content clear and concise](/tips/writing/#keep-content-clear-and-concise)
+* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* Tip: [Provide meaning for non-standard interactive elements](/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
+* Tip: [Use heading and spacing to group related content](/tips/designing/#use-headings-and-spacing-to-group-related-content)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* Check: [Moving, Flashing, or Blinking Content](/test-evaluate/preliminary/#moving)
 
 ## Related principles
 
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Users have enough time to read and use the content (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#navigable)
-* [Content is readable and understandable (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#tolerant)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
+* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
+* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
+* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
+* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -230,7 +230,8 @@ Animation
   video-id="user-stories_5"
   yt-id="gmrnVAQuSI8"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_5.mp4">Video: Sophie, basketball fan with Down syndrome (file format: MP4, file size: 282MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Sophie, basketball fan with Down syndrome (file format: MP4, file size: 282MB)](https://media.w3.org/wai/people-use-web/user-stories_5.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

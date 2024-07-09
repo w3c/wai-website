@@ -192,7 +192,8 @@ Many functions to support different styles of navigation are built directly into
   video-id="tools-techniques_interaction"
   yt-id="4xF23iGIAPE"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/tools-techniques_interaction.mp4">Video: Tools and Techniques - Interaction (file format: MP4, file size: 241MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Tools and Techniques - Interaction (file format: MP4, file size: 241MB)](https://media.w3.org/wai/people-use-web/tools-techniques_interaction.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

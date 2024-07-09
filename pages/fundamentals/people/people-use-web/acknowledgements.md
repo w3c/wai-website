@@ -13,7 +13,7 @@ resource:
   ref: /people-use-web/
 ---
 
-<cite>How People with Disabilities Use the Web</cite> was developed by the Education and Outreach Working Group ([EOWG](http://www.w3.org/WAI/EO/)) with support from the [WAI-Guide Project](https://www.w3.org/WAI/about/projects/wai-guide/) and  [WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/) co-funded by the European Commission (EC).
+<cite>How People with Disabilities Use the Web</cite> was developed by the Education and Outreach Working Group ([EOWG](http://www.w3.org/WAI/EO/)) with support from the [WAI-Guide Project](/about/projects/wai-guide/) and  [WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/) co-funded by the European Commission (EC).
 
 ## 2021-2024 Updates
 

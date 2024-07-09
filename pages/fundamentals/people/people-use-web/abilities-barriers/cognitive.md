@@ -138,7 +138,6 @@ Cognitive and learning disabilities affect how people store, retrieve, or use in
 
 **Note:** The examples given in this section are not a complete list of all disabilities or barriers.
 
-
 ## Introduction
 
 Cognitive and learning disabilities is an umbrella term for a large spectrum of differences and disabilities. They may affect the ability to:
@@ -204,12 +203,13 @@ People with cognitive and learning disabilities may use different types of brows
 
 {% include excol.html type="middle" %}
 
-
 {% include video-player-data.html
   video-id="abilities-barriers_cognitive"
   yt-id="4UaUSbyVFjk"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_cognitive.mp4">Video: Diverse Abilities and Barriers - Cognitive (file format: MP4, file size: 321MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Diverse Abilities and Barriers - Cognitive (file format: MP4, file size: 321MB)](https://media.w3.org/wai/people-use-web/abilities-barriers_cognitive.mp4)._
+
 ###  Text Transcript with Description of Visuals {#transcript}
 
 | Audio | Visual |

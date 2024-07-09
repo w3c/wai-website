@@ -171,19 +171,18 @@ For some people with auditory disabilities, sign language is the primary languag
 -   [Dhruv, older adult student who is deaf](/people-use-web/user-stories/story-six/)
 -   [Marta, marketing assistant who is deaf and blind](/people-use-web/user-stories/story-seven/)
 
-
 {% include excol.html type="start" id="video-transcript" %}
 
 ##  Video:  Diverse Abilities and Barriers - Auditory {#accessible-video}
 
 {% include excol.html type="middle" %}
 
-
 {% include video-player-data.html
   video-id="abilities-barriers_auditory"
   yt-id="WZ4J8tKQ-Kw"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_auditory.mp4">Video: Diverse Abilities and Barriers - Auditory (file format: MP4, file size: 362MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Diverse Abilities and Barriers - Auditory (file format: MP4, file size: 362MB)](https://media.w3.org/wai/people-use-web/abilities-barriers_auditory.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

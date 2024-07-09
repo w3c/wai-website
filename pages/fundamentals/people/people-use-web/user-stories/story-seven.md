@@ -188,26 +188,26 @@ Changes elsewhere on a page
 
 ## Related WAI resources
 
-* Video: [Video Captions](https://www.w3.org/WAI/perspective-videos/captions/)
-* Tip: [Create transcripts and captions for multimedia](https://www.w3.org/WAI/tips/writing/#create-transcripts-and-captions-for-multimedia)
-* Tip: [Avoid CAPTCHA where possible](https://www.w3.org/WAI/tips/developing/#avoid-captcha-where-possible)
-* Tip: [Ensure that all interactive elements are keyboard accessible](https://www.w3.org/WAI/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
-* Tip: [Provide clear and consistent navigation options](https://www.w3.org/WAI/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Check: [Image text alternatives ("alt text")](https://www.w3.org/WAI/test-evaluate/preliminary/#images)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
-* Check: [Multimedia (video, audio) alternatives](https://www.w3.org/WAI/test-evaluate/preliminary/#media)
-* Check: [Basic Structure Check](https://www.w3.org/WAI/test-evaluate/preliminary/#structure)
+* Video: [Video Captions](/perspective-videos/captions/)
+* Tip: [Create transcripts and captions for multimedia](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* Tip: [Avoid CAPTCHA where possible](/tips/developing/#avoid-captcha-where-possible)
+* Tip: [Ensure that all interactive elements are keyboard accessible](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
+* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* Check: [Image text alternatives ("alt text")](/test-evaluate/preliminary/#images)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* Check: [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
+* Check: [Basic Structure Check](/test-evaluate/preliminary/#structure)
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#alternatives)
-* [Alternatives for audio and video content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#captions)
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Content is easier to see and hear (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#distinguishable)
-* [Users have enough time to read and use the content (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#navigable)
-* [Content appears and operates in predictable ways (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#predictable)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
+* [Alternatives for audio and video content (Perceivable)](/fundamentals/accessibility-principles/#captions)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
+* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
+* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
+* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -220,7 +220,8 @@ Changes elsewhere on a page
   video-id="user-stories_7"
   yt-id="llTnoiq2Mow"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_7.mp4">Video: Marta, marketing assistant who is deaf and blind (file format: MP4, file size: 360MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Marta, marketing assistant who is deaf and blind (file format: MP4, file size: 360MB)](https://media.w3.org/wai/people-use-web/user-stories_7.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

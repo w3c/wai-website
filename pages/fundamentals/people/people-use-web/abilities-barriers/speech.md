@@ -167,7 +167,8 @@ People with speech disabilities encounter barriers with voice-based services, su
   video-id="abilities-barriers_speech"
   yt-id="oFF0lbRskKg"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_speech.mp4">Video: Diverse Abilities and Barriers - Speech (file format: MP4, file size: 199MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Diverse Abilities and Barriers - Speech (file format: MP4, file size: 199MB)](https://media.w3.org/wai/people-use-web/abilities-barriers_speech.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

@@ -192,7 +192,8 @@ Also, people process information differently. This aspect is particularly releva
     video-id="tools-techniques_presentation"
     yt-id="tHS_WUAmkMo"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/tools-techniques_presentation.mp4">Video: Tools and Techniques - Presentation (file format: MP4, file size: 334MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Tools and Techniques - Presentation (file format: MP4, file size: 334MB)](https://media.w3.org/wai/people-use-web/tools-techniques_presentation.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

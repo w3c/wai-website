@@ -172,20 +172,20 @@ Chart labels
 
 ## Related WAI resources
 
-* Video: [Colors with Good Contrast](https://www.w3.org/WAI/perspective-videos/contrast/)
-* Video: [Customizable Text](https://www.w3.org/WAI/perspective-videos/customizable/)
-* Tip: [Provide sufficient contrast between background and foreground](https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background)
-* Tip: [Don't use color alone to convey meaning](https://www.w3.org/WAI/tips/designing/#dont-use-color-alone-to-convey-information)
-* Tip: [Ensure that interactive elements are easy to identify](https://www.w3.org/WAI/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Check: [Contrast ratio ("color contrast")](https://www.w3.org/WAI/test-evaluate/preliminary/#contrast)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
+* Video: [Colors with Good Contrast](/perspective-videos/contrast/)
+* Video: [Customizable Text](/perspective-videos/customizable/)
+* Tip: [Provide sufficient contrast between background and foreground](/tips/designing/#provide-sufficient-contrast-between-foreground-and-background)
+* Tip: [Don't use color alone to convey meaning](/tips/designing/#dont-use-color-alone-to-convey-information)
+* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* Check: [Contrast ratio ("color contrast")](/test-evaluate/preliminary/#contrast)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
 
 
 ## Related principles
 
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Content is easier to see and hear (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#distinguishable)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
+* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
 * [Success Criteria relating to “contrast”](https://www.w3.org/WAI/WCAG21/quickref/?tags=contrast)
 
 
@@ -195,12 +195,12 @@ Chart labels
 
 {% include excol.html type="middle" %}
 
-
 {% include video-player-data.html
   video-id="user-stories_4"
   yt-id="eh091V45uqc"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_4.mp4">Video: Lexie, online shopper who cannot distinguish between certain colors (color blindness) (file format: MP4, file size: 274MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Lexie, online shopper who cannot distinguish between certain colors (color blindness) (file format: MP4, file size: 274MB)](https://media.w3.org/wai/people-use-web/user-stories_4.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

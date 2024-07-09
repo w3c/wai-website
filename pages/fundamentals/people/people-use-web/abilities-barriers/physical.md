@@ -190,7 +190,9 @@ People with physical disabilities may have trouble clicking small areas and are 
   video-id="abilities-barriers_physical"
   yt-id="z_5l75rksSA"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_physical.mp4">Video: Diverse Abilities and Barriers - Physical (file format: MP4, file size: 277MB)</a>.</em></p>
+
+
+_This video is also available on a W3C server: [Video: Diverse Abilities and Barriers - Physical (file format: MP4, file size: 277MB)](https://media.w3.org/wai/people-use-web/abilities-barriers_physical.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 
