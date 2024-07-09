@@ -73,4 +73,4 @@ These other resources provide more detailed information regarding user needs wit
 
 * [Accessibility Requirements for People with Low Vision - User Needs](https://www.w3.org/TR/low-vision-needs/#user-needs)
 * [Making Content Usable for People with Cognitive and Learning Disabilities - Use Cases/Personas](https://www.w3.org/TR/coga-usable/#persona)
-* [Media Accessibility User Requirements](http://w3c.github.io/apa/media-accessibility-reqs/) - includes a summary of media requirements by type of disability and assistive technologies to support media access.
+* [Media Accessibility User Requirements](https//w3c.github.io/apa/media-accessibility-reqs/) - includes a summary of media requirements by type of disability and assistive technologies to support media access.
