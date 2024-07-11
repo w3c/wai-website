@@ -78,6 +78,8 @@ std-harmonization:
   - wai-std-harmonization
 teach-advocate:
   - wai-teach-advocate
+tutorials:
+  - wai-tutorials
 video-introduction:
   - wai-video-introduction
 w3c-process:
