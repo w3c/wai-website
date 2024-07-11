@@ -69,9 +69,7 @@ We encourage you to use GitHub, especially if you intend to become a regular tra
 
 Discussions, collaboration with reviewers and progress tracking are more easily managed in GitHub.
 
-- If you do not already have a GitHub Account, [sign up {% include_cached external.html %}](https://github.com/signup) for an account;
-- If you are new to GitHub, we recommend that you follow this interactive free course:\
-[Introduction to GitHub {% include_cached external.html %}](https://github.com/skills/introduction-to-github);
+- If you are new to GitHub, [sign up {% include_cached external.html %}](https://github.com/signup) for an account. We also recommend that you follow this interactive free course: [Introduction to GitHub {% include_cached external.html %}](https://github.com/skills/introduction-to-github);
 - For more specific guidance during the translation process, you can deep dive with our [[Using Github]](/about/translating/resources/using-github/) guide.
 
 {::nomarkdown}
