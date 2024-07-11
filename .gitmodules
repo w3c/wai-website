@@ -26,10 +26,6 @@
 	path = _external/resources/wai-easy-checks
 	url = https://github.com/w3c/wai-easy-checks.git
 	branch = master
-[submodule "_external/resources/wai-intro-aria"]
-	path = _external/resources/wai-intro-aria
-	url = https://github.com/w3c/wai-intro-aria.git
-	branch = master
 [submodule "_external/resources/wai-intro-wcag"]
 	path = _external/resources/wai-intro-wcag
 	url = https://github.com/w3c/wai-intro-wcag.git
@@ -53,10 +49,6 @@
 	path = _external/resources/wai-wcag-supplemental
 	url = https://github.com/w3c/wai-wcag-supplemental/
 	branch = main
-[submodule "_external/resources/wai-tutorials"]
-	path = _external/resources/wai-tutorials
-	url = https://github.com/w3c/wai-tutorials.git
-    branch = publication
 [submodule "_external/resources/wai-aria-practices"]
 	path = _external/resources/wai-aria-practices
 	url = https://github.com/w3c/wai-aria-practices.git
