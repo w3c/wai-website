@@ -30,7 +30,7 @@ The [AG WG mailing list archives](http://lists.w3.org/Archives/Public/w3c-wai-gl
 
 ## Become a participant
 
-Participation enables you to influence the development of the deliverables, and you and your organization will be listed as contributors to the deliverables of the AG WG where appropriate. Participant status, however, requires a commitment on your behalf to support the work of the group. Participation in [task forces](https://www.w3.org/about/groups/agwg/task-forces/) counts towards overall participation expectations for the Working Group as a whole.
+Participation enables you to influence the development of the deliverables, and you and your organization will be listed as contributors to the deliverables of the AG WG where appropriate. Participant status, however, requires a commitment on your behalf to support the work of the group. Participation in [task forces](https://www.w3.org/WAI/about/groups/agwg/task-forces/) counts towards overall participation expectations for the Working Group as a whole.
 
 Participants should:
 
