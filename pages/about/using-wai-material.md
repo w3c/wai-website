@@ -97,6 +97,17 @@ For material under the Creative Commons License, the footer includes the license
 You may use videos in your presentations, training, etc, if you use the entire video including the ending with the link to w3.org/WAI
 
 ### Translations
+
+{::nomarkdown}
+{% include box.html type="start" title="Status" icon="warning" %}
+{:/}
+
+<p>NOTE: This Translations section is a draft that is under review. We plan to finalize it in July 2024.</p>
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 You may create a dubbed version in your language with the following conditions:
 1. You provide the entire video, including the ending with the link to w3.org/WAI
 3. You do an accurate transation. If you would like to change the wording to be smoother in your langauge, you get it approved by W3C staff before recording.
