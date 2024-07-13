@@ -93,10 +93,9 @@ Unless otherwise indicated, all WAI material not covered by another license is p
 For material under the Creative Commons License, the footer includes the license, such as: "This work is published and licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
 
 ## Videos
-
 You may use videos in your presentations, training, etc, if you use the entire video including the ending with the link to w3.org/WAI
 
-### Translations
+### Translations [draft update]
 
 {::nomarkdown}
 {% include box.html type="start" title="Status" icon="warning" %}
@@ -110,13 +109,13 @@ You may use videos in your presentations, training, etc, if you use the entire v
 
 You may create a dubbed version in your language with the following conditions:
 1. You provide the entire video, including the ending with the link to w3.org/WAI
-3. You do an accurate transation. If you would like to change the wording to be smoother in your langauge, you get it approved by W3C staff before recording.
-4. You maintian accessibility:
-   4.a. You provide text subtitles/captions for your video.
-   4.b. If the video has a descriped version, you also provide a translation of the described video.
-6. Optionally, you may include your organization and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C WAI. You may _not_ include your logo throughout the video.
-7. You make the video available for others to use under a Creative Commons Attribution International License. This includes permission for W3C to put it on our website, YouTube channel, and other places.
-8. For the original video on the W3C website, you provide a text translation of the current English VTT file.
+2. You do an accurate transation. If you would like to change the wording to be smoother in your langauge, you get it approved by W3C staff before recording.
+3. You maintain accessibility:<br>
+   a. You provide text subtitles/captions for your video. They may be "closed captions" that are only shown if turned on.<br>
+   b. If the video has a descriped version, you also provide a translation of the described video.
+4. Optionally, you may include your organization and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
+5. You make the video available for others to use. This includes permission for W3C to put it on our website, YouTube channel, and other places.
+6. For the original video on the W3C website, you provide a text translation of the current English VTT file.
 
 ## Let Us Know
 
