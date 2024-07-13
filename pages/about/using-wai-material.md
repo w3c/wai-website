@@ -8,7 +8,7 @@ permalink: /about/using-wai-material/
 ref: /about/using-wai-material/
 
 footer: >
-  <p><strong>Date:</strong> Updated 1 February 2023.</p>
+  <p><strong>Date:</strong> Updated @@ Month 2024.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with the <a href="http://www.w3.org/People/domain?domain=Web+Accessibility+Initiative">WAI staff</a> and <a href="https://www.w3.org/People/functions/comm">W3C Communications staff</a>.</p>
 ---
@@ -91,6 +91,21 @@ A few WAI Resources are specifically designed for you to adapt, such as presenta
 Unless otherwise indicated, all WAI material not covered by another license is published under the [W3C Document License](https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231).
 
 For material under the Creative Commons License, the footer includes the license, such as: "This work is published and licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
+
+## Videos
+
+You may use videos in your presentations, training, etc, if you use the entire video including the ending with the link to w3.org/WAI
+
+### Translations
+You may create a dubbed version in your language with the following conditions:
+1. You provide the entire video, including the ending with the link to w3.org/WAI
+3. You do an accurate transation. If you would like to change the wording to be smoother in your langauge, you get it approved by W3C staff before recording.
+4. You maintian accessibility:
+   4.a. You provide text subtitles/captions for your video.
+   4.b. If the video has a descriped version, you also provide a translation of the described video.
+6. Optionally, you may include your organization and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C WAI. You may _not_ include your logo throughout the video.
+7. You make the video available for others to use under a Creative Commons Attribution International License. This includes permission for W3C to put it on our website, YouTube channel, and other places.
+8. For the original video on the W3C website, you provide a text translation of the current English VTT file.
 
 ## Let Us Know
 
