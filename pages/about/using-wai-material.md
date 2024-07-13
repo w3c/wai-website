@@ -115,7 +115,7 @@ You may create a dubbed version in your language with the following conditions:
    b. If the video has a descriped version, you also provide a translation of the described video.
 4. Optionally, you may include your organization and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
 5. You make the video available for others to use. This includes permission for W3C to put it on our website, YouTube channel, and other places.
-6. For the original video on the W3C website, you provide a text translation of the current English VTT file.
+6. For the original video on the W3C website, you provide a text translation of the current English VTT file. This translation can then be used as the script for the dupping.
 
 ## Let Us Know
 
