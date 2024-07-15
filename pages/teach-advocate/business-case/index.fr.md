@@ -4,7 +4,7 @@
 title: "Bénéfices business de l’accessibilité numérique"
 nav_title: "Bénéfices business"
 lang: fr
-last_updated: 2024-06-04  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Présente les bonnes raisons qu’aura une organisation d’intégrer l’accessibilité. Inclut des bénéfices tangibles et intangibles, ainsi que les risques qu’on prend en ne traitant pas l’accessibilité de façon adéquate.
 footnotestitle: Ressources
 
@@ -12,6 +12,7 @@ translators:
   - name: "Stéphane Deschamps"
 contributors:
   - name: "Rémi Bétin"
+  - name: "@code-elegant"
 
 github:
   label: wai-business-case
@@ -27,7 +28,7 @@ image: /content-images/business-case/social.png
 # Translate the other words below, including "Date:", "Editor:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date :</strong> Publié le 9 novembre 2018.</p>
+  <p><strong>Date :</strong> Publié le 9 novembre 2018. Mise à jour mineure : 15 juillet 2024.</p>
   <p><strong>Rédactrice :</strong> Sharron Rush. Contributeurs : Shawn Lawton Henry, Eric Eggert, Brent Bakken, Vicki Menezes Miller, Laura Keen. ACKNOWLEDGEMENTS liste les contributeurs additionnels.</p>
   <p>Développé par le <i lang="en">Education and Outreach Working Group</i> (<a href="https://www.w3.org/WAI/EO/" lang="en">EOWG</a>, en anglais).</p>
 
@@ -277,7 +278,7 @@ Au fil du temps, le risque légal a augmenté, tandis que de plus en plus de loi
 
 - La Convention pour les Droits des Personnes Handicapées (<abbr>CRDP</abbr>, <i lang="en">Convention on the Rights of People with Disabilities</i>) est un document complet sur les droits humains qui inclut une référence directe aux droits pour tous à un accès équitable aux technologies de communication. Votée par l’Assemblée Générale des Nations Unies, elle était ratifiée par plus de 175 pays en 2018.
 
-- La Commission Européenne a adopté la Loi Européenne pour l’Accessibilité (<i lang="en">European Accessibility Law</i>) qui exige que les points de retrait d’argent, les services bancaires, les <abbr>PC</abbr>, les téléphones, les équipements <abbr>TV</abbr>, les services audiovisuels et de téléphonie, les transports, les livres numériques et le commerce électronique soient conformes à des exigences d’accessibilité.
+- L'Union Européenne a adopté la Loi Européenne pour l’Accessibilité (<i lang="en">European Accessibility Law</i>) qui exige que les points de retrait d’argent, les services bancaires, les <abbr>PC</abbr>, les téléphones, les équipements <abbr>TV</abbr>, les services audiovisuels et de téléphonie, les transports, les livres numériques et le commerce électronique soient conformes à des exigences d’accessibilité.
 
 - Aux États-Unis, le nombre d’actions en justice ne cesse d’augmenter et les jugements sont de plus en plus souvent en faveur d’un accès équitable[^23], souvent en référence à la Loi pour les Américains Handicapés (<i lang="en"><abbr>ADA</abbr>, Americans with Disabilities Act</i>. La Négociation Structurée est aussi une preuve de l’efficacité de la pression législative, en encourageant les compagnies à se conformer à des exigences d’accessibilité plutôt que de subir un procès[^24].
 
