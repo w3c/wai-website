@@ -73,7 +73,7 @@ Standardy W3C i noty Grup Roboczych przedstawione poniżej są szczególnie isto
 Pojęcie „treść” (internetowa) odnosi się ogólnie do informacji zawartej na stronie internetowej lub w aplikacji internetowej i obejmuje:
 
 * informacje naturalne, takie jak tekst, obrazy i dźwięki
-* kod lub znacznik definiujący strukturę, prezentację itp.
+* kod lub znaczniki definiujące strukturę, prezentację itp.
 
 WCAG ma zastosowanie do treści dynamicznych, multimediów, „mobilnych” itd. WCAG można również zastosować do innych niż internetowe technologii informacyjno-komunikacyjnych (ICT), jak opisano w [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
