@@ -79,7 +79,7 @@ WCAG ma zastosowanie do treści dynamicznych, multimediów, „mobilnych” itd.
 
 WCAG 2 info:
 - [Omówienie WCAG](/standards-guidelines/wcag/)
-- [[WCAG 2 at w skrócie]](/standards-guidelines/wcag/glance/)
+- [[WCAG 2 w skrócie]](/standards-guidelines/wcag/glance/)
 - [Jak spełnić WCAG 2 (Krótki przewodnik)](https://www.w3.org/WAI/WCAG22/quickref/)
 - [[Tłumaczenia WCAG 2]](/standards-guidelines/wcag/translations/)
 - [Standard WCAG 2.2](https://www.w3.org/TR/WCAG22/), [[Co nowego w WCAG 2.2]](/standards-guidelines/wcag/new-in-22/)
