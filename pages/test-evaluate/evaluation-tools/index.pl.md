@@ -44,7 +44,7 @@ Narzędzia do oceny dostępności cyfrowej to programy lub usługi online, któr
 [Lista narzędzi oceny dostępności cyfrowej](/test-evaluate/tools/list/)
 :   Zawiera informacje na temat ponad 100 narzędzi. Możesz skorzystać z filtrów, aby zawęzić listę do typów narzędzi, które Cię interesują.
 
-[[Wybór narzędzi oceny dostępności cyfrowej]](/test-evaluate/tools/selecting/)
+[[Wybór narzędzi oceniających dostępność cyfrową]](/test-evaluate/tools/selecting/)
 :   Zawiera wskazówki dotyczące wyboru narzędzi. Opisuje cechy i funkcjonalność różnych typów narzędzi oceny oraz omawia kwestie, które należy wziąć pod uwagę w konkretnej sytuacji.
 
 Powiązane materiały przedstawiono w: [[Omówienie oceniania dostępności internetowej]](/test-evaluate/)
