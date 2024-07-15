@@ -53,7 +53,6 @@ Thank you for your interest in translating resources from the World Wide Web Con
 **Scope:**
 * These instructions cover web pages with a URI that begins with www.w3.org/WAI
 * For web pages that begin with www.w3.org/TR/ or something else, there is a different process that is introduced in [TR & Authorized W3C Translations below](#tr).
-  * To translate WCAG 2, follow instructions at [[How to translate WCAG 2]](/about/translating/wcag/)
 
 **Translator background** &mdash; we prefer translators to be:
 * native speakers
@@ -125,5 +124,5 @@ Web pages at URIs that begin with www.w3.org/TR/ (for "Technical Report") follow
 
 Most translations are informative and unofficial. In cases where standards translations are meant for official purposes, they may be developed as Authorized W3C Translations according to the **[Policy for Authorized W3C Translations](https://www.w3.org/2005/02/TranslationPolicy.html)**. Generally only completed W3C Recommendations and Working Group Notes are candidates for Authorized W3C Translations, including the WAI guidelines. The authorized translations policy is designed to ensure transparency and community accountability in the development of authorized translations under the oversight of W3C.
 
-* [WCAG 2 Translations](/standards-guidelines/wcag/translations/) lists in-progress and completed translations of Web Content Accessibility Guidelines (WCAG) 2.1 and 2.0, including unofficial translations and Authorized W3C Translations.
+* [WCAG 2 Translations](/standards-guidelines/wcag/translations/) lists in-progress and completed translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1 and 2.0, including unofficial translations and Authorized W3C Translations. To translate WCAG 2, follow instructions at [[How to translate WCAG 2]](/about/translating/wcag/)
 * [Authorized Translations of W3C Recommendations](https://www.w3.org/Translations/authorized.html) lists completed Authorized W3C Translations of WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.
