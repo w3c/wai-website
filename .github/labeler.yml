@@ -14,6 +14,8 @@ components:
   - wai-components
 conformance-eval:
   - wai-conformance-eval
+curricula:
+  - wai-curricula
 customize-design:
   - wai-customize-design
 design-develop:
@@ -78,6 +80,8 @@ std-harmonization:
   - wai-std-harmonization
 teach-advocate:
   - wai-teach-advocate
+tips:
+  - wai-tips
 tutorials:
   - wai-tutorials
 video-introduction:
