@@ -66,7 +66,7 @@ Standardy W3C i noty Grup Roboczych przedstawione poniżej są szczególnie isto
 
 ## Wytyczne dotyczące dostępności {#guidelines}
 
-[[Podstawowe komponenty dostępności Internetu]](/fundamentals/components/) pokazuje, jak dostępność sieci zależy od kilku współpracujących ze sobą elementów tworzenia sieci i interakcji oraz w jaki sposób mają zastosowanie wytyczne WAI (WCAG, ATAG, UAAG).
+[[Kluczowe komponenty dostępności Internetu]](/fundamentals/components/) pokazuje, jak dostępność sieci zależy od kilku współpracujących ze sobą elementów tworzenia stron i interakcji oraz jak stosuje się wytyczne WAI (WCAG, ATAG, UAAG).
 
 ## Wytyczne dla dostępności treści internetowych (WCAG) 2 {#wcag2}
 
