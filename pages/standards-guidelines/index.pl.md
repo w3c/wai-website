@@ -87,7 +87,7 @@ WCAG 2 info:
 - [Standard WCAG 2.0](https://www.w3.org/TR/WCAG20/)
 
 
-### Wytyczne dla dostępności narzędzi autorskich (ATAG) {#atag}
+### Wytyczne dla dostępności narzędzii do tworzenia treści (ATAG) {#atag}
 
 Narzędzia autorskie to oprogramowanie i usługi, których „twórcy” (programiści, projektanci, autorzy itp.) używają do tworzenia treści internetowych. Na przykład: edytory HTML, systemy zarządzania treścią (CMS) i strony internetowe, które pozwalają użytkownikom dodawać treści, takie jak blogi i serwisy społecznościowe. Dokumenty ATAG wyjaśniają:
 * jak uczynić narzędzia autorskie dostępnymi, aby osoby z niepełnosprawnościami mogły tworzyć treści internetowe, oraz
