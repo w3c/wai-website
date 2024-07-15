@@ -80,6 +80,8 @@ std-harmonization:
   - wai-std-harmonization
 teach-advocate:
   - wai-teach-advocate
+tips:
+  - wai-tips
 tutorials:
   - wai-tutorials
 video-introduction:
