@@ -70,7 +70,7 @@ Standardy W3C i noty Grup Roboczych przedstawione poniżej są szczególnie isto
 
 ## Wytyczne dla dostępności treści internetowych (WCAG) 2 {#wcag2}
 
-Pojęcie „treść” (internetowa) odnosi się ogólnie do informacji na stronie internetowej lub w aplikacji internetowej i obejmuje:
+Pojęcie „treść” (internetowa) odnosi się ogólnie do informacji zawartej na stronie internetowej lub w aplikacji internetowej i obejmuje:
 
 * informacje naturalne, takie jak tekst, obrazy i dźwięki
 * kod lub znacznik definiujący strukturę, prezentację itp.
