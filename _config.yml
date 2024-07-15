@@ -123,8 +123,6 @@ defaults:
       path: "_tips"
     values:
       layout: "default"
-      github:
-        repository: w3c/wai-quick-start
   - scope:
       path: "_policies"
     values:
@@ -141,8 +139,6 @@ defaults:
       path: "_audiences"
     values:
       layout: "sidenav"
-      github:
-        repository: w3c/wai-audiences
   -
     scope: 
       type: "patterns"
@@ -334,7 +330,6 @@ tipue_search:
         "perspective-videos",
         "tips",
         "policies",
-        "audiences",
         "objectives",
         "patterns",
         "apg-examples",

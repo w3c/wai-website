@@ -6,10 +6,6 @@
 	path = _external/resources/wai-policies-prototype
 	url = https://github.com/w3c/wai-policies-prototype.git
 	branch = master
-[submodule "_external/resources/wai-quick-start"]
-	path = _external/resources/wai-quick-start
-	url = https://github.com/w3c/wai-quick-start.git
-	branch = master
 [submodule "_external/resources/wai-intro-accessibility"]
 	path = _external/resources/wai-intro-accessibility
 	url = https://github.com/w3c/wai-intro-accessibility.git
