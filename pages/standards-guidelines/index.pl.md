@@ -62,7 +62,7 @@ Konsorcjum World Wide Web (W3C) opracowuje międzynarodowe standardy internetowe
 
 Wszystkie standardy W3C są sprawdzane pod kątem wsparcia dostępności przez Grupę Roboczą ds. Architektur Dostępnych Platform ([APA](/about/groups/apawg/)).
 
-Szczególnie istotne z punktu widzenia dostępności cyfrowej są standardy W3C i noty Grup Roboczych przedstawione poniżej.
+Standardy W3C i noty Grup Roboczych przedstawione poniżej są szczególnie istotne z punktu widzenia dostępności cyfrowej.
 
 ## Wytyczne dla dostępności {#guidelines}
 
