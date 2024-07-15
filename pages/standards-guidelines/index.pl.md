@@ -60,7 +60,7 @@ Ta strona przedstawia standardy wytyczne i inne standardy dotyczące dostępnoś
 
 Konsorcjum World Wide Web (W3C) opracowuje międzynarodowe standardy internetowe: <abbr title="Język Znaczników Hipertekstu">HTML</abbr>, <abbr title="Kaskadowe arkusze stylów">CSS</abbr> i wiele innych. Standardy internetowe W3C nazywane są <dfn>Rekomendacjami W3C</dfn> lub <dfn>Zaleceniami W3C</dfn>.
 
-Wszystkie standardy W3C są sprawdzane pod kątem wsparcia dostępności przez Grupę Roboczą ds. Dostępnych Architektur Platform ([APA](/about/groups/apawg/)).
+Wszystkie standardy W3C są sprawdzane pod kątem wsparcia dostępności przez Grupę Roboczą ds. Architektur Dostępnych Platform ([APA](/about/groups/apawg/)).
 
 Szczególnie istotne z punktu widzenia dostępności cyfrowej są standardy W3C i noty Grup Roboczych przedstawione poniżej.
 
