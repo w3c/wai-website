@@ -75,7 +75,7 @@ Pojęcie „treść” (internetowa) odnosi się ogólnie do informacji zawartej
 * informacje naturalne, takie jak tekst, obrazy i dźwięki
 * kod lub znaczniki definiujące strukturę, prezentację itp.
 
-WCAG ma zastosowanie do treści dynamicznych, multimediów, „mobilnych” itd. WCAG można również zastosować do innych niż internetowe technologii informacyjno-komunikacyjnych (ICT), jak opisano w [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
+WCAG ma zastosowanie do treści dynamicznych, multimediów, „mobilnych” itd. WCAG można również zastosować do innych niż internetowe technologii teleinformatycznych (ICT), jak opisano w [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
 WCAG 2 info:
 - [Omówienie WCAG](/standards-guidelines/wcag/)
