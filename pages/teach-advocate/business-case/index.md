@@ -4,7 +4,7 @@
 title: "The Business Case for Digital Accessibility"
 nav_title: "Business Case"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2018-11-09  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: The rationale for organizations to address accessibility. It includes tangible and intangible benefits, and the risks of not addressing accessibility adequately.
 footnotestitle: Resources
 
@@ -30,7 +30,7 @@ image: /content-images/business-case/social.png
 # Translate the other words below, including "Date:", "Editor:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Published 9 Nov 2018.</p>
+  <p><strong>Date:</strong> Published 9 Nov 2018. Minor update 15 July 2024.</p>
   <p><strong>Editor:</strong> Sharron Rush. Contributors: Shawn Lawton Henry, Eric Eggert, Brent Bakken, Vicki Menezes Miller, Laura Keen. ACKNOWLEDGEMENTS lists additional contributors.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
@@ -319,7 +319,7 @@ Over time, the legal risk increased with the adoption of more specific laws and 
 
 - The Convention on the Rights of People with Disabilities (CRPD) is a comprehensive human rights document that includes a direct reference to the rights of all people to have equal access to communications technology. Passed by the General Assembly of the United Nations, more than 175 countries ratified it by 2018.
 
-- The European Commission adopted the European Accessibility Act, requiring ATMs and banking services, PCs, telephones and TV equipment, telephony and audiovisual services, transport, e-books, and e-commerce meet accessibility requirements.
+- The European Union adopted the European Accessibility Act, requiring ATMs and banking services, PCs, telephones and TV equipment, telephony and audiovisual services, transport, e-books, and e-commerce meet accessibility requirements.
 
 - In the US, the number of legal actions continues to rise and courts increasingly decide in favor of equal access[^23], often citing the Americans with Disabilities Act (ADA). Structured Negotiation is another way that legal pressure is effective, encouraging companies to meet accessibility requirements while avoiding litigation.[^24]
 
