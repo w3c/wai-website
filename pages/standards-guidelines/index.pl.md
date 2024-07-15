@@ -64,7 +64,7 @@ Wszystkie standardy W3C są sprawdzane pod kątem wsparcia dostępności przez G
 
 Standardy W3C i noty Grup Roboczych przedstawione poniżej są szczególnie istotne z punktu widzenia dostępności cyfrowej.
 
-## Wytyczne dla dostępności {#guidelines}
+## Wytyczne dotyczące dostępności {#guidelines}
 
 [[Podstawowe komponenty dostępności Internetu]](/fundamentals/components/) pokazuje, jak dostępność sieci zależy od kilku współpracujących ze sobą elementów tworzenia sieci i interakcji oraz w jaki sposób mają zastosowanie wytyczne WAI (WCAG, ATAG, UAAG).
 
