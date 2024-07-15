@@ -37,7 +37,7 @@ footer: >
 {% include box.html type="start" h="2" title="Podsumowanie" class="full" %}
 {:/}
 
-Ta strona przedstawia standardy wytyczne i inne standardy dotyczące dostępności stron internetowych.
+Ta strona jest wprowadzeniem do wytycznich i innych standardów dotyczących dostępności stron internetowych.
 
 {::nomarkdown}
 {% include box.html type="end" %}
