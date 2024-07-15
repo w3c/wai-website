@@ -2,7 +2,7 @@
 title: "Translations Sitemaps"
 nav_title: Translations Sitemaps
 lang: en
-last_updated: 2024-05-02
+last_updated: 2024-07-09
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
 permalink: /about/translating/sitemaps/
@@ -12,7 +12,7 @@ image: /content-images/about/social-translations.png
 feedbackmail: group-wai-translations@w3.org
 
 footer: |
-  <p><strong>Date:</strong> Updated 2 May 2024.</p>
+  <p><strong>Date:</strong> Updated 9 July 2024.</p>
   <p><strong>Editors:</strong> Rémi Bétin and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
@@ -51,23 +51,22 @@ _If you are a new volunteer_, please [send us an e-mail to express your interest
 
 ### Browse the list {#browse}
 
-Resources are presented in two ways:
-- _Priorities_ only lists [priority resources](/about/translating/resources/#priorities) identified by the WAI team.
-- _Sitemap_ lists all WAI resources for which translations are welcome, grouped by top-level pages.
+- _Priorities_ section only lists [priority resources](/about/translating/resources/#priorities) identified by the WAI team.
+- _Sitemap_ section lists all WAI resources for which translations are welcome, grouped by top-level pages.
 
 {::nomarkdown}
 {% include box.html type="start" title="Note" class="simple" %}
 {:/}
 
-All WAI Resources are not listed in Translations Sitemaps. That may be because a resource will be updated soon, is not intented for translation, or is far from ready to be translated. The list is regularly updated.
+Some WAI Resources are not listed in Translations Sitemaps. That may be because a resource will be updated soon, is not intented for translation, or is far from ready to be translated. The list is regularly updated.
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
 For each resource listed, you can see:
-- The name and URL of the resource in English (in the first column "WAI resource")
-- The status of the translation (in the second column "Translation Status")
+- "WAI Resource" column: the name and URL of the resource, in English;
+- "Translation Status" column: the status of the translation
   - <p>{% include_cached icon.html name="check-circle" %} Up-to-date + the title and URL of the translation.</p>
   - <p>{%- include_cached icon.html name="warning" -%} Translation needs update + the title and URL of the translation. We welcome a volunteer translation update.</p>
   - <p>{% include_cached icon.html name="ex-circle" %} No translation. We welcome a volunteer translation.</p>

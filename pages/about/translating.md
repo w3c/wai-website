@@ -53,6 +53,7 @@ Thank you for your interest in translating resources from the World Wide Web Con
 **Scope:**
 * These instructions cover web pages with a URI that begins with www.w3.org/WAI
 * For web pages that begin with www.w3.org/TR/ or something else, there is a different process that is introduced in [TR & Authorized W3C Translations below](#tr).
+  * To translate WCAG 2, follow instructions at [[How to translate WCAG 2]](/about/translating/wcag/)
 
 **Translator background** &mdash; we prefer translators to be:
 * native speakers
