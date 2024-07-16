@@ -428,7 +428,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
   * [Error Suggestion 3.3.3](/WAI/WCAG21/quickref/#error-suggestion) ([Understanding 3.3.3](/WAI/WCAG21/Understanding/error-suggestion))
 * **Tutorial**
   * [User Notifications](/tutorials/forms/notifications/)
-* **User Story**
+* **User Stories**
   * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
   * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
   * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
