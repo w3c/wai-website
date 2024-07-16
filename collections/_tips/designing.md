@@ -260,7 +260,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
     <figure class="keyboard">
       <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Keyboard focus style</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Link is styled with a stronger version of the hover style to make it stand out" style="color: #850BAC; background-color: #fdf70f">keyboard to navigate</a></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Link is styled with a stronger version of the hover style and with a black outline to make it stand out" style="color: #850BAC; background-color: #fdf70f; outline:2px solid black; outline-offset: 5px;">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
@@ -282,6 +282,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 
 * **WCAG**
   * [Focus Visible 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([Understanding 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
+  * [Non-text Contrast 1.4.11](/WAI/WCAG21/quickref/#non-text-contrast) ([Understanding 1.4.11](/WAI/WCAG21/Understanding/non-text-contrast.html))
   * [Consistent Identification 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **User Stories**
   * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
