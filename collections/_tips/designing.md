@@ -6,7 +6,7 @@ title: "Designing for Web Accessibility – Tips for Getting Started"
 title_html: "Designing for Web Accessibility"
 nav_title: Tips for Designing
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2019-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-16   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 resource:
   ref: /tips/  # Do not change this
@@ -39,7 +39,7 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
+  <p><strong>Date:</strong> Minor update 16 July 2024. Updated 16 July 2024. First published September 2015.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
   <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 ---
