@@ -254,7 +254,7 @@ footer: >
     <figure class="hover">
       <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} マウスホーバースタイル</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="リンクは、ホバー状態を強調するために微妙な背景でスタイルされている。" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">keyboard to navigate</a><img src="/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="リンクは、ホバー状態を強調するために微妙な背景でスタイルされている。" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">keyboard to navigate</a><img src="/WAI/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
@@ -266,7 +266,7 @@ footer: >
     <figure class="active">
       <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} タッチまたはクリックスタイル</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="リンクには、アクションが起こることを示す強いスタイリングが与えられている。" style="background: #850BAC; color: #f4f4f4">keyboard to navigate</a><img src="/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="リンクには、アクションが起こることを示す強いスタイリングが与えられている。" style="background: #850BAC; color: #f4f4f4">keyboard to navigate</a><img src="/WAI/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
   </div>
