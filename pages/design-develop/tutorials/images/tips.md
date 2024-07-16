@@ -63,5 +63,5 @@ support: Developed by the Education and Outreach Working Group (<a href="https:/
 ## Other W3C Resources
 
 - Background information on [providing text alternatives for non-text content](/fundamentals/accessibility-principles/#alternatives) in How People with Disabilities Use the Web.
-- Test the accessibility of images on your site: [Quick Checks Image text alternatives](https://www.w3.org/WAI/EO/Drafts/eval/checks#images).
+- Test the accessibility of images on your site: [Quick Checks Image text alternatives](/test-evaluate/preliminary/#images).
 - Examples of good and bad practice in selecting text alternatives can be found in the [Before and After Demonstration](https://www.w3.org/WAI/demos/bad/) (BAD).
