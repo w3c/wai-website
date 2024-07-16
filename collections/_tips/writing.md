@@ -221,9 +221,9 @@ View inline example
   * [Info and Relationships 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **User Stories**
   * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
-  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three)
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
+  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three/)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -265,10 +265,10 @@ Write link text so that it describes the content of the link target. Avoid using
   * [Link Purpose (Link Only) 2.4.9](/WAI/WCAG21/quickref/#link-purpose-link-only) ([Understanding 2.4.9](/WAI/WCAG21/Understanding/link-purpose-link-only))
 * **User Stories**
   * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
-  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three)
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
+  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three/)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -319,7 +319,7 @@ For every image, write alternative text that provides the information or functio
 * **Tutorial**
   * [Images](/tutorials/images/)
 * **User Story**
-  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three)
+  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -339,8 +339,8 @@ For audio-only content, such as a podcast, provide a transcript. For audio and v
   * [Captions (Prerecorded) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Understanding 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
   * [Audio Description or Media Alternative (Prerecorded) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Understanding 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **User Stories**
-  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six)
-  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven)
+  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six/)
+  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -398,9 +398,9 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 * **WCAG**
   * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **User Stories**
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -456,9 +456,9 @@ Use simple language and formatting, as appropriate for the context.
   * [Unusual Words 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Understanding 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
   * [Abbreviations 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Understanding 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
 * **User Stories**
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
-  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five)
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
+  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five/)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

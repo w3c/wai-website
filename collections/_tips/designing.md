@@ -102,8 +102,8 @@ Foreground text needs to have sufficient contrast with background colors. This i
 * **WCAG**
   * [Contrast (Minimum) 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([Understanding 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
 * **User Stories**
-  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 * **Easy Check**
   * [How to check contrast ratio](/test-evaluate/preliminary/#contrast)
 * **Support Tools**
@@ -224,7 +224,7 @@ While color can be useful to convey information, color should not be the only wa
 * **WCAG**
   * [Use of Color 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([Understanding 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
 * **User Story**
-  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four)
+  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -285,11 +285,11 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   * [Consistent Identification 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **User Stories**
   * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
-  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four)
-  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five)
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
+  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness/)]](/people-use-web/user-stories/story-four/)
+  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five/)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -307,10 +307,10 @@ Ensure that navigation across pages within a website has consistent naming, styl
   * [Consistent Navigation 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([Understanding 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
   * [Multiple Ways 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([Understanding 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
 * **User Stories**
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
-  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five)
-  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
+  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five/)
+  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -429,9 +429,9 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 * **Tutorial**
   * [User Notifications](/tutorials/forms/notifications/)
 * **User Stories**
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -542,8 +542,8 @@ Use whitespace and proximity to make relationships between content more apparent
 * **Tutorial**
   * [Headings](/tutorials/page-structure/headings/)
 * **User Stories**
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -620,7 +620,7 @@ Work with content authors and developers to provide alternatives for non-text co
 * **Tutorial**
   * [Images](/tutorials/images/)
 * **User Story**
-  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six)
+  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -656,7 +656,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 * **Tutorial**
   * [Carousel Concepts](/tutorials/carousels/)
 * **User Story**
-  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six)
+  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

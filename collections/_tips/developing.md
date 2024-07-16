@@ -122,7 +122,7 @@ Ensure that alternative text for images is added to all informational and functi
 * **Tutorial**
   * [Images](/tutorials/images/)
 * **User Story**
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -295,9 +295,9 @@ Be as forgiving of format as possible when processing user input. For example, a
 * **Tutorial**
   * [Validating Input](/tutorials/forms/validation/)
 * **User Stories**
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -455,7 +455,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 * **Background**
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **User Story**
-  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six)
+  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -508,8 +508,8 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 * **Background**
   * [Notes on Using ARIA in HTML](/TR/aria-in-html/)
 * **User Stories**
-  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -594,9 +594,9 @@ buttonExample.addEventListener('click', function(e) {
   * [Keyboard 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Understanding 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **User Stories**
   * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
-  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three)
-  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three/)
+  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -619,8 +619,8 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 * **Background**
   * [Inaccessibility of CAPTCHA](/TR/turingtest/)
 * **User Stories**
-  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
+  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven/)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
