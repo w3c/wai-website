@@ -219,8 +219,11 @@ View inline example
   * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
   * [Section Headings 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
   * [Info and Relationships 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
-* **User Story**
-  * [How a screen reader user uses headings to navigate](/people-use-web/user-stories/#accountant)
+* **User Stories**
+  * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
+  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -260,6 +263,12 @@ Write link text so that it describes the content of the link target. Avoid using
 * **WCAG**
   * [Link Purpose (In Context) 2.4.4](/WAI/WCAG21/quickref/#link-purpose-in-context) ([Understanding 2.4.4](/WAI/WCAG21/Understanding/link-purpose-in-context))
   * [Link Purpose (Link Only) 2.4.9](/WAI/WCAG21/quickref/#link-purpose-link-only) ([Understanding 2.4.9](/WAI/WCAG21/Understanding/link-purpose-link-only))
+* **User Stories**
+  * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
+  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -310,7 +319,7 @@ For every image, write alternative text that provides the information or functio
 * **Tutorial**
   * [Images](/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user](/people-use-web/user-stories/#accountant)
+  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -329,8 +338,9 @@ For audio-only content, such as a podcast, provide a transcript. For audio and v
 * **WCAG**
   * [Captions (Prerecorded) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Understanding 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
   * [Audio Description or Media Alternative (Prerecorded) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Understanding 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
-* **User Story**
-  * [Describes how captions help a deaf student](/people-use-web/user-stories/#onlinestudent)
+* **User Stories**
+  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six)
+  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -387,8 +397,10 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 
 * **WCAG**
   * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
-* **User Story**
-  * [Describes simple instructions help someone with learning difficulties](/people-use-web/user-stories/#supermarketassistant)
+* **User Stories**
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -443,8 +455,10 @@ Use simple language and formatting, as appropriate for the context.
   * [Reading Level 3.1.5](/WAI/WCAG21/quickref/#reading-level) ([Understanding 3.1.5](/WAI/WCAG21/Understanding/reading-level))
   * [Unusual Words 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Understanding 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
   * [Abbreviations 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Understanding 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
-* **User Story**
-  * [User with reading disabilities benefits from easy to read text](/people-use-web/user-stories/#classroomstudent)
+* **User Stories**
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
+  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
