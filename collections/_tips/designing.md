@@ -101,13 +101,14 @@ Foreground text needs to have sufficient contrast with background colors. This i
 
 * **WCAG**
   * [Contrast (Minimum) 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([Understanding 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
+  * [Contrast (Enhanced) 1.4.6](/WAI/WCAG21/quickref/#contrast-enhanced) ([Understanding 1.4.6](/WAI/WCAG21/Understanding/contrast-enhanced.html))
 * **User Stories**
   * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four/)
   * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
 * **Easy Check**
   * [How to check contrast ratio](/test-evaluate/preliminary/#contrast)
 * **Support Tools**
-  * [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
+  * [List of tools to help determine contrast ratio](/WCAG21/Understanding/contrast-minimum#resources)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
