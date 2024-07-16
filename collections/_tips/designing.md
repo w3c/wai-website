@@ -101,8 +101,9 @@ Foreground text needs to have sufficient contrast with background colors. This i
 
 * **WCAG**
   * [Contrast (Minimum) 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([Understanding 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
-* **User Story**
-  * [How a user with "color blindness" experiences the Web](/people-use-web/user-stories/#shopper)
+* **User Stories**
+  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
 * **Easy Check**
   * [How to check contrast ratio](/test-evaluate/preliminary/#contrast)
 * **Support Tools**
@@ -223,7 +224,7 @@ While color can be useful to convey information, color should not be the only wa
 * **WCAG**
   * [Use of Color 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([Understanding 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
 * **User Story**
-  * [How a user with "color blindness" experiences the Web](/people-use-web/user-stories/#shopper)
+  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -282,9 +283,13 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 * **WCAG**
   * [Focus Visible 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([Understanding 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
   * [Consistent Identification 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
-* **User Story**
-  * [Challenges faced by someone with a limited ability to use a mouse](/people-use-web/user-stories/#reporter)
-  * [Challenges faced by an older user with hand tremors](/people-use-web/user-stories/#retiree)
+* **User Stories**
+  * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
+  * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four)
+  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -301,8 +306,11 @@ Ensure that navigation across pages within a website has consistent naming, styl
 * **WCAG**
   * [Consistent Navigation 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([Understanding 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
   * [Multiple Ways 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([Understanding 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
-* **User Story**
-  * [How consistency and navigation can help someone with cognitive difficulties](/people-use-web/user-stories/#supermarketassistant)
+* **User Stories**
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
+  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five)
+  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -357,8 +365,6 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
   * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
 * **Tutorial**
   * [Visual position of label text](/tutorials/forms/labels/#visual-position-of-label-text)
-* **User Story**
-  * [How clear labelling can help someone with cognitive difficulties](/people-use-web/user-stories/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -422,8 +428,10 @@ Provide feedback for interactions, such as confirming form submission, alerting 
   * [Error Suggestion 3.3.3](/WAI/WCAG21/quickref/#error-suggestion) ([Understanding 3.3.3](/WAI/WCAG21/Understanding/error-suggestion))
 * **Tutorial**
   * [User Notifications](/tutorials/forms/notifications/)
-* **User Story**
-  * [How making important content easily identifiable can help](/people-use-web/user-stories/#classroomstudent)
+* **User Stories**
+  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two)
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -533,8 +541,9 @@ Use whitespace and proximity to make relationships between content more apparent
   * [Section Headings 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
 * **Tutorial**
   * [Headings](/tutorials/page-structure/headings/)
-* **User Story**
-  * [Describes how headings can be helpful for navigation](/people-use-web/user-stories/#accountant)
+* **User Stories**
+  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight)
+  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -570,8 +579,6 @@ Consider how page information is presented in different sized viewports, such as
 * **Background**
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
   * [Mobile considerations related to Understandability](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
-* **User Story**
-  * [Describes how alternative views of zoomed pages can be helpful](/people-use-web/user-stories/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -613,7 +620,7 @@ Work with content authors and developers to provide alternatives for non-text co
 * **Tutorial**
   * [Images](/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user](/people-use-web/user-stories/#accountant)
+  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -648,6 +655,8 @@ Provide visible controls to allow users to stop any animations or auto-playing s
   * [Pause, Stop, Hide 2.2.2](/WAI/WCAG21/quickref/#pause-stop-hide) ([Understanding 2.2.2](/WAI/WCAG21/Understanding/pause-stop-hide))
 * **Tutorial**
   * [Carousel Concepts](/tutorials/carousels/)
+* **User Story**
+  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
