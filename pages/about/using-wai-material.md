@@ -107,15 +107,13 @@ You may use videos in your presentations, training, etc, if you use the entire v
 {% include box.html type="end" %}
 {:/}
 
-You may create a dubbed version in your language with the following conditions:
-1. You provide the entire video, including the ending with the link to w3.org/WAI
-2. You do an accurate transation. If you would like to change the wording to be smoother in your langauge, you get it approved by W3C staff before recording.
-3. You maintain accessibility:<br>
-   a. You provide text subtitles/captions for your video. They may be "closed captions" that are only shown if turned on.<br>
-   b. If the video has a descriped version, you also provide a translation of the described video.
-4. Optionally, you may include your organization and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
-5. You make the video available for others to use. This includes permission for W3C to put it on our website, YouTube channel, and other places.
-6. For the original video on the W3C website, you provide a text translation of the current English VTT file. This translation can then be used as the script for the dupping.
+You may create a dubbed version with the following conditions:
+1. The entire video is dubbed, including the ending with the link to w3.org/WAI.
+2. The translation is accurate. If you would like to change the wording to be smoother in your language, it should be approved by W3C staff.
+3. The new video must be accessible:
+   a. Text subtitles/captions must be provided. They may be "closed captions" that are only shown if turned on.
+   b. If the video has a described version, a translation of the described video must be provided.
+4. You may include your organization name and logo at the beginning and/or end, indicating that you are the translating organization. However, it must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
 
 ## Let Us Know
 
