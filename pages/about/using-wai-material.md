@@ -8,9 +8,9 @@ permalink: /about/using-wai-material/
 ref: /about/using-wai-material/
 
 footer: >
-  <p><strong>Date:</strong> Updated @@ Month 2024.</p>
+  <p><strong>Date:</strong> Updated 17 July 2024.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
-  <p>Developed with the <a href="http://www.w3.org/People/domain?domain=Web+Accessibility+Initiative">WAI staff</a> and <a href="https://www.w3.org/People/functions/comm">W3C Communications staff</a>.</p>
+  <p>Developed with <a href="https://www.w3.org/staff/wai/">WAI staff</a> and <a href="https://www.w3.org/staff/comm/">W3C Communications staff</a>.</p>
 ---
 
 {::nomarkdown}
@@ -67,21 +67,11 @@ A few WAI Resources are specifically designed for you to adapt, such as presenta
     
     Here is a template you can use:<br>
 
-    > This *\[presentation\]* is based on *\[slides\]* from the Web
-    > Accessibility Initiative (WAI): ***\[title\]***. *\[name\]*, ed.
-    > Copyright © 0000 W3C® (MIT, ERCIM, Keio). *Status: Updated 00
-    > Month 0000*. *www.w3.org/WAI/great/page*
+    > This *\[presentation\]* is based on *\[slides\]* from the W3C Web Accessibility Initiative (WAI): ***\[title\]***. *\[name\]*, ed. Copyright © 0000  World Wide Web Consortium (W3C®). *Date: 00 Month 0000*. *www.w3.org/WAI/great/page*
 
     For example:
 
-    > Some information in this article is from the Web Accessibility
-    > Initiative ([WAI](https://www.w3.org/WAI/)) document: [Developing
-    > Web Accessibility Presentations and
-    > Training](https://www.w3.org/WAI/training/). Andrew Arch and Shadi
-    > Abou-Zahra, eds. Copyright © 2010 [W3C](http://www.w3.org/)®
-    > ([MIT](https://www.csail.mit.edu/), [ERCIM](http://www.ercim.eu/),
-    > [Keio](https://www.keio.ac.jp/)). Status: Draft Updated 16
-    > September 2010. <https://www.w3.org/WAI/training/>
+    > Some information in this article is from the W3C Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)) document: [Curricula on Web Accessibility: A Framework to Build Your Own Courses](https://www.w3.org/WAI/curricula/). Daniel Montalvo and Shadi Abou-Zahra, eds. Copyright © 2024 World Wide Web Consortium (W3C®). Date: Updated 31 August 2022. <https://www.w3.org/WAI/curricula/>
 
 3.  You do not suggest that W3C or WAI endorses you or your use of the material.
 4.  You abide by the license terms; most are [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
@@ -93,27 +83,27 @@ Unless otherwise indicated, all WAI material not covered by another license is p
 For material under the Creative Commons License, the footer includes the license, such as: "This work is published and licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
 
 ## Videos
-You may use videos in your presentations, training, etc, if you use the entire video including the ending with the link to w3.org/WAI
+You may use W3C WAI videos in your presentations, training, etc. Please use the entire video, including the ending with the link to w3.org/WAI
 
-### Translations [draft update]
+### Translations
 
 {::nomarkdown}
 {% include box.html type="start" title="Status" icon="warning" %}
 {:/}
-
-<p>NOTE: This Translations section is a draft that is under review. We plan to finalize it in July 2024.</p>
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
 You may create a dubbed version with the following conditions:
-1. The entire video is dubbed, including the ending with the link to w3.org/WAI.
-2. The translation is accurate. If you would like to change the wording to be smoother in your language, it should be approved by W3C staff.
-3. The new video must be accessible:
-   a. Text subtitles/captions must be provided. They may be "closed captions" that are only shown if turned on.
-   b. If the video has a described version, a translation of the described video must be provided.
-4. You may include your organization name and logo at the beginning and/or end, indicating that you are the translating organization. However, it must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
+1. The entire video is provided, including the ending with the link to w3.org/WAI
+2. The translation is accurate. If you would like to change the wording to be smoother in your language, you get it approved by W3C staff before recording.
+3. The new video is accessible:
+   a. You provide text subtitles/captions for your video. They may be "closed captions" that are only shown if turned on.
+   b. If the video has a descriped version, you also provide a translation of the described video.
+4. Optionally, you may include your organization name and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
+5. You make the video available for others to use. This includes permission for W3C to put it on our website, YouTube channel, and other places.
+6. For the original video on the W3C website, you provide a text translation of the current English VTT file. This translation can then be used as the script for the dupping.
 
 ## Let Us Know
 
