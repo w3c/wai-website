@@ -97,15 +97,15 @@ You may create a dubbed version with the following conditions:
 5. Optionally, you may include your organization name and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
 6. You make the video available for others to use. This includes permission for W3C to put it on our website, YouTube channel, and other places.
 
-To start translating the English captions/subtitle VTT file, or if you have any questions, please e-mail group-wai-translations@w3.org
+To start translating the English captions/subtitle VTT file, or if you have any questions, please e-mail <group-wai-translations@w3.org>
 
 ## Let Us Know
 
-When you use WAI material, please let us know by sending an email to <wai-eo-editors@w3.org> (a publicly-archived list), or if you do not want it public send it to wai@w3.org
+When you use WAI material, please let us know by sending an email to <wai-eo-editors@w3.org> (a publicly-archived list), or if you do not want it public send it to <wai@w3.org>
 
 For presentations, we would appreciate knowing how many people attended, what questions they had, and other information.
 
-We welcome your feedback and suggestions to improve WAI materials, to <wai-eo-editors@w3.org>.
+We welcome your feedback and suggestions to improve WAI materials, to <wai-eo-editors@w3.org>
 
 ## Appropriate Use
 
