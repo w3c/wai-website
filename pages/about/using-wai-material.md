@@ -87,14 +87,6 @@ You may use W3C WAI videos in your presentations, training, etc. Please use the 
 
 ### Translations
 
-{::nomarkdown}
-{% include box.html type="start" title="Status" icon="warning" %}
-{:/}
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
 You may create a dubbed version with the following conditions:
 1. You provide a text translation of the English captions/subtitle file for use with the W3C videos. You can then use that translation as the script for the dubbing.
 2. The entire video is provided, including the ending with the link to w3.org/WAI
