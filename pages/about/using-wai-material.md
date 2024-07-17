@@ -95,7 +95,7 @@ You may create dubbed versions of videos with the following conditions:
    a. You provide text subtitles/captions for your video. They may be "closed captions" that are only shown if turned on.<br>
    b. If the video has a descriped version, you also provide a translation of the described video.
 5. Optionally, you may include your organization name and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
-6. You make the video available for others to use. This includes permission for W3C to put it on our website, YouTube channel, and other places.
+6. You make the video available for others to use. This includes permission for W3C to put it on our website, YouTube channel, and other places. W3C retains copyright to the video.
 
 To start translating the English captions/subtitle VTT file, or if you have any questions, please e-mail <group-wai-translations@w3.org>
 
