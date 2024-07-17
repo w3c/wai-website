@@ -96,7 +96,7 @@ You may use W3C WAI videos in your presentations, training, etc. Please use the 
 {:/}
 
 You may create a dubbed version with the following conditions:
-1. You provide a text translation of the English captions/subtitle file for use with the W3C videos. You can then use that translation as the script for the dupping.
+1. You provide a text translation of the English captions/subtitle file for use with the W3C videos. You can then use that translation as the script for the dubbing.
 2. The entire video is provided, including the ending with the link to w3.org/WAI
 3. The translation is accurate. If you would like to change the wording to be smoother in your language, you get it approved by W3C staff before recording.
 4. The new video is accessible:
