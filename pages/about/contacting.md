@@ -82,5 +82,6 @@ Comments on other parts of the W3C Web site (www.w3.org) go to: <site-comments@w
 * [Kevin White](https://www.w3.org/staff/#kevin) leads technical accessibility work, including oversight of accessibility Working Groups.
 * [Roy Ruoxi Ran](https://www.w3.org/staff/#ran) supports accessibility Working Groups and accessibility in China.
 * [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo) supports accessibility Working Groups and standards harmonization in Europe.
+* [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) develops the new technical architecture for WCAG 2, WCAG 3, and the WAI website.
 
 If you don't know who to contact, or to reach all WAI staff, you can e-mail <wai@w3.org>
