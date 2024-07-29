@@ -157,6 +157,7 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
   * [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/#ran) supports accessibility Working Groups and accessibility in China.
   * [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo) supports accessibility Working Groups and standards harmonization in Europe.
   * [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) develops the new technical architecture for WCAG 2, WCAG 3, and the WAI website.
+  * [Tamsin Ewing](https://www.w3.org/staff/#tamsin) supports accessibility communications, educational resources, and Working Groups in Europe and the Americas.
 * Participants of: [AG](https://www.w3.org/groups/wg/ag/participants), [APA](https://www.w3.org/groups/wg/apa/participants), [ARIA](https://www.w3.org/groups/wg/aria/participants), [EPUB](https://www.w3.org/groups/wg/epub/participants), [EO](https://www.w3.org/groups/wg/eowg/participants), and other [W3C groups](https://www.w3.org/groups/)
 
 <section class="default-grid teaser making-web-accessible" aria-labelledby="mwa-title" style="border: 1px solid var(--line-grey);">
@@ -188,6 +189,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 29 July 2024
+  * Updated W3C WAI staff roles under [Who is We](/update/#who-is-we)
 * 27 June 2024
   * Updated [Upcoming Publications list](/update/#upcoming-publications)
 * 29 May 2024
