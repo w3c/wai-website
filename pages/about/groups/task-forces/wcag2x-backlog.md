@@ -59,6 +59,6 @@ If you are interested in becoming a participant of the WCAG 2 Task Force or have
 ## Facilitation
 The AG Working Group chair liaison oversees attention to W3C Process with respect to the chartered requirements of the Working Group. The Facilitators set agenda, lead meetings, determine consensus, and are the primary reporters of progress to the Working Group.
 
-* Facilitators: [Bruce Bailey](bailey@access-board.gov), US Access Board; [Michael Gower](michael.gower@ca.ibm.com), IBM Corporation
+* Facilitators: Bruce Bailey, US Access Board; Michael Gower, IBM Corporation
 
-* AG WG chair liaison: [Alastair Campbell](acampbell@nomensa.com), Nomensa
+* AG WG chair liaison: Alastair Campbell, Nomensa

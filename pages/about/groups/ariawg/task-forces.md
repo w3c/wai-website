@@ -28,9 +28,9 @@ The [ARIA Authoring Practices task force](/about/groups/task-forces/practices/) 
 
 The [CSS Accessibility Task Force](/about/groups/task-forces/css-a11y/) is a joint task force of the ARIA WG, the [Accessible Platform Architectures Working Group](/about/groups/apawg/), and the [Cascading Style Sheets Working Group](https://www.w3.org/Style/CSS/). It will focus effort on identifying accessibility problems that can be created by use of Cascading Style Sheets (CSS), and to develop solutions.
 
-## Personalization Task Force
+## WAI-Adapt Task Force
 
-The [Personalization Task Force](/about/groups/task-forces/personalization/) has been moved to the APA Working Group.
+The [WAI-Adapt Task Force](/about/groups/task-forces/adapt/) has been moved to the APA Working Group.
 
 ## WAI-ARIA User Agent Implementation Task Force
 

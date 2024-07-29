@@ -65,7 +65,7 @@ The Accessibility Guidelines Working Group engages with stakeholders in a variet
 
 The AG WG conducts its work using a variety of synchronous and asynchronous tools. The [communication page](/about/groups/agwg/communication/) provides details about:
 
-* Teleconferences of the Working Group and its task forces (also see [upcoming agendas](2/WAI/GL/wiki/Upcoming_agendas), meeting minutes);
+* Teleconferences of the Working Group and its task forces (also see [upcoming agendas](/WAI/GL/wiki/Upcoming_agendas), meeting minutes);
 * Face to face meetings (also see face-to-face [meeting pages](https://www.w3.org/WAI/GL/wiki/Meetings));
 * Email lists;
 * [Wiki](https://www.w3.org/WAI/GL/wiki/);
@@ -90,7 +90,7 @@ The AG WG maintains the following operational resources:
 
 * [Decision policy](decision-policy);
 * [Record of decisions made by the WG](https://www.w3.org/WAI/GL/wiki/Decisions);
-* [meeting minutes](minutes).
+* [meeting minutes](https://www.w3.org/WAI/GL/minutes-history).
 
 W3C maintains a [public list of any patent disclosures](https://www.w3.org/groups/wg/ag/ipr/) made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent.
 
