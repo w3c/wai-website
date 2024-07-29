@@ -15,7 +15,7 @@ The [Working Group charter](https://www.w3.org/2015/10/apa-charter.html#mileston
 | --- | --- | --- |
 | FPWD | CR | PR | Rec |
 | --- | --- | --- | --- |
-| [Personalization Semantics Content Module](https://w3c.github.io/adapt/content/) | FPWD published by ARIA WG; IP being transferred to APA. |   
+| [WAI-Adapt: Symbols Module]([WAI-Adapt: Symbols Module](https://w3c.github.io/adapt/symbols/)) | FPWD published by ARIA WG; IP being transferred to APA. |   
  | Feb 2019 | Jun 2019 | Sep 2019 |
 | [WAI Adapt: Help and Support Module](https://w3c.github.io/adapt/help/) | FPWD planned Q3 2018 | Oct 2018 | Nov 2019 | Apr 2020 | Dec 2020 |
 | [WAI Adapt: Tools Module](https://w3c.github.io/adapt/tools/) | FPWD planned Q3 2018 | Oct 2018 | Nov 2020 | Apr 2021 | Dec 2021 |
