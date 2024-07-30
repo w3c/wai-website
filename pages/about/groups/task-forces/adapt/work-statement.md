@@ -1,7 +1,7 @@
 ---
 title: WAI-Adapt Task Force Work Statement
-permalink: /about/groups/task-forces/personalization/work-statement/
-ref: /about/groups/task-forces/personalization/work-statement/
+permalink: /about/groups/task-forces/adapt/work-statement/
+ref: /about/groups/task-forces/adapt/work-statement/
 lang: en
 ---
 
@@ -9,7 +9,7 @@ lang: en
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The [WAI-Adapt Task Force](/about/groups/task-forces/personalization/) is a task force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists this Working Group with the work identified below.
+The [WAI-Adapt Task Force](/about/groups/task-forces/adapt/) is a task force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists this Working Group with the work identified below.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -48,12 +48,12 @@ In addition to the features defined in WAI-Adapt, other work also addresses the 
 
 ## Communication
 
-WAI-Adapt Task Force communications and discussions are visible to the public. The [task force home page](/about/groups/task-forces/personalization/) details communication mechanisms in use. The task force will:
+WAI-Adapt Task Force communications and discussions are visible to the public. The [task force home page](/about/groups/task-forces/adapt/) details communication mechanisms in use. The task force will:
 
 - Support synchronous (e.g., teleconferences, face-to-face meetings) and asynchronous (e.g., mailing list discussions, issue trackers, wiki, surveys, etc.) methods of communication;
 - Use the procedures of the [APA Working Group Decision Policy](/about/groups/apawg/decision-policy/) to make decisions;
 - Provide updates and feedback to APA Working Group teleconferences, as appropriate. These liaisons are primarily the responsibility of the WAI-Adapt Task Force Facilitators;
-- Maintain information resulting from its activities (deliverables, participants, face-to-face meetings, teleconferences, etc.) on the [WAI-Adapt Task Force home page](/about/groups/task-forces/personalization/).
+- Maintain information resulting from its activities (deliverables, participants, face-to-face meetings, teleconferences, etc.) on the [WAI-Adapt Task Force home page](/about/groups/task-forces/adapt/).
 
 ## Participation
 

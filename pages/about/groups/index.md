@@ -50,7 +50,7 @@ See also:
 -   [**Task Forces**](/about/groups/task-forces/) - Lists some active Task Forces that
     operate under WAI Working Groups, and/or jointly between WAI groups
     and other W3C groups.
--   **[Participating in WAI](/about/participate/)** - Describes participation
+-   **[Participating in WAI](/about/participating/)** - Describes participation
     opportunities ranging from volunteering to implement, promote, and
     review guidelines, to occasional participation in an interest group,
     to dedicated participation in a working group.

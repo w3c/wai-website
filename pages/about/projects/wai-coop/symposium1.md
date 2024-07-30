@@ -59,7 +59,7 @@ We welcome submissions that address, but are not limited to, the following topic
 -	Machine Learning (ML)
 -	Multimodal Interfaces
 -	Natural Language Interfaces
--	[Personalization](https://www.w3.org/WAI/personalization/)
+-	[Personalization](https://www.w3.org/WAI/adapt/)
 -	[Pronunciation](https://www.w3.org/WAI/pronunciation/)
 -	Remote Participation
 -	User requirements

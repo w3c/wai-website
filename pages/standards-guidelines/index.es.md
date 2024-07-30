@@ -143,7 +143,7 @@ Recursos adicionales relacionados con la evaluación se pueden encontrar en el [
 
 ### Personalización
 
-[[Resumen sobre la personalización]](/personalization/) &mdash; La personalización consiste en ajustar la experiencia del usuario a fin de cubrir las necesidades y preferencias individuales. Los autores de contenido pueden usar estándares de personalización para proporcionar un diseño por defecto y permitir la personalización del usuario con un esfuerzo mínimo.
+[[Resumen sobre la personalización]](/adapt/) &mdash; La personalización consiste en ajustar la experiencia del usuario a fin de cubrir las necesidades y preferencias individuales. Los autores de contenido pueden usar estándares de personalización para proporcionar un diseño por defecto y permitir la personalización del usuario con un esfuerzo mínimo.
 
 ### Pronunciación
 

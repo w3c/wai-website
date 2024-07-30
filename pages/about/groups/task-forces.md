@@ -76,7 +76,7 @@ Task Forces operate under specific Working Groups.
 
 :   The Spoken Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information.
 
-**[WAI-Adapt Task Force](/about/groups/task-forces/personalization/)** under the [APA Working Group](/about/groups/apawg/)
+**[WAI-Adapt Task Force](/about/groups/task-forces/adapt/)** under the [APA Working Group](/about/groups/apawg/)
 
 :   WAI-Adapt specifications enable users to personalize how content is presented in order to meet their needs and preferences.
 
