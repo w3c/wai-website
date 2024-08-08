@@ -78,9 +78,11 @@ You can submit comments on the overall WAI Web site (www.w3.org/WAI/) either to 
 Comments on other parts of the W3C Web site (www.w3.org) go to: <site-comments@w3.org>
 
 ## WAI Staff
-* [Shawn Lawton Henry](https://www.w3.org/staff/#shawn) leads accessibility communication, education, and WAI’s collaborative strategic planning.
-* [Kevin White](https://www.w3.org/staff/#kevin) leads technical accessibility work, including oversight of accessibility Working Groups.
-* [Roy Ruoxi Ran](https://www.w3.org/staff/#ran) supports accessibility Working Groups and accessibility in China.
-* [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo) supports accessibility Working Groups and standards harmonization in Europe.
+* [Shawn Lawton Henry](https://www.w3.org/staff/#shawn) is Web Accessibility Initiative (WAI) Program Lead; Accessibility Education and Communications Lead.
+* [Kevin White](https://www.w3.org/staff/#kevin) is Accessibility Technical Lead and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
+* [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/#ran) supports accessibility Working Groups and accessibility in China.
+* [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo) supports accessibility Working Groups and standards harmonization.
+* [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) develops the new technical architecture for WCAG 2, WCAG 3, and the WAI website.
+* [Tamsin Ewing](https://www.w3.org/staff/#tamsin) supports accessibility communications, educational resources, and Working Group deliverables.
 
 If you don't know who to contact, or to reach all WAI staff, you can e-mail <wai@w3.org>

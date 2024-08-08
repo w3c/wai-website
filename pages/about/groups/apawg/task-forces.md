@@ -27,7 +27,7 @@ The [Cognitive and Learning Disabilities Accessibility Task Force](/about/groups
 
 ## WAI-Adapt Task Force
 
-The work of [WAI-Adapt Task Force](/about/groups/task-forces/personalization/) enables users to use adaptive widgets and user preferences to customize their user experience. It enables content authors to provide a default design and enable user adaptation with minimal work.
+The work of [WAI-Adapt Task Force](/about/groups/task-forces/adapt/) enables users to use adaptive widgets and user preferences to customize their user experience. It enables content authors to provide a default design and enable user adaptation with minimal work.
 
 ## Research Questions Task Force
 

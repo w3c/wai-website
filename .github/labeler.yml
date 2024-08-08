@@ -2,6 +2,8 @@ accessible-events:
   - wai-accessible-events
 accessibility-training:
   - wai-accessibility-training
+audiences:
+  - wai-audiences
 business-case:
   - wai-business-case
 cognitive:
@@ -12,6 +14,8 @@ components:
   - wai-components
 conformance-eval:
   - wai-conformance-eval
+curricula:
+  - wai-curricula
 customize-design:
   - wai-customize-design
 design-develop:
@@ -44,6 +48,8 @@ involving-users-eval:
   - wai-involving-users-eval
 involving-users:
   - wai-involving-users
+media-guide:
+  - wai-media-guide
 mobile:
   - wai-mobile
 news:
@@ -74,6 +80,10 @@ std-harmonization:
   - wai-std-harmonization
 teach-advocate:
   - wai-teach-advocate
+tips:
+  - wai-tips
+tutorials:
+  - wai-tutorials
 video-introduction:
   - wai-video-introduction
 w3c-process:

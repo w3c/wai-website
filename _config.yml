@@ -31,7 +31,7 @@ exclude:
   - "vendor"
 # Build settings
 markdown: kramdown
-kramwdown:
+kramdown:
   toc_levels: 2..3
   input: GFM
   syntax_highlighter: rouge
@@ -76,14 +76,12 @@ collections:
       <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Britt Classen, Michel Hansma, Vera Lange, Eric Velleman. <strong>Previous Editors:</strong> Mary Jo Mueller, Robert Jolly, Eric Eggert, Judy Brewer, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Previous contributors: Jennifer Sutton and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
       <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
   audiences:
-    # area: "Plan & Manage"
     name: "Roles"
     shortname: "Roles"
     output: true
-    acknowledgements: false
     permalink: /roles/:path/
-    prevnext: false
     parent: "/"
+    prevnext: false
   posts:
     output: true
     permalink: /news/:year-:month-:day/:title/
@@ -125,8 +123,6 @@ defaults:
       path: "_tips"
     values:
       layout: "default"
-      github:
-        repository: w3c/wai-quick-start
   - scope:
       path: "_policies"
     values:
@@ -143,8 +139,6 @@ defaults:
       path: "_audiences"
     values:
       layout: "sidenav"
-      github:
-        repository: w3c/wai-audiences
   -
     scope: 
       type: "patterns"
@@ -341,6 +335,22 @@ tipue_search:
         "patterns",
         "apg-examples",
         "translations-sitemaps"
+      ]
+  exclude:
+    files:
+      [
+        "pages/wai-aria-practices/patterns/landmarks/examples/HTML5.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/at.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/banner.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/complementary.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/contentinfo.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/form.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/general-principles.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/main.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/navigation.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/region.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/resources.html",
+        "pages/wai-aria-practices/patterns/landmarks/examples/search.html",
       ]
 
 # TODO docs say don't need to declare any used in the Theme

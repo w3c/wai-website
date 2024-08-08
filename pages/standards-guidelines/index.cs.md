@@ -140,7 +140,7 @@ Další zdroje související s hodnocením jsou v [[Přehledu hodnocení webové
 
 ### Personalizace
 
-[[Přehled personalizace]](/personalization/) &mdash; Personalizace zahrnuje přizpůsobení uživatelského prožitku tak, aby splňoval potřeby a preference jednotlivých uživatelů. Autoři obsahu mohou použít standardy pro personalizaci, aby poskytli základní design a umožnili uživatelskou personalizaci s minimem námahy.
+[[Přehled personalizace]](/adapt/) &mdash; Personalizace zahrnuje přizpůsobení uživatelského prožitku tak, aby splňoval potřeby a preference jednotlivých uživatelů. Autoři obsahu mohou použít standardy pro personalizaci, aby poskytli základní design a umožnili uživatelskou personalizaci s minimem námahy.
 
 ### Výslovnost
 

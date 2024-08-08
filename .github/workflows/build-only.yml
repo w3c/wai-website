@@ -16,10 +16,10 @@ jobs:
       with:
         submodules: true
         fetch-depth: 0
-    - name: Set up Ruby 2.6
+    - name: Set up Ruby 3.3
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.2
+        ruby-version: 3.3.3
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Update Externals
       run: |
