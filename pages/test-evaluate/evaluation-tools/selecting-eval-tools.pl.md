@@ -151,15 +151,13 @@ Transkrypcja oraz opis wizualnej strony filmu
 
 Narzędzia oceny dostępności stron internetowych mogą pomóc w szybkim rozpoznaniu potencjalnych barier dostępności. Można z nich korzystać na wszystkich etapach procesu projektowania i tworzenia stron internetowych. Narzędzia mogą zapewniać w pełni zautomatyzowane testy i pomagać w ręcznej ocenie.
 
-Automatyczne narzędzia nie mogą sprawdzić wszystkich aspektów dostępności. Wymagany jest ludzki osąd. Czasami narzędzia oceny mogą dawać fałszywe lub wprowadzające w błąd wyniki. Narzędzia oceny dostępności stron internetowych nie mogą jednoznacznie ocenić dostępności, mogą jedynie w tym pomóc.
-
+Narzędzia nie mogą automatycznie sprawdzać wszystkich aspektów dostępności. Wymagany jest ludzki osąd. Czasami narzędzia oceny mogą dawać fałszywe lub wprowadzające w błąd wyniki. Narzędzia oceny dostępności stron internetowych nie mogą jednoznacznie *ocenić* dostępności, mogą jedynie w tym *pomóc*.
 
 
 ## Własności narzędzi oceny
 {:#features}
 
-Narzędzia oceny dostępności cyfrowej są skierowane do różnych odbiorców. Korzystają z nich projektanci, programiści, nietechniczni autorzy treści, testerzy jakości, a czasem także użytkownicy. Narzędzia oferują różne możliwości i funkcje, które użytkowniy mogą porównać i ocenić, aby dobrać narzędzia pod kątem swoich konkretnych potrzeb.
-
+Narzędzia oceny dostępności cyfrowej są skierowane do różnych odbiorców. Korzystają z nich projektanci, programiści, nietechniczni autorzy treści, testerzy jakości, a czasem także końcowi użytkownicy. Narzędzia oferują różne możliwości i funkcje, które użytkownicy mogą porównać i ocenić, aby dobrać narzędzia pod kątem swoich konkretnych potrzeb.
 
 
 ### Główne zastosowania
