@@ -1,10 +1,10 @@
 [build]
 # with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml'"
-command = "git submodule update --init --remote && npm install && bundle exec jekyll build --trace --config '_config.yml,_config_staging.yml'"
+command = "git submodule update --init --remote && npm install && bundle exec jekyll build --profile --trace --config '_config.yml,_config_staging.yml'"
 publish = "_site"
 
 [build.environment]
-RUBY_VERSION = "2.6.2"
+RUBY_VERSION = "3.3.3"
 
 [[redirects]]
 from = "/wai-website"

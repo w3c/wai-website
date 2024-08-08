@@ -87,11 +87,6 @@ searching for past messages and getting a feel for the list.
 the e-mail address to send an e-mail message, which is in the next
 section.
 
-To subscribe to the email **digest** with compiled messages, send e-mail
-to <w3c-wai-ig-d-request@w3.org> with "subscribe" as the subject. To
-unsubscribe from the digest, send e-mail to
-<w3c-wai-ig-d-request@w3.org> with "unsubscribe" as the subject.
-
 ### Sending Messages to the Discussion List
 
 To send a message to the list, first subscribe to the list (instructions
