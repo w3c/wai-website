@@ -253,7 +253,7 @@ Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, ag
     <figure class="hover">
       <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya ketika disoroti tetikus</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya dengan latar belakang yang halus untuk menyorot saat disoroti" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">navigasi dengan kibor</a><img src="/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya dengan latar belakang yang halus untuk menyorot saat disoroti" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">navigasi dengan kibor</a><img src="/WAI/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
@@ -265,7 +265,7 @@ Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, ag
     <figure class="active">
       <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya ketika diklik atau disentuh</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya yang kuat untuk menunjukkan bahwa suatu tindakan akan terjadi" style="background: #850BAC; color: #f4f4f4">navigasi dengan kibor</a><img src="/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya yang kuat untuk menunjukkan bahwa suatu tindakan akan terjadi" style="background: #850BAC; color: #f4f4f4">navigasi dengan kibor</a><img src="/WAI/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
   </div>

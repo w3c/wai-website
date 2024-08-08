@@ -252,7 +252,7 @@ Fournissez des styles distinctifs pour les éléments interactifs, tels que les 
     <figure class="hover">
       <figcaption>{% include_cached icon.html name="check-circle" label="Bonne pratique" %} Style au survol de la souris</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Le lien est stylisé avec un arrière-plan subtil pour mettre en évidence l’état de survol" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">clavier pour naviguer</a><img src="/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Le lien est stylisé avec un arrière-plan subtil pour mettre en évidence l’état de survol" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">clavier pour naviguer</a><img src="/WAI/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
@@ -264,7 +264,7 @@ Fournissez des styles distinctifs pour les éléments interactifs, tels que les 
     <figure class="active">
       <figcaption>{% include_cached icon.html name="check-circle" label="Bonne pratique" %} Style au clic ou au contact tactile</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Le lien a un style prononcé pour montrer qu’une action va se produire" style="background: #850BAC; color: #f4f4f4">clavier pour naviguer</a><img src="/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Le lien a un style prononcé pour montrer qu’une action va se produire" style="background: #850BAC; color: #f4f4f4">clavier pour naviguer</a><img src="/WAI/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
   </div>
