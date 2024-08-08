@@ -124,7 +124,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
     <td>Wiele dokumentów ze słowem Narzędzia przewija się w dół do ikony filtra, z którego wychodzą tylko dwa dokumenty.</td>
   </tr>
   <tr>
-    <td>Z narzędziami i wiedzą, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
+    <td>Z narzędziami i wiedzą, jak z nich korzystać, masz dobrą podstawę, aby skutecznie znajdować problemy z dostępnością.</td>
     <td>Osoba, przy niej ikony narzędzi i żarówki. Ikony łączą się ze sobą, tworząc lupę ze słowem „bariery”.</td>
   </tr>
   <tr>
@@ -139,3 +139,4 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
 </table>
 
 {% include excol.html type="end" %}
+
