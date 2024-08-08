@@ -59,7 +59,7 @@ Narzędzia oceny dostępności cyfrowej to programy lub usługi internetowe, kt�
     video-id="tools-for-evaluating"
 %}
 
-_Ten film jest również dostępny na serwerze W3C: [Wideo: Omówienie narzędzi oceny (format pliku: MP4, rozmiar pliku: 51MB)](https://media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4)._
+_Ten film jest również dostępny na serwerze W3C: [Wideo: Omówienie narzędzi oceny (format pliku: MP4, rozmiar pliku: 51MB](https://media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4)._
 
 
 {% include excol.html type="start" id="video-intro-transcript" %}
@@ -101,7 +101,7 @@ Transkrypcja oraz opis wizualnej strony filmu
   </tr>
   <tr>
     <td>Niektóre narzędzia sprawdzają tylko jedną stronę na raz, inne mogą sprawdzać całe witryny.</td>
-    <td>Wyświetlane są znaczniki niepowodzenia, powodzenia i ostrzeżenia.
+    <td>Strona internetowa i witryna internetowa są skanowane. Wyświetlane są znaczniki niepowodzenia, powodzenia i ostrzeżenia.
 	
 	</td>
   </tr>
@@ -138,7 +138,7 @@ Transkrypcja oraz opis wizualnej strony filmu
     <td>Wokół komputera układają się ikony: ręki, oka, mózgu, ucha i ust z falą dźwiękową.</td>
   </tr>
   <tr>
-    <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę <a href="https://www.w3.org/WAI/evaluation">w3.org/WAI/evaluation</a>.</td>
+    <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę w3.o-r-g/W-A-I/evaluation.</td>
     <td>Narzędzia oceny, logo W3C i Inicjatywy na Rzecz Dostępności Internetu (WAI).</td>
   </tr>
 </tbody>
@@ -188,7 +188,7 @@ Poniższe własności opisują narzędzia znajdujące się na [[Liście narzędz
 **System operacyjny**
 : Niektóre narzędzia działają tylko w określonych systemach operacyjnych, takich jak Windows, MacOS, Linux, Android, iOS.
 
-**Przeglądarki z wtyczkami**
+**Wtyczki przeglądarek**
 : Niekiedy narzędzia działają tylko w określonych przeglądarkach, takich jak Chrome, Edge, Safari, Firefox itp.
 
 **Deklaracja dostępności**
