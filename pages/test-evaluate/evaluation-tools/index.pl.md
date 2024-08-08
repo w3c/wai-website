@@ -4,14 +4,13 @@
 
 title: Omówienie narzędzi oceny
 lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-27  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-08-08  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Stefan Wajda" # Add one -name: line for every translator
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+
+contributors:
+- name: "Michał Sobkowiak"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
@@ -63,7 +62,7 @@ _Ten film jest również dostępny na serwerze W3C: Film: Omówienie narzędzi o
 
 Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ekranu. Ludzie są przedstawieni za pomocą symboli graficznych.
 
-<table aria-labelledby="transcript">
+<table>
   <thead>
     <tr>
       <th width="50%">Dźwięk</th>
@@ -77,7 +76,9 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Istnieją programy i usługi internetowe, które pomogą Ci rozpoznać problemy z dostępnością.</td>
-    <td>Otwiera się skrzynka narzędziowa przy komputerze. Ze skrzynki wychodzi lupa, aby sprawdzić stronę internetową na komputerze. Lupa powiększa słowo „dostępność”.</td>
+    <td>Otwiera się skrzynka narzędziowa przy komputerze. Pojawia się szkło powiększające ze słowem „dostępność”, aby sprawdzić stronę internetową na komputerze.
+	
+	</td>
   </tr>
   <tr>
     <td>Mogą one zaoszczędzić wiele czasu i wysiłku podczas oceny oraz zapobiec powstawaniu nowych barier dostępności.</td>
@@ -85,7 +86,8 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Jednak narzędzia nie mogą zrobić wszystkiego. Niektórych testów dostępności po prostu nie można zautomatyzować i muszą być przeprowadzone ręcznie.</td>
-    <td>Osoba obok komputera ze stroną internetową używa lupy ze słowem „dostępność”.</td>
+    <td>Osoba obok komputera ze stroną internetową używa lupy ze słowem „dostępność”.
+	</td>
   </tr>
   <tr>
     <td>Niektóre narzędzia poprowadzą Cię przez te testy, których nie można zautomatyzować.</td>
@@ -93,7 +95,9 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Niektóre narzędzia sprawdzają tylko jedną stronę na raz, inne mogą sprawdzać całe witryny.</td>
-    <td>Strona w witrynie internetowej jest skanowana. Nad elementami strony pojawia się kolejno znak błędu, powodzenia i znak zapytania.</td>
+    <td>Wyświetlane są znaczniki niepowodzenia, powodzenia i ostrzeżenia.
+	
+	</td>
   </tr>
   <tr>
     <td>Narzędzia można integrować z różnymi środowiskami pracy. Na przykład z przeglądarką internetową, systemem zarządzania treścią (C-M-S) oraz w narzędziach programistycznych i wdrożeniowych.</td>
@@ -101,36 +105,37 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Wspierają różne role w zespole projektowym, takie jak autorów treści, twórców kodu, projektantów oraz właścicieli produktów.</td>
-    <td>Ikona narzędzi jest otoczona czterema ikonami: długopisu, kodu, pędzla i osoby z kluczem.</td>
+    <td>Ikona narzędzi jest otoczona ikonami: długopisu, kodu, pędzla i osoby z kluczem.</td>
   </tr>
   <tr>
     <td>Trzeba pamiętać, że w niektórych przypadkach narzędzia mogą dawać nieprawidłowe wyniki.</td>
-    <td>Lupa powiększająca znak ostrzegawczy z wykrzyknikiem. Wyświetlanych jest wiele lup. </td>
+    <td>Lupa powiększa trójkątny znak z wykrzyknikiem. Wyświetlanych jest wiele lup. </td>
   </tr>
   <tr>
-    <td>Dlatego nie polegaj nadmiernie na tym, co mówią narzędzia w stosunku do tego jakie są rzeczywiste doświadczenia osób korzystających z Twojej witryny.</td>
-    <td>Na ekranie 12 pól, w każdym z nich inna osoba przed komputerem.</td>
+    <td>Dlatego nie polegaj nadmiernie na tym, co mówią narzędzia w stosunku do tego, jakie są rzeczywiste doświadczenia osób korzystających z Twojej witryny.</td>
+    <td>Ekran dzieli się na 12 pól, w każdym inna osoba przed komputerem.</td>
   </tr>
   <tr>
     <td>„Wybór narzędzi oceny dostępności cyfrowej” wyjaśnia, co narzędzia mogą, a czego nie mogą zrobić, oraz na co zwrócić uwagę, aby znaleźć narzędzia spełniające Twoje potrzeby.</td>
-    <td>Wybór narzędzi oceny dostępności cyfrowej. Pojawia się ikona zestawu narzędzi, następnie drogowskaz i ikona lornetki.</td>
+    <td>Wybór narzędzi oceny dostępności cyfrowej. Pojawia się ikona skrzynki narzędziowe, następnie drogowskazu i lornetki.</td>
   </tr>
   <tr>
     <td>„Lista narzędzi oceny dostępności cyfrowej” zawiera filtry, które pomogą Ci znaleźć odpowiednie narzędzie dla Twojej konkretnej sytuacji.</td>
-    <td>Lista dokumentów z rozwijanym polem wyboru i ikoną filtra, pozostają tylko dwa dokumenty.</td>
+    <td>Wiele dokumentów ze słowem Narzędzia przewija się w dół do ikony filtra, z którego wychodzą tylko dwa dokumenty.</td>
   </tr>
   <tr>
     <td>Z narzędziami i wiedzą, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
-    <td>Osoba,przy niej ikony narzędzi i żarówki. Ikony łączą się ze sobą, tworząc szkło powiększające ze słowem „bariery”.</td>
+    <td>Osoba, przy niej ikony narzędzi i żarówki. Ikony łączą się ze sobą, tworząc lupę ze słowem „bariery”.</td>
   </tr>
   <tr>
     <td>Dostępność internetowa: niezbędna dla niektórych, przydatna dla wszystkich.</td>
     <td>Wokół komputera układają się ikony: ręki, oka, mózgu, ucha i ust z falą dźwiękową.</td>
   </tr>
   <tr>
-    <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę w3.o-r-g/W-A-I/evaluation.</td>
+    <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę <a href="https://www.w3.org/WAI/evaluation">w3.org/WAI/evaluation</a>.</td>
     <td>Narzędzia oceny, logo W3C i Inicjatywy na Rzecz Dostępności Internetu (WAI).</td>
   </tr>
 </tbody>
 </table>
+
 {% include excol.html type="end" %}
