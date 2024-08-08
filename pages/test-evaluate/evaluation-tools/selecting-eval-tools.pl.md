@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 title: Wybór narzędzi oceny dostępności cyfrowej
 lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-27  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Stefan Wajda" # Add one -name: line for every translator
@@ -82,7 +82,9 @@ Transkrypcja oraz opis wizualnej strony filmu
   </tr>
   <tr>
     <td>Istnieją programy i usługi internetowe, które pomogą Ci rozpoznać problemy z dostępnością.</td>
-    <td>Otwiera się skrzynka narzędziowa przy komputerze. Ze skrzynki wychodzi lupa, aby sprawdzić stronę internetową na komputerze. Lupa powiększa słowo „dostępność”.</td>
+    <td>Otwiera się skrzynka narzędziowa przy komputerze. Pojawia się szkło powiększające ze słowem „dostępność”, aby sprawdzić stronę internetową na komputerze.
+	
+	</td>
   </tr>
   <tr>
     <td>Mogą one zaoszczędzić wiele czasu i wysiłku podczas oceny oraz zapobiec powstawaniu nowych barier dostępności.</td>
@@ -90,7 +92,8 @@ Transkrypcja oraz opis wizualnej strony filmu
   </tr>
   <tr>
     <td>Jednak narzędzia nie mogą zrobić wszystkiego. Niektórych testów dostępności po prostu nie można zautomatyzować i muszą być przeprowadzone ręcznie.</td>
-    <td>Osoba obok komputera ze stroną internetową używa lupy ze słowem „dostępność”.</td>
+    <td>Osoba obok komputera ze stroną internetową używa lupy ze słowem „dostępność”.
+	</td>
   </tr>
   <tr>
     <td>Niektóre narzędzia poprowadzą Cię przez te testy, których nie można zautomatyzować.</td>
@@ -98,7 +101,9 @@ Transkrypcja oraz opis wizualnej strony filmu
   </tr>
   <tr>
     <td>Niektóre narzędzia sprawdzają tylko jedną stronę na raz, inne mogą sprawdzać całe witryny.</td>
-    <td>Strona w witrynie internetowej jest skanowana. Nad elementami strony pojawia się kolejno znak błędu, powodzenia i znak zapytania.</td>
+    <td>Wyświetlane są znaczniki niepowodzenia, powodzenia i ostrzeżenia.
+	
+	</td>
   </tr>
   <tr>
     <td>Narzędzia można integrować z różnymi środowiskami pracy. Na przykład z przeglądarką internetową, systemem zarządzania treścią (C-M-S) oraz w narzędziach programistycznych i wdrożeniowych.</td>
@@ -106,34 +111,34 @@ Transkrypcja oraz opis wizualnej strony filmu
   </tr>
   <tr>
     <td>Wspierają różne role w zespole projektowym, takie jak autorów treści, twórców kodu, projektantów oraz właścicieli produktów.</td>
-    <td>Ikona narzędzi jest otoczona czterema ikonami: długopisu, kodu, pędzla i osoby z kluczem.</td>
+    <td>Ikona narzędzi jest otoczona ikonami: długopisu, kodu, pędzla i osoby z kluczem.</td>
   </tr>
   <tr>
     <td>Trzeba pamiętać, że w niektórych przypadkach narzędzia mogą dawać nieprawidłowe wyniki.</td>
-    <td>Lupa powiększająca znak ostrzegawczy z wykrzyknikiem. Wyświetlanych jest wiele lup. </td>
+    <td>Lupa powiększa trójkątny znak z wykrzyknikiem. Wyświetlanych jest wiele lup. </td>
   </tr>
   <tr>
     <td>Dlatego nie polegaj nadmiernie na tym, co mówią narzędzia w stosunku do tego, jakie są rzeczywiste doświadczenia osób korzystających z Twojej witryny.</td>
-    <td>Na ekranie 12 pól, w każdym z nich inna osoba przed komputerem.</td>
+    <td>Ekran dzieli się na 12 pól, w każdym inna osoba przed komputerem.</td>
   </tr>
   <tr>
     <td>„Wybór narzędzi oceny dostępności cyfrowej” wyjaśnia, co narzędzia mogą, a czego nie mogą zrobić, oraz na co zwrócić uwagę, aby znaleźć narzędzia spełniające Twoje potrzeby.</td>
-    <td>Wybór narzędzi oceny dostępności cyfrowej. Pojawia się ikona zestawu narzędzi, następnie drogowskaz i ikona lornetki.</td>
+    <td>Wybór narzędzi oceny dostępności cyfrowej. Pojawia się ikona skrzynki narzędziowe, następnie drogowskazu i lornetki.</td>
   </tr>
   <tr>
     <td>„Lista narzędzi oceny dostępności cyfrowej” zawiera filtry, które pomogą Ci znaleźć odpowiednie narzędzie dla Twojej konkretnej sytuacji.</td>
-    <td>Lista dokumentów z rozwijanym polem wyboru i ikoną filtra, pozostają tylko dwa dokumenty.</td>
+    <td>Wiele dokumentów ze słowem Narzędzia przewija się w dół do ikony filtra, z którego wychodzą tylko dwa dokumenty.</td>
   </tr>
   <tr>
     <td>Z narzędziami i wiedzą, jak z nich prawidłowo korzystać, masz wszystko, czego potrzebujesz, aby skuteczniej znajdować problemy z dostępnością.</td>
-    <td>Osoba,przy niej ikony narzędzi i żarówki. Ikony łączą się ze sobą, tworząc szkło powiększające ze słowem „bariery”.</td>
+    <td>Osoba, przy niej ikony narzędzi i żarówki. Ikony łączą się ze sobą, tworząc lupę ze słowem „bariery”.</td>
   </tr>
   <tr>
     <td>Dostępność internetowa: niezbędna dla niektórych, przydatna dla wszystkich.</td>
     <td>Wokół komputera układają się ikony: ręki, oka, mózgu, ucha i ust z falą dźwiękową.</td>
   </tr>
   <tr>
-    <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę w3.o-r-g/W-A-I/evaluation.</td>
+    <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę <a href="https://www.w3.org/WAI/evaluation">w3.org/WAI/evaluation</a>.</td>
     <td>Narzędzia oceny, logo W3C i Inicjatywy na Rzecz Dostępności Internetu (WAI).</td>
   </tr>
 </tbody>
@@ -170,7 +175,7 @@ Poniższe własności opisują narzędzia znajdujące się na [[Liście narzędz
 **Płatne lub bezpłatne**
 : Narzędzia oceny są dostępne w ramach różnych typów licencji, takich jak licencja Open Source, komercyjna, korporacyjna itp. Niektóre narzędzia są płatne, inne darmowe.
 
-**Zasada działania**
+**Typ narzędzia**
 : Narzędziami oceny mogą być wtyczki (rozszerzenia) do narzędzi autorskich i przeglądarek internetowych, narzędzia wiersza poleceń, aplikacje komputerowe lub mobilne oraz usługi internetowe. W zależności od procesu projektowania i tworzenia można łączyć różne narzędzia.
 
 **Standardy**
@@ -185,26 +190,26 @@ Poniższe własności opisują narzędzia znajdujące się na [[Liście narzędz
 **System operacyjny**
 : Niektóre narzędzia działają tylko w określonych systemach operacyjnych, takich jak Windows, MacOS, Linux, Android, iOS.
 
-**Przeglądarka**
+**Przeglądarki z wtyczkami**
 : Niekiedy narzędzia działają tylko w określonych przeglądarkach, takich jak Chrome, Edge, Safari, Firefox itp.
 
 **Deklaracja dostępności**
 : Ważne jest, aby narzędzia oceny były dostępne, aby mogły z nich korzystać osoby z niepełnosprawnościami. Niektórzy dostawcy podają informacje na temat dostępności swoich narzędzi w deklaracji dostępności.
 
 **Zasady ACT**
-: Dostawcy narzędzi mogą opisać, czy i w jaki sposób ich narzędzia obsługują zasady testowania zgodności dostępności. Jeżeli istnieje raport dotyczący wdrożenia zasad, w sekcji szczegółów narzędzia na Liście narzędzi oceny dostępności cyfrowej będzie podane łącze do raportu. Więcej informacji można znaleźć w artykule [[Wdrażanie zasad ACT w narzędziach i metodologiach oceny]](https://www.w3.org/WAI/standards-guidelines/act/implementations/).
+: Dostawcy narzędzi mogą opisać, czy i w jaki sposób ich narzędzia obsługują zasady testowania zgodności dostępności. Jeżeli istnieje raport dotyczący wdrożenia zasad, w sekcji szczegółów narzędzia na Liście narzędzi oceny dostępności cyfrowej będzie podane łącze do raportu. Więcej informacji można znaleźć w artykule [Wdrażanie zasad ACT w narzędziach i metodologiach oceny](https://www.w3.org/WAI/standards-guidelines/act/implementations/).
 
 **Język**
 : Narzędzia oceny obsługują różne języki. Obejmuje to interfejs użytkownika narzędzia, a także język obsługiwanych treści (na przykład w celu wykrycia barier językowych).
 
 **Wsparcie dla**
-: Niektóre narzędzia oceny dostępności cyfrowej mogą wygenerować pełny raport dostępności. Możesz filtrować, aby znaleźć narzędzia, które mogą Ci pomóc:
+: Niektóre narzędzia oceny dostępności stron internetowych mogą (pomóc) wygenerować kompletny raport dostępności. Możesz filtrować, aby znaleźć narzędzia, które mogą Ci pomóc:
 
-  - *Wygenerować raport z wynikami oceny:* Raporty są przydatne do określenia zgodności z kryteriami, które można sprawdzić automatycznie i ręcznie. Może to również obejmować ocenę dostępności.
+  * *Wygenerować raport z wynikami oceny:* Raporty są przydatne do określenia zgodności z kryteriami, które można sprawdzić automatycznie i ręcznie. Może to również obejmować ocenę dostępności.
 
-  - *Wyświetlać informacje w ramach stron internetowych:* Oznacza to, że narzędzie może wstawiać tymczasowe ikony i znaczniki, aby wyświetlić wyniki testów dostępności. Dzięki temu można zobaczyć wyniki testu w kontekście dokumentu. Są one również przydatne do zrozumienia względnego znaczenia każdego problemu.
-  
-  - *Zmienić prezentację na stronie:* Narzędzia do transformacji mogą modyfikować sposób prezentacji treści, aby pomóc rozpoznać problemy projektowe. Narzędzie może na przykład wyświetlić witrynę wyłącznie w formie tekstowej lub bez koloru. Takie narzędzia są przydatne do zniwelowania ograniczeń testów automatycznych.
+  * *Wyświetlać informacje w ramach stron internetowych:* Oznacza to, że narzędzie może wstawiać tymczasowe ikony i znaczniki, aby wyświetlić wyniki testów dostępności. Dzięki temu można zobaczyć problemy w kontekście dokumentu. Są one również przydatne do zrozumienia względnego znaczenia każdego problemu.
+
+  * *Zmienić prezentację na stronie:* Narzędzia do transformacji mogą modyfikować sposób prezentacji treści, aby pomóc rozpoznać problemy projektowe. Narzędzie może na przykład wyświetlić witrynę wyłącznie w formie tekstowej lub bez koloru. Takie narzędzia są przydatne do zniwelowania ograniczeń testów automatycznych.
 
 ## Dalsze rozważania
 {: #further}
