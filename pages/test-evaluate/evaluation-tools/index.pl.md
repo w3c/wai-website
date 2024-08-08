@@ -56,7 +56,7 @@ Powiązane materiały przedstawiono w: [[Omówienie oceniania dostępności inte
 
 {% include excol.html type="middle" %}
 
-_Ten film jest również dostępny na serwerze W3C: Film: Omówienie narzędzi oceny (format pliku: MP4, rozmiar pliku: 51MB MB)](https://media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4)._
+_Ten film jest również dostępny na serwerze W3C: [Wideo: Omówienie narzędzi oceny (format pliku: MP4, rozmiar pliku: 51MB MB)](https://media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4)._
 
 ###  Transkrypcja tekstowa z opisem elementów wizualnych dla filmu Wybór i stosowanie narzędzi oceny {#transcript}
 
@@ -95,7 +95,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
   </tr>
   <tr>
     <td>Niektóre narzędzia sprawdzają tylko jedną stronę na raz, inne mogą sprawdzać całe witryny.</td>
-    <td>Wyświetlane są znaczniki niepowodzenia, powodzenia i ostrzeżenia.
+    <td>Strona internetowa i witryna internetowa są skanowane. Wyświetlane są znaczniki niepowodzenia, powodzenia i ostrzeżenia.
 	
 	</td>
   </tr>
@@ -132,7 +132,7 @@ Filmy zawierają podstawową animację ilustrującą to, co mówi głos spoza ek
     <td>Wokół komputera układają się ikony: ręki, oka, mózgu, ucha i ust z falą dźwiękową.</td>
   </tr>
   <tr>
-    <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę <a href="https://www.w3.org/WAI/evaluation">w3.org/WAI/evaluation</a>.</td>
+    <td>Aby uzyskać więcej informacji o narzędziach oceny dostępności, odwiedź stronę w3.o-r-g/W-A-I/evaluation.</td>
     <td>Narzędzia oceny, logo W3C i Inicjatywy na Rzecz Dostępności Internetu (WAI).</td>
   </tr>
 </tbody>
