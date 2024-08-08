@@ -256,11 +256,13 @@ for example:
 -   Ensure informed consent and other research ethics. For example, tell participants in studies that they are free to stop at any time.
 -   Treat people with disabilities and older users with the respect you would any other users. For example, respect their time and provide appropriate compensation.
 
-There are resources on the web that provide detailed guidance on working
-with users; for example, [Interacting with People with
-Disabilities](http://uiaccess.com/accessucd/interact.html),
-[Assistive Technology and Location](http://www.uiaccess.com/accessucd/involve.html#atloc),
-and [The RESPECT Code of Practice](http://www.respectproject.org/code/charm.php?id=).
+There are resources on the web that provide detailed guidance on working with users. For example:
+* [The RESPECT Code of Practice](http://www.respectproject.org/code/charm.php?id=)
+* [Interacting with People with Disabilities](http://uiaccess.com/accessucd/interact.html), [Assistive Technology and Location](http://www.uiaccess.com/accessucd/involve.html#atloc)
+* Specific considerations for users with cognitive and learning disabilities, including sample consent forms:
+  * [Easy Reading Downloads](https://www.easyreading.eu/downloas/)
+  * [Methodology - Ethical issues and consent (doc)](https://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/2019Nov/att-0026/Ethical_issues_and_consent.docx)
+  * [Methodological Approach for Focus Groups and Usability Testing with People Living with Dementia (doc)](https://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/2019Nov/att-0026/METHODOLOGICAL_APPROACH_FOR_FOCUS_GROUPS__AND_USABILITY_TESTING_WITH_PEOPLE_LIVING_WITH_DEMENTIA.docx)
 
 Combine User Involvement with Standards
 ------------------------------------------------
