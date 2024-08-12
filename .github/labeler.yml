@@ -1,5 +1,7 @@
 accessible-events:
   - wai-accessible-events
+accessibility-principles:
+  - wai-accessibility-principles
 accessibility-training:
   - wai-accessibility-training
 audiences:
