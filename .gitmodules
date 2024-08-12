@@ -10,10 +10,6 @@
 	path = _external/resources/wai-intro-accessibility
 	url = https://github.com/w3c/wai-intro-accessibility.git
 	branch = gh-pages
-[submodule "_external/resources/wai-accessibility-principles"]
-	path = _external/resources/wai-accessibility-principles
-	url = https://github.com/w3c/wai-accessibility-principles.git
-	branch = master
 [submodule "_external/resources/wai-perspective-videos"]
 	path = _external/resources/wai-perspective-videos
 	url = https://github.com/w3c/wai-perspective-videos.git
