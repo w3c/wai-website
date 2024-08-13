@@ -29,8 +29,8 @@ navigation:
   next: /people-use-web/user-stories/story-one/
 
 image: /content-images/people-use-web/social.png
-changelog: /people-use-web/changelog/
-acknowledgements: /people-use-web/acknowledgements/
+changelog: /people-use-web/changelog/ # Do not change this
+acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 
 # In the footer below:
 # Do not change the dates
@@ -41,7 +41,7 @@ footer: >
   <!--<p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>-->
   <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {% include_cached blockquote.html class="pull alt-2" content="<p>Accessibility: It's about people</p>" %}
@@ -73,4 +73,4 @@ These other resources provide more detailed information regarding user needs wit
 
 * [Accessibility Requirements for People with Low Vision - User Needs](https://www.w3.org/TR/low-vision-needs/#user-needs)
 * [Making Content Usable for People with Cognitive and Learning Disabilities - Use Cases/Personas](https://www.w3.org/TR/coga-usable/#persona)
-* [Media Accessibility User Requirements](http://w3c.github.io/apa/media-accessibility-reqs/) - includes a summary of media requirements by type of disability and assistive technologies to support media access.
+* [Media Accessibility User Requirements](https//w3c.github.io/apa/media-accessibility-reqs/) - includes a summary of media requirements by type of disability and assistive technologies to support media access.
