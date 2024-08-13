@@ -6,14 +6,6 @@
 	path = _external/resources/wai-policies-prototype
 	url = https://github.com/w3c/wai-policies-prototype.git
 	branch = master
-[submodule "_external/resources/wai-intro-accessibility"]
-	path = _external/resources/wai-intro-accessibility
-	url = https://github.com/w3c/wai-intro-accessibility.git
-	branch = gh-pages
-[submodule "_external/resources/wai-perspective-videos"]
-	path = _external/resources/wai-perspective-videos
-	url = https://github.com/w3c/wai-perspective-videos.git
-	branch = master
 [submodule "_external/resources/wai-easy-checks"]
 	path = _external/resources/wai-easy-checks
 	url = https://github.com/w3c/wai-easy-checks.git

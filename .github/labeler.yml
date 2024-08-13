@@ -64,6 +64,8 @@ org-policies:
   - wai-org-policies
 people-use-web:
   - wai-people-use-web
+perspective-videos:
+  - wai-perspective-videos
 planning-managing:
   - wai-planning-managing
 planning-policies:
