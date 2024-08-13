@@ -2,7 +2,7 @@
 title: "Step-by-Step Guide to Translating WAI Resources"
 nav_title: Translating WAI Resources
 lang: en
-last_updated: 2024-05-27
+last_updated: 2024-08-13
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
 permalink: /about/translating/resources/
@@ -14,7 +14,7 @@ image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 
 footer: |
-  <p><strong>Date:</strong> Updated 27 May 2024.</p>
+  <p><strong>Date:</strong> Updated 13 August 2024.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin.</p>
   <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
@@ -101,9 +101,13 @@ You are welcome to translate any current WAI resource that you think would be us
 
 The easiest way to find a resource to translate is to head over to the dedicated [translations sitemap for your language](/about/translating/sitemaps/).
 
-Translations sitemaps display the structure of WAI website, and indicate for each page:
-- If a translation in this language has been published, and its current status ({% include_cached icon.html name="check-circle" %} Up-to-date or {% include_cached icon.html name="warning" %} Needs update);
-- If a page has no translation available in this language, and therefore welcomes a volunteer translation.
+### We welcome new subtitles!
+
+If you do not have the time to translate a resource, how about adding new subtitles to our videos?
+
+[Video Introduction](/videos/standards-and-benefits/), [Perspective Videos](/perspective-videos/), [Stories of Web Users](/people-use-web/user-stories/), etc. We have many videos to choose from.
+
+You are very welcome to [create new subtitles](/about/translating/resources/subtitles/) in your language, even if you do not intend to translate the page content.
 
 {% include excol.html type="end" %}
 
