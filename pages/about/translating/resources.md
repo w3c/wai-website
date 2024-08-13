@@ -91,6 +91,8 @@ If you are unsure how to proceed and need guidance; or if you are not comfortabl
 
 {% include excol.html type="middle" %}
 
+
+
 ### Have a look at our priorities
 
 For suggestions on which to translate first, see [Priorities for Translations](#priorities).
@@ -100,10 +102,6 @@ For suggestions on which to translate first, see [Priorities for Translations](#
 You are welcome to translate any current WAI resource that you think would be useful in your language.
 
 The easiest way to find a resource to translate is to head over to the dedicated [translations sitemap for your language](/about/translating/sitemaps/).
-
-Translations sitemaps display the structure of WAI website, and indicate for each page:
-- If a translation in this language has been published, and its current status ({% include_cached icon.html name="check-circle" %} Up-to-date or {% include_cached icon.html name="warning" %} Needs update);
-- If a page has no translation available in this language, and therefore welcomes a volunteer translation.
 
 {% include excol.html type="end" %}
 
