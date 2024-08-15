@@ -65,5 +65,6 @@ For more information on the WAI-Core Project and other WAI work, see [Getting In
 The following W3C staff are supported in part by WAI-Core funds:
 
 *   [Shawn Lawton Henry](http://www.w3.org/People/Shawn/)
+*   [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro)
 *   Judy Brewer (through December 2022)
 *   Michael Cooper (through July 2023)
