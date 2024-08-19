@@ -100,9 +100,6 @@ collections:
     title: Glossary
     permalink: /:collection/:name/
     output: true
-  apg-examples:
-    output: true
-    permalink: /ARIA/apg/example-index/:path/
   translations-sitemaps:
     permalink: /about/translating/sitemaps/:name
     output: true
@@ -268,27 +265,6 @@ defaults:
         - name: About
           ref: /ARIA/apg/about/
   -
-    scope: 
-      type: "apg-examples"
-      path: "_apg-examples"
-    values:
-      layout: "standalone_resource"
-      standalone_resource_header:
-        title: "ARIA Authoring Practices Guide (APG)"
-        title-ref: /ARIA/apg/
-        subtitle: "How to build accessibility semantics into web patterns and widgets"
-      standalone_resource_nav_links:
-        - name: APG Home
-          ref: /ARIA/apg/
-        - name: Patterns
-          ref: /ARIA/apg/patterns/
-        - name: Practices
-          ref: /ARIA/apg/practices/
-        - name: Index
-          ref: /ARIA/apg/example-index/
-        - name: About
-          ref: /ARIA/apg/about/
-  -
     scope:
       path: "pages/wai-course-list"
     values:
@@ -333,7 +309,6 @@ tipue_search:
         "audiences",
         "objectives",
         "patterns",
-        "apg-examples",
         "translations-sitemaps"
       ]
   exclude:
