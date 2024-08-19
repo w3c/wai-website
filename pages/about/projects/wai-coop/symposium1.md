@@ -6,6 +6,8 @@ lang: en
 
 permalink: /about/projects/wai-coop/symposium1/
 ref: /about/projects/wai-coop/symposium1/
+github:
+    label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}

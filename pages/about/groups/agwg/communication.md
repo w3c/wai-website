@@ -3,6 +3,8 @@ title: Meetings and Communication
 permalink: /about/groups/agwg/communication/
 ref: /about/groups/agwg/communication/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}

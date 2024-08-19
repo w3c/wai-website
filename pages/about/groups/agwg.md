@@ -4,6 +4,8 @@ nav_title: '<span>AGWG: Accessibility Guidelines <abbr title="Working Group">WG<
 lang: en
 permalink: /about/groups/agwg/
 ref: /about/groups/agwg/
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

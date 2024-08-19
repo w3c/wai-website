@@ -8,6 +8,8 @@ last_updated: 2019-09-09   # Put the date of this translation YYYY-MM-DD (with m
 permalink: /about/projects/easy-reading/   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /about/projects/easy-reading/   # Do not change this
 feedbackmail: wai@w3.org
+github:
+  label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}

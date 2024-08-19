@@ -3,6 +3,8 @@ title: Decision Policy
 permalink: /about/groups/apawg/decision-policy/
 ref: /about/groups/apawg/decision-policy/
 lang: en
+github:
+  label: wai-groups
 ---
 
 This document explains the decision process of the Accessible Platform Architectures Working Group.

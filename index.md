@@ -95,7 +95,7 @@ inline_css: |
             <span class="title">Digital Accessibility Foundations</span>
           </h2>
         </header>
-        <img src="{{ "/content-images/wai-news/2019-12-03-w3cx-accessibility-intro.jpg" | relative_url }}" alt="">
+        <img src="{{ "/content-images/news/2019-12-03-w3cx-accessibility-intro.jpg" | relative_url }}" alt="">
         <p>The free "Introduction to Web Accessibility" online course provides the foundation you need to make your digital technology accessible. It's designed for:</p>
         <ul>
           <li>technical and non-technical learners</li>
@@ -136,7 +136,7 @@ inline_css: |
             <span class="title">Making Audio and Video Media Accessible</span>
           </h2>
         </header>
-        <img src="{{ "/content-images/wai-news/2019-09-10-making-audio-and-video-media-accessible.png" | relative_url }}" alt="">
+        <img src="{{ "/content-images/news/2019-09-10-making-audio-and-video-media-accessible.png" | relative_url }}" alt="">
         <p>This media resource helps you understand and create captions/subtitles, audio description of visual information, descriptive transcripts, and sign language for media. It introduces user experiences and benefits to organizations.</p>
         <div>
           <span class="button">Making Audio and Video Media Accessible</span>

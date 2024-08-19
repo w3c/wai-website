@@ -3,6 +3,8 @@ title: Accessibility Guidelines "Silver" Task Force Work Statement
 permalink: /about/groups/task-forces/silver/work-statement/
 ref: /about/groups/task-forces/silver/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

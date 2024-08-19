@@ -3,6 +3,8 @@ title: Participating in the Education and Outreach Working Group (EOWG)
 permalink: /about/groups/eowg/participate/
 ref: /about/groups/eowg/participate/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

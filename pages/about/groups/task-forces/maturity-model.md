@@ -3,6 +3,8 @@ title: Maturity Model Task Force of the APA WG
 permalink: /about/groups/task-forces/maturity-model/
 ref: /about/groups/task-forces/maturity-model/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

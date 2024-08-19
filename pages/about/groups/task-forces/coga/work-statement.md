@@ -3,6 +3,8 @@ title: Cognitive and Learning Disabilities Accessibility Task Force (Coga TF) Wo
 permalink: /about/groups/task-forces/coga/work-statement/
 ref: /about/groups/task-forces/coga/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}

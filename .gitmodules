@@ -2,54 +2,38 @@
 	path = _external/data
 	url = https://github.com/w3c/wai-website-data.git
 	branch = master
-[submodule "_external/resources/wai-policies-prototype"]
-	path = _external/resources/wai-policies-prototype
-	url = https://github.com/w3c/wai-policies-prototype.git
-	branch = master
-[submodule "_external/resources/wai-intro-accessibility"]
-	path = _external/resources/wai-intro-accessibility
-	url = https://github.com/w3c/wai-intro-accessibility.git
-	branch = gh-pages
-[submodule "_external/resources/wai-perspective-videos"]
-	path = _external/resources/wai-perspective-videos
-	url = https://github.com/w3c/wai-perspective-videos.git
-	branch = master
-[submodule "_external/resources/wai-easy-checks"]
-	path = _external/resources/wai-easy-checks
-	url = https://github.com/w3c/wai-easy-checks.git
-	branch = master
-[submodule "_external/resources/wai-intro-wcag"]
-	path = _external/resources/wai-intro-wcag
-	url = https://github.com/w3c/wai-intro-wcag.git
-	branch = master
-[submodule "_external/resources/wai-statements"]
-	path = _external/resources/wai-statements
-	url = https://github.com/w3c/wai-statements.git
-	branch = master
 [submodule "_external/resources/wcag-act-rules"]
 	path = _external/resources/wcag-act-rules
 	url = https://github.com/w3c/wcag-act-rules.git
 	branch = publication
-[submodule "_external/resources/wai-arrm"]
-	path = _external/resources/wai-arrm
-	url = https://github.com/w3c/wai-arrm.git
-[submodule "_external/resources/wai-wcag-supplemental"]
-	path = _external/resources/wai-wcag-supplemental
-	url = https://github.com/w3c/wai-wcag-supplemental/
-	branch = main
 [submodule "_external/resources/wai-aria-practices"]
 	path = _external/resources/wai-aria-practices
 	url = https://github.com/w3c/wai-aria-practices.git
 	branch = publication
-[submodule "_external/resources/wai-course-list"]
-	path = _external/resources/wai-course-list
-	url = https://github.com/w3c/wai-course-list.git
-	branch = master
+[submodule "_external/resources/wai-arrm"]
+	path = _external/resources/wai-arrm
+	url = https://github.com/w3c/wai-arrm.git
 [submodule "_external/resources/wai-authoring-tools-list"]
 	path = _external/resources/wai-authoring-tools-list
 	url = https://github.com/w3c/wai-authoring-tools-list.git
+	branch = master
+[submodule "_external/resources/wai-course-list"]
+	path = _external/resources/wai-course-list
+	url = https://github.com/w3c/wai-course-list.git
 	branch = master
 [submodule "_external/resources/wai-evaluation-tools-list"]
 	path = _external/resources/wai-evaluation-tools-list
 	url = https://github.com/w3c/wai-evaluation-tools-list.git
 	branch = master
+[submodule "_external/resources/wai-policies-prototype"]
+	path = _external/resources/wai-policies-prototype
+	url = https://github.com/w3c/wai-policies-prototype.git
+	branch = master
+[submodule "_external/resources/wai-statements"]
+	path = _external/resources/wai-statements
+	url = https://github.com/w3c/wai-statements.git
+	branch = master
+[submodule "_external/resources/wai-wcag-supplemental"]
+	path = _external/resources/wai-wcag-supplemental
+	url = https://github.com/w3c/wai-wcag-supplemental/
+	branch = main

@@ -7,6 +7,8 @@ permalink: /about/projects/wai-core-2015/
 ref: /about/projects/wai-core-2015/
 
 feedbackmail: wai@w3.org
+github:
+  label: wai-projects
 ---
 
 {::nomarkdown}

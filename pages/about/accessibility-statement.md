@@ -5,6 +5,9 @@ lang: en
 permalink: /about/accessibility-statement/
 ref: /about/accessibility-statement/
 
+github:
+  label: wai-about
+
 footer: >
   <p><strong>This statement was updated on 1 September 2020. It was generated using the <a href=" https://www.w3.org/WAI/planning/statements/">W3C Accessibility Statement Generator Tool</a>.</strong></p>
   <p>Contributors: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>, <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, and <a href="https://www.w3.org/People/CMercier/">Coralie Mercier</a>.</p>

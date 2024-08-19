@@ -3,7 +3,7 @@ title: Accessibility Conformance Testing (ACT) Overview
 permalink: /standards-guidelines/act/
 lang: en
 github:
-  label: wai-intro-act
+  label: wai-act-intro
 feedbackmail: wai@w3.org
 footer: >
   <p><strong>Date:</strong> Updated 30 October 2020.</p>

@@ -6,6 +6,9 @@ lang: en
 permalink: /about/participating/
 ref: /about/participating/
 
+github:
+    label: wai-about
+
 footer: >
   <p><strong>Date:</strong> Updated 29 April 2024.</p>
   <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>

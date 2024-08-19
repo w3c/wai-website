@@ -3,6 +3,8 @@ title: Research Questions Task Force (RQTF) Work Statement
 permalink: /about/groups/task-forces/research-questions/work-statement/
 ref: /about/groups/task-forces/research-questions/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

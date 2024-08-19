@@ -3,6 +3,8 @@ title: Communication
 permalink: /about/groups/apawg/communication/
 ref: /about/groups/apawg/communication/
 lang: en
+github:
+  label: wai-groups
 ---
 
 The APA Working Group uses the following tools and procedures to perform its work.

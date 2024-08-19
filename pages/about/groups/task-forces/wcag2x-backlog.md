@@ -3,6 +3,8 @@ title: WCAG 2.x Backlog Task Force of the AG WG
 permalink: /about/groups/task-forces/wcag2x-backlog/
 ref: /about/groups/task-forces/wcag2x-backlog/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

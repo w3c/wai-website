@@ -3,13 +3,16 @@ title: How to Translate WCAG 2
 nav_title: "How to Translate WCAG 2"
 lang: en
 last_updated: 2024-04-09
+description: Technical instructions on translating WCAG
 
 permalink: /about/translating/wcag/
 ref: /about/translating/wcag/
 redirect_from:
   - /about/translating/guides/wcag/
 
-description: Technical instructions on translating WCAG
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 
 feedbackmail: wai@w3.org

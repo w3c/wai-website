@@ -3,6 +3,8 @@ title: APA Project Plan
 permalink: /about/groups/apawg/deliverables/
 ref: /about/groups/apawg/deliverables/
 lang: en
+github:
+  label: wai-groups
 ---
 
 ## Updated Milestones

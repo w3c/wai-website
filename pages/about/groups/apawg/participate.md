@@ -3,6 +3,8 @@ title: APA Participation
 permalink: /about/groups/apawg/participate/
 ref: /about/groups/apawg/participate/
 lang: en
+github:
+  label: wai-groups
 ---
 
 This page explains the requirements and procedures for becoming a participant in the APA WG. See also [Participating in WAI](http://www.w3.org/WAI/participation) for broader participation options throughout the Web Accessibility Initiative (WAI). Participation enables you to influence the development of the deliverables, and you and your organization will be listed as contributors to the deliverables of the APA WG where appropriate. Participant status, however, requires a commitment on your behalf to support the work of the group.

@@ -3,6 +3,8 @@ title: ARIA Contribution
 permalink: /about/groups/ariawg/contribute/
 ref: /about/groups/ariawg/contribute/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

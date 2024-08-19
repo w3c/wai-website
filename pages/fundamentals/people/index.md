@@ -15,7 +15,7 @@ description: Videos, personas, and user stories of how people with disabilities 
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  label: wai-people
+  label: wai-people-intro
 
 permalink: /people/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /people/ # Do not change this

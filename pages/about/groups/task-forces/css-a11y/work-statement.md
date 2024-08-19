@@ -3,6 +3,8 @@ title: CSS Accessibility Task Force Work Statement
 permalink: /about/groups/task-forces/css-a11y/work-statement/
 ref: /about/groups/task-forces/css-a11y/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

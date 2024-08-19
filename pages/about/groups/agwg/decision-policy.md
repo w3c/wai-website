@@ -3,6 +3,8 @@ title: Decision Policy
 permalink: /about/groups/agwg/decision-policy/
 ref: /about/groups/agwg/decision-policy/
 lang: en
+github:
+  label: wai-groups
 ---
 
 This document explains the decision process of the [AG Working Group](https://www.w3.org/groups/wg/ag/). It was [accepted by the Working Group 15 September 2015](https://www.w3.org/2015/09/15-wai-wcag-minutes#item02). It was updated editorially 27 January 2017 to change the name of the WG to "Accessibility Guidelines Working Group" and to add links to referenced resources. [A substantive update was approved 20 November 2018](https://lists.w3.org/Archives/Public/w3c-wai-gl/2018OctDec/0095.html). [Substantive changes to support WCAG 3 work were approved 5 August 2022](https://lists.w3.org/Archives/Public/w3c-wai-gl/2022JulSep/0153.html).

@@ -10,6 +10,9 @@ ref: /about/translating/resources/subtitles/
 redirect_from:
   - /about/translating/guides/video-subtitles/
 
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 

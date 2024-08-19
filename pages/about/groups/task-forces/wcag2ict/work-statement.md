@@ -3,6 +3,8 @@ title: "WCAG2ICT Task Force Work Statement"
 permalink: /about/groups/task-forces/wcag2ict/work-statement/
 ref: /about/groups/task-forces/wcag2ict/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}

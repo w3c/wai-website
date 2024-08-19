@@ -3,6 +3,8 @@ title: ARIA Communication
 permalink: /about/groups/ariawg/communication/
 ref: /about/groups/ariawg/communication/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

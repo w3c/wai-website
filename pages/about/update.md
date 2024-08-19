@@ -7,6 +7,9 @@ description: Find out what we're doing now at the W3C Web Accessibility Initiati
 permalink: /update/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /update/   # Translators, do not change this
 
+github:
+  label: wai-about
+
 image: /content-images/wai-about-wai/update_social.png
 feedbackmail: wai@w3.org
 

@@ -7,6 +7,8 @@ last_updated: 2023-07-27
 permalink: /about/projects/wai-core-ford/
 ref: /about/projects/wai-core-ford/
 feedbackmail: wai@w3.org
+github:
+  label: wai-projects
 ---
 
 {::nomarkdown}

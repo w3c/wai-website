@@ -3,6 +3,8 @@ title: ARIA Authoring Practices Task Force Work Statement
 permalink: /about/groups/task-forces/practices/work-statement/
 ref: /about/groups/task-forces/practices/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

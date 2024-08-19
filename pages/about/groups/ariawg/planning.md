@@ -3,6 +3,8 @@ title: ARIA Project Plan
 permalink: /about/groups/ariawg/planning/
 ref: /about/groups/ariawg/planning/
 lang: en
+github:
+  label: wai-groups
 ---
 
 The [Working Group charter](https://www.w3.org/WAI/ARIA/charter#milestones) proposed initial milestones. Updates to those milestones are provided here. Deliverables with an asterisk at the beginning are considered critical to the success of the Working Group.
