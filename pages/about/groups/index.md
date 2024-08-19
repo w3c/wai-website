@@ -4,6 +4,8 @@ title: WAI Working Groups and Interest Groups
 lang: en
 permalink: /about/groups/
 ref: /about/groups/
+github:
+    label: wai-groups
 ---
 
 WAI has Working Groups developing accessibility guidelines and related

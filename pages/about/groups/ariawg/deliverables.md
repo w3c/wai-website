@@ -3,6 +3,8 @@ title: "Deliverables"
 permalink: /about/groups/ariawg/deliverables/
 ref: /about/groups/ariawg/deliverables/
 lang: en
+github:
+  label: wai-groups
 ---
 
 WAI-ARIA, the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies. The [ARIA Project Plan](project) details intended timeline and milestones for this work.

@@ -4,6 +4,8 @@ nav_title: '<span>EOWG: Education and Outreach <abbr title="Working Group">WG</a
 lang: en
 permalink: /about/groups/eowg/
 ref: /about/groups/eowg/
+github:
+    label: wai-groups
 ---
 
 {::nomarkdown}

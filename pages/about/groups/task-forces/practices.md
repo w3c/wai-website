@@ -3,6 +3,8 @@ title: ARIA Authoring Practices (APG) Task Force of the ARIA WG
 permalink: /about/groups/task-forces/practices/
 ref: /about/groups/task-forces/practices/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

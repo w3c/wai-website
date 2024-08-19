@@ -3,6 +3,8 @@ title: Group Task Forces
 lang: en
 permalink: /about/groups/task-forces/
 ref: /about/groups/task-forces/
+github:
+    label: wai-groups
 ---
 
 Task Forces operate under specific Working Groups.

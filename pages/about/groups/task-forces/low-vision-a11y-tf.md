@@ -3,6 +3,8 @@ title: Low Vision Accessibility Task Force (LVTF) of the AG WG
 permalink: /about/groups/task-forces/low-vision-a11y-tf/
 ref: /about/groups/task-forces/low-vision-a11y-tf/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

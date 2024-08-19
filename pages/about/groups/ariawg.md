@@ -4,6 +4,8 @@ nav_title: '<span>ARIA: Accessible Rich Internet Applications <abbr title="Worki
 lang: en
 permalink: /about/groups/ariawg/
 ref: /about/groups/ariawg/
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

@@ -8,6 +8,9 @@ description: Help make the Web accessible to people with disabilities around the
 permalink: /about/translating/resources/resource-specific-instructions/
 ref: /about/translating/resources/resource-specific-instructions/
 
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 

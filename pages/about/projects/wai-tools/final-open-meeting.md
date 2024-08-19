@@ -5,6 +5,8 @@ nav_title: Final Open Meeting
 lang: en
 permalink: /about/projects/wai-tools/final-open-meeting/
 ref: /about/projects/wai-tools/final-open-meeting/
+github:
+  label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right width="105px"}

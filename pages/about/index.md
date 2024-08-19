@@ -5,6 +5,8 @@ ref: /about/
 lang: en
 feedbackmail: wai@w3.org
 class: tight-page
+github:
+   label: wai-about
 footer: > # Text in footer in HTML
   <p><strong>Date:</strong> Updated 13 March 2024.</p>
 ---

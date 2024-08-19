@@ -7,6 +7,9 @@ lang: en
 permalink: /about/using-wai-material/
 ref: /about/using-wai-material/
 
+github:
+  label: wai-about
+
 footer: >
   <p><strong>Date:</strong> Updated 17 July 2024.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>

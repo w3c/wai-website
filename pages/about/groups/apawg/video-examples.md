@@ -3,6 +3,8 @@ title: APA Video Examples
 permalink: /about/groups/apawg/video-examples/
 ref: /about/groups/apawg/video-examples/
 lang: en
+github:
+  label: wai-groups
 ---
 
 The following videos highlight the work being performed in APA and within our task forces.

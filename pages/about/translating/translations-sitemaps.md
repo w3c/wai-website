@@ -8,6 +8,9 @@ description: Help make the Web accessible to people with disabilities around the
 permalink: /about/translating/sitemaps/
 ref: /about/translating/sitemaps/
 
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 feedbackmail: group-wai-translations@w3.org
 

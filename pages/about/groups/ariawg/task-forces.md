@@ -3,6 +3,8 @@ title: ARIA Task Forces
 permalink: /about/groups/ariawg/task-forces/
 ref: /about/groups/ariawg/task-forces/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}

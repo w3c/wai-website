@@ -6,6 +6,9 @@ lang: en
 permalink: /about/sponsoring/
 ref: /about/sponsoring/
 
+github:
+    label: wai-about
+
 feedbackmail: wai@w3.org
 class: tight-page
 ---

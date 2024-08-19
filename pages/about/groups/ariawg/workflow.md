@@ -3,6 +3,8 @@ title: ARIA Working Group Work Flow
 permalink: /about/groups/ariawg/workflow/
 ref: /about/groups/ariawg/workflow/
 lang: en
+github:
+  label: wai-groups
 ---
 
 ## Introduction

@@ -3,6 +3,8 @@ title: Task Forces
 permalink: /about/groups/agwg/task-forces/
 ref: /about/groups/agwg/task-forces/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}

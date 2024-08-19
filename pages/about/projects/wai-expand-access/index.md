@@ -11,6 +11,8 @@ permalink: /expand-access/   # Add the language shortcode to the end; for exampl
 ref: /expand-access/   # Do not change this
 
 feedbackmail: wai@w3.org
+github:
+  label: wai-projects
 ---
 {::nomarkdown}
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}

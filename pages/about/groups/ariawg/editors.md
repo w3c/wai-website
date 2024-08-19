@@ -3,6 +3,8 @@ title: ARIA Editors
 permalink: /about/groups/ariawg/editors/
 ref: /about/groups/ariawg/editors/
 lang: en
+github:
+  label: wai-groups
 ---
 
 Editors of specifications for the ARIA Working Group coordinate using resources detailed here.

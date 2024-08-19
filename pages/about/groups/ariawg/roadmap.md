@@ -3,6 +3,8 @@ title: ARIA Working Group Road Map
 permalink: /about/groups/ariawg/roadmap/
 ref: /about/groups/ariawg/roadmap/
 lang: en
+github:
+  label: wai-groups
 ---
 
 ## Introduction

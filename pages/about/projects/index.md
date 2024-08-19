@@ -6,6 +6,8 @@ permalink: /about/projects/
 ref: /about/projects/
 feedbackmail: wai@w3.org
 class: tight-page
+github:
+  label: wai-projects
 ---
 
 ## Current Projects

@@ -6,6 +6,9 @@ lang: en
 permalink: /about/contacting/
 ref: /about/contacting/
 
+github:
+    label: wai-about
+
 feedbackmail: wai@w3.org
 class: tight-page
 ---

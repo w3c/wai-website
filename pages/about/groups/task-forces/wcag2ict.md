@@ -3,6 +3,8 @@ title: WCAG2ICT Task Force of the AG WG
 permalink: /about/groups/task-forces/wcag2ict/
 ref: /about/groups/task-forces/wcag2ict/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

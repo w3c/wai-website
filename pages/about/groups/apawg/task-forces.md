@@ -4,6 +4,8 @@ nav_title: Task Forces
 permalink: /about/groups/apawg/task-forces/
 ref: /about/groups/apawg/task-forces/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}

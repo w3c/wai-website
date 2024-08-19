@@ -3,6 +3,8 @@ title: WAI-Adapt Task Force Work Statement
 permalink: /about/groups/task-forces/adapt/work-statement/
 ref: /about/groups/task-forces/adapt/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

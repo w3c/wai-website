@@ -3,6 +3,8 @@ title: CSS Accessibility Task Force (CSS A11Y TF) of the APA, ARIA, and CSS WGs
 permalink: /about/groups/task-forces/css-a11y/
 ref: /about/groups/task-forces/css-a11y/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}

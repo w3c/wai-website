@@ -3,7 +3,8 @@ title: Accessibility Conformance Testing (ACT) Work Statement (2024)
 permalink: /about/groups/task-forces/conformance-testing/work-statement-2024/
 ref: /about/groups/task-forces/conformance-testing/work-statement-2024/
 lang: en
-
+github:
+  label: wai-groups
 ---
 
 The [Accessibility Conformance Testing Task Force (ACT TF)](/about/groups/task-forces/conformance-testing/) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists this Working Group with the work identified below.

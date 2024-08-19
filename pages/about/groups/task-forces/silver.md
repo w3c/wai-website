@@ -3,6 +3,8 @@ title: Silver Task Force of the AG WG
 permalink: /about/groups/task-forces/silver/
 ref: /about/groups/task-forces/silver/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

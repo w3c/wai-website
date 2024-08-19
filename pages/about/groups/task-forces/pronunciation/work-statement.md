@@ -3,6 +3,8 @@ title: Spoken Presentation Task Force Work Statement
 permalink: /about/groups/task-forces/pronunciation/work-statement/
 ref: /about/groups/task-forces/pronunciation/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

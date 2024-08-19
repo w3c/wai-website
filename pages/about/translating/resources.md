@@ -10,6 +10,9 @@ ref: /about/translating/resources/
 redirect_from:
   - /about/translating/step-by-step/
 
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 

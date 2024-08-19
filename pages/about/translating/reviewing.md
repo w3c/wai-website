@@ -18,6 +18,9 @@ ref: /about/translating/review/
 redirect_from:
   - /about/translating/guides/review-translation/
 
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 

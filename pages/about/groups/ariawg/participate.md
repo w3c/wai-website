@@ -3,6 +3,8 @@ title: APA Participation
 permalink: /about/groups/ariawg/participate/
 ref: /about/groups/ariawg/participate/
 lang: en
+github:
+  label: wai-groups
 ---
 
 This page explains the requirements and procedures for becoming a participant in the ARIA WG. See also [Participating in WAI](http://www.w3.org/WAI/participation) for broader participation options throughout the Web Accessibility Initiative (WAI). Participation enables you to influence the development of the deliverables, and you and your organization will be listed as contributors to the deliverables of the ARIA WG where appropriate. Participant status, however, requires a commitment on your behalf to support the work of the group.

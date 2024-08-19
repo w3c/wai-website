@@ -3,6 +3,8 @@ title: Participating in the Accessibility Guidelines Working Group (AGWG)
 permalink: /about/groups/agwg/participate/
 ref: /about/groups/agwg/participate/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}

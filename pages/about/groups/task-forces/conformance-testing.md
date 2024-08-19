@@ -3,6 +3,8 @@ title: Accessibility Conformance Testing (ACT)
 permalink: /about/groups/task-forces/conformance-testing/
 ref: /about/groups/task-forces/conformance-testing/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

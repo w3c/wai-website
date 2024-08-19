@@ -4,6 +4,8 @@ nav_title: 'WAI IG: WAI Interest Group'
 lang: en
 permalink: /about/groups/waiig/
 ref: /about/groups/waiig/
+github:
+    label: wai-groups
 ---
 
 {::options toc_levels="2,3" /}

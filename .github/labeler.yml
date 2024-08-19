@@ -1,3 +1,5 @@
+about:
+  - wai-about
 accessible-events:
   - wai-accessible-events
 accessibility-intro:
@@ -46,6 +48,8 @@ evaluation-tools:
   - wai-evaluation-tools
 first-aid:
   - wai-first-aid
+groups:
+  - wai-groups
 inclusion:
   - wai-inclusion
 involving-users-eval:
@@ -74,6 +78,8 @@ planning-managing:
   - wai-planning-managing
 planning-policies:
   - wai-planning-policies
+projects:
+  - wai-projects
 pronunciation:
   - wai-pronunciation
 research:
@@ -94,6 +100,8 @@ teach-advocate:
   - wai-teach-advocate
 tips:
   - wai-tips
+translation-guidance:
+  - wai-translation-guidance
 tutorials:
   - wai-tutorials
 uaag-intro:

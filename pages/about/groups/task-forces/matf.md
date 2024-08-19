@@ -3,6 +3,8 @@ title: Mobile Accessibility Task Force (MATF) of the AG WG
 permalink: /about/groups/task-forces/matf/
 ref: /about/groups/task-forces/matf/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

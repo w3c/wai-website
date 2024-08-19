@@ -3,6 +3,8 @@ title: Spoken Presentation Task Force of the APA WG
 permalink: /about/groups/task-forces/pronunciation/
 ref: /about/groups/task-forces/pronunciation/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

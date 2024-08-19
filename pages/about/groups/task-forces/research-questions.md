@@ -3,6 +3,8 @@ title: Research Questions Task Force (RQTF) of the APA WG
 permalink: /about/groups/task-forces/research-questions/
 ref: /about/groups/task-forces/research-questions/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

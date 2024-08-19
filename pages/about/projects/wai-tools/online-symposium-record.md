@@ -6,6 +6,8 @@ lang: en
 permalink: /about/projects/wai-tools/symposium/record/
 ref: /about/projects/wai-tools/symposium/record/
 parent: /about/projects/wai-tools/symposium/
+github:
+  label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right style="width: 105px; margin-top:-1px;"}

@@ -3,6 +3,8 @@ title: WAI-Adapt Task Force of the APA WG
 permalink: /about/groups/task-forces/adapt/
 ref: /about/groups/task-forces/adapt/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

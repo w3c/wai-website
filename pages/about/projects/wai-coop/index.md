@@ -3,6 +3,8 @@ title: "WAI-CooP"
 lang: en
 permalink: /about/projects/wai-coop/
 ref: /about/projects/wai-coop/
+github:
+  label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}

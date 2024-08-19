@@ -4,6 +4,8 @@ nav_title: '<span>APA: Accessible Platform <abbr title="Working Group">WG</abbr>
 lang: en
 permalink: /about/groups/apawg/
 ref: /about/groups/apawg/
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}
