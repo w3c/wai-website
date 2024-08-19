@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 280">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #196cac;
+      }
+
+      .cls-4 {
+        fill: #d0e1f1;
+      }
+
+      .cls-5 {
+        fill: #bccbd3;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="59.99" y="8.19" width="387.69" height="271.81" rx="5" ry="5"/>
+  <rect class="cls-1" x=".64" width="490" height="280"/>
+  <g>
+    <rect class="cls-6" x="54.3" y="2.5" width="382.69" height="266.81" rx="2.5" ry="2.5"/>
+    <path class="cls-2" d="m434.49,5v261.81H56.8V5h377.69M434.49,0H56.8C54.05,0,51.8,2.25,51.8,5v261.81c0,2.75,2.25,5,5,5h377.69c2.75,0,5-2.25,5-5V5C439.49,2.25,437.24,0,434.49,0h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-4" x="154.28" y="196.64" width="153.92" height="12.69" rx=".96" ry=".96"/>
+    <rect class="cls-4" x="154.28" y="173.27" width="187.98" height="12.69" rx=".96" ry=".96"/>
+    <rect class="cls-4" x="154.28" y="219.64" width="199.12" height="12.69" rx=".96" ry=".96"/>
+  </g>
+  <g>
+    <rect class="cls-5" x="155.91" y="38.45" width="133.6" height="24.34"/>
+    <rect class="cls-5" x="297.6" y="38.45" width="106.5" height="24.34"/>
+    <rect class="cls-5" x="155.91" y="74.75" width="106.5" height="24.34"/>
+    <rect class="cls-5" x="273.38" y="74.75" width="84.54" height="24.34"/>
+    <rect class="cls-5" x="370.5" y="74.75" width="33.6" height="24.34"/>
+  </g>
+  <g>
+    <rect class="cls-3" x="91.62" y="28.33" width="27.83" height="66.17" rx="1" ry="1"/>
+    <rect class="cls-3" x="91.62" y="103.94" width="27.83" height="42.42" rx="1" ry="1"/>
+    <rect class="cls-3" x="91.62" y="155.81" width="27.83" height="30.2" rx="1" ry="1"/>
+    <path class="cls-3" d="m119.46,214.53v-16.92c0-.78-.63-1.42-1.42-1.42h-25c-.78,0-1.42.63-1.42,1.42v16.92c0,.78-.63,1.42-1.42,1.42h-14.84s-.03.03-.02.04l30.19,30.19,30.19-30.19s0-.04-.02-.04h-14.84c-.78,0-1.42-.63-1.42-1.42Z"/>
+  </g>
+  <rect class="cls-1" x=".64" width="490" height="280"/>
+</svg>

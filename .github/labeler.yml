@@ -22,6 +22,8 @@ customize-design:
   - wai-customize-design
 design-develop:
   - wai-design-develop
+easy-checks:
+  - wai-easy-checks
 eval-report-template:
   - wai-eval-report-template
 eval-standards:
