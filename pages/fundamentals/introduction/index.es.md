@@ -15,7 +15,7 @@ permalink: /fundamentals/accessibility-intro/es   # Add the language shortcode t
 ref: /fundamentals/accessibility-intro/   # Do not change this
 changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 github:
-    label: wai-intro-accessibility
+    label: wai-accessibility-intro
 
 # In the footer below:
 # Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.

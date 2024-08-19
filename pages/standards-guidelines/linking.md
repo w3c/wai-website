@@ -3,7 +3,7 @@ title: Referencing and Linking to WAI Guidelines and Technical Documents
 permalink: /standards-guidelines/linking/
 layout: default
 github:
-  label: wai-intro-linking
+  label: wai-linking-intro
 feedbackmail: wai@w3.org
 footer: >
   <p><strong>Date:</strong>Updated 21 March 2024. First published 11 March 2009.</p>

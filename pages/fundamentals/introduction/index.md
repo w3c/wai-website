@@ -13,7 +13,7 @@ last_updated: 2024-03-07   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  label: wai-intro-accessibility
+  label: wai-accessibility-intro
 
 permalink: /fundamentals/accessibility-intro/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/accessibility-intro/     # Do not change this

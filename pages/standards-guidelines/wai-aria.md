@@ -15,7 +15,7 @@ last_updated: 2024-01-23  # Put the date of this translation YYYY-MM-DD (with mo
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  label: wai-intro-aria
+  label: wai-aria-intro
 
 permalink: /standards-guidelines/aria/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/aria/    # Do not change this

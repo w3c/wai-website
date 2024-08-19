@@ -4,7 +4,7 @@ lang: en
 permalink: /standards-guidelines/earl/
 layout: default
 github:
-  label: wai-intro-earl
+  label: wai-earl-intro
 feedbackmail: wai@w3.org
 footer: >
   <p><strong>Date:</strong> Updated 3 July 2018. First published 23 July 2005.</p>

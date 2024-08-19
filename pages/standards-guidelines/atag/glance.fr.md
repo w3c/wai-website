@@ -14,7 +14,7 @@ contributors:
   - name: "Sandra Velarde Gonzalez (ETNIC)"
 
 github:
-  label: wai-intro-atag
+  label: wai-atag-intro
 
 permalink: /standards-guidelines/atag/glance/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/atag/glance/   # Do not change this

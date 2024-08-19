@@ -11,7 +11,7 @@ contributors:
   - name: "Rémi Bétin"
 
 github:
-  label: wai-intro-accessibility
+  label: wai-accessibility-intro
 
 permalink: /fundamentals/accessibility-intro/fr
 ref: /fundamentals/accessibility-intro/ # Do not change this

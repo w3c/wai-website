@@ -12,7 +12,7 @@ contributors:    #Add one -name: line for every contributor
     link: "https://meiert.com/de/biography/"
 
 github:
-    label: wai-intro-accessibility
+    label: wai-accessibility-intro
 
 permalink: /fundamentals/accessibility-intro/de
 ref: /fundamentals/accessibility-intro/

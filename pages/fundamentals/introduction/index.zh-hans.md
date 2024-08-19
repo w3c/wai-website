@@ -10,7 +10,7 @@ translators: #Add one -name: line for every translator
   link: "https://www.w3.org/people/roy"
 
 github:
-    label: wai-intro-accessibility
+    label: wai-accessibility-intro
 
 permalink: /fundamentals/accessibility-intro/zh-hans   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /fundamentals/accessibility-intro/   # Do not change this

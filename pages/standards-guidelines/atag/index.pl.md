@@ -14,7 +14,7 @@ contributors:
     org: "Human Thing Ltd"  
 
 github:
-  label: wai-intro-atag
+  label: wai-atag-intro
 
 permalink: /standards-guidelines/atag/pl
 ref: /standards-guidelines/atag/  # Do not change this

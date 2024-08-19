@@ -11,7 +11,7 @@ translators:
 - name: "Stefan Wajda"
 
 github:
-    label: wai-intro-uaag
+    label: wai-uaag-intro
 
 permalink: /standards-guidelines/uaag/pl  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/uaag/    # Do not change this

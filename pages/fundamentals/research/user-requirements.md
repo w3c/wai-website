@@ -6,7 +6,7 @@ last_updated: 2022-08-08
 description: User requirements for virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, cognitive accessibility, and more.
 
 github:
-  label: wai-user-requirements
+  label: wai-research
 
 permalink: research/user-requirements/
 ref: research/user-requirements/

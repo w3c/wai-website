@@ -15,7 +15,7 @@ last_updated: 2024-03-04   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  label: wai-intro-atag
+  label: wai-atag-intro
 
 permalink: /standards-guidelines/atag/glance/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/atag/glance/   # Do not change this

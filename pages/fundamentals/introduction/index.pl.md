@@ -11,7 +11,7 @@ contributors:
   - name: "Michał Sobkowiak"
 
 github:
-  label: wai-intro-accessibility
+  label: wai-accessibility-intro
 
 permalink: /fundamentals/accessibility-intro/pl   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/accessibility-intro/     # Do not change this

@@ -8,7 +8,7 @@ lang: en   # Change "en" to the translated-language shortcode
 last_updated: 2022-12-08   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 github:
-  label: wai-intro-atag
+  label: wai-atag-intro
 
 permalink: /standards-guidelines/atag/social-media/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/atag/social-media/   # Do not change this

@@ -9,7 +9,7 @@ permalink: /fundamentals/accessibility-intro/changelog/
 ref: /fundamentals/accessibility-intro/changelog/
 
 github:
-   label: wai-intro-accessibility
+   label: wai-accessibility-intro
 
 feedbackmail: wai@w3.org
 ---

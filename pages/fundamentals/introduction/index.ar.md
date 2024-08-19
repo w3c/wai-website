@@ -9,7 +9,7 @@ translators:   #Add one -name: line for every translator
 - name: "نجيب التونسي"
 
 github:
-  label: wai-intro-accessibility
+  label: wai-accessibility-intro
 
 permalink: /fundamentals/accessibility-intro/ar   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/ar
 ref: /fundamentals/accessibility-intro/   # Do not change this

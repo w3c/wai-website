@@ -12,7 +12,7 @@ contributors: #Add one -name: line for every contributor
   - name: "hwahyeon"
 
 github:
-  label: wai-intro-accessibility
+  label: wai-accessibility-intro
 
 permalink: /fundamentals/accessibility-intro/ko   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /fundamentals/accessibility-intro/   # Do not change this

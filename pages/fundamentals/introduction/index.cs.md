@@ -11,7 +11,7 @@ contributors: #Add one -name: line for every contributor
   - name: "Jiří Zmrhal"
 
 github:
-    label: wai-intro-accessibility
+    label: wai-accessibility-intro
 
 permalink: /fundamentals/accessibility-intro/cs   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /fundamentals/accessibility-intro/   # Do not change this

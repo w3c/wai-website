@@ -1,9 +1,17 @@
 accessible-events:
   - wai-accessible-events
+accessibility-intro:
+  - wai-accessibility-intro
 accessibility-principles:
   - wai-accessibility-principles
 accessibility-training:
   - wai-accessibility-training
+act-intro:
+  - wai-act-intro
+aria-intro:
+  - wai-aria-intro
+atag-intro:
+  - wai-atag-intro
 audiences:
   - wai-audiences
 business-case:
@@ -16,12 +24,16 @@ components:
   - wai-components
 conformance-eval:
   - wai-conformance-eval
+courses:
+  - wai-courses
 curricula:
   - wai-curricula
 customize-design:
   - wai-customize-design
 design-develop:
   - wai-design-develop
+earl-intro:
+  - wai-earl-intro
 easy-checks:
   - wai-easy-checks
 eval-report-template:
@@ -36,24 +48,12 @@ first-aid:
   - wai-first-aid
 inclusion:
   - wai-inclusion
-intro-accessibility:
-  - wai-intro-accessibility
-intro-act:
-  - wai-intro-act
-intro-aria:
-  - wai-intro-aria
-intro-atag:
-  - wai-intro-atag
-intro-earl:
-  - wai-intro-earl
-intro-linking:
-  - wai-intro-linking
-intro-uaag:
-  - wai-intro-uaag
 involving-users-eval:
   - wai-involving-users-eval
 involving-users:
   - wai-involving-users
+linking-intro:
+  - wai-linking-intro
 media-guide:
   - wai-media-guide
 mobile:
@@ -64,6 +64,8 @@ older-users:
   - wai-older-users
 org-policies:
   - wai-org-policies
+people-intro:
+  - wai-people-intro
 people-use-web:
   - wai-people-use-web
 perspective-videos:
@@ -74,6 +76,8 @@ planning-policies:
   - wai-planning-policies
 pronunciation:
   - wai-pronunciation
+research:
+  - wai-research
 resources-list:
   - wai-resources-list
 selecting-eval-tools:
@@ -92,6 +96,8 @@ tips:
   - wai-tips
 tutorials:
   - wai-tutorials
+uaag-intro:
+  - wai-uaag-intro
 video-introduction:
   - wai-video-introduction
 w3c-process:
