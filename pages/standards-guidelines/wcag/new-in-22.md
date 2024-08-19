@@ -131,7 +131,7 @@ Provide ways to help users navigate, find content, and determine where they are.
 
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/#reporter">reporter</a> with repetitive stress injury who uses speech recognition software:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#reporter">reporter</a> with repetitive stress injury who uses speech recognition software:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>This page has a big banner that's always across the bottom. <em>(a sticky footer)</em> When I move focus to items, some are hidden behind the banner and I can't see them.</q></span></dd>
@@ -179,8 +179,8 @@ Provide ways to help users navigate, find content, and determine where they are.
   <dd>Many people can't see small changes in visual appearance, including older people.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/#reporter">reporter</a> with repetitive stress injury who doesn't use a mouse:<br />
-      and <a href="https://www.w3.org/WAI/people-use-web/user-stories/#retiree">Retiree</a> with low contrast sensitivity:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#reporter">reporter</a> with repetitive stress injury who doesn't use a mouse:<br />
+      and <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">Retiree</a> with low contrast sensitivity:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>I can't tell where the keyboard focus is as I move around a web page or app.</q></span></dd>
@@ -203,7 +203,7 @@ Provide ways to help users navigate, find content, and determine where they are.
 </ul>
 <p class="note"><em>Note:</em> What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual presentation. The visual presentation includes the component's visible content, border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.</p>
 <p class="note"><em>Note:</em> Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid.</p>
-<p class="note"><em>Note:</em> Contrast calculations can be based on colors defined within the technology (such as HTML, CSS and SVG). Pixels modified by user agent resolution enhancements and anti-aliasing can be ignored.</p>
+<p class="note"><em>Note:</em> Contrast calculations can be based on colors defined within the technology (such as HTML, CSS, and SVG). Pixels modified by user agent resolution enhancements and anti-aliasing can be ignored.</p>
 </blockquote>
 <p><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html">Understanding Focus Appearance</a></p>
 
@@ -222,7 +222,7 @@ Make it easier for users to operate functionality through various inputs beyond 
   <dd>Some people cannot use a mouse to drag items.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/#retiree">retiree</a> with hand tremor:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">retiree</a> with hand tremor:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>I cannot hold down the mouse button and drag it accurately enough to move the items in this list.</q></span></dd>
@@ -234,7 +234,7 @@ Make it easier for users to operate functionality through various inputs beyond 
 <p class="sclabel">WCAG success criteria:</p>
 <blockquote class="sc">
 <p>All functionality that uses a <a href="https://www.w3.org/TR/WCAG22/#dfn-dragging-movements">dragging movement</a> for operation can be achieved by a <a href="https://www.w3.org/TR/WCAG22/#dfn-single-pointer">single pointer</a> without dragging, unless dragging is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> or the functionality is determined by the user agent and not modified by the author.</p>
-<p class="note"><em>Note:</em> This requirement applies to web content that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
+<p class="note"><em>Note:</em> This requirement applies to web content that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</p>
 </blockquote>
 <p><a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements">Understanding Dragging Movements</a></p>
 
@@ -249,7 +249,7 @@ Make it easier for users to operate functionality through various inputs beyond 
   <dd>Some people with physical impairments cannot click small buttons that are close together.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/#retiree">retiree</a> with hand tremor:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">retiree</a> with hand tremor:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>The buttons are so close, I hit "Cancel" when going for "Submit". Then I have to start all over again.</q></span></dd>
@@ -288,7 +288,7 @@ Make Web pages appear and operate in predictable ways.
   <dd>People who need help can find it more easily if it's in the same place.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>Whenever I use the online app to schedule my medical appointments, I can't remember what to do at each step. I've seen a Chat option in some places, but can't find it now.</q></span></dd>
@@ -326,7 +326,7 @@ Help users avoid and correct mistakes.
   <dd>Some people with cognitive disabilities have difficulty remembering what they entered before.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>Whenever I use the online app to schedule my medical appointments, I have to re-type some information that I entered in a previous step.</q></span></dd>
@@ -362,7 +362,7 @@ Help users avoid and correct mistakes.
   <dd>Some people with cognitive disabilities cannot solve puzzles, memorize a username and password, or retype one-time passcodes.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>I can never remember my password, it’s really hard to get into this app.</q></span></dd>
@@ -404,7 +404,7 @@ Help users avoid and correct mistakes.
   <dd>Some people with cognitive disabilities can't do puzzles, including identifying objects and non-text information they previously supplied.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>To get into this app, it's asking me to click on pictures of cats, but I can't tell which are cats.</q></span></dd>
@@ -429,4 +429,4 @@ Help users avoid and correct mistakes.
 
 These personas are representations of people with disabilities developed from qualitative data on real people.
 
-The linked persona roles go to the [[Stories of Web Users]](/people-use-web/user-stories/). That page has other personas with different disabilities.
+The linked persona roles go to the [Stories of Web Users](https://www.w3.org/WAI/people-use-web/user-stories/archived). That page has other personas with different disabilities.
