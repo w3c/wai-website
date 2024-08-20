@@ -48,11 +48,11 @@ footer: >
 
 The following user stories represent the experiences of some people with disabilities. They do not address all disabilities or all impacts faced by people with disabilities. These and other disabilities may be present from birth or may develop as a results of an accident, illness, or aging.
 
-* {:.left} [{% include image.html src="people-use-web/user-stories/ade.png" alt="Ade" %} Ade, reporter with limited use of his arms](/people-use-web/user-stories/story-one/)<br> Ade was involved in an accident that caused a spinal cord injury, leaving him with limited use of his arms. He often relies only on the keyboard to navigate websites and other digital content.
+* {:.left} [{% include image.html src="content-images/people-use-web/user-stories/ade.png" alt="" %} Ade, reporter with limited use of his arms](/people-use-web/user-stories/story-one/)<br> Ade was involved in an accident that caused a spinal cord injury, leaving him with limited use of his arms. He often relies only on the keyboard to navigate websites and other digital content.
 
-* {:.left} [{% include image.html src="people-use-web/user-stories/ian.png" alt="Ian" %} Ian, data entry clerk with autism](/people-use-web/user-stories/story-two/)<br> Ian is autistic. He has difficulty understanding online content and layouts that change often, including carousels, pop-up ads, and videos that play automatically.
+* {:.left} [{% include image.html src="people-use-web/user-stories/ian.png" alt="" %} Ian, data entry clerk with autism](/people-use-web/user-stories/story-two/)<br> Ian is autistic. He has difficulty understanding online content and layouts that change often, including carousels, pop-up ads, and videos that play automatically.
 
-* {:.left} [{% include image.html src="people-use-web/user-stories/lakshmi.png" alt="Lakshmi" %} Lakshmi, senior accountant who is blind](/people-use-web/user-stories/story-three/)<br> Lakshmi is blind. She uses a screen reader on her computer and mobile device to interact with online content, including images, form controls, and navigation.
+* {:.left} [{% include image.html src="people-use-web/user-stories/lakshmi.png" alt="" %} Lakshmi, senior accountant who is blind](/people-use-web/user-stories/story-three/)<br> Lakshmi is blind. She uses a screen reader on her computer and mobile device to interact with online content, including images, form controls, and navigation.
 
 * {:.left} [{% include image.html src="people-use-web/user-stories/lexie.png" alt="" %} Lexie, online shopper who cannot distinguish between certain colors (color blindness)](/people-use-web/user-stories/story-four/)<br> Lexie has deuteranopia and protanopia (often called "color blindness"). She has difficulty distinguishing among items that are red, green, orange, and brown, which makes it hard to derive meaning from these colors.
 
