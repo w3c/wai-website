@@ -5,15 +5,22 @@
 title: "Teks-ke-Ucapan"
 nav_title: "Teks-ke-Ucapan"
 lang: id    # Change "en" to the translated-language shortcode
-last_updated: 2023-11-21    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-23    # Keep the date of the English version
 order: 4
 
-translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-- name: "Fri Rasyidi"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+translation:
+#  outdated: false
+  draft: true
+  last_updated: 2023-11-21
+
+translators:
+  - name: "Fri Rasyidi"   # Replace Jan Doe with translator name
+#contributors:
+#  - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+#  - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/speech/id  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/speech/    # Do not change this
@@ -21,6 +28,7 @@ ref: /perspective-videos/speech/    # Do not change this
 resource:
     ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Video singkat tentang teks-ke-ucapan untuk aksesibilitas web - apa itu, siapa yang membutuhkannya, dan apa yang perlu dilakukan agar bekerja dengan semestinya.
@@ -32,11 +40,8 @@ image: /perspective-videos/img/speech.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Diperbarui 23 Januari 2019.</p>
    <p><strong>Editor dan pimpinan proyek:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. ACKNOWLEDGEMENTS daftar kontributor.</p>
    <p>Dikembangkan oleh Kelompok Kerja Edukasi dan Pendampingan (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Dikembangkan sebagai bagian dari <a href="https://www.w3.org/WAI/DEV/">proyek WAI-DEV</a>, didanai bersama oleh European Commission. Diperbarui sebagai bagian dari <a href="https://www.w3.org/WAI/DEV/">Proyek Perluasan Akses WAI</a>, didukung oleh Ford Foundation.</p>
-
-# Read Translations Notes for this resource at https://github.com/w3c/wai-perspective-videos#readme
 ---
 
 Aksesibilitas web sangat penting bagi penyandang disabilitas dan bermanfaat bagi semua orang. Pelajari tentang dampak aksesibilitas dan manfaatnya bagi semua orang dalam berbagai situasi.
