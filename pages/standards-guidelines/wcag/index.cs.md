@@ -16,8 +16,7 @@ translators: # remove from the beginning of this line and the lines below: "# " 
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-intro-wcag
-  path: 'content/index.cs.md'  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+  label: wai-wcag-intro
 
 permalink: /standards-guidelines/wcag/cs  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/  # Do not change this
