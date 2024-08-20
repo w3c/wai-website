@@ -88,9 +88,7 @@ Learn more {#resources}
     -   [Image text alternatives ("alt text")](/test-evaluate/preliminary/#images)
     -   [Basic Structure Check](/test-evaluate/preliminary/#structure)
 -   **User Story:**
-    -   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
-    -   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
-    -   [Preety, middle school student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/#classroomstudent)
+    -  [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three/)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "images" and "structure"](https://www.w3.org/WAI/WCAG21/quickref/?tags=images%2Cstructure)
 -   **Mobile Applicability:**
