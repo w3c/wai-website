@@ -48,16 +48,16 @@ La accesibilidad web es esencial para las personas con discapacidad y útil para
 
 ## Vídeos de perspectivas
 
--   [![](img/thumbnails/keyboard.jpg)<br>Compatibilidad con teclado]({{ "/content-images/perspective-videos/keyboard/" | relative_url }})
--   [![](img/thumbnails/contrast.jpg)<br>Colores y buen contraste]({{ "/content-images/perspective-videos/contrast/" | relative_url }})
--   [![](img/thumbnails/layout.jpg)<br>Disposición y diseño claros]({{ "/content-images/perspective-videos/layout/" | relative_url }})
--   [![](img/thumbnails/speech.jpg)<br>Texto a voz]({{ "/content-images/perspective-videos/speech/" | relative_url }})
--   [![](img/thumbnails/controls.jpg)<br>Enlaces grandes, botones y controles]({{ "/content-images/perspective-videos/controls/" | relative_url }})
--   [![](img/thumbnails/captions.jpg)<br>Subtítulos en vídeos]({{ "/content-images/perspective-videos/captions/" | relative_url }})
--   [![](img/thumbnails/customizable.jpg)<br>Texto personalizable]({{ "/content-images/perspective-videos/customizable/" | relative_url }})
--   [![](img/thumbnails/voice.jpg)<br>Reconocimiento de voz]({{ "/content-images/perspective-videos/voice/" | relative_url }})
--   [![](img/thumbnails/understandable.jpg)<br>Contenido comprensible]({{ "/content-images/perspective-videos/understandable/" | relative_url }})
--   [![](img/thumbnails/notifications.jpg)<br>Notificaciones y respuestas]({{ "/content-images/perspective-videos/notifications/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/keyboard.jpg)<br>Compatibilidad con teclado]({{ "/perspective-videos/keyboard/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/contrast.jpg)<br>Colores y buen contraste]({{ "/perspective-videos/contrast/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/layout.jpg)<br>Disposición y diseño claros]({{ "/perspective-videos/layout/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/speech.jpg)<br>Texto a voz]({{ "/perspective-videos/speech/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/controls.jpg)<br>Enlaces grandes, botones y controles]({{ "/perspective-videos/controls/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/captions.jpg)<br>Subtítulos en vídeos]({{ "/perspective-videos/captions/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/customizable.jpg)<br>Texto personalizable]({{ "/perspective-videos/customizable/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/voice.jpg)<br>Reconocimiento de voz]({{ "/perspective-videos/voice/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/understandable.jpg)<br>Contenido comprensible]({{ "/perspective-videos/understandable/" | relative_url }})
+-   [![](/content-images/perspective-videos/thumbnails/notifications.jpg)<br>Notificaciones y respuestas]({{ "/perspective-videos/notifications/" | relative_url }})
 {:.two.columns.linklist}
 
 **Compilación de los 10 vídeos (7:36 minutos): [compilación en YouTube {% include icon.html name="external-link" label="enlace externo" %}](https://www.youtube.com/watch?v=3f31oufqFSM)**, [compilación en el servidor de el W3C (formato de archivo: MP4, tamaño de archivo: 73MB) {% include icon.html name="external-link" label="External Link" %}](https://media.w3.org/wai/perspective-videos/compilation.mp4), [archivo de subtítulos (SRT) {% include icon.html name="external-link" label="enlace externo" %}](https://media.w3.org/wai/perspective-videos/compilation.srt)
