@@ -107,7 +107,7 @@ Text alternatives are equivalents for non-text content. Examples include:
 
 Text alternatives convey the purpose of an image or function to provide an equivalent user experience. For instance, an appropriate text alternative for a search button would be "*search*" rather than "*magnifying lens*".
 
-Text alternatives can be presented in a variety of ways. For instance, they can be read aloud for people who cannot see the screen and for people with reading difficulties, enlarged to custom text sizes, or displayed on braille devices. Text alternatives serve as labels for controls and functionality to aid keyboard navigation and navigation by voice recognition (speech input). They also act as labels to identify audio, video, and files in other formats, as well as applications that are embedded as part of a website.
+Text alternatives can be presented in a variety of ways. For instance, they can be read aloud for people who cannot see the screen and for people with reading difficulties or displayed on braille devices. The surrounding body text or caption text for images can also be text alternatives. In such cases, users can enlarge text size to make it easier to read.  Text alternatives serve as labels for controls and functionality to aid keyboard navigation and navigation by voice recognition (speech input). They also act as labels to identify audio, video, and files in other formats, as well as applications that are embedded as part of a website.
 
 {% include excol.html type="start" %}
 
