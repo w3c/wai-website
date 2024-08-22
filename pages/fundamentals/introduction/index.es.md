@@ -27,8 +27,8 @@ changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 # Do not change the dates in the footer below.
 footer: >
   <p><strong>Fecha:</strong> Actualizado a 11 July 2019. Primera publicación en Febrero 2005. CHANGELOG.</p>
-  <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
-  <p>Desarrollado por Grupo de Trabajo de Educación y Divulgación (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
+  <p>Desarrollado por Grupo de Trabajo de Educación y Divulgación (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
 
 {::nomarkdown}
@@ -53,7 +53,7 @@ Hacer la web accesible beneficia tanto a las personas, como a las empresas y a l
 {:toc}
 
 <span class="box-h box-h-simple box-h-full">Recursos relacionados</span><br>
-{% include video-link.html title="Video Introducción a la Accesibilidad Web y Estándares W3C <em>(4 minutos)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/" src="/content-images/wai-intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
+{% include video-link.html title="Video Introducción a la Accesibilidad Web y Estándares W3C <em>(4 minutos)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/" src="/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
@@ -99,7 +99,7 @@ La accesibilidad web también beneficia personas *sin* discapacidad, como por ej
 -   personas con conexión lenta a Internet o que tienen ancho de banda limitado o costoso
 
 Puede ver un vídeo de 7 minutos con ejemplos de cómo la accesibilidad es esencial para personas con discapacidades y útil para cualquier persona en una gran variedad de situaciones:<br>
-{% include video-link.html title="Perspectivas de Accesibilidad Web <em>(YouTube)</em>" href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
+{% include video-link.html title="Perspectivas de Accesibilidad Web <em>(YouTube)</em>" href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="Más información sobre Qué es Accesibilidad" class="simple aside" %}
@@ -221,7 +221,7 @@ Algunas personas no pueden utilizar ratón, incluyendo muchas personas mayores c
 
 ### Transcripciones para audio
 
-[![ejemplo transcrito](https://www.w3.org/WAI/intro/transcript.png){:.right width="251" height="254"}](http://www.w3.org/WAI/highlights/200606wcag2interview.html)
+[![ejemplo transcrito](https://www.w3.org/WAI/intro/transcript.png){:.right width="251" height="254"}](https://www.w3.org/WAI/highlights/200606wcag2interview.html)
 
 Del mismo modo que las imágenes no están disponibles para las personas que no pueden ver, los archivos de audio no están disponibles para las personas que no pueden oír. Proporcionar una transcripción de texto hace que la información de audio sea accesible para las personas sordas o con problemas de audición, así como para los motores de búsqueda y otras tecnologías que no pueden oír.  
 
@@ -233,7 +233,7 @@ Facilitar transcripciones es fácil y relativamente barato para los sitios web. 
 
 -   [[Consejos para empezar]](/tips/)
 -   [[Pruebas sencillas - Una Primera Revisión]](/test-evaluate/preliminary/)
--   {% include video-link.html class="small inline" title="Perspectivas de Accesibilidad Web &mdash; videos y descripciones" href="/perspective-videos/" src="/content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
+-   {% include video-link.html class="small inline" title="Perspectivas de Accesibilidad Web &mdash; videos y descripciones" href="/perspective-videos/" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
 
 {::nomarkdown}
 {% include box.html type="end" %}
