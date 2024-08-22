@@ -12,7 +12,7 @@ translators:
 github:
     label: wai-accessibility-intro
 
-permalink: /fundamentals/accessibility-intro/el   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
+permalink: /fundamentals/accessibility-intro/el
 ref: /fundamentals/accessibility-intro/   # Do not change this
 
 changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
