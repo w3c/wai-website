@@ -24,8 +24,8 @@ changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
     <p><strong>Ημερομηνία:</strong> Ενημερώθηκε 5 Ιουνίου 2019. Πρώτη δημοσίευση Φεβρουάριος 2005. CHANGELOG.</p>
-    <p><strong>Συντάκτης:</strong> <span lang="en"><a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a></span>.</p>
-    <p>Ανάπτυξη από την Ομάδα Εργασίας Επιμόρφωσης και Διάχυσης (<span lang="en"><a href="http://www.w3.org/WAI/EO/">EOWG</a></span>).</p>
+    <p><strong>Συντάκτης:</strong> <span lang="en"><a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a></span>.</p>
+    <p>Ανάπτυξη από την Ομάδα Εργασίας Επιμόρφωσης και Διάχυσης (<span lang="en"><a href="https://www.w3.org/WAI/EO/">EOWG</a></span>).</p>
 ---
 
 {::nomarkdown}
@@ -55,7 +55,7 @@ footer: >
 </ul>
 
 <span class="box-h box-h-simple box-h-full">Σχετικός Πόρος (<span lang="en">Resource</span>)</span><br>
-{% include video-link.html title="Εισαγωγικό Βίντεο για την Προσβασιμότητα στον Παγκόσμιο Ιστό και τα Πρότυπα του W3C <em>(4 λεπτά)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/el" src="/content-images/wai-intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
+{% include video-link.html title="Εισαγωγικό Βίντεο για την Προσβασιμότητα στον Παγκόσμιο Ιστό και τα Πρότυπα του W3C <em>(4 λεπτά)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/el" src="/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
@@ -101,7 +101,7 @@ footer: >
 - άτομα που χρησιμοποιούν αργή σύνδεση στο <span lang="en">Internet</span> ή που έχουν περιορισμένο ή ακριβό εύρος ζώνης (<span lang="en">bandwidth</span>)
 
 Για ένα βίντεο 7 λεπτών με παραδείγματα για το πώς η προσβασιμότητα είναι απαραίτητη για τα άτομα με αναπηρία και χρήσιμη για όλους σε διάφορες καταστάσεις, βλ.<br>
-{% include video-link.html title="Βίντεο Προοπτικών της Προσβασιμότητας Ιστού <em>(<span lang='en'>YouTube</span>)</em>" href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
+{% include video-link.html title="Βίντεο Προοπτικών της Προσβασιμότητας Ιστού <em>(<span lang='en'>YouTube</span>)</em>" href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="Περισσότερες Πληροφορίες για το Τι Είναι Προσβασιμότητα" class="simple aside" %}
@@ -175,7 +175,7 @@ footer: >
 -   Για να κατανοήσετε κάποιους κοινούς φραγμούς προσβασιμότητας από την άποψη των δοκιμών (<span lang="en">testing</span>, ανατρέξτε στο: [[Εύκολοι Έλεγχοι - Μια Πρώτη Ματιά]](/test-evaluate/preliminary/).
 -   Για μερικές βασικές σκέψεις σχετικά με το σχεδιασμό, την κειμενογράφηση και την ανάπτυξη για την προσβασιμότητα, ανατρέξτε στις [[Συμβουλές για να Ξεκινήσετε]](/tips/).
 -   Όταν είστε έτοιμοι να μάθετε περισσότερα σχετικά με την ανάπτυξη και το σχεδιασμό, πιθανότατα θα χρησιμοποιήσετε πόρους όπως:
-    -   [Πώς ικανοποιείται το WCAG (Γρήγορη Αναφορά)](http://www.w3.org/WAI/WCAG21/quickref/)
+    -   [Πώς ικανοποιείται το WCAG (Γρήγορη Αναφορά)](https://www.w3.org/WAI/WCAG21/quickref/)
     -   [Μαθήματα Προσβασιμότητας Ιστού](/tutorials/)
 -   Για τη διαχείριση έργων και θέματα οργάνωσης, ανατρέξτε στο:[[Προγραμματισμός και Διαχείριση της Προσβασιμότητας στον Ιστό]](/planning-and-managing/).<br>
     Εάν πρέπει να κάνετε γρήγορες επιδιορθώσεις τώρα, ανατρέξτε στις [[Προσεγγίσεις για Προσωρινές Διορθώσεις]](/planning/interim-repairs/).
@@ -221,11 +221,11 @@ footer: >
 
 ![mouse crossed out](https://www.w3.org/WAI/intro/no-mouse.png){:.left width="67" height="45"}
 
-Μερικοί άνθρωποι δεν μπορούν να χρησιμοποιήσουν ένα ποντίκι, συμπεριλαμβανομένων πολλών παλαιότερων χρηστών με περιορισμένο έλεγχο της κίνησης. Ένας προσβάσιμος ιστότοπος δεν βασίζεται στο ποντίκι. Κάνει όλες τις [όλες τις λειτουργίες διαθέσιμες από ένα πληκτρολόγιο](http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html). Έτσι, τα άτομα με ειδικές ανάγκες μπορούν να χρησιμοποιούν τεχνολογίες υποβοήθησης, που μιμούνται το πληκτρολόγιο, όπως η είσοδος ομιλίας.
+Μερικοί άνθρωποι δεν μπορούν να χρησιμοποιήσουν ένα ποντίκι, συμπεριλαμβανομένων πολλών παλαιότερων χρηστών με περιορισμένο έλεγχο της κίνησης. Ένας προσβάσιμος ιστότοπος δεν βασίζεται στο ποντίκι. Κάνει όλες τις [όλες τις λειτουργίες διαθέσιμες από ένα πληκτρολόγιο](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html). Έτσι, τα άτομα με ειδικές ανάγκες μπορούν να χρησιμοποιούν τεχνολογίες υποβοήθησης, που μιμούνται το πληκτρολόγιο, όπως η είσοδος ομιλίας.
 
 ### Μεταγραφή για Ήχο
 
-[![example transcript](https://www.w3.org/WAI/intro/transcript.png){:.right width="251" height="254"}](http://www.w3.org/WAI/highlights/200606wcag2interview.html)
+[![example transcript](https://www.w3.org/WAI/intro/transcript.png){:.right width="251" height="254"}](https://www.w3.org/WAI/highlights/200606wcag2interview.html)
 
 Ακριβώς όπως οι εικόνες δεν είναι διαθέσιμες σε άτομα που δεν μπορούν να δουν, τα αρχεία ήχου δεν είναι διαθέσιμα σε άτομα που δεν ακούνε. Η παροχή ενός μεταγραφικού κειμένου καθιστά τις πληροφορίες ήχου προσβάσιμες σε άτομα που είναι κωφά ή βαρήκοοι, καθώς και σε μηχανές αναζήτησης και άλλες τεχνολογίες που δεν "ακούνε".
 
@@ -237,7 +237,7 @@ footer: >
 
 -   [[Συμβουλές για να Ξεκινήσετε]](/tips/)
 -   [[Εύκολοι Έλεγχοι - Μια Πρώτη Ματιά]](/test-evaluate/preliminary/)
--   {% include video-link.html class="small inline" title="Προοπτικές Πρόσβασης στον Ιστό &mdash; Βίντεο και Περιγραφές" href="/perspective-videos/" src="/content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
+-   {% include video-link.html class="small inline" title="Προοπτικές Πρόσβασης στον Ιστό &mdash; Βίντεο και Περιγραφές" href="/perspective-videos/" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -247,7 +247,7 @@ footer: >
 
 ## Για περισσότερες πληροφορίες {#more-info}
 
-(http://www.w3.org/WAI/Resources/) list.
+(https://www.w3.org/WAI/Resources/) list.
 Το W3C WAI παρέχει ένα ευρύ φάσμα πόρων για διάφορες πτυχές των [προτύπων ](/standards-guidelines/), [εκπαίδευση](https://www.w3.org/WAI/train), [<span lang="en">testing</span>/αξιολόγηση](/test-evaluate/), [διαχείριση έργων και πολιτική](https://www.w3.org/WAI/managing).
 Σας ενθαρρύνουμε να εξερευνήσετε αυτόν τον ιστότοπο ή να αναζητήσετε τους[Πόρους του WAI](/resources/).
 
