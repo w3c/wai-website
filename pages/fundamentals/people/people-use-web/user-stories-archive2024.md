@@ -2,8 +2,8 @@
 title: "Stories of Web Users"
 doc-note-type: archived
 doc-note-message-md: This is an archive of older material. New user stories are available from [Stories of Web Users in How People with Disabilities Use the Web at https://www.w3.org/WAI/people-use-web/user-stories/](https://www.w3.org/WAI/people-use-web/user-stories/).
-permalink: /people-use-web/user-stories/archived
-ref: /people-use-web/user-stories/archived
+permalink: /people-use-web/user-stories/archived/
+ref: /people-use-web/user-stories/archived/
 lang: en
 last_updated: 2017-05-15
 description: Personas of people with disabilities using the Web that highlight the effect of accessibility barriers and the broader benefits of accessible websites and web tools.
