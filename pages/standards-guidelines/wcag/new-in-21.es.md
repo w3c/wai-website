@@ -113,7 +113,7 @@ Cree contenido que pueda presentarse en diferentes formas (por ejemplo, con una 
     <li>El contenido se implementa usando tecnologías con soporte para identificar el significado esperado de los datos de entrada en formularios.</li>
   </ul>
 </blockquote>
-<p class="persona">Un <a href="/people-use-web/user-stories/archived/#supermarketassistant">auxiliar de supermercado</a> con dislexia y discalculia:</p>
+<p class="persona">Un <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#supermarketassistant">auxiliar de supermercado</a> con dislexia y discalculia:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problema:</span><span><q>Mi dirección es muy complicada. Tiene muchos números y palabras largas. Me resulta difícil teclearlo todo sin cometer errores.</q></span></p></li>
@@ -171,7 +171,7 @@ Facilite que los usuarios puedan ver y oír el contenido incluyendo la separaci�
     <dd>Partes de gráficos necesarias para comprender el contenido, excepto cuando una presentación particular de los gráficos sea <a href="https://www.w3.org/TR/WCAG21/#dfn-essential" data-link-type="dfn">esencial </a> para la información transmitida.</dd>
   </dl>
 </blockquote>
-<p class="persona"><a href="/people-use-web/user-stories/archived/#retiree">Un jubilado</a> con poca sensibilidad al contraste:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">Un jubilado</a> con poca sensibilidad al contraste:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problema:</span><span><q>No pude usar el formulario de pedidos, no había cajas de texto. Después de una larga llamada con el servicio de atención al cliente, supe que las cajas de texto tenían un borde muy claro que yo no podía ver.</q></span></p></li>
@@ -192,8 +192,8 @@ Facilite que los usuarios puedan ver y oír el contenido incluyendo la separaci�
   </ul>
   <p>Excepción: Los lenguajes humanos y el código que no usen una o más de estas propiedades en forma escrita pueden cumplir usando solamente las propiedades que existan para esa combinación de lenguaje y código.</p>
 </blockquote>
-<p class="persona"><a href="/people-use-web/user-stories/archived/#classroomstudent">Un estudiante</a> con dislexia:<br/>
-  y <a href="/people-use-web/user-stories/archived/#retiree">un jubilado</a> con baja visión:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#classroomstudent">Un estudiante</a> con dislexia:<br/>
+  y <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">un jubilado</a> con baja visión:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problema:</span><span><q>La mayor parte del texto es difícil de leer. Está tan amontonado que no puedo concentrarme. Solamente aumentando el espacio entre líneas ya noto una diferencia. Cuando estoy muy cansado, también aumento el espacio entre palabras.</q></span></p></li>
@@ -242,7 +242,7 @@ Proporcione acceso a toda la funcionalidad mediante el teclado.
     <dd>El atajo de teclado perteneciente a un <a href="https://www.w3.org/TR/WCAG21/#dfn-user-interface-components" data-link-type="dfn">componente de la interfaz de usuario</a> solamente está activo cuando dicho componente tiene el foco.</dd>
   </dl>
 </blockquote>
-<p class="persona"><a href="/people-use-web/user-stories/archived/#reporter">Un periodista</a> con trastorno musculoesquelético que usa un programa de reconocimiento de voz:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#reporter">Un periodista</a> con trastorno musculoesquelético que usa un programa de reconocimiento de voz:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problema:</span><span><q>Usando mi aplicación de correo electrónico, borraba los mensajes en lugar de abrirlos.</q><br/>
@@ -335,7 +335,7 @@ Facilite que los usuarios puedan operar la funcionalidad a través de diferentes
 <blockquote class="sc">
   <p>En los <a href="https://www.w3.org/TR/WCAG21/#dfn-user-interface-components" data-link-type="dfn">componentes de la interfaz de usuario</a> con <a href="https://www.w3.org/TR/WCAG21/#dfn-labels" data-link-type="dfn">etiquetas</a> que incluyan <a href="https://www.w3.org/TR/WCAG21/#dfn-text" data-link-type="dfn">texto</a> o <a href="https://www.w3.org/TR/WCAG21/#dfn-images-of-text" data-link-type="dfn">imágenes de texto</a>, el <a href="https://www.w3.org/TR/WCAG21/#dfn-name" data-link-type="dfn">nombre</a> contiene el texto que se presenta visualmente.</p>
 </blockquote>
-<p class="persona"><a href="/people-use-web/user-stories/archived/#reporter">Un periodista</a> con trastorno musculoesquelético que usa un programa de reconocimiento de voz:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#reporter">Un periodista</a> con trastorno musculoesquelético que usa un programa de reconocimiento de voz:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problema:</span><span><q>Entendió casi todos mis comandos de voz hasta que llegué al botón de enviar. Estuve repitiendo “enviar” pero no funcionó.</q><br/>
@@ -380,7 +380,7 @@ Facilite que los usuarios puedan operar la funcionalidad a través de diferentes
     <dd>Una presentación particular del objetivo es <a href="https://www.w3.org/TR/WCAG21/#dfn-essential" data-link-type="dfn">esencial</a> para la información transmitida.</dd>
   </dl>
 </blockquote>
-<p class="persona"><a href="/people-use-web/user-stories/archived/#retiree">Un jubilado</a> con temblores en las manos (y dedos grandes):</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">Un jubilado</a> con temblores en las manos (y dedos grandes):</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problema:</span><span><q>Los botones son tan pequeños que pulso en “Cancelar” cuando quiero pulsar “Enviar”. Entonces, tengo que volver a empezar otra vez.</q></span></p></li>
@@ -394,7 +394,7 @@ Facilite que los usuarios puedan operar la funcionalidad a través de diferentes
 <blockquote class="sc">
   <p>El contenido web no restringe el uso de las modalidades de entrada disponibles en la plataforma excepto cuando las restricciones sean <a href="https://www.w3.org/TR/WCAG21/#dfn-essential" data-link-type="dfn">esenciales</a>, necesarias para la seguridad del contenido o necesarias para respetar los ajustes del usuario.</p>
 </blockquote>
-<p class="persona"><a href="/people-use-web/user-stories/archived/#reporter">Un periodista</a> con trastorno musculoesquelético que usa un programa de reconocimiento de voz:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#reporter">Un periodista</a> con trastorno musculoesquelético que usa un programa de reconocimiento de voz:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problema:</span><span><q>Cuando mi trastorno se hace evidente, alterno bastante entre teclado, ratón, lápiz digital y voz. Esta aplicación no me deja usar el lápiz digital cuando el teclado está conectado.</q></span></p></li>
@@ -411,7 +411,7 @@ Maximice la compatibilidad con agentes de usuario actuales y futuros, incluyendo
 <blockquote class="sc">
   <p>En el contenido implementado usando lenguajes de marcado, los <a href="https://www.w3.org/TR/WCAG21/#dfn-status-messages" data-link-type="dfn">mensajes de estado</a> se pueden <a href="https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable" data-link-type="dfn">determinar por software</a> a través de <a href="https://www.w3.org/TR/WCAG21/#dfn-role" data-link-type="dfn">roles</a> o propiedades tales que puedan ser presentados al usuario de <a href="https://www.w3.org/TR/WCAG21/#dfn-assistive-technologies" data-link-type="dfn">tecnologías de apoyo</a> sin necesidad de recibir el foco.</p>
 </blockquote>
-<p class="persona"><a href="/people-use-web/user-stories/archived/#ilya-senior-staff-member-who-is-blind">Un contable</a> ciego que usa un lector de pantalla:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#ilya-senior-staff-member-who-is-blind">Un contable</a> ciego que usa un lector de pantalla:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problema:</span><span><q>He seleccionado una clase para la conferencia, pero no puedo decir si se ha añadido a mi agenda.</q></span></p></li>
