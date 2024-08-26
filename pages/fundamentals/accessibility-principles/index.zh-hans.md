@@ -219,7 +219,7 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 **UAAG**
 
 -   [指南 1.4 - 文本配置](https://www.w3.org/TR/UAAG20/#gl-text-config)
--   [指南 1.5 - 卷组态](https://www.w3.org/TR/UAAG20/#gl-volume-config)
+-   [指南 1.5 - 音量配置](https://www.w3.org/TR/UAAG20/#gl-volume-config)
 -   [指南 1.6 - 合成语言配置](https://www.w3.org/TR/UAAG20/#gl-speech-config)
 -   [指南 1.7 - 用户样式表配置](https://www.w3.org/TR/UAAG20/#gl-style-sheets-config)
 -   [指南 1.9 - 替代视图](https://www.w3.org/TR/UAAG20/#gl-alternative-views)
@@ -278,7 +278,7 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 -   [指南 1.3 - 高亮](https://www.w3.org/TR/UAAG20/#gl-interaction-highlight)
 -   [指南 1.4 - 文本配置](https://www.w3.org/TR/UAAG20/#gl-text-config)
--   [指南 1.5 - 卷组态](https://www.w3.org/TR/UAAG20/#gl-volume-config)
+-   [指南 1.5 - 音量配置](https://www.w3.org/TR/UAAG20/#gl-volume-config)
 -   [指南 1.6 - 合成语言配置](https://www.w3.org/TR/UAAG20/#gl-speech-config)
 -   [指南 1.7 - 用户样式表配置](https://www.w3.org/TR/UAAG20/#gl-style-sheets-config)
 -   [指南 1.8 - 视窗定位](https://www.w3.org/TR/UAAG20/#gl-viewport-orient)
