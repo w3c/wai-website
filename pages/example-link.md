@@ -7,7 +7,7 @@ ref: /example-link/
 acknowledgements: /tutorials/acknowledgements/
 
 footer: |
-  <p><strong>Date:</strong> Updated 22 August 2024.
+  <p><strong>Date:</strong> Updated 26 August 2024.
 
   <p>Initially developed as part of the <a href="https://www.w3.org/WAI/tutorials/images/">Images Tutorials</a>. See <a href="https://www.w3.org/WAI/tutorials/acknowledgements/">Acknowledgements</a></p>
 
