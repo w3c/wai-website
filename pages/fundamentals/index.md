@@ -31,9 +31,6 @@ footer: >
   <p><strong>Date:</strong> Updated 8 August 2023. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-inline_css: |
-  img.icon {--img-width:1em}
 ---
 
 The following resources provide information for **getting started with accessibility**:
