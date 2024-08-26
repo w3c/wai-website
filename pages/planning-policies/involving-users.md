@@ -260,7 +260,7 @@ There are resources on the web that provide detailed guidance on working
 with users; for example, [Interacting with People with
 Disabilities](http://uiaccess.com/accessucd/interact.html),
 [Assistive Technology and Location](http://www.uiaccess.com/accessucd/involve.html#atloc),
-and [The RESPECT Code of Practice](http://www.respectproject.org/code/charm.php?id=).
+and [The RESPECT Code of Practice](https://web.archive.org/web/20220120174748/https://www.respectproject.org/code/charm_id.html).
 
 Combine User Involvement with Standards
 ------------------------------------------------

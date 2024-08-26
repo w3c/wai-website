@@ -257,7 +257,7 @@ Suivez les bonnes pratiques pour travailler de manière formelle et informelle a
 
 Des ressources existent sur le Web pour vous guider en détail sur la manière de travailler avec des utilisateurs. Par exemple : [Interagir avec des personnes en situation de handicap (en anglais)](https://uiaccess.com/accessucd/interact.html),
 [Technologie d'assistance et choix du lieu (en anglais)](https://www.uiaccess.com/accessucd/involve.html#atloc),
-et [le code de conduite RESPECT (en anglais)](https://www.respectproject.org/code/charm.php?id=).
+et [le code de conduite RESPECT (en anglais)](https://web.archive.org/web/20220120174748/https://www.respectproject.org/code/charm_id.html).
 
 Alliez l'implication d'utilisateurs aux standards d'accessibilité
 ------------------------------------------------
