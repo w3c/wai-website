@@ -30,9 +30,6 @@ footer: >
   <p><strong>Date:</strong> Updated 3 March 2023.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide">WAI-Guide project</a>, co-funded by the European Commission.</p>
-  
-inline_css: |
-  img.icon {--img-width:1em}
 ---
 
 {% include image.html src="people/still-dog-outside.png" alt="" class="normal right" %}
