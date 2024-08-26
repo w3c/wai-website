@@ -31,9 +31,6 @@ footer: >
   <p><strong>Date :</strong> Mise à jour : 8 août 2023. CHANGELOG.</p>
   <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé par le Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-inline_css: |
-  img.icon {--img-width:1em}
 ---
 
 Les ressources suivantes fournissent des informations pour **débuter en accessibilité** :

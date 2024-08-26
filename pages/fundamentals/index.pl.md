@@ -29,9 +29,6 @@ footer: >
   <p><strong>Data:</strong> Aktualizacja 8 sierpnia 2023. CHANGELOG.</p>
   <p><strong>Redaktor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Opracowano przy wsparciu Grupy Roboczej ds. Edukacji i Promocji (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-inline_css: |
-  img.icon {--img-width:1em}
 ---
 
 Poniższe materiały zawierają informacje ułatwiające **rozpoczęcie pracy z dostępnością**:
