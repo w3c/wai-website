@@ -220,7 +220,7 @@ Lihat comtoh <span lang="en">inline</span>
   * [Judul Bagian 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Memahami 2.4.10](/WAI/WCAG21/Understanding/section-headings))
   * [Info dan Hubungan 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Memahami 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **Kisah Pengguna**
-  * [Bagaimana pengguna pembaca layar menggunakan judul untuk menavigasi](//people-use-web/user-stories/archived/#accountant)
+  * [Bagaimana pengguna pembaca layar menggunakan judul untuk menavigasi](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -311,7 +311,7 @@ Untuk setiap gambar, tulislah alternatif teks yang menjelaskan informasi atau fu
 * **Tutorial**
   * [Gambar](/tutorials/images/)
 * **User Story**
-  * [Menjelaskan nilai dari alternatif teks bagi pengguna penyandang disabilitas netra](//people-use-web/user-stories/archived/#accountant)
+  * [Menjelaskan nilai dari alternatif teks bagi pengguna penyandang disabilitas netra](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -331,7 +331,7 @@ Untuk konten hanya audio, seperti podcast, berikan transkripsinya. Untuk konten 
   * [Takarir (Prarekaman) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Memahami 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
   * [Deskripsi Audio atau Media Alternatif (Prarekaman) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Memahami 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana takarir membantu siswa penyandang disabilitas rungu](//people-use-web/user-stories/archived/#onlinestudent)
+  * [Menjelaskan bagaimana takarir membantu siswa penyandang disabilitas rungu](/people-use-web/user-stories/archived/#onlinestudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -389,7 +389,7 @@ Pastikan instruksi, panduan, dan pesan eror jelas, mudah dimengerti, dan hindari
 * **WCAG**
   * [Label atau Instruksi 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Memahami 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana instruksi sederhana membantu orang dengan kesulitan belajar](//people-use-web/user-stories/archived/#supermarketassistant)
+  * [Menjelaskan bagaimana instruksi sederhana membantu orang dengan kesulitan belajar](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -445,7 +445,7 @@ Gunakan bahasa dan format yang sederhana, sesuai dengan konteksnya.
   * [Kata-kata yang Tidak Umum 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Memahami 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
   * [Singkatan 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Memahami 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
 * **Kisah Pengguna**
-  * [Pengguna dengan kesulitan membaca mendapat manfaat dari teks yang mudah dibaca](//people-use-web/user-stories/archived/#classroomstudent)
+  * [Pengguna dengan kesulitan membaca mendapat manfaat dari teks yang mudah dibaca](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

@@ -103,7 +103,7 @@ footer: >
 * **WCAG**
   * [コントラスト（最小） 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([理解のため 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
 * **ユーザーストーリー**
-  * [｢色覚異常」のユーザーがウェブを体験する方法](//people-use-web/user-stories/archived/#shopper)
+  * [｢色覚異常」のユーザーがウェブを体験する方法](/people-use-web/user-stories/archived/#shopper)
 * **簡単なチェック**
   * [コントラスト比の確認方法](/test-evaluate/preliminary/#contrast)
 * **サポートツール**
@@ -224,7 +224,7 @@ footer: >
 * **WCAG**
   * [色の使用 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([理解のため 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
 * **ユーザーストーリー**
-  * [｢色覚異常」のユーザーがウェブを体験する方法](//people-use-web/user-stories/archived/#shopper)
+  * [｢色覚異常」のユーザーがウェブを体験する方法](/people-use-web/user-stories/archived/#shopper)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -284,8 +284,8 @@ footer: >
   * [目に見えるフォーカス方法 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([理解のため 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
   * [一貫した識別 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([理解のため 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **ユーザーストーリー**
-  * [マウス操作に制限のある人が直面する課題](//people-use-web/user-stories/archived/#reporter)
-  * [手の震えを持つ高齢ユーザーが直面する課題](//people-use-web/user-stories/archived/#retiree)
+  * [マウス操作に制限のある人が直面する課題](/people-use-web/user-stories/archived/#reporter)
+  * [手の震えを持つ高齢ユーザーが直面する課題](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -302,7 +302,7 @@ footer: >
   * [一貫性のあるナビゲーション 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([理解のため 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
   * [様々な方法 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([理解のため 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
 * **ユーザーストーリー**
-  * [一貫性とナビゲーションが認知障害を持つ人の助けになる](//people-use-web/user-stories/archived/#supermarketassistant)
+  * [一貫性とナビゲーションが認知障害を持つ人の助けになる](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -358,7 +358,7 @@ footer: >
 * **チュートリアル**
   * [ラベルテキストの視覚的位置](/tutorials/forms/labels/#visual-position-of-label-text)
 * **ユーザーストーリー**
-  * [明確な表示が認知障害のある人をどのように助けるか](//people-use-web/user-stories/archived/#supermarketassistant)
+  * [明確な表示が認知障害のある人をどのように助けるか](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -423,7 +423,7 @@ footer: >
 * **チュートリアル**
   * [ユーザーへの通知](/tutorials/forms/notifications/)
 * **ユーザーストーリー**
-  * [重要なコンテンツを簡単に識別できるようにすることが､どのように役立つか](//people-use-web/user-stories/archived/#classroomstudent)
+  * [重要なコンテンツを簡単に識別できるようにすることが､どのように役立つか](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -534,7 +534,7 @@ footer: >
 * **チュートリアル**
   * [Headings](/tutorials/page-structure/headings/)
 * **ユーザーストーリー**
-  * [見出しがナビゲーションにどのように役立つかの説明](//people-use-web/user-stories/archived/#accountant)
+  * [見出しがナビゲーションにどのように役立つかの説明](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -570,7 +570,7 @@ footer: >
   * [スクリーンが小さい場合](/TR/mobile-accessibility-mapping/#h-small-screen-size)
   * [理解しやすさに関連するモバイルへの配慮](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
 * **ユーザーストーリー**
-  * [ズームされたページの代替ビューがどのように役立つかを説明する](//people-use-web/user-stories/archived/#retiree)
+  * [ズームされたページの代替ビューがどのように役立つかを説明する](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -609,7 +609,7 @@ footer: >
 * **チュートリアル**
   * [Images](/tutorials/images/)
 * **ユーザーストーリー**
-  * [視覚障害者にとっての代替テキストの価値を説明する｡](//people-use-web/user-stories/archived/#accountant)
+  * [視覚障害者にとっての代替テキストの価値を説明する｡](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

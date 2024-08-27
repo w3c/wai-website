@@ -120,7 +120,7 @@ footer: >
 * **チュートリアル**
   * [画像](/tutorials/images/)
 * **ユーザーストーリー**
-  * [視覚障害者にとっての代替テキストの価値を説明](//people-use-web/user-stories/archived/#accountant)
+  * [視覚障害者にとっての代替テキストの価値を説明](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -243,7 +243,7 @@ footer: >
   * [ページの構造](/tutorials/page-structure/)
   * [テーブル](/tutorials/tables/)
 * **ユーザーストーリー**
-  * [構造情報がスクリーン・リーダー・ユーザーにどのように役立つかを説明する](//people-use-web/user-stories/archived/#accountant)
+  * [構造情報がスクリーン・リーダー・ユーザーにどのように役立つかを説明する](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -296,7 +296,7 @@ footer: >
 * **チュートリアル**
   * [入力の検証](/tutorials/forms/validation/)
 * **ユーザーストーリー**
-  * [失読症のユーザーに役立つエラーの説明](//people-use-web/user-stories/archived/#classroomstudent)
+  * [失読症のユーザーに役立つエラーの説明](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -456,7 +456,7 @@ footer: >
 * **背景**
   * [画面が小さい場合](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **ユーザーストーリー**
-  * [ズームされたページの代替ビューがどのように役立つかを説明](//people-use-web/user-stories/archived/#retiree)
+  * [ズームされたページの代替ビューがどのように役立つかを説明](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -592,7 +592,7 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [キーボード 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([理解のため 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **ユーザーストーリー**
-  * [RSI(関節炎)患者がどのようにキーボードサポートを必要としているかを説明](//people-use-web/user-stories/archived/#reporter)
+  * [RSI(関節炎)患者がどのようにキーボードサポートを必要としているかを説明](/people-use-web/user-stories/archived/#reporter)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
