@@ -122,7 +122,7 @@ Pastikan alternatif teks untuk gambar ditambahkan ke semua gambar yang bersifat 
 * **Tutorial**
   * [Gambar](/tutorials/images/)
 * **Kisah Pengguna**
-  * [Menjelaskan nilai dari alternatif teks bagi pengguna penyandang disabilitas netra](/people-use-web/user-stories/#accountant)
+  * [Menjelaskan nilai dari alternatif teks bagi pengguna penyandang disabilitas netra](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -244,7 +244,7 @@ Gunakan markah yang sesuai untuk judul, daftar, tabel, dll. HTML5 menyediakan el
   * [Struktur Halaman](/tutorials/page-structure/)
   * [Tabel](/tutorials/tables/)
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana informasi struktural membantu pengguna pembaca layar](/people-use-web/user-stories/#accountant)
+  * [Menjelaskan bagaimana informasi struktural membantu pengguna pembaca layar](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -297,7 +297,7 @@ Sebisa mungkin toleransi kesalahan format saat memproses input dari pengguna. Mi
 * **Tutorial**
   * [Validasi Input](/tutorials/forms/validation/)
 * **User Story**
-  * [Menjelaskan bagaimana eror yang membantu menolong pengguna dengan disleksia](/people-use-web/user-stories/#classroomstudent)
+  * [Menjelaskan bagaimana eror yang membantu menolong pengguna dengan disleksia](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -455,7 +455,7 @@ Gunakan desain responsif untuk menyesuaikan tampilan dengan kondisi zum dan ukur
 * **Latar Belakang**
   * [Layar Ukuran Kecil](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana alternatif tampilan pada halaman yang dizum dapat membantu](/people-use-web/user-stories/#retiree)
+  * [Menjelaskan bagaimana alternatif tampilan pada halaman yang dizum dapat membantu](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -590,7 +590,7 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [Kibor 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Memahami 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana pengguna dengan RSI membutuhkan dukungan kibor](/people-use-web/user-stories/#reporter)
+  * [Menjelaskan bagaimana pengguna dengan RSI membutuhkan dukungan kibor](/people-use-web/user-stories/archived/#reporter)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

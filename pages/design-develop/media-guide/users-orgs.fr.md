@@ -119,7 +119,7 @@ Les organisations qui rendent leurs contenus audio et vidéo accessibles peuvent
 
 Les bénéfices pour les organisations sont illustrés dans d’autres ressources :
 * <em>Les bénéfices business de l’accessibilité numérique</em> incluent **des données d’une étude de cas** sur l’ajout de transcriptions, et plus d’informations sur la manière dont l’accessibilité peut [étendre votre marché](https://www.w3.org/WAI/business-case/#increase-market-reach).
-* Les bénéfices des transcriptions et des sous-titres pour une université sont mentionnés dans un [**scénario utilisateur/persona** d’une étudiante en ligne malentendante](https://www.w3.org/WAI/people-use-web/user-stories/#onlinestudent).
+* Les bénéfices des transcriptions et des sous-titres pour une université sont mentionnés dans un [**scénario utilisateur/persona** d’une étudiante en ligne malentendante](https://www.w3.org/WAI/people-use-web/user-stories/archived/#onlinestudent).
 * Certains bénéfices des sous-titres sont illustrés dans une [**Vidéo** d’une minute sur les sous-titres<br>
 {% include image.html src="media-guide/captions-video-still.jpg" alt="" class="normal video" %}](https://www.w3.org/WAI/perspective-videos/captions/)
 

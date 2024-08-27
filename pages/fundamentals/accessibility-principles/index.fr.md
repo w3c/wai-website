@@ -161,12 +161,12 @@ Les alternatives textuelles peuvent être présentées sous des formes variées.
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -229,9 +229,9 @@ Des retranscriptions texte bien écrites contenant la séquence correcte de tout
 
 {% include excol.html type="middle" %}
 
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -303,13 +303,13 @@ Pour que les utilisateurs puissent changer la présentation des contenus, il est
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -386,11 +386,11 @@ Un contenu perceptible est plus facile à lire et à voir. Par exemple&#8239;:
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -459,8 +459,8 @@ L’accessibilité au clavier comprend&#8239;:
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
 
 {% include excol.html type="end" %}
 
@@ -521,11 +521,11 @@ Là où il faut fournir assez de temps, cela implique de fournir des mécanismes
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -649,12 +649,12 @@ Un contenu bien organisé permet aux utilisateurs de s’orienter et de naviguer
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -698,9 +698,9 @@ En satisfaisant à cette exigence, on rend le contenu plus facile d’usage pour
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -757,11 +757,11 @@ Les auteurs de contenus doivent s’assurer que le contenu textuel est lisible e
 
 {% include excol.html type="middle" %}
 
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -823,12 +823,12 @@ Un grand nombre de personnes s’appuie sur des interfaces prévisibles et est d
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -890,11 +890,11 @@ Les formulaires et d’autres systèmes interactifs peuvent induire de la confus
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -955,12 +955,12 @@ Un contenu robuste est compatible avec de multiples navigateurs, outils d’assi
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 

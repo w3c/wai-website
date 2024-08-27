@@ -88,9 +88,9 @@ Plus d’informations {#resources}
     -   [Équivalents textuels pour les images (« alt text »)](/test-evaluate/preliminary/#images) 
     -   [Vérification de la structure de base](/test-evaluate/preliminary/#structure) 
 -   **Témoignages d’utilisateurs :**
-    -   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
-    -   [Kasseem, adolescente sourde et aveugle](/people-use-web/user-stories/#teenager)
-    -   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
+    -   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+    -   [Kasseem, adolescente sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
+    -   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)):**
     -   [Critères de succès liés aux « images » et à la « structure »](https://www.w3.org/WAI/WCAG21/quickref/?tags=images%2Cstructure)
 -   **Applicabilité aux appareils mobiles :**

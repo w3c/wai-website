@@ -126,8 +126,8 @@ Pour certaines personnes atteintes de handicap auditif, la langue des signes est
 
 {% include excol.html type="middle" %}
 
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -190,9 +190,9 @@ Les personnes atteintes de handicaps cognitifs, neurologiques, de troubles d’a
 
 {% include excol.html type="middle" %}
 
--   [Preety, élève de collège avec un trouble du déficit de l'attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme ](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Preety, élève de collège avec un trouble du déficit de l'attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme ](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -253,8 +253,8 @@ Les personnes atteintes de handicaps physiques peuvent avoir des difficultés à
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
 
 {% include excol.html type="end" %}
 
@@ -350,10 +350,10 @@ Certaines personnes ne voient qu’une partie du contenu à la fois ou perçoive
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 

@@ -63,5 +63,5 @@ The same process will work on other pages. However, if the page hasn't been code
 
 ## Learn more
 
-* Story: [Someone with low vision who zooms to enlarge text](https://www.w3.org/WAI/people-use-web/user-stories/#retiree)
+* Story: [Someone with low vision who zooms to enlarge text](https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree)
 * [Understanding 1.4.4: Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html)

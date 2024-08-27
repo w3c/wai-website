@@ -137,12 +137,12 @@ Textové alternativy lze prezentovat různými způsoby. Například mohou být 
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Martine, online studentka, která špatně slyší](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
--   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/#classroomstudent)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/#teenager)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Martine, online studentka, která špatně slyší](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -186,9 +186,9 @@ Dobře napsané textové přepisy, které obsahují správnou posloupnost všech
 
 {% include excol.html type="middle" %}
 
--   [Martine, online studentka, která špatně slyší](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
--   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/#teenager)
+-   [Martine, online studentka, která špatně slyší](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
+-   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -236,13 +236,13 @@ Splnění tohoto požadavku umožňuje správné čtení obsahu nahlas, zvětše
 
 {% include excol.html type="middle" %}
 
--   [Lee, online nakupující, který je barvoslepý](/people-use-web/user-stories/#shopper)
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
--   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/#classroomstudent)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/#teenager)
+-   [Lee, online nakupující, který je barvoslepý](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -295,11 +295,11 @@ Splnění tohoto požadavku pomáhá oddělit popředí od pozadí, takže jsou 
 
 {% include excol.html type="middle" %}
 
--   [Lee, online nakupující, který je barvoslepý](/people-use-web/user-stories/#shopper)
--   [Martine, online student who is hard of hearing](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/#teenager)
+-   [Lee, online nakupující, který je barvoslepý](/people-use-web/user-stories/archived/#shopper)
+-   [Martine, online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -348,8 +348,8 @@ Splnění tohoto požadavku pomáhá uživatelům klávesnice včetně osob, kte
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
 
 {% include excol.html type="end" %}
 
@@ -393,11 +393,11 @@ Mezi příklady poskytnutí dostatku času patří poskytnutí možnosti:
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/#classroomstudent)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/#teenager)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -481,12 +481,12 @@ Splnění tohoto požadavku pomáhá lidem navigovat webovou stránkou různými
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
--   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/#classroomstudent)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/#teenager)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -520,9 +520,9 @@ Splnění tohoto požadavku usnadňuje používání obsahu pro mnoho lidí se �
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/#supermarketassistant)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -563,11 +563,11 @@ Splnění tohoto požadavku pomáhá softwaru včetně asistenčních technologi
 
 {% include excol.html type="middle" %}
 
--   [Martine, online studentka, která špatně slyší](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
--   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/#classroomstudent)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/#supermarketassistant)
+-   [Martine, online studentka, která špatně slyší](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -610,12 +610,12 @@ Splnění tohoto požadavku pomáhá lidem rychle se naučit funkčnost a naviga
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
--   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/#classroomstudent)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/#teenager)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -658,11 +658,11 @@ Splnění tohoto požadavku pomáhá lidem, kteří nevidí nebo neslyší obsah
 
 {% include excol.html type="middle" %}
 
--   [Lee, online nakupující, který je barvoslepý](/people-use-web/user-stories/#shopper)
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/#classroomstudent)
--   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/#retiree)
--   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/#supermarketassistant)
+-   [Lee, online nakupující, který je barvoslepý](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, důchodce se slabým zrakem, třesem rukou a mírnou ztrátou krátkodobé paměti](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -706,12 +706,12 @@ Splnění tohoto požadavku pomáhá maximalizovat kompatibilitu se současnými
 
 {% include excol.html type="middle" %}
 
--   [Lee, online nakupující, který je barvoslepý](/people-use-web/user-stories/#shopper)
--   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/#reporter)
--   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/#accountant)
--   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/#classroomstudent)
--   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/#teenager)
+-   [Lee, online nakupující, který je barvoslepý](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reportér s poškozením z opakovaného namáhání](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, vedoucí pracovnice, která je slepá](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, studentka střední školy s poruchou pozornosti, hyperaktivitou a dislexií](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Luis, asistent v supermarketu s Downovým syndromem](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenagerka, která je hluchá a slepá](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 

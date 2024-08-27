@@ -83,9 +83,9 @@ Créez une structure claire, aussi bien visuellement qu’au niveau du balisage.
 -   **Vérification facile :**
     -   [Formulaires, étiquettes, et erreurs](/test-evaluate/preliminary/#forms) 
 -   **Témoignages d’utilisateurs :**
-    -   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
-    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
-    -   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+    -   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+    -   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
     -   [Critères de succès liés à la « mise en page »](https://www.w3.org/WAI/WCAG21/quickref/?tags=layout) 
 -   **Tutoriel :**

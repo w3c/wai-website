@@ -86,9 +86,9 @@ Plus d’informations {#resources}
 -   **Vérification simple :**
     -   [En-têtes](/test-evaluate/preliminary/#headings) 
 -   **Témoignages d’utilisateurs :**
-    -   [Preety, collégienne atteinte d’un trouble du déficit de l’attention avec hyperactivité et dyslexie](/people-use-web/user-stories/#classroomstudent)
-    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
-    -   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+    -   [Preety, collégienne atteinte d’un trouble du déficit de l’attention avec hyperactivité et dyslexie](/people-use-web/user-stories/archived/#classroomstudent)
+    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+    -   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Règles d’accessibilité pour les contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
     -   [Critères de succès liés au « texte »](https://www.w3.org/WAI/WCAG21/quickref/?tags=text) 
 -   **Applicabilité aux appareils mobiles :**

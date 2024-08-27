@@ -105,7 +105,7 @@ To check other pages you need to add the check link as a bookmark.
 
 ## Learn more
 
-* Story: [Someone who uses headings to navigate a page](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
+* Story: [Someone who uses headings to navigate a page](https://www.w3.org/WAI/people-use-web/user-stories/archived/#accountant)
 * Tip: [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure)
 * Tip: [Use headings and spacing to group related content](https://www.w3.org/WAI/tips/designing/#use-headings-and-spacing-to-group-related-content)
 * Tutorial: [Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/)

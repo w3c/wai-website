@@ -85,9 +85,9 @@ Design clear structure, both visually and through the markup. For example, make 
 -   **Easy Check:**
     -   [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
 -   **User Story:**
-    -   [Preety, classroom student with attention deficit hyperactivity disorder (ADHD) and dyslexia](/people-use-web/user-stories/#classroomstudent)
-    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
-    -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
+    -   [Preety, classroom student with attention deficit hyperactivity disorder (ADHD) and dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+    -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "layout"](https://www.w3.org/WAI/WCAG21/quickref/?tags=layout)
 -   **Tutorial:**

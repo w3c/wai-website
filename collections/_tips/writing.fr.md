@@ -221,7 +221,7 @@ Voir l’exemple sous forme de texte
   * [En-têtes de section 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Comprendre 2.4.10](/WAI/WCAG21/Understanding/section-headings))
   * [Information et relations 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Comprendre 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **Témoignage d’utilisateur**
-  * [Comment un utilisateur de lecteur d’écran utilise les en-têtes pour naviguer](/people-use-web/user-stories/#accountant)
+  * [Comment un utilisateur de lecteur d’écran utilise les en-têtes pour naviguer](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -311,7 +311,7 @@ Pour chaque image, rédigez un équivalent textuel qui fournit des informations 
 * **Tutoriel**
   * [Images](/tutorials/images/)
 * **Témoignage d’utilisateur**
-  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/#accountant)
+  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -329,7 +329,7 @@ Pour du contenu seulement audio, comme un podcast, fournissez une transcription.
   * [Sous-titres (pré-enregistrés) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Comprendre 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
   * [Audiodescription ou version de remplacement pour un média temporel (pré-enregistré) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Comprendre 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **Témoignage d’utilisateur**
-  * [Comment les sous-titres aident un étudiant sourd](/people-use-web/user-stories/#onlinestudent)
+  * [Comment les sous-titres aident un étudiant sourd](/people-use-web/user-stories/archived/#onlinestudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -387,7 +387,7 @@ Assurez-vous que les instructions, l’aide, et les messages d’erreur sont cla
 * **WCAG**
   * [Étiquettes ou instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Comprendre 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Témoignage d’utilisateur**
-  * [Comment des instructions simples aident les personnes avec des troubles d’apprentissage](/people-use-web/user-stories/#supermarketassistant)
+  * [Comment des instructions simples aident les personnes avec des troubles d’apprentissage](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -443,7 +443,7 @@ Utilisez un langage et une mise en forme simples, adaptés au contexte.
   * [Mots rares 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Comprendre 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
   * [Abréviations 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Comprendre 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
 * **Témoignage d’utilisateur**
-  * [Un texte facile à lire profite à un utilisateur avec des troubles de lecture](/people-use-web/user-stories/#classroomstudent)
+  * [Un texte facile à lire profite à un utilisateur avec des troubles de lecture](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

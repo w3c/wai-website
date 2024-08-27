@@ -92,7 +92,7 @@ Plus d’informations {#resources}
     -   [Accès au clavier et visibilité du focus](/test-evaluate/preliminary/#interaction) 
     -   [Formulaires, étiquettes, et erreurs](/test-evaluate/preliminary/#forms)
 -   **Témoignages d’utilisateurs :**
-    -   [Alex, journaliste avec un trouble musculo-squelettique](/people-use-web/user-stories/#reporter)
+    -   [Alex, journaliste avec un trouble musculo-squelettique](/people-use-web/user-stories/archived/#reporter)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)):**
     -   [Critères de succès liés au « clavier » et aux « commandes »](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard%2Ccontrols) 
 -   **Applicabilité aux appareils mobiles :**

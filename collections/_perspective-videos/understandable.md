@@ -86,9 +86,9 @@ Learn more {#resources}
 -   **Easy Check:**
     -   [Headings](/test-evaluate/preliminary/#headings)
 -   **User Story:**
-    -   [Preety, middle school student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/#classroomstudent)
-    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
-    -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
+    -   [Preety, middle school student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+    -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "text"](https://www.w3.org/WAI/WCAG21/quickref/?tags=text)
 -   **Mobile Applicability:**
