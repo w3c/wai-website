@@ -139,7 +139,7 @@ footer: >
  
 {% include excol.html type="middle" %}
 
--   [أليكس، مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/#reporter)
+-   [أليكس، مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/archived/#reporter)
 -   [مارتين، طالب عبر الإنترنت يعاني من ضعف السمع](people-use-web/user-stories/#onlinestudent/)
 -   [ليا، موظف أول كفيف](people-use-web/user-stories/#accountant/)
 -   [برييتي، طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](people-use-web/user-stories/#classroomstudent/)
@@ -187,9 +187,9 @@ footer: >
  
 {% include excol.html type="middle" %}
 
--   [مارتين، الب عبر الإنترنت يعاني من ضعف السمع](/people-use-web/user-stories/#onlinestudent)
--   [ليا، موظف أول كفيف](/people-use-web/user-stories/#accountant)
--   [قاسم، مراهق أصم و كفيف](/people-use-web/user-stories/#teenager)
+-   [مارتين، الب عبر الإنترنت يعاني من ضعف السمع](/people-use-web/user-stories/archived/#onlinestudent)
+-   [ليا، موظف أول كفيف](/people-use-web/user-stories/archived/#accountant)
+-   [قاسم، مراهق أصم و كفيف](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
  
@@ -237,13 +237,13 @@ footer: >
  
 {% include excol.html type="middle" %}
 
--   [ليي، متسوق عبر الإنترنت يعاني من عمى الألوان](/people-use-web/user-stories/#shopper)
--   [أليكس، مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/#reporter)
--   [ليا، موظف أول كفيف](/people-use-web/user-stories/#accountant)
--   [برييتي، طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/#classroomstudent)
--   [ين، متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/#retiree)
--   [لويس، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/#supermarketassistant)
--   [قاسم، مراهق أصم و كفيف](/people-use-web/user-stories/#teenager)
+-   [ليي، متسوق عبر الإنترنت يعاني من عمى الألوان](/people-use-web/user-stories/archived/#shopper)
+-   [أليكس، مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/archived/#reporter)
+-   [ليا، موظف أول كفيف](/people-use-web/user-stories/archived/#accountant)
+-   [برييتي، طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/archived/#classroomstudent)
+-   [ين، متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/archived/#retiree)
+-   [لويس، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [قاسم، مراهق أصم و كفيف](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
  
@@ -295,11 +295,11 @@ footer: >
  
 {% include excol.html type="middle" %}
 
--   [ليي، متسوق عبر الإنترنت يعاني من عمى الألوان]( /people-use-web/user-stories/#shopper)
--   [ليا، موظف أول كفيف]( /people-use-web/user-stories/#onlinestudent)
--   [مارتين، طالب أون لاين يعاني من صعوبات بالسمع]( /people-use-web/user-stories/#accountant)
--   [ين، متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير]( /people-use-web/user-stories/#retiree)
--   [قاسم، مراهق أصم و كفيف]( /people-use-web/user-stories/#teenager)
+-   [ليي، متسوق عبر الإنترنت يعاني من عمى الألوان]( /people-use-web/user-stories/archived/#shopper)
+-   [ليا، موظف أول كفيف]( /people-use-web/user-stories/archived/#onlinestudent)
+-   [مارتين، طالب أون لاين يعاني من صعوبات بالسمع]( /people-use-web/user-stories/archived/#accountant)
+-   [ين، متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير]( /people-use-web/user-stories/archived/#retiree)
+-   [قاسم، مراهق أصم و كفيف]( /people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
  
@@ -348,8 +348,8 @@ footer: >
  
 {% include excol.html type="middle" %}
  
--   [أليكس, مراسل مصاب بالضغط النفسي المتكرر]( /people-use-web/user-stories/#reporter)
--   [ليا, موظف أول كفيف]( /people-use-web/user-stories/#accountant)
+-   [أليكس, مراسل مصاب بالضغط النفسي المتكرر]( /people-use-web/user-stories/archived/#reporter)
+-   [ليا, موظف أول كفيف]( /people-use-web/user-stories/archived/#accountant)
 
 {% include excol.html type="end" %}
  
@@ -393,11 +393,11 @@ footer: >
  
 {% include excol.html type="middle" %}
 
--   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/#reporter)
--   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/#classroomstudent)
--   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/#retiree)
--   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/#supermarketassistant)
--   [قاسم,مراهق أصم و كفيف](/people-use-web/user-stories/#teenager)
+-   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/archived/#reporter)
+-   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/archived/#classroomstudent)
+-   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/archived/#retiree)
+-   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [قاسم,مراهق أصم و كفيف](/people-use-web/user-stories/archived/#teenager)
  
 {% include excol.html type="end" %}
  
@@ -481,12 +481,12 @@ footer: >
  
 {% include excol.html type="middle" %}
  
--   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/#reporter)
--   [ليا, موظف أول كفيف](/people-use-web/user-stories/#accountant)
--   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/#classroomstudent)
--   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/#retiree)
--   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/#supermarketassistant)
--   [قاسم,مراهق أصم و كفيف](/people-use-web/user-stories/#teenager)
+-   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/archived/#reporter)
+-   [ليا, موظف أول كفيف](/people-use-web/user-stories/archived/#accountant)
+-   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/archived/#classroomstudent)
+-   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/archived/#retiree)
+-   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [قاسم,مراهق أصم و كفيف](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
  
@@ -520,9 +520,9 @@ footer: >
  
 {% include excol.html type="middle" %}
  
--   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/#reporter)
--   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/#retiree)
--   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/#supermarketassistant)
+-   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/archived/#reporter)
+-   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/archived/#retiree)
+-   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
  
@@ -563,11 +563,11 @@ footer: >
  
 {% include excol.html type="middle" %}
  
--   [مارتين, طالب أون لاين يعاني من صعوبات بالسمع]( /people-use-web/user-stories/#onlinestudent)
--   [ليا, موظف أول كفيف](/people-use-web/user-stories/#accountant)
--   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/#classroomstudent)
--   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/#retiree)
--   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/#supermarketassistant)
+-   [مارتين, طالب أون لاين يعاني من صعوبات بالسمع]( /people-use-web/user-stories/archived/#onlinestudent)
+-   [ليا, موظف أول كفيف](/people-use-web/user-stories/archived/#accountant)
+-   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/archived/#classroomstudent)
+-   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/archived/#retiree)
+-   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
  
@@ -610,12 +610,12 @@ footer: >
  
 {% include excol.html type="middle" %}
  
--   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/#reporter)
--   [ليا, موظف أول كفيف](/people-use-web/user-stories/#accountant)
--   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/#classroomstudent)
--   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/#retiree)
--   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/#supermarketassistant)
--   [قاسم,مراهق أصم و كفيف](/people-use-web/user-stories/#teenager)
+-   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/archived/#reporter)
+-   [ليا, موظف أول كفيف](/people-use-web/user-stories/archived/#accountant)
+-   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/archived/#classroomstudent)
+-   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/archived/#retiree)
+-   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [قاسم,مراهق أصم و كفيف](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
  
@@ -657,11 +657,11 @@ footer: >
  
 {% include excol.html type="middle" %}
  
--   [ليي, متسوق عبر الإنترنت يعاني من عمى الألوان]( /people-use-web/user-stories/#shopper)
--   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/#reporter)
--   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/#classroomstudent)
--   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/#retiree)
--   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/#supermarketassistant)
+-   [ليي, متسوق عبر الإنترنت يعاني من عمى الألوان]( /people-use-web/user-stories/archived/#shopper)
+-   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/archived/#reporter)
+-   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/archived/#classroomstudent)
+-   [ين, متقاعد مع ضعف البصر ورعاش اليد وفقدان خفيف للذاكرة على المدى القصير](/people-use-web/user-stories/archived/#retiree)
+-   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
  
@@ -704,12 +704,12 @@ footer: >
  
 {% include excol.html type="middle" %}
  
--   [ليي, متسوق عبر الإنترنت يعاني من عمى الألوان](/people-use-web/user-stories/#shopper)
--   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/#reporter)
--   [ليا, موظف أول كفيف](/people-use-web/user-stories/#accountant)
--   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/#classroomstudent)
--   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/#supermarketassistant)
--   [قاسم,مراهق أصم و كفيف](/people-use-web/user-stories/#teenager)
+-   [ليي, متسوق عبر الإنترنت يعاني من عمى الألوان](/people-use-web/user-stories/archived/#shopper)
+-   [أليكس, مراسل مصاب بالضغط النفسي المتكرر](/people-use-web/user-stories/archived/#reporter)
+-   [ليا, موظف أول كفيف](/people-use-web/user-stories/archived/#accountant)
+-   [برييتي, طالب في المرحلة الإعدادية يعاني من اضطراب فرط الحركة وتشتت الانتباه وعسر القراءة](/people-use-web/user-stories/archived/#classroomstudent)
+-   [لويس ، مساعد سوبر ماركت مصاب بمتلازمة داون](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [قاسم,مراهق أصم و كفيف](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
  

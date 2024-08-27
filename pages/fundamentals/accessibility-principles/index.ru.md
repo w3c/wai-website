@@ -139,12 +139,12 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Martine, online student who is hard of hearing](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
--   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Martine, online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -187,9 +187,9 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Martine, online student who is hard of hearing](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
--   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
+-   [Martine, online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+-   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -236,13 +236,13 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Lee, online shopper with color blindness](/people-use-web/user-stories/#shopper)
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
--   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
+-   [Lee, online shopper with color blindness](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -296,11 +296,11 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Lee, online shopper with color blindness](/people-use-web/user-stories/#shopper)
--   [Martine, online student who is hard of hearing](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
+-   [Lee, online shopper with color blindness](/people-use-web/user-stories/archived/#shopper)
+-   [Martine, online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -349,8 +349,8 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
 
 {% include excol.html type="end" %}
 
@@ -393,11 +393,11 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -485,12 +485,12 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
--   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -522,9 +522,9 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -567,11 +567,11 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Martine, online student who is hard of hearing](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
--   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
+-   [Martine, online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -615,12 +615,12 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
--   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -663,11 +663,11 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Lee, online shopper with color blindness](/people-use-web/user-stories/#shopper)
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
--   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
+-   [Lee, online shopper with color blindness](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -711,12 +711,12 @@ footer: >
 
 {% include excol.html type="middle" %}
 
--   [Lee, online shopper with color blindness](/people-use-web/user-stories/#shopper)
--   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
--   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
--   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/#classroomstudent)
--   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/#teenager)
+-   [Lee, online shopper with color blindness](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 

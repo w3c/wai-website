@@ -140,12 +140,12 @@ Las alternativas textuales pueden ser presentadas de varias maneras. Por ejemplo
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Martine, estudiante online con problemas de audición](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/#accountant)
--   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/#teenager)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Martine, estudiante online con problemas de audición](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -189,9 +189,9 @@ Las transcripciones de texto bien escritas que contienen una correcta secuencia 
 
 {% include excol.html type="middle" %}
 
--   [Martine, estudiante online con problemas de audición](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/#accountant)
--   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/#teenager)
+-   [Martine, estudiante online con problemas de audición](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/archived/#accountant)
+-   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -239,13 +239,13 @@ El cumplimiento de este requisito permite que el contenido se lea correctamente 
 
 {% include excol.html type="middle" %}
 
--   [Lee, comprador online con daltonismo](/people-use-web/user-stories/#shopper)
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/#accountant)
--   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/#teenager)
+-   [Lee, comprador online con daltonismo](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -298,11 +298,11 @@ Cumplir con este requisito ayuda a separar el primer plano del fondo para hacer 
 
 {% include excol.html type="middle" %}
 
--   [Lee, comprador online con daltonismo](/people-use-web/user-stories/#s#reporter)
--   [Martine, estudiante online con problemas de audición](/people-use-web/user-stories/#reporter)
--   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/#accountant)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/#teenager)
+-   [Lee, comprador online con daltonismo](/people-use-web/user-stories/archived/#s#reporter)
+-   [Martine, estudiante online con problemas de audición](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -351,8 +351,8 @@ El cumplimiento de este requisito ayuda a los usuarios de teclado, incluidos qui
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/#accountant)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, ejecutiva senior con ceguera](/people-use-web/user-stories/archived/#accountant)
 
 {% include excol.html type="end" %}
 
@@ -396,11 +396,11 @@ Entre los ejemplos de cómo proporcionar tiempo suficiente se incluyen los mecan
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/#teenager)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -484,12 +484,12 @@ Cumplir este requisito ayuda a las personas a navegar a través de las páginas 
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Ilya, profesional senior con ceguera](/people-use-web/user-stories/#accountant)
--   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/#teenager)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, profesional senior con ceguera](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -523,9 +523,9 @@ Cumplir este requisito hace que el contenido más fácil de usar por cualquier p
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -566,11 +566,11 @@ El cumplimiento de este requisito ayuda al software, incluyendo las tecnologías
 
 {% include excol.html type="middle" %}
 
--   [Martine, estudiante online con problemas de audición](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, profesional senior con ceguera](/people-use-web/user-stories/#accountant)
--   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Martine, estudiante online con problemas de audición](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, profesional senior con ceguera](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -613,12 +613,12 @@ El cumplimiento de este requisito ayuda a las personas a aprender rápidamente l
 
 {% include excol.html type="middle" %}
 
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Ilya, profesional senior con ceguera](/people-use-web/user-stories/#accountant)
--   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/#teenager)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, profesional senior con ceguera](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -661,11 +661,11 @@ El cumplimiento de este requisito ayuda a las personas que no ven o no oyen el c
 
 {% include excol.html type="middle" %}
 
--   [Lee, comprador online con daltonismo](/people-use-web/user-stories/#shopper)
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/#retiree)
--   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Lee, comprador online con daltonismo](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retirada, con visión reducida, temblores en manos y leve perdida de memoria a corto plazo](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -709,12 +709,12 @@ El cumplimiento de este requisito ayuda a maximizar la compatibilidad con los ag
 
 {% include excol.html type="middle" %}
 
--   [Lee, comprador online con daltonismo](/people-use-web/user-stories/#shopper)
--   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/#reporter)
--   [Ilya, profesional senior con ceguera](/people-use-web/user-stories/#accountant)
--   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/#classroomstudent)
--   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/#teenager)
+-   [Lee, comprador online con daltonismo](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, reportero con lesión por esfuerzo repetitivo](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, profesional senior con ceguera](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, estudiante de secundaria con trastorno por déficit de atención e hiperactividad y dislexia](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Luis, asistente en un supermercado con síndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente con sordera y ceguera](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 

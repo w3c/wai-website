@@ -139,12 +139,12 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Martine, 청력이 약한 온라인 수강생](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
--   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/#teenager)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Martine, 청력이 약한 온라인 수강생](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -188,9 +188,9 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Martine, 청력이 약한 온라인 수강생](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
--   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/#teenager)
+-   [Martine, 청력이 약한 온라인 수강생](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
+-   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -238,13 +238,13 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Lee, 온라인 쇼핑을 하는 색맹인](/people-use-web/user-stories/#shopper)
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
--   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/#teenager)
+-   [Lee, 온라인 쇼핑을 하는 색맹인](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -297,11 +297,11 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Lee, 온라인 쇼핑을 하는 색맹인](/people-use-web/user-stories/#shopper)
--   [Martine, 청력이 약한 온라인 수강생](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/#teenager)
+-   [Lee, 온라인 쇼핑을 하는 색맹인](/people-use-web/user-stories/archived/#shopper)
+-   [Martine, 청력이 약한 온라인 수강생](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -350,8 +350,8 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
 
 {% include excol.html type="end" %}
 
@@ -395,11 +395,11 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/#teenager)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -483,12 +483,12 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
--   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/#teenager)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -522,9 +522,9 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/#supermarketassistant)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -565,11 +565,11 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Martine, 청력이 약한 온라인 수강생](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
--   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/#supermarketassistant)
+-   [Martine, 청력이 약한 온라인 수강생](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -612,12 +612,12 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
--   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/#teenager)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -660,11 +660,11 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Lee, 온라인 쇼핑을 하는 색맹인](/people-use-web/user-stories/#shopper)
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/#retiree)
--   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/#supermarketassistant)
+-   [Lee, 온라인 쇼핑을 하는 색맹인](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 저시력, 수전증, 경도 건망증이 있는 퇴직자](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -708,12 +708,12 @@ W3C 웹 접근성 이니셔티브(WAI)는 웹 접근성 관련 국제 표준으�
 
 {% include excol.html type="middle" %}
 
--   [Lee, 온라인 쇼핑을 하는 색맹인](/people-use-web/user-stories/#shopper)
--   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/#reporter)
--   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/#accountant)
--   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/#classroomstudent)
--   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/#teenager)
+-   [Lee, 온라인 쇼핑을 하는 색맹인](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, 반복성 긴장 장애가 있는 리포터](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 시각장애가 있는 고위 간부](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 주의력결핍과다활동장애와 난독증이 있는 중학생](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Luis, 다운증후군이 있는 슈퍼마켓 직원](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 시청각장애가 있는 10대](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 

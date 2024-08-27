@@ -140,12 +140,12 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Martine, 听力障碍的在线学生](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
--   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/#teenager)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Martine, 听力障碍的在线学生](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -189,9 +189,9 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Martine, 听力障碍的在线学生](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
--   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/#teenager)
+-   [Martine, 听力障碍的在线学生](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
+-   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -239,13 +239,13 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Lee, 有色盲的网上购物者](/people-use-web/user-stories/#shopper)
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
--   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/#teenager)
+-   [Lee, 有色盲的网上购物者](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -298,11 +298,11 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Lee, 有色盲的网上购物者](/people-use-web/user-stories/#shopper)
--   [Martine, 听力障碍的在线学生](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/#teenager)
+-   [Lee, 有色盲的网上购物者](/people-use-web/user-stories/archived/#shopper)
+-   [Martine, 听力障碍的在线学生](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -351,8 +351,8 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
 
 {% include excol.html type="end" %}
 
@@ -396,11 +396,11 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/#teenager)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -484,12 +484,12 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
--   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/#teenager)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -523,9 +523,9 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/#supermarketassistant)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -566,11 +566,11 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Martine, 听力障碍的在线学生](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
--   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/#supermarketassistant)
+-   [Martine, 听力障碍的在线学生](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -613,12 +613,12 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
--   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/#teenager)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -661,11 +661,11 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Lee, 有色盲的网上购物者](/people-use-web/user-stories/#shopper)
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/#classroomstudent)
--   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/#retiree)
--   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/#supermarketassistant)
+-   [Lee, 有色盲的网上购物者](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, 视力低下、手颤抖、轻度短期失忆的退休人员](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -709,12 +709,12 @@ W3C的Web无障碍推进(WAI)提供了一组被国际公认为Web无障碍标准
 
 {% include excol.html type="middle" %}
 
--   [Lee, 有色盲的网上购物者](/people-use-web/user-stories/#shopper)
--   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/#reporter)
--   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/#accountant)
--   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/#classroomstudent)
--   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/#teenager)
+-   [Lee, 有色盲的网上购物者](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, 一个记者有重复性应激损伤](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, 盲人高级工作人员](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, 有注意缺陷多动障碍和阅读障碍的中学生](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Luis, 唐氏综合症超市助理](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, 聋的盲人青年](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
