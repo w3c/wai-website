@@ -84,7 +84,7 @@ Learn more {#resources}
 -   **Easy Check:**
     -   [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
 -   **User Story:**
-    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
+    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "labels"](https://www.w3.org/WAI/WCAG21/quickref/?tags=labels)
 

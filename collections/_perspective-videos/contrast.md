@@ -84,8 +84,8 @@ Select colors that provide sufficient contrast. There are tools to help check an
 -   **Easy Check:**
     -   [Contrast ratio ("color contrast")](/test-evaluate/preliminary/#contrast)
 -   **User Story:**
-    -   [Lee, online shopper who cannot distinguish between certain colors (color blindness)](/people-use-web/user-stories/#shopper)
-    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
+    -   [Lee, online shopper who cannot distinguish between certain colors (color blindness)](/people-use-web/user-stories/archived/#shopper)
+    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
 -   **User Needs:**
     -   [Accessibility Requirements for People with Low Vision](https://www.w3.org/TR/low-vision-needs/)
 -   **Web Content Accessibility Guidelines ([ WCAG  Overview](/standards-guidelines/wcag/)):**

@@ -83,8 +83,8 @@ Choisissez des couleurs de texte et d’arrière-plan qui fournissent suffisamme
 -   **Vérification simple :**
     -   [Rapport de contraste ("contraste des couleurs")](/test-evaluate/preliminary/#contrast) 
 -   **Témoignages d’utilisateurs :**
-    -   [Lee, client de site Web marchand qui ne peut pas distinguer certaines couleurs (daltonisme)](/people-use-web/user-stories/#shopper)
-    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
+    -   [Lee, client de site Web marchand qui ne peut pas distinguer certaines couleurs (daltonisme)](/people-use-web/user-stories/archived/#shopper)
+    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
 -   **Besoins des utilisateurs :**
     -   [Exigences d’accessibilité pour les personnes malvoyantes](https://www.w3.org/TR/low-vision-needs/) 
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :** 

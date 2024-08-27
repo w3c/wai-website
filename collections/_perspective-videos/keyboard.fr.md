@@ -84,9 +84,9 @@ Les composants d’interface HTML natifs, comme les liens, les boutons, et les �
 -   **Vérification simple :**
     -   [Accès au clavier et focus visible](/test-evaluate/preliminary/#interaction) 
 -   **Témoignages d’utilisateurs :**
-    -   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
-    -   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
-    -   [Kaseem, adolescente sourde et aveugle](/people-use-web/user-stories/#teenager)
+    -   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+    -   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+    -   [Kaseem, adolescente sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :** 
     -   [Critères de succès relatifs au « clavier »](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard) 
 -   **Applicabilité aux appareils mobiles :**
