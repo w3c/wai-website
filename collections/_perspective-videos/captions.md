@@ -90,7 +90,8 @@ Learn more {#resources}
 -   **Easy Check:**
     -   [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
 -   **User Story:**
-    -   [Martine, online student who is hard of hearing](/people-use-web/user-stories/#onlinestudent)
+    - [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six/)
+    - [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven/)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "captions"](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
 -   **Mobile Applicability:**

@@ -91,7 +91,7 @@ Learn more {#resources}
     -   [Keyboard access and visual focus](/test-evaluate/preliminary/#interaction)
     -   [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
 -   **User Story:**
-    -   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
+    -  [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "keyboard" and "controls"](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard%2Ccontrols)
 -   **Mobile Applicability:**
