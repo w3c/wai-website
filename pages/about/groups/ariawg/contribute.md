@@ -38,18 +38,18 @@ The ARIA WG accepts public comments on publications on the [public-aria](http://
 
 ## Github Issues and pull requests
 
-Technical work is done in a set of GitHub repositories. Work on a given feature may take place in several repositories, and follows the [ARIA Working Group Work Flow](/about/groups/ariawg/workflow/). Repositories maintained by the ARIA Working Group include:
+Technical work is done in a set of GitHub repositories. Pull Requests are open to the main ARIA monorepo. Issues are open to the child spec repos. See below for details. Work follows the [ARIA Process](https://github.com/w3c/aria/blob/main/documentation/process.md) document. Repositories maintained by the ARIA Working Group include:
 
-- [w3c/aria](https://github.com/w3c/aria/) for Accessible Rich Internet Applications;
-- [w3c/core-aam](https://github.com/w3c/core-aam/) for Core Accessibility API Mappings;
-- [w3c/accname](https://github.com/w3c/accname/) for Accessible Name and Description Computation;
-- [w3c/dpub-aria](https://github.com/w3c/dpub-aria/) for Digital Publishing WAI-ARIA Module, now developed by the [Publishing Working Group](https://www.w3.org/publishing/groups/publ-wg/);
+- [w3c/aria](https://github.com/w3c/aria/) for spec development;
+- [w3c/core-aam](https://github.com/w3c/core-aam/) for issues related to Core Accessibility API Mappings;
+- [w3c/accname](https://github.com/w3c/accname/) for issues related to Accessible Name and Description Computation;
+- [w3c/dpub-aria](https://github.com/w3c/dpub-aria/) for issues related to Digital Publishing WAI-ARIA Module;
 - [w3c/dpub-aam](https://github.com/w3c/dpub-aam/) for Digital Publishing Accessibility API Mappings;
-- [w3c/graphics-aria](https://github.com/w3c/graphics-aria/) for WAI-ARIA Graphics Module;
-- [w3c/graphics-aam](https://github.com/w3c/graphics-aam/) for Graphics Accessibility API Mappings;
-- [w3c/svg-aam](https://github.com/w3c/svg-aam/) for SVG Accessibility API Mappings, now developed by the [SVG Working Group](http://www.w3.org/Graphics/SVG/WG/);
-- [w3c/html-aam](https://github.com/w3c/html-aam/) for HTML Accessibility API Mappings, now developed by the [Web Platform Working Group](http://www.w3.org/WebPlatform/WG/);
-- [w3c/css-aam](https://github.com/w3c/css-aam/) for CSS Accessibility API Mappings, with the [CSS Accessibility Task Force](/about/groups/task-forces/css-a11y/);
+- [w3c/graphics-aria](https://github.com/w3c/graphics-aria/) for issues related to WAI-ARIA Graphics Module;
+- [w3c/graphics-aam](https://github.com/w3c/graphics-aam/) for issues related to Graphics Accessibility API Mappings;
+- [w3c/svg-aam](https://github.com/w3c/svg-aam/) for issues related to SVG Accessibility API Mappings, now developed by the [SVG Working Group](http://www.w3.org/Graphics/SVG/WG/);
+- [w3c/html-aam](https://github.com/w3c/html-aam/) for issues related to HTML Accessibility API Mappings, now developed by the [Web Platform Working Group](http://www.w3.org/WebPlatform/WG/);
+- [w3c/css-aam](https://github.com/w3c/css-aam/) for issues related to CSS Accessibility API Mappings, with the [CSS Accessibility Task Force](/about/groups/task-forces/css-a11y/);
 - [w3c/aria-practices](https://github.com/w3c/aria-practices/) for WAI-ARIA Authoring Practices, with the [ARIA Authoring Practices Task Force](/about/groups/task-forces/practices/);
 - [w3c/aria-at](https://github.com/w3c/aria-at/) for Assistive Technology ARIA Experience Assessment, with the [ARIA and Assistive Technologies Community Group](https://www.w3.org/community/aria-at/);
 
