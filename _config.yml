@@ -37,7 +37,7 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 repository: w3c/wai-website
-branch: master
+branch: main
 
 ytkey: AIzaSyBzq155tA3E3gaYlRdx2S9U9FM78U1-568
 
