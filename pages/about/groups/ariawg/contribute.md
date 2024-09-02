@@ -38,7 +38,11 @@ The ARIA WG accepts public comments on publications on the [public-aria](http://
 
 ## Github Issues and pull requests
 
-Technical work is done in a set of GitHub repositories. Pull Requests are open to the main ARIA monorepo. Issues are open to the child spec repos. See below for details. Work follows the [ARIA Process](https://github.com/w3c/aria/blob/main/documentation/process.md) document. Repositories maintained by the ARIA Working Group include:
+Technical work is done in a set of GitHub repositories. Pull Requests are open to the main w3c/aria repository. Issues are open to the child spec repos. See below for details. 
+
+Work follows the [ARIA Process](https://github.com/w3c/aria/blob/main/documentation/process.md) document. 
+
+Repositories maintained by the ARIA Working Group include:
 
 - [w3c/aria](https://github.com/w3c/aria/) for spec development;
 - [w3c/core-aam](https://github.com/w3c/core-aam/) for issues related to Core Accessibility API Mappings;
