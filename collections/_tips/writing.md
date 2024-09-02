@@ -276,7 +276,7 @@ Write link text so that it describes the content of the link target. Avoid using
 
 ## Write meaningful text alternatives for images
 
-For every image, write alternative text that provides the information or function of the image. For purely decorative images, there is no need to write alternative text.
+For every image, write alternative text that provides the information or function of the image.  For purely decorative images that convey no information, do not provide alternative text.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Using alternative text to communicate important information" class="example" %}
