@@ -5,6 +5,8 @@ ref: /about/groups/task-forces/adapt/
 lang: en
 github:
   label: wai-groups
+redirect_from:
+  - /about/groups/task-forces/personalization/
 ---
 
 {::nomarkdown}
