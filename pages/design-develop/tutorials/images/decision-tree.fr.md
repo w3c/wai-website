@@ -23,6 +23,8 @@ navigation:
 permalink: /tutorials/images/decision-tree/fr # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /tutorials/images/decision-tree/ # Do not change this
 
+changelog: /tutorials/changelog/
+
 # In the footer below:
 # Translate the Working Group name. Leave the Working Group acronym in English.
 metafooter: true
