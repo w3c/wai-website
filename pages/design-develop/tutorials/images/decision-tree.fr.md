@@ -5,7 +5,7 @@
 title: "Un arbre décisionnel pour l'attribut alt"
 title_html: "Un arbre décisionnel pour l'attribut <code>alt</code>"
 lang: fr  # Change "en" to the translated-language shortcode
-last_updated: 2024-01-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-02  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: Rémi Bétin
@@ -81,5 +81,5 @@ Cet arbre décisionnel décrit comment utiliser l'attribut `alt` de l'élément 
   - {:.no} **Non :**
     - Continuez.
 - **L'usage de l'image n'est pas listé ci-dessus&nbsp;; ou le texte `alt` à fournir n'est pas clair ?**
-  - {:.yes} Cet arbre décisionnel ne couvre **pas** tous les cas. Pour des informations détaillées sur les textes alternatifs à fournir, référez-vous à [la page Concepts - Images](/tutorials/images/).
+  - {:.yes} Cet arbre décisionnel ne couvre **pas** tous les cas. Pour des informations détaillées sur les textes alternatifs à fournir, référez-vous aux [[Tutoriels sur les images]](/tutorials/images/).
 {:.decision-tree}
