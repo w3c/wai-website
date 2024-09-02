@@ -25,6 +25,8 @@ navigation:
 permalink: /tutorials/images/decision-tree/ja
 ref: /tutorials/images/decision-tree/ # Do not change this
 
+changelog: /tutorials/changelog/
+
 # In the footer below:
 # Translate the Working Group name. Leave the Working Group acronym in English.
 metafooter: true

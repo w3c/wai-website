@@ -23,6 +23,8 @@ navigation:
 permalink: /tutorials/images/decision-tree/de
 ref: /tutorials/images/decision-tree/
 
+changelog: /tutorials/changelog/
+
 metafooter: true
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
