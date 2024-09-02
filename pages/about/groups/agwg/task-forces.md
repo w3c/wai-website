@@ -34,7 +34,7 @@ The [Cognitive and Learning Disabilities Accessibility Task Force](/about/groups
 
 ## WCAG 2.x Backlog Task Force
 
-The objective of the [WCAG 2 Task Force](/about/groups/task-forces/wcag2x-backlog/) is to maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 of the Web Content Accessibility Guidelines, and to document considerations for WCAG 3.0 which cannot be readily addressed within the existing normative language of the 2.x specification.
+The objective of the [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/) is to maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 of the Web Content Accessibility Guidelines, and to document considerations for WCAG 3.0 which cannot be readily addressed within the existing normative language of the 2.x specification.
 
 ## Low Vision Accessibility Task Force
 
