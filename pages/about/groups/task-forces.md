@@ -57,7 +57,7 @@ Task Forces operate under specific Working Groups.
     
 **[WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/)** under the [AG Working Group](/about/groups/agwg/)
 
-: The WCAG 2 Task Force maintains up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 of the Web Content Accessibility Guidelines, and documents considerations for WCAG 3.0 which cannot be readily addressed within the existing normative language of the 2.x specification.
+: The WCAG 2.x Backlog Task Force maintains up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 of the Web Content Accessibility Guidelines, and documents considerations for WCAG 3.0 which cannot be readily addressed within the existing normative language of the 2.x specification.
 
 
 **[ARIA Authoring Practices Task Force](/about/groups/task-forces/practices/)** under the [ARIA Working Group](/about/groups/ariawg/)
