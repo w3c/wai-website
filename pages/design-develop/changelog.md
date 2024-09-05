@@ -22,7 +22,7 @@ footer: >
 {% include box.html type="start" title="About" class="" %}
 {:/}
 
-This page is designed so translators can copy and paste from this rendered changelog page. Or, translators can use the [Design and Develop Overview page source](https://raw.githubusercontent.com/w3c/wai-website/master/pages/wai-design-develop-overview/index.md).
+This page is designed so translators can copy and paste from this rendered changelog page. Or, translators can use the [Design and Develop Overview page source](https://raw.githubusercontent.com/w3c/wai-website/main/pages/wai-design-develop-overview/index.md).
 
 For others, **particularly significant or substantive changes are summarized after “Significant:”**.
 
