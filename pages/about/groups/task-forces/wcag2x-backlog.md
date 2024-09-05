@@ -13,7 +13,7 @@ github:
 
 The WCAG 2.x Backlog Task Force is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/).
 
-Some information on this page is also shown on, and may be more current in, the [Mobile Accessibility Task Force page](https://www.w3.org/groups/tf/wcag2x-backlog/).
+Some information on this page is also shown on, and may be more current in, the [WCAG 2.x Backlog Task Force page](https://www.w3.org/groups/tf/wcag2x-backlog/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
