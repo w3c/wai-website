@@ -2,7 +2,7 @@
 title: "Digital Accessibility Research"
 nav_title: "Research"
 lang: en
-last_updated: 2023-08-08
+last_updated: 2024-09-06
 description: Overview of research support activities of the W3C Web Accessibility Initiative (WAI).
 
 github:
@@ -13,7 +13,7 @@ ref: /research/
 
 feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Date:</strong> Updated 7 September 2024.</p>
+  <p><strong>Date:</strong> Updated 6 September 2024.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
