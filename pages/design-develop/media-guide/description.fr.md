@@ -7,7 +7,7 @@ title_image: /content-images/media-guide/ad.svg
 
 nav_title: "Description"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-09  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
@@ -37,7 +37,7 @@ image: /content-images/media-guide/social.png
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date :</strong> Mise à jour : 24 août 2022. Première publication septembre 2019. CHANGELOG.</p>
+   <p><strong>Date :</strong> Mise à jour : 9 septembre 2024. Première publication septembre 2019. CHANGELOG.</p>
    <p><strong>Rédactrice :</strong> <a href=" https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
    <p>Développé par le groupe de travail Éducation et promotion (<a href=" https://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 ---
@@ -163,10 +163,10 @@ Vidéo :
 
 **Extraits des WCAG** avec des accentuations, des ajouts entre [crochets] et des liens vers plus d’informations dans « Comprendre les WCAG » :
 
-* [A 1.2.1 Contenu seulement audio ou vidéo](https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html) (pré-enregistré) : Pour… des médias pré-enregistrés seulement vidéo : soit une version de remplacement pour un média temporel [transcription descriptive] ***ou*** une piste audio [ou description] présentant une information équivalente pour un contenu pré-enregistré seulement vidéo.
-* [A 1.2.3 Audio-description ou version de remplacement pour un média temporel](https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html) (pré-enregistré) : une version de remplacement pour un média temporel [transcription] ***ou*** une audio-description du contenu vidéo pré-enregistré pour un média synchronisé...
-* [AA 1.2.5 Audio-description](https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html) (pré-enregistrée) : fournir une audio-description pour tout contenu vidéo pré-enregistré, sous forme de média synchronisé.
-* [AAA 1.2.7 Audio-description étendue](https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded.html) (pré-enregistrée) : lorsque les blancs présents dans le fond sonore ne sont pas suffisants pour permettre à l’audio-description de transmettre le sens de la vidéo, fournir une audio-description étendue pour tout contenu vidéo pré-enregistré sous la forme de média synchronisé.
+* [A 1.2.1 Contenu seulement audio ou vidéo](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html) (pré-enregistré) : Pour… des médias pré-enregistrés seulement vidéo : soit une version de remplacement pour un média temporel [transcription descriptive] ***ou*** une piste audio [ou description] présentant une information équivalente pour un contenu pré-enregistré seulement vidéo.
+* [A 1.2.3 Audio-description ou version de remplacement pour un média temporel](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded.html) (pré-enregistré) : une version de remplacement pour un média temporel [transcription] ***ou*** une audio-description du contenu vidéo pré-enregistré pour un média synchronisé...
+* [AA 1.2.5 Audio-description](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html) (pré-enregistrée) : fournir une audio-description pour tout contenu vidéo pré-enregistré, sous forme de média synchronisé.
+* [AAA 1.2.7 Audio-description étendue](https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded.html) (pré-enregistrée) : lorsque les blancs présents dans le fond sonore ne sont pas suffisants pour permettre à l’audio-description de transmettre le sens de la vidéo, fournir une audio-description étendue pour tout contenu vidéo pré-enregistré sous la forme de média synchronisé.
 
 ## Considérations à prendre en compte pour la description, compétences, et outils {#description-considerations-skills-and-tools}
 
