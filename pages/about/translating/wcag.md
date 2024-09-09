@@ -2,7 +2,7 @@
 title: How to Translate WCAG 2
 nav_title: "How to Translate WCAG 2"
 lang: en
-last_updated: 2024-04-09
+last_updated: 2024-09-09
 description: Technical instructions on translating WCAG
 
 permalink: /about/translating/wcag/
@@ -17,7 +17,7 @@ image: /content-images/about/social-translations.png
 
 feedbackmail: wai@w3.org
 footer: |
-  <p><strong>Date:</strong> Updated 9 April 2024.</p>
+  <p><strong>Date:</strong> Updated 9 September 2024.</p>
   <p><strong>Editor:</strong> Rémi Bétin.</p>
 ---
 
@@ -78,7 +78,6 @@ Translate user-oriented content in:
 - `guidelines/input-purposes.html`
 - `guidelines/relative-luminance.html`
 - `guidelines/respect-config.js`: translate Editors list.
-- `guidelines/wcag.json`
 - All files in `acknowledgements/` folder
 
 Make sure to follow these translation guidelines:
