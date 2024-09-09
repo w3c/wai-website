@@ -223,6 +223,8 @@ While color can be useful to convey information, color should not be the only wa
 
 * **WCAG**
   * [Use of Color 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([Understanding 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
+  * [Sensory Characteristics 1.3.3](/WAI/WCAG21/quickref/#sensory-characteristics) ([Understanding 1.3.3](/WAI/WCAG21/Understanding/sensory-characteristics.html))
+  * [Info and Relationships 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **User Story**
   * [[Lexie, online shopper who cannot distinguish between certain colors (color blindness)]](/people-use-web/user-stories/story-four/)
 
