@@ -157,7 +157,7 @@ Cette section concerne les contenus seulement audio, comme les podcasts qui ne c
 -   Si oui,
     -   **[Audio-description des informations visuelles](/media/av/description/) _ou_  [transcription descriptive](//media/av/transcripts/) (A)**
     -   **[Audio-description des informations visuelles](/media/av/description/) (AA)**
-    -   **[Transcription descriptive](//media/av/transcripts/) (AAA)** *(Si vous disposez d’une transcription descriptive, vous n’avez pas besoin d’une transcription supplémentaire des informations seulement audio évoquée dans la question précédente.)*
+    -   **[Transcription descriptive](/media/av/transcripts/) (AAA)** *(Si vous disposez d’une transcription descriptive, vous n’avez pas besoin d’une transcription supplémentaire des informations seulement audio évoquée dans la question précédente.)*
     {:.alt}
 -   Si non, [informer les utilisateurs](#none).
 

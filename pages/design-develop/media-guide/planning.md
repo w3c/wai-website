@@ -160,7 +160,7 @@ This section covers audio-only media, like podcasts that don't have video.
 -   If yes,
     -   **[Audio description of the visual information](/media/av/description/) _or_  [descriptive transcript](//media/av/transcripts/) (A)**
     -   **[Audio description of the visual information](/media/av/description/) (AA)**
-    -   **[Descriptive transcript](//media/av/transcripts/) (AAA)** *(If you have a descriptive transcript, you do not need an additional transcript of only audio information from the previous question.)*
+    -   **[Descriptive transcript](/media/av/transcripts/) (AAA)** *(If you have a descriptive transcript, you do not need an additional transcript of only audio information from the previous question.)*
     {:.alt}
 -   If no, [inform users](#none).
 
