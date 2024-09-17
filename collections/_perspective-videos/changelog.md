@@ -1,24 +1,25 @@
 ---
 # Do not translate Changelog
 title: Changelog for Web Accessibility Perspectives Videos
-title_html: Changelog for <a href="/perspective-videos/">Web Accessibility Perspectives Videos</a>
+title_html: Changelog for <a href="/WAI/perspective-videos/">Web Accessibility Perspectives Videos</a>
 lang: en
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/changelog/
 ref: /perspective-videos/changelog/
 
-nosidenav: true
 image: /content-images/perspective-videos/overview.jpg
 ---
 
-**_Pending updates:_ frontmatter for translations.**
+## 17 September 2024
+
+In [Speech Recognition page](/perspective-videos/voice/), changed the date we hope to update the video to use “speech recognition”: "in 2025" now, was "in late 2022".
 
 ## June 2023
 
-* Added link to compilation on W3C server
+* Added link to compilation on W3C server.
 
 ## April 2021
 
