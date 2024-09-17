@@ -64,7 +64,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 * **WAI-Adapt** enables users to adapt (or ‘personalize’) how content is presented to meet their needs and preferences. [[WAI-Adapt Overview]](/adapt/) _[APA WG, WAI-Adapt TF]_
 
-* **Spoken Pronunciation** technical standards will enable screen readers and voice assistants to pronounce words correctly. [[Pronunciation Overview]](/pronunciation/) _[APA WG, Spoken Pronunciation TF]_
+* **Spoken Presentation** technical standards will enable screen readers and voice assistants to pronounce words correctly. [[Pronunciation Overview]](/pronunciation/) _[APA WG, Spoken Presentation TF]_
 
 ### Documenting Additional Guidance for People with Cognitive Disabilities, Low Vision, and Mobile Devices
 
