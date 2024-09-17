@@ -24,9 +24,9 @@ resource:
 {% include toc.html type="end" %}
 {:/}
 
-## September 2024
+## 17 September 2024
 
-* Updated links to Understanding WCAG 2.1 > 2.2.
+* In [Audio Content and Video Content](/media/av/av-content/), [Captions/Subtitles](/media/av/captions/), [Description](/media/av/description/), [Planning Audio and Video Media](/media/av/planning/), [Media Player](/media/av/player), [Sign Languages](/media/av/sign-languages/) and [Transcripts](/media/av/transcripts/): updated links to WCAG 2.2 Understanding pages instead of 2.1.
 
 ## 31 August 2022
 
