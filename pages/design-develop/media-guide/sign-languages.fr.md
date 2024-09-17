@@ -6,7 +6,7 @@ title: "Langues des signes"
 title_image: /content-images/media-guide/sign.svg
 nav_title: "Langues des signes"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2024-09-09  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
@@ -36,7 +36,7 @@ image: /content-images/media-guide/social.png
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date :</strong> Mise à jour : 9 septembre 2024. Première publication en septembre 2019. CHANGELOG.</p>
+   <p><strong>Date :</strong> Mise à jour : 17 septembre 2024. Première publication en septembre 2019. CHANGELOG.</p>
    <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
    <p>Développé par le groupe de travail Éducation et promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 ---
