@@ -245,6 +245,8 @@ defaults:
           ref: /standards-guidelines/act/rules/about/
         - name: Implementations
           ref: /standards-guidelines/act/implementations/
+      github:
+        hide: true
   - scope:
       path: "pages/wai-aria-practices"
     values:
