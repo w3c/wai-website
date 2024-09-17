@@ -2,7 +2,7 @@
 title: How to Translate WCAG 2
 nav_title: "How to Translate WCAG 2"
 lang: en
-last_updated: 2024-09-09
+last_updated: 2024-09-17
 description: Technical instructions on translating WCAG
 
 permalink: /about/translating/wcag/
@@ -17,7 +17,7 @@ image: /content-images/about/social-translations.png
 
 feedbackmail: wai@w3.org
 footer: |
-  <p><strong>Date:</strong> Updated 9 September 2024.</p>
+  <p><strong>Date:</strong> Updated 17 September 2024.</p>
   <p><strong>Editor:</strong> Rémi Bétin.</p>
 ---
 
