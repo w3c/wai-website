@@ -6,7 +6,7 @@ title: "L’accessibilité Web illustrée : explorez ses effets et ses bénéfic
 title_html: "L’accessibilité Web illustrée :<br>explorez ses effets et ses bénéfices pour tous"
 nav_title: "Vue d’ensemble : vidéos d’illustration"
 lang: fr
-last_updated: 2023-10-11    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 order: 0
 
 translators:
@@ -37,7 +37,7 @@ image: /content-images/perspective-videos/overview.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Statut :</strong> Mise à jour : 5 juin 2023. CHANGELOG.<br>
+  <p><strong>Statut :</strong> Mise à jour : 17 septembre 2024. CHANGELOG.<br>
   <strong>Rédacteur et chef de projet :</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne (CE). ACKNOWLEDGEMENTS.</p>
 
 # Read Translations Notes for this resource at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

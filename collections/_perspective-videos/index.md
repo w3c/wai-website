@@ -6,7 +6,7 @@ title: "Web Accessibility Perspectives Videos: Explore the Impact and Benefits f
 title_html: "Web Accessibility Perspectives Videos:<br>Explore the Impact and Benefits for Everyone"
 nav_title: "Perspective Videos Overview"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2023-06-05    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 order: 0
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -38,7 +38,7 @@ image: /content-images/perspective-videos/overview.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Status:</strong> Updated 5 June 2023. CHANGELOG.<br><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Status:</strong> Updated 17 September 2024. CHANGELOG.<br><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. ACKNOWLEDGEMENTS.</p>
 
 # Read Translations Notes for this resource at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/
 ---

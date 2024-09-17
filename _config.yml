@@ -115,7 +115,7 @@ defaults:
     values:
       layout: "default"
       github:
-        repository: w3c/wai-perspective-videos
+        label: wai-perspective-videos
   - scope:
       path: "_tips"
     values:
