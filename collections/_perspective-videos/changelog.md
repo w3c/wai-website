@@ -15,7 +15,7 @@ image: /content-images/perspective-videos/overview.jpg
 
 ## 17 September 2024
 
-In [Speech Recognition page](/perspective-videos/voice/), changed the date we hope to update the video to use “speech recognition”: "in 2025" now, was "in late 2022".
+* Changed the date to "in 2025" in [Speech Recognition page](/perspective-videos/voice/).
 
 ## June 2023
 
