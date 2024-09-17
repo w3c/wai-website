@@ -24,6 +24,10 @@ resource:
 {% include toc.html type="end" %}
 {:/}
 
+## 17 September 2024
+
+* In [Audio Content and Video Content](/media/av/av-content/), [Captions/Subtitles](/media/av/captions/), [Description](/media/av/description/), [Planning Audio and Video Media](/media/av/planning/), [Media Player](/media/av/player/), [Sign Languages](/media/av/sign-languages/) and [Transcripts](/media/av/transcripts/): updated links to WCAG 2.2 Understanding pages instead of 2.1.
+
 ## 31 August 2022
 
 * In [Audio Content and Video Content page](/media/av/av-content/), updated title of linked resource: [Making Events Accessible - Checklist for meetings, conferences, training, and presentations that are remote/virtual, in-person, or hybrid](/teach-advocate/accessible-presentations/)
@@ -100,7 +104,7 @@ resource:
   * [Audio Description of Visual Information](/media/av/description/), at end of [Does My Media Need a Description?](/media/av/description/#checklist) section, added sentence starting with "WCAG excerpts" and the bullets under it.
   * [Captions/Subtitles](/media/av/captions/), at end of [Does My Media Need a Captions?](/media/av/captions/#checklist) section, added sentence starting with "WCAG excerpts" and the bullets under it.
   * [Transcripts](/media/av/transcripts/), at end of [Does My Media Need a Transcript?](/media/av/transcripts/#checklist) section, added sentence starting with "WCAG excerpts" and the bullets under it.
-  * [Sign Languages](/media/av/sign-languages/), in [Standards Requirements](/media/av/sign-languages/#standards-requirements) section, in second sentence, added link<br> ```: [Understanding 1.2.6 Sign Language](https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded.html)```
+  * [Sign Languages](/media/av/sign-languages/), in [Standards Requirements](/media/av/sign-languages/#standards-requirements) section, in second sentence, added link<br> ```: [Understanding 1.2.6 Sign Language](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded.html)```
 * ([Diff 2020-December-12](https://github.com/w3c/wai-media-guide/pull/148/files))
 
 ## 2020-November-24
