@@ -5,7 +5,7 @@
 title: "ATAG w skrócie"
 nav_title: "ATAG w skrócie"
 lang: pl
-last_updated: 2024-03-11   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-11   # Keep the date of the English version
 
 translators:
   - name: "Stefan Wajda"

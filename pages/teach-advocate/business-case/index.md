@@ -4,7 +4,7 @@
 title: "The Business Case for Digital Accessibility"
 nav_title: "Business Case"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2024-07-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15  # Keep the date of the English version
 description: The rationale for organizations to address accessibility. It includes tangible and intangible benefits, and the risks of not addressing accessibility adequately.
 footnotestitle: Resources
 

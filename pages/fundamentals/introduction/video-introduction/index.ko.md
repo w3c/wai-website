@@ -2,7 +2,7 @@
 title: "웹 접근성 소개 영상과 W3C 표준"
 nav_title: "소개 영상" # A short title that is used in the navigation
 lang: ko
-last_updated: 2021-05-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-13   # Keep the date of the English version
 
 translators: 
 - name: "Yong Ui Lee"

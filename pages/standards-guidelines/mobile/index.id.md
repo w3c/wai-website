@@ -5,7 +5,7 @@
 title: "Aksesibilitas Perangkat Seluler W3C"
 nav_title: "Aksesibilitas Perangkat Seluler W3C"
 lang: id
-last_updated: 2024-01-18    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-01-18    # Keep the date of the English version
 
 translators: 
 - name: "Fri Rasyidi"   # Replace @@ with translator name

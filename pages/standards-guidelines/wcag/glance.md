@@ -5,7 +5,7 @@
 title: "WCAG 2 at a Glance"
 nav_title: "At a Glance"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2023-11-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-29  # Keep the date of the English version
 description: This page provides a paraphrased summary of Web Content Accessibility Guidelines (WCAG) 2.
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -30,7 +30,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 29 November 2023. First published July 2008.</p>
+  <p>First published July 2008.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a> and Wayne Dick.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/GL/">AG WG</a>).</p>
 

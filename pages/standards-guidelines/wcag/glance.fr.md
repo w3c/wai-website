@@ -5,7 +5,7 @@
 title: "WCAG 2 en bref"
 nav_title: "En bref"
 lang: fr
-last_updated: 2023-11-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-29  # Keep the date of the English version
 description: Cette page propose un résumé paraphrasé des règles pour l’accessibilité des contenus web (WCAG) 2.
 
 translators: 

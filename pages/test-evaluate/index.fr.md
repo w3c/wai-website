@@ -5,7 +5,7 @@
 title: "Évaluer l’accessibilité Web – Vue d’ensemble"
 nav_title: "Vue d’ensemble de l’évaluation"
 lang: fr
-last_updated: 2023-11-30    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-30    # Keep the date of the English version
 
 translators:
   - name: "Sofia Ahmed"

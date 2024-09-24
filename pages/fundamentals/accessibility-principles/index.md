@@ -5,7 +5,7 @@
 title: Accessibility Principles
 nav_title: "Accessibility Principles"
 lang: en   # Change "en" to the translated language shortcode
-last_updated: 2024-07-15   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15   # Keep the date of the English version
 description: An overview of the fundamental web accessibility requirements for websites, web applications, browsers, and other tools.
 teaser_text: The Accessibility Principles page introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools. It provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to stories of web users.
 

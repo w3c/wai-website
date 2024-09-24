@@ -5,7 +5,7 @@
 title: "Opisy ilustracji w artykule Podstawowe komponenty dostępności Internetu"
 nav_title: Opisy ilustracji
 lang: pl
-last_updated: 2024-03-26  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-26  # Keep the date of the English version
 parent: /fundamentals/components/ # Do not change this
 
 translators:

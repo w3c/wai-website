@@ -2,7 +2,7 @@
 title: "Introducción a la planificación y a la normativa"
 nav_title: "Introducción"
 lang: es
-last_updated: 2021-05-15    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-15    # Keep the date of the English version
 
 translators: 
 - name: "Carlos Muncharaz"

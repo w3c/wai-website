@@ -5,7 +5,7 @@
 title: Kiat Memulai
 nav_title: Gambaran Umum
 lang: id # Change "en" to the translated-language shortcode
-last_updated: 2023-11-24 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-24 # Keep the date of the English version
 
 resource:
   title: "Kiat Memulai"

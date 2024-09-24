@@ -5,7 +5,7 @@
 title: Zásady přístupnosti
 nav_title: "Zásady přístupnosti"
 lang: cs
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-06   # Keep the date of the English version
 description: Přehled základních požadavků na webovou přístupnost pro webové stránky, webové aplikace, prohlížeče a další nástroje.
 teaser_text: Stránka Zásady přístupnosti představuje některé požadavky na přístupnost webu pro webové stránky, webové aplikace, prohlížeče a další nástroje. Poskytuje odkazy na mezinárodní standardy z Iniciativy pro webovou přístupnost W3C (WAI) a na příběhy uživatelů webu.
 

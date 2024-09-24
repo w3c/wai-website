@@ -4,7 +4,7 @@
 title: Conseils pour démarrer
 nav_title: Vue d'ensemble
 lang: fr # Change "en" to the translated-language shortcode
-last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-10   # Keep the date of the English version
 
 resource:
   title: "Conseils pour démarrer"

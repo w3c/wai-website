@@ -5,7 +5,7 @@
 title: "Dokumenty WCAG 2"
 nav_title: "Dokumenty"
 lang: pl   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-08-07 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-08-07 # Keep the date of the English version
 
 translators:
   - name: "Stefan Wajda"

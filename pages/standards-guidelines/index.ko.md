@@ -6,7 +6,7 @@ nav_title: "표준/지침" # A short title that is used in the navigation
 
 lang: ko   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-14   # Keep the date of the English version
 translators:
 - name: "Yong Ui Lee"   # Replace @@ with translator name
   link: "https://twitter.com/yongui9"

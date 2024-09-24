@@ -6,7 +6,7 @@ title: "Écrire pour l’accessibilité Web – Conseils pour démarrer"
 title_html: "Écrire pour l’accessibilité Web"
 nav_title: Conseils pour l’écriture
 lang: fr  # Change "en" to the translated-language shortcode
-last_updated: 2023-10-10  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-10  # Keep the date of the English version
 
 resource:
   ref: /tips/  # Do not change this

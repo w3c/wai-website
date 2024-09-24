@@ -5,7 +5,7 @@
 title: "Une mise en page et une conception claires"
 nav_title: "Mise en page et conception claires"
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-12    # Keep the date of the English version
 order: 3
 
 translators:

@@ -6,7 +6,7 @@ nav_title: "معايير/إرشادات" # A short title that is used in the nav
 
 lang: ar   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2020-10-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-10-26   # Keep the date of the English version
 translators: 
 - name: " الاتحاد السعودي للأمن السيبراني والبرمجة والدرونز "   # Replace @@ with translator name
 - name: "محمد سليم"   # Replace @@ with name, or delete this line if not multiple translators

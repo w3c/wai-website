@@ -6,7 +6,7 @@ title: "Comment WAI élabore les standards d'accessibilité selon le processus d
 title_html: "Comment WAI élabore les standards d'accessibilité selon le processus du W3C :<br> étapes importantes et opportunités pour contribuer"
 nav_title: Processus du W3C pour élaborer les standards
 lang: fr
-last_updated: 2024-05-07   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-05-07   # Keep the date of the English version
 
 translators:
   - name: "Sofia Ahmed"

@@ -5,7 +5,7 @@
 title: "Making Audio and Video Media Accessible"
 nav_title: "Audio & Video Media"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-09-17  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name

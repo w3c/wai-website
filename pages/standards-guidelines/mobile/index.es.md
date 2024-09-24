@@ -5,7 +5,7 @@
 title: "Accesibilidad Móvil en el W3C"
 nav_title: "Accesibilidad Móvil en el W3C"
 lang: es
-last_updated: 2021-05-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-17    # Keep the date of the English version
 
 translators:
 - name: "Jorge Rumoroso"

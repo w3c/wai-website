@@ -6,7 +6,7 @@ title: "Premiers secours de l'accessibilité Web : stratégies de réparations p
 title_html: "Premiers secours de l'accessibilité Web&nbsp;:<br />stratégies de réparations provisoires"
 nav_title: des solutions provisoires
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-18   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-18   # Keep the date of the English version
 
 translators:
   - name: "Sofia Ahmed"

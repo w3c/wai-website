@@ -6,7 +6,7 @@ nav_title: "Стандарты/Рекомендации" # A short title that is
 
 lang: ru   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2019-07-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-07-12   # Keep the date of the English version
 translators:
 - name: "Elena Varkvasova"
 - name: "UNESCO IITE"

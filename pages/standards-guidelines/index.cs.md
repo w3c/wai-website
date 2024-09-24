@@ -6,7 +6,7 @@ nav_title: "Standardy/Pokyny" # A short title that is used in the navigation
 
 lang: cs   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2021-05-11  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-11  # Keep the date of the English version
 translators: 
 - name: "Kristýna Švecová"   # Replace @@ with translator name
 #  link: @@

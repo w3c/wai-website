@@ -5,7 +5,7 @@
 title: "Решения консорциума W3C по обеспечению доступности на мобильных устройствах"
 nav_title: "Решения консорциума W3C по обеспечению доступности на мобильных устройствах"
 lang: ru
-last_updated: 2021-05-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-17    # Keep the date of the English version
 
 translators:
 - name: "Elena Varkvasova"

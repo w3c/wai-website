@@ -5,7 +5,7 @@
 title: Tips for Getting Started
 nav_title: Overview
 lang: en # Change "en" to the translated-language shortcode
-last_updated: 2016-07-07 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2016-07-07 # Keep the date of the English version
 
 resource:
   title: "Tips for Getting Started"

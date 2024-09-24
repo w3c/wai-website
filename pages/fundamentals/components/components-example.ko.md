@@ -5,7 +5,7 @@
 title: 웹 접근성 삽화의 핵심 구성 요소 설명
 nav_title: Illustration Descriptions
 lang: ko
-last_updated: 2024-05-16  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-05-16  # Keep the date of the English version
 parent: /fundamentals/components/ # Do not change this
 
 translators:

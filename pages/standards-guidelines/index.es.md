@@ -6,7 +6,7 @@ nav_title: "Estándares/Pautas" # A short title that is used in the navigation
 
 lang: es   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-14   # Keep the date of the English version
 translators: 
 - name: "Carlos Muncharaz"   # Replace @@ with translator name
   link: "http://www.muncharaz.eu/"

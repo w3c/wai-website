@@ -5,7 +5,7 @@ title: "The Business Case for Digital Accessibility: Annotated Bibliography"
 title_html: "The Business Case for Digital Accessibility: <br>Annotated Bibliography"
 nav_title: "Bibliography"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2018-11-09  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2018-11-09  # Keep the date of the English version
 description: Resources used to make the business case for digital accessibility.
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

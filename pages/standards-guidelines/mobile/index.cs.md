@@ -5,7 +5,7 @@
 title: "Mobilní přístupnost ve W3C"
 nav_title: "Mobilní přístupnost ve W3C"
 lang: cs
-last_updated: 2021-05-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-17    # Keep the date of the English version
 
 translators:
   - name: "Kristýna Švecová"

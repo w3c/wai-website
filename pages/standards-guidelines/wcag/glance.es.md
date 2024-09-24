@@ -5,7 +5,7 @@
 title: "WCAG 2.1 de un vistazo"
 nav_title: "De un vistazo"
 lang: es
-last_updated: 2019-07-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-07-03  # Keep the date of the English version
 description: Esta página proporciona un resumen no literal de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1.
 
 translators: 

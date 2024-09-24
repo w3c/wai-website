@@ -6,7 +6,7 @@ title: "ウェブ・アクセシビリティのための開発 – 始めるに�
 title_html: "ウェブ・アクセシビリティのための開発"
 nav_title: "始めるにあたってのヒント"
 lang: ja  # Change "en" to the translated-language shortcode
-last_updated: 2024-04-16   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-04-16   # Keep the date of the English version
 
 resource:
   ref: /tips/

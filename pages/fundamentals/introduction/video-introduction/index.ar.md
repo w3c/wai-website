@@ -3,7 +3,7 @@ title: "مقدمة فيديو إلى ولوجية الويب ومعايير W3C"
 title_html: "مقدمة فيديو إلى ولوجية الويب ومعايير W3C"
 nav_title: "مقدمة فيديو" # A short title that is used in the navigation
 lang: ar
-last_updated: 2021-05-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-13   # Keep the date of the English version
 
 translators: 
 - name: "نجيب التونسي"

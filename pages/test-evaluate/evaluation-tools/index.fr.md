@@ -1,7 +1,7 @@
 ---
 title: Outils d’évaluation – Vue d’ensemble
 lang: fr
-last_updated: 2021-07-12  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-07-12  # Keep the date of the English version
 
 translators:
 - name: "Rémi Bétin"

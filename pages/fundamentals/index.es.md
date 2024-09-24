@@ -5,7 +5,7 @@
 title: "Introducción a los Fundamentos de la Accesibilidad"
 nav_title: "Introducción"
 lang: es
-last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-14   # Keep the date of the English version
 
 translators:
   - name: "Daniel Montalvo"

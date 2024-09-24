@@ -6,7 +6,7 @@ title: "Visión general sobre la evaluación de la accesibilidad web"
 nav_title: "Visión general sobre la evaluación"
 
 lang: es
-last_updated: 2021-05-20  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-20  # Keep the date of the English version
 
 translators:
   - name: "Jorge Rumoroso"

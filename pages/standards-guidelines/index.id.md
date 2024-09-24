@@ -6,7 +6,7 @@ nav_title: "Standar/Pedoman" # A short title that is used in the navigation
 
 lang: id   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2024-03-18 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-18 # Keep the date of the English version
 translators: 
 - name: "Fri Rasyidi"   # Replace @@ with translator name
 #  link: @@

@@ -2,7 +2,7 @@
 title: "Organisation et politiques – Vue d’ensemble"
 nav_title: "Vue d’ensemble"
 lang: fr
-last_updated: 2021-05-07    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-07    # Keep the date of the English version
 
 translators:
 - name: "Sofia Ahmed"

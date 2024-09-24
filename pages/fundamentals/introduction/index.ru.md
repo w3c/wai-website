@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: ВВЕДЕНИЕ В ВЕБ-ДОСТУПНОСТЬ 
 lang: ru
-last_updated: 2019-07-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-07-12   # Keep the date of the English version
 
 translators:
   - name: "Elena Varkvasova"

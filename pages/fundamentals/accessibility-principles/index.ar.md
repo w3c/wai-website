@@ -5,7 +5,7 @@
 title: مبادئ الوصول
 nav_title: "مبادئ الوصول"
 lang: ar
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-06   # Keep the date of the English version
 description: نبذة عن مبادئ متطلبات إمكانية الوصول للويب للمواقع الالكترونية، تطبيقات الويب، المتصفحات وغيرها من الأدوات.
 
 translators:

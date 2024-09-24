@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title:  مقدمة لولوجية الويب
 lang: ar
-last_updated: 2019-07-16   # Put the date of this translation 2019-07-16 (with month in the middle)
+last_updated: 2019-07-16   # Keep the date of the English version 2019-07-16 (with month in the middle)
 
 translators:   #Add one -name: line for every translator
 - name: "نجيب التونسي"

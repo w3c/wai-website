@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Introduction à l’accessibilité du web
 lang: fr
-last_updated: 2024-03-07    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07    # Keep the date of the English version
 
 translators:
   - name: "Sylvie Duchateau"

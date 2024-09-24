@@ -5,7 +5,7 @@
 title: 无障碍原则
 nav_title: "无障碍原则"
 lang: zh-hans
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-06   # Keep the date of the English version
 description: 网站、web应用程序、浏览器和其他工具的基本web无障碍需求概述。
 teaser_text: 无障碍原则页面介绍了网站、web应用程序、浏览器和其他工具的一些web无障碍需求。它提供了从W3C web无障碍推进(WAI)到Web用户故事的国际标准的参考。
 

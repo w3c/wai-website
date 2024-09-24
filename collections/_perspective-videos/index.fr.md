@@ -6,7 +6,7 @@ title: "L’accessibilité Web illustrée : explorez ses effets et ses bénéfic
 title_html: "L’accessibilité Web illustrée :<br>explorez ses effets et ses bénéfices pour tous"
 nav_title: "Vue d’ensemble : vidéos d’illustration"
 lang: fr
-last_updated: 2023-10-11    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-11    # Keep the date of the English version
 order: 0
 
 translators:

@@ -5,7 +5,7 @@
 title: 웹 접근성 필수 요소
 nav_title: "웹 접근성 요소" # A short title that is used in the navigation
 lang: ko   # Change "en" to the translated language shortcode
-last_updated: 2024-05-16  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-05-16  # Keep the date of the English version
 
 translators:
   - name: "Yong Ui Lee"

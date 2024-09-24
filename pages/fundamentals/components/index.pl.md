@@ -5,7 +5,7 @@
 title: Podstawowe komponenty dostępności Internetu
 nav_title: "Komponenty dostępności Internetu" # A short title that is used in the navigation
 lang: pl   # Change "en" to the translated language shortcode
-last_updated: 2024-03-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-26   # Keep the date of the English version
 
 translators:
   - name: "Stefan Wajda"

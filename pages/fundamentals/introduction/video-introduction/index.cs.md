@@ -2,7 +2,7 @@
 title: "Video úvod do webové přístupnosti a W3C standardů"
 nav_title: "Video úvod" # A short title that is used in the navigation
 lang: cs
-last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-13  # Keep the date of the English version
  
 github:
   label: wai-video-introduction

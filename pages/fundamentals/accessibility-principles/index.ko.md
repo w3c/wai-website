@@ -5,7 +5,7 @@
 title: 접근성 원칙
 nav_title: "접근성 원칙"
 lang: ko
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-06   # Keep the date of the English version
 description: 웹 사이트, 웹 어플리케이션, 브라우저와 다른 도구를 위한 기본적 웹 접근성 필요조건에 대한 개요
 teaser_text: 접근성 원칙 페이지는 웹 사이트, 웹 어플리케이션, 브라우저와 다른 도구를 위한 웹 접근성 필요조건에 대해 소개하고 있습니다. W3C 웹의 국제 표준에 대해 언급하고 있습니다.
 

@@ -5,7 +5,7 @@
 title: Принципы доступности
 nav_title: "Принципы доступности"
 lang: ru
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-06   # Keep the date of the English version
 description: Обзор основных требований веб-доступности для вебсайтов, веб приложений, браузеров и других инструментов.
 teaser_text: The Accessibility Principles page introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools. It provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to stories of web users.
 

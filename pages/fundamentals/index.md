@@ -5,7 +5,6 @@
 title: "Accessibility Fundamentals Overview"
 nav_title: "Overview"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2023-08-08   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -20,7 +19,6 @@ github:
 permalink: /fundamentals/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/   # Do not change this
 
-changelog: /fundamentals/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:

@@ -6,7 +6,7 @@ title: "User Experiences and Benefits to Organizations"
 title_image: /content-images/media-guide/body.svg
 nav_title: "User Needs"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2021-11-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-11-29   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name

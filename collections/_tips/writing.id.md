@@ -6,7 +6,7 @@ title: "Menulis untuk Aksesibilitas Web – Kiat Memulai"
 title_html: "Menulis untuk Aksesibilitas Web"
 nav_title: Kiat Menulis
 lang: id  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-13  # Keep the date of the English version
 
 resource:
   ref: /tips/  # Do not change this

@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Introducción a la Accesibilidad Web 
 lang: es   # Change "en" to the translated language shortcode
-last_updated: 2019-07-11   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-07-11   # Keep the date of the English version
 
 translators:
 - name: "Jorge Rumoroso"

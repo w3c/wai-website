@@ -5,7 +5,7 @@
 title: Composantes essentielles de l’accessibilité du Web
 nav_title: "Composantes de l'accessibilité du Web" # A short title that is used in the navigation
 lang: fr   # Change "en" to the translated language shortcode
-last_updated: 2024-03-19   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-19   # Keep the date of the English version
 
 translators:
 - name: "@code-elegant"

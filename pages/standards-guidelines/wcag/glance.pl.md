@@ -5,7 +5,7 @@
 title: "WCAG 2 w skrócie"
 nav_title: "W skrócie"
 lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-08-07  # Keep the date of the English version
 description: Przedstawia sparafrazowane streszczenie Wytycznych dla dostępności treści internetowych (WCAG) 2.
 
 translators:

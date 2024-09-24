@@ -4,7 +4,7 @@
 title: "Bénéfices business de l’accessibilité numérique"
 nav_title: "Bénéfices business"
 lang: fr
-last_updated: 2024-07-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15  # Keep the date of the English version
 description: Présente les bonnes raisons qu’aura une organisation d’intégrer l’accessibilité. Inclut des bénéfices tangibles et intangibles, ainsi que les risques qu’on prend en ne traitant pas l’accessibilité de façon adéquate.
 footnotestitle: Ressources
 

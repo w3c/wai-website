@@ -5,7 +5,7 @@
 title: "Video Captions"
 nav_title: "Video Captions"
 lang: en      # Change "en" to the translated-language shortcode
-last_updated: 2019-01-23      # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-23      # Keep the date of the English version
 order: 6
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -35,7 +35,6 @@ image: /content-images/perspective-videos/captions.jpg
 # Translate the other words below, including "Date:" and "Editor and project lead:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 23 January 2019.</p>
    <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. ACKNOWLEDGEMENTS lists contributors.</p>
    <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated as part of the <a href="https://www.w3.org/WAI/DEV/">WAI Expanding Access Project</a>, supported by the Ford Foundation.</p>
 ---

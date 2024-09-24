@@ -5,7 +5,7 @@
 title: "Principes fondamentaux de l’accessibilité – Vue d’ensemble"
 nav_title: "Vue d'ensemble"
 lang: fr
-last_updated: 2023-11-28  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-28  # Keep the date of the English version
 
 translators:
   - name : "Rémi Bétin"

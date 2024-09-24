@@ -6,7 +6,11 @@ title: "Sous-titres"
 title_image: /content-images/media-guide/cc.svg
 nav_title: "Sous-titres"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2024-09-17  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-09-17  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"

@@ -5,7 +5,7 @@ title: "Bénéfices business de l’accessibilité numérique : bibliographie a
 title_html: "Bénéfices business de l’accessibilité numérique :<br>bibliographie annotée"
 nav_title: "Bibliographie"
 lang: fr
-last_updated: 2019-09-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-09-15  # Keep the date of the English version
 description: Ressources utilisées pour rédiger « Bénéfices business de l’accessibilité numérique »
 
 translators:

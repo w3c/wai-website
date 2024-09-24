@@ -6,7 +6,11 @@ title: "Expériences utilisateurs et bénéfices pour les organisations"
 title_image: /content-images/media-guide/body.svg
 nav_title: "Besoins utilisateurs"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2022-09-23   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-09-29   # Keep the date of the English version
+
+translation:
+  last_updated: 2022-09-23  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+
 translators:
 - name: "Rémi Bétin"
 

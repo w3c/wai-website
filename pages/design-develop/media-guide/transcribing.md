@@ -5,7 +5,7 @@
 title: "Transcribing Audio to Text"
 nav_title: "Transcribing Audio to Text"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2020-11-24   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-11-24   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name

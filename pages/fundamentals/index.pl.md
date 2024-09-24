@@ -5,7 +5,7 @@
 title: "Omówienie podstaw dostępności"
 nav_title: "Omówienie" 
 lang: pl
-last_updated: 2024-04-27   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-04-27   # Keep the date of the English version
 
 translators:
  - name: "Stefan Wajda" 

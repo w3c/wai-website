@@ -1,7 +1,7 @@
 ---
 title: Évaluation de la conformité et rapports
 lang: fr
-last_updated: 2023-11-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-30  # Keep the date of the English version
 
 translators:
 - name: "Rémi Bétin"

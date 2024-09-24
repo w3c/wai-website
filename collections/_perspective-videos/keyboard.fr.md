@@ -5,7 +5,7 @@
 title: "Compatibilité avec le clavier"
 nav_title: "Compatibilité avec le clavier"
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-12    # Keep the date of the English version
 order: 1
 
 translators:

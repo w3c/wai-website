@@ -5,7 +5,11 @@
 title: "Transcrire un contenu audio en texte"
 nav_title: "Transcrire un contenu audio en texte"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-11-24   # Keep the date of the English version
+
+translation:
+  last_updated: 2023-10-04  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+
 translators:
   - name: "Sofia Ahmed"
   - name: "Rémi Bétin"
