@@ -24,7 +24,6 @@ github:
   label: wai-accessibility-principles
 
 image: /content-images/accessibility-principles/social.png
-changelog: /fundamentals/accessibility-principles/changelog/     # Do not change this
 
 # In the footer below:
 # Do not change the dates
