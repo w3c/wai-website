@@ -5,6 +5,7 @@
 title: "Accessibility Fundamentals Overview"
 nav_title: "Overview"
 lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2023-08-08
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -26,7 +27,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 8 August 2023. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

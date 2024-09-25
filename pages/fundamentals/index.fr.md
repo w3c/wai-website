@@ -5,7 +5,10 @@
 title: "Principes fondamentaux de l’accessibilité – Vue d’ensemble"
 nav_title: "Vue d'ensemble"
 lang: fr
-last_updated: 2023-11-28  # Keep the date of the English version
+last_updated: 2023-08-08  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-11-28  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name : "Rémi Bétin"
@@ -20,7 +23,6 @@ github:
 permalink: /fundamentals/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/ # Do not change this
 
-changelog: /fundamentals/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:

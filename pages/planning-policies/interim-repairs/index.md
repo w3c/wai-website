@@ -29,7 +29,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:", "Editor:" and "Previous contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 9 January 2019. First published March 2006.<br>History: Previously titled "Short Term Website Accessibility Improvements" and "Improving the Accessibility of Your Website".</p>
+  <p>First published March 2006.<br>History: Previously titled "Short Term Website Accessibility Improvements" and "Improving the Accessibility of Your Website".</p>
   <p><strong>Editor: </strong><a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Previous editors: <a href="https://www.w3.org/People/kevin">Kevin White</a> and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.  Previous contributors: Sharron Rush, Anna Belle Leiserson, Judy Brewer, and <a href="https://www.w3.org/groups/wg/eowg/participants/">EOWG Participants</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). First developed with support from <a href="https://www.w3.org/WAI/TIES/"><abbr title="Web Accessibility Initiative: Training, Implementation, Education, Support">WAI-TIES</abbr> Project</a>, then updated with support of the <a href="https://www.w3.org/WAI/ACT/"><abbr title="Web Accessibility Initiative - Cooperation Framework for Guidance on Advanced Technologies, Evaluation Methodologies, and Research Agenda Setting to Support eAccessibility">WAI-ACT</abbr> Project</a>, and later the <a href="https://www.w3.org/WAI/DEV/"><abbr>WAI-DEV</abbr> Project</a>.</p>
 ---

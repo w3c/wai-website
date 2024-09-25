@@ -5,7 +5,10 @@
 title: "Omówienie podstaw dostępności"
 nav_title: "Omówienie" 
 lang: pl
-last_updated: 2024-04-27   # Keep the date of the English version
+last_updated: 2023-08-08  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-27   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
  - name: "Stefan Wajda" 
@@ -18,7 +21,6 @@ github:
 permalink: /fundamentals/pl  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/   # Do not change this
 
-changelog: /fundamentals/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:

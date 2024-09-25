@@ -2,7 +2,11 @@
 title: "Film Wprowadzenie do dostępności internetowej i standardów W3C"
 nav_title: "Film Wprowadzenie" # A short title that is used in the navigation
 lang: pl  
-last_updated: 2024-03-14   # Keep the date of the English version
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+   # Keep the date of the English version
 
 translators: 
 - name: "Stefan Wajda"

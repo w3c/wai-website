@@ -3,7 +3,11 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: ВВЕДЕНИЕ В ВЕБ-ДОСТУПНОСТЬ 
 lang: ru
-last_updated: 2019-07-12   # Keep the date of the English version
+last_updated: 2019-06-05
+
+translation:
+  last_updated: 2019-07-12  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators:
   - name: "Elena Varkvasova"
@@ -25,7 +29,7 @@ changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Дата:</strong> Обновлено 5 июня 2019 года. Первая публикация: февраль 2005 года. CHANGELOG.</p>
+  <p>Первая публикация: февраль 2005 года.</p>
   <p><strong>Под редакцией:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p> Разработано при содействии Рабочей Группы по Образованию и Просвещению (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

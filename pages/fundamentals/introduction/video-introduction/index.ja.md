@@ -2,7 +2,11 @@
 title: "W3Cのアクセシビリティと標準技術の紹介動画"
 nav_title: "紹介動画" # A short title that is used in the navigation
 lang: ja
-last_updated: 2024-03-03   # Keep the date of the English version
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+   # Keep the date of the English version
 
 translators: 
 - name: "Naomi Yoshizawa"

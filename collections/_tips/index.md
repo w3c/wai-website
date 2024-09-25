@@ -34,13 +34,8 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Status:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p>
-    <strong>Status:</strong>
-      Updated
-      07 July 2016
-    (first published September 2015)
-    <br>
-    <strong>Editors:</strong>
+  <p>First published September 2015</p>
+  <p><strong>Editors:</strong>
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.

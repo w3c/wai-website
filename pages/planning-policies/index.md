@@ -20,7 +20,6 @@ github:
 permalink: /planning/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /planning/    # Do not change this
 
-changelog: /planning/changelog/
 feedbackmail: wai@w3.org
 class: tight-page
 

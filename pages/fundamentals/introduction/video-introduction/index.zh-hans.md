@@ -2,7 +2,11 @@
 title: "网页无障碍和W3C标准的介绍视频"
 nav_title: "视频介绍" # A short title that is used in the navigation
 lang: zh-hans
-last_updated: 2021-05-13 # Keep the date of the English version
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+ # Keep the date of the English version
 
 translators:
 - name: "Ruoxi Ran"

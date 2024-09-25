@@ -30,6 +30,7 @@ ref: /tips/developing/  # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#developing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:

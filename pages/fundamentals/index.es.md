@@ -7,6 +7,10 @@ nav_title: "Introducción"
 lang: es
 last_updated: 2021-05-14   # Keep the date of the English version
 
+translation:
+  status: outdated
+  last_updated: 2021-05-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 translators:
   - name: "Daniel Montalvo"
 
@@ -16,7 +20,6 @@ github:
 permalink: /fundamentals/es   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/   # Do not change this
 
-changelog: /fundamentals/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
@@ -24,7 +27,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 14 de mayo del 2021. CHANGELOG.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

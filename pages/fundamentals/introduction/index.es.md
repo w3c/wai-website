@@ -3,7 +3,11 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Introducción a la Accesibilidad Web 
 lang: es   # Change "en" to the translated language shortcode
-last_updated: 2019-07-11   # Keep the date of the English version
+last_updated: 2019-07-11
+
+translation:
+  last_updated: 2019-07-11  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators:
 - name: "Jorge Rumoroso"
@@ -23,7 +27,7 @@ github:
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado a 11 July 2019. Primera publicación en Febrero 2005. CHANGELOG.</p>
+  <p>Primera publicación en Febrero 2005.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado por Grupo de Trabajo de Educación y Divulgación (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

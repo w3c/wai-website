@@ -4,6 +4,9 @@ nav_title: "Εισαγωγή Βίντεο" # A short title that is used in the n
 lang: el
 last_updated: 2021-05-13 # Keep the date of the English version
 
+translation:
+    last_updated: 2024-01-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 translators: 
 - name: "Πάνος Κουτσοδημητρόπουλος"
   link: "https://gr.linkedin.com/in/panoskoutsodimitropoulos"

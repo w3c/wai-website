@@ -31,6 +31,7 @@ ref: /tips/writing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#writing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:

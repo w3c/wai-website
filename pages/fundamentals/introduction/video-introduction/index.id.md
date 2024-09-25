@@ -2,7 +2,11 @@
 title: "Video Pengantar Aksesibilitas Web dan Standar W3C"
 nav_title: "Video Pengantar" # A short title that is used in the navigation
 lang: id 
-last_updated: 2024-04-09   # Keep the date of the English version
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-09  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+   # Keep the date of the English version
 
 translators: 
 - name: "Fri Rasyidi"

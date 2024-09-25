@@ -2,7 +2,11 @@
 title: "Видео введение в веб-доступность и стандарты W3C"
 nav_title: "Введение" # A short title that is used in the navigation
 lang: ru
-last_updated: 2021-05-13   # Keep the date of the English version
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+   # Keep the date of the English version
 
 translators: 
 - name: "Daniel Novichkov"

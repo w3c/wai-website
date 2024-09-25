@@ -5,7 +5,7 @@ title_html: Changelog for <a href="/perspective-videos/">Web Accessibility Persp
 lang: en
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/changelog/
 ref: /perspective-videos/changelog/
@@ -13,8 +13,6 @@ ref: /perspective-videos/changelog/
 nosidenav: true
 image: /content-images/perspective-videos/overview.jpg
 ---
-
-**_Pending updates:_ frontmatter for translations.**
 
 ## June 2023
 

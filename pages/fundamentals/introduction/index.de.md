@@ -3,7 +3,11 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Einführung in das barrierefreie Web
 lang: de
-last_updated: 2024-02-23       # Keep the date of the English version
+last_updated: 2023-11-20
+
+translation:
+  last_updated: 2024-02-23  # Put the date of this translation YYYY-MM-DD (with month in the middle)       # Keep the date of the English version
+  status: outdated
 
 translators:  #Add one -name: line for every translator
   - name: "Alexej Rotar"
@@ -25,7 +29,7 @@ changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Datum:</strong> Aktualisiert am 20. November 2023. Erstmals veröffentlicht 2005. CHANGELOG.</p>
+  <p>Erstmals veröffentlicht 2005.</p>
   <p><strong>Redakteur:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Entwickelt von der Arbeitsgruppe für Bildung und Öffentlichkeitsarbeit. (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

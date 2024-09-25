@@ -2,7 +2,10 @@
 title: "Video-Einführung in Web-Accessibility und W3C-Standards"
 nav_title: "Video-Einführung"
 lang: de
-last_updated: 2024-01-29   # Keep the date of the English version
+last_updated: 2024-01-29
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Sandra Kallmeyer"

@@ -14,12 +14,7 @@ nosidenav: true
 
 acknowledgements: /tips/acknowledgements/
 footer: >
-  <p>
-    <strong>Status:</strong>
-      Updated
-      15 April 2016
-    (first published September 2015)
-    <br>
+  <p>First published September 2015</p>
     <strong>Editors:</strong>
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and

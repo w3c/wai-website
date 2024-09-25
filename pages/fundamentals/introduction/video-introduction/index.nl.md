@@ -2,7 +2,11 @@
 title: "Video-introductie over Web-toegankelijkheid en W3C-standaarden"
 nav_title: "Video-introductie" # A short title that is used in the navigation
 lang: nl
-last_updated: 2021-05-13
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 
 translators: 
 - name: "Bert Bos"
