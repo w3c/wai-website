@@ -1,6 +1,6 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, September 2024</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, October 2024</span>"
 lang: en
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
 
@@ -19,7 +19,7 @@ feedbackmail: wai@w3.org
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>Date:</strong> <!-- @@@ also update month in title !!! -->Updated 2 September 2024. First published March 2022.</p>
+   <p><strong>Date:</strong> <!-- @@@ also update month in title !!! -->Updated 28 September 2024. First published March 2022.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Contributors: <a href="https://www.w3.org/WAI/update/#who-is-we">WAI staff, Working Group Co-Chairs</a>, and others working on accessibility at W3C.</p>
 
 inline_css: |
@@ -105,9 +105,10 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 We plan to publish the following documents in 2024. <!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation",and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* More [WAI Translations](/translations/) - usually some each week
 * [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://w3c.github.io/wcag2ict/) as a completed Note
 * [Collaboration Tools Accessibility User Requirements](https://w3c.github.io/ctaur/) as a completed Note
+* W3C Accessibility Guidelines (WCAG) 3 as an updated Working Draft, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/)
+* More [WAI Translations](/translations/) - usually some each week
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
@@ -192,6 +193,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 28 September 2024
+  * Added WCAG 3 to [Upcoming Publications list](/update/#upcoming-publications) 
 * 2 September 2024
   * Corrected WCAG2ICT document title in [Upcoming Publications list](/update/#upcoming-publications)
 * 29 July 2024
