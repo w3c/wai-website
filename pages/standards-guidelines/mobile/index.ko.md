@@ -5,7 +5,11 @@
 title: "W3C의 모바일 접근성"
 nav_title: "W3C의 모바일 접근성"
 lang: ko
-last_updated: 2021-05-17  # Keep the date of the English version
+last_updated: 2021-05-14  # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2021-05-17  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Yong Ui Lee"

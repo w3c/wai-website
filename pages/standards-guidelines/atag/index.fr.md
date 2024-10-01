@@ -7,6 +7,9 @@ nav_title: "ATAG – Vue d’ensemble"
 lang: fr
 last_updated: 2023-12-07   # Keep the date of the English version
 
+translation:
+    last_updated: 2023-12-07   # Keep the date of the English version
+
 translators:
   - name: "Sofia Ahmed"
   - name: "Victoria Menezes Miller"

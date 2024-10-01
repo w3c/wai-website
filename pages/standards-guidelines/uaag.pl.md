@@ -5,7 +5,10 @@
 title: Omówienie Wytycznych dla dostępności programu użytkownika (UAAG)
 nav_title: "Omówienie UAAG"
 lang: pl # Change "en" to the translated-language shortcode
-last_updated: 2024-03-08
+last_updated: 2024-05-02
+
+translation:
+  last_updated: 2024-05-02
 
 translators:
 - name: "Stefan Wajda"
@@ -23,7 +26,7 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
-  <p><strong>Data:</strong> Uaktualniono 2016. Pierwsza publikacja w czerwcu 2005.</p>
+  <p>Pierwsza publikacja w czerwcu 2005.</p>
   <p><strong>Redaktorzy:</strong> Jeanne Spellman, Jim Allan, <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
   <p>Opracowane z udziałem Grupy Roboczej ds. Wytycznych dla dostępności programów użytkownika
   (<a href="https://www.w3.org/WAI/UA/">UAWG</a>).</p>

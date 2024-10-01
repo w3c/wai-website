@@ -3,7 +3,7 @@ title: "What We're Working On"
 title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, October 2024</span>"
 lang: en
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
-last_updated: 2024-09-02
+last_updated: 2024-09-28
 
 permalink: /update/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /update/   # Translators, do not change this

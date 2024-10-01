@@ -5,7 +5,10 @@
 title: "ATAG en bref"
 nav_title: "En bref"
 lang: fr
-last_updated: 2024-03-05   # Keep the date of the English version
+last_updated: 2024-03-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-05   # Keep the date of the English version
 
 translators:
   - name: "Sofia Ahmed"
