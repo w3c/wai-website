@@ -6,7 +6,7 @@ title: "Web Accessibility Perspectives Videos: Explore the Impact and Benefits f
 title_html: "Web Accessibility Perspectives Videos:<br>Explore the Impact and Benefits for Everyone"
 nav_title: "Perspective Videos Overview"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2023-06-05    # Keep the date of the English version
+last_updated: 2024-09-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 order: 0
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

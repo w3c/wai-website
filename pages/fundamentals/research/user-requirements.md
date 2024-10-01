@@ -2,8 +2,8 @@
 title: "Digital Accessibility User Requirements"
 nav_title: "User Requirements"
 lang: en
-last_updated: 2024-09-06
-description: User requirements for virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, cognitive accessibility, and more.
+last_updated: 2024-09-19
+description: User requirements for virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, cognitive accessibility, low vision, and more.
 
 github:
   label: wai-research
@@ -22,7 +22,7 @@ WAI continues to analyze research and document user needs in several areas. The 
 * provide information to developers on how to make their products more accessible
 * inform future standards
 
-**Cross-disability user requirements for specific technologies, tools, situations:**
+## Cross-disability user requirements for specific technologies, tools, situations
 
 **MAUR** [**Media** Accessibility User Requirements](https://www.w3.org/TR/media-accessibility-reqs/)
 :   Describes the needs of users with disabilities to be able to consume audio and video media on the web. A [MAUR updated Working Draft](https://w3c.github.io/apa/media-accessibility-reqs/) is in progress. (Learn more from the [MAUR blog post](https://www.w3.org/blog/2015/12/media-accessibility-user-requirements-is-a-w3c-note/).)
@@ -45,7 +45,10 @@ WAI continues to analyze research and document user needs in several areas. The 
 **FAST** [Framework for Accessible Specification of Technologies (FAST)](https://w3c.github.io/apa/fast/) Editors' Draft
 :   Advises creators of technical specifications how to ensure their technology meets the needs of users with disabilities. 
 
-**Research on the needs of people with specific disabilities:**
-* [Cognitive Accessibility User Research](https://w3c.github.io/coga/user-research/)
-* [Cognitive Accessibility Issue Papers](https://rawgit.com/w3c/coga/master/issue-papers/)
-* [Low Vision Accessibility Research](https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Research)
+## Disability-specific user requirements and research
+* Cognitive and learning disabilities
+  * [Cognitive Accessibility User Research](https://w3c.github.io/coga/user-research/)
+  * [Cognitive Accessibility Issue Papers](https://rawgit.com/w3c/coga/master/issue-papers/)
+* Low vision
+  * [Low Vision Accessibility Research notes](https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Research)
+  * [Accessibility Requirements for People with Low Vision](https://www.w3.org/TR/low-vision-needs/)

@@ -5,7 +5,7 @@
 title: "La reconnaissance vocale"
 nav_title: "Reconnaissance vocale"
 lang: fr
-last_updated: 2023-10-16    # Keep the date of the English version
+last_updated: 2024-09-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 order: 8
 
 translators:
@@ -36,7 +36,7 @@ image: /content-images/perspective-videos/voice.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Statut :</strong> Mise à jour : 26 février 2021. Première publication en mai 2016. CHANGELOG.<br>
+  <p><strong>Statut :</strong> Mise à jour : 17 septembre 2024. Première publication en mai 2016. CHANGELOG.<br>
     <strong>Rédacteur et chef de projet :</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne (CE). Mis à jour avec le soutien de la Fondation Ford. ACKNOWLEDGEMENTS.</p>
 ---
 

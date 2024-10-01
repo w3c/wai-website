@@ -1,7 +1,7 @@
 ---
 # Do not translate Changelog
 title: Changelog for Web Accessibility Perspectives Videos
-title_html: Changelog for <a href="/perspective-videos/">Web Accessibility Perspectives Videos</a>
+title_html: Changelog for <a href="/WAI/perspective-videos/">Web Accessibility Perspectives Videos</a>
 lang: en
 
 github:
@@ -10,13 +10,16 @@ github:
 permalink: /perspective-videos/changelog/
 ref: /perspective-videos/changelog/
 
-nosidenav: true
 image: /content-images/perspective-videos/overview.jpg
 ---
 
+## 17 September 2024
+
+* Changed the date to "in 2025" in [Speech Recognition page](/perspective-videos/voice/).
+
 ## June 2023
 
-* Added link to compilation on W3C server
+* Added link to compilation on W3C server.
 
 ## April 2021
 

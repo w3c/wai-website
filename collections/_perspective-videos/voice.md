@@ -5,7 +5,7 @@
 title: "Speech Recognition"
 nav_title: "Speech Recognition"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2021-02-26    # Keep the date of the English version
+last_updated: 2024-09-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 order: 8
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -14,7 +14,6 @@ order: 8
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
-
 
 github:
     label: wai-perspective-videos
@@ -41,7 +40,7 @@ footer: >
 
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
 
-Update: The video uses "voice recognition". This page is updated to use "speech recognition". "Speech recognition" is about recognizing words for speech-to-text (STT) transcription, virtual assistants, and other speech user interfaces. "Voice recognition" or "speaker recognition" is technology that identifies who the speaker is, not the words they're saying. We hope to update the video to use "speech recognition" in late 2022. 
+Update: The video uses "voice recognition". This page is updated to use "speech recognition". "Speech recognition" is about recognizing words for speech-to-text (STT) transcription, virtual assistants, and other speech user interfaces. "Voice recognition" or "speaker recognition" is technology that identifies who the speaker is, not the words they're saying. We hope to update the video to use "speech recognition" in 2025. 
 
 ## Video on Speech Recognition
 {:#film.no-display}
