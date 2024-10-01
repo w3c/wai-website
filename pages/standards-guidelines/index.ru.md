@@ -3,10 +3,13 @@
 
 title: Обзор стандартов W3C по обеспечению доступности веб-контента  # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Стандарты/Рекомендации" # A short title that is used in the navigation
+lang: ru
+last_updated: 2019-03-13  # Keep the date of the English version
 
-lang: ru   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  status: outdated
+  last_updated: 2019-07-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2019-07-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators:
 - name: "Elena Varkvasova"
 - name: "UNESCO IITE"
@@ -19,7 +22,6 @@ permalink: /standards-guidelines/ru   # Add the language shortcode to the end; f
 feedbackmail: wai@w3.org
 
 footer: >   # Do not change these dates. Do translate the "Date", "Editor" and the dates themselves.
-  <p><strong>Дата:</strong> Обновлено 13 марта 2019 года.</p>
   <p><strong>Под редакцией:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Разработано при содействии Рабочей Группы по Образованию и Просвещению (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

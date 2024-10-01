@@ -16,7 +16,6 @@ image: /content-images/courses/social-course1.png
 feedbackmail: wai@w3.org
 
 footer: >
-  <p><strong>Date:</strong> Updated 18 June 2024.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Shadi Abou-Zahra.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 

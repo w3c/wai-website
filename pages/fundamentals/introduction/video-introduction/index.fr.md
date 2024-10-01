@@ -4,7 +4,11 @@ title: "Vidéo : introduction à l’accessibilité web et aux standards du W3C"
 title_html: "Vidéo&#8239;: introduction à l’accessibilité web et aux standards du W3C" # translate this
 nav_title: "Introduction en vidéo" # A short title that is used in the navigation
 lang: fr # Translated language shortcode
-last_updated: 2021-05-13 # update date of this translation
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+ # update date of this translation
 
 translators:
 - name: "Stéphane Deschamps" # replace @@ with name or names separated with a comma

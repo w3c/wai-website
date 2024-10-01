@@ -5,8 +5,11 @@
 title: Descriptions des illustrations de « Composantes essentielles de l'accessibilité du Web »
 nav_title: Descriptions des illustrations
 lang: fr
-last_updated: 2024-03-19   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-14  # Keep the date of the English version
 parent: /fundamentals/components/ # Do not change this
+
+translation:
+  last_updated: 2024-03-19  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Rémi Bétin"

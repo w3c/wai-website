@@ -5,7 +5,7 @@
 title: Des couleurs bien contrastées
 nav_title: Couleurs bien contrastées
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-12    # Keep the date of the English version
 
 translators: 
 - name: "Sofia Ahmed"

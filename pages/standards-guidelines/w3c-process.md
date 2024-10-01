@@ -6,7 +6,7 @@ title: "How WAI Develops Accessibility Standards through the W3C Process: Milest
 title_html: "How WAI Develops Accessibility Standards through the W3C Process:<br> Milestones and Opportunities to Contribute"
 nav_title: W3C Process for Developing Standards
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2020-02-20   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-02-20   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name

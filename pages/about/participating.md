@@ -2,7 +2,7 @@
 title: Participating in WAI
 nav_title: "Participating"
 lang: en
-
+last_updated: 2024-04-29
 permalink: /about/participating/
 ref: /about/participating/
 
@@ -10,7 +10,6 @@ github:
     label: wai-about
 
 footer: >
-  <p><strong>Date:</strong> Updated 29 April 2024.</p>
   <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

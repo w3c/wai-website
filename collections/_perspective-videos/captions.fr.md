@@ -5,7 +5,7 @@
 title: "Les sous-titres de vidéo"
 nav_title: "Sous-titres de vidéo"
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-12    # Keep the date of the English version
 order: 6
 
 translators: 
@@ -13,7 +13,6 @@ translators:
 - name: "Rémi Bétin"
 contributors:
 - name: "Sandra Velarde Gonzalez (ETNIC)"
-
 
 github:
     label: wai-perspective-videos

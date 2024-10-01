@@ -3,8 +3,8 @@ title: "Image Alternative Text - Easy Checks"
 permalink: /test-evaluate/easy-checks/image-alt/
 ref: /test-evaluate/easy-checks/image-alt/
 nav_title: "Image Alternative Text"
-
 lang: en
+last_updated: 2024-03-19
 
 doc-note-type: draft
 

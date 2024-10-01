@@ -5,7 +5,10 @@
 title: 웹 접근성 필수 요소
 nav_title: "웹 접근성 요소" # A short title that is used in the navigation
 lang: ko   # Change "en" to the translated language shortcode
-last_updated: 2024-05-16  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-14   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-19  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Yong Ui Lee"
@@ -35,7 +38,6 @@ footer: >
     <cite>작가 : Michael Duffy, 출처: Essential Components of Web  Accessibility. S.L. Henry, ed. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
     더 많은 정보를 원하시면, <a href="https://www.w3.org/WAI/about/usingWAImaterial.html">Using WAI Materials</a>를 참고하세요.
   </p>
-  <p><strong>날짜: </strong>2024년 3월 14일 업데이트됨. <!-- [<a href="@@">변경 기록</a>] --></p>
   <p><strong>편집자:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. 그래픽 디자이너: Michael Duffy.</p>
 ---
 

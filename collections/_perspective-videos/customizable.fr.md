@@ -5,7 +5,7 @@
 title: "Un texte personnalisable"
 nav_title: "Texte personnalisable"
 lang: fr
-last_updated: 2023-10-16    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-16    # Keep the date of the English version
 order: 7
 
 translators: 

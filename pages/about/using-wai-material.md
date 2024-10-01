@@ -3,6 +3,7 @@ title: "Using WAI Material: Permission to Use with Attribution"
 title_html: "Using WAI Material:<br>Permission to Use with Attribution"
 nav_title: Using WAI Material
 lang: en
+last_updated: 2024-07-17
 
 permalink: /about/using-wai-material/
 ref: /about/using-wai-material/
@@ -11,7 +12,6 @@ github:
   label: wai-about
 
 footer: >
-  <p><strong>Date:</strong> Updated 17 July 2024.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with <a href="https://www.w3.org/staff/wai/">WAI staff</a> and <a href="https://www.w3.org/staff/comm/">W3C Communications staff</a>.</p>
 ---

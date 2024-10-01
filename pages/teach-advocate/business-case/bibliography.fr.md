@@ -5,8 +5,11 @@ title: "Bénéfices business de l’accessibilité numérique : bibliographie a
 title_html: "Bénéfices business de l’accessibilité numérique :<br>bibliographie annotée"
 nav_title: "Bibliographie"
 lang: fr
-last_updated: 2019-09-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2018-11-09  # Keep the date of the English version
 description: Ressources utilisées pour rédiger « Bénéfices business de l’accessibilité numérique »
+
+translation:
+  last_updated: 2019-09-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stéphane Deschamps"
@@ -25,7 +28,7 @@ image: /content-images/business-case/social.png
 # Translate the other words below, including "Date:", "Editor:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date :</strong> Publié le 9 novembre 2018.</p>
+  <p>Publié le 9 novembre 2018.</p>
   <p><strong>Rédactrice :</strong> Sharron Rush. Contributeurs : Shawn Lawton Henry, Eric Eggert, Brent Bakken, Vicki Menezes Miller, Laura Keen. ACKNOWLEDGEMENTS liste les contributeurs additionnels.</p>
   <p>Développé par le <i lang="en">Education and Outreach Working Group</i> (<a href="https://www.w3.org/WAI/EO/" lang="en">EOWG</a>, en anglais).</p>
 ---

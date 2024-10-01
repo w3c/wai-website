@@ -6,7 +6,11 @@ title: "Menulis untuk Aksesibilitas Web – Kiat Memulai"
 title_html: "Menulis untuk Aksesibilitas Web"
 nav_title: Kiat Menulis
 lang: id  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-08-05  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 resource:
   ref: /tips/  # Do not change this
@@ -31,6 +35,7 @@ ref: /tips/writing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#writing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
@@ -38,7 +43,7 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Diperbarui 5 Agustus 2022. Pertama kali dipublikasikan September 2015.</p>
+  <p>Pertama kali dipublikasikan September 2015.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, dan <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
   <p>Dikembangkan oleh <a href="https://www.w3.org/WAI/EO/">Kelompok Kerja Edukasi dan Pendampingan (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">proyek WAI-DEV</a>, didanai bersama oleh Program <abbr title="Teknologi Masyarakat Informasi">IST</abbr> Komisi Eropa.</p>
 ---

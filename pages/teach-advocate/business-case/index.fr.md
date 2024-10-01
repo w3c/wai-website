@@ -4,9 +4,12 @@
 title: "Bénéfices business de l’accessibilité numérique"
 nav_title: "Bénéfices business"
 lang: fr
-last_updated: 2024-07-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15  # Keep the date of the English version
 description: Présente les bonnes raisons qu’aura une organisation d’intégrer l’accessibilité. Inclut des bénéfices tangibles et intangibles, ainsi que les risques qu’on prend en ne traitant pas l’accessibilité de façon adéquate.
 footnotestitle: Ressources
+
+translation:
+  last_updated: 2024-07-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stéphane Deschamps"
@@ -28,7 +31,7 @@ image: /content-images/business-case/social.png
 # Translate the other words below, including "Date:", "Editor:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date :</strong> Publié le 9 novembre 2018. Mise à jour mineure : 15 juillet 2024.</p>
+  <p>Publié le 9 novembre 2018.</p>
   <p><strong>Rédactrice :</strong> Sharron Rush. Contributeurs : Shawn Lawton Henry, Eric Eggert, Brent Bakken, Vicki Menezes Miller, Laura Keen. ACKNOWLEDGEMENTS liste les contributeurs additionnels.</p>
   <p>Développé par le <i lang="en">Education and Outreach Working Group</i> (<a href="https://www.w3.org/WAI/EO/" lang="en">EOWG</a>, en anglais).</p>
 

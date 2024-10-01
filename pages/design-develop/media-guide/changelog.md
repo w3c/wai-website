@@ -12,18 +12,6 @@ resource:
   ref: /media/av/
 ---
 
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
-- This will be replaced by an automatically generated TOC when using Markdown formatting.
-{::options toc_levels="2,3" /}
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
 ## 17 September 2024
 
 * In [Audio Content and Video Content](/media/av/av-content/), [Captions/Subtitles](/media/av/captions/), [Description](/media/av/description/), [Planning Audio and Video Media](/media/av/planning/), [Media Player](/media/av/player/), [Sign Languages](/media/av/sign-languages/) and [Transcripts](/media/av/transcripts/): updated links to WCAG 2.2 Understanding pages instead of 2.1.
