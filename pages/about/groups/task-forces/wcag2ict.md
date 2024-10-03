@@ -34,7 +34,7 @@ Some information on this page is also shown on, and may be more current in, the 
 
 ## Announcements
 
-[WCAG2ICT W3C Working Group Note published](https://www.w3.org/TR/wcag2ict/)
+[WCAG2ICT W3C Group Note published](https://www.w3.org/TR/wcag2ict/)
 
 ## Meetings and Communication
 
