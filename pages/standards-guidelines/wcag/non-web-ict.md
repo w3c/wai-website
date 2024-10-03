@@ -1,7 +1,7 @@
 ---
 title: "WCAG2ICT Overview"
 lang: en
-last_updated: 2024-07-02
+last_updated: 2024-10-08
 description: "Introduces the document: Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)."
 
 permalink: /standards-guidelines/wcag/non-web-ict/
@@ -12,7 +12,7 @@ github:
 
 image: /content-images/wcag/general-social.jpg
 footer: >
-  <p><strong>Date:</strong> Updated 2 July 2024</p>
+  <p><strong>Date:</strong> Updated 8 October 2024</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Mary Jo Mueller, Judy Brewer, and Daniel Montalvo.</p>
   <p>Developed with input from the <a href="https://www.w3.org/groups/tf/wcag2ict/">WCAG2ICT Task Force</a> and the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg/">EOWG</a>).</p>
 ---
