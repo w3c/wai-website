@@ -1,6 +1,15 @@
-[build]
-# with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml'"
+[context.production]
+# Applies to the staging environment, generated from the `main` branch.
 command = "git submodule update --init --remote && npm install && bundle exec jekyll build --profile --trace --config '_config.yml,_config_staging.yml'"
+# with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml'"
+
+[context.deploy-preview]
+# Applies to deploy previews, generated from pull requests.
+# Include posts with a future date
+command = "git submodule update --init --remote && npm install && bundle exec jekyll build --profile --trace --config '_config.yml,_config_staging.yml' --future"
+# with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml' --future"
+
+[build]
 publish = "_site"
 
 [build.environment]
