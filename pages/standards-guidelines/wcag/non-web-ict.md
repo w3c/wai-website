@@ -45,7 +45,9 @@ Quick link:
 
 ## Introduction {#intro}
 
-<cite>Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</cite> describes how the Web Content Accessibility Guidelines (WCAG) can be applied to non-web information and communications technologies (ICT), including documents and software. It supports harmonized accessibility solutions across a range of technologies.
+<cite>Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</cite> describes how the Web Content Accessibility Guidelines (WCAG) can be applied to non-web information and communications technologies (ICT), including documents and software. WCAG2ICT is a W3C Group Note that provides informative guidance (not normative requirements).
+
+WCAG2ICT supports harmonized accessibility solutions across a range of technologies. WCAG2ICT has been a key resource for including WCAG in ICT accessibility regulation, legislation, and standards around the world.
 
 *Background:* **WCAG 2.0** is a normative web standard — it is a W3C Recommendation and an ISO International Standard ([ISO/IEC 40500:2012](https://www.w3.org/QA/2012/10/wcag_20_is_now_also_isoiec_405.html)) — that explains how to make web content (including static web pages, dynamic web applications, etc.) more accessible to people with disabilities. WCAG 2.1 was published in 2018 and **WCAG 2.2** was published in 2023. The [WCAG Overview](/standards-guidelines/wcag/) introduces the WCAG documents and links to supporting resources such as [[WCAG 2.0 at a Glance]](/standards-guidelines/wcag/20/glance/) and [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG20/quickref/).
 
