@@ -43,11 +43,3 @@ The [Low Vision Accessibility Task Force](/about/groups/task-forces/low-vision-a
 ## Mobile Accessibility Task Force
 
 The [Mobile Accessibility Task Force](/about/groups/task-forces/matf/) produce techniques, understanding and guidance documents as well as updates to existing related W3C / WAI material that addresses the mobile space.
-
-## Silver Task Force
-
-The [Silver Task Force](/about/groups/task-forces/silver/) will perform preliminary development of a new version of Accessibility Guidelines following a research-focused, user-centered design methodology to produce the most effective and flexible outcome. These guidelines will address the process of making content and functionality accessible to people with disabilities, including the roles of content authoring, user agent support, and authoring tool support. These guidelines will address current technological and cultural web accessibility requirements and provide a base for continued evolution of the guidelines. Also see the related [Silver Community Group](https://www.w3.org/community/silver/).
-
-## WCAG2ICT Task Force
-
-The objective of the [WCAG2ICT Task Force](/about/groups/task-forces/wcag2ict/) is to develop documentation describing how WCAG 2.1 and 2.2 and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
