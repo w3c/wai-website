@@ -35,30 +35,10 @@ Task Forces operate under specific Working Groups.
 :   Assisting Working Groups to produce techniques, understanding, and
     guidance documents, as well as updates to existing related W3C
     material that addresses the mobile space.
-
-**[Silver Task Force](/about/groups/task-forces/silver/)** under the [AG Working Group](/about/groups/agwg/)
-
-:   Perform preliminary development of a new version of Accessibility
-    Guidelines following a research-focused, user-centered design
-    methodology to produce the most effective and flexible outcome.
-    These guidelines will address the process of making content and
-    functionality accessible to people with disabilities, including the
-    roles of content authoring, user agent support, and authoring tool
-    support. These guidelines will address current technological and
-    cultural web accessibility requirements and provide a base for
-    continued evolution of the guidelines.
-    
-**[WCAG2ICT Task Force](/about/groups/task-forces/wcag2ict/)** under the [AG Working Group](/about/groups/agwg/)
-
-:   The WCAG2ICT Task Force develops documentation 
-    describing how WCAG 2.x and its principles, guidelines, and success 
-    criteria could apply to non-Web Information and Communications 
-    Technologies (ICT).
     
 **[WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/)** under the [AG Working Group](/about/groups/agwg/)
 
 : The WCAG 2.x Backlog Task Force maintains up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 of the Web Content Accessibility Guidelines, and documents considerations for WCAG 3.0 which cannot be readily addressed within the existing normative language of the 2.x specification.
-
 
 **[ARIA Authoring Practices Task Force](/about/groups/task-forces/practices/)** under the [ARIA Working Group](/about/groups/ariawg/)
 
