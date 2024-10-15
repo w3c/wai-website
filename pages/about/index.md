@@ -8,6 +8,7 @@ feedbackmail: wai@w3.org
 class: tight-page
 github:
    label: wai-about
+---
 
 {::nomarkdown}
 {% include box.html type="start" class="" %}
