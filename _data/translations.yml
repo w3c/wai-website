@@ -1194,6 +1194,8 @@
 # Updated 2024-09-24
 
 - en: 'Latest changes'   # links to page that lists changes to the resource
+  fr: 'Derniers changements'
+  # To update
   uk: 'Перелік змін'
   ar: 'سجل التغيير'
   cs: 'Seznam změn'
@@ -1202,7 +1204,6 @@
   nl: 'Changelog'
   el: 'καταγραφή αλλαγών'
   zh-hans: '修改日志'
-  fr: 'Derniers changements'
   ja: '変更履歴'
   es: 'Registro de cambios'
   ko: '변경 기록'
@@ -1213,6 +1214,7 @@
 
 - en: 'Translation date:'   # precedes a date
   fr: 'Date de la traduction :'
+  # To update
   uk: 'Переклад оновлено:'
   ar: 'ترجمة محدثة:'
   cs: 'Překlad aktualizován:'
