@@ -100,7 +100,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG（网页内容可访问性指南）**
+* **WCAG（网页内容无障碍指南）**
   * [标签或指示 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **教程**
   * [标签控制](/tutorials/forms/labels/)
@@ -118,7 +118,7 @@ Ensure that alternative text for images is added to all informational and functi
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG（网页内容可访问性指南）**
+* **WCAG（网页内容无障碍指南）**
   * [非文字内容 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **教程**
   * [图片](/tutorials/images/)
@@ -137,30 +137,32 @@ Ensure that alternative text for images is added to all informational and functi
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG（网页内容可访问性指南）**
+* **WCAG（网页内容无障碍指南）**
   * [Language of Page 3.1.1](/WAI/WCAG21/quickref/#language-of-page) ([Understanding 3.1.1](/WAI/WCAG21/Understanding/language-of-page))
   * [Language of Parts 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([Understanding 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
 * **How To**
-  * [Declaring language in HTML](/International/questions/qa-html-language-declarations)
+  * [在HTML中声明语言](/International/questions/qa-html-language-declarations)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Use mark-up to convey meaning and structure
+## 使用正确的HTML元素来传达语义和结构
 
 Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role="search"` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
+使用合适的标记用来表达标题，列表，表格等。
+TODO: mark-up总感觉翻译不对。。。
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Using HTML to provide structure and meaning" class="example" %}
+{% include_cached box.html type="start" title="举例说明： 使用 HTML 提供结构和意义" class="example" %}
 
 <div class="two-column">
 <figure>
-<figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
+<figcaption>{% include_cached icon.html name="desktop" %} 渲染输出</figcaption>
 <section>
   <article>
     <h2>Superbear saves the day</h2>
-    <time datetime="2015-08-07">7 Aug 2015</time>
+    <time datetime="2015-08-07">2015年8月7日</time>
     <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
     <aside>
       <h3>Related Articles</h3>
@@ -173,14 +175,14 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 </section>
 </figure>
 <figure>
-<figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
+<figcaption>{% include_cached icon.html name="code" %} 代码片段</figcaption>
 {:/}
 
 ~~~html
 <section>
   <article>
     <h2>Superbear saves the day</h2>
-    <time datetime="2015-08-07">7 Aug 2015</time>
+    <time datetime="2015-08-07">2015年8月7日</time>
     <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
     <aside>
       <h3>Related Articles</h3>
@@ -200,31 +202,31 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Search field using <abbr>WAI-ARIA</abbr>" class="example" %}
+{% include_cached box.html type="start" title="示例: 在搜索控件中使用 <abbr>WAI-ARIA</abbr>" class="example" %}
 
 <div class="two-column">
 <figure>
-<figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
+<figcaption>{% include_cached icon.html name="desktop" %} 渲染输出</figcaption>
 <form action="#" method="post">
   <div role="search">
-    <label for="search">Search for</label>
+    <label for="search">搜索</label>
     <input type="search" id="search" aria-describedby="search-help">
-    <div id="search-help">Search records by customer id or name</div>
-    <button type="submit">Go</button>
+    <div id="search-help">您可以通过编号或者姓名查询客户信息</div>
+    <button type="submit">提交</button>
   </div>
 </form>
 </figure>
 <figure>
-<figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
+<figcaption>{% include_cached icon.html name="code" %} 代码片段</figcaption>
 {:/}
 
 ~~~html
 <form action="#" method="post">
   <div role="search">
-    <label for="search">Search for</label>
+    <label for="search">查询</label>
     <input type="search" id="search" aria-describedby="search-help">
-    <div id="search-help">Search records by customer id or name</div>
-    <button type="submit">Go</button>
+    <div id="search-help">您可以通过编号或者姓名查询客户信息</div>
+    <button type="submit">提交</button>
   </div>
 </form>
 ~~~
@@ -236,14 +238,14 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG**
-  * [Info and Relationships 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
-* **Tutorial**
-  * [Page Structure](/tutorials/page-structure/)
-  * [Tables](/tutorials/tables/)
+* **WCAG（网页内容无障碍指南）**
+  * [信息和关系 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
+* **教程**
+  * [页面结构](/tutorials/page-structure/)
+  * [表格](/tutorials/tables/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
