@@ -5,7 +5,10 @@
 title: "L'accessibilité mobile chez W3C"
 nav_title: "Accessibilité mobile chez W3C"
 lang: fr
-last_updated: 2024-05-13
+last_updated: 2024-05-13  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Alexander Akel"

@@ -3,10 +3,13 @@
 
 title: Resumen de los estándares de accesibilidad de W3C # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Estándares/Pautas" # A short title that is used in the navigation
+lang: es   # Change "en" to the translated language shortcode
+last_updated: 2021-04-30  # Keep the date of the English version
 
-lang: es   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  status: outdated
+  last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
 - name: "Carlos Muncharaz"   # Replace @@ with translator name
   link: "http://www.muncharaz.eu/"
@@ -15,14 +18,12 @@ contributors:
 - name: "Jorge Rumoroso"   # Replace @@ with name, or delete this line if not multiple contributors
 
 ref: /standards-guidelines/   # Do not change this
-changelog: /standards-guidelines/changelog/
 github:
   label: wai-standards-guidelines
 permalink: /standards-guidelines/es   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
 footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>Fecha:</strong> Actualizado el 30 de abril del 2021. CHANGELOG.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

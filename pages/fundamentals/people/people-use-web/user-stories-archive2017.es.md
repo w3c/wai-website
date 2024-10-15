@@ -2,25 +2,28 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Historias de usuarios de la web"
-permalink: /people-use-web/user-stories/es # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /people-use-web/user-stories/  # Do not change this
+title: "Historias de usuarios de la web – 2017"
 lang: es
-last_updated: 2019-09-11
+last_updated: 2017-05-15
 order: 1
 description: Historias de personas con discapacidad usando la web resaltan el efecto de las barreras de accesibilidad y los grandes beneficios de los sitios web y herramientas accesibles.
-image: /content-images/people-use-web/social.png
+doc-note-type: archived
+doc-note-message-md: This is an archive of older material. New user stories are available from [Stories of Web Users in How People with Disabilities Use the Web](https://www.w3.org/WAI/people-use-web/user-stories/).
+
+translation:
+  last_updated: 2019-09-11
+
 translators: 
 - name: "Carlos Muncharaz"
   link: "http://www.muncharaz.eu/"
+
+permalink: /people-use-web/user-stories/archived/es # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/archived/  # Do not change this
+
+image: /content-images/people-use-web/social.png
 footer: >
-  <p><strong>Fecha:</strong> Publicado el 15 de mayo del 2017.</p>
   <p><strong>Editores:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a> y Norah Sinclair. Editora anterior: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Agradecimientos</a>.</p>
   <p>Desarrollado por el Grupo de Trabajo de Educación y Difusión (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Anteriormente desarrollado con el <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">equipo de trabajo WAI-AGE </a>, con apoyo del <a href="https://www.w3.org/WAI/WAI-AGE/">proyecto WAI-AGE</a>.</p>
-resource:
-  ref: /people-use-web/
-github:
-  label: wai-people-use-web
 ---
 
 {::nomarkdown}

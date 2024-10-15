@@ -6,7 +6,11 @@ title: "ウェブ・アクセシビリティのためのデザイン – 始め�
 title_html: "ウェブ・アクセシビリティのためのデザイン"
 nav_title: デザインのためのヒント
 lang: ja  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 resource:
   ref: /tips/  # Do not change this
@@ -31,6 +35,7 @@ ref: /tips/designing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#designing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:

@@ -14,7 +14,6 @@ github:
 
 image: /content-images/wcag/conformance-logos-social.jpg
 footer: >
-  <p><strong>Date:</strong> Updated 15 October 2020.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
   <p>Developed with input from the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---

@@ -5,7 +5,7 @@
 title: "Involving Users in Web Projects for Better, Easier Accessibility"
 nav_title: "Involving Users for Better Accessibility"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2019-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09   # Keep the date of the English version
 description: This page gets you started reaping the benefits of involving people with disabilities early and throughout different types of projects.
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

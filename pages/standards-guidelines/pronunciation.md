@@ -4,7 +4,7 @@
 
 title: "Pronunciation Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2021-05-19   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-19   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -27,7 +27,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 19 May 2021.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
   <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
 ---

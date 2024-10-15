@@ -27,7 +27,6 @@ resource:
   ref: /perspective-videos/ # Do not change this
 
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
-changelog: /perspective-videos/changelog/ # Do not change this
 
 description: Short videos demonstrating how Web accessibility is essential for people with disabilities and useful for all in a variety of situations.
 image: /content-images/perspective-videos/overview.jpg
@@ -38,7 +37,7 @@ image: /content-images/perspective-videos/overview.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Status:</strong> Updated 17 September 2024. CHANGELOG.<br><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. ACKNOWLEDGEMENTS.</p>
 
 # Read Translations Notes for this resource at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/
 ---

@@ -1,8 +1,11 @@
 ---
 title: "Vídeo de Introducción a la Accesibilidad Web y los Estándares del W3C"
 nav_title: "Vídeo de Introducción" # A short title that is used in the navigation
-last_updated: 2021-05-13
 lang: es
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Martín Álvarez-Espinar"

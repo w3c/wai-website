@@ -1,19 +1,19 @@
 ---
-title: "Stories of Web Users"
-doc-note-type: archived
-doc-note-message-md: This is an archive of older material. New user stories are available from [Stories of Web Users in How People with Disabilities Use the Web at https://www.w3.org/WAI/people-use-web/user-stories/](https://www.w3.org/WAI/people-use-web/user-stories/).
-permalink: /people-use-web/user-stories/archived/
-ref: /people-use-web/user-stories/archived/
+title: "Stories of Web Users – 2017 version"
 lang: en
 last_updated: 2017-05-15
 description: Personas of people with disabilities using the Web that highlight the effect of accessibility barriers and the broader benefits of accessible websites and web tools.
+doc-note-type: archived
+doc-note-message-md: This is an archive of older material. New user stories are available from [Stories of Web Users in How People with Disabilities Use the Web](https://www.w3.org/WAI/people-use-web/user-stories/).
+
+permalink: /people-use-web/user-stories/archived/
+ref: /people-use-web/user-stories/archived/
+
 image: /content-images/wai-people-use-web/social.png
 footer: >
-  <p><strong>This is an archive of older material. New user stories are available from <a href="https://www.w3.org/WAI/people-use-web/user-stories/">Stories of Web Users in How People with Disabilities Use the Web at https://www.w3.org/WAI/people-use-web/user-stories/</a>.</strong></p>
-  <p><strong>Date:</strong> Updated 15 May 2017. </p>
+  <p><strong>This is an archive of older material. New user stories are available from <a href="https://www.w3.org/WAI/people-use-web/user-stories/">Stories of Web Users in How People with Disabilities Use the Web.</strong></p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a> and Norah Sinclair. Previous editor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
-
 ---
 
 {::nomarkdown}
@@ -27,7 +27,6 @@ The following stories of people with disabilities using the Web highlight the ef
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
-
 
 {::options toc_levels="2" /}
 

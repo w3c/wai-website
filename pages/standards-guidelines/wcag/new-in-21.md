@@ -2,7 +2,7 @@
 title: "What’s New in WCAG 2.1"
 nav_title: "New in 2.1"
 lang: en
-last_updated: 2023-10-05
+last_updated: 2023-10-05  # Keep the date of the English version
 
 description: This page lists the new success criteria in Web Content Accessibility Guidelines (WCAG) 2.1. It includes quotes from personas (fictional people) to help you understand some aspects of the success criteria.
 teaser_text: WCAG 2.1 has 17 additional requirements (“success criteria”) that address mobile accessibility, people with low vision, and people with cognitive and learning disabilities. The What’s New in WCAG 2.1 page introduces the new success criteria. It includes quotes from personas to help you understand the issues.
@@ -15,7 +15,6 @@ github:
 
 image: /content-images/wcag/general-social.png
 footer: >
-  <p><strong>Date:</strong> Updated 5 October 2023.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Shadi Abou-Zahra, Jonathan Avila, Brent Bakken, Laura Carlson, Stéphane Deschamps, Eric Eggert, James Green, Becky Gibson, Marc Johlic, Robert Jolly, Howard Kramer, Chris O'Brien, Sharron Rush, Nic Steenhout, Glenda Sims, Bill Tyler.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">AG WG</a>).</p>
 inline_css: |

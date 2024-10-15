@@ -5,7 +5,7 @@
 title: "Des liens, boutons, et composants d’interface assez grands"
 nav_title: "Liens, boutons, et composants assez grands"
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-12    # Keep the date of the English version
 order: 5
 
 translators:

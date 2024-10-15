@@ -5,8 +5,12 @@
 title: "WCAG 2.1 de un vistazo"
 nav_title: "De un vistazo"
 lang: es
-last_updated: 2019-07-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2018-06-05  # Keep the date of the English version
 description: Esta página proporciona un resumen no literal de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1.
+
+translation:
+  status: outdated
+  last_updated: 2019-07-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -26,7 +30,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 5 de junio del 2018. Primera publicación en julio del 2008.</p>
+  <p>Primera publicación en julio del 2008.</p>
   <p><strong>Editores:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a> y Wayne Dick.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) y el Grupo de Trabajo de Pautas de Accesibilidad (<a href="https://www.w3.org/WAI/GL/">AG WG</a>).</p>
 

@@ -17,28 +17,6 @@ footer: >
  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Tolu Adegbite & Rémi Bétin</p>
 ---
 
-{::nomarkdown}
-{% include box.html type="start" title="About" class="" %}
-{:/}
-
-This page is designed so translators can copy and paste from this rendered changelog page.
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
-- This will be replaced by an automatically generated TOC when using Markdown formatting.
-{::options toc_levels="2,3" /}
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
 ## May 2024
 
 - In [“W3C WAI Addresses Mobile Accessibility”](/standards-guidelines/mobile/#covered) section:
