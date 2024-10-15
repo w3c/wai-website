@@ -2,7 +2,7 @@
 title: Participating in WAI
 nav_title: "Participating"
 lang: en
-last_updated: 2024-04-29
+last_updated: 2024-10-03
 permalink: /about/participating/
 ref: /about/participating/
 
@@ -103,7 +103,6 @@ including requirements for participation and contribution. See the
 Working Group pages below to find what group best fits your interests
 and to get information on participation.
 
--   **[EOWG](/WAI/EO)** &mdash; The Accessibility Education and Outreach Working Group develops awareness, training, and implementation resources supporting web accessibility. **See [Participating in EOWG](/WAI/EO/participation)**.
 -   **[AG WG](/WAI/GL)** &mdash; The Accessibility Guidelines Working Group develops guidelines for web pages, web applications, and other web content. **See [Participating in AG WG](/WAI/GL/participation)**.
 -   **[APA](/WAI/APA/)** &mdash; The Accessible Platform Architectures (APA) Working Group reviews W3C's specifications for accessibility support and develops technical support materials. **See [Participating in APA WG](/WAI/APA/participation)**.
 -   **[ARIA](/WAI/ARIA/)** &mdash; The Accessible Rich Internet Applications Working Group develops a suite of accessible rich internet applications (ARIA) resources, and accessible APIs and mappings. **See [Participating in ARIA WG](/WAI/ARIA/participation)**.

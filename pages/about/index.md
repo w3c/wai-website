@@ -3,12 +3,11 @@ title: "About W3C WAI"
 permalink: /about/
 ref: /about/
 lang: en
-last_updated: 2024-03-13
+last_updated: 2024-10-03
 feedbackmail: wai@w3.org
 class: tight-page
 github:
    label: wai-about
----
 
 {::nomarkdown}
 {% include box.html type="start" class="" %}
@@ -139,7 +138,6 @@ WAI includes the following Working Groups and Interest Group:
 -   [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly the Web Content Accessibility Guidelines Working Group)
 -   [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/)
 -   [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/)
--   [Education and Outreach Working Group (EOWG)](/about/groups/eowg/)
 -   [WAI Interest Group (WAI IG)](/about/groups/waiig/) is an e-mail discussion list that is open to anyone
 
 Within the Working Groups, there are also [Task Forces](/about/groups/task-forces/).

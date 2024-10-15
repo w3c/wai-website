@@ -34,7 +34,7 @@ Some information on this page is also shown on, and may be more current in, the 
 
 ## Announcements
 
-[WCAG2ICT Draft for review](https://www.w3.org/TR/wcag2ict-22/)
+[WCAG2ICT W3C Group Note published](https://www.w3.org/TR/wcag2ict/)
 
 ## Meetings and Communication
 
@@ -72,8 +72,8 @@ The WCAG2ICT TF uses the public-wcag2ict-tf@w3.org mailing list ([mailing list a
 
 ## Publications
 
-- W3C Group Note [Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/) &mdash; provides guidance on WCAG 2.0 success criteria
-- Draft W3C Group Note [Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) &mdash; provides guidance on 2.0, 2.1, and 2.2 success criteria, and will supersede the previous Note
+- W3C Group Note [Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/) &mdash; provides guidance on 2.0, 2.1, and 2.2 success criteria, and supersedes the previous Note
+- Previous W3C Group Note [Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-20/) &mdash; provides guidance on WCAG 2.0 success criteria
 
 ## How to Comment, Contribute, and Participate {#contribute}
 
