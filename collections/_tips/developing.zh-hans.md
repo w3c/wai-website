@@ -161,11 +161,11 @@ TODO: mark-up总感觉翻译不对。。。
 <figcaption>{% include_cached icon.html name="desktop" %} 渲染输出</figcaption>
 <section>
   <article>
-    <h2>Superbear saves the day</h2>
+    <h2>超级熊转危为安</h2>
     <time datetime="2015-08-07">2015年8月7日</time>
-    <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
+    <p>超级熊从树上救下一只小猫，再次证明了自己的能力。目击者称，超级熊的努力并没有得到小猫的感激，它给救它的超级熊造成了一些轻微的抓伤。</p>
     <aside>
-      <h3>Related Articles</h3>
+      <h3>相关文章</h3>
       <ul>
         <li><a href="#">Bear receives key to city</a></li>
         <li><a href="#">Superbear stands for mayor</a></li>
@@ -181,11 +181,11 @@ TODO: mark-up总感觉翻译不对。。。
 ~~~html
 <section>
   <article>
-    <h2>Superbear saves the day</h2>
+    <h2>超级熊转危为安</h2>
     <time datetime="2015-08-07">2015年8月7日</time>
-    <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
+    <p>超级熊从树上救下一只小猫，再次证明了自己的能力。目击者称，超级熊的努力并没有得到小猫的感激，它给救它的超级熊造成了一些轻微的抓伤。</p>
     <aside>
-      <h3>Related Articles</h3>
+      <h3>相关文章</h3>
       <ul>
         <li><a href="#">Bear receives key to city</a></li>
         <li><a href="#">Superbear stands for mayor</a></li>
@@ -251,28 +251,28 @@ TODO: mark-up总感觉翻译不对。。。
 {% include_cached box.html type="end" %}
 {:/}
 
-## Help users avoid and correct mistakes
+## 帮助用户避免和纠正错误
 
-Provide clear instructions, error messages, and notifications to help users complete forms on your site. When an error occurs:
+提供清晰的说明、错误信息和通知，来帮助用户填写网站上的表单。当出现错误时：
 
-* Help users find where the problem is
-* Provide specific, understandable explanations
-* Suggest corrections
+* 帮助用户找到问题所在
+* 提供具体、易懂的解释
+* 建议更正方法
 
-Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed.
+在处理用户输入时，对格式尽可能宽容。例如，接受包含空格的电话号码，并根据需要删除空格。
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Australian phone number field with forgiving validation" class="example" %}
+{% include_cached box.html type="start" title="示例: 格式要求宽容度大的澳大利亚电话号码表单控件" class="example" %}
 
 <div class="two-column">
 <figure>
-<figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
-<label for="phone">Phone</label>
+<figcaption>{% include_cached icon.html name="desktop" %} 渲染输出</figcaption>
+<label for="phone">电话</label>
 <input id="phone" name="phone" type="tel" pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$" aria-describedby="phone-desc">
-<p id="phone-desc">For example, (02) 1234 1234</p>
+<p id="phone-desc">例如, (02) 1234 1234</p>
 </figure>
 <figure>
-<figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
+<figcaption>{% include_cached icon.html name="code" %} 代码片段</figcaption>
 {:/}
 
 ~~~html
@@ -290,7 +290,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -334,7 +334,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 ~~~
 
 {% include excol.html type="start" id="full-code-img-before-heading" %}
-View complete code example
+查看完整代码示范
 {% include excol.html type="middle" %}
 
 ~~~html
@@ -362,7 +362,7 @@ View complete code example
 ~~~
 
 {% include excol.html type="start" id="full-code-img-before-heading" %}
-View complete code example
+查看完整代码示范
 {% include excol.html type="middle" %}
 
 ~~~html
@@ -383,7 +383,7 @@ View complete code example
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -449,7 +449,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -477,7 +477,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:/}
 
 ~~~html
-<nav aria-label="Main Navigation" role="navigation">
+<nav aria-label="主导航" role="navigation">
   <ul>
     <li><a href="...">Home</a></li>
     <li><a href="...">Shop</a></li>
@@ -503,7 +503,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -518,16 +518,16 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {% include_cached box.html type="end" %}
 {:/}
 
-## Ensure that all interactive elements are keyboard accessible
+## 确保所有可交互元素可以通过键盘操作
 
 Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex="0"` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Keyboard accessible menu button" class="example" %}
+{% include_cached box.html type="start" title="示例: 键盘操作友好的菜单按钮" class="example" %}
 
 <div class="two-column keyboard-accessible">
 <figure>
-<figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
+<figcaption>{% include_cached icon.html name="desktop" %} 渲染输出</figcaption>
 <div class="rendered">
   <div id="example-button" class="menu-button" role="button" aria-expanded="false" aria-controls="example-button-menu" tabindex="0">{% include_cached icon.html name="menu" %} Menu</div>
   <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
@@ -564,21 +564,21 @@ Think about keyboard access, especially when developing interactive elements, su
 </script>
 </figure>
 <figure>
-<figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
+<figcaption>{% include_cached icon.html name="code" %} 代码片段</figcaption>
 {:/}
 
 ~~~javascript
 var buttonExample = document.getElementById('example-button');
 
 buttonExample.addEventListener('keydown', function(e) {
-  // Toggle the menu when RETURN is pressed
+  // 当回车键按下时切换菜单状态
   if(e.keyCode && e.keyCode == 13) {
     toggleMenu(document.getElementById('example-button-menu'));
   }
 });
 
 buttonExample.addEventListener('click', function(e) {
-// Toggle the menu on mouse click
+  // 当鼠标点击时切换菜单状态
   toggleMenu(document.getElementById('example-button-menu'));
 });
 ~~~
@@ -590,7 +590,7 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -605,7 +605,7 @@ buttonExample.addEventListener('click', function(e) {
 {% include_cached box.html type="end" %}
 {:/}
 
-## Avoid CAPTCHA where possible
+## 尽可能避免使用CAPTCHA
 
 CAPTCHAs create problems for many people. There are other means of verifying that user input was generated by a human that are easier to use, such as automatic detection or interface interactions. If CAPTCHA really needs to be included, ensure that it is simple to understand and includes alternatives for users with disabilities, such as:
 
@@ -614,7 +614,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 * Not requiring CAPTCHAs for authorized users.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -630,19 +630,22 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Learn More About Accessibility" class="large" icon="readmore" %}
+{% include box.html type="start" title="了解更多无障碍相关知识" class="large" icon="readmore" %}
 {:/}
 
-These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
+These tips are a few of the things you need to consider for web accessibility. 
+The following resources help you learn why accessibility is important, 
+and about guidelines for making the web more accessible to people with disabilities.
 
-* [Introduction to Web Accessibility](/fundamentals/accessibility-intro/) — Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/fundamentals/accessibility-principles/) — An introduction to the <abbr>WCAG</abbr> requirements
-* [How people with disabilities use the web](/people-use-web/) — Real-life examples of the benefits of accessibility for people with disabilities
-* [Web Accessibility Tutorials](/tutorials/) — Shows you how to develop web content that is accessible to people with disabilities
-* [Before and After Demonstration](/WAI/demos/bad/) — Example accessible and inaccessible websites that share the same visual design, with annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr>WCAG</abbr>
-* [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) — customizable reference of all WCAG requirements and techniques
-* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) — Provides a range of tools to help explore the accessibility of code
-* [<abbr>WAI-ARIA</abbr> Overview](/standards-guidelines/aria/) — Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
+
+* [web无障碍简介](/fundamentals/accessibility-intro/) — 无障碍简介，并提供许多有用资源的链接
+* [无障碍原则](/fundamentals/accessibility-principles/) — <abbr>WCAG</abbr> 要求简介
+* [残疾人如何使用web](/people-use-web/) — 通过真实事例说明无障碍给残疾人士带来的益处
+* [Web无障碍教程](/tutorials/) — 向您展示如何开发便于残障人士访问的网页内容
+* [网站无障碍提升前后对比](/WAI/demos/bad/) — 对比具有相同视觉设计的无障碍不友好和无障碍友好的网站，并附有注释，强调关键的无障碍屏障和纠正方法，以及 <abbr>WCAG</abbr> 的评估报告。
+* [如何满足WCAG规范 (快速查阅)](/WAI/WCAG21/quickref/) — 所有WCAG要求和技术的可定制查阅
+* [Web无障碍评估工具列表](/WAI/ER/tools/) — 提供一系列工具，帮助探索代码的无障碍
+* [<abbr>WAI-ARIA</abbr> 概述](/standards-guidelines/aria/) — <abbr>WAI-ARIA</abbr> 简介及所有规范的链接
 
 {::nomarkdown}
 {% include box.html type="end" %}
