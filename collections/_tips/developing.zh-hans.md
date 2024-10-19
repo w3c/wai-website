@@ -111,7 +111,6 @@ footer: >
 
 ## 为图片添加替代文字
 
-Ensure that alternative text for images is added to all informational and functional images. Use empty alternative text, `alt=""` for decorative images, or include them in the CSS instead. Text alternatives are usually provided by those responsible for written content.
 确保为所有信息性和功能性图片添加图像替代文字。对装饰性图片使用空的替代文字`alt=“”`，或将其包含在 CSS 中。图片替代文字通常由负责书面内容的人员提供。
 
 {::nomarkdown}
@@ -138,9 +137,9 @@ Ensure that alternative text for images is added to all informational and functi
 {:/}
 
 * **WCAG（网页内容无障碍指南）**
-  * [Language of Page 3.1.1](/WAI/WCAG21/quickref/#language-of-page) ([Understanding 3.1.1](/WAI/WCAG21/Understanding/language-of-page))
-  * [Language of Parts 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([Understanding 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
-* **How To**
+  * [网页语言 3.1.1](/WAI/WCAG21/quickref/#language-of-page) ([理解 3.1.1](/WAI/WCAG21/Understanding/language-of-page))
+  * [组件语言 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([理解 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
+* **怎么做**
   * [在HTML中声明语言](/International/questions/qa-html-language-declarations)
 
 {::nomarkdown}
@@ -149,9 +148,9 @@ Ensure that alternative text for images is added to all informational and functi
 
 ## 使用正确的HTML元素来传达语义和结构
 
-Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role="search"` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
-使用合适的标记用来表达标题，列表，表格等。
-TODO: mark-up总感觉翻译不对。。。
+为标题、列表、表格等使用语义化的标记。HTML5 提供了许多元素，如 `<nav>` 和 `<aside>`，以便更好地组织内容。
+<abbr>WAI-ARIA</abbr> 角色可以提供额外的含义，例如，使用 `role=“search”` 来标识搜索功能。
+与设计人员和内容撰写人员合作，就含义达成一致，然后统一使用。
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="举例说明： 使用 HTML 提供结构和意义" class="example" %}
@@ -276,11 +275,11 @@ TODO: mark-up总感觉翻译不对。。。
 {:/}
 
 ~~~html
-<label for="phone">Phone</label>
+<label for="phone">电话</label>
 <input id="phone" name="phone" type="tel"
        pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$"
        aria-describedby="phone-desc">
-<p id="phone-desc">For example, (02) 1234 1234</p>
+<p id="phone-desc">例如, (02) 1234 1234</p>
 ~~~
 
 {::nomarkdown}
@@ -294,43 +293,43 @@ TODO: mark-up总感觉翻译不对。。。
 {:/}
 
 * **WCAG**
-  * [Error Identifications 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([Understanding 3.3.1](/WAI/WCAG21/Understanding/error-identification))
+  * [错误标识 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([理解 3.3.1](/WAI/WCAG21/Understanding/error-identification))
 * **Tutorial**
-  * [Validating Input](/tutorials/forms/validation/)
+  * [校验输入](/tutorials/forms/validation/)
 * **User Stories**
-  * [[Ian, data entry clerk with autism]](/people-use-web/user-stories/story-two/)
-  * [[Stefan, student with attention deficit hyperactivity disorder and dyslexia]](/people-use-web/user-stories/story-eight/)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
+  * [[Ian, 患有自闭症的数据录入员]](/people-use-web/user-stories/story-two/)
+  * [[Stefan，患有注意力缺陷多动障碍和阅读障碍的学生]](/people-use-web/user-stories/story-eight/)
+  * [[Elias, 患有低视力，手颤震，和轻度短期失忆症的退休人员]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Reflect the reading order in the code order
+## 在代码顺序中反映阅读顺序
 
-Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove CSS styling and review that the order of the content makes sense.
+确保代码中元素的顺序与所展示信息的逻辑顺序一致。检查的方法之一是移除 CSS 样式并检查内容的顺序是否合理。
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Reflecting the logical reading order in the code" class="example" %}
+{% include_cached box.html type="start" title="示例： 在代码中反映逻辑阅读顺序" class="example" %}
 
 <div class="two-column">
 <div class="order">
   <article class="product">
-    <h3 class="name">Space trainers</h3>
-    {% include_cached image.html src="tips/trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" %}
-    <p class="desc">Space trainer for a classic and stylish look.</p>
+    <h3 class="name">太空训练鞋</h3>
+    {% include_cached image.html src="tips/trainer.png" alt="紫色高帮运动鞋，白色鞋带，脚踝外侧有白色空点，白色鞋头帽" %}
+    <p class="desc">太空训练鞋，经典时尚的外观</p>
     <p class="buy"><a href="javascript:return false" class="button button-icon"><span>{% include_cached icon.html name="cart-plus" %} Add to cart</span></a></p>
   </article>
 </div>
 <figure>
-<figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Image before heading may be missed</figcaption>
+<figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} 标题前的图像可能会被错过</figcaption>
 {:/}
 
 ~~~html
 <img src="images/trainer.png" alt="...">
-<h3>Space trainers</h3>
-<p>Space...</p>
-<a href="...">Add to cart</a>
+<h3>太空训练鞋</h3>
+<p>太空...</p>
+<a href="...">加入购物车</a>
 ~~~
 
 {% include excol.html type="start" id="full-code-img-before-heading" %}
@@ -339,10 +338,10 @@ Ensure that the order of elements in the code matches the logical order of the i
 
 ~~~html
 <article class="product">
-  <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
-  <h3 class="name">Space trainers</h3>
-  <p class="desc">Space trainer for a classic and stylish look.</p>
-  <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> Add to cart</a></p>
+  <img alt="紫色高帮运动鞋，白色鞋带，脚踝外侧有白色空点，白色鞋头帽" src="images/trainer.png">
+  <h3 class="name">太空训练鞋</h3>
+  <p class="desc">太空训练鞋，经典时尚的外观</p>
+  <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> 加入购物车</a></p>
 </article>
 ~~~
 
@@ -351,14 +350,14 @@ Ensure that the order of elements in the code matches the logical order of the i
 {::nomarkdown}
 </figure>
 <figure>
-<figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Heading marks the start of the section</figcaption>
+<figcaption>{% include_cached icon.html name="check-circle" label="OK" %} 标题标志着章节的开始</figcaption>
 {:/}
 
 ~~~html
-<h3>Space trainers</h3>
+<h3>太空训练鞋</h3>
 <img src="images/trainer.png" alt="...">
-<p>Space...</p>
-<a href="...">Add to cart</a>
+<p>太空...</p>
+<a href="...">加入购物车</a>
 ~~~
 
 {% include excol.html type="start" id="full-code-img-before-heading" %}
@@ -367,10 +366,10 @@ Ensure that the order of elements in the code matches the logical order of the i
 
 ~~~html
 <article class="product">
-  <h3 class="name">Space trainers</h3>
-  <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
-  <p class="desc">Space trainer for a classic and stylish look.</p>
-  <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> Add to cart</a></p>
+  <h3 class="name">太空训练鞋</h3>
+  <img alt="紫色高帮运动鞋，白色鞋带，脚踝外侧有白色空点，白色鞋头帽" src="images/trainer.png">
+  <p class="desc">太空训练鞋，经典时尚的外观</p>
+  <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> 加入购物车</a></p>
 </article>
 ~~~
 
@@ -387,18 +386,20 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:/}
 
 * **WCAG**
-  * [Meaningful Sequence 1.3.2](/WAI/WCAG21/quickref/#meaningful-sequence) ([Understanding 1.3.2](/WAI/WCAG21/Understanding/meaningful-sequence))
+  * [有意义的序列 1.3.2](/WAI/WCAG21/quickref/#meaningful-sequence) ([理解 1.3.2](/WAI/WCAG21/Understanding/meaningful-sequence))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Write code that adapts to the user's technology
+## 编写能适应用户技术的代码
 
-Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. When font size is increased by at least 200%, avoid horizontal scrolling and prevent any clipping of content. Use progressive enhancement to help ensure that core functionality and content is available regardless of technology being used.
+使用响应式设计，使显示内容适应不同的缩放状态和视窗尺寸，如移动设备和平板电脑。
+当字体大小增加至少 200% 时，应避免水平滚动并防止内容被剪切。
+使用渐进增强技术，确保无论使用何种技术，都能使用核心功能和内容。
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Using media queries to adapt navigation" class="example" %}
+{% include_cached box.html type="start" title="示例： 使用媒体查询调整导航" class="example" %}
 
 <div class="adapt-code">
   <figure>
@@ -408,7 +409,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:/}
 
 ~~~css
-/* On narrow viewports, make the navigation full width */
+/* 在窄视窗上，使导航全宽 */
 @media screen and (min-width: 25em) {
   #nav {
     float: none;
@@ -426,7 +427,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:/}
 
 ~~~css
-/* On wider viewports, put the navigation on the left */
+/* 在较宽的视窗中，将导航放在左侧 */
 @media screen and (min-width: 43em) {
   #nav {
     float: left;
@@ -453,23 +454,26 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:/}
 
 * **WCAG**
-  * [Resize text 1.4.4](/WAI/WCAG21/quickref/#resize-text) ([Understanding 1.4.4](/WAI/WCAG21/Understanding/resize-text))
-  * [Consistent Identification 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
-* **Background**
-  * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
-* **User Story**
-  * [[Dhruv, older adult student who is deaf]](/people-use-web/user-stories/story-six/)
+  * [调整文本大小 1.4.4](/WAI/WCAG21/quickref/#resize-text) ([理解 1.4.4](/WAI/WCAG21/Understanding/resize-text))
+  * [一致的标识 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([理解 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
+* **背景**
+  * [小屏幕尺寸](/TR/mobile-accessibility-mapping/#h-small-screen-size)
+* **用户故事**
+  * [[Dhruv, 老年聋哑学生]](/people-use-web/user-stories/story-six/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Provide meaning for non-standard interactive elements
+## 为非标准互动元素提供意义
 
 Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role="navigation"` and `aria-expanded="true"`. Additional code is required to implement the behavior of such widgets, such as expanding and collapsing content or how the widget responds to keyboard events.
+使用 <abbr title=“可访问的富互联网应用程序”>WAI-ARIA</abbr>，为自定义组件（如手风琴组件accordions和自定义按钮）提供功能和状态信息。
+例如，`role=“navigation”` 和 `aria-expanded=“true”`。
+要实现此类组件的行为，如展开和折叠内容或组件如何响应键盘事件，还需要额外的代码。
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Menu function and state identified using WAI-ARIA" class="example" %}
+{% include_cached box.html type="start" title="示例： 使用 WAI-ARIA 体现菜单功能和状态" class="example" %}
 
 <div class="non-standard">
   <figure>
@@ -508,11 +512,11 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 
 * **WCAG**
   * [Name, Role, Value 4.1.2](/WAI/WCAG21/quickref/#name-role-value) ([Understanding 4.1.2](/WAI/WCAG21/Understanding/name-role-value))
-* **Background**
-  * [Notes on Using ARIA in HTML](/TR/aria-in-html/)
-* **User Stories**
-  * [[Sophie, basketball fan with Down syndrome]](/people-use-web/user-stories/story-five/)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
+* **背景**
+  * [在 HTML 中使用 ARIA 的注意事项](/TR/aria-in-html/)
+* **用户故事**
+  * [[Sophie, 患有唐氏综合症的篮球迷]](/people-use-web/user-stories/story-five/)
+  * [[Elias, 患有低视力，手颤震，和轻度短期失忆症的退休人员]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -598,10 +602,10 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [键盘 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([理解 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **User Stories**
-  * [[Ade, reporter with limited use of his arms]](/people-use-web/user-stories/story-one/)
-  * [[Lakshmi, senior accountant who is blind]](/people-use-web/user-stories/story-three/)
-  * [[Marta, marketing assistant who is deaf and blind]](/people-use-web/user-stories/story-seven/)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
+  * [[Ade, 双臂功能受限的记者]](/people-use-web/user-stories/story-one/)
+  * [[Lakshmi, 盲人高级会计师]](/people-use-web/user-stories/story-three/)
+  * [[Marta, 一位盲聋的营销助理]](/people-use-web/user-stories/story-seven/)
+  * [[Elias, 患有低视力，手颤震，和轻度短期失忆症的退休人员]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -613,7 +617,7 @@ CAPTCHA会给用户造成很多阻碍。除了CAPTCHA，还有其他更易使用
 如果一定需要用到CAPTCHA，确保它是容易理解的，另外提供其他可选方案，比如：
 
 * 提供至少两种解决CAPTCHA的方法
-* Providing access to a human representative who can bypass CAPTCHA
+* 让用户有机会请求可绕过CAPTCHA的人工代表的帮助
 * 对已授权用户取消CAPTCHA的要求
 
 {::nomarkdown}
@@ -623,10 +627,10 @@ CAPTCHA会给用户造成很多阻碍。除了CAPTCHA，还有其他更易使用
 * **WCAG**
   * [非文本内容 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **背景**
-  * [Inaccessibility of CAPTCHA](/TR/turingtest/)
+  * [CAPTCHA使无障碍变得困难](/TR/turingtest/)
 * **用户故事**
-  * [[Marta, 一位失去视觉和哑TODO的营销助理]](/people-use-web/user-stories/story-seven/)
-  * [[Elias, retiree with low vision, hand tremor, and mild short-term memory loss]](/people-use-web/user-stories/story-nine/)
+  * [[Marta, 一位盲聋的营销助理]](/people-use-web/user-stories/story-seven/)
+  * [[Elias, 患有低视力，手颤震，和轻度短期失忆症的退休人员]](/people-use-web/user-stories/story-nine/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -636,10 +640,7 @@ CAPTCHA会给用户造成很多阻碍。除了CAPTCHA，还有其他更易使用
 {% include box.html type="start" title="了解更多无障碍相关知识" class="large" icon="readmore" %}
 {:/}
 
-These tips are a few of the things you need to consider for web accessibility. 
-The following resources help you learn why accessibility is important, 
-and about guidelines for making the web more accessible to people with disabilities.
-
+这些提示是web无障碍需要考虑的一些事项。以下资源可以帮助您了解无障碍的重要性，以及让残疾人更容易访问web的指南。
 
 * [web无障碍简介](/fundamentals/accessibility-intro/) — 无障碍简介，并提供许多有用资源的链接
 * [无障碍原则](/fundamentals/accessibility-principles/) — <abbr>WCAG</abbr> 要求简介
