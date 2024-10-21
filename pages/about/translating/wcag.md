@@ -140,14 +140,14 @@ In particular, make sure that:
 - All links are valid. You can use [W3C Link Checker](https://validator.w3.org/checklink)
 - HTML is valid. You can use [W3C Markup Validation Service](https://validator.w3.org/)
 - CSS is valid. You can use [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-- Pages are internationalisation-friendly. You can use [W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)
+- Pages are internationalization-friendly. You can use [W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)
 - All relevant content has been properly translated
-- All `id`s are in English (= they have not been translated).
+- All `id`s are in English; that is, they have not been translated. If you have followed [How to Translate WCAG 2 – Get the source files](#get-source-files), this should be fine.
 - `lang` and `xml:lang` attributes of the `<html>` tag are correct
 - `hreflang` attribute has been added to links when relevant
 - `lang` attribute has been used when relevant (especially when some text has been kept in English)
 - The links/anchors of the original and translated versions match.
-- “Jump to table of contents”, “Collapse sidebar” and “Hid sidebar” have been translated.
+- “Jump to table of contents”, “Collapse sidebar” and “Hide sidebar” have been translated.
 - There is no code showing in the rendered page.
 - No custom CSS has been added.
 - (Authorized translation) An errata has been created and is hosted on the Lead translating organization (LTO)'s website.
