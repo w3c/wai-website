@@ -73,7 +73,7 @@ We also recommend that you read the [WCAG 2.1 Change log](https://www.w3.org/TR/
 
 In January 2024, we have published a guide on translating WCAG 2: [How to translate WCAG 2](/about/translating/wcag/). It explains how to use the content in [`w3c/wcag` {% include_cached external.html %}](https://github.com/w3c/wcag/) repository to start translating WCAG.
 
-If you want to use this method, refer to the [`WCAG21-20230921` tag](https://github.com/w3c/wcag/tree/WCAG21-20230921) to find the files of the September 2023 version.
+If you want to use this method, refer to the [`WCAG21-20230921` tag](https://github.com/w3c/wcag/tree/WCAG21-20230921) to get the files of the 21 September 2023 version.
 
 If starting over with this new method is overly complex for you, you can update your existing files.
 
