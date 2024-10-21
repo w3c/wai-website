@@ -81,10 +81,11 @@ Translate user-oriented content in:
 - `guidelines/respect-config.js`: translate Editors list.
 - All files in `acknowledgements/` folder
 
-Make sure to follow these translation guidelines:
+Make sure to follow these guidelines:
 - Update <html> `lang` and `xml:lang` attributes in `index.html` and `relative-luminance.html`.\
   Use the appropriate "language tag" from the [Language Subtag Registry {% include_cached external.html %}](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
-- Do not translate IDs
+- Do not add or edit CSS.
+- Do not translate `id`s.
 - Add `hreflang="en"` to links when needed, and `lang="en"` where needed.
 - Follow the guidelines of the [W3C Internationalization Activity {% include_cached external.html %}](https://www.w3.org/International/): for example, the proper usage of language tags, encoding declarations, handling bidirectional text, etc.
 
@@ -106,7 +107,7 @@ Allow the script to compile and format the content.
 
 Rename the exported HTML file to `index.html` and make the following changes.
 
-### Add the translation header
+### Add the translation header {#translation-header}
 
 At the very start of your `body` element, add a [translation header, based on the provided boilerplate](https://www.w3.org/2005/02/TranslationPolicy#Disclamier).
 
@@ -119,7 +120,9 @@ The text in this disclaimer must be in the target language, except for the origi
 - Next to each Success Criterion, translate “Understanding” and “How to Meet”
 - Change the ID of the ["5. Conformance"](https://www.w3.org/TR/WCAG22/#conformance) `<section>` to "`conformance`".
 
-Make sure to follow these translation guidelines:
+Make sure to follow these guidelines:
+- Do not add or edit CSS.
+- Do not translate `id`s.
 - Add `hreflang="en"` to links when needed, and `lang="en"` where needed.
 - Follow the guidelines of the [W3C Internationalization Activity](https://www.w3.org/International/): for example, the proper usage of language tags, encoding declarations, handling bidirectional text, etc.
 
