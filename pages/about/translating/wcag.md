@@ -1,6 +1,6 @@
 ---
 title: How to Translate WCAG 2
-nav_title: "How to Translate WCAG 2"
+nav_title: "Translate WCAG 2"
 lang: en
 last_updated: 2024-09-17
 description: Technical instructions on translating WCAG
@@ -53,12 +53,13 @@ For general information on WCAG 2 Translations, see [Contributing to W3C Transla
 
 Web Content Accessibility Guidelines (WCAG) 2.1/2.2 are currently [available in more than 14 languages](/standards-guidelines/wcag/translations/)!
 
-There are 5 main steps to create a new translation:
+There are 6 main steps to create a new translation:
 1. **[Get the source files](#get-source-files)** from [`w3c/wcag/` {% include_cached external.html %}](https://github.com/w3c/wcag/) repository
 2. **[Translate WCAG source files](#translate-source-files)**
 3. **[Export in HTML](#preview-export)**
 4. **[Edit the HTML files](#edit-html)** to complete the translation
-5. **[Deliver the final files to W3C](#deliver-files)**
+5. **[Check your translation](#check)**
+6. **[Deliver the final files to W3C](#deliver-files)**
 
 ## Step 1: Get the source files {#get-source-files}
 
@@ -131,7 +132,27 @@ Download [`fixup.js` {% include_cached external.html %}](https://www.w3.org/scr
 - "Pop Out Sidebar"
 - "Jump to Table of Contents”
 
-## Step 5: Deliver the final files to W3C {#deliver-files}
+## Step 5: Check your translation thoroughly {#check}
+
+Please properly check your files before submission to W3C.
+
+In particular, make sure that:
+- All links are valid. You can use [W3C Link Checker](https://validator.w3.org/checklink)
+- HTML is valid. You can use [W3C Markup Validation Service](https://validator.w3.org/)
+- CSS is valid. You can use [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- Pages are internationalisation-friendly. You can use [W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)
+- All relevant content has been properly translated
+- All `id`s are in English (= they have not been translated).
+- `lang` and `xml:lang` attributes of the `<html>` tag are correct
+- `hreflang` attribute has been added to links when relevant
+- `lang` attribute has been used when relevant (especially when some text has been kept in English)
+- The links/anchors of the original and translated versions match.
+- “Jump to table of contents”, “Collapse sidebar” and “Hid sidebar” have been translated.
+- There is no code showing in the rendered page.
+- No custom CSS has been added.
+- (Authorized translation) An errata has been created and is hosted on the Lead translating organization (LTO)'s website.
+
+## Step 6: Deliver the final files to W3C {#deliver-files}
 
 In conformance with step 6.3 of the [Policy for Authorized W3C Translations {% include_cached external.html %}](https://www.w3.org/2005/02/TranslationPolicy.html), deliver the following files to W3C for publication:
 - `index.html`
