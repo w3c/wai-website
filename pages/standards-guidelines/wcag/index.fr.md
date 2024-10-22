@@ -5,7 +5,11 @@
 title: "Règles pour l’accessibilité des contenus Web (WCAG) 2 – Vue d’ensemble"
 nav_title: "Contenus Web – WCAG 2"
 lang: fr
-last_updated: 2024-04-09 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-09 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 description: Présente le standard international des Règles pour l’accessibilité des contenus web (WCAG), notamment WCAG 2.0, WCAG 2.1 et WCAG 2.2. Les documents des WCAG expliquent comment rendre les contenus Web plus accessibles aux personnes en situation de handicap.
 
 translators:
@@ -26,7 +30,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mis à jour le 7 mars 2024. Première publication en juillet 2005.</p>
+  <p>Première publication en juillet 2005.</p>
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé avec la contribution du Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) et le Groupe de travail en charge des règles d’accessibilité (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---

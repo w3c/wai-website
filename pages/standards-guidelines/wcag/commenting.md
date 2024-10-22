@@ -13,7 +13,6 @@ github:
 
 image: /content-images/wcag/general-social.jpg
 footer: >
-  <p><strong>Date:</strong> Updated 24 May 2018.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Cooper/">Michael Cooper</a></p>
 ---
 

@@ -1,7 +1,10 @@
 ---
 title: Évaluation de la conformité et rapports
 lang: fr
-last_updated: 2023-11-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-08-01  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-11-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Rémi Bétin"
@@ -20,7 +23,6 @@ ref: /test-evaluate/conformance/  # Do not change this
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
   <p>Note à propos de la description vidéo : la vidéo présente sur cette page n’inclut pas l’audiodescription synchronisée car les images n’illustrent que l’audio et ne fournissent pas d’informations supplémentaires. Dans ce cas-ci, l’audiodescription serait plus distrayante qu’utile pour la plupart des utilisateurs, y compris pour les personnes qui ne peuvent pas voir les images. La description des informations contenues dans les images est reprise dans la transcription textuelle avec description des visuels (« transcription descriptive »).</p>
-  <p><strong>Date :</strong> Mise à jour : 1<sup>er</sup> août 2023.</p>
    <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Vidéo créée par le groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) avec le soutien du projet <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> financé par la Commission européenne (CE) dans le cadre du programme Horizon 2020 (convention de subvention n°822245).</p>
 ---

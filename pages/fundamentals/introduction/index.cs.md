@@ -3,7 +3,11 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Úvod do webové přístupnosti 
 lang: cs
-last_updated: 2020-08-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-06-05
+
+translation:
+  last_updated: 2020-08-26  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators: #Add one -name: line for every translator
   - name: "Kristýna Švecová"
@@ -19,12 +23,11 @@ ref: /fundamentals/accessibility-intro/   # Do not change this
 changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Datum:</strong> Aktualizováno 5. června 2019. Poprvé zveřejněno v únoru 2005. CHANGELOG.</p>
+  <p>Poprvé zveřejněno v únoru 2005.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Vyvinuto Pracovní skupinou pro vzdělání a osvětu (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

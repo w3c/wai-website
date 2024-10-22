@@ -6,7 +6,11 @@ title: "Concevoir pour l’accessibilité Web – Conseils pour démarrer"
 title_html: "Concevoir pour l’accessibilité Web"
 nav_title: Conseils pour le design
 lang: fr # Change "en" to the translated-language shortcode
-last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 resource:
   ref: /tips/  # Do not change this
@@ -30,6 +34,7 @@ ref: /tips/designing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#designing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:

@@ -1,5 +1,6 @@
 ---
 title: How to Change Text Size or Colors
+last_updated: 2019-03-04
 lang: en
 layout: default
 parent: "/"
@@ -9,7 +10,7 @@ github:
 license: creative-commons
 feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Date:</strong> Updated 4 March 2019. First published 2005.</p>
+  <p>First published 2005.</p>
   <p><strong>Editors:</strong> Robert Jolly and Shawn Lawton Henry.</p>
 ---
 

@@ -13,7 +13,7 @@ github:
 
 image: /content-images/wcag/general-social.jpg
 footer: >
-    <p><strong>Date:</strong> Updated 5 October 2023. First published October 2006.</p>
+    <p>First published October 2006.</p>
     <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
     <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---

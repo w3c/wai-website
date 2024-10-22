@@ -6,14 +6,21 @@ title: "Cómo usan la web las personas con discapacidad"
 order: 0
 nav_title: Introducción
 lang: "es"
-last_updated: 2019-08-27
+last_updated: 2017-05-15  # Keep the date of the English version
+description: Presenta cómo usan la web las personas con discapacidad y las personas con problemas relacionados con la edad.
+
+translation:
+  last_updated: 2019-08-27
+  status: outdated
+
+translators:
+  - name: "Carlos Muncharaz"
+    link: "http://www.muncharaz.eu/"
+
 permalink: /people-use-web/es # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /people-use-web/  # Do not change this
-description: Presenta cómo usan la web las personas con discapacidad y las personas con problemas relacionados con la edad.
+
 image: /content-images/people-use-web/social.png
-translators: 
-- name: "Carlos Muncharaz"
-  link: "http://www.muncharaz.eu/"
 footer: >
   <p><strong>Fecha:</strong> Publicado el 15 de mayo del 2017.</p>
   <p><strong>Editores:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Editora anterior: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Agradecimientos</a>.</p>

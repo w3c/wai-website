@@ -6,7 +6,7 @@ title: "Developing for Web Accessibility – Tips for Getting Started"
 title_html: "Developing for Web Accessibility"
 nav_title: "Tips for Developing"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-07-16   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-16   # Keep the date of the English version
 
 resource:
   ref: /tips/
@@ -30,6 +30,7 @@ ref: /tips/developing/  # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#developing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:

@@ -5,7 +5,7 @@
 title: "How People with Disabilities Use the Web"
 nav_title: Overview
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
 class: tight-page
 
@@ -32,11 +32,11 @@ acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 25 June 2024. First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editor:</strong> Shadi Abou-Zahra. Previous editor: Judy Brewer. See ACKNOWLEDGEMENTS for additional editors and contributors.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---

@@ -3,17 +3,15 @@ title: "Easy Checks – A First Review of Web Accessibility"
 permalink: /test-evaluate/easy-checks/
 ref: /test-evaluate/easy-checks/
 nav_title: "Overview"
-
 lang: en
-
 doc-note-type: draft
+last_updated: 2024-03-21
 
 github:
   label: wai-easy-checks
 
 acknowledgements: /test-evaluate/easy-checks/acknowledgements/
 footer: >
-  <p><strong>Status:</strong> Updated March 2024</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Andrew Arch, and  <a href="https://www.w3.org/People/shawn/">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors, credits, and funders.</p>
 ---
 

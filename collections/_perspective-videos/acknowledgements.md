@@ -6,9 +6,8 @@ nav_title: "Acknowledgements"
 lang: en
 last_updated: 2019-01-22
 
-
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/acknowledgements/
 ref: /perspective-videos/acknowledgements/
@@ -16,7 +15,7 @@ nosidenav: true
 image: /content-images/perspective-videos/overview.jpg
 
 footer: >
-  <p><strong>Status:</strong> Updated 22 January 2019. <br><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation.</p>
+  <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation.</p>
 ---
 
 This [Web Accessibility Perspectives]({% link _perspective-videos/index.md %}) resource was developed by the [Education Outreach Working Group (EOWG)](https://www.w3.org/WAI/EO/) with support from the [WAI-DEV project](https://www.w3.org/WAI/DEV/), co-funded by the European Commission. Updated with support from the Ford Foundation.
@@ -27,12 +26,12 @@ Project Leadership
 -   **Editor and Project Lead:** [Shadi
     Abou-Zahra](https://www.w3.org/People/shadi), W3C WAI
 -   **Task Force Participants:**
-    -   [Shadi Abou-Zahra](https://www.w3.org/People/shadi), W3C WAI
-    -   Brent Bakken, Pearson
-    -   Adina Halter, Comcast
+  -   [Shadi Abou-Zahra](https://www.w3.org/People/shadi), W3C WAI
+  -   Brent Bakken, Pearson
+  -   Adina Halter, Comcast
 -   **EOWG Co-Chairs:**
-    -   Sharron Rush, Knowbility
-    -   Brent Bakken, Pearson
+  -   Sharron Rush, Knowbility
+  -   Brent Bakken, Pearson
 -   **EOWG Staff Contact:** [Shawn Lawton
     Henry](https://www.w3.org/People/shawn), W3C WAI
 

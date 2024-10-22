@@ -4,9 +4,13 @@
 
 title: Principes d’accessibilité
 lang: fr
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-05-10   # Keep the date of the English version
 description: Un aperçu des exigences d’accessibilité web fondamentales pour les sites et les applications web, les navigateurs et autres outils.
 teaser_text: La page «&#8239;Principes d’accessibilité&#8239;» présente certaines exigences d’accessibilité pour les sites et les applications web, les navigateurs et autres outils. Elle fournit des liens vers les standards internationaux de l’Initiative Accessibilité du Web (WAI) du W3C et vers une page parlant des particularités de quelques utilisateurs du Web.
+
+translation:
+  last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators:
 - name: "Stéphane Deschamps"
@@ -17,18 +21,15 @@ permalink: /fundamentals/accessibility-principles/fr
 ref: /fundamentals/accessibility-principles/
 
 github:
-    label: wai-accessibility-principles
+  label: wai-accessibility-principles
 
 image: /content-images/accessibility-principles/social.png
-changelog: /fundamentals/accessibility-principles/changelog/     # Do not change this
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 10 May 2019.</p>
   <p lang="en"><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/" hreflang="en">Shadi Abou Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments" hreflang="en">Acknowledgments</a>.</p>
   <p lang="en">Developed by the Education and Outreach Working Group (<a href="https//www.w3.org/WAI/EO/" hreflang="en">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf" hreflang="en">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/" hreflang="en">WAI-AGE Project</a>.</p>
 ---

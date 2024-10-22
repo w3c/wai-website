@@ -5,7 +5,10 @@
 title: "ATAG en bref"
 nav_title: "En bref"
 lang: fr
-last_updated: 2024-03-05   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-05   # Keep the date of the English version
 
 translators:
   - name: "Sofia Ahmed"
@@ -27,7 +30,6 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
-  <p><strong>Date&nbsp;:</strong> Mise à jour le 18 mai 2016.</p>
   <p><strong>Rédaction :</strong> Jeanne Spellman et <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
   <p>Développé avec les contributions du Groupe de travail des Règles d'accessibilité pour les outils d'édition (<a href="https://www.w3.org/WAI/AU/">AUWG</a>).</p>
 ---

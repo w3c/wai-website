@@ -5,7 +5,11 @@
 title: "W3C 移动端无障碍"
 nav_title: "W3C 移动端无障碍"
 lang: zh-hans
-last_updated: 2021-05-17  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-14  # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2021-05-17  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "李喆明"
@@ -21,12 +25,11 @@ changelog: /standards-guidelines/mobile/changelog/  # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>日期：</strong>更新于2021年5月14日。第一版发布于2018年1月。CHANGELOG.</p>
+  <p><strong>日期：</strong>更新于2021年5月14日。第一版发布于2018年1月。</p>
   <p><strong>编者：</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. 贡献者： <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>.</p>
 ---
 

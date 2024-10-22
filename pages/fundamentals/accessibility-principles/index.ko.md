@@ -5,9 +5,13 @@
 title: 접근성 원칙
 nav_title: "접근성 원칙"
 lang: ko
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-05-10   # Keep the date of the English version
 description: 웹 사이트, 웹 어플리케이션, 브라우저와 다른 도구를 위한 기본적 웹 접근성 필요조건에 대한 개요
 teaser_text: 접근성 원칙 페이지는 웹 사이트, 웹 어플리케이션, 브라우저와 다른 도구를 위한 웹 접근성 필요조건에 대해 소개하고 있습니다. W3C 웹의 국제 표준에 대해 언급하고 있습니다.
+
+translation:
+  last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators: 
 - name: "Yong Ui Lee"   # Replace @@ with translator name
@@ -25,11 +29,9 @@ image: /content-images/accessibility-principles/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>날짜:</strong> 2019년 5월 10일 업데이트됨.</p>
   <p><strong>편집자:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
   <p>교육과 활동관련 실무 그룹인 (<a href="https//www.w3.org/WAI/EO/">EOWG</a>)의 지원을 받아 제작되었습니다. <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE 프로젝트</a>의 지원과 <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE 팀</a>에 의해 제작되었습니다.</p>
 ---

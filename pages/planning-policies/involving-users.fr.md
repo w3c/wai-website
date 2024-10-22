@@ -5,8 +5,11 @@
 title: "Impliquer les utilisateurs dans les projets Web pour améliorer et faciliter l'accessibilité"
 nav_title: "Impliquer les utilisateurs pour améliorer l'accessibilité"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-20   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-05-05   # Keep the date of the English version
 description: Cette page vous aide à démarrer afin que vous tiriez les bénéfices d'une implication des personnes en situation de handicap, rapidement et tout au long de différents types de projets.
+
+translation:
+  last_updated: 2024-06-20  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Céline Bouillon"
@@ -22,13 +25,12 @@ ref: /planning/involving-users/   # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
   <p>Note à propos de l'audiodescription : la vidéo présente sur cette page n'inclut pas l'audiodescription synchronisée car les images n'illustrent que l'audio et ne fournissent pas d'informations supplémentaires. Dans ce cas-ci, l'audiodescription serait plus distrayante qu'utile pour la plupart des utilisateurs, y compris pour les personnes qui ne peuvent pas voir les images. La description des informations contenues dans les images est reprise dans la transcription textuelle avec description des visuels ("transcription descriptive").</p>
-  <p><strong>Date:</strong> Mise à jour : 9 janvier 2019. Ajout de la vidéo d'introduction : 28 avril 2020. Première publication : 9 décembre 2009.</p>
+  <p><strong>Date:</strong> Mise à jour : 9 janvier 2019. Ajout de la vidéo d'introduction : 5 mai 2020. Première publication : 9 décembre 2009.</p>
   <p><strong>Rédacteurs :</strong> <a hreflang="en" href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a hreflang="en" href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>, et <a hreflang="en" href="https://www.w3.org/People/Andrew/">Andrew Arch</a>.</p>
   <p>Développé grâce aux éléments de l'<i lang="en">Education and Outreach Working Group</i> (<a hreflang="en" href="https://www.w3.org/WAI/EO/">EOWG</a>), avec le <a hreflang="en" href="https://www.w3.org/WAI/EO/2008/wai-age-tf">Groupe de Travail WAI-AGE</a>. Développé dans le cadre du <a hreflang="en" href="https://www.w3.org/WAI/WAI-AGE/">Projet WAI-AGE</a> financé par la Commission européenne au titre du 6e programme-cadre. Vidéo créée avec le soutien du projet <a hreflang="en" href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> financée par la Commission Européenne dans le cadre du programme Horizon 2020 (Accord de Subvention n°822245). <a hreflang="en" href="/WAI/test-evaluate/acknowledgements">Remerciements pour la vidéo</a>.</p>
 ---

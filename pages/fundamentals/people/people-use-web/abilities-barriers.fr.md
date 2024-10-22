@@ -9,13 +9,17 @@ ref: /people-use-web/abilities-barriers/  # Do not change this
 lang: fr
 description: Explore la grande diversité de publics et de capacités et souligne quelques points bloquants en accessibilité web qu’on rencontre fréquemment à cause de sites et d’outils web inaccessibles.
 image: /content-images/people-use-web/social.png
-last_updated: 2018-09-12
+last_updated: 2017-05-15  # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2018-09-12
+
 translators:
 - name: "Stéphane Deschamps"
 contributors:
 - name: "@code-elegant"
 footer: > # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>Date&#8239;:</strong> Mis à jour le 15 mai 2017.</p>
   <p><strong>Rédacteur&#8239;:</strong> <a hreflang="en" href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Rédactrice précédente&#8239;: <a hreflang="en" href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a hreflang="en" href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Remerciements</a>.</p>
   <p>Développé par le <i lang="en">Education and Outreach Working Group</i> (<a hreflang="en" href="http://www.w3.org/WAI/EO/">EOWG</a>). Développé précédemment avec le <a hreflang="en" href="https://www.w3.org/WAI/EO/2008/wai-age-tf">Groupe de Travail WAI-AGE</a>, avec le soutien du <a hreflang="en" href="https://www.w3.org/WAI/WAI-AGE/">Projet WAI-AGE</a>.</p>
 resource:

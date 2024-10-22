@@ -5,7 +5,7 @@
 title: "ATAG at a Glance"
 nav_title: "At a Glance"
 lang: en   # Change "en" to the translated language shortcode
-last_updated: 2024-03-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-04   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -28,7 +28,6 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
-  <p><strong>Date:</strong> Updated 18 May 2016.</p>
   <p><strong>Editors:</strong> Jeanne Spellman and <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Authoring Tool Accessibility Working Group (<a href="https://www.w3.org/WAI/AU/">AUWG</a>).</p>
 ---

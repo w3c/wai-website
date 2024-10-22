@@ -5,7 +5,10 @@
 title: Composantes essentielles de l’accessibilité du Web
 nav_title: "Composantes de l'accessibilité du Web" # A short title that is used in the navigation
 lang: fr   # Change "en" to the translated language shortcode
-last_updated: 2024-03-19   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-14   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-19  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "@code-elegant"
@@ -32,7 +35,6 @@ footer: >
     2. Incluez l’attribution à l’artiste, l’éditeur, et la mention de copyright dans tous les travaux publiés ou diffusés&nbsp;:<br><cite>Image par Michael Duffy, depuis&nbsp;: Essential Components of Web  Accessibility. Éditrice S. L. Henry. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
     Pour plus d’informations, voir <a href="https://www.w3.org/WAI/about/using-wai-material/" lang="en" hreflang="en">Using WAI Materials (en anglais)</a>.
   </p>
-  <p><strong>Date&nbsp;: </strong>Mis à jour le 14 mars 2024.</p>
   <p><strong>Rédaction&nbsp;:</strong> <a href="https://www.w3.org/People/Shawn" lang="en" hreflang="en">Shawn Lawton Henry</a>. Graphiste&nbsp;: Michael Duffy.</p>
 ---
 

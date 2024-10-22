@@ -5,7 +5,10 @@
 title: "Un arbre décisionnel pour l'attribut alt"
 title_html: "Un arbre décisionnel pour l'attribut <code>alt</code>"
 lang: fr  # Change "en" to the translated-language shortcode
-last_updated: 2024-09-02  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-01-15  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-08  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: Rémi Bétin

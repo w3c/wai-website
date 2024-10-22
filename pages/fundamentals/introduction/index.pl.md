@@ -3,7 +3,10 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Wprowadzenie do dostępności internetowej
 lang: pl
-last_updated: 2024-06-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-06-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stefan Wajda"
@@ -20,11 +23,10 @@ changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
   
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Data:</strong> Aktualizacja 20 listopada 2023. Pierwsza publikacja w lutym 2005. CHANGELOG.</p>
+  <p>Pierwsza publikacja w lutym 2005.</p>
   <p><strong>Redaktorka:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Opracowane przez Grupę Roboczą ds. Edukacji i Promocji (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 ---

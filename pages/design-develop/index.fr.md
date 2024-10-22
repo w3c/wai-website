@@ -5,7 +5,10 @@
 title: "Concevoir et développer – Vue d’ensemble"
 nav_title: "Vue d’ensemble"
 lang: fr
-last_updated: 2023-11-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-05-19  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-11-29  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Sofia Ahmed"
@@ -19,17 +22,14 @@ github:
 permalink: /design-develop/fr
 ref: /design-develop/ # Do not change this
 
-changelog: /design-develop/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
-footer: > # Text in footer in HTML
-  <p><strong>Date :</strong> Mise à jour : 19 mai 2022. CHANGELOG.</p>
+footer: >
   <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé par le groupe de travail Éducation et Promotion (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

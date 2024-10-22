@@ -5,7 +5,11 @@
 title: "Aksesibilitas Perangkat Seluler W3C"
 nav_title: "Aksesibilitas Perangkat Seluler W3C"
 lang: id
-last_updated: 2024-01-18    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-14    # Keep the date of the English version
+
+translation:
+    status: outdated
+    last_updated: 2024-01-18    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Fri Rasyidi"   # Replace @@ with translator name
@@ -20,12 +24,11 @@ changelog: /standards-guidelines/mobile/changelog/  # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Tanggal:</strong> Diperbarui 14 Mei 2021. Pertama kali dipublikasikan Januari 2008. CHANGELOG.</p>
+  <p><strong>Tanggal:</strong> Diperbarui 14 Mei 2021. Pertama kali dipublikasikan Januari 2008.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Kontributor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>.</p>
 ---
 

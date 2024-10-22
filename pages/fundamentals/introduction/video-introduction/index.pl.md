@@ -2,7 +2,11 @@
 title: "Film Wprowadzenie do dostępności internetowej i standardów W3C"
 nav_title: "Film Wprowadzenie" # A short title that is used in the navigation
 lang: pl  
-last_updated: 2024-03-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+   # Keep the date of the English version
 
 translators: 
 - name: "Stefan Wajda"
@@ -16,11 +20,11 @@ ref: /videos/standards-and-benefits/   # Do not change this
 changelog: /videos/standards-and-benefits/changelog/
  
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>Data:</strong> Aktualizacja 4 maja 2021. Pierwsza publikacja 4 grudnia 2017. CHANGELOG.</p>
+   <p><strong>Data:</strong> Aktualizacja 4 maja 2021. Pierwsza publikacja 4 grudnia 2017.</p>
    <p>Lider projektu: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Współpracownicy: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Filmowiec i montażysta wideo: Ulrich Grimm, av-design GmbH. Klipy wideo opracowane przy wsparciu <a href="https://www.w3.org/WAI/DEV/">projektu WAI-DEV</a>, współfinansowanego przez Komisję Europejską. Translacje zrealizowane przy wsparciu projektu  <a href="https://www.w3.org/WAI/expand-access/"> projektu WAI Expanding Access</a>, finansowanego przez Fundację Forda.</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/
