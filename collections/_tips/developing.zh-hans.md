@@ -243,7 +243,7 @@ footer: >
 {:/}
 
 * **WCAG（网页内容无障碍指南）**
-  * [信息和关系 1.3.1 指南](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1 指南](/WAI/WCAG21/Understanding/info-and-relationships))
+  * [信息和关系 1.3.1 指南](/WAI/WCAG21/quickref/#info-and-relationships) ([理解 1.3.1 指南](/WAI/WCAG21/Understanding/info-and-relationships))
 * **教程**
   * [页面结构](/tutorials/page-structure/)
   * [表格](/tutorials/tables/)
@@ -512,7 +512,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [Name, Role, Value 4.1.2 指南](/WAI/WCAG21/quickref/#name-role-value) ([Understanding 4.1.2 指南](/WAI/WCAG21/Understanding/name-role-value))
+  * [Name, Role, Value 4.1.2 指南](/WAI/WCAG21/quickref/#name-role-value) ([理解 4.1.2 指南](/WAI/WCAG21/Understanding/name-role-value))
 * **背景**
   * [在 HTML 中使用 ARIA 的注意事项](/TR/aria-in-html/)
 * **用户故事**
