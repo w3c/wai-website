@@ -20,7 +20,6 @@ permalink: /videos/standards-and-benefits/  # Add the language shortcode to the 
 ref: /videos/standards-and-benefits/  # Do not change this
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >

@@ -20,11 +20,10 @@ ref: /videos/standards-and-benefits/   # Do not change this
 changelog: /videos/standards-and-benefits/changelog/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>Tanggal:</strong> Diperbarui 4 Mei 2021. Pertama kali dipublikasikan 4 Desember 2017. CHANGELOG.</p>
+   <p><strong>Tanggal:</strong> Diperbarui 4 Mei 2021. Pertama kali dipublikasikan 4 Desember 2017.</p>
    <p>Pimpinan Proyek: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Kontributor: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Videografer dan editor video: Ulrich Grimm, av-design GmbH. Klip video dibuat dengan dukungan dari <a href="https://www.w3.org/WAI/DEV/">proyek WAI-DEV</a>, didanai bersama oleh Komisi Eropa. Terjemahan dikelola dengan dukungan dari <a href="https://www.w3.org/WAI/expand-access/">proyek Ekspansi Akses WAI</a>, didanai oleh Ford Foundation.</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

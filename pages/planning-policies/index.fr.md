@@ -23,7 +23,6 @@ feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
-# Do not change CHANGELOG and the dates
 # Translate the other words below, including "Date:", "Editor:" and "Previous contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >

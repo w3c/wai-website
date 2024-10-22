@@ -24,7 +24,7 @@ permalink: /standards-guidelines/id   # Add the language shortcode to the end; f
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.

@@ -24,7 +24,7 @@ ref: /planning/involving-users/   # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not change CHANGELOG and the dates
+# Do not change the dates
 # Translate the other words below, including "Date:" and "Editors"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >

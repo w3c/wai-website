@@ -34,7 +34,7 @@ image: /content-images/perspective-videos/overview.jpg
 
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate or change ACKNOWLEDGEMENTS
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >

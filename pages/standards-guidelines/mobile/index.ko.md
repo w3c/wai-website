@@ -27,12 +27,11 @@ changelog: /standards-guidelines/mobile/changelog/  # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>날짜:</strong> 2021년 5월 14일 업데이트됨. 첫 발행일은 2008년 1월입니다. CHANGELOG.</p>
+  <p><strong>날짜:</strong> 2021년 5월 14일 업데이트됨. 첫 발행일은 2008년 1월입니다.</p>
   <p><strong>편집자:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. 기여자: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>.</p>
 ---
 

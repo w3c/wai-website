@@ -24,7 +24,7 @@ image: /content-images/wcag/general-social.jpg
 description:  Describes Web Content Accessibility Guidelines (WCAG) 2 supporting documents and supplemental guidance.
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.

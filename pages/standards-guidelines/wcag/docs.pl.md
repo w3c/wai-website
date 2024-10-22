@@ -25,7 +25,7 @@ image: /content-images/wcag/general-social.jpg
 description:  Przedstawia dokumenty pomocnicze i dodatkowe wytyczne Web Content Accessibility Guidelines (WCAG) 2..
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.

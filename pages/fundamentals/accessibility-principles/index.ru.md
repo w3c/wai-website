@@ -27,7 +27,6 @@ changelog: /fundamentals/accessibility-principles/changelog/   # Do not change t
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >

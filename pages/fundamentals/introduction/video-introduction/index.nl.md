@@ -20,11 +20,10 @@ ref: /videos/standards-and-benefits/
 changelog: /videos/standards-and-benefits/changelog/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: > # Text in footer in HTML
-  <p><strong>Datum:</strong> Bijgewerkt op 4 mei 2021. Eerste publicatie 4 december 2017. CHANGELOG.</p>
+  <p><strong>Datum:</strong> Bijgewerkt op 4 mei 2021. Eerste publicatie 4 december 2017.</p>
   <p>Project-leider: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Bijdragen: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Video-opnames en -bewerking: Ulrich Grimm, av-design GmbH. Video clips developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Translations managed with support from the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

@@ -20,11 +20,10 @@ ref: /videos/standards-and-benefits/ # do NOT change this
 changelog: /videos/standards-and-benefits/changelog/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 4 de mayo de 2021. Publicado inicialmente el 4 de diciembre de 2017. CHANGELOG.</p>
+  <p><strong>Fecha:</strong> Actualizado el 4 de mayo de 2021. Publicado inicialmente el 4 de diciembre de 2017.</p>
   <p>Director del proyecto: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Colaboradores: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Grabación y edición del vídeo: Ulrich Grimm, av-design GmbH. Videoclips elaborados con el apoyo del <a href="https://www.w3.org/WAI/DEV/">proyecto WAI-DEV</a>, cofinanciado por la  Comisión Europea. Traducciones gestionadas con el apoyo del <a href="https://www.w3.org/WAI/expand-access/">proyecto WAI Expanding Access</a>, financiado por la Fundación Ford.</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

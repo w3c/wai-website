@@ -24,11 +24,10 @@ ref: /fundamentals/   # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not change the dates or CHANGELOG
-# Translate the other words below, including "Date:" and "Editor:"
+# Do not change the date# Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Data:</strong> Aktualizacja 8 sierpnia 2023. CHANGELOG.</p>
+  <p><strong>Data:</strong> Aktualizacja 8 sierpnia 2023.</p>
   <p><strong>Redaktor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Opracowano przy wsparciu Grupy Roboczej ds. Edukacji i Promocji (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

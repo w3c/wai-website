@@ -23,7 +23,6 @@ ref: /fundamentals/   # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not change the dates or CHANGELOG
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
