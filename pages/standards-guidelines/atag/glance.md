@@ -28,7 +28,6 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
-  <p><strong>Date:</strong> Updated 18 May 2016.</p>
   <p><strong>Editors:</strong> Jeanne Spellman and <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Authoring Tool Accessibility Working Group (<a href="https://www.w3.org/WAI/AU/">AUWG</a>).</p>
 ---
