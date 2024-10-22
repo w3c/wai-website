@@ -153,7 +153,7 @@ In particular, make sure that:
 - “Jump to table of contents”, “Collapse sidebar” and “Hide sidebar” have been translated.
 - There is no code showing in the rendered page.
 - No custom CSS has been added.
-- (Authorized translation) An errata has been created and is hosted on the Lead translating organization (LTO)'s website.
+- (Authorized translation) An errata has been created and is hosted on the Lead Translation Organization (LTO)'s website.
 
 ## Step 6: Deliver the final files to W3C {#deliver-files}
 
