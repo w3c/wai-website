@@ -7,7 +7,7 @@ lang: en
 last_updated: 2019-01-22
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/acknowledgements/
 ref: /perspective-videos/acknowledgements/
@@ -26,12 +26,12 @@ Project Leadership
 -   **Editor and Project Lead:** [Shadi
     Abou-Zahra](https://www.w3.org/People/shadi), W3C WAI
 -   **Task Force Participants:**
-    -   [Shadi Abou-Zahra](https://www.w3.org/People/shadi), W3C WAI
-    -   Brent Bakken, Pearson
-    -   Adina Halter, Comcast
+  -   [Shadi Abou-Zahra](https://www.w3.org/People/shadi), W3C WAI
+  -   Brent Bakken, Pearson
+  -   Adina Halter, Comcast
 -   **EOWG Co-Chairs:**
-    -   Sharron Rush, Knowbility
-    -   Brent Bakken, Pearson
+  -   Sharron Rush, Knowbility
+  -   Brent Bakken, Pearson
 -   **EOWG Staff Contact:** [Shawn Lawton
     Henry](https://www.w3.org/People/shawn), W3C WAI
 

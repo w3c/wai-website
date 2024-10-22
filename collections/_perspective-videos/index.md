@@ -6,7 +6,7 @@ title: "Web Accessibility Perspectives Videos: Explore the Impact and Benefits f
 title_html: "Web Accessibility Perspectives Videos:<br>Explore the Impact and Benefits for Everyone"
 nav_title: "Perspective Videos Overview"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2024-09-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17    # Keep the date of the English version
 order: 0
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -17,7 +17,7 @@ order: 0
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/  # Do not change this

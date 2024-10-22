@@ -24,6 +24,7 @@ ref: /perspective-videos/layout/    # Do not change this
 resource:
     ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Short video about clear layout and design for web accessibility - what is it, who depends on it, and what needs to happen to make it work.
