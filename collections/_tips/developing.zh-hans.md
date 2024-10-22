@@ -16,6 +16,7 @@ navigation:
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
+  link: "https://github.com/heybran"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
@@ -39,7 +40,7 @@ acknowledgements: /tips/acknowledgements/
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p><strong>日期:</strong> 2024年7月16日小更新。2016 年4月15日更新。2015年9月首次发布。</p>
-  <p><strong>编者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, 和 <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
+  <p><strong>编者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, 和 <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS 页面列出了贡献者和功劳。</p>
   <p>由教育及外展工作组(<a href="https://www.w3.org/WAI/EO/">EOWG</a>)开发. 
   作为<a href="https://www.w3.org/WAI/DEV/">WAI-DEV项目</a>的一部分进行开发，该项目由欧盟委员会共同资助。</p>
 ---
@@ -295,9 +296,9 @@ footer: >
 
 * **WCAG**
   * [错误标识 3.3.1 指南](/WAI/WCAG21/quickref/#error-identification) ([理解 3.3.1 指南](/WAI/WCAG21/Understanding/error-identification))
-* **Tutorial**
+* **教程**
   * [校验输入](/tutorials/forms/validation/)
-* **User Stories**
+* **用户故事**
   * [[Ian, 患有自闭症的数据录入员]](/people-use-web/user-stories/story-two/)
   * [[Stefan，患有注意力缺陷多动障碍和阅读障碍的学生]](/people-use-web/user-stories/story-eight/)
   * [[Elias, 患有低视力，手颤震，和轻度短期失忆症的退休人员]](/people-use-web/user-stories/story-nine/)
@@ -468,7 +469,6 @@ footer: >
 
 ## 为非标准互动元素提供意义
 
-Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role="navigation"` and `aria-expanded="true"`. Additional code is required to implement the behavior of such widgets, such as expanding and collapsing content or how the widget responds to keyboard events.
 使用 <abbr title=“可访问的富互联网应用程序”>WAI-ARIA</abbr>，为自定义组件（如手风琴组件accordions和自定义按钮）提供功能和状态信息。
 例如，`role=“navigation”` 和 `aria-expanded=“true”`。
 要实现此类组件的行为，如展开和折叠内容或组件如何响应键盘事件，还需要额外的代码。
@@ -536,13 +536,13 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 <figure>
 <figcaption>{% include_cached icon.html name="desktop" %} 渲染输出</figcaption>
 <div class="rendered">
-  <div id="example-button" class="menu-button" role="button" aria-expanded="false" aria-controls="example-button-menu" tabindex="0">{% include_cached icon.html name="menu" %} Menu</div>
+  <div id="example-button" class="menu-button" role="button" aria-expanded="false" aria-controls="example-button-menu" tabindex="0">{% include_cached icon.html name="menu" %} 菜单</div>
   <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
     <ul>
-      <li><a href="javascript:return false">About</a></li>
-      <li><a href="javascript:return false">News</a></li>
-      <li><a href="javascript:return false">Tickets</a></li>
-      <li><a href="javascript:return false">Fun</a></li>
+      <li><a href="javascript:return false">关于</a></li>
+      <li><a href="javascript:return false">新闻</a></li>
+      <li><a href="javascript:return false">门票</a></li>
+      <li><a href="javascript:return false">景点</a></li>
     </ul>
   </div>
 </div>
@@ -602,7 +602,7 @@ buttonExample.addEventListener('click', function(e) {
 
 * **WCAG**
   * [键盘 2.1.1 指南](/WAI/WCAG21/quickref/#keyboard) ([理解 2.1.1 指南](/WAI/WCAG21/Understanding/keyboard))
-* **User Stories**
+* **用户故事**
   * [[Ade, 双臂功能受限的记者]](/people-use-web/user-stories/story-one/)
   * [[Lakshmi, 盲人高级会计师]](/people-use-web/user-stories/story-three/)
   * [[Marta, 一位盲聋的营销助理]](/people-use-web/user-stories/story-seven/)
