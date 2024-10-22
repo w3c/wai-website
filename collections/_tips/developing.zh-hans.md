@@ -6,7 +6,7 @@ title: "为实现无障碍而开发 – 入门技巧"
 title_html: "为实现无障碍而开发"
 nav_title: "开发技巧"
 lang: zh-hans  # Change "en" to the translated-language shortcode
-last_updated: 2024-10-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-10-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 resource:
   ref: /tips/
@@ -38,9 +38,10 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>日期:</strong> 2024 年 7 月 16 日小更新。2016 年 4 月 15 日更新。2015 年 9 月首次发布。</p>
-  <p><strong>编辑:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, 和 <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission.</p>
+  <p><strong>日期:</strong> 2024年7月16日小更新。2016 年4月15日更新。2015年9月首次发布。</p>
+  <p><strong>编者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, 和 <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
+  <p>由教育及外展工作组(<a href="https://www.w3.org/WAI/EO/">EOWG</a>)开发. 
+  作为<a href="https://www.w3.org/WAI/DEV/">WAI-DEV项目</a>的一部分进行开发，该项目由欧盟委员会共同资助。</p>
 ---
 
 {::nomarkdown}
@@ -73,7 +74,7 @@ footer: >
 将`<label>`元素的`for`属性关联到表单控件的`id`属性，或者使用<abbr title="无障碍富互联网应用程序">WAI-ARIA</abbr>属性。在特定情况下，视觉上隐藏`<label>`元素是允许的，但在大多数情况下，需要使用label元素来帮助所有用户理解所需的输入内容。
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="例子: 使用 <code>for</code> 和 <code>id</code> 属性" class="example" %}
+{% include_cached box.html type="start" title="示例: 使用 <code>for</code> 和 <code>id</code> 属性" class="example" %}
 
 <div class="two-column">
 <figure>
@@ -101,7 +102,7 @@ footer: >
 {:/}
 
 * **WCAG（网页内容无障碍指南）**
-  * [标签或指示 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
+  * [标签或指示 3.3.2 指南](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解 3.3.2 指南](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **教程**
   * [标签控制](/tutorials/forms/labels/)
 
@@ -118,7 +119,7 @@ footer: >
 {:/}
 
 * **WCAG（网页内容无障碍指南）**
-  * [非文字内容 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
+  * [非文字内容 1.1.1 指南](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1 指南](/WAI/WCAG21/Understanding/non-text-content))
 * **教程**
   * [图片](/tutorials/images/)
 * **用户故事**
@@ -137,8 +138,8 @@ footer: >
 {:/}
 
 * **WCAG（网页内容无障碍指南）**
-  * [网页语言 3.1.1](/WAI/WCAG21/quickref/#language-of-page) ([理解 3.1.1](/WAI/WCAG21/Understanding/language-of-page))
-  * [组件语言 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([理解 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
+  * [网页语言 3.1.1 指南](/WAI/WCAG21/quickref/#language-of-page) ([理解 3.1.1 指南](/WAI/WCAG21/Understanding/language-of-page))
+  * [组件语言 3.1.2 指南](/WAI/WCAG21/quickref/#language-of-parts) ([理解 3.1.2 指南](/WAI/WCAG21/Understanding/language-of-parts))
 * **怎么做**
   * [在HTML中声明语言](/International/questions/qa-html-language-declarations)
 
@@ -153,7 +154,7 @@ footer: >
 与设计人员和内容撰写人员合作，就含义达成一致，然后统一使用。
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="举例说明： 使用 HTML 提供结构和意义" class="example" %}
+{% include_cached box.html type="start" title="示例： 使用 HTML 提供结构和意义" class="example" %}
 
 <div class="two-column">
 <figure>
@@ -241,7 +242,7 @@ footer: >
 {:/}
 
 * **WCAG（网页内容无障碍指南）**
-  * [信息和关系 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
+  * [信息和关系 1.3.1 指南](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1 指南](/WAI/WCAG21/Understanding/info-and-relationships))
 * **教程**
   * [页面结构](/tutorials/page-structure/)
   * [表格](/tutorials/tables/)
@@ -293,7 +294,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [错误标识 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([理解 3.3.1](/WAI/WCAG21/Understanding/error-identification))
+  * [错误标识 3.3.1 指南](/WAI/WCAG21/quickref/#error-identification) ([理解 3.3.1 指南](/WAI/WCAG21/Understanding/error-identification))
 * **Tutorial**
   * [校验输入](/tutorials/forms/validation/)
 * **User Stories**
@@ -386,7 +387,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [有意义的序列 1.3.2](/WAI/WCAG21/quickref/#meaningful-sequence) ([理解 1.3.2](/WAI/WCAG21/Understanding/meaningful-sequence))
+  * [有意义的序列 1.3.2 指南](/WAI/WCAG21/quickref/#meaningful-sequence) ([理解 1.3.2 指南](/WAI/WCAG21/Understanding/meaningful-sequence))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -395,7 +396,7 @@ footer: >
 ## 编写能适应用户技术的代码
 
 使用响应式设计，使显示内容适应不同的缩放状态和视窗尺寸，如移动设备和平板电脑。
-当字体大小增加至少 200% 时，应避免水平滚动并防止内容被剪切。
+当字体大小增加至少200%时，应避免水平滚动并防止内容被剪切。
 使用渐进增强技术，确保无论使用何种技术，都能使用核心功能和内容。
 
 {::nomarkdown}
@@ -454,8 +455,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [调整文本大小 1.4.4](/WAI/WCAG21/quickref/#resize-text) ([理解 1.4.4](/WAI/WCAG21/Understanding/resize-text))
-  * [一致的标识 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([理解 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
+  * [调整文本大小 1.4.4 指南](/WAI/WCAG21/quickref/#resize-text) ([理解 1.4.4 指南](/WAI/WCAG21/Understanding/resize-text))
+  * [一致的标识 3.2.4 指南](/WAI/WCAG21/quickref/#consistent-identification) ([理解 3.2.4 指南](/WAI/WCAG21/Understanding/consistent-identification))
 * **背景**
   * [小屏幕尺寸](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **用户故事**
@@ -511,7 +512,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:/}
 
 * **WCAG**
-  * [Name, Role, Value 4.1.2](/WAI/WCAG21/quickref/#name-role-value) ([Understanding 4.1.2](/WAI/WCAG21/Understanding/name-role-value))
+  * [Name, Role, Value 4.1.2 指南](/WAI/WCAG21/quickref/#name-role-value) ([Understanding 4.1.2 指南](/WAI/WCAG21/Understanding/name-role-value))
 * **背景**
   * [在 HTML 中使用 ARIA 的注意事项](/TR/aria-in-html/)
 * **用户故事**
@@ -600,7 +601,7 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 * **WCAG**
-  * [键盘 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([理解 2.1.1](/WAI/WCAG21/Understanding/keyboard))
+  * [键盘 2.1.1 指南](/WAI/WCAG21/quickref/#keyboard) ([理解 2.1.1 指南](/WAI/WCAG21/Understanding/keyboard))
 * **User Stories**
   * [[Ade, 双臂功能受限的记者]](/people-use-web/user-stories/story-one/)
   * [[Lakshmi, 盲人高级会计师]](/people-use-web/user-stories/story-three/)
@@ -625,7 +626,7 @@ CAPTCHA会给用户造成很多阻碍。除了CAPTCHA，还有其他更易使用
 {:/}
 
 * **WCAG**
-  * [非文本内容 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
+  * [非文本内容 1.1.1 指南](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1 指南](/WAI/WCAG21/Understanding/non-text-content))
 * **背景**
   * [CAPTCHA使无障碍变得困难](/TR/turingtest/)
 * **用户故事**
