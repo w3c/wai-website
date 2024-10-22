@@ -117,8 +117,7 @@ L’accessibilité du web bénéficie également aux personnes *sans* handicap, 
 Voir une vidéo de 7 minutes qui contient des exemples montrant comment l’accessibilité est essentielle pour les
 personnes handicapées et utile à tout le monde dans un grand nombre de situations, voir :<br>
 {% include video-link.html title="Video Les perspectives de l’accessibilité du web  <em>(YouTube)</em>"
-href="https://www.youtube.com/watch?v=3f31oufqFSM" src="
-/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
+href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="Plus d’informations sur ce qu’est l’accessibilité" class="simple aside" %}
@@ -321,8 +320,7 @@ transcriptions textuelles au format HTML.
 - [[Conseils pour débuter]](/tips/)
 - [[Tests faciles - première évaluation]](/test-evaluate/preliminary/)
 - {% include video-link.html class="small inline" title="Perspectives de l’accessibilité du web &mdash; videos et
-  descriptions" href="/perspective-videos/" src="
-  /content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
+  descriptions" href="/perspective-videos/" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
 
 {::nomarkdown}
 {% include box.html type="end" %}
