@@ -7,7 +7,6 @@ last_updated: 2023-11-20
 
 translation:
   last_updated: 2024-02-22  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators: #Add one -name: line for every translator
   - name: "YongUi Leee"
