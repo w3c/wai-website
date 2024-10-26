@@ -178,7 +178,7 @@ Muitos aspectos da acessibilidade são relativamente fáceis de entender e imple
 
 Ao desenvolver ou redesenhar um site, avalie a acessibilidade no início e durante todo o processo de desenvolvimento para identificar problemas de acessibilidade no início, quando é mais fácil lidar com eles. Etapas simples, como alterar as configurações em um navegador, podem ajudar a avaliar alguns aspectos da acessibilidade. A avaliação abrangente para determinar se um site atende a todas as diretrizes de acessibilidade exige mais esforço.
 
-Existem ferramentas de avaliação que ajudam na avaliação. No entanto, nenhuma ferramenta sozinha pode determinar se um site atende às diretrizes de acessibilidade. É necessária uma avaliação de uma pessoa humana experiente para determinar se um site é acessível.
+Existem ferramentas de avaliação que ajudam na avaliação. No entanto, nenhuma ferramenta sozinha pode determinar se um site atende às diretrizes de acessibilidade. É necessária uma avaliação de uma pessoa experiente para determinar se um site é acessível.
 
 
 {::nomarkdown}
