@@ -3,11 +3,13 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Web无障碍简介 
 lang: zh-hans
-last_updated: 2019-07-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-10-27   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: #Add one -name: line for every translator
 - name: "冉若曦"
   link: "https://www.w3.org/people/roy"
+- name: "金凯"
+  link: "https://github.com/JinMokai"
 
 github:
     label: wai-accessibility-intro
@@ -50,7 +52,7 @@ footer: >
 {:toc}
 
 <span class="box-h box-h-simple box-h-full">相关资源</span><br>
-{% include video-link.html title="介绍Web无障碍和W3C标准的视频 <em>(4分钟)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits.html" src="/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
+{% include video-link.html title="介绍Web无障碍和W3C标准的视频 <em>(4分钟)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/" src="/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
@@ -103,7 +105,7 @@ Web无障碍对*无*残疾人士亦有好处，例如:
 {:/}
 
 -   如果您想了解更多关于不同残疾如何影响Web使用的信息，并阅读有关残疾人士使用Web的场景，请参见 [[残疾人如何使用Web]](/people-use-web/)。
--   如果您想要更多关于WCAG支持的其他好处的例子，请参阅[[共享Web体验:移动设备用户和残疾人共同面临的障碍]](/standards-guidelines/shared-experiences/)和[Web无障碍使残疾人和非残疾人受益](https://www.w3.org/WAI/business-case/archive/soc#groups)。
+-   如果您想要更多关于WCAG支持的其他好处的例子，请查看多媒体资源[被有残疾的或非残疾的人使用](/media/av/users-orgs/#situations)，归档的资源 [Web Accessibility Benefits People With and Without Disabilities](https://www.w3.org/WAI/business-case/archive/soc#groups) 以及移动端归档的资源 [[共享Web体验: 移动设备用户和残疾人共同面临的障碍]](/standards-guidelines/shared-experiences/)。
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -140,7 +142,7 @@ Web为许多残疾人提供了前所未有的获取信息和互动的可能性�
 
 Web无障碍依赖于几个共同工作的组件，包括Web技术、Web浏览器和其他“用户代理”、创作工具和网站。
 
-W3C Web无障碍推进 ([WAI](/get-involved/))开发描述无障碍解决方案的技术规范、指南、技术和支持资源。这些被认为是无障碍网页的国际标准;例如, <abbr title="Web Content Accessibility Guidelines (WCAG)">WCAG</abbr> 2.0 也是 <abbr title="International Organization for Standardization">ISO</abbr>标准: ISO/<abbr title="International Electrotechnical Commission">IEC</abbr> 40500。
+W3C Web无障碍推进 ([WAI](/about/participating/))开发描述无障碍解决方案的技术规范、指南、技术和支持资源。这些被认为是无障碍网页的国际标准;例如, <abbr title="Web Content Accessibility Guidelines (WCAG)">WCAG</abbr> 2.0 也是 <abbr title="International Organization for Standardization">ISO</abbr>标准: ISO/<abbr title="International Electrotechnical Commission">IEC</abbr> 40500。
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="更多关于如何使Web无障碍" class="simple aside" %}
@@ -148,7 +150,7 @@ W3C Web无障碍推进 ([WAI](/get-involved/))开发描述无障碍解决方案�
 
 -   有关无障碍方面的更多信息请参见 [[web无障碍的基本组成部分]](/fundamentals/components/).
 -   Web内容无障碍指南(WCAG), 创作工具无障碍指南(ATAG), 富互联网应用(ARIA), [[W3C无障碍标准概览]](/standards-guidelines/)中介绍了其他重要资源。
--   要了解更多关于W3C WAI如何通过多方利益攸关方、国际参与开发材料以及如何做出贡献的信息，请参见 [[关于WAI]](/about/) and [[参与WAI]](/get-involved/)。
+-   要了解更多关于W3C WAI如何通过多方利益攸关方、国际参与开发材料以及如何做出贡献的信息，请参见 [[关于WAI]](/about/) and [[参与WAI]](/about/participating/)。
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -169,7 +171,7 @@ W3C Web无障碍推进 ([WAI](/get-involved/))开发描述无障碍解决方案�
 -   有关设计、编写和开发无障碍的一些基本考虑事项，请参见[[入门技巧]](/tips/)。
 -   当您准备了解更多关于开发和设计的知识时，您可能会使用以下资源:
     -   [如何使用WCAG(快速参考)](https://www.w3.org/WAI/WCAG21/quickref/)
-    -   [Web无障碍教程](https://www.w3.org/WAI/tutorials/)
+    -   [Web无障碍教程](/tutorials/)
 -   有关项目管理和组织方面的考虑，请参见[[规划和管理Web可访问性]](/planning-and-managing/)。<br>
     如果您现在需要快速修复，请参阅[[临时修复方法]](/planning/interim-repairs/)。
 
@@ -204,7 +206,7 @@ W3C Web无障碍推进 ([WAI](/get-involved/))开发描述无障碍解决方案�
 
 ![标识图片; HTML 标签 img alt='Web Accessibility Initiative logo'](https://www.w3.org/WAI/intro/alt-logo.png){:.right}
 
-图像应包括*[等效替代文本](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html)* (alt文本) 在标记语言或者代码中.
+图像应包括*[等效替代文本](https://www.w3.org/WAI/WCAG22/Understanding/text-alternatives)* (alt文本) 在标记语言或者代码中.
 
 如果没有为图像提供alt文本，则图像信息是不可访问的，例如，对于无法看到和使用屏幕阅读器的人来说，屏幕阅读器会大声读出页面上的信息，包括可视图像的alt文本。
 
@@ -214,7 +216,7 @@ W3C Web无障碍推进 ([WAI](/get-involved/))开发描述无障碍解决方案�
 
 ![鼠标划掉了](https://www.w3.org/WAI/intro/no-mouse.png){:.left width="67" height="45"}
 
-有些人不能使用鼠标，包括许多老年人，他们的精细运动控制能力有限。一个无障碍的网站不依赖鼠标；它使[所有功能都可以从键盘上获得](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html). 然后残疾人可以使用[辅助技术](/planning/involving-users/#at) 模仿键盘，如语音输入。
+有些人不能使用鼠标，包括许多老年人，他们的精细运动控制能力有限。一个无障碍的网站不依赖鼠标；它使[所有功能都可以从键盘上获得](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-accessible). 然后残疾人可以使用[辅助技术](/planning/involving-users/#at) 模仿键盘，如语音输入。
 
 ### 为音频提供文本
 
@@ -240,4 +242,6 @@ Web提供文字记录既简单又相对便宜。还有[文本记录服务](http:
 
 ## 更多信息 {#more-info}
 
-W3C WAI提供了不同方面的广泛资源，关于web无障碍[标准](/standards-guidelines/), [教育](/teach-advocate/), [评测](/test-evaluate/), [项目管理, 及政策](/planning/). 我们鼓励您浏览本网站，或浏览[WAI参考资料](/Resources/).
+W3C WAI提供了不同方面的广泛资源，关于web无障碍[标准](/standards-guidelines/), [教育](/teach-advocate/), [评测](/test-evaluate/), [项目管理, 及政策](/planning/). 我们鼓励您浏览本网站，或浏览[WAI参考资料](/resources/).
+
+**[[数字化无障碍基础 - 免费的在线课程]](/courses/foundations-course/)** 为您提供所需的基础，使您的数字化技术便于使用。
