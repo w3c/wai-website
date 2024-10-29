@@ -126,7 +126,7 @@ GEM
     uri (0.13.0)
     wai-website-plugin (0.2)
       jekyll (>= 3.6, < 5.0)
-    webrick (1.8.1)
+    webrick (1.8.2)
 
 PLATFORMS
   arm64-darwin-22
