@@ -105,7 +105,7 @@ Web无障碍对*无*残疾人士亦有好处，例如:
 {:/}
 
 -   如果您想了解更多关于不同残疾如何影响Web使用的信息，并阅读有关残疾人士使用Web的场景，请参见 [[残疾人如何使用Web]](/people-use-web/)。
--   如果您想要更多关于WCAG支持的其他好处的例子，请查看多媒体资源[被有残疾的或非残疾的人使用](/media/av/users-orgs/#situations)，归档的资源 [Web Accessibility Benefits People With and Without Disabilities](https://www.w3.org/WAI/business-case/archive/soc#groups) 以及移动端归档的资源 [[共享Web体验: 移动设备用户和残疾人共同面临的障碍]](/standards-guidelines/shared-experiences/)。
+-   如果您想要更多关于WCAG支持的其他好处的例子，请查看多媒体资源[被有残疾的或非残疾的人使用](/media/av/users-orgs/#situations)，归档的资源 [Web无障碍使得残疾人和非残疾人都有益处](https://www.w3.org/WAI/business-case/archive/soc#groups) 以及移动端归档的资源 [[共享Web体验: 移动设备用户和残疾人共同面临的障碍]](/standards-guidelines/shared-experiences/)。
 
 {::nomarkdown}
 {% include box.html type="end" %}
