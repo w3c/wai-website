@@ -85,10 +85,12 @@ To join the WCAG2ICT TF, individuals must be participants of the Accessibility G
 
 The WCAG2ICT TF is a Task Force of the [Accessible Guidelines Working Group (AG WG)](/about/groups/agwg/).
 
-### Facilitator and Contacts
+### Facilitators and Contacts
 
-- **Facilitator:** Mary Jo Mueller (IBM)
-- **Staff Contact:**[Daniel Montalvo](https://www.w3.org/People/#dmontalvo)
+- **Task Force co-facilitators:**
+    - Mary Jo Mueller (IBM)
+    - Chris Loiselle
+- **Staff Contact:** [Daniel Montalvo](https://www.w3.org/People/#dmontalvo)
 
 Contact the task force leadership and working group chairs via email at [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org)
 
