@@ -4,6 +4,7 @@
 title: "Cognitive Accessibility at W3C"
 lang: en   # Change "en" to the translated-language shortcode
 last_updated: 2024-04-25  # Keep the date of the English version
+first_published: "March 2019"
 parent: "/standards-guidelines/"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -22,7 +23,6 @@ ref: /cognitive/  # Do not change this
 
 feedbackmail: wai@w3.org
 footer: >
-  <p>First published March 2019.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Steve Lee and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
   <p>Developed with input from the Cognitive and Learning Disabilities Accessibility Task Force (<a href="https://www.w3.org/WAI/PF/cognitive-a11y-tf/">COGA</a>). Developed with support of the <a href="https://www.easyreading.eu/">Easy Reading Project</a>, a European Commission (EC) co-funded project, Horizon 2020 Program (780529).<p>
 

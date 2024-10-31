@@ -1,0 +1,244 @@
+{%- comment -%}
+  Find the page language.
+{%- endcomment -%}
+{%- assign page_lang = 'en' -%}
+{%- if page.lang -%}
+  {%- assign page_lang = page.lang -%}
+{%- endif -%}
+{%- comment -%}
+  Get the changelog page:
+  - Use the `custom_changelog` value when existing. Also supports the legacy `changelog` frontmatter variable for now.
+  - Else, append "changelog/` to the page `ref` or `url` to check if it matches a page.
+{%- endcomment -%}
+{%- if page.custom_changelog -%}
+  {%- assign changelog_url = page.custom_changelog -%}
+{%- elsif page.changelog -%}
+  {%- assign changelog_url = page.changelog -%}
+{%- elsif page.ref -%}
+  {%- assign changelog_url = page.ref | append: "changelog/" -%}
+{%- else -%}
+  {%- assign changelog_url = page.url | append: "changelog/" -%}
+{%- endif -%}
+{%- assign all_docs = site.documents | concat: site.pages -%}
+{%- assign changelog_page = all_docs | where: "url", changelog_url | first -%}
+{%- comment -%}
+  Build the link to the Changelog
+{%- endcomment -%}
+{%- if changelog_page -%}
+  {%- capture changelog -%}
+    <a href="{{ changelog_page.url | relative_url }}">{%- include_cached t.html t="Latest changes" lang=page_lang -%}</a>
+  {%- endcapture -%}
+{%- else -%}
+  {%- assign changelog = "" -%}
+{%- endif -%}
+{%- comment -%}
+  Build the link to the Acknowledgements page
+{%- endcomment -%}
+{%- if page.acknowledgements -%}
+  {%- assign acknowledgements_page = all_docs | where:"ref", page.acknowledgements | first -%}
+  {%- capture acknowledgements -%}
+    <a href="{{ acknowledgements_page.url | relative_url }}">{%- include_cached t.html t="Acknowledgements" lang=page_lang -%}</a>
+  {%- endcapture -%}
+{%- else -%}
+  {%- assign acknowledgements = "" -%}
+{%- endif -%}
+{%- comment -%}
+  COLLECTION PAGE FOOTER
+  For collections, we use the collection footer when set.
+{%- endcomment -%}
+{%- assign col = site.collections | where: "label", page.collection | first -%}
+{%- if col.footer -%}
+<footer id="wai-page-footer" class="page-footer default-grid" aria-label="Page">
+  <div class="inner"
+    {% if include.inner-style %}
+      style="{{ include.inner-style }}"
+    {% endif %}>
+    {{ col.footer | replace: "CHANGELOG", changelog | replace: "ACKNOWLEDGEMENTS", acknowledgements }}
+    {%- if page.license == 'creative-commons' -%}<p>{% include_cached icon.html name="creative-commons" %} This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>{%- endif -%}
+  </div>
+</footer>
+{%- comment -%}
+  META FOOTER
+  For the tutorials, we use multiple frontmatter variables to form the page footer. This way of constructing the footer is called “metafooter” and needs to be enabled by setting `metafooter: true` in the frontmatter.
+  Do NOT use with raw html `footer: ` frontmatter.
+{%- endcomment -%}
+{%- elsif page.metafooter -%}
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner">
+      <div><strong>Status:</strong>
+        {% if page.status == "approved-draft" %}
+          Draft, approved by <a href="https://www.w3.org/WAI/EO/">EOWG</a>, updated
+        {% elsif page.status == "draft" %}
+          [DRAFT] updated
+        {% elsif page.status == "editors-draft" %}
+          [EDITOR’S DRAFT] updated
+        {% else %}
+          {% include t.html t='Updated' %}
+        {% endif %}
+        {{ page.last_updated | date: '%d %B %Y' }}
+        {% if page.first_published %}
+        ({% include t.html t='first published' %} {{ page.first_published }})
+        {% endif %}
+      </div>
+      <div>
+          {% include t.html t='Editors:' %}
+          {% for editor in page.editors %}
+          {% if forloop.first %}<ul class="sentence">{% endif %}
+            {% assign editorsize = editor | size %}
+            {% if editorsize == 1 %}
+              {% assign editor1 = editor | replace: '"}', '' %}
+              {% assign editor2 = editor1 | replace: '{"', '' %}
+              {% assign editor3 = editor2 | split: '"=>"' %}
+            <li><a href="{{ editor3[1] }}">{{ editor3[0] }}</a></li>
+            {% else %}
+            <li>{{ editor }}</li>
+            {% endif%}
+          {% if forloop.last %}</ul>{% endif %}
+          {% endfor %}
+          &nbsp;
+      {% if page.update_editors %}
+          {% include t.html t='Update Editor:' %}
+          {% for updateeditor in page.update_editors %}
+          {% if forloop.first %}<ul class="sentence">{% endif %}
+            {% assign editorsize = updateeditor | size %}
+            {% if editorsize == 1 %}
+              {% assign editor1 = updateeditor | replace: '"}', '' %}
+              {% assign editor2 = editor1 | replace: '{"', '' %}
+              {% assign editor3 = editor2 | split: '"=>"' %}
+            <li><a href="{{ editor3[1] }}">{{ editor3[0] }}</a></li>
+            {% else %}
+            <li>{{ updateeditor }}</li>
+            {% endif %}
+          {% if forloop.last %}</ul>{% endif %}
+          {% endfor %}
+          &nbsp;
+      {% endif %}
+          {% include t.html t='Contributors:' %}
+          {% for contributor in page.contributing_participants %}
+          {% if forloop.first %}<ul class="sentence">{% endif %}
+            {% assign contributorsize = contributor | size %}
+            {% if contributorsize == 1 %}
+              {% assign contributor1 = contributor | replace: '"}', '' %}
+              {% assign contributor2 = contributor1 | replace: '{"', '' %}
+              {% assign contributor3 = contributor2 | split: '"=>"' %}
+            <li><a href="{{ contributor3[1] }}">{{ contributor3[0] }}</a></li>
+            {% else %}
+            <li>{{ contributor }}</li>
+            {% endif%}
+          {% if forloop.last %}</ul>{% endif %}
+          {% endfor %}
+      </div>
+      {% if page.support %}
+        <p>{{  page.support  }}</p>
+      {% endif %}
+      {% if page.changelog or page.acknowledegments  %}
+        <p>{{ changelog }}, {{ acknowledgements }}</p>
+      {% endif %}
+      {{ page.footer | replace: "CHANGELOG", changelog | replace: "ACKNOWLEDGEMENTS", acknowledgements }}
+      {%- if page.license == 'creative-commons' -%}<p>{% include_cached icon.html name="creative-commons" %} This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>{%- endif -%}
+    </div>
+  </footer>
+{%- comment -%}
+  DEFAULT PAGE FOOTER
+  Most pages use this page footer.
+{%- endcomment -%}
+{%- else -%}
+  {%- comment -%}
+    Convert dates into integers to compare them later.
+  {%- endcomment -%}
+  {%- assign last_updated = page.last_updated | date: '%s' | plus: 0 | default: 0 -%}
+  {%- assign last_reviewed = page.last_reviewed | date: '%s' | plus: 0 | default: 0 -%}
+  {% if page.footer or page.last_updated or page.last_reviewed %}
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"
+      {%- if include.inner-style -%}
+        style="{{ include.inner-style }}"
+      {%- endif -%}>
+      {%- if page.last_updated or page.last_reviewed -%}
+        <p>
+        {%- if last_updated >= last_reviewed -%}
+          {%- if page_lang == "en" %}<strong>{%- include_cached t.html t="Updated:" lang=page.lang %}</strong> {{ page.last_updated | date: '%e %B %Y' }}.
+          {%- elsif page_lang != "en" -%}<strong>{%- include_cached t.html t="English version updated:" lang=page.lang %}</strong> {{ page.last_updated | date: '%Y-%m-%d' }}.
+          {%- endif -%}
+        {%- elsif last_reviewed > last_updated -%}
+          {%- if page_lang == "en" -%}<strong>{%- include_cached t.html t="This page has been reviewed and is current as of" lang=page.lang %}</strong> {{ page.last_reviewed | date: '%e %B %Y' }}.
+          {%- endif -%}
+        {%- endif -%}
+        {%- if changelog_page %}
+          {{ changelog }}.
+        {%- endif -%}
+        {%- if page_lang != 'en' and page.translation.last_updated %}
+          ({%- include_cached t.html t="Translated:" lang=page.lang %} {{ page.translation.last_updated | date: '%Y-%m-%d' }}).
+        {%- endif -%}
+        {%- if page.first_published %}
+          {%- include_cached t.html t="First published" lang=page.lang %} {{ page.first_published }}
+        {%- endif -%}
+        </p>
+      {%- endif -%}
+      {%- comment -%}
+        For now, we continue to support replacing "CHANGELOG" with the changelog link. But that should soon be removed.
+      {%- endcomment -%}
+      {%- if page.footer -%}
+        {{ page.footer | replace: "CHANGELOG", changelog | replace: "ACKNOWLEDGEMENTS", acknowledgements }}
+      {%- endif -%}
+      {%- if page.license == 'creative-commons' -%}<p>{% include_cached icon.html name="creative-commons" %} This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>{%- endif -%}
+    </div>
+  </footer>
+  {% endif %}
+{%- endif -%}
+
+<footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>{% include t.html t="Strategies, standards, and supporting resources to make the Web accessible to people with disabilities." %}</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai">{%include_cached icon.html name="mastodon" %} Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/">{%include_cached icon.html name="linkedin" %} LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml">{%include_cached icon.html name="rss" %} Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/">{%include_cached icon.html name="youtube" %} YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto" {% if site.data.lang[pagelang].rtl %}style="text-align: right;"{% endif %} translate="no">
+      <p>Copyright © {{ 'now' | date: "%Y" }} World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="{{ "/about/using-wai-material/" | relative_url }}">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto" {% if site.data.lang[pagelang].rtl %}style="text-align: right;"{% endif %} translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="{{ "/about/contacting/" | relative_url }}">Contact WAI</a></li>
+      <li><a href="{{ "/sitemap/" | relative_url }}">Site Map</a></li>
+      <li><a href="{{ "/news/" | relative_url }}">News</a></li>
+      <li><a href="{{ "/sitemap/#archive" | relative_url }}">Archive</a></li>
+      <li><a href="{{ "/about/accessibility-statement/" | relative_url }}">Accessibility Statement</a></li>
+      <li><a href="{{ "/translations/" | relative_url }}"> Translations</a></li>
+      <li><a href="{{ "/roles/" | relative_url }}">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer>
+{%- unless site.published == true -%}
+<section class="default-grid info" tabindex="0">
+  <p class="inner">{% if site.warning_icon %}{% include_cached icon.html name="info" %} {% endif %}{% if site.warning_message %}{{site.warning_message}}{% else %}This is an unpublished draft preview that might include content that is not yet approved. The published website is at <a href="https://www.w3.org/WAI/">w3.org/WAI/</a>.{% endif %}
+  </p>
+</section>
+{%- endunless -%}
+<!-- Details4Everybody -->
+<script src="{{ '/assets/scripts/details4everybody.js' | append: timestamp | relative_url }}"></script>
+<!-- SVG4Everybody -->
+<script src="{{ '/assets/scripts/svg4everybody.js' | append: timestamp | relative_url }}"></script>
+<script>
+  svg4everybody();
+</script>
+{%- assign defaultlang = false -%}
+{%- if include.lang == "en"-%}{%- assign defaultlang = true -%}{%- endif -%}
+{%- if include.lang == ""-%}{%- assign defaultlang = true -%}{%- endif -%}
+{%- if include.lang == "en_US"-%}{%- assign defaultlang = true -%}{%- endif -%}
+{%- if defaultlang == true -%}
+<script>
+  var translationStrings = {};
+</script>
+{% else %}
+<script src="{{ '/assets/scripts/lang/' | append: page.lang | append: '.js' | append: timestamp | relative_url }}"></script>
+{%- endif -%}

@@ -6,6 +6,8 @@ title_html: "Older Users and Web Accessibility:<br>Meeting the Needs of Ageing W
 nav_title: "Meeting the Needs of Ageing Web Users"
 lang: en  # Change "en" to the translated language shortcode
 last_updated: 2024-03-04  # Keep the date of the English version
+first_published: "2010"
+
 order: 1
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -29,7 +31,6 @@ ref: /older-users/  # Do not change this
 # Translate the other words, including "Date:", "Editors:" and "Contributors".
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p>First published 2010.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: <a href="https://www.w3.org/People/Andrew/" >Andrew Arch</a>, <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>, and Vicki Menezes Miller.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Related to the  <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> funded by the European Commission under the 6th Framework.</p>  
 ---

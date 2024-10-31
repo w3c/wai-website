@@ -5,6 +5,7 @@ title: Standards d’accessibilité du W3C – Vue d’ensemble
 nav_title: "Standards/Règles"
 lang: fr
 last_updated: 2024-02-29  # Keep the date of the English version
+first_published: "November 2024"
 
 translation:
   last_updated: 2024-04-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)

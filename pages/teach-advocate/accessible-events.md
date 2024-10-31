@@ -7,6 +7,7 @@ title_html: "Making Events Accessible: <br /><small>Checklist for meetings, conf
 nav_title: "Making Events Accessible Checklist"   # A short title that is used in the navigation
 lang: en   # Change "en" to the translated language shortcode
 last_updated: 2022-08-31   # Keep the date of the English version
+first_published: "May 2010"
 description: Helps presenters, participants, and organizers make events inclusive, particularly to people with disabilities and to international participants.
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -27,7 +28,6 @@ ref: /teach-advocate/accessible-presentations/   # Do not change this
 # Translate the other words below, including "Date:", "Editor:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p>First published May 2010.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Contributors: Shadi Abou-Zahra, Michele Williams, and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Developed with staff of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> funded by the European Commission under the 6th Framework.</p>
 
