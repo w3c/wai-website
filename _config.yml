@@ -42,7 +42,7 @@ branch: main
 ytkey: AIzaSyBzq155tA3E3gaYlRdx2S9U9FM78U1-568
 
 # remote_themes are an extension for Jekyll running in GitHub pages and are a GitHub repo 
-remote_theme: w3c/wai-website-theme@update-dates
+remote_theme: w3c/wai-website-theme
 
 paginate: 5
 paginate_path: "/news/:num/"
