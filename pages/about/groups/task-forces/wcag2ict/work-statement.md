@@ -100,17 +100,16 @@ Goals were to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria a
 ### Phase 2
 
 The next phase of updates will include any other in-scope work, including:
-* addition of guidance for Level AAA success criteria
-<p>NOTE: Details of the Phase 2 timeline are found outside of this document. See the [schedule and milestones](https://github.com/w3c/wcag2ict/wiki/Schedule-and-milestones) page in the GitHub WCAG2ICT Wiki.</p>
-* development of a WCAG2ICT Explainer. An initial outline is available in the Google doc [WCAG2ICT Explainer](https://docs.google.com/document/d/1hyei09Viby1bCoZnDLYwY9VWpzRvteK9pqt4v9sWCJE/edit?usp=sharing).
+* Addition of guidance for Level AAA success criteria. Details of the Phase 2 timeline are found outside of this document. See the [schedule and milestones](https://github.com/w3c/wcag2ict/wiki/Schedule-and-milestones) page in the GitHub WCAG2ICT Wiki.
+* Development of a WCAG2ICT Explainer. An initial outline is available in the Google doc [WCAG2ICT Explainer](https://docs.google.com/document/d/1hyei09Viby1bCoZnDLYwY9VWpzRvteK9pqt4v9sWCJE/edit?usp=sharing).
 
 ## Liaisons
 
 While there are no direct dependencies at the Task Force level (please see [deliverables section of the AG WG Charter](https://www.w3.org/2019/12/ag-charter#deliverables) for more information), the following are participating liaisons, which may change and/or be expanded over time:
 
-*   Liaisons from worldwide accessibility consulting and advocacy groups
-*   Liaisons from worldwide standards organizations (ISO, ETSI, CEN and CENELEC, etc.)
-*   Liaisons from worldwide government and/or regulatory agencies considering referencing the updated WCAG2ICT (U.S. Access Board, EU, Canada, potentially others)
+* Liaisons from worldwide accessibility consulting and advocacy groups
+* Liaisons from worldwide standards organizations (ISO, ETSI, CEN and CENELEC, etc.)
+* Liaisons from worldwide government and/or regulatory agencies considering referencing the updated WCAG2ICT (U.S. Access Board, EU, Canada, potentially others)
 
 The list of liaisons will be updated to show official organization representation of the participants in the task force, as found in the [WCAG2ICT participants](https://www.w3.org/groups/tf/wcag2ict/participants/) list.
 
