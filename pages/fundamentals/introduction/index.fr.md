@@ -6,7 +6,7 @@ lang: fr
 last_updated: 2024-03-07  # Keep the date of the English version
 
 translation:
-  last_updated: 2024-03-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2024-10-31 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Sylvie Duchateau"
@@ -46,21 +46,16 @@ internationaux définissent ce qui est nécessaire pour l’accessibilité.
 {% include box.html type="end" %}
 {:/}
 
+{::options toc_levels="2" /}
+
 {::nomarkdown}
 {% include_cached toc.html type="start" title="Contenu de la page" class="full" %}
 {:/}
 
-<ul>
-<li><a href="#context">Le contexte de l’accessibilité</a></li>
-<li><a href="#what">Qu’est-ce que l’accessibilité du Web</a></li>
-<li><a href="#important">L’accessibilité est importante pour les internautes, les entreprises, la société</a></li>
-<li><a href="#making">Rendre le Web Accessible</a></li>
-<li><a href="#evaluate">Évaluer l’accessibilité</a></li>
-<li><a href="#examples">Exemples</a></li>
-<li><a href="#more-info">Plus d’nformations</a></li>
-</ul>
+-   TOC is created automatically.
+{:toc}
 
-<span class="box-h box-h-simple box-h-full"> Ressource complémentaire</span><br>
+<span class="box-h box-h-simple box-h-full">Ressource complémentaire</span><br>
 {% include video-link.html title="Vidéo : introduction à l’accessibilité web et aux standards du W3C <em>(4 minutes)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/fr" src="/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
 
 {::nomarkdown}
