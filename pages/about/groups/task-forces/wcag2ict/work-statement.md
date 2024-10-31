@@ -43,7 +43,7 @@ The work of the task force includes:
     *   how each of the new WCAG 2.x A, AA, and AAA success criteria could apply to non-Web ICT;
     *   how each of the new WCAG 2.x guidelines could apply to non-Web ICT;
     *   clarification of challenges of applying particular WCAG 2.x success criteria to non-web ICT, including closed product software;
-    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict);
+    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict); and
     *   provide an explainer that clarifies the usage of WCAG2ICT
 
 Explicitly out of scope for the WCAG2ICT Task Force work are:
