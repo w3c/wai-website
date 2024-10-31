@@ -42,15 +42,17 @@ The work of the task force includes:
 *   Producing an updated Working Group Note (a form of W3C Technical Report)—following the W3C process under the coordination, review, and approval of the AG WG—that describes:
     *   how each of the new WCAG 2.x A, AA, and AAA success criteria could apply to non-Web ICT;
     *   how each of the new WCAG 2.x guidelines could apply to non-Web ICT;
-    *   clarification of challenges of applying particular WCAG 2.x success criteria to non-web ICT, including closed product software; and
-    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict).
+    *   clarification of challenges of applying particular WCAG 2.x success criteria to non-web ICT, including closed product software;
+    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict);
+    *   provide an explainer that clarifies the usage of WCAG2ICT
 
 Explicitly out of scope for the WCAG2ICT Task Force work are:
 
 *   proposing changes to WCAG 2.x;
 *   developing techniques or interpretations of WCAG 2.x for implementing WCAG 2.x in Web technologies;
 *   developing any specific, sufficient techniques, including platform-specific techniques, for implementing WCAG 2.x in non-Web ICT, though examples may be in scope;
-*   determining whether WCAG, as a whole, _should be_ applied to non-web content; and
+*   determining whether WCAG, as a whole, _should be_ applied to non-web content;
+*   providing a determination of which success criteria are applicable to a particular non-web technology; and
 *   developing a normative standard or any normative requirements.
 
 ## Approach
@@ -61,7 +63,7 @@ The primary effort of this Task Force is to describe how to interpret WCAG 2.x a
 
 To efficiently develop the Working Group Note, work may be broken down into sub-groups, under the coordination of the Task Force facilitator(s) following established AG WG procedures for sub-groups.
 
-The work will be focused in stages to ensure WCAG2ICT content is available in time for use in upcoming updates to regulations and standards (like the EN 301 549) that apply WCAG to non-web technology. This means prioritizing Level A and AA criteria and known issues in the existing Note. WCAG2ICT could potentially need to be published before addressing Level AAA due to regulatory schedule needs. If publication is needed prior to addressing Level AAA criteria, another update to the WCAG2ICT Note may be necessary.
+The work will be focused in stages to ensure WCAG2ICT content is available in time for use in upcoming updates to regulations and standards (like the EN 301 549) that apply WCAG to non-web technology. This means prioritizing Level A and AA criteria and known issues in the existing Note. WCAG2ICT was published on 4 November 2024 before addressing Level AAA, due to regulatory schedule needs. The next update to WCAG2ICT will address Level AAA success criteria, with republication of the WCAG2ICT Note once they have been incorporated and gone through the W3C review and publication process.
 
 The work will be carried out through a series of document drafts, all publicly visible, with opportunities for public comment through publicly available comment lists. In particular, key stakeholders such as developers, evaluators, accessibility experts, researchers, procurement experts, and end users will be regularly involved in the development process. Key participants will be drawn from people with expertise not only in Web technologies, but also those with specific accessibility expertise, including the development of accessible frameworks, platforms, user interface components, and software covering a broad variety of computing environments.
 
@@ -71,45 +73,46 @@ The following sections contain rough timelines for the WCAG2ICT work. Actual tim
 
 As previously mentioned, a phased delivery of the WCAG2ICT Working Group Note will likely be necessary to provide timely guidance for upcoming regulatory and standards updates.
 
-### Phase 1
+### Phase 1 (completed)
 
-Goals are to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria, and make other necessary updates to the other content in the WCAG2ICT document to align with WCAG 2.2. In addition, this phase will address known documented issues.
+Goals were to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria and making other necessary updates to the other content in the WCAG2ICT document to align with WCAG 2.2 have been completed. This phase also addressed known documented issues.
 
-Note: To include WCAG 2.2, the Recommendation version standard must be published with sufficient time to update the draft WCAG2ICT Note with finalized requirements verbiage.
-
-*   April - August 2022:
+*   Plan: April - August 2022, Actual: April - August 2022
     *   obtain approval from AG WG and launch the WCAG2ICT Task Force;
     *   recruit TF participants with necessary expertise.
-*   September 2022:
-    *   develop a brief requirements document and obtain agreement from AG WG;
-*   October 2022 - April 2023:
+*   Plan: September 2022, Actual: October 2022 
+    *   develop a brief requirements document (as inclurporated into the work statement) and obtain agreement from AG WG ;
+*   Plan: October 2022 - April 2023, Actual: October 2022 - August 2023 
     *   develop an initial draft with updates to the Working Group Note;
     *   develop initial discussion drafts of remaining sections of the Note;
     *   develop initial discussion drafts of Note sections;
-    *   start reporting to the AG WG (schedule and frequency TBD)
-*   July - June 2023:
+    *   start reporting to the AG WG (schedule and frequency aligned to when groups of SCs are added)
+*   Plan: July - June 2023, Actual: August 2023 - July 2024:
     *   incorporate first feedback from TF and AG WG into a (publicly visible) Editors’ Draft;
     *   publish Draft of the updated Working Group Note through the AG WG;
     *   start processing feedback on draft.
-*   July - October 2023:
+*   Plan: July - October 2023, Actual: July - October 2024
     *   process feedback on document, further develop and edit WG Note;
     *   publish updated formal draft, process comments.
-*   November 2023:
+*   Plan: November 2023, Actual: November 2024:
     *   Publish updated WCAG2ICT Note.
 
 ### Phase 2
 
-The next phase of updates would include any other in-scope work, including Level AAA, that was not addressed in Phase 1. Details of the Phase 2 timeline will be developed outside of this document when more is known about the scope of work left to do.
+The next phase of updates will include any other in-scope work, including:
+* addition of guidance for Level AAA success criteria
+  NOTE: Details of the Phase 2 timeline are found outside of this document. See the [schedule and milestones](https://github.com/w3c/wcag2ict/wiki/Schedule-and-milestones) page in the GitHub WCAG2ICT Wiki.
+* development of a WCAG2ICT Explainer. An initial outline is available in the Google doc [WCAG2ICT Explainer](https://docs.google.com/document/d/1hyei09Viby1bCoZnDLYwY9VWpzRvteK9pqt4v9sWCJE/edit?usp=sharing).
 
 ## Liaisons
 
-While there are no direct dependencies at the Task Force level (please see [deliverables section of the AG WG Charter](https://www.w3.org/2019/12/ag-charter#deliverables) for more information). The following proposed participating liaisons may change pending confirmation, and/or be expanded:
+While there are no direct dependencies at the Task Force level (please see [deliverables section of the AG WG Charter](https://www.w3.org/2019/12/ag-charter#deliverables) for more information), the following are participating liaisons, which may change and/or be expanded over time:
 
 *   Liaisons from worldwide accessibility consulting and advocacy groups
 *   Liaisons from worldwide standards organizations (ISO, ETSI, CEN and CENELEC, etc.)
 *   Liaisons from worldwide government and/or regulatory agencies considering referencing the updated WCAG2ICT (U.S. Access Board, EU, Canada, potentially others)
 
-The list of liaisons will be updated to show official organization representation of the participants in the task force, once known.
+The list of liaisons will be updated to show official organization representation of the participants in the task force, as found in the [WCAG2ICT participants](https://www.w3.org/groups/tf/wcag2ict/participants/) list.
 
 ## Communication
 
@@ -140,7 +143,7 @@ Contact [Daniel Montalvo](mailto:dmontalvo@w3.org) to become a participant of th
 
 Staff contacts from the Accessibility Guidelines Working Group oversee attention to W3C Process with respect to the chartered requirements of the Working Group. The facilitators set agenda, lead meetings, determine consensus, and are the primary liaison to the Working Group.
 
-*   **Facilitator:** [Mary Jo Mueller](mailto:maryjom@us.ibm.com)
+*   **Co-facilitators:** [Mary Jo Mueller](mailto:maryjom@us.ibm.com) and [Chris Loiselle](mailto:chris.loiselle@oracle.com)
 *   **Staff Contact:** [Daniel Montalvo](http://www.w3.org/People#dmontalvo)
 *   **Liaison to AG WG:** one of the AG WG co-chairs
 *   **Editorial Team:**
