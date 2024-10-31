@@ -75,6 +75,8 @@ As previously mentioned, a phased delivery of the WCAG2ICT Working Group Note wi
 
 ### Phase 1 (completed)
 
+Phase 1 - Published update to [Guidance on Applying WCAG 2 to Non-web Information and Communications Technologies (WCAG2ICT) Group Note](https://www.w3.org/TR/wcag2ict-22/) (8 October 2024).
+
 Goals were to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria and making other necessary updates to the other content in the WCAG2ICT document to align with WCAG 2.2 have been completed. This phase also addressed known documented issues.
 
 *   Plan: April - August 2022, Actual: April - August 2022
