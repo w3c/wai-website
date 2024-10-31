@@ -6,6 +6,7 @@ title: Kiat Memulai
 nav_title: Gambaran Umum
 lang: id # Change "en" to the translated-language shortcode
 last_updated: 2016-07-07 # Keep the date of the English version
+first_published: "September 2015"
 
 translation:
   last_updated: 2023-11-24 # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -38,7 +39,6 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Status:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p>First published September 2015</p>
   <p><strong>Editor:</strong>
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and
