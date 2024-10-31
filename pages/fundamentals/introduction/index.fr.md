@@ -52,7 +52,7 @@ Rendre le web accessible est un avantage pour les internautes, les entreprises e
 
 <span class="box-h box-h-simple box-h-full">Ressource complémentaire</span><br>
 {% include video-link.html title="Vidéo : introduction à l’accessibilité web et aux standards du W3C <em>(4 minutes)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/fr" src="/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
-c
+
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
