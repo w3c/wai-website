@@ -5,7 +5,7 @@
 title: "Example Outline for a Web Accessibility Workshop"
 nav_title: Workshop Outline
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2019-01-09 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09 # Keep the date of the English version
 order: 3
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

@@ -4,7 +4,8 @@
 title: Developing Organizational Policies on Web Accessibility
 nav_title: "Developing an Organizational Policy"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2016-06-05  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2016-06-05  # Keep the date of the English version
+first_published: "October 2002"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -25,7 +26,6 @@ ref: /planning/org-policies/  # Do not change this
 # Translate the other words below, including "Date:", "Editors:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 5 June 2016. First published October 2002.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/#kevin">Kevin White</a> and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Contributors: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, and <a href="https://www.w3.org/WAI/EO/EOWG-members">EOWG Participants</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Updated with support from <a href="https://www.w3.org/WAI/ACT/"><abbr title="Web Accessibility Initiative - Cooperation Framework for Guidance on Advanced Technologies, Evaluation Methodologies, and Research Agenda Setting to Support eAccessibility">WAI-ACT</abbr></a>, a project of the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 ---

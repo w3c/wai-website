@@ -5,8 +5,11 @@
 title: "Sumario de WCAG 2"
 nav_title: "Contenido Web – WCAG 2"
 lang: es
-last_updated: 2024-05-01  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07  # Keep the date of the English version
 description: Introduce el estándar internacional de las Pautas de Accesibilidad para el Contenido Web (WCAG), lo cual incluye WCAG 2.0, WCAG 2.1 y WCAG 2.2. Los documentos de las WCAG explican cómo hacer contenido web más accesible para las personas con discapacidad.
+
+translation:
+  last_updated: 2024-05-01  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -26,7 +29,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 7 de marzo del 2024. Primera publicación en julio del 2005.</p>
+  <p>Primera publicación en julio del 2005.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) y el Grupo de Trabajo de las Pautas de Accesibilidad (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---

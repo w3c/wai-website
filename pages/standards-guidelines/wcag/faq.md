@@ -3,6 +3,7 @@ title: "WCAG 2 FAQ"
 nav_title: "FAQ"
 lang: en
 last_updated: 2023-10-05
+first_published: "October 2006"
 description: Answers to some frequently asked questions (FAQ) about Web Content Accessibility Guidelines (WCAG).
 
 permalink: /standards-guidelines/wcag/faq/
@@ -13,7 +14,6 @@ github:
 
 image: /content-images/wcag/general-social.jpg
 footer: >
-    <p><strong>Date:</strong> Updated 5 October 2023. First published October 2006.</p>
     <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
     <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---

@@ -3,6 +3,8 @@ title: "What We're Working On"
 title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, October 2024</span>"
 lang: en
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
+last_updated: 2024-09-28
+first_published: "March 2022"
 
 permalink: /update/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /update/   # Translators, do not change this
@@ -14,12 +16,11 @@ image: /content-images/wai-about-wai/update_social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>Date:</strong> <!-- @@@ also update month in title !!! -->Updated 28 September 2024. First published March 2022.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Contributors: <a href="https://www.w3.org/WAI/update/#who-is-we">WAI staff, Working Group Co-Chairs</a>, and others working on accessibility at W3C.</p>
 
 inline_css: |

@@ -5,7 +5,10 @@
 title: "altディシジョンツリー"
 title_html: "<code>alt</code>ディシジョンツリー"
 lang: ja
-last_updated: 2024-02-23 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-01-15 # Keep the date of the English version
+
+translation:
+  last_updated: 2024-02-23  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Hiroya UGA"
