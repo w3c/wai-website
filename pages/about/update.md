@@ -195,7 +195,7 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 {% include_cached excol.html type="middle" %}
 
 * 31 October 2024
-  * Minor updates shown in: GitHub diff 31 Oct, rich text diff 31 Oct  
+  * Minor updates and typo fixes, shown in [GitHub diff 31 Oct](https://github.com/w3c/wai-website/pull/943/files), [rich text diff 31 Oct](https://github.com/w3c/wai-website/pull/943/files?short_path=6a769e8#diff-6a769e830ab2f49ee55cef25d2b3d266fdfa4221ac073fd4049a23b2660f816c)  
 * 28 September 2024
   * Added WCAG 3 to [Upcoming Publications list](/update/#upcoming-publications) 
 * 2 September 2024
