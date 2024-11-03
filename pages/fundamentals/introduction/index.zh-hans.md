@@ -3,13 +3,17 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Web无障碍简介 
 lang: zh-hans
-last_updated: 2024-10-27   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07
+
+translation:
+  last_updated: 2024-10-27  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: #Add one -name: line for every translator
 - name: "冉若曦"
   link: "https://www.w3.org/people/roy"
 - name: "金凯"
   link: "https://github.com/JinMokai"
+
 
 github:
     label: wai-accessibility-intro
