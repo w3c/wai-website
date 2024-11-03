@@ -2,27 +2,30 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Quelques utilisateurs du Web"
-order: 1
-permalink: /people-use-web/user-stories/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /people-use-web/user-stories/  # Do not change this
+title: "Quelques utilisateurs du Web – Version de 2017"
 lang: fr
+last_updated: 2017-05-15  # Keep the date of the English version
+order: 1
 description: Des personas de personnes atteintes de handicaps et utilisant le Web qui montrent l’effet des points de blocage non accessibles, et les avantages pour tous de faire des sites et des outils web accessibles.
-image: /content-images/people-use-web/social.png
-last_updated: 2024-03-11
+doc-note-type: archived
+doc-note-message-md: This is an archive of older material. New user stories are available from [Stories of Web Users in How People with Disabilities Use the Web](https://www.w3.org/WAI/people-use-web/user-stories/).
+
+translation:
+  last_updated: 2024-03-11
+
 translators:
 - name: "Stéphane Deschamps"
 contributors:
 - name: "Denis Boudreau"
 - name: "@code-elegant"
+
+permalink: /people-use-web/user-stories/archived/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/user-stories/archived/  # Do not change this
+
+image: /content-images/people-use-web/social.png
 footer: > # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>Date&#8239;:</strong> Mis à jour le 15 mai 2017.</p>
   <p><strong>Rédacteur&#8239;:</strong> <a hreflang="en" href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Rédactrice précédente&#8239;: <a hreflang="en" href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a hreflang="en" href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Remerciements</a>.</p>
   <p>Développé par le <i lang="en">Education and Outreach Working Group</i> (<a hreflang="en" href="http://www.w3.org/WAI/EO/">EOWG</a>). Développé précédemment avec le <a hreflang="en" href="https://www.w3.org/WAI/EO/2008/wai-age-tf">Groupe de Travail WAI-AGE</a>, avec le soutien du <a hreflang="en" href="https://www.w3.org/WAI/WAI-AGE/">Projet WAI-AGE</a>.</p>
-resource:
-  ref: /people-use-web/
-github:
-  label: wai-people-use-web
 ---
 
 {::nomarkdown}

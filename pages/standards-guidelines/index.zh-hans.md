@@ -3,12 +3,15 @@
 
 title: W3C 可访问性标准概述  # Do not translate "title:". Do translate the text after "title:".
 nav_title: "标准/指南" # A short title that is used in the navigation
+lang: zh-hans
+last_updated: 2021-04-30  # Keep the date of the English version
 
-lang: zh-hans   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  status: outdated
+  last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
-- name: "安佳"   # Replace @@ with translator name
+- name: "安佳"
   link: "https://github.com/anjia"
 
 ref: /standards-guidelines/ # Do not change this
@@ -19,7 +22,6 @@ permalink: /standards-guidelines/zh-hans   # Add the language shortcode to the e
 feedbackmail: wai@w3.org
 
 footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>日期:</strong> 更新于2021年4月30日. CHANGELOG.</p>
   <p><strong>编辑:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>。</p>
   <p>由教育和外联工作组（<a href="https://www.w3.org/WAI/EO/">EOWG</a>）开发。</p>
 ---

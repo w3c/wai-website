@@ -5,7 +5,8 @@ title: "WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodolo
 title_html: "WCAG-EM Overview:<br>Website Accessibility Conformance Evaluation Methodology"
 nav_title: "WCAG-EM Conformance Methodology"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2020-01-01  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-04-28  # Keep the date of the English version
+first_published: "as “Conformance Evaluation of Web Sites for Accessibility” in September 2005"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -27,7 +28,6 @@ ref: /test-evaluate/conformance/wcag-em/   # Do not change this
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 28 April 2020. First published as "Conformance Evaluation of Web Sites for Accessibility" in September 2005.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) and the WCAG 2.0 Evaluation Methodology Task Force (<a href="https://www.w3.org/WAI/ER/2011/eval/eval-tf">Eval TF</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245).</p>
 ---

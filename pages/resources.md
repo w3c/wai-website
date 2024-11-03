@@ -12,9 +12,6 @@ ref: /resources/
 layout: default
 image: /content-images/resources-list/resources-social.png 
 feedbackmail: wai@w3.org
-
-footer: >
-  <p><strong>Date:</strong> Updated 26 August 2024.</p>
 ---
 
 {::nomarkdown}

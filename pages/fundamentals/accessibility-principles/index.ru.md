@@ -5,9 +5,13 @@
 title: Принципы доступности
 nav_title: "Принципы доступности"
 lang: ru
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-05-10   # Keep the date of the English version
 description: Обзор основных требований веб-доступности для вебсайтов, веб приложений, браузеров и других инструментов.
 teaser_text: The Accessibility Principles page introduces some of the web accessibility requirements for websites, web applications, browsers, and other tools. It provides references to the international standards from W3C Web Accessibility Initiative (WAI) and to stories of web users.
+
+translation:
+  last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators: 
 - name: "Daniel Novichkov"
@@ -23,11 +27,9 @@ changelog: /fundamentals/accessibility-principles/changelog/   # Do not change t
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Дата:</strong> Обновлено 10 Мая 2019. CHANGELOG</p>
   <p><strong>Редакторы:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Благодарности</a>.</p>
   <p>Разработано Education and Outreach Working Group (<a href="https//www.w3.org/WAI/EO/">EOWG</a>). Ранее разработано <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, при поддержке <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
 ---

@@ -17,7 +17,6 @@ image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 
 footer: |
-  <p><strong>Date:</strong> Updated 9 April 2024.</p>
   <p><strong>Editor:</strong> Rémi Bétin.</p>
 ---
 

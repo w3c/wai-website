@@ -3,7 +3,10 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 title: Wybór narzędzi oceny dostępności cyfrowej
 lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-05-13  # Keep the date of the English version
+
+translation:
+    last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Stefan Wajda" # Add one -name: line for every translator

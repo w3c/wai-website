@@ -2,7 +2,11 @@
 title: "网页无障碍和W3C标准的介绍视频"
 nav_title: "视频介绍" # A short title that is used in the navigation
 lang: zh-hans
-last_updated: 2021-05-13 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+ # Keep the date of the English version
 
 translators:
 - name: "Ruoxi Ran"
@@ -16,11 +20,11 @@ ref: /videos/standards-and-benefits/ # Do not change this
 changelog: /videos/standards-and-benefits/changelog/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>日期:</strong> 2021年5月4日更新。首次出发布于2017年12月4日。CHANGELOG</p>
+  <p><strong>日期:</strong> 2021年5月4日更新。首次出发布于2017年12月4日。</p>
   <p>项目主管： <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. 参与者： <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. 摄像师和视频编辑： Ulrich Grimm. Video clips developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Translations managed with support from the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

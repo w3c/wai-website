@@ -5,9 +5,13 @@
 title: Zásady přístupnosti
 nav_title: "Zásady přístupnosti"
 lang: cs
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-05-10   # Keep the date of the English version
 description: Přehled základních požadavků na webovou přístupnost pro webové stránky, webové aplikace, prohlížeče a další nástroje.
 teaser_text: Stránka Zásady přístupnosti představuje některé požadavky na přístupnost webu pro webové stránky, webové aplikace, prohlížeče a další nástroje. Poskytuje odkazy na mezinárodní standardy z Iniciativy pro webovou přístupnost W3C (WAI) a na příběhy uživatelů webu.
+
+translation:
+  last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators: 
 - name: "Kristýna Švecová"
@@ -23,11 +27,9 @@ image: /content-images/accessibility-principles/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Datum:</strong> Aktualizováno 10. května 2019. CHANGELOG</p>
   <p><strong>Editoři:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Poděkování</a>.</p>
   <p>Vyvinuto Pracovní skupinou pro vzdělání a osvětu (<a href="https//www.w3.org/WAI/EO/">EOWG</a>). Dříve vyvinuto s Pracovní skupinou <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE</a> za podpory Projektu <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE</a>.</p>
 ---

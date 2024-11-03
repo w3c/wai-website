@@ -6,7 +6,8 @@ title: "How WAI Develops Accessibility Standards through the W3C Process: Milest
 title_html: "How WAI Develops Accessibility Standards through the W3C Process:<br> Milestones and Opportunities to Contribute"
 nav_title: W3C Process for Developing Standards
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2020-02-20   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-01-15   # Keep the date of the English version
+first_published: "September 2006"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -28,7 +29,6 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 2 November 2020. First published September 2006.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

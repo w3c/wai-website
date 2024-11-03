@@ -3,22 +3,20 @@ title: "Tutorials"
 permalink: /tutorials/
 ref: /tutorials/
 lang: en
+last_updated: 2023-02-16
+first_published: "September 2014"
 
-description:
-image: /content-images/tutorials/images/social.png
 github:
   label: wai-tutorials
-
-footer: >
-   <p><strong>Date:</strong> Updated 16 February 2023. First published September 2014. CHANGELOG.</p>
-   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. Update Editor: Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>. ACKNOWLEDGEMENTS.</p>
-   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 
 resource:
   ref: /tutorials/
 
-changelog: /tutorials/changelog/
+image: /content-images/tutorials/images/social.png
 acknowledgements: /tutorials/acknowledgements/
+footer: >
+   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. Update Editor: Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>. ACKNOWLEDGEMENTS.</p>
+   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 ---
 
 This collection of tutorials shows you how to develop web content that is accessible to people with disabilities, and that provides a better user experience for everyone.

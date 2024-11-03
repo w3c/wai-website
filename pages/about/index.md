@@ -3,12 +3,11 @@ title: "About W3C WAI"
 permalink: /about/
 ref: /about/
 lang: en
+last_updated: 2024-10-03
 feedbackmail: wai@w3.org
 class: tight-page
 github:
    label: wai-about
-footer: >
-  <p><strong>Date:</strong> Updated 3 October 2024.</p>
 ---
 
 {::nomarkdown}
