@@ -29,7 +29,7 @@ changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.  
 footer: >
-  <p><strong>日期:</strong> 2019年6月5日更新. 第一版发布于2005年.</p>
+  <p><strong>日期:</strong> 2024年3月7日更新. 第一版发布于2005年.</p>
   <p><strong>编者:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>由教育及外展工作组 (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)开发。</p>
 ---
