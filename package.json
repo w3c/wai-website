@@ -1,9 +1,13 @@
 {
-    "scripts": {},
+    "scripts": {
+        "update-minutes": "node _scripts/update-minutes.mjs"
+    },
     "dependencies": {
         "uuid": "^10.0.0"
     },
     "devDependencies": {
-        "@netlify/plugin-lighthouse": "^6.0.1"
+        "@netlify/plugin-lighthouse": "^6.0.1",
+        "@types/node": "^18.19.63",
+        "axios": "^1.7.7"
     }
 }
