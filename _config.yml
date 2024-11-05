@@ -110,6 +110,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      lang: en
   - scope:
       path: "_perspective-videos"
     values:
