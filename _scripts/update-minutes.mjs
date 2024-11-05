@@ -3,45 +3,12 @@ import { readFileSync } from "fs";
 import { readFile, writeFile } from "fs/promises";
 import { join } from "path";
 
-// All known channels referenced across the website's various minutes files
-const groupedChannels = {
-  gl: ["ag", "wai-wcag"],
-  coga: ["coga"],
-  "conformance-testing": ["wcag-act"],
-  "low-vision-a11y-tf": ["low-vision", "lvtf"],
-  matf: ["mobile-a11y"],
-  silver: ["silver"],
-  wcag2ict: ["wcag2ict"],
-  wcag3: [
-    "silver",
-    "silver-conf",
-    "silver-functional",
-    "silver-plan",
-    "silver-protocols",
-    "silver-reliability",
-    "wcag3",
-    "wcag3-conf",
-    "wcag3-equity",
-    "wcag3-protocols",
-    "wcag3-reliability",
-    "wcag3-scoping",
-    "wcag3-scoring",
-    "wcag3-supported",
-  ],
-  apa: ["apa", "pf", "pf-ftf"],
-  "apa-adapt": ["adapt", "personalization"],
-  "apa-css-a11y": ["css-a11y"],
-  "apa-maturity-model": ["maturity"],
-  "apa-pronunciation": ["pronunciation"],
-  "apa-research-questions": ["rqtf"],
-  aria: ["aria", "aria-dive"],
-  "aria-editors": ["aria-editors"],
-  "aria-practices": ["aria-apg"],
-};
-const channels = Array.from(new Set(Object.values(groupedChannels).flat()));
+const getDataPath = (name) => join("_data", "minutes", `${name}.json`);
 
-const getDataPath = (channelId) =>
-  join("_data", "minutes", `${channelId}.json`);
+// groups.json contains all known channels
+// referenced across the website's various minutes files
+const groupedChannels = JSON.parse(await readFile(getDataPath("groups")));
+const channels = Array.from(new Set(Object.values(groupedChannels).flat()));
 
 // Find most recent date among all minutes data files
 const startDate = channels.reduce((latestDate, channelId) => {
