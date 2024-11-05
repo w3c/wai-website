@@ -26,10 +26,10 @@ Inputs:
       <ul>
   {% endif %}
         <li>
-          <a href="{{ minutes[1].href }}">{{ date }}: {{ minutes[1].title }}</a>
-  {%- if topics.size > 0 -%}
+          <a href="{{ minutes[1].href }}">{{ date | date: "%d %b" }}: {{ minutes[1].title }}</a>
+  {%- if minutes[1].topics.size > 0 -%}
           <ul>
-  {%- for topic in minutes[1] %}
+  {%- for topic in minutes[1].topics %}
             <li><a href="{{ minutes[1].href }}#{{ topic.id }}">{{ topic.name }}</a></li>
   {%- endfor -%}
           </ul>
