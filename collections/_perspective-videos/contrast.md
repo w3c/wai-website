@@ -5,7 +5,7 @@
 title: "Colors with Good Contrast"
 nav_title: "Colors with Good Contrast"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2024-07-15    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15    # Keep the date of the English version
 order: 2
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -14,7 +14,6 @@ order: 2
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
-
 
 github:
     label: wai-perspective-videos
@@ -25,6 +24,7 @@ ref: /perspective-videos/contrast/  # Do not change this
 resource:
     ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Short video about colors with good contrast for web accessibility - what is it, who depends on it, and what needs to happen to make it work.
@@ -36,7 +36,7 @@ image: /content-images/perspective-videos/contrast.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Status:</strong> Updated 15 July 2024. <br><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
 ---
 
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
@@ -84,8 +84,8 @@ Select colors that provide sufficient contrast. There are tools to help check an
 -   **Easy Check:**
     -   [Contrast ratio ("color contrast")](/test-evaluate/preliminary/#contrast)
 -   **User Story:**
-    -   [Lee, online shopper who cannot distinguish between certain colors (color blindness)](/people-use-web/user-stories/#shopper)
-    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
+    -   [Lee, online shopper who cannot distinguish between certain colors (color blindness)](/people-use-web/user-stories/archived/#shopper)
+    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
 -   **User Needs:**
     -   [Accessibility Requirements for People with Low Vision](https://www.w3.org/TR/low-vision-needs/)
 -   **Web Content Accessibility Guidelines ([ WCAG  Overview](/standards-guidelines/wcag/)):**

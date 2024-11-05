@@ -5,7 +5,8 @@
 title: "Mobile Accessibility at W3C"
 nav_title: "Mobile Accessibility at W3C"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2024-05-13    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-05-13    # Keep the date of the English version
+first_published: "January 2008"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -20,16 +21,13 @@ github:
 permalink: /standards-guidelines/mobile/    # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/mobile/  # Do not change this
 
-changelog: /standards-guidelines/mobile/changelog/  # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Date:</strong> Updated 13 May 2024. First published January 2008. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
 ---
 

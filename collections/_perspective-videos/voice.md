@@ -5,7 +5,8 @@
 title: "Speech Recognition"
 nav_title: "Speech Recognition"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2021-02-26    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17    # Keep the date of the English version
+first_published: "May 2016"
 order: 8
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -15,16 +16,16 @@ order: 8
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
-
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/voice/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/voice/ # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Short video about speech recognition for web accessibility - what is it, who depends on it, and what needs to happen to make it work.
@@ -36,12 +37,12 @@ image: /content-images/perspective-videos/voice.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Status:</strong> Updated 26 February 2021. First published May 2016. <a href="../changelog/">Changelog</a>.<br><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
 ---
 
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
 
-Update: The video uses "voice recognition". This page is updated to use "speech recognition". "Speech recognition" is about recognizing words for speech-to-text (STT) transcription, virtual assistants, and other speech user interfaces. "Voice recognition" or "speaker recognition" is technology that identifies who the speaker is, not the words they're saying. We hope to update the video to use "speech recognition" in late 2022. 
+Update: The video uses "voice recognition". This page is updated to use "speech recognition". "Speech recognition" is about recognizing words for speech-to-text (STT) transcription, virtual assistants, and other speech user interfaces. "Voice recognition" or "speaker recognition" is technology that identifies who the speaker is, not the words they're saying. We hope to update the video to use "speech recognition" in 2025. 
 
 ## Video on Speech Recognition
 {:#film.no-display}
@@ -91,7 +92,7 @@ Learn more {#resources}
     -   [Keyboard access and visual focus](/test-evaluate/preliminary/#interaction)
     -   [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
 -   **User Story:**
-    -   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
+    -   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "keyboard" and "controls"](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard%2Ccontrols)
 -   **Mobile Applicability:**

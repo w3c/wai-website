@@ -6,7 +6,11 @@ title: "Écrire pour l’accessibilité Web – Conseils pour démarrer"
 title_html: "Écrire pour l’accessibilité Web"
 nav_title: Conseils pour l’écriture
 lang: fr  # Change "en" to the translated-language shortcode
-last_updated: 2023-10-10  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-08-05  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-10-10  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 resource:
   ref: /tips/  # Do not change this
@@ -30,6 +34,7 @@ ref: /tips/writing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#writing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
@@ -37,7 +42,7 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 5 août 2022. Première publication en septembre 2015.</p>
+  <p>Première publication en septembre 2015.</p>
   <p><strong>Rédacteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
   <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion (EOWG)</a>.
   Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l’information">IST</abbr> de la Commission européenne.</p>
@@ -221,7 +226,7 @@ Voir l’exemple sous forme de texte
   * [En-têtes de section 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Comprendre 2.4.10](/WAI/WCAG21/Understanding/section-headings))
   * [Information et relations 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Comprendre 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **Témoignage d’utilisateur**
-  * [Comment un utilisateur de lecteur d’écran utilise les en-têtes pour naviguer](/people-use-web/user-stories/#accountant)
+  * [Comment un utilisateur de lecteur d’écran utilise les en-têtes pour naviguer](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -311,7 +316,7 @@ Pour chaque image, rédigez un équivalent textuel qui fournit des informations 
 * **Tutoriel**
   * [Images](/tutorials/images/)
 * **Témoignage d’utilisateur**
-  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/#accountant)
+  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -329,7 +334,7 @@ Pour du contenu seulement audio, comme un podcast, fournissez une transcription.
   * [Sous-titres (pré-enregistrés) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Comprendre 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
   * [Audiodescription ou version de remplacement pour un média temporel (pré-enregistré) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Comprendre 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **Témoignage d’utilisateur**
-  * [Comment les sous-titres aident un étudiant sourd](/people-use-web/user-stories/#onlinestudent)
+  * [Comment les sous-titres aident un étudiant sourd](/people-use-web/user-stories/archived/#onlinestudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -387,7 +392,7 @@ Assurez-vous que les instructions, l’aide, et les messages d’erreur sont cla
 * **WCAG**
   * [Étiquettes ou instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Comprendre 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Témoignage d’utilisateur**
-  * [Comment des instructions simples aident les personnes avec des troubles d’apprentissage](/people-use-web/user-stories/#supermarketassistant)
+  * [Comment des instructions simples aident les personnes avec des troubles d’apprentissage](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -443,7 +448,7 @@ Utilisez un langage et une mise en forme simples, adaptés au contexte.
   * [Mots rares 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Comprendre 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
   * [Abréviations 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Comprendre 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
 * **Témoignage d’utilisateur**
-  * [Un texte facile à lire profite à un utilisateur avec des troubles de lecture](/people-use-web/user-stories/#classroomstudent)
+  * [Un texte facile à lire profite à un utilisateur avec des troubles de lecture](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

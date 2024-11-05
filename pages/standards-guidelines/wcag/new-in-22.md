@@ -6,7 +6,7 @@ title: "What's New in WCAG 2.2"
 title_html: "What's New in WCAG 2.2"
 nav_title: "New in 2.2"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-05  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-05  # Keep the date of the English version
 
 description: This page lists the new success criteria in Web Content Accessibility Guidelines (WCAG) 2.2. It includes quotes from personas to help you understand some aspects of the success criteria.
 
@@ -34,7 +34,6 @@ image: /content-images/wcag/general-social.png
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 5 October 2023.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Mike Gower, Shadi Abou-Zahra,  <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>, and <a href="https://www.w3.org/groups/wg/ag/participants">AG WG Participants</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">AG WG</a>).</p>
 
@@ -131,7 +130,7 @@ Provide ways to help users navigate, find content, and determine where they are.
 
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#reporter">reporter</a> with repetitive stress injury who uses speech recognition software:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#reporter">reporter</a> with repetitive stress injury who uses speech recognition software:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>This page has a big banner that's always across the bottom. <em>(a sticky footer)</em> When I move focus to items, some are hidden behind the banner and I can't see them.</q></span></dd>
@@ -179,8 +178,8 @@ Provide ways to help users navigate, find content, and determine where they are.
   <dd>Many people can't see small changes in visual appearance, including older people.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#reporter">reporter</a> with repetitive stress injury who doesn't use a mouse:<br />
-      and <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">Retiree</a> with low contrast sensitivity:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#reporter">reporter</a> with repetitive stress injury who doesn't use a mouse:<br />
+      and <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">Retiree</a> with low contrast sensitivity:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>I can't tell where the keyboard focus is as I move around a web page or app.</q></span></dd>
@@ -222,7 +221,7 @@ Make it easier for users to operate functionality through various inputs beyond 
   <dd>Some people cannot use a mouse to drag items.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">retiree</a> with hand tremor:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">retiree</a> with hand tremor:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>I cannot hold down the mouse button and drag it accurately enough to move the items in this list.</q></span></dd>
@@ -249,7 +248,7 @@ Make it easier for users to operate functionality through various inputs beyond 
   <dd>Some people with physical impairments cannot click small buttons that are close together.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">retiree</a> with hand tremor:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">retiree</a> with hand tremor:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>The buttons are so close, I hit "Cancel" when going for "Submit". Then I have to start all over again.</q></span></dd>
@@ -288,7 +287,7 @@ Make Web pages appear and operate in predictable ways.
   <dd>People who need help can find it more easily if it's in the same place.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>Whenever I use the online app to schedule my medical appointments, I can't remember what to do at each step. I've seen a Chat option in some places, but can't find it now.</q></span></dd>
@@ -326,7 +325,7 @@ Help users avoid and correct mistakes.
   <dd>Some people with cognitive disabilities have difficulty remembering what they entered before.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>Whenever I use the online app to schedule my medical appointments, I have to re-type some information that I entered in a previous step.</q></span></dd>
@@ -362,7 +361,7 @@ Help users avoid and correct mistakes.
   <dd>Some people with cognitive disabilities cannot solve puzzles, memorize a username and password, or retype one-time passcodes.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>I can never remember my password, it’s really hard to get into this app.</q></span></dd>
@@ -404,7 +403,7 @@ Help users avoid and correct mistakes.
   <dd>Some people with cognitive disabilities can't do puzzles, including identifying objects and non-text information they previously supplied.</dd>
 </dl>
 
-<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
+<p class="persona">Persona example &mdash; a <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#supermarketassistant">supermarket assistant</a> with cognitive disabilities:</p>
 <dl>
   <dt><span class="issue">Problem</span></dt>
   <dd><span><q>To get into this app, it's asking me to click on pictures of cats, but I can't tell which are cats.</q></span></dd>
@@ -429,4 +428,4 @@ Help users avoid and correct mistakes.
 
 These personas are representations of people with disabilities developed from qualitative data on real people.
 
-The linked persona roles go to the [Stories of Web Users](https://www.w3.org/WAI/people-use-web/user-stories/archived). That page has other personas with different disabilities.
+The linked persona roles go to the [Stories of Web Users](/people-use-web/user-stories/archived/). That page has other personas with different disabilities.

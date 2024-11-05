@@ -3,8 +3,8 @@ title: "Zoom Levels - Easy Checks"
 permalink: /test-evaluate/easy-checks/zoom/
 ref: /test-evaluate/easy-checks/zoom/
 nav_title: "Zoom"
-
 lang: en
+last_updated: 2024-03-19
 
 doc-note-type: draft
 
@@ -18,7 +18,6 @@ navigation:
 acknowledgements: /test-evaluate/easy-checks/acknowledgements/
 footer: >
   <p>
-    <strong>Status:</strong> Updated December 2023<br>
     <strong>Editor:</strong> <a href="https://www.w3.org/People/#kevin">Kevin White</a><br>
     ACKNOWLEDGEMENTS<br>
     Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.
@@ -65,5 +64,5 @@ You can check other pages by following the steps listed above. But, if the page 
 
 ## Learn more
 
-* Story: [Someone with low vision who zooms to enlarge text](https://www.w3.org/WAI/people-use-web/user-stories/#retiree)
+* Story: [Someone with low vision who zooms to enlarge text](https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree)
 * [Understanding 1.4.4: Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html)

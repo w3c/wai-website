@@ -2,7 +2,8 @@
 title: WCAG 2 Translations
 nav_title: "Translations"
 lang: en
-last_updated: 2024-07-15
+last_updated: 2024-10-31
+first_published: "2 March 2009"
 description: Links to translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1 and 2.0.
 
 github:
@@ -13,7 +14,6 @@ ref: /standards-guidelines/wcag/translations/
 
 image: /content-images/wcag/wcag-intro-social.jpg
 footer: >
-  <p><strong>Date:</strong> Updated 15 July 2024. First published 2 March 2009.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, Shadi Abou_Zahra, Xueyuan Jia, Rémi Bétin.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 

@@ -4,7 +4,8 @@
 
 title: WAI-ARIA Overview
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-01-23  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-01-23  # Keep the date of the English version
+first_published: "December 2006"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -27,7 +28,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: |
-  <p><strong>Date:</strong> Updated 23 January 2024. First published December 2006.</p>
   <p><strong>Editors:</strong> James Nurthen, <a href="https://www.w3.org/People/cooper/">Michael Cooper</a>, <a href="https://www.w3.org/People/shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Accessible Rich Internet Applications Working Group (<a href="https://www.w3.org/WAI/ARIA/">ARIA WG</a>) and the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

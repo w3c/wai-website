@@ -37,7 +37,7 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 repository: w3c/wai-website
-branch: master
+branch: main
 
 ytkey: AIzaSyBzq155tA3E3gaYlRdx2S9U9FM78U1-568
 
@@ -115,7 +115,7 @@ defaults:
     values:
       layout: "default"
       github:
-        repository: w3c/wai-perspective-videos
+        label: wai-perspective-videos
   - scope:
       path: "_tips"
     values:
@@ -245,6 +245,8 @@ defaults:
           ref: /standards-guidelines/act/rules/about/
         - name: Implementations
           ref: /standards-guidelines/act/implementations/
+      github:
+        hide: true
   - scope:
       path: "pages/wai-aria-practices"
     values:

@@ -5,7 +5,7 @@
 title: "Stories of Web Users"
 nav_title: "User Stories"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 description:  Personas of people with disabilities using the Web that highlight the effect of accessibility barriers and the broader benefits of accessible digital technologies.
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -34,12 +34,12 @@ acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <!--<p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>-->
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
@@ -48,11 +48,11 @@ footer: >
 
 The following user stories represent the experiences of some people with disabilities. They do not address all disabilities or all impacts faced by people with disabilities. These and other disabilities may be present from birth or may develop as a results of an accident, illness, or aging.
 
-* {:.left} [{% include image.html src="people-use-web/user-stories/ade.png" alt="Ade" %} Ade, reporter with limited use of his arms](/people-use-web/user-stories/story-one/)<br> Ade was involved in an accident that caused a spinal cord injury, leaving him with limited use of his arms. He often relies only on the keyboard to navigate websites and other digital content.
+* {:.left} [{% include image.html src="people-use-web/user-stories/ade.png" alt="" %} Ade, reporter with limited use of his arms](/people-use-web/user-stories/story-one/)<br> Ade was involved in an accident that caused a spinal cord injury, leaving him with limited use of his arms. He often relies only on the keyboard to navigate websites and other digital content.
 
-* {:.left} [{% include image.html src="people-use-web/user-stories/ian.png" alt="Ian" %} Ian, data entry clerk with autism](/people-use-web/user-stories/story-two/)<br> Ian is autistic. He has difficulty understanding online content and layouts that change often, including carousels, pop-up ads, and videos that play automatically.
+* {:.left} [{% include image.html src="people-use-web/user-stories/ian.png" alt="" %} Ian, data entry clerk with autism](/people-use-web/user-stories/story-two/)<br> Ian is autistic. He has difficulty understanding online content and layouts that change often, including carousels, pop-up ads, and videos that play automatically.
 
-* {:.left} [{% include image.html src="people-use-web/user-stories/lakshmi.png" alt="Lakshmi" %} Lakshmi, senior accountant who is blind](/people-use-web/user-stories/story-three/)<br> Lakshmi is blind. She uses a screen reader on her computer and mobile device to interact with online content, including images, form controls, and navigation.
+* {:.left} [{% include image.html src="people-use-web/user-stories/lakshmi.png" alt="" %} Lakshmi, senior accountant who is blind](/people-use-web/user-stories/story-three/)<br> Lakshmi is blind. She uses a screen reader on her computer and mobile device to interact with online content, including images, form controls, and navigation.
 
 * {:.left} [{% include image.html src="people-use-web/user-stories/lexie.png" alt="" %} Lexie, online shopper who cannot distinguish between certain colors (color blindness)](/people-use-web/user-stories/story-four/)<br> Lexie has deuteranopia and protanopia (often called "color blindness"). She has difficulty distinguishing among items that are red, green, orange, and brown, which makes it hard to derive meaning from these colors.
 

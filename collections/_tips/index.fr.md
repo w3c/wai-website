@@ -4,7 +4,11 @@
 title: Conseils pour démarrer
 nav_title: Vue d'ensemble
 lang: fr # Change "en" to the translated-language shortcode
-last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2016-07-07 # Keep the date of the English version
+
+translation:
+  last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 resource:
   title: "Conseils pour démarrer"
@@ -32,13 +36,8 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Status:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p>
-    <strong>Statut :</strong>
-      Mise à jour :
-      7 juillet 2016
-    (première publication en septembre 2015)
-    <br>
-    <strong>Rédaction :</strong>
+  <p>Première publication en septembre 2015</p>
+  <p><strong>Rédaction :</strong>
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.

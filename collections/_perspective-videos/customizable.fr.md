@@ -5,8 +5,11 @@
 title: "Un texte personnalisable"
 nav_title: "Texte personnalisable"
 lang: fr
-last_updated: 2023-10-16    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-23    # Keep the date of the English version
 order: 7
+
+translation:
+  last_updated: 2023-10-16    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Sofia Ahmed"
@@ -15,14 +18,15 @@ contributors:
 - name: "Sandra Velarde Gonzalez (ETNIC)"
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/customizable/fr  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/customizable/  # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Courte vidéo à propos du texte personnalisable pour l’accessibilité Web – de quoi s’agit-il, qui en bénéficie, et comment mettre cela en pratique.
@@ -85,8 +89,8 @@ Plus d’informations {#resources}
 -   **Vérification facile :**
     -   [Modifiez la taille du texte](/test-evaluate/preliminary/#resize)
 -   **Témoignages d’utilisateurs :**
-    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
-    -   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
+    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+    -   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
     -   [Critères de succès liés au « texte »](https://www.w3.org/WAI/WCAG21/quickref/?tags=text) 
 -   **Règles pour l’accessibilité des agents utilisateurs ([Vue d’ensemble des UAGG](/standards-guidelines/uaag/)) :**

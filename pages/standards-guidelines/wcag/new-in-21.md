@@ -2,7 +2,7 @@
 title: "What’s New in WCAG 2.1"
 nav_title: "New in 2.1"
 lang: en
-last_updated: 2023-10-05
+last_updated: 2023-10-05  # Keep the date of the English version
 
 description: This page lists the new success criteria in Web Content Accessibility Guidelines (WCAG) 2.1. It includes quotes from personas (fictional people) to help you understand some aspects of the success criteria.
 teaser_text: WCAG 2.1 has 17 additional requirements (“success criteria”) that address mobile accessibility, people with low vision, and people with cognitive and learning disabilities. The What’s New in WCAG 2.1 page introduces the new success criteria. It includes quotes from personas to help you understand the issues.
@@ -15,7 +15,6 @@ github:
 
 image: /content-images/wcag/general-social.png
 footer: >
-  <p><strong>Date:</strong> Updated 5 October 2023.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Shadi Abou-Zahra, Jonathan Avila, Brent Bakken, Laura Carlson, Stéphane Deschamps, Eric Eggert, James Green, Becky Gibson, Marc Johlic, Robert Jolly, Howard Kramer, Chris O'Brien, Sharron Rush, Nic Steenhout, Glenda Sims, Bill Tyler.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">AG WG</a>).</p>
 inline_css: |
@@ -107,7 +106,7 @@ Create content that can be presented in different ways (for example simpler layo
     <li>The content is implemented using technologies with support for identifying the expected meaning for form input data.</li>
   </ul>
 </blockquote>
-<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#supermarketassistant">Supermarket assistant</a> with dyslexia and dyscalculia:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#supermarketassistant">Supermarket assistant</a> with dyslexia and dyscalculia:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problem:</span><span><q>My address is so complicated. There's lots of numbers and long words. It's hard to type it all without making mistakes.</q></span></p></li>
@@ -165,7 +164,7 @@ Make it easier for users to see and hear content including separating foreground
     <dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="https://www.w3.org/TR/WCAG21/#dfn-essential" data-link-type="dfn">essential</a> to the information being conveyed.</dd>
   </dl>
 </blockquote>
-<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">Retiree</a> with low contrast sensitivity:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">Retiree</a> with low contrast sensitivity:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problem:</span><span><q>I couldn't use the &quot;Order Form&quot;  &mdash; there were no text boxes. After a long call with customer service, I learned there were text box borders that were too light for me to see.</q></span></p></li>
@@ -186,8 +185,8 @@ Make it easier for users to see and hear content including separating foreground
   </ul>
   <p>Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.</p>
 </blockquote>
-<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#classroomstudent">Student</a> with dyslexia:<br/>
-  and <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">Retiree</a> with low vision:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#classroomstudent">Student</a> with dyslexia:<br/>
+  and <a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">Retiree</a> with low vision:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problem:</span><span><q>Most text is hard to read. It's so cluttered I can't keep my focus. Just increasing the space between lines makes all the difference. When I'm really tired, I also increase the space between words. However, some websites don't work right &mdash; some of the text gets cut off and even buttons disappear.</q></span></p></li>
@@ -236,7 +235,7 @@ Make all functionality available from a keyboard.
     <dd>The keyboard shortcut for a <a href="https://www.w3.org/TR/WCAG21/#dfn-user-interface-components" data-link-type="dfn">user interface component</a> is only active when that component has focus.</dd>
   </dl>
 </blockquote>
-<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#reporter">Reporter</a> with repetitive stress injury who uses voice recognition software:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#reporter">Reporter</a> with repetitive stress injury who uses voice recognition software:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problem:</span><span><q>When I was using my mail app with  voice commands, it kept deleting the messages instead of opening them.</q><br/>
@@ -329,7 +328,7 @@ Make it easier for users to operate functionality through various inputs beyond 
 <blockquote class="sc">
   <p>For <a href="https://www.w3.org/TR/WCAG21/#dfn-user-interface-components" data-link-type="dfn">user interface components</a> with <a href="https://www.w3.org/TR/WCAG21/#dfn-labels" data-link-type="dfn">labels</a> that include <a href="https://www.w3.org/TR/WCAG21/#dfn-text" data-link-type="dfn">text</a> or <a href="https://www.w3.org/TR/WCAG21/#dfn-images-of-text" data-link-type="dfn">images of text</a>, the <a href="https://www.w3.org/TR/WCAG21/#dfn-name" data-link-type="dfn">name</a> contains the text that is presented visually.</p>
 </blockquote>
-<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#reporter">Reporter</a> with repetitive stress injury who uses voice recognition software:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#reporter">Reporter</a> with repetitive stress injury who uses voice recognition software:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problem:</span><span><q>It understood most of my voice  commands until I got to the Send button. I kept saying 'Send' and it didn't work.</q><br/>
@@ -374,7 +373,7 @@ Make it easier for users to operate functionality through various inputs beyond 
     <dd>A particular presentation of the target is <a href="https://www.w3.org/TR/WCAG21/#dfn-essential" data-link-type="dfn">essential</a> to the information being conveyed.</dd>
   </dl>
 </blockquote>
-<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#retiree">Retiree</a> with hand tremor (and big fingers):</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#retiree">Retiree</a> with hand tremor (and big fingers):</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problem:</span><span><q>The buttons are so small, I hit  &quot;Cancel&quot; when going for &quot;Submit&quot;. Then I have to start all over again.</q></span></p></li>
@@ -388,7 +387,7 @@ Make it easier for users to operate functionality through various inputs beyond 
 <blockquote class="sc">
   <p>Web content does not restrict use of input modalities available on a platform except where the restriction is <a href="https://www.w3.org/TR/WCAG21/#dfn-essential" data-link-type="dfn">essential</a>, required to ensure the security of the content, or required to respect user settings.</p>
 </blockquote>
-<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#reporter">Reporter</a> with repetitive stress injury who uses voice recognition software:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#reporter">Reporter</a> with repetitive stress injury who uses voice recognition software:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problem:</span><span><q>When my RSI acts up, I switch back and forth a lot between keyboard, mouse,  stylus, voice. This application doesn't let me use the stylus when I have a keyboard plugged in.</q></span></p></li>
@@ -405,7 +404,7 @@ Maximize compatibility with current and future user agents, including assistive 
 <blockquote class="sc">
   <p>In content implemented using markup languages, <a href="https://www.w3.org/TR/WCAG21/#dfn-status-messages" data-link-type="dfn">status messages</a> can be <a href="https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable" data-link-type="dfn">programmatically determined</a> through <a href="https://www.w3.org/TR/WCAG21/#dfn-role" data-link-type="dfn">role</a> or properties such that they can be presented to the user by <a href="https://www.w3.org/TR/WCAG21/#dfn-assistive-technologies" data-link-type="dfn">assistive technologies</a> without receiving focus.</p>
 </blockquote>
-<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived#accountant">Accountant</a> who is blind and uses a screen reader:</p>
+<p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/archived/#accountant">Accountant</a> who is blind and uses a screen reader:</p>
 <div class="quotes">
   <ul>
     <li><p><span class="issue">Problem:</span><span><q>I selected a class for the conference, but I can't tell if it got added to my  schedule.</q></span></p></li>
@@ -416,7 +415,7 @@ Maximize compatibility with current and future user agents, including assistive 
 
 ## About the Personas Quotes
 
-The linked persona roles go to the [Stories of Web Users](https://www.w3.org/WAI/people-use-web/user-stories/archived). That page has other personas with different disabilities. We might add more in the future.
+The linked persona roles go to the [Stories of Web Users](/people-use-web/user-stories/archived/). That page has other personas with different disabilities. We might add more in the future.
 
 After we’ve reviewed these persona quotes sufficiently, we plan to add
 them to the Understanding documents.
