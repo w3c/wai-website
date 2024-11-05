@@ -21,19 +21,15 @@ const startDate = channels.reduce((latestDate, channelId) => {
   } catch {
     return latestDate;
   }
-  // TODO: replace below when done testing
-}, new Date(2024, 3, 1));
-// }, new Date(1998, 11, 1));
+}, new Date(1998, 11, 1));
 
-// TODO: update when done testing
-const baseUrl = "http://kgf.localhost/WWW/2022/01/minutes/Json.php";
-// const baseUrl = "https://w3.org/2022/01/minutes/Json.php";
-
-const { data } = await axios.get(
-  `${baseUrl}?channel_id=${channels.join(",")}&start_date=${startDate
-    .toISOString()
-    .slice(0, 10)}`
-);
+const baseUrl = "https://w3.org/WAI/minutes-json.php";
+const url = `${baseUrl}?start_date=${startDate
+  .toISOString()
+  .slice(0, 10)}`;
+const rawResponse = await axios.get(url, { responseType: "text" });
+// Strip unicode multi-byte characters, which JSON.parse mis-processes as separate
+const data = JSON.parse(rawResponse.data.replace(/\\u[0-9a-f]{4}/gi, ""));
 
 for (const [groupId, channelIds] of Object.entries(groupedChannels)) {
   const existingMinutes = JSON.parse(
