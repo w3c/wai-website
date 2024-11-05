@@ -1,0 +1,20 @@
+{% comment %}
+Internally referenced by other minutes includes
+
+Inputs:
+- group - group ID (i.e. a top-level key in _data/minutes/groups.json)
+
+TODOs:
+- Include channel names in data (seen in between parens in existing system)
+- Add ability to filter? (Client-side?)
+{% endcomment %}
+
+<details>
+  <summary>Display information about these minutes</summary>
+  <p>Showing minutes for channels:</p>
+  <ul>
+    {% for channel in site.data.minutes.groups[include.group] -%}
+      <li>{{ channel }}</li>
+    {%- endfor %}
+  </ul>
+</details>

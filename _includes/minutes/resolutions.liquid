@@ -1,0 +1,48 @@
+{% comment %}
+IMPORTANT: When including within .md files, surround with {::nomarkdown}...{:/}
+
+Inputs:
+- group - group ID (i.e. a top-level key in _data/minutes/groups.json)
+{% endcomment %}
+
+<p>
+  <a href="../">Minutes</a> |
+  <a href="../topics/">Topics</a> |
+  <a href="./" aria-current="page">Resolutions</a>
+</p>
+
+{% include minutes/meta.liquid group=include.group %}
+
+<p>
+  Resolutions reflect general consensus of participants present in a meeting.
+  They are not formal decisions of the group. Refer to the
+  <a href="/WAI/GL/wiki/Decisions">Decisions</a> page for formal decisions.
+  Context for each resolution is available via its link into the minutes.
+</p>
+
+{%- assign current_year = 0 -%}
+{% for minutes in site.data.minutes[include.group] %}
+  {%- if minutes[1].resolutions.size == 0 %}{% continue %}{% endif -%}
+  {%- capture date %}{{ minutes[0] | truncate: 10, "" }}{% endcapture -%}
+  {%- capture year %}{{ date | truncate: 4, "" }}{% endcapture -%}
+  {%- capture channel %}{{ minutes[0] | replace_first: date, "" | replace_first: "-", "" }}{% endcapture -%}
+  {% if year != current_year %}
+    {%- if current_year != 0 %}</ul></section>{% endif %}
+    {%- assign current_year = year -%}
+    <section id="minutes-{{ current_year }}">
+      <h2>{{ current_year }}</h2>
+      <ul>
+  {% endif %}
+  {% for resolution in minutes[1].resolutions %}
+        <li>
+          {{ date }}:
+          {% if resolution.topic %}{{ resolution.topic }} - {% endif -%}
+          <a href="{{ minutes[1].href }}#{{ resolution.id }}">
+            {{- resolution.content | escape -}}
+          </a>
+        </li>
+  {% endfor %}
+{% endfor %}
+{% if current_year != 0 %}
+      </ul>
+{% endif %}
