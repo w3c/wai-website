@@ -2,7 +2,7 @@
 title: "Translating WAI Resources"
 nav_title: Translating
 lang: en
-last_updated: 2024-09-30
+last_updated: 2024-11-05
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
 permalink: /about/translating/
@@ -25,13 +25,11 @@ footer: |
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-Help make Web Accessibility Initiative (WAI) resources available in your language.
+This page provides general instructions on translating WAI standards and resources.
 
-Join the volunteer translation community to raise awareness of digital accessibility among a global audience. This page provides general instructions on translating WAI standards and resources.
+We welcome your help making Web Accessibility Initiative (WAI) resources available in your language. Join the volunteer translation community to raise awareness of digital accessibility among a global audience.
 
 For a list of existing translations, see [All WAI Translations](/translations/).
-
-To get announcements related to WAI translations, subscribe to the WAI Translations mailing list by sending e-mail to [public-wai-translations-request@w3.org with subject: &ldquo;subscribe&rdquo;](mailto:public-wai-translations-request@w3.org?subject=subscribe)
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -64,7 +62,7 @@ You can contribute to WAI translations in many ways:
 : You can help spot issues in translations before publication, even if you are not technical or do not know the translated language.
 
 [Creating a WCAG Unofficial translation {% include_cached external.html label="Different page format" %}](https://www.w3.org/Consortium/Translation/)
-: You can host an unofficial translation of the Web Content Accessibility Guidelines (WCAG) after following a light process. Unofficial translations are not hosted on W3C website nor endorsed by W3C.
+: You can create an unofficial translation of the Web Content Accessibility Guidelines (WCAG) after following a light process. Unofficial translations are not hosted on W3C website nor endorsed by W3C.
 
 [Creating a WCAG Authorized translation](/about/translating/wcag/)
 : You can develop an Authorized translation of WCAG that will be published on W3C website. It involves a formal process, coordination with stakeholder organizations, and a thorough review.
@@ -73,7 +71,7 @@ We encourage you to keep up on translations work by [subscribing to the WAI Tran
 
 ## Process
 
-All contributions must go through the following main steps before publication. These steps are described in more detail in each policy, and additional steps may be necessary for some documents.
+All contributions must go through the following main steps before publication. These steps are described in more detail in the specific process of each type of translation. Additional steps may also be necessary for some documents.
 
 ### 1. Intent to translate
 
@@ -89,14 +87,14 @@ It involves the following steps:
 - send the code for review: directly by opening a pull request in GitHub, or by sending the file(s) back to WAI staff.
 
 To avoid overlapping work:
-* please do **not** translate files from the Web
+* please do **not** translate files from the Web.
 * follow the guidance to get the right file to translate and to ensure that the resource is ready for you to translate.
 
 ### 3. Review
 
 All translations are reviewed before they are published.
-- WAI resources translations are reviewed by other volunteers and WAI staff. Once reviewed, they are published on W3C WAI website.
-- WCAG Candidate Authorized Translations (CAT) follow a formal review process described in the [Policy for Authorized W3C Translations](https://www.w3.org/2005/02/TranslationPolicy.html). Once reviewed, they are published on W3C website.
+- WAI resources translations are reviewed by other volunteers and WAI staff. Once reviewed, they are published on the W3C WAI website.
+- WCAG Candidate Authorized Translations (CAT) follow a formal review process described in the [Policy for Authorized W3C Translations](https://www.w3.org/2005/02/TranslationPolicy.html). Once reviewed, they are published on the W3C website.
 - WCAG Unofficial translations follow a simpler review process.
 
 ## Additional information
