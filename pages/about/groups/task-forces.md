@@ -74,9 +74,9 @@ Task Forces operate under specific Working Groups.
     researchers, and research opportunities to inform and fill those
     gaps where possible.
 
-**[Spoken Pronunciation Task Force](/about/groups/task-forces/pronunciation/)** under the [APA Working Group](/about/groups/apawg/)
+**[Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/)** under the [APA Working Group](/about/groups/apawg/)
 
-:   The Spoken Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information.
+:   The Spoken Presentation Task Force has been exploring technical options for content authors to provide pronunciation information.
 
 **[WAI-Adapt Task Force](/about/groups/task-forces/adapt/)** under the [APA Working Group](/about/groups/apawg/)
 

@@ -2,8 +2,8 @@
 title: "Easy Checks – A First Review of Web Accessibility"
 permalink: /test-evaluate/preliminary/
 ref: /test-evaluate/preliminary/
-
 lang: en
+last_updated: 2023-08-09
 
 github:
     label: wai-easy-checks

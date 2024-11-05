@@ -4,9 +4,12 @@
 
 title: "Visión general sobre la evaluación de la accesibilidad web"
 nav_title: "Visión general sobre la evaluación"
-
 lang: es
-last_updated: 2021-05-20  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-07  # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-20  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators:
   - name: "Jorge Rumoroso"
@@ -30,7 +33,6 @@ class: tight-page
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
   <p>Nota sobre la descripción de los vídeos: Los vídeos de esta página no incluyen descripción de audio sincronizada porque los visuales sólo ilustran el audio y no proporcionan información adicional. En este caso, la descripción de audio distraería más que sería útil para la mayoría de las personas, incluidas las que no pueden ver los visuales. La descripción de la información visual está integrada en la transcripción del texto con descripción de los visuales (”Transcripción descriptiva”).</p>
-  <p><strong>Fecha:</strong> Actualizado el 7 de mayo de 2021. CHANGELOG.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p> Vídeos desarrollados por el Grupo de Trabajo de Educación y Divulgación (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) con el apoyo del proyecto <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> fundado por la Comisión Europea (EC) bajo el programa Horizonte 2020 (Acuerdo de subvención 822245). <a href="./acknowledgements/">Agradecimientos</a>.</p>
   <p><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a> Los vídeos tienen licencia de <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional Creative Commons</a>.</p>

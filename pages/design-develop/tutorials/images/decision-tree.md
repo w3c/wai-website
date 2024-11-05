@@ -5,7 +5,7 @@
 title: "An alt Decision Tree"
 title_html: "An <code>alt</code> Decision Tree"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-05-13  # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator

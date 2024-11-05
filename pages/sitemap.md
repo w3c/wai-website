@@ -2,13 +2,12 @@
 # Do not translate the Sitemap
 title: WAI Site Map
 lang: en
+last_updated: 2024-08-16
 permalink: /sitemap/
 parent: "/"
 github:
   label: wai-sitemap
 feedbackmail: wai@w3.org
-footer: >
-  <p><strong>Date:</strong> Updated 16 August 2024.</p>
 ---
 
 {::nomarkdown}

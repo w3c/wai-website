@@ -5,7 +5,11 @@
 title: "Transcrire un contenu audio en texte"
 nav_title: "Transcrire un contenu audio en texte"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-11-24   # Keep the date of the English version
+
+translation:
+  last_updated: 2023-10-04  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+
 translators:
   - name: "Sofia Ahmed"
   - name: "Rémi Bétin"
@@ -31,11 +35,11 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 24 novembre 2020. Première publication en septembre 2019. CHANGELOG.</p>
+  <p>Première publication en septembre 2019.</p>
   <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
   <p>Développé par le groupe de travail Éducation et promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 ---

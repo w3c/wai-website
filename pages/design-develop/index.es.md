@@ -5,7 +5,11 @@
 title: "Introducción al diseño y al desarrollo"
 nav_title: "Introducción"
 lang: es
-last_updated: 2019-09-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-09-20  # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2019-09-30  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -22,11 +26,9 @@ feedbackmail: wai@w3.org
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 20 de septiembre del 2019.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

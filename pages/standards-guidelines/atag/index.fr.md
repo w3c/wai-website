@@ -5,7 +5,10 @@
 title: "Règles pour l’accessibilité des outils d’édition (ATAG) – Vue d’ensemble"
 nav_title: "ATAG – Vue d’ensemble"
 lang: fr
-last_updated: 2023-12-07   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-07   # Keep the date of the English version
+
+translation:
+    last_updated: 2023-12-07   # Keep the date of the English version
 
 translators:
   - name: "Sofia Ahmed"

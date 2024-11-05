@@ -4,7 +4,10 @@
 
 title: Omówienie narzędzi oceny
 lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-08-08  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-04-28 # Keep the date of the English version
+
+translation:
+  last_updated: 2024-08-08  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Stefan Wajda" # Add one -name: line for every translator

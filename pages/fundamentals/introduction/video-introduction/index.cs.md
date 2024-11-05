@@ -2,8 +2,11 @@
 title: "Video úvod do webové přístupnosti a W3C standardů"
 nav_title: "Video úvod" # A short title that is used in the navigation
 lang: cs
-last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
- 
+last_updated: 2021-05-04  # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 github:
   label: wai-video-introduction
 
@@ -18,11 +21,10 @@ ref: /videos/standards-and-benefits/   # Do not change this
 changelog: /videos/standards-and-benefits/changelog/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>Datum:</strong> Aktualizováno 4. května 2021. Poprvé zveřejněno 4. prosince 2017. CHANGELOG.</p>
+   <p><strong>Datum:</strong> Aktualizováno 4. května 2021. Poprvé zveřejněno 4. prosince 2017.</p>
    <p>Vedoucí projektu: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Přispěvatelé: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Tvůrce a editor videa: Ulrich Grimm, av-design GmbH. Video klipy vytvořeny za podpory <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, spolu financováno European Commission. Překlady spravovány za podpory <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, financováno Ford Foundation.</p>
  
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

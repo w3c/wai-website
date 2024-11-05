@@ -2,7 +2,11 @@
 title: "Introducción a la formación y al apoyo"
 nav_title: "Introducción"
 lang: es
-last_updated: 2021-05-14
+last_updated: 2021-05-07  # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2021-05-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -14,16 +18,13 @@ github:
 permalink: /teach-advocate/es
 ref: /teach-advocate/    # Do not change this
 
-changelog: /teach-advocate/changelog/
 feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
-# Do not change the dates or CHANGELOG
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 07 de mayo del 2021. CHANGELOG.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

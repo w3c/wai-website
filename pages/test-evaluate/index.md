@@ -5,7 +5,7 @@
 title: "Evaluating Web Accessibility Overview"
 nav_title: "Evaluation Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2023-08-01 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-08-01 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -21,7 +21,6 @@ github:
 permalink: /test-evaluate/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /test-evaluate/  # Do not change this
 
-changelog: /test-evaluate/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 class: tight-page
 
@@ -31,7 +30,6 @@ class: tight-page
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
   <p>Note about video description: The videos on this page do not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 1 August 2023. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Videos developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="./acknowledgements/">Acknowledgements</a>.</p>
   <p><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a> The videos are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>

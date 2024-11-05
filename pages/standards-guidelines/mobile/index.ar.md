@@ -2,7 +2,11 @@
 title: " إمكانية الوصول للأجهزة المحمولة في W3C "
 nav_title: "إمكانية الوصول للأجهزة المحمولة في W3C "
 lang: ar
-last_updated: 2021-05-17	# Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-14	# Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2021-05-17	# Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "محمد الموسوي"
@@ -20,12 +24,11 @@ changelog: /standards-guidelines/mobile/changelog/  # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>التاريخ:</strong> تم النشربشهر مايور 2008. تم التحديث في 14 أكتوبر 2021. CHANGELOG.</p>
+  <p><strong>التاريخ:</strong> تم النشربشهر مايور 2008. تم التحديث في 14 أكتوبر 2021.</p>
   <p><strong>محرر:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. المشارك: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>.</p>
 ---
 

@@ -5,16 +5,23 @@
 title: "Comment les personnes handicapées utilisent le web"
 order: 0
 nav_title: Introduction
-permalink: /people-use-web/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /people-use-web/  # Do not change this
 lang: fr
+last_updated: 2017-05-15  # Keep the date of the English version
 description: Comment les personnes handicapées, y compris pour le cas des handicaps liés à l’âge, utilisent-elles le Web ?
-image: /content-images/people-use-web/social.png
-last_updated: 2018-09-12
+
+translation:
+  last_updated: 2018-09-12
+  status: outdated
+
 translators:
 - name: "Stéphane Deschamps"
 contributors:
 - name: "Christophe Roux"
+
+permalink: /people-use-web/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /people-use-web/  # Do not change this
+
+image: /content-images/people-use-web/social.png
 footer: > # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
   <p><strong>Date&#8239;:</strong> Mis à jour le 15 mai 2017.</p>
   <p><strong>Rédacteur&#8239;:</strong> <a hreflang="en" href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Rédactrice précédente&#8239;: <a hreflang="en" href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a hreflang="en" href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Remerciements</a>.</p>
