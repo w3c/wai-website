@@ -35,7 +35,7 @@ Inputs:
   {% endif %}
   {% for resolution in minutes[1].resolutions %}
         <li>
-          {{ date }}:
+          {{ date | date: "%d %b" }}:
           {% if resolution.topic %}{{ resolution.topic }} - {% endif -%}
           <a href="{{ minutes[1].href }}#{{ resolution.id }}">
             {{- resolution.content | escape -}}
