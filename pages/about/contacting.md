@@ -13,7 +13,7 @@ feedbackmail: wai@w3.org
 class: tight-page
 ---
 
-{::options toc_levels="2" /}
+{::options toc_levels="2,3" /}
 
 {::nomarkdown}
 {% include_cached toc.html type="start" title="Page Contents" %}
