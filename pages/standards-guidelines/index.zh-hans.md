@@ -72,12 +72,12 @@ WCAG 可应用在动态内容、多媒体、“移动端”等，也可以应用
 
 WCAG 2 信息：
 - [WCAG 概述](/standards-guidelines/wcag/)
-- [[WCAG 2.1 概览]](/standards-guidelines/wcag/glance/)
-- [如何满足 WCAG 2（快速参考）](https://www.w3.org/WAI/WCAG21/quickref/)
+- [[WCAG 2 概览]](/standards-guidelines/wcag/glance/)
+- [如何满足 WCAG 2（快速参考）](https://www.w3.org/WAI/WCAG22/quickref/)
 - [[WCAG 2 翻译]](/standards-guidelines/wcag/translations/)
-- [WCAG 2.0 标准](https://www.w3.org/TR/WCAG20/)
+- [WCAG 2.2 标准](https://www.w3.org/TR/WCAG22/)，[[WCAG 2.2 中的更新内容]](/standards-guidelines/wcag/new-in-22/)
 - [WCAG 2.1 标准](https://www.w3.org/TR/WCAG21/)，[[WCAG 2.1 中的更新内容]](/standards-guidelines/wcag/new-in-21/)
-- [[WCAG 2.2 工作组草案中的更新内容]](/standards-guidelines/wcag/new-in-22/)
+- [WCAG 2.0 标准](https://www.w3.org/TR/WCAG20/)
 
 
 ### 创作工具无障碍指南（ATAG） {#atag}
@@ -118,7 +118,7 @@ ARIA 套件包括 <abbr title="application programming interface">API</abbr> 映
 ARIA 信息：
 - [WAI-ARIA 概述](/standards-guidelines/aria/) – 包括[模块和 API 映射的列表和描述](/standards-guidelines/aria/#versions)
 - [WAI-ARIA 创作实践](https://www.w3.org/TR/wai-aria-practices/)
-- [WAI-ARIA 1.1 标准](https://www.w3.org/TR/wai-aria-1.1/)
+- [WAI-ARIA 1.2 标准](https://www.w3.org/TR/wai-aria-1.2/)
 
 ### 音频和视频 {#multimedia}
 
@@ -130,7 +130,7 @@ ARIA 信息：
 
 下面的资源支持可访问性评估方法和工具的开发：
 
-- [[无障碍一致性测试（ACT）概述]](/standards-guidelines/act/) &mdash; ACT 建立并记录规则，用来测试 Web 内容是否与可访问性标准一致。
+- [[无障碍一致性测试（ACT）概述]](/standards-guidelines/act/) &mdash; ACT 建立并记录规则，用来测试 Web 内容是否与可访问性标准一致。[WCAG 2 测试规则](/standards-guidelines/act/rules/about) 使用ACF规则格式。
 
 - [[评估和报告语言（EARL）概述]](/standards-guidelines/earl/) &mdash; EARL 是一种机器可读的格式，用来表达测试结果。
 
