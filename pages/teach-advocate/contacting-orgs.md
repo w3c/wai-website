@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 title: Contacting Organizations about Inaccessible Websites
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2024-04-19    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-04-19    # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator

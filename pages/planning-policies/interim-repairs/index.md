@@ -6,7 +6,8 @@ title: "Web Accessibility First Aid: Approaches for Interim Repairs"
 title_html: "Web Accessibility First Aid:<br> Approaches for Interim Repairs"
 nav_title: Approaches for Interim Repairs
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2020-02-20   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09   # Keep the date of the English version
+first_published: "March 2006"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -29,7 +30,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:", "Editor:" and "Previous contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 9 January 2019. First published March 2006.<br>History: Previously titled "Short Term Website Accessibility Improvements" and "Improving the Accessibility of Your Website".</p>
+  <p>History: Previously titled "Short Term Website Accessibility Improvements" and "Improving the Accessibility of Your Website".</p>
   <p><strong>Editor: </strong><a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Previous editors: <a href="https://www.w3.org/People/kevin">Kevin White</a> and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.  Previous contributors: Sharron Rush, Anna Belle Leiserson, Judy Brewer, and <a href="https://www.w3.org/groups/wg/eowg/participants/">EOWG Participants</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). First developed with support from <a href="https://www.w3.org/WAI/TIES/"><abbr title="Web Accessibility Initiative: Training, Implementation, Education, Support">WAI-TIES</abbr> Project</a>, then updated with support of the <a href="https://www.w3.org/WAI/ACT/"><abbr title="Web Accessibility Initiative - Cooperation Framework for Guidance on Advanced Technologies, Evaluation Methodologies, and Research Agenda Setting to Support eAccessibility">WAI-ACT</abbr> Project</a>, and later the <a href="https://www.w3.org/WAI/DEV/"><abbr>WAI-DEV</abbr> Project</a>.</p>
 ---

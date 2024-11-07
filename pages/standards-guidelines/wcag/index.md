@@ -5,7 +5,8 @@
 title: "WCAG 2 Overview"
 nav_title: "Web Content – WCAG 2"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07  # Keep the date of the English version
+first_published: "July 2005"
 description: Introduces the Web Content Accessibility Guidelines (WCAG) international standard, including WCAG 2.0, WCAG 2.1, and WCAG 2.2. WCAG documents explain how to make web content more accessible to people with disabilities.
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -30,7 +31,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 7 March 2024. First published July 2005.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---

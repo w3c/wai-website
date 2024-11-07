@@ -6,7 +6,11 @@ title: "Mengembangkan untuk Aksesibilitas Web – Kiat Memulai"
 title_html: "Mengembangkan untuk Aksesibilitas Web"
 nav_title: "Kiat Pengembangan"
 lang: id  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 resource:
   ref: /tips/
@@ -30,6 +34,7 @@ ref: /tips/developing/  # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#developing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:

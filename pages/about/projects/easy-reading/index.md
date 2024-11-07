@@ -4,7 +4,7 @@
 title: "Easy Reading"   # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Easy Reading" # A short title that is used in the navigation
 lang: en   # Change "en" to the translated language shortcode
-last_updated: 2019-09-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-09-09   # Keep the date of the English version
 permalink: /about/projects/easy-reading/   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /about/projects/easy-reading/   # Do not change this
 feedbackmail: wai@w3.org

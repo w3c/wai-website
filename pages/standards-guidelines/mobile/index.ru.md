@@ -5,7 +5,11 @@
 title: "Решения консорциума W3C по обеспечению доступности на мобильных устройствах"
 nav_title: "Решения консорциума W3C по обеспечению доступности на мобильных устройствах"
 lang: ru
-last_updated: 2021-05-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-14    # Keep the date of the English version
+
+translation:
+    status: outdated
+    last_updated: 2021-05-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Elena Varkvasova"
@@ -23,12 +27,11 @@ changelog: /standards-guidelines/mobile/changelog/  # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Дата:</strong> Обновлено 14 мая 2021 года. Первая публикация: январь 2008 года. CHANGELOG.</p>
+  <p><strong>Дата:</strong> Обновлено 14 мая 2021 года. Первая публикация: январь 2008 года.</p>
   <p><strong>Под редакцией:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. При участии: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>.</p>
 ---
 

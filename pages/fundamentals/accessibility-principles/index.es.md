@@ -5,9 +5,13 @@
 title: Principios de accesibilidad
 nav_title: "Principios de accesibilidad"
 lang: es
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-05-10   # Keep the date of the English version
 description: Una visión general de los requisitos fundamentales de accesibilidad para sitios web, aplicaciones web, navegadores y otras herramientas.
 teaser_text: La página de Principios de Accesibilidad introduce algunos de los requisitos de accesibilidad web para sitios web, aplicaciones web, navegadores y otras herramientas, facilitando referencias a estándares internacionales de la Iniciativa de Accesibilidad Web del W3C (WAI) y a historias de usuarios web.
+
+translation:
+  last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators:
 - name: "Jorge Rumoroso"
@@ -26,11 +30,9 @@ changelog: /fundamentals/accessibility-principles/changelog/   # Do not change t
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado 10 Mayo 2019. CHANGELOG</p>
   <p><strong>Editores:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Agradecimientos</a>.</p>
   <p>Desarrollado por el Grupo de Trabajo de Educación y Divulgación (<a href="https//www.w3.org/WAI/EO/">EOWG</a>). Previamente desarrollado con la <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, con el apoyo del <a href="https://www.w3.org/WAI/WAI-AGE/">Proyecto WAI-AGE </a>.</p>
 ---

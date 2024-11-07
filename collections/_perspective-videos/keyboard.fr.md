@@ -5,17 +5,21 @@
 title: "Compatibilité avec le clavier"
 nav_title: "Compatibilité avec le clavier"
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15    # Keep the date of the English version
 order: 1
 
+translation:
+  status: outdated
+  last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 translators:
-    - name: "Sofia Ahmed"
-    - name: "Rémi Bétin"
+  - name: "Sofia Ahmed"
+  - name: "Rémi Bétin"
 contributors:
-    - name: "Sandra Velarde Gonzalez (ETNIC)"
+  - name: "Sandra Velarde Gonzalez (ETNIC)"
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/keyboard/fr  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/keyboard/  # Do not change this
@@ -23,6 +27,7 @@ ref: /perspective-videos/keyboard/  # Do not change this
 resource:
     ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Courte vidéo à propos de la compatibilité du clavier pour l’accessibilité Web - de quoi s’agit-il, qui en bénéficie, et comment mettre cela en pratique.
@@ -35,8 +40,7 @@ teaser_text: Toutes les fonctionnalités doivent être faciles d’utilisation a
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Statut :</strong> Mise à jour 23 janvier 2019.<br>
-    <strong>Rédacteur et chef de projet :</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne (CE). Mis à jour avec le soutien de la Fondation Ford. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Rédacteur et chef de projet :</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne (CE). Mis à jour avec le soutien de la Fondation Ford. ACKNOWLEDGEMENTS.</p>
 ---
 
 L’accessibilité Web est essentielle pour les personnes en situation de handicap et utile à tous. Découvrez les effets de l’accessibilité et les bénéfices pour tous dans diverses situations.

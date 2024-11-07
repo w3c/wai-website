@@ -5,8 +5,11 @@
 title: "Notifications et retours d’information"
 nav_title: "Notifications et retours d’information"
 lang: fr
-last_updated: 2023-10-16    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-23    # Keep the date of the English version
 order: 10
+
+translation:
+  last_updated: 2023-10-16    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Sofia Ahmed"
@@ -15,14 +18,15 @@ contributors:
 - name: "Sandra Velarde Gonzalez (ETNIC)"
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/notifications/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/notifications/ # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Courte vidéo à propos des notifications et du feedback de vidéos pour l’accessibilité Web - de quoi s’agit-il, qui en bénéficie, et comment mettre cela en pratique.
@@ -34,7 +38,6 @@ image: /content-images/perspective-videos/notifications.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Statut :</strong> Mise à jour : 23 janvier 2019.<br>
     <strong>Rédacteur et chef du projet :</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Développé par l’ <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne (CE). Mis à jour avec le soutien de la Fondation Ford. ACKNOWLEDGEMENTS.</p>
 ---
 

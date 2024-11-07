@@ -15,7 +15,6 @@ image: /content-images/about/social-translations.png
 feedbackmail: group-wai-translations@w3.org
 
 footer: |
-  <p><strong>Date:</strong> Updated 13 August 2024.</p>
   <p><strong>Editors:</strong> Rémi Bétin and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
