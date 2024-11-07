@@ -37,16 +37,16 @@ For other W3C press inquiries, see [How to contact W3C, Press](/Consortium/Conta
 ### WAI website
 
 Many questions are addressed in documents on the WAI website.
-* A good starting place to find relevant resources is the [Accessibility Fundamentals Overview listing page](/WAI/fundamentals/) and [Introduction to Web Accessibility](/WAI/fundamentals/accessibility-intro/).
-* For information on Web Content Accessibility Guidelines (WCAG), see the [WCAG 2 Overview](/WAI/standards-guidelines/wcag/).
-* **For an annotated list of all WAI educational and technical support documents** covering a wide range of topics for content authors, designers, developers, evaluators, testers, managers, policy makers, trainers, educators, web users, advocates, and people with disabilities, see **[[WAI Resources]](/WAI/resources/)**.
+* A good starting place to find relevant resources is the [Accessibility Fundamentals Overview listing page](/fundamentals/) and [Introduction to Web Accessibility](/fundamentals/accessibility-intro/).
+* For information on Web Content Accessibility Guidelines (WCAG), see the [WCAG 2 Overview](/standards-guidelines/wcag/).
+* **For an annotated list of all WAI educational and technical support documents** covering a wide range of topics for content authors, designers, developers, evaluators, testers, managers, policy makers, trainers, educators, web users, advocates, and people with disabilities, see **[[WAI Resources]](/resources/)**.
 
 ### Mailing list for questions
 
 WAI hosts a WAI Interest Group (IG) mailing list for discussion of digital accessibility issues. The list is open for anyone to read, submit, and respond. If you have a question that might be relevant to the WAI IG list, you can:
 
 -   Search the [WAI IG mailing list archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/) to see the topic has already been addressed sufficiently
--   Read the [Mailing Lists](/WAI/about/groups/waiig/#mailinglist) section of the WAI IG page for guidance on contributing to a comfortable, constructive exchange of ideas; <br>then [Subscribe to the Discussion List](/WAI/about/groups/waiig/#subscribing-and-unsubscribing-to-the-discussion-list) and post appropriate questions
+-   Read the [Mailing Lists](/about/groups/waiig/#mailinglist) section of the WAI IG page for guidance on contributing to a comfortable, constructive exchange of ideas; <br>then [Subscribe to the Discussion List](/about/groups/waiig/#subscribing-and-unsubscribing-to-the-discussion-list) and post appropriate questions
 
 ## Feedback on specific documents
 
@@ -59,7 +59,7 @@ If you cannot determine where to send comments on a specific document, send a em
 
 ## Feedback on the WAI website design
 
-You can submit comments on the overall WAI Web site (www.w3.org/WAI/) either to a W3C WAI staff list or to a public list:
+You can submit comments on the overall WAI Web site (www.w3.org/) either to a W3C WAI staff list or to a public list:
 -   <team-site-design@w3.org> (for WAI staff, not public)
 -   <wai-site-comments@w3.org> (can be seen by the public)
 
@@ -73,4 +73,4 @@ You can submit comments on the overall WAI Web site (www.w3.org/WAI/) either to 
 
 If you don't know who to contact, or to reach all WAI staff, you can email <wai@w3.org>.
 
-Note that we generally are not able to answer specific support questions. Please send those questions to the [WAI IG mailing list, per above](/WAI/about/contacting/#mailing-list-for-questions).
+Note that we generally are not able to answer specific support questions. Please send those questions to the [WAI IG mailing list, per above](/about/contacting/#mailing-list-for-questions).
