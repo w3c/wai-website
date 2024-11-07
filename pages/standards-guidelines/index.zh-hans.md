@@ -4,11 +4,7 @@
 title: W3C 可访问性标准概述  # Do not translate "title:". Do translate the text after "title:".
 nav_title: "标准/指南" # A short title that is used in the navigation
 lang: zh-hans
-last_updated: 2024-02-29  # Keep the date of the English version
-
-translation:
-  status: updated
-  last_updated: 2024-11-01   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-11-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "安佳"
