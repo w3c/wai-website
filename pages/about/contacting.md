@@ -54,7 +54,7 @@ To submit comments on a specific document:
 -   Most WAI web pages have near the bottom a 'Help improve this page' box with links to submit issues or change requests through GitHub, or by email.
 -   For W3C guidelines, Notes, and Working Drafts that are under <code>www.w3.org/TR</code>, see 'Status of This Document' section for the email address and/or GitHub repository to send comments.
 
-If you cannot determine where to send comments on a specific document, send an email with the document name in the subject line to: <wai@w3.org> and we will forward your message to the appropriate place. Please include permission to send your email to a publicly-archived email list.
+If you cannot determine where to send comments on a specific document, send a email to <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.">wai@w3.org</a> with the document name in the subject line and the permission to send your email to a publicly-archived email list. We will forward your message to the appropriate place.
 
 ### Feedback on the WAI Website Design
 
