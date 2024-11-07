@@ -1,0 +1,29 @@
+name: Update minutes data files
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-20.04
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+      - name: Install Node.js and dependencies
+        uses: actions/setup-node@v4
+        with:
+          cache: npm
+      - name: Update
+        run: |
+          npm i
+          npm run update-minutes
+      - name: Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update minutes data (automated)
+          file_pattern: '_data/minutes/*.json'
