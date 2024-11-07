@@ -26,7 +26,7 @@ class: tight-page
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Press Inquiries
+## Press inquiries
 
 For press inquiries regarding accessibility or the Web Accessibility Initiative (WAI), please send email to [shawn@w3.org, w3t-pr@w3.org, wai@w3.org](mailto:shawn@w3.org,w3t-pr@w3.org,wai@w3.org?subject=press%20request-accessibility)
 
@@ -47,7 +47,7 @@ WAI hosts a WAI Interest Group (IG) mailing list for discussion of digital acces
 -   Search the [WAI IG mailing list archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/) to see the topic has already been addressed sufficiently
 -   Read the [Mailing Lists](/WAI/about/groups/waiig/#mailinglist) section of the WAI IG page for guidance on contributing to a comfortable, constructive exchange of ideas; <br>then [Subscribe to the Discussion List](/WAI/about/groups/waiig/#subscribing-and-unsubscribing-to-the-discussion-list) and post appropriate questions
 
-## Feedback on Specific Documents
+## Feedback on specific documents
 
 To submit comments on a specific document:
 
@@ -56,14 +56,14 @@ To submit comments on a specific document:
 
 If you cannot determine where to send comments on a specific document, send a email to <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.">wai@w3.org</a> with the document name in the subject line and the permission to send your email to a publicly-archived email list. We will forward your message to the appropriate place.
 
-## Feedback on the WAI Website Design
+## Feedback on the WAI website design
 
 You can submit comments on the overall WAI Web site (www.w3.org/WAI/) either to a W3C WAI staff list or to a public list:
 
 -   <team-site-design@w3.org> (for WAI staff, not public)
 -   <wai-site-comments@w3.org> (can be seen by the public)
 
-## WAI Staff
+## WAI staff
 * [Shawn Lawton Henry](https://www.w3.org/staff/#shawn) is Web Accessibility Initiative (WAI) Program Lead; Accessibility Education and Communications Lead.
 * [Kevin White](https://www.w3.org/staff/#kevin) is Accessibility Technical Lead and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
 * [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/#ran) supports accessibility Working Groups and accessibility in China.
