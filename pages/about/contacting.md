@@ -56,7 +56,7 @@ To submit comments on a specific document:
 
 If you cannot determine where to send comments on a specific document, send a email to <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.">wai@w3.org</a> with the document name in the subject line and the permission to send your email to a publicly-archived email list. We will forward your message to the appropriate place.
 
-### Feedback on the WAI Website Design
+## Feedback on the WAI Website Design
 
 You can submit comments on the overall WAI Web site (www.w3.org/WAI/) either to a W3C WAI staff list or to a public list:
 
@@ -71,4 +71,6 @@ You can submit comments on the overall WAI Web site (www.w3.org/WAI/) either to 
 * [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) develops the new technical architecture for WCAG 2, WCAG 3, and the WAI website.
 * [Tamsin Ewing](https://www.w3.org/staff/#tamsin) supports accessibility communications, educational resources, and Working Group deliverables.
 
-If you don't know who to contact, or to reach all WAI staff, you can email <wai@w3.org>. Note that we generally are not able to answer specific support questions. Please send those to the [WAI IG mailing list, per above](https://www.w3.org/WAI/about/contacting/#Mailing-list-for-questions).
+If you don't know who to contact, or to reach all WAI staff, you can email <wai@w3.org>.
+
+Note that we generally are not able to answer specific support questions. Please send those questions to the [WAI IG mailing list, per above](https://www.w3.org/WAI/about/contacting/#Mailing-list-for-questions).
