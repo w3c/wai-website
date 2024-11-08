@@ -73,4 +73,4 @@ You can submit comments on the overall WAI website (www.w3.org/) either to a W3C
 
 If you don't know who to contact or you want to reach all WAI staff, you can email <wai@w3.org>.
 
-Note that WAI is not resourced to answer specific support questions. We will usually direct those to the [WAI IG mailing list, per above](/about/contacting/#mailing-list-for-questions).
+Note that WAI is not resourced to answer specific support questions. We will usually direct those to the [WAI IG mailing list, per above](/about/contacting/#mailing-list-for-accessibility-questions).
