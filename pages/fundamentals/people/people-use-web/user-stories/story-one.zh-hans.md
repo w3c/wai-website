@@ -180,40 +180,40 @@ Ade 已经开始使用语音控制软件，这可以帮助他避免使用操纵�
 ## 障碍示例
 
 聚焦样式障碍
-: **障碍:** "When I tab through links and form fields there is no visual styling to show me which element I am on."
-: **效果良好:** "There is clear and strong visual styling for links and form fields when they receive focus."
+: **障碍:** "当我在链接和表单字段中切换时，没有可视化样式来提醒我在哪个元素上。"
+: **效果良好:** "当链接和表单字段受到聚焦时，会有清晰而强烈的视觉样式。"
 
-Process time outs barrier
-: **障碍:** "I usually take much longer to complete long forms or processes and often get timed out."
-: **效果良好:** "At the start of a long form or process, I am told that there is a time out and given the option to set it to be slightly longer."
+处理超时障碍
+: **障碍:** "我通常需要更长的时间才能完成长表格或流程，而且经常会超时。"
+: **效果良好:** "在一个长表格或流程开始时，我会被告知有一个超时时间，并可以选择将其设置得稍长一些。"
 
-Saving progress barrier
-: **障碍:** "Completing long forms with no way to save progress and take a break can be tiring."
-: **效果良好:** "I have an option to save progress and take a break when completing long, multi-step forms like when I have to get a code in email or text and type it in."
+保存进度障碍
+: **障碍:** "在无法保存进度和休息的情况下完成冗长的表格会很累。"
+: **效果良好:** "我有一个保存进度的选项，在完成长的、多步骤的表单时可以休息一下，比如当我必须从电子邮件或文本中获取代码并输入时。"
 
-Popup windows barrier
-: **障碍:** "When a window opens and I can't close it using only the keyboard it can be difficult."
-: **效果良好:** "New windows have a close icon that I can access using the keyboard and some include the option to press the escape key to close them."
+弹出窗口障碍
+: **障碍:** "当一个窗口打开时，我无法只用键盘关闭它，这可能会很困难。"
+: **效果良好:** "新窗口有一个关闭图标，我可以用键盘访问，有些窗口还提供了按 Escape 键关闭的选项。"
 
-## Assistive technologies and adaptive strategies used
+## 使用的辅助技术和适应策略
 
 * [Accelerators (Input)](/people-use-web/tools-techniques/input/#accelerators)
-* [Alternative keyboard and mouse (Input)](/people-use-web/tools-techniques/input/#input)
-* [Speech recognition (Input)](/people-use-web/tools-techniques/input/#speech)
-* [Word prediction (Input)](/people-use-web/tools-techniques/input/#prediction)
-* [Keyboard navigation (Interaction)](/people-use-web/tools-techniques/navigation/#keyboard)
-* [Skip links (Interation)](/people-use-web/tools-techniques/navigation/#skip)
+* [替代键盘和鼠标（输入）](/people-use-web/tools-techniques/input/#input)
+* [语音识别（输入）](/people-use-web/tools-techniques/input/#speech)
+* [词语预测（输入）](/people-use-web/tools-techniques/input/#prediction)
+* [键盘导航（交互）](/people-use-web/tools-techniques/navigation/#keyboard)
+* [跳过链接（交互）](/people-use-web/tools-techniques/navigation/#skip)
 
-## Related WAI resources
+## 相关 WAI 资源
 
-* Video: [Speech Recognition](/perspective-videos/voice/)
-* Tip: [Use headings to convey meaning and structure](/tips/writing/#use-headings-to-convey-meaning-and-structure)
-* Tip: [Make link text meaningful](/tips/writing/#make-link-text-meaningful)
-* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Associate a label with every form control](/tips/developing/#associate-a-label-with-every-form-control)
-* Tip: [Ensure that all interactive elements are keyboard accessible](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
-* Check: [Keyboard access and visual focus](/test-evaluate/preliminary/#interaction)
-* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* 视频: [语音识别](/perspective-videos/voice/)
+* 小贴士: [使用标题表达含义和结构](/tips/writing/#use-headings-to-convey-meaning-and-structure)
+* 小贴士: [使链接文本具有意义](/tips/writing/#make-link-text-meaningful)
+* 小贴士: [确保交互元素易于识别](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* 小贴士: [为每个表单控件关联一个标签](/tips/developing/#associate-a-label-with-every-form-control)
+* 小贴士: [确保所有交互元素都可通过键盘访问](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
+* 检查: [键盘操作和视觉聚焦](/test-evaluate/preliminary/#interaction)
+* 检查: [表格、标签和错误](/test-evaluate/preliminary/#forms)
 
 ## Related principles
 
@@ -228,7 +228,7 @@ Popup windows barrier
 
 {% include excol.html type="start" id="video-transcript" %}
 
-##  Video: Ade, reporter with limited use of his arms {#accessible-video}
+##  视频: Ade，双臂功能受限的记者 {#accessible-video}
 
 {% include excol.html type="middle" %}
 
@@ -238,7 +238,7 @@ Popup windows barrier
   yt-id="Z5dMdJzUy7w"
 %}
 
-_This video is also available on a W3C server: [Video: Ade, reporter with limited use of his arms (file format: MP4, file size: 162MB)](https://media.w3.org/wai/people-use-web/user-stories_1.mp4)._
+_当前视频也可以在 W3C 服务器上找到: [视频: Ade，双臂功能受限的记者 (文件格式: MP4, 文件大小: 162MB)](https://media.w3.org/wai/people-use-web/user-stories_1.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 
