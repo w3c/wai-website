@@ -28,7 +28,7 @@ resource:
 changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
-description: 关于键盘兼容性的网络无障碍短视频 - 它是什么, 谁依赖它, 以及谁需要它工作。
+description: 关于键盘兼容性的网络无障碍短视频 - 它是什么，谁依赖它，以及如何实现。
 image: /content-images/perspective-videos/keyboard.jpg
 teaser_text: 所用功能都必须可通过使用键盘。 也就是说，用户可以使用Tab键和其他按键访问链接，按钮，表单和其他控件。网站不应使用鼠标。键盘无障碍对残疾人士至关重要，在各种情况下对每个人都有益处。
 
