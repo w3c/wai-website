@@ -8,9 +8,6 @@ lang: zh-hans    # Change "en" to the translated-language shortcode
 last_updated: 2024-07-15    # Keep the date of the English version
 order: 1
 
-translation:
-  last_updated: 2024-11-10  # Put the date of this translation YYYY-MM-DD (with month in the middle)
- # Keep the date of the English version
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "JinKai"   # Replace Jan Doe with translator name
