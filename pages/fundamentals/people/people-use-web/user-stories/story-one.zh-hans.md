@@ -43,7 +43,7 @@ footer: >
   <p>关于视频说明的注意事项： 本页面上的视频不包含同步语音描述，因为视觉效果只能说明音频，而不能提供其他信息。在这种情况下，音频描述对大多数人（包括无法看到视觉效果的人）来说，与其说是有用的，不如说是分散注意力的。视觉信息的描述可在带视觉描述的文本（“描述性誊本”）中找到。</p>
   <p><strong>更新日期:</strong> 2024年6月25日。初稿发布于1999年。<!-- CHANGELOG.--></p>
   <p><strong>编辑:</strong> Kevin White 和 Shadi Abou-Zahra。 以往编辑: Judy Brewer 和 Norah Sinclair. 贡献者: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, 和 ACKNOWLEDGEMENTS 中所列出的其他人员。</p>
-  <p>在欧盟委员会 （EC）共同资助的 <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide 项目</a> 和 <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE 项目</a> 的支持下，由教育及外联工作组 (<a href="https//www.w3.org/WAI/EO/">EOWG</a>) 开发。</p>
+  <p>在欧盟委员会（EC）共同资助的 <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide 项目</a> 和 <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE 项目</a> 的支持下，由教育及外联工作组 (<a href="https//www.w3.org/WAI/EO/">EOWG</a>) 开发。</p>
 ---
 
 {::nomarkdown}
@@ -197,7 +197,7 @@ Ade 已经开始使用语音控制软件，这可以帮助他避免使用操纵�
 
 ## 使用的辅助技术和适应策略
 
-* [Accelerators (Input)](/people-use-web/tools-techniques/input/#accelerators)
+* [加速器 (输入)](/people-use-web/tools-techniques/input/#accelerators)
 * [替代键盘和鼠标（输入）](/people-use-web/tools-techniques/input/#input)
 * [语音识别（输入）](/people-use-web/tools-techniques/input/#speech)
 * [词语预测（输入）](/people-use-web/tools-techniques/input/#prediction)
@@ -215,7 +215,7 @@ Ade 已经开始使用语音控制软件，这可以帮助他避免使用操纵�
 * 检查: [键盘操作和视觉聚焦](/test-evaluate/preliminary/#interaction)
 * 检查: [表格、标签和错误](/test-evaluate/preliminary/#forms)
 
-## Related principles
+## 相关准则
 
 * [非文本内容的文本替代方案（可感知）](/fundamentals/accessibility-principles/#alternatives)
 * [内容可通过不同方式呈现（可感知）](/fundamentals/accessibility-principles/#adaptable)
@@ -250,8 +250,8 @@ _当前视频也可以在 W3C 服务器上找到: [视频: Ade，双臂功能受
 | 遗憾的是，许多网站和应用程序都无法很好地与我的键盘配合使用。经常会出现焦点不清晰或跳转完全不按顺序的情况。 | 该男子使用 Tab 键完成表格的各个部分。 |
 | 有时这样做并不奏效，因为有些网站和应用程序在横向时显示不好，我就是这样设置我的平板电脑的，这样按钮就足够大，方便我点击。 | 该男子坐着使用横向平板电脑。他试图查看的网页无法旋转为横向。|
 | 虽然我可以使用键盘和操纵杆，但不能长时间使用，因为很累。因此，我最近也开始使用语音控制软件。它可以让我用口述来代替打字，用说出某些命令来代替点击。这么多年过去了，要学习一种新的工作方式真的很难，但我一直很有耐心，慢慢就习惯了。最困难的是没有标签的按钮--不知道哪条语音命令可以激活它们。 | 这名男子正坐在办公桌前。他正在用笔记本电脑写电子邮件。 |
-| 您可以帮助让无障碍对我更友好。无障碍： 这与人有关。 | 该男子直接对着镜头说话。 |
-| 有关 Web 无障碍倡议组织提供的有关残疾人如何使用数字技术的更多信息，请访问 w3.org/WAI/people | 无障碍：这与人有关。 w3.org/WAI/people |
+| 您可以帮助让无障碍对我更友好。Web 无障碍：以人文本。 | 该男子直接对着镜头说话。 |
+| 有关 Web 无障碍倡议组织提供的有关残疾人如何使用数字技术的更多信息，请访问 w3.org/WAI/people | Web 无障碍：以人为本。 w3.org/WAI/people |
 
 
 {% include excol.html type="end" %}
