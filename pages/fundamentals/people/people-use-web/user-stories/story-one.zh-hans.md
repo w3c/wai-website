@@ -5,7 +5,7 @@
 title: "Ade，双臂功能受限的记者"
 nav_title: "Ade"
 lang: zh-hans   # Change "en" to the translated-language shortcode
-last_updated: 2024-11-04  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-11-12  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -43,7 +43,7 @@ footer: >
   <p>关于视频说明的注意事项： 本页面上的视频不包含同步语音描述，因为视觉效果只能说明音频，而不能提供其他信息。在这种情况下，音频描述对大多数人（包括无法看到视觉效果的人）来说，与其说是有用的，不如说是分散注意力的。视觉信息的描述可在带视觉描述的文本（“描述性誊本”）中找到。</p>
   <p><strong>更新日期:</strong> 2024年6月25日。初稿发布于1999年。<!-- CHANGELOG.--></p>
   <p><strong>编辑:</strong> Kevin White 和 Shadi Abou-Zahra。 以往编辑: Judy Brewer 和 Norah Sinclair. 贡献者: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, 和 ACKNOWLEDGEMENTS 中所列出的其他人员。</p>
-  <p>由教育及外展工作组 (<a href="https//www.w3.org/WAI/EO/">EOWG</a>) 开发。with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>在欧盟委员会 （EC）共同资助的 <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide 项目</a> 和 <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE 项目</a> 的支持下，由教育及外联工作组 (<a href="https//www.w3.org/WAI/EO/">EOWG</a>) 开发。</p>
 ---
 
 {::nomarkdown}
@@ -125,7 +125,7 @@ Ade 是一名双臂功能受限的记者。
    video-url="//media.w3.org/wai/people-use-web/user-stories_1.mp4"
    captions="wai-videos/people-use-web/user-stories_1.en.vtt|en"
    accessible-version="#accessible-video"
-   accessible-version-label="Video: Ade, reporter with limited use of his arms"
+   accessible-version-label="视频: Ade，双臂功能受限的记者"
    poster="content-images/people-use-web/user-stories/ade-video-frame.png"
 %}
 
@@ -217,14 +217,14 @@ Ade 已经开始使用语音控制软件，这可以帮助他避免使用操纵�
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
-* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
-* [Functionality is available from a keyboard (Operable)](/fundamentals/accessibility-principles/#keyboard)
-* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
-* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
-* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
+* [非文本内容的文本替代方案（可感知）](/fundamentals/accessibility-principles/#alternatives)
+* [内容可通过不同方式呈现（可感知）](/fundamentals/accessibility-principles/#adaptable)
+* [可通过键盘实现功能（可操作）](/fundamentals/accessibility-principles/#keyboard)
+* [用户有足够的时间阅读和使用内容（可操作）](/fundamentals/accessibility-principles/#time)
+* [用户可以轻松导航、查找内容并确定自己的位置（可操作）](/fundamentals/accessibility-principles/#navigable)
+* [内容以可预测的方式出现和运行（易于理解）](/fundamentals/accessibility-principles/#predictable)
+* [帮助用户避免和纠正错误（易于理解）](/fundamentals/accessibility-principles/#tolerant)
+* [内容与当前和未来的用户工具兼容（稳健性）](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -240,18 +240,18 @@ Ade 已经开始使用语音控制软件，这可以帮助他避免使用操纵�
 
 _当前视频也可以在 W3C 服务器上找到: [视频: Ade，双臂功能受限的记者 (文件格式: MP4, 文件大小: 162MB)](https://media.w3.org/wai/people-use-web/user-stories_1.mp4)._
 
-###  Text Transcript with Description of Visuals {#transcript}
+###  附有视觉描述的文本记录 {#transcript}
 
-| Audio | Visual |
+| 音频 | 视觉 |
 | --- | --- |
-| How people with disabilities use digital technology; Ade, reporter with limited use of his arms. | How people with disabilities use the digital technology; Ade, reporter with limited use of his arms. |
-| Hello! I’m Ade. I’m quadriplegic, which means I have limited movement in my arms as well as in my legs. | A man in a wheelchair speaks directly to the camera. |
-| The technology I use is really important to me. I use a lot of keyboard shortcuts, especially for the programs that I use often. For example, scrolling a page is much easier with the arrow keys on the keyboard than by clicking on that button in the scroll bar. | The man is sitting at a desk using a laptop. He uses the arrow keys to scroll up and down a web page. |
-| Unfortunately, many websites and apps don’t work well with my keyboard. Often what has focus isn’t clear or jumps around completely out of order. | The man uses the Tab key to complete sections of a form. |
-| Sometimes that doesn’t work well because some websites and apps don’t work in landscape orientation, which is how I setup my tablet so that the buttons are big enough for me to click. | The man is sitting and using his tablet in landscape orientation. The web page he is trying to view does not rotate to a landscape orientation. |
-| While I can use a keyboard and joystick, I can’t use them for long periods because it’s tiring. So, I recently started using speech control software as well. It allows me to dictate text instead of typing, and to say certain commands instead of clicking. It’s really hard to learn a new way of working after so many years, but I’ve been patient with it and I’m slowly getting used to it. The most difficult thing is buttons without labels – it’s not clear which voice command would activate them. | The man is sitting at a desk. He is talking to his laptop to write an email. |
-| You can help make technology accessible to me. Accessibility: It’s about people. | The man speaks directly to the camera. |
-| For more information from the Web Accessibility Initiative on how people with disabilities use digital technology, visit w3.org/WAI/people | Accessibility: It's about people; w3.org/WAI/people |
+| 残疾人如何使用数字技术；Ade，双臂功能受限的记者。 | 残疾人如何使用数字技术；Ade，双臂功能受限的记者。 |
+| 你好，我叫Ade。我四肢瘫痪，这意味着我的双臂和双腿活动受限。 | 一位坐在轮椅上的男子直接对着镜头讲话。 |
+| 我使用的技术对我来说非常重要。我使用大量的键盘快捷键，尤其是我经常使用的程序。例如，用键盘上的方向键滚动页面比点击滚动条上的按钮要容易得多。 | 这名男子坐在办公桌前使用笔记本电脑。他使用箭头键上下滚动网页。 |
+| 遗憾的是，许多网站和应用程序都无法很好地与我的键盘配合使用。经常会出现焦点不清晰或跳转完全不按顺序的情况。 | 该男子使用 Tab 键完成表格的各个部分。 |
+| 有时这样做并不奏效，因为有些网站和应用程序在横向时显示不好，我就是这样设置我的平板电脑的，这样按钮就足够大，方便我点击。 | 该男子坐着使用横向平板电脑。他试图查看的网页无法旋转为横向。|
+| 虽然我可以使用键盘和操纵杆，但不能长时间使用，因为很累。因此，我最近也开始使用语音控制软件。它可以让我用口述来代替打字，用说出某些命令来代替点击。这么多年过去了，要学习一种新的工作方式真的很难，但我一直很有耐心，慢慢就习惯了。最困难的是没有标签的按钮--不知道哪条语音命令可以激活它们。 | 这名男子正坐在办公桌前。他正在用笔记本电脑写电子邮件。 |
+| 您可以帮助让无障碍对我更友好。无障碍： 这与人有关。 | 该男子直接对着镜头说话。 |
+| 有关 Web 无障碍倡议组织提供的有关残疾人如何使用数字技术的更多信息，请访问 w3.org/WAI/people | 无障碍：这与人有关。 w3.org/WAI/people |
 
 
 {% include excol.html type="end" %}
