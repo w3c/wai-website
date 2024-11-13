@@ -2,6 +2,7 @@
   "gl": ["ag", "wai-wcag"],
   "coga": ["coga"],
   "conformance-testing": ["wcag-act"],
+  "fast": ["fast"],
   "low-vision-a11y-tf": ["low-vision", "lvtf"],
   "matf": ["mobile-a11y"],
   "silver": ["silver"],
@@ -30,5 +31,6 @@
   "apa-research-questions": ["rqtf"],
   "aria": ["aria", "aria-dive"],
   "aria-editors": ["aria-editors"],
-  "aria-practices": ["aria-apg"]
+  "aria-practices": ["aria-apg"],
+  "aria-ua": ["aapi"]
 }
