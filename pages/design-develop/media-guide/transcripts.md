@@ -187,7 +187,7 @@ If you already have captions, you can use that file to create the transcript. Mo
 
 If you don't have captions, you'll need transcription of the audio information. That's addressed in another page of this resource: [Transcribing Audio to Text](/media/av/transcribing/).
 
-Captions are generally written to be viewed along with the visual video. Transcripts should include important visual infomation for those not seeing the video. When you use captions to create transcripts, **usually you will need to add visual information to the transcript**, such as text that is in the video and speaker identification.
+Captions are generally written to be viewed along with the visual video. Transcripts should include important visual information for those not seeing the video. When you use captions to create transcripts, **usually you will need to add visual information to the transcript**, such as text that is in the video and speaker identification.
 
 ### Transcript File Format
 
