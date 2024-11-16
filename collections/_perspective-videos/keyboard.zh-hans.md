@@ -9,9 +9,9 @@ last_updated: 2024-07-15    # Keep the date of the English version
 order: 1
 
 
-translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-- name: "JinKai"   # Replace Jan Doe with translator name
-    link: "https://github.com/JinMokai"
+translators:
+- name: "JinKai" 
+  link: "https://github.com/JinMokai"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
