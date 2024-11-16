@@ -2,7 +2,7 @@
 title: "Step-by-Step Guide to Translating WAI Resources"
 nav_title: Translating WAI Resources
 lang: en
-last_updated: 2024-08-13
+last_updated: 2024-11-16
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
 permalink: /about/translating/resources/
@@ -124,7 +124,7 @@ You are very welcome to [create new subtitles](/about/translating/resources/subt
 {:/}
  Thank you so much for your interest in translating W3C WAI Resources! 
 
-To begin your journey, send an email to [group-wai-translations@w3.org](group-wai-translations@w3.org) (not publicly archived&nbsp;[^1]) to express your interest in joining the WAI translator volunteers community.
+To begin your journey, send an email to [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org) (not publicly archived&nbsp;[^1]) to express your interest in joining the WAI translator volunteers community.
 
 {::nomarkdown}
 {% include box.html type="end" %}
