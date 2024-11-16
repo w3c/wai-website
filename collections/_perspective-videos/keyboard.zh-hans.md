@@ -10,7 +10,7 @@ order: 1
 
 
 translators:
-- name: "JinKai" 
+- name: "金凯" 
   link: "https://github.com/JinMokai"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -114,7 +114,7 @@ footer: >
     </tr>
     <tr>
       <td>因为鼠标失灵而无法使用电脑令人沮丧</td>
-      <td>一个人把计算机鼠标从桌子掉下。计算机鼠标不能长时间工作</td>
+      <td>男人从桌子掉落计算机鼠标。计算机鼠标不能长时间工作</td>
     </tr>
     <tr>
       <td>许多人仅使用键盘去导航网站 &mdash; 或因喜好或因环境<br></td>
