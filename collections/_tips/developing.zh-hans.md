@@ -203,7 +203,7 @@ footer: >
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="示例: 在搜索控件中使用 <abbr>WAI-ARIA</abbr>" class="example" %}
+{% include_cached box.html type="start" title="示例: 在搜索字段中使用 <abbr>WAI-ARIA</abbr>" class="example" %}
 
 <div class="two-column">
 <figure>
