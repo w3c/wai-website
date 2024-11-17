@@ -320,7 +320,7 @@ footer: >
     <h3 class="name">太空训练鞋</h3>
     {% include_cached image.html src="tips/trainer.png" alt="紫色高帮运动鞋，白色鞋带，脚踝外侧有白色空点，白色鞋头帽" %}
     <p class="desc">太空训练鞋，经典时尚的外观</p>
-    <p class="buy"><a href="javascript:return false" class="button button-icon"><span>{% include_cached icon.html name="cart-plus" %} Add to cart</span></a></p>
+    <p class="buy"><a href="javascript:return false" class="button button-icon"><span>{% include_cached icon.html name="cart-plus" %} 加入购物车</span></a></p>
   </article>
 </div>
 <figure>
