@@ -21,8 +21,6 @@ github:
 permalink: /fundamentals/accessibility-intro/zh-hans   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /fundamentals/accessibility-intro/   # Do not change this
 
-changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
-
 # In the footer below:
 # Translate the words below, including "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
