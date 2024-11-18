@@ -124,7 +124,7 @@ You are very welcome to [create new subtitles](/about/translating/resources/subt
 {:/}
  Thank you so much for your interest in translating W3C WAI Resources! 
 
-To begin your journey, send an email to [group-wai-translations@w3.org](group-wai-translations@w3.org) (not publicly archived&nbsp;[^1]) to express your interest in joining the WAI translator volunteers community.
+To begin your journey, send an email to [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org) (not publicly archived&nbsp;[^1]) to express your interest in joining the WAI translator volunteers community.
 
 {::nomarkdown}
 {% include box.html type="end" %}
