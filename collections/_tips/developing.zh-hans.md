@@ -6,13 +6,10 @@ title: "为实现无障碍而开发 – 入门技巧"
 title_html: "为实现无障碍而开发"
 nav_title: "开发技巧"
 lang: zh-hans  # Change "en" to the translated-language shortcode
-last_updated: 2024-10-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-16   # Keep the date of the English version
 
-resource:
-  ref: /tips/
-
-navigation:
-  previous: /tips/designing/
+translation:
+  last_updated: 2024-10-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -21,6 +18,13 @@ translators: # remove from the beginning of this line and the lines below: "# " 
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+resource:
+  ref: /tips/
+
+navigation:
+  previous: /tips/designing/
+
 
 github:
   label: wai-tips
