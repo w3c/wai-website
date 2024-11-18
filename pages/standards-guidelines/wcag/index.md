@@ -117,7 +117,7 @@ The Web Content Accessibility Guidelines (WCAG) standards are stable and referen
 * [WCAG 2.1](https://www.w3.org/TR/WCAG21/) was published on 5 June 2018, and an update was published on 21 September 2023. The [WCAG 2 FAQ](/standards-guidelines/wcag/faq/) has information about the update.
 * [WCAG 2.2](https://www.w3.org/TR/WCAG22/) was published on 5 October 2023.
 
-WCAG 2.0, 2.1, and 2.2 are designed to be "backwards compatible", which means content that conforms to WCAG 2.2 also conforms to WCAG 2.1 and WCAG 2.0. If you want to meet the all versions, you can use the WCAG 2.2 resources and you don’t need to bother looking earlier versions.
+WCAG 2.0, 2.1, and 2.2 are designed to be "backwards compatible", which means content that conforms to WCAG 2.2 also conforms to WCAG 2.1 and WCAG 2.0. If you want to meet all the versions, you can use the WCAG 2.2 resources and you don’t need to bother looking at earlier versions.
 
 All the success criteria from 2.0 are included in 2.1, and all from 2.1 are in 2.2 (except 4.1.1, explained in the next paragraph).
 * WCAG 2.0 has 12 guidelines.
