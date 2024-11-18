@@ -4,14 +4,14 @@
 
 title: "Drzewo decyzyjne alt"
 title_html: "Drzewo decyzyjne <code>alt</code>"
-lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-22  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+lang: pl
+last_updated: 2024-05-13  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-06-22  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stefan Wajda"
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
   label: wai-tutorials
@@ -25,6 +25,8 @@ navigation:
 
 permalink: /tutorials/images/decision-tree/pl # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /tutorials/images/decision-tree/ # Do not change this
+
+changelog: /tutorials/changelog/
 
 # In the footer below:
 # Translate the Working Group name. Leave the Working Group acronym in English.
