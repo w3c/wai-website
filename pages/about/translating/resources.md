@@ -2,7 +2,7 @@
 title: "Step-by-Step Guide to Translating WAI Resources"
 nav_title: Translating WAI Resources
 lang: en
-last_updated: 2024-11-16
+last_updated: 2024-08-13
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
 permalink: /about/translating/resources/
