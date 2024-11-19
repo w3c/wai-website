@@ -22,9 +22,6 @@ jobs:
       with:
         ruby-version: '3.3.3' # matches Netlify of ruby version
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - name: Update Externals
-      run: |
-        git submodule update --remote
     - name: Commit changed files
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
