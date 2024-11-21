@@ -15,7 +15,7 @@ ARIA editors use the public-aria-editors@w3.org mailing list ([mailing list arch
 
 ## Teleconferences
 
-- **[ARIA Editors](https://www.w3.org/2017/08/telecon-info_aria-editors)**: alternate Mondays at 12:00 until 12:30 Boston time
+- **[ARIA Editors](https://www.w3.org/groups/tf/aria-editors/calendar/)**: Second and fourth Wednesdays at 12:00 until 12:30 Boston time
 
 ## Meeting minutes
 

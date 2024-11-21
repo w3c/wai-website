@@ -53,7 +53,7 @@ These tools are used by participants of the Task Force. For ways non-participant
 
 ### Teleconferences
 
-- **[ARIA Authoring Practices](https://www.w3.org/2017/08/telecon-info_apg)**: Tuesdays at 14:00 until 15:00 Boston time
+- **[ARIA Authoring Practices](https://www.w3.org/groups/tf/aria-practices/calendar/)**: Tuesdays at 14:00 until 15:00 Boston time
 
 ### Meeting Minutes
 
