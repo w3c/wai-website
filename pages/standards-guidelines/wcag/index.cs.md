@@ -4,8 +4,13 @@
 
 title: "WCAG 2 Přehled"
 nav_title: "Obsah webu – WCAG 2"
-lang: cs  # Change "en" to the translated-language shortcode
-last_updated: 2024-08-28  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+lang: cs
+last_updated: 2024-03-07  # Keep the date of the English version
+first_published: "červenci 2005"
+description: Představuje mezinárodní standard Pokyny pro zpřístupnění obsahu webu (WCAG) včetně WCAG 2.0, WCAG 2.1 a WCAG 2.2. WCAG dokumenty vysvětlují, jak udělat obsah webu přístupnější pro lidi s postiženími.
+
+translation:
+  last_updated: 2024-08-28  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Kristýna Švecová" # Add one -name: line for every translator
@@ -18,10 +23,9 @@ translators: # remove from the beginning of this line and the lines below: "# " 
 github:
   label: wai-wcag-intro
 
-permalink: /standards-guidelines/wcag/cs  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /standards-guidelines/wcag/cs
 ref: /standards-guidelines/wcag/  # Do not change this
 
-description: Představuje mezinárodní standard Pokyny pro zpřístupnění obsahu webu (WCAG) včetně WCAG 2.0, WCAG 2.1 a WCAG 2.2. WCAG dokumenty vysvětlují, jak udělat obsah webu přístupnější pro lidi s postiženími.
 image: /content-images/wai-intro-wcag/wcag-intro-social.jpg
 feedbackmail: wai@w3.org
 
@@ -30,7 +34,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Datum:</strong> Aktualizováno 7. března 2024. Poprvé zveřejněno v červenci 2005.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Vyvinuto za spolupráce s Pracovní skupinou pro vzdělání a osvětu (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) a Pracovní skupinou pro pokyny pro přístupnost. (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---
@@ -48,7 +51,7 @@ WCAG není úvod do přístupnosti. Pro základní informace navštivte [Přehle
 Rychlé odkazy na zdroje:
 * [Jak splnit WCAG 2 (Rychlý průvodce)](https://www.w3.org/WAI/WCAG22/quickref/)
 * [Standard WCAG 2.2](https://www.w3.org/TR/WCAG22/), [Co je nového v WCAG 2.2](/standards-guidelines/wcag/new-in-22/)
-* [Standard WCAG 2.1](http://www.w3.org/TR/WCAG21/)
+* [Standard WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -144,7 +147,7 @@ Výhody WCAG 2.0 jako normy ISO jsou shrnuty v [ISO v Často kladených otázká
 
 ## Kdo vytváří WCAG {#wg}
 
-Technické dokumenty WCAG vytváří Pracovní skupina pro pokyny pro přístupnost ([AG WG](/GL/)) *(dříve Pracovní skupina pro pokyny pro přístupný webový obsah)*, která je součástí Konsorcia pro World Wide Web ([W3C](https://www.w3.org)) Iniciativy pro webovou přístupnost ([WAI](https://www.w3.org/WAI/)).
+Technické dokumenty WCAG vytváří Pracovní skupina pro pokyny pro přístupnost ([AG WG](/about/groups/agwg/)) *(dříve Pracovní skupina pro pokyny pro přístupný webový obsah)*, která je součástí Konsorcia pro World Wide Web ([W3C](https://www.w3.org)) Iniciativy pro webovou přístupnost ([WAI](https://www.w3.org/WAI/)).
 
 WAI pravidelně aktualizuje Techniky pro WCAG 2 a Porozumění WCAG 2. Vítáme [komentáře](/standards-guidelines/wcag/commenting/) a [předložení nových technik](https://www.w3.org/WAI/GL/WCAG20/TECHS-SUBMIT/).
 
