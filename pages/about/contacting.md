@@ -50,10 +50,10 @@ WAI hosts a WAI Interest Group (IG) mailing list for discussion of digital acces
 
 ## Feedback on specific documents
 
-To submit comments on a specific document:
+You can submit comments on specific documents through GitHub or email:
 
--   For WAI web pages under <code>w3.org/WAI/</code> &mdash; in the 'Help improve this page' box near the bottom of the page, there are links for you to submit comments, edit requests, and issues through GitHub or by email.
--   For WCAG, other standards, and technical reports under <code>w3.org/TR/</code> &mdash; in the 'Status of This Document' section, there are links for you to submit comments through GitHub and/or email.
+-   For WAI web pages under <code>w3.org/WAI/</code> &mdash; the links are in the 'Help improve this page' box near the bottom of the page.
+-   For WCAG, other standards, and technical reports under <code>w3.org/TR/</code> &mdash; the links are either in the 'Status of This Document' section, or under the 'More details about this doc' section near the top of the page, after 'Feedback'.
 
 If you cannot determine where to send comments on a specific document, email <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20email%20list.">wai@w3.org</a> with the document name in the subject line and the permission to send your email to a publicly-archived email list. We will forward your message to the appropriate place.
 
