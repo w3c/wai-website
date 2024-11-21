@@ -148,7 +148,6 @@ After `last_updated` (that corresponds to the date of the English version), add 
 {% include box.html type="start" %}
 {:/}
 ```yaml
-
 translation:
   last_updated: 2000-00-00
 
@@ -162,12 +161,12 @@ contributors:
 {% include box.html type="end" %}
 {:/}
 
-`translation` / `last_updated`
+`translation` – `last_updated`
 - Change `last_updated: 2000-00-00` to the date you finish the translation.\
   Use the format: YYYY-MM-DD (with month in the middle).
 
 `translators` and `contributors`
-- Add information depending on how many translators there are, and if there are contributors. Policy for names and links is introduced in [Translating WAI Resources](/about/translating/#links).\
+- Add information depending on how many translators there are, and if there are contributors. Policy for names and links is introduced in [Translating WAI Resources](/about/translating/#links).
 - If the lines are present and commented out with "`#` " before: delete the # and the space.
 
 {::nomarkdown}
