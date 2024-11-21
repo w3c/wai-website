@@ -40,11 +40,15 @@ The work of the task force includes:
 
 *   Determining how to apply each of the new WCAG 2.1 and WCAG 2.2 (hereafter called “WCAG 2.x") guidelines and Levels A, AA, and AAA success criteria to non-Web ICT; this includes provision of additional details for application to closed product software and where applying individual criteria might be difficult and why; and
 *   Producing an updated Working Group Note (a form of W3C Technical Report)—following the W3C process under the coordination, review, and approval of the AG WG—that describes:
-    *   how each of the new WCAG 2.x A, AA, and AAA success criteria could apply to non-Web ICT;
-    *   how each of the new WCAG 2.x guidelines could apply to non-Web ICT;
-    *   clarification of challenges of applying particular WCAG 2.x success criteria to non-web ICT, including closed product software;
-    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict); and
+    *   how each of the new WCAG 2.x A and AA success criteria could apply to non-Web ICT (done);
+    *   how each of the new WCAG 2.x guidelines could apply to non-Web ICT (done);
+    *   clarification of challenges of applying particular WCAG 2.x success criteria to non-web ICT, including closed product software (done);
+    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict) (done); and
     *   provide an explainer that clarifies the usage of WCAG2ICT
+    *   where known, give examples of some Success Criteria which may not be applicable to a particular non-web technology; and
+    *   as needed, suggested changes to success criteria normative language to more clearly align with non-web software and document technologies; and
+    NOTE: This would not be suggested changes to change WCAG itself, but instead provide language more meaninful in non-web contexts. For example, provide alternative language in criteria that the WCAG normative language uses CSS pixels, to use language more appropriate for non-web technologies.
+    *   how each of the WCAG 2.x Level AAA success criteria could apply to non-web technologies.
 
 Explicitly out of scope for the WCAG2ICT Task Force work are:
 
@@ -52,7 +56,6 @@ Explicitly out of scope for the WCAG2ICT Task Force work are:
 *   developing techniques or interpretations of WCAG 2.x for implementing WCAG 2.x in Web technologies;
 *   developing any specific, sufficient techniques, including platform-specific techniques, for implementing WCAG 2.x in non-Web ICT, though examples may be in scope;
 *   determining whether WCAG, as a whole, _should be_ applied to non-web content;
-*   providing a determination of which success criteria are applicable to a particular non-web technology; and
 *   developing a normative standard or any normative requirements.
 
 ## Approach
