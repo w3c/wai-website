@@ -5,9 +5,12 @@
 title: "Videa o perspektivách webové přístupnosti: Prozkoumejte dopady a výhody pro všechny uživatele"
 title_html: "Videa o perspektivách webové přístupnosti:<br>Prozkoumejte dopady a výhody pro všechny uživatele"
 nav_title: "Přehled videí o perspektivách"
-lang: cs    # Change "en" to the translated-language shortcode
-last_updated: 2024-01-06    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+lang: cs
+last_updated: 2024-09-17    # Keep the date of the English version
 order: 0
+
+translation:
+  last_updated: 2024-01-06    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Kristýna Švecová"
@@ -29,15 +32,14 @@ acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 changelog: /perspective-videos/changelog/ # Do not change this
 
 description: Krátká videa ukazují, jak je webová přístupnost zásadní pro lidi s postižením a užitečná pro všechny v různých situacích.
-image: /perspective-videos//content-images/perspective-videos/overview.jpg
+image: /content-images/perspective-videos/overview.jpg
 
 # In the footer below:
-# Do not change the dates
 # Do not translate or change CHANGELOG and ACKNOWLEDGEMENTS
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Status:</strong> Aktualizováno 5. června 2023. CHANGELOG.<br><strong>Editor a vedoucí projektu:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Vyvinuto <a href="https://www.w3.org/WAI/EO/">Pracovní skupinou pro vzdělání a osvětu (EOWG)</a> za podpory <a href="https://www.w3.org/WAI/DEV/">projektu WAI-DEV</a>, spolufinancováno Evropskou komisí. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Editor a vedoucí projektu:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Vyvinuto <a href="https://www.w3.org/WAI/EO/">Pracovní skupinou pro vzdělání a osvětu (EOWG)</a> za podpory <a href="https://www.w3.org/WAI/DEV/">projektu WAI-DEV</a>, spolufinancováno Evropskou komisí. ACKNOWLEDGEMENTS.</p>
 
 # Read Translations Notes for this resource at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/
 ---
