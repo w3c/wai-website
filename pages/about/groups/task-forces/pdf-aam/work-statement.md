@@ -32,19 +32,19 @@ The Portable Document Format Accessibility APIs Mapping (PDF-AAM) Task Force is 
 
 ## Status
 
-The PDF-AAM Task Force Work Statement was [approved on 14 September 2017]() and is now active. The [Task Force home page](/about/groups/task-forces/pdf-aam/) contains information about the operation and resources of the group.
+The PDF-AAM Task Force Work Statement was [approved on [dd mm yyyy]](CFC_or_minutes_pointer) and is now active. The [Task Force home page](/about/groups/task-forces/pdf-aam/) contains information about the operation and resources of the group.
 
 ## Objective
 
-The mission of the PDF-AAM Task Force is to specify [Accessibility API mappings for Portable Document Format (PDF)](http://w3c.github.io/pdf-aam/), in consultation with the ARIA Working Group. The task force provides a focused forum for this work while the Working Group continues its work on ARIA development.
+The mission of the PDF-AAM Task Force is to specify how user agents should map accessibility semantics within the Portable Document format specification. This Task Force provides a focused forum for this work while the Working Group continues its work on ARIA development.
 
 ## Scope of Work
 
-The PDF-AAM Task Force work defines how user agents map accessibility semantics embedded within PDF documents.
+The PDF-AAM Task Force will produce a W3C Technical Report [PDF-AAM](https://w3c.github.io/pdf-aam/), specifying accessibility API mappings for PDF, based on the [Core-AAM](https://www.w3.org/TR/core-aam-1.2/) and [HTML-AAM](https://www.w3.org/TR/html-aam/) specifications.
 
 ## Approach
 
-The group will incorporte existing work from the PDF/UA Processor LWG into a W3C Technical Report, expected to reach the Recommendation Track according to the W3C Process guidelines.
+The group will incorporte and extend existing work from the PDF/UA Processor LWG into a W3C Technical Report, expected to reach the Recommendation Track according to the [W3C Process](https://www.w3.org/policies/process/).
 
 ## Communication
 
@@ -62,8 +62,6 @@ Any participant in the ARIA Working Group may participate in the PDF-AAM Task Fo
 - Remain current on the PDF-AAM Task Force mailing list and respond to postings in a timely manner;
 - Provide feedback to editors of specifications via email or by filing bugs;
 - Participate in PDF-AAM Task Force teleconferences, or send regrets to the PDF-AAM Task Force mailing list.
-
-Participants may also join PDF-AAM Task Force sub-groups. Sub-groups take on specific assignments for the PDF-AAM Task Force.
 
 If you are interested in becoming a participant of the PDF-AAM Task Force or have any questions regarding its work, contact the task force facilitators.
 
