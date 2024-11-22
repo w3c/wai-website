@@ -53,7 +53,7 @@ footer: >
 {% include box.html type="start" h="2" title="摘要" class="full" %}
 {:/}
 
-本页介绍了一些基本注意事项，帮助您开始开发更便于残障人士访问的网页内容。这些技巧是帮助您满足《网页内容可访问性指南》（WCAG）要求的良好实践。请跟随链接进入相关的 WCAG 要求、“了解” 文档中的详细背景、教程中的指导、用户故事等。
+本页介绍了一些基本注意事项，帮助您开始开发更便于残障人士访问的网页内容。这些技巧是帮助您满足Web内容无障碍指南（WCAG）要求的良好实践。请跟随链接进入相关的 WCAG 要求、“了解” 文档中的详细背景、教程中的指导、用户故事等。
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -106,7 +106,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG（网页内容无障碍指南）**
+* **Web内容无障碍指南（WCAG）**
   * [标签或说明 3.3.2 指南](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解 3.3.2 指南](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **教程**
   * [标签控制](/tutorials/forms/labels/)
@@ -123,7 +123,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG（网页内容无障碍指南）**
+* **Web内容无障碍指南（WCAG）**
   * [非文本内容 1.1.1 指南](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1 指南](/WAI/WCAG21/Understanding/non-text-content))
 * **教程**
   * [图片](/tutorials/images/)
@@ -142,7 +142,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG（网页内容无障碍指南）**
+* **Web内容无障碍指南（WCAG）**
   * [网页语言 3.1.1 指南](/WAI/WCAG21/quickref/#language-of-page) ([理解 3.1.1 指南](/WAI/WCAG21/Understanding/language-of-page))
   * [局部语言 3.1.2 指南](/WAI/WCAG21/quickref/#language-of-parts) ([理解 3.1.2 指南](/WAI/WCAG21/Understanding/language-of-parts))
 * **怎么做**
@@ -246,7 +246,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG（网页内容无障碍指南）**
+* **Web内容无障碍指南（WCAG）**
   * [信息和关系 1.3.1 指南](/WAI/WCAG21/quickref/#info-and-relationships) ([理解 1.3.1 指南](/WAI/WCAG21/Understanding/info-and-relationships))
 * **教程**
   * [页面结构](/tutorials/page-structure/)
@@ -298,7 +298,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG**
+* **Web内容无障碍指南（WCAG）**
   * [错误标识 3.3.1 指南](/WAI/WCAG21/quickref/#error-identification) ([理解 3.3.1 指南](/WAI/WCAG21/Understanding/error-identification))
 * **教程**
   * [校验输入](/tutorials/forms/validation/)
@@ -391,7 +391,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG**
+* **Web内容无障碍指南（WCAG）**
   * [有含义的顺序 1.3.2 指南](/WAI/WCAG21/quickref/#meaningful-sequence) ([理解 1.3.2 指南](/WAI/WCAG21/Understanding/meaningful-sequence))
 
 {::nomarkdown}
@@ -459,7 +459,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG**
+* **Web内容无障碍指南（WCAG）**
   * [调整文本 1.4.4 指南](/WAI/WCAG21/quickref/#resize-text) ([理解 1.4.4 指南](/WAI/WCAG21/Understanding/resize-text))
   * [一致性标识 3.2.4 指南](/WAI/WCAG21/quickref/#consistent-identification) ([理解 3.2.4 指南](/WAI/WCAG21/Understanding/consistent-identification))
 * **背景**
@@ -515,7 +515,7 @@ footer: >
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG**
+* **Web内容无障碍指南（WCAG）**
   * [名称，角色，值 4.1.2 指南](/WAI/WCAG21/quickref/#name-role-value) ([理解 4.1.2 指南](/WAI/WCAG21/Understanding/name-role-value))
 * **背景**
   * [在 HTML 中使用 ARIA 的注意事项](/TR/aria-in-html/)
@@ -603,7 +603,7 @@ buttonExample.addEventListener('click', function(e) {
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG**
+* **Web内容无障碍指南（WCAG）**
   * [键盘 2.1.1 指南](/WAI/WCAG21/quickref/#keyboard) ([理解 2.1.1 指南](/WAI/WCAG21/Understanding/keyboard))
 * **用户故事**
   * [[Ade, 双臂功能受限的记者]](/people-use-web/user-stories/story-one/)
@@ -628,7 +628,7 @@ buttonExample.addEventListener('click', function(e) {
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
 {:/}
 
-* **WCAG**
+* **Web内容无障碍指南（WCAG）**
   * [非文本内容 1.1.1 指南](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1 指南](/WAI/WCAG21/Understanding/non-text-content))
 * **背景**
   * [验证码（CAPTCHA）使无障碍变得困难](/TR/turingtest/)
