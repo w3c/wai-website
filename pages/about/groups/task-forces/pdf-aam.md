@@ -32,9 +32,9 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Announcements
+### Work Statement
 
-No announcements at the moment.
+The [PDF-AAM Task Force Work Statement](/about/groups/task-forces/pdf-aam/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.
 
 ## Meetings and Communication
 
@@ -86,7 +86,3 @@ The PDF-AAM Task Force is a Task Force of the [Accessible Rich Internet Applicat
 
 - **Facilitators:** Duff Johnson, Valerie Young
 - **Staff Contact:** [Daniel Montalvo](https://www.w3.org/People#dmontalvo/)
-
-### Work Statement
-
-The [PDF-AAM Task Force Work Statement](/about/groups/task-forces/pdf-aam/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.
