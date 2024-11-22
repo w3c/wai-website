@@ -115,9 +115,9 @@ footer: >
 {% include_cached box.html type="end" %}
 {:/}
 
-## 为图片添加替代文字
+## 为图片添加替代文本
 
-确保为所有信息性和功能性图片添加图像替代文字。对装饰性图片使用空的替代文字`alt=“”`，或将其包含在 CSS 中。图片替代文字通常由负责书面内容的人员提供。
+确保为所有信息性和功能性图片添加图像替代文本。对装饰性图片使用空的替代文本`alt=“”`，或将其包含在 CSS 中。图片替代文本通常由负责书面内容的人员提供。
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
@@ -473,7 +473,7 @@ footer: >
 
 ## 为非标准互动元素提供意义
 
-使用 <abbr title=“可访问的富互联网应用程序”>WAI-ARIA</abbr>，为自定义组件（如手风琴组件accordions和自定义按钮）提供功能和状态信息。
+使用 <abbr title="可访问的富互联网应用程序">WAI-ARIA</abbr>，为自定义组件（如手风琴组件accordions和自定义按钮）提供功能和状态信息。
 例如，`role=“navigation”` 和 `aria-expanded=“true”`。
 要实现此类组件的行为，如展开和折叠内容或组件如何响应键盘事件，还需要额外的代码。
 
@@ -488,17 +488,17 @@ footer: >
 ~~~html
 <nav aria-label="主导航" role="navigation">
   <ul>
-    <li><a href="...">Home</a></li>
-    <li><a href="...">Shop</a></li>
+    <li><a href="...">首页</a></li>
+    <li><a href="...">商店</a></li>
     <li class="has-submenu">
-      <a aria-expanded="false" aria-haspopup="true" href="...">SpaceBears</a>
+      <a aria-expanded="false" aria-haspopup="true" href="...">太空熊</a>
       <ul>
-          <li><a href="...">SpaceBear 6</a></li>
-          <li><a href="...">SpaceBear 6 Plus</a></li>
+          <li><a href="...">太空熊 6</a></li>
+          <li><a href="...">太空熊 6 Plus</a></li>
       </ul>
     </li>
-    <li><a href="...">MarsCars</a></li>
-    <li><a href="...">Contact</a></li>
+    <li><a href="...">火星车</a></li>
+    <li><a href="...">联系</a></li>
   </ul>
 </nav>
 ~~~
