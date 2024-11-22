@@ -9,7 +9,7 @@ lang: zh-hans  # Change "en" to the translated-language shortcode
 last_updated: 2024-07-16   # Keep the date of the English version
 
 translation:
-  last_updated: 2024-10-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2024-11-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -107,7 +107,7 @@ footer: >
 {:/}
 
 * **WCAG（网页内容无障碍指南）**
-  * [标签或指示 3.3.2 指南](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解 3.3.2 指南](/WAI/WCAG21/Understanding/labels-or-instructions))
+  * [标签或说明 3.3.2 指南](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解 3.3.2 指南](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **教程**
   * [标签控制](/tutorials/forms/labels/)
 
@@ -124,7 +124,7 @@ footer: >
 {:/}
 
 * **WCAG（网页内容无障碍指南）**
-  * [非文字内容 1.1.1 指南](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1 指南](/WAI/WCAG21/Understanding/non-text-content))
+  * [非文本内容 1.1.1 指南](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1 指南](/WAI/WCAG21/Understanding/non-text-content))
 * **教程**
   * [图片](/tutorials/images/)
 * **用户故事**
@@ -144,7 +144,7 @@ footer: >
 
 * **WCAG（网页内容无障碍指南）**
   * [网页语言 3.1.1 指南](/WAI/WCAG21/quickref/#language-of-page) ([理解 3.1.1 指南](/WAI/WCAG21/Understanding/language-of-page))
-  * [组件语言 3.1.2 指南](/WAI/WCAG21/quickref/#language-of-parts) ([理解 3.1.2 指南](/WAI/WCAG21/Understanding/language-of-parts))
+  * [局部语言 3.1.2 指南](/WAI/WCAG21/quickref/#language-of-parts) ([理解 3.1.2 指南](/WAI/WCAG21/Understanding/language-of-parts))
 * **怎么做**
   * [在HTML中声明语言](/International/questions/qa-html-language-declarations)
 
@@ -172,8 +172,8 @@ footer: >
     <aside>
       <h3>相关文章</h3>
       <ul>
-        <li><a href="#">Bear receives key to city</a></li>
-        <li><a href="#">Superbear stands for mayor</a></li>
+        <li><a href="#">超级熊收到城市钥匙</a></li>
+        <li><a href="#">超级熊支持市长</a></li>
       </ul>
     </aside>
   </article>
@@ -192,8 +192,8 @@ footer: >
     <aside>
       <h3>相关文章</h3>
       <ul>
-        <li><a href="#">Bear receives key to city</a></li>
-        <li><a href="#">Superbear stands for mayor</a></li>
+        <li><a href="#">超级熊收到城市钥匙</a></li>
+        <li><a href="#">超级熊支持市长</a></li>
       </ul>
     </aside>
   </article>
@@ -392,7 +392,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [有意义的序列 1.3.2 指南](/WAI/WCAG21/quickref/#meaningful-sequence) ([理解 1.3.2 指南](/WAI/WCAG21/Understanding/meaningful-sequence))
+  * [有含义的顺序 1.3.2 指南](/WAI/WCAG21/quickref/#meaningful-sequence) ([理解 1.3.2 指南](/WAI/WCAG21/Understanding/meaningful-sequence))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -460,8 +460,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [调整文本大小 1.4.4 指南](/WAI/WCAG21/quickref/#resize-text) ([理解 1.4.4 指南](/WAI/WCAG21/Understanding/resize-text))
-  * [一致的标识 3.2.4 指南](/WAI/WCAG21/quickref/#consistent-identification) ([理解 3.2.4 指南](/WAI/WCAG21/Understanding/consistent-identification))
+  * [调整文本 1.4.4 指南](/WAI/WCAG21/quickref/#resize-text) ([理解 1.4.4 指南](/WAI/WCAG21/Understanding/resize-text))
+  * [一致性标识 3.2.4 指南](/WAI/WCAG21/quickref/#consistent-identification) ([理解 3.2.4 指南](/WAI/WCAG21/Understanding/consistent-identification))
 * **背景**
   * [小屏幕尺寸](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **用户故事**
@@ -516,7 +516,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [Name, Role, Value 4.1.2 指南](/WAI/WCAG21/quickref/#name-role-value) ([理解 4.1.2 指南](/WAI/WCAG21/Understanding/name-role-value))
+  * [名称，角色，值 4.1.2 指南](/WAI/WCAG21/quickref/#name-role-value) ([理解 4.1.2 指南](/WAI/WCAG21/Understanding/name-role-value))
 * **背景**
   * [在 HTML 中使用 ARIA 的注意事项](/TR/aria-in-html/)
 * **用户故事**
@@ -615,14 +615,14 @@ buttonExample.addEventListener('click', function(e) {
 {% include_cached box.html type="end" %}
 {:/}
 
-## 尽可能避免使用CAPTCHA
+## 尽可能避免使用验证码（CAPTCHA）
 
-CAPTCHA会给用户造成很多阻碍。除了CAPTCHA，还有其他更易使用的用户输入验证方式，比如自动检测或者界面交互验证。
-如果一定需要用到CAPTCHA，确保它是容易理解的，另外提供其他可选方案，比如：
+验证码会给用户造成很多阻碍。除了验证码，还有其他更易使用的用户输入验证方式，比如自动检测或者界面交互验证。
+如果一定需要用到验证码，确保它是容易理解的，另外提供其他可选方案，比如：
 
-* 提供至少两种解决CAPTCHA的方法
-* 让用户有机会请求可绕过CAPTCHA的人工代表的帮助
-* 对已授权用户取消CAPTCHA的要求
+* 提供至少三种解决验证码的方法
+* 让用户有机会请求可绕过验证码的人工代表的帮助
+* 授权用户无需验证码
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="更多信息" class="simple" %}
@@ -631,7 +631,7 @@ CAPTCHA会给用户造成很多阻碍。除了CAPTCHA，还有其他更易使用
 * **WCAG**
   * [非文本内容 1.1.1 指南](/WAI/WCAG21/quickref/#non-text-content) ([理解 1.1.1 指南](/WAI/WCAG21/Understanding/non-text-content))
 * **背景**
-  * [CAPTCHA使无障碍变得困难](/TR/turingtest/)
+  * [验证码（CAPTCHA）使无障碍变得困难](/TR/turingtest/)
 * **用户故事**
   * [[Marta, 一位盲聋的营销助理]](/people-use-web/user-stories/story-seven/)
   * [[Elias, 患有低视力，手颤震，和轻度短期失忆症的退休人员]](/people-use-web/user-stories/story-nine/)
@@ -644,11 +644,11 @@ CAPTCHA会给用户造成很多阻碍。除了CAPTCHA，还有其他更易使用
 {% include box.html type="start" title="了解更多无障碍相关知识" class="large" icon="readmore" %}
 {:/}
 
-这些提示是web无障碍需要考虑的一些事项。以下资源可以帮助您了解无障碍的重要性，以及让残疾人更容易访问web的指南。
+这些提示是Web无障碍需要考虑的一些事项。以下资源可以帮助您了解无障碍的重要性，以及让残疾人更容易访问Web的指南。
 
-* [web无障碍简介](/fundamentals/accessibility-intro/) — 无障碍简介，并提供许多有用资源的链接
+* [Web无障碍简介](/fundamentals/accessibility-intro/) — 无障碍简介，并提供许多有用资源的链接
 * [无障碍原则](/fundamentals/accessibility-principles/) — <abbr>WCAG</abbr> 要求简介
-* [残疾人如何使用web](/people-use-web/) — 通过真实事例说明无障碍给残疾人士带来的益处
+* [残疾人如何使用Web](/people-use-web/) — 通过真实事例说明无障碍给残疾人士带来的益处
 * [Web无障碍教程](/tutorials/) — 向您展示如何开发便于残障人士访问的网页内容
 * [网站无障碍提升前后对比](/WAI/demos/bad/) — 对比具有相同视觉设计的无障碍不友好和无障碍友好的网站，并附有注释，强调关键的无障碍屏障和纠正方法，以及 <abbr>WCAG</abbr> 的评估报告。
 * [如何满足WCAG规范 (快速查阅)](/WAI/WCAG21/quickref/) — 所有WCAG要求和技术的可定制查阅
