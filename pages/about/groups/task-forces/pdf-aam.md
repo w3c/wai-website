@@ -32,6 +32,10 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
+## Objective
+
+The mission of the PDF-AAM Task Force is to specify how user agents should map accessibility semantics within the Portable Document Format specification. This Task Force provides a focused forum for this work while the Working Group continues its work on ARIA development.
+
 ### Work Statement
 
 The [PDF-AAM Task Force Work Statement](/about/groups/task-forces/pdf-aam/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.
