@@ -105,7 +105,7 @@ We plan to publish the following documents in 2024 or early 2025. <!-- To learn 
 
 * W3C Accessibility Guidelines (WCAG) 3 as an updated Working Draft, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/)
 * [Collaboration Tools Accessibility User Requirements](https://w3c.github.io/ctaur/) as a completed Note
-* Accessibility Roles and Responsbilities Mapping (ARRM) as a draft
+* Accessibility Roles and Responsibilities Mapping (ARRM) as a draft
 * More [WAI Translations](/translations/) - usually some each week
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
