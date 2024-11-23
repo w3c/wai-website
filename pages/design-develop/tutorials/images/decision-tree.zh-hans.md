@@ -2,13 +2,13 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "An alt Decision Tree"
-title_html: "An <code>alt</code> Decision Tree"
+title: "替代决策树"
+title_html: "<code>alt</code> 替代决策树"
 lang: zh-hans  # Change "en" to the translated-language shortcode
 last_updated: 2024-05-13  # Keep the date of the English version
 
 translators: 
-# - name: "Translator Name Here" # Add one -name: line for every translator
+- name: "金凯" # Add one -name: line for every translator
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -25,7 +25,7 @@ navigation:
   previous: /tutorials/images/imagemap/  # Do not change this
   next: /tutorials/images/tips/  # Do not change this
 
-permalink: /tutorials/images/decision-tree/ # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /tutorials/images/decision-tree/zh-hans # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /tutorials/images/decision-tree/ # Do not change this
 
 changelog: /tutorials/changelog/
@@ -39,53 +39,53 @@ editors:
 update_editors:
   - Brian Elton
 contributing_participants:
-  - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
-support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
+  - 参见 <a href="/WAI/tutorials/acknowledgements/">致谢</a>
+support: 由教育和外联工作组开发 (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). 在 <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a> 支持下开发, 并由 <strong>欧盟委员会<abbr title="信息社会技术">IST</abbr> 计划共同资助</strong>.
 
 # Read Translations Notes for this resource at https://github.com/w3c/wai-tutorials#readme
 ---
 
 {::nomarkdown}
-{% include box.html type="start" h="2" title="Overview" class="full" %}
+{% include box.html type="start" h="2" title="概述" class="full" %}
 {:/}
 
-This decision tree describes how to use the `alt` attribute of the `<img>` element in various situations. For some types of images, there are alternative approaches, such as using CSS background images for decorative images or web fonts instead of images of text.
+这个决策树描述了如何在各种情况下使用`<img>`元素的`alt`属性. 对于某些类型的图像，可以采用其他方法，例如使用 CSS 背景图像来制作装饰图像，或使用网络字体来代替文本图像。
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
-- **Does the image contain text?**
-  - {:.yes} **Yes:**
-    -   **… and the text is also present as *real* text nearby.**
-      _Use an empty `alt` attribute. See [Decorative Images](/tutorials/images/decorative/)._
-    -   **… and the text is only shown for visual effects.**
-      _Use an empty `alt` attribute. See [Decorative Images](/tutorials/images/decorative/)._
-    -   **… and the text has a specific function, for example is an icon.**
-      _Use the `alt` attribute to communicate the function of the image. See [Functional Images](/tutorials/images/functional/)._
-    -   **… and the text in the image is not present otherwise.** _Use the `alt` attribute to include the text of the image. See [Images of Text](/tutorials/images/textual/#styled-text-decorative-effect)._
-  - {:.no} **No:**
-    - Continue.
-- **Is the image used in a link or a button, and would it be hard or impossible to understand what the link or the button does, if the image wasn’t there?**
-  - {:.yes} **Yes:**
-    - _Use the `alt` attribute to communicate the destination of the link or action taken. See [Functional Images](/tutorials/images/functional/)._
-  - {:.no} **No:**
-    - Continue.
-- **Does the image contribute meaning to the current page or context?**
-  - {:.yes} **Yes:**
-    - **… and it’s a simple graphic or photograph.**
-      _Use a brief description of the image in a way that conveys that meaning in the `alt` attribute. See [Informative Images](/tutorials/images/informative/)._
-    - **… and it’s a graph or complex piece of information.**
-      _Include the information contained in the image elsewhere on the page. See [Complex Images](/tutorials/images/complex/)._
-    - **… and it shows content that is redundant to *real* text nearby.**
-      _Use an empty `alt` attribute. See (redundant) [Functional Images](/tutorials/images/functional/#logo-image-within-link-text)._
-  - {:.no} **No:**
-    - Continue.
-- **Is the image purely decorative or not intended for users?**
-  - {:.yes} **Yes:**
-    - _Use an empty `alt` attribute. See [Decorative Images](/tutorials/images/decorative/)._
-  - {:.no} **No:**
-    - Continue.
-- **Is the image’s use not listed above or it’s unclear what `alt` text to provide?**
-  - {:.yes} This decision tree **does not** cover all cases. For detailed information on the provision of text alternatives refer to the [[Images Tutorials]](/tutorials/images/).
+- **图像是否包含文字?**
+  - {:.是} **是：**
+    -   **…并且文本也以*真实*文本的形式呈现在周围。**
+      _使用空的`alt`属性。 参见 [装饰图像](/tutorials/images/decorative/)._
+    -   **…并且文字显示只是为了视觉效果。**
+      _使用空的`alt`属性。 参见 [装饰图像](/tutorials/images/decorative/)。_
+    -   **…并且文字还有一个特殊功能，例如是一个图标**
+      _并且使用`alt`属性能传达图像的功能。 参见 [功能性图片](/tutorials/images/functional/)。_
+    -   **…否则图像中的文字将不存在。** _使用`alt`属性包含图片文本。 参见 [文本图像](/tutorials/images/textual/#styled-text-decorative-effect)._
+  - {:.否} **否：**
+    - 继续。
+- **图片是用于链接还是按钮，如果没有图片，是否很难或无法理解链接或按钮的作用？**
+  - {:.是} **是：**
+    - _使用 `alt` 属性传达链接的目的地或采取的行动。 参见 [功能性图片](/tutorials/images/functional/)._
+  - {:.否} **否：**
+    - 继续。
+- **图片对当前页面或上下文是否有意义？**
+  - {:.是} **是：**
+    - **…并且是简单的图形或照片。**
+      _在`alt`属性中使用简明的图片说明，以传递该含义. 参见 [信息图片](/tutorials/images/informative/)。_
+    - **…并且是图表或复杂的信息。**
+      _在页面其他地方包含图片中的信息 参见 [复杂图像](/tutorials/images/complex/)。_
+    - **…而且它显示的内容与附近*真实*的文本是多余的**
+      _使用一个空的`alt`属性. 参见 (多余的) [功能性图片](/tutorials/images/functional/#logo-image-within-link-text)。_
+  - {:.否} **否：**
+    - 继续。
+- **图片是否纯粹是装饰性的，或不是为用户设计的？**
+  - {:.是} **是：**
+    - _使用空`alt`属性。 参见 [装饰图像](/tutorials/images/decorative/)._
+  - {:.否} **否：**
+    - 继续。
+- **图片的用途上面没有列出，还是不清楚应该提供什么`alt`文本？**
+  - {:.是} 这个决策树没有涵盖所有用例。有关提供文本替代方案的详细信息，请参阅 [[图像教程]](/tutorials/images/).
 {:.decision-tree}
