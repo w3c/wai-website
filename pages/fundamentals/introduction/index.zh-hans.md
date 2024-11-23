@@ -4,7 +4,7 @@
 title: Web无障碍简介 
 lang: zh-hans
 last_updated: 2024-03-07
-first_published: "February 2005"
+first_published: "2005年2月"
 
 translation:
   last_updated: 2024-10-27  # Put the date of this translation YYYY-MM-DD (with month in the middle)
