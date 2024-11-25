@@ -44,7 +44,7 @@ The PDF-AAM Task Force will produce a W3C Technical Report [PDF-AAM](https://w3c
 
 ## Approach
 
-The group will incorporate and extend existing work from the PDF/UA Processor Liaison Working Group (LWG) into a W3C Technical Report, expected to reach the Recommendation Track according to the [W3C Process](https://www.w3.org/policies/process/).
+the PDF/UA Processor Liaison Working Group (LWG) is a meeting-place for the PDF and assistive technology industries to help drive the formalization of common understandings on processing PDF files that conform to ISO 14289 (PDF/UA), the standard for accessible PDF documents. The PDF-AAM will incorporate and extend existing work developed by the PDF/UA Processor LWG into a W3C Technical Report, expected to reach the Recommendation Track according to the [W3C Process](https://www.w3.org/policies/process/).
 
 ## Communication
 
