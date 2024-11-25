@@ -149,73 +149,82 @@ Ian是一名患有自闭症的数据科学家。一般来说，数字技术对Ia
 
 ## 关于Ian
 
-> I find it hard to focus on busy pages. For example, lots of animations and videos, particarly ones that start without me doing anything are really frustrating.
+> 我发现在繁忙的页面上很难集中注意力。例如，大量的动画和视频，尤其是在我什么都没做的情况下就开始播放的动画和视频，真的很让人沮丧。
 
-Ian is autistic. His autism was identified at an early age because of delays in speech development. Ian received a lot of early childhood support, which helped him develop language and social skills. However, he still experiences some barriers with verbal communication, especially when experiencing anxiety.
+Ian患有自闭症。由于语言发育迟缓，他在很小的时候就被发现患有自闭症。
+Ian接受了很多早期儿童支持，这有助于他发展语言和社交技能。但是，他在语言交流方面仍然存在一些障碍，尤其是在焦虑的时候。
 
-Ian works part-time as a data scientist. Working with a computer is easy for Ian, although updates to the data entry application can cause him problems if there are significant changes to the interface. This can cause feelings of axiety for Ian if he doesn't know the change is coming and given time to adapt. It can also be difficult for Ian if someone asks for some work that causes him to use parts of the system that he is not as familiar with. It is important that systems use a consistent layout and navigation.
+Ian是一名兼职的数据科学家。使用电脑对Ian来说很容易，但如果数据录入应用程序的界面发生重大变化，更新就会给他带来麻烦。
+如果Ian不知道即将发生的变化，也没有时间去适应，就会产生焦虑感。
+如果有人要求Ian做一些工作，导致他需要使用他不熟悉的系统部分，这也会给Ian带来困难。
+系统使用一致的布局和导航，这一点很重要。
 
-Ian finds interacting with colleagues via email easy. He has worked with his team to help them appreciate how using plain language and not introducing new metaphors can help him. Many have said they also prefer less corporate jargon as well. 
+Ian认为通过电子邮件与同事互动很容易。他与他的团队合作，帮助他们理解使用通俗语言和不引入新的隐喻对他的帮助。很多人都说，他们也喜欢少用企业术语。
 
-Ian has his own living space in his parent's home, including his own kitchen. He has been learning how to cook using online videos. However, vague language, metaphors, and implied content in some of the videos makes them to understand. He finds straightforward, practical, step-by-step videos really helpful. Some of the cooking sites Ian uses have a lot of adverts on them with banners and video, which can be distracting. This is particularly bad if there is audio as well, especially if Ian can't control it easily. It is best when websites don't automatically play audio and video adverts, or at least let Ian control them.
+Ian在父母家中有自己的生活空间，包括自己的厨房。他一直在通过在线视频学习如何烹饪。
+然而，一些视频中含糊的语言、隐喻和暗示的内容让他难以理解。
+他认为直接、实用、循序渐进的视频确实很有帮助。
+Ian使用的一些烹饪网站上有很多广告横幅和视频，这可能会分散他的注意力。
+如果还有音频，情况就更糟糕了，尤其是Ian不容易控制的时候。
+网站最好不要自动播放音频和视频广告，或者至少让Ian自己控制。
 
-## Barrier examples
+## 障碍示例
 
-Non-literal text
-: **Barrier:** "I have difficulty understanding metaphors, acronyms, abbreviations, and words that aren't used in their literal sense."
-: **Works well:** "Websites that spell everything out and don't use metaphors are easier for me to understand."
+非字面文本
+: **障碍:** "我很难理解隐喻、缩略语、缩写以及非字面意义上的词语。"
+: **效果良好:** "对我来说，那些把所有东西都说清楚并且不使用比喻的网站更容易理解。"
 
-Plain language
-: **Barrier:** "Sites that use "fancy" language or long sentences to describe a simple concept are hard to understand."
-: **Works well:** "I'm better at understanding the content when the authors just use plain language and simple sentences."
+平实的语言
+: **障碍:** "使用 “华丽 ”语言或长句来描述一个简单概念的网站很难让人理解。"
+: **效果良好:** "如果作者只是使用平实的语言和简单的句子，我就能更好地理解内容。"
 
-Consistent layout and navigation
-: **Barrier:** "I get confused when I go to a different page on a website and the layout and navigation aren't the same."
-: **Works well:** "When there is a consistent "look" to the pages on a site, I can learn where things are."
+一致的布局和导航
+: **障碍:** "当我进入一个网站的不同页面时，如果布局和导航不一样，我就会感到困惑。"
+: **效果良好:** "当网站页面的 “外观 ”一致时，我就能知道东西在哪里。"
 
-Heading structure
-: **Barrier:** "Long pages that are not broken up into sections are hard to read and understand."
-: **Works well:** "Descriptive headings that are styled like an outline help me to find what I want and better understand the content."
+标题结构
+: **障碍:** "长篇大论，不分章节，难以阅读和理解。"
+: **效果良好:** "像提纲一样的描述性标题有助于我找到想要的内容，并更好地理解内容。"
 
-Moving or blinking content
-: **Barrier:** "Moving or blinking content is distracting and I can't remember what I wanted to do.
-: **Works well:** It's best when sites don't use moving or blinking content but if they do, let me turn it off."
+移动或闪烁的内容
+: **障碍:** "移动或闪烁的内容会分散我的注意力，让我想不起来要做什么。"
+: **效果良好:** "网站最好不要使用移动或闪烁的内容，但如果使用，请让我关闭。"
 
-## Assistive technologies and adaptive strategies used
+## 使用的辅助技术和适应策略
 
-* [Pop-up and animation blockers (Presentation)](/people-use-web/tools-techniques/presentation/#blockers)
-* [Reading assistants (Presentation)](/people-use-web/tools-techniques/presentation/#reading)
-* [Volume control (Presentation)](/people-use-web/tools-techniques/presentation/#volume)
-* [Spelling and grammar tools (Input)](/people-use-web/tools-techniques/input/#lexical)
-* [Word prediction (Input)](/people-use-web/tools-techniques/input/#prediction)
+* [弹出窗口和动画阻止程序 (呈现)](/people-use-web/tools-techniques/presentation/#blockers)
+* [阅读助理 (呈现)](/people-use-web/tools-techniques/presentation/#reading)
+* [音量控制 (呈现)](/people-use-web/tools-techniques/presentation/#volume)
+* [拼写和语法工具 (输入)](/people-use-web/tools-techniques/input/#lexical)
+* [词语预测 (输入)](/people-use-web/tools-techniques/input/#prediction)
 
-## Related WAI resources
+## 相关WAI资源
 
-* Use case: [Amy: An Autistic Computer Scientist](https://www.w3.org/TR/coga-usable/#amy-an-autistic-computer-scientist)
-* Video: [Understandable Content](/perspective-videos/understandable/)
-* Tip: [Use headings to convey meaning and structure](/tips/writing/#use-headings-to-convey-meaning-and-structure)
-* Tip: [Make link text meaningful](/tips/writing/#make-link-text-meaningful)
-* Tip: [Provide clear instructions](/tips/writing/#provide-clear-instructions)
-* Tip: [Keep content clear and concise](/tips/writing/#keep-content-clear-and-concise)
-* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Tip: [Provide easily identifiable feedback](/tips/designing/#provide-easily-identifiable-feedback)
-* Tip: [Help users avoid and correct mistakes](/tips/developing/#help-users-avoid-and-correct-mistakes)
-* Check: [Headings](/test-evaluate/preliminary/#headings)
-* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* 使用案例: [Amy：一名自闭症计算机科学家](https://www.w3.org/TR/coga-usable/#amy-an-autistic-computer-scientist)
+* 视频: [易于理解的内容](/perspective-videos/understandable/)
+* 提示: [使用标题表达含义和结构](/tips/writing/#use-headings-to-convey-meaning-and-structure)
+* 提示: [使链接文本具有意义](/tips/writing/#make-link-text-meaningful)
+* 提示: [提供清晰的指示](/tips/writing/#provide-clear-instructions)
+* 提示: [保持内容清晰简洁](/tips/writing/#keep-content-clear-and-concise)
+* 提示: [确保交互元素易于识别](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* 提示: [提供清晰和一致的导航选项](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* 提示: [提供易于识别的反馈信息](/tips/designing/#provide-easily-identifiable-feedback)
+* 提示: [帮助用户避免和纠正错误](/tips/developing/#help-users-avoid-and-correct-mistakes)
+* 检查: [标题](/test-evaluate/preliminary/#headings)
+* 检查: [表单，标签和错误](/test-evaluate/preliminary/#forms)
 
-## Related principles
+## 相关准则
 
-* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
-* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
-* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
-* [Content does not cause seizures and physical reactions (Operable)](/fundamentals/accessibility-principles/#safe)
-* [Text is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [内容可通过不同方式呈现（可感知）](/fundamentals/accessibility-principles/#adaptable)
+* [内容容易看到和听到（可感知）](/fundamentals/accessibility-principles/#distinguishable)
+* [用户可以轻松导航、查找内容并确定自己的位置（可操作）](/fundamentals/accessibility-principles/#navigable)
+* [内容不会导致癫痫发作和身体反应（可操作）](/fundamentals/accessibility-principles/#safe)
+* [文字可读易懂（可理解）](/fundamentals/accessibility-principles/#readable)
+* [内容以可预测的方式出现和运行（可理解）](/fundamentals/accessibility-principles/#predictable)
 
 {% include excol.html type="start" id="video-transcript" %}
 
-##  Video: Ian, data entry clerk with autism {#accessible-video}
+##  视频: Ian，患有自闭症的数据录入员 {#accessible-video}
 
 {% include excol.html type="middle" %}
 
@@ -224,24 +233,23 @@ Moving or blinking content
     yt-id="bhV7KMfoyT4"
 %}
 
-_This video is also available on a W3C server: [Video: Ian, data entry clerk with autism (file format: MP4, file size: 291MB)](https://media.w3.org/wai/people-use-web/user-stories_2.mp4)._
+_当前视频也可以在 W3C 服务器上找到: [视频: Ian，患有自闭症的数据录入员 (文件格式: MP4, 文件大小: 291MB)](https://media.w3.org/wai/people-use-web/user-stories_2.mp4)._
 
-###  Text Transcript with Description of Visuals {#transcript}
+###  附有视觉描述的文本记录 {#transcript}
 
-| Audio | Visual |
+| 音频 | 视觉 |
 | --- | --- |
-| How people with disabilities use digital technology; Ian, data scientist with autism.| How people with disabilities use digital technology; Ian, data scientist with autism. |
-|Hello! I’m Ian. I’m autistic. I work for a software company three bus stops from my home. | A man speaks directly to the camera. |
-| I’m a data scientist. I enjoy my work very much. Others find this work difficult because it’s quite technical. But for me, it’s really easy. | The man is sitting at a desk using a computer and talking to a woman, standing next to him, about what they can see on the monitor. |
-| Except when something changes and I don’t have enough time to figure out what changed. Like, when I was trying to get to an online meeting and found that the buttons on the app changed. It was very stressful because I was worried about being late to the meeting. Apps that ask for permission before updating allow me to find a suitable time and adjust to the changes. | The man is sitting and working at his desk. A software update appears on his computer screen. |
-| Sometimes I press the wrong thing and everything just changes and I don’t know how to go back. It makes me feel like I just can’t cope. I am trying to work, but I just can’t and I start to panic, and then I can’t even talk anymore. It’s very important to me when I can roll back and undo changes that I didn’t intend or expect to happen. | The man is participating in an online meeting using a video conferencing app. He alternates between single participant and multiple participant view. |
-| It’s also really frustrating when I have to stop work because of an error message that doesn’t tell me what the error is. Error messages that just say “input error” are so useless. Often it’s something really simple, like I didn’t use the right format for the date. Why doesn’t it say that? | The man is working at his desk. He is trying to complete a form and receives an ‘input error’ message. |
-| I love to cook when I’m not working. My friends love to eat what I cook because I find the best recipes! Some cooking websites and apps are easy to use — my favourite recipe sites list the exact ingredients and have step-by-step instructions. It’s easy to find the recipes using the tags and to follow them. | The man is preparing food in a kitchen and reading instructions from a tablet. |
-| Unfortunately, I can’t use some recipe sites even though they have recipes I really want to try. Especially the ones where all sorts of videos start playing and pop-up windows appear without me pressing anything. I didn’t ask for this! These are overwhelming and aren’t the recipe. All I want is the recipe! | The man is having difficulty reading the instructions because of advertisements and pop-up windows. |
-| Or, some sites use meaningless words and phrases and don’t even bother explaining them. I mean, what is a ‘scant cup of brown sugar’? ‘Scant’ could mean so many different things. Instead of ‘scant’ just say what you mean, like ‘a cooking cup filled just below the top’, or ‘not quite a full cup’. That would be easier to understand for everyone.  | The man is preparing food in a kitchen and reading instructions from a tablet. |
-| You can help make technology accessible to me. Accessibility: It’s about people. | The man speaks directly to the camera. |
-| For more information from the Web Accessibility Initiative on how people with disabilities use digital technology, visit w3.org/WAI/people | Accessibility: It's about people; w3.org/WAI/people |
-
+| 残疾人如何使用数字技术；Ian，患有自闭症的数据科学家。| 残疾人如何使用数字技术；Ian，患有自闭症的数据科学家。 |
+| 你好，我叫Ian。我有自闭症。我在一家软件公司工作，离家有三个公交站。 | 一名男子直接对着镜头讲话。 |
+| 我是一名数据科学家。我非常喜欢我的工作。其他人觉得这项工作很难，因为技术性很强。但对我来说，这真的很简单。 | 这名男子正坐在办公桌前使用电脑，与站在他旁边的一名女子谈论他们在显示器上看到的内容。|
+| 除了有什么东西变了，而我又没有足够的时间弄清楚是什么变了的情况。比如，当我试图参加一个在线会议时，发现应用程序上的按钮变了。这让我非常紧张，因为我担心会议会迟到。在更新前征求许可的应用程序可以让我找到一个合适的时间，并适应变化。 | 这名男子正坐在办公桌前工作。他的电脑屏幕上出现了一个软件更新提示。 |
+| 有时我按错了按钮，一切就都变了，我不知道该怎么回去。这让我觉得自己无法承受。我想努力工作，但就是做不到，我开始恐慌，然后我甚至无法再说话。对我来说，能够回退并撤销那些我并不打算或预计会发生的更改非常重要。 | 这名男子正在使用视频会议应用程序参加在线会议。他在单人和多人视图之间交替切换。 |
+| 当我因为一条错误信息而不得不停止工作时，我也会感到非常沮丧，因为这条错误信息并没有告诉我到底出了什么错。只说 “输入错误 ”的错误信息太没用了。通常情况下，问题很简单，比如我没有使用正确的日期格式。为什么不直接说那个？ | 这名男子正在办公桌前工作。他正试图提交一份表单，接着收到了一条“输入错误”信息。 |
+| 业余时间，我喜欢做饭。我的朋友们喜欢吃我做的菜，因为我总会找到最好的食谱！有些烹饪网站和应用程序很容易使用。我最喜欢的食谱网站列出了准确的配料，并有分步说明。使用标签很容易找到食谱，也很容易照着做。 | 这名男子正在厨房准备食物，并阅读平板电脑上的说明。 |
+| 遗憾的是，有些食谱网站即使有我很想尝试的食谱，我也无法使用。特别是那些开始播放各种视频的网站，我什么都不按就会出现弹出窗口。我可没要求这样！这些视频让人目不暇接，而且不是菜谱。我想要的只是菜谱！ | 由于广告和弹出式窗口的存在，该男子在阅读说明时遇到了困难。 |
+| 或者，有些网站使用毫无意义的单词和短语，甚至懒得解释。我的意思是，什么是 “一小杯红糖”？Scant "有很多不同的意思。与其说 “少”，不如说出你的意思，比如 “烹饪杯中的糖刚刚没过杯口”，或者 “还没满一杯”。这样大家就更容易理解了。  | 这名男子正在厨房准备食物，并阅读平板电脑上的说明。 |
+| 您可以帮助让无障碍对我更友好。无障碍：以人为本。 | 该男子直接对着镜头说话。 |
+| 有关 Web 无障碍倡议组织提供的有关残疾人如何使用数字技术的更多信息，请访问 w3.org/WAI/people | Web 无障碍：以人为本。w3.org/WAI/people |
 
 
 {% include excol.html type="end" %}
