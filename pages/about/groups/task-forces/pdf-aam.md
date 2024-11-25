@@ -1,5 +1,5 @@
 ---
-title: Portable Document Format (PDF-AAM) Accessibility APIs Mapping (AAM) Task Force of the ARIA WG
+title: Portable Document Format Accessibility APIs Mapping (PDF-AAM) Task Force of the ARIA WG
 permalink: /about/groups/task-forces/pdf-aam/
 ref: /about/groups/task-forces/pdf-aam/
 lang: en
