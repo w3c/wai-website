@@ -44,7 +44,7 @@ The PDF-AAM Task Force will produce a W3C Technical Report [PDF-AAM](https://w3c
 
 ## Approach
 
-The group will incorporte and extend existing work from the PDF/UA Processor LWG into a W3C Technical Report, expected to reach the Recommendation Track according to the [W3C Process](https://www.w3.org/policies/process/).
+The group will incorporate and extend existing work from the PDF/UA Processor LWG into a W3C Technical Report, expected to reach the Recommendation Track according to the [W3C Process](https://www.w3.org/policies/process/).
 
 ## Communication
 
