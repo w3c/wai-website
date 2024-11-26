@@ -15,8 +15,9 @@ translators: # remove from the beginning of this line and the lines below: "# " 
 - name: "heybran"   # Replace Jan Doe with translator name
   link: "https://github.com/heybran"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+contributors:
+- name: "金凯"   # Replace Jan Doe with contributor name, or delete this line if none
+  link: "https://github.com/JinMokai"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 resource:
@@ -173,7 +174,7 @@ footer: >
       <h3>相关文章</h3>
       <ul>
         <li><a href="#">超级熊收到城市钥匙</a></li>
-        <li><a href="#">超级熊支持市长</a></li>
+        <li><a href="#">超级熊成为市长候选人</a></li>
       </ul>
     </aside>
   </article>
@@ -193,7 +194,7 @@ footer: >
       <h3>相关文章</h3>
       <ul>
         <li><a href="#">超级熊收到城市钥匙</a></li>
-        <li><a href="#">超级熊支持市长</a></li>
+        <li><a href="#">超级熊成为市长候选人</a></li>
       </ul>
     </aside>
   </article>
@@ -620,7 +621,7 @@ buttonExample.addEventListener('click', function(e) {
 验证码会给用户造成很多阻碍。除了验证码，还有其他更易使用的用户输入验证方式，比如自动检测或者界面交互验证。
 如果一定需要用到验证码，确保它是容易理解的，另外提供其他可选方案，比如：
 
-* 提供至少三种解决验证码的方法
+* 提供多于两种解决验证码的方法
 * 让用户有机会请求可绕过验证码的人工代表的帮助
 * 授权用户无需验证码
 
