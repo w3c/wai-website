@@ -30,7 +30,7 @@ Inputs:
   {%- if minutes[1].topics.size > 0 -%}
           <ul>
   {%- for topic in minutes[1].topics %}
-            <li><a href="{{ minutes[1].href }}#{{ topic.id }}">{{ topic.name }}</a></li>
+            <li><a href="{{ topic.href }}">{{ topic.title }}</a></li>
   {%- endfor -%}
           </ul>
   {%- endif %}
