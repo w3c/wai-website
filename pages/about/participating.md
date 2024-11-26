@@ -128,13 +128,9 @@ WAI]({{"/about/sponsoring/" | relative_url }}).
 
 ### Implementing Guidelines
 
--   Use the [Web Content Accessibility Guidelines
-    (WCAG)](/standards-guidelines/wcag/) documents to help make your website
+-   Use the [Web Content Accessibility Guidelines (WCAG)](/standards-guidelines/wcag/) documents to help make your website
     accessible.
--   If you develop authoring tools—any software or service that people
-    use to create or modify web content, including content management
-    systems—implement the [Authoring Tool Accessibility Guidelines
-    (ATAG)](/standards-guidelines/atag/).
+-   If you develop authoring tools—any software or service that people use to create or modify web content, including content management systems—implement the [Authoring Tool Accessibility Guidelines(ATAG)](/standards-guidelines/atag/).
 -   If you develop web browsers, media players, assistive technologies,
     or other user agents—implement the [User Agent Accessibility
     Guidelines (UAAG)](/standards-guidelines/uaag/).
