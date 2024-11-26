@@ -81,7 +81,7 @@ formal period for public review. To get notified of open calls for review, see v
 ### Participating in Community Groups {#CGs}
 
 W3C Community Groups cover a variety of topics. **Anyone can join Community Groups**, after getting a free W3C account and signing the W3C Community Contributor License Agreement. Of the long [list of Community Groups](https://www.w3.org/community/groups/), here are some that are actively seeking contributors:
-* [ACT Rules CG](https://www.w3.org/community/act-r/)
+* [Accessiblity Conformance Testing (ACT) Rules CG](https://www.w3.org/community/act-r/)
 * [ARIA and Assistive Technologies CG](https://www.w3.org/community/aria-at/)
 * [Cognitive Accessibility CG](https://www.w3.org/community/coga-community/)
 * [Immersive Captions CG](https://www.w3.org/community/immersive-captions/)
@@ -103,9 +103,9 @@ including requirements for participation and contribution. See the
 Working Group pages below to find what group best fits your interests
 and to get information on participation.
 
--   **[AG WG](/WAI/GL)** &mdash; The Accessibility Guidelines Working Group develops guidelines for web pages, web applications, and other web content. **See [Participating in AG WG](/WAI/GL/participation)**.
+-   **[AG WG](/WAI/GL)** &mdash; The Accessibility Guidelines Working Group (AGWG) develops guidelines for web pages, web applications, and other web content. **See [Participating in AG WG](/WAI/GL/participation)**.
 -   **[APA](/WAI/APA/)** &mdash; The Accessible Platform Architectures (APA) Working Group reviews W3C's specifications for accessibility support and develops technical support materials. **See [Participating in APA WG](/WAI/APA/participation)**.
--   **[ARIA](/WAI/ARIA/)** &mdash; The Accessible Rich Internet Applications Working Group develops a suite of accessible rich internet applications (ARIA) resources, and accessible APIs and mappings. **See [Participating in ARIA WG](/WAI/ARIA/participation)**.
+-   **[ARIA](/WAI/ARIA/)** &mdash; The Accessible Rich Internet Applications (ARIA Working Group develops a suite of accessible rich internet applications (ARIA) resources, and accessible APIs and mappings. **See [Participating in ARIA WG](/WAI/ARIA/participation)**.
 
 ## Sponsoring WAI
 
