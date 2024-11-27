@@ -80,7 +80,7 @@ See also the [PDF-AAM GitHub issue tracking repository](https://github.com/w3c/p
 
 ## How to Comment, Contribute, and Participate
 
-To join the PDF-AAM Task Force, you must first join the [ARIA Working Group](/about/groups/apawg/). Participants are expected to [actively contribute](/about/groups/task-forces/pdf-aam/work-statement/#participation) to the work of the Task Force. 
+To join the PDF-AAM Task Force, you must first join the [ARIA Working Group](/about/groups/ariawg/). Participants are expected to [actively contribute](/about/groups/task-forces/pdf-aam/work-statement/#participation) to the work of the Task Force. 
 
 If you are interested in participating, email the PDF-AAM Task Force facilitators, [Duff Johnson and Valerie Young](mailto:duff.johnson@pdfa.org,spectranaut@igalia.com?subject=PDF-AAM%20Task%20Force%20Enquiry&cc=wai@w3.org), and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [ARIA Working Group participation](/about/groups/ariawg/participate/) procedures to join the Working Group. Once you have joined the Working Group, email the group’s W3C Staff Contact, [Daniel Montalvo](mailto:dmontalvo@w3.org), and ask them to add you to the Task Force.
 
