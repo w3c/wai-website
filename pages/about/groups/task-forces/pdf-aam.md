@@ -44,7 +44,7 @@ The [PDF-AAM Task Force Work Statement](/about/groups/task-forces/pdf-aam/work-s
 
 The PDF-AAM Task Force conducts its work using a variety of synchronous and asynchronous tools.
 
-- Teleconferences of the ARIA Working Group and its task forces (also see [meeting minutes](https://www.w3.org/WAI/ARIA/task-forces/pdf-aam/minutes))
+- Teleconferences of the ARIA Working Group and its task forces
 - Face-to-face meetings
 - [Mailing lists](#mailing-lists)
 - IRC (Internet Relay Chat) discussion on the [#pdf-aam](irc://irc.w3.org/pdf-aam) IRC channel, used largely for minute-taking
