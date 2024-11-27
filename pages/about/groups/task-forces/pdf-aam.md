@@ -74,8 +74,6 @@ For the current PDF Accessibility API mappings, see the [Editor’s Draft](https
 
 The PDF-AAM Task Force is primarily developing [PDF Accessibility API Mappings 1.0](https://w3c.github.io/pdf-aam/). 
 
-See also the [PDF-AAM GitHub issue tracking repository](https://github.com/w3c/pdf-aam/).
-
 ## How to Comment, Contribute, and Participate
 
 To join the PDF-AAM Task Force, you must first join the [ARIA Working Group](/about/groups/ariawg/). Participants are expected to [actively contribute](/about/groups/task-forces/pdf-aam/work-statement/#participation) to the work of the Task Force. 
