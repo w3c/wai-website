@@ -52,8 +52,6 @@ The PDF-AAM Task Force conducts its work using a variety of synchronous and asyn
 - [ARIA specifications repository](https://github.com/w3c/aria)
 - [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/159734/)
 
-These tools are used by the Task Force participants. For ways that non-participants can contribute to the ARIA Working Group, including filing comments on publications, see [ARIA Contribution](/about/groups/ariawg/contribute/).
-
 ### Teleconferences
 
 The PDF-AAM Task Force meets the third Wednesday of the month, 1:00–1:30 PM Eastern Time. For more details, including the meeting time in local time zones, see [PDF-AAM Calendar](https://www.w3.org/groups/tf/pdf-aam/calendar).
