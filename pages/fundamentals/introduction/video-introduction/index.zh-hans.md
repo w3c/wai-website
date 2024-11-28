@@ -5,11 +5,12 @@ lang: zh-hans
 last_updated: 2021-05-04   # Keep the date of the English version
 
 translation:
-  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
- # Keep the date of the English version
+  last_updated: 2024-11-17  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Ruoxi Ran"
+- name: Shane
+  link: https://github.com/codersjj
 
 github:
     label: wai-video-introduction
@@ -25,7 +26,7 @@ changelog: /videos/standards-and-benefits/changelog/
 # Do not change the dates in the footer below.
 footer: >
   <p><strong>日期:</strong> 2021年5月4日更新。首次出发布于2017年12月4日。</p>
-  <p>项目主管： <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. 参与者： <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. 摄像师和视频编辑： Ulrich Grimm. Video clips developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Translations managed with support from the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
+  <p>项目主管： <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. 参与者： <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. 摄像师和视频编辑： Ulrich Grimm. 视频剪辑由 <a href="https://www.w3.org/WAI/DEV/">WAI-DEV 项目</a> 支持开发，该项目由欧洲委员会共同资助。翻译工作在 <a href="https://www.w3.org/WAI/expand-access/">WAI 扩展无障碍访问项目</a> 的支持下管理，该项目由福特基金会资助。</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/
 ---
