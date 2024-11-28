@@ -69,7 +69,7 @@ Participants are automatically added to the mailing list when they become a part
 
 ## Current Work
 
-For the current PDF Accessibility API mappings, see the [Editor’s Draft](https://w3c.github.io/pdf-aam/).
+As this work develops, the Editor’s Draft will be updated with the latest PDF Accessibility API mappings.
 
 ## Publications
 
