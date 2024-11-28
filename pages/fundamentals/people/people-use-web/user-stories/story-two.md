@@ -155,7 +155,7 @@ Ian works part-time as a data scientist. Working with a computer is easy for Ian
 
 Ian finds interacting with colleagues via email easy. He has worked with his team to help them appreciate how using plain language and not introducing new metaphors can help him. Many have said they also prefer less corporate jargon as well. 
 
-Ian has his own living space in his parent's home, including his own kitchen. He has been learning how to cook using online videos. However, vague language, metaphors, and implied content in some of the videos makes them to understand. He finds straightforward, practical, step-by-step videos really helpful. Some of the cooking sites Ian uses have a lot of adverts on them with banners and video, which can be distracting. This is particularly bad if there is audio as well, especially if Ian can't control it easily. It is best when websites don't automatically play audio and video adverts, or at least let Ian control them.
+Ian has his own living space in his parent's home, including his own kitchen. He has been learning how to cook using online videos. However, vague language, metaphors, and implied content in some of the videos makes them difficult to understand. He finds straightforward, practical, step-by-step videos really helpful. Some of the cooking sites Ian uses have a lot of adverts on them with banners and video, which can be distracting. This is particularly bad if there is audio as well, especially if Ian can't control it easily. It is best when websites don't automatically play audio and video adverts, or at least let Ian control them.
 
 ## Barrier examples
 
