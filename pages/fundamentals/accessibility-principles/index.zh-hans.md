@@ -11,7 +11,6 @@ teaser_text: 无障碍原则页面介绍了网站、web应用程序、浏览器�
 
 translation:
   last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators: 
 - name: "李松峰"   # Replace @@ with translator name

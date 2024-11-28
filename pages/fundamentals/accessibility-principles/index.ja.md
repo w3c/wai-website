@@ -11,7 +11,6 @@ teaser_text: アクセシビリティ原則のページでは、ウェブサイ�
 
 translation:
   last_updated: 2023-12-06
-  status: outdated
 
 translators: 
 - name: "Takumi Ishihara"   # Replace @@ with translator name

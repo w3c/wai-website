@@ -11,7 +11,6 @@ teaser_text: 접근성 원칙 페이지는 웹 사이트, 웹 어플리케이션
 
 translation:
   last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators: 
 - name: "Yong Ui Lee"   # Replace @@ with translator name

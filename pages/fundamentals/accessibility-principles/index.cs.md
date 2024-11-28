@@ -11,7 +11,6 @@ teaser_text: Stránka Zásady přístupnosti představuje některé požadavky n
 
 translation:
   last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators: 
 - name: "Kristýna Švecová"
