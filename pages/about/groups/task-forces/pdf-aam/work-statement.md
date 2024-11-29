@@ -1,6 +1,6 @@
 ---
 title: Portable Document Format Accessibility APIs Mapping Task Force Work Statement
-permalink: /about/groups/task-forces/pdf-aam/work-statement/
+title_html: Portable Document Format Accessibility <abbr title="Application Programming permalink: /about/groups/task-forces/pdf-aam/work-statement/
 ref: /about/groups/task-forces/pdf-aam/work-statement/
 lang: en
 github:
