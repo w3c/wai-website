@@ -143,9 +143,9 @@ ARIA 信息：
 
 - [[WCAG-EM 概述：网站无障碍一致性评估方法]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM 是一种方法，用来确定网站有多符合 Web 内容无障碍指南（WCAG）。
 
-### WAI-Adapt
+### WAI适应性（WAI-Adapt）
 
-[[WAI-Adapt概述]](/adapt/) &mdash; WAI-Adapt（或者“个性化”）涉及定制用户体验以满足个人用户的需求和偏好。内容作者可以使用WAI-Adapt标准来提供默认设计，并以最少的工作实现用户适应性调整。
+[[WAI适应性概述]](/adapt/) &mdash; WAI适应性（或者“个性化”）涉及定制用户体验以满足个人用户的需求和偏好。内容作者可以使用WAI适应性标准来提供默认设计，并以最少的工作实现用户适应性调整。
 
 ### 发音
 
