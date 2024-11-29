@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, November 2024</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, December 2024</span>"
 lang: en
-last_updated: 2024-10-31
+last_updated: 2024-11-22
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
 
@@ -105,6 +105,7 @@ We plan to publish the following documents in 2024 or early 2025. <!-- To learn 
 
 * W3C Accessibility Guidelines (WCAG) 3 as an updated Working Draft, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/)
 * [Collaboration Tools Accessibility User Requirements](https://w3c.github.io/ctaur/) as a completed Note
+* Accessibility Roles and Responsibilities Mapping (ARRM) as a draft
 * More [WAI Translations](/translations/) - usually some each week
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
@@ -190,6 +191,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 22 November 2024
+  * Updated [Upcoming Publications list](/update/#upcoming-publications)
 * 31 October 2024
   * Minor updates and typo fixes, shown in [GitHub diff 31 Oct](https://github.com/w3c/wai-website/pull/943/files), [rich text diff 31 Oct](https://github.com/w3c/wai-website/pull/943/files?short_path=6a769e8#diff-6a769e830ab2f49ee55cef25d2b3d266fdfa4221ac073fd4049a23b2660f816c)  
 * 28 September 2024
