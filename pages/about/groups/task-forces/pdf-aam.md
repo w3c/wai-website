@@ -1,6 +1,6 @@
 ---
 title: Portable Document Format Accessibility APIs Mapping (PDF-AAM) Task Force
-title_html: Portable Document Format Accessibility <abbr title="Accessibility Programming Interfaces">APIs</abbr> Mapping (PDF-AAM) Task Force
+title_html: Portable Document Format Accessibility <abbr title="Application Programming Interfaces">APIs</abbr> Mapping (PDF-AAM) Task Force
 permalink: /about/groups/task-forces/pdf-aam/
 ref: /about/groups/task-forces/pdf-aam/
 lang: en
