@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Portable Document Format Accessibility <abbr title="Application Programming Interfaces">APIs</abbr> Mapping (PDF-AAM) Task Force is a task force of the [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/). It assists this Working Group with the work identified below.
+The Portable Document Format Accessibility APIs Mapping (PDF-AAM) Task Force is a task force of the [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/). It assists this Working Group to map Accessibility APIs (Application Programming Interfaces) to PDFs and keep the development of [PDF-AAM](https://w3c.github.io/pdf-aam/) in sync with WAI-ARIA.'
 
 {::nomarkdown}
 {% include box.html type="end" %}
