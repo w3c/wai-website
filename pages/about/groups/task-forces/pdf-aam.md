@@ -73,7 +73,7 @@ As this work develops, the [Editor’s Draft](https://w3c.github.io/pdf-aam/) wi
 
 ## Publications
 
-The PDF-AAM Task Force is primarily developing [PDF Accessibility API Mappings 1.0](https://w3c.github.io/pdf-aam/). 
+The PDF-AAM Task Force is primarily developing [PDF Accessibility API Mappings](https://w3c.github.io/pdf-aam/). 
 
 ## How to Comment, Contribute, and Participate
 
