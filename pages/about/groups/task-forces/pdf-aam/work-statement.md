@@ -40,7 +40,7 @@ The mission of the PDF-AAM Task Force is to specify how user agents should map a
 
 ## Scope of Work
 
-The PDF-AAM Task Force will produce a W3C Technical Report on [PDF Accessibility API Mappings 1.0](https://w3c.github.io/pdf-aam/), specifying accessibility API mappings for PDF, based on the [Core-AAM](https://www.w3.org/TR/core-aam-1.2/) and [HTML-AAM](https://www.w3.org/TR/html-aam/) specifications.
+The PDF-AAM Task Force will produce a W3C Technical Report on [PDF Accessibility API Mappings](https://w3c.github.io/pdf-aam/), specifying accessibility API mappings for PDF, based on the [Core-AAM](https://www.w3.org/TR/core-aam-1.2/) and [HTML-AAM](https://www.w3.org/TR/html-aam/) specifications.
 
 ## Approach
 
