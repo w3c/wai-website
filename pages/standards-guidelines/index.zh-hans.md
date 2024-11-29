@@ -7,11 +7,13 @@ lang: zh-hans
 last_updated: 2024-02-29  # Keep the date of the English version
 
 translation:
-  last_updated: 2024-11-07   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2024-11-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "安佳"
   link: "https://github.com/anjia"
+
+contributors:
 - name: "heybran"
   link: "https://github.com/heybran"
 
@@ -141,10 +143,9 @@ ARIA 信息：
 
 - [[WCAG-EM 概述：网站无障碍一致性评估方法]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM 是一种方法，用来确定网站有多符合 Web 内容无障碍指南（WCAG）。
 
-### 个性化
+### WAI-Adapt
 
-[[个性化概述]](/adapt/) &mdash; 个性化涉及定制用户体验以满足个人用户的需求和偏好。内容作者可以使用个性化标准来提供默认设计，并以最少的工作实现用户个性化。
-### 个性化
+[[WAI-Adapt概述]](/adapt/) &mdash; WAI-Adapt（或者“个性化”）涉及定制用户体验以满足个人用户的需求和偏好。内容作者可以使用WAI-Adapt标准来提供默认设计，并以最少的工作实现用户适应性调整。
 
 ### 发音
 
@@ -168,4 +169,5 @@ ARIA 信息：
 
 - [WAI 如何通过 W3C 流程制定无障碍指南：里程碑和**贡献的机会**](/standards-guidelines/w3c-process/)
 
-![插图显示了不同组件的指南，详见 https://www.w3.org/WAI/intro/components-desc.html#guide]({{ "/content-images/components/specs.png" | relative_url }})
+{% assign longdesc_url = "/fundamentals/components/examples/#guide" | relative_url %}
+{% include image.html src="components/specs.png" alt="插图显示了不同组件的指南" longdesc=longdesc_url %}
