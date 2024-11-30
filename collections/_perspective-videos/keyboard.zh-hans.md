@@ -143,10 +143,11 @@ footer: >
     </tr>
     <tr>
       <td>访问更多关于键盘兼容性信息 w3.org/WAI/perspectives</td>
-      <td>访问<br>
+      <td>
+        有关更多<br>
+        键盘兼容性信息。<br>
+        访问<br>
         w3.org/WAI/perspectives<br>
-        有关更多信息<br>
-        键盘兼容性。<br>
         万维网联盟网络无障碍倡议徽标</td>
     </tr>
   </tbody>
