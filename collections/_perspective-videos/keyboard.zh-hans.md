@@ -142,7 +142,7 @@ footer: >
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td>访问更多关于键盘兼容性信息 w3.org/WAI/perspectives</td>
+      <td>更多关于键盘兼容性信息可访问 w3.org/WAI/perspectives</td>
       <td>
         有关更多<br>
         键盘兼容性信息。<br>
