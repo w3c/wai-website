@@ -13,8 +13,9 @@ translators:
 - name: "金凯" 
   link: "https://github.com/JinMokai"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+contributors:
+- name: "heybran"
+  link: "https://github.com/heybran"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
