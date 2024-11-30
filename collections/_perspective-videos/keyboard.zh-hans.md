@@ -94,7 +94,7 @@ footer: >
     -   [与“键盘”有关的成功标准](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard)
 -   **移动端使用范围:**
     -   [交互和导航需要鼠标](/standards-guidelines/shared-experiences/#mouse)
--   **Tutorial:**
+-   **教程:**
     -   [Web无障碍教程](https://www.w3.org/WAI/tutorials/) (几个相关主题)
 
 ## 带视觉效果的文本描述 {#transcript}
