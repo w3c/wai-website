@@ -78,7 +78,7 @@ support: 由教育和外联工作组开发 (<a href="https://www.w3.org/groups/w
       _在`alt`属性中使用简明的图片说明，以传递该含义。参阅 [信息图片](/tutorials/images/informative/)。_
     - **…并且是图表或复杂的信息。**
       _在页面其他地方包含图片中的信息。参阅 [复杂图像](/tutorials/images/complex/)。_
-    - **…而且它显示的内容与附近*真实*的文本是多余的**
+    - **…并且它显示的内容与附近*真实*的文本相比是多余的**
       _使用一个空的`alt`属性。参阅 (多余的) [功能性图片](/tutorials/images/functional/#logo-image-within-link-text)。_
   - {:.no} **否：**
     - 继续。
