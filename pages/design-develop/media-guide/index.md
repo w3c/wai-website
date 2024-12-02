@@ -52,7 +52,7 @@ Address the following components:
 
 * {:.left} [{% include image.html src="media-guide/av-content.svg" alt="" %} Audio Content and Video Content](/media/av/av-content/):<br>Make new audio and video content accessible. Avoid accessibility barriers when planning, scripting, storyboarding, and recording your media.
 
-* {:.left} [{% include image.html src="media-guide/ad.svg" alt="" %} Description of Visual Information](/media/av/description/):<br>Provide description so that people who are blind and others who cannot see the video adequately get the visual information needed to understand the content. This includes things like charts, graphs, and text such as speaker names, titles, and e-mail addresses.
+* {:.left} [{% include image.html src="media-guide/ad.svg" alt="" %} Description of Visual Information](/media/av/description/) (audio description, video description, described video):<br>Provide description so that people who are blind and others who cannot see the video adequately get the visual information needed to understand the content. This includes things like charts, graphs, and text such as speaker names, titles, and e-mail addresses.
 
 * {:.left} [{% include image.html src="media-guide/cc.svg" alt="" %} Captions/Subtitles](/media/av/captions/):<br>Provide captions (also called “subtitles”) so that people who are Deaf and hard-of-hearing get a text version of the speech and non-speech audio information needed to understand the content.
 
