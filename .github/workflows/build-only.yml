@@ -21,9 +21,6 @@ jobs:
       with:
         ruby-version: 3.3.3
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - name: Update Externals
-      run: |
-        git submodule update --init --remote
     - name: Build and test with Jekyll
       run: |
         bundle exec jekyll build --verbose --trace --config "_config.yml,_config_prod.yml" --profile
