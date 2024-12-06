@@ -38,11 +38,11 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory phase, and will change. We published an updated [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) on 16 May 2024.
+Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory phase, and will change. We published an updated [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) on 12 Dec 2024.
 
 WCAG 3 will have similar fundamental and specific accessibility requirements as WCAG 2. WCAG 3 will have a different structure, different conformance model, and broader scope.
 
-Please share this page as the starting point for official information about WCAG 3 now and in the future. short link: w3.org/WAI/wcag3
+Please share this page as the starting point for official information about WCAG 3 now and in the future. Short link: w3.org/WAI/wcag3
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -70,28 +70,40 @@ The WCAG 3 documents will explain how to make the web more accessible to people 
 
 We will update this page regularly as work on the WCAG 3 Draft progresses.
 
+## Updated Requirements and Explainer
+
+As part of the December 2024 update we have published updated [Requirements](https://www.w3.org/TR/wcag-3.0-requirements/) and [Explainer](https://www.w3.org/TR/wcag-3.0-explainer/) documents.
+
+The Requirements are drawn from the research conducted by the Silver Community Group. They capture the key principles and requirements that will help shape how WCAG 3 develops and determining when it is successfully complete.
+
+The Explainer provides an overview of the history and goals of WCAG 3. This document also describes the current thinking on the structure of the guidelines and the conformance model.
+
 ## Status: Exploratory Draft
 
-The May 2024 [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) includes **potential** outcomes that we are exploring. The final set of outcomes in WCAG 3 will be different from this draft. Outcomes will be edited, added, combined, and removed.
+The Dec 2024 [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) includes **potential** Guidelines and Requirements which we are exploring. The final set of requirements in WCAG 3 will be different from this draft. Guidelines and Requirements will be edited, added, combined, and removed.
 
-The purpose of this draft is to:
-* better understand the scope of user needs and how they could be addressed in an accessibility standard,
-* request assistance in identifying gaps, and
-* request assistance locating and conducting research to validate or invalidate the drafted outcomes.
-
-Some of the outcomes are marked as needing research. We are particularly interested in assistance identifying or conducting research to support or refute them.
+Some of the Guidelines and Requirements are marked as needing research. We are particularly interested in assistance identifying or conducting research to support or refute them.
 
 ### For your review
 
-When reviewing this update, please focus on the Guidelines section. We did not make changes to conformance related sections.
+When reviewing this update, please focus on the Guidelines section.
 
-Please consider the following questions when reviewing the outcomes in this draft:
-* What outcomes needed to make web content accessible are missing?
-* What research supports or refutes these outcomes?
-* Are any of these outcomes out of scope for accessibility standards? If so, please explain why.
+In this draft, there are four updated sections that we would particularly like feedback on. The first three sections are guidelines:
+
+1. [Image alternatives guideline](https://w3.org/TR/wcag-3.0/#image-alternatives)
+2. [Keyboard focus appearance guideline](https://w3.org/TR/wcag-3.0/#keyboard-focus-appearance)
+3. [Clear meaning guideline](https://w3.org/TR/wcag-3.0/#clear-meaning)
+
+For these sections does the information under 'Which foundational requirements apply?' make the guidelines easier to understand and use?
+
+The last section we would like feedback on is:
+
+4. [Conformance](https://w3.org/TR/wcag-3.0/#conformance)
+5. 
+This section explains the approach to conformance that the Group is considering for WCAG 3. There are still many details to be worked out. Do you have constructive comments about this proposed conformance approach for WCAG 3?
 
 To provide input, please file GitHub issues at: [https://github.com/w3c/wcag3/issues](https://github.com/w3c/wcag3/issues)<br>
-Or, if you are unable to use GitHub, send email to public-agwg-comments@w3.org
+Or, if you are unable to use GitHub, email public-agwg-comments@w3.org
 
 Please create separate GitHub issues or email messages for each topic (rather than putting multiple topics in a single issue or email).
 
@@ -99,11 +111,11 @@ Please create separate GitHub issues or email messages for each topic (rather th
 
 Each normative section has a status that indicates how far along in the development process this section is, how ready it is for experimental adoption, and what kind of feedback we are looking for.
 
-* **Placeholder:** This content is temporary. It shows the type of content or section to expect. Placeholder text will be replaced. It is hidden by default in the Editor's draft. No feedback is needed on placeholder content.
-* **Exploratory:** The Working Group is exploring what direction to take with this section. This content is not refined; details and definitions may be missing. It is hidden by default in the Editor's draft. We invite feedback on the proposed direction.
-* **Developing:** There is rough agreement on what is needed for this section, although not all high-level concerns have been settled. Details are included, yet they are not all agreed on. We invite general feedback on how understandable, usable, and reasonable the section is generally.
-* **Refining:** The Working Group has reach consensus on this section. It is ready for broad public review and experimental adoption. We seek feedback on feasibility and issues with implementations.
-* **Mature:** The Working Group thinks this content is ready for the final standard. Feedback should be focused on edge case scenarios the Working Group might not have anticipated.
+* **Placeholder**: This content is temporary. It showcases the type of content or section to expect here. All of this is expected to be replaced. No feedback is needed on placeholder content.
+* **Exploratory**: The Working Group is exploring what direction to take with this section. This content is not refined, details and definitions may be missing. Feedback should be about the proposed direction.
+* **Developing**: There is rough agreement on what is needed for this section, although not all high-level concerns have been settled. Details have been filled, but are yet to be worked out. Feedback should be focused on ensuring the sections are usable and reasonable in a broad sense.
+* **Refining**: The Working Group has reach consensus on this section. It is ready for broad public review and experimental adoption. Feedback should be focused on the feasibility of implementation.
+* **Mature**: Content is believed by the Working Group to be ready for recommendation. Feedback should be focused on edge case scenarios the Working Group may not have anticipated.
 
 <img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
 
