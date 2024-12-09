@@ -105,8 +105,8 @@ Goals were to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria a
 ### Phase 2
 
 The next phase of updates will include any other in-scope work, including:
-* Addition of guidance for Level AAA success criteria. Details of the Phase 2 timeline are found outside of this document. See the [schedule and milestones](https://github.com/w3c/wcag2ict/wiki/Schedule-and-milestones) page in the GitHub WCAG2ICT Wiki.
 * Development of a WCAG2ICT Explainer. An initial outline is available in the Google doc [WCAG2ICT Explainer](https://docs.google.com/document/d/1hyei09Viby1bCoZnDLYwY9VWpzRvteK9pqt4v9sWCJE/edit?usp=sharing).
+* Addition of guidance for Level AAA success criteria. Details of the Phase 2 timeline are found outside of this document. See the [schedule and milestones](https://github.com/w3c/wcag2ict/wiki/Schedule-and-milestones) page in the GitHub WCAG2ICT Wiki.
 
 ## Liaisons
 
