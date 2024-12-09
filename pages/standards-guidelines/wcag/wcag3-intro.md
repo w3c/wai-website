@@ -38,7 +38,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory phase, and will change. We published an updated [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) on 12 Dec 2024.
+Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory phase, and will change substantially. We published an updated [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) on 12 December 2024.
 
 WCAG 3 will have similar fundamental and specific accessibility requirements as WCAG 2. WCAG 3 will have a different structure, different conformance model, and broader scope.
 
@@ -70,42 +70,40 @@ The WCAG 3 documents will explain how to make the web more accessible to people 
 
 We will update this page regularly as work on the WCAG 3 Draft progresses.
 
-## Updated Requirements and Explainer
+## Status: In-progress drafts
 
-As part of the December 2024 update we have published updated [Requirements](https://www.w3.org/TR/wcag-3.0-requirements/) and [Explainer](https://www.w3.org/TR/wcag-3.0-explainer/) documents.
+In December 2024, we published updated drafts:
 
-The Requirements are drawn from the research conducted by the Silver Community Group. They capture the key principles and requirements that will help shape how WCAG 3 develops and determining when it is successfully complete.
-
-The Explainer provides an overview of the history and goals of WCAG 3. This document also describes the current thinking on the structure of the guidelines and the conformance model.
-
-## Status: Exploratory Draft
-
-The Dec 2024 [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) includes **potential** Guidelines and Requirements which we are exploring. The final set of requirements in WCAG 3 will be different from this draft. Guidelines and Requirements will be edited, added, combined, and removed.
-
-Some of the Guidelines and Requirements are marked as needing research. We are particularly interested in assistance identifying or conducting research to support or refute them.
+* [Requirements for WCAG 3](https://www.w3.org/TR/wcag-3.0-requirements/) describes the key principles and requirements that will help shape how WCAG 3 develops and determe when it is successfully complete.
+* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides an overview of the history and goals of WCAG 3. It describes the structure of the guidelines and the conformance model for the December 2024 draft of WCAG 3. We suggest reading the Explainer before reading WCAG 3.
+* **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines and requirements that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed.
 
 ### For your review
 
-When reviewing this update, please focus on the Guidelines section.
-
-In this draft, there are four updated sections that we would particularly like feedback on. The first three sections are guidelines:
+In this WCAG 3 Working Draft, there are four updated sections that we would particularly like feedback on. The first three sections are guidelines:
 
 1. [Image alternatives guideline](https://w3.org/TR/wcag-3.0/#image-alternatives)
 2. [Keyboard focus appearance guideline](https://w3.org/TR/wcag-3.0/#keyboard-focus-appearance)
 3. [Clear meaning guideline](https://w3.org/TR/wcag-3.0/#clear-meaning)
 
-For these sections does the information under 'Which foundational requirements apply?' make the guidelines easier to understand and use?
+For these sections, does the information under 'Which foundational requirements apply?' make the guidelines easier to understand and use?
 
-The last section we would like feedback on is:
+The other section we would like feedback on is:
 
 4. [Conformance](https://w3.org/TR/wcag-3.0/#conformance)
-5. 
-This section explains the approach to conformance that the Group is considering for WCAG 3. There are still many details to be worked out. Do you have constructive comments about this proposed conformance approach for WCAG 3?
 
-To provide input, please file GitHub issues at: [https://github.com/w3c/wcag3/issues](https://github.com/w3c/wcag3/issues)<br>
+This section explains the conformance approach we are considering for WCAG 3. There are still many details to be worked out. Do you have constructive comments about this proposed conformance approach for WCAG 3?
+
+### Research needed
+
+Some of the guidelines and requirements are marked with "Needs additional research". We are particularly interested in assistance identifying or conducting research to support or refute them.
+
+### Comments
+
+To provide input, please [open an issue in the WCAG 3 GitHub repository](https://github.com/w3c/wcag3/issues/new)<br>
 Or, if you are unable to use GitHub, email public-agwg-comments@w3.org
 
-Please create separate GitHub issues or email messages for each topic (rather than putting multiple topics in a single issue or email).
+**Please create separate GitHub issues or email messages for each topic**, rather than putting multiple topics in a single issue or email.
 
 ### Status of Sections
 
@@ -118,22 +116,6 @@ Each normative section has a status that indicates how far along in the developm
 * **Mature**: Content is believed by the Working Group to be ready for recommendation. Feedback should be focused on edge case scenarios the Working Group may not have anticipated.
 
 <img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
-
-**There are substantial open issues that are still being discussed, particularly about testing and conformance.**
-
-<!--
-### Review and Comments
-
-We welcome input from evaluators, developers, designers, project managers, policy makers, people with disabilities, and others.
-
-We also welcome comments on the goals and parameters in [Requirements for WCAG 3.0](https://www.w3.org/TR/wcag-3.0-requirements/).
-
-The best way to provide this feedback is by opening new [GitHub issues](https://github.com/w3c/wcag3/issues/new). Alternatively, e-mail public-agwg-comments@w3.org
-
-Please put each topic in a separate GitHub issue or e-mail.
-
-Additionally, we welcome comments on ways that the Accessibility Guidelines Working Group can better support your review, feedback, and inclusion in the process of creating WCAG 3. Please e-mail these to group-ag-chairs@w3.org
--->
 
 ## WCAG 3 Draft Approach
 
@@ -162,11 +144,11 @@ This WCAG 3 draft has:
    * Solutions to accessibility problems
    * More **granular** than the guidelines in WCAG 2
    * Each guideline has outcomes
-* **Outcomes**
+* **Outcomes** @@ is this still correct? @@
    * Verifiable statements
    * Similar to **success criteria** in WCAG 2
    * More granular and more focused on the desired results than the technical means for achieving them<br>(More _granular_ means they are more specific, instead of broad. That generally makes them simpler. It also means there will be more of WCAG 3 outcomes than WCAG 2 success criteria.)
-* **Assertions**
+* **Assertions** @@ is this still correct? @@
    * Formal claim of fact, attributed to a person or organization
    * Assertions in WCAG 3 state that an organization has completed a procedure that can improve accessibility
    * Example procedures include usability testing, assistive technology testing, and plain language reviews
@@ -192,11 +174,14 @@ The _conformance model_ is the way to determine and communicate how well a websi
 * be more flexible for organizations (that is, owners and developers of websites, apps, tools, etc.)
 * encourage more accessible user experiences
 
-We are reworking the conformance model based on feedback and we encourage additional feedback as we iterate. 
+We are reworking the conformance model based on feedback and we encourage additional feedback as we iterate.  @@ should this be updated? @@
 
 ## Development
 
-### Timeline
+### Timeline @@ update this section @@
+
+@@ maybe say: Based on the pace of the work over the next several months, we plan to provide an expected timeline for WCAG 3 by September 2025.
+@@ maybe link to https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline#Publication_Plan ?
 
 <img src="{{ "/content-images/wcag/calandara.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 20%; max-width: 111px">
 
