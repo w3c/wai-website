@@ -10,7 +10,6 @@ description: نبذة عن مبادئ متطلبات إمكانية الوصول
 
 translation:
   last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators:
 - name: "محمد سليم"

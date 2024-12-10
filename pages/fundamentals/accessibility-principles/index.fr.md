@@ -10,7 +10,6 @@ teaser_text: La page «&#8239;Principes d’accessibilité&#8239;» présente ce
 
 translation:
   last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators:
 - name: "Stéphane Deschamps"
