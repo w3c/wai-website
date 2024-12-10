@@ -6,7 +6,7 @@ module Jekyll
   class MinutesFetcher < Generator
     def generate(site)
       start_time = Time.now
-      limit = 2000
+      limit = 10000
       requested_channels = []
       site.data['minutes']['groups'].each {|id, channels| requested_channels.push(*channels)}
 
@@ -15,6 +15,15 @@ module Jekyll
       data = JSON.parse(Net::HTTP.get(minutesUri))
       grouped_data = {}
       data.each do |entry|
+        entry['topics'].select! {|topic| topic['title'] != nil}
+        entry['topics'].each do |topic|
+          topic['title'].encode!('UTF-8', invalid: :replace, replace: '')
+        end
+        if (entry['resolutions'])
+          entry['resolutions'].each do |resolution|
+            resolution['topic'].encode!('UTF-8', invalid: :replace, replace: '') if resolution['topic']
+          end
+        end
         grouped_data[entry['channel']] = {} unless grouped_data[entry['channel']]
         grouped_data[entry['channel']]["#{entry['yyyy']}-#{entry['mm']}-#{entry['dd']}"] = {
           'href' => entry['href'],
