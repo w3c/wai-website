@@ -98,24 +98,23 @@ This section explains the conformance approach we are considering for WCAG 3. Th
 
 Some of the guidelines and requirements are marked with "Needs additional research". We are particularly interested in assistance identifying or conducting research to support or refute them.
 
-### Comments
-
-To provide input, please [open an issue in the WCAG 3 GitHub repository](https://github.com/w3c/wcag3/issues/new)<br>
-Or, if you are unable to use GitHub, email public-agwg-comments@w3.org
-
-**Please create separate GitHub issues or email messages for each topic**, rather than putting multiple topics in a single issue or email.
-
 ### Status of Sections
 
 Each normative section has a status that indicates how far along in the development process this section is, how ready it is for experimental adoption, and what kind of feedback we are looking for.
 
-* **Placeholder**: This content is temporary. It showcases the type of content or section to expect here. All of this is expected to be replaced. No feedback is needed on placeholder content.
-* **Exploratory**: The Working Group is exploring what direction to take with this section. This content is not refined, details and definitions may be missing. Feedback should be about the proposed direction.
-* **Developing**: There is rough agreement on what is needed for this section, although not all high-level concerns have been settled. Details have been filled, but are yet to be worked out. Feedback should be focused on ensuring the sections are usable and reasonable in a broad sense.
-* **Refining**: The Working Group has reach consensus on this section. It is ready for broad public review and experimental adoption. Feedback should be focused on the feasibility of implementation.
-* **Mature**: Content is believed by the Working Group to be ready for recommendation. Feedback should be focused on edge case scenarios the Working Group may not have anticipated.
+* **Placeholder**: This content is temporary. It showcases the type of content to expect here. All of this is expected to be replaced. No feedback is needed on placeholder content.
+* **Exploratory**: This content is not refined, details and definitions may be missing. The Working Group is exploring what direction to take with this section. Feedback should be about the proposed direction.
+* **Developing**: This content has been roughly agreed on in terms of what is needed for this section, although not all high-level concerns have been settled. Details have been filled, but are yet to be worked out. Feedback should be focused on ensuring the sections is usable and reasonable in a broad sense.
+* **Refining**: This content is ready for broad public review and experimental adoption. The Working Group has reached consensus on this section. Feedback should be focused on the feasibility of implementation.
+* **Mature**: This content is believed by the Working Group to be ready for recommendation. Feedback on this section should be focused on edge case scenarios that the Working Group may not have anticipated.
+
+### Comments
 
 <img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
+
+To provide input, please [open an issue in the WCAG 3 GitHub repository](https://github.com/w3c/wcag3/issues/new). Or, if you are unable to use GitHub, email [public-agwg-comments@w3.org](mailto:public-agwg-comments@w3.org).
+
+**Please create separate GitHub issues or email messages for each topic**, rather than putting multiple topics in a single issue or email.
 
 ## WCAG 3 Draft Approach
 
@@ -137,65 +136,7 @@ WCAG 3 is very **different** from previous versions in some ways. It has:
 * different conformance model
 * broader scope, beyond just web content
 
-### Structure
-
-This WCAG 3 draft has:
-* **Guidelines**
-   * Solutions to accessibility problems
-   * More **granular** than the guidelines in WCAG 2
-   * Each guideline has outcomes
-* **Outcomes** @@ is this still correct? @@
-   * Verifiable statements
-   * Similar to **success criteria** in WCAG 2
-   * More granular and more focused on the desired results than the technical means for achieving them<br>(More _granular_ means they are more specific, instead of broad. That generally makes them simpler. It also means there will be more of WCAG 3 outcomes than WCAG 2 success criteria.)
-* **Assertions** @@ is this still correct? @@
-   * Formal claim of fact, attributed to a person or organization
-   * Assertions in WCAG 3 state that an organization has completed a procedure that can improve accessibility
-   * Example procedures include usability testing, assistive technology testing, and plain language reviews
-   * Assertions are used when the results of the same usability would be very different between testers
-
-<!-- @@ ??? SLH needs more clarity -->
-
-WCAG 3 supporting material includes:
-* **Methods**
-   * Technology-specific ways to achieve an outcome
-   * Tests for the outcome
-   * Similar to **Techniques** for WCAG 2
-* **How-To documents**
-   * Explain more about each guideline, such as how it addresses accessibility needs <!-- @@ each outcome or each guideline ? -->
-   * Information for designers, developers, people new to accessibility, and project planners
-   * Similar to the  **Understanding** documents for WCAG 2
-* **Functional categories** of **functional needs**
-   * Categorized list of needs of people with disabilities
-
-### Draft Conformance Model {#model}
-
-The _conformance model_ is the way to determine and communicate how well a website (or app, tool, etc.) meets WCAG. The conformance model in this draft of WCAG 3 will be very different from WCAG 2. It is intended to:
-* be more flexible for organizations (that is, owners and developers of websites, apps, tools, etc.)
-* encourage more accessible user experiences
-
-We are reworking the conformance model based on feedback and we encourage additional feedback as we iterate.  @@ should this be updated? @@
-
-## Development
-
-### Timeline @@ update this section @@
-
-@@ maybe say: Based on the pace of the work over the next several months, we plan to provide an expected timeline for WCAG 3 by September 2025.
-@@ maybe link to https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline#Publication_Plan ?
-
-<img src="{{ "/content-images/wcag/calandara.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 20%; max-width: 111px">
-
-The First Public Working Draft of WCAG 3.0 was published on 21 January 2021. The July 2023 draft has many changes that resulted from public feedback. We plan to publish updated drafts every 3-6 months.
-
-**WCAG 3 is not expected to be a completed W3C standard for a few more years.** 
-
-The Working Group will focus on creating an initial set of guidelines and outcomes. Then will focus on refining the structure and conformance model. They will provide updated drafts for review throughout this process. Once the conformance approach is more stable, the Group will focus on refining the accessibility requirements (guidelines, outcomes, assertions, and support material). We will then provide material to help those wanting to transition to WCAG 3; for example, mapping between WCAG 2 and 3 requirements.
-
-WCAG 3 will not supersede WCAG 2, and WCAG 2 will not be deprecated, for at least several years after WCAG 3 is finalized.
-
-We will update this section with more specific timeline information as it is available.
-
-### WCAG 3 Name (formerly "Silver" project)
+### WCAG 3 Name
 
 The name of WCAG 3 is different from WCAG 2:
 * WCAG **3** is W3C Accessibility Guidelines
@@ -205,9 +146,52 @@ The name of WCAG 3 is different from WCAG 2:
 * because of wide-spread familiarity with the “WCAG” acronym
 * to encompass the broader scope beyond “content”
 
+### Structure
+
+WCAG 3 includes both normative and informative guidance. This guidances is organized into:
+
+* Guidelines (normative) - plain language, user-centered outcomes statements.
+  * Foundational Requirements (normative) - used to test the most basic level of accessibility.
+  * Supplemental Requirements (normative) - used for higher levels of conformance.
+  * Assertions (normative) - a formal claim of fact, used to indicate that an organization has completed a procedure that can improve accessibility.
+
+Each set of Foundational Requirements are organized into a decision tree to show the relationship between requirements and to allow for accessibility-supported solutions in the future. This are designed to help people determine which requirement is appropriate to check against.
+
+Each Requirement is associated with at least one Method. Methods are informative. Each method contains techniques for meeting the requirements, examples, resources, and sets of tests. Methods can apply to a specific technology, such as HTML, or can be more generic where the advice applies no matter what technology. For example, the methods supporting the Clear Language guideline.
+
+Additional informative supporting material is provided in How-To documents. These explain more about each guideline. They are similar to the **Understanding** documents for WCAG 2.
+
+### Conformance Approach {#model}
+
+The _conformance model_ is the way to determine and communicate how well content or a product meets WCAG.
+
+WCAG 3.0 will use a different conformance model than WCAG 2.2 in order to meet its requirements. Developing and vetting the conformance model is a large portion of the work AG needs to complete over the next few years.
+
+AG is exploring a model based on Foundational Requirements, Supplemental Requirements, and Assertions.
+
+The most basic level of conformance will require meeting all of the Foundational Requirements. This set will be somewhat comparable to WCAG 2.2 Level AA.
+
+Higher levels of conformance will be defined and met using Supplemental Requirements and Assertions. AG will be exploring whether meeting the higher levels would work best based on points, percentages, or predefined sets of provisions (modules).
+
+## Development
+
+### Timeline
+
+<img src="{{ "/content-images/wcag/calandara.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 20%; max-width: 111px">
+
+The Working Group has created an initial set of guidelines. Over the comming months the group will focus on developing two or three guidelines to Refining or Mature status. We plan to use this data to provide an expected timeline for WCAG 3 as part of our next charter.
+
+For information on current timelines and activities, see [WCAG 3 Publication Plan](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline#Publication_Plan).
+
+**WCAG 3 is not expected to be a completed W3C standard for a few more years.** 
+
+WCAG 3 will not supersede WCAG 2, and WCAG 2 will not be deprecated, for at least several years after WCAG 3 is finalized.
+
+We will update this section with more specific timeline information as it is available.
+
 ### Who Develops WCAG 3
 
-The WCAG technical documents are developed by the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/WAI/GL/)) (previously under the Silver Task Force) with the Silver Community Group. These Groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)). You can learn about the development process from [[How WAI Develops Accessibility Standards through the W3C Process: Milestones and Opportunities to Contribute]](/standards-guidelines/w3c-process/).
+The WCAG technical documents are developed by the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/WAI/about/groups/agwg/)) (previously under the Silver Task Force) with the Silver Community Group. These Groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)). You can learn about the development process from [[How WAI Develops Accessibility Standards through the W3C Process: Milestones and Opportunities to Contribute]](/standards-guidelines/w3c-process/).
 
 We welcome your comments on WCAG 3 Working Drafts. The best way to provide feedback is by opening new [GitHub issues](https://github.com/w3c/wcag3/issues). Alternatively, e-mail public-agwg-comments@w3.org
 
