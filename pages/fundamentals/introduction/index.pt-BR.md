@@ -65,7 +65,7 @@ A web é fundamentalmente projetada para funcionar para todas as pessoas, indepe
 
 Assim, o impacto da deficiência é radicalmente alterado na web porque a web remove barreiras à comunicação e interação que muitas pessoas enfrentam no mundo físico. No entanto, quando sites, aplicações, tecnologias ou ferramentas são mal projetados, eles podem criar barreiras que excluem as pessoas de usar a web.
 
-**A acessibilidade é essencial para pessoas desenvolvedoras e organizações que desejam criar sites e ferramentas web de alta qualidade e não excluir as pessoas de usar seus produtos e serviços.**
+**A acessibilidade é essencial para pessoas desenvolvedoras e organizações que desejem criar sites e ferramentas web de alta qualidade e não excluir as pessoas de usar seus produtos e serviços.**
 
 ## O que é acessibilidade web {#what}
 
@@ -87,7 +87,7 @@ A acessibilidade web também beneficia pessoas *sem* deficiência, por exemplo:
 
 -   pessoas que usam celulares, relógios inteligentes, TVs inteligentes e outros dispositivos com telas pequenas, diferentes modos de entrada, etc.
 -   pessoas mais velhas com habilidades alteradas devido ao envelhecimento
--   pessoas com "deficiências temporárias", como um braço quebrado ou óculos perdido
+-   pessoas com "deficiências temporárias", como um braço quebrado ou um par de óculos perdido
 -   pessoas com "limitações situacionais", como sob luz solar intensa ou em um ambiente onde não podem ouvir áudio
 -   pessoas que usam uma conexão lenta à internet ou que têm largura de banda limitada ou cara
 
@@ -109,7 +109,7 @@ Para um vídeo de 7 minutos com exemplos de como a acessibilidade é essencial p
 
 A web é um recurso cada vez mais importante em muitos aspectos da vida: educação, emprego, governo, comércio, assistência médica, recreação e muito mais. É essencial que a web seja acessível para fornecer acesso e oportunidades iguais a pessoas com habilidades diferentes. O acesso às tecnologias de informação e comunicação, incluindo a web, é definido como um direito humano básico na Convenção das Nações Unidas sobre os Direitos das Pessoas com Deficiência (UN [CRPD](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html)).
 
-A web oferece a possibilidade de acesso sem precedentes à informação e interação para muitas pessoas com deficiência. Ou seja, as barreiras de acessibilidade à mídia impressa, de áudio e visual podem ser superadas muito mais facilmente por meio de tecnologias web.
+A web oferece a possibilidade de acesso sem precedentes à informação e interação para muitas pessoas com deficiência. Ou seja, as barreiras de acessibilidade a materiais impressos, áudio e mídia visual podem ser superadas muito mais facilmente por meio de tecnologias web.
 
 A acessibilidade oferece suporte à inclusão social para pessoas com deficiência, bem como outras pessoas, como:
 
@@ -117,7 +117,7 @@ A acessibilidade oferece suporte à inclusão social para pessoas com deficiênc
 -   pessoas em áreas rurais
 -   pessoas em países em desenvolvimento
 
-**Há também um forte caso de negócio para acessibilidade.** Conforme mostrado na seção anterior, o design acessível melhora a experiência geral da pessoa usuária e a satisfação, especialmente em uma variedade de situações, em diferentes dispositivos e para pessoas usuárias mais velhas. A acessibilidade pode melhorar sua marca, impulsionar a inovação e estender seu alcance no mercado.
+**Há também um forte caso de negócio para acessibilidade.** Conforme mostrado na seção anterior, o design acessível melhora a experiência geral e a satisfação da pessoa usuária, especialmente em uma variedade de situações, em diferentes dispositivos e para pessoas usuárias mais velhas. A acessibilidade pode melhorar sua marca, impulsionar a inovação e estender seu alcance no mercado.
 
 A acessibilidade web é **exigida por lei** em muitas situações.
 
