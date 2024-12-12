@@ -39,7 +39,7 @@ This page answers to some frequently asked questions (FAQ) about (WCAG. Let us k
 
   <ul class="questions">
     <li><a href="#parsing411">How and why is success criteria 4.1.1 Parsing obsolete?</a></li>
-    <li>New: <a href="#22Dec2024">What was updated WCAG 2.2 in December 2024?</a></li>
+    <li>New: <a href="#Dec2024">What was updated WCAG 2.2 in December 2024?</a></li>
     <li>New: <a href="#Sept2023">What was updated WCAG 2.1 in September 2023 and December 2024?</a></li>
     <li><a href="#i18n22">What was updated in WCAG 2.2 for internationalization?</a></li>
     <li><a href="#done">What is different in WCAG 2.0, 2.1, and 2.2?</a></li>
@@ -81,7 +81,7 @@ With today's technology, accessibility issues that would have failed 4.1.1, will
 
 (Using tools that assess parsing errors and fixing parsing issues may still be useful &mdash; it's just not required for accessibility.)
 
-## What was updated in WCAG 2.2 in December 2024? {#22Dec2024}
+## What was updated in WCAG 2.2 in December 2024? {#Dec2024}
 
 On 12 December 2024, we published an update to WCAG 2.2. The update includes:
 * modified definitions of single pointer, used in an unusual or restricted way, motion animation, and programmatically determined
