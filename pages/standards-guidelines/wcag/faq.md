@@ -39,8 +39,8 @@ This page answers to some frequently asked questions (FAQ) about (WCAG. Let us k
 
   <ul class="questions">
     <li><a href="#parsing411">How and why is success criteria 4.1.1 Parsing obsolete?</a></li>
-    <li>New: <a href="#Dec2024">What was updated WCAG 2.2 in December 2024?</a></li>
-    <li>New: <a href="#Sept2023">What was updated WCAG 2.1 in September 2023 and December 2024?</a></li>
+    <li>New: <a href="#Dec2024">What was updated in WCAG 2.2 in December 2024?</a></li>
+    <li>New: <a href="#Sept2023">What was updated in WCAG 2.1 in September 2023 and December 2024?</a></li>
     <li><a href="#i18n22">What was updated in WCAG 2.2 for internationalization?</a></li>
     <li><a href="#done">What is different in WCAG 2.0, 2.1, and 2.2?</a></li>
     <li><a href="#next">What about WCAG 3.0? What about “Silver”?</a></li>
@@ -71,9 +71,9 @@ WCAG 2.1 and WCAG 2.0 now include this note from a conformance perspective:
 
 That note is in:
 
-* updated WCAG 2.1 that includes new notes under [4.1.1 Parsing](https://www.w3.org/TR/WCAG21/#parsing) and incorporates errata listed in the [WCAG 2.1 changelog](https://www.w3.org/TR/WCAG21/#changelog)
+* Updated WCAG 2.1 that includes new notes under [4.1.1 Parsing](https://www.w3.org/TR/WCAG21/#parsing) and incorporates errata listed in the [WCAG 2.1 changelog](https://www.w3.org/TR/WCAG21/#changelog)
 * WCAG [2.0 errata](https://www.w3.org/WAI/WCAG20/errata/)
-* Understanding documents
+* Understanding WCAG documents
 
 Parsing was included in WCAG 2.0 to ensure that browsers and assistive technologies could accurately parse markup and content. Since then, specifications (such as HTML) and browsers have improved how they handle parsing errors. Also, previously assistive technology did their own markup parsing. Now they rely on the browser.
 
@@ -88,9 +88,9 @@ On 12 December 2024, we published an update to WCAG 2.2. The update includes:
 * minor formatting and editorial changes listed in the [WCAG 2.2 Change Log](https://www.w3.org/TR/WCAG22/#changelog)
 
 You can link to the latest version or specific versions of WCAG 2.2:
-* For the latest version of WCAG 2.2: [https://www.w3.org/TR/WCAG22/](https://www.w3.org/TR/WCAG22/)
-* The version published 12 December 2024: [https://www.w3.org/TR/2024/WD-wcag-3.0-20241212//](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/)
-* The version published 5 October 2023: [https://www.w3.org/TR/2023/REC-WCAG22-20231005/](https://www.w3.org/TR/2023/REC-WCAG22-20231005/)
+* for the latest version of WCAG 2.2: [https://www.w3.org/TR/WCAG22/](https://www.w3.org/TR/WCAG22/)
+* the version published 12 December 2024: [https://www.w3.org/TR/2024/WD-wcag-3.0-20241212//](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/)
+* the version published 5 October 2023: [https://www.w3.org/TR/2023/REC-WCAG22-20231005/](https://www.w3.org/TR/2023/REC-WCAG22-20231005/)
 
 More info on linking is in [Referencing and Linking to WAI Guidelines](https://www.w3.org/WAI/standards-guidelines/linking/).
 
@@ -105,10 +105,10 @@ On 21 September 2023, we published an update to WCAG 2.1. The update includes:
 * incorporation of existing errata that are mostly minor wording corrections
 
 You can link to the latest version or specific versions of WCAG 2.1:
-* For the latest version of WCAG 2.1: [https://www.w3.org/TR/WCAG21/](https://www.w3.org/TR/WCAG21/)
-* The version published 12 December 2024: [https://www.w3.org/TR/2024/REC-WCAG21-20241212/](https://www.w3.org/TR/2024/REC-WCAG21-20241212/)
-* The version published 21 September 2023: [https://www.w3.org/TR/2023/REC-WCAG21-20230921/](https://www.w3.org/TR/2023/REC-WCAG21-20230921/)
-* The version published 5 June 2018: [https://www.w3.org/TR/2018/REC-WCAG21-20180605/](https://www.w3.org/TR/2018/REC-WCAG21-20180605/)
+* for the latest version of WCAG 2.1: [https://www.w3.org/TR/WCAG21/](https://www.w3.org/TR/WCAG21/)
+* the version published 12 December 2024: [https://www.w3.org/TR/2024/REC-WCAG21-20241212/](https://www.w3.org/TR/2024/REC-WCAG21-20241212/)
+* the version published 21 September 2023: [https://www.w3.org/TR/2023/REC-WCAG21-20230921/](https://www.w3.org/TR/2023/REC-WCAG21-20230921/)
+* the version published 5 June 2018: [https://www.w3.org/TR/2018/REC-WCAG21-20180605/](https://www.w3.org/TR/2018/REC-WCAG21-20180605/)
 
 More info on linking is in [Referencing and Linking to WAI Guidelines](https://www.w3.org/WAI/standards-guidelines/linking/).
 
