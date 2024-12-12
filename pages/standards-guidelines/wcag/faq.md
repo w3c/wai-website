@@ -97,7 +97,6 @@ More info on linking is in [Referencing and Linking to WAI Guidelines](https://w
 ## What was updated in WCAG 2.1 in 2023 and 2024? {#Sept2023}
 
 On 12 December 2024, we published an update to WCAG 2.1. The update includes:
-* modified definitions of single pointer, used in an unusual or restricted way, motion animation, and programmatically determined
 * minor formatting and editorial changes listed in the [WCAG 2.1 Change Log](https://www.w3.org/TR/WCAG21/#changelog)
 
 On 21 September 2023, we published an update to WCAG 2.1. The update includes:
