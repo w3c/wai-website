@@ -5,7 +5,7 @@
 title: "WCAG 3 Introduction"
 nav_title: "WCAG 3 Draft"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-05-16 # Keep the date of the English version
+last_updated: 2024-12-12 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -31,7 +31,7 @@ feedbackmail: wai@w3.org
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Rachael Bradley Montgomery, Jeanne Spellman, Kevin White.</p>
-  <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>), Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>), Silver Task Force, and Silver Community Group.</p>
+  <p>Developed with input from the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>), Silver Task Force, and Silver Community Group.</p>
 ---
 
 {::nomarkdown}
@@ -106,7 +106,7 @@ For these sections, does the information under 'Which foundational requirements 
 
 The other section we would like feedback on is:
 
-4. [Conformance](https://w3.org/TR/wcag-3.0/#conformance)
+* [Conformance](https://w3.org/TR/wcag-3.0/#conformance)
 
 This section explains the conformance approach we are considering for WCAG 3. There are still many details to be worked out. Do you have constructive comments about this proposed conformance approach for WCAG 3?
 
@@ -122,11 +122,11 @@ To provide input, please [open an issue in the WCAG 3 GitHub repository](https:/
 
 **Please create separate GitHub issues or email messages for each topic**, rather than putting multiple topics in a single issue or email.
 
-## WCAG 3 Draft Approach
+## WCAG 3 Draft approach
 
 <img src="{{ "/content-images/wcag/brain-icon.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
 
-### Some Similar, Some Different {#compare}
+### Some similar, some different {#compare}
 
 **Goals** for WCAG 3 include:
 * be easier to understand
@@ -142,7 +142,7 @@ WCAG 3 is very **different** from previous versions in some ways. It has:
 * different conformance model
 * broader scope, beyond just web content
 
-### WCAG 3 Name
+### WCAG 3 name
 
 The name of WCAG 3 is different from WCAG 2:
 * WCAG **3** is W3C Accessibility Guidelines
@@ -186,7 +186,7 @@ For information on current timelines and activities, see [WCAG 3 Publication Pla
 
 We will update this section with more specific timeline information as it is available.
 
-### Who Develops WCAG 3
+### Who develops WCAG 3
 
 The WCAG technical documents are developed by the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/WAI/about/groups/agwg/)) (previously under the Silver Task Force) with the Silver Community Group. These Groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)). You can learn about the development process from [[How WAI Develops Accessibility Standards through the W3C Process: Milestones and Opportunities to Contribute]](/standards-guidelines/w3c-process/).
 
