@@ -26,8 +26,9 @@ module Jekyll
         end
         grouped_data[entry['channel']] = {} unless grouped_data[entry['channel']]
         grouped_data[entry['channel']]["#{entry['yyyy']}-#{entry['mm']}-#{entry['dd']}"] = {
-          'href' => entry['href'],
-          'title' => entry['title'],
+          'href' => entry['href'].sub(/^http:/, 'https:'),
+          # Perl script reads <title> which includes date at end, which we don't want in title
+          'title' => entry['title'].sub(/\s*\S+\s+\d\d?\s+\w+\s+\d{4}$/, ''),
           'resolutions' => entry['resolutions'],
           'topics' => entry['topics']
         }
