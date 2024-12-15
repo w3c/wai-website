@@ -4,7 +4,7 @@
 
 title: "良好的颜色对比度"
 nav_title: "良好的颜色对比度"
-lang: zh-hangs    # Change "en" to the translated-language shortcode
+lang: zh-hans    # Change "en" to the translated-language shortcode
 last_updated: 2024-07-15    # Keep the date of the English version
 order: 2
 
