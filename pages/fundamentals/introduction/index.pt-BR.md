@@ -136,14 +136,14 @@ A acessibilidade web é **exigida por lei** em muitas situações.
 
 A acessibilidade web depende de vários componentes trabalhando juntos, incluindo tecnologias web, navegadores web e outros \"agentes da pessoa usuária\", ferramentas de autoria e sites.
 
-A Iniciativa de Acessibilidade Web ([WAI](/about/participating/)) do W3C desenvolve especificações técnicas, diretrizes, técnicas e recursos de suporte que descrevem soluções de acessibilidade. Estes são considerados padrões internacionais para acessibilidade web; por exemplo, as <abbr title="Diretrizes de Acessibilidade de Conteúdo Web (WCAG)">WCAG</abbr> 2.0 também são um padrão <abbr title="Organização Internacional para Padronização">ISO</abbr>: ISO/<abbr title="Comissão Eletrotécnica Internacional">IEC</abbr> 40500.
+A Iniciativa de Acessibilidade Web ([WAI](/about/participating/)) do W3C desenvolve especificações técnicas, diretrizes, técnicas e recursos de suporte que descrevem soluções de acessibilidade. Estes são considerados padrões internacionais para acessibilidade web; por exemplo, as <abbr title="Diretrizes de Acessibilidade para Conteúdo Web (WCAG)">WCAG</abbr> 2.0 também são um padrão <abbr title="Organização Internacional para Padronização">ISO</abbr>: ISO/<abbr title="Comissão Eletrotécnica Internacional">IEC</abbr> 40500.
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="Mais informações sobre como tornar a web acessível" class="simple aside" %}
 {:/}
 
 -   Mais informações sobre esses aspectos da acessibilidade trabalhando juntos estão em [[Componentes essenciais da acessibilidade web]](/fundamentals/components/).
--   As Diretrizes de Acessibilidade de Conteúdo Web (WCAG), Diretrizes de Acessibilidade de Ferramentas de Autoria (ATAG), ARIA para Aplicações de Internet Ricas Acessíveis e outros recursos importantes são apresentados em [[Visão geral dos padrões de acessibilidade do W3C]](/standards-guidelines/).
+-   As Diretrizes de Acessibilidade para Conteúdo Web (WCAG), Diretrizes de Acessibilidade de Ferramentas de Autoria (ATAG), ARIA para Aplicações de Internet Ricas Acessíveis e outros recursos importantes são apresentados em [[Visão geral dos padrões de acessibilidade do W3C]](/standards-guidelines/).
 -   Para saber mais sobre como a WAI W3C desenvolve material por meio da participação internacional de várias partes interessadas e como você pode contribuir, consulte [[Sobre a WAI W3C]](/about/) e [[Participando da WAI]](/about/participating/).
 
 {::nomarkdown}
@@ -161,7 +161,7 @@ Muitos aspectos da acessibilidade são relativamente fáceis de entender e imple
 {:/}
 
 -   Para uma introdução aos requisitos de acessibilidade e padrões internacionais, consulte [[Princípios de acessibilidade]](/fundamentals/accessibility-principles/).
--   Para entender algumas barreiras comuns de acessibilidade da perspectiva de testes, consulte [[Verificações fáceis – Uma primeira revisão]](/test-evaluate/preliminary/).
+-   Para entender algumas barreiras comuns de acessibilidade da perspectiva de testes, consulte [[Verificações fáceis – Uma primeira revisão da acessibilidade web]](/test-evaluate/preliminary/).
 -   Para algumas considerações básicas sobre design, escrita e desenvolvimento para acessibilidade, consulte [[Dicas para começar]](/tips/).
 -   Quando precisar saber mais sobre desenvolvimento e design, você provavelmente usará recursos como:
     -   [Como atender às WCAG (Referência rápida)](https://www.w3.org/WAI/WCAG22/quickref/)
