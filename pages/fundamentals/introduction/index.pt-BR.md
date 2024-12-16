@@ -1,7 +1,11 @@
 ---
 title: Introdução à acessibilidade web
 lang: pt-BR
-last_updated: 2024-10-25   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07   # Keep the date of the English version
+first_published: "Fevereiro de 2005"
+
+translation:
+  last_updated: 2024-12-16	# Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Adiel Cristo"
@@ -11,16 +15,11 @@ github:
 
 permalink: /fundamentals/accessibility-intro/pt-BR
 ref: /fundamentals/accessibility-intro/     # Do not change this
-
-changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
   
 # In the footer below:
-# Do not change the dates
-# Do not translate CHANGELOG
-# Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
+# Translate the other words, including "Editor:"
 footer: >
-  <p><strong>Data:</strong> Atualizado em 7 de março de 2024. Primeira publicação em fevereiro de 2005. CHANGELOG.</p>
   <p><strong>Pessa Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desenvolvido pelo Grupo de Trabalho de Educação e Extensão (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
