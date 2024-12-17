@@ -30,7 +30,7 @@ footer: >
 ---
 
 {::nomarkdown}
-{% include box.html type="start" h="2" title="Summary" class="full" %}
+{% include box.html type="start" h="2" title="总结" class="full" %}
 {:/}
 
 当网站和web工具得到适当的设计和编码时，残疾人就可以使用它们。然而，目前许多网站和工具都带有可访问性障碍，使得一些人很难或不可能使用它们。
@@ -44,7 +44,7 @@ footer: >
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include_cached toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="页面目录" class="full" %}
 {:/}
 
 -   TOC is created automatically.
@@ -57,7 +57,7 @@ footer: >
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Accessibility in Context {#context}
+## 无障碍的概念 {#context}
 
 <blockquote class="pull">
   <p>Web的力量在于它的普遍性。<br />
