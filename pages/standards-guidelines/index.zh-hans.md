@@ -135,7 +135,7 @@ ARIA 信息：
 
 下面的资源支持可访问性评估方法和工具的开发：
 
-- [[无障碍一致性测试（ACT）概述]](/standards-guidelines/act/) &mdash; ACT 建立并记录规则，用来测试 Web 内容是否与可访问性标准一致。[WCAG 2 测试规则](/standards-guidelines/act/rules/about) 使用ACT规则格式。
+- [[无障碍一致性测试（ACT）概述]](/standards-guidelines/act/) &mdash; ACT 建立并记录规则，用来测试 Web 内容是否与可访问性标准一致。[WCAG 2 测试规则](/standards-guidelines/act/rules/about/) 使用ACT规则格式。
 
 - [[评估和报告语言（EARL）概述]](/standards-guidelines/earl/) &mdash; EARL 是一种机器可读的格式，用来表达测试结果。
 
