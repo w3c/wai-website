@@ -7,10 +7,8 @@ nav_title: "WCAG 3 Draft"
 lang: ja  # Change "en" to the translated-language shortcode
 last_updated: 2024-12-12 # Keep the date of the English version
 
-# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-- name: "Makoto Ueki" # Add one -name: line for every translator
-- name: "Makoto Ueki"   # Replace Jan Doe with translator name
-# contributors:
+translators:
+- name: "Makoto Ueki"
 
 github:
   label: wai-wcag-intro
