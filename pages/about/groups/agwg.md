@@ -85,11 +85,11 @@ To learn how you can join the AG Working Group and participate fully in the deve
 * [List of publications](https://www.w3.org/groups/wg/ag/publications/)
 * [Task forces](https://www.w3.org/groups/wg/ag/task-forces/) supporting the Working Group
 
-## Contract the chairs
+## Contact the chairs
 
 To contact the chairs of the group and the W3C staff contact, email [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org)
 
-## Administrative Information
+## Administrative information
 
 Work of the AG WG is in accordance with the [W3C Process](https://www.w3.org/2023/Process-20231103/). AG WG work is funded in part by the [WAI Core 2015 Project](https://www.w3.org/WAI/about/projects/wai-core-2015/). The work of this group does not necessarily reflect the views or policies of the funders.
 
