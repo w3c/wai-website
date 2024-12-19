@@ -9,6 +9,7 @@ last_updated: 2024-03-07  # Keep the date of the English version
 description: Introduce el estándar internacional de las Pautas de Accesibilidad para el Contenido Web (WCAG), lo cual incluye WCAG 2.0, WCAG 2.1 y WCAG 2.2. Los documentos de las WCAG explican cómo hacer contenido web más accesible para las personas con discapacidad.
 
 translation:
+  status: outdated
   last_updated: 2024-05-01  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
