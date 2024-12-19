@@ -14,7 +14,7 @@ github:
 
 The mission of the Accessibility Guidelines Working Group is to develop specifications to support making implementations of web technologies accessible for people with disabilities, and to develop and maintain implementation support materials.
 
-Some information on this page is also shown on, and may be more current in, the automatically generated [Accessibility Guidelines Working Group page](https://www.w3.org/groups/wg/ag/).
+To view group administrative information including information on how to join, and lists of chairs, participants, and publications, see [Accessibility Guidelines Working Group page](https://www.w3.org/groups/wg/ag/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -33,52 +33,61 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Announcements
+## Charter
 
-No announcements at the moment.
+The group is chartered until October 2025.
+
+To learn about the current focus, scope and deliverables, see the [AGWG Charter](https://www.w3.org/WAI/GL/charter).
 
 ## Current Work
 
-The Working Group maintains a comprehensive list of [publications and current timelines](https://www.w3.org/WAI/GL/wiki/Timelines).
-
-The [Project Plan](https://www.w3.org/WAI/GL/wiki/Timelines) details intended timeline and milestones for this work. A [list of publications](https://www.w3.org/TR/tr-groups-all#tr_Web_Content_Accessibility_Guidelines_Working_Group) on the W3C Technical Reports page includes completed deliverables that are no longer worked on by the Working Group.
+For details of the current work, see the [AGWG wiki](https://www.w3.org/WAI/GL/wiki/Main_Page).
 
 ### WCAG 3
 
-Work on W3C Accessibility Guidelines 3 takes place in many task forces and subgroups of the Working Group. Information about projects and timelines is available on the [WCAG 3 Project Plan](https://github.com/w3c/silver/wiki).
+Work on W3C Accessibility Guidelines 3 takes place in many task forces and subgroups of the Working Group. Information about projects and timelines is available on the [WCAG 3 Project Plan](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline).
 
 ### WCAG 2.2
 
-The Working Group is processing comments from wide review and preparing for Candidate Recommendation. Current work is shown in [WCAG issues](https://github.com/w3c/wcag/issues/).
+The [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog) maintains WCAG 2.x for AGWG. This includes reviewing public comments andimproving the supporting Understanding and Techniques documents.
 
-### Task Forces
+Current outstanding issues are shown in [WCAG issues](https://github.com/w3c/wcag/issues/).
 
-The AG WG uses [task forces](task-forces) to focus work on specific projects in addition to the work above. Task Forces are described on the related page. Some task forces form sub-groups to further divide the work.
+## Contribute to the work
 
-## How to Comment, Contribute, and Participate
+W3C and the AG Working Group actively encourage contributions from the whole accessibility community. You can contribute without being a member of the working group in a number of ways:
 
-The Accessibility Guidelines Working Group engages with stakeholders in a variety of ways. See the following resources for information on:
+* **Comment on publications** &mdash; During development, the group publishes working drafts for public comment. These are announced on the [WAI News pages](/news/) and on the [WAI-IF Mailing List](/about/groups/waiig/).
+* **Raise, comment on, or propose fixes to [WCAG 2.x issues](https://github.com/w3c/wcag/issues/)** &mdash; If you are aware of an issue with any of the published WCAG 2.x resources then raise an issue. We also are extremely welcoming of comments on existing issues or, even better, proposed solutions.
+* **Contribute to WCAG 3 discussions** &mdash; There are many topics to be discussed and better understood as WCAG 3 develops. See the list of current [WCAG 3 discussions](https://github.com/w3c/wcag3/discussions) to contribute.
+* **Participate in a Community Group** &mdash; There are a small number of active Community Groups focusing on accessibility issues. See [Community Groups](https://www.w3.org/community/groups) and search for 'accessibility' for more information.
 
-* [How to contribute to the Working Group and file comments](https://www.w3.org/WAI/WCAG20/comments/);
-* [How to contribute to the source repository directly](https://github.com/w3c/wcag/);
-* [How to participate in (join) the Working Group](/about/groups/agwg/participate/).
+### Become a participant
 
-## Meetings and Communication
+Participation enables you to influence the development of the deliverables. You and your organization will also be listed as contributors where appropriate.
 
-The AG WG conducts its work using a variety of synchronous and asynchronous tools. The [communication page](/about/groups/agwg/communication/) provides details about:
+Participant status requires a commitment on your behalf to support the work of the group.
 
-* Teleconferences of the Working Group and its task forces (also see [upcoming agendas](/WAI/GL/wiki/Upcoming_agendas), meeting minutes);
-* Face to face meetings (also see face-to-face [meeting pages](https://www.w3.org/WAI/GL/wiki/Meetings));
-* Email lists;
-* [Wiki](https://www.w3.org/WAI/GL/wiki/);
-* [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/35422/);
-* [WCAG 2 source repository issue tracker](https://github.com/w3c/wcag/issues).
+Participants should:
 
-These tools are used by participants of the Working Group. For ways non-participants can contribute, see [How to contribute to the Working Group and file comments](https://www.w3.org/WAI/WCAG20/comments/).
+* Engage actively with the Working Group via any of the communication mechansims available.
+* Provide input in a timely fashion.
+* Maintain familiarity with the progress of the Working Group via minutes of past meetings, mailing list discussion, issue comments, etc.
 
-### Meeting Minutes
+To learn how you can join the AG Working Group and participate fully in the development of the work, see [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-[Minutes from previous meetings](https://www.w3.org/WAI/GL/minutes-history) are available.
+## Group details
+
+* [Chairs](https://www.w3.org/groups/wg/ag/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/wg/ag/participants/#participants)
+* [Minutes from previous meetings](https://www.w3.org/WAI/GL/minutes-history)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/w3c-wai-gl/)
+* [List of publications](https://www.w3.org/groups/wg/ag/publications/)
+* [Task forces](https://www.w3.org/groups/wg/ag/task-forces/) supporting the Working Group
+
+## Contract the chairs
+
+To contact the chairs of the group and the W3C staff contact, email [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org)
 
 ## Administrative Information
 
@@ -86,14 +95,9 @@ Work of the AG WG is in accordance with the [W3C Process](https://www.w3.org/202
 
 The chairs of the AG WG, responsible for overall leadership and management, are Chuck Adams, Alastair Campbell, and Rachael Montgomery. The staff contact, responsible for W3C Process and general support, is [Kevin White](https://www.w3.org/People/kevin/). Administrative inquiries may be sent to [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org).
 
-Work on WCAG 3 is additionally led by Shawn Lauriat and Jeanne Spellman, task force co-facilitators, and Wilco Fiers, WCAG 3 Project Manager. Inquiries about WCAG 3 should be sent to [group-ag-plan@w3.org](mailto:group-ag-plan@w3.org) to reach these people as well as the chairs.
-
 The AG WG maintains the following operational resources:
 
-* [Decision policy](decision-policy);
-* [Record of decisions made by the WG](https://www.w3.org/WAI/GL/wiki/Decisions);
-* [meeting minutes](https://www.w3.org/WAI/GL/minutes-history).
+* [Decision policy](decision-policy)
+* [Record of decisions made by the WG](https://www.w3.org/WAI/GL/wiki/Decisions)
 
 W3C maintains a [public list of any patent disclosures](https://www.w3.org/groups/wg/ag/ipr/) made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent.
-
-[Current participants in the AGWG](https://www.w3.org/groups/wg/ag/participants/).
