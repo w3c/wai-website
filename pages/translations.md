@@ -52,6 +52,7 @@ subtitles_only:
       - mr
       - pl
       - te
+      - tr
 
 other_resources:
   - lang: "fr"
