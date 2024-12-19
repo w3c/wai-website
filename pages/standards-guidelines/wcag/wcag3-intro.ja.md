@@ -2,26 +2,23 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "WCAG 3 Introduction"
+title: "WCAG 3 イントロダクション"
 nav_title: "WCAG 3 Draft"
-lang: en  # Change "en" to the translated-language shortcode
+lang: ja  # Change "en" to the translated-language shortcode
 last_updated: 2024-12-12 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-# - name: "Translator Name Here" # Add one -name: line for every translator
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+- name: "Makoto Ueki" # Add one -name: line for every translator
+- name: "Makoto Ueki"   # Replace Jan Doe with translator name
 # contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
   label: wai-wcag-intro
 
-permalink: /standards-guidelines/wcag/wcag3-intro/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /standards-guidelines/wcag/wcag3-intro/ja  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/wcag3-intro/    # Do not change this
 
-description: Introduces the W3C Accessibility Guidelines (WCAG) 3.0 Working Draft. WCAG documents explain how to make the web more accessible to people with disabilities.
+description: W3Cアクセシビリティ・ガイドライン（WCAG）3.0 のワーキングドラフトを紹介する。WCAGのドキュメントは、ウェブを障害がある人にとってよりアクセシブルにする方法を説明している。
 image: /content-images/wcag/wcag3_social.png
 feedbackmail: wai@w3.org
 
@@ -30,19 +27,19 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Rachael Bradley Montgomery, Jeanne Spellman, Kevin White.</p>
-  <p>Developed with input from the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>), Silver Task Force, and Silver Community Group.</p>
+  <p><strong>編集者:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. 協力者: Rachael Bradley Montgomery, Jeanne Spellman, Kevin White.</p>
+  <p>アクセシビリティガイドライン ワーキンググループ (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>)、Silverタスクフォース及びSilverコミュニティグループの協力を得て作成されました。</p>
 ---
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory phase, and will change substantially. We published an updated [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) on 12 December 2024.
+W3Cアクセシビリティ・ガイドライン (WCAG) 3の多くの部分は、現在、試作段階にあり、今後大幅に変更される予定です。2024年12月12日に、更新した [WCAG 3 ワーキングドラフト](https://www.w3.org/TR/wcag-3.0/) を公開しました。
 
-WCAG 3 will have similar fundamental and specific accessibility requirements as WCAG 2. WCAG 3 will have a different structure, different conformance model, and broader scope.
+WCAG 3は、WCAG 2と同様の基本的な要件及び特有の要件を持つことになるでしょう。また、WCAG 3は、異なる構造、異なる適合性モデル及びより幅広い適用範囲になる予定です。
 
-Please share this page as the starting point for official information about WCAG 3 now and in the future. Short link: w3.org/WAI/wcag3
+このページを、WCAG 3に関する公式情報の出発点として、現在および将来にわたって共有していただきたいと考えています。 ショートリンク： w3.org/WAI/wcag3
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -61,135 +58,135 @@ Please share this page as the starting point for official information about WCAG
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Introduction
+## イントロダクション
 {:.no_toc}
 
-W3C Accessibility Guidelines (WCAG) 3 is currently an incomplete draft. WCAG 3 is intended to develop into a W3C Standard **in a few years**. The current standard, Web Content Accessibility Guidelines (WCAG 2), is introduced in the [WCAG 2 Overview](/standards-guidelines/wcag/).
+W3Cアクセシビリティ・ガイドライン（WCAG）3は、現在、未完成のドラフト（草案）の段階にある。WCAG 3は数年以内にW3Cの標準となる予定です。現行の標準であるウェブコンテンツ・アクセシビリティ・ガイドライン（WCAG 2）については、[WCAG 2 概要](/standards-guidelines/wcag/)を参照してください。
 
-The WCAG 3 documents will explain how to make the web more accessible to people with disabilities. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web. 
+WCAG 3の文書は、ウェブを障害がある人にとってよりアクセシブルにする方法を説明するものになるでしょう。WCAG 3は、ウェブコンテンツ、アプリ、ツール、出版、そしてウェブ上に登場してくる新しい技術を適用範囲とします。 
 
-We will update this page regularly as work on the WCAG 3 Draft progresses.
+WCAG 3のドラフト作成が進展に合わせて、このページを定期的に更新していく予定です。
 
-## Status: In-progress drafts
+## ステータス： 作成中のドラフト
 
-In December 2024, we published updated drafts:
+2024年12月、更新されたドラフトを公開しました：
 
-* [Requirements for WCAG 3](https://www.w3.org/TR/wcag-3.0-requirements/) describes the key principles and requirements that will help shape how WCAG 3 develops and how to determine when it is successfully complete.
-* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the December 2024 WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.**
-* **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines and requirements that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed.
+* [WCAG 3 の要件](https://www.w3.org/TR/wcag-3.0-requirements/) は、WCAG 3を策定する方向性を定めて、完成したと判断する際に役立つ主要な原則と要件を説明しています。
+* **[WCAG 3 の解説（Explainer）](https://www.w3.org/TR/wcag-3.0-explainer/)** では、背景情報を提供し、2024年12月のWCAG 3ドラフトの構造を説明しています。**WCAG 3を読む前に、この解説を読むことを推奨します。**
+* **[WCAG 3 ワーキングドラフト](https://www.w3.org/TR/wcag-3.0/)** には、現在検討中のガイドラインや要件が含まれています。WCAG 3の最終要件は、このドラフトとは異なるものになるでしょう。ガイドラインや要件は、今後も編集、追加、統合、及び削除されていく予定です。
 
-### Summary of changes 
-* Explanatory content is moved to the [Explainer](https://www.w3.org/TR/wcag-3.0-explainer/).
-* The term 'outcome' is changed. The current draft has 'guidelines' that are written as user-centered outcomes and 'requirements' that support the guideline.
-* Requirements are indicated as 'foundational' or 'supplemental', as described in the [Explainer](https://www.w3.org/TR/wcag-3.0-explainer/).
-* Accessibility support is changed in [3.1.1 Only accessibility-supported ways of using technologies](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/#accessibility-supported).
+### 変更点の概要 
+* 説明を目的としたコンテンツを [解説（Explainer）](https://www.w3.org/TR/wcag-3.0-explainer/)に移動しました。
+* 「成果（Outcome）」という用語を変更しました。現在のドラフトには、ユーザー視点での成果として記述された「ガイドライン」と、そのガイドラインをサポートする「要件」があります。
+* 要件は、[解説（Explainer）](https://www.w3.org/TR/wcag-3.0-explainer/)ページで説明されているように、「foundational（基礎）」又は「supplemental（補足）」として明示されています。
+* アクセシビリティサポートは [3.1.1 Only accessibility-supported ways of using technologies（アクセシビリティがサポートされている、技術の使用方法のみ）](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/#accessibility-supported)で変更しました。
 
-### Section status
-Each normative section has a status that indicates how far along in the development process this section is, how ready it is for experimental adoption, and what kind of feedback we are looking for.
-* Placeholder
-* Exploratory
-* Developing
-* Refining
-* Mature
+### セクションごとのステータス
+それぞれの要件（normative)セクションには、そのセクションの開発プロセスにおける進捗状況、実験的な採用に向けた準備状況、およびどのようなフィードバックを求めているかを示すステータスがあります。
+* Placeholder（プレースホルダー）
+* Exploratory（試験的）
+* Developing（開発中）
+* Refining（改良中）
+* Mature（成熟）
 
-For more information on these status indicators, see the Explainer section [Current Process for Creating WCAG 3.0](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#current-process).
+これらのステータス指標の詳細については、解説セクション「[Current Process for Creating WCAG 3.0（現在の WCAG 3.0 作成プロセス）](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#current-process)を参照してください。
 
-### For your review
+### ご意見募集
 
-In this WCAG 3 Working Draft, there are four updated sections that we would particularly like feedback on. The first three sections are guidelines:
+このWCAG 3ワーキングドラフトでは、特にフィードバックをいただきたい4つのセクションを更新しました。最初の3つのセクションは、ガイドラインです：
 
-1. [Image alternatives guideline](https://w3.org/TR/wcag-3.0/#image-alternatives)
-2. [Keyboard focus appearance guideline](https://w3.org/TR/wcag-3.0/#keyboard-focus-appearance)
-3. [Clear meaning guideline](https://w3.org/TR/wcag-3.0/#clear-meaning)
+1. [Image alternatives guideline（画像に対する代替に関するガイドライン）](https://w3.org/TR/wcag-3.0/#image-alternatives)
+2. [Keyboard focus appearance guideline（キーボードフォーカスの外観に関するガイドライン](https://w3.org/TR/wcag-3.0/#keyboard-focus-appearance)
+3. [Clear meaning guideline（明確な意味に関するガイドライン）](https://w3.org/TR/wcag-3.0/#clear-meaning)
 
-For these sections, does the information under 'Which foundational requirements apply?' make the guidelines easier to understand and use?
+これらのセクションについて、「Which foundational requirements apply?（どの基礎要件が適用されるか？）」の項目に記載されている情報は、ガイドラインをより理解しやすく、使いやすくするものになっていますか？
 
-The other section we would like feedback on is:
+また、フィードバックをいただきたいもう一つのセクションはこちらです：
 
-* [Conformance](https://w3.org/TR/wcag-3.0/#conformance)
+* [Conformance（適合）](https://w3.org/TR/wcag-3.0/#conformance)
 
-This section explains the conformance approach we are considering for WCAG 3. There are still many details to be worked out. Do you have constructive comments about this proposed conformance approach for WCAG 3?
+このセクションでは、WCAG 3 で検討している適合アプローチについて説明しています。まだ多くの詳細を詰める必要があります。WCAG 3 の適合アプローチ案について、建設的な意見はありますか？
 
-### Research needed
+### 必要なリサーチ
 
-Some of the guidelines and requirements are marked with "Needs additional research". We are particularly interested in assistance identifying or conducting research to support or refute them.
+一部のガイドラインおよび要件には、「Needs additional research（さらなるリサーチが必要）」と記されています。 それらを裏付ける、または反証するためのリサーチを確認したり、リサーチの実施を支援したりすることに特に関心があります。。
 
 <img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
 
-### Comments
+### コメント
 
-To provide input, please [open an issue in the WCAG 3 GitHub repository](https://github.com/w3c/wcag3/issues/new). Or, if you are unable to use GitHub, email [public-agwg-comments@w3.org](mailto:public-agwg-comments@w3.org).
+ご意見をいただくには、[WCAG 3 GitHub リポジトリでissueを作成](https://github.com/w3c/wcag3/issues/new)してください。あるいは、GitHub をご利用いただけない場合は、[public-agwg-comments@w3.org](mailto:public-agwg-comments@w3.org)までメールでお問い合わせください。
 
-**Please create separate GitHub issues or email messages for each topic**, rather than putting multiple topics in a single issue or email.
+複数のトピックを1つのissueまたはメールにまとめるのではなく、**トピックごとにGitHub issueを作成するか、メールメッセージを作成してください。**
 
-## WCAG 3 Draft approach
+## WCAG 3 ドラフトのアプローチ
 
 <img src="{{ "/content-images/wcag/brain-icon.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
 
-### Some similar, some different {#compare}
+### 類似点もあれば相違点もある {#compare}
 
-**Goals** for WCAG 3 include:
-* be easier to understand
-* cover more user needs, including more needs of people with cognitive disabilities
-* be flexible to address different types of web content, apps, tools, and organizations
+WCAG 3の**ゴール** には以下のような事項があります：
+* より理解しやすくする
+* 認知障害がある人々のより多くのニーズを含めて、より多くのユーザーニーズをカバーする
+* さまざまなタイプのウェブコンテンツ、アプリ、ツール及び組織に対応できるよう柔軟性を持たせる
 
-WCAG 3 is **similar** to previous versions in some ways. It has similar:
-* goal of providing guidance on making web content and apps accessible to people with disabilities
-* fundamental and specific accessibility requirements
+WCAG 3 は、以前のバージョンと**似ている**点がいくつかあります。類似している点として、以下が挙げられます：
+* 障害者がウェブコンテンツやアプリを利用しやすくするための指針を提供するというゴール
+* 基本的なアクセシビリティ要件と特有のアクセシビリティ要件
 
-WCAG 3 is very **different** from previous versions in some ways. It has:
-* different structure
-* different conformance model
-* broader scope, beyond just web content
+WCAG 3は、以前のバージョンと大きく**異なっている**点がいくつかあります：
+* 異なる構造
+* 異なる適合モデル
+* ウェブコンテンツだけでなく、より広い適用範囲
 
-### WCAG 3 name
+### WCAG 3 の名称
 
-The name of WCAG 3 is different from WCAG 2:
-* WCAG **3** is W3C Accessibility Guidelines
-* WCAG **2** is Web Content Accessibility Guidelines
+WCAG 3の名称は、WCAG 2とは異なります：
+* WCAG **3** は、W3Cアクセシビリティ・ガイドライン
+* WCAG **2** は、ウェブコンテンツ・アクセシビリティ・ガイドライン
 
-“W3C Accessibility Guidelines (WCAG) 3.0” was chosen:
-* because of wide-spread familiarity with the “WCAG” acronym
-* to encompass the broader scope beyond “content”
+「W3Cアクセシビリティ・ガイドライン（WCAG）3.0」が選ばれたのは：
+*「WCAG」という略語が広く知られていて浸透しているため
+* 「コンテンツ」を超えるより幅広い範囲を網羅しているため
 
-### Structure
+### 構造
 
-For a description of the structure of the December 2024 WCAG 3 Working Draft, see the Explainer section [WCAG 3.0 Structure](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#structure).
+2024年12月版 WCAG 3ワーキングドラフトの構造については、Explainer(解説）のセクション「[WCAG 3.0 Structure（WCAG 3.0の構造）](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#structure)」を参照してください。
 
-### Conformance approach {#model}
+### 適合アプローチ {#model}
 
-The _conformance model_ is the way to determine and communicate how well content, a website, an app, etc. meets WCAG.
+「適合モデル」というのは、コンテンツ、ウェブサイト、アプリケーションなどがWCAGにどの程度適合しているかを判断し、伝えるための方法です。
 
-The conformance model in WCAG 3 will be very different from WCAG 2. It is intended to:
-* be more flexible for organizations (that is, owners and developers of websites, apps, tools, etc.)
-* encourage more accessible user experiences
+WCAG 3の適合モデルは、WCAG 2とは大きく異なるものとなるでしょう。その目的は：
+* 組織（すなわち、ウェブサイト、アプリケーション、ツールなどの所有者及び開発者）にとって、より柔軟なものとすること
+* アクセシブルな利用者体験をより促進すること
 
-Developing and vetting the conformance model is a large portion of the work AG needs to complete over the next few years.
+適合性モデルの開発と検証は、AGが今後数年間で完了させる必要がある作業の大部分を占めています。
 
-The December 2024 publications have updated information in:
-* Explainer section [Conformance approach](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#conformance-models)
-* WCAG 3 Working Draft section [Conformance](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/#conformance)
+2024年12月版では、以下の情報を更新しています：
+* Explainer（解説）のセクション「[Conformance approach（適合アプローチ）](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#conformance-models)」
+* WCAG 3 ワーキングドラフトのセクション「[適合](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/#conformance)」
 
-## Development
+## 開発
 
-### Timeline
+### タイムライン
 
 <img src="{{ "/content-images/wcag/calandara.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 20%; max-width: 111px">
 
-**WCAG 3 is not expected to be a completed W3C standard for a few more years.**
+**WCAG 3は、W3Cの標準として完成するまで、まだ数年を要する見込みです。**
 
-WCAG 3 will not supersede WCAG 2 and WCAG 2 will not be deprecated for at least several years after WCAG 3 is finalized.
+WCAG 3は、WCAG 2を無効にするものではありません。また、WCAG 3が完成した後も、少なくとも数年間はWCAG 2が廃止されることはないでしょう。
 
-The Accessibility Guidelines Working Group (AG WG) has created an initial set of guidelines. In the first part of 2025, AG WG will focus on developing two or three guidelines to Refining or Mature status. We will use that experience to develop a projected timeline for WCAG 3. We expect the timeline to be available by September 2025.
+アクセシビリティ・ガイドライン・ワーキンググループ（AG WG）は、ガイドラインの初期セットを作成しました。2025年の前半には、AG WGは2つ又は3つのガイドラインを「改良中」あるいは「成熟」ステータスに発展させることに集中します。この経験をもとに、WCAG 3のその後のタイムラインを策定していきます。このタイムラインは、2025年9月までには出来上がる予定です。
 
-For information on current timelines and activities, see [WCAG 3 Publication Plan](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline#Publication_Plan).
+現在のスケジュールと活動に関する情報は、[WCAG 3 Publication Plan（WCAG 3 策定プラン）](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline#Publication_Plan)を参照してください。
 
-We will update this section with more specific timeline information as it is available.
+より具体的なタイムラインに関する情報が入手でき次第、このセクションを更新する予定にしています。
 
-### Who develops WCAG 3
+### WCAG 3の開発者
 
-The WCAG technical documents are developed by the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/WAI/about/groups/agwg/)) (previously under the Silver Task Force) with the Silver Community Group. These Groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)). You can learn about the development process from [[How WAI Develops Accessibility Standards through the W3C Process: Milestones and Opportunities to Contribute]](/standards-guidelines/w3c-process/).
+WCAGの技術文書は、アクセシビリティ・ガイドライン・ワーキンググループ([AG WG](https://www.w3.org/WAI/about/groups/agwg/))とシルバー・コミュニティ・グループによって開発されています（以前はSilverタスクフォースの下でした）。 これらのグループは、World Wide Web Consortium([W3C](https://www.w3.org))のウェブ・アクセシビリティ・イニシアティブ([WAI](https://www.w3.org/WAI/))に属しています。開発プロセスについては、[[How WAI Develops Accessibility Standards through the W3C Process: Milestones and Opportunities to Contribute（WAIがW3Cプロセスを通じてアクセシビリティ標準を開発する方法：マイルストーンと貢献の機会）]](/standards-guidelines/w3c-process/)を参照してください。
 
-We welcome your comments on WCAG 3 Working Drafts. The best way to provide feedback is by opening new [GitHub issues](https://github.com/w3c/wcag3/issues). Alternatively, e-mail public-agwg-comments@w3.org
+WCAG 3ワーキングドラフトに対するご意見をお待ちしております。フィードバックをいただくには、新しい[GitHub issues](https://github.com/w3c/wcag3/issues)を作成していただくのが最も良い方法です。または、public-agwg-comments@w3.org 宛てに電子メールをお送りください。
 
-Opportunities for contributing more directly to WCAG and other WAI work are introduced in [[Participating in WAI]](/about/participating/).
+WCAGやその他のWAIの作業に直接貢献する機会については、[[Participating in WAI（WAIへの参加）]](/about/participating/)でご紹介しています。
