@@ -93,8 +93,6 @@ To contact the chairs of the group and the W3C staff contact, email [group-ag-ch
 
 Work of the AG WG is in accordance with the [W3C Process](https://www.w3.org/2023/Process-20231103/). AG WG work is funded in part by the [WAI Core 2015 Project](https://www.w3.org/WAI/about/projects/wai-core-2015/). The work of this group does not necessarily reflect the views or policies of the funders.
 
-The chairs of the AG WG, responsible for overall leadership and management, are Chuck Adams, Alastair Campbell, and Rachael Montgomery. The staff contact, responsible for W3C Process and general support, is [Kevin White](https://www.w3.org/People/kevin/). Administrative inquiries may be sent to [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org).
-
 The AG WG maintains the following operational resources:
 
 * [Decision policy](decision-policy)
