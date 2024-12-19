@@ -9,6 +9,8 @@ translation:
 
 translators:
   - name: "Adiel Cristo"
+contributors:
+   - name: "Israel Cefrin"
 
 github:
   label: wai-accessibility-intro
