@@ -2,7 +2,7 @@
 title: How to Translate WCAG 2
 nav_title: "Translate WCAG 2"
 lang: en
-last_updated: 2024-10-22
+last_updated: 2024-12-19
 description: Technical instructions on translating WCAG
 
 permalink: /about/translating/wcag/
@@ -50,7 +50,7 @@ For general information on WCAG 2 Translations, see [Contributing to W3C Transla
 
 ## Overview
 
-Web Content Accessibility Guidelines (WCAG) 2.1/2.2 are currently [available in more than 14 languages](/standards-guidelines/wcag/translations/)!
+Web Content Accessibility Guidelines (WCAG) 2.1/2.2 are currently [available in more than 14 languages](/standards-guidelines/wcag/translations/).
 
 There are 6 main steps to create a new translation:
 1. **[Get the source files](#get-source-files)** from [`w3c/wcag/` {% include_cached external.html %}](https://github.com/w3c/wcag/) repository
@@ -64,8 +64,8 @@ There are 6 main steps to create a new translation:
 
 1. Clone [`w3c/wcag` {% include_cached external.html %}](https://github.com/w3c/wcag/) repository (you can [fork {% include_cached external.html %}](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) it first)
 2. Checkout the following tag to get the relevant source files:
-- [`WCAG22-20231005` tag {% include_cached external.html %}](https://github.com/w3c/wcag/tree/WCAG22-20231005) to translate WCAG 2.2 (5 October 2023 version)
-- [`WCAG21-20230921` tag {% include_cached external.html %}](https://github.com/w3c/wcag/tree/WCAG21-20230921) to translate WCAG 2.1 (21 September 2023 version)
+- [`WCAG22-20241212` tag {% include_cached external.html %}](https://github.com/w3c/wcag/tree/WCAG22-20241212) to translate WCAG 2.2 (12 December 2024 version)
+- [`WCAG21-20241212` tag {% include_cached external.html %}](https://github.com/w3c/wcag/tree/WCAG21-20241212) to translate WCAG 2.1 (12 December 2024 version)
 
 ## Step 2: Translate WCAG source files {#translate-source-files}
 
