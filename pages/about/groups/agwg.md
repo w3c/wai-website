@@ -98,10 +98,10 @@ To learn how you can become a participant in the group, see [Instructions for jo
 
 ## Communications and decisions
 
-* [Minutes from previous meetings &mdash; AG Working Group](/GL/minutes-history)
-* [Mailing list archive &mdash; AG Working Group](https://lists.w3.org/Archives/Public/w3c-wai-gl/)
-* [Record of decisions made by the AG Working Group](https://www.w3.org/WAI/GL/wiki/Decisions)
-* [Decision policy &mdash; AG Working Group](/about/groups/agwg/decision-policy/)
+* [Minutes from previous meetings](https://www.w3.org/WAI/GL/minutes-history)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/w3c-wai-gl/)
+* [Record of decisions](https://www.w3.org/WAI/GL/wiki/Decisions)
+* [Decision policy](/about/groups/agwg/decision-policy/)
 
 ## Publications and copyright
 
