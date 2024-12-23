@@ -26,11 +26,11 @@ footer: >
 Os seguintes recursos fornecem informações para **começar com a acessibilidade**:
 
 [[Introdução à acessibilidade web]](/fundamentals/accessibility-intro/)
-: Apresenta a acessibilidade web e fornece links para recursos adicionais. Inclui acessibilidade em contexto; por que a acessibilidade é importante para pessoas, negócios, sociedade; tornando a tecnologia digital acessível; avaliando a acessibilidade; e exemplos básicos.
+: Apresenta a acessibilidade web e fornece links para recursos adicionais. Inclui acessibilidade em contexto; o porquê da acessibilidade ser importante para pessoas, negócios, sociedade; tornando a tecnologia digital acessível; avaliando a acessibilidade; e exemplos básicos.
 - [Vídeo Introdução à acessibilidade web e aos padrões W3C](/videos/standards-and-benefits/) 4 minutos {% include image.html src="video.svg" alt="" class="icon" %}
 
 [[Acessibilidade: é sobre pessoas]](/people/)
-: Explica o aspecto humano da acessibilidade e o papel da acessibilidade na diversidade, igualdade e inclusão (DEI). Links para:
+: Explica o aspecto humano da acessibilidade e o papel da acessibilidade na diversidade, igualdade e inclusão (DEI). Vincula com:
 - [Perspectivas da acessibilidade web: explore o impacto e os benefícios para todas as pessoas](/perspective-videos/) - vídeos que ilustram a **_Acessibilidade: essencial para algumas pessoas, útil para todas_**. Dez vídeos de 1 minuto e uma compilação de 7 minutos. {% include image.html src="video.svg" alt="" class="icon" %}
 - [[Como pessoas com deficiência usam a web]](/people-use-web/) - apresenta histórias de pessoas usuárias da web; habilidades diversas e barreiras; ferramentas e técnicas; e vídeos que ilustram a **_Acessibilidade: é sobre pessoas._** {% include image.html src="video.svg" alt="" class="icon" %}
 - Recursos para [pessoas usuárias mais velhas e acessibilidade web](/older-users/)
@@ -43,7 +43,7 @@ Os seguintes recursos fornecem informações para **começar com a acessibilidad
 : Uma introdução concisa aos requisitos de acessibilidade para sites, aplicações, navegadores e outras ferramentas. São organizados de forma semelhante aos padrões de acessibilidade da WAI e fornecem uma ponte útil para os padrões. Leia esta página antes de ler os padrões/diretrizes.
 
 Pesquisa:
-: - [[Requisitos da pessoa usuária de acessibilidade]](/research/user-requirements/) - Documentação de pesquisas sobre as necessidades da pessoa usuária em ambientes virtuais ou imersivos (XR), comunicação em tempo real (RTC), interfaces de linguagem natural, multimídia, baixa visão, acessibilidade cognitiva e muito mais.
+: - [[Requisitos de acessibilidade para pessoa usuária]](/research/user-requirements/) - Documentação de pesquisas sobre as necessidades da pessoa usuária em ambientes virtuais ou imersivos (XR), comunicação em tempo real (RTC), interfaces de linguagem natural, multimídia, baixa visão, acessibilidade cognitiva e muito mais.
   - [[Simpósio de Pesquisa Sobre Inteligência Artificial (IA) e Acessibilidade 2023]](/research/ai2023/) - Resumos, transcrições e vídeos do simpósio internacional que exploram os impactos positivos e negativos da inteligência artificial (IA) na acessibilidade digital.
 
 Cursos de acessibilidade digital:
