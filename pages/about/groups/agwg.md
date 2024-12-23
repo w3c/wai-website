@@ -73,7 +73,7 @@ W3C and the AG Working Group welcome input on WCAG work from the global accessib
 
 There are many ways you can contribute without being a member of the working group:
 
-* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group Mailing List](/about/groups/waiig/).
+* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
 * **Raise, comment on, or propose fixes to WCAG issues:** If you’re aware of an issue with any of the published WCAG 2.x resources, W3C welcomes you to [raise a new issue on GitHub](https://github.com/w3c/wcag/issues/) &mdash; you can also comment on and, even better, propose solutions for existing issues.
 * **Contribute to WCAG 3 discussions:** As WCAG 3 develops, many topics are being discussed &mdash; to contribute your views, see the list of [open WCAG 3 discussions](https://github.com/w3c/wcag3/discussions).
 * **Participate in a community group:** W3C hosts a small number of active community groups that focus on digital accessibility issues &mdash; for details, search for ‘accessibility’ on [Current Groups &mdash; W3C Community and Business Groups](https://www.w3.org/community/groups).
