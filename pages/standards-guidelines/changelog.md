@@ -14,10 +14,35 @@ github:
 
 feedbackmail: wai@w3.org
 footer: >
- <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributor: Tolu Adegbite.</p>
+ <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin. Contributor: Tolu Adegbite.</p>
 ---
 
-## April 2021
+## 7 March 2024
+
+- In the “Web Content Accessibility Guidelines (WCAG) 2” section: replaced “WCAG 2.1 at a Glance” with “WCAG 2 at a Glance”.
+
+## 29 February 2024
+
+- In the “Web Content Accessibility Guidelines (WCAG) 2” section: 
+  - updated the link to “How to Meet WCAG 2” to target the WCAG 2.2 version: `https://www.w3.org/WAI/WCAG22/quickref/`.
+  - reordered the “WCAG 2.x Standard” list items to start with WCAG 2.2.
+- In the "Authoring Tool Accessibility Guidelines (ATAG)" section: updated a link to target the most recent WAI-ARIA 1.2 standard.
+
+## 15 January 2024
+
+- In the “Web Content Accessibility Guidelines (WCAG) 2” section: 
+  - added a link to the “WCAG 2.2 Standard”
+  - removed “Working Draft” from “What's New in WCAG 2.2” link text.
+
+## 30 June 2022
+
+- Renamed "Personalization" section into "WAI-Adapt" and extensively updated this section.
+
+## 2 February 2022
+
+- In the "Evaluation" section: added a reference to the WCAG 2 Test Rules.
+
+## 30 April 2021
 
 * In the frontmatter at the top, add `changelog: /standards-guidelines/changelog/` between ref and layout:<br>
 `ref: /standards-guidelines/   # Do not change this`<br>
