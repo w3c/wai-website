@@ -101,8 +101,9 @@ To learn how you can become a participant in the group, see [Instructions for jo
 
 ## Publications and copyright
 
-* [List of publications by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/)
-* W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; see the list and instructions for disclosing a patent on [Specifications published by the Group with patent obligations &mdash; Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/#specs) 
+See the full [List of publications by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/).
+
+W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; see the list and instructions for disclosing a patent on [Specifications published by the Group &mdash; Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/#specs). 
 
 ## Contact the chairs
 
