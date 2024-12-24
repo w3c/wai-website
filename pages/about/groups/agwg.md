@@ -34,10 +34,6 @@ The mission of the Accessibility Guidelines (AG) Working Group is to develop and
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Admin home page
-
-The AG Working Group’s administrators manage the group’s information on [Accessibility Guidelines Working Group — W3C Groups](https://www.w3.org/groups/wg/ag/).
-
 ## Charter
 
 The group is chartered until October 2025.
@@ -54,7 +50,7 @@ For details of the current work, see the [AG Working Group wiki](https://www.w3.
 
 ### WCAG 3
 
-Work on updating WCAG 3 takes place in many task forces and subgroups of the AG Working Group. For information about the WCAG 3 timelines and publication plan, see [WCAG 3 Timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline).
+Work on developing WCAG 3 takes place in many task forces and subgroups of the AG Working Group. For information about the WCAG 3 timelines and publication plan, see [WCAG 3 Timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline).
 
 ### WCAG 2.2
 
@@ -63,7 +59,7 @@ The [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog) main
 * [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
 * [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/)
 
-For current outstanding WCAG 2.x issues, see [WCAG issues — GitHub](https://github.com/w3c/wcag/issues/).
+For current outstanding WCAG 2.x issues, see [WCAG issues &mdash; GitHub](https://github.com/w3c/wcag/issues/).
 
 ## Contribute to the work
 
@@ -82,11 +78,11 @@ There are many ways you can contribute without being a member of the working gro
 
 Joining the AG Working Group enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-To become a participant requires a commitment from you to support the work of the group in the following ways:
+ Being a participant involves commitment to support the work of the group in the following ways:
 
 * Engage actively with other participants in the working group using the group’s communication channels.
 * Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
-* Give your input on time.
+* Give your input promptly, when it’s needed.
 
 To learn how you can become a participant in the group, see [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
@@ -106,7 +102,7 @@ To learn how you can become a participant in the group, see [Instructions for jo
 ## Publications and copyright
 
 * [List of publications by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/)
-* [Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/)
+* W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; see the list and instructions for disclosing a patent on [Specifications published by the Group with patent obligations &mdash; Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/#specs) 
 
 ## Contact the chairs
 
