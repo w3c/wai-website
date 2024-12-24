@@ -1,5 +1,5 @@
 ---
-title: Accessibility Conformance Testing (ACT)
+title: Accessibility Conformance Testing (ACT) Task Force
 permalink: /about/groups/task-forces/conformance-testing/
 ref: /about/groups/task-forces/conformance-testing/
 lang: en
@@ -11,9 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The WCAG Accessibility Conformance Testing (ACT) Task Force (ACT) is a Task Force of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/). It assists the AG WG to produce specific deliverables as specified in the [work statement](/about/groups/task-forces/conformance-testing/work-statement/).
-
-Some information on this page is also shown on, and may be more current in, the [automatically generated Accessibility Conformance Testing (ACT) Task Force page](https://www.w3.org/groups/tf/wcag-act).
+The objective of the Accessibility Conformance Testing (ACT) Task Force is to evolve and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation among different web accessibility test tools and methodologies. The ACT Task Force is part of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,86 +30,63 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Facilitator and Contacts
+## Work statement
 
-- **Task Force co-facilitators:**
-    - Wilco Fiers, Deque Systems
-    - Kathy Eng, Access Board
-- **Staff Contact:** [Daniel Montalvo](https://www.w3.org/People/#dmontalvo)
+To learn about the current focus, scope and deliverables of the task force, see the [ACT Task Force Work Statement](/about/groups/task-forces/conformance-testing/work-statement/).
 
-## Announcements
+## Current work
 
-No announcements at the moment.
+The ACT Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
-## Meetings and Communication
+For details of the current work, see the [ACT Task Force wiki](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/).
 
-### Weekly Teleconferences
+## Contribute to the work
 
-ACT TF meets weekly on **[Thursdays from 09:00 to 10:00 AM ET](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230330T09&p1=43&ah=1)**:
+The ACT Task Force welcomes input from the global accessibility community on the ACT Rules work.
 
-- Meeting materials
-    - [Meeting minutes](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Meeting_Minutes)
-    - [Availability for ACT TF Teleconferences](https://www.w3.org/2002/09/wbs/93339/availability/)
-    - [Scribe rotation list](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Scribe_Rotation_List)
-- IRC options
-    - [Join IRC channel](http://irc.w3.org/?channels=#wcag-act) (online using your browser)
-    - Server: irc.w3.org; Port 6665, 6667, 21, or 994; Channel: #wcag-act
+### Contribute without joining the task force
 
-### Meeting Minutes
+You can contribute to the work without being a member of the task force in the [GitHub Act Rules repository](https://github.com/w3c/wcag-act/issues/) .
+* If you’re aware of an issue with any of the published ACT Rules resources, raise a new issue.
+* Comment on or propose solutions for open ACT Rules issues.
 
-[Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Meeting_Minutes) are available.
+### Become a participant in the task force
 
-### Mailing Lists
+Joining the ACT Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-The ACT TF uses the public-wcag-act@w3.org mailing list ([mailing list archives](http://lists.w3.org/Archives/Public/public-wcag-act/)) for email discussion. Participants are automatically added to the mailing list when they become a participant of the Task Force.
+Being a participant involves commitment to support the work of the task force in the following ways:
 
-### Tools and Information
+* Engage actively in the work using the task force’s communication channels
+* Keep up with weekly tasks and the progress of the work — for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
 
-- [ACT TF Work Statement](/about/groups/task-forces/conformance-testing/work-statement/)
-- [Wiki main page](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/)
-    - [ACT Overview](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/ACT_Overview_-_What_is_ACT)
-    - [Meeting minutes](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Meeting_Minutes) (also see [automatically collected minutes](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes))
-    - [Availability for ACT TF Teleconferences](https://www.w3.org/2002/09/wbs/93339/availability/)
-- [Mailing list archive](http://lists.w3.org/Archives/Public/public-wcag-act/)
-- [Teleconference logistics](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Teleconference_Logistics)
-    - [Zoom and IRC setup](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Zoom_and_IRC_Setup)
-    - [Scribing instructions](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Scribing_Instructions)
-    - [Scribe rotation list](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Scribe_Rotation_List)
-- [Face-to-face meetings](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/Face-to-Face_Meetings)
-- GitHub repositories
-    - [ACT Spec (main)](https://github.com/w3c/wcag-act/)
-    - [ACT Rules](https://github.com/w3c/wcag-act-rules/)
-- [Web-based surveys (WBS)](https://www.w3.org/2002/09/wbs/93339/)
+To become a participant in the ACT Task Force, you must first be a member of the [AG Working Group](/about/groups/agwg/). See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-## Current Work
+Once you are a member of the AG Working Group, [email the chairs](https://www.w3.org/groups/wg/ag/participants/#chairs) to let them know you’d like to join the task force. 
 
-See the [wiki for current planning and draft documents](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/).
+**Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables rather than on the working group’s wider deliverables.
 
-## Publications
+## Task force members
 
-**Accessibility Conformance Testing (ACT) Rules Format 1.0**
+* [Chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs)
+* [Current participants](https://www.w3.org/2000/09/dbwg/details?group=93339&public=1).
 
-- W3C Standard: [https://www.w3.org/TR/act-rules-format/](https://www.w3.org/TR/act-rules-format/)
-- Errata: [https://www.w3.org/WAI/GL/task-forces/conformance-testing/errata](https://www.w3.org/WAI/GL/task-forces/conformance-testing/errata)
+## Communications
 
-**Accessibility Conformance Testing (ACT) Rules Format 1.1**
+* [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes)
+* [Mailing list archive](http://lists.w3.org/Archives/Public/public-wcag-act/)
 
-- First Public Working Draft: [https://www.w3.org/TR/act-rules-format-1.1/](https://www.w3.org/TR/act-rules-format-1.1/)
-- Editor draft: [https://w3c.github.io/wcag-act/act-rules-format.html](https://w3c.github.io/wcag-act/act-rules-format.html)
+## Publications and copyright
 
-**Accessibility Conformance Testing (ACT) Rules Repository**
+See the full list of publications by the ACT Task Force:
 
-- Published rules: [https://www.w3.org/WAI/standards-guidelines/act/#act-rules-repository](https://www.w3.org/WAI/standards-guidelines/act/#act-rules-repository)
-- GitHub repository: [https://github.com/w3c/wcag-act-rules/](https://github.com/w3c/wcag-act-rules/)
+* [Accessibility Conformance Testing (ACT) Rules Format 1.0 — W3C Recommendation](https://www.w3.org/TR/act-rules-format/)
+* [Accessibility Conformance Testing (ACT) Rules Format 1.1 — W3C First Public Working Draft](https://www.w3.org/TR/act-rules-format-1.1/)
+* [ Accessibility Conformance Testing (ACT) Rules Format 1.1 — W3C Editor’s Draft](https://w3c.github.io/wcag-act/act-rules-format.html)
+* [Repository of published Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/#act-rules-repository)
 
-## How to Comment, Contribute, and Participate
+W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group — see the list and instructions for disclosing a patent on [Specifications published by the Group — Intellectual property rights — AG Working Group](https://www.w3.org/groups/wg/ag/ipr/#specs).
 
-To join the ACT TF, individuals must be participants of the AG WG. Participants are expected to [actively contribute](/about/groups/task-forces/conformance-testing/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the ACT TF, please send e-mail to: [Daniel Montalvo](mailto:dmontalvo@w3.org?subject=ACT%20TF%20Enquiry) and include a little bit about what you're interested in and how you think that you may be able to contribute to the Task Force. Then follow the [AG Working Group participation](/about/groups/agwg/participate/) procedures to join the Working Group, and once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
+## Contact the task force
 
-To contribute without joining the task force, see the [AG Working Group contribute page](/about/groups/agwg/#how-to-comment-contribute-and-participate) for general instructions. To contribute to documents under development, see [GitHub repository](https://github.com/w3c/wcag-act/) directly.
-
-[Current participants in the ACT TF](https://www.w3.org/2000/09/dbwg/details?group=93339&public=1).
-
-### Work Statement
-
-The [Accessibility Conformance Testing (ACT) Task Force Work Statement](/about/groups/task-forces/conformance-testing/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.
+If you have a question for the task force, email the [chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff). 
