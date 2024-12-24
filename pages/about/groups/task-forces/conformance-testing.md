@@ -46,7 +46,7 @@ The ACT Task Force welcomes input from the global accessibility community on the
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [GitHub Act Rules repository](https://github.com/w3c/wcag-act/issues/) .
+You can contribute to the work without being a member of the task force in the [ACT GitHub repository](https://github.com/w3c/wcag-act/issues/):
 * If you’re aware of an issue with any of the published ACT Rules resources, raise a new issue.
 * Comment on or propose solutions for open ACT Rules issues.
 
@@ -56,20 +56,20 @@ Joining the ACT Task Force enables you to participate fully in the development o
 
 Being a participant involves commitment to support the work of the task force in the following ways:
 
-* Engage actively in the work using the task force’s communication channels
+* Engage actively in the work using the task force’s communication channels.
 * Keep up with weekly tasks and the progress of the work — for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
 * Give your input promptly, when it’s needed.
 
-To become a participant in the ACT Task Force, you must first be a member of the [AG Working Group](/about/groups/agwg/). See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
+To become a participant in the ACT Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-Once you are a member of the AG Working Group, [email the chairs](https://www.w3.org/groups/wg/ag/participants/#chairs) to let them know you’d like to join the task force. 
+Once you are a member of the AG Working Group, [email the ACT Task Force chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs) to let them know you’d like to join the task force. 
 
-**Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables rather than on the working group’s wider deliverables.
+**Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other deliverables as well.
 
 ## Task force members
 
 * [Chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs)
-* [Current participants](https://www.w3.org/2000/09/dbwg/details?group=93339&public=1).
+* [Current participants](https://www.w3.org/groups/tf/wcag-act/participants/#participants)
 
 ## Communications
 
@@ -78,12 +78,12 @@ Once you are a member of the AG Working Group, [email the chairs](https://www.w3
 
 ## Publications and copyright
 
-See the full list of publications by the ACT Task Force:
+The ACT Task Force has published the following resources under the name of the AG Working Group:
 
 * [Accessibility Conformance Testing (ACT) Rules Format 1.0 — W3C Recommendation](https://www.w3.org/TR/act-rules-format/)
 * [Accessibility Conformance Testing (ACT) Rules Format 1.1 — W3C First Public Working Draft](https://www.w3.org/TR/act-rules-format-1.1/)
 * [ Accessibility Conformance Testing (ACT) Rules Format 1.1 — W3C Editor’s Draft](https://w3c.github.io/wcag-act/act-rules-format.html)
-* [Repository of published Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/#act-rules-repository)
+* [Repository of published Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/rules/)
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group — see the list and instructions for disclosing a patent on [Specifications published by the Group — Intellectual property rights — AG Working Group](https://www.w3.org/groups/wg/ag/ipr/#specs).
 
