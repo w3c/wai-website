@@ -62,9 +62,9 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the ACT Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-Once you are a member of the AG Working Group, [email the ACT Task Force chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs) to let them know you’d like to join the task force. 
+Once you are a member of the AG Working Group, [email the W3C Staff Contact for the ACT Task Force](https://www.w3.org/groups/tf/wcag-act/participants/#staff) to let them know you’d like to join the task force. 
 
-**Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other deliverables as well.
+**Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
 ## Task force members
 
@@ -76,17 +76,15 @@ Once you are a member of the AG Working Group, [email the ACT Task Force chairs]
 * [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes)
 * [Mailing list archive](http://lists.w3.org/Archives/Public/public-wcag-act/)
 
-## Publications and copyright
+## Publications
 
-The ACT Task Force has published the following resources under the name of the AG Working Group:
+The ACT Task Force develops and maintains the following resources published by the AG Working Group:
 
 * [Accessibility Conformance Testing (ACT) Rules Format 1.0 — W3C Recommendation](https://www.w3.org/TR/act-rules-format/)
 * [Accessibility Conformance Testing (ACT) Rules Format 1.1 — W3C First Public Working Draft](https://www.w3.org/TR/act-rules-format-1.1/)
 * [ Accessibility Conformance Testing (ACT) Rules Format 1.1 — W3C Editor’s Draft](https://w3c.github.io/wcag-act/act-rules-format.html)
 * [Repository of published Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/rules/)
 
-W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group — see the list and instructions for disclosing a patent on [Specifications published by the Group — Intellectual property rights — AG Working Group](https://www.w3.org/groups/wg/ag/ipr/#specs).
-
-## Contact the task force
+## Contact the chairs
 
 If you have a question for the task force, email the [chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff). 
