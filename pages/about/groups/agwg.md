@@ -105,7 +105,7 @@ See the full [List of publications by the AG Working Group](https://www.w3.org/g
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Licensing Commitments &mdash; Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/).
 
-There are also instructions for [How to Make a Patent Disclosure](https://www.w3.org/groups/wg/ag/ipr/#specs).
+There are also instructions for [How to Make a Patent Disclosure](https://www.w3.org/groups/wg/ag/ipr/#discl-howto).
 
 ## Contact the chairs
 
