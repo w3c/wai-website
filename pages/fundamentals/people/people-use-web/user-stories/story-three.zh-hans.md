@@ -22,7 +22,7 @@ translators:    # remove from the beginning of this line and the lines below: "#
 github:
   label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/story-three/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+permalink: /people-use-web/user-stories/story-three/zh-hans  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /people-use-web/user-stories/story-three/  # Do not change this
 
 parent_in_h1:
