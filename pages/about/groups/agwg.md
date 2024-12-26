@@ -103,7 +103,9 @@ See [Instructions for joining the Accessibility Guidelines Working Group](https:
 
 See the full [List of publications by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/).
 
-W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; see the list and instructions for disclosing a patent on [Specifications published by the Group &mdash; Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/#specs). 
+W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Licensing Commitments &mdash; Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/#specs).
+
+There are also instructions for [How to Make a Patent Disclosure](https://www.w3.org/groups/wg/ag/ipr/#specs).
 
 ## Contact the chairs
 
