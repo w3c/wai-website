@@ -94,7 +94,7 @@ See the full [List of publications by the APA Working Group](https://www.w3.org/
 
 What about this one? (I can't find it on [W3C standards and drafts](https://www.w3.org/TR/) or the APA WG publications page): [Framework for Accessible Specification of Technologies](https://w3c.github.io/apa/fast/) plus [FAST checklist](https://w3c.github.io/apa/fast/checklist.html)
 
-W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/apa/ipr/).
+W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; APA Working Group](https://www.w3.org/groups/wg/apa/ipr/).
 
 There are also instructions for [How to Make a Patent Disclosure](https://www.w3.org/groups/wg/apa/ipr/#discl-howto).
 
