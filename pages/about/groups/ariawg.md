@@ -35,11 +35,9 @@ The mission of the Accessible Rich Internet Applications Working Group (ARIA WG)
 
 The group is chartered until January 2027.
 
-To learn about the group’s current focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
+To learn about the group’s focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
 
-## About the work
-
-### Current work 
+## Current work 
 
 For details of the current work, see the [ARIA Working Group wiki](https://www.w3.org/WAI/ARIA/wiki/). (This doesn't seem to be maintained - should we link to a GitHub page?)
 
@@ -53,10 +51,6 @@ The Working Group has established a [road map](roadmap) for upcoming work. This 
 - WAI-ARIA Authoring Practices.
 
 The [ARIA Project Plan](/about/groups/ariawg/planning/) details intended timeline and milestones for this work and proceeds according to the [ARIA Working Group Work Flow](/about/groups/ariawg/workflow/).
-
-### Funding
-
-The work of the ARIA Working Group is partly funded by the [WAI Core 2015 Project](https://www.w3.org/WAI/about/projects/wai-core-2015/). It does not necessarily reflect the views or policies of the funders.
 
 ## Contribute to the work
 
