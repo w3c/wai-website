@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Accessibility Conformance Testing (ACT) Task Force is to evolve and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation among different web accessibility test tools and methodologies. The ACT Task Force is part of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
+The mission of the Accessibility Conformance Testing (ACT) Task Force is to evolve and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation among different web accessibility test tools and methodologies. The ACT Task Force is part of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,7 +32,7 @@ The objective of the Accessibility Conformance Testing (ACT) Task Force is to ev
 
 ## Work statement
 
-To learn about the current focus, scope and deliverables of the task force, see the [ACT Task Force Work Statement](/about/groups/task-forces/conformance-testing/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [ACT Task Force Work Statement](/about/groups/task-forces/conformance-testing/work-statement/).
 
 ## Current work
 
@@ -78,7 +78,7 @@ Once you are a member of the AG Working Group, [email the W3C Staff Contact for 
 
 ## Publications
 
-The ACT Task Force develops and maintains the following resources published by the AG Working Group:
+The ACT Task Force develops and maintains the following resources for the AG Working Group:
 
 * [Accessibility Conformance Testing (ACT) Rules Format 1.0 — W3C Recommendation](https://www.w3.org/TR/act-rules-format/)
 * [Accessibility Conformance Testing (ACT) Rules Format 1.1 — W3C First Public Working Draft](https://www.w3.org/TR/act-rules-format-1.1/)
