@@ -43,7 +43,7 @@ The group is chartered until July 2025.
 
 To learn about the group’s current focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/2023/07/apa-wg-charter).
 
-## Current Work
+## Current work
 
 The work of the APA Working Group follows the [W3C Process](https://www.w3.org/2023/Process-20231103/). 
 
