@@ -31,17 +31,17 @@ The mission of the Accessible Rich Internet Applications Working Group (ARIA WG)
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Charter and funding
+## Charter
 
 The group is chartered until January 2027.
 
 To learn about the group’s current focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
 
-This work is partly funded by the [WAI Core 2015 Project](https://www.w3.org/WAI/about/projects/wai-core-2015/). The work of the ARIA Working Group does not necessarily reflect the views or policies of the funders.
+## About the work
 
-## Current work 
+### Current work 
 
-For details of the current work, see the [ARIA Working Group wiki](https://www.w3.org/WAI/APA/wiki/).
+For details of the current work, see the [ARIA Working Group wiki](https://www.w3.org/WAI/ARIA/wiki/). (This doesn't seem to be maintained - should we link to a GitHub page?)
 
 Are we keeping the following 'Roadmap', Deliverables and Status' (out of date?), and 'Work flow' child pages? Should we move any of that information to this section or just continue to link to it? Should we turn the list items below into headings with a brief description (as we did for WCAG current work on the AG WG page)?
 
@@ -54,6 +54,10 @@ The Working Group has established a [road map](roadmap) for upcoming work. This 
 
 The [ARIA Project Plan](/about/groups/ariawg/planning/) details intended timeline and milestones for this work and proceeds according to the [ARIA Working Group Work Flow](/about/groups/ariawg/workflow/).
 
+### Funding
+
+The work of the ARIA Working Group is partly funded by the [WAI Core 2015 Project](https://www.w3.org/WAI/about/projects/wai-core-2015/). It does not necessarily reflect the views or policies of the funders.
+
 ## Contribute to the work
 
 W3C and the ARIA Working Group welcome input on ARIA work from the global accessibility community.
@@ -63,7 +67,7 @@ W3C and the ARIA Working Group welcome input on ARIA work from the global access
 There are many ways you can contribute without being a member of the working group:
 
 * **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
-* **Raise, comment on, or propose fixes to ARIA issues:** If you’re aware of an issue with any of the published ARIA resources, W3C welcomes you to raise a new issue on GitHub, or you can also comment on and, even better, propose solutions for existing issues &mdash; see the list of repositories maintained by the ARIA Working Group](/about/groups/ariawg/contribute/#github-issues-and-pull-requests).
+* **Raise, comment on, or propose fixes to ARIA issues:** If you’re aware of an issue with any of the published ARIA resources, W3C welcomes you to raise a new issue on GitHub, or you can also comment on and, even better, propose solutions for existing issues &mdash; see the list of [repositories maintained by the ARIA Working Group](/about/groups/ariawg/contribute/#github-issues-and-pull-requests).
 * **Contribute to ARIA discussions:** You may contribute your views to the ARIA Working Group's [mailing list discussions](/about/groups/ariawg/contribute/#mailing-list-discussions).
 * **Participate in a community group:** W3C hosts a small number of active community groups that focus on digital accessibility issues &mdash; for details, search for ‘accessibility’ on [Current Groups &mdash; W3C Community and Business Groups](https://www.w3.org/community/groups).
 
