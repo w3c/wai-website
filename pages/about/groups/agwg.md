@@ -34,17 +34,16 @@ The mission of the Accessibility Guidelines (AG) Working Group is to develop and
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Charter
+## Charter and funding
 
 The group is chartered until October 2025.
 
 To learn about the group’s current focus, scope and deliverables, see the [AG Working Group Charter](https://www.w3.org/WAI/GL/charter).
 
-## Current work
+The group's work is partly funded by the [WAI Core 2015 Project](https://www.w3.org/WAI/about/projects/wai-core-2015/). It does not necessarily reflect the views or policies of the funders.
 
-The work of the AG Working Group follows the [W3C Process](https://www.w3.org/2023/Process-20231103/). 
 
-This work is partly funded by the [WAI Core 2015 Project](https://www.w3.org/WAI/about/projects/wai-core-2015/). The work of the AG Working Group does not necessarily reflect the views or policies of the funders.
+## Current work 
 
 For details of the current work, see the [AG Working Group wiki](https://www.w3.org/WAI/GL/wiki/Main_Page).
 
@@ -78,7 +77,7 @@ There are many ways you can contribute without being a member of the working gro
 
 Joining the AG Working Group enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
- Being a participant involves commitment to support the work of the group in the following ways:
+Being a participant involves commitment to support the work of the group in the following ways:
 
 * Engage actively with other participants in the working group using the group’s communication channels.
 * Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
