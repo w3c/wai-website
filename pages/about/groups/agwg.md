@@ -34,7 +34,7 @@ The mission of the Accessibility Guidelines (AG) Working Group is to develop and
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Charter and funding
+## Charter
 
 The group is chartered until October 2025.
 
