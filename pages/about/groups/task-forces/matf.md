@@ -38,7 +38,7 @@ The Mobile A11y Task Force is currently regrouping and creating a new Work State
 
 ## Current work
 
-The Mobile A11y Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/)
+The Mobile A11y Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
 For details of the current work, see the [Mobile A11y Task Force wiki](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Main_Page).
 

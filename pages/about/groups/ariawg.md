@@ -62,7 +62,7 @@ There are many ways you can contribute without being a member of the working gro
 
 * **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
 * **Raise, comment on, or propose fixes to ARIA issues:** If you’re aware of an issue with any of the published ARIA resources, W3C welcomes you to raise a new issue on GitHub, or you can also comment on and, even better, propose solutions for existing issues &mdash; see the list of [repositories maintained by the ARIA Working Group](/about/groups/ariawg/contribute/#github-issues-and-pull-requests).
-* **Contribute to ARIA discussions:** You may contribute your views to the ARIA Working Group's [mailing list discussions](/about/groups/ariawg/contribute/#mailing-list-discussions).
+* **Contribute to ARIA discussions:** You may contribute your views to the ARIA Working Group's [open ARIA discussions in GitHub](https://github.com/w3c/aria/discussions) and [mailing list discussions](/about/groups/ariawg/contribute/#mailing-list-discussions).
 * **Participate in a community group:** W3C hosts a small number of active community groups that focus on digital accessibility issues &mdash; for details, search for ‘accessibility’ on [Current Groups &mdash; W3C Community and Business Groups](https://www.w3.org/community/groups).
 
 ### Become a participant in the group
@@ -83,8 +83,6 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 * [Current participants](https://www.w3.org/groups/wg/aria/participants/#participants)
 * [Task forces](https://www.w3.org/groups/wg/aria/task-forces/) that support the ARIA Working Group
 
-- Should we still include this task force? (It's not in the ARIA list of task forces): CSS Accessibility Task Force; focuses on accessibility of CSS, ARIA role is to explore ARIA and accessibility API mapping features.
-
 ## Communications and decisions
 
 * [Minutes from previous meetings](https://www.w3.org/WAI/ARIA/minutes)
@@ -96,7 +94,7 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 
 See the full [List of publications by the ARIA Working Group](https://www.w3.org/groups/wg/aria/publications/).
 
-Should we also include the following here under publications?: [WAI-ARIA Authoring Practices 1.1 Editors’ Draft](https://www.w3.org/TR/wai-aria-practices-1.1/)
+Should we also include the following here under publications?: [WAI-ARIA Authoring Practices Guide](https://www.w3.org/TR/wai-aria-practices-1.1/) - is this still 1.1 Editors’ Draft?
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/ipr/).
 
