@@ -1,5 +1,5 @@
 ---
-title: Accessible Rich Internet Applications (ARIA) Working Group
+title: Accessible Rich Internet Applications Working Group
 nav_title: '<span>ARIA: Accessible Rich Internet Applications <abbr title="Working Group">WG</abbr></span>'
 lang: en
 permalink: /about/groups/ariawg/

@@ -1,5 +1,5 @@
 ---
-title: ARIA Authoring Practices (APG) Task Force
+title: ARIA Authoring Practices Task Force
 permalink: /about/groups/task-forces/practices/
 ref: /about/groups/task-forces/practices/
 lang: en
@@ -84,7 +84,7 @@ Once you are a member of the ARIA Working Group, [email the W3C Staff Contact fo
 
 ## Publications
 
-The APG Task Force develops and maintains the [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)  for the ARIA Working Group.
+The APG Task Force develops and maintains the [WAI-ARIA Authoring Practices Guide 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/) for the ARIA Working Group.
 
 ## Contact the chairs
 
