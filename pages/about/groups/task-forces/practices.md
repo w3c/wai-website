@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the ARIA Authoring Practices (APG) Task Force is to develop the WAI-ARIA Authoring Practices Guide which:
+The objective of the ARIA Authoring Practices (APG) Task Force is to develop the WAI-ARIA Authoring Practices Guide which:
 
 * describes considerations that might not be evident to most authors from the WAI-ARIA specification alone, and
 * recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.

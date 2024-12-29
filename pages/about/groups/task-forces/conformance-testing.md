@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the Accessibility Conformance Testing (ACT) Task Force is to evolve and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation among different web accessibility test tools and methodologies. The ACT Task Force is part of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
+The objective of the Accessibility Conformance Testing (ACT) Task Force is to evolve and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation among different web accessibility test tools and methodologies. The ACT Task Force is part of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
