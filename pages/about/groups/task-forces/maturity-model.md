@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Maturity Model (MM) Task Force is to to help organizations build capacity to develop and maintain accessible products and services by crafting an Accessibility Maturity Model (AMM) with an assessment tool that incorporates W3C standards, such as the Web Content Accessibility Guidelines (WCAG), and other related guidance, such as Accessibility Rich Internet Applications (ARIA).
+The objective of the Maturity Model (MM) Task Force is to help organizations build capacity to develop and maintain accessible products and services by crafting an Accessibility Maturity Model (AMM) with an assessment tool that incorporates W3C standards, such as the Web Content Accessibility Guidelines (WCAG), and other related guidance, such as Accessible Rich Internet Applications (ARIA).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -79,9 +79,7 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 ## Publications
 
-The MM Task Force has developed the following resources for the APA Working Group:
-
-* [Accessibility Maturity Model &mdash; 2024 Group Draft Note](https://www.w3.org/TR/maturity-model/)
+The MM Task Force develops and maintains the [Accessibility Maturity Model &mdash; 2024 Group Draft Note](https://www.w3.org/TR/maturity-model/) for the APA Working Group.
 
 ## Contact the chair
 
