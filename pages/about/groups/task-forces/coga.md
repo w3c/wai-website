@@ -60,7 +60,7 @@ Joining the COGA Task Force enables you to participate fully in the development 
 Being a participant involves commitment to support the work of the task force in the following ways:
 
 * Engage actively in the work using the task force’s communication channels.
-* Keep up with weekly tasks and the progress of the work — for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
 * Give your input promptly, when it’s needed.
 
 To become a participant in the COGA Task Force, you must first be a member of one of the working groups the task force supports:

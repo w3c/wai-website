@@ -1,5 +1,5 @@
 ---
-title: Spoken Presentation Task Force of the APA WG
+title: Spoken Presentation Task Force
 permalink: /about/groups/task-forces/pronunciation/
 ref: /about/groups/task-forces/pronunciation/
 lang: en
@@ -11,9 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Spoken Presentation Task Force is a task force of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
-
-Some information on this page is also shown on, and may be more current in, the [Spoken Presentation Task Force page](https://www.w3.org/groups/tf/pronunciation-tf/).
+The objective of the Spoken Presentation (SP) Task Force is to develop normative specifications and best practice guidance on providing proper pronunciation for HTML content so that words are pronounced correctly when using text-to-speech (TTS) synthesis.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,85 +30,77 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Announcements
+## Work statement
 
-No announcements at the moment.
+To learn about the focus, scope and deliverables of the task force, see the [SP Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/).
 
-## Spoken Presentation Overview
+## Spoken presentation overview
 
-[Spoken Presentation Overview](https://www.w3.org/WAI/pronunciation/) provides an overview of the overall pronunciation technique in W3C.
+* [Spoken presentation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s overall pronunciation technique
+* [Spoken presentationvideo](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
 
-## Spoken Presentation Video
+## Current work
 
-There is also a short [pronunciation technical video](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) available, it shows the demo of pronunciation technical and approaches for controlling pronunciation in spans of web content where uniform markup can make the difference.
+The SP Task Force supports the deliverables of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
 
-## Meetings and Communication
+For details of the current work, see:
 
-The APA WG conducts its work using a variety of synchronous and asynchronous tools:
+* [SP Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
+* [SP Task Force current work]((https://github.com/w3c/pronunciation/blob/master/README.md))
 
-- [Teleconferences of the Spoken Presentation Task Force](#teleconferences);
-- Face to face meetings (The Task Force will plan a face-to-face meeting at a later stage.);
-- [Email lists](#mailing-lists);
-- IRC discussion on the [#pronunciation](irc://irc.w3.org/pronunciation) IRCchannel, used largely for minute-taking;
-- [Spoken Presentation source repository](https://github.com/w3c/pronunciation/);
-- [Wiki](https://github.com/w3c/pronunciation/wiki/);
-- [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/110437/);
-- [Spoken Presentation Issue Tracker](https://www.w3.org/WAI/APA/task-forces/pronunciation/track/);
-- [Spoken Presentation source repository issue tracker](https://github.com/w3c/pronunciation/issues);
-- [Current participants in the Spoken Presentation Task Force](https://www.w3.org/2000/09/dbwg/details?group=110437&public=1).
+## Contribute to the work
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/apawg/contribute/).
+The SP Task Force welcomes input from the global accessibility community on the pronunciation work.
 
-### Teleconferences
+### Contribute without joining the task force
 
-[Spoken Presentation Task Force meetings](https://www.w3.org/2017/08/telecon-info_pronunciation): Mondays at 11:00 until 12:00 Boston time.
+You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues in the [Pronunciation GitHub repository](https://github.com/w3c/pronunciation/issues).
 
-### Meeting Minutes
+### Become a participant in the task force
 
-[Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/pronunciation/minutes) are available.
+Joining the SP Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-### Mailing Lists
+Being a participant involves commitment to support the work of the task force in the following ways:
 
-The Spoken Presentation Task Force uses the public-pronunciation@w3.org mailing list ([mailing list archives](https://lists.w3.org/Archives/Public/public-pronunciation/)) for email discussion. Participants are automatically added to the mailing list when they become a participant of the Task Force.
+* Engage actively in the work using the task force’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
 
-## Current Work
+To become a participant in the SP Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
 
-[See the wiki for current planning and draft documents](https://github.com/w3c/pronunciation/blob/master/README.md).
+Once you are a member of the APA Working Group, [email the W3C Staff Contact for the SP Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff) to let them know you’d like to join the task force. 
+
+**Note:** As a participant in one of the APA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
+
+## Task force members
+
+* [Chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/pronunciation-tf/participants/#participants)
+
+## Communications
+
+* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/pronunciation/minutes)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-pronunciation/)
 
 ## Publications
 
-- **[Explainer: Improving Spoken Presentation on the Web](https://www.w3.org/TR/pronunciation-explainer/)** provides an overview of the work. It:
-    - Briefly introduces the context for W3C work on pronunciation
-    - Describes the advantages and disadvantages of two approaches
-    - Poses questions for additional input
-- **[Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/)** provides examples of:
-    - End-users, including screen reader users
-    - Content providers, including educators
-    - Software developers, including content managements systems
-- **[Pronunciation Gap Analysis and Use Cases](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)** provides details on the analysis. It:
-    - Provides more detailed context
-    - Describes required features for pronunciation and spoken presentation
-    - Describes specific implementation approaches for introducing presentation authoring markup into HTML5 (called “use cases”)
-    - Provides a gap analysis
-    - Describes how the required features may be met by existing approaches
+The SP Task Force develops and maintains the following resources for the APA Working Group:
 
-## How to Comment, Contribute, and Participate
+* [Pronunciation User Scenarios &mdash; 2019 Public Working Draft](https://www.w3.org/TR/pronunciation-user-scenarios/) &mdash; provides examples of:
+    - end-users, including screen reader users
+    - content providers, including educators
+    - software developers, including content managements systems
+* [Pronunciation Gap Analysis and Use &mdash; 2020 Public Working Draft](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/) &mdash; provides details of the gap analysis:
+    - gives more contextual details
+    - describes required features for pronunciation and spoken presentation
+    - describes specific implementation approaches for introducing presentation authoring markup into HTML5 (called “use cases”)
+    - provides a gap analysis
+    - describes how the required features may be met by existing approaches    
+* [Explainer: Improving Spoken Presentation on the Web &mdash; 2020 Public Working Draft](https://www.w3.org/TR/pronunciation-explainer/): &mdash; provides an overview of the work:
+    - briefly introduces the context for W3C work on pronunciation
+    - describes the advantages and disadvantages of two approaches
+    - poses questions for additional input
 
-To join the Spoken Presentation Task Force, individuals must be participants of the APA WG. Participants are expected to [actively contribute](/about/groups/task-forces/pronunciation/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the Spoken Presentation Task Force, please send e-mail to: [Janina Sajka](mailto:janina@rednote.net), [Irfan Ali](mailto:iali@ets.org) and [Paul Grenier](mailto:pgrenier@gmail.com) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [APA Working Group participation](/about/groups/apawg/participate/) procedures to join the Working Group, and once you have joined ask [Ruoxi(Roy) Ran](mailto:ran@w3.org) to add you to the task force.
+## Contact the chairs
 
-To contribute without joining the task force, see the [APA Working Group contribute page](/about/groups/apawg/contribute/) for general instructions. To contribute to documents under development, see [how to contribute to the source repository directly](https://github.com/w3c/pronunciation/).
-
-[Current participants in the Spoken Presentation Task Force](https://www.w3.org/2000/09/dbwg/details?group=110437&public=1).
-
-## Administrative Information
-
-The Spoken Presentation Task Force is a Task Force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists these Working Groups to produce techniques, understanding, and guidance documents, as well as updates to existing related W3C material that addresses the cognitive space.
-
-### Facilitator and Contacts
-
-- **Task Force facilitator:** [Irfan Ali](mailto:iali@ets.org), [Paul Grenier](mailto:pgrenier@gmail.com)
-- **Staff Contact: [Ruoxi(Roy) Ran](https://www.w3.org/People/roy/)**
-
-### Work Statement
-
-The [Spoken Presentation Accessibility Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.
+If you have a question for the task force, email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).

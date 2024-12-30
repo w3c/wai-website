@@ -58,7 +58,7 @@ Joining the MM Task Force enables you to participate fully in the development of
 Being a participant involves commitment to support the work of the task force in the following ways:
 
 * Engage actively in the work using the task force’s communication channels.
-* Keep up with weekly tasks and the progress of the work — for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
 * Give your input promptly, when it’s needed.
 
 To become a participant in the MM Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
