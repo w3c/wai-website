@@ -39,7 +39,7 @@ To learn about the focus, scope and deliverables of the task force, see the [WAI
 ## Overview of the WAI-Adapt work
 
 * [WAI-Adapt Overview](https://www.w3.org/WAI/adapt/) &mdash; an overview of W3C’s WAI-Adapt technique
-* [WAI-Adapt video](https://ln.sync.com/dl/04f8c9330/ &mdash; a technical demonstration of a semantic overlay approach that enables user-driven personalization, employing user-preferred symbols for text that has had WAI-Adapt semantics added to it
+* [WAI-Adapt video](https://ln.sync.com/dl/04f8c9330/) &mdash; a technical demonstration of a semantic overlay approach that enables user-driven personalization, employing user-preferred symbols for text that has had WAI-Adapt semantics added to it
 
 ## Current work
 
@@ -88,7 +88,7 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 The WAI-Adapt Task Force develops and maintains the following resources for the APA Working Group:
 
-* [Requirements for WAI-Adapt specification &mdash; 2022 Group Draft Note) &mdash; user stories, specific use cases, and requirements for WAI-Adapt
+* [Requirements for WAI-Adapt specification &mdash; 2022 Group Draft Note](https://www.w3.org/TR/adapt-requirements/) &mdash; user stories, specific use cases, and requirements for WAI-Adapt
 * [WAI-Adapt: Tools Module &mdash; 2022 Group Draft Note]() &mdash; examples of the personalized tools properties
 * [WAI-Adapt: Help and Support Module &mdash; 2022 Working Draft](https://www.w3.org/TR/adapt-help/) &mdash; examples of the personalized help and support properties
 * [WAI-Adapt: Symbols Module &mdash; 2023 Candidate Recommendation Snapshot](https://www.w3.org/TR/adapt-symbols/) &mdash; technical specification providing terms authors can use to enhance web content with information about controls, symbols, and user interface elements
