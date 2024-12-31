@@ -12,7 +12,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the Accessible Rich Internet Applications Working Group (ARIA WG) is to enhance the accessibility of web content through the development of supplemental attributes, including roles, states, and other properties, that can be applied to native host language elements and exposed via platform accessibility application programming interfaces (APIs).
+The mission of the Accessible Rich Internet Applications Working Group (ARIA WG) is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
 
 {::nomarkdown}
 {% include box.html type="end" %}

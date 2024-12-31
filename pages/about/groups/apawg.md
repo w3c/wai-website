@@ -14,9 +14,9 @@ github:
 
 The mission of the Accessible Platform Architectures (APA) Working Group is to ensure W3C specifications provide support for accessibility to people with disabilities through the following activities:
 
-* reviewing W3C specifications
+* reviewing specifications
 * developing new specifications and technical support materials
-* collaborating with other W3C working groups
+* collaborating with other W3C working groups on technology accessibility
 * coordinating harmonized accessibility strategies within W3C, including monitoring and participating in W3C security, privacy, and internationalization activities
 
 {::nomarkdown}

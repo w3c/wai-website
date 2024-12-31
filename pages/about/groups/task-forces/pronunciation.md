@@ -34,10 +34,10 @@ The objective of the Spoken Presentation (SP) Task Force is to develop normative
 
 To learn about the focus, scope and deliverables of the task force, see the [SP Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/).
 
-## Spoken presentation overview
+## Overview of the spoken presentation work
 
-* [Spoken presentation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s overall pronunciation technique
-* [Spoken presentationvideo](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
+* [Pronunciation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s overall pronunciation technique
+* [Pronunciation video](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
 
 ## Current work
 
