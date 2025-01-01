@@ -70,12 +70,12 @@ Once you are a member of the AG Working Group, [email the W3C Staff Contact for 
 
 ## Task force members
 
-* [Chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs)
-* [Current participants](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#participants)
+* [Chair &emdash; Mobile A11y Task Force](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs)
+* [Current participants &emdash; Mobile A11y Task Force](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#participants)
 
 ## Communications
 
-* Minutes from previous meetings:
+* Minutes from previous meetings of the Mobile A11y Task Force:
   * [Minutes from January 2024](https://www.w3.org/groups/tf/mobile-a11y-tf/calendar/?past=1&tf=0)
   * [Minutes from 2013 to 2021](https://www.w3.org/WAI/GL/task-forces/matf/minutes)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-mobile-a11y-tf/)
@@ -86,4 +86,4 @@ The Mobile A11y Task Force develops and maintains the [Mobile Accessibility: How
 
 ## Contact the chair
 
-If you have a question for the task force, email the [chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#staff).
+If you have a question for the Mobile A11y Task Force, email the [chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#staff).

@@ -12,7 +12,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the Accessible Rich Internet Applications Working Group (ARIA WG) is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
+The mission of the Accessible Rich Internet Applications (ARIA) Working Group is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -33,7 +33,7 @@ The mission of the Accessible Rich Internet Applications Working Group (ARIA WG)
 
 ## Charter
 
-The group is chartered until January 2027.
+The ARIA Working Group is chartered until January 2027.
 
 To learn about the group’s focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
 
@@ -79,16 +79,16 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 
 ## Group members and task forces
 
-* [Chairs](https://www.w3.org/groups/wg/aria/participants/#chairs)
-* [Current participants](https://www.w3.org/groups/wg/aria/participants/#participants)
+* [Chairs &emdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/participants/#chairs)
+* [Current participants &emdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/participants/#participants)
 * [Task forces](https://www.w3.org/groups/wg/aria/task-forces/) that support the ARIA Working Group
 
 ## Communications and decisions
 
-* [Minutes from previous meetings](https://www.w3.org/WAI/ARIA/minutes)
-* [Mailing list archive](https://lists.w3.org/Archives/Public/public-aria/)
-* Record of decisions (where is this?)
-* [Decision policy](/about/groups/ariawg/decision-policy/)
+* [Minutes from previous meetings &emdash; ARIA Working Group](https://www.w3.org/WAI/ARIA/minutes)
+* [Mailing list archive &emdash; ARIA Working Group](https://lists.w3.org/Archives/Public/public-aria/)
+* Record of decisions &emdash; ARIA Working Group (where is this?)
+* [Decision policy &emdash; ARIA Working Group](/about/groups/ariawg/decision-policy/)
 
 ## Publications and copyright
 
@@ -103,4 +103,4 @@ There are also instructions for [How to Make a Patent Disclosure](https://www.w3
 
 ## Contact the chairs
 
-If you have a question for the group’s chairs or the W3C staff contact, email [group-aria-chairs@w3.org](mailto:group-aria-chairs@w3.org). (Taking a guess as I can't find the group email address, is this correct?)
+If you have a question for the ARIA Working Group’s chairs or the W3C staff contact, email [group-aria-chairs@w3.org](mailto:group-aria-chairs@w3.org). (Taking a guess as I can't find the group email address, is this correct?)

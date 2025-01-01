@@ -68,13 +68,13 @@ Once you are a member of the AG Working Group, [email the W3C Staff Contact for 
 
 ## Task force members
 
-* [Chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs)
-* [Current participants](https://www.w3.org/groups/tf/wcag-act/participants/#participants)
+* [Chairs &emdash; ACT Task Force](https://www.w3.org/groups/tf/wcag-act/participants/#chairs)
+* [Current participants &emdash; ACT Task Force](https://www.w3.org/groups/tf/wcag-act/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes)
-* [Mailing list archive](http://lists.w3.org/Archives/Public/public-wcag-act/)
+* [Minutes from previous meetings &emdash; ACT Task Force](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes)
+* [Mailing list archive &emdash; ACT Task Force](http://lists.w3.org/Archives/Public/public-wcag-act/)
 
 ## Publications
 
@@ -87,4 +87,4 @@ The ACT Task Force develops and maintains the following resources for the AG Wor
 
 ## Contact the chairs
 
-If you have a question for the task force, email the [chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff). 
+If you have a question for the ACT Task Force, email the [chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff). 

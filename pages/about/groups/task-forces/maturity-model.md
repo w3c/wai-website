@@ -1,5 +1,5 @@
 ---
-title: Maturity Model Task Force of the APA WG
+title: Maturity Model Task Force
 permalink: /about/groups/task-forces/maturity-model/
 ref: /about/groups/task-forces/maturity-model/
 lang: en
@@ -29,7 +29,6 @@ The objective of the Maturity Model (MM) Task Force is to help organizations bui
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
-
 
 ## Work statement
 
@@ -69,13 +68,13 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 ## Task force members
 
-* [Chairs](https://www.w3.org/groups/tf/maturity/participants/#chairs)
-* [Current participants](https://www.w3.org/groups/tf/maturity/participants/#participants)
+* [Chairs &emdash; MM Task Force](https://www.w3.org/groups/tf/maturity/participants/#chairs)
+* [Current participants &emdash; MM Task Force](https://www.w3.org/groups/tf/maturity/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/maturity-model/minutes)
-* [Mailing list archive](https://lists.w3.org/Archives/Public/public-maturity/)
+* [Minutes from previous meetings &emdash; MM Task Force](https://www.w3.org/WAI/APA/task-forces/maturity-model/minutes)
+* [Mailing list archive &emdash; MM Task Force](https://lists.w3.org/Archives/Public/public-maturity/)
 
 ## Publications
 
@@ -83,4 +82,4 @@ The MM Task Force develops and maintains the [Accessibility Maturity Model &mdas
 
 ## Contact the chairs
 
-If you have a question for the task force, email the [chairs](https://www.w3.org/groups/tf/maturity/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/maturity/participants/#staff). 
+If you have a question for the MM Task Force, email the [chairs](https://www.w3.org/groups/tf/maturity/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/maturity/participants/#staff). 

@@ -14,7 +14,7 @@ github:
 The WCAG 2.x Backlog Task Force has two objectives:
 
 * maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG)
-* document considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the 2.x specification.
+* document considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -45,7 +45,7 @@ For details of the current work, see the [WCAG 2.x Backlog Task Force wiki](http
 
 The task force has developed a workflow process for:
 
-* creating and vetting pull requests for WCAG 2.x issues
+* creating and vetting pull requests for WCAG 2.x issues, and
 * creating responses to WCAG 2.x issues. 
 
 The process includes a two-week review of all changes by the AG Working Group. For details, see [WCAG 2 Task Force process](https://github.com/w3c/wcag/wiki/WCAG-2-Task-Force-process).
@@ -70,7 +70,7 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the WCAG 2.x Backlog Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-Once you are a member of the AG Working Group, [email who?](??) to let them know you’d like to join the task force. 
+Once you are a member of the AG Working Group, email [who?] to let them know you’d like to join the task force. 
 
 **Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
@@ -80,13 +80,13 @@ No details?
 
 ## Communications
 
-* Minutes from previous meetings (Does this TF have meetings? What is the link?)
+* Minutes from previous meetings &emdash; WCAG 2.x Backlog Task Force (Does this TF have meetings? What is the link?)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-wcag2-issues/)
 
 ## Publications
 
-The WCAG 2.x Backlog does not develop publications.
+The WCAG 2.x Backlog Task Force does not develop publications.
 
-## Contact the facilitators
+## Contact the facilitators (not chairs? why the inconsistency?)
 
-If you have a question for the task force, email the task force facilitators, [Bruce Bailey](https://www.w3.org/groups/wg/ag/participants/#bbailey) and [Michael Gower](https://www.w3.org/groups/wg/ag/participants/#mbgower), and the AG Working Group chair liaison, [Alastair Campbell](https://www.w3.org/groups/wg/ag/participants/#acampbel).
+If you have a question for the WCAG 2.x Backlog Task Force, email the task force facilitators, [Bruce Bailey](https://www.w3.org/groups/wg/ag/participants/#bbailey) and [Michael Gower](https://www.w3.org/groups/wg/ag/participants/#mbgower), and the AG Working Group chair liaison, [Alastair Campbell](https://www.w3.org/groups/wg/ag/participants/#acampbel).

@@ -49,7 +49,7 @@ The RQ Task Force welcomes input from the global accessibility community on the 
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues in the [Research Questions GitHub repository](https://github.com/w3c/rqtf/issues):
+You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues in the [Research Questions GitHub repository](https://github.com/w3c/rqtf/issues).
 
 ### Become a participant in the task force
 
@@ -69,13 +69,13 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 ## Task force members
 
-* [Chairs](https://www.w3.org/groups/tf/rqtf/participants/#chairs)
-* [Current participants](https://www.w3.org/groups/tf/rqtf/participants/#participants)
+* [Chairs &emdash; RQ Task Force](https://www.w3.org/groups/tf/rqtf/participants/#chairs)
+* [Current participants &emdash; RQ Task Force](https://www.w3.org/groups/tf/rqtf/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/research-questions/minutes)
-* [Mailing list archive](https://lists.w3.org/Archives/Public/public-rqtf/)
+* [Minutes from previous meetings &emdash; RQ Task Force](https://www.w3.org/WAI/APA/task-forces/research-questions/minutes)
+* [Mailing list archive &emdash; RQ Task Force](https://lists.w3.org/Archives/Public/public-rqtf/)
 
 ## Publications
 
@@ -83,4 +83,4 @@ When the RQ Task Force develops publications, they will be listed here.
 
 ## Contact the chairs
 
-If you have a question for the task force, email the [chairs](https://www.w3.org/groups/tf/rqtf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/rqtf/participants/#staff).
+If you have a question for the RQ Task Force, email the [chairs](https://www.w3.org/groups/tf/rqtf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/rqtf/participants/#staff).

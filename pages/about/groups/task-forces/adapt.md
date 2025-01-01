@@ -1,5 +1,5 @@
 ---
-title: WAI-Adapt Task Force of the APA WG
+title: WAI-Adapt Task Force
 permalink: /about/groups/task-forces/adapt/
 ref: /about/groups/task-forces/adapt/
 lang: en
@@ -13,7 +13,7 @@ redirect_from:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the WAI-Adapt Task Force is to refine the WAI-Adapt specification which supports authors to increase web accessibility for people with cognitive and learning disabilities by adding semantic information that enables content and interface personalization for individual users.
+The objective of the WAI-Adapt Task Force is to refine the WAI-Adapt specification which supports authors to increase web accessibility for people with cognitive and learning disabilities by adding semantic information that enables content and interface personalization for individual users.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -76,13 +76,13 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 ## Task force members
 
-* [Chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
-* [Current participants](https://www.w3.org/groups/tf/personalization-tf/participants/#participants)
+* [Chair &emdash; WAI-Adapt Task Force](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
+* [Current participants &emdash; WAI-Adapt Task Force](https://www.w3.org/groups/tf/personalization-tf/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/adapt/minutes)
-* [Mailing list archive](https://lists.w3.org/Archives/Public/public-adapt/)
+* [Minutes from previous meetings &emdash; WAI-Adapt Task Force](https://www.w3.org/WAI/APA/task-forces/adapt/minutes)
+* [Mailing list archive &emdash; WAI-Adapt Task Force](https://lists.w3.org/Archives/Public/public-adapt/)
 
 ## Publications
 
@@ -96,4 +96,4 @@ The WAI-Adapt Task Force develops and maintains the following resources for the 
 
 ## Contact the chair
 
-If you have a question for the task force, email the [chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/personalization-tf/participants/#staff). 
+If you have a question for the WAI-Adapt Task Force, email the [chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/personalization-tf/participants/#staff). 

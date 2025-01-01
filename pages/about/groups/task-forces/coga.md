@@ -73,13 +73,13 @@ Once you are a member of either the AG or APA working groups, [email the W3C Sta
 
 ## Task force members
 
-* [Chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs)
-* [Current participants](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#participants)
+* [Chair &emdash; COGA Task Force](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs)
+* [Current participants &emdash; COGA Task Force](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/coga/minutes)
-* [Mailing list archive](http://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/)
+* [Minutes from previous meetings &emdash; COGA Task Force](https://www.w3.org/WAI/GL/task-forces/coga/minutes)
+* [Mailing list archive &emdash; COGA Task Force](http://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/)
 
 ## Publications
 
@@ -96,4 +96,4 @@ The COGA Task Force has developed the following resources for the AG and APA wor
 
 ## Contact the chair
 
-If you have a question for the task force, email the [chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#staff). 
+If you have a question for the COGA Task Force, email the [chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#staff). 

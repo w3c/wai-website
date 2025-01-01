@@ -36,7 +36,7 @@ To learn about the focus, scope and deliverables of the task force, see the [SP 
 
 ## Overview of the spoken presentation work
 
-* [Pronunciation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s overall pronunciation technique
+* [Pronunciation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s pronunciation technique
 * [Pronunciation video](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
 
 ## Current work
@@ -74,13 +74,13 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 ## Task force members
 
-* [Chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs)
-* [Current participants](https://www.w3.org/groups/tf/pronunciation-tf/participants/#participants)
+* [Chairs &emdash; SP Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs)
+* [Current participants &emdash; SP Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/pronunciation/minutes)
-* [Mailing list archive](https://lists.w3.org/Archives/Public/public-pronunciation/)
+* [Minutes from previous meetings &emdash; SP Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/minutes)
+* [Mailing list archive &emdash; SP Task Force](https://lists.w3.org/Archives/Public/public-pronunciation/)
 
 ## Publications
 
@@ -103,4 +103,4 @@ The SP Task Force develops and maintains the following resources for the APA Wor
 
 ## Contact the chairs
 
-If you have a question for the task force, email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).
+If you have a question for the SP Task Force, email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).
