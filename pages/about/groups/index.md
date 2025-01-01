@@ -20,4 +20,4 @@ The Web Accessibility Initiative (WAI)’s working groups develop digital access
 : The mission of the ARIA Working Group is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
 
 [WAI Interest Group](/about/groups/waiig/)
-: The WAI Interest Group is a public forum with a mailing list for sharing information and exchanging ideas about W3C’s digital accessibility work.
+: The WAI Interest Group is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work.

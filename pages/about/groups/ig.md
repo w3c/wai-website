@@ -12,12 +12,12 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Web Accessibility Initiative (WAI) Interest Group is a public forum for sharing information and exchanging ideas about W3C’s digital accessibility work, including:
+The Web Accessibility Initiative (WAI) Interest Group is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work, including:
 
 * reviewing accessibility aspects of new specifications
 * identifying accessibility research topics
-* exploring accessibility issues and solutions, and 
-* developing accessibility educational materials.
+* exploring accessibility issues and solutions
+* developing accessibility educational materials
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -42,22 +42,22 @@ The WAI Interest Group is chartered until December 2024.
 
 To learn about the group’s scope, participants and deliverables, see the [WAI Interest Group’s Charter](https://www.w3.org/WAI/IG/20200804).
 
-## Participate in web accessibility discussions
+## Participate in digital accessibility discussions
 
-W3C and the WAI Interest Group welcome input on W3C’s web accessibility work from the global accessibility community.
+W3C and the WAI Interest Group welcome input on W3C’s digital accessibility work from the global accessibility community.
 
 The WAI Interest Group is open to the public with no minimum requirements for participation in the group.
 
-The group provides frequent opportunities for you to give input on web accessibility work at W3C:
+The group provides frequent opportunities for you to give input on digital accessibility work at W3C:
 
 * **Comment on WAI publications:** During development, the group publishes working drafts of [WAI working groups](/about/groups/)’ deliverables, with options for public comment &mdash; these are announced on the WAI Interest Group mailing lists.
-* **Contribute to web accessibility discussions:** You may contribute your views to the WAI Interest Group’s mailing list discussions.
+* **Contribute to digital accessibility discussions:** You may contribute your views to the WAI Interest Group’s mailing list discussions.
 
 ## WAI Interest Group mailing lists {#mailinglist}
 
 The WAI Interest Group has two mailing lists.
 
-###Announcements List
+### Announcements List
 
 The Announcements List is for WAI announcements only &mdash; see the [Announcement List Mail Archive](http://lists.w3.org/Archives/Public/public-wai-announce/).
 
@@ -65,7 +65,7 @@ If you want to send a message to this list, you must send it from an email addre
 
 **Note:** Emails to the Announcement List will also go to the Discussion List.
 
-####Subscribe or unsubscribe to the Announcements List
+#### Subscribe or unsubscribe to the Announcements List
 
 * To **subscribe**, send an email to with the subject line ‘Subscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
 * To **unsubscribe**, send an email with the subject line ‘Unsubscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
@@ -96,13 +96,13 @@ Once you are subscribed, you can message the Discussion List by emailing [w3c-wa
 When emailing the Discussion List:
 
 * Use a Subject line that describes the topic well. 
-* If you change topics, change the Subject line to include both the new and old topics, as follows: '[New Topic] was: [Old Topic]’.
+* If you change topics, change the Subject line to include both the new and old topics, as follows:  ‘[New Topic] was: [Old Topic]’.
 
 ##### Code of conduct for discussions
 
-Make sure your email is related to web accessibility and is appropriate for the WAI Interest Group. Your message should contribute to a **comfortable, constructive exchange of ideas** to advance web accessibility.
+Make sure your email is related to digital accessibility and is appropriate for the WAI Interest Group. Your message should contribute to a **comfortable, constructive exchange of ideas** to advance digital accessibility.
 
-* If you have questions about whether a message is appropriate for the Discussion List, [email the W3C Staff Contact on the WAI Interest Group leadership team](https://www.w3.org/groups/ig/wai/).
+* If you have questions about whether a message is appropriate for the Discussion List, email the [W3C Staff Contact on the WAI Interest Group leadership team](https://www.w3.org/groups/ig/wai/).
 * No soliciting.
 * Be respectful, positive and open to different perspectives.
 * Focus on ideas, not  people &mdash; avoid personal attacks.

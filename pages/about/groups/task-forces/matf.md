@@ -13,7 +13,7 @@ github:
 
 The Mobile Accessibility (Mobile A11y) Task Force has two objectives:
 * produce resources for applying the Web Content Accessibility Guidelines (WCAG) to Android and iOS applications
-* ensure that mobile is considered in new accessibility guidelines.
+* ensure that mobile is considered in new accessibility guidelines
 
 {::nomarkdown}
 {% include box.html type="end" %}

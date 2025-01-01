@@ -54,7 +54,9 @@ The SP Task Force welcomes input from the global accessibility community on the 
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues in the [Pronunciation GitHub repository](https://github.com/w3c/pronunciation/issues).
+You can contribute to the work without being a member of the task force in the [Pronunciation GitHub repository](https://github.com/w3c/pronunciation/issues):
+* If you’re aware of an issue with any of the published Spoken Presentation resources, raise a new issue.
+* Comment on or propose solutions for open pronunciation issues.
 
 ### Become a participant in the task force
 
