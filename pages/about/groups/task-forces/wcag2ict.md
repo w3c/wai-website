@@ -32,7 +32,7 @@ The objective of the WCAG2ICT Task Force is to develop documentation describing 
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/maturity-model/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/).
 
 
 ## Current work
@@ -43,7 +43,7 @@ For details of the current work, see the WCAG2ICT Task Force wiki. (Does the TF 
 
 ## Contribute to the work
 
-The WCAG2ICT Task Force welcomes input from the global accessibility community on the work to update WCAG guidelines to include non-web documents and software.
+The WCAG2ICT Task Force welcomes input from the global accessibility community on the work to update accessibility guidelines to include non-web documents and software.
 
 ### Contribute without joining the task force
 
@@ -63,7 +63,7 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the WCAG2ICT Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-Once you are a member of the AG Working Group, [email the W3C Staff Contact for the WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/participants/#staff) to let them know you’d like to join the task force. 
+Once you are a member of the AG Working Group, email the [W3C Staff Contact on the WCAG2ICT Task Force leadership team](https://www.w3.org/groups/tf/wcag2ict/) to let them know you’d like to join the task force.
 
 **Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
@@ -87,7 +87,7 @@ The WCAG2ICT Task Force develops and maintains the following resources for the A
 
 ## Contact the chairs
 
-If you have a question for the WCAG2ICT Task Force, email the [chairs](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag2ict/participants/#staff).
+If you have a question for the task force, contact the [WCAG2ICT Task Force leadership team](https://www.w3.org/groups/tf/wcag2ict/).
 
 
 

@@ -68,7 +68,7 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the SP Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
 
-Once you are a member of the APA Working Group, [email the W3C Staff Contact for the SP Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff) to let them know you’d like to join the task force. 
+Once you are a member of the APA Working Group, email the [W3C Staff Contact on the SP Task Force leadership team](https://www.w3.org/groups/tf/pronunciation-tf/) to let them know you’d like to join the task force.
 
 **Note:** As a participant in one of the APA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
@@ -103,4 +103,4 @@ The SP Task Force develops and maintains the following resources for the APA Wor
 
 ## Contact the chairs
 
-If you have a question for the SP Task Force, email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).
+If you have a question for the task force, contact the [SP Task Force leadership team](https://www.w3.org/groups/tf/pronunciation-tf/).

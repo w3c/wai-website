@@ -89,4 +89,4 @@ The WCAG 2.x Backlog Task Force does not develop publications.
 
 ## Contact the facilitators (not chairs? why the inconsistency?)
 
-If you have a question for the WCAG 2.x Backlog Task Force, email the task force facilitators, [Bruce Bailey](https://www.w3.org/groups/wg/ag/participants/#bbailey) and [Michael Gower](https://www.w3.org/groups/wg/ag/participants/#mbgower), and the AG Working Group chair liaison, [Alastair Campbell](https://www.w3.org/groups/wg/ag/participants/#acampbel).
+If you have a question for the WCAG 2.x Backlog Task Force, email the task force facilitators, [Bruce Bailey](https://www.w3.org/groups/wg/ag/participants/#bbailey) and [Michael Gower](https://www.w3.org/groups/wg/ag/participants/#mbgower), and the AG Working Group chair liaison, [Alastair Campbell](https://www.w3.org/groups/wg/ag/participants/#acampbel). (is there no 'leadership' team we can link to on the w3.org/group page?)

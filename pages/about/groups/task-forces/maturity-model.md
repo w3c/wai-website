@@ -62,7 +62,7 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the MM Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
 
-Once you are a member of the APA Working Group, [email the W3C Staff Contact for the MM Task Force](https://www.w3.org/groups/tf/maturity/participants/#staff) to let them know you’d like to join the task force. 
+Once you are a member of the APA Working Group, email the [W3C Staff Contact on the MM Task Force leadership team](https://www.w3.org/groups/tf/maturity/) to let them know you’d like to join the task force.
 
 **Note:** As a participant in one of the APA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
@@ -82,4 +82,4 @@ The MM Task Force develops and maintains the [Accessibility Maturity Model &mdas
 
 ## Contact the chairs
 
-If you have a question for the MM Task Force, email the [chairs](https://www.w3.org/groups/tf/maturity/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/maturity/participants/#staff). 
+If you have a question for the task force, contact the [MM Task Force leadership team](https://www.w3.org/groups/tf/maturity/). 
