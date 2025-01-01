@@ -69,13 +69,13 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 ## Task force members
 
-* [Chairs &emdash; RQ Task Force](https://www.w3.org/groups/tf/rqtf/participants/#chairs)
-* [Current participants &emdash; RQ Task Force](https://www.w3.org/groups/tf/rqtf/participants/#participants)
+* [Chairs &mdash; RQ Task Force](https://www.w3.org/groups/tf/rqtf/participants/#chairs)
+* [Current participants &mdash; RQ Task Force](https://www.w3.org/groups/tf/rqtf/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings &emdash; RQ Task Force](https://www.w3.org/WAI/APA/task-forces/research-questions/minutes)
-* [Mailing list archive &emdash; RQ Task Force](https://lists.w3.org/Archives/Public/public-rqtf/)
+* [Minutes from previous meetings &mdash; RQ Task Force](https://www.w3.org/WAI/APA/task-forces/research-questions/minutes)
+* [Mailing list archive &mdash; RQ Task Force](https://lists.w3.org/Archives/Public/public-rqtf/)
 
 ## Publications
 

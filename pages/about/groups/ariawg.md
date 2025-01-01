@@ -79,16 +79,16 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 
 ## Group members and task forces
 
-* [Chairs &emdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/participants/#chairs)
-* [Current participants &emdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/participants/#participants)
+* [Chairs &mdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/participants/#chairs)
+* [Current participants &mdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/participants/#participants)
 * [Task forces](https://www.w3.org/groups/wg/aria/task-forces/) that support the ARIA Working Group
 
 ## Communications and decisions
 
-* [Minutes from previous meetings &emdash; ARIA Working Group](https://www.w3.org/WAI/ARIA/minutes)
-* [Mailing list archive &emdash; ARIA Working Group](https://lists.w3.org/Archives/Public/public-aria/)
-* Record of decisions &emdash; ARIA Working Group (where is this?)
-* [Decision policy &emdash; ARIA Working Group](/about/groups/ariawg/decision-policy/)
+* [Minutes from previous meetings &mdash; ARIA Working Group](https://www.w3.org/WAI/ARIA/minutes)
+* [Mailing list archive &mdash; ARIA Working Group](https://lists.w3.org/Archives/Public/public-aria/)
+* Record of decisions &mdash; ARIA Working Group (where is this?)
+* [Decision policy &mdash; ARIA Working Group](/about/groups/ariawg/decision-policy/)
 
 ## Publications and copyright
 

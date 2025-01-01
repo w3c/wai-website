@@ -74,16 +74,16 @@ See [Instructions for joining the Accessible Platform Architectures Working Grou
 
 ## Group members and task forces
 
-* [Chairs &emdash; APA Working Group](https://www.w3.org/groups/wg/apa/participants/#chairs)
-* [Current participants &emdash; APA Working Group](https://www.w3.org/groups/wg/apa/participants/#participants)
+* [Chairs &mdash; APA Working Group](https://www.w3.org/groups/wg/apa/participants/#chairs)
+* [Current participants &mdash; APA Working Group](https://www.w3.org/groups/wg/apa/participants/#participants)
 * [Task forces](https://www.w3.org/groups/wg/apa/task-forces/) that support the APA Working Group
 
 ## Communications and decisions
 
-* [Minutes from previous meetings &emdash; APA Working Group](https://www.w3.org/WAI/APA/minutes)
-* [Mailing list archive &emdash; APA Working Group](https://lists.w3.org/Archives/Public/public-apa/)
-* [Record of decisions &emdash; APA Working Group](https://www.w3.org/WAI/APA/wiki/Decisions)
-* [Decision policy &emdash; APA Working Group](/about/groups/apawg/decision-policy/)
+* [Minutes from previous meetings &mdash; APA Working Group](https://www.w3.org/WAI/APA/minutes)
+* [Mailing list archive &mdash; APA Working Group](https://lists.w3.org/Archives/Public/public-apa/)
+* [Record of decisions &mdash; APA Working Group](https://www.w3.org/WAI/APA/wiki/Decisions)
+* [Decision policy &mdash; APA Working Group](/about/groups/apawg/decision-policy/)
 
 ## Publications and copyright
 

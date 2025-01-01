@@ -76,13 +76,13 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 ## Task force members
 
-* [Chair &emdash; WAI-Adapt Task Force](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
-* [Current participants &emdash; WAI-Adapt Task Force](https://www.w3.org/groups/tf/personalization-tf/participants/#participants)
+* [Chair &mdash; WAI-Adapt Task Force](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
+* [Current participants &mdash; WAI-Adapt Task Force](https://www.w3.org/groups/tf/personalization-tf/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings &emdash; WAI-Adapt Task Force](https://www.w3.org/WAI/APA/task-forces/adapt/minutes)
-* [Mailing list archive &emdash; WAI-Adapt Task Force](https://lists.w3.org/Archives/Public/public-adapt/)
+* [Minutes from previous meetings &mdash; WAI-Adapt Task Force](https://www.w3.org/WAI/APA/task-forces/adapt/minutes)
+* [Mailing list archive &mdash; WAI-Adapt Task Force](https://lists.w3.org/Archives/Public/public-adapt/)
 
 ## Publications
 

@@ -73,13 +73,13 @@ Once you are a member of either the AG or APA working groups, [email the W3C Sta
 
 ## Task force members
 
-* [Chair &emdash; COGA Task Force](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs)
-* [Current participants &emdash; COGA Task Force](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#participants)
+* [Chair &mdash; COGA Task Force](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs)
+* [Current participants &mdash; COGA Task Force](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings &emdash; COGA Task Force](https://www.w3.org/WAI/GL/task-forces/coga/minutes)
-* [Mailing list archive &emdash; COGA Task Force](http://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/)
+* [Minutes from previous meetings &mdash; COGA Task Force](https://www.w3.org/WAI/GL/task-forces/coga/minutes)
+* [Mailing list archive &mdash; COGA Task Force](http://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/)
 
 ## Publications
 

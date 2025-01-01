@@ -74,13 +74,13 @@ Once you are a member of the APA Working Group, [email the W3C Staff Contact for
 
 ## Task force members
 
-* [Chairs &emdash; SP Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs)
-* [Current participants &emdash; SP Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#participants)
+* [Chairs &mdash; SP Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs)
+* [Current participants &mdash; SP Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings &emdash; SP Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/minutes)
-* [Mailing list archive &emdash; SP Task Force](https://lists.w3.org/Archives/Public/public-pronunciation/)
+* [Minutes from previous meetings &mdash; SP Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/minutes)
+* [Mailing list archive &mdash; SP Task Force](https://lists.w3.org/Archives/Public/public-pronunciation/)
 
 ## Publications
 

@@ -69,13 +69,13 @@ Once you are a member of the AG Working Group, [email the W3C Staff Contact for 
 
 ## Task force members
 
-* [Chairs &emdash; WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs)
-* [Current participants &emdash; WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/participants/#participants)
+* [Chairs &mdash; WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs)
+* [Current participants &mdash; WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings &emdash; WCAG2ICT Task Force](https://www.w3.org/WAI/GL/task-forces/wcag2ict/minutes)
-* [Mailing list archive &emdash; WCAG2ICT Task Force](https://lists.w3.org/Archives/Public/public-wcag2ict-tf/)
+* [Minutes from previous meetings &mdash; WCAG2ICT Task Force](https://www.w3.org/WAI/GL/task-forces/wcag2ict/minutes)
+* [Mailing list archive &mdash; WCAG2ICT Task Force](https://lists.w3.org/Archives/Public/public-wcag2ict-tf/)
 
 ## Publications
 
@@ -88,12 +88,6 @@ The WCAG2ICT Task Force develops and maintains the following resources for the A
 ## Contact the chairs
 
 If you have a question for the WCAG2ICT Task Force, email the [chairs](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag2ict/participants/#staff).
-
-xxxxxxxxxxxx
-xxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxx
-
-
 
 
 
