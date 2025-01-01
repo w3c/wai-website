@@ -8,7 +8,7 @@ github:
   label: wai-groups
 ---
 
-The Web Accessibility Initiative (WAI)’s working groups develop digital accessibility guidelines and related materials &mdash; they are supported by task forces that operate under them and contributions from accessibility discussions in the WAI Interest Group.
+The Web Accessibility Initiative (WAI)’s working groups develop digital accessibility guidelines and related materials &mdash; they are supported by task forces that operate under them, and contributions from accessibility discussions in the WAI Interest Group.
 
 [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/)
 : The mission of the AG Working Group is to develop and maintain specifications for making web content accessible for people with disabilities, and support materials for implementing the Web Content Accessibility Guidelines (WCAG).
