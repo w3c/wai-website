@@ -7,7 +7,7 @@ github:
     label: wai-groups
 ---
 
-Task forces operate under specific working groups to support them with particular tasks for their deliverables.
+W3C’s task forces operate under specific working groups to support them with particular tasks for their deliverables.
 
 ## [Accessibility Conformance Testing Task Force](/about/groups/task-forces/conformance-testing/)
 
@@ -19,7 +19,6 @@ The objective of the Authoring Practices Guide (APG) Task Force is to develop th
 
 ## [Cognitive and Learning Disabilities Accessibility Task Force](/about/groups/task-forces/coga/)
 
-The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.<br />(Supports the APA Working Group](/about/groups/apawg/) and the [AG Working Group](/about/groups/agwg/))
 The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.<br />(Supports the [APA Working Group](/about/groups/apawg/) and the [AG Working Group](/about/groups/agwg/))
 
 ## [Low Vision Accessibility Task Force](/about/groups/task-forces/low-vision-a11y-tf/) (LVTF) under the [AG Working Group](/about/groups/agwg/)
