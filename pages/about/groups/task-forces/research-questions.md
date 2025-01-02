@@ -14,7 +14,7 @@ github:
 The objective of the Research Questions (RQ) Task Force is to identify:
 
 * accessibility barriers and knowledge gaps in emerging and future web technologies, and
-* research findings, researchers, and research opportunities to inform those barriers and fill those gaps, where possible.
+* research opportunities to inform those barriers and fill those gaps, where possible.
 
 {::nomarkdown}
 {% include box.html type="end" %}
