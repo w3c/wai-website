@@ -1,5 +1,5 @@
 ---
-title: Task forces under the working groups
+title: Task forces under WAI working groups
 lang: en
 permalink: /about/groups/task-forces/
 ref: /about/groups/task-forces/
@@ -13,13 +13,14 @@ Task forces operate under specific working groups to support them with particula
 
 The objective of the Accessibility Conformance Testing (ACT) Task Force is to develop and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation among different web accessibility test tools and methodologies.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
-## [ARIA Authoring Practices Task Force](/about/groups/task-forces/practices/)
+## [Authoring Practices Task Force](/about/groups/task-forces/practices/)
 
-The objective of the ARIA Authoring Practices (APG) Task Force is to develop the WAI-ARIA Authoring Practices Guide which describes considerations that might not be evident to most authors from the WAI-ARIA specification alone, and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.<br />(Supports the [ARIA Working Group](/about/groups/ariawg/))
+The objective of the Authoring Practices Guide (APG) Task Force is to develop the WAI-ARIA Authoring Practices Guide which describes considerations that might not be evident to most authors from the WAI-ARIA specification alone, and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.<br />(Supports the [ARIA Working Group](/about/groups/ariawg/))
 
 ## [Cognitive and Learning Disabilities Accessibility Task Force](/about/groups/task-forces/coga/)
 
 The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.<br />(Supports the APA Working Group](/about/groups/apawg/) and the [AG Working Group](/about/groups/agwg/))
+The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.<br />(Supports the [APA Working Group](/about/groups/apawg/) and the [AG Working Group](/about/groups/agwg/))
 
 ## [Low Vision Accessibility Task Force](/about/groups/task-forces/low-vision-a11y-tf/) (LVTF) under the [AG Working Group](/about/groups/agwg/)
 
