@@ -62,7 +62,7 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the ACT Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-Once you are a member of the AG Working Group, email the [W3C Staff Contact on the ACT Task Force leadership team](https://www.w3.org/groups/tf/wcag-act/) to let them know you’d like to join the task force. 
+Once you are a member of the AG Working Group, email the [W3C Staff Contact for the ACT Task Force](https://www.w3.org/groups/tf/wcag-act/participants/#staff) to let them know you’d like to join the task force. 
 
 **Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
@@ -87,4 +87,4 @@ The ACT Task Force develops and maintains the following resources for the AG Wor
 
 ## Contact the chairs
 
-If you have a question for the task force, contact the [ACT Task Force leadership team](https://www.w3.org/groups/tf/wcag-act/). 
+If you have a question for the ACT Task Force, email the [chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff).

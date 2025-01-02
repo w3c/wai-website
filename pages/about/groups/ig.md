@@ -102,7 +102,7 @@ When emailing the Discussion List:
 
 Make sure your email is related to digital accessibility and is appropriate for the WAI Interest Group. Your message should contribute to a **comfortable, constructive exchange of ideas** to advance digital accessibility.
 
-* If you have questions about whether a message is appropriate for the Discussion List, email the [W3C Staff Contact on the WAI Interest Group leadership team](https://www.w3.org/groups/ig/wai/).
+* If you have questions about whether a message is appropriate for the Discussion List, email the [W3C Staff Contact for the WAI Interest Group](https://www.w3.org/groups/ig/wai/participants/#staff).
 * No soliciting.
 * Be respectful, positive and open to different perspectives.
 * Focus on ideas, not  people &mdash; avoid personal attacks.
@@ -130,6 +130,6 @@ If you use auto-reply (out of office), exclude your automatic responses to email
 * Keep your reply comments near the top of your email.
 * Quote the previous content in the email chain that you are commenting on, so that readers can quickly and easily understand what your reply is referring to.
 
-## Contact the group leaders
+## Contact the chairs
 
-If you have a question about the group, email the [WAI Interest Group leadership team](https://www.w3.org/groups/ig/wai/).
+If you have a question about the WAI Interest Group, email the [chair](https://www.w3.org/groups/ig/wai/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/ig/wai/participants/#staff).
