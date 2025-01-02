@@ -1,5 +1,5 @@
 ---
-title: Group Task Forces
+title: Task forces under the working groups
 lang: en
 permalink: /about/groups/task-forces/
 ref: /about/groups/task-forces/
