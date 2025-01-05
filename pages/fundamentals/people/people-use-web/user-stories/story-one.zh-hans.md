@@ -102,7 +102,7 @@ footer: >
   }
 </style>
 
-{% include_cached blockquote.html class="pull alt-2" content="<p>Web 无障碍：以人文本</p>" %}
+{% include_cached blockquote.html class="pull alt-2" content="<p>无障碍：以人文本</p>" %}
 
 <aside id="introduction" class="box"><div class="box-i">
   <div>
