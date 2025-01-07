@@ -11,8 +11,9 @@ translators:    # remove from the beginning of this line and the lines below: "#
 - name: "heybran"   # Replace Jan Doe with translator name
   link: "https://github.com/heybran"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+contributors:
+- name: "金凯"   # Replace Jan Doe with contributor name, or delete this line if none
+  link: "https://github.com/JinMokai"
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
