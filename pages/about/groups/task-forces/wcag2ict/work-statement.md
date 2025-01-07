@@ -24,7 +24,9 @@ The WCAG2ICT Task Force is a task force of the [Accessibility Guidelines Working
 
 ## Status
 
-This work statement was [approved by the AG WG on 26 October 2022](https://lists.w3.org/Archives/Public/w3c-wai-gl/2022AprJun/0280.html). The task force is active.
+This work statement was [approved by the AG WG on @@insert date approved here@@](https://lists.w3.org/Archives/Public/w3c-wai-gl/2022AprJun/0280.html). The task force is active.
+
+The work statement describes which of the WCAG2ICT Phase 1 objectives have been completed and what are the Phase 2 objectives for the WCAG2ICT Note.
 
 NOTE: This work is mentioned in the [Other Deliverables section of the current AG WG Charter.](https://www.w3.org/2019/12/ag-charter#ig-other-deliverables) The continuation of the work is also included in the [current AG WG Charter](https://www.w3.org/2023/11/ag-charter).
 
@@ -32,7 +34,9 @@ NOTE: This work is mentioned in the [Other Deliverables section of the current A
 
 The objective of the WCAG2ICT Task Force is to develop documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
 
-This Task Force was formed to update the 2013 “[Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/)" Working Group Note published on 5 September 2013. Updates are needed to include new guidelines and success criteria added in the WCAG 2.1 Recommendation as well as new requirements added in WCAG 2.2. WCAG2ICT was developed to describe how to apply WCAG 2.0 and its principles, guidelines, and success criteria to non-web ICT (Information and Communications Technologies). WCAG2ICT also plans to add new content that identifies problematic WCAG provisions when applied to non-Web ICT.
+The WCAG2ICT Phase 1 objectives have been completed by incorporating guidance for WCAG 2.1 and 2.2 guidelines, Level A and AA success criteria, and their associated glossary definitions. WCAG2ICT also added new content that identifies problematic WCAG success criteria when applied to non-Web ICT. The 2024 [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) was published as a result. 
+
+This work statement sets further objectives for Phase 2 of the WCAG2ICT Note updates as there have been concerns with determining which success criteria can (or should) apply for a particular technology as well as the possibility of suggesting normative language changes to some success criteria to make them more directly applicable in non-web contexts. In addition, the task force would like to address misunderstandings of what the WCAG2ICT Note does and does not provide in a brief which we hope will address incorrect assumptions and provide an explanation of problems that the WCAG2ICT Note does not solve.
 
 ## Scope of Work
 
@@ -40,15 +44,16 @@ The work of the task force includes:
 
 *   Determining how to apply each of the new WCAG 2.1 and WCAG 2.2 (hereafter called “WCAG 2.x") guidelines and Levels A, AA, and AAA success criteria to non-Web ICT; this includes provision of additional details for application to closed product software and where applying individual criteria might be difficult and why; and
 *   Producing an updated Working Group Note (a form of W3C Technical Report)—following the W3C process under the coordination, review, and approval of the AG WG—that describes:
-    *   how each of the new WCAG 2.x A and AA success criteria could apply to non-Web ICT (done);
-    *   how each of the new WCAG 2.x guidelines could apply to non-Web ICT (done);
-    *   clarification of challenges of applying particular WCAG 2.x success criteria to non-web ICT, including closed product software (done);
-    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict) (done); and
-    *   provide an explainer that clarifies the usage of WCAG2ICT
+    *   how each of the new WCAG 2.x A and AA success criteria could apply to non-Web ICT (completed in Phase 1);
+    *   how each of the new WCAG 2.x guidelines could apply to non-Web ICT (completed in Phase 1);
+    *   clarification of challenges of applying particular WCAG 2.x success criteria to non-web ICT, including closed product software (completed) in Phase 1;
+    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict) (completed in Phase 1); and
+    *   provide a concise, high-level overview or introduction to WCAG2ICT, explaining its purpose and how to use it
     *   where known, give examples of some Success Criteria which may not be applicable to a particular non-web technology; and
     *   as needed, suggested changes to success criteria normative language to more clearly align with non-web software and document technologies; and
-    NOTE: This would not be suggested changes to change WCAG itself, but instead provide language more meaningful in non-web contexts. For example, provide alternative language in criteria that the WCAG normative language uses CSS pixels, to use language more appropriate for non-web technologies.
     *   how each of the WCAG 2.x Level AAA success criteria could apply to non-web technologies.
+
+NOTE: "suggested changes to success criteria" would not be suggestions to change WCAG itself, but instead to provide language more meaningful in non-web contexts. For example, in criteria where the WCAG normative language uses CSS pixels, the Task Force could provide alternative language more appropriate for non-web technologies.
 
 Explicitly out of scope for the WCAG2ICT Task Force work are:
 
@@ -60,27 +65,27 @@ Explicitly out of scope for the WCAG2ICT Task Force work are:
 
 ## Approach
 
-WCAG2ICT is a Task Force of the AG WG, which has oversight over the Task Force to ensure accurate interpretation and representation of WCAG 2.x. The AG WG decision process applies within the group. We have an AG WG co-chair liaison to ensure draft content is taken to the AG WG for review as it progresses.
+WCAG2ICT is a Task Force of the AG WG, which has oversight over the Task Force to ensure accurate interpretation and representation of WCAG 2.x. The AG WG decision process applies within the group. Draft content is periodically taken to the AG WG for review as it progresses.
 
 The primary effort of this Task Force is to describe how to interpret WCAG 2.x and its principles, guidelines, success criteria and conformance requirements when applying them to non-web ICT; and evaluating what WCAG Conformance means in the context of non-Web ICT. The resulting Working Group Note will include a discussion of the application of each of the criteria in WCAG 2.x to non-Web ICT, including their interface components and platforms, and the extent to which [WCAG Conformance](http://www.w3.org/TR/WCAG20/#conformance) is meaningful to non-Web ICT.
 
-To efficiently develop the Working Group Note, work may be broken down into sub-groups, under the coordination of the Task Force facilitator(s) following established AG WG procedures for sub-groups.
+To efficiently develop the Working Group Note, work is sometimes broken down into sub-groups, under the coordination of the Task Force facilitators following established AG WG procedures for sub-groups.
 
-The work will be focused in stages to ensure WCAG2ICT content is available in time for use in upcoming updates to regulations and standards (like the EN 301 549) that apply WCAG to non-web technology. This means prioritizing Level A and AA criteria and known issues in the existing Note. WCAG2ICT was published on 4 November 2024 before addressing Level AAA, due to regulatory schedule needs. The next update to WCAG2ICT will address Level AAA success criteria, with republication of the WCAG2ICT Note once they have been incorporated and gone through the W3C review and publication process.
+The work has been focused in stages to ensure WCAG2ICT content was made available in time for use in upcoming updates to regulations and standards (like the EN 301 549) that apply WCAG to non-web technology. Phase 1 prioritized Level A and AA criteria and known issues in the existing Note and was published on 4 November 2024. The next update to WCAG2ICT plans to address the remaining in-scope items detailed in the [Scope of Work](#scope-of-work) section.
 
-The work will be carried out through a series of document drafts, all publicly visible, with opportunities for public comment through publicly available comment lists. In particular, key stakeholders such as developers, evaluators, accessibility experts, researchers, procurement experts, and end users will be regularly involved in the development process. Key participants will be drawn from people with expertise not only in Web technologies, but also those with specific accessibility expertise, including the development of accessible frameworks, platforms, user interface components, and software covering a broad variety of computing environments.
+The work is carried out through a series of document drafts, all publicly visible, with opportunities for public comment through publicly available comment lists. In particular, key stakeholders such as developers, evaluators, accessibility experts, researchers, procurement experts, and end users will be regularly involved in the development process. Key participants will be drawn from people with expertise not only in Web technologies, but also those with specific accessibility expertise, including the development of accessible frameworks, platforms, user interface components, and software covering a broad variety of computing environments.
 
 ## Timeline
 
 The following sections contain rough timelines for the WCAG2ICT work. Actual timelines and project management will be handled outside of this work statement, and will not be maintained herein.
 
-As previously mentioned, a phased delivery of the WCAG2ICT Working Group Note will likely be necessary to provide timely guidance for upcoming regulatory and standards updates.
+A phased delivery of the WCAG2ICT Working Group Note was necessary to provide timely guidance for upcoming regulatory and standards updates, and Phase 1 has concluded.
 
 ### Phase 1 (completed)
 
-Phase 1 - Published update to [Guidance on Applying WCAG 2 to Non-web Information and Communications Technologies (WCAG2ICT) Group Note](https://www.w3.org/TR/wcag2ict-22/) (8 October 2024).
+Published update to [Guidance on Applying WCAG 2 to Non-web Information and Communications Technologies (WCAG2ICT) Group Note](https://www.w3.org/TR/wcag2ict-22/) (8 October 2024).
 
-Goals were to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria and making other necessary updates to the other content in the WCAG2ICT document to align with WCAG 2.2 have been completed. This phase also addressed known documented issues.
+Goals were to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria and making other necessary updates to the other content in the WCAG2ICT document to align with WCAG 2.2. This phase also addressed known documented issues prior to publication.
 
 *   Plan: April - August 2022, Actual: April - August 2022
     *   obtain approval from AG WG and launch the WCAG2ICT Task Force;
@@ -104,9 +109,9 @@ Goals were to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria a
 
 ### Phase 2
 
-The next phase of updates will include any other in-scope work, including:
-* Development of a WCAG2ICT Explainer. An initial outline is available in the Google doc [WCAG2ICT Explainer](https://docs.google.com/document/d/1hyei09Viby1bCoZnDLYwY9VWpzRvteK9pqt4v9sWCJE/edit?usp=sharing).
-* Addition of guidance for Level AAA success criteria. Details of the Phase 2 timeline are found outside of this document. See the [schedule and milestones](https://github.com/w3c/wcag2ict/wiki/Schedule-and-milestones) page in the GitHub WCAG2ICT Wiki.
+The next phase of updates will include the remaining in-scope work listed in the [Scope of Work[(#scope-of-work) section.
+
+Details of the Phase 2 timeline are found outside of this document in the GitHub WCAG2ICT Wiki. See the [schedule and milestones](https://github.com/w3c/wcag2ict/wiki/Schedule-and-milestones) page.
 
 ## Liaisons
 
@@ -116,7 +121,7 @@ While there are no direct dependencies at the Task Force level (please see [deli
 * Liaisons from worldwide standards organizations (ISO, ETSI, CEN and CENELEC, etc.)
 * Liaisons from worldwide government and/or regulatory agencies considering referencing the updated WCAG2ICT (U.S. Access Board, EU, Canada, potentially others)
 
-The list of liaisons will be updated to show official organization representation of the participants in the task force, as found in the [WCAG2ICT participants](https://www.w3.org/groups/tf/wcag2ict/participants/) list.
+The list of liaisons can be found in the [WCAG2ICT participants](https://www.w3.org/groups/tf/wcag2ict/participants/) list.
 
 ## Communication
 
