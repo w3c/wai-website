@@ -24,7 +24,7 @@ The WCAG2ICT Task Force is a task force of the [Accessibility Guidelines Working
 
 ## Status
 
-This work statement was [approved by the AG WG on @@insert date approved here@@](https://lists.w3.org/Archives/Public/w3c-wai-gl/2022AprJun/0280.html). The task force is active.
+This work statement was [approved by the AG WG on @@insert date approved and update URL@@](https://lists.w3.org/Archives/Public/w3c-wai-gl/2022AprJun/0280.html). The task force is active.
 
 The work statement describes the WCAG2ICT Phase 1 objectives that have been completed and the updated Phase 2 objectives for the WCAG2ICT Note.
 
