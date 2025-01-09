@@ -38,7 +38,7 @@ The WCAG2ICT Phase 1 objectives have been completed by incorporating guidance fo
 
 This work statement sets further objectives for Phase 2 of the WCAG2ICT Note updates as there have been concerns with determining which success criteria can (or should) apply for a particular technology as well as the possibility of suggesting normative language changes to some success criteria to make them more directly applicable in non-web contexts (See the scope of work section for further details and explanation). 
 
-In addition, the task force would like develop content to address misunderstandings of what the WCAG2ICT Note does and does not provide which we hope will address incorrect assumptions and provide an explanation of problems that the WCAG2ICT Note does not solve. How this content will be delivered (as a separate document, web page, or within the WCAG2ICT Note) will be determined once the key content has been developed.
+In addition, the task force would like to develop content to address misunderstandings of what the WCAG2ICT Note does and does not provide which we hope will address incorrect assumptions and provide an explanation of problems that the WCAG2ICT Note does not solve. How this content will be delivered (as a separate document, web page, or within the WCAG2ICT Note) will be determined once the key content has been developed.
 
 ## Scope of Work
 
