@@ -111,7 +111,7 @@ Goals were to incorporate new WCAG 2.1 and 2.2 Level A and AA success criteria a
 
 ### Phase 2
 
-The next phase of updates will include the remaining in-scope work listed in the [Scope of Work[(#scope-of-work) section.
+The next phase of updates will include the remaining in-scope work listed in the [Scope of Work](#scope-of-work) section.
 
 Details of the Phase 2 timeline are found outside of this document in the GitHub WCAG2ICT Wiki. See the [schedule and milestones](https://github.com/w3c/wcag2ict/wiki/Schedule-and-milestones) page.
 
