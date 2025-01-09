@@ -156,7 +156,6 @@ Staff contacts from the Accessibility Guidelines Working Group oversee attention
 
 *   **Co-facilitators:** [Mary Jo Mueller](mailto:maryjom@us.ibm.com) and [Chris Loiselle](mailto:chris.loiselle@oracle.com)
 *   **Staff Contact:** [Daniel Montalvo](http://www.w3.org/People#dmontalvo)
-*   **Liaison to AG WG:** one of the AG WG co-chairs
 *   **Editorial Team:**
     *   Mary Jo Mueller
     *   Phil Day
