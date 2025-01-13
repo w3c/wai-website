@@ -186,7 +186,6 @@ Some more things that developers and others are [tweeting about the course](http
 Post-course [survey responses](https://www.surveymonkey.com/results/SM-VHHPL83R7/) (as of December 2024) include:
 * Have your skills/knowledge increased as a result of the course?<br>96% Yes.
 * Did you learn what you were expecting to learn?<br>90% Satisfied or Very satisfied.
-* Would you recommend this course to a friend?<br>96% Probably would or Definitely would.
 * How likely is it that you will be able to **apply the skills that you learned in this course in your everyday work?**<br>**96%** Likely or Very likely.
 
 ## Provided by
