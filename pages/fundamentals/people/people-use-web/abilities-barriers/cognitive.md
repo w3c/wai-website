@@ -181,7 +181,7 @@ People with cognitive and learning disabilities may use different types of brows
 
 -   Complex, multi-stage process such as forms.
 -   Complex or inconsistent navigation mechanisms and page layouts that are difficult to understand and use.
--   Complex sentences that are difficult to read and unusua words that are difficult to understand.
+-   Complex sentences that are difficult to read and unusual words that are difficult to understand.
 -   Metaphors and other non-literal text whose meaning is not predictable from the usual meanings of the words.
 -   Long passages of text without images, graphs, or other illustrations to highlight the context.
 -   Moving, blinking, or flickering content, and background audio that cannot be turned off.
