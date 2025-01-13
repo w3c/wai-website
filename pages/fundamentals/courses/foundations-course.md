@@ -3,7 +3,7 @@ title: "Digital Accessibility Foundations - Free Online Course"
 title_html: "Digital Accessibility Foundations<br>Free Online Course"
 nav_title: "Foundations Online Course"
 lang: en
-last_updated: 2024-10-21
+last_updated: 2025-01-07
 description: For developers, designers, ux, writers, managers, advocates - professionals, instructors, students - technical and non-technical.
 
 github:
@@ -183,7 +183,7 @@ Some more things that developers and others are [tweeting about the course](http
 
 {% include_cached blockquote.html content="<p>I highly recommend this course for anybody wanting to learn about digital accessibility. It's got a lot of great info and a relatively small time commitment.</p>" source=" Justin Yarbrough. Blind. Digital #a11y specialist. #AvGeek." href="https://twitter.com/FatElvis04/status/1260961018135494657" %}
 
-Post-course [survey responses](https://www.surveymonkey.com/results/SM-VHHPL83R7/) (as of December 2022) include:
+Post-course [survey responses](https://www.surveymonkey.com/results/SM-VHHPL83R7/) (as of December 2024) include:
 * Have your skills/knowledge increased as a result of the course?<br>96% Yes.
 * Did you learn what you were expecting to learn?<br>90% Satisfied or Very satisfied.
 * How likely is it that you will be able to **apply the skills that you learned in this course in your everyday work?**<br>**96%** Likely or Very likely.
