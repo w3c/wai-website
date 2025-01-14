@@ -270,7 +270,7 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 
 ## Other WAI Translations Listings
 
-_The lists below are for specific standards, whereas the lists above include all published WAI translations. The completed translations in the lists below are included under the languages above._
+_The lists below are for specific standards; the lists above include all published WAI translations. The completed translations in the lists below are included under the languages above._
 
-* [WCAG 2 Translations](/standards-guidelines/wcag/translations/) lists in-progress and completed translations of Web Content Accessibility Guidelines (WCAG) 2.1 and 2.0, including Authorized W3C Translations and unofficial translations.
-* [Authorized Translations of W3C Recommendations](https://www.w3.org/Translations/authorized.html) lists completed Authorized W3C Translations of WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.
+* [WCAG 2 Translations](/standards-guidelines/wcag/translations/) lists in-progress and completed translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1, and 2.0, including Authorized W3C Translations and unofficial translations.
+* [Authorized Translations of W3C Recommendations](https://www.w3.org/Translations/authorized.html) lists completed Authorized W3C Translations of WCAG 2.2, WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.
