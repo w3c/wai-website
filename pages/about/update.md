@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, December 2024</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, January 2025</span>"
 lang: en
-last_updated: 2024-11-22
+last_updated: 2025-01-15
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
 
@@ -73,7 +73,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 ### Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility
 
-* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). In October 2024 we published an update that includes all WCAG 2.2Level A and AA success criteria. We are now working on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
+* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). In October 2024 we published an update that includes all WCAG 2.2 Level A and AA success criteria. We are now working on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
 
 * **EPUB Fixed Layout Accessibility** aims to help publishers address challenges for people with cognitive disabilities and low vision. [EPUB Fixed Layout Accessibility Editor's Draft](https://w3c.github.io/epub-specs/epub33/fxl-a11y/) _[EPUB3 WG, FXL A11y TF]_
 
@@ -84,8 +84,6 @@ Documenting the user needs of people with disabilities helps develop standards t
 <!--
 * **Natural Language Interface Accessibility User Requirements ("NAUR")** is a Working Draft. A natural language interface is a user interface in which the user and the system communicate via a natural (human) language. The user provides input as sentences via speech or other input, and the system generates responses as sentences delivered by speech, text, or another modality. [About NAUR](https://www.w3.org/blog/2021/10/natural-language-interface-accessibility-user-requirements-call-for-review/), [NAUR Editor's Draft](https://w3c.github.io/naur/)  _[APA WG, Research TF]_
 -->
-
-* **Collaboration Tools Accessibility User Requirements ("CTAUR")** is a Working Draft. It describes user needs in tools that provide support for one or more specific collaborative features. These features include real-time editing of content by multiple authors, the use of comments or annotations, and revision control. [CTAUR Editor's Draft](https://w3c.github.io/ctaur/)  _[APA WG, Research TF]_
 
 * **How People with Disabilities Use the Web** helps you understand user needs broadly. We've updated this resource and published new videos to go along with it. We are making minor revisions to the user stories. [[How People with Disabilities Use the Web]](/people-use-web/).
 
@@ -101,9 +99,8 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in 2024 or early 2025. <!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in early 2025. <!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* W3C Accessibility Guidelines (WCAG) 3 as an updated Working Draft, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/)
 * [Collaboration Tools Accessibility User Requirements](https://w3c.github.io/ctaur/) as a completed Note
 * Accessibility Roles and Responsibilities Mapping (ARRM) as a draft
 * More [WAI Translations](/translations/) - usually some each week
@@ -191,6 +188,9 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 15 January 2025
+  * From Current Work Highlights, removed Collaboration Tools Accessibility User Requirements (“CTAUR”)  because we are the process of publishing it
+  * Removed WCAG 3 Working Draft from [Upcoming Publications list](/update/#upcoming-publications) because we published an updated draft in December 2024
 * 22 November 2024
   * Updated [Upcoming Publications list](/update/#upcoming-publications)
 * 31 October 2024
