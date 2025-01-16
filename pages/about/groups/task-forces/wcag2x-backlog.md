@@ -80,7 +80,7 @@ No details?
 
 ## Communications
 
-* Minutes from previous meetings &mdash; WCAG 2.x Backlog Task Force (Does this TF have meetings? What is the link?)
+* Minutes from previous meetings (Does this TF have meetings? What is the link?)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-wcag2-issues/)
 
 ## Publications

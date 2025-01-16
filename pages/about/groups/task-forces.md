@@ -13,7 +13,7 @@ W3C’s task forces operate under specific working groups to support them with p
 
 The objective of the Accessibility Conformance Testing (ACT) Task Force is to develop and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation among different web accessibility test tools and methodologies.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
-## [Authoring Practices Task Force](/about/groups/task-forces/practices/)
+## [Authoring Practices Guide Task Force](/about/groups/task-forces/practices/)
 
 The objective of the Authoring Practices Guide (APG) Task Force is to develop the WAI-ARIA Authoring Practices Guide which describes considerations that might not be evident to most authors from the WAI-ARIA specification alone, and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.<br />(Supports the [ARIA Working Group](/about/groups/ariawg/))
 

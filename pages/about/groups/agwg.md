@@ -85,16 +85,16 @@ See [Instructions for joining the Accessibility Guidelines Working Group](https:
 
 ## Group members and task forces
 
-* [Chairs &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/participants/#chairs)
-* [Current participants &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/participants/#participants)
+* [Chairs](https://www.w3.org/groups/wg/ag/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/wg/ag/participants/#participants)
 * [Task forces](https://www.w3.org/groups/wg/ag/task-forces/) that support the AG Working Group
 
 ## Communications and decisions
 
-* [Minutes from previous meetings &mdash; AG Working Group](https://www.w3.org/WAI/GL/minutes-history)
-* [Mailing list archive &mdash; AG Working Group](https://lists.w3.org/Archives/Public/w3c-wai-gl/)
-* [Record of decisions &mdash; AG Working Group](https://www.w3.org/WAI/GL/wiki/Decisions)
-* [Decision policy &mdash; AG Working Group](/about/groups/agwg/decision-policy/)
+* [Minutes from previous meetings](https://www.w3.org/WAI/GL/minutes-history)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/w3c-wai-gl/)
+* [Record of decisions](https://www.w3.org/WAI/GL/wiki/Decisions)
+* [Decision policy](/about/groups/agwg/decision-policy/)
 
 ## Publications and copyright
 

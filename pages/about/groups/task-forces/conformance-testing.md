@@ -68,13 +68,13 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Task force members
 
-* [Chairs &mdash; ACT Task Force](https://www.w3.org/groups/tf/wcag-act/participants/#chairs)
-* [Current participants &mdash; ACT Task Force](https://www.w3.org/groups/tf/wcag-act/participants/#participants)
+* [Chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/wcag-act/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings &mdash; ACT Task Force](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes)
-* [Mailing list archive &mdash; ACT Task Force](http://lists.w3.org/Archives/Public/public-wcag-act/)
+* [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes)
+* [Mailing list archive](http://lists.w3.org/Archives/Public/public-wcag-act/)
 
 ## Publications
 

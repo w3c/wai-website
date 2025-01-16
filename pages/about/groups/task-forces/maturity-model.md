@@ -68,13 +68,13 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 ## Task force members
 
-* [Chairs &mdash; MM Task Force](https://www.w3.org/groups/tf/maturity/participants/#chairs)
-* [Current participants &mdash; MM Task Force](https://www.w3.org/groups/tf/maturity/participants/#participants)
+* [Chairs](https://www.w3.org/groups/tf/maturity/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/maturity/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings &mdash; MM Task Force](https://www.w3.org/WAI/APA/task-forces/maturity-model/minutes)
-* [Mailing list archive &mdash; MM Task Force](https://lists.w3.org/Archives/Public/public-maturity/)
+* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/maturity-model/minutes)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-maturity/)
 
 ## Publications
 

@@ -74,13 +74,13 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 ## Task force members
 
-* [Chairs &mdash; APG Task Force](https://www.w3.org/groups/tf/aria-practices/participants/#chairs)
-* [Current participants &mdash; APG Task Force](https://www.w3.org/groups/tf/aria-practices/participants/#participants)
+* [Chairs](https://www.w3.org/groups/tf/aria-practices/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/aria-practices/participants/#participants)
 
 ## Communications
 
-* [Minutes from previous meetings &mdash; APG Task Force](https://www.w3.org/WAI/ARIA/task-forces/practices/minutes)
-* [Mailing list archive &mdash; APG Task Force](http://lists.w3.org/Archives/Public/public-aria-practices/)
+* [Minutes from previous meetings](https://www.w3.org/WAI/ARIA/task-forces/practices/minutes)
+* [Mailing list archive](http://lists.w3.org/Archives/Public/public-aria-practices/)
 
 ## Publications
 
