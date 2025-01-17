@@ -1,7 +1,7 @@
 ---
 title: Authoring Practices Guide Task Force
-permalink: /about/groups/task-forces/authoring-practices/
-ref: /about/groups/task-forces/authoring-practices/
+permalink: /about/groups/task-forces/practices/
+ref: /about/groups/task-forces/practices/
 lang: en
 github:
   label: wai-groups

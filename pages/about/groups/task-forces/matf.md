@@ -1,7 +1,7 @@
 ---
 title: Mobile Accessibility Task Force
-permalink: /about/groups/task-forces/mobile-a11y/
-ref: /about/groups/task-forces/mobile-a11y/
+permalink: /about/groups/task-forces/matf/
+ref: /about/groups/task-forces/matf/
 lang: en
 github:
   label: wai-groups
