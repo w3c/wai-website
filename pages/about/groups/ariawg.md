@@ -39,7 +39,7 @@ To learn about the group’s focus, scope and deliverables, see the [ARIA Workin
 
 ## Current work 
 
-For details of the current work, see the [ARIA Working Group wiki](https://www.w3.org/WAI/ARIA/wiki/). (This doesn't seem to be maintained - should we link to a GitHub page?)
+For details of the current work, see the [ARIA Working Group wiki](https://www.github.com/w3c/aria/wiki/).
 
 Are we keeping the following 'Roadmap', Deliverables and Status' (out of date?), and 'Work flow' child pages? Should we move any of that information to this section or just continue to link to it? Should we turn the list items below into headings with a brief description (as we did for WCAG current work on the AG WG page)?
 
