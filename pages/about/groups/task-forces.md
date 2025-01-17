@@ -19,7 +19,7 @@ W3C’s task forces operate under specific working groups to support them with p
 : The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.<br />(Supports the [APA Working Group](/about/groups/apawg/) and the [AG Working Group](/about/groups/agwg/))
 
 [Low Vision Accessibility Task Force](/about/groups/task-forces/low-vision-a11y-tf/)
-: The objective of the Low Vision Accessibility (LV) Task Force is to address web accessibility issues specific to people with low vision, inputting into WCAG 2 techniques and understanding documents, and into WCAG 3, as well as developing additional low vision guidance resources.<br />(Supports the [AG Working Group](/about/groups/agwg/))
+: The objective of the Low Vision Accessibility (LV) Task Force is to address web accessibility issues specific to people with low vision through inputting into WCAG 2 techniques and understanding documents, and into WCAG 3, as well as developing additional low vision guidance resources.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
 [Maturity Model Task Force](/about/groups/task-forces/maturity-model/)
 : The objective of the Maturity Model (MM) Task Force is to help organizations build capacity to develop and maintain accessible products and services by crafting an Accessibility Maturity Model (AMM) with an assessment tool that incorporates W3C standards, such as the Web Content Accessibility Guidelines (WCAG), and other related guidance, such as Accessible Rich Internet Applications (ARIA).<br />(Supports the [APA Working Group](/about/groups/apawg/))
