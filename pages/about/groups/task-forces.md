@@ -1,5 +1,5 @@
 ---
-title: Task forces supporting accessibility working groups
+title: Task forces Supporting Accessibility Working Groups
 lang: en
 permalink: /about/groups/task-forces/
 ref: /about/groups/task-forces/
