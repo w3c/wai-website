@@ -39,17 +39,24 @@ To learn about the group’s focus, scope and deliverables, see the [ARIA Workin
 
 ## Current work 
 
-For details of the current work, see the [ARIA Working Group wiki](https://www.github.com/w3c/aria/wiki/).
+For details of the current work, see the [ARIA Working Group readme](https://www.github.com/w3c/aria/).
 
 
-The Working Group has established a [road map](roadmap) for upcoming work. This road map is executed via [publications and status](deliverables), which include:
+### WAI-ARIA 1.3
 
-- WAI-ARIA 1.3,
-- WAI-ARIA modules for Digital Publishing and Graphics,
-- Accessibility API Mappings for ARIA, Digital Publishing, HTML, and SVG, and
-- WAI-ARIA Authoring Practices.
+The [WAI-ARIA specification](https://www.w3.org/TR/wai-aria/) defines roles, states, and properties that can be used in a variety of host languages to enhance accessibility of user interfaces.
 
-The [ARIA Project Plan](/about/groups/ariawg/planning/) details intended timeline and milestones for this work and proceeds according to the [ARIA Working Group Work Flow](/about/groups/ariawg/workflow/).
+### WAI-ARIA modules
+
+The ARIA modules extend the roles, states, and properties for specific host languages, including Digital Publishing, Graphics, HTML, and others.
+
+### Accessibility API Mappings for ARIA
+
+The ARIA Accessibility API Mappings describe how user agents should expose semantics of web content languages to accessibility APIs. The Core mappings apply broadly to multiple technologies. In addition, the Working Group develops specific mappings for Digital Publishing, HTML, SVG, MathML, and PDF.
+
+### WAI-ARIA Authoring Practices
+
+The [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) describes how to apply accessibility semantics to common design patterns and widgets, and provides overall guidance on how to use ARIA.
 
 ## Contribute to the work
 
@@ -86,14 +93,14 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 
 * [Minutes from previous meetings](https://www.w3.org/WAI/ARIA/minutes)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-aria/)
-* Record of decisions (where is this?)
+* Record of decisions (mainly in PR reviews)
+* [Process](https://github.com/w3c/aria/blob/main/documentation/process.md)
 * [Decision policy](/about/groups/ariawg/decision-policy/)
 
 ## Publications and copyright
 
-See the full [List of publications by the ARIA Working Group](https://www.w3.org/groups/wg/aria/publications/).
-
-Should we also include the following here under publications?: [WAI-ARIA Authoring Practices Guide](https://www.w3.org/TR/wai-aria-practices-1.1/) - is this still 1.1 Editors’ Draft?
+* [List of publications by the ARIA Working Group in Technical Report space](https://www.w3.org/groups/wg/aria/publications/), and
+* [WAI-ARIAAuthoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) 
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/ipr/).
 
@@ -102,4 +109,4 @@ There are also instructions for [How to Make a Patent Disclosure](https://www.w3
 
 ## Contact the chairs
 
-If you have a question for the ARIA Working Group’s chairs or the W3C staff contact, email [group-aria-chairs@w3.org](mailto:group-aria-chairs@w3.org). (Taking a guess as I can't find the group email address, is this correct?)
+If you have a question for the ARIA Working Group’s chairs or the W3C staff contact, email [group-aria-chairs@w3.org](mailto:group-aria-chairs@w3.org).
