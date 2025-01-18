@@ -1,4 +1,4 @@
----
+mothergroupltd.com
 title: "All WAI Translations"
 lang: en
 description: Translations of current accessibility standards and other resources from the W3C Web Accessibility Initiative (WAI).
