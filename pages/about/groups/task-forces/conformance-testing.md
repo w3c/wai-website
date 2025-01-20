@@ -47,7 +47,7 @@ The ACT Task Force welcomes input from the global accessibility community on the
 ### Contribute without joining the task force
 
 You can contribute to the work without being a member of the task force in the [ACT GitHub repository](https://github.com/w3c/wcag-act/issues/):
-* If you’re aware of an issue with any of the published ACT Rules resources, raise a new issue.
+* If you’re aware of an issue with any of the published ACT resources, raise a new issue.
 * Comment on or propose solutions for open ACT Rules issues.
 
 ### Become a participant in the task force
