@@ -72,7 +72,7 @@ W3C and the ARIA Working Group welcome input on ARIA work from the global access
 There are many ways you can contribute without being a member of the working group:
 
 * **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
-* **Raise, comment on, or propose fixes to ARIA issues:** If you’re aware of an issue with any of the published ARIA resources, W3C welcomes you to raise a new issue on GitHub, or you can also comment on and, even better, propose solutions for existing issues &mdash; see the list of [repositories maintained by the ARIA Working Group below](#list-of-github-repositories-maintained-by-the-aria-working-group).
+* **Raise, comment on, or propose fixes to ARIA issues:** If you’re aware of an issue with any of the published ARIA resources, W3C welcomes you to raise a new issue on GitHub, or you can also comment on and, even better, propose solutions for existing issues &mdash; see the list of [repositories maintained by the ARIA Working Group below](#github-repositories).
 * **Contribute to ARIA discussions:** You may contribute your views to the ARIA Working Group's [open ARIA discussions in GitHub](https://github.com/w3c/aria/discussions) and [mailing list discussions](/about/groups/ariawg/contribute/#mailing-list-discussions).
 * **Participate in a community group:** W3C hosts a small number of active community groups that focus on digital accessibility issues &mdash; for details, search for ‘accessibility’ on [Current Groups &mdash; W3C Community and Business Groups](https://www.w3.org/community/groups).
 
@@ -101,7 +101,9 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 * Record of decisions (mainly in GitHub pull request reviews)
 * [Decision policy](/about/groups/ariawg/decision-policy/)
 
-## <a name="list-of-github-repositories-maintained-by-the-aria-working-group"></a>List of GitHub repositories maintained by the ARIA Working Group
+## <a name="github-repositories"></a>GitHub repositories
+
+The ARIA Working Group maintains the following GitHub repositories:
 
 - [w3c/aria](https://github.com/w3c/aria/) &mdash; for spec development
 - [w3c/core-aam](https://github.com/w3c/core-aam/) &mdash; for issues related to Core Accessibility API Mappings
