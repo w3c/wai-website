@@ -104,7 +104,7 @@ Make sure your email is related to digital accessibility and is appropriate for 
 
 * If you have questions about whether a message is appropriate for the Discussion List, email the [W3C Staff Contact for the WAI Interest Group](https://www.w3.org/groups/ig/wai/participants/#staff).
 * No soliciting.
-* Be respectful, positive and open to different perspectives.
+* Be respectful, positive, and open to different perspectives.
 * Focus on ideas, not  people &mdash; avoid personal attacks.
 * Explain the issue clearly and provide sufficient contextual information.
 

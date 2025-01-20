@@ -43,7 +43,7 @@ The APG Task Force supports the deliverables of the [Accessible Rich Internet Ap
 
 For details of the current work, see the following: 
 * [APG Task Force wiki](https://github.com/w3c/aria-practices/wiki)
-* [ARIA practices milestones](https://github.com/w3c/aria-practices/milestones)
+* [APG milestones](https://github.com/w3c/aria-practices/milestones)
 * [APG projects](https://github.com/w3c/aria-practices/projects)
 
 ## Contribute to the work
@@ -84,7 +84,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 ## Publications
 
-The APG Task Force develops and maintains the [WAI-ARIA Authoring Practices Guide 1.1](https://www.w3.org/WAI/ARIA/apg/) for the ARIA Working Group.
+The APG Task Force develops and maintains the [WAI-ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) for the ARIA Working Group.
 
 ## Contact the chairs
 
