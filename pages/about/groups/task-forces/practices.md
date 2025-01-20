@@ -1,5 +1,5 @@
 ---
-title: Authoring Practices Guide Task Force
+title: ARIA Authoring Practices Guide Task Force
 permalink: /about/groups/task-forces/practices/
 ref: /about/groups/task-forces/practices/
 lang: en
