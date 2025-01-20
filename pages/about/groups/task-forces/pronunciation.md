@@ -32,7 +32,7 @@ The objective of the Spoken Presentation (SP) Task Force is to develop normative
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [SP Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/).
+To learn about the focus, scope, and deliverables of the task force, see the [SP Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/).
 
 ## Overview of the spoken presentation work
 

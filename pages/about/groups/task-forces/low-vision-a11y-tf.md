@@ -32,7 +32,7 @@ The objective of the Low Vision Accessibility (LV) Task Force is to address web 
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [Low Vision Accessibility Task Force Work Statement](/about/groups/task-forces/low-vision-a11y-tf/work-statement/).
+To learn about the focus, scope, and deliverables of the task force, see the [Low Vision Accessibility Task Force Work Statement](/about/groups/task-forces/low-vision-a11y-tf/work-statement/).
 
 ## Current work
 

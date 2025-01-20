@@ -32,7 +32,7 @@ The objective of the Maturity Model (MM) Task Force is to help organizations bui
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [MM Task Force Work Statement](/about/groups/task-forces/maturity-model/work-statement/).
+To learn about the focus, scope, and deliverables of the task force, see the [MM Task Force Work Statement](/about/groups/task-forces/maturity-model/work-statement/).
 
 ## Current work
 

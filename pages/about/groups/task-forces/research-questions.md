@@ -35,7 +35,7 @@ The objective of the Research Questions (RQ) Task Force is to identify:
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [RQ Task Force Work Statement](/about/groups/task-forces/research-questions/work-statement/).
+To learn about the focus, scope, and deliverables of the task force, see the [RQ Task Force Work Statement](/about/groups/task-forces/research-questions/work-statement/).
 
 ## Current work
 

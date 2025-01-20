@@ -41,7 +41,7 @@ The mission of the Accessible Platform Architectures (APA) Working Group is to e
 
 The APA Working Group is chartered until July 2025.
 
-To learn about the group’s focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/2023/07/apa-wg-charter).
+To learn about the group’s focus, scope, and deliverables, see the [APA Working Group Charter](https://www.w3.org/2023/07/apa-wg-charter).
 
 ## Current work
 

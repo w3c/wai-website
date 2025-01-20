@@ -34,7 +34,7 @@ The objective of the WAI-Adapt Task Force is to refine the WAI-Adapt specificati
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [WAI-Adapt Task Force Work Statement](/about/groups/task-forces/adapt/work-statement/).
+To learn about the focus, scope, and deliverables of the task force, see the [WAI-Adapt Task Force Work Statement](/about/groups/task-forces/adapt/work-statement/).
 
 ## Overview of the WAI-Adapt work
 
