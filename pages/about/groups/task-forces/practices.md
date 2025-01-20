@@ -35,7 +35,7 @@ The objective of the Authoring Practices Guide (APG) Task Force is to develop th
 
 ## Work statement
 
-To learn about the focus, scope, and deliverables of the task force, see the [APG Task Force Work Statement](/about/groups/task-forces/practices/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [APG Task Force Work Statement](/about/groups/task-forces/practices/work-statement/).
 
 ## Current work
 

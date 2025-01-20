@@ -32,7 +32,7 @@ The objective of the WCAG2ICT Task Force is to develop documentation describing 
 
 ## Work statement
 
-To learn about the focus, scope, and deliverables of the task force, see the [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/).
 
 
 ## Current work

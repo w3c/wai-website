@@ -32,7 +32,7 @@ The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Ta
 
 ## Work statement
 
-To learn about the focus, scope, and deliverables of the task force, see the [COGA Task Force Work Statement](/about/groups/task-forces/coga/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [COGA Task Force Work Statement](/about/groups/task-forces/coga/work-statement/).
 
 ## Current work
 

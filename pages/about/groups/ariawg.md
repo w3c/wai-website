@@ -35,7 +35,7 @@ The mission of the Accessible Rich Internet Applications (ARIA) Working Group is
 
 The ARIA Working Group is chartered until January 2027.
 
-To learn about the group’s focus, scope, and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
+To learn about the group’s focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
 
 ## Current work 
 

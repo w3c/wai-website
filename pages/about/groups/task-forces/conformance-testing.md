@@ -32,7 +32,7 @@ The objective of the Accessibility Conformance Testing (ACT) Task Force is to de
 
 ## Work statement
 
-To learn about the focus, scope, and deliverables of the task force, see the [ACT Task Force Work Statement](/about/groups/task-forces/conformance-testing/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [ACT Task Force Work Statement](/about/groups/task-forces/conformance-testing/work-statement/).
 
 ## Current work
 
