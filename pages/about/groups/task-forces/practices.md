@@ -44,7 +44,7 @@ The APG Task Force supports the deliverables of the [Accessible Rich Internet Ap
 For details of the current work, see the following: 
 * [APG Task Force wiki](https://github.com/w3c/aria-practices/wiki)
 * [ARIA practices milestones](https://github.com/w3c/aria-practices/milestones)
-* [ARIA practices projects](https://github.com/w3c/aria-practices/projects)
+* [APG projects](https://github.com/w3c/aria-practices/projects)
 
 ## Contribute to the work
 
