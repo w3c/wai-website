@@ -83,7 +83,7 @@ The WCAG2ICT Task Force develops and maintains the following resources for the A
 
 * [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies &mdash; 2013 Working Group Note](https://www.w3.org/TR/wcag2ict-20/) &mdash; provides guidance on WCAG 2.0 success criteria
 * W3C Group Note [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies &mdash; 2024 Group Note](https://www.w3.org/TR/wcag2ict/) &mdash; provides guidance on 2.0, 2.1, and 2.2 success criteria, and supersedes the previous Note
-* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) &mdash; 2024 Editor’s Draft](https://www.w3.org/TR/maturity-model/) &mdash; provides informative (non-normative) guidance on how WCAG 2.x can be applied to non-web documents and software (correct?)
+* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) &mdash; 2024 Editor’s Draft](https://www.w3.org/TR/maturity-model/) &mdash; provides informative (non-normative) guidance on how WCAG 2.x can be applied to non-web documents and software
 
 ## Contact the chairs
 
