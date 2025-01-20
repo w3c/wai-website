@@ -54,7 +54,7 @@ The APG Task Force welcomes input from the global accessibility community on the
 
 You can contribute to the work without being a member of the task force in the [APG GitHub repository](https://github.com/w3c/aria-practices/issues):
 * If you’re aware of an issue with any of the published APG resources, raise a new issue.
-* Comment on or propose solutions for open ARIA practices issues.
+* Comment on or propose solutions for open APG issues.
 
 ### Become a participant in the task force
 
