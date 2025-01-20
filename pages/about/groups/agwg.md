@@ -98,7 +98,7 @@ See [Instructions for joining the Accessibility Guidelines Working Group](https:
 
 ## Publications and copyright
 
-See the full [List of publications by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/).
+[List of technical reports published by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/).
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/).
 

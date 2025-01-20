@@ -90,7 +90,7 @@ See [Instructions for joining the Accessible Platform Architectures Working Grou
 
 ## Publications and copyright
 
-See the full [List of publications by the APA Working Group](https://www.w3.org/groups/wg/apa/publications/).
+[List of technical reports published by the APA Working Group](https://www.w3.org/groups/wg/apa/publications/).
 
 What about this one? (I can't find it on [W3C standards and drafts](https://www.w3.org/TR/) or the APA WG publications page): [Framework for Accessible Specification of Technologies](https://w3c.github.io/apa/fast/) plus [FAST checklist](https://w3c.github.io/apa/fast/checklist.html)
 
