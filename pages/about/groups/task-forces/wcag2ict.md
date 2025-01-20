@@ -74,7 +74,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Communications
 
-* [Minutes from previous meetings &mdash; WCAG2ICT Task Force](https://www.w3.org/WAI/GL/task-forces/wcag2ict/minutes)
+* [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/wcag2ict/minutes)
 * [Mailing list archive &mdash; WCAG2ICT Task Force](https://lists.w3.org/Archives/Public/public-wcag2ict-tf/)
 
 ## Publications
