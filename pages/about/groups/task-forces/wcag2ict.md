@@ -39,7 +39,7 @@ To learn about the focus, scope and deliverables of the task force, see the [WCA
 
 The WCAG2ICT Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
-For details of the current work, see the WCAG2ICT Task Force wiki. (Does the TF have a wiki?)
+For details of the current work, see the [WCAG2ICT Task Force wiki](https://github.com/w3c/wcag2ict/wiki).
 
 ## Contribute to the work
 
