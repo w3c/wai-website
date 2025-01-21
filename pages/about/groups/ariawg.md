@@ -57,7 +57,14 @@ The ARIA modules extend the roles, states, and properties for specific host lang
 
 ### ARIA Core Accessibility API Mappings
 
-The ARIA [Core Accessibility API Mappings](https://www.w3.org/TR/core-aam-1.2/) describe how user agents should expose semantics of web content languages to accessibility APIs. The mappings apply broadly to multiple technologies. In addition, the ARIA Working Group develops specific mappings for Digital Publishing, HTML, SVG, MathML, and PDF.
+The ARIA [Core Accessibility API Mappings](https://www.w3.org/TR/core-aam-1.2/) describe how user agents should expose semantics of web content languages to accessibility APIs. The mappings apply broadly to multiple technologies. In addition, the ARIA Working Group develops specific mappings for:
+
+* CSS
+* [Digital Publishing](https://www.w3.org/TR/dpub-aam-1.1/)
+* [HTML](https://www.w3.org/TR/html-aam-1.0/)
+* MathML
+* PDF
+* [SVG](https://www.w3.org/TR/svg-aam-1.0/)
 
 ### WAI-ARIA Authoring Practices
 
@@ -115,6 +122,8 @@ The ARIA Working Group maintains the following GitHub repositories:
 - [Digital Publishing WAI-ARIA Module](https://github.com/w3c/dpub-aria/)
 - [Graphics Accessibility API Mappings](https://github.com/w3c/graphics-aam/)
 - [HTML Accessibility API Mappings](https://github.com/w3c/html-aam/) &mdash; (now developed by the [Web Platform Working Group](http://www.w3.org/WebPlatform/WG/))
+- [MathML](https://w3c.github.io/mathml-aam/)
+- [PDF](https://github.com/w3c/pdf-aam) &mdash; (being developed by the [Portable Document Format (PDF) Accessibility APIs Mapping Task Force](https://www.w3.org/groups/tf/pdf-aam/))
 - [SVG Accessibility API Mappings](https://github.com/w3c/svg-aam/) &mdash; (now developed by the [Scalable Vector Graphics (SVG) Working Group](http://www.w3.org/Graphics/SVG/WG/))
 - [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/) &mdash; (being developed by the [ARIA Authoring Practices Guide Task Force](/about/groups/task-forces/practices/))
 - [WAI-ARIA Graphics Module](https://github.com/w3c/graphics-aria/)
