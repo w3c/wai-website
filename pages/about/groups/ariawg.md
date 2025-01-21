@@ -110,13 +110,13 @@ The ARIA Working Group maintains the following GitHub repositories:
 - [ARIA](https://github.com/w3c/aria/) &mdash; for spec development
 - [Assistive Technology ARIA Experience Assessment](https://github.com/w3c/aria-at/) &mdash; (being developed by the [ARIA and Assistive Technologies Community Group](https://www.w3.org/community/aria-at/))
 - [Core Accessibility API Mappings](https://github.com/w3c/core-aam/)
-- [CSS Accessibility API Mappings](https://github.com/w3c/css-aam/) &mdash; (being developed by the [Cascading Style Sheets (CSS) Accessibility Task Force](/about/groups/task-forces/css-a11y/))
+- [CSS Accessibility API Mappings](https://github.com/w3c/css-aam/)
 - [Digital Publishing Accessibility API Mappings](https://github.com/w3c/dpub-aam/)
 - [Digital Publishing WAI-ARIA Module](https://github.com/w3c/dpub-aria/)
 - [Graphics Accessibility API Mappings](https://github.com/w3c/graphics-aam/)
 - [HTML Accessibility API Mappings](https://github.com/w3c/html-aam/) &mdash; (now developed by the [Web Platform Working Group](http://www.w3.org/WebPlatform/WG/))
 - [SVG Accessibility API Mappings](https://github.com/w3c/svg-aam/) &mdash; (now developed by the [Scalable Vector Graphics (SVG) Working Group](http://www.w3.org/Graphics/SVG/WG/))
-- [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/) &mdash; (being developed by the [ARIA Authoring Practices Task Force](/about/groups/task-forces/practices/))
+- [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/) &mdash; (being developed by the [ARIA Authoring Practices Guide Task Force](/about/groups/task-forces/practices/))
 - [WAI-ARIA Graphics Module](https://github.com/w3c/graphics-aria/)
 
 ## Publications and copyright

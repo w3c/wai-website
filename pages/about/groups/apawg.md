@@ -96,6 +96,8 @@ The APA Working Group maintains the following GitHub repositories:
 * [Research Questions](https://github.com/w3c/rqtf/)
 * [WAI-Adapt](https://github.com/w3c/adapt/)
 
+## Publications and copyright
+
 [List of technical reports published by the APA Working Group](https://www.w3.org/groups/wg/apa/publications/).
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; APA Working Group](https://www.w3.org/groups/wg/apa/ipr/).
