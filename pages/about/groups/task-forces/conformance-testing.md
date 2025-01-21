@@ -73,6 +73,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Communications
 
+* [Calendar of meetings](https://www.w3.org/groups/tf/wcag-act/calendar/)
 * [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/conformance-testing/minutes)
 * [Mailing list archive](http://lists.w3.org/Archives/Public/public-wcag-act/)
 

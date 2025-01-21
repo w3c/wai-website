@@ -38,7 +38,7 @@ To learn about the focus, scope and deliverables of the task force, see the [MM 
 
 The MM Task Force supports the deliverables of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
 
-For details of the current work, see the [MM Task Force wiki](https://github.com/w3c/maturity-model/wiki). (Nothing here. Is there another document in GitHub we should link to instead?)
+For details of the current work, see the [Maturity Model GitHub repository](https://github.com/w3c/maturity-model/).
 
 ## Contribute to the work
 
@@ -73,12 +73,16 @@ Once you are a member of the APA Working Group, email [who?] to let them know yo
 
 ## Communications
 
+* [Calendar of meetings](https://www.w3.org/groups/tf/maturity/calendar/)
 * [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/maturity-model/minutes)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-maturity/)
 
 ## Publications
 
-The MM Task Force develops and maintains the [Accessibility Maturity Model &mdash; 2024 Group Draft Note](https://www.w3.org/TR/maturity-model/) for the APA Working Group.
+The MM Task Force develops and maintains the following resources for the APA Working Group:
+
+* [Accessibility Maturity Model &mdash; 2024 Group Draft Note](https://www.w3.org/TR/maturity-model/)
+* [Accessibility Maturity Model &mdash; 2025 Editor’s Draft](https://www.w3.org/TR/maturity-model/)
 
 ## Contact the chairs
 

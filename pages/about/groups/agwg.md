@@ -91,10 +91,21 @@ See [Instructions for joining the Accessibility Guidelines Working Group](https:
 
 ## Communications and decisions
 
+* [Calendar of meetings](https://www.w3.org/groups/wg/ag/calendar/)
 * [Minutes from previous meetings](https://www.w3.org/WAI/GL/minutes-history)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/w3c-wai-gl/)
 * [Record of decisions](https://www.w3.org/WAI/GL/wiki/Decisions)
 * [Decision policy](/about/groups/agwg/decision-policy/)
+
+## GitHub repositories
+
+The AG Working Group maintains the following GitHub repositories:
+
+* [Accessibility Conformance Testing](https://github.com/w3c/wcag-act/)
+* [Cognitive and Learning Disabilities Accessibility](https://github.com/w3c/coga/)
+* [Mobile Accessibility](https://github.com/w3c/Mobile-A11y-TF-Note/)
+* [Web Content Accessibility Guidelines](https://github.com/w3c/wcag/)
+* [WCAG2ICT](https://github.com/w3c/wcag2ict/)
 
 ## Publications and copyright
 

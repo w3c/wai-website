@@ -45,10 +45,7 @@ To learn about the group’s focus, scope and deliverables, see the [APA Working
 
 ## Current work
 
-For details of the current work, see:
-
-* [Deliverables and status](/about/groups/apawg/deliverables/) - a little out of date?
-* [APA Working Group wiki](https://www.w3.org/WAI/APA/wiki/).
+For details of the current work, see the [APA Working Group wiki](https://www.w3.org/WAI/APA/wiki/).
 
 ## Contribute to the work
 
@@ -83,18 +80,23 @@ See [Instructions for joining the Accessible Platform Architectures Working Grou
 
 ## Communications and decisions
 
+* [Calendar of meetings](https://www.w3.org/groups/wg/apa/calendar/)
 * [Minutes from previous meetings](https://www.w3.org/WAI/APA/minutes)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-apa/)
 * [Record of decisions](https://www.w3.org/WAI/APA/wiki/Decisions)
 * [Decision policy](/about/groups/apawg/decision-policy/)
 
-## Publications and copyright
+## GitHub repositories
+The APA Working Group maintains the following GitHub repositories:
+
+* [Accessibile Platform Architectures](https://github.com/w3c/apa/)
+* [Accessibility Maturity Model](https://github.com/w3c/maturity-model/)
+* [Cognitive and Learning Disabilities Accessibility](https://github.com/w3c/coga/)
+* [Pronunciation](https://github.com/w3c/pronunciation/)
+* [Research Questions](https://github.com/w3c/rqtf/)
+* [WAI-Adapt](https://github.com/w3c/adapt/)
 
 [List of technical reports published by the APA Working Group](https://www.w3.org/groups/wg/apa/publications/).
-
-What about this one? (I can't find it on [W3C standards and drafts](https://www.w3.org/TR/) or the APA WG publications page): [Framework for Accessible Specification of Technologies](https://w3c.github.io/apa/fast/) plus [FAST checklist](https://w3c.github.io/apa/fast/checklist.html)
-
-And should we provide a link to the [APA video examples](https://deploy-preview-1018--wai-website.netlify.app/about/groups/apawg/video-examples/) here?
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; APA Working Group](https://www.w3.org/groups/wg/apa/ipr/).
 

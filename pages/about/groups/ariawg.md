@@ -53,7 +53,7 @@ The ARIA modules extend the roles, states, and properties for specific host lang
 
 * [Digital Publishing](https://www.w3.org/TR/dpub-aria-1.1/)
 * [Graphics](https://www.w3.org/TR/graphics-aria-1.0/)
-* [HTML](https://www.w3.org/TR/html-aria/).
+* [HTML](https://www.w3.org/TR/html-aria/)
 
 ### ARIA Core Accessibility API Mappings
 
@@ -96,6 +96,7 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 
 ## Communications and decisions
 
+* [Calendar of meetings](https://www.w3.org/groups/wg/aria/calendar/)
 * [Minutes from previous meetings](https://www.w3.org/WAI/ARIA/minutes)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-aria/)
 * Record of decisions (mainly in GitHub pull request reviews)
@@ -105,18 +106,18 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 
 The ARIA Working Group maintains the following GitHub repositories:
 
-- [w3c/aria](https://github.com/w3c/aria/) &mdash; for spec development
-- [w3c/core-aam](https://github.com/w3c/core-aam/) &mdash; for issues related to Core Accessibility API Mappings
-- [w3c/accname](https://github.com/w3c/accname/) &mdash; for issues related to accessible name and description computation
-- [w3c/dpub-aam](https://github.com/w3c/dpub-aam/) &mdash; for Digital Publishing Accessibility API Mappings
-- [w3c/dpub-aria](https://github.com/w3c/dpub-aria/) &mdash; for issues related to the Digital Publishing WAI-ARIA Module
-- [w3c/graphics-aria](https://github.com/w3c/graphics-aria/) &mdash; for issues related to the WAI-ARIA Graphics Module
-- [w3c/graphics-aam](https://github.com/w3c/graphics-aam/) &mdash; for issues related to Graphics Accessibility API Mappings
-- [w3c/svg-aam](https://github.com/w3c/svg-aam/) &mdash; for issues related to SVG Accessibility API Mappings (now developed by the [Scalable Vector Graphics (SVG) Working Group](http://www.w3.org/Graphics/SVG/WG/))
-- [w3c/html-aam](https://github.com/w3c/html-aam/) &mdash; for issues related to HTML Accessibility API Mappings (now developed by the [Web Platform Working Group](http://www.w3.org/WebPlatform/WG/))
-- [w3c/css-aam](https://github.com/w3c/css-aam/) &mdash; for issues related to CSS Accessibility API Mappings (being developed by the [Cascading Style Sheets (CSS) Accessibility Task Force](/about/groups/task-forces/css-a11y/))
-- [w3c/aria-practices](https://github.com/w3c/aria-practices/) &mdash; for WAI-ARIA Authoring Practices (being developed by the [ARIA Authoring Practices Task Force](/about/groups/task-forces/practices/))
-- [w3c/aria-at](https://github.com/w3c/aria-at/) &mdash; for Assistive Technology ARIA Experience Assessment (being developed by the [ARIA and Assistive Technologies Community Group](https://www.w3.org/community/aria-at/))
+- [Accessible Name and Description Computation](https://github.com/w3c/accname/)
+- [ARIA](https://github.com/w3c/aria/) &mdash; for spec development
+- [Assistive Technology ARIA Experience Assessment](https://github.com/w3c/aria-at/) &mdash; (being developed by the [ARIA and Assistive Technologies Community Group](https://www.w3.org/community/aria-at/))
+- [Core Accessibility API Mappings](https://github.com/w3c/core-aam/)
+- [CSS Accessibility API Mappings](https://github.com/w3c/css-aam/) &mdash; (being developed by the [Cascading Style Sheets (CSS) Accessibility Task Force](/about/groups/task-forces/css-a11y/))
+- [Digital Publishing Accessibility API Mappings](https://github.com/w3c/dpub-aam/)
+- [Digital Publishing WAI-ARIA Module](https://github.com/w3c/dpub-aria/)
+- [Graphics Accessibility API Mappings](https://github.com/w3c/graphics-aam/)
+- [HTML Accessibility API Mappings](https://github.com/w3c/html-aam/) &mdash; (now developed by the [Web Platform Working Group](http://www.w3.org/WebPlatform/WG/))
+- [SVG Accessibility API Mappings](https://github.com/w3c/svg-aam/) &mdash; (now developed by the [Scalable Vector Graphics (SVG) Working Group](http://www.w3.org/Graphics/SVG/WG/))
+- [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/) &mdash; (being developed by the [ARIA Authoring Practices Task Force](/about/groups/task-forces/practices/))
+- [WAI-ARIA Graphics Module](https://github.com/w3c/graphics-aria/)
 
 ## Publications and copyright
 

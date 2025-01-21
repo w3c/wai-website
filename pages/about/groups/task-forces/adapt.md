@@ -81,6 +81,7 @@ Once you are a member of the APA Working Group, email [who?] to let them know yo
 
 ## Communications
 
+* [Calendar of meetings](https://www.w3.org/groups/tf/personalization-tf/calendar/)
 * [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/adapt/minutes)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-adapt/)
 

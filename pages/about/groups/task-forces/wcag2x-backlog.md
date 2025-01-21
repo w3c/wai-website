@@ -80,7 +80,7 @@ No details?
 
 ## Communications
 
-* Minutes from previous meetings (Does this TF have meetings? What is the link?)
+* [Minutes from previous meetings](https://github.com/w3c/wcag/wiki/Meeting-minutes-index)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-wcag2-issues/)
 
 ## Publications
@@ -89,4 +89,4 @@ The WCAG 2.x Backlog Task Force does not develop publications.
 
 ## Contact the facilitators (not chairs? why the inconsistency?)
 
-If you have a question for the WCAG 2.x Backlog Task Force, email the task force facilitators, [Bruce Bailey](https://www.w3.org/groups/wg/ag/participants/#bbailey) and [Michael Gower](https://www.w3.org/groups/wg/ag/participants/#mbgower), and the AG Working Group chair liaison, [Alastair Campbell](https://www.w3.org/groups/wg/ag/participants/#acampbel). (is there no 'leadership' team or participants list we can link to on the w3.org/group site?)
+If you have a question for the WCAG 2.x Backlog Task Force, email the task force chairs, [Bruce Bailey](https://www.w3.org/groups/wg/ag/participants/#bbailey) and [Michael Gower](https://www.w3.org/groups/wg/ag/participants/#mbgower), and the AG Working Group chair liaison, [Alastair Campbell](https://www.w3.org/groups/wg/ag/participants/#acampbel). (is there no 'leadership' team or participants list we can link to on the w3.org/group site?)
