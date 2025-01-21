@@ -2,7 +2,7 @@
 title: "Digital Accessibility User Requirements"
 nav_title: "User Requirements"
 lang: en
-last_updated: 2024-09-19
+last_updated: 2025-01-21
 description: User requirements for virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, cognitive accessibility, low vision, and more.
 
 github:
@@ -15,7 +15,7 @@ feedbackmail: wai@w3.org
 
 footer: >
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
-  <p>Developed with input from the Research Questions Task Force (<a href="https://www.w3.org/groups/tf/rqtf/">RQTF</a>) of the Accessible Platform Architectures Working Group (<a href="https://www.w3.org/groups/wg/apa/">APA</a>), and the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg/">EOWG</a>).</p>
+  <p>Developed with input from the Research Questions Task Force (<a href="https://www.w3.org/groups/tf/rqtf/">RQTF</a>) of the Accessible Platform Architectures Working Group (<a href="https://www.w3.org/groups/wg/apa/">APA</a>).</p>
 ---
 
 WAI continues to analyze research and document user needs in several areas. The documents below:
@@ -39,7 +39,7 @@ WAI continues to analyze research and document user needs in several areas. The 
 **NAUR** [**Natural Language Interface** Accessibility User Requirements](https://www.w3.org/TR/naur) Draft
 :   Addresses situations where a user and a system communicate via a natural (human) language. The user provides input as sentences via speech or other input, and the system generates responses as sentences delivered by speech, text, or another modality. (Learn more from the [NAUR blog post](https://www.w3.org/blog/2021/10/natural-language-interface-accessibility-user-requirements-call-for-review/).)
 
-**CTAUR** [**Collaboration Tools** Accessibility User Requirements](https://www.w3.org/TR/ctaur/) Draft
+**CTAUR** [**Collaboration Tools** Accessibility User Requirements](https://www.w3.org/TR/ctaur/)
 :   Describes user needs in tools that support for one or more specific collaborative features. These features include real-time editing of content by multiple authors, the use of comments or annotations, and revision control.
 
 **FAST** [Framework for Accessible Specification of Technologies (FAST)](https://w3c.github.io/apa/fast/) Editors' Draft
