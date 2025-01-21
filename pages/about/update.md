@@ -2,7 +2,7 @@
 title: "What We're Working On"
 title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, January 2025</span>"
 lang: en
-last_updated: 2025-01-15
+last_updated: 2025-01-21
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
 
@@ -99,11 +99,10 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in early 2025. <!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in Q1 (January, February, and March) 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* [Collaboration Tools Accessibility User Requirements](https://w3c.github.io/ctaur/) as a completed Note
 * Accessibility Roles and Responsibilities Mapping (ARRM) as a draft
-* More [WAI Translations](/translations/) - usually some each week
+* More [WAI Translations](/translations/) &mdash; usually some each week
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
@@ -188,6 +187,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 21 January 2025
+  * Removed Collaboration Tools Accessibility User Requirements from [Upcoming Publications list](/update/#upcoming-publications) because we published it today
 * 15 January 2025
   * From Current Work Highlights, removed Collaboration Tools Accessibility User Requirements (“CTAUR”)  because we are the process of publishing it
   * Removed WCAG 3 Working Draft from [Upcoming Publications list](/update/#upcoming-publications) because we published an updated draft in December 2024
