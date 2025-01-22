@@ -34,7 +34,7 @@ The Mobile Accessibility (Mobile A11y) Task Force has two objectives:
 
 ## Work statement
 
-The Mobile A11y Task Force is currently regrouping and creating a new Work Statement for its new direction.
+To learn about the focus, scope and deliverables of the task force, see the [Mobile Accessibility Task Force Work Statement](/about/groups/task-forces/matf/work-statement/).
 
 ## Current work
 
