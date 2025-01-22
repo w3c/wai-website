@@ -76,7 +76,8 @@ Once you are a member of the AG Working Group, email [who?] to let them know you
 
 ## Task force members
 
-No details?
+* [Chairs](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#chairs)
+* [Participants](https://www.w3.org/groups/tf/wcag2x-backlog/participants/)
 
 ## Communications
 
