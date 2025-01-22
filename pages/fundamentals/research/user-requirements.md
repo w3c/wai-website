@@ -36,11 +36,11 @@ WAI continues to analyze research and document user needs in several areas. The 
 **RAUR** [**RTC** Accessibility User Requirements](https://www.w3.org/TR/raur/)
 :   Describes user needs for real-time communication (RTC). RTC enables instantaneous applications for video and audio calls, text chat, file exchange, screen sharing, and gaming. ([RAUR blog](https://www.w3.org/blog/2020/03/rtc-accessibility-user-requirements-call-for-review/))
 
-**NAUR** [**Natural Language Interface** Accessibility User Requirements](https://www.w3.org/TR/naur) Draft
-:   Addresses situations where a user and a system communicate via a natural (human) language. The user provides input as sentences via speech or other input, and the system generates responses as sentences delivered by speech, text, or another modality. (Learn more from the [NAUR blog post](https://www.w3.org/blog/2021/10/natural-language-interface-accessibility-user-requirements-call-for-review/).)
-
 **CTAUR** [**Collaboration Tools** Accessibility User Requirements](https://www.w3.org/TR/ctaur/)
 :   Describes user needs in tools that support for one or more specific collaborative features. These features include real-time editing of content by multiple authors, the use of comments or annotations, and revision control.
+
+**NAUR** [**Natural Language Interface** Accessibility User Requirements](https://www.w3.org/TR/naur) Draft
+:   Addresses situations where a user and a system communicate via a natural (human) language. The user provides input as sentences via speech or other input, and the system generates responses as sentences delivered by speech, text, or another modality. (Learn more from the [NAUR blog post](https://www.w3.org/blog/2021/10/natural-language-interface-accessibility-user-requirements-call-for-review/).)
 
 **FAST** [Framework for Accessible Specification of Technologies (FAST)](https://w3c.github.io/apa/fast/) Editors' Draft
 :   Advises creators of technical specifications how to ensure their technology meets the needs of users with disabilities. 
