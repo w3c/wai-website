@@ -35,7 +35,8 @@ The WCAG 2.x Backlog Task Force has two objectives:
 
 ## Work statement
 
-The WCAG 2.x Backlog Task Force does not have a work statement because @@.
+To learn about the focus, scope and deliverables of the task force, see the [WCAG 2.x Backlog Task Force Work Statement](/about/groups/task-forces/wcag2x-backlog/work-statement/).
+
 
 ## Current work
 
