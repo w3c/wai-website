@@ -50,7 +50,7 @@ The following resources provide information for **getting started with accessibi
 : A concise introduction to accessibility requirements for websites, apps, browsers, and other tools. It is organized similar to the WAI accessibility standards and provides a useful bridge to the standards. Read this page before reading the standards/guidelines.
 
 Research:
-: - [[Accessibility User Requirements]](/research/user-requirements/) - Documentation of research on user needs in virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, low vision, cognitive accessibility, and more.
+: - [[Accessibility User Requirements]](/research/user-requirements/) - Documentation of research on user needs in virtual or immersive environments (XR), real-time communication (RTC), collaboration tools, natural language interfaces, multimedia; and for low vision and cognitive accessibility.
   - [[Artificial Intelligence (AI) and Accessibility Research Symposium 2023]](/research/ai2023/) - Summaries, transcripts, and videos of the international symposium exploring the positive and negative impacts of artificial intelligence (AI) in digital accessibility.
 
 Digital Accessibility Courses:
