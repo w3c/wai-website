@@ -109,7 +109,7 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 * Record of decisions (mainly in GitHub pull request reviews)
 * [Decision policy](/about/groups/ariawg/decision-policy/)
 
-## <a name="github-repositories"></a>GitHub repositories
+## GitHub repositories
 
 The ARIA Working Group maintains the following GitHub repositories:
 
