@@ -67,7 +67,7 @@ To become a participant in the COGA Task Force, you must first be a member of on
 * AG Working Group &mdash; see [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/)
 * APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/)
 
-Once you are a member of either the AG or APA working groups, email [who?] to let them know you’d like to join the task force.
+Once you are a member of either the AG or APA working groups, email the [W3C staff contact for the COGA Task Force](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#staff) to let them know you’d like to join the task force.
 
 **Note:** As a participant in one of the AG or APA working groups’ task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 

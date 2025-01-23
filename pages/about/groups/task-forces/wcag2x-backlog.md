@@ -71,7 +71,7 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the WCAG 2.x Backlog Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-Once you are a member of the AG Working Group, email [who?] to let them know you’d like to join the task force. 
+Once you are a member of the AG Working Group, email the W3C staff contact for the WCAG 2.x Backlog Task Force](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#staff) to let them know you’d like to join the task force. 
 
 **Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
@@ -91,4 +91,4 @@ The WCAG 2.x Backlog Task Force does not develop publications.
 
 ## Contact the facilitators (not chairs? why the inconsistency?)
 
-If you have a question for the WCAG 2.x Backlog Task Force, email the task force chairs, [Bruce Bailey](https://www.w3.org/groups/wg/ag/participants/#bbailey) and [Michael Gower](https://www.w3.org/groups/wg/ag/participants/#mbgower), and the AG Working Group chair liaison, [Alastair Campbell](https://www.w3.org/groups/wg/ag/participants/#acampbel). (is there no 'leadership' team or participants list we can link to on the w3.org/group site?)
+If you have a question for the WCAG 2.x Backlog Task Force, email the [chairs](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#staff).
