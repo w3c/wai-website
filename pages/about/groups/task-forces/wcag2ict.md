@@ -69,8 +69,8 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Task force members
 
-* [Chairs &mdash; WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs)
-* [Current participants &mdash; WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/participants/#participants)
+* [Chairs](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/wcag2ict/participants/#participants)
 
 ## Communications
 
