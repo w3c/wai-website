@@ -61,6 +61,7 @@ The ARIA [Core Accessibility API Mappings](https://www.w3.org/TR/core-aam-1.2/) 
 
 * CSS
 * [Digital Publishing](https://www.w3.org/TR/dpub-aam-1.1/)
+* [Graphics](https://www.w3.org/TR/graphics-aam/)
 * [HTML](https://www.w3.org/TR/html-aam-1.0/)
 * MathML
 * PDF
