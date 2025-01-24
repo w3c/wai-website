@@ -1,6 +1,6 @@
 ---
 nav_title: "Overview"
-title: WAI Working Groups and Interest Groups
+title: WAI Working Groups, Task Forces and Interest Groups
 lang: en
 permalink: /about/groups/
 ref: /about/groups/
@@ -18,6 +18,9 @@ The Web Accessibility Initiative (WAI)’s working groups develop digital access
 
 [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/)
 : The mission of the ARIA Working Group is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
+
+[Task Forces Supporting Accessibility Working Groups](/about/groups/task-forces/)
+: W3C’s task forces operate under specific working groups to support them with particular tasks for their deliverables.
 
 [WAI Interest Group](/about/groups/waiig/)
 : The WAI Interest Group is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work.
