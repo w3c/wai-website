@@ -43,7 +43,7 @@ For details of the current work, see the [ARIA Working Group README on GitHub](h
 
 The ARIA Working Group follows a set process for developing ARIA guidelines and resolving ARIA issues &emdash; for details, see [ARIA Working Group Process Document](https://github.com/w3c/aria/blob/main/documentation/process.md).
 
-### WAI-ARIA 1.3
+### WAI-ARIA
 
 The [WAI-ARIA specification](https://www.w3.org/TR/wai-aria/) defines roles, states, and properties that can be used in a variety of host languages to enhance the accessibility of user interfaces.
 
