@@ -44,12 +44,12 @@ The WCAG 2.x Backlog Task Force supports the deliverables of the [Accessibility 
 
 For details of the current work, see the [WCAG 2.x Backlog Task Force wiki](https://github.com/w3c/wcag/wiki).
 
-The task force has developed a workflow process for:
+The task force has developed a [workflow process](https://github.com/w3c/wcag/wiki/WCAG-2-Task-Force-process) for:
 
 * creating and vetting pull requests for WCAG 2.x issues, and
 * creating responses to WCAG 2.x issues. 
 
-The process includes a two-week review of all changes by the AG Working Group. For details, see [WCAG 2 Task Force process](https://github.com/w3c/wcag/wiki/WCAG-2-Task-Force-process).
+The process includes a two-week review of all changes by the AG Working Group.
 
 ## Contribute to the work
 
