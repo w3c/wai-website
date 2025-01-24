@@ -116,7 +116,6 @@ The ARIA Working Group maintains the following GitHub repositories:
 
 - [Accessible Name and Description Computation](https://github.com/w3c/accname/)
 - [ARIA](https://github.com/w3c/aria/) &mdash; for spec development
-- [Assistive Technology ARIA Experience Assessment](https://github.com/w3c/aria-at/) &mdash; (being developed by the [ARIA and Assistive Technologies Community Group](https://www.w3.org/community/aria-at/))
 - [Core Accessibility API Mappings](https://github.com/w3c/core-aam/)
 - [CSS Accessibility API Mappings](https://github.com/w3c/css-aam/)
 - [Digital Publishing Accessibility API Mappings](https://github.com/w3c/dpub-aam/)
