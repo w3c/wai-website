@@ -71,7 +71,7 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the WCAG 2.x Backlog Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
 
-Once you are a member of the AG Working Group, email the W3C staff contact for the WCAG 2.x Backlog Task Force](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#staff) to let them know you’d like to join the task force. 
+Once you are a member of the AG Working Group, email the [W3C staff contact for the WCAG 2.x Backlog Task Force](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#staff) to let them know you’d like to join the task force. 
 
 **Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
@@ -82,6 +82,7 @@ Once you are a member of the AG Working Group, email the W3C staff contact for t
 
 ## Communications
 
+* [Calendar of meetings](https://www.w3.org/groups/tf/wcag2x-backlog/calendar/)
 * [Minutes from previous meetings](https://github.com/w3c/wcag/wiki/Meeting-minutes-index)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-wcag2-issues/)
 
