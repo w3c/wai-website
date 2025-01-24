@@ -123,7 +123,7 @@ The ARIA Working Group maintains the following GitHub repositories:
 - [Graphics Accessibility API Mappings](https://github.com/w3c/graphics-aam/)
 - [HTML Accessibility API Mappings](https://github.com/w3c/html-aam/)
 - [MathML](https://github.com/w3c/mathml-aam/)
-- [PDF](https://github.com/w3c/pdf-aam) &mdash; (being developed by the [Portable Document Format (PDF) Accessibility APIs Mapping Task Force](https://www.w3.org/groups/tf/pdf-aam/))
+- [PDF](https://github.com/w3c/pdf-aam)
 - [SVG Accessibility API Mappings](https://github.com/w3c/svg-aam/) &mdash; (being developed by the [Scalable Vector Graphics (SVG) Working Group](http://www.w3.org/Graphics/SVG/WG/))
 - [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/) &mdash; (being developed by the [ARIA Authoring Practices Guide Task Force](/about/groups/task-forces/practices/))
 - [WAI-ARIA Graphics Module](https://github.com/w3c/graphics-aria/)
