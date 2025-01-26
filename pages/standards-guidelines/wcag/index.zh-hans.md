@@ -91,7 +91,6 @@ WCAG 主要面向以下人群:
 
 ## WCAG 2 中包含了什么内容 {#whatis2}
 
-The WCAG 2.2 has 13 guidelines. The guidelines are organized under [4 principles: perceivable, operable, understandable, and robust](https://www.w3.org/WAI/WCAG22/Understanding/intro#understanding-the-four-principles-of-accessibility).
 WCAG 2.2 包含 13 条指南。这些指南被归类为 [4 项原则：可感知性、可操作性、可理解性和鲁棒性](https://www.w3.org/WAI/WCAG22/Understanding/intro#understanding-the-four-principles-of-accessibility)。
 
 每条指南都有可测试的 *成功标准*。成功标准分为[三个级别：A、AA 和 AAA](https://www.w3.org/WAI/WCAG22/Understanding/conformance#levels)。
