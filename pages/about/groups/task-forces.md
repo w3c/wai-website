@@ -18,6 +18,9 @@ W3C’s task forces operate under specific working groups to support them with p
 [Cognitive and Learning Disabilities Accessibility Task Force](/about/groups/task-forces/coga/)
 : The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.<br />(Supports the [AG Working Group](/about/groups/agwg/) and the [APA Working Group](/about/groups/apawg/))
 
+[Framework for Accessible Specification of Technologies Task Force](/about/groups/task-forces/fast/)
+: The objective of the Framework for Accessible Specification of Technologies (FAST) Task Force is to collect user and functional needs, and to create guidance for content developers using a framework that describes the features web technologies should provide to ensure it’s possible to create content that is accessible to users with disabilities.<br />(Supports the [APA Working Group](/about/groups/agwg/) and the [APA Working Group](/about/groups/apawg/))
+
 [Low Vision Accessibility Task Force](/about/groups/task-forces/low-vision-a11y-tf/)
 : The objective of the Low Vision Accessibility (LV) Task Force is to address web accessibility issues specific to people with low vision through inputting into WCAG 2 techniques and understanding documents, and into WCAG 3, as well as developing additional low vision guidance resources.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
