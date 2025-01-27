@@ -1,7 +1,7 @@
 ---
 title: Accessibility Conformance Testing (ACT) Work Statement (2020)
-permalink: /about/groups/task-forces/conformance-testing/work-statement/
-ref: /about/groups/task-forces/conformance-testing/work-statement/
+permalink: /about/groups/task-forces/conformance-testing/work-statement-2020/
+ref: /about/groups/task-forces/conformance-testing/work-statement-2020/
 lang: en
 github:
   label: wai-groups

@@ -1,7 +1,7 @@
 ---
-title: Accessibility Conformance Testing (ACT) Work Statement (2024)
-permalink: /about/groups/task-forces/conformance-testing/work-statement-2024/
-ref: /about/groups/task-forces/conformance-testing/work-statement-2024/
+title: Accessibility Conformance Testing (ACT) Work Statement
+permalink: /about/groups/task-forces/conformance-testing/work-statement/
+ref: /about/groups/task-forces/conformance-testing/work-statement/
 lang: en
 github:
   label: wai-groups
@@ -11,7 +11,7 @@ The [Accessibility Conformance Testing Task Force (ACT TF)](/about/groups/task-f
 
 ## Status
 
-This Work Statement was proposed to AG WG on xx xx 2024 and will be active if approved. The prior [2020 work statement](/about/groups/task-forces/conformance-testing/work-statement-2020work-statement-2020) is available. The [Task Force home page](/about/groups/task-forces/conformance-testing/) contains information about the operation and resources of this group.
+This Work Statement was proposed to AG WG on xx xx 2024 and will be active if approved. The prior [2020 work statement](/about/groups/task-forces/conformance-testing/work-statement-2020/) is available. The [Task Force home page](/about/groups/task-forces/conformance-testing/) contains information about the operation and resources of this group.
 
 Objective
 ---------
