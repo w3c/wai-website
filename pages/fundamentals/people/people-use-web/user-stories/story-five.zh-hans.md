@@ -8,7 +8,7 @@ lang: zh-hans   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translations:
-  last_updated: 2025-01-08
+  last_updated: 2025-01-27
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -170,69 +170,69 @@ Sophie在一家篮球馆做兼职工作。她很想成为全职员工，但担�
 
 ## 障碍示例
 
-Breadcrumb trail
-: **障碍：** "When I follow several links, sometimes I feel lost and I just want to get back to where I started."
-: **效果良好：** "A breadcrumb at the top of the page that shows all of the pages I was on helps me feel oriented and lets me go back to a familiar page."
+面包屑路径
+: **障碍：** “当我追踪几个链接时，有时会感到迷失方向，只想回到起点。”
+: **效果良好：** “页面顶部的 “面包屑 ”显示了我曾经浏览过的所有页面，这有助于我确定方向，并让我回到熟悉的页面。”
 
-Plain language
-: **障碍：** "Sometimes when I'm looking something up, I don't understand the words they use."
-: **效果良好：** "If simpler words can be used, use them. If there aren't simpler words, give me a definition or point me to a glossary. Avoid the use of acronyms and abbreviations."
+通俗易懂的语言
+: **障碍：** “有时我在查找资料时，不明白他们使用的词语。”
+: **效果良好：** “如果可以用更简单的词，就用它们。如果没有更简单的词，请给我一个定义或指给我一个词汇表。避免使用缩略语和简称。”
 
-Clear link styling
-: **障碍：** "Designers like to get fancy with links and sometimes it's hard to figure out the difference between the links and highlighted text or headings."
-: **效果良好：** "Use blue underlined text for unvisited links and purple for visited links."
+清楚的链接样式
+: **障碍：** “设计师喜欢在链接上做文章，有时很难弄清链接与高亮文字或标题之间的区别。”
+: **效果良好：** “未访问链接使用蓝色下划线文本，已访问链接使用紫色下划线文本。”
 
-Forms
-: **障碍：** "When I'm filling out forms, it's sometimes hard to know what they want in each field."
-: **效果良好：** "Tell me what fields are required, put a simple and clear label on each form field, and give me an example of the format they want, especially for dates."
+表单
+: **障碍：** “当我填写表单时，有时很难知道每个字段中须要填些什么。”
+: **效果良好：** “告诉我哪些字段是必填字段，给每个表单字段贴上简单明了的标签，并举例说明他们想要的格式，尤其是日期格式。”
 
-Timeouts
-: **障碍：** "Because I'm a slow reader, it's frustrating when the website times out and I need to start all over."
-: **效果良好：** "Give a warning before the website times out and offer an option to stay online."
+超时
+: **障碍：** “因为我阅读速度慢，所以当网站超时时，我需要重新开始，这让我很沮丧。”
+: **效果良好：** “在网站超时前发出警告，并提供继续在线的选项。”
 
-Headings and Links
-: **障碍：** "I get confused and overwhelmed when I'm on a page that has a lot of text."
-: **效果良好：** "It helps when pages are broken up into sections with clear headings. Also, pictures or images that show what is being said help my understanding and they break up the page so it's not so overwhelming. In-page links, like a table of contents, can help me to know what is on the page so I can quickly get to the information I'm looking for."
+标题和链接
+: **障碍：** “当我看到有大量文字的页面时，我会感到困惑和不知所措。”
+: **效果良好：** “如果页面分成几个部分，并有明确的标题，就会有所帮助。此外，图片或图像也有助于我理解所讲的内容，它们将页面分割开来，使我不至于不知所措。页面内的链接，如目录，可以帮助我了解页面上的内容，从而快速找到我想要的信息。”
 
-Animation
-: **障碍：** "Moving or animated text or pictures is really distracting. It keeps pulling my attention away from what I'm trying to do."
-: **效果良好：** "If there has to be moving or animated content, let me stop it."
+动画
+: **障碍：** “移动或动画文本或图片真的会让人分心。它总是把我的注意力从我要做的事情上拉开。”
+: **效果良好：** “如果一定要有移动或动画内容，请提供可以暂停动画的选项。”
 
-## Assistive technologies and adaptive strategies used
+## 使用的辅助技术和适应策略
 
-* [Easy-to-read text (Presentation)](/people-use-web/tools-techniques/presentation/#etr)
-* [Pop-up and animations blockers (Presentation)](/people-use-web/tools-techniques/presentation/#blockers)
-* [Progressive disclosure (Presentation)](/people-use-web/tools-techniques/presentation/#progressive)
-* [Reading assistants (Presentation)](/people-use-web/tools-techniques/presentation/#reading)
-* [Reduced interface (Presentation)](/people-use-web/tools-techniques/presentation/#reduced)
-* [Accelerators (Input)](/people-use-web/tools-techniques/input/#accelerators)
-* [Spelling and grammar tools (Input)](/people-use-web/tools-techniques/input/#lexical)
-* [Consistency and predictability (Interaction)](/people-use-web/tools-techniques/navigation/#consistency)
-* [Descriptive titles, headings, and labels (Interaction)](/people-use-web/tools-techniques/navigation/#labels)
-* [Helpful error and success messages (Interaction)](/people-use-web/tools-techniques/navigation/#messages)
-* [Multiple navigation mechanisms (Interaction)](/people-use-web/tools-techniques/navigation/#navigating)
+* [易读文本（呈现）](/people-use-web/tools-techniques/presentation/#etr)
+* [弹窗和动画屏蔽器（呈现）](/people-use-web/tools-techniques/presentation/#blockers)
+* [渐进式信息披露（呈现）](/people-use-web/tools-techniques/presentation/#progressive)
+* [阅读助理（呈现）](/people-use-web/tools-techniques/presentation/#reading)
+* [减少界面（呈现）](/people-use-web/tools-techniques/presentation/#reduced)
+* [加速器（输入）](/people-use-web/tools-techniques/input/#accelerators)
+* [拼写和语法工具（输入）](/people-use-web/tools-techniques/input/#lexical)
+* [一致性和可预测性（交互）](/people-use-web/tools-techniques/navigation/#consistency)
+* [描述性标题、小标题和标签（交互）](/people-use-web/tools-techniques/navigation/#labels)
+* [有用的错误和成功信息（交互）](/people-use-web/tools-techniques/navigation/#messages)
+* [多种导航机制（交互）](/people-use-web/tools-techniques/navigation/#navigating)
 
 ## 相关WAI资源
 
-* Use case: [George: A User who Works in a Supermarket and has Down Syndrome](https://www.w3.org/TR/coga-usable/#george-a-user-who-works-in-a-supermarket-and-has-down-syndrome)
-* Video: [Understandable Content](/perspective-videos/understandable/)
-* Tip: [Keep content clear and concise](/tips/writing/#keep-content-clear-and-concise)
-* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Tip: [Provide meaning for non-standard interactive elements](/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
-* Tip: [Use heading and spacing to group related content](/tips/designing/#use-headings-and-spacing-to-group-related-content)
-* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
-* Check: [Moving, Flashing, or Blinking Content](/test-evaluate/preliminary/#moving)
+* 用例： [George：一名在超市工作并患有唐氏综合症的用户](https://www.w3.org/TR/coga-usable/#george-a-user-who-works-in-a-supermarket-and-has-down-syndrome)
+* 视频： [可理解的内容](/perspective-videos/understandable/)
+* 提示： [保持内容简洁明了](/tips/writing/#keep-content-clear-and-concise)
+* 提示： [确保交互元素易于识别](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* 提示： [提供清晰一致的导航选项](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* 提示： [为非标准交互元素提供意义](/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
+* 提示： [使用标题和间距对相关内容进行分组](/tips/designing/#use-headings-and-spacing-to-group-related-content)
+* 检查： [表单，标签和错误信息](/test-evaluate/preliminary/#forms)
+* 检查： [移动、闪烁或闪烁的内容](/test-evaluate/preliminary/#moving)
 
 ## 相关准则
 
-* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
-* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
-* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
-* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
+* [内容可通过不同方式呈现（可感知）](/fundamentals/accessibility-principles/#adaptable)
+* [用户有足够的时间阅读和使用内容（可操作）](/fundamentals/accessibility-principles/#time)
+* [用户可以轻松导航、查找内容并确定自己的位置（可操作）](/fundamentals/accessibility-principles/#navigable)
+* [内容可读易懂（可理解）](/fundamentals/accessibility-principles/#readable)
+* [内容以可预测的方式出现和运行（可理解）](/fundamentals/accessibility-principles/#predictable)
+* [帮助用户避免和纠正错误（可理解）](/fundamentals/accessibility-principles/#tolerant)
+* [内容与当前和未来的用户工具兼容（稳健性）](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
