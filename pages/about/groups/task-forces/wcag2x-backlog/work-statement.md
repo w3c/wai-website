@@ -29,7 +29,7 @@ This work statement is a draft yet to be approved. The task force is active.
 NOTE: This work is mentioned in the [Other Deliverables section of the current AG WG Charter.](https://www.w3.org/2019/12/ag-charter#ig-other-deliverables) The continuation of the work is also included in the [current AG WG Charter](https://www.w3.org/2023/11/ag-charter).
 
 * Ongoing updates of non-normative resources to understand and implement guidance, including the current [Understanding WCAG 2.x](https://www.w3.org/WAI/WCAG22/Understanding/) and [Techniques for WCAG 2.x](https://www.w3.org/WAI/WCAG22/Techniques/) as well as new resources to support implementation of the new standard.
-* Errata for WCAG 2.0 and 2.1.
+* Errata for WCAG 2.1 and 2.2.
 
 ## Objective
 
