@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Framework for Accessible Specification of Technologies (FAST) Task Force is to collect user and functional needs, and to create guidance for content developers using a framework that describes the features web technologies should provide to ensure it’s possible to create content that is accessible to users with disabilities.
+The objective of the Framework for Accessible Specification of Technologies (FAST) Task Force is to collect user and functional needs, and to create guidance for content developers using a framework that describes the features web technologies should provide to ensure it’s possible to create content that’s accessible to users with disabilities.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -46,7 +46,7 @@ The FAST Task Force welcomes input from the global accessibility community on th
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [FAST GitHub repository](https://github.com/w3c/fast/issues)
+You can contribute to the work without being a member of the task force in the [FAST GitHub repository](https://github.com/w3c/fast/issues):
 * If you’re aware of an issue with any of the published FAST resources, raise a new issue.
 * Comment on or propose solutions for open FAST issues.
 
@@ -60,7 +60,7 @@ Being a participant involves commitment to support the work of the task force in
 * Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
 * Give your input promptly, when it’s needed.
 
-To become a participant in the FAST Task Force, you must first be a member of the APA Working Group. See [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/)
+To become a participant in the FAST Task Force, you must first be a member of the APA Working Group. See [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
 
 Once you are a member of the APA Working Group, email the [W3C Staff Contact for the FAST Task Force](https://www.w3.org/groups/tf/fast/participants/#staff) to let them know you’d like to join the task force. 
 
@@ -75,15 +75,15 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/fast/calendar/)
 * [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/fast/minutes)
-* Mailing list archive](https://lists.w3.org/Archives/Public/public-fast/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-fast/)
 
 ## Publications
 
-The FAST Task Force develops and maintains the following resource for the APA Working Group:
+The FAST Task Force develops and maintains the following resources for the APA Working Group:
 
 * [Framework for Accessible Specification of Technologies (FAST) &mdash; 2024 Editor’s Draft](https://www.w3.org/TR/act-rules-format/)
 * [FAST Report Tool)](https://fast-rose.vercel.app/) &mdash; a checklist for reviewing technologies
 
 ## Contact the chairs
 
-If you have a question for the FAST Task Force, email the [chairs](https://www.w3.org/groups/tf/fast/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/fast/participants/#chairs).https://fast-rose.vercel.app/
+If you have a question for the FAST Task Force, email the [chairs](https://www.w3.org/groups/tf/fast/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/fast/participants/#chairs).
