@@ -36,7 +36,7 @@ The mission of the Accessibility Guidelines (AG) Working Group is to develop and
 
 ## Charter
 
-The AG Working Group is chartered until October 2025.
+The AG Working Group is chartered until 31 October 2025.
 
 To learn about the group’s focus, scope and deliverables, see the [AG Working Group Charter](https://www.w3.org/WAI/GL/charter).
 
@@ -64,7 +64,7 @@ W3C and the AG Working Group welcome input on WCAG work from the global accessib
 
 ### Contribute without joining the group
 
-There are many ways you can contribute without being a member of the working group:
+There are ways you can contribute without being a member of the working group:
 
 * **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
 * **Raise, comment on, or propose fixes to WCAG issues:** If you’re aware of an issue with any of the published WCAG 2.x resources, W3C welcomes you to [raise a new issue on GitHub](https://github.com/w3c/wcag/issues/) &mdash; you can also comment on and, even better, propose solutions for existing issues.

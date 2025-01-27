@@ -33,7 +33,7 @@ The mission of the Accessible Rich Internet Applications (ARIA) Working Group is
 
 ## Charter
 
-The ARIA Working Group is chartered until January 2027.
+The ARIA Working Group is chartered until 1 January 2027.
 
 To learn about the group’s focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
 
@@ -77,12 +77,11 @@ W3C and the ARIA Working Group welcome input on ARIA work from the global access
 
 ### Contribute without joining the group
 
-There are many ways you can contribute without being a member of the working group:
+There are ways you can contribute without being a member of the working group:
 
 * **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
 * **Raise, comment on, or propose fixes to ARIA issues:** If you’re aware of an issue with any of the published ARIA resources, W3C welcomes you to raise a new issue on GitHub, or you can also comment on and, even better, propose solutions for existing issues &mdash; see the list of [repositories maintained by the ARIA Working Group below](#github-repositories).
 * **Contribute to ARIA discussions:** You may contribute your views to the ARIA Working Group's [open ARIA discussions in GitHub](https://github.com/w3c/aria/discussions) and [mailing list discussions](https://lists.w3.org/Archives/Public/public-aria/).
-* **Participate in a community group:** W3C hosts a small number of active community groups that focus on digital accessibility issues &mdash; for details, search for ‘accessibility’ on [Current Groups &mdash; W3C Community and Business Groups](https://www.w3.org/community/groups).
 
 ### Become a participant in the group
 
