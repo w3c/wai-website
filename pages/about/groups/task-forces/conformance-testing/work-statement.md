@@ -22,6 +22,7 @@ ACT TF's objective is to evolve and maintain a repository of ACT Rules for [Web 
 
 The work of the Accessibility Conformance Testing (ACT) Task Force includes:
 
+*   **ACT Rules Format:** Update the [ACT Rules Format](https://www.w3.org/TR/act-rules-format/) to version 1.1
 *   **Repository of ACT Rules:** Review ACT Rules contributed to W3C, such as from [Accessibility Conformance Testing Rules Community Group (ACT-R CG)](https://act-rules.github.io/), and maintain a repository of rules approved by W3C Working Groups, including AG and ARIA
 *   **Implementations Monitoring:** Encourage and gather implementation reports from accessibility test tools and methodologies for ACT Rules published by AG WG
 *   **Specification Maintenance:** Maintain [Errata](https://www.w3.org/WAI/GL/task-forces/conformance-testing/errata) for [ACT Rules Format 1.0 specification](https://www.w3.org/TR/act-rules-format/), and gather feature requests for future versions of this specification
