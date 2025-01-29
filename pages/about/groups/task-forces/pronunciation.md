@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Spoken Presentation (SP) Task Force is to develop normative specifications and best practice guidance on providing proper pronunciation for HTML content so that words are pronounced correctly when using text-to-speech (TTS) synthesis.
+The objective of the Spoken Presentation (SP) Task Force is to develop normative specifications and best practice guidance on providing proper pronunciation for HTML content, so that words are pronounced correctly when using text-to-speech (TTS) synthesis.
 
 {::nomarkdown}
 {% include box.html type="end" %}

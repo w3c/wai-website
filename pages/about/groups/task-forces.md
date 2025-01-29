@@ -10,31 +10,31 @@ github:
 W3C’s task forces operate under specific working groups to support them with particular tasks for their deliverables.
 
 [Accessibility Conformance Testing Task Force](/about/groups/task-forces/conformance-testing/)
-: The objective of the Accessibility Conformance Testing (ACT) Task Force is to develop and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation among different web accessibility test tools and methodologies.<br />(Supports the [AG Working Group](/about/groups/agwg/))
+: The objective of the Accessibility Conformance Testing (ACT) Task Force is to develop and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation across different web accessibility test tools and methodologies.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
 [Authoring Practices Guide Task Force](/about/groups/task-forces/practices/)
-: The objective of the Authoring Practices Guide (APG) Task Force is to develop the WAI-ARIA Authoring Practices Guide which describes considerations that might not be evident to most authors from the WAI-ARIA specification alone, and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.<br />(Supports the [ARIA Working Group](/about/groups/ariawg/))
+: The objective of the Authoring Practices Guide (APG) Task Force is to develop the WAI-ARIA Authoring Practices Guide, which describes considerations that might not be evident to authors from the WAI-ARIA specification alone, and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.<br />(Supports the [ARIA Working Group](/about/groups/ariawg/))
 
 [Cognitive and Learning Disabilities Accessibility Task Force](/about/groups/task-forces/coga/)
 : The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.<br />(Supports the [AG Working Group](/about/groups/agwg/) and the [APA Working Group](/about/groups/apawg/))
 
 [Framework for Accessible Specification of Technologies Task Force](/about/groups/task-forces/fast/)
-: The objective of the Framework for Accessible Specification of Technologies (FAST) Task Force is to collect user and functional needs, and to create guidance for content developers using a framework that describes the features web technologies should provide to ensure it’s possible to create content that’s accessible to users with disabilities.<br />(Supports the [APA Working Group](/about/groups/agwg/))
+: The objectives of the Framework for Accessible Specification of Technologies (FAST) Task Force are to develop a framework that describes the features that web technologies should provide to ensure accessible content can be created; to identify user and functional needs; and to create guidance for content developers.<br />(Supports the [APA Working Group](/about/groups/agwg/))
 
 [Low Vision Accessibility Task Force](/about/groups/task-forces/low-vision-a11y-tf/)
-: The objective of the Low Vision Accessibility (LV) Task Force is to address web accessibility issues specific to people with low vision through inputting into WCAG 2 techniques and understanding documents, and into WCAG 3, as well as developing additional low vision guidance resources.<br />(Supports the [AG Working Group](/about/groups/agwg/))
+: The objective of the Low Vision Accessibility (LV) Task Force is to address web accessibility issues that are specific to people with low vision through inputting into WCAG 2 techniques and understanding documents; inputting into WCAG 3; and developing additional low-vision guidance resources.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
 [Maturity Model Task Force](/about/groups/task-forces/maturity-model/)
-: The objective of the Maturity Model (MM) Task Force is to help organizations build capacity to develop and maintain accessible products and services by crafting an Accessibility Maturity Model (AMM) with an assessment tool that incorporates W3C standards, such as the Web Content Accessibility Guidelines (WCAG), and other related guidance, such as Accessible Rich Internet Applications (ARIA).<br />(Supports the [APA Working Group](/about/groups/apawg/))
+: The objective of the Maturity Model (MM) Task Force is to help organizations build capacity to develop and maintain accessible products and services by crafting an Accessibility Maturity Model (AMM) with an accompanying assessment tool that incorporates W3C standards, such as the Web Content Accessibility Guidelines (WCAG), and another related guidance, such as Accessible Rich Internet Applications (ARIA).<br />(Supports the [APA Working Group](/about/groups/apawg/))
 
 [Mobile Accessibility Task Force](/about/groups/task-forces/matf/)
-: The objectives of the Mobile Accessibility (Mobile A11y) Task Force are to produce resources for applying the Web Content Accessibility Guidelines (WCAG) to Android and iOS applications, and to ensure that mobile is considered in new accessibility guidelines.<br />(Supports the [AG Working Group](/about/groups/agwg/))
+: The objectives of the Mobile Accessibility (Mobile A11y) Task Force are to produce resources for how to apply the Web Content Accessibility Guidelines (WCAG) to mobile — including, but not limited to, native mobile apps; mobile web apps; mobile web content; and hybrid apps that use web components inside native mobile apps — and to make sure mobile apps are considered in new accessibility guidelines.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
 [Research Question Task Force](/about/groups/task-forces/research-questions/)
-: The objective of the Research Questions (RQ) Task Force is to identify accessibility barriers and knowledge gaps in emerging and future web technologies, as well as research opportunities to inform those barriers and fill those gaps, where possible.<br />(Supports the [APA Working Group](/about/groups/apawg/))
+: The objectives of the Research Questions (RQ) Task Force are to identify accessibility barriers and knowledge gaps in emerging and future web technologies; and to research opportunities to inform those barriers and fill those gaps, where possible.<br />(Supports the [APA Working Group](/about/groups/apawg/))
 
 [Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/)
-: The objective of the Spoken Presentation (SP) Task Force is to develop normative specifications and best practice guidance on providing proper pronunciation for HTML content so that words are pronounced correctly when using text-to-speech (TTS) synthesis.<br />(Supports the [APA Working Group](/about/groups/apawg/))
+: The objective of the Spoken Presentation (SP) Task Force is to develop normative specifications and best practice guidance on providing proper pronunciation for HTML content, so that words are pronounced correctly when using text-to-speech (TTS) synthesis.<br />(Supports the [APA Working Group](/about/groups/apawg/))
 
 [WAI-Adapt Task Force](/about/groups/task-forces/adapt/)
 : The objective of the WAI-Adapt Task Force is to refine the WAI-Adapt specification which supports authors to increase web accessibility for people with cognitive and learning disabilities by adding semantic information that enables users to personalize how content is presented in order to meet their needs and preferences.<br />(Supports the [APA Working Group](/about/groups/apawg/))

@@ -11,10 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Authoring Practices Guide (APG) Task Force is to develop the [WAI-ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) which:
-
-* describes considerations that might not be evident to most authors from the WAI-ARIA specification alone, and
-* recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
+The objective of the Authoring Practices Guide (APG) Task Force is to develop the WAI-ARIA Authoring Practices Guide, which describes considerations that might not be evident to authors from the WAI-ARIA specification alone, and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
 
 {::nomarkdown}
 {% include box.html type="end" %}

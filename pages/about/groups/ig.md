@@ -12,12 +12,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Web Accessibility Initiative (WAI) Interest Group is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work, including:
-
-* reviewing accessibility aspects of new specifications
-* identifying accessibility research topics
-* exploring accessibility issues and solutions
-* developing accessibility educational materials
+The WAI Interest Group is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work.
 
 {::nomarkdown}
 {% include box.html type="end" %}

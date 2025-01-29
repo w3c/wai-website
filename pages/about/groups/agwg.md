@@ -12,10 +12,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the Accessibility Guidelines (AG) Working Group is to develop and maintain:
-
-* specifications for making web content accessible to people with disabilities, and 
-* support materials for implementing the Web Content Accessibility Guidelines (WCAG).
+The mission of the Accessibility Guidelines (AG) Working Group is to develop and maintain specifications for making web content accessible to people with disabilities, along with support materials for implementing the Web Content Accessibility Guidelines (WCAG).
 
 {::nomarkdown}
 {% include box.html type="end" %}
