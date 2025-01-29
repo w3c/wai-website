@@ -88,7 +88,8 @@ See [Instructions for joining the Accessible Platform Architectures Working Grou
 ## GitHub repositories
 The APA Working Group maintains the following GitHub repositories:
 
-* [Accessibile Platform Architectures](https://github.com/w3c/apa/)
+* [Accessible Platform Architectures](https://github.com/w3c/apa/)
+* [Accessible Platform Architectures Review](https://github.com/w3c/apa-review/issues/)
 * [Accessibility Maturity Model](https://github.com/w3c/maturity-model/)
 * [Accessibility Request](https://github.com/w3c/a11y-request/)
 * [Accessibility Review](https://github.com/w3c/a11y-review/)
