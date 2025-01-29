@@ -40,7 +40,7 @@ W3C’s task forces operate under specific working groups to support them with p
 : The objective of the WAI-Adapt Task Force is to refine the WAI-Adapt specification which supports authors to increase web accessibility for people with cognitive and learning disabilities by adding semantic information that enables users to personalize how content is presented in order to meet their needs and preferences.<br />(Supports the [APA Working Group](/about/groups/apawg/))
 
 [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/)
-: The objectives of the WCAG 2.x Backlog Task Force are to maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG), and to document considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification.<br />(Supports the [AG Working Group](/about/groups/agwg/))
+: The objectives of the WCAG 2.x Backlog Task Force are to maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG); and to document considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
 [WCAG2ICT Task Force](/about/groups/task-forces/wcag2ict/)
 : The objective of the WCAG2ICT Task Force is to develop documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).<br />(Supports the [AG Working Group](/about/groups/agwg/))
