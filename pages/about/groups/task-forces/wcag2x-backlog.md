@@ -13,8 +13,8 @@ github:
 
 The WCAG 2.x Backlog Task Force has two objectives:
 
-* maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG)
-* document considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification
+* Maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG)
+* Document considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification
 
 {::nomarkdown}
 {% include box.html type="end" %}

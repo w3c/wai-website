@@ -11,7 +11,11 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Low Vision Accessibility (LV) Task Force is to address web accessibility issues specific to people with low vision through inputting into WCAG 2 techniques and understanding documents, and into WCAG 3, as well as developing additional low vision guidance resources.
+The objective of the Low Vision Accessibility (LV) Task Force is to address web accessibility issues that are specific to people with low vision through:
+
+* inputting into WCAG 2 techniques and understanding documents
+* inputting into WCAG 3, and 
+* developing additional low vision guidance resources.
 
 {::nomarkdown}
 {% include box.html type="end" %}

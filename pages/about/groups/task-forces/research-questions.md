@@ -41,7 +41,7 @@ To learn about the focus, scope and deliverables of the task force, see the [RQ 
 
 The RQ Task Force supports the deliverables of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
 
-For details of the current work, see the [RQ Task Force wiki](https://www.w3.org/WAI/APA/task-forces/research-questions/wiki/Main_Page). (Very out of date. Is there another document in GitHub we should link to instead?)
+For details of the current work, see the [RQ Task Force wiki](https://www.w3.org/WAI/APA/task-forces/research-questions/wiki/Main_Page).
 
 ## Contribute to the work
 

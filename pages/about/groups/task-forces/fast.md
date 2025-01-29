@@ -11,7 +11,11 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Framework for Accessible Specification of Technologies (FAST) Task Force is to collect user and functional needs, and to create guidance for content developers using a framework that describes the features web technologies should provide to ensure it’s possible to create content that’s accessible to users with disabilities.
+The objective of the Framework for Accessible Specification of Technologies (FAST) Task Force has three objectives:
+
+* Develop a framework that describes the features web technologies should provide to ensure it’s possible to create accessible content
+* Collect user and functional needs
+* Create guidance for content developers
 
 {::nomarkdown}
 {% include box.html type="end" %}
