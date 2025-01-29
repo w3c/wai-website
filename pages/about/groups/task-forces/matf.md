@@ -12,8 +12,13 @@ github:
 {:/}
 
 The Mobile Accessibility (Mobile A11y) Task Force has two objectives:
-* produce resources for applying the Web Content Accessibility Guidelines (WCAG) to Android and iOS applications
-* ensure that mobile is considered in new accessibility guidelines
+
+* Produce resources for applying the Web Content Accessibility Guidelines (WCAG) to Mobile, including but not limited to:
+  * native mobile apps
+  * mobile web apps
+  * mobile web content, and 
+  * hybrid apps using web components inside native mobile apps
+* Make sure mobile apps are considered in new accessibility guidelines
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -34,13 +39,13 @@ The Mobile Accessibility (Mobile A11y) Task Force has two objectives:
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [Mobile Accessibility Task Force Work Statement](/about/groups/task-forces/matf/work-statement/).
+The Mobile A11y Task Force has regrouped in 2024 and a new Work Statement will be published soon.
 
 ## Current work
 
 The Mobile A11y Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
-For details of the current work, see the [Mobile A11y Task Force wiki](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Main_Page).
+For details of the current work, see the [Mobile A11y Task Force GitHub repository](https://github.com/w3c/matf/issues).
 
 ## Contribute to the work
 
@@ -83,7 +88,11 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Publications
 
-The Mobile A11y Task Force develops and maintains the [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile (2018 Editor's Draft)](http://w3c.github.io/Mobile-A11y-TF-Note/) for the AG Working Group.
+The Mobile A11y Task Force develops and maintains the following resources for the AG Working Group;
+
+* [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile &mdash; 2015 First Public Working Draft](https://www.w3.org/TR/mobile-accessibility-mapping/)
+* [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile &mdash; 2018 Editor's Draft](http://w3c.github.io/Mobile-A11y-TF-Note/)
+* [Guidance on Applying WCAG 2.2 to Mobile (WCAG2Mobile) &mdash; 2024 Editor's Draft](https://w3c.github.io/matf/)
 
 ## Contact the chair
 
