@@ -63,7 +63,7 @@ Being a participant involves commitment to support the work of the task force in
 
 To become a participant in the PDF-AAM Task Force, you must first be a member of the ARIA Working Group. See [Instructions for joining the Accessible Rich Internet Applications Working Group](https://www.w3.org/groups/wg/aria/instructions/).
 
-Once you are a member of the ARIA Working Group, email the [W3C Staff Contact for the PDF-AAM Task Force](https://www.w3.org/groups/tf/pdf'aam/participants/#staff) to let them know you’d like to join the task force.
+Once you are a member of the ARIA Working Group, email the [W3C Staff Contact for the PDF-AAM Task Force](https://www.w3.org/groups/tf/pdf-aam/participants/#staff) to let them know you’d like to join the task force.
 
 **Note:** As a participant in one of the ARIA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
