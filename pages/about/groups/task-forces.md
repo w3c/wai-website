@@ -30,6 +30,9 @@ W3C’s task forces operate under specific working groups to support them with p
 [Mobile Accessibility Task Force](/about/groups/task-forces/matf/)
 : The objectives of the Mobile Accessibility (Mobile A11y) Task Force are to produce resources for how to apply the Web Content Accessibility Guidelines (WCAG) to mobile — including, but not limited to, native mobile apps; mobile web apps; mobile web content; and hybrid apps that use web components inside native mobile apps — and to make sure mobile apps are considered in new accessibility guidelines.<br />(Supports the [AG Working Group](/about/groups/agwg/))
 
+[Portable Document Format Accessibility APIs Mapping Task Force](/about/groups/task-forces/pdf-aam/)
+: The objective of the Portable Document Format Accessibility Application Programming Interfaces Mapping (PDF-AAM) Task Force is to specify how user agents should map accessibility semantics within the Portable Document Format specification.<br />(Supports the [ARIA Working Group](/about/groups/ariawg/))
+
 [Research Question Task Force](/about/groups/task-forces/research-questions/)
 : The objectives of the Research Questions (RQ) Task Force are to identify accessibility barriers and knowledge gaps in emerging and future web technologies; and to research opportunities to inform those barriers and fill those gaps, where possible.<br />(Supports the [APA Working Group](/about/groups/apawg/))
 
