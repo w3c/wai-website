@@ -2,7 +2,7 @@
 title: "What We're Working On"
 title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, January 2025</span>"
 lang: en
-last_updated: 2025-01-21
+last_updated: 2025-02-25
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
 
@@ -54,7 +54,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 * **W3C Accessibility Guidelines (WCAG) 3** is in an exploratory phase, and will change substantially. It's years away from being finalized. Please see information on the latest draft and [review questions](/standards-guidelines/wcag/wcag3-intro/#for-your-review) in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
 
-* **ARIA 1.3** &mdash; We're working on additional support for Braille and other [new features for ARIA 1.3](https://w3c.github.io/aria/#substantive-changes-targeted-for-the-1-3-release).  _[ARIA WG]_
+* **ARIA 1.3** &mdash; We're working on additional support for Braille and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog), including better support for accessible notifications.  _[ARIA WG]_
 
 ### Developing New Standards
 
@@ -73,7 +73,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 ### Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility
 
-* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). In October 2024 we published an update that includes all WCAG 2.2 Level A and AA success criteria. We are now working on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
+* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). In October 2024 we published an update that includes all WCAG 2.2 Level A and AA success criteria. We are now analyzing known challenges when applying success criteria to non-Web documents and software to inform AG WG about potential improvements to WCAG 2, as well as exploring work on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
 
 * **EPUB Fixed Layout Accessibility** aims to help publishers address challenges for people with cognitive disabilities and low vision. [EPUB Fixed Layout Accessibility Editor's Draft](https://w3c.github.io/epub-specs/epub33/fxl-a11y/) _[EPUB3 WG, FXL A11y TF]_
 
@@ -90,7 +90,7 @@ Documenting the user needs of people with disabilities helps develop standards t
 ### Testing Accessibility, Evaluation Tools
 
 * **Easy Checks – A First Review of Web Accessibility** helps you start to assess the accessibility of a web page. We are polishing up a new iteration of this popular resource. [Easy Checks - previous version](/test-evaluate/preliminary/), [draft new version of Easy Checks](/test-evaluate/easy-checks/)
-* **ACT Rules** (Accessibility Conformance Testing (ACT), also known as "WCAG 2 Test Rules") describe ways to test conformance to WCAG success criteria. They are primarily for developers of evaluation tools and test methodologies. We're documenting more. [[About WCAG 2 Test Rules]](/standards-guidelines/act/rules/about/) _[AG WG, ACT TF]_
+* **ACT Rules** (Accessibility Conformance Testing (ACT), also known as "WCAG 2 Test Rules") describe ways to test conformance to WCAG success criteria. They are primarily for developers of evaluation tools and test methodologies. We're updating the rules to comply with the proposed changes in the ACT Rules Format 1.1. [[About WCAG 2 Test Rules]](/standards-guidelines/act/rules/about/) _[AG WG, ACT TF]_
 * ACT Rules implementation reports list how test tools or methodologies address test examples in ACT Rules. We invite evaluation tool developers to [submit implementation reports](https://act-rules.github.io/pages/implementations/reporting/). _[AG WG, ACT TF]_
 
 ### Translating Resources
