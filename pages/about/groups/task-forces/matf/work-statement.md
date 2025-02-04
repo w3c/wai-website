@@ -1,5 +1,5 @@
 ---
-title: "Mobile Accessibility Task Force Work Statement"
+title: Mobile Accessibility Task Force Work Statement
 permalink: /about/groups/task-forces/matf/work-statement/
 ref: /about/groups/task-forces/matf/work-statement/
 lang: en

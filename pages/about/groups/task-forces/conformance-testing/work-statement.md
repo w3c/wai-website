@@ -1,5 +1,5 @@
 ---
-title: Accessibility Conformance Testing (ACT) Work Statement
+title: Accessibility Conformance Testing Task Force Work Statement
 permalink: /about/groups/task-forces/conformance-testing/work-statement/
 ref: /about/groups/task-forces/conformance-testing/work-statement/
 lang: en
@@ -7,7 +7,7 @@ github:
   label: wai-groups
 ---
 
-The [Accessibility Conformance Testing Task Force (ACT TF)](/about/groups/task-forces/conformance-testing/) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists this Working Group with the work identified below.
+The [Accessibility Conformance Testing (ACT) Task Force](/about/groups/task-forces/conformance-testing/) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists this Working Group with the work identified below.
 
 ## Status
 

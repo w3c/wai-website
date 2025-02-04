@@ -1,5 +1,5 @@
 ---
-title: Research Questions Task Force (RQTF) Work Statement
+title: Research Questions Task Force Work Statement
 permalink: /about/groups/task-forces/research-questions/work-statement/
 ref: /about/groups/task-forces/research-questions/work-statement/
 lang: en
@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Research Questions Task Force is a task force of the [Accessible Platform Architectures Working Group (APA Working Group)](/about/groups/apawg/). It assists this Working Group with the work identified below.
+The Research Questions (RQ) Task Force is a task force of the [Accessible Platform Architectures Working Group (APA Working Group)](/about/groups/apawg/). It assists this Working Group with the work identified below.
 
 {::nomarkdown}
 {% include box.html type="end" %}
