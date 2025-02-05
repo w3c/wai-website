@@ -28,7 +28,7 @@ This work statement was approved by the AG Chairs WG on 24 January 2024. The tas
 
 The work statement describes the WCAG2ICT Phase 1 objectives that have been completed and the updated Phase 2 objectives for the WCAG2ICT Note.
 
-NOTE: This work is mentioned in the [Other Deliverables section of the current AG WG Charter.](https://www.w3.org/2019/12/ag-charter#ig-other-deliverables) The continuation of the work is also included in the [current AG WG Charter](https://www.w3.org/2023/11/ag-charter). The WCAG2ICT Task Force plans that future AG WG charters include further maintenance of this important guidance.
+NOTE: This work is mentioned in the [Other Deliverables section of the current AG WG Charter.](https://www.w3.org/2023/11/ag-charter#ig-other-deliverables) The continuation of the work is also included in the [current AG WG Charter](https://www.w3.org/2023/11/ag-charter). The WCAG2ICT Task Force plans that future AG WG charters include further maintenance of this important guidance.
 
 ## Objective
 
