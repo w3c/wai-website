@@ -69,7 +69,7 @@ Explicitly out of scope for the WCAG2ICT Task Force work are:
 
 WCAG2ICT is a Task Force of the AG WG, which has oversight over the Task Force to ensure accurate interpretation and representation of WCAG 2.x. The AG WG decision process applies within the group. Draft content is periodically taken to the AG WG for review as it progresses.
 
-The primary effort of this Task Force is to describe how to interpret WCAG 2.x and its principles, guidelines, success criteria and conformance requirements when applying them to non-web ICT; and evaluating what WCAG Conformance means in the context of non-Web ICT. The resulting Working Group Note will include a discussion of the application of each of the criteria in WCAG 2.x to non-Web ICT, including their interface components and platforms, and the extent to which [WCAG Conformance](http://www.w3.org/TR/WCAG20/#conformance) is meaningful to non-Web ICT.
+The primary effort of this Task Force is to describe how to interpret WCAG 2.x and its principles, guidelines, success criteria and conformance requirements when applying them to non-web ICT; and evaluating what WCAG Conformance means in the context of non-Web ICT. The resulting Working Group Note will include a discussion of the application of each of the criteria in WCAG 2.x to non-Web ICT, including their interface components and platforms, and the extent to which [WCAG Conformance](http://www.w3.org/TR/WCAG22/#conformance) is meaningful to non-Web ICT.
 
 To efficiently develop the Working Group Note, work is sometimes broken down into sub-groups, under the coordination of the Task Force facilitators following established AG WG procedures for sub-groups.
 
