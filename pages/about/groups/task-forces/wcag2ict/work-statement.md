@@ -49,7 +49,7 @@ The work of the task force includes:
     *   how each of the new WCAG 2.x A and AA success criteria could apply to non-Web ICT (completed in Phase 1)
     *   how each of the new WCAG 2.x guidelines could apply to non-Web ICT (completed in Phase 1)
     *   clarification of challenges of applying particular WCAG 2.x success criteria to non-web ICT, including closed product software (completed in Phase 1)
-    *   address challenges in [Open issues labeled WCAG2ICT](https://github.com/w3c/wcag2ict/issues?q=is%3Aissue+is%3Aopen+label%3Awcag2ict) (completed in Phase 1)
+    *   address challenges in issues. [See closed issues addressed in Phase 1](https://github.com/w3c/wcag2ict/issues/?q=is%3Aissue%20state%3Aclosed) (completed in Phase 1)
     *   provide a concise, high-level overview or introduction to WCAG2ICT, explaining its purpose and how to use it
     *   where known, give examples of some Success Criteria which may not be applicable to a particular non-web technology
     *   as needed, suggested changes to success criteria normative language to more clearly align with non-web software and document technologies
