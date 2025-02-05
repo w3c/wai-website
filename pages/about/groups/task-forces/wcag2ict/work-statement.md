@@ -117,7 +117,7 @@ Details of the Phase 2 timeline are found outside of this document in the GitHub
 
 ## Liaisons
 
-While there are no direct dependencies at the Task Force level (please see [deliverables section of the AG WG Charter](https://www.w3.org/2019/12/ag-charter#deliverables) for more information), the following are participating liaisons, which may change and/or be expanded over time:
+While there are no direct dependencies at the Task Force level (please see [deliverables section of the AG WG Charter](https://www.w3.org/2023/11/ag-charter#deliverables) for more information), the following are participating liaisons, which may change and/or be expanded over time:
 
 * Liaisons from worldwide accessibility consulting and advocacy groups
 * Liaisons from worldwide standards organizations (ISO, ETSI, CEN and CENELEC, etc.)
