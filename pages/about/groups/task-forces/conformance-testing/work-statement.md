@@ -11,7 +11,7 @@ The [Accessibility Conformance Testing (ACT) Task Force](/about/groups/task-forc
 
 ## Status
 
-This Work Statement was proposed to AG WG on xx xx 2024 and will be active if approved. The prior [2020 work statement](/about/groups/task-forces/conformance-testing/work-statement-2020/) is available. The [Task Force home page](/about/groups/task-forces/conformance-testing/) contains information about the operation and resources of this group.
+This Work Statement was approved by the AG Chairs on 31 January 2025 and is now active. The prior [2020 work statement](/about/groups/task-forces/conformance-testing/work-statement-2020/) is available. The [Task Force home page](/about/groups/task-forces/conformance-testing/) contains information about the operation and resources of this group.
 
 Objective
 ---------
