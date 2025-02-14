@@ -13,7 +13,7 @@ redirect_from:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the WAI-Adapt Task Force is to refine the WAI-Adapt specification, which supports authors to increase web accessibility for people with cognitive and learning disabilities, by adding semantic information that enables users to personalize how content is presented in order to meet their needs and preferences.
+The objective of the WAI-Adapt Task Force is to develop normative specifications and best practices guidance to support enhanced and personalized web content delivery that better meets the diverse requirements of people with disabilities — it does this by making fuller use of underused features already specified in HTML, and by proposing new markup elements and attributes, as needed.
 
 {::nomarkdown}
 {% include box.html type="end" %}
