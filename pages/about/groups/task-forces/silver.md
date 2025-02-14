@@ -5,6 +5,7 @@ ref: /about/groups/task-forces/silver/
 lang: en
 github:
   label: wai-groups
+doc-note-type: archived
 ---
 
 {::nomarkdown}

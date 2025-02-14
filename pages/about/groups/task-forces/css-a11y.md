@@ -5,6 +5,7 @@ ref: /about/groups/task-forces/css-a11y/
 lang: en
 github:
   label: wai-groups
+doc-note-type: archived
 ---
 
 {::options toc_levels="2..3" /}
