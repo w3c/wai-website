@@ -24,3 +24,7 @@ The Web Accessibility Initiative (WAI)’s working groups develop digital access
 
 [WAI Interest Group](/about/groups/waiig/)
 : The WAI Interest Group is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work.
+
+[Previous groups](/about/groups/previous-groups/)
+: See details for working groups and task forces that have now closed.
+
