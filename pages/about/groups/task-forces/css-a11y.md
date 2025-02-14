@@ -6,6 +6,8 @@ lang: en
 github:
   label: wai-groups
 doc-note-type: archived
+doc-note-message-md: |
+    The CSS Accessibility Task Force has closed.
 ---
 
 {::options toc_levels="2..3" /}

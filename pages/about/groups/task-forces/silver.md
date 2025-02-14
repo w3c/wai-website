@@ -6,6 +6,8 @@ lang: en
 github:
   label: wai-groups
 doc-note-type: archived
+doc-note-message-md: |
+    The Silver Task Force has closed.
 ---
 
 {::nomarkdown}
