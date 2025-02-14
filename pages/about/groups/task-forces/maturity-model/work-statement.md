@@ -1,5 +1,5 @@
 ---
-title: DRAFT Maturity Model Task Force (MMTF) Work Statement
+title: DRAFT Maturity Model Task Force Work Statement
 permalink: /about/groups/task-forces/maturity-model/work-statement/
 ref: /about/groups/task-forces/maturity-model/work-statement/
 lang: en

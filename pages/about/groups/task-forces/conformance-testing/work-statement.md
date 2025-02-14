@@ -1,17 +1,17 @@
 ---
-title: Accessibility Conformance Testing (ACT) Work Statement (2024)
-permalink: /about/groups/task-forces/conformance-testing/work-statement-2024/
-ref: /about/groups/task-forces/conformance-testing/work-statement-2024/
+title: Accessibility Conformance Testing Task Force Work Statement
+permalink: /about/groups/task-forces/conformance-testing/work-statement/
+ref: /about/groups/task-forces/conformance-testing/work-statement/
 lang: en
 github:
   label: wai-groups
 ---
 
-The [Accessibility Conformance Testing Task Force (ACT TF)](/about/groups/task-forces/conformance-testing/) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists this Working Group with the work identified below.
+The [Accessibility Conformance Testing (ACT) Task Force](/about/groups/task-forces/conformance-testing/) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists this Working Group with the work identified below.
 
 ## Status
 
-This Work Statement was proposed to AG WG on xx xx 2024 and will be active if approved. The prior [2020 work statement](/about/groups/task-forces/conformance-testing/work-statement-2020work-statement-2020) is available. The [Task Force home page](/about/groups/task-forces/conformance-testing/) contains information about the operation and resources of this group.
+This Work Statement was approved by the AG Chairs on 31 January 2025 and is now active. The prior [2020 work statement](/about/groups/task-forces/conformance-testing/work-statement-2020/) is available. The [Task Force home page](/about/groups/task-forces/conformance-testing/) contains information about the operation and resources of this group.
 
 Objective
 ---------
@@ -22,6 +22,7 @@ ACT TF's objective is to evolve and maintain a repository of ACT Rules for [Web 
 
 The work of the Accessibility Conformance Testing (ACT) Task Force includes:
 
+*   **ACT Rules Format:** Update the [ACT Rules Format](https://www.w3.org/TR/act-rules-format/) to version 1.1
 *   **Repository of ACT Rules:** Review ACT Rules contributed to W3C, such as from [Accessibility Conformance Testing Rules Community Group (ACT-R CG)](https://act-rules.github.io/), and maintain a repository of rules approved by W3C Working Groups, including AG and ARIA
 *   **Implementations Monitoring:** Encourage and gather implementation reports from accessibility test tools and methodologies for ACT Rules published by AG WG
 *   **Specification Maintenance:** Maintain [Errata](https://www.w3.org/WAI/GL/task-forces/conformance-testing/errata) for [ACT Rules Format 1.0 specification](https://www.w3.org/TR/act-rules-format/), and gather feature requests for future versions of this specification

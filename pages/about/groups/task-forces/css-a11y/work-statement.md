@@ -32,7 +32,7 @@ The CSS Accessibility Task Force (CSS A11Y TF) is a Task Force of the [Accessibl
 
 ## Status
 
-This work statement work statement has been approved by the sponsoring Working Groups. The task force is now active.
+This work statement has been approved by the sponsoring Working Groups. The task force is now active.
 
 ## Objective
 

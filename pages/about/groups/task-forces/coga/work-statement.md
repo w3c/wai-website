@@ -1,5 +1,5 @@
 ---
-title: Cognitive and Learning Disabilities Accessibility Task Force (Coga TF) Work Statement
+title: Cognitive and Learning Disabilities Accessibility Task Force Work Statement
 permalink: /about/groups/task-forces/coga/work-statement/
 ref: /about/groups/task-forces/coga/work-statement/
 lang: en
