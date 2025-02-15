@@ -46,7 +46,7 @@ The WAI Interest Group is open to the public with no minimum requirements for pa
 The group provides frequent opportunities for you to give input on digital accessibility work at W3C:
 
 * **Comment on WAI publications:** During development, the group publishes working drafts of [WAI working groups](/about/groups/)’ deliverables, with options for public comment &mdash; these are announced on the WAI Interest Group mailing lists.
-* **Contribute to digital accessibility discussions:** You may contribute your views to the WAI Interest Group’s mailing list discussions.
+* **Contribute to digital accessibility discussions:** Contribute your views to the WAI Interest Group’s mailing list discussions.
 
 ## WAI Interest Group mailing lists {#mailinglist}
 

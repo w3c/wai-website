@@ -32,7 +32,7 @@ The objective of the Spoken Presentation (previously known as Pronunciation) Tas
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [SP Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [Spoken Presentation Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/).
 
 ## Overview of the spoken presentation work
 
@@ -41,16 +41,16 @@ To learn about the focus, scope and deliverables of the task force, see the [SP 
 
 ## Current work
 
-The SP Task Force supports the deliverables of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
+The Spoken Presentation Task Force supports the deliverables of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
 
 For details of the current work, see:
 
-* [SP Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
-* [SP Task Force current work]((https://github.com/w3c/pronunciation/blob/master/README.md))
+* [Spoken Presentation Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
+* [Spoken Presentation Task Force current work]((https://github.com/w3c/pronunciation/blob/master/README.md))
 
 ## Contribute to the work
 
-The SP Task Force welcomes input from the global accessibility community on the pronunciation work.
+The Spoken Presentation Task Force welcomes input from the global accessibility community on the pronunciation work.
 
 ### Contribute without joining the task force
 
@@ -60,7 +60,7 @@ You can contribute to the work without being a member of the task force in the [
 
 ### Become a participant in the task force
 
-Joining the SP Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
+Joining the Spoken Presentation Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
 Being a participant involves commitment to support the work of the task force in the following ways:
 
@@ -68,7 +68,7 @@ Being a participant involves commitment to support the work of the task force in
 * Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
 * Give your input promptly, when it’s needed.
 
-To become a participant in the SP Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
+To become a participant in the Spoken Presentation Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
 
 Once you are a member of the APA Working Group, email the [W3C staff contact for the Spoken Presentation Task Force](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff) to let them know you’d like to join the task force.
 
@@ -87,7 +87,7 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 
 ## Publications
 
-The SP Task Force develops and maintains the following resources for the APA Working Group:
+The Spoken Presentation Task Force develops and maintains the following resources for the APA Working Group:
 
 * [Pronunciation User Scenarios &mdash; 2019 Public Working Draft](https://www.w3.org/TR/pronunciation-user-scenarios/) &mdash; provides examples of:
     - end-users, including screen reader users
@@ -106,4 +106,4 @@ The SP Task Force develops and maintains the following resources for the APA Wor
 
 ## Contact the chairs
 
-If you have a question for the SP Task Force, email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).
+If you have a question for the Spoken Presentation Task Force, email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).
