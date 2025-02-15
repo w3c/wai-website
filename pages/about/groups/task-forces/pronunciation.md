@@ -41,7 +41,7 @@ To learn about the focus, scope and deliverables of the task force, see the [Spo
 
 ## Current work
 
-The Spoken Presentation Task Force supports the deliverables of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
+The Spoken Presentation Task Force supports the deliverables of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/).
 
 For details of the current work, see:
 

@@ -43,7 +43,7 @@ To learn about the focus, scope and deliverables of the task force, see the [WAI
 
 ## Current work
 
-The WAI-Adapt Task Force supports the deliverables of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
+The WAI-Adapt Task Force supports the deliverables of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/).
 
 For details of the current work, see the [WAI-Adapt Task Force wiki](https://github.com/w3c/adapt/wiki).
 
