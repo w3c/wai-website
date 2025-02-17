@@ -5,7 +5,7 @@
 title: "Accessibility Fundamentals Overview"
 nav_title: "Overview"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2023-08-08
+last_updated: 2023-08-30  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name

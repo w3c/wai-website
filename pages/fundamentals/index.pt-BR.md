@@ -2,10 +2,10 @@
 title: Visão geral dos fundamentos de acessibilidade
 nav_title: Visão geral
 lang: pt-BR
-last_updated: 2023-08-08
+last_updated: 2023-08-30  # Keep the date of the English version
 
 translation:
-  last_updated: 2024-12-23
+  last_updated: 2024-12-23  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: Adiel Cristo
