@@ -7,6 +7,9 @@ title_html: Uma árvore de decisão do atributo <code>alt</code>
 lang: pt-BR
 last_updated: 2024-05-13  # Keep the date of the English version
 
+translation:
+  last_updated: 2024-11-06  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+
 translators:
   - name: Adiel Cristo
 
