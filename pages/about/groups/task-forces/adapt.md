@@ -39,7 +39,7 @@ To learn about the focus, scope and deliverables of the task force, see the [WAI
 ## Overview of the WAI-Adapt work
 
 * [WAI-Adapt Overview](https://www.w3.org/WAI/adapt/) &mdash; an overview of W3C’s WAI-Adapt technique
-* [WAI-Adapt video](https://ln.sync.com/dl/04f8c9330/) &mdash; a technical demonstration of a semantic overlay approach that enables user-driven personalization, employing user-preferred symbols for text that has had WAI-Adapt semantics added to it
+* [WAI-Adapt video {% include_cached external.html %}](https://ln.sync.com/dl/04f8c9330/) &mdash; a technical demonstration of a semantic overlay approach that enables user-driven personalization, employing user-preferred symbols for text that has had WAI-Adapt semantics added to it
 
 ## Current work
 

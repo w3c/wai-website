@@ -37,7 +37,7 @@ To learn about the focus, scope and deliverables of the task force, see the [Spo
 ## Overview of the spoken presentation work
 
 * [Pronunciation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s pronunciation technique
-* [Pronunciation video](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
+* [Pronunciation video {% include_cached external.html %}](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
 
 ## Current work
 
@@ -46,7 +46,7 @@ The Spoken Presentation Task Force supports the deliverables of the [Accessible 
 For details of the current work, see:
 
 * [Spoken Presentation Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
-* [Spoken Presentation Task Force current work]((https://github.com/w3c/pronunciation/blob/master/README.md))
+* [Spoken Presentation Task Force current work](https://github.com/w3c/pronunciation/blob/master/README.md)
 
 ## Contribute to the work
 

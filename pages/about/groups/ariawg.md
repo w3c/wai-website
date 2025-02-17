@@ -39,7 +39,7 @@ To learn about the group’s focus, scope and deliverables, see the [ARIA Workin
 
 ## Current work 
 
-For details of the current work, see the [ARIA Working Group README on GitHub](https://www.github.com/w3c/aria/).
+For details of the current work, see the [ARIA Working Group README on GitHub](https://www.github.com/w3c/aria/#readme).
 
 The ARIA Working Group follows a set process for developing ARIA guidelines and resolving ARIA issues &mdash; for details, see [ARIA Working Group Process Document](https://github.com/w3c/aria/blob/main/documentation/process.md).
 
