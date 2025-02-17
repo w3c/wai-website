@@ -64,7 +64,7 @@ support: 由教育和外联工作组开发 (<a href="https://www.w3.org/groups/w
       _使用空的`alt`属性。参阅 [装饰图像](/tutorials/images/decorative/)。_
     -   **…并且文字还有一个特殊功能，例如是一个图标**
       _并且使用`alt`属性能传达图像的功能。参阅 [功能性图片](/tutorials/images/functional/)。_
-    -   **…否则图像中的文字将不存在。** _使用`alt`属性包含图片文本。参阅 [文本图像](/tutorials/images/textual/#styled-text-decorative-effect)。_
+    -   **…并且文本并没有在其他地方有所呈现。** _使用`alt`属性包含图片文本。参阅 [文本图像](/tutorials/images/textual/#styled-text-decorative-effect)。_
   - {:.no} **否：**
     - 继续。
 - **图片是用于链接还是按钮，如果没有图片，是否很难或无法理解链接或按钮的作用？**
