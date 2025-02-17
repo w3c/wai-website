@@ -40,10 +40,10 @@ ACT TF will continue to gather implementation experience, including of the [ACT 
 The Accessibility Conformance Testing (ACT) Task Force depends on:
 
 *   [AG WG](/about/groups/agwg/) to ensure accurate interpretation and representation of WCAG requirements;
-*   [ARIA WG](/about/groups/aria/) to ensure accurate interpretation and representation of WAI-ARIA requirements;
+*   [ARIA WG](/about/groups/ariawg/) to ensure accurate interpretation and representation of WAI-ARIA requirements;
 *   [ACT Rules Community Group](https://act-rules.github.io/) to utilize this group's contribution on conformance testing.
 
-The Accessibility Conformance Testing (ACT) Task Force will also coordinate with relevant W3C groups and activities on testing and quality assurance. This may include groups such as [Browser Testing and Tools Working Group](https://www.w3.org/testing/browser/). The Task Force may also coordinate with the [Education and Outreach Working Group (EOWG)](/about/groups/eo/) where necessary to improve the writing, presentation, and educational value of the developed materials.
+The Accessibility Conformance Testing (ACT) Task Force will also coordinate with relevant W3C groups and activities on testing and quality assurance. This may include groups such as [Browser Testing and Tools Working Group](https://www.w3.org/groups/wg/browser-tools-testing/).
 
 ## Communication
 
@@ -68,7 +68,7 @@ Participants may also join Accessibility Conformance Testing Task Force sub-grou
 
 If you are interested in becoming a participant of the Accessibility Conformance Testing Task Force or have any questions regarding its work, contact the task force facilitators.
 
-[Current participants in the ACT TF](https://www.w3.org/groups/tf//wcag-act/participants).
+[Current participants in the ACT TF](https://www.w3.org/groups/tf/wcag-act/participants).
 
 ## Facilitation
 
@@ -77,7 +77,7 @@ Staff contacts from the AG Working Group oversee attention to W3C Process with r
 *   **Facilitators:**
     *   Wilco Fiers, Deque Systems
     *   Kathy Eng, Access Board
-*   **Staff Contact:** [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo/)
+*   **Staff Contact:** [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo)
 
 ## Patent Policy
 
