@@ -64,7 +64,7 @@ collections:
   policies:
     area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
-    shortname: "Laws & Policies"
+    shortname: "International Laws & Policies"
     parent: "/planning/"
     output: true
     acknowledgements: false
