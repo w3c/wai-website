@@ -3,6 +3,7 @@ title: WCAG 2.x Task Force Work Statement
 permalink: /about/groups/task-forces/wcag2x-backlog/work-statement/
 ref: /about/groups/task-forces/wcag2x-backlog/work-statement/
 lang: en
+doc-note-type: draft
 github:
   label: wai-groups
 ---
