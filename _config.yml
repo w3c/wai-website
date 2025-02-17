@@ -64,15 +64,11 @@ collections:
   policies:
     area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
-    shortname: "Laws & Policies"
+    shortname: "International Laws & Policies"
     parent: "/planning/"
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
-    footer: |
-      <p><strong>Date: 4 December 2023</strong>. Listings are updated regularly. Near the top of each country listing is a 'last updated' date. This user interface was updated 21 March 2018.</p>
-      <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Britt Classen, Michel Hansma, Vera Lange, Eric Velleman. <strong>Previous Editors:</strong> Mary Jo Mueller, Robert Jolly, Eric Eggert, Judy Brewer, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Previous contributors: Jennifer Sutton and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
-      <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
   audiences:
     name: "Roles"
     shortname: "Roles"
@@ -124,6 +120,12 @@ defaults:
       layout: "policy"
       github:
         repository: w3c/wai-policies-prototype
+      footer: |
+        <p>Listings are updated regularly. Near the top of each country listing is a 'last updated' date. This user interface was updated 21 March 2018.</p>
+        <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Britt Classen, Michel Hansma, Vera Lange, Eric Velleman. <strong>Previous Editors:</strong> Mary Jo Mueller, Robert Jolly, Eric Eggert, Judy Brewer, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Previous contributors: Jennifer Sutton and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
+        <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
+      disclaimer: |
+        <p>The law or policy links above go to official versions that may not be very accessible. If you know of more accessible versions, please let us know through the <a href="https://www.w3.org/WAI/policies/submission/">submission form</a> or e-mail to <a href="mailto:group-wai-list-policies@w3.org">group-wai-list-policies@w3.org</a>.</p>
   - scope:
       path: "_posts"
     values:
