@@ -2,10 +2,13 @@
 title: Visão geral dos fundamentos de acessibilidade
 nav_title: Visão geral
 lang: pt-BR
-last_updated: 2024-11-05
+last_updated: 2024-12-23
 
 translators:
   - name: Adiel Cristo
+
+contributors:
+  - name: Israel Cefrin
 
 github:
   label: wai-fundamentals
