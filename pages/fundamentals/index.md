@@ -5,7 +5,7 @@
 title: "Accessibility Fundamentals Overview"
 nav_title: "Overview"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2023-08-30  # Keep the date of the English version
+last_updated: 2025-02-17  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -37,7 +37,7 @@ The following resources provide information for **getting started with accessibi
 - [Video Introduction to Web Accessibility and W3C Standards](/videos/standards-and-benefits/) 4-minutes {% include image.html src="video.svg" alt="" class="icon" %}
 
 [[Accessibility: It's About People]](/people/)
-: Explains the people aspect of accessibility and the role of accessibility in diversity, equality, and inclusion (DEI). Links to:
+: Explains the people aspect of accessibility. Links to:
 - [Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone](/perspective-videos/) - videos that illustrate **_Accessibility: essential for some, useful for all_**. Ten 1-minute videos, and a 7-minute compilation. {% include image.html src="video.svg" alt="" class="icon" %}
 - [[How People with Disabilities Use the Web]](/people-use-web/) - introduces stories of web users; diverse abilities and barriers; tools and techniques; and videos that illustrate **_Accessibility: It's about people._** {% include image.html src="video.svg" alt="" class="icon" %}
 - [Older Users and Web Accessibility](/older-users/) resources
