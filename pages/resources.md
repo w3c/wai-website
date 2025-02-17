@@ -1,7 +1,7 @@
 ---
 title: WAI Resources
 lang: en
-last_updated: 2025-01-13
+last_updated: 2025-02-17
 
 github:
   label: wai-resources-list
@@ -75,7 +75,7 @@ The following resources provide information for **getting started with accessibi
     -   [[Video Introduction to Web Accessibility and W3C Standards]](/videos/standards-and-benefits/) 4-minutes {% include image.html src="video.svg" alt="" class="icon" %}
     
 [[Accessibility: It's About People]](/people/)
-:   Explains the people aspect of accessibility and the role of accessibility in diversity, equality, and inclusion (DEI). Links to:
+:   Explains the people aspect of accessibility. Links to:
     -   [[Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone]](/perspective-videos/) - videos that demonstrate that web accessibility is essential for people with disabilities and useful for all. Ten 1-minute videos, and a 7-minute compliation {% include image.html src="video.svg" alt="" class="icon" %}
     -   [[How People with Disabilities Use the Web]](/people-use-web/)<!-- , [Videos of How People with Disabilities Use the Web](/people-use-web/) Eighteen 2+minute videos, and 3 compliations {% include image.html src="video.svg" alt="" class="icon" %} -->
     -   [Older Users and Web Accessibility](/older-users/) resources
