@@ -2,11 +2,13 @@
 title: Visão geral dos fundamentos de acessibilidade
 nav_title: Visão geral
 lang: pt-BR
-last_updated: 2024-12-23
+last_updated: 2023-08-08
+
+translation:
+  last_updated: 2024-12-23
 
 translators:
   - name: Adiel Cristo
-
 contributors:
   - name: Israel Cefrin
 
