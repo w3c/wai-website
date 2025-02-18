@@ -7,14 +7,15 @@ title_html: "<code>alt</code> 替代决策树"
 lang: zh-hans  # Change "en" to the translated-language shortcode
 last_updated: 2024-05-13  # Keep the date of the English version
 
+translation:
+  last_updated: 2025-02-18
+
 translators: 
-- name: "金凯" # Add one -name: line for every translator
+- name: "金凯"
   link: "https://github.com/JinMokai"
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
-# contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+contributors:
+- name: "heybran"
+  link: "https://github.com/heybran"
 
 github:
   label: wai-tutorials
