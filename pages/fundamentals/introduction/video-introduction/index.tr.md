@@ -57,11 +57,7 @@ Videoyu, bu sayfaya atıfta bulunarak kullanabilirsiniz. Detaylar için [[WAI Ma
 
 Bu video, görsellerin yalnızca sesleri desteklemesi ve ek bilgi sağlamaması nedeniyle sesli betimleme içermemektedir. Bu nedenle, sesli betimleme görselleri göremeyenler de dahil olmak üzere birçok kişi için faydadan çok dikkat dağıtıcı olabilir. Aşağıdaki Açıklamalı Transkript, görsellerin detaylı açıklamalarını sunmaktadır.
 
-Sesli betimleme örneklerini incelemek için [Web Erişilebilirliği Yaklaşımları - Sesli Betimleme (YouTube oynatma listesi)](https://www.youtube.com/watch?v=21yWr7evHTs&list=PLhDEeYUfW02Qo4r2KlzagxZxhYcZADee-) bağlantısını ziyaret edebilirsiniz. Ayrıca, [Web Erişilebilirliği Yaklaşımları web sayfası](/perspective-videos/) üzerindeki videolardan birini seçerek "{% include t.html t='Sesli Betimleme Aç' <span lang='tr'>Sesli Betimleme Aç</span> %}" seçeneğini kullanabilirsiniz.
-{% comment %}# For translations: Do not translate the text in "{% include t.html t='Enable Audio Description' %}" (it will be automatically translated). After that code, please add this:
-("<span lang='en'>Enable Audio Description</span>").
-(Background is here:  https://github.com/w3c/wai-video-standards-and-benefits/issues/42.)
-{% endcomment %}
+Sesli betimleme örneklerini incelemek için [Web Erişilebilirliği Yaklaşımları - Sesli Betimleme (YouTube oynatma listesi)](https://www.youtube.com/watch?v=21yWr7evHTs&list=PLhDEeYUfW02Qo4r2KlzagxZxhYcZADee-) bağlantısını ziyaret edebilirsiniz. Ayrıca, [Web Erişilebilirliği Yaklaşımları web sayfası](/perspective-videos/) üzerindeki videolardan birini seçerek "{% include t.html t='Enable Audio Description' %}" (“Sesli Betimleme Aç”) seçeneğini kullanabilirsiniz.
 
 ## Görsellerin Açıklamasını İçeren Metin Transkripti {#transcript}
 
