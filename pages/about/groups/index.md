@@ -36,7 +36,7 @@ The mission of the Accessible Platform Architectures (APA) Working Group and its
 The mission of the Accessible Rich Internet Applications (ARIA) Working Group and its task forces is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
 
  - [Authoring Practices Guide Task Force](/about/groups/task-forces/practices/)
- - [Portable Document Format Accessibility APIs Mapping Task Force](/about/groups/task-forces/pdf-aam/)
+ - [PDF Accessibility APIs Mapping Task Force](/about/groups/task-forces/pdf-aam/)
 
 ## [WAI Interest Group](/about/groups/waiig/)
 
