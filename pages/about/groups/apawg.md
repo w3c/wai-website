@@ -1,6 +1,6 @@
 ---
 title: Accessible Platform Architectures Working Group
-nav_title: '<span>APA: Accessible Platform <abbr title="Working Group">WG</abbr></span>'
+nav_title: 'Accessible Platform Architectures <abbr title="Working Group">WG</abbr>'
 lang: en
 permalink: /about/groups/apawg/
 ref: /about/groups/apawg/

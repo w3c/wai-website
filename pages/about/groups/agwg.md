@@ -1,6 +1,6 @@
 ---
 title: Accessibility Guidelines Working Group
-nav_title: '<span>AG: Accessibility Guidelines <abbr title="Working Group">WG</abbr></span>'
+nav_title: 'Accessibility Guidelines <abbr title="Working Group">WG</abbr>'
 lang: en
 permalink: /about/groups/agwg/
 ref: /about/groups/agwg/
