@@ -10,7 +10,7 @@ github:
 
 The Web Accessibility Initiative (WAI)’s working groups develop digital accessibility guidelines and related materials &mdash; the working groups are supported by task forces that operate under them, and contributions from accessibility discussions in the WAI Interest Group.
 
-## [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/)
+## [Accessibility Guidelines Working Group](/about/groups/agwg/)
 
 The mission of the Accessibility Guidelines (AG) Working Group and its task forces is to develop and maintain specifications for making web content accessible to people with disabilities, along with support materials for implementing the Web Content Accessibility Guidelines (WCAG).
 
@@ -21,7 +21,7 @@ The mission of the Accessibility Guidelines (AG) Working Group and its task forc
  - [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/)
  - [WCAG2ICT Task Force](/about/groups/task-forces/wcag2ict/)
 
-## [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/)
+## [Accessible Platform Architectures Working Group](/about/groups/apawg/)
 
 The mission of the Accessible Platform Architectures (APA) Working Group and its task forces is to ensure W3C specifications support accessibility for people with disabilities through the following activities: reviewing specifications; developing new specifications and technical support materials; collaborating with other W3C working groups on technology accessibility; and coordinating harmonized accessibility strategies within W3C that include security, privacy, and internationalization.
 
