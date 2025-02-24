@@ -1,7 +1,9 @@
 ---
 title: Spoken Presentation Task Force Work Statement
-permalink: /about/groups/task-forces/pronunciation/work-statement/
-ref: /about/groups/task-forces/pronunciation/work-statement/
+permalink: /about/groups/task-forces/spoken-presentation/work-statement/
+ref: /about/groups/task-forces/spoken-presentation/work-statement/
+redirect_from:
+  - /about/groups/task-forces/pronunciation/work-statement/
 lang: en
 github:
   label: wai-groups
@@ -11,7 +13,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The [Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/) is a task force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists this Working Group with the work identified below.
+The [Spoken Presentation Task Force](/about/groups/task-forces/spoken-presentation/) is a task force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists this Working Group with the work identified below.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,7 +34,7 @@ The [Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/) i
 
 ## Status
 
-The Spoken Presentation Task Force was [approved on 10 June 2016](https://lists.w3.org/Archives/Public/public-apa-admin/2018Oct/0008.html) and is now active. The [Task Force home page](/about/groups/task-forces/pronunciation/) contains information about the operation and resources of the group.
+The Spoken Presentation Task Force was [approved on 10 June 2016](https://lists.w3.org/Archives/Public/public-apa-admin/2018Oct/0008.html) and is now active. The [Task Force home page](/about/groups/task-forces/spoken-presentation/) contains information about the operation and resources of the group.
 
 ## Objective
 
@@ -63,12 +65,12 @@ The SPTF works within the APA Working Group and will focus on achieving a specif
 
 ## Communication
 
-Spoken Presentation Task Force communications and discussions are visible to the public. The [task force home page](/about/groups//task-forces/pronunciation/) details communication mechanisms in use. The task force will:
+Spoken Presentation Task Force communications and discussions are visible to the public. The [task force home page](/about/groups/task-forces/spoken-presentation/) details communication mechanisms in use. The task force will:
 
 - Support synchronous (e.g., teleconferences, face-to-face meetings) and asynchronous (e.g., mailing list discussions, issue trackers, wiki, surveys, etc.) methods of communication;
 - Use the procedures of the [APA Working Group Decision Policy](/about/groups/apawg/decision-policy/) to make decisions;
 - Provide updates and feedback to APA Working Group teleconferences, as appropriate. These liaisons are primarily the responsibility of the Spoken Presentation Task Force Facilitators;
-- Maintain information resulting from its activities (deliverables, participants, face-to-face meetings, teleconferences, etc.) on the [Spoken Presentation Task Force home page](/about/groups/task-forces/pronunciation/).
+- Maintain information resulting from its activities (deliverables, participants, face-to-face meetings, teleconferences, etc.) on the [Spoken Presentation Task Force home page](/about/groups/task-forces/spoken-presentation/).
 
 ## Participation
 
@@ -93,4 +95,4 @@ Staff contacts from the APA Working Group oversee attention to W3C Process with 
 
 ## Patent Policy
 
-This Task Force is part of the [APA Working Group Charter](https://www.w3.org/WAI/APA/charter), which operates under the [W3C Patent Policy](https://www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [APA Working Group](https://www.w3.org/2004/01/pp-impl/83907/status).
+This Task Force is part of the [APA Working Group Charter](https://www.w3.org/WAI/APA/charter), which operates under the [W3C Patent Policy](https://www.w3.org/policies/patent-policy/20200915/) (15 September 2020 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [APA Working Group](https://www.w3.org/2004/01/pp-impl/83907/status).
