@@ -65,7 +65,7 @@ The SPTF works within the APA Working Group and will focus on achieving a specif
 
 ## Communication
 
-Spoken Presentation Task Force communications and discussions are visible to the public. The [task force home page](/about/groups//task-forces/pronunciation/) details communication mechanisms in use. The task force will:
+Spoken Presentation Task Force communications and discussions are visible to the public. The [task force home page](/about/groups/task-forces/spoken-presentation/) details communication mechanisms in use. The task force will:
 
 - Support synchronous (e.g., teleconferences, face-to-face meetings) and asynchronous (e.g., mailing list discussions, issue trackers, wiki, surveys, etc.) methods of communication;
 - Use the procedures of the [APA Working Group Decision Policy](/about/groups/apawg/decision-policy/) to make decisions;
