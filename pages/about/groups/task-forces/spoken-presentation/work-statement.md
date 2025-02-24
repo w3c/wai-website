@@ -1,7 +1,9 @@
 ---
 title: Spoken Presentation Task Force Work Statement
-permalink: /about/groups/task-forces/pronunciation/work-statement/
-ref: /about/groups/task-forces/pronunciation/work-statement/
+permalink: /about/groups/task-forces/spoken-presentation/work-statement/
+ref: /about/groups/task-forces/spoken-presentation/work-statement/
+redirect_from:
+  - /about/groups/task-forces/pronunciation/work-statement/
 lang: en
 github:
   label: wai-groups
@@ -11,7 +13,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The [Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/) is a task force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists this Working Group with the work identified below.
+The [Spoken Presentation Task Force](/about/groups/task-forces/spoken-presentation/) is a task force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists this Working Group with the work identified below.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,7 +34,7 @@ The [Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/) i
 
 ## Status
 
-The Spoken Presentation Task Force was [approved on 10 June 2016](https://lists.w3.org/Archives/Public/public-apa-admin/2018Oct/0008.html) and is now active. The [Task Force home page](/about/groups/task-forces/pronunciation/) contains information about the operation and resources of the group.
+The Spoken Presentation Task Force was [approved on 10 June 2016](https://lists.w3.org/Archives/Public/public-apa-admin/2018Oct/0008.html) and is now active. The [Task Force home page](/about/groups/task-forces/spoken-presentation/) contains information about the operation and resources of the group.
 
 ## Objective
 
@@ -68,7 +70,7 @@ Spoken Presentation Task Force communications and discussions are visible to the
 - Support synchronous (e.g., teleconferences, face-to-face meetings) and asynchronous (e.g., mailing list discussions, issue trackers, wiki, surveys, etc.) methods of communication;
 - Use the procedures of the [APA Working Group Decision Policy](/about/groups/apawg/decision-policy/) to make decisions;
 - Provide updates and feedback to APA Working Group teleconferences, as appropriate. These liaisons are primarily the responsibility of the Spoken Presentation Task Force Facilitators;
-- Maintain information resulting from its activities (deliverables, participants, face-to-face meetings, teleconferences, etc.) on the [Spoken Presentation Task Force home page](/about/groups/task-forces/pronunciation/).
+- Maintain information resulting from its activities (deliverables, participants, face-to-face meetings, teleconferences, etc.) on the [Spoken Presentation Task Force home page](/about/groups/task-forces/spoken-presentation/).
 
 ## Participation
 

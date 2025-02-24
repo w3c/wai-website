@@ -1,7 +1,9 @@
 ---
 title: Spoken Presentation Task Force
-permalink: /about/groups/task-forces/pronunciation/
-ref: /about/groups/task-forces/pronunciation/
+permalink: /about/groups/task-forces/spoken-presentation/
+ref: /about/groups/task-forces/spoken-presentation/
+redirect_from:
+  - /about/groups/task-forces/pronunciation/
 lang: en
 github:
   label: wai-groups
@@ -32,7 +34,7 @@ The objective of the Spoken Presentation (previously known as Pronunciation) Tas
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [Spoken Presentation Task Force Work Statement](/about/groups/task-forces/pronunciation/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [Spoken Presentation Task Force Work Statement](/about/groups/task-forces/spoken-presentation/work-statement/).
 
 ## Overview of the spoken presentation work
 

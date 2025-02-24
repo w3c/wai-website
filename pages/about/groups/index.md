@@ -28,7 +28,7 @@ The mission of the Accessible Platform Architectures (APA) Working Group and its
  - [Framework for Accessible Specification of Technologies Task Force](/about/groups/task-forces/fast/)
  - [Maturity Model Task Force](/about/groups/task-forces/maturity-model/)
  - [Research Questions Task Force](/about/groups/task-forces/research-questions/)
- - [Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/)
+ - [Spoken Presentation Task Force](/about/groups/task-forces/spoken-presentation/)
  - [WAI-Adapt Task Force](/about/groups/task-forces/adapt/)
 
 ## [ARIA Working Group](/about/groups/ariawg/)
