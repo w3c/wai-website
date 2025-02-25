@@ -13,7 +13,7 @@ github:
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}
 {:/}
 
-This page provides information on the Web Accessibility Initiative &mdash; Communities of Practice **(WAI-CooP) Project**, a European Commission (EC) co-funded project, Horizon 2020 Program (101004794).
+This page provides information on the Web Accessibility Initiative Communities of Practice **(WAI-CooP) Project**, a European Commission (EC) co-funded project, Horizon 2020 Program (101004794).
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -39,11 +39,11 @@ This page provides information on the Web Accessibility Initiative &mdash; Commu
 **[List of Web Accessibility Evaluation Tools](https://www.w3.org/WAI/test-evaluate/tools/list/)**
 :  Included updating the user interface with filtering functionality, reviewing which tools' features to capture, promoting and gathering list entries, and creating a [Tool submission form](https://www.w3.org/WAI/test-evaluate/tools/submit-a-tool/).
 
-**[List of Policies and Practices Internationally](https://www.w3.org/WAI/policies/)**
+**[List of Web Accessibility Laws and Policies](https://www.w3.org/WAI/policies/)**
 :  Made extensive updates to existing policies and added new information for 22 additional countries.
 
-**[Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/rules/)**
-:  Included promoting, tracking, and validating implementations of “Accessibility Conformance Testing (ACT) Rules” in automated testing tools and manual testing methodologies. Also included a completed [redesign of the user interface](https://www.w3.org/WAI/standards-guidelines/act/rules/about/) to better integrate implementation reports submitted by different vendors.
+**[List of Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/rules/)**
+:  Included promoting, tracking, and validating implementations of “Accessibility Conformance Testing (ACT) Rules” in automated testing tools and manual testing methodologies. Also included a completed [redesign of the user interface](https://www.w3.org/WAI/standards-guidelines/act/implementations/) to better integrate implementation reports submitted by different vendors.
 
 **Analysis of Support and Gaps in Technologies**
 :  Carried out an extensive literature review to identify relevant accessibility related gaps in digital technologies, which helped to identify topics to explore further as part of the Research Symposia.
@@ -66,7 +66,7 @@ This page provides information on the Web Accessibility Initiative &mdash; Commu
 **[Web Accessibility Directive: Frequently Asked Questions](https://web-directive.eu/)**
 :  Provided responses to frequently asked questions (FAQ) on implementing the EU Web Accessibility Directive (WAD).
 
-**[EM Report Tool](https://www.w3.org/WAI/eval/report-tool/)**
+**[Web Content Accessibility Guidelines Evaluation Methodology (WCAG-EM) Report Tool](https://www.w3.org/WAI/eval/report-tool/)**
 :  Updated functionality, improved user interface, improved translation options, and updated to include new WCAG 2.1 and 2.2 success criteria.
 
 **[Easy Checks &mdash; A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/easy-checks/)**
