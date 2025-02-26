@@ -51,13 +51,13 @@ For information about providing grants and other opportunities to support WAI, p
 
 ### Past grants and contracts
 
--   [US National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)](http://www.ed.gov/about/offices/list/osers/nidrr/index.html), US Department of Health and Human Services (previously US Department of Education) &mdash; contract HHSP23301500054, contract EDOSE10C0067<!-- ([WAI-Core 2010 Project]https://www.w3.org/WAI/Core/Overview.html)) -->
--   [US Access Board](https://www.access-board.gov/), US Department of Interior <!-- ([WCAG TAProject](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->    
--   European Commission (EC) [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) &mdash;  822245 ([WAI-Guide Project](https://www.w3.org/WAI/about/projects/wai-guide/)), 101004794 ([WAI-CooP Project](https://www.w3.org/WAI/about/projects/wai-coop/)), 780057 ([WAI-Tools Project](https://www.w3.org/WAI/about/projects/wai-tools/)), 780529 ([Easy Reading Project](https://www.w3.org/WAI/about/projects/easy-reading/))
--   European Commission [Information Society Technologies Programme](http://cordis.europa.eu/ist/) &mdash; 7th Framework IST 611612 ([WAI-DEV Project](http://www.w3.org/WAI/DEV/)), 7th Framework IST 287725 ([WAI-ACT Project](https://www.w3.org/WAI/ACT/Overview.html)), 6th Framework IST 035015 ([WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/Overview.html)), ([WAI-TIES Project](https://www.w3.org/WAI/TIES/Overview.html)), Accompanying Measure IST 13470 ([WAI-DA Project](https://www.w3.org/WAI/WAIDA/))
 -   European Commission, DE 4105 - WAI ([WAI-DE Project](https://www.w3.org/WAI/TIDE/FR2.htm))
+-   European Commission [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) &mdash;  822245 ([WAI-Guide Project](https://www.w3.org/WAI/about/projects/wai-guide/)), 101004794 ([WAI-CooP Project](https://www.w3.org/WAI/about/projects/wai-coop/)), 780057 ([WAI-Tools Project](https://www.w3.org/WAI/about/projects/wai-tools/)), 780529 ([Easy Reading Project](https://www.w3.org/WAI/about/projects/easy-reading/))
+-   European Commission [Information Society Technologies Programme](http://cordis.europa.eu/ist/) &mdash; 7th Framework IST 611612 ([WAI-DEV Project](http://www.w3.org/WAI/DEV/)), 7th Framework IST 287725 ([WAI-ACT Project](https://www.w3.org/WAI/ACT/Overview.html)), 6th Framework IST 035015 ([WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/Overview.html)), ([WAI-TIES Project](https://www.w3.org/WAI/TIES/Overview.html)), Accompanying Measure IST 13470 ([WAI-DA Project](https://www.w3.org/WAI/WAIDA/))
 -   [Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/) &mdash; ([WAI Expanding Access Project](https://www.w3.org/WAI/expand-access/))
--   [National Science Foundation](http://www.nsf.gov)
+-   [US Access Board](https://www.access-board.gov/), US Department of Interior <!-- ([WCAG TAProject](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->    
+-   [US National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)](http://www.ed.gov/about/offices/list/osers/nidrr/index.html), US Department of Health and Human Services (previously US Department of Education) &mdash; contract HHSP23301500054, contract EDOSE10C0067<!-- ([WAI-Core 2010 Project]https://www.w3.org/WAI/Core/Overview.html)) -->
+-   [US National Science Foundation](http://www.nsf.gov)
 
 ### Past Platinum sponsors
 
