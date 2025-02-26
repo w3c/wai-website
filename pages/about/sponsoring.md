@@ -26,30 +26,24 @@ class: tight-page
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Current Sponsors and Funding
+## About sponsoring WAI
 
--   **[US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)](http://www.acl.gov/programs/NIDILRR/), US Department of Health and Human Services (HHS)**, contract HHS75P00120P00168 <!-- ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
+The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, and supporting resources to make the Web accessible to people with disabilities.
+
+W3C greatly appreciates the support WAI receives from stakeholders committed to making the Web accessible. Contributions such as grants, sponsorship, and support for fellows enable WAI to bring together a unique collaboration of industry, government, research, and people with disabilities in a cooperative effort to improve the accessibility of the Web for disabled people.
+
+If you are interested sponsoring WAI by becoming a Web Accessibility Champion, please explore the [W3C Sponsorships Program](https://www.w3.org/sponsor/) benefits and **contact [sponsorship@w3.org](mailto:sponsorship@w3.org?subject=Accessibility%20support)**.
+
+For information about providing grants and other opportunities to support WAI, please **contact [giving@w3.org](mailto:giving@w3.org?subject=Accessibility%20support)**.
+
+## Current sponsors and funders
 
 -   **[Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/)**<!-- ([WAI-Core Ford Project](https://www.w3.org/WAI/wai-core-ford/)) -->
+-   **[US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)](http://www.acl.gov/programs/NIDILRR/)**<!-- , US Department of Health and Human Services (HHS), contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
 
--   **[IBM Corporation](http://www.ibm.com/able) (Silver Sponsor)**
-    ![](https://w3.org/Icons/ibm_screen_blue_2px.gif)
+## Past
 
--   **[HP](https://www.hp.com) (Silver Sponsor)**
-
-## About Sponsoring WAI
-
-The Web Accessibility Initiative (WAI) greatly appreciates the sponsorship of governments, businesses, and other organizations committed to making the Web accessible. These organizations enable WAI to bring together a unique partnership of industry, disability organizations, national governments, and research organizations in a coordinated effort to improve the accessibility of the Web for people with disabilities.
-
-### Additional Sponsors and Contributors Welcome
-
-WAI welcomes additional sponsors, contributors, and [fellows](https://www.w3.org/Consortium/Recruitment/Fellows) to support its technical and educational activities to increase accessibility of the Web. For information:
-* See [Web for All - W3C Principles Champions in W3C Sponsorships Program)](https://www.w3.org/sponsor/#web-for-all-w3c-principles-champions)
-* Contact WAI staff at [wai@w3.org with subject [WAI Sponsorship]](mailto:wai@w3.org?subject=%5BWAI%20Sponsorship%5D)
-
-## Previous Sponsors, Funding, Contributors, Fellows
-
-### Previous Grants and Contracts
+### Past grants and contracts
 
 -   [US National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)](http://www.ed.gov/about/offices/list/osers/nidrr/index.html), US Department of Health and Human Services (previously US Department of Education) &mdash; contract HHSP23301500054, contract EDOSE10C0067<!-- ([WAI-Core 2010 Project]https://www.w3.org/WAI/Core/Overview.html)) -->
 -   [US Access Board](https://www.access-board.gov/), US Department of Interior <!-- ([WCAG TAProject](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->    
@@ -59,17 +53,17 @@ WAI welcomes additional sponsors, contributors, and [fellows](https://www.w3.org
 -   [Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/) &mdash; ([WAI Expanding Access Project](https://www.w3.org/WAI/expand-access/))
 -   [National Science Foundation](http://www.nsf.gov)
 
-### Previous Platinum Sponsors (USD 100,000/year)
+### Past Platinum sponsors
 
 -   [Elisa Communications](http://www.elisa.fi/)
 
-### Previous Gold Sponsors (USD 50,000/year)
+### Past Gold sponsors
 
 -   [IBM Corporation](http://www.ibm.com/able)
 -   [Microsoft Corporation](http://www.microsoft.com/)
 -   [SAP](http://www.sap.com/)
 
-### Previous Silver Sponsors (USD 25,000/year)
+### Past Silver sponsors
 
 -   [Adobe Systems](http://www.adobe.com/)
 -   [Assistive Devices Industry
@@ -88,21 +82,24 @@ WAI welcomes additional sponsors, contributors, and [fellows](https://www.w3.org
     Foundation](http://www22.verizon.com/content/verizonglobalhome/ghp_landing.aspx)
 -   [Wells Fargo](http://www.wellsfargo.com/home.htm)
 
-### Contributors
+### Past contributors
 
 -   Austrian Computer Society, Roland Wagner Award
--   Facebook donated virtual reality headsets to support the work of the [Immersive Captions Community Group](https://www.w3.org/community/immersive-captions/)
+-   Facebook donated virtual reality headsets to support the work of the [Immersive Captions W3C Community Group](https://www.w3.org/community/immersive-captions/)
 -   Massachusetts Association for the Blind
--   [Netlify](https://www.netlify.com/) provides previews of the WAI website
 -   NewDoctor.com
--   [Ta-meteo.fr](http://www.ta-meteo.fr "Ta-Meteo.fr")
+-   Ta-meteo.fr
 -   WinWriters
 -   Individuals who purchased t-shirts through Bonfire, organized by Carie Fisher
 
-### Previous Fellow Supporters
+### Past Fellows
 
 W3C WAI thanks organizations that have supported [W3C Fellows](https://www.w3.org/Consortium/Recruitment/Fellows) in WAI:
 
 -  [Elisa Communications](http://www.elisa.fi/)
 -  [Knowbility, Inc](https://knowbility.org/)
--  RITT
+-  Research Institute of Telecommunication Transmission (RITT)
+
+## Others
+
+-  [Netlify](https://www.netlify.com/) provides previews of the WAI website
