@@ -13,7 +13,7 @@ github:
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}
 {:/}
 
-This page provides information on the Web Accessibility Initiative Communities of Practice **(WAI-CooP) Project**, a European Commission (EC) co-funded project, Horizon 2020 Program (101004794).
+This page provides information on the Web Accessibility Initiative - Communities of Practice **(WAI-CooP) Project**, a European Commission (EC) co-funded project, Horizon 2020 Program (101004794).
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
