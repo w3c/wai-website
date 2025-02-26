@@ -57,7 +57,7 @@ The World Wide Web Consortium ([W3C](https://www.w3.org/about/)) is an internati
 
 This information extends the [W3C Mission](https://www.w3.org/mission/) (vision, identity, design principles, strategic goals) to address accessibility specifics.
 
-<img src="https://www.w3.org/WAI/content-images/people//still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
+<img src="https://www.w3.org/WAI/content-images/people/still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
 <div style="float:right; margin-left:1em; width:90px; clear:both;"><br><br>
 <img src="https://www.w3.org/WAI/content-images/people/two-smiling.png" alt="" /><br><br>
 <img src="https://www.w3.org/WAI/content-images/people/low-vision.png" alt="" /><br><br>
