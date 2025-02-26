@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.
+Find out about the activities of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -29,6 +29,10 @@ The objective of the Cognitive and Learning Disabilities Accessibility (COGA) Ta
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
+
+## Objectives
+
+The objective of the COGA Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.
 
 ## Work statement
 

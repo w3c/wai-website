@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objectives of the Mobile Accessibility (Mobile A11y) Task Force are to produce resources for how to apply the Web Content Accessibility Guidelines (WCAG) to mobile — including, but not limited to, native mobile apps; mobile web apps; mobile web content; and hybrid apps that use web components inside native mobile apps — and to make sure mobile apps are considered in new accessibility guidelines.
+Find out about the activities of the Mobile Accessibility (Mobile A11y) Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -29,6 +29,10 @@ The objectives of the Mobile Accessibility (Mobile A11y) Task Force are to produ
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
+
+## Objectives
+
+The objectives of the Mobile A11y Task Force are to produce resources for how to apply the Web Content Accessibility Guidelines (WCAG) to mobile — including, but not limited to, native mobile apps; mobile web apps; mobile web content; and hybrid apps that use web components inside native mobile apps — and to make sure mobile apps are considered in new accessibility guidelines.
 
 ## Work statement
 

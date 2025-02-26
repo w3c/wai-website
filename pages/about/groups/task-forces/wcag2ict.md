@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the WCAG2ICT Task Force is to develop documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
+Find out about the activities of the WCAG2ICT Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -29,6 +29,10 @@ The objective of the WCAG2ICT Task Force is to develop documentation describing 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
+
+## Objectives
+
+The objective of the WCAG2ICT Task Force is to develop documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
 
 ## Work statement
 

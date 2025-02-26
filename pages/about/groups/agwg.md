@@ -12,7 +12,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the Accessibility Guidelines (AG) Working Group is to develop and maintain specifications for making web content accessible to people with disabilities, along with support materials for implementing the Web Content Accessibility Guidelines (WCAG).
+Find out about the activities of the Accessibility Guidelines (AG) Working Group and how you can contribute to its mission.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -31,9 +31,11 @@ The mission of the Accessibility Guidelines (AG) Working Group is to develop and
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Charter
+## Mission
 
-The AG Working Group is chartered until 31 October 2025.
+The mission of the AG Working Group is to develop and maintain specifications for making web content accessible to people with disabilities, along with support materials for implementing the Web Content Accessibility Guidelines (WCAG).
+
+## Charter
 
 To learn about the group’s focus, scope and deliverables, see the [AG Working Group Charter](https://www.w3.org/WAI/GL/charter).
 

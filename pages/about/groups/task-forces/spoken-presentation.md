@@ -13,7 +13,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Spoken Presentation (previously known as Pronunciation) Task Force is to develop normative specifications and best practice guidance on providing proper pronunciation for HTML content across operating systems, so that words are pronounced correctly when using text-to-speech (TTS) synthesis and users’ preferred assistive technologies.
+Find out about the activities of the Spoken Presentation (previously known as Pronunciation) Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -31,6 +31,10 @@ The objective of the Spoken Presentation (previously known as Pronunciation) Tas
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
+
+## Objectives
+
+The objective of the Spoken Presentation Task Force is to develop normative specifications and best practice guidance on providing proper pronunciation for HTML content across operating systems, so that words are pronounced correctly when using text-to-speech (TTS) synthesis and users’ preferred assistive technologies.
 
 ## Work statement
 

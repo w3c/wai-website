@@ -12,7 +12,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the Portable Document Format Accessibility Application Programming Interfaces Mapping (PDF-AAM) Task Force is to specify how user agents should map accessibility semantics within the Portable Document Format specification.
+Find out about the activities of the Portable Document Format Accessibility Application Programming Interfaces Mapping (PDF-AAM) Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -30,6 +30,10 @@ The objective of the Portable Document Format Accessibility Application Programm
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
+
+## Objectives 
+
+The objective of the PDF-AAM Task Force is to specify how user agents should map accessibility semantics within the Portable Document Format specification.
 
 ## Work Statement
 

@@ -13,7 +13,7 @@ redirect_from:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The objective of the WAI-Adapt Task Force is to develop normative specifications and best practices guidance to support enhanced and personalized web content delivery that better meets the diverse requirements of people with disabilities — it does this by making fuller use of underused features already specified in HTML, and by proposing new markup elements and attributes, as needed.
+Find out about the activities of the WAI-Adapt Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -31,6 +31,10 @@ The objective of the WAI-Adapt Task Force is to develop normative specifications
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
+
+## Objectives
+
+The objective of the WAI-Adapt Task Force is to develop normative specifications and best practices guidance to support enhanced and personalized web content delivery that better meets the diverse requirements of people with disabilities — it does this by making fuller use of underused features already specified in HTML, and by proposing new markup elements and attributes, as needed.
 
 ## Work statement
 
