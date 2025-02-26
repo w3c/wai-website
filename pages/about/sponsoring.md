@@ -25,10 +25,29 @@ For information about providing grants and other opportunities to support WAI, p
 
 ## Current sponsors and funders
 
+<img src="https://www.w3.org/WAI/content-images/people/still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
+
 -   **[Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/)**<!-- ([WAI-Core Ford Project](https://www.w3.org/WAI/wai-core-ford/)) -->
 -   **[US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)](http://www.acl.gov/programs/NIDILRR/)**<!-- , US Department of Health and Human Services (HHS), contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
 
 ## Past
+
+<div style="float:right; margin-left:1em; width:90px; clear:both;"><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/two-smiling.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/low-vision.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/older-user-laptop.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/sip-puff.png"  alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/hearing-aid.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/low-vision-pizza.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/mobile-outside.png" alt="" />
+</div>
+<div style="float:right; margin-left:1em; width:77px; clear:both;"><br><br>
+<img src="https://www.w3.org/WAI/content-images/media-guide/ear.svg" alt="" /><br><br> 
+<img src="https://www.w3.org/WAI/content-images/media-guide/eye.svg" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/media-guide/brain.svg" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/media-guide/hand.svg" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/media-guide/speech.svg" alt="" />
+</div>
 
 ### Past grants and contracts
 
