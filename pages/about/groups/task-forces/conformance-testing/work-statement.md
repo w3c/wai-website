@@ -2,6 +2,8 @@
 title: Accessibility Conformance Testing Task Force Work Statement
 permalink: /about/groups/task-forces/conformance-testing/work-statement/
 ref: /about/groups/task-forces/conformance-testing/work-statement/
+redirect_from:
+  - /about/groups/task-forces/conformance-testing/work-statement-2024/
 lang: en
 github:
   label: wai-groups

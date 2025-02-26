@@ -4,6 +4,16 @@ nav_title: 'ARIA <abbr title="Working Group">WG</abbr>'
 lang: en
 permalink: /about/groups/ariawg/
 ref: /about/groups/ariawg/
+redirect_from:
+  - /about/groups/ariawg/communication/
+  - /about/groups/ariawg/contribute/
+  - /about/groups/ariawg/deliverables/
+  - /about/groups/ariawg/editors/
+  - /about/groups/ariawg/participate/
+  - /about/groups/ariawg/planning/
+  - /about/groups/ariawg/roadmap/
+  - /about/groups/ariawg/task-forces/
+  - /about/groups/ariawg/workflow/
 github:
   label: wai-groups
 ---

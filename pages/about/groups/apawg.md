@@ -4,6 +4,13 @@ nav_title: 'Accessible Platform Architectures <abbr title="Working Group">WG</ab
 lang: en
 permalink: /about/groups/apawg/
 ref: /about/groups/apawg/
+redirect_from:
+  - /about/groups/apawg/communication/
+  - /about/groups/apawg/contribute/
+  - /about/groups/apawg/deliverables/
+  - /about/groups/apawg/participate/
+  - /about/groups/apawg/task-forces/
+  - /about/groups/apawg/video-examples/
 github:
   label: wai-groups
 ---

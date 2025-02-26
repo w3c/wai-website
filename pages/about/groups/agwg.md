@@ -4,6 +4,10 @@ nav_title: 'Accessibility Guidelines <abbr title="Working Group">WG</abbr>'
 lang: en
 permalink: /about/groups/agwg/
 ref: /about/groups/agwg/
+redirect_from:
+  - /about/groups/agwg/participate/
+  - /about/groups/agwg/communication/
+  - /about/groups/agwg/task-forces/
 github:
   label: wai-groups
 ---
