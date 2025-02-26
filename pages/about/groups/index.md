@@ -4,6 +4,8 @@ title: WAI Working Groups, Task Forces, and Interest Groups
 lang: en
 permalink: /about/groups/
 ref: /about/groups/
+redirect_from:
+  - /about/groups/task-forces/
 github:
   label: wai-groups
 ---
