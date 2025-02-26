@@ -33,7 +33,7 @@ The Portable Document Format Accessibility APIs Mapping (PDF-AAM) Task Force is 
 
 ## Status
 
-The PDF-AAM Task Force Work Statement was [approved on [dd mm yyyy]](CFC_or_minutes_pointer) and is now active. The [PDF-AAM Task Force home page](/about/groups/task-forces/pdf-aam/) contains information about the operation and resources of the group.
+The PDF-AAM Task Force Work Statement was [approved on 12 November 2024](https://github.com/w3c/aria/issues/2070) and is now active. The [PDF-AAM Task Force home page](/about/groups/task-forces/pdf-aam/) contains information about the operation and resources of the group.
 
 ## Objective
 
