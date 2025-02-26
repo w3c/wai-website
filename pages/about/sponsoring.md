@@ -28,20 +28,20 @@ class: tight-page
 
 ## About sponsoring WAI
 
-The W3C Web Accessibility Initiative (WAI) develops strategies, standards, and supporting resources to make the Web accessible to people with disabilities.
+The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, and supporting resources to make the Web accessible to people with disabilities.
 
 W3C greatly appreciates the support WAI receives from stakeholders committed to making the Web accessible. Contributions such as grants, sponsorship, and support for fellows enable WAI to bring together a unique collaboration of industry, government, research, and people with disabilities in a cooperative effort to improve the accessibility of the Web for disabled people.
 
-If you are interested sponsoring WAI by becoming a Web Accessibility Champion, please explore the benefits of the W3C Sponsorships Program.
+If you are interested sponsoring WAI by becoming a Web Accessibility Champion, please explore the [W3C Sponsorships Program](https://www.w3.org/sponsor/) benefits and **contact [sponsorship@w3.org](mailto:sponsorship@w3.org?subject=Accessibility%20support)**.
 
-For information about other opportunities to support WAI, please contact mailto:giving@w3.org?subject=Accessibility%20support.
+For information about providing grants and other opportunities to support WAI, please **contact [giving@w3.org](mailto:giving@w3.org?subject=Accessibility%20support)**.
 
 ## Current sponsors and funders
 
--   [Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/)<!-- ([WAI-Core Ford Project](https://www.w3.org/WAI/wai-core-ford/)) -->
--   [US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)](http://www.acl.gov/programs/NIDILRR/)<!-- , US Department of Health and Human Services (HHS), contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
+-   **[Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/)**<!-- ([WAI-Core Ford Project](https://www.w3.org/WAI/wai-core-ford/)) -->
+-   **[US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)](http://www.acl.gov/programs/NIDILRR/)**<!-- , US Department of Health and Human Services (HHS), contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
 
-## Past supporters
+## Past
 
 ### Past grants and contracts
 
@@ -87,7 +87,6 @@ For information about other opportunities to support WAI, please contact mailto:
 -   Austrian Computer Society, Roland Wagner Award
 -   Facebook donated virtual reality headsets to support the work of the [Immersive Captions W3C Community Group](https://www.w3.org/community/immersive-captions/)
 -   Massachusetts Association for the Blind
--   Netlify
 -   NewDoctor.com
 -   Ta-meteo.fr
 -   WinWriters
@@ -101,4 +100,6 @@ W3C WAI thanks organizations that have supported [W3C Fellows](https://www.w3.or
 -  [Knowbility, Inc](https://knowbility.org/)
 -  Research Institute of Telecommunication Transmission (RITT)
 
-[Netlify](https://www.netlify.com/) provides previews of the WAI website
+## Others
+
+-  [Netlify](https://www.netlify.com/) provides previews of the WAI website
