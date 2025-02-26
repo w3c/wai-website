@@ -13,20 +13,7 @@ feedbackmail: wai@w3.org
 class: tight-page
 ---
 
-{::options toc_levels="2" /}
-
-{::nomarkdown}
-{% include_cached toc.html type="start" title="Page Contents" %}
-{:/}
-
--   TOC is created automatically.
-{:toc}
-
-{::nomarkdown}
-{% include_cached toc.html type="end" %}
-{:/}
-
-## About sponsoring WAI
+<h2 class="no-display">About sponsoring WAI</h2>
 
 The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, and supporting resources to make the Web accessible to people with disabilities.
 
