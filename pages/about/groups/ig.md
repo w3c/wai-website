@@ -54,7 +54,7 @@ The WAI Interest Group has two mailing lists.
 
 ### Announcements List
 
-The Announcements List is for WAI announcements only &mdash; see the [Announcement List Mail Archive](http://lists.w3.org/Archives/Public/public-wai-announce/).
+The Announcements List is for WAI announcements only &mdash; see the [Announcement List Mail Archive](https://lists.w3.org/Archives/Public/public-wai-announce/).
 
 If you want to send a message to this list, you must send it from an email address that is subscribed to the list.
 
