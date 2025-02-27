@@ -54,7 +54,7 @@ The WAI Interest Group has two mailing lists.
 
 ### Announcements List
 
-The Announcements List is for WAI announcements only &mdash; see the [Announcement List Mail Archive](http://lists.w3.org/Archives/Public/public-wai-announce/).
+The Announcements List is for WAI announcements only &mdash; see the [Announcement List Mail Archive](https://lists.w3.org/Archives/Public/public-wai-announce/).
 
 If you want to send a message to this list, you must send it from an email address that is subscribed to the list.
 
@@ -105,7 +105,7 @@ Make sure your email is related to digital accessibility and is appropriate for 
 
 In summary, before you send an email, think about how it will come across to the people around the world who are on the list and who can read your publicly archived message.
 
-See additional guidance in [Positive Work Environment at W3C: Code of Conduct](https://www.w3.org/Consortium/cepc/).
+See additional guidance in [Positive Work Environment at W3C: Code of Conduct](https://www.w3.org/policies/code-of-conduct/).
 
 ##### Asking about vendors or products
 

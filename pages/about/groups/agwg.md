@@ -54,7 +54,7 @@ Work on developing WCAG 3 takes place in many task forces and subgroups of the A
 
 ### WCAG 2.2
 
-The [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog) maintains WCAG 2.x (WCAG versions 2.0, 2.1, and 2.2) for the AG Working Group. This includes reviewing public comments on WCAG 2.x and improving the following supporting documents:
+The [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/) maintains WCAG 2.x (WCAG versions 2.0, 2.1, and 2.2) for the AG Working Group. This includes reviewing public comments on WCAG 2.x and improving the following supporting documents:
 
 * [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
 * [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/)
@@ -72,7 +72,7 @@ There are ways you can contribute without being a member of the working group:
 * **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
 * **Raise, comment on, or propose fixes to WCAG issues:** If you’re aware of an issue with any of the published WCAG 2.x resources, W3C welcomes you to [raise a new issue on GitHub](https://github.com/w3c/wcag/issues/) &mdash; you can also comment on and, even better, propose solutions for existing issues.
 * **Contribute to WCAG 3 discussions:** As WCAG 3 develops, many topics are being discussed &mdash; to contribute your views, see the list of [open WCAG 3 discussions in GitHub](https://github.com/w3c/wcag3/discussions) and [mailing list discussions](https://lists.w3.org/Archives/Public/w3c-wai-gl/).
-* **Participate in a community group:** W3C hosts a small number of active community groups that focus on digital accessibility issues &mdash; for details, search for ‘accessibility’ on [Current Groups &mdash; W3C Community and Business Groups](https://www.w3.org/community/groups).
+* **Participate in a community group:** W3C hosts a small number of active community groups that focus on digital accessibility issues &mdash; for details, search for ‘accessibility’ on [Current Groups &mdash; W3C Community and Business Groups](https://www.w3.org/community/groups/).
 
 ### Become a participant in the group
 

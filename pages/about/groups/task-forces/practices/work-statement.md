@@ -36,7 +36,7 @@ The APG Task Force was [approved on 14 September 2017](https://lists.w3.org/Arch
 
 ## Objective
 
-The mission of the APG Task Force is to develop [WAI-ARIA Authoring Practices](http://w3c.github.io/aria-practices/), in consultation with the ARIA Working Group. The task force provides a focused forum for this work while the Working Group continues its work on ARIA development.
+The mission of the APG Task Force is to develop [WAI-ARIA Authoring Practices](https://w3c.github.io/aria-practices/), in consultation with the ARIA Working Group. The task force provides a focused forum for this work while the Working Group continues its work on ARIA development.
 
 ## Scope of Work
 

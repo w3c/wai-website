@@ -57,7 +57,7 @@ The Low Vision Accessibility Task Force will also coordinate with the [Accessibl
 
 Low Vision Accessibility Task Force communications are publicly visible. Communication mechanisms for the Low Vision Accessibility Task Force include:
 
-- Low Vision Accessibility Task Force mailing list public-low-vision-a11y-tf@w3.org and [mailing list archive](http://lists.w3.org/Archives/Public/public-low-vision-a11y-tf/) ;
+- Low Vision Accessibility Task Force mailing list public-low-vision-a11y-tf@w3.org and [mailing list archive](https://lists.w3.org/Archives/Public/public-low-vision-a11y-tf/) ;
 - Use of a [wiki](https://www.w3.org/WAI/GL/task-forces/low-vision-a11y-tf/wiki/) to share development of resources;
 - [Web-based surveys](https://www.w3.org/2002/09/wbs/81151/) to poll group opinion;
 - IRC discussion on the [#lvtf](irc://irc.w3.org/lvtf) IRC channel, used largely for minute-taking;

@@ -82,7 +82,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/aria-practices/calendar/)
 * [Minutes from previous meetings](https://www.w3.org/WAI/ARIA/task-forces/practices/minutes)
-* [Mailing list archive](http://lists.w3.org/Archives/Public/public-aria-practices/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-aria-practices/)
 
 ## Publications
 
