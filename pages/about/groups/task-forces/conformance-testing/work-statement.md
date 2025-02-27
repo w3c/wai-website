@@ -1,17 +1,19 @@
 ---
-title: Accessibility Conformance Testing (ACT) Work Statement (2024)
-permalink: /about/groups/task-forces/conformance-testing/work-statement-2024/
-ref: /about/groups/task-forces/conformance-testing/work-statement-2024/
+title: Accessibility Conformance Testing Task Force Work Statement
+permalink: /about/groups/task-forces/conformance-testing/work-statement/
+ref: /about/groups/task-forces/conformance-testing/work-statement/
+redirect_from:
+  - /about/groups/task-forces/conformance-testing/work-statement-2024/
 lang: en
 github:
   label: wai-groups
 ---
 
-The [Accessibility Conformance Testing Task Force (ACT TF)](/about/groups/task-forces/conformance-testing/) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists this Working Group with the work identified below.
+The [Accessibility Conformance Testing (ACT) Task Force](/about/groups/task-forces/conformance-testing/) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists this Working Group with the work identified below.
 
 ## Status
 
-This Work Statement was proposed to AG WG on xx xx 2024 and will be active if approved. The prior [2020 work statement](/about/groups/task-forces/conformance-testing/work-statement-2020work-statement-2020) is available. The [Task Force home page](/about/groups/task-forces/conformance-testing/) contains information about the operation and resources of this group.
+This Work Statement was approved by the AG Chairs on 31 January 2025 and is now active. The prior [2020 work statement](/about/groups/task-forces/conformance-testing/work-statement-2020/) is available. The [Task Force home page](/about/groups/task-forces/conformance-testing/) contains information about the operation and resources of this group.
 
 Objective
 ---------
@@ -22,6 +24,7 @@ ACT TF's objective is to evolve and maintain a repository of ACT Rules for [Web 
 
 The work of the Accessibility Conformance Testing (ACT) Task Force includes:
 
+*   **ACT Rules Format:** Update the [ACT Rules Format](https://www.w3.org/TR/act-rules-format/) to version 1.1
 *   **Repository of ACT Rules:** Review ACT Rules contributed to W3C, such as from [Accessibility Conformance Testing Rules Community Group (ACT-R CG)](https://act-rules.github.io/), and maintain a repository of rules approved by W3C Working Groups, including AG and ARIA
 *   **Implementations Monitoring:** Encourage and gather implementation reports from accessibility test tools and methodologies for ACT Rules published by AG WG
 *   **Specification Maintenance:** Maintain [Errata](https://www.w3.org/WAI/GL/task-forces/conformance-testing/errata) for [ACT Rules Format 1.0 specification](https://www.w3.org/TR/act-rules-format/), and gather feature requests for future versions of this specification
@@ -39,10 +42,10 @@ ACT TF will continue to gather implementation experience, including of the [ACT 
 The Accessibility Conformance Testing (ACT) Task Force depends on:
 
 *   [AG WG](/about/groups/agwg/) to ensure accurate interpretation and representation of WCAG requirements;
-*   [ARIA WG](/about/groups/aria/) to ensure accurate interpretation and representation of WAI-ARIA requirements;
+*   [ARIA WG](/about/groups/ariawg/) to ensure accurate interpretation and representation of WAI-ARIA requirements;
 *   [ACT Rules Community Group](https://act-rules.github.io/) to utilize this group's contribution on conformance testing.
 
-The Accessibility Conformance Testing (ACT) Task Force will also coordinate with relevant W3C groups and activities on testing and quality assurance. This may include groups such as [Browser Testing and Tools Working Group](https://www.w3.org/testing/browser/). The Task Force may also coordinate with the [Education and Outreach Working Group (EOWG)](/about/groups/eo/) where necessary to improve the writing, presentation, and educational value of the developed materials.
+The Accessibility Conformance Testing (ACT) Task Force will also coordinate with relevant W3C groups and activities on testing and quality assurance. This may include groups such as [Browser Testing and Tools Working Group](https://www.w3.org/groups/wg/browser-tools-testing/).
 
 ## Communication
 
@@ -67,7 +70,7 @@ Participants may also join Accessibility Conformance Testing Task Force sub-grou
 
 If you are interested in becoming a participant of the Accessibility Conformance Testing Task Force or have any questions regarding its work, contact the task force facilitators.
 
-[Current participants in the ACT TF](https://www.w3.org/groups/tf//wcag-act/participants).
+[Current participants in the ACT TF](https://www.w3.org/groups/tf/wcag-act/participants).
 
 ## Facilitation
 
@@ -76,8 +79,8 @@ Staff contacts from the AG Working Group oversee attention to W3C Process with r
 *   **Facilitators:**
     *   Wilco Fiers, Deque Systems
     *   Kathy Eng, Access Board
-*   **Staff Contact:** [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo/)
+*   **Staff Contact:** [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo)
 
 ## Patent Policy
 
-This Task Force is part of the [AG Working Group Charter](https://www.w3.org/WAI/GL/charter), which operates under the [W3C Patent Policy](https://www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [AG Working Group](https://www.w3.org/2004/01/pp-impl/35422/status).
+This Task Force is part of the [AG Working Group Charter](https://www.w3.org/WAI/GL/charter), which operates under the [W3C Patent Policy](https://www.w3.org/policies/patent-policy/20200915/) (15 September 2020 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [AG Working Group](https://www.w3.org/2004/01/pp-impl/35422/status).

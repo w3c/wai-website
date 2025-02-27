@@ -142,6 +142,4 @@ WAI includes the following Working Groups and Interest Group:
 -   [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/)
 -   [WAI Interest Group (WAI IG)](/about/groups/waiig/) hosts an e-mail discussion list that is open to anyone
 
-Within the Working Groups, there are also [Task Forces](/about/groups/task-forces/).
-
 Learn more about [Participating in WAI](https://www.w3.org/WAI/about/participating/).

@@ -1,5 +1,5 @@
 ---
-title: Low Vision Accessibility Task Force Work Statement)
+title: Low Vision Accessibility Task Force Work Statement
 permalink: /about/groups/task-forces/low-vision-a11y-tf/work-statement/
 ref: /about/groups/task-forces/low-vision-a11y-tf/work-statement/
 lang: en
@@ -22,7 +22,7 @@ github:
 
 This Work Statement was approved in 2015. Updated information is available from the [Low Vision Accessibility Task Force home page](/about/groups/task-forces/low-vision-a11y-tf/) and [wiki page](https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Main_Page).
 
-The Low Vision Accessibility Task Force (Low Vision A11Y TF) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly also of the [User Agent Accessibility Guidelines Working Group (UAWG)](https://www.w3.org/WAI/UA/) which has closed). It assists this Working Group with the work identified below.
+The Low Vision (LV) Accessibility Task Force is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly also of the [User Agent Accessibility Guidelines Working Group (UAWG)](https://www.w3.org/WAI/UA/) which has closed). It assists this Working Group with the work identified below.
 
 ## Status
 
