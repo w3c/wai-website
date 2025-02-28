@@ -39,9 +39,7 @@ Find out about the activities of the Accessibility Guidelines (AG) Working Group
 
 The mission of the AG Working Group is to develop and maintain specifications for making web content accessible to people with disabilities, along with support materials for implementing the Web Content Accessibility Guidelines (WCAG).
 
-## Charter
-
-To learn about the group’s focus, scope and deliverables, see the [AG Working Group Charter](https://www.w3.org/WAI/GL/charter).
+To learn about the group’s focus, scope and deliverables, see the [AG Working Group Charter](https://www.w3.org/groups/wg/ag/charters/).
 
 
 ## Current work 
@@ -112,7 +110,10 @@ The AG Working Group maintains the following GitHub repositories:
 
 ## Publications and copyright
 
-[List of technical reports published by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/).
+* [List of technical reports published by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/).
+* [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/)
+* [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/)
+
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/).
 

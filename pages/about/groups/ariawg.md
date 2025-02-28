@@ -45,9 +45,7 @@ Find out about the activities of the Accessible Rich Internet Applications (ARIA
 
 The mission of the ARIA Working Group is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
 
-## Charter
-
-To learn about the group’s focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
+To learn about the group’s focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/groups/wg/aria/charters/).
 
 ## Current work 
 
