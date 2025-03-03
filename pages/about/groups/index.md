@@ -50,6 +50,6 @@ The ARIA Working Group is supported by the:
 
 The [WAI Interest Group](/about/groups/waiig/) is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work.
 
-## Previous groups
+## Past groups
 
-See [Previous groups](/about/groups/previous-groups/) for details of working groups and task forces that have now closed.
+See [Past groups](/about/groups/previous-groups/) for details of working groups and task forces that have now closed.
