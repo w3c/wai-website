@@ -281,7 +281,11 @@ defaults:
       path: "pages/wai-evaluation-tools-list"
     values:
       layout: "default"
-
+  -
+    scope:
+      path: "pages/planning-policies/arrm"
+    values:
+      feedbackmail: public-arrm@w3.org
   -
     scope:
       path: "_translations-sitemaps"
