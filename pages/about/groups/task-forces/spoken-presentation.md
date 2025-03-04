@@ -88,7 +88,7 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 ## Communications
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/pronunciation-tf/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/pronunciation/minutes)
+* [Minutes from previous meetings](/about/groups/task-forces/spoken-presentation/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-pronunciation/)
 
 ## Publications

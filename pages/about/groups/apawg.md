@@ -83,7 +83,7 @@ See [Instructions for joining the Accessible Platform Architectures Working Grou
 ## Communications and decisions
 
 * [Calendar of meetings](https://www.w3.org/groups/wg/apa/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/minutes)
+* [Minutes from previous meetings](/about/groups/apawg/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-apa/)
 * [Record of decisions](https://www.w3.org/WAI/APA/wiki/Decisions)
 * [Decision policy](/about/groups/apawg/decision-policy/)
