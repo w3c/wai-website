@@ -4,7 +4,7 @@
 title: "Planning and Policies Overview"
 nav_title: "Overview"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2021-05-07    # Keep the date of the English version
+last_updated: 2025-03-06    # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
