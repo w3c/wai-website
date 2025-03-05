@@ -78,9 +78,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 ## Communications
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/mobile-a11y-tf/calendar/)
-* Minutes from previous meetings of the Mobile A11y Task Force:
-  * [Minutes from January 2024](https://www.w3.org/groups/tf/mobile-a11y-tf/calendar/?past=1&tf=0)
-  * [Minutes from 2013 to 2021](/about/groups/task-forces/matf/minutes/)
+* [Minutes from previous meetings](/about/groups/task-forces/matf/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-mobile-a11y-tf/)
 
 ## Publications

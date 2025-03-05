@@ -3,7 +3,7 @@
   "coga": ["coga"],
   "conformance-testing": ["wcag-act"],
   "low-vision-a11y-tf": ["low-vision", "lvtf"],
-  "matf": ["mobile-a11y"],
+  "matf": ["mobile-a11y", "matf"],
   "wcag2ict": ["wcag2ict"],
   "apa": ["apa", "pf", "pf-ftf"],
   "adapt": ["adapt", "personalization"],
@@ -12,5 +12,6 @@
   "research-questions": ["rqtf"],
   "spoken-presentation": ["pronunciation"],
   "aria": ["aria", "aria-dive"],
+  "pdf-aam": ["pdf-aam"],
   "practices": ["aria-apg"]
 }
