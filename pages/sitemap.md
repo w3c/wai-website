@@ -2,7 +2,7 @@
 # Do not translate the Sitemap
 title: WAI Site Map
 lang: en
-last_updated: 2024-08-16
+last_updated: 2025-03-06
 permalink: /sitemap/
 parent: "/"
 github:
