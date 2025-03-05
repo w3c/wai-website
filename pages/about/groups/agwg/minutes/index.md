@@ -1,5 +1,6 @@
 ---
 title: Minutes from AG (Formerly WCAG) WG Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/agwg/minutes/
 ref: /about/groups/agwg/minutes/

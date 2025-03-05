@@ -1,5 +1,6 @@
 ---
 title: Resolutions from FAST TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/fast/minutes/resolutions/
 ref: /about/groups/task-forces/fast/minutes/resolutions/

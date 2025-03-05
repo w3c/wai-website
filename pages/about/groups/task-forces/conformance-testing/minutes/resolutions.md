@@ -1,5 +1,6 @@
 ---
 title: Resolutions from ACT TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/conformance-testing/minutes/resolutions/
 ref: /about/groups/task-forces/conformance-testing/minutes/resolutions/
