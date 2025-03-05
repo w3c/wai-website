@@ -1,0 +1,8 @@
+---
+title: "For Review: Accessibility Roles and Responsibilities Mapping (ARRM) — First Draft
+"
+date: 2025-03-05
+---
+
+
+[Accessibility Roles and Responsibilities Mapping (ARRM)](https://www.w3.org/WAI/planning/arrm/) is ready for review. ARRM helps your team create more accessible digital products and services. ARRM provides an approach for defining roles, tasks, and responsibilities for meeting Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)). If you would like to be involved in developing ARRM, we encourage you to join the [ARRM Community Group](https://www.w3.org/community/arrm/).  
