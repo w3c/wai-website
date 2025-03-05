@@ -4,7 +4,7 @@
 title: "Plan"
 nav_title: "Plan"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2019-01-09  # Keep the date of the English version
+last_updated: 2025-03-06  # Keep the date of the English version
 first_published: "October 2002"
 title_icon: /content-images/planning-managing/icons.svg#plan
 order: 2
