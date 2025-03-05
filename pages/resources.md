@@ -113,6 +113,9 @@ The following resources provide guidance for individual project management and f
 [[Planning and Managing Web Accessibility]](/planning-and-managing/)
 : Describes activities to help you integrate accessibility throughout your organization and projects.
 
+[[Roles and Responsibilities (ARRM)]](/planning/arrm/)
+: Provides an approach for defining roles, tasks, and responsibilities for meeting Web Content Accessibility Guidelines (WCAG).
+
 [[Involving Users in Web Projects for Better, Easier Accessibility]](/planning/involving-users/)
 : Describes how project managers, designers, and developers can better understand accessibility issues and implement more effective accessibility solutions.
 {:.paragraph-like}
