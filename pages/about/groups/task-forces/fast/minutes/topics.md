@@ -1,5 +1,6 @@
 ---
 title: Topics from FAST TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/fast/minutes/topics/
 ref: /about/groups/task-forces/fast/minutes/topics/

@@ -1,5 +1,6 @@
 ---
 title: Resolutions from COGA TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/coga/minutes/resolutions/
 ref: /about/groups/task-forces/coga/minutes/resolutions/

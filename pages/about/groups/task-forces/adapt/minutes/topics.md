@@ -1,5 +1,6 @@
 ---
 title: Topics from WAI-Adapt TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/adapt/minutes/topics/
 ref: /about/groups/task-forces/adapt/minutes/topics/

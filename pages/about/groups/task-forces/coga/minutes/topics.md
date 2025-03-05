@@ -1,5 +1,6 @@
 ---
 title: Topics from COGA TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/coga/minutes/topics/
 ref: /about/groups/task-forces/coga/minutes/topics/

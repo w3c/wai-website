@@ -1,5 +1,6 @@
 ---
 title: Minutes from ACT TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/conformance-testing/minutes/
 ref: /about/groups/task-forces/conformance-testing/minutes/

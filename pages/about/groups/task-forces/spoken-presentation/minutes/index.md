@@ -1,5 +1,6 @@
 ---
 title: Minutes from Spoken Presentation TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/spoken-presentation/minutes/
 ref: /about/groups/task-forces/spoken-presentation/minutes/

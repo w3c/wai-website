@@ -1,5 +1,6 @@
 ---
 title: Minutes from Maturity Model TF Meetings
+nav_title: Minutes
 lang: en
 permalink: /about/groups/task-forces/maturity-model/minutes/
 ref: /about/groups/task-forces/maturity-model/minutes/
