@@ -110,7 +110,7 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 
 ### For more information
 
--   [Financial Factors in Developing a Web Accessibility Business Case : Cost Considerations](/WAI/bcase/fin#invest) – Provides information on personnel costs, capital expenditure, and on-going costs to consider.
+-   [Financial Factors in Developing a Web Accessibility Business Case : Cost Considerations](/WAI/business-case/archive/fin.php#invest) – Provides information on personnel costs, capital expenditure, and on-going costs to consider.
 -   [Involving Users in Web Projects for Better, Easier Accessibility](/planning/involving-users/) – Provides information on the benefits of involving users and how to do it.
 
 {% include excol.html type="end" %}
