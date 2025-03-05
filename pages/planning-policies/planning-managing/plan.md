@@ -78,7 +78,9 @@ It is important to recognize that implementing accessibility is not only a conce
 -   **Acceptance testing** – Ensure that any agency-delivered website or component meets your desired level of accessibility.
 -   **Recruitment** – Incorporate accessibility skills within recruitment profiles.
 
- For an approach you can use to define roles, tasks, and responsibilities in your team for meeting Web Content Accessibility Guidelines (WCAG), see [Accessibility Roles and Responsibilities Mapping (ARRM)](/planning/arrm/).
+### For more information
+
+- [Accessibility Roles and Responsibilities Mapping (ARRM)](/planning/arrm/) — provides an approach you can use to define roles, tasks, and responsibilities in your team for meeting Web Content Accessibility Guidelines (WCAG).
 
 {% include excol.html type="end" %}
 {% include excol.html type="start" id="" %}
