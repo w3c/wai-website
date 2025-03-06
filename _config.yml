@@ -289,6 +289,7 @@ defaults:
       feedbackmail: public-arrm@w3.org
       github:
         repository: w3c/wai-arrm
+        branch: draft
       doc-note-type: draft
       doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
       acknowledgements: /planning/arrm/acknowledgements/
