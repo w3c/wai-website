@@ -282,7 +282,21 @@ defaults:
       path: "pages/wai-evaluation-tools-list"
     values:
       layout: "default"
-
+  -
+    scope:
+      path: "pages/planning-policies/arrm"
+    values:
+      feedbackmail: public-arrm@w3.org
+      github:
+        repository: w3c/wai-arrm
+      doc-note-type: draft
+      doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+      acknowledgements: /planning/arrm/acknowledgements/
+      license: creative-commons
+      description: ARRM helps you assign responsibilities for digital accessibility to appropriate roles (UX designer, content creator, developer) early in projects.
+      image:
+        path: /content-images/wai-arrm/arrm-social.png
+        alt: Accessibility Roles and Responsibilities Mapping (ARRM). W3C Web Accessibility Initiative (WAI). icons of hand, eye, brain, ear, speech, body.
   -
     scope:
       path: "_translations-sitemaps"
