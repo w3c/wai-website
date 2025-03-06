@@ -111,7 +111,7 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 
 ### For more information
 
--   [Financial Factors in Developing a Web Accessibility Business Case : Cost Considerations](/WAI/business-case/archive/fin.php#invest) – Provides information on personnel costs, capital expenditure, and on-going costs to consider.
+-   [Financial Factors in Developing a Web Accessibility Business Case : Cost Considerations](/WAI/business-case/archive/fin#invest) – Provides information on personnel costs, capital expenditure, and on-going costs to consider.
 -   [Involving Users in Web Projects for Better, Easier Accessibility](/planning/involving-users/) – Provides information on the benefits of involving users and how to do it.
 
 {% include excol.html type="end" %}
@@ -159,7 +159,7 @@ Accessibility checks can be performed at all stages of the process, not only whe
 
 ### For more information
 
--   [Identify the Issues](/WAI/planning/interim-repairs/#explore) in Web Accessibility First Aid: Approaches for Interim Repairs – Links to resources to help evaluate your website.
+-   [Identify the Issues](/planning/interim-repairs/#explore) in Web Accessibility First Aid: Approaches for Interim Repairs – Links to resources to help evaluate your website.
 -   [WCAG-EM Overview](/test-evaluate/conformance/) – Introduces a methodology for determining how well a website conforms to WCAG.
 -   [Involving Users in Web Projects for Better, Easier Accessibility](/planning/involving-users/) – Describes the benefits of involving users in projects and how to go about it.
 
