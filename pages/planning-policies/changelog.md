@@ -15,7 +15,7 @@ ref: /planning/changelog/
 feedbackmail: wai@w3.org
 ---
 
-# 6 March 2025
+## 6 March 2025
 
 - In the “Planning and Managing Accessibility” section: added a link to [Roles and Responsibilities (ARRM)](/planning/arrm/).
 
