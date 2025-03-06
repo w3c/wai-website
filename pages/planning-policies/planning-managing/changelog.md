@@ -15,7 +15,7 @@ ref: /planning-and-managing/changelog/
 feedbackmail: wai@w3.org
 ---
 
-# 6 March 2025
+## 6 March 2025
 
 In [Plan](/planning-and-managing/plan/):
 - In the “Assign responsibilities” section: added a “For more information” subsection with a link to [Roles and Responsibilities (ARRM)](/planning/arrm/).
