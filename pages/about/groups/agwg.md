@@ -95,7 +95,7 @@ See [Instructions for joining the Accessibility Guidelines Working Group](https:
 ## Communications and decisions
 
 * [Calendar of meetings](https://www.w3.org/groups/wg/ag/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/GL/minutes-history)
+* [Minutes from previous meetings](/about/groups/agwg/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/w3c-wai-gl/)
 * [Record of decisions](https://www.w3.org/WAI/GL/wiki/Decisions)
 * [Decision policy](/about/groups/agwg/decision-policy/)
