@@ -1,6 +1,6 @@
 ---
-title: Topics from APA WG Meetings
-nav_title: Minutes
+title: Accessible Platform Architectures Working Group Meeting Topics
+nav_title: Meeting Topics
 lang: en
 permalink: /about/groups/apawg/minutes/topics/
 ref: /about/groups/apawg/minutes/topics/

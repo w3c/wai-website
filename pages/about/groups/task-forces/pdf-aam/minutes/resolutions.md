@@ -1,6 +1,6 @@
 ---
-title: Resolutions from PDF-AAM TF Meetings
-nav_title: Minutes
+title: PDF Accessibility APIs Mapping Task Force Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/task-forces/pdf-aam/minutes/resolutions/
 ref: /about/groups/task-forces/pdf-aam/minutes/resolutions/

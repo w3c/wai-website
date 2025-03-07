@@ -1,6 +1,6 @@
 ---
-title: Resolutions from Spoken Presentation TF Meetings
-nav_title: Minutes
+title: Spoken Presentation Task Force Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/task-forces/spoken-presentation/minutes/resolutions/
 ref: /about/groups/task-forces/spoken-presentation/minutes/resolutions/

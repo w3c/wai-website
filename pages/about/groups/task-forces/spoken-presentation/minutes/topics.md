@@ -1,6 +1,6 @@
 ---
-title: Topics from Spoken Presentation TF Meetings
-nav_title: Minutes
+title: Spoken Presentation Task Force Meeting Topics
+nav_title: Meeting Topics
 lang: en
 permalink: /about/groups/task-forces/spoken-presentation/minutes/topics/
 ref: /about/groups/task-forces/spoken-presentation/minutes/topics/

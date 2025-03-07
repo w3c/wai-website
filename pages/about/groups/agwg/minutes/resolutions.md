@@ -1,6 +1,6 @@
 ---
-title: Resolutions from AG (Formerly WCAG) WG Meetings
-nav_title: Minutes
+title: Accessibility Guidelines Working Group Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/agwg/minutes/resolutions/
 ref: /about/groups/agwg/minutes/resolutions/

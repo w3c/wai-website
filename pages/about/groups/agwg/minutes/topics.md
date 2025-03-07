@@ -1,6 +1,6 @@
 ---
-title: Topics from AG (Formerly WCAG) WG Meetings
-nav_title: Minutes
+title: Accessibility Guidelines Working Group Meeting Topics
+nav_title: Meeting Topics
 lang: en
 permalink: /about/groups/agwg/minutes/topics/
 ref: /about/groups/agwg/minutes/topics/

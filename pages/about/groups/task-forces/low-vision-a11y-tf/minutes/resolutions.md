@@ -1,6 +1,6 @@
 ---
-title: Resolutions from Low Vision Accessibility TF Meetings
-nav_title: Minutes
+title: Low Vision Accessibility Task Force Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/task-forces/low-vision-a11y-tf/minutes/resolutions/
 ref: /about/groups/task-forces/low-vision-a11y-tf/minutes/resolutions/

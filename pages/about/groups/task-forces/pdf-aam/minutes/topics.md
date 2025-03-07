@@ -1,6 +1,6 @@
 ---
-title: Topics from PDF-AAM TF Meetings
-nav_title: Minutes
+title: PDF Accessibility APIs Mapping Task Force Meeting Topics
+nav_title: Meeting Topics
 lang: en
 permalink: /about/groups/task-forces/pdf-aam/minutes/topics/
 ref: /about/groups/task-forces/pdf-aam/minutes/topics/

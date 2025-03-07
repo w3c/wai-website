@@ -1,6 +1,6 @@
 ---
-title: Resolutions from FAST TF Meetings
-nav_title: Minutes
+title: Framework for Accessible Specification of Technologies Task Force Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/task-forces/fast/minutes/resolutions/
 ref: /about/groups/task-forces/fast/minutes/resolutions/
