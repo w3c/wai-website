@@ -11,8 +11,6 @@ Inputs:
   <a href="resolutions/">Resolutions</a>
 </p>
 
-{% include_cached minutes/meta.liquid group=include.group %}
-
 {%- assign current_year = 0 -%}
 {% for minutes in site.data.minutes[include.group] %}
   {%- capture date %}{{ minutes[0] | truncate: 10, "" }}{% endcapture -%}
