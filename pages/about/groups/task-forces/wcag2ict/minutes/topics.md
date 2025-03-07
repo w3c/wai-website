@@ -1,6 +1,6 @@
 ---
-title: Topics from WCAG2ICT TF Meetings
-nav_title: Minutes
+title: WCAG2ICT Task Force Meeting Topics
+nav_title: Meeting Topics
 lang: en
 permalink: /about/groups/task-forces/wcag2ict/minutes/topics/
 ref: /about/groups/task-forces/wcag2ict/minutes/topics/

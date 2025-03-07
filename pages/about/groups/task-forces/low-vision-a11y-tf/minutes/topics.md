@@ -1,6 +1,6 @@
 ---
-title: Topics from Low Vision Accessibility TF Meetings
-nav_title: Minutes
+title: Low Vision Accessibility Task Force Meeting Topics
+nav_title: Meeting Topics
 lang: en
 permalink: /about/groups/task-forces/low-vision-a11y-tf/minutes/topics/
 ref: /about/groups/task-forces/low-vision-a11y-tf/minutes/topics/

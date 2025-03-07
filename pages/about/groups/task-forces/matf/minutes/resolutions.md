@@ -1,6 +1,6 @@
 ---
-title: Resolutions from Mobile Accessibility TF Meetings
-nav_title: Minutes
+title: Mobile Accessibility Task Force Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/task-forces/matf/minutes/resolutions/
 ref: /about/groups/task-forces/matf/minutes/resolutions/

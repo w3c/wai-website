@@ -1,6 +1,6 @@
 ---
-title: Resolutions from WAI-Adapt TF Meetings
-nav_title: Minutes
+title: WAI-Adapt Task Force Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/task-forces/adapt/minutes/resolutions/
 ref: /about/groups/task-forces/adapt/minutes/resolutions/

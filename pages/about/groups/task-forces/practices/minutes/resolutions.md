@@ -1,6 +1,6 @@
 ---
-title: Resolutions from Authoring Practices TF Meetings
-nav_title: Minutes
+title: ARIA Authoring Practices Task Force Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/task-forces/practices/minutes/resolutions/
 ref: /about/groups/task-forces/practices/minutes/resolutions/

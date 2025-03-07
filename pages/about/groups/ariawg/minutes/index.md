@@ -1,6 +1,6 @@
 ---
-title: Minutes from ARIA WG Meetings
-nav_title: Minutes
+title: ARIA Working Group Meeting Minutes
+nav_title: Meeting Minutes
 lang: en
 permalink: /about/groups/ariawg/minutes/
 ref: /about/groups/ariawg/minutes/

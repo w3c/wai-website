@@ -1,6 +1,6 @@
 ---
-title: Resolutions from WCAG2ICT TF Meetings
-nav_title: Minutes
+title: WCAG2ICT Task Force Meeting Resolutions
+nav_title: Meeting Resolutions
 lang: en
 permalink: /about/groups/task-forces/wcag2ict/minutes/resolutions/
 ref: /about/groups/task-forces/wcag2ict/minutes/resolutions/

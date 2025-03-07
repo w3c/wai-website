@@ -1,6 +1,6 @@
 ---
-title: Minutes from Authoring Practices TF Meetings
-nav_title: Minutes
+title: ARIA Authoring Practices Task Force Meeting Minutes
+nav_title: Meeting Minutes
 lang: en
 permalink: /about/groups/task-forces/practices/minutes/
 ref: /about/groups/task-forces/practices/minutes/
