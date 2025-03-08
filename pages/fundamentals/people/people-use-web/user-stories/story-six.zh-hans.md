@@ -8,7 +8,7 @@ lang: zh-hans   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translations:
-  last_updated: 2025-02-14
+  last_updated: 2025-03-08
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -170,18 +170,18 @@ Dhruv 利用大量空闲时间观看视频流服务上的流媒体内容。近�
 
 没有音频替代品
 : **障碍：** “在网上观看新闻节目时，没有一个选项可以让我听懂发言人在说什么。”
-: **效果良好：** “提供音频替代方式，如手语、字幕或文字稿。如果镜头前有发言人，请对准发言人。”
+: **效果良好：** “提供音频替代方式，如手语、字幕或文本记录。如果镜头前有发言人，请对准发言人。”
 
 ## 使用的辅助技术和适应策略
 
 * [字幕（感知）](/people-use-web/tools-techniques/perception/#captions)
-* [誊本（感知）](/people-use-web/tools-techniques/perception/#transcripts)
+* [文本记录（感知）](/people-use-web/tools-techniques/perception/#transcripts)
 * [手语（感知）](/people-use-web/tools-techniques/perception/#sign)
 
 ## 相关WAI资源
 
 * 视频: [视频字幕](/perspective-videos/captions/)
-* 提示: [为多媒体创建誊本和字幕](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* 提示: [为多媒体创建文本记录和字幕](/tips/writing/#create-transcripts-and-captions-for-multimedia)
 * 提示: [在设计中加入图像和媒体替代方案](/tips/designing/#include-image-and-media-alternatives-in-your-design)
 * 提示: [为自动启动的内容提供控制功能](/tips/designing/#provide-controls-for-content-that-starts-automatically)
 * 提示: [编写适应用户技术的代码](/tips/developing/#write-code-that-adapts-to-the-users-technology)
@@ -219,7 +219,7 @@ _当前视频也可以在 W3C 服务器上找到: [视频: Dhruv，中年失聪�
 | 有些讲座有人工字幕员打出的实时字幕。这比自动字幕更准确，因为自动字幕往往无法识别讲座中的专业术语。对于我们指定的视频，我依赖于优秀的字幕。这些字幕经过编辑，屏幕上出现的每句话都不会太长，而且与音频同步。我还经常发现自己需要调整字幕的文字大小和颜色，以便更好地阅读。有些应用程序还允许我将字幕移到视频的顶部或底部，这样字幕就不会碍事了。 | 这名男子正在媒体播放器中观看视频，并从语言选项列表中选择了英语字幕。然后，他选择了希望字幕显示方式的选项。 |
 | 在某些情况下，我需要读唇语。例如，当我在没有翻译员或其他会手语的人的情况下接听计划外的视频会议时。多年来，我就是在这种情况下学会读唇语的，但这对我来说并不总是可靠的。我需要看到对方的嘴，让他们说清楚，看到他们的手势也有帮助。然而，这样做很累，我真的无法坚持太久。 | 这名男子正坐在办公桌前使用笔记本电脑。他正在使用一款视频会议应用程序参加在线会议。 |
 | 我还使用聊天功能。有些聊天工具支持实时文本，而不仅仅是逐行文本信息。这样互动性更强。我可以与我的朋友进行文字对话，就像其他人用语音聊天一样。 | 这名男子坐在办公桌前，使用笔记本电脑通过聊天功能与其他人聊天。 |
-| 当然，这些课程也伴随着大量的阅读。我对此没意见，除非文章过于复杂，没有列表和标题等结构。人们不知道，对我来说，阅读文章需要付出额外的努力，因为手语是我的母语。因此，和其他人一样，简洁明了的文字会让文字更容易理解。 | 这名男子正坐在办公桌前使用笔记本电脑，阅读一篇复杂的长文。 |
+| 当然，这些课程也伴随着大量的阅读。我对此没意见，除非文章过于复杂，没有列表和标题等结构。人们不知道，对我来说，阅读文章需要付出额外的努力，因为手语是我的母语。因此，和其他人一样，简洁明了的文字会更容易理解。 | 这名男子正坐在办公桌前使用笔记本电脑，阅读一篇复杂的长文。 |
 | 您可以帮助让无障碍对我更友好。无障碍：以人为本。 | 该男子直接对着镜头说话 |
 | 有关 Web 无障碍倡议组织提供的有关残疾人如何使用数字技术的更多信息，请访问 w3.org/WAI/people | 无障碍：以人为本。w3.org/WAI/people |
 
