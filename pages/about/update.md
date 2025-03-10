@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, February 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, March 2025</span>"
 lang: en
-last_updated: 2025-02-04
+last_updated: 2025-03-10
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
 
@@ -99,9 +99,9 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in Q1 (January, February, and March) 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in March or April 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* Accessibility Roles and Responsibilities Mapping (ARRM) as a draft
+* A draft new resource on applying WCAG 2.2 to mobile
 * More [WAI Translations](/translations/) &mdash; usually some each week
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
@@ -188,6 +188,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* March 2025
+  * Added mobile accessibility resource to [Upcoming Publications list](/update/#upcoming-publications), and removed ARRM because we published it.
 * 4 February 2025
   * Updated [Who is We](/update/#who-is-we) with new W3C WAI Team
 * 21 January 2025
