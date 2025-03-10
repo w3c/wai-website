@@ -12,7 +12,16 @@ module Jekyll
 
       minutesUri =
         URI("https://www.w3.org/services/meeting-minutes?format=json&num=#{limit}&channels=#{requested_channels.uniq().join(',')}")
-      data = JSON.parse(Net::HTTP.get(minutesUri))
+
+      rawData = nil
+      begin
+        rawData = Net::HTTP.get(minutesUri)
+      rescue Exception => e
+        $stdout.puts('Meeting minutes could not be fetched; skipping')
+        return
+      end
+
+      data = JSON.parse(rawData)
       grouped_data = {}
       data.each do |entry|
         entry['topics'].select! {|topic| topic['title'] != nil}

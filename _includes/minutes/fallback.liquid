@@ -1,0 +1,15 @@
+{%- comment %}
+Renders fallback for when data could not be successfully retrieved.
+
+Expected input:
+- group - name of group, matching a key in _data/minutes/groups.json
+{% endcomment -%}
+
+{% include box.html type="start" class="highlighted" %}
+
+Minutes listings are temporarily unavailable. We apologize for the inconvenience.
+
+In the interim, you can view recent meeting minutes and topics from the
+<a href="https://www.w3.org/services/meeting-minutes?num=200&channels={{ site.data.minutes.groups[include.group] | join: ',' }}">meeting minute topic scraper</a>.
+
+{% include box.html type="end" %}
