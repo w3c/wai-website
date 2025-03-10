@@ -1,0 +1,55 @@
+{% comment %}
+IMPORTANT: When including within .md files, surround with {::nomarkdown}...{:/}
+
+Inputs:
+- group - group ID (i.e. a top-level key in _data/minutes/groups.json)
+{% endcomment %}
+
+<p>
+  <a href="../">Minutes</a> |
+  <a href="../topics/">Topics</a> |
+  <a href="./" aria-current="page">Resolutions</a>
+</p>
+
+<p>
+  Resolutions reflect general consensus of participants present in a meeting.
+  They are not formal decisions of the group. Refer to the
+  <a href="/WAI/GL/wiki/Decisions">Decisions</a> page for formal decisions.
+  Context for each resolution is available via its link into the minutes.
+</p>
+
+{%- if site.data.minutes[include.group] -%}
+  {%- assign current_year = 0 -%}
+  {% for minutes in site.data.minutes[include.group] %}
+    {%- unless minutes[1].resolutions.size %}{% continue %}{% endunless -%}
+    {%- capture date %}{{ minutes[0] | truncate: 10, "" }}{% endcapture -%}
+    {%- capture year %}{{ date | truncate: 4, "" }}{% endcapture -%}
+    {%- capture channel %}{{ minutes[0] | replace_first: date, "" | replace_first: "-", "" }}{% endcapture -%}
+    {% if year != current_year %}
+      {%- if current_year != 0 %}</ul></section>{% endif %}
+      {%- assign current_year = year -%}
+      <section id="minutes-{{ current_year }}">
+        <h2>{{ current_year }}</h2>
+        <ul>
+    {% endif %}
+          <li>
+            <a href="{{ minutes[1].href }}">{{ date | date: "%e %B" }}: {{ minutes[1].title }}</a>
+            <ul>
+    {% for resolution in minutes[1].resolutions %}
+              <li>
+                {% if resolution.topic %}{{ resolution.topic }} - {% endif -%}
+                <a href="{{ minutes[1].href }}#{{ resolution.id }}">
+                  {{- resolution.content -}}
+                </a>
+              </li>
+    {% endfor %}
+            </ul>
+          </li>
+  {% endfor %}
+  {% if current_year != 0 %}
+        </ul>
+      </section>
+  {% endif %}
+{%- else -%}
+  {% include_cached minutes/fallback.liquid group=include.group %}
+{%- endif -%}

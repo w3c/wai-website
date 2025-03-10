@@ -1,0 +1,35 @@
+{% comment %}
+IMPORTANT: When including within .md files, surround with {::nomarkdown}...{:/}
+
+Inputs:
+- group - group ID (i.e. a top-level key in _data/minutes/groups.json)
+{% endcomment %}
+
+<p>
+  <a href="./" aria-current="page">Minutes</a> |
+  <a href="topics/">Topics</a> |
+  <a href="resolutions/">Resolutions</a>
+</p>
+
+{%- if site.data.minutes[include.group] -%}
+  {%- assign current_year = 0 -%}
+  {% for minutes in site.data.minutes[include.group] %}
+    {%- capture date %}{{ minutes[0] | truncate: 10, "" }}{% endcapture -%}
+    {%- capture year %}{{ date | truncate: 4, "" }}{% endcapture -%}
+    {%- capture channel %}{{ minutes[0] | replace_first: date, "" | replace_first: "-", "" }}{% endcapture -%}
+    {% if year != current_year %}
+      {%- if current_year != 0 %}</ul></section>{% endif %}
+      {%- assign current_year = year -%}
+      <section id="minutes-{{ current_year }}">
+        <h2>{{ current_year }}</h2>
+        <ul>
+    {% endif %}
+          <li><a href="{{ minutes[1].href }}">{{ date | date: "%e %B" }}: {{ minutes[1].title }}</a></li>
+  {% endfor %}
+  {% if current_year != 0 %}
+        </ul>
+      </section>
+  {% endif %}
+{%- else -%}
+  {% include_cached minutes/fallback.liquid group=include.group %}
+{%- endif -%}
