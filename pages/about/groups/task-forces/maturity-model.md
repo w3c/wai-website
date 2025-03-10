@@ -32,7 +32,7 @@ Find out about the activities of the Maturity Model (MM) Task Force and how you 
 
 ## Objectives
 
-The objective of the Maturity Model (MM) Task Force is to provide an Accessibility Maturity Model to guide organizations in developing the capability to buy, build or use accessible internal and external products and services, and to help them track changes and trends in providing these products and services over time.
+The objective of the Maturity Model (MM) Task Force is to provide an Accessibility Maturity Model to guide organizations in developing the capability to buy, build or use accessible internal and external digital assets, products and services, and to track changes and trends in providing these assets, products and services over time.
 
 
 ## Work statement

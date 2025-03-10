@@ -40,11 +40,14 @@ Find out about the activities of the Accessible Platform Architectures (APA) Wor
 
 ## Mission
 
-The mission of the APA Working Group is to ensure W3C specifications support accessibility for people with disabilities through the following activities: reviewing specifications; developing new specifications and technical support materials; collaborating with other W3C working groups on technology accessibility; and coordinating harmonized accessibility strategies within W3C that include security, privacy, and internationalization.
+The mission of the APA Working Group is to ensure W3C specifications support accessibility for people with disabilities through the following activities: 
 
-## Charter
+* reviewing specifications
+* developing new specifications and technical support materials
+* collaborating with other W3C working groups on technology accessibility
+* coordinating harmonized accessibility strategies within W3C that include security, privacy, and internationalization
 
-To learn about the group’s focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/2023/07/apa-wg-charter).
+To learn about the group’s focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/groups/wg/apa/charters/).
 
 ## Current work
 
