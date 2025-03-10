@@ -32,7 +32,7 @@ Find out about the activities of the Research Questions (RQ) Task Force and how 
 
 ## Objectives
 
-The objectives of the RQ Task Force are to identify accessibility barriers and knowledge gaps in emerging and future web technologies; publish the research findings on those barriers and gaps; and support W3C’s horizontal reviews of web technologies as they mature and are normatively specified.
+The objectives of the RQ Task Force are to identify accessibility barriers and knowledge gaps in emerging and future web technologies; publish research findings to help ameliorate those barriers and gaps; and support W3C’s horizontal reviews of web technologies as they mature and are normatively specified.
 
 ## Work statement
 

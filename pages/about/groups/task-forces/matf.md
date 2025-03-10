@@ -11,7 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-Find out about the activities of the Mobile Accessibility (Mobile A11y) Task Force and how you can contribute to its objectives.
+Find out about the activities of the Mobile Accessibility Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
