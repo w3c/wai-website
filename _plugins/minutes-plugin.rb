@@ -21,7 +21,14 @@ module Jekyll
         return
       end
 
-      data = JSON.parse(rawData)
+      data = nil
+      begin
+        data = JSON.parse(rawData)
+      rescue JSON::JSONError => e
+        $stdout.puts('Meeting minutes could not be parsed; skipping')
+        return
+      end
+
       grouped_data = {}
       data.each do |entry|
         entry['topics'].select! {|topic| topic['title'] != nil}
