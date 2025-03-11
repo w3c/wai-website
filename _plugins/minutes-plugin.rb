@@ -17,7 +17,7 @@ module Jekyll
       begin
         rawData = Net::HTTP.get(minutesUri)
       rescue Exception => e
-        $stdout.puts('Meeting minutes could not be fetched; skipping')
+        Jekyll.logger.warn 'WARNING: Meeting minutes could not be fetched; skipping'
         return
       end
 
@@ -25,7 +25,7 @@ module Jekyll
       begin
         data = JSON.parse(rawData)
       rescue JSON::JSONError => e
-        $stdout.puts('Meeting minutes could not be parsed; skipping')
+        Jekyll.logger.warn 'WARNING: Meeting minutes could not be parsed; skipping'
         return
       end
 
@@ -67,7 +67,7 @@ module Jekyll
             details.except(:channel_id, :date)
         end
       end
-      $stdout.puts('Fetched meeting minutes data in ' + (Time.now - start_time).to_s + ' seconds')
+      Jekyll.logger.info 'Fetched meeting minutes data in ' + (Time.now - start_time).to_s + ' seconds'
     end
   end
 end
