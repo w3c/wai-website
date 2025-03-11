@@ -1,9 +1,9 @@
 ---
-title: How to update WCAG 2.1 translations
-nav_title: "Update WCAG 2.1 translations"
+title: How to update WCAG 2 translations
+nav_title: "Update WCAG 2 translations"
 lang: en
-last_updated: 2024-10-22
-description: Technical instructions on updating WCAG 2.1 translations
+last_updated: 2024-12-19
+description: Technical instructions on updating WCAG 2 translations
 
 permalink: /about/translating/wcag/wcag21-update/
 ref: /about/translating/wcag/wcag21-update/
@@ -22,11 +22,7 @@ footer: |
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Web Content Accessibility Guidelines (WCAG) 2.1 have been updated on 21 September 2023:
-- The version published on 21 September 2023: [https://www.w3.org/TR/2023/REC-WCAG21-20230921/](https://www.w3.org/TR/2023/REC-WCAG21-20230921/)
-- The outdated version, published on 5 June 2018: [https://www.w3.org/TR/2018/REC-WCAG21-20180605/](https://www.w3.org/TR/2018/REC-WCAG21-20180605/)
-
-This page guides you through the steps to update an existing WCAG 2.1 translation.
+This page guides you through the steps to update an existing WCAG 2.2 or 2.1 translation.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -51,35 +47,49 @@ To update a W3C technical report translation, you must follow the same process a
 - Unofficial translations: [Instructions for W3C technical reports translations](https://www.w3.org/Consortium/Translation/#how)
 - Authorized translations: [Policy for Authorized W3C Translations](https://www.w3.org/2005/02/TranslationPolicy.html)
 
-Considering the limited scope of the WCAG 2.1 update, we will do our best to ensure that the W3C's steps run as smoothly as possible.
+We will do our best to ensure that the W3C's steps run as smoothly as possible.
 
 ## Browse the content changes
 
 The easiest way to spot the changes between the two versions is to use a "diff checker" tool, such as the [W3C HTML Diff service](https://services.w3.org/htmldiff). 
 
-Use the following input values :
+### WCAG 2.1 changes
+
+Use the following input values to compare the June 2018 and December 2024 versions of WCAG 2.1:
 
 Address of reference document
 : [https://www.w3.org/TR/2018/REC-WCAG21-20180605/](https://www.w3.org/TR/2018/REC-WCAG21-20180605/)
 
 Address of new document
-: [https://www.w3.org/TR/2023/REC-WCAG21-20230921/](https://www.w3.org/TR/2023/REC-WCAG21-20230921/)
+: [https://www.w3.org/TR/2024/REC-WCAG21-20241212/](https://www.w3.org/TR/2024/REC-WCAG21-20241212/)
 
-You can use this direct link: [Diff between 2018 and 2023 WCAG 2.1 versions, via W3C HTML diff service](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FTR%2F2018%2FREC-WCAG21-20180605%2F&doc2=https%3A%2F%2Fwww.w3.org%2FTR%2F2023%2FREC-WCAG21-20230921%2F)
+You can use this direct link: [Diff between 2018 and 2024 WCAG 2.1 versions, via W3C HTML diff service](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FTR%2F2018%2FREC-WCAG21-20180605%2F&doc2=https%3A%2F%2Fwww.w3.org%2FTR%2F2024%2FREC-WCAG21-20241212%2F)
 
 We also recommend that you read the [WCAG 2.1 Change log](https://www.w3.org/TR/WCAG21/#changelog).
 
+### WCAG 2.2 changes
+
+Use the following input values to compare the October 2023 and December 2024 versions of WCAG 2.2:
+
+Address of reference document
+: [https://www.w3.org/TR/2023/REC-WCAG22-20231005/](https://www.w3.org/TR/2023/REC-WCAG22-20231005/)
+
+Address of new document
+: [https://www.w3.org/TR/2024/REC-WCAG22-20241212/](https://www.w3.org/TR/2024/REC-WCAG22-20241212/)
+
+You can use this direct link: [Diff between 2023 and 2024 WCAG 2.2 versions, via W3C HTML diff service](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FTR%2F2023%2FREC-WCAG22-20231005%2F&doc2=https%3A%2F%2Fwww.w3.org%2FTR%2F2024%2FREC-WCAG22-20241212%2F)
+
+We also recommend that you read the [WCAG 2.2 Change log](https://www.w3.org/TR/WCAG22/#changelog).
+
 ## Update the translation
 
-In January 2024, we have published a guide on translating WCAG 2: [How to translate WCAG 2](/about/translating/wcag/). It explains how to use the content in [`w3c/wcag` {% include_cached external.html %}](https://github.com/w3c/wcag/) repository to start translating WCAG.
-
-If you want to use this method, refer to the [`WCAG21-20230921` tag](https://github.com/w3c/wcag/tree/WCAG21-20230921) to get the files of the 21 September 2023 version.
+[How to translate WCAG 2](/about/translating/wcag/) explains how to use the content in [`w3c/wcag` {% include_cached external.html %}](https://github.com/w3c/wcag/) repository to start translating WCAG.
 
 If starting over with this new method is overly complex for you, you can update your existing files.
 
 ## (Authorized translations) Update the translation header
 
-Each "Authorized Translation" must contain a translation header (also called "disclaimer") at the top of the document. When updating a WCAG 2.1 translation, the following information will need update:
+Each "Authorized Translation" must contain a translation header (also called "disclaimer") at the top of the document. When updating a WCAG 2 translation, the following information will need update:
 
 Date of publication
 : Translation publication date will be updated by W3C.
@@ -95,7 +105,7 @@ Previous version:
 Please add and translate this new text.
 
 Original version:
-: Use [https://www.w3.org/TR/2023/REC-WCAG21-20230921/](https://www.w3.org/TR/2023/REC-WCAG21-20230921/)
+: Dated URI of the English original. Example: [https://www.w3.org/TR/2024/REC-WCAG21-20241212/](https://www.w3.org/TR/2024/REC-WCAG21-20241212/)
 
 Errata:
 : URI of an errata page. Please create and host a new errata page specific to this translation version.
