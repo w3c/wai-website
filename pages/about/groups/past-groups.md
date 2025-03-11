@@ -1,9 +1,9 @@
 ---
-title: Previous groups
-nav_title: 'Previous groups'
+title: Past groups
+nav_title: 'Past groups'
 lang: en
-permalink: /about/groups/previous-groups/
-ref: /about/groups/previous-groups/
+permalink: /about/groups/past-groups/
+ref: /about/groups/past-groups/
 github:
   label: wai-groups
 ---
@@ -31,7 +31,7 @@ See details for working groups and task forces that have now closed.
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Previous working groups
+## Past working groups
 
 * [Authoring Tool Accessibility Working Group](https://www.w3.org/groups/wg/atag/) &mdash; group closed in 2015
 * [Education and Outreach Working Group](https://www.w3.org/groups/wg/eowg/) &mdash; group closed in 2024
@@ -39,7 +39,7 @@ See details for working groups and task forces that have now closed.
 * [Research and Development Working Group](https://www.w3.org/groups/wg/wai-rd/) &mdash; group closed in 2015
 * [User Agent Accessibility Working Group](https://www.w3.org/groups/wg/uaag/) &mdash; group closed in 2016
 
-## Previous task forces
+## Past task forces
 
 * [CSS Accessibility Task Force](https://www.w3.org/groups/tf/css-a11y/)
 * [Silver Task Force](https://www.w3.org/groups/tf/silver-tf/)
