@@ -1,0 +1,16 @@
+{%- comment %}
+Renders fallback for when data could not be successfully retrieved.
+
+Expected input:
+- group - name of group, matching a key in _data/minutes/groups.json
+{% endcomment -%}
+
+{% include box.html type="start" class="highlighted" %}
+
+<p>Minutes listings are temporarily unavailable. Sorry for the inconvenience.</p>
+<p>
+  For details of the current work, see an alternative view of
+  <a href="https://www.w3.org/services/meeting-minutes?num=200&channels={{ site.data.minutes.groups[include.group] | join: ',' }}">meeting minutes</a>.
+</p>
+
+{% include box.html type="end" %}
