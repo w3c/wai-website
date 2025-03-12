@@ -150,7 +150,7 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 
 {% include excol.html type="start" id=l %}
 
-## <span lang="{{l}}" bidi="auto" style="text-transform: capitalize;">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }})
+## <span lang="{{l}}" bidi="auto" style="text-transform: capitalize;">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }}) {#{{l}}}
 
 {::nomarkdown}
 {% if site.data.lang[l].rtl -%}{%- include excol.html type="middle" dir="rtl" lang=l -%}{%- else -%}{%- include excol.html type="middle" -%}{%- endif %}
