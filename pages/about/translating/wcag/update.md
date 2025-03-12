@@ -23,8 +23,8 @@ footer: |
 
 ## How to update WCAG 2.2 translations
 
-- [WCAG 2.2 5 October 2023 version to 12 December 2024 version](/about/translating/wcag/update/wcag22-20231005/)
+- [WCAG 2.2 October 2023 version to December 2024 version](/about/translating/wcag/update/wcag22-20231005/)
 
 ## How to update WCAG 2.1 translations
 
-- [WCAG 2.1 5 June 2018 version to 21 September 2023 version](/about/translating/wcag/update/wcag21-20180605/)
+- [WCAG 2.1 June 2018 version to September 2023 version](/about/translating/wcag/update/wcag21-20180605/)
