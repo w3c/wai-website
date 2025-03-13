@@ -69,8 +69,8 @@ The following user stories represent the experiences of some people with disabil
 
 ## Related WAI resources
 
-These other resources provide more detailed information regarding user needs within specific contexts or disability areas.
+These other resources provide more detailed information on user needs in specific contexts or disability areas:
 
 * [Accessibility Requirements for People with Low Vision - User Needs](https://www.w3.org/TR/low-vision-needs/#user-needs)
 * [Making Content Usable for People with Cognitive and Learning Disabilities - Use Cases/Personas](https://www.w3.org/TR/coga-usable/#persona)
-* [Media Accessibility User Requirements](https://w3c.github.io/apa/media-accessibility-reqs/) - includes a summary of media requirements by type of disability and assistive technologies to support media access.
+* [Digital Accessibility User Requirements](/research/user-requirements/) links to documents that describe user needs in multimedia, virtual or immersive environments (XR), real-time communication (RTC), and more
