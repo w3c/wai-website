@@ -17,7 +17,7 @@ feedbackmail: wai@w3.org
 
 ## 13 March 2025
 
-- In [Stories of Web Users](https://www.w3.org/WAI/people-use-web/user-stories/) page: changed last bullet to: [Digital Accessibility User Requirements](/research/user-requirements/) links to documents that describe user needs in multimedia, virtual or immersive environments (XR), real-time communication (RTC), and more
+- In [Stories of Web Users](https://www.w3.org/WAI/people-use-web/user-stories/) page, changed last bullet to: [Digital Accessibility User Requirements](/research/user-requirements/) links to documents that describe user needs in multimedia, virtual or immersive environments (XR), real-time communication (RTC), and more
 
 ## 25 June 2024
 
