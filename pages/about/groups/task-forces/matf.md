@@ -36,7 +36,7 @@ The objectives of the Mobile Accessibility Task Force are to produce resources f
 
 ## Work statement
 
-The Mobile Accessibility Task Force has regrouped in 2024 and a new Work Statement will be published soon.
+To learn about the focus, scope and deliverables of the task force, see the [Mobile Accessibility Task Force Work Statement](/about/groups/task-forces/matf/work-statement/).
 
 ## Current work
 
@@ -50,7 +50,7 @@ The Mobile Accessibility Task Force welcomes input from the global accessibility
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [Mobile Accessibility GitHub repository](https://github.com/w3c/Mobile-A11y-TF-Note/issues):
+You can contribute to the work without being a member of the task force in the [Mobile Accessibility GitHub repository](https://github.com/w3c/matf/issues):
 * If you’re aware of an issue with any of the published mobile accessibility resources, raise a new issue.
 * Comment on or propose solutions for open mobile accessibility issues.
 
