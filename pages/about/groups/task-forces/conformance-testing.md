@@ -85,9 +85,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 The ACT Task Force develops and maintains the following resources for the AG Working Group:
 
-* [Accessibility Conformance Testing (ACT) Rules Format 1.0 — 2019 W3C Recommendation](https://www.w3.org/TR/act-rules-format/)
-* [Accessibility Conformance Testing (ACT) Rules Format 1.1 — 2024 First Public Working Draft](https://www.w3.org/TR/act-rules-format-1.1/)
-* [ Accessibility Conformance Testing (ACT) Rules Format 1.1 — 2024 Editor’s Draft](https://w3c.github.io/wcag-act/act-rules-format.html)
+* [Accessibility Conformance Testing (ACT) Rules Format 1.1 — Working Draft](https://www.w3.org/TR/act-rules-format-1.1/) (and latest [Editor’s Draft](https://w3c.github.io/wcag-act/act-rules-format.html))
 * [Repository of published Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/rules/)
 
 ## Contact the chairs

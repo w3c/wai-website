@@ -95,17 +95,17 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 
 The Spoken Presentation Task Force develops and maintains the following resources for the APA Working Group:
 
-* [Pronunciation User Scenarios &mdash; 2019 Public Working Draft](https://www.w3.org/TR/pronunciation-user-scenarios/) &mdash; provides examples of:
+* [Pronunciation User Scenarios &mdash; Working Draft](https://www.w3.org/TR/pronunciation-user-scenarios/); (and latest [Editor’s Draft](https://w3c.github.io/pronunciation/user-scenarios/)) &mdash; provides examples of:
     - end-users, including screen reader users
     - content providers, including educators
     - software developers, including content managements systems
-* [Pronunciation Gap Analysis and Use &mdash; 2020 Public Working Draft](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/) &mdash; provides details of the gap analysis:
+* [Pronunciation Gap Analysis and Use Cases &mdash; Working Draft](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/) (and latest [Editor’s Draft](https://w3c.github.io/pronunciation/gap-analysis_and_use-case/)) &mdash; provides details of the gap analysis:
     - gives more contextual details
     - describes required features for pronunciation and spoken presentation
     - describes specific implementation approaches for introducing presentation authoring markup into HTML5 (called “use cases”)
     - provides a gap analysis
     - describes how the required features may be met by existing approaches    
-* [Explainer: Improving Spoken Presentation on the Web &mdash; 2020 Public Working Draft](https://www.w3.org/TR/pronunciation-explainer/): &mdash; provides an overview of the work:
+* [Explainer: Improving Spoken Presentation on the Web &mdash; Working Draft](https://www.w3.org/TR/pronunciation-explainer/) (and latest [Editor’s Draft](https://w3c.github.io/pronunciation/explainer/)) &mdash; provides an overview of the work:
     - briefly introduces the context for W3C work on pronunciation
     - describes the advantages and disadvantages of two approaches
     - poses questions for additional input

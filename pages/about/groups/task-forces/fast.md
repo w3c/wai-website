@@ -85,7 +85,7 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 The FAST Task Force develops and maintains the following resources for the APA Working Group:
 
-* [Framework for Accessible Specification of Technologies (FAST) &mdash; 2024 Editor’s Draft](https://www.w3.org/TR/act-rules-format/)
+* [Framework for Accessible Specification of Technologies (FAST) &mdash; Editor’s Draft](https://w3c.github.io/fast/)
 * [FAST Report Tool](https://fast-rose.vercel.app/) &mdash; a checklist for reviewing technologies
 
 ## Contact the chairs

@@ -84,7 +84,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 ## Publications
 
-The PDF-AAM Task Force will develop and maintain the [PDF Accessibility API Mappings &mdash; 2024 Editor’s Draft](https://w3c.github.io/pdf-aam/) for the ARIA Working Group.
+The PDF-AAM Task Force develops and maintains the [PDF Accessibility API Mappings &mdash; Editor’s Draft](https://w3c.github.io/pdf-aam/) for the ARIA Working Group.
 
 ## Contact the chairs
 

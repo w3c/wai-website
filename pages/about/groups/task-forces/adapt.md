@@ -93,11 +93,11 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 
 The WAI-Adapt Task Force develops and maintains the following resources for the APA Working Group:
 
-* [Requirements for WAI-Adapt specification &mdash; 2022 Group Draft Note](https://www.w3.org/TR/adapt-requirements/) &mdash; user stories, specific use cases, and requirements for WAI-Adapt
-* [WAI-Adapt: Tools Module &mdash; 2022 Group Draft Note]() &mdash; examples of the personalized tools properties
-* [WAI-Adapt: Help and Support Module &mdash; 2022 Working Draft](https://www.w3.org/TR/adapt-help/) &mdash; examples of the personalized help and support properties
-* [WAI-Adapt: Symbols Module &mdash; 2023 Candidate Recommendation Snapshot](https://www.w3.org/TR/adapt-symbols/) &mdash; technical specification providing terms authors can use to enhance web content with information about controls, symbols, and user interface elements
-* [WAI-Adapt Explainer &mdash; 2023 Group Draft Note](https://www.w3.org/TR/adapt/) &mdash; introductory document explaining general use cases, vocabulary, and anticipated uses
+* [WAI-Adapt Explainer &mdash; Group Draft Note](https://www.w3.org/TR/adapt/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/)) &mdash; introductory document explaining general use cases, vocabulary, and anticipated uses
+* [WAI-Adapt: Tools Module &mdash; Working Draft](https://www.w3.org/TR/adapt-tools/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/tools/))
+* [WAI-Adapt: Symbols Module &mdash; Candidate Recommendation Snapshot](https://www.w3.org/TR/adapt-symbols/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/symbols/)) &mdash; technical specification providing terms authors can use to enhance web content with information about controls, symbols, and user interface elements
+* [WAI-Adapt: Help and Support Module &mdash; Working Draft](https://www.w3.org/TR/adapt-help/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/help/)) &mdash; examples of the personalized help and support properties
+* [Requirements for WAI-Adapt specification &mdash; Group Draft Note](https://www.w3.org/TR/adapt-requirements/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/requirements/) &mdash; user stories, specific use cases, and requirements for WAI-Adapt
 
 ## Contact the chair
 

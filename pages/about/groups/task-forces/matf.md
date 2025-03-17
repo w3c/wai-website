@@ -87,9 +87,8 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 The Mobile Accessibility Task Force develops and maintains the following resources for the AG Working Group;
 
-* [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile &mdash; 2015 First Public Working Draft](https://www.w3.org/TR/mobile-accessibility-mapping/)
-* [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile &mdash; 2018 Editor's Draft](https://w3c.github.io/Mobile-A11y-TF-Note/)
-* [Guidance on Applying WCAG 2.2 to Mobile &mdash; 2025 Editor's Draft](https://w3c.github.io/matf/)
+* [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile &mdash; Working Draft](https://www.w3.org/TR/mobile-accessibility-mapping/) (and latest [Editor’s Draft](https://w3c.github.io/Mobile-A11y-TF-Note/))
+* [Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) &mdash; Editor's Draft](https://w3c.github.io/matf/)
 
 ## Contact the chair
 

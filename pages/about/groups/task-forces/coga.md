@@ -91,12 +91,10 @@ Once you are a member of either the AG or APA working groups, email the [W3C sta
 The COGA Task Force has developed the following resources for the AG and APA working groups:
 
 * [Cognitive Accessibility Guidance](https://www.w3.org/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance)
-* [Cognitive Accessibility User Research &mdash; 2015 Working Draft](https://w3c.github.io/coga/user-research/)
-* [Cognitive Accessibility User Research &mdash; 2024 Editor’s Draft](https://www.w3.org/TR/coga-user-research/)
-* [Making Content Usable for People with Cognitive and Learning Disabilities &mdash; 2018 Working Draft](https://www.w3.org/TR/2018/WD-coga-usable-20181211/)
-* [Making Content Usable for People with Cognitive and Learning Disabilities &mdash; 2021 Working Group Note](https://www.w3.org/TR/coga-usable/)
-* [Cognitive Accessibility Roadmap and Gap Analysis &mdash; 2024 Working Draft](https://w3c.github.io/coga/gap-analysis/)
-* [Cognitive Accessibility Issue &mdash; 2024 Editor’s Draft](https://w3c.github.io/coga/issue-papers/)
+* [Cognitive Accessibility User Research &mdash; Working Draft](https://www.w3.org/TR/2015/WD-coga-user-research-20150115/) (and latest [Editor’s Draft](https://w3c.github.io/coga/user-research/))
+* [Making Content Usable for People with Cognitive and Learning Disabilities &mdash; Working Group Note](https://www.w3.org/TR/coga-usable/)
+* [Cognitive Accessibility Roadmap and Gap Analysis &mdash; Working Draft](https://w3c.github.io/coga/gap-analysis/)
+* [Cognitive Accessibility Issue Papers &mdash; Editor’s Draft](https://w3c.github.io/coga/issue-papers/)
 
 ## Contact the chair
 
