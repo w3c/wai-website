@@ -36,4 +36,4 @@ To see the last 10 WAI news announcements, subscribe to WAI's [Atom/RSS feed](/W
 
 ## WAI Interest Group Discussion List
 
-WAI has a mailing list that is open to the public for discussing digital accessibility issues &mdash; see [WAI Interest Group Discussion List](/about/groups/waiig/#discussion-list)
+WAI has a mailing list that is open to the public for discussing digital accessibility issues &mdash; see [WAI Interest Group Discussion List](/about/groups/waiig/#discussion-list).
