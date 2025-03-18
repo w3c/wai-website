@@ -77,9 +77,7 @@ Details of how to join the LV Task Force will be published here when it is react
 
 ## Publications
 
-The LV Task Force develops and maintains the following resources for the AG Working Group:
-
-* [Accessibility Requirements for People with Low Vision — Working Draft](https://www.w3.org/TR/low-vision-needs/) (and latest [Editor’s Draft](https://w3c.github.io/low-vision-a11y-tf/requirements.html))
+The LV Task Force develops and maintains the following resource for the AG Working Group: [Accessibility Requirements for People with Low Vision — Working Draft](https://www.w3.org/TR/low-vision-needs/) (and latest [Editor’s Draft](https://w3c.github.io/low-vision-a11y-tf/requirements.html)).
 
 ## Contact the chairs
 

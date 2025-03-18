@@ -54,13 +54,13 @@ The [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/) mai
 
 For current outstanding WCAG 2.x issues, see [WCAG issues &mdash; GitHub](https://github.com/w3c/wcag/issues/).
 
-**WCAG 2.2 is the current W3C standard** and will remain so until WCAG 3 replaces it. For more information, see * [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/).
+WCAG 2.2 is the current W3C standard and will remain so until WCAG 3 replaces it. For more information, see [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
 ### WCAG 3
 
 Work on developing WCAG 3 takes place in many task forces and subgroups of the AG Working Group. For information about the WCAG 3 timelines and publication plan, see [WCAG 3 Timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline).
 
-**WCAG 3 is still years away from becoming a W3C standard**. For more information, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/).
+WCAG 3 is still years away from becoming a W3C standard. For more information, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/).
 
 ## Contribute to the work
 
@@ -113,7 +113,7 @@ The AG Working Group maintains the following GitHub repositories:
 
 ## Publications and copyright
 
-* [List of technical reports published by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/)
+[List of technical reports published by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/)
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/).
 

@@ -32,7 +32,7 @@ Find out about the activities of the Maturity Model (MM) Task Force and how you 
 
 ## Objectives
 
-The Maturity Model (MM) Task Force provides an Accessibility Maturity Model to:
+The MM Task Force provides an Accessibility Maturity Model to:
 
 - guide organizations in developing the capability to buy, build or use accessible internal and external digital assets, products and services
 - track changes and trends in providing these assets, products and services over time.
@@ -86,9 +86,7 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 
 ## Publications
 
-The MM Task Force develops and maintains the following resources for the APA Working Group:
-
-* [Accessibility Maturity Model &mdash; Group Draft Note](https://www.w3.org/TR/maturity-model/) (and latest [Editor’s Draft](https://w3c.github.io/maturity-model/))
+The MM Task Force develops and maintains the following resource for the APA Working Group: [Accessibility Maturity Model &mdash; Group Draft Note](https://www.w3.org/TR/maturity-model/) (and latest [Editor’s Draft](https://w3c.github.io/maturity-model/)).
 
 ## Contact the chairs
 

@@ -47,7 +47,7 @@ The COGA Task Force supports the deliverables of two W3C working groups:
 
 For details of the current work, see the [COGA Task Force wiki](https://www.w3.org/WAI/GL/task-forces/coga/wiki).
 
-For more information, see [Cognitive Accessibility at W3C](https://www.w3.org/WAI/cognitive/)
+For more information, see [Cognitive Accessibility at W3C](https://www.w3.org/WAI/cognitive/).
 
 ## Contribute to the work
 

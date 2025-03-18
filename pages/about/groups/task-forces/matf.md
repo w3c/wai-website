@@ -49,7 +49,7 @@ The Mobile Accessibility Task Force supports the deliverables of the [Accessibil
 
 For details of the current work, see the [Mobile Accessibility Task Force GitHub repository](https://github.com/w3c/matf/issues).
 
-For more information, see [Mobile Accessibility at W3C](https://www.w3.org/WAI/standards-guidelines/mobile/)
+For more information, see [Mobile Accessibility at W3C](https://www.w3.org/WAI/standards-guidelines/mobile/).
 
 ## Contribute to the work
 
@@ -92,7 +92,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Publications
 
-The Mobile Accessibility Task Force develops and maintains the following resources for the AG Working Group;
+The Mobile Accessibility Task Force develops and maintains the following resources for the AG Working Group:
 
 * [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile &mdash; Working Draft](https://www.w3.org/TR/mobile-accessibility-mapping/) (and latest [Editor’s Draft](https://w3c.github.io/Mobile-A11y-TF-Note/))
 * [Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) &mdash; Editor's Draft](https://w3c.github.io/matf/)

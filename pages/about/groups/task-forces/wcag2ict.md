@@ -85,9 +85,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Publications
 
-The WCAG2ICT Task Force develops and maintains the following resources for the AG Working Group:
-
-* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) &mdash; Group Note](https://www.w3.org/TR/wcag2ict/) (and latest [Editor’s Draft](https://w3c.github.io/wcag2ict/)) &mdash; provides informative (non-normative) guidance on 2.0, 2.1, and 2.2 success criteria and how WCAG 2.x can be applied to non-web documents and software
+The WCAG2ICT Task Force develops and maintains the following resource for the AG Working Group: [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) &mdash; Group Note](https://www.w3.org/TR/wcag2ict/) (and latest [Editor’s Draft](https://w3c.github.io/wcag2ict/)) &mdash; this provides informative (non-normative) guidance on 2.0, 2.1, and 2.2 success criteria and how WCAG 2.x can be applied to non-web documents and software
 
 ## Contact the chairs
 

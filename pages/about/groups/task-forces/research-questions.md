@@ -35,8 +35,8 @@ Find out about the activities of the Research Questions (RQ) Task Force and how 
 The RQ Task Force:
 
 - identifies accessibility barriers and knowledge gaps in emerging and future web technologies,
-- publishes research findings to help ameliorate those barriers and gaps,
-- and supports W3C’s horizontal reviews of web technologies.
+- publishes research findings to help ameliorate those barriers and gaps, and
+- supports W3C’s horizontal reviews of web technologies.
 
 ## Work statement
 
