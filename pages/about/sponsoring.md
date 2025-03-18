@@ -101,8 +101,8 @@ _**The organizations below provided financial support prior to W3C establishing 
 
 W3C WAI thanks organizations that have supported [W3C Fellows](https://www.w3.org/Consortium/Recruitment/Fellows) in WAI:
 
--  [Elisa Communications](http://www.elisa.fi/)
--  [Knowbility, Inc](https://knowbility.org/)
+-  Elisa Communications
+-  Knowbility, Inc
 -  Research Institute of Telecommunication Transmission (RITT)
 
 Content of the expand/collapse.
