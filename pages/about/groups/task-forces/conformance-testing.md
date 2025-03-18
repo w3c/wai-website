@@ -32,7 +32,7 @@ Find out about the activities of the Accessibility Conformance Testing (ACT) Tas
 
 ## Objectives
 
-The objective of the ACT Task Force is to develop and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation across different web accessibility test tools and methodologies.
+The ACT Task Force develops and maintains a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation across different web accessibility test tools and methodologies.
 
 ## Work statement
 

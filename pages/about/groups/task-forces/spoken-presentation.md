@@ -34,16 +34,11 @@ Find out about the activities of the Spoken Presentation (previously known as Pr
 
 ## Objectives
 
-The objective of the Spoken Presentation Task Force is to develop normative specifications and best practice guidance on providing proper pronunciation for HTML content across operating systems, so that words are pronounced correctly when using text-to-speech (TTS) synthesis and users’ preferred assistive technologies.
+The Spoken Presentation Task Force provides author-controlled markup to define precise pronunciation across environments when content authors need certainty, as opposed to cross-platform heuristic variability.
 
 ## Work statement
 
 To learn about the focus, scope and deliverables of the task force, see the [Spoken Presentation Task Force Work Statement](/about/groups/task-forces/spoken-presentation/work-statement/).
-
-## Overview of the spoken presentation work
-
-* [Pronunciation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s pronunciation technique
-* [Pronunciation video {% include_cached external.html %}](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
 
 ## Current work
 
@@ -53,6 +48,11 @@ For details of the current work, see:
 
 * [Spoken Presentation Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
 * [Spoken Presentation Task Force current work](https://github.com/w3c/pronunciation/blob/master/README.md)
+
+For more information on the spoken presentation work, see:
+
+* [Pronunciation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s pronunciation technique
+* [Pronunciation video {% include_cached external.html %}](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
 
 ## Contribute to the work
 

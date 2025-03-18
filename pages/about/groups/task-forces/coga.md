@@ -32,7 +32,7 @@ Find out about the activities of the Cognitive and Learning Disabilities Accessi
 
 ## Objectives
 
-The objective of the COGA Task Force is to develop guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.
+The COGA Task Force develops guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.
 
 ## Work statement
 
@@ -46,6 +46,8 @@ The COGA Task Force supports the deliverables of two W3C working groups:
 * [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/)
 
 For details of the current work, see the [COGA Task Force wiki](https://www.w3.org/WAI/GL/task-forces/coga/wiki).
+
+For more information, see [Cognitive Accessibility at W3C](https://www.w3.org/WAI/cognitive/)
 
 ## Contribute to the work
 
@@ -90,7 +92,7 @@ Once you are a member of either the AG or APA working groups, email the [W3C sta
 
 The COGA Task Force has developed the following resources for the AG and APA working groups:
 
-* [Cognitive Accessibility Guidance](https://www.w3.org/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance)
+* [Cognitive Accessibility Supplemental Guidance](https://www.w3.org/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance)
 * [Cognitive Accessibility User Research &mdash; Working Draft](https://www.w3.org/TR/2015/WD-coga-user-research-20150115/) (and latest [Editor’s Draft](https://w3c.github.io/coga/user-research/))
 * [Making Content Usable for People with Cognitive and Learning Disabilities &mdash; Working Group Note](https://www.w3.org/TR/coga-usable/) (and latest [Editor’s Draft](https://w3c.github.io/coga/content-usable/))
 * [Cognitive Accessibility Roadmap and Gap Analysis &mdash; Working Draft](https://www.w3.org/TR/coga-gap-analysis/) (and latest [Editor’s Draft](https://w3c.github.io/coga/gap-analysis/))

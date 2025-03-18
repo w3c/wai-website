@@ -32,7 +32,12 @@ Find out about the activities of the Mobile Accessibility Task Force and how you
 
 ## Objectives
 
-The objectives of the Mobile Accessibility Task Force are to produce resources for how to apply the Web Content Accessibility Guidelines (WCAG) to mobile — including, but not limited to, native mobile apps, mobile web apps, and hybrid apps that use web components inside native mobile apps — and to make sure mobile apps are considered in new accessibility guidelines.
+The Mobile Accessibility Task Force:
+
+- produces resources for how to apply the Web Content Accessibility Guidelines (WCAG) to mobile, and 
+- makes sure mobile apps are considered in new accessibility guidelines.
+
+Mobile includes, but is not limited to, native mobile apps, mobile web apps, and hybrid apps that use web components inside native mobile apps.
 
 ## Work statement
 
@@ -43,6 +48,8 @@ To learn about the focus, scope and deliverables of the task force, see the [Mob
 The Mobile Accessibility Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
 For details of the current work, see the [Mobile Accessibility Task Force GitHub repository](https://github.com/w3c/matf/issues).
+
+For more information, see [Mobile Accessibility at W3C](https://www.w3.org/WAI/standards-guidelines/mobile/)
 
 ## Contribute to the work
 

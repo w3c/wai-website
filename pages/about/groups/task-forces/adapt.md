@@ -34,22 +34,22 @@ Find out about the activities of the WAI-Adapt Task Force and how you can contri
 
 ## Objectives
 
-The objective of the WAI-Adapt Task Force is to develop normative specifications and best practices guidance to support enhanced and personalized web content delivery that better meets the diverse requirements of people with disabilities — it does this by making fuller use of underused features already specified in HTML, and by proposing new markup elements and attributes, as needed.
+The WAI-Adapt Task Force develops normative specifications and best practices guidance to support enhanced and personalized web content delivery that better meets the diverse requirements of people with disabilities — it does this by making fuller use of underused features already specified in HTML, and by proposing new markup elements and attributes, as needed.
 
 ## Work statement
 
 To learn about the focus, scope and deliverables of the task force, see the [WAI-Adapt Task Force Work Statement](/about/groups/task-forces/adapt/work-statement/).
-
-## Overview of the WAI-Adapt work
-
-* [WAI-Adapt Overview](https://www.w3.org/WAI/adapt/) &mdash; an overview of W3C’s WAI-Adapt technique
-* [WAI-Adapt video {% include_cached external.html %}](https://ln.sync.com/dl/04f8c9330/) &mdash; a technical demonstration of a semantic overlay approach that enables user-driven personalization, employing user-preferred symbols for text that has had WAI-Adapt semantics added to it
 
 ## Current work
 
 The WAI-Adapt Task Force supports the deliverables of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/).
 
 For details of the current work, see the [WAI-Adapt Task Force wiki](https://github.com/w3c/adapt/wiki).
+
+For more information on the WAI-Adapt work, see:
+
+* [WAI-Adapt Overview](https://www.w3.org/WAI/adapt/) &mdash; an overview of W3C’s WAI-Adapt technique
+* [WAI-Adapt video {% include_cached external.html %}](https://ln.sync.com/dl/04f8c9330/) &mdash; a technical demonstration of a semantic overlay approach that enables user-driven personalization, employing user-preferred symbols for text that has had WAI-Adapt semantics added to it
 
 ## Contribute to the work
 

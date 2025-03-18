@@ -32,12 +32,14 @@ Find out about the activities of the WCAG 2.x Backlog Task Force and how you can
 
 ## Objectives
 
-The objectives of the WCAG 2.x Backlog Task Force are to maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG); and to document considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification.
+The WCAG 2.x Backlog Task Force:
+
+- maintains up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG), and
+- documents considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification.
 
 ## Work statement
 
 To learn about the focus, scope and deliverables of the task force, see the [WCAG 2.x Backlog Task Force Work Statement](/about/groups/task-forces/wcag2x-backlog/work-statement/).
-
 
 ## Current work
 

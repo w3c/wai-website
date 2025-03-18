@@ -32,7 +32,11 @@ Find out about the activities of the Framework for Accessible Specification of T
 
 ## Objectives
 
-The objectives of the FAST Task Force are to develop and maintain inventories of user and functional needs; best practices guidance describing the features that web technologies should provide to ensure accessible content can be created; and the self-assessment tool used by W3C working groups during W3C’s accessibility horizontal review process.
+The FAST Task Force:
+
+- develops and maintains inventories of user and functional needs,
+- best practices guidance describing the features that web technologies should provide to ensure accessible content can be created, and 
+- the self-assessment tool used by W3C working groups during W3C’s accessibility horizontal review process.
 
 ## Work statement
 

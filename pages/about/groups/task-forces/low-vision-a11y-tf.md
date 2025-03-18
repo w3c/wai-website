@@ -32,7 +32,11 @@ Find out about the activities of the Low Vision Accessibility (LV) Task Force an
 
 ## Objectives
 
-The objective of the LV Task Force is to address web accessibility issues that are specific to people with low vision through inputting into WCAG 2 techniques and understanding documents; inputting into WCAG 3; and developing additional low-vision guidance resources.
+The LV Task Force addresses web accessibility issues that are specific to people with low vision through: 
+
+- inputting into WCAG 2 techniques and understanding documents,
+- inputting into WCAG 3, and 
+- developing additional low-vision guidance resources.
 
 ## Work statement
 

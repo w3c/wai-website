@@ -33,7 +33,7 @@ Find out about the activities of the Portable Document Format Accessibility Appl
 
 ## Objectives 
 
-The objective of the PDF-AAM Task Force is to specify how user agents should map accessibility semantics within the Portable Document Format specification.
+The PDF-AAM Task Force specifies how user agents should map accessibility semantics within the Portable Document Format specification.
 
 ## Work Statement
 

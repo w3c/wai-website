@@ -32,18 +32,19 @@ Find out about the activities of the WCAG2ICT Task Force and how you can contrib
 
 ## Objectives
 
-The objective of the WCAG2ICT Task Force is to develop documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
+The WCAG2ICT Task Force develops documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
 
 ## Work statement
 
 To learn about the focus, scope and deliverables of the task force, see the [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/).
-
 
 ## Current work
 
 The WCAG2ICT Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
 For details of the current work, see the [WCAG2ICT Task Force wiki](https://github.com/w3c/wcag2ict/wiki).
+
+For more information, see [WCAG2ICT Overview](https://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/).
 
 ## Contribute to the work
 
