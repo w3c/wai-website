@@ -41,14 +41,9 @@ The mission of the AG Working Group is to develop and maintain specifications fo
 
 To learn about the group’s focus, scope and deliverables, see the [AG Working Group Charter](https://www.w3.org/groups/wg/ag/charters/).
 
-
 ## Current work 
 
 For details of the current work, see the [AG Working Group wiki](https://www.w3.org/WAI/GL/wiki/Main_Page).
-
-### WCAG 3
-
-Work on developing WCAG 3 takes place in many task forces and subgroups of the AG Working Group. For information about the WCAG 3 timelines and publication plan, see [WCAG 3 Timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline).
 
 ### WCAG 2.2
 
@@ -59,6 +54,14 @@ The [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/) mai
 
 For current outstanding WCAG 2.x issues, see [WCAG issues &mdash; GitHub](https://github.com/w3c/wcag/issues/).
 
+**WCAG 2.2 is the current W3C standard** and will remain so until WCAG 3 replaces it. For more information, see * [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/).
+
+### WCAG 3
+
+Work on developing WCAG 3 takes place in many task forces and subgroups of the AG Working Group. For information about the WCAG 3 timelines and publication plan, see [WCAG 3 Timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline).
+
+**WCAG 3 is still years away from becoming a W3C standard**. For more information, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/).
+
 ## Contribute to the work
 
 W3C and the AG Working Group welcome input on WCAG work from the global accessibility community.
@@ -67,7 +70,7 @@ W3C and the AG Working Group welcome input on WCAG work from the global accessib
 
 There are ways you can contribute without being a member of the working group:
 
-* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
+* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; to learn about draft documents for review, [subscribe to WAI news](https://www.w3.org/WAI/news/subscribe/).
 * **Raise, comment on, or propose fixes to WCAG issues:** If you’re aware of an issue with any of the published WCAG 2.x resources, W3C welcomes you to [raise a new issue on GitHub](https://github.com/w3c/wcag/issues/) &mdash; you can also comment on and, even better, propose solutions for existing issues.
 * **Contribute to WCAG 3 discussions:** As WCAG 3 develops, many topics are being discussed &mdash; to contribute your views, see the list of [open WCAG 3 discussions in GitHub](https://github.com/w3c/wcag3/discussions) and [mailing list discussions](https://lists.w3.org/Archives/Public/w3c-wai-gl/).
 * **Participate in a community group:** W3C hosts a small number of active community groups that focus on digital accessibility issues &mdash; for details, search for ‘accessibility’ on [Current Groups &mdash; W3C Community and Business Groups](https://www.w3.org/community/groups/).
@@ -110,10 +113,7 @@ The AG Working Group maintains the following GitHub repositories:
 
 ## Publications and copyright
 
-* [List of technical reports published by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/).
-* [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/)
-* [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/)
-
+* [List of technical reports published by the AG Working Group](https://www.w3.org/groups/wg/ag/publications/)
 
 W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; AG Working Group](https://www.w3.org/groups/wg/ag/ipr/).
 

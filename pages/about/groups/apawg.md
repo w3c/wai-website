@@ -61,7 +61,7 @@ W3C and the APA Working Group welcome input on APA work from the global accessib
 
 There are ways you can contribute without being a member of the working group:
 
-* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
+* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; to learn about draft documents for review, [subscribe to WAI news](https://www.w3.org/WAI/news/subscribe/).
 * **Raise, comment on, or propose fixes to APA issues:** If you’re aware of an issue with any of the published APA resources, W3C welcomes you to [raise a new issue on GitHub](https://github.com/w3c/apa/issues) &mdash; you can also comment on and, even better, propose solutions for existing issues.
 * **Contribute to APA discussions:** You may contribute your views to the APA Working Group's [mailing list discussions](https://lists.w3.org/Archives/Public/public-apa/).
 
