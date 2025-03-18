@@ -32,11 +32,11 @@ For information about providing grants and other opportunities to support WAI, p
 
 {% include excol.html type="start" id="past" %}
 
-## Past Supporters
-
-_**The organizations below provided financial support prior to W3C establishing as a 501(c)3 public-interest non-profit organization.**_
+## Past supporters
 
 {% include excol.html type="middle" %}
+
+_**The organizations below provided financial support prior to W3C establishing as a 501(c)3 public-interest non-profit organization.**_
 
 <div style="float:right; margin-left:1em; width:90px; clear:both;"><br><br>
 <img src="https://www.w3.org/WAI/content-images/people/two-smiling.png" alt="" /><br><br>
