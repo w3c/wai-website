@@ -2,13 +2,13 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Marta，失聪和失明的市场营销助理"
+title: "Marta，失聪和失明的营销助理"
 nav_title: "Marta"
 lang: zh-hans   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translations:
-  last_updated: 2025-03-08
+  last_updated: 2025-03-20
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -111,8 +111,11 @@ footer: >
   <div>
 {:/}
 
-Marta is a marketing assistant who was born profoundly deaf and is now progressively losing her vision. For now, she can magnify her computer screen in order to see the content but as her eyesight continues to deteriorate, she will need to learn new ways of interacting with the
-computer. Marta is learning braille and hopes to use her new braille display for reading, writing, and navigating applications. In addition, the braille display includes some often used apps such as a calendar, email, and notes. This will be handy for whenever she is away from home. Marta is taking classes in fashion design and knows she will need to discuss her unique needs with the college since she will likely need class materials to be available on her braille display.
+Marta是一名营销助理，先天性极重度失聪，现在视力逐渐减退。
+目前，她可以放大电脑屏幕来查看内容，但随着视力的不断衰退，她将需要学习新的与电脑互动的新方法。
+Marta正在学习盲文，并希望使用新的盲文显示器进行阅读、书写和导航应用程序。
+此外，盲文显示屏还包括一些常用的应用程序，如日历、电子邮件和笔记。这将方便她外出时使用。
+Marta正在学习服装设计课程，她知道自己需要与学校讨论自己的特殊需求，因为她可能需要在盲文显示器上能够阅读课程内容。
 
 {::options toc_levels="2..2" /}
 
@@ -122,7 +125,7 @@ computer. Marta is learning braille and hopes to use her new braille display for
    video-url="//media.w3.org/wai/people-use-web/user-stories_7.mp4"
    captions="wai-videos/people-use-web/user-stories_7.en.vtt|en"
    accessible-version="#accessible-video"
-   accessible-version-label="视频：Marta，失聪和失明的市场营销助理"
+   accessible-version-label="视频：Marta，失聪和失明的营销助理"
    poster="content-images/people-use-web/user-stories/marta-video-frame.png"
 %}
 </div>
@@ -143,11 +146,18 @@ computer. Marta is learning braille and hopes to use her new braille display for
 
 ## 关于 Marta
 
-> I love watching videos and when they have captions that I can make large, I can then follow the dialogue.
+> 我喜欢看视频，如果视频有字幕，我可以把字幕放大，这样就能跟上对话了。
 
-Marta is a marketing assistant who was born profoundly deaf. She communicates using sign language and attended a school for the deaf. Recently Marta learned she has a degenerative condition that results in progressive vision loss. As her eyesight deteriorates, Marta will need to learn new ways of interacting with the computer. Fortunately for Marta, online content, if coded properly, is accessible by adjusting size and contrast settings, both of which she is becoming more and more reliant on.
+Marta是一名营销助理，先天性极重度失聪。她用手语与人交流，曾就读于一所聋哑学校。
+最近，Marta得知自己患有退行性疾病，导致视力逐渐下降。随着视力的衰退，Marta需要学习与电脑互动的新方法。
+幸运的是，如果编码得当，Marta可以通过调整大小和对比度设置来访问在线内容，而她正变得越来越依赖这两点。
 
-Marta has always been interested in clothes and her decreasing vision only fueled her passion more for vibrant colors, exaggerated shapes, and distinctive textures. She has started taking classes in fashion design at her local college and is excited to learn the history of fashion. Marta has always relied on captioning or speech-to-text applications when communicating with her hearing peers and her local community. She knows she has to connect with the disability office to request a sign interpreter. However, she is unsure about what additional resources she may now need due to her recent diagnosis. She is hoping to discuss how much of the course material is presented with captions and transcripts.
+Marta一直对服装很感兴趣，她的视野不断衰退，这更加激发了她对鲜艳色彩、夸张造型和独特纹理的热情。
+她已经开始在当地大学选修时装设计课程，并对学习时装史感到非常兴奋。
+Marta在与听力同龄人（todo: hearing peers）和当地社区交流时，一直依靠字幕或语音转文字应用程序。
+她知道自己必须与残障办公室联系，申请手语翻译。
+但是，她不知道由于最近的诊断，她现在可能还需要哪些额外的资源。
+她希望能讨论有多少课程材料是用字幕和誊本（todo)呈现的。
 
 Marta is currently learning braille and is being exposed to using a braille display to access her current technology. She was excited to learn that the braille display includes calendar, e-mail, web browsing, and note-taking features so she can have an all-in-one device. This will reduce the number of devices Marta will have to travel with so she can navigate the campus safely. She wants to be able to independently navigate the college platforms to access course materials, communicate with her professors, and submit assignments without having to rely on someone else if she can’t visually access the information. So far, Marta has had mixed success using the braille display. It 效果良好 when content is coded so that it can be recognized by the device. Unfortunately, in one case, she couldn't submit a form because a button wasn't coded correctly.
 
