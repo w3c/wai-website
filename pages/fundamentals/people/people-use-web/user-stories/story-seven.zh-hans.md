@@ -8,7 +8,7 @@ lang: zh-hans   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translations:
-  last_updated: 2025-03-20
+  last_updated: 2025-03-21
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -159,73 +159,84 @@ Marta在与听力同龄人（todo: hearing peers）和当地社区交流时，�
 但是，她不知道由于最近的诊断，她现在可能还需要哪些额外的资源。
 她希望能讨论有多少课程材料是用字幕和誊本（todo)呈现的。
 
-Marta is currently learning braille and is being exposed to using a braille display to access her current technology. She was excited to learn that the braille display includes calendar, e-mail, web browsing, and note-taking features so she can have an all-in-one device. This will reduce the number of devices Marta will have to travel with so she can navigate the campus safely. She wants to be able to independently navigate the college platforms to access course materials, communicate with her professors, and submit assignments without having to rely on someone else if she can’t visually access the information. So far, Marta has had mixed success using the braille display. It 效果良好 when content is coded so that it can be recognized by the device. Unfortunately, in one case, she couldn't submit a form because a button wasn't coded correctly.
+Marta目前正在学习盲文，并正在尝试使用盲文显示器来访问她当前的技术。
+她很高兴得知盲文显示器包括日历、电子邮件、网页浏览和笔记功能，因此她可以拥有一个一体化设备。
+这将减少Marta必须携带的设备数量，以便她可以安全地在校园中穿行。
+她希望能够独立浏览大学平台以访问课程材料、与教授交流并提交作业，而不必在无法直观访问信息时依赖他人。
+到目前为止，Marta使用盲文显示器的成功程度参差不齐。
+当内容经过编码以便设备可以识别时，它效果很好。
+不幸的是，在一个案例中，因为按钮的编码不正确导致她无法提交表单。
 
-Socially, Marta loves being out and about with her friends. She will not be able to drive so will need to rely on public transportation. This is not new to her since she lives in an urban area. However, she knows there are always last minute changes to platforms and times. She is worried about being alerted to this information. She is already experiencing difficulty reading times, plus the website is not mobile optimized and doesn't work well when zoomed. She is interested in customizing her devices so she can utilize tactile features for notifications and alerts for all aspects of her life. Marta is eager to learn about the accessible technology that is available so she can continue her path to becoming a successful fashion designer.
+在社交方面，Marta喜欢和朋友们一起外出。
+她不能开车，所以需要依赖公共交通。这对她来说并不新鲜，因为她住在市区(todo)。
+然而，她知道平台和时间总会在最后一刻发生变化。她担心收到这些信息的提醒。
+她已经很难读懂时间，而且网站没有针对移动设备进行优化，缩放时效果也不好。
+她有兴趣定制她的设备，这样她就可以利用触觉(todo)功能来接收生活中各个方面的通知和警报。
+Marta渴望了解可用的无障碍技术，这样她就可以继续成为一名成功的时装设计师。
 
 ## 障碍示例
 
 一致的布局
-: **障碍：** "Some shopping sites I visit have completely different styles for different sections. It takes me a while to work out where everything is in each section which is really frustrating."
-: **效果良好:** "The shopping website I use has the same layout on all of it's sections which makes it easy to work my way around pages."
+: **障碍：** "我访问的一些购物网站不同部分的样式完全不同。我花了好一会儿才弄清楚每个部分的内容，这真的很令人沮丧。"
+: **效果良好:** "我使用的购物网站的所有部分都有相同的布局，这使我可以轻松地浏览各个页面。" （todo可以提交pr修改英文内容it's）
 
 没有文本记录
-: **障碍：** "Some videos only have embedded captions which I can't access easily."
-: **效果良好:** "Having a transcript is a big help. It is much easier for me to read with my Braille device."
+: **障碍：** "有些视频仅有嵌入字幕，我无法轻松访问。"
+: **效果良好:** "有抄本（todo）很有帮助。有了盲文设备，我读起来就容易多了。"
 
-Inaccessible CAPTCHA
-: **障碍：** "If a site has a CAPTCHA that uses images or audio then I just can't use it - it can take me ages to work out the image and I can't hear the audio alternative."
-: **效果良好:** "No CAPTCHA is best but sometimes there are simple things that ask a really easy question."
+非无障碍友好的CAPTCHA
+: **障碍：** "如果某个网站的CAPTCHA使用图像或音频，那么我就无法使用它。我可能需要很长时间才能弄清楚图像，而且我听不到音频。"
+: **效果良好:** "没有CAPTCHA是最好的，但有时有些简单的事情则可以问一个非常简单的问题"
 
 键盘导航
-: **障碍：** "A date picker that pops up when I tab to a date entry field but I can't use the date picker as it doesn't work with the keyboard."
-: **效果良好:** "I can tab through dates in a date picker using my keyboard or I can just enter the date without the date picker."
+: **障碍：** "当我Tab到日期输入字段后，弹出一个日期选择器，但是我无法使用这个日期选择器因为它无法使用键盘操作。"
+: **效果良好:** "我可以使用键盘Tab到不同的日期或者我可以在不使用日期选择器时输入日期。"
 
-Changes elsewhere on a page
-: **障碍：** "I needed to add my previous address into an application form, but nothing happened when I pressed the 'Add new address' button. I don't know where the new address fields might have been added to the page."
-: **效果良好:** "When I press the 'Add new address' button, I am taken to the form fields that have just been added above the button."
+页面其他地方发生变更
+: **障碍：** "我需要将我以前的地址添加到申请表中，但当我按下“添加新地址”按钮时什么也没发生。我不知道新地址字段可能添加到页面的哪个位置。"
+: **效果良好:** "当我按下“添加新地址”按钮时，我会被带到刚刚添加到按钮上方的表单字段。"
 
 ## 使用的辅助技术和适应策略
 
-* [Braille (Perception)](/people-use-web/tools-techniques/perception/#braille)
-* [Refreshable Braille display (Perception)](/people-use-web/tools-techniques/perception/#braille_display)
-* [Screen reader (Perception)](/people-use-web/tools-techniques/perception/#sr)
-* [Text-to-speech (Perception)](/people-use-web/tools-techniques/perception/#tts)
-* [Transcripts (Perception)](/people-use-web/tools-techniques/perception/#transcripts)
-* [Customized fonts and colors (Presentation)](/people-use-web/tools-techniques/presentation/#style)
-* [Screen magnification (Presentation)](/people-use-web/tools-techniques/presentation/#display)
-* [Screen magnifier (Presentation)](/people-use-web/tools-techniques/presentation/#magnifiers)
-* [Descriptive titles, headings, and labels (Interaction)](/people-use-web/tools-techniques/navigation/#labels)
-* [Helpful error and success messages (Interaction)](/people-use-web/tools-techniques/navigation/#messages)
-* [Keyboard navigation (Interaction)](/people-use-web/tools-techniques/navigation/#keyboard)
-* [Skip links (Interaction)](/people-use-web/tools-techniques/navigation/#skip)
+* [盲文 (感知)](/people-use-web/tools-techniques/perception/#braille)
+* [可刷新的盲文显示器 (感知)](/people-use-web/tools-techniques/perception/#braille_display)
+* [屏幕阅读器 (感知)](/people-use-web/tools-techniques/perception/#sr)
+* [文字转语音 (感知)](/people-use-web/tools-techniques/perception/#tts)
+* [Transcripts todo (感知)](/people-use-web/tools-techniques/perception/#transcripts)
+* [自定义字体和颜色（演示）](/people-use-web/tools-techniques/presentation/#style)
+* [屏幕放大（演示）](/people-use-web/tools-techniques/presentation/#display)
+* [屏幕放大镜（演示）](/people-use-web/tools-techniques/presentation/#magnifiers)
+* [描述性标题、小标题和标签（交互）](/people-use-web/tools-techniques/navigation/#labels)
+* [有用的错误和成功消息（交互）](/people-use-web/tools-techniques/navigation/#messages)
+* [键盘导航（交互）](/people-use-web/tools-techniques/navigation/#keyboard)
+* [跳过链接（互动）](/people-use-web/tools-techniques/navigation/#skip)
 
 ## 相关WAI资源
 
-* Video: [Video Captions](/perspective-videos/captions/)
-* Tip: [Create transcripts and captions for multimedia](/tips/writing/#create-transcripts-and-captions-for-multimedia)
-* Tip: [Avoid CAPTCHA where possible](/tips/developing/#avoid-captcha-where-possible)
-* Tip: [Ensure that all interactive elements are keyboard accessible](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
-* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Check: [Image text alternatives ("alt text")](/test-evaluate/preliminary/#images)
-* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
-* Check: [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
-* Check: [Basic Structure Check](/test-evaluate/preliminary/#structure)
+* 视频: [视频字幕](/perspective-videos/captions/)
+* 提示: [为多媒体创建抄本（todo）和字幕](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* 提示: [尽可能避免使用CAPTCHA](/tips/developing/#avoid-captcha-where-possible)
+* 提示: [确保所有交互元素都可以通过键盘访问](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
+* 提示: [提供清晰一致的导航选项](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* 检查: [图像文本替代（“替代文本”）](/test-evaluate/preliminary/#images)
+* 检查: [表单，标签和错误信息](/test-evaluate/preliminary/#forms)
+* 检查: [多媒体（视频、音频）替代品](/test-evaluate/preliminary/#media)
+* 检查: [基本结构检查](/test-evaluate/preliminary/#structure)
 
 ## 相关准则
 
-* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
-* [Alternatives for audio and video content (Perceivable)](/fundamentals/accessibility-principles/#captions)
-* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
-* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
-* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
-* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
-* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
+* [非文本内容的文本替代（可感知）](/fundamentals/accessibility-principles/#alternatives)
+* [音频和视频内容的替代品（可感知）](/fundamentals/accessibility-principles/#captions)
+* [内容可以以不同的方式呈现（可感知）](/fundamentals/accessibility-principles/#adaptable)
+* [内容更容易看到和听到（可感知）](/fundamentals/accessibility-principles/#distinguishable)
+* [用户有足够的时间阅读和使用内容（可操作）](/fundamentals/accessibility-principles/#time)
+* [用户可以轻松导航、查找内容并确定自己所在的位置（可操作）](/fundamentals/accessibility-principles/#navigable)
+* [内容以可预测的方式出现和运行（可理解）](/fundamentals/accessibility-principles/#predictable)
+* [内容与当前和未来的用户工具兼容（稳健性todo）](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
-## 视频：Marta，失聪和失明的市场营销助理 {#accessible-video}
+## 视频：Marta，失聪和失明的营销助理 {#accessible-video}
 
 {% include excol.html type="middle" %}
 
@@ -235,18 +246,18 @@ Changes elsewhere on a page
   yt-id="llTnoiq2Mow"
 %}
 
-_当前视频也可以在 W3C 服务器上找到: [视频：Marta，失聪和失明的市场营销助理 (文件格式: MP4, 文件大小: 360MB)](https://media.w3.org/wai/people-use-web/user-stories_7.mp4)._
+_当前视频也可以在 W3C 服务器上找到: [视频：Marta，失聪和失明的营销助理 (文件格式: MP4, 文件大小: 360MB)](https://media.w3.org/wai/people-use-web/user-stories_7.mp4)._
 
 ###  附有视觉描述的文本记录 {#transcript}
 
 | 音频 | 视觉 |
 | --- | --- |
-| How people with disabilities use digital technology; Marta, a marketing assistant who is Deaf and blind. | How people with disabilities use digital technology; Marta, a marketing assistant who is deaf and blind. |
-| Hi! I’m Marta, a marketing assistant at my School for the Deaf. I’m Deaf-blind. I was born deaf and have progressive vision loss, which means I can still see things if they’re large and up-close but I see less and less each year. | A woman signs directly to the camera. |
-| As a Deaf child, I learned sign language early on. This is why technology is so important to me – it allows me to communicate with more people. At home, I have a computer that can enlarge my documents up to 20 times. I have a big screen but can still only see a very small portion of the screen, and an even smaller portion of the documents because it’s like looking through a magnification lens. I can find my way around documents with headings and sections that look different. For example, this briefing sheet uses a color for the headings that is different from the main content, which makes it easier for me to recognize them. | The woman is sitting on the sofa with another man, they are signing to each other. The woman is then sitting at a desk scrolling through zoomed-in options on a website. She is using a mouse and looking at a monitor through a magnification lens. |
-| Oh, and I’m learning to use braille too. Braille are those dots that you read with your fingers, and I have this really cool device called a “refreshable braille display” – it’s a small device that I can take with me everywhere, unlike my computer. It has apps for email, web, and chat, and some have a special keyboard for typing in braille. I read the braille characters in a row on the device, which I’m slowly getting used to. It’s always difficult to learn to use something new at first but I’m getting better at reading and typing braille. | The woman is sitting at a desk using a refreshable braille display. |
-| But not all websites and apps work well with magnification or on my braille display. Like when I need to look up the bus schedule to meet up with my friends – that table doesn’t work well when I enlarge it on my phone. And forget about trying to read it in braille. I can’t tell what row or column I’m in and it just jumps all over the place! It makes me nervous because I can’t as easily ask for help from people around me while I’m out, so I’ve been learning how to speak up and ask companies for more accessible websites and apps to help me stay independent. | The woman is sitting at a bus stop, looking at a zoomed-in bus timetable app on her mobile phone. She is holding the mobile phone close to her face. |
-| 您可以帮助让无障碍对我更友好。无障碍：以人为本。 | 该女子直接对着镜头说话 |
+| 残障人士如何使用数字技术。Marta，失聪和失明的营销助理。 | 残障人士如何使用数字技术。Marta，失聪和失明的营销助理。|
+| 大家好！我是Marta，我是我所在的聋哑（todo）学校的一名营销助理。我失聪且失明。我生来就是失聪的，且视力正在逐渐下降，这意味着我仍然可以看见很大很近的东西，但每年能看见的东西越来越少。 | 一名妇女直接对着镜头打手势。 |
+| 作为一名失聪儿童，我很早就学会了手语。这就是为什么技术对我如此重要，它让我能够与更多的人交流。在家里，我有一台电脑，它可以将我的文档放大20倍。我有一个大屏幕，但仍然只能看到屏幕的一小部分，甚至文档的一小部分，因为这就像透过放大镜看一样。我可以找到标题和部分看起来不同的文档。例如，这份简报的标题颜色与正文不同，这样我就能更容易识别它们。| 这位女士和另一位男士坐在沙发上，他们正在用手语交谈。然后这位女士坐在桌前，滚动浏览网站上的放大选项。她正在使用鼠标，并通过放大镜查看显示器。 |
+| 哦，我也在学使用盲文。盲文是用手指阅读的那些点，我有一个非常酷的设备，叫做“可刷新盲文显示器”，这是一个小设备，我可以随身携带，不像我的电脑。它有电子邮件、网络和聊天应用程序，有些还有一个特殊的键盘可以输入盲文。我在设备上连续阅读盲文字符，我正在慢慢习惯。一开始学习使用新东西总是很难，但我阅读和输入盲文的能力越来越好。| 这位女士坐在桌前，使用可刷新盲文显示器。|
+| 但并非所有网站和应用程序都能在放大后或在我的盲文显示器上很好地工作。比如当我需要查找公交车时刻表来和朋友见面时，当我在手机上放大那个表格时，它就不能很好地工作。更不用说用盲文阅读了。我不知道自己在哪一行或哪一列，它只是跳来跳去！这让我很紧张，因为出门在外时，我无法轻易向周围的人寻求帮助，所以我一直在学习如何发声，并要求公司提供无障碍更友好的网站和应用程序，以帮助我保持独立。| 这位女士坐在公交车站，看着手机上放大的公交时刻表应用程序。她把手机靠近脸。|
+| 您可以帮助让无障碍对我更友好。无障碍：以人为本。| 该女士直接对着镜头说话 |
 | 有关 Web 无障碍倡议组织提供的有关残疾人如何使用数字技术的更多信息，请访问 w3.org/WAI/people | 无障碍：以人为本。w3.org/WAI/people |
 
 
