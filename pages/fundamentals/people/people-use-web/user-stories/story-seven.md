@@ -153,7 +153,7 @@ Socially, Marta loves being out and about with her friends. She will not be able
 
 Consistent layout
 : **Barrier:** "Some shopping sites I visit have completely different styles for different sections. It takes me a while to work out where everything is in each section which is really frustrating."
-: **Works well:** "The shopping website I use has the same layout on all of it's sections which makes it easy to work my way around pages."
+: **Works well:** "The shopping website I use has the same layout on all of its sections which makes it easy to work my way around pages."
 
 No transcript
 : **Barrier:** "Some videos only have embedded captions which I can't access easily."
