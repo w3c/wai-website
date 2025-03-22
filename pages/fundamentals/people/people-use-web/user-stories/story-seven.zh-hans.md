@@ -8,7 +8,7 @@ lang: zh-hans   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translations:
-  last_updated: 2025-03-21
+  last_updated: 2025-03-22
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -154,10 +154,10 @@ Marta是一名营销助理，先天性极重度失聪。她用手语与人交流
 
 Marta一直对服装很感兴趣，她的视野不断衰退，这更加激发了她对鲜艳色彩、夸张造型和独特纹理的热情。
 她已经开始在当地大学选修时装设计课程，并对学习时装史感到非常兴奋。
-Marta在与听力同龄人（todo: hearing peers）和当地社区交流时，一直依靠字幕或语音转文字应用程序。
+Marta在与其他听力受损的同龄人和当地社区交流时，一直依靠字幕或语音转文字应用程序。
 她知道自己必须与残障办公室联系，申请手语翻译。
 但是，她不知道由于最近的诊断，她现在可能还需要哪些额外的资源。
-她希望能讨论有多少课程材料是用字幕和誊本（todo)呈现的。
+她希望能讨论有多少课程材料是用字幕和文本记录呈现的。
 
 Marta目前正在学习盲文，并正在尝试使用盲文显示器来访问她当前的技术。
 她很高兴得知盲文显示器包括日历、电子邮件、网页浏览和笔记功能，因此她可以拥有一个一体化设备。
@@ -168,21 +168,21 @@ Marta目前正在学习盲文，并正在尝试使用盲文显示器来访问她
 不幸的是，在一个案例中，因为按钮的编码不正确导致她无法提交表单。
 
 在社交方面，Marta喜欢和朋友们一起外出。
-她不能开车，所以需要依赖公共交通。这对她来说并不新鲜，因为她住在市区(todo)。
+她不能开车，所以需要依赖公共交通。这对她来说并不新鲜，因为她住在市区。
 然而，她知道平台和时间总会在最后一刻发生变化。她担心收到这些信息的提醒。
 她已经很难读懂时间，而且网站没有针对移动设备进行优化，缩放时效果也不好。
-她有兴趣定制她的设备，这样她就可以利用触觉(todo)功能来接收生活中各个方面的通知和警报。
+她有兴趣定制她的设备，这样她就可以利用触觉功能来接收生活中各个方面的通知和警报。
 Marta渴望了解可用的无障碍技术，这样她就可以继续成为一名成功的时装设计师。
 
 ## 障碍示例
 
 一致的布局
 : **障碍：** "我访问的一些购物网站不同部分的样式完全不同。我花了好一会儿才弄清楚每个部分的内容，这真的很令人沮丧。"
-: **效果良好:** "我使用的购物网站的所有部分都有相同的布局，这使我可以轻松地浏览各个页面。" （todo可以提交pr修改英文内容it's）
+: **效果良好:** "我使用的购物网站的所有部分都有相同的布局，这使我可以轻松地浏览各个页面。"
 
 没有文本记录
 : **障碍：** "有些视频仅有嵌入字幕，我无法轻松访问。"
-: **效果良好:** "有抄本（todo）很有帮助。有了盲文设备，我读起来就容易多了。"
+: **效果良好:** "有文本记录很有帮助。有了盲文设备，我读起来就容易多了。"
 
 非无障碍友好的CAPTCHA
 : **障碍：** "如果某个网站的CAPTCHA使用图像或音频，那么我就无法使用它。我可能需要很长时间才能弄清楚图像，而且我听不到音频。"
@@ -202,7 +202,7 @@ Marta渴望了解可用的无障碍技术，这样她就可以继续成为一名
 * [可刷新的盲文显示器 (感知)](/people-use-web/tools-techniques/perception/#braille_display)
 * [屏幕阅读器 (感知)](/people-use-web/tools-techniques/perception/#sr)
 * [文字转语音 (感知)](/people-use-web/tools-techniques/perception/#tts)
-* [Transcripts todo (感知)](/people-use-web/tools-techniques/perception/#transcripts)
+* [文本记录 (感知)](/people-use-web/tools-techniques/perception/#transcripts)
 * [自定义字体和颜色（演示）](/people-use-web/tools-techniques/presentation/#style)
 * [屏幕放大（演示）](/people-use-web/tools-techniques/presentation/#display)
 * [屏幕放大镜（演示）](/people-use-web/tools-techniques/presentation/#magnifiers)
@@ -214,7 +214,7 @@ Marta渴望了解可用的无障碍技术，这样她就可以继续成为一名
 ## 相关WAI资源
 
 * 视频: [视频字幕](/perspective-videos/captions/)
-* 提示: [为多媒体创建抄本（todo）和字幕](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* 提示: [为多媒体创建文本记录和字幕](/tips/writing/#create-transcripts-and-captions-for-multimedia)
 * 提示: [尽可能避免使用CAPTCHA](/tips/developing/#avoid-captcha-where-possible)
 * 提示: [确保所有交互元素都可以通过键盘访问](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
 * 提示: [提供清晰一致的导航选项](/tips/designing/#provide-clear-and-consistent-navigation-options)
@@ -232,7 +232,7 @@ Marta渴望了解可用的无障碍技术，这样她就可以继续成为一名
 * [用户有足够的时间阅读和使用内容（可操作）](/fundamentals/accessibility-principles/#time)
 * [用户可以轻松导航、查找内容并确定自己所在的位置（可操作）](/fundamentals/accessibility-principles/#navigable)
 * [内容以可预测的方式出现和运行（可理解）](/fundamentals/accessibility-principles/#predictable)
-* [内容与当前和未来的用户工具兼容（稳健性todo）](/fundamentals/accessibility-principles/#compatible)
+* [内容与当前和未来的用户工具兼容（稳健性）](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -253,7 +253,7 @@ _当前视频也可以在 W3C 服务器上找到: [视频：Marta，失聪和失
 | 音频 | 视觉 |
 | --- | --- |
 | 残障人士如何使用数字技术。Marta，失聪和失明的营销助理。 | 残障人士如何使用数字技术。Marta，失聪和失明的营销助理。|
-| 大家好！我是Marta，我是我所在的聋哑（todo）学校的一名营销助理。我失聪且失明。我生来就是失聪的，且视力正在逐渐下降，这意味着我仍然可以看见很大很近的东西，但每年能看见的东西越来越少。 | 一名妇女直接对着镜头打手势。 |
+| 大家好！我是Marta，我是我所在的失聪人学校的一名营销助理。我失聪且失明。我生来就是失聪的，且视力正在逐渐下降，这意味着我仍然可以看见很大很近的东西，但每年能看见的东西越来越少。 | 一名妇女直接对着镜头打手势。 |
 | 作为一名失聪儿童，我很早就学会了手语。这就是为什么技术对我如此重要，它让我能够与更多的人交流。在家里，我有一台电脑，它可以将我的文档放大20倍。我有一个大屏幕，但仍然只能看到屏幕的一小部分，甚至文档的一小部分，因为这就像透过放大镜看一样。我可以找到标题和部分看起来不同的文档。例如，这份简报的标题颜色与正文不同，这样我就能更容易识别它们。| 这位女士和另一位男士坐在沙发上，他们正在用手语交谈。然后这位女士坐在桌前，滚动浏览网站上的放大选项。她正在使用鼠标，并通过放大镜查看显示器。 |
 | 哦，我也在学使用盲文。盲文是用手指阅读的那些点，我有一个非常酷的设备，叫做“可刷新盲文显示器”，这是一个小设备，我可以随身携带，不像我的电脑。它有电子邮件、网络和聊天应用程序，有些还有一个特殊的键盘可以输入盲文。我在设备上连续阅读盲文字符，我正在慢慢习惯。一开始学习使用新东西总是很难，但我阅读和输入盲文的能力越来越好。| 这位女士坐在桌前，使用可刷新盲文显示器。|
 | 但并非所有网站和应用程序都能在放大后或在我的盲文显示器上很好地工作。比如当我需要查找公交车时刻表来和朋友见面时，当我在手机上放大那个表格时，它就不能很好地工作。更不用说用盲文阅读了。我不知道自己在哪一行或哪一列，它只是跳来跳去！这让我很紧张，因为出门在外时，我无法轻易向周围的人寻求帮助，所以我一直在学习如何发声，并要求公司提供无障碍更友好的网站和应用程序，以帮助我保持独立。| 这位女士坐在公交车站，看着手机上放大的公交时刻表应用程序。她把手机靠近脸。|
