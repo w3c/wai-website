@@ -8,7 +8,7 @@ lang: zh-hans   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translations:
-  last_updated: 2025-03-22
+  last_updated: 2025-03-25
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -110,7 +110,7 @@ footer: >
   <div>
 {:/}
 
-Stefan is a student who has dyslexia and attention deficit hyperactivity disorder (ADHD). Stefan finds it hard to maintain focus on his schoolwork, especially when reading a lot of dense text or following written instructions. He likes digital textbooks and websites that allow him to use text-to-speech software because he can follow both the written and auditory words. It’s important though that websites and other digital technology use plain language, a consistent layout, and don’t display pop-up ads or moving images, which are very distracting and confusing. Mobile apps and websites are often less cluttered and easier to use.
+Stefan是一名患有读写障碍和注意缺陷多动障碍 (ADHD) 的学生。Stefan发现自己很难保持对学校作业的专注，尤其是在阅读大量密集文字或遵循书面说明时。他喜欢数字教科书和可以使用文本转语音软件的网站，因为他可以同时听懂文字和声音。但重要的是，网站和其他数字技术要使用通俗易懂的语言，版面设计要一致，不要显示弹出式广告或动态图像，这些都会分散注意力，造成混淆。移动应用程序和网站通常不那么杂乱，也更容易使用。
 
 {::options toc_levels="2..2" /}
 
@@ -142,83 +142,83 @@ Stefan is a student who has dyslexia and attention deficit hyperactivity disorde
 
 ## 关于 Stefan
 
-> My text reader helps me focus on what I am reading. I don't use it all the time but for long text it is super helpful.
+> 我的文本阅读器能帮助我集中精力阅读。我并不是一直使用它，但对于长篇文字来说，它非常有用。
 
-Stefan is a student with dyslexia and attention deficit hyperactivity disorder (ADHD). As a person with ADHD, Stefan has difficulty following multi-step or long tasks. This can make it hard to maintain focus on his schoolwork. Visual supports, such as icons and images, and good use of whitespace around what he is looking at can help him to focus. He can become lost in dense text and is unable to find the meaning. When this happens he gives up because it takes too long and is tiring. This has caused him to fall behind in his work compared to other students.
+Stefan是一名患有阅写障碍和注意缺陷多动障碍 (ADHD) 的学生。作为一名ADHD患者，Stefan很难完成多步骤或长时间的任务。这使他很难保持对学校作业的专注。视觉支持（如图标和图形）以及在他所看的内容周围使用良好的留白可以帮助他集中注意力。他可能会在密密麻麻的文字中迷失方向，找不到意思。当这种情况发生时，他就会放弃，因为时间太长，而且很累。这导致他的学习成绩落后于其他学生。
 
-Stefan's school has recently transitioned to using digital textbooks. This has been a huge improvement for Stefan who can now use his text-to-speech software to aid his understanding of what are sometimes complex texts. Stefan also uses the web for research. Unfortunately, his experience on the web can be varied. Often sites contain content such as animated advertisments and graphics which he can find distracting.
+Stefan所在的学校最近开始使用数字教科书。这对Stefan来说是一个巨大的进步，他现在可以使用文本转语音软件来帮助他理解有时很复杂的课文。Stefan还利用网络进行研究。遗憾的是，他在网上的体验可能各不相同。很多时候，网站上的动画广告和图像等内容会分散他的注意力。
 
-Stefan finds it easier to use websites that have a simple and consistent layout with content written in plain language. Images or icons can also help to reinforce the meaning of the text. Sometimes he uses functionality in his text-to-speech software that allows him to change the page background color. This is especially helpful when he is tired. Stefan also uses captions when watching videos because both hearing and seeing the words reinforces their meaning.
+Stefan发现，使用布局简单一致、内容通俗易懂的网站会更容易。图形或图标也有助于强化文字的含义。有时，他使用文本转语音软件中的功能，可以更改页面背景颜色。这在他疲倦时尤其有用。在观看视频时，Stefan也会使用字幕，因为听到和看到文字都能强化其含义。
 
-Stefan is a fan of old science fiction movies and spends a lot of time on fan made sites and forums. He has spending limits on his card and he uses this to buy fan memorabilia. The design of these sites and purchasing process can make this difficult. They are often quite busy with distracting advertisements and complicated checkout forms. He has found that he can access these sites on his mobile phone where he can switch on the browser reading mode to remove a lot of the background clutter. This allows him to focus on the task and makes the steps much clearer.
+Stefan是一个老科幻电影迷，花了很多时间在影迷制作的网站和论坛上。他的银行卡有消费限额，他用它来购买影迷纪念品。这些网站的设计和购买过程会给他带来困难。这些网站通常有干扰性广告和复杂的结账表单。他发现自己可以用手机访问这些网站，在手机上打开浏览器的阅读模式，就可以去除很多杂乱的背景信息。这样，他就能集中精力完成任务，步骤也更加清晰。
 
-Stefan experiences problems with sites where the navigation of the site is unclear. He finds it much easier to use sites that include functions such as a sitemap, breadcrumb trails, or a search function. Stefan has difficulty with spelling so benefits from search functionality, which suggests alternative spellings and error corrections.
+Stefan遇到的问题是网站导航不清晰。他发现使用包含网站地图、面包屑轨迹或搜索功能的网站要容易得多。Stefan在拼写方面有困难，因此搜索功能可以为他提供其他拼写建议和错误纠正，这让他受益匪浅。
 
 ## 障碍示例
 
 拼写建议
-: **Barrier:** "I have difficulty with spelling and sometimes misspell words. Sometimes I don't get the search results I'm looking for."
-: **Works well:** "I like when search tools offer alternative spellings or alternative search suggestions instead of just returning no results."
+: **障碍:** "我拼写有困难，有时会拼错单词。有时我得不到我想要的搜索结果。"
+: **效果良好:** "我喜欢搜索工具提供替代拼写或替代搜索建议，而不是只返回无结果。"
 
 浏览器设置不被尊重
-: **Barrier:** "I use browser settings to specify the font, text size, and line spacing I need but some sites don't display my settings."
-: **Works well:** "When I change settings in my browser, websites show those settings."
+: **障碍:** "我使用浏览器设置来指定所需的字体、文字大小和行距，但有些网站不显示我的设置。"
+: **效果良好:** "当我在浏览器中更改设置时，网站会显示这些设置。"
 
 <!--Distracting pop-ups
-: **Barrier:** "Banner ads and popups are distracting and make me lose focus on what I'm doing."
-: **Works well:** "It's great when I can turn off these images using the ad blocker in my browser."-->
+: **障碍:** "Banner ads and popups are distracting and make me lose focus on what I'm doing."
+: **效果良好:** "It's great when I can turn off these images using the ad blocker in my browser."-->
 
 复杂语言
-: **Barrier:** "Complex language and sentence structure are confusing to me and hard to read and retain.
-: **Works well:** Use short sentences and plain language as much as possible."
+: **障碍:** "复杂的语言和句子结构让我感到困惑，难以阅读和记住。"
+: **效果良好:** "尽量使用简短的句子和通俗易懂的语言。"
 
 过多的缩略语和简称
-: **Barrier:** "Excessive use of acronyms and abbreviations is distracting and I often must reread several times or sometimes just get stuck and give up."
-: **Works well:** "Spell out the complete words of an acronym at least the first time it is used. Avoid or explain abbreviations."
+: **障碍:** "过多使用缩略语和简称会分散我的注意力，我经常必须重读几遍，有时甚至会卡住而放弃。"
+: **效果良好:** "至少在第一次使用缩略语时拼出其完整单词。避免使用或解释缩略语。"
 
 ## 使用的辅助技术和适应策略
 
-* [Captions (Perception)](/people-use-web/tools-techniques/perception/#captions)
-* [Screen reader (Perception)](/people-use-web/tools-techniques/perception/#sr)
-* [Text-to-speech (Perception)](/people-use-web/tools-techniques/perception/#tts)
-* [Pop-up and animations blockers (Presentation)](/people-use-web/tools-techniques/presentation/#blockers)
-* [Reading assistants (Presentation)](/people-use-web/tools-techniques/presentation/#reading)
-* [Spelling and grammar tools (input)](/people-use-web/tools-techniques/input/#lexical)
-* [Consistency and predictability (Interaction)](/people-use-web/tools-techniques/navigation/#consistency)
-* [Helpful error and success messages (Interaction)](/people-use-web/tools-techniques/navigation/#messages)
-* [Keyword search (Interaction)](/people-use-web/tools-techniques/navigation/#search)
-* [Multiple navigation mechanisms (Interaction)](/people-use-web/tools-techniques/navigation/#navigating)
+* [字幕（感知）](/people-use-web/tools-techniques/perception/#captions)
+* [屏幕阅读器（感知）](/people-use-web/tools-techniques/perception/#sr)
+* [文本转语音（感知）](/people-use-web/tools-techniques/perception/#tts)
+* [弹出窗口和动画阻止程序（呈现）](/people-use-web/tools-techniques/presentation/#blockers)
+* [阅读助理 (呈现)](/people-use-web/tools-techniques/presentation/#reading)
+* [拼写和语法工具 (输入)](/people-use-web/tools-techniques/input/#lexical)
+* [一致性和可预测性（交互）](/people-use-web/tools-techniques/navigation/#consistency)
+* [有用的错误和成功信息（交互）](/people-use-web/tools-techniques/navigation/#messages)
+* [关键词搜索（交互）](/people-use-web/tools-techniques/navigation/#search)
+* [多种导航机制（交互）](/people-use-web/tools-techniques/navigation/#navigating)
 
 ## 相关WAI资源
 
-* Use case: [Tal: A Student who has Dyslexia and Impaired Eye Hand Coordination](https://www.w3.org/TR/coga-usable/#tal-a-student-who-has-dyslexia-and-impaired-eye-hand-coordination)
-* Use case: [Yuki: A Yoga Teacher who has AD(H)D](https://www.w3.org/TR/coga-usable/#yuki-a-yoga-teacher-who-has-ad-h-d)
-* Video: [Clear Layout and Design](/perspective-videos/layout/)
-* Tip: [Use headings to convey meaning and structure](/tips/writing/#use-headings-to-convey-meaning-and-structure)
-* Tip: [Make link text meaningful](/tips/writing/#make-link-text-meaningful)
-* Tip: [Provide clear instructions](/tips/writing/#provide-clear-instructions)
-* Tip: [Keep content clear and concise](/tips/writing/#keep-content-clear-and-concise)
-* Tip: [Include alternative text for images](/tips/developing/#include-alternative-text-for-images)
-* Tip: [Help users avoid and correct mistakes](/tips/developing/#help-users-avoid-and-correct-mistakes)
-* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Provide easily identifiable feedback](/tips/designing/#provide-easily-identifiable-feedback)
-* Tip: [Use headings and spacing to group related content](/tips/designing/#use-headings-and-spacing-to-group-related-content)
-* Check: [Image text alternatives ("alt text")](/test-evaluate/preliminary/#images)
-* Check: [Headings](/test-evaluate/preliminary/#headings)
-* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
-* Check: [Moving, Flashing, or Blinking Content](/test-evaluate/preliminary/#moving)
-* Check: [Basic structure check](/test-evaluate/preliminary/#structure)
+* 使用案例: [Tal: 患有读写障碍和手眼协调能力受损的学生](https://www.w3.org/TR/coga-usable/#tal-a-student-who-has-dyslexia-and-impaired-eye-hand-coordination)
+* 使用案例: [Yuki：患有注意缺陷障碍的瑜伽教师](https://www.w3.org/TR/coga-usable/#yuki-a-yoga-teacher-who-has-ad-h-d)
+* 视频: [清晰的布局和设计](/perspective-videos/layout/)
+* 提示: [使用标题表达含义和结构](/tips/writing/#use-headings-to-convey-meaning-and-structure)
+* 提示: [让链接文本更有意义](/tips/writing/#make-link-text-meaningful)
+* 提示: [提供明确的指示](/tips/writing/#provide-clear-instructions)
+* 提示: [内容简洁明了](/tips/writing/#keep-content-clear-and-concise)
+* 提示: [为图像添加替代文本](/tips/developing/#include-alternative-text-for-images)
+* 提示: [帮助用户避免和纠正错误](/tips/developing/#help-users-avoid-and-correct-mistakes)
+* 提示: [确保交互元素易于识别](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* 提示: [提供易于识别的反馈信息](/tips/designing/#provide-easily-identifiable-feedback)
+* 提示: [使用标题和间距对相关内容进行分组](/tips/designing/#use-headings-and-spacing-to-group-related-content)
+* 检查: [图像文本替代方案（替代文本）](/test-evaluate/preliminary/#images)
+* 检查: [标题](/test-evaluate/preliminary/#headings)
+* 检查: [表单，标签和错误信息](/test-evaluate/preliminary/#forms)
+* 检查: [移动、闪烁或闪烁的内容](/test-evaluate/preliminary/#moving)
+* 检查: [基本结构检查](/test-evaluate/preliminary/#structure)
 
 ## 相关准则
 
-* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
-* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
-* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
-* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [非文本内容的文本替代方案（可感知）](/fundamentals/accessibility-principles/#alternatives)
+* [内容可通过不同方式呈现（可感知）](/fundamentals/accessibility-principles/#adaptable)
+* [用户有足够的时间阅读和使用内容（可操作）](/fundamentals/accessibility-principles/#time)
+* [用户可以轻松导航、查找内容并确定自己的位置（可操作）](/fundamentals/accessibility-principles/#navigable)
+* [内容可读易懂（可理解）](/fundamentals/accessibility-principles/#readable)
+* [内容以可预测的方式出现和运行（可理解）](/fundamentals/accessibility-principles/#predictable)
+* [帮助用户避免和纠正错误（可理解）](/fundamentals/accessibility-principles/#tolerant)
+* [内容与当前和未来的用户工具兼容（稳健性）](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -237,13 +237,13 @@ _当前视频也可以在 W3C 服务器上找到: [视频：Stefan，患有注�
 
 | 音频 | 视觉 |
 | --- | --- |
-| How people with disabilities use digital technology; Stefan, student with attention deficit hyperactivity disorder and dyslexia. | How people with disabilities use digital technology; Stefan, student with attention deficit hyperactivity disorder and dyslexia. |
-| Hello! I’m Stefan. I have dyslexia and attention deficit hyperactivity disorder – ADHD. | A man speaks directly to the camera. |
-| I have difficulty recognizing or sounding out written words, even though I use those same words in conversation all the time. It affects my spelling and my reading comprehension. It often takes me a long time to figure out the individual words I’m reading, and then it’s hard for me to remember how the words in a sentence fit together in a meaningful way. | The man is sitting down in a living room reading a magazine. |
-| Digital books and documents are often much better for me. On the computer, on a tablet, or – my favorite – on my new e-reader. I can change the font type, text size, and line spacing, which makes it easier for me to read. I also use the read-aloud function because I read better when I can see and hear the text at the same time. It also highlights the words being read aloud and has a reading ruler, so that I can follow along more easily. | The man is sitting down in a living room reading from a tablet. He is changing the text formatting by adjusting the settings on the device. He then puts on his headphones to listen to the text and follows along with the highlighted text. |
-| Sometimes, though, digital books and documents don’t work well. Sometimes they are just scanned images. These also can’t be read aloud and I can’t change the text size and font. Some don’t have bookmarks, which I use to jump to the parts I want to focus on. Or, there are long chunks or text without any headings, so I have difficulty focusing on the content. It’s so much easier when text has more spacing and graphics to make them easier to follow. | The man is sitting down in a living room reading from a laptop. He is scrolling through a complex document. |
-| Another problem is when I have to do online research. I type in words, but sometimes I do it wrong, or use a different word that sounds the same, like “brake” when I mean “break”. Sometimes I land on websites with all these ads and things popping up and moving around the screen. With ADHD, I get distracted by these ads and videos, and sometimes I click on them and forget what I was meant to be doing. I use several pop-up blockers but they don’t always work. | The man is sitting down in a living room reading from a laptop. We see word options Brake/Break appear on screen. He then looks at a website which contains a number of advertisements and pop-ups. |
-| When I find an article I want to read, I try to remember to switch to reading mode in my browser. This usually removes all the stuff around the page and lets me focus on the text. But some websites don’t work well and the ads still appear, or the text is too difficult for me to read. I love it when websites work well with my settings and extensions. Like, the extension for spelling and grammar, which helps me when I’m typing things like email. That’s very important for me. | The man is sitting down in a living room using a laptop. He types a short text and corrects an error using the spell checker. |
+| 残疾人如何使用数字技术；Stefan，患有注意缺陷多动障碍和阅读障碍的学生。 | 残疾人如何使用数字技术；Stefan，患有注意缺陷多动障碍和阅读障碍的学生。 |
+| 你好，我是Stefan。我有阅读障碍和注意缺陷多动障碍（ADHD）。| 一名男子直接对着镜头讲话。 |
+| 我很难辨认或读出书面单词，尽管我在对话中经常使用这些单词。这影响了我的拼写和阅读理解能力。我经常要花很长时间才能弄清我所读的单词，然后我就很难记住句子中的单词是如何有意义地组合在一起的。 | 男子正坐在客厅里阅读杂志。 |
+| 数字图书和文件通常更适合我。在电脑上、平板电脑上，或者--我最喜欢的--我的新电子阅读器上。我可以改变字体类型、文字大小和行距，这让我更容易阅读。我还会使用朗读功能，因为当我能同时看到和听到文字时，阅读效果会更好。它还会突出显示正在朗读的单词，并有阅读标尺，这样我就能更轻松地跟读。| 这名男子正坐在客厅里使用平板电脑阅读。他正在通过调整设备上的设置更改文本格式。然后，他戴上耳机聆听文字，并跟随突出显示的文字进行阅读。 |
+| 不过，有时数字图书和文件的效果并不好。有时它们只是扫描图像。这些也不能朗读，我也不能改变文字大小和字体。有些没有书签，而我可以用书签跳转到我想关注的部分。或者，有的文本很长，却没有任何标题，因此我很难集中精力阅读内容。如果文本有更多的间距和图形，就会更容易理解。 | 这名男子正坐在客厅里使用笔记本电脑阅读。他正在滚动浏览一份复杂的文件。 |
+| 另一个问题是当我需要进行在线研究时。我输入单词，但有时会输错，或者用了听起来一样的不同单词，比如 “brake”，而我的意思是 “break”。有时，我登陆的网站会弹出各种广告和东西，并在屏幕上移动。我有ADHD，会被这些广告和视频分散注意力，有时我点击了它们，却忘了自己要做什么。我使用了几个弹出窗口拦截器，但它们并不总是有效。 | 该男子坐在客厅里使用笔记本电脑阅读。我们看到屏幕上出现了 Brake/Break 的单词选项。然后，他浏览了一个包含大量广告和弹出窗口的网站。|
+| 当我找到一篇想读的文章时，我会尽量记住在浏览器中切换到阅读模式。这通常会去掉页面周围的所有内容，让我专注于文字。但有些网站并不好用，仍然会出现广告，或者文字对我来说太难阅读。我喜欢网站与我的设置和扩展配合得很好。比如，拼写和语法扩展，它能在我输入电子邮件等内容时帮助我。这对我来说非常重要。 | 这名男子正坐在客厅里使用笔记本电脑。他输入了一段简短的文字，并使用拼写检查器纠正了一个错误。 |
 | 您可以帮助让无障碍对我更友好。无障碍：以人为本。| 该男士直接对着镜头说话 |
 | 有关 Web 无障碍倡议组织提供的有关残疾人如何使用数字技术的更多信息，请访问 w3.org/WAI/people | 无障碍：以人为本。w3.org/WAI/people |
 
