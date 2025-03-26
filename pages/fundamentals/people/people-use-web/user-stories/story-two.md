@@ -147,11 +147,11 @@ automatically are frustrating and confusing.
 
 ## About Ian
 
-> I find it hard to focus on busy pages. For example, lots of animations and videos, particarly ones that start without me doing anything are really frustrating.
+> I find it hard to focus on busy pages. For example, lots of animations and videos, particularly ones that start without me doing anything are really frustrating.
 
 Ian is autistic. His autism was identified at an early age because of delays in speech development. Ian received a lot of early childhood support, which helped him develop language and social skills. However, he still experiences some barriers with verbal communication, especially when experiencing anxiety.
 
-Ian works part-time as a data scientist. Working with a computer is easy for Ian, although updates to the data entry application can cause him problems if there are significant changes to the interface. This can cause feelings of axiety for Ian if he doesn't know the change is coming and given time to adapt. It can also be difficult for Ian if someone asks for some work that causes him to use parts of the system that he is not as familiar with. It is important that systems use a consistent layout and navigation.
+Ian works part-time as a data scientist. Working with a computer is easy for Ian, although updates to the data entry application can cause him problems if there are significant changes to the interface. This can cause feelings of anxiety for Ian if he doesn't know the change is coming and given time to adapt. It can also be difficult for Ian if someone asks for some work that causes him to use parts of the system that he is not as familiar with. It is important that systems use a consistent layout and navigation.
 
 Ian finds interacting with colleagues via email easy. He has worked with his team to help them appreciate how using plain language and not introducing new metaphors can help him. Many have said they also prefer less corporate jargon as well. 
 
