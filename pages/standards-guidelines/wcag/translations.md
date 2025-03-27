@@ -83,8 +83,8 @@ Two types of translations are listed on this page:
 {% assign wcag22 = site.data.standards | where_exp: "item", "item.standard == 'wcag' and item.standard_version == '2.2'" | first  %}
 
 {% assign wcag20_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.0'" | group_by: "lang" %}
-{% assign wcag21_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.1' or item.standard_version == '2.1_2018'" | group_by: "lang" %}
-{% assign wcag22_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.2'" | group_by: "lang" %}
+{% assign wcag21_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.1' or item.standard_version == '2.1_2018' or item.standard_version == '2.1_2023'" | group_by: "lang" %}
+{% assign wcag22_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.2' or item.standard_version == '2.2_2023'" | group_by: "lang" %}
 
 ## WCAG 2.2
 
