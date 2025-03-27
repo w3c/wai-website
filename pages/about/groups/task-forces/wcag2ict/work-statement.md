@@ -69,7 +69,7 @@ Explicitly out of scope for the WCAG2ICT Task Force work are:
 
 WCAG2ICT is a Task Force of the AG WG, which has oversight over the Task Force to ensure accurate interpretation and representation of WCAG 2.x. The AG WG decision process applies within the group. Draft content is periodically taken to the AG WG for review as it progresses.
 
-The primary effort of this Task Force is to describe how to interpret WCAG 2.x and its principles, guidelines, success criteria and conformance requirements when applying them to non-web ICT; and evaluating what WCAG Conformance means in the context of non-Web ICT. The resulting Working Group Note will include a discussion of the application of each of the criteria in WCAG 2.x to non-Web ICT, including their interface components and platforms, and the extent to which [WCAG Conformance](http://www.w3.org/TR/WCAG22/#conformance) is meaningful to non-Web ICT.
+The primary effort of this Task Force is to describe how to interpret WCAG 2.x and its principles, guidelines, success criteria and conformance requirements when applying them to non-web ICT; and evaluating what WCAG Conformance means in the context of non-Web ICT. The resulting Working Group Note will include a discussion of the application of each of the criteria in WCAG 2.x to non-Web ICT, including their interface components and platforms, and the extent to which [WCAG Conformance](https://www.w3.org/TR/WCAG22/#conformance) is meaningful to non-Web ICT.
 
 To efficiently develop the Working Group Note, work is sometimes broken down into sub-groups, under the coordination of the Task Force facilitators following established AG WG procedures for sub-groups.
 
@@ -129,7 +129,7 @@ The list of liaisons can be found in the [WCAG2ICT participants](https://www.w3.
 
 WCAG2ICT Task Force communications are publicly visible. Communication mechanisms for the WCAG2ICT Task Force include:
 
-1.  [WCAG2ICT Task Force public mailing list](mailto:public-wcag2ict-tf@w3.org), [mailing list archive](http://lists.w3.org/Archives/Public/public-wcag2ict-tf/), and [GitHub issue tracker](https://github.com/w3c/wcag2ict/issues)
+1.  [WCAG2ICT Task Force public mailing list](mailto:public-wcag2ict-tf@w3.org), [mailing list archive](https://lists.w3.org/Archives/Public/public-wcag2ict-tf/), and [GitHub issue tracker](https://github.com/w3c/wcag2ict/issues)
 2.  [WCAG2ICT subpage](/about/groups/task-forces/wcag2ict/) off of the [AG Working Group](/about/groups/agwg/) home page
 3.  Weekly (and at times twice-weekly) teleconferences, with teleconference minutes sent to AG WG mailing list and linked from the [WCAG2ICT TF minutes](https://www.w3.org/WAI/GL/task-forces/wcag2ict/minutes) page
 4.  Regular updates and feedback to AG WG and to the [WAI Coordination Call](https://www.w3.org/WAI/cc/wiki/Main_Page), as needed
@@ -139,7 +139,7 @@ WCAG2ICT Task Force communications are publicly visible. Communication mechanism
 
 ## Participation
 
-WCAG2ICT Task Force participants must join the Task Force through the AG WG, which includes representatives of [W3C Member Organizations](http://www.w3.org/Consortium/Member/List) as well as [Invited Experts](https://www.w3.org/participate/invited-experts/) ([agreement for Invited Experts](https://www.w3.org/Consortium/Legal/2015/06-invited-expert.html)). Task Force participants must agree to actively contribute to the work of WCAG2ICT Task Force, including:
+WCAG2ICT Task Force participants must join the Task Force through the AG WG, which includes representatives of [W3C Member Organizations](https://www.w3.org/Consortium/Member/List) as well as [Invited Experts](https://www.w3.org/participate/invited-experts/) ([agreement for Invited Experts](https://www.w3.org/Consortium/Legal/2015/06-invited-expert.html)). Task Force participants must agree to actively contribute to the work of WCAG2ICT Task Force, including:
 
 *   Minimum 4 hours per week of WCAG2ICT Task Force work through the end of the project
 *   Time contributed on WCAG2ICT Task Force counts towards AG WG participation requirement
@@ -155,7 +155,7 @@ Contact [Daniel Montalvo](mailto:dmontalvo@w3.org) to become a participant of th
 Staff contacts from the Accessibility Guidelines Working Group oversee attention to W3C Process with respect to the chartered requirements of the Working Group. The facilitators set agenda, lead meetings, determine consensus, and are the primary liaison to the Working Group.
 
 *   **Co-facilitators:** [Mary Jo Mueller](mailto:maryjom@us.ibm.com) and [Chris Loiselle](mailto:chris.loiselle@oracle.com)
-*   **Staff Contact:** [Daniel Montalvo](http://www.w3.org/People#dmontalvo)
+*   **Staff Contact:** [Daniel Montalvo](https://www.w3.org/People#dmontalvo)
 *   **Editorial Team:**
     *   Mary Jo Mueller
     *   Phil Day

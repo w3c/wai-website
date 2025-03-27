@@ -42,17 +42,6 @@ This page guides you through the technical steps to translate images from the We
 {% include toc.html type="end" %}
 {:/}
 
-{::nomarkdown}
-{% include box.html type="start" class="highlighted" %}
-{:/}
-W3C staff temporarily has limited availability to support WAI translations.
-
-We expect to be back to full support by mid-February 2025. Thank you very much for your patience, if we are not able to reply to you until then. We greatly appreciate contributions and look forward to supporting you as soon as possible.
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
 ## Overview
 
 There are 3 steps to create translated versions of our resources' images:

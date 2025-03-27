@@ -2,7 +2,7 @@
 title: WCAG 2 Translations
 nav_title: "Translations"
 lang: en
-last_updated: 2024-10-31
+last_updated: 2025-03-27
 first_published: "2 March 2009"
 description: Links to translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1 and 2.0.
 
@@ -83,8 +83,8 @@ Two types of translations are listed on this page:
 {% assign wcag22 = site.data.standards | where_exp: "item", "item.standard == 'wcag' and item.standard_version == '2.2'" | first  %}
 
 {% assign wcag20_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.0'" | group_by: "lang" %}
-{% assign wcag21_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.1' or item.standard_version == '2.1_2018'" | group_by: "lang" %}
-{% assign wcag22_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.2'" | group_by: "lang" %}
+{% assign wcag21_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.1' or item.standard_version == '2.1_2018' or item.standard_version == '2.1_2023'" | group_by: "lang" %}
+{% assign wcag22_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.2' or item.standard_version == '2.2_2023'" | group_by: "lang" %}
 
 ## WCAG 2.2
 
