@@ -60,32 +60,30 @@ _**The organizations below provided financial support prior to W3C establishing 
 
 ### Past Platinum sponsors
 
--   [Elisa Communications](http://www.elisa.fi/)
+-   Elisa Communications
 
 ### Past Gold sponsors
 
--   [IBM Corporation](http://www.ibm.com/able)
--   [Microsoft Corporation](http://www.microsoft.com/)
--   [SAP](http://www.sap.com/)
+-   IBM Corporation
+-   Microsoft Corporation
+-   SAP
 
 ### Past Silver sponsors
 
--   [Adobe Systems](http://www.adobe.com/)
--   [Assistive Devices Industry
-    Office](http://strategis.ic.gc.ca/epic/internet/inadio-biaaf.nsf/vwGeneratedInterE/home),
-    Industry Canada, Government of Canada
--   [Bocoup](https://bocoup.com/)
--   [CA](http://www.ca.com/)
--   [Deque Systems](http://www.deque.com/)
--   [ETS](http://www.ets.org/)
--   [Fundación ONCE](http://www.fundaciononce.es/)
--   [Hewlett Packard Development Company](http://www.hp.com/)
--   [HP Enterprise](https://www.hpe.com/us/en/home.html)
--   [Lotus Development Corporation](http://www.lotus.com)
--   [SAP](http://www.sap.com/)
--   [Verizon
-    Foundation](http://www22.verizon.com/content/verizonglobalhome/ghp_landing.aspx)
--   [Wells Fargo](http://www.wellsfargo.com/home.htm)
+-   Adobe Systems
+-   Assistive Devices Industry Office, Industry Canada, Government of Canada
+-   Bocoup
+-   CA
+-   Deque Systems
+-   ETS
+-   Fundación ONCE
+-   Hewlett Packard Development Company
+-   HP Enterprise
+-   Lotus Development Corporation
+-   SAP
+-   Verizon
+    Foundation
+-   Wells Fargo
 
 ### Past contributors
 
