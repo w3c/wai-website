@@ -2,13 +2,13 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Elias, retiree with low vision, hand tremor, and mild short-term memory loss"
+title: "Elias，患有低视力、手震颤和轻度短期失忆症的退休人员"
 nav_title: "Elias"
 lang: zh-hans   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translations:
-  last_updated: 2025-03-25
+  last_updated: 2025-03-30
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -110,7 +110,7 @@ footer: >
   <div>
 {:/}
 
-Elias is an 85-year-old retired architect. Over the years, Elias has experienced a decrease in vision, hearing, and short-term memory and he has a slight hand tremor. He uses digital technology for all sorts of activities including staying in touch with family, reading the news and architecture articles, and ordering groceries. However, using technology can be difficult when he can't use the adjustments he needs, like when sites and apps don't allow increased text size, require clicking small areas of the page, and make him type information with each visit rather than store it.
+Elias是一名85岁的退休建筑师。多年来，Elias的视力、听力和短期记忆力都有所下降，手也有轻微颤抖。他使用数字技术进行各种活动，包括与家人保持联系、阅读新闻和建筑文章以及订购杂货。然而，当他无法使用自己需要的调整功能时，使用技术就会变得很困难，比如网站和应用程序不允许调整文字大小，需要点击页面的小区域，每次访问都要他输入信息而不是存储信息。
 
 {::options toc_levels="2..2" /}
 
@@ -120,7 +120,7 @@ Elias is an 85-year-old retired architect. Over the years, Elias has experienced
    video-url="//media.w3.org/wai/people-use-web/user-stories_9.mp4"
    captions="wai-videos/people-use-web/user-stories_9.en.vtt|en"
    accessible-version="#accessible-video"
-   accessible-version-label="Video: Elias, retiree with low vision, hand tremor, and mild short-term memory loss"
+   accessible-version-label="视频：Elias，患有低视力、手震颤和轻度短期失忆症的退休人员"
    poster="content-images/people-use-web/user-stories/elias-video-frame.png"
 %}  
 </div>
@@ -141,46 +141,45 @@ Elias is an 85-year-old retired architect. Over the years, Elias has experienced
 
 ## 关于Elias
 
-> I love all this new technology. It is great to see my grandchildren. It takes me a bit to find all the controls and sometimes they are a bit on the small side, but I get there in the end.
+> 我喜欢这些新技术。能看到我的孙子们真是太棒了。我需要花点时间才能找到所有的控制按钮，有时它们还有点小，但我最终还是找到了。
 
-Elias is hard of hearing and has low vision, hand tremor, and short term memory loss. Elias had a long and successful career as an architect. He delayed retirement until he was in his 70's because as the senior architect in his firm, he was often sought after to mentor the new hires and guest lecture at local universities. Elias has macular degeneration that blurs his vision and makes reading more difficult. Over time, the demands of the close-up work necessary to render architectural drawings strained his eyes to the point that he could only work a couple of hours at a time. He finally had to stop work when he developed a mild hand tremor and found it too difficult to maintain the precision required for his work.
+Elias有听力障碍、低视力、手震颤和短期失忆。作为一名建筑师，Elias的职业生涯漫长而成功。他直到70多岁才退休，因为作为公司的资深建筑师，他经常被邀请指导新员工，并在当地大学做客座讲师。Elias患有黄斑变性，使他的视力模糊，阅读更加困难。随着时间的推移，渲染建筑图纸所需的特写工作使他的眼睛非常疲劳，以至于每次只能工作几个小时。最后，他不得不停止工作，因为他的手出现轻微颤抖，难以保持工作所需的精确度。
 
-Currently, at age 85, Elias's family has started to notice some short term memory loss. Even so, Elias maintains an active interest in the history of architecture and is part of a small group of people who share his passion and write about it online. His blog has an active following and helps ensure he is still able to contribute to the field.
+目前，85岁高龄的Elias的家人开始注意到他有些短期失忆。即便如此，埃利亚斯仍然对建筑史保持着浓厚的兴趣，他是与他有着同样热情并在网上撰写相关文章的一小部分人中的一员。他的博客拥有一批活跃的追随者，这有助于确保他仍然能够为这一领域做出贡献。
 
-Like many older people, Elias has difficulty reading small text. He subscribes to an online rather than physical version of the newspaper because he is able to increase the size of the text, making it easier to read. However, on some sites this does not work as well because either the text gets cut off or the larger text doesn’t flow to the next line and he has to scroll horizontally off screen. His tremor makes it difficult to scroll across in a straight line. While this is easier than managing the large pages of a print newspaper, the best instance is when the text resizes and reflows properly.
+和许多老年人一样，Elias阅读小字体有困难。他订阅的是网络版报纸，而不是实体版报纸，因为他可以将文字放大，这样阅读起来更方便。然而，在某些网站上，这种方法并不奏效，因为要么文字被截断，要么较大的文字无法滚动到下一行，他不得不横向滚动屏幕。他的震颤使他很难直线滚动。虽然这比管理印刷报纸的大版面要容易一些，但最好的情况是文本的大小调整和正确的自适应。
 
-For all of the benefits of using a computer to read the news and stay active in his field, Elias often has difficulty with the security on some websites. On sites that use CAPTCHA, it is sometimes hard for him to identify the distorted text or identify the images in photos because they are usually not clearly rendered. On sites that send a security code, Elias has to interrupt what he is doing to look on his phone and copy a code, and sometimes the codes are long and hard to transcribe correctly. When using a site that requires CAPTCHA, Elias finds it much simpler if the text or images are easy to identify. If a security code is required, a short group of numbers or letters makes it easier to read and transcribe.
+使用电脑阅读新闻和活跃在自己的领域有很多好处，但Elias经常在一些网站的安全问题上遇到困难。在使用CAPTCHA的网站上，他有时很难识别扭曲的文字或识别照片中的图像，因为它们通常显示不清楚。在发送安全代码的网站上，Elias不得不中断正在做的事情，用手机查看并复制代码，有时代码很长，很难正确抄写。在使用需要CAPTCHA的网站时，如果文字或图片易于识别，Elias就会觉得简单得多。如果需要安全验证码，一组简短的数字或字母更容易阅读和抄写。
 
+## 障碍示例
 
-## Barrier examples
-
-Inaccessible CAPTCHA
-: **Barrier**: "When I login to my online banking I need to complete a CAPTCHA but I can't really read it well."
-: **Works well**: "My banking login sends me a text with a simple code to confirm it is me."
+无障碍支持差的CAPTCHA
+: **障碍**: "When I login to my online banking I need to complete a CAPTCHA but I can't really read it well."
+: **效果良好**: "My banking login sends me a text with a simple code to confirm it is me."
 
 Text doesn't reflow
-: **Barrier**: "When I resize a website using my browser some of the text disappears or is cut short and sometimes I have to scroll across the screen as well as down."
-: **Works well**: "When I resize a website using my browser the text is all still available and is presented in a longer thinner column that doesn't need to be scrolled sideways."
+: **障碍**: "When I resize a website using my browser some of the text disappears or is cut short and sometimes I have to scroll across the screen as well as down."
+: **效果良好**: "When I resize a website using my browser the text is all still available and is presented in a longer thinner column that doesn't need to be scrolled sideways."
 
 Distracting animations
-: **Barrier:** "When my screen is magnified, animations are very distracting because I don't get the full context of what is going on."
-: **Works well:** "Allow me to stop any animation on the screen so I can concentrate on what I'm looking at."
+: **障碍:** "When my screen is magnified, animations are very distracting because I don't get the full context of what is going on."
+: **效果良好:** "Allow me to stop any animation on the screen so I can concentrate on what I'm looking at."
 
 Tables don't zoom well
-: **Barrier:** "Online tables sometimes have a lot of space between the columns and when I'm zoomed it, I have to scroll from left to right to see all of the content and I often miss the association from one column to the next."
-: **Works well:** "When I zoom the tables change from lots of columns to being presented more like a list with each row being shown as a list item."
+: **障碍:** "Online tables sometimes have a lot of space between the columns and when I'm zoomed it, I have to scroll from left to right to see all of the content and I often miss the association from one column to the next."
+: **效果良好:** "When I zoom the tables change from lots of columns to being presented more like a list with each row being shown as a list item."
 
 Breadcrumb
-: **Barrier:** "I often lose my place on websites. Sometimes I follow several links and it's not what I'm looking for. I can use the back button to go back page by page but I still get lost."
-: **Works well:** "A breadcrumb at the top of each page that shows my path through the site keeps me on track, plus it helps me get back to the home page really quickly."
+: **障碍:** "I often lose my place on websites. Sometimes I follow several links and it's not what I'm looking for. I can use the back button to go back page by page but I still get lost."
+: **效果良好:** "A breadcrumb at the top of each page that shows my path through the site keeps me on track, plus it helps me get back to the home page really quickly."
 
 Login page
-: **Barrier:** "I have accounts with so many different websites that sometimes I forget my password."
-: **Works well:** "An option to remember my password for this site and a means of resetting my password if I need to."
+: **障碍:** "I have accounts with so many different websites that sometimes I forget my password."
+: **效果良好:** "An option to remember my password for this site and a means of resetting my password if I need to."
 
 Saved information
-: **Barrier:** "When I place an order, I have trouble remembering things, like telephone number, address, and credit card details."
-: **Works well:** "This store remembers from before, so I only need to select right address in the text field, rather than need typing each time."
+: **障碍:** "When I place an order, I have trouble remembering things, like telephone number, address, and credit card details."
+: **效果良好:** "This store remembers from before, so I only need to select right address in the text field, rather than need typing each time."
 
 ## Assistive technologies and adaptive strategies used
 
@@ -229,7 +228,7 @@ Saved information
 
 {% include excol.html type="start" id="video-transcript" %}
 
-##  Video: Elias, retiree with low vision, hand tremor, and mild short-term memory loss {#accessible-video}
+##  Video: Elias，患有低视力、手震颤和轻度短期失忆症的退休人员 {#accessible-video}
 
 {% include excol.html type="middle" %}
 
@@ -239,7 +238,7 @@ Saved information
   yt-id="c-IqJdL0i38"
 %}
 
-_当前视频也可以在 W3C 服务器上找到: [Video: Elias, retiree with low vision, hand tremor, and mild short-term memory loss (file format: MP4, file size: 162MB)](https://media.w3.org/wai/people-use-web/user-stories_9.mp4)._
+_当前视频也可以在 W3C 服务器上找到: [视频：Elias，患有低视力、手震颤和轻度短期失忆症的退休人员 (文件格式: MP4, 文件大小: 162MB)](https://media.w3.org/wai/people-use-web/user-stories_9.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 
