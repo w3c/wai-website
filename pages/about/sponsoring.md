@@ -81,8 +81,7 @@ _**The organizations below provided financial support prior to W3C establishing 
 -   HP Enterprise
 -   Lotus Development Corporation
 -   SAP
--   Verizon
-    Foundation
+-   Verizon Foundation
 -   Wells Fargo
 
 ### Past contributors
@@ -102,8 +101,6 @@ W3C WAI thanks organizations that have supported [W3C Fellows](https://www.w3.or
 -  Elisa Communications
 -  Knowbility, Inc
 -  Research Institute of Telecommunication Transmission (RITT)
-
-Content of the expand/collapse.
 
 {% include excol.html type="end" %}
 
