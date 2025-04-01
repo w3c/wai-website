@@ -190,7 +190,7 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 {% include_cached excol.html type="middle" %}
 
 * April 2025
-  * Minor updates to current work on WCAG2ICT, ARIA 1.3, and mobile accessibility.
+  * Minor updates to current work on WCAG2ICT, ARIA 1.3, and mobile accessibility
 * March 2025
   * Added mobile accessibility resource to [Upcoming Publications list](/update/#upcoming-publications), and removed ARRM because we published it.
 * 4 February 2025
