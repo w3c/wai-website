@@ -1,13 +1,13 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, March 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, April 2025</span>"
 lang: en
-last_updated: 2025-03-10
+last_updated: 2025-04-01
 first_published: "March 2022"
-description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
+description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.
 
-permalink: /update/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
-ref: /update/   # Translators, do not change this
+permalink: /update/
+ref: /update/
 
 github:
   label: wai-about
@@ -54,7 +54,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 * **W3C Accessibility Guidelines (WCAG) 3** is in an exploratory phase, and will change substantially. It's years away from being finalized. Please see information on the latest draft and [review questions](/standards-guidelines/wcag/wcag3-intro/#for-your-review) in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
 
-* **ARIA 1.3** &mdash; We're working on additional support for Braille and other [new features for ARIA 1.3](https://w3c.github.io/aria/#substantive-changes-targeted-for-the-1-3-release).  _[ARIA WG]_
+* **ARIA 1.3** &mdash; We're working on additional support for Braille, accessible notifications, and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog).  _[ARIA WG]_
 
 ### Developing New Standards
 
@@ -62,18 +62,19 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 * **Spoken Presentation** technical standards will enable screen readers and voice assistants to pronounce words correctly. [[Pronunciation Overview]](/pronunciation/) _[APA WG, Spoken Presentation TF]_
 
-### Documenting Additional Guidance for People with Cognitive Disabilities, Low Vision, and Mobile Devices
+### Documenting Additional Guidance for People with Cognitive Disabilities and Mobile Accessibility
 
-* **Cognitive Accessibility** &mdash; We're updating several documents to better address the needs of people with cognitive and learning disabilities. A current topic is mental health. [[Cognitive Accessibility at W3C]](/cognitive/). _[AG WG, COGA TF]_
+* **Cognitive Accessibility** &mdash; We're updating several documents to better address the needs of people with cognitive and learning disabilities. [[Cognitive Accessibility at W3C]](/cognitive/). _[AG WG, COGA TF]_
 
 <!--
+[REMINDER: when add LVTF work, add to heading for this section.]
 * **Low Vision Accessibility** &mdash; We're writing guidance that goes beyond the minimums required by WCAG. It is called "supplemental guidance". Current topics cover proximity, printing, and alternative themes such as high contrast and dark mode. _[AG WG, Low Vision TF]_ -->
 
-* **Mobile Accessibility** work includes supporting on-going standards development, including supporting WCAG 3 exploration. [[Mobile Accessibility at W3C]](/standards-guidelines/mobile/) _[AG WG, Mobile TF]_
+* **Mobile Accessibility** &mdash; We're updating guidance on applying WCAG 2.2 to mobile apps. [[Mobile Accessibility at W3C]](/standards-guidelines/mobile/) _[AG WG, Mobile TF]_
 
 ### Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility
 
-* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). In October 2024 we published an update that includes all WCAG 2.2 Level A and AA success criteria. We are now working on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
+* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). In October 2024 we published an update that includes all WCAG 2.2 Level A and AA success criteria. We continue analyzing challenges and improving documentation supporting WCAG 2.2, and plan to work on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
 
 * **EPUB Fixed Layout Accessibility** aims to help publishers address challenges for people with cognitive disabilities and low vision. [EPUB Fixed Layout Accessibility Editor's Draft](https://w3c.github.io/epub-specs/epub33/fxl-a11y/) _[EPUB3 WG, FXL A11y TF]_
 
@@ -99,7 +100,7 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in March or April 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in April 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
 * A draft new resource on applying WCAG 2.2 to mobile
 * More [WAI Translations](/translations/) &mdash; usually some each week
@@ -188,6 +189,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* April 2025
+  * Minor updates to current work on WCAG2ICT, ARIA 1.3, and mobile accessibility
 * March 2025
   * Added mobile accessibility resource to [Upcoming Publications list](/update/#upcoming-publications), and removed ARRM because we published it.
 * 4 February 2025
