@@ -8,7 +8,7 @@ lang: zh-hans   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translations:
-  last_updated: 2025-03-30
+  last_updated: 2025-04-03
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "heybran"   # Replace Jan Doe with translator name
@@ -147,83 +147,83 @@ Elias有听力障碍、低视力、手震颤和短期失忆。作为一名建筑
 
 目前，85岁高龄的Elias的家人开始注意到他有些短期失忆。即便如此，埃利亚斯仍然对建筑史保持着浓厚的兴趣，他是与他有着同样热情并在网上撰写相关文章的一小部分人中的一员。他的博客拥有一批活跃的追随者，这有助于确保他仍然能够为这一领域做出贡献。
 
-和许多老年人一样，Elias阅读小字体有困难。他订阅的是网络版报纸，而不是实体版报纸，因为他可以将文字放大，这样阅读起来更方便。然而，在某些网站上，这种方法并不奏效，因为要么文字被截断，要么较大的文字无法滚动到下一行，他不得不横向滚动屏幕。他的震颤使他很难直线滚动。虽然这比管理印刷报纸的大版面要容易一些，但最好的情况是文本的大小调整和正确的自适应。
+和许多老年人一样，Elias阅读小字体有困难。他订阅的是网络版报纸，而不是实体版报纸，因为他可以将文字放大，这样阅读起来更方便。然而，在某些网站上，这种方法并不奏效，因为要么文字被截断，要么较大的文字无法滚动到下一行，他不得不横向滚动屏幕。他的震颤使他很难直线滚动。虽然这比管理印刷报纸的大版面要容易一些，但最好的情况是文本的大小调整和回流。
 
 使用电脑阅读新闻和活跃在自己的领域有很多好处，但Elias经常在一些网站的安全问题上遇到困难。在使用CAPTCHA的网站上，他有时很难识别扭曲的文字或识别照片中的图像，因为它们通常显示不清楚。在发送安全代码的网站上，Elias不得不中断正在做的事情，用手机查看并复制代码，有时代码很长，很难正确抄写。在使用需要CAPTCHA的网站时，如果文字或图片易于识别，Elias就会觉得简单得多。如果需要安全验证码，一组简短的数字或字母更容易阅读和抄写。
 
 ## 障碍示例
 
 无障碍支持差的CAPTCHA
-: **障碍**: "When I login to my online banking I need to complete a CAPTCHA but I can't really read it well."
-: **效果良好**: "My banking login sends me a text with a simple code to confirm it is me."
+: **障碍**: "当我登录网上银行时，我需要完成一个CAPTCHA，但我实在看不懂。"
+: **效果良好**: "我的银行登录会给我发一条短信，上面有一个简单的代码来确认是否是我。"
 
-Text doesn't reflow
-: **障碍**: "When I resize a website using my browser some of the text disappears or is cut short and sometimes I have to scroll across the screen as well as down."
-: **效果良好**: "When I resize a website using my browser the text is all still available and is presented in a longer thinner column that doesn't need to be scrolled sideways."
+文本没有回流
+: **障碍**: "当我使用浏览器调整网站大小时，一些文字会消失或被缩短，有时我不得不横向滚动屏幕或向下滚动。"
+: **效果良好**: "当我使用浏览器调整网站的大小时，所有文字仍然可用，并且以更长更细的一栏显示，无需侧向滚动。"
 
-Distracting animations
-: **障碍:** "When my screen is magnified, animations are very distracting because I don't get the full context of what is going on."
-: **效果良好:** "Allow me to stop any animation on the screen so I can concentrate on what I'm looking at."
+分散注意力的动画
+: **障碍:** "当我的屏幕被放大时，动画会让我非常分心，因为我无法完全了解正在发生的事情。"
+: **效果良好:** "允许我停止屏幕上的任何动画，这样我就能专注于我正在看的内容。"
 
-Tables don't zoom well
-: **障碍:** "Online tables sometimes have a lot of space between the columns and when I'm zoomed it, I have to scroll from left to right to see all of the content and I often miss the association from one column to the next."
-: **效果良好:** "When I zoom the tables change from lots of columns to being presented more like a list with each row being shown as a list item."
+表格缩放效果不佳
+: **障碍:** "在线表格有时在列与列之间有很大的空间，当我放大时，我必须从左到右滚动才能看到所有内容，而且我经常会错过从一列到下一列的关联。"
+: **效果良好:** "当我缩放表格时，表格会从很多列变成更像一个列表，每一行都显示为一个列表项。"
 
-Breadcrumb
-: **障碍:** "I often lose my place on websites. Sometimes I follow several links and it's not what I'm looking for. I can use the back button to go back page by page but I still get lost."
-: **效果良好:** "A breadcrumb at the top of each page that shows my path through the site keeps me on track, plus it helps me get back to the home page really quickly."
+面包屑
+: **障碍:** "我经常在网站上迷失方向。有时，我点击了几个链接，但都不是我要找的内容。我可以用返回按钮一页一页地返回，但还是会迷路。"
+: **效果良好:** "在每个页面的顶部都有一个面包屑，显示我浏览网站的路径，这能让我保持跟踪，还能帮助我快速返回主页。"
 
-Login page
-: **障碍:** "I have accounts with so many different websites that sometimes I forget my password."
-: **效果良好:** "An option to remember my password for this site and a means of resetting my password if I need to."
+登录页面
+: **障碍:** "我有很多不同网站的账户，有时会忘记密码。"
+: **效果良好:** "提供记住本网站密码的选项，以及在需要时重新设置密码的方法。"
 
-Saved information
-: **障碍:** "When I place an order, I have trouble remembering things, like telephone number, address, and credit card details."
-: **效果良好:** "This store remembers from before, so I only need to select right address in the text field, rather than need typing each time."
+已保存的信息
+: **障碍:** "下订单时，我很难记住电话号码、地址和信用卡信息等东西。"
+: **效果良好:** "这家商店会记住以前的地址，所以我只需要在文本字段中选择正确的地址，而不需要每次都输入。"
 
-## Assistive technologies and adaptive strategies used
+## 使用的辅助技术和适应策略
 
-* [Screen magnification (Presentation)](/people-use-web/tools-techniques/presentation/#display)
-* [Alternative keyboard and mouse (Input)](/people-use-web/tools-techniques/input/#input)
-* [Keyboard and mouse filters (Input)](/people-use-web/tools-techniques/input/#filters)
-* [Mouse customization (Input)](/people-use-web/tools-techniques/input/#mouse)
-* [Bookmarks and history (Interaction)](/people-use-web/tools-techniques/navigation/#bookmarks)
-* [Consistency and predictability (Interaction)](/people-use-web/tools-techniques/navigation/#consistency)
-* [Descriptive titles, headings, and labels (Interaction)](/people-use-web/tools-techniques/navigation/#labels)
-* [Helpful error and success messages (Interaction)](/people-use-web/tools-techniques/navigation/#messages)
+* [屏幕放大（演示）](/people-use-web/tools-techniques/presentation/#display)
+* [替代键盘和鼠标（输入）](/people-use-web/tools-techniques/input/#input)
+* [键盘和鼠标过滤器（输入）](/people-use-web/tools-techniques/input/#filters)
+* [鼠标自定义（输入）](/people-use-web/tools-techniques/input/#mouse)
+* [书签和历史记录（交互）](/people-use-web/tools-techniques/navigation/#bookmarks)
+* [一致性和可预测性（交互）](/people-use-web/tools-techniques/navigation/#consistency)
+* [描述性标题、小标题和标签（交互）](/people-use-web/tools-techniques/navigation/#labels)
+* [有用的错误和成功信息（交互）](/people-use-web/tools-techniques/navigation/#messages)
 
-## Related WAI resources
+## 相关WAI资源
 
-* Use case: [Gopal: A Retired Lawyer with Dementia](https://www.w3.org/TR/coga-usable/#gopal-a-retired-lawyer-with-dementia)
-* Video: [Large Links, Buttons, and Controls](/perspective-videos/controls/)
-* Tip: [Provide sufficient contrast between foreground and background](/tips/designing/#provide-sufficient-contrast-between-foreground-and-background)
-* Tip: [Avoid CAPTCHA where possible](/tips/developing/#avoid-captcha-where-possible)
-* Tip: [Make link text meaningful](/tips/writing/#make-link-text-meaningful)
-* Tip: [Provide clear instructions](/tips/writing/#provide-clear-instructions)
-* Tip: [Keep content clear and concise](/tips/writing/#keep-content-clear-and-concise)
-* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Tip: [Provide easily identifiable feedback](/tips/designing/#provide-easily-identifiable-feedback)
-* Tip: [Use headings and spacing to group related content](/tips/designing/#use-headings-and-spacing-to-group-related-content)
-* Tip: [Help users avoid and correct mistakes](/tips/developing/#help-users-avoid-and-correct-mistakes)
-* Tip: [Provide meaning for non-standard interactive elements](/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
-* Tip: [Ensure that all interactive elements are keyboard accessible](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
-* Check: [Contrast ratio ("color contrast")](/test-evaluate/preliminary/#contrast)
-* Check: [Resize Text](/test-evaluate/preliminary/#resize)
-* Check: [Keyboard access and visual focus](/test-evaluate/preliminary/#interaction)
-* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* 用例: [Gopal:  一位患有痴呆症的退休律师](https://www.w3.org/TR/coga-usable/#gopal-a-retired-lawyer-with-dementia)
+* 视频: [大链接、按钮和控件](/perspective-videos/controls/)
+* 提示: [在前景和背景之间提供足够的对比度](/tips/designing/#provide-sufficient-contrast-between-foreground-and-background)
+* 提示: [尽可能避免使用CAPTCHA](/tips/developing/#avoid-captcha-where-possible)
+* 提示: [让链接文本更有意义](/tips/writing/#make-link-text-meaningful)
+* 提示: [提供明确的指示](/tips/writing/#provide-clear-instructions)
+* 提示: [保持内容简洁明了](/tips/writing/#keep-content-clear-and-concise)
+* 提示: [确保交互元素易于识别](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* 提示: [提供清晰和一致的导航选项](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* 提示: [提供易于识别的反馈](/tips/designing/#provide-easily-identifiable-feedback)
+* 提示: [使用标题和间距对相关内容进行分组](/tips/designing/#use-headings-and-spacing-to-group-related-content)
+* 提示: [帮助用户避免和纠正错误](/tips/developing/#help-users-avoid-and-correct-mistakes)
+* 提示: [为非标准交互元素提供意义](/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
+* 提示: [确保所有互动元素均可通过键盘访问](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
+* 检查: [对比度（“色彩对比度”）](/test-evaluate/preliminary/#contrast)
+* 检查: [调整文本大小](/test-evaluate/preliminary/#resize)
+* 检查: [键盘访问和视觉焦点](/test-evaluate/preliminary/#interaction)
+* 检查: [表单、标签和错误信息](/test-evaluate/preliminary/#forms)
 
-## Related principles
+## 相关准则
 
-* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
-* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
-* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
-* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
-* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
-* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
+* [非文本内容的文本替代方案（可感知）](/fundamentals/accessibility-principles/#alternatives)
+* [内容可通过不同方式呈现（可感知）](/fundamentals/accessibility-principles/#adaptable)
+* [内容更容易被看到和听到（可感知）](/fundamentals/accessibility-principles/#distinguishable)
+* [用户有足够的时间阅读和使用内容（可操作）](/fundamentals/accessibility-principles/#time)
+* [用户可以轻松导航、查找内容并确定自己的位置（可操作）](/fundamentals/accessibility-principles/#navigable)
+* [内容易读易懂（可理解）](/fundamentals/accessibility-principles/#readable)
+* [内容以可预测的方式出现和运行（可理解）](/fundamentals/accessibility-principles/#predictable)
+* [帮助用户避免和纠正错误（可理解）](/fundamentals/accessibility-principles/#tolerant)
+* [内容与当前和未来的用户工具兼容（稳健性）](/fundamentals/accessibility-principles/#compatible)
 
 
 {% include excol.html type="start" id="video-transcript" %}
@@ -240,17 +240,17 @@ Saved information
 
 _当前视频也可以在 W3C 服务器上找到: [视频：Elias，患有低视力、手震颤和轻度短期失忆症的退休人员 (文件格式: MP4, 文件大小: 162MB)](https://media.w3.org/wai/people-use-web/user-stories_9.mp4)._
 
-###  Text Transcript with Description of Visuals {#transcript}
+###  附有视觉描述的文本记录 {#transcript}
 
 | Audio | Visual |
 | ----- | ----- |
-| 残疾人如何使用数字技术； Elias, retiree with low vision, hand tremor, and mild short-term memory loss. | 残疾人如何使用数字技术； Elias, retiree with low vision, hand tremor, and mild short-term memory loss. |
-| Hello! I’m Elias. I’m a retired architect. Life moves slower now that I’m retired, and I think my body does too! | A man speaks directly to the camera. |
-| I see less and hear less than in my younger days. Also, my hands shake a little. My children live far away, so we see each other online instead. We also write to each other and send pictures. It’s so much easier and quicker than going to the post office every time. | The man is sitting at his desk using a laptop. He is participating in an online video call with one other person using a video conferencing app. |
-| My trouble is all this small text! Why do they write so small? I know how to make the text size bigger but it doesn’t work with all websites. Sometimes everything seems to break down – the text overlaps or goes somewhere else or disappears completely. Or, I have to scroll sideways to read – I don’t have the time and energy for that. | The man is sitting at his desk using a laptop. He is trying to use a website which does not have responsive design. |
-| It’s the same with apps. I made the text bigger on my mobile phone. I can’t see without doing that on such a small screen. Most apps work well but not the banking app. The text on that app is still small, and I need to use it to log into my bank account. I already called them several times about this but nothing happens. | The man is sitting at his desk using a zoomed-in messaging app on a mobile phone. He then changes to using a banking app. |
-| It’s not only reading, though. When the text is small, all the buttons and links are also small. Sometimes tiny. Especially on forms where you have to click and select all these things – it’s hard with my hands, they don’t behave like they used to. | The man is sitting at his desk using a laptop. He tries to make a selection from a list, but the text is very small. |
-| Our grocery store now has an online shop, which is fantastic because I don’t have to carry all the shopping any more. The text is big and it has big links and buttons. It just seems clearer and easier to find things – everything is where it should be on every page. Usually, I have trouble remembering things, like the telephone number, address, and credit card details. This store remembers from before, so I only need to select the right address in the text field rather than needing to type it each time. I wish all websites could be that easy. | The man is sitting at his desk using a laptop. He is successfully using the website of his online grocery store. |
+| 残疾人如何使用数字技术；Elias，患有低视力、手震颤和轻度短期失忆症的退休人员。 | 残疾人如何使用数字技术；Elias，患有低视力、手震颤和轻度短期失忆症的退休人员。 |
+| 你好！我叫Elias。我是一名退休建筑师。退休后，生活节奏慢了下来，我想我的身体也是！ | 一名男子直接对着镜头讲话。 |
+| 我的视力和听力都不如年轻时。此外，我的手也有点抖。我的孩子们住得很远，所以我们只能在网上见面。我们还互相写信和寄照片。这比每次都去邮局方便快捷多了。 | 这名男子正坐在办公桌前使用笔记本电脑。他正在使用视频会议应用程序与另一人进行在线视频通话。 |
+| 我的麻烦是这些小字！为什么写得这么小？我知道如何把文字变大，但并不是所有网站都能做到。有时，一切似乎都崩溃了--文字重叠了，或者跑到别的地方去了，或者完全消失了。或者，我必须侧着滚动才能阅读--我没有时间和精力去做这些。 | 这名男子正坐在办公桌前使用笔记本电脑。他正在尝试使用一个没有响应式设计的网站。 |
+| 应用程序也是如此。我把手机上的文字放大了。在这么小的屏幕上不这样做我就看不见。大多数应用程序都能还不错，但银行应用程序不行。那个应用程序上的文字仍然很小，而我需要用它来登录我的银行账户。我已经为此给他们打了好几次电话，但都没有任何反应。 | 这名男子正坐在办公桌前使用手机上的放大信息应用程序。然后，他又换成了使用银行应用程序。 |
+| 不仅是阅读。当文字变小时，所有的按钮和链接也会变小。有时很小。特别是在需要点击和选择所有这些东西的表单上，我的手很难操作，不像以前那样灵活了。 | 这位男士正坐在办公桌前使用笔记本电脑。他试图从列表中进行选择，但文本非常小。 |
+| 我们的杂货店现在有了网上商店，这太棒了，因为我再也不用拎着所有的杂货了。文字很大，链接和按钮也很大。看起来更清晰，找东西也更容易--每一页上的东西都在该在的地方。通常，我很难记住一些东西，比如电话号码、地址和信用卡信息。这家商店能记住以前的信息，所以我只需要在文本字段中选择正确的地址，而不需要每次都输入。我希望所有的网站都能这么简单。 | 这名男子正坐在办公桌前使用笔记本电脑。他正在成功地使用自己网上杂货店的网站。 |
 | 您可以帮助让无障碍对我更友好。无障碍：以人为本。| 该男士直接对着镜头说话 |
 | 有关 Web 无障碍倡议组织提供的有关残疾人如何使用数字技术的更多信息，请访问 w3.org/WAI/people | 无障碍：以人为本。w3.org/WAI/people |
 
