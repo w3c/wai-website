@@ -5,7 +5,7 @@
 title: "Omówienie podstaw dostępności"
 nav_title: "Omówienie" 
 lang: pl
-last_updated: 2023-08-08  # Keep the date of the English version
+last_updated: 2023-08-30  # Keep the date of the English version
 
 translation:
   last_updated: 2024-04-27   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -27,7 +27,6 @@ feedbackmail: wai@w3.org
 # Do not change the date# Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Data:</strong> Aktualizacja 8 sierpnia 2023.</p>
   <p><strong>Redaktor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Opracowano przy wsparciu Grupy Roboczej ds. Edukacji i Promocji (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

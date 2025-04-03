@@ -26,6 +26,7 @@ ref: /planning-and-managing/implement/  # Do not change this
 resource:
   ref: /planning-and-managing/
 
+changelog: /planning-and-managing/changelog/ # Do not change this
 acknowledgements: /planning-and-managing/acknowledgements/ # Do not change this
 
 # In the footer below:
