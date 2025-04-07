@@ -34,7 +34,7 @@ Find out about the activities of the Spoken Presentation (previously known as Pr
 
 ## Objectives
 
-The Spoken Presentation Task Force provides author-controlled markup to define precise pronunciation across environments when content authors need certainty, as opposed to cross-platform heuristic variability.
+The Spoken Presentation Task Force develops normative specifications and best practice guidance that provides author-controlled markup to define precise pronunciation across environments when content authors need certainty, as opposed to cross-platform heuristic variability.
 
 ## Work statement
 
