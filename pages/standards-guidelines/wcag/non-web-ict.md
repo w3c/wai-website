@@ -101,7 +101,7 @@ The WCAG2ICT Group Note:
 * Is not a standard and does not describe how non-web ICT should conform to WCAG. 
 * Does not incorporate or interpret any of the WCAG supplemental guidance. 
 
-See the [Guidance in this Document[(https://w3c.github.io/wcag2ict/#guidance-in-this-document) section of the WCAG2ICT Group Note for more details.
+See the [Guidance in this Document](https://w3c.github.io/wcag2ict/#guidance-in-this-document) section of the WCAG2ICT Group Note for more details.
 
 ## What is in WCAG2ICT {#whatis}
 
