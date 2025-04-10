@@ -97,7 +97,7 @@ The WCAG2ICT Group Note:
 * Does not propose changes to WCAG 2 or its supporting documents.
 * Does not address any gaps between WCAG criteria and the accessibility requirements needed to address non-user interface aspects of platforms, user-interface components as individual items, and closed product software (where there is no assistive technology to communicate programmatic information).
 * Does not apply WCAG to hardware aspects of products, because WCAG  does not apply to hardware.
-Does not provide techniques for implementing WCAG in any type of technology, web or non-web.
+* Does not provide techniques for implementing WCAG in any type of technology, web or non-web.
 * Is not a standard and does not describe how non-web ICT should conform to WCAG. 
 * Does not incorporate or interpret any of the WCAG supplemental guidance. 
 
