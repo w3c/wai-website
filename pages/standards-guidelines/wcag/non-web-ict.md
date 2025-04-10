@@ -74,7 +74,6 @@ The main focus of the WCAG2ICT Group Note is to provide verbiage replacements fo
 
 While WCAG2ICT Group Note provides guidance on applying WCAG in non-web contexts, at this time it may not provide sufficient clarity for some success criteria on how they can be applied to electronic documents whose source is driven by non-web markup technologies when they are delivered via a website. Likewise, there may not be sufficient clarity for mobile applications.  
 
-*Scope*: WCAG2ICT does not include techniques for how to meet WCAG success criteria in specific technologies. More information is in the [Excluded from Scope section](https://www.w3.org/TR/wcag2ict-22/#excluded-from-scope).
 
 ### Versions
 * [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) was published 8 October 2024 and covers WCAG 2.0, 2.1, and 2.2
