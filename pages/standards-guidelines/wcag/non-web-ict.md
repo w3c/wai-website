@@ -66,7 +66,7 @@ The 2013 WCAG2ICT Group Note helped regulatory bodies develop standards (i.e., 5
 ### Goals
 The objective of the WCAG2ICT Task Force is to develop documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
 
-### Intent and Usage of the WCAG2ICT
+### Intent and Usage of WCAG2ICT
 
 WCAG2ICT, like any other  [W3C Group Note](https://www.w3.org/policies/process/#Note), is informative — it is not normative and does not set requirements. It provides guidance on the application of WCAG 2 principles, guidelines, and success criteria to non-web documents and software. The WCAG2ICT Group Note was developed to provide an authoritative interpretation of how WCAG 2 can apply in different contexts.
 
