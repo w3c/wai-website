@@ -1,7 +1,7 @@
 ---
 title: "WCAG2ICT Overview"
 lang: en
-last_updated: 2024-10-08
+last_updated: 2025-04-10
 description: "Introduces the document: Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)."
 
 permalink: /standards-guidelines/wcag/non-web-ict/
@@ -12,7 +12,7 @@ github:
 
 image: /content-images/wcag/general-social.jpg
 footer: >
-  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Mary Jo Mueller, Judy Brewer, and Daniel Montalvo.</p>
+  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Mary Jo Mueller, Chris Loiselle, and Daniel Montalvo.</p>
   <p>Developed with input from the <a href="https://www.w3.org/groups/tf/wcag2ict/">WCAG2ICT Task Force</a> and the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg/">EOWG</a>).</p>
 ---
 
@@ -76,7 +76,7 @@ While the WCAG2ICT Group Note provides guidance on applying WCAG in non-web cont
 
 
 ### Versions
-* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) was published 8 October 2024 and covers WCAG 2.0, 2.1, and 2.2
+* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) was published 15 November 2024 and covers WCAG 2.0, 2.1, and 2.2
 * older version: [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-20/) was published 5 September 2013 and covers WCAG 2.0
 * The URI [https://www.w3.org/TR/wcag2ict/](https://www.w3.org/TR/wcag2ict/) points to the latest completed version
 
