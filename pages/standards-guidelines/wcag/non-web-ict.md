@@ -72,7 +72,7 @@ WCAG2ICT, like any other  [W3C Group Note](https://www.w3.org/policies/process/#
 
 The main focus of the WCAG2ICT Group Note is to provide verbiage replacements for web-based language in the WCAG success criteria and definitions as well as provide additional insights into where WCAG criteria may make assumptions of the presence and functionality of a user agent and assistive technology. This is because not all software has a user agent or platform software with accessibility APIs and services, nor do all technologies have or support assistive technology that acts on programmatic information. 
 
-While WCAG2ICT Group Note provides guidance on applying WCAG in non-web contexts, at this time it may not provide sufficient clarity for some success criteria on how they can be applied to electronic documents whose source is driven by non-web markup technologies when they are delivered via a website. Likewise, there may not be sufficient clarity for mobile applications.  
+While the WCAG2ICT Group Note provides guidance on applying WCAG in non-web contexts, at this time it may not provide sufficient clarity for some success criteria on how they can be applied to electronic documents whose source is driven by non-web markup technologies when they are delivered via a website. Likewise, there may not be sufficient clarity for mobile applications.  
 
 
 ### Versions
