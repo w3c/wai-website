@@ -140,7 +140,7 @@ We realize that there are many more standards that cover non-web software aspect
   * [CAN/ASC - EN 301 549 Accessibility requirements for ICT products and services (EN 301 549, IDT](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-1)) (Canada standards adoption of the EN 301 549 verbatim)
   * [AS EN 301 549](https://www.standards.org.au/standards-catalogue/standard-details?designation=as-en-301-549-2020) (Australia standards adoption of the EN 301 549 verbatim)
   * [IS 17802 Part 1](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf) and [IS 17802 Part 2](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_2_2022.pdf) (India standard based on the EN 301 549)
-  * [KS 2952-1](KS 2952-1) and [KS 2952-2](https://webstore.kebs.org/index.php?route=product/product&product_id=17112) (Kenya standard based on the EN 301 549)
+  * [KS 2952-1](https://webstore.kebs.org/index.php?route=product/product&product_id=17111) and [KS 2952-2](https://webstore.kebs.org/index.php?route=product/product&product_id=17112) (Kenya standard based on the EN 301 549)
   * CPR-6201, JEN 301 549 (Japan standard based on the EN 301 549)
 * [CSA/ASC B651.2:22](https://www.csagroup.org/wp-content/uploads/2430258.pdf?srsltid=AfmBOoqlJl3r-eDhOggnJXIs7mLdzYJMBawVua_mDI1ss6iGX9czQ93f) (National Standard of Canada) CSA Group Accessible design for service-interactive devices including automated banking machines.
 * [U.S. Section 508 of the Rehabilitation Act](https://www.access-board.gov/about/law/ra.html#section-508-federal-electronic-and-information-technology) requires ICT developed, procured, maintained, or used by U.S. federal agencies be accessible to people with disabilities.
