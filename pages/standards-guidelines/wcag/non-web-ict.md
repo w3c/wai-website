@@ -131,7 +131,7 @@ The WCAG2ICT Group Note is developed by a [Task Force (TF)](https://www.w3.org/W
 
 We realize that there are many more standards that cover non-web software aspects of ICT. The following is not an extensive or complete list of references that may use WCAG2ICT:
 * W3C WAI [Web Accessibility Laws and Policies](https://www.w3.org/WAI/policies/) page
-* [Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps Provided by State and Local Governments | ADA.gov](https://www.ada.gov/resources/2024-03-08-web-rule/)
+* [Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps Provided by State and Local Governments](https://www.ada.gov/resources/2024-03-08-web-rule/) (ADA.gov)
 * U.S. Dept. of Justice Rule [Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities](https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state)
 * [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/)
 * [WCAG2ICT Task Force](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/)) 
