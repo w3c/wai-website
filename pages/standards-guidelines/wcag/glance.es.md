@@ -10,7 +10,6 @@ first_published: "Julio del 2008"
 description: Esta página proporciona un resumen no literal de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1.
 
 translation:
-  status: outdated
   last_updated: 2019-07-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
