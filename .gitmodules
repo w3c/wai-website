@@ -1,7 +1,7 @@
 [submodule "_external/data"]
 	path = _external/data
 	url = https://github.com/w3c/wai-website-data.git
-	branch = master
+	branch = main
 [submodule "_external/resources/wcag-act-rules"]
 	path = _external/resources/wcag-act-rules
 	url = https://github.com/w3c/wcag-act-rules.git
