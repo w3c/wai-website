@@ -2,13 +2,12 @@
 # Do not translate the Sitemap
 title: WAI Site Map
 lang: en
+last_updated: 2025-03-06
 permalink: /sitemap/
 parent: "/"
 github:
   label: wai-sitemap
 feedbackmail: wai@w3.org
-footer: >
-  <p><strong>Date:</strong> Updated 16 August 2024.</p>
 ---
 
 {::nomarkdown}
@@ -102,6 +101,7 @@ _To get short descriptions of primary content, see [[WAI Resources]](/resources/
   - [[Plan]](/planning-and-managing/plan/)
   - [[Implement]](/planning-and-managing/implement/)
   - [[Sustain]](/planning-and-managing/sustain/)
+- [[Roles and Responsibilities (ARRM)]](/planning/arrm/)
 - [[Developing Organizational Policies on Web Accessibility]](/planning/org-policies/)
 - [[Developing an Accessibility Statement]](/planning/statements/)
 - [[Involving Users in Web Projects for Better, Easier Accessibility]](/planning/involving-users/)
@@ -294,7 +294,7 @@ _To get short descriptions of primary content, see [[WAI Resources]](/resources/
 
 {% include excol.html type="middle" %}
 
-- [Stories of Web Users - archive](https://www.w3.org/WAI/people-use-web/user-stories/archived)
+- [Stories of Web Users - archive](/people-use-web/user-stories/archived/)
 - [Developing a Web Accessibility Business Case for Your Organization](https://www.w3.org/WAI/business-case/archive/)
   - [Social Factors in Developing a Web Accessibility Business Case for Your Organization](https://www.w3.org/WAI/business-case/archive/soc)
   - [Technical Factors in Developing a Web Accessibility Business Case for Your Organization](https://www.w3.org/WAI/business-case/archive/tech)

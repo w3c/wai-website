@@ -5,8 +5,11 @@
 title: "Les sous-titres de vidéo"
 nav_title: "Sous-titres de vidéo"
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-23      # Keep the date of the English version
 order: 6
+
+translation:
+  last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Sofia Ahmed"
@@ -14,16 +17,16 @@ translators:
 contributors:
 - name: "Sandra Velarde Gonzalez (ETNIC)"
 
-
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/captions/fr  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/captions/  # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Courte vidéo à propos des sous-titres de vidéos pour l’accessibilité Web - de quoi s’agit-il, qui en bénéficie, comment ils aident chacun, et comment mettre cela en pratique.
@@ -35,7 +38,6 @@ image: /content-images/perspective-videos/captions.jpg
 # Translate the other words below, including "Date:" and "Editor and project lead:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Statut :</strong> Mise à jour : 23 janvier 2019.</p>
   <p><strong>Rédacteur et chef du projet : </strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. ACKNOWLEDGEMENTS liste les contributions.
   <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne (CE). Mis à jour dans le cadre du projet <a href="https://www.w3.org/WAI/DEV/" lang="en">WAI Expanding Access Project</a>, soutenu par la Fondation Ford.</p>
 ---
@@ -46,9 +48,9 @@ L’accessibilité Web est essentielle pour les personnes en situation de handic
 {:#film.no-display}
 
 {% include video-player-data.html
-    video-id="captions"
-    yt-id="iWO5N3n1DXU"
-    yt-id-ad="4qIordU8vT8"
+  video-id="captions"
+  yt-id="iWO5N3n1DXU"
+  yt-id-ad="4qIordU8vT8"
 %}
 
 Les informations de cette vidéo sont disponibles sous forme de [Transcription avec description des visuels](#transcript) en bas de la page.
@@ -62,19 +64,19 @@ Cela inclut les mots prononcés, l’identification de qui parle lorsque ce n’
 Qui dépend de cette fonctionnalité ? {#who}
 ----------------------------
 
--   Les personnes sourdes qui ne peuvent pas entendre l’audio.
--   Les personnes malentendantes qui ne peuvent pas entendre certaines parties du contenu.
--   Les personnes avec des troubles cognitifs et d’apprentissage qui ont besoin de voir et d’entendre le contenu pour mieux le comprendre.
+-  Les personnes sourdes qui ne peuvent pas entendre l’audio.
+-  Les personnes malentendantes qui ne peuvent pas entendre certaines parties du contenu.
+-  Les personnes avec des troubles cognitifs et d’apprentissage qui ont besoin de voir et d’entendre le contenu pour mieux le comprendre.
 
 Quels sont les autres bénéfices ? {#others}
 ---------------------------------
 
--   Le contenu peut être utilisé dans des environnements bruyants où il n’est pas possible d’entendre l’audio.
--   Le contenu peut être utilisé dans des environnements calmes où il n’est pas possible de mettre le son.
--   Le contenu peut être mieux compris par des personnes qui, à la fois, écoutent et regardent l’information ; par exemple, des personnes qui maîtrisent moins la langue parlée.
--   Le contenu peut être lu plutôt que visionné, ce qui est plus simple et plus rapide pour certaines personnes.
--   Le contenu sous forme de texte, tel que les sous-titres et les transcriptions, peut être mieux indexé par les moteurs de recherche.
--   Le contenu peut être utilisé sans nécessité de télécharger des fichiers vidéo ; par exemple, pour économiser des données mobiles.
+-  Le contenu peut être utilisé dans des environnements bruyants où il n’est pas possible d’entendre l’audio.
+-  Le contenu peut être utilisé dans des environnements calmes où il n’est pas possible de mettre le son.
+-  Le contenu peut être mieux compris par des personnes qui, à la fois, écoutent et regardent l’information ; par exemple, des personnes qui maîtrisent moins la langue parlée.
+-  Le contenu peut être lu plutôt que visionné, ce qui est plus simple et plus rapide pour certaines personnes.
+-  Le contenu sous forme de texte, tel que les sous-titres et les transcriptions, peut être mieux indexé par les moteurs de recherche.
+-  Le contenu peut être utilisé sans nécessité de télécharger des fichiers vidéo ; par exemple, pour économiser des données mobiles.
 
 Comment mettre cela en pratique ? {#action}
 --------------------------------------
@@ -84,22 +86,22 @@ Les sous-titres doivent être disponibles à la fois pour les vidéos pré-enreg
 Plus d’informations {#resources}
 ----------
 
--   **Principes d’accessibilité :**
-    -   [Sous-titres et autres alternatives pour le multimédia](/fundamentals/accessibility-principles/#captions)
--   **Pour démarrer :**
-    -   [Créez des transcriptions et des sous-titres pour les contenus multimédias](/tips/writing/#create-transcripts-and-captions-for-multimedia)
--   **Vérification simple :**
-    -   [Équivalents des contenus multimédia (vidéo, audio)](/test-evaluate/preliminary/#media)
--   **Témoignage d’utilisateur :**
-    -   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
-    -   [Critères de succès relatifs aux « sous-titres »](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
--   **Applicabilité mobile :**
-    -   [Contenu multimédia sans sous-titres](https://www.w3.org/WAI/mobile/experiences.html#multimedia)
+-  **Principes d’accessibilité :**
+  -  [Sous-titres et autres alternatives pour le multimédia](/fundamentals/accessibility-principles/#captions)
+-  **Pour démarrer :**
+  -  [Créez des transcriptions et des sous-titres pour les contenus multimédias](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+-  **Vérification simple :**
+  -  [Équivalents des contenus multimédia (vidéo, audio)](/test-evaluate/preliminary/#media)
+-  **Témoignage d’utilisateur :**
+  -  [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-  **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
+  -  [Critères de succès relatifs aux « sous-titres »](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
+-  **Applicabilité mobile :**
+  -  [Contenu multimédia sans sous-titres](https://www.w3.org/WAI/mobile/experiences.html#multimedia)
 
 ## Transcription avec audiodescription {#transcript}
 
- <table>
+<table>
   <thead>
     <tr>
       <th width="65%">Audio</th>

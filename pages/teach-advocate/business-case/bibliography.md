@@ -5,7 +5,7 @@ title: "The Business Case for Digital Accessibility: Annotated Bibliography"
 title_html: "The Business Case for Digital Accessibility: <br>Annotated Bibliography"
 nav_title: "Bibliography"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2018-11-09  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2018-11-09  # Keep the date of the English version
 description: Resources used to make the business case for digital accessibility.
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -30,7 +30,7 @@ image: /content-images/business-case/social.png
 # Translate the other words below, including "Date:", "Editor:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> <strong>Published 9 Nov 2018.</strong></p>
+  <p><strong>Published 9 Nov 2018.</strong></p>
   <p><strong>Editor:</strong> Sharron Rush. Contributors: Shawn Lawton Henry, Eric Eggert, Brent Bakken, Vicki Menezes Miller, Laura Keen. ACKNOWLEDGEMENTS lists additional contributors.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

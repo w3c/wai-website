@@ -170,13 +170,9 @@ inline_css: |
     </header>
     <p>WAI is supported in part by the following organizations. Thank you!</p>
     <ul>
-      <li><span><a href="https://www.hp.com">HP</a></span></li>
-      <li><span><a href="http://www.ibm.com/able">IBM Corporation</a></span></li>
-      <li><span>European Commission (<abbr>EC</abbr>) <a href="https://ec.europa.eu/programmes/horizon2020/">Horizon 2020</a> &mdash; 822245 (<a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a>), 101004794 (<a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>)</span></li>
-      <li><span><a href="https://www.fordfoundation.org/">Ford Foundation</a>, <a href="https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/">Technology and Society Program</a> (<a href="https://www.w3.org/WAI/about/projects/wai-core-ford/">WAI-Core Ford Project</a>)</span></li>
-      <li><span>US Department of Health and Human Services, <a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">National Institute for Disability, Independent Living and Rehabilitation Research</a>, contract HHSP23301500054 (<a href="https://www.w3.org/WAI/Core2015/">WAI-Core 2015, 2022 Project</a>)</span></li>
+      <li><span><a href="https://www.fordfoundation.org/">Ford Foundation</a>, <a href="https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/">Technology and Society Program</a></span></li>
+      <li><span><a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)</a></span></li>
     </ul>
     <p>WAI welcomes <a href="{{ '/about/sponsoring/' | relative_url }}">additional sponsors</a>.</p>
-    <br><p id="netlify" style="font-size: small">Previews of this site are powered by <a href="https://www.netlify.com/" style="color:black">Netlify</a>. <!-- <a rel="me" href="https://w3c.social/@wai">Mastodon</a> --></p>
   </div>
 </div>

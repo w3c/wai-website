@@ -3,8 +3,11 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Introducción a la Accesibilidad Web
 lang: es
-last_updated: 2023-11-25   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07   # Keep the date of the English version
 first_published: "Febrero 2005"
+
+translation:
+  last_updated: 2025-04-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Jorge Rumoroso"
@@ -22,7 +25,6 @@ ref: /fundamentals/accessibility-intro/     # Do not change this
 changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.

@@ -6,7 +6,10 @@ title: "Comment WAI élabore les standards d'accessibilité selon le processus d
 title_html: "Comment WAI élabore les standards d'accessibilité selon le processus du W3C :<br> étapes importantes et opportunités pour contribuer"
 nav_title: Processus du W3C pour élaborer les standards
 lang: fr
-last_updated: 2024-05-07   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-01-15   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-05-07   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Sofia Ahmed"
@@ -28,7 +31,7 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 2 novembre 2020. Première publication en septembre 2006.</p>
+  <p>Première publication en septembre 2006.</p>
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé avec les contributions du Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

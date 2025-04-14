@@ -904,11 +904,3 @@ The symposium on AI and digital accessibility highlighted the potential of AI to
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
 <script src="{{ '/assets/ableplayer/build/ableplayer.min.js' | relative_url }}"></script>
-<script>
-    var youTubeDataAPIKey = "{{ site.ytkey }}";
-    var googleApiReady = false;
-    function initGoogleClientApi() {
-        googleApiReady = true;
-    }
-</script>
-<script src="//apis.google.com/js/client.js?onload=initGoogleClientApi"></script>

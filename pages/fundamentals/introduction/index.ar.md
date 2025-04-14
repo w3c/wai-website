@@ -3,7 +3,11 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title:  مقدمة لولوجية الويب
 lang: ar
-last_updated: 2019-07-16   # Put the date of this translation 2019-07-16 (with month in the middle)
+last_updated: 2019-06-05
+
+translation:
+  last_updated: 2019-07-16  # Put the date of this translation YYYY-MM-DD (with month in the middle) 2019-07-16 (with month in the middle)
+  status: outdated
 
 translators:   #Add one -name: line for every translator
 - name: "نجيب التونسي"
@@ -17,12 +21,11 @@ ref: /fundamentals/accessibility-intro/   # Do not change this
 changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>تاريخ:</strong>تحديث 5 يونيو 2019.  أول نشر في فبراير 2005. CHANGELOG.</p>
+  <p>.أول نشر في فبراير 2005</p>
   <p><strong>النشر:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>تم التطوير من قبل مجموعة عمل التعليم والتوعية(<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

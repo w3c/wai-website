@@ -5,7 +5,10 @@
 title: Podstawowe komponenty dostępności Internetu
 nav_title: "Komponenty dostępności Internetu" # A short title that is used in the navigation
 lang: pl   # Change "en" to the translated language shortcode
-last_updated: 2024-03-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-14   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-19  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stefan Wajda"
@@ -31,7 +34,6 @@ footer: >
     <cite>Autor grafik Michael Duffy, źródło: Podstawowe komponenty doostępności Internetu. S.L. Henry, ed. Copyright W3C <sup>®</sup> (MIT, ERCIM, Keio, Beihang). w3.org/WAI/fundamentals/components/</cite><br>
     Aby uzyskać więcej informacji, zobacz <a href="https://www.w3.org/WAI/about/using-wai-material/">Using WAI Materials</a>.
   </p>
-  <p><strong>Data: </strong>Aktualizacja 14 marca 2024.</p>
   <p><strong>Redaktor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. Autor grafik: Michael Duffy.</p>
 ---
 

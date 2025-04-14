@@ -5,7 +5,8 @@
 title: "WCAG 2 Overview"
 nav_title: "Web Content – WCAG 2"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-12-12  # Keep the date of the English version
+first_published: "July 2005"
 description: Introduces the Web Content Accessibility Guidelines (WCAG) international standard, including WCAG 2.0, WCAG 2.1, and WCAG 2.2. WCAG documents explain how to make web content more accessible to people with disabilities.
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -30,7 +31,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 7 March 2024. First published July 2005.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---
@@ -111,13 +111,15 @@ The following resources help you understand and implement WCAG, and improve acce
 
 ## WCAG 2.0, 2.1, 2.2 {#versions}
 
-The Web Content Accessibility Guidelines (WCAG) standards are stable and referenceable when they are published as a 'W3C Recommendation' web standard.
+The Web Content Accessibility Guidelines (WCAG) standards are referenceable when they are published as a 'W3C Recommendation' web standard.
 
 * [WCAG 2.0](https://www.w3.org/TR/WCAG20/) was published on 11 December 2008.
-* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) was published on 5 June 2018, and an update was published on 21 September 2023. The [WCAG 2 FAQ](/standards-guidelines/wcag/faq/) has information about the update.
-* [WCAG 2.2](https://www.w3.org/TR/WCAG22/) was published on 5 October 2023.
+* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) was published on 5 June 2018, and updates were published on 21 September 2023 and 12 December 2024.
+* [WCAG 2.2](https://www.w3.org/TR/WCAG22/) was published on 5 October 2023, and an update was published on 12 December 2024.
 
-WCAG 2.0, 2.1, and 2.2 are designed to be "backwards compatible", which means content that conforms to WCAG 2.2 also conforms to WCAG 2.1 and WCAG 2.0. If you want to meet the all versions, you can use the WCAG 2.2 resources and you don’t need to bother looking earlier versions.
+For information on the updates, see the [WCAG 2 FAQ](/standards-guidelines/wcag/faq/).
+
+WCAG 2.0, 2.1, and 2.2 are designed to be "backwards compatible", which means content that conforms to WCAG 2.2 also conforms to WCAG 2.1 and WCAG 2.0. If you want to meet all the versions, you can use the WCAG 2.2 resources and you don’t need to bother looking at earlier versions.
 
 All the success criteria from 2.0 are included in 2.1, and all from 2.1 are in 2.2 (except 4.1.1, explained in the next paragraph).
 * WCAG 2.0 has 12 guidelines.
@@ -140,7 +142,7 @@ The content of ISO/IEC 40500 is freely available from [www.w3.org/TR/WCAG20](htt
 
 Benefits of WCAG 2.0 as an ISO standard are summarized in [ISO in the FAQ](/standards-guidelines/wcag/faq/#iso). More information on W3C and the ISO process is in the [W3C PAS FAQ](https://www.w3.org/2010/04/pasfaq).
 
-**W3C plans to submit WCAG 2.2 through the ISO process.**
+**W3C submitted WCAG 2.2 to ISO.** It will likely be after June 2025 before the ISO process is complete.
 
 ## Who develops WCAG {#wg}
 

@@ -2,6 +2,7 @@
 title: "Web Content Accessibility Guidelines (WCAG) 2 Level AAA Conformance"
 title_html: "Web Content Accessibility Guidelines (WCAG) 2<br>Level AAA Conformance"
 lang: en
+last_updated: 2020-07-13
 
 permalink: /WCAG2AAA-Conformance
 ref: /WCAG2AAA-Conformance
@@ -12,8 +13,6 @@ github:
 layout: minimal
 class: tight-page
 feedbackmail: wai@w3.org
-footer: >
-  <p><strong>Date:</strong> Updated 13 July 2020.</p>
 ---
 
   <p><img src="https://www.w3.org/WAI/WCAG22/wcag2.2AAA-blue.png" alt="W3C WAI-AAA WCAG 2.2" width="88" height="32"> <img src="https://www.w3.org/WAI/WCAG22/wcag2.2AAA.png" alt="W3C WAI-AAA WCAG 2.2" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.2 at Level AAA.</p>

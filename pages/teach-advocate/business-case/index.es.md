@@ -4,9 +4,13 @@
 title: "El caso de negocios de la accesibilidad digital"
 nav_title: "Caso de negocios"
 lang: es
-last_updated: 2019-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-07-26  # Keep the date of the English version
 description: Razones que tienen las organizaciones para cumplir con la accesibilidad. Incluye beneficios tangibles e intangibles, así como los riesgos de no cumplir con la accesibilidad adecuadamente.
 footnotestitle: Resources
+
+translation:
+  status: outdated
+  last_updated: 2019-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"

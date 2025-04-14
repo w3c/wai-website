@@ -9,13 +9,17 @@ ref: /people-use-web/abilities-barriers/  # Do not change this
 lang: fr
 description: Explore la grande diversité de publics et de capacités et souligne quelques points bloquants en accessibilité web qu’on rencontre fréquemment à cause de sites et d’outils web inaccessibles.
 image: /content-images/people-use-web/social.png
-last_updated: 2018-09-12
+last_updated: 2017-05-15  # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2018-09-12
+
 translators:
 - name: "Stéphane Deschamps"
 contributors:
 - name: "@code-elegant"
 footer: > # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>Date&#8239;:</strong> Mis à jour le 15 mai 2017.</p>
   <p><strong>Rédacteur&#8239;:</strong> <a hreflang="en" href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Rédactrice précédente&#8239;: <a hreflang="en" href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a hreflang="en" href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Remerciements</a>.</p>
   <p>Développé par le <i lang="en">Education and Outreach Working Group</i> (<a hreflang="en" href="http://www.w3.org/WAI/EO/">EOWG</a>). Développé précédemment avec le <a hreflang="en" href="https://www.w3.org/WAI/EO/2008/wai-age-tf">Groupe de Travail WAI-AGE</a>, avec le soutien du <a hreflang="en" href="https://www.w3.org/WAI/WAI-AGE/">Projet WAI-AGE</a>.</p>
 resource:
@@ -126,8 +130,8 @@ Pour certaines personnes atteintes de handicap auditif, la langue des signes est
 
 {% include excol.html type="middle" %}
 
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -190,9 +194,9 @@ Les personnes atteintes de handicaps cognitifs, neurologiques, de troubles d’a
 
 {% include excol.html type="middle" %}
 
--   [Preety, élève de collège avec un trouble du déficit de l'attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme ](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Preety, élève de collège avec un trouble du déficit de l'attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme ](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -253,8 +257,8 @@ Les personnes atteintes de handicaps physiques peuvent avoir des difficultés à
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
 
 {% include excol.html type="end" %}
 
@@ -350,10 +354,10 @@ Certaines personnes ne voient qu’une partie du contenu à la fois ou perçoive
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
