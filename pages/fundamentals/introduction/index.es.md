@@ -4,6 +4,7 @@
 title: Introducción a la Accesibilidad Web
 lang: es
 last_updated: 2023-11-25   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+first_published: "Febrero 2005"
 
 translators:
 - name: "Jorge Rumoroso"
@@ -26,7 +27,6 @@ changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado a 11 July 2019. Primera publicación en Febrero 2005. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado por Grupo de Trabajo de Educación y Divulgación (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
@@ -106,7 +106,7 @@ Puede ver un vídeo de 7 minutos con ejemplos de cómo la accesibilidad es esenc
 {:/}
 
 -   Si desea aprender más acerca de cómo las diferentes discapacidades afectan en el uso de la Web y leer sobre escenarios de personas con discapacidad usando la Web, acceda a [[Cómo las Personas con Discapacidades Utilizan la Web]](/people-use-web/).
--   Si desea más ejemplos de beneficios para otras personas, consulte el recurso para móviles [[Experiencias Web Compartidas: Barreras comunes para Personas Usuarias de Dispositivos Móviles y Personas con Discapacidades]](/standards-guidelines/shared-experiences/), el multimedia [Utilizado por personas con y sin discapacidades](/media/av/users-orgs/#situations), y el archivado [Accesibilidad Web Beneficia a Personas con y sin Discapacidades](https://www.w3.org/WAI/business-case/archive/soc#groups).
+-   Si desea más ejemplos de beneficios para otras personas, consulte el recurso multimedia [Usado por personas con y sin discapacidad](/media/av/users-orgs/#situations), el recurso archivado [la accesibilidad web beneficia a las personas con y sin discapacidad](https://www.w3.org/WAI/business-case/archive/soc#groups) y el recurso móvil archivado [[Experiencias Web compartidas: barreras comunes para usuarios de dispositivos móviles y personas con discapacidad]](/standards-guidelines/shared-experiences/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -133,6 +133,7 @@ La accesibilidad web es **requisito legal** en muchas ocasiones.
 {:/}
 
 -   Información general sobre los beneficios a nivel de negocio en [[El Caso de Negocio de la Accesibilidad Digital]](/business-case/).
+    -   Ejemplos de beneficios al [hacer medios de audio y vídeo accesibles](/media/av/) están en la sección de [Beneficios para las organizaciones](/media/av/users-orgs/#benefits).
 -   La guía para calcular los requisitos legales se encuentra en el archivo [Factores Legales y Políticos](https://www.w3.org/WAI/business-case/archive/pol).
 
 {::nomarkdown}
