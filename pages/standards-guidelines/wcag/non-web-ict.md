@@ -57,7 +57,7 @@ WCAG2ICT supports harmonized accessibility solutions across a range of technolog
 
 ### Background and Development History for WCAG2ICT
 
-[WCAG 2 was developed for the Web]( https://www.w3.org/WAI/standards-guidelines/wcag/glance/).  Addressing accessibility for non-web documents and non-web software involves requirements beyond those included in WCAG 2 and the WCAG2ICT Group Note.  Authors and developers are encouraged to seek other relevant advice about current best practices to ensure that non-web documents and non-web software are accessible, as far as possible, to people with disabilities.
+[WCAG 2 was developed for the Web](https://www.w3.org/WAI/standards-guidelines/wcag/glance/). Addressing accessibility for non-Web documents and software involves requirements beyond those included in WCAG 2 and the WCAG2ICT Group Note. Authors and developers are encouraged to seek other relevant advice about current best practices to ensure that non-Web documents and software are accessible, as far as possible, to people with disabilities.
 
 The 2013 WCAG2ICT Group Note helped regulatory bodies develop standards (i.e., 508, EN 301549) to adopt WCAG criteria for non-web documents and non-web software. The 2013 Group Note covered WCAG 2.0 (level A and AA) and the latest version of WCAG2ICT Group Note covers all WCAG 2 versions (level A and AA).
 
