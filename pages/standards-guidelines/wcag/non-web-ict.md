@@ -89,7 +89,6 @@ The WCAG2ICT Group Note is for standards developers, ICT managers, ICT developer
 * Policy makers (which includes legislators, regulators) - to inform policy makers how the WCAG2ICT note is being used to influence standards requirements where WCAG is being applied to non-web ICT.
 * Others include auditors, educators, litigators, vendors, and any individuals looking to learn more about digital accessibility.
 
-
 ## What WCAG2ICT Does Not Do
 
 The WCAG2ICT Group Note:
