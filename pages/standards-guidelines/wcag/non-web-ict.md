@@ -44,7 +44,7 @@ Quick link:
 
 ## Introduction {#intro}
 
-<cite>Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</cite> describes how the Web Content Accessibility Guidelines (WCAG) can be applied to non-web information and communications technologies (ICT), including documents and software. WCAG2ICT is the acronym used for the W3C Guidance on Applying WCAG 2 to Non-web Information and Communication Technology Group Note.
+<cite>Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</cite> describes how the Web Content Accessibility Guidelines (WCAG) can be applied to non-web information and communications technologies (ICT), including documents and software.
 
 The WCAG2ICT Group Note provides:
 * [Informative](https://www.w3.org/TR/WCAG22/#dfn-informative) **guidance** that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and that does not set requirements.
