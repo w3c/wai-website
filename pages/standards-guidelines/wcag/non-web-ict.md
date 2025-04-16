@@ -48,7 +48,7 @@ Quick link:
 
 The WCAG2ICT Group Note provides:
 * [Informative](https://www.w3.org/TR/WCAG22/#dfn-informative) **guidance** that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and that does not set requirements.
-* **Comments on applicability** of the Web Content Accessibility Guidelines (WCAG) when applied to non-web information and communications technologies (ICT) - this includes  non-web documents and software, including mobile apps, native applications, platform software, and [software on ICT with closed functionality[(https://www.w3.org/TR/wcag2ict/#comments-on-closed-functionality).
+* **Guidance** on how the Web Content Accessibility Guidelines (WCAG) could apply to non-Web information and communications technologies (ICT) - this includes  non-Web documents and software, including mobile apps, native applications, platform software, and software on ICT with closed functionality.
 * **Technology-specific explanations or difficulties** for some success criteria. This is especially the case where WCAG makes assumptions on the presence of a browser that would not be true for non-web documents and software. Not all ICT have these concepts.
 
 The WCAG2ICT Group Note is intended to help clarify how to use WCAG 2 to make non-Web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual disabilities, and the needs of people with accessibility requirements due to the effects of aging. Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities.
