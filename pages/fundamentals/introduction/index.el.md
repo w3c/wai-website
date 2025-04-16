@@ -94,7 +94,7 @@ footer: >
 -   άτομα που χρησιμοποιούν αργή σύνδεση στο Διαδίκτυο ή που έχουν περιορισμένο ή ακριβό εύρος ζώνης (<span lang="en">bandwidth</span>)
 
 Για ένα βίντεο 7 λεπτών με παραδείγματα για το πώς η προσβασιμότητα είναι απαραίτητη για τα άτομα με αναπηρία και χρήσιμη για όλους σε διάφορες καταστάσεις, δείτε:<br>
-{% include video-link.html title="Προοπτικές Προσβασιμότητας στον Ιστό <em>(<span lang="en">YouTube</span>)</em>" href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
+{% include video-link.html title="Προοπτικές Προσβασιμότητας στον Ιστό <em>(<span lang='en'>YouTube</span>)</em>" href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="Περισσότερες Πληροφορίες σχετικά με το Τι είναι Προσβασιμότητα" class="simple aside" %}
