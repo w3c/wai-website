@@ -55,7 +55,7 @@ The WCAG2ICT Group Note is intended to help clarify how to use WCAG 2 to make no
 
 WCAG2ICT supports harmonized accessibility solutions across a range of technologies. WCAG2ICT has been a key resource for including WCAG in ICT accessibility regulation, legislation, and standards around the world.
 
-### Background and Development History for WCAG2ICT
+### Background
 
 [WCAG 2 was developed for the Web](https://www.w3.org/WAI/standards-guidelines/wcag/glance/). Addressing accessibility for non-Web documents and software involves requirements beyond those included in WCAG 2 and the WCAG2ICT Group Note. Authors and developers are encouraged to seek other relevant advice about current best practices to ensure that non-Web documents and software are accessible, as far as possible, to people with disabilities.
 
