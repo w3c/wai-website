@@ -46,7 +46,7 @@ footer: >
 {:/}
 
 -   TOC is created automatically.
-    {:toc}
+{:toc}
 
 <span class="box-h box-h-simple box-h-full">Σχετικός Πόρος</span><br>
 {% include video-link.html title="Βίντεο Εισαγωγή στην προσβασιμότητα στον Παγκόσμιο Ιστό και τα πρότυπα του W3C <em>(4 λεπτά)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/el" src="/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
