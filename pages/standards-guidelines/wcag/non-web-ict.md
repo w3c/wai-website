@@ -68,7 +68,7 @@ The objective of the WCAG2ICT Task Force is to develop documentation describing 
 
 ### Intent and Usage of WCAG2ICT
 
-WCAG2ICT, like any other  [W3C Group Note](https://www.w3.org/policies/process/#Note), is informative — it is not normative and does not set requirements. It provides guidance on the application of WCAG 2 principles, guidelines, and success criteria to non-web documents and software. The WCAG2ICT Group Note was developed to provide an authoritative interpretation of how WCAG 2 can apply in different contexts.
+WCAG2ICT, like any other W3C Group Note, is informative — it is not normative and does not set requirements. It provides guidance on the application of WCAG 2 principles, guidelines, and success criteria to non-web documents and software. The WCAG2ICT Group Note was developed to provide an authoritative interpretation of how WCAG 2 can apply in different contexts.
 
 The main focus of the WCAG2ICT Group Note is to provide verbiage replacements for web-based language in the WCAG success criteria and definitions as well as provide additional insights into where WCAG criteria may make assumptions of the presence and functionality of a user agent and assistive technology. This is because not all software has a user agent or platform software with accessibility APIs and services, nor do all technologies have or support assistive technology that acts on programmatic information. 
 
