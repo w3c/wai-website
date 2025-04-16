@@ -28,7 +28,7 @@ footer: >
 ---
 
 {::nomarkdown}
-{% include box.html type="start" h="2" title="Summary" class="full" %}
+{% include box.html type="start" h="2" title="Περίληψη" class="full" %}
 {:/}
 
 Όταν οι ιστότοποι και τα διαδικτυακά εργαλεία είναι κατάλληλα σχεδιασμένα και κωδικοποιημένα, τα άτομα με αναπηρία μπορούν να τα χρησιμοποιούν. Ωστόσο, επί του παρόντος, πολλοί ιστότοποι και εργαλεία αναπτύσσονται με εμπόδια προσβασιμότητας που καθιστούν δύσκολη ή αδύνατη τη χρήση τους από ορισμένα άτομα.
@@ -46,7 +46,7 @@ footer: >
 {:/}
 
 -   TOC is created automatically.
-{:toc}
+    {:toc}
 
 <span class="box-h box-h-simple box-h-full">Σχετικός Πόρος</span><br>
 {% include video-link.html title="Βίντεο Εισαγωγή στην προσβασιμότητα στον Παγκόσμιο Ιστό και τα πρότυπα του W3C <em>(4 λεπτά)</em>" href="https://www.w3.org/WAI/videos/standards-and-benefits/el" src="/content-images/intro-accessibility/video-still-accessibility-intro-16-9.jpg" %}
@@ -94,7 +94,7 @@ footer: >
 -   άτομα που χρησιμοποιούν αργή σύνδεση στο Διαδίκτυο ή που έχουν περιορισμένο ή ακριβό εύρος ζώνης (<span lang="en">bandwidth</span>)
 
 Για ένα βίντεο 7 λεπτών με παραδείγματα για το πώς η προσβασιμότητα είναι απαραίτητη για τα άτομα με αναπηρία και χρήσιμη για όλους σε διάφορες καταστάσεις, δείτε:<br>
-{% include video-link.html title="Προοπτικές Προσβασιμότητας στον Ιστό <em>(<span lang='en'>YouTube</span>)</em>" href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
+{% include video-link.html title="Προοπτικές Προσβασιμότητας στον Ιστό <em lang='en'>(YouTube)</em>" href="https://www.youtube.com/watch?v=3f31oufqFSM" src="/content-images/intro-accessibility/video-still-accessibility-perspectives-16-9.jpg" %}
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="Περισσότερες Πληροφορίες σχετικά με το Τι είναι Προσβασιμότητα" class="simple aside" %}
@@ -124,7 +124,7 @@ footer: >
 Η προσβασιμότητα στον ιστό **απαιτείται από το νόμο** σε πολλές περιπτώσεις.
 
 {::nomarkdown}
-{% include box.html type="start" h="3" title="Περισσότερες Σημαντικές Πληροφορίες για την Προσβασιμότητα" class="simple aside" %}
+{% include box.html type="start" h="3" title="Περισσότερες Πληροφορίες γιατί η Προσβασιμότητα είναι Σημαντική" class="simple aside" %}
 {:/}
 
 -   Γενικές πληροφορίες σχετικά με τα επιχειρηματικά οφέλη υπάρχουν στο [[Η Επιχειρηματική Υπόθεση της Ψηφιακής Προσβασιμότητας]](/business-case/).
@@ -185,7 +185,7 @@ Web accessibility depends on several components working together, including web 
 
 
 {::nomarkdown}
-{% include box.html type="start" h="3" title="Περισσότερες πληροφορίες σχετικά με την αξιολόγηση της προσβασιμότητας" class="simple aside" %}
+{% include box.html type="start" h="3" title="Περισσότερες Πληροφορίες σχετικά με την Αξιολόγηση της Προσβασιμότητας" class="simple aside" %}
 {:/}
 
 -   Οι πόροι που βοηθούν στην αξιολόγηση της προσβασιμότητας περιγράφονται στην ενότητα [[Αξιολόγηση ιστότοπων για προσβασιμότητα]](/test-evaluate/).
@@ -226,7 +226,7 @@ Web accessibility depends on several components working together, including web 
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="Περισσότερα Παραδείγματα" class="simple aside" %}
-{:/} 
+{:/}
 
 -   [[Συμβουλές για να Ξεκινήσετε]](/tips/)
 -   [[Εύκολοι Έλεγχοι - Μια Πρώτη Ανασκόπηση]](/test-evaluate/preliminary/)
