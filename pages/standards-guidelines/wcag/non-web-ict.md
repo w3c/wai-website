@@ -124,7 +124,7 @@ WCAG2ICT follows the [W3C](https://www.w3.org) format for technical reports, whi
 
 ## Who develops WCAG2ICT {#wg}
 
-The WCAG2ICT Group Note is developed by a [Task Force (TF)](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/) of the [Accessibility Guidelines Working Group (AG WG)](https://www.w3.org/WAI/about/groups/agwg/). The [work statement](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/work-statement/) defines the objectives, scope, and approach for the WCAG2ICT Group Note. The participants of the WCAG2ICT TF are volunteers drawn from [W3C member organizations](https://www.w3.org/membership/list/) and [invited experts](https://www.w3.org/invited-experts/) and are supported by [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/about/#wai-staff).
+The WCAG2ICT Group Note is developed by the [WCAG2ICT Task Force](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/). The work statement defines the objectives, scope, and approach for the WCAG2ICT Group Note. The participants of the WCAG2ICT TF are volunteers drawn from W3C member organizations and invited experts and are supported by Web Accessibility Initiative (WAI) staff.
 
 ### Related Documents
 
