@@ -139,7 +139,6 @@ footer: >
 ## Κάνοντας τον Παγκόσμιο Ιστό Προσβάσιμο {#making}
 
 Η προσβασιμότητα στον ιστό εξαρτάται από τη συνεργασία διαφόρων στοιχείων, συμπεριλαμβανομένων των τεχνολογιών ιστού, των προγραμμάτων περιήγησης στον ιστό (<span lang="en">web browsers </span>) και άλλων \"<span lang="en">user agents</span>\", των εργαλείων σύνταξης και των ιστότοπων.
-Η προσβασιμότητα στον Παγκόσμιο Ιστό εξαρτάται από τη συνεργασία διαφόρων στοιχείων, συμπεριλαμβανομένων των τεχνολογιών ιστού, των φυλλομετρητών ιστού (<span lang="en">web browsers</span>) και άλλων \"<span lang="en">user agents</span>\", των εργαλείων συγγραφής ιστοτόπων και των ιστότοπων.
 
 Το <span lang="en">W3C Web Accessibility Initiative ([WAI](/about/participating/))</span> αναπτύσσει τεχνικές προδιαγραφές, κατευθυντήριες γραμμές, τεχνικές και υποστηρικτικούς πόρους που περιγράφουν λύσεις προσβασιμότητας.Αυτά θεωρούνται διεθνή πρότυπα για την προσβασιμότητα στον ιστό- για παράδειγμα, το <abbr title="Web Content Accessibility Guidelines (WCAG)">WCAG</abbr> 2.0 είναι επίσης το <abbr title="International Organization for Standardization">ISO</abbr> πρότυπο: ISO/<abbr title="International Electrotechnical Commission">IEC</abbr> 40500.
 
