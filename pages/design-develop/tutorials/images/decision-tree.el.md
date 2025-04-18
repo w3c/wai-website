@@ -25,7 +25,7 @@ navigation:
   previous: /tutorials/images/imagemap/  # Do not change this
   next: /tutorials/images/tips/  # Do not change this
 
-permalink: /tutorials/images/decision-tree/ # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /tutorials/images/decision-tree/el # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /tutorials/images/decision-tree/ # Do not change this
 
 changelog: /tutorials/changelog/
