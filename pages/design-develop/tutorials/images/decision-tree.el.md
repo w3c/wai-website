@@ -2,8 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "An alt Decision Tree"
-title_html: "An <code>alt</code> Decision Tree"
+title: "Ένα Δέντρο Απόφασης για το alt"
+title_html: "Ένα Δέντρο Απόφασης για το <code>alt</code>"
 lang: el  # Change "en" to the translated-language shortcode
 last_updated: 2024-05-13  # Keep the date of the English version
 
@@ -28,14 +28,14 @@ changelog: /tutorials/changelog/
 # In the footer below:
 # Translate the Working Group name. Leave the Working Group acronym in English.
 metafooter: true
-editors:
+Επικεφαλείς του έργου:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
 update_editors:
   - Brian Elton
 contributing_participants:
-  - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
-support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
+  - βλέπε <a href="/WAI/tutorials/acknowledgements/">Ευχαριστίες</a>
+support: Αναπτύχθηκε από την Ομάδα Εργασίας Εκπαίδευσης και Ενημέρωσης (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Αναπτύχθηκε με την υποστήριξη του <a href="https://www.w3.org/WAI/ACT/">έργου WAI-ACT</a>, το οποίο συγχρηματοδοτείται από το <strong>πρόγραμμα <abbr title="Information Society Technologies">IST</abbr> της Ευρωπαϊκής Επιτροπής</strong>.
 
 # Read Translations Notes for this resource at https://github.com/w3c/wai-tutorials#readme
 ---
