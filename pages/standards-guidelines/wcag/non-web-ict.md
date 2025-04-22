@@ -83,7 +83,7 @@ While the WCAG2ICT Group Note provides guidance on applying WCAG in non-web cont
 ## Who WCAG2ICT is for {#for}
 
 The WCAG2ICT Group Note is for standards developers, ICT managers, ICT developers, policy makers, and any others wanting to understand how WCAG 2 can be applied to non-web documents and software.
-* Accessibility [standards organizations](https://en.wikipedia.org/wiki/Standards_organization) - to provide non-web language in the success criteria and definitions and to provide interpretation notes to help the organization make any potential adjustments or notes needed for specific technologies, if needed.
+* Accessibility standards organizations - to provide non-web language in the success criteria and definitions and to provide interpretation notes to help the organization make any potential adjustments or notes needed for specific technologies, if needed.
 * ICT managers  - who are familiar with WCAG to quickly get an overview of using WCAG as an accessibility benchmark for non-web ICT.
 * Technology developers - to provide the language substitutions for non-web language in WCAG success criteria where existing accessibility standards don’t contain an interpretation.
 * Policy makers (including regulators when making regulations) - to inform them how the WCAG2ICT note is being used to influence standards requirements where WCAG is being applied to non-web ICT.
