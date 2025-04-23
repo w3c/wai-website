@@ -8,7 +8,7 @@ lang: es
 last_updated: 2022-05-19  # Keep the date of the English version
 
 translation:
-  last_updated: 2019-09-30  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2025-04-13  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
