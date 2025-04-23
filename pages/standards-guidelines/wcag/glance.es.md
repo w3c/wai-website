@@ -2,12 +2,12 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "WCAG 2.1 de un vistazo"
+title: "WCAG 2 de un vistazo"
 nav_title: "De un vistazo"
 lang: es
 last_updated: 2023-11-29  # Keep the date of the English version
 first_published: "Julio del 2008"
-description: Esta página proporciona un resumen no literal de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1.
+description: Esta página proporciona un resumen no literal de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.
 
 translation:
   last_updated: 2019-07-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -46,7 +46,7 @@ Esta página proporciona un resumen no literal de las Pautas de Accesibilidad pa
 {% include box.html type="end" %}
 {:/}
 
-Por favor, consulte los siguientes recursos clave para aprender a usar WCAG 2.1:
+Por favor, consulte los siguientes recursos clave para aprender a usar WCAG 2:
 -   **[[Resumen de WCAG]](/standards-guidelines/wcag/)**
 -   **[[Documentos de WCAG 2]](/standards-guidelines/wcag/docs/)**
 
