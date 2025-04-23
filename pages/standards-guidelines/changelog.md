@@ -26,7 +26,7 @@ footer: >
 - In the “Web Content Accessibility Guidelines (WCAG) 2” section: 
   - updated the link to “How to Meet WCAG 2” to target the WCAG 2.2 version: `https://www.w3.org/WAI/WCAG22/quickref/`.
   - reordered the “WCAG 2.x Standard” list items to start with WCAG 2.2.
-- In the "Authoring Tool Accessibility Guidelines (ATAG)" section: updated a link to target the most recent WAI-ARIA 1.2 standard.
+- In the "Accessible Rich Internet Applications (WAI-ARIA)" section: updated a link to target the most recent WAI-ARIA 1.2 standard.
 
 ## 15 January 2024
 
