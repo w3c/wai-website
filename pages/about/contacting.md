@@ -28,8 +28,6 @@ class: tight-page
 
 ## Press inquiries
 
-For press inquiries regarding **accessibility or the Web Accessibility Initiative (WAI)**, email [shawn@w3.org, w3t-pr@w3.org, wai@w3.org](mailto:shawn@w3.org,w3t-pr@w3.org,wai@w3.org?subject=press%20request-accessibility)
-
 For press inquiries regarding other areas of W3C, see [How to contact W3C, Press](/Consortium/Contact#press).
 
 ## Technical, implementation, and other support questions
