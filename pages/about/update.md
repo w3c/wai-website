@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, April 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, May 2025</span>"
 lang: en
-last_updated: 2025-04-29
+last_updated: 2025-04-30
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.
 
@@ -100,7 +100,7 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in April 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in May 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
 * A draft new resource on applying WCAG 2.2 to mobile
 * More [WAI Translations](/translations/) &mdash; usually some each week
@@ -137,11 +137,13 @@ Did you know the WAI website has: **videos, tips, tutorials, tools** (for genera
 
 To learn about contributing to W3C WAI accessibility work generally, **see [[Participating in WAI]](/about/participating/)**.
 
-Links to each Working Group's "How to Participate" page are in the [Participating in Working Groups section](/about/participating/#WGs). If you are interested in a Task Force, see participation information for the parent Working Group.
+We are particulary seeking volunteer contributors for:
+* @@. Contact [name] at [name]@w3.org
+* Translations: If you might want to volunteer to contribute to translations, please see [Translating WAI resources](/about/translating/). You can send questions via e-mail to [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org) We are currently seeking translators in all languages and reviewers for draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, and Turkish**.
+
+<!-- Links to each Working Group's "How to Participate" page are in the [Participating in Working Groups section](/about/participating/#WGs). If you are interested in a Task Force, see participation information for the parent Working Group. -->
 
 We also offer ideas for [Promoting and Implementing Web Accessibility](/about/participating/#promoting-and-implementing-web-accessibility).
-
-**Translations:** If you might want to volunteer to contribute to translations, please see [Translating WAI resources](/about/translating/). You can send questions via e-mail to [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org) We are currently seeking translators in all languages and reviewers for draft translations in Arabic, Czech, Indonesian, Simplified Chinese and Turkish.
 
 **We look forward to your contributions to making the web more accessible to people with disabilities!**
 
