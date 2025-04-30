@@ -191,6 +191,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 30 April 2025
+  * Updated the 'How to Get Involved' seciotn with specific needs
 * April 2025
   * Minor updates to current work on WCAG2ICT, ARIA 1.3, and mobile accessibility
 * March 2025
