@@ -141,7 +141,7 @@ We are particularly seeking volunteer contributors for:
 * SVG ARIA and SVG AAM editorial work &mdash; Robust knowledge of SVG as well of browser accessibility APIs. Contact [Daniel Montalvo](https://www.w3.org/staff#dmontalvo) at [dmontalvo@w3.org](mailto:dmontalvo@w3.org)
 * @@ description of skills and task... Contact [name] at [name]@w3.org
 * @@ description of skills and task... Contact [name] at [name]@w3.org
-* Reviewing draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, or Turkish**. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
+* Reviewing draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, or Turkish** &mdash; Strong knowledge of disability terminology in the language of the translation. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
 * Translating WAI resources (all languages). See [Translating WAI resources](/about/translating/) and contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
 
 <!-- Links to each Working Group's "How to Participate" page are in the [Participating in Working Groups section](/about/participating/#WGs). If you are interested in a Task Force, see participation information for the parent Working Group. -->
