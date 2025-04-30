@@ -142,8 +142,7 @@ We are particularly seeking volunteer contributors for:
 * @@ description of skills and task... Contact [name] at [name]@w3.org
 * @@ description of skills and task... Contact [name] at [name]@w3.org
 * Reviewing draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, or Turkish**. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
-
-Translations: If you might want to volunteer to contribute to translations, please see [Translating WAI resources](/about/translating/). You can email questions to [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org) We are currently seeking translators in all languages. <!-- and reviewers for draft translations in Arabic, Czech, Indonesian, Simplified Chinese, and Turkish. -->
+* Translating WAI resources (all languages). See [Translating WAI resources](/about/translating/) and contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
 
 <!-- Links to each Working Group's "How to Participate" page are in the [Participating in Working Groups section](/about/participating/#WGs). If you are interested in a Task Force, see participation information for the parent Working Group. -->
 
