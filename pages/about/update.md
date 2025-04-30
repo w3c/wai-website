@@ -138,6 +138,7 @@ Did you know the WAI website has: **videos, tips, tutorials, tools** (for genera
 To learn about contributing to W3C WAI accessibility work generally, **see [[Participating in WAI]](/about/participating/)**.
 
 We are particularly seeking volunteer contributors for:
+* SVG ARIA and SVG AAM editorial work &mdash; Robust knowledge of SVG as well of browser accessibility APIs. Contact [Daniel Montalvo](https://www.w3.org/staff#dmontalvo) at [dmontalvo@w3.org](mailto:dmontalvo@w3.org)
 * @@ description of skills and task... Contact [name] at [name]@w3.org
 * @@ description of skills and task... Contact [name] at [name]@w3.org
 * Reviewing draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, or Turkish**. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
