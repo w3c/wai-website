@@ -103,7 +103,7 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 We plan to publish the following documents in May 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
 * A draft new resource on applying WCAG 2.2 to mobile
-* More [WAI Translations](/translations/) &mdash; usually some each week
+* More [WAI Translations](/translations/) &mdash; usually some each month.
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
