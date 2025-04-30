@@ -138,6 +138,8 @@ Did you know the WAI website has: **videos, tips, tutorials, tools** (for genera
 To learn about contributing to W3C WAI accessibility work generally, **see [[Participating in WAI]](/about/participating/)**.
 
 We are particularly seeking volunteer contributors for:
+* WCAG 3 development; Expert knowledge of accessibility and, ideally, standards writing experience. Contact [Kevin White] (https://www.w3.org/staff/#kevin) at [kevin@w3.org]
+* WCAG 2 backlog; Expert knowledge of accessibility. Contact [Kevin White] (https://www.w3.org/staff/#kevin) at [kevin@w3.org]
 * SVG ARIA and SVG AAM editorial work &mdash; Robust knowledge of SVG as well of browser accessibility APIs. Contact [Daniel Montalvo](https://www.w3.org/staff#dmontalvo) at [dmontalvo@w3.org](mailto:dmontalvo@w3.org)
 * @@ description of skills and task... Contact [name] at [name]@w3.org
 * @@ description of skills and task... Contact [name] at [name]@w3.org
