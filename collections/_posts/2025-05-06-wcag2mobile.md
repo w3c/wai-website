@@ -1,3 +1,4 @@
+---
 title: "Draft Note for Review: Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile)"
 date: 2025-05-06
 ---
