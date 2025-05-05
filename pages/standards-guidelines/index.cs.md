@@ -22,7 +22,10 @@ github:
 permalink: /standards-guidelines/cs   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
+# In the footer below:
+# Translate the words below, including "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Vyvinuto Pracovní skupinou pro vzdělání a osvětu (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
