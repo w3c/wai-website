@@ -5,7 +5,7 @@
 title: Przegląd standardów dostępności W3C
 nav_title: "Standards/Guidelines" # A short title that is used in the navigation
 lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-24   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-05-05   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Stefan Wajda" 
@@ -37,7 +37,7 @@ footer: >
 {% include box.html type="start" h="2" title="Podsumowanie" class="full" %}
 {:/}
 
-Ta strona jest wprowadzeniem do wytycznich i innych standardów dotyczących dostępności stron internetowych.
+Ta strona jest wprowadzeniem do wytycznych i innych standardów dotyczących dostępności stron internetowych.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -87,7 +87,7 @@ WCAG 2 info:
 - [Standard WCAG 2.0](https://www.w3.org/TR/WCAG20/)
 
 
-### Wytyczne dla dostępności narzędzii do tworzenia treści (ATAG) {#atag}
+### Wytyczne dla dostępności narzędzi do tworzenia treści (ATAG) {#atag}
 
 Narzędzia autorskie to oprogramowanie i usługi, których „twórcy” (programiści, projektanci, autorzy itp.) używają do tworzenia treści internetowych. Na przykład: edytory HTML, systemy zarządzania treścią (CMS) i strony internetowe, które pozwalają użytkownikom dodawać treści, takie jak blogi i serwisy społecznościowe. Dokumenty ATAG wyjaśniają:
 * jak uczynić narzędzia autorskie dostępnymi, aby osoby z niepełnosprawnościami mogły tworzyć treści internetowe, oraz
@@ -143,12 +143,12 @@ Poniższe źródła pomagają w opracowywaniu metod i narzędzi oceny dostępno�
 
 Dodatkowe materiały związane z oceną są wymienione w opracowaniu  [[Omówienie Oceniania dostępności internetowej]](/test-evaluate/), w tym
 
-- [[Omówinie WCAG-EM: Metodologia oceny zgodności dostępności strony internetowej]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM to metoda określania, jak dobrze strona internetowa jest zgodna z Wytycznymi dla dostępności treści WWW (WCAG).
+- [[Omówienie WCAG-EM: Metodologia oceny zgodności dostępności strony internetowej]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM to metoda określania, jak dobrze strona internetowa jest zgodna z Wytycznymi dla dostępności treści WWW (WCAG).
 
 
 ### WAI-Adapt
 
-[[Omówienie WAI-Adapt]](/adapt/) &mdash; WAI-Adapt umożliwia użytkownikom dostosowywanie (lub „personalizowanie”) sposobu prezentowania treści do swoich potrzb i preferencji. Twórcy treści mogą korzystać ze standardów WAI-Adapt, aby zapewnić domyślny projekt i umożliwić użytkownikowi adaptację przy minimalnym nakładzie pracy.
+[[Omówienie WAI-Adapt]](/adapt/) &mdash; WAI-Adapt umożliwia użytkownikom dostosowywanie (lub „personalizowanie”) sposobu prezentowania treści do swoich potrzeb i preferencji. Twórcy treści mogą korzystać ze standardów WAI-Adapt, aby zapewnić domyślny projekt i umożliwić użytkownikowi adaptację przy minimalnym nakładzie pracy.
 
 ### Wymowa
 
