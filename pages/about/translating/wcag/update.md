@@ -2,7 +2,7 @@
 title: How to update WCAG 2 translations
 nav_title: "Update WCAG 2 translations"
 lang: en
-last_updated: 2025-03-12
+last_updated: 2025-05-07
 description: Technical instructions on updating WCAG 2 translations
 
 permalink: /about/translating/wcag/update/
@@ -27,4 +27,6 @@ footer: |
 
 ## Updating WCAG 2.1 translations
 
-- [June 2018 to September 2023 version of WCAG 2.1](/about/translating/wcag/update/wcag21-20180605/)
+- [September 2023 to May 2025 version of WCAG 2.1](/about/translating/wcag/update/wcag21-20230921/) 
+
+- [June 2018 to May 2025 version of WCAG 2.1](/about/translating/wcag/update/wcag21-20180605/)
