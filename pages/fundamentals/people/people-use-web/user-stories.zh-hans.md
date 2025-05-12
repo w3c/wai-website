@@ -5,7 +5,7 @@
 title: "Web用户故事"
 nav_title: "User Stories"
 lang: zh-hans   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-03-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: 残疾人使用Web的人物模型，突出了无障碍壁垒的影响和无障碍数字技术的广泛益处。
 
 translations:
@@ -73,8 +73,8 @@ footer: >
 
 ## 相关WAI资源
 
-这些其他资源提供了有关特定环境或残疾领域用户需求的更详细信息。
+这些其他资源提供了有关特定环境或残疾领域用户需求的更详细信息：
 
 * [低视力者的无障碍要求 -- 用户需求](https://www.w3.org/TR/low-vision-needs/#user-needs)
 * [让有认知和学习障碍的人也能使用内容 -- 使用案例/人物模型](https://www.w3.org/TR/coga-usable/#persona)
-* [媒体无障碍用户要求](https//w3c.github.io/apa/media-accessibility-reqs/) - 包括按残疾类型划分的媒体要求摘要，以及支持媒体访问的辅助技术。
+* [数字无障碍用户要求](/research/user-requirements/) 可以查阅描述多媒体、虚拟或沉浸式环境 (XR)、实时通信 (RTC) 等方面用户需求的文件链接。
