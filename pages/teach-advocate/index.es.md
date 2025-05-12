@@ -2,11 +2,14 @@
 title: "Introducción a la formación y al apoyo"
 nav_title: "Introducción"
 lang: es
-last_updated: 2021-05-14
+last_updated: 2022-08-31  # Keep the date of the English version
+
+translation:
+  last_updated: 2025-04-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
-  link: "http://www.muncharaz.eu/"
+  link: "https://www.muncharaz.eu/"
 
 github:
   label: wai-teach-advocate
@@ -14,16 +17,13 @@ github:
 permalink: /teach-advocate/es
 ref: /teach-advocate/    # Do not change this
 
-changelog: /teach-advocate/changelog/
 feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
-# Do not change the dates or CHANGELOG
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 07 de mayo del 2021. CHANGELOG.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
@@ -51,8 +51,8 @@ Enlaces a recursos relacionados con la formación y el apoyo a la accesibilidad 
 
 ## Recursos formativos {#train}
 
-[[Cómo hacer presentaciones accesibles para todos]](/teach-advocate/accessible-presentations/)
-: Ayuda para hacer que las presentaciones, charlas, reuniones y formación sean accesibles para todos en su audiencia potencial, incluyendo a las personas con discapacidad y otros.
+[[Haciendo eventos accesibles: Verificaciones para reuniones, conferencias, cursos y presentaciones en remoto/virtual, en persona o híbrido]](/teach-advocate/accessible-presentations/)
+: Orientación destinada a ponentes, organizadores y participantes para hacer eventos inclusivos, particularmente para personas con discapacidad. Esto beneficia a todo el mundo, especialmente cuando la participación es internacional.
 
 [[Currículo en accesibilidad web: un marco para construir tus propios cursos]](/curricula/)
 : Proporciona planes de estudio para ayudarte a crear cursos de accesibilidad web destinados a diferentes perfiles. Define los resultados del aprendizaje y ofrece ideas para enseñar y evaluar el conocimiento.

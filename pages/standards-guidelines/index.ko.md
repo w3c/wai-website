@@ -3,10 +3,13 @@
 
 title: W3C 접근성 기준 개요  # Do not translate "title:". Do translate the text after "title:".
 nav_title: "표준/지침" # A short title that is used in the navigation
+lang: ko
+last_updated: 2021-04-31  # Keep the date of the English version
 
-lang: ko   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  status: outdated
+  last_updated: 2021-05-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators:
 - name: "Yong Ui Lee"   # Replace @@ with translator name
   link: "https://twitter.com/yongui9"
@@ -14,14 +17,15 @@ contributors:
 - name: "Jun Ho Lee"
 
 ref: /standards-guidelines/   # Do not change this
-changelog: /standards-guidelines/changelog/
 github:
   label: wai-standards-guidelines
 permalink: /standards-guidelines/ko   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>날짜:</strong> 2021년 4월 30일 업데이트됨. CHANGELOG.</p>
+# In the footer below:
+# Translate the words below, including "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>편집자:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>교육과 활동관련 실무 그룹인 (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)의 지원을 받아 제작되었습니다.</p>
 ---

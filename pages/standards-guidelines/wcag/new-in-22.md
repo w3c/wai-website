@@ -6,7 +6,7 @@ title: "What's New in WCAG 2.2"
 title_html: "What's New in WCAG 2.2"
 nav_title: "New in 2.2"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-05  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-10-05  # Keep the date of the English version
 
 description: This page lists the new success criteria in Web Content Accessibility Guidelines (WCAG) 2.2. It includes quotes from personas to help you understand some aspects of the success criteria.
 
@@ -34,7 +34,6 @@ image: /content-images/wcag/general-social.png
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 5 October 2023.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Mike Gower, Shadi Abou-Zahra,  <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>, and <a href="https://www.w3.org/groups/wg/ag/participants">AG WG Participants</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">AG WG</a>).</p>
 

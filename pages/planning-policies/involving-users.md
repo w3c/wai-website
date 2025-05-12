@@ -5,7 +5,8 @@
 title: "Involving Users in Web Projects for Better, Easier Accessibility"
 nav_title: "Involving Users for Better Accessibility"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2019-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2020-05-05   # Keep the date of the English version
+first_published: "9 December 2009"
 description: This page gets you started reaping the benefits of involving people with disabilities early and throughout different types of projects.
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -24,12 +25,12 @@ ref: /planning/involving-users/   # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not change CHANGELOG and the dates
+# Do not change the dates
 # Translate the other words below, including "Date:" and "Editors"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Main content updated 9 January 2019. Intro video added 28 April 2020. First published 9 December 2009. </p>
+  <p><strong>Date:</strong> Main content updated 5 January 2019. Intro video added 5 May 2020.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Andrew/">Andrew Arch</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>), with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf.html">WAI-AGE Task Force</a>. Developed as part of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> funded by the European Commission under the 6th Framework. Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements">Acknowledgments for video</a>.</p>
 ---

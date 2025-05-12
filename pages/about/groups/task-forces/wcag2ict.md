@@ -1,5 +1,5 @@
 ---
-title: WCAG2ICT Task Force of the AG WG
+title: WCAG2ICT Task Force
 permalink: /about/groups/task-forces/wcag2ict/
 ref: /about/groups/task-forces/wcag2ict/
 lang: en
@@ -11,9 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The WCAG2ICT Task Force is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/).
-
-Some information on this page is also shown on, and may be more current in, the [WCAG2ICT Task Force page](https://www.w3.org/groups/tf/wcag2ict/).
+Find out about the activities of the WCAG2ICT Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,66 +30,79 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Announcements
+## Objectives
 
-[WCAG2ICT W3C Group Note published](https://www.w3.org/TR/wcag2ict/)
+The objective of the WCAG2ICT Task Force is to develop documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
 
-## Meetings and Communication
+## Work statement
 
-The WCAG2ICT TF conducts its work using a variety of synchronous and asynchronous tools. Work is being done via teleconference, email and GitHub issues.
+To learn about the focus, scope and deliverables of the task force, see the [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/).
 
-- [Email lists](#mailing-lists);
-- [wcag2ict GitHub repository](https://github.com/w3c/wcag2ict/) and [GitHub draft document](https://w3c.github.io/wcag2ict/);
-- IRC discussion on the [#wcag2ict IRC channel](http://irc.w3.org/?channels=#wcag2ict), used largely for minute-taking. IF you use your own IRC client:
-  - Server: irc.w3.org;
-  - Port 6665, 6667, 21, or 994;
-  - Channel: #wcag2ict
-- [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/55145/);
-- [Teleconferences of the task force](https://www.w3.org/groups/tf/wcag2ict/calendar) (also see [meeting minutes](https://www.w3.org/WAI/GL/task-forces/wcag2ict/minutes));
-- Face to face meetings;
 
-These tools are used by participants of the Task Force. For ways you can contribute, see [How to Comment, Contribute, and Participate](#contribute).
+## Current work
 
-### Teleconferences
+The WCAG2ICT Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
-Weekly teleconferences are being held on Thursdays at 10:00 AM Eastern (Boston time).
+For details of the current work, see the [WCAG2ICT Task Force wiki](https://github.com/w3c/wcag2ict/wiki).
 
-- **[WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/calendar/)**: Thursdays at 10:00 until 11:00 Boston time
+## Contribute to the work
 
-### Meeting Minutes
+The WCAG2ICT Task Force welcomes input from the global accessibility community on the work to update accessibility guidelines to include non-web documents and software.
 
-[Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/wcag2ict/minutes) are available.
+### Contribute without joining the task force
 
-### Mailing Lists
+You can contribute to the work without being a member of the task force in the [WCAG2ICT GitHub repository](https://github.com/w3c/wcag2ict/issues):
+* If you’re aware of an issue with any of the published WCAG2ICT resources, raise a new issue.
+* Comment on or propose solutions for open WCAG2ICT issues.
 
-The WCAG2ICT TF uses the public-wcag2ict-tf@w3.org mailing list ([mailing list archives](http://lists.w3.org/Archives/Public/public-wcag2ict-tf/)) for email discussion. Participants are automatically added to this mailing list when they become a participant of the Task Force. Members of the public can post to this list to send input to the task force.
+### Become a participant in the task force
 
-## Current Work
+Joining the WCAG2ICT Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-[Editors' draft of Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://w3c.github.io/wcag2ict/)
+Being a participant involves commitment to support the work of the task force in the following ways:
+
+* Engage actively in the work using the task force’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
+
+To become a participant in the WCAG2ICT Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
+
+Once you are a member of the AG Working Group, email the [W3C Staff Contact for the WCAG2ICT Task Force](https://www.w3.org/groups/tf/wcag2ict/participants/#staff) to let them know you’d like to join the task force.
+
+**Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
+
+## Task force members
+
+* [Chairs](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/wcag2ict/participants/#participants)
+
+## Communications
+
+* [Calendar of meetings](https://www.w3.org/groups/tf/wcag2ict/calendar/)
+* [Minutes from previous meetings](/about/groups/task-forces/wcag2ict/minutes/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-wcag2ict-tf/)
 
 ## Publications
 
-- W3C Group Note [Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict/) &mdash; provides guidance on 2.0, 2.1, and 2.2 success criteria, and supersedes the previous Note
-- Previous W3C Group Note [Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-20/) &mdash; provides guidance on WCAG 2.0 success criteria
+The WCAG2ICT Task Force develops and maintains the following resources for the AG Working Group:
 
-## How to Comment, Contribute, and Participate {#contribute}
+* [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies &mdash; 2013 Working Group Note](https://www.w3.org/TR/wcag2ict-20/) &mdash; provides guidance on WCAG 2.0 success criteria
+* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies &mdash; 2024 Group Note](https://www.w3.org/TR/wcag2ict/) &mdash; provides guidance on 2.0, 2.1, and 2.2 success criteria, and supersedes the previous Note
+* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) &mdash; 2024 Editor’s Draft](https://www.w3.org/TR/maturity-model/) &mdash; provides informative (non-normative) guidance on how WCAG 2.x can be applied to non-web documents and software
 
-To join the WCAG2ICT TF, individuals must be participants of the Accessibility Guidelines Working Group. Participants are expected to [actively contribute](/about/groups/task-forces/wcag2ict/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the WCAG2ICT TF, email the task force leadership and working group chairs at [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the instructions on [How to join the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/). Once you have joined ask [Daniel Montalvo](mailto:dmontalvo@w3.org) to add you to the task force.
+## Contact the chairs
 
-[Current participants in the WCAG2ICT TF](https://www.w3.org/groups/tf/wcag2ict/participants).
+If you have a question for the WCAG2ICT Task Force, email the [chairs](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag2ict/participants/#staff).
 
-## Administrative Information
 
-The WCAG2ICT TF is a Task Force of the [Accessible Guidelines Working Group (AG WG)](/about/groups/agwg/).
 
-### Facilitator and Contacts
 
-- **Facilitator:** Mary Jo Mueller (IBM)
-- **Staff Contact:**[Daniel Montalvo](https://www.w3.org/People/#dmontalvo)
 
-Contact the task force leadership and working group chairs via email at [group-ag-chairs@w3.org](mailto:group-ag-chairs@w3.org)
 
-### Work Statement
 
-The [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/) defines the objectives, scope, approach, and participation of the Task Force. The work statement has been approved by the Accessibility Guidelines WG.
+
+
+
+
+
+

@@ -7,7 +7,7 @@ github:
   label: wai-groups
 doc-note-type: archived
 doc-note-message-md: |
-  The Education and Outreach Working Group (EOWG) was closed in September 2024.
+  The Education and Outreach Working Group (EOWG) was closed in 2024.
 
   More information in [19 September 2024 blog post](https://www.w3.org/blog/2024/accessibility-education-and-outreach-another-milestone-in-w3cs-30-year-history-and-evolution/).
 ---

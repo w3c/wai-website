@@ -5,7 +5,8 @@
 title: "The WCAG 2 Documents"
 nav_title: "The Documents"
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-03-14 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-14 # Keep the date of the English version
+first_published: "July 2005"
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -24,12 +25,11 @@ image: /content-images/wcag/general-social.jpg
 description:  Describes Web Content Accessibility Guidelines (WCAG) 2 supporting documents and supplemental guidance.
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>Date:</strong> Updated 14 March 2024. First published July 2005.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: <a href="https://www.w3.org/People/hidde/">Hidde de Vries</a> and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
    <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 

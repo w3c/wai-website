@@ -1,5 +1,5 @@
 ---
-title: Research Questions Task Force (RQTF) of the APA WG
+title: Research Questions Task Force
 permalink: /about/groups/task-forces/research-questions/
 ref: /about/groups/task-forces/research-questions/
 lang: en
@@ -11,9 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Research Questions Task Force (RQTF) is a task force of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
-
-Some information on this page is also shown on, and may be more current in, the [Research Questions Task Force page](https://www.w3.org/groups/tf/rqtf/).
+Find out about the activities of the Research Questions (RQ) Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -31,64 +29,60 @@ Some information on this page is also shown on, and may be more current in, the 
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
-## Announcements
 
-No announcements at the moment.
+## Objectives
 
-## Meetings and Communication
+The objectives of the RQ Task Force are to identify accessibility barriers and knowledge gaps in emerging and future web technologies; publish the research findings on those barriers and gaps; and support W3C’s horizontal reviews of web technologies as they mature and are normatively specified.
 
-The APA WG conducts its work using a variety of synchronous and asynchronous tools. The [communication](/about/groups/apawg/communication/) page provides details about:
+## Work statement
 
-- Teleconferences of the Working Group and its task forces (also see [meeting minutes](https://www.w3.org/WAI/APA/task-forces/research-questions/minutes));
-- [Email lists](#email);
-- IRC discussion on the [#rqtf](irc://irc.w3.org/rqtf) IRCchannel, used largely for minute-taking;
-- [RQTF source repository](https://github.com/w3c/rqtf/);
-- [Wiki](https://www.w3.org/WAI/APA/task-forces/research-questions/wiki/);
-- [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/91497/);
-- [RQTF source repository issue tracker](https://github.com/w3c/rqtf/issues).
+To learn about the focus, scope and deliverables of the task force, see the [RQ Task Force Work Statement](/about/groups/task-forces/research-questions/work-statement/).
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/apawg/contribute/).
+## Current work
 
-### Teleconferences
+The RQ Task Force supports the deliverables of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/).
 
-- **[Research Questions Task Force](https://www.w3.org/2017/08/telecon-info_rqtf)**: Wednesdays at 9:00 until 10:00 Boston time
-- **[RQTF Plan](https://www.w3.org/2017/08/telecon-info_rqtf-plan)**: Mondays at 9:00 until 10:00 Boston time
+For details of the current work, see the [RQ Task Force wiki](https://www.w3.org/WAI/APA/task-forces/research-questions/wiki/Main_Page).
 
-### Meeting Minutes
+## Contribute to the work
 
-[Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/research-questions/minutes) are available.
+The RQ Task Force welcomes input from the global accessibility community on the emerging and future web technologies research work.
 
-### Mailing Lists
+### Contribute without joining the task force
 
-The RQTF uses the public-rqtf@w3.org mailing list ([mailing list archives](https://lists.w3.org/Archives/Public/public-rqtf/)) for email discussion. Participants are automatically added to the mailing list when they become a participant of the Task Force.
+You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues in the [Research Questions GitHub repository](https://github.com/w3c/rqtf/issues).
 
-## Current Work
+### Become a participant in the task force
 
-Current Task Force work is being maintained in the [Work Plan](https://www.w3.org/WAI/APA/task-forces/research-questions/wiki/Work_Plan).
+Joining the RQ Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-[See the wiki for current planning and draft documents](https://www.w3.org/WAI/APA/task-forces/research-questions/wiki/).
+Being a participant involves commitment to support the work of the task force in the following ways:
+
+* Engage actively in the work using the task force’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
+
+To become a participant in the RQ Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
+
+Once you are a member of the APA Working Group, email the [W3C staff contact for the Research Questions Task Force](https://www.w3.org/groups/tf/rqtf/participants/#staff) to let them know you’d like to join the task force.
+
+**Note:** As a participant in one of the APA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
+
+## Task force members
+
+* [Chairs](https://www.w3.org/groups/tf/rqtf/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/rqtf/participants/#participants)
+
+## Communications
+
+* [Calendar of meetings](https://www.w3.org/groups/tf/rqtf/calendar/)
+* [Minutes from previous meetings](/about/groups/task-forces/research-questions/minutes/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-rqtf/)
 
 ## Publications
 
-When the Task Force develops publications, they will be listed here. See also the [RQTF GitHub repository](https://github.com/w3c/rqtf).
+When the RQ Task Force develops publications, they will be listed here.
 
-## How to Comment, Contribute, and Participate
+## Contact the chairs
 
-To join the RQTF, individuals must be participants of the APA WG. Participants are expected to [actively contribute](/about/groups/task-forces/research-questions/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the RQTF, please send e-mail to: [Janina Sajka, Jason White](mailto:janina@rednote.net,jjwhite@ets.org?subject=Research%20Questions%20Task%20Force%20Enquiry) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [APA Working Group participation](/about/groups/apawg/participate/) procedures to join the Working Group, and once you have joined ask [Ruoxi(Roy) Ran](mailto:ran@w3.org) to add you to the task force.
-
-To contribute without joining the task force, see the [APA Working Group contribute page](/about/groups/apawg/contribute/) for general instructions. To contribute to documents under development, see [how to contribute to the source repository directly](https://github.com/w3c/rqtf/).
-
-[Current participants in the RQTF](https://www.w3.org/groups/tf/rqtf/participants).
-
-## Administrative Information
-
-The Research Questions Accessibility Task Force (RQTF) is a Task Force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/). It assists these Working Groups to produce techniques, understanding, and guidance documents, as well as updates to existing related W3C material that addresses the cognitive space.
-
-### Facilitator and Contacts
-
-- **Task Force facilitator:** [Jason White](mailto:jason@jasonjgw.net), [Scott Hollier](mailto:scott.hollier@accessibility.org.au)
-- **Staff Contact:** [Ruoxi Ran](mailto:ran@w3.org)
-
-### Work Statement
-
-The [Research Questions Accessibility Task Force Work Statement](/about/groups/task-forces/research-questions/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.
+If you have a question for the RQ Task Force, email the [chairs](https://www.w3.org/groups/tf/rqtf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/rqtf/participants/#staff).

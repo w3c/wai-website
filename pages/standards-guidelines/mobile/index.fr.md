@@ -5,7 +5,11 @@
 title: "L'accessibilité mobile chez W3C"
 nav_title: "Accessibilité mobile chez W3C"
 lang: fr
-last_updated: 2024-05-13
+last_updated: 2024-05-13  # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2024-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Alexander Akel"
@@ -22,12 +26,11 @@ changelog: /standards-guidelines/mobile/changelog/  # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 13 mai 2024. Première publication : janvier 2008. CHANGELOG.</p>
+  <p><strong>Date :</strong> Mise à jour : 13 mai 2024. Première publication : janvier 2008.</p>
   <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributeur : <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>.</p>
 ---
 
