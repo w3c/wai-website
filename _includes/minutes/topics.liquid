@@ -12,6 +12,8 @@ Inputs:
 </p>
 
 {%- if site.data.minutes[include.group] -%}
+  {% include_cached minutes/more-recent.liquid group=include.group %}
+
   {%- assign current_year = 0 -%}
   {% for minutes in site.data.minutes[include.group] %}
     {%- capture date %}{{ minutes[0] | truncate: 10, "" }}{% endcapture -%}
