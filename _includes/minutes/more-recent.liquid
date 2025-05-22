@@ -7,7 +7,7 @@ Expected input:
 {% endcomment -%}
 
 <p>
-  This page was last updated on {{ site.time | date: "%e %B %Y at %I:%M %p %Z" }}.
+  This page was last updated on {{ site.time | date: "%e %B %Y" }}.
   For more recent meetings, see an alternative view of
   {% include_cached minutes/services-link.liquid group=include.group %}.
 </p>
