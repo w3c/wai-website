@@ -130,6 +130,13 @@ A few things have changed, and we intend the updates in the related documents to
 
 WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not deprecate or supersede WCAG 2.1, and WCAG 2.1 does not deprecate or supersede WCAG 2.0. W3C encourages you to use the most recent version of WCAG.
 
+## Machine readable versions
+
+We maintain JSON versions of WCAG 2.1 and 2.2. The files include content and links for principles, guidelines, success criteria, techniques, and glossary terms in a hierarchical structure. These are updated monthly to ensure they align with the latest published version of the recommendation and related supporting materials.
+
+* [WCAG 2.1 JSON](https://www.w3.org/WAI/WCAG21/wcag.json)
+* [WCAG 2.2 JSON](https://www.w3.org/WAI/WCAG22/wcag.json)
+
 ## Translations
 
 Authorized Translations and unofficial translations of WCAG 2 are listed in [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/).
