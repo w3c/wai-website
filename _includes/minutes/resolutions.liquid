@@ -12,6 +12,11 @@ Inputs:
 </p>
 
 {%- if site.data.minutes[include.group] -%}
+  <p>
+    For details of the most recent work, see an alternative view of
+    {% include_cached minutes/services-link.liquid group=include.group %}.
+  </p>
+
   {%- assign current_year = 0 -%}
   {% for minutes in site.data.minutes[include.group] %}
     {%- unless minutes[1].resolutions.size %}{% continue %}{% endunless -%}
