@@ -12,10 +12,7 @@ Inputs:
 </p>
 
 {%- if site.data.minutes[include.group] -%}
-  <p>
-    For details of the most recent work, see an alternative view of
-    {% include_cached minutes/services-link.liquid group=include.group %}.
-  </p>
+  {% include_cached minutes/more-recent.liquid group=include.group %}
 
   {%- assign current_year = 0 -%}
   {% for minutes in site.data.minutes[include.group] %}
