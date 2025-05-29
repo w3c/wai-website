@@ -36,7 +36,7 @@ The objectives of the Mobile A11y Task Force are to produce resources for how to
 
 ## Work statement
 
-The Mobile A11y Task Force has regrouped in 2024 and a new Work Statement will be published soon.
+To learn about the focus, scope and deliverables of the task force, see the [Mobile Accessibility Task Force Work Statement](/about/groups/task-forces/matf/work-statement/).
 
 ## Current work
 
