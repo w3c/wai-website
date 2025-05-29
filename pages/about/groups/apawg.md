@@ -77,7 +77,7 @@ Being a participant involves commitment to support the work of the group in the 
 
 See [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
 
-## Group members and task forces
+## Group participants and task forces
 
 * [Chairs](https://www.w3.org/groups/wg/apa/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/wg/apa/participants/#participants)

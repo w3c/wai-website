@@ -77,7 +77,7 @@ Once you are a member of either the AG or APA working groups, email the [W3C sta
 
 **Note:** As a participant in one of the AG or APA working groups’ task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#participants)

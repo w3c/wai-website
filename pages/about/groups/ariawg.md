@@ -107,7 +107,7 @@ Being a participant involves commitment to support the work of the group in the 
 
 See [Instructions for joining the Accessible Rich Internet Applications Working Group](https://www.w3.org/groups/wg/aria/instructions/).
 
-## Group members and task forces
+## Group participants and task forces
 
 * [Chairs](https://www.w3.org/groups/wg/aria/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/wg/aria/participants/#participants)

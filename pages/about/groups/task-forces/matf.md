@@ -77,7 +77,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 **Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#participants)

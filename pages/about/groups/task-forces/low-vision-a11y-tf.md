@@ -64,7 +64,7 @@ If you’re aware of an issue with any of the published low vision accessibility
 
 Details of how to join the LV Task Force will be published here when it is reactivated.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#participants)

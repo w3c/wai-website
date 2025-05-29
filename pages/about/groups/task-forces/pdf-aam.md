@@ -71,7 +71,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 **Note:** As a participant in one of the ARIA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/pdf-aam/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/pdf-aam/participants/#participants)
