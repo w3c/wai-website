@@ -7,7 +7,7 @@ parent: /news/
 permalink: /news/subscribe/
 ---
 
-## WAI Announcements Mailing List
+## WAI announcements mailing list
 
 To receive updates about WAI publications, draft documents for review and other accessibility-related news, subscribe to the [WAI Announcements Mailing List](https://lists.w3.org/Archives/Public/public-wai-announce/):
 
