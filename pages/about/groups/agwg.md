@@ -39,7 +39,7 @@ Find out about the activities of the Accessibility Guidelines (AG) Working Group
 
 The mission of the AG Working Group is to develop and maintain specifications for making web content accessible to people with disabilities, along with support materials for implementing the Web Content Accessibility Guidelines (WCAG).
 
-To learn about the group’s focus, scope and deliverables, see the [AG Working Group Charter](https://www.w3.org/groups/wg/ag/charters/).
+To learn about the group’s focus, scope and deliverables, see the [AG Working Group Charter](https://www.w3.org/2023/11/ag-charter).
 
 ## Current work 
 
