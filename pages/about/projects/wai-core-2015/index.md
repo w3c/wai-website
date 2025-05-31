@@ -68,5 +68,5 @@ The following staff are fully or partially supported by WAI-Core funds:
 *   [Shawn Lawton Henry](http://www.w3.org/People/Shawn/), W3C, MIT
 *   [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro), W3C, MIT
 *   [Lalana Kagal](https://www.csail.mit.edu/person/lalana-kagal), MIT
-*   Judy Brewer, W3C, MIT (through December 2022)
 *   Michael Cooper, W3C, MIT (through July 2023)
+*   Judy Brewer, W3C, MIT (through December 2022)
