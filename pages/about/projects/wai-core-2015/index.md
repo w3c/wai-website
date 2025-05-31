@@ -1,6 +1,6 @@
 ---
-title: "WAI-Core Project"
-nav_title: "WAI-Core 2015, 2020"
+title: "WAI-Core Project, US"
+nav_title: ""WAI-Core Project, US"
 lang: en
 
 permalink: /about/projects/wai-core-2015/
@@ -15,7 +15,7 @@ github:
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}
 {:/}
 
-This page provides information on the Web Accessibility Initiative - Core **(WAI-Core) Project** sponsored by the National Institute on Disability, Independent Living, and Rehabilitation Research ([NIDILLR](http://www.acl.gov/programs/NIDILRR/)), US Department of Health and Human Services ([HHS](http://www.hhs.gov/)).
+This page provides information on the Web Accessibility Initiative - Core **(WAI-Core) Project** funded by the US Department of Health and Human Services ([HHS](http://www.hhs.gov/)).
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -34,7 +34,7 @@ This page provides information on the Web Accessibility Initiative - Core **(WAI
 
 ## About WAI-Core
 
-The WAI-Core Project, funded by NIDILRR at the US HHS, provides support for accessibility work at W3C WAI to:
+The WAI-Core Project, funded by US HHS, provides support for accessibility work at W3C WAI to:
 
 Task 1:
 
@@ -51,11 +51,11 @@ Task 3:
 
 ## How to Participate
 
-WAI-Core work is developed through [W3C/WAI Working Groups](http://www.w3.org/WAI/groups). Working Groups that are currently relevant to WAI-Core work, and links to information on participation, include:
+WAI-Core work is developed through [W3C WAI Working Groups](http://www.w3.org/WAI/groups). Working Groups that are currently relevant to WAI-Core work, and links to information on participation, include:
 
 *   [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/) ([participation in APA WG](/about/groups/apawg/participate/)), for review of accessibility in W3C specifications
 *   [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/) ([participation in ARIA WG](/about/groups/ariawg/participate/)), for development of accessibility specifications as needed, such as ARIA, and Accessibility Application Programming Interface Mappings
-*   [Accessibility Guidelines (WCAG) Working Group](/about/groups/agwg/) ([participation in AG WG](/about/groups/agwg/participate/)), for development of accessibility guidelines
+*   [Accessibility Guidelines Working Group](/about/groups/agwg/) ([participation in AG WG](/about/groups/agwg/participate/)), for development of accessibility guidelines, including Web Content Accessibility Guidelines (WCAG)
 
 In addition to participation opportunities, everyone is welcome to review drafts. Draft in progress are highlighted on the [WAI home page](http://www.w3.org/WAI/). To get notifications of drafts for review, see [Getting WAI Announcements](http://www.w3.org/WAI/about/announcements) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails.
 
@@ -67,6 +67,6 @@ The following staff are fully or partially supported by WAI-Core funds:
 
 *   [Shawn Lawton Henry](http://www.w3.org/People/Shawn/), W3C, MIT
 *   [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro), W3C, MIT
-*   Lalana Kagal, MIT
+*   [Lalana Kagal](https://www.csail.mit.edu/person/lalana-kagal), MIT
 *   Judy Brewer, W3C, MIT (through December 2022)
 *   Michael Cooper, W3C, MIT (through July 2023)
