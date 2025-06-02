@@ -3,6 +3,7 @@ title: "Using WAI Material: Permission to Use with Attribution"
 title_html: "Using WAI Material:<br>Permission to Use with Attribution"
 nav_title: Using WAI Material
 lang: en
+last_updated: 2024-07-17
 
 permalink: /about/using-wai-material/
 ref: /about/using-wai-material/
@@ -11,7 +12,6 @@ github:
   label: wai-about
 
 footer: >
-  <p><strong>Date:</strong> Updated 17 July 2024.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with <a href="https://www.w3.org/staff/wai/">WAI staff</a> and <a href="https://www.w3.org/staff/comm/">W3C Communications staff</a>.</p>
 ---
@@ -21,8 +21,8 @@ footer: >
 {:/}
 
 You can generally use WAI material for free, with two conditions:
-1.  Clearly attribute the original source and include a link to it, as specified below, and
-2.  Not modify the content (with few exceptions noted below).
+1.  Clearly attribute the original source and include a link to it, as specified below.
+2.  Do not modify the content (with a few exceptions, noted below).
 
 <p>Resources on the WAI website are <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> <a href="https://www.w3.org/">World Wide Web Consortium</a>. <abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup> <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and <a href="https://www.w3.org/Consortium/Legal/copyright-documents">document use</a> rules apply to all pages, unless otherwise noted as Creative Commons license.</p>
 

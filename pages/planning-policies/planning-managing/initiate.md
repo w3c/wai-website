@@ -4,7 +4,8 @@
 title: "Initiate"
 nav_title: "Initiate"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2016-03-31  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2016-03-31  # Keep the date of the English version
+first_published: "October 2002"
 title_icon: /content-images/planning-managing/icons.svg#initiate
 order: 1
 
@@ -25,6 +26,7 @@ ref: /planning-and-managing/initiate/  # Do not change this
 resource:
   ref: /planning-and-managing/
 
+changelog: /planning-and-managing/changelog/ # Do not change this
 acknowledgements: /planning-and-managing/acknowledgements/ # Do not change this
 
 # In the footer below:
@@ -32,7 +34,6 @@ acknowledgements: /planning-and-managing/acknowledgements/ # Do not change this
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 31 March 2016. First published October 2002.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS includes information on previous versions and editors.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Updated with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV Project</a> and the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 ---

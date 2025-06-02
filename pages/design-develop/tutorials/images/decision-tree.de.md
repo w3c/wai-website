@@ -2,7 +2,10 @@
 title: "Ein alt-Entscheidungsbaum"
 title_html: "Ein <code>alt</code>-Entscheidungsbaum"
 lang: de
-last_updated: 2024-04-08
+last_updated: 2024-01-15  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-08  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Alexej Rotar"
@@ -22,6 +25,8 @@ navigation:
 
 permalink: /tutorials/images/decision-tree/de
 ref: /tutorials/images/decision-tree/
+
+changelog: /tutorials/changelog/
 
 metafooter: true
 editors:

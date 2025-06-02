@@ -1,8 +1,11 @@
 ---
 title: "Impliquer les utilisateurs dans l’évaluation de l’accessibilité Web"
 lang: fr
-last_updated: 2024-04-30
+last_updated: 2024-04-30    # Keep the date of the English version
 description: Introduit des considérations pour les tests d’utilisabilité et autres évaluations avec des personnes handicapées ("utilisateurs en situation de handicap").
+
+translation:
+    last_updated: 2024-04-30    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
     - name: "Rémi Bétin"

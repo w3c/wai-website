@@ -5,7 +5,10 @@
 title: "Introducción al diseño y al desarrollo"
 nav_title: "Introducción"
 lang: es
-last_updated: 2019-09-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-05-19  # Keep the date of the English version
+
+translation:
+  last_updated: 2025-04-13  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -22,11 +25,9 @@ feedbackmail: wai@w3.org
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 20 de septiembre del 2019.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
@@ -88,8 +89,11 @@ Los tutoriales proporcionan orientación para crear componentes que cumplen con 
 [Cómo seguir las pautas WCAG 2 (Guía rápida)](https://www.w3.org/WAI/WCAG22/quickref/)
 : Guía personalizable y de referencia a las Pautas de Accesibilidad para el Contenido Web (WCAG), sus requisitos (criterios de conformidad) y técnicas.
 
-[Prácticas para el autor de WAI-ARIA](https://www.w3.org/TR/wai-aria-practices/)
+[Guía de prácticas de autoría WAI-ARIA (APG)](/ARIA/apg/)
 : Proporciona aproximaciones, consejos y ejemplos para ayudar a los desarrolladores de aplicaciones web a hacer widgets, navegación y comportamientos accesibles a través de los roles, estados y propiedades de WAI-ARIA (Accessible Rich Internet Applications).
+
+[Orientación para la accesibilidad cognitiva](/WCAG2/supplemental/#cognitiveaccessibilityguidance)
+: Proporciona objetivos y patrones de diseño destinados a mejorar la accesibilidad para las personas con discapacidades cognitivas y del aprendizaje. Presentado en el documento [sobre las orientaciones suplementarias](/WCAG2/supplemental/about/).
 
 [Desarrollando sitios web para personas mayores: cómo se aplica WCAG](/older-users/developing/)
 : Enumera casos de éxito y técnicas WCAG específicos que mejoran la accesibilidad y la usabilidad para las personas mayores particularmente.

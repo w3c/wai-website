@@ -5,7 +5,8 @@
 title: "Authoring Tool Accessibility Guidelines (ATAG) Overview"
 nav_title: "ATAG Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2023-12-07   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-07   # Keep the date of the English version
+first_published: "July 2005"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -27,7 +28,6 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
-  <p><strong>Date:</strong> Updated 7 December 2023. First published July 2005.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) and the Authoring Tool Accessibility Working Group (<a href="https://www.w3.org/WAI/AU/">AUWG</a>).</p>
 ---
