@@ -2,7 +2,7 @@
 title: "What We're Working On"
 title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, June 2025</span>"
 lang: en
-last_updated: 2025-04-30
+last_updated: 2025-06-02
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -196,7 +196,7 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
-* March 2025
+* 2 June 2025
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 30 April 2025
   * Updated the [How to Get Involved](/update/#participate) section with specific needs
