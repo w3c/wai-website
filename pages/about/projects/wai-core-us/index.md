@@ -3,8 +3,11 @@ title: "WAI-Core Project, US"
 nav_title: "WAI-Core Project, US"
 lang: en
 
-permalink: /about/projects/wai-core-2015/
-ref: /about/projects/wai-core-2015/
+permalink: /about/projects/wai-core-us/
+ref: /about/projects/wai-core-us/
+
+redirect_from:
+  - /about/projects/wai-core-2015/
 
 feedbackmail: wai@w3.org
 github:
