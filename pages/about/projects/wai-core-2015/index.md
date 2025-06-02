@@ -1,6 +1,6 @@
 ---
 title: "WAI-Core Project, US"
-nav_title: ""WAI-Core Project, US"
+nav_title: "WAI-Core Project, US"
 lang: en
 
 permalink: /about/projects/wai-core-2015/
