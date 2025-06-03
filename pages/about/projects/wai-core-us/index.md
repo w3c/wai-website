@@ -66,7 +66,7 @@ For more information on the WAI-Core US Project and other WAI work, see [Getting
 
 ## Project Staff
 
-The following staff are fully or partially supported by WAI-Core funds:
+The following staff are partially supported by WAI-Core US funds:
 
 *   [Shawn Lawton Henry](http://www.w3.org/People/Shawn/), W3C, MIT
 *   [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro), W3C, MIT
