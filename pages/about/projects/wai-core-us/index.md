@@ -1,6 +1,6 @@
 ---
-title: "WAI-Core Project, US"
-nav_title: "WAI-Core Project, US"
+title: "WAI-Core US Project"
+nav_title: "WAI-Core US Project"
 lang: en
 
 permalink: /about/projects/wai-core-us/
@@ -37,7 +37,7 @@ This page provides information on the Web Accessibility Initiative - Core **(WAI
 
 ## About WAI-Core
 
-The WAI-Core Project, funded by US HHS, provides support for accessibility work at W3C WAI to:
+The WAI-Core US Project, funded by US HHS, provides support for accessibility work at W3C WAI to:
 
 Task 1:
 
@@ -62,7 +62,7 @@ WAI-Core work is developed through [W3C WAI Working Groups](http://www.w3.org/WA
 
 In addition to participation opportunities, everyone is welcome to review drafts. Draft in progress are highlighted on the [WAI home page](http://www.w3.org/WAI/). To get notifications of drafts for review, see [Getting WAI Announcements](http://www.w3.org/WAI/about/announcements) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails.
 
-For more information on the WAI-Core Project and other WAI work, see [Getting Involved with WAI](http://www.w3.org/WAI/about-links.html) and [Participating in WAI](http://www.w3.org/WAI/participation). If you have any questions, contact [Shawn Lawton Henry](http://www.w3.org/People/Shawn/).
+For more information on the WAI-Core US Project and other WAI work, see [Getting Involved with WAI](http://www.w3.org/WAI/about-links.html) and [Participating in WAI](http://www.w3.org/WAI/participation). If you have any questions, contact [Shawn Lawton Henry](http://www.w3.org/People/Shawn/).
 
 ## Project Staff
 
