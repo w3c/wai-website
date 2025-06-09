@@ -5,12 +5,12 @@
 title: "Sumario de WCAG 2"
 nav_title: "Contenido Web – WCAG 2"
 lang: es
-last_updated: 2024-12-12  # Keep the date of the English version
+last_updated: 2025-05-06  # Keep the date of the English version
 first_published: "Julio del 2005"
 description: Introduce el estándar internacional de las Pautas de Accesibilidad para el Contenido Web (WCAG), lo cual incluye WCAG 2.0, WCAG 2.1 y WCAG 2.2. Los documentos de las WCAG explican cómo hacer contenido web más accesible para las personas con discapacidad.
 
 translation:
-  last_updated: 2025-04-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2025-06-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -114,7 +114,7 @@ Los siguientes recursos ayudan a comprender e implementar las WCAG, así como me
 Los estándares de las Pautas de Accesibilidad para el Contenido Web (WCAG) sirven de referencia cuando son publicados como una "Recomendación del W3C", que es un estándar web.
 
 * [WCAG 2.0](https://www.w3.org/TR/WCAG20/) se publicó el 11 de diciembre del 2008.
-* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) se publicó el 5 de junio del 2018 y se actualizó el 21 de septiembre del 2023 y el 12 de diciembre del 2024.
+* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) se publicó el 5 de junio del 2018 y se actualizó el 21 de septiembre del 2023, el 12 de diciembre del 2024 y el 6 de mayo del 2025.
 * [WCAG 2.2](https://www.w3.org/TR/WCAG22/) se publicó el 5 de octubre del 2023 y se actualizó el 12 de diciembre del 2024.
 
 Para leer más información sobre las actualizaciones, consulte las [preguntas frecuentes sobre WCAG 2](/standards-guidelines/wcag/faq/).
