@@ -18,7 +18,7 @@ github:
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}
 {:/}
 
-This page provides information on the Web Accessibility Initiative - Core **(WAI-Core) Project** funded by the US Department of Health and Human Services ([HHS](https://www.hhs.gov/)).
+This page provides information on the Web Accessibility Initiative - Core **(WAI-Core) Project** funded by the United States (US) Department of Health and Human Services ([HHS](https://www.hhs.gov/)).
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -37,34 +37,35 @@ This page provides information on the Web Accessibility Initiative - Core **(WAI
 
 ## About WAI-Core
 
-The WAI-Core US Project, funded by US HHS, provides support for accessibility work at W3C WAI to:
+The WAI-Core US Project, funded by HHS, supports accessibility work at W3C. WAI-Core-funded staff lead the Web Accessibility Initiative (WAI) program and technical architecture for developing open, royalty-free standards and supporting resources through the W3C Process.
 
-Task 1:
+WAI-Core US Project staff lead work to:
 
-*   Provide staff support and technical expertise within a Working Group of Web accessibility experts representing different stakeholder groups, including via recruitment of public comments on draft technical reports from other W3C Working Groups, W3C Interest Groups and W3C Community Groups, and as needed to develop technical specifications that support accessibility, such as WAI-ARIA and Accessibility Application Programming Interface (API) mappings;
-*   Update documentation as needed of accessibility experts’ guidance on accessibility requirements, specification design considerations, and known gaps, drawing on experience gained from reviewing resolutions to accessibility barriers in a wide range of Web technologies, to serve as a general introduction to accessibility self-review by other W3C working groups and to facilitate the scaling of accessibility expertise to a larger number of W3C specification reviews (currently Web Technology Accessibility Guidelines (WTAG)).
+* Develop standards, guidance, and supporting materials for accessibility of web sites, mobile apps, software, browsers, development tools, and other digital technology/information and communications technology (ICT)
+* Review all W3C standards to ensure they support accessibility
+* Develop technical specifications (such as WAI-ARIA) to fill gaps
+* Document accessibility user requirements in emerging technologies and essential tools such as online meeting and collaboration tools, virtual or immersive environments (XR), and AI
 
-Task 2:
 
-*   Maintain one or more multi-stakeholder Working Groups of Web accessibility experts to develop updated guidance and technical support materials on Web content and applications, authoring tools, browsers, mobile applications, and other Web-enabled applications, devices and services; This may be in stand-alone, combined or modular format, including extensions of previous guidelines, or as updated combinations of previous guidelines. It may include accessibility guidance and technical support materials for technologies relating to industries newly converging with the Web, for example mobile, digital publishing, Web of things, TV and Web, education, health care, or other areas; and may include extensive guidance and/or techniques for areas such as cognitive and learning disability, low-vision accessibility, and/or voice input accessibility.
-
-Task 3:
-
-*   Review, provide analysis of, and comment on understandability, readability of and usability of accessibility standards and implementation reference materials; develop non-technical introductions to accessibility guidelines and standards, and overviews of accessibility user requirements for people with disabilities; provide education and outreach activities to support acceptance of Web accessibility guidance; comment on draft standards, regulations, and/or policies where necessary to promote acceptance of Web accessibility solutions.
 
 ## How to Participate
 
-WAI-Core US work is developed through or in coordination with the:
+We welcome contributions to the work under WAI-Core US.
 
-*   [[Accessible Platform Architectures Working Group]](/about/groups/apawg/), for review of accessibility in W3C specifications
-*   [[ARIA Working Group]](/about/groups/ariawg/), for development of accessibility specifications as needed, such as ARIA, and Accessibility Application Programming Interface Mappings
-*   [[Accessibility Guidelines Working Group]](/about/groups/agwg/), for development of accessibility guidelines, including Web Content Accessibility Guidelines (WCAG)
+Anyone can review and comment on drafts in development. To get notifications of drafts for review, you can subscribe to [Get WAI News](https://www.w3.org/WAI/news/subscribe/) via email, RSS feed, LinkedIn, and other social media.
 
-See also [[Participating in WAI]](/about/participating/). If you have any questions, contact [Shawn Lawton Henry](https://www.w3.org/People/Shawn/).
+If you want to be more involved in developing the work, you may be interested in participating in a WAI Working Group.
+*   [[Accessibility Guidelines Working Group]](/about/groups/agwg/) develops accessibility guidelines, including Web Content Accessibility Guidelines (WCAG).
+*   [[Accessible Platform Architectures (APA) Working Group]](/about/groups/apawg/) reviews W3C charters, standards, and specifications for accessibility support; develops specifications to fill gaps; documents accessibility user requirements; and develops technical support material — including  through a research task force working on accessibility and AI.
+*   [[ARIA Working Group]](/about/groups/ariawg/) develops technical specifications to support accessibility, including WAI- ARIA and application programming interface (API) mappings.
+
+General information is available in [[Participating in WAI]](/about/participating/).
+
+If you have any questions, contact [Shawn Lawton Henry](https://www.w3.org/People/Shawn/).
 
 ## Project Staff
 
-The following staff are partially supported by WAI-Core US funds:
+The following staff are primarily or partially supported by WAI-Core US funds:
 
 *   [Shawn Lawton Henry](https://www.w3.org/People/Shawn/), W3C, MIT
 *   [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro), W3C, MIT
