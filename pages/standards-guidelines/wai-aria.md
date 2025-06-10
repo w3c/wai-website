@@ -4,7 +4,7 @@
 
 title: WAI-ARIA Overview
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-01-23  # Keep the date of the English version
+last_updated: 2025-06-12  # Keep the date of the English version
 first_published: "December 2006"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
