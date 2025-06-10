@@ -39,8 +39,8 @@ footer: |
 This page introduces the WAI-ARIA (Accessible Rich Internet Applications) suite of web standards.
 
 Quick links to resources:
-* [WAI-ARIA standard](/TR/wai-aria/)
-* [WAI-ARIA Authoring Practices Guide (APG)](/WAI/ARIA/apg)
+* [WAI-ARIA standard](https://www.w3.org/TR/wai-aria/)
+* [WAI-ARIA Authoring Practices Guide (APG)](/ARIA/apg/)
 <!-- * [FAQ](/WAI/ARIA/faq) - including [What is the current status of WAI-ARIA development?](/WAI/ARIA/faq#update) -->
 
 {::nomarkdown}
@@ -84,15 +84,15 @@ WAI-ARIA provides Web authors with the following semantics that make web content
 
 ## Authoring Practices Guide (APG)
 
-**[ARIA Authoring Practices Guide (APG)](/WAI/ARIA/apg)**, recommends approaches to help web application developers make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
+**[ARIA Authoring Practices Guide (APG)](/ARIA/apg/)**, recommends approaches to help web application developers make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
 
 It describes considerations that might not be evident to most authors from the WAI-ARIA specification, which is oriented primarily at user agent implementers.
 
 ## Versions {#versions}
 
-[WAI-ARIA 1.2](/TR/wai-aria-1.2/) was published as a completed W3C  Recommendation on 6 June 2023.
+[WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) was published as a completed W3C  Recommendation on 6 June 2023.
 
-[WAI-ARIA 1.3 Draft](/TR/wai-aria-1.3/) is under development. Proposed changes from ARIA 1.2 include:
+[WAI-ARIA 1.3 Draft](https://www.w3.org/TR/wai-aria-1.3/) is under development. Proposed changes from ARIA 1.2 include:
 * new roles: suggestion, comment, mark
 * new attributes: aria-description, aria-braillelabel, aria-brailleroledescription
 * updates to aria-details to allow multiple IDrefs
@@ -105,11 +105,11 @@ The 1.2 version extends WAI-ARIA 1.1 to add a small number of features to the HT
 
 Published WAI-ARIA specifications are as follows:
 
--   **[WAI-ARIA 1.2](/TR/wai-aria-1.2/) technical specification** &mdash; provides features to define accessible user interface elements in order to improve the accessibility and interoperability of web content and applications. It is primarily for developers of Web browsers, assistive technologies, and other user agents; developers of Web technologies (technical specifications); and developers of accessibility evaluation tools.
--   **[Core Accessibility API Mappings 1.2](/TR/core-aam-1.2/)** &mdash; describes how user agents should expose semantics of web content languages to accessibility APIs. The core module defines support that applies across multiple content technologies, including general keyboard navigation support and mapping of general-purpose WAI-ARIA features; other specifications extend this for specific technologies.
--   **[Accessible Name and Description Computation 1.2](/TR/accname-1.2/)** &mdash; describes how user agents determine names and descriptions of accessible objects from web content languages and expose them in accessibility APIs. This allows assistive technologies to associate and relay the name or description of objects to users.
--   **[HTML Accessibility API Mappings 1.0](/TR/html-aam-1.0/)** &mdash; defines how user agents map HTML elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.2 and  the Accessible Name and Description Computation 1.2 for use with the HTML host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.
--   **[SVG Accessibility API Mappings 1.0](/TR/svg-aam-1.0/)** &mdash; extends Core Accessibility API Mappings 1.2 to define how user agents map SVG markup to platform accessibility application programming interfaces (APIs). When supported by user agents, its features allow SVG authors to create accessible rich internet applications, including charts, graphs, and other drawings. Provides SVG-specific guidance for how the SVG user agent must respond to keyboard focus, native SVG features, and role, state and property attributes provided via WAI-ARIA.
+-   **[WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) technical specification** &mdash; provides features to define accessible user interface elements in order to improve the accessibility and interoperability of web content and applications. It is primarily for developers of Web browsers, assistive technologies, and other user agents; developers of Web technologies (technical specifications); and developers of accessibility evaluation tools.
+-   **[Core Accessibility API Mappings 1.2](https://www.w3.org/TR/core-aam-1.2/)** &mdash; describes how user agents should expose semantics of web content languages to accessibility APIs. The core module defines support that applies across multiple content technologies, including general keyboard navigation support and mapping of general-purpose WAI-ARIA features; other specifications extend this for specific technologies.
+-   **[Accessible Name and Description Computation 1.2](https://www.w3.org/TR/accname-1.2/)** &mdash; describes how user agents determine names and descriptions of accessible objects from web content languages and expose them in accessibility APIs. This allows assistive technologies to associate and relay the name or description of objects to users.
+-   **[HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/)** &mdash; defines how user agents map HTML elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.2 and  the Accessible Name and Description Computation 1.2 for use with the HTML host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.
+-   **[SVG Accessibility API Mappings 1.0](https://www.w3.org/TR/svg-aam-1.0/)** &mdash; extends Core Accessibility API Mappings 1.2 to define how user agents map SVG markup to platform accessibility application programming interfaces (APIs). When supported by user agents, its features allow SVG authors to create accessible rich internet applications, including charts, graphs, and other drawings. Provides SVG-specific guidance for how the SVG user agent must respond to keyboard focus, native SVG features, and role, state and property attributes provided via WAI-ARIA.
 - **[Digital Publishing WAI-ARIA Module 1.1 (DPUB-ARIA)](https://www.w3.org/TR/dpub-aria-1.1/)** &mdash; defines a set of ARIA roles to help assistive technology users navigate structural divisions of long-form digital documents, such as eBooks.
 - **[Digital Publishing Accessibility API Mappings 1.1 (DPUB-AAM)](https://www.w3.org/TR/dpub-aam-1.1/)** &mdash; defines how user agents (programs that present content to users) map the DPUB-ARIA markup to platform accessibility APIs. 
 
@@ -124,8 +124,8 @@ The WAI-ARIA documents follow the W3C format for technical specifications which 
 
 ## Who develops WAI-ARIA
 
-The WAI-ARIA technical documents are developed by the Accessible Rich Internet Applications Working Group ([ARIA WG](/WAI/ARIA/)), which is part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](/WAI/)). For more information about the working group, see the [ARIA WG public page](/WAI/ARIA/).
+The WAI-ARIA technical documents are developed by the Accessible Rich Internet Applications Working Group ([ARIA WG](/about/groups/ariawg/)), which is part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](/WAI/)). For more information about the working group, see the [ARIA WG public page](/about/groups/ariawg/).
 
-[[How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute]](/standards-guidelines/w3c-process/) describes formal periods for public review. Opportunities for review and comment of WAI documents are announced on the [WAI home page](/WAI/) and [WAI Interest Group](/WAI/IG/) mailing list. An email address for sending comments is included in the "Status of this Document" section.
+[[How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute]](/standards-guidelines/w3c-process/) describes formal periods for public review. Opportunities for review and comment of WAI documents are announced on the [WAI home page](/WAI/) and [WAI Interest Group](/about/groups/waiig/) mailing list. An email address for sending comments is included in the "Status of this Document" section.
 
-Opportunities for contributing to WAI-ARIA and other WAI work are introduced in [Participating in WAI](/WAI/participation).
+Opportunities for contributing to WAI-ARIA and other WAI work are introduced in [Participating in WAI](/about/participating/).
