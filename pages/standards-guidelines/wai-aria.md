@@ -62,25 +62,25 @@ Quick links to resources:
 
 ## Introduction
 
-WAI-ARIA, the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with HTML, JavaScript, and related technologies.
+WAI-ARIA, the Accessible Rich Internet Applications Suite, defines a way to make web content and web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with HTML, JavaScript, and related technologies.
 
-Without WAI-ARIA, certain functionality used on websites is not available to some users with disabilities &mdash; especially people who rely on screen readers and people who cannot use a mouse. WAI-ARIA addresses these accessibility challenges, for example, by defining ways for functionality to be provided to assistive technology. With WAI-ARIA, developers can make advanced Web applications accessible and usable to people with disabilities.
+Without WAI-ARIA, certain functionality used on websites is not available to some users with disabilities &mdash; especially people who rely on screen readers and people who cannot use a mouse. WAI-ARIA addresses these accessibility challenges, for example, by defining ways for functionality to be provided to assistive technology. With WAI-ARIA, developers can make advanced web applications accessible and usable to people with disabilities.
 
-This page describes the problems that WAI-ARIA addresses, and introduces the WAI-ARIA suite of technical documents. For more information on the terms used on this page &mdash; including *Web content*, *user agent*s, and *assistive technology* &mdash; see [[Introduction to Web Accessibility]](/fundamentals/accessibility-intro/) and [[Essential Components of Web Accessibility]](/fundamentals/components/).
+This page describes the problems that WAI-ARIA addresses, and introduces the WAI-ARIA suite of technical documents. For more information on the terms used on this page &mdash; including *web content*, *user agent*s, and *assistive technology* &mdash; see [[Introduction to Web Accessibility]](/fundamentals/accessibility-intro/) and [[Essential Components of Web Accessibility]](/fundamentals/components/).
 
 ### Technical solutions
 
-WAI-ARIA provides a framework for adding attributes to identify features for user interaction, how they relate to each other, and their current state. WAI-ARIA describes navigation techniques to mark regions and common Web structures as menus, primary content, secondary content, banner information, and other types of Web structures. For example, with WAI-ARIA, developers can identify regions of pages and enable keyboard users to easily move between regions, rather than having to press Tab many times.
+WAI-ARIA provides a framework for adding attributes to identify features for user interaction, how they relate to each other, and their current state. WAI-ARIA describes navigation techniques to mark regions and common web structures as menus, primary content, secondary content, banner information, and other types of web structures. For example, with WAI-ARIA, developers can identify regions of pages and enable keyboard users to easily move between regions, rather than having to press Tab many times.
 
 WAI-ARIA includes technologies to map controls, live regions, and events to accessibility application programming interfaces (APIs), including custom controls used for rich Internet applications. WAI-ARIA techniques also apply to widgets such as buttons, drop-down lists, calendar functions, and tree controls (for example, expandable menus).
 
-WAI-ARIA provides Web authors with the following semantics that make web content more accessible to users of assistive technologies:
+WAI-ARIA provides web authors with the following semantics that make web content more accessible to users of assistive technologies:
 
 -   Roles to describe the type of widget presented, such as "menu", "treeitem", "slider", and "progressbar"
--   Roles to describe the structure of a Web page, such as headings, and regions
+-   Roles to describe the structure of a web page, such as headings, and regions
 -   Properties to describe the state widgets are in, such as "checked" for a check box, or "readonly" for most form controls
 -   Properties to define live regions of a page that are likely to get updates (such as stock quotes)
--   A way to provide keyboard navigation for Web objects and events, such as those mentioned above
+-   A way to provide keyboard navigation for web objects and events, such as those mentioned above
 
 ## Authoring Practices Guide (APG)
 
@@ -105,7 +105,7 @@ The 1.2 version extends WAI-ARIA 1.1 to add a small number of features to the HT
 
 Published WAI-ARIA specifications are as follows:
 
--   **[WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) technical specification** &mdash; provides features to define accessible user interface elements in order to improve the accessibility and interoperability of web content and applications. It is primarily for developers of Web browsers, assistive technologies, and other user agents; developers of Web technologies (technical specifications); and developers of accessibility evaluation tools.
+-   **[WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) technical specification** &mdash; provides features to define accessible user interface elements in order to improve the accessibility and interoperability of web content and applications. It is primarily for developers of web browsers, assistive technologies, and other user agents; developers of web technologies (technical specifications); and developers of accessibility evaluation tools.
 -   **[Core Accessibility API Mappings 1.2](https://www.w3.org/TR/core-aam-1.2/)** &mdash; describes how user agents should expose semantics of web content languages to accessibility APIs. The core module defines support that applies across multiple content technologies, including general keyboard navigation support and mapping of general-purpose WAI-ARIA features; other specifications extend this for specific technologies.
 -   **[Accessible Name and Description Computation 1.2](https://www.w3.org/TR/accname-1.2/)** &mdash; describes how user agents determine names and descriptions of accessible objects from web content languages and expose them in accessibility APIs. This allows assistive technologies to associate and relay the name or description of objects to users.
 -   **[HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/)** &mdash; defines how user agents map HTML elements and attributes to platform accessibility application programming interfaces (APIs). It leverages and extends the Core Accessibility API Mappings 1.2 and  the Accessible Name and Description Computation 1.2 for use with the HTML host language. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.
