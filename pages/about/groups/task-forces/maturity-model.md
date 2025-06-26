@@ -87,7 +87,7 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 The MM Task Force develops and maintains the following resources for the APA Working Group:
 
 * [Accessibility Maturity Model &mdash; 2024 Group Draft Note](https://www.w3.org/TR/maturity-model/)
-* [Accessibility Maturity Model &mdash; 2025 Editor’s Draft](https://www.w3.org/TR/maturity-model/)
+* [Accessibility Maturity Model &mdash; 2025 Editor’s Draft](https://w3c.github.io/maturity-model/)
 
 ## Contact the chairs
 
