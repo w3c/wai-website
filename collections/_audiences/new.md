@@ -1,4 +1,4 @@
----
+--
 title: "Resources for Getting Started with Digital Accessibility"
 nav_title: "Getting Started"
 lang: en
