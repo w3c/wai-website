@@ -1,6 +1,6 @@
 ---
-title: "Sponsoring WAI"
-nav_title: "Sponsoring"
+title: "Support WAI Financially"
+nav_title: "Support WAI Financially"
 lang: en
 
 permalink: /about/sponsoring/
@@ -15,7 +15,7 @@ feedbackmail: wai@w3.org
 class: tight-page
 ---
 
-<h2 class="no-display">About sponsoring WAI</h2>
+<h2 class="no-display">About supporing WAI</h2>
 
 The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, and supporting resources to make the Web accessible to people with disabilities.
 
@@ -65,7 +65,7 @@ _**The organizations below provided financial support prior to W3C establishing 
   * [US National Science Foundation](http://www.nsf.gov)
 
 ### Past sponsors
-
+_@@ ABC order below_
 * Elisa Communications
 * IBM Corporation
 * Microsoft Corporation
@@ -98,13 +98,13 @@ _**The organizations below provided financial support prior to W3C establishing 
 
 W3C WAI thanks organizations that have supported [W3C Fellows](https://www.w3.org/Consortium/Recruitment/Fellows) in WAI:
 
--  Elisa Communications
--  Knowbility, Inc
--  Research Institute of Telecommunication Transmission (RITT)
+* Elisa Communications
+* Knowbility, Inc
+* Research Institute of Telecommunication Transmission (RITT)
 
 {% include excol.html type="end" %}
 
 ## Others
 {:.no_toc}
 
--  [Netlify](https://www.netlify.com/) provides previews of the WAI website
+[Netlify](https://www.netlify.com/) provides previews of the WAI website
