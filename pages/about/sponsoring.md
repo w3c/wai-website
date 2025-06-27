@@ -15,7 +15,7 @@ feedbackmail: wai@w3.org
 class: tight-page
 ---
 
-<h2 class="no-display">About supporing WAI</h2>
+<h2 class="no-display">About supporting WAI</h2>
 
 The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, and supporting resources to make the Web accessible to people with disabilities.
 
