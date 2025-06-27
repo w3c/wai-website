@@ -84,16 +84,6 @@ _@@ ABC order below_
 * Verizon Foundation
 * Wells Fargo
 
-### Past contributors
-
-* Austrian Computer Society, Roland Wagner Award
-* Facebook donated virtual reality headsets to support the work of the [Immersive Captions W3C Community Group](https://www.w3.org/community/immersive-captions/)
-* Massachusetts Association for the Blind
-* NewDoctor.com
-* Ta-meteo.fr
-* WinWriters
-* Individuals who purchased t-shirts through Bonfire, organized by Carie Fisher
-
 ### Past Fellows
 
 W3C WAI thanks organizations that have supported [W3C Fellows](https://www.w3.org/Consortium/Recruitment/Fellows) in WAI:
