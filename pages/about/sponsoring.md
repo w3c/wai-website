@@ -25,7 +25,7 @@ W3C greatly appreciates the support WAI receives from stakeholders committed to 
 
 * For information about providing grants and other opportunities to support WAI, please **contact [giving@w3.org](mailto:giving@w3.org?subject=Accessibility%20support)**.
 
-* To donate and "become a friend of W3C", see @@ [W3C Donations Program](https://www.w3.org/donate/).
+* To donate and "become a friend of W3C", see [W3C Donations Program](https://www.w3.org/donate/).
 
 ## Current sponsors and funders
 
