@@ -151,7 +151,7 @@ When using a keyboard, Ade has found some features which really help. For exampl
 
 Ade has started using speech control software which helps him to avoid having to use the joystick and keyboard. The software allows him to select and 'click' on links by speaking but only when the links are clear and coded correctly. The software also has a speech-to-text dictation feature. As someone who has spent years typing out his articles, Ade is having to train himself in a new way of working. He would still prefer to type as he thinks he is much slower with dictation but he is hopeful that his speed will improve.
 
-Outside work, Ade finds his mobile device easier to use than the computer because it has simpler navigation and does not require a pointer device. He also has more options to place the device in a position he is comfortable with. He wishes his employer would create a mobile-friendly or responsive site that he could use for his job.
+Outside work, Ade finds his tablet easier to use than his computer because it has simpler navigation and does not require a pointer device. He also has more options to place the device in a position he is comfortable with. He wishes his employer would create a mobile-friendly or responsive site that he could use for his job.
 
 ## Barrier examples
 
