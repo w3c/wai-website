@@ -1,7 +1,9 @@
 ---
-title: "Support WAI Financially"
-nav_title: "Support WAI Financially"
+title: "Sponsoring WAI"
+nav_title: "Sponsoring"
 lang: en
+last_updated: 2025-06-30
+description: Support the W3C Web Accessibility Initiative (WAI) financially through sponsorship, grants, and donations to advance digital accessibility for people with disabilities.
 
 permalink: /about/sponsoring/
 ref: /about/sponsoring/
@@ -26,6 +28,8 @@ W3C greatly appreciates the support WAI receives from stakeholders committed to 
 * For information about providing grants and other opportunities to support WAI, please **contact [giving@w3.org](mailto:giving@w3.org?subject=Accessibility%20support)**.
 
 * To donate and "become a friend of W3C", see [W3C Donations Program](https://www.w3.org/donate/).
+
+To learn how you can support W3C accessibility work in other ways, see [[Participate in WAI]](/about/participating).
 
 ## Current sponsors and funders
 
@@ -60,26 +64,23 @@ _**The organizations below provided financial support prior to W3C establishing 
   * [Information Society Technologies Programme](http://cordis.europa.eu/ist/) &mdash;  [WAI-DEV Project](http://www.w3.org/WAI/DEV/), [WAI-ACT Project](https://www.w3.org/WAI/ACT/Overview.html), [WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/Overview.html), [WAI-TIES Project](https://www.w3.org/WAI/TIES/Overview.html)
 * [Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/) <!-- mdash; ([WAI Expanding Access Project](https://www.w3.org/WAI/expand-access/)) -->
 * United States government
-  * [US Access Board](https://www.access-board.gov/), US Department of Interior <!-- ([WCAG TAProject](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->    
+  * [US Access Board](https://www.access-board.gov/), US Department of Interior <!-- ([WCAG TA Project](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->    
   * [US National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)](http://www.ed.gov/about/offices/list/osers/nidrr/index.html), US Department of Health and Human Services (previously US Department of Education) &mdash; contract HHSP23301500054,  EDOSE10C0067<!-- ([WAI-Core 2010 Project]https://www.w3.org/WAI/Core/Overview.html)) -->
   * [US National Science Foundation](http://www.nsf.gov)
 
 ### Past sponsors
-_@@ ABC order below_
-* Elisa Communications
-* IBM Corporation
-* Microsoft Corporation
-* SAP
 * Adobe Systems
 * Assistive Devices Industry Office, Industry Canada, Government of Canada
 * Bocoup
 * CA
 * Deque Systems
+* Elisa Communications
 * ETS
 * Fundación ONCE
-* Hewlett Packard Development Company
-* HP Enterprise
+* Hewlett Packard Development Company, HP Enterprise
+* IBM Corporation
 * Lotus Development Corporation
+* Microsoft Corporation
 * SAP
 * Verizon Foundation
 * Wells Fargo
