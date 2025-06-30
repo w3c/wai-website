@@ -154,17 +154,17 @@ People with physical disabilities may have trouble clicking small areas and are 
 
 ## Examples of physical disabilities {#examples-of-physical-disabilities}
 
-- **Amputation**{:#limbs} – includes missing fingers, limbs, or other parts of the human body.
-- **Arthritis**{:#arthritis} (previously called "[rheumatism](#rheumatism){:.termref}") – inflammation, degeneration, or damage to the joints.
-- **Fibromyalgia**{:#fibromyalgia} (formerly called "[rheumatism](#rheumatism){:.termref}") – the chronic pain of muscle and connective tissues.
-- **Rheumatism**{:#rheumatism} – typically refers to [arthritis](#arthritis){:.termref} and other causes of bone or joint pain, and sometimes to [fibromyalgia](#fibromyalgia){:.termref} and other causes for muscular and other soft tissue pain.
-- **Reduced dexterity**{:#dexterity} – is a functional term (rather than a medical condition) that describes the ability to control the hand, such as hand-eye coordination of people with cognitive and neurological disabilities.
-- **Multiple sclerosis**{:#ms} – causes damage to nerve cells in the brain and spinal cord, and can affect physical, cognitive, and visual abilities, in particular during relapses.
-- **Muscular dystrophy**{:#md} – progressive weakness and degeneration of muscles, sometimes including in arms and hands.
-- **Repetitive stress injury (RSI)**{:#rsi} (also called "repetitive motion disorder" (RMD) and "cumulative trauma disorder" (CT)) - involves injuries to the musculoskeletal system (bones, joints, tendons, and other connective tissues) and the nervous system from repetitive tasks and damage.
-- **Tremor and spasms**{:#tremor} – involuntary movement or muscle contraction, including short twitches, and continual or rhythmic muscle contractions.
-- **Quadriplegia**{:#quadriplegia} (sometimes called "tetraplegia") - partial or total paralysis (includes motor control and sensation) to all four body limbs (legs and arms) and the torso.
-- **Seizure disorders**{:#seizure} – includes different types of epilepsy and migraines, which may be in reaction to visual flickering or audio signals at certain frequencies or patterns.
+- **Amputation**{:#limbs} — includes missing fingers, limbs, or other parts of the human body
+- **Arthritis**{:#arthritis} (formerly called ‘[rheumatism](#rheumatism){:.termref}’) — inflammation, degeneration, or damage to the joints.
+- **Fibromyalgia**{:#fibromyalgia} (formerly called ‘[rheumatism](#rheumatism){:.termref}’) — the chronic pain of muscle and connective tissues
+- **Rheumatism**{:#rheumatism} — typically refers to [arthritis](#arthritis){:.termref} and other causes of bone or joint pain, and sometimes to [fibromyalgia](#fibromyalgia){:.termref} and other causes of muscular and other soft tissue pain
+- **Reduced dexterity**{:#dexterity} — a functional term (not a medical condition) that describes difficulties in controlling the hand, such as poor hand-eye coordination, which can be experienced by people with cognitive and neurological disabilities
+- **Multiple sclerosis**{:#ms} — causes damage to nerve cells in the brain and spinal cord, and can affect physical, cognitive, and visual abilities — in particular, during relapses
+- **Muscular dystrophy**{:#md} — progressive weakness and degeneration of skeletal muscles, and the muscles that control movement, such as in the arms and hands
+- **Repetitive stress injury (RSI)**{:#rsi} (also called ‘repetitive motion disorder’ (RMD) and ‘cumulative trauma disorder’ (CT)) - involves injuries to the musculoskeletal system (bones, joints, tendons, and other connective tissues) and the nervous system from repetitive tasks and damage
+- **Tremor and spasms**{:#tremor} — involuntary movement or muscle contraction, including short twitches, and continual or rhythmic muscle contractions
+- **Quadriplegia**{:#quadriplegia} (sometimes called ‘tetraplegia’) - partial or total paralysis (includes motor control and sensation) to all four body limbs (legs and arms) and the torso
+- **Seizure disorders**{:#seizure} — includes different types of epilepsy and migraines, which may occur in reaction to visual flickering or audio signals at certain frequencies or patterns
 
 ## Examples of barriers for people with physical disabilities {#examples-of-barriers-for-people-with-physical-disabilities}
 
