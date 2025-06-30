@@ -14,14 +14,18 @@ github:
     label: wai-about
 
 feedbackmail: wai@w3.org
+
+footer: >
+  <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
+
 class: tight-page
 ---
 
 <h2 class="no-display">About supporting WAI</h2>
 
-The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, and supporting resources to make the Web accessible to people with disabilities.
+The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, and supporting resources to make the web accessible to people with disabilities.
 
-W3C greatly appreciates the support WAI receives from stakeholders committed to making the Web accessible. Contributions such as grants, sponsorship, and support for fellows enable WAI to bring together a unique collaboration of industry, government, research, and people with disabilities in a cooperative effort to improve the accessibility of the Web for disabled people.
+W3C greatly appreciates the support WAI receives from stakeholders committed to making digital technology accessible. Contributions such as grants, sponsorship, and support for fellows enable WAI to bring together a unique collaboration of industry, government, research, and people with disabilities in a cooperative effort to improve digital accessibility for disabled people.
 
 * If you are interested sponsoring WAI by becoming an Accessibility Champion, please explore the [W3C Sponsorships Program](https://www.w3.org/sponsor/) benefits and **contact [sponsorship@w3.org](mailto:sponsorship@w3.org?subject=Accessibility%20support)**.
 
@@ -29,7 +33,7 @@ W3C greatly appreciates the support WAI receives from stakeholders committed to 
 
 * To donate and "become a friend of W3C", see [W3C Donations Program](https://www.w3.org/donate/).
 
-To learn how you can support W3C accessibility work in other ways, see [[Participate in WAI]](/about/participating).
+To learn how you can contribute to W3C accessibility work by reviewing drafts and other activities, see [[Participate in WAI]](/about/participating).
 
 ## Current sponsors and funders
 
