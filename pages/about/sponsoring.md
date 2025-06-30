@@ -27,11 +27,11 @@ The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, 
 
 W3C greatly appreciates the support WAI receives from stakeholders committed to making digital technology accessible. Contributions such as grants, sponsorship, and support for fellows enable WAI to bring together a unique collaboration of industry, government, research, and people with disabilities in a cooperative effort to improve digital accessibility for disabled people.
 
-* If you are interested sponsoring WAI by becoming an Accessibility Champion, please explore the [W3C Sponsorships Program](https://www.w3.org/sponsor/) benefits and **contact [sponsorship@w3.org](mailto:sponsorship@w3.org?subject=Accessibility%20support)**.
+* If you are interested **sponsoring** WAI by becoming an Accessibility Champion, please explore the [W3C Sponsorships Program](https://www.w3.org/sponsor/) benefits and **contact [sponsorship@w3.org](mailto:sponsorship@w3.org?subject=Accessibility%20support)**.
 
-* For information about providing grants and other opportunities to support WAI, please **contact [giving@w3.org](mailto:giving@w3.org?subject=Accessibility%20support)**.
+* For information about providing **grants** and other opportunities to support WAI, please **contact [giving@w3.org](mailto:giving@w3.org?subject=Accessibility%20support)**.
 
-* To donate and "become a friend of W3C", see [W3C Donations Program](https://www.w3.org/donate/).
+* To **donate** and "become a friend of W3C", see [W3C Donations Program](https://www.w3.org/donate/).
 
 To learn how you can contribute to W3C accessibility work by reviewing drafts and other activities, see [[Participate in WAI]](/about/participating).
 
