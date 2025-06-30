@@ -1,6 +1,6 @@
 ---
-title: "Sponsoring WAI"
-nav_title: "Sponsoring"
+title: "Supporting WAI Financially"
+nav_title: "Supporting"
 lang: en
 last_updated: 2025-06-30
 description: Support the W3C Web Accessibility Initiative (WAI) financially through sponsorship, grants, and donations to advance digital accessibility for people with disabilities.
