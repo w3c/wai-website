@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, June 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, July 2025</span>"
 lang: en
-last_updated: 2025-06-02
+last_updated: 2025-06-30
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -100,11 +100,10 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in June or July 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in Q3 (July, August, September) 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
+* Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) update ([WCAG2ICT Editor's Draft](https://w3c.github.io/wcag2ict/))
 * Accessibility Maturity Model ([Maturity Model Editor's Draft](https://w3c.github.io/maturity-model/))
-* Digital Publishing WAI-ARIA Module 1.1 ([DPUB ARIA Editor's Draft](https://w3c.github.io/dpub-aria/))
-* Digital Publishing Accessibility API Mappings 1.1 ([DPUB API Mappings Editor's Draft](https://w3c.github.io/dpub-aam/))
 * More [WAI Translations](/translations/) &mdash; usually some each month
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
@@ -196,6 +195,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 30 June 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 2 June 2025
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 30 April 2025
