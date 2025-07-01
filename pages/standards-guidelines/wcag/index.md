@@ -146,7 +146,7 @@ Benefits of WCAG 2.0 as an ISO standard are summarized in [ISO in the FAQ](/stan
 
 ## JSON machine-readable files
 
-The WCAG JSON (JavaScript Object Notation) files include the principles, guidelines, success criteria, and glossary terms from the WCAG standard ('W3C Recommendation') and the WCAG Techniques. These JSON files are updated monthly.
+The WCAG JSON (JavaScript Object Notation) files include the principles, guidelines, success criteria, and glossary terms from WCAG and the supporting Techniques. These JSON files are updated monthly.
 
 * [WCAG 2.1 JSON](https://www.w3.org/WAI/WCAG21/wcag.json)
 * [WCAG 2.2 JSON](https://www.w3.org/WAI/WCAG22/wcag.json)
