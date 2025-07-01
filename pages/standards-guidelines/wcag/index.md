@@ -130,26 +130,35 @@ A few things have changed, and we intend the updates in the related documents to
 
 WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not deprecate or supersede WCAG 2.1, and WCAG 2.1 does not deprecate or supersede WCAG 2.0. W3C encourages you to use the most recent version of WCAG.
 
-## Machine readable versions
-
-We maintain JSON versions of WCAG 2.1 and 2.2. The files include content and links for principles, guidelines, success criteria, techniques, and glossary terms in a hierarchical structure. These are updated monthly to ensure they align with the latest published version of the recommendation and related supporting materials.
-
-* [WCAG 2.1 JSON](https://www.w3.org/WAI/WCAG21/wcag.json)
-* [WCAG 2.2 JSON](https://www.w3.org/WAI/WCAG22/wcag.json)
-
 ## Translations
 
 Authorized Translations and unofficial translations of WCAG 2 are listed in [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/).
 
-## WCAG 2.0 is ISO/IEC 40500 {#iso}
+## WCAG 2 is ISO/IEC 40500 {#iso}
 
-WCAG 2.0 is approved as an ISO standard: ISO/IEC 40500:2012. ISO/IEC 40500 is exactly the same as the original WCAG 2.0, which is introduced above along with supporting resources.
+**W3C submitted WCAG 2.2 to ISO.** We expect it to be finalized through the ISO process by Q3 (August, September, October) 2025.
+
+**WCAG 2.0** is approved as an ISO standard: ISO/IEC 40500:2012. ISO/IEC 40500 is exactly the same as the original WCAG 2.0, which is introduced above along with supporting resources.
 
 The content of ISO/IEC 40500 is freely available from [www.w3.org/TR/WCAG20](https://www.w3.org/TR/WCAG20/); it is available for purchase from the [ISO catalogue {% include_cached external.html %}](https://www.iso.org/standard/58625.html).
 
 Benefits of WCAG 2.0 as an ISO standard are summarized in [ISO in the FAQ](/standards-guidelines/wcag/faq/#iso). More information on W3C and the ISO process is in the [W3C PAS FAQ](https://www.w3.org/2010/04/pasfaq).
 
-**W3C submitted WCAG 2.2 to ISO.** It will likely be after June 2025 before the ISO process is complete.
+## JSON machine-readable files
+
+The WCAG JSON (JavaScript Object Notation) files include the principles, guidelines, success criteria, and glossary terms from the WCAG standard ('W3C Recommendation') and the WCAG Techniques. These JSON files are updated monthly.
+
+* [WCAG 2.1 JSON](https://www.w3.org/WAI/WCAG21/wcag.json)
+* [WCAG 2.2 JSON](https://www.w3.org/WAI/WCAG22/wcag.json)
+
+### Permission to use with attribution
+You may use this data provided you:
+* Clearly attribute the original source and include a link to it ([Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/),  [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/), [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/), [Techniques for WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/))
+* Do not change the content
+
+If you include additional information, it must be clear what is from the WCAG material.
+
+See [W3C Document license](https://www.w3.org/copyright/document-license/) and [W3C Intellectual rights](https://www.w3.org/copyright/intellectual-rights/), particularly '[May I annotate one of your specifications?](https://www.w3.org/copyright/intellectual-rights/#annotate)'.
 
 ## Who develops WCAG {#wg}
 
