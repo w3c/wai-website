@@ -8,8 +8,6 @@ description: Support the W3C Web Accessibility Initiative (WAI) financially thro
 permalink: /about/sponsoring/
 ref: /about/sponsoring/
 
-nofollow: true
-
 github:
     label: wai-about
 
@@ -39,8 +37,8 @@ Participate — To learn how you can contribute to W3C accessibility work by rev
 
 <img src="https://www.w3.org/WAI/content-images/people/still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
 
-* **[Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/)**<!-- ([WAI-Core Ford Project](https://www.w3.org/WAI/wai-core-ford/)) -->
-* **[US Department of Health and Human Services (HHS)](https://www.hhs.gov), Administration for Community Living ([ACL](https://acl.gov)), National Institute for Disability, Independent Living and Rehabilitation Research ([NIDILRR](http://www.acl.gov/programs/NIDILRR/))**<!-- contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
+* **[Ford Foundation](https://www.fordfoundation.org/){:rel="nofollow"}, [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/){:rel="nofollow"}**<!-- ([WAI-Core Ford Project](https://www.w3.org/WAI/wai-core-ford/)) -->
+* **[US Department of Health and Human Services (HHS)](https://www.hhs.gov){:rel="nofollow"}, Administration for Community Living ([ACL](https://acl.gov){:rel="nofollow"}), National Institute for Disability, Independent Living and Rehabilitation Research ([NIDILRR](http://www.acl.gov/programs/NIDILRR/){:rel="nofollow"})**<!-- contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
 
 {% include excol.html type="start" id="past" %}
 
@@ -64,13 +62,13 @@ _**The organizations below provided financial support prior to W3C establishing 
 
 * European Commission
   * DE [WAI-DE Project](https://www.w3.org/WAI/TIDE/FR2.htm); Accompanying Measure IST [WAI-DA Project](https://www.w3.org/WAI/WAIDA/)
-  * [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) &mdash;  [WAI-Guide Project](https://www.w3.org/WAI/about/projects/wai-guide/), [WAI-CooP Project](https://www.w3.org/WAI/about/projects/wai-coop/), [WAI-Tools Project](https://www.w3.org/WAI/about/projects/wai-tools/), [Easy Reading Project](https://www.w3.org/WAI/about/projects/easy-reading/)
-  * [Information Society Technologies Programme](http://cordis.europa.eu/ist/) &mdash;  [WAI-DEV Project](http://www.w3.org/WAI/DEV/), [WAI-ACT Project](https://www.w3.org/WAI/ACT/Overview.html), [WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/Overview.html), [WAI-TIES Project](https://www.w3.org/WAI/TIES/Overview.html)
-* [Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/) <!-- mdash; ([WAI Expanding Access Project](https://www.w3.org/WAI/expand-access/)) -->
+  * [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/){:rel="nofollow"} &mdash;  [WAI-Guide Project](https://www.w3.org/WAI/about/projects/wai-guide/), [WAI-CooP Project](https://www.w3.org/WAI/about/projects/wai-coop/), [WAI-Tools Project](https://www.w3.org/WAI/about/projects/wai-tools/), [Easy Reading Project](https://www.w3.org/WAI/about/projects/easy-reading/)
+  * [Information Society Technologies Programme](http://cordis.europa.eu/ist/){:rel="nofollow"} &mdash;  [WAI-DEV Project](http://www.w3.org/WAI/DEV/), [WAI-ACT Project](https://www.w3.org/WAI/ACT/Overview.html), [WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/Overview.html), [WAI-TIES Project](https://www.w3.org/WAI/TIES/Overview.html)
+* [Ford Foundation](https://www.fordfoundation.org/){:rel="nofollow"}, [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/){:rel="nofollow"} <!-- mdash; ([WAI Expanding Access Project](https://www.w3.org/WAI/expand-access/)) -->
 * United States government
-  * [US Access Board](https://www.access-board.gov/), US Department of Interior <!-- ([WCAG TA Project](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->    
-  * [US National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)](http://www.ed.gov/about/offices/list/osers/nidrr/index.html), US Department of Health and Human Services (previously US Department of Education) &mdash; contract HHSP23301500054,  EDOSE10C0067<!-- ([WAI-Core 2010 Project]https://www.w3.org/WAI/Core/Overview.html)) -->
-  * [US National Science Foundation](http://www.nsf.gov)
+  * [US Access Board](https://www.access-board.gov/){:rel="nofollow"}, US Department of Interior <!-- ([WCAG TA Project](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->    
+  * [US National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)](http://www.ed.gov/about/offices/list/osers/nidrr/index.html){:rel="nofollow"}, US Department of Health and Human Services (previously US Department of Education) &mdash; contract HHSP23301500054,  EDOSE10C0067<!-- ([WAI-Core 2010 Project]https://www.w3.org/WAI/Core/Overview.html)) -->
+  * [US National Science Foundation](http://www.nsf.gov){:rel="nofollow"}
 
 ### Past sponsors
 * Adobe Systems
@@ -102,4 +100,4 @@ W3C WAI thanks organizations that have supported [W3C Fellows](https://www.w3.or
 ## Others
 {:.no_toc}
 
-[Netlify](https://www.netlify.com/) provides previews of the WAI website
+[Netlify](https://www.netlify.com/){:rel="nofollow"} provides previews of the WAI website
