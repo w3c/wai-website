@@ -72,7 +72,7 @@ Details of how to join the LV Task Force will be published here when it is react
 ## Communications
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/low-vision-a11y-tf/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/low-vision-a11y-tf/minutes)
+* [Minutes from previous meetings](/about/groups/task-forces/low-vision-a11y-tf/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-low-vision-a11y-tf/)
 
 ## Publications

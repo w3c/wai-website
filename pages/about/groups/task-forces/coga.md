@@ -85,7 +85,7 @@ Once you are a member of either the AG or APA working groups, email the [W3C sta
 ## Communications
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/cognitive-a11y-tf/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/coga/minutes)
+* [Minutes from previous meetings](/about/groups/task-forces/coga/minutes/)
 * [Mailing list archive](http://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/)
 
 ## Publications

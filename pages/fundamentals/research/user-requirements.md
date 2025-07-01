@@ -2,7 +2,7 @@
 title: "Digital Accessibility User Requirements"
 nav_title: "User Requirements"
 lang: en
-last_updated: 2025-01-21
+last_updated: 2026-03-05
 description: User requirements for virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, cognitive accessibility, low vision, and more.
 
 github:
@@ -24,25 +24,25 @@ WAI continues to analyze research and document user needs in several areas. The 
 
 ## Cross-disability user requirements for specific technologies, tools, situations
 
-**MAUR** [**Media** Accessibility User Requirements](https://www.w3.org/TR/media-accessibility-reqs/)
+[Media Accessibility User Requirements](https://www.w3.org/TR/media-accessibility-reqs/) (MAUR)
 :   Describes the needs of users with disabilities to be able to consume audio and video media on the web. A [MAUR updated Working Draft](https://w3c.github.io/apa/media-accessibility-reqs/) is in progress. (Learn more from the [MAUR blog post](https://www.w3.org/blog/2015/12/media-accessibility-user-requirements-is-a-w3c-note/).)
 
-**SAUR** [**Synchronization** Accessibility User Requirements](https://www.w3.org/TR/saur/) for multimedia
+[Synchronization Accessibility User Requirements](https://www.w3.org/TR/saur/) (SAUR) for multimedia
 :   Addresses synchronization of captions, sign language interpretation, and descriptions in audio and video media. Media needs to be synchronized to very specific limits in order to be understandable. ([SAUR blog](https://www.w3.org/blog/2021/09/synchronization-accessibility-user-requirements-call-for-review/))
 
-**XAUR** [**XR** Accessibility User Requirements](https://www.w3.org/TR/xaur/)
+[XR Accessibility User Requirements](https://www.w3.org/TR/xaur/)
 :   Describes user needs in virtual or immersive environments (XR). ([XAUR blog](https://www.w3.org/blog/2020/03/xr-accessibility-user-requirements-call-for-review/))
 
-**RAUR** [**RTC** Accessibility User Requirements](https://www.w3.org/TR/raur/)
+[RTC Accessibility User Requirements](https://www.w3.org/TR/raur/) (RAUR)
 :   Describes user needs for real-time communication (RTC). RTC enables instantaneous applications for video and audio calls, text chat, file exchange, screen sharing, and gaming. ([RAUR blog](https://www.w3.org/blog/2020/03/rtc-accessibility-user-requirements-call-for-review/))
 
-**CTAUR** [**Collaboration Tools** Accessibility User Requirements](https://www.w3.org/TR/ctaur/)
+[Collaboration Tools Accessibility User Requirements](https://www.w3.org/TR/ctaur/)
 :   Describes user needs in tools that support for one or more specific collaborative features. These features include real-time editing of content by multiple authors, the use of comments or annotations, and revision control.
 
-**NAUR** [**Natural Language Interface** Accessibility User Requirements](https://www.w3.org/TR/naur) Draft
+[Natural Language Interface Accessibility User Requirements](https://www.w3.org/TR/naur) (NAUR) Draft
 :   Addresses situations where a user and a system communicate via a natural (human) language. The user provides input as sentences via speech or other input, and the system generates responses as sentences delivered by speech, text, or another modality. (Learn more from the [NAUR blog post](https://www.w3.org/blog/2021/10/natural-language-interface-accessibility-user-requirements-call-for-review/).)
 
-**FAST** [Framework for Accessible Specification of Technologies (FAST)](https://w3c.github.io/apa/fast/) Editors' Draft
+[Framework for Accessible Specification of Technologies (FAST)](https://w3c.github.io/apa/fast/) Editors' Draft
 :   Advises creators of technical specifications how to ensure their technology meets the needs of users with disabilities. 
 
 ## Disability-specific user requirements and research

@@ -93,6 +93,6 @@ Once you are a member of the AG Working Group, email the [W3C staff contact for 
 
 The WCAG 2.x Backlog Task Force does not develop publications.
 
-## Contact the facilitators (not chairs? why the inconsistency?)
+## Contact the facilitators
 
 If you have a question for the WCAG 2.x Backlog Task Force, email the [chairs](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#staff).

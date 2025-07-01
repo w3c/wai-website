@@ -82,7 +82,7 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 ## Communications
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/fast/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/fast/minutes)
+* [Minutes from previous meetings](/about/groups/task-forces/fast/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-fast/)
 
 ## Publications

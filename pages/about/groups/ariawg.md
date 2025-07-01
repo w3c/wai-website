@@ -116,7 +116,7 @@ See [Instructions for joining the Accessible Rich Internet Applications Working 
 ## Communications and decisions
 
 * [Calendar of meetings](https://www.w3.org/groups/wg/aria/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/ARIA/minutes)
+* [Minutes from previous meetings](/about/groups/ariawg/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-aria/)
 * Record of decisions (mainly in GitHub pull request reviews)
 * [Decision policy](/about/groups/ariawg/decision-policy/)

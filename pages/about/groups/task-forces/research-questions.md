@@ -80,7 +80,7 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 ## Communications
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/rqtf/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/research-questions/minutes)
+* [Minutes from previous meetings](/about/groups/task-forces/research-questions/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-rqtf/)
 
 ## Publications

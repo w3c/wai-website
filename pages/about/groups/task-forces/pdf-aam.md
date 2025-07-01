@@ -79,7 +79,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 ## Communications
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/pdf-aam/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/ARIA/task-forces/pdf-aam/minutes)
+* [Minutes from previous meetings](/about/groups/task-forces/pdf-aam/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-pdf-aam/)
 
 ## Publications

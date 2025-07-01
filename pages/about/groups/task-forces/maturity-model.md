@@ -81,7 +81,7 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 ## Communications
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/maturity/calendar/)
-* [Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/maturity-model/minutes)
+* [Minutes from previous meetings](/about/groups/task-forces/maturity-model/minutes/)
 * [Mailing list archive](https://lists.w3.org/Archives/Public/public-maturity/)
 
 ## Publications

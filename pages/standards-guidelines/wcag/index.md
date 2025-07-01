@@ -5,7 +5,7 @@
 title: "WCAG 2 Overview"
 nav_title: "Web Content – WCAG 2"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-12-12  # Keep the date of the English version
+last_updated: 2025-05-06  # Keep the date of the English version
 first_published: "July 2005"
 description: Introduces the Web Content Accessibility Guidelines (WCAG) international standard, including WCAG 2.0, WCAG 2.1, and WCAG 2.2. WCAG documents explain how to make web content more accessible to people with disabilities.
 
@@ -114,7 +114,7 @@ The following resources help you understand and implement WCAG, and improve acce
 The Web Content Accessibility Guidelines (WCAG) standards are referenceable when they are published as a 'W3C Recommendation' web standard.
 
 * [WCAG 2.0](https://www.w3.org/TR/WCAG20/) was published on 11 December 2008.
-* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) was published on 5 June 2018, and updates were published on 21 September 2023 and 12 December 2024.
+* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) was published on 5 June 2018, and updates were published on 21 September 2023, 12 December 2024, and 6 May 2025.
 * [WCAG 2.2](https://www.w3.org/TR/WCAG22/) was published on 5 October 2023, and an update was published on 12 December 2024.
 
 For information on the updates, see the [WCAG 2 FAQ](/standards-guidelines/wcag/faq/).
