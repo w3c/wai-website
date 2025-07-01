@@ -27,9 +27,9 @@ The W3C Web Accessibility Initiative ([WAI](/)) develops strategies, standards, 
 
 W3C greatly appreciates the support WAI receives from stakeholders committed to making digital technology accessible. Contributions such as grants, sponsorship, and support for fellows enable WAI to bring together a unique collaboration of industry, government, research, and people with disabilities in a cooperative effort to improve digital accessibility for disabled people.
 
-* **Sponsor** — If you are interested sponsoring WAI by becoming an Accessibility Champion, please explore the [W3C Sponsorships Program](https://www.w3.org/sponsor/) benefits and contact [sponsorship@w3.org](mailto:sponsorship@w3.org?subject=Accessibility%20support).
+* **Sponsor** — For information on sponsoring WAI by becoming an Accessibility Champion, please explore the [W3C Sponsorships Program](https://www.w3.org/sponsor/) benefits and contact [sponsorship@w3.org](mailto:sponsorship@w3.org?subject=Accessibility%20support).
 
-* **Grant** — For information about providing grants and other opportunities to support WAI, please contact [giving@w3.org](mailto:giving@w3.org?subject=Accessibility%20support).
+* **Grant** — For information on providing grants and other opportunities to support WAI, please contact [giving@w3.org](mailto:giving@w3.org?subject=Accessibility%20support).
 
 * **Donate** — To donate and "become a friend of W3C", see [W3C Donations Program](https://www.w3.org/donate/).
 
@@ -40,7 +40,7 @@ Participate — To learn how you can contribute to W3C accessibility work by rev
 <img src="https://www.w3.org/WAI/content-images/people/still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
 
 * **[Ford Foundation](https://www.fordfoundation.org/), [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/)**<!-- ([WAI-Core Ford Project](https://www.w3.org/WAI/wai-core-ford/)) -->
-* **[US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)](http://www.acl.gov/programs/NIDILRR/)**<!-- , US Department of Health and Human Services (HHS), contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
+* **[US Department of Health and Human Services (HHS)](https://www.hhs.gov), Administration for Community Living ([ACL](https://acl.gov)), National Institute for Disability, Independent Living and Rehabilitation Research ([NIDILRR](http://www.acl.gov/programs/NIDILRR/))**<!-- contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
 
 {% include excol.html type="start" id="past" %}
 
