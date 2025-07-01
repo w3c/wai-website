@@ -1,6 +1,6 @@
 ---
-title: "Supporting WAI Financially"
-nav_title: "Supporting"
+title: "Support WAI Financially"
+nav_title: "Support"
 lang: en
 last_updated: 2025-06-30
 description: Support the W3C Web Accessibility Initiative (WAI) financially through sponsorship, grants, and donations to advance digital accessibility for people with disabilities.
@@ -48,7 +48,7 @@ Participate — To learn how you can contribute to W3C accessibility work by rev
 
 {% include excol.html type="middle" %}
 
-_**The organizations below provided financial support prior to W3C establishing as a 501(c)3 public-interest non-profit organization.**_
+_**The organizations below provided financial support for W3C WAI work before W3C established as a 501(c)3 public-interest non-profit organization.**_
 
 <div style="float:right; margin-left:1em; width:90px; clear:both;"><br><br>
 <img src="https://www.w3.org/WAI/content-images/people/two-smiling.png" alt="" /><br><br>
