@@ -32,7 +32,11 @@ Find out about the activities of the Framework for Accessible Specification of T
 
 ## Objectives
 
-The objectives of the FAST Task Force are to develop and maintain inventories of user and functional needs; best practices guidance describing the features that web technologies should provide to ensure accessible content can be created; and the self-assessment tool used by W3C working groups during W3C’s accessibility horizontal review process.
+The FAST Task Force develops and maintains:
+
+- inventories of user and functional needs,
+- best practices guidance describing the features that web technologies should provide to ensure accessible content can be created, and 
+- the self-assessment tool used by W3C working groups during W3C’s accessibility horizontal review process.
 
 ## Work statement
 
@@ -70,7 +74,7 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 **Note:** As a participant in one of the APA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/fast/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/fast/participants/#participants)
@@ -85,7 +89,7 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 The FAST Task Force develops and maintains the following resources for the APA Working Group:
 
-* [Framework for Accessible Specification of Technologies (FAST) &mdash; 2024 Editor’s Draft](https://www.w3.org/TR/act-rules-format/)
+* [Framework for Accessible Specification of Technologies (FAST) &mdash; Editor’s Draft](https://w3c.github.io/fast/)
 * [FAST Report Tool](https://fast-rose.vercel.app/) &mdash; a checklist for reviewing technologies
 
 ## Contact the chairs
