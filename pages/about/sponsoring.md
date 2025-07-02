@@ -31,7 +31,7 @@ W3C greatly appreciates the support WAI receives from stakeholders committed to 
 
 * **Donate** — To donate and "become a friend of W3C", see [W3C Donations Program](https://www.w3.org/donate/).
 
-Participate — To learn how you can contribute to W3C accessibility work by reviewing drafts and other ways to get involved, see [[Participate in WAI]](/about/participating).
+Participate — To learn how you can contribute to W3C accessibility work by reviewing drafts and other ways to get involved, see [[Participate in WAI]](/about/participating/).
 
 ## Current sponsors and funders
 
