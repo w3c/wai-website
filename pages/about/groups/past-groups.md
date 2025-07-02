@@ -41,6 +41,5 @@ See details for working groups and task forces that have now closed.
 
 ## Past task forces
 
-* [CSS Accessibility Task Force](https://www.w3.org/groups/tf/css-a11y/)
-* [Silver Task Force](https://www.w3.org/groups/tf/silver-tf/)
-
+* [CSS Accessibility Task Force](https://www.w3.org/groups/tf/css-a11y/) &mdash; group closed in 2021
+* [Silver Task Force](https://www.w3.org/groups/tf/silver-tf/) &mdash; group closed in 2023
