@@ -147,7 +147,7 @@ This course will be available on the edX platform through at least October 2025.
 
 **The course is free.** The audit option gives you access to all of the content.
 
-{% include image.html src="courses/certificate.png" alt="" class="normal right" %}
+{% include image.html src="courses/certificate.jpg" alt="" class="normal right" %}
 
 Optionally, you can choose to get a **Verified Certificate** for $99 USD to demonstrate successful course completion.
 
