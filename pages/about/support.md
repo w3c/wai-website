@@ -5,8 +5,11 @@ lang: en
 last_updated: 2025-07-09
 description: Support the W3C Web Accessibility Initiative (WAI) financially through donations, sponsorship, and grants to advance digital accessibility for people with disabilities.
 
-permalink: /about/sponsoring/
-ref: /about/sponsoring/
+permalink: /about/support/
+ref: /about/support/
+
+redirect_from:
+  - /about/sponsoring/
 
 github:
     label: wai-about
