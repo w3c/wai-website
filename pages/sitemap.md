@@ -65,7 +65,7 @@ _To get short descriptions of primary content, see [[WAI Resources]](/resources/
   - [WAI Interest Group (WAI IG)]({{ "/about/groups/waiig/" | relative_url }})
   - [Group Task Forces]({{ "/about/groups/taskforces/" | relative_url }})
 - [[Translating WAI Documents]](/about/translating/)
-- [[Sponsoring WAI]](/about/sponsoring/)
+- [[Sponsoring WAI]](/about/support/)
 - [[Contacting WAI]](/about/contacting/)
 - [[WAI Projects]](/about/projects/) &mdash; lists current and past projects
 - [[Accessibility Statement for WAI Website]](/about/accessibility-statement/)

@@ -113,7 +113,7 @@ WAI's work is supported in part by sponsorship from industry,
 disability, and government organizations interested in contributing to
 WAI's efforts to make the web more accessible. Please see the list of
 current sponsors and information on WAI sponsorship at [Sponsoring
-WAI]({{"/about/sponsoring/" | relative_url }}).
+WAI]({{"/about/support/" | relative_url }}).
 
 ## Promoting and Implementing Web Accessibility
 
