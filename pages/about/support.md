@@ -9,10 +9,10 @@ permalink: /about/support/
 ref: /about/support/
 
 redirect_from:
-  - /about/sponsoring/
+ - /about/sponsoring/
 
 github:
-    label: wai-about
+  label: wai-about
 
 feedbackmail: wai@w3.org
 
