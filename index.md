@@ -173,6 +173,6 @@ inline_css: |
       <li><span><a href="https://www.fordfoundation.org/">Ford Foundation</a>, <a href="https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/">Technology and Society Program</a></span></li>
       <li><span><a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)</a></span></li>
     </ul>
-    <p>WAI welcomes <a href="{{ '/about/sponsoring/' | relative_url }}">additional sponsors</a>.</p>
+    <p>WAI welcomes donations, sponsors, grants and other <a href="{{ '/about/sponsoring/' | relative_url }}">financial support</a>.</p>
   </div>
 </div>
