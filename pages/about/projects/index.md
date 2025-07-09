@@ -31,4 +31,4 @@ github:
    * [WAI-DA](https://www.w3.org/WAI/WAIDA/), European Commission
    * [WAI-DE/WAI-TIDE Final report](https://www.w3.org/WAI/TIDE/FR2.htm), European Commission
 
-Related information: W3C WAIs [Previous Sponsors, Funding...](/about/sponsoring/#previous-sponsors-funding-contributors-fellows)
+Related information: W3C WAIs [Previous Sponsors, Funding...](/about/support/#past-supporters)
