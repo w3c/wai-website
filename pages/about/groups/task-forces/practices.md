@@ -32,7 +32,10 @@ Find out about the activities of the ARIA Authoring Practices Task Force (known 
 
 ## Objectives
 
-The objective of the APG Task Force is to develop the WAI-ARIA Authoring Practices Guide, which describes considerations that might not be evident to authors from the WAI-ARIA specification alone, and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
+The APG Task Force develops the WAI-ARIA Authoring Practices Guide, which:
+
+- describes considerations that might not be evident to authors from the WAI-ARIA specification alone, and,
+-recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
 
 ## Work statement
 
@@ -73,7 +76,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 **Note:** As a participant in one of the ARIA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/aria-practices/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/aria-practices/participants/#participants)

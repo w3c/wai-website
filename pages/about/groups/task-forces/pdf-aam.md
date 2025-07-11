@@ -33,7 +33,7 @@ Find out about the activities of the Portable Document Format Accessibility Appl
 
 ## Objectives 
 
-The objective of the PDF-AAM Task Force is to specify how user agents should map accessibility semantics within the Portable Document Format specification.
+The PDF-AAM Task Force specifies how user agents should map accessibility semantics within the Portable Document Format specification.
 
 ## Work Statement
 
@@ -71,7 +71,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 **Note:** As a participant in one of the ARIA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/pdf-aam/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/pdf-aam/participants/#participants)
@@ -84,7 +84,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 ## Publications
 
-The PDF-AAM Task Force will develop and maintain the [PDF Accessibility API Mappings &mdash; 2024 Editor’s Draft](https://w3c.github.io/pdf-aam/) for the ARIA Working Group.
+The PDF-AAM Task Force develops and maintains the [PDF Accessibility API Mappings &mdash; Editor’s Draft](https://w3c.github.io/pdf-aam/) for the ARIA Working Group.
 
 ## Contact the chairs
 
