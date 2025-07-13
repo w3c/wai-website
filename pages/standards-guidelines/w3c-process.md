@@ -6,7 +6,7 @@ title: "How WAI Develops Accessibility Standards through the W3C Process: Milest
 title_html: "How WAI Develops Accessibility Standards through the W3C Process:<br> Milestones and Opportunities to Contribute"
 nav_title: W3C Process for Developing Standards
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-01-15   # Keep the date of the English version
+last_updated: 2025-07-09   # Keep the date of the English version
 first_published: "September 2006"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -85,7 +85,7 @@ The milestones that a W3C "technical report" goes through on its way to becoming
 4. {:#pr}![endorsing technical report:]({{ "/content-images/w3c-process/pr.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Proposed Recommendation**: After there are implementations of each feature of the technical report, W3C announces it as a Proposed Recommendation. At this stage, the report is submitted to the W3C Membership for endorsement.
 5. {:#rec}![approved technical report:]({{ "/content-images/w3c-process/rec.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **W3C Recommendation (Web Standard)**: Once there is significant support for the technical report from the W3C Members, the W3C Director, and the public, it is published as a Recommendation. W3C encourages widespread deployment of its Recommendations.
 
-That was a simplified description of the process. For the definitive version, see the [W3C Process Document, Section 7: W3C Technical Report Development Process](https://www.w3.org/Consortium/Process/#Reports).
+That was a simplified description of the process. For the definitive version, see the [W3C Process Document: W3C Technical Reports](https://www.w3.org/policies/process/#Reports).
 
 ## Other Resources {#other}
 
