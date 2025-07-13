@@ -73,4 +73,4 @@ Web Accessibility Initiative (WAI) website content posted since May 2018 meets W
 <p>WAI assessed the accessibility of the WAI website by self-evaluation.</p>
 
 <h2 id="formal-approval-of-this-accessibility-statement">Formal approval of this accessibility statement</h2>
-<p>This Accessibility Statement is approved by Shawn Lawton Henry, Director, Web Accessibility Initiative (WAI).</p>
+<p>This Accessibility Statement is approved by Shawn Lawton Henry, W3C Director, Web Accessibility Initiative (WAI).</p>
