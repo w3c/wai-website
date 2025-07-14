@@ -45,6 +45,12 @@ To learn about the group’s focus, scope and deliverables, see the [AG Working 
 
 For details of the current work, see the [AG Working Group wiki](https://www.w3.org/WAI/GL/wiki/Main_Page).
 
+### WCAG 3
+
+Work on developing WCAG 3 takes place in many task forces and subgroups of the AG Working Group. For information about the WCAG 3 timelines and publication plan, see [WCAG 3 Timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline).
+
+WCAG 3 is still years away from becoming a W3C standard. For more information, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/).
+
 ### WCAG 2.2
 
 The [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/) maintains WCAG 2.x (WCAG versions 2.0, 2.1, and 2.2) for the AG Working Group. This includes reviewing public comments on WCAG 2.x and improving the following supporting documents:
@@ -55,12 +61,6 @@ The [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/) mai
 For current outstanding WCAG 2.x issues, see [WCAG issues &mdash; GitHub](https://github.com/w3c/wcag/issues/).
 
 WCAG 2.2 is the current W3C standard and will remain so until WCAG 3 replaces it. For more information, see [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/).
-
-### WCAG 3
-
-Work on developing WCAG 3 takes place in many task forces and subgroups of the AG Working Group. For information about the WCAG 3 timelines and publication plan, see [WCAG 3 Timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline).
-
-WCAG 3 is still years away from becoming a W3C standard. For more information, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/).
 
 ## Contribute to the work
 
