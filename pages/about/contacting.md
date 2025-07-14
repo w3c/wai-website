@@ -1,10 +1,12 @@
 ---
-title: Contacting WAI
-nav_title: "Contacting"
+title: Contact WAI
+nav_title: "Contact"
 lang: en
 
-permalink: /about/contacting/
-ref: /about/contacting/
+permalink: /about/contact/
+ref: /about/contact/
+redirect_from:
+  - /about/contacting/
 
 github:
     label: wai-about
