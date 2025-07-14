@@ -50,12 +50,6 @@ The ARIA Working Group includes the:
 
 The [WAI Interest Group](/about/groups/waiig/) is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work.
 
-## Past groups and task forces
+## Past groups
 
-* [Authoring Tool Accessibility Working Group](https://www.w3.org/groups/wg/atag/) &mdash; group closed in 2015
-* [Education and Outreach Working Group](https://www.w3.org/groups/wg/eowg/) &mdash; group closed in 2024
-* [Evaluation and Repair Tools Working Group](https://www.w3.org/groups/wg/ertwg/) &mdash; group closed in 2017
-* [Research and Development Working Group](https://www.w3.org/groups/wg/wai-rd/) &mdash; group closed in 2015
-* [User Agent Accessibility Working Group](https://www.w3.org/groups/wg/uaag/) &mdash; group closed in 2016
-* [CSS Accessibility Task Force](https://www.w3.org/groups/tf/css-a11y/) &mdash; group closed in 2021
-* [Silver Task Force](https://www.w3.org/groups/tf/silver-tf/) &mdash; group closed in 2023
+See [Past groups](/about/groups/previous-groups/) for details of working groups and task forces that have now closed.
