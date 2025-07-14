@@ -107,13 +107,13 @@ and to get information on participation.
 -   **[APA](/WAI/APA/)** &mdash; The Accessible Platform Architectures (APA) Working Group reviews W3C's specifications for accessibility support and develops technical support materials. **See [Participating in APA WG](/WAI/APA/participation)**.
 -   **[ARIA](/WAI/ARIA/)** &mdash; The Accessible Rich Internet Applications Working Group develops a suite of accessible rich internet applications (ARIA) resources, and accessible APIs and mappings. **See [Participating in ARIA WG](/WAI/ARIA/participation)**.
 
-## Sponsoring WAI
+## Support WAI Financially
 
 WAI's work is supported in part by sponsorship from industry,
 disability, and government organizations interested in contributing to
 WAI's efforts to make the web more accessible. Please see the list of
-current sponsors and information on WAI sponsorship at [Sponsoring
-WAI]({{"/about/sponsoring/" | relative_url }}).
+current sponsors and information on WAI sponsorship at [[Support
+WAI Financially]](/about/support/).
 
 ## Promoting and Implementing Web Accessibility
 
