@@ -48,13 +48,17 @@ For more information, see [WCAG2ICT Overview](https://www.w3.org/WAI/standards-g
 
 ## Contribute to the work
 
-The WCAG2ICT Task Force welcomes input from the global accessibility community on the work to update accessibility guidelines to include non-web documents and software.
+The WCAG2ICT Task Force welcomes input from individuals and organizations around the world on the work to update accessibility guidelines to include non-web documents and software.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [WCAG2ICT GitHub repository](https://github.com/w3c/wcag2ict/issues):
-* If you’re aware of an issue with any of the published WCAG2ICT resources, raise a new issue.
-* Comment on or propose solutions for open WCAG2ICT issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft WCAG2ICT resources:** Review and provide feedback on drafts that are still being developed.
+- **Open WCAG2ICT issues:** Comment on or propose solutions for open issues.
+- **Published WCAG2ICT resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [WCAG2ICT GitHub repository](https://github.com/w3c/wcag2ict/issues) or email the [chairs](https://www.w3.org/groups/tf/wcag2ict/participants/#chairs).
 
 ### Become a participant in the task force
 

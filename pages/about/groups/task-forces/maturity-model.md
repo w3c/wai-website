@@ -49,13 +49,17 @@ For details of the current work, see the [Maturity Model GitHub repository](http
 
 ## Contribute to the work
 
-The Maturity Model Task Force welcomes input from the global accessibility community on the Accessibility Maturity Model work.
+The Maturity Model Task Force welcomes input from individuals and organizations around the world on the Accessibility Maturity Model work.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [Maturity Model GitHub repository](https://github.com/w3c/maturity-model/issues):
-* If you’re aware of an issue with any of the published Accessibility Maturity Model resources, raise a new issue.
-* Comment on or propose solutions for open Maturity Model issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft Accessibility Maturity Model resources:** Review and provide feedback on drafts that are still being developed.
+- **Open Accessibility Maturity Model issues:** Comment on or propose solutions for open issues.
+- **Published Accessibility Maturity Model resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [Maturity Model GitHub repository](https://github.com/w3c/maturity-model/issues) or email the [chairs](https://www.w3.org/groups/tf/maturity/participants/#chairs).
 
 ### Become a participant in the task force
 

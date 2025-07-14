@@ -52,7 +52,7 @@ For details of the work, see the [LV Task Force wiki](https://www.w3.org/WAI/GL/
 
 ## Contribute to the work
 
-The LV Task Force welcomes input from the global accessibility community on the low vision accessibility work.
+The LV Task Force welcomes input from individuals and organizations around the world on the low vision accessibility work.
 
 ### Contribute without joining the task force
 

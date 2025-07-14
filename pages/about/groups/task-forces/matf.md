@@ -53,13 +53,17 @@ For more information, see [Mobile Accessibility at W3C](https://www.w3.org/WAI/s
 
 ## Contribute to the work
 
-The Mobile Accessibility Task Force welcomes input from the global accessibility community on mobile accessibility work.
+The Mobile Accessibility Task Force welcomes input from individuals and organizations around the world on the mobile accessibility work.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [Mobile Accessibility GitHub repository](https://github.com/w3c/matf/issues):
-* If you’re aware of an issue with any of the published mobile accessibility resources, raise a new issue.
-* Comment on or propose solutions for open mobile accessibility issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft mobile accessibility resources:** Review and provide feedback on drafts that are still being developed.
+- **Open mobile accessibility issues:** Comment on or propose solutions for open issues.
+- **Published mobile accessibility resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [Mobile Accessibility GitHub repository](https://github.com/w3c/matf/issues) or email the [chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs).
 
 ### Become a participant in the task force
 

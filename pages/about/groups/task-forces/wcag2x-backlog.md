@@ -56,11 +56,16 @@ The process includes a two-week review of all changes by the AG Working Group.
 
 ## Contribute to the work
 
-The WCAG 2.x Backlog Task Force welcomes input from the global accessibility community on the work to resolve WCAG 2.x issues.
+The WCAG 2.x Backlog Task Force welcomes input from individuals and organizations around the world on the work to resolve WCAG 2.x issues.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues in the [WCAG GitHub repository](https://github.com/w3c/wcag/issues).
+You can contribute to the work without being a member of the task force:
+
+* If you’re aware of an issue with any of the published WCAG 2.x resources, raise a new issue.
+* Comment on or propose solutions for open WCAG 2.x issues.
+
+Either comment / raise a new issue in the [WCAG GitHub repository](https://github.com/w3c/wcag/issues) or email the [chairs](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#chairs).
 
 ### Become a participant in the task force
 

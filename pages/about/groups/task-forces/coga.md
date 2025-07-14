@@ -51,13 +51,17 @@ For more information, see [Cognitive Accessibility at W3C](https://www.w3.org/WA
 
 ## Contribute to the work
 
-The COGA Task Force welcomes input from the global accessibility community on cognitive and learning accessibility work.
+The COGA Task Force welcomes input from individuals and organizations around the world on the cognitive and learning accessibility work.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [COGA GitHub repository](https://github.com/w3c/coga/issues):
-* If you’re aware of an issue with any of the published COGA resources, raise a new issue.
-* Comment on or propose solutions for open COGA issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft COGA resources:** Review and provide feedback on drafts that are still being developed.
+- **Open COGA issues:** Comment on or propose solutions for open issues.
+- **Published COGA resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [COGA GitHub repository](https://github.com/w3c/coga/issues) or email the [chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs).
 
 ### Become a participant in the task force
 

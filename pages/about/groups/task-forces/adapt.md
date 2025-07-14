@@ -53,14 +53,17 @@ For more information on the WAI-Adapt work, see:
 
 ## Contribute to the work
 
-The WAI-Adapt Task Force welcomes input from the global accessibility community on the work to enable content and interface personalization for people with cognitive and learning disabilities.
+The WAI-Adapt Task Force welcomes input from individuals and organizations around the world on the work to enable content and interface personalization for people with cognitive and learning disabilities.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [WAI-Adapt GitHub repository](https://github.com/w3c/adapt/issues):
+You can contribute to the work without being a member of the task force:
 
-* If you’re aware of an issue with any of the published WAI-Adapt resources, raise a new issue.
-* Comment on or propose solutions for open WAI-Adapt issues.
+- **Draft WAI-Adapt resources:** Review and provide feedback on drafts that are still being developed.
+- **Open WAI-Adapt issues:** Comment on or propose solutions for open issues.
+- **Published WAI-Adapt resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [WAI-Adapt GitHub repository](https://github.com/w3c/adapt/issues) or email the [chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs).
 
 ### Become a participant in the task force
 

@@ -85,7 +85,7 @@ The [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) describes
 
 ## Contribute to the work
 
-W3C and the ARIA Working Group welcome input on ARIA work from the global accessibility community.
+W3C and the ARIA Working Group welcome input on ARIA work from individuals and organizations around the world.
 
 ### Contribute without joining the group
 

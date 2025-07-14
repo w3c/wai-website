@@ -50,11 +50,13 @@ For details of the current work, see the [Research Questions Task Force wiki](ht
 
 ## Contribute to the work
 
-The Research Questions Task Force welcomes input from the global accessibility community on the emerging and future web technologies research work.
+The Research Questions Task Force welcomes input from individuals and organizations around the world on the emerging and future web technologies research work.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues in the [Research Questions GitHub repository](https://github.com/w3c/rqtf/issues).
+You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues.
+
+Either comment / raise a new issue in the [Research Questions GitHub repository](https://github.com/w3c/rqtf/issues) or email the [chairs](https://www.w3.org/groups/tf/rqtf/participants/#chairs).
 
 ### Become a participant in the task force
 

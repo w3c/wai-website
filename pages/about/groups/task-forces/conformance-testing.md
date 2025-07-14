@@ -44,15 +44,21 @@ The ACT Task Force supports the deliverables of the [Accessibility Guidelines (A
 
 For details of the current work, see the [ACT Task Force wiki](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/).
 
+For more information, see [ACT Overview](/standards-guidelines/act/).
+
 ## Contribute to the work
 
-The ACT Task Force welcomes input from the global accessibility community on the ACT Rules work.
+The ACT Task Force welcomes input from individuals and organizations around the world on the ACT Rules work.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [ACT GitHub repository](https://github.com/w3c/wcag-act/issues/):
-* If you’re aware of an issue with any of the published ACT resources, raise a new issue.
-* Comment on or propose solutions for open ACT issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft ACT resources:** Review and provide feedback on drafts that are still being developed.
+- **Open ACT issues:** Comment on or propose solutions for open issues.
+- **Published ACT resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [ACT GitHub repository](https://github.com/w3c/wcag-act/issues/) or email the [chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs).
 
 ### Become a participant in the task force
 

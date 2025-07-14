@@ -55,7 +55,7 @@ For details of the current work, see the [APA Working Group wiki](https://www.w3
 
 ## Contribute to the work
 
-W3C and the APA Working Group welcome input on APA work from the global accessibility community.
+W3C and the APA Working Group welcome input on APA work from individuals and organizations around the world.
 
 ### Contribute without joining the group
 

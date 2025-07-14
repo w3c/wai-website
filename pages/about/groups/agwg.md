@@ -64,7 +64,7 @@ WCAG 3 is still years away from becoming a W3C standard. For more information, s
 
 ## Contribute to the work
 
-W3C and the AG Working Group welcome input on WCAG work from the global accessibility community.
+W3C and the AG Working Group welcome input on WCAG work from individuals and organizations around the world.
 
 ### Contribute without joining the group
 

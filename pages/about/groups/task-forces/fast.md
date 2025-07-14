@@ -50,13 +50,17 @@ For details of the current work, see the [FAST GitHub repository](https://github
 
 ## Contribute to the work
 
-The FAST Task Force welcomes input from the global accessibility community on the FAST work.
+The FAST Task Force welcomes input from individuals and organizations around the world on the FAST work.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [FAST GitHub repository](https://github.com/w3c/fast/issues):
-* If you’re aware of an issue with any of the published FAST resources, raise a new issue.
-* Comment on or propose solutions for open FAST issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft FAST resources:** Review and provide feedback on drafts that are still being developed.
+- **Open FAST issues:** Comment on or propose solutions for open issues.
+- **Published FAST resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [FAST GitHub repository](https://github.com/w3c/fast/issues) or email the [chairs](https://www.w3.org/groups/tf/fast/participants/#chairs).
 
 ### Become a participant in the task force
 

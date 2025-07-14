@@ -47,13 +47,17 @@ For details of the current work, see the [PDF-AAM GitHub repository](https://git
 
 ## Contribute to the work
 
-The PDF-AAM Task Force welcomes input from the global accessibility community on the PDF-AAM module.
+The PDF-AAM Task Force welcomes input from individuals and organizations around the world on the PDF-AAM module.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [PDF-AAM GitHub repository](https://github.com/w3c/pdf-aam/issues):
-* If you’re aware of an issue with the PDF-AAM module, raise a new issue.
-* Comment on or propose solutions for open PDF-AAM issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft PDF-AAM resources:** Review and provide feedback on drafts that are still being developed.
+- **Open PDF-AAM issues:** Comment on or propose solutions for open issues.
+- **Published PDF-AAM resources** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [PDF-AAM GitHub repository](https://github.com/w3c/pdf-aam/issues) or email the [chairs](https://www.w3.org/groups/tf/pdf-aam/participants/#chairs).
 
 ### Become a participant in the task force
 
