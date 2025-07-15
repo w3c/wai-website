@@ -91,7 +91,7 @@ W3C and the ARIA Working Group welcome input on ARIA work from individuals and o
 
 There are ways you can contribute without being a member of the working group:
 
-* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; to be notified about draft documents for review, [subscribe to WAI news](https:///news/subscribe/).
+* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; to be notified about draft documents for review, [subscribe to WAI news](/news/subscribe/).
 * **Raise, comment on, or propose fixes to ARIA issues:** If you’re aware of an issue with any of the published ARIA resources, W3C welcomes you to raise a new issue on GitHub, or you can also comment on and, even better, propose solutions for existing issues &mdash; see the list of [repositories maintained by the ARIA Working Group below](#github-repositories).
 * **Contribute to ARIA discussions:** You may contribute your views to the ARIA Working Group's [open ARIA discussions in GitHub](https://github.com/w3c/aria/discussions) and [mailing list discussions](https://lists.w3.org/Archives/Public/public-aria/).
 
