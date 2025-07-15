@@ -33,7 +33,7 @@ Find out about the activities of the Portable Document Format Accessibility Appl
 
 ## Objectives 
 
-The PDF-AAM Task Force specifies how user agents should map accessibility semantics within the Portable Document Format specification.
+The objective of the PDF-AAM Task Force is to specify how user agents should map accessibility semantics within the Portable Document Format specification.
 
 ## Work Statement
 
@@ -47,17 +47,13 @@ For details of the current work, see the [PDF-AAM GitHub repository](https://git
 
 ## Contribute to the work
 
-The PDF-AAM Task Force welcomes input from individuals and organizations around the world on the PDF-AAM module.
+The PDF-AAM Task Force welcomes input from the global accessibility community on the PDF-AAM module.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force:
-
-- **Draft PDF-AAM resources:** Review and provide feedback on drafts that are still being developed.
-- **Open PDF-AAM issues:** Comment on or propose solutions for open issues.
-- **Published PDF-AAM resources** Let us know if there is a new issue with any of these.
-
-Either comment / raise a new issue in the [PDF-AAM GitHub repository](https://github.com/w3c/pdf-aam/issues) or email the [chairs](https://www.w3.org/groups/tf/pdf-aam/participants/#chairs).
+You can contribute to the work without being a member of the task force in the [PDF-AAM GitHub repository](https://github.com/w3c/pdf-aam/issues):
+* If you’re aware of an issue with the PDF-AAM module, raise a new issue.
+* Comment on or propose solutions for open PDF-AAM issues.
 
 ### Become a participant in the task force
 
@@ -75,7 +71,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 **Note:** As a participant in one of the ARIA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force participants
+## Task force members
 
 * [Chairs](https://www.w3.org/groups/tf/pdf-aam/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/pdf-aam/participants/#participants)
@@ -88,7 +84,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 ## Publications
 
-The PDF-AAM Task Force develops and maintains the [PDF Accessibility API Mappings &mdash; Editor’s Draft](https://w3c.github.io/pdf-aam/) for the ARIA Working Group.
+The PDF-AAM Task Force will develop and maintain the [PDF Accessibility API Mappings &mdash; 2024 Editor’s Draft](https://w3c.github.io/pdf-aam/) for the ARIA Working Group.
 
 ## Contact the chairs
 

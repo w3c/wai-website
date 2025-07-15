@@ -32,11 +32,7 @@ Find out about the activities of the Framework for Accessible Specification of T
 
 ## Objectives
 
-The FAST Task Force develops and maintains:
-
-- inventories of user and functional needs,
-- best practices guidance describing the features that web technologies should provide to ensure accessible content can be created, and 
-- the self-assessment tool used by W3C working groups during W3C’s accessibility horizontal review process.
+The objectives of the FAST Task Force are to develop and maintain inventories of user and functional needs; best practices guidance describing the features that web technologies should provide to ensure accessible content can be created; and the self-assessment tool used by W3C working groups during W3C’s accessibility horizontal review process.
 
 ## Work statement
 
@@ -50,17 +46,13 @@ For details of the current work, see the [FAST GitHub repository](https://github
 
 ## Contribute to the work
 
-The FAST Task Force welcomes input from individuals and organizations around the world on the FAST work.
+The FAST Task Force welcomes input from the global accessibility community on the FAST work.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force:
-
-- **Draft FAST resources:** Review and provide feedback on drafts that are still being developed.
-- **Open FAST issues:** Comment on or propose solutions for open issues.
-- **Published FAST resources:** Let us know if there is a new issue with any of these.
-
-Either comment / raise a new issue in the [FAST GitHub repository](https://github.com/w3c/fast/issues) or email the [chairs](https://www.w3.org/groups/tf/fast/participants/#chairs).
+You can contribute to the work without being a member of the task force in the [FAST GitHub repository](https://github.com/w3c/fast/issues):
+* If you’re aware of an issue with any of the published FAST resources, raise a new issue.
+* Comment on or propose solutions for open FAST issues.
 
 ### Become a participant in the task force
 
@@ -78,7 +70,7 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 **Note:** As a participant in one of the APA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force participants
+## Task force members
 
 * [Chairs](https://www.w3.org/groups/tf/fast/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/fast/participants/#participants)
@@ -93,7 +85,7 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 The FAST Task Force develops and maintains the following resources for the APA Working Group:
 
-* [Framework for Accessible Specification of Technologies (FAST) &mdash; Editor’s Draft](https://w3c.github.io/fast/)
+* [Framework for Accessible Specification of Technologies (FAST) &mdash; 2024 Editor’s Draft](https://www.w3.org/TR/act-rules-format/)
 * [FAST Report Tool](https://fast-rose.vercel.app/) &mdash; a checklist for reviewing technologies
 
 ## Contact the chairs

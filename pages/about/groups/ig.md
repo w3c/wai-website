@@ -60,9 +60,9 @@ If you want to send a message to this list, you must send it from an email addre
 
 **Note:** Emails to the Announcement List will also go to the Discussion List.
 
-#### Subscribe to or unsubscribe from the Announcements List
+#### Subscribe or unsubscribe to the Announcements List
 
-* To **subscribe**, send an email with the subject line ‘Subscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
+* To **subscribe**, send an email to with the subject line ‘Subscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
 * To **unsubscribe**, send an email with the subject line ‘Unsubscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
 
 ### Discussion List
