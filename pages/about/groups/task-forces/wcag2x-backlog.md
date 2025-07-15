@@ -32,12 +32,14 @@ Find out about the activities of the WCAG 2.x Backlog Task Force and how you can
 
 ## Objectives
 
-The objectives of the WCAG 2.x Backlog Task Force are to maintain up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG); and to document considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification.
+The WCAG 2.x Backlog Task Force:
+
+- maintains up-to-date versions of the normative and informative materials associated with versions 2.0, 2.1, and 2.2 (2.x) of the Web Content Accessibility Guidelines (WCAG), and
+- documents considerations for WCAG 3.0 that cannot be readily addressed within the existing normative language of the WCAG 2.x specification.
 
 ## Work statement
 
 To learn about the focus, scope and deliverables of the task force, see the [WCAG 2.x Backlog Task Force Work Statement](/about/groups/task-forces/wcag2x-backlog/work-statement/).
-
 
 ## Current work
 
@@ -54,11 +56,16 @@ The process includes a two-week review of all changes by the AG Working Group.
 
 ## Contribute to the work
 
-The WCAG 2.x Backlog Task Force welcomes input from the global accessibility community on the work to resolve WCAG 2.x issues.
+The WCAG 2.x Backlog Task Force welcomes input from individuals and organizations around the world on the work to resolve WCAG 2.x issues.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues in the [WCAG GitHub repository](https://github.com/w3c/wcag/issues).
+You can contribute to the work without being a member of the task force:
+
+* If you’re aware of an issue with any of the published WCAG 2.x resources, raise a new issue.
+* Comment on or propose solutions for open WCAG 2.x issues.
+
+Either comment / raise a new issue in the [WCAG GitHub repository](https://github.com/w3c/wcag/issues) or email the [chairs](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#chairs).
 
 ### Become a participant in the task force
 
@@ -76,7 +83,7 @@ Once you are a member of the AG Working Group, email the [W3C staff contact for 
 
 **Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#chairs)
 * [Participants](https://www.w3.org/groups/tf/wcag2x-backlog/participants/)
