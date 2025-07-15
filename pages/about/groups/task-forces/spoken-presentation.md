@@ -51,7 +51,7 @@ For details of the current work, see:
 
 For more information on the spoken presentation work, see:
 
-* [Pronunciation overview](https://www.w3.org/WAI/pronunciation/) &mdash; an overview of W3C’s pronunciation technique
+* [Pronunciation overview](/pronunciation/) &mdash; an overview of W3C’s pronunciation technique
 * [Pronunciation video {% include_cached external.html %}](https://ln.sync.com/dl/10e1a9c60/92faztk9-he4wbve6-twt5jp3h-zuh6brfd) &mdash; a technical demonstration of approaches for controlling pronunciation in spans of web content where uniform markup can make a difference
 
 ## Contribute to the work

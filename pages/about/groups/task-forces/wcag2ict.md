@@ -44,7 +44,7 @@ The WCAG2ICT Task Force supports the deliverables of the [Accessibility Guidelin
 
 For details of the current work, see the [WCAG2ICT Task Force wiki](https://github.com/w3c/wcag2ict/wiki).
 
-For more information, see [WCAG2ICT Overview](https://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/).
+For more information, see [WCAG2ICT Overview](/standards-guidelines/wcag/non-web-ict/).
 
 ## Contribute to the work
 

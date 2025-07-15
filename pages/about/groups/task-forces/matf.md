@@ -49,7 +49,7 @@ The Mobile Accessibility Task Force supports the deliverables of the [Accessibil
 
 For details of the current work, see the [Mobile Accessibility Task Force GitHub repository](https://github.com/w3c/matf/issues).
 
-For more information, see [Mobile Accessibility at W3C](https://www.w3.org/WAI/standards-guidelines/mobile/).
+For more information, see [Mobile Accessibility at W3C](/standards-guidelines/mobile/).
 
 ## Contribute to the work
 
