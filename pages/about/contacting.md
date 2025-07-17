@@ -3,10 +3,8 @@ title: Contact WAI
 nav_title: "Contact"
 lang: en
 
-permalink: /about/contact/
-ref: /about/contact/
-redirect_from:
-  - /about/contacting/
+permalink: /about/contacting/
+ref: /about/contacting/
 
 github:
     label: wai-about

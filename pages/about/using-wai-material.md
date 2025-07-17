@@ -5,10 +5,8 @@ nav_title: Use WAI Material
 lang: en
 last_updated: 2024-07-17
 
-permalink: /about/use-wai-material/
-ref: /about/use-wai-material/
-redirect_from:
-  - /about/using-wai-material/
+permalink: /about/using-wai-material/
+ref: /about/using-wai-material/
 
 github:
   label: wai-about
