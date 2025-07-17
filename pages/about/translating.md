@@ -84,9 +84,9 @@ Then, **you must ask and receive permission from W3C**. It generally involves se
 
 It involves the following steps:
 
-#.  Get the files to translate &mdash; from a GitHub repository or from WAI staff.
-#.  Edit the file(s) in a code editor.
-#.  Send the code for review: &mdash; directly by opening a pull request in GitHub or by sending the file(s) back to WAI staff.
+- Get the files to translate &mdash; from a GitHub repository or from WAI staff.
+- Edit the file(s) in a code editor.
+- Send the code for review: &mdash; directly by opening a pull request in GitHub or by sending the file(s) back to WAI staff.
 
 To avoid overlapping work:
 
