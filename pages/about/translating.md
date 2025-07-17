@@ -62,11 +62,11 @@ You can contribute to WAI translations in many ways:
 [Reviewing WAI resources translations](/about/translating/reviewing/)
 : You can help spot issues in translations before publication, even if you are not technical or do not know the translated language.
 
-[Creating a WCAG unofficial translation {% include_cached external.html label="Different page format" %}](https://www.w3.org/Consortium/Translation/)
+[Creating a WCAG Unofficial translation {% include_cached external.html label="Different page format" %}](https://www.w3.org/Consortium/Translation/)
 : You can create an unofficial translation of the Web Content Accessibility Guidelines (WCAG) after following a light process. Unofficial translations are not hosted on the W3C website nor endorsed by W3C.
 
-[Creating a WCAG authorized translation](/about/translating/wcag/)
-: You can develop an authorized translation of WCAG that will be published on W3C website. It involves a formal process, coordination with stakeholder organizations, and a thorough review.
+[Creating a WCAG Authorized translation](/about/translating/wcag/)
+: You can develop an Authorized translation of WCAG that will be published on W3C website. It involves a formal process, coordination with stakeholder organizations, and a thorough review.
 
 We encourage you to keep up on translations work by [subscribing to the WAI Translations mailing list](mailto:public-wai-translations-request@w3.org?subject=subscribe).
 
@@ -98,7 +98,7 @@ To avoid overlapping work:
 All translations are reviewed before they are published.
 - WAI resources translations are reviewed by other volunteers and WAI staff. Once reviewed, they are published on the W3C WAI website.
 - WCAG Candidate Authorized Translations (CAT) follow a formal review process described in the [Policy for Authorized W3C Translations](https://www.w3.org/2005/02/TranslationPolicy.html). Once reviewed, they are published on the W3C website.
-- WCAG unofficial translations follow a simpler review process.
+- WCAG Unofficial translations follow a simpler review process.
 
 ## Additional information
 
@@ -154,4 +154,4 @@ Web pages at URIs that begin with www.w3.org/TR/ (for "Technical Report") follow
 Most translations are informative and unofficial. In cases where standards translations are meant for official purposes, they may be developed as Authorized W3C Translations according to the **[Policy for Authorized W3C Translations](https://www.w3.org/2005/02/TranslationPolicy.html)**. Generally only completed W3C Recommendations and Working Group Notes are candidates for Authorized W3C Translations, including the WAI guidelines. The authorized translations policy is designed to ensure transparency and community accountability in the development of authorized translations under the oversight of W3C.
 
 * [WCAG 2 Translations](/standards-guidelines/wcag/translations/) lists in-progress and completed translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1 and 2.0, including unofficial translations and Authorized W3C Translations. To translate WCAG 2, follow the instructions at [[How to translate WCAG 2]](/about/translating/wcag/).
-* [Authorized Translations of W3C Recommendations](https://www.w3.org/Translations/authorized.html) lists completed authorized W3C translations of WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.
+* [Authorized Translations of W3C Recommendations](https://www.w3.org/Translations/authorized.html) lists completed Authorized W3C Translations of WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.
