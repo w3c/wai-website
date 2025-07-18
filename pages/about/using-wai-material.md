@@ -3,7 +3,7 @@ title: "Use WAI material: Permission to use with attribution"
 title_html: "Use WAI Material:<br>Permission to use with attribution"
 nav_title: Use WAI Material
 lang: en
-last_updated: 2024-07-17
+last_updated: 2025-07-18
 
 permalink: /about/using-wai-material/
 ref: /about/using-wai-material/
