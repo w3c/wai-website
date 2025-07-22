@@ -1,6 +1,6 @@
 ---
-title: Contacting WAI
-nav_title: "Contacting"
+title: Contact WAI
+nav_title: "Contact"
 lang: en
 
 permalink: /about/contacting/
