@@ -47,7 +47,7 @@ The mission of the APA Working Group is to ensure W3C specifications support acc
 * collaborating with other W3C working groups on technology accessibility
 * coordinating harmonized accessibility strategies within W3C that include security, privacy, and internationalization
 
-To learn about the group’s focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/2023/07/apa-wg-charter).
+To learn about the group’s focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/2025/06/apa-wg-charter.html).
 
 ## Current work
 
