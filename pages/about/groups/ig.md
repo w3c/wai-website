@@ -52,19 +52,16 @@ The group provides frequent opportunities for you to give input on digital acces
 
 The WAI Interest Group has two mailing lists with public archives:
 1. **Announcements list** (public-wai-announce)  &mdash; for WAI announcements only. [Announcements archives](http://lists.w3.org/Archives/Public/public-wai-announce/)
-2. **Discussion list** (w3c-wai-ig) &mdash; for public discussion and WAI announcements. [Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/)
+   * To **subscribe** to the Announcements list, send an email with the subject [‘Subscribe’ to public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
+   * To unsubscribe, send an email with the subject [‘Unsubscribe’ to public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
+
+3. **Discussion list** (w3c-wai-ig) &mdash; for public discussion and WAI announcements. [Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/)
    * If you are subscribed to the Discussion list, you will also get emails sent to the Announcements list, so you don't need to subscribe to both lists.
    * If you want to send messages to the Discussion list, you must subscribe to it.
+   * To **subscribe** to the Discussion list, send an email with the subject [‘Subscribe’ to w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=subscribe).
+   * To unsubscribe from the list, send an email with the subject [‘Unsubscribe’ to w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=unsubscribe).
 
-### Announcements list
-
-* To **subscribe** to the Announcements list, send an email with the subject [‘Subscribe’ to public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
-* To unsubscribe, send an email with the subject [‘Unsubscribe’ to public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
-
-### Discussion list
-
-* To **subscribe** to the Discussion list, send an email with the subject [‘Subscribe’ to w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=subscribe).
-* To unsubscribe from the list, send an email with the subject [‘Unsubscribe’ to w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=unsubscribe).
+### Using the Discussion list
 
 #### Contributing to positive discussions
 
@@ -92,7 +89,7 @@ Make sure your message is related to digital accessibility and is appropriate fo
 
 The first time you send a message to a public W3C mailing list, you will get a reply email asking if you will give permission for your message to be distributed to the list and thus go into the public archive. There is an option to do this once and then you don't have to do it again in the future.
 
-**Replying to messages:**
+##### Replying to messages
 -   When your comments are not useful for the entire list, please **reply off-list** — that is, reply directly to the sender and do not send your message to the list.
 -   If you change topics, change the Subject. This is usually handled as follows:<br>
     `New Topic XYZ [was: Old Topic]`
