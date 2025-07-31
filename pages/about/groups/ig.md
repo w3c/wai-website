@@ -48,12 +48,11 @@ The group provides frequent opportunities for you to give input on digital acces
 * **Comment on WAI publications:** During development, the group publishes working drafts of [WAI working groups](/about/groups/)’ deliverables, with options for public comment &mdash; these are announced on the WAI Interest Group mailing lists.
 * **Contribute to digital accessibility discussions:** Contribute your views to the WAI Interest Group’s mailing list discussions.
 
-
 ## WAI Interest Group mailing lists {#mailinglist}
 
 The WAI Interest Group has two mailing lists with public archives:
-1. **Announcements list (public-wai-announce)**  &mdash; for WAI announcements only. [Announcements archives](http://lists.w3.org/Archives/Public/public-wai-announce/)
-2. **Discussion list (w3c-wai-ig)** &mdash; for public discussion and WAI announcements. [Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/)
+1. **Announcements list** (public-wai-announce)  &mdash; for WAI announcements only. [Announcements archives](http://lists.w3.org/Archives/Public/public-wai-announce/)
+2. **Discussion list** (w3c-wai-ig) &mdash; for public discussion and WAI announcements. [Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/)
    * If you are subscribed to the Discussion list, you will also get emails sent to the Announcements list, so you don't need to subscribe to both lists.
    * If you want to send messages to the Discussion list, you must subscribe to it.
 
@@ -86,7 +85,7 @@ Make sure your message is related to digital accessibility and is appropriate fo
 - **If your message is asking about vendors or products**, include the following wording in your message:<br>
 "Please reply to me directly and not to the whole list, so that specific vendor or product information is not discussed on the list."
 
-To send a message to the Discussion list:
+**To send a message to the Discussion list:**
 - First subscribe to the list (instructions above).
 - Then send your message from your subscribed email address to [w3c-wai-ig@w3.org](mailto:w3c-wai-ig@w3.org).
    - Use a Subject that describes the topic clearly. 
