@@ -1,5 +1,5 @@
 ---
-title: Web Accessibility Initiative Interest Group
+title: Web Accessibility Initiative (WAI) Interest Group
 nav_title: 'WAI Interest Group'
 lang: en
 permalink: /about/groups/waiig/
@@ -49,7 +49,7 @@ The group provides frequent opportunities for you to give input on digital acces
 * **Contribute to digital accessibility discussions:** Contribute your views to the WAI Interest Group’s mailing list discussions.
 
 
-## Mailing lists {#mailinglist}
+## WAI Interest Group mailing lists {#mailinglist}
 
 The WAI Interest Group has two mailing lists with public archives:
 1. **Announcements list (public-wai-announce)**  &mdash; for WAI announcements only. [Announcements archives](http://lists.w3.org/Archives/Public/public-wai-announce/)
