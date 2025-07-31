@@ -35,7 +35,7 @@ The WAI Interest Group is a public forum with mailing lists for sharing informat
 
 The WAI Interest Group is chartered until July 2027.
 
-To learn about the group’s scope, participants and deliverables, see the [WAI Interest Group’s Charter](https://www.w3.org/WAI/IG/20200804).
+To learn about the group’s scope, participants and deliverables, see the [WAI Interest Group’s Charter](https://www.w3.org/2025/05/wai-ig-charter).
 
 ## Participate in digital accessibility discussions
 
