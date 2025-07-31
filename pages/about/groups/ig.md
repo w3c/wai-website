@@ -48,82 +48,56 @@ The group provides frequent opportunities for you to give input on digital acces
 * **Comment on WAI publications:** During development, the group publishes working drafts of [WAI working groups](/about/groups/)’ deliverables, with options for public comment &mdash; these are announced on the WAI Interest Group mailing lists.
 * **Contribute to digital accessibility discussions:** Contribute your views to the WAI Interest Group’s mailing list discussions.
 
-## WAI Interest Group mailing lists {#mailinglist}
 
-The WAI Interest Group has two mailing lists.
+## Mailing lists {#mailinglist}
 
-### Announcements List
+The WAI Interest Group has two mailing lists with public archives:
+1. **Announcements list (public-wai-announce)**  &mdash; for WAI announcements only. [Announcements archives](http://lists.w3.org/Archives/Public/public-wai-announce/)
+2. **Discussion list (w3c-wai-ig)** &mdash; for public discussion and WAI announcements. [Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/)
+   * If you are subscribed to the Discussion list, you will also get emails sent to the Announcements list, so you don't need to subscribe to both lists.
+   * If you want to send messages to the Discussion list, you must subscribe to it.
 
-The Announcements List is for WAI announcements only &mdash; see the [Announcement List Mail Archive](https://lists.w3.org/Archives/Public/public-wai-announce/).
+### Announcements list
 
-If you want to send a message to this list, you must send it from an email address that is subscribed to the list.
+* To **subscribe** to the Announcements list, send an email with the subject [‘Subscribe’ to public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
+* To unsubscribe, send an email with the subject [‘Unsubscribe’ to public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
 
-**Note:** Emails to the Announcement List will also go to the Discussion List.
+### Discussion list
 
-#### Subscribe to or unsubscribe from the Announcements List
+* To **subscribe** to the Discussion list, send an email with the subject [‘Subscribe’ to w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=subscribe).
+* To unsubscribe from the list, send an email with the subject [‘Unsubscribe’ to w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=unsubscribe).
 
-* To **subscribe**, send an email with the subject line ‘Subscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
-* To **unsubscribe**, send an email with the subject line ‘Unsubscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
+#### Contributing to positive discussions
 
-### Discussion List
+Email messages should **contribute to a comfortable, constructive exchange** of ideas to advance digital accessibility. Before you send an email, please think about how it will come across to the people around the world who are on the list and everyone who can read your publicly-archived message.
+-   **Be respectful.** Be positive. Be open to different perspectives.
+-   **Provide constructive information.** Focus on developing potential solutions, rather than just complaining.
+-   Focus on ideas, not participants. Avoid personal attacks, naming calling, and such.
+-   Explain the issue clearly. Provide sufficient background information.
 
-The Discussion List is for public discussion as well as WAI announcements &mdash; see the [Discussion List Mail Archive](https://lists.w3.org/Archives/Public/w3c-wai-ig/).
+See additional guidance in W3C's Code of Conduct: **[Positive Work Environment at W3C: Code of Conduct](https://www.w3.org/Consortium/cepc/)**.
 
-If you want to send a message to this list, you must send it from an email address that is subscribed to the list.
+#### Sending messages to the Discussion list
 
-#### Subscribe or unsubscribe to the Discussion List
+Make sure your message is related to digital accessibility and is appropriate for the WAI Interest Group.
+-  No soliciting. You may send messages about public conferences. You may not advertise products or services. 
+-  If you are not sure whether or not a message is appropriate for the WAI IG list, please send a draft message to WAI staff at [wai@w3.org](mailto:wai@w3.org?subject=WAI-IG-message-draft).
+-  If you have a question about the WAI IG mailing list itself, please don't send it to the list — instead, send it to WAI staff at [wai@w3.org](mailto:wai@w3.org?subject=WAI-IG-list).
+- **If your message is asking about vendors or products**, include the following wording in your message:<br>
+"Please reply to me directly and not to the whole list, so that specific vendor or product information is not discussed on the list."
 
-* To **subscribe** to the list, send an email with the subject line ’Subscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=subscribe).
-* To **unsubscribe** from the list, send an email with the subject line ‘Unsubscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=unsubscribe).
+To send a message to the Discussion list:
+- First subscribe to the list (instructions above).
+- Then send your message from your subscribed email address to [w3c-wai-ig@w3.org](mailto:w3c-wai-ig@w3.org).
+   - Use a Subject that describes the topic clearly. 
 
-#### Using the Discussion List
+The first time you send a message to a public W3C mailing list, you will get a reply email asking if you will give permission for your message to be distributed to the list and thus go into the public archive. There is an option to do this once and then you don't have to do it again in the future.
 
-##### Find discussion topics
-
-You can use the [Discussion List Mail Archive](https://lists.w3.org/Archives/Public/w3c-wai-ig/) to search for accessibility topics that participants have raised for discussion.
-
-##### Email the Discussion List
-
-Once you are subscribed, you can message the Discussion List by emailing [w3c-wai-ig@w3.org](mailto:w3c-wai-ig@w3.org).
-
-**Note:** The first time you email this public W3C mailing list, you will get an email asking you to give permission for your message to be sent to the group and be listed in the public mail archive. 
-
-When emailing the Discussion List:
-
-* Use a Subject line that describes the topic well. 
-* If you change topics, change the Subject line to include both the new and old topics, as follows:  ‘[New Topic] was: [Old Topic]’.
-
-##### Code of conduct for discussions
-
-Make sure your email is related to digital accessibility and is appropriate for the WAI Interest Group. Your message should contribute to a **comfortable, constructive exchange of ideas** to advance digital accessibility.
-
-* If you have questions about whether a message is appropriate for the Discussion List, email the [W3C Staff Contact for the WAI Interest Group](https://www.w3.org/groups/ig/wai/participants/#staff).
-* No soliciting.
-* Be respectful, positive, and open to different perspectives.
-* Focus on ideas, not  people &mdash; avoid personal attacks.
-* Explain the issue clearly and provide sufficient contextual information.
-
-In summary, before you send an email, think about how it will come across to the people around the world who are on the list and who can read your publicly archived message.
-
-See additional guidance in [Positive Work Environment at W3C: Code of Conduct](https://www.w3.org/policies/code-of-conduct/).
-
-##### Asking about vendors or products
-
-W3C is vendor neutral and therefore we do not recommend specific  vendors or products.
-
-**Important:** If asking about vendors or products, include the following wording in your message: 
-
-‘Please reply to me directly and not to the whole list, so that specific vendor or product information is not discussed on the list.’
-
-##### Receiving messages from the Discussion List
-
-If you use auto-reply (out of office), exclude your automatic responses to emails from w3c-wai-ig@w3.org.
-
-##### Replying to a message in the Discussion List
-
-* When your comments are not useful for all participants in the Discussion List, reply directly to the sender.
-* Keep your reply comments near the top of your email.
-* Quote the previous content in the email chain that you are commenting on, so that readers can quickly and easily understand what your reply is referring to.
+**Replying to messages:**
+-   When your comments are not useful for the entire list, please **reply off-list** — that is, reply directly to the sender and do not send your message to the list.
+-   If you change topics, change the Subject. This is usually handled as follows:<br>
+    `New Topic XYZ [was: Old Topic]`
+-   Keep your reply comments near the top of your message, and only quote essential parts of a previous message at the top — so there are few quote markings for readers to wade through. Include the full text of the messages that you are replying to below your reply so that readers can easily get the context from previous messages.
 
 ## Contact the chairs
 
