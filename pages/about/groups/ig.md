@@ -52,7 +52,7 @@ The group provides frequent opportunities for you to give input on digital acces
 ## WAI Interest Group mailing lists {#mailinglist}
 
 The WAI Interest Group has two mailing lists with public archives:
-1. **Announcements List** (public-wai-announce)  &mdash; for WAI announcements only (see [Announcements archives](http://lists.w3.org/Archives/Public/public-wai-announce/))
+1. **Announcements List** (public-wai-announce)  &mdash; for WAI announcements only ([Announcements archives](http://lists.w3.org/Archives/Public/public-wai-announce/))
    * **To subscribe:** Send an email with the subject ‘Subscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
    * **To unsubscribe:** Send an email with the subject ‘Unsubscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
 
