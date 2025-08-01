@@ -33,7 +33,7 @@ The WAI Interest Group is a public forum with two mailing lists for sharing info
 
 ## Mission
 
-The mission of the WAI Interest Group is to promote awareness of W3C accesibility work and publications, encourage engagement in W3C accessibility work, and provide an open public forum for sharing information related to web accessibility.
+The mission of the WAI Interest Group is to promote awareness of W3C accessibility work and publications, encourage engagement in W3C accessibility work, and provide an open public forum for sharing information related to web accessibility.
 
 To learn about the group’s scope, see the [WAI Interest Group’s Charter](https://www.w3.org/2025/05/wai-ig-charter).
 
@@ -59,8 +59,8 @@ The WAI Interest Group has two mailing lists with public archives:
 2. **Discussion List** (w3c-wai-ig) &mdash; for public discussion and WAI announcements ([Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/))
    * If you are subscribed to the Discussion list, you will also receive emails sent to the Announcements list, so you don't need to subscribe to both lists.
    * If you want to send messages to the Discussion list, you must subscribe to it.
-   *** To subscribe:** Send an email with the subject ‘Subscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=subscribe).
-   * **To unsubscribe: Send an email with the subject ‘Unsubscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=unsubscribe).
+   * **To subscribe:** Send an email with the subject ‘Subscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=subscribe).
+   * **To unsubscribe:** Send an email with the subject ‘Unsubscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=unsubscribe).
 
 ### Using the Discussion List
 
