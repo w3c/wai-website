@@ -35,7 +35,7 @@ The WAI Interest Group is a public forum with two mailing lists for sharing info
 
 The mission of the WAI Interest Group is to promote awareness of W3C accesibility work and publications, encourage engagement in W3C accessibility work, and provide an open public forum for sharing information related to web accessibility.
 
-To learn about the group’s scope and deliverables, see the [WAI Interest Group’s Charter](https://www.w3.org/2025/05/wai-ig-charter).
+To learn about the group’s scope, see the [WAI Interest Group’s Charter](https://www.w3.org/2025/05/wai-ig-charter).
 
 ## Participate in digital accessibility discussions
 
@@ -87,7 +87,7 @@ Make sure your message is related to digital accessibility and is appropriate fo
 - Then send your message from your subscribed email address to [w3c-wai-ig@w3.org](mailto:w3c-wai-ig@w3.org).
 - Use a Subject that describes the topic clearly. 
 
-**Note:** The first time you send a message to a public W3C mailing list, you will get a reply email asking if you will give permission for your message to be distributed to the list and be part of the public archive. You won't have to do this again if you send more messages.
+**Note:** The first time you send a message to a public W3C mailing list, you will get a reply email asking if you will give permission for your message to be distributed to the list and be part of the public archive. If you choose the option to give permission, you won't receive this email again when sending future messages.
 
 ##### Replying to a message
 -   When your comments are not useful for the entire list, please **reply off-list** &mdash; that is, reply directly to the sender and do not send your message to the list.
