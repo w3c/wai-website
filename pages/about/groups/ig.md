@@ -56,7 +56,7 @@ The WAI Interest Group has two mailing lists with public archives:
    * **To subscribe:** Send an email with the subject ‘Subscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
    * **To unsubscribe:** Send an email with the subject ‘Unsubscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
 
-2. **Discussion List** (w3c-wai-ig) &mdash; for public discussion and WAI announcements (see [Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/))
+2. **Discussion List** (w3c-wai-ig) &mdash; for public discussion and WAI announcements ([Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/))
    * If you are subscribed to the Discussion list, you will also receive emails sent to the Announcements list, so you don't need to subscribe to both lists.
    * If you want to send messages to the Discussion list, you must subscribe to it.
    *** To subscribe:** Send an email with the subject ‘Subscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=subscribe).
