@@ -18,7 +18,7 @@ The WAI Interest Group is a public forum with mailing lists for sharing informat
 {% include box.html type="end" %}
 {:/}
 
-{::options toc_levels="2,3" /}
+{::options toc_levels="2,3,4,5" /}
 
 {::nomarkdown}
 {% include_cached toc.html type="start" title="Page Contents" %}
