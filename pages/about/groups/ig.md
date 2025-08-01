@@ -47,7 +47,7 @@ The group provides frequent opportunities for you to give input on digital acces
 
 * **Comment on WAI publications:** Review standards and resources in development &mdash; these are announced in the WAI Interest Group mailing lists.
 * **Contribute to discussions:** Share your perspective in the group's discussions on digital accessibility.
-* **Ask questions:** From the group, you can get multiple perspectives on any questions or ideas you may have about digital accessibility.
+* **Ask questions:** From the group, you can get multiple perspectives on questions or ideas you have about digital accessibility.
 
 ## WAI Interest Group mailing lists {#mailinglist}
 
