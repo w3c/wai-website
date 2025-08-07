@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, July 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, August 2025</span>"
 lang: en
-last_updated: 2025-06-30
+last_updated: 2025-08-06 # update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -156,14 +156,7 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 "We" is:
 
 * [W3C](https://www.w3.org/Consortium/) Web Accessibility Initiative ([WAI](/about/))
-* W3C WAI Team:
-  * [Shawn Lawton Henry](https://www.w3.org/staff/wai/#shawn) is Web Accessibility Initiative (WAI) Program Lead; Accessibility Education and Communications Lead.
-  * [Kevin White](https://www.w3.org/staff/wai/#kevin) is Accessibility Technical Lead and supports the Accessibility Guidelines Working Group that develops WCAG.
-  * [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/wai/#ran) supports accessibility Working Groups and accessibility in China.
-  * [Daniel Montalvo](https://www.w3.org/staff/wai/#dmontalvo) supports accessibility Working Groups and standards harmonization.
-  * [Ken Franqueiro](https://www.w3.org/staff/wai/#kfranqueiro) supports the technical architecture for WCAG 2, WCAG 3, and more.
-  * [Tamsin Ewing](https://www.w3.org/staff/wai/#tamsin) supports accessibility communications and Working Group deliverables.
-  * [Rémi Bétin](https://www.w3.org/staff/wai/#remibetin) supports WAI translations, WAI website processes, WAI courses, and more.
+* [W3C WAI Staff](/about/#wai-staff)
 * Participants of: [AG](https://www.w3.org/groups/wg/ag/participants), [APA](https://www.w3.org/groups/wg/apa/participants), [ARIA](https://www.w3.org/groups/wg/aria/participants), [EPUB](https://www.w3.org/groups/wg/epub/participants), and other [W3C groups](https://www.w3.org/groups/)
 
 <section class="default-grid teaser making-web-accessible" aria-labelledby="mwa-title" style="border: 1px solid var(--line-grey);">
@@ -195,6 +188,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 6 August 2025
+  * Changed staff list under [Who is we](/update/#who-is-we) to link to [W3C WAI Staff](/about/#wai-staff)
 * 30 June 2025
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 2 June 2025
