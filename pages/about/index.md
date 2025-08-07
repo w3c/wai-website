@@ -3,7 +3,7 @@ title: "About W3C WAI"
 permalink: /about/
 ref: /about/
 lang: en
-last_updated: 2025-08-05
+last_updated: 2025-08-06
 feedbackmail: wai@w3.org
 class: tight-page
 github:
@@ -146,7 +146,7 @@ Learn more about [Participating in WAI](https://www.w3.org/WAI/about/participati
 ## WAI Staff
 
 * [Shawn Lawton Henry](https://www.w3.org/staff/#shawn) — Director, Web Accessibility Initiative (WAI) — leads the WAI program, education, communications, community and global outreach, development, and stakeholder engagement in W3C accessibility activities.
-* [Kevin White](https://www.w3.org/staff/#kevin) — Senior Principal Accessibility Specialist —leads W3C accessibility technical work, oversees accessibility working groups, and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
+* [Kevin White](https://www.w3.org/staff/#kevin) — Senior Principal Accessibility Specialist — leads W3C accessibility technical work, oversees accessibility working groups, and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
 * [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/#ran) — Principal Accessibility Specialist — supports accessibility working groups, accessibility in China, and W3C work on AI.
 * [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo) — Principal Accessibility Specialist — supports accessibility working groups and standards harmonization.
 * [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) — Senior Software Engineer — supports the technical architecture for WCAG 2, WCAG 3, and more.
