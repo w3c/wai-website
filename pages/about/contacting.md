@@ -1,5 +1,5 @@
 ---
-title: Contacting WAI
+title: Contact WAI
 nav_title: "Contacting"
 lang: en
 
@@ -65,7 +65,7 @@ You can submit comments on the overall WAI website (www.w3.org/) either to a W3C
 
 ## WAI staff
 
-WAI staff are listed in [About W3C WAI, WAI Staff.](https://www.w3.org/WAI/about/#wai-staff).
+WAI staff are listed in [About W3C WAI, WAI Staff](https://www.w3.org/WAI/about/#wai-staff).
 
 To reach all WAI staff, you can email <wai@w3.org>.
 
