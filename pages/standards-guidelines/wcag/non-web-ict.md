@@ -1,7 +1,7 @@
 ---
-title: "WCAG2ICT Overview"
+title: "WCAG2ICT overview"
 lang: en
-last_updated: 2025-04-10
+last_updated: 2025-08-12
 description: "Introduces the document: Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)."
 
 permalink: /standards-guidelines/wcag/non-web-ict/
@@ -20,9 +20,9 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page introduces the document "Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)". It describes how Web Content Accessibility Guidelines (WCAG) principles, guidelines, and success criteria can be applied to non-web ICT, specifically to non-web documents and software. The document covers WCAG 2.0, 2.1, and 2.2.
+Get an overview of why the WCAG2ICT accessibility guidance was developed, who it is for, what it does and does **not** do, and how to comment on it.
 
-Quick link:
+Quick link to the full document:
 * [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/)
 
 {::nomarkdown}
@@ -44,111 +44,107 @@ Quick link:
 
 ## Introduction {#intro}
 
-<cite>Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</cite> describes how the Web Content Accessibility Guidelines (WCAG) can be applied to non-web information and communications technologies (ICT), including documents and software.
+The <cite>'Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)'</cite> Group Note describes how the Web Content Accessibility Guidelines (WCAG) principles, guidelines and success criteria can be applied to non-web information and communications technologies (ICT).
 
-The WCAG2ICT Group Note provides:
-* [Informative](https://www.w3.org/TR/WCAG22/#dfn-informative) **guidance** that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and that does not set requirements.
-* **Guidance** on how the Web Content Accessibility Guidelines (WCAG) could apply to non-Web information and communications technologies (ICT) - this includes  non-Web documents and software, including mobile apps, native applications, platform software, and software on ICT with closed functionality.
-* **Technology-specific explanations or difficulties** for some success criteria. This is especially the case where WCAG makes assumptions on the presence of a browser that would not be true for non-web documents and software. Not all ICT have a user agent or other underlying platform.
+The WCAG2ICT Group Note provides guidance that describes how WCAG 2.0, 2.1, and 2.2 (WCAG 2) criteria can be applied to non-web documents and software - including mobile apps, native applications, platform software, and software on ICT with closed functionality. For specific criteria, the guidance also provides technology-specific explanations that include highlighting difficulties with applying some WCAG 2.x success criteria.  This is especially the case where WCAG makes assumptions on the presence of a browser that would not be true for non-web documents and software. Not all ICT have these concepts.
 
-The WCAG2ICT Group Note is intended to help clarify how to use WCAG 2 to make non-Web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual disabilities, and the needs of people with accessibility requirements due to the effects of aging. Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities.
+The WCAG2ICT Group Note guidance is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual disabilities, as well as the needs of people with accessibility requirements due to the effects of aging. Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities.
 
-WCAG2ICT supports harmonized accessibility solutions across a range of technologies. WCAG2ICT has been a key resource for including WCAG in ICT accessibility regulation, legislation, and standards around the world.
+The WCAG2ICT Group Note supports harmonized accessibility solutions across a range of technologies. It has been a key resource for including WCAG in ICT accessibility regulation, legislation, and standards around the world.
 
-### Background
+## Background
 
-[WCAG 2 was developed for the Web](https://www.w3.org/WAI/standards-guidelines/wcag/glance/). Addressing accessibility for non-Web documents and software involves requirements beyond those included in WCAG 2 and the WCAG2ICT Group Note. Authors and developers are encouraged to seek other relevant advice about current best practices to ensure that non-Web documents and software are accessible, as far as possible, to people with disabilities.
+The first version of the WCAG2ICT Group Note was published in 2013 to address accessibility requirements for non-web ICT. It helped regulatory bodies develop standards (i.e., Section 508, EN 301 549) to adopt WCAG criteria for non-web documents and software. 
 
-The 2013 WCAG2ICT Group Note helped regulatory bodies develop standards (i.e., 508, EN 301549) to adopt WCAG criteria for non-web documents and non-web software. The 2013 Group Note covered WCAG 2.0 (level A and AA) and the latest version of WCAG2ICT Group Note covers all WCAG 2 versions (level A and AA).
+The 2013 Group Note covered WCAG 2.0 Level A and Level AA. The latest version of WCAG2ICT Group Note covers WCAG 2.x Level A and Level AA.
 
-*Background:* **WCAG 2.0** is a normative web standard — it is a W3C Recommendation and an ISO International Standard ([ISO/IEC 40500:2012](https://www.w3.org/QA/2012/10/wcag_20_is_now_also_isoiec_405.html)) — that explains how to make web content (including static web pages, dynamic web applications, etc.) more accessible to people with disabilities. WCAG 2.1 was published in 2018 and **WCAG 2.2** was published in 2023. The [WCAG Overview](/standards-guidelines/wcag/) introduces the WCAG documents and links to supporting resources such as [[WCAG 2.0 at a Glance]](/standards-guidelines/wcag/20/glance/) and [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG20/quickref/).
+Note: WCAG 2 was developed for the Web and not for non-web ICT. This means that fully addressing accessibility for non-web documents and software involves requirements beyond those included in WCAG 2 and WCAG2ICT Group Note. For this reason, authors, designers and developers are encouraged to seek other relevant advice about current best practices to ensure that non-web documents and software are as accessible as possible to people with disabilities.
 
-### Goals
-The objective of the WCAG2ICT Task Force is to develop documentation describing how WCAG 2.x and its principles, guidelines, and success criteria could apply to non-Web Information and Communications Technologies (ICT).
+### About WCAG 2
 
-### Intent and Usage of WCAG2ICT
+**WCAG 2.0** is a normative web standard — i.e., a W3C Recommendation and an ISO International Standard ([ISO/IEC 40500:2012](https://www.w3.org/QA/2012/10/wcag_20_is_now_also_isoiec_405.html)) — that explains how to make web content (including static web pages and dynamic web applications) more accessible to people with disabilities. **WCAG 2.1** was published in 2018 and **WCAG 2.2** was published in 2023. 
 
-WCAG2ICT, like any other W3C Group Note, is informative — it is not normative and does not set requirements. It provides guidance on the application of WCAG 2 principles, guidelines, and success criteria to non-web documents and software. The WCAG2ICT Group Note was developed to provide an authoritative interpretation of how WCAG 2 can apply in different contexts.
+For more information on WCAG 2, see:
+- [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [WCAG 2 at a Glance](https://www.w3.org/WAI/standards-guidelines/wcag/glance/)
+- [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/)
 
-The main focus of the WCAG2ICT Group Note is to provide verbiage replacements for web-based language in the WCAG success criteria and definitions as well as provide additional insights into where WCAG criteria may make assumptions of the presence and functionality of a user agent and assistive technology. This is because not all software has a user agent or platform software with accessibility APIs and services, nor do all technologies have or support assistive technology that acts on programmatic information. 
+## Intent and usage of WCAG2ICT
 
-While the WCAG2ICT Group Note provides guidance on applying WCAG in non-web contexts, application of some success criteria to electronic documents whose source is driven by non-web markup technologies when they are delivered via a website may benefit from more specific guidance. Likewise, guidance for mobile applications may also benefit from a greater level of detail.  
+WCAG2ICT, like any other W3C Group Note, is [informative](https://www.w3.org/TR/WCAG22/#dfn-informative) — it is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and does not set requirements. It provides guidance on the application of WCAG 2 principles, guidelines, and success criteria to non-web documents and software. The WCAG2ICT Group Note was developed to provide an authoritative interpretation of how WCAG 2 can apply in different contexts.
 
+The main focus of the WCAG2ICT Group Note is to provide verbiage replacements for web-based language in WCAG success criteria and definitions. It also provides insights into where WCAG criteria may make assumptions of the presence and functionality of a user agent and assistive technology when these may not exist. This is because not all non-web software has a user agent or platform software with accessibility APIs and services, nor do all non-web technologies have or support assistive technology that acts on programmatic information.
 
-### Versions
-* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) was published 15 November 2024 and covers WCAG 2.0, 2.1, and 2.2
-* older version: [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-20/) was published 5 September 2013 and covers WCAG 2.0
-* The URI [https://www.w3.org/TR/wcag2ict/](https://www.w3.org/TR/wcag2ict/) points to the latest completed version
+While the WCAG2ICT Group Note provides guidance on applying WCAG in non-web contexts, application of some success criteria to electronic documents, whose source is driven by non-web markup technologies when they are delivered via a website, may benefit from more specific guidance. Likewise, guidance for mobile applications may also benefit from a greater level of detail.  
+
+### WCAG2ICT versions
+* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) — published on 15 November 2024 and covers WCAG 2.0, 2.1, and 2.2
+* Older version: [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-20/) — published on 5 September 2013 and covers WCAG 2.0
+* The URI [https://www.w3.org/TR/wcag2ict/](https://www.w3.org/TR/wcag2ict/) — points to the latest completed version
 
 ## Who WCAG2ICT is for {#for}
 
-The WCAG2ICT Group Note is for standards developers, ICT managers, ICT developers, policy makers, and any others wanting to understand how WCAG 2 can be applied to non-web documents and software.
-* Accessibility standards organizations - to provide non-web language in the success criteria and definitions and to provide interpretation notes to help the organization make any potential adjustments or notes needed for specific technologies, if needed.
-* ICT managers  - who are familiar with WCAG to quickly get an overview of using WCAG as an accessibility benchmark for non-web ICT.
-* Technology developers - to provide the language substitutions for non-web language in WCAG success criteria where existing accessibility standards don’t contain an interpretation.
-* Policy makers (including regulators when making regulations) - to inform them how the WCAG2ICT note is being used to influence standards requirements where WCAG is being applied to non-web ICT.
-* Others include auditors, educators, litigators, vendors, and any individuals looking to learn more about digital accessibility.
-
-## What WCAG2ICT Does Not Do
-
-The WCAG2ICT Group Note:
-* Does not make or help developers make a determination on which WCAG 2 provisions (principles, guidelines, or success criteria) should not be applied to non-web documents and software or to any particular technology or product.
-* Does not propose changes to WCAG 2 or its supporting documents.
-* Does not address any gaps between WCAG criteria and the accessibility requirements needed to address non-user interface aspects of platforms, user-interface components as individual items, and closed product software (where there is no assistive technology to communicate programmatic information).
-* Does not apply WCAG to hardware aspects of products, because WCAG  does not apply to hardware.
-* Does not provide techniques for implementing WCAG in any type of technology, web or non-web.
-* Is not a standard and does not describe how non-web ICT should conform to WCAG. 
-* Does not incorporate or interpret any of the WCAG supplemental guidance. 
-
-See the [Guidance in this Document](https://w3c.github.io/wcag2ict/#guidance-in-this-document) section of the WCAG2ICT Group Note for more details.
+The WCAG2ICT Group Note is for anyone wanting to understand how WCAG 2 can be applied to non-web documents and software, including:
+* accessibility standards organizations - to provide them with the non-web language in WCAG success criteria and definitions, as well as the interpretation notes to help them make adjustments or notes that might be needed when WCAG is applied to specific technologies,
+* ICT managers who are familiar with WCAG - to enable them to quickly get an overview of using WCAG as an accessibility benchmark for non-web ICT,
+* technology developers and designers — to provide them with the non-web language substitutions for language in WCAG success criteria, where existing accessibility standards do not contain an interpretation,
+* policy makers (including regulators when making regulations) — to inform them how the WCAG2ICT Group Note is being used to influence standards requirements where WCAG is being applied to non-web ICT, and
+* others, including auditors, educators, litigators, vendors - to help them learn more about digital accessibility.
 
 ## What is in WCAG2ICT {#whatis}
 
 WCAG2ICT provides:
 
--   **Overall context** for applying WCAG 2 to non-web documents and software.
--   **Guidance on applying the WCAG principles, guidelines, and Levels A and AA success criteria** to non-web documents and software.
--   **Key Terms** related to applying WCAG 2 to non-web documents and software.
--   **Comments on the definitions** in the WCAG 2 Glossary.
--   **Comments on conformance**.
--   **Background information** on some topics.
-
-WCAG2ICT includes material from the WCAG 2 standard to provide context, along with specific guidance related to non-web ICT, formatted as follows:
-
--   **WCAG 2 principles, guidelines, and success criteria** — the exact text from the WCAG 2 standard. *These are quoted fragments, visually styled in pale yellow boxes.*
--   **Guidance on applying each success criteria to non-web documents and software**. *These are visually styled in pale blue boxes with a heading on a dark blue background that starts with "Applying ...".*
+-   **overall context** for applying WCAG 2 to non-web documents and software,
+-   **guidance on applying the WCAG principles, guidelines, and Levels A and AA success criteria** to non-web documents and software,
+-   **key Terms** related to applying WCAG 2 to non-web documents and software,
+-   **comments on the definitions** in the WCAG 2 Glossary,
+-   **comments on conformance**, and
+-   **background information** on some topics.
 
 ### Technical document format
 
-WCAG2ICT follows the [W3C](https://www.w3.org) format for technical reports, which has several sections at the beginning, including links to different versions, editors, abstract, and status.
+WCAG2ICT follows the [W3C format for technical reports](https://www.w3.org/Consortium/Process/Process-19991111/tr.html#Reports), which has several sections at the beginning, including links to different versions, editors, abstract, and status.
+
+## What WCAG2ICT Does Not Do
+
+The WCAG2ICT Group Note:
+* does not make or help developers determine which WCAG 2 provisions (principles, guidelines, or success criteria) should not be applied to non-web documents and software, or to any particular technology or product,
+* does not propose changes to WCAG 2 or its supporting documents,
+* does not address any gaps between WCAG success criteria and the accessibility requirements needed to address non-user interface aspects of platforms, user-interface components as individual items, and closed product software (where there is no assistive technology to communicate programmatic information),
+* does not apply WCAG to hardware aspects of products, because WCAG does not apply to hardware,
+* does not provide techniques for implementing WCAG in any type of technology — web or non-web,
+* is not a standard and does not describe how non-web ICT should conform to WCAG, and
+* does not incorporate or interpret any of the WCAG supplemental guidance.
 
 ## Who develops WCAG2ICT {#wg}
 
-The WCAG2ICT Group Note is developed by the [WCAG2ICT Task Force](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/). The work statement defines the objectives, scope, and approach for the WCAG2ICT Group Note. The participants of the WCAG2ICT TF are volunteers drawn from W3C member organizations and invited experts and are supported by Web Accessibility Initiative (WAI) staff.
+The WCAG2ICT Group Note guidance is developed by the WCAG2ICT Task Force. The Task Force work statement defines the objectives, scope, and approach for the WCAG2ICT Group Note.
+
+The participants of the WCAG2ICT Task Force are volunteers drawn from W3C member organizations and invited experts, and they are supported by Web Accessibility Initiative (WAI) staff.
 
 ### Related Documents
-
-We realize that there are many more standards that cover non-web software aspects of ICT. The following is not an extensive or complete list of references that may use WCAG2ICT:
-* W3C WAI [Web Accessibility Laws and Policies](https://www.w3.org/WAI/policies/) page
-* [Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps Provided by State and Local Governments](https://www.ada.gov/resources/2024-03-08-web-rule/) (ADA.gov)
-* U.S. Dept. of Justice Rule [Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities](https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state)
+W3C Web Accessibility Initiative (WAI) resources related to WCAG2ICT:
+* [WCAG2ICT Task Force](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/)
+* [WCAG2ICT Task Force Work Statement](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/work-statement/)
+* [Web Accessibility Laws and Policies](https://www.w3.org/WAI/policies/)
 * [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/)
-* [WCAG2ICT Task Force](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/)) 
-* [WCAG2ICT Work Statement](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/work-statement/)
-* [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) and country-specific standards based on the EN 301 549
+
+Though there are many standards that cover non-web software aspects of ICT, the following is a brief and non-exhaustive list of standards and rules that use or reference the WCAG2ICT Group Note: 
+* [Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities](https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state) (Rule by the U.S. Dept. of Justice) 
+* [Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps Provided by State and Local Governments](https://www.ada.gov/resources/2024-03-08-web-rule/) (ADA.gov)
+* [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) and country-specific standards based on the EN 301 549:
   * [CAN/ASC - EN 301 549 Accessibility requirements for ICT products and services (EN 301 549, IDT](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-1)) (Canada standards adoption of the EN 301 549 verbatim)
   * [AS EN 301 549](https://www.standards.org.au/standards-catalogue/standard-details?designation=as-en-301-549-2020) (Australia standards adoption of the EN 301 549 verbatim)
   * [IS 17802 Part 1](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf) and [IS 17802 Part 2](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_2_2022.pdf) (India standard based on the EN 301 549)
   * [KS 2952-1](https://webstore.kebs.org/index.php?route=product/product&product_id=17111) and [KS 2952-2](https://webstore.kebs.org/index.php?route=product/product&product_id=17112) (Kenya standard based on the EN 301 549)
   * CPR-6201, JEN 301 549 (Japan standard based on the EN 301 549)
-* [CSA/ASC B651.2:22](https://www.csagroup.org/wp-content/uploads/2430258.pdf?srsltid=AfmBOoqlJl3r-eDhOggnJXIs7mLdzYJMBawVua_mDI1ss6iGX9czQ93f) (National Standard of Canada) CSA Group Accessible design for service-interactive devices including automated banking machines.
-* [U.S. Section 508 of the Rehabilitation Act](https://www.access-board.gov/about/law/ra.html#section-508-federal-electronic-and-information-technology) requires ICT developed, procured, maintained, or used by U.S. federal agencies be accessible to people with disabilities.
-* [Section 508 Standards](https://www.access-board.gov/ict/) is a U.S. regulation that defines what is necessary for ICT to be considered accessible
+* [U.S. Section 508 of the Rehabilitation Act](https://www.access-board.gov/about/law/ra.html#section-508-federal-electronic-and-information-technology) — requires ICT that is developed, procured, maintained, or used by U.S. federal agencies to be accessible to people with disabilities
+* [Section 508 Standards](https://www.access-board.gov/ict/) — a U.S. regulation that defines what is necessary for ICT to be considered accessible
 
 ### Comments
+To comment on the WCAG2ICT guidance, [open a new GitHub issue](https://github.com/w3c/wcag2ict/issues/new). Please open a separate GitHub issue per discrete topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account.
 
-**If you have any comments on the Additional Guidance sections of WCAG2ICT**, you can [open a new GitHub issue](https://github.com/w3c/wcag2ict/issues/new). It is free to create a GitHub account. Please open a separate GitHub issue for each topic, rather than commenting on multiple topics in a single issue.
+If filing issues in GitHub is not feasible, send comments in an email to: <public-wcag2ict-comments@w3.org>.
 
-If it is not feasible for you to use GitHub, you can put your comments in the body of an e-mail message and send them to: <public-wcag2ict-comments@w3.org>.
-
-**If you have comments on the wording taken from WCAG 2 or Understanding WCAG 2**, please read the [[Instructions for Commenting on WCAG 2 Documents]](/standards-guidelines/wcag/commenting/).
+If you have comments on the wording quoted from WCAG 2 or Understanding WCAG 2, follow the [Instructions for Commenting on WCAG 2 Documents](https://deploy-preview-1197--wai-website.netlify.app/standards-guidelines/wcag/commenting/).
