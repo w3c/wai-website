@@ -56,7 +56,7 @@ The Research Questions Task Force welcomes input from individuals and organizati
 
 You can contribute to the work without being a member of the task force by commenting on or proposing solutions for open issues.
 
-Either comment / raise a new issue in the [Research Questions GitHub repository](https://github.com/w3c/rqtf/issues) or email the [chairs](https://www.w3.org/groups/tf/rqtf/participants/#chairs).
+Either comment / raise a new issue in the [Research Questions GitHub repository](https://github.com/w3c/rqtf/issues) or email the [task force](mailto:public-rqtf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -89,6 +89,8 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 
 When the Research Questions Task Force develops publications, they will be listed here.
 
-## Contact the chairs
+## Contact the task force
 
-If you have a question for the Research Questions Task Force, email the [chairs](https://www.w3.org/groups/tf/rqtf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/rqtf/participants/#staff).
+If you have a question for the Research Questions Task Force, email the [group](mailto:public-rqtf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/rqtf/participants/#staff).

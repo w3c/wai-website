@@ -66,7 +66,7 @@ You can contribute to the work without being a member of the task force:
 - **Open Accessibility Maturity Model issues:** Comment on or propose solutions for open issues.
 - **Published Accessibility Maturity Model resources:** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [Pronunciation GitHub repository](https://github.com/w3c/pronunciation/issues) or email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs).
+Either comment / raise a new issue in the [Pronunciation GitHub repository](https://github.com/w3c/pronunciation/issues) or email the [task force](mailto:public-pronunciation@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -114,6 +114,9 @@ The Spoken Presentation Task Force develops and maintains the following resource
     - describes the advantages and disadvantages of two approaches
     - poses questions for additional input
 
-## Contact the chairs
 
-If you have a question for the Spoken Presentation Task Force, email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).
+## Contact the task force
+
+If you have a question for the Spoken Presentation Task Force, email the [group](mailto:public-pronunciation@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).

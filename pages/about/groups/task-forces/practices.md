@@ -62,7 +62,7 @@ You can contribute to the work without being a member of the task force:
 - **Open WAI-ARIA Authoring Practices issues:** Comment on or propose solutions for open issues.
 - **Published WAI-ARIA Authoring Practices Guide:** Let us know if there is a new issue with any of the practices in the guide.
 
-Either comment / raise a new issue in the [APG GitHub repository](https://github.com/w3c/aria-practices/issues) or email the [chairs](https://www.w3.org/groups/tf/aria-practices/participants/#chairs).
+Either comment / raise a new issue in the [APG GitHub repository](https://github.com/w3c/aria-practices/issues) or email the [task force](mailto:public-aria-practices@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -95,6 +95,8 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 The APG Task Force develops and maintains the [WAI-ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) for the ARIA Working Group.
 
-## Contact the chairs
+## Contact the task force
 
-If you have a question for the APG Task Force, email the [chairs](https://www.w3.org/groups/tf/aria-practices/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/aria-practices/participants/#staff).
+If you have a question for the APG Task Force, email the [group](mailto:public-aria-practices@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/aria-practices/participants/#staff).

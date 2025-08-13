@@ -63,7 +63,7 @@ You can contribute to the work without being a member of the task force:
 - **Open mobile accessibility issues:** Comment on or propose solutions for open issues.
 - **Published mobile accessibility resources:** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [Mobile Accessibility GitHub repository](https://github.com/w3c/matf/issues) or email the [chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs).
+Either comment / raise a new issue in the [Mobile Accessibility GitHub repository](https://github.com/w3c/matf/issues) or email the [task force](mailto:public-mobile-a11y-tf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -99,6 +99,8 @@ The Mobile Accessibility Task Force develops and maintains the following resourc
 * [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile &mdash; Working Draft](https://www.w3.org/TR/mobile-accessibility-mapping/) (and latest [Editor’s Draft](https://w3c.github.io/Mobile-A11y-TF-Note/))
 * [Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) &mdash; Editor's Draft](https://w3c.github.io/matf/)
 
-## Contact the chair
+## Contact the task force
 
-If you have a question for the Mobile Accessibility Task Force, email the [chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#staff).
+If you have a question for the Mobile Accessibility Task Force, email the [group](mailto:public-mobile-a11y-tf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#staff).
