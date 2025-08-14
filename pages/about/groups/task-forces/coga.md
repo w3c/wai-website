@@ -105,6 +105,6 @@ The COGA Task Force has developed the following resources for the AG and APA wor
 
 ## Contact the task force
 
-If you have a question for the COGA Task Force, email the [group](mailto:public-cognitive-a11y-tf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the COGA Task Force, [email the task force](mailto:public-cognitive-a11y-tf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#staff).
