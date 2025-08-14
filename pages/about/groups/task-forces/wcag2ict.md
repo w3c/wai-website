@@ -93,7 +93,7 @@ The WCAG2ICT Task Force develops and maintains the following resource for the AG
 
 ## Contact the task force
 
-If you have a question for the WCAG2ICT Task Force, email the [group](mailto:public-wcag2ict-tf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the WCAG2ICT Task Force, [email the task force](mailto:public-wcag2ict-tf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/wcag2ict/participants/#staff).
 
