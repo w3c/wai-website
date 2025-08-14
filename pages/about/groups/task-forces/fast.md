@@ -58,9 +58,10 @@ You can contribute to the work without being a member of the task force:
 
 - **Draft FAST resources:** Review and provide feedback on drafts that are still being developed.
 - **Open FAST issues:** Comment on or propose solutions for open issues.
-- **Published FAST resources:** Let us know if there is a new issue with any of these.
+- **Published FAST resources:** Let us know if there is a
+ new issue with any of these.
 
-Either comment / raise a new issue in the [FAST GitHub repository](https://github.com/w3c/fast/issues) or email the [chairs](https://www.w3.org/groups/tf/fast/participants/#chairs).
+Either comment / raise a new issue in the [FAST GitHub repository](https://github.com/w3c/fast/issues) or email the [W3C staff contact](https://www.w3.org/groups/tf/fast/participants/#staff).
 
 ### Become a participant in the task force
 
@@ -87,7 +88,6 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 * [Calendar of meetings](https://www.w3.org/groups/tf/fast/calendar/)
 * [Minutes from previous meetings](/about/groups/task-forces/fast/minutes/)
-* [Mailing list archive](https://lists.w3.org/Archives/Public/public-fast/)
 
 ## Publications
 
@@ -96,6 +96,6 @@ The FAST Task Force develops and maintains the following resources for the APA W
 * [Framework for Accessible Specification of Technologies (FAST) &mdash; Editor’s Draft](https://w3c.github.io/fast/)
 * [FAST Report Tool](https://fast-rose.vercel.app/) &mdash; a checklist for reviewing technologies
 
-## Contact the chairs
+## Contact the task force
 
-If you have a question for the FAST Task Force, email the [chairs](https://www.w3.org/groups/tf/fast/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/fast/participants/#chairs).
+If you have a question for the FAST Task Force, email the [W3C staff contact](https://www.w3.org/groups/tf/fast/participants/#staff).
