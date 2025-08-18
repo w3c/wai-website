@@ -64,7 +64,7 @@ This page provides information on the Web Accessibility Initiative - Communities
   * [Review of WAI CooP activities and the future of accessibility](https://www.edf-feph.org/events-slug/wai-coop-open-meeting-14-november-2023/)
 
 **[Web Accessibility Directive: Frequently Asked Questions](https://web-directive.eu/)**
-:  Provides responses to frequently asked questions (FAQ) on implementing the EU Web Accessibility Directive (WAD). Stakeholders can ask new questions from the ‘Contact our help desk’ link.
+:  Provides responses to frequently asked questions (FAQ) on implementing the EU Web Accessibility Directive (WAD).
 
 **[Web Content Accessibility Guidelines Evaluation Methodology (WCAG-EM) Report Tool](https://www.w3.org/WAI/eval/report-tool/)**
 :  Updated functionality, improved user interface, improved translation options, and updated to include new WCAG 2.1 and 2.2 success criteria.
