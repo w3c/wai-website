@@ -97,6 +97,6 @@ The APG Task Force develops and maintains the [WAI-ARIA Authoring Practices Guid
 
 ## Contact the task force
 
-If you have a question for the APG Task Force, email the [group](mailto:public-aria-practices@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the APG Task Force, [email the task force](mailto:public-aria-practices@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/aria-practices/participants/#staff).
