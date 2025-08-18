@@ -101,6 +101,6 @@ The Mobile Accessibility Task Force develops and maintains the following resourc
 
 ## Contact the task force
 
-If you have a question for the Mobile Accessibility Task Force, email the [group](mailto:public-mobile-a11y-tf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the Mobile Accessibility Task Force, [email the task force](mailto:public-mobile-a11y-tf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#staff).
