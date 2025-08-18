@@ -97,6 +97,6 @@ The Maturity Model Task Force develops and maintains the following resources for
 
 ## Contact the task force
 
-If you have a question for the Maturity Model Task Force, email the [group](mailto:public-maturity@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the Maturity Model Task Force, [email the task force](mailto:public-maturity@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/maturity/participants/#staff).
