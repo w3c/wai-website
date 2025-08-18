@@ -1,4 +1,4 @@
----
+---https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-supported-envs.html#command-line-supported-envs-natural
 title: "WAI-Core Ford"
 nav_title: "WAI-Core Ford"
 lang: en 
