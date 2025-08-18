@@ -92,6 +92,6 @@ The PDF-AAM Task Force develops and maintains the [PDF Accessibility API Mapping
 
 ## Contact the task force
 
-If you have a question for the PDF-AAM Task Force, email the [group](mailto:public-pdf-aam@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the PDF-AAM Task Force, [email the task force](mailto:public-pdf-aam@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/pdf-aam/participants/#staff).
