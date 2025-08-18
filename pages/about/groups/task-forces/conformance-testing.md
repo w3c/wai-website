@@ -96,6 +96,6 @@ The ACT Task Force develops and maintains the following resources for the AG Wor
 
 ## Contact the task force
 
-If you have a question for the ACT Task Force, email the [group](mailto:public-wcag-act@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list). 
+If you have a question for the ACT Task Force, [email the task force](mailto:public-wcag-act@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list). 
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff).
