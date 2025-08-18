@@ -91,6 +91,6 @@ When the Research Questions Task Force develops publications, they will be liste
 
 ## Contact the task force
 
-If you have a question for the Research Questions Task Force, email the [group](mailto:public-rqtf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the Research Questions Task Force, [email the task force](mailto:public-rqtf@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/rqtf/participants/#staff).
