@@ -1,6 +1,6 @@
 ---
 title: How to Change Text Size or Colors
-last_updated: 2019-03-04
+last_updated: 2025-08-18
 first_published: "2005"
 lang: en
 layout: default
