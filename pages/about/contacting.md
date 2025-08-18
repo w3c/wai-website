@@ -64,14 +64,9 @@ You can submit comments on the overall WAI website (www.w3.org/) either to a W3C
 -   <wai-site-comments@w3.org> (seen by WAI staff and the public)
 
 ## WAI staff
-* [Shawn Lawton Henry](https://www.w3.org/staff/wai/#shawn) is Web Accessibility Initiative (WAI) Program Lead; Accessibility Education and Communications Lead.
-* [Kevin White](https://www.w3.org/staff/wai/#kevin) is Accessibility Technical Lead and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
-* [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/wai/#ran) supports accessibility Working Groups and accessibility in China.
-* [Daniel Montalvo](https://www.w3.org/staff/wai/#dmontalvo) supports accessibility Working Groups and standards harmonization.
-* [Ken Franqueiro](https://www.w3.org/staff/wai/#kfranqueiro) supports the technical architecture for WCAG 2, WCAG 3, and more.
-* [Tamsin Ewing](https://www.w3.org/staff/wai/#tamsin) supports accessibility communications, educational resources, and Working Group deliverables.
-* [Rémi Bétin](https://www.w3.org/staff/wai/#remibetin) supports WAI translations, WAI website processes, WAI courses, and more.
 
-If you don't know who to contact or you want to reach all WAI staff, you can email <wai@w3.org>.
+WAI staff are listed in [About W3C WAI, WAI Staff](https://www.w3.org/WAI/about/#wai-staff).
+
+To reach all WAI staff, you can email <wai@w3.org>.
 
 Note that WAI is not resourced to answer specific support questions. We will usually direct those to the [WAI IG mailing list, per above](/about/contacting/#mailing-list-for-accessibility-questions).
