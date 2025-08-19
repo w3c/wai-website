@@ -58,7 +58,7 @@ You can contribute to the work without being a member of the task force:
 - **Open ACT issues:** Comment on or propose solutions for open issues.
 - **Published ACT resources:** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [ACT GitHub repository](https://github.com/w3c/wcag-act/issues/) or [email the task force](mailto:public-wcag-act@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+Either comment / raise a new issue in the [ACT GitHub repository](https://github.com/w3c/wcag-act/issues/) or [email the task force](mailto:public-wcag-act@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -96,6 +96,6 @@ The ACT Task Force develops and maintains the following resources for the AG Wor
 
 ## Contact the task force
 
-If you have a question for the ACT Task Force, email the [group](mailto:public-wcag-act@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list). 
+If you have a question for the ACT Task Force, email the [group](mailto:public-wcag-act@w3.org) (**Note:** This email will go to a publicly archived mailing list). 
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff).
