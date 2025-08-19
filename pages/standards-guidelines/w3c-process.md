@@ -63,7 +63,7 @@ The Web Accessibility Initiative (WAI) develops web accessibility guidelines, te
 
 The World Wide Web Consortium (W3C) develops the [standards for the web](https://www.w3.org/standards/). WAI is part of W3C and follows the [W3C Process](https://www.w3.org/Consortium/Process/) for developing web standards.
 
-W3C's web standards are called &lsquo;**W3C Recommendations**&rsquo;. WAI has developed several W3C Recommendations, including:
+W3C's web standards are called ‘**W3C Recommendations**’. WAI has developed several W3C Recommendations, including:
 
 - Web Content Accessibility Guidelines, see [WCAG Overview](/standards-guidelines/wcag/)
 - Authoring Tool Accessibility Guidelines, see [ATAG Overview](/standards-guidelines/atag/)
