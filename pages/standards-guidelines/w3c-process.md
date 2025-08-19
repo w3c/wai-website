@@ -76,7 +76,7 @@ W3C's web standards are called &lsquo;**W3C Recommendations**&rsquo;. WAI has de
 
 **Editor's Drafts** have no official standing and do not necessarily represent Working Group consensus; that is, the draft might include proposals that the Working Group has not agreed on.
 
-The milestones that a W3C &lsquo;technical report&rsquo; goes through on its way to becoming a W3C Recommendation are listed below.
+The milestones that a W3C ‘technical report’ goes through on its way to becoming a W3C Recommendation are listed below.
 {:#stages}
 
 1. {:#wd}![draft documents:]({{ "/content-images/w3c-process/wd.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Working Draft**: Working Drafts are published and announced specifically to ask for review and input from the community. Often there are issues that a Working Group would particularly like input on. Usually multiple Working Drafts of a technical report are published.
