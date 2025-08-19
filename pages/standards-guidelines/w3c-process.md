@@ -6,7 +6,7 @@ title: "How WAI Develops Accessibility Standards through the W3C Process: Milest
 title_html: "How WAI Develops Accessibility Standards through the W3C Process:<br> Milestones and Opportunities to Contribute"
 nav_title: W3C Process for Developing Standards
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-07-09   # Keep the date of the English version
+last_updated: 2025-08-19   # Keep the date of the English version
 first_published: "September 2006"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
