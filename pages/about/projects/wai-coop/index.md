@@ -42,14 +42,14 @@ This page provides information on the Web Accessibility Initiative - Communities
 **[List of Web Accessibility Laws and Policies](https://www.w3.org/WAI/policies/)**
 :  Made extensive updates to existing policies and added new information for 22 additional countries.
 
-**[List of Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/rules/)**
+**[Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/rules/)**
 :  Included promoting, tracking, and validating implementations of “Accessibility Conformance Testing (ACT) Rules” in automated testing tools and manual testing methodologies. Also included a completed [redesign of the user interface](https://www.w3.org/WAI/standards-guidelines/act/implementations/) to better integrate implementation reports submitted by different vendors.
 
 **Analysis of Support and Gaps in Technologies**
 :  Carried out an extensive literature review to identify relevant accessibility related gaps in digital technologies, which helped to identify topics to explore further as part of the Research Symposia.
 
 **Research Symposia on Digital Accessibility**
-: Organised and ran three online research symposia based on topics identified in previous analyses:
+: Organised and ran three online research symposia based on topics identified in previous analysis:
   * [Shape the Future: Research and Development Questions in Digital Accessibility](https://www.w3.org/WAI/about/projects/wai-coop/symposium1/)
   * [Artificial Intelligence (AI) and Accessibility](https://www.w3.org/WAI/research/ai2023/)
   * [Evaluating Accessibility: Meeting Key Challenges](https://www.w3.org/WAI/about/projects/wai-coop/symposium3/)
@@ -57,20 +57,20 @@ This page provides information on the Web Accessibility Initiative - Communities
 **Regular Open Meetings**
 : Organised and ran six open meetings to exchange best practices and discuss specific topics around implementing and monitoring accessibility.
   * [WAI-CooP introductory meeting](https://www.edf-feph.org/events-slug/wai-coop-first-open-meeting/)
-  * [Implementing the EU Web Accessibility Directive](https://www.edf-feph.org/events-slug/wai-coop-open-meeting2/)
+  * [Implemention of the EU Web Accessibility Directive](https://www.edf-feph.org/events-slug/wai-coop-open-meeting2/)
   * [Monitoring the EU Web Accessibility Directive](https://www.edf-feph.org/events-slug/wai-coop-online-meeting/)
-  * [Exploring what can be done to improve supply of and access to digital accessibility expertise](https://www.edf-feph.org/events-slug/wai-coop-open-meeting-11-october-2022/)
+  * [What can be done to improve supply of and access to digital accessibility expertise](https://www.edf-feph.org/events-slug/wai-coop-open-meeting-11-october-2022/)
   * [Exploring the feedback mechanism and complaints procedure of the Web Accessibility Directive](https://www.edf-feph.org/events-slug/wai-coop-open-meeting-7-march-2023/)
-  * [Reviewing WAI CooP activities and the future of accessibility](https://www.edf-feph.org/events-slug/wai-coop-open-meeting-14-november-2023/)
+  * [Review of WAI CooP activities and the future of accessibility](https://www.edf-feph.org/events-slug/wai-coop-open-meeting-14-november-2023/)
 
 **[Web Accessibility Directive: Frequently Asked Questions](https://web-directive.eu/)**
-:  Provided responses to frequently asked questions (FAQ) on implementing the EU Web Accessibility Directive (WAD).
+:  Provides responses to frequently asked questions (FAQ) on implementing the EU Web Accessibility Directive (WAD).
 
 **[Web Content Accessibility Guidelines Evaluation Methodology (WCAG-EM) Report Tool](https://www.w3.org/WAI/eval/report-tool/)**
 :  Updated functionality, improved user interface, improved translation options, and updated to include new WCAG 2.1 and 2.2 success criteria.
 
 **[Easy Checks &mdash; A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/easy-checks/)**
-:  Updated the resource to simplify the presentation of each check, reduce the reliance on third-party tools, and improve the readability of the content. The aim was to make it easier to use as a learning resource for people new to accessibility, and to create a set of tools to perform some basic accessibility checks.
+:  Updated the resource to simplify the presentation of each check, reduce the reliance on third-party tools, and improve the readability of the content. This made it easier to use as a learning resource for people new to accessibility, and to create a set of tools to perform some basic accessibility checks.
 
 ## Participation
 {:#participate}
