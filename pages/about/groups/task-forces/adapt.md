@@ -104,6 +104,6 @@ The WAI-Adapt Task Force develops and maintains the following resources for the 
 
 ## Contact the task force
 
-If you have a question for the WAI-Adapt Task Force, [email the task force](mailto:public-adapt@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the WAI-Adapt Task Force, [email the task force](mailto:public-adapt@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/personalization-tf/participants/#staff).
