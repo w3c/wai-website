@@ -68,7 +68,7 @@ For more information on WCAG 2, see:
 
 ## Intent and usage of WCAG2ICT
 
-WCAG2ICT is a W3C Group Note that is [informative](https://www.w3.org/TR/WCAG22/#dfn-informative) — it is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and does not set requirements. It provides guidance on the application of WCAG 2 principles, guidelines, and success criteria to non-web documents and software. WCAG2ICT was developed to provide an authoritative interpretation of how WCAG 2 can apply in different contexts.
+WCAG2ICT is a [W3C Group Note](https://www.w3.org/standards/types/#x2-5-2-group-note) that is [informative](https://www.w3.org/TR/WCAG22/#dfn-informative) — it is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and does not set requirements. It provides guidance on the application of WCAG 2 principles, guidelines, and success criteria to non-web documents and software. WCAG2ICT was developed to provide an authoritative interpretation of how WCAG 2 can apply in different contexts.
 
 The main focus of WCAG2ICT is to provide replacements for web-based language in WCAG success criteria and definitions. It also provides insights into where WCAG criteria may make assumptions of the presence and functionality of a user agent and assistive technology when these may not exist. This is because not all non-web software has a user agent or platform software with accessibility <abbr title="application programming interfaces">APIs</abbr> and services, nor do all non-web technologies have or support assistive technology that acts on programmatic information.
 
