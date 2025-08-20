@@ -57,7 +57,7 @@ You can contribute to the work without being a member of the task force:
 - **Open PDF-AAM issues:** Comment on or propose solutions for open issues.
 - **Published PDF-AAM resources** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [PDF-AAM GitHub repository](https://github.com/w3c/pdf-aam/issues) or [email the task force](mailto:public-pdf-aam@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+Either comment / raise a new issue in the [PDF-AAM GitHub repository](https://github.com/w3c/pdf-aam/issues) or [email the task force](mailto:public-pdf-aam@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -92,6 +92,6 @@ The PDF-AAM Task Force develops and maintains the [PDF Accessibility API Mapping
 
 ## Contact the task force
 
-If you have a question for the PDF-AAM Task Force, [email the task force](mailto:public-pdf-aam@w3.org) (<strong>Note:</strong> This email will go to a publicly archived mailing list).
+If you have a question for the PDF-AAM Task Force, [email the task force](mailto:public-pdf-aam@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/pdf-aam/participants/#staff).
