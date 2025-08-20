@@ -1,6 +1,6 @@
 ---
 title: How to Change Text Size or Colors
-last_updated: 2025-08-18
+last_updated: 2025-08-20
 first_published: "2005"
 lang: en
 layout: default
@@ -117,5 +117,5 @@ We chose to provide these instructions so that users can learn how to change the
 
 ### No Endorsement
 
-<strong>Note:</strong> The World Wide Web Consortium (W3C) does not endorse specific web browsers or extensions and does not recommend one over another. While some common browsers are included in this page, mention of a specific browser does not imply endorsement or recommendation.
+**Note:** The World Wide Web Consortium (W3C) does not endorse specific web browsers or extensions and does not recommend one over another. While some common browsers are included in this page, mention of a specific browser does not imply endorsement or recommendation.
 
