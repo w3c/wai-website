@@ -12,7 +12,7 @@ github:
 
 image: /content-images/wcag/general-social.jpg
 footer: >
-  <p><strong>Editors:</strong> Mary Jo Mueller, Chris Loiselle, and Daniel Montalvo. Past editor and contributor: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Judy Brewer.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, Mary Jo Mueller, Chris Loiselle, and <a href="https://www.w3.org/staff/#dmontalvo">Daniel Montalvo</a>. Past contributor: Judy Brewer.</p>
   <p>Developed with the <a href="https://www.w3.org/groups/tf/wcag2ict/">WCAG2ICT Task Force</a>.</p>
 ---
 
