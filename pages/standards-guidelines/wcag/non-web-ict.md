@@ -142,4 +142,4 @@ To comment on the WCAG2ICT guidance, [open a new GitHub issue](https://github.c
 
 If it’s not feasible for you to use GitHub, email your comments to: <public-wcag2ict-comments@w3.org>. Please put your comments in the body of the message, not as an attachment.
 
-If you have comments on the wording quoted from WCAG 2 or Understanding WCAG 2, follow the [Instructions for Commenting on WCAG 2 Documents](https://deploy-preview-1197--wai-website.netlify.app/standards-guidelines/wcag/commenting/).
+If you have comments on the wording quoted from WCAG 2 or Understanding WCAG 2, follow the [Instructions for Commenting on WCAG 2 Documents](/standards-guidelines/wcag/commenting/).
