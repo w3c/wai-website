@@ -114,7 +114,7 @@ The WCAG2ICT Group Note:
 
 ## Who develops WCAG2ICT {#wg}
 
-The WCAG2ICT Group Note guidance is developed by the WCAG2ICT Task Force. The Task Force work statement defines the objectives, scope, and approach for the WCAG2ICT Group Note.
+The WCAG2ICT Group Note guidance is developed by the WCAG2ICT Task Force of the Accessibility Guidelines Working Group (AGWG). The Task Force work statement defines the objectives, scope, and approach for the WCAG2ICT Group Note.
 
 The participants of the WCAG2ICT Task Force are volunteers drawn from W3C member organizations and invited experts, and they are supported by Web Accessibility Initiative (WAI) staff.
 
