@@ -65,7 +65,7 @@ You can contribute to the work without being a member of the task force:
 * If you’re aware of an issue with any of the published WCAG 2.x resources, raise a new issue.
 * Comment on or propose solutions for open WCAG 2.x issues.
 
-Either comment / raise a new issue in the [WCAG GitHub repository](https://github.com/w3c/wcag/issues) or email the [group](mailto:group-ag-chairs@w3.org).
+Either comment / raise a new issue in the [WCAG GitHub repository](https://github.com/w3c/wcag/issues) or [email the task force](mailto:public-wcag2-issues@w3.org).
 
 ### Become a participant in the task force
 
@@ -100,4 +100,4 @@ The WCAG 2.x Backlog Task Force does not develop publications.
 
 ## Contact the task force
 
-If you have a question for the WCAG 2.x Backlog Task Force, email the [group](mailto:group-ag-chairs@w3.org) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#staff).
+If you have a question for the WCAG 2.x Backlog Task Force, [email the task force](mailto:public-wcag2-issues@w3.org) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#staff).
