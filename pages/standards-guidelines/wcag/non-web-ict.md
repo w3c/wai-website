@@ -1,7 +1,7 @@
 ---
-title: "WCAG2ICT overview"
+title: "WCAG2ICT Overview"
 lang: en
-last_updated: 2025-08-12
+last_updated: 2025-08-21
 description: "Introduces the document: Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)."
 
 permalink: /standards-guidelines/wcag/non-web-ict/
@@ -20,7 +20,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Get an overview of why the WCAG2ICT accessibility guidance was developed, who it is for, what it does and does **not** do, and how to comment on it.
+This page provides an overview of the WCAG2ICT guidance, its purpose and who it is for, what it does and does ***not*** do, and how to comment on it.
 
 Quick link to the full document:
 * [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/)
@@ -46,7 +46,7 @@ Quick link to the full document:
 
 The <cite>'Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)'</cite> Group Note describes how the Web Content Accessibility Guidelines (WCAG) principles, guidelines and success criteria can be applied to non-web information and communications technologies (ICT).
 
-The WCAG2ICT Group Note provides guidance that describes how WCAG 2.0, 2.1, and 2.2 (WCAG 2) criteria can be applied to non-web documents and software - including mobile apps, native applications, platform software, and software on ICT with closed functionality. For specific criteria, the guidance also provides technology-specific explanations that include highlighting difficulties with applying some WCAG 2.x success criteria.  This is especially the case where WCAG makes assumptions on the presence of a browser that would not be true for non-web documents and software. Not all ICT have these concepts.
+The WCAG2ICT Group Note provides guidance that describes how WCAG 2.0, 2.1, and 2.2 (WCAG 2) criteria can be applied to non-web documents and software — including mobile apps, native applications, platform software, and software on ICT with closed functionality. For specific criteria, the guidance also provides technology-specific explanations that include highlighting difficulties with applying some WCAG 2 success criteria.  This is especially the case where WCAG makes assumptions on the presence of a browser that would not be true for non-web documents and software. Not all ICT have these concepts.
 
 The WCAG2ICT Group Note guidance is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual disabilities, as well as the needs of people with accessibility requirements due to the effects of aging. Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities.
 
@@ -54,11 +54,11 @@ The WCAG2ICT Group Note supports harmonized accessibility solutions across a ran
 
 ## Background
 
-The first version of the WCAG2ICT Group Note was published in 2013 to address accessibility requirements for non-web ICT. It helped regulatory bodies develop standards (i.e., Section 508, EN 301 549) to adopt WCAG criteria for non-web documents and software. 
+The first version of the WCAG2ICT Group Note was published in 2013 to address accessibility requirements for non-web ICT. It helped regulatory bodies develop standards (e.g., Section 508, and EN 301 549) to adopt WCAG criteria for non-web documents and software. 
 
-The 2013 Group Note covered WCAG 2.0 Level A and Level AA. The latest version of WCAG2ICT Group Note covers WCAG 2.x Level A and Level AA.
+The 2013 Group Note covered WCAG 2.0 Level A and Level AA. The latest version of WCAG2ICT Group Note covers WCAG 2 Level A and Level AA.
 
-Note: WCAG 2 was developed for the Web and not for non-web ICT. This means that fully addressing accessibility for non-web documents and software involves requirements beyond those included in WCAG 2 and WCAG2ICT Group Note. For this reason, authors, designers and developers are encouraged to seek other relevant advice about current best practices to ensure that non-web documents and software are as accessible as possible to people with disabilities.
+**Note:** WCAG 2 was developed for the web and not for non-web ICT. This means that fully addressing accessibility for non-web documents and software involves requirements beyond those included in WCAG 2 and the WCAG2ICT Group Note. For this reason, authors, designers and developers are encouraged to seek other relevant advice about current best practices to ensure that non-web documents and software are as accessible as possible to people with disabilities.
 
 ### About WCAG 2
 
@@ -85,19 +85,19 @@ While the WCAG2ICT Group Note provides guidance on applying WCAG in non-web cont
 ## Who WCAG2ICT is for {#for}
 
 The WCAG2ICT Group Note is for anyone wanting to understand how WCAG 2 can be applied to non-web documents and software, including:
-* accessibility standards organizations - to provide them with the non-web language in WCAG success criteria and definitions, as well as the interpretation notes to help them make adjustments or notes that might be needed when WCAG is applied to specific technologies,
-* ICT managers who are familiar with WCAG - to enable them to quickly get an overview of using WCAG as an accessibility benchmark for non-web ICT,
+* accessibility standards organizations — to provide them with the non-web language in WCAG success criteria and definitions, as well as the interpretation notes to help them make adjustments or notes that might be needed when WCAG is applied to specific technologies,
+* ICT managers who are familiar with WCAG — to enable them to quickly get an overview of using WCAG as an accessibility benchmark for non-web ICT,
 * technology developers and designers — to provide them with the non-web language substitutions for language in WCAG success criteria, where existing accessibility standards do not contain an interpretation,
 * policy makers (including regulators when making regulations) — to inform them how the WCAG2ICT Group Note is being used to influence standards requirements where WCAG is being applied to non-web ICT, and
-* others, including auditors, educators, litigators, vendors - to help them learn more about digital accessibility.
+* others, including auditors, educators, litigators, and vendors — to help them learn more about digital accessibility.
 
 ## What is in WCAG2ICT {#whatis}
 
 WCAG2ICT provides:
 
 -   **overall context** for applying WCAG 2 to non-web documents and software,
--   **guidance on applying the WCAG principles, guidelines, and Levels A and AA success criteria** to non-web documents and software,
--   **key Terms** related to applying WCAG 2 to non-web documents and software,
+-   **guidance on applying WCAG principles, guidelines, and Levels A and AA success criteria** to non-web documents and software,
+-   **key terms** related to applying WCAG 2 to non-web documents and software,
 -   **comments on the definitions** in the WCAG 2 Glossary,
 -   **comments on conformance**, and
 -   **background information** on some topics.
@@ -106,7 +106,7 @@ WCAG2ICT provides:
 
 WCAG2ICT follows the [W3C format for technical reports](https://www.w3.org/Consortium/Process/Process-19991111/tr.html#Reports), which has several sections at the beginning, including links to different versions, editors, abstract, and status.
 
-## What WCAG2ICT Does Not Do
+## What WCAG2ICT does not do
 
 The WCAG2ICT Group Note:
 * does not make or help developers determine which WCAG 2 provisions (principles, guidelines, or success criteria) should not be applied to non-web documents and software, or to any particular technology or product,
@@ -123,7 +123,7 @@ The WCAG2ICT Group Note guidance is developed by the WCAG2ICT Task Force. The T
 
 The participants of the WCAG2ICT Task Force are volunteers drawn from W3C member organizations and invited experts, and they are supported by Web Accessibility Initiative (WAI) staff.
 
-### Related Documents
+### Related documents
 W3C Web Accessibility Initiative (WAI) resources related to WCAG2ICT:
 * [WCAG2ICT Task Force](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/)
 * [WCAG2ICT Task Force Work Statement](https://www.w3.org/WAI/about/groups/task-forces/wcag2ict/work-statement/)
@@ -131,20 +131,20 @@ W3C Web Accessibility Initiative (WAI) resources related to WCAG2ICT:
 * [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG22/)
 
 Though there are many standards that cover non-web software aspects of ICT, the following is a brief and non-exhaustive list of standards and rules that use or reference the WCAG2ICT Group Note: 
-* [Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities](https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state) (Rule by the U.S. Dept. of Justice) 
+* [Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities](https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state) (Rule by the U.S. Department of Justice) 
 * [Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps Provided by State and Local Governments](https://www.ada.gov/resources/2024-03-08-web-rule/) (ADA.gov)
-* [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) and country-specific standards based on the EN 301 549:
-  * [CAN/ASC - EN 301 549 Accessibility requirements for ICT products and services (EN 301 549, IDT](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-1)) (Canada standards adoption of the EN 301 549 verbatim)
-  * [AS EN 301 549](https://www.standards.org.au/standards-catalogue/standard-details?designation=as-en-301-549-2020) (Australia standards adoption of the EN 301 549 verbatim)
-  * [IS 17802 Part 1](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf) and [IS 17802 Part 2](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_2_2022.pdf) (India standard based on the EN 301 549)
-  * [KS 2952-1](https://webstore.kebs.org/index.php?route=product/product&product_id=17111) and [KS 2952-2](https://webstore.kebs.org/index.php?route=product/product&product_id=17112) (Kenya standard based on the EN 301 549)
-  * CPR-6201, JEN 301 549 (Japan standard based on the EN 301 549)
+* [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) and country-specific standards based on EN 301 549:
+  * [CAN/ASC - EN 301 549 Accessibility requirements for ICT products and services (EN 301 549, IDT](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-1)) (Canada standards adoption of EN 301 549 verbatim)
+  * [AS EN 301 549](https://www.standards.org.au/standards-catalogue/standard-details?designation=as-en-301-549-2020) (Australia standards adoption of EN 301 549 verbatim)
+  * [IS 17802 Part 1](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf) and [IS 17802 Part 2](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_2_2022.pdf) (India standard based on EN 301 549)
+  * [KS 2952-1](https://webstore.kebs.org/index.php?route=product/product&product_id=17111) and [KS 2952-2](https://webstore.kebs.org/index.php?route=product/product&product_id=17112) (Kenya standard based on EN 301 549)
+  * CPR-6201, JEN 301 549 (Japan standard based on EN 301 549)
 * [U.S. Section 508 of the Rehabilitation Act](https://www.access-board.gov/about/law/ra.html#section-508-federal-electronic-and-information-technology) — requires ICT that is developed, procured, maintained, or used by U.S. federal agencies to be accessible to people with disabilities
 * [Section 508 Standards](https://www.access-board.gov/ict/) — a U.S. regulation that defines what is necessary for ICT to be considered accessible
 
 ### Comments
-To comment on the WCAG2ICT guidance, [open a new GitHub issue](https://github.com/w3c/wcag2ict/issues/new). Please open a separate GitHub issue per discrete topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account.
+To comment on the WCAG2ICT guidance, [open a new GitHub issue](https://github.com/w3c/wcag2ict/issues/new). Please create a separate GitHub issue for each topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account.
 
-If filing issues in GitHub is not feasible, send comments in an email to: <public-wcag2ict-comments@w3.org>.
+If it’s not feasible for you to use GitHub, email your comments to: <public-wcag2ict-comments@w3.org>. Please put your comments in the body of the message, not as an attachment.
 
 If you have comments on the wording quoted from WCAG 2 or Understanding WCAG 2, follow the [Instructions for Commenting on WCAG 2 Documents](https://deploy-preview-1197--wai-website.netlify.app/standards-guidelines/wcag/commenting/).
