@@ -20,10 +20,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page provides an overview of the WCAG2ICT guidance, its purpose and who it is for, what it does and does ***not*** do, and how to comment on it.
-
-Quick link to the full document:
-* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/)
+This page introduces <cite>Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies [(WCAG2ICT)](https://www.w3.org/TR/wcag2ict/)</cite>. This Group Note describes how Web Content Accessibility Guidelines (WCAG) principles, guidelines and success criteria can be applied to non-web information and communications technologies (ICT), as well as what WCAG2ICT does and does ***not*** do. 
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -43,8 +40,6 @@ Quick link to the full document:
 {:/}
 
 ## Introduction {#intro}
-
-The <cite>'Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)'</cite> Group Note describes how the Web Content Accessibility Guidelines (WCAG) principles, guidelines and success criteria can be applied to non-web information and communications technologies (ICT).
 
 The WCAG2ICT Group Note provides guidance that describes how WCAG 2.0, 2.1, and 2.2 (WCAG 2) criteria can be applied to non-web documents and software — including mobile apps, native applications, platform software, and software on ICT with closed functionality. For specific criteria, the guidance also provides technology-specific explanations that include highlighting difficulties with applying some WCAG 2 success criteria.  This is especially the case where WCAG makes assumptions on the presence of a browser that would not be true for non-web documents and software. Not all ICT have these concepts.
 
