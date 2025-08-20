@@ -118,7 +118,7 @@ WCAG2ICT:
 
 WCAG2ICT guidance is developed by the WCAG2ICT Task Force of the Accessibility Guidelines Working Group (AGWG). The Task Force work statement defines the objectives, scope, and approach for WCAG2ICT.
 
-The participants of the WCAG2ICT Task Force are volunteers from W3C member organizations and invited experts, and they are supported by W3C Web Accessibility Initiative (WAI) staff.
+The participants of the WCAG2ICT Task Force are volunteers from W3C Member organizations and invited experts, and they are supported by W3C Web Accessibility Initiative (WAI) staff.
 
 ### Related documents
 W3C WAI resources related to WCAG2ICT:
