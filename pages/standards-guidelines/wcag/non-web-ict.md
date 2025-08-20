@@ -20,7 +20,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-<cite>Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies [(WCAG2ICT)](https://www.w3.org/TR/wcag2ict/)</cite> is a W3C Group Note that describes how Web Content Accessibility Guidelines (WCAG) principles, guidelines, and success criteria can be applied to documents, software, and other information and communications technologies (ICT).
+<cite>Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies [(WCAG2ICT)](https://www.w3.org/TR/wcag2ict/)</cite> is a [W3C Group Note](https://www.w3.org/standards/types/#x2-5-2-group-note) that describes how Web Content Accessibility Guidelines (WCAG) principles, guidelines, and success criteria can be applied to documents, software, and other information and communications technologies (ICT).
 
 This page provides an overview of the WCAG2ICT accessibility guidance, its purpose, who it is for, what it does and does *not* do, and how to comment on WCAG2ICT.
 
