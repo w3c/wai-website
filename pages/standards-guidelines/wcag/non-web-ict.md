@@ -20,7 +20,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page introduces the document "Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)". It describes how Web Content Accessibility Guidelines (WCAG) principles, guidelines, and success criteria can be applied to non-web ICT, specifically to non-web documents and software. The document covers WCAG 2.0, 2.1, and 2.2.
+This page introduces the document "Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)". WCAG2ICT describes how Web Content Accessibility Guidelines (WCAG) principles, guidelines, and success criteria can be applied to non-web ICT, specifically to non-web documents and software. It covers WCAG 2.0, 2.1, and 2.2.
 
 Quick link:
 * [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/)
