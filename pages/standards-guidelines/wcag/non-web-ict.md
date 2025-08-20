@@ -101,7 +101,7 @@ WCAG2ICT provides:
 
 ### Technical document format
 
-WCAG2ICT follows the [W3C format for technical reports](https://www.w3.org/Consortium/Process/Process-19991111/tr.html#Reports), which has several sections at the beginning, including links to different versions, editors, abstract, and status.
+WCAG2ICT follows the W3C format for technical reports, which has several sections at the beginning, including links to different versions, editors, abstract, and status.
 
 ## What WCAG2ICT does not do
 
