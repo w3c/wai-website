@@ -124,7 +124,7 @@ The participants of the WCAG2ICT Task Force are volunteers from W3C Member organ
 W3C WAI resources related to WCAG2ICT:
 * [WCAG2ICT Task Force](/about/groups/task-forces/wcag2ict/)
 * [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/)
-* [Web Accessibility Laws and Policies](/WAI/policies/)
+* [Web Accessibility Laws and Policies](/policies/)
 * [Web Content Accessibility Guidelines (WCAG) Overview](/standards-guidelines/wcag/)
 
 Though there are many standards that cover non-web software aspects of ICT, the following is a non-exhaustive list of standards and rules that use or reference WCAG2ICT: 
