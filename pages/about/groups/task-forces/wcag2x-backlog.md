@@ -1,4 +1,4 @@
----
+renrengornica86@gmail.com
 title: WCAG 2.x Backlog Task Force
 permalink: /about/groups/task-forces/wcag2x-backlog/
 ref: /about/groups/task-forces/wcag2x-backlog/
