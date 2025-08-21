@@ -130,7 +130,7 @@ W3C WAI resources related to WCAG2ICT:
 Though there are many standards that cover non-web software aspects of ICT, the following is a non-exhaustive list of standards and rules that use or reference WCAG2ICT: 
 * [Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities](https://www.federalregister.gov/documents/2024/04/24/2024-07758/nondiscrimination-on-the-basis-of-disability-accessibility-of-web-information-and-services-of-state) (Rule by the U.S. Department of Justice) 
 * [Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps Provided by State and Local Governments](https://www.ada.gov/resources/2024-03-08-web-rule/) (ADA.gov)
-* [EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) and country-specific standards based on EN 301 549:
+* [EN 301 549 (PDF)](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) and country-specific standards based on EN 301 549:
   * [CAN/ASC - EN 301 549 Accessibility requirements for ICT products and services (EN 301 549, IDT](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-1)) (Canada standards adoption of EN 301 549 verbatim)
   * [AS EN 301 549](https://www.standards.org.au/standards-catalogue/standard-details?designation=as-en-301-549-2020) (Australia standards adoption of EN 301 549 verbatim)
   * [IS 17802 Part 1](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_1_2021.pdf) and [IS 17802 Part 2](https://broadbandindiaforum.in/wp-content/uploads/2022/08/IS-17802_2_2022.pdf) (India standard based on EN 301 549)
