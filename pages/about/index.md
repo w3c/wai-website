@@ -3,7 +3,7 @@ title: "About W3C WAI"
 permalink: /about/
 ref: /about/
 lang: en
-last_updated: 2025-08-06
+last_updated: 2025-08-18
 feedbackmail: wai@w3.org
 class: tight-page
 github:
@@ -141,7 +141,7 @@ W3C Community Groups cover a variety of topics. **Anyone can join Community Grou
 * [Cognitive Accessibility CG](https://www.w3.org/community/coga-community/)
 <!-- * [Low Vision CG](https://www.w3.org/community/low-vision/) -->
 
-Learn more about [Participating in WAI](https://www.w3.org/WAI/about/participating/).
+Learn more about [Participate in WAI](https://www.w3.org/WAI/about/participating/).
 
 ## WAI Staff
 
