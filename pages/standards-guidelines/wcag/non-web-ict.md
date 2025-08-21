@@ -120,7 +120,15 @@ WCAG2ICT guidance is developed by the WCAG2ICT Task Force of the Accessibility 
 
 The participants of the WCAG2ICT Task Force are volunteers from W3C Member organizations and invited experts, and they are supported by W3C Web Accessibility Initiative (WAI) staff.
 
-### Related documents
+### Comments
+
+To comment on the WCAG2ICT guidance, [open a new GitHub issue](https://github.com/w3c/wcag2ict/issues/new). Please create a separate GitHub issue for each topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account.
+
+If it’s not feasible for you to use GitHub, email your comments to: <public-wcag2ict-comments@w3.org>. Please put your comments in the body of the message, not as an attachment.
+
+If you have comments on the wording quoted from WCAG 2 or Understanding WCAG 2, follow the [Instructions for Commenting on WCAG 2 Documents](/standards-guidelines/wcag/commenting/).
+
+## Related documents
 W3C WAI resources related to WCAG2ICT:
 * [WCAG2ICT Task Force](/about/groups/task-forces/wcag2ict/)
 * [WCAG2ICT Task Force Work Statement](/about/groups/task-forces/wcag2ict/work-statement/)
@@ -139,9 +147,3 @@ Though there are many standards that cover non-web software aspects of ICT, the 
 * [U.S. Section 508 of the Rehabilitation Act](https://www.access-board.gov/about/law/ra.html#section-508-federal-electronic-and-information-technology) — requires ICT that is developed, procured, maintained, or used by U.S. federal agencies to be accessible to people with disabilities
 * [Section 508 Standards](https://www.access-board.gov/ict/) — a U.S. regulation that defines what is necessary for ICT to be considered accessible
 
-### Comments
-To comment on the WCAG2ICT guidance, [open a new GitHub issue](https://github.com/w3c/wcag2ict/issues/new). Please create a separate GitHub issue for each topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account.
-
-If it’s not feasible for you to use GitHub, email your comments to: <public-wcag2ict-comments@w3.org>. Please put your comments in the body of the message, not as an attachment.
-
-If you have comments on the wording quoted from WCAG 2 or Understanding WCAG 2, follow the [Instructions for Commenting on WCAG 2 Documents](/standards-guidelines/wcag/commenting/).
