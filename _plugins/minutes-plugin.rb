@@ -11,7 +11,7 @@ module Jekyll
       site.data['minutes']['groups'].each {|id, channels| requested_channels.push(*channels)}
 
       minutesUri =
-        URI("https://www.w3.org/services/meeting-minutes?format=json&num=#{limit}&channels=#{requested_channels.uniq().join(',')}")
+        URI("https://www.w3.org/services/meeting-minutes/?format=json&num=#{limit}&channels=#{requested_channels.uniq().join(',')}")
 
       rawData = nil
       begin
