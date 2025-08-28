@@ -141,7 +141,7 @@ W3C Community Groups cover a variety of topics. **Anyone can join Community Grou
 * [Cognitive Accessibility CG](https://www.w3.org/community/coga-community/)
 <!-- * [Low Vision CG](https://www.w3.org/community/low-vision/) -->
 
-Learn more about [Participate in WAI](https://www.w3.org/WAI/about/participating/).
+To learn more, see [Participate in WAI](https://www.w3.org/WAI/about/participating/).
 
 ## WAI Staff
 
