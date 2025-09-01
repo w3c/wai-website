@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, August 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, September 2025</span>"
 lang: en
-last_updated: 2025-08-06 # update the HTML title month, too
+last_updated: 2025-09-01 # update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -100,17 +100,16 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in Q3 (July, August, September) 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in September 2025:<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) update ([WCAG2ICT Editor's Draft](https://w3c.github.io/wcag2ict/))
-* Accessibility Maturity Model ([Maturity Model Editor's Draft](https://w3c.github.io/maturity-model/))
+* WCAG 3 Working Draft update — see [WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/)
 * More [WAI Translations](/translations/) &mdash; usually some each month
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
 ### Get Updated
 
-To get news via e-mail, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Get WAI News]](/news/subscribe/)**.
+To get news via e-mail, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Subscribe to WAI News]](/news/subscribe/)**.
 
 ## Wait, Wait, There's More
 
@@ -188,6 +187,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 1 September 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 6 August 2025
   * Changed staff list under [Who is we](/update/#who-is-we) to link to [W3C WAI Staff](/about/#wai-staff)
 * 30 June 2025
