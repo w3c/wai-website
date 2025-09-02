@@ -157,7 +157,7 @@ The December 2024 publications have updated information in:
 
 WCAG 3 will not supersede WCAG 2 and WCAG 2 will not be deprecated for at least several years after WCAG 3 is finalized.
 
-The Accessibility Guidelines Working Group (AG WG) has created an initial set of guidelines. In the first part of 2025, AG WG focused on progressing more guidelines, requirements, assertions, and supporting material to Developing status. In September 2025, the Editors will focus on drafting more guidelines, requirements, and assertions. We will use that experience to develop a projected timeline for WCAG 3. We expect the timeline to be available by December 2025.
+The Accessibility Guidelines Working Group (AG WG) created an initial set of guidelines and explored conformance models. In 2025, AG WG focused on progressing guidelines, requirements, assertions, and supporting material to Developing status. During the rest of 2025, we will focus on completing the proposed guidelines and proposed conformance model for public review.
 
 For information on current timelines and activities, see [WCAG 3 Publication Plan](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline#Publication_Plan).
 
