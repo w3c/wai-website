@@ -40,7 +40,7 @@ footer: >
 
 Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory or developng phase and will change substantially.
 
-WCAG 3 will have similar fundamental and specific accessibility requirements as WCAG 2. WCAG 3 will have a different structure, different conformance model, and broader scope.
+WCAG 3 will have similar accessibility requirements as WCAG 2. WCAG 3 will have a different structure, different conformance model, and broader scope.
 
 Please share this page as the starting point for official information about WCAG 3 now and in the future. Short link: w3.org/WAI/wcag3
 
