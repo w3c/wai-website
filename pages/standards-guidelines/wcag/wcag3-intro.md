@@ -89,7 +89,7 @@ For more information on these status indicators, see the Explainer section [Curr
 
 ### September 2025 update
 
-This update includes potential guidelines, requirements, and assertions that have progressed to Developing status.
+This update includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/).
 
 For review questions and how to comment, please see the section [About this draft@@](@@link).
 
