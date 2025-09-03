@@ -2,7 +2,7 @@
 title: "Digital Accessibility User Requirements"
 nav_title: "User Requirements"
 lang: en
-last_updated: 2026-03-05
+last_updated: 2025-03-05
 description: User requirements for virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, cognitive accessibility, low vision, and more.
 
 github:
