@@ -3,7 +3,7 @@ title: "Digital Accessibility Foundations - Free Online Course"
 title_html: "Digital Accessibility Foundations<br>Free Online Course"
 nav_title: "Foundations Online Course"
 lang: en
-last_updated: 2025-06-25
+last_updated: 2025-09-18
 description: For developers, designers, ux, writers, managers, advocates - professionals, instructors, students - technical and non-technical.
 
 github:
@@ -141,7 +141,7 @@ The course is designed to take about **16-20 hours to complete** for most people
 
 It is **self-paced** so you can complete it in a shorter or longer time frame.
 
-This course will be available on the edX platform through at least October 2025. We expect a version of this course to be available long term.
+This course will be available on the edX platform through at least December 2025. We expect a version of this course to be available long term.
 
 ## Cost: Free, optional certificate
 
