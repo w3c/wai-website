@@ -151,7 +151,7 @@ The WCAG JSON (JavaScript Object Notation) files include the principles, guideli
 * [WCAG 2.1 JSON](https://www.w3.org/WAI/WCAG21/wcag.json)
 * [WCAG 2.2 JSON](https://www.w3.org/WAI/WCAG22/wcag.json)
 
-For a history of structural changes to the JSON files, see the [list of merged `wcag.json` pull requests](https://github.com/w3c/wcag/pulls?q=is%3Apr+label%3Awcag.json), and in particular the "`wcag.json` Changes" section within each pull request's description.
+For a history of structural changes to the JSON files, see the [list of merged `wcag.json` pull requests](https://github.com/w3c/wcag/pulls?q=is%3Apr+label%3Awcag.json), and in particular the "`wcag.json` Changes" section within each pull request description.
 
 ### Permission to use with attribution
 
