@@ -160,7 +160,7 @@ You may use this data provided you:
 * Clearly attribute the original source and include a link to it ([Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/),  [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/), [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/), [Techniques for WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/))
 * Do not change the content
 
-If you include additional information, it must be clear what is from the WCAG material.
+If you include additional information, it must be clear what is from the W3C WCAG documents and what is added.
 
 See [W3C Document license](https://www.w3.org/copyright/document-license/) and [W3C Intellectual rights](https://www.w3.org/copyright/intellectual-rights/), particularly '[May I annotate one of your specifications?](https://www.w3.org/copyright/intellectual-rights/#annotate)'.
 
