@@ -2,7 +2,7 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Dhruv, older adult student who is deaf"
+title: "Dhruv, ff adult student who is deaf"
 nav_title: "Dhruv"
 lang: es   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Keep the date of the English version
