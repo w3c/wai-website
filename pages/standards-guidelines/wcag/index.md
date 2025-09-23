@@ -5,7 +5,7 @@
 title: "WCAG 2 Overview"
 nav_title: "Web Content – WCAG 2"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2025-05-06  # Keep the date of the English version
+last_updated: 2025-09-24 # Keep the date of the English version
 first_published: "July 2005"
 description: Introduces the Web Content Accessibility Guidelines (WCAG) international standard, including WCAG 2.0, WCAG 2.1, and WCAG 2.2. WCAG documents explain how to make web content more accessible to people with disabilities.
 
@@ -144,26 +144,6 @@ The content of ISO/IEC 40500 is freely available from [www.w3.org/TR/WCAG20](htt
 
 Benefits of WCAG 2.0 as an ISO standard are summarized in [ISO in the FAQ](/standards-guidelines/wcag/faq/#iso). More information on W3C and the ISO process is in the [W3C PAS FAQ](https://www.w3.org/2010/04/pasfaq).
 
-## JSON machine-readable files
-
-The WCAG JSON (JavaScript Object Notation) files include the principles, guidelines, success criteria, and glossary terms from WCAG and the supporting Techniques. These JSON files are updated monthly.
-
-* [WCAG 2.1 JSON](https://www.w3.org/WAI/WCAG21/wcag.json)
-* [WCAG 2.2 JSON](https://www.w3.org/WAI/WCAG22/wcag.json)
-
-For a history of structural changes to the JSON files, see the [list of merged `wcag.json` pull requests](https://github.com/w3c/wcag/pulls?q=is%3Apr+label%3Awcag.json), and in particular the "`wcag.json` Changes" section in each pull request description.
-
-### Permission to use with attribution
-
-You may use this data provided you:
-
-* Clearly attribute the original source and include a link to it ([Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/),  [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/), [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/), [Techniques for WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/))
-* Do not change the content
-
-If you include additional information, it must be clear what is from the W3C WCAG documents and what is added.
-
-See [W3C Document license](https://www.w3.org/copyright/document-license/) and [W3C Intellectual rights](https://www.w3.org/copyright/intellectual-rights/), particularly '[May I annotate one of your specifications?](https://www.w3.org/copyright/intellectual-rights/#annotate)'.
-
 ## Who develops WCAG {#wg}
 
 The WCAG technical documents are developed by the Accessibility Guidelines Working Group ([AG WG](/GL/)) *(formerly the Web Content Accessibility Guidelines Working Group)*, which is part of the World Wide Web Consortium ([W3C](https://www.w3.org)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
@@ -176,10 +156,18 @@ Opportunities for contributing to WCAG and other WAI work are introduced in [[Pa
 
 WCAG is part of a series of accessibility guidelines, including the Authoring Tool Accessibility Guidelines (ATAG) and the User Agent Accessibility Guidelines (UAAG). [[Essential Components of Web Accessibility]](/fundamentals/components/) explains the relationship between the different guidelines.
 
+### WCAG 3
+
+For information on the early draft of W3C Accessibility Guidelines 3.0 (formerly known as "Silver"), see the **[WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/)**.
+
+### Frequently asked questions (FAQ) {#faq}
+
 See the [[WCAG 2 FAQ]](/standards-guidelines/wcag/faq/) for more information on:
 
 -   **WCAG 2 coverage of [mobile accessibility](/standards-guidelines/wcag/faq/#mobile)**
 -   **Applying WCAG 2 to [documents and software](/standards-guidelines/wcag/faq/#wcag2ict)**
 -   and more...
 
-For information on the early draft of W3C Accessibility Guidelines 3.0 (formerly known as "Silver"), see the **[WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/)**.
+### JSON machine-readable files {#json-files}
+
+The WCAG JSON (JavaScript Object Notation) files include the principles, guidelines, success criteria, and glossary terms from WCAG and the supporting Techniques. For more information, see [JSON Serialization of WCAG 2 – GitHub {% include_cached external.html %}](https://github.com/w3c/wcag/tree/main/11ty/json#readme).
