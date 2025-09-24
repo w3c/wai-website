@@ -136,7 +136,7 @@ Authorized Translations and unofficial translations of WCAG 2 are listed in [[WC
 
 ## WCAG 2 is ISO/IEC 40500 {#iso}
 
-**W3C submitted WCAG 2.2 to ISO.** We expect it to be finalized through the ISO process by Q3 (August, September, October) 2025.
+**W3C submitted WCAG 2.2 to ISO.** We expect it to be finalized through the ISO process in October 2025.
 
 **WCAG 2.0** is approved as an ISO standard: ISO/IEC 40500:2012. ISO/IEC 40500 is exactly the same as the original WCAG 2.0, which is introduced above along with supporting resources.
 
