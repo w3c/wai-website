@@ -5,7 +5,7 @@
 title: "WCAG 2 Overview"
 nav_title: "Web Content – WCAG 2"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2025-05-06  # Keep the date of the English version
+last_updated: 2025-09-24 # Keep the date of the English version
 first_published: "July 2005"
 description: Introduces the Web Content Accessibility Guidelines (WCAG) international standard, including WCAG 2.0, WCAG 2.1, and WCAG 2.2. WCAG documents explain how to make web content more accessible to people with disabilities.
 
@@ -134,15 +134,15 @@ WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not d
 
 Authorized Translations and unofficial translations of WCAG 2 are listed in [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/).
 
-## WCAG 2.0 is ISO/IEC 40500 {#iso}
+## WCAG 2 is ISO/IEC 40500 {#iso}
 
-WCAG 2.0 is approved as an ISO standard: ISO/IEC 40500:2012. ISO/IEC 40500 is exactly the same as the original WCAG 2.0, which is introduced above along with supporting resources.
+**W3C submitted WCAG 2.2 to ISO.** We expect it to be finalized through the ISO process in October 2025.
+
+**WCAG 2.0** is approved as an ISO standard: ISO/IEC 40500:2012. ISO/IEC 40500 is exactly the same as the original WCAG 2.0, which is introduced above along with supporting resources.
 
 The content of ISO/IEC 40500 is freely available from [www.w3.org/TR/WCAG20](https://www.w3.org/TR/WCAG20/); it is available for purchase from the [ISO catalogue {% include_cached external.html %}](https://www.iso.org/standard/58625.html).
 
 Benefits of WCAG 2.0 as an ISO standard are summarized in [ISO in the FAQ](/standards-guidelines/wcag/faq/#iso). More information on W3C and the ISO process is in the [W3C PAS FAQ](https://www.w3.org/2010/04/pasfaq).
-
-**W3C submitted WCAG 2.2 to ISO.** It will likely be after June 2025 before the ISO process is complete.
 
 ## Who develops WCAG {#wg}
 
@@ -152,14 +152,22 @@ WAI updates Techniques for WCAG 2 and Understanding WCAG 2 periodically. We welc
 
 Opportunities for contributing to WCAG and other WAI work are introduced in [[Participating in WAI]](/about/participating/).
 
-## WCAG 3 and more information {#more}
+## More about WCAG {#more}
 
 WCAG is part of a series of accessibility guidelines, including the Authoring Tool Accessibility Guidelines (ATAG) and the User Agent Accessibility Guidelines (UAAG). [[Essential Components of Web Accessibility]](/fundamentals/components/) explains the relationship between the different guidelines.
+
+### Frequently asked questions (FAQ) {#faq}
 
 See the [[WCAG 2 FAQ]](/standards-guidelines/wcag/faq/) for more information on:
 
 -   **WCAG 2 coverage of [mobile accessibility](/standards-guidelines/wcag/faq/#mobile)**
 -   **Applying WCAG 2 to [documents and software](/standards-guidelines/wcag/faq/#wcag2ict)**
 -   and more...
+
+### JSON machine-readable files {#json-files}
+
+The WCAG JSON (JavaScript Object Notation) files include the principles, guidelines, success criteria, and glossary terms from WCAG and the supporting Techniques. For more information, see [JSON Serialization of WCAG 2 – GitHub {% include_cached external.html %}](https://github.com/w3c/wcag/tree/main/11ty/json#readme).
+
+### WCAG 3
 
 For information on the early draft of W3C Accessibility Guidelines 3.0 (formerly known as "Silver"), see the **[WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/)**.
