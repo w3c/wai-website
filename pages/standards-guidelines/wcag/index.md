@@ -152,13 +152,9 @@ WAI updates Techniques for WCAG 2 and Understanding WCAG 2 periodically. We welc
 
 Opportunities for contributing to WCAG and other WAI work are introduced in [[Participating in WAI]](/about/participating/).
 
-## WCAG 3 and more information {#more}
+## More about WCAG {#more}
 
 WCAG is part of a series of accessibility guidelines, including the Authoring Tool Accessibility Guidelines (ATAG) and the User Agent Accessibility Guidelines (UAAG). [[Essential Components of Web Accessibility]](/fundamentals/components/) explains the relationship between the different guidelines.
-
-### WCAG 3
-
-For information on the early draft of W3C Accessibility Guidelines 3.0 (formerly known as "Silver"), see the **[WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/)**.
 
 ### Frequently asked questions (FAQ) {#faq}
 
@@ -171,3 +167,7 @@ See the [[WCAG 2 FAQ]](/standards-guidelines/wcag/faq/) for more information on:
 ### JSON machine-readable files {#json-files}
 
 The WCAG JSON (JavaScript Object Notation) files include the principles, guidelines, success criteria, and glossary terms from WCAG and the supporting Techniques. For more information, see [JSON Serialization of WCAG 2 – GitHub {% include_cached external.html %}](https://github.com/w3c/wcag/tree/main/11ty/json#readme).
+
+### WCAG 3
+
+For information on the early draft of W3C Accessibility Guidelines 3.0 (formerly known as "Silver"), see the **[WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/)**.
