@@ -40,11 +40,14 @@ Find out about the activities of the Accessible Platform Architectures (APA) Wor
 
 ## Mission
 
-The mission of the APA Working Group is to ensure W3C specifications support accessibility for people with disabilities through the following activities: reviewing specifications; developing new specifications and technical support materials; collaborating with other W3C working groups on technology accessibility; and coordinating harmonized accessibility strategies within W3C that include security, privacy, and internationalization.
+The mission of the APA Working Group is to ensure W3C specifications support accessibility for people with disabilities through the following activities: 
 
-## Charter
+* reviewing specifications
+* developing new specifications and technical support materials
+* collaborating with other W3C working groups on technology accessibility
+* coordinating harmonized accessibility strategies within W3C that include security, privacy, and internationalization
 
-To learn about the group’s focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/2023/07/apa-wg-charter).
+To learn about the group’s focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/2025/06/apa-wg-charter.html).
 
 ## Current work
 
@@ -52,13 +55,13 @@ For details of the current work, see the [APA Working Group wiki](https://www.w3
 
 ## Contribute to the work
 
-W3C and the APA Working Group welcome input on APA work from the global accessibility community.
+W3C and the APA Working Group welcome input on APA work from individuals and organizations around the world.
 
 ### Contribute without joining the group
 
 There are ways you can contribute without being a member of the working group:
 
-* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; these are announced on the [WAI News pages](/news/) and on the [WAI Interest Group mailing lists](/about/groups/waiig/#mailinglist).
+* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; to be notified about draft documents for review, [subscribe to WAI news](/news/subscribe/).
 * **Raise, comment on, or propose fixes to APA issues:** If you’re aware of an issue with any of the published APA resources, W3C welcomes you to [raise a new issue on GitHub](https://github.com/w3c/apa/issues) &mdash; you can also comment on and, even better, propose solutions for existing issues.
 * **Contribute to APA discussions:** You may contribute your views to the APA Working Group's [mailing list discussions](https://lists.w3.org/Archives/Public/public-apa/).
 
@@ -74,7 +77,7 @@ Being a participant involves commitment to support the work of the group in the 
 
 See [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
 
-## Group members and task forces
+## Group participants and task forces
 
 * [Chairs](https://www.w3.org/groups/wg/apa/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/wg/apa/participants/#participants)

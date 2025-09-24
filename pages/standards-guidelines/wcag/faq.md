@@ -89,7 +89,7 @@ On 12 December 2024, we published an update to WCAG 2.2. The update includes:
 
 You can link to the latest version or specific versions of WCAG 2.2:
 * for the latest version of WCAG 2.2: [https://www.w3.org/TR/WCAG22/](https://www.w3.org/TR/WCAG22/)
-* the version published 12 December 2024: [https://www.w3.org/TR/2024/WD-wcag-3.0-20241212//](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/)
+* the version published 12 December 2024: [https://www.w3.org/TR/2024/REC-WCAG22-20241212/](https://www.w3.org/TR/2024/REC-WCAG22-20241212/)
 * the version published 5 October 2023: [https://www.w3.org/TR/2023/REC-WCAG22-20231005/](https://www.w3.org/TR/2023/REC-WCAG22-20231005/)
 
 More info on linking is in [Referencing and Linking to WAI Guidelines](https://www.w3.org/WAI/standards-guidelines/linking/).

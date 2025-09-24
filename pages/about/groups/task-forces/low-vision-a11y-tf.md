@@ -32,7 +32,11 @@ Find out about the activities of the Low Vision Accessibility (LV) Task Force an
 
 ## Objectives
 
-The objective of the LV Task Force is to address web accessibility issues that are specific to people with low vision through inputting into WCAG 2 techniques and understanding documents; inputting into WCAG 3; and developing additional low-vision guidance resources.
+The LV Task Force addresses web accessibility issues that are specific to people with low vision through: 
+
+- inputting into WCAG 2 techniques and understanding documents,
+- inputting into WCAG 3, and 
+- developing additional low-vision guidance resources.
 
 ## Work statement
 
@@ -48,19 +52,19 @@ For details of the work, see the [LV Task Force wiki](https://www.w3.org/WAI/GL/
 
 ## Contribute to the work
 
-The LV Task Force welcomes input from the global accessibility community on the low vision accessibility work.
+The LV Task Force welcomes input from individuals and organizations around the world on the low vision accessibility work.
 
 ### Contribute without joining the task force
 
 You can contribute to the work without being a member of the task force.
 
-If you’re aware of an issue with any of the published low vision accessibility resources, email [public-low-vision-a11y-tf@w3.org](mailto:public-low-vision-a11y-tf@w3.org).
+If you’re aware of an issue with any of the published low vision accessibility resources, email [public-low-vision-a11y-tf@w3.org](mailto:public-low-vision-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
 Details of how to join the LV Task Force will be published here when it is reactivated.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#participants)
@@ -73,11 +77,10 @@ Details of how to join the LV Task Force will be published here when it is react
 
 ## Publications
 
-The LV Task Force develops and maintains the following resources for the AG Working Group:
+The LV Task Force develops and maintains the following resource for the AG Working Group: [Accessibility Requirements for People with Low Vision — Working Draft](https://www.w3.org/TR/low-vision-needs/) (and latest [Editor’s Draft](https://w3c.github.io/low-vision-a11y-tf/requirements.html)).
 
-* [Accessibility Requirements for People with Low Vision — 2016 First Public Working Draft](https://www.w3.org/TR/low-vision-needs/)
-* [Accessibility Requirements for People with Low Vision — 2023 Editor’s Draft](https://w3c.github.io/low-vision-a11y-tf/requirements.html)
+## Contact the task force
 
-## Contact the chairs
+If you have a question for the LV Task Force, [email the task force](mailto:public-low-vision-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
-If you have a question for the LV Task Force, email the [chairs](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#staff).
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#staff).

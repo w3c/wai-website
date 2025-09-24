@@ -116,6 +116,7 @@ Dhruv is a student who is deaf. Because his first, or native, language is sign l
   {% include video-card.html
    video-url="//media.w3.org/wai/people-use-web/user-stories_6.mp4"
    captions="wai-videos/people-use-web/user-stories_6.en.vtt|en"
+   subtitles="wai-videos/people-use-web/user-stories_6.es.vtt|es"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Dhruv, older adult student who is deaf"
    poster="content-images/people-use-web/user-stories/dhruv-video-frame.png"

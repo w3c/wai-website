@@ -5,7 +5,7 @@
 title: "WCAG 3 Introduction"
 nav_title: "WCAG 3 Draft"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-12-12 # Keep the date of the English version
+last_updated: 2025-09-04 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -38,9 +38,9 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory phase, and will change substantially. We published an updated [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) on 12 December 2024.
+Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory or developing phase and will change substantially.
 
-WCAG 3 will have similar fundamental and specific accessibility requirements as WCAG 2. WCAG 3 will have a different structure, different conformance model, and broader scope.
+WCAG 3 will have similar accessibility requirements as WCAG 2. WCAG 3 will have a different structure, different conformance model, and broader scope.
 
 Please share this page as the starting point for official information about WCAG 3 now and in the future. Short link: w3.org/WAI/wcag3
 
@@ -72,17 +72,10 @@ We will update this page regularly as work on the WCAG 3 Draft progresses.
 
 ## Status: In-progress drafts
 
-In December 2024, we published updated drafts:
+In September 2025, we published updated drafts:
 
-* [Requirements for WCAG 3](https://www.w3.org/TR/wcag-3.0-requirements/) describes the key principles and requirements that will help shape how WCAG 3 develops and how to determine when it is successfully complete.
-* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the December 2024 WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.**
+* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.** The main section that changed in the Setpember 2025 update is the [Assertions section](https://www.w3.org/TR/wcag-3.0-explainer/#assertions).
 * **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines and requirements that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed.
-
-### Summary of changes 
-* Explanatory content is moved to the [Explainer](https://www.w3.org/TR/wcag-3.0-explainer/).
-* The term 'outcome' is changed. The current draft has 'guidelines' that are written as user-centered outcomes and 'requirements' that support the guideline.
-* Requirements are indicated as 'foundational' or 'supplemental', as described in the [Explainer](https://www.w3.org/TR/wcag-3.0-explainer/).
-* Accessibility support is changed in [3.1.1 Only accessibility-supported ways of using technologies](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/#accessibility-supported).
 
 ### Section status
 Each normative section has a status that indicates how far along in the development process this section is, how ready it is for experimental adoption, and what kind of feedback we are looking for.
@@ -92,35 +85,19 @@ Each normative section has a status that indicates how far along in the developm
 * Refining
 * Mature
 
-For more information on these status indicators, see the Explainer section [Current Process for Creating WCAG 3.0](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#current-process).
+For more information on these status indicators, see the Explainer section [Current Process for Creating WCAG 3.0](https://www.w3.org/TR/wcag-3.0-explainer/#current-process).
 
-### For your review
+### September 2025 update
 
-In this WCAG 3 Working Draft, there are four updated sections that we would particularly like feedback on. The first three sections are guidelines:
+This update includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/).
 
-1. [Image alternatives guideline](https://w3.org/TR/wcag-3.0/#image-alternatives)
-2. [Keyboard focus appearance guideline](https://w3.org/TR/wcag-3.0/#keyboard-focus-appearance)
-3. [Clear meaning guideline](https://w3.org/TR/wcag-3.0/#clear-meaning)
-
-For these sections, does the information under 'Which foundational requirements apply?' make the guidelines easier to understand and use?
-
-The other section we would like feedback on is:
-
-* [Conformance](https://w3.org/TR/wcag-3.0/#conformance)
-
-This section explains the conformance approach we are considering for WCAG 3. There are still many details to be worked out. Do you have constructive comments about this proposed conformance approach for WCAG 3?
+For review questions and how to comment, please see the section [About this draft@@](@@link).
 
 ### Research needed
 
 Some of the guidelines and requirements are marked with "Needs additional research". We are particularly interested in assistance identifying or conducting research to support or refute them.
 
 <img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
-
-### Comments
-
-To provide input, please [open an issue in the WCAG 3 GitHub repository](https://github.com/w3c/wcag3/issues/new). Or, if you are unable to use GitHub, email [public-agwg-comments@w3.org](mailto:public-agwg-comments@w3.org).
-
-**Please create separate GitHub issues or email messages for each topic**, rather than putting multiple topics in a single issue or email.
 
 ## WCAG 3 Draft approach
 
@@ -180,9 +157,9 @@ The December 2024 publications have updated information in:
 
 WCAG 3 will not supersede WCAG 2 and WCAG 2 will not be deprecated for at least several years after WCAG 3 is finalized.
 
-The Accessibility Guidelines Working Group (AG WG) has created an initial set of guidelines. In the first part of 2025, AG WG will focus on developing two or three guidelines to Refining or Mature status. We will use that experience to develop a projected timeline for WCAG 3. We expect the timeline to be available by September 2025.
+The Accessibility Guidelines Working Group (AG WG) previously created an initial set of guidelines and explored conformance models. In 2025, AG WG focused on progressing guidelines, requirements, assertions, and supporting material to Developing status. During the rest of 2025, the group will focus on completing the proposed guidelines and proposed conformance model for public review.
 
-For information on current timelines and activities, see [WCAG 3 Publication Plan](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline#Publication_Plan).
+AG WG plans to develop a projected [WCAG 3 timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline) by December 2025.
 
 We will update this section with more specific timeline information as it is available.
 

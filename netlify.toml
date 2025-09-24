@@ -26,13 +26,3 @@ command = "bundle exec jekyll serve -w --livereload --config _config.yml,_config
 [functions]
 directory = "_functions"
 node_bundler = "esbuild"
-
-[[plugins]]
-package = "@netlify/plugin-functions-install-core"
-
-[[plugins]]
-# See https://github.com/netlify/netlify-plugin-lighthouse#readme
-package = "@netlify/plugin-lighthouse"
-[plugins.inputs.settings]
-preset = "desktop" # default is mobile
-locale = "en"

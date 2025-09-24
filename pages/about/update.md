@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, May 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, September 2025</span>"
 lang: en
-last_updated: 2025-04-30
+last_updated: 2025-09-01 # update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -100,16 +100,16 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in May 2025.<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in September 2025:<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* A draft new resource on applying WCAG 2.2 to mobile apps
+* WCAG 3 Working Draft update — see [WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/)
 * More [WAI Translations](/translations/) &mdash; usually some each month
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
 ### Get Updated
 
-To get news via e-mail, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Get WAI News]](/news/subscribe/)**.
+To get news via e-mail, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Subscribe to WAI News]](/news/subscribe/)**.
 
 ## Wait, Wait, There's More
 
@@ -155,14 +155,7 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 "We" is:
 
 * [W3C](https://www.w3.org/Consortium/) Web Accessibility Initiative ([WAI](/about/))
-* W3C WAI Team:
-  * [Shawn Lawton Henry](https://www.w3.org/staff/wai/#shawn) is Web Accessibility Initiative (WAI) Program Lead; Accessibility Education and Communications Lead.
-  * [Kevin White](https://www.w3.org/staff/wai/#kevin) is Accessibility Technical Lead and supports the Accessibility Guidelines Working Group that develops WCAG.
-  * [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/wai/#ran) supports accessibility Working Groups and accessibility in China.
-  * [Daniel Montalvo](https://www.w3.org/staff/wai/#dmontalvo) supports accessibility Working Groups and standards harmonization.
-  * [Ken Franqueiro](https://www.w3.org/staff/wai/#kfranqueiro) supports the technical architecture for WCAG 2, WCAG 3, and more.
-  * [Tamsin Ewing](https://www.w3.org/staff/wai/#tamsin) supports accessibility communications and Working Group deliverables.
-  * [Rémi Bétin](https://www.w3.org/staff/wai/#remibetin) supports WAI translations, WAI website processes, WAI courses, and more.
+* [W3C WAI Staff](/about/#wai-staff)
 * Participants of: [AG](https://www.w3.org/groups/wg/ag/participants), [APA](https://www.w3.org/groups/wg/apa/participants), [ARIA](https://www.w3.org/groups/wg/aria/participants), [EPUB](https://www.w3.org/groups/wg/epub/participants), and other [W3C groups](https://www.w3.org/groups/)
 
 <section class="default-grid teaser making-web-accessible" aria-labelledby="mwa-title" style="border: 1px solid var(--line-grey);">
@@ -194,12 +187,20 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 1 September 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+* 6 August 2025
+  * Changed staff list under [Who is we](/update/#who-is-we) to link to [W3C WAI Staff](/about/#wai-staff)
+* 30 June 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+* 2 June 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 30 April 2025
   * Updated the [How to Get Involved](/update/#participate) section with specific needs
 * April 2025
   * Minor updates to current work on WCAG2ICT, ARIA 1.3, and mobile accessibility
 * March 2025
-  * Added mobile accessibility resource to [Upcoming Publications list](/update/#upcoming-publications), and removed ARRM because we published it.
+  * Added mobile accessibility resource to [Upcoming Publications list](/update/#upcoming-publications), and removed ARRM because we published it
 * 4 February 2025
   * Updated [Who is We](/update/#who-is-we) with new W3C WAI Team
 * 21 January 2025
