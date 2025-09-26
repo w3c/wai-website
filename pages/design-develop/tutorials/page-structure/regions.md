@@ -178,35 +178,6 @@ The [Menus tutorial](/tutorials/menus/) provides more details on creating menus.
 ## Responsive design
 Components may be collapsed or even hidden on smaller screens, but components that show should appear in the same order for a particular view (set size and orientation). If possible, page structure should be consistent across different screen sizes and orientations, though not a specific WCAG requirement.
 
-{% include ednote.html note="Remove or drastically simplify the next two sections." status="proposed" %}
-
-## Page regions in HTML5 using WAI-ARIA
-{:#accessupport}
-
-Most current web browsers support the above HTML5 elements and convey the information to assistive technology through the accessibility APIs. However, to maximize compatibility with web browsers and assistive technologies that support WAI-ARIA but do not yet support HTML5, it is currently advisable to use both the HTML5 elements and the corresponding WAI-ARIA roles.
-
-{::nomarkdown}
-{% include box.html type="start" title="Examples in HTML5" class="example" %}
-{:/}
-
-~~~html
-<header role="banner">…</header>
-<main role="main">…</main>
-<nav role="navigation">…</nav>
-<footer role="contentinfo">…</footer>
-~~~
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
-{% include ednote.html note="Figure out how to display reference links now that the sidebar is not available anymore." %}
-
-Explore other WAI-ARIA resources:
-
-* [WAI-ARIA Overview](/standards-guidelines/aria/)
-* [Notes on Using ARIA in HTML](https://www.w3.org/TR/aria-in-html/)
-
 ## Page regions in HTML4 using WAI-ARIA
 {:#accessupport-html4}
 
@@ -226,3 +197,8 @@ If HTML5 cannot be used or if an HTML4 page is retrofitted to improve accessibil
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+Explore other WAI-ARIA resources:
+
+* [WAI-ARIA Overview](/standards-guidelines/aria/)
+* [Notes on Using ARIA in HTML](https://www.w3.org/TR/html-aria/)
