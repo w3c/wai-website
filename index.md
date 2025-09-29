@@ -152,7 +152,7 @@ inline_css: |
             <span class="title">Translations</span>
           </h2>
         </header>
-        <img src="{{ "/content-images/social-translations.png" | relative_url }}" alt="">
+        <img src="{{ "/content-images/about/social-translations.png" | relative_url }}" alt="">
         <p>WAI accessibility resources are available in over 20 languages, with more coming. Translations are linked from the top of WAI website pages.</p>
         <div>
           <span class="button">All WAI Translations</span>

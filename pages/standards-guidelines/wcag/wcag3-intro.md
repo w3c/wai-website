@@ -22,7 +22,7 @@ permalink: /standards-guidelines/wcag/wcag3-intro/  # Add the language shortcode
 ref: /standards-guidelines/wcag/wcag3-intro/    # Do not change this
 
 description: Introduces the W3C Accessibility Guidelines (WCAG) 3.0 Working Draft. WCAG documents explain how to make the web more accessible to people with disabilities.
-image: /content-images/wcag/wcag3_social.png
+image: /content-images/wcag/wcag3-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
