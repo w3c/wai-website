@@ -17,9 +17,15 @@ footer: >
  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Tolu Adegbite & Rémi Bétin</p>
 ---
 
+## May 2025
+
+- In the ‘Summary’ and [‘W3C addresses mobile accessibility’](/standards-guidelines/mobile/#covered) sections: added information about ‘Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile)’, clarified structure, and other updates.
+- In the ['Get updates’](/standards-guidelines/mobile/#updates) section: minor updates.
+- In the [‘Get involved’](/standards-guidelines/mobile/#involved) section: updated contact information.
+
 ## May 2024
 
-- In [“W3C WAI Addresses Mobile Accessibility”](/standards-guidelines/mobile/#covered) section:
+- In the [“W3C WAI Addresses Mobile Accessibility”](/standards-guidelines/mobile/#covered) section:
   - Replaced “To learn how WCAG 2.0 can be applied” with "To learn how WCAG **2** can be applied"
   - Replaced “WCAG2ICT: Applying WCAG 2.0 to Non-Web Information and Communications Technologies" with “WCAG2ICT: Applying WCAG **2** to Non-Web Information and Communications Technologies"
   - Replaced “WCAG 2.1, published in June 2018, includes new requirements ("success criteria") addressing mobile accessibility.” with “New requirements ("success criteria") addressing mobile accessibility were added to WCAG 2.1 and WCAG 2.2.”
