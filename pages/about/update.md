@@ -12,7 +12,7 @@ ref: /update/
 github:
   label: wai-about
 
-image: /content-images/wai-about-wai/update_social.png
+image: /content-images/wai-about-wai/update-social.png
 feedbackmail: wai@w3.org
 
 footer: >

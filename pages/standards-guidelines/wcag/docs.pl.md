@@ -21,7 +21,7 @@ github:
 permalink: /standards-guidelines/wcag/docs/pl
 ref: /standards-guidelines/wcag/docs/   # Translators, do not change this
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 description:  Przedstawia dokumenty pomocnicze i dodatkowe wytyczne Web Content Accessibility Guidelines (WCAG) 2..
 
 # In the footer below:
