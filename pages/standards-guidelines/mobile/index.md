@@ -60,16 +60,16 @@ W3C provides specific guidance on mobile accessibility:
 {% include_cached toc.html type="end" %}
 {:/}
 
-## More than 'mobile' {#intro}
+## More than ‘mobile’ {#intro}
 
-'Mobile accessibility' refers to making websites and applications more accessible to people with disabilities when they are using mobile phones and other devices. WAI's work in this area addresses accessibility issues of people using a broad range of devices to interact with the web, including:
+‘Mobile accessibility’ refers to making websites and applications more accessible to people with disabilities when they are using mobile phones and other devices. WAI's work in this area addresses accessibility issues of people using a broad range of devices to interact with the web, including:
 
 -   phones and tablets
 -   digital TVs
 -   wearables such as smart watches
 -   devices in car dashboards and airplane seatbacks
 -   devices in household appliances
--   other 'Internet of Things'
+-   other ‘Internet of Things’
 
 It addresses a wide range of issues, including:
 
@@ -90,8 +90,8 @@ W3C's accessibility standards address mobile accessibility. There are four stand
         - [Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile)](https://www.w3.org/TR/wcag2mobile-22/)
         - [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile](https://www.w3.org/TR/mobile-accessibility-mapping/) &mdash; the previous resource for WCAG 2.0
         - [WCAG2ICT: Applying WCAG 2 to Non-Web Information and Communications Technologies](/standards-guidelines/wcag/non-web-ict/) &mdash; a more general resource that also includes mobile apps
-        - [[What’s New in WCAG 2.1]](/standards-guidelines/wcag/new-in-21/) and [[What’s New in WCAG 2.2]](/standards-guidelines/wcag/new-in-22/) &mdash; introduce requirements ('success criteria') addressing mobile accessibility that have been added to WCAG 2.1 and WCAG 2.2
--   **User Agent** Accessibility Guidelines ([UAAG](/standards-guidelines/uaag/)) covers web browsers and other 'user agents', including mobile browsers:
+        - [[What’s New in WCAG 2.1]](/standards-guidelines/wcag/new-in-21/) and [[What’s New in WCAG 2.2]](/standards-guidelines/wcag/new-in-22/) &mdash; introduce requirements (‘success criteria’) addressing mobile accessibility that have been added to WCAG 2.1 and WCAG 2.2
+-   **User Agent** Accessibility Guidelines ([UAAG](/standards-guidelines/uaag/)) covers web browsers and other ‘user agents’, including mobile browsers:
     -   [Mobile Accessibility Examples from UAAG](https://www.w3.org/TR/IMPLEMENTING-UAAG20/mobile) &mdash; contains examples of how web browsers that follow UAAG benefit people with disabilities who use the web on mobile devices 
     -   [Applying UAAG to Mobile Phones](https://www.w3.org/WAI/UA/work/wiki/Applying_UAAG_to_Mobile_Phones) &mdash; explores the issues with user agents 
 -   **Authoring Tool** Accessibility Guidelines ([ATAG](/standards-guidelines/atag/)) &mdash; covers software used to create web pages and applications, including for mobile
