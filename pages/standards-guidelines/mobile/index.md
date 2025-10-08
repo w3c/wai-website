@@ -83,7 +83,7 @@ It addresses a wide range of issues, including:
 
 ### W3C standards and mobile accessibility
 
-W3C's accessibility standards address mobile accessibility. There are four standards:
+W3C accessibility standards address mobile accessibility. There are four accessibility standards:
 
 -   **Web Content** Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) &mdash; covers web pages and web applications, including content used on mobile devices:
     -   To learn how WCAG 2 can be applied to mobile web content, mobile web apps, native apps, and hybrid apps using web components inside native apps, see:
@@ -99,7 +99,7 @@ W3C's accessibility standards address mobile accessibility. There are four stand
 
 ### W3C technologies and mobile accessibility
 
-In addition to ensuring mobile is addressed in W3C’s accessibility standards, WAI ensures that the core W3C technologies, including those that are essential for the mobile web, also support accessibility. All W3C work is reviewed for accessibility by WAI's [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/).
+In addition to ensuring mobile is addressed in W3C’s accessibility standards, WAI ensures that the core W3C technologies, including those that are essential for the mobile web, also support accessibility. All W3C work is reviewed for accessibility by the [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/).
 
 For a summary of technologies developed in W3C that increase the capabilities of web applications and how they apply specifically to the mobile context, see [Standards for Web Applications on Mobile](https://www.w3.org/Mobile/mobile-web-app-state/).
 
