@@ -9,7 +9,7 @@ ref: /translations/
 parent: /
 
 sidebaricon: translations
-image: /content-images/social-translations.png
+image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 footer: |
   <p>Translations managers: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin. Programmers: Eric Eggert and Rémi Bétin.</p>

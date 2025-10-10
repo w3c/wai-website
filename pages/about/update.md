@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, September 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, October 2025</span>"
 lang: en
-last_updated: 2025-09-01 # update the HTML title month, too
+last_updated: 2025-10-01 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -12,7 +12,7 @@ ref: /update/
 github:
   label: wai-about
 
-image: /content-images/wai-about-wai/update_social.png
+image: /content-images/wai-about-wai/update-social.png
 feedbackmail: wai@w3.org
 
 footer: >
@@ -100,9 +100,8 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in September 2025:<!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in October 2025:<!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* WCAG 3 Working Draft update — see [WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/)
 * More [WAI Translations](/translations/) &mdash; usually some each month
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
@@ -187,6 +186,8 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 1 October 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 1 September 2025
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 6 August 2025

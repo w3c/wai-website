@@ -22,7 +22,7 @@ github:
 permalink: /standards-guidelines/wcag/glance/es
 ref: /standards-guidelines/wcag/glance/ # Do not change this
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:

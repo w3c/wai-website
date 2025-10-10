@@ -20,7 +20,7 @@ permalink: /standards-guidelines/wcag/wcag3-intro/ja  # Add the language shortco
 ref: /standards-guidelines/wcag/wcag3-intro/    # Do not change this
 
 description: W3Cアクセシビリティ・ガイドライン（WCAG）3.0 のワーキングドラフトを紹介する。WCAGのドキュメントは、ウェブを障害がある人にとってよりアクセシブルにする方法を説明している。
-image: /content-images/wcag/wcag3_social.png
+image: /content-images/wcag/wcag3-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
