@@ -84,9 +84,9 @@ The draft new version of this Easy Checks resource is available at [https://www.
 
 {% include excol.html type="middle" %}
 
-{% include video-player.html
+{% include video-player-data.html
+    video-id="easy-checks-accessibility"
     yt-id="IZp8eUAu450"
-    captions="/content-images/easy-checks/archive/easy-checks-accessibility-cc.vtt|en|Captions"
 %}
 
 _This video is also available on a W3C server: [Video: Easy Checks Overview (file format: MP4, file size: 29MB)](https://media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4)._
