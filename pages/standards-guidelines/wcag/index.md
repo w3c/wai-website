@@ -128,7 +128,7 @@ All the success criteria from 2.0 are included in 2.1, and all from 2.1 are in 2
 
 A few things have changed, and we intend the updates in the related documents to support backwards compatibility in practice. The main change is that in WCAG 2.2, one success criteria (4.1.1 Parsing) is obsolete. Notes added to WCAG 2.1 and WCAG 2.0 errata address this, as explained in [WCAG 2 FAQ, 4.1.1 Parsing](/standards-guidelines/wcag/faq/#parsing411). WCAG 2.2 also includes Notes about different languages; more information is in [WCAG 2 FAQ, internationalization](/standards-guidelines/wcag/faq/#i18n22).
 
-WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not deprecate or supersede WCAG 2.1, and WCAG 2.1 does not deprecate or supersede WCAG 2.0. W3C encourages you to use the most recent version of WCAG.
+WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not deprecate or supersede WCAG 2.1, and WCAG 2.1 does not deprecate or supersede WCAG 2.0. W3C encourages you to use the latest version of WCAG.
 
 ## Translations
 
@@ -136,15 +136,15 @@ Authorized Translations and unofficial translations of WCAG 2 are listed in [[WC
 
 ## ISO/IEC 40500, EAA, EN 301 549, US {#iso}
 
-WCAG 2.2 is an approved International Organization for Standardization (ISO) standard: [ISO/IEC 40500:2025](https://www.iso.org/standard/91029.html), and is available free from ISO. ISO/IEC 40500:2025 is exactly the same as the October 2023 version of WCAG 2.2. W3C will submit the December 2024 version of WCAG 2.2 and expect it to be completed in 2026.
+WCAG 2.2 is an approved International Organization for Standardization (ISO) standard: [ISO/IEC 40500:2025](https://www.iso.org/standard/91029.html), and is available free from ISO. ISO/IEC 40500:2025 is exactly the same as the October 2023 version of WCAG 2.2. We expect the December 2024 version of WCAG 2.2 to be available as ISO/IEC 40500:2025 by late 2026.
 
 In addressing the European Accessibility Act (EAA), most organizations use WCAG and the European Standard EN 301 549: Accessibility requirements for ICT products and services. EN 301 549 currently uses WCAG 2.1. We expect the next version of EN 301 549 to use the latest version of WCAG 2.2.
 
 Most United States laws currently use WCAG 2.0 or WCAG 2.1.
 
-To find which version other laws reference, see [Web Accessibility Laws & Policies](https://www.w3.org/WAI/policies/).
+To find which version other laws use, see [Web Accessibility Laws & Policies](https://www.w3.org/WAI/policies/).
 
-W3C encourages using the latest version of WCAG 2.2. Content that meets WCAG 2.2 also meets WCAG 2.1 and WCAG 2.0.
+W3C encourages you to use the latest version of WCAG. Content that meets WCAG 2.2 also meets WCAG 2.1 and WCAG 2.0.
 
 ## Who develops WCAG {#wg}
 
