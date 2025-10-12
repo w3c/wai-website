@@ -209,14 +209,6 @@ Background: Some organizations have considered requiring all web content to use 
 
 For additional information, see: [Understanding Techniques for WCAG Success Criteria](https://www.w3.org/WAI/WCAG21/Understanding/understanding-techniques) section of Understanding WCAG 2.1.
 
-### Benefits of WCAG as ISO
-
-Approval of WCAG 2.0 as an ISO standard benefits countries and organizations that can more easily adopt ISO standards. Countries that previously adapted WCAG 2.0 may now be able to *adopt WCAG 2.0 as is* by referencing ISO/IEC 40500. 
-
-### Translations {#isotranslations}
-
-W3C has offered our [WCAG 2.0 Authorized Translations](/standards-guidelines/wcag/translations/) to be used for the ISO/IEC translations. We will update this page when more information about translations is available. 
-
 ## Does W3C plan to send WCAG 2.1 or WCAG 2.2 to ISO for endorsement? {#iso212}
 
 W3C does not plan to send WCAG 2.1 to ISO for endorsement and would not support that action, because WCAG 2.2 was finalized on 5 October 2022 and is an improvement in several respects.
