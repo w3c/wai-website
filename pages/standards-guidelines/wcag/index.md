@@ -134,15 +134,17 @@ WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not d
 
 Authorized Translations and unofficial translations of WCAG 2 are listed in [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/).
 
-## WCAG 2 is ISO/IEC 40500 {#iso}
+## ISO/IEC 40500, EAA, EN 301 549, US {#iso}
 
-**W3C submitted WCAG 2.2 to ISO.** We expect it to be finalized through the ISO process in October 2025.
+WCAG 2.2 is an approved International Organization for Standardization (ISO) standard: [ISO/IEC 40500:2025](https://www.iso.org/standard/91029.html), and is available free from ISO. ISO/IEC 40500:2025 is exactly the same as the October 2023 version of WCAG 2.2. W3C will submit the December 2024 version of WCAG 2.2 and expect it to be completed in 2026.
 
-**WCAG 2.0** is approved as an ISO standard: ISO/IEC 40500:2012. ISO/IEC 40500 is exactly the same as the original WCAG 2.0, which is introduced above along with supporting resources.
+In addressing the European Accessibility Act (EAA), most organizations use WCAG and the European Standard EN 301 549: Accessibility requirements for ICT products and services. EN 301 549 currently uses WCAG 2.1. We expect the next version of EN 301 549 to use the latest version of WCAG 2.2.
 
-The content of ISO/IEC 40500 is freely available from [www.w3.org/TR/WCAG20](https://www.w3.org/TR/WCAG20/); it is available for purchase from the [ISO catalogue {% include_cached external.html %}](https://www.iso.org/standard/58625.html).
+Most United States laws currently use WCAG 2.0 or WCAG 2.1.
 
-Benefits of WCAG 2.0 as an ISO standard are summarized in [ISO in the FAQ](/standards-guidelines/wcag/faq/#iso). More information on W3C and the ISO process is in the [W3C PAS FAQ](https://www.w3.org/2010/04/pasfaq).
+To find which version other laws reference, see [Web Accessibility Laws & Policies](https://www.w3.org/WAI/policies/).
+
+W3C encourages using the latest version of WCAG 2.2. Content that meets WCAG 2.2 also meets WCAG 2.1 and WCAG 2.0.
 
 ## Who develops WCAG {#wg}
 
