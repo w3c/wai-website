@@ -142,7 +142,7 @@ In addressing the European Accessibility Act (EAA), most organizations use WCAG 
 
 Most United States laws currently use WCAG 2.0 or WCAG 2.1.
 
-To find which version other laws use, see [Web Accessibility Laws & Policies](https://www.w3.org/WAI/policies/).
+To find how laws around the world use WCAG, see [Web Accessibility Laws & Policies](https://www.w3.org/WAI/policies/).
 
 W3C encourages you to use the latest version of WCAG. Content that meets WCAG 2.2 also meets WCAG 2.1 and WCAG 2.0.
 
