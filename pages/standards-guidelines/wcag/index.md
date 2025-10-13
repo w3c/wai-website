@@ -138,7 +138,7 @@ Authorized Translations and unofficial translations of WCAG 2 are listed in [[WC
 
 WCAG 2.2 is an approved International Organization for Standardization (ISO) standard: [ISO/IEC 40500:2025](https://www.iso.org/standard/91029.html), and is available free from ISO. ISO/IEC 40500:2025 is exactly the same as the October 2023 version of WCAG 2.2. We expect the December 2024 version of WCAG 2.2 to be available as ISO/IEC 40500:2026 by late 2026.
 
-In addressing the European Accessibility Act (EAA) and the Web Accessibility Directive (WAD), most organizations use WCAG and the European Standard EN 301 549: Accessibility requirements for ICT products and services. EN 301 549 currently uses WCAG 2.1. We expect the next version of EN 301 549 to use the latest version of WCAG 2.2.
+In addressing the European Accessibility Act (EAA) and Web Accessibility Directive (WAD), most organizations use WCAG and the European Standard EN 301 549: Accessibility requirements for ICT products and services. EN 301 549 currently uses WCAG 2.1. We expect the next version of EN 301 549 to use the latest version of WCAG 2.2.
 
 Most United States laws currently use WCAG 2.0 or WCAG 2.1.
 
