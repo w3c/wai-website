@@ -8,6 +8,7 @@ description: Answers to some frequently asked questions (FAQ) about Web Content 
 
 permalink: /standards-guidelines/wcag/faq/
 ref: /standards-guidelines/wcag/faq/
+changelog: /standards-guidelines/wcag/changelog/ # Do not change this
 
 github:
     label: wai-wcag-intro
