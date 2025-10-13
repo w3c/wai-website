@@ -11,7 +11,7 @@ ref: /standards-guidelines/wcag/changelog/
 
 ## 17 October 2025
 
-* In [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/):
-  * Changed the section "WCAG 2 is ISO/IEC 40500" with new heading and text
-  * Changed  'most recent' to 'latest': "W3C encourages you to use the most recent version of WCAG." to "W3C encourages you to use the latest version of WCAG."
-* In [WCAG 2 FAQ](https://www.w3.org/WAI/standards-guidelines/wcag/faq/), deleted question "Is ISO/IEC 40500 the same as WCAG 2.0?"
+* In [WCAG 2 Overview](/standards-guidelines/wcag/):
+  * Changed the section [‘WCAG 2 is ISO/IEC 40500’](/standards-guidelines/wcag/#iso) with new heading and text
+  * Changed ‘most recent’ to ‘latest’ in the [‘WCAG 2.0, 2.1, 2.2’ section](/standards-guidelines/wcag/#versions): "W3C encourages you to use the _latest_ version of WCAG."
+* In [WCAG 2 FAQ](/standards-guidelines/wcag/faq/): deleted question "Is ISO/IEC 40500 the same as WCAG 2.0?"
