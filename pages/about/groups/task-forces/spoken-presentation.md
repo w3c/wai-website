@@ -62,9 +62,9 @@ The Spoken Presentation Task Force welcomes input from individuals and organizat
 
 You can contribute to the work without being a member of the task force:
 
-- **Draft Accessibility Maturity Model resources:** Review and provide feedback on drafts that are still being developed.
-- **Open Accessibility Maturity Model issues:** Comment on or propose solutions for open issues.
-- **Published Accessibility Maturity Model resources:** Let us know if there is a new issue with any of these.
+- **Draft Spoken Presentation resources:** Review and provide feedback on drafts that are still being developed.
+- **Open Spoken Presentation issues:** Comment on or propose solutions for open issues.
+- **Published Spoken Presentation resources:** Let us know if there is a new issue with any of these.
 
 Either comment / raise a new issue in the [Pronunciation GitHub repository](https://github.com/w3c/pronunciation/issues) or [email the task force](mailto:public-pronunciation@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
