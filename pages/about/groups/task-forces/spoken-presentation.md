@@ -46,8 +46,8 @@ The Spoken Presentation Task Force supports the deliverables of the [Accessible 
 
 For details of the current work, see:
 
-* [Spoken Presentation Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
 * [Spoken Presentation Task Force current work](https://github.com/w3c/pronunciation/blob/master/README.md)
+* [Spoken Presentation Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
 
 For more information on the spoken presentation work, see:
 
