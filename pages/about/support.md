@@ -69,7 +69,7 @@ _**The organizations below provided financial support for W3C WAI work before W3
 * [Ford Foundation](https://www.fordfoundation.org/){:rel="nofollow"}, [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/){:rel="nofollow"} <!-- mdash; ([WAI Expanding Access Project](https://www.w3.org/WAI/expand-access/)) -->
 * United States government
   * [US Access Board](https://www.access-board.gov/){:rel="nofollow"}, US Department of Interior <!-- ([WCAG TA Project](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->  
-  * [US Department of Health and Human Services (HHS)](https://www.hhs.gov){:rel="nofollow"}, Administration for Community Living ([ACL](https://acl.gov){:rel="nofollow"}), National Institute for Disability, Independent Living and Rehabilitation Research ([NIDILRR](http://www.acl.gov/programs/NIDILRR/){:rel="nofollow"}); US Department of Education** &mdash; contract HHS75P00120P00168, HHSP23301500054, EDOSE10C0067 <!-- ([WAI-Core US Projects](https://www.w3.org/WAI/about/projects/wai-core-us/)) -->
+  * [US Department of Health and Human Services (HHS)](https://www.hhs.gov){:rel="nofollow"}, Administration for Community Living ([ACL](https://acl.gov){:rel="nofollow"}), National Institute for Disability, Independent Living and Rehabilitation Research ([NIDILRR](http://www.acl.gov/programs/NIDILRR/){:rel="nofollow"}); US Department of Education &mdash; contract HHS75P00120P00168, HHSP23301500054, EDOSE10C0067 <!-- ([WAI-Core US Projects](https://www.w3.org/WAI/about/projects/wai-core-us/)) -->
   * [US National Science Foundation](http://www.nsf.gov){:rel="nofollow"}
 
 ### Past sponsors
