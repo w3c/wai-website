@@ -2,7 +2,7 @@
 title: "What We're Working On"
 title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, October 2025</span>"
 lang: en
-last_updated: 2025-10-01 # REMEMBER to update the HTML title month, too
+last_updated: 2025-10-21 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -52,9 +52,13 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 ### Updating Core Guidelines and Other Standards
 
-* **W3C Accessibility Guidelines (WCAG) 3** is in an exploratory phase, and will change substantially. It's years away from being finalized. Please see information on the latest draft and [review questions](/standards-guidelines/wcag/wcag3-intro/#for-your-review) in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
+* **Web Content Accessibility Guidelines (WCAG) 2** @@ _[AG WG]_
+
+* **W3C Accessibility Guidelines (WCAG) 3** is in an exploratory phase, and will change substantially. Please see information on the latest draft and timeline in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
 
 * **ARIA 1.3** &mdash; We're working on additional support for Braille, accessible notifications, and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog).  _[ARIA WG]_
+
+* **Authoring Tool Accessibility Guidelines (ATAG)** &mdash; A new ATAG Community Group is working on updating ATAG @@
 
 ### Developing New Standards
 
