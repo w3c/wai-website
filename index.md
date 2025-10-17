@@ -166,7 +166,7 @@ inline_css: |
 <div class="default-grid teaser teaser-sponsors">
   <div class="inner">
     <header class="teaser-h">
-      <h2 class="title">Sponsors and Funders</h2>
+      <h2 class="title" id="sponsors">Sponsors and Funders</h2>
     </header>
     <p>WAI is supported in part by the following organizations. Thank you!</p>
     <ul>
