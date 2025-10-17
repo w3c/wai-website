@@ -2,7 +2,7 @@
 title: "Support WAI Financially"
 nav_title: "Support"
 lang: en
-last_updated: 2025-07-09
+last_updated: 2025-10-16
 description: Support the W3C Web Accessibility Initiative (WAI) financially through donations, sponsorship, and grants to advance digital accessibility for people with disabilities.
 
 permalink: /about/support/
@@ -41,7 +41,6 @@ Participate — To learn how you can contribute to W3C accessibility work by rev
 <img src="https://www.w3.org/WAI/content-images/people/still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
 
 * **[Ford Foundation](https://www.fordfoundation.org/){:rel="nofollow"}, [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/){:rel="nofollow"}**<!-- ([WAI-Core Ford Project](https://www.w3.org/WAI/wai-core-ford/)) -->
-* **[US Department of Health and Human Services (HHS)](https://www.hhs.gov){:rel="nofollow"}, Administration for Community Living ([ACL](https://acl.gov){:rel="nofollow"}), National Institute for Disability, Independent Living and Rehabilitation Research ([NIDILRR](http://www.acl.gov/programs/NIDILRR/){:rel="nofollow"})**<!-- contract HHS75P00120P00168 ([WAI-Core 2015, 2020Projects](https://www.w3.org/WAI/Core2015/)) -->
 
 {% include excol.html type="start" id="past" %}
 
@@ -69,8 +68,8 @@ _**The organizations below provided financial support for W3C WAI work before W3
   * [Information Society Technologies Programme](http://cordis.europa.eu/ist/){:rel="nofollow"} &mdash;  [WAI-DEV Project](http://www.w3.org/WAI/DEV/), [WAI-ACT Project](https://www.w3.org/WAI/ACT/Overview.html), [WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/Overview.html), [WAI-TIES Project](https://www.w3.org/WAI/TIES/Overview.html)
 * [Ford Foundation](https://www.fordfoundation.org/){:rel="nofollow"}, [Technology and Society Program](https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/){:rel="nofollow"} <!-- mdash; ([WAI Expanding Access Project](https://www.w3.org/WAI/expand-access/)) -->
 * United States government
-  * [US Access Board](https://www.access-board.gov/){:rel="nofollow"}, US Department of Interior <!-- ([WCAG TA Project](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->    
-  * [US National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR)](http://www.ed.gov/about/offices/list/osers/nidrr/index.html){:rel="nofollow"}, US Department of Health and Human Services (previously US Department of Education) &mdash; contract HHSP23301500054,  EDOSE10C0067<!-- ([WAI-Core 2010 Project]https://www.w3.org/WAI/Core/Overview.html)) -->
+  * [US Access Board](https://www.access-board.gov/){:rel="nofollow"}, US Department of Interior <!-- ([WCAG TA Project](https://www.w3.org/WAI/WCAGTA/Overview.html)) -->  
+  * [US Department of Health and Human Services (HHS)](https://www.hhs.gov){:rel="nofollow"}, Administration for Community Living ([ACL](https://acl.gov){:rel="nofollow"}), National Institute for Disability, Independent Living and Rehabilitation Research ([NIDILRR](http://www.acl.gov/programs/NIDILRR/){:rel="nofollow"}); US Department of Education &mdash; contract HHS75P00120P00168, HHSP23301500054, EDOSE10C0067 <!-- ([WAI-Core US Projects](https://www.w3.org/WAI/about/projects/wai-core-us/)) -->
   * [US National Science Foundation](http://www.nsf.gov){:rel="nofollow"}
 
 ### Past sponsors
