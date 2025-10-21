@@ -25,7 +25,7 @@ footer: >
 
 The starting place for information about Web Content Accessibility Guidelines (WCAG) is the  [WCAG 2 Overview](/standards-guidelines/wcag/).
 
-This page answers to some frequently asked questions (FAQ) about WCAG. Let us know what <a href="#more">other questions</a> you have.<br>
+This page answers some frequently asked questions (FAQ) about WCAG. Let us know what <a href="#more">other questions</a> you have.<br>
 ~<em><a href="https://w3.org/People/Shawn/">Shawn Lawton Henry</a></em>, <abbr title="World Wide Web Consortium">W3C</abbr> Web Accessibility Initiative (WAI) Director, <em>updated October 2025</em>
 
 {::nomarkdown}
