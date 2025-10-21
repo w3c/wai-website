@@ -140,7 +140,7 @@ WCAG 2.2 is an approved International Organization for Standardization (ISO) sta
 
 In addressing the European Accessibility Act (EAA), most organizations use WCAG and the European Standard EN 301 549: Accessibility requirements for ICT products and services. EN 301 549 currently uses WCAG 2.1. We expect the next version of EN 301 549 to use the latest version of WCAG 2.2.
 
-To find how laws around the world use WCAG, see [Web Accessibility Laws & Policies](https://www.w3.org/WAI/policies/).
+To find how laws around the world use WCAG, see [Web Accessibility Laws & Policies](/policies/).
 
 W3C encourages you to use the latest version of WCAG. Content that meets WCAG 2.2 also meets WCAG 2.1 and WCAG 2.0.
 
