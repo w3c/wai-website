@@ -3,7 +3,7 @@
 title: "Changelog – WCAG 2"
 nav_title: "Changelog"
 lang: en
-last_updated: 2025-10-17
+last_updated: 2025-10-20
 label: wai-wcag-intro
 permalink: /standards-guidelines/wcag/changelog/
 ref: /standards-guidelines/wcag/changelog/
