@@ -23,10 +23,10 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-The starting place for information about Web Content Accessibility Guidelines (WCAG) is the  [WCAG Overview](/standards-guidelines/wcag/).
+The starting place for information about Web Content Accessibility Guidelines (WCAG) is the  [WCAG 2 Overview](/standards-guidelines/wcag/).
 
-This page answers to some frequently asked questions (FAQ) about (WCAG. Let us know what <a href="#more">other questions</a> you have.<br>
-~<em><a href="https://w3.org/People/Shawn/">Shawn Henry</a></em>, <abbr title="World Wide Web Consortium">W3C</abbr> <abbr title="Web Accessibility Initiative">WAI</abbr>, <em>updated 12 December 2024</em>
+This page answers to some frequently asked questions (FAQ) about WCAG. Let us know what <a href="#more">other questions</a> you have.<br>
+~<em><a href="https://w3.org/People/Shawn/">Shawn Lawton Henry</a></em>, <abbr title="World Wide Web Consortium">W3C</abbr> Web Accessibility Initiative (WAI) Director, <em>updated October 2025</em>
 
 {::nomarkdown}
 {% include box.html type="end" %}
