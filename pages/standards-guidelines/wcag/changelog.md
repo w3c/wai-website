@@ -9,7 +9,7 @@ permalink: /standards-guidelines/wcag/changelog/
 ref: /standards-guidelines/wcag/changelog/
 ---
 
-## 17 October 2025
+## 20 October 2025
 
 * In [WCAG 2 Overview](/standards-guidelines/wcag/):
   * Changed the section [‘WCAG 2 is ISO/IEC 40500’](/standards-guidelines/wcag/#iso) with new heading and text
