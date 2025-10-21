@@ -5,7 +5,7 @@
 title: "WCAG 2 Overview"
 nav_title: "Web Content – WCAG 2"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2025-09-24 # Keep the date of the English version
+last_updated: 2025-10-20 # Keep the date of the English version
 first_published: "July 2005"
 description: Introduces the Web Content Accessibility Guidelines (WCAG) international standard, including WCAG 2.0, WCAG 2.1, and WCAG 2.2. WCAG documents explain how to make web content more accessible to people with disabilities.
 
@@ -128,21 +128,21 @@ All the success criteria from 2.0 are included in 2.1, and all from 2.1 are in 2
 
 A few things have changed, and we intend the updates in the related documents to support backwards compatibility in practice. The main change is that in WCAG 2.2, one success criteria (4.1.1 Parsing) is obsolete. Notes added to WCAG 2.1 and WCAG 2.0 errata address this, as explained in [WCAG 2 FAQ, 4.1.1 Parsing](/standards-guidelines/wcag/faq/#parsing411). WCAG 2.2 also includes Notes about different languages; more information is in [WCAG 2 FAQ, internationalization](/standards-guidelines/wcag/faq/#i18n22).
 
-WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not deprecate or supersede WCAG 2.1, and WCAG 2.1 does not deprecate or supersede WCAG 2.0. W3C encourages you to use the most recent version of WCAG.
+WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not deprecate or supersede WCAG 2.1, and WCAG 2.1 does not deprecate or supersede WCAG 2.0. W3C encourages you to use the latest version of WCAG.
 
 ## Translations
 
 Authorized Translations and unofficial translations of WCAG 2 are listed in [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/).
 
-## WCAG 2 is ISO/IEC 40500 {#iso}
+## ISO/IEC 40500, EAA, EN 301 549 {#iso}
 
-**W3C submitted WCAG 2.2 to ISO.** We expect it to be finalized through the ISO process in October 2025.
+WCAG 2.2 is an approved International Organization for Standardization (ISO) standard: [ISO/IEC 40500:2025](https://www.iso.org/standard/91029.html), and is available free from ISO. ISO/IEC 40500:2025 is exactly the same as the October 2023 version of WCAG 2.2. We expect the December 2024 version of WCAG 2.2 to be available as ISO/IEC 40500:2026 by late 2026.
 
-**WCAG 2.0** is approved as an ISO standard: ISO/IEC 40500:2012. ISO/IEC 40500 is exactly the same as the original WCAG 2.0, which is introduced above along with supporting resources.
+In addressing the European Accessibility Act (EAA), most organizations use WCAG and the European Standard EN 301 549: Accessibility requirements for ICT products and services. EN 301 549 currently uses WCAG 2.1. We expect the next version of EN 301 549 to use the latest version of WCAG 2.2.
 
-The content of ISO/IEC 40500 is freely available from [www.w3.org/TR/WCAG20](https://www.w3.org/TR/WCAG20/); it is available for purchase from the [ISO catalogue {% include_cached external.html %}](https://www.iso.org/standard/58625.html).
+To find how laws around the world use WCAG, see [Web Accessibility Laws & Policies](/policies/).
 
-Benefits of WCAG 2.0 as an ISO standard are summarized in [ISO in the FAQ](/standards-guidelines/wcag/faq/#iso). More information on W3C and the ISO process is in the [W3C PAS FAQ](https://www.w3.org/2010/04/pasfaq).
+W3C encourages you to use the latest version of WCAG. Content that meets WCAG 2.2 also meets WCAG 2.1 and WCAG 2.0.
 
 ## Who develops WCAG {#wg}
 

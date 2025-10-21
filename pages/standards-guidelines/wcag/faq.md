@@ -2,12 +2,13 @@
 title: "WCAG 2 FAQ"
 nav_title: "FAQ"
 lang: en
-last_updated: 2024-12-12
+last_updated: 2025-10-20
 first_published: "October 2006"
 description: Answers to some frequently asked questions (FAQ) about Web Content Accessibility Guidelines (WCAG).
 
 permalink: /standards-guidelines/wcag/faq/
 ref: /standards-guidelines/wcag/faq/
+changelog: /standards-guidelines/wcag/changelog/ # Do not change this
 
 github:
     label: wai-wcag-intro
@@ -22,10 +23,10 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-The starting place for information about Web Content Accessibility Guidelines (WCAG) is the  [WCAG Overview](/standards-guidelines/wcag/).
+The starting place for information about Web Content Accessibility Guidelines (WCAG) is the  [WCAG 2 Overview](/standards-guidelines/wcag/).
 
-This page answers to some frequently asked questions (FAQ) about (WCAG. Let us know what <a href="#more">other questions</a> you have.<br>
-~<em><a href="https://w3.org/People/Shawn/">Shawn Henry</a></em>, <abbr title="World Wide Web Consortium">W3C</abbr> <abbr title="Web Accessibility Initiative">WAI</abbr>, <em>updated 12 December 2024</em>
+This page answers some frequently asked questions (FAQ) about WCAG. Let us know what <a href="#more">other questions</a> you have.<br>
+~<em><a href="https://w3.org/People/Shawn/">Shawn Lawton Henry</a></em>, <abbr title="World Wide Web Consortium">W3C</abbr> Web Accessibility Initiative (WAI) Director, <em>updated October 2025</em>
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -51,7 +52,6 @@ This page answers to some frequently asked questions (FAQ) about (WCAG. Let us k
     <li><a href="#docs">What are the different WCAG 2 documents?</a></li>
     <li><a href="#techs">Do content authors (developers, designers, etc.) have to follow W3C's techniques to meet WCAG?</a></li>
     <li><a href="#techsnot">What would be the negative consequences of allowing <em>only</em> W3C's published techniques to be used for conformance to WCAG 2?</a></li>
-    <li><a href="#iso">Is ISO/IEC 40500 the same as WCAG 2.0?</a></li>
     <li><a href="#languages">Is WCAG 2 available in other languages?</a></li>
     <li><a href="#othertechs">Can I meet WCAG 2 with JavaScript and other technologies?</a></li>
     <li><a href="#more">Where can I find answers to more of my questions?</a></li>
@@ -209,26 +209,6 @@ Background: Some organizations have considered requiring all web content to use 
 **Therefore, W3C’s published techniques should not be required as the only way to meet WCAG 2 success criteria unless the limitations and consequences above are understood and acceptable.**
 
 For additional information, see: [Understanding Techniques for WCAG Success Criteria](https://www.w3.org/WAI/WCAG21/Understanding/understanding-techniques) section of Understanding WCAG 2.1.
-
-
-## Is ISO/IEC 40500 the same as WCAG 2.0? {#iso}
-
-**Yes.** WCAG 2.0 is approved as an ISO standard: ISO/IEC 40500:2012. ISO/IEC 40500 is exactly the same as the original Web Content Accessibility Guidelines (WCAG) 2.0 from the [W3C](https://www.w3.org/) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
-
-The content of ISO/IEC 40500 is freely available from [www.w3.org/TR/WCAG20](https://www.w3.org/TR/WCAG20/); it is available for purchase from the [ISO catalogue {% include_cached external.html %}](https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=58625).
-
-**For supporting resources that provide practical advice for meeting ISO/IEC 40500 (which is WCAG 2.0), see the [WCAG Overview](/standards-guidelines/wcag/).**
-
-The approval was announced 15 October 2012 in a [press release](https://www.w3.org/2012/07/wcag2pas-pr.html) and [blog post](https://www.w3.org/QA/2012/10/wcag_20_is_now_also_isoiec_405.html). If you want more information on W3C and the ISO process, see [W3C PAS FAQ](https://www.w3.org/2010/04/pasfaq).
-
-
-### Benefits of WCAG as ISO
-
-Approval of WCAG 2.0 as an ISO standard benefits countries and organizations that can more easily adopt ISO standards. Countries that previously adapted WCAG 2.0 may now be able to *adopt WCAG 2.0 as is* by referencing ISO/IEC 40500. 
-
-### Translations {#isotranslations}
-
-W3C has offered our [WCAG 2.0 Authorized Translations](/standards-guidelines/wcag/translations/) to be used for the ISO/IEC translations. We will update this page when more information about translations is available. 
 
 ## Does W3C plan to send WCAG 2.1 or WCAG 2.2 to ISO for endorsement? {#iso212}
 
