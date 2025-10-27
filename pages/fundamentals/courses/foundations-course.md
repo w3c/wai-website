@@ -141,7 +141,7 @@ The course is designed to take about **16-20 hours to complete** for most people
 
 It is **self-paced** so you can complete it in a shorter or longer time frame.
 
-This course will be available on the edX platform through at least December 2025. We expect a version of this course to be available long term.
+This course will be available on the edX platform through at least March 2026. We expect a version of this course to be available long term.
 
 ## Cost: Free, optional certificate
 
