@@ -3,7 +3,7 @@ title: "Digital Accessibility Foundations - Free Online Course"
 title_html: "Digital Accessibility Foundations<br>Free Online Course"
 nav_title: "Foundations Online Course"
 lang: en
-last_updated: 2025-09-18
+last_updated: 2025-10-27
 description: For developers, designers, ux, writers, managers, advocates - professionals, instructors, students - technical and non-technical.
 
 github:
