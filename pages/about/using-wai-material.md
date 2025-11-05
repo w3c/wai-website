@@ -79,30 +79,17 @@ A few WAI Resources are specifically designed for you to adapt, such as presenta
 3.  You do not suggest that W3C or WAI endorses you or your use of the material.
 4.  You abide by the license terms; most are [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-## Finding Which Type of License
+## Finding Which Type of License {#find-license}
 
 Unless otherwise indicated, all WAI material not covered by another license is published under the [W3C Document License](https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231).
 
 For material under the Creative Commons License, the footer includes the license, such as: "This work is published and licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
 
 ## Videos
-You may use W3C WAI videos in your presentations, training, etc. Please use the entire video, including the ending with the link to w3.org/WAI
 
-### Translations
+You may use W3C WAI videos in accordance with their [license](#find-license). Please use the entire video, including the ending with the link to w3.org/WAI.
 
-You may create dubbed versions of videos with the following conditions:
-1. You provide a text translation of the English captions/subtitle file for use with the W3C video. You can then use that translation as the script for the dubbing.
-2. The entire video is provided, including the ending with the link to w3.org/WAI
-3. The translation is accurate. If you would like to change the wording to be smoother in your language, you get it approved by W3C staff before recording.
-4. The new video is accessible:<br>
-   a. You provide text subtitles/captions for your video. They may be "closed captions" that are only shown if turned on.<br>
-   b. If the video has a descriped version, you also provide a translation of the described video.
-5. Optionally, you may include your organization name and logo at the beginning and/or end, indicating that you are the translating organization. It must be clear that the video is from W3C. You may _not_ include your logo throughout the video.
-6. You make the video available for others to use. This includes permission for W3C to put it on our website, YouTube channel, and other places. W3C retains copyright to the video.
-
-To start translating the English captions/subtitle VTT file, or if you have any questions, please e-mail <group-wai-translations@w3.org>
-
-For information on translating other WAI resources, see [Translating WAI Resources](https://www.w3.org/WAI/about/translating/).
+We welcome contributions to translate the English captions/subtitles and provide dubbed versions of the videos in other languages. For more information, see [Translating WAI Resources](https://www.w3.org/WAI/about/translating/).
 
 ## Let Us Know
 
