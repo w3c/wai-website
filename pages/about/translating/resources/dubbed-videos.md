@@ -1,12 +1,12 @@
 ---
 title: "Dubbing WAI Videos"
-nav_title: Dubbed WAI Videos
+nav_title: Dubbing WAI Videos
 lang: en
 last_updated: 2025-11-05
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
-permalink: /about/translating/resources/dubbed-videos/
-ref: /about/translating/resources/dubbed-videos/
+permalink: /about/translating/dubbing-videos/
+ref: /about/translating/dubbing-videos/
 
 github:
   label: wai-translation-guidance
