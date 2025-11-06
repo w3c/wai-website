@@ -15,7 +15,7 @@ image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 
 footer: |
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin.</p>
+  <p><strong>Editors:</strong> Rémi Bétin and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
 ---
 
 {::nomarkdown}
@@ -74,4 +74,4 @@ Any changes to the video must be first approved by the W3C team.
 
 When the dubbed video is ready, provide it to <group-wai-translations@w3.org> for final review and publication. 
 
-Please note that W3C retains copyright to the video, and may publish the video on their website, YouTube channel and other places. The video can be redistributed by you and others in accordance with the License terms.
+Please note that W3C retains copyright to the video. We may publish the video on our website, YouTube channel, and other places. The video can be used by you and others following the License terms.

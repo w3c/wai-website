@@ -89,7 +89,7 @@ For material under the Creative Commons License, the footer includes the license
 
 You may use W3C WAI videos in accordance with their [license](#find-license). Please use the entire video, including the ending with the link to w3.org/WAI.
 
-We welcome contributions to translate the English captions/subtitles and provide dubbed versions of the videos in other languages. For more information, see [Translating WAI Resources](https://www.w3.org/WAI/about/translating/).
+We welcome contributions to translate the English captions/subtitles and to provide dubbed versions of the videos in other languages. For more information, see [Translating WAI Resources](https://www.w3.org/WAI/about/translating/).
 
 ## Let Us Know
 
