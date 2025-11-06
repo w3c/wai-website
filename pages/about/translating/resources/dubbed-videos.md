@@ -1,6 +1,6 @@
 ---
-title: "Contribute to Dubbed Versions of WAI Videos"
-nav_title: Dubbed Videos
+title: "Dubbing WAI Videos"
+nav_title: Dubbed WAI Videos
 lang: en
 last_updated: 2025-11-05
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
@@ -22,7 +22,7 @@ footer: |
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Find out how you can contribute to dubbed versions of the W3C Web Accessibility Initiative videos.
+Find out how you can contribute by dubbing W3C Web Accessibility Initiative videos.
 
 {::nomarkdown}
 {% include box.html type="end" %}
