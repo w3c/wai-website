@@ -86,6 +86,7 @@ W3C Community Groups cover a variety of topics. **Anyone can join Community Grou
 * [Cognitive Accessibility CG](https://www.w3.org/community/coga-community/)
 * [Immersive Captions CG](https://www.w3.org/community/immersive-captions/)
 * [Low Vision CG](https://www.w3.org/community/low-vision/)
+* [Authoring Tool Accessibility Guidelines CG](https://www.w3.org/community/atag)
 
 ### Participating in Interest Groups  {#IG}
 
