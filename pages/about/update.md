@@ -98,6 +98,10 @@ Documenting the user needs of people with disabilities helps develop standards t
 
 Existing translations of W3C accessibility resources are listed in [All WAI Translations](/translations/). We are currently working with volunteer translators to translate more resources and update existing translations, including translations of WCAG and of educational resources. See [WCAG 2 Translations](https://www.w3.org/WAI/standards-guidelines/wcag/translations/) and [Translating WAI resources](/about/translating/).
 
+### Updating Authoring Tool Standards
+
+A new community group has been started to begin the work of updating ATAG to meet the needs of current and future authoring tools. The [Authoring Tool Accessibility Guidelines (ATAG CG)](https://www.w3.org/community/atag/) will explore updating ATAG and addressing the role of AI in accessible authoring for web content. The ATAG CG will incubate updates to ATAG relating to the creation of accessible web content and authoring tool accessibility, with a focus on emerging technologies like AI. This ATAG CG will explore the challenges relating to current AI authoring tools and develop requirements and guidance for building AI authoring tools that are accessible and produce accessible content.
+
 ## Upcoming Publications
 
 We plan to publish the following documents in late 2025 or early 2026:<!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
