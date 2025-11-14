@@ -2,7 +2,7 @@
 title: "What We're Working On"
 title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, November 2025</span>"
 lang: en
-last_updated: 2025-11-04 # REMEMBER to update the HTML title month, too
+last_updated: 2025-11-14 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -56,6 +56,8 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 * **ARIA 1.3** &mdash; We're working on additional support for Braille, accessible notifications, and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog).  _[ARIA WG]_
 
+* **Authoring Tool Accessibility Guidelines (ATAG)** update is being explored in a W3C Community Group.
+
 ### Developing New Standards
 
 * **WAI-Adapt** enables users to adapt (or ‘personalize’) how content is presented to meet their needs and preferences. [[WAI-Adapt Overview]](/adapt/) _[APA WG, WAI-Adapt TF]_
@@ -74,7 +76,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 ### Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility
 
-* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). In October 2024 we published an update that includes all WCAG 2.2 Level A and AA success criteria. We continue analyzing challenges and improving documentation supporting WCAG 2.2, and plan to work on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
+* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). We continue analyzing challenges and improving documentation supporting WCAG 2.2, and plan to work on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
 
 * **EPUB Fixed Layout Accessibility** aims to help publishers address challenges for people with cognitive disabilities and low vision. [EPUB Fixed Layout Accessibility Editor's Draft](https://w3c.github.io/epub-specs/epub33/fxl-a11y/) _[EPUB3 WG, FXL A11y TF]_
 
@@ -142,14 +144,15 @@ We are particularly seeking volunteer contributors for:
 * **WCAG 3** development. Skills: Expert knowledge of accessibility and ideally standards writing experience. Contact [Kevin White](https://www.w3.org/staff/#kevin) at [kevin@w3.org](mailto:kevin@w3.org)
 * **WCAG 2** Understanding document updates. Skills: Expert knowledge of accessibility. Contact [Kevin White](https://www.w3.org/staff/#kevin) at [kevin@w3.org](mailto:kevin@w3.org)
 * **<abbr title="Scalable Vector Graphics">SVG</abbr> ARIA** and SVG <abbr title="Accessibility Application Programming Interface (API) Mappings">AAM</abbr> editing. Skills: Robust knowledge of SVG and of browser accessibility APIs. Contact [Daniel Montalvo](https://www.w3.org/staff#dmontalvo) at [dmontalvo@w3.org](mailto:dmontalvo@w3.org)
-* Reviewing draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, or Turkish**. Skills: Strong knowledge of disability terminology in the language and culture of the translation. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
-* Translating WAI resources in all languages. See [Translating WAI resources](/about/translating/) and contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
+* Translations:
+  * Reviewing draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, or Turkish**. Skills: Strong knowledge of disability terminology in the language and culture of the translation. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
+  * Translating WAI resources in all languages. See [Translating WAI resources](/about/translating/) and contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
 
 To learn about contributing to W3C WAI accessibility work generally, **see [[Participating in WAI]](/about/participating/)**.
 
-Links to each Working Group's "How to Participate" page are in the [Participating in Working Groups section](/about/participating/#WGs). If you are interested in a Task Force, see participation information for the parent Working Group.
-
-We also offer ideas for [Promoting and Implementing Web Accessibility](/about/participating/#promoting-and-implementing-web-accessibility).
+* [W3C Community Groups](/about/participating/#CGs) are open for anyone to join.
+* Links to each Working Group's "How to Participate" page are in the [Participating in Working Groups section](/about/participating/#WGs). If you are interested in a Task Force, see participation information for the parent Working Group.
+* We also offer ideas for [Promoting and Implementing Web Accessibility](/about/participating/#promoting-and-implementing-web-accessibility).
 
 **We look forward to your contributions to making the digital technology more accessible to people with disabilities!**
 
@@ -190,6 +193,9 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 14 November 2025
+  * Added **Authoring Tool Accessibility Guidelines (ATAG)** update is being explored in a W3C ATAG Community Group.
+  * Added "[W3C Community Groups](/about/participating/#CGs) are open for anyone to join."
 * 4 November 2025
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 1 October 2025
