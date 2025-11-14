@@ -195,7 +195,7 @@ To learn about contributing to W3C WAI accessibility work generally, **see [[Par
 
 * 14 November 2025
   * Added **Authoring Tool Accessibility Guidelines (ATAG)** update is being explored in a W3C ATAG Community Group.
-  * Added "* [W3C Community Groups](/about/participating/#CGs) are open for anyone to join."
+  * Added "[W3C Community Groups](/about/participating/#CGs) are open for anyone to join."
 * 4 November 2025
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 1 October 2025
