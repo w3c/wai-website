@@ -109,7 +109,7 @@ ATAG and supporting resources are also intended to meet the needs of many differ
 
 [**Implementing ATAG 2.0**](https://www.w3.org/TR/IMPLEMENTING-ATAG20/) is a supporting informative document that helps readers understand and use ATAG. Implementing ATAG provides the rationale for each guideline. For each success criterion, it provides explanation of the intent of the success criteria, examples, and links to resources.
 
-## ATAG Resources
+## ATAG resources
 
 * The [**ATAG Report Tool**](https://www.w3.org/WAI/atag/report-tool/) helps evaluators report on the accessibility of authoring tools. It guides you through the ATAG requirements, lets you record your evaluation results for each requirement, and generates a report of the authoring tool's ATAG conformance.
 * The [**Authoring Tools List**](https://www.w3.org/WAI/tools-list/authoring/) provides information on accessibility support in content management systems (CMS), learning management systems (LMS), web page editors, and other authoring tools.
