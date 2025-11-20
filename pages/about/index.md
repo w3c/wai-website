@@ -3,12 +3,11 @@ title: "About W3C WAI"
 permalink: /about/
 ref: /about/
 lang: en
+last_updated: 2025-08-06
 feedbackmail: wai@w3.org
 class: tight-page
 github:
    label: wai-about
-footer: > # Text in footer in HTML
-  <p><strong>Date:</strong> Updated 13 March 2024.</p>
 ---
 
 {::nomarkdown}
@@ -35,7 +34,7 @@ footer: > # Text in footer in HTML
 
 -   participation from around the world
 -   volunteers to review, implement, and promote guidelines
--   dedicated participants in Working Groups
+-   dedicated participants in working groups
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -54,19 +53,19 @@ footer: > # Text in footer in HTML
 
 ## W3C WAI
 
-The World Wide Web Consortium ([W3C](https://www.w3.org/about/)) is an international [public-interest non-profit organization](https://www.w3.org/news/2022/w3c-to-become-a-public-interest-non-profit-organization/) where Member organizations, a full-time staff, and the public work together to develop Web standards. Web Accessibility Initiative (WAI) is a key aspect of W3C's work for the benefit of humanity.
+The World Wide Web Consortium ([W3C](https://www.w3.org/about/)) is an international [public-interest non-profit organization](https://www.w3.org/news/2022/w3c-to-become-a-public-interest-non-profit-organization/) where Member organizations, a full-time staff, and the public work together to develop web standards. Web Accessibility Initiative (WAI) is a key aspect of W3C's work for the benefit of humanity.
 
 This information extends the [W3C Mission](https://www.w3.org/mission/) (vision, identity, design principles, strategic goals) to address accessibility specifics.
 
-<img src="https://www.w3.org/WAI/content-images/people//still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
+<img src="https://www.w3.org/WAI/content-images/people/still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
 <div style="float:right; margin-left:1em; width:90px; clear:both;"><br><br>
-<img src="https://www.w3.org/WAI/content-images/people//two-smiling.png" alt="" /><br><br>
-<img src="https://www.w3.org/WAI/content-images/people//low-vision.png" alt="" /><br><br>
-<img src="https://www.w3.org/WAI/content-images/people//older-user-laptop.png" alt="" /><br><br>
-<img src="https://www.w3.org/WAI/content-images/people//sip-puff.png"  alt="" /><br><br>
-<img src="https://www.w3.org/WAI/content-images/people//hearing-aid.png" alt="" /><br><br>
-<img src="https://www.w3.org/WAI/content-images/people//low-vision-pizza.png" alt="" /><br><br>
-<img src="https://www.w3.org/WAI/content-images/people//mobile-outside.png" alt="" />
+<img src="https://www.w3.org/WAI/content-images/people/two-smiling.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/low-vision.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/older-user-laptop.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/sip-puff.png"  alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/hearing-aid.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/low-vision-pizza.png" alt="" /><br><br>
+<img src="https://www.w3.org/WAI/content-images/people/mobile-outside.png" alt="" />
 </div>
 <div style="float:right; margin-left:1em; width:77px; clear:both;"><br><br>
 <img src="https://www.w3.org/WAI/content-images/media-guide/ear.svg" alt="" /><br><br> 
@@ -84,12 +83,14 @@ See [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/acce
 
 ### Vision
 
-The W3C vision is that the Web and related technologies are accessible so that all people with disabilities around the globe can **participate equally** in the digital world. That includes:
+The WAI vision is that the web and related technologies are accessible so that all people with disabilities around the globe can **participate equally** in the digital world. That includes:
 * Accessibility standards/guidelines are harmonized globally.
 * All technical standards and specifications support accessibility.
 * Tools that create and deliver digital content support accessibility.
 * Everyone who creates or manages digital products has relevant accessibility knowledge.
 * New technologies, digital products, and content addresses accessibility from inception (“born accessible”).
+
+Broad vision is in [Vision for W3C](https://www.w3.org/TR/w3c-vision/).
 
 ### High-Level Objectives
 
@@ -120,29 +121,36 @@ Current work is introduced in [What We're Working On - Accessibility Activities 
 
 New WAI publications, draft documents for review, and other WAI announcements are listed on the [News page](https://www.w3.org/WAI/news/).
 
-You can subscribe to get news announcements via e-mail, Atom/RSS feed, and social media from [Get WAI News](https://www.w3.org/WAI/news/subscribe/).
+You can get news announcements via e-mail, Atom/RSS feed, and social media from [Subscribe to WAI News](https://www.w3.org/WAI/news/subscribe/).
 
-## WAI Staff
+## WAI Groups
 
-* [Shawn Lawton Henry](https://www.w3.org/staff/#shawn) is Web Accessibility Initiative (WAI) Program Lead; Accessibility Education and Communications Lead.
-* [Kevin White](https://www.w3.org/staff/#kevin) is Accessibility Technical Lead and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
-* [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/#ran) supports accessibility Working Groups and accessibility in China.
-* [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo) supports accessibility Working Groups and standards harmonization.
-* [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) develops the new technical architecture for WCAG 2, WCAG 3, and the WAI website.
-* [Tamsin Ewing](https://www.w3.org/staff/#tamsin) supports accessibility communications, educational resources, and Working Group deliverables.
-
-To reach all WAI staff, you can e-mail <wai@w3.org>
-
-## WAI Working Groups
-
-WAI includes the following Working Groups and Interest Group:
+WAI includes the following working groups and interest group:
 
 -   [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly the Web Content Accessibility Guidelines Working Group)
 -   [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/)
 -   [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/)
--   [Education and Outreach Working Group (EOWG)](/about/groups/eowg/)
--   [WAI Interest Group (WAI IG)](/about/groups/waiig/) is an e-mail discussion list that is open to anyone
+-   [WAI Interest Group (WAI IG)](/about/groups/waiig/) hosts an e-mail discussion list that is open to anyone
 
-Within the Working Groups, there are also [Task Forces](/about/groups/task-forces/).
+### W3C Community Ggoups
+
+W3C Community Groups cover a variety of topics. **Anyone can join Community Groups**, after getting a free W3C account and signing the W3C Community Contributor License Agreement. Of the long [list of Community Groups](https://www.w3.org/community/groups/), here are some that are actively seeking contributors:
+<!-- * ARR -->
+* [ACT Rules CG](https://www.w3.org/community/act-r/)
+* [ARIA and Assistive Technologies CG](https://www.w3.org/community/aria-at/)
+* [Cognitive Accessibility CG](https://www.w3.org/community/coga-community/)
+<!-- * [Low Vision CG](https://www.w3.org/community/low-vision/) -->
 
 Learn more about [Participating in WAI](https://www.w3.org/WAI/about/participating/).
+
+## WAI Staff
+
+* [Shawn Lawton Henry](https://www.w3.org/staff/#shawn) — Director, Web Accessibility Initiative (WAI) — leads the WAI program, education, communications, community and global outreach, development, and stakeholder engagement in W3C accessibility activities.
+* [Kevin White](https://www.w3.org/staff/#kevin) — Senior Principal Accessibility Specialist — leads W3C accessibility technical work, oversees accessibility working groups, and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
+* [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/#ran) — Principal Accessibility Specialist — supports accessibility working groups, accessibility in China, and W3C work on AI.
+* [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo) — Principal Accessibility Specialist — supports accessibility working groups and standards harmonization.
+* [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) — Senior Software Engineer — supports the technical architecture for WCAG 2, WCAG 3, and more.
+* [Tamsin Ewing](https://www.w3.org/staff/#tamsin) — Senior Accessibility Content Specialist — supports accessibility communications, educational resources, and working group deliverables.
+* [Rémi Bétin](https://www.w3.org/staff/#remibetin) — Senior Project Manager, Web Accessibility Initiative (WAI) — supports WAI translations, WAI website processes, WAI training courses, and more.
+
+To reach all WAI staff, you can e-mail <wai@w3.org>.

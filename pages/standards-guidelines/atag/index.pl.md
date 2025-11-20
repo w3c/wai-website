@@ -5,7 +5,11 @@
 title: "Omówienie Wytycznych dla dostępności narzędzi autorskich (ATAG)"
 nav_title: "Omówienie ATAG"
 lang: pl
-last_updated: 2024-03-11   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-07   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-11   # Keep the date of the English version
+  status: outdated
 
 translators:
   - name: "Stefan Wajda"

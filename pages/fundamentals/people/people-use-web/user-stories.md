@@ -5,7 +5,7 @@
 title: "Stories of Web Users"
 nav_title: "User Stories"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-03-13  # Keep the date of the English version
 description:  Personas of people with disabilities using the Web that highlight the effect of accessibility barriers and the broader benefits of accessible digital technologies.
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -34,12 +34,12 @@ acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <!--<p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>-->
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
@@ -69,8 +69,8 @@ The following user stories represent the experiences of some people with disabil
 
 ## Related WAI resources
 
-These other resources provide more detailed information regarding user needs within specific contexts or disability areas.
+These other resources provide more detailed information on user needs in specific contexts or disability areas:
 
 * [Accessibility Requirements for People with Low Vision - User Needs](https://www.w3.org/TR/low-vision-needs/#user-needs)
 * [Making Content Usable for People with Cognitive and Learning Disabilities - Use Cases/Personas](https://www.w3.org/TR/coga-usable/#persona)
-* [Media Accessibility User Requirements](https//w3c.github.io/apa/media-accessibility-reqs/) - includes a summary of media requirements by type of disability and assistive technologies to support media access.
+* [Digital Accessibility User Requirements](/research/user-requirements/) links to documents that describe user needs in multimedia, virtual or immersive environments (XR), real-time communication (RTC), and more

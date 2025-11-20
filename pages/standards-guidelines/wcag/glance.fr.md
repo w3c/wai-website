@@ -5,8 +5,11 @@
 title: "WCAG 2 en bref"
 nav_title: "En bref"
 lang: fr
-last_updated: 2023-11-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-29  # Keep the date of the English version
 description: Cette page propose un résumé paraphrasé des règles pour l’accessibilité des contenus web (WCAG) 2.
+
+translation:
+  last_updated: 2023-11-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
   - name: "Sylvie Duchateau"
@@ -18,7 +21,7 @@ github:
 permalink: /standards-guidelines/wcag/glance/fr
 ref: /standards-guidelines/wcag/glance/ # Do not change this
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 layout: default
 
@@ -27,7 +30,7 @@ layout: default
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mis à jour le 29 novembre 2023. Première publication juillet 2008.</p>
+  <p>Première publication juillet 2008.</p>
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a> et Wayne Dick.</p>
   <p>Développé avec la collaborationdu groupe de travail Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) et le groupe de travail <span lang="en">Accessibility Guidelines Working Group</span> (<a href="https://www.w3.org/WAI/GL/">AG WG</a>).</p>
 

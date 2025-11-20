@@ -5,7 +5,12 @@
 title: "Règles pour l’accessibilité des contenus Web (WCAG) 2 – Vue d’ensemble"
 nav_title: "Contenus Web – WCAG 2"
 lang: fr
-last_updated: 2024-04-09 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-05-06  # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2025-06-03 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 description: Présente le standard international des Règles pour l’accessibilité des contenus web (WCAG), notamment WCAG 2.0, WCAG 2.1 et WCAG 2.2. Les documents des WCAG expliquent comment rendre les contenus Web plus accessibles aux personnes en situation de handicap.
 
 translators:
@@ -18,7 +23,7 @@ github:
 permalink: /standards-guidelines/wcag/fr  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/  # Do not change this
 
-image: /content-images/wcag/wcag-intro-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
@@ -26,7 +31,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mis à jour le 7 mars 2024. Première publication en juillet 2005.</p>
+  <p>Première publication en juillet 2005.</p>
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé avec la contribution du Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) et le Groupe de travail en charge des règles d’accessibilité (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---
@@ -108,10 +113,13 @@ Les ressources suivantes vous aident à comprendre et mettre en œuvre les WCAG,
 
 ## WCAG 2.0, 2.1, 2.2 {#versions}
 
-Les standards des Règles pour l’accessibilité des contenus Web (WCAG) sont stables et référençables lorsqu’ils sont publiés comme standard du Web « Recommandation du W3C ».
+Les standards des Règles pour l’accessibilité des contenus Web (WCAG) sont référençables lorsqu’ils sont publiés comme standard du Web « Recommandation du W3C ».
 
 * Les [WCAG 2.0](https://www.w3.org/TR/WCAG20/) ont été publiées le 11 décembre 2008.
-* Les [WCAG 2.1](https://www.w3.org/TR/WCAG21/) ont été publiées le 5 juin 2018, et une mise à jour a été publiée le 21 septembre 2023. La [FAQ des WCAG 2](/standards-guidelines/wcag/faq/) contient des informations sur cette mise à jour.
+* Les [WCAG 2.1](https://www.w3.org/TR/WCAG21/) ont été publiées le 5 juin 2018, et des mise à jour ont été publiées le 21 septembre 2023, le 12 décembre 2024 et le 6 mai 2025.
+* Les [WCAG 2.2](https://www.w3.org/TR/WCAG22/) ont été publiées le 5 octobre 2023, et une mise à jour a été publiée le 12 décembre 2024.
+
+Pour en savoir plus sur ces mises à jour, consultez la [FAQ des WCAG 2](/standards-guidelines/wcag/faq/).
 
 Les WCAG 2.0, 2.1, et 2.2 sont conçues pour être « rétro-compatibles », ce qui signifie qu’un contenu conforme aux WCAG 2.2 est aussi conforme aux WCAG 2.1 et aux WCAG 2.0. Si vous souhaitez satisfaire à toutes les versions, vous pouvez utiliser les WCAG 2.2 et vous n’avez pas besoin de vous préoccuper de regarder les versions précédentes.
 
@@ -136,7 +144,7 @@ Le contenu d’ISO/IEC 40500 est disponible gratuitement à l’adresse [www.w3.
 
 Les avantages des WCAG 2.0 en tant que norme ISO sont résumés dans [la section ISO de la FAQ](/standards-guidelines/wcag/faq/#iso). Plus d’informations sur W3C et le processus ISO sont consultables dans [la FAQ W3C PAS](https://www.w3.org/2010/04/pasfaq).
 
-**W3C prévoit de soumettre les WCAG 2.2 au processus ISO.**
+**W3C a soumis les WCAG 2.2 auprès de l'ISO.** Le processus ISO ne sera probablement pas achevé avant juin 2025.
 
 ## Qui développe les WCAG {#wg}
 

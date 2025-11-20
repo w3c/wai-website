@@ -5,7 +5,10 @@
 title: "Dokumenty WCAG 2"
 nav_title: "Dokumenty"
 lang: pl   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-08-07 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-14 # Keep the date of the English version
+
+translation:
+  last_updated: 2024-08-07 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stefan Wajda"
@@ -18,16 +21,16 @@ github:
 permalink: /standards-guidelines/wcag/docs/pl
 ref: /standards-guidelines/wcag/docs/   # Translators, do not change this
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 description:  Przedstawia dokumenty pomocnicze i dodatkowe wytyczne Web Content Accessibility Guidelines (WCAG) 2..
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>Data:</strong> Aktualizacja 14 marca 2024. Pierwsza publikacja w czerwcu 2005.</p>
+   <p>Pierwsza publikacja w czerwcu 2005.</p>
    <p><strong>Redaktor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Współpraca: <a href="https://www.w3.org/People/hidde/">Hidde de Vries</a> i <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
    <p>Opracowane z udziałem Grupy Roboczej ds. Edukacji i Promocji (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 

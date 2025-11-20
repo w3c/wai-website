@@ -5,7 +5,7 @@
 title: "Keyboard Compatibility"
 nav_title: "Keyboard Compatibility"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2024-07-15    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15    # Keep the date of the English version
 order: 1
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -16,14 +16,15 @@ order: 1
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/keyboard/    # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/keyboard/  # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Short video about keyboard compatibility for web accessibility - what is it, who depends on it, and what needs to happen to make it work.
@@ -36,7 +37,7 @@ teaser_text: All functionality must be usable with the keyboard. That is, users 
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Status:</strong> Updated 15 July 2024. <br><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
 ---
 
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
@@ -84,9 +85,9 @@ Native HTML controls, like links, buttons, and form elements, work with the keyb
 -   **Easy Check:**
     -   [Keyboard access and visual focus](/test-evaluate/preliminary/#interaction)
 -   **User Story:**
-    -   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/#reporter)
-    -   [Ilya, senior staff member who is blind](/people-use-web/user-stories/#accountant)
-    -   [Kaseem, teenager who is deaf and blinc](/people-use-web/user-stories/#teenager)
+    -   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
+    -   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
+    -   [Kaseem, teenager who is deaf and blinc](/people-use-web/user-stories/archived/#teenager)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "keyboard"](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard)
 -   **Mobile Applicability:**

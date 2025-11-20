@@ -3,10 +3,13 @@
 
 title: نبذة عن معيار الاتحاد العالمي للويب لإمكانية الوصول  # Do not translate "title:". Do translate the text after "title:".
 nav_title: "معايير/إرشادات" # A short title that is used in the navigation
+lang: ar   # Change "en" to the translated language shortcode
+last_updated: 2023-03-13   # Keep the date of the English version
 
-lang: ar   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  status: outdated
+  last_updated: 2020-10-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2020-10-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
 - name: " الاتحاد السعودي للأمن السيبراني والبرمجة والدرونز "   # Replace @@ with translator name
 - name: "محمد سليم"   # Replace @@ with name, or delete this line if not multiple translators
@@ -20,8 +23,10 @@ github:
 permalink: /standards-guidelines/ar   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>التاريخ:</strong> تم التحديث في 13 مارس 2019.</p>
+# In the footer below:
+# Translate the words below, including "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>محرر:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p> تم تطويره بمساهمة فريق التعليم و التوعية (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

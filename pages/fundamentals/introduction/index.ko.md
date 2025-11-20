@@ -3,7 +3,10 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: 웹 접근성 소개 
 lang: ko
-last_updated: 2024-02-22   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-20
+
+translation:
+  last_updated: 2024-02-22  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: #Add one -name: line for every translator
   - name: "YongUi Leee"
@@ -21,11 +24,10 @@ changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>날짜:</strong> 2023년 11월 20일 업데이트됨. 2005년 2월 처음 발행됨. CHANGELOG.</p>
+  <p>2005년 2월 처음 발행됨.</p>
   <p><strong>편집자:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>교육과 활동관련 실무 그룹인 (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)에 의해 제작되었습니다.</p>
 ---
@@ -64,7 +66,7 @@ footer: >
 <blockquote class="pull">
   <p>웹의 힘은 보편성에 있습니다.<br />
     장애에 상관없이 모두가 접근할 수 있다는 것이 가장 중요한 부분입니다.</p>
-  <footer><cite>팀 버너스리, W3C 디렉터 및 Wrold Wide Web의 창시자</cite></footer>
+  <footer><cite>팀 버너스리, W3C 디렉터 및 World Wide Web의 창시자</cite></footer>
 </blockquote>
 
 웹은 기본적으로 하드웨어, 소프트웨어, 언어, 장소, 능력에 제약없이 모든 사람들이 사용할 수 있도록 설계되었습니다. 웹이 이 목표를 달성할 때 비로소 다양한 청력, 움직임, 시력, 인지 능력을 가진 사람들이 웹에 접근할 수 있습니다.

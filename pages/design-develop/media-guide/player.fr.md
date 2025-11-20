@@ -6,7 +6,11 @@ title: "Lecteurs multimédia"
 title_image: /content-images/media-guide/player-nobackground.svg
 nav_title: "Lecteur multimédia"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-09-17  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
@@ -30,11 +34,11 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date :</strong> Mise à jour le 29 novembre 2021. Première publication septembre 2019. CHANGELOG.</p>
+   <p>Première publication septembre 2019.</p>
    <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
    <p>Développé par le groupe de travail Éducation et promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 ---
@@ -77,10 +81,10 @@ Le développement de votre propre lecteur multimédia accessible requiert des co
 ## Les fonctionnalités d'un lecteur accessible {#player-accessibility-functionality}
 
 Les lecteurs multimédia accessibles fournissent une interface utilisateur qui fonctionne sans souris, au moyen d'une interface vocale, lorsque la page est agrandie, et avec des lecteurs d'écran. Par exemple, les lecteurs multimédia doivent :
-* Fournir une assistance au clavier (voir [Comprendre les WCAG : Accessible au clavier](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible))
-* Rendre l'indicateur de focus du clavier visible (voir [Comprendre les WCAG : Visibilité du focus](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible))
-* Fournir des étiquettes claires (voir [Comprendre les WCAG : Étiquettes ou instructions](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions), [Information et relations](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships))
-* Avoir un contraste suffisant entre les couleurs du texte, des commandes, et des arrières-plans (voir [Comprendre les WCAG : Contraste (minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum), [Contraste (amélioré)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced), [Contraste du contenu non textuel](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html))
+* Fournir une assistance au clavier (voir [Comprendre les WCAG : Accessible au clavier](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-accessible))
+* Rendre l'indicateur de focus du clavier visible (voir [Comprendre les WCAG : Visibilité du focus](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible))
+* Fournir des étiquettes claires (voir [Comprendre les WCAG : Étiquettes ou instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions), [Information et relations](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships))
+* Avoir un contraste suffisant entre les couleurs du texte, des commandes, et des arrières-plans (voir [Comprendre les WCAG : Contraste (minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum), [Contraste (amélioré)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced), [Contraste du contenu non textuel](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html))
 
 Certains lecteurs multimédia fournissent aux utilisateurs des fonctionnalités d'accessibilité supplémentaires telles que :
 * Modifier la vitesse de la vidéo

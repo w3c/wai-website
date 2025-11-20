@@ -6,7 +6,11 @@ title: "Menulis untuk Aksesibilitas Web – Kiat Memulai"
 title_html: "Menulis untuk Aksesibilitas Web"
 nav_title: Kiat Menulis
 lang: id  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-08-05  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 resource:
   ref: /tips/  # Do not change this
@@ -31,6 +35,7 @@ ref: /tips/writing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#writing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
@@ -38,7 +43,7 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Diperbarui 5 Agustus 2022. Pertama kali dipublikasikan September 2015.</p>
+  <p>Pertama kali dipublikasikan September 2015.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, dan <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
   <p>Dikembangkan oleh <a href="https://www.w3.org/WAI/EO/">Kelompok Kerja Edukasi dan Pendampingan (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">proyek WAI-DEV</a>, didanai bersama oleh Program <abbr title="Teknologi Masyarakat Informasi">IST</abbr> Komisi Eropa.</p>
 ---
@@ -220,7 +225,7 @@ Lihat comtoh <span lang="en">inline</span>
   * [Judul Bagian 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Memahami 2.4.10](/WAI/WCAG21/Understanding/section-headings))
   * [Info dan Hubungan 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Memahami 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **Kisah Pengguna**
-  * [Bagaimana pengguna pembaca layar menggunakan judul untuk menavigasi](/people-use-web/user-stories/#accountant)
+  * [Bagaimana pengguna pembaca layar menggunakan judul untuk menavigasi](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -311,7 +316,7 @@ Untuk setiap gambar, tulislah alternatif teks yang menjelaskan informasi atau fu
 * **Tutorial**
   * [Gambar](/tutorials/images/)
 * **User Story**
-  * [Menjelaskan nilai dari alternatif teks bagi pengguna penyandang disabilitas netra](/people-use-web/user-stories/#accountant)
+  * [Menjelaskan nilai dari alternatif teks bagi pengguna penyandang disabilitas netra](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -331,7 +336,7 @@ Untuk konten hanya audio, seperti podcast, berikan transkripsinya. Untuk konten 
   * [Takarir (Prarekaman) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Memahami 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
   * [Deskripsi Audio atau Media Alternatif (Prarekaman) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Memahami 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana takarir membantu siswa penyandang disabilitas rungu](/people-use-web/user-stories/#onlinestudent)
+  * [Menjelaskan bagaimana takarir membantu siswa penyandang disabilitas rungu](/people-use-web/user-stories/archived/#onlinestudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -389,7 +394,7 @@ Pastikan instruksi, panduan, dan pesan eror jelas, mudah dimengerti, dan hindari
 * **WCAG**
   * [Label atau Instruksi 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Memahami 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana instruksi sederhana membantu orang dengan kesulitan belajar](/people-use-web/user-stories/#supermarketassistant)
+  * [Menjelaskan bagaimana instruksi sederhana membantu orang dengan kesulitan belajar](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -445,7 +450,7 @@ Gunakan bahasa dan format yang sederhana, sesuai dengan konteksnya.
   * [Kata-kata yang Tidak Umum 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Memahami 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
   * [Singkatan 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Memahami 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
 * **Kisah Pengguna**
-  * [Pengguna dengan kesulitan membaca mendapat manfaat dari teks yang mudah dibaca](/people-use-web/user-stories/#classroomstudent)
+  * [Pengguna dengan kesulitan membaca mendapat manfaat dari teks yang mudah dibaca](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

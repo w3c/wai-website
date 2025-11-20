@@ -5,7 +5,7 @@
 title: "Developing Web Accessibility Presentations and Training: Overview"
 nav_title: Overview
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2018-05-02 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2018-05-02 # Keep the date of the English version
 order: 0
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

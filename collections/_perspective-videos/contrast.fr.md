@@ -5,7 +5,11 @@
 title: Des couleurs bien contrastées
 nav_title: Couleurs bien contrastées
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15    # Keep the date of the English version
+
+translation:
+  status: outdated
+  last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Sofia Ahmed"
@@ -20,8 +24,9 @@ permalink: /perspective-videos/contrast/fr # Add the language shortcode to the e
 ref: /perspective-videos/contrast/  # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 order: 2
@@ -34,7 +39,6 @@ image: /content-images/perspective-videos/contrast.jpg
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-    <p><strong>Statut :</strong> Mise à jour : 29 novembre 2021.<br>
     <strong>Rédacteur et chef du projet :</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne. Mis à jour avec le soutien de la Fondation Ford. ACKNOWLEDGEMENTS.</p>
 ---
 
@@ -83,8 +87,8 @@ Choisissez des couleurs de texte et d’arrière-plan qui fournissent suffisamme
 -   **Vérification simple :**
     -   [Rapport de contraste ("contraste des couleurs")](/test-evaluate/preliminary/#contrast) 
 -   **Témoignages d’utilisateurs :**
-    -   [Lee, client de site Web marchand qui ne peut pas distinguer certaines couleurs (daltonisme)](/people-use-web/user-stories/#shopper)
-    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
+    -   [Lee, client de site Web marchand qui ne peut pas distinguer certaines couleurs (daltonisme)](/people-use-web/user-stories/archived/#shopper)
+    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
 -   **Besoins des utilisateurs :**
     -   [Exigences d’accessibilité pour les personnes malvoyantes](https://www.w3.org/TR/low-vision-needs/) 
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :** 

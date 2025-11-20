@@ -6,7 +6,8 @@ title: "User Experiences and Benefits to Organizations"
 title_image: /content-images/media-guide/body.svg
 nav_title: "User Needs"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2021-11-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-11-29   # Keep the date of the English version
+first_published: "September 2019 (on a different page)"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -34,11 +35,10 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 29 November 2021. First published September 2019 (on a different page). CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -124,7 +124,7 @@ Organizations that make their audio and video accessible can realize benefits su
 
 Benefits to organizations are illustrated in these other resources:
 * The business case includes **case study data** from adding transcripts, and more on how accessibility can [increase your market reach](/business-case/#increase-market-reach).
-* Benefits of transcripts and captions to a university are mentioned in a [**user story/persona** of an online student who is hard of hearing](/people-use-web/user-stories/#onlinestudent).
+* Benefits of transcripts and captions to a university are mentioned in a [**user story/persona** of an online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent).
 * Some benefits of captions are illustrated in a 1-minute [**Video** on Captions.<br>
 {% include image.html src="media-guide/captions-video-still.jpg" alt="" class="normal video" %}](/perspective-videos/captions/)
 

@@ -1,19 +1,19 @@
 ---
-title: WAI-Adapt Task Force of the APA WG
+title: WAI-Adapt Task Force
 permalink: /about/groups/task-forces/adapt/
 ref: /about/groups/task-forces/adapt/
 lang: en
 github:
   label: wai-groups
+redirect_from:
+  - /about/groups/task-forces/personalization/
 ---
 
 {::nomarkdown}
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The WAI-Adapt Task Force is a task force of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
-
-Some information on this page is also shown on, and may be more current in, the [WAI Adapt Task Force page](https://www.w3.org/groups/tf/personalization-tf/).
+Find out about the activities of the WAI-Adapt Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,79 +32,78 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Announcements
+## Objectives
 
-No announcements at the moment.
+The WAI-Adapt Task Force develops normative specifications and best practices guidance to support enhanced and personalized web content delivery that better meets the diverse requirements of people with disabilities. It does this by making fuller use of underused features already specified in HTML, and by proposing new markup elements and attributes, as needed.
 
-## WAI-Adapt Overview
+## Work statement
 
-[WAI-Adapt Overview](https://www.w3.org/WAI/adapt/) provides an overview of the overall WAI-Adapt technique in W3C.
+To learn about the focus, scope and deliverables of the task force, see the [WAI-Adapt Task Force Work Statement](/about/groups/task-forces/adapt/work-statement/).
 
-## WAI-Adapt Video
+## Current work
 
-There is also a short [WAI-Adapt technical video](https://ln.sync.com/dl/04f8c9330/6wk4ff4v-77wd78s5-ge6wc24s-vm3iwxwm) available, it demonstrates a semantic overlay approach to enable user driven personalization, eg. the association of user-preferred symbols with elements having those WAI-Adapt semantics.
+The WAI-Adapt Task Force supports the deliverables of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/).
 
-## Meetings and Communication
+For details of the current work, see the [WAI-Adapt Task Force wiki](https://github.com/w3c/adapt/wiki).
 
-The WAI-Adapt Task Force conducts its work using a variety of synchronous and asynchronous tools. This section provides details about:
+For more information on the WAI-Adapt work, see:
 
-- Teleconferences of the Working Group and its task forces (also see [meeting minutes](https://www.w3.org/WAI/APA/task-forces/adapt/minutes));
-- Face to face meetings;
-- [Email lists](/about/groups/task-forces/adapt/#mailing-lists);
-- IRC discussion on the [#adapt](irc://irc.w3.org/adapt) IRC channel, used largely for minute-taking;
-- [WAI-Adapt source repository](https://github.com/w3c/adapt/);
-- [Wiki](https://github.com/w3c/adapt/wiki);
-- [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/101569/);
-- [WAI-Adapt source repository issue tracker](https://github.com/w3c/adapt/issues).
+* [WAI-Adapt Overview](/adapt/) &mdash; an overview of W3C’s WAI-Adapt technique
+* [WAI-Adapt video {% include_cached external.html %}](https://ln.sync.com/dl/04f8c9330/) &mdash; a technical demonstration of a semantic overlay approach that enables user-driven personalization, employing user-preferred symbols for text that has had WAI-Adapt semantics added to it
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/apawg/contribute/).
+## Contribute to the work
 
-### Teleconferences
+The WAI-Adapt Task Force welcomes input from individuals and organizations around the world on the work to enable content and interface personalization for people with cognitive and learning disabilities.
 
-- **[WAI-Adapt](https://www.w3.org/2017/08/telecon-info_adapt)**: Mondays at 10:00 until 11:00 Boston time
-- **[WAI-Adapt Plan](https://www.w3.org/2017/08/telecon-info_adapt-plan)**: Tuesdays at 10:00 until 10:30 Boston time
+### Contribute without joining the task force
 
-### Meeting Minutes
+You can contribute to the work without being a member of the task force:
 
-[Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/adapt/minutes) are available.
+- **Draft WAI-Adapt resources:** Review and provide feedback on drafts that are still being developed.
+- **Open WAI-Adapt issues:** Comment on or propose solutions for open issues.
+- **Published WAI-Adapt resources:** Let us know if there is a new issue with any of these.
 
-### Mailing Lists
+Either comment / raise a new issue in the [WAI-Adapt GitHub repository](https://github.com/w3c/adapt/issues) or [email the task force](mailto:public-adapt@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
-The WAI-Adapt Task Force uses the public-adapt@w3.org mailing list ([mailing list archives](http://lists.w3.org/Archives/Public/public-adapt/)) for email discussion. Participants are automatically added to the mailing list when they become a participant of the Task Force.
+### Become a participant in the task force
 
-## Current Work
+Joining the WAI-Adapt Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-[See the wiki for current planning and draft documents](https://github.com/w3c/adapt/wiki).
+Being a participant involves commitment to support the work of the task force in the following ways:
+
+* Engage actively in the work using the task force’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
+
+To become a participant in the WAI-Adapt Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
+
+Once you are a member of the APA Working Group, email the [W3C staff contact for the WAI-Adapt Task Force](https://www.w3.org/groups/tf/personalization-tf/participants/#staff) to let them know you’d like to join the task force.
+
+**Note:** As a participant in one of the APA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
+
+## Task force participants
+
+* [Chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/personalization-tf/participants/#participants)
+
+## Communications
+
+* [Calendar of meetings](https://www.w3.org/groups/tf/personalization-tf/calendar/)
+* [Minutes from previous meetings](/about/groups/task-forces/adapt/minutes/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-adapt/)
 
 ## Publications
 
-The WAI-Adapt Task Force published four documents as follow:
+The WAI-Adapt Task Force develops and maintains the following resources for the APA Working Group:
 
-- [WAI-Adapt Explainer](https://www.w3.org/TR/adapt/) (Working Draft Note) is the core introductory document that explains general use cases, vocabulary, and anticipated uses.
-- [WAI-Adapt: Content Module](https://www.w3.org/TR/adapt-content/) (Working Draft specification) is the technical specification that provides terms authors can use to enhance web content with information about controls, symbols, and user interface elements.
-- [WAI-Adapt: Help and Support Module](https://www.w3.org/TR/adapt-help/) (Working Draft) lists examples of the personalized help and support properties.
-- [WAI-Adapt: Tools Module](https://www.w3.org/TR/adapt-tools/) (Working Draft) lists examples of the personalized tools properties.
-- [Requirements for WAI-Adapt Specifications](https://www.w3.org/TR/adapt-requirements/) (First Public Working Draft Note) includes user stories, specific use cases, and requirements for WAI-Adapt.
+* [WAI-Adapt Explainer &mdash; Group Draft Note](https://www.w3.org/TR/adapt/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/)) &mdash; introductory document explaining general use cases, vocabulary, and anticipated uses
+* [WAI-Adapt: Tools Module &mdash; Working Draft](https://www.w3.org/TR/adapt-tools/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/tools/))
+* [WAI-Adapt: Symbols Module &mdash; Candidate Recommendation Snapshot](https://www.w3.org/TR/adapt-symbols/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/symbols/)) &mdash; technical specification providing terms authors can use to enhance web content with information about controls, symbols, and user interface elements
+* [WAI-Adapt: Help and Support Module &mdash; Working Draft](https://www.w3.org/TR/adapt-help/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/help/)) &mdash; examples of the personalized help and support properties
+* [Requirements for WAI-Adapt specification &mdash; Group Draft Note](https://www.w3.org/TR/adapt-requirements/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/requirements/) &mdash; user stories, specific use cases, and requirements for WAI-Adapt
 
-See also the [WAI-Adapt Task Force GitHub repository](https://github.com/w3c/adapt/).
+## Contact the task force
 
-## How to Comment, Contribute, and Participate
+If you have a question for the WAI-Adapt Task Force, [email the task force](mailto:public-adapt@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
-To join the WAI-Adapt Task Force, individuals must be participants of the [APA WG](/about/groups/apawg/). Participants are expected to [actively contribute](/about/groups/task-forces/adapt/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the WAI-Adapt Task Force, please send e-mail to: [Lionel Wolberger](mailto:lionel@userway.org?subject=WAI-Adapt%20Task%20Force%20Enquiry) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [APA Working Group participation](/about/groups/apawg/participate/) procedures to join the Working Group, and once you have joined ask [Ruoxi Ran (Roy)](mailto:ran@w3.org) to add you to the task force.
-
-To contribute without joining the task force, see the [APA Working Group contribute page](/about/groups/apawg/contribute/) for general instructions. To contribute to documents under development, see [how to contribute to the source repository directly](https://github.com/w3c/adapt/).
-
-[Current participants in the WAI-Adapt Task Force](https://www.w3.org/2000/09/dbwg/details?group=101569&public=1).
-
-## Administrative Information
-
-The WAI-Adapt Task Force is a Task Force of the [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/about/groups/apawg/). It assists this Working Group to mature WAI-Adapt and to incubate WAI-Adapt as an approach to meeting accessibility user requirements across W3C.
-
-### Facilitator and Contacts
-
-- **Facilitators:** [Lionel Wolberger](mailto:lionel@userway.org)
-- **Staff Contact:** [Ruoxi Ran](https://www.w3.org/People/roy/)
-
-### Work Statement
-
-The [WAI-Adapt Task Force Work Statement](/about/groups/task-forces/adapt/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/personalization-tf/participants/#staff).

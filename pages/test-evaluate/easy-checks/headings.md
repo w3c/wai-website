@@ -3,8 +3,8 @@ title: "Headings - Easy Checks"
 permalink: /test-evaluate/easy-checks/headings/
 ref: /test-evaluate/easy-checks/headings/
 nav_title: "Headings"
-
 lang: en
+last_updated: 2024-03-19
 
 doc-note-type: draft
 
@@ -18,7 +18,6 @@ navigation:
 acknowledgements: /test-evaluate/easy-checks/acknowledgements/
 footer: >
   <p>
-    <strong>Status:</strong> Updated December 2023<br>
     <strong>Editor:</strong> <a href="https://www.w3.org/People/#kevin">Kevin White</a><br>
     ACKNOWLEDGEMENTS<br>
     Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.
@@ -105,7 +104,7 @@ To check other pages you need to add the check link as a bookmark.
 
 ## Learn more
 
-* Story: [Someone who uses headings to navigate a page](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)
+* Story: [Someone who uses headings to navigate a page](https://www.w3.org/WAI/people-use-web/user-stories/archived/#accountant)
 * Tip: [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure)
 * Tip: [Use headings and spacing to group related content](https://www.w3.org/WAI/tips/designing/#use-headings-and-spacing-to-group-related-content)
 * Tutorial: [Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/)

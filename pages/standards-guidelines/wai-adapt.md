@@ -5,7 +5,8 @@
 title: WAI-Adapt Overview
 title_html: "<span style='line-height:1'>WAI-Adapt Overview<br><span style='font-style: italic; font-size: 0.75em'>Enabling users to adapt content presentation</span>"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2023-01-05  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-01-05  # Keep the date of the English version
+first_published: "March 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -28,7 +29,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 05 January 2023. First published March 2019.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
   <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/adapt/">WAI-Adapt Task Force</a>.<p>
 ---

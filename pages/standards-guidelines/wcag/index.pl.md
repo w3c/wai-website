@@ -5,8 +5,12 @@
 title: "Omówienie WCAG 2"
 nav_title: "Treść Web – WCAG 2"
 lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-07  # Keep the date of the English version
 description: Przedstawia międzynarodowy standard Wytyczne dla dostępności treści internetowych (Web Content Accessibility Guidelines, WCAG), w tym WCAG 2.0, WCAG 2.1 i WCAG 2.2. Dokumenty WCAG wyjaśniają, jak uczynić treści internetowe bardziej dostępnymi dla osób z niepełnosprawnościami.
+
+translation:
+  status: outdated
+  last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stefan Wajda"
@@ -19,7 +23,7 @@ github:
 permalink: /standards-guidelines/wcag/pl  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/  # Do not change this
 
-image: /content-images/wcag/wcag-intro-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
@@ -27,7 +31,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Data:</strong> Aktualizacja 27 marca 2024. Pierwsza publikacja w czerwcu 2005.</p>
+  <p>Pierwsza publikacja w czerwcu 2005.</p>
   <p><strong>Redakcja:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Opracowane przy wsparciu Grupy Roboczej ds. Edukacji i Promocji (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) oraz Grupy Roboczej Wytycznych dla Dostępności (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---
