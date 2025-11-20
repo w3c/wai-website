@@ -6,8 +6,11 @@ title: "L’accessibilité Web illustrée : explorez ses effets et ses bénéfic
 title_html: "L’accessibilité Web illustrée :<br>explorez ses effets et ses bénéfices pour tous"
 nav_title: "Vue d’ensemble : vidéos d’illustration"
 lang: fr
-last_updated: 2023-10-11    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17    # Keep the date of the English version
 order: 0
+
+translation:
+  last_updated: 2024-09-17    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Sofia Ahmed"
@@ -16,7 +19,7 @@ contributors:
 - name: "Rémi Bétin"
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/ # Do not change this
@@ -26,18 +29,15 @@ resource:
   title: "L’accessibilité Web illustrée : explorez ses effets et ses bénéfices pour tous"
   ref: /perspective-videos/ # Do not change this
 
-changelog: /perspective-videos/changelog/ # Do not change this
-
 description: Courtes vidéos montrant en quoi l’accessibilité Web est essentielle pour les personnes en situation de handicap et utile pour tous dans diverses situations.
 image: /content-images/perspective-videos/overview.jpg
 
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate or change ACKNOWLEDGEMENTS
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Statut :</strong> Mise à jour : 5 juin 2023. CHANGELOG.<br>
   <strong>Rédacteur et chef de projet :</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne (CE). ACKNOWLEDGEMENTS.</p>
 
 # Read Translations Notes for this resource at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

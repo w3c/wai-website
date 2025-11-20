@@ -54,6 +54,12 @@ Added notes about responsive design/smaller screen considerations to:
 * [Forms > Labeling Controls](/tutorials/forms/labels/)
 * [Carousels > Styling](/tutorials/carousels/styling/)
 
+## January 2024
+
+In [Images tutorial](/tutorials/images/)
+* Change "the user" into "users" in [An <code>alt</code> Decision Tree](/tutorials/images/decision-tree/)
+  * [GitHub PR #742](https://github.com/w3c/wai-tutorials/pull/742)
+
 ## February 2023
 
 * In Tables main page, corrected WCAG links under [Related WCAG resources](/tutorials/tables/#related)

@@ -3,7 +3,7 @@ title: "Digital Accessibility Foundations - Free Online Course"
 title_html: "Digital Accessibility Foundations<br>Free Online Course"
 nav_title: "Foundations Online Course"
 lang: en
-last_updated: 2024-06-18
+last_updated: 2025-10-27
 description: For developers, designers, ux, writers, managers, advocates - professionals, instructors, students - technical and non-technical.
 
 github:
@@ -16,7 +16,6 @@ image: /content-images/courses/social-course1.png
 feedbackmail: wai@w3.org
 
 footer: >
-  <p><strong>Date:</strong> Updated 18 June 2024.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Shadi Abou-Zahra.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
@@ -142,13 +141,13 @@ The course is designed to take about **16-20 hours to complete** for most people
 
 It is **self-paced** so you can complete it in a shorter or longer time frame.
 
-This course will be available on the edX platform through at least December 2024. We expect a version of this course to be available long term.
+This course will be available on the edX platform through at least March 2026. We expect a version of this course to be available long term.
 
 ## Cost: Free, optional certificate
 
 **The course is free.** The audit option gives you access to all of the content.
 
-{% include image.html src="courses/certificate.png" alt="" class="normal right" %}
+{% include image.html src="courses/certificate.jpg" alt="" class="normal right" %}
 
 Optionally, you can choose to get a **Verified Certificate** for $99 USD to demonstrate successful course completion.
 
@@ -184,7 +183,7 @@ Some more things that developers and others are [tweeting about the course](http
 
 {% include_cached blockquote.html content="<p>I highly recommend this course for anybody wanting to learn about digital accessibility. It's got a lot of great info and a relatively small time commitment.</p>" source=" Justin Yarbrough. Blind. Digital #a11y specialist. #AvGeek." href="https://twitter.com/FatElvis04/status/1260961018135494657" %}
 
-Post-course [survey responses](https://www.surveymonkey.com/results/SM-VHHPL83R7/) (as of December 2022) include:
+Post-course [survey responses](https://www.surveymonkey.com/results/SM-VHHPL83R7/) (as of December 2024) include:
 * Have your skills/knowledge increased as a result of the course?<br>96% Yes.
 * Did you learn what you were expecting to learn?<br>90% Satisfied or Very satisfied.
 * How likely is it that you will be able to **apply the skills that you learned in this course in your everyday work?**<br>**96%** Likely or Very likely.

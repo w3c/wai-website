@@ -37,9 +37,7 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 repository: w3c/wai-website
-branch: master
-
-ytkey: AIzaSyBzq155tA3E3gaYlRdx2S9U9FM78U1-568
+branch: main
 
 # remote_themes are an extension for Jekyll running in GitHub pages and are a GitHub repo 
 remote_theme: w3c/wai-website-theme
@@ -66,15 +64,11 @@ collections:
   policies:
     area: "Plan & Manage"
     name: "Web Accessibility Laws & Policies"
-    shortname: "Laws & Policies"
+    shortname: "International Laws & Policies"
     parent: "/planning/"
     output: true
     acknowledgements: false
     permalink: /:collection/:path/
-    footer: |
-      <p><strong>Date: 4 December 2023</strong>. Listings are updated regularly. Near the top of each country listing is a 'last updated' date. This user interface was updated 21 March 2018.</p>
-      <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Britt Classen, Michel Hansma, Vera Lange, Eric Velleman. <strong>Previous Editors:</strong> Mary Jo Mueller, Robert Jolly, Eric Eggert, Judy Brewer, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Previous contributors: Jennifer Sutton and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
-      <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
   audiences:
     name: "Roles"
     shortname: "Roles"
@@ -110,12 +104,13 @@ defaults:
       path: ""
     values:
       layout: "default"
+      lang: en
   - scope:
       path: "_perspective-videos"
     values:
       layout: "default"
       github:
-        repository: w3c/wai-perspective-videos
+        label: wai-perspective-videos
   - scope:
       path: "_tips"
     values:
@@ -126,6 +121,13 @@ defaults:
       layout: "policy"
       github:
         repository: w3c/wai-policies-prototype
+        branch: master
+      footer: |
+        <p>Listings are updated regularly. Near the top of each country listing is a 'last updated' date. This user interface was updated 21 March 2018.</p>
+        <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Britt Classen, Michel Hansma, Vera Lange, Eric Velleman. <strong>Previous Editors:</strong> Mary Jo Mueller, Robert Jolly, Eric Eggert, Judy Brewer, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Previous contributors: Jennifer Sutton and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>
+        <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
+      disclaimer: |
+        <p>The law or policy links above go to official versions that may not be very accessible. If you know of more accessible versions, please let us know through the <a href="https://www.w3.org/WAI/policies/submission/">submission form</a> or e-mail to <a href="mailto:group-wai-list-policies@w3.org">group-wai-list-policies@w3.org</a>.</p>
   - scope:
       path: "_posts"
     values:
@@ -245,6 +247,8 @@ defaults:
           ref: /standards-guidelines/act/rules/about/
         - name: Implementations
           ref: /standards-guidelines/act/implementations/
+      github:
+        hide: true
   - scope:
       path: "pages/wai-aria-practices"
     values:
@@ -279,7 +283,29 @@ defaults:
       path: "pages/wai-evaluation-tools-list"
     values:
       layout: "default"
-
+  -
+    scope:
+      path: "pages/planning-policies/arrm"
+    values:
+      feedbackmail: public-arrm@w3.org
+      github:
+        repository: w3c/wai-arrm
+        branch: draft
+      doc-note-type: draft
+      doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+      acknowledgements: /planning/arrm/acknowledgements/
+      license: creative-commons
+      description: ARRM helps you assign responsibilities for digital accessibility to appropriate roles (UX designer, content creator, developer) early in projects.
+      image:
+        path: /content-images/wai-arrm/arrm-social.png
+        alt: Accessibility Roles and Responsibilities Mapping (ARRM). W3C Web Accessibility Initiative (WAI). icons of hand, eye, brain, ear, speech, body.
+  -
+    scope:
+      path: "pages/planning-policies/statements"
+    values:
+      github:
+        repository: w3c/wai-statements
+        branch: master
   -
     scope:
       path: "_translations-sitemaps"

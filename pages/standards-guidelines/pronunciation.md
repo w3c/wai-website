@@ -4,7 +4,7 @@
 
 title: "Pronunciation Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2021-05-19   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-19   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -27,7 +27,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 19 May 2021.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
   <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
 ---
@@ -109,4 +108,4 @@ Opportunities for contributing to Pronunciation and other WAI work are introduce
 
 To get notifications of drafts for review, see [[Get WAI News]](/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" sections.
 
-If you are interested in becoming a participant of the Pronunciation Task Force or have questions regarding its work, e-mail [Task Force Facilitators Irfan Ali and Paul Grenier, and W3C Staff Contact Roy Ran](mailto:iali@ets.org,pgrenier@gmail.com?CC=ran@w3.org&Subject=Pronunciation%20Task%20Force).
+If you are interested in becoming a participant of the Pronunciation Task Force or have questions regarding its work, e-mail [Task Force Facilitators Irfan Ali and Paul Grenier, and W3C Staff Contact Roy Ran](mailto:Irfan.ali@blackrock.com,pgrenier@gmail.com?CC=ran@w3.org&Subject=Pronunciation%20Task%20Force).

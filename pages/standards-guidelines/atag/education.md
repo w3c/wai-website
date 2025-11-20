@@ -5,7 +5,7 @@
 title: "Standards to Make Your LMS Accessible"
 nav_title: "For LMS"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2022-12-08   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-12-08   # Keep the date of the English version
 
 github:
   label: wai-atag-intro
@@ -20,7 +20,6 @@ license: creative-commons
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 8 December 2022.<!-- First published December 2022. --></p>
    <p><strong>Editors:</strong> Daniel Montalvo and <a href="https://www.w3.org/People/Shawn/">Shawn Henry</a>. Contributors: Kevin White, Jade Matos Carew, and <a href="https://www.w3.org/groups/wg/eowg/participants">participants of the Education and Outreach Working Group</a>.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide">WAI-Guide project</a>, co-funded by the European Commission.</p>
 

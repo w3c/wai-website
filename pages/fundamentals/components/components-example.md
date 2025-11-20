@@ -5,7 +5,7 @@
 title: Descriptions of Essential Components of Web Accessibility Illustrations
 nav_title: Illustration Descriptions
 lang: en  # Change "en" to the translated language shortcode
-last_updated: 2024-03-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-14  # Keep the date of the English version
 parent: /fundamentals/components/ # Do not change this
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

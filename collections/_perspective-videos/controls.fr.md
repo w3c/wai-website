@@ -5,8 +5,11 @@
 title: "Des liens, boutons, et composants d’interface assez grands"
 nav_title: "Liens, boutons, et composants assez grands"
 lang: fr
-last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-23    # Keep the date of the English version
 order: 5
+
+translation:
+  last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Sofia Ahmed"
@@ -21,8 +24,9 @@ permalink: /perspective-videos/controls/fr  # Add the language shortcode to the 
 ref: /perspective-videos/controls/  # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Courte vidéo à propos des liens, des boutons, et des commandes assez grands pour l’accessibilité Web - de quoi s’agit-il, qui en bénéficie, et comment mettre cela en pratique.
@@ -86,7 +90,7 @@ Plus d’informations {#resources}
 -   **Vérification simple :**
     -   [Formulaires, étiquettes, et erreurs](/test-evaluate/preliminary/#forms) 
 -   **Témoignage d’utilisateur :**
-    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
+    -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
 -   **Règles d’accessibilité pour les contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
     -   [Critères de succès liés aux "étiquettes"](https://www.w3.org/WAI/WCAG21/quickref/?tags=labels) 
 

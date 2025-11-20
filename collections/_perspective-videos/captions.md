@@ -5,7 +5,7 @@
 title: "Video Captions"
 nav_title: "Video Captions"
 lang: en      # Change "en" to the translated-language shortcode
-last_updated: 2019-01-23      # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-23      # Keep the date of the English version
 order: 6
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -16,14 +16,15 @@ order: 6
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/captions/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/captions/   # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Short video about captions for web accessibility - what are they, who depends on them, how they help everyone, and what needs to happen to make them work.
@@ -35,7 +36,6 @@ image: /content-images/perspective-videos/captions.jpg
 # Translate the other words below, including "Date:" and "Editor and project lead:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 23 January 2019.</p>
    <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. ACKNOWLEDGEMENTS lists contributors.</p>
    <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated as part of the <a href="https://www.w3.org/WAI/DEV/">WAI Expanding Access Project</a>, supported by the Ford Foundation.</p>
 ---
@@ -90,7 +90,7 @@ Learn more {#resources}
 -   **Easy Check:**
     -   [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
 -   **User Story:**
-    -   [Martine, online student who is hard of hearing](/people-use-web/user-stories/#onlinestudent)
+    -   [Martine, online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "captions"](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
 -   **Mobile Applicability:**

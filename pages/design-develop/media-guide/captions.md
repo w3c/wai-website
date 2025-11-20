@@ -6,7 +6,8 @@ title: "Captions/Subtitles"
 title_image: /content-images/media-guide/cc.svg
 nav_title: "Captions/Subtitles"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2022-07-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+first_published: "September 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -34,11 +35,10 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 14 July 2022. First published September 2019. CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href=" https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href=" https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -181,8 +181,8 @@ Does the video have audio information that is needed to understand what the vide
 <br>
 
 **WCAG excerpts** with links to more information in "Understanding WCAG":
-* [A 1.2.2 Captions](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html) (Prerecorded): Captions are provided for all prerecorded audio content in synchronized media...
-* [AA 1.2.4 Captions](https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html) (Live): Captions are provided for all live audio content in synchronized media. 
+* [A 1.2.2 Captions](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html) (Prerecorded): Captions are provided for all prerecorded audio content in synchronized media...
+* [AA 1.2.4 Captions](https://www.w3.org/WAI/WCAG22/Understanding/captions-live.html) (Live): Captions are provided for all live audio content in synchronized media. 
 
 ## Skills and Tools {#skills-and-tools}
 

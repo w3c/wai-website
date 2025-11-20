@@ -5,7 +5,7 @@
 title: "Notifications and Feedback"
 nav_title: "Notifications and Feedback"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2019-01-23    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-23    # Keep the date of the English version
 order: 10
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -16,14 +16,15 @@ order: 10
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-    label: wai-perspective-videos
+  label: wai-perspective-videos
 
 permalink: /perspective-videos/notifications/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /perspective-videos/notifications/ # Do not change this
 
 resource:
-    ref: /perspective-videos/ # Do not change this
+  ref: /perspective-videos/ # Do not change this
 
+changelog: /perspective-videos/changelog/ # Do not change this
 acknowledgements: /perspective-videos/acknowledgements/ # Do not change this
 
 description: Short video about notifications and feedback for web accessibility - what are they, who depends on them, and what needs to happen to make them work.
@@ -35,7 +36,7 @@ image: /content-images/perspective-videos/notifications.jpg
 # Translate the other words below.
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Status:</strong> Updated 23 January 2019. <br><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
 ---
 
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
@@ -86,9 +87,9 @@ Learn more {#resources}
 -   **Easy Check:**
     -   [Forms, labels, and errors (including Search fields)](/test-evaluate/preliminary/#forms)
 -   **User Story:**
-    -   [Preety, middle school student with attention deficit hyperactivity disorder (ADHD) and dyslexia](/people-use-web/user-stories/#classroomstudent)
-    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree)
-    -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/#supermarketassistant)
+    -   [Preety, middle school student with attention deficit hyperactivity disorder (ADHD) and dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
+    -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
+    -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
     -   [Success Criteria relating to "errors"](https://www.w3.org/WAI/WCAG21/quickref/?tags=errors)
 -   **Tutorial:**

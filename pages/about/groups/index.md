@@ -1,58 +1,55 @@
 ---
 nav_title: "Overview"
-title: WAI Working Groups and Interest Groups
+title: WAI Working Groups, Task Forces, and Interest Groups
 lang: en
 permalink: /about/groups/
 ref: /about/groups/
+redirect_from:
+  - /about/groups/task-forces/
 github:
-    label: wai-groups
+  label: wai-groups
 ---
 
-WAI has Working Groups developing accessibility guidelines and related
-work, and Interest Groups providing a forum for discussing Web
-accessibility issues. **[Participating in WAI](/get-involved/)**
-describes generally how to participate in WAI work. To find out more
-about participating in a specific WAI group, see the group's home page
-linked below. WAI working groups often have Task Forces operating under
-them; see Task Force link below.
+The Web Accessibility Initiative (WAI)’s working groups develop digital accessibility guidelines and related materials &mdash; the working groups are supported by task forces that operate under them, and contributions from accessibility discussions in the WAI Interest Group.
 
-[Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) *(formerly WCAG WG)*
-:   AG WG develops guidelines to make web content accessible for people
-    with disabilities, and develops implementation support materials for
-    the Web Content Accessibility Guidelines.
+## Accessibility Guidelines Working Group
 
-[Accessible Platform Architectures (APA)](/about/groups/apawg/)
-:   APA reviews specifications, develops technical support materials,
-    collaborates with other Working Groups on technology accessibility,
-    and coordinates harmonized accessibility strategies within W3C.
+The mission of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/) is to develop and maintain specifications for making web content accessible to people with disabilities, along with support materials for implementing the Web Content Accessibility Guidelines (WCAG).
 
-[Accessible Rich Internet Applications (ARIA)](/about/groups/ariawg/)
-:   ARIA develops the Accessible Rich Internet Applications (WAI-ARIA)
-    suite of technologies and other technical specifications when needed
-    to bridge known gaps.
+The AG Working Group includes the:
 
-[Education and Outreach Working Group (EOWG)](/about/groups/eowg/)
-:   EOWG develops awareness and training materials and education
-    resources on Web accessibility solutions .
+ - [Accessibility Conformance Testing Task Force](/about/groups/task-forces/conformance-testing/)
+ - [Cognitive and Learning Disabilities Accessibility Task Force](/about/groups/task-forces/coga/)
+ - [Low Vision Accessibility Task Force](/about/groups/task-forces/low-vision-a11y-tf/)
+ - [Mobile Accessibility Task Force](/about/groups/task-forces/matf/)
+ - [WCAG 2.x Backlog Task Force](/about/groups/task-forces/wcag2x-backlog/)
+ - [WCAG2ICT Task Force](/about/groups/task-forces/wcag2ict/)
 
-[WAI Interest Group (WAI IG)](/about/groups/waiig/)
-:   WAI IG is a public group with a mailing list for general discussion
-    on Web accessibility.
+## Accessible Platform Architectures Working Group
 
-Previous Groups:
+The mission of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/) is to ensure W3C specifications support accessibility for people with disabilities through the following activities: reviewing specifications; developing new specifications and technical support materials; collaborating with other W3C working groups on technology accessibility; and coordinating harmonized accessibility strategies within W3C that include security, privacy, and internationalization.
 
--   Authoring Tool Accessibility Working Group
-    ([AUWG](https://www.w3.org/WAI/AU/Overview.html))
--   Evaluation and Repair Tools Working Group ([ERT WG](https://www.w3.org/WAI/ER/Overview.html))
--   Research and Development Working Group ([RDWG](https://www.w3.org/WAI/RD/Overview.html))
--   User Agent Accessibility Working Group ([UAWG](https://www.w3.org/WAI/UA/Overview.html))
+The APA Working Group includes the:
 
-See also:
+ - [Framework for Accessible Specification of Technologies Task Force](/about/groups/task-forces/fast/)
+ - [Maturity Model Task Force](/about/groups/task-forces/maturity-model/)
+ - [Research Questions Task Force](/about/groups/task-forces/research-questions/)
+ - [Spoken Presentation Task Force](/about/groups/task-forces/pronunciation/)
+ - [WAI-Adapt Task Force](/about/groups/task-forces/adapt/)
 
--   [**Task Forces**](/about/groups/task-forces/) - Lists some active Task Forces that
-    operate under WAI Working Groups, and/or jointly between WAI groups
-    and other W3C groups.
--   **[Participating in WAI](/about/participating/)** - Describes participation
-    opportunities ranging from volunteering to implement, promote, and
-    review guidelines, to occasional participation in an interest group,
-    to dedicated participation in a working group.
+## ARIA Working Group
+
+The mission of the [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/) is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
+
+The ARIA Working Group includes the:
+
+ - [Authoring Practices Guide Task Force](/about/groups/task-forces/practices/)
+ - [Portable Document Format Accessibility APIs Mapping Task Force](/about/groups/task-forces/pdf-aam/)
+
+## WAI Interest Group
+
+The [WAI Interest Group](/about/groups/waiig/) is a public forum with mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work.
+
+## Past groups
+
+See [Past groups](/about/groups/previous-groups/) for details of working groups and task forces that have now closed.
