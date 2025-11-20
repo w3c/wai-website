@@ -5,13 +5,16 @@
 title: Αρχές Προσβασιμότητας
 nav_title: "Αρχές Προσβασιμότητας"
 lang: el
-last_updated: 2024-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Μια επισκόπηση των θεμελιωδών απαιτήσεων προσβασιμότητας στον Παγκόσμιο Ιστό για ιστοτόπους, εφαρμογές Παγκοσμίου Ιστού, προγράμματα περιήγησης και άλλα εργαλεία.
 teaser_text: Η σελίδα Αρχές προσβασιμότητας εισάγει ορισμένες από τις απαιτήσεις προσβασιμότητας στον Παγκόσμιο Ιστό για ιστότοπους, εφαρμογές Παγκοσμίου Ιστού, προγράμματα περιήγησης και άλλα εργαλεία. Παρέχει αναφορές στα διεθνή πρότυπα της Πρωτοβουλίας για τον Παγκόσμιο Ιστό του W3C (WAI) και σε ιστορίες χρηστών του Παγκοσμίου Ιστού.
 
+translation:
+  draft: true
+  last_updated: 2024-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Χρυσάνθη Μηλιτσοπούλου"   # Replace Jan Doe with translator name
-contributors:
 
 github:
   label: wai-accessibility-principles
