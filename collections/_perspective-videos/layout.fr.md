@@ -90,7 +90,7 @@ Créez une structure claire, aussi bien visuellement qu’au niveau du balisage.
     -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
     -   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
-    -   [Critères de succès liés à la « mise en page »](https://www.w3.org/WAI/WCAG21/quickref/?tags=layout) 
+    -   [Critères de succès liés à la « mise en page »](https://www.w3.org/WAI/WCAG22/quickref/?tags=layout) 
 -   **Tutoriel :**
     -   [Structure de page - Tutoriels sur l’accessibilité Web](/tutorials/page-structure/) (version préliminaire)
 

@@ -92,7 +92,7 @@ Plus d’informations {#resources}
     -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
     -   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
-    -   [Critères de succès liés au « texte »](https://www.w3.org/WAI/WCAG21/quickref/?tags=text) 
+    -   [Critères de succès liés au « texte »](https://www.w3.org/WAI/WCAG22/quickref/?tags=text) 
 -   **Règles pour l’accessibilité des agents utilisateurs ([Vue d’ensemble des UAGG](/standards-guidelines/uaag/)) :**
     -   [Permettez le paramétrage du texte](https://www.w3.org/TR/2015/NOTE-UAAG20-20151215/#gl-text-config) 
     -   [Réajustement du texte présenté en plusieurs colonnes](https://www.w3.org/TR/UAAG20/#sc_1813) 

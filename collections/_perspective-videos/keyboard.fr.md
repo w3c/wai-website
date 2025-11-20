@@ -92,7 +92,7 @@ Les composants d’interface HTML natifs, comme les liens, les boutons, et les �
     -   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
     -   [Kaseem, adolescente sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :** 
-    -   [Critères de succès relatifs au « clavier »](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard) 
+    -   [Critères de succès relatifs au « clavier »](https://www.w3.org/WAI/WCAG22/quickref/?tags=keyboard) 
 -   **Applicabilité aux appareils mobiles :**
     -   [La souris est requise pour l’interaction et la navigation](/standards-guidelines/shared-experiences/#mouse) 
 -   **Tutoriel :**
