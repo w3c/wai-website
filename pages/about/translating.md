@@ -48,6 +48,7 @@ For a list of existing translations, see [All WAI Translations](/translations/).
 {% include_cached toc.html type="end" %}
 {:/}
 
+
 ## Ways to contribute
 
 You can contribute to WAI translations in many ways:
@@ -56,7 +57,7 @@ You can contribute to WAI translations in many ways:
 : This is the easiest way to start contributing, especially if you are not technical.
 
 [Translating a WAI resource](/about/translating/resources/)
-: You are welcome to provide a translation for educational resources on WAI website (web pages with a URL that begins with www.w3.org/WAI). It is best if you are comfortable editing a file with code.
+: You are welcome to provide a translation for educational resources on WAI website (web pages with a URL that begins with `www.w3.org/WAI`). It is best if you are comfortable editing a file with code.
 
 [Reviewing WAI resources translations](/about/translating/reviewing/)
 : You can help spot issues in translations before publication, even if you are not technical or do not know the translated language.

@@ -7,7 +7,7 @@ last_updated: 2019-06-05
 
 translation:
   last_updated: 2019-07-12  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
+  outdated: true
 
 translators:
   - name: "Elena Varkvasova"

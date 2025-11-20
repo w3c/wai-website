@@ -1,18 +1,18 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, November 2024</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, November 2025</span>"
 lang: en
-last_updated: 2024-10-31
+last_updated: 2025-11-14 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
-description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and contribution opportunities.   # translate the description
+description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
-permalink: /update/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
-ref: /update/   # Translators, do not change this
+permalink: /update/
+ref: /update/
 
 github:
   label: wai-about
 
-image: /content-images/wai-about-wai/update_social.png
+image: /content-images/wai-about-wai/update-social.png
 feedbackmail: wai@w3.org
 
 footer: >
@@ -54,7 +54,9 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 * **W3C Accessibility Guidelines (WCAG) 3** is in an exploratory phase, and will change substantially. It's years away from being finalized. Please see information on the latest draft and [review questions](/standards-guidelines/wcag/wcag3-intro/#for-your-review) in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
 
-* **ARIA 1.3** &mdash; We're working on additional support for Braille and other [new features for ARIA 1.3](https://w3c.github.io/aria/#substantive-changes-targeted-for-the-1-3-release).  _[ARIA WG]_
+* **ARIA 1.3** &mdash; We're working on additional support for Braille, accessible notifications, and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog).  _[ARIA WG]_
+
+* **Authoring Tool Accessibility Guidelines (ATAG)** update is being explored in a W3C Community Group.
 
 ### Developing New Standards
 
@@ -62,18 +64,19 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 * **Spoken Presentation** technical standards will enable screen readers and voice assistants to pronounce words correctly. [[Pronunciation Overview]](/pronunciation/) _[APA WG, Spoken Presentation TF]_
 
-### Documenting Additional Guidance for People with Cognitive Disabilities, Low Vision, and Mobile Devices
+### Documenting Additional Guidance for People with Cognitive Disabilities and Mobile Accessibility
 
-* **Cognitive Accessibility** &mdash; We're updating several documents to better address the needs of people with cognitive and learning disabilities. A current topic is mental health. [[Cognitive Accessibility at W3C]](/cognitive/). _[AG WG, COGA TF]_
+* **Cognitive Accessibility** &mdash; We're updating several documents to better address the needs of people with cognitive and learning disabilities. [[Cognitive Accessibility at W3C]](/cognitive/). _[AG WG, COGA TF]_
 
 <!--
+[REMINDER: when add LVTF work, add to heading for this section.]
 * **Low Vision Accessibility** &mdash; We're writing guidance that goes beyond the minimums required by WCAG. It is called "supplemental guidance". Current topics cover proximity, printing, and alternative themes such as high contrast and dark mode. _[AG WG, Low Vision TF]_ -->
 
-* **Mobile Accessibility** work includes supporting on-going standards development, including supporting WCAG 3 exploration. [[Mobile Accessibility at W3C]](/standards-guidelines/mobile/) _[AG WG, Mobile TF]_
+* **Mobile Accessibility** &mdash; We're updating guidance on applying WCAG 2.2 to mobile apps. [[Mobile Accessibility at W3C]](/standards-guidelines/mobile/) _[AG WG, Mobile TF]_
 
 ### Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility
 
-* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). In October 2024 we published an update that includes all WCAG 2.2Level A and AA success criteria. We are now working on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
+* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). We continue analyzing challenges and improving documentation supporting WCAG 2.2, and plan to work on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
 
 * **EPUB Fixed Layout Accessibility** aims to help publishers address challenges for people with cognitive disabilities and low vision. [EPUB Fixed Layout Accessibility Editor's Draft](https://w3c.github.io/epub-specs/epub33/fxl-a11y/) _[EPUB3 WG, FXL A11y TF]_
 
@@ -84,8 +87,6 @@ Documenting the user needs of people with disabilities helps develop standards t
 <!--
 * **Natural Language Interface Accessibility User Requirements ("NAUR")** is a Working Draft. A natural language interface is a user interface in which the user and the system communicate via a natural (human) language. The user provides input as sentences via speech or other input, and the system generates responses as sentences delivered by speech, text, or another modality. [About NAUR](https://www.w3.org/blog/2021/10/natural-language-interface-accessibility-user-requirements-call-for-review/), [NAUR Editor's Draft](https://w3c.github.io/naur/)  _[APA WG, Research TF]_
 -->
-
-* **Collaboration Tools Accessibility User Requirements ("CTAUR")** is a Working Draft. It describes user needs in tools that provide support for one or more specific collaborative features. These features include real-time editing of content by multiple authors, the use of comments or annotations, and revision control. [CTAUR Editor's Draft](https://w3c.github.io/ctaur/)  _[APA WG, Research TF]_
 
 * **How People with Disabilities Use the Web** helps you understand user needs broadly. We've updated this resource and published new videos to go along with it. We are making minor revisions to the user stories. [[How People with Disabilities Use the Web]](/people-use-web/).
 
@@ -101,17 +102,19 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in 2024 or early 2025. <!-- To learn about "Candidate Recommendation" (**CR**), "Proposed Recommendation" (**PR**), "Recommendation", and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in late 2025 or early 2026:<!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* W3C Accessibility Guidelines (WCAG) 3 as an updated Working Draft, see [WCAG 3 Introduction](https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/)
-* [Collaboration Tools Accessibility User Requirements](https://w3c.github.io/ctaur/) as a completed Note
-* More [WAI Translations](/translations/) - usually some each week
+* [Accessibility Conformance Testing (ACT) Rules Format 1.1](https://www.w3.org/TR/act-rules-format/) as a W3C 'Recommendation' Standard
+* Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.1 as a Working Draft, see [WCAG-EM Overview](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/)
+* WCAG 3 as an updated Working Draft, see [WCAG 3 Introduction](https://www.w3.org/WAI/wcag3)
+* Cognitive accessibility resources
+* More [WAI Translations](/translations/) &mdash; usually some each month
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
 ### Get Updated
 
-To get news via e-mail, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Get WAI News]](/news/subscribe/)**.
+To get news via e-mail, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Subscribe to WAI News]](/news/subscribe/)**.
 
 ## Wait, Wait, There's More
 
@@ -137,28 +140,28 @@ Did you know the WAI website has: **videos, tips, tutorials, tools** (for genera
 
 ## How to Get Involved {#participate}
 
+We are particularly seeking volunteer contributors for:
+* **WCAG 3** development. Skills: Expert knowledge of accessibility and ideally standards writing experience. Contact [Kevin White](https://www.w3.org/staff/#kevin) at [kevin@w3.org](mailto:kevin@w3.org)
+* **WCAG 2** Understanding document updates. Skills: Expert knowledge of accessibility. Contact [Kevin White](https://www.w3.org/staff/#kevin) at [kevin@w3.org](mailto:kevin@w3.org)
+* **<abbr title="Scalable Vector Graphics">SVG</abbr> ARIA** and SVG <abbr title="Accessibility Application Programming Interface (API) Mappings">AAM</abbr> editing. Skills: Robust knowledge of SVG and of browser accessibility APIs. Contact [Daniel Montalvo](https://www.w3.org/staff#dmontalvo) at [dmontalvo@w3.org](mailto:dmontalvo@w3.org)
+* Translations:
+  * Reviewing draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, or Turkish**. Skills: Strong knowledge of disability terminology in the language and culture of the translation. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
+  * Translating WAI resources in all languages. See [Translating WAI resources](/about/translating/) and contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
+
 To learn about contributing to W3C WAI accessibility work generally, **see [[Participating in WAI]](/about/participating/)**.
 
-Links to each Working Group's "How to Participate" page are in the [Participating in Working Groups section](/about/participating/#WGs). If you are interested in a Task Force, see participation information for the parent Working Group.
+* [W3C Community Groups](/about/participating/#CGs) are open for anyone to join.
+* Links to each Working Group's "How to Participate" page are in the [Participating in Working Groups section](/about/participating/#WGs). If you are interested in a Task Force, see participation information for the parent Working Group.
+* We also offer ideas for [Promoting and Implementing Web Accessibility](/about/participating/#promoting-and-implementing-web-accessibility).
 
-We also offer ideas for [Promoting and Implementing Web Accessibility](/about/participating/#promoting-and-implementing-web-accessibility).
-
-**Translations:** If you might want to volunteer to contribute to translations, please see [Translating WAI resources](/about/translating/). You can send questions via e-mail to [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org) We are currently seeking translators in all languages and reviewers for draft translations in Czech, Greek, Indonesian, Korean, and Simplified Chinese.
-
-**We look forward to your contributions to making the web more accessible to people with disabilities!**
+**We look forward to your contributions to making the digital technology more accessible to people with disabilities!**
 
 ### Who is We
 
 "We" is:
 
 * [W3C](https://www.w3.org/Consortium/) Web Accessibility Initiative ([WAI](/about/))
-* W3C WAI Team:
-  * [Shawn Lawton Henry](https://www.w3.org/staff/#shawn) is Web Accessibility Initiative (WAI) Program Lead; Accessibility Education and Communications Lead.
-  * [Kevin White](https://www.w3.org/staff/#kevin) is Accessibility Technical Lead and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
-  * [Roy Ruoxi Ran (冉若曦)](https://www.w3.org/staff/#ran) supports accessibility Working Groups and accessibility in China.
-  * [Daniel Montalvo](https://www.w3.org/staff/#dmontalvo) supports accessibility Working Groups and standards harmonization.
-  * [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) develops the new technical architecture for WCAG 2, WCAG 3, and the WAI website.
-  * [Tamsin Ewing](https://www.w3.org/staff/#tamsin) supports accessibility communications, educational resources, and Working Group deliverables.
+* [W3C WAI Staff](/about/#wai-staff)
 * Participants of: [AG](https://www.w3.org/groups/wg/ag/participants), [APA](https://www.w3.org/groups/wg/apa/participants), [ARIA](https://www.w3.org/groups/wg/aria/participants), [EPUB](https://www.w3.org/groups/wg/epub/participants), and other [W3C groups](https://www.w3.org/groups/)
 
 <section class="default-grid teaser making-web-accessible" aria-labelledby="mwa-title" style="border: 1px solid var(--line-grey);">
@@ -190,6 +193,36 @@ We also offer ideas for [Promoting and Implementing Web Accessibility](/about/pa
 
 {% include_cached excol.html type="middle" %}
 
+* 14 November 2025
+  * Added **Authoring Tool Accessibility Guidelines (ATAG)** update is being explored in a W3C ATAG Community Group.
+  * Added "[W3C Community Groups](/about/participating/#CGs) are open for anyone to join."
+* 4 November 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+* 1 October 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+* 1 September 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+* 6 August 2025
+  * Changed staff list under [Who is we](/update/#who-is-we) to link to [W3C WAI Staff](/about/#wai-staff)
+* 30 June 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+* 2 June 2025
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+* 30 April 2025
+  * Updated the [How to Get Involved](/update/#participate) section with specific needs
+* April 2025
+  * Minor updates to current work on WCAG2ICT, ARIA 1.3, and mobile accessibility
+* March 2025
+  * Added mobile accessibility resource to [Upcoming Publications list](/update/#upcoming-publications), and removed ARRM because we published it
+* 4 February 2025
+  * Updated [Who is We](/update/#who-is-we) with new W3C WAI Team
+* 21 January 2025
+  * Removed Collaboration Tools Accessibility User Requirements from [Upcoming Publications list](/update/#upcoming-publications) because we published it today
+* 15 January 2025
+  * From Current Work Highlights, removed Collaboration Tools Accessibility User Requirements (“CTAUR”)  because we are the process of publishing it
+  * Removed WCAG 3 Working Draft from [Upcoming Publications list](/update/#upcoming-publications) because we published an updated draft in December 2024
+* 22 November 2024
+  * Updated [Upcoming Publications list](/update/#upcoming-publications)
 * 31 October 2024
   * Minor updates and typo fixes, shown in [GitHub diff 31 Oct](https://github.com/w3c/wai-website/pull/943/files), [rich text diff 31 Oct](https://github.com/w3c/wai-website/pull/943/files?short_path=6a769e8#diff-6a769e830ab2f49ee55cef25d2b3d266fdfa4221ac073fd4049a23b2660f816c)  
 * 28 September 2024

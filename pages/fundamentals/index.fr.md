@@ -5,7 +5,7 @@
 title: "Principes fondamentaux de l’accessibilité – Vue d’ensemble"
 nav_title: "Vue d'ensemble"
 lang: fr
-last_updated: 2023-08-08  # Keep the date of the English version
+last_updated: 2023-08-30  # Keep the date of the English version
 
 translation:
   last_updated: 2023-11-28  # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -30,7 +30,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 8 août 2023.</p>
   <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé par le Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

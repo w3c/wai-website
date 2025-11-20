@@ -21,7 +21,7 @@ github:
 permalink: /standards-guidelines/wcag/docs/ # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/docs/   # Translators, do not change this
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 description:  Describes Web Content Accessibility Guidelines (WCAG) 2 supporting documents and supplemental guidance.
 
 # In the footer below:

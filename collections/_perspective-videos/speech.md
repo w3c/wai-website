@@ -93,7 +93,7 @@ Learn more {#resources}
     -   [Kaseem, teenager who is deaf and blind](/people-use-web/user-stories/archived/#teenager)
     -   [Preety, middle school student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "images" and "structure"](https://www.w3.org/WAI/WCAG21/quickref/?tags=images%2Cstructure)
+    -   [Success Criteria relating to "images" and "structure"](https://www.w3.org/WAI/WCAG22/quickref/?tags=images%2Cstructure)
 -   **Mobile Applicability:**
     -   [Non-text objects (images, sound, video) with no text alternative](/standards-guidelines/shared-experiences/#non-text)
     -   [Information conveyed only using CSS (visual formatting)](/standards-guidelines/shared-experiences/#visual-formatting)

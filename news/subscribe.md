@@ -1,5 +1,5 @@
 ---
-title: Get WAI News
+title: Subscribe to WAI News
 lang: en
 github:
   label: wai-news
@@ -7,22 +7,38 @@ parent: /news/
 permalink: /news/subscribe/
 ---
 
-To get caught up, read: **[What We're Working On &mdash; Accessibility Activities and Publications](/update/)**.
+## WAI announcements mailing list
 
-You can get announcements of new WAI publications, draft documents for review, and other news from:
+To receive updates about WAI publications, draft documents for review and other accessibility-related news, subscribe to the WAI Announcements List:
 
-- **[W3C_WAI on Mastodon {% include_cached external.html %}](https://w3c.social/@wai)**
-- **[W3C-WAI on LinkedIn {% include_cached external.html %}](https://www.linkedin.com/company/w3c-wai/)**
-- **WAI Announcement e-mail list** - Official announcements from WAI. We only send a few messages per month to this list, to avoid clutter.
-  - To subscribe, send e-mail to [public-wai-announce-request@w3.org with subject: &ldquo;subscribe&rdquo;](mailto:public-wai-announce-request@w3.org?subject=subscribe).
-  - To unsubscribe, send e-mail to [public-wai-announce-request@w3.org with subject: &ldquo;unsubscribe&rdquo;](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
-  - You can also see the [WAI Announce List Archives](https://lists.w3.org/Archives/Public/public-wai-announce/).
-- WAI IG Discussion e-mail list - All announcements sent to the WAI Announcement list will also be sent to the WAI IG list, so you don't need to subscribe to both lists. The WAI IG list is open to the public for discussing web accessibility issues. For information on subscribing and posting messages, see [WAI IG Mailing List](https://www.w3.org/WAI/IG/#mailinglist).
-- **[Atom/RSS feed](/WAI/feed.xml)** has the last 10 announcements.
+- To **subscribe**, send an email with the subject line &ldquo;Subscribe&rdquo;  to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
+- To **unsubscribe**, send an email with the subject line &ldquo;Unsubscribe&rdquo;  to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
 
-_(We are no longer using  Twitter/X)_
-<br />
 
-You can also get information from:
-- **[WAI YouTube channel {% include_cached external.html %}](https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA)** - has videos, and you can subscribe to get notification when we post new videos there.
-- [News page](/news/) - lists all announcements from 2015 to present. [WAI Highlights Archive page](https://www.w3.org/WAI/highlights/archive) lists older news.
+We usually send 1 to 3 short emails each month.
+
+See previous WAI announcements: [Announcement List Mail Archive](https://lists.w3.org/Archives/Public/public-wai-announce/).
+
+## Social media
+
+Follow WAI to get news from us on:
+
+- [W3C-WAI on LinkedIn {% include_cached external.html %}](https://www.linkedin.com/company/w3c-wai/)
+- [W3C_WAI on Mastodon {% include_cached external.html %}](https://w3c.social/@wai)
+- [W3C WAI on YouTube {% include_cached external.html %}](https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA)
+
+(We are no longer using Twitter/X)
+
+## Atom/RSS
+
+To see the last 10 WAI news announcements, subscribe to WAI's [Atom/RSS feed](/WAI/feed.xml).
+
+## WAI news pages
+
+- [What We're Working On](/update/): Summary of current WAI accessibility activities
+- [WAI News page](/news/): Lists all WAI announcements from 2015 to present
+- [WAI Highlights Archive page](https://www.w3.org/WAI/highlights/archive): An archive of older WAI news, back to 2005
+
+## WAI Interest Group Discussion List
+
+WAI has a mailing list that is open to the public for discussing digital accessibility issues &mdash; see [WAI Interest Group Discussion List](/about/groups/waiig/#discussion-list).

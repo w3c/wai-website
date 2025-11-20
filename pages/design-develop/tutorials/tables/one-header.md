@@ -45,7 +45,7 @@ support: Developed by the Education and Outreach Working Group (<a href="https:/
 
 {% include_cached toc.html %}
 
-If the table content is ambiguous or has both column and row headings, the `scope` attribute should be used to avoid confusion. For more guidance on such tables, see [tables with two headers](/tutorials/two-headers/).
+If the table content is ambiguous or has both column and row headings, the `scope` attribute should be used to avoid confusion. For more guidance on such tables, see [tables with two headers](/tutorials/tables/two-headers/).
 
 ## Table with header cells in the top row only
 {:.ex}
