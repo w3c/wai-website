@@ -7,11 +7,14 @@ lang: tr   # Change "en" to the translated language shortcode
 last_updated: 2021-05-04   # Keep the date of the English version
 first_published: "4 Aralık 2017"
 
+translation:
+  draft: true
+  last_updated: 2024-12-30
+  
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "H. Gülin Dizer"   # Replace Jan Doe with translator name
 contributors:
 - name: "Berke Dizer"
-
 
 github:
   label: wai-video-introduction
