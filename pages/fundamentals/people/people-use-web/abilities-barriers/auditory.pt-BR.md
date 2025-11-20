@@ -9,6 +9,10 @@ last_updated: 2024-06-25  # Keep the date of the English version
 first_published: "como rascunho em 1999"
 description: Explora a ampla diversidade de pessoas e habilidades. Destaca barreiras de acessibilidade que as pessoas podem experimentar devido à tecnologia digital inacessível.
 
+translation:
+  draft: true
+  last_updated: 2025-02-16
+
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Israel Cefrin"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
