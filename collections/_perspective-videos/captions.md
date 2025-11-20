@@ -92,7 +92,7 @@ Learn more {#resources}
 -   **User Story:**
     -   [Martine, online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "captions"](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
+    -   [Success Criteria relating to "captions"](https://www.w3.org/WAI/WCAG22/quickref/?tags=captions)
 -   **Mobile Applicability:**
     -   [Multimedia with no captions](https://www.w3.org/WAI/mobile/experiences.html#multimedia)
 

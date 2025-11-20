@@ -89,7 +89,7 @@ Native HTML controls, like links, buttons, and form elements, work with the keyb
     -   [Ilya, senior staff member who is blind](/people-use-web/user-stories/archived/#accountant)
     -   [Kaseem, teenager who is deaf and blinc](/people-use-web/user-stories/archived/#teenager)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "keyboard"](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard)
+    -   [Success Criteria relating to "keyboard"](https://www.w3.org/WAI/WCAG22/quickref/?tags=keyboard)
 -   **Mobile Applicability:**
     -   [Mouse required for interaction and navigation](/standards-guidelines/shared-experiences/#mouse)
 -   **Tutorial:**

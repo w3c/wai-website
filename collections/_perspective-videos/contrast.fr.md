@@ -92,7 +92,7 @@ Choisissez des couleurs de texte et d’arrière-plan qui fournissent suffisamme
 -   **Besoins des utilisateurs :**
     -   [Exigences d’accessibilité pour les personnes malvoyantes](https://www.w3.org/TR/low-vision-needs/) 
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :** 
-    -   [Critères de succès liés au "contraste"](https://www.w3.org/WAI/WCAG21/quickref/?tags=contrast) 
+    -   [Critères de succès liés au "contraste"](https://www.w3.org/WAI/WCAG22/quickref/?tags=contrast) 
 -   **Applicabilité aux appareils mobiles :**
     -   [Informations transmises seulement par la couleur](/standards-guidelines/shared-experiences/#color) 
 

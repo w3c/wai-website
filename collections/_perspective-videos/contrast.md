@@ -89,7 +89,7 @@ Select colors that provide sufficient contrast. There are tools to help check an
 -   **User Needs:**
     -   [Accessibility Requirements for People with Low Vision](https://www.w3.org/TR/low-vision-needs/)
 -   **Web Content Accessibility Guidelines ([ WCAG  Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "contrast"](https://www.w3.org/WAI/WCAG21/quickref/?tags=contrast)
+    -   [Success Criteria relating to "contrast"](https://www.w3.org/WAI/WCAG22/quickref/?tags=contrast)
 -   **Mobile Applicability:**
     -   [Information conveyed solely with color](/standards-guidelines/shared-experiences/#color)
 
