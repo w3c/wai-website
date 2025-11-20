@@ -7,7 +7,7 @@ lang: ko
 last_updated: 2021-04-31  # Keep the date of the English version
 
 translation:
-  status: outdated
+  outdated: true
   last_updated: 2021-05-14  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
