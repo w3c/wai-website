@@ -18,7 +18,7 @@ parent: /standards-guidelines/wcag/glance/
 github:
   label: wai-wcag-intro
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 footer: >
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a> and Wayne Dick.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/GL/">AG WG</a>).</p>

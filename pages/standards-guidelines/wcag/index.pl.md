@@ -9,6 +9,7 @@ last_updated: 2024-03-07  # Keep the date of the English version
 description: Przedstawia międzynarodowy standard Wytyczne dla dostępności treści internetowych (Web Content Accessibility Guidelines, WCAG), w tym WCAG 2.0, WCAG 2.1 i WCAG 2.2. Dokumenty WCAG wyjaśniają, jak uczynić treści internetowe bardziej dostępnymi dla osób z niepełnosprawnościami.
 
 translation:
+  status: outdated
   last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
@@ -22,7 +23,7 @@ github:
 permalink: /standards-guidelines/wcag/pl  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/  # Do not change this
 
-image: /content-images/wcag/wcag-intro-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
