@@ -3,10 +3,13 @@
 
 title: Přehled standardů přístupnosti W3C  # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Standardy/Pokyny" # A short title that is used in the navigation
+lang: cs   # Change "en" to the translated language shortcode
+last_updated: 2021-04-30  # Keep the date of the English version
 
-lang: cs   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  status: outdated
+  last_updated: 2021-05-11  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2021-05-11  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
 - name: "Kristýna Švecová"   # Replace @@ with translator name
 #  link: @@
@@ -14,14 +17,15 @@ translators:
 # - name: "@@"   # Replace @@ with contributor name, or delete this line if none
 
 ref: /standards-guidelines/   # Do not change this
-changelog: /standards-guidelines/changelog/
 github:
   label: wai-standards-guidelines
 permalink: /standards-guidelines/cs   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>Datum:</strong> Aktualizováno 30. dubna 2021. CHANGELOG.</p>
+# In the footer below:
+# Translate the words below, including "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Vyvinuto Pracovní skupinou pro vzdělání a osvětu (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

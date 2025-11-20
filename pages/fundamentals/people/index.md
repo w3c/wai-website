@@ -4,7 +4,7 @@
 title: "Accessibility: It’s About People"
 nav_title: "Accessibility: It’s About People"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2023-01-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-02-17  # Keep the date of the English version
 description: Videos, personas, and user stories of how people with disabilities use digital technology.
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -23,21 +23,16 @@ ref: /people/ # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not change the dates or CHANGELOG
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 3 March 2023.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide">WAI-Guide project</a>, co-funded by the European Commission.</p>
-  
-inline_css: |
-  img.icon {--img-width:1em}
 ---
 
 {% include image.html src="people/still-dog-outside.png" alt="" class="normal right" %}
 
-Accessibility is about ensuring that digital technology is usable by people with disabilities. Checklists, standards, and laws are important tools to help achieve accessibility — yet sometimes they get the focus instead of the fundamental goal of accessibility: meeting the needs of disabled people in the real world. Accessibility is an important aspect of diversity, equity, and inclusion (DEI).
+Accessibility is about ensuring that digital technology is usable by people with disabilities. Checklists, standards, and laws are important tools to help achieve accessibility — yet sometimes they get the focus instead of the fundamental goal of accessibility: meeting the needs of disabled people in the real world.
 
 Many WAI resources cover the organizational, technical, and standards aspects of accessibility. The following WAI resources help you understand the **people** aspects:
 

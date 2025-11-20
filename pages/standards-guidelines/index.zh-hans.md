@@ -3,13 +3,19 @@
 
 title: W3C 可访问性标准概述  # Do not translate "title:". Do translate the text after "title:".
 nav_title: "标准/指南" # A short title that is used in the navigation
+lang: zh-hans
+last_updated: 2024-02-29  # Keep the date of the English version
 
-lang: zh-hans   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  last_updated: 2024-11-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
-translators: 
-- name: "安佳"   # Replace @@ with translator name
+translators:
+- name: "安佳"
   link: "https://github.com/anjia"
+
+contributors:
+- name: "heybran"
+  link: "https://github.com/heybran"
 
 ref: /standards-guidelines/ # Do not change this
 changelog: /standards-guidelines/changelog/
@@ -18,8 +24,10 @@ github:
 permalink: /standards-guidelines/zh-hans   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>日期:</strong> 更新于2021年4月30日. CHANGELOG.</p>
+# In the footer below:
+# Translate the words below, including "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>编辑:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>。</p>
   <p>由教育和外联工作组（<a href="https://www.w3.org/WAI/EO/">EOWG</a>）开发。</p>
 ---
@@ -72,12 +80,12 @@ WCAG 可应用在动态内容、多媒体、“移动端”等，也可以应用
 
 WCAG 2 信息：
 - [WCAG 概述](/standards-guidelines/wcag/)
-- [[WCAG 2.1 概览]](/standards-guidelines/wcag/glance/)
-- [如何满足 WCAG 2（快速参考）](https://www.w3.org/WAI/WCAG21/quickref/)
+- [[WCAG 2 概览]](/standards-guidelines/wcag/glance/)
+- [如何满足 WCAG 2（快速参考）](https://www.w3.org/WAI/WCAG22/quickref/)
 - [[WCAG 2 翻译]](/standards-guidelines/wcag/translations/)
-- [WCAG 2.0 标准](https://www.w3.org/TR/WCAG20/)
+- [WCAG 2.2 标准](https://www.w3.org/TR/WCAG22/)，[[WCAG 2.2 中的更新内容]](/standards-guidelines/wcag/new-in-22/)
 - [WCAG 2.1 标准](https://www.w3.org/TR/WCAG21/)，[[WCAG 2.1 中的更新内容]](/standards-guidelines/wcag/new-in-21/)
-- [[WCAG 2.2 工作组草案中的更新内容]](/standards-guidelines/wcag/new-in-22/)
+- [WCAG 2.0 标准](https://www.w3.org/TR/WCAG20/)
 
 
 ### 创作工具无障碍指南（ATAG） {#atag}
@@ -118,7 +126,7 @@ ARIA 套件包括 <abbr title="application programming interface">API</abbr> 映
 ARIA 信息：
 - [WAI-ARIA 概述](/standards-guidelines/aria/) – 包括[模块和 API 映射的列表和描述](/standards-guidelines/aria/#versions)
 - [WAI-ARIA 创作实践](https://www.w3.org/TR/wai-aria-practices/)
-- [WAI-ARIA 1.1 标准](https://www.w3.org/TR/wai-aria-1.1/)
+- [WAI-ARIA 1.2 标准](https://www.w3.org/TR/wai-aria-1.2/)
 
 ### 音频和视频 {#multimedia}
 
@@ -130,7 +138,7 @@ ARIA 信息：
 
 下面的资源支持可访问性评估方法和工具的开发：
 
-- [[无障碍一致性测试（ACT）概述]](/standards-guidelines/act/) &mdash; ACT 建立并记录规则，用来测试 Web 内容是否与可访问性标准一致。
+- [[无障碍一致性测试（ACT）概述]](/standards-guidelines/act/) &mdash; ACT 建立并记录规则，用来测试 Web 内容是否与可访问性标准一致。[WCAG 2 测试规则](/standards-guidelines/act/rules/about/) 使用ACT规则格式。
 
 - [[评估和报告语言（EARL）概述]](/standards-guidelines/earl/) &mdash; EARL 是一种机器可读的格式，用来表达测试结果。
 
@@ -138,10 +146,9 @@ ARIA 信息：
 
 - [[WCAG-EM 概述：网站无障碍一致性评估方法]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM 是一种方法，用来确定网站有多符合 Web 内容无障碍指南（WCAG）。
 
-### 个性化
+### WAI-Adapt
 
-[[个性化概述]](/adapt/) &mdash; 个性化涉及定制用户体验以满足个人用户的需求和偏好。内容作者可以使用个性化标准来提供默认设计，并以最少的工作实现用户个性化。
-### 个性化
+[[WAI-Adapt概述]](/adapt/) &mdash; WAI-Adapt涉及定制（或者“个性化”）用户体验以满足个人用户的需求和偏好。内容作者可以使用WAI-Adapt标准来提供默认设计，并以最少的工作实现用户适应性调整。
 
 ### 发音
 
@@ -165,4 +172,5 @@ ARIA 信息：
 
 - [WAI 如何通过 W3C 流程制定无障碍指南：里程碑和**贡献的机会**](/standards-guidelines/w3c-process/)
 
-![插图显示了不同组件的指南，详见 https://www.w3.org/WAI/intro/components-desc.html#guide]({{ "/content-images/components/specs.png" | relative_url }})
+{% assign longdesc_url = "/fundamentals/components/examples/#guide" | relative_url %}
+{% include image.html src="components/specs.png" alt="插图显示了不同组件的指南" longdesc=longdesc_url %}

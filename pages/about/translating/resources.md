@@ -17,7 +17,6 @@ image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 
 footer: |
-  <p><strong>Date:</strong> Updated 13 August 2024.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin.</p>
   <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
@@ -125,7 +124,7 @@ You are very welcome to [create new subtitles](/about/translating/resources/subt
 {:/}
  Thank you so much for your interest in translating W3C WAI Resources! 
 
-To begin your journey, send an email to [group-wai-translations@w3.org](group-wai-translations@w3.org) (not publicly archived&nbsp;[^1]) to express your interest in joining the WAI translator volunteers community.
+To begin your journey, send an email to [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org) (not publicly archived&nbsp;[^1]) to express your interest in joining the WAI translator volunteers community.
 
 {::nomarkdown}
 {% include box.html type="end" %}

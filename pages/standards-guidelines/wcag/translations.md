@@ -2,7 +2,8 @@
 title: WCAG 2 Translations
 nav_title: "Translations"
 lang: en
-last_updated: 2024-07-15
+last_updated: 2025-03-27
+first_published: "2 March 2009"
 description: Links to translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1 and 2.0.
 
 github:
@@ -11,9 +12,8 @@ github:
 permalink: /standards-guidelines/wcag/translations/
 ref: /standards-guidelines/wcag/translations/
 
-image: /content-images/wcag/wcag-intro-social.jpg
+image: /content-images/wcag/general-social.png
 footer: >
-  <p><strong>Date:</strong> Updated 15 July 2024. First published 2 March 2009.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, Shadi Abou_Zahra, Xueyuan Jia, Rémi Bétin.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>). Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 
@@ -83,8 +83,8 @@ Two types of translations are listed on this page:
 {% assign wcag22 = site.data.standards | where_exp: "item", "item.standard == 'wcag' and item.standard_version == '2.2'" | first  %}
 
 {% assign wcag20_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.0'" | group_by: "lang" %}
-{% assign wcag21_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.1' or item.standard_version == '2.1_2018'" | group_by: "lang" %}
-{% assign wcag22_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.2'" | group_by: "lang" %}
+{% assign wcag21_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.1' or item.standard_version == '2.1_2018' or item.standard_version == '2.1_2023'" | group_by: "lang" %}
+{% assign wcag22_trans = wcag_trans | where_exp: "item", "item.standard_version == '2.2' or item.standard_version == '2.2_2023'" | group_by: "lang" %}
 
 ## WCAG 2.2
 

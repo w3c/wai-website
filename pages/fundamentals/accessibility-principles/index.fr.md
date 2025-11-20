@@ -4,9 +4,12 @@
 
 title: Principes d’accessibilité
 lang: fr
-last_updated: 2023-12-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-05-10   # Keep the date of the English version
 description: Un aperçu des exigences d’accessibilité web fondamentales pour les sites et les applications web, les navigateurs et autres outils.
 teaser_text: La page «&#8239;Principes d’accessibilité&#8239;» présente certaines exigences d’accessibilité pour les sites et les applications web, les navigateurs et autres outils. Elle fournit des liens vers les standards internationaux de l’Initiative Accessibilité du Web (WAI) du W3C et vers une page parlant des particularités de quelques utilisateurs du Web.
+
+translation:
+  last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Stéphane Deschamps"
@@ -17,20 +20,17 @@ permalink: /fundamentals/accessibility-principles/fr
 ref: /fundamentals/accessibility-principles/
 
 github:
-    label: wai-accessibility-principles
+  label: wai-accessibility-principles
 
 image: /content-images/accessibility-principles/social.png
-changelog: /fundamentals/accessibility-principles/changelog/     # Do not change this
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 10 May 2019.</p>
   <p lang="en"><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/" hreflang="en">Shadi Abou Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments" hreflang="en">Acknowledgments</a>.</p>
-  <p lang="en">Developed by the Education and Outreach Working Group (<a href="https//www.w3.org/WAI/EO/" hreflang="en">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf" hreflang="en">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/" hreflang="en">WAI-AGE Project</a>.</p>
+  <p lang="en">Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/" hreflang="en">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf" hreflang="en">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/" hreflang="en">WAI-AGE Project</a>.</p>
 ---
 
 {::nomarkdown}
@@ -123,7 +123,7 @@ Les alternatives textuelles peuvent être présentées sous des formes variées.
 **WCAG**
 
 -  [Guideline 1.1 - Text
-   Alternatives](https//www.w3.org/WAI/WCAG22/quickref/#text-equiv){: hreflang="en"}
+   Alternatives](https://www.w3.org/WAI/WCAG22/quickref/#text-equiv){: hreflang="en"}
 
 **UAAG**
 
@@ -161,12 +161,12 @@ Les alternatives textuelles peuvent être présentées sous des formes variées.
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -195,7 +195,7 @@ Des retranscriptions texte bien écrites contenant la séquence correcte de tout
 **WCAG**
 
 -   [Guideline 1.2 - Time-based
-    Media](https//www.w3.org/WAI/WCAG22/quickref/#media-equiv)
+    Media](https://www.w3.org/WAI/WCAG22/quickref/#media-equiv)
 
 **UAAG**
 
@@ -229,9 +229,9 @@ Des retranscriptions texte bien écrites contenant la séquence correcte de tout
 
 {% include excol.html type="middle" %}
 
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -260,7 +260,7 @@ Pour que les utilisateurs puissent changer la présentation des contenus, il est
 **WCAG**
 
 -   [Guideline 1.3 -
-    Adaptable](https//www.w3.org/WAI/WCAG22/quickref/#content-structure-separation)
+    Adaptable](https://www.w3.org/WAI/WCAG22/quickref/#content-structure-separation)
 
 **UAAG**
 
@@ -303,13 +303,13 @@ Pour que les utilisateurs puissent changer la présentation des contenus, il est
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -342,7 +342,7 @@ Un contenu perceptible est plus facile à lire et à voir. Par exemple&#8239;:
 **WCAG**
 
 -   [Guideline 1.4 -
-    Distinguishable](https//www.w3.org/WAI/WCAG22/quickref/#visual-audio-contrast)
+    Distinguishable](https://www.w3.org/WAI/WCAG22/quickref/#visual-audio-contrast)
 
 **UAAG**
 
@@ -386,11 +386,11 @@ Un contenu perceptible est plus facile à lire et à voir. Par exemple&#8239;:
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -423,7 +423,7 @@ L’accessibilité au clavier comprend&#8239;:
 **WCAG**
 
 -   [Guideline 2.1 - Keyboard
-    accessible](https//www.w3.org/WAI/WCAG22/quickref/#keyboard-operation)
+    accessible](https://www.w3.org/WAI/WCAG22/quickref/#keyboard-operation)
 
 **UAAG**
 
@@ -459,8 +459,8 @@ L’accessibilité au clavier comprend&#8239;:
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
 
 {% include excol.html type="end" %}
 
@@ -490,7 +490,7 @@ Là où il faut fournir assez de temps, cela implique de fournir des mécanismes
 **WCAG**
 
 -   [Guideline 2.2 - Enough
-    time](https//www.w3.org/WAI/WCAG22/quickref/#time-limits)
+    time](https://www.w3.org/WAI/WCAG22/quickref/#time-limits)
 
 **UAAG**
 
@@ -521,11 +521,11 @@ Là où il faut fournir assez de temps, cela implique de fournir des mécanismes
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -554,7 +554,7 @@ Comment éviter de provoquer des crises ou des réactions physiques&#8239;:
 **WCAG**
 
 -   [Guideline 2.3 -
-    Seizures](https//www.w3.org/WAI/WCAG22/quickref/#seizure)
+    Seizures](https://www.w3.org/WAI/WCAG22/quickref/#seizure)
 
 **UAAG**
 
@@ -606,7 +606,7 @@ Un contenu bien organisé permet aux utilisateurs de s’orienter et de naviguer
 **WCAG**
 
 -   [Guideline 2.4 -
-    Navigable](https//www.w3.org/WAI/WCAG22/quickref/#navigation-mechanisms)
+    Navigable](https://www.w3.org/WAI/WCAG22/quickref/#navigation-mechanisms)
 
 **UAAG**
 
@@ -649,12 +649,12 @@ Un contenu bien organisé permet aux utilisateurs de s’orienter et de naviguer
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -698,9 +698,9 @@ En satisfaisant à cette exigence, on rend le contenu plus facile d’usage pour
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -732,7 +732,7 @@ Les auteurs de contenus doivent s’assurer que le contenu textuel est lisible e
 **WCAG**
 
 -   [Guideline 3.1 -
-    Readable](https//www.w3.org/WAI/WCAG22/quickref/#meaning)
+    Readable](https://www.w3.org/WAI/WCAG22/quickref/#meaning)
 
 **ATAG**
 
@@ -757,11 +757,11 @@ Les auteurs de contenus doivent s’assurer que le contenu textuel est lisible e
 
 {% include excol.html type="middle" %}
 
--   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/#onlinestudent)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -790,7 +790,7 @@ Un grand nombre de personnes s’appuie sur des interfaces prévisibles et est d
 **WCAG**
 
 -   [Guideline 3.2 -
-    Predictable](https//www.w3.org/WAI/WCAG22/quickref/#consistent-behavior)
+    Predictable](https://www.w3.org/WAI/WCAG22/quickref/#consistent-behavior)
 
 **UAAG**
 
@@ -823,12 +823,12 @@ Un grand nombre de personnes s’appuie sur des interfaces prévisibles et est d
 
 {% include excol.html type="middle" %}
 
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 
@@ -857,7 +857,7 @@ Les formulaires et d’autres systèmes interactifs peuvent induire de la confus
 **WCAG**
 
 -   [Guideline 3.3 - Input
-    assistance](https//www.w3.org/WAI/WCAG22/quickref/#minimize-error)
+    assistance](https://www.w3.org/WAI/WCAG22/quickref/#minimize-error)
 
 **UAAG**
 
@@ -890,11 +890,11 @@ Les formulaires et d’autres systèmes interactifs peuvent induire de la confus
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/#retiree)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {% include excol.html type="end" %}
 
@@ -924,7 +924,7 @@ Un contenu robuste est compatible avec de multiples navigateurs, outils d’assi
 **WCAG**
 
 -   [Guideline 4.1 -
-    Compatible](https//www.w3.org/WAI/WCAG22/quickref/#ensure-compat)
+    Compatible](https://www.w3.org/WAI/WCAG22/quickref/#ensure-compat)
 
 **UAAG**
 
@@ -955,12 +955,12 @@ Un contenu robuste est compatible avec de multiples navigateurs, outils d’assi
 
 {% include excol.html type="middle" %}
 
--   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/#shopper)
--   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/#reporter)
--   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/#accountant)
--   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/#classroomstudent)
--   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/#supermarketassistant)
--   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/#teenager)
+-   [Lee, client de site Web marchand, daltonien](/people-use-web/user-stories/archived/#shopper)
+-   [Alex, journaliste avec un trouble musculosquelettique](/people-use-web/user-stories/archived/#reporter)
+-   [Ilya, cadre supérieure, aveugle](/people-use-web/user-stories/archived/#accountant)
+-   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
+-   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
+-   [Kaseem, adolescente qui est sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
 
 {% include excol.html type="end" %}
 

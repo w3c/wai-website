@@ -3,10 +3,12 @@
 
 title: Resumen de los estándares de accesibilidad de W3C # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Estándares/Pautas" # A short title that is used in the navigation
+lang: es   # Change "en" to the translated language shortcode
+last_updated: 2024-02-29  # Keep the date of the English version
 
-lang: es   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  last_updated: 2025-04-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2021-05-14   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
 - name: "Carlos Muncharaz"   # Replace @@ with translator name
   link: "http://www.muncharaz.eu/"
@@ -15,14 +17,15 @@ contributors:
 - name: "Jorge Rumoroso"   # Replace @@ with name, or delete this line if not multiple contributors
 
 ref: /standards-guidelines/   # Do not change this
-changelog: /standards-guidelines/changelog/
 github:
   label: wai-standards-guidelines
 permalink: /standards-guidelines/es   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>Fecha:</strong> Actualizado el 30 de abril del 2021. CHANGELOG.</p>
+# In the footer below:
+# Translate the words below, including "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
@@ -75,12 +78,12 @@ Las pautas WCAG se aplican al contenido dinámico, multimedia, “móvil”, etc
 Información sobre las pautas WCAG 2:
 
 - [[Resumen de WCAG]](/standards-guidelines/wcag/)
-- [[WCAG 2.1 de un vistazo]](/standards-guidelines/wcag/glance/)
-- [Cómo seguir las pautas WCAG 2 (Guía rápida)](https://www.w3.org/WAI/WCAG21/quickref/)
+- [[WCAG 2 de un vistazo]](/standards-guidelines/wcag/glance/)
+- [Cómo seguir las pautas WCAG 2 (Guía rápida)](https://www.w3.org/WAI/WCAG22/quickref/)
 - [[Traducciones WCAG 2]](/standards-guidelines/wcag/translations/)
-- [Estándar WCAG 2.0](https://www.w3.org/TR/WCAG20/)
+- [Estándar WCAG 2.2](https://www.w3.org/TR/WCAG22/), [[Novedades en WCAG 2.2]](/standards-guidelines/wcag/new-in-22/)
 - [Estándar WCAG 2.1](https://www.w3.org/TR/WCAG21/), [[Novedades en WCAG 2.1]](/standards-guidelines/wcag/new-in-21/)
-- [[Novedades en el borrador de WCAG 2.2]](/standards-guidelines/wcag/new-in-22/)
+- [Estándar WCAG 2.0](https://www.w3.org/TR/WCAG20/)
 
 ### Pautas de accesibilidad para las herramientas de creación de contenido (ATAG) {#atag}
 
@@ -102,7 +105,7 @@ Información sobre las pautas UAAG:
 - [[Resumen de UAAG]](/standards-guidelines/uaag/)
 - [Nota sobre UAAG 2.0](https://www.w3.org/TR/UAAG20/)
 
-### Pautas de accesibilidad del W3C (WCAG) 3 Borrador {#wcag3}
+### Borrador de las pautas de accesibilidad del W3C (WCAG) 3 {#wcag3}
 
 Las pautas WCAG 3 se encuentran en un borrador inicial que se convertirá en un estándar W3C. WCAG 3 afecta al contenido web, aplicaciones, herramientas, publicaciones y tecnologías emergentes en la web.
 
@@ -121,7 +124,7 @@ La suite de ARIA incluye especificaciones de esquemas <abbr title="application p
 Información sobre ARIA:
 - [[Resumen de WAI-ARIA]](/standards-guidelines/aria/) – incluye [lista y descripción de módulos y esquemas API](/standards-guidelines/aria/#versions)
 - [Prácticas de autor de WAI-ARIA](https://www.w3.org/TR/wai-aria-practices/)
-- [Estándar WAI-ARIA 1.1](https://www.w3.org/TR/wai-aria-1.1/)
+- [Estándar WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/)
 
 ### Audio y vídeo {#multimedia}
 
@@ -133,7 +136,7 @@ Información sobre ARIA:
 
 Los siguientes recursos permiten desarrollar métodos y herramientas para evaluar la accesibilidad:
 
-- [[Resumen de Pruebas de Conformidad de Accesibilidad (ACT)]](/standards-guidelines/act/) &mdash; ACT establece y describe normas para comprobar la conformidad del contenido web con los estándares de accesibilidad.
+- [[Resumen de Pruebas de Conformidad de Accesibilidad (ACT)]](/standards-guidelines/act/) &mdash; ACT establece y describe normas para comprobar la conformidad del contenido web con los estándares de accesibilidad. Las [normas para pruebas WCAG 2](/standards-guidelines/act/rules/about/) usan el formato de normas ACT.
 
 - [[Resumen de Lenguaje de Evaluación e Informes (EARL)]](/standards-guidelines/earl/) &mdash; EARL es un formato para ser leído por aplicaciones que sirve para expresar los resultados de las pruebas.
 
@@ -141,9 +144,9 @@ Recursos adicionales relacionados con la evaluación se pueden encontrar en el [
 
 - [[Resumen de WCAG-EM: Metodología de Evaluación de Conformidad con la Accesibilidad en sitios Web]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM es una aproximación para determinar cuánto se ajusta un sitio web a las pautas de accesibilidad para el contenido web (WCAG).
 
-### Personalización
+### WAI-Adapt
 
-[[Resumen sobre la personalización]](/adapt/) &mdash; La personalización consiste en ajustar la experiencia del usuario a fin de cubrir las necesidades y preferencias individuales. Los autores de contenido pueden usar estándares de personalización para proporcionar un diseño por defecto y permitir la personalización del usuario con un esfuerzo mínimo.
+[[Resumen de WAI-Adapt]](/adapt/) &mdash; WAI-Adapt permite que los usuarios adapten (o "personalicen") la presentación del contenido para cubrir sus necesidades y preferencias. Los autores de contenido pueden usar estándares WAI-Adapt para proporcionar un diseño por defecto y permitir la personalización del usuario con un esfuerzo mínimo.
 
 ### Pronunciación
 

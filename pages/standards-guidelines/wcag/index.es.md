@@ -5,8 +5,13 @@
 title: "Sumario de WCAG 2"
 nav_title: "Contenido Web – WCAG 2"
 lang: es
-last_updated: 2024-05-01  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-05-06  # Keep the date of the English version
+first_published: "Julio del 2005"
 description: Introduce el estándar internacional de las Pautas de Accesibilidad para el Contenido Web (WCAG), lo cual incluye WCAG 2.0, WCAG 2.1 y WCAG 2.2. Los documentos de las WCAG explican cómo hacer contenido web más accesible para las personas con discapacidad.
+
+translation:
+  status: outdated
+  last_updated: 2025-06-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -18,7 +23,7 @@ github:
 permalink: /standards-guidelines/wcag/es  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/  # Do not change this
 
-image: /content-images/wcag/wcag-intro-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
@@ -26,7 +31,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Fecha:</strong> Actualizado el 7 de marzo del 2024. Primera publicación en julio del 2005.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) y el Grupo de Trabajo de las Pautas de Accesibilidad (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>).</p>
 ---
@@ -108,11 +112,13 @@ Los siguientes recursos ayudan a comprender e implementar las WCAG, así como me
 
 ## WCAG 2.0, 2.1 y 2.2 {#versions}
 
-Los estándares de las Pautas de Accesibilidad para el Contenido Web (WCAG) son estables y sirven de referencia cuando son publicados como una "Recomendación del W3C", que es un estándar web.
+Los estándares de las Pautas de Accesibilidad para el Contenido Web (WCAG) sirven de referencia cuando son publicados como una "Recomendación del W3C", que es un estándar web.
 
 * [WCAG 2.0](https://www.w3.org/TR/WCAG20/) se publicó el 11 de diciembre del 2008.
-* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) se publicó el 5 de junio del 2018 y se actualizó el 21 de septiembre de 2023. Las [preguntas frecuentes sobre WCAG 2](/standards-guidelines/wcag/faq/) ofrecen más información sobre esta actualización.
-* [WCAG 2.2](https://www.w3.org/TR/WCAG22/) se publicó el 5 de octubre del 2023.
+* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) se publicó el 5 de junio del 2018 y se actualizó el 21 de septiembre del 2023, el 12 de diciembre del 2024 y el 6 de mayo del 2025.
+* [WCAG 2.2](https://www.w3.org/TR/WCAG22/) se publicó el 5 de octubre del 2023 y se actualizó el 12 de diciembre del 2024.
+
+Para leer más información sobre las actualizaciones, consulte las [preguntas frecuentes sobre WCAG 2](/standards-guidelines/wcag/faq/).
 
 Las WCAG 2.0, 2.1 y 2.2 están diseñadas para ser compatibles con versiones anteriores, lo cual quiere decir que el contenido que cumple con WCAG 2.2 también cumple con WCAG 2.1 y WCAG 2.0. Si quiere cumplir con todas las versiones, use los recursos de WCAG 2.2 y de esta forma no tendrá que preocuparse de consultar versiones anteriores.
 
@@ -138,7 +144,7 @@ El contenido de ISO/IEC 40500 está disponible gratuitamente en [www.w3.org/TR/W
 
 Los beneficios de tener las WCAG como un estándar ISO se resumen en las [FAQ sobre ISO](/standards-guidelines/wcag/faq/#iso). Se puede encontrar más información sobre W3C y el proceso ISO en las [FAQ de W3C PAS](https://www.w3.org/2010/04/pasfaq).
 
-**El W3C tiene previsto pasar las WCAG 2.2 a través del proceso ISO.**
+**El W3C sometió las WCAG 2.2 a ISO.** Lo más probable es que el proceso ISO se complete después de junio del 2025.
 
 ## Quién desarrolla las WCAG {#wg}
 

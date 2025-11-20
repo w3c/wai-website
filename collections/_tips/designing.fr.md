@@ -6,7 +6,11 @@ title: "Concevoir pour l’accessibilité Web – Conseils pour démarrer"
 title_html: "Concevoir pour l’accessibilité Web"
 nav_title: Conseils pour le design
 lang: fr # Change "en" to the translated-language shortcode
-last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 resource:
   ref: /tips/  # Do not change this
@@ -30,6 +34,7 @@ ref: /tips/designing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#designing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
@@ -101,7 +106,7 @@ Le texte au premier plan doit avoir un contraste suffisant par rapport aux coule
 * **WCAG**
   * [Contraste (Minimum) 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([Comprendre 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
 * **Témoignage d’utilisateur**
-  * [Comment un utilisateur daltonien utilise le Web](/people-use-web/user-stories/#shopper)
+  * [Comment un utilisateur daltonien utilise le Web](/people-use-web/user-stories/archived/#shopper)
 * **Vérification simple**
   * [Comment vérifier le rapport de contraste](/test-evaluate/preliminary/#contrast)
 * **Outils d’aide**
@@ -222,7 +227,7 @@ Bien que la couleur puisse servir à transmettre une information, elle ne devrai
 * **WCAG**
   * [Utilisation de la couleur 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([Comprendre 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
 * **Témoignage d’utilisateur**
-  * [Comment un utilisateur daltonien utilise le Web](/people-use-web/user-stories/#shopper)
+  * [Comment un utilisateur daltonien utilise le Web](/people-use-web/user-stories/archived/#shopper)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -282,8 +287,8 @@ Fournissez des styles distinctifs pour les éléments interactifs, tels que les 
   * [Visibilité du focus 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([Comprendre 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
   * [Identification cohérente 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Comprendre 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **Témoignages d’utilisateurs**
-  * [Obstacles rencontrés par une personne ayant une capacité limitée à utiliser une souris](/people-use-web/user-stories/#reporter)
-  * [Obstacles rencontrés par un utilisateur âgé dont les mains tremblent](/people-use-web/user-stories/#retiree)
+  * [Obstacles rencontrés par une personne ayant une capacité limitée à utiliser une souris](/people-use-web/user-stories/archived/#reporter)
+  * [Obstacles rencontrés par un utilisateur âgé dont les mains tremblent](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -301,7 +306,7 @@ Veillez à ce que le nom, le style et le positionnement de la navigation dans le
   * [Navigation cohérente 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([Comprendre 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
   * [Accès multiples 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([Comprendre 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
 * **Témoignage d’utilisateur**
-  * [Comment la cohérence et la navigation peuvent aider une personne avec des troubles cognitifs](/people-use-web/user-stories/#supermarketassistant)
+  * [Comment la cohérence et la navigation peuvent aider une personne avec des troubles cognitifs](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -357,7 +362,7 @@ Veillez à ce que tous les champs aient une étiquette descriptive adjacente au 
 * **Tutoriel**
   * [Position visuelle du texte de l’étiquette](/tutorials/forms/labels/#visual-position-of-label-text)
 * **Témoignage d’utilisateur**
-  * [Comment une étiquette claire peut aider une personne avec des troubles cognitifs](/people-use-web/user-stories/#supermarketassistant)
+  * [Comment une étiquette claire peut aider une personne avec des troubles cognitifs](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -422,7 +427,7 @@ Prévoyez un retour pour les interactions, tel que confirmer la soumission d’u
 * **Tutoriel**
   * [Notification des utilisateurs](/tutorials/forms/notifications/)
 * **Témoignage d’utilisateur**
-  * [Comment rendre un contenu important facilement identifiable peut aider](/people-use-web/user-stories/#classroomstudent)
+  * [Comment rendre un contenu important facilement identifiable peut aider](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -533,7 +538,7 @@ Utilisez des blancs et la proximité pour faire mieux ressortir les relations en
 * **Tutoriel**
   * [En-têtes](/tutorials/page-structure/headings/)
 * **Témoignage d’utilisateur**
-  * [Décrit de quelle manière les en-têtes peuvent être utiles à la navigation](/people-use-web/user-stories/#accountant)
+  * [Décrit de quelle manière les en-têtes peuvent être utiles à la navigation](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -570,7 +575,7 @@ Prêtez attention à l’agencement des informations contenues dans les pages da
   * [Petite taille d’écran](/TR/mobile-accessibility-mapping/#h-small-screen-size)
   * [Considérations sur mobile relatives à la compréhensibilité](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
 * **Témoignage d’utilisateur**
-  * [Décrit de quelle manière les vues équivalentes des pages agrandies peuvent être utiles](/people-use-web/user-stories/#retiree)
+  * [Décrit de quelle manière les vues équivalentes des pages agrandies peuvent être utiles](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -612,7 +617,7 @@ Travaillez avec les auteurs de contenu et les développeurs pour fournir des éq
 * **Tutoriel**
   * [Images](/tutorials/images/)
 * **Témoignage d’utilisateur**
-  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/#accountant)
+  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

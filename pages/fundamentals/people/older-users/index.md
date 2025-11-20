@@ -5,7 +5,9 @@ title: "Older Users and Web Accessibility: Meeting the Needs of Ageing Web Users
 title_html: "Older Users and Web Accessibility:<br>Meeting the Needs of Ageing Web Users"
 nav_title: "Meeting the Needs of Ageing Web Users"
 lang: en  # Change "en" to the translated language shortcode
-last_updated: 2024-03-04  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-04  # Keep the date of the English version
+first_published: "2010"
+
 order: 1
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -24,14 +26,11 @@ resource:
 permalink: /older-users/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /older-users/  # Do not change this
 
-changelog: /older-users/changelog/  # Do not change this
-
 # In the footer below:
 # Do not change the dates
 # Translate the other words, including "Date:", "Editors:" and "Contributors".
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 4 March 2024. First published 2010. CHANGELOG</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: <a href="https://www.w3.org/People/Andrew/" >Andrew Arch</a>, <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>, and Vicki Menezes Miller.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Related to the  <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> funded by the European Commission under the 6th Framework.</p>  
 ---
@@ -102,7 +101,7 @@ These issues overlap with the accessibility needs of people with disabilities. T
 {:/}
 
 -   **For statistics on the prevalence of age-related impairments and more on how they impact web use, see the [Summary of Impact and Prevalence section](/older-users/literature/#summary) of the Literature Review Overview.**
--   For short story (_persona_) showing some accessibility issues that an older person can face on the web, see [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/#retiree) in Stories of Web Users.
+-   For short story (_persona_) showing some accessibility issues that an older person can face on the web, see [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree) in Stories of Web Users.
 -   If you want to learn about older users directly by including real people in your user studies, see [[Involving Users in Web Projects for Better, Easier Accessibility]](/planning/involving-users/).
 -   **For videos** and descriptions of issues that impact people who are elderly and people with disabilities, see [Web Accessibility Perspectives](/perspective-videos/). These videos include older users: [Customizable Text](/perspective-videos/customizable/), [Colors with Good Contrast](/perspective-videos/contrast/), [Notifications and Feedback](/perspective-videos/notifications/), [Understandable Content](/perspective-videos/understandable/), and [Large Links, Buttons, and Controls.](/perspective-videos/controls/)
 

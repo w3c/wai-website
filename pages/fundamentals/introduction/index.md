@@ -3,8 +3,8 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Introduction to Web Accessibility
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-03-07   # Put the date of this translation YYYY-MM-DD (with month in the middle)
-
+last_updated: 2024-03-07   # Keep the date of the English version
+first_published: "February 2005"
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
@@ -17,16 +17,12 @@ github:
 
 permalink: /fundamentals/accessibility-intro/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/accessibility-intro/     # Do not change this
-
-changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
   
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 7 March 2024. First published February 2005. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

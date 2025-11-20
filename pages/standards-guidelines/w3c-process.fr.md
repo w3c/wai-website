@@ -6,7 +6,10 @@ title: "Comment WAI élabore les standards d'accessibilité selon le processus d
 title_html: "Comment WAI élabore les standards d'accessibilité selon le processus du W3C :<br> étapes importantes et opportunités pour contribuer"
 nav_title: Processus du W3C pour élaborer les standards
 lang: fr
-last_updated: 2024-05-07   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-07-09   # Keep the date of the English version
+
+translation:
+  last_updated: 2025-07-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Sofia Ahmed"
@@ -28,7 +31,7 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 2 novembre 2020. Première publication en septembre 2006.</p>
+  <p>Première publication en septembre 2006.</p>
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé avec les contributions du Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
@@ -86,7 +89,7 @@ Les étapes importantes par lesquelles passe un « rapport technique » du W3C
 4. {:#pr}![Approuver le rapport technique :]({{ "/content-images/w3c-process/pr.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Proposition de recommandation (<i lang="en">Proposed Recommendation</i> en anglais)** : après des implémentations de  chaque fonctionnalité du rapport technique, W3C annonce qu'il s'agit désormais d'une « Proposition de recommandation ». À ce stade, le rapport est soumis aux membres du W3C pour être approuvé.
 5. {:#rec}![approved technical report:]({{ "/content-images/w3c-process/rec.gif" | relative_url }}){:style="float:left; margin-right: 1em; clear: left;"} **Recommandation du W3C (Standard du Web)** : Une fois que le rapport technique a reçu un soutien significatif de la part des membres du W3C, du directeur du W3C et du public, il est publié en tant que « Recommandation ». W3C encourage le déploiement à grande échelle de ses « Recommandations ».
 
-Il s'agit d'une description simplifiée du processus. Pour la version faisant autorité, consultez le [document sur le processus du W3C, section 7 : Processus de développement d'un rapport technique du W3C](https://www.w3.org/Consortium/Process/#Reports).
+Il s'agit d'une description simplifiée du processus. Pour la version faisant autorité, consultez le [document sur le processus du W3C : Rapports techniques du W3C](https://www.w3.org/Consortium/Process/#Reports).
 
 ## Autres ressources {#other}
 

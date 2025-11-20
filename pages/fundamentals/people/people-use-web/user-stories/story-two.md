@@ -5,7 +5,7 @@
 title: "Ian, data entry clerk with autism"
 nav_title: "Ian"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -35,14 +35,14 @@ changelog: /people-use-web/changelog/ # Do not change this
 acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="https//www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -147,15 +147,15 @@ automatically are frustrating and confusing.
 
 ## About Ian
 
-> I find it hard to focus on busy pages. For example, lots of animations and videos, particarly ones that start without me doing anything are really frustrating.
+> I find it hard to focus on busy pages. For example, lots of animations and videos, particularly ones that start without me doing anything are really frustrating.
 
 Ian is autistic. His autism was identified at an early age because of delays in speech development. Ian received a lot of early childhood support, which helped him develop language and social skills. However, he still experiences some barriers with verbal communication, especially when experiencing anxiety.
 
-Ian works part-time as a data scientist. Working with a computer is easy for Ian, although updates to the data entry application can cause him problems if there are significant changes to the interface. This can cause feelings of axiety for Ian if he doesn't know the change is coming and given time to adapt. It can also be difficult for Ian if someone asks for some work that causes him to use parts of the system that he is not as familiar with. It is important that systems use a consistent layout and navigation.
+Ian works part-time as a data scientist. Working with a computer is easy for Ian, although updates to the data entry application can cause him problems if there are significant changes to the interface. This can cause feelings of anxiety for Ian if he doesn't know the change is coming and given time to adapt. It can also be difficult for Ian if someone asks for some work that causes him to use parts of the system that he is not as familiar with. It is important that systems use a consistent layout and navigation.
 
 Ian finds interacting with colleagues via email easy. He has worked with his team to help them appreciate how using plain language and not introducing new metaphors can help him. Many have said they also prefer less corporate jargon as well. 
 
-Ian has his own living space in his parent's home, including his own kitchen. He has been learning how to cook using online videos. However, vague language, metaphors, and implied content in some of the videos makes them to understand. He finds straightforward, practical, step-by-step videos really helpful. Some of the cooking sites Ian uses have a lot of adverts on them with banners and video, which can be distracting. This is particularly bad if there is audio as well, especially if Ian can't control it easily. It is best when websites don't automatically play audio and video adverts, or at least let Ian control them.
+Ian has his own living space in his parent's home, including his own kitchen. He has been learning how to cook using online videos. However, vague language, metaphors, and implied content in some of the videos makes them difficult to understand. He finds straightforward, practical, step-by-step videos really helpful. Some of the cooking sites Ian uses have a lot of adverts on them with banners and video, which can be distracting. This is particularly bad if there is audio as well, especially if Ian can't control it easily. It is best when websites don't automatically play audio and video adverts, or at least let Ian control them.
 
 ## Barrier examples
 

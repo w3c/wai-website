@@ -3,6 +3,7 @@ title: "WCAG 2.0 at a Glance"
 nav_title: "2.0 at a Glance"
 lang: en
 last_updated: 2012-02-22
+first_published: "July 2008"
 description: This page provides a paraphrased summary of Web Content Accessibility Guidelines (WCAG) 2.0.
 
 doc-note-type: archived
@@ -17,9 +18,8 @@ parent: /standards-guidelines/wcag/glance/
 github:
   label: wai-wcag-intro
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 footer: >
-  <p><strong>Date:</strong> Updated 22 February 2012. First published July 2008.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a> and Wayne Dick.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/GL/">AG WG</a>).</p>
 ---

@@ -5,8 +5,12 @@
 title: "WCAG 2 w skrócie"
 nav_title: "W skrócie"
 lang: pl  # Change "en" to the translated-language shortcode
-last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-29  # Keep the date of the English version
+first_published: "July 2008"
 description: Przedstawia sparafrazowane streszczenie Wytycznych dla dostępności treści internetowych (WCAG) 2.
+
+translation:
+  last_updated: 2024-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Stefan Wajda"
@@ -17,7 +21,7 @@ github:
 permalink: /standards-guidelines/wcag/glance/pl # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/glance/ # Do not change this
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
@@ -25,7 +29,6 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Data:</strong> Updated 29 November 2023. First published July 2008.</p>
   <p><strong>Redaktorzy:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a> i Wayne Dick.</p>
   <p>Opracowane z udziałem Grupy Roboczej ds. Edukacji i Kontaktów Zewnętrznych (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) oraz Grupy Roboczej ds. wytycznych dla dostępności (<a href="https://www.w3.org/WAI/GL/">AG WG</a>).</p>
 

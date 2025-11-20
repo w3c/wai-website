@@ -1,6 +1,15 @@
+[context.production]
+# Applies to the staging environment, generated from the `main` branch.
+command = "npm install && bundle exec jekyll build --profile --trace --config '_config.yml,_config_staging.yml'"
+# with debugging: command = "npm install && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml'"
+
+[context.deploy-preview]
+# Applies to deploy previews, generated from pull requests.
+# Include posts with a future date
+command = "git submodule update --init --remote && npm install && bundle exec jekyll build --profile --trace --config '_config.yml,_config_staging.yml' --future"
+# with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml' --future"
+
 [build]
-# with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml'"
-command = "git submodule update --init --remote && npm install && bundle exec jekyll build --profile --trace --config '_config.yml,_config_staging.yml'"
 publish = "_site"
 
 [build.environment]
@@ -17,13 +26,3 @@ command = "bundle exec jekyll serve -w --livereload --config _config.yml,_config
 [functions]
 directory = "_functions"
 node_bundler = "esbuild"
-
-[[plugins]]
-package = "@netlify/plugin-functions-install-core"
-
-[[plugins]]
-# See https://github.com/netlify/netlify-plugin-lighthouse#readme
-package = "@netlify/plugin-lighthouse"
-[plugins.inputs.settings]
-preset = "desktop" # default is mobile
-locale = "en"

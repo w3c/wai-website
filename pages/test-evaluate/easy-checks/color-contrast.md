@@ -3,8 +3,8 @@ title: "Color Contrast - Easy Checks"
 permalink: /test-evaluate/easy-checks/color-contrast/
 ref: /test-evaluate/easy-checks/color-contrast/
 nav_title: "Color Contrast"
-
 lang: en
+last_updated: 2024-03-19
 
 doc-note-type: draft
 
@@ -18,7 +18,6 @@ navigation:
 acknowledgements: /test-evaluate/easy-checks/acknowledgements/
 footer: >
   <p>
-    <strong>Status:</strong> Updated December 2023<br>
     <strong>Editor:</strong> <a href="https://www.w3.org/People/#kevin">Kevin White</a><br>
     ACKNOWLEDGEMENTS<br>
     Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Updated as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.
@@ -95,7 +94,7 @@ Some tools allow you to sample the colors directly. For example, by using an eye
 
 ## Learn more
 
-* Story: [How a user with “color blindness” experiences the Web](https://www.w3.org/WAI/people-use-web/user-stories/#shopper)
+* Story: [How a user with “color blindness” experiences the Web](https://www.w3.org/WAI/people-use-web/user-stories/archived/#shopper)
 * Tip: [Provide sufficient contrast between foreground and background](https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background)
 * [Understanding 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum)
 * [Understanding 1.4.6: Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced)

@@ -5,7 +5,8 @@
 title: "Making Audio and Video Media Accessible"
 nav_title: "Audio & Video Media"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2021-11-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+first_published: "September 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -33,11 +34,10 @@ image: /content-images/media-guide/social.png
  
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 29 November 2021. First published September 2019. CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -52,7 +52,7 @@ Address the following components:
 
 * {:.left} [{% include image.html src="media-guide/av-content.svg" alt="" %} Audio Content and Video Content](/media/av/av-content/):<br>Make new audio and video content accessible. Avoid accessibility barriers when planning, scripting, storyboarding, and recording your media.
 
-* {:.left} [{% include image.html src="media-guide/ad.svg" alt="" %} Description of Visual Information](/media/av/description/):<br>Provide description so that people who are blind and others who cannot see the video adequately get the visual information needed to understand the content. This includes things like charts, graphs, and text such as speaker names, titles, and e-mail addresses.
+* {:.left} [{% include image.html src="media-guide/ad.svg" alt="" %} Description of Visual Information](/media/av/description/) (audio description, video description, described video):<br>Provide description so that people who are blind and others who cannot see the video adequately get the visual information needed to understand the content. This includes things like charts, graphs, and text such as speaker names, titles, and e-mail addresses.
 
 * {:.left} [{% include image.html src="media-guide/cc.svg" alt="" %} Captions/Subtitles](/media/av/captions/):<br>Provide captions (also called “subtitles”) so that people who are Deaf and hard-of-hearing get a text version of the speech and non-speech audio information needed to understand the content.
 

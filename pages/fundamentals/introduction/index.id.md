@@ -3,7 +3,11 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Pengenalan ke Aksesibilitas Web 
 lang: id
-last_updated: 2023-11-23   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-11-20
+
+translation:
+  last_updated: 2023-11-23  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  status: outdated
 
 translators: #Add one -name: line for every translator
   - name: "Fri Rasyidi"
@@ -19,12 +23,11 @@ ref: /fundamentals/accessibility-intro/   # Do not change this
 changelog: /fundamentals/accessibility-intro/changelog/ # Do not change this
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Tanggal:</strong> Diperbarui 20 November 2023. Pertama kali dipublikasikan Februari 2005. CHANGELOG.</p>
+  <p>Pertama kali dipublikasikan Februari 2005.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Dikembangkan oleh Kelompok Kerja Edukasi dan Pendampingan (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
