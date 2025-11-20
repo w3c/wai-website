@@ -8,6 +8,9 @@ lang: zh-hans    # Change "en" to the translated-language shortcode
 last_updated: 2024-07-15    # Keep the date of the English version
 order: 1
 
+translation:
+  status: draft
+  last_updated: 2024-11-10
 
 translators:
 - name: "金凯" 
@@ -153,3 +156,4 @@ footer: >
     </tr>
   </tbody>
 </table>
+
