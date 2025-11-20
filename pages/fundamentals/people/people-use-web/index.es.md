@@ -11,7 +11,7 @@ description: Presenta cómo usan la web las personas con discapacidad y las pers
 
 translation:
   last_updated: 2019-08-27
-  status: outdated
+  outdated: true
 
 translators:
   - name: "Carlos Muncharaz"

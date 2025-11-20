@@ -5,7 +5,7 @@ lang: es
 last_updated: 2019-04-08  # Keep the date of the English version
 
 translation:
-  status: outdated
+  outdated: true
   last_updated: 2019-07-11  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 description: Esta página enumera los nuevos criterios de conformidad de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1. Incluye citas de personas (ficticias) que ayudarán a comprender algunos aspectos de los criterios de conformidad.
