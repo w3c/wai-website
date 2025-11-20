@@ -91,7 +91,7 @@ Learn more {#resources}
     -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
     -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "text"](https://www.w3.org/WAI/WCAG21/quickref/?tags=text)
+    -   [Success Criteria relating to "text"](https://www.w3.org/WAI/WCAG22/quickref/?tags=text)
 -   **Mobile Applicability:**
     -   [Long words, long and complex sentences, jargon](/standards-guidelines/shared-experiences/#complex)
     -   [Content spawning new windows without warning user](/standards-guidelines/shared-experiences/#popups)

@@ -2,7 +2,7 @@
 title: "Digital Accessibility Research"
 nav_title: "Research"
 lang: en
-last_updated: 2024-09-06
+last_updated: 2025-01-21
 description: Overview of research support activities of the W3C Web Accessibility Initiative (WAI).
 
 github:
@@ -22,9 +22,10 @@ The following information related to digital accessibility research is available
 [[Accessibility User Requirements]](/research/user-requirements/)
 : Documentation of research on user needs for:
   - Virtual or immersive environments (XR)
+  - Audio and video media on the web
   - Real-time communication (RTC)
   - Natural language interfaces
-  - Media on the web
+  - Collaboration tools
   - Low vision accessibility
   - Cognitive accessibility
 

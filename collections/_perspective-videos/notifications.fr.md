@@ -93,7 +93,7 @@ Plus d’informations {#resources}
     -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
     -   [Luis, assistant en supermarché, atteint du syndrome de Down](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Règles d’accessibilité pour les contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
-    -   [Critères de succès liés aux « erreurs »](https://www.w3.org/WAI/WCAG21/quickref/?tags=errors) 
+    -   [Critères de succès liés aux « erreurs »](https://www.w3.org/WAI/WCAG22/quickref/?tags=errors) 
 -   **Tutoriel :**
     -   [Formulaires – Tutoriels sur l’accessibilité Web](/tutorials/) 
 

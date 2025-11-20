@@ -1,5 +1,5 @@
 ---
-title: Cognitive and Learning Disabilities Accessibility Task Force (COGA)
+title: Cognitive and Learning Disabilities Accessibility Task Force
 permalink: /about/groups/task-forces/coga/
 ref: /about/groups/task-forces/coga/
 lang: en
@@ -11,10 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Cognitive and Learning Disabilities Accessibility Task Force (Cognitive A11Y TF) is a joint Task Force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/) and the [Web Content Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). It assists these Working Groups to produce techniques, understanding, and guidance documents, as well as updates to existing related W3C material that addresses the cognitive space.
-
-
-Some information on this page is also shown on, and may be more current in, the [automatically generated Cognitive and Learning Disabilities Accessibility Task Force page](https://www.w3.org/groups/tf/cognitive-a11y-tf).
+Find out about the activities of the Cognitive and Learning Disabilities Accessibility (COGA) Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -33,80 +30,81 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
+## Objectives
 
-## Facilitator and Contacts
+The COGA Task Force develops guidance and techniques for content authoring and user agent implementation in order to make web content accessible to people with cognitive and learning disabilities.
 
-- **Task Force facilitators:**
-    - [Rain Breaw Michaels](https://www.w3.org/users/129114)
-    - [Lisa Seeman](https://www.w3.org/users/16320)
-- **Staff Contacts:**
-    - [Roy Ran](https://www.w3.org/People/Roy/)
+## Work statement
+
+To learn about the focus, scope and deliverables of the task force, see the [COGA Task Force Work Statement](/about/groups/task-forces/coga/work-statement/).
+
+## Current work
+
+The COGA Task Force supports the deliverables of two W3C working groups:
+
+* [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/)
+* [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/)
+
+For details of the current work, see the [COGA Task Force wiki](https://www.w3.org/WAI/GL/task-forces/coga/wiki).
+
+For more information, see [Cognitive Accessibility at W3C](/cognitive/).
+
+## Contribute to the work
+
+The COGA Task Force welcomes input from individuals and organizations around the world on the cognitive and learning accessibility work.
+
+### Contribute without joining the task force
+
+You can contribute to the work without being a member of the task force:
+
+- **Draft COGA resources:** Review and provide feedback on drafts that are still being developed.
+- **Open COGA issues:** Comment on or propose solutions for open issues.
+- **Published COGA resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [COGA GitHub repository](https://github.com/w3c/coga/issues) or [email the task force](mailto:public-cognitive-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 
-## Announcements and Meetings
+### Become a participant in the task force
 
-No announcements at the moment.
+Joining the COGA Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-## Meetings and Communication
+Being a participant involves commitment to support the work of the task force in the following ways:
 
-The Coga TF conducts its work using a variety of synchronous and asynchronous tools. Most work is done via email and issues as shown below, supplemented by occasional teleconferences.
+* Engage actively in the work using the task force’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
 
-- [Email lists](#email);
-- [wiki](https://www.w3.org/WAI/GL/task-forces/coga/wiki/);
-- [Coga GitHub repository](https://github.com/w3c/coga/);
-- IRC discussion on the [#coga](irc://irc.w3.org/coga) IRCchannel, used largely for minute-taking;
-- [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/67703/);
-- Teleconferences of the task force (also see [meeting minutes](https://www.w3.org/WAI/GL/task-forces/coga/minutes));
-- Face to face meetings;
+To become a participant in the COGA Task Force, you must first be a member of one of the working groups the task force supports:
+* AG Working Group &mdash; see [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/)
+* APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/)
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see how to [participate in the Working Group](/about/groups/agwg/participate/) and [file comments](https://www.w3.org/WAI/WCAG20/comments/).
+Once you are a member of either the AG or APA working groups, email the [W3C staff contact for the COGA Task Force](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#staff) to let them know you’d like to join the task force.
 
-### Meeting Minutes
+**Note:** As a participant in one of the AG or APA working groups’ task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-[Minutes from previous meetings](https://www.w3.org/WAI/GL/task-forces/coga/minutes) are available.
+## Task force participants
 
-### Mailing Lists
+* [Chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#participants)
 
-The Coga TF uses the public-cognitive-a11y-tf@w3.org mailing list ([mailing list archives](http://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/)) for email discussion; members of the public can post to this list to send input to the task force. The TF uses the public-cognitive-a11y-tf@w3.org mailing list [mailing list archives](http://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/) for administrative discussion that is specific to participants in the task force. Participants are automatically subscribed to these mailing lists when they become a participant of the Task Force.
+## Communications
 
-## Current Work
-
-Current Task Force work includes:
-
-- Develop proposed [Success Criteria for WCAG 2.1](https://github.com/w3c/wcag21/issues?q=is%3Aissue+is%3Aopen+label%3ACOGA);
-- Develop [Cognitive Accessibility User Research](https://w3c.github.io/coga/user-research/) to serve as a repository of related research into cognition and disabilities;
-- Develop [Issue Papers for the The Cognitive and Learning Disabilities Accessibility Task Force](https://w3c.github.io/coga/issue-papers/) as a use case repository to describe different cognitive disabilities and scenarios for how persons with atypical ability profiles use technology successfully or unsuccessfully;
-- Develop [Cognitive Accessibility Roadmap and Gap Analysis](https://w3c.github.io/coga/gap-analysis/);
-- Identify related work inside and outside of the W3C;
-- Review existing techniques and propose new features where needed;
-- Gather information on different related technologies and techniques including where techniques in support of cognitive and learning disabled users may conflict with what is needed for other users;
-- Make predictions of where technology is headed;
-- Identify stakeholders, from whom the task force can solicit ongoing feedback;
-- Document business cases and identify areas of resistance, risks and opportunities.
-
-[See the wiki for current planning and draft documents](https://www.w3.org/WAI/GL/task-forces/coga/wiki/).
+* [Calendar of meetings](https://www.w3.org/groups/tf/cognitive-a11y-tf/calendar/)
+* [Minutes from previous meetings](/about/groups/task-forces/coga/minutes/)
+* [Mailing list archive](http://lists.w3.org/Archives/Public/public-cognitive-a11y-tf/)
 
 ## Publications
 
-- [Cognitive Accessibility User Research](https://w3c.github.io/coga/user-research/);
-- [Issue Papers for the The Cognitive and Learning Disabilities Accessibility Task Force](https://w3c.github.io/coga/issue-papers/);
-- [Cognitive Accessibility Roadmap and Gap Analysis](https://w3c.github.io/coga/gap-analysis/);
+The COGA Task Force has developed the following resources for the AG and APA working groups:
 
-The [task force wiki](https://www.w3.org/WAI/GL/task-forces/coga/wiki/) contains more comprehensive information about deliverables.
+* [Cognitive Accessibility Supplemental Guidance](https://www.w3.org/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance)
+* [Cognitive Accessibility User Research &mdash; Working Draft](https://www.w3.org/TR/2015/WD-coga-user-research-20150115/) (and latest [Editor’s Draft](https://w3c.github.io/coga/user-research/))
+* [Making Content Usable for People with Cognitive and Learning Disabilities &mdash; Working Group Note](https://www.w3.org/TR/coga-usable/) (and latest [Editor’s Draft](https://w3c.github.io/coga/content-usable/))
+* [Cognitive Accessibility Roadmap and Gap Analysis &mdash; Working Draft](https://www.w3.org/TR/coga-gap-analysis/) (and latest [Editor’s Draft](https://w3c.github.io/coga/gap-analysis/))
+* [Cognitive Accessibility Issue Papers &mdash; Editor’s Draft](https://w3c.github.io/coga/issue-papers/)
 
+## Contact the task force
 
-### Work Statement
+If you have a question for the COGA Task Force, [email the task force](mailto:public-cognitive-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
-**[Cognitive and Learning Disabilities Accessibility Task Force Work Statement](/about/groups/task-forces/coga/work-statement/)** defines the initial objective, scope, approach, and participation of the Task Force.
-
-### Participation
-
-To join the Cognitive A11Y TF, individuals must be participants of either the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/) or the [Web Content Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). Participants are expected to actively contribute to the work of the Task Force, including:
-
-- Minimum 4 hours per week of Cognitive A11Y TF work (this time also counts towards the individual's participation requirement in the sponsoring WG through which they have joined);
-- Remain current on the Cognitive and Learning Disabilities Accessibility Task Force mailing list and respond in a timely manner to postings;
-- Participate in Cognitive and Learning Disabilities Accessibility Task Force telephone meetings, or send regrets to the Task Force mailing list.
-
-If you are interested in participating in the COGA TF, please send e-mail to: [Ruoxi (Roy) Ran](mailto:roy@w3.org) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force.
-
-[Participants in the Cognitive and Learning Disabilities Accessibility Task Force](https://www.w3.org/2000/09/dbwg/details?group=67703&public=1) lists current participants.
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#staff).
