@@ -10,7 +10,8 @@ first_published: "červenci 2005"
 description: Představuje mezinárodní standard Pokyny pro zpřístupnění obsahu webu (WCAG) včetně WCAG 2.0, WCAG 2.1 a WCAG 2.2. WCAG dokumenty vysvětlují, jak udělat obsah webu přístupnější pro lidi s postiženími.
 
 translation:
-  status: draft
+  draft: true
+  outdated: true
   last_updated: 2024-08-28  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
