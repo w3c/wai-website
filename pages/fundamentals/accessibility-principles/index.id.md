@@ -5,9 +5,13 @@
 title: Prinsip Aksesibilitas
 nav_title: "Prinsip Aksesibilitas"
 lang: id
-last_updated: 2023-12-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 description: Gambaran umum persyaratan dasar aksesibilitas untuk situs web, aplikasi web, browser, dan sarana lainnya.
 teaser_text: Halaman Prinsip Aksesibilitas memperkenalkan beberapa persyaratan aksesibilitas untuk situs web, aplikasi web, browser, dan alat lainnya. Halaman ini memberikan referensi ke standar internasional dari Inisiatif Aksesibilitas Web (WAI) W3C dan kisah-kisah para pengguna web.
+
+translation:
+  draft: true
+  last_updated: 2023-12-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Fri Rasyidi"   # Replace Jan Doe with translator name
