@@ -11,6 +11,7 @@ teaser_text: Halaman Prinsip Aksesibilitas memperkenalkan beberapa persyaratan a
 
 translation:
   draft: true
+  outdated: true
   last_updated: 2023-12-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
