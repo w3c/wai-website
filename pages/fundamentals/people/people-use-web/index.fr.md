@@ -11,7 +11,7 @@ description: Comment les personnes handicapées, y compris pour le cas des handi
 
 translation:
   last_updated: 2018-09-12
-  status: outdated
+  outdated: true
 
 translators:
 - name: "Stéphane Deschamps"

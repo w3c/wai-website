@@ -30,7 +30,7 @@ image: /content-images/accessibility-principles/social.png
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p lang="en"><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/" hreflang="en">Shadi Abou Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments" hreflang="en">Acknowledgments</a>.</p>
-  <p lang="en">Developed by the Education and Outreach Working Group (<a href="https//www.w3.org/WAI/EO/" hreflang="en">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf" hreflang="en">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/" hreflang="en">WAI-AGE Project</a>.</p>
+  <p lang="en">Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/" hreflang="en">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf" hreflang="en">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/" hreflang="en">WAI-AGE Project</a>.</p>
 ---
 
 {::nomarkdown}
@@ -123,7 +123,7 @@ Les alternatives textuelles peuvent être présentées sous des formes variées.
 **WCAG**
 
 -  [Guideline 1.1 - Text
-   Alternatives](https//www.w3.org/WAI/WCAG22/quickref/#text-equiv){: hreflang="en"}
+   Alternatives](https://www.w3.org/WAI/WCAG22/quickref/#text-equiv){: hreflang="en"}
 
 **UAAG**
 
@@ -195,7 +195,7 @@ Des retranscriptions texte bien écrites contenant la séquence correcte de tout
 **WCAG**
 
 -   [Guideline 1.2 - Time-based
-    Media](https//www.w3.org/WAI/WCAG22/quickref/#media-equiv)
+    Media](https://www.w3.org/WAI/WCAG22/quickref/#media-equiv)
 
 **UAAG**
 
@@ -260,7 +260,7 @@ Pour que les utilisateurs puissent changer la présentation des contenus, il est
 **WCAG**
 
 -   [Guideline 1.3 -
-    Adaptable](https//www.w3.org/WAI/WCAG22/quickref/#content-structure-separation)
+    Adaptable](https://www.w3.org/WAI/WCAG22/quickref/#content-structure-separation)
 
 **UAAG**
 
@@ -342,7 +342,7 @@ Un contenu perceptible est plus facile à lire et à voir. Par exemple&#8239;:
 **WCAG**
 
 -   [Guideline 1.4 -
-    Distinguishable](https//www.w3.org/WAI/WCAG22/quickref/#visual-audio-contrast)
+    Distinguishable](https://www.w3.org/WAI/WCAG22/quickref/#visual-audio-contrast)
 
 **UAAG**
 
@@ -423,7 +423,7 @@ L’accessibilité au clavier comprend&#8239;:
 **WCAG**
 
 -   [Guideline 2.1 - Keyboard
-    accessible](https//www.w3.org/WAI/WCAG22/quickref/#keyboard-operation)
+    accessible](https://www.w3.org/WAI/WCAG22/quickref/#keyboard-operation)
 
 **UAAG**
 
@@ -490,7 +490,7 @@ Là où il faut fournir assez de temps, cela implique de fournir des mécanismes
 **WCAG**
 
 -   [Guideline 2.2 - Enough
-    time](https//www.w3.org/WAI/WCAG22/quickref/#time-limits)
+    time](https://www.w3.org/WAI/WCAG22/quickref/#time-limits)
 
 **UAAG**
 
@@ -554,7 +554,7 @@ Comment éviter de provoquer des crises ou des réactions physiques&#8239;:
 **WCAG**
 
 -   [Guideline 2.3 -
-    Seizures](https//www.w3.org/WAI/WCAG22/quickref/#seizure)
+    Seizures](https://www.w3.org/WAI/WCAG22/quickref/#seizure)
 
 **UAAG**
 
@@ -606,7 +606,7 @@ Un contenu bien organisé permet aux utilisateurs de s’orienter et de naviguer
 **WCAG**
 
 -   [Guideline 2.4 -
-    Navigable](https//www.w3.org/WAI/WCAG22/quickref/#navigation-mechanisms)
+    Navigable](https://www.w3.org/WAI/WCAG22/quickref/#navigation-mechanisms)
 
 **UAAG**
 
@@ -732,7 +732,7 @@ Les auteurs de contenus doivent s’assurer que le contenu textuel est lisible e
 **WCAG**
 
 -   [Guideline 3.1 -
-    Readable](https//www.w3.org/WAI/WCAG22/quickref/#meaning)
+    Readable](https://www.w3.org/WAI/WCAG22/quickref/#meaning)
 
 **ATAG**
 
@@ -790,7 +790,7 @@ Un grand nombre de personnes s’appuie sur des interfaces prévisibles et est d
 **WCAG**
 
 -   [Guideline 3.2 -
-    Predictable](https//www.w3.org/WAI/WCAG22/quickref/#consistent-behavior)
+    Predictable](https://www.w3.org/WAI/WCAG22/quickref/#consistent-behavior)
 
 **UAAG**
 
@@ -857,7 +857,7 @@ Les formulaires et d’autres systèmes interactifs peuvent induire de la confus
 **WCAG**
 
 -   [Guideline 3.3 - Input
-    assistance](https//www.w3.org/WAI/WCAG22/quickref/#minimize-error)
+    assistance](https://www.w3.org/WAI/WCAG22/quickref/#minimize-error)
 
 **UAAG**
 
@@ -924,7 +924,7 @@ Un contenu robuste est compatible avec de multiples navigateurs, outils d’assi
 **WCAG**
 
 -   [Guideline 4.1 -
-    Compatible](https//www.w3.org/WAI/WCAG22/quickref/#ensure-compat)
+    Compatible](https://www.w3.org/WAI/WCAG22/quickref/#ensure-compat)
 
 **UAAG**
 

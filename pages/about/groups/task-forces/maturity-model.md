@@ -1,5 +1,5 @@
 ---
-title: Maturity Model Task Force of the APA WG
+title: Maturity Model Task Force
 permalink: /about/groups/task-forces/maturity-model/
 ref: /about/groups/task-forces/maturity-model/
 lang: en
@@ -11,9 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Maturity Model Task Force is a task force of the [Accessible Platform Architectures Working Group](/about/groups/apawg/).
-
-Some information on this page is also shown on, and may be more current in, the [Maturity Model Task Force page](https://www.w3.org/groups/tf/maturity/).
+Find out about the activities of the Maturity Model Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,67 +30,73 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Announcements
+## Objectives
 
-No announcements at the moment.
+The Maturity Model Task Force provides an Accessibility Maturity Model to guide organizations in developing the capability to:
 
-## Mission
+- buy, build or use accessible internal and external digital assets, products and services, and
+- track changes and trends in providing these assets, products and services over time.
 
-The mission of the Maturity Model Task Force (MMTF) is to craft an Accessibility Maturity Model (AMM) narrative and assessment tool in support of W3C standards and other related guidance, such as Web Content Accessibility Guidelines (WCAG) and Accessibility Rich Internet Applications (ARIA), in consultation with the APA Working Group. Specifically, the MMTF Accessibility Maturity Model will assist organizations in building capacity to develop, and maintain, accessible products or services.
+## Work statement
 
-For more information (including scope of work and expected deliverables) please reference the [Maturity Model Task Force Work Statement](/about/groups/task-forces/maturity-model/work-statement/).
+To learn about the focus, scope and deliverables of the task force, see the [Maturity Model Task Force Work Statement](/about/groups/task-forces/maturity-model/work-statement/).
 
-## Meetings and Communication
+## Current work
 
-The [communication](https://www.w3.org/2017/08/telecon-info_maturity-model) page provides details about:
+The Maturity Model Task Force supports the deliverables of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/).
 
-- Teleconferences of the Task Force (also see [meeting minutes](https://www.w3.org/WAI/APA/task-forces/maturity-model/minutes));
-- [Email lists](/about/groups/task-forces/maturity-model/#email);
-- IRC discussion on the [#maturity](irc://irc.w3.org/maturity) IRC channel, used largely for minute-taking;
-- [Maturity Model Task force source repository](https://github.com/w3c/maturity-model);
-- [Wiki](https://github.com/w3c/maturity-model/wiki);
-- [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/141517/);
-- [Maturity Model source repository issue tracker](https://github.com/w3c/maturity-model/issues).
+For details of the current work, see the [Maturity Model GitHub repository](https://github.com/w3c/maturity-model/).
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/apawg/contribute/).
+## Contribute to the work
 
-### Teleconferences
+The Maturity Model Task Force welcomes input from individuals and organizations around the world on the Accessibility Maturity Model work.
 
-- **[Maturity Model Task Force](https://www.w3.org/2017/08/telecon-info_maturity-model)**: Wednesdays at 11:00 until 12:00 Boston time
+### Contribute without joining the task force
 
-### Meeting Minutes
+You can contribute to the work without being a member of the task force:
 
-[Minutes from previous meetings](https://www.w3.org/WAI/APA/task-forces/maturity-model/minutes) are available.
+- **Draft Accessibility Maturity Model resources:** Review and provide feedback on drafts that are still being developed.
+- **Open Accessibility Maturity Model issues:** Comment on or propose solutions for open issues.
+- **Published Accessibility Maturity Model resources:** Let us know if there is a new issue with any of these.
 
-### Mailing Lists
+Either comment / raise a new issue in the [Maturity Model GitHub repository](https://github.com/w3c/maturity-model/issues) or [email the task force](mailto:public-maturity@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
-The Maturity Model Task Force uses the public-maturity@w3.org mailing list ([mailing list archives](https://lists.w3.org/Archives/Public/public-maturity/)) for email discussion. Participants are automatically added to the mailing list when they become a participant of the Task Force.
+### Become a participant in the task force
+
+Joining the Maturity Model Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
+
+Being a participant involves commitment to support the work of the task force in the following ways:
+
+* Engage actively in the work using the task force’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
+
+To become a participant in the Maturity Model Task Force, you must first be a member of the APA Working Group &mdash; see [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
+
+Once you are a member of the APA Working Group, email the [W3C staff contact for the Maturity Model Task Force](https://www.w3.org/groups/tf/maturity/participants/#staff) to let them know you’d like to join the task force.
+
+**Note:** As a participant in one of the APA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
+
+## Task force participants
+
+* [Chairs](https://www.w3.org/groups/tf/maturity/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/maturity/participants/#participants)
+
+## Communications
+
+* [Calendar of meetings](https://www.w3.org/groups/tf/maturity/calendar/)
+* [Minutes from previous meetings](/about/groups/task-forces/maturity-model/minutes/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-maturity/)
 
 ## Publications
 
-The Maturity Model Task Force published four documents as follow:
+The Maturity Model Task Force develops and maintains the following resources for the APA Working Group:
 
-- [W3C Accessibility Maturity Model](https://www.w3.org/TR/maturity-model/) is a guide for organizations to evaluate and improve their business processes to produce digital products that are accessible to people with disabilities.
+* [Accessibility Maturity Model &mdash; 2024 Group Draft Note](https://www.w3.org/TR/maturity-model/)
+* [Accessibility Maturity Model &mdash; 2025 Editor’s Draft](https://w3c.github.io/maturity-model/)
 
-See also the [Maturity Model Task Force GitHub repository](https://github.com/w3c/maturity-model).
+## Contact the task force
 
-## How to Comment, Contribute, and Participate
+If you have a question for the Maturity Model Task Force, [email the task force](mailto:public-maturity@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
-To join the Maturity Model Task Force, individuals must be participants of the [APA WG](/about/groups/apawg/). Participants are expected to [actively contribute](/about/groups/task-forces/maturity-model/work-statement/#participation) to the work of the Task Force. If you are interested in participating in the Maturity Model Task Force, please send e-mail to: [Janina Sajka, Sheri Byrne-Haber, David Fazio](mailto:janina@rednote.net,sbyrnehaber@vmware.com,dfazio@helixopp.com?subject=Maturity Model%20Task%20Force%20Enquiry) and include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force. Then follow the [APA Working Group participation](/about/groups/apawg/participate/) procedures to join the Working Group, and once you have joined ask [Ruoxi Ran (Roy)](mailto:ran@w3.org) to add you to the task force.
-
-To contribute without joining the task force, see the [APA Working Group contribute page](/about/groups/apawg/contribute/) for general instructions. To contribute to documents under development, see [how to contribute to the source repository directly](https://github.com/w3c/maturity-model/).
-
-[Current participants in the Maturity Model Task Force](https://www.w3.org/groups/tf/maturity/participants).
-
-## Administrative Information
-
-The Maturity Model Task Force is a Task Force of the [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/).
-
-### Facilitator and Contacts
-
-- **Facilitators:** [Janina Sajka](mailto:janina@rednote.net), [Sheri Byrne-Haber](mailto:sbyrnehaber@vmware.com), [David Fazio](mailto:dfazio@helixopp.com)
-- **Staff Contact:** [Ruoxi Ran](https://www.w3.org/People/roy/)
-
-### Work Statement
-
-The [Maturity Model Task Force Work Statement](/about/groups/task-forces/maturity-model/work-statement/) defines the initial objective, scope, approach, and participation of the Task Force.
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/maturity/participants/#staff).

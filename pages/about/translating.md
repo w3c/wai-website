@@ -48,16 +48,6 @@ For a list of existing translations, see [All WAI Translations](/translations/).
 {% include_cached toc.html type="end" %}
 {:/}
 
-{::nomarkdown}
-{% include box.html type="start" class="highlighted" %}
-{:/}
-W3C staff temporarily has limited availability to support WAI translations. 
-
-We expect to be back to full support by mid-February 2025. Thank you very much for your patience, if we are not able to reply to you until then. We greatly appreciate contributions and look forward to supporting you as soon as possible.
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
 
 ## Ways to contribute
 

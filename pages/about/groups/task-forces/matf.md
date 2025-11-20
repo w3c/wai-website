@@ -1,5 +1,5 @@
 ---
-title: Mobile Accessibility Task Force (MATF) of the AG WG
+title: Mobile Accessibility Task Force
 permalink: /about/groups/task-forces/matf/
 ref: /about/groups/task-forces/matf/
 lang: en
@@ -11,9 +11,7 @@ github:
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Mobile Accessibility Task Force (MATF) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/).
-
-Some information on this page is also shown on, and may be more current in, the [Mobile Accessibility Task Force page](https://www.w3.org/groups/tf/mobile-a11y-tf/).
+Find out about the activities of the Mobile Accessibility Task Force and how you can contribute to its objectives.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -32,65 +30,77 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Announcements and Meetings
+## Objectives
 
-_4 January 2024_ **New facilitator appointed**: Jan Jaap de Groot has been appointed as the new MATF facilitator. The MATF direction is changing to creating guidance for Android and iOS apps. The MATF is currently regrouping and welcoming new participants. If you are interested, please reach out to Jan Jaap at: [janjaap@abra.nl](mailto:janjaap@abra.nl)
+The Mobile Accessibility Task Force:
 
-## Meetings and Communication
+- produces resources for how to apply the Web Content Accessibility Guidelines (WCAG) to mobile, and 
+- makes sure mobile apps are considered in new accessibility guidelines.
 
-The Mobile Accessibility Task Force conducts its work using a variety of synchronous and asynchronous tools. Most work is done via email and issues as shown below, supplemented by occasional teleconferences.
+Mobile includes, but is not limited to, native mobile apps, mobile web apps, and hybrid apps that use web components inside native mobile apps.
 
-- [Email lists](#mailing-lists);
-- IRC discussion (server: **irc.w3.org**, port: **6665,** channel: **#matf**) is used by some members during the teleconferences. Please type "present+" _your name_ in the IRC channel when joining a meeting.;
-- [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/66524/);
+## Work statement
 
-These tools are used by participants of the Task Force. For ways non-participants can contribute, see how to [participate in the Working Group](/about/groups/agwg/participate/).
+To learn about the focus, scope and deliverables of the task force, see the [Mobile Accessibility Task Force Work Statement](/about/groups/task-forces/matf/work-statement/).
 
-### Online Meetings
+## Current work
 
-- [Meetings Calendar of the Mobile Accessibility Task Force](https://www.w3.org/groups/tf/mobile-a11y-tf/calendar/)
+The Mobile Accessibility Task Force supports the deliverables of the [Accessibility Guidelines (AG) Working Group](/about/groups/agwg/).
 
-### Meeting Minutes
+For details of the current work, see the [Mobile Accessibility Task Force GitHub repository](https://github.com/w3c/matf/issues).
 
-- [Recent Meeting Minutes](https://www.w3.org/groups/tf/mobile-a11y-tf/calendar/?past=1&tf=0)
-- [Older Meeting Minutes](https://www.w3.org/WAI/GL/task-forces/matf/minutes)
+For more information, see [Mobile Accessibility at W3C](/standards-guidelines/mobile/).
 
-### Mailing Lists
+## Contribute to the work
 
-- The Mobile Accessibility Task Force uses the public-mobile-a11y-tf@w3.org mailing list for email discussion; members of the public can post to this list to send input to the task force. Mobile Accessibility Task Force [mailing list archives](http://lists.w3.org/Archives/Public/public-mobile-a11y-tf/) are publicly available for the Mobile A11Y TF main mailing list.
-- Participants are automatically added to the mailing list when the become a participant of the Task Force.
+The Mobile Accessibility Task Force welcomes input from individuals and organizations around the world on the mobile accessibility work.
 
-## Current Work
+### Contribute without joining the task force
 
-The [editors' draft of Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile](http://w3c.github.io/Mobile-A11y-TF-Note/) is on Github. [Issues and pull requests](https://github.com/w3c/Mobile-A11y-TF-Note) are welcome.
+You can contribute to the work without being a member of the task force:
 
-The Task Force stores their current work and discussions in their [wiki](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Main_Page). You can also follow email discussion on the [email list archive](http://lists.w3.org/Archives/Public/public-mobile-a11y-tf/).
+- **Draft mobile accessibility resources:** Review and provide feedback on drafts that are still being developed.
+- **Open mobile accessibility issues:** Comment on or propose solutions for open issues.
+- **Published mobile accessibility resources:** Let us know if there is a new issue with any of these.
 
-- Creating mobile techniques for WCAG using HTML5, ARIA, CSS and JavaScript
-    - Editor's Draft: [Mobile Accessibility: How WCAG 2.0 and UAAG 2.0 Apply to Mobile Devices](http://w3c.github.io/Mobile-A11y-TF-Note/)
-    - [Draft WCAG Techniques](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Draft_WCAG_Techniques "Draft WCAG Techniques")
-    - [Draft Understanding WCAG 2.0](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Draft_Understanding_WCAG_2.0 "Draft Understanding WCAG 2.0")
-- Developing design guidance or mobile web accessibility best practices
-    - [Gap Analysis Discussion: BBC Mobile Guidelines](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Discussion:_BBC_Mobile_Guidelines "Discussion: BBC Mobile Guidelines")
-    - [Gap Analysis](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Discussion:_BBC_Mobile_Guidelines "Discussion: BBC Mobile Guidelines") [Discussion: Funka Nu Mobile Accessibility Guidelines](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Discussion:_Funka_Nu_Mobile_Accessibility_Guidelines "Discussion: Funka Nu Mobile Accessibility Guidelines")
-    - [Gap Analysis Discussion: IBM Accessibility Guidelines](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Discussion:_IBM "Discussion: IBM")
-    - [Accessibility Concerns in Responsive Design for Mobile](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Responsive_Design)
-- [Reviewing existing resources](https://www.w3.org/WAI/GL/mobile-a11y-tf/wiki/Mobile_Resources), including those outside of W3C
+Either comment / raise a new issue in the [Mobile Accessibility GitHub repository](https://github.com/w3c/matf/issues) or [email the task force](mailto:public-mobile-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+
+### Become a participant in the task force
+
+Joining the Mobile Accessibility Task Force enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
+
+Being a participant involves commitment to support the work of the task force in the following ways:
+
+* Engage actively in the work using the task force’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
+
+To become a participant in the Mobile Accessibility Task Force, you must first be a member of the AG Working Group. See [Instructions for joining the Accessibility Guidelines Working Group](https://www.w3.org/groups/wg/ag/instructions/).
+
+Once you are a member of the AG Working Group, email the [W3C Staff Contact for the Mobile Accessibility Task Force](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#staff) to let them know you’d like to join the task force.
+
+**Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
+
+## Task force participants
+
+* [Chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#participants)
+
+## Communications
+
+* [Calendar of meetings](https://www.w3.org/groups/tf/mobile-a11y-tf/calendar/)
+* [Minutes from previous meetings](/about/groups/task-forces/matf/minutes/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-mobile-a11y-tf/)
 
 ## Publications
 
-- Editor's Draft: [Mobile Accessibility: How WCAG 2.0 and UAAG 2.0 Apply to Mobile Devices](http://w3c.github.io/Mobile-A11y-TF-Note/)
+The Mobile Accessibility Task Force develops and maintains the following resources for the AG Working Group:
 
-### Work Statement
+* [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile &mdash; Working Draft](https://www.w3.org/TR/mobile-accessibility-mapping/) (and latest [Editor’s Draft](https://w3c.github.io/Mobile-A11y-TF-Note/))
+* [Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) &mdash; Editor's Draft](https://w3c.github.io/matf/)
 
-The MATF is currently regrouping and creating a new Work Statement for its new direction.
+## Contact the task force
 
-### Participation
+If you have a question for the Mobile Accessibility Task Force, [email the task force](mailto:public-mobile-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
-To join the Mobile Accessibility Task Force, individuals must be participants of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/). Participants are expected to actively contribute to the work of the Task Force, including:
-
-- Minimum 2 hours per week of MATF work (this time also counts towards the individual's participation requirement in the sponsoring WG through which they have joined);
-- Remain current on the MATF mailing list and respond in a timely manner to postings;
-- Participate in MATF meetings at least once per month.
-
-If you are interested in participating in the Mobile Accessibility Task Force, please send e-mail to: [Jan Jaap de Groot](mailto:janjaap@abra.nl), [Kevin White](mailto:kevin@w3.org) and [Roy Ran](mailto:ran@w3.org) include a little bit about what you’re interested in and how you think that you may be able to contribute to the Task Force.
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#staff).

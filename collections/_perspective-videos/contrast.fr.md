@@ -8,7 +8,7 @@ lang: fr
 last_updated: 2024-07-15    # Keep the date of the English version
 
 translation:
-  status: outdated
+  outdated: true
   last_updated: 2023-10-12    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
@@ -92,7 +92,7 @@ Choisissez des couleurs de texte et d’arrière-plan qui fournissent suffisamme
 -   **Besoins des utilisateurs :**
     -   [Exigences d’accessibilité pour les personnes malvoyantes](https://www.w3.org/TR/low-vision-needs/) 
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :** 
-    -   [Critères de succès liés au "contraste"](https://www.w3.org/WAI/WCAG21/quickref/?tags=contrast) 
+    -   [Critères de succès liés au "contraste"](https://www.w3.org/WAI/WCAG22/quickref/?tags=contrast) 
 -   **Applicabilité aux appareils mobiles :**
     -   [Informations transmises seulement par la couleur](/standards-guidelines/shared-experiences/#color) 
 

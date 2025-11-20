@@ -94,7 +94,7 @@ Learn more {#resources}
 -   **User Story:**
     -   [Alex, reporter with repetitive stress injury](/people-use-web/user-stories/archived/#reporter)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "keyboard" and "controls"](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard%2Ccontrols)
+    -   [Success Criteria relating to "keyboard" and "controls"](https://www.w3.org/WAI/WCAG22/quickref/?tags=keyboard%2Ccontrols)
 -   **Mobile Applicability:**
     -   [Mouse required for interaction and navigation](/standards-guidelines/shared-experiences/#mouse)
     -   [Non descriptive link label](/standards-guidelines/shared-experiences/#link-label)

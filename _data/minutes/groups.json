@@ -1,0 +1,17 @@
+{
+  "gl": ["ag", "wai-wcag"],
+  "coga": ["coga"],
+  "conformance-testing": ["wcag-act"],
+  "low-vision-a11y-tf": ["lvtf", "low-vision"],
+  "matf": ["matf", "mobile-a11y"],
+  "wcag2ict": ["wcag2ict"],
+  "apa": ["apa", "pf", "pf-ftf"],
+  "adapt": ["adapt", "personalization"],
+  "fast": ["fast"],
+  "maturity-model": ["maturity"],
+  "research-questions": ["rqtf"],
+  "spoken-presentation": ["pronunciation"],
+  "aria": ["aria", "aria-dive"],
+  "pdf-aam": ["pdf-aam"],
+  "practices": ["aria-apg"]
+}
