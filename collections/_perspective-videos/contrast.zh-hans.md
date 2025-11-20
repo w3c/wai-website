@@ -8,6 +8,10 @@ lang: zh-hans    # Change "en" to the translated-language shortcode
 last_updated: 2024-07-15    # Keep the date of the English version
 order: 2
 
+translation:
+  status: draft
+  last_updated: 2024-12-15
+
 translators:
 - name: "金凯"
   link: "https://github.com/JinMokai"
@@ -149,3 +153,4 @@ footer: >
     </tr>
   </tbody>
 </table>
+
