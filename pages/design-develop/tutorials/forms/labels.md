@@ -310,4 +310,4 @@ In general, placing labels above the form fields helps reduce horizontal scrolli
 When HTML5 form fields are used, a virtual keyboard appears making it easier to input data.
 For example, a `number` field shows a numeric keyboard, a `date` field a native date picker.
 
-Sometime designers propose not including visual field labels. However, most users prefer or even need visible labels to understand the form.
+Sometimes designers propose not including visual field labels. However, most users prefer or even need visible labels to understand the form.

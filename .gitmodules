@@ -13,6 +13,7 @@
 [submodule "_external/resources/wai-arrm"]
 	path = _external/resources/wai-arrm
 	url = https://github.com/w3c/wai-arrm.git
+	branch = main
 [submodule "_external/resources/wai-authoring-tools-list"]
 	path = _external/resources/wai-authoring-tools-list
 	url = https://github.com/w3c/wai-authoring-tools-list.git

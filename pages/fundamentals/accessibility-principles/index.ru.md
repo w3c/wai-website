@@ -11,7 +11,6 @@ teaser_text: The Accessibility Principles page introduces some of the web access
 
 translation:
   last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators: 
 - name: "Daniel Novichkov"
@@ -31,7 +30,7 @@ changelog: /fundamentals/accessibility-principles/changelog/   # Do not change t
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p><strong>Редакторы:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Благодарности</a>.</p>
-  <p>Разработано Education and Outreach Working Group (<a href="https//www.w3.org/WAI/EO/">EOWG</a>). Ранее разработано <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, при поддержке <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
+  <p>Разработано Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Ранее разработано <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, при поддержке <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
 ---
 
 {::nomarkdown}

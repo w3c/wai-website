@@ -9,6 +9,7 @@ last_updated: 2023-12-07   # Keep the date of the English version
 
 translation:
   last_updated: 2024-03-11   # Keep the date of the English version
+  status: outdated
 
 translators:
   - name: "Stefan Wajda"

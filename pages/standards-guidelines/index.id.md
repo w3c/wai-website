@@ -24,10 +24,8 @@ permalink: /standards-guidelines/id   # Add the language shortcode to the end; f
 feedbackmail: wai@w3.org
 
 # In the footer below:
-
-# Translate the other words below, including "Date:" and "Editor:"
+# Translate the words below, including "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
-# Do not change the dates in the footer below.
 footer: >
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Dikembangkan dengan masukan dari Kelompok Kerja Edukasi dan Pendampingan (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
