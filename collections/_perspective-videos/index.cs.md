@@ -6,10 +6,11 @@ title: "Videa o perspektivách webové přístupnosti: Prozkoumejte dopady a vý
 title_html: "Videa o perspektivách webové přístupnosti:<br>Prozkoumejte dopady a výhody pro všechny uživatele"
 nav_title: "Přehled videí o perspektivách"
 lang: cs
-last_updated: 2024-09-17    # Keep the date of the English version
+last_updated: 2019-01-22    # Keep the date of the English version
 order: 0
 
 translation:
+  draft: true
   last_updated: 2024-01-06    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
