@@ -5,7 +5,7 @@
 title: "WCAG 3 Introduction"
 nav_title: "WCAG 3 Draft"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2025-09-04 # Keep the date of the English version
+last_updated: 2025-11-20 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -159,7 +159,7 @@ WCAG 3 will not supersede WCAG 2 and WCAG 2 will not be deprecated for at least 
 
 The Accessibility Guidelines Working Group (AG WG) previously created an initial set of guidelines and explored conformance models. In 2025, AG WG focused on progressing guidelines, requirements, assertions, and supporting material to Developing status. During the rest of 2025, the group will focus on completing the proposed guidelines and proposed conformance model for public review.
 
-AG WG plans to develop a projected [WCAG 3 timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline) by December 2025.
+AG WG plans to develop a projected [WCAG 3 timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline) by April 2026.
 
 We will update this section with more specific timeline information as it is available.
 
