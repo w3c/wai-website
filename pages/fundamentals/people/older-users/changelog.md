@@ -15,4 +15,4 @@ ref: /older-users/changelog/
 
 ## 20 November 2025
 
-In the [‘Overlapping Needs: People who are Elderly and People with Disabilities’ section](/older-users/#needs): updated the link to the user story showing some accessibility issues that an older person can face on the web.
+In the [‘Overlapping Needs: People who are Elderly and People with Disabilities’ section](/older-users/#needs): Updated the link in: "For short story (_persona_) showing some accessibility issues that an older person can face on the web, see [Elias, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/story-nine/) in Stories of Web Users."
