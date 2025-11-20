@@ -11,6 +11,7 @@ teaser_text: Η σελίδα Αρχές προσβασιμότητας εισά�
 
 translation:
   draft: true
+  outdated: true
   last_updated: 2024-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
