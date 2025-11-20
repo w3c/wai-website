@@ -6,8 +6,12 @@ title: "Vídeos sobre perspectivas de accesibilidad web: explore el impacto y lo
 title_html: "Vídeos sobre perspectivas de accesibilidad web:<br>explore el impacto y los beneficios para todos"
 nav_title: "Resumen de los vídeos de perspectiva"
 lang: es    # Change "en" to the translated-language shortcode
-last_updated: 2023-11-25    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-22    # Keep the date of the English version
 order: 0
+
+translation:
+  draft: true
+  last_updated: 2023-11-25    # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Vicent Sanchis"   
