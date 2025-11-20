@@ -13,7 +13,6 @@ permalink: /older-users/changelog/
 ref: /older-users/changelog/
 ---
 
-## XX November 2025
+## 20 November 2025
 
-@@
-
+In the [‘Overlapping Needs: People who are Elderly and People with Disabilities’ section](/older-users/#needs): updated the link to the user story showing some accessibility issues that an older person can face on the web.
