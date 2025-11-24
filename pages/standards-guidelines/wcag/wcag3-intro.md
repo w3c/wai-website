@@ -145,7 +145,7 @@ Developing and vetting the conformance model is a large portion of the work AG n
 
 Information on the draft conformance model is in:
 * Explainer section [Conformance approach](https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models)
-* WCAG 3 Working Draft section [Conformance](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/#conformance)
+* WCAG 3 Working Draft section [Conformance](https://www.w3.org/TR/wcag-3.0/#conformance)
 
 ## Development
 
