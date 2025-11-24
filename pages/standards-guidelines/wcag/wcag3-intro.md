@@ -5,7 +5,7 @@
 title: "WCAG 3 Introduction"
 nav_title: "WCAG 3 Draft"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2025-11-20 # Keep the date of the English version
+last_updated: 2025-11-24 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -131,7 +131,7 @@ The name of WCAG 3 is different from WCAG 2:
 
 ### Structure
 
-For a description of the structure of the December 2024 WCAG 3 Working Draft, see the Explainer section [WCAG 3.0 Structure](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#structure).
+For a description of the structure of the WCAG 3 Working Draft, see the Explainer section [WCAG 3.0 Structure](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#structure).
 
 ### Conformance approach {#model}
 
@@ -143,7 +143,7 @@ The conformance model in WCAG 3 will be very different from WCAG 2. It is intend
 
 Developing and vetting the conformance model is a large portion of the work AG needs to complete over the next few years.
 
-The December 2024 publications have updated information in:
+Information on the draft conformance model is in:
 * Explainer section [Conformance approach](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#conformance-models)
 * WCAG 3 Working Draft section [Conformance](https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/#conformance)
 
