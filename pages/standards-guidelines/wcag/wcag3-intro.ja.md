@@ -8,6 +8,7 @@ lang: ja  # Change "en" to the translated-language shortcode
 last_updated: 2024-12-12 # Keep the date of the English version
 
 translation:
+  outdated: true
   last_updated: 2024-12-19 # Keep the date of the English version
 
 translators:
