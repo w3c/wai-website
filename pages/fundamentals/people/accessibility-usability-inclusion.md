@@ -15,6 +15,8 @@ footer: >
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with support of the <a href="/WAI/WAI-AGE/"><abbr>WAI-AGE</abbr> Project</a>.</p>
 ---
 
+{% include_cached blockquote.html class="pull alt-2" content="<p>Accessibility: It's about people</p>" %}
+
 ## Introduction
 {:.no-display}
 
