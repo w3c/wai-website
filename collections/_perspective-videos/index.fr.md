@@ -43,6 +43,8 @@ footer: >
 # Read Translations Notes for this resource at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/
 ---
 
+{% include_cached blockquote.html class="pull alt-2" content="<p>L’accessibilité : au centre, les personnes</p>" %}
+
 L’accessibilité Web est essentielle pour les personnes en situation de handicap, et utile à tous. Découvrez les effets de l’accessibilité et ses bénéfices pour tous dans diverses situations.
 
 ## Vidéos d’illustration

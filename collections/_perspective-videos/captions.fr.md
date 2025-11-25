@@ -42,6 +42,8 @@ footer: >
   <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion</a> avec le soutien du projet <a href="https://www.w3.org/WAI/DEV/">WAI-DEV</a>, co-financé par la Commission européenne (CE). Mis à jour dans le cadre du projet <a href="https://www.w3.org/WAI/DEV/" lang="en">WAI Expanding Access Project</a>, soutenu par la Fondation Ford.</p>
 ---
 
+{% include_cached blockquote.html class="pull alt-2" content="<p>L'accessibilité : au centre, les personnes</p>" %}
+
 L’accessibilité Web est essentielle pour les personnes en situation de handicap et utile à tous. Découvrez les effets de l’accessibilité et les bénéfices pour tous dans diverses situations.
 
 ## Vidéo sur les sous-titres de vidéo
