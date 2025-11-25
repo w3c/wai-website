@@ -42,6 +42,8 @@ footer: >
 # Read Translations Notes for this resource at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/
 ---
 
+{% include_cached blockquote.html class="pull alt-2" content="<p>Accessibility: It's about people</p>" %}
+
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
 
 ## Perspectives Videos

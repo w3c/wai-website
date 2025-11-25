@@ -40,6 +40,8 @@ footer: >
    <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated as part of the <a href="https://www.w3.org/WAI/DEV/">WAI Expanding Access Project</a>, supported by the Ford Foundation.</p>
 ---
 
+{% include_cached blockquote.html class="pull alt-2" content="<p>Accessibility: It's about people</p>" %}
+
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
 
 ## Video on Video Captions

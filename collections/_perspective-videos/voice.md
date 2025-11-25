@@ -40,6 +40,8 @@ footer: >
   <p><strong>Editor and project lead:</strong> <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>. Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a> with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Updated with support from the Ford Foundation. ACKNOWLEDGEMENTS.</p>
 ---
 
+{% include_cached blockquote.html class="pull alt-2" content="<p>Accessibility: It's about people</p>" %}
+
 Web accessibility is essential for people with disabilities and useful for all. Learn about the impact of accessibility and the benefits for everyone in a variety of situations.
 
 Update: The video uses "voice recognition". This page is updated to use "speech recognition". "Speech recognition" is about recognizing words for speech-to-text (STT) transcription, virtual assistants, and other speech user interfaces. "Voice recognition" or "speaker recognition" is technology that identifies who the speaker is, not the words they're saying. We hope to update the video to use "speech recognition" in 2025. 
