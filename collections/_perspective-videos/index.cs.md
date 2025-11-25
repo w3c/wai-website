@@ -49,16 +49,16 @@ Webová přístupnost je zásadní pro lidi s postižením a užitečná pro vš
 
 ## Videa s perspektivami
 
--   [![](/content-images/perspective-videos/thumbnails/keyboard.jpg)<br>Kompatibilita s klávesnicí]({{ "/perspective-videos/keyboard/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/contrast.jpg)<br>Barvy s dobrým kontrastem]({{ "/perspective-videos/contrast/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/layout.jpg)<br>Jasné rozvržení a design]({{ "/perspective-videos/layout/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/speech.jpg)<br>Převod textu na řeč]({{ "/perspective-videos/speech/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/controls.jpg)<br>Velké odkazy, tlačítka a ovládací prvky]({{ "/perspective-videos/controls/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/captions.jpg)<br>Video titulky]({{ "/perspective-videos/captions/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/customizable.jpg)<br>Přizpůsobitelný text]({{ "/perspective-videos/customizable/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/voice.jpg)<br>Rozpoznávání řeči]({{ "/perspective-videos/voice/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/understandable.jpg)<br>Srozumitelný obsah]({{ "/perspective-videos/understandable/" | relative_url }})
--   [![](/content-images/perspective-videos/thumbnails/notifications.jpg)<br>Upozornění a zpětná vazba]({{ "/perspective-videos/notifications/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/keyboard.jpg" | relative_url }})<br>Kompatibilita s klávesnicí]({{ "/perspective-videos/keyboard/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/contrast.jpg" | relative_url }})<br>Barvy s dobrým kontrastem]({{ "/perspective-videos/contrast/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/layout.jpg" | relative_url }})<br>Jasné rozvržení a design]({{ "/perspective-videos/layout/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/speech.jpg" | relative_url }})<br>Převod textu na řeč]({{ "/perspective-videos/speech/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/controls.jpg" | relative_url }})<br>Velké odkazy, tlačítka a ovládací prvky]({{ "/perspective-videos/controls/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/captions.jpg" | relative_url }})<br>Video titulky]({{ "/perspective-videos/captions/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/customizable.jpg" | relative_url }})<br>Přizpůsobitelný text]({{ "/perspective-videos/customizable/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/voice.jpg" | relative_url }})<br>Rozpoznávání řeči]({{ "/perspective-videos/voice/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/understandable.jpg" | relative_url }})<br>Srozumitelný obsah]({{ "/perspective-videos/understandable/" | relative_url }})
+-   [![]({{ "/content-images/perspective-videos/thumbnails/notifications.jpg" | relative_url }})<br>Upozornění a zpětná vazba]({{ "/perspective-videos/notifications/" | relative_url }})
 {:.two.columns.linklist}
 
 **Kompilace všech 10 videí (7:36 minut): [kompilace na YouTube {% include icon.html name="external-link" label="Externí odkaz" %}](https://www.youtube.com/watch?v=3f31oufqFSM)**, [kompilace na serveru W3C (formát souboru: MP4, velikost souboru: 73MB) {% include icon.html name="external-link" label="Externí odkaz" %}](https://media.w3.org/wai/perspective-videos/compilation.mp4), [soubor s titulky (SRT) {% include icon.html name="external-link" label="Externí odkaz" %}](https://media.w3.org/wai/perspective-videos/compilation.srt)
