@@ -89,6 +89,8 @@ For more information on these status indicators, see the Explainer section [Curr
 
 ### September 2025 update
 
+<img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
+
 This update includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/).
 
 For review questions and how to comment, please see the section [About this draft@@](@@link).
@@ -96,8 +98,6 @@ For review questions and how to comment, please see the section [About this draf
 ### Research needed
 
 Some of the guidelines and requirements are marked with "Needs additional research". We are particularly interested in assistance identifying or conducting research to support or refute them.
-
-<img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
 
 ## WCAG 3 Draft approach
 
@@ -108,7 +108,10 @@ Some of the guidelines and requirements are marked with "Needs additional resear
 **Goals** for WCAG 3 include:
 * be easier to understand
 * cover more user needs, including more needs of people with cognitive disabilities
-* be flexible to address different types of web content, apps, tools, and organizations
+* be flexible to apply to:
+  * different types of content, apps, and tools
+  * different organizational situations
+  * future technology changes
 
 WCAG 3 is **similar** to previous versions in some ways. It has similar:
 * goal of providing guidance on making web content and apps accessible to people with disabilities
