@@ -26,4 +26,4 @@ Short pages:
 
 Comprehensive pages:
 * **[All WAI Resources](/resources/)** describes the technical and educational resources from WAI
-* [All WAI Translations](/translations/) lists translations in more than 35 languages, including العربية , čeština , Deutsch , Ελληνικά , español , français , Bahasa Indonesia , 日本語 , 한국어 , Nederlands , Português do Brasil , русский , 简体中文 plus additional subtitles in فارسی , ગુજરાતી , हिंदी , Magyar , Italiano , कोंकणी , മലയാളം , मराठी , తెలుగు
+* [All WAI Transtrainers/technicallations in more than 35 languages, including العربية , čeština , Deutsch , Ελληνικά , español , français , Bahasa Indonesia , 日本語 , 한국어 , Nederlands , Português do Brasil , русский , 简体中文 plus additional subtitles in فارسی , ગુજરાતી , हिंदी , Magyar , Italiano , कोंकणी , മലയാളം , मराठी , తెలుగు
