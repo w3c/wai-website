@@ -57,7 +57,10 @@ You can contribute to WAI translations in many ways:
 : This is the easiest way to start contributing, especially if you are not technical.
 
 [Translating a WAI resource](/about/translating/resources/)
-: You are welcome to provide a translation for educational resources on WAI website (web pages with a URL that begins with `www.w3.org/WAI`). It is best if you are comfortable editing a file with code.
+: You can translate educational resources on the WAI website (web pages with a URL that begins with `www.w3.org/WAI`). It is best if you are comfortable editing a file with code.
+
+[Providing a dubbed video in another language](/about/translating/resources/dubbed-videos/)
+: You can contribute by creating dubbed versions of WAI videos.
 
 [Reviewing WAI resources translations](/about/translating/reviewing/)
 : You can help spot issues in translations before publication, even if you are not technical or do not know the translated language.
