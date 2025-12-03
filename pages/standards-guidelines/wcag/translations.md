@@ -122,6 +122,7 @@ Two types of translations are listed on this page:
               <span class="translation-level">Planned Authorized Translation</span>
               {% if trans.intent_email %}<p><a href="{{ trans.intent_email }}">Notification of intent ({{ trans.intent_date | date: "%-d %B %Y"}})</a></p>{% endif %}
           {% endcase %}
+            {% if trans.comment %}<p>{{ trans.comment }}</p>{% endif %}
           </div>
         {%- endfor -%}
       </td>
