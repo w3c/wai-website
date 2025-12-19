@@ -76,7 +76,7 @@ While WCAG2ICT provides guidance on applying WCAG in non-web contexts, applicati
 
 ### WCAG2ICT versions
 * [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) — first published on 15 November 2024, covers WCAG 2.0, 2.1, and 2.2. This document is actively maintained.
-* Older version: [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT) – W3C Group Note](https://www.w3.org/TR/wcag2ict-20/) covers WCAG 2.0
+* Older version: [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-20/) covers WCAG 2.0
 * The URI [https://www.w3.org/TR/wcag2ict/](https://www.w3.org/TR/wcag2ict/) — points to the latest completed version
 
 ## Who WCAG2ICT is for {#for}
