@@ -10,7 +10,7 @@ last_updated: 2019-01-09  # Keep the date of the English version
 
 translation:
   last_updated: 2024-03-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
+  outdated: true
 
 resource:
   ref: /tips/  # Do not change this

@@ -10,6 +10,7 @@ first_published: "Julio del 2005"
 description: Introduce el estándar internacional de las Pautas de Accesibilidad para el Contenido Web (WCAG), lo cual incluye WCAG 2.0, WCAG 2.1 y WCAG 2.2. Los documentos de las WCAG explican cómo hacer contenido web más accesible para las personas con discapacidad.
 
 translation:
+  outdated: true
   last_updated: 2025-06-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
@@ -22,7 +23,7 @@ github:
 permalink: /standards-guidelines/wcag/es  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/  # Do not change this
 
-image: /content-images/wcag/wcag-intro-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:

@@ -8,6 +8,7 @@ lang: fr
 last_updated: 2025-05-06  # Keep the date of the English version
 
 translation:
+  outdated: true
   last_updated: 2025-06-03 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 description: Présente le standard international des Règles pour l’accessibilité des contenus web (WCAG), notamment WCAG 2.0, WCAG 2.1 et WCAG 2.2. Les documents des WCAG expliquent comment rendre les contenus Web plus accessibles aux personnes en situation de handicap.
@@ -22,7 +23,7 @@ github:
 permalink: /standards-guidelines/wcag/fr  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/  # Do not change this
 
-image: /content-images/wcag/wcag-intro-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:

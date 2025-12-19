@@ -32,7 +32,10 @@ Find out about the activities of the ARIA Authoring Practices Task Force (known 
 
 ## Objectives
 
-The objective of the APG Task Force is to develop the WAI-ARIA Authoring Practices Guide, which describes considerations that might not be evident to authors from the WAI-ARIA specification alone, and recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
+The APG Task Force develops the WAI-ARIA Authoring Practices Guide, which:
+
+- describes considerations that might not be evident to authors from the WAI-ARIA specification alone, and,
+-recommends approaches to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties.
 
 ## Work statement
 
@@ -49,13 +52,17 @@ For details of the current work, see the following:
 
 ## Contribute to the work
 
-The APG Task Force welcomes input from the global accessibility community on the ARIA Authoring Practices Guide.
+The APG Task Force welcomes input from individuals and organizations around the world on the ARIA Authoring Practices Guide.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [APG GitHub repository](https://github.com/w3c/aria-practices/issues):
-* If you’re aware of an issue with any of the published APG resources, raise a new issue.
-* Comment on or propose solutions for open APG issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft WAI-ARIA Authoring Practices:** Review and provide feedback on drafts that are still being developed.
+- **Open WAI-ARIA Authoring Practices issues:** Comment on or propose solutions for open issues.
+- **Published WAI-ARIA Authoring Practices Guide:** Let us know if there is a new issue with any of the practices in the guide.
+
+Either comment / raise a new issue in the [APG GitHub repository](https://github.com/w3c/aria-practices/issues) or [email the task force](mailto:public-aria-practices@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -73,7 +80,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 **Note:** As a participant in one of the ARIA Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/aria-practices/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/aria-practices/participants/#participants)
@@ -88,6 +95,8 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 The APG Task Force develops and maintains the [WAI-ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) for the ARIA Working Group.
 
-## Contact the chairs
+## Contact the task force
 
-If you have a question for the APG Task Force, email the [chairs](https://www.w3.org/groups/tf/aria-practices/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/aria-practices/participants/#staff).
+If you have a question for the APG Task Force, [email the task force](mailto:public-aria-practices@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/aria-practices/participants/#staff).

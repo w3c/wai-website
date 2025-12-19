@@ -152,7 +152,7 @@ inline_css: |
             <span class="title">Translations</span>
           </h2>
         </header>
-        <img src="{{ "/content-images/social-translations.png" | relative_url }}" alt="">
+        <img src="{{ "/content-images/about/social-translations.png" | relative_url }}" alt="">
         <p>WAI accessibility resources are available in over 20 languages, with more coming. Translations are linked from the top of WAI website pages.</p>
         <div>
           <span class="button">All WAI Translations</span>
@@ -166,13 +166,12 @@ inline_css: |
 <div class="default-grid teaser teaser-sponsors">
   <div class="inner">
     <header class="teaser-h">
-      <h2 class="title">Sponsors and Funders</h2>
+      <h2 class="title" id="sponsors">Sponsors and Funders</h2>
     </header>
     <p>WAI is supported in part by the following organizations. Thank you!</p>
     <ul>
       <li><span><a href="https://www.fordfoundation.org/">Ford Foundation</a>, <a href="https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/">Technology and Society Program</a></span></li>
-      <li><span><a href="https://www.acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research">US National Institute for Disability, Independent Living and Rehabilitation Research (NIDILRR)</a></span></li>
     </ul>
-    <p>WAI welcomes <a href="{{ '/about/sponsoring/' | relative_url }}">additional sponsors</a>.</p>
+    <p>WAI welcomes donations, sponsors, grants and other <a href="{{ '/about/support/' | relative_url }}">financial support</a>.</p>
   </div>
 </div>

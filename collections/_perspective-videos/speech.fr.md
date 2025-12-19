@@ -95,7 +95,7 @@ Plus d’informations {#resources}
     -   [Kasseem, adolescente sourde et aveugle](/people-use-web/user-stories/archived/#teenager)
     -   [Preety, élève de collège avec un trouble du déficit de l’attention avec hyperactivité et dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)):**
-    -   [Critères de succès liés aux « images » et à la « structure »](https://www.w3.org/WAI/WCAG21/quickref/?tags=images%2Cstructure)
+    -   [Critères de succès liés aux « images » et à la « structure »](https://www.w3.org/WAI/WCAG22/quickref/?tags=images%2Cstructure)
 -   **Applicabilité aux appareils mobiles :**
     -   [Objets non textuels (images, son, vidéo) sans équivalents textuels](/standards-guidelines/shared-experiences/#non-text) 
     -   [Information transmise en utilisant seulement du CSS (formatage visuel)](/standards-guidelines/shared-experiences/#visual-formatting) 

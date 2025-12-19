@@ -32,7 +32,7 @@ Find out about the activities of the Accessibility Conformance Testing (ACT) Tas
 
 ## Objectives
 
-The objective of the ACT Task Force is to develop and maintain a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation across different web accessibility test tools and methodologies.
+The ACT Task Force develops and maintains a repository of ACT Rules for WCAG 2 in order to promote a unified interpretation across different web accessibility test tools and methodologies.
 
 ## Work statement
 
@@ -44,15 +44,21 @@ The ACT Task Force supports the deliverables of the [Accessibility Guidelines (A
 
 For details of the current work, see the [ACT Task Force wiki](https://www.w3.org/WAI/GL/task-forces/conformance-testing/wiki/).
 
+For more information, see [ACT Overview](/standards-guidelines/act/).
+
 ## Contribute to the work
 
-The ACT Task Force welcomes input from the global accessibility community on the ACT Rules work.
+The ACT Task Force welcomes input from individuals and organizations around the world on the ACT Rules work.
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [ACT GitHub repository](https://github.com/w3c/wcag-act/issues/):
-* If you’re aware of an issue with any of the published ACT resources, raise a new issue.
-* Comment on or propose solutions for open ACT issues.
+You can contribute to the work without being a member of the task force:
+
+- **Draft ACT resources:** Review and provide feedback on drafts that are still being developed.
+- **Open ACT issues:** Comment on or propose solutions for open issues.
+- **Published ACT resources:** Let us know if there is a new issue with any of these.
+
+Either comment / raise a new issue in the [ACT GitHub repository](https://github.com/w3c/wcag-act/issues/) or [email the task force](mailto:public-wcag-act@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -70,7 +76,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 **Note:** As a participant in one of the AG Working Group’s task forces, you can choose to focus your time exclusively on the task force deliverables and you do not have to contribute to the working group’s other activities.
 
-## Task force members
+## Task force participants
 
 * [Chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/wcag-act/participants/#participants)
@@ -85,11 +91,11 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 The ACT Task Force develops and maintains the following resources for the AG Working Group:
 
-* [Accessibility Conformance Testing (ACT) Rules Format 1.0 — 2019 W3C Recommendation](https://www.w3.org/TR/act-rules-format/)
-* [Accessibility Conformance Testing (ACT) Rules Format 1.1 — 2024 First Public Working Draft](https://www.w3.org/TR/act-rules-format-1.1/)
-* [ Accessibility Conformance Testing (ACT) Rules Format 1.1 — 2024 Editor’s Draft](https://w3c.github.io/wcag-act/act-rules-format.html)
+* [Accessibility Conformance Testing (ACT) Rules Format 1.1 — W3C Candidate Recommendation Snapshot](https://www.w3.org/TR/act-rules-format-1.1/) (and latest [Editor’s Draft](https://w3c.github.io/wcag-act/act-rules-format.html))
 * [Repository of published Accessibility Conformance Testing (ACT) Rules](https://www.w3.org/WAI/standards-guidelines/act/rules/)
 
-## Contact the chairs
+## Contact the task force
 
-If you have a question for the ACT Task Force, email the [chairs](https://www.w3.org/groups/tf/wcag-act/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff).
+If you have a question for the ACT Task Force, [email the task force](mailto:public-wcag-act@w3.org) (**Note:** This email will go to a publicly archived mailing list). 
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/wcag-act/participants/#staff).

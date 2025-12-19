@@ -154,12 +154,12 @@ Contact [Daniel Montalvo](mailto:dmontalvo@w3.org) to become a participant of th
 
 Staff contacts from the Accessibility Guidelines Working Group oversee attention to W3C Process with respect to the chartered requirements of the Working Group. The facilitators set agenda, lead meetings, determine consensus, and are the primary liaison to the Working Group.
 
-*   **Co-facilitators:** [Mary Jo Mueller](mailto:maryjom@us.ibm.com) and [Chris Loiselle](mailto:chris.loiselle@oracle.com)
+*   **Co-facilitators:** [Mary Jo Mueller](mailto:maryjom@us.ibm.com) and [Phil Day](mailto:phil.day@ncratleos.com)
 *   **Staff Contact:** [Daniel Montalvo](https://www.w3.org/People#dmontalvo)
 *   **Editorial Team:**
     *   Mary Jo Mueller
     *   Phil Day
-    *   Chris Loiselle
+    *   Daniel Montalvo
 
 ## Patent Policy
 

@@ -92,7 +92,7 @@ Plus d’informations {#resources}
 -   **Témoignage d’utilisateur :**
     -   [Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme](/people-use-web/user-stories/archived/#retiree)
 -   **Règles d’accessibilité pour les contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
-    -   [Critères de succès liés aux "étiquettes"](https://www.w3.org/WAI/WCAG21/quickref/?tags=labels) 
+    -   [Critères de succès liés aux "étiquettes"](https://www.w3.org/WAI/WCAG22/quickref/?tags=labels) 
 
 ## Transcription avec description des visuels {#transcript}
 
