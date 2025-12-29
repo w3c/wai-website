@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Accordion Example | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Accordion Example" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/" />
+<meta property="og:url" content="https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Accordion Example" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Accordion Example","url":"https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-accordion-example ">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/ARIA/apg/">
+          ARIA Authoring Practices Guide (APG)
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          How to build accessibility semantics into web patterns and widgets
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="APG">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/">APG Home</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/patterns/">Patterns</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/practices/">Practices</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/example-index/">Index</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/about/">About</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#support-notice-header">Read This First</a></li>
+                
+                <li><a href="#aboutthisexample">About This Example</a></li>
+                
+                <li><a href="#ex_label">Example</a></li>
+                
+                <li><a href="#kbd_label">Keyboard Support</a></li>
+                
+                <li><a href="#rps_label">Role, Property, State, and Tabindex Attributes</a></li>
+                
+                <li><a href="#javascriptandcsssourcecode">JavaScript and CSS Source Code</a></li>
+                
+                <li><a href="#sc1_label">HTML Source Code</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Accordion Example
+            </h1>
+        </header>
+
+        <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Accordion Example</title>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/examples.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/highlight.pack.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/app.js"></script>
+
+<link rel="stylesheet" href="../../../../../../content-assets/wai-aria-practices/patterns/accordion/examples/css/accordion.css">
+
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/styles.css">
+
+<!-- Code highlighting styles -->
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/shared/css/github.css">
+
+<script>
+const addBodyClass = undefined;
+const enableSidebar = true;
+if (addBodyClass) document.body.classList.add(addBodyClass);
+if (enableSidebar) document.body.classList.add('has-sidebar');
+</script>
+
+<script>
+    const parentPage = window.location.pathname.match(
+      /\/(patterns|practices|about)\//
+    )?.[1];
+    if (parentPage) {
+      const parentHref = 'a[href*="' + parentPage + '"]';
+      document.querySelector(parentHref).classList.add('active');
+    }
+  </script>
+
+<div>
+
+    <h2 id="support-notice-header">Read This First</h2>
+    <details id="support-notice">
+      <summary>
+        The code in this example is not intended for production environments.
+        Before using it for any purpose, read this to understand why.
+      </summary>
+      <p>This is an illustrative example of one way of using ARIA that conforms with the ARIA specification.</p>
+      <ul>
+        <li>
+          There may be support gaps in some
+          <a href="../../../../practices/read-me-first/#browser_and_AT_support">browser and assistive technology combinations</a>,
+          especially for
+          <a href="../../../../practices/read-me-first/#mobile_and_touch_support">mobile/touch devices</a>.
+          Testing code based on this example with assistive technologies is essential before considering use in production systems.
+        </li>
+        <li>The <a href="https://aria-at.w3.org">ARIA and Assistive Technologies Project</a> is developing measurements of assistive technology support for APG examples.</li>
+        <li>
+          Robust accessibility can be further optimized by choosing implementation patterns that <a href="https://www.w3.org/TR/using-aria/#rule1">maximize use of semantic HTML</a> and heeding the warning that
+          <a href="../../../../practices/read-me-first/#no_aria_better_bad_aria">No ARIA is better than Bad ARIA</a>.
+        </li>
+      </ul>
+    </details>
+  
+    
+    <div>
+      
+
+      <section>
+        <h2 id="aboutthisexample">About This Example</h2>
+        <img alt="" class="example-page-example-icon" src="../../../../../../content-images/wai-aria-practices/images/pattern-accordion.svg">
+        <p>The below example section contains a simple personal information input form divided into 3 sections that demonstrates the <a href="../../">Accordion Pattern</a>.</p>
+      </section>
+
+      <section>
+        <div class="example-header">
+          <h2 id="ex_label">Example</h2>
+        </div>
+        <div role="separator" id="ex_start_sep" aria-labelledby="ex_start_sep ex_label" aria-label="Start of"></div>
+        <div id="ex1">
+          <div id="accordionGroup" class="accordion">
+            <h3>
+              <button type="button" aria-expanded="true" class="accordion-trigger" aria-controls="sect1" id="accordion1id">
+                <span class="accordion-title">
+                  Personal Information
+                  <span class="accordion-icon"></span>
+                </span>
+              </button>
+            </h3>
+            <div id="sect1" role="region" aria-labelledby="accordion1id" class="accordion-panel">
+              <div>
+                
+                <fieldset>
+                  <p>
+                    <label for="cufc1">Name<span aria-hidden="true">*</span>:</label>
+                    <input type="text" value="" name="Name" id="cufc1" class="required" aria-required="true">
+                  </p>
+                  <p>
+                    <label for="cufc2">Email<span aria-hidden="true">*</span>:</label>
+                    <input type="text" value="" name="Email" id="cufc2" aria-required="true">
+                  </p>
+                  <p>
+                    <label for="cufc3">Phone:</label>
+                    <input type="text" value="" name="Phone" id="cufc3">
+                  </p>
+                  <p>
+                    <label for="cufc4">Extension:</label>
+                    <input type="text" value="" name="Ext" id="cufc4">
+                  </p>
+                  <p>
+                    <label for="cufc5">Country:</label>
+                    <input type="text" value="" name="Country" id="cufc5">
+                  </p>
+                  <p>
+                    <label for="cufc6">City/Province:</label>
+                    <input type="text" value="" name="City_Province" id="cufc6">
+                  </p>
+                </fieldset>
+              </div>
+            </div>
+            <h3>
+              <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect2" id="accordion2id">
+                <span class="accordion-title">
+                  Billing Address
+                  <span class="accordion-icon"></span>
+                </span>
+              </button>
+            </h3>
+            <div id="sect2" role="region" aria-labelledby="accordion2id" class="accordion-panel" hidden="">
+              <div>
+                <fieldset>
+                  <p>
+                    <label for="b-add1">Address 1:</label>
+                    <input type="text" name="b-add1" id="b-add1">
+                  </p>
+                  <p>
+                    <label for="b-add2">Address 2:</label>
+                    <input type="text" name="b-add2" id="b-add2">
+                  </p>
+                  <p>
+                    <label for="b-city">City:</label>
+                    <input type="text" name="b-city" id="b-city">
+                  </p>
+                  <p>
+                    <label for="b-state">State:</label>
+                    <input type="text" name="b-state" id="b-state">
+                  </p>
+                  <p>
+                    <label for="b-zip">Zip Code:</label>
+                    <input type="text" name="b-zip" id="b-zip">
+                  </p>
+                </fieldset>
+              </div>
+            </div>
+            <h3>
+              <button type="button" aria-expanded="false" class="accordion-trigger" aria-controls="sect3" id="accordion3id">
+                <span class="accordion-title">
+                  Shipping Address
+                  <span class="accordion-icon"></span>
+                </span>
+              </button>
+            </h3>
+            <div id="sect3" role="region" aria-labelledby="accordion3id" class="accordion-panel" hidden="">
+              <div>
+                <fieldset>
+                  <p>
+                    <label for="m-add1">Address 1:</label>
+                    <input type="text" name="m-add1" id="m-add1">
+                  </p>
+                  <p>
+                    <label for="m-add2">Address 2:</label>
+                    <input type="text" name="m-add2" id="m-add2">
+                  </p>
+                  <p>
+                    <label for="m-city">City:</label>
+                    <input type="text" name="m-city" id="m-city">
+                  </p>
+                  <p>
+                    <label for="m-state">State:</label>
+                    <input type="text" name="m-state" id="m-state">
+                  </p>
+                  <p>
+                    <label for="m-zip">Zip Code:</label>
+                    <input type="text" name="m-zip" id="m-zip">
+                  </p>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="separator" id="ex_end_sep" aria-labelledby="ex_end_sep ex_label" aria-label="End of"></div>
+      </section>
+
+      <section>
+        <h2 id="kbd_label">Keyboard Support</h2>
+        <div class="table-wrap"><table aria-labelledby="kbd_label" class="def">
+          <thead>
+            <tr>
+              <th>Key</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="key-enter-or-space">
+              <th><kbd>Space</kbd> or <kbd>Enter</kbd></th>
+              <td>When focus is on the accordion header of a collapsed section, expands the section.</td>
+            </tr>
+            <tr data-test-id="key-tab">
+              <th><kbd>Tab</kbd></th>
+              <td>
+                <ul>
+                  <li>Moves focus to the next focusable element.</li>
+                  <li>All focusable elements in the accordion are included in the page <kbd>Tab</kbd> sequence.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="key-shift-tab">
+              <th><kbd>Shift</kbd> + <kbd>Tab</kbd></th>
+              <td>
+                <ul>
+                  <li>Moves focus to the previous focusable element.</li>
+                  <li>All focusable elements in the accordion are included in the page <kbd>Tab</kbd> sequence.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section>
+        <h2 id="rps_label">Role, Property, State, and Tabindex Attributes</h2>
+        
+        <div class="table-wrap"><table aria-labelledby="rps_label" class="data attributes">
+          <thead>
+            <tr>
+              <th scope="col">Role</th>
+              <th scope="col">Attribute</th>
+              <th scope="col">Element</th>
+              <th scope="col">Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="h3-element">
+              <td></td>
+              <td></td>
+              <th scope="row"><code>h3</code></th>
+              <td>
+                <ul>
+                  <li>Element that serves as an accordion header.</li>
+                  <li>Each accordion header element contains a button that controls the visibility of its content panel.</li>
+                  <li>The example uses heading level 3 so it fits correctly within the outline of the page; the example is contained in a section titled with a level 2 heading.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="button-aria-expanded">
+              <td></td>
+              <th scope="row"><code>aria-expanded="true"</code></th>
+              <td><code>button</code></td>
+              <td>Set to <code>true</code> when the Accordion panel is expanded, otherwise set to <code>false</code>.</td>
+            </tr>
+            <tr data-test-id="button-aria-controls">
+              <td></td>
+              <th scope="row"><code>aria-controls="ID"</code></th>
+              <td><code>button</code></td>
+              <td>Points to the ID of the panel which the header controls.</td>
+            </tr>
+            <tr data-test-id="region-role">
+              <th scope="row"><code>region</code></th>
+              <td></td>
+              <td><code>div</code></td>
+              <td>Creates a landmark region that contains the currently expanded accordion panel.</td>
+            </tr>
+            <tr data-test-id="region-aria-labelledby">
+              <td></td>
+              <th scope="row"><code>aria-labelledby="IDREF"</code></th>
+              <td><code>div</code></td>
+              <td>
+                <ul>
+                  <li>Defines the accessible name for the <code>region</code> element.</li>
+                  <li>References the accordion header button that expands and collapses the region.</li>
+                  <li><code>region</code> elements are required to have an accessible name to be identified as a landmark.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section>
+        <h2 id="javascriptandcsssourcecode">JavaScript and CSS Source Code</h2>
+        <ul id="css_js_files">
+          <li>CSS: <a href="../../../../../../content-assets/wai-aria-practices/patterns/accordion/examples/css/accordion.css" type="tex/css">accordion.css</a></li>
+          <li>JavaScript: <a href="../../../../../../content-assets/wai-aria-practices/patterns/accordion/examples/js/accordion.js" type="text/javascript">accordion.js</a></li>
+        </ul>
+      </section>
+
+      <section class="example-code">
+        <h2 id="sc1_label">HTML Source Code</h2>
+        <p id="sc1_description">To copy the following HTML code, please open it in CodePen.</p>
+        <div role="separator" id="sc1_start_sep" aria-labelledby="sc1_start_sep sc1_label" aria-label="Start of"></div>
+        <pre><code id="sc1"></code></pre>
+        <div role="separator" id="sc1_end_sep" aria-labelledby="sc1_end_sep sc1_label" aria-label="End of"></div>
+        <script>
+          sourceCode.add('sc1', 'ex1', 'ex_label', 'css_js_files', 'sc1_description');
+          sourceCode.make();
+        </script>
+      </section>
+    </div>
+    <script src="../../../../../../content-assets/wai-aria-practices/patterns/accordion/examples/js/accordion.js"></script>
+  
+</div>
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/skipto.js" data-skipto="colorTheme:aria; displayOption:popup; containerElement:div"></script>
+
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-aria-practices@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/aria-practices/edit/main/content/patterns/accordion/examples/accordion.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;">      <div class='example-page-footer'>        <p><a href='https://github.com/orgs/w3c/projects/127'>View issues related to this example</a></p>        <p>Page last updated: 22 October 2024</p>      </div>    </div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

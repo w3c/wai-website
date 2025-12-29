@@ -1,0 +1,265 @@
+ID,WCAG SC,Level,Task,"Main Role","Starter List","Primary Ownership","Secondary Ownership",Contributor
+IMG-001,1.1.1,A,"Informative alternate text is provided for images (i.e. not ""spacer"" or image file name).",Author,,"Content Authoring","User Experience (UX) Design",none
+IMG-002,1.1.1,A,"Informative images are described with a clear and meaningful text equivalent (alt attribute or other equivalent means).",Author,x,"Content Authoring",none,none
+IMG-003,1.1.1,A,"Purely decorative images are provided with null alt attribute values (or other equivalent means).",Development,,"Front-End Development","Content Authoring",none
+IMG-004,1.1.1,A,Null alt attribute values are used for images that are already described in text in adjacent page content.,Development,,"Front-End Development","Content Authoring",none
+IMG-005,1.1.1,A,Adjacent linked images and text links pointing the same URL are combined into single links.,Development,,"Front-End Development","User Experience (UX) Design",none
+IMG-006,1.1.1,A,Alt text used for images of text include all relevant text found in the image.,Author,,"Content Authoring",none,none
+IMG-007,1.1.1,A,"Informative images are marked up as foreground images, and not embedded as part of the CSS.",Development,,"Front-End Development","Content Authoring",none
+IMG-008,1.1.1,A,The purpose or function of complex images is accurately described in text.,Author,x,"Content Authoring","User Experience (UX) Design",none
+IMG-009,1.1.1,A,"The purpose or function of complex images is conveyed using a text description, via an alt attribute.",Development,,"Front-End Development","Content Authoring","User Experience (UX) Design"
+IMG-010,1.1.1,A,The full explanation of complex images is accurately described in text.,Author,x,"Content Authoring",none,none
+IMG-011,1.1.1,A,A mechanism that conveys the way through which the full explanation of complex images is defined.,Design,,"User Experience (UX) Design",none,none
+IMG-012,1.1.1,A,The full explanation of complex images is provided through the longdesc attribute (or other equivalent means).,Development,,"Front-End Development",none,none
+IMG-013,1.1.1,A,"Images primarily conveying function use alternative text to describe their purpose, rather than what they look like.",Author,,"Content Authoring","User Experience (UX) Design",none
+IMG-014,1.1.1,A,Text alternatives of static and linked images do not replicate any information that is already being conveyed by screen reader technology.,Author,,"Content Authoring","Front End Development",none
+IMG-015,1.1.1,A,Text alternatives of dynamically updated images are simultaneously updated as the images change.,Development,,"Front-End Development","User Experience (UX) Design","Content Authoring"
+IMG-016,1.1.1,A,"Alternate means of accessing CAPTCHA information are provided, such as audio CAPTCHA, logical question, or other equivalent means.",Design,x,"Business Analyst","User Experience (UX) Design",none
+IMG-017,1.1.1,A,Images which do not convey information are defined as decorative.,Author,,"Content Authoring",none,none
+IMG-018,1.1.1,A,"Charts, graphs, infographics and other visual representations of information don't rely on color alone to convey information.",Design,x,"Visual Design","User Experience (UX) Design",none
+IMG-019,1.4.5,AA,Text content that conveys information is not part of images.,Design,,"User Experience (UX) Design","Visual Design","Content Authoring"
+IMG-020,1.4.5,AA,Text that is placed on top of an image is handled semantically through HTML and CSS instead.,Development,,"Front-End Development","User Experience (UX) Design",none
+IMG-021,1.4.5,AA,"Unless a particular presentation of text is essential to the information being conveyed, all images that contain text are only used for purely decorative purposes.",Design,x,"Visual Design","User Experience (UX) Design",none
+IMG-022,1.4.9,AAA,"With the exception of logos, all images that contain text are only used for purely decorative purposes.",Design,,"Visual Design","Content Authoring",none
+SEM-001,1.3.1,A,Informative content is provided through HTML markup.,Development,,"Front-End Development","User Experience (UX) Design
+ Content Authoring",none
+SEM-002,1.3.1,A,HTML elements are used according to the HTML specification.,Development,x,"Front-End Development","User Experience (UX) Design",none
+SEM-003,1.3.1,A,Navigation groupings are marked up using HTML list or nav elements (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
+SEM-004,1.3.1,A,Header sections are marked up using HTML header elements (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
+SEM-005,1.3.1,A,The main section of a page is marked up using a HTML main element (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
+SEM-006,1.3.1,A,The footer of the page is marked up using a HTML footer element (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
+SEM-007,1.3.1,A,Content that is complementary to the main section is marked up using HTML aside elements (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
+SEM-008,1.3.1,A,"HTML elements are used based on the semantics they provide, not based on what they look like.",Development,x,"Front-End Development","User Experience (UX) Design",none
+SEM-009,1.3.1,A,"Decorative elements are embedded through the CSS presentation layer (or other equivalent means).",Development,,"Front-End Development","Content Authoring",none
+SEM-010,1.3.1,A,"All scripting behaviors are handled through JavaScript.",Development,,"Front-End Development",none,none
+SEM-011,1.3.1,A,"Elements that act as headings are marked up as such.",Development,x,"Front-End Development","User Experience (UX) Design",none
+SEM-012,1.3.1,A,"Headings follow a hierarchical sequence without skipping any levels.",Author,,"Content Authoring","User Experience (UX) Design",none
+SEM-013,1.3.1,A,"Headings are marked up using h1 to h6 elements or other equivalent means.",Development,,"Front-End Development","User Experience (UX) Design
+ Content Authoring",none
+SEM-014,1.3.1,A,"Page contains a level 1 heading that describes the page content.",Development,,"Front-End Development","User Experience (UX) Design
+ Content Authoring",none
+SEM-015,1.3.1,A,"Whitespace or pre-formatted text is not used to render content to appear as multiple columns or tabular information.",Development,,"Front-End Development",none,none
+SEM-016,1.3.1,A,"Use of native, semantic HTML elements are prioritized over other methods.",Development,,"Front-End Development","User Experience (UX) Design",none
+SEM-017,1.3.2,A,"The source code (or DOM) order matches the suggested visual order of the design.",Development,x,"Front-End Development","User Experience (UX) Design",none
+SEM-018,2.4.1,A,"iFrames displaying content are provided with a clear, informative title attribute value.",Design,x,"User Experience (UX) Design","Content Authoring",none
+SEM-019,2.4.2,A,Page title text matches the level 1 heading text.,Author,,"Content Authoring",none,none
+SEM-020,2.4.2,A,Pages are described using unique and descriptive page title values.,Author,x,"Content Authoring",none,none
+SEM-021,2.4.3,A,The tab order logically and predictably follows the expected interaction order of the visual design.,Development,,"Front-End Development","User Experience (UX) Design",none
+SEM-022,2.4.6,AA,"Heading text meaningfully describes the content's topic or purpose.",Author,x,"Content Authoring",none,none
+SEM-023,2.4.6,AA,The main heading of the page describes the content of the page.,Author,x,"Content Authoring",none,none
+SEM-024,4.1.1,A,"Source code is properly nested, according to its specification.",Development,,"Front-End Development",none,none
+SEM-025,4.1.1,A,Source code elements are provided with complete start and end tags (or are self-closed) according to specification.,Development,,"Front-End Development",none,none
+SEM-026,4.1.1,A,ID attribute values assigned to elements are unique.,Development,,"Front-End Development",none,none
+SEM-027,4.1.1,A,Elements do not contain duplicate attributes.,Development,,"Front-End Development",none,none
+SEM-028,4.1.2,A,iFrames are given a title that describes their content or purpose.,Design,,"User Experience (UX) Design","Content Authoring",none
+SEM-029,4.1.2,A,iFrames are implemented using title attribute values that describe their content or purpose.,Development,,"Front-End Development","Content Authoring",none
+INP-001,1.4.13,AA,Additional content triggered by focus or hover that covers other information can be dismissed by the user.,Design,,"User Experience (UX) Design","Front-End Development",none
+INP-002,1.4.13,AA,Additional content triggered by pointer hover does not disappear when trying to move the pointer over it.,Design,,"User Experience (UX) Design","Front-End Development",none
+INP-003,1.4.13,AA,"Additional content triggered by hover or focus stays visible until purposefully un-triggered, dismissed, or is no longer valid.",Design,,"User Experience (UX) Design","Front-End Development",none
+INP-004,2.1.1,A,"All actionable elements can be reached, using only the keyboard.",Development,x,"Front-End Development","User Experience (UX) Design",none
+INP-005,2.1.1,A,"All active elements can be triggered, using only the keyboard.",Development,x,"Front-End Development","User Experience (UX) Design",none
+INP-006,2.1.1,A,Device-specific programmatic event handlers are not used as the only way to trigger interactions.,Development,,"Front-End Development",none,none
+INP-007,2.1.1,A,Behaviors for hover and focus states are planned and included with the design assets.,Design,x,"User Experience (UX) Design","Visual Design",none
+INP-008,2.1.1,A,Keyboard focus states are planned for every active element.,Design,,"User Experience (UX) Design","Visual Design",none
+INP-009,2.1.1,A,Keyboard focus is not applied to non-active or static elements.,Development,,"Front-End Development","User Experience (UX) Design",none
+INP-010,2.1.1,A,Custom active elements replicate all inherent keyboard behaviors of native active HTML elements.,Development,,"Front-End Development","User Experience (UX) Design",none
+INP-011,2.1.1,A,Non-interactive elements are not assigned JavaScript event handlers.,Development,,"Front-End Development",none,none
+INP-012,2.1.2,A,"Users can navigate away from all active elements, using only the keyboard.",Development,x,"Front-End Development",none,none
+INP-013,2.1.3,AAA,All actionable elements can be reached using only the keyboard without requiring specific timings for individual keystrokes.,Design,,"User Experience (UX) Design","Front-End Development",none
+INP-014,2.1.4,A,"Single-key keyboard shortcuts can be disabled or remapped, unless they are only active on keyboard focus.",Design,,"User Experience (UX) Design",none,none
+INP-015,2.4.3,A,Users can tab through active elements in an order that reflects the intended interaction order of the design.,Development,x,"Front-End Development","User Experience (UX) Design
+ Visual Design",none
+INP-016,2.4.3,A,Tabindex attributes are not assigned positive integer values.,Development,,"Front-End Development",none,none
+INP-017,2.4.7,AA,Every element that receives keyboard focus is designed to display a visible focus indicator.,Design,x,"Visual Design","User Experience (UX) Design",none
+INP-018,2.4.7,AA,Every element that receives keyboard focus displays a visible focus indicator.,Development,x,"Front-End Development","Visual Design",none
+INP-019,2.5.1,A,"Non-essential multipoint, path- or gesture-based functions have single-pointer alternatives.",Design,,"User Experience (UX) Design",none,none
+INP-020,2.5.2,A,"Non-essential single pointer functionality is not triggered on down events, unless the functionality can be canceled, undone, or reversed.",Design,,"User Experience (UX) Design","Front-End Development",none
+INP-021,2.5.3,A,Text or images of text that is usually included in a user interface control is part of its accessible name.,Author,,"Content Authoring","User Experience (UX) Design",none
+INP-022,2.5.4,A,All non-essential motion-related functionalities have alternative user interface controls that allow for equivalent actions.,Design,,"User Experience (UX) Design",none,none
+INP-023,2.5.4,A,All non-essential motion-related functionality can be turned off to prevent accidental actuation.,Design,,"User Experience (UX) Design",none,none
+INP-024,3.2.2,A,Keyboard focus does not move automatically from one form control to the next.,Design,x,"User Experience (UX) Design","Front End Development",none
+FRM-001,1.3.1,A,Text labels are marked up using the label element or other equivalent means.,Development,x,"Front-End Development",none,none
+FRM-002,1.3.1,A,"Text labels and form controls are programmatically associated (using the FOR and ID attributes, or equivalent means).",Development,,"Front-End Development","User Experience (UX) Design",none
+FRM-003,1.3.1,A,"Submit buttons in forms rely on a submit input type, a button element, or other equivalent means.",Development,,"Front-End Development",none,none
+FRM-004,1.3.1,A,Related form controls are programmatically associated using fieldset and legend elements or other equivalent means.,Development,,"Front-End Development","User Experience (UX) Design",none
+FRM-005,1.3.1,A,"Long option lists in select elements are grouped semantically (using the optgroup element, or other equivalent means).",Development,,"Front-End Development","User Experience (UX) Design",none
+FRM-006,1.3.1,A,"Common group label text is informative, meaningful and provides context for the grouping.",Author,,"Content Authoring","User Experience (UX) Design",none
+FRM-007,1.3.1,A,Instructions and messages are programmatically conveyed to assistive technologies.,Development,x,"Front-End Development","User Experience (UX) Design",none
+FRM-008,1.3.1,A,Use of native HTML controls are prioritized over other methods.,Development,,"Front-End Development",none,none
+FRM-009,1.3.1,A,Required fields are programmatically conveyed as such to assistive technologies.,Development,x,"Front-End Development","User Experience (UX) Design",none
+FRM-010,1.3.1,A,Instructions on how to use forms are programmatically conveyed to assistive technologies.,Development,,"Front-End Development","User Experience (UX) Design",none
+FRM-011,1.3.2,A,Information that is relevant to a form does not appear after the submit button.,Design,,"User Experience (UX) Design",none,none
+FRM-012,1.3.5,AA,Data entry fields are designed to autofill previously entered user information when that information is available.,Design,,"User Experience (UX) Design","Front-End Development",none
+FRM-013,1.3.5,AA,Data entry fields using the autocomplete attribute for previously entered information are set to the appropriate value.,Development,,"Front-End Development","User Experience (UX) Design",none
+FRM-014,1.3.6,AAA,"The purpose of user interface components, icons, and regions is implemented using markup languages, in a way that can be programmatically determined.",Development,,"Front-End Development","User Experience (UX) Design",none
+FRM-015,2.4.3,A,Keyboard focus is dynamically moved to the error message when errors are returned.,Development,,"Front-End Development","User Experience (UX) Design",none
+FRM-016,2.4.6,AA,The purpose of the form control is clearly described in text.,Author,x,"Content Authoring","User Experience (UX) Design",none
+FRM-017,2.5.6,AAA,The content is designed in a way that does not restrict input modalities available.,Design,,"User Experience (UX) Design","Front-End Development",none
+FRM-018,3.2.1,A,Changes of context are not initiated automatically as user interface components receive focus.,Design,,"User Experience (UX) Design","Front-End Development",none
+FRM-019,3.2.2,A,Event handlers are not used to automatically trigger a change of context upon input that would otherwise require explicit user action unless previously communicated.,Development,,"Front-End Development","User Experience (UX) Design",none
+FRM-020,3.2.2,A,Form interactions are not designed to include automatic changes of context upon input that would otherwise require explicit user action unless previously communicated.,Design,x,"User Experience (UX) Design","Front-End Development",none
+FRM-021,3.2.4,A,Error messages and alerts are visually displayed across the site in a consistent manner.,Design,,"User Experience (UX) Design","Visual Design",none
+FRM-022,3.2.4,A,Visual indicators are presented to support error messages when errors are returned.,Design,x,"Visual Design","User Experience (UX) Design",none
+FRM-023,3.3.1,A,Inline error messages are displayed next to their related form controls.,Design,,"User Experience (UX) Design",none,none
+FRM-024,3.3.1,A,Error messages are grouped as a list at the top of the form.,Design,,"User Experience (UX) Design","Visual Design",none
+FRM-025,3.3.2,A,Radio buttons and checkbox labels are positioned to the right of their respective form controls (for left-to-right languages).,Design,,"User Experience (UX) Design",none,none
+FRM-026,3.3.2,A,Related form controls and their respective labels are grouped together visually.,Design,,"User Experience (UX) Design","Visual Design",none
+FRM-027,3.3.2,A,Instructions are in close visual proximity to their related controls.,Design,,"User Experience (UX) Design",none,none
+FRM-028,3.3.2,A,Form controls are coded to have persistent visual labels.,Development,,"Front-End Development","User Experience (UX) Design",Visual Design
+FRM-029,3.3.2,A,Form controls are designed to have persistent visual labels.,Design,x,"User Experience (UX) Design","Visual Design",none
+FRM-030,3.3.2,A,Clear text-based instructions are provided on how to use the form controls.,Author,,"Content Authoring","User Experience (UX) Design",Visual Design
+FRM-031,3.3.2,A,Instructions provided in forms are displayed in a clear and unambiguous way.,Design,x,"Visual Design","User Experience (UX) Design",none
+FRM-032,3.3.2,A,Placeholder text is not used in lieu of regular text label elements.,Design,,"User Experience (UX) Design",none,none
+FRM-033,3.3.3,AA,Error messages returned provide clear instructions on how to fix them.,Author,,"Content Authoring","User Experience (UX) Design",none
+FRM-034,3.3.3,AA,Instructions intending to prevent errors are provided in text and available.,Development,,"Front-End Development","User Experience (UX) Design",Content Authoring
+FRM-035,3.3.3,AA,Text-based instructions are provided to help users correct errors.,Design,x,"User Experience (UX) Design","Content Authoring
+Visual Design",none
+FRM-036,3.3.4,AA,"Users are provided with means to prevent and correct form errors when legal, financial, or data information is involved.",Design,x,"User Experience (UX) Design",Business,none
+FRM-037,3.3.4,AA,"When legal, financial, or data information is involved, confirmation screens are provided prior to any final form submission.",Design,,"User Experience (UX) Design",Business,Front-End Development
+FRM-038,3.3.5,AAA,Context-sensitive help text is available.,Design,,"User Experience (UX) Design","Content Authoring",none
+FRM-039,3.3.6,AAA,Users are provided with means to prevent and correct form errors.,Design,,"User Experience (UX) Design",Business,none
+CSS-001,1.1.1,A,Icon fonts used to convey information are provided with a text equivalent.,Design,,"User Experience (UX) Design","Content Authoring",none
+CSS-002,1.1.1,A,The meaning of icon fonts is determined programmatically using the aria-label attribute (or other equivalent means).,Development,,"Front-End Development","Content Authoring",none
+CSS-003,1.1.1,A,"Icon fonts whose default accessible name do not represent what the icon is, are overwritten using an aria-hidden attribute (or other equivalent means).",Development,,"Front-End Development",none,none
+CSS-004,1.1.1,A,Background images identified as decorative are implemented as such.,Development,,"Front-End Development","Visual Design",none
+CSS-005,1.3.1,A,CSS pseudo-selectors such as :before and :after are not used to integrate informative content.,Development,,"Front-End Development",none,none
+CSS-006,1.3.3,A,Shape and location are never used as the only way to convey information and relationships between page components.,Design,x,"Visual Design","User Experience (UX) Design",Content Authoring
+CSS-007,1.3.3,A,"Users relying on High Contrast themes don't lose information as a result of doing so.",Development,,"Front-End Development","Visual Design",none
+CSS-008,1.3.4,AA,"Content is viewable in both portrait and landscape orientation, unless a particular orientation is essential.",Design,,"User Experience (UX) Design","Visual Design",none
+CSS-009,1.4.1,A,"Color is never used as the only way to convey information, context, indicate selection or the presence of errors.",Design,x,"Visual Design","User Experience (UX) Design",Content Authoring
+CSS-010,1.4.1,A,"For a link that is not underlined and in a paragraph text, its text color is sufficiently contrasted by providing a luminosity ratio of at least 3:1 against its surrounding text.",Design,x,"Visual Design",none,none
+CSS-011,1.4.3,AA,"Regular-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 4.5:1.",Design,x,"Visual Design",none,none
+CSS-012,1.4.3,AA,"Large-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 3:1.",Design,,"Visual Design",none,none
+CSS-013,1.4.4,AA,Users can resize the text on the page up to 200% without any loss of content or functionality.,Design,x,"Visual Design","Front End Development",User Experience (UX) Design
+CSS-014,1.4.4,AA,"CSS techniques are used to ensure that content doesn't overflow, overlap or get truncated as a result of increasing the text size.",Development,x,"Front-End Development","Visual Design",User Experience (UX) Design
+CSS-015,1.4.5,AA,"CSS background sprites don't include images of text, unless equivalent text alternatives are also provided as part of the HTML.",Development,,"Front-End Development","Content Authoring
+ Visual Design",none
+CSS-016,1.4.6,AAA,"Regular-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 7:1.",Design,,"Visual Design",none,none
+CSS-017,1.4.6,AAA,"Large-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 4.5:1.",Design,,"Visual Design",none,none
+CSS-018,1.4.10,AA,The design makes it possible for end users to enlarge the text so that it reflows into a single column without any loss of information or functionality.,Design,,"Visual Design","User Experience (UX) Design",none
+CSS-019,1.4.10,AA,Displaying content on narrower screens or magnifying it does not cause multidirectional scrolling.,Design,x,"Visual Design","Front-End Development",User Experience (UX) Design
+CSS-020,1.4.11,AA,"All non-text user interface components and graphical objects are sufficiently contrasted against their background, with a luminosity ratio of at least 3:1.",Design,x,"Visual Design",none,none
+CSS-021,1.4.12,AA,"Adjusting spacing between letters, words, or paragraphs, or adjusting line height does not cause a loss of content or functionality.",Design,,"Visual Design","Front-End Development",none
+CSS-022,2.4.7,AA,The CSS outline property of objects that receive keyboard focus are not set to zero or none.,Development,,"Front-End Development","Visual Design",none
+CSS-023,2.5.5,AAA,"Unless the interactive element is part of a sentence or a block of text, its size must be at least 44 x 44 pixels.",Design,x,"Visual Design",none,none
+NAV-001,1.3.1,A,Active objects and other calls to action are visually identifiable as such.,Design,x,"Visual Design",none,none
+NAV-002,1.3.3,A,"Instructions are conveyed through more than shape, size, position, or sound alone.",Author,,"Content Authoring","User Experience (UX) Design",none
+NAV-003,1.4.1,A,Additional visual and/or textual cues are provided when color is used to convey information.,Design,x,"User Experience (UX) Design","Visual Design 
+Content Authoring",none
+NAV-004,2.2.1,A,Users are notified when time limits are about to expire.,Design,,"User Experience (UX) Design",Business,none
+NAV-005,2.2.1,A,"Options to extend, or even turn off time limits are provided.",Design,,"User Experience (UX) Design",Business,none
+NAV-006,2.2.2,A,"Users are given means to pause, stop or hide content that automatically updates.",Design,x,"User Experience (UX) Design",none,none
+NAV-007,2.2.4,AAA,"Users are provided with means to turn off all updates, except in case of emergencies.",Design,,"User Experience (UX) Design",none,none
+NAV-008,2.2.5,AAA,Users are provided with means to re-authenticate sessions without loss of data.,Design,,"User Experience (UX) Design",none,none
+NAV-009,2.4.1,A,Users can bypass blocks of content using skip links or similar mechanisms.,Design,x,"User Experience (UX) Design",none,none
+NAV-010,2.4.1,A,Skip links (and similar mechanisms) for main content and navigation are provided at the most effective location in the interface (such as the very first tab stop).,Design,,"User Experience (UX) Design",none,none
+NAV-011,2.4.1,A,The functionality and expected destination of skip links and similar mechanisms is clearly defined.,Design,,"User Experience (UX) Design","Content Authoring",none
+NAV-012,2.4.1,A,Skip links and similar mechanisms point to the expected destination.,Development,x,"Front-End Development","User Experience (UX) Design",none
+NAV-013,2.4.3,A,All active elements receive focus in a logical and predictable order that is prescribed by the visual presentation.,Development,,"Front-End Development","User Experience (UX) Design","User Experience (UX) Design, Visual Design"
+NAV-014,2.4.3,A,A logical and predictable focus order is defined for complex interactions.,Design,x,"User Experience (UX) Design",none,none
+NAV-015,2.4.3,A,Objects that are not actionable are not part of the tabbing order.,Development,,"Front-End Development","User Experience (UX) Design",none
+NAV-016,2.4.3,A,Focus is sent back to the initiating point when modal dialogs and controls are dismissed.,Development,,"Front-End Development","User Experience (UX) Design",none
+NAV-017,2.4.3,A,Event handlers do not unexpectedly send the focus somewhere else on the page.,Development,,"Front-End Development",none,none
+NAV-018,2.4.4,A,"Link text and alternate text for images, when used as links, describe the destination or purpose of the link.",Author,x,"Content Authoring",none,none
+NAV-019,2.4.4,A,Links are marked up using the anchor element and have a valid href attribute value (or use other equivalent means).,Development,,"Front-End Development",none,none
+NAV-020,2.4.5,AA,"Multiple mechanisms are provided for wayfinding, such as navigation menus, breadcrumbs, search features, site map, progress bar, steps, etc.",Design,x,"User Experience (UX) Design",none,none
+NAV-021,2.4.8,AAA,Indications are provided to help users identify their current location within the site.,Design,,"User Experience (UX) Design","Visual Design",none
+NAV-022,2.4.9,AAA,"The purpose of each link can be identified in its immediate context, or from the link text alone.",Author,,"Content Authoring","User Experience (UX) Design",none
+NAV-023,2.4.10,AAA,Content is logically organized using section headings.,Author,,"Content Authoring","User Experience (UX) Design",Front-End Development
+NAV-024,3.2.1,A,"Setting the focus to a new element doesn't automatically trigger a context change, such as content updates or the opening of new windows.",Design,x,"User Experience (UX) Design","Front-End Development",none
+NAV-025,3.2.2,A,"Interacting with input controls or other equivalent elements doesn't automatically trigger a change of context, unless the user has been notified ahead of time.",Design,,"User Experience (UX) Design","Front-End Development",none
+NAV-026,3.2.3,AA,Navigation mechanisms are repeated consistently throughout the site or application in the same relative order.,Design,x,"User Experience (UX) Design","Visual Design",none
+NAV-027,3.2.4,AA,Navigational graphics and icons used throughout the site or application are designed to always serve the same function and or meaning.,Design,x,"Visual Design","User Experience (UX) Design",none
+NAV-028,3.2.4,AA,The accessible name of user interface components used across the site or application are defined consistently.,Author,,"Content Authoring","User Experience (UX) Design",none
+NAV-029,3.2.4,AA,Users can consistently distinguish between links internal to a page and links going to different locations.,Design,,"Visual Design",none,none
+NAV-030,3.2.5,AAA,Links that open new windows visually indicate they will do so.,Design,,"User Experience (UX) Design","Visual Design",none
+NAV-031,3.2.5,AAA,"Links that open new windows indicate they will do so, either as part of the link text, or using aria-label or equivalent means.",Development,,"Front-End Development","Content Authoring",none
+TAB-001,1.3.1,A,Tables are only to be used to lay out tabular information or data.,Development,,"Front-End Development","User Experience (UX) Design",none
+TAB-002,1.3.1,A,Table row and/or column headers provide context for data within the table.,Design,,"User Experience (UX) Design",none,none
+TAB-003,1.3.1,A,Data table structure is appropriate for the data being included.,Design,,"User Experience (UX) Design",none,none
+TAB-004,1.3.1,A,Tabular data and corresponding header cells for that data are part of the same table.,Development,,"Front-End Development","User Experience (UX) Design",none
+TAB-005,1.3.1,A,Header cells for rows are marked up using THEAD elements.,Development,,"Front-End Development",none,none
+TAB-006,1.3.1,A,Header cells for columns are marked up using TH elements.,Development,,"Front-End Development",none,none
+TAB-007,1.3.1,A,The relationship between table header rows and table header columns with data cells in simple data tables is provided through the SCOPE attributes.,Development,,"Front-End Development","User Experience (UX) Design",none
+TAB-008,1.3.1,A,The relationship between table header rows and table header columns with data cells in complex data tables is provided through the HEADERS and ID attributes.,Development,,"Front-End Development","User Experience (UX) Design",none
+TAB-009,1.3.1,A,Caption elements are used to associate caption information with data tables.,Development,,"Front-End Development",none,none
+TAB-010,1.3.1,A,"Large, complex data tables are broken into smaller, simpler data tables (when possible).",Design,,"User Experience (UX) Design","Visual Design
+Content Authoring",none
+TAB-011,1.3.1,A,Unrelated data is not included in the same data table.,Design,,"User Experience (UX) Design","Content Authoring",none
+TAB-012,1.3.1,A,Tables are not used for layout purposes.,Development,,"Front-End Development",none,none
+TAB-013,1.3.1,A,Tables are not used to layout lists.,Development,,"Front-End Development",none,none
+TAB-014,1.3.1,A,"Caption elements, aria-labelledby attributes or other equivalent means are used to explain the structure of data tables.",Development,,"Front-End Development",none,none
+TAB-015,1.3.1,A,A meaningful description of the structure of data tables is provided.,Author,x,"Content Authoring","User Experience (UX) Design",none
+TAB-016,1.3.2,A,"The programmatic order of the table content matches the intended reading order, so not to affect its meaning.",Development,,"Front-End Development","User Experience (UX) Design",none
+TAB-017,2.4.6,AA,All data table header cells are identified.,Design,,"User Experience (UX) Design","Front-End Development",none
+ANM-001,1.2.1,A,Text transcripts are provided for prerecorded audio-only files.,Author,x,"Content Authoring","User Experience (UX) Design",none
+ANM-002,1.2.1,A,Text transcripts are provided for prerecorded video-only files.,Author,x,"Content Authoring","User Experience (UX) Design",none
+ANM-003,1.2.1,A,Links to transcript files are provided in close proximity to the audio-only files.,Design,,"User Experience (UX) Design",none,none
+ANM-004,1.2.1,A,The relationship between multimedia files and their associated transcript is clearly communicated through content sequence or focus order.,Design,,"User Experience (UX) Design","Front-End Development",none
+ANM-005,1.2.1,A,Copy on the page identifies when video content has no sound.,Design,,"User Experience (UX) Design","Content Authoring",none
+ANM-006,1.2.1,A,"When appropriate, further information about the multimedia file is provided in proximity to the multimedia file.",Design,,"User Experience (UX) Design",none,none
+ANM-007,1.2.2,A,Synchronized captions are provided for all prerecorded video content.,Author,x,"Content Authoring","User Experience (UX) Design",none
+ANM-008,1.2.2,A,Captions do not skip dialogues or important sounds.,Author,,"Content Authoring",none,none
+ANM-009,1.2.2,A,Multimedia player controls are provided to turn captions on or off.,Design,,"User Experience (UX) Design",none,none
+ANM-010,1.2.3,A,Text transcripts report all significant information from the audio track.,Author,x,"Content Authoring",none,none
+ANM-011,1.2.3,A,Text transcripts or audio descriptions report all significant information from the visual track.,Author,,"Content Authoring",none,none
+ANM-012,1.2.4,AA,Synchronized captions are provided for all live video content.,Author,,"Content Authoring",none,none
+ANM-013,1.2.4,AA,Captions for live audio content are generated using real-time text transcription services.,Author,,"Content Authoring","User Experience (UX) Design",none
+ANM-014,1.2.5,AA,Prerecorded videos have audio descriptions that captures all significant information from the visual track.,Author,,"Content Authoring",none,none
+ANM-015,1.2.5,AA,Controls to toggle audio descriptions features are provided as part of the media player controls.,Design,,"User Experience (UX) Design",none,none
+ANM-016,1.2.5,AA,Multimedia player controls are provided to access a version of the video with audio description.,Design,,"User Experience (UX) Design",none,none
+ANM-017,1.2.6,AAA,Sign language interpretation is provided for all prerecorded audio content in synchronized media.,Author,,"Content Authoring","User Experience (UX) Design",none
+ANM-018,1.2.7,AAA,Extended audio description is provided for all prerecorded synchronized video content when pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video.,Author,,"Content Authoring","User Experience (UX) Design",none
+ANM-019,1.2.8,AAA,Text alternatives are provided for all prerecorded audio and video files.,Author,,"Content Authoring","User Experience (UX) Design",none
+ANM-020,1.2.8,AAA,Brief descriptions summarizing multimedia content are provided in close proximity to the audio and video files.,Design,,"User Experience (UX) Design","Content Authoring",none
+ANM-021,1.2.9,AAA,Live transcripts are provided for all audio content happening in real-time.,Author,,"Content Authoring","User Experience (UX) Design",none
+ANM-022,1.4.2,A,Multimedia player controls are provided to turn sound on and off.,Design,,"User Experience (UX) Design",none,none
+ANM-023,1.4.2,A,Volume controls for page-level multimedia files are independent from general computer audio controls.,Development,,Front-End Development,"User Experience (UX) Design",none
+ANM-024,1.4.2,A,Volume controls for page-level multimedia files are visually located at the top of the page.,Design,,"User Experience (UX) Design",none,none
+ANM-025,1.4.2,A,Audio content that automatically starts on page load lasts no longer than 3 seconds.,Development,,Front-End Development,"User Experience (UX) Design",none
+ANM-026,1.4.2,A,Prerecorded or live video content is not set to auto-play.,Design,,"User Experience (UX) Design",none,none
+ANM-027,1.4.7,AAA,Prerecorded audio-only background sounds can be controlled by the user.,Design,,"User Experience (UX) Design",Front-End Development,none
+ANM-028,1.4.7,AAA,"Prerecorded audio-only speeches contain no background sound, or if they do, must be at least 20 decibels lower than the foreground speech content.",Author,,"Content Authoring",none,none
+ANM-029,2.1.1,A,Multimedia player controls can be fully operated using only the keyboard.,Development,,Front-End Development,"User Experience (UX) Design",none
+ANM-030,2.2.2,A,Multimedia player controls are provided to pause or play the multimedia file.,Design,,"User Experience (UX) Design",none,none
+ANM-031,2.2.3,AAA,Timing is not an essential part of the event or activity presented by the content.,Design,,"User Experience (UX) Design","Content Authoring",Business
+ANM-032,2.2.6,AAA,Users are warned that more than 20 hours of inactivity could lead to data loss.,Design,,"User Experience (UX) Design","Content Authoring",none
+ANM-033,2.3.1,A,"Content on the screen does not flash or blink more than three times in any one-second period, or the flash is below the general flash and red flash thresholds.",Design,,"Visual Design",none,none
+ANM-034,2.3.2,AAA,"Content on the screen does not flash or blink at a rate that is higher than three times in any one-second period.",Design,,"Visual Design",none,none
+ANM-035,2.3.3,AAA,"Animation features that create the illusion of movement are defined so that users can disable them.",Design,,"User Experience (UX) Design",Front-End Developement,none
+ANM-036,2.3.3,AAA,"Animation features that create the illusion of movement support prefers-reduced-motion (or other equivalent means).",Development,,Front-End Development,"User Experience (UX) Design",none
+ANM-037,4.1.2,A,"Information conveyed by multimedia player controls are programmatically announced through assistive technologies.",Development,,Front-End Development,"User Experience (UX) Design",none
+SCT-001,1.1.1,A,"Emoticons, emojis, ASCII art, and other non-markup language constructs are supported with equivalent text alternatives and conveyed to assistive technologies.",Design,,"User Experience (UX) Design","Content Authoring",Front-End Development
+SCT-002,1.3.1,A,"Emoticons, emojis, ASCII art, and other non-markup language constructs are not used as the only way to structure content or convey information.",Design,,"User Experience (UX) Design","Front-End Development",none
+SCT-003,1.3.1,A,"Proper markup is used to render emphasized, bolded text and other stylistic or presentational effects.",Development,,"Front-End Development",none,none
+SCT-004,1.3.1,A,"Proper markup is used to structure quotes, blockquotes and citations.",Development,,"Front-End Development","Content Authoring",none
+SCT-005,1.3.1,A,"Heading markup is only used for text which acts as a section heading.",Development,,"Front-End Development","User Experience (UX) Design",none
+SCT-006,1.3.1,A,"Heading markup is not used for formatting effects.",Development,,"Front-End Development",none,none
+SCT-007,1.3.1,A,"The headings used in a page provide a logical outline for the document.",Author,x,"Content Authoring","User Experience (UX) Design",none
+SCT-008,1.3.2,A,"The intended reading order of the content remains logical when CSS and images are turned off.",Development,,"Front-End Development",User Experience (UX) Design,none
+SCT-009,1.3.2,A,"The source code order reflects the intended reading order of the document.",Development,,"Front-End Development","User Experience (UX) Design",none
+SCT-010,1.3.3,A,"Site supports internationalization with multiple languages, including right-to-left languages.",Business,,"Business Analysis","User Experience (UX) Design","Content Authoring
+Visual Design"
+SCT-011,1.3.3,A,"Text direction is properly marked up as such, especially for right-to-left languages.",Development,,"Front-End Development",none,none
+SCT-012,1.3.3,A,Objects that rely on shape to be properly perceived are supported with additional text information.,Design,,"User Experience (UX) Design","Visual Design",Content Authoring
+SCT-013,1.3.3,A,Objects that rely on size to be properly perceived are supported with additional text information.,Design,,"User Experience (UX) Design","Visual Design",Content Authoring
+SCT-014,1.3.3,A,Objects that rely on visual location to be properly perceived are supported with additional text information.,Design,,"User Experience (UX) Design","Visual Design",Content Authoring
+SCT-015,1.3.3,A,Objects that rely on orientation to be properly perceived are supported with additional text information.,Design,,"User Experience (UX) Design","Visual Design",Content Authoring
+SCT-016,1.3.3,A,Objects that rely on sound to be properly perceived are supported with additional text information.,Design,,"User Experience (UX) Design","Content Authoring",none
+SCT-017,1.4.5,AA,Mathematical formulas are marked up using MathML.,Development,,"Front-End Development","Content Authoring",none
+SCT-018,1.4.8,AAA,Text content in design assets such as content blocks is left-aligned in left-to-right languages.,Design,,"Visual Design","User Experience (UX) Design",none
+SCT-019,1.4.8,AAA,Fully justified text can easily be changed to ragged right text with a simple action.,Design,,"User Experience (UX) Design","Front-End Development",none
+SCT-020,3.1.1,A,The primary language used in the document is properly identified using the lang attribute.,Development,,"Front-End Development",none,none
+SCT-021,3.1.1,A,The language definition of the document uses the correct value for language and locale.,Author,,"Content Authoring",none,none
+SCT-022,3.1.2,AA,Content passages that differ from the default are identified with the correct value for language and locale.,Author,,"Content Authoring","Front-End Development",none
+SCT-023,3.1.3,AAA,"Unusual words, phrases, and abbreviations are organized into a glossary.",Design,,"User Experience (UX) Design","Content Authoring",none
+SCT-024,3.1.3,AAA,Unusual words found in the content are linked to their definitions in a glossary.,Design,,"User Experience (UX) Design","Content Authoring",none
+SCT-025,3.1.4,AAA,Abbreviations are programmatically associated with their definition.,Development,,"Front-End Development",none,none
+SCT-026,3.1.5,AAA,"Content is written in plain language using everyday words, to help users with different literacy levels and access needs.",Author,x,"Content Authoring",none,none
+SCT-027,3.1.5,AAA,"Ideas conveyed through text are supported with illustrations or other visuals.",Design,,"Visual Design","User Experience (UX) Design 
+Content Authoring",none
+SCT-028,3.1.5,AAA,"Content is displayed and structured in a way that makes it easier to read.",Design,,"User Experience (UX) Design","Visual Design",none
+SCT-029,3.1.6,AAA,"Ambiguous words are supported by a mechanism that helps users identify their specific pronunciation.",Design,,"User Experience (UX) Design","Front-End Development",Content Authoring
+DYN-001,4.1.3,AA,Information conveyed by multimedia player controls are programmatically announced through assistive technologies.,Development,,"Front-End Development","User Experience (UX) Design",none
+DYN-002,4.1.3,AA,Status messages are announced by assistive technologies without affecting the focus.,Design,x,"User Experience (UX) Design","Front-End Development",none
+DYN-003,4.1.3,AA,"Status, toast, or similar messages are programmatically determined through WAI-ARIA roles or properties, so they can be presented to assistive technology users without receiving focus.",Development,x,"Front-End Development","User Experience (UX) Design",none

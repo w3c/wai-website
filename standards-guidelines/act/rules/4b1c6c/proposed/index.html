@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Iframe elements with identical accessible names have equivalent purpose[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Iframe elements with identical accessible names have equivalent purpose" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/4b1c6c/proposed/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/4b1c6c/proposed/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Iframe elements with identical accessible names have equivalent purpose" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Iframe elements with identical accessible names have equivalent purpose","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/4b1c6c/proposed/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-iframe-elements-with-identical-accessible-names-have-equivalent-purpose  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="ACT Rule">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#description">Description</a></li>
+                
+                <li><a href="#applicability">Applicability</a></li>
+                
+                <li><a href="#expectation">Expectation</a></li>
+                
+                <li><a href="#background">Background</a></li>
+                
+                <li><a href="#accessibility-requirements-mapping">Accessibility Requirements Mapping</a></li>
+                
+                <li><a href="#input-aspects">Input Aspects</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#glossary">Glossary</a></li>
+                
+                <li><a href="#ruleversions">Rule Versions</a></li>
+                
+                <li><a href="#implementations">Implementations</a></li>
+                
+                <li><a href="#usefullinks">Useful Links</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                  Proposed
+                
+                
+              </span>
+              
+              Iframe elements with identical accessible names have equivalent purpose
+            </h1>
+        </header>
+
+        <aside class="box"> 
+  <header class="box-h box-h-icon"> 
+    Rule Mapping 
+  </header>
+  <div class="box-i"> 
+   <p>This is an <strong>Atomic rule</strong>
+    to test
+    <strong>4.1.2: Name, Role, Value (Level A)</strong>
+  </p>
+  </div>
+ </aside>
+
+<h2 id="description">Description</h2>
+<p>This rule checks that <code class="language-plaintext highlighter-rouge">iframe</code> elements with identical accessible names embed the same resource or equivalent resources.</p>
+
+
+<h2 id="applicability">Applicability</h2>
+
+<p>This rule applies to any set of any two or more <code class="language-plaintext highlighter-rouge">iframe</code> elements which:</p>
+
+<ul>
+  <li>are in the same <a href="#web-page-html" title="Definition of web page (HTML)">web page (HTML)</a>; and</li>
+  <li>are <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in an accessibility tree</a>; and</li>
+  <li>that have <a href="#matching-characters" title="Definition of matching characters">matching</a> <a href="#accessible-name" title="Definition of accessible name">accessible names</a> that are not empty (<code class="language-plaintext highlighter-rouge">""</code>).</li>
+</ul>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">iframe</code> elements in each set of target elements embed the <a href="#same-resource" title="Definition of same resource">same resource</a> or <a href="#equivalent-resource">equivalent resources</a>.</p>
+
+<h2 id="background">Background</h2>
+
+<p>When determining if target elements embed the same resource, resolving the embedded resource includes any redirects that are instant.</p>
+
+<h3 id="assumptions">Assumptions</h3>
+
+<p>This rule assumes that, within the context of the test subject, the description provided by the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> of an <code class="language-plaintext highlighter-rouge">iframe</code> can only accurately describe one resource (notably, homonyms alone are not used as <code class="language-plaintext highlighter-rouge">iframe</code> names). Thus, if two or more <code class="language-plaintext highlighter-rouge">iframe</code> elements have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> but embed different resources, at least one of them does not describe its purpose.</p>
+
+<h3 id="accessibility-support">Accessibility Support</h3>
+
+<p>This rule assumes that assistive technologies are exposing all <code class="language-plaintext highlighter-rouge">iframe</code> elements on the page in the same way no matter which <a href="https://dom.spec.whatwg.org/#document-trees">document tree</a> they are in. If an assistive technology requires the user to “enter” an <code class="language-plaintext highlighter-rouge">iframe</code> or a <a href="https://dom.spec.whatwg.org/#shadow-tree" title="Definition of shadow tree">shadow tree</a> before exposing its content (notably nested <code class="language-plaintext highlighter-rouge">iframe</code>), then it is possible for two <code class="language-plaintext highlighter-rouge">iframe</code> to have identical name but embed different resources without failing <a href="https://www.w3.org/TR/WCAG22/#name-role-value" title="Success Criterion 4.1.2: Name, Role, Value">Success Criterion 4.1.2: Name, Role, Value</a> (if said <code class="language-plaintext highlighter-rouge">iframe</code> are in separate <a href="https://dom.spec.whatwg.org/#concept-document" title="Definition of document">documents</a> or <a href="https://dom.spec.whatwg.org/#shadow-tree" title="Definition of shadow tree">shadow trees</a>)</p>
+
+<h3 id="other-resources">Other Resources</h3>
+
+<ul>
+  <li><a href="https://drafts.csswg.org/css-scoping/">CSS Scoping Module Level 1 (editor’s draft)</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H64">H64: Using the title attribute of the frame and iframe elements</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html" title="Understanding Success Criterion 4.1.2: Name, Role, Value">Understanding Success Criterion 4.1.2: Name, Role, Value</a></li>
+</ul>
+
+<h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
+
+<ul class="act-requirements-list">
+  <li><details>
+    <summary><span>4.1.2 Name, Role, Value (Level A)</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/TR/WCAG22/#name-role-value">Learn more about 4.1.2 Name, Role, Value</a></li>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level A and higher.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: success criterion is not satisfied</li>
+        <li>All <code>passed</code> outcomes: success criterion needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: success criterion needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+</ul>
+
+<h2 id="input-aspects">Input Aspects</h2>
+
+<p>The following aspects are required in using this rule.</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-css">CSS Styling</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-text">Language</a></li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<details class="act-inline-assets">
+  <summary><span>These HTML files are used in several examples:</span></summary>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/iframe-unique-name-4b1c6c/page-one.html"><code class="language-plaintext highlighter-rouge">/test-assets/iframe-unique-name-4b1c6c/page-one.html</code></a>:</p>
+
+  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Page One<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="c">&lt;!-- Breadcrumb --&gt;</span>
+		Root &gt; Page One
+		<span class="nt">&lt;nav&gt;</span>
+			<span class="nt">&lt;ul&gt;</span>
+				<span class="nt">&lt;li&gt;</span>Home<span class="nt">&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;</span>Contact<span class="nt">&lt;/li&gt;</span>
+			<span class="nt">&lt;/ul&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>  </div>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/iframe-unique-name-4b1c6c/sub-dir/page-one.html"><code class="language-plaintext highlighter-rouge">/test-assets/iframe-unique-name-4b1c6c/sub-dir/page-one.html</code></a>:</p>
+
+  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Page One<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="c">&lt;!-- Breadcrumb --&gt;</span>
+		Root &gt; Sub Dir &gt; Page One
+		<span class="nt">&lt;nav&gt;</span>
+			<span class="nt">&lt;ul&gt;</span>
+				<span class="nt">&lt;li&gt;</span>Home<span class="nt">&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;</span>Contact<span class="nt">&lt;/li&gt;</span>
+			<span class="nt">&lt;/ul&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>  </div>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/iframe-unique-name-4b1c6c/page-one-copy.html"><code class="language-plaintext highlighter-rouge">/test-assets/iframe-unique-name-4b1c6c/page-one-copy.html</code></a>:</p>
+
+  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Page One<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="c">&lt;!-- Breadcrumb --&gt;</span>
+		Root &gt; Page One
+		<span class="nt">&lt;nav&gt;</span>
+			<span class="nt">&lt;ul&gt;</span>
+				<span class="nt">&lt;li&gt;</span>Home<span class="nt">&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;</span>Contact<span class="nt">&lt;/li&gt;</span>
+			<span class="nt">&lt;/ul&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>  </div>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/iframe-unique-name-4b1c6c/page-three-same-as-page-one.html"><code class="language-plaintext highlighter-rouge">/test-assets/iframe-unique-name-4b1c6c/page-three-same-as-page-one.html</code></a>:</p>
+
+  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Page One<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;nav&gt;</span>
+			<span class="nt">&lt;ul&gt;</span>
+				<span class="nt">&lt;li&gt;</span>Home<span class="nt">&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;</span>Contact<span class="nt">&lt;/li&gt;</span>
+			<span class="nt">&lt;/ul&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>  </div>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/iframe-unique-name-4b1c6c/advertising-one.html"><code class="language-plaintext highlighter-rouge">/test-assets/iframe-unique-name-4b1c6c/advertising-one.html</code></a>:</p>
+
+  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Advertising One<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;h1&gt;</span>This is my random advertising<span class="nt">&lt;/h1&gt;</span>
+		<span class="nt">&lt;p&gt;</span>Please, buy things!<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>  </div>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/iframe-unique-name-4b1c6c/advertising-two.html"><code class="language-plaintext highlighter-rouge">/test-assets/iframe-unique-name-4b1c6c/advertising-two.html</code></a>:</p>
+
+  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Advertising Two<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;h1&gt;</span>This is an other random advertising<span class="nt">&lt;/h1&gt;</span>
+		<span class="nt">&lt;p&gt;</span>Never know which content will appear because advertising are managed bu a third party.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;p&gt;</span>But please, buy more things!<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>  </div>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/iframe-unique-name-4b1c6c/page-two.html"><code class="language-plaintext highlighter-rouge">/test-assets/iframe-unique-name-4b1c6c/page-two.html</code></a>:</p>
+
+  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"IE=edge"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Page Two<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;article&gt;</span>
+			Lorem Ipsum...
+		<span class="nt">&lt;/article&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>  </div>
+
+</details>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/08c5575023e8bf16caabcf01a1c8d40fe6ecaf94.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute) and embed the same resource.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/40e3400d782be79d036ea5119ff231acb7884f21.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> and <code class="language-plaintext highlighter-rouge">aria-label</code> attributes) and embed the same resource.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">aria-label=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/f8d3c1afa946cf4fc97ef799aad6d9d090de6e8f.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">aria-labelledby</code> attribute and corresponding elements) and embed the same resource.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"desc-for-title"</span><span class="nt">&gt;</span>List of Contributors<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">aria-labelledby=</span><span class="s">"desc-for-title"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"desc-for-title1"</span><span class="nt">&gt;</span>List of Contributors<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">aria-labelledby=</span><span class="s">"desc-for-title1"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-4">Passed Example 4</h4>
+
+<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/380a799833429075d0e99667d1e0021008aab386.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute) and embed equivalent resources. Only the navigation options (bread crumbs and local sub menus) differ due to different placement in navigation hierarchy.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"Contact us"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"Contact us"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/sub-dir/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-5">Passed Example 5</h4>
+
+<p><a class="example-link" title="Passed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/72d5c95606c82e7570f3496c4cc02512b639aaf3.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute) and embed equivalent resources.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"Contact us"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"Contact us"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one-copy.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-6">Passed Example 6</h4>
+
+<p><a class="example-link" title="Passed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/5741786806bd13c329e3681a0e16f4ed326d7fee.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute) and embed the same resource. <code class="language-plaintext highlighter-rouge">src</code> attributes only differ due to trailing slashes, but resolves to the same resource after redirects caused by user agent.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"Contact us"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/sub-dir-2/"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"Contact us"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/sub-dir-2"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-7">Passed Example 7</h4>
+
+<p><a class="example-link" title="Passed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/1fe7e9b43510e6e25007a67611a5a0ace14c1fd0.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute) and embed equivalent resources. Resources differ by the amount of information available and/or a differently worded information.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"Contact us"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"Contact us"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-three-same-as-page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-8">Passed Example 8</h4>
+
+<p><a class="example-link" title="Passed Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/0b43ded650d5794255c23f97f2f1a39d9a19be4b.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute) and embed equivalent resources. Each <code class="language-plaintext highlighter-rouge">iframe</code> refers to a different url that referenced different advertising content (giving by a third party) but embed resources has equivalent purpose: showing an advertising.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"advertising"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/advertising-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"advertising"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/advertising-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-9">Passed Example 9</h4>
+
+<p><a class="example-link" title="Passed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/96600720258c71d467d82fda5d6d0037b7780ec3.html">Open in a new tab</a></p>
+
+<p>All three <code class="language-plaintext highlighter-rouge">iframe</code> elements have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. The second <code class="language-plaintext highlighter-rouge">iframe</code> (with <code class="language-plaintext highlighter-rouge">id</code> <code class="language-plaintext highlighter-rouge">"light"</code> ) is only part of the <a href="https://dom.spec.whatwg.org/#concept-light-tree" title="Definition of light tree">light tree</a>. When the <a href="https://dom.spec.whatwg.org/#shadow-tree" title="Definition of shadow tree">shadow tree</a> is attached to <code class="language-plaintext highlighter-rouge">host</code> and flattened, this <code class="language-plaintext highlighter-rouge">iframe</code> is overwritten and therefore not part of the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>. Hence, only the first and third <code class="language-plaintext highlighter-rouge">iframe</code> are considered by this rule and they both point to the <a href="#same-resource" title="Definition of same resource">same resource</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">id=</span><span class="s">"always"</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"host"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">id=</span><span class="s">"light"</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;script&gt;</span>
+	<span class="kd">const</span> <span class="nx">host</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">host</span><span class="dl">'</span><span class="p">)</span>
+	<span class="kd">const</span> <span class="nx">shadowRoot</span> <span class="o">=</span> <span class="nx">host</span><span class="p">.</span><span class="nf">attachShadow</span><span class="p">({</span> <span class="na">mode</span><span class="p">:</span> <span class="dl">'</span><span class="s1">open</span><span class="dl">'</span> <span class="p">})</span>
+	<span class="nx">shadowRoot</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span>
+		<span class="dl">'</span><span class="s1">&lt;iframe id="shadow" title="List of Contributors" src="/test-assets/iframe-unique-name-4b1c6c/page-one.html"&gt; &lt;/iframe&gt;</span><span class="dl">'</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-10">Passed Example 10</h4>
+
+<p><a class="example-link" title="Passed Example 10" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/21d4d4b931e9f06b5c4a008cb1989aa195c107b6.html">Open in a new tab</a></p>
+
+<p>The <a href="https://html.spec.whatwg.org/#browsing-context" title="Definition of browsing context">browsing context</a> of the <code class="language-plaintext highlighter-rouge">iframe</code> with <code class="language-plaintext highlighter-rouge">id</code> <code class="language-plaintext highlighter-rouge">"container"</code> has the <a href="https://html.spec.whatwg.org/#browsing-context" title="Definition of browsing context">browsing context</a> of the main <a href="https://dom.spec.whatwg.org/#concept-document" title="Definition of document">document</a> as an <a href="https://html.spec.whatwg.org/#ancestor-browsing-context" title="Definition of ancestor browsing context">ancestor browsing context</a>. Hence, they share the same <a href="https://html.spec.whatwg.org/#top-level-browsing-context" title="Definition of top level browsing context">top-level browsing context</a> (namely, the <a href="https://html.spec.whatwg.org/#browsing-context" title="Definition of browsing context">browsing context</a> of the main <a href="https://dom.spec.whatwg.org/#concept-document" title="Definition of document">document</a>) and are part of the same <a href="#web-page-html" title="Definition of web page (HTML)">web page (HTML)</a>. Therefore, both <code class="language-plaintext highlighter-rouge">iframe</code> with <code class="language-plaintext highlighter-rouge">id</code> <code class="language-plaintext highlighter-rouge">"top-level"</code> and <code class="language-plaintext highlighter-rouge">"nested"</code> are considered and, since they embed the same document, the rule passes.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">id=</span><span class="s">"top-level"</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/iframe&gt;</span>
+
+<span class="nt">&lt;iframe</span>
+	<span class="na">id=</span><span class="s">"container"</span>
+	<span class="na">srcdoc=</span><span class="s">"&lt;iframe id='nested' title='List of Contributors' src='/test-assets/iframe-unique-name-4b1c6c/page-one.html'&gt; &lt;/iframe&gt;"</span>
+<span class="nt">&gt;&lt;/iframe&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/c1cc2a71e88c5fec2bc41175d63339404747bf00.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute) but don’t embed equivalent resources.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-2">Failed Example 2</h4>
+
+<p><a class="example-link" title="Failed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/ac65ce86f38bce79d12b797567bb8d85875aab88.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">aria-label</code> attribute) but don’t embed equivalent resources.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">aria-label=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">aria-label=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-3">Failed Example 3</h4>
+
+<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/4d33680e81b31e47fc46d3b6543cc050e369525b.html">Open in a new tab</a></p>
+
+<p>Two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> and <code class="language-plaintext highlighter-rouge">aria-label</code> attributes) but don’t embed equivalent resources.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">aria-label=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-4">Failed Example 4</h4>
+
+<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/486f868f7a1f41507a2bc214eb94087a8e906b4c.html">Open in a new tab</a></p>
+
+<p>The <a href="https://html.spec.whatwg.org/#browsing-context" title="Definition of browsing context">browsing context</a> of the <code class="language-plaintext highlighter-rouge">iframe</code> with <code class="language-plaintext highlighter-rouge">id</code> <code class="language-plaintext highlighter-rouge">"container"</code> has the <a href="https://html.spec.whatwg.org/#browsing-context" title="Definition of browsing context">browsing context</a> of the main <a href="https://dom.spec.whatwg.org/#concept-document" title="Definition of document">document</a> as an <a href="https://html.spec.whatwg.org/#ancestor-browsing-context" title="Definition of ancestor browsing context">ancestor browsing context</a>. Hence, they share the same <a href="https://html.spec.whatwg.org/#top-level-browsing-context" title="Definition of top level browsing context">top-level browsing context</a> (namely, the <a href="https://html.spec.whatwg.org/#browsing-context" title="Definition of browsing context">browsing context</a> of the main <a href="https://dom.spec.whatwg.org/#concept-document" title="Definition of document">document</a>) and are part of the same <a href="#web-page-html" title="Definition of web page (HTML)">web page (HTML)</a>. Therefore, both <code class="language-plaintext highlighter-rouge">iframe</code> with <code class="language-plaintext highlighter-rouge">id</code> <code class="language-plaintext highlighter-rouge">"top-level"</code> and <code class="language-plaintext highlighter-rouge">"nested"</code> are considered and the rule fails.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">id=</span><span class="s">"top-level"</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/iframe&gt;</span>
+
+<span class="nt">&lt;iframe</span>
+	<span class="na">id=</span><span class="s">"container"</span>
+	<span class="na">srcdoc=</span><span class="s">"&lt;iframe id='nested' title='List of Contributors' src='/test-assets/iframe-unique-name-4b1c6c/page-two.html'&gt; &lt;/iframe&gt;"</span>
+<span class="nt">&gt;&lt;/iframe&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/3482a8bfa5017d02f2fc3d8a01560837b23ee9dd.html">Open in a new tab</a></p>
+
+<p>There is only one <code class="language-plaintext highlighter-rouge">iframe</code> element within the <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a>. Therefore, there is no set of two or more <code class="language-plaintext highlighter-rouge">iframe</code> elements with the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> and the rule is inapplicable.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
+
+<p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/bca9ffacff48445c9e4439b0611b4470c370e6ee.html">Open in a new tab</a></p>
+
+<p>Each of the two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> has a different <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute). Therefore, there is no set of two or more <code class="language-plaintext highlighter-rouge">iframe</code> elements with the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> and the rule is inapplicable.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors to Repository 1"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors to Repository 2"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
+
+<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/5aae37ddb5b9d51a41f090581101c1e6a4ee1763.html">Open in a new tab</a></p>
+
+<p>Each of the two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> has a different <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">aria-label</code> attribute). Therefore, there is no set of two or more <code class="language-plaintext highlighter-rouge">iframe</code> elements with the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> and the rule is inapplicable.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">aria-label=</span><span class="s">"List of Contributors to Repository 1"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">aria-label=</span><span class="s">"List of Contributors to Repository 2"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
+
+<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/2c65e532caf63bbf142e3bb8310f282366343ebb.html">Open in a new tab</a></p>
+
+<p>Each of the two <code class="language-plaintext highlighter-rouge">iframe</code> elements within the <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a> has a different <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">aria-labelledby</code> attribute and matching elements). Therefore, there is no set of two or more <code class="language-plaintext highlighter-rouge">iframe</code> elements with the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> and the rule is inapplicable.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"desc-for-title"</span><span class="nt">&gt;</span>List of Contributors<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">aria-labelledby=</span><span class="s">"desc-for-title"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"desc-for-title1"</span><span class="nt">&gt;</span>List of Reviewers<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">aria-labelledby=</span><span class="s">"desc-for-title1"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-5">Inapplicable Example 5</h4>
+
+<p><a class="example-link" title="Inapplicable Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/8d7d93263c8a22831292a0ac15ed4734d6c63b3b.html">Open in a new tab</a></p>
+
+<p>Both <code class="language-plaintext highlighter-rouge">iframe</code> elements have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a> (given by the <code class="language-plaintext highlighter-rouge">title</code> attribute) within the same <a href="https://dom.spec.whatwg.org/#document-trees" title="Definition of document tree">document tree</a>, but one of them is not <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a>. Therefore, there is no set of two or more <code class="language-plaintext highlighter-rouge">iframe</code> elements that are <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a> and have the same <a href="#accessible-name" title="Definition of accessible name">accessible name</a>, and the rule is inapplicable.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">aria-hidden=</span><span class="s">"true"</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-6">Inapplicable Example 6</h4>
+
+<p><a class="example-link" title="Inapplicable Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/497ad0044eedbb3a36326f153147a271f1619c71.html">Open in a new tab</a></p>
+
+<p>The <code class="language-plaintext highlighter-rouge">alt</code> attribute does not provide an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> for <code class="language-plaintext highlighter-rouge">iframe</code> elements. Therefore, these <code class="language-plaintext highlighter-rouge">iframe</code> elements do not have an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> and the rule is inapplicable.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">alt=</span><span class="s">"Some"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">alt=</span><span class="s">"Some"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-7">Inapplicable Example 7</h4>
+
+<p><a class="example-link" title="Inapplicable Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/f686e5e01a34866c49dabed05e5a840873c3c708.html">Open in a new tab</a></p>
+
+<p>The rule does not apply to <code class="language-plaintext highlighter-rouge">object</code> elements.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;object</span> <span class="na">title=</span><span class="s">"List of Contributors"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/object&gt;</span>
+
+	<span class="nt">&lt;object</span> <span class="na">aria-label=</span><span class="s">"List of Contributors Clone"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/object&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-8">Inapplicable Example 8</h4>
+
+<p><a class="example-link" title="Inapplicable Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/8f35b76114d0dd59fcd78d46c7af113838cc99ea.html">Open in a new tab</a></p>
+
+<p>These <code class="language-plaintext highlighter-rouge">iframe</code> elements do not have <a href="#accessible-name" title="Definition of accessible name">accessible names</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-9">Inapplicable Example 9</h4>
+
+<p><a class="example-link" title="Inapplicable Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/4b1c6c/ab3046bbe77ef23bb7b5ce9f79f53230e0a6a7d0.html">Open in a new tab</a></p>
+
+<p>These <code class="language-plaintext highlighter-rouge">iframe</code> elements are not <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a>, because of the <code class="language-plaintext highlighter-rouge">display:none</code> styling.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;iframe</span> <span class="na">style=</span><span class="s">"display:none;"</span> <span class="na">title=</span><span class="s">"Document One"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-one.html"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/iframe&gt;</span>
+
+	<span class="nt">&lt;iframe</span> <span class="na">style=</span><span class="s">"display:none;"</span> <span class="na">aria-label=</span><span class="s">"Document One"</span> <span class="na">src=</span><span class="s">"/test-assets/iframe-unique-name-4b1c6c/page-two.html"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="accessible-name">Accessible Name</h3>
+
+<p>The <em>accessible name</em> is the programmatically determined name of a user interface element that is <a href="#included-in-the-accessibility-tree">included in the accessibility tree</a>.</p>
+
+<p>The accessible name is calculated using the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>.</p>
+
+<p>For native markup languages, such as HTML and SVG, additional information on how to calculate the accessible name can be found in <a href="https://www.w3.org/TR/html-aam/#accessible-name-and-description-computation">HTML Accessibility API Mappings 1.0, Accessible Name and Description Computation (working draft)</a> and <a href="https://www.w3.org/TR/svg-aam/#mapping_additional">SVG Accessibility API Mappings, Name and Description (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/accessible-name/">examples of accessible name</a>.</p>
+
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>, each element always has an accessible name. When no accessible name is provided, the element will nonetheless be assigned an empty (<code class="language-plaintext highlighter-rouge">""</code>) one.</p>
+
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>, accessible names are <a href="https://www.w3.org/TR/accname-1.1/#terminology">flat string</a> trimmed of leading and trailing whitespace. Notably, it is not possible for a non-empty accessible name to be composed only of whitespace since these must be trimmed.</p>
+
+<h3 id="equivalent-resource">Equivalent resource</h3>
+
+<p>Non-identical resources can still be <em>equivalent resources</em> by equally complying to the expectation formed by the user when navigating to them, thus serving an equivalent purpose. This would usually involve that the advertised key content is the same.</p>
+
+<p>Web pages and documents (e.g. PDFs, office formats etc.) may be equivalent resources, even if the resources:</p>
+
+<ul>
+  <li>are located on different URLs, including different domains</li>
+  <li>present different navigation options, e.g. through bread crumbs or local sub menus</li>
+  <li>contain different amounts of information and/or differently worded information</li>
+  <li>use different layouts.</li>
+</ul>
+
+<p>If all resources cover the user’s expectations equally well, the resources are considered to be equivalent.</p>
+
+<p><strong>Note:</strong> The user’s expectations for the resource can be formed by different things, e.g. the name of the link leading to the resource, with or without the context around the link. This depends on the accessibility requirement that is tested.</p>
+
+<p><strong>Note:</strong> If the same content is presented in different formats or languages, the format or language itself is often part of the purpose of the content, e.g. an article as both HTML and PDF, an image in different sizes, or an article in two different languages. If getting the same content in different formats or languages is the purpose of having separate links, the resources are not equivalent.</p>
+
+<h3 id="focusable">Focusable</h3>
+
+<p>An element is <em>focusable</em> if one or both of the following are true:</p>
+
+<ul>
+  <li>the element is part of <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation">sequential focus navigation</a>; or</li>
+  <li>the element has a <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> that is not null.</li>
+</ul>
+
+<p><strong>Exception</strong>: Elements that lose focus and do not regain focus during a period of up to 1 second after gaining focus, without the user interacting with the page the element is on, are not considered <em>focusable</em>.</p>
+
+<p>Notes:</p>
+
+<ul>
+  <li>The 1 second time span is an arbitrary limit which is not included in WCAG. Given that scripts can manage the focus state of elements, testing the focusability of an element consistently would be impractical without a time limit.</li>
+  <li>The <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> of an element is the value of the <a href="https://html.spec.whatwg.org/#attr-tabindex">tabindex attribute</a> parsed using the <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">rules for parsing integers</a>. For the <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> to be different from null, it needs to be <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">parsed</a> without errors.</li>
+</ul>
+
+<h3 id="included-in-the-accessibility-tree">Included in the accessibility tree</h3>
+
+<p>Elements included in the accessibility tree of platform specific accessibility APIs are exposed to assistive technologies. This allows users of assistive technology to access the elements in a way that meets the requirements of the individual user.</p>
+
+<p>The general rules for when elements are included in the accessibility tree are defined in the <a href="https://www.w3.org/TR/core-aam/">core accessibility API mappings</a>. For native markup languages, such as HTML and SVG, additional rules for when elements are included in the accessibility tree can be found in the <a href="https://www.w3.org/TR/html-aam/">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/">SVG accessibility API mappings (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/included-in-the-accessibility-tree/">examples of included in the accessibility tree</a>.</p>
+
+<p><a href="#programmatically-hidden">Programmatically hidden</a> elements are removed from the accessibility tree. However, some browsers will leave <a href="#focusable">focusable</a> elements with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code> in the accessibility tree. Because they are hidden, these elements are considered <strong>not</strong> included in the accessibility tree. This may cause confusion for users of assistive technologies because they may still be able to interact with these focusable elements using sequential keyboard navigation, even though the element should not be included in the accessibility tree.</p>
+
+<h3 id="matching-characters">Matching characters</h3>
+
+<p>A sequence of characters is considered to <em>match</em> another if, after removing leading and trailing <a href="#whitespace" title="Definition of Whitespace">whitespace characters</a> and replacing remaining occurrences of one or more whitespace characters with a single space, the two sequences of characters are equal character-by-character, ignoring any differences in letter casing.</p>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>A conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> or one of its constituent test target. An outcome can be one of the five following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+  <li><strong>cantTell:</strong> Whether the rule is applicable, or not all expectations were met could not be fully determined by the tester.</li>
+  <li><strong>Untested</strong>: The tester has not attempted to evaluate the test subject.</li>
+</ul>
+
+<p><strong>Note</strong>: A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When a tester evaluates a test target it can also be reported as <code class="language-plaintext highlighter-rouge">cantTell</code> if the rule cannot be tested in its entirety. For example, when applicability was automated, but the expectations have to be evaluated manually.</p>
+
+<p>When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. If the tester is unable to determine whether there are test targets there will be one <code class="language-plaintext highlighter-rouge">cantTell</code> outcome. And when no evaluation has occurred the test target has one untested outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> always has one or more outcomes.</p>
+
+<p>Outcomes used in ACT Rules can be expressed using the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a> of the <a href="https://www.w3.org/TR/act-rules-format-1.1/#biblio-earl10-schema">EARL10-Schema</a>.</p>
+
+<h3 id="programmatically-hidden">Programmatically Hidden</h3>
+
+<p>An HTML element is <em>programmatically hidden</em> if either it has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">visibility</code> whose value is not <code class="language-plaintext highlighter-rouge">visible</code>; or at least one of the following is true for any of its <a href="https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor" title="DOM Definition of Inclusive Ancestor">inclusive ancestors</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>:</p>
+
+<ul>
+  <li>has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">display</code> of <code class="language-plaintext highlighter-rouge">none</code>; or</li>
+  <li>has an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code></li>
+</ul>
+
+<p><strong>Note</strong>: Contrary to the other conditions, the <code class="language-plaintext highlighter-rouge">visibility</code> CSS property may be reverted by descendants.</p>
+
+<p><strong>Note</strong>: The <a href="https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements">HTML standard suggests</a> setting the CSS <code class="language-plaintext highlighter-rouge">display</code> property to <code class="language-plaintext highlighter-rouge">none</code> for elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute. While not required by HTML, all modern browsers follow this suggestion. Because of this the <code class="language-plaintext highlighter-rouge">hidden</code> attribute is not used in this definition. In browsers that use this suggestion, overriding the CSS <code class="language-plaintext highlighter-rouge">display</code> property can reveal elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute.</p>
+
+<h3 id="same-resource">Same resource</h3>
+
+<p>Two or more resources can be the <em>same resource</em> even though the URLs for them are different. This can be due to URL parsing, server settings, redirects and DNS aliasing.</p>
+
+<p>If the <a href="https://html.spec.whatwg.org/#resolving-urls">parsed URLs</a> for two resources are identical, the resources are the same resource.</p>
+
+<p>Depending on the server, URLs can either be case-sensitive or case-insensitive, meaning that <code class="language-plaintext highlighter-rouge">&lt;a href="page1.html"&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;a href="Page1.html"&gt;</code> lead to either the same or two different pages.</p>
+
+<p>Fully parsed URLs can be different, but still lead to the same resource after making the HTTP request, due to redirects and DNS aliasing. For example, these URLs are all fully normalized: http://example.com/, http://www.example.com/, https://www.example.com/. The server can however be configured to serve the same site for http and https, and the same site for example.com and www.example.com. This is common, but not guaranteed.</p>
+
+<p>Some types of redirects are also caused by user agents, e.g. ensuring that http://example.com/ and http://example.com resolve to the same resource.</p>
+
+<p>On the other hand, identical relative URLs do not necessarily resolve to the same resource, even if they are in the same <a href="#web-page-html">web page (HTML)</a>. This happen because external content can be included through <code class="language-plaintext highlighter-rouge">iframe</code> and URLs in or out of it will resolve relatively to different base URLs.</p>
+
+<h3 id="web-page-html">Web page (HTML)</h3>
+
+<p>An <em>HTML <a href="https://www.w3.org/TR/WCAG22/#dfn-web-page-s">web page</a></em> is the set of all <a href="https://html.spec.whatwg.org/#fully-active">fully active</a> <a href="https://dom.spec.whatwg.org/#concept-document">documents</a> which share the same <a href="https://html.spec.whatwg.org/#top-level-browsing-context">top-level browsing context</a>.</p>
+
+<p><strong>Note:</strong> Nesting of browsing context mostly happens with <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code>. Thus a web page will most of the time be a “top-level” document and all its <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> (recursively).</p>
+
+<p><strong>Note:</strong> <a href="https://www.w3.org/TR/WCAG22/#dfn-web-page-s">Web pages</a> as defined by WCAG are not restricted to the HTML technology but can also include, <em>e.g.</em>, PDF or DOCX documents.</p>
+
+<p><strong>Note:</strong> Although web pages as defined here are sets of <a href="https://dom.spec.whatwg.org/#concept-document">documents</a> (and do not contain other kind of nodes), one can abusively write that any node is “in a web page” if it is a <a href="https://dom.spec.whatwg.org/#concept-shadow-including-descendant">shadow-including descendant</a> of a <a href="https://dom.spec.whatwg.org/#concept-document">document</a> that is part of that web page.</p>
+
+<h3 id="whitespace">Whitespace</h3>
+
+<p><em>Whitespace</em> are characters that have the Unicode “White_Space” property in the <a href="https://www.unicode.org/Public/UCD/latest/ucd/PropList.txt">Unicode properties list</a>.</p>
+
+<p>This includes:</p>
+
+<ul>
+  <li>all characters in the <a href="https://www.unicode.org/versions/Unicode11.0.0/ch04.pdf#G134153">Unicode Separator categories</a>, and</li>
+  <li>
+    <p>the following characters in the <a href="https://www.unicode.org/versions/Unicode11.0.0/ch04.pdf#G134153">Other, Control</a> category:</p>
+
+    <ul>
+      <li>Character tabulation (U+0009)</li>
+      <li>Line Feed (LF) (U+000A)</li>
+      <li>Line Tabulation (U+000B)</li>
+      <li>Form Feed (FF) (U+000C)</li>
+      <li>Carriage Return (CR) (U+000D)</li>
+      <li>Next Line (NEL) (U+0085)</li>
+    </ul>
+  </li>
+</ul>
+
+
+<h2 id="ruleversions">Rule Versions</h2>
+
+<p>This is the first version of this ACT rule.</p>
+<h2 id="implementations">Implementations</h2>
+  <p>This section is not part of the official rule. It is populated dynamically and 
+    not accounted for in the change history or the last modified date.</p>
+  <div class="scroll-wrap">
+    <table class="act-implementations">
+      <thead>
+        <tr>
+          <th>Implementation</th>
+          <th>Type</th>
+          <th>Consistency</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Alfa (fully automated) 0.104.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-4b1c6c"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Alfa (semi-automated) 0.104.0</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/alfa-assisted#breakdown-4b1c6c"><img alt="Alfa (semi-automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Axe DevTools Pro 4.37.1</td>
+            <td>Semi-automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-devtools-pro#breakdown-4b1c6c"><img alt="Axe DevTools Pro Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Axe-core 4.10.2</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-core#breakdown-4b1c6c"><img alt="Axe-core Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>QualWeb 3.0.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-4b1c6c"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator 17.4.0</td>
+            <td>Linter</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator#breakdown-4b1c6c"><img alt="Total Validator Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator (+Browser) 17.4.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-4b1c6c"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Webmate Accessibility Workbench </td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-4b1c6c"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+<h2 id="usefullinks">Useful Links</h2>
+<ul>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+4b1c6c+">
+    Github issues related to this rule
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues/new?title=%20[4b1c6c]">
+    Open a new issue
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/edit/develop/_rules/iframe-identical-name-equivalent-purpose-4b1c6c.md">
+    Propose a change to the rule
+  </a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-wcag-act@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 4b1c6c</p>
+<p><strong>Date:</strong> Updated 7 October 2025</p>
+<p><strong>Authors:</strong> <a href="https://github.com/audreymaniez">Audrey Maniez</a>, <a href="https://github.com/Jym77">Jean-Yves Moyen</a>, <a href="https://github.com/jkodu">Jey Nandakumar</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

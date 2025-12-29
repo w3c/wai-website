@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Provide Feedback | Cognitive Accessibility Design Pattern | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Provide Feedback" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="User Need I need rapid feedback or visual cues to indicate an event was successfully triggered. For example, I need to know when an email has been sent, otherwise it looks as if it has just disappeared. What to Do For each step in a process let the user know of its status and if it was successfully completed. How it Helps Making the result of each user action clear helps people with a variety of cognitive and learning disabilities. This includes: understand that their actions were processed (e.g., the click did something), prevent uncertainty or doubt regarding the outcome, and remember what they just did. For example, a user with age-related forgetfulness, may have difficulty remembering how the interface worked. So when they press the send button they may not feel confident that the form was submitted. Feedback, such as a thank you message, will tell them submission occurred and make them feel confident in the process. During a multi-step task this feedback (user-action feedback) can also assist people with attention or short-term cognitive and learning disabilities to remember what they are doing. For example, a user with early dementia may get distracted and then forget exactly where they were in the task. This user-action feedback helps re-orient them. It also helps them avoid leaving a task by reminding them that they are in a process, and where in the process they currently are. Provide easily-recognizable success or failure feedback with every user action. When possible, the feedback should use consistent and familiar design patterns. For example: After a step in a multi-step task is completed, breadcrumbs display a tick, or a checkmark next to that step’s name; and, if applicable, the title or the name of the next step is readily apparent. After a button is clicked, it should look depressed. (Note that if it is a toggle button, the state should also be programmatically determinable). After a form is submitted or an email message is sent, feedback communicating what just happened is provided, such as “Your application was submitted, thank you” or “Your email message was sent”. More Details The success or failure of every user initiated action is clearly indicated to the user by visual, programmatically-determinable, rapid feedback in the primary modalities of the content. Audio feedback is supported. Examples Use: Visual state feedback. Use CSS and WAI-ARIA [[wai-aria-1.2]] states such as aria-pressed and aria-selected, to gives a visual change that shows the change in state. For example: Buttons and tabs with a visually clear state when selected. Messages that let the user know if a task is completed. For example: Confirmation messages when an email message is successfully sent, or a form is successfully submitted. Visible and programmatically-determinable information to show that a new password is set. Avoid: State changes without visual feedback. Task succeeds or fails without feedback." />
+<meta property="og:description" content="User Need I need rapid feedback or visual cues to indicate an event was successfully triggered. For example, I need to know when an email has been sent, otherwise it looks as if it has just disappeared. What to Do For each step in a process let the user know of its status and if it was successfully completed. How it Helps Making the result of each user action clear helps people with a variety of cognitive and learning disabilities. This includes: understand that their actions were processed (e.g., the click did something), prevent uncertainty or doubt regarding the outcome, and remember what they just did. For example, a user with age-related forgetfulness, may have difficulty remembering how the interface worked. So when they press the send button they may not feel confident that the form was submitted. Feedback, such as a thank you message, will tell them submission occurred and make them feel confident in the process. During a multi-step task this feedback (user-action feedback) can also assist people with attention or short-term cognitive and learning disabilities to remember what they are doing. For example, a user with early dementia may get distracted and then forget exactly where they were in the task. This user-action feedback helps re-orient them. It also helps them avoid leaving a task by reminding them that they are in a process, and where in the process they currently are. Provide easily-recognizable success or failure feedback with every user action. When possible, the feedback should use consistent and familiar design patterns. For example: After a step in a multi-step task is completed, breadcrumbs display a tick, or a checkmark next to that step’s name; and, if applicable, the title or the name of the next step is readily apparent. After a button is clicked, it should look depressed. (Note that if it is a toggle button, the state should also be programmatically determinable). After a form is submitted or an email message is sent, feedback communicating what just happened is provided, such as “Your application was submitted, thank you” or “Your email message was sent”. More Details The success or failure of every user initiated action is clearly indicated to the user by visual, programmatically-determinable, rapid feedback in the primary modalities of the content. Audio feedback is supported. Examples Use: Visual state feedback. Use CSS and WAI-ARIA [[wai-aria-1.2]] states such as aria-pressed and aria-selected, to gives a visual change that shows the change in state. For example: Buttons and tabs with a visually clear state when selected. Messages that let the user know if a task is completed. For example: Confirmation messages when an email message is successfully sent, or a form is successfully submitted. Visible and programmatically-determinable information to show that a new password is set. Avoid: State changes without visual feedback. Task succeeds or fails without feedback." />
+<link rel="canonical" href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p10-status-feedback/" />
+<meta property="og:url" content="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p10-status-feedback/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-12-19T17:20:32+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Provide Feedback" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"dateModified":"2025-12-19T17:20:32+00:00","datePublished":"2025-12-19T17:20:32+00:00","description":"User Need I need rapid feedback or visual cues to indicate an event was successfully triggered. For example, I need to know when an email has been sent, otherwise it looks as if it has just disappeared. What to Do For each step in a process let the user know of its status and if it was successfully completed. How it Helps Making the result of each user action clear helps people with a variety of cognitive and learning disabilities. This includes: understand that their actions were processed (e.g., the click did something), prevent uncertainty or doubt regarding the outcome, and remember what they just did. For example, a user with age-related forgetfulness, may have difficulty remembering how the interface worked. So when they press the send button they may not feel confident that the form was submitted. Feedback, such as a thank you message, will tell them submission occurred and make them feel confident in the process. During a multi-step task this feedback (user-action feedback) can also assist people with attention or short-term cognitive and learning disabilities to remember what they are doing. For example, a user with early dementia may get distracted and then forget exactly where they were in the task. This user-action feedback helps re-orient them. It also helps them avoid leaving a task by reminding them that they are in a process, and where in the process they currently are. Provide easily-recognizable success or failure feedback with every user action. When possible, the feedback should use consistent and familiar design patterns. For example: After a step in a multi-step task is completed, breadcrumbs display a tick, or a checkmark next to that step’s name; and, if applicable, the title or the name of the next step is readily apparent. After a button is clicked, it should look depressed. (Note that if it is a toggle button, the state should also be programmatically determinable). After a form is submitted or an email message is sent, feedback communicating what just happened is provided, such as “Your application was submitted, thank you” or “Your email message was sent”. More Details The success or failure of every user initiated action is clearly indicated to the user by visual, programmatically-determinable, rapid feedback in the primary modalities of the content. Audio feedback is supported. Examples Use: Visual state feedback. Use CSS and WAI-ARIA [[wai-aria-1.2]] states such as aria-pressed and aria-selected, to gives a visual change that shows the change in state. For example: Buttons and tabs with a visually clear state when selected. Messages that let the user know if a task is completed. For example: Confirmation messages when an email message is successfully sent, or a form is successfully submitted. Visible and programmatically-determinable information to show that a new password is set. Avoid: State changes without visual feedback. Task succeeds or fails without feedback.","headline":"Provide Feedback","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p10-status-feedback/"},"url":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p10-status-feedback/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-provide-feedback resource-patterns tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      
+          Supplemental Guidance to WCAG 2
+        
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Additional ways to improve accessibility, not required to meet WCAG)
+      </p>
+    
+  </div>
+  
+  <a class="minimal-header-link" href="/WAI/WCAG2/supplemental/about/">About Supplemental Guidance and WCAG</a>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+          
+          <nav class="nav standalone-resource-pager" aria-label="Cognitive Accessibility Design Pattern">
+            <ul>
+                <li class="nav__item">
+                    <a href="/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance"><img src="/WAI/content-images/wai-wcag-supplemental/brain.svg" alt="" class="category-icon">All Cognitive</a>
+                
+                </li>
+
+                
+                    
+
+
+
+
+
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/objectives/o4-minimize-mistakes/"><svg focusable="false" aria-hidden="true" class="icon-arrow-up-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up-thin"></use></svg> Objective: Help Users Avoid Mistakes and Know How to Correct Them</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o4p09-data-loss/"><svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-left-thin"></use></svg> Previous Pattern</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o4p11-user-safety/">Next Pattern <svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-right-thin"></use></svg></a></li>
+                    
+                
+            </ul>
+          </nav>
+        
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#userneed">User Need</a></li>
+                
+                <li><a href="#whattodo">What to Do</a></li>
+                
+                <li><a href="#howithelps">How it Helps</a></li>
+                
+                <li><a href="#moredetails">More Details</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#userstoriesandpersonas">User Stories and Personas</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                Cognitive Accessibility Design Pattern:
+              </span>
+              
+              Provide Feedback
+            </h1>
+        </header>
+
+        <section>
+  <h2 id="userneed">User Need</h2>
+  <blockquote>
+    <p>
+      I need rapid feedback or visual cues to indicate an event was successfully
+      triggered. For example, I need to know when an email has been sent,
+      otherwise it looks as if it has just disappeared.
+    </p>
+  </blockquote>
+  
+</section>
+<section class="wtd">
+  <h2 id="whattodo">What to Do</h2>
+  <p>
+    For each step in a process let the user know of its status and if it was
+    successfully completed.
+  </p>
+</section>
+<section>
+  <h2 id="howithelps">How it Helps</h2>
+  Making the result of each user action clear helps people with a variety of
+  cognitive and learning disabilities. This includes:
+  <ul>
+    <li>
+      understand that their actions were processed (e.g., the click did
+      something),
+    </li>
+    <li>prevent uncertainty or doubt regarding the outcome, and</li>
+    <li>remember what they just did.</li>
+  </ul>
+  <p>
+    For example, a user with age-related forgetfulness, may have
+    difficulty remembering how the interface worked. So when they press the send
+    button they may not feel confident that the form was submitted. Feedback,
+    such as a thank you message, will tell them submission occurred and make
+    them feel confident in the process.
+  </p>
+  <p>
+    During a multi-step task this feedback (user-action feedback) can also
+    assist people with attention or short-term
+    cognitive and learning disabilities to remember what they are doing.
+    For example, a user with early dementia may get distracted and then forget
+    exactly where they were in the task. This user-action feedback helps
+    re-orient them. It also helps them avoid leaving a task by reminding them
+    that they are in a process, and where in the process they currently are.
+  </p>
+  <p>
+    Provide easily-recognizable success or failure feedback with every user
+    action. When possible, the feedback should use consistent and familiar
+    design patterns. For example:
+  </p>
+  <ul>
+    <li>
+      After a step in a multi-step task is completed, breadcrumbs display a
+      tick, or a checkmark next to that step’s name; and, if applicable, the
+      title or the name of the next step is readily apparent.
+    </li>
+    <li>
+      After a button is clicked, it should look depressed. (Note that if it is a
+      toggle button, the state should also be programmatically determinable).
+    </li>
+    <li>
+      After a form is submitted or an email message is sent, feedback
+      communicating what just happened is provided, such as “Your application
+      was submitted, thank you” or “Your email message was sent”.
+    </li>
+  </ul>
+</section>
+<section>
+  <h2 id="moredetails">More Details</h2>
+  <p>
+    The success or failure of every user initiated action is clearly indicated
+    to the user by visual, programmatically-determinable, rapid feedback in the
+    primary modalities of the content. Audio feedback is supported.
+  </p>
+</section>
+<section>
+  <h2 id="examples">Examples</h2>
+  <p><span class="use"></span><strong>Use:</strong></p>
+  <ol>
+    <li>
+      Visual state feedback. Use CSS and WAI-ARIA [[wai-aria-1.2]] states such
+      as aria-pressed and aria-selected, to gives a visual change that shows the
+      change in state. For example: Buttons and tabs with a visually clear state
+      when selected.
+    </li>
+    <li>
+      Messages that let the user know if a task is completed. For example:
+      <ul>
+        <li>
+          Confirmation messages when an email message is successfully sent, or a
+          form is successfully submitted.
+        </li>
+        <li>
+          Visible and programmatically-determinable information to show that a
+          new password is set.
+        </li>
+      </ul>
+    </li>
+  </ol>
+  <p><span class="avoid"></span><strong>Avoid:</strong></p>
+  <ol>
+    <li>State changes without visual feedback.</li>
+    <li>Task succeeds or fails without feedback.</li>
+  </ol>
+</section>
+
+
+
+<section>
+    <h2 id="userstoriesandpersonas">User Stories and Personas</h2>
+
+    
+    
+        <h3>User Story</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                
+            
+        </ul>
+    
+        <h3>Personas</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#alison-an-aging-user-with-mild-cognitive-impairment">Alison
+                                :
+                                
+                                An Aging User with Mild Cognitive Impairment
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#george-a-user-who-works-in-a-supermarket-and-has-down-syndrome">George
+                                
+                                
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#gopal-a-retired-lawyer-with-dementia">Gopal
+                                :
+                                
+                                A Retired Lawyer with Dementia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#jonathan-a-therapist-with-dyscalculia">Jonathan
+                                :
+                                
+                                A Therapist with Dyscalculia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#kwame-a-traumatic-brain-injury-survivor">Kwame
+                                :
+                                
+                                A Traumatic Brain Injury Survivor
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#maria-a-user-who-has-memory-loss">Maria
+                                :
+                                
+                                A User who has Memory Loss
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#sam-a-librarian-who-has-a-hemiplegia-and-aphasia">Sam
+                                :
+                                
+                                A Librarian who has a Hemiplegia and Aphasia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#tal-a-student-who-has-dyslexia-and-impaired-eye-hand-coordination">Tal
+                                :
+                                
+                                A Student who has Dyslexia and Impaired Eye Hand Coordination
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#yuki-a-yoga-teacher-who-has-ad-h-d">Yuki
+                                :
+                                
+                                A Yoga Teacher who has AD(H)D
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+
+    <h3>Glossary</h3>
+    <ul>
+        <li><a href="https://www.w3.org/TR/coga-usable/#glossary">Cognitive Accessibility Glossary<svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a></li>
+    </ul>
+</section>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-cognitive-a11y-tf@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/wai-wcag-supplemental/edit/main/_collections/_patterns/o4p10-status-feedback.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wai-wcag-supplemental/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p10-status-feedback/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Date:</strong> Content first published 29 April 2021 in <a href="https://www.w3.org/TR/coga-usable/">Making Content  Usable for People with Cognitive and Learning Disabilities</a> ("Content Usable"). This user interface posted in January 2022.</p> <p>This content is from the "Content Usable" Working Group Note by Cognitive and Learning Disabilities Accessibility Task Force  (<a href="https://www.w3.org/groups/tf/cognitive-a11y-tf">Coga TF</a>) <a href="https://www.w3.org/groups/tf/cognitive-a11y-tf/participants">participants</a>. It is published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>) and the  Accessible Platform Architectures (<a href="https://www.w3.org/groups/wg/apa">APA</a>) Working Group. This user interface was  designed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>) with contributions from Steve Lee, Hidde de Vries, Shadi Abou-Zahra, and Shawn Lawton Henry, as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/"> WAI-Guide project</a>, co-funded by the European Commission.</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

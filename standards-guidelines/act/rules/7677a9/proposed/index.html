@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Device motion based changes to the content can also be created from the user interface[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Device motion based changes to the content can also be created from the user interface" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/7677a9/proposed/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/7677a9/proposed/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Device motion based changes to the content can also be created from the user interface" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Device motion based changes to the content can also be created from the user interface","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/7677a9/proposed/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-device-motion-based-changes-to-the-content-can-also-be-created-from-the-user-interface  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="ACT Rule">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#description">Description</a></li>
+                
+                <li><a href="#applicability">Applicability</a></li>
+                
+                <li><a href="#expectation">Expectation</a></li>
+                
+                <li><a href="#background">Background</a></li>
+                
+                <li><a href="#accessibility-requirements-mapping">Accessibility Requirements Mapping</a></li>
+                
+                <li><a href="#input-aspects">Input Aspects</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#glossary">Glossary</a></li>
+                
+                <li><a href="#ruleversions">Rule Versions</a></li>
+                
+                <li><a href="#implementations">Implementations</a></li>
+                
+                <li><a href="#usefullinks">Useful Links</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                  Proposed
+                
+                
+              </span>
+              
+              Device motion based changes to the content can also be created from the user interface
+            </h1>
+        </header>
+
+        <aside class="box"> 
+  <header class="box-h box-h-icon"> 
+    Rule Mapping 
+  </header>
+  <div class="box-i"> 
+   <p>This is an <strong>Atomic rule</strong>
+    to test
+    <strong>2.5.4: Motion Actuation (Level A)</strong>
+  </p>
+  </div>
+ </aside>
+
+<h2 id="description">Description</h2>
+<p>This rule checks that changes to the content of a web page that result from device motion events can also be caused by user interface components.</p>
+
+
+<h2 id="applicability">Applicability</h2>
+
+<p>This rule applies to any <a href="https://dom.spec.whatwg.org/#concept-document">HTML document</a> with an associated <a href="https://html.spec.whatwg.org/multipage/window-object.html#dom-window">Window object</a> that has an <a href="https://dom.spec.whatwg.org/#eventtarget-event-listener-list">event listener list</a> with one or more <a href="https://dom.spec.whatwg.org/#concept-event-listener">event listeners</a> for <a href="https://www.w3.org/TR/orientation-event/#deviceorientation" title="Definition of device orientation event">device orientation events</a> or <a href="https://www.w3.org/TR/orientation-event/#devicemotion" title="Definition of device motion event">device motion events</a>.</p>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>For each registered <a href="https://www.w3.org/TR/orientation-event/#deviceorientation" title="Definition of device orientation event">device orientation event</a> or <a href="https://www.w3.org/TR/orientation-event/#devicemotion" title="Definition of device motion event">device motion event</a> in the test target at least one of the following is true:</p>
+
+<ul>
+  <li><strong>no changes:</strong> The registered event does not cause <a href="#changes-in-content" title="Definition of changes in content">changes to the content</a> of the <a href="#web-page-html" title="Definition of web page">web page</a>; or</li>
+  <li><strong>same result:</strong> There is at least one set of <a href="#instrument-to-achieve-an-objective" title="Definition of instrument to achieve an objective">instruments</a>, where each <a href="#instrument-to-achieve-an-objective" title="Definition of instrument to achieve an objective">instrument</a> is in the same <a href="#web-page-html" title="Definition of web page">web page</a> of the registered event or can be found in a <a href="#clearly-labeled-location" title="Definition of clearly labeled location">clearly labeled location</a> from that <a href="#web-page-html" title="Definition of web page">web page</a>, causing the same <a href="#changes-in-content" title="Definition of changes in content">changes in content</a> as the event.</li>
+</ul>
+
+<h2 id="background">Background</h2>
+
+<p>The <a href="#instrument-to-achieve-an-objective" title="Definition of instrument to achieve an objective">instruments</a> used to pass this rule (if any), must meet all level A Success Criteria in order to fully satisfy <a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html">Success Criterion 2.5.4: Motion Actuation</a>. These extra requirements are left out of this rule, and should be tested separately.</p>
+
+<h3 id="assumptions">Assumptions</h3>
+
+<ul>
+  <li>The motion to operate the device is not used through an <a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation#dfn-accessibility-supported">accessibility supported</a> interface, which is listed as a valid exception to <a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html">Success Criterion 2.5.4: Motion Actuation</a>.</li>
+  <li>The motion is not <a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html#dfn-essential">essential</a> for the functionality it triggers, which is listed as a valid exception to <a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html">Success Criterion 2.5.4: Motion Actuation</a>.</li>
+  <li>This rule assumes that there are no changes in the content of the <a href="#web-page-html" title="Definition of web page">web page</a> caused by another <a href="https://dom.spec.whatwg.org/#concept-event" title="Definition of event">event</a>. If this is not the case, changes may be attributed to the wrong <a href="https://dom.spec.whatwg.org/#concept-event" title="Definition of event">event</a> and the rule may fail while <a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html">Success Criterion 2.5.4: Motion Actuation</a> is still satisfied.</li>
+  <li>This rule assumes that the changes happen within a 1 minute time span after the <a href="https://dom.spec.whatwg.org/#concept-event" title="Definition of event">event</a> <a href="https://dom.spec.whatwg.org/#concept-event-fire" title="Definition of event firing">firing</a> and therefore the comparison between the page before and after the <a href="https://dom.spec.whatwg.org/#concept-event" title="Definition of event">event</a> <a href="https://dom.spec.whatwg.org/#concept-event-fire" title="Definition of event firing">firing</a> can be made at any time after that time span elapses. If there are changes after this time span, they may not be detected as <a href="#changes-in-content" title="Definition of changes in content">changes in content</a> and the rule may pass but <a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html">Success Criterion 2.5.4: Motion Actuation</a> is not satisfied. The arbitrary 1 minute time span, selected so that testing this rule would not be impractical, is not included in WCAG.</li>
+</ul>
+
+<h3 id="accessibility-support">Accessibility Support</h3>
+
+<p>There are no accessibility support issues known.</p>
+
+<h3 id="other-resources">Other Resources</h3>
+
+<ul>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html">Understanding Success Criterion 2.5.4: Motion Actuation</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G213.html">G213: Provide conventional controls and an application setting for motion activated input</a></li>
+  <li><a href="https://www.w3.org/TR/orientation-event/">DeviceOrientation Event Specification</a></li>
+</ul>
+
+<h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
+
+<ul class="act-requirements-list">
+  <li><details>
+    <summary><span>2.5.4 Motion Actuation (Level A)</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/TR/WCAG22/#motion-actuation">Learn more about 2.5.4 Motion Actuation</a></li>
+      <li><strong>Required for conformance</strong> to WCAG 2.1 and later on level A and higher.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: success criterion is not satisfied</li>
+        <li>All <code>passed</code> outcomes: success criterion needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: success criterion needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+</ul>
+
+<h2 id="input-aspects">Input Aspects</h2>
+
+<p>The following aspects are required in using this rule.</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-css">CSS Styling</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-accessibility">Accessibility tree</a></li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<details class="act-inline-assets">
+  <summary><span>This Javascript file is used in several examples:</span></summary>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/7677a9/slider.js"><code class="language-plaintext highlighter-rouge">/test-assets/7677a9/slider.js</code></a>:</p>
+
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">changeSlider</span><span class="p">(</span><span class="nx">amount</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">motionSlider</span><span class="dl">'</span><span class="p">).</span><span class="nx">value</span> <span class="o">+=</span> <span class="nx">amount</span>
+	<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">output</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">motionSlider</span><span class="dl">'</span><span class="p">).</span><span class="nx">value</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">increaseSlider</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nf">changeSlider</span><span class="p">(</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">decreaseSlider</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nf">changeSlider</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">applyChange</span><span class="p">(</span><span class="nx">gamma</span><span class="p">,</span> <span class="nx">threshold</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if </span><span class="p">(</span><span class="nx">gamma</span> <span class="o">&gt;</span> <span class="nx">threshold</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nf">increaseSlider</span><span class="p">()</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if </span><span class="p">(</span><span class="nx">gamma</span> <span class="o">&lt;</span> <span class="o">-</span><span class="nx">threshold</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nf">decreaseSlider</span><span class="p">()</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">handleOrientation</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nf">applyChange</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">gamma</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">handleOrientationCanBeDisabled</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">disableMotion</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">disableMotion</span><span class="dl">'</span><span class="p">)</span>
+	<span class="k">if </span><span class="p">(</span><span class="o">!</span><span class="nx">disableMotion</span><span class="p">.</span><span class="nx">checked</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nf">applyChange</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">gamma</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">handleMotion</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nf">applyChange</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">rotationRate</span><span class="p">.</span><span class="nx">gamma</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">handleMotionCanBeDisabled</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">disableMotion</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">disableMotion</span><span class="dl">'</span><span class="p">)</span>
+	<span class="k">if </span><span class="p">(</span><span class="o">!</span><span class="nx">disableMotion</span><span class="p">.</span><span class="nx">checked</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nf">applyChange</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">rotationRate</span><span class="p">.</span><span class="nx">gamma</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>  </div>
+
+</details>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/7677a9/0c6bdb9bd6aa5ccc33b456cd8ca3ad6407ae7f2e.html">Open in a new tab</a></p>
+
+<p>This <a href="https://dom.spec.whatwg.org/#concept-document">HTML document</a> has device orientation events that cause <strong>no changes</strong> to the content of the web page.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Passed Example 1<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;script&gt;</span>
+			<span class="kd">function</span> <span class="nf">activateEvent</span><span class="p">()</span> <span class="p">{</span>
+				<span class="kd">let</span> <span class="nx">counter</span> <span class="o">=</span> <span class="mi">0</span>
+				<span class="nb">window</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">deviceorientation</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+					<span class="nx">counter</span><span class="o">++</span>
+				<span class="p">})</span>
+			<span class="p">}</span>
+		<span class="nt">&lt;/script&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+
+	<span class="nt">&lt;body</span> <span class="na">onload=</span><span class="s">"activateEvent();"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;p&gt;</span>ACT-R<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;p&gt;</span>Note: This example may not work across all browsers.<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/7677a9/97bfdaeddce617521aa5ea3e1f26449f21048685.html">Open in a new tab</a></p>
+
+<p>This <a href="https://dom.spec.whatwg.org/#concept-document">HTML document</a> that can be operated through the device’s orientation to increase and decrease the value of a slider has the <strong>same result</strong> available through <code class="language-plaintext highlighter-rouge">button</code> elements.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Passed Example 2<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/test-assets/7677a9/slider.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+		<span class="nt">&lt;script&gt;</span>
+			<span class="kd">function</span> <span class="nf">activateSlider</span><span class="p">()</span> <span class="p">{</span>
+				<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">decreaseSlider</span><span class="dl">'</span><span class="p">).</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">decreaseSlider</span><span class="p">)</span>
+				<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">increaseSlider</span><span class="dl">'</span><span class="p">).</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">increaseSlider</span><span class="p">)</span>
+				<span class="nb">window</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">deviceorientation</span><span class="dl">'</span><span class="p">,</span> <span class="nx">handleOrientation</span><span class="p">)</span>
+			<span class="p">}</span>
+		<span class="nt">&lt;/script&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+
+	<span class="nt">&lt;body</span> <span class="na">onload=</span><span class="s">"activateSlider();"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">"output"</span><span class="nt">&gt;&lt;/pre&gt;</span>
+
+		<span class="nt">&lt;h1&gt;</span>Slider Motion Sensor Example<span class="nt">&lt;/h1&gt;</span>
+
+		<span class="nt">&lt;p&gt;</span>
+			Open this slider on a device with a motion sensor, such as a smart phone or tablet. Tilt the device to the right
+			and left to adjust the slider value. The decrease and increase buttons also adjust the value.
+		<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;p&gt;</span>Note: This example may not work across all browsers.<span class="nt">&lt;/p&gt;</span>
+
+		<span class="nt">&lt;div&gt;</span>
+			<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"decreaseSlider"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Decrease Value<span class="nt">&lt;/button&gt;</span>
+			<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"range"</span> <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"100"</span> <span class="na">value=</span><span class="s">"50"</span> <span class="na">id=</span><span class="s">"motionSlider"</span> <span class="na">disabled</span> <span class="nt">/&gt;</span>
+			<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"increaseSlider"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Increase Value<span class="nt">&lt;/button&gt;</span>
+			<span class="nt">&lt;p</span> <span class="na">aria-live=</span><span class="s">"polite"</span><span class="nt">&gt;</span>Slider Value: <span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"output"</span><span class="nt">&gt;</span>50<span class="nt">&lt;/span&gt;&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/7677a9/491d1a634215dd07b1ac48d8e6edcf2aafff1d74.html">Open in a new tab</a></p>
+
+<p>This <a href="https://dom.spec.whatwg.org/#concept-document">HTML document</a> that can be operated by rotating the device to increase and decrease the value of a slider has the <strong>same result</strong> available through <code class="language-plaintext highlighter-rouge">button</code> elements.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Passed Example 3<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/test-assets/7677a9/slider.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+		<span class="nt">&lt;script&gt;</span>
+			<span class="kd">function</span> <span class="nf">activateSlider</span><span class="p">()</span> <span class="p">{</span>
+				<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">decreaseSlider</span><span class="dl">'</span><span class="p">).</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">decreaseSlider</span><span class="p">)</span>
+				<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">increaseSlider</span><span class="dl">'</span><span class="p">).</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">increaseSlider</span><span class="p">)</span>
+				<span class="nb">window</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">devicemotion</span><span class="dl">'</span><span class="p">,</span> <span class="nx">handleMotion</span><span class="p">)</span>
+			<span class="p">}</span>
+		<span class="nt">&lt;/script&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+
+	<span class="nt">&lt;body</span> <span class="na">onload=</span><span class="s">"activateSlider();"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">"output"</span><span class="nt">&gt;&lt;/pre&gt;</span>
+
+		<span class="nt">&lt;h1&gt;</span>Slider Motion Sensor Example<span class="nt">&lt;/h1&gt;</span>
+
+		<span class="nt">&lt;p&gt;</span>
+			Open this slider on a device with a motion sensor, such as a smart phone or tablet. Rotate the device to adjust
+			the slider value. The decrease and increase buttons also adjust the value.
+		<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;p&gt;</span>Note: This example may not work across all browsers.<span class="nt">&lt;/p&gt;</span>
+
+		<span class="nt">&lt;div&gt;</span>
+			<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"decreaseSlider"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Decrease Value<span class="nt">&lt;/button&gt;</span>
+			<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"range"</span> <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"100"</span> <span class="na">value=</span><span class="s">"50"</span> <span class="na">id=</span><span class="s">"motionSlider"</span> <span class="na">disabled</span> <span class="nt">/&gt;</span>
+			<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"increaseSlider"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Increase Value<span class="nt">&lt;/button&gt;</span>
+			<span class="nt">&lt;p</span> <span class="na">aria-live=</span><span class="s">"polite"</span><span class="nt">&gt;</span>Slider Value: <span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"output"</span><span class="nt">&gt;</span>50<span class="nt">&lt;/span&gt;&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-4">Passed Example 4</h4>
+
+<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/7677a9/2cad7ce1a800c77cfe9cf5798f4fe842d01c8ac5.html">Open in a new tab</a></p>
+
+<p>This <a href="https://dom.spec.whatwg.org/#concept-document">HTML document</a> can be operated by rotating the device to increase and decrease the value of a slider and the location of an <a href="#instrument-to-achieve-an-objective" title="Definition of instrument to achieve an objective">instrument</a> to support the <strong>same results</strong> is clearly available.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Passed Example 4<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/test-assets/7677a9/slider.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+		<span class="nt">&lt;script&gt;</span>
+			<span class="kd">function</span> <span class="nf">activateSlider</span><span class="p">()</span> <span class="p">{</span>
+				<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">decreaseSlider</span><span class="dl">'</span><span class="p">).</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">decreaseSlider</span><span class="p">)</span>
+				<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">increaseSlider</span><span class="dl">'</span><span class="p">).</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">increaseSlider</span><span class="p">)</span>
+				<span class="nb">window</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">devicemotion</span><span class="dl">'</span><span class="p">,</span> <span class="nx">handleMotion</span><span class="p">)</span>
+			<span class="p">}</span>
+			<span class="kd">function</span> <span class="nf">openModal</span><span class="p">()</span> <span class="p">{</span>
+				<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">overlay</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">block</span><span class="dl">'</span>
+			<span class="p">}</span>
+			<span class="kd">function</span> <span class="nf">closeModal</span><span class="p">()</span> <span class="p">{</span>
+				<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">overlay</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">none</span><span class="dl">'</span>
+			<span class="p">}</span>
+		<span class="nt">&lt;/script&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+
+	<span class="nt">&lt;body</span> <span class="na">onload=</span><span class="s">"activateSlider();"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">"output"</span><span class="nt">&gt;&lt;/pre&gt;</span>
+
+		<span class="nt">&lt;h1&gt;</span>Slider Motion Sensor Example<span class="nt">&lt;/h1&gt;</span>
+
+		<span class="nt">&lt;p&gt;</span>
+			Open this slider on a device with a motion sensor, such as a smart phone or tablet. Rotate the device to adjust
+			the slider value. Activate the control panel to access decrease and increase buttons that also adjust the value.
+		<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">onclick=</span><span class="s">"openModal()"</span> <span class="na">value=</span><span class="s">"Control panel"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;p&gt;</span>Note: This example may not work across all browsers.<span class="nt">&lt;/p&gt;</span>
+
+		<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"range"</span> <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"100"</span> <span class="na">value=</span><span class="s">"50"</span> <span class="na">id=</span><span class="s">"motionSlider"</span> <span class="na">disabled</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;p</span> <span class="na">aria-live=</span><span class="s">"polite"</span><span class="nt">&gt;</span>Slider Value: <span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"output"</span><span class="nt">&gt;</span>50<span class="nt">&lt;/span&gt;&lt;/p&gt;</span>
+
+		<span class="nt">&lt;div</span>
+			<span class="na">style=</span><span class="s">"
+        display: none;
+        position: fixed;
+        top: 17em;
+        left: 1em;
+        background-color: #505050;
+        color: white;
+        padding: 0.5em;
+      "</span>
+			<span class="na">id=</span><span class="s">"overlay"</span>
+		<span class="nt">&gt;</span>
+			<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"decreaseSlider"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Decrease Value<span class="nt">&lt;/button&gt;</span>
+			<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"increaseSlider"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Increase Value<span class="nt">&lt;/button&gt;</span>
+			<span class="nt">&lt;button</span> <span class="na">onclick=</span><span class="s">"closeModal();"</span><span class="nt">&gt;</span>Dismiss<span class="nt">&lt;/button&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/7677a9/66dc2996d42b9dc2a5488716d8505186272d2a5b.html">Open in a new tab</a></p>
+
+<p>This <a href="https://dom.spec.whatwg.org/#concept-document">HTML document</a> that can be operated through the device’s orientation to increase and decrease the value of a slider has not other way to achieve the <strong>same result</strong>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Failed Example 1<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/test-assets/7677a9/slider.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+		<span class="nt">&lt;script&gt;</span>
+			<span class="kd">function</span> <span class="nf">activateSlider</span><span class="p">()</span> <span class="p">{</span>
+				<span class="nb">window</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">deviceorientation</span><span class="dl">'</span><span class="p">,</span> <span class="nx">handleOrientation</span><span class="p">)</span>
+			<span class="p">}</span>
+		<span class="nt">&lt;/script&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+
+	<span class="nt">&lt;body</span> <span class="na">onload=</span><span class="s">"activateSlider();"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">"output"</span><span class="nt">&gt;&lt;/pre&gt;</span>
+
+		<span class="nt">&lt;h1&gt;</span>Slider Motion Sensor Example<span class="nt">&lt;/h1&gt;</span>
+
+		<span class="nt">&lt;p&gt;</span>
+			Open this slider on a device with a motion sensor, such as a smart phone or tablet. Tilt the device to the right
+			and left to adjust the slider value.
+		<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;p&gt;</span>Note: This example may not work across all browsers.<span class="nt">&lt;/p&gt;</span>
+
+		<span class="nt">&lt;div&gt;</span>
+			<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"range"</span> <span class="na">min=</span><span class="s">"1"</span> <span class="na">max=</span><span class="s">"100"</span> <span class="na">value=</span><span class="s">"50"</span> <span class="na">id=</span><span class="s">"motionSlider"</span> <span class="na">disabled</span> <span class="nt">/&gt;</span>
+			<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"increaseSlider"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Increase Value<span class="nt">&lt;/button&gt;</span>
+			<span class="nt">&lt;p</span> <span class="na">aria-live=</span><span class="s">"polite"</span><span class="nt">&gt;</span>Slider Value: <span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"output"</span><span class="nt">&gt;</span>50<span class="nt">&lt;/span&gt;&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/7677a9/2694ab357e8e65b63d04049518396248d45b8091.html">Open in a new tab</a></p>
+
+<p>This <a href="https://dom.spec.whatwg.org/#concept-document">HTML document</a> is not operable by device motion.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>ACT-Rules<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="changes-in-content">Changes in content</h3>
+
+<p>A <em><a href="https://dom.spec.whatwg.org/#concept-event" title="Definition of event">event</a> originated change in the content</em> of a <a href="#web-page-html" title="Definition of web page">web page</a> occurs when, by comparing the <a href="#web-page-html" title="Definition of web page">web page</a> before and 1 minute after the event <a href="https://dom.spec.whatwg.org/#concept-event-fire" title="Definition of event firing">firing</a>, at least one of the following occurs:</p>
+
+<ul>
+  <li><strong>visible changes:</strong> the rendered pixels change in any part of the document that is currently within the <a href="https://drafts.csswg.org/css2/visuren.html#viewport" title="Definition of viewport">viewport</a> or that can be brought into the <a href="https://drafts.csswg.org/css2/visuren.html#viewport" title="Definition of viewport">viewport</a> via scrolling; or</li>
+  <li><strong>accessibility tree changes:</strong> any state, property or event of a node representing an <a href="https://www.w3.org/TR/accname-1.1/#dfn-accessible-object" title="Definition of accessible object">accessible object</a> of the <a href="https://www.w3.org/TR/accname-1.1/#dfn-accessibility-tree" title="Definition of accessibility tree">accessibility tree</a> changes, or any node is inserted in, or removed from the <a href="https://www.w3.org/TR/accname-1.1/#dfn-accessibility-tree" title="Definition of accessibility tree">accessibility tree</a>; or</li>
+  <li>
+    <p><strong>audible changes:</strong> the audio rendered by the <a href="#web-page-html" title="Definition of web page">web page</a> changes.</p>
+  </li>
+  <li>If the <a href="#web-page-html" title="Definition of web page">web page</a> is rendering time-based media, rendered pixels and audio will be changing as part of the playback. The comparison in this instance should compare the pixels and audio that are rendered if the event is not fired, with the ones that are rendered if the event is fired.</li>
+</ul>
+
+<p><strong>Assumptions:</strong></p>
+
+<ul>
+  <li>This definition assumes that there are no changes in the content of the <a href="#web-page-html" title="Definition of web page">web page</a> caused by another <a href="https://dom.spec.whatwg.org/#concept-event" title="Definition of event">event</a>. If this is not the case, changes may be attributed to the wrong event.</li>
+  <li>This definition assumes that the changes happen within a 1 minute time span after the event firing and therefore the comparison between the page before and after the event firing can be made at any time after that time span elapses. If there are changes after this time span, this definition may not detect them. The arbitrary 1 minute time span, selected so that testing this rule would not be impractical, is not included in WCAG.</li>
+</ul>
+
+<h3 id="clearly-labeled-location">Clearly labeled location</h3>
+
+<p>Secondary information and alternative controls of functionality are often not displayed together with primary information or functionality. For example, an option to change a web page to dark mode may be placed on an options page instead of being available on every page and page state of a website. Another example is a maps application, where, instead of using GPS, an option is available in a dropdown menu to set the current location of the device. Such content should be placed in a clearly labeled location.</p>
+
+<p>The location of a target is said to be <em>clearly labeled</em> when the target can be found by activating “identifiable” <a href="#instrument-to-achieve-an-objective" title="Definition of instrument to achieve an objective">instruments</a> which either lead the user to find the target, or to another <a href="#web-page-html" title="Definition of web page">page</a> or page state from which this action can be repeated until the target is found.</p>
+
+<p>Whether or not the content is “clearly labeled” depends on the starting point of the search. If page A has a link which clearly “identifies” some piece of content, then the location of the content is clearly labeled. Page B, which can be in the same website, may not have such a link or may have a link with a link text that does not “identify” target content or which can be interpreted to “identify” more than one target, and so the location of the content starting from page B is not clearly labeled.</p>
+
+<p>For the purpose of this definition, an <a href="#instrument-to-achieve-an-objective" title="Definition of instrument to achieve an objective">instrument</a> is <em>identifiable</em> if any text or other content with a <a href="https://www.w3.org/TR/WCAG22/#dfn-text-alternative" title="Definition of text alternative">text alternative</a>, allows any user to identify an element with a <a href="#semantic-role" title="Definition of semantic role">semantic role</a> that inherits from <code class="language-plaintext highlighter-rouge">widget</code>.</p>
+
+<p>A <a href="#web-page-html" title="Definition of web page">web page</a> changes state when the <a href="https://html.spec.whatwg.org/#dom-document-body">document’s body</a> changes without a change in the <a href="https://url.spec.whatwg.org/#concept-url">document’s URL</a>.</p>
+
+<h3 id="explicit-role">Explicit Semantic Role</h3>
+
+<p>The <em>explicit semantic role</em> of an element is determined by its <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> (if any).</p>
+
+<p>The <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> takes a list of tokens. The explicit semantic role is the first valid role in this list. The valid roles are all non-abstract roles from <a href="#wai-aria-specifications" title="Definition of WAI-ARIA specifications">WAI-ARIA Specifications</a>. If the element has no <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a>, or if it has one with no valid role, then this element has no explicit semantic role.</p>
+
+<p>Other roles may be added as they become available. Not all roles will be supported in all assistive technologies. Testers are encouraged to adjust which roles are allowed according to the <a href="https://www.w3.org/TR/WCAG-EM/#step1c" title="Definition of accessibility support base line">accessibility support base line</a>. For the purposes of executing examples in all rules, it should be assumed that all roles are supported by assistive technologies so that none of the roles fail due to lack of accessibility support.</p>
+
+<h3 id="focusable">Focusable</h3>
+
+<p>An element is <em>focusable</em> if one or both of the following are true:</p>
+
+<ul>
+  <li>the element is part of <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation">sequential focus navigation</a>; or</li>
+  <li>the element has a <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> that is not null.</li>
+</ul>
+
+<p><strong>Exception</strong>: Elements that lose focus and do not regain focus during a period of up to 1 second after gaining focus, without the user interacting with the page the element is on, are not considered <em>focusable</em>.</p>
+
+<p>Notes:</p>
+
+<ul>
+  <li>The 1 second time span is an arbitrary limit which is not included in WCAG. Given that scripts can manage the focus state of elements, testing the focusability of an element consistently would be impractical without a time limit.</li>
+  <li>The <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> of an element is the value of the <a href="https://html.spec.whatwg.org/#attr-tabindex">tabindex attribute</a> parsed using the <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">rules for parsing integers</a>. For the <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> to be different from null, it needs to be <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">parsed</a> without errors.</li>
+</ul>
+
+<h3 id="implicit-role">Implicit Semantic Role</h3>
+
+<p>The <em>implicit semantic role</em> of an element is a pre-defined value given by the host language which depends on the element and its ancestors.</p>
+
+<p>Implicit roles for HTML and SVG, are documented in the <a href="https://www.w3.org/TR/html-aam/#html-element-role-mappings">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/#mapping_role_table">SVG accessibility API mappings (working draft)</a>.</p>
+
+<h3 id="included-in-the-accessibility-tree">Included in the accessibility tree</h3>
+
+<p>Elements included in the accessibility tree of platform specific accessibility APIs are exposed to assistive technologies. This allows users of assistive technology to access the elements in a way that meets the requirements of the individual user.</p>
+
+<p>The general rules for when elements are included in the accessibility tree are defined in the <a href="https://www.w3.org/TR/core-aam/">core accessibility API mappings</a>. For native markup languages, such as HTML and SVG, additional rules for when elements are included in the accessibility tree can be found in the <a href="https://www.w3.org/TR/html-aam/">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/">SVG accessibility API mappings (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/included-in-the-accessibility-tree/">examples of included in the accessibility tree</a>.</p>
+
+<p><a href="#programmatically-hidden">Programmatically hidden</a> elements are removed from the accessibility tree. However, some browsers will leave <a href="#focusable">focusable</a> elements with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code> in the accessibility tree. Because they are hidden, these elements are considered <strong>not</strong> included in the accessibility tree. This may cause confusion for users of assistive technologies because they may still be able to interact with these focusable elements using sequential keyboard navigation, even though the element should not be included in the accessibility tree.</p>
+
+<h3 id="instrument-to-achieve-an-objective">Instrument to achieve an objective</h3>
+
+<p>An <a href="https://html.spec.whatwg.org/multipage/dom.html#htmlelement">HTML element</a> that when <a href="https://html.spec.whatwg.org/#activation">activated</a> allows an end-user to achieve an objective.</p>
+
+<p><strong>Note</strong>: Any rule that uses this definition must provide an unambiguous description of the objective the instrument is used to achieve.</p>
+
+<h3 id="marked-as-decorative">Marked as decorative</h3>
+
+<p>An element is <em>marked as decorative</em> if one or more of the following conditions is true:</p>
+
+<ul>
+  <li>it has an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a> of <code class="language-plaintext highlighter-rouge">none</code> or <code class="language-plaintext highlighter-rouge">presentation</code>; or</li>
+  <li>it is an <code class="language-plaintext highlighter-rouge">img</code> element with an <code class="language-plaintext highlighter-rouge">alt</code> attribute whose value is the empty string (<code class="language-plaintext highlighter-rouge">alt=""</code>), and with no <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>.</li>
+</ul>
+
+<p>Elements are marked as decorative as a way to convey the intention of the author that they are <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a>. It is different from the element actually being <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a> as authors may make mistakes. It is different from the element being effectively ignored by assistive technologies as rules such as <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">presentational roles conflict resolution</a> may overwrite this intention.</p>
+
+<p>Elements can also be ignored by assistive technologies if they are <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>. This is different from marking the element as decorative and does not convey the same intention. Notably, being <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a> may change as users interact with the page (showing and hiding elements) while being marked as decorative should stay the same through all states of the page.</p>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>A conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> or one of its constituent test target. An outcome can be one of the five following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+  <li><strong>cantTell:</strong> Whether the rule is applicable, or not all expectations were met could not be fully determined by the tester.</li>
+  <li><strong>Untested</strong>: The tester has not attempted to evaluate the test subject.</li>
+</ul>
+
+<p><strong>Note</strong>: A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When a tester evaluates a test target it can also be reported as <code class="language-plaintext highlighter-rouge">cantTell</code> if the rule cannot be tested in its entirety. For example, when applicability was automated, but the expectations have to be evaluated manually.</p>
+
+<p>When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. If the tester is unable to determine whether there are test targets there will be one <code class="language-plaintext highlighter-rouge">cantTell</code> outcome. And when no evaluation has occurred the test target has one untested outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> always has one or more outcomes.</p>
+
+<p>Outcomes used in ACT Rules can be expressed using the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a> of the <a href="https://www.w3.org/TR/act-rules-format-1.1/#biblio-earl10-schema">EARL10-Schema</a>.</p>
+
+<h3 id="programmatically-hidden">Programmatically Hidden</h3>
+
+<p>An HTML element is <em>programmatically hidden</em> if either it has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">visibility</code> whose value is not <code class="language-plaintext highlighter-rouge">visible</code>; or at least one of the following is true for any of its <a href="https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor" title="DOM Definition of Inclusive Ancestor">inclusive ancestors</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>:</p>
+
+<ul>
+  <li>has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">display</code> of <code class="language-plaintext highlighter-rouge">none</code>; or</li>
+  <li>has an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code></li>
+</ul>
+
+<p><strong>Note</strong>: Contrary to the other conditions, the <code class="language-plaintext highlighter-rouge">visibility</code> CSS property may be reverted by descendants.</p>
+
+<p><strong>Note</strong>: The <a href="https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements">HTML standard suggests</a> setting the CSS <code class="language-plaintext highlighter-rouge">display</code> property to <code class="language-plaintext highlighter-rouge">none</code> for elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute. While not required by HTML, all modern browsers follow this suggestion. Because of this the <code class="language-plaintext highlighter-rouge">hidden</code> attribute is not used in this definition. In browsers that use this suggestion, overriding the CSS <code class="language-plaintext highlighter-rouge">display</code> property can reveal elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute.</p>
+
+<h3 id="semantic-role">Semantic Role</h3>
+
+<p>The <em>semantic role</em> of an element is determined by the first of these cases that applies:</p>
+
+<ol>
+  <li><strong>Conflict</strong> If the element is <a href="#marked-as-decorative" title="Definition of Marked as Decorative">marked as decorative</a>, but the element is <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a>; or would be <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a> when it is not <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>, then its <em>semantic role</em> is its <strong><a href="#implicit-role" title="Definition of Implicit Role">implicit role</a></strong>.</li>
+  <li><strong>Explicit</strong> If the element has an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>, then its <em>semantic role</em> is its <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>.</li>
+  <li><strong>Implicit</strong> The <em>semantic role</em> of the element is its <a href="#implicit-role" title="Definition of Implicit Role">implicit role</a>.</li>
+</ol>
+
+<p>This definition can be used in expressions such as “semantic <code class="language-plaintext highlighter-rouge">button</code>” meaning any element with a semantic role of <code class="language-plaintext highlighter-rouge">button</code>.</p>
+
+<h3 id="wai-aria-specifications">WAI-ARIA specifications</h3>
+
+<p>The <em>WAI ARIA Specifications</em> group both the WAI ARIA W3C Recommendation and ARIA modules, namely:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/wai-aria-1.2/">Accessible Rich Internet Applications (WAI-ARIA) 1.2</a></li>
+  <li><a href="https://www.w3.org/TR/graphics-aria-1.0/">WAI-ARIA Graphics Module 1.0</a></li>
+  <li><a href="https://www.w3.org/TR/dpub-aria-1.0/">Digital Publishing WAI-ARIA Module 1.0</a></li>
+</ul>
+
+<p><strong>Note:</strong> depending on the type of content being evaluated, part of the specifications might be irrelevant and should be ignored.</p>
+
+<h3 id="web-page-html">Web page (HTML)</h3>
+
+<p>An <em>HTML <a href="https://www.w3.org/TR/WCAG22/#dfn-web-page-s">web page</a></em> is the set of all <a href="https://html.spec.whatwg.org/#fully-active">fully active</a> <a href="https://dom.spec.whatwg.org/#concept-document">documents</a> which share the same <a href="https://html.spec.whatwg.org/#top-level-browsing-context">top-level browsing context</a>.</p>
+
+<p><strong>Note:</strong> Nesting of browsing context mostly happens with <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code>. Thus a web page will most of the time be a “top-level” document and all its <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> (recursively).</p>
+
+<p><strong>Note:</strong> <a href="https://www.w3.org/TR/WCAG22/#dfn-web-page-s">Web pages</a> as defined by WCAG are not restricted to the HTML technology but can also include, <em>e.g.</em>, PDF or DOCX documents.</p>
+
+<p><strong>Note:</strong> Although web pages as defined here are sets of <a href="https://dom.spec.whatwg.org/#concept-document">documents</a> (and do not contain other kind of nodes), one can abusively write that any node is “in a web page” if it is a <a href="https://dom.spec.whatwg.org/#concept-shadow-including-descendant">shadow-including descendant</a> of a <a href="https://dom.spec.whatwg.org/#concept-document">document</a> that is part of that web page.</p>
+
+
+<h2 id="ruleversions">Rule Versions</h2>
+
+<p>This is the first version of this ACT rule.</p>
+<h2 id="implementations">Implementations</h2>
+  <p>This section is not part of the official rule. It is populated dynamically and 
+    not accounted for in the change history or the last modified date.</p>
+  <div class="scroll-wrap">
+    <table class="act-implementations">
+      <thead>
+        <tr>
+          <th>Implementation</th>
+          <th>Type</th>
+          <th>Consistency</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2.5.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-7677a9"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+<h2 id="usefullinks">Useful Links</h2>
+<ul>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+7677a9+">
+    Github issues related to this rule
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues/new?title=%20[7677a9]">
+    Open a new issue
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/edit/develop/_rules/device-motion-user-interface-7677a9.md">
+    Propose a change to the rule
+  </a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-wcag-act@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 7677a9</p>
+<p><strong>Date:</strong> Updated 7 October 2025</p>
+<p><strong>Authors:</strong> <a href="https://github.com/carlosapaduarte">Carlos Duarte</a>, <a href="https://github.com/joao-vicente">João Vicente</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

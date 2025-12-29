@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Avoid Too Much Content | Cognitive Accessibility Design Pattern | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Avoid Too Much Content" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="User Need I need to find it easy to identify the content that I need, and do not need. Information I need to know and important information stands out, or is the first thing I read and does not get lost in the noise of less important information. What to Do Keep the interface simple. Provide users with five or less main choices on each screen and remove unnecessary content. This can be provided via a simplified version, as an alternative that is generated in real time from the same code base as the main content. Extra links that do not relate to the main purpose of the page should be limited to the footer section. Extra choices can also be hidden under a “more” link or other clear and descriptive titles. How it Helps Busy pages, too much text, too many images and too much other content can cause cognitive overload, anxiety and loss of focus. Keeping content down to a small number of important points reduces the clutter, calms the user, and allows for better understanding while aiding memory. For example, it can help slow readers or those with a short attention span, who may leave the page if it appears complex. Simplified content and a consistent simple design helps reduce cognitive overload and decreases stress and mental fatigue. For example, a person with early stage dementia goes to their doctor’s application. There are five choices on the screen: appointments, ask your doctor a question, test results, approvals and more. Each option has an icon, clear text, and is separated by whitespace. In two clicks they have asked their doctor their question. They can easily select what they need without asking for help. More options are also available if they swipe left. However, they are unlikely to do so. More Details Avoiding long paragraphs, lots of choices, and non-meaningful imagery ensures those with cognitive and learning disabilities can concentrate on the important points being made. Keeping to a few short bullet points and limiting to one or two images related to the main subject areas of a web site or service allows the user to choose whether to explore the site further." />
+<meta property="og:description" content="User Need I need to find it easy to identify the content that I need, and do not need. Information I need to know and important information stands out, or is the first thing I read and does not get lost in the noise of less important information. What to Do Keep the interface simple. Provide users with five or less main choices on each screen and remove unnecessary content. This can be provided via a simplified version, as an alternative that is generated in real time from the same code base as the main content. Extra links that do not relate to the main purpose of the page should be limited to the footer section. Extra choices can also be hidden under a “more” link or other clear and descriptive titles. How it Helps Busy pages, too much text, too many images and too much other content can cause cognitive overload, anxiety and loss of focus. Keeping content down to a small number of important points reduces the clutter, calms the user, and allows for better understanding while aiding memory. For example, it can help slow readers or those with a short attention span, who may leave the page if it appears complex. Simplified content and a consistent simple design helps reduce cognitive overload and decreases stress and mental fatigue. For example, a person with early stage dementia goes to their doctor’s application. There are five choices on the screen: appointments, ask your doctor a question, test results, approvals and more. Each option has an icon, clear text, and is separated by whitespace. In two clicks they have asked their doctor their question. They can easily select what they need without asking for help. More options are also available if they swipe left. However, they are unlikely to do so. More Details Avoiding long paragraphs, lots of choices, and non-meaningful imagery ensures those with cognitive and learning disabilities can concentrate on the important points being made. Keeping to a few short bullet points and limiting to one or two images related to the main subject areas of a web site or service allows the user to choose whether to explore the site further." />
+<link rel="canonical" href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p03-manageable-quantity/" />
+<meta property="og:url" content="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p03-manageable-quantity/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-12-19T17:20:32+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Avoid Too Much Content" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"dateModified":"2025-12-19T17:20:32+00:00","datePublished":"2025-12-19T17:20:32+00:00","description":"User Need I need to find it easy to identify the content that I need, and do not need. Information I need to know and important information stands out, or is the first thing I read and does not get lost in the noise of less important information. What to Do Keep the interface simple. Provide users with five or less main choices on each screen and remove unnecessary content. This can be provided via a simplified version, as an alternative that is generated in real time from the same code base as the main content. Extra links that do not relate to the main purpose of the page should be limited to the footer section. Extra choices can also be hidden under a “more” link or other clear and descriptive titles. How it Helps Busy pages, too much text, too many images and too much other content can cause cognitive overload, anxiety and loss of focus. Keeping content down to a small number of important points reduces the clutter, calms the user, and allows for better understanding while aiding memory. For example, it can help slow readers or those with a short attention span, who may leave the page if it appears complex. Simplified content and a consistent simple design helps reduce cognitive overload and decreases stress and mental fatigue. For example, a person with early stage dementia goes to their doctor’s application. There are five choices on the screen: appointments, ask your doctor a question, test results, approvals and more. Each option has an icon, clear text, and is separated by whitespace. In two clicks they have asked their doctor their question. They can easily select what they need without asking for help. More options are also available if they swipe left. However, they are unlikely to do so. More Details Avoiding long paragraphs, lots of choices, and non-meaningful imagery ensures those with cognitive and learning disabilities can concentrate on the important points being made. Keeping to a few short bullet points and limiting to one or two images related to the main subject areas of a web site or service allows the user to choose whether to explore the site further.","headline":"Avoid Too Much Content","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p03-manageable-quantity/"},"url":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p03-manageable-quantity/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-avoid-too-much-content resource-patterns tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      
+          Supplemental Guidance to WCAG 2
+        
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Additional ways to improve accessibility, not required to meet WCAG)
+      </p>
+    
+  </div>
+  
+  <a class="minimal-header-link" href="/WAI/WCAG2/supplemental/about/">About Supplemental Guidance and WCAG</a>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+          
+          <nav class="nav standalone-resource-pager" aria-label="Cognitive Accessibility Design Pattern">
+            <ul>
+                <li class="nav__item">
+                    <a href="/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance"><img src="/WAI/content-images/wai-wcag-supplemental/brain.svg" alt="" class="category-icon">All Cognitive</a>
+                
+                </li>
+
+                
+                    
+
+
+
+
+
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/objectives/o5-user-focus/"><svg focusable="false" aria-hidden="true" class="icon-arrow-up-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up-thin"></use></svg> Objective: Help Users Focus</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o5p02-short-paths/"><svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-left-thin"></use></svg> Previous Pattern</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o5p04-task-expectations/">Next Pattern <svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-right-thin"></use></svg></a></li>
+                    
+                
+            </ul>
+          </nav>
+        
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#userneed">User Need</a></li>
+                
+                <li><a href="#whattodo">What to Do</a></li>
+                
+                <li><a href="#howithelps">How it Helps</a></li>
+                
+                <li><a href="#moredetails">More Details</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#userstoriesandpersonas">User Stories and Personas</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                Cognitive Accessibility Design Pattern:
+              </span>
+              
+              Avoid Too Much Content
+            </h1>
+        </header>
+
+        <section>
+  <h2 id="userneed">User Need</h2>
+  <blockquote>
+    <p>
+      I need to find it easy to identify the content that I need, and do not
+      need. Information I need to know and important information stands out, or
+      is the first thing I read and does not get lost in the noise of less
+      important information.
+    </p>
+  </blockquote>
+  
+</section>
+<section class="wtd">
+  <h2 id="whattodo">What to Do</h2>
+  <p>
+    Keep the interface simple. Provide users with five or less main choices on
+    each screen and remove unnecessary content. This can be provided via a
+    simplified version, as an alternative that is generated in real time from
+    the same code base as the main content.
+  </p>
+  <p>
+    Extra links that do not relate to the main purpose of the page should be
+    limited to the footer section. Extra choices can also be hidden under a
+    “more” link or other clear and descriptive titles.
+  </p>
+</section>
+<section>
+  <h2 id="howithelps">How it Helps</h2>
+  <p>
+    Busy pages, too much text, too many images and too much other content can
+    cause cognitive overload, anxiety and loss of focus. Keeping content down to
+    a small number of important points reduces the clutter, calms the user, and
+    allows for better understanding while aiding memory. For example, it can
+    help slow readers or those with a short attention span, who may leave the
+    page if it appears complex.
+  </p>
+  <p>
+    Simplified content and a consistent simple design helps reduce cognitive
+    overload and decreases stress and mental fatigue. For example, a person with
+    early stage dementia goes to their doctor’s application. There are
+    five choices on the screen: appointments, ask your doctor a question, test
+    results, approvals and more. Each option has an icon, clear text, and is
+    separated by whitespace. In two clicks they have asked their doctor their
+    question. They can easily select what they need without asking for help.
+    More options are also available if they swipe left. However, they are
+    unlikely to do so.
+  </p>
+</section>
+<section>
+  <h2 id="moredetails">More Details</h2>
+  <p>
+    Avoiding long paragraphs, lots of choices, and non-meaningful imagery
+    ensures those with cognitive and learning disabilities can concentrate on
+    the important points being made.
+  </p>
+  <p>
+    Keeping to a few short bullet points and limiting to one or two images
+    related to the main subject areas of a web site or service allows the user
+    to choose whether to explore the site further.
+  </p>
+
+  <p>
+    The intent of this pattern is not to clutter the page with unnecessary
+    information but to provide important cues and instructions that will benefit
+    people with cognitive and learning disabilities. Too much information or
+    instruction can be just as much of a hindrance as too little. The goal is to
+    make certain that enough information is provided for the user to accomplish
+    the task without undue confusion or navigation.
+  </p>
+</section>
+<section>
+  <h2 id="examples">Examples</h2>
+
+  <p><span class="use"></span><strong>Use:</strong></p>
+  <ol>
+    <li>
+      A simple interface. The main feature is much bigger than anything else.
+      For example:
+      <ul>
+        <li>
+          A search engine has its name and a large simple search box. All other
+          content is smaller, lower down, and the user does not notice it unless
+          looking for additional features.
+        </li>
+      </ul>
+    </li>
+  </ol>
+
+  <p><span class="avoid"></span><strong>Avoid:</strong></p>
+  <ol>
+    <li>
+      Pages with unnecessary content. For example:
+      <ul>
+        <li>
+          Too much text, long menus, and images set around long paragraphs of
+          dense text. The message is lost in an overload of information.
+        </li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+
+
+<section>
+    <h2 id="userstoriesandpersonas">User Stories and Personas</h2>
+
+    
+    
+        <h3>User Story</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#distractions-user-story">Distractions
+                                
+                                
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+        <h3>Personas</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#alison-an-aging-user-with-mild-cognitive-impairment">Alison
+                                :
+                                
+                                An Aging User with Mild Cognitive Impairment
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#gopal-a-retired-lawyer-with-dementia">Gopal
+                                :
+                                
+                                A Retired Lawyer with Dementia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#kwame-a-traumatic-brain-injury-survivor">Kwame
+                                :
+                                
+                                A Traumatic Brain Injury Survivor
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#sam-a-librarian-who-has-a-hemiplegia-and-aphasia">Sam
+                                :
+                                
+                                A Librarian who has a Hemiplegia and Aphasia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+
+    <h3>Glossary</h3>
+    <ul>
+        <li><a href="https://www.w3.org/TR/coga-usable/#glossary">Cognitive Accessibility Glossary<svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a></li>
+    </ul>
+</section>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-cognitive-a11y-tf@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/wai-wcag-supplemental/edit/main/_collections/_patterns/o5p03-manageable-quantity.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wai-wcag-supplemental/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p03-manageable-quantity/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Date:</strong> Content first published 29 April 2021 in <a href="https://www.w3.org/TR/coga-usable/">Making Content  Usable for People with Cognitive and Learning Disabilities</a> ("Content Usable"). This user interface posted in January 2022.</p> <p>This content is from the "Content Usable" Working Group Note by Cognitive and Learning Disabilities Accessibility Task Force  (<a href="https://www.w3.org/groups/tf/cognitive-a11y-tf">Coga TF</a>) <a href="https://www.w3.org/groups/tf/cognitive-a11y-tf/participants">participants</a>. It is published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>) and the  Accessible Platform Architectures (<a href="https://www.w3.org/groups/wg/apa">APA</a>) Working Group. This user interface was  designed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>) with contributions from Steve Lee, Hidde de Vries, Shadi Abou-Zahra, and Shawn Lawton Henry, as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/"> WAI-Guide project</a>, co-funded by the European Commission.</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Important word spacing in style attributes is wide enough | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Important word spacing in style attributes is wide enough" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Important word spacing in style attributes is wide enough" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Important word spacing in style attributes is wide enough","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-important-word-spacing-in-style-attributes-is-wide-enough  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="ACT Rule">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#description">Description</a></li>
+                
+                <li><a href="#applicability">Applicability</a></li>
+                
+                <li><a href="#expectation">Expectation</a></li>
+                
+                <li><a href="#assumptions">Assumptions</a></li>
+                
+                <li><a href="#accessibility-support">Accessibility Support</a></li>
+                
+                <li><a href="#background">Background</a></li>
+                
+                <li><a href="#accessibility-requirements-mapping">Accessibility Requirements Mapping</a></li>
+                
+                <li><a href="#input-aspects">Input Aspects</a></li>
+                
+                <li><a href="#test-cases">Test Cases</a></li>
+                
+                <li><a href="#glossary">Glossary</a></li>
+                
+                <li><a href="#ruleversions">Rule Versions</a></li>
+                
+                <li><a href="#implementations">Implementations</a></li>
+                
+                <li><a href="#usefullinks">Useful Links</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Important word spacing in style attributes is wide enough
+            </h1>
+        </header>
+
+        <aside class="box"> 
+  <header class="box-h box-h-icon"> 
+    Rule Mapping 
+  </header>
+  <div class="box-i"> 
+   <p>This is an <strong>Atomic rule</strong>
+    to test
+    <strong>1.4.12: Text Spacing (Level AA)</strong>
+  </p>
+  </div>
+ </aside>
+
+<h2 id="description">Description</h2>
+<p>This rule checks that the <code class="language-plaintext highlighter-rouge">style</code> attribute is not used to prevent adjusting <code class="language-plaintext highlighter-rouge">word-spacing</code> by using <code class="language-plaintext highlighter-rouge">!important</code>, except if it’s at least <code class="language-plaintext highlighter-rouge">0.16</code> times the font size.</p>
+
+
+<h2 id="applicability">Applicability</h2>
+
+<p>This rule applies to any <a href="#namespaced-element">HTML element</a> with one or more <a href="#visible" title="Definition of visible">visible</a> <a href="https://dom.spec.whatwg.org/#text">text node</a> children, when all the following are true for the <code class="language-plaintext highlighter-rouge">word-spacing</code> property of the element:</p>
+
+<ul>
+  <li>the <a href="https://www.w3.org/TR/css-cascade-4/#specified" title="CSS Cascading and Inheritance Level 4 (Working draft) - Specified Values">specified</a> value is <a href="https://www.w3.org/TR/css-cascade-4/#declared" title="CSS Cascading and Inheritance Level 4 (Working draft) - Declared Values">declared</a> in a <code class="language-plaintext highlighter-rouge">style</code> attribute; and</li>
+  <li>the <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> value is <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a>.</li>
+</ul>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>For each test target, the <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> value of its <code class="language-plaintext highlighter-rouge">word-spacing</code> property is at least 0.16 times the <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> value of its <code class="language-plaintext highlighter-rouge">font-size</code> property.</p>
+
+<h2 id="assumptions">Assumptions</h2>
+
+<ul>
+  <li>
+    <p>There is no mechanism available on the page to adjust <code class="language-plaintext highlighter-rouge">word-spacing</code>. If there is such a mechanism, it is possible to fail this rule while <a href="https://www.w3.org/TR/WCAG21/#text-spacing" title="Success Criterion 1.4.12 Text Spacing">Success Criterion 1.4.12 Text Spacing</a> is still satisfied.</p>
+  </li>
+  <li>
+    <p>The font size is constant for all text in the element. If <code class="language-plaintext highlighter-rouge">font-size</code> changes (e.g., through use of the <code class="language-plaintext highlighter-rouge">::first-line</code> pseudo-element) then the required word spacing would also change throughout the element. This is untested by the current rule.</p>
+  </li>
+  <li>
+    <p>This rule assumes that WCAG’s meaning for the “Word spacing style property” is the value of the CSS <code class="language-plaintext highlighter-rouge">word-spacing</code> property rather than the actual space between words. The value of the CSS property is <em>added</em> to whichever spacing already exist (for example, the size of the space character). Thus, the actual space between words is larger than the value of the <code class="language-plaintext highlighter-rouge">word-spacing</code> property. If <a href="https://www.w3.org/TR/WCAG21/#text-spacing" title="Success Criterion 1.4.12 Text Spacing">Success Criterion 1.4.12 Text Spacing</a> is concerned by the actual space between words, then this rule may fail (with the <code class="language-plaintext highlighter-rouge">word-spacing</code> property being too small) while the Success Criterion is still satisfied (with the actual space being enough).</p>
+  </li>
+  <li>
+    <p>This rule assumes that when inter-words space is changed because of justification, the <code class="language-plaintext highlighter-rouge">word-spacing</code> property is not changed (the change occurs on the width of the space character between the words). Therefore, whether a text is justified or not doesn’t change the result of this rule. Note that justifying text is a failure of <a href="https://www.w3.org/TR/WCAG21/#visual-presentation" title="Success Criterion 1.4.8 Visual Presentation">Success Criterion 1.4.8 Visual Presentation</a>.</p>
+  </li>
+  <li>
+    <p>At least one text node child of the element express something in a human language written in a script that uses the <code class="language-plaintext highlighter-rouge">word-spacing</code> property.</p>
+  </li>
+</ul>
+
+<h2 id="accessibility-support">Accessibility Support</h2>
+
+<p>While some assistive technologies are able to set <a href="https://www.w3.org/TR/css-cascade-4/#cascade-origin-user" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascading Origins - User Origin">user origin</a> or <a href="https://www.w3.org/TR/css-cascade-4/#cascade-origin-ua" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascading Origins - User Agent Origin">user agent origin</a> styles, others, such as browser extensions, are only able to set styles with the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-origin-author" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascading Origins - Author Origin">author origin</a>. Such assistive technologies cannot create styles “winning” the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-sort" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascade Sort">cascade sort</a> over a <code class="language-plaintext highlighter-rouge">style</code> attribute with an <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a> declaration.</p>
+
+<h2 id="background">Background</h2>
+
+<p>Styles <a href="https://www.w3.org/TR/css-cascade-4/#declared" title="CSS Cascading and Inheritance Level 4 (Working draft) - Declared Values">declared</a> in a <code class="language-plaintext highlighter-rouge">style</code> attribute have higher <a href="https://www.w3.org/TR/css-cascade-3/#cascade-specificity" title="CSS Cascading and Inheritance Level 4 (Candidate Recommendation) - Cascade specificity">cascade specificity</a> than any selector; therefore, they “win” the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-sort" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascade Sort">cascade sort</a> over any other style from <a href="https://www.w3.org/TR/css-cascade-4/#cascade-origin-author" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascading Origins - Author Origin">author origin</a>, i.e. it cannot be overridden by any of these. On the other hand, if such a style is <a href="https://www.w3.org/TR/css-cascade-4/#declared" title="CSS Cascading and Inheritance Level 4 (Working draft) - Declared Values">declared</a> in a style sheet, it can still “lose” the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-sort" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascade Sort">cascade sort</a> to declarations with higher <a href="https://www.w3.org/TR/selectors/#specificity" title="CSS Selectors Level 4 (Working draft) - Specificity">specificity</a> or simply coming from a later style sheet (such as ones injected by assistive technologies). This rule ensures that the element is not in the first case and that the style can be overridden by users, unless it is already at least the minimum required threshold. <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">Important</a> styles that are declared with the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-origin-user" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascading Origins - User Origin">user</a> or <a href="https://www.w3.org/TR/css-cascade-4/#cascade-origin-ua" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascading Origins - User Agent Origin">user agent</a> can win the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-sort" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascade Sort">cascade sort</a> over styles with the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-origin-author" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascading Origins - Author Origin">author origin</a>.</p>
+
+<p>CSS specifications define each declaration as being either <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a> (if it has the <code class="language-plaintext highlighter-rouge">!important</code> annotation) or <a href="https://www.w3.org/TR/css-cascade-4/#normal" title="CSS Cascading and Inheritance Level 4 (Working draft) - Normal declarations">normal</a>. Given that <code class="language-plaintext highlighter-rouge">normal</code> is also a keyword for some properties, and that <code class="language-plaintext highlighter-rouge">!important</code> is wider known than this distinction, this rule rather uses “<a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a>”/”not <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a>” to avoid confusion.</p>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<ul>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">Understanding Success Criterion 1.4.12: Text Spacing</a></li>
+  <li><a href="https://www.w3.org/TR/css-text-3/#spacing">CSS Text Module Level 3 - Spacing</a></li>
+  <li><a href="https://drafts.csswg.org/css2/visudet.html">CSS Visual formatting model details</a></li>
+</ul>
+
+<h3 id="about-test-cases">About test cases</h3>
+
+<p>Test cases descriptions abusively refer to the CSS properties of text nodes, meaning the one of their parent.</p>
+
+<h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
+
+<ul class="act-requirements-list">
+  <li><details>
+    <summary><span>1.4.12 Text Spacing (Level AA)</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/TR/WCAG21/#text-spacing">Learn more about 1.4.12 Text Spacing</a></li>
+      <li><strong>Required for conformance</strong> to WCAG 2.1 on level AA and higher.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: success criterion is not satisfied</li>
+        <li>All <code>passed</code> outcomes: success criterion needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: success criterion needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+</ul>
+
+<h2 id="input-aspects">Input Aspects</h2>
+
+<p>The following aspects are required in using this rule.</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-css">CSS Styling</a></li>
+</ul>
+
+<h2 id="test-cases">Test Cases</h2>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/45e5a588c3e8977fa0e83074d7f7c89738e8ec42.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has a <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code> of 0.2 times the font size.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.2em !important"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/2a2a14cc9bcb3fa7983e22f160ce9eeb6b832a8c.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has a <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code> of <code class="language-plaintext highlighter-rouge">4px</code>, which is exactly 0.16 times the <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">font-size</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;style&gt;</span>
+	<span class="nt">p</span> <span class="p">{</span>
+		<span class="nl">font-size</span><span class="p">:</span> <span class="m">25px</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 4px !important"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/6d5dde208ef91b6afceca022c7a2a12b99f042b7.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has two <a href="https://www.w3.org/TR/css-cascade-4/#declared" title="CSS Cascading and Inheritance Level 4 (Working draft) - Declared Values">declared</a> values for its <code class="language-plaintext highlighter-rouge">word-spacing</code> property. The latest wins the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-sort" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascade Sort">cascade sort</a>. It has a value of <code class="language-plaintext highlighter-rouge">0.2em</code>, which is wide enough.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.1em !important; word-spacing: 0.2em !important"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-4">Passed Example 4</h4>
+
+<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/2d9b8cf0906f0e05e4d487c9682db7a7e022fab0.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has two <a href="https://www.w3.org/TR/css-cascade-4/#declared" title="CSS Cascading and Inheritance Level 4 (Working draft) - Declared Values">declared</a> values for its <code class="language-plaintext highlighter-rouge">word-spacing</code> property. The one which is <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a> wins the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-sort" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascade Sort">cascade sort</a>. It has a value of <code class="language-plaintext highlighter-rouge">0.2em</code>, which is wide enough.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.2em !important; word-spacing: 0.1em"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-5">Passed Example 5</h4>
+
+<p><a class="example-link" title="Passed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/15905a239d6755102be6a60aa152ad963d5b1dbb.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has a <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code> of <code class="language-plaintext highlighter-rouge">2px</code>, 0.2 times its <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">font-size</code> of <code class="language-plaintext highlighter-rouge">10px</code>; the <code class="language-plaintext highlighter-rouge">div</code> element has no <a href="#visible" title="Definition of visible">visible</a> text node children.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"font-size: 16px; word-spacing: 2px !important"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-size: 10px;"</span><span class="nt">&gt;</span>
+		The toy brought back fond memories of being lost in the rain forest.
+	<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-6">Passed Example 6</h4>
+
+<p><a class="example-link" title="Passed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/8d2baed183149375922c23a9a5f42b52b627d713.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has a <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code> of 0.2 times its <code class="language-plaintext highlighter-rouge">font-size</code>; the <code class="language-plaintext highlighter-rouge">div</code> element has no <a href="#visible" title="Definition of visible">visible</a> text node children.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"word-spacing: 0.1em !important"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.2em !important;"</span><span class="nt">&gt;</span>
+		The toy brought back fond memories of being lost in the rain forest.
+	<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/31d185e51a8be241f8a75d09deae69d3937f0329.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has a <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code> of only 0.1 times the <code class="language-plaintext highlighter-rouge">font-size</code>, which is below the required minimum.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.1em !important"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-2">Failed Example 2</h4>
+
+<p><a class="example-link" title="Failed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/1134eadf72b2a40c03b8bbf486ebfd3bb34cf986.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has a <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code> of <code class="language-plaintext highlighter-rouge">2px</code> which is only 0.1 times the <code class="language-plaintext highlighter-rouge">font-size</code> (<code class="language-plaintext highlighter-rouge">20px</code>), thus below the required minimum.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;style&gt;</span>
+	<span class="nt">p</span> <span class="p">{</span>
+		<span class="nl">font-size</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 2px !important"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-3">Failed Example 3</h4>
+
+<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/830c047a178145d69fb7dd3fb21abae5a84f1830.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has a <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code> of 0.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: normal !important"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-4">Failed Example 4</h4>
+
+<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/d9fe2bdf199d96c133830ded7907a28c4c33efcc.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element has a <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code> of 0.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: initial !important"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/cc484992ddeab663aa5e490f3fd71806c9bd8528.svg">Open in a new tab</a></p>
+
+<p>There is no HTML element.</p>
+
+<pre><code class="language-svg">&lt;svg xmlns="http://www.w3.org/2000/svg"&gt;
+    &lt;text y="20" style="word-spacing: 0.1em"&gt;ACT rules&lt;/text&gt;
+&lt;/svg&gt;
+</code></pre>
+
+<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
+
+<p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/fdd3c30f28464b32eb8a1397f70a41dfd3b2cb1c.html">Open in a new tab</a></p>
+
+<p>There is no text node.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"word-spacing: 0.1em !important;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
+
+<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/32f0d32619e3d22a8988256e0f3ebae3e0f801c9.html">Open in a new tab</a></p>
+
+<p>There is no <a href="#visible" title="Definition of visible">visible</a> text node because of <code class="language-plaintext highlighter-rouge">display: none</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"display: none; word-spacing: 0.1em !important;"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
+
+<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/a8f0c6682763e4ca7db824dc145a23067a3eb889.html">Open in a new tab</a></p>
+
+<p>There is no <a href="#visible" title="Definition of visible">visible</a> text node because it is positioned off-screen.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"position: absolute; top: -999em; word-spacing: 0.1em !important;"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-5">Inapplicable Example 5</h4>
+
+<p><a class="example-link" title="Inapplicable Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/92e706402d8f8cb13d73ffb759ce35ec910d272c.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element’s <code class="language-plaintext highlighter-rouge">word-spacing</code> property is not <a href="https://www.w3.org/TR/css-cascade-4/#declared" title="CSS Cascading and Inheritance Level 4 (Working draft) - Declared Values">declared</a> in a <code class="language-plaintext highlighter-rouge">style</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"width: 60%"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-6">Inapplicable Example 6</h4>
+
+<p><a class="example-link" title="Inapplicable Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/51faee765656c7bfe86b959373e1df8679726779.html">Open in a new tab</a></p>
+
+<p>The <a href="https://www.w3.org/TR/css-cascade-4/#specified" title="CSS Cascading and Inheritance Level 4 (Working draft) - Specified Values">specified</a> value of the <code class="language-plaintext highlighter-rouge">word-spacing</code> property of this <code class="language-plaintext highlighter-rouge">p</code> element is <a href="https://www.w3.org/TR/css-cascade-4/#declared" title="CSS Cascading and Inheritance Level 4 (Working draft) - Declared Values">declared</a> in the style sheet, not in the <code class="language-plaintext highlighter-rouge">style</code> attribute (it wins the <a href="https://www.w3.org/TR/css-cascade-4/#cascade-sort" title="CSS Cascading and Inheritance Level 4 (Working draft) - Cascade Sort">cascade sort</a> because it is <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a>).</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;style&gt;</span>
+	<span class="nt">p</span> <span class="p">{</span>
+		<span class="nl">word-spacing</span><span class="p">:</span> <span class="m">0.1em</span> <span class="cp">!important</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.2em"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-7">Inapplicable Example 7</h4>
+
+<p><a class="example-link" title="Inapplicable Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/d32bae2609b7c0c66a1df8dbfc182fb10c16805d.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">p</code> element does not have an <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a> <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> <code class="language-plaintext highlighter-rouge">word-spacing</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.1em"</span><span class="nt">&gt;</span>
+	The toy brought back fond memories of being lost in the rain forest.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-8">Inapplicable Example 8</h4>
+
+<p><a class="example-link" title="Inapplicable Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/fa119442cf663c73bf332488f3965b427b024009.html">Open in a new tab</a></p>
+
+<p>The <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> value of the <code class="language-plaintext highlighter-rouge">word-spacing</code> property of this <code class="language-plaintext highlighter-rouge">span</code> element is the <a href="https://www.w3.org/TR/css-cascade-4/#inheriting" title="CSS Cascading and Inheritance Level 4 (Working draft) - Inherited Values">inherited</a> value, that is the <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> value of the <code class="language-plaintext highlighter-rouge">p</code> element and therefore not <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a>; the <code class="language-plaintext highlighter-rouge">p</code> element has no <a href="#visible" title="Definition of visible">visible</a> text node children.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.1em"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"word-spacing: inherit !important;"</span><span class="nt">&gt;</span>
+		The toy brought back fond memories of being lost in the rain forest.
+	<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-9">Inapplicable Example 9</h4>
+
+<p><a class="example-link" title="Inapplicable Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/edaf06132468eccf5fd90551151252a364b44b7b.html">Open in a new tab</a></p>
+
+<p>The <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> value of the <code class="language-plaintext highlighter-rouge">word-spacing</code> property of this <code class="language-plaintext highlighter-rouge">span</code> element is the <a href="https://www.w3.org/TR/css-cascade-4/#inheriting" title="CSS Cascading and Inheritance Level 4 (Working draft) - Inherited Values">inherited</a> value, that is the <a href="https://www.w3.org/TR/css-cascade-4/#computed" title="CSS Cascading and Inheritance Level 4 (Working draft) - Computed Values">computed</a> value of the <code class="language-plaintext highlighter-rouge">p</code> element and therefore not <a href="https://www.w3.org/TR/css-cascade-4/#importance" title="CSS Cascading and Inheritance Level 4 (Working draft) - Importance">important</a>; the <code class="language-plaintext highlighter-rouge">p</code> element has no <a href="#visible" title="Definition of visible">visible</a> text node children.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"word-spacing: 0.1em"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"word-spacing: unset !important;"</span><span class="nt">&gt;</span>
+		The toy brought back fond memories of being lost in the rain forest.
+	<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="namespaced-element">Namespaced Element</h3>
+
+<p>An <a href="https://dom.spec.whatwg.org/#element" title="DOM element, 2021/05/31">element</a> with a specific <a href="https://dom.spec.whatwg.org/#dom-element-namespaceuri" title="DOM Element namespaceURI, 2021/05/31">namespaceURI</a> value from <a href="https://infra.spec.whatwg.org/#namespaces" title="HTML namespace, 2021/05/31">HTML namespaces</a>. For example an “SVG element” is any element with the “SVG namespace”, which is <code class="language-plaintext highlighter-rouge">http://www.w3.org/2000/svg</code>.</p>
+
+<p>Namespaced elements are not limited to elements described in a specification. They also include custom elements. Elements such as <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">title</code> have a different namespace depending on where they are used. For example a <code class="language-plaintext highlighter-rouge">title</code> in an HTML page usually has the HTML namespace. When used in an <code class="language-plaintext highlighter-rouge">svg</code> element, a <code class="language-plaintext highlighter-rouge">title</code> element has the SVG namespace instead.</p>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>An <em>outcome</em> is a conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+</ul>
+
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+
+<p><strong>Note:</strong> Implementations using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the <code class="language-plaintext highlighter-rouge">incomplete</code> outcome.</p>
+
+<h3 id="visible">Visible</h3>
+
+<p>Content perceivable through sight.</p>
+
+<p>Content is considered <em>visible</em> if making it fully transparent would result in a difference in the pixels rendered for any part of the document that is currently within the viewport or can be brought into the viewport via scrolling.</p>
+
+<p><a href="https://www.w3.org/TR/WCAG21/#dfn-content">Content is defined in WCAG</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/visible/">examples of visible</a>.</p>
+
+
+<h2 id="ruleversions">Rule Versions</h2>
+
+<ol>
+  <li>
+      
+        Latest version, 20 December 2023
+      (<a target="_blank" href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2F9e45ec%2F2022-06-23%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2F9e45ec%2F">compare</a>)<ul>
+        <li>Update the rule's description</li>
+        <li>Ignore style attributes which do not actually impact text</li>
+        <li>Add assumption on text nodes being human language</li>
+    </ul>
+  </li>
+  <li>
+      <a href="/WAI/standards-guidelines/act/rules/9e45ec/2022-06-23/">
+        Previous version, 23 June 2022</a>
+      (<a target="_blank" href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2F9e45ec%2F2022-01-28%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2F9e45ec%2F2022-06-23%2F">compare</a>)<ul>
+        <li>Simplify accessibility support paragraph</li>
+    </ul>
+  </li>
+  <li>
+      <a href="/WAI/standards-guidelines/act/rules/9e45ec/2022-01-28/">
+        Previous version, 28 January 2022</a>
+  </li>
+</ol>
+<h2 id="implementations">Implementations</h2>
+  <p>This section is not part of the official rule. It is populated dynamically and 
+    not accounted for in the change history or the last modified date.</p>
+  <div class="scroll-wrap">
+    <table class="act-implementations">
+      <thead>
+        <tr>
+          <th>Implementation</th>
+          <th>Type</th>
+          <th>Consistency</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Alfa (fully automated) 0.104.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-9e45ec"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Alfa (semi-automated) 0.104.0</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/alfa-assisted#breakdown-9e45ec"><img alt="Alfa (semi-automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Equal Access Accessibility Checker 3.1.42-rc.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/equal-access#breakdown-9e45ec"><img alt="Equal Access Accessibility Checker Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>QualWeb 3.0.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-9e45ec"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>SortSite 6.55</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-9e45ec"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator 17.4.0</td>
+            <td>Linter</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator#breakdown-9e45ec"><img alt="Total Validator Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator (+Browser) 17.4.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-9e45ec"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Auto 2.5.1</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-auto#breakdown-9e45ec"><img alt="UsableNet AQA - WCAG 2.2 AA Auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2.5.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-9e45ec"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+<h2 id="usefullinks">Useful Links</h2>
+<ul>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+9e45ec+">
+    Github issues related to this rule
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues/new?title=%20[9e45ec]">
+    Open a new issue
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/edit/develop/_rules/important-word-spacing-wide-enough-9e45ec.md">
+    Propose a change to the rule
+  </a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-wcag-act@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 9e45ec</p>
+<p><strong>Date:</strong> Updated 20 December 2023</p>
+<p><strong>Authors:</strong> <a href="https://github.com/Jym77">Jean-Yves Moyen</a>. Previous Authors: <a href="https://github.com/jkodu">Jey Nandakumar</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It was approved and published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

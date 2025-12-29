@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Text has minimum contrast | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Text has minimum contrast" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Text has minimum contrast" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Text has minimum contrast","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-text-has-minimum-contrast  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="ACT Rule">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#description">Description</a></li>
+                
+                <li><a href="#applicability">Applicability</a></li>
+                
+                <li><a href="#expectation">Expectation</a></li>
+                
+                <li><a href="#assumptions">Assumptions</a></li>
+                
+                <li><a href="#accessibility-support">Accessibility Support</a></li>
+                
+                <li><a href="#background">Background</a></li>
+                
+                <li><a href="#accessibility-requirements-mapping">Accessibility Requirements Mapping</a></li>
+                
+                <li><a href="#input-aspects">Input Aspects</a></li>
+                
+                <li><a href="#test-cases">Test Cases</a></li>
+                
+                <li><a href="#glossary">Glossary</a></li>
+                
+                <li><a href="#ruleversions">Rule Versions</a></li>
+                
+                <li><a href="#implementations">Implementations</a></li>
+                
+                <li><a href="#usefullinks">Useful Links</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Text has minimum contrast
+            </h1>
+        </header>
+
+        <aside class="box"> 
+  <header class="box-h box-h-icon"> 
+    Rule Mapping 
+  </header>
+  <div class="box-i"> 
+   <p>This is an <strong>Atomic rule</strong>
+    to test
+    <strong>1.4.3: Contrast (Minimum) (Level AA)</strong>
+  </p>
+  </div>
+ </aside>
+
+<h2 id="description">Description</h2>
+<p>This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement.</p>
+
+
+<h2 id="applicability">Applicability</h2>
+
+<p>This rule applies to any <a href="#visible" title="Definition of Visible">visible</a> character in a <a href="https://dom.spec.whatwg.org/#text" title="DOM, text node, 2020/07/23">text node</a> that is a <a href="https://dom.spec.whatwg.org/#concept-tree-child" title="DOM, child, 2020/07/23">child</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS draft, flat tree, 2020/07/23">flat tree</a> of an <a href="#namespaced-element">HTML element</a>, except if the <a href="https://dom.spec.whatwg.org/#text" title="DOM, text node, 2020/07/23">text node</a> has an <a href="https://dom.spec.whatwg.org/#concept-shadow-including-ancestor" title="DOM, ancestor, 2020/07/23">ancestor</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS draft, flat tree, 2020/07/23">flat tree</a> for which at least one of the following is true:</p>
+
+<ul>
+  <li><strong>disabled ancestor</strong>: the ancestor is an <a href="#inheriting-semantic" title="Definition of Inheriting Semantic Role">inheriting semantic</a> <code class="language-plaintext highlighter-rouge">group</code> or <code class="language-plaintext highlighter-rouge">widget</code> that is <a href="#disabled-element" title="Definition of Disabled">disabled</a>; or</li>
+  <li><strong>disabled label</strong>: the ancestor is used in the <a href="#accessible-name" title="Definition of Accessible Name">accessible name</a> of an <a href="#inheriting-semantic" title="Definition of Inheriting Semantic Role">inheriting semantic</a> <code class="language-plaintext highlighter-rouge">widget</code> that is <a href="#disabled-element" title="Definition of Disabled">disabled</a>.</li>
+</ul>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>For each test target, the <a href="#highest-possible-contrast" title="Definition of Highest possible contrast">highest possible contrast</a> between the <a href="#foreground-colors-of-text" title="Definition of Foreground color of text">foreground colors</a> and <a href="#background-colors-of-text" title="Definition of Background color of text">background colors</a> is at least 3.0:1 for <a href="#large-scale-text" title="Definition of Large scale text">large scale text</a> and 4.5:1 for other texts, except if the test target is part of a <a href="https://dom.spec.whatwg.org/#text" title="DOM, text node, 2020/07/23">text node</a> that is <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration" title="WCAG 2.1, Purely decorative">purely decorative</a> or does not express anything in <a href="https://www.w3.org/TR/WCAG21/#dfn-human-language-s" title="WCAG 2.1, Human language">human language</a>.</p>
+
+<h2 id="assumptions">Assumptions</h2>
+
+<ul>
+  <li>
+    <p><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum" title="WCAG 2.1, Success criterion 1.4.3 Contrast (Minimum)">Success criterion 1.4.3: Contrast (Minimum)</a> has exceptions for “incidental” text, which includes inactive user interface components and decorative texts. The rule assumes that <a href="https://dom.spec.whatwg.org/#text" title="DOM, text node, 2020/07/23">text nodes</a> that should be ignored are <a href="#disabled-element" title="Definition of Disabled">disabled</a> or hidden from assistive technologies. If this isn’t the case, the text node could fail this rule while the success criterion could still be satisfied.</p>
+  </li>
+  <li>
+    <p><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum" title="WCAG 2.1, Success criterion 1.4.3 Contrast (Minimum)">Success criterion 1.4.3: Contrast (Minimum)</a> also has an exception for logos and brand names. Since logos and brand names are usually displayed through images to ensure correct rendering, this rule does not take logos or brand names into consideration. If a logo or brand name is included using <a href="https://dom.spec.whatwg.org/#text" title="DOM, text node, 2020/07/23">text nodes</a>, the text node could fail while the success criterion could still be satisfied.</p>
+  </li>
+  <li>
+    <p>Text that has the same foreground and background color (a contrast ratio of 1:1) is not considered to be “visual presentation of text”, making it inapplicable to the success criterion. Text hidden in this way can still cause accessibility issues under other success criteria, depending on the content.</p>
+  </li>
+  <li>
+    <p>The definition of <a href="#disabled-element" title="Definition of Disabled">disabled element</a> assumes that when the <code class="language-plaintext highlighter-rouge">aria-disabled</code> attribute is specified on an element, this element has also been disabled for users that do not rely on <a href="https://www.w3.org/TR/WCAG21/#dfn-assistive-technologies" title="WCAG definition of Assistive Technologies">assistive technology</a>. If this is not the case, that definition may produce incorrect results and in consequence this rule might be Inapplicable to some text nodes that still require a good contrast ratio.</p>
+  </li>
+</ul>
+
+<h2 id="accessibility-support">Accessibility Support</h2>
+
+<ul>
+  <li>Different browsers have different levels of support for CSS. This can cause contrast issues in one browser that do not appear in another. Because of that, this rule can produce different results depending on the browser that is used. For example, a text that is positioned using CSS transform may be on a different background in a browser that does not support CSS transform.</li>
+  <li>Implementation of <a href="https://www.w3.org/TR/wai-aria-1.1/#conflict_resolution_presentation_none" title="WAI-ARIA, Presentational Roles Conflict Resolution">Presentational Roles Conflict Resolution</a> varies from one browser or assistive technology to another. Depending on this, some elements can have a <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> of <code class="language-plaintext highlighter-rouge">none</code> and fail this rule with some technology but users of other technologies would not experience any accessibility issue.</li>
+</ul>
+
+<h2 id="background">Background</h2>
+
+<p>Passing this rule does not mean that the text has sufficient color contrast. If all background pixels have a low contrast with all foreground pixels, the success criterion is guaranteed to not be satisfied. When some pixels have sufficient contrast, and others do not, legibility should be considered. There is no clear method for determining legibility when some but not all pixels have sufficient contrast, which is why passing this rule does not necessarily mean the corresponding success criterion is met.</p>
+
+<p>When the text color or background color is not specified in the web page, colors from other <a href="https://www.w3.org/TR/css3-cascade/#cascading-origins" title="CSS 3, origin">origins</a> will be used. Testers must ensure colors are not affected by styles from a <a href="https://www.w3.org/TR/css3-cascade/#cascade-origin-user" title="CSS 3, user origin">user origin</a>, such as a custom style sheet. Contrast issues caused by specifying the text color but not the background or vice versa, must be tested separately from this rule.</p>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<ul>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Understanding Success Criterion 1.4.3: Contrast (Minimum)</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html">Understanding Success Criterion 1.4.6: Contrast (Enhanced)</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G18">G18: Ensuring that a contrast ratio of at least 4.5:1 exists between text (and images of text) and background behind the text</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G145">G145: Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F83">F83: Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)</a></li>
+  <li><a href="https://drafts.csswg.org/css-scoping/">CSS Scoping Module Level 1 (Editor’s Draft)</a></li>
+</ul>
+
+<h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
+
+<ul class="act-requirements-list">
+  <li><details>
+    <summary><span>1.4.3 Contrast (Minimum) (Level AA)</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">Learn more about 1.4.3 Contrast (Minimum)</a></li>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level AA and higher.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: success criterion is not satisfied</li>
+        <li>All <code>passed</code> outcomes: success criterion needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: success criterion needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+</ul>
+
+<h3 id="secondary-requirements">Secondary Requirements</h3>
+
+<p>This rule is related to the following accessibility requirements, but was 
+not designed to test this requirements directly. These 
+<a href="https://w3c.github.io/wcag-act/act-rules-format.html#secondary-requirements">secondary requirements</a>
+can either be stricter than the rule requires, or may be satisfied in ways 
+not tested by the rule:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced">1.4.6 Contrast (Enhanced) (Level AAA)</a>: This success criterion is <strong>more strict</strong> than this rule. This is because this criterion has a higher minimum contrast. Some of the passed examples do not satisfy this success criterion.</li>
+</ul>
+
+<h2 id="input-aspects">Input Aspects</h2>
+
+<p>The following aspects are required in using this rule.</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-accessibility">Accessibility Tree</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-css">CSS Styling</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-text">Language</a></li>
+</ul>
+
+<h2 id="test-cases">Test Cases</h2>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/fd406bedf0bb3bdc4c2a718f49a3dd0f7aaa7556.html">Open in a new tab</a></p>
+
+<p>This dark gray text has a contrast ratio of 12.6:1 on the white background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #333; background: #FFF;"</span><span class="nt">&gt;</span>
+	Some text in a human language
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/ab4691ef474d6263e9ceec824f07faa51a30112e.html">Open in a new tab</a></p>
+
+<p>This dark gray text has a contrast ratio between 12.6:1 and 5:1 on the white to blue gradient background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #333; background: linear-gradient(to right, #FFF, #00F); width: 500px;"</span><span class="nt">&gt;</span>
+	Some text in a human language
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/dc170fd015758b62d8e0141e086893a116ee724e.html">Open in a new tab</a></p>
+
+<p>This light gray text has a contrast ratio between 13:1 and 5:1 on the background image.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;style&gt;</span>
+	<span class="nt">p</span> <span class="p">{</span>
+		<span class="nl">color</span><span class="p">:</span> <span class="m">#ccc</span><span class="p">;</span>
+		<span class="nl">height</span><span class="p">:</span> <span class="m">50px</span><span class="p">;</span>
+		<span class="nl">padding-top</span><span class="p">:</span> <span class="m">15px</span><span class="p">;</span>
+		<span class="nl">background</span><span class="p">:</span> <span class="m">#000</span> <span class="nb">no-repeat</span> <span class="m">-20px</span> <span class="m">-20px</span> <span class="sx">url('/test-assets/contrast/black-hole.jpeg')</span><span class="p">;</span>
+		<span class="nl">text-shadow</span><span class="p">:</span> <span class="m">0px</span> <span class="m">0px</span> <span class="m">2px</span> <span class="no">black</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;p&gt;</span>Black hole sun<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-4">Passed Example 4</h4>
+
+<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/319a465113950b03502709ab573edf7deab59908.html">Open in a new tab</a></p>
+
+<p>This black text has a contrast ratio between 6.1:1 and 9:1 on gray background with white text shadow on it.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #000; background: #737373; text-shadow: white 0 0 3px"</span><span class="nt">&gt;</span>
+	Some text in a human language
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-5">Passed Example 5</h4>
+
+<p><a class="example-link" title="Passed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/04344f745bd9bad51292748e7893f146c045aae4.html">Open in a new tab</a></p>
+
+<p>This 18pt large black text has a contrast ratio of 3.6:1 on the gray background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #000; font-size:18pt; background: #666;"</span><span class="nt">&gt;</span>
+	Some text in a human language
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-6">Passed Example 6</h4>
+
+<p><a class="example-link" title="Passed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/aed692e9f0a1be5c87ef1de56afa8e23e14cc3ba.html">Open in a new tab</a></p>
+
+<p>This 14pt bold black text has a contrast ratio of 3.6:1 on the gray background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #000; font-size:14pt; font-weight:700; background: #666;"</span><span class="nt">&gt;</span>
+	Some text in English
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-7">Passed Example 7</h4>
+
+<p><a class="example-link" title="Passed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/2845a8409b1c07caa856d1bfbf42ed244b0de9c2.html">Open in a new tab</a></p>
+
+<p>This text does not convey anything in human language.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #000; background: #666;"</span><span class="nt">&gt;</span>
+	----=====++++++++___________***********%%%%%%%%%%%±±±±@@@@@@@@
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-8">Passed Example 8</h4>
+
+<p><a class="example-link" title="Passed Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/c7c09c1019dcf1d1c67183001b4d459dee7a87ff.html">Open in a new tab</a></p>
+
+<p>This text has the default browser text color on the default browser background color. By default this is black text on a white background, which has a contrast ratio of 21:1.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>Some text in a human language<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-9">Passed Example 9</h4>
+
+<p><a class="example-link" title="Passed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/66a3ba7bc0027a9556596e3c378c926a537c1901.html">Open in a new tab</a></p>
+
+<p>This dark gray text has a contrast ratio of 12.6:1 on the white background in a shadow DOM tree.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #CCC; background: #fff;"</span> <span class="na">id=</span><span class="s">"p"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+	<span class="kd">const</span> <span class="nx">shadowRoot</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">p</span><span class="dl">'</span><span class="p">).</span><span class="nf">attachShadow</span><span class="p">({</span> <span class="na">mode</span><span class="p">:</span> <span class="dl">'</span><span class="s1">open</span><span class="dl">'</span> <span class="p">})</span>
+	<span class="nx">shadowRoot</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">&lt;span style="color: #333;"&gt;Some text in English&lt;/span&gt;</span><span class="dl">'</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-10">Passed Example 10</h4>
+
+<p><a class="example-link" title="Passed Example 10" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/173cb00f20c52f35970c322dedf7bc11450b70c1.html">Open in a new tab</a></p>
+
+<p>This text has the <a href="https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3">default user agent link text and background color</a>, of <code class="language-plaintext highlighter-rouge">#0000EE</code> and white. This results in a contrast ratio of 9.39:1.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://w3c.org/"</span><span class="nt">&gt;</span>W3C<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-11">Passed Example 11</h4>
+
+<p><a class="example-link" title="Passed Example 11" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/668856825e6d3b4e480005acf97723c7b1004ba3.html">Open in a new tab</a></p>
+
+<p>This text is using the default user agent text color and background color. By default, this is black text on a white background with a contrast ratio of 21:1</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>My button!<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/eaf0a926896f045a498073da42ea6263a4d6d36c.html">Open in a new tab</a></p>
+
+<p>This light gray text has a contrast ratio of 2.3:1 on the white background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #AAA; background: white;"</span><span class="nt">&gt;</span>
+	Some text in English
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-2">Failed Example 2</h4>
+
+<p><a class="example-link" title="Failed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/e8f3acb1dc814b8b815c69b7150cdea67d5bd98e.html">Open in a new tab</a></p>
+
+<p>This light gray text has a contrast ratio between 1.2:1 and 2.3:1 on the white to blue gradient background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #AAA; background: linear-gradient(to right, #FFF, #00F); width: 300px"</span><span class="nt">&gt;</span>
+	Some text in English
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-3">Failed Example 3</h4>
+
+<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/41afaa9b33287aba9c608c3466e2b164f57a02ed.html">Open in a new tab</a></p>
+
+<p>This light gray text has a contrast ratio between 2.7:1 and 3:1 on the background image.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span>
+	<span class="na">style=</span><span class="s">"color: #555; height:50px; padding-top:20px; background: black no-repeat -20px -20px url('/test-assets/contrast/black-hole.jpeg');"</span>
+<span class="nt">&gt;</span>
+	Black hole sun
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-4">Failed Example 4</h4>
+
+<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/7b27adc8d5a8f07dca43b0f90806f40bc2a1b15b.html">Open in a new tab</a></p>
+
+<p>This black text with 30% alpha channel has a contrast ratio of 2.1:1 on the white background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: rgba(0,0,0,.3); background: #FFF"</span><span class="nt">&gt;</span>
+	Some text in English
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-5">Failed Example 5</h4>
+
+<p><a class="example-link" title="Failed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/7507c8139cfda2c482c394fe00aaaf69e15acabb.html">Open in a new tab</a></p>
+
+<p>This black text with 30% opacity has a contrast ratio of 2.1:1 on the white background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"background: #FFF"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #000; opacity: .3"</span><span class="nt">&gt;</span>
+		Some text in English
+	<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-6">Failed Example 6</h4>
+
+<p><a class="example-link" title="Failed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/b1a65bd18381a1ea4ad3077fd98c50368947012c.html">Open in a new tab</a></p>
+
+<p>This light gray text has a contrast ratio of 2.3:1 on the white background in a shadow DOM tree.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #aaa; background: #fff;"</span> <span class="na">id=</span><span class="s">"p"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+	<span class="kd">const</span> <span class="nx">shadowRoot</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">p</span><span class="dl">'</span><span class="p">).</span><span class="nf">attachShadow</span><span class="p">({</span> <span class="na">mode</span><span class="p">:</span> <span class="dl">'</span><span class="s1">open</span><span class="dl">'</span> <span class="p">})</span>
+	<span class="nx">shadowRoot</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Some text in English</span><span class="dl">'</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-7">Failed Example 7</h4>
+
+<p><a class="example-link" title="Failed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/bf47c65f2854b6ac100a6f700d354b243b069231.html">Open in a new tab</a></p>
+
+<p>This semi-transparent gray text has a contrast ratio between 2.3:1 and 4.2:1 on the black and white background. The light gray text is compared to the white section of the background and the dark gray text is compared to the black section of the background.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;style&gt;</span>
+	<span class="nf">#backgroundSplit</span> <span class="p">{</span>
+		<span class="nl">color</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="m">90</span><span class="p">,</span> <span class="m">90</span><span class="p">,</span> <span class="m">90</span><span class="p">,</span> <span class="m">0.8</span><span class="p">);</span>
+		<span class="nl">background-position</span><span class="p">:</span> <span class="nb">top</span> <span class="m">0</span> <span class="nb">left</span> <span class="m">0</span><span class="p">;</span>
+		<span class="nl">background-image</span><span class="p">:</span> <span class="n">linear-gradient</span><span class="p">(</span><span class="m">90deg</span><span class="p">,</span> <span class="nb">transparent</span><span class="p">,</span> <span class="nb">transparent</span> <span class="m">3.3em</span><span class="p">,</span> <span class="no">black</span> <span class="m">3.3em</span><span class="p">,</span> <span class="no">black</span> <span class="m">6em</span><span class="p">);</span>
+		<span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">1em</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"backgroundSplit"</span><span class="nt">&gt;</span>
+	Hello world
+<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-8">Failed Example 8</h4>
+
+<p><a class="example-link" title="Failed Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/308839f424ef1d9dbb5aab0cd9079827ecb00895.html">Open in a new tab</a></p>
+
+<p>The first <code class="language-plaintext highlighter-rouge">p</code> element has a contrast ratio of 12.6:1. The second <code class="language-plaintext highlighter-rouge">p</code> element, which contains an example of the Helvetica font, has a contrast ratio of 3.85:1. Because this provides information, and is not only for aesthetic purposes, this is not considered <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration" title="WCAG 2.1, Purely decorative">purely decorative</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: #333; background: #FFF;"</span><span class="nt">&gt;</span>
+	Helvetica is a widely used sans-serif typeface developed in 1957 by Max Miedinger and Eduard Hoffmann.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"font-family: helvetica; background: #EEE; color: #777;"</span><span class="nt">&gt;</span>
+	The quick brown fox jumps over the lazy dog.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-9">Failed Example 9</h4>
+
+<p><a class="example-link" title="Failed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/a7d34d6d1dad765c7e444d3c3f63b18ca4742e9e.html">Open in a new tab</a></p>
+
+<p>This text in a <code class="language-plaintext highlighter-rouge">button</code> element has a contrast ratio of 3.85:1.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"color: #777; background: #EEE;"</span><span class="nt">&gt;</span>My button!<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-10">Failed Example 10</h4>
+
+<p><a class="example-link" title="Failed Example 10" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/19123c99ec390011b87736827720d5e1e794bad2.html">Open in a new tab</a></p>
+
+<p>This text in a <a href="#semantic-role" title="Definition of Semantic Role">semantic button</a> has a contrast ratio of 3.85:1.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">style=</span><span class="s">"color: #777; background: #EEE;"</span><span class="nt">&gt;</span>My button!<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/2347a45232c34aa309087ed099f4781cd70b5b1e.html">Open in a new tab</a></p>
+
+<p>This text is not <a href="#visible" title="Definition of Visible">visible</a> because of <code class="language-plaintext highlighter-rouge">display: none</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"display: none"</span><span class="nt">&gt;</span>Some invisible text in English<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
+
+<p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/dbd2374952b96375369afe2a012bfbadd182bf6b.html">Open in a new tab</a></p>
+
+<p>This text is not <a href="#visible" title="Definition of Visible">visible</a> because it is positioned off screen.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"position:absolute; top: -999em"</span><span class="nt">&gt;</span>Some invisible text in English<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
+
+<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/fc92e273e09ad225227f488e3a016fd8d4aad10c.html">Open in a new tab</a></p>
+
+<p>This text is not <a href="#visible" title="Definition of Visible">visible</a> because the foreground color is the same as the background color.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color: white; background: white;"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>Hidden text - U U D D L R L R B A S<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
+
+<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/881897444deae644139c4b799b8eeb4b4b764c2a.html">Open in a new tab</a></p>
+
+<p>This text is not the child of an HTML element.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg&gt;</span>
+	<span class="nt">&lt;text</span> <span class="na">x=</span><span class="s">"0"</span> <span class="na">y=</span><span class="s">"15"</span><span class="nt">&gt;</span>I love SVG!<span class="nt">&lt;/text&gt;</span>
+<span class="nt">&lt;/svg&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-5">Inapplicable Example 5</h4>
+
+<p><a class="example-link" title="Inapplicable Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/20f9cd78dd0fa87ee8d40ea3ed35a1fe3ff66508.html">Open in a new tab</a></p>
+
+<p>This text not part of a <a href="https://dom.spec.whatwg.org/#text" title="DOM, text node, 2020/07/23">text node</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/contrast/example.png"</span> <span class="na">alt=</span><span class="s">"example"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-6">Inapplicable Example 6</h4>
+
+<p><a class="example-link" title="Inapplicable Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/328b967c5b544b48f7acd8e42f2f05d355501f2a.html">Open in a new tab</a></p>
+
+<p>This text is part of a label of a <a href="#disabled-element" title="Definition of Disabled">disabled</a> widget, because it is in a <code class="language-plaintext highlighter-rouge">label</code> element that is the label for an <code class="language-plaintext highlighter-rouge">input</code> element with <code class="language-plaintext highlighter-rouge">type="text"</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label</span> <span class="na">style=</span><span class="s">"color:#888; background: white;"</span><span class="nt">&gt;</span>
+	My name
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">disabled</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/label&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-7">Inapplicable Example 7</h4>
+
+<p><a class="example-link" title="Inapplicable Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/7c7d6412dae7381d90517a6f3c0a30104d63062a.html">Open in a new tab</a></p>
+
+<p>This text is part of a label of a <a href="#disabled-element" title="Definition of Disabled">disabled</a> widget, because it is in an element that is referenced by <code class="language-plaintext highlighter-rouge">aria-labelledby</code> from an element with <code class="language-plaintext highlighter-rouge">role="textbox"</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label</span> <span class="na">id=</span><span class="s">"my_pets_name"</span> <span class="na">style=</span><span class="s">"color:#888; background: white;"</span><span class="nt">&gt;</span>
+	My pet's name
+<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;div</span>
+	<span class="na">role=</span><span class="s">"textbox"</span>
+	<span class="na">aria-labelledby=</span><span class="s">"my_pets_name"</span>
+	<span class="na">aria-disabled=</span><span class="s">"true"</span>
+	<span class="na">style=</span><span class="s">"height:20px; width:100px; border:1px solid black;"</span>
+<span class="nt">&gt;</span>
+	test
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-8">Inapplicable Example 8</h4>
+
+<p><a class="example-link" title="Inapplicable Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/53386f68326a53798e776b48e81b32659424d6d3.html">Open in a new tab</a></p>
+
+<p>This text is part of a label of a <a href="#disabled-element" title="Definition of Disabled">disabled</a> widget, because it is in a <code class="language-plaintext highlighter-rouge">label</code> element that is the label for an <code class="language-plaintext highlighter-rouge">input</code> element in a <code class="language-plaintext highlighter-rouge">fieldset</code> element with the <code class="language-plaintext highlighter-rouge">disabled</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;fieldset</span> <span class="na">disabled</span> <span class="na">style=</span><span class="s">"color:#888; background: white;"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;label&gt;</span>
+		My name
+		<span class="nt">&lt;input</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;/fieldset&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-9">Inapplicable Example 9</h4>
+
+<p><a class="example-link" title="Inapplicable Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/9e3383a60ab67d5988ac2144fec58a34677c52b2.html">Open in a new tab</a></p>
+
+<p>This text is part of a label of a <a href="#disabled-element" title="Definition of Disabled">disabled</a> widget, because it is in a <code class="language-plaintext highlighter-rouge">label</code> element that is the label for an <code class="language-plaintext highlighter-rouge">input</code> element in an element with <code class="language-plaintext highlighter-rouge">role="group"</code> with the <code class="language-plaintext highlighter-rouge">aria-disabled="true"</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"group"</span> <span class="na">aria-disabled=</span><span class="s">"true"</span> <span class="na">style=</span><span class="s">"color:#888; background: white;"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;label&gt;</span>
+		My name
+		<span class="nt">&lt;input</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-10">Inapplicable Example 10</h4>
+
+<p><a class="example-link" title="Inapplicable Example 10" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/b4fcc1ea76d19ae86033ed687613f78297ee6069.html">Open in a new tab</a></p>
+
+<p>This text is part of a <a href="#disabled-element" title="Definition of Disabled">disabled</a> widget because it is a child of a <code class="language-plaintext highlighter-rouge">button</code> element with the <code class="language-plaintext highlighter-rouge">disabled</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"color: #777; background: #EEE;"</span> <span class="na">disabled</span><span class="nt">&gt;</span>My button!<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-11">Inapplicable Example 11</h4>
+
+<p><a class="example-link" title="Inapplicable Example 11" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/6b811d065fc243c2c94002f315891791e181d518.html">Open in a new tab</a></p>
+
+<p>This text is part of a <a href="#disabled-element" title="Definition of Disabled">disabled</a> widget because it is a child of an element with the <code class="language-plaintext highlighter-rouge">role</code> attribute set to <code class="language-plaintext highlighter-rouge">button</code> and with an <code class="language-plaintext highlighter-rouge">aria-disabled</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">style=</span><span class="s">"color: #777; background: #EEE;"</span> <span class="na">aria-disabled=</span><span class="s">"true"</span><span class="nt">&gt;</span>My button!<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="accessible-name">Accessible Name</h3>
+
+<p>The <em>accessible name</em> is the programmatically determined name of a user interface element that is <a href="#included-in-the-accessibility-tree">included in the accessibility tree</a>.</p>
+
+<p>The accessible name is calculated using the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>.</p>
+
+<p>For native markup languages, such as HTML and SVG, additional information on how to calculate the accessible name can be found in <a href="https://www.w3.org/TR/html-aam/#accessible-name-and-description-computation">HTML Accessibility API Mappings 1.0, Accessible Name and Description Computation (working draft)</a> and <a href="https://www.w3.org/TR/svg-aam/#mapping_additional">SVG Accessibility API Mappings, Name and Description (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/accessible-name/">examples of accessible name</a>.</p>
+
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>, each element always has an accessible name. When no accessible name is provided, the element will nonetheless be assigned an empty (<code class="language-plaintext highlighter-rouge">""</code>) one.</p>
+
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>, accessible names are <a href="https://www.w3.org/TR/accname-1.1/#terminology">flat string</a> trimmed of leading and trailing whitespace. Notably, it is not possible for a non-empty accessible name to be composed only of whitespace since these must be trimmed.</p>
+
+<h3 id="attribute-value">Attribute value</h3>
+
+<p>The <dfn id="attribute-value:attribute">attribute value</dfn> of a content attribute set on an HTML element is the value that the attribute gets after being parsed and computed according to specifications. It may differ from the value that is actually written in the HTML code due to trimming whitespace or non-digits characters, default values, or case-insensitivity.</p>
+
+<p>Some notable case of attribute value, among others:</p>
+
+<ul>
+  <li>For <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#enumerated-attribute" title="HTML Specification of Enumerated Attribute">enumerated attributes</a>, the <dfn id="attribute-value:enumerated">attribute value</dfn> is either the state of the attribute, or the keyword that maps to it; even for the default states. Thus <code class="language-plaintext highlighter-rouge">&lt;input type="image" /&gt;</code> has an attribute value of either <code class="language-plaintext highlighter-rouge">Image Button</code> (the state) or <code class="language-plaintext highlighter-rouge">image</code> (the keyword mapping to it), both formulations having the same meaning; similarly, “an input element with a <code class="language-plaintext highlighter-rouge">type</code> <em>attribute value</em> of <code class="language-plaintext highlighter-rouge">Text</code>” can be either <code class="language-plaintext highlighter-rouge">&lt;input type="text" /&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;input /&gt;</code> (missing value default), or <code class="language-plaintext highlighter-rouge">&lt;input type="invalid" /&gt;</code> (invalid value default).</li>
+  <li>For <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes" title="HTML Specification of Boolean Attribute">boolean attributes</a>, the <dfn id="attribute-value:boolean">attribute value</dfn> is <code class="language-plaintext highlighter-rouge">true</code> when the attribute is present and <code class="language-plaintext highlighter-rouge">false</code> otherwise. Thus <code class="language-plaintext highlighter-rouge">&lt;button disabled&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;button disabled="disabled"&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;button disabled=""&gt;</code> all have a <code class="language-plaintext highlighter-rouge">disabled</code> <em>attribute value</em> of <code class="language-plaintext highlighter-rouge">true</code>.</li>
+  <li>For attributes whose value is used in a case-insensitive context, the <dfn id="attribute-value:case-insensitive">attribute value</dfn> is the lowercase version of the value written in the HTML code.</li>
+  <li>For attributes that accept <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#numbers" title="HTML Specification of Number Parsing">numbers</a>, the <dfn id="attribute-value:number">attribute value</dfn> is the result of parsing the value written in the HTML code according to the rules for parsing this kind of number.</li>
+  <li>For attributes that accept sets of tokens, whether <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#space-separated-tokens" title="HTML Specification of Space Separated Tokens">space separated</a> or <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#comma-separated-tokens" title="HTML Specification of Comma Separated Tokens">comma separated</a>, the <dfn id="attribute-value:tokens-list">attribute value</dfn> is the set of tokens obtained after parsing the set and, depending on the case, converting its items to lowercase (if the set is used in a case-insensitive context).</li>
+  <li>For <code class="language-plaintext highlighter-rouge">aria-*</code> attributes, the <dfn id="attribute-value:aria">attribute value</dfn> is computed as indicated in the <a href="https://www.w3.org/TR/wai-aria-1.1/#propcharacteristic_value" title="WAI-ARIA Specification of States and Properties Value">WAI-ARIA specification</a> and the <a href="https://www.w3.org/TR/html-aam-1.0/#html-attribute-state-and-property-mappings" title="Specification of HTML attributes value mapping to ARIA states and properties">HTML Accessibility API Mappings</a>.</li>
+</ul>
+
+<p>This list is not exhaustive, and only serves as an illustration for some of the most common cases.</p>
+
+<p>The <dfn id="attribute-value:idl">attribute value</dfn> of an <a href="https://heycam.github.io/webidl/#idl-attributes" title="Definition of Web IDL Attribute (Editor's Draft)">IDL attribute</a> is the value returned on getting it. Note that when an <a href="https://heycam.github.io/webidl/#idl-attributes" title="Definition of Web IDL Attribute (Editor's Draft)">IDL attribute</a> <a href="https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#reflecting-content-attributes-in-idl-attributes" title="HTML specification of Reflecting Content Attributes in IDL Attributes">reflects</a> a content attribute, they have the same attribute value.</p>
+
+<h3 id="background-colors-of-text">Background Colors Of Text</h3>
+
+<p>The colors of all pixels, excluding the <a href="#foreground-colors-of-text">foreground colors</a> pixels, in the <a href="#bounding-box-around-text">bounding box</a> around a <a href="#visible">visible</a> character in a <a href="https://dom.spec.whatwg.org/#text">text node</a>.</p>
+
+<h3 id="bounding-box-around-text">Bounding Box around Text</h3>
+
+<p>The smallest rectangle that encloses all the <a href="#visible">visible</a> pixels of a character (including anti-aliased pixels), plus one pixel on every edge (top, right, bottom, left), aligned on the horizontal and vertical axis.</p>
+
+<h3 id="disabled-element">Disabled Element</h3>
+
+<p>An element is <em>disabled</em> when it has been rendered <a href="https://www.w3.org/TR/wai-aria/#dfn-operable">inoperable</a> in one or more of the following ways:</p>
+
+<ol>
+  <li>
+    <p>The element matches the <a href="https://drafts.csswg.org/selectors/#disabled-pseudo" title="CSS Selectors Level 4 (Editor's Draft), definition of the :disabled pseudo-class"><code class="language-plaintext highlighter-rouge">:disabled</code> pseudo-class</a>. For HTML elements this means that the element is <a href="https://html.spec.whatwg.org/multipage/semantics-other.html#concept-element-disabled" title="HTML definition of Actually Disabled">actually disabled</a>.</p>
+  </li>
+  <li>
+    <p>The element has a <a href="https://dom.spec.whatwg.org/#concept-shadow-including-ancestor">shadow-including ancestor</a> whose <code class="language-plaintext highlighter-rouge">aria-disabled</code> <a href="#attribute-value" title="Definition of Attribute Value">attribute value</a> is “true”.</p>
+  </li>
+</ol>
+
+<h3 id="explicit-role">Explicit Semantic Role</h3>
+
+<p>The <em>explicit semantic role</em> of an element is determined by its <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> (if any).</p>
+
+<p>The <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> takes a list of tokens. The explicit semantic role is the first valid role in this list. The valid roles are all non-abstract roles from <a href="#wai-aria-specifications" title="Definition of WAI-ARIA specifications">WAI-ARIA Specifications</a>. If the element has no <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a>, or if it has one with no valid role, then this element has no explicit semantic role.</p>
+
+<p>Other roles may be added as they become available. Not all roles will be supported in all assistive technologies. Testers are encouraged to adjust which roles are allowed according to the <a href="https://www.w3.org/TR/WCAG-EM/#step1c" title="Definition of accessibility support base line">accessibility support base line</a>. For the purposes of executing test cases in all rules, it should be assumed that all roles are supported by assistive technologies so that none of the roles fail due to lack of accessibility support.</p>
+
+<h3 id="focusable">Focusable</h3>
+
+<p>An element is <em>focusable</em> if one or both of the following are true:</p>
+
+<ul>
+  <li>the element is part of <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation">sequential focus navigation</a>; or</li>
+  <li>the element has a <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> that is not null.</li>
+</ul>
+
+<p><strong>Exception</strong>: Elements that lose focus during a period of up to 1 second after gaining focus, without the user interacting with the page the element is on, are not considered <em>focusable</em>.</p>
+
+<p>Notes:</p>
+
+<ul>
+  <li>The 1 second time span is an arbitrary limit which is not included in WCAG. Given that scripts can manage the focus state of elements, testing the focusability of an element consistently would be impractical without a time limit.</li>
+  <li>The <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> of an element is the value of the <a href="https://html.spec.whatwg.org/#attr-tabindex">tabindex attribute</a> parsed using the <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">rules for parsing integers</a>. For the <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> to be different from null, it needs to be <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">parsed</a> without errors.</li>
+</ul>
+
+<h3 id="foreground-colors-of-text">Foreground Colors Of Text</h3>
+
+<p>The colors of all the pixels of a <a href="#visible">visible</a> character in a <a href="https://dom.spec.whatwg.org/#text">text node</a> that change color when the CSS <code class="language-plaintext highlighter-rouge">color</code> property is changed. This includes anti-aliased pixels.</p>
+
+<p><strong>Note:</strong> Anti-aliasing is a technique in which the foreground color and background color are blended to create smooth edges.</p>
+
+<h3 id="highest-possible-contrast">Highest Possible Contrast</h3>
+
+<p>The highest value of the <a href="https://www.w3.org/TR/WCAG21/#dfn-contrast-ratio" title="WCAG definition of Contrast Ratio">contrast ratios</a> between two sets of colors (A and B). That is, the highest <a href="https://www.w3.org/TR/WCAG21/#dfn-contrast-ratio" title="WCAG definition of Contrast Ratio">contrast ratio</a> between either the darkest color in A and the brightest color in B, or the brightest color in A and the darkest color in B.</p>
+
+<h3 id="implicit-role">Implicit Semantic Role</h3>
+
+<p>The <em>implicit semantic role</em> of an element is a pre-defined value given by the host language which depends on the element and its ancestors.</p>
+
+<p>Implicit roles for HTML and SVG, are documented in the <a href="https://www.w3.org/TR/html-aam/#html-element-role-mappings">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/#mapping_role_table">SVG accessibility API mappings (working draft)</a>.</p>
+
+<h3 id="included-in-the-accessibility-tree">Included in the accessibility tree</h3>
+
+<p>Elements included in the accessibility tree of platform specific accessibility APIs are exposed to assistive technologies. This allows users of assistive technology to access the elements in a way that meets the requirements of the individual user.</p>
+
+<p>The general rules for when elements are included in the accessibility tree are defined in the <a href="https://www.w3.org/TR/core-aam/">core accessibility API mappings</a>. For native markup languages, such as HTML and SVG, additional rules for when elements are included in the accessibility tree can be found in the <a href="https://www.w3.org/TR/html-aam/">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/">SVG accessibility API mappings (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/included-in-the-accessibility-tree/">examples of included in the accessibility tree</a>.</p>
+
+<p><a href="#programmatically-hidden">Programmatically hidden</a> elements are removed from the accessibility tree. However, some browsers will leave <a href="#focusable">focusable</a> elements with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code> in the accessibility tree. Because they are hidden, these elements are considered <strong>not</strong> included in the accessibility tree. This may cause confusion for users of assistive technologies because they may still be able to interact with these focusable elements using sequential keyboard navigation, even though the element should not be included in the accessibility tree.</p>
+
+<h3 id="inheriting-semantic">Inheriting Semantic Role</h3>
+
+<p>An element with an <em>inheriting semantic role</em> of X is any element with a non-<a href="https://www.w3.org/TR/wai-aria-1.1/#isAbstract" title="ARIA Definition for Abstract Roles">abstract</a> <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> that inherits from X, or is the same as X.</p>
+
+<p><strong>Example</strong>: An “inheriting semantic link” is any element that either has the <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> of <a href="https://www.w3.org/TR/wai-aria/#link" title="ARIA Definition of the link Role"><code class="language-plaintext highlighter-rouge">link</code></a> or a <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> that inherits from the <a href="https://www.w3.org/TR/wai-aria/#link" title="ARIA Definition of the link Role"><code class="language-plaintext highlighter-rouge">link</code></a> role, such as <a href="https://www.w3.org/TR/dpub-aria-1.0/#doc-biblioref" title="DPUB ARIA Definition of doc-biblioref">doc-biblioref</a>.</p>
+
+<h3 id="large-scale-text">Large Scale Text</h3>
+
+<p>Text nodes with a <a href="https://www.w3.org/TR/css-cascade-3/#computed-value">computed</a> <a href="https://www.w3.org/TR/css-fonts-3/#propdef-font-size">font-size</a> of:</p>
+
+<ul>
+  <li>at least 18 <a href="https://www.w3.org/TR/css-values/#pt">points</a>, or</li>
+  <li>at least 14 <a href="https://www.w3.org/TR/css-values/#pt">points</a> and a <a href="https://www.w3.org/TR/css-cascade-3/#computed-value">computed</a> <a href="https://www.w3.org/TR/css-fonts-3/#font-weight-prop">font weight</a> CSS property of 700 or higher.</li>
+</ul>
+
+<h3 id="marked-as-decorative">Marked as decorative</h3>
+
+<p>An element is <em>marked as decorative</em> if one or more of the following conditions is true:</p>
+
+<ul>
+  <li>it has an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a> of <code class="language-plaintext highlighter-rouge">none</code> or <code class="language-plaintext highlighter-rouge">presentation</code>; or</li>
+  <li>it is an <code class="language-plaintext highlighter-rouge">img</code> element with an <code class="language-plaintext highlighter-rouge">alt</code> attribute whose value is the empty string (<code class="language-plaintext highlighter-rouge">alt=""</code>), and with no <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>.</li>
+</ul>
+
+<p>Elements are marked as decorative as a way to convey the intention of the author that they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a>. It is different from the element actually being <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a> as authors may make mistakes. It is different from the element being effectively ignored by assistive technologies as rules such as <a href="https://www.w3.org/TR/wai-aria-1.1/#conflict_resolution_presentation_none" title="WAI-ARIA, Presentational Roles Conflict Resolution">presentational roles conflict resolution</a> may overwrite this intention.</p>
+
+<p>Elements can also be ignored by assistive technologies if they are <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>. This is different from marking the element as decorative and does not convey the same intention. Notably, being <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a> may change as users interact with the page (showing and hiding elements) while being marked as decorative should stay the same through all states of the page.</p>
+
+<h3 id="namespaced-element">Namespaced Element</h3>
+
+<p>An <a href="https://dom.spec.whatwg.org/#element" title="DOM element, 2021/05/31">element</a> with a specific <a href="https://dom.spec.whatwg.org/#dom-element-namespaceuri" title="DOM Element namespaceURI, 2021/05/31">namespaceURI</a> value from <a href="https://infra.spec.whatwg.org/#namespaces" title="HTML namespace, 2021/05/31">HTML namespaces</a>. For example an “SVG element” is any element with the “SVG namespace”, which is <code class="language-plaintext highlighter-rouge">http://www.w3.org/2000/svg</code>.</p>
+
+<p>Namespaced elements are not limited to elements described in a specification. They also include custom elements. Elements such as <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">title</code> have a different namespace depending on where they are used. For example a <code class="language-plaintext highlighter-rouge">title</code> in an HTML page usually has the HTML namespace. When used in an <code class="language-plaintext highlighter-rouge">svg</code> element, a <code class="language-plaintext highlighter-rouge">title</code> element has the SVG namespace instead.</p>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>An <em>outcome</em> is a conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+</ul>
+
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+
+<p><strong>Note:</strong> Implementations using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the <code class="language-plaintext highlighter-rouge">incomplete</code> outcome.</p>
+
+<h3 id="programmatically-hidden">Programmatically Hidden</h3>
+
+<p>An HTML element is <em>programmatically hidden</em> if either it has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">visibility</code> whose value is not <code class="language-plaintext highlighter-rouge">visible</code>; or at least one of the following is true for any of its <a href="https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor" title="DOM Definition of Inclusive Ancestor">inclusive ancestors</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS draft, flat tree, 2020/07/23">flat tree</a>:</p>
+
+<ul>
+  <li>has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">display</code> of <code class="language-plaintext highlighter-rouge">none</code>; or</li>
+  <li>has an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code></li>
+</ul>
+
+<p><strong>Note</strong>: Contrary to the other conditions, the <code class="language-plaintext highlighter-rouge">visibility</code> CSS property may be reverted by descendants.</p>
+
+<p><strong>Note</strong>: The <a href="https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements">HTML standard suggests</a> setting the CSS <code class="language-plaintext highlighter-rouge">display</code> property to <code class="language-plaintext highlighter-rouge">none</code> for elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute. While not required by HTML, all modern browsers follow this suggestion. Because of this the <code class="language-plaintext highlighter-rouge">hidden</code> attribute is not used in this definition. In browsers that use this suggestion, overriding the CSS <code class="language-plaintext highlighter-rouge">display</code> property can reveal elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute.</p>
+
+<h3 id="semantic-role">Semantic Role</h3>
+
+<p>The <em>semantic role</em> of an element is determined by the first of these cases that applies:</p>
+
+<ol>
+  <li><strong>Conflict</strong> If the element is <a href="#marked-as-decorative" title="Definition of Marked as Decorative">marked as decorative</a>, but the element is <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a>; or would be <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a> when it is not <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>, then its <em>semantic role</em> is its <strong><a href="#implicit-role" title="Definition of Implicit Role">implicit role</a></strong>.</li>
+  <li><strong>Explicit</strong> If the element has an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>, then its <em>semantic role</em> is its <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>.</li>
+  <li><strong>Implicit</strong> The <em>semantic role</em> of the element is its <a href="#implicit-role" title="Definition of Implicit Role">implicit role</a>.</li>
+</ol>
+
+<p>This definition can be used in expressions such as “semantic <code class="language-plaintext highlighter-rouge">button</code>” meaning any element with a semantic role of <code class="language-plaintext highlighter-rouge">button</code>.</p>
+
+<h3 id="visible">Visible</h3>
+
+<p>Content perceivable through sight.</p>
+
+<p>Content is considered <em>visible</em> if making it fully transparent would result in a difference in the pixels rendered for any part of the document that is currently within the viewport or can be brought into the viewport via scrolling.</p>
+
+<p><a href="https://www.w3.org/TR/WCAG21/#dfn-content">Content is defined in WCAG</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/visible/">examples of visible</a>.</p>
+
+<h3 id="wai-aria-specifications">WAI-ARIA specifications</h3>
+
+<p>The <em>WAI ARIA Specifications</em> group both the WAI ARIA W3C Recommendation and ARIA modules, namely:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/wai-aria-1.2/">Accessible Rich Internet Applications (WAI-ARIA) 1.2</a></li>
+  <li><a href="https://www.w3.org/TR/graphics-aria-1.0/">WAI-ARIA Graphics Module 1.0</a></li>
+  <li><a href="https://www.w3.org/TR/dpub-aria-1.0/">Digital Publishing WAI-ARIA Module 1.0</a></li>
+</ul>
+
+<p><strong>Note:</strong> depending on the type of content being evaluated, part of the specifications might be irrelevant and should be ignored.</p>
+
+
+<h2 id="ruleversions">Rule Versions</h2>
+
+<ol>
+  <li>
+      <a href="/WAI/standards-guidelines/act/rules/afw4f7/proposed/"> 
+        Proposed version, 30 August 2023</a>
+      (<a target="_blank" href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Fafw4f7%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Fafw4f7%2Fproposed%2F">compare</a>)
+  </li>
+  <li>
+      
+        Latest version, 30 August 2023
+  </li>
+</ol>
+<h2 id="implementations">Implementations</h2>
+  <p>This section is not part of the official rule. It is populated dynamically and 
+    not accounted for in the change history or the last modified date.</p>
+  <div class="scroll-wrap">
+    <table class="act-implementations">
+      <thead>
+        <tr>
+          <th>Implementation</th>
+          <th>Type</th>
+          <th>Consistency</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Axe DevTools Pro 4.37.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-devtools-pro#breakdown-afw4f7"><img alt="Axe DevTools Pro Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Axe-core 4.10.2</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-core#breakdown-afw4f7"><img alt="Axe-core Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Equal Access Accessibility Checker 3.1.42-rc.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/equal-access#breakdown-afw4f7"><img alt="Equal Access Accessibility Checker Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>QualWeb 3.0.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-afw4f7"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>SortSite 6.55</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-afw4f7"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator (+Browser) 17.4.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-afw4f7"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Auto 2.5.1</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-auto#breakdown-afw4f7"><img alt="UsableNet AQA - WCAG 2.2 AA Auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2.5.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-afw4f7"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Webmate Accessibility Workbench </td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-afw4f7"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+<h2 id="usefullinks">Useful Links</h2>
+<ul>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+afw4f7+">
+    Github issues related to this rule
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues/new?title=%20[afw4f7]">
+    Open a new issue
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/edit/develop/_rules/text-contrast-afw4f7.md">
+    Propose a change to the rule
+  </a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-wcag-act@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> afw4f7</p>
+<p><strong>Date:</strong> Updated 30 August 2023</p>
+<p><strong>Authors:</strong> <a href="https://www.linkedin.com/in/brianbors/">Brian Bors</a>, <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It was approved and published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

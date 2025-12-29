@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Image accessible name is descriptive[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Image accessible name is descriptive" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/proposed/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/proposed/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Image accessible name is descriptive" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Image accessible name is descriptive","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/proposed/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-image-accessible-name-is-descriptive  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="ACT Rule">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#description">Description</a></li>
+                
+                <li><a href="#applicability">Applicability</a></li>
+                
+                <li><a href="#expectation">Expectation</a></li>
+                
+                <li><a href="#background">Background</a></li>
+                
+                <li><a href="#accessibility-requirements-mapping">Accessibility Requirements Mapping</a></li>
+                
+                <li><a href="#input-aspects">Input Aspects</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#glossary">Glossary</a></li>
+                
+                <li><a href="#ruleversions">Rule Versions</a></li>
+                
+                <li><a href="#implementations">Implementations</a></li>
+                
+                <li><a href="#usefullinks">Useful Links</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                  Proposed
+                
+                
+              </span>
+              
+              Image accessible name is descriptive
+            </h1>
+        </header>
+
+        <aside class="box"> 
+  <header class="box-h box-h-icon"> 
+    Rule Mapping 
+  </header>
+  <div class="box-i"> 
+   <p>This is an <strong>Atomic rule</strong>
+    to test
+    <strong>1.1.1: Non-text Content (Level A)</strong>
+  </p>
+  </div>
+ </aside>
+
+<h2 id="description">Description</h2>
+<p>This rule checks that the accessible names of images serve an equivalent purpose to the image.</p>
+
+
+<h2 id="applicability">Applicability</h2>
+
+<p>This rule applies to any <code class="language-plaintext highlighter-rouge">img</code>, <code class="language-plaintext highlighter-rouge">canvas</code> or <code class="language-plaintext highlighter-rouge">svg</code> element that is <a href="#visible" title="Definition of visible">visible</a> and has a non-empty <a href="#accessible-name" title="Definition of accessible name">accessible name</a>, except if one or more of the following is true:</p>
+
+<ul>
+  <li>The element has an <a href="https://dom.spec.whatwg.org/#concept-tree-ancestor" title="DOM definition of ancestor, 2020/03/06">ancestor</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS Scoping definition of Flat tree, working draft">flat tree</a> that is <a href="https://www.w3.org/TR/wai-aria-1.2/#namecalculation" title="WAI-ARIA definition of Named from author">named from author</a>; or</li>
+  <li>The element is an <code class="language-plaintext highlighter-rouge">img</code> element where the <a href="https://html.spec.whatwg.org/#current-request" title="HTML definition of Current request, 2020/03/06">current request</a>’s <a href="https://html.spec.whatwg.org/#img-req-state" title="HTML definition of Image request state, 2020/03/06">state</a> is not <a href="https://html.spec.whatwg.org/#img-all" title="HTML definition of Completely available, 2020/03/06">completely available</a>.</li>
+</ul>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>Each test target has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> that serves an equivalent purpose to the <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG 2.2 definition of non-text content">non-text content</a> of that test target.</p>
+
+<h2 id="background">Background</h2>
+
+<h3 id="assumptions">Assumptions</h3>
+
+<p>There are no assumptions.</p>
+
+<h3 id="accessibility-support">Accessibility Support</h3>
+
+<p>Some popular browser / screen reader combinations do not pronounce the accessible names of <code class="language-plaintext highlighter-rouge">svg</code> elements. This can be resolved by adding an <a href="#explicit-role">explicit semantic role</a> of <code class="language-plaintext highlighter-rouge">img</code> to the <code class="language-plaintext highlighter-rouge">svg</code> element.</p>
+
+<h3 id="other-resources">Other Resources</h3>
+
+<ul>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">Understanding Success Criterion 1.1.1: Non-text Content</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G94">G94: Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G95">G95: Providing short text alternatives that provide a brief description of the non-text content</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/failures/F30">F30: Failure of Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are not alternatives (e.g., filenames or placeholder text)</a></li>
+</ul>
+
+<h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
+
+<ul class="act-requirements-list">
+  <li><details>
+    <summary><span>1.1.1 Non-text Content (Level A)</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/TR/WCAG22/#non-text-content">Learn more about 1.1.1 Non-text Content</a></li>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level A and higher.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: success criterion is not satisfied</li>
+        <li>All <code>passed</code> outcomes: success criterion needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: success criterion needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+  <li><details>
+    <summary><span>G94: Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G94">Learn more about technique G94</a></li>
+      <li>Not required for conformance to any W3C accessibility recommendation.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: technique is not satisfied</li>
+        <li>All <code>passed</code> outcomes: technique needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: technique needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+  <li><details>
+    <summary><span>G95: Providing short text alternatives that provide a brief description of the non-text content</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G95">Learn more about technique G95</a></li>
+      <li>Not required for conformance to any W3C accessibility recommendation.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: technique is not satisfied</li>
+        <li>All <code>passed</code> outcomes: technique needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: technique needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+</ul>
+
+<h2 id="input-aspects">Input Aspects</h2>
+
+<p>The following aspects are required in using this rule.</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-accessibility">Accessibility Tree</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-css">CSS Styling</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-text">Language</a></li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/af4423575333947073fa3729f502ff0a0c6c2fbf.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">img</code> element has an <code class="language-plaintext highlighter-rouge">alt</code> attribute that describes the image.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/shared/w3c-logo.png"</span> <span class="na">alt=</span><span class="s">"W3C logo"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/5d314574052bf16676abb0e9a67e48dd70116c2e.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element has an <code class="language-plaintext highlighter-rouge">aria-label</code> attribute that describes the HTML5 logo image.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;svg</span> <span class="na">viewBox=</span><span class="s">"0 0 512 512"</span> <span class="na">aria-label=</span><span class="s">"HTML 5 logo"</span> <span class="na">role=</span><span class="s">"img"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;path</span>
+			<span class="na">d=</span><span class="s">"M108.4 0h23v22.8h21.2V0h23v69h-23V46h-21v23h-23.2M206 23h-20.3V0h63.7v23H229v46h-23M259.5 0h24.1l14.8 24.3L313.2 0h24.1v69h-23V34.8l-16.1 24.8l-16.1-24.8v34.2h-22.6M348.7 0h23v46.2h32.6V69h-55.6"</span>
+		<span class="nt">/&gt;</span>
+		<span class="nt">&lt;path</span> <span class="na">fill=</span><span class="s">"#e44d26"</span> <span class="na">d=</span><span class="s">"M107.6 471l-33-370.4h362.8l-33 370.2L255.7 512"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;path</span> <span class="na">fill=</span><span class="s">"#f16529"</span> <span class="na">d=</span><span class="s">"M256 480.5V131H404.3L376 447"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;path</span>
+			<span class="na">fill=</span><span class="s">"#ebebeb"</span>
+			<span class="na">d=</span><span class="s">"M142 176.3h114v45.4h-64.2l4.2 46.5h60v45.3H154.4M156.4 336.3H202l3.2 36.3 50.8 13.6v47.4l-93.2-26"</span>
+		<span class="nt">/&gt;</span>
+		<span class="nt">&lt;path</span> <span class="na">fill=</span><span class="s">"#fff"</span> <span class="na">d=</span><span class="s">"M369.6 176.3H255.8v45.4h109.6M361.3 268.2H255.8v45.4h56l-5.3 59-50.7 13.6v47.2l93-25.8"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/svg&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/2a66c7b8d8ef78d350b1c995e0ad232008f6564f.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">canvas</code> element has an <code class="language-plaintext highlighter-rouge">aria-label</code> attribute that describes the W3C logo image.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;canvas</span> <span class="na">id=</span><span class="s">"logo"</span> <span class="na">width=</span><span class="s">"72"</span> <span class="na">height=</span><span class="s">"48"</span> <span class="na">aria-label=</span><span class="s">"W3C logo"</span><span class="nt">&gt;&lt;/canvas&gt;</span>
+	<span class="nt">&lt;script&gt;</span>
+		<span class="kd">const</span> <span class="nx">img</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Image</span><span class="p">()</span>
+		<span class="nx">img</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">/test-assets/shared/w3c-logo.png</span><span class="dl">'</span>
+		<span class="nx">img</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+			<span class="kd">const</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#logo</span><span class="dl">'</span><span class="p">).</span><span class="nf">getContext</span><span class="p">(</span><span class="dl">'</span><span class="s1">2d</span><span class="dl">'</span><span class="p">)</span>
+			<span class="nx">ctx</span><span class="p">.</span><span class="nf">drawImage</span><span class="p">(</span><span class="nx">img</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+		<span class="p">}</span>
+	<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/485f10faf222cd48fea2ab3ee79c2d354e51ea33.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">img</code> element has an <code class="language-plaintext highlighter-rouge">alt</code> attribute that incorrectly describes the image.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/shared/w3c-logo.png"</span> <span class="na">alt=</span><span class="s">"ERCIM logo"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-2">Failed Example 2</h4>
+
+<p><a class="example-link" title="Failed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/2f7d82593e287df64b7459695e355a840254255c.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element has an <code class="language-plaintext highlighter-rouge">aria-label</code> attribute that incorrectly describes the image (the <code class="language-plaintext highlighter-rouge">aria-label</code> is “W3C” but the actual image is the HTML5 logo).</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;svg</span> <span class="na">viewBox=</span><span class="s">"0 0 512 512"</span> <span class="na">aria-label=</span><span class="s">"W3C"</span> <span class="na">role=</span><span class="s">"img"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;path</span>
+			<span class="na">d=</span><span class="s">"M108.4 0h23v22.8h21.2V0h23v69h-23V46h-21v23h-23.2M206 23h-20.3V0h63.7v23H229v46h-23M259.5 0h24.1l14.8 24.3L313.2 0h24.1v69h-23V34.8l-16.1 24.8l-16.1-24.8v34.2h-22.6M348.7 0h23v46.2h32.6V69h-55.6"</span>
+		<span class="nt">/&gt;</span>
+		<span class="nt">&lt;path</span> <span class="na">fill=</span><span class="s">"#e44d26"</span> <span class="na">d=</span><span class="s">"M107.6 471l-33-370.4h362.8l-33 370.2L255.7 512"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;path</span> <span class="na">fill=</span><span class="s">"#f16529"</span> <span class="na">d=</span><span class="s">"M256 480.5V131H404.3L376 447"</span> <span class="nt">/&gt;</span>
+		<span class="nt">&lt;path</span>
+			<span class="na">fill=</span><span class="s">"#ebebeb"</span>
+			<span class="na">d=</span><span class="s">"M142 176.3h114v45.4h-64.2l4.2 46.5h60v45.3H154.4M156.4 336.3H202l3.2 36.3 50.8 13.6v47.4l-93.2-26"</span>
+		<span class="nt">/&gt;</span>
+		<span class="nt">&lt;path</span> <span class="na">fill=</span><span class="s">"#fff"</span> <span class="na">d=</span><span class="s">"M369.6 176.3H255.8v45.4h109.6M361.3 268.2H255.8v45.4h56l-5.3 59-50.7 13.6v47.2l93-25.8"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/svg&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-3">Failed Example 3</h4>
+
+<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/bac67a5a2ada971100bbec89961ad3e6c869f268.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">canvas</code> element has an <code class="language-plaintext highlighter-rouge">aria-label</code> attribute that incorrectly describes the image (the <code class="language-plaintext highlighter-rouge">aria-label</code> is “HTML5 logo” but the actual image is the W3C logo).</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;canvas</span> <span class="na">id=</span><span class="s">"logo"</span> <span class="na">width=</span><span class="s">"72"</span> <span class="na">height=</span><span class="s">"48"</span> <span class="na">aria-label=</span><span class="s">"HTML 5 logo"</span><span class="nt">&gt;&lt;/canvas&gt;</span>
+	<span class="nt">&lt;script&gt;</span>
+		<span class="kd">const</span> <span class="nx">img</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Image</span><span class="p">()</span>
+		<span class="nx">img</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">/test-assets/shared/w3c-logo.png</span><span class="dl">'</span>
+		<span class="nx">img</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+			<span class="kd">const</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#logo</span><span class="dl">'</span><span class="p">).</span><span class="nf">getContext</span><span class="p">(</span><span class="dl">'</span><span class="s1">2d</span><span class="dl">'</span><span class="p">)</span>
+			<span class="nx">ctx</span><span class="p">.</span><span class="nf">drawImage</span><span class="p">(</span><span class="nx">img</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+		<span class="p">}</span>
+	<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/0ab8d652533229aae98191a6a43c2168e1959963.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">img</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. The image is described by the adjacent text.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/shared/pdf-icon.png"</span> <span class="na">alt=</span><span class="s">""</span> <span class="nt">/&gt;</span> PDF document
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
+
+<p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/ce2c30787caebdf1d6adcd6aedfac8fa8842a9c4.html">Open in a new tab</a></p>
+
+<p>This decorative <code class="language-plaintext highlighter-rouge">img</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because it has no attributes or content to provide an accessible name.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;p&gt;</span>Happy new year!<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/shared/fireworks.jpg"</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
+
+<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/4629221e66963f356b68f6e17dacea9a937fe7d3.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because it has no attributes or content to provide an accessible name.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;p&gt;</span>Happy new year!<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;svg</span> <span class="na">height=</span><span class="s">"200"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">"100,10 40,180 190,60 10,60 160,180"</span> <span class="na">fill=</span><span class="s">"yellow"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/svg&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
+
+<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/9f373a7eca6b3dc1089e76fa275cdb63c7a8d4b6.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">canvas</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because it has no attributes or content to provide an accessible name.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;p&gt;</span>Happy new year!<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;canvas</span> <span class="na">id=</span><span class="s">"newyear"</span> <span class="na">width=</span><span class="s">"200"</span> <span class="na">height=</span><span class="s">"200"</span><span class="nt">&gt;&lt;/canvas&gt;</span>
+	<span class="nt">&lt;script&gt;</span>
+		<span class="kd">const</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#newyear</span><span class="dl">'</span><span class="p">).</span><span class="nf">getContext</span><span class="p">(</span><span class="dl">'</span><span class="s1">2d</span><span class="dl">'</span><span class="p">)</span>
+		<span class="nx">ctx</span><span class="p">.</span><span class="nx">fillStyle</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">yellow</span><span class="dl">'</span>
+		<span class="nx">ctx</span><span class="p">.</span><span class="nf">beginPath</span><span class="p">()</span>
+		<span class="nx">ctx</span><span class="p">.</span><span class="nf">moveTo</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+		<span class="nx">ctx</span><span class="p">.</span><span class="nf">lineTo</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">180</span><span class="p">)</span>
+		<span class="nx">ctx</span><span class="p">.</span><span class="nf">lineTo</span><span class="p">(</span><span class="mi">190</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
+		<span class="nx">ctx</span><span class="p">.</span><span class="nf">lineTo</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
+		<span class="nx">ctx</span><span class="p">.</span><span class="nf">lineTo</span><span class="p">(</span><span class="mi">160</span><span class="p">,</span> <span class="mi">180</span><span class="p">)</span>
+		<span class="nx">ctx</span><span class="p">.</span><span class="nf">fill</span><span class="p">()</span>
+	<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-5">Inapplicable Example 5</h4>
+
+<p><a class="example-link" title="Inapplicable Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/2e1787fbc8a76fd8a2f8cae08d72097dab75abfd.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">img</code> element is not <a href="#visible" title="Definition of visible">visible</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/shared/w3c-logo.png"</span> <span class="na">alt=</span><span class="s">"W3C logo"</span> <span class="na">style=</span><span class="s">"display:none"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-6">Inapplicable Example 6</h4>
+
+<p><a class="example-link" title="Inapplicable Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/e3fa823fa9ba97ac106cc8d13f2ba7e771cb9c75.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">canvas</code> element is not <a href="#visible" title="Definition of visible">visible</a> because it is completely transparent.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;canvas</span> <span class="na">width=</span><span class="s">"200"</span> <span class="na">height=</span><span class="s">"200"</span><span class="nt">&gt;&lt;/canvas&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-7">Inapplicable Example 7</h4>
+
+<p><a class="example-link" title="Inapplicable Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/4d04a4946e1f06834c89b91f0a765367f9d0d492.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">img</code> element has no <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because it is not <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">aria-hidden=</span><span class="s">"true"</span> <span class="na">src=</span><span class="s">"/test-assets/shared/fireworks.jpg"</span> <span class="na">alt=</span><span class="s">"fireworks"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-8">Inapplicable Example 8</h4>
+
+<p><a class="example-link" title="Inapplicable Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/d5ce8939312a4c283084d0a7fdc7dd4cf6b35d4f.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">svg</code> element is ignored because it is a child of a link that provides its <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://w3.org"</span> <span class="na">aria-label=</span><span class="s">"W3C Website"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;svg</span> <span class="na">height=</span><span class="s">"200"</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">aria-label=</span><span class="s">"star"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">"100,10 40,180 190,60 10,60 160,180"</span> <span class="na">fill=</span><span class="s">"yellow"</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;/svg&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-9">Inapplicable Example 9</h4>
+
+<p><a class="example-link" title="Inapplicable Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/8ff1c1f8ce6c58b66365fd70f6828a89527874e3.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">img</code> element has a <code class="language-plaintext highlighter-rouge">src</code> attribute which will cause the <a href="https://html.spec.whatwg.org/#img-req-state" title="HTML definition of Image request state, 2020/03/06">image request state</a> to be <a href="https://html.spec.whatwg.org/#img-error">Broken</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/does-not-exist.png"</span> <span class="na">alt=</span><span class="s">""</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-10">Inapplicable Example 10</h4>
+
+<p><a class="example-link" title="Inapplicable Example 10" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/qt1vmo/a09270ba161c0259b258844551e94c40cdd6b52e.html">Open in a new tab</a></p>
+
+<p>This is a <code class="language-plaintext highlighter-rouge">div</code> element with a background image. Background images must be tested separate from this rule.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>Happy new year!<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span>
+	<span class="na">style=</span><span class="s">"
+	width: 260px;
+	height: 260px;
+	background: url(/test-assets/shared/fireworks.jpg) no-repeat;
+"</span>
+<span class="nt">&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="accessible-name">Accessible Name</h3>
+
+<p>The <em>accessible name</em> is the programmatically determined name of a user interface element that is <a href="#included-in-the-accessibility-tree">included in the accessibility tree</a>.</p>
+
+<p>The accessible name is calculated using the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>.</p>
+
+<p>For native markup languages, such as HTML and SVG, additional information on how to calculate the accessible name can be found in <a href="https://www.w3.org/TR/html-aam/#accessible-name-and-description-computation">HTML Accessibility API Mappings 1.0, Accessible Name and Description Computation (working draft)</a> and <a href="https://www.w3.org/TR/svg-aam/#mapping_additional">SVG Accessibility API Mappings, Name and Description (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/accessible-name/">examples of accessible name</a>.</p>
+
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>, each element always has an accessible name. When no accessible name is provided, the element will nonetheless be assigned an empty (<code class="language-plaintext highlighter-rouge">""</code>) one.</p>
+
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>, accessible names are <a href="https://www.w3.org/TR/accname-1.1/#terminology">flat string</a> trimmed of leading and trailing whitespace. Notably, it is not possible for a non-empty accessible name to be composed only of whitespace since these must be trimmed.</p>
+
+<h3 id="explicit-role">Explicit Semantic Role</h3>
+
+<p>The <em>explicit semantic role</em> of an element is determined by its <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> (if any).</p>
+
+<p>The <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> takes a list of tokens. The explicit semantic role is the first valid role in this list. The valid roles are all non-abstract roles from <a href="#wai-aria-specifications" title="Definition of WAI-ARIA specifications">WAI-ARIA Specifications</a>. If the element has no <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a>, or if it has one with no valid role, then this element has no explicit semantic role.</p>
+
+<p>Other roles may be added as they become available. Not all roles will be supported in all assistive technologies. Testers are encouraged to adjust which roles are allowed according to the <a href="https://www.w3.org/TR/WCAG-EM/#step1c" title="Definition of accessibility support base line">accessibility support base line</a>. For the purposes of executing examples in all rules, it should be assumed that all roles are supported by assistive technologies so that none of the roles fail due to lack of accessibility support.</p>
+
+<h3 id="focusable">Focusable</h3>
+
+<p>An element is <em>focusable</em> if one or both of the following are true:</p>
+
+<ul>
+  <li>the element is part of <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation">sequential focus navigation</a>; or</li>
+  <li>the element has a <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> that is not null.</li>
+</ul>
+
+<p><strong>Exception</strong>: Elements that lose focus and do not regain focus during a period of up to 1 second after gaining focus, without the user interacting with the page the element is on, are not considered <em>focusable</em>.</p>
+
+<p>Notes:</p>
+
+<ul>
+  <li>The 1 second time span is an arbitrary limit which is not included in WCAG. Given that scripts can manage the focus state of elements, testing the focusability of an element consistently would be impractical without a time limit.</li>
+  <li>The <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> of an element is the value of the <a href="https://html.spec.whatwg.org/#attr-tabindex">tabindex attribute</a> parsed using the <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">rules for parsing integers</a>. For the <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> to be different from null, it needs to be <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">parsed</a> without errors.</li>
+</ul>
+
+<h3 id="included-in-the-accessibility-tree">Included in the accessibility tree</h3>
+
+<p>Elements included in the accessibility tree of platform specific accessibility APIs are exposed to assistive technologies. This allows users of assistive technology to access the elements in a way that meets the requirements of the individual user.</p>
+
+<p>The general rules for when elements are included in the accessibility tree are defined in the <a href="https://www.w3.org/TR/core-aam/">core accessibility API mappings</a>. For native markup languages, such as HTML and SVG, additional rules for when elements are included in the accessibility tree can be found in the <a href="https://www.w3.org/TR/html-aam/">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/">SVG accessibility API mappings (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/included-in-the-accessibility-tree/">examples of included in the accessibility tree</a>.</p>
+
+<p><a href="#programmatically-hidden">Programmatically hidden</a> elements are removed from the accessibility tree. However, some browsers will leave <a href="#focusable">focusable</a> elements with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code> in the accessibility tree. Because they are hidden, these elements are considered <strong>not</strong> included in the accessibility tree. This may cause confusion for users of assistive technologies because they may still be able to interact with these focusable elements using sequential keyboard navigation, even though the element should not be included in the accessibility tree.</p>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>A conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> or one of its constituent test target. An outcome can be one of the five following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+  <li><strong>cantTell:</strong> Whether the rule is applicable, or not all expectations were met could not be fully determined by the tester.</li>
+  <li><strong>Untested</strong>: The tester has not attempted to evaluate the test subject.</li>
+</ul>
+
+<p><strong>Note</strong>: A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When a tester evaluates a test target it can also be reported as <code class="language-plaintext highlighter-rouge">cantTell</code> if the rule cannot be tested in its entirety. For example, when applicability was automated, but the expectations have to be evaluated manually.</p>
+
+<p>When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. If the tester is unable to determine whether there are test targets there will be one <code class="language-plaintext highlighter-rouge">cantTell</code> outcome. And when no evaluation has occurred the test target has one untested outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> always has one or more outcomes.</p>
+
+<p>Outcomes used in ACT Rules can be expressed using the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a> of the <a href="https://www.w3.org/TR/act-rules-format-1.1/#biblio-earl10-schema">EARL10-Schema</a>.</p>
+
+<h3 id="programmatically-hidden">Programmatically Hidden</h3>
+
+<p>An HTML element is <em>programmatically hidden</em> if either it has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">visibility</code> whose value is not <code class="language-plaintext highlighter-rouge">visible</code>; or at least one of the following is true for any of its <a href="https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor" title="DOM Definition of Inclusive Ancestor">inclusive ancestors</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS Scoping definition of Flat tree, working draft">flat tree</a>:</p>
+
+<ul>
+  <li>has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">display</code> of <code class="language-plaintext highlighter-rouge">none</code>; or</li>
+  <li>has an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code></li>
+</ul>
+
+<p><strong>Note</strong>: Contrary to the other conditions, the <code class="language-plaintext highlighter-rouge">visibility</code> CSS property may be reverted by descendants.</p>
+
+<p><strong>Note</strong>: The <a href="https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements">HTML standard suggests</a> setting the CSS <code class="language-plaintext highlighter-rouge">display</code> property to <code class="language-plaintext highlighter-rouge">none</code> for elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute. While not required by HTML, all modern browsers follow this suggestion. Because of this the <code class="language-plaintext highlighter-rouge">hidden</code> attribute is not used in this definition. In browsers that use this suggestion, overriding the CSS <code class="language-plaintext highlighter-rouge">display</code> property can reveal elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute.</p>
+
+<h3 id="visible">Visible</h3>
+
+<p>Content perceivable through sight.</p>
+
+<p>Content is considered <em>visible</em> if making it fully transparent would result in a difference in the pixels rendered for any part of the document that is currently within the viewport or can be brought into the viewport via scrolling.</p>
+
+<p><a href="https://www.w3.org/TR/WCAG22/#dfn-content">Content is defined in WCAG</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/visible/">examples of visible</a>.</p>
+
+<h3 id="wai-aria-specifications">WAI-ARIA specifications</h3>
+
+<p>The <em>WAI ARIA Specifications</em> group both the WAI ARIA W3C Recommendation and ARIA modules, namely:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/wai-aria-1.2/">Accessible Rich Internet Applications (WAI-ARIA) 1.2</a></li>
+  <li><a href="https://www.w3.org/TR/graphics-aria-1.0/">WAI-ARIA Graphics Module 1.0</a></li>
+  <li><a href="https://www.w3.org/TR/dpub-aria-1.0/">Digital Publishing WAI-ARIA Module 1.0</a></li>
+</ul>
+
+<p><strong>Note:</strong> depending on the type of content being evaluated, part of the specifications might be irrelevant and should be ignored.</p>
+
+
+<h2 id="ruleversions">Rule Versions</h2>
+
+<ol>
+  <li>
+       
+        Proposed version, 30 August 2023
+      (<a target="_blank" href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Fqt1vmo%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Fqt1vmo%2Fproposed%2F">compare</a>)
+  </li>
+  <li>
+      <a href="/WAI/standards-guidelines/act/rules/qt1vmo/">
+        Latest version, 30 August 2023</a>
+  </li>
+</ol>
+<h2 id="implementations">Implementations</h2>
+  <p>This section is not part of the official rule. It is populated dynamically and 
+    not accounted for in the change history or the last modified date.</p>
+  <div class="scroll-wrap">
+    <table class="act-implementations">
+      <thead>
+        <tr>
+          <th>Implementation</th>
+          <th>Type</th>
+          <th>Consistency</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Axe DevTools Pro 4.37.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-devtools-pro#breakdown-qt1vmo"><img alt="Axe DevTools Pro Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Trusted Tester 5.1</td>
+            <td>Test methodology</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/trusted-tester#breakdown-qt1vmo"><img alt="Trusted Tester Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2.5.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-qt1vmo"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+<h2 id="usefullinks">Useful Links</h2>
+<ul>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+qt1vmo+">
+    Github issues related to this rule
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues/new?title=%20[qt1vmo]">
+    Open a new issue
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/edit/develop/_rules/image-accessible-name-descriptive-qt1vmo.md">
+    Propose a change to the rule
+  </a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-wcag-act@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> qt1vmo</p>
+<p><strong>Date:</strong> Updated 7 October 2025</p>
+<p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
+
+<p><strong>Assets:</strong> Test cases use assets from the following sources: W3C; HTML and W3C logo; Wikimedia; Fireworks image; Adobe; PDF logo</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

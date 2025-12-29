@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> ACT Test Cases |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="ACT Test Cases" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/report/testcases/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/report/testcases/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="ACT Test Cases" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"ACT Test Cases","url":"https://www.w3.org/WAI/standards-guidelines/act/report/testcases/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-act-test-cases  doc-note doc-draft tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#test-case-format">Test Case Format</a></li>
+                
+                <li><a href="#running-the-test-cases">Running The Test Cases</a></li>
+                
+                <li><a href="#contribute-an-implementation">Contribute An Implementation</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              ACT Test Cases
+            </h1>
+        </header>
+
+        <p>All ACT rules include a number of test cases, which are designed for easy consumption by accessibility test tools and methodologies. Test cases are updated regularly as part of rule writing. All test cases are described in a JSON file:</p>
+
+<p><a class="btn" href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases.json">
+	See the Test Cases JSON
+ </a></p>
+
+<p><strong>Note</strong>: HTML test cases are embedded in a small template which adds a <code class="language-plaintext highlighter-rouge">!DOCTYPE</code>, HTML root node with lang attribute, and head with a title. These are omitted for test cases with an HTML element or a <code class="language-plaintext highlighter-rouge">!DOCTYPE</code>.</p>
+
+<h2 id="test-case-format">Test Case Format</h2>
+
+<p>In the <code class="language-plaintext highlighter-rouge">testcases.json</code> file, test cases are included on the <code class="language-plaintext highlighter-rouge">testcases</code> array, each with the following properties:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">testcaseId</code>: Hash of the test case, changes when the test case is updated</li>
+  <li><code class="language-plaintext highlighter-rouge">url</code>: Standalone page containing the test case.</li>
+  <li><code class="language-plaintext highlighter-rouge">expected</code>: Expected outcome of the test case (<code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code>, or <code class="language-plaintext highlighter-rouge">inapplicable</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">ruleId</code>: Unique identifier for the rule.</li>
+  <li><code class="language-plaintext highlighter-rouge">ruleName</code>: Title of the rule the test case is for</li>
+  <li><code class="language-plaintext highlighter-rouge">rulePage</code>: Page containing a detailed rule description.</li>
+  <li><code class="language-plaintext highlighter-rouge">ruleAccessibilityRequirements</code>: Array of success criteria and other accessibility requirements not satisfied when the rule <code class="language-plaintext highlighter-rouge">failed</code></li>
+</ul>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+	</span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ACT Task Force test cases"</span><span class="p">,</span><span class="w">
+	</span><span class="nl">"website"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.w3.org/WAI/standards-guidelines/act/rules/"</span><span class="p">,</span><span class="w">
+	</span><span class="nl">"license"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://act-rules.github.io/pages/license/"</span><span class="p">,</span><span class="w">
+	</span><span class="nl">"count"</span><span class="p">:</span><span class="w"> </span><span class="mi">1132</span><span class="p">,</span><span class="w">
+	</span><span class="nl">"testcases"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+		</span><span class="p">{</span><span class="w">
+			</span><span class="nl">"ruleId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"97a4e1"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"ruleName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Button has non-empty accessible name"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"ruleAccessibilityRequirements"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+				</span><span class="nl">"wcag20:4.1.2"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+					</span><span class="nl">"forConformance"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+					</span><span class="nl">"failed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"not satisfied"</span><span class="p">,</span><span class="w">
+					</span><span class="nl">"passed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"further testing needed"</span><span class="p">,</span><span class="w">
+					</span><span class="nl">"inapplicable"</span><span class="p">:</span><span class="w"> </span><span class="s2">"further testing needed"</span><span class="w">
+				</span><span class="p">}</span><span class="w">
+			</span><span class="p">},</span><span class="w">
+			</span><span class="nl">"expected"</span><span class="p">:</span><span class="w"> </span><span class="s2">"passed"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"testcaseId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"a4cc71b0434f71f4ea0069c409f73e0207dfb403"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"testcaseTitle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Passed Example 1"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"relativePath"</span><span class="p">:</span><span class="w"> </span><span class="s2">"testcases/97a4e1/a4cc71b0434f71f4ea0069c409f73e0207dfb403.html"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/97a4e1/a4cc71b0434f71f4ea0069c409f73e0207dfb403.html"</span><span class="p">,</span><span class="w">
+			</span><span class="nl">"rulePage"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.w3.org/WAI/standards-guidelines/act/rules/97a4e1/proposed/"</span><span class="w">
+		</span><span class="p">},</span><span class="w"> </span><span class="err">...</span><span class="w"> </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="running-the-test-cases">Running The Test Cases</h2>
+
+<p>To run the test cases, go through each URL and run the necessary tests on that page. Tools and test procedures do not need to have a one-to-one mapping to ACT-R rules (see <a href="../mapping/">rule mapping</a>). While you could run all tests in an implementation on every test case, for efficiency we recommend doing one of the following:</p>
+
+<ol>
+  <li>
+    <p>Only run tests relevant for the <code class="language-plaintext highlighter-rouge">ruleAccessibilityRequirements</code> (e.g. for a test case that maps to success criterion 1.1.1, only run tests related to success criterion 1.1.1)</p>
+  </li>
+  <li>
+    <p>Maintain a manual many-to-many mapping of rules in your implementation to ACT-R Rules</p>
+  </li>
+</ol>
+
+<p>Correctness of an implementation is based on the results for test cases. See <a href="../mapping/">implementation mapping</a> for more information.</p>
+
+<h2 id="contribute-an-implementation">Contribute An Implementation</h2>
+
+<p>If you developed an accessibility tool or a testing methodology, and would like to have your implementation included in the WAI website, there are two ways you can do so.</p>
+
+<ol>
+  <li>
+    <p>If you have a tool that can return a data format, you will need to run your tests against the ACT rule’s test cases and <a href="../submit/">submit a report</a>.</p>
+  </li>
+  <li>
+    <p>If you have a manual test methodology where you fill results into some report template or semi-automated tool, you can <a href="https://act-implementor.netlify.app/#/">use the ACT Implementor tool</a> instead to produce implementation reports.</p>
+  </li>
+</ol>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.">wai@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list." class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"></div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

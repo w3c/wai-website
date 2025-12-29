@@ -1,0 +1,95 @@
+nav.nav li:last-of-type {
+  display: none;
+}
+
+/* For tables wider than the viewport */
+.scroll-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table.act-implementations {
+  width: 100%;
+}
+
+table.act-implementations a > img {
+  padding: 0.25rem;
+  border-radius: 0.25em;
+  border: solid 1px var(--wai-green);
+}
+
+table.act-requirements ul,
+table.act-implementations ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.act-proposed {
+  padding-top: .25em;
+  font-size: 80%;
+}
+.act-approved .progress-bar {
+  height: 3px;
+}
+.act-proposed .progress-bar {
+  height: 2px;
+}
+
+@media (min-width: 480px) { 
+  a.example-link {
+    float: right;
+    padding: 0;
+    margin: -2.5em 0 0;
+  }
+}
+
+table.act-example-outcomes,
+table.act-requirements {
+  min-width: 70%;
+}
+table.act-requirements th {
+  width: 50%;
+}
+table.act-example-outcomes th:first-child {
+  width: 220px;
+}
+.act-false-negative,
+.act-cannot-tell,
+.act-untested {
+  font-style: italic;
+}
+.act-false-negative,
+.act-untested {
+  background: var(--line-grey);
+}
+
+table.act-implemented-rules td:nth-child(2) {
+  white-space: nowrap;
+}
+
+table.act-rules-summary {
+  margin-top: 45px;
+}
+
+@media (min-height: 300px) {
+  .act-sticky {
+    position: sticky;
+    top: 0.25rem;
+    box-shadow: 0 -0.25rem 0 0 var(--pure-white);
+    z-index: 1;
+  }
+}
+
+/* Override WAI default, to avoid captions having the same look as h2 */
+table caption {
+  color: var(--dk-grey);
+  font-size: 1.05rem;
+}
+
+ul.act-requirements-list {
+  padding-inline-start: 15px;
+}
+
+.act-requirements-list > li {
+  list-style: none;
+}

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Provide Reminders | Cognitive Accessibility Design Pattern | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Provide Reminders" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="User Need I need reminders integrated into my calendar, otherwise I will forget appointments and when I am meant to do things. Sometimes I need reminders to revisit a web site to complete the next task. What to Do Make it easy for the user to set a reminder for date and time sensitive events. Use standard application programming interfaces (APIs) when possible. Reminders must be set only at the user’s request and the user must be able to personalize the remainder method. How it Helps People with cognitive and learning disabilities often have challenges managing events and time. (In fact, being unable to correctly manage events and time without support is a diagnostic criterion for some groups of disabilities.) This results in missing meetings, not submitting a request by a certain date or a form within a specified time period and missed opportunities. For example: When the user copies information into a calendar they often copy the day or time incorrectly. The user is challenged processing and retaining time based information. The user may find it hard to sequence time-bound events. The user’s skills decrease when tired to such an extent that they have to stop a task. They may wish to reschedule the task. Using calendar APIs (or task manager) that allow the user to automatically add events and deadlines to their own calendar can help. For example, a user with a cognitive and learning disability sets a doctor’s appointment online. Often they copy the details incorrectly into their calendar. However, in this case, the web site gives them an option to add the appointment to the calendar and sets a reminder an hour before. The user now comes to the correct place at the correct time with the correct papers. The benefit to users with cognitive accessibility needs is that they can independently manage appointments, deadlines, and schedules. The ability to set reminders can reduce the cognitive load associated when processing time bound tasks. Time dependent activities may be monitored and tracked by the user to ensure that they are completed in a timely manner. Always give the option to set a reminder at the end of the task so that the user does not get interrupted. It is essential not to add unwanted reminders, as this makes the user’s calendar too full. This can even prevent them from being able to use their calendar at all. The user is the best person to know how many reminders, and which type, will best meet their needs. More Details Where a standard mechanism exists for the platform or technologies, it must be used. See: Web Notification API Using the Notifications API Reminders and Notifications Date and time sensitive events are any event that has to be completed by a certain time. The time constraints on such an event may be defined by a calendar date and time or by the total elapsed time. Variables that could be considered include: Time - at a logical time. Location - prompted when at an appropriate location. Context - on computer vs. mobile, on specific a site, etc. Examples Use: Options for the user to add the event to their calendar and set a reminder. For example: A health care site allows you to set a local medical appointment. Once the appointment is set the user is given the option to add it to their calendar (automatically) with a reminder three hours before. They are also given the option to add or edit the reminder. Avoid: Events that are added to the user’s calendar that the user does not want to attend. The user cannot automatically add the events and appointments they just set to their calendar. For example: A health care site allows you to set a local medical appointment. The user is not given the option to automatically add it to their calendar or set a reminder." />
+<meta property="og:description" content="User Need I need reminders integrated into my calendar, otherwise I will forget appointments and when I am meant to do things. Sometimes I need reminders to revisit a web site to complete the next task. What to Do Make it easy for the user to set a reminder for date and time sensitive events. Use standard application programming interfaces (APIs) when possible. Reminders must be set only at the user’s request and the user must be able to personalize the remainder method. How it Helps People with cognitive and learning disabilities often have challenges managing events and time. (In fact, being unable to correctly manage events and time without support is a diagnostic criterion for some groups of disabilities.) This results in missing meetings, not submitting a request by a certain date or a form within a specified time period and missed opportunities. For example: When the user copies information into a calendar they often copy the day or time incorrectly. The user is challenged processing and retaining time based information. The user may find it hard to sequence time-bound events. The user’s skills decrease when tired to such an extent that they have to stop a task. They may wish to reschedule the task. Using calendar APIs (or task manager) that allow the user to automatically add events and deadlines to their own calendar can help. For example, a user with a cognitive and learning disability sets a doctor’s appointment online. Often they copy the details incorrectly into their calendar. However, in this case, the web site gives them an option to add the appointment to the calendar and sets a reminder an hour before. The user now comes to the correct place at the correct time with the correct papers. The benefit to users with cognitive accessibility needs is that they can independently manage appointments, deadlines, and schedules. The ability to set reminders can reduce the cognitive load associated when processing time bound tasks. Time dependent activities may be monitored and tracked by the user to ensure that they are completed in a timely manner. Always give the option to set a reminder at the end of the task so that the user does not get interrupted. It is essential not to add unwanted reminders, as this makes the user’s calendar too full. This can even prevent them from being able to use their calendar at all. The user is the best person to know how many reminders, and which type, will best meet their needs. More Details Where a standard mechanism exists for the platform or technologies, it must be used. See: Web Notification API Using the Notifications API Reminders and Notifications Date and time sensitive events are any event that has to be completed by a certain time. The time constraints on such an event may be defined by a calendar date and time or by the total elapsed time. Variables that could be considered include: Time - at a logical time. Location - prompted when at an appropriate location. Context - on computer vs. mobile, on specific a site, etc. Examples Use: Options for the user to add the event to their calendar and set a reminder. For example: A health care site allows you to set a local medical appointment. Once the appointment is set the user is given the option to add it to their calendar (automatically) with a reminder three hours before. They are also given the option to add or edit the reminder. Avoid: Events that are added to the user’s calendar that the user does not want to attend. The user cannot automatically add the events and appointments they just set to their calendar. For example: A health care site allows you to set a local medical appointment. The user is not given the option to automatically add it to their calendar or set a reminder." />
+<link rel="canonical" href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p07-reminders/" />
+<meta property="og:url" content="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p07-reminders/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-12-19T17:20:32+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Provide Reminders" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"dateModified":"2025-12-19T17:20:32+00:00","datePublished":"2025-12-19T17:20:32+00:00","description":"User Need I need reminders integrated into my calendar, otherwise I will forget appointments and when I am meant to do things. Sometimes I need reminders to revisit a web site to complete the next task. What to Do Make it easy for the user to set a reminder for date and time sensitive events. Use standard application programming interfaces (APIs) when possible. Reminders must be set only at the user’s request and the user must be able to personalize the remainder method. How it Helps People with cognitive and learning disabilities often have challenges managing events and time. (In fact, being unable to correctly manage events and time without support is a diagnostic criterion for some groups of disabilities.) This results in missing meetings, not submitting a request by a certain date or a form within a specified time period and missed opportunities. For example: When the user copies information into a calendar they often copy the day or time incorrectly. The user is challenged processing and retaining time based information. The user may find it hard to sequence time-bound events. The user’s skills decrease when tired to such an extent that they have to stop a task. They may wish to reschedule the task. Using calendar APIs (or task manager) that allow the user to automatically add events and deadlines to their own calendar can help. For example, a user with a cognitive and learning disability sets a doctor’s appointment online. Often they copy the details incorrectly into their calendar. However, in this case, the web site gives them an option to add the appointment to the calendar and sets a reminder an hour before. The user now comes to the correct place at the correct time with the correct papers. The benefit to users with cognitive accessibility needs is that they can independently manage appointments, deadlines, and schedules. The ability to set reminders can reduce the cognitive load associated when processing time bound tasks. Time dependent activities may be monitored and tracked by the user to ensure that they are completed in a timely manner. Always give the option to set a reminder at the end of the task so that the user does not get interrupted. It is essential not to add unwanted reminders, as this makes the user’s calendar too full. This can even prevent them from being able to use their calendar at all. The user is the best person to know how many reminders, and which type, will best meet their needs. More Details Where a standard mechanism exists for the platform or technologies, it must be used. See: Web Notification API Using the Notifications API Reminders and Notifications Date and time sensitive events are any event that has to be completed by a certain time. The time constraints on such an event may be defined by a calendar date and time or by the total elapsed time. Variables that could be considered include: Time - at a logical time. Location - prompted when at an appropriate location. Context - on computer vs. mobile, on specific a site, etc. Examples Use: Options for the user to add the event to their calendar and set a reminder. For example: A health care site allows you to set a local medical appointment. Once the appointment is set the user is given the option to add it to their calendar (automatically) with a reminder three hours before. They are also given the option to add or edit the reminder. Avoid: Events that are added to the user’s calendar that the user does not want to attend. The user cannot automatically add the events and appointments they just set to their calendar. For example: A health care site allows you to set a local medical appointment. The user is not given the option to automatically add it to their calendar or set a reminder.","headline":"Provide Reminders","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p07-reminders/"},"url":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p07-reminders/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-provide-reminders resource-patterns tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      
+          Supplemental Guidance to WCAG 2
+        
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Additional ways to improve accessibility, not required to meet WCAG)
+      </p>
+    
+  </div>
+  
+  <a class="minimal-header-link" href="/WAI/WCAG2/supplemental/about/">About Supplemental Guidance and WCAG</a>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+          
+          <nav class="nav standalone-resource-pager" aria-label="Cognitive Accessibility Design Pattern">
+            <ul>
+                <li class="nav__item">
+                    <a href="/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance"><img src="/WAI/content-images/wai-wcag-supplemental/brain.svg" alt="" class="category-icon">All Cognitive</a>
+                
+                </li>
+
+                
+                    
+
+
+
+
+
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/objectives/o7-support/"><svg focusable="false" aria-hidden="true" class="icon-arrow-up-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up-thin"></use></svg> Objective: Provide Help and Support</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o7p06-supported-wayfinding/"><svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-left-thin"></use></svg> Previous Pattern</a></li>
+                    
+                    
+                
+            </ul>
+          </nav>
+        
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#userneed">User Need</a></li>
+                
+                <li><a href="#whattodo">What to Do</a></li>
+                
+                <li><a href="#howithelps">How it Helps</a></li>
+                
+                <li><a href="#moredetails">More Details</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#userstoriesandpersonas">User Stories and Personas</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                Cognitive Accessibility Design Pattern:
+              </span>
+              
+              Provide Reminders
+            </h1>
+        </header>
+
+        <section>
+  <h2 id="userneed">User Need</h2>
+  <blockquote>
+    <p>
+      I need reminders integrated into my calendar, otherwise I will forget
+      appointments and when I am meant to do things. Sometimes I need reminders
+      to revisit a web site to complete the next task.
+    </p>
+  </blockquote>
+  
+</section>
+<section class="wtd">
+  <h2 id="whattodo">What to Do</h2>
+  <p>
+    Make it easy for the user to set a reminder for date and time sensitive
+    events. Use standard application programming interfaces (APIs) when
+    possible.
+  </p>
+  <p>
+    Reminders must be set only at the user’s request and the user must be able
+    to personalize the remainder method.
+  </p>
+</section>
+<section>
+  <h2 id="howithelps">How it Helps</h2>
+  <p>
+    People with cognitive and learning disabilities often have challenges
+    managing events and time. (In fact, being unable to correctly manage events
+    and time without support is a diagnostic criterion for some groups of
+    disabilities.) This results in missing meetings, not submitting a request by
+    a certain date or a form within a specified time period and missed
+    opportunities. For example:
+  </p>
+  <ul>
+    <li>
+      When the user copies information into a calendar they often copy the day
+      or time incorrectly.
+    </li>
+    <li>
+      The user is challenged processing and retaining time based information.
+    </li>
+    <li>The user may find it hard to sequence time-bound events.</li>
+    <li>
+      The user’s skills decrease when tired to such an extent that they have to
+      stop a task. They may wish to reschedule the task.
+    </li>
+  </ul>
+  <p>
+    Using calendar
+    <abbr title="application programming interface">APIs</abbr> (or task
+    manager) that allow the user to automatically add events and deadlines to
+    their own calendar can help.
+  </p>
+  <p>
+    For example, a user with a cognitive and learning disability sets a doctor’s
+    appointment online. Often they copy the details incorrectly into their
+    calendar. However, in this case, the web site gives them an option to add
+    the appointment to the calendar and sets a reminder an hour before. The user
+    now comes to the correct place at the correct time with the correct papers.
+  </p>
+  <p>
+    The benefit to users with cognitive accessibility needs is that they can
+    independently manage appointments, deadlines, and schedules. The ability to
+    set reminders can reduce the cognitive load associated when processing time
+    bound tasks. Time dependent activities may be monitored and tracked by the
+    user to ensure that they are completed in a timely manner.
+  </p>
+  <p>
+    Always give the option to set a reminder at the end of the task so that the
+    user does not get interrupted.
+  </p>
+  <p>
+    It is essential not to add unwanted reminders, as this makes the user’s
+    calendar too full. This can even prevent them from being able to use their
+    calendar at all. The user is the best person to know how many reminders, and
+    which type, will best meet their needs.
+  </p>
+</section>
+<section>
+  <h2 id="moredetails">More Details</h2>
+  <p>
+    Where a standard mechanism exists for the platform or technologies, it must
+    be used. See:
+  </p>
+  <ul>
+    <li>
+      <a href="https://developer.mozilla.org/en/docs/Web/API/notification">Web Notification API</a>
+    </li>
+    <li>
+      <a href="https://www.html5rocks.com/en/tutorials/notifications/quick/">Using the Notifications API</a>
+    </li>
+    <li>
+      <a href="https://developers.google.com/google-apps/calendar/concepts/reminders">Reminders and Notifications</a>
+    </li>
+  </ul>
+  <p>
+    Date and time sensitive events are any event that has to be completed by a
+    certain time. The time constraints on such an event may be defined by a
+    calendar date and time or by the total elapsed time.
+  </p>
+  <p>Variables that could be considered include:</p>
+  <ul>
+    <li>Time - at a logical time.</li>
+    <li>Location - prompted when at an appropriate location.</li>
+    <li>Context - on computer vs. mobile, on specific a site, etc.</li>
+  </ul>
+</section>
+<section>
+  <h2 id="examples">Examples</h2>
+  <p><span class="use"></span><strong>Use:</strong></p>
+  <ol>
+    <li>
+      Options for the user to add the event to their calendar and set a
+      reminder. For example:
+      <ul>
+        <li>
+          A health care site allows you to set a local medical appointment. Once
+          the appointment is set the user is given the option to add it to their
+          calendar (automatically) with a reminder three hours before. They are
+          also given the option to add or edit the reminder.
+        </li>
+      </ul>
+    </li>
+  </ol>
+  <p><span class="avoid"></span><strong>Avoid:</strong></p>
+  <ol>
+    <li>
+      Events that are added to the user’s calendar that the user does not want
+      to attend.
+    </li>
+    <li>
+      The user cannot automatically add the events and appointments they just
+      set to their calendar. For example:
+      <ul>
+        <li>
+          A health care site allows you to set a local medical appointment. The
+          user is not given the option to automatically add it to their calendar
+          or set a reminder.
+        </li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+
+
+<section>
+    <h2 id="userstoriesandpersonas">User Stories and Personas</h2>
+
+    
+    
+        <h3>User Story</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#support-user-story">Support
+                                
+                                
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+        <h3>Personas</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#george-a-user-who-works-in-a-supermarket-and-has-down-syndrome">George
+                                
+                                
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#sam-a-librarian-who-has-a-hemiplegia-and-aphasia">Sam
+                                :
+                                
+                                A Librarian who has a Hemiplegia and Aphasia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#kwame-a-traumatic-brain-injury-survivor">Kwame
+                                :
+                                
+                                A Traumatic Brain Injury Survivor
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+
+    <h3>Glossary</h3>
+    <ul>
+        <li><a href="https://www.w3.org/TR/coga-usable/#glossary">Cognitive Accessibility Glossary<svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a></li>
+    </ul>
+</section>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-cognitive-a11y-tf@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/wai-wcag-supplemental/edit/main/_collections/_patterns/o7p07-reminders.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wai-wcag-supplemental/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p07-reminders/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Date:</strong> Content first published 29 April 2021 in <a href="https://www.w3.org/TR/coga-usable/">Making Content  Usable for People with Cognitive and Learning Disabilities</a> ("Content Usable"). This user interface posted in January 2022.</p> <p>This content is from the "Content Usable" Working Group Note by Cognitive and Learning Disabilities Accessibility Task Force  (<a href="https://www.w3.org/groups/tf/cognitive-a11y-tf">Coga TF</a>) <a href="https://www.w3.org/groups/tf/cognitive-a11y-tf/participants">participants</a>. It is published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>) and the  Accessible Platform Architectures (<a href="https://www.w3.org/groups/wg/apa">APA</a>) Working Group. This user interface was  designed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>) with contributions from Steve Lee, Hidde de Vries, Shadi Abou-Zahra, and Shawn Lawton Henry, as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/"> WAI-Guide project</a>, co-funded by the European Commission.</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

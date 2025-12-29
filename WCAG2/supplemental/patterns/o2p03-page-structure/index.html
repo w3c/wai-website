@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Use a Clear and Understandable Page Structure | Cognitive Accessibility Design Pattern | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Use a Clear and Understandable Page Structure" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="User Need I need to easily understand, navigate, and browse both the site and page structure. What to Do Carefully design the layout of the page. Make sure it has a clear structure and hierarchy so that it is easy to understand. This can be achieved by: organizing the page content into logical sections, clearly differentiating regions using dividing lines, whitespace, and background colors, providing headings and other visual cues to indicate the structure and purpose of the regions, making any relationship between regions of the page clear, and using visual indicators to help people understand: structure and relative importance of the page content, the grouping and association of items, and when items have a different purpose to surrounding information. How it Helps" />
+<meta property="og:description" content="User Need I need to easily understand, navigate, and browse both the site and page structure. What to Do Carefully design the layout of the page. Make sure it has a clear structure and hierarchy so that it is easy to understand. This can be achieved by: organizing the page content into logical sections, clearly differentiating regions using dividing lines, whitespace, and background colors, providing headings and other visual cues to indicate the structure and purpose of the regions, making any relationship between regions of the page clear, and using visual indicators to help people understand: structure and relative importance of the page content, the grouping and association of items, and when items have a different purpose to surrounding information. How it Helps" />
+<link rel="canonical" href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o2p03-page-structure/" />
+<meta property="og:url" content="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o2p03-page-structure/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-12-19T17:20:32+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Use a Clear and Understandable Page Structure" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"dateModified":"2025-12-19T17:20:32+00:00","datePublished":"2025-12-19T17:20:32+00:00","description":"User Need I need to easily understand, navigate, and browse both the site and page structure. What to Do Carefully design the layout of the page. Make sure it has a clear structure and hierarchy so that it is easy to understand. This can be achieved by: organizing the page content into logical sections, clearly differentiating regions using dividing lines, whitespace, and background colors, providing headings and other visual cues to indicate the structure and purpose of the regions, making any relationship between regions of the page clear, and using visual indicators to help people understand: structure and relative importance of the page content, the grouping and association of items, and when items have a different purpose to surrounding information. How it Helps","headline":"Use a Clear and Understandable Page Structure","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o2p03-page-structure/"},"url":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o2p03-page-structure/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-use-a-clear-and-understandable-page-structure resource-patterns tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      
+          Supplemental Guidance to WCAG 2
+        
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Additional ways to improve accessibility, not required to meet WCAG)
+      </p>
+    
+  </div>
+  
+  <a class="minimal-header-link" href="/WAI/WCAG2/supplemental/about/">About Supplemental Guidance and WCAG</a>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+          
+          <nav class="nav standalone-resource-pager" aria-label="Cognitive Accessibility Design Pattern">
+            <ul>
+                <li class="nav__item">
+                    <a href="/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance"><img src="/WAI/content-images/wai-wcag-supplemental/brain.svg" alt="" class="category-icon">All Cognitive</a>
+                
+                </li>
+
+                
+                    
+
+
+
+
+
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/objectives/o2-find/"><svg focusable="false" aria-hidden="true" class="icon-arrow-up-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up-thin"></use></svg> Objective: Help Users Find What They Need</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o2p02-site-structure/"><svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-left-thin"></use></svg> Previous Pattern</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o2p04-page-important/">Next Pattern <svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-right-thin"></use></svg></a></li>
+                    
+                
+            </ul>
+          </nav>
+        
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#userneed">User Need</a></li>
+                
+                <li><a href="#whattodo">What to Do</a></li>
+                
+                <li><a href="#howithelps">How it Helps</a></li>
+                
+                <li><a href="#moredetails">More Details</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#userstoriesandpersonas">User Stories and Personas</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                Cognitive Accessibility Design Pattern:
+              </span>
+              
+              Use a Clear and Understandable Page Structure
+            </h1>
+        </header>
+
+        <section>
+  <h2 id="userneed">User Need</h2>
+  <blockquote>
+    <p>
+      I need to easily understand, navigate, and browse both the site and page
+      structure.
+    </p>
+  </blockquote>
+  
+</section>
+<section class="wtd">
+  <h2 id="whattodo">What to Do</h2>
+  <p>
+    Carefully design the layout of the page. Make sure it has a clear structure
+    and hierarchy so that it is easy to understand.
+  </p>
+  <p>This can be achieved by:</p>
+  <ul>
+    <li>organizing the page content into logical sections,</li>
+    <li>
+      clearly differentiating regions using dividing lines, whitespace, and
+      background colors,
+    </li>
+    <li>
+      providing headings and other visual cues to indicate the structure and
+      purpose of the regions,
+    </li>
+    <li>making any relationship between regions of the page clear, and</li>
+    <li>
+      using visual indicators to help people understand:
+      <ul>
+        <li>structure and relative importance of the page content,</li>
+        <li>the grouping and association of items, and</li>
+        <li>when items have a different purpose to surrounding information.</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+<section>
+  <h2 id="howithelps">How it Helps</h2>
+
+  <p>
+    People with cognitive and learning disabilities may not be able to
+    use content and applications when the page structure and relationships are
+    unclear. The user may not complete tasks and miss key information. The user
+    may not return to pages that are complicated to use and understand.
+  </p>
+
+  <p>
+    Clear, well organized page layouts enable users to easily find key
+    information. They can focus on their tasks instead of working out what is on
+    the page. Using a standard visual layout, and positioning elements
+    consistently, will help users rely on muscle memory and use them. This
+    supports people with disabilities that impact their problem solving skills,
+    slow readers, or people who get overwhelmed when presented with a lot of
+    text. This includes:
+  </p>
+  <p>
+    <strong>A good structure:</strong> Organization of page content into
+    sections, each with an obvious purpose, allows users to more easily locate
+    and focus on the sections they need. Content that is not directly relevant
+    to the main purpose of a page should be distinctly separated.
+  </p>
+  <p>
+    <strong>Use borders and shading to group:</strong> Grouping information
+    using a border or color shading makes it easier for people to identify
+    groups.
+  </p>
+
+  <p>For example:</p>
+  <img alt="3 rows of 8 evenly spaced circles divided into two blue rectangles.  The blue backgrounds make the two groupings visually apparent." src="/content-images/wai-wcag-supplemental/common-region-1.png">
+  <img alt="4 circles divided into two sets of two by a contrasting border. Each set has a blue and a white circle. The white circles are adjacent but border clearly indicates the sets." src="/content-images/wai-wcag-supplemental/common-region-2.png">
+  <p>Figure: Example of grouping with shading and borders.</p>
+  <p>
+    <strong>Visual cues:</strong> People who have difficulty recognizing or
+    comprehending written language or concentrating, can find graphical cues
+    easier to process. Examples of common graphical indicators and visual cues
+    include:
+  </p>
+  <ul>
+    <li>grouping summaries of content,</li>
+    <li>using a card design using colors or white space,</li>
+    <li>flagging important information, such as using call out boxes, and</li>
+    <li>
+      indicating different types of information, such as placing quotes in
+      speech bubbles.
+    </li>
+  </ul>
+</section>
+<section>
+  <h2 id="moredetails">More Details</h2>
+  <p>
+    If pages have a lot of content, check that content is grouped and you can
+    see what is related.
+  </p>
+  <p>Making regions and a clear page structure can include:</p>
+  <ul>
+    <li>
+      Clearly label content categories, and use familiar visual cues and icons.
+      This will help recognition and retrieval rather than rely on memory. The
+      background color can be a clear divider if the contrast is strong enough.
+    </li>
+    <li>
+      The heading structure should create an outline of the document that could
+      serve as an abstract of the whole document.
+    </li>
+  </ul>
+  <p>
+    Icons should be used consistently. It is also important the graphical
+    indicators do not clutter the interface. Too many icons can add to the
+    cognitive load for users to process. Examples of clear dividers include high
+    contrast borders or white space. A change in background color can be a clear
+    divider if the contrast is strong enough.
+  </p>
+</section>
+<section>
+  <h2 id="examples">Examples</h2>
+  <p><span class="use"></span><strong>Use:</strong></p>
+  <ol>
+    <li>
+      Well separated sections of content. White space, borders, or call outs are
+      used to separate sections.
+    </li>
+    <li>
+      Headings and icons to help define sections of content. This organizes the
+      information on the page so it is easier to understand the layout and find
+      specific information.
+    </li>
+    <li>Call outs boxes.</li>
+  </ol>
+  <p><span class="avoid"></span><strong>Avoid:</strong></p>
+  <ol>
+    <li>Dense text, with little white space.</li>
+    <li>Unclear page structure and hierarchy.</li>
+    <li>Lack of visually differentiated sections.</li>
+    <li>
+      Sections without headings or icons that define sections. For example: A
+      web page has chunks of content run into each other with a “flat design”.
+      Many users with cognitive disabilities will find it challenging or
+      impossible to work out which chunks belong together. Thus, all the
+      benefits of chunking content are lost.
+    </li>
+    <li>Groups and page sections that are not logical.</li>
+  </ol>
+</section>
+
+
+
+<section>
+    <h2 id="userstoriesandpersonas">User Stories and Personas</h2>
+
+    
+    
+        <h3>User Story</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#clear-navigation-user-story">Clear Navigation
+                                
+                                
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+        <h3>Personas</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#alison-an-aging-user-with-mild-cognitive-impairment">Alison
+                                :
+                                
+                                An Aging User with Mild Cognitive Impairment
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#amy-an-autistic-computer-scientist">Amy
+                                :
+                                
+                                An Autistic Computer Scientist
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#gopal-a-retired-lawyer-with-dementia">Gopal
+                                :
+                                
+                                A Retired Lawyer with Dementia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#kwame-a-traumatic-brain-injury-survivor">Kwame
+                                :
+                                
+                                A Traumatic Brain Injury Survivor
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#maria-a-user-who-has-memory-loss">Maria
+                                :
+                                
+                                A User who has Memory Loss
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#sam-a-librarian-who-has-a-hemiplegia-and-aphasia">Sam
+                                :
+                                
+                                A Librarian who has a Hemiplegia and Aphasia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+
+    <h3>Glossary</h3>
+    <ul>
+        <li><a href="https://www.w3.org/TR/coga-usable/#glossary">Cognitive Accessibility Glossary<svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a></li>
+    </ul>
+</section>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-cognitive-a11y-tf@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/wai-wcag-supplemental/edit/main/_collections/_patterns/o2p03-page-structure.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wai-wcag-supplemental/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/WCAG2/supplemental/patterns/o2p03-page-structure/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Date:</strong> Content first published 29 April 2021 in <a href="https://www.w3.org/TR/coga-usable/">Making Content  Usable for People with Cognitive and Learning Disabilities</a> ("Content Usable"). This user interface posted in January 2022.</p> <p>This content is from the "Content Usable" Working Group Note by Cognitive and Learning Disabilities Accessibility Task Force  (<a href="https://www.w3.org/groups/tf/cognitive-a11y-tf">Coga TF</a>) <a href="https://www.w3.org/groups/tf/cognitive-a11y-tf/participants">participants</a>. It is published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>) and the  Accessible Platform Architectures (<a href="https://www.w3.org/groups/wg/apa">APA</a>) Working Group. This user interface was  designed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>) with contributions from Steve Lee, Hidde de Vries, Shadi Abou-Zahra, and Shawn Lawton Henry, as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/"> WAI-Guide project</a>, co-funded by the European Commission.</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

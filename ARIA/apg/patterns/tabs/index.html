@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Tabs Pattern | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Tabs Pattern" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/ARIA/apg/patterns/tabs/" />
+<meta property="og:url" content="https://www.w3.org/WAI/ARIA/apg/patterns/tabs/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Tabs Pattern" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Tabs Pattern","url":"https://www.w3.org/WAI/ARIA/apg/patterns/tabs/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-tabs-pattern ">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/ARIA/apg/">
+          ARIA Authoring Practices Guide (APG)
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          How to build accessibility semantics into web patterns and widgets
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="APG">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/">APG Home</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/patterns/">Patterns</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/practices/">Practices</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/example-index/">Index</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/about/">About</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#aboutthispattern">About This Pattern</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#keyboardinteraction">Keyboard Interaction</a></li>
+                
+                <li><a href="#wai-ariaroles,states,andproperties">WAI-ARIA Roles, States, and Properties</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Tabs Pattern
+            </h1>
+        </header>
+
+        <meta charset="UTF-8">
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>Tabs Pattern</title>
+
+<script src="../../../../content-assets/wai-aria-practices/shared/js/highlight.pack.js"></script>
+
+<script src="../../../../content-assets/wai-aria-practices/shared/js/app.js"></script>
+
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/styles.css">
+
+<!-- Code highlighting styles -->
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/shared/css/github.css">
+
+<script>
+const addBodyClass = undefined;
+const enableSidebar = true;
+if (addBodyClass) document.body.classList.add(addBodyClass);
+if (enableSidebar) document.body.classList.add('has-sidebar');
+</script>
+
+<script>
+    const parentPage = window.location.pathname.match(
+      /\/(patterns|practices|about)\//
+    )?.[1];
+    if (parentPage) {
+      const parentHref = 'a[href*="' + parentPage + '"]';
+      document.querySelector(parentHref).classList.add('active');
+    }
+  </script>
+
+<div>
+
+    <div>
+      
+
+      <section id="about">
+        <h2 id="aboutthispattern">About This Pattern</h2>
+        <p>
+          Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time.
+          Each tab panel has an associated tab element, that when activated, displays the panel.
+          The list of tab elements is arranged along one edge of the currently displayed panel, most commonly the top edge.
+        </p>
+        <p>Terms used to describe this design pattern include:</p>
+        <dl>
+          <dt>Tabs or Tabbed Interface</dt>
+          <dd>A set of tab elements and their associated tab panels.</dd>
+          <dt>Tab List</dt>
+          <dd>A set of tab elements contained in a <a href="https://w3c.github.io/aria/#tablist" class="role-reference">tablist</a> element.</dd>
+          <dt><a href="https://w3c.github.io/aria/#tab" class="role-reference">tab</a></dt>
+          <dd>An element in the tab list that serves as a label for one of the tab panels and can be activated to display that panel.</dd>
+          <dt><a href="https://w3c.github.io/aria/#tabpanel" class="role-reference">tabpanel</a></dt>
+          <dd>The element that contains the content associated with a tab.</dd>
+        </dl>
+        <p>
+          When a tabbed interface is initialized, one tab panel is displayed and its associated tab is styled to indicate that it is active.
+          When the user activates one of the other tab elements, the previously displayed tab panel is hidden, the tab panel associated with the activated tab becomes visible, and the tab is considered "active".
+        </p>
+      </section>
+
+      <section id="examples" class="examples-section">
+        <img alt="" src="../../../../content-images/wai-aria-practices/images/pattern-tabs.svg">
+        <h2 id="examples">Examples</h2>
+        <ul>
+          <li><a href="examples/tabs-automatic/">Tabs With Automatic Activation</a>: A tabs widget where tabs are automatically activated and their panel is displayed when they receive focus.</li>
+          <li><a href="examples/tabs-manual/">Tabs With Manual Activation</a>: A tabs widget where users activate a tab and display its panel by pressing <kbd>Space</kbd> or <kbd>Enter</kbd>.</li>
+        </ul>
+      </section>
+
+      <section id="keyboard_interaction">
+        <h2 id="keyboardinteraction">Keyboard Interaction</h2>
+        <p>For the tab list:</p>
+        <ul>
+          <li>
+            <kbd>Tab</kbd>:
+            <ul>
+              <li>When focus moves into the tab list, places focus on the active <code>tab</code> element.</li>
+              <li>When the tab list contains the focus, moves focus to the next element in the page tab sequence outside the tablist, which is the tabpanel unless the first element containing meaningful content inside the tabpanel is focusable.</li>
+            </ul>
+          </li>
+          <li>
+            When focus is on a tab element in a horizontal tab list:
+            <ul>
+              <li>
+                <kbd>Left Arrow</kbd>: moves focus to the previous tab.
+                If focus is on the first tab, moves focus to the last tab.
+                Optionally, activates the newly focused tab (See note below).
+              </li>
+              <li>
+                <kbd>Right Arrow</kbd>: Moves focus to the next tab.
+                If focus is on the last tab element, moves focus to the first tab.
+                Optionally, activates the newly focused tab (See note below).
+              </li>
+            </ul>
+          </li>
+          <li>
+            When focus is on a tab in a tablist with either horizontal or vertical orientation:
+            <ul>
+              <li><kbd>Space or Enter</kbd>: Activates the tab if it was not activated automatically on focus.</li>
+              <li>
+                <kbd>Home</kbd> (Optional): Moves focus to the first tab.
+                Optionally, activates the newly focused tab (See note below).
+              </li>
+              <li>
+                <kbd>End</kbd> (Optional): Moves focus to the last tab.
+                Optionally, activates the newly focused tab (See note below).
+              </li>
+              <li><kbd>Shift</kbd> + <kbd>F10</kbd>: If the tab has an associated popup menu, opens the menu.</li>
+              <li>
+                <kbd>Delete</kbd> (Optional): If deletion is allowed, deletes (closes) the current tab element and its associated tab panel, sets focus on the tab following the tab that was closed, and optionally activates the newly focused tab.
+                If there is not a tab that followed the tab that was deleted, e.g., the deleted tab was the right-most tab in a left-to-right horizontal tab list, sets focus on and optionally activates the tab that preceded the deleted tab.
+                If the application allows all tabs to be deleted, and the user deletes the last remaining tab in the tab list, the application moves focus to another element that provides a logical work flow.
+                As an alternative to <kbd>Delete</kbd>, or in addition to supporting <kbd>Delete</kbd>, the delete function is available in a context menu.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="note">
+          <h3>Note</h3>
+          <ol>
+            <li>
+              It is recommended that tabs activate automatically when they receive focus as long as their associated tab panels are displayed without noticeable latency.
+              This typically requires tab panel content to be preloaded.
+              Otherwise, automatic activation slows focus movement, which significantly hampers users' ability to navigate efficiently across the tab list.
+              For additional guidance, see <a href="../../practices/keyboard-interface/#kbd_selection_follows_focus">Deciding When to Make Selection Automatically Follow Focus</a>.
+            </li>
+            <li>
+              When a tab list has its <a href="https://w3c.github.io/aria/#aria-orientation" class="property-reference">aria-orientation</a> set to <code>vertical</code>:
+              <ol>
+                <li><kbd>Down Arrow</kbd> performs as <kbd>Right Arrow</kbd> is described above.</li>
+                <li><kbd>Up Arrow</kbd> performs as <kbd>Left Arrow</kbd> is described above.</li>
+              </ol>
+            </li>
+            <li>If the tab list is horizontal, it does not listen for <kbd>Down Arrow</kbd> or <kbd>Up Arrow</kbd> so those keys can provide their normal browser scrolling functions even when focus is inside the tab list.</li>
+            <li>When the tabpanel does not contain any focusable elements or the first element with content is not focusable, the tabpanel should set <code>tabindex="0"</code> to include it in the tab sequence of the page.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="roles_states_properties">
+        <h2 id="wai-ariaroles,states,andproperties">WAI-ARIA Roles, States, and Properties</h2>
+        <ul>
+          <li>The element that serves as the container for the set of tabs has role <a class="role-reference" href="https://w3c.github.io/aria/#tablist">tablist</a>.</li>
+          <li>Each element that serves as a tab has role <a class="role-reference" href="https://w3c.github.io/aria/#tab">tab</a> and is contained within the element with role <code>tablist</code>.</li>
+          <li>Each element that contains the content panel for a <code>tab</code> has role <a class="role-reference" href="https://w3c.github.io/aria/#tabpanel">tabpanel</a>.</li>
+          <li>
+            If the tab list has a visible label, the element with role <code>tablist</code> has <a href="https://w3c.github.io/aria/#aria-labelledby" class="property-reference">aria-labelledby</a> set to a value that refers to the labelling element.
+            Otherwise, the <code>tablist</code> element has a label provided by <a href="https://w3c.github.io/aria/#aria-label" class="property-reference">aria-label</a>.
+          </li>
+          <li>Each element with role <code>tab</code> has the property <a href="https://w3c.github.io/aria/#aria-controls" class="property-reference">aria-controls</a> referring to its associated <code>tabpanel</code> element.</li>
+          <li>The active <code>tab</code> element has the state <a href="https://w3c.github.io/aria/#aria-selected" class="state-reference">aria-selected</a> set to <code>true</code> and all other <code>tab</code> elements have it set to <code>false</code>.</li>
+          <li>Each element with role <code>tabpanel</code> has the property <a href="https://w3c.github.io/aria/#aria-labelledby" class="property-reference">aria-labelledby</a> referring to its associated <code>tab</code> element.</li>
+          <li>If a <code>tab</code> element has a popup menu, it has the property <a href="https://w3c.github.io/aria/#aria-haspopup" class="property-reference">aria-haspopup</a> set to either <code>menu</code> or <code>true</code>.</li>
+          <li>
+            If the <code>tablist</code> element is vertically oriented, it has the property <a href="https://w3c.github.io/aria/#aria-orientation" class="property-reference">aria-orientation</a> set to <code>vertical</code>.
+            The default value of <code>aria-orientation</code> for a <code>tablist</code> element is <code>horizontal</code>.</li>
+        </ul>
+      </section>
+    </div>
+  
+</div>
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/skipto.js" data-skipto="colorTheme:aria; displayOption:popup; containerElement:div"></script>
+
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/read-this-first.js" data-read-this-first="showImage:false"></script>
+
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-aria-practices@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/aria-practices/edit/main/content/patterns/tabs/tabs-pattern.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/tabs/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Treegrid Pattern | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Treegrid Pattern" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/" />
+<meta property="og:url" content="https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Treegrid Pattern" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Treegrid Pattern","url":"https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-treegrid-pattern ">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/ARIA/apg/">
+          ARIA Authoring Practices Guide (APG)
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          How to build accessibility semantics into web patterns and widgets
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="APG">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/">APG Home</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/patterns/">Patterns</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/practices/">Practices</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/example-index/">Index</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/about/">About</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#aboutthispattern">About This Pattern</a></li>
+                
+                <li><a href="#example">Example</a></li>
+                
+                <li><a href="#keyboardinteraction">Keyboard Interaction</a></li>
+                
+                <li><a href="#wai-ariaroles,states,andproperties">WAI-ARIA Roles, States, and Properties</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Treegrid Pattern
+            </h1>
+        </header>
+
+        <meta charset="UTF-8">
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>Treegrid Pattern</title>
+
+<script src="../../../../content-assets/wai-aria-practices/shared/js/highlight.pack.js"></script>
+
+<script src="../../../../content-assets/wai-aria-practices/shared/js/app.js"></script>
+
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/styles.css">
+
+<!-- Code highlighting styles -->
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/shared/css/github.css">
+
+<script>
+const addBodyClass = undefined;
+const enableSidebar = true;
+if (addBodyClass) document.body.classList.add(addBodyClass);
+if (enableSidebar) document.body.classList.add('has-sidebar');
+</script>
+
+<script>
+    const parentPage = window.location.pathname.match(
+      /\/(patterns|practices|about)\//
+    )?.[1];
+    if (parentPage) {
+      const parentHref = 'a[href*="' + parentPage + '"]';
+      document.querySelector(parentHref).classList.add('active');
+    }
+  </script>
+
+<div>
+
+    <div>
+      
+
+      <section id="about">
+        <h2 id="aboutthispattern">About This Pattern</h2>
+        <p>
+          A <a href="https://w3c.github.io/aria/#treegrid" class="role-reference">treegrid</a> widget presents a hierarchical data grid consisting of tabular information that is editable or interactive.
+          Any row in the hierarchy may have child rows, and rows with children may be expanded or collapsed to show or hide the children.
+          For example, in a <code>treegrid</code> used to display messages and message responses for a e-mail discussion list, messages with responses would be in rows that can be expanded to reveal the response messages.
+        </p>
+        <p>
+          In a treegrid both rows and cells are focusable.
+          Every row and cell contains a focusable element or is itself focusable, regardless of whether individual cell content is editable or interactive.
+          There is one exception: if column header cells do not provide functions, such as sort or filter, they do not need to be focusable.
+          One reason it is important for all cells to be able to receive or contain keyboard focus is that screen readers will typically be in their application reading mode, rather than their document reading mode, when users are interacting with the grid.
+          While in application mode, a screen reader user hears only focusable elements and content that labels focusable elements.
+          So, screen reader users may unknowingly overlook elements contained in a <code>treegrid</code> that are either not focusable or not used to label a column or row.
+        </p>
+        <p>
+          When using a keyboard to navigate a <code>treegrid</code>, a visual keyboard indicator informs users which row or cell is focused.
+          If the <code>treegrid</code> allows users to choose just one item for an action, then it is known as a single-select <code>treegrid</code>, and the item with focus also has a selected state.
+          However, in a multi-select <code>treegrid</code>, which enables users to select more than one row or cell for an action, the selected state is independent of the focus.
+          For example, in a hierarchical e-mail discussion grid, users can move focus to select any number of rows for an action, such as delete or move.
+          It is important that the visual design distinguish between items that are selected and the item that has focus.
+          For more details, see <a href="../../practices/keyboard-interface/#kbd_focus_vs_selection">this description of differences between focus and selection</a>.
+        </p>
+      </section>
+
+      <section id="examples" class="examples-section">
+        <img alt="" src="../../../../content-images/wai-aria-practices/images/pattern-treegrid.svg">
+        <h2 id="example">Example</h2>
+        <p><a href="examples/treegrid-1/">E-mail Inbox <code>treegrid</code> Example</a>: A treegrid for navigating an e-mail inbox that demonstrates three keyboard navigation models -- rows first, cells first, and cells only.</p>
+      </section>
+
+      <section id="keyboard_interaction">
+        <h2 id="keyboardinteraction">Keyboard Interaction</h2>
+        <p>
+          The following keys provide <code>treegrid</code> navigation by moving focus among rows and cells of the grid.
+          Implementations of <code>treegrid</code> make these key commands available when an element in the grid has received focus, e.g., after a user has moved focus to the grid with <kbd>Tab</kbd>.
+          Moving focus into the grid may result in the first cell or the first row being focused.
+          Whether focus goes to a cell or the row depends on author preferences and whether row focus is supported, since some implementations of <code>treegrid</code> may not provide focus to rows.
+        </p>
+        <ul>
+          <li><kbd>Enter</kbd>: If cell-only focus is enabled and focus is on the first cell with the <code>aria-expanded</code> property, opens or closes the child rows.,Otherwise, performs the default action for the cell.</li>
+          <li>
+            <kbd>Tab</kbd>: If the row containing focus contains focusable elements (e.g., inputs, buttons, links, etc.), moves focus to the next input in the row.
+            If focus is on the last focusable element in the row, moves focus out of the <code>treegrid</code> widget to the next focusable element.
+          </li>
+          <li>
+            <kbd>Right Arrow</kbd>:
+            <ul>
+              <li>If focus is on a collapsed row, expands the row.</li>
+              <li>If focus is on an expanded row or is on a row that does not have child rows, moves focus to the first cell in the row.</li>
+              <li>If focus is on the right-most cell in a row, focus does not move.</li>
+              <li>If focus is on any other cell, moves focus one cell to the right.</li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Left Arrow</kbd>:
+            <ul>
+              <li>If focus is on an expanded row, collapses the row.</li>
+              <li>If focus is on a collapsed row or on a row that does not have child rows, focus does not move.</li>
+              <li>If focus is on the first cell in a row and row focus is supported, moves focus to the row.</li>
+              <li>If focus is on the first cell in a row and row focus is not supported, focus does not move.</li>
+              <li>If focus is on any other cell, moves focus one cell to the left.</li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Down Arrow</kbd>:
+            <ul>
+              <li>
+                If focus is on a row, moves focus one row down.
+                If focus is on the last row, focus does not move.
+              </li>
+              <li>
+                If focus is on a cell, moves focus one cell down.
+                If focus is on the bottom cell in the column, focus does not move.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Up Arrow</kbd>:
+            <ul>
+              <li>
+                If focus is on a row, moves focus one row up.
+                If focus is on the first row, focus does not move.
+              </li>
+              <li>
+                If focus is on a cell, moves focus one cell up.
+                If focus is on the top cell in the column, focus does not move.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Page Down</kbd>:
+            <ul>
+              <li>
+                If focus is on a row, moves focus down an author-determined number of rows, typically scrolling so the bottom row in the currently visible set of rows becomes one of the first visible rows.
+                If focus is in the last row, focus does not move.
+              </li>
+              <li>
+                If focus is on a cell, moves focus down an author-determined number of cells, typically scrolling so the bottom row in the currently visible set of rows becomes one of the first visible rows.
+                If focus is in the last row, focus does not move.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Page Up</kbd>:
+            <ul>
+              <li>
+                If focus is on a row, moves focus up an author-determined number of rows, typically scrolling so the top row in the currently visible set of rows becomes one of the last visible rows.
+                If focus is in the first row, focus does not move.
+              </li>
+              <li>
+                If focus is on a cell, moves focus up an author-determined number of cells, typically scrolling so the top row in the currently visible set of rows becomes one of the last visible rows.
+                If focus is in the first row, focus does not move.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Home</kbd>:
+            <ul>
+              <li>
+                If focus is on a row, moves focus to the first row.
+                If focus is in the first row, focus does not move.
+              </li>
+              <li>
+                If focus is on a cell, moves focus to the first cell in the row.
+                If focus is in the first cell of the row, focus does not move.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <kbd>End</kbd>:
+            <ul>
+              <li>
+                If focus is on a row, moves focus to the last row.
+                If focus is in the last row, focus does not move.
+              </li>
+              <li>
+                If focus is on a cell, moves focus to the last cell in the row.
+                If focus is in the last cell of the row, focus does not move.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Control</kbd> + <kbd>Home</kbd>:
+            <ul>
+              <li>
+                If focus is on a row, moves focus to the first row.
+                If focus is in the first row, focus does not move.
+              </li>
+              <li>
+                If focus is on a cell, moves focus to the cell in the first row in the same column as the cell that had focus.
+                If focus is in the first row, focus does not move.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Control</kbd> + <kbd>End</kbd>:
+            <ul>
+              <li>
+                If focus is on a row, moves focus to the last row.
+                If focus is in the last row, focus does not move.
+              </li>
+              <li>
+                If focus is on a cell, moves focus to the cell in the last row in the same column as the cell that had focus.
+                If focus is in the last row, focus does not move.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="note">
+          <h3>Note</h3>
+          <ul>
+            <li>
+              When the above <code>treegrid</code> navigation keys move focus, whether the focus is set on an element inside the cell or on the cell depends on cell content.
+              See <a href="../grid/#gridNav_focus">Whether to Focus on a Cell or an Element Inside It</a>.
+            </li>
+            <li>
+              While navigation keys, such as arrow keys, are moving focus from cell to cell, they are not available to do something like operate a combobox or move an editing caret inside of a cell.
+              If this functionality is needed, see <a href="../grid/#gridNav_inside">Editing and Navigating Inside a Cell</a>.
+            </li>
+            <li>If navigation functions can dynamically add more rows or columns to the DOM, key events that move focus to the beginning or end of the grid, such as <kbd>control</kbd> + <kbd>End</kbd>, may move focus to the last row in the DOM rather than the last available row in the back-end data.</li>
+          </ul>
+        </div>
+        <p>If a treegrid supports selection of cells, rows, or columns, the following keys are commonly used for these functions.</p>
+        <ul>
+          <li>
+            <kbd>Control</kbd> + <kbd>Space</kbd>:
+            <ul>
+              <li>If focus is on a row, selects all cells.</li>
+              <li>If focus is on a cell, selects the column that contains the focus.</li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Shift</kbd> + <kbd>Space</kbd>:
+            <ul>
+              <li>If focus is on a row, selects the row.</li>
+              <li>
+                If focus is on a cell, selects the row that contains the focus.
+                If the treegrid includes a column with checkboxes for selecting rows, this key can serve as a shortcut for checking the box when focus is not on the checkbox.
+              </li>
+            </ul>
+          </li>
+          <li><kbd>Control</kbd> + <kbd>A</kbd>: Selects all cells.</li>
+          <li>
+            <kbd>Shift</kbd> + <kbd>Right Arrow</kbd>:
+            <ul>
+              <li>If focus is on a row, does not change selection.</li>
+              <li>if focus is on a cell, extends selection one cell to the right.</li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Shift</kbd> + <kbd>Left Arrow</kbd>:
+            <ul>
+              <li>If focus is on a row, does not change selection.</li>
+              <li>if focus is on a cell, extends selection one cell to the left.</li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Shift</kbd> + <kbd>Down Arrow</kbd>:
+            <ul>
+              <li>If focus is on a row, extends selection to all the cells in the next row.</li>
+              <li>If focus is on a cell, extends selection one cell down.</li>
+            </ul>
+          </li>
+          <li>
+            <kbd>Shift</kbd> + <kbd>Up Arrow</kbd>:
+            <ul>
+              <li>If focus is on a row, extends selection to all the cells in the previous row.</li>
+              <li>If focus is on a cell, extends selection one cell up.</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="note">
+          <h3>Note</h3>
+          <p>See <a href="../../practices/keyboard-interface/#kbd_common_conventions">Key Assignment Conventions for Common Functions</a> for cut, copy, and paste key assignments.</p>
+        </div>
+      </section>
+
+      <section id="roles_states_properties">
+        <h2 id="wai-ariaroles,states,andproperties">WAI-ARIA Roles, States, and Properties</h2>
+        <ul>
+          <li>The treegrid container has role <a href="https://w3c.github.io/aria/#treegrid" class="role-reference">treegrid</a>.</li>
+          <li>Each row container has role <a href="https://w3c.github.io/aria/#row" class="role-reference">row</a> and is either a DOM descendant of or owned by the <code>treegrid</code> element or an element with role <a href="https://w3c.github.io/aria/#rowgroup" class="role-reference">rowgroup</a>.</li>
+          <li>
+            Each cell is either a DOM descendant of or owned by a <code>row</code> element and has one of the following roles:
+            <ul>
+              <li><a href="https://w3c.github.io/aria/#columnheader" class="role-reference">columnheader</a> if the cell contains a title or header information for the column.</li>
+              <li><a href="https://w3c.github.io/aria/#rowheader" class="role-reference">rowheader</a> if the cell contains title or header information for the row.</li>
+              <li><a href="https://w3c.github.io/aria/#gridcell" class="role-reference">gridcell</a> if the cell does not contain column or row header information.</li>
+            </ul>
+          </li>
+          <li>
+            A <code>row</code> that can be expanded or collapsed to show or hide a set of child rows is a parent row.
+            Each parent <code>row</code> has the <a class="property-reference" href="https://w3c.github.io/aria/#aria-expanded">aria-expanded</a> state set on either the <code>row</code> element or on a cell contained in the<code>row</code>.
+            The <code>aria-expanded</code> state is set to <code>false</code> when the child rows are not displayed and set to <code>true</code> when the child rows are displayed.
+            Rows that do not control display of child rows do not have the <code>aria-expanded</code> attribute because, if they were to have it, they would be incorrectly described to assistive technologies as parent rows.
+          </li>
+          <li>
+            If the treegrid supports selection of more than one row or cell, it is a multi-select treegrid and the element with role <code>treegrid</code> has <a class="property-reference" href="https://w3c.github.io/aria/#aria-multiselectable">aria-multiselectable</a> set to <code>true</code>.
+            Otherwise, it is a single-select treegrid, and <code>aria-multiselectable</code> is either set to <code>false</code> or the default value of <code>false</code> is implied.
+          </li>
+          <li>If the treegrid is a single-select treegrid, <a href="https://w3c.github.io/aria/#aria-selected" class="property-reference">aria-selected</a> is set to <code>true</code> on the selected row or cell, and it is not present on any other row or cell in the treegrid.</li>
+          <li>
+            if the treegrid is a multi-select treegrid:
+            <ul>
+              <li>All selected rows or cells have <a href="https://w3c.github.io/aria/#aria-selected" class="state-reference">aria-selected</a> set to <code>true</code>.</li>
+              <li>All rows and cells that are not selected have <a href="https://w3c.github.io/aria/#aria-selected" class="state-reference">aria-selected</a> set to <code>false</code>.</li>
+            </ul>
+          </li>
+          <li>
+            If there is an element in the user interface that serves as a label for the treegrid, <a href="https://w3c.github.io/aria/#aria-labelledby" class="property-reference">aria-labelledby</a> is set on the grid element with a value that refers to the labelling element.
+            Otherwise, a label is specified for the grid element using <a href="https://w3c.github.io/aria/#aria-label" class="property-reference">aria-label</a>.
+          </li>
+          <li>If the treegrid has a caption or description, <a href="https://w3c.github.io/aria/#aria-describedby" class="property-reference">aria-describedby</a> is set on the grid element with a value referring to the element containing the description.</li>
+          <li>
+            If the treegrid provides sort functions, <a href="https://w3c.github.io/aria/#aria-sort" class="property-reference">aria-sort</a> is set to an appropriate value on the header cell element for the sorted column or row as described in the
+            <a href="../../practices/grid-and-table-properties/#gridAndTableProperties_sort">Grid and Table Properties Practice</a>.
+          </li>
+          <li>
+            If the treegrid provides content editing functionality and contains cells that may have edit capabilities disabled in certain conditions, <a href="https://w3c.github.io/aria/#aria-readonly" class="state-reference">aria-readonly</a> is set to <code>true</code> on cells where editing is disabled.
+            If edit functions are disabled for all cells, instead of setting <code>aria-readonly</code> to <code>true</code> on every cell, <code>aria-readonly</code> may be set to <code>true</code> on the <code>treegrid</code> element.
+            Treegrids that do not provide cell content editing functions do not include the <code>aria-readonly</code> attribute on any of their elements.
+          </li>
+          <li>
+            If there are conditions where some rows or columns are hidden or not present in the DOM, e.g., data is dynamically loaded when scrolling or the treegrid provides functions for hiding rows or columns, the following properties are applied as described in the
+            <a href="../../practices/grid-and-table-properties/">Grid and Table Properties Practice</a>.
+            <ul>
+              <li><a href="https://w3c.github.io/aria/#aria-colcount" class="property-reference">aria-colcount</a> or <a href="https://w3c.github.io/aria/#aria-rowcount" class="property-reference">aria-rowcount</a> is set to the total number of columns or rows, respectively.</li>
+              <li><a href="https://w3c.github.io/aria/#aria-colindex" class="property-reference">aria-colindex</a> or <a href="https://w3c.github.io/aria/#aria-rowindex" class="property-reference">aria-rowindex</a> is set to the position of a cell within a row or column, respectively.</li>
+            </ul>
+          </li>
+          <li>
+            If the treegrid includes cells that span multiple rows or multiple columns, and if the <code>treegrid</code> role is NOT applied to an HTML <code>table</code> element, then <a href="https://w3c.github.io/aria/#aria-rowspan" class="property-reference">aria-rowspan</a> or <a href="https://w3c.github.io/aria/#aria-colspan" class="property-reference">aria-colspan</a> is applied as described in the
+            <a href="../../practices/grid-and-table-properties/#gridAndTableProperties_spans">Grid and Table Properties Practice</a>.
+          </li>
+        </ul>
+        <div class="note">
+          <h3>Note</h3>
+          <ul>
+            <li>A <code>treegrid</code> built from an HTML <code>table</code> that includes cells that span multiple rows or columns must use HTML <code>rowspan</code> and <code>colspan</code> and must not use <code>aria-rowspan</code> or <code>aria-colspan</code>.</li>
+            <li>If rows or cells are included in a treegrid via <a href="https://w3c.github.io/aria/#aria-owns" class="property-reference">aria-owns</a>, they will be presented to assistive technologies after the DOM descendants of the <code>treegrid</code> element unless the DOM descendants are also included in the <code>aria-owns</code> attribute.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  
+</div>
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/skipto.js" data-skipto="colorTheme:aria; displayOption:popup; containerElement:div"></script>
+
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/read-this-first.js" data-read-this-first="showImage:false"></script>
+
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-aria-practices@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/aria-practices/edit/main/content/patterns/treegrid/treegrid-pattern.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

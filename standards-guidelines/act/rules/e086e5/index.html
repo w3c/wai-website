@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Form field has non-empty accessible name | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Form field has non-empty accessible name" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Form field has non-empty accessible name" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Form field has non-empty accessible name","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-form-field-has-non-empty-accessible-name  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="ACT Rule">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#description">Description</a></li>
+                
+                <li><a href="#applicability">Applicability</a></li>
+                
+                <li><a href="#expectation">Expectation</a></li>
+                
+                <li><a href="#assumptions">Assumptions</a></li>
+                
+                <li><a href="#accessibility-support">Accessibility Support</a></li>
+                
+                <li><a href="#background">Background</a></li>
+                
+                <li><a href="#accessibility-requirements-mapping">Accessibility Requirements Mapping</a></li>
+                
+                <li><a href="#input-aspects">Input Aspects</a></li>
+                
+                <li><a href="#test-cases">Test Cases</a></li>
+                
+                <li><a href="#glossary">Glossary</a></li>
+                
+                <li><a href="#ruleversions">Rule Versions</a></li>
+                
+                <li><a href="#implementations">Implementations</a></li>
+                
+                <li><a href="#usefullinks">Useful Links</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Form field has non-empty accessible name
+            </h1>
+        </header>
+
+        <aside class="box"> 
+  <header class="box-h box-h-icon"> 
+    Rule Mapping 
+  </header>
+  <div class="box-i"> 
+   <p>This is an <strong>Atomic rule</strong>
+    to test
+    <strong>4.1.2: Name, Role, Value (Level A)</strong>
+  </p>
+  </div>
+ </aside>
+
+<h2 id="description">Description</h2>
+<p>This rule checks that each form field element has a non-empty accessible name.</p>
+
+
+<h2 id="applicability">Applicability</h2>
+
+<p>This rule applies to any element that is <a href="#included-in-the-accessibility-tree">included in the accessibility tree</a>, and that has one of the following <a href="#semantic-role" title="Definition of semantic role">semantic roles</a>: <code class="language-plaintext highlighter-rouge">checkbox</code>, <code class="language-plaintext highlighter-rouge">combobox</code> (<code class="language-plaintext highlighter-rouge">select</code> elements), <code class="language-plaintext highlighter-rouge">listbox</code>, <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code>, <code class="language-plaintext highlighter-rouge">menuitemradio</code>, <code class="language-plaintext highlighter-rouge">radio</code>, <code class="language-plaintext highlighter-rouge">searchbox</code>, <code class="language-plaintext highlighter-rouge">slider</code>, <code class="language-plaintext highlighter-rouge">spinbutton</code>, <code class="language-plaintext highlighter-rouge">switch</code>, <code class="language-plaintext highlighter-rouge">textbox</code>.</p>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>Each target element has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> that is not empty (<code class="language-plaintext highlighter-rouge">""</code>).</p>
+
+<h2 id="assumptions">Assumptions</h2>
+
+<p>There are no assumptions.</p>
+
+<h2 id="accessibility-support">Accessibility Support</h2>
+
+<ul>
+  <li>Several assistive technologies have a functionality to list all form fields on a page, including the <code class="language-plaintext highlighter-rouge">disabled</code> ones. Therefore this rule is still applicable to <code class="language-plaintext highlighter-rouge">disabled</code> form fields. If an assistive technology consistently ignores <code class="language-plaintext highlighter-rouge">disabled</code> form fields in all its interactions, then it is possible to have a <code class="language-plaintext highlighter-rouge">disabled</code> form field with no accessible name without creating accessibility issues for the user.</li>
+  <li>Implementation of <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">Presentational Roles Conflict Resolution</a> varies from one browser or assistive technology to another. Depending on this, some elements can have one of the applicable <a href="#semantic-role" title="Definition of semantic role">semantic roles</a> and fail this rule with some technology but users of other technologies would not experience any accessibility issue.</li>
+</ul>
+
+<h2 id="background">Background</h2>
+
+<p>The list of roles in the applicability is derived by taking all the roles from <a href="#wai-aria-specifications">WAI-ARIA Specifications</a> that:</p>
+
+<ul>
+  <li>have <a href="#semantic-role" title="Definition of semantic role">semantic roles</a> that inherit from the <code class="language-plaintext highlighter-rouge">input</code>, <code class="language-plaintext highlighter-rouge">menuitem</code> or <code class="language-plaintext highlighter-rouge">select</code> role; and</li>
+  <li>are form field controls (this notably excludes <code class="language-plaintext highlighter-rouge">menu</code>, <code class="language-plaintext highlighter-rouge">option</code> or <code class="language-plaintext highlighter-rouge">tree</code>).</li>
+</ul>
+
+<p>This rule does not test other control-like roles such as <code class="language-plaintext highlighter-rouge">button</code> and <code class="language-plaintext highlighter-rouge">menuitem</code>, because these do not inherit from <code class="language-plaintext highlighter-rouge">input</code> or <code class="language-plaintext highlighter-rouge">select</code>. These should be tested separately.</p>
+
+<p>This rule does not map to <a href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">3.3.2 Labels or Instructions</a> as there are sufficient techniques within 3.3.2 that don’t need the elements to have an <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. For example “<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G131">G131: Providing descriptive labels</a>” <strong>AND</strong> “<a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G162">G162: Positioning labels to maximize predictability of relationships</a>” would be sufficient.</p>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<ul>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value">Understanding Success Criterion 4.1.2: Name, Role, Value</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H91">H91: Using HTML form controls and links</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H44">H44: Using label elements to associate text labels with form controls</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H65">H65: Using the title attribute to identify form controls when the label element cannot be used</a></li>
+</ul>
+
+<h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
+
+<ul class="act-requirements-list">
+  <li><details>
+    <summary><span>4.1.2 Name, Role, Value (Level A)</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/TR/WCAG21/#name-role-value">Learn more about 4.1.2 Name, Role, Value</a></li>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level A and higher.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: success criterion is not satisfied</li>
+        <li>All <code>passed</code> outcomes: success criterion needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: success criterion needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+</ul>
+
+<h2 id="input-aspects">Input Aspects</h2>
+
+<p>The following aspects are required in using this rule.</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-accessibility">Accessibility Tree</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-css">CSS styling</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></li>
+</ul>
+
+<h2 id="test-cases">Test Cases</h2>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/933cad4e69415e2a2970832d2d60e2b854bca1b4.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because of its <a href="#programmatic-label">programmatic label</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label&gt;</span>
+	first name
+	<span class="nt">&lt;input</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/label&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/366e62d83ede9df9fdad86cf7040600916bb065a.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because of its <code class="language-plaintext highlighter-rouge">aria-label</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>last name<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">aria-label=</span><span class="s">"last name"</span> <span class="na">disabled</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/6726b79b0534d80f567c3e5fd7174962d411be95.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">select</code> element has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because of its <a href="#programmatic-label">programmatic label</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"country"</span><span class="nt">&gt;</span>Country<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;select</span> <span class="na">id=</span><span class="s">"country"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;option&gt;</span>England<span class="nt">&lt;/option&gt;</span>
+	<span class="nt">&lt;option&gt;</span>Scotland<span class="nt">&lt;/option&gt;</span>
+	<span class="nt">&lt;option&gt;</span>Wales<span class="nt">&lt;/option&gt;</span>
+	<span class="nt">&lt;option&gt;</span>Northern Ireland<span class="nt">&lt;/option&gt;</span>
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-4">Passed Example 4</h4>
+
+<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/2183d2e337eec311b7c2e06c2f9cec759913dba9.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">textarea</code> element has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because of its <code class="language-plaintext highlighter-rouge">aria-labelledby</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"country"</span><span class="nt">&gt;</span>Country<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;textarea</span> <span class="na">aria-labelledby=</span><span class="s">"country"</span><span class="nt">&gt;&lt;/textarea&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-5">Passed Example 5</h4>
+
+<p><a class="example-link" title="Passed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/3aa8f45d7e358655c39708e2656a2c2d97e7dfa6.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because of its <code class="language-plaintext highlighter-rouge">placeholder</code> attribute.</p>
+
+<p><strong>Note</strong>: While the <code class="language-plaintext highlighter-rouge">placeholder</code> attribute is sufficient to provide an <a href="#accessible-name" title="Definition of accessible name">accessible name</a>, a <a href="#visible" title="Definition of Visible">visible</a> <a href="https://www.w3.org/TR/WCAG21/#dfn-labels" title="WCAG definition of Labels">label</a> that does not disappear when a user starts to enter data is still required for <a href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">success criterion 3.3.2 Labels or Instructions</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">placeholder=</span><span class="s">"Your search query"</span> <span class="nt">/&gt;</span> <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span><span class="nt">&gt;</span>search<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-6">Passed Example 6</h4>
+
+<p><a class="example-link" title="Passed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/ca41ec5f1dba602b8b6e332ad524cbfc5cd1505e.html">Open in a new tab</a></p>
+
+<p>This <a href="#semantic-role" title="Definition of Semantic Role">semantic</a> <code class="language-plaintext highlighter-rouge">combobox</code> element has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because of its <code class="language-plaintext highlighter-rouge">aria-label</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>Country<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">aria-label=</span><span class="s">"country"</span> <span class="na">role=</span><span class="s">"combobox"</span> <span class="na">aria-disabled=</span><span class="s">"true"</span><span class="nt">&gt;</span>England<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-7">Passed Example 7</h4>
+
+<p><a class="example-link" title="Passed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/09ea6ee13f7f26b0d6e3103946209ea0726876de.html">Open in a new tab</a></p>
+
+<p>This <a href="#semantic-role" title="Definition of Semantic Role">semantic</a> <code class="language-plaintext highlighter-rouge">checkbox</code> element has the text content as its <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span>I agree to the terms and conditions.<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-8">Passed Example 8</h4>
+
+<p><a class="example-link" title="Passed Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/d9ee6c2ae6da41521bd4ba0bf25c4b6bcd253f37.html">Open in a new tab</a></p>
+
+<p>These <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code> elements have an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because its aria-labelledby attribute references a <code class="language-plaintext highlighter-rouge">span</code> element.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"dip"</span><span class="nt">&gt;</span>Add one or more dip:<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"menu"</span> <span class="na">aria-labelledby=</span><span class="s">"dip"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">role=</span><span class="s">"menuitemcheckbox"</span> <span class="na">aria-labelledby=</span><span class="s">"ketchup"</span> <span class="nt">/&gt;&lt;span</span> <span class="na">id=</span><span class="s">"ketchup"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>Ketchup<span class="nt">&lt;/span</span>
+	<span class="nt">&gt;&lt;br</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">role=</span><span class="s">"menuitemcheckbox"</span> <span class="na">aria-labelledby=</span><span class="s">"mayonnaise"</span> <span class="nt">/&gt;&lt;span</span> <span class="na">id=</span><span class="s">"mayonnaise"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span>
+		<span class="nt">&gt;</span>Mayonnaise<span class="nt">&lt;/span</span>
+	<span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/004258203c8bf167307b6ed79f765115d16a6357.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element does not have an attribute that gives an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> to it.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>last name<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;input</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-2">Failed Example 2</h4>
+
+<p><a class="example-link" title="Failed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/5c0ba53d53cc9fd8627f224b39db30bd9ffa5757.html">Open in a new tab</a></p>
+
+<p>This disabled <code class="language-plaintext highlighter-rouge">input</code> element does not have an attribute that gives an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> to it.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">disabled</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-3">Failed Example 3</h4>
+
+<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/80a5df2346e082cd0be260143ac9090a902bcf30.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because the space in the <code class="language-plaintext highlighter-rouge">aria-label</code> <a href="#attribute-value" title="Definition of attribute value">attribute value</a> is trimmed.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">aria-label=</span><span class="s">" "</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-4">Failed Example 4</h4>
+
+<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/a59cf1abfabcb96ab4592966bb4a78e788b41017.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">select</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because the <code class="language-plaintext highlighter-rouge">div</code> has no text content.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"country"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;select</span> <span class="na">aria-labelledby=</span><span class="s">"country"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;option&gt;</span>England<span class="nt">&lt;/option&gt;</span>
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-5">Failed Example 5</h4>
+
+<p><a class="example-link" title="Failed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/552732aff853ed413ed7b5ff4a6202d11fd0c1a5.html">Open in a new tab</a></p>
+
+<p>This <a href="#semantic-role" title="Definition of Semantic Role">semantic</a> <code class="language-plaintext highlighter-rouge">textbox</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. The parent <code class="language-plaintext highlighter-rouge">label</code> element does not give it an <a href="#accessible-name" title="Definition of accessible name">accessible name</a>, this only works for native form fields.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label&gt;</span>
+	first name
+	<span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"textbox"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/label&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-6">Failed Example 6</h4>
+
+<p><a class="example-link" title="Failed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/4246616cd947040f64dc183b66e1f6c30b2d7fbb.html">Open in a new tab</a></p>
+
+<p>This <a href="#semantic-role" title="Definition of Semantic Role">semantic</a> <code class="language-plaintext highlighter-rouge">textbox</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. The <code class="language-plaintext highlighter-rouge">label</code> element does not give it an <a href="#accessible-name" title="Definition of accessible name">accessible name</a>, this only works for native form fields.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"firstname"</span><span class="nt">&gt;</span>first name<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"textbox"</span> <span class="na">id=</span><span class="s">"firstname"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-7">Failed Example 7</h4>
+
+<p><a class="example-link" title="Failed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/b0c554cfdddfdc0fe15923066b329868dd9e70c8.html">Open in a new tab</a></p>
+
+<p>This <a href="#semantic-role" title="Definition of Semantic Role">semantic</a> <code class="language-plaintext highlighter-rouge">textbox</code> element has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. The text content of the element serves as its value, not as an <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"textbox"</span><span class="nt">&gt;</span>first name<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-8">Failed Example 8</h4>
+
+<p><a class="example-link" title="Failed Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/bd816c3ef10b8982f18411e1623887d2444d7311.html">Open in a new tab</a></p>
+
+<p>These <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code> elements do not have an <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"dip"</span><span class="nt">&gt;</span>Add one or more dip:<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"menu"</span> <span class="na">aria-labelledby=</span><span class="s">"dip"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">role=</span><span class="s">"menuitemcheckbox"</span> <span class="nt">/&gt;&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>Ketchup<span class="nt">&lt;/span&gt;&lt;br</span> <span class="nt">/&gt;</span>
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">role=</span><span class="s">"menuitemcheckbox"</span> <span class="nt">/&gt;&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>Mayonnaise<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/c828178c45e9299883296cf425144d2ae804fc27.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element is not <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a> because of its <code class="language-plaintext highlighter-rouge">style</code> attribute which sets <code class="language-plaintext highlighter-rouge">display</code> to <code class="language-plaintext highlighter-rouge">none</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">aria-label=</span><span class="s">"firstname"</span> <span class="na">style=</span><span class="s">"display:none;"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
+
+<p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/43b93bc71597fdc7152a7920a78f27a3b27cf639.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element is not <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a> because of its <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">disabled</span> <span class="na">aria-hidden=</span><span class="s">"true"</span> <span class="na">aria-label=</span><span class="s">"firstname"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
+
+<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/16a907322625e3b82c25f571eb9dd8fe897444f8.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">select</code> element is not <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a> because it is <code class="language-plaintext highlighter-rouge">disabled</code> and has a <code class="language-plaintext highlighter-rouge">role</code> attribute value of “none”.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;select</span> <span class="na">role=</span><span class="s">"none"</span> <span class="na">disabled</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"volvo"</span><span class="nt">&gt;</span>Volvo<span class="nt">&lt;/option&gt;</span>
+	<span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"saab"</span><span class="nt">&gt;</span>Saab<span class="nt">&lt;/option&gt;</span>
+	<span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"opel"</span><span class="nt">&gt;</span>Opel<span class="nt">&lt;/option&gt;</span>
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="accessible-name">Accessible Name</h3>
+
+<p>The <em>accessible name</em> is the programmatically determined name of a user interface element that is <a href="#included-in-the-accessibility-tree">included in the accessibility tree</a>.</p>
+
+<p>The accessible name is calculated using the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>.</p>
+
+<p>For native markup languages, such as HTML and SVG, additional information on how to calculate the accessible name can be found in <a href="https://www.w3.org/TR/html-aam/#accessible-name-and-description-computation">HTML Accessibility API Mappings 1.0, Accessible Name and Description Computation (working draft)</a> and <a href="https://www.w3.org/TR/svg-aam/#mapping_additional">SVG Accessibility API Mappings, Name and Description (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/accessible-name/">examples of accessible name</a>.</p>
+
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>, each element always has an accessible name. When no accessible name is provided, the element will nonetheless be assigned an empty (<code class="language-plaintext highlighter-rouge">""</code>) one.</p>
+
+<p><strong>Note:</strong> As per the <a href="https://www.w3.org/TR/accname" title="Accessible Name and Description Computation">accessible name and description computation</a>, accessible names are <a href="https://www.w3.org/TR/accname-1.1/#terminology">flat string</a> trimmed of leading and trailing whitespace. Notably, it is not possible for a non-empty accessible name to be composed only of whitespace since these must be trimmed.</p>
+
+<h3 id="attribute-value">Attribute value</h3>
+
+<p>The <dfn id="attribute-value:attribute">attribute value</dfn> of a content attribute set on an HTML element is the value that the attribute gets after being parsed and computed according to specifications. It may differ from the value that is actually written in the HTML code due to trimming whitespace or non-digits characters, default values, or case-insensitivity.</p>
+
+<p>Some notable case of attribute value, among others:</p>
+
+<ul>
+  <li>For <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#enumerated-attribute" title="HTML Specification of Enumerated Attribute">enumerated attributes</a>, the <dfn id="attribute-value:enumerated">attribute value</dfn> is either the state of the attribute, or the keyword that maps to it; even for the default states. Thus <code class="language-plaintext highlighter-rouge">&lt;input type="image" /&gt;</code> has an attribute value of either <code class="language-plaintext highlighter-rouge">Image Button</code> (the state) or <code class="language-plaintext highlighter-rouge">image</code> (the keyword mapping to it), both formulations having the same meaning; similarly, “an input element with a <code class="language-plaintext highlighter-rouge">type</code> <em>attribute value</em> of <code class="language-plaintext highlighter-rouge">Text</code>” can be either <code class="language-plaintext highlighter-rouge">&lt;input type="text" /&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;input /&gt;</code> (missing value default), or <code class="language-plaintext highlighter-rouge">&lt;input type="invalid" /&gt;</code> (invalid value default).</li>
+  <li>For <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes" title="HTML Specification of Boolean Attribute">boolean attributes</a>, the <dfn id="attribute-value:boolean">attribute value</dfn> is <code class="language-plaintext highlighter-rouge">true</code> when the attribute is present and <code class="language-plaintext highlighter-rouge">false</code> otherwise. Thus <code class="language-plaintext highlighter-rouge">&lt;button disabled&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;button disabled="disabled"&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;button disabled=""&gt;</code> all have a <code class="language-plaintext highlighter-rouge">disabled</code> <em>attribute value</em> of <code class="language-plaintext highlighter-rouge">true</code>.</li>
+  <li>For attributes whose value is used in a case-insensitive context, the <dfn id="attribute-value:case-insensitive">attribute value</dfn> is the lowercase version of the value written in the HTML code.</li>
+  <li>For attributes that accept <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#numbers" title="HTML Specification of Number Parsing">numbers</a>, the <dfn id="attribute-value:number">attribute value</dfn> is the result of parsing the value written in the HTML code according to the rules for parsing this kind of number.</li>
+  <li>For attributes that accept sets of tokens, whether <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#space-separated-tokens" title="HTML Specification of Space Separated Tokens">space separated</a> or <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#comma-separated-tokens" title="HTML Specification of Comma Separated Tokens">comma separated</a>, the <dfn id="attribute-value:tokens-list">attribute value</dfn> is the set of tokens obtained after parsing the set and, depending on the case, converting its items to lowercase (if the set is used in a case-insensitive context).</li>
+  <li>For <code class="language-plaintext highlighter-rouge">aria-*</code> attributes, the <dfn id="attribute-value:aria">attribute value</dfn> is computed as indicated in the <a href="https://www.w3.org/TR/wai-aria-1.1/#propcharacteristic_value" title="WAI-ARIA Specification of States and Properties Value">WAI-ARIA specification</a> and the <a href="https://www.w3.org/TR/html-aam-1.0/#html-attribute-state-and-property-mappings" title="Specification of HTML attributes value mapping to ARIA states and properties">HTML Accessibility API Mappings</a>.</li>
+</ul>
+
+<p>This list is not exhaustive, and only serves as an illustration for some of the most common cases.</p>
+
+<p>The <dfn id="attribute-value:idl">attribute value</dfn> of an <a href="https://heycam.github.io/webidl/#idl-attributes" title="Definition of Web IDL Attribute (Editor's Draft)">IDL attribute</a> is the value returned on getting it. Note that when an <a href="https://heycam.github.io/webidl/#idl-attributes" title="Definition of Web IDL Attribute (Editor's Draft)">IDL attribute</a> <a href="https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#reflecting-content-attributes-in-idl-attributes" title="HTML specification of Reflecting Content Attributes in IDL Attributes">reflects</a> a content attribute, they have the same attribute value.</p>
+
+<h3 id="explicit-role">Explicit Semantic Role</h3>
+
+<p>The <em>explicit semantic role</em> of an element is determined by its <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> (if any).</p>
+
+<p>The <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> takes a list of tokens. The explicit semantic role is the first valid role in this list. The valid roles are all non-abstract roles from <a href="#wai-aria-specifications" title="Definition of WAI-ARIA specifications">WAI-ARIA Specifications</a>. If the element has no <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a>, or if it has one with no valid role, then this element has no explicit semantic role.</p>
+
+<p>Other roles may be added as they become available. Not all roles will be supported in all assistive technologies. Testers are encouraged to adjust which roles are allowed according to the <a href="https://www.w3.org/TR/WCAG-EM/#step1c" title="Definition of accessibility support base line">accessibility support base line</a>. For the purposes of executing test cases in all rules, it should be assumed that all roles are supported by assistive technologies so that none of the roles fail due to lack of accessibility support.</p>
+
+<h3 id="focusable">Focusable</h3>
+
+<p>An element is <em>focusable</em> if one or both of the following are true:</p>
+
+<ul>
+  <li>the element is part of <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation">sequential focus navigation</a>; or</li>
+  <li>the element has a <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> that is not null.</li>
+</ul>
+
+<p><strong>Exception</strong>: Elements that lose focus during a period of up to 1 second after gaining focus, without the user interacting with the page the element is on, are not considered <em>focusable</em>.</p>
+
+<p>Notes:</p>
+
+<ul>
+  <li>The 1 second time span is an arbitrary limit which is not included in WCAG. Given that scripts can manage the focus state of elements, testing the focusability of an element consistently would be impractical without a time limit.</li>
+  <li>The <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> of an element is the value of the <a href="https://html.spec.whatwg.org/#attr-tabindex">tabindex attribute</a> parsed using the <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">rules for parsing integers</a>. For the <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> to be different from null, it needs to be <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">parsed</a> without errors.</li>
+</ul>
+
+<h3 id="implicit-role">Implicit Semantic Role</h3>
+
+<p>The <em>implicit semantic role</em> of an element is a pre-defined value given by the host language which depends on the element and its ancestors.</p>
+
+<p>Implicit roles for HTML and SVG, are documented in the <a href="https://www.w3.org/TR/html-aam/#html-element-role-mappings">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/#mapping_role_table">SVG accessibility API mappings (working draft)</a>.</p>
+
+<h3 id="included-in-the-accessibility-tree">Included in the accessibility tree</h3>
+
+<p>Elements included in the accessibility tree of platform specific accessibility APIs are exposed to assistive technologies. This allows users of assistive technology to access the elements in a way that meets the requirements of the individual user.</p>
+
+<p>The general rules for when elements are included in the accessibility tree are defined in the <a href="https://www.w3.org/TR/core-aam/">core accessibility API mappings</a>. For native markup languages, such as HTML and SVG, additional rules for when elements are included in the accessibility tree can be found in the <a href="https://www.w3.org/TR/html-aam/">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/">SVG accessibility API mappings (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/included-in-the-accessibility-tree/">examples of included in the accessibility tree</a>.</p>
+
+<p><a href="#programmatically-hidden">Programmatically hidden</a> elements are removed from the accessibility tree. However, some browsers will leave <a href="#focusable">focusable</a> elements with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code> in the accessibility tree. Because they are hidden, these elements are considered <strong>not</strong> included in the accessibility tree. This may cause confusion for users of assistive technologies because they may still be able to interact with these focusable elements using sequential keyboard navigation, even though the element should not be included in the accessibility tree.</p>
+
+<h3 id="marked-as-decorative">Marked as decorative</h3>
+
+<p>An element is <em>marked as decorative</em> if one or more of the following conditions is true:</p>
+
+<ul>
+  <li>it has an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a> of <code class="language-plaintext highlighter-rouge">none</code> or <code class="language-plaintext highlighter-rouge">presentation</code>; or</li>
+  <li>it is an <code class="language-plaintext highlighter-rouge">img</code> element with an <code class="language-plaintext highlighter-rouge">alt</code> attribute whose value is the empty string (<code class="language-plaintext highlighter-rouge">alt=""</code>), and with no <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>.</li>
+</ul>
+
+<p>Elements are marked as decorative as a way to convey the intention of the author that they are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a>. It is different from the element actually being <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a> as authors may make mistakes. It is different from the element being effectively ignored by assistive technologies as rules such as <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">presentational roles conflict resolution</a> may overwrite this intention.</p>
+
+<p>Elements can also be ignored by assistive technologies if they are <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>. This is different from marking the element as decorative and does not convey the same intention. Notably, being <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a> may change as users interact with the page (showing and hiding elements) while being marked as decorative should stay the same through all states of the page.</p>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>An <em>outcome</em> is a conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+</ul>
+
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+
+<p><strong>Note:</strong> Implementations using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the <code class="language-plaintext highlighter-rouge">incomplete</code> outcome.</p>
+
+<h3 id="programmatic-label">Programmatic Label</h3>
+
+<p>Element L is a <em>programmatic label</em> of target element T if either:</p>
+
+<ul>
+  <li>T is a <a href="https://html.spec.whatwg.org/multipage/forms.html#labeled-control" title="Definition of labeled control">labeled control</a> of L; or</li>
+  <li>L is referenced by ID in the <code class="language-plaintext highlighter-rouge">aria-labelledby</code> attribute of T.</li>
+</ul>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/programmatic-label/">examples of programmatic label</a>.</p>
+
+<p><strong>Note</strong>: a given element may have more than one programmatic label.</p>
+
+<h3 id="programmatically-hidden">Programmatically Hidden</h3>
+
+<p>An HTML element is <em>programmatically hidden</em> if either it has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">visibility</code> whose value is not <code class="language-plaintext highlighter-rouge">visible</code>; or at least one of the following is true for any of its <a href="https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor" title="DOM Definition of Inclusive Ancestor">inclusive ancestors</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>:</p>
+
+<ul>
+  <li>has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">display</code> of <code class="language-plaintext highlighter-rouge">none</code>; or</li>
+  <li>has an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code></li>
+</ul>
+
+<p><strong>Note</strong>: Contrary to the other conditions, the <code class="language-plaintext highlighter-rouge">visibility</code> CSS property may be reverted by descendants.</p>
+
+<p><strong>Note</strong>: The <a href="https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements">HTML standard suggests</a> setting the CSS <code class="language-plaintext highlighter-rouge">display</code> property to <code class="language-plaintext highlighter-rouge">none</code> for elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute. While not required by HTML, all modern browsers follow this suggestion. Because of this the <code class="language-plaintext highlighter-rouge">hidden</code> attribute is not used in this definition. In browsers that use this suggestion, overriding the CSS <code class="language-plaintext highlighter-rouge">display</code> property can reveal elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute.</p>
+
+<h3 id="semantic-role">Semantic Role</h3>
+
+<p>The <em>semantic role</em> of an element is determined by the first of these cases that applies:</p>
+
+<ol>
+  <li><strong>Conflict</strong> If the element is <a href="#marked-as-decorative" title="Definition of Marked as Decorative">marked as decorative</a>, but the element is <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a>; or would be <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a> when it is not <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>, then its <em>semantic role</em> is its <strong><a href="#implicit-role" title="Definition of Implicit Role">implicit role</a></strong>.</li>
+  <li><strong>Explicit</strong> If the element has an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>, then its <em>semantic role</em> is its <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>.</li>
+  <li><strong>Implicit</strong> The <em>semantic role</em> of the element is its <a href="#implicit-role" title="Definition of Implicit Role">implicit role</a>.</li>
+</ol>
+
+<p>This definition can be used in expressions such as “semantic <code class="language-plaintext highlighter-rouge">button</code>” meaning any element with a semantic role of <code class="language-plaintext highlighter-rouge">button</code>.</p>
+
+<h3 id="visible">Visible</h3>
+
+<p>Content perceivable through sight.</p>
+
+<p>Content is considered <em>visible</em> if making it fully transparent would result in a difference in the pixels rendered for any part of the document that is currently within the viewport or can be brought into the viewport via scrolling.</p>
+
+<p><a href="https://www.w3.org/TR/WCAG21/#dfn-content">Content is defined in WCAG</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/visible/">examples of visible</a>.</p>
+
+<h3 id="wai-aria-specifications">WAI-ARIA specifications</h3>
+
+<p>The <em>WAI ARIA Specifications</em> group both the WAI ARIA W3C Recommendation and ARIA modules, namely:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/wai-aria-1.2/">Accessible Rich Internet Applications (WAI-ARIA) 1.2</a></li>
+  <li><a href="https://www.w3.org/TR/graphics-aria-1.0/">WAI-ARIA Graphics Module 1.0</a></li>
+  <li><a href="https://www.w3.org/TR/dpub-aria-1.0/">Digital Publishing WAI-ARIA Module 1.0</a></li>
+</ul>
+
+<p><strong>Note:</strong> depending on the type of content being evaluated, part of the specifications might be irrelevant and should be ignored.</p>
+
+
+<h2 id="ruleversions">Rule Versions</h2>
+
+<ol>
+  <li>
+      
+        Latest version, 31 August 2023
+      (<a target="_blank" href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Fe086e5%2F2022-06-23%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Fe086e5%2F">compare</a>)<ul>
+        <li>Update to reference ARIA 1.2</li>
+        <li>Remove outdated accessibility support info</li>
+        <li>Editorial clarifications of the background</li>
+        <li>New examples using menuitemcheckbox role</li>
+    </ul>
+  </li>
+  <li>
+      <a href="/WAI/standards-guidelines/act/rules/e086e5/2022-06-23/">
+        Previous version, 23 June 2022</a>
+      (<a target="_blank" href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Fe086e5%2F2022-01-28%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Fe086e5%2F2022-06-23%2F">compare</a>)<ul>
+        <li>Account for focus redirects in "focusable" definition</li>
+        <li>Let hidden attribute be handled by display:none in "programmatically hidden" definition</li>
+    </ul>
+  </li>
+  <li>
+      <a href="/WAI/standards-guidelines/act/rules/e086e5/2022-01-28/">
+        Previous version, 28 January 2022</a>
+  </li>
+</ol>
+<h2 id="implementations">Implementations</h2>
+  <p>This section is not part of the official rule. It is populated dynamically and 
+    not accounted for in the change history or the last modified date.</p>
+  <div class="scroll-wrap">
+    <table class="act-implementations">
+      <thead>
+        <tr>
+          <th>Implementation</th>
+          <th>Type</th>
+          <th>Consistency</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Alfa (fully automated) 0.104.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-e086e5"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Alfa (semi-automated) 0.104.0</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/alfa-assisted#breakdown-e086e5"><img alt="Alfa (semi-automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Axe DevTools Pro 4.37.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-devtools-pro#breakdown-e086e5"><img alt="Axe DevTools Pro Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Axe-core 4.10.2</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-core#breakdown-e086e5"><img alt="Axe-core Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Equal Access Accessibility Checker 3.1.42-rc.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/equal-access#breakdown-e086e5"><img alt="Equal Access Accessibility Checker Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>QualWeb 3.0.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-e086e5"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>SortSite 6.55</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-e086e5"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator 17.4.0</td>
+            <td>Linter</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator#breakdown-e086e5"><img alt="Total Validator Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator (+Browser) 17.4.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-e086e5"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Auto 2.5.1</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-auto#breakdown-e086e5"><img alt="UsableNet AQA - WCAG 2.2 AA Auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2.5.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-e086e5"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Webmate Accessibility Workbench </td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-e086e5"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+<h2 id="usefullinks">Useful Links</h2>
+<ul>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+e086e5+">
+    Github issues related to this rule
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues/new?title=%20[e086e5]">
+    Open a new issue
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/edit/develop/_rules/form-field-non-empty-accessible-name-e086e5.md">
+    Propose a change to the rule
+  </a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-wcag-act@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> e086e5</p>
+<p><strong>Date:</strong> Updated 31 August 2023</p>
+<p><strong>Authors:</strong> <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/brynanders">Bryn Anderson</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It was approved and published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

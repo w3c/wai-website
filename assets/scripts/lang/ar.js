@@ -1,0 +1,1 @@
+var translationStrings = {"Expand All Sections": "توسيع كل الأقسام","Collapse All Sections": "تصغير كل الأقسام","to footnote": "الي الهامش","back to footnote": "العودة الي الهامش","in text": "في النص",};

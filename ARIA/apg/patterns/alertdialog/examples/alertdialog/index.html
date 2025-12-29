@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Alert Dialog Example | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Alert Dialog Example" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/examples/alertdialog/" />
+<meta property="og:url" content="https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/examples/alertdialog/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Alert Dialog Example" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Alert Dialog Example","url":"https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/examples/alertdialog/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-alert-dialog-example ">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/ARIA/apg/">
+          ARIA Authoring Practices Guide (APG)
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          How to build accessibility semantics into web patterns and widgets
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="APG">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/">APG Home</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/patterns/">Patterns</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/practices/">Practices</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/example-index/">Index</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/about/">About</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#support-notice-header">Read This First</a></li>
+                
+                <li><a href="#aboutthisexample">About This Example</a></li>
+                
+                <li><a href="#ex_label">Example</a></li>
+                
+                <li><a href="#dialog_label">Confirmation</a></li>
+                
+                <li><a href="#accessibilityfeatures">Accessibility Features</a></li>
+                
+                <li><a href="#kbd_label">Keyboard Support</a></li>
+                
+                <li><a href="#rps_label">Role, Property, State, and Tabindex Attributes</a></li>
+                
+                <li><a href="#src_label">JavaScript and CSS Source Code</a></li>
+                
+                <li><a href="#sc1_label">HTML Source Code</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Alert Dialog Example
+            </h1>
+        </header>
+
+        <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alert Dialog Example</title>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/examples.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/highlight.pack.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/app.js"></script>
+
+<link href="../../../../../../content-assets/wai-aria-practices/patterns/alertdialog/examples/css/alertdialog.css" rel="stylesheet">
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/utils.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/patterns/alertdialog/examples/js/alertdialog.js"></script>
+
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/styles.css">
+
+<!-- Code highlighting styles -->
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/shared/css/github.css">
+
+<script>
+const addBodyClass = undefined;
+const enableSidebar = true;
+if (addBodyClass) document.body.classList.add(addBodyClass);
+if (enableSidebar) document.body.classList.add('has-sidebar');
+</script>
+
+<script>
+    const parentPage = window.location.pathname.match(
+      /\/(patterns|practices|about)\//
+    )?.[1];
+    if (parentPage) {
+      const parentHref = 'a[href*="' + parentPage + '"]';
+      document.querySelector(parentHref).classList.add('active');
+    }
+  </script>
+
+<div>
+
+    <h2 id="support-notice-header">Read This First</h2>
+    <details id="support-notice">
+      <summary>
+        The code in this example is not intended for production environments.
+        Before using it for any purpose, read this to understand why.
+      </summary>
+      <p>This is an illustrative example of one way of using ARIA that conforms with the ARIA specification.</p>
+      <ul>
+        <li>
+          There may be support gaps in some
+          <a href="../../../../practices/read-me-first/#browser_and_AT_support">browser and assistive technology combinations</a>,
+          especially for
+          <a href="../../../../practices/read-me-first/#mobile_and_touch_support">mobile/touch devices</a>.
+          Testing code based on this example with assistive technologies is essential before considering use in production systems.
+        </li>
+        <li>The <a href="https://aria-at.w3.org">ARIA and Assistive Technologies Project</a> is developing measurements of assistive technology support for APG examples.</li>
+        <li>
+          Robust accessibility can be further optimized by choosing implementation patterns that <a href="https://www.w3.org/TR/using-aria/#rule1">maximize use of semantic HTML</a> and heeding the warning that
+          <a href="../../../../practices/read-me-first/#no_aria_better_bad_aria">No ARIA is better than Bad ARIA</a>.
+        </li>
+      </ul>
+    </details>
+  
+    
+    <div>
+      
+
+      <section>
+        <h2 id="aboutthisexample">About This Example</h2>
+        <img alt="" class="example-page-example-icon" src="../../../../../../content-images/wai-aria-practices/images/pattern-alertdialog.svg">
+        <p>
+          The below example of a confirmation prompt demonstrates the <a href="../../">Alert Dialog Pattern</a>.
+          It also includes an example of the <a href="../../../alert/">Alert Pattern</a> to make comparing the experiences provided by the two patterns easy.
+        </p>
+        <p>To use this example:</p>
+        <ul>
+          <li>
+            Activate the "discard" button to trigger a confirmation dialog that has the <code>alertdialog</code> role.
+            <ul>
+              <li>Activating the "yes" button in the confirmation dialog removes the contents of both the "Notes" text area and local storage of the notes.</li>
+              <li data-test-id="save-button">Activating the "no" button or pressing <kbd>escape</kbd> closes the dialog.</li>
+              <li>The "discard" button is disabled if the notes text area does not contain any text.</li>
+            </ul>
+          </li>
+          <li>
+            Activate the "save" button to trigger an alert when the contents of the "Notes" text area is saved to
+            <a href="https://html.spec.whatwg.org/multipage/webstorage.html#the-localstorage-attribute">local storage</a>.
+            <ul>
+              <li>A successful save triggers a short alert to notify the user that the notes have been saved.</li>
+              <li>The "save" button is disabled if the user's local storage value is the same as the "Notes" field.</li>
+            </ul>
+          </li>
+          <li>Modify the "notes" text area as needed to enable and disable the discard and save functions.</li>
+        </ul>
+        <p>Similar examples include:</p>
+        <ul>
+          <li><a href="../../../alert/examples/alert/">Alert</a>: a basic alert.</li>
+          <li><a href="../../../dialog-modal/examples/dialog/">Modal Dialog Example</a>: An example demonstrating multiple layers of modal dialogs with both small and large amounts of content.</li>
+          <li><a href="../../../dialog-modal/examples/datepicker-dialog/">Date Picker Dialog example</a>: Demonstrates a dialog containing a calendar grid for choosing a date.</li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="example-header">
+          <h2 id="ex_label">Example</h2>
+        </div>
+        <div role="separator" id="ex_start_sep" aria-labelledby="ex_start_sep ex_label" aria-label="Start of"></div>
+        <div id="ex_alertdialog">
+          <label for="notes">Notes</label>
+          <textarea class="notes" name="notes" id="notes" rows="7">This is an example text box, which unsurprisingly contains text. The user is given the option to save this text - which triggers a basic alert - or to discard the text - which triggers an alert dialog that prompts the user for confirmation.</textarea>
+          <div class="visually-hidden" id="notes_save_status" role="alert"></div>
+          <button type="button" id="notes_save">
+            Save
+            <svg class="icon spinner" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M16 32c-4.274 0-8.292-1.664-11.314-4.686s-4.686-7.040-4.686-11.314c0-3.026 0.849-5.973 2.456-8.522 1.563-2.478 3.771-4.48 6.386-5.791l1.344 2.682c-2.126 1.065-3.922 2.693-5.192 4.708-1.305 2.069-1.994 4.462-1.994 6.922 0 7.168 5.832 13 13 13s13-5.832 13-13c0-2.459-0.69-4.853-1.994-6.922-1.271-2.015-3.066-3.643-5.192-4.708l1.344-2.682c2.615 1.31 4.824 3.313 6.386 5.791 1.607 2.549 2.456 5.495 2.456 8.522 0 4.274-1.664 8.292-4.686 11.314s-7.040 4.686-11.314 4.686z"></path>
+            </svg>
+            <svg class="icon check" viewBox="0 0 32 32" aria-hidden="true">
+              <path d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+            </svg>
+          </button>
+          <button type="button" data-textbox="notes" id="notes_discard" onclick="openAlertDialog('alertdialog', this)">Discard</button>
+          <div class="dialog-backdrop no-scroll">
+            <div id="alertdialog" role="alertdialog" aria-modal="true" aria-labelledby="dialog_label" aria-describedby="dialog_desc" class="hidden">
+              <h2 id="dialog_label" class="dialog_label">Confirmation</h2>
+              <div id="dialog_desc" class="dialog_desc">
+                <p>Are you sure you want to discard all of your notes?</p>
+              </div>
+              <div class="dialog_form_actions">
+                <button type="button" id="notes_cancel" onclick="closeDialog(this)">No</button>
+                <button type="button" id="notes_confirm" onclick="discardInput()">Yes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="separator" id="ex_end_sep" aria-labelledby="ex_end_sep ex_label" aria-label="End of"></div>
+      </section>
+
+      <section>
+        <h2 id="accessibilityfeatures">Accessibility Features</h2>
+        <ul>
+          <li>The accessible name of the alert dialog is set to its heading ("Confirmation").</li>
+          <li>The dialog's prompt ("Are you sure...?") is referenced via <code>aria-describedby</code> to ensure that the user is immediately aware of the prompt.</li>
+          <li>
+            Focus is automatically set to the first focusable element inside the dialog, which is the "No" <code>button</code>.
+            This is the least destructive action, so focusing "No" helps prevent users from accidentally confirming the destructive "Discard" action, which cannot be undone.
+          </li>
+          <li>
+            When the buttons are disabled, <code>aria-disabled</code> is used instead of the HTML <code>disabled</code> attribute so the buttons will remain in the page <kbd>Tab</kbd> sequence.
+            This makes it easier for screen reader users to discover the buttons and discern how the interface works.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="kbd_label">Keyboard Support</h2>
+        <div class="table-wrap"><table aria-labelledby="kbd_label" class="def">
+          <thead>
+            <tr>
+              <th>Key</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="key-tab">
+              <th><kbd>Tab</kbd></th>
+              <td>
+                <ul>
+                  <li>Moves focus to next focusable element inside the dialog.</li>
+                  <li>When focus is on the last focusable element in the dialog, moves focus to the first focusable element in the dialog.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th><kbd>Shift</kbd> + <kbd>Tab</kbd></th>
+              <td>
+                <ul>
+                  <li>Moves focus to previous focusable element inside the dialog.</li>
+                  <li>When focus is on the first focusable element in the dialog, moves focus to the last focusable element in the dialog.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="key-escape">
+              <th><kbd>Escape</kbd></th>
+              <td>Closes the dialog.</td>
+            </tr>
+            <tr>
+              <th><kbd>Command</kbd> + <kbd>S</kbd></th>
+              <td>(Mac only) Save the contents of the notes <code>textarea</code> when focused.</td>
+            </tr>
+            <tr data-test-id="key-control-s">
+              <th><kbd>Control</kbd> + <kbd>S</kbd></th>
+              <td>(Windows only) Save the contents of the notes <code>textarea</code> when focused.</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section>
+        <h2 id="rps_label">Role, Property, State, and Tabindex Attributes</h2>
+        <div class="table-wrap"><table aria-labelledby="rps_label" class="data attributes">
+          <thead>
+            <tr>
+              <th scope="col">Role</th>
+              <th scope="col">Attribute</th>
+              <th scope="col">Element</th>
+              <th scope="col">Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="alertdialog-role">
+              <th scope="row"><code>alertdialog</code></th>
+              <td></td>
+              <td><code>div</code></td>
+              <td>Identifies the element that serves as the alert dialog container.</td>
+            </tr>
+            <tr data-test-id="aria-labelledby">
+              <td></td>
+              <th scope="row"><code>aria-labelledby="ID_REFERENCE"</code></th>
+              <td><code>div</code></td>
+              <td>Gives the alert dialog an accessible name by referring to the element that provides the alert dialog title.</td>
+            </tr>
+            <tr data-test-id="aria-describedby">
+              <td></td>
+              <th scope="row"><code>aria-describedby="ID_REFERENCE"</code></th>
+              <td><code>div</code></td>
+              <td>Gives the alert dialog an accessible description by referring to the alert dialog content that describes the primary message or purpose of the alert dialog.</td>
+            </tr>
+            <tr data-test-id="aria-modal">
+              <td></td>
+              <th scope="row"><code>aria-modal="true"</code></th>
+              <td><code>div</code></td>
+              <td>Tells assistive technologies that the windows underneath the current alert dialog are not available for interaction (inert).</td>
+            </tr>
+            <tr>
+              <th data-test-id="alert-role" scope="row"><code>alert</code></th>
+              <td></td>
+              <td><code>div</code></td>
+              <td>Identifies the element that serves as the alert notification.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <th scope="row"><code>aria-disabled="true"</code></th>
+              <td><code>button</code></td>
+              <td>Tells assistive technology users the button cannot be activated.</td>
+            </tr>
+          </tbody>
+        </table></div>
+        <h3>Notes on <code>aria-modal</code> and <code>aria-hidden</code></h3>
+        <ul>
+          <li>
+            The <code>aria-modal</code> property was introduced in ARIA 1.1.
+            As a relatively new property, screen reader users may experience varying degrees of support for it.
+          </li>
+          <li>Applying the <code>aria-modal</code> property to the <code>dialog</code> element replaces the technique of using <code>aria-hidden</code> on the background for informing assistive technologies that content outside a dialog is inert.</li>
+          <li>
+            In legacy dialog implementations where <code>aria-hidden</code> is used to make content outside a dialog inert for assistive technology users, it is important that:
+            <ul>
+              <li><code>aria-hidden</code> is set to <code>true</code> on each element containing a portion of the inert layer.</li>
+              <li>The dialog element is not a descendant of any element that has <code>aria-hidden</code> set to <code>true</code>.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="src_label">JavaScript and CSS Source Code</h2>
+        <ul id="css_js_files">
+          <li>CSS: <a href="../../../../../../content-assets/wai-aria-practices/patterns/alertdialog/examples/css/alertdialog.css" type="text/css">alertdialog.css</a></li>
+          <li>JavaScript: <a href="../../../../../../content-assets/wai-aria-practices/patterns/alertdialog/examples/js/alertdialog.js" type="text/javascript">alertdialog.js</a>, <a href="../../../../../../content-assets/wai-aria-practices/shared/js/utils.js">utils.js</a></li>
+        </ul>
+      </section>
+
+      <section class="example-code">
+        <h2 id="sc1_label">HTML Source Code</h2>
+        <p id="sc1_description">To copy the following HTML code, please open it in CodePen.</p>
+        <div role="separator" id="sc1_start_sep" aria-labelledby="sc1_start_sep sc1_label" aria-label="Start of"></div>
+        <pre><code id="sc1"></code></pre>
+        <div role="separator" id="sc1_end_sep" aria-labelledby="sc1_end_sep sc1_label" aria-label="End of"></div>
+        <script>
+          sourceCode.add('sc1', 'ex_alertdialog', 'ex_label', 'css_js_files', 'sc1_description');
+          sourceCode.make();
+        </script>
+      </section>
+    </div>
+  
+</div>
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/skipto.js" data-skipto="colorTheme:aria; displayOption:popup; containerElement:div"></script>
+
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-aria-practices@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/aria-practices/edit/main/content/patterns/alertdialog/examples/alertdialog.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/examples/alertdialog/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;">      <div class='example-page-footer'>        <p><a href='https://github.com/orgs/w3c/projects/138'>View issues related to this example</a></p>        <p>Page last updated: 12 August 2025</p>      </div>    </div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> All ACT Rules |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="All ACT Rules" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="All ACT Rules" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"All ACT Rules","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-all-act-rules  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/" class="active" aria-current="page">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#rules-for-wcag-2">Rules for WCAG 2</a></li>
+                
+                <li><a href="#rules-for-wai-aria">Rules for WAI-ARIA</a></li>
+                
+                <li><a href="#proposed-rules-for-wcag-2">Proposed Rules for WCAG 2</a></li>
+                
+                <li><a href="#rules-beyond-wcag">Rules beyond WCAG</a></li>
+                
+                <li><a href="#deprecated-act-rules">Deprecated ACT Rules</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              All ACT Rules
+            </h1>
+        </header>
+
+        <aside class="box"><header class="box-h "> Summary</header><div class="box-i">
+
+<p>This page contains list of ACT Rules to test conformance <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>, <a href="https://www.w3.org/WAI/ARIA/">WAI-ARIA <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a> and other accessibility practices.  ACT Rules for WCAG 2 are formally approved by the Accessibility Guidelines Working Group. Proposed rules have not yet completed the approval process. ACT Rules are informative — that means they are not required for determining conformance to WCAG or ARIA. Learn more from <a href="/WAI/standards-guidelines/act/rules/about/">About ACT Rules</a>.</p>
+
+</div></aside>
+
+<h2 id="rules-for-wcag-2">Rules for WCAG 2</h2>
+
+<p>The ACT Rules in this section directly relate to WCAG 2 success criteria. These rules have been approved by the Accessibility Guidelines Working Group. They are fully implemented in at least one <a href="../implementations/">test tool or methodology</a>.</p>
+
+<ul>
+    <li><a href="/WAI/standards-guidelines/act/rules/73f2c2/">Autocomplete attribute has valid value</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/97a4e1/">Button has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/oj04fd/">Element in sequential focus order has visible focus</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/46ca7f/">Element marked as decorative is not exposed</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/6cfa84/">Element with aria-hidden has no content in sequential focus navigation</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/de46e4/">Element with lang attribute has valid language tag</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/307n5z/">Element with presentational children has no focusable content</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/4e8ab6/">Element with role attribute has required states and properties</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/e086e5/">Form field has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/a25f45/">Headers attribute specified on a cell refers to cells in the same table element</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/0va7u6/">HTML images contain no text</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/b5c3f8/">HTML page has lang attribute</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/2779a5/">HTML page has non-empty title</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/bf051a/">HTML page lang attribute has valid language tag</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/c4a8a4/">HTML page title is descriptive</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/akn7bn/">Iframe with interactive elements is not excluded from tab-order</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/qt1vmo/">Image accessible name is descriptive</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/59796f/">Image button has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/23a2a8/">Image has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/24afc2/">Important letter spacing in style attributes is wide enough</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/78fd32/">Important line height in style attributes is wide enough</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/9e45ec/">Important word spacing in style attributes is wide enough</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/c487ae/">Link has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/m6b1q3/">Menuitem has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/bc659a/">Meta element has no refresh delay</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/bisz58/">Meta element has no refresh delay (no exception)</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/b4f0c3/">Meta viewport allows for zoom</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/8fc3b6/">Object element rendering non-text content has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/b33eff/">Orientation of the page is not restricted using CSS transforms</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/0ssw9k/">Scrollable content can be reached with sequential focus navigation</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/2t702h/">Summary element has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/7d6734/">SVG element with explicit role has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/09o5cg/">Text has enhanced contrast</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/afw4f7/">Text has minimum contrast</a></li>
+</ul>
+
+<h2 id="rules-for-wai-aria">Rules for WAI-ARIA</h2>
+
+<p>The ACT Rules in this section directly relate to WAI-ARIA requirements. These rules have been approved by the WAI-ARIA Working Group. They are fully implemented in at least one <a href="../implementations/">test tool or methodology</a>.</p>
+
+<ul>
+    <li><a href="/WAI/standards-guidelines/act/rules/5f99a7/">ARIA attribute is defined in WAI-ARIA</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/6a7281/">ARIA state or property has valid value</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/674b10/">Role attribute has valid value</a></li>
+</ul>
+
+<h2 id="proposed-rules-for-wcag-2">Proposed Rules for WCAG 2</h2>
+
+<p>The ACT Rules in this section directly relate to WCAG 2 success criteria. These rules will be considered for approval once they are fully implemented in at least one test tool or methodology.</p>
+
+<ul>
+    <li><a href="/WAI/standards-guidelines/act/rules/ff89c9/proposed/">ARIA required context role</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/in6db8/proposed/">ARIA required ID references exist</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/bc4a75/proposed/">ARIA required owned elements</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/5c01ea/proposed/">ARIA state or property is permitted</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/1a02b0/proposed/">Audio and visuals of video element have transcript</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/e7aa44/proposed/">Audio element content has text alternative</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/80f0bf/proposed/">Audio or video element avoids automatically playing audio</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/cf77f2/proposed/">Bypass Blocks of Repeated Content</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/9bd38c/proposed/">Content has alternative for visual reference</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/7677a9/proposed/">Device motion based changes to the content can also be created from the user interface</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/c249d5/proposed/">Device motion based changes to the content can be disabled</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/36b590/proposed/">Error message describes invalid form field value</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/80af7b/proposed/">Focusable element has no keyboard trap</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/cc0f0a/proposed/">Form field label is descriptive</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/b49b2e/proposed/">Heading is descriptive</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/off6ek/proposed/">HTML element language subtag matches language</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/ucwvc8/proposed/">HTML page language subtag matches default language</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/cae760/proposed/">Iframe element has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/4b1c6c/proposed/">Iframe elements with identical accessible names have equivalent purpose</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/e88epe/proposed/">Image not in the accessibility tree is decorative</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/5effbb/proposed/">Link in context is descriptive</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/aizyf1/proposed/">Link is descriptive</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/fd3a94/proposed/">Links with identical accessible names and same context serve equivalent purpose</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/b20e66/proposed/">Links with identical accessible names have equivalent purpose</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/ffbc54/proposed/">No keyboard shortcut uses only printable characters</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/d0f69e/proposed/">Table header cell has assigned cells</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/efbfc7/proposed/">Text content that changes automatically can be paused, stopped or hidden</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/eac66b/proposed/">Video element auditory content has accessible alternative</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/f51b46/proposed/">Video element auditory content has captions</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/c5a4ea/proposed/">Video element visual content has accessible alternative</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/1ec09b/proposed/">Video element visual content has strict accessible alternative</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/c3232f/proposed/">Video element visual-only content has accessible alternative</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/ee13b5/proposed/">Video element visual-only content has transcript</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/2ee8b8/proposed/">Visible label is part of accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/59br37/proposed/">Zoomed text node is not clipped with CSS overflow</a></li>
+</ul>
+
+<h2 id="rules-beyond-wcag">Rules beyond WCAG</h2>
+
+<p>The ACT Rules below do not directly relate to WCAG success criteria. They relate to other accessibility guidance such as <a href="https://www.w3.org/TR/wai-aria/">WAI-ARIA <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a> or <a href="https://www.w3.org/WAI/WCAG21/Techniques/">Techniques for WCAG 2 <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>. These rules will be considered for approval once they are fully implemented in at least one test tool or methodology.</p>
+
+<ul>
+    <li><a href="/WAI/standards-guidelines/act/rules/2eb176/proposed/">Audio element content has transcript</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/afb423/proposed/">Audio element content is media alternative for text</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/4c31df/proposed/">Audio or video element that plays automatically has a control mechanism</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/aaa1bf/proposed/">Audio or video element that plays automatically has no audio that lasts more than 3 seconds</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/3e12e1/proposed/">Block of repeated content is collapsible</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/b40fd1/proposed/">Document has a landmark with non-repeated content</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/ye5d6e/proposed/">Document has an instrument to move focus to non-repeated content</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/047fe0/proposed/">Document has heading for non-repeated content</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/ebe86a/proposed/">Focusable element has no keyboard trap via non-standard navigation</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/a1b64e/proposed/">Focusable element has no keyboard trap via standard navigation</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/ffd0e9/proposed/">Heading has non-empty accessible name</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/ab4d13/proposed/">Video element content is media alternative for text</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/1ea59c/proposed/">Video element visual content has audio description</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/d7ba54/proposed/">Video element visual-only content has audio track alternative</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/fd26cf/proposed/">Video element visual-only content is media alternative for text</a></li>
+</ul>
+
+<h2 id="deprecated-act-rules">Deprecated ACT Rules</h2>
+
+<p>The ACT Rules below are deprecated and are no longer maintained. For details on why a rule was deprecated see the “Deprecated” section at the top of the rule.</p>
+
+<ul>
+    <li><a href="/WAI/standards-guidelines/act/rules/e6952f/proposed/">Attribute is not duplicated</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/5b7ae0/proposed/">HTML page lang and xml:lang attributes have matching values</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/3ea0c8/proposed/">Id attribute value is unique</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/9eb3f6/proposed/">Image filename is accessible name for image</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/f196ce/proposed/">Video element visual content has description track</a></li>
+    <li><a href="/WAI/standards-guidelines/act/rules/ac7dc6/proposed/">Video element visual-only content has description track</a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.">wai@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list." class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p>ACT Rules are developed by the <a href="https://www.w3.org/community/act-r/">ACT Rules Community Group</a> and the <a href="https://www.w3.org/groups/tf/wcag-act">Accessibility Conformance Testing (ACT) Task Force</a> of the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>). ACT Rules work was part of the <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>, <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a>, and <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>, co-funded by the European Commission.</p></div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

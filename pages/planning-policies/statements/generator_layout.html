@@ -1,0 +1,914 @@
+<!-- 
+    Generator Layout
+    contains the page layout 
+    see 'generator.md' for the text content
+-->
+
+{::nomarkdown}
+
+<div id="accstatement">
+    <section class="page create" hidden="hidden">
+        <div class="container">
+
+            {% include box.html type="start" title=page.intro_explaination class="" %}
+            <p>{{ page.introduction }}</p>
+            {% include box.html type="end" %}
+
+            {% include_cached toc.html type="start" title=page.page_contents class="full" %}
+            <ul>
+                <li>
+                    <a href="#create-basic">{{ page.basic_info.title }}</a>
+                </li>
+                <li>
+                    <a href="#create-efforts">{{ page.your_efforts.title }}</a>
+                </li>
+                <li>
+                    <a href="#create-technical">{{ page.technical_info.title }}</a>
+                </li>
+                <li>
+                    <a href="#create-approval">{{ page.approval_and_complaints.title }}</a>
+                </li>
+            </ul>
+            {% include_cached toc.html type="end" %}
+
+            <div style="display: flex; align-items: center;">
+                {% include excol.html type="all" %}
+                <div style="text-align: right; flex:1">
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        data-target=".information" data-showtext="{{ page.show_all_info }}"
+                        data-hidetext="{{ page.hide_all_info }}">{{ page.show_all_info }}</button>
+                </div>
+            </div>
+
+
+            <form name="create_accessibility_statement_form">
+                {% include excol.html type="start" open="true" %}
+                <h2 id="create-basic">{{ page.basic_info.title }}</h2>
+                <p class="intro">{{ page.basic_info.info }}</p>
+
+                {% include excol.html type="middle" %}
+                <div class="group">
+                    <h3 class="label">{{ page.basic_info.about_statement.title }}
+                        <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                            aria-controls="info_about" data-target="#info_about" data-showtext="{{ page.show_info }}"
+                            data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                    </h3>
+                    <div class="information" id="info_about" hidden="hidden">
+                        <p>{{ page.basic_info.about_statement.info }}</p>
+                    </div>
+
+                    <div class="field">
+                        <label for="accstmt_org">{{ page.basic_info.about_statement.name.title }}</label>
+                        <em>{{ page.basic_info.about_statement.name.example }}</em>
+                        <input type="text" id="accstmt_org" />
+                    </div>
+
+                    <div class="field">
+                        <label for="accstmt_url">{{ page.basic_info.about_statement.address.title }}</label>
+                        <em>{{ page.basic_info.about_statement.address.example }}</em>
+                        <input type="text" id="accstmt_url" />
+                    </div>
+
+                    <div class="field">
+                        <label for="accstmt_namesite">{{ page.basic_info.about_statement.app_name.title }}</label>
+                        <em>{{ page.basic_info.about_statement.app_name.example }}</em>
+                        <input type="text" id="accstmt_namesite" />
+                    </div>
+                </div>
+
+                <div class="group">
+                    <h3 class="label">{{ page.basic_info.standards.title }}
+                        <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                            aria-controls="info_standards" data-target="#info_standards" data-showtext="{{ page.show_info }}"
+                            data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                    </h3>
+                    <div class="information" id="info_standards" hidden="hidden">
+                        <p>{{ page.basic_info.standards.info }}</p>
+                    </div>
+
+                    <fieldset class="field" id="standard-applied">
+                        <legend class="label">{{ page.basic_info.standards.standard_followed }}</legend>
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_standard" id="accstmnt_standard_wcag22aa"
+                                   checked="checked" value="{{ page.basic_info.standards.wcag_22_AA }}" />
+                            <label for="accstmnt_standard_wcag22aa">{{ page.basic_info.standards.wcag_22_AA }}</label>
+                        </div>
+
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_standard" id="accstmnt_standard_wcag21aa"
+                                value="{{ page.basic_info.standards.wcag_21_AA }}" />
+                            <label for="accstmnt_standard_wcag21aa">{{ page.basic_info.standards.wcag_21_AA }}</label>
+                        </div>
+
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_standard" id="accstmnt_standard_wcag20aa"
+                                value="{{ page.basic_info.standards.wcag_20_AA }}" />
+                            <label for="accstmnt_standard_wcag20aa">{{ page.basic_info.standards.wcag_20_AA }}</label>
+                        </div>
+
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_standard" id="accstmnt_standard_other"
+                                value="{{ page.basic_info.standards.other_text }}" />
+                            <label for="accstmnt_standard_other">{{ page.other }}</label>
+                            <input aria-label="{{ page.basic_info.standards.other_text }}" type="text" id="accstmnt_standard_other_name">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="group">
+                    <h3 class="label">{{ page.basic_info.conformance.title }}
+                        <button type="button" class="showhidebutton button-small" aria-expanded="false" aria-controls="info_conformance"
+                            data-target="#info_conformance" data-showtext="{{ page.show_info }}" data-hidetext="{{ page.hide_info }}">{{
+                            page.show_info }}</button>
+                    </h3>
+                    <div class="information" id="info_conformance" hidden="hidden">
+                        <p>{{ page.basic_info.conformance.info }}</p>
+                    </div>
+
+                    <fieldset class="field" id="conformance-status">
+                        <legend class="visuallyhidden">{{ page.basic_info.conformance.title }}</legend>
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_conformance" id="accstmnt_conformance_full"
+                                value="{{ page.basic_info.conformance.fully.title }}" />
+                            <label for="accstmnt_conformance_full">
+                                <span class="status">{{ page.basic_info.conformance.fully.title }}</span>:
+                                <span class="meaning">{{ page.basic_info.conformance.fully.meaning }}</span>
+                            </label>
+                        </div>
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_conformance" id="accstmnt_conformance_partial"
+                                value="{{ page.basic_info.conformance.partially.title }}" checked="checked" />
+                            <label for="accstmnt_conformance_partial">
+                                <span class="status">{{ page.basic_info.conformance.partially.title }}</span>:
+                                <span class="meaning">{{ page.basic_info.conformance.partially.meaning }}</span>
+                                <span>{{ page.basic_info.conformance.partially.indicate_later }}</span>
+                            </label>
+                        </div>
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_conformance" id="accstmnt_conformance_nonconformant"
+                                value="{{ page.basic_info.conformance.non_conformant.title }}" />
+                            <label for="accstmnt_conformance_nonconformant">
+                                <span class="status">{{ page.basic_info.conformance.non_conformant.title }}</span>:
+                                <span class="meaning">{{ page.basic_info.conformance.non_conformant.meaning }}</span>
+                            </label>
+                        </div>
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_conformance" id="accstmnt_conformance_unknown"
+                                value="{{ page.basic_info.conformance.not_assessed.title }}" />
+                            <label for="accstmnt_conformance_unknown">
+                                <span class="status">{{ page.basic_info.conformance.not_assessed.title }}</span>:
+                                <span class="meaning">{{ page.basic_info.conformance.not_assessed.meaning }}</span>
+                            </label>
+                        </div>
+                        <div class="radio-field">
+                            <input type="radio" name="accstmnt_conformance" id="accstmnt_conformance_inapplicable"
+                                value="" />
+                            <label for="accstmnt_conformance_inapplicable">{{ page.basic_info.conformance.none }}</label>
+                        </div>
+                        <input id="accstmnt_conformance_meaning" type="hidden" value="">
+                    </fieldset>
+                </div>
+
+                <div class="group">
+                    <h3 class="label">{{ page.basic_info.considerations.title }}
+                        <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                            aria-controls="info_additional" data-target="#info_additional" data-showtext="{{ page.show_info }}"
+                            data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                    </h3>
+                    <div class="information" id="info_additional" hidden="hidden">
+                        <p>{{ page.basic_info.considerations.info }}</p>
+                    </div>
+
+                    <div class="field">
+                        <label for="accstmt_additions">{{ page.basic_info.considerations.requirements }}</label>
+                        <textarea id="accstmt_additions" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <h3 class="label">{{ page.basic_info.feedback.title }}
+                        <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                            aria-controls="info_feedback" data-target="#info_feedback" data-showtext="{{ page.show_info }}"
+                            data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                    </h3>
+                    <div class="information" id="info_feedback" hidden="hidden">
+                        <p>{{ page.basic_info.feedback.info }}</p>
+                    </div>
+
+                    <fieldset class="group" id="form-feedback">
+                        <legend class="visuallyhidden">{{ page.basic_info.feedback.title }}</legend>
+                        <div class="field">
+                            <label for="accstmnt_contact_phone">{{ page.basic_info.feedback.phone.title }}</label>
+                            <em>{{ page.basic_info.feedback.phone.example }}</em>
+                            <input type="tel" id="accstmnt_contact_phone" />
+                        </div>
+                        <div class="field">
+                            <label for="accstmnt_contact_email">{{ page.basic_info.feedback.email.title }}</label>
+                            <em>{{ page.basic_info.feedback.email.example }}</em>
+                            <input type="email" id="accstmnt_contact_email" />
+                        </div>
+                        <div class="field">
+                            <label for="accstmnt_contact_visit">{{ page.basic_info.feedback.visitor_address.title }}</label>
+                            <em>{{ page.basic_info.feedback.visitor_address.example }}</em>
+                            <input type="text" id="accstmnt_contact_visit" />
+                        </div>
+                        <div class="field">
+                            <label for="accstmnt_contact_write">{{ page.basic_info.feedback.postal_address.title }}</label>
+                            <em>{{ page.basic_info.feedback.postal_address.example }}</em>
+                            <input type="text" id="accstmnt_contact_write" />
+                        </div>
+
+                        <div class="field">
+                            <label for="accstmnt_contact_other">{{ page.basic_info.feedback.other.title }}</label>
+                            <em>{{ page.basic_info.feedback.other.example }}</em>
+                            <textarea id="accstmnt_contact_other"></textarea>
+                        </div>
+
+                        <div class="field">
+                            <label for="accstmnt_contact_responsetime">{{ page.basic_info.feedback.response.title }}</label>
+                            <em>{{ page.basic_info.feedback.response.example }}</em>
+                            <input type="text" id="accstmnt_contact_responsetime" />
+                        </div>
+
+                    </fieldset>
+                </div>
+
+                <div class="group">
+                    <h3 class="label">{{ page.basic_info.date.title }}
+                        <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                            aria-controls="info_date" data-target="#info_date" data-showtext="{{ page.show_info }}"
+                            data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                    </h3>
+                    <div class="information" id="info_date" hidden="hidden">
+                        <p>{{ page.basic_info.date.info }}</p>
+                    </div>
+
+                    <div class="field">
+                        <label for="accstmt_date">{{ page.basic_info.date.publication_date }}</label>
+                        <input type="text" id="accstmt_date" class="today" />
+                    </div>
+                </div>
+                {% include excol.html type="end" %}
+
+                {% include excol.html type="start" %}
+                <h2 id="create-efforts">{{ page.your_efforts.title }}</h2>
+                <p class="intro">{{ page.your_efforts.info }}</p>
+
+                {% include excol.html type="middle" %}
+                <h3 class="label">{{ page.your_efforts.measures.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        aria-controls="info_measures" data-target="#info_measures" data-showtext="{{ page.show_info }}"
+                        data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                </h3>
+                <div class="information" id="info_measures" hidden="hidden">
+                    <p>{{ page.your_efforts.info }}</p>
+                </div>
+
+                <fieldset class="group">
+                    <legend class="visuallyhidden">{{ page.your_efforts.measures.title }}</legend>
+                    <ul class="nolist field" id="effort-list">
+                        <li class="radio-field">
+                            <input id="accstmnt_orginfo_measures_1" name="accstmnt_orginfo_measures" type="checkbox"
+                                value="{{ page.your_efforts.measures.mission_statement }}" />
+                            <label for="accstmnt_orginfo_measures_1">{{ page.your_efforts.measures.mission_statement }}</label>
+                        </li>
+                        <li class="radio-field">
+                            <input id="accstmnt_orginfo_measures_2" name="accstmnt_orginfo_measures" type="checkbox"
+                                value="{{ page.your_efforts.measures.internal_policies }}" />
+                            <label for="accstmnt_orginfo_measures_2">{{ page.your_efforts.measures.internal_policies }}</label>
+                        </li>
+                        <li class="radio-field">
+                            <input id="accstmnt_orginfo_measures_3" name="accstmnt_orginfo_measures" type="checkbox"
+                                value="{{ page.your_efforts.measures.procurement_practices }}" />
+                            <label for="accstmnt_orginfo_measures_3">{{ page.your_efforts.measures.procurement_practices }}</label>
+                        </li>
+                        <li class="radio-field">
+                            <input id="accstmnt_orginfo_measures_4" name="accstmnt_orginfo_measures" type="checkbox"
+                                value="{{ page.your_efforts.measures.accessibility_officer }}" />
+                            <label for="accstmnt_orginfo_measures_4">{{ page.your_efforts.measures.accessibility_officer }}</label>
+                        </li>
+                        <li class="radio-field">
+                            <input id="accstmnt_orginfo_measures_5" name="accstmnt_orginfo_measures" type="checkbox"
+                                value="{{ page.your_efforts.measures.training }}" />
+                            <label for="accstmnt_orginfo_measures_5">{{ page.your_efforts.measures.training }}</label>
+                        </li>
+                        <li class="radio-field">
+                            <input id="accstmnt_orginfo_measures_6" name="accstmnt_orginfo_measures" type="checkbox"
+                                value="{{ page.your_efforts.measures.targets }}" />
+                            <label for="accstmnt_orginfo_measures_6">{{ page.your_efforts.measures.targets }}</label>
+                        </li>
+                        <li class="radio-field">
+                            <input id="accstmnt_orginfo_measures_7" name="accstmnt_orginfo_measures" type="checkbox"
+                                value="{{ page.your_efforts.measures.methods }}" />
+                            <label for="accstmnt_orginfo_measures_7">{{ page.your_efforts.measures.methods }}</label>
+                        </li>
+                    </ul>
+
+                    <div id="accstmnt_orginfo_othermeasures" class="group">
+                        <div class="field line">
+                            <label for="accstmnt_orginfo_othermeasures_1">{{ page.your_efforts.measures.other_text }} 1</label>
+                            <em>{{ page.your_efforts.measures.other_example }}</em>
+                            <input type="text" id="accstmnt_orginfo_othermeasures_1" name="accstmnt_orginfo_measures" />
+                        </div>
+                        <div class="field proto">
+                            <label for="accstmnt_orginfo_othermeasures_[n]">{{ page.your_efforts.measures.other_text }} [n]</label>
+                            <input type="text" id="accstmnt_orginfo_othermeasures_[n]"
+                                name="accstmnt_orginfo_measures" />
+                        </div>
+                    </div>
+
+                    <button type="button" class="add-line">
+                        {{ page.your_efforts.measures.other_button_text }}
+                    </button>
+                </fieldset>
+                {% include excol.html type="end" %}
+
+            {% include excol.html type="start" %}
+            <h2 id="create-technical">{{ page.technical_info.title }}</h2>
+                <p class="intro">{{ page.technical_info.info }}</p>
+
+                {% include excol.html type="middle" %}
+
+                <h3 class="label">{{ page.technical_info.limitations.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        aria-controls="info_limitations" data-target="#info_limitations" data-showtext="{{ page.show_info }}"
+                        data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                </h3>
+                <div class="information" id="info_limitations" hidden="hidden">
+                    <p>{{ page.technical_info.limitations.info }}</p>
+                </div>
+
+                <fieldset class="group">
+                    <legend class="visuallyhidden">{{ page.technical_info.limitations.title }}</legend>
+                    <p class="expl">{{ page.technical_info.limitations.label }}
+                    </p>
+
+                    <div id="accstmnt_issues">
+                        <fieldset id="accstmnt_limitation_1" class="group line">
+                            <legend>{{ page.technical_info.limitations.singular }} 1</legend>
+                            <div class="field">
+                                <label for="accstmnt_limitation_1_element">{{ page.technical_info.limitations.content.title }}</label>
+                                <em>{{ page.technical_info.limitations.content.example }}</em>
+                                <input type="text" id="accstmnt_limitation_1_element" name="element" />
+                            </div>
+                            <div class="field">
+                                <label for="accstmnt_limitation_1_description">{{ page.technical_info.limitations.discription.title }}</label>
+                                <em>{{ page.technical_info.limitations.discription.example }}</em>
+                                <input type="text" id="accstmnt_limitation_1_description" name="description" />
+                            </div>
+                            <div class="field">
+                                <label for="accstmnt_limitation_1_reason">{{ page.technical_info.limitations.reason.title }}</label>
+                                <em>{{ page.technical_info.limitations.reason.example }}</em>
+                                <input type="text" id="accstmnt_limitation_1_reason" name="reason" />
+                            </div>
+                            <div class="field">
+                                <label for="accstmnt_limitation_1_us">{{ page.technical_info.limitations.us.title }}</label>
+                                <em>{{ page.technical_info.limitations.us.example }}</em>
+                                <input type="text" id="accstmnt_limitation_1_us" name="us" />
+                            </div>
+                            <div class="field">
+                                <label for="accstmnt_limitation_1_you">{{ page.technical_info.limitations.you.title }}</label>
+                                <em>{{ page.technical_info.limitations.you.example }}</em>
+                                <input type="text" id="accstmnt_limitation_1_you" name="you" />
+                            </div>
+                        </fieldset>
+
+                        <fieldset id="accstmnt_limitation_[n]" class="group proto">
+                            <legend>{{ page.technical_info.limitations.singular }} [n]</legend>
+                            <div class="field">
+                                <label for="accstmnt_limitation_[n]_element">{{ page.technical_info.limitations.content.title }}</label>
+                                <input type="text" id="accstmnt_limitation_[n]_element" name="element" />
+                            </div>
+                            <div class="field">
+                                <label for="accstmnt_limitation_[n]_description">{{ page.technical_info.limitations.discription.title }}</label>
+                                <input type="text" id="accstmnt_limitation_[n]_description" name="description" />
+                            </div>
+                            <div class="field">
+                                <label for="accstmnt_limitation_[n]_reason">{{ page.technical_info.limitations.reason.title }}</label>
+                                <input type="text" id="accstmnt_limitation_[n]_reason" name="reason" />
+                            </div>
+                            <div class="field">
+                                <label for="accstmnt_limitation_[n]_us">{{ page.technical_info.limitations.us.title }}</label>
+                                <input type="text" id="accstmnt_limitation_[n]_us" name="us" />
+                            </div>
+                            <div class="field">
+                                <label for="accstmnt_limitation_[n]_you">{{ page.technical_info.limitations.you.title }}</label>
+                                <input type="text" id="accstmnt_limitation_[n]_you" name="you" />
+                            </div>
+                        </fieldset>
+
+                        <button type="button" class="add-line">
+                            {{ page.technical_info.limitations.add_button_text }}
+                        </button>
+                    </div>
+                </fieldset>
+
+                <h3 class="label">{{ page.technical_info.user.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        aria-controls="support_asstech" data-target="#support_asstech" data-showtext="{{ page.show_info }}"
+                        data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                </h3>
+                <div class="information" id="support_asstech" hidden="hidden">
+                    <p>{{ page.technical_info.user.info }}</p>
+                </div>
+
+                <fieldset class="group" id="compatible_tech">
+                    <legend class="visuallyhidden">{{ page.technical_info.user.title }}</legend>
+
+                    <p class="expl">{{ page.technical_info.user.label }}
+                    </p>
+
+                    <div class="field line">
+                        <label for="accstmnt_asstech_compatible_1">{{ page.technical_info.user.enviroment.title }} 1</label>
+                        <em>{{ page.technical_info.user.enviroment.example }}</em>
+                        <input type="text" id="accstmnt_asstech_compatible_1" name="accstmnt_asstech_compatible" />
+                    </div>
+
+                    <div class="field proto">
+                        <label for="accstmnt_asstech_compatible_[n]">{{ page.technical_info.user.enviroment.title }} [n]</label>
+                        <input type="text" id="accstmnt_asstech_compatible_[n]" name="accstmnt_asstech_compatible" />
+                    </div>
+
+                    <button class="add-line" type="button">{{ page.technical_info.user.add_button_text }}</button>
+                </fieldset>
+
+                <h3 class="label">{{ page.technical_info.incompatible.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        aria-controls="support_incompatible" data-target="#support_incompatible"
+                        data-showtext="{{ page.show_info }}" data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                </h3>
+                <div class="information" id="support_incompatible" hidden="hidden">
+                    <p>{{ page.technical_info.incompatible.info }}</p>
+                </div>
+
+                <fieldset class="group" id="incompatible_tech">
+                    <legend class="visuallyhidden">{{ page.technical_info.incompatible.title }}</legend>
+
+                    <p class="expl">{{ page.technical_info.incompatible.label }}</p>
+
+                    <div class="field line">
+                        <label for="accstmnt_asstech_incompatible_1">{{ page.technical_info.user.enviroment.title }} 1</label>
+                        <em>{{ page.technical_info.incompatible.example }}</em>
+                        <input type="text" id="accstmnt_asstech_incompatible_1" name="accstmnt_asstech_incompatible" />
+                    </div>
+                    <div class="field proto">
+                        <label for="accstmnt_asstech_incompatible_[n]">{{ page.technical_info.user.enviroment.title }} [n]</label>
+                        <input type="text" id="accstmnt_asstech_incompatible_[n]"
+                            name="accstmnt_asstech_incompatible" />
+                    </div>
+
+                    <button type="button" class="add-line">
+                        {{ page.technical_info.incompatible.add_button_text }}
+                    </button>
+                </fieldset>
+
+                <h3 class="label">{{ page.technical_info.technologies.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        aria-controls="support_tech" data-target="#support_tech" data-showtext="{{ page.show_info }}"
+                        data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                </h3>
+                <div class="information" id="support_tech" hidden="hidden">
+                    <p>{{ page.technical_info.technologies.info }}
+                    </p>
+                </div>
+
+                <p class="expl">{{ page.technical_info.technologies.label }}</p>
+
+                <fieldset class="field">
+                    <legend class="label">{{ page.technical_info.technologies.title }}:</legend>
+
+                    <ul id="tech_relied" class="nolist">
+                        <li class="radio-field">
+                            <input type="checkbox" id="accstmnt_tech_html" name="accstmnt_tech" value="HTML" />
+                            <label for="accstmnt_tech_html">HTML</label>
+                        </li>
+
+                        <li class="radio-field">
+                            <input type="checkbox" id="accstmnt_tech_aria" name="accstmnt_tech" value="WAI-ARIA" />
+                            <label for="accstmnt_tech_aria">WAI-ARIA</label>
+                        </li>
+
+                        <li class="radio-field">
+                            <input type="checkbox" id="accstmnt_tech_css" name="accstmnt_tech" value="CSS" />
+                            <label for="accstmnt_tech_css">CSS</label>
+                        </li>
+
+                        <li class="radio-field">
+                            <input type="checkbox" id="accstmnt_tech_js" name="accstmnt_tech" value="JavaScript" />
+                            <label for="accstmnt_tech_js">JavaScript</label>
+                        </li>
+
+                        <li class="radio-field">
+                            <input type="checkbox" id="accstmnt_tech_smil" name="accstmnt_tech" value="SMIL" />
+                            <label for="accstmnt_tech_smil">SMIL</label>
+                        </li>
+
+                        <li class="radio-field proto">
+                            <input type="checkbox" id="accstmnt_tech_other_[n]" value="other" checked="checked" />
+                            <span id="accstmnt_tech_other_label_[n]">
+                                <label for="accstmnt_tech_other_[n]">{{ page.other }} [n]</label>
+                                <span class="visuallyhidden">
+                                    {{ page.name }}</span></span>
+                            <input id="accstmnt_tech_other_[n]_value" type="text"
+                                aria-describedby="accstmnt_tech_other_label_[n]" name="accstmnt_tech" />
+                        </li>
+                    </ul>
+
+                    <button class="add-line" type="button">{{ page.technical_info.technologies.add_button_text }}</button>
+                </fieldset>
+
+                <h3 class="label">{{ page.technical_info.assessment.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        aria-controls="info_accstmnt_approach" data-target="#info_accstmnt_approach"
+                        data-showtext="{{ page.show_info }}" data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                </h3>
+                <div class="information" id="info_accstmnt_approach" hidden="hidden">
+                    <p>{{ page.technical_info.assessment.info }}</p>
+                </div>
+
+                <fieldset id="accstmnt_assessment" class="group">
+                    <legend class="visuallyhidden">{{ page.technical_info.assessment.title }}</legend>
+                    <ul class="nolist">
+                        <li class="radio-field">
+                            <input id="accstmnt_approach_1" name="accstmnt_approach" type="checkbox"
+                                value="{{ page.technical_info.assessment.self.title }}" />
+                            <label for="accstmnt_approach_1">{{ page.technical_info.assessment.self.title }}: {{ page.technical_info.assessment.self.meaning }}</label>
+                        </li>
+                        <li class="radio-field">
+                            <input id="accstmnt_approach_2" name="accstmnt_approach" type="checkbox"
+                                value="{{ page.technical_info.assessment.external.title }}" />
+                            <label for="accstmnt_approach_2">{{ page.technical_info.assessment.external.title }}: {{ page.technical_info.assessment.external.meaning }}</label>
+                        </li>
+                    </ul>
+
+                    <div class="group">
+                        <div class="field line">
+                            <label for="accstmnt_approach_other_1">{{ page.technical_info.assessment.other_text }} 1</label>
+                            <em>{{ page.technical_info.assessment.other_example }}</em>
+                            <input type="text" id="accstmnt_approach_other_1" name="accstmnt_approach" />
+                        </div>
+
+                        <div class="field proto">
+                            <label for="accstmnt_approach_other_[n]">{{ page.technical_info.assessment.other_text }} [n]</label>
+                            <input type="text" id="accstmnt_approach_other_[n]" name="accstmnt_approach" />
+                        </div>
+
+                        <button type="button" class="add-line">{{ page.technical_info.assessment.other_text }}</button>
+                    </div>
+                </fieldset>
+
+                <h3 class="label">{{ page.technical_info.evidence.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        aria-controls="support_related" data-target="#support_related" data-showtext="{{ page.show_info }}"
+                        data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                </h3>
+                <div class="information" id="support_related" hidden="hidden">
+                    <p>{{ page.technical_info.evidence.info }}</p>
+                </div>
+
+                <div class="group">
+                    <div class="field">
+                        <label for="accstmnt_audit_url">{{ page.technical_info.evidence.report.title }}
+                            <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                                aria-controls="info_audit_url" data-target="#info_audit_url" data-showtext="{{ page.show_info }}"
+                                data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                        </label>
+                        <em>{{ page.technical_info.evidence.report.example }}</em>
+
+                        <div class="information" id="info_audit_url" hidden="hidden">
+                            <p>{{ page.technical_info.evidence.report.info }}</p>
+                        </div>
+
+                        <input type="url" id="accstmnt_audit_url" />
+                    </div>
+
+                    <div class="field">
+                        <label for="accstmnt_audit_wcagem">{{ page.technical_info.evidence.statement.title }}
+                            <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                                aria-controls="info_audit_statement" data-target="#info_audit_statement"
+                                data-showtext="{{ page.show_info }}" data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                        </label>
+                        <em>{{ page.technical_info.evidence.statement.example }}</em>
+
+                        <div class="information" id="info_audit_statement" hidden="hidden">
+                            <p>{{ page.technical_info.evidence.statement.info }}</p>
+                        </div>
+
+                        <input type="url" id="accstmnt_audit_wcagem" />
+                    </div>
+
+                    <div class="field line">
+                        <label for="accstmnt_audit_other_1">{{ page.technical_info.evidence.other_text }} 1</label>
+                        <em>{{ page.technical_info.evidence.other_example }}</em>
+                        <input type="text" id="accstmnt_audit_other_1" name="accstmnt_audit_other" />
+                    </div>
+
+                    <div class="field proto">
+                        <label for="accstmnt_audit_other_[n]">{{ page.technical_info.evidence.other_text }} [n]</label>
+                        <input type="text" id="accstmnt_audit_other_[n]" name="accstmnt_audit_other" />
+                    </div>
+
+                    <button type="button" class="add-line">
+                        {{ page.technical_info.evidence.add_button_text }}
+                    </button>
+                </div>
+
+                {% include excol.html type="end" %}
+
+                {% include excol.html type="start" %}
+                <h2 id="create-approval">{{ page.approval_and_complaints.title }}</h2>
+                <p class="intro">{{ page.approval_and_complaints.info }}</p>
+                {% include excol.html type="middle" %}
+
+                <h3 class="label">{{ page.approval_and_complaints.complaints.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false"
+                        aria-controls="info_complaints" data-target="#info_complaints" data-showtext="{{ page.show_info }}"
+                        data-hidetext="{{ page.hide_info }}">{{ page.show_info }}</button>
+                </h3>
+                <div class="information" id="info_complaints" hidden="hidden">
+                    <p>{{ page.approval_and_complaints.complaints.info }}</p>
+                </div>
+
+                <div class="field">
+                    <label for="accstmt_complaints">{{ page.approval_and_complaints.complaints.label }}</label>
+                    <textarea id="accstmt_complaints" rows="3"></textarea>
+                </div>
+
+                <h3 class="label">{{ page.approval_and_complaints.approval.title }}
+                    <button type="button" class="showhidebutton button-small" aria-expanded="false" aria-controls="org_approved"
+                        data-target="#org_approved" data-showtext="{{ page.show_info }}" data-hidetext="{{ page.hide_info }}">{{
+                        page.show_info }}</button>
+                </h3>
+                <div class="information" id="org_approved" hidden="hidden">
+                    <p>{{ page.approval_and_complaints.approval.info }}</p>
+                </div>
+                
+                <fieldset class="group">
+                    <legend class="visuallyhidden">{{ page.approval_and_complaints.approval.title }}</legend>
+                
+                    <div class="field">
+                        <label for="accstmnt_orginfo_approved_name">{{ page.approval_and_complaints.approval.name.title }}</label>
+                        <em>{{ page.approval_and_complaints.approval.name.example }}</em>
+                        <input type="text" id="accstmnt_orginfo_approved_name" />
+                    </div>
+                
+                    <div class="field">
+                        <label for="accstmnt_orginfo_approved_function">{{ page.approval_and_complaints.approval.function.title
+                            }}</label>
+                        <em>{{ page.approval_and_complaints.approval.function.example }}</em>
+                        <input type="text" id="accstmnt_orginfo_approved_function" />
+                    </div>
+                </fieldset>
+
+
+                {% include excol.html type="end" %}
+
+                {% include box.html type="start" class="" %}
+                <div class="statement-actions">
+                    <a class="button" href="#preview" data-action="statement_preview">
+                        {{ page.preview_statement }}
+                    </a>
+                </div>
+                {% include box.html type="end" %}
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- Data transfer between html and js -->
+    <div id="DATA" hidden="hidden">
+        <span data-key="MONTH_NAMES" data-value="{% for month in page.month_names %}{{ month }} {% endfor %}"></span>
+        <span data-key="BECAUSE" data-value="{{ page.preview.because }}"></span>
+    </div>
+
+
+    <!-- ###  PREVIEW  ###  -->
+
+
+    <section class="page preview" hidden="hidden">
+        {% include box.html type="start" title=page.preview_statement class="example" %}
+        <div id="statement_generated">
+            <div id="statement_header">
+                <h2>{{ page.preview.title }} <span class="basic-information website-name"
+                        data-print="accstmt_namesite" data-printdefault="{{page.defaults.WEBSITE_NAME}}"></span></h2>
+                <p>
+                    {{ page.preview.intro }} <span class="basic-information organization-name" data-print="accstmt_org" data-printdefault="{{page.defaults.ORGANIZATION}}"></span>.
+                </p>
+            </div>
+
+            <div id="statement-measures-block" data-if="accstmnt_orginfo_measures">
+                <h3>{{ page.preview.measures.title }}</h3>
+                <p>
+                    <span class="basic-information organization-name" data-print="accstmt_org"
+                        data-printdefault="{{page.defaults.ORGANIZATION}}"></span>
+                    {{ page.preview.measures.label }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}"></span>:
+                </p>
+                <ul id="statement-measures" class="organizational-effort accessibility-measures"
+                    data-print="accstmnt_orginfo_measures" data-printfilter="capitalize"></ul>
+            </div>
+
+            <div id="statement-conformance" data-if="accstmnt_conformance">
+                <h3>{{ page.basic_info.conformance.title }}</h3>
+                <p>
+                    {{ page.preview.conformance.definition }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}">{{page.defaults.WEBSITE_NAME}}</span>
+                    {{ page.preview.conformance.text_1 }}
+                    <span class="basic-information conformance-status" data-print="accstmnt_conformance"
+                        data-printfilter="lowercase"></span>
+                    {{ page.preview.conformance.text_2 }}
+                    <span class="basic-information conformance-standard"><span data-print="accstmnt_standard"
+                            data-if="accstmnt_standard_other_name" data-negate></span><span
+                            data-print="accstmnt_standard_other_name"
+                            data-if="accstmnt_standard_other_name"></span>.</span>
+                    <span data-if="accstmnt_conformance_meaning">
+                        <span class="basic-information conformance-status" data-print="accstmnt_conformance"></span>
+                        {{ page.preview.conformance.text_3 }}
+                        <span class="basic-information conformance-meaning" data-print="accstmnt_conformance_meaning"
+                            data-printdefault="{{page.defaults.CONFORMANCE_MEANING}}"></span>.
+                    </span>
+                </p>
+            </div>
+
+            <div id="statement-additions" data-if="accstmt_additions">
+                <h4>{{ page.basic_info.considerations.title }}</h4>
+                <p class="basic-information conformance-additions" data-print="accstmt_additions"
+                    data-printfilter="capitalize"></p>
+            </div>
+
+            <div
+                data-if="accstmnt_contact_phone, accstmnt_contact_email, accstmnt_contact_visit, accstmnt_contact_write, accstmnt_contact_other">
+                <h3>{{ page.preview.feedback.title }}</h3>
+                <p>
+                    {{ page.preview.feedback.label_1 }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}"></span>.
+                    {{ page.preview.feedback.label_2 }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}"></span>:
+                </p>
+                <ul class="basic-information feedback h-card">
+                    <li data-if="accstmnt_contact_phone">
+                        {{ page.basic_info.feedback.phone.title }}:
+                        <span class="phone-number p-tel" data-print="accstmnt_contact_phone"></span>
+                    </li>
+                    <li data-if="accstmnt_contact_email">
+                        {{ page.basic_info.feedback.email.title }}:
+                        <a class="email u-email" href="mailto:" data-print="accstmnt_contact_email"></a>
+                    </li>
+                    <li data-if="accstmnt_contact_visit">
+                        {{ page.basic_info.feedback.visitor_address.title }}:
+                        <span class="visitor-address p-extended-address" data-print="accstmnt_contact_visit"></span>
+                    </li>
+                    <li data-if="accstmnt_contact_write">
+                        {{ page.basic_info.feedback.postal_address.title }}:
+                        <span class="postal-address p-adr" data-print="accstmnt_contact_write"></span>
+                    </li>
+                    <li class="contact-other p-note" data-if="accstmnt_contact_other"
+                        data-print="accstmnt_contact_other"></li>
+                </ul>
+                <p data-if="accstmnt_contact_responsetime">
+                    {{ page.preview.feedback.response }} <span class="feedback responsetime"
+                        data-print="accstmnt_contact_responsetime"></span>.
+                </p>
+            </div>
+
+            <div id="statement-asstech" data-if="accstmnt_asstech_compatible, accstmnt_asstech_incompatible">
+                <h3>{{ page.preview.compatibility.title }}</h3>
+                <div id="statement-asstech-compatible-block">
+                    <p>
+                        <span class="basic-information website-name" data-print="accstmt_namesite"
+                            data-printdefault="{{page.defaults.WEBSITE_NAME}}"></span>
+                        {{ page.preview.compatibility.label }}:
+                    </p>
+                    <ul id="statement-asstech-compatible" class="technical-information compatible-environments"
+                        data-print="accstmnt_asstech_compatible" data-printdefault="{{page.defaults.COMPATIBLE_LIST}}"></ul>
+                </div>
+
+                <div id="statement-asstech-incompatible-block" data-if="accstmnt_asstech_incompatible">
+                    <p>
+                        <span class="basic-information website-name" data-print="accstmt_namesite"
+                            data-printdefault="{{page.defaults.WEBSITE_NAME}}"></span>
+                        {{ page.preview.compatibility.label_not }}:
+                    </p>
+                    <ul id="statement-asstech-incompatible" class="technical-information incompatible-environments"
+                        data-print="accstmnt_asstech_incompatible"></ul>
+                </div>
+            </div>
+
+            <div id="statement-conftech" data-if="accstmnt_tech">
+                <h3>{{ page.preview.tech.title }}</h3>
+                <p>
+                    {{ page.preview.tech.label_1 }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}"></span>
+                    {{ page.preview.tech.label_2 }}:
+                </p>
+                <ul id="statement-tech" class="technical-information technologies-used" data-print="accstmnt_tech"></ul>
+                <p>{{ page.preview.tech.label_3 }}</p>
+            </div>
+
+            <div id="statement-limitations-block">
+                <h3>{{ page.preview.limitations.title }}</h3>
+                <p>
+                    {{ page.preview.limitations.label_1 }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}">{{page.defaults.WEBSITE_NAME}}</span> {{ page.preview.limitations.label_2 }}
+                </p>
+
+                <p>
+                    {{ page.preview.limitations.label_3 }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}">{{page.defaults.WEBSITE_NAME}}</span>:
+                </p>
+                <ol id="statement-limitations" class="technical-information accessibility-limitations"></ol>
+            </div>
+
+            <div id="statement-assessment-block" data-if="accstmnt_approach">
+                <h3>{{ page.technical_info.assessment.title }}</h3>
+                <p>
+                    <span class="basic-information organization-name" data-print="accstmt_org"
+                        data-printdefault="{{page.defaults.ORGANIZATION}}">{{page.defaults.ORGANIZATION}}</span>
+                    {{ page.preview.assessment.label_1 }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}">{{page.defaults.WEBSITE_NAME}}</span>
+                    {{ page.preview.assessment.label_2 }}:
+                </p>
+                <ul id="statement-assessments" class="technical-information assessment-approaches"
+                    data-print="accstmnt_approach"></ul>
+            </div>
+
+            <div data-if="accstmnt_audit_url">
+                <h3>{{ page.preview.evaluation.report }}</h3>
+                <p>
+                    {{ page.preview.evaluation.label_1 }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}">{{page.defaults.WEBSITE_NAME}}</span>
+                    {{ page.preview.evaluation.label_2 }}:
+                    <a class="technical-information related-evidence" href="" data-print="accstmnt_audit_url"></a>.
+                </p>
+            </div>
+
+            <div data-if="accstmnt_audit_wcagem">
+                <h3>{{ page.preview.evaluation.statement }}</h3>
+                <p>
+                    {{ page.preview.evaluation.label_3 }}
+                    <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}">{{page.defaults.WEBSITE_NAME}}</span>
+                    {{ page.preview.evaluation.label_2 }}:
+                    <a class="technical-information related-evidence" href="" data-print="accstmnt_audit_wcagem"></a>.
+                </p>
+            </div>
+
+            <div data-if="accstmnt_audit_other">
+                <h3>{{ page.preview.evaluation.other_evidence }}</h3>
+                <p>{{ page.preview.evaluation.label_4 }} <span class="basic-information website-name" data-print="accstmt_namesite"
+                        data-printdefault="{{page.defaults.WEBSITE_NAME}}"></span> {{ page.preview.evaluation.label_2 }}:</p>
+                <ul data-print="accstmnt_audit_other" class="technical-information related-evidence-other"></ul>
+            </div>
+
+            <div data-if="accstmt_complaints">
+                <h3>{{ page.approval_and_complaints.complaints.title }}</h3>
+                <p class="complaints" data-print="accstmt_complaints"></p>
+            </div>
+
+            <div id="statement-approval-block"
+                data-if="accstmnt_orginfo_approved_name, accstmnt_orginfo_approved_function">
+                <h3>{{ page.preview.approval.title }}</h3>
+
+                <p>{{ page.preview.approval.label }}:</p>
+                <p class="approval">
+                    <span class="basic-information organization-name" data-print="accstmt_org"
+                        data-printdefault="{{page.defaults.ORGANIZATION}}"></span><br />
+                    <span class="approved-by" data-print="accstmnt_orginfo_approved_name"
+                        data-printdefault="APPROVED_BY"></span><br />
+                    <span class="approved-by-jobtitle" data-print="accstmnt_orginfo_approved_function"
+                        data-if="accstmnt_orginfo_approved_function"></span>
+                </p>
+            </div>
+
+            <hr noshade="noshade" />
+
+            <h3>{{ page.preview.date.title }}</h3>
+            <p>
+                {{ page.preview.date.text_1 }}
+                <span class="basic-information statement-created-date" data-print="accstmt_date"
+                    data-printdefault="{{page.defaults.DATE}}"></span>
+                {{ page.preview.date.text_2 }} <a href="{{ page.parent_path | absolute_url }}">{{ page.preview.date.text_3 }}</a>.
+            </p>
+        </div>
+        {% include box.html type="end" %}
+
+        <div class="button-group statement-actions">
+            <a class="button" href="#create">{{ page.preview.back }}</a>
+            <button type="button" data-action="preview_save_as_html">{{ page.preview.download }}</button>
+        </div>
+    </section>
+</div>
+
+<script src="{{ '/content-images/wai-statements/generator.js' | relative_url}}"></script>
+
+{:/}

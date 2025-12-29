@@ -1,0 +1,1 @@
+var translationStrings = {"Expand All Sections": "Lihat Semua Bagian","Collapse All Sections": "Sembunyikan Semua Bagian","to footnote": "ke catatan kaki","back to footnote": "kembali ke catatan kaki","in text": "dalam teks",};

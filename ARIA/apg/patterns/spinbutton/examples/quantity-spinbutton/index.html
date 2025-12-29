@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Quantity Spin Button Example | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Quantity Spin Button Example" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/examples/quantity-spinbutton/" />
+<meta property="og:url" content="https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/examples/quantity-spinbutton/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Quantity Spin Button Example" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Quantity Spin Button Example","url":"https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/examples/quantity-spinbutton/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-quantity-spin-button-example ">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/ARIA/apg/">
+          ARIA Authoring Practices Guide (APG)
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          How to build accessibility semantics into web patterns and widgets
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="APG">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/">APG Home</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/patterns/">Patterns</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/practices/">Practices</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/example-index/">Index</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/about/">About</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#support-notice-header">Read This First</a></li>
+                
+                <li><a href="#aboutthisexample">About This Example</a></li>
+                
+                <li><a href="#ex_label">Example</a></li>
+                
+                <li><a href="#accessibilityfeatures">Accessibility Features</a></li>
+                
+                <li><a href="#kbd_label">Keyboard Support</a></li>
+                
+                <li><a href="#rps_label">Role, Property, State, and Tabindex Attributes</a></li>
+                
+                <li><a href="#javascriptandcsssourcecode">JavaScript and CSS Source Code</a></li>
+                
+                <li><a href="#sc1_label">HTML Source Code</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Quantity Spin Button Example
+            </h1>
+        </header>
+
+        <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quantity Spin Button Example</title>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/examples.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/highlight.pack.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/app.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+<link href="../../../../../../content-assets/wai-aria-practices/patterns/spinbutton/examples/css/quantity-spinbutton.css" rel="stylesheet">
+
+<script src="../../../../../../content-assets/wai-aria-practices/patterns/spinbutton/examples/js/quantity-spinbutton.js"></script>
+
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/styles.css">
+
+<!-- Code highlighting styles -->
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/shared/css/github.css">
+
+<script>
+const addBodyClass = undefined;
+const enableSidebar = true;
+if (addBodyClass) document.body.classList.add(addBodyClass);
+if (enableSidebar) document.body.classList.add('has-sidebar');
+</script>
+
+<script>
+    const parentPage = window.location.pathname.match(
+      /\/(patterns|practices|about)\//
+    )?.[1];
+    if (parentPage) {
+      const parentHref = 'a[href*="' + parentPage + '"]';
+      document.querySelector(parentHref).classList.add('active');
+    }
+  </script>
+
+<div>
+
+    <h2 id="support-notice-header">Read This First</h2>
+    <details id="support-notice">
+      <summary>
+        The code in this example is not intended for production environments.
+        Before using it for any purpose, read this to understand why.
+      </summary>
+      <p>This is an illustrative example of one way of using ARIA that conforms with the ARIA specification.</p>
+      <ul>
+        <li>
+          There may be support gaps in some
+          <a href="../../../../practices/read-me-first/#browser_and_AT_support">browser and assistive technology combinations</a>,
+          especially for
+          <a href="../../../../practices/read-me-first/#mobile_and_touch_support">mobile/touch devices</a>.
+          Testing code based on this example with assistive technologies is essential before considering use in production systems.
+        </li>
+        <li>The <a href="https://aria-at.w3.org">ARIA and Assistive Technologies Project</a> is developing measurements of assistive technology support for APG examples.</li>
+        <li>
+          Robust accessibility can be further optimized by choosing implementation patterns that <a href="https://www.w3.org/TR/using-aria/#rule1">maximize use of semantic HTML</a> and heeding the warning that
+          <a href="../../../../practices/read-me-first/#no_aria_better_bad_aria">No ARIA is better than Bad ARIA</a>.
+        </li>
+      </ul>
+    </details>
+  
+    
+    <div>
+      
+
+      <section>
+        <h2 id="aboutthisexample">About This Example</h2>
+        <img alt="" class="example-page-example-icon" src="../../../../../../content-images/wai-aria-practices/images/pattern-spinbutton.svg">
+        <p>
+          The following example uses the <a href="../../">Spin Button Pattern</a> to implement three quantity inputs.
+        </p>
+        <p>Similar examples include:</p>
+        <ul>
+          <li><a href="../../../toolbar/examples/toolbar/">Toolbar Example</a>: A toolbar that contains a spin button for setting font size.</li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="example-header">
+          <h2 id="ex_label">Example</h2>
+        </div>
+        <div role="separator" id="ex_start_sep" aria-labelledby="ex_start_sep ex_label" aria-label="Start of"></div>
+        <div id="example">
+          <div class="spinners">
+            <fieldset>
+              <legend>Guests</legend>
+              <div class="spinner-fields">
+                <div class="spinner-field">
+                  <label for="adults">
+                    Adults
+                  </label>
+                  <div class="spinner">
+                    <button type="button" title="Remove adult" aria-controls="adults" data-spinbutton-operation="decrement" tabindex="-1">
+                      <span aria-hidden="true">−</span>
+                    </button>
+                    <input id="adults" aria-errormessage="error-adults" role="spinbutton" type="text" size="4" inputmode="numeric" autocomplete="off" spellcheck="false" aria-valuemin="1" aria-valuemax="8" aria-valuenow="1" value="1">
+                    <button type="button" title="Add adult" aria-controls="adults" data-spinbutton-operation="increment" tabindex="-1">
+                      <span aria-hidden="true">+</span>
+                    </button>
+                  </div>
+                  <small id="error-adults">Must be between 1 and 8</small>
+                  <small id="help-adults">1 to 8</small>
+                  <output for="adults" data-self-destruct="2000" class="visually-hidden"></output>
+                </div>
+                <div class="spinner-field">
+                  <label for="kids">
+                    Kids
+                  </label>
+                  <div class="spinner">
+                    <button type="button" title="Remove kid" aria-controls="kids" data-spinbutton-operation="decrement" tabindex="-1">
+                      <span aria-hidden="true">−</span>
+                    </button>
+                    <input id="kids" aria-errormessage="error-kids" role="spinbutton" type="text" size="4" inputmode="numeric" autocomplete="off" spellcheck="false" aria-valuemin="0" aria-valuemax="8" aria-valuenow="0" value="0">
+                    <button type="button" title="Add kid" aria-controls="kids" data-spinbutton-operation="increment" tabindex="-1">
+                      <span aria-hidden="true">+</span>
+                    </button>
+                  </div>
+                  <small id="error-kids">Must be between 0 and 8</small>
+                  <small id="help-kids">0 to 8</small>
+                  <output for="kids" data-self-destruct="2000" class="visually-hidden"></output>
+                </div>
+                <div class="spinner-field">
+                  <label for="animals">
+                    Animals
+                  </label>
+                  <div class="spinner">
+                    <button type="button" title="Remove animal" aria-controls="animals" data-spinbutton-operation="decrement" tabindex="-1">
+                      <span aria-hidden="true">−</span>
+                    </button>
+                    <input id="animals" aria-errormessage="error-animals" role="spinbutton" type="text" size="4" inputmode="numeric" autocomplete="off" spellcheck="false" aria-valuemin="0" aria-valuemax="12" aria-valuenow="0" value="0">
+                    <button type="button" title="Add animal" aria-controls="animals" data-spinbutton-operation="increment" tabindex="-1">
+                      <span aria-hidden="true">+</span>
+                    </button>
+                  </div>
+                  <small id="error-animals">Must be between 0 and 12</small>
+                  <small id="help-animals">0 to 12</small>
+                  <output for="animals" data-self-destruct="2000" class="visually-hidden"></output>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+        <div role="separator" id="ex_end_sep" aria-labelledby="ex_end_sep ex_label" aria-label="End of"></div>
+      </section>
+
+      <section>
+        <h2 id="accessibilityfeatures">Accessibility Features</h2>
+        <ul>
+          <li>
+            The element with role <code>spinbutton</code> allows text input, for
+            users who prefer to enter a value directly.
+          </li>
+          <li>
+            The spin button input and its adjacent buttons are visually
+            presented as a single form field containing an editable value, an
+            <span data-test-id="increment-button">increment button</span>, and a
+            <span data-test-id="decrement-button">decrement button</span>.
+          </li>
+          <li>
+            When either the spin button input or its adjacent buttons have
+            received focus, a single visual focus indicator encompasses all
+            three, reinforcing the relationship between them.
+          </li>
+          <li>
+            For users who have not set a preference for reduced motion, the
+            focus indicator appears with subtle animation to draw attention.
+          </li>
+          <li>
+            The increment and decrement buttons:
+            <ul>
+              <li>
+                Are generously sized for ease of use.
+              </li>
+              <li>
+                Are adjacent to the spin button input so they can be accessed by
+                users of touch-based and voice-based assistive technologies.
+              </li>
+              <li>
+                Are labeled with the <code>title</code> attribute, providing a
+                human-friendly representation of the plus and minus characters
+                for users of touch-based and voice-based assistive technologies. The
+                <code>title</code> attribute also presents a tooltip on hover,
+                clarifying the meaning of each button’s icon.
+              </li>
+              <li>
+                Use an invisible live region to announce the updated value
+                when pressed. The live region empties its contents after 3
+                seconds to avoid leaving stale content in the document.
+              </li>
+              <li>
+                Are excluded from the page <kbd>Tab</kbd> sequence with
+                <code>tabindex="-1"</code> because they are redundant with the
+                arrow key support provided to keyboard users.
+              </li>
+              <li>
+                Can be activated with voice control by speaking a command such
+                as <q>Click add adult</q>.
+              </li>
+            </ul>
+          </li>
+          <li>
+            When forced colors are enabled, <a href="https://www.w3.org/TR/css-color-4/#css-system-colors">system
+            color keywords</a> are used to ensure visibility and sufficient
+            contrast for the spin button’s content and interactive states.
+          </li>
+          <li>
+            Each spin button’s minimum and maximum values are programmatically
+            defined with <code>aria-valuemin</code> and
+            <code>aria-valuemax</code>, enabling assistive technologies to
+            convey that information to users in a predictable manner.
+          </li>
+          <li>
+            The minimum and maximum values are also visually expressed with
+            adjacent help text, but is purposefully <em>not</em> associated using
+            <code>aria-describedby</code> since the same information is already
+            programmatically defined.
+          </li>
+          <li>
+            When a user inputs an invalid value:
+            <ul>
+              <li>
+                The spin button is visually styled to indicate an error state.
+              </li>
+              <li>
+                <code>aria-invalid="true"</code> is added to the input to inform
+                assistive technologies of the invalid state.
+              </li>
+              <li>
+                An error message is displayed and associated with
+                the input using <code>aria-errormessage</code>.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="kbd_label">Keyboard Support</h2>
+        <p>The spin buttons provide the following keyboard support described in the <a href="../../#keyboard_interaction">Spin Button Pattern</a>.</p>
+        <div class="table-wrap"><table aria-labelledby="kbd_label" class="def">
+          <thead>
+            <tr>
+              <th>Key</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="spinbutton-down-arrow">
+              <th><kbd>Down Arrow</kbd></th>
+              <td>Decreases value by 1.</td>
+            </tr>
+            <tr data-test-id="spinbutton-up-arrow">
+              <th><kbd>Up Arrow</kbd></th>
+              <td>Increases value by 1.</td>
+            </tr>
+            <tr data-test-id="spinbutton-home">
+              <th><kbd>Home</kbd></th>
+              <td>Decreases to minimum value.</td>
+            </tr>
+            <tr data-test-id="spinbutton-end">
+              <th><kbd>End</kbd></th>
+              <td>Increases to maximum value.</td>
+            </tr>
+            <tr data-test-id="standard-single-line-editing-keys">
+              <th>Standard single line text editing keys</th>
+              <td>
+                <ul>
+                  <li>Keys used for cursor movement and text manipulation, such as <kbd>Delete</kbd> and <kbd>Shift</kbd> + <kbd>Right Arrow</kbd>.</li>
+                  <li>An HTML <code>input</code> with <code>type="text"</code> is used for the spin button so the browser will provide platform-specific editing keys.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section>
+        <h2 id="rps_label">Role, Property, State, and Tabindex Attributes</h2>
+        <div class="table-wrap"><table aria-labelledby="rps_label" class="data attributes">
+          <thead>
+            <tr>
+              <th scope="col">Role</th>
+              <th scope="col">Attribute</th>
+              <th scope="col">Element</th>
+              <th scope="col">Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="spinbutton-role">
+              <th scope="row"><code>spinbutton</code></th>
+              <td></td>
+              <td><code>input[type="text"]</code></td>
+              <td>Identifies the <code>input[type="text"]</code> element as a spin button.</td>
+            </tr>
+            <tr data-test-id="spinbutton-aria-valuenow">
+              <td></td>
+              <th scope="row"><code>aria-valuenow="NUMBER"</code></th>
+              <td><code>input[type="text"]</code></td>
+              <td>
+                <ul>
+                  <li>Indicates the current numeric value of the spin button.</li>
+                  <li>Updated by JavaScript as users change the value of the spin button.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="spinbutton-aria-valuemin">
+              <td></td>
+              <th scope="row"><code>aria-valuemin="NUMBER"</code></th>
+              <td><code>input[type="text"]</code></td>
+              <td>Indicates the minimum allowed value for the spin button.</td>
+            </tr>
+            <tr data-test-id="spinbutton-aria-valuemax">
+              <td></td>
+              <th scope="row"><code>aria-valuemax="NUMBER"</code></th>
+              <td><code>input[type="text"]</code></td>
+              <td>Indicates the maximum allowed value for the spin button.</td>
+            </tr>
+            <tr data-test-id="spinbutton-aria-invalid">
+              <td></td>
+              <th scope="row"><code>aria-invalid="true"</code></th>
+              <td><code>input[type="text"]</code></td>
+              <td>Indicates that the current value is invalid.</td>
+            </tr>
+            <tr data-test-id="spinbutton-aria-errormessage">
+              <td></td>
+              <th scope="row"><code>aria-errormessage="ID_REF"</code></th>
+              <td><code>input[type="text"]</code></td>
+              <td>Identifies the element that provides an error message for the spin button.</td>
+            </tr>
+            <tr data-test-id="button-title">
+              <td></td>
+              <th scope="row"><code>title="NAME_STRING"</code></th>
+              <td><code>button</code></td>
+              <td>Defines the accessible name for each increment and decrement button (<q>Remove adult</q>, <q>Add adult</q>, <q>Remove kid</q>, <q>Add kid</q>, <q>Remove animal</q>, and <q>Add animal</q>).</td>
+            </tr>
+            <tr data-test-id="button-aria-controls">
+              <td></td>
+              <th scope="row">
+                <code>aria-controls="ID_REF"</code>
+              </th>
+              <td><code>button</code></td>
+              <td>Identifies the element whose value will be modified when the button is activated.</td>
+            </tr>
+            <tr data-test-id="button-tabindex">
+              <td></td>
+              <th scope="row"><code>tabindex="-1"</code></th>
+              <td><code>button</code></td>
+              <td>Removes the increment and decrement buttons from the page <kbd>Tab</kbd> sequence while keeping them focusable so they can be accessed with touch-based and voice-based assistive technologies.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <th scope="row"><code>aria-disabled="true"</code></th>
+              <td><code>button</code></td>
+              <td>Set when the minimum or maximum value has been reached to inform assistive technologies that the button has been disabled.</td>
+            </tr>
+            <tr data-test-id="span-aria-hidden">
+              <td></td>
+              <th scope="row"><code>aria-hidden="true"</code></th>
+              <td><code>span</code></td>
+              <td>For assistive technology users, hides the visible minus and plus characters in the increment and decrement buttons since they are symbolic of the superior button labels provided by the <code>title</code> attribute.</td>
+            </tr>
+            <tr data-test-id="output">
+              <td></td>
+              <td></td>
+              <td><code>output</code></td>
+              <td>
+                <ul>
+                  <li>An element with an implicit role of <code>status</code> and an implicit <code>aria-live</code> value of <code>polite</code>.</li>
+                  <li>Triggers a screen reader announcement of the <code>output</code> element’s updated content at the next graceful opportunity.</li>
+                  <li>When either the increment or decrement button is pressed, the current value of the spin button is injected into the <code>output</code> element.</li>
+                  <li>Its contents are emptied 2000 milliseconds after injection.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section>
+        <h2 id="javascriptandcsssourcecode">JavaScript and CSS Source Code</h2>
+        <ul id="css_js_files">
+          <li>
+            CSS:
+            <a href="../../../../../../content-assets/wai-aria-practices/patterns/spinbutton/examples/css/quantity-spinbutton.css" type="text/css">quantity-spinbutton.css</a>
+          </li>
+          <li>
+            Javascript:
+            <ul>
+              <li><a href="../../../../../../content-assets/wai-aria-practices/patterns/spinbutton/examples/js/quantity-spinbutton.js" type="text/javascript">quantity-spinbutton.js</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="example-code">
+        <h2 id="sc1_label">HTML Source Code</h2>
+        <p id="sc1_description">To copy the following HTML code, please open it in CodePen.</p>
+        <div role="separator" id="sc1_start_sep" aria-labelledby="sc1_start_sep sc1_label" aria-label="Start of"></div>
+        <pre><code id="sc1"></code></pre>
+        <div role="separator" id="sc1_end_sep" aria-labelledby="sc1_end_sep sc1_label" aria-label="End of"></div>
+        <script>
+          sourceCode.add('sc1', 'example', 'ex_label', 'css_js_files', 'sc1_description');
+          sourceCode.make();
+        </script>
+      </section>
+    </div>
+  
+</div>
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/skipto.js" data-skipto="colorTheme:aria; displayOption:popup; containerElement:div"></script>
+
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-aria-practices@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/aria-practices/edit/main/content/patterns/spinbutton/examples/quantity-spinbutton.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/examples/quantity-spinbutton/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;">      <div class='example-page-footer'>        <p><a href='https://github.com/orgs/w3c/projects/143'>View issues related to this example</a></p>        <p>Page last updated: 18 September 2025</p>      </div>    </div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

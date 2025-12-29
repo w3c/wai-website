@@ -1,0 +1,1386 @@
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Transcript of the "Shape the Future: Research and Development Questions in Digital Accessibility - Online Research Symposium, 10 November 2021"</title>
+</head>
+
+<body>
+
+  <aside style="border: solid #900 1px; background: #ebf4f5; font-weight: bold; padding: 0.5em; margin-bottom: 3em;">
+    <p>This document is the transcript of the symposium <a href="https://www.w3.org/WAI/about/projects/wai-coop/symposium1/">"Shape the Future: Research and Development Questions in Digital Accessibility"</a>. This document was not developed by the W3C Web
+      Accessibility Initiative and does not necessarily represent the consensus view of its membership.</p>
+    <p>This document is based on live transcription. Communication Access Realtime Translation (CART), captioning, and/or live transcription are provided in order to facilitate communication accessibility and may not be a totally verbatim record of the proceedings.
+      This document is not to be distributed or used in any way that may violate copyright law.</p>
+  </aside>
+
+  <h1>Transcript of the "Shape the Future: Research and Development Questions in Digital Accessibility - Online Research Symposium, 10 November 2021"</h1>
+
+  <h2>Welcome session</h2>
+
+  <p>>> CARLOS DUARTE: So I think we can start now. Hello, everyone. We are delighted that you are able to join us in this Shape the Future: Research and Development Questions in digital accessibility symposium. And we are looking forward to a set of stimulating
+    presentations and discussions. </p>
+
+  <p>My name is Carlos Duarte. And on behalf of the whole organizing team I would like to offer you our warmest welcome.
+  </p>
+
+  <p>Let me just take a moment to say a big thank you to the wonderful team that made all this possible. My colleague here at the University of Lisbon, Leticia and a bunch of people from the W3C Accessible Platform Architecture Working Group, Joshua, Jason,
+    Scott, Becky. And, of course, Judy Brewer from the W3C Web Accessibility Initiative.</p>
+
+  <p>Before we get going, just a couple of important reminders. By taking part in this symposium, you agree to follow the W3C code of ethics and professional conduct and ensure to promote a safe environment for everyone in this meeting. You can find more
+    about the code of ethics and professional conduct at https://www.w3.org/consortium/cepc.</p>
+
+  <p>Also this session is not being video recorded but is being transcribed. The transcription will be posted on the symposium website later. If you object to it being transcribed, we ask you to reframe from commenting. </p>
+
+  <p>I would also like to take this opportunity to thank the European Commission that cofunds the WAI CooP project. And thank you the architecture group and questions task force for all the support in preparing the scientific program. And to thank Open Conf
+    who kindly provided us with their paper submission and reviewing platform.</p>
+
+  <p>Let me describe some of the logistics for this meeting. Audio and video are off by default. Please turn them on only when requested and turn them off again when no longer needed. As you might be aware, in each session we have a period for discussions
+    after all the session presentations. During the discussion you can enter your questions in the chat feature of Zoom or you can use the raise hand feature.</p>
+
+  <p>We will be monitoring both channels. And time allowing, we will try to address your questions during the discussions.</p>
+
+  <p>You can also use the chat feature to report any technical issues you are experiencing. Hopefully you won't experience any. But Pascale will be monitoring the chat for these issues. If during the seminar your connection drops, please do your best to
+    try to reconnect. If it is the whole meeting that gets disrupted, you won't be able to reconnect. We will try to resume the meeting for a period of up to 15 minutes. If you are unsuccessful, we will contact you with further instructions by e mail.</p>
+
+  <p>But for the presenters, if you drop, we will wait for one or two minutes for you to try to join. If you are not successful, then we will move to the next presentation. And you will have the opportunity to resume your presentation when you are able to
+    reconnect.
+  </p>
+
+  <p>So as I have mentioned before, this symposium is one of the results of the WAI CooP project. You can learn more about this project at https://www.w3.org/WAI/about/project/WAI CooP. WAI CooP started in January of this year and will run for two more years.
+    This means that we will have the opportunity to host two more symposiums. One in each of the project years.</p>
+
+  <p>The main goal of WAI CooP is to support the implementation of international standards for digital accessibility. It aims to achieve this goal from multiple perspectives. It will provide different overviews of accessibility aimed resources including
+    accessibility checking tools and training resources.</p>
+
+  <p>It will develop actions like this one today, to promote collaboration between research and development players. And it is already creating opportunities for the stakeholders in this domain, to exchange their best practices through, for example, a series
+    of open meetings and online Forum.</p>
+
+  <p>And as I have just mentioned, this is the first of three symposia that will be organized by the WAI CooP project.</p>
+
+  <p>For the first symposium, our main goals are to foster the exploration of state of the art in digital accessibility not only from a research perspective, but also considering all the different practices and development challenges. In particular, our
+    initial efforts have identified difference in the focus of different communities working in this domain.</p>
+
+  <p>This is not a problem per se. But we believe it will be very useful for everyone to become more aware to the challenges that the other communities are facing. And with W3C being a member of the WAI CooP consortium, it became even more relevant in our
+    efforts to understand how research can guide and be guided by standards. And this will certainly frame some of our discussions today.</p>
+
+  <p>Of course, today we also expect to be able to identify topics for the next two symposia. And since I have been going for a bit now, and we are nearing the time to start our first session, let me just finish by introducing you to today's agenda. And
+    our next session will focus on the scope of accessibility guidelines and standards. There will be two presentations focusing on or introducing us from different perspectives to one of accessibility evaluation and the other of one type of documents.</p>
+
+  <p>The following session is focusing on the challenges of accessibility education and how can we promote better education. Between this second and the third sessions, we will have a small coffee break. And the third session will follow with an increasingly
+    relevant topic and that's AI and accessibility. We will be discussing how can AI contribute. And what limitations it still faces or it creates.</p>
+
+  <p>Finally, before the closing session, we will try to summarize the main points that were made in the three sessions, and frame them in the overall objectives of the symposium.</p>
+
+  <p>And we can even start a bit ahead of time I would say, a couple of minutes before time. So for the first session I'm delighted to introduce our Moderator, Josh O'Connor from the W3C.</p>
+
+  <h2>Session 1: Scope of Accessibility Guidelines (moderator: Joshue O'Connor, W3C)</h2>
+
+  <p>>> JOSHUE O'CONNOR: Thank you. I'm happy to be here with you all to discuss some excellent research and to talk about future opportunities in the area of accessibility which is really, really interesting and exciting. For a brief introduction, my name
+    is Josh O'Connor. I am in emerging web accessibility technology. I work with the accessible platform architectures group and research questions task force where we look at these interesting and emerging areas to figure out how we can best serve the
+    People with Disabilities.</p>
+
+  <p>
+    I am happy to introduce this first session. We are going to have two presentations. And the first is called the Transparency of Automatic Web Accessibility Evaluation Tools. And that's going to be from Fabio Paterno, who is the research director at CNR
+    ISTI, where he is leading the laboratory on human interfaces and information systems.
+  </p>
+
+  <p>
+    One of his topics has been addressing for a long time the design of tools for supporting accessibility validation. So it is a very important topic. Fabio, I'm going to let you get started with your presentation. And I'm going to call you down to two minutes
+    before it is over so you can wind up on time. We will keep everything, you know, concise, brief and on point. And then we will have a discussion and questions at the end of the two presentations.
+  </p>
+
+  <p>So Fabio, over to you.</p>
+
+  <p>>> FABIO PATERNO: Thank you. Can you see my screen?</p>
+
+  <p>>> JOSHUE O'CONNOR: Yes, we can.</p>
+
+  <p>
+    >> FABIO PATERNO: Okay. So good afternoon. We are happy to be here to discuss with you the transparency of automatic web accessibility evaluation tools. We would like to explain why we think this topic is particularly important. We would like to propose
+    some design criteria that can be used for tool designers and developers to better address disaster and discuss the current state of architecture.
+  </p>
+
+  <p>
+    So let's say that our resource laboratory has experienced other designing tools for accessibility evaluation. And the last result is the MAUVE++ tool. So this is a web application, publically available which supports validation of the WCAG 2.1, in particular
+    supports validation with a number of success criteria and techniques. It also has a community, about 2,000 users who are registered in the so they can perform validation, multiple pages and so on.
+  </p>
+
+  <p>
+    We also have recently experienced in the European Wadcher project. We are involved in the design phase of such tool. I pitch at University the digital degree, one of the parts is dedicated to use various tools for performing accessibility validation,
+    which provided, you know, a number of interesting observations during such exercises. So let's say generally speaking, there is an increasing interest in public organization about accessibility guidelines because of national registration, the European
+    web directive, and similar initiatives. On the other hand, performing accessibility validation becomes more and more complex, since, you know, for example, the WCAG 2.0 success criterias and many more techniques.
+  </p>
+
+  <p>
+    So, of course, we are aware that accessibility validation is something that cannot be fully implemented. It is also clear that this increasing complexity have some thematic support can help in collecting the relevant data, detecting noncompliance, providing
+    relevant information for addressing the possible problems.
+  </p>
+
+  <p>
+    Indeed I mean possibilities to put forward in the recent years. So if we look at the W3 list of tools and we can find 159 tools. And, of course, such tools have to address the challenge of continuously evolving guidance, technology that we use for implementing
+    websites that are changing continuously as well.
+  </p>
+
+  <p>
+    So let's say that it became important to try to better understand what the user experience is when using such tools. So we had some direct observations in various context, interviews, questionnaires. If so we start to collect some information about issues
+    that people often encounter. They say that often I mean there is not the right expectations, especially at the beginning about such tools.
+  </p>
+
+  <p>
+    So maybe at the beginning several people think oh, this tool will I will be able to press a button and I will get a complete validation. And then they soon get frustrated because I mean they get results, which sometimes are not clearly explained. So to
+    some extent we are in contact with problems that people encounter with AI technology. Recently there is a lot of interesting, explainable area. People get some results and don't understand why they get similar results.
+  </p>
+
+  <p>
+    And in particular one aspect that often is that they try different tools they often get different results. If they look at them more carefully, they understand that they cover an area. They may also interpret differently same techniques. And such differences
+    can really generate a number of misunderstanding, also considering that there are different types of users who look at accessibility from a different perspective.
+  </p>
+
+  <p>
+    So let's just say what do we mean by transparency. So we say that we mean the ability of a tool to actually indicate with users what accessibility aspect it is able to validate in a precise manner. And it is able also to present explanation of the information
+    that the tool users regarding the results of such validation.
+  </p>
+
+  <p>
+    And we think that if this concept is fully supported, it would be many benefits for users because they can make more fully informed decisions about the accessibility validation, by having a more clear understanding of how such a tool works. So they can
+    also better understand why in some cases they provide different results. And it can also be useful for tool developers because they can better identify the gaps that they probably need still to address in the future or new tool developers can think
+    about, you know, new tools that they are able to cover such gaps. In general we notice this is understudied. There is not a lot of attention, even if it addresses a common thing for many people.
+  </p>
+
+  <p>
+    So let's say we would like to propose some design criteria that can be useful to support this concept. So first of all, we think that all the validation tools should be not only to indicate the start of the support, but also in a more precise way what
+    criteria, techniques they actually support. Because in this way people can understand what they can do. But they can also understand what they cannot do. They should be clear to what they are not able to validate.
+  </p>
+
+  <p>>> JOSHUE O'CONNOR: Sorry. You have two minutes please.</p>
+
+  <p>
+    >> FABIO PATERNO: Another aspect of how such accessibility results, following the commonly recognized vocabulary, for example, one of the standards. It is important today that indicate a different granularity to a level of accessibility. From small elements
+    until the accessibility of the entire website. They should be able to indicate results that are meaningful for people with different disabilities in terms of knowledge of the technologies. Should be able to indicate which pages should validate or
+    not. So we started an analysis. There is no time to report on it. And we also have some empirical data to survey in user test.
+  </p>
+
+  <p>
+    And we can say that there is still a lot of work to do. We focus in particular on tools that are publicly available and are free. And these kind of design criteria are not yet fully supported. So we really think that there is a need to improve the tools.
+    And also from the user's side I think it is important to be aware that accessibility is a complex concept. So, for example, when public organizations want to address it, they should dedicate time and efforts of actually addressing these type of issues.
+  </p>
+
+  <p>
+    So we say that we are also planning to write in our paper where we wanted to detail our analysis. We can have some documentation that can be helpful for people who are interested in this kind of aspect.
+  </p>
+
+  <p>So if I understood the time is over. So I show</p>
+
+  <p>
+    >> JOSHUE O'CONNOR: That was great. Thank you very, very much. Thank you for your presentation. Perfect on time. We look forward to discussing it after the next presentation. So please anyone with any questions that you may have for Fabio or items to
+    discuss, please put them in to the chat and we can go over them at the end of the session.
+  </p>
+
+  <p>
+    So that's wonderful. The next session I'm is Are Best Practices Best? Making Technical PDFs More Accessible. And this is led by Seth Polsley. So Seth is a Ph.D. student at Texas A&M University. And he works in the sketch recognition lab that applies machine
+    learning in AI. So Seth, are you ready to go?
+  </p>
+
+  <p>>> SETH POLSLEY: Yes. Can you see my screen?</p>
+
+  <p>>> JOSHUE O'CONNOR: We can. Excellent.</p>
+
+  <p>
+    >> SETH POLSLEY: All right. Very good. I will go ahead and begin then here. All right. Hello, everybody. As you heard my name is Seth Polsley. I am a Ph.D. student along with my coauthor Amanda Lacy. We are both at Texas A&M University under our research
+    advisor Tracy Hammond. Today I want to talk a little bit about our experience working with PDFs in the technical space and some ideas and practical guidance that came out of that. I will hop in to it, Are Best Practices Best? Making Technical PDFs
+    More Accessible. I'm sure that everyone is familiar with the introduction, how access to technical information can be a significant challenge for anyone who has a visual impairment. And part of this is because we have a reliance on figures and charts.
+    And there is also some authors who don't put that information in text form very well.
+  </p>
+
+  <p>
+    And also common formats that are used like PDFs can often be missing tags. And there is also a lot of limited software support to supporting tags as we see in PDFs as we will see. The mathematical nature of scientific public nature lends itself to technical
+    notation and complex spatial relationships which can also lead to difficulty consuming that content.
+  </p>
+
+  <p>
+    So we're kind of motivated to look at this specifically from a technical paper and conference perspective. I myself serve on the Accessibility Committee for ACM UI this year. And we have been, would the practices that come out of SIGCHI access to promote
+    more accessible materials for attendees and for our viewers. And there are many, many great guidelines that come out of SIGCHI. They mirror quite closely some of the WCAG guidelines for PDF accessibility and so on.
+  </p>
+
+  <p>
+    However, that still doesn't necessarily work with a lot of the software our authors are using. If they use a tool like LaTeX or overlay, it might not be generating the right type of document. We have noticed recently how some of the practices and policies
+    can impact the accessibility. So, for instance, line numbers is what I'll start a motivation around. Amanda and I were working a paper that we submitted to SIGCHI a month and a half ago. On the slide here, I have brought up a slide which has kind
+    of the CHI format. It has the title, author and then an abstract. And I'm just using text that comes from the first paragraph of A Tale of Two Cities.
+  </p>
+
+  <p>
+    So I'm going to have the computer read the kind of opening of this where you have the author. And the first line it was the best of times and it was the worst of times. I'm hoping my audio is working so people can hear.
+  </p>
+
+  <p>>> It was the worst of times. It was the age of wisdom.</p>
+
+  <p>
+    >> SETH POLSLEY: That flows pretty well. What we did was when our paper had line numbering as requested this is what Amanda would hear when she ran it through voiceover, in particular as the screener she was using. >> Charles Dickens. >> SETH POLSLEY:
+    So that's a snippet of what Amanda was hearing. We quickly realized that this was impossible to parse. The line numbering interferes with the text. And you will notice it didn't even say it was the best of times. It was the worst of times. It skipped
+    to a later part of that first paragraph because the line numbers confused the reader software. So the suggestion to see Adobe Acrobat Pro. It does an excellent job of applying automatic labeling and ordering. Which if you have a compatible screen
+    reader, it will read properly. But we took this document and Amanda ran it through voiceover and she got the following.
+  </p>
+
+  <p>
+    So realized this is a software limitation. It is Apple's fault that we don't have full support. I use Apple for most of my needs. That got us thinking why can't she use the software she wants. So we started to talk a little bit about practices that would
+    make it easier for people to use the software they have right now as we prepare for better support in the future.
+  </p>
+
+  <p>
+    So one of the things we did was remove the line numbers. And that allowed Amanda to have a local copy that she felt very comfortable reading.
+  </p>
+
+  <p>
+    So part of the larger motivation for this as well is that we noticed it is not just our experience in this particular space. But there is broadly recognized a gap between those of visual impairments and those with disabilities. Fewer blind students are
+    pursuing technical degrees relative to their peers. And we know that accessible resources for teacher awareness are improving but there are still ways to go. We believe that improvements will be realized. We are very optimistic that there is so many
+    wonderful things being developed, but we are kind of looking at the meantime, we are thinking for conference organizers accessibility Chairs when we deal with these documents what are the things we can do to help everyone right now and how do those
+    lead in to ideas for future improvement.
+  </p>
+
+  <p>
+    So that kind of goes back to the example I gave earlier which is encouraging that authors think about what the plain text of your document is like. So you can still include image reformatting but thinking about how you present the material in the paper,
+    I kind of created a little image here that talks about document based structure. What I have here is a left to right image. It is in access of the accessibility of the basic structure of a document which is a plain text part. If you take away the
+    headings, take away the images and just some sample PDF layouts, not even any text really. Just placeholder text. Kind of most difficult for average software is things like double column with line numbering. Whereas a little more easy a single column
+    with line numbering and much easier is single column with no line numbering.
+  </p>
+
+  <p>>> JOSHUE O'CONNOR: Two minutes.</p>
+
+  <p>
+    >> SETH POLSLEY: So in talking about these writing practices we are encouraging that authors think more about a plain text site. When they add imagery, think about clear text and more descriptive captioning and suggesting that authors explain algorithms
+    so all the stuff you need is in the text as well as providing easy to read and plain language criteria for any guidance. I want to take this to support Jason White had pointed out there is a lot of documentation about pushing for better standards
+    for tactile graphics and personification approaches. And there is a lot of great material that will be developing in that area. I'm excited to see those standards.
+  </p>
+
+  <p>
+    And we are interested on kind of the research and development side now. Just to finish up with that part of it, we're interested at looking at publishing algorithms that will do content tagging with vision based purchases since most of the ones out there
+    are proprietary as well as developing open source tools that use. Instead of just detecting if tabs are missing we can provide a freeway to locate those and add them. I want to close on opening the discussion about standards and how we can move that.
+  </p>
+
+  <p>
+    So one way we thought about it file upload types can be expanded to support more flexible types of submission. Just like right now when you upload a file, there is like a multi document upload option. Perhaps we could have an alternative form of a file
+    so we can support a more plain text version. Another thing about generating text, I found in an old standard of WCAG offline browsing guidance about generating a single download of a website. And I thought offline browsing is not useful for the majority
+    of people browsing the Web. However, the idea may still be relevant for document download. So maybe we can have guidance for when you have a source document how do browsers enable you to download different versions of that source document.
+  </p>
+
+  <p>
+    So I wanted to close with that. And I want to go in to discussion now. But this is kind of where we were thinking and this is also, I will mention briefly what we are directing towards SIGCHI and how we can integrate these practices in the future ourselves
+    for authors.
+  </p>
+
+  <p>
+    >> JOSHUE O'CONNOR: Thank you for that. Yes, lots of interesting food for thought. Seth, we may open up the discussion part of this session now. And if it is okay with you, I may stick with you because you are up. And then we can hopefully, you know,
+    have some discussion around this.
+  </p>
+
+  <p>
+    So I think one of the things, just to open it, and we do have a question in chat. One of the things that's an issue is the availability of tools that are used to create accessible PDFs. And there is a little bit of a monopoly really on that to be brief
+    and succinct about it.
+  </p>
+
+  <p>
+    I guess, you know, Acrobat Pro is the primary tool to use with these products. And I think though is that something that you think is a challenge and if so, what type of substantial challenge it takes when these tools, particularly from an accessibility
+    perspective don't play nice in terms of what accessibility tags or aspects are supported or not.
+  </p>
+
+  <p>
+    >> SETH POLSLEY: Yes. Thank you for that question. So definitely the software side is a big part of the challenge. And I'll pick on Apple one more time. Because and full disclosure, Amanda is also here in the discussion. I believe she will be chiming
+    in as well. She works with Apple as a tester. So we pick on them a little bit because she submitted log reports to them. But their software revised for preview, which is their PDF reader, is based on a very, very old PDF technology. So a large part
+    of the software is that they have to essentially rearchitect the underlying PDF support so they are able to bring better tagging support across preview, not in order to read tagging but to put in write tagging. If you look at it from the company perspective
+    it is a massive undertaking in order to go through a whole system level and replace this type of document structure to add that support in.
+  </p>
+
+  <p>
+    And I think that's where Adobe has been successful. I know there are a few other readers. Editing is limited to one or two models. But part of what we kind of want to encourage is more of an open standards on. So there are open standards in how to use
+    tagging and handle tagging. But we haven't found good open source tools with LaTeX to compile tagging or to post process a PDF and just add the labels and the tagging after the fact without paying for a larger subscription. We are hoping open source
+    can be a way to develop that.
+  </p>
+
+  <p>
+    >> JOSHUE O'CONNOR: Right. And thank you, Seth. And also just to please if raise your hand in the Zoom channel if you want to ask a question also please. So I mean I suppose to play devil's advocate it is PDF is an open standard. They do publish the standard
+    itself. So it is something that can be developed on, built on. What I'm hearing and what we know in the community is that access to tools that can generate quality accessible PDFs are at a premium is not suppose what we need in the accessibility community.
+    We should have as you say open source or access to tools that are maybe more accessible with the small "a" in terms of no cash money to create PDFs. And that will be something that will be broadly welcome. There was a question as well about the ePub,
+    Seth, as well instead of PDF for accessibility.
+  </p>
+
+  <p>
+    And also I was thinking of ePub in the context of you mentioned being able to download offline type of resources and some kind of manifest type resource that can be used in ePub. What are your thoughts on how ePub is handled in terms of contrast with
+    PDFs?
+  </p>
+
+  <p>
+    >> SETH POLSLEY: So another great question. I'm also not an ePub expert, but I think an ePub version would be a great alternative. One of the wonderful things of ePub the format is great. I have found ePub to have better support. PDF is an open standard,
+    but the document itself is a graphical document. So it relies heavily on placements on a screen and it is graphical in nature. And the text is kind of a typographical placement. Whereas something more like ePub is text first. Thinking about writing
+    more plain text, having a clean document structure. Having your text be the first citizen of that document.
+  </p>
+
+  <p>
+    >> JOSHUE O'CONNOR: Absolutely. And then with the semantic supports that are inherent within ePub as well out of the box. I think a couple of interesting things, I don't see any other comments. There was a request to return to slide 13 actually on your
+    deck. Please I'm not sure
+  </p>
+
+  <p>>> SETH POLSLEY: Yes.</p>
+
+  <p>
+    >> JOSHUE O'CONNOR: Thank you. So I guess a couple of things I would like to add to this also, I mean one of the things that was mentioned is, you know, how assistive technology parses PDF content. And you gave a couple of good examples there, differences
+    between one platform over another, how certain things might be output by a particular agent such as a screen reader. I did want to mention some work that's ongoing in the W3C in the areas of pronunciation. I want to put that in the chat. There is
+    work ongoing in to the area of ensuring that, for example, pronunciation in the context of any kind of content, but mostly HTML content. But that's something that's dealt with. Is work ongoing with mostly HTML but other document formats whether it
+    is PDF or ePub.
+  </p>
+
+  <p>
+    These are issues for users and things they particularly need and require. How should customize outputs or have a library of personalized content that they need to be outputted in a particular way? I see Jason with his hand up to speak to this very thing.
+    And then we will take the comment from Jason and then we will move over to the first presentation as well, if that's okay. Jason, over to you.
+  </p>
+
+  <p>
+    >> JASON WHITE: Thank you. So I tried to insert in to the chat, and I'm not sure whether I succeeded at it, a link to a specification from the PDF Association which is a standardized way of converting tagged PDF in to HTML. And people in the LaTeX community
+    are becoming quite interested in that because they have a large project underway with funding to integrate tagged PDF generation in to their type setting system. So what's interesting about it when I have reviewed the specification is that, first
+    of all, one could use that as a way of deriving a readable HTML file, people who are developing type setting systems can make sure use of that as part of their processing arrangements.
+  </p>
+
+  <p>
+    But also it seems to me there could be scope for cooperation with some of the digital publishing accessibility efforts that have been working on ARIA digital publishing roles and some of the mathematics accessibility work that's going on in the W3C at
+    the same time. How do we integrate the different efforts that are under way in such a fashion that the Web based format such as HTML, MATML and ISO standard PDF format is able to fit appropriately in to the overall accessibility architecture that
+    we have? And those are important questions. Yes, and I agree that more free and open source tools in this area would be a good idea, especially for projects like LaTeX that are entirely operating in that area.
+  </p>
+
+  <p>>> JOSHUE O'CONNOR: Thank you, Jason. Seth, I'm curious to hear what you want to say in response to that.</p>
+
+  <p>
+    >> SETH POLSLEY: I have a very brief comment. I know you would like to move on to the next paper. That's a really good point. And CHI itself has done a good job of encouraging authors to upload the raw source which is a model for a lot of the conferences
+    moving forward. Authors are sometimes reluctant to release the full source. The thing we can get out of the source is much, much richer generation including the HTML math. I like this idea of post processing out of PDF. HTML is a much more flexible
+    standard I would say than PDF.
+  </p>
+
+  <p>
+    >> JOSHUE O'CONNOR: Sounds great. That sounds really, really good. So Jason did good work there joining the dots for Seth and some things for further exploration. And Jason is our task force leader and research for W3C which is the task force of the accessible
+    architecture platform. So that's really, really great. Thanks very much, Seth. If it is okay we will move back to discussing the first paper, if that is okay.
+  </p>
+
+  <p>
+    Because we have had two presentations. And the first was from Fabio Paterno. So a couple of things that came out of that presentation, a couple of things that come to mind would be one was the issue of transparency and what does transparency mean in the
+    context of these tools.
+  </p>
+
+  <p>
+    Because on the reading of your research I was trying to think well, transparency could then this in one context and what standard is something being tested against. What output is the tool producing. We know from an accessibility testing that different
+    tools have different nuances. And they may emphasize, overemphasize or underemphasize certain things. But something that came to my mind was a broader question about the realistic expectations from automated accessibility testing. And, you know, do
+    you feel that people have got a realistic view of what they can expect from these tools. And if you would like to speak to that, and if anyone else has any comments or questions, please do put it in to the chat or put your hand.
+  </p>
+
+  <p>
+    >> FABIO PATERNO: Yes. So we make the reference, type of accessibility issues from very different perspectives, viewpoints with different expectations. So I say that it is really it is really not already clear what these kind of tools can provide. And
+    I mean probably also if you look at the list of the W3C provides, to some extent, but not complete. So probably something more specific on transparency aspect would be helpful in how people can filter the list of tools so that people can have a more
+    clear understanding with the tool provider, precise information about what they can do and what they cannot do. There are some tools that say oh, we support WCAG 2.1. But unfortunately, WCAG 2.1 means a lot of things. And so I mean the right expectation,
+    people need to understand what are WCAG 2.1 are really able to support.
+  </p>
+
+  <p>
+    And this is true also for the results. Because, for example, there are people who develop. So they have an expectation that in order to correct them, while there are people, for example, the Web Commissioner in the public organization, just mainly wants
+    to understand is my website at a sufficient level of accessibility. They are more interested in receiving some kind of metrics that provide overall estimation of the accessibility. And so there is a lack of indication about what matrix can be more
+    relevant and more informative depending on the type of users that can be in such tools.
+  </p>
+
+  <p>
+    So and also the part about the dynamic Web page support, because some tools say okay, this website is fine but they check the static version of the website. They don't check the part that is reading the browser that people interact with.
+  </p>
+
+  <p>
+    And there is sometimes a big difference, for example, when people develop frameworks such as angular. But also the fact of the various interactions, various really change a lot the content of a Web page. So people don't know exactly what version of the
+    website has been validated. And so they need to be more informed about the differences and also the differences in terms of the associated results. So it is really a lot of work. It would be nice also if W3C can try to address some kind of initiative
+    to twilight, for example, to make people more aware of these various options that can be available when validating a website with the support of an automatic tool.
+  </p>
+
+  <p>
+    >> JOSHUE O'CONNOR: Thank you. Just briefly, and we have a couple of comments and questions. W3C's role in this may be slightly different from what people expect. Because people can create their own tools based on common rule sets and W3C people create
+    a tool on a common toolset which we know is WCAG and various versions of that. How they choose to display the outcome of those tests and how they choose to abstract from them, it is up to them. W3C sets the standards to define the rule tests. So I
+    think there are two different things. It is a comment I would have.
+  </p>
+
+  <p>
+    There is a question from Carlos because he mentions that WCAG 2.2 plans to introduce test rules and he puts ARIA in. He asks if you believe this will increase trust in tools that demonstrate conformance to these rules. I don't know if you are familiar
+    with the link he has put in, but maybe you would like to speak about that.
+  </p>
+
+  <p>
+    >> FABIO PATERNO: Yeah, you mean the ACT rules. Of course, they are used for contribution because at least they provide some guidance about how to check some specific technique. Because there is also this problem. In some cases some tools say okay, yes,
+    we support these. But then in practice they support it in a different manner. So they may still provide different results. From this viewpoint I think yes, this can be a useful support especially for tool developers. Still I mean there is the issue
+    to provide representations about how the tool actually performs the validation that can be understood also by people who are not technical. Because so maybe in some cases this kind of documentation is okay for developers, less understandable by people
+    who are just users of the Web application and so on. But yes, this can be something that can help in providing more consistent validation.
+  </p>
+
+  <p>
+    >> JOSHUE O'CONNOR: Okay. Great. I touched then on the need for understanding and potentially training. And there is another comment from Estella about you didn't mention in your presentation the need for training. Do you think that training in the field
+    is needed? And if so, what are the skills that are needed? If you would like to speak about that.
+  </p>
+
+  <p>
+    >> FABIO PATERNO: Yes, unfortunately, what we noted, because this registration. So many public organizations say okay, we have to check the accessibility of our website. But then they have some internal people who work on it. They have already limited
+    time available. They may have to work at the end once the website has been implemented. So there is little room for modification.
+  </p>
+
+  <p>
+    It is real important training but I will say, too, training. So one is to try to let, you know, the people direct, I mean the such web applications to understand that, you know, accessibility is not a trigger map. Disability means a lot of has a lot of
+    implications.
+  </p>
+
+  <p>So I think resources in order to address it.</p>
+
+  <p>
+    Then I mean for the training, one aspect of that we have to consider that also the training should take in to account the role of the potential users because again I mean on the one hand you have developers. So people want to be trained about how to modify
+    the implementation or the and then we have the training for say more generally users. So they want to have a more understanding of these results that such tools can generate, what they mean in practice. For example, how they are related to the real
+    end user experience, for example, for people who have some disabilities. So I say yeah, training but should also target the various types of roles that can be relevant in this area.
+  </p>
+
+  <p>
+    >> JOSHUE O'CONNOR: Very good. It is a good point which leads in to a comment we got that was a previous question asking about, you know, the user experience, and the quality of the user experience. I mean we know the standards conformance is one thing.
+    And it is easy or shall we say possible to create things that are technically accessible but not particularly very useable. Whereas we have to have that emphasis on good usability also in technical accessibility. And we know that this is this is being
+    looked at in WCAG 3 and in factoring in these aspects.
+  </p>
+
+  <p>
+    A nice transition to the next presentation. Yes. Thank you very much, Fabio. And thank you very much, Seth. And to everyone who contributed to the session. It is very interesting.
+  </p>
+
+  <p>
+    And there will be further discussion at the end. And if people have other questions or comments relating to the sessions, please put them in to the chat. And we can wrap all of this up hopefully nicely at the end. So I guess yes, thank you both.
+  </p>
+
+  <p>
+    So we are now at the end of the first session pretty much. And so the next session coming up I'd like to introduce Jade from Open University. So the next session we will be talking about education and accessibility. And looking forward to that. So Jade,
+    are you set up to take it from here?
+  </p>
+
+  <p>>> JADE MATOS CAREW: I think I'm set up.</p>
+
+  <p>>> JOSHUE O'CONNOR: Great.</p>
+
+  <h2>Session 2: Education (moderator: Jade Matos Carew, Open University)</h2>
+
+  <p>
+    >> JADE MATOS CAREW: Okay. Hi everyone. My name is Jade. And I'm based at the Open University in the UK. I look after the accessibility and evaluation accessibility and usability evaluation team here at the OU. I'm also a participant on the Education
+    and Outreach Working Group alongside Carlos and Leticia. And today I'd like to introduce our two speakers for the education session. Firstly, Armony Altinier, who has worked as a digital accessibility consultant and trainer in France since 2007. She
+    founded Koena, a private research center to explore the implementation of digital accessibility in various organizational and intercultural contexts. She is joined by Estella Oncins, who holds a Ph.D. in accessibility and ambient intelligence from
+    the University of Barcelona where she works as a post doc in the field of media and digital accessibility.
+  </p>
+
+  <p>
+    And today they are going to give you an overview of the IMPACT project in the EU, the aim of which was to define skills and competencies and develop a framework for professionals who are engaged in accessibility education. And a real understanding of
+    users' accessibility needs and rights is at the heart of this project. And form the basis of how for the modular curricula was brought together and developed in the second stage of the project. I would like to invite them to give their presentation.
+    And I will give a reminder when there is two minutes to go, if that's okay.
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: Hi everyone. So I'm going to start the presentation. Then I will leave the floor to Estella in five minutes. We are going to talk about training inclusion and digital accessibility. A social need and a human right to us.
+  </p>
+
+  <p>
+    So the context of our project is a question, who is going to implement digital accessibility in Europe. Because we have a new framework that entered in to force on September 23rd, 2020. So it is quite new. But who is going to implement for real? The EU
+    accessibility legislative framework is based at the top on the United Nations Convention on the Rights of Persons with Disabilities adopted in 2006.
+  </p>
+
+  <p>
+    And we have three directives. In the European Union we had the Web Accessibility project adopted in 2016. This one is fully implemented in Member States. Only entered in to force on September 23rd, 2020.
+  </p>
+
+  <p>
+    We have two more audiovisual media service directives in 2018 and the European Accessibility Act adopted in 2019. And it hasn't been implemented in Member States already.
+  </p>
+
+  <p>And then we have a standard, the EU standard EN301549 which is a complicated name. But in reality for the Web section, it's only WCAG, so the Web Content Accessibility Guideline of the W3C. It is really the same.</p>
+
+  <p>
+    So we have all this new requirements. And to quote the European Disability Forum survey of 2019, 42% of users are not very satisfied with the Web accessibility directive transposition and implementations. The maturity of new websites, 80% are found not
+    accessible.
+  </p>
+
+  <p>
+    So who is going to implement everything? So we noticed two types of skills. First, you have cross disciplinary skills, which is which are skills needed for all the digital professionals, product owners, UX designers, developers, editors. It is not a new
+    job. But we identified also specific skills for specific job roles.
+  </p>
+
+  <p>
+    We already know some jobs that are not so new in some countries. We have digital accessibility managers who are piloting the legislation implementation and how it works or their managers. They don't have a lot of time. They have an overview supervision.
+    And then we have WCAG or standard auditors who are taking the compliance with the standards. But the problem with this approach we think we have a missing link. And we wanted to work on that because with this approach we see the standard as digital
+    accessibility as a technical issue.
+  </p>
+
+  <p>
+    And to us it is not a technical issue at all. It's a political and social topic. And we need cultural change. So we are working on creating a new job, which is digital accessibility educator.
+  </p>
+
+  <p>
+    That's the aim of the IMPACT project. The acronym means inclusive method based on the perception of accessibility and compliance testing. It is an Erasmus partnership on higher education. We are five partners. So the coordinator is Koena. It is our it
+    is my company. So we created with this Universitat Autònoma de Barcelona.
+  </p>
+
+  <p>
+    We have four objectives for the IMPACT project. Map the current situation of digital accessibility practices in terms of training and practice. Define the skills framework for a new professional profile, digital accessibility educator/mediator and generate
+    recommendations for digital accessibility. And develop open source training materials.
+  </p>
+
+  <p>
+    We have four stages of the project. First, we address the skills in a skill card. Then design a modular curriculum. Now we are at stage 3, creating open source materials. And stage 4 is creating the certification, European certification. And I give the
+    floor to Estella.
+  </p>
+
+  <p>
+    >> ESTELLA ONCINS: Thank you. Okay. No. Okay. So as a follow up on what Armony has mentioned we divided in the first stage, what we did was an open survey with different or in different languages to understand which was the current situation. The proposed
+    competencies were four. The first one was understanding of digital accessibility. The second one, digital accessibility, context and digital accessibility services. The third one, implementing digital accessibility. And finally in digital accessibility
+    promotion.
+  </p>
+
+  <p>
+    As described in the graphic below, all competencies were regarded mostly as very important. And that's why we proceed to develop according to the ECQA guidelines, which is our certification agency to develop these competencies in to four different units
+    and define the content of the units.
+  </p>
+
+  <p>
+    So the skill types that were developed according to the competencies were understanding digital accessibility and medical accessibility. Base concepts, target groups and needs and accessibility context. The second unit was a digital accessibility context
+    and digital accessibility services. Accessibility services, accessibility tools.
+  </p>
+
+  <p>
+    The third, implementing digital accessibility, so getting started with web accessibility. Accessibility management. We also divided in to toolkits for adults and toolkits for kids, for children because we believe that inclusion and accessibility is part
+    of the education or should be part of the education.
+  </p>
+
+  <p>
+    And finally, digital accessibility promotion divide in to accessibility needs and benefits, stakeholder involvement. And accessible communication because nowadays easy to understand language is something that it covers a lot of fields in the accessibility.
+  </p>
+
+  <p>>> JADE MATOS CAREW: Two minutes left.</p>
+
+  <p>
+    >> ESTELLA ONCINS: Thank you. I am in the conclusion. I'm about to finish. As conclusions, so according to the first according to the first survey that we ran that it issues that there is an international standard. And people from Europe do not know the
+    European standard, the EN301549 which applies to the European Union. So here there is a need for training because people are not aware about this standard. Remains unknown. Then where digital accessibility training is needed and that's why it is needed
+    in the European standard EN301549. And there is also a clear demand and need for training in accessibility in all countries.
+  </p>
+
+  <p>
+    It is true that as this was an international survey, people from Canada and from the U.S. also participated. And their training or accessibility levels might be higher. But in all European countries, there is a training need.
+  </p>
+
+  <p>
+    And also the interesting proposal competencies was done through an online survey. And also we run five different Focus Groups in France, Spain and Ireland.
+  </p>
+
+  <p>So this is it. Thank you very much. You have the slide, you have the e mail address, Twitter and website of the IMPACT project. And if you have any questions we are open.</p>
+
+  <p>
+    >> JADE MATOS CAREW: Thank you so much. Does anybody have any questions before I rudely interrupt and ask my own question? Anyone on the chat? I'd like to ask a question if I can start.
+  </p>
+
+  <p>
+    So in my role at the Open University I look after a team and between us we are responsible for furthering accessibility awareness across the whole University. And I guess the members of my team we all wear different hats throughout the day, WCAG auditor,
+    product manager, trainer, blog writer. So it's all of these roles are really just all kind of blended in to one. And do you see any benefit to that? Or are you really trying to push for separation between these roles? Either of you if you would like
+    to answer.
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: Can I start? Yes. I think you and most of us here are rare birds. And it is really hard to promote cultural change. If we ask for people to have so many different skills, it is really hard. And it takes time. We have another job that
+    I didn't describe is web accessibility expert. But it is not really a job. It's an expertise. Expertise means experience. We have been working for so many years. The problem now we need to accelerate the movement and to include more people, more professionals
+    to become Ambassadors. So digital accessibility educator is like an Ambassador but it is not an expert.
+  </p>
+
+  <p>
+    And I think we really need to separate the skills. It is, of course, it is really precious to have everything combined in one person. But when you leave your University, who is going to take the part? Are you so many in your University? I'm sure you are
+    not. Maybe you, maybe one or two colleagues and that's all. You leave who is going to take your part? Nobody. It is too high level. That's my opinion. I don't know what if you want to complete, Estella.
+  </p>
+
+  <p>
+    >> ESTELLA ONCINS: I agree with what Armony just said. One of the outcomes of the survey is that most of the training is very technical oriented in terms of the digital accessibility.
+  </p>
+
+  <p>
+    And in fact, a lot of the developers do not even understand what does it mean to be a person with a disability. And this understanding level, this is something that Aromony mentioned in terms of cross disciplinarity. This is why it is a modular training.
+    It is not a closed structure because any person can get this content and embed it in their training courses. And see how it matches.
+  </p>
+
+  <p>
+    So this is one of the things that for us was more relevant. That is not only for one single role. It's there is a lot of standards. A lot of technical documents. But at the end we all are related or work with a developer, a designer and they do not understand
+    the standards. And this is what we aim to make it easy to understand.
+  </p>
+
+  <p>>> ARMONY ALTINIER: Make accessibility more accessible. That's the aim of this particular job role.</p>
+
+  <p>
+    >> JADE MATOS CAREW: Absolutely. Just to go back to your point on job descriptions, my team is a relatively new team. And we found it really difficult to write job descriptions for what we wanted. It has been a real trial and error and seeing how the
+    roles and team developed over the past couple of years.
+  </p>
+
+  <p>
+    There is a couple more questions in the chat. One from Sharon. Is there an intention to collaborate with U.S. efforts such as Teach Access? And there is the UK version of teaching accessibility, I got that wrong, haven't I? So they're building their programs
+    in higher ed to integrate accessibility skills. So are there any plans to join up?
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: I think that was the point of this event today, to cross the research. And we already open and I think I can say that for the whole consortium and all the partners we love to collaborate with everyone. So yes, why not. But we didn't
+    have time yet. But we are really open to that.
+  </p>
+
+  <p>
+    >> JADE MATOS CAREW: Estella, do you want to add anything there?
+  </p>
+
+  <p>>> ESTELLA ONCINS: No. We are open for collaboration. One of the aims of the project, it is resilience. The project goes beyond the scope. So it is a three years project but then collaboration, I agree with Armony.</p>
+
+  <p>
+    >> ARMONY ALTINIER: Maybe we will have, we haven't discussed it yet, but IMPACT 2. And another European project to go further. That's possible.
+  </p>
+
+  <p>
+    >> JADE MATOS CAREW: And I suppose that's quite a good point, isn't it? How the project can go beyond and how it can be disseminated amongst higher education providers. Any thoughts on the best way to do that, to expand the reach of your project and how
+    you are communicating your results and your findings?
+  </p>
+
+  <p>>> ARMONY ALTINIER: Do you want to start for once?</p>
+
+  <p>
+    >> ESTELLA ONCINS: Well, we actually part of the project is also dissemination. And that's what we are going doing here, looking for people. I mean to it is not only when you create a project, it is not only about providing results. It is also looking
+    for pictures to establish more sustainable resources. And actually we also use a lot of resources from the W3C from the WAI initiative. So it is not that this is a stand alone project. This is a project which also looks for further involvement, for
+    further collaborations. I don't know, Armony, if you want to
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: Yes. Maybe what is original in this project is that Koena is a private company. We have the support within France with the digital professional trade union. And we really wanted to be something concrete in real life when we work and
+    when you want to have employees. And so we are really we really look for a way to make it to last and to be really operational.
+  </p>
+
+  <p>
+    So that's why we have a job role and a training. Not only a training with skills, we have a lot of skills on the Internet. We can find a lot of things. But we don't understand what it is for. And the purpose is to give direction. It is for this kind of
+    job you can recruit someone in your company to give a job. And he or she will need this skill.
+  </p>
+
+  <p>
+    >> JADE MATOS CAREW: Thank you. We have one more question I think from Carlos about what about mobile accessibility? So obviously the EU demands this as part of the legislation. Will the roles will you consider that in proposed roles? It is kind of quite
+    a challenging area. And my team certainly struggled with it last year, this year to meet the deadline that was imposed upon us. Do you have any comments about how you are going to incorporate that in to the roles?
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: We talk about the EN standard, the EU standard. So it is about mobile. But it is about everything that is digital. So not only web accessibility, and the digital accessibility educator won't be an expert on an editor. So we don't need
+    to give him or her technical skills. So yes, of course, they definitely will we will talk about mobile accessibility, too.
+  </p>
+
+  <p>>> JADE MATOS CAREW: Estella, any comments?</p>
+
+  <p>
+    >> ESTELLA ONCINS: Yes, as Armony just said, it is not about a single role. It is about a person with a broader notion without being specific on a particular topic. So most of the times what happens is that you don't have a contact point for accessibility.
+    And this is something that's needed. Somebody who has a broad vision of what happens, what needs to be taken in to consideration without being able to provide a specific, but detecting. Most of the times the detecting an accessibility problem it is
+    more relevant than solving the problem. I don't know, but this is I don't know if you agree, Armony.
+  </p>
+
+  <p>>> ARMONY ALTINIER: Yes, I agree.</p>
+
+  <p>
+    >> JADE MATOS CAREW: There were a couple of questions which were on the Forum, I think we have got time for maybe one more. How can we create an accessible design culture in a team where there is no diversity? So perhaps a little bit tangential. Do any
+    of you have any comments on that? It is important to talk about the team roles and furthering education around accessibility and their teams and the organizations.
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: I'm not sure to understand the question.
+  </p>
+
+  <p>>> JADE MATOS CAREW: How can we create an accessible design culture in a team where there is no diversity.</p>
+
+  <p>
+    >> ARMONY ALTINIER: Yeah. By training. And by including users, end users I think in the process and by working on the process. Not only on the specific task of each person and we need to change that. Everyone has the same culture and no diversity. They
+    need to include diversity. And they need to understand they need diversity. And that's one of the jobs of the digital accessibility educator. Because it is a cultural change.
+  </p>
+
+  <p>
+    >> ESTELLA ONCINS: Actually just to add something, we have our team in the project, it is diverse. So we have people with different abilities. So we already included people with different abilities within the creation process. So this is something that
+    is already embedded in the model or curriculum this we are designing.
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: Thank you to mention that. I forgot. That's a natural to me. But, of course, we have People with Disabilities. We have people without disabilities in the consortium, of course. We are diverse with different cultures, different countries,
+    different languages, different abilities. So yes, that's so important.
+  </p>
+
+  <p>
+    >> JADE MATOS CAREW: We are nearly out of time. And I had overlooked a question in the chat about another standard commissioned by the European Commission EN17161. Has this been looked at as part of the project? Our comment here it is more like a management
+    standard.
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: We didn't include it in the project yet. But we are going to check. I don't know if you had this in to your scope, Estella.
+  </p>
+
+  <p>
+    >> ESTELLA ONCINS: Yes. Thanks, Mia, for asking that. I know that you are already very involved in all the design for all. Actually the standard in itself is not considered within the project. But all materials are concise, considering design for all
+    approach. So as you mentioned, so the difference between the EN301549 it is a very specific standard with very specific targets and notes. It is very linked to the WCAG guidelines, with success criteria which is not the case of the EN design for all
+    standard. Another issue is that the standard that you mentioned is not for free. Which this is something that the EDF is fighting for, affordable standards. But with the part from the design for all approach, that's for sure. It is already mentioned.
+  </p>
+
+  <p>
+    >> ARMONY ALTINIER: We have a unit about management. So it could be a resource in reference but it is not open source. So that's a problem. But yes.
+  </p>
+
+  <p>
+    >> JADE MATOS CAREW: I think we are going to have to stop because we are due a bit of a break. So thank you both for your presentation and answering the questions today. There are a couple more comments in the chat. Feel free to continue the discussion
+    on the Forum as well. So yeah, I think I might hand back to Carlos now.
+  </p>
+
+  <p>
+    >> CARLOS DUARTE: Thank you, Jade. And thank you, Josh, for those two sessions. Very interesting. And we are now going to have just a short break. A 15 minute break or a little less. We will be back at 20 to the hour. See you in a while. (Break).
+  </p>
+
+  <h2>Session 3: AI/ML contributions and limitations (moderator: Jason White, ETS)</h2>
+
+  <p>
+    >> CARLOS DUARTE: All right. Welcome back, everyone. I hope you enjoyed your coffee. And I think we are ready to start our third session. This one will be focused around AI. And I'm delighted to introduce Jason White from Educational Testing Services
+    as our session Moderator. Jason, the floor is yours.
+  </p>
+
+  <p>
+    >> JASON WHITE: Thank you, Carlos. So yes, so I'm at Educational Testing Services where I work on a combination of standards and scholarship related to difficult problems in accessibility including emerging technologies, and making accessibility better.
+    And thereby improving the capacity of People with Disabilities to take full advantage of educational opportunities. And I'm also A cofacilitator with Scott Holera of the Accessible Platform Architecture Working Groups research questions task force.
+  </p>
+
+  <p>
+    We have three presentations as part of this session, and they are all broadly connected with the theme of Artificial Intelligence and machine learning. Let's proceed with the presentations in succession and keeping each to ten minutes. And we can broaden
+    the discussion and consider them all in the context of recent developments in machine learning and neural networks and the role in accessibility.
+  </p>
+
+  <p>
+    So the first presentation then is entitled Unreasonable Accommodation Web Experiences as a Blind Person. And there are several authors. And it is going to be presented by Amanda Lacy who is a Ph.D. student in the sketch recognition lab at Texas A&M University.
+    She previously received a bachelor's in computer science from the University of Texas at Austin. Her research is focused on digital accessibility and remote learning.
+  </p>
+
+  <p>So I'll hand it over for a ten minute presentation.</p>
+
+  <p>>> SETH POLSLEY: Amanda, are you there and able to share your screen?</p>
+
+  <p>
+    >> AMANDA LACY: Yes, I am about to start screen share. Yes. Testing it for a very long time, since I'm congenitally blind. I'm very new to research though. So I would like to show you a little bit of what I think I have learned so far. The problem as
+    I understand it is that most of the web is still largely inaccessible. I know this from experience. And also the technologies are also fast, that they become obsolete before they have a chance to be made accessible. There is just not enough time.
+    So I'm going to show you what this means. Sometimes with descriptions, sometimes with video and give a sense of the amount of time that it wastes and frustration that it causes. And these are concrete examples that you might expect to encounter if
+    you are a grad student. Like registering for classes. I'm not going to show this one. I'm going to describe it because everyone's registration site is a little bit different.
+  </p>
+
+  <p>
+    So spending about two minutes and 40 seconds searching through a bunch repetitious text, I had to navigate some more. Then I had to accept the terms of service again and that took three minutes and 55 seconds. I got caught in a loop. I kept pressing continue
+    and it would take me to the previous page. When I needed to press the continue button after that and I had to enter more information and that was five minutes and 14 seconds. And I didn't get finished with that.
+  </p>
+
+  <p>
+    So you might get invited to play a game of Kahoot. You want to tell the person who created it because you in the game settings is a the default setting is to keep the text of the questions and the answers hidden from the players. You have to enable it
+    to be shown. They say that it is a but they leave it that way. And I think that maybe there should be a standard that says given two defaults or possible defaults pick the one that is more accessible.
+  </p>
+
+  <p>This one does have a video. I will play it. (Video).</p>
+
+  <p>>> Gather.Town using a screen reader. Because this is for doing poster sessions and things like that virtually. I'm going to press join.</p>
+
+  <p>>> AMANDA LACY: So the goal of this is I'm trying to join a poster session.</p>
+
+  <p>>> The first page, says the and that's clickable. Clickable accessories.</p>
+
+  <p>>> AMANDA LACY: I'm baffled by an Avatar creator.</p>
+
+  <p>>> One of these aren't labeled. Clickable, clickable, clickable. I'm pressing the next step button. My name is and entering my name.</p>
+
+  <p>>> AMANDA LACY: Most of this time I'm hitting the tab keys or error keys or enter and space.</p>
+
+  <p>>> I'm going to press join the gathering. Activate the button. For some reason down at the bottom of the page it tells me it can't access my camera. If I move up, and I said I have to press your name, right?</p>
+
+  <p>>> Yes. If you want to follow you have to press my name.</p>
+
+  <p>>> If I want to follow you I am going to hit enter on your name. So I have done that.</p>
+
+  <p>>> Now I can tab. I think it is up to it was back. Send message.</p>
+
+  <p>>> Do you want me to send message?</p>
+
+  <p>>> It is in that modal.</p>
+
+  <p>>> I can't find this at all.</p>
+
+  <p>>> I'm not sure why it pops up where the</p>
+
+  <p>>> I keep pressing it.</p>
+
+  <p>>> I think you tab to get to send a message. Then you can scroll around inside that.</p>
+
+  <p>>> So pressing message. With the arrow keys, I have to follow with the arrows and I can't press the tab.</p>
+
+  <p>>> AMANDA LACY: So I have to press arrows or it skips over it. </p>
+
+  <p>>> Now now it is working. That's a lot of work to be able to accomplish that though.</p>
+
+  <p>>> Right. I did a lot of work to get through all the clutter and at the same time I can't I have to be escorted around basically because I don't have any this doesn't give me any information about what it would do if I used the arrow keys to move around.</p>
+
+  <p>
+    >> AMANDA LACY: This one is interesting. I don't have time to show the whole thing. The first thing I happened when I visited the Grace Hopper celebration conference the first button was screen reader mode. I don't know what this does. I use a screen
+    reader. I don't know if pressing it helped me use the site more easily or not. The site was generally very cluttered and confusing. I have to skip over it. The interesting part was that the presenter photos seemed to have been labeled using AI.
+  </p>
+
+  <p>
+    >> Skip forward through some link using control option demand. I will jump forward by link. This is interesting. One minute block, followed by a name and a position. All as one stream. That sounds like a very, very long run on sentence that speaks all
+    at once that doesn't have any pauses because it is a string.
+  </p>
+
+  <p>>> Keynote. Use for accessibility.</p>
+
+  <p>
+    >> AMANDA LACY: Unfortunately all the images were labeled like that. Everyone had some colored shirt on or had a red chair or something. It was very distracting. Unfortunately we are using AI to empower users rather than just describe these things.
+  </p>
+
+  <p>
+    For example, SeeingAI from Microsoft allows me to do image processing and text recognition and seeing recognition, several features. It is an app for the iPhone. Facebook and Apple both have features where they will try to describe what's in an image.
+    Facebook will identify if your friends are in an image, for example. Screen recognition for iOS is really interesting. If I use screen recognition, it can use AI to look at the screen. And from its data identify the controls that are on the screen
+    and label them for me and enable me to use the app where I wouldn't have been able to use it before.
+  </p>
+
+  <p>
+    PaperToHTML is a website that I go to that allows me to read my papers more easily. Because the AI makes them more concise and easy to navigate through.
+  </p>
+
+  <p>
+    I strongly believe that we should be using AI to rescue users from clutter, rather than subjecting us to more clutter. You heard how a cluttered website already was before we inserted that stuff.
+  </p>
+
+  <p>But my only solution in this case was to disable image descriptions all together. I'll show you how I did that right now.</p>
+
+  <p>
+    Mac has a built in screen reader called voiceover. Every computer with Mac OS has this. I'm going to voiceover utility. I'm going to web. Navigate by images. I'm going to turn that to never. So just as part of the problem of clutter in websites involves
+    AI, the solution also involves AI. Just describes in great tools.
+  </p>
+
+  <p>But I don't think that any standards for web accessibility in AI exist yet. I think that the W3C should consider creating some. I would now like to open it up for feedback, questions. I'd love to have discussion about this. Thanks for your attention.</p>
+
+  <p>>> JASON WHITE: We are going to have the questions and discussion, but those will be deferred until all three presentations have been given. So.</p>
+
+  <p>>> AMANDA LACY: Excellent. Thank you. </p>
+
+  <p>
+    >> JASON WHITE: But they're coming up. So let's see, our next presentation is and that was interesting. Thank you very much for a thoughtful presentation there.
+  </p>
+
+  <p>
+    And unfortunately we are pressed for time. So the second presentation is entitled Making Media Accessible to All. And it is going to be presented by Andy Quested, who has been a Rapporteur for the International Telecommunication Union Working Group Party
+    6c. He has chaired several Rapporteur groups including the one that developed HDI TV and co Chair of ITU's joint accessibility group recommendation. In 2015 he was appointed to the Chair of Working Party 6c and initiated new areas of study on advanced
+    immersive sensory media systems and Artificial Intelligence in media systems sorry, in content production. Currently Andy leads standards work in the ITU and in the EBU, that is to say the European Broadcasting Union. So I will hand it over for your
+    presentation for ten minutes on this topic.
+  </p>
+
+  <p>And then we will return. Thank you.</p>
+
+  <p>
+    >> ANDY QUESTED: Thank you. And I hope you can hear me. Apologies for being late to this meeting or missing some of the first session. I was at the ITU meetings themselves. Every time I see someone like the last speaker is I am amazed. We looked at the
+    images to make sure they look good without consideration. So how things are beginning to change is something I'm very passionate about, knowing people who struggle with all forms of accessibility to the web and to what I'm passionate about with the
+    television. What I'm going to talk about today is slightly different to many people in that it is really concerning accessibility of media itself.
+  </p>
+
+  <p>
+    Media is actually a television, cinema, but also Web pages. We all know that the majority of the traffic on the Internet is based around video and audio. And is that accessible. My battle always is how do we make media accessible to all. So for description,
+    I'm a white male. I'm in my 60s but wish, I wasn't. Wearing a T shirt with a headset. And I got a background of the ITU. And my current slide is the two standards or two reports rather leading to standards that we are working on for accessibility.
+  </p>
+
+  <p>
+    The first one is Artificial Intelligence systems for program in production and exchange. And the second one is a collection of use scenarios for current status of advancement of immersive sensory media. They are really interrelated. And the reason they
+    are separate they don't get too large. How could the current advances in technology based on what people perceived as immersivity be used for accessibility?
+  </p>
+
+  <p>
+    The first question I always ask is okay, you want to put this amazing system in my living room with 22.2 speakers. 24 speakers. Can it help me if I have a hearing problem? Or if I need to have clear audio, clear dialogue. Or I can't hear at all. And I
+    need assistance with the haptic enhancement. Do I need speech to text, text to speech? A lot of work being done in AI, simple things like transcript to put programs together. But actually if we do this properly, they are there for accessibility. AI
+    generated presenters can be signers. This is not replacing the signer. This is allowing a signer to be sitting anywhere at home, to sign a program as opposed to having to come in to a signing studio which is immediately limiting the amount of signing
+    we can do.
+  </p>
+
+  <p>
+    Automatic signing translation, how many languages can we get signing in simultaneously. Automated caption translation and automatic language translation. These things are all emerging, sometimes for the very wrong reasons. So we sat down and had a look
+    at some various standards, ISO. The background to this is what do we really mean when we are talking about accessibility. It is not just about what many people call a disability. It is about personalized media. So sensory is about see, hear, taste,
+    smell. Physical is manipulation, touch, move. Cognitive is perceived, understand, language. It is not just about sight and sound. It is about the quality of experience of a program.
+  </p>
+
+  <p>
+    In the EBU and ITU we decided to split down further in to seeing, hearing, participating and understanding. Seeing is a range of options. Hearing is a range of options. We are asking TV and many websites to interact with content. How do you participate.
+    How do you press red on a remote control if you have a motor function issue. And it takes you too long or you need some other device to press red. Understanding is not just about learning disabilities and autism. It is about aging as well. Can a person
+    of 80 or 90 understand the program going at a speed that's produced by a 20 year old?
+  </p>
+
+  <p>
+    This is the scale we came up with. So the slide I'm showing at the moment is four horizontal lines with hearing, seeing, participating and understanding. Each one, if you like, has a marker which you can slide up and down. Left to right. Because there
+    is no up and down in this. There is no good or bad. It is just options.
+  </p>
+
+  <p>
+    So for hearing, for example, I might have a home system with full cinematics. Or I might need dialogue enhancement or dialogue only or I want captions or I want a signer. That's all about hearing. Seeing, can I enhance the video. The color. There are
+    several realtime software devices now that can actually enhance color for colorblindness. Differentiate between red and green, for example. And also chance the difference between edges to be able people to see more clearly.
+  </p>
+
+  <p>
+    Participating is about voice control, any device, hybrid devices, Braille devices. Spoke devices, don't realize that many people actually have devices split for a specific need. But how does that speak to something that's giving data out saying how say,
+    for example, a voice device would work, will it work if it is not a standard voice device. And then understanding your content as made by the producer, simplified dialogue, stretch programs, et cetera.
+  </p>
+
+  <p>
+    All are possible with the technology we have got at the moment. And we start dividing media up in to layers. Again four bars showing essence. And what this means is what makes a narrative accessible. This starts with a script. It doesn't start when we
+    finish a program. The object layer is what objects do I need. Vision objects, audio objects, data objects? All of these make up a program. And an object options layer, what can I change here? How much can I manipulate these objects to actually my
+    needs? And finally the control layer is how can I change it. How can I manage this change.
+  </p>
+
+  <p>
+    And this is where the common use profile comes in. The slide at the moment shows a group of files in to a TV showing a signer. And then below it under title common user profile is an iPad without a signer but with captions. So I can have a my TV output,
+    my immersive output or my portable or mobile output. And the common user profile I might start with one device and move to another.
+  </p>
+
+  <p>
+    So I need to be able to port these options between the devices. So the common user profile that we are looking at in the ITU is a way of taking the data about accessibility and personalization and moving it in to the real world for people to use.
+  </p>
+
+  <p>
+    So to finish I'm going to show you a video. And I it is basically audio described. I had to chop off the top which set the scene. The scene set, this is from a UK book festival where a girl has very, very severely deficient vision, is brought on stage
+    to be a volunteer to try some a headset that allows her to read a book. I will speak at the end of it.
+  </p>
+
+  <p>
+    >> At the age of 16 Maisy was diagnosed with a brain tumor. Over the next few months her vision was reduced. Maisy had agreed to try on stage the latest version of these give vision goggles. To amplify the wearer's remaining vision and highlight outlines.
+  </p>
+
+  <p>>> So Maisy, are they working?</p>
+
+  <p>>> Yes, I can see your microphone and I can see that you are smiling. And I can see the buttons on your shirt.</p>
+
+  <p>
+    >> One of the things that you said you really miss is reading. Okay. So we have a copy of Harry Potter and the Philosopher's Stone here. Would you I don't know whether this is going to work. Do you think you would be able to read us the first couple of
+    sentences if I hold the microphone up? Can you see it?
+  </p>
+
+  <p>>> Yes. I'm sorry. Okay. Mr. and Mrs. Dursley of No. 4 Privet drive were proud to say that they were perfectly normal. Thank you very much. (Applause.)</p>
+
+  <p>
+    >> ANDY QUESTED: So from that you can see or you can hear the technology is actually helping people. And it is a way to bring to life things that we take for granted. The other thing I'm worried about is how these standards work together. If we don't
+    actually have standards, all these things will stop working if one from device to another. So I'm very keen these standards are brought together internationally. The competition there is good. But the data and the description of what we need to do
+    is the most important thing. Thank you very much.
+  </p>
+
+  <p>
+    >> JASON WHITE: Thank you indeed. So we will proceed now to our third presentation which is Preliminary Insights from a Chatbot Accessibility Playbook and Wizard of Oz Study. This is to be presented by Jeff Stanley, who is a human centered engineer at
+    the MITRE Corporation where he leads research in human machine teaming and accessibility.
+  </p>
+
+  <p>
+    Before coming to MITRE, Jeff spent 15 years developing interactive applications for organizations such as the Smithsonian Institution, Rosetta Stone and UB Soft. Jeff has degrees in computer science and anthropology and an undergraduate degree in linguistics.
+    Jeff, ten minutes. And an interesting presentation to come.
+  </p>
+
+  <p>>> JEFF STANLEY: Can you hear me?</p>
+
+  <p>>> I'm not seeing the screen yet. We can hear you. You started screen sharing but I'm getting</p>
+
+  <p>>> JEFF STANLEY: I am screen sharing. Let me try again here.</p>
+
+  <p>>> JUDY BREWER: Try again to select the document you want to present. And otherwise we can project it from another computer on our side.</p>
+
+  <p>>> JEFF STANLEY: Okay. I apologize. I tried to screen share and it seems like my entire computer has just frozen. So</p>
+
+  <p>>> CARLOS DUARTE: I can share it for you and you let me know when to change slides.</p>
+
+  <p>
+    >> JEFF STANLEY: All right. Okay. So unfortunately because my computer froze I don't have access to what I'm talking about. So I know we are already behind schedule, but I wonder if you could just wait a couple of minutes while I reboot my computer here.
+  </p>
+
+  <p>
+    >> JUDY BREWER: Sorry to jump in out loud. But may I suggest either that we if we have another presenter cued we go and give Jeff a moment or that we resend his presentation to his mobile. We have a few different options. Or just wait. Carlos, this is
+    up to you.
+  </p>
+
+  <p>>> CARLOS DUARTE: We don't have another presentation. Can you access your presentation on your mobile, Jeff?</p>
+
+  <p>>> JEFF STANLEY: I can access my presentation on my mobile but I was having trouble using view on the mobile.</p>
+
+  <p>>> CARLOS DUARTE: Because I'm already sharing your presentation. If you are not seeing it, it is hard to coordinate.</p>
+
+  <p>>> JEFF STANLEY: I will start to speak. And then as my computer reboots I will be able to speak more in a more sophisticated manner.</p>
+
+  <p>>> CARLOS DUARTE: Okay. Thank you very much.</p>
+
+  <p>
+    >> JEFF STANLEY: So hello, everyone. We are happy to be able to present okay. Sorry I got cut off. Hello, everyone. We are happy to present this ongoing research that we have been doing at the MITRE Corporation that's about accessibility for chatbots.
+    We have a great team working on this. Several of them are on the line with us today, including my colead Ronna ten Brink.
+  </p>
+
+  <p>
+    Next slide, please. So this should be a slide about this should be a slide introducing the problem space. So who is MITRE? MITRE is a not for profit organization that works in the public interest. We operate federally funded research and development centers
+    for the U.S. Federal Government. And we collaborate with a variety of agencies on topics such as tax administration, transportation, and health among other things.
+  </p>
+
+  <p>
+    So as we know chatbots introduce novel features that are not addressed by a current digital accessibility guidance. Because they present content in sequence to a user and expect inputs in sequence. So these are things like message notifications, how does
+    one go back through the conversation history. How does one navigate options that might be presented. And without established guidance related to these novel features the risk is that chatbots will produce unrequitable access to services. We know that
+    Federal Government agencies and local agencies are making chatbots to deliver services. And we want to make sure that those are equitable.
+  </p>
+
+  <p>
+    Okay. So the next slide should be about a literature review. Chatbot accessibility guidance, is that right? Are we in sync so far?
+  </p>
+
+  <p>>> CARLOS DUARTE: We are. You are doing great.</p>
+
+  <p>
+    >> JEFF STANLEY: Okay. So the first step in this research, was we reviewed existing guidance and some of this was academic studies. And some more was like industry online Articles and vlogs. We did a comprehensive web search and we found just 17 sources.
+    And we extracted 157 unique recommendations from those sources.
+  </p>
+
+  <p>
+    We clustered those in to themes and published that research and presented it at a conference in February. And that's been published by Springer. It was published in September. And we have the reference for that in the back of this presentation. Or if
+    you request it from me I can send it to you. One thing we found is that there is a lack of actionable steps here. The forces that did provide actionable steps really kind of drew from what was within the Web Content Accessibility guidelines and didn't
+    venture in to the new challenging spaces that chatbots present.
+  </p>
+
+  <p>
+    The academic studies did do empirical research with users to kind of clarify those spaces but don't provide actionable guidance. We saw a gap there. And we are addressing that gap by matching it together with W3C guidance, seeing which W3C guidance can
+    be adapted and where the mismatches are, where new research is needed. And we are creating a chatbot accessibility playbook which will be published and released in December.
+  </p>
+
+  <p>And we are working with the U.S. General Services Administration, GSA, to make sure that that chatbot is socialized, and is available to everyone so that they can take advantage of that guidance.</p>
+
+  <p>We also perform a small user study to try to refine the guidance in the playbook and identify opportunities for future research.</p>
+
+  <p>Next slide, please. So this slide should be technical approach. I just covered it. So next slide, please. And we will talk about the playbook.</p>
+
+  <p>
+    Okay. So this slide should be about the chatbot accessibility playbook. And our playbook we have our five plays. The most important one arguably is the first play is is selecting an accessible platform. They draw on a third party platform. And that platform
+    restricts what can be customized and what is accessible about the chatbot.
+  </p>
+
+  <p>
+    So we heard from teams that they found out after developing a chatbot that something was inaccessible and not able to fix it because it was not within the platform's capabilities. And the third party organization did not have the resources to fix it.
+    The other plays are designing the content, designing the interface, making sure that the chatbot embeds and integrates properly with the rest of the website. And then underlying all of those that should be done through the entire process is testing
+    with real representative users. Including, of course, users with a variety of disabilities.
+  </p>
+
+  <p>
+    In our playbook, there are five plays. Each play has a number of recommendations underneath it. And each recommendation has a number of activities underneath. We have two graphics on this slide. The first graphic is just presenting the five plays. The
+    second graphic is showing how a particular play, the one about designing the chatbot's content has a number of recommendations under it but two are shown here. Making sure the chatbot identifies itself as a bot and not a human as well as making sure
+    the chatbot states its purpose and what it can do. And then each of those recommendations have a number of activities underneath it.
+  </p>
+
+  <p>
+    So some of the activities here are discussing whether the chatbot should have a profile picture associated with it and what that should look like. For instance, should it be a robot or a more human picture. And questions to that the development team can
+    ask itself, questions that the development team can ask the user during user research.
+  </p>
+
+  <p>
+    Okay. On to the next slide, please. So we conducted this small user study. We had six participants who were blind or visually impaired and six participants who reported no disabilities. And we developed a prototype chatbot using a Wizard of Oz interface.
+    Meaning that one of us was behind the scene controlling what the chatbot responded and we can provide some canned responses.
+  </p>
+
+  <p>
+    The goals here were to see if the guidance we gave in the playbook was sufficient or lacking in some way. So what is the experience between the two groups to control these if the experimental group was similar or desperate? As well as to uncover gaps
+    that we may have missed so far.
+  </p>
+
+  <p>And we had quantitative surveys that we asked the users as well as we coded in a qualitative way their responses and reactions while using the chatbot.</p>
+
+  <p>
+    Some of the things that we found here, there are lots of open questions. The biggest one probably is that current paradigms for using chatbots don't match what our blind and visually impaired users were expecting. So, for example, our chatbot would give
+    a response. And then that response might have some canned options under it. So I'm sorry, which slide are we on right now?
+  </p>
+
+  <p>>> CARLOS DUARTE: I just moved us to the next slide, next steps for accessibility research.</p>
+
+  <p>
+    >> JEFF STANLEY: Okay. All right. Could you please go back to the previous slide? There is a graphic there that I forgot to talk about. So this is the slide on the user study overview. And here we have a graphic that is showing the user experience while
+    interacting with the chatbot. There is a chatbot on this tax administration website. And the chatbot is asking what is your filing status. And there are a number of options in that question, user can select single, married, filing jointly, et cetera.
+  </p>
+
+  <p>
+    And we found that users expected that if they the blind and visually impaired users expect if they tabbed down after being asked a question like this that they would be presented with those options. But that's not how our chatbot was implemented. Focus
+    always stayed in the pretext input box, that is at the very bottom.
+  </p>
+
+  <p>So if they were to tab down, they would actually leave the chatbot. This was kind of the opposite of what they wanted. And they discovered that they needed to tab up in order to get to those options.</p>
+
+  <p>
+    So the keyboard users were expecting to interact with the chatbot in a way that we had not implemented it to support. And in a way that current chatbots are not set up to support. And so a lot more research should be done here to find out what users with
+    disabilities are expecting when they interact with their chatbot. Whether that's keyboard navigation or some other device or assistive technology.
+  </p>
+
+  <p>
+    Some other open questions we found are whether the chatbot should be more human. More like a conversational partner or more like a tool or a transactional tool. And whether messages, if we had a lot of content to present, whether that should be presented
+    in one long message. Or several shorter messages in a row.
+  </p>
+
+  <p>
+    And we had users that expressed preferences for either option in those cases. And so these are open issues that deserve future research. In addition our small study did the same thing that other studies that we had found in our literature review did which
+    is the focus on users with visual impairments and that's just one kind of disability. So future research needs to focus on a wider variety of disabilities when it comes to chatbot interaction.
+  </p>
+
+  <p>
+    And I'll just wrap up here. And say that in one of our reviewers, in reading our paper, mentioned that there is a task force that is working on some natural language interface accessibility user requirements and we would very much like to find out how
+    that's going and collaborate with them, because it sounds like that will be contributing to new standards in this area.
+  </p>
+
+  <p>
+    So in summary, I apologize for the technical issues. And not being able to have my notes in front of me. But I feel that I have given a pretty good summary of what we did. And thank you so much for operating the slides when I could not. So if you progress
+    to the slide that has my e mail address on it, we are looking to for opportunities and collaborators to help us socialize and test this chatbot playbook once we release it and to figure out what the next steps are. So if you are interested in this
+    topic at all, please send an e mail and we will be happy to talk about it more.
+  </p>
+
+  <p>
+    >> JASON WHITE: Thank you. Let's do what we can with the discussion. I'm wondering whether one of my colleagues here could put the link to the first public working draft of the natural language international accessibility user requirements in to the chat.
+    That's currently open for public review and comment as a first public working draft. And everyone attending this symposium is very welcome to contribute by commenting on that draft.
+  </p>
+
+  <p>
+    So let's see, Carlos what do we have by way of questions from the chat then? And perhaps what I will just say before we go to that, is that the theme of machine learning and Artificial Intelligence is common to all three of our topics in this session.
+    In the first instance so far as is concerned the difficulties of dealing with the complexity and the accessibility issues of using assistive technologies with web based content and applications and the ability of machine learning solutions to undertake
+    recognition tasks and to simplify those interactions.
+  </p>
+
+  <p>
+    Secondly, obviously in relation to media accessibility where caption generation and potentially description generation have all been mentioned. There is some interesting work under discussion within the research questions task force at the moment about
+    the mitigation of content that generates flashes or other effects that can induce issues in those who are susceptible.
+  </p>
+
+  <p>
+    In the third instance the whole field of natural language processing, including speech recognition and language processing is undergoing a revolution at the moment due to machine learning. And so I think it is a highly relevant theme for all three of
+    the presentations. And there are interesting questions about how we introduce the capabilities and the issues of machine learning based on Artificial Intelligence in to our work on web accessibility.
+  </p>
+
+  <p>So I'll stop my commentary and hand it over to Carlos. And we will try to get through whatever questions we can in the remaining time.</p>
+
+  <p>>> CARLOS DUARTE: We haven't had any questions yet, Jason. So I think you could pick up on those topics with our presenters, if you wish.</p>
+
+  <p>In previous sessions this was the same pattern. Someone needs to get the ball rolling.</p>
+
+  <p>
+    >> JASON WHITE: Maybe I will introduce one of my own questions. Machine based learning recognition and natural language processing technology can be introduced at various stages. Recognition technologies could be used in media production or web content
+    development. For example, to perform recognition tasks or to assist in code generation and also provided directly by the end users. We are seeing increased integration of these technologies in to online meeting applications, for example. And in to
+    assistive technologies such as screen readers or in to web browsers.
+  </p>
+
+  <p>
+    And so I think there is a question here of potentials that exist as to where and how the technology is introduced and whom the risks and limitations fall. The end user, the person who is deploying the recognition technology, then they are then burdened
+    with having to deal with errors and limitations. Whereas the author has an opportunity to correct for those in the authoring process.
+  </p>
+
+  <p>
+    And it also obviously can be difficult to write content under the assistive technologies and different user agents with different machine learning capabilities built in to them. And so we don't really have any common expectations on the authoring side
+    if we were to start relying on the users having, for example, recognition tools or natural language processing tools at their disposal. I will open up it to the presenters to make a first run on those kinds of questions. And maybe that will stimulate
+    further issues from our audience.
+  </p>
+
+  <p>>> ANDY QUESTED: It is Andy. Should I start off maybe thinking about the beginning of chain of making content?</p>
+
+  <p>>> JASON WHITE: Sounds good to me.</p>
+
+  <p>
+    >> ANDY QUESTED: One of the things that we have been looking at and this is always contentious of what I call traditional media, traditional broadcasting is the use of automation and how that automation is sort of taking away the personal approach of
+    signing, captioning and audio description, for example. But what we've seen recently is a reverse of how AI is being used, machine learning is being used as a spell checker, for want of a better term. And just take the UK's example, where the public
+    service organization broadcasters have 100% requirement now for captions. Most of this is done by respeak. And those captioners are anywhere in the world working from any location they choose. And what we found is that adding AI to their output starts
+    to correct the bloopers and auditors that you get out of the back end and improves the quality.
+  </p>
+
+  <p>
+    So you are right to say it is who is responsible and for what it is doing. Because if you use it in the wrong place it could be more disastrous in terms of AI is always right and therefore the user is always wrong. But where you have an opportunity to
+    use technology to effectively improve the output, then we should go for it. This is going to be applied to signing as well and audio description. How do you audio describe a sporting event which a third party, and you haven't got the ability to read
+    those in a way that you can maintain the commentary? How to intersperse the live commentary and still maintain a good experience for the user. Thank you.
+  </p>
+
+  <p>>> JASON WHITE: Thank you. That's the use of AI for quality improvements sounds to me like a good idea. Do we have anyone in the queue?</p>
+
+  <p>>> CARLOS DUARTE: No questions in the queue. There was one of the authors of the last presentation sharing the link to the paper that Jeff mentioned. But still no questions.</p>
+
+  <p>>> JASON WHITE: Does anyone else among the presenters wish to respond to the issues that we're discussing here?</p>
+
+  <p>>> SETH POLSLEY: I also had a question if there is a opportunity or if no presenter speaking.</p>
+
+  <p>>> JASON WHITE: It seems open.</p>
+
+  <p>
+    >> SETH POLSLEY: All right. So I was going to comment that, Andy, I really appreciated that video on the give vision because that was a moving way of demonstrating how we can apply this type of technology to really improve people's lives. I was wanting
+    to ask about your perspectives and this is kind of a general question I think for any of the presenters about how do you imagine ways that we can more broadly, integrate that type of technology, that type of assistive technology where it is specific
+    to that user and it has this ability to basically capitalize on their, you know, whatever modality they use. And amplify that specific to their case. That's a wearable. I am curious about your thoughts on this.
+  </p>
+
+  <p>
+    >> ANDY QUESTED: Yes. This is where this common user profile comes in to play. If you have a particular requirement and it doesn't mean disability. It could be any requirement. And I don't know if anybody knows about the group in the U.S. Can I Play That
+    which looks at accessibility for gaming. Very, very good group because they are influencing the designers as well as the console manufacturers to make the gaming more accessible.
+  </p>
+
+  <p>
+    What they have realized is the gamers are getting older. So a 60 year old gamer cannot compete with a 20 year old gamer because their thinkers won't move fast. You want to port your requirements between devices. If I'm watching a TV program on my big
+    screen TV at home and I want to carry on watching it on the way in to work, why do I have to reset that device up to have the accessibility options for that particular program?
+  </p>
+
+  <p>
+    If it is a music program it might be different from a drama. It might be different from a sports program. So to actually have a profile and click which is the program, I took that BBC clip, I took that clip from, there are a couple of others. One of them
+    is about use of haptic clothing. And it was tried with two girls that went deaf at the age of 6. Two very young 20 year olds but still love night clubbing. They were using haptic clothes that gave them the difference between vocals. A moving experience
+    for them.
+  </p>
+
+  <p>
+    But I suddenly thought okay, this designer clothes, anybody would want to wear them. It gave you an option for a totally silent disco. What happens if we don't do standards? What happens if you turn up in a night club in the queue and say we are sorry,
+    you are wearing an Armani shirt and we have a Versace. Enhanced dialogue and color, using all the technologies that the commercial organizations are using to sell completely immersive ideas to make completely personal ideas. Thanks.
+  </p>
+
+  <p>>> JASON WHITE: Thank you. So I assume we are getting close to time now. So Carlos, anything in the queue at this point? </p>
+
+  <p>
+    >> CARLOS DUARTE: Not quite. Something just came from Miriam. The question is as a tester and developer, I'm wondering while platforms emerge and multiply and I can't be sure how or where applications will be used. How can I account in the future for
+    the accessibility of what I develop? And at the moment the amount of browsers, platforms and screen readers combinations are very overwhelming. We will open up that to our presenters to comment on them.
+  </p>
+
+  <p>
+    >> ANDY QUESTED: I feel like I should say something, I feel the same. I'm doing beta testing for Mac OS. And the first thing I noticed two years ago there were suddenly four options for accessibility that appeared as opposed to the usual two. It was the
+    idea of hearing and participating and understanding. And you are right, we do need to get some standards around this. Or the proliferation will mean that you may have a favorite if that favorite goes out of business, or decides to make a change it
+    is gone.
+  </p>
+
+  <p>
+    >> JASON WHITE: All right. So interesting questions there about the role of Artificial Intelligence in both the authoring process, and the usage of web based content and applications as well as questions about obviously privacy and whether processing
+    should best take place. And the different roles that machine learning based Artificial Intelligence could play in the creation of content, the remediation of content and also quality assurance. So I think that's a very good series of questions to
+    influence the development of well, potentially future symposia or future discussions within the research task force. Any final comments or questions before we conclude the session?
+  </p>
+
+  <p>>> CARLOS DUARTE: There is another comment, and I guess also to Andy I suppose, about profiles and porting information, isn't that what the GPII project started to do?</p>
+
+  <p>>> ANDY QUESTED: Yep. It is. And we are looking at the standards that we would need to input to that so that content can be created for any platform. But I noted Ronna has her hand up. But it is about collaboration, I think, between the groups.</p>
+
+  <p>>> CARLOS DUARTE: Andy said Ronna has her hand up. So I think we might close it on that.</p>
+
+  <p>
+    >> RONNA TEN BRINK: Hi. I'm one of Jeff's coauthors on the chatbot accessibility work. I wanted to speak to the question about from the task room developer about all the different kinds of accessible of assistive tech and accounting for them in the future.
+    I think that well, that's like that's a really big problem. There are also kind of new kinds of interactions and technologies that are being developed right now such as chatbots, not to, you know, toot our own horn where we can develop some very core
+    accessibility paradigms around there. That can help support whatever kinds of assistive tech that get used in the end.
+  </p>
+
+  <p>
+    So I think as these new technologies and ways of interacting emerge it is important that we focus on how to build those core accessibility paradigms in terms of structure, and design and things like that that then will cascade down to an easier time actually
+    developing and testing for the literal assistive tech at the end of the interaction line. Over. Thank you.
+  </p>
+
+  <p>
+    >> JASON WHITE: Thank you. And I just note that in addition to work on natural language interface accessibility, the research question has recently published on augmented reality and virtual reality in immersive requirements and work on realtime communication
+    and remote meeting accessibility. All of which speak to the theme of increasingly important approaches to human computer interaction and their accessibility.
+  </p>
+
+  <p>So I imagine we have probably hit the time limit. How do we stand?</p>
+
+  <p>>> CARLOS DUARTE: Yeah, we did. Questions started to appear and unfortunately we have had hit the time limit as you said.</p>
+
+  <h2>Future Research in Digital Accessibility (moderators: Carlos Duarte and Letícia Seixas Pereira, Universidade de Lisboa)</h2>
+
+  <p>
+    And we need to move to the next session. So thank you so much Jason and all the presenters. And this just before the closing. So this final session, our goal here will be to try to frame these discussions from the perspective of the symposium objectives.
+    I will ask Judy Brewer to comment on the issues that have been presented here from the perspective of the W3C Web Accessibility Initiative. So go ahead, Judy.
+  </p>
+
+  <p>>> JUDY BREWER: Thank you, Carlos. And just making sure that I'm on screen and that my audio is coming through clearly. </p>
+
+  <p>>> CARLOS DUARTE: Loud and clear.</p>
+
+  <p>>> JUDY BREWER: Okay. Great. Carlos, thanks so much for the opportunity to comment as we come to the close of this research symposium. And my thanks to the presenters and Moderators as well who have given us plenty of food for thought.</p>
+
+  <p>
+    As Carlos said at the beginning of the symposium through this part of the WAI CooP we want to foster the research space, WAI CooP standards for W for WAI Communities of Practice is what WAI CooP stands for. Our intent is to better understand what's needed
+    in support of uptake of accessibility standards including at the regional level as well as how to better leverage input from all parts of the world to improve the relevance and quality of future WAI work at W3C.
+  </p>
+
+  <p>
+    I want to speak now to the question of how this symposium relates to our work at the World Wide Web Consortium Web Accessibility Initiative. The work that WAI does is work that contributes to standards development for accessibility web based technologies.
+    This symposium helps W3C scan the space of issues that we may need to consider for our work in the future. And it also brings attention to angles we need to consider for our current work. WAI work at W3C is chartered under the W3C process. It includes
+    Working Groups, task forces and open and transparent and available for public review and comment which we invite and welcome.
+  </p>
+
+  <p>W3C community groups allow more informal exploration of opportunities for potential future innovations in web based technologies, including in support of greater accessibility in the future.</p>
+
+  <p>
+    W3C process relies on multi stakeholder participation from industry, from user groups including people in the disability community, from research, from education and government, all partners of the table together. The Web Accessibility Initiative itself
+    develops standards and guidelines, implementation materials in support of these standards and authoritative educational materials to support harmonized uptake of these standards. These resources are all available through our website, w3.org/wai. Again
+    that is w3.org/wai.
+  </p>
+
+  <p>
+    And I trust my colleagues will put that link in to the chat, though I'm hoping you all know it and frequently visit it. In any case where you can find not only the Web content accessibility guidelines but an ecosystem of authoritative and educational
+    resources. Our intention is to be cross disability. I wanted to particularly mention that, because many of the research presentations that you heard today were focusing particularly on issues related to blindness, but I want to assure you that in
+    our WAI work we are looking at a full range of disabilities that can effect accessibility of web based digital technologies. And we are also working on expanding and improving accessibility provisions with regard to cognitive language learning needs,
+    neurodiversity, deafness and hard of hearing, mental health accessible user needs and low vision needs. We are always looking at these additional areas and have active work in all of those areas.
+  </p>
+
+  <p>
+    W3C including WAI is also working to increase multiple aspects of diversity not only on the disability dimension but also with regard to race, age, culture, gender, geographies, languages, through ongoing work, creating a more welcoming environment, and
+    outreach efforts to increase awareness of the opportunity to participate at the standards table and to to join the discussion.
+  </p>
+
+  <p>
+    So our work at W3C goes through a consensus process with wide public review. We not only welcome but we count on broad participation and review of our work to ensure that our work represents a comprehensive range of needs and perspectives. In the research
+    questions task force, which as Josh O'Connor mentioned earlier today is part of the Accessible Platform Architectures Working Group. We have been developing a series of accessibility user requirements. These include XR, accessibility user requirements.
+    XR standing for a combination of virtual reality and augmentative reality and realtime communication accessibility user requirements. Immediate accessibility user requirements, an older document that we might update. Media synchronization. How to
+    ensure that smart agents are cross disability accessible and timely for our current circumstances, the research questions task force has been compiling issues from accessibility of remote meetings.
+  </p>
+
+  <p>We welcome your feedback on the public draft. Thank you for dropping several things in to the chat there. These kinds of accessibility user requirements documents are not normative. In other words, they are not standards.</p>
+
+  <p>
+    But they are developed in coordination with the relevant standards Working Groups of W3C. To help standards developers and those Working Groups be aware of user accessibility needs, and technical implementation support requirements, and they are composing
+    their standards. So that their standards can provide that foundation level support for accessibility. And especially in this space of technologies that are emerging on to the web. It is no longer just web or just web and mobile. It is also automative,
+    gaming, many different areas of technology.
+  </p>
+
+  <p>Over the years we've seen many accessibility requirements make the journey from awareness and understanding, to technical specification implementation and widespread deployment. We invite you to be part of that process.</p>
+
+  <p>
+    And here I want to just give a shout out to Amanda Lacy. Your presentation I felt was very effective and, you know, helping people understand this isn't all working well yet, particularly when you add Artificial Intelligence in to the mix. These are the
+    needs we need to address. And we welcome you to the table to first practically look at how we can perhaps as you were asking consider developing guidance for use of AI effectively for accessibility without getting in to the AI bias qualities and so
+    forth.
+  </p>
+
+  <p>
+    I would like to thank the others on the planning team, especially Carlos and Leticia who have led this part of the WAI CooP, and the interpreters and captioners and everyone who has helped in the background with logistical support. And the participants
+    and the symposium for being here. Again you can find how to get involved section at w3.org/wai. Please stay safe and well. I will turn this back to Carlos, but I hope to see all of you in our work going forward if you are interested. Thank you so
+    much.
+  </p>
+
+  <p>>> Thank you.</p>
+
+  <p>
+    >> CARLOS DUARTE: Thank you so much, Judy. Just before moving to the closing session, I would just and because one of the goals of the symposium were to identify topics for the next symposium, I would just like to highlight some of the issues that I think
+    are definitely worth considering for at least two more symposia from what we have heard today.
+  </p>
+
+  <p>
+    I would say on one hand, there are standards, definitely. I think the first two sessions show that. We have standards for the web. We have standards for PDFs. But I guess these standards are being read. They are being used for new people that aren't used
+    to working with standards. And what we're finding out I guess is that these standards do not work well for them. So either they don't understand the standards or they just don't follow them. So is this a problem with standards? Is this a problem with
+    the way we communicate standards to others? And how can standards organizations help with this?
+  </p>
+
+  <p>
+    Also definitely there are issues related to the challenges that is that face developing standards for emerging technologies and I think this became quite apparent in the last session. So I would say we do have food for thought. And we do have topics to
+    explore definitely in the coming years. Thank you, Morton, for suggesting also topics for the future. If any of you want to add your suggestions, please do.
+  </p>
+
+  <h2>Closing session</h2>
+
+  <p>
+    And moving to I would say the closing session, it is just to keep everything on schedule, I would like to echo Judy's statement and thank all the organizing team, thank you. A big thank you also to our three Moderators, Josh, Jade and Jason. A big thank
+    you to all the presenters. As Leticia has already entered here in the chat but it is easy to miss that, we and also as part of one of the contributions of this project, we have created an online fora where we hope different communities can come together
+    and discuss accessibility related topics, not just research topics. And you can find that at topics.web directive.eu. Thank you, Leticia, for pasting the link in the chat.
+  </p>
+
+  <p>We in that Forum you will find the sessions of the symposium and the papers that have been presented. So you can discuss those. You can keep discussing those in there. There are already multitudes of topics to follow on the discussions.</p>
+
+  <p>
+    This is all from my side. I invite you all to attend next year's symposium. We will announce it as soon as we define which topic we will address. And I invite you all to follow up on the WAI CooP developments. You can find the link for the newsletter
+    at the website. If someone can also paste it here in the chat, it would be useful. And I don't know if any of the Moderators or the organizing team wants to add something.
+  </p>
+
+  <p>>> JOSHUE O'CONNOR: Thanks for having us, Carlos. That was great. Thanks, everyone. Really enjoyed it.</p>
+
+  <p>>> CARLOS DUARTE: Thank you so much, Josh. And I think we can close the symposium. Thank you, everyone, for attending. It was great to have you here. And I do hope that you've enjoyed the symposium and that it has been valuable for you. See you next
+    year.
+  </p>
+
+  <p>>> Thank you.</p>
+
+</body>
+
+</html>

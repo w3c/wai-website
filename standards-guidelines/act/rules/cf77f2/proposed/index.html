@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Bypass Blocks of Repeated Content[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Bypass Blocks of Repeated Content" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/cf77f2/proposed/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/cf77f2/proposed/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Bypass Blocks of Repeated Content" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Bypass Blocks of Repeated Content","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/cf77f2/proposed/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-bypass-blocks-of-repeated-content  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="ACT Rule">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#description">Description</a></li>
+                
+                <li><a href="#applicability">Applicability</a></li>
+                
+                <li><a href="#expectation">Expectation</a></li>
+                
+                <li><a href="#background">Background</a></li>
+                
+                <li><a href="#accessibility-requirements-mapping">Accessibility Requirements Mapping</a></li>
+                
+                <li><a href="#input-rules">Input Rules</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#glossary">Glossary</a></li>
+                
+                <li><a href="#ruleversions">Rule Versions</a></li>
+                
+                <li><a href="#implementations">Implementations</a></li>
+                
+                <li><a href="#usefullinks">Useful Links</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                  Proposed
+                
+                
+              </span>
+              
+              Bypass Blocks of Repeated Content
+            </h1>
+        </header>
+
+        <aside class="box"> 
+  <header class="box-h box-h-icon"> 
+    Rule Mapping 
+  </header>
+  <div class="box-i"> 
+   <p>This is a <strong>Composite rule</strong>
+    to test
+    <strong>2.4.1: Bypass Blocks (Level A)</strong>
+  </p>
+  </div>
+ </aside>
+
+<h2 id="description">Description</h2>
+<p>This rule checks that each page has a mechanism to bypass repeated blocks of content.</p>
+
+
+<h2 id="applicability">Applicability</h2>
+
+<p>This rule applies to any <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a>.</p>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>For each test target, the outcome of at least one of the following rules is passed:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/" title="Rule Block of Repeated Content is Collapsible"><em>Block of repeated content is collapsible</em></a>; or</li>
+  <li><a href="https://www.w3.org/WAI/standards-guidelines/act/rules/047fe0/" title="Rule Document Has Heading for Non-Repeated Content"><em>Document has heading for non-repeated content</em></a>; or</li>
+  <li><a href="https://www.w3.org/WAI/standards-guidelines/act/rules/b40fd1/" title="Rule Document Has a Landmark with Non-Repeated Content"><em>Document has a landmark with non-repeated content</em></a>; or</li>
+  <li><a href="https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/" title="Rule Document Has an Instrument to Move Focus to Non-Repeated Content"><em>Document has an instrument to move focus to non-repeated content</em></a>.</li>
+</ul>
+
+<h2 id="background">Background</h2>
+
+<p>The <a href="#instrument-to-achieve-an-objective" title="Definition of Instrument to Achieve an Objective">instruments</a> used to pass this rule (if any), must meet all level A Success Criteria in order to fully satisfy <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" title="Success Criterion 2.4.1 Bypass Blocks">Success Criterion 2.4.1 Bypass Block</a>. These extra requirements are left out of this rule, and should be tested separately.</p>
+
+<h3 id="assumptions">Assumptions</h3>
+
+<ul>
+  <li>This rule assumes that the mean to bypass blocks is included in the content of the <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a>. For example, server-side scripting, or a global “settings” page, can provide a functionality similar to <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/" title="Rule Block of Repeated Content is Collapsible"><em>Block of repeated content is collapsible</em></a> by serving a modified version of the page; in which case this rule would fail but <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" title="Success Criterion 2.4.1 Bypass Blocks">Success Criterion 2.4.1 Bypass blocks</a> could nonetheless be satisfied.</li>
+  <li>This rule assumes that <code class="language-plaintext highlighter-rouge">frame</code> and <code class="language-plaintext highlighter-rouge">frameset</code> elements are not used, given that they are deprecated in HTML5. They can be used to organize content as per <a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H70">H70: Using frame elements to group blocks of repeated material</a> and <a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H64">H64: Using the title attribute of the frame and iframe elements</a>, in that case, this rule would fail but <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" title="Success Criterion 2.4.1 Bypass Blocks">Success Criterion 2.4.1 Bypass blocks</a> could nonetheless be satisfied.</li>
+  <li>This rule assumes that completely removing <a href="#block-of-repeated-content" title="Definition of Block of Repeated Content">blocks of repeated content</a> is sufficient to pass <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" title="Success Criterion 2.4.1 Bypass Blocks">Success Criterion 2.4.1 Bypass blocks</a>. However, providing an <a href="#instrument-to-achieve-an-objective" title="Definition of Instrument to Achieve an Objective">instrument</a> to remove them without providing one to show them again is likely going to create other unrelated issues.</li>
+  <li>This rule assumes that repeated content that is at the end of the page (and not followed any non-repeated content) can be bypassed by means provided by user agents (such as pressing the “End” key to scroll to the bottom of the page). Therefore, they do not need any other way of being bypassed and are ignored by this rule. If there isn’t a way to bypass them, this rule may pass while <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" title="Success Criterion 2.4.1 Bypass Blocks">Success Criterion 2.4.1 Bypass blocks</a> is not satisfied.</li>
+  <li>This rule assumes that the language of each test target can be correctly determined (either programmatically or by analyzing the content), and sufficiently understood.</li>
+</ul>
+
+<h3 id="accessibility-support">Accessibility Support</h3>
+
+<p>Techniques and solutions that identify blocks of content are sufficient ways of passing <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" title="Success Criterion 2.4.1 Bypass Blocks">Success Criterion 2.4.1 Bypass blocks</a>. They are, however, only beneficial for users who have ways of navigating with this information. For example, adding headings to a document will only help users who can “jump” from heading to heading (such a possibility can be provided by browsers, browsers plugins, screen readers, or other assistive technologies). Techniques and solutions based on links will benefit all users (for example, sighted keyboard users with no other assistive technology) and are therefore recommended.</p>
+
+<p>If the <a href="#instrument-to-achieve-an-objective" title="Definition of Instrument to Achieve an Objective">instruments</a> used to pass some of the atomic rules are not keyboard accessible, or not <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a>, passing this rule can still leave many users without a way to bypass blocks of repeated content. WCAG’s definition of <a href="https://www.w3.org/TR/WCAG22/#dfn-mechanism" title="WCAG definition of Mechanism">mechanism</a> has a note saying that it “needs to meet all success criteria for the conformance level claimed”. This includes <a href="https://www.w3.org/TR/WCAG22/#keyboard-accessible">Success Criterion 2.1.1 Keyboard</a> and <a href="https://www.w3.org/TR/WCAG22/#name-role-value">Success Criterion 4.1.2 Name, Role, Value</a> which are both at level A.</p>
+
+<p>This rule only checks if there is a way to bypass at least one section of repeated content. On pages with several interleaved repeated and non-repeated content, this is not sufficient to satisfy <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" title="Success Criterion 2.4.1 Bypass Blocks">Success Criterion 2.4.1 Bypass blocks</a>. Checking for more sections to bypass was considered but rejected due to both the added complexity it would create, and the risk of failing on pages that might be correct.</p>
+
+<h3 id="other-resources">Other Resources</h3>
+
+<ul>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html" title="Understanding Success Criterion 2.4.1: Bypass Blocks">Understanding Success Criterion 2.4.1: Bypass Blocks</a></li>
+  <li>Creating links to skip blocks of content:
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G1" title="Technique G1: Adding a Link at the Top of each Page that Goes Directly to the Main Content Area">Technique G1: Adding a link at the top of each page that goes directly to the main content area</a></li>
+      <li><a href="(https://www.w3.org/WAI/WCAG22/Techniques/general/G123)" title="Technique G123: Adding a Link at the Beginning of a Block of Repeated Content to Go to the End of the Block">Technique G123: Adding a link at the beginning of a block of repeated content to go to the end of the block</a></li>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G124" title="Technique G124: Adding Links at the Top of the Page to each Area of the Content">Technique G124: Adding links at the top of the page to each area of the content</a></li>
+    </ul>
+  </li>
+  <li>Grouping and identifying blocks of content:
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA11" title="Technique ARIA11: Using ARIA Landmarks to Identify Regions of a Page">Technique ARIA11: Using ARIA landmarks to identify regions of a page</a></li>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H69" title="Technique H69: Providing Heading Elements at the Beginning of each Section of Content">Technique H69: Providing heading elements at the beginning of each section of content</a></li>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR28" title="Technique SCR28: Using an Expandable and Collapsible Menu to Bypass Block of Content">Technique SCR28: Using an expandable and collapsible menu to bypass block of content</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>To avoid using landmarks for the non-repeated content, which would satisfy <a href="https://www.w3.org/TR/WCAG22/#bypass-blocks" title="Success Criterion 2.4.1 Bypass Blocks">Success Criterion 2.4.1 Bypass Block</a>, this rule uses <code class="language-plaintext highlighter-rouge">&lt;div id="main"&gt;</code> in its examples to indicate where non-repeating content exists. It is recommended to use the <code class="language-plaintext highlighter-rouge">main</code> landmark instead. The <code class="language-plaintext highlighter-rouge">aside</code> and <code class="language-plaintext highlighter-rouge">nav</code> elements are each a <a href="#block-of-repeated-content" title="Definition of Block of Repeated Content">block of repeated content</a> due to the link inside the <code class="language-plaintext highlighter-rouge">nav</code> element to a page with similar <a href="#block-of-content" title="Definition of Block of Content">blocks of content</a>.</p>
+
+<h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
+
+<ul class="act-requirements-list">
+  <li><details>
+    <summary><span>2.4.1 Bypass Blocks (Level A)</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/TR/WCAG22/#bypass-blocks">Learn more about 2.4.1 Bypass Blocks</a></li>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level A and higher.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: success criterion is not satisfied</li>
+        <li>All <code>passed</code> outcomes: success criterion needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: success criterion needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+  <li><details>
+    <summary><span>G1: Adding a link at the top of each page that goes directly to the main content area</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G1">Learn more about technique G1</a></li>
+      <li>Not required for conformance to any W3C accessibility recommendation.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: technique is not satisfied</li>
+        <li>All <code>passed</code> outcomes: technique needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: technique needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+  <li><details>
+    <summary><span>G123: Adding a link at the beginning of a block of repeated content to go to the end of the block</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G123">Learn more about technique G123</a></li>
+      <li>Not required for conformance to any W3C accessibility recommendation.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: technique is not satisfied</li>
+        <li>All <code>passed</code> outcomes: technique needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: technique needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+  <li><details>
+    <summary><span>G124: Adding links at the top of the page to each area of the content</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G124">Learn more about technique G124</a></li>
+      <li>Not required for conformance to any W3C accessibility recommendation.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: technique is not satisfied</li>
+        <li>All <code>passed</code> outcomes: technique needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: technique needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+  <li><details>
+    <summary><span>H69: Providing heading elements at the beginning of each section of content</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H69">Learn more about technique H69</a></li>
+      <li>Not required for conformance to any W3C accessibility recommendation.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: technique is not satisfied</li>
+        <li>All <code>passed</code> outcomes: technique needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: technique needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+  <li><details>
+    <summary><span>SCR28: Using an expandable and collapsible menu to bypass block of content</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR28">Learn more about technique SCR28</a></li>
+      <li>Not required for conformance to any W3C accessibility recommendation.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: technique is not satisfied</li>
+        <li>All <code>passed</code> outcomes: technique needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: technique needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+</ul>
+
+<h2 id="input-rules">Input Rules</h2>
+
+<p>Outcomes of the following rules are required as input for this rule.</p>
+
+<ul>
+  <li><a href="/WAI/standards-guidelines/act/rules/document-has-headings-for-non-repeated-content-047fe0/">Document has heading for non-repeated content</a></li>
+  <li><a href="/WAI/standards-guidelines/act/rules/document-has-landmark-with-non-repeated-content-b40fd1/">Document has a landmark with non-repeated content</a></li>
+  <li><a href="/WAI/standards-guidelines/act/rules/block-collapsible-3e12e1/">Block of repeated content is collapsible</a></li>
+  <li><a href="/WAI/standards-guidelines/act/rules/document-has-instrument-to-non-repeated-content-ye5d6e/">Document has an instrument to move focus to non-repeated content</a></li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<details class="act-inline-assets">
+  <summary><span>These HTML and Javascript files are used in several examples:</span></summary>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/bypass-blocks-cf77f2/chapter2.html"><code class="language-plaintext highlighter-rouge">/test-assets/bypass-blocks-cf77f2/chapter2.html</code></a>:</p>
+
+  <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 2<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"chapters-navigation"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;h1&gt;</span>Content<span class="nt">&lt;/h1&gt;</span>
+			<span class="nt">&lt;ol&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter1.html"</span><span class="nt">&gt;</span>Chapter 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a&gt;</span>Chapter 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;/ol&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"bio-translator"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;h1&gt;</span>About the translator<span class="nt">&lt;/h1&gt;</span>
+			<span class="nt">&lt;p&gt;</span>Yu Sumei is a professor of English at East China Normal University.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;h1&gt;</span>About the book<span class="nt">&lt;/h1&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The Romance of the Three Kingdoms is a 14th century historical novel.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;main&gt;</span>
+			<span class="nt">&lt;h1&gt;</span>Zhang Fei Trashes the Inspector in Wrath<span class="nt">&lt;/h1&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Now this Dong Zhuo, also known as Dong Zhong-ying, was from Lintao in northwest China.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/main&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>  </div>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/bypass-blocks-cf77f2/toggle-display.js"><code class="language-plaintext highlighter-rouge">/test-assets/bypass-blocks-cf77f2/toggle-display.js</code></a>:</p>
+
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">toggleHidden</span><span class="p">(...</span><span class="nx">ids</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">ids</span><span class="p">.</span><span class="nf">forEach</span><span class="p">(</span><span class="nx">id</span> <span class="o">=&gt;</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+		<span class="nx">element</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="nx">element</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">none</span><span class="dl">'</span> <span class="p">?</span> <span class="dl">''</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">none</span><span class="dl">'</span>
+	<span class="p">})</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">hide</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+	<span class="nx">element</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">none</span><span class="dl">'</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">show</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+	<span class="nx">element</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">''</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">toggleVisibility</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+	<span class="nx">element</span><span class="p">.</span><span class="nx">className</span> <span class="o">=</span> <span class="nx">element</span><span class="p">.</span><span class="nx">className</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">off-screen</span><span class="dl">'</span> <span class="p">?</span> <span class="dl">''</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">off-screen</span><span class="dl">'</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">toggleAriaHidden</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+	<span class="nx">element</span><span class="p">.</span><span class="nf">setAttribute</span><span class="p">(</span><span class="dl">'</span><span class="s1">aria-hidden</span><span class="dl">'</span><span class="p">,</span> <span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nf">getAttribute</span><span class="p">(</span><span class="dl">'</span><span class="s1">aria-hidden</span><span class="dl">'</span><span class="p">)</span> <span class="o">!==</span> <span class="dl">'</span><span class="s1">true</span><span class="dl">'</span><span class="p">).</span><span class="nf">toString</span><span class="p">())</span>
+<span class="p">}</span>
+</code></pre></div>  </div>
+
+</details>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/fa30de1d9c2d3a313f7f18bc4e2cf6843ea10a89.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/" title="Rule Block of Repeated Content is Collapsible"><em>Block of repeated content is collapsible</em></a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/toggle-display.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">onclick=</span><span class="s">"toggleHidden('chapters-navigation')"</span><span class="nt">&gt;</span>Toggle table of content<span class="nt">&lt;/a&gt;</span>
+
+		<span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"chapters-navigation"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;ol&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a&gt;</span>Chapter 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Chapter 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;/ol&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/36f679b6844299beda3f720e0d94cabdcfa122ba.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/047fe0/" title="Rule Document Has Heading for Non-Repeated Content"><em>Document has heading for non-repeated content</em></a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"chapters-navigation"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;ol&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a&gt;</span>Chapter 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Chapter 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;/ol&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;h1&gt;</span>Three Heroes Swear Brotherhood at a Feast in the Peach Garden<span class="nt">&lt;/h1&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/9eb0cf411e23f4457a013123e3066e2bfa4652da.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/b40fd1/" title="Rule Document Has a Landmark with Non-Repeated Content"><em>Document has a landmark with non-repeated content</em></a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"chapters-navigation"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;ol&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a&gt;</span>Chapter 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Chapter 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;/ol&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+
+		<span class="nt">&lt;main&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/main&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-4">Passed Example 4</h4>
+
+<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/235a899f291a8dbcd536b439728c2af509c8f1d6.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/" title="Rule Document Has an Instrument to Move Focus to Non-Repeated Content"><em>Document has an instrument to move focus to non-repeated content</em></a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#main"</span><span class="nt">&gt;</span>Skip to main content<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The Romance of the Three Kingdoms is a 14th century historical novel.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-5">Passed Example 5</h4>
+
+<p><a class="example-link" title="Passed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/758c009716931b1a14a1215eda5d4f9d72135aaa.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/" title="Rule Document Has an Instrument to Move Focus to Non-Repeated Content"><em>Document has an instrument to move focus to non-repeated content</em></a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"local-navigation"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#bio-translator"</span><span class="nt">&gt;</span>Skip to translator's biography<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#about-book"</span><span class="nt">&gt;</span>Skip to information about the book<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#main"</span><span class="nt">&gt;</span>Skip to main content<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"bio-translator"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>Yu Sumei is a professor of English at East China Normal University.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The Romance of the Three Kingdoms is a 14th century historical novel.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-6">Passed Example 6</h4>
+
+<p><a class="example-link" title="Passed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/1d5d46b8e4ca30cf0683a417dc4edd57887b9889.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/" title="Rule Document Has an Instrument to Move Focus to Non-Repeated Content"><em>Document has an instrument to move focus to non-repeated content</em></a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"bio-translator"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#about-book"</span><span class="nt">&gt;</span>Skip to information about the book<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;p&gt;</span>Yu Sumei is a professor of English at East China Normal University.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#main"</span><span class="nt">&gt;</span>Skip to main content<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The Romance of the Three Kingdoms is a 14th century historical novel.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-7">Passed Example 7</h4>
+
+<p><a class="example-link" title="Passed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/c039d5c0794751aa5944724b45df214c0e8cc827.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/" title="Rule Block of Repeated Content is Collapsible"><em>Block of repeated content is collapsible</em></a> because it has no <a href="#block-of-repeated-content" title="Definition of Block of Repeated Content">block of repeated content</a> before non-repeated <a href="#perceivable-content" title="Definition of Perceivable Content">perceivable content</a>. Note that this does not pass <a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR28" title="Technique SCR28: Using an Expandable and Collapsible Menu to Bypass Block of Content">Technique SCR28: Using an expandable and collapsible menu to bypass block of content</a> because the <a href="#block-of-repeated-content" title="Definition of Block of Repeated Content">block of repeated content</a> which is after the non-repeated content cannot be toggled.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			The Romance of the Three Kingdoms is a 14th century historical novel.
+		<span class="nt">&lt;/aside&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-8">Passed Example 8</h4>
+
+<p><a class="example-link" title="Passed Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/1c8d17ef6a69be1bbc5b28f432d2b7192e0f65c9.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/" title="Rule Document Has an Instrument to Move Focus to Non-Repeated Content"><em>Document has an instrument to move focus to non-repeated content</em></a> because the button is such an instrument. Note that it does not pass <a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G1" title="Technique G1: Adding a Link at the Top of each Page that Goes Directly to the Main Content Area">Technique G1: Adding a link at the top of each page that goes directly to the main content area</a> nor <a href="(https://www.w3.org/WAI/WCAG22/Techniques/general/G123)" title="Technique G123: Adding a Link at the Beginning of a Block of Repeated Content to Go to the End of the Block">Technique G123: Adding a link at the beginning of a block of repeated content to go to the end of the block</a> because the <a href="#instrument-to-achieve-an-objective" title="Definition of Instrument to Achieve an Objective">instrument</a> is a button, not a link.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;button</span> <span class="na">onclick=</span><span class="s">"location.assign('#main')"</span><span class="nt">&gt;</span>Skip to main content<span class="nt">&lt;/button&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The Romance of the Three Kingdoms is a 14th century historical novel.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-9">Passed Example 9</h4>
+
+<p><a class="example-link" title="Passed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/07c0b535c3c68a3deeb9fde43c4ba5aca09fb94e.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/" title="Rule Document Has an Instrument to Move Focus to Non-Repeated Content"><em>Document has an instrument to move focus to non-repeated content</em></a> because the link with target <code class="language-plaintext highlighter-rouge">#brewitt-taylor</code> moves focus <a href="#just-before" title="Definition of Just Before">just before</a> some <a href="#non-repeated-content" title="Definition of Non-Repeated Content after repeated content">non-repeated content after repeated content</a>. Note that it does not necessarily pass Technique <a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G124" title="Technique G124: Adding Links at the Top of the Page to each Area of the Content">G124: Adding links at the top of the page to each area of the content</a> because the <code class="language-plaintext highlighter-rouge">&lt;div id="main"&gt;</code> element is arguably a single “area of the content”, and the technique requires only one link per such area.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Comparing translations of the Romance of the Three Kingdoms, Chapter one<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"local-navigation"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#local-navigation"</span><span class="nt">&gt;</span>Skip to local navigation<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#brewitt-taylor"</span><span class="nt">&gt;</span>Skip to Brewitt-Taylor's translation<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#roberts"</span><span class="nt">&gt;</span>Skip to Roberts' translation<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#yu"</span><span class="nt">&gt;</span>Skip to Yu's translation<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#about-book"</span><span class="nt">&gt;</span>Skip to information about the book<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The Romance of the Three Kingdoms is a 14th century historical novel.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"brewitt-taylor"</span><span class="nt">&gt;</span>
+				Three Heroes Swear Brotherhood in the Peach Garden (Translation by Charles Henry Brewitt-Taylor)
+			<span class="nt">&lt;/p&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				The world under heaven, after a long period of division, tends to unite; after a long period of union, tends to
+				divide.
+			<span class="nt">&lt;/p&gt;</span>
+
+			<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"roberts"</span><span class="nt">&gt;</span>Three Bold Spirits Plight Mutual Faith in the Peach Garden (Translation by Moss Roberts)<span class="nt">&lt;/p&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The empire, long divided, must unite; long united, must divide. Thus it has ever been.<span class="nt">&lt;/p&gt;</span>
+
+			<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"yu"</span><span class="nt">&gt;</span>Three Heroes Swear Brotherhood at a Feast in the Peach Garden (Translation by Yu Sumei)<span class="nt">&lt;/p&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-10">Passed Example 10</h4>
+
+<p><a class="example-link" title="Passed Example 10" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/7fdb66e34b6c6b106fd371183e682721c3735031.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/" title="Rule Document Has an Instrument to Move Focus to Non-Repeated Content"><em>Document has an instrument to move focus to non-repeated content</em></a>. Note that it does not necessarily pass Technique <a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G124" title="Technique G124: Adding Links at the Top of the Page to each Area of the Content">G124: Adding links at the top of the page to each area of the content</a> because the both the <code class="language-plaintext highlighter-rouge">nav</code> and <code class="language-plaintext highlighter-rouge">aside</code> elements are arguably different “areas of the content”, and the technique requires exactly one link per such area.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"local-navigation"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#local-navigation"</span><span class="nt">&gt;</span>Skip to local navigation<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#main"</span><span class="nt">&gt;</span>Skip to main content<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The Romance of the Three Kingdoms is a 14th century historical novel.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+			<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-11">Passed Example 11</h4>
+
+<p><a class="example-link" title="Passed Example 11" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/f937af9c794522e5f421d5cfc3937d34fad2a9e7.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/" title="Rule Block of Repeated Content is Collapsible"><em>Block of repeated content is collapsible</em></a>. Note that it does not pass <a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR28" title="Technique SCR28: Using an Expandable and Collapsible Menu to Bypass Block of Content">Technique SCR28: Using an expandable and collapsible menu to bypass block of content</a> because the technique requires that the blocks can be toggled on and off, but here they can only be removed.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/toggle-display.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;button</span> <span class="na">onclick=</span><span class="s">"hide('chapters-navigation')"</span><span class="nt">&gt;</span>Hide table of content<span class="nt">&lt;/button&gt;</span>
+
+		<span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"chapters-navigation"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;ol&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a&gt;</span>Chapter 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+				<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Chapter 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+			<span class="nt">&lt;/ol&gt;</span>
+		<span class="nt">&lt;/nav&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-12">Passed Example 12</h4>
+
+<p><a class="example-link" title="Passed Example 12" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/ac55a162907e372577bb09a3fbebf252aea90e64.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is passing rule <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/" title="Rule Document Has an Instrument to Move Focus to Non-Repeated Content"><em>Document has an instrument to move focus to non-repeated content</em></a> because the second link is such an instrument. Note that it does not pass <a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G1" title="Technique G1: Adding a Link at the Top of each Page that Goes Directly to the Main Content Area">Technique G1: Adding a link at the top of each page that goes directly to the main content area</a> because the skip link is not the first <a href="#focusable" title="Definition of Focusable">focusable</a> element on the page.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#main"</span><span class="nt">&gt;</span>Skip to main content<span class="nt">&lt;/a&gt;</span>
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>The Romance of the Three Kingdoms is a 14th century historical novel.<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/55a6cc3efc35180844d75a9f207b456373b1435c.html">Open in a new tab</a></p>
+
+<p>This <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> does not pass any of the input rules.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;title&gt;</span>The Three Kingdoms, Chapter 1<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/test-assets/bypass-blocks-cf77f2/chapter2.html"</span><span class="nt">&gt;</span>Read Chapter 2<span class="nt">&lt;/a&gt;</span>
+
+		<span class="nt">&lt;aside</span> <span class="na">id=</span><span class="s">"about-book"</span><span class="nt">&gt;</span>
+			The Romance of the Three Kingdoms is a 14th century historical novel.
+		<span class="nt">&lt;/aside&gt;</span>
+
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;strong</span> <span class="na">style=</span><span class="s">"font-size: 18pt"</span><span class="nt">&gt;</span>Three Heroes Swear Brotherhood at a Feast in the Peach Garden<span class="nt">&lt;/strong&gt;</span>
+			<span class="nt">&lt;p&gt;</span>
+				Unity succeeds division and division follows unity. One is bound to be replaced by the other after a long span
+				of time.
+			<span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/cf77f2/ecc29b73e37b6a125b3fd9767068dcaa368d467a.svg">Open in a new tab</a></p>
+
+<p>This <a href="https://dom.spec.whatwg.org/#concept-document" title="DOM definition of Document">document</a> is not an <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a>.</p>
+
+<pre><code class="language-svg">&lt;svg xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;title&gt;This is an SVG&lt;/title&gt;
+&lt;/svg&gt;
+</code></pre>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="block-of-content">Block of content</h3>
+
+<p>A <em>block of content</em> in an <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> is a set of nodes from that page for which all the following are true:</p>
+
+<ul>
+  <li><strong>content</strong>: there is at least one node which is <a href="#perceivable-content" title="Definition of Perceivable Content">perceivable content</a> in the block; and</li>
+  <li><strong>continuity</strong>: if two nodes are in the block, then any node between them (in tree order) is also in the block; and</li>
+  <li><strong>downward closure</strong>: if a node is in the block, then all its descendants are also in the block; and</li>
+  <li><strong>parent closure</strong>: if all children of a node are in the block, then this node is also in the block.</li>
+</ul>
+
+<h3 id="block-of-repeated-content">Block of repeated content</h3>
+
+<p>A <a href="#block-of-content" title="Definition of Block of Content">block of content</a> B, inside an <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> P, is a <em>block of repeated content</em> if both the following are true:</p>
+
+<ul>
+  <li><strong>distance 1</strong>: there exist an <a href="#instrument-to-achieve-an-objective" title="Definition of Instrument to Achieve an Objective">instrument</a> in P which leads the user to another <a href="#web-page-html" title="Definition of Web Page (HTML)">HTML web page</a> P’ whose URL has a different <a href="https://url.spec.whatwg.org/#concept-url-host" title="URL specification of Host">host</a>, <a href="https://url.spec.whatwg.org/#concept-url-port" title="URL specification of Port">port</a> (including <a href="https://url.spec.whatwg.org/#default-port" title="URL specification of Default Port">default port</a> for <a href="https://url.spec.whatwg.org/#is-special" title="URL specification of Special URL">special URL</a>), or <a href="https://url.spec.whatwg.org/#concept-url-path" title="URL specification of Path">path</a>; and</li>
+  <li><strong>repeated</strong>: there exist a <a href="#block-of-content" title="Definition of Block of Content">block of content</a> in P’ which is <a href="#equivalent-resource" title="Definition of Equivalent Resource">equivalent</a> to B.</li>
+</ul>
+
+<h3 id="equivalent-resource">Equivalent resource</h3>
+
+<p>Non-identical resources can still be <em>equivalent resources</em> by equally complying to the expectation formed by the user when navigating to them, thus serving an equivalent purpose. This would usually involve that the advertised key content is the same.</p>
+
+<p>Web pages and documents (e.g. PDFs, office formats etc.) may be equivalent resources, even if the resources:</p>
+
+<ul>
+  <li>are located on different URLs, including different domains</li>
+  <li>present different navigation options, e.g. through bread crumbs or local sub menus</li>
+  <li>contain different amounts of information and/or differently worded information</li>
+  <li>use different layouts.</li>
+</ul>
+
+<p>If all resources cover the user’s expectations equally well, the resources are considered to be equivalent.</p>
+
+<p><strong>Note:</strong> The user’s expectations for the resource can be formed by different things, e.g. the name of the link leading to the resource, with or without the context around the link. This depends on the accessibility requirement that is tested.</p>
+
+<p><strong>Note:</strong> If the same content is presented in different formats or languages, the format or language itself is often part of the purpose of the content, e.g. an article as both HTML and PDF, an image in different sizes, or an article in two different languages. If getting the same content in different formats or languages is the purpose of having separate links, the resources are not equivalent.</p>
+
+<h3 id="explicit-role">Explicit Semantic Role</h3>
+
+<p>The <em>explicit semantic role</em> of an element is determined by its <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> (if any).</p>
+
+<p>The <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a> takes a list of tokens. The explicit semantic role is the first valid role in this list. The valid roles are all non-abstract roles from <a href="#wai-aria-specifications" title="Definition of WAI-ARIA specifications">WAI-ARIA Specifications</a>. If the element has no <a href="https://www.w3.org/TR/role-attribute/" title="Specification of the role attribute">role attribute</a>, or if it has one with no valid role, then this element has no explicit semantic role.</p>
+
+<p>Other roles may be added as they become available. Not all roles will be supported in all assistive technologies. Testers are encouraged to adjust which roles are allowed according to the <a href="https://www.w3.org/TR/WCAG-EM/#step1c" title="Definition of accessibility support base line">accessibility support base line</a>. For the purposes of executing examples in all rules, it should be assumed that all roles are supported by assistive technologies so that none of the roles fail due to lack of accessibility support.</p>
+
+<h3 id="focusable">Focusable</h3>
+
+<p>An element is <em>focusable</em> if one or both of the following are true:</p>
+
+<ul>
+  <li>the element is part of <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation">sequential focus navigation</a>; or</li>
+  <li>the element has a <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> that is not null.</li>
+</ul>
+
+<p><strong>Exception</strong>: Elements that lose focus and do not regain focus during a period of up to 1 second after gaining focus, without the user interacting with the page the element is on, are not considered <em>focusable</em>.</p>
+
+<p>Notes:</p>
+
+<ul>
+  <li>The 1 second time span is an arbitrary limit which is not included in WCAG. Given that scripts can manage the focus state of elements, testing the focusability of an element consistently would be impractical without a time limit.</li>
+  <li>The <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> of an element is the value of the <a href="https://html.spec.whatwg.org/#attr-tabindex">tabindex attribute</a> parsed using the <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">rules for parsing integers</a>. For the <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> to be different from null, it needs to be <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">parsed</a> without errors.</li>
+</ul>
+
+<h3 id="implicit-role">Implicit Semantic Role</h3>
+
+<p>The <em>implicit semantic role</em> of an element is a pre-defined value given by the host language which depends on the element and its ancestors.</p>
+
+<p>Implicit roles for HTML and SVG, are documented in the <a href="https://www.w3.org/TR/html-aam/#html-element-role-mappings">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/#mapping_role_table">SVG accessibility API mappings (working draft)</a>.</p>
+
+<h3 id="included-in-the-accessibility-tree">Included in the accessibility tree</h3>
+
+<p>Elements included in the accessibility tree of platform specific accessibility APIs are exposed to assistive technologies. This allows users of assistive technology to access the elements in a way that meets the requirements of the individual user.</p>
+
+<p>The general rules for when elements are included in the accessibility tree are defined in the <a href="https://www.w3.org/TR/core-aam/">core accessibility API mappings</a>. For native markup languages, such as HTML and SVG, additional rules for when elements are included in the accessibility tree can be found in the <a href="https://www.w3.org/TR/html-aam/">HTML accessibility API mappings (working draft)</a> and the <a href="https://www.w3.org/TR/svg-aam/">SVG accessibility API mappings (working draft)</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/included-in-the-accessibility-tree/">examples of included in the accessibility tree</a>.</p>
+
+<p><a href="#programmatically-hidden">Programmatically hidden</a> elements are removed from the accessibility tree. However, some browsers will leave <a href="#focusable">focusable</a> elements with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code> in the accessibility tree. Because they are hidden, these elements are considered <strong>not</strong> included in the accessibility tree. This may cause confusion for users of assistive technologies because they may still be able to interact with these focusable elements using sequential keyboard navigation, even though the element should not be included in the accessibility tree.</p>
+
+<h3 id="instrument-to-achieve-an-objective">Instrument to achieve an objective</h3>
+
+<p>An <a href="https://html.spec.whatwg.org/multipage/dom.html#htmlelement">HTML element</a> that when <a href="https://html.spec.whatwg.org/#activation">activated</a> allows an end-user to achieve an objective.</p>
+
+<p><strong>Note</strong>: Any rule that uses this definition must provide an unambiguous description of the objective the instrument is used to achieve.</p>
+
+<h3 id="just-before">Just before a node</h3>
+
+<p>A node N is <em>just before</em> a node of <a href="#perceivable-content" title="Definition of Perceivable Content">perceivable content</a> P if one of the following is true:</p>
+
+<ul>
+  <li>N and P are the same node; or</li>
+  <li>N is not <a href="#perceivable-content" title="Definition of Perceivable Content">perceivable content</a> and there is no node of <a href="#perceivable-content" title="Definition of Perceivable Content">perceivable content</a> between N and P (in <a href="https://dom.spec.whatwg.org/#concept-tree-order" title="DOM specification of Tree Order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS Definition of Flat Tree">flat tree</a>).</li>
+</ul>
+
+<p>Several nodes may be just before a given node, especially if there are several non-<a href="#perceivable-content" title="Definition of Perceivable Content">perceivable content</a> nodes next to each other.</p>
+
+<h3 id="marked-as-decorative">Marked as decorative</h3>
+
+<p>An element is <em>marked as decorative</em> if one or more of the following conditions is true:</p>
+
+<ul>
+  <li>it has an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a> of <code class="language-plaintext highlighter-rouge">none</code> or <code class="language-plaintext highlighter-rouge">presentation</code>; or</li>
+  <li>it is an <code class="language-plaintext highlighter-rouge">img</code> element with an <code class="language-plaintext highlighter-rouge">alt</code> attribute whose value is the empty string (<code class="language-plaintext highlighter-rouge">alt=""</code>), and with no <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>.</li>
+</ul>
+
+<p>Elements are marked as decorative as a way to convey the intention of the author that they are <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a>. It is different from the element actually being <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a> as authors may make mistakes. It is different from the element being effectively ignored by assistive technologies as rules such as <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">presentational roles conflict resolution</a> may overwrite this intention.</p>
+
+<p>Elements can also be ignored by assistive technologies if they are <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>. This is different from marking the element as decorative and does not convey the same intention. Notably, being <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a> may change as users interact with the page (showing and hiding elements) while being marked as decorative should stay the same through all states of the page.</p>
+
+<h3 id="non-repeated-content">Non-repeated content after repeated content</h3>
+
+<p>A node is <em>non-repeated content after repeated content</em> if all the following are true:</p>
+
+<ul>
+  <li>the node is <a href="#perceivable-content" title="Definition of Perceivable Content">perceivable content</a>; and</li>
+  <li>the node is not part of any <a href="#block-of-repeated-content" title="Definition of Block of Repeated Content">block of repeated content</a>; and</li>
+  <li>the node is after (in <a href="https://dom.spec.whatwg.org/#concept-tree-order" title="DOM specification of Tree Order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS Definition of Flat Tree">flat tree</a>) at least one <a href="#block-of-repeated-content" title="Definition of Block of Repeated Content">block of repeated content</a>.</li>
+</ul>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>A conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> or one of its constituent test target. An outcome can be one of the five following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+  <li><strong>cantTell:</strong> Whether the rule is applicable, or not all expectations were met could not be fully determined by the tester.</li>
+  <li><strong>Untested</strong>: The tester has not attempted to evaluate the test subject.</li>
+</ul>
+
+<p><strong>Note</strong>: A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When a tester evaluates a test target it can also be reported as <code class="language-plaintext highlighter-rouge">cantTell</code> if the rule cannot be tested in its entirety. For example, when applicability was automated, but the expectations have to be evaluated manually.</p>
+
+<p>When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. If the tester is unable to determine whether there are test targets there will be one <code class="language-plaintext highlighter-rouge">cantTell</code> outcome. And when no evaluation has occurred the test target has one untested outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format-1.1/#test-subject">test subject</a> always has one or more outcomes.</p>
+
+<p>Outcomes used in ACT Rules can be expressed using the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a> of the <a href="https://www.w3.org/TR/act-rules-format-1.1/#biblio-earl10-schema">EARL10-Schema</a>.</p>
+
+<h3 id="perceivable-content">Perceivable content</h3>
+
+<p>A node is <em>perceivable content</em> if all the following are true:</p>
+
+<ul>
+  <li>the node is <a href="https://html.spec.whatwg.org/multipage/dom.html#palpable-content" title="HTML specification of palpable content">palpable content</a>; and</li>
+  <li>the node is either <a href="#visible" title="Definition of visible">visible</a> or <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a>; and</li>
+  <li>if the node is an element, it does not have a <a href="#semantic-role" title="Definition of semantic role">semantic role</a> of <code class="language-plaintext highlighter-rouge">none</code> or <code class="language-plaintext highlighter-rouge">presentation</code>.</li>
+</ul>
+
+<p>Perceivable content corresponds to nodes that contain information and are perceived by some categories of users.</p>
+
+<h3 id="programmatically-hidden">Programmatically Hidden</h3>
+
+<p>An HTML element is <em>programmatically hidden</em> if either it has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">visibility</code> whose value is not <code class="language-plaintext highlighter-rouge">visible</code>; or at least one of the following is true for any of its <a href="https://dom.spec.whatwg.org/#concept-tree-inclusive-ancestor" title="DOM Definition of Inclusive Ancestor">inclusive ancestors</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS Definition of Flat Tree">flat tree</a>:</p>
+
+<ul>
+  <li>has a <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> CSS property <code class="language-plaintext highlighter-rouge">display</code> of <code class="language-plaintext highlighter-rouge">none</code>; or</li>
+  <li>has an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code></li>
+</ul>
+
+<p><strong>Note</strong>: Contrary to the other conditions, the <code class="language-plaintext highlighter-rouge">visibility</code> CSS property may be reverted by descendants.</p>
+
+<p><strong>Note</strong>: The <a href="https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements">HTML standard suggests</a> setting the CSS <code class="language-plaintext highlighter-rouge">display</code> property to <code class="language-plaintext highlighter-rouge">none</code> for elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute. While not required by HTML, all modern browsers follow this suggestion. Because of this the <code class="language-plaintext highlighter-rouge">hidden</code> attribute is not used in this definition. In browsers that use this suggestion, overriding the CSS <code class="language-plaintext highlighter-rouge">display</code> property can reveal elements with the <code class="language-plaintext highlighter-rouge">hidden</code> attribute.</p>
+
+<h3 id="semantic-role">Semantic Role</h3>
+
+<p>The <em>semantic role</em> of an element is determined by the first of these cases that applies:</p>
+
+<ol>
+  <li><strong>Conflict</strong> If the element is <a href="#marked-as-decorative" title="Definition of Marked as Decorative">marked as decorative</a>, but the element is <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a>; or would be <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a> when it is not <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>, then its <em>semantic role</em> is its <strong><a href="#implicit-role" title="Definition of Implicit Role">implicit role</a></strong>.</li>
+  <li><strong>Explicit</strong> If the element has an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>, then its <em>semantic role</em> is its <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a>.</li>
+  <li><strong>Implicit</strong> The <em>semantic role</em> of the element is its <a href="#implicit-role" title="Definition of Implicit Role">implicit role</a>.</li>
+</ol>
+
+<p>This definition can be used in expressions such as “semantic <code class="language-plaintext highlighter-rouge">button</code>” meaning any element with a semantic role of <code class="language-plaintext highlighter-rouge">button</code>.</p>
+
+<h3 id="visible">Visible</h3>
+
+<p>Content perceivable through sight.</p>
+
+<p>Content is considered <em>visible</em> if making it fully transparent would result in a difference in the pixels rendered for any part of the document that is currently within the viewport or can be brought into the viewport via scrolling.</p>
+
+<p><a href="https://www.w3.org/TR/WCAG22/#dfn-content">Content is defined in WCAG</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/visible/">examples of visible</a>.</p>
+
+<h3 id="wai-aria-specifications">WAI-ARIA specifications</h3>
+
+<p>The <em>WAI ARIA Specifications</em> group both the WAI ARIA W3C Recommendation and ARIA modules, namely:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/wai-aria-1.2/">Accessible Rich Internet Applications (WAI-ARIA) 1.2</a></li>
+  <li><a href="https://www.w3.org/TR/graphics-aria-1.0/">WAI-ARIA Graphics Module 1.0</a></li>
+  <li><a href="https://www.w3.org/TR/dpub-aria-1.0/">Digital Publishing WAI-ARIA Module 1.0</a></li>
+</ul>
+
+<p><strong>Note:</strong> depending on the type of content being evaluated, part of the specifications might be irrelevant and should be ignored.</p>
+
+<h3 id="web-page-html">Web page (HTML)</h3>
+
+<p>An <em>HTML <a href="https://www.w3.org/TR/WCAG22/#dfn-web-page-s">web page</a></em> is the set of all <a href="https://html.spec.whatwg.org/#fully-active">fully active</a> <a href="https://dom.spec.whatwg.org/#concept-document">documents</a> which share the same <a href="https://html.spec.whatwg.org/#top-level-browsing-context">top-level browsing context</a>.</p>
+
+<p><strong>Note:</strong> Nesting of browsing context mostly happens with <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code>. Thus a web page will most of the time be a “top-level” document and all its <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> (recursively).</p>
+
+<p><strong>Note:</strong> <a href="https://www.w3.org/TR/WCAG22/#dfn-web-page-s">Web pages</a> as defined by WCAG are not restricted to the HTML technology but can also include, <em>e.g.</em>, PDF or DOCX documents.</p>
+
+<p><strong>Note:</strong> Although web pages as defined here are sets of <a href="https://dom.spec.whatwg.org/#concept-document">documents</a> (and do not contain other kind of nodes), one can abusively write that any node is “in a web page” if it is a <a href="https://dom.spec.whatwg.org/#concept-shadow-including-descendant">shadow-including descendant</a> of a <a href="https://dom.spec.whatwg.org/#concept-document">document</a> that is part of that web page.</p>
+
+
+<h2 id="ruleversions">Rule Versions</h2>
+
+<p>This is the first version of this ACT rule.</p>
+<h2 id="implementations">Implementations</h2>
+  <p>This section is not part of the official rule. It is populated dynamically and 
+    not accounted for in the change history or the last modified date.</p>
+  <div class="scroll-wrap">
+    <table class="act-implementations">
+      <thead>
+        <tr>
+          <th>Implementation</th>
+          <th>Type</th>
+          <th>Consistency</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Axe DevTools Pro 4.37.1</td>
+            <td>Semi-automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-devtools-pro#breakdown-cf77f2"><img alt="Axe DevTools Pro Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Axe-core 4.10.2</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-core#breakdown-cf77f2"><img alt="Axe-core Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>QualWeb 3.0.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-cf77f2"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2.5.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-cf77f2"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Webmate Accessibility Workbench </td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-cf77f2"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+<h2 id="usefullinks">Useful Links</h2>
+<ul>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+cf77f2+">
+    Github issues related to this rule
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues/new?title=%20[cf77f2]">
+    Open a new issue
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/edit/develop/_rules/bypass-blocks-cf77f2.md">
+    Propose a change to the rule
+  </a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-wcag-act@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> cf77f2</p>
+<p><strong>Date:</strong> Updated 7 October 2025</p>
+<p><strong>Authors:</strong> <a href="https://github.com/Jym77">Jean-Yves Moyen</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
+
+<p><strong>Assets:</strong> Test cases use assets from the following sources: <em>Romance of the Three Kingdoms</em> by Luo Guanzhong, translation by Charles Henry Brewitt-Taylor (Tuttle Publishing, 1925, ISBN 9780804834674); <em>Three Kingdoms</em> by Luo Guanzhong, translation by Moss Roberts (Foreign Language Press, 1976, ISBN 7-119-00590-1); <em>The Three Kingdoms</em> by Luo Guanzhong, translation by Yu Sumei (Tuttle publishing, 2014, ISBN 9780804843935)</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

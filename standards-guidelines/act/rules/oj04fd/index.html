@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Element in sequential focus order has visible focus | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1766164832008576013"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Element in sequential focus order has visible focus" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/oj04fd/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/oj04fd/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Element in sequential focus order has visible focus" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Element in sequential focus order has visible focus","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/oj04fd/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-element-in-sequential-focus-order-has-visible-focus  tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/standards-guidelines/act/rules/">
+          ACT Rules
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Rules for accessibility conformance testing (ACT)
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="ACT Rule">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/">All Rules</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/rules/about/">About</a></li>
+            
+                <li class="nav__item"><a href="/WAI/standards-guidelines/act/implementations/">Implementations</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#description">Description</a></li>
+                
+                <li><a href="#applicability">Applicability</a></li>
+                
+                <li><a href="#expectation">Expectation</a></li>
+                
+                <li><a href="#assumptions">Assumptions</a></li>
+                
+                <li><a href="#accessibility-support">Accessibility Support</a></li>
+                
+                <li><a href="#background">Background</a></li>
+                
+                <li><a href="#accessibility-requirements-mapping">Accessibility Requirements Mapping</a></li>
+                
+                <li><a href="#input-aspects">Input Aspects</a></li>
+                
+                <li><a href="#test-cases">Test Cases</a></li>
+                
+                <li><a href="#glossary">Glossary</a></li>
+                
+                <li><a href="#ruleversions">Rule Versions</a></li>
+                
+                <li><a href="#implementations">Implementations</a></li>
+                
+                <li><a href="#usefullinks">Useful Links</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Element in sequential focus order has visible focus
+            </h1>
+        </header>
+
+        <aside class="box"> 
+  <header class="box-h box-h-icon"> 
+    Rule Mapping 
+  </header>
+  <div class="box-i"> 
+   <p>This is an <strong>Atomic rule</strong>
+    to test
+    <strong>2.4.7: Focus Visible (Level AA)</strong>
+  </p>
+  </div>
+ </aside>
+
+<h2 id="description">Description</h2>
+<p>This rule checks that each element in sequential focus order has some visible focus indication.</p>
+
+
+<h2 id="applicability">Applicability</h2>
+
+<p>The rule applies to any element which is part of <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML specification of Sequential focus navigation">sequential focus navigation</a> in an <a href="https://html.spec.whatwg.org/#document">HTML document</a>.</p>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>For each target element, there is at least one device pixel inside the <a href="https://drafts.csswg.org/cssom-view/#scrolling-area" title="CSS specification of Scrolling Area">scrolling area</a> of the <a href="https://drafts.csswg.org/css2/#viewport" title="CSS definition of Viewport">viewport</a> whose <a href="https://www.w3.org/TR/css-color-3/#hsl-color">HSL color value</a> is different when the element is <a href="#focused" title="Definition of Focused">focused</a> from when it is not.</p>
+
+<h2 id="assumptions">Assumptions</h2>
+
+<p>There are no assumptions.</p>
+
+<h2 id="accessibility-support">Accessibility Support</h2>
+
+<p>There are no accessibility support issues known.</p>
+
+<h2 id="background">Background</h2>
+
+<p>Default styling in user agents provides a focus indication for focusable elements (even those that are not focusable by default), as shown in Passed Examples 1 and 2. Many examples in this rule need to <strong>remove</strong> that indicator in order to illustrate various situations. This is bad practice and should normally be avoided.</p>
+
+<p>WCAG 2.0 and 2.1 do not have any requirement of how big or small focus indicator should be, or how far or near from the <a href="#focusable" title="Definition of Focusable">focusable</a> element it should be. Thus it is possible to pass this rule and <a href="https://www.w3.org/TR/WCAG21/#focus-visible" title="Success Criterion 2.4.7 Focus Visible">Success Criterion 2.4.7 Focus Visible</a> with barely perceptible changes at the other end of the page. That would however still be an accessibility issue. WCAG 2.2 includes <a href="https://www.w3.org/TR/WCAG22/#focus-appearance" title="Success Criterion 2.4.11 Focus Appearance">Success Criterion 2.4.11 Focus Appearance</a> and <a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum" title="Success Criterion 2.4.12 Focus Not Obscured (Minimum)">Success Criterion 2.4.12 Focus Not Obscured (Minimum)</a> specifying how big the focus indicator should be. All Passed Examples in this rule satisfy those success criteria.</p>
+
+<p>WCAG does not require that the focus indicator for each <a href="#focusable" title="Definition of Focusable">focusable</a> element is unique in appearance. Therefore, this rule can pass even if several focus indicators are identical. Such a situation may nonetheless cause confusion and all examples in this rule avoid it.</p>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/WCAG21/#focus-visible" title="Success Criterion 2.4.7 Focus Visible">Success Criterion 2.4.7 Focus Visible</a></li>
+  <li><a href="https://www.w3.org/TR/WCAG22/#focus-appearance" title="Success Criterion 2.4.11 Focus Appearance">Success Criterion 2.4.11 Focus Appearance</a></li>
+  <li><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum" title="Success Criterion 2.4.12 Focus Not Obscured (Minimum)">Success Criterion 2.4.12 Focus Not Obscured (Minimum)</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html" title="Understanding Success Criterion 2.4.7: Focus Visible">Understanding Success Criterion 2.4.7: Focus Visible</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html" title="Understanding Success Criterion 2.4.11: Focus Appearance">Understanding Success Criterion 2.4.11: Focus Appearance</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html" title="Understanding Success Criterion 2.4.12: Focus Not Obscured (Minimum)">Understanding Success Criterion 2.4.12: Focus Not Obscured (Minimum)</a></li>
+</ul>
+
+<h2 id="accessibility-requirements-mapping">Accessibility Requirements Mapping</h2>
+
+<ul class="act-requirements-list">
+  <li><details>
+    <summary><span>2.4.7 Focus Visible (Level AA)</span></summary>
+    <ul>
+      <li><a href="https://www.w3.org/TR/WCAG21/#focus-visible">Learn more about 2.4.7 Focus Visible</a></li>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level AA and higher.</li>
+      <li>Outcome mapping: <ul>
+        <li>Any <code>failed</code> outcomes: success criterion is not satisfied</li>
+        <li>All <code>passed</code> outcomes: success criterion needs further testing</li>
+        <li>An <code>inapplicable</code> outcome: success criterion needs further testing</li>
+      </ul></li>
+    </ul>
+  </details></li>
+</ul>
+
+<h2 id="input-aspects">Input Aspects</h2>
+
+<p>The following aspects are required in using this rule.</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-css">CSS styling</a></li>
+  <li><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM tree</a></li>
+</ul>
+
+<h2 id="test-cases">Test Cases</h2>
+
+<details class="act-inline-assets">
+  <summary><span>These Javascript and CSS files are used in several examples:</span></summary>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/focus-visible-oj04fd/script.js"><code class="language-plaintext highlighter-rouge">/test-assets/focus-visible-oj04fd/script.js</code></a>:</p>
+
+  <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">toggleActivation</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">).</span><span class="nx">classList</span><span class="p">.</span><span class="nf">toggle</span><span class="p">(</span><span class="dl">'</span><span class="s1">active</span><span class="dl">'</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>  </div>
+
+  <p>File <a href="https://w3.org/WAI/content-assets/wcag-act-rules/test-assets/focus-visible-oj04fd/styles.css"><code class="language-plaintext highlighter-rouge">/test-assets/focus-visible-oj04fd/styles.css</code></a>:</p>
+
+  <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.indicator</span> <span class="p">{</span>
+	<span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;</span>
+	<span class="nl">width</span><span class="p">:</span> <span class="m">1em</span><span class="p">;</span>
+	<span class="nl">height</span><span class="p">:</span> <span class="m">1em</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.solid.active</span> <span class="p">{</span>
+	<span class="nl">background-color</span><span class="p">:</span> <span class="no">navy</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.border.active</span> <span class="p">{</span>
+	<span class="nl">border</span><span class="p">:</span> <span class="nb">medium</span> <span class="nb">solid</span> <span class="no">navy</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.no-focus-default</span><span class="nd">:focus</span> <span class="p">{</span>
+	<span class="c">/* Never do that without defining other focus indication! */</span>
+	<span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>  </div>
+
+</details>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/52be6331dc0978990a8b806a9a4a84bf738a43e1.html">Open in a new tab</a></p>
+
+<p>The <a href="#focusable" title="Definition of Focusable">focusable</a> element is part of <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML specification of Sequential focus navigation">sequential focus navigation</a>. It has an outline when it is <a href="#focused" title="Definition of Focused">focused</a> (due to default User Agent’s styling). The outline has a different <code class="language-plaintext highlighter-rouge">hsl</code> value compared to the <code class="language-plaintext highlighter-rouge">hsl</code> value of the background over which the outline appears (the exact values depend on the type of browser being used).</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/95cf4fdf26825900e91a30eaf6c2235516db79f9.html">Open in a new tab</a></p>
+
+<p>The <a href="#focusable" title="Definition of Focusable">focusable</a> element is part of <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML specification of Sequential focus navigation">sequential focus navigation</a>. It has an outline when it is <a href="#focused" title="Definition of Focused">focused</a> (due to default User Agent’s styling). The outline has a different <code class="language-plaintext highlighter-rouge">hsl</code> value compared to the <code class="language-plaintext highlighter-rouge">hsl</code> value of the background over which the outline appears (the exact values depend on the type of browser being used).</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">tabindex=</span><span class="s">"0"</span><span class="nt">&gt;</span>Act rules<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/b44aa294df6f0de62f11f6ae732087d92c90b448.html">Open in a new tab</a></p>
+
+<p>The <a href="#focusable" title="Definition of Focusable">focusable</a> element is part of <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML specification of Sequential focus navigation">sequential focus navigation</a>. Its parent <code class="language-plaintext highlighter-rouge">span</code> puts a border around it when it is <a href="#focused" title="Definition of Focused">focused</a> (the border of the <code class="language-plaintext highlighter-rouge">span</code> element). The border’s <code class="language-plaintext highlighter-rouge">hsl</code> value (<code class="language-plaintext highlighter-rouge">hsl(240, 100%, 25%)</code>) is different to the <code class="language-plaintext highlighter-rouge">hsl</code> value of the background (<code class="language-plaintext highlighter-rouge">hsl(0, 0%, 100%)</code>) over which the border appears.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/test-assets/focus-visible-oj04fd/styles.css"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/test-assets/focus-visible-oj04fd/script.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"indicator"</span> <span class="na">class=</span><span class="s">"border"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;a</span>
+		<span class="na">id=</span><span class="s">"act"</span>
+		<span class="na">class=</span><span class="s">"no-focus-default"</span>
+		<span class="na">onfocus=</span><span class="s">"toggleActivation('indicator')"</span>
+		<span class="na">onblur=</span><span class="s">"toggleActivation('indicator')"</span>
+		<span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span>
+		<span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a</span>
+	<span class="nt">&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-4">Passed Example 4</h4>
+
+<p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/dd9628d86628e285fe99ce98efdacbe441c20ca5.html">Open in a new tab</a></p>
+
+<p>Each of these three <a href="#focusable" title="Definition of Focusable">focusable</a> elements has a blue square in front of it when it is <a href="#focused" title="Definition of Focused">focused</a>. The square’s <code class="language-plaintext highlighter-rouge">hsl</code> value (<code class="language-plaintext highlighter-rouge">hsl(240, 100%, 25%)</code>) is different to the <code class="language-plaintext highlighter-rouge">hsl</code> value of the background (<code class="language-plaintext highlighter-rouge">hsl(0, 0%, 100%)</code>) over which the square appears.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/test-assets/focus-visible-oj04fd/styles.css"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/test-assets/focus-visible-oj04fd/script.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"indicator-act"</span> <span class="na">class=</span><span class="s">"indicator solid"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;a</span>
+	<span class="na">id=</span><span class="s">"act"</span>
+	<span class="na">class=</span><span class="s">"no-focus-default"</span>
+	<span class="na">onfocus=</span><span class="s">"toggleActivation('indicator-act'); toggleActivation('indicator-wcag')"</span>
+	<span class="na">onblur=</span><span class="s">"toggleActivation('indicator-act'); toggleActivation('indicator-wcag')"</span>
+	<span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span>
+	<span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a</span>
+<span class="nt">&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"indicator-wcag"</span> <span class="na">class=</span><span class="s">"indicator solid"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;a</span>
+	<span class="na">id=</span><span class="s">"wcag"</span>
+	<span class="na">class=</span><span class="s">"no-focus-default"</span>
+	<span class="na">onfocus=</span><span class="s">"toggleActivation('indicator-wcag'); toggleActivation('indicator-w3c')"</span>
+	<span class="na">onblur=</span><span class="s">"toggleActivation('indicator-wcag'); toggleActivation('indicator-w3c')"</span>
+	<span class="na">href=</span><span class="s">"https://www.w3.org/TR/WCAG21/"</span>
+	<span class="nt">&gt;</span>WCAG<span class="nt">&lt;/a</span>
+<span class="nt">&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"indicator-w3c"</span> <span class="na">class=</span><span class="s">"indicator solid"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;a</span>
+	<span class="na">id=</span><span class="s">"w3c"</span>
+	<span class="na">class=</span><span class="s">"no-focus-default"</span>
+	<span class="na">onfocus=</span><span class="s">"toggleActivation('indicator-w3c'); toggleActivation('indicator-final')"</span>
+	<span class="na">onblur=</span><span class="s">"toggleActivation('indicator-w3c'); toggleActivation('indicator-final')"</span>
+	<span class="na">href=</span><span class="s">"https://www.w3.org/"</span>
+	<span class="nt">&gt;</span>WCAG<span class="nt">&lt;/a</span>
+<span class="nt">&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"indicator-final"</span> <span class="na">class=</span><span class="s">"indicator solid"</span><span class="nt">&gt;&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/f1c9efb4c8d1b5f7870c693bce2e6ca046dd768d.html">Open in a new tab</a></p>
+
+<p>The <a href="#focusable" title="Definition of Focusable">focusable</a> element does not have any pixel changing color when it is <a href="#focused" title="Definition of Focused">focused</a> because the default styling has been overwritten by a style that removes the outline.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/test-assets/focus-visible-oj04fd/styles.css"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"no-focus-default"</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/90789ad82a761b7697418e8cb403db103f0925a2.html">Open in a new tab</a></p>
+
+<p>This document contains no <a href="#focusable" title="Definition of Focusable">focusable</a> element.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span&gt;</span>ACT rules<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
+
+<p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/b12f1f45eef29c30197ca3bda79d793cd90eeadd.html">Open in a new tab</a></p>
+
+<p>None of the <a href="#focusable" title="Definition of Focusable">focusable</a> elements in this document are part of <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML specification of Sequential focus navigation">sequential focus navigation</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">href=</span><span class="s">"https://www.w3.org/TR/WCAG21/"</span><span class="nt">&gt;</span>WCAG<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="focusable">Focusable</h3>
+
+<p>An element is <em>focusable</em> if one or both of the following are true:</p>
+
+<ul>
+  <li>the element is part of <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML specification of Sequential focus navigation">sequential focus navigation</a>; or</li>
+  <li>the element has a <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> that is not null.</li>
+</ul>
+
+<p><strong>Exception</strong>: Elements that lose focus during a period of up to 1 second after gaining focus, without the user interacting with the page the element is on, are not considered <em>focusable</em>.</p>
+
+<p>Notes:</p>
+
+<ul>
+  <li>The 1 second time span is an arbitrary limit which is not included in WCAG. Given that scripts can manage the focus state of elements, testing the focusability of an element consistently would be impractical without a time limit.</li>
+  <li>The <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> of an element is the value of the <a href="https://html.spec.whatwg.org/#attr-tabindex">tabindex attribute</a> parsed using the <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">rules for parsing integers</a>. For the <a href="https://html.spec.whatwg.org/#tabindex-value">tabindex value</a> to be different from null, it needs to be <a href="https://html.spec.whatwg.org/#rules-for-parsing-integers">parsed</a> without errors.</li>
+</ul>
+
+<h3 id="focused">Focused</h3>
+
+<p>An element is said to be <em>focused</em> when the element matches the <a href="https://drafts.csswg.org/selectors-4/#focus-pseudo"><code class="language-plaintext highlighter-rouge">:focus</code> pseudo-class</a> uninterruptedly for a period of 1 second after a user stopped interacting with the page.</p>
+
+<p>The 1 second time span is an arbitrary limit which is not included in WCAG. Given the possibility of the focus state of elements being managed through scripts, testing the focused state of an element consistently would be impractical without a time limit.</p>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>An <em>outcome</em> is a conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+</ul>
+
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+
+<p><strong>Note:</strong> Implementations using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the <code class="language-plaintext highlighter-rouge">incomplete</code> outcome.</p>
+
+
+<h2 id="ruleversions">Rule Versions</h2>
+
+<ol>
+  <li>
+      <a href="/WAI/standards-guidelines/act/rules/oj04fd/proposed/"> 
+        Proposed version, 30 August 2023</a>
+      (<a target="_blank" href="https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Foj04fd%2F&amp;doc2=https%3A%2F%2Fwww.w3.org%2FWAI%2Fstandards-guidelines%2Fact%2Frules%2Foj04fd%2Fproposed%2F">compare</a>)
+  </li>
+  <li>
+      
+        Latest version, 30 August 2023
+  </li>
+</ol>
+<h2 id="implementations">Implementations</h2>
+  <p>This section is not part of the official rule. It is populated dynamically and 
+    not accounted for in the change history or the last modified date.</p>
+  <div class="scroll-wrap">
+    <table class="act-implementations">
+      <thead>
+        <tr>
+          <th>Implementation</th>
+          <th>Type</th>
+          <th>Consistency</th>
+          <th>Report</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>Alfa (fully automated) 0.104.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-oj04fd"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Alfa (semi-automated) 0.104.0</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/alfa-assisted#breakdown-oj04fd"><img alt="Alfa (semi-automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Axe DevTools Pro 4.37.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-devtools-pro#breakdown-oj04fd"><img alt="Axe DevTools Pro Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>QualWeb 3.0.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-oj04fd"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>SortSite 6.55</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-oj04fd"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator (+Browser) 17.4.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-oj04fd"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Trusted Tester 5.1</td>
+            <td>Test methodology</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/trusted-tester#breakdown-oj04fd"><img alt="Trusted Tester Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2.5.1</td>
+            <td>Semi-automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-oj04fd"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+<h2 id="usefullinks">Useful Links</h2>
+<ul>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues?utf8=%E2%9C%93&amp;q=is%3Aissue+is%3Aopen+oj04fd+">
+    Github issues related to this rule
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/issues/new?title=%20[oj04fd]">
+    Open a new issue
+  </a></li>
+  <li><a href="https://github.com/act-rules/act-rules.github.io/edit/develop/_rules/sequentially-focusable-element-has-visible-focus-oj04fd.md">
+    Propose a change to the rule
+  </a></li>
+</ul>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-wcag-act@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-wcag-act@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> oj04fd</p>
+<p><strong>Date:</strong> Updated 30 August 2023</p>
+<p><strong>Authors:</strong> <a href="https://github.com/Jym77">Jean-Yves Moyen</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It was approved and published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

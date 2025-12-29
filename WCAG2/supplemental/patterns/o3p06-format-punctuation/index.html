@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Use Clear, Unambiguous Formatting and Punctuation | Cognitive Accessibility Design Pattern | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Use Clear, Unambiguous Formatting and Punctuation" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="User Need I need words to include accents, characters, and diacritics that are necessary to phonetically read the words. What to Do Use punctuation and format for text, numbers, and symbols that reduce ambiguity and improve readability and comprehension. How it Helps For some readers, decoding words, numbers, and symbols does not happen automatically and can be demanding on working memory and executive functions. If they find content too demanding they are at risk of losing its meaning. Some users may use assistive technology or personalization tools to help understand content such as text-to-speech that reads aloud the content. However, sometimes the punctuation or format makes it more likely that the screen reader will read it incorrectly. For example, Roman numerals may be read as text. A user with a learning disability may be unable to manipulate letters, numbers, and words to correct mistakes that occur because of formatting or punctuation errors. They also need to focus on understanding the meaning of the content in order to use it. For example, a user with a communication disability may listen to content using text-to-speech. If the content is phrased correctly, they can understand it. Sometimes they hear content read incorrectly or skipped, particularly numbers and symbols, and they cannot understand it. If text, numbers or symbols are in an unfamiliar layout, the user may become confused. In contrast, a blind person listening to the content, is likely to be able to figure out the correct meaning even when words are not pronounced correctly. However, the word manipulations necessary to work out the correct meaning are not achievable by someone with a communications or language impairment. More Details Use language tags. Language tags are the key means to achieve the goal of unambiguous text formatting. See HTML [[HTML]] language tags and BCP 47 Language Codes. Use punctuation correctly for the language you are writing in, as it will affect how the stress and intonation (known as prosody) patterns from the text are heard, when converted into speech. For example, in English, commas and semicolons will result in a short pause in the speech, whereas a hyphen - will generally be ignored. Question marks, exclamation marks, and speech marks can result in changes in intonation, such as a rise in the pitch of the voice. Avoid the use of Roman Numerals and unfamiliar symbols in text where possible. These can confuse readers and are likely to be read incorrectly by text-to-speech tools. If these symbols are necessary then ensure they are marked up correctly, using techniques such as MathML and abbreviation expansions to provide additional support. Roman Numerals should be presented in upper case if used in isolation as they are likely to be read as individual letters. Long numbers may be read as single digits or phrased as a single number. This is a particular problem for phone numbers or zip codes. While it is difficult to control exactly how these numbers are read aloud, content creators can help by: Displaying the content of the number and using HTML semantics to ensure users and assistive technologies are aware of the number’s purpose. In addition, the following recommendations can assist with improving text-to-speech rendering: For phone numbers, use the correct layout for the locality of the phone number and ensure users can select the whole phone number (including area code), so that text-to-speech voices can recognize the format and phrase it correctly. For Zip / Postal codes, include state or address information close to the number so that speech voices can expand known abbreviations (such as state names) and listeners can perceive the context. When writing long numbers, consider what separators will be familiar to your readers and how it will be read aloud. In general, English speaking countries will use commas between thousands and a period as the decimal separator whereas German and other European countries do the opposite. For example, 1,245 would represent one thousand two hundred and forty-five in English, but one point two four five in German. Text-to-speech output will assume the separators are being used in the format of the language of its voice. If this does not match the content, then listeners can become easily confused. While replacing thousand separators with a space has become a common convention to avoid confusion, it leads to difficulties with text-to-speech with long numbers being read out in a disjointed fashion. For example, 120 034 943 can be read as one hundred and twenty, zero three four, nine hundred and forty-three. Examples Use: Dates that can be read and understood in any culture. Consider how you write dates, because once again the text-to-speech will use the format associated with the language of the voice. A date such as 04/03/2019 will be read as “April 3rd 2019” by a US English voice and “4th of March 2019” by a British English voice. Writing out the month in words can avoid confusion. Avoid: Dates and numbers that are not clear or read differently based on culture." />
+<meta property="og:description" content="User Need I need words to include accents, characters, and diacritics that are necessary to phonetically read the words. What to Do Use punctuation and format for text, numbers, and symbols that reduce ambiguity and improve readability and comprehension. How it Helps For some readers, decoding words, numbers, and symbols does not happen automatically and can be demanding on working memory and executive functions. If they find content too demanding they are at risk of losing its meaning. Some users may use assistive technology or personalization tools to help understand content such as text-to-speech that reads aloud the content. However, sometimes the punctuation or format makes it more likely that the screen reader will read it incorrectly. For example, Roman numerals may be read as text. A user with a learning disability may be unable to manipulate letters, numbers, and words to correct mistakes that occur because of formatting or punctuation errors. They also need to focus on understanding the meaning of the content in order to use it. For example, a user with a communication disability may listen to content using text-to-speech. If the content is phrased correctly, they can understand it. Sometimes they hear content read incorrectly or skipped, particularly numbers and symbols, and they cannot understand it. If text, numbers or symbols are in an unfamiliar layout, the user may become confused. In contrast, a blind person listening to the content, is likely to be able to figure out the correct meaning even when words are not pronounced correctly. However, the word manipulations necessary to work out the correct meaning are not achievable by someone with a communications or language impairment. More Details Use language tags. Language tags are the key means to achieve the goal of unambiguous text formatting. See HTML [[HTML]] language tags and BCP 47 Language Codes. Use punctuation correctly for the language you are writing in, as it will affect how the stress and intonation (known as prosody) patterns from the text are heard, when converted into speech. For example, in English, commas and semicolons will result in a short pause in the speech, whereas a hyphen - will generally be ignored. Question marks, exclamation marks, and speech marks can result in changes in intonation, such as a rise in the pitch of the voice. Avoid the use of Roman Numerals and unfamiliar symbols in text where possible. These can confuse readers and are likely to be read incorrectly by text-to-speech tools. If these symbols are necessary then ensure they are marked up correctly, using techniques such as MathML and abbreviation expansions to provide additional support. Roman Numerals should be presented in upper case if used in isolation as they are likely to be read as individual letters. Long numbers may be read as single digits or phrased as a single number. This is a particular problem for phone numbers or zip codes. While it is difficult to control exactly how these numbers are read aloud, content creators can help by: Displaying the content of the number and using HTML semantics to ensure users and assistive technologies are aware of the number’s purpose. In addition, the following recommendations can assist with improving text-to-speech rendering: For phone numbers, use the correct layout for the locality of the phone number and ensure users can select the whole phone number (including area code), so that text-to-speech voices can recognize the format and phrase it correctly. For Zip / Postal codes, include state or address information close to the number so that speech voices can expand known abbreviations (such as state names) and listeners can perceive the context. When writing long numbers, consider what separators will be familiar to your readers and how it will be read aloud. In general, English speaking countries will use commas between thousands and a period as the decimal separator whereas German and other European countries do the opposite. For example, 1,245 would represent one thousand two hundred and forty-five in English, but one point two four five in German. Text-to-speech output will assume the separators are being used in the format of the language of its voice. If this does not match the content, then listeners can become easily confused. While replacing thousand separators with a space has become a common convention to avoid confusion, it leads to difficulties with text-to-speech with long numbers being read out in a disjointed fashion. For example, 120 034 943 can be read as one hundred and twenty, zero three four, nine hundred and forty-three. Examples Use: Dates that can be read and understood in any culture. Consider how you write dates, because once again the text-to-speech will use the format associated with the language of the voice. A date such as 04/03/2019 will be read as “April 3rd 2019” by a US English voice and “4th of March 2019” by a British English voice. Writing out the month in words can avoid confusion. Avoid: Dates and numbers that are not clear or read differently based on culture." />
+<link rel="canonical" href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p06-format-punctuation/" />
+<meta property="og:url" content="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p06-format-punctuation/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-12-19T17:20:32+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Use Clear, Unambiguous Formatting and Punctuation" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"dateModified":"2025-12-19T17:20:32+00:00","datePublished":"2025-12-19T17:20:32+00:00","description":"User Need I need words to include accents, characters, and diacritics that are necessary to phonetically read the words. What to Do Use punctuation and format for text, numbers, and symbols that reduce ambiguity and improve readability and comprehension. How it Helps For some readers, decoding words, numbers, and symbols does not happen automatically and can be demanding on working memory and executive functions. If they find content too demanding they are at risk of losing its meaning. Some users may use assistive technology or personalization tools to help understand content such as text-to-speech that reads aloud the content. However, sometimes the punctuation or format makes it more likely that the screen reader will read it incorrectly. For example, Roman numerals may be read as text. A user with a learning disability may be unable to manipulate letters, numbers, and words to correct mistakes that occur because of formatting or punctuation errors. They also need to focus on understanding the meaning of the content in order to use it. For example, a user with a communication disability may listen to content using text-to-speech. If the content is phrased correctly, they can understand it. Sometimes they hear content read incorrectly or skipped, particularly numbers and symbols, and they cannot understand it. If text, numbers or symbols are in an unfamiliar layout, the user may become confused. In contrast, a blind person listening to the content, is likely to be able to figure out the correct meaning even when words are not pronounced correctly. However, the word manipulations necessary to work out the correct meaning are not achievable by someone with a communications or language impairment. More Details Use language tags. Language tags are the key means to achieve the goal of unambiguous text formatting. See HTML [[HTML]] language tags and BCP 47 Language Codes. Use punctuation correctly for the language you are writing in, as it will affect how the stress and intonation (known as prosody) patterns from the text are heard, when converted into speech. For example, in English, commas and semicolons will result in a short pause in the speech, whereas a hyphen - will generally be ignored. Question marks, exclamation marks, and speech marks can result in changes in intonation, such as a rise in the pitch of the voice. Avoid the use of Roman Numerals and unfamiliar symbols in text where possible. These can confuse readers and are likely to be read incorrectly by text-to-speech tools. If these symbols are necessary then ensure they are marked up correctly, using techniques such as MathML and abbreviation expansions to provide additional support. Roman Numerals should be presented in upper case if used in isolation as they are likely to be read as individual letters. Long numbers may be read as single digits or phrased as a single number. This is a particular problem for phone numbers or zip codes. While it is difficult to control exactly how these numbers are read aloud, content creators can help by: Displaying the content of the number and using HTML semantics to ensure users and assistive technologies are aware of the number’s purpose. In addition, the following recommendations can assist with improving text-to-speech rendering: For phone numbers, use the correct layout for the locality of the phone number and ensure users can select the whole phone number (including area code), so that text-to-speech voices can recognize the format and phrase it correctly. For Zip / Postal codes, include state or address information close to the number so that speech voices can expand known abbreviations (such as state names) and listeners can perceive the context. When writing long numbers, consider what separators will be familiar to your readers and how it will be read aloud. In general, English speaking countries will use commas between thousands and a period as the decimal separator whereas German and other European countries do the opposite. For example, 1,245 would represent one thousand two hundred and forty-five in English, but one point two four five in German. Text-to-speech output will assume the separators are being used in the format of the language of its voice. If this does not match the content, then listeners can become easily confused. While replacing thousand separators with a space has become a common convention to avoid confusion, it leads to difficulties with text-to-speech with long numbers being read out in a disjointed fashion. For example, 120 034 943 can be read as one hundred and twenty, zero three four, nine hundred and forty-three. Examples Use: Dates that can be read and understood in any culture. Consider how you write dates, because once again the text-to-speech will use the format associated with the language of the voice. A date such as 04/03/2019 will be read as “April 3rd 2019” by a US English voice and “4th of March 2019” by a British English voice. Writing out the month in words can avoid confusion. Avoid: Dates and numbers that are not clear or read differently based on culture.","headline":"Use Clear, Unambiguous Formatting and Punctuation","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p06-format-punctuation/"},"url":"https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p06-format-punctuation/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-use-clear-unambiguous-formatting-and-punctuation resource-patterns tight-page">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      
+          Supplemental Guidance to WCAG 2
+        
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          Additional ways to improve accessibility, not required to meet WCAG)
+      </p>
+    
+  </div>
+  
+  <a class="minimal-header-link" href="/WAI/WCAG2/supplemental/about/">About Supplemental Guidance and WCAG</a>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+          
+          <nav class="nav standalone-resource-pager" aria-label="Cognitive Accessibility Design Pattern">
+            <ul>
+                <li class="nav__item">
+                    <a href="/WAI/WCAG2/supplemental/#cognitiveaccessibilityguidance"><img src="/WAI/content-images/wai-wcag-supplemental/brain.svg" alt="" class="category-icon">All Cognitive</a>
+                
+                </li>
+
+                
+                    
+
+
+
+
+
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/objectives/o3-clear-content/"><svg focusable="false" aria-hidden="true" class="icon-arrow-up-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up-thin"></use></svg> Objective: Use Clear and Understandable Content</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o3p05-succinct-text/"><svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-left-thin"></use></svg> Previous Pattern</a></li>
+                    
+                    
+                        <li class="nav__item"><a href="/WAI/WCAG2/supplemental/patterns/o3p07-symbols-letters/">Next Pattern <svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon"><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-right-thin"></use></svg></a></li>
+                    
+                
+            </ul>
+          </nav>
+        
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#userneed">User Need</a></li>
+                
+                <li><a href="#whattodo">What to Do</a></li>
+                
+                <li><a href="#howithelps">How it Helps</a></li>
+                
+                <li><a href="#moredetails">More Details</a></li>
+                
+                <li><a href="#examples">Examples</a></li>
+                
+                <li><a href="#userstoriesandpersonas">User Stories and Personas</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                Cognitive Accessibility Design Pattern:
+              </span>
+              
+              Use Clear, Unambiguous Formatting and Punctuation
+            </h1>
+        </header>
+
+        <section>
+  <h2 id="userneed">User Need</h2>
+  <blockquote>
+    <p>
+      I need words to include accents, characters, and diacritics that are
+      necessary to phonetically read the words.
+    </p>
+  </blockquote>
+  
+</section>
+<section class="wtd">
+  <h2 id="whattodo">What to Do</h2>
+  <p>
+    Use punctuation and format for text, numbers, and symbols that reduce
+    ambiguity and improve readability and comprehension.
+  </p>
+</section>
+<section>
+  <h2 id="howithelps">How it Helps</h2>
+  <p>
+    For some readers, decoding words, numbers, and symbols does not happen
+    automatically and can be demanding on working memory and
+    executive functions. If they find content too demanding they are at
+    risk of losing its meaning.
+  </p>
+  <p>
+    Some users may use assistive technology or personalization tools to help
+    understand content such as text-to-speech that reads aloud the content.
+    However, sometimes the punctuation or format makes it more likely that the
+    screen reader will read it incorrectly. For example, Roman numerals may be
+    read as text.
+  </p>
+  <p>
+    A user with a learning disability may be unable to manipulate letters,
+    numbers, and words to correct mistakes that occur because of formatting or
+    punctuation errors. They also need to focus on understanding the meaning of
+    the content in order to use it.
+  </p>
+  <p>
+    For example, a user with a communication disability may listen to content
+    using text-to-speech. If the content is phrased correctly, they can
+    understand it. Sometimes they hear content read incorrectly or skipped,
+    particularly numbers and symbols, and they cannot understand it. If text,
+    numbers or symbols are in an unfamiliar layout, the user may become
+    confused.
+  </p>
+  <p>
+    In contrast, a blind person listening to the content, is likely to be able
+    to figure out the correct meaning even when words are not pronounced
+    correctly. However, the word manipulations necessary to work out the correct
+    meaning are not achievable by someone with a communications or language
+    impairment.
+  </p>
+</section>
+<section>
+  <h2 id="moredetails">More Details</h2>
+  <p>
+    <strong>Use language tags. </strong>Language tags are the key means to
+    achieve the goal of unambiguous text formatting. See HTML [[HTML]] language
+    tags and
+    <a href="https://tools.ietf.org/html/bcp47">BCP 47 Language Codes</a>.
+  </p>
+  <p>
+    <strong>Use punctuation correctly</strong> for the language you are writing
+    in, as it will affect how the stress and intonation (known as prosody)
+    patterns from the text are heard, when converted into speech. For example,
+    in English, commas and semicolons will result in a short pause in the
+    speech, whereas a hyphen - will generally be ignored. Question marks,
+    exclamation marks, and speech marks can result in changes in intonation,
+    such as a rise in the pitch of the voice.
+  </p>
+  <p>
+    <strong>Avoid the use of Roman Numerals and unfamiliar symbols</strong>
+    in text where possible. These can confuse readers and are likely to be read
+    incorrectly by text-to-speech tools. If these symbols are necessary then
+    ensure they are marked up correctly, using techniques such as MathML and
+    abbreviation expansions to provide additional support. Roman Numerals should
+    be presented in upper case if used in isolation as they are likely to be
+    read as individual letters.
+  </p>
+  <p>
+    Long numbers may be read as single digits or phrased as a single number.
+    This is a particular problem for phone numbers or zip codes. While it is
+    difficult to control exactly how these numbers are read aloud, content
+    creators can help by:
+  </p>
+  <ul>
+    <li>
+      Displaying the content of the number and using HTML semantics to ensure
+      users and assistive technologies are aware of the number’s purpose. In
+      addition, the following recommendations can assist with improving
+      text-to-speech rendering:
+    </li>
+    <li>
+      For phone numbers, use the correct layout for the locality of the phone
+      number and ensure users can select the whole phone number (including area
+      code), so that text-to-speech voices can recognize the format and phrase
+      it correctly.
+    </li>
+    <li>
+      For Zip / Postal codes, include state or address information close to the
+      number so that speech voices can expand known abbreviations (such as state
+      names) and listeners can perceive the context.
+    </li>
+    <li>
+      When writing long numbers, consider what separators will be familiar to
+      your readers and how it will be read aloud. In general, English speaking
+      countries will use commas between thousands and a period as the decimal
+      separator whereas German and other European countries do the opposite. For
+      example, 1,245 would represent one thousand two hundred and forty-five in
+      English, but one point two four five in German. Text-to-speech output will
+      assume the separators are being used in the format of the language of its
+      voice. If this does not match the content, then listeners can become
+      easily confused. While replacing thousand separators with a space has
+      become a common convention to avoid confusion, it leads to difficulties
+      with text-to-speech with long numbers being read out in a disjointed
+      fashion. For example, 120 034 943 can be read as one hundred and twenty,
+      zero three four, nine hundred and forty-three.
+    </li>
+  </ul>
+</section>
+<section>
+  <h2 id="examples">Examples</h2>
+  <p><span class="use"></span><strong>Use:</strong></p>
+  <ol>
+    <li>
+      Dates that can be read and understood in any culture.
+      <p>
+        Consider how you write dates, because once again the text-to-speech will
+        use the format associated with the language of the voice. A date such as
+        04/03/2019 will be read as “April 3rd 2019” by a US English voice and
+        “4th of March 2019” by a British English voice. Writing out the month in
+        words can avoid confusion.
+      </p>
+    </li>
+  </ol>
+  <p><span class="avoid"> </span><strong>Avoid:</strong></p>
+  <ol>
+    <li>
+      Dates and numbers that are not clear or read differently based on culture.
+    </li>
+  </ol>
+</section>
+
+
+
+<section>
+    <h2 id="userstoriesandpersonas">User Stories and Personas</h2>
+
+    
+    
+        <h3>User Story</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#clear-language-written-or-audio-user-story">Clear Language
+                                
+                                
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+        <h3>Personas</h3>
+        <ul>
+            
+                
+                
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#george-a-user-who-works-in-a-supermarket-and-has-down-syndrome">George
+                                
+                                
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#kwame-a-traumatic-brain-injury-survivor">Kwame
+                                :
+                                
+                                A Traumatic Brain Injury Survivor
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#sam-a-librarian-who-has-a-hemiplegia-and-aphasia">Sam
+                                :
+                                
+                                A Librarian who has a Hemiplegia and Aphasia
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li>
+                            <a href="https://www.w3.org/TR/coga-usable/#yuki-a-yoga-teacher-who-has-ad-h-d">Yuki
+                                :
+                                
+                                A Yoga Teacher who has AD(H)D
+                                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>
+                        </li>
+                    
+                
+            
+        </ul>
+    
+
+    <h3>Glossary</h3>
+    <ul>
+        <li><a href="https://www.w3.org/TR/coga-usable/#glossary">Cognitive Accessibility Glossary<svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a></li>
+    </ul>
+</section>
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-cognitive-a11y-tf@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-cognitive-a11y-tf@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/wai-wcag-supplemental/edit/main/_collections/_patterns/o3p06-format-punctuation.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wai-wcag-supplemental/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p06-format-punctuation/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Date:</strong> Content first published 29 April 2021 in <a href="https://www.w3.org/TR/coga-usable/">Making Content  Usable for People with Cognitive and Learning Disabilities</a> ("Content Usable"). This user interface posted in January 2022.</p> <p>This content is from the "Content Usable" Working Group Note by Cognitive and Learning Disabilities Accessibility Task Force  (<a href="https://www.w3.org/groups/tf/cognitive-a11y-tf">Coga TF</a>) <a href="https://www.w3.org/groups/tf/cognitive-a11y-tf/participants">participants</a>. It is published by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>) and the  Accessible Platform Architectures (<a href="https://www.w3.org/groups/wg/apa">APA</a>) Working Group. This user interface was  designed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>) with contributions from Steve Lee, Hidde de Vries, Shadi Abou-Zahra, and Shawn Lawton Henry, as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/"> WAI-Guide project</a>, co-funded by the European Commission.</p>
+</div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

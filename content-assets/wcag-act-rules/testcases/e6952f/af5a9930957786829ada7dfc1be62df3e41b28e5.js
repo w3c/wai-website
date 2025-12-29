@@ -1,0 +1,1 @@
+var foo = '<img src="/WAI/content-assets/wcag-act-rules/test-assets/shared/w3c-logo.png" alt="W3C logo" />'

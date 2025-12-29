@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Patterns | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Patterns" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/ARIA/apg/patterns/" />
+<meta property="og:url" content="https://www.w3.org/WAI/ARIA/apg/patterns/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Patterns" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Patterns","url":"https://www.w3.org/WAI/ARIA/apg/patterns/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-patterns ">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/ARIA/apg/">
+          ARIA Authoring Practices Guide (APG)
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          How to build accessibility semantics into web patterns and widgets
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="APG">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/">APG Home</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/patterns/" class="active" aria-current="page">Patterns</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/practices/">Practices</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/example-index/">Index</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/about/">About</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Patterns
+            </h1>
+        </header>
+
+        <meta charset="UTF-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Patterns</title>
+
+<script src="../../../content-assets/wai-aria-practices/shared/js/highlight.pack.js"></script>
+
+<script src="../../../content-assets/wai-aria-practices/shared/js/app.js"></script>
+
+<script src="../../../content-assets/wai-aria-practices/shared/js/filterBySearch.js"></script>
+
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/styles.css" />
+
+<!-- Code highlighting styles -->
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/shared/css/github.css" />
+
+<script>
+    const parentPage = window.location.pathname.match(
+      /\/(patterns|practices|about)\//
+    )?.[1];
+    if (parentPage) {
+      const parentHref = 'a[href*="' + parentPage + '"]';
+      document.querySelector(parentHref).classList.add('active');
+    }
+  </script>
+
+<div>
+
+    
+    
+    <section class="pattern-filter-section">
+      <h2>Filter Patterns</h2>
+      <div class="pattern-filter-flex-container">
+      <form action="javascript:void(0);" role="search">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 20 20">
+          <g transform="translate(-3.5 -3.5)" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M20.5,12.5a8,8,0,1,1-8-8,8,8,0,0,1,8,8Z"></path>
+            <path d="M29.325,29.325l-4.35-4.35" transform="translate(-6.825 -6.825)"></path>
+          </g>
+        </svg>
+        <input type="text" id="pattern-filter-input" placeholder="Filter patterns" oninput="aria.Filter.filterListItems(this.value, '#patterns', 'pattern-name', 'no-patterns-found')" aria-label="Filter patterns" />
+        <button id="clear-pattern-filter" aria-label="Clear pattern filter" onclick="aria.Filter.clearInput(document.getElementById('pattern-filter-input'), '#patterns', 'pattern-name', 'no-patterns-found')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+            <path d="M17.5,8.507,16.493,7.5,12.5,11.493,8.507,7.5,7.5,8.507,11.493,12.5,7.5,16.493,8.507,17.5,12.5,13.507,16.493,17.5,17.5,16.493,13.507,12.5Z" transform="translate(-7.5 -7.5)"></path>
+          </svg>
+        </button>
+      </form>
+      <fieldset class="view-toggle">
+        <button id="listViewButton" onclick="aria.Filter.onViewButtonClicked(this)" aria-pressed="false" aria-label="Show list view">
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 25 21">
+            <g transform="translate(0 -0.4)" fill="currentColor">
+              <path d="M4,20.775H1a1.135,1.135,0,0,0-1,1v3a1.135,1.135,0,0,0,1,1H4a1.135,1.135,0,0,0,1-1v-3A1.135,1.135,0,0,0,4,20.775Zm20,1H9a1.135,1.135,0,0,0-1,1v1a1.135,1.135,0,0,0,1,1H24a1.135,1.135,0,0,0,1-1v-1A1.135,1.135,0,0,0,24,21.775Z" transform="translate(0 -20.375)"></path>
+              <path d="M4,20.775H1a1.135,1.135,0,0,0-1,1v3a1.135,1.135,0,0,0,1,1H4a1.135,1.135,0,0,0,1-1v-3A1.135,1.135,0,0,0,4,20.775Zm20,1H9a1.135,1.135,0,0,0-1,1v1a1.135,1.135,0,0,0,1,1H24a1.135,1.135,0,0,0,1-1v-1A1.135,1.135,0,0,0,24,21.775Z" transform="translate(0 -12.375)"></path>
+              <path d="M4,20.775H1a1.135,1.135,0,0,0-1,1v3a1.135,1.135,0,0,0,1,1H4a1.135,1.135,0,0,0,1-1v-3A1.135,1.135,0,0,0,4,20.775Zm20,1H9a1.135,1.135,0,0,0-1,1v1a1.135,1.135,0,0,0,1,1H24a1.135,1.135,0,0,0,1-1v-1A1.135,1.135,0,0,0,24,21.775Z" transform="translate(0 -4.375)"></path>
+            </g>
+          </svg>
+        </button>
+        <button id="tilesViewButton" onclick="aria.Filter.onViewButtonClicked(this)" aria-pressed="true" aria-label="Show tiles view" class="active">
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" viewBox="0 0 22 22">
+            <g transform="translate(0 -0.5)" fill="currentColor">
+              <rect width="9" height="9" rx="1" transform="translate(0 0.5)"></rect>
+              <rect width="9" height="9" rx="1" transform="translate(0 13.5)"></rect>
+              <rect width="9" height="9" rx="1" transform="translate(13 0.5)"></rect>
+              <rect width="9" height="9" rx="1" transform="translate(13 13.5)"></rect>
+            </g>
+          </svg>
+        </button>
+      </fieldset>
+      </div>
+    </section>
+    <ul id="patterns" class="tiles">
+      <li class="pattern">
+        <a href="accordion/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-accordion.svg" />
+            <span>Accordion (Sections With Show/Hide Functionality)</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          An accordion is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="alert/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-alert.svg" />
+            <span>Alert</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          An alert is an element that displays a brief, important message in a way that attracts the user's attention without interrupting the user's task.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="alertdialog/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-alertdialog.svg" />
+            <span>Alert and Message Dialogs</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          An alert dialog is a modal dialog that interrupts the user's workflow to communicate an important message and acquire a response.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="breadcrumb/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-breadcrumb.svg" />
+            <span>Breadcrumb</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A breadcrumb trail consists of a list of links to the parent pages of the current page in hierarchical order.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="button/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-button.svg" />
+            <span>Button</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A button is a widget that enables users to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="carousel/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-carousel.svg" />
+            <span>Carousel (Slide Show or Image Rotator)</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A carousel presents a set of items, referred to as slides, by sequentially displaying a subset of one or more slides.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="checkbox/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-checkbox.svg" />
+            <span>Checkbox</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          WAI-ARIA supports two types of checkbox widgets: dual-state checkboxes toggle between two choices -- checked and not checked -- and tri-state checkboxes, which allow an additional third state known as partially checked.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="combobox/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-combobox.svg" />
+            <span>Combobox</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A combobox is an input widget that has an associated popup.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="dialog-modal/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-dialog-modal.svg" />
+            <span>Dialog (Modal)</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A dialog is a window overlaid on either the primary window or another dialog window.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="disclosure/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-disclosure.svg" />
+            <span>Disclosure (Show/Hide)</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A disclosure is a widget that enables content to be either collapsed (hidden) or expanded (visible).
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="feed/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-feed.svg" />
+            <span>Feed</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A feed is a section of a page that automatically loads new sections of content as the user scrolls.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="grid/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-grid.svg" />
+            <span>Grid (Interactive Tabular Data and Layout Containers)</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A grid widget is a container that enables users to navigate the information or interactive elements it contains using directional navigation keys, such as arrow keys, Home, and End.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="landmarks/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-landmarks.svg" />
+            <span>Landmarks</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          Landmarks are a set of eight roles that identify the major sections of a page.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="link/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-link.svg" />
+            <span>Link</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A link widget provides an interactive reference to a resource.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="listbox/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-listbox.svg" />
+            <span>Listbox</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A listbox widget presents a list of options and allows a user to select one or more of them.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="menubar/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-menubar.svg" />
+            <span>Menu and Menubar</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A menu is a widget that offers a list of choices to the user, such as a set of actions or functions.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="menu-button/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-menu-button.svg" />
+            <span>Menu Button</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A menu button is a button that opens a menu as described in the Menu and Menubar Pattern.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="meter/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-meter.svg" />
+            <span>Meter</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A meter is a graphical display of a numeric value that varies within a defined range.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="radio/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-radio.svg" />
+            <span>Radio Group</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A radio group is a set of checkable buttons, known as radio buttons, where no more than one of the buttons can be checked at a time.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="slider/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-slider.svg" />
+            <span>Slider</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A slider is an input where the user selects a value from within a given range.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="slider-multithumb/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-slider-multithumb.svg" />
+            <span>Slider (Multi-Thumb)</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A multi-thumb slider implements the Slider Pattern but includes two or more thumbs, often on a single rail.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="spinbutton/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-spinbutton.svg" />
+            <span>Spinbutton</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A spinbutton is an input widget that restricts its value to a set or range of discrete values.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="switch/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-switch.svg" />
+            <span>Switch</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A switch is an input widget that allows users to choose one of two values: on or off.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="table/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-table.svg" />
+            <span>Table</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          Like an HTML table element, a WAI-ARIA table is a static tabular structure containing one or more rows that each contain one or more cells; it is not an interactive widget.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="tabs/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-tabs.svg" />
+            <span>Tabs</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="toolbar/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-toolbar.svg" />
+            <span>Toolbar</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A toolbar is a container for grouping a set of controls, such as buttons, menubuttons, or checkboxes.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="tooltip/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-tooltip.svg" />
+            <span>Tooltip</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A tooltip is a popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="treeview/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-treeview.svg" />
+            <span>Tree View</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A tree view widget presents a hierarchical list.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="treegrid/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-treegrid.svg" />
+            <span>Treegrid</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A treegrid widget presents a hierarchical data grid consisting of tabular information that is editable or interactive.
+        </div>
+      </li>
+
+      <li class="pattern">
+        <a href="windowsplitter/">
+          <h2 class="pattern-name">
+            <img alt="" src="../../../content-images/wai-aria-practices/images/pattern-windowsplitter.svg" />
+            <span>Window Splitter</span>
+          </h2>
+        </a>
+        <div class="pattern-introduction">
+          A window splitter is a moveable separator between two sections, or panes, of a window that enables users to change the relative size of the panes.
+        </div>
+      </li>
+
+      <li id="no-patterns-found" aria-hidden="true" style="display: none">
+        <h2>No results found.</h2>
+      </li>
+    </ul>
+  
+  
+</div>
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/skipto.js" data-skipto="colorTheme:aria; displayOption:popup; containerElement:div"></script>
+
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/read-this-first.js" data-read-this-first="showImage:true"></script>
+
+
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-aria-practices@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/aria-practices/edit/main/content/patterns/patterns.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

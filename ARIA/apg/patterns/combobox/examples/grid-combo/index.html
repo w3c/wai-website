@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1766164832008576013";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1766164832008576013">
+
+<title> Editable Combobox with Grid Popup Example | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Editable Combobox with Grid Popup Example" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/grid-combo/" />
+<meta property="og:url" content="https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/grid-combo/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Editable Combobox with Grid Popup Example" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Editable Combobox with Grid Popup Example","url":"https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/grid-combo/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-editable-combobox-with-grid-popup-example ">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header class="minimal-header" id="site-header">
+  <div class="minimal-header-container">
+    <div class="minimal-header-name">
+      <a href="/WAI/ARIA/apg/">
+          ARIA Authoring Practices Guide (APG)
+        </a>
+    </div>
+    
+      <p class="minimal-header-subtitle">
+          How to build accessibility semantics into web patterns and widgets
+      </p>
+    
+  </div>
+  
+  <div class="minimal-header-logo">
+    <a href="/WAI/">
+      <img alt="W3C" src="/WAI/assets/images/w3c2.svg" width="92" height="44"/>
+      <img alt="Web Accessibility Initiative" src="/WAI/assets/images/wai.svg"/>
+    </a>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="APG">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/">APG Home</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/patterns/">Patterns</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/practices/">Practices</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/example-index/">Index</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/about/">About</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#support-notice-header">Read This First</a></li>
+                
+                <li><a href="#aboutthisexample">About This Example</a></li>
+                
+                <li><a href="#ex_label">Example</a></li>
+                
+                <li><a href="#accessibilityfeatures">Accessibility Features</a></li>
+                
+                <li><a href="#kbd_label">Keyboard Support</a></li>
+                
+                <li><a href="#rps_label">Role, Property, State, and Tabindex Attributes</a></li>
+                
+                <li><a href="#javascriptandcsssourcecode">JavaScript and CSS Source Code</a></li>
+                
+                <li><a href="#sc1_label">HTML Source Code</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Editable Combobox with Grid Popup Example
+            </h1>
+        </header>
+
+        <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Editable Combobox with Grid Popup Example</title>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/examples.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/highlight.pack.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/app.js"></script>
+
+<link href="../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/css/grid-combo.css" rel="stylesheet">
+
+<script src="../../../../../../content-assets/wai-aria-practices/shared/js/utils.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/js/grid-combo.js"></script>
+
+<script src="../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/js/grid-combo-example.js"></script>
+
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/styles.css">
+
+<!-- Code highlighting styles -->
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/shared/css/github.css">
+
+<script>
+const addBodyClass = undefined;
+const enableSidebar = true;
+if (addBodyClass) document.body.classList.add(addBodyClass);
+if (enableSidebar) document.body.classList.add('has-sidebar');
+</script>
+
+<script>
+    const parentPage = window.location.pathname.match(
+      /\/(patterns|practices|about)\//
+    )?.[1];
+    if (parentPage) {
+      const parentHref = 'a[href*="' + parentPage + '"]';
+      document.querySelector(parentHref).classList.add('active');
+    }
+  </script>
+
+<div>
+
+    <h2 id="support-notice-header">Read This First</h2>
+    <details id="support-notice">
+      <summary>
+        The code in this example is not intended for production environments.
+        Before using it for any purpose, read this to understand why.
+      </summary>
+      <p>This is an illustrative example of one way of using ARIA that conforms with the ARIA specification.</p>
+      <ul>
+        <li>
+          There may be support gaps in some
+          <a href="../../../../practices/read-me-first/#browser_and_AT_support">browser and assistive technology combinations</a>,
+          especially for
+          <a href="../../../../practices/read-me-first/#mobile_and_touch_support">mobile/touch devices</a>.
+          Testing code based on this example with assistive technologies is essential before considering use in production systems.
+        </li>
+        <li>The <a href="https://aria-at.w3.org">ARIA and Assistive Technologies Project</a> is developing measurements of assistive technology support for APG examples.</li>
+        <li>
+          Robust accessibility can be further optimized by choosing implementation patterns that <a href="https://www.w3.org/TR/using-aria/#rule1">maximize use of semantic HTML</a> and heeding the warning that
+          <a href="../../../../practices/read-me-first/#no_aria_better_bad_aria">No ARIA is better than Bad ARIA</a>.
+        </li>
+      </ul>
+    </details>
+  
+    
+    <div>
+      
+
+      <section>
+        <h2 id="aboutthisexample">About This Example</h2>
+        <img alt="" class="example-page-example-icon" src="../../../../../../content-images/wai-aria-practices/images/pattern-combobox.svg">
+        <p>
+          The following example combobox implements the <a href="../../">combobox pattern</a> using a grid for the suggested values popup.
+        </p>
+        <p>
+          In this example, users can specify the name of a fruit or vegetable by either typing a value in the box or choosing from the set of values presented in a grid popup.
+          The popup becomes available after the textbox contains a character that matches the beginning of the name of one of the items in the set of value suggestions.
+          Users may type any value in the textbox; this implementation does not limit input to values that are in the set of value suggestions.
+        </p>
+        <p>
+          The grid that presents suggested values has two columns.
+          Each row of the grid represents one suggestion; column one contains the name of the fruit or vegetable and column two identifies whether it is a fruit or vegetable.
+        </p>
+        <p>Similar examples include:</p>
+        <ul>
+          <li><a href="../combobox-select-only/">Select-Only Combobox</a>: A single-select combobox with no text input that is functionally similar to an HTML <code>select</code> element.</li>
+          <li><a href="../combobox-autocomplete-both/">Editable Combobox with Both List and Inline Autocomplete</a>: An editable combobox that demonstrates the autocomplete behavior known as <q>list with inline autocomplete</q>.</li>
+          <li><a href="../combobox-autocomplete-list/">Editable Combobox with List Autocomplete</a>: An editable combobox that demonstrates the autocomplete behavior known as <q>list with manual selection</q>.</li>
+          <li><a href="../combobox-autocomplete-none/">Editable Combobox Without Autocomplete</a>: An editable combobox that demonstrates the behavior associated with <code>aria-autocomplete=none</code>.</li>
+          <li><a href="../combobox-datepicker/">Date Picker Combobox</a>: An editable date input combobox that opens a dialog containing a calendar grid and buttons for navigating by month and year.</li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="example-header">
+          <h2 id="ex_label">Example</h2>
+        </div>
+        <div role="separator" id="ex_start_sep" aria-labelledby="ex_start_sep ex_label" aria-label="Start of"></div>
+        <div id="ex1">
+          <label for="ex1-input" id="ex1-label" class="combobox-label"> Fruits and vegetables </label>
+          <div class="combobox-wrapper">
+            <div id="ex1-combobox">
+              <input type="text" role="combobox" aria-haspopup="grid" aria-expanded="false" aria-autocomplete="list" aria-controls="ex1-grid" id="ex1-input">
+            </div>
+            <div aria-labelledby="ex1-label" role="grid" id="ex1-grid" class="grid hidden"></div>
+          </div>
+        </div>
+        <div role="separator" id="ex_end_sep" aria-labelledby="ex_end_sep ex_label" aria-label="End of"></div>
+      </section>
+
+      <section>
+        <h2 id="accessibilityfeatures">Accessibility Features</h2>
+        <p>
+          Browsers do not manage visibility of elements referenced by <code>aria-activedescendant</code> like they do for elements with focus.
+          When a keyboard event changes the active option in the listbox, the JavaScript scrolls the option referenced by <code>aria-activedescendant</code> into view.
+          Managing <code>aria-activedescendant</code> visibility is essential to accessibility for people who use a browser's zoom feature to increase the size of content.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="kbd_label">Keyboard Support</h2>
+        <p>
+          The example combobox on this page implements the following keyboard interface.
+          Other variations and options for the keyboard interface are described in the <a href="../../#keyboard_interaction">Keyboard Interaction section of the combobox pattern.</a>
+        </p>
+        <h3 id="kbd_label_textbox">Textbox</h3>
+        <div class="table-wrap"><table aria-labelledby="kbd_label_textbox kbd_label" class="def">
+          <thead>
+            <tr>
+              <th>Key</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="textbox-key-down-arrow">
+              <th><kbd>Down Arrow</kbd></th>
+              <td>If the grid is displayed, moves focus to the first suggested value.</td>
+            </tr>
+            <tr data-test-id="textbox-key-up-arrow">
+              <th><kbd>Up Arrow</kbd></th>
+              <td>If the grid is displayed, moves focus to the last suggested value.</td>
+            </tr>
+            <tr data-test-id="textbox-key-escape">
+              <th><kbd>Escape</kbd></th>
+              <td>
+                <ul>
+                  <li>If the grid is displayed, closes it.</li>
+                  <li>If the grid is not displayed, clears the textbox.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="standard-single-line-editing-keys">
+              <th>Standard single line text editing keys</th>
+              <td>
+                <ul>
+                  <li>Keys used for cursor movement and text manipulation, such as <kbd>Delete</kbd> and <kbd>Shift</kbd> + <kbd>Right Arrow</kbd>.</li>
+                  <li>
+                    An HTML <code>input</code> with <code>type=<q>text</q></code> is used for the textbox so the browser will provide platform-specific editing keys.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table></div>
+        <h3 id="kbd_label_popup">Grid Popup</h3>
+        <p>
+          <strong>NOTE:</strong> When visual focus is in the grid, DOM focus remains on the textbox and the value of <code>aria-activedescendant</code> on the textbox is set to a value that refers to an element in the grid that is visually indicated as focused.
+          Where the following descriptions of keyboard commands mention focus, they are referring to the visual focus indicator.
+          For more information about this focus management technique, see
+          <a href="../../../../practices/keyboard-interface/#kbd_focus_activedescendant">Managing Focus in Composites Using aria-activedescendant</a>.
+        </p>
+        <div class="table-wrap"><table aria-labelledby="kbd_label_popup kbd_label" class="def">
+          <thead>
+            <tr>
+              <th>Key</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="popup-key-enter">
+              <th><kbd>Enter</kbd></th>
+              <td>
+                <ul>
+                  <li>Sets the textbox value to the content of the first cell in the row containing focus.</li>
+                  <li>Closes the grid popup.</li>
+                  <li>Sets focus on the textbox.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="popup-key-escape">
+              <th><kbd>Escape</kbd></th>
+              <td>
+                <ul>
+                  <li>Closes the grid.</li>
+                  <li>Sets visual focus on the textbox.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="popup-key-down-arrow">
+              <th><kbd>Down Arrow</kbd></th>
+              <td>
+                <ul>
+                  <li>Moves focus to the next row.</li>
+                  <li>If focus is in the last row, moves focus to the first row.</li>
+                  <li>Note: This wrapping behavior is useful when <kbd>Home</kbd> and <kbd>End</kbd> move the editing cursor as described below.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="popup-key-up-arrow">
+              <th><kbd>Up Arrow</kbd></th>
+              <td>
+                <ul>
+                  <li>Moves focus to the previous row.</li>
+                  <li>If focus is in the first row, moves focus to the last row.</li>
+                  <li>Note: This wrapping behavior is useful when <kbd>Home</kbd> and <kbd>End</kbd> move the editing cursor as described below.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="popup-key-right-arrow">
+              <th><kbd>Right Arrow</kbd></th>
+              <td>
+                <ul>
+                  <li>Moves focus to the next cell.</li>
+                  <li>If focus is in the last cell in a row, moves focus to the first cell in the next row.</li>
+                  <li>If focus is in the last cell in the last row, moves focus to the first cell in the first row.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="popup-key-left-arrow">
+              <th><kbd>Left Arrow</kbd></th>
+              <td>
+                <ul>
+                  <li>Moves focus to the previous cell.</li>
+                  <li>If focus is in the first cell in a row, moves focus to the last cell in the previous row.</li>
+                  <li>If focus is in the first cell in the first row, moves focus to the last cell in the last row.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="popup-key-home">
+              <th><kbd>Home</kbd></th>
+              <td>Moves focus to the textbox and places the editing cursor at the beginning of the field.</td>
+            </tr>
+            <tr data-test-id="popup-key-end">
+              <th><kbd>End</kbd></th>
+              <td>Moves focus to the textbox and places the editing cursor at the end of the field.</td>
+            </tr>
+            <tr data-test-id="popup-key-char">
+              <th>Printable Characters</th>
+              <td>
+                <ul>
+                  <li>Moves focus to the textbox.</li>
+                  <li>Types the character in the textbox.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section>
+        <h2 id="rps_label">Role, Property, State, and Tabindex Attributes</h2>
+        <p>
+          The example comboboxes on this page implement the following ARIA roles, states, and properties.
+          Information about other ways of applying ARIA roles, states, and properties is available in the <a href="../../#roles_states_properties">Roles, States, and Properties section of the combobox pattern.</a>
+        </p>
+        <h3 id="rps_label_textbox">Textbox</h3>
+        <div class="table-wrap"><table aria-labelledby="rps_label_textbox rps_label" class="data attributes">
+          <thead>
+            <tr>
+              <th scope="col">Role</th>
+              <th scope="col">Attribute</th>
+              <th scope="col">Element</th>
+              <th scope="col">Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="combobox-role">
+              <th scope="row">
+                <code>combobox</code>
+              </th>
+              <td></td>
+              <td><code>input[type="text"]</code></td>
+              <td>Identifies the element as a combobox.</td>
+            </tr>
+            <tr data-test-id="combobox-aria-haspopup">
+              <td></td>
+              <th scope="row">
+                <code>aria-haspopup="grid"</code>
+              </th>
+              <td><code>input[type="text"]</code></td>
+              <td>Indicates that the combobox can popup a <code>grid</code> to suggest values.</td>
+            </tr>
+            <tr data-test-id="combobox-aria-expanded">
+              <td></td>
+              <th scope="row">
+                <code>aria-expanded="false"</code>
+              </th>
+              <td><code>input[type="text"]</code></td>
+              <td>Indicates that the popup element <strong>is not</strong> displayed.</td>
+            </tr>
+            <tr data-test-id="combobox-aria-expanded">
+              <td></td>
+              <th scope="row">
+                <code>aria-expanded="true"</code>
+              </th>
+              <td><code>input[type="text"]</code></td>
+              <td>Indicates that the popup element <strong>is</strong> displayed.</td>
+            </tr>
+            <tr data-test-id="combobox-id">
+              <td></td>
+              <th scope="row">
+                <code>id="string"</code>
+              </th>
+              <td><code>input[type="text"]</code></td>
+              <td>
+                <ul>
+                  <li>Referenced by <code>for</code> attribute of <code>label</code> element to provide an accessible name.</li>
+                  <li>Recommended naming method for HTML input elements because clicking label focuses input.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="combobox-aria-autocomplete">
+              <td></td>
+              <th scope="row">
+                <code>aria-autocomplete="list"</code>
+              </th>
+              <td><code>input[type="text"]</code></td>
+              <td>Indicates that the autocomplete behavior of the input is to suggest a list of possible values in a popup.</td>
+            </tr>
+            <tr data-test-id="combobox-aria-controls">
+              <td></td>
+              <th scope="row">
+                <code>aria-controls="IDREF"</code>
+              </th>
+              <td><code>input[type="text"]</code></td>
+              <td>Identifies the popup element that lists suggested values.</td>
+            </tr>
+            <tr data-test-id="combobox-aria-activedescendant">
+              <td></td>
+              <th scope="row">
+                <code>aria-activedescendant="IDREF"</code>
+              </th>
+              <td><code>input[type="text"]</code></td>
+              <td>
+                <ul>
+                  <li>When a cell in the grid is visually indicated as having keyboard focus, refers to that cell.</li>
+                  <li>When navigation keys, such as <kbd>Down Arrow</kbd>, are pressed, the JavaScript changes the value.</li>
+                  <li>Enables assistive technologies to know which element the application regards as focused while DOM focus remains on the <code>input</code> element.</li>
+                  <li>
+                    For more information about this focus management technique, see
+                    <a href="../../../../practices/keyboard-interface/#kbd_focus_activedescendant">Managing Focus in Composites Using aria-activedescendant</a>.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table></div>
+        <h3 id="rps_label_popup">Grid Popup</h3>
+        <div class="table-wrap"><table aria-labelledby="rps_label_popup rps_label" class="data attributes">
+          <thead>
+            <tr>
+              <th scope="col">Role</th>
+              <th scope="col">Attribute</th>
+              <th scope="col">Element</th>
+              <th scope="col">Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-test-id="grid-role">
+              <th scope="row">
+                <code>grid</code>
+              </th>
+              <td></td>
+              <td>
+                <code>div</code>
+              </td>
+              <td>Identifies the element as a <code>grid</code>.</td>
+            </tr>
+            <tr data-test-id="grid-aria-labelledby">
+              <td></td>
+              <th scope="row">
+                <code>aria-labelledby="IDREF"</code>
+              </th>
+              <td><code>div</code></td>
+              <td>Provides a label for the <code>grid</code> element controlled by the combobox.</td>
+            </tr>
+            <tr data-test-id="row-role">
+              <th scope="row">
+                <code>row</code>
+              </th>
+              <td></td>
+              <td><code>div</code></td>
+              <td>Identifies the element containing all the cells for a row.</td>
+            </tr>
+            <tr data-test-id="row-aria-selected">
+              <td></td>
+              <th scope="row">
+                <code>aria-selected="true"</code>
+              </th>
+              <td><code>div</code></td>
+              <td>
+                <ul>
+                  <li>Specified on a cell when the row containing the cell is visually indicated as selected.</li>
+                  <li>Occurs only when a cell in the grid is referenced by <code>aria-activedescendant</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr data-test-id="gridcell-role">
+              <th scope="row"><code>gridcell</code></th>
+              <td></td>
+              <td><code>div</code></td>
+              <td>Identifies the element containing the content for a single cell.</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section>
+        <h2 id="javascriptandcsssourcecode">JavaScript and CSS Source Code</h2>
+        <ul id="css_js_files">
+          <li>CSS: <a href="../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/css/grid-combo.css" type="tex/css">grid-combo.css</a></li>
+          <li>JavaScript: <a href="../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/js/grid-combo.js">grid-combo.js</a>, <a href="../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/js/grid-combo-example.js">grid-combo-example.js</a>, <a href="../../../../../../content-assets/wai-aria-practices/shared/js/utils.js">utils.js</a></li>
+        </ul>
+      </section>
+
+      <section class="example-code">
+        <h2 id="sc1_label">HTML Source Code</h2>
+        <p id="sc1_description">To copy the following HTML code, please open it in CodePen.</p>
+        <div role="separator" id="sc1_start_sep" aria-labelledby="sc1_start_sep sc1_label" aria-label="Start of"></div>
+        <pre><code id="sc1"></code></pre>
+        <div role="separator" id="sc1_end_sep" aria-labelledby="sc1_end_sep sc1_label" aria-label="End of"></div>
+        <script>
+          sourceCode.add('sc1', 'ex1', 'ex_label', 'css_js_files', 'sc1_description');
+          sourceCode.make();
+        </script>
+      </section>
+    </div>
+  
+</div>
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/skipto.js" data-skipto="colorTheme:aria; displayOption:popup; containerElement:div"></script>
+
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-aria-practices@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/aria-practices/edit/main/content/patterns/combobox/examples/grid-combo.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/grid-combo/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;">      <div class='example-page-footer'>        <p><a href='https://github.com/orgs/w3c/projects/118'>View issues related to this example</a></p>        <p>Page last updated: 12 August 2025</p>      </div>    </div>
+  </footer>
+  <footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://w3c.social/@wai"><svg focusable="false" aria-hidden="true" class="icon-mastodon "><use xlink:href="/WAI/assets/images/icons.svg#icon-mastodon"></use></svg> Mastodon</a></li>
+        <li><a href="https://www.linkedin.com/company/w3c-wai/"><svg focusable="false" aria-hidden="true" class="icon-linkedin "><use xlink:href="/WAI/assets/images/icons.svg#icon-linkedin"></use></svg> LinkedIn</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright © 2025 World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a><sup>®</sup>). See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/support/">Sponsors and Funders</a></li>
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1766164832008576013"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1766164832008576013"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>
