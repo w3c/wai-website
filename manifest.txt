@@ -519,8 +519,11 @@
 /assets/fonts/notosansmono/notosansmono-regular.woff
 /assets/fonts/notosansmono/notosansmono-regular.woff2
 /assets/images/checkbox.svg
+/assets/images/email.svg
 /assets/images/icons.svg
 /assets/images/social-sharing-default.jpg
+/assets/images/social/linkedin.svg
+/assets/images/social/youtube.svg
 /assets/images/w3c.svg
 /assets/images/w3c2.svg
 /assets/images/wai.svg
