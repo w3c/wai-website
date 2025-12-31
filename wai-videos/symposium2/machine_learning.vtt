@@ -1,0 +1,3096 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.000
+So, uh, we have Willian Watanabe
+
+00:00:04.480 --> 00:00:08.600
+from Universidade Tecnológica
+Federal do Paraná, in Brazil.
+
+00:00:10.000 --> 00:00:14.080
+We have Yeliz Yesilada
+from the Middle East
+
+00:00:14.080 --> 00:00:17.360
+Technical University, uh, Sheng Zhou
+
+00:00:17.800 --> 00:00:21.440
+from Zhejiang University in China.
+
+00:00:21.520 --> 00:00:24.080
+I hope I pronounced it correctly.
+
+00:00:24.080 --> 00:00:27.640
+And Fabio Paternò from CNR
+
+00:00:28.120 --> 00:00:31.240
+IST in Italy.
+
+00:00:31.840 --> 00:00:35.240
+Okay, Thank you all for joining us. And
+
+00:00:36.440 --> 00:00:39.040
+for some of you it’s earlier in the morning.
+
+00:00:39.280 --> 00:00:41.640
+For others of you, it's later.
+
+00:00:42.520 --> 00:00:45.520
+Well, for some of you,
+I guess it's really late in the evening.
+
+00:00:46.520 --> 00:00:49.720
+So thank you all for your availability.
+
+00:00:50.560 --> 00:00:55.200
+And let's start this discussion on how
+
+00:00:56.200 --> 00:00:56.680
+I would say
+
+00:00:56.680 --> 00:01:01.600
+current machine learning algorithms
+and current machine learning applications
+
+00:01:02.200 --> 00:01:06.880
+can support
+or can improve methodologies for
+
+00:01:07.960 --> 00:01:10.880
+automatically assessing web accessibility.
+
+00:01:11.560 --> 00:01:15.640
+And from your previous works,
+
+00:01:16.040 --> 00:01:20.440
+you’ve touched different
+aspects of how this can be done.
+
+00:01:20.880 --> 00:01:24.280
+So machine learning has been used
+
+00:01:25.080 --> 00:01:28.360
+to support web accessibility evaluation
+
+00:01:29.400 --> 00:01:34.680
+through different aspects
+such as sampling, such as metrics,
+
+00:01:34.680 --> 00:01:39.480
+such as evaluation predictions,
+such as handling dynamic pages.
+
+00:01:40.240 --> 00:01:42.520
+And so and I understand that
+
+00:01:42.520 --> 00:01:46.280
+these are domains,
+not all of these domains
+
+00:01:46.600 --> 00:01:50.400
+you have work done on those,
+but some of you have worked on
+
+00:01:50.640 --> 00:01:52.080
+specific domains.
+
+00:01:52.080 --> 00:01:55.640
+And so I would like you to focus on
+the ones that you've been
+
+00:01:56.360 --> 00:01:58.360
+working more closely.
+
+00:01:58.360 --> 00:02:00.760
+And just for us to start,
+
+00:02:01.520 --> 00:02:04.960
+just let us know
+what are the current challenges
+
+00:02:05.440 --> 00:02:08.760
+that prevent further development
+and prevent further
+
+00:02:08.760 --> 00:02:11.720
+use of machine learning or other A.I.
+
+00:02:11.760 --> 00:02:14.560
+techniques in this specific domains?
+
+00:02:14.920 --> 00:02:15.400
+Okay.
+
+00:02:15.520 --> 00:02:22.960
+And I can start with you, Willian.
+
+00:02:22.960 --> 00:02:27.320
+First of all, thank you very much for...
+for everything that is being organized,
+
+00:02:28.480 --> 00:02:29.160
+it’s great to be here.
+
+00:02:29.160 --> 00:02:33.760
+... Europe
+and this to give some context
+
+00:02:34.160 --> 00:02:37.000
+and I'm Willian I'm
+a professor here in Brazil.
+
+00:02:37.000 --> 00:02:39.280
+I work in accessibility,
+
+00:02:39.280 --> 00:02:42.040
+my my focus, my research
+
+00:02:42.040 --> 00:02:46.440
+focuses on web technologies,
+the ARIA specification
+
+00:02:46.440 --> 00:02:48.560
+more specific and
+
+00:02:50.920 --> 00:02:54.760
+just in regards to everything
+that has been said in the question
+
+00:02:54.760 --> 00:02:59.520
+by Carlos Duarte,
+my focus is on evaluation prediction
+
+00:03:00.040 --> 00:03:02.120
+according to the ARIA specification
+
+00:03:02.560 --> 00:03:05.680
+and I believe the main...
+
+00:03:06.280 --> 00:03:08.920
+I was invited to this...
+
+00:03:10.480 --> 00:03:12.000
+to this panel
+
+00:03:12.200 --> 00:03:16.320
+considering my research on identification
+of valences in web application.
+
+00:03:16.320 --> 00:03:19.200
+So the problem that I address is
+
+00:03:19.360 --> 00:03:22.240
+associated to identifying
+
+00:03:22.240 --> 00:03:22.960
+components
+
+00:03:22.960 --> 00:03:26.560
+In web applications. When we implement
+web applications, we use semi-structured
+
+00:03:26.760 --> 00:03:29.680
+languages such as HTML.
+
+00:03:29.680 --> 00:03:32.680
+My job is to identify what
+
+00:03:32.680 --> 00:03:36.600
+these elements
+in the HTML structure represent
+
+00:03:37.720 --> 00:03:39.880
+in the web page, like they can represent
+some
+
+00:03:39.880 --> 00:03:42.240
+widgets, some specific type of widgets.
+
+00:03:42.800 --> 00:03:43.840
+There's some components.
+
+00:03:43.840 --> 00:03:45.760
+There are some landmarks that we need
+
+00:03:45.760 --> 00:03:47.520
+to identify in the web page.
+
+00:03:47.520 --> 00:03:49.720
+And this is basically what I do.
+
+00:03:49.720 --> 00:03:53.640
+So what I have been doing
+for the last year,
+
+00:03:53.800 --> 00:03:58.480
+I have been using machine learning
+for identifying these elements.
+
+00:03:58.480 --> 00:04:02.560
+I use supervised learning and I use data
+
+00:04:02.560 --> 00:04:07.080
+provided by the DOM structure
+of the web application.
+
+00:04:07.080 --> 00:04:11.240
+So I search for elements in the web page
+and classifiy them as an element,
+
+00:04:11.560 --> 00:04:14.520
+widgets or anything else.
+
+00:04:14.520 --> 00:04:18.720
+The challenges in regards to that.
+
+00:04:18.720 --> 00:04:19.360
+They are
+
+00:04:20.120 --> 00:04:22.240
+are kind of different from the challenges
+
+00:04:22.240 --> 00:04:26.360
+that have been addressed yesterday.
+Yesterday...
+
+00:04:26.360 --> 00:04:29.840
+Yesterday... applications of machine
+learning.
+
+00:04:29.880 --> 00:04:35.240
+I think they work with video in texts
+that are unstructured data.
+
+00:04:35.320 --> 00:04:36.320
+So they are
+
+00:04:37.480 --> 00:04:39.160
+more complicated, I would say.
+
+00:04:39.160 --> 00:04:43.360
+And my... the main challenge
+that I that I address in my research
+
+00:04:43.360 --> 00:04:46.560
+is associated with data acquisition
+and data extraction
+
+00:04:47.120 --> 00:04:49.600
+where I identify
+what kind of features that I
+
+00:04:50.480 --> 00:04:53.680
+I should use to identify these components
+in web applications
+
+00:04:54.480 --> 00:04:57.920
+Associated with that I think they are
+and to summarize,
+
+00:04:58.360 --> 00:05:01.480
+my problems are associated
+with the diversity of web applications.
+
+00:05:01.480 --> 00:05:04.280
+There are different domains and
+
+00:05:06.400 --> 00:05:07.760
+this kind of bias
+
+00:05:07.760 --> 00:05:10.800
+and any dataset that we use,
+it's difficult.
+
+00:05:10.800 --> 00:05:13.680
+For me. For instance,
+to identify,
+
+00:05:13.680 --> 00:05:16.400
+a number of websites that implement
+
+00:05:16.400 --> 00:05:19.000
+that represents all the themes of websites
+
+00:05:19.000 --> 00:05:22.360
+that can be used, in web applications
+
+00:05:22.360 --> 00:05:27.120
+variability in the implementation
+of HTML and JavaScript,
+
+00:05:27.120 --> 00:05:30.640
+and the use of automatic tools
+for extracting this data
+
+00:05:31.800 --> 00:05:32.920
+such as
+
+00:05:32.920 --> 00:05:37.720
+web Driver API, the DOM
+structure dynamics and mutation observers.
+
+00:05:37.720 --> 00:05:41.680
+There are a lot of specifications
+that are currently being developed
+
+00:05:41.680 --> 00:05:45.560
+that I must use, and I always must
+
+00:05:45.560 --> 00:05:47.680
+keep my observing to
+
+00:05:48.640 --> 00:05:51.880
+to see if I can use them
+to improve my research.
+
+00:05:52.960 --> 00:05:57.560
+And lastly, there is always the problem
+of manual classification in...
+
+00:05:57.880 --> 00:06:00.880
+for generating these data sets
+that I can use
+
+00:06:02.720 --> 00:06:03.640
+That’s it, Carlos.
+
+00:06:03.640 --> 00:06:05.000
+Thank you.
+
+00:06:05.000 --> 00:06:06.760
+Thank you Willian.
+
+00:06:06.920 --> 00:06:10.080
+So Yeliz... and thank you
+Willian for introducing yourself
+
+00:06:10.240 --> 00:06:13.000
+because I forgot to ask
+all of you that to do that.
+
+00:06:13.000 --> 00:06:15.040
+So your first intervention, please
+
+00:06:16.120 --> 00:06:20.240
+do give us a brief introduction about
+yourselves and the work you've been doing.
+
+00:06:20.240 --> 00:06:22.560
+And so, Yeliz, I will follow with you.
+
+00:06:23.560 --> 00:06:24.960
+Hi. Hello, everybody.
+
+00:06:24.960 --> 00:06:25.840
+Good afternoon.
+
+00:06:25.840 --> 00:06:26.960
+Afternoon for me.
+
+00:06:26.960 --> 00:06:29.680
+So good afternoon, everybody.
+
+00:06:29.680 --> 00:06:31.000
+I'm Yeliz.
+
+00:06:31.000 --> 00:06:34.680
+I'm an associate professor at Middle East
+Technical University
+
+00:06:34.720 --> 00:06:36.840
+Northern Cyprus Campus.
+
+00:06:36.840 --> 00:06:41.360
+I've been doing web accessibility
+research for more than 20 years now.
+
+00:06:41.960 --> 00:06:47.920
+Time goes really fast and recently
+I've been exploring machine learning
+
+00:06:47.920 --> 00:06:52.440
+and AI specifically for web accessibility.
+
+00:06:52.440 --> 00:06:55.440
+Supporting web accessibility
+from different dimensions.
+
+00:06:56.720 --> 00:06:57.520
+Regarding the
+
+00:06:57.520 --> 00:07:00.800
+challenges, I think there are
+of course many challenges.
+
+00:07:00.800 --> 00:07:05.920
+But as Willian mentioned,
+I can actually say that
+
+00:07:05.920 --> 00:07:10.600
+kind of the biggest challenge for
+my work has been data collection.
+
+00:07:11.760 --> 00:07:13.760
+So I can actually
+
+00:07:14.880 --> 00:07:17.680
+say that data, of course, is critical.
+
+00:07:17.680 --> 00:07:21.000
+As it was discussed yesterday
+in the other panels,
+
+00:07:21.960 --> 00:07:25.360
+Data is very critical
+for machine learning approaches
+
+00:07:25.760 --> 00:07:28.600
+and for us collecting data,
+
+00:07:29.120 --> 00:07:34.120
+making sure that the data is representing
+our user groups, different user groups,
+
+00:07:34.520 --> 00:07:37.080
+and not biasing any user groups.
+
+00:07:38.000 --> 00:07:40.240
+And also, of course, preparing
+
+00:07:40.240 --> 00:07:42.920
+and labeling the data as certain
+
+00:07:43.440 --> 00:07:47.560
+machine learning algorithms, of course,
+supervised ones they require labeling
+
+00:07:47.920 --> 00:07:51.120
+and labeling
+has also been a challenge for us
+
+00:07:51.120 --> 00:07:56.320
+because sometimes a certain task it's
+not so straightforward to do the labeling.
+
+00:07:56.320 --> 00:07:58.320
+It's not black and white.
+
+00:07:58.320 --> 00:08:01.440
+So it's been a challenge for us,
+I think in that sense.
+
+00:08:01.880 --> 00:08:05.880
+And other two challenges I can mention is
+
+00:08:05.880 --> 00:08:09.280
+I think the second one
+is the complexity of the domain.
+
+00:08:10.160 --> 00:08:14.280
+When you think about the web
+accessibility, sometimes people think, Oh,
+
+00:08:14.320 --> 00:08:18.560
+it's quite straightforward,
+but it's actually a very complex domain.
+
+00:08:19.240 --> 00:08:23.680
+There are many different user
+groups, different user requirements,
+
+00:08:24.680 --> 00:08:26.640
+so understanding those
+
+00:08:26.640 --> 00:08:29.760
+and making sure that you actually address
+
+00:08:29.760 --> 00:08:32.840
+different users and different
+requirements, it's quite challenging.
+
+00:08:33.400 --> 00:08:38.080
+And since we also are working,
+this is the last one
+
+00:08:38.080 --> 00:08:42.760
+that I wanted to mention,
+since we are also working with web pages.
+
+00:08:42.760 --> 00:08:48.920
+They are complex, they are not
+well designed or well properly coded.
+
+00:08:48.920 --> 00:08:54.920
+As we always say, browsers are tolerating,
+but for developing algorithms, machine
+
+00:08:54.920 --> 00:08:56.960
+learning algorithms,
+they also have to deal
+
+00:08:56.960 --> 00:09:00.760
+with those complexities,
+which makes the task quite complex.
+
+00:09:00.760 --> 00:09:01.200
+I think.
+
+00:09:01.200 --> 00:09:04.640
+So just to wrap up, I think in my work
+
+00:09:05.600 --> 00:09:07.840
+there are three major challenges
+
+00:09:07.840 --> 00:09:10.720
+data or the lack and quality of data.
+
+00:09:11.120 --> 00:09:14.560
+Complexity of the domain,
+different users, different user
+
+00:09:14.560 --> 00:09:20.040
+requirements and the complexity
+of the resources we are using.
+
+00:09:20.040 --> 00:09:24.640
+So web pages,
+the source code and the complexity of
+
+00:09:26.080 --> 00:09:27.120
+pages that are not
+
+00:09:27.120 --> 00:09:31.040
+conforming to standards,
+I think they are really posing
+
+00:09:31.040 --> 00:09:34.400
+a lot of challenges
+to algorithms that we are developing.
+
+00:09:35.200 --> 00:09:37.600
+So these are all I wanted to say.
+
+00:09:38.400 --> 00:09:40.400
+Okay, Thank you, Yeliz.
+
+00:09:40.400 --> 00:09:41.600
+Very good
+
+00:09:42.400 --> 00:09:44.840
+summary of major challenges
+
+00:09:44.840 --> 00:09:47.160
+facing
+everyone that works in this in this field.
+
+00:09:48.160 --> 00:09:49.560
+So thank you for that.
+
+00:09:49.560 --> 00:09:50.080
+Sheng...
+
+00:09:50.080 --> 00:09:53.080
+I want to go with you next. Okay.
+
+00:09:53.600 --> 00:09:54.760
+Thank you, Carlos.
+
+00:09:54.760 --> 00:09:55.320
+Hello everyone.
+
+00:09:55.320 --> 00:09:58.000
+I'm Shen Zhou from Zhejiang University China
+
+00:09:59.200 --> 00:10:00.400
+From my opinion view
+
+00:10:00.400 --> 00:10:04.680
+I have three I think three challenges
+of course currently. Now.
+
+00:10:05.600 --> 00:10:08.920
+First,
+I totally agree with the idea that it is
+
+00:10:09.400 --> 00:10:11.920
+hard to acquire labels
+for more training.
+
+00:10:12.520 --> 00:10:13.680
+Since the success of machine
+
+00:10:13.680 --> 00:10:16.680
+learning heavily
+relies on a large number of labeled data,
+
+00:10:17.920 --> 00:10:21.800
+however, accessing this data labels usually
+costs lots of time,
+
+00:10:22.040 --> 00:10:26.240
+which may be hard to realize,
+especially in the accessibility domain.
+
+00:10:27.360 --> 00:10:29.160
+I want to take the...
+
+00:10:29.160 --> 00:10:33.160
+take the W4A...
+
+00:10:33.160 --> 00:10:36.760
+Sorry,
+I'm a little bit nervous here, sorry...
+
+00:10:37.800 --> 00:10:41.080
+I want to take the WCAG rule that's
+
+00:10:41.320 --> 00:10:44.760
+we will want to take an image with text
+as an example.
+
+00:10:45.400 --> 00:10:48.520
+As we discussed in the panel yesterday,
+
+00:10:48.760 --> 00:10:54.080
+most of the current image captioning or
+OCR methods are trained on existing assets
+
+00:10:54.640 --> 00:10:59.680
+rather than the image like logo
+that is essential in text alternative
+
+00:11:00.280 --> 00:11:02.840
+The label for web accessibility evaluation
+
+00:11:02.840 --> 00:11:06.400
+should fully consider
+the experience of different population.
+
+00:11:06.680 --> 00:11:10.360
+There are very few datasets
+that are specifically designed
+
+00:11:10.360 --> 00:11:15.480
+for the accessibility evaluation
+task and satisfies above requirements.
+
+00:11:15.880 --> 00:11:20.240
+So the machine learning model is that
+traditional datasets cannot be
+
+00:11:20.240 --> 00:11:23.160
+well generalized
+to accessibility evaluation.
+
+00:11:24.720 --> 00:11:28.200
+Second,
+I think is about the web page sampling,
+
+00:11:28.200 --> 00:11:32.560
+since I have done
+a little bit of work on this, I think
+
+00:11:32.560 --> 00:11:37.040
+currently there are multiple factors
+that's affecting the sampling strategy.
+
+00:11:37.560 --> 00:11:38.960
+First, sampling
+
+00:11:38.960 --> 00:11:42.880
+has been a fundamental technique in
+web accessibility evaluation
+
+00:11:42.960 --> 00:11:47.440
+when dealing with millions of pages.
+The previous page sampling
+
+00:11:47.440 --> 00:11:51.520
+methods are usually based
+on the features of each page.
+
+00:11:51.520 --> 00:11:55.040
+Such as the elements of the DOM tree
+structure.
+
+00:11:55.640 --> 00:12:00.520
+The pages with similar features
+assumed to be generated by the same
+
+00:12:00.960 --> 00:12:05.200
+development framework
+and have similar accessibility problems.
+
+00:12:05.960 --> 00:12:09.600
+However, with the fast growth
+of web development framework
+
+00:12:11.800 --> 00:12:13.960
+pages are developed with diverse tools.
+
+00:12:14.560 --> 00:12:17.320
+For example, pages that looks very
+
+00:12:17.320 --> 00:12:22.480
+similar may be developed by totally
+different framework and some pages
+
+00:12:22.480 --> 00:12:26.040
+that look totally different
+may be developed by the same framework.
+
+00:12:26.840 --> 00:12:31.160
+This poses great challenges for feature
+based Web Accessibility evaluation.
+
+00:12:31.160 --> 00:12:34.720
+It is necessary
+to incorporate more factors
+
+00:12:34.720 --> 00:12:38.760
+into the sampling process,
+such as the connection topology
+
+00:12:38.760 --> 00:12:42.720
+among pages
+and a visual similarity and typesetting.
+
+00:12:43.160 --> 00:12:47.640
+So how to identify the similarity
+between pages considering
+
+00:12:47.760 --> 00:12:51.400
+multiple factors into a unified
+sampling probability
+
+00:12:51.400 --> 00:12:54.400
+is critical for sampling.
+
+00:12:54.400 --> 00:12:58.800
+I think this could be a problem
+that's related to the graph topology
+
+00:12:58.960 --> 00:13:00.000
+content understanding
+
+00:13:00.000 --> 00:13:03.080
+and metrical learning,
+which is a comprehensive research program.
+
+00:13:04.200 --> 00:13:06.200
+So the third
+
+00:13:06.240 --> 00:13:10.400
+challenge
+I think is the subjective evaluation rules.
+
+00:13:11.360 --> 00:13:14.200
+When we evaluate the web accessibility,
+
+00:13:14.360 --> 00:13:17.920
+there are both subjective
+and objective rules, right?
+
+00:13:18.160 --> 00:13:21.920
+So for example,
+when evaluating the WCAG success
+
+00:13:21.920 --> 00:13:25.120
+criterion, 1.4.5 images of text.
+
+00:13:25.640 --> 00:13:29.360
+The image is expected to be 
+associated with accurate
+
+00:13:29.360 --> 00:13:34.200
+description of text which has been
+discussed in the panel yesterday.
+
+00:13:34.800 --> 00:13:38.320
+It is still challenging to verify
+the matching
+
+00:13:38.520 --> 00:13:47.520
+between the...
+
+00:13:47.520 --> 00:13:47.920
+Yeah.
+
+00:13:49.760 --> 00:13:52.120
+I guess, uh,
+
+00:13:52.120 --> 00:13:56.800
+there are some connection issues.
+
+00:13:56.800 --> 00:13:59.800
+Let's see. Okay.
+
+00:14:00.440 --> 00:14:03.960
+He has dropped so.
+
+00:14:03.960 --> 00:14:05.560
+So uh,
+
+00:14:06.920 --> 00:14:09.280
+we’ll let Sheng... ok, he is coming back so
+
+00:14:13.280 --> 00:14:16.240
+you're muted.
+
+00:14:16.240 --> 00:14:19.080
+Oh, okay. All right. Okay. All right.
+
+00:14:19.880 --> 00:14:20.680
+So can you.
+
+00:14:20.680 --> 00:14:23.640
+Can you continue?
+
+00:14:23.640 --> 00:14:25.120
+Okay. I'm so sorry.
+
+00:14:25.120 --> 00:14:28.320
+Uh, okay. Okay.
+
+00:14:28.320 --> 00:14:31.120
+I think there are three challenges.
+
+00:14:31.120 --> 00:14:33.280
+And the first challenge is
+
+00:14:34.600 --> 00:14:37.040
+same as Yeliz just described it.
+
+00:14:37.040 --> 00:14:38.800
+That's we. It is harder to
+
+00:14:41.080 --> 00:14:42.400
+we. You
+
+00:14:42.400 --> 00:14:45.440
+dropped when you were starting to talk
+about the third challenge.
+
+00:14:46.280 --> 00:14:46.760
+Okay.
+
+00:14:46.760 --> 00:14:49.720
+Okay, So we still got the first and second
+challenge.
+
+00:14:49.720 --> 00:14:51.880
+We, we heard that loud and clear.
+
+00:14:51.880 --> 00:14:55.120
+So now you can resume on the third
+challenge.
+
+00:14:55.880 --> 00:14:57.240
+Okay? Okay. Okay.
+
+00:14:57.240 --> 00:15:02.520
+So the first challenge is, I think
+is the subjective evaluation rules.
+
+00:15:03.040 --> 00:15:06.480
+This when evaluating
+the web accessibility
+
+00:15:06.480 --> 00:15:10.760
+there are both subjective
+and objective rules.
+
+00:15:10.760 --> 00:15:14.880
+For example,
+when evaluating the WCAG success criteria,
+
+00:15:15.120 --> 00:15:18.280
+1.4.5 Images of text.
+
+00:15:18.640 --> 00:15:22.960
+The image is expected to be 
+associated with accurate
+
+00:15:23.080 --> 00:15:27.280
+description text
+as discussed in the panel yesterday.
+
+00:15:27.320 --> 00:15:31.600
+It is still challenging to verify
+whether the matching between image
+
+00:15:31.720 --> 00:15:36.320
+with text, since we do not have access
+to the ground thruth of the
+
+00:15:36.760 --> 00:15:38.680
+text of the image. So at
+
+00:15:47.160 --> 00:15:49.320
+okay apparently
+
+00:15:50.560 --> 00:15:51.920
+we lost.
+
+00:15:52.000 --> 00:15:58.360
+Sheng again.
+
+00:15:58.360 --> 00:16:02.520
+So let's just give him 10 seconds
+and see if he reconnects.
+
+00:16:02.520 --> 00:16:05.920
+Otherwise we will move on to Fabio.
+
+00:16:11.840 --> 00:16:12.880
+okay, so perhaps it's
+
+00:16:12.880 --> 00:16:15.800
+better to to move on to Fabio and and
+
+00:16:16.920 --> 00:16:19.440
+get the perspective of someone
+
+00:16:20.200 --> 00:16:25.240
+who is making an automated accessibility
+evaluation tool available.
+
+00:16:25.240 --> 00:16:28.120
+So it's certainly going to be interesting,
+so Fabio.
+
+00:16:28.120 --> 00:16:30.200
+Can you can take it from here?
+
+00:16:30.760 --> 00:16:32.320
+Yeah, yeah, yeah.
+
+00:16:32.320 --> 00:16:33.800
+So, I’m Fabio, I’m a
+
+00:16:33.800 --> 00:16:37.600
+Research director
+at the Italian National Research Council,
+
+00:16:37.600 --> 00:16:42.280
+where I lead the laboratory on human interfaces
+and information systems, and we have
+
+00:16:42.280 --> 00:16:47.800
+now a project funded
+by the National recovery and resilience
+
+00:16:47.800 --> 00:16:51.160
+plan,
+which is about monitoring the
+
+00:16:52.240 --> 00:16:56.040
+accessibility
+of the public administration websites.
+
+00:16:56.800 --> 00:17:00.000
+And so, I mean, in this project 
+we have our tool MAUVE++,
+
+00:17:00.800 --> 00:17:04.920
+which is a tool open, 
+freely available
+
+00:17:05.440 --> 00:17:09.680
+and it has already more than 3000
+registered users
+
+00:17:10.000 --> 00:17:15.080
+and we recently performed
+an accessibility evaluation of
+
+00:17:15.120 --> 00:17:20.280
+10,000 websites considering
+200 pages for each website.
+
+00:17:20.280 --> 00:17:25.000
+So it’s really large scale...
+
+00:17:25.000 --> 00:17:29.120
+So we were very interested
+in understanding how machine learning
+
+00:17:30.480 --> 00:17:31.560
+can help us
+
+00:17:31.560 --> 00:17:36.520
+in these, you know, large scale
+monitoring work. So I mean, for this purpose...
+
+00:17:37.120 --> 00:17:40.000
+I’m more research...
+so before this panel
+
+00:17:40.040 --> 00:17:43.240
+I did a small, you know, 
+systematic literature
+
+00:17:43.240 --> 00:17:43.840
+review
+
+00:17:43.840 --> 00:17:49.440
+So I went to the ACM digital library,
+I entered machine learning and accessibility evaluation
+
+00:17:49.440 --> 00:17:51.960
+just curious to see
+what has been done so far.
+
+00:17:52.600 --> 00:17:55.920
+So I got only 43 results
+which are not too many, I mean
+
+00:17:56.560 --> 00:18:01.160
+I would have expected more. 
+Then I looked through all these papers and actually
+
+00:18:01.400 --> 00:18:05.280
+in the end, only 18 actually applied,
+because other papers were more
+
+00:18:05.280 --> 00:18:08.360
+about, ok, machine learning can
+be interesting in future work, and so on.
+
+00:18:08.360 --> 00:18:12.680
+I mean, so they say that the 
+specific research efforts
+
+00:18:12.720 --> 00:18:15.680
+have been so far limited
+
+00:18:15.880 --> 00:18:20.160
+in this area, and another characteristic
+was that they were rather varied
+
+00:18:20.160 --> 00:18:22.240
+in terms of the topic that they address.
+
+00:18:22.240 --> 00:18:26.920
+So there are people who try to predict the website 
+accessibility based on the accessibility of some pages
+
+00:18:26.920 --> 00:18:31.920
+others try to check the meaningfulness 
+of alternative descriptions
+
+00:18:31.920 --> 00:18:36.880
+others classify user interface
+content elements.
+
+00:18:36.920 --> 00:18:41.800
+So I would say that
+one challenge at this point is
+
+00:18:43.840 --> 00:18:44.680
+well, machine
+
+00:18:44.680 --> 00:18:48.120
+learning can give some, you know,
+useful complementary
+
+00:18:48.520 --> 00:18:51.080
+support to the automatic tools
+
+00:18:51.240 --> 00:18:54.200
+that we already have
+
+00:18:54.440 --> 00:18:57.600
+as there are many... in theory
+there are more opportunities.
+
+00:18:57.600 --> 00:19:02.920
+But then in practice
+there are a lot of problems.
+
+00:19:02.920 --> 00:19:07.600
+Another challenge... identifying the relevant
+datasets and what are the features
+
+00:19:07.600 --> 00:19:10.120
+that are really able to characterize the
+
+00:19:10.800 --> 00:19:13.720
+type of aspects that we want to investigate.
+
+00:19:14.360 --> 00:19:16.720
+And I would say the third and
+
+00:19:17.320 --> 00:19:22.200
+last main general challenge
+is that we really
+
+00:19:22.720 --> 00:19:26.240
+work with these computers who change.
+In the web
+
+00:19:26.240 --> 00:19:30.320
+this means that how people 
+implement, how people use
+
+00:19:30.840 --> 00:19:32.720
+the application is 
+continuously changing.
+
+00:19:32.720 --> 00:19:33.720
+So there is also
+
+00:19:33.720 --> 00:19:36.240
+the risk that
+the dataset becomes soon
+
+00:19:37.000 --> 00:19:40.480
+obsolete, not sufficiently updated
+
+00:19:40.560 --> 00:19:46.720
+for addressing all the emerging
+needs that can occur.
+
+00:19:46.720 --> 00:19:47.560
+Okay.
+
+00:19:47.560 --> 00:19:50.560
+Thank you for that perspective and Sheng
+
+00:19:52.080 --> 00:19:54.120
+I want to give you now the opportunity
+
+00:19:54.120 --> 00:19:56.760
+to finish up your intervention.
+
+00:19:57.960 --> 00:19:59.320
+Okay.
+
+00:19:59.320 --> 00:20:02.880
+Thank thank you, Carlos, and sorry
+for the lagging here
+
+00:20:03.880 --> 00:20:07.000
+so and so I will continue my
+
+00:20:07.200 --> 00:20:11.640
+third opening of the challenge.
+From my opinion
+
+00:20:11.640 --> 00:20:15.520
+the third challenge is the 
+subjective evaluation rules.
+
+00:20:15.960 --> 00:20:18.720
+This one, evaluating web accessibility
+
+00:20:18.720 --> 00:20:23.200
+there are both subjective
+and objective rules and one,
+
+00:20:24.200 --> 00:20:28.760
+for example,
+when evaluating the image to text rule,
+
+00:20:28.960 --> 00:20:33.960
+the image is expected to be associated
+with accurate description texts
+
+00:20:34.480 --> 00:20:38.320
+and and
+and as discussed in the panel yesterday,
+
+00:20:38.320 --> 00:20:42.320
+it is still challenging
+to verify the matching between the image
+
+00:20:42.520 --> 00:20:45.600
+and the the text
+since there are no ground truth.
+
+00:20:46.280 --> 00:20:49.640
+What kind of text
+should describe this image?
+
+00:20:50.200 --> 00:20:54.560
+So as a result, the accessibility
+evaluation system is harder to justify
+
+00:20:54.720 --> 00:20:58.840
+whether the alternate text
+really matches the image.
+
+00:20:59.280 --> 00:21:03.040
+So, thanks.
+
+00:21:03.040 --> 00:21:04.000
+Okay. Thank you.
+
+00:21:04.000 --> 00:21:08.760
+And I'll take it from what I guess
+most of you.
+
+00:21:08.760 --> 00:21:14.120
+Well, all of you have in one way
+or another mentioned one aspect of
+
+00:21:15.200 --> 00:21:17.080
+web accessibility evaluation,
+
+00:21:17.080 --> 00:21:19.600
+which is conformance to
+
+00:21:20.840 --> 00:21:22.680
+the requirements to guidelines.
+
+00:21:22.680 --> 00:21:27.280
+You, several of you mentioned the web
+content accessibility guidelines
+
+00:21:27.880 --> 00:21:30.400
+in one way or another, and
+
+00:21:33.000 --> 00:21:36.040
+checking what we do currently.
+
+00:21:36.040 --> 00:21:39.400
+So far it's and following up on
+what Sheng
+
+00:21:39.600 --> 00:21:42.760
+was just mentioning, are objective rules.
+
+00:21:42.760 --> 00:21:46.360
+So that's what we can do so far, right?
+
+00:21:46.360 --> 00:21:51.480
+Then when we start thinking about
+and because the guidelines are themselves
+
+00:21:51.800 --> 00:21:55.080
+also subject to subjectivity
+and fortunately
+
+00:21:57.040 --> 00:21:59.040
+at the
+
+00:21:59.720 --> 00:22:02.320
+how can we try
+
+00:22:02.320 --> 00:22:06.440
+to automate the access, the evaluation
+
+00:22:06.440 --> 00:22:09.960
+of those more subjective guidelines
+or more subjective rules?
+
+00:22:10.240 --> 00:22:13.840
+And how do you all think
+that artificial intelligence
+
+00:22:13.840 --> 00:22:16.920
+algorithms or machine learning
+based approaches
+
+00:22:17.680 --> 00:22:20.560
+can help us to assess conformance
+
+00:22:20.560 --> 00:22:24.280
+to those technical requirements
+to to accessibility guidelines?
+
+00:22:25.240 --> 00:22:27.360
+And I'll start with you now, Yeliz.
+
+00:22:31.640 --> 00:22:32.560
+And thank you.
+
+00:22:32.560 --> 00:22:33.520
+Carlos.
+
+00:22:33.520 --> 00:22:38.440
+So regarding the conformance testing,
+
+00:22:38.440 --> 00:22:43.840
+so maybe we can actually think of this
+as two kinds of problems.
+
+00:22:44.200 --> 00:22:49.080
+The one is the testing, the other one
+is confirming basically repairing
+
+00:22:50.080 --> 00:22:53.800
+or automatically fixing the problems.
+
+00:22:54.040 --> 00:22:56.200
+So I see actually that
+
+00:22:56.920 --> 00:23:00.480
+machine learning and AI in general
+
+00:23:00.480 --> 00:23:04.080
+I think can help in both sides,
+in both parties.
+
+00:23:04.520 --> 00:23:06.840
+So regarding the testing and auditing,
+if we take, for example,
+
+00:23:06.840 --> 00:23:09.200
+So regarding the testing and auditing,
+if we take, for example,
+
+00:23:09.200 --> 00:23:14.200
+WCAG evaluation methodology
+as the most systematic methodology
+
+00:23:14.200 --> 00:23:16.400
+to evaluate for accessibility,
+
+00:23:17.560 --> 00:23:22.000
+it includes, for example, five stages,
+five steps.
+
+00:23:22.400 --> 00:23:24.880
+So I think
+
+00:23:24.880 --> 00:23:28.400
+machine learning
+can actually help us in certain steps.
+
+00:23:28.400 --> 00:23:31.560
+For example, it can help us to choose
+
+00:23:31.840 --> 00:23:36.080
+a representative sample,
+which is the third step in WCAG-EM.
+
+00:23:36.800 --> 00:23:41.400
+We are currently doing some work on that
+for example, to explore how to use
+
+00:23:42.040 --> 00:23:46.040
+unsupervised learning algorithms
+to decide, for example,
+
+00:23:46.320 --> 00:23:50.760
+what is a representative sample
+because Fabio, for example, mentioned
+
+00:23:50.760 --> 00:23:54.040
+the problem of evaluating a large scale
+
+00:23:54.480 --> 00:23:57.000
+websites with millions of pages.
+
+00:23:57.280 --> 00:24:01.200
+So how do you decide for example,
+which ones to represent?
+
+00:24:01.200 --> 00:24:03.160
+I mean, which ones to evaluate?
+
+00:24:03.160 --> 00:24:06.400
+And do they really for example,
+
+00:24:06.400 --> 00:24:09.440
+if you evaluate some of them,
+
+00:24:09.440 --> 00:24:13.480
+how much of the sites
+you actually cover, for example.
+
+00:24:13.800 --> 00:24:16.800
+So there I think machine learning
+and AI can help.
+
+00:24:16.800 --> 00:24:19.520
+As I said,
+we are currently doing some work on that,
+
+00:24:20.160 --> 00:24:24.160
+trying to explore machine
+learning algorithms for choosing
+
+00:24:24.160 --> 00:24:28.120
+representative sample,
+making sure that the pages that you are
+
+00:24:28.120 --> 00:24:33.400
+evaluating really represents
+the site and reduces the workload.
+
+00:24:33.400 --> 00:24:38.160
+Because evaluating millions of pages, it's
+not an easy task.
+
+00:24:38.160 --> 00:24:42.600
+So maybe we can pick certain sample pages
+and once we evaluate them,
+
+00:24:42.600 --> 00:24:45.960
+we can transfer the knowledge
+from those pages
+
+00:24:45.960 --> 00:24:49.440
+to the other ones
+because more or less pages
+
+00:24:49.440 --> 00:24:53.720
+these days are developed with templates
+or automatically developed.
+
+00:24:53.720 --> 00:24:59.560
+So maybe we can transfer the errors
+we identified
+
+00:24:59.560 --> 00:25:02.640
+or the ways we are fixing to the others
+which are representative.
+
+00:25:03.520 --> 00:25:06.240
+Regarding the step four in WCAG-EM...
+
+00:25:06.560 --> 00:25:10.680
+That's actually
+about auditing the selected sample.
+
+00:25:10.680 --> 00:25:13.360
+So how do you evaluate
+and test the sample?
+
+00:25:14.080 --> 00:25:16.480
+I think in that part
+
+00:25:16.480 --> 00:25:20.240
+as we all know, I mean Sheng mentioned
+there are a lot of ...
+
+00:25:20.520 --> 00:25:24.040
+subjective rules
+which they require human testing.
+
+00:25:24.440 --> 00:25:28.880
+So maybe there we need to explore more
+
+00:25:29.160 --> 00:25:33.360
+how people,
+I mean how humans evaluate the certain
+
+00:25:34.840 --> 00:25:36.040
+requirements
+
+00:25:36.040 --> 00:25:39.840
+and how
+we can actually automate those processes.
+
+00:25:39.840 --> 00:25:44.440
+So can we have machine learning algorithms
+that learn from how people
+
+00:25:44.440 --> 00:25:48.120
+evaluate them, assess and implement those.
+
+00:25:48.400 --> 00:25:53.160
+But of course, as we mentioned
+in the first part, data is critical
+
+00:25:53.400 --> 00:25:57.640
+valid data and quality of data
+is very critical for those parts
+
+00:25:58.040 --> 00:26:02.840
+regarding the repairing
+or automatically fixing certain problems.
+
+00:26:03.160 --> 00:26:07.360
+I still I also think that machine learning
+algorithms can help.
+
+00:26:07.920 --> 00:26:10.720
+For example, regarding
+
+00:26:10.720 --> 00:26:14.400
+the images Sheng mentioned,
+we can automatically test
+
+00:26:14.400 --> 00:26:18.560
+whether there is an alt text or not,
+but not the quality of the alt text.
+
+00:26:18.880 --> 00:26:23.120
+So maybe there may be
+we can explore more and
+
+00:26:24.440 --> 00:26:26.120
+do more about
+
+00:26:26.120 --> 00:26:29.440
+understanding
+whether it's a good alt text or not
+
+00:26:29.640 --> 00:26:33.240
+and try to fix it
+automatically by learning the
+
+00:26:34.240 --> 00:26:38.440
+from the context
+and other aspects of the site.
+
+00:26:38.920 --> 00:26:43.920
+Or I've been doing, for example,
+research in complex structures
+
+00:26:43.920 --> 00:26:47.320
+like tables, they are also very difficult
+and challenging
+
+00:26:47.320 --> 00:26:50.200
+for accessibility, for testing
+and for repairing.
+
+00:26:50.880 --> 00:26:54.280
+We've been doing, for example,
+research in understanding
+
+00:26:54.280 --> 00:26:56.080
+whether we can differentiate
+
+00:26:56.080 --> 00:27:00.120
+and learn to differentiate
+a layout table from a data table.
+
+00:27:00.560 --> 00:27:04.560
+And if it is a complex table,
+can we actually, for example, learn
+
+00:27:04.720 --> 00:27:09.560
+how people are reading that
+and guiding the repairing of those?
+
+00:27:10.440 --> 00:27:13.840
+We can, I guess, also do
+similar things with the forms
+
+00:27:13.840 --> 00:27:17.200
+we can learn
+how people are interacting with forms
+
+00:27:17.200 --> 00:27:22.440
+and try to some complex structures
+like forms or rich and dynamic content.
+
+00:27:22.440 --> 00:27:24.200
+As Willian is working on.
+
+00:27:24.200 --> 00:27:29.760
+So maybe we can actually do, for example,
+more work in there to automatically fix,
+
+00:27:30.440 --> 00:27:34.840
+which can be encoded in, let's say,
+authoring tools or authoring environments
+
+00:27:34.840 --> 00:27:37.920
+that they include AI
+without the developers
+
+00:27:37.920 --> 00:27:41.400
+noticing that they are actually
+using AI to fix the problems.
+
+00:27:41.760 --> 00:27:44.320
+So just to wrap up,
+I know I have a limited time
+
+00:27:44.600 --> 00:27:50.240
+just to wrap up, so I see that
+ML can contribute in two things.
+
+00:27:50.240 --> 00:27:53.600
+Both testing and
+repairing I think can help.
+
+00:27:55.000 --> 00:27:57.040
+I agree and
+
+00:27:57.040 --> 00:27:59.440
+some of the you things you mentioned
+are really
+
+00:27:59.840 --> 00:28:03.560
+I guess they can be first steps.
+
+00:28:03.560 --> 00:28:07.360
+We can assist a human expert,
+
+00:28:07.360 --> 00:28:11.320
+the human evaluator,
+and take away some of the load.
+
+00:28:11.360 --> 00:28:16.320
+And that's also what I, I take from
+from your intervention.
+
+00:28:16.320 --> 00:28:19.000
+So, Fabio,
+I would like your your take on this.
+
+00:28:22.960 --> 00:28:25.360
+I mean, actually
+
+00:28:25.360 --> 00:28:27.960
+I think I agree with what Yeliz said before.
+
+00:28:28.240 --> 00:28:31.960
+So first of all,
+we have to be aware of the complexity
+
+00:28:32.240 --> 00:28:36.360
+of accessibility evaluation
+because we could just think about
+
+00:28:36.360 --> 00:28:40.320
+WCAG 2.1,
+which is composed of 78 success
+
+00:28:40.360 --> 00:28:43.640
+criteria, which are associated
+
+00:28:43.640 --> 00:28:47.000
+with some hundreds of techniques,
+
+00:28:47.000 --> 00:28:51.920
+of specific evaluation techniques.
+This is the kind of statement that it seems like
+
+00:28:53.080 --> 00:28:56.040
+it is going to increase the number
+of techniques... and so on...
+
+00:28:56.040 --> 00:29:01.440
+So the automatic support
+is really fundamental. And let’s say...
+
+00:29:01.520 --> 00:29:05.160
+In general, when you use automatic
+support, the result over the check
+
+00:29:05.200 --> 00:29:08.320
+would be okay, these are a pass...
+No, it fails
+
+00:29:08.680 --> 00:29:09.200
+And the other one is
+cannot tell
+
+00:29:10.680 --> 00:29:12.800
+So one possibility.
+
+00:29:12.800 --> 00:29:18.360
+I think that can be interesting...
+how to exploit machine learning
+
+00:29:18.480 --> 00:29:21.280
+in the situation which...
+you know... the automatic
+
+00:29:22.000 --> 00:29:25.240
+solution is not able to 
+deterministically provide
+
+00:29:25.480 --> 00:29:30.800
+okay or fail. I mean, so these could be 
+an interesting opportunity
+
+00:29:31.040 --> 00:29:35.320
+which was also explored in the
+WADCHER European project.
+
+00:29:35.320 --> 00:29:38.200
+So, in this case the idea was to allow
+
+00:29:38.320 --> 00:29:40.360
+an accessibility validator
+
+00:29:41.480 --> 00:29:43.480
+human accessibility expert
+
+00:29:43.480 --> 00:29:47.920
+in this case to provide the input
+and then to try to use this input
+
+00:29:48.280 --> 00:29:51.240
+in order to train 
+the intelligent system
+
+00:29:52.360 --> 00:29:54.760
+then it was not possible to extend it to
+
+00:29:54.800 --> 00:29:58.120
+to validate these solutions. But,
+
+00:29:58.160 --> 00:30:02.320
+for sure, for example, if I think about... 
+it’s really easy automatically to detect
+
+00:30:02.680 --> 00:30:05.040
+weather or not the 
+alternative description exist.
+
+00:30:05.480 --> 00:30:08.680
+It must much more difficult
+to say whether it is meaningful.
+
+00:30:09.760 --> 00:30:11.840
+So, in this case, for example,
+
+00:30:11.840 --> 00:30:15.320
+I have seen... also before it’s been 
+mentioned... a lot of improvements in
+
+00:30:15.640 --> 00:30:18.000
+AI applied to recognizing
+
+00:30:18.400 --> 00:30:20.920
+in images what the content is.
+
+00:30:21.320 --> 00:30:25.120
+So I have also seen that there's
+some attempt in this direction
+
+00:30:25.120 --> 00:30:28.360
+has been performed,
+so we can think of situation in which
+
+00:30:29.000 --> 00:30:32.480
+the AI take
+the image provides the descriptors
+
+00:30:32.880 --> 00:30:36.960
+and then there is a kind of a similarity 
+check, between these automatically
+
+00:30:37.000 --> 00:30:40.840
+generated descriptions, the one
+that has been provided by the developer,
+
+00:30:40.840 --> 00:30:47.480
+and see whether to some extent
+is meaningful. These, I think, is something
+
+00:30:47.600 --> 00:30:54.000
+which is possible. What I’m not sure is
+how much we can find a general solution
+
+00:30:54.040 --> 00:30:57.840
+so, a solution that can always work.
+I mean, so, I can see that this kind of AI
+
+00:30:57.840 --> 00:31:00.960
+probably will be
+associated with some level of
+
+00:31:01.640 --> 00:31:05.080
+confidence and then, I think, 
+at this point we can also think of
+
+00:31:06.120 --> 00:31:06.560
+leaving to the
+
+00:31:06.560 --> 00:31:10.120
+end user decide what should be 
+the level of confidence
+
+00:31:10.120 --> 00:31:13.240
+that is acceptable
+when, you know, this automatic
+
+00:31:13.240 --> 00:31:16.200
+support is used to 
+understand the way that
+
+00:31:16.840 --> 00:31:19.920
+the description, the alternative 
+description, is meaningful.
+
+00:31:19.920 --> 00:31:22.320
+So that would be the direction
+where I would 
+
+00:31:22.360 --> 00:31:26.240
+try, I mean, from the perspective
+of people who work on tools
+
+00:31:26.240 --> 00:31:30.120
+for automatic validation
+and try to, you know, introduce
+
+00:31:30.280 --> 00:31:32.760
+AI inside such
+
+00:31:33.240 --> 00:31:35.960
+automatic frameworks. 
+But another
+
+00:31:36.040 --> 00:31:40.400
+key point that we have to be careful
+is the transparency.
+
+00:31:40.440 --> 00:31:42.960
+I mean, when we talk about AI
+we often say
+
+00:31:44.320 --> 00:31:45.160
+about the problem
+of the black box.
+
+00:31:45.160 --> 00:31:49.680
+There is a lot of discussion
+about explainable AI. In explainable
+
+00:31:49.720 --> 00:31:54.520
+AI, usually people try to say “oh the AI is 
+not able to explain why this element
+
+00:31:54.880 --> 00:31:59.920
+generated this result” or how can a change
+in this element, you know, obtained a different result.
+
+00:31:59.960 --> 00:32:01.480
+What happens if a change
+
+00:32:02.480 --> 00:32:03.000
+is handled this way.
+
+00:32:03.280 --> 00:32:05.520
+So these, let’s say, 
+questions in XAI
+
+00:32:06.560 --> 00:32:09.760
+are also the questions 
+that people encounter
+
+00:32:09.760 --> 00:32:13.920
+when they have to interact with
+an evaluation tool.
+
+00:32:13.920 --> 00:32:17.760
+And also, there is simply a study
+about the transparency of the tool.
+
+00:32:17.800 --> 00:32:20.960
+So what about these tools
+that we have now available.
+
+00:32:21.160 --> 00:32:21.880
+It was published
+
+00:32:21.880 --> 00:32:24.920
+in ACM Transactions on 
+Accessible Computing.
+
+00:32:25.280 --> 00:32:26.920
+And it turned out that
+
+00:32:27.280 --> 00:32:32.520
+even without AI, often 
+these tools are a little bit black boxes.
+
+00:32:32.520 --> 00:32:34.720
+They’re not sufficiently
+transparent, so,
+
+00:32:34.720 --> 00:32:38.360
+for example, they say,
+we support this success criterion
+
+00:32:38.360 --> 00:32:42.600
+but did not say which technique they
+actually apply for the purpose.
+
+00:32:42.640 --> 00:32:47.160
+How these techniques
+are implemented.
+
+00:32:47.920 --> 00:32:50.880
+So, let’s say, that often users 
+are disoriented because
+
+00:32:51.440 --> 00:32:54.000
+they use different tools
+they get different results
+
+00:32:54.280 --> 00:32:57.800
+they do not understand
+the reason of such differences.
+
+00:32:58.000 --> 00:33:01.240
+So let's say that this
+point of transparency is already
+
+00:33:01.240 --> 00:33:06.920
+fundamental now that usually such
+validation tools do not use AI
+
+00:33:07.960 --> 00:33:08.880
+we have to be careful that
+
+00:33:08.880 --> 00:33:12.720
+if we add AI, should be added 
+in such a way that is explainable
+
+00:33:13.240 --> 00:33:17.360
+so that we can help people to better
+understand what happens in the evaluation
+
+00:33:17.360 --> 00:33:22.720
+and not, you know, just giving results
+that we take as a
+
+00:33:23.360 --> 00:33:28.040
+right without any sufficient explanation.
+
+00:33:28.040 --> 00:33:30.680
+Yeah,
+I think that's a very important point
+
+00:33:30.680 --> 00:33:34.360
+because if I'm a developer
+and I'm trying to solve
+
+00:33:34.840 --> 00:33:38.680
+accessibility issues, I need to understand
+why is there an error...
+
+00:33:38.720 --> 00:33:41.080
+not just that
+there is an error, over there.
+
+00:33:41.320 --> 00:33:44.960
+So yeah, that's, that's a very important,
+very important point.
+
+00:33:44.960 --> 00:33:45.240
+Thank you, Fabio.
+
+00:33:45.240 --> 00:33:47.680
+So, Sheng, next to you.
+
+00:33:48.960 --> 00:33:50.920
+Okay. Thanks.
+
+00:33:50.920 --> 00:33:53.520
+And considering the incorporating
+
+00:33:53.520 --> 00:33:58.040
+the artificial intelligence,
+I will try to find some way in
+
+00:33:58.040 --> 00:33:59.920
+help the developers
+
+00:33:59.920 --> 00:34:03.480
+so the first one is the code
+generation for automatically
+
+00:34:03.480 --> 00:34:08.040
+fixing the accessibility problems.
+As Yilez just
+
+00:34:08.040 --> 00:34:13.080
+said... web accessibility
+evaluation has been studied, but
+
+00:34:14.320 --> 00:34:15.680
+we have to stand
+
+00:34:15.680 --> 00:34:18.640
+at the view of the developers.
+
+00:34:19.440 --> 00:34:22.480
+If the evaluation system
+only identify or locate
+
+00:34:22.480 --> 00:34:25.720
+locate the accessibility problem,
+
+00:34:27.000 --> 00:34:30.680
+it may be still hard for developers
+to fix these problems.
+
+00:34:30.680 --> 00:34:34.720
+Things, some developers may lack
+experience on this,
+
+00:34:34.720 --> 00:34:38.520
+and recently the artificial
+intelligence based code
+
+00:34:38.520 --> 00:34:42.760
+generation has been well 
+developed and given some
+
+00:34:43.720 --> 00:34:46.880
+historical code on fixing 
+accessibility problems
+
+00:34:47.080 --> 00:34:50.560
+we have tried to train
+artificial intelligence model
+
+00:34:50.600 --> 00:34:54.080
+to automatically detect
+the problem linked to a code snip
+
+00:34:54.080 --> 00:34:57.680
+and to provide suggestions
+for the developers.
+
+00:34:57.920 --> 00:35:01.520
+We expect that this function
+could help the developers fix
+
+00:35:01.520 --> 00:35:04.600
+the accessibility problem and improve
+
+00:35:04.640 --> 00:35:07.240
+their websites more efficiently.
+
+00:35:07.800 --> 00:35:10.280
+And the second way is for the developers
+
+00:35:10.280 --> 00:35:13.520
+is about the content generation.
+
+00:35:13.520 --> 00:35:17.560
+As as discussed in the panel yesterday,
+there has been a
+
+00:35:17.600 --> 00:35:21.960
+there have been several attempts
+in generating text alternates
+
+00:35:22.240 --> 00:35:26.400
+for images or videos with the help 
+of the computation of NLP
+
+00:35:26.640 --> 00:35:27.160
+techniques.
+
+00:35:28.480 --> 00:35:29.120
+However,
+
+00:35:29.120 --> 00:35:33.160
+it may be not very practical
+for the image generators
+
+00:35:33.720 --> 00:35:38.960
+to provide the text alternates since the 
+state of the art methods usually requires
+
+00:35:39.080 --> 00:35:42.400
+large models that are deployed on
+
+00:35:42.400 --> 00:35:44.640
+GPU servers which is not...
+
+00:35:45.400 --> 00:35:48.840
+which is not convenient
+for frequently updated images.
+
+00:35:49.440 --> 00:35:52.200
+So recently we have been working
+
+00:35:52.200 --> 00:35:57.520
+on some knowledge
+distillation methods, which aims at a
+
+00:35:57.760 --> 00:36:02.680
+distill lightweight model
+from a large model
+
+00:36:02.920 --> 00:36:07.120
+and we want to develop a lightweight
+artificial intelligence models
+
+00:36:07.160 --> 00:36:12.680
+that can be deployed in the... browser
+extension or some lightweight
+
+00:36:12.680 --> 00:36:14.080
+software.
+
+00:36:14.080 --> 00:36:17.800
+We hope to reduce the time cost
+and the computation
+
+00:36:17.880 --> 00:36:22.200
+cost of image providers
+and encourage them to conform
+
+00:36:22.400 --> 00:36:25.440
+the accessibility technical requirements.
+
+00:36:25.960 --> 00:36:27.560
+Okay. Thank you.
+
+00:36:27.560 --> 00:36:28.080
+Thank you.
+
+00:36:28.080 --> 00:36:31.120
+That's another very relevant points.
+
+00:36:31.200 --> 00:36:35.080
+Make sure that whatever new techniques
+we develop
+
+00:36:35.080 --> 00:36:39.560
+are really accessible
+to those who need to to use them.
+
+00:36:39.560 --> 00:36:43.040
+And so the
+the computational resources are also
+
+00:36:44.360 --> 00:36:46.480
+a very
+important aspect to take into account.
+
+00:36:47.120 --> 00:36:50.440
+And so, Willian next your take on this,
+
+00:36:50.720 --> 00:36:52.000
+please.
+
+00:36:52.000 --> 00:36:53.240
+Okay. Okay.
+
+00:36:54.160 --> 00:36:58.960
+Well, first, I would like to take
+from what Yeliz said that we
+
+00:36:58.960 --> 00:37:03.960
+we have basically I it's nice to see
+that everyone is agreeing with everything
+
+00:37:03.960 --> 00:37:08.280
+that has been said... is like we
+we talked before but we didn’t
+
+00:37:08.320 --> 00:37:09.200
+we didn't talk at all
+
+00:37:09.200 --> 00:37:14.440
+and so it's nice to see that
+everyone is having the same problems and
+
+00:37:16.000 --> 00:37:18.560
+about what Yeliz said that she divided
+
+00:37:18.880 --> 00:37:21.720
+the work of 
+automatic evaluation in three steps.
+
+00:37:21.960 --> 00:37:24.560
+The first one is testing
+and the second one is
+
+00:37:25.000 --> 00:37:28.240
+automatically repairing
+accessibility on websites.
+
+00:37:29.080 --> 00:37:31.400
+From my end and specifically,
+
+00:37:31.400 --> 00:37:34.800
+I don't work with something that is,
+
+00:37:35.560 --> 00:37:37.880
+I will say
+
+00:37:37.880 --> 00:37:40.840
+subjective like image content generation.
+
+00:37:41.360 --> 00:37:45.760
+I... my work mostly 
+focused on identifying widgets.
+
+00:37:45.880 --> 00:37:47.920
+And this is kind of objective, right?
+
+00:37:48.120 --> 00:37:50.840
+It's a dropdown.
+It's not a toolkit.
+
+00:37:51.280 --> 00:37:53.840
+This is something that I don't need
+to worry
+
+00:37:53.840 --> 00:37:57.280
+about being sued over a bad 
+classification or something else.
+
+00:37:58.000 --> 00:38:00.960
+So... this is a different
+
+00:38:01.200 --> 00:38:05.320
+aspect of accessibility that I work on
+and specifically my end
+
+00:38:05.320 --> 00:38:09.000
+I work with supervised
+learning as everyone and...
+
+00:38:09.280 --> 00:38:12.120
+classifying DOM elements as specific
+
+00:38:12.920 --> 00:38:15.480
+components, interface components.
+
+00:38:15.480 --> 00:38:20.320
+I, I use features extracted 
+from the DOM structure. So
+
+00:38:22.400 --> 00:38:23.360
+I think everyone
+
+00:38:23.360 --> 00:38:25.720
+mentioned this, Sheng mentioned it as well.
+
+00:38:26.440 --> 00:38:30.840
+Yeliz mentioned it in the question
+about tables and everything else and
+
+00:38:32.080 --> 00:38:34.120
+I'm trying to use data
+
+00:38:36.080 --> 00:38:40.040
+from websites
+that I evaluate as accessible
+
+00:38:41.200 --> 00:38:44.960
+to enhance the accessibility of websites
+
+00:38:44.960 --> 00:38:48.360
+that I don't... that don't 
+implement these requirements.
+
+00:38:48.360 --> 00:38:49.240
+For instance,
+
+00:38:49.240 --> 00:38:53.680
+I see a website that implements rules,
+that implements the ARIA specification.
+
+00:38:53.680 --> 00:38:54.800
+So I use it.
+
+00:38:54.800 --> 00:39:00.520
+I extract data from it to to
+maybe apply it in a website
+
+00:39:00.520 --> 00:39:04.080
+that doesn’t. This is kind of the,
+the work that I'm working,
+
+00:39:05.120 --> 00:39:07.920
+this is kind of what I'm doing right now.
+
+00:39:07.920 --> 00:39:12.360
+And... there is another thing.
+
+00:39:14.680 --> 00:39:15.440
+So...
+
+00:39:16.280 --> 00:39:18.840
+Fabio also mentioned the question
+about confidence.
+
+00:39:19.240 --> 00:39:23.120
+I think this is kind of critical for us
+in terms of machine learning.
+
+00:39:23.120 --> 00:39:26.280
+I think the word that we use
+usually is accuracy
+
+00:39:27.160 --> 00:39:29.920
+and I believe that what will guide
+
+00:39:30.680 --> 00:39:35.480
+each of us as researchers,
+whether we work on tests
+
+00:39:35.480 --> 00:39:40.600
+or automatic repair, is basically 
+the accuracy of our methodologies.
+
+00:39:40.600 --> 00:39:41.400
+If I have
+
+00:39:42.520 --> 00:39:43.400
+a lower
+
+00:39:43.400 --> 00:39:47.680
+accuracy problem, 
+I will use a testing approach.
+
+00:39:47.960 --> 00:39:51.080
+Otherwise, I will try to 
+automatically repair the webpage.
+
+00:39:51.360 --> 00:39:56.560
+Of course, the best result we can get
+is automatic repair.
+
+00:39:56.560 --> 00:39:59.760
+This is what will scale
+better for our users.
+
+00:39:59.760 --> 00:40:03.400
+This is what will benefit more users
+
+00:40:03.400 --> 00:40:07.960
+in terms of scale.
+
+00:40:07.960 --> 00:40:11.800
+I think that it, Carlos. Everyone talked
+about everything that I wanted to say,
+
+00:40:11.800 --> 00:40:14.160
+so this is mostly
+what I would say different.
+
+00:40:14.160 --> 00:40:16.360
+So this is nice. Okay.
+
+00:40:16.960 --> 00:40:20.160
+Still, let me just
+
+00:40:21.520 --> 00:40:24.000
+a small provocation.
+
+00:40:24.000 --> 00:40:26.160
+You said that you were
+
+00:40:26.920 --> 00:40:30.400
+everything that you work in 
+widget identification is objective.
+
+00:40:30.400 --> 00:40:34.720
+I will disagree a little bit
+and I'm sure we can find several
+
+00:40:34.720 --> 00:40:38.120
+examples of pages where you don't know
+if that's a link or a button.
+
+00:40:38.800 --> 00:40:43.120
+It's so there can be subjectivity in there
+also.
+
+00:40:44.080 --> 00:40:47.800
+So yeah, but just that,
+just a small provocation, as I say.
+
+00:40:48.280 --> 00:40:50.640
+So we are fast approaching.
+
+00:40:51.040 --> 00:40:51.520
+Yeah.
+
+00:40:51.520 --> 00:40:52.520
+When
+
+00:40:52.520 --> 00:40:56.720
+the conversation is good, time flies by
+so we are fast approaching the end.
+
+00:40:56.720 --> 00:40:59.680
+So I will ask you to just quickly
+
+00:40:59.920 --> 00:41:04.200
+comment on a final aspect,
+just one minute or two.
+
+00:41:04.200 --> 00:41:08.440
+So please try to, to stick to that
+so that we don't go over time
+
+00:41:09.040 --> 00:41:13.520
+and just you've already been in some ways
+
+00:41:13.520 --> 00:41:17.240
+approaching this,
+but just what do you expect?
+
+00:41:17.560 --> 00:41:19.640
+What would be
+one of the major contributions?
+
+00:41:19.640 --> 00:41:23.720
+What are your future perspectives
+about the use of machine
+
+00:41:23.720 --> 00:41:26.720
+learning techniques
+for web accessibility evaluation?
+
+00:41:27.440 --> 00:41:28.960
+And I will start with you now, Fabio.
+
+00:41:32.760 --> 00:41:35.640
+Okay, I mean, if I think
+
+00:41:35.640 --> 00:41:40.160
+about a couple of interesting,
+you know, possibilities,
+
+00:41:40.160 --> 00:41:43.760
+open up by 
+machine learning, I mean,
+
+00:41:44.280 --> 00:41:46.960
+you know.... when we....
+when we have a user interface...
+
+00:41:47.520 --> 00:41:50.080
+generally speaking we
+have two possible approaches.
+
+00:41:50.080 --> 00:41:55.480
+So one is to look at the code,
+the associated generic interface
+
+00:41:55.480 --> 00:41:59.520
+and see whether it is compliant
+with some rules. In other approaches
+
+00:41:59.520 --> 00:42:02.600
+to look at how people interact
+with the system.
+
+00:42:02.600 --> 00:42:06.120
+So to look at the logs of 
+user interaction.
+
+00:42:06.640 --> 00:42:12.080
+And so, in the past we did some work 
+where we created a tool to identify
+
+00:42:12.120 --> 00:42:14.520
+bad usability smells,
+which means
+
+00:42:16.680 --> 00:42:19.880
+patterns of interaction that highlight
+there is some usability problems.
+
+00:42:19.960 --> 00:42:24.720
+So for example, we look at mobile devices
+when there are a lot of pinch out, pinch in,
+
+00:42:25.040 --> 00:42:28.360
+that means that probably the 
+information is not well presented or
+
+00:42:28.600 --> 00:42:32.320
+when people access continuously different 
+links it means the links are too close, I mean...
+
+00:42:32.840 --> 00:42:37.120
+so it's possible to identify
+sequences of interaction that highlight
+
+00:42:37.120 --> 00:42:40.000
+there is a usability problem.
+So, one possibility, you know...
+
+00:42:40.280 --> 00:42:43.320
+is to use some kind of machine 
+learning for classifying
+
+00:42:44.200 --> 00:42:48.400
+interaction with some
+assistive technology
+
+00:42:48.400 --> 00:42:52.360
+that highlighted this kind of problems...
+that allow us from the data
+
+00:42:52.360 --> 00:42:55.360
+to use experience that
+there are some specific
+
+00:42:55.760 --> 00:42:57.920
+accessibility problems.
+
+00:42:58.600 --> 00:43:01.560
+And... the second one... is about...
+
+00:43:01.680 --> 00:43:06.000
+we mentioned before the importance
+of providing explanation
+
+00:43:06.000 --> 00:43:10.240
+about a problem or why 
+it is a problem and how to solve it.
+
+00:43:10.880 --> 00:43:13.960
+So I think that would be 
+the idea
+
+00:43:14.600 --> 00:43:18.440
+in theory.... an idea application
+for a conversational agent.
+
+00:43:18.520 --> 00:43:22.880
+Now there is a lot if discussion,
+for example, around ChatGPT
+
+00:43:24.200 --> 00:43:25.240
+but
+
+00:43:25.240 --> 00:43:28.480
+it’s very difficult, you know,
+to actually design
+
+00:43:28.480 --> 00:43:33.480
+this case... a conversational agent that
+is able to take into account
+
+00:43:33.480 --> 00:43:38.080
+the relevant context, which in 
+this case is the type of user
+
+00:43:38.080 --> 00:43:42.480
+that is actually now asking for help,
+because there are really many types of users
+
+00:43:42.480 --> 00:43:46.480
+when people look at accessibility results,
+you know, that can be the web
+
+00:43:46.480 --> 00:43:50.600
+commission with the person who has decided
+to have a service but don’t know anything
+
+00:43:50.600 --> 00:43:52.640
+about its implementation,
+and it can be 
+
+00:43:53.040 --> 00:43:56.760
+the user, the disabled user,
+the developer, the accessibility expert.
+
+00:43:56.760 --> 00:44:02.680
+Each of them require a different
+language, different terms, different
+
+00:44:02.680 --> 00:44:06.720
+type of explanation,
+because when they look at... is this
+
+00:44:06.840 --> 00:44:09.640
+website accessible,
+they really have different criteria
+
+00:44:10.920 --> 00:44:13.480
+to understand
+the level of accessibility
+
+00:44:13.480 --> 00:44:17.440
+and how to, then, operate 
+in order to improve it.
+
+00:44:18.200 --> 00:44:21.160
+So, this is one dimension 
+of the complexity.
+
+00:44:22.000 --> 00:44:25.360
+The other dimension of the complexity
+is the actual implementation.
+
+00:44:25.560 --> 00:44:30.440
+It's really... we have... in this experience we
+are conducting in our laboratory
+
+00:44:30.520 --> 00:44:35.160
+with these large scale validation.... 
+ten thousand websites... it was really amazing
+
+00:44:35.160 --> 00:44:41.040
+to see how different, you know, implementation
+languages... technical context...
+
+00:44:41.080 --> 00:44:42.440
+people have used in order to
+
+00:44:43.600 --> 00:44:45.560
+implement the website.
+
+00:44:45.560 --> 00:44:47.920
+I mean, even people who 
+have used the same
+
+00:44:47.920 --> 00:44:50.440
+JavaScript frameworks, they can use them
+in very different ways
+
+00:44:50.920 --> 00:44:52.240
+and so on.
+
+00:44:52.240 --> 00:44:55.960
+So when you want to 
+provide an explanation
+
+00:44:57.480 --> 00:45:00.120
+often it’s disappointing just providing an understanding
+
+00:45:00.400 --> 00:45:03.480
+a description of the errors... 
+some standard examples
+
+00:45:03.480 --> 00:45:07.520
+of how to solve the problem because often
+
+00:45:07.800 --> 00:45:11.160
+there are different situations
+that require some specific
+
+00:45:11.160 --> 00:45:14.920
+additional consideration for
+better explaining
+
+00:45:15.200 --> 00:45:19.480
+how that error occurred,
+and what can be done in order to solve it.
+
+00:45:20.240 --> 00:45:26.200
+But this part... this complexity... a good
+conversational agent for accessibility
+
+00:45:26.200 --> 00:45:29.080
+would be a great result.
+
+00:45:29.360 --> 00:45:30.320
+Thank you.
+
+00:45:30.680 --> 00:45:33.280
+Sheng, you want to go next?
+
+00:45:33.280 --> 00:45:35.880
+Okay so so time is limited.
+
+00:45:35.880 --> 00:45:37.440
+I will save time.
+
+00:45:37.440 --> 00:45:39.480
+I will talk about the future
+
+00:45:39.760 --> 00:45:43.240
+perspective about the 
+efficient page sampling.
+
+00:45:43.720 --> 00:45:48.360
+According our data analyzed,
+we find that the page... the web pages
+
+00:45:48.400 --> 00:45:52.080
+that with similar connection
+structure with other pages,
+
+00:45:52.080 --> 00:45:56.200
+it usually have
+some similar accessibility problem.
+
+00:45:56.440 --> 00:45:59.000
+So we tried to take this into...
+
+00:45:59.320 --> 00:46:04.000
+take this into account
+for the accessibility evaluation.
+
+00:46:04.360 --> 00:46:07.480
+And recently we used the graph
+neural networks,
+
+00:46:07.720 --> 00:46:12.040
+which has been a hot research
+topic in machine learning community.
+
+00:46:12.520 --> 00:46:16.360
+It combines both the network topology
+and the node, the attributes
+
+00:46:17.080 --> 00:46:19.480
+and the unified representation
+for each node.
+
+00:46:19.840 --> 00:46:27.480
+And here each node
+
+00:46:27.480 --> 00:46:30.640
+Okay, I guess we lost Sheng again.
+
+00:46:30.640 --> 00:46:35.320
+So in the interest of time
+I will skip immediately to you,
+
+00:46:35.320 --> 00:46:39.560
+Willian.
+
+00:46:39.560 --> 00:46:40.240
+Okay. See,
+
+00:46:42.040 --> 00:46:42.680
+my take on this
+
+00:46:42.680 --> 00:46:44.840
+I think it will be... pretty direct.
+
+00:46:44.840 --> 00:46:49.360
+I, I think Fabio will talk about it,
+but we are all working
+
+00:46:49.360 --> 00:46:52.640
+with specific guidelines
+inside of a set of guidelines
+
+00:46:52.680 --> 00:46:55.040
+of accessibility guidelines,
+of WCAG.
+
+00:46:55.040 --> 00:46:58.200
+And I think the the
+
+00:46:59.040 --> 00:47:03.760
+the next step that we should address
+is associated with generalization
+
+00:47:04.280 --> 00:47:09.160
+and incorporating into project
+ready projects into the project
+
+00:47:09.160 --> 00:47:12.960
+that's just incorporated in
+any automatic evaluation tool.
+
+00:47:13.840 --> 00:47:18.640
+And so in regards to all the problems
+
+00:47:18.640 --> 00:47:22.000
+that we mentioned, associated to data
+acquisition, manual classification,
+
+00:47:22.560 --> 00:47:26.880
+we had to find a way
+to scale our experiments
+
+00:47:26.880 --> 00:47:30.600
+so that we can guarantee
+that it will work in any
+
+00:47:31.480 --> 00:47:34.360
+theme or website.
+
+00:47:34.360 --> 00:47:39.280
+I in regards to my research specifically,
+I think there are some I'm
+
+00:47:39.280 --> 00:47:43.080
+trying to work in an automated generation
+of the structure for websites.
+
+00:47:43.240 --> 00:47:47.760
+For instance, generating
+header structures and other
+
+00:47:48.480 --> 00:47:51.360
+specific structures that the user can use
+
+00:47:51.680 --> 00:47:54.720
+to practically... automatically enhance
+
+00:47:55.360 --> 00:47:57.920
+the web accessibility of web pages
+
+00:47:57.920 --> 00:48:01.280
+And I think I think that's it.
+
+00:48:01.440 --> 00:48:05.480
+In regards to what you said, Carlos,
+just so that I can clear myself,
+
+00:48:05.920 --> 00:48:09.920
+I... what I wanted to say
+is that... different from the panelists
+
+00:48:09.920 --> 00:48:11.920
+from yesterday and different from Chaoai,
+
+00:48:11.920 --> 00:48:15.000
+for instance, I think I'm working with
+
+00:48:16.280 --> 00:48:18.280
+a simpler
+
+00:48:19.000 --> 00:48:20.080
+machine learning approach.
+
+00:48:20.080 --> 00:48:24.920
+I don't use deep learning, for instance,
+and since I don't see the
+
+00:48:25.920 --> 00:48:28.600
+the use for it yet in my research
+
+00:48:28.920 --> 00:48:29.680
+because my research
+
+00:48:29.680 --> 00:48:33.640
+I think Yeliz mentioned that she
+she might use for labeling
+
+00:48:33.640 --> 00:48:38.120
+and other stuff... like generation
+and I haven't reached that point yet.
+
+00:48:38.120 --> 00:48:43.120
+I think there are some a lot of things
+that we can do with just with classification,
+
+00:48:43.120 --> 00:48:44.160
+for instance.
+
+00:48:44.800 --> 00:48:47.080
+That's it. 
+Okay. Thank you.
+
+00:48:47.080 --> 00:48:49.440
+And Yeliz, you want to conclude?
+
+00:48:50.680 --> 00:48:53.080
+Yes, I actually
+
+00:48:53.080 --> 00:48:58.000
+at least I hope that we will see
+developments again in two things.
+
+00:48:58.000 --> 00:49:01.840
+I think the first one
+is automated testing.
+
+00:49:01.840 --> 00:49:07.760
+I think we’re now at this stage
+that we have many tools and we know how
+
+00:49:07.760 --> 00:49:12.840
+to implement and automate certain,
+for example, certain guidelines.
+
+00:49:13.120 --> 00:49:18.840
+But there are a lot of bunch of others
+that they are very objective.
+
+00:49:19.160 --> 00:49:21.520
+They require human evaluation.
+
+00:49:21.760 --> 00:49:23.920
+It's very costly and expensive.
+
+00:49:23.920 --> 00:49:26.400
+I think, from evaluation perspective.
+
+00:49:26.760 --> 00:49:31.080
+So I'm hoping that there will be
+developments in machine learning
+
+00:49:31.080 --> 00:49:36.880
+and AI algorithms to support
+and have more automation in those ones
+
+00:49:37.120 --> 00:49:40.840
+that are really now requires the human
+
+00:49:42.040 --> 00:49:43.960
+to do the evaluations.
+
+00:49:43.960 --> 00:49:46.720
+And the other one is about the repairing.
+
+00:49:46.960 --> 00:49:49.960
+So I'm also hoping
+that we will also see developments
+
+00:49:49.960 --> 00:49:56.160
+in automating the kind
+of fixing the problems, automatically,
+
+00:49:56.720 --> 00:50:01.480
+learning from the good examples
+and being able to develop solutions
+
+00:50:02.000 --> 00:50:06.640
+while the pages are developed,
+they are actually automatically fixed
+
+00:50:06.640 --> 00:50:09.680
+and sometimes may be seamless
+to the developers
+
+00:50:09.960 --> 00:50:15.280
+so that they are not worried about the,
+you know, certain issues.
+
+00:50:15.280 --> 00:50:20.840
+Of course, Explainability
+is very important to explain developers
+
+00:50:20.840 --> 00:50:24.280
+what's going on,
+but I think automating certain things
+
+00:50:24.280 --> 00:50:27.480
+there would really help
+automating the repairment.
+
+00:50:28.320 --> 00:50:31.440
+Of course, to do that,
+I think we need datasets
+
+00:50:31.440 --> 00:50:34.640
+and maybe hopefully in the community
+we will have shared datasets
+
+00:50:34.640 --> 00:50:38.800
+that we can all work with
+and explore different algorithms.
+
+00:50:39.040 --> 00:50:40.480
+As we know it's costly.
+
+00:50:40.480 --> 00:50:43.600
+So exploring and doing research
+
+00:50:43.600 --> 00:50:47.200
+with existing data, it helps a lot.
+
+00:50:47.480 --> 00:50:52.600
+So I'm hoping that in the community
+we will see public datasets and of course
+
+00:50:53.560 --> 00:50:56.440
+the technical skills are very important.
+
+00:50:56.440 --> 00:51:01.440
+So human centered A.I.,
+which is needed here I think is important.
+
+00:51:01.440 --> 00:51:03.640
+So hopefully we will also see more people
+
+00:51:04.160 --> 00:51:07.520
+contributing to that
+and the the development.
+
+00:51:07.840 --> 00:51:10.960
+And of course, we should always remember,
+as Jutta
+
+00:51:10.960 --> 00:51:14.040
+was mentioning yesterday,
+the bias is critical.
+
+00:51:14.280 --> 00:51:18.280
+So when we are talking about, for example,
+automatically testing certain,
+
+00:51:18.280 --> 00:51:22.760
+automating the test of certain rules,
+we should make sure that we are
+
+00:51:22.760 --> 00:51:27.360
+not biasing certain user groups
+and we are really targeting everybody
+
+00:51:27.360 --> 00:51:31.240
+and different user
+groups, different needs and users.
+
+00:51:31.440 --> 00:51:34.120
+So that's all I wanted to say.
+
+00:51:34.120 --> 00:51:38.160
+Thank you so much, Yeliz.
+And for bringing also that note to too.
+
+00:51:38.480 --> 00:51:41.240
+I think it was a great way to finish this.
+
+00:51:41.240 --> 00:51:42.680
+This panel.
+
+00:51:42.680 --> 00:51:46.040
+So thank you so much 
+to the four of you.
+
+00:51:46.240 --> 00:51:49.520
+Really interesting to see
+all of those perspectives and what you
+
+00:51:50.440 --> 00:51:53.120
+what you're working on
+and what you're planning
+
+00:51:53.440 --> 00:51:56.440
+on doing so in the next
+
+00:51:58.000 --> 00:51:58.560
+years.
+
+00:51:58.560 --> 00:51:59.640
+I guess
+
+00:52:00.880 --> 00:52:02.320
+let me just draw your attention.
+
+00:52:02.320 --> 00:52:05.680
+There are several
+interesting questions on the Q&amp;A.
+
+00:52:05.680 --> 00:52:10.360
+So if you do have a chance,
+try to answer them there.
+
+00:52:10.360 --> 00:52:15.200
+We unfortunately didn't have time to
+to get to those during our panel.
+
+00:52:15.760 --> 00:52:19.520
+But I think there are and there are some
+that really have your names on it.
+
+00:52:20.040 --> 00:52:23.400
+So you're exactly the
+
+00:52:23.840 --> 00:52:26.200
+the correct person to answer those.
+
+00:52:26.800 --> 00:52:31.320
+So once again, thank you so much for
+for your participation was great
+
+00:52:31.720 --> 00:52:35.480
+and I will now have a shorter break
+
+00:52:35.480 --> 00:52:40.120
+than the 10 minutes and has
+and will be back in 5 minutes.
+
+00:52:40.120 --> 00:52:44.040
+So 5 minutes past the hour.
+

@@ -1,0 +1,76 @@
+﻿WEBVTT
+
+00:00:01.000 --> 00:00:04.340
+Des outils pour évaluer l'accessibilité web.
+
+00:00:04.640 --> 00:00:10.880
+Il existe des logiciels et des services en ligne pour vous aider à identifier des problèmes d'accessibilité.
+
+00:00:11.340 --> 00:00:14.380
+Ils peuvent vous faire économiser du temps et des efforts pour l'évaluation,
+
+00:00:14.540 --> 00:00:18.120
+et peuvent vous aider à éviter de créer de nouvelles barrières à l'accessibilité.
+
+00:00:18.480 --> 00:00:21.740
+Cependant, les outils ne peuvent pas faire tout le travail.
+
+00:00:21.920 --> 00:00:27.580
+Certains tests d'accessibilité ne peuvent pas être automatisés et nécessitent une intervention manuelle.
+
+00:00:28.100 --> 00:00:31.840
+Certains outils vont vous guider pour effectuer les tests qui ne peuvent pas être automatisés.
+
+00:00:32.300 --> 00:00:37.720
+Certains outils vérifient une page à la fois, tandis que d'autres peuvent vérifier des sites entiers.
+
+00:00:38.060 --> 00:00:41.260
+Certains outils peuvent être intégrés dans différents environnements de travail.
+
+00:00:41.360 --> 00:00:47.060
+Dans votre navigateur, par exemple, des outils de gestion de contenus, ou CMS,
+
+00:00:47.140 --> 00:00:49.700
+et vos outils de développement et de déploiement.
+
+00:00:49.880 --> 00:00:52.560
+Ils accompagnent différents profils dans l'équipe de gestion d'un projet,
+
+00:00:52.660 --> 00:00:58.680
+tels que des contributeurs, codeurs,
+designers, et chefs de produit.
+
+00:00:59.170 --> 00:01:03.620
+Notons que dans certains cas, les outils peuvent fournir des résultats incorrects.
+
+00:01:03.800 --> 00:01:06.280
+Évitez donc de trop vous fier à ce que ce que disent les outils
+
+00:01:06.380 --> 00:01:10.540
+et écoutez l'expérience réelle des personnes qui utilisent votre site web.
+
+00:01:11.620 --> 00:01:17.240
+"Sélectionner des outils pour l'évaluation de l'accessibilité"
+explique ce qu'un outil peut ou ne peut pas faire,
+
+00:01:17.400 --> 00:01:21.200
+et ce qu'il faut rechercher dans les outils qui répondent à vos besoins.
+
+00:01:21.380 --> 00:01:26.830
+La liste des outils pour l'évaluation de l'accessibilité web contient des filtres qui vous aideront à trouver  l'outil approprié
+
+00:01:26.830 --> 00:01:29.280
+à votre propre situation.
+
+00:01:29.560 --> 00:01:32.510
+Si vous avez les outils et les connaissances
+sur la façon de les utiliser,
+
+00:01:32.510 --> 00:01:36.780
+vous avez toutes les billes pour trouver les erreurs d'accessibilité de manière plus efficace.
+
+00:01:37.360 --> 00:01:42.300
+Accessibilité Web : essentielle pour certains, utile à tous.
+
+00:01:42.300 --> 00:01:53.440
+Pour plus d'informations sur les outils pour évaluer l'accessibilité web, allez sur w3.org/WAI/evaluation
