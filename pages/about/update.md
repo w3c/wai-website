@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, November 2025</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, January 2026</span>"
 lang: en
-last_updated: 2025-11-14 # REMEMBER to update the HTML title month, too
+last_updated: 2026-01-05 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -102,7 +102,7 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in late 2025 or early 2026:<!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in 2026 Q1 (January, February, March):<!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
 * [Accessibility Conformance Testing (ACT) Rules Format 1.1](https://www.w3.org/TR/act-rules-format/) as a W3C 'Recommendation' Standard
 * Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.1 as a Working Draft, see [WCAG-EM Overview](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/)
@@ -114,7 +114,7 @@ Recent publications and other announcements are listed on the **[News page](/new
 
 ### Get Updated
 
-To get news via e-mail, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Subscribe to WAI News]](/news/subscribe/)**.
+To get news via email, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Subscribe to WAI News]](/news/subscribe/)**.
 
 ## Wait, Wait, There's More
 
@@ -193,8 +193,10 @@ To learn about contributing to W3C WAI accessibility work generally, **see [[Par
 
 {% include_cached excol.html type="middle" %}
 
+* 5 January 2026
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 14 November 2025
-  * Added **Authoring Tool Accessibility Guidelines (ATAG)** update is being explored in a W3C ATAG Community Group.
+  * Added "**Authoring Tool Accessibility Guidelines (ATAG)** update is being explored in a W3C ATAG Community Group."
   * Added "[W3C Community Groups](/about/participating/#CGs) are open for anyone to join."
 * 4 November 2025
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
