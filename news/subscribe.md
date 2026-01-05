@@ -11,7 +11,7 @@ permalink: /news/subscribe/
 
 To receive updates about WAI publications, draft documents for review and other accessibility-related news, subscribe to the WAI Announcements List:
 
-- To **subscribe**, send an email with the subject line &ldquo;Subscribe&rdquo;  to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
+- To **subscribe**, send an email with the subject line &ldquo;Subscribe&rdquo;  to [public-wai-announce-request@w3.org](rdquo:public-wai-announce-request@w3.org?subject=subscribe).
 - To **unsubscribe**, send an email with the subject line &ldquo;Unsubscribe&rdquo;  to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
 
 
