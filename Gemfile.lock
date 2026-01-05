@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/w3c/wai-website-theme
-  revision: 3317bc4e222c1433600d8b61204c7d0f5b13e7b7
-  branch: main
+  revision: f182969afb7a8fb47bd7434707f247b9302e11ba
+  branch: updates
   specs:
     wai-website-theme (1.10)
       jekyll (~> 4.4.1)
@@ -20,7 +20,6 @@ GIT
       jekyll-seo-tag (~> 2.8.0)
       jekyll-sitemap (~> 1.4.0)
       logger (~> 1.7.0)
-      wai-website-plugin (~> 0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -74,11 +73,6 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
-    jekyll-remote-theme (0.4.3)
-      addressable (~> 2.0)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-sass-converter (>= 1.0, <= 3.0.0, != 2.0.0)
-      rubyzip (>= 1.3.0, < 3.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -104,7 +98,7 @@ GEM
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (7.0.0)
+    public_suffix (7.0.2)
     racc (1.8.1)
     rake (13.3.1)
     rb-fsevent (0.11.2)
@@ -112,7 +106,6 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.4)
     rouge (4.7.0)
-    rubyzip (2.4.1)
     safe_yaml (1.0.5)
     sass-embedded (1.97.1-arm64-darwin)
       google-protobuf (~> 4.31)
@@ -129,7 +122,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-feed (~> 0.17.0)
-  jekyll-remote-theme (~> 0.4.3)
   wai-website-plugin!
   wai-website-theme!
 
@@ -154,7 +146,6 @@ CHECKSUMS
   jekyll-include-cache (0.2.1) sha256=c7d4b9e551732a27442cb2ce853ba36a2f69c66603694b8c1184c99ab1a1a205
   jekyll-paginate (1.1.0) sha256=880aadf4b02529a93541d508c5cbb744f014cbfc071d0263a31f25ec9066eb64
   jekyll-redirect-from (0.16.0) sha256=6635cae569ef9b0f90ffb71ec014ba977177fafb44d32a2b0526288d4d9be6db
-  jekyll-remote-theme (0.4.3) sha256=d3fde726484fb3df04de9e347baf75aaa3d5bfea771a330412e0c52608e54b40
   jekyll-sass-converter (3.0.0) sha256=e2e7674f186e906b9d99b8066e13f9b4d5cb9f806d36f7bc8cf2610053d8c902
   jekyll-seo-tag (2.8.0) sha256=3f2ed1916d56f14ebfa38e24acde9b7c946df70cb183af2cb5f0598f21ae6818
   jekyll-sitemap (1.4.0) sha256=0de08c5debc185ea5a8f980e1025c7cd3f8e0c35c8b6ef592f15c46235cf4218
@@ -169,14 +160,13 @@ CHECKSUMS
   nokogiri (1.19.0-arm64-darwin) sha256=0811dfd936d5f6dd3f6d32ef790568bf29b2b7bead9ba68866847b33c9cf5810
   nokogiri (1.19.0-x86_64-linux-gnu) sha256=f482b95c713d60031d48c44ce14562f8d2ce31e3a9e8dd0ccb131e9e5a68b58c
   pathutil (0.16.2) sha256=e43b74365631cab4f6d5e4228f812927efc9cb2c71e62976edcb252ee948d589
-  public_suffix (7.0.0) sha256=f7090b5beb0e56f9f10d79eed4d5fbe551b3b425da65877e075dad47a6a1b095
+  public_suffix (7.0.2) sha256=9114090c8e4e7135c1fd0e7acfea33afaab38101884320c65aaa0ffb8e26a857
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
   rake (13.3.1) sha256=8c9e89d09f66a26a01264e7e3480ec0607f0c497a861ef16063604b1b08eb19c
   rb-fsevent (0.11.2) sha256=43900b972e7301d6570f64b850a5aa67833ee7d87b458ee92805d56b7318aefe
   rb-inotify (0.11.1) sha256=a0a700441239b0ff18eb65e3866236cd78613d6b9f78fea1f9ac47a85e47be6e
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   rouge (4.7.0) sha256=dba5896715c0325c362e895460a6d350803dbf6427454f49a47500f3193ea739
-  rubyzip (2.4.1) sha256=8577c88edc1fde8935eb91064c5cb1aef9ad5494b940cf19c775ee833e075615
   safe_yaml (1.0.5) sha256=a6ac2d64b7eb027bdeeca1851fe7e7af0d668e133e8a88066a0c6f7087d9f848
   sass-embedded (1.97.1-arm64-darwin) sha256=9da08e5cc569ef62235fc515a87c75a47b0de40d8416c563ba1abfbe60e606d9
   sass-embedded (1.97.1-x86_64-linux-gnu) sha256=9a294bb0acb1a539ed19f0e511098a9740b4aab4389e169585e8da1337fbd8b4
