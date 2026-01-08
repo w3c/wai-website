@@ -62,7 +62,7 @@ You can contribute to the work without being a member of the task force:
 - **Open WAI-ARIA Authoring Practices issues:** Comment on or propose solutions for open issues.
 - **Published WAI-ARIA Authoring Practices Guide:** Let us know if there is a new issue with any of the practices in the guide.
 
-Either comment / raise a new issue in the [APG GitHub repository](https://github.com/w3c/aria-practices/issues) or [email the task force](mailto:public-aria-practices@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+Comment or raise a new issue in the [APG GitHub repository](https://github.com/w3c/aria-practices/issues) or [email the task force](mailto:public-aria-practices@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
