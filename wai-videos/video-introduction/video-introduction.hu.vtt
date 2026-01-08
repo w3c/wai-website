@@ -1,0 +1,185 @@
+﻿WEBVTT
+
+00:02.200 --> 00:05.200 align:middle
+Üdv! A nevem Shadi Abou-Zahra.
+
+00:05.400 --> 00:09.600 align:middle
+Én vagyok az akadálymentesítési stratégia 
+és technológia specialistája a W3C-nél,
+
+00:09.800 --> 00:11.840 align:middle
+a World Wide Web Konzorciumnál,
+
+00:12.040 --> 00:15.360 align:middle
+és most a webes akadálymentesítésről
+szeretnék beszélni.
+
+00:15.560 --> 00:19.240 align:middle
+A Web sok ember számára a 
+mindennapi élet nélkülözhetetlen része.
+
+00:19.440 --> 00:21.080 align:middle
+Munkában.
+
+00:21.240 --> 00:22.840 align:middle
+Otthon.
+
+00:23.000 --> 00:24.880 align:middle
+És útközben.
+
+00:25.080 --> 00:29.640 align:middle
+A webes akadálymentesítés lényege, hogy a fogyatékos 
+emberek is ugyanúgy képesek legyenek használni a Webet.
+
+00:29.840 --> 00:35.360 align:middle
+Például valaki, aki nem tudja a karjait használni,
+és szájba vehető pálca segítségével gépel.
+
+00:35.560 --> 00:40.240 align:middle
+Vagy valaki, aki nem hall jól,
+és feliratokkal nézi a videókat.
+
+00:40.400 --> 00:45.800 align:middle
+Vagy valaki, aki nem lát jól, és képernyőolvasót használ,
+amely hangosan felolvassa a képernyőn megjelenő tartalmat.
+
+00:46.080 --> 00:48.480 align:middle
+Az akadálymentesítésnek számos előnye van.
+
+00:48.760 --> 00:54.280 align:middle
+Például, a feliratok mindenkinek hasznosak
+akár zajos, akár csendes környezetben.
+
+00:54.440 --> 00:58.120 align:middle
+A megfelelő színkontraszt is jobban működik,
+ha ragyogó fény van.
+
+00:58.280 --> 01:03.960 align:middle
+Emellett a korral járó hiányosságok, mint például 
+a csökkenő kézügyesség, esetén is segít.
+
+01:04.120 --> 01:09.120 align:middle
+Valójában mindenkinek jobb felhasználói élményt nyújt
+egy jobb elrendezés és dizájn. 
+
+01:09.280 --> 01:14.760 align:middle
+Számos akadálymentességet segítő tulajdonság beépíthető a
+weboldalak és alkalmazások mögött működő kódokba. 
+
+01:15.000 --> 01:21.640 align:middle
+A W3C webes technológiái, mint a HTML,
+számos akadálymentességi tulajdonságot támogatnak.
+
+01:23.120 --> 01:27.920 align:middle
+Például, lehetővé teszik a képekhez
+szöveges alternatíva megadását,
+
+01:28.480 --> 01:33.080 align:middle
+melyet a képernyőolvasó hangosan felolvas
+és amit keresőmotorok is felhasználnak.
+
+01:34.640 --> 01:39.400 align:middle
+Emellett a fejlécek, címkék, és más egyéb kódok is
+támogatják az akadálymentességet, 
+
+01:39.880 --> 01:42.680 align:middle
+és javítják az általános minőséget.
+
+01:43.320 --> 01:49.840 align:middle
+A jó szerkesztőeszközök, mint a wiki-k,
+tartalomkezelő rendszerek és kódszerkesztők,
+
+01:50.600 --> 01:56.760 align:middle
+segítik akadálymentes kódok létrehozását, akár
+automatikusan vagy a szerző közvetlen közreműködése által.
+
+01:57.440 --> 02:04.480 align:middle
+A webböngészők, médialejátszók és alkalmazások esetén
+is szükséges az akadálymentesség támogatása.
+
+02:05.480 --> 02:09.600 align:middle
+A W3C olyan szabványokat biztosít, melyek 
+segítik a web akadálymentessé tételét,
+
+02:10.040 --> 02:13.920 align:middle
+és amelyek nemzetközileg elismertek
+az állami és üzleti szférában is.
+
+02:14.480 --> 02:19.880 align:middle
+Ezek közül a legismertebb a Web 
+Akadálymentesítési Útmutató – a WCAG.
+
+02:20.680 --> 02:24.240 align:middle
+A WCAG egyben az ISO:40500-as szabvány is,
+
+02:24.600 --> 02:29.840 align:middle
+valamint átvette az EN 301 549 európai
+szabvány is.
+
+02:30.520 --> 02:33.360 align:middle
+Négy alapelv köré épül:
+
+02:33.560 --> 02:39.920 align:middle
+először, Észlelhetőség – vagyis hogy az emberek
+képesek látni vagy hallani az adott tartalmat.
+
+02:40.880 --> 02:47.160 align:middle
+Működtethetőség – vagyis az emberek képesek használni 
+a számítógépet gépelés útján, vagy hang segítségével.
+
+02:48.000 --> 02:53.360 align:middle
+Érthetőség – az emberek egyértelmű 
+és egyszerű szövegezéssel találkoznak.
+
+02:54.120 --> 02:58.600 align:middle
+Robusztusság – különböző segítő
+technológiák használatára van lehetőségünk.
+
+02:59.360 --> 03:07.000 align:middle
+A WCAG mellett a W3C a Szerkesztőeszközök 
+Akadálymentesítési Útmutatóját - ATAG, is biztosítja,
+
+03:07.440 --> 03:12.840 align:middle
+amely a tartalomkezelő rendszerek, kódszerkesztők és 
+más szoftverekkel szembeni követelményeket határozza meg.
+
+03:13.240 --> 03:16.880 align:middle
+A Felhasználói Program Akadálymentesítési Útmutató - UAAG,
+
+03:17.160 --> 03:20.480 align:middle
+pedig a webböngészőktől és médialejátszóktól
+elvárt követelményeket definiálja.
+
+03:21.000 --> 03:27.280 align:middle
+Több mint egy milliárd ember, a teljes népesség 
+körülbelül 15-20%-a él valamilyen fogyatékossággal.
+
+03:28.160 --> 03:31.880 align:middle
+Az ENSZ Fogyatékossággal élő Személyek Jogairól 
+szóló Egyezménye
+
+03:32.040 --> 03:37.040 align:middle
+az információhoz való hozzáférés jogát, 
+ideértve az Internetet is, emberi jogként definiálja.
+
+03:38.800 --> 03:42.920 align:middle
+A világ legtöbb országa
+ratifikálta ezt az ENSZ Egyezményt,
+
+03:43.160 --> 03:46.960 align:middle
+és számos ország vezetett be ezzel
+kapcsolatos szabályozást is.
+
+03:48.040 --> 03:51.000 align:middle
+Azonban törvényektől és rendeletektől függetlenül,
+
+03:51.160 --> 03:56.000 align:middle
+az akadálymentesítési szabványok bevezetése
+nélkülözhetetlen a fogyatékos emberek számára,
+
+03:56.160 --> 03:57.800 align:middle
+és hasznos mindenkinek.
+
+03:59.000 --> 04:05.880 align:middle
+További információ a webes akadálymentesítésről
+ a w3.org/WAI oldalon.

@@ -13,10 +13,10 @@ warning_icon: false
 warning_message: >
   This is a local preview of the W3C WAI website. The published website is at <a href="https://www.w3.org/WAI/">w3.org/WAI/</a>.
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).
-baseurl: "/wai-website" # the subpath of your site, e.g. /blog
-url: "https://w3c.github.io" # the base hostname & protocol for your site
+baseurl: "/wai-website" # the subpath of your site (for GitHub Pages)
+url: "https://w3c.github.io" # the base hostname & protocol for your site (for GitHub Pages)
 twitter:
   username: w3c_wai
 exclude:
@@ -29,6 +29,7 @@ exclude:
   - "script"
   - "netlify.toml"
   - "vendor"
+
 # Build settings
 markdown: kramdown
 kramdown:
@@ -39,8 +40,7 @@ highlighter: rouge
 repository: w3c/wai-website
 branch: main
 
-# remote_themes are an extension for Jekyll running in GitHub pages and are a GitHub repo 
-remote_theme: w3c/wai-website-theme
+theme: wai-website-theme
 
 paginate: 5
 paginate_path: "/news/:num/"
@@ -147,7 +147,7 @@ defaults:
       layout: "pattern"
       type_of_guidance_in_content: true
       type_of_guidance: Cognitive Accessibility Design Pattern
-      feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
+      feedbackmail: public-cognitive-a11y-tf@w3.org
       standalone_resource_header:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility, not required to meet WCAG)
@@ -179,7 +179,7 @@ defaults:
       layout: "objective"
       type_of_guidance_in_content: true
       type_of_guidance: Cognitive Accessibility Objective
-      feedbackmail: public-cognitive-a11y-tf@w3.org # delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
+      feedbackmail: public-cognitive-a11y-tf@w3.org
       standalone_resource_header:
         title: Supplemental Guidance to WCAG 2
         subtitle: Additional ways to improve accessibility, not required to meet WCAG
@@ -226,7 +226,7 @@ defaults:
       class: tight-page
       layout: act_rule
       external_css: /content-assets/wcag-act-rules/act-styles.css
-      feedbackmail: wai@w3.org # NEW: delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
+      feedbackmail: wai@w3.org
       footer:
         > # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
         <p><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@.</p>
@@ -354,13 +354,5 @@ tipue_search:
         "pages/wai-aria-practices/patterns/landmarks/examples/search.html",
       ]
 
-# TODO docs say don't need to declare any used in the Theme
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-remote-theme
   - jekyll-feed
-  - wai-website-plugin

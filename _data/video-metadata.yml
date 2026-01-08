@@ -1,1 +1,431 @@
-../_external/data/video-metadata.yml
+- id: conformance-evaluation
+  name:
+    en: "Conformance Evaluation Overview"
+    fr: "Vue d’ensemble de l’évaluation de la conformité"
+  main-page: /test-evaluate/conformance/
+  path: evaluating
+  captions:
+    - en
+  subtitles:
+    - fr
+- id: evaluating-resources-overview
+  name:
+    en: "Evaluating Web Accessibility - Resources Overview"
+    fr: "Évaluer l’accessibilité Web – Vue d’ensemble des ressources"
+  main-page: /test-evaluate/
+  path: evaluating
+  captions:
+    - en
+  subtitles:
+    - fr
+- id: involving-users
+  name:
+    en: "Involving Users in Web Accessibility Overview"
+    fr: "Impliquer les utilisateurs dans l’accessibilité Web – Vue d’ensemble"
+  main-page: /planning/involving-users/
+  path: evaluating
+  captions:
+    - en
+  subtitles:
+    - fr
+- id: tools-for-evaluating
+  name:
+    en: "Evaluation Tools Overview"
+    fr: "Vue d’ensemble des outils d’évaluation"
+    pl: "Omówienie narzędzi oceny"    
+  main-page: /test-evaluate/tools/
+  path: evaluating
+  captions:
+    - en
+  subtitles:
+    - fr
+    - pl    
+- id: easy-checks-accessibility
+  name:
+    en: "Easy Checks Overview"
+  path: evaluating
+  captions:
+    - en
+  subtitles:
+    - fr
+- id: foundations-course-teaser
+  name:
+    en: "Introduction to Web Accessibility (W3C WAI Digital Accessibility Foundations - Free Online Course)"
+  main-page: /courses/foundations-course/
+  path: foundations-course
+  captions:
+    - en
+- id: captions
+  name:
+    en: "Web Accessibility Perspectives: Video Captions"
+    fr: "L'accessibilité Web illustrée : Les sous-titres de vidéo"
+  main-page: /perspective-videos/captions/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: contrast
+  name:
+    en: "Web Accessibility Perspectives: Colors with Good Contrast"
+    fr: "L'accessibilité Web illustrée : des couleurs bien contrastées"
+  main-page: /perspective-videos/contrast/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: controls
+  name:
+    en: "Web Accessibility Perspectives: Large Links, Buttons, and Controls"
+    fr: "L'accessibilité Web illustrée : des liens, boutons, et composants d'interface assez grands"
+  main-page: /perspective-videos/controls/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: customizable
+  name:
+    en: "Web Accessibility Perspectives: Customizable Text"
+    fr: "L'accessibilité Web illustrée : un texte personnalisable"
+  main-page: /perspective-videos/customizable/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: keyboard
+  name:
+    en: "Web Accessibility Perspectives: Keyboard Compatibility"
+    fr: "L'accessibilité Web illustrée : compatibilité avec le clavier"
+  main-page: /perspective-videos/keyboard/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: layout
+  name:
+    en: "Web Accessibility Perspectives: Clear Layout and Design"
+    fr: "L'accessibilité Web illustrée : une mise en page et une conception claires"
+  main-page: /perspective-videos/layout/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: notifications
+  name:
+    en: "Web Accessibility Perspectives: Notifications and Feedback"
+    fr: "L'accessibilité Web illustrée : notifications et retours d'information"
+  main-page: /perspective-videos/notifications/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: speech
+  name:
+    en: "Web Accessibility Perspectives: Text to Speech"
+    fr: "L'accessibilité Web illustrée : la synthèse vocale"
+  main-page: /perspective-videos/speech/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: understandable
+  name:
+    en: "Web Accessibility Perspectives: Understandable Content"
+    fr: "L'accessibilité Web illustrée : un contenu compréhensible"
+  main-page: /perspective-videos/understandable/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: voice
+  name:
+    en: "Web Accessibility Perspectives: Speech Recognition"
+    fr: "L'accessibilité Web illustrée : la reconnaissance vocale"
+  main-page: /perspective-videos/voice/
+  path: perspective-videos
+  lang-folder: true
+  captions:
+    - en
+  captions-ad:
+    - en
+  subtitles:
+    - fr
+  subtitles-ad:
+    - fr
+  descriptions:
+    - en
+    - fr
+  descriptions-ad:
+    - en
+    - fr
+- id: video-introduction
+  name:
+    en: "Introduction to Web Accessibility and W3C Standards"
+    fr: "Introduction à l’accessibilité Web et aux standards du W3C"
+    pl: "Wprowadzenie do dostępności internetowej i standardów W3C"
+  main-page: /videos/standards-and-benefits/
+  path: video-introduction
+  captions:
+    - en
+  subtitles:
+    - ar
+    - cs
+    - de
+    - el
+    - es
+    - fa
+    - fr
+    - gu
+    - hi
+    - hu
+    - id
+    - it
+    - ja
+    - ko
+    - kok
+    - ml
+    - mr
+    - nl
+    - pl
+    - pt-BR
+    - ru
+    - te
+    - tr
+    - zh-hans
+    - ta
+- id: user-stories_1
+  name:
+    en: "Ade, reporter with limited use of his arms"
+  main-page: /people-use-web/user-stories-one/
+  path: people-use-web
+  captions:
+    - en
+- id: user-stories_2
+  name:
+    en: "Ian, data entry clerk with autism"
+  main-page: /people-use-web/user-stories-two/
+  path: people-use-web
+  captions:
+    - en
+- id: user-stories_4
+  name:
+    en: "Lexie, online shopper who cannot distinguish between certain colors (color blindness)"
+  main-page: /people-use-web/user-stories-four/
+  path: people-use-web
+  captions:
+    - en
+- id: user-stories_5
+  name:
+    en: "Sophie, basketball fan with Down syndrome"
+  main-page: /people-use-web/user-stories-five/
+  path: people-use-web
+  captions:
+    - en
+- id: user-stories_6
+  name:
+    en: "Dhruv, older adult student who is deaf"
+  main-page: /people-use-web/user-stories-six/
+  path: people-use-web
+  captions:
+    - en
+  subtitles:
+    - es
+- id: user-stories_7
+  name:
+    en: "Marta, marketing assistant who is deaf and blind"
+  main-page: /people-use-web/user-stories-seven/
+  path: people-use-web
+  captions:
+    - en
+- id: user-stories_8
+  name:
+    en: "Stefan, student with attention deficit hyperactivity disorder and dyslexia"
+  main-page: /people-use-web/user-stories-eight/
+  path: people-use-web
+  captions:
+    - en
+- id: user-stories_9
+  name:
+    en: "Elias, retiree with low vision, hand tremor, and mild short-term memory loss"
+  main-page: /people-use-web/user-stories-nine/
+  path: people-use-web
+  captions:
+    - en
+- id: abilities-barriers_auditory
+  name:
+    en: "Abilities and Barriers - Auditory Disabilities"
+  main-page: /people-use-web/abilities-barriers-auditory/
+  path: people-use-web
+  captions:
+    - en
+- id: abilities-barriers_cognitive
+  name:
+    en: "Abilities and Barriers - Cognitive Disabilities"
+  main-page: /people-use-web/abilities-barriers-cognitive/
+  path: people-use-web
+  captions:
+    - en
+- id: abilities-barriers_physical
+  name:
+    en: "Abilities and Barriers - Physical Disabilities"
+  main-page: /people-use-web/abilities-barriers-physical/
+  path: people-use-web
+  captions:
+    - en
+- id: abilities-barriers_speech
+  name:
+    en: "Abilities and Barriers - Speech Disabilities"
+  main-page: /people-use-web/abilities-barriers-speech/
+  path: people-use-web
+  captions:
+    - en
+- id: abilities-barriers_visual
+  name:
+    en: "Abilities and Barriers - Visual Disabilities"
+  main-page: /people-use-web/abilities-barriers-visual/
+  path: people-use-web
+  captions:
+    - en
+- id: abilities-barriers_compilation
+  name:
+    en: "Abilities and Barriers - Compilation"
+  path: people-use-web
+  captions:
+    - en
+- id: tools-techniques_input
+  name:
+    en: "Tools and Techniques - Input"
+  path: people-use-web
+  captions:
+    - en
+- id: tools-techniques_interaction
+  name:
+    en: "Tools and Techniques - Interaction"
+  path: people-use-web
+  captions:
+    - en
+- id: tools-techniques_perception
+  name:
+    en: "Tools and Techniques - Perception"
+  path: people-use-web
+  captions:
+    - en
+- id: tools-techniques_presentaton
+  name:
+    en: "Tools and Techniques - Presentation"
+  path: people-use-web
+  captions:
+    - en
+- id: tools-techniques_compilation
+  name:
+    en: "Tools and Techniques - Compilation"
+  path: people-use-web
+  captions:
+    - en
