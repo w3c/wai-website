@@ -2244,6 +2244,15 @@
 /content-assets/wcag-act-rules/testcases/in6db8/ad53952b46a372bddc3d34d82427c9ccbc6ecaa6.html
 /content-assets/wcag-act-rules/testcases/in6db8/ca835c48c5d554fbfaea6d022816e39cda25660a.html
 /content-assets/wcag-act-rules/testcases/in6db8/ee9eeebf0a0b1a514df6202443345d999d2bd575.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/1345bf067f66f2ee893f75e43d72121a0119d6b1.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/17a785ed25669522866f98997f76d69150243c8b.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/358fa0b821c3118de63adfbe37bd0e85a3bd6f8c.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/7cddc927da518cc9b170051a9010e256068c875b.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/8cf721f0f9490be4e2909caaa944cf3a32a43fc0.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/ae9e9709911eaa328189f8ab354cba0bb840a6c9.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/c33e521a7914c6dc8bde272dcc8e090b7463473c.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/c4a2fe12d5a48f7ace66475d3791e051ddefa807.html
+/content-assets/wcag-act-rules/testcases/kb1m8s/f5ec91369a85c8873996b82a4c5151c65a7d2204.html
 /content-assets/wcag-act-rules/testcases/m6b1q3/0edc121ac393fa9661fc1c18156e040775313779.html
 /content-assets/wcag-act-rules/testcases/m6b1q3/4eec4a33bca54e6313e0af600af41797bb7c4213.html
 /content-assets/wcag-act-rules/testcases/m6b1q3/78c41b8461997477cb7b6a9d163ba8a387ad56b8.html
@@ -3600,6 +3609,7 @@
 /standards-guidelines/act/rules/ffd0e9/proposed/index.html
 /standards-guidelines/act/rules/in6db8/proposed/index.html
 /standards-guidelines/act/rules/index.html
+/standards-guidelines/act/rules/kb1m8s/proposed/index.html
 /standards-guidelines/act/rules/m6b1q3/2023-08-30/index.html
 /standards-guidelines/act/rules/m6b1q3/index.html
 /standards-guidelines/act/rules/m6b1q3/proposed/index.html
@@ -3608,6 +3618,11 @@
 /standards-guidelines/act/rules/oj04fd/proposed/index.html
 /standards-guidelines/act/rules/qt1vmo/index.html
 /standards-guidelines/act/rules/qt1vmo/proposed/index.html
+/standards-guidelines/act/rules/terms/accessible-name/examples/index.html
+/standards-guidelines/act/rules/terms/element-language/examples/index.html
+/standards-guidelines/act/rules/terms/included-in-the-accessibility-tree/examples/index.html
+/standards-guidelines/act/rules/terms/programmatic-label/examples/index.html
+/standards-guidelines/act/rules/terms/visible/examples/index.html
 /standards-guidelines/act/rules/ucwvc8/proposed/index.html
 /standards-guidelines/act/rules/ye5d6e/proposed/index.html
 /standards-guidelines/ar.html

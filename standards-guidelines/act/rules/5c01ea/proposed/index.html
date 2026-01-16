@@ -11,15 +11,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1768505453178688379";
+      element.src = "/WAI/assets/scripts/main.js?1768587200821975368";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1768505453178688379">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1768587200821975368">
 
-<title> ARIA state or property is permitted[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1768505453178688379"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> ARIA state or property is permitted[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1768587200821975368"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="ARIA state or property is permitted" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -277,9 +277,7 @@ h2#sidebar-header {
                 
                 <li><a href="#applicability">Applicability</a></li>
                 
-                <li><a href="#expectation-1">Expectation 1</a></li>
-                
-                <li><a href="#expectation-2">Expectation 2</a></li>
+                <li><a href="#expectation">Expectation</a></li>
                 
                 <li><a href="#background">Background</a></li>
                 
@@ -335,7 +333,7 @@ h2#sidebar-header {
 
 <p>This rule applies to any <a href="https://www.w3.org/TR/wai-aria-1.2/#state_prop_def" title="Definition of ARIA States and Properties">WAI-ARIA state or property</a> that is specified on an <a href="#namespaced-element">HTML or SVG element</a> that is <a href="#included-in-the-accessibility-tree" title="Definition of Included in the Accessibility Tree">included in the accessibility tree</a>.</p>
 
-<h2 id="expectation-1">Expectation 1</h2>
+<h2 id="expectation">Expectation</h2>
 
 <p>For each test target, one of the following is true:</p>
 
@@ -345,13 +343,9 @@ h2#sidebar-header {
   <li><strong>language feature</strong>: the test target is specified on an <a href="#namespaced-element">HTML element</a> and is allowed on that element. Which ARIA states or properties may be used on which element is described in <a href="https://w3c.github.io/html-aria/">ARIA in HTML</a>.</li>
 </ul>
 
-<h2 id="expectation-2">Expectation 2</h2>
-
-<p>No test target is <a href="https://www.w3.org/TR/wai-aria-1.2/#prohibitedattributes" title="WAI-ARIA 1.2 Definition of Prohibited States and Properties">prohibited</a> on the <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> of the element on which it is specified.</p>
-
 <h2 id="background">Background</h2>
 
-<p>The presence of prohibited ARIA attributes is often the result of a developer using an incorrect role, or a misunderstanding of the attribute. These attributes are ignored by browsers and other assistive technologies. This often means that a state or property which should exist is missing.</p>
+<p>The use of ARIA attributes that are not supported by a role is often the result of a developer using either an incorrect role, or misunderstanding the attribute. These attributes are ignored by browsers and other assistive technologies. This often means that information that should exist is missing to assistive technology users.</p>
 
 <p>In HTML, there are language features that do not have corresponding implicit WAI-ARIA semantics. As per <a href="https://www.w3.org/TR/html-aria/">ARIA in HTML</a>, those elements can have <a href="https://www.w3.org/TR/wai-aria-1.2/#global_states" title="Definition of Global ARIA States and Properties">global states or properties</a>. Some of those elements can also have <a href="https://www.w3.org/TR/wai-aria-1.2/#inheritedattributes" title="Definition of Inherited ARIA States and Properties">inherited</a>, <a href="https://www.w3.org/TR/wai-aria-1.2/#supportedState" title="Definition of Supported ARIA States and Properties">supported</a>, or <a href="https://www.w3.org/TR/wai-aria-1.2/#requiredState" title="Definition of Required ARIA States and Properties">required</a> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-state" title="Definition of ARIA State">states</a> or <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">properties</a> that correspond to a <a href="https://www.w3.org/TR/wai-aria-1.2/#introroles">WAI-ARIA role</a>. For example, the <code class="language-plaintext highlighter-rouge">audio</code> element has no corresponding ARIA semantics but it can have <a href="https://www.w3.org/TR/wai-aria-1.2/#inheritedattributes" title="Definition of Inherited ARIA States and Properties">inherited</a>, <a href="https://www.w3.org/TR/wai-aria-1.2/#supportedState" title="Definition of Supported ARIA States and Properties">supported</a>, or <a href="https://www.w3.org/TR/wai-aria-1.2/#requiredState" title="Definition of Required ARIA States and Properties">required</a> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-state" title="Definition of ARIA State">states</a> or <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">properties</a> of the <a href="https://www.w3.org/TR/wai-aria-1.2/#application"><code class="language-plaintext highlighter-rouge">application</code> role</a>.</p>
 
@@ -370,6 +364,7 @@ h2#sidebar-header {
 <h3 id="related-rules">Related rules</h3>
 
 <ul>
+  <li><a href="https://www.w3.org/WAI/standards-guidelines/act/rules/kb1m8s/">ARIA global properties not used where prohibited</a></li>
   <li><a href="https://www.w3.org/WAI/standards-guidelines/act/rules/6a7281/">ARIA state or property has valid value</a></li>
 </ul>
 
@@ -471,7 +466,7 @@ not tested by the rule:</p>
 
 <p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/5c01ea/655b73c1435335a6a16852210787dc3621e73cef.html">Open in a new tab</a></p>
 
-<p>The <code class="language-plaintext highlighter-rouge">aria-label</code> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">property</a> is a <a href="https://www.w3.org/TR/wai-aria-1.2/#global_states" title="Definition of Global ARIA States and Properties">global</a> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">property</a>. It is allowed on any <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a>, except where specifically prohibited.</p>
+<p>The <code class="language-plaintext highlighter-rouge">aria-label</code> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">property</a> is a <a href="https://www.w3.org/TR/wai-aria-1.2/#global_states" title="Definition of Global ARIA States and Properties">global</a> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">property</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">aria-label=</span><span class="s">"OK"</span><span class="nt">&gt;</span>✓<span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
@@ -516,7 +511,7 @@ not tested by the rule:</p>
 
 <p><a class="example-link" title="Passed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/5c01ea/6c0718872b1d915b49c48fe135b9fc251bcff561.html">Open in a new tab</a></p>
 
-<p>The <code class="language-plaintext highlighter-rouge">aria-label</code> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">property</a> is <a href="https://www.w3.org/TR/wai-aria-1.2/#global_states" title="Definition of Global ARIA States and Properties">global</a>. It is allowed on any <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a>, except where specifically prohibited, including roles from the <a href="https://www.w3.org/TR/graphics-aria-1.0">WAI-ARIA Graphics Module</a>. This rule is applicable to SVG elements.</p>
+<p>The <code class="language-plaintext highlighter-rouge">aria-label</code> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">property</a> is <a href="https://www.w3.org/TR/wai-aria-1.2/#global_states" title="Definition of Global ARIA States and Properties">global</a>. It is allowed on any <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a>, including roles from the <a href="https://www.w3.org/TR/graphics-aria-1.0">WAI-ARIA Graphics Module</a>. This rule is applicable to SVG elements.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/2000/svg"</span> <span class="na">role=</span><span class="s">"graphics-object"</span> <span class="na">width=</span><span class="s">"100"</span> <span class="na">height=</span><span class="s">"100"</span> <span class="na">aria-label=</span><span class="s">"yellow circle"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">"50"</span> <span class="na">cy=</span><span class="s">"50"</span> <span class="na">r=</span><span class="s">"40"</span> <span class="na">fill=</span><span class="s">"yellow"</span><span class="nt">&gt;&lt;/circle&gt;</span>
@@ -589,24 +584,6 @@ not tested by the rule:</p>
 <p>The <code class="language-plaintext highlighter-rouge">aria-orientation</code> property may not be used on <code class="language-plaintext highlighter-rouge">audio</code> element, nor can it be used on <code class="language-plaintext highlighter-rouge">application</code> (the <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> for which <a href="https://www.w3.org/TR/wai-aria-1.2/#inheritedattributes" title="Definition of Inherited ARIA States and Properties">inherited</a>, <a href="https://www.w3.org/TR/wai-aria-1.2/#supportedState" title="Definition of Supported ARIA States and Properties">supported</a>, or <a href="https://www.w3.org/TR/wai-aria-1.2/#requiredState" title="Definition of Required ARIA States and Properties">required</a> <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-state" title="Definition of ARIA State">states</a> or <a href="https://www.w3.org/TR/wai-aria-1.2/#dfn-property" title="Definition of ARIA Property">properties</a> are also applicable to <code class="language-plaintext highlighter-rouge">audio</code> element).</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;audio</span> <span class="na">src=</span><span class="s">"/test-assets/moon-audio/moon-speech.mp3"</span> <span class="na">controls</span> <span class="na">aria-orientation=</span><span class="s">"horizontal"</span><span class="nt">&gt;&lt;/audio&gt;</span>
-</code></pre></div></div>
-
-<h4 id="failed-example-3">Failed Example 3</h4>
-
-<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/5c01ea/d7efe21b64461052aef8d3e0fc96049dda787039.html">Open in a new tab</a></p>
-
-<p>The <code class="language-plaintext highlighter-rouge">aria-label</code> property is <a href="https://www.w3.org/TR/wai-aria-1.2/#prohibitedattributes" title="WAI-ARIA 1.2 Definition of Prohibited States and Properties">prohibited</a> for an element with a <code class="language-plaintext highlighter-rouge">generic</code> role.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-label=</span><span class="s">"Bananas"</span><span class="nt">&gt;&lt;/div&gt;</span>
-</code></pre></div></div>
-
-<h4 id="failed-example-4">Failed Example 4</h4>
-
-<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/5c01ea/eedabccf6e01bca36ee87a2af00e9d7a63a7d615.html">Open in a new tab</a></p>
-
-<p>The <code class="language-plaintext highlighter-rouge">aria-label</code> property is <a href="https://www.w3.org/TR/wai-aria-1.2/#prohibitedattributes" title="WAI-ARIA 1.2 Definition of Prohibited States and Properties">prohibited</a> for an element with a <code class="language-plaintext highlighter-rouge">paragraph</code> role.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"paragraph"</span> <span class="na">aria-label=</span><span class="s">"Bananas"</span><span class="nt">&gt;&lt;/div&gt;</span>
 </code></pre></div></div>
 
 <h3 id="inapplicable">Inapplicable</h3>
@@ -785,14 +762,14 @@ not tested by the rule:</p>
       </thead>
       <tbody>
           <tr>
-            <td>Alfa (fully automated) 0.104.0</td>
+            <td>Alfa (fully automated) 0.108.2</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-5c01ea"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Alfa (semi-automated) 0.104.0</td>
+            <td>Alfa (semi-automated) 0.108.2</td>
             <td>Semi-automated tool</td>
             <td>
               Consistent </td>
@@ -825,13 +802,6 @@ not tested by the rule:</p>
             <td> Partial
             </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-5c01ea"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>SortSite 6.55</td>
-            <td>Automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-5c01ea"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
             <td>Total Validator 17.4.0</td>
@@ -910,8 +880,9 @@ not tested by the rule:</p>
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 5c01ea</p>
-<p><strong>Date:</strong> Updated 7 October 2025</p>
+<p><strong>Date:</strong> Updated 8 December 2025</p>
 <p><strong>Authors:</strong> <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/Jym77">Jean-Yves Moyen</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 
 <p><strong>Assets:</strong> Test cases use assets from the following sources: JFK's "We Choose the Moon" speech excerpt is courtesy of NASA.</p>
@@ -965,9 +936,9 @@ not tested by the rule:</p>
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1768505453178688379"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1768587200821975368"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1768505453178688379"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1768587200821975368"></script>
 <script>
   svg4everybody();
 </script><script>

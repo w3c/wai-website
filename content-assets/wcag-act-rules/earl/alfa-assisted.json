@@ -70,7 +70,7 @@
       "name": "Alfa",
       "release": {
         "@type": "Version",
-        "revision": "0.104.0"
+        "revision": "0.108.2"
       },
       "doap:url": "https://alfa.siteimprove.com"
     },
@@ -1590,7 +1590,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/9f640c8743b6ebee3942fc833f106984b5ee49bb.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -1610,7 +1610,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/9f640c8743b6ebee3942fc833f106984b5ee49bb.html"
         },
         {
           "@type": [
@@ -1623,7 +1623,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n\t<video src=\"/WAI/content-assets/wcag-act-rules/test-assets/perspective-video/perspective-video.mp4\" controls>\n\t\t<track src=\"/WAI/content-assets/wcag-act-rules/test-assets/perspective-video/perspective-caption.vtt\" kind=\"captions\" />\n\t</video>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -1637,7 +1637,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/9f640c8743b6ebee3942fc833f106984b5ee49bb.html"
     },
     {
       "@type": "Assertion",
@@ -1645,8 +1645,8 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "info": "The `<video>` element has a link that is perceivable",
-        "outcome": "earl:passed",
+        "info": "The `<video>` element does not have a transcript",
+        "outcome": "earl:failed",
         "earl:pointer": {
           "@type": [
             "ptr:Pointer",
@@ -1658,7 +1658,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/9f640c8743b6ebee3942fc833f106984b5ee49bb.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r24"
@@ -2245,7 +2245,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/2c65fa349cb946546f44966db62c0664cf94fffd.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -2265,7 +2265,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/2c65fa349cb946546f44966db62c0664cf94fffd.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html"
         },
         {
           "@type": [
@@ -2278,7 +2278,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p style=\"text-indent: -9999px;\">The above video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p>The above video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -2292,7 +2292,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/2c65fa349cb946546f44966db62c0664cf94fffd.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html"
     },
     {
       "@type": "Assertion",
@@ -2300,8 +2300,8 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "info": "The `<video>` element does not have a transcript",
-        "outcome": "earl:failed",
+        "info": "The `<video>` element has a transcript that is perceivable",
+        "outcome": "earl:passed",
         "earl:pointer": {
           "@type": [
             "ptr:Pointer",
@@ -2313,7 +2313,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/2c65fa349cb946546f44966db62c0664cf94fffd.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r33"
@@ -6435,7 +6435,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -6455,7 +6455,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html"
         },
         {
           "@type": [
@@ -6468,7 +6468,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/incorrect-transcript.html\">Transcript</a>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -6482,7 +6482,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html"
     },
     {
       "@type": "Assertion",
@@ -6490,8 +6490,8 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "info": "The `<video>` element does not have a transcript",
-        "outcome": "earl:failed",
+        "info": "The `<video>` element has a link that is perceivable",
+        "outcome": "earl:passed",
         "earl:pointer": {
           "@type": [
             "ptr:Pointer",
@@ -6503,7 +6503,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/07965ba721519d8e4c53bc91692db1f97b8d7575.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r24"
@@ -7100,7 +7100,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/e6ef6ab47c239fc0abcd3ccb7ac8ddbfa6aa6d53.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -7120,7 +7120,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/e6ef6ab47c239fc0abcd3ccb7ac8ddbfa6aa6d53.html"
         },
         {
           "@type": [
@@ -7133,7 +7133,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p>The above video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p style=\"text-indent: -9999px;\">This video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -7147,7 +7147,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/e6ef6ab47c239fc0abcd3ccb7ac8ddbfa6aa6d53.html"
     },
     {
       "@type": "Assertion",
@@ -7168,7 +7168,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ce350e33e78f587703aa35b78fa319b9efe9291d.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/e6ef6ab47c239fc0abcd3ccb7ac8ddbfa6aa6d53.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r33"
@@ -11380,7 +11380,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -11400,7 +11400,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html"
         },
         {
           "@type": [
@@ -11413,7 +11413,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<p>The above video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yaws, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/incorrect-transcript.html\">Transcript</a>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -11427,7 +11427,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html"
     },
     {
       "@type": "Assertion",
@@ -11435,8 +11435,8 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "info": "The `<video>` element has a transcript that is perceivable",
-        "outcome": "earl:passed",
+        "info": "The `<video>` element does not have a transcript",
+        "outcome": "earl:failed",
         "earl:pointer": {
           "@type": [
             "ptr:Pointer",
@@ -11448,7 +11448,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/50ee346de986982007936f25602b28bf6929ea5d.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r24"
@@ -12045,7 +12045,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/75a78f5206ea6052ad6a133920c50d7ac7cd05d4.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -12065,7 +12065,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/75a78f5206ea6052ad6a133920c50d7ac7cd05d4.html"
         },
         {
           "@type": [
@@ -12078,7 +12078,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p aria-hidden=\"true\">This video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -12092,7 +12092,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/75a78f5206ea6052ad6a133920c50d7ac7cd05d4.html"
     },
     {
       "@type": "Assertion",
@@ -12100,10 +12100,20 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:inapplicable"
+        "info": "The `<video>` element has a transcript that is not perceivable",
+        "outcome": "earl:failed",
+        "earl:pointer": {
+          "@type": [
+            "ptr:Pointer",
+            "ptr:SinglePointer",
+            "ptr:ExpressionPointer",
+            "ptr:XPathPointer"
+          ],
+          "ptr:expression": "/html[1]/body[1]/video[1]"
+        }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/75a78f5206ea6052ad6a133920c50d7ac7cd05d4.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r33"
@@ -16295,7 +16305,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -16315,7 +16325,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html"
         },
         {
           "@type": [
@@ -16328,7 +16338,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<p>The above video shows a giant fat dog climbing out of a hole in the ground.\nHe stretches, yaws, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<p>The above video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yaws, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -16342,7 +16352,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html"
     },
     {
       "@type": "Assertion",
@@ -16350,8 +16360,8 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "info": "The `<video>` element does not have a transcript",
-        "outcome": "earl:failed",
+        "info": "The `<video>` element has a transcript that is perceivable",
+        "outcome": "earl:passed",
         "earl:pointer": {
           "@type": [
             "ptr:Pointer",
@@ -16363,7 +16373,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/8ebc51b6599b22345051dc57d2c7649724f58f0b.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r24"
@@ -16900,7 +16910,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -16920,7 +16930,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html"
         },
         {
           "@type": [
@@ -16933,7 +16943,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/incorrect-transcript.html\">Transcript</a>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -16947,7 +16957,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html"
     },
     {
       "@type": "Assertion",
@@ -16955,20 +16965,10 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "info": "The `<video>` element does not have a transcript",
-        "outcome": "earl:failed",
-        "earl:pointer": {
-          "@type": [
-            "ptr:Pointer",
-            "ptr:SinglePointer",
-            "ptr:ExpressionPointer",
-            "ptr:XPathPointer"
-          ],
-          "ptr:expression": "/html[1]/body[1]/video[1]"
-        }
+        "outcome": "earl:inapplicable"
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/c2b01e0d7fd2bfa875d2f3395f57f831745f03de.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r33"
@@ -19869,6 +19869,13 @@
             "title": "Language of Page"
           },
           {
+            "@id": "./",
+            "@type": [
+              "TestCriterion",
+              "TestRequirement"
+            ]
+          },
+          {
             "@id": "https://www.w3.org/WAI/WCAG22/Techniques/html/H57",
             "@type": [
               "TestCriterion",
@@ -21211,7 +21218,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/58833c5284a944298827df756cc31d10cea1f58f.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -21231,7 +21238,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/58833c5284a944298827df756cc31d10cea1f58f.html"
         },
         {
           "@type": [
@@ -21244,7 +21251,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls style=\"display: none;\">\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<p aria-hidden=\"true\">The above video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yaws, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -21258,18 +21265,28 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/58833c5284a944298827df756cc31d10cea1f58f.html"
     },
     {
       "@type": "Assertion",
       "earl:assertedBy": "Alfa",
-      "earl:mode": "earl:automatic",
+      "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:inapplicable"
+        "info": "The `<video>` element has a transcript that is not perceivable",
+        "outcome": "earl:failed",
+        "earl:pointer": {
+          "@type": [
+            "ptr:Pointer",
+            "ptr:SinglePointer",
+            "ptr:ExpressionPointer",
+            "ptr:XPathPointer"
+          ],
+          "ptr:expression": "/html[1]/body[1]/video[1]"
+        }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/58833c5284a944298827df756cc31d10cea1f58f.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r24"
@@ -21856,7 +21873,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -21876,7 +21893,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html"
         },
         {
           "@type": [
@@ -21889,7 +21906,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p>The above video shows a giant fat dog climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/incorrect-transcript.html\">Transcript</a>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -21903,7 +21920,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html"
     },
     {
       "@type": "Assertion",
@@ -21924,7 +21941,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/5ed3a98f771c2069c1d4581ff5f85cc38d9b5ec0.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r33"
@@ -26056,6 +26073,81 @@
       }
     },
     {
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/a4db5d80848f49290a026e2ee5c0fa7416f14dc6.html",
+      "@type": "TestSubject",
+      "dct:hasPart": [
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Request"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": ""
+          },
+          "http-vocab:headers": {
+            "@list": []
+          },
+          "http-vocab:methodName": "GET",
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/a4db5d80848f49290a026e2ee5c0fa7416f14dc6.html"
+        },
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Response"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n\t<video src=\"/WAI/content-assets/wcag-act-rules/test-assets/perspective-video/perspective-video.mp4\" controls>\n\t\t<track src=\"/WAI/content-assets/wcag-act-rules/test-assets/perspective-video/perspective-caption.vtt\" kind=\"captions\" />\n\t</video>\n\t<p>\tWeb Accessibility Perspectives: Keyboard Accessibility. Not being able to use your computer because your mouse doesn't work, is frustrating. (A computer user's mouse breaks when it falls off the desk.) Many people use only the keyboard to navigate websites. Either through preference or \t\tcircumstance. (A person wearing a sling on her arm typing with one hand.) </p>\n</html>"
+          },
+          "http-vocab:headers": {
+            "@list": [
+              {
+                "@type": "http-vocab:MessageHeader",
+                "http-vocab:fieldName": "content-type",
+                "http-vocab:fieldValue": "text/html; charset=utf-8"
+              }
+            ]
+          },
+          "http-vocab:statusCodeValue": 200
+        }
+      ],
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/a4db5d80848f49290a026e2ee5c0fa7416f14dc6.html"
+    },
+    {
+      "@type": "Assertion",
+      "earl:assertedBy": "Alfa",
+      "earl:mode": "earl:semiAuto",
+      "result": {
+        "@type": "TestResult",
+        "info": "The `<video>` element has a transcript that is perceivable",
+        "outcome": "earl:passed",
+        "earl:pointer": {
+          "@type": [
+            "ptr:Pointer",
+            "ptr:SinglePointer",
+            "ptr:ExpressionPointer",
+            "ptr:XPathPointer"
+          ],
+          "ptr:expression": "/html[1]/body[1]/video[1]"
+        }
+      },
+      "subject": {
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/a4db5d80848f49290a026e2ee5c0fa7416f14dc6.html"
+      },
+      "test": {
+        "@id": "https://alfa.siteimprove.com/rules/sia-r24"
+      }
+    },
+    {
       "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1ea59c/830584542b47beaac2df52e84ceff7530be043fb.html",
       "@type": "TestSubject",
       "dct:hasPart": [
@@ -26571,7 +26663,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/2f30ed0681d28bdd6f5535c844b7747880beb5e7.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -26591,7 +26683,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/2f30ed0681d28bdd6f5535c844b7747880beb5e7.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html"
         },
         {
           "@type": [
@@ -26604,7 +26696,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p aria-hidden=\"true\">The above video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p>The above video shows a giant fat dog climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -26618,7 +26710,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/2f30ed0681d28bdd6f5535c844b7747880beb5e7.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html"
     },
     {
       "@type": "Assertion",
@@ -26626,7 +26718,7 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "info": "The `<video>` element has a transcript that is not perceivable",
+        "info": "The `<video>` element does not have a transcript",
         "outcome": "earl:failed",
         "earl:pointer": {
           "@type": [
@@ -26639,7 +26731,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/2f30ed0681d28bdd6f5535c844b7747880beb5e7.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/85f2613e6d1b419d8677126efa09efb26f31c34e.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r33"
@@ -30716,6 +30808,81 @@
       }
     },
     {
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/a96a4eb928454e8fbf06f6e7c6ef1269f30c77df.html",
+      "@type": "TestSubject",
+      "dct:hasPart": [
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Request"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": ""
+          },
+          "http-vocab:headers": {
+            "@list": []
+          },
+          "http-vocab:methodName": "GET",
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/a96a4eb928454e8fbf06f6e7c6ef1269f30c77df.html"
+        },
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Response"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<p style=\"position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;\">The above video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yaws, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
+          },
+          "http-vocab:headers": {
+            "@list": [
+              {
+                "@type": "http-vocab:MessageHeader",
+                "http-vocab:fieldName": "content-type",
+                "http-vocab:fieldValue": "text/html; charset=utf-8"
+              }
+            ]
+          },
+          "http-vocab:statusCodeValue": 200
+        }
+      ],
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/a96a4eb928454e8fbf06f6e7c6ef1269f30c77df.html"
+    },
+    {
+      "@type": "Assertion",
+      "earl:assertedBy": "Alfa",
+      "earl:mode": "earl:semiAuto",
+      "result": {
+        "@type": "TestResult",
+        "info": "The `<video>` element has a transcript that is perceivable",
+        "outcome": "earl:passed",
+        "earl:pointer": {
+          "@type": [
+            "ptr:Pointer",
+            "ptr:SinglePointer",
+            "ptr:ExpressionPointer",
+            "ptr:XPathPointer"
+          ],
+          "ptr:expression": "/html[1]/body[1]/video[1]"
+        }
+      },
+      "subject": {
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/a96a4eb928454e8fbf06f6e7c6ef1269f30c77df.html"
+      },
+      "test": {
+        "@id": "https://alfa.siteimprove.com/rules/sia-r24"
+      }
+    },
+    {
       "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1ea59c/8664da01669e891e6f0aa73cd85e71277961cc4c.html",
       "@type": "TestSubject",
       "dct:hasPart": [
@@ -31146,7 +31313,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ac32b9e640afcba4c833f893eeff61de9ca9b4a5.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -31166,7 +31333,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ac32b9e640afcba4c833f893eeff61de9ca9b4a5.html"
         },
         {
           "@type": [
@@ -31179,7 +31346,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<p style=\"position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;\">This video shows a giant fat rabbit climbing out of a hole in the ground.\nHe stretches, yawns, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -31193,7 +31360,7 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ac32b9e640afcba4c833f893eeff61de9ca9b4a5.html"
     },
     {
       "@type": "Assertion",
@@ -31201,7 +31368,7 @@
       "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "info": "The `<video>` element has a link that is perceivable",
+        "info": "The `<video>` element has a transcript that is perceivable",
         "outcome": "earl:passed",
         "earl:pointer": {
           "@type": [
@@ -31214,7 +31381,7 @@
         }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/ac32b9e640afcba4c833f893eeff61de9ca9b4a5.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r33"
@@ -31780,7 +31947,7 @@
             "ptr:ExpressionPointer",
             "ptr:XPathPointer"
           ],
-          "ptr:expression": "/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[1]/@headers"
+          "ptr:expression": "/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[2]/@headers"
         }
       },
       "subject": {
@@ -35166,6 +35333,81 @@
       }
     },
     {
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html",
+      "@type": "TestSubject",
+      "dct:hasPart": [
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Request"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": ""
+          },
+          "http-vocab:headers": {
+            "@list": []
+          },
+          "http-vocab:methodName": "GET",
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html"
+        },
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Response"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<p>The above video shows a giant fat dog climbing out of a hole in the ground.\nHe stretches, yaws, and then starts walking.\nThen he stops to scratch his bottom.</p>\n</html>"
+          },
+          "http-vocab:headers": {
+            "@list": [
+              {
+                "@type": "http-vocab:MessageHeader",
+                "http-vocab:fieldName": "content-type",
+                "http-vocab:fieldValue": "text/html; charset=utf-8"
+              }
+            ]
+          },
+          "http-vocab:statusCodeValue": 200
+        }
+      ],
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html"
+    },
+    {
+      "@type": "Assertion",
+      "earl:assertedBy": "Alfa",
+      "earl:mode": "earl:semiAuto",
+      "result": {
+        "@type": "TestResult",
+        "info": "The `<video>` element does not have a transcript",
+        "outcome": "earl:failed",
+        "earl:pointer": {
+          "@type": [
+            "ptr:Pointer",
+            "ptr:SinglePointer",
+            "ptr:ExpressionPointer",
+            "ptr:XPathPointer"
+          ],
+          "ptr:expression": "/html[1]/body[1]/video[1]"
+        }
+      },
+      "subject": {
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/5f361cfcf29c6c37a88c0fcdb4246fd8ec0a65c1.html"
+      },
+      "test": {
+        "@id": "https://alfa.siteimprove.com/rules/sia-r24"
+      }
+    },
+    {
       "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/59796f/ebd0080bacb8debc7ad069072240657df38c3e2c.html",
       "@type": "TestSubject",
       "dct:hasPart": [
@@ -35296,7 +35538,7 @@
       }
     },
     {
-      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html",
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html",
       "@type": "TestSubject",
       "dct:hasPart": [
         {
@@ -35316,7 +35558,7 @@
             "@list": []
           },
           "http-vocab:methodName": "GET",
-          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html"
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html"
         },
         {
           "@type": [
@@ -35329,7 +35571,7 @@
               "cnt:ContentAsText"
             ],
             "cnt:characterEncoding": "utf-8",
-            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls style=\"display: none;\">\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
           },
           "http-vocab:headers": {
             "@list": [
@@ -35343,18 +35585,28 @@
           "http-vocab:statusCodeValue": 200
         }
       ],
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html"
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html"
     },
     {
       "@type": "Assertion",
       "earl:assertedBy": "Alfa",
-      "earl:mode": "earl:automatic",
+      "earl:mode": "earl:semiAuto",
       "result": {
         "@type": "TestResult",
-        "outcome": "earl:inapplicable"
+        "info": "The `<video>` element has a link that is perceivable",
+        "outcome": "earl:passed",
+        "earl:pointer": {
+          "@type": [
+            "ptr:Pointer",
+            "ptr:SinglePointer",
+            "ptr:ExpressionPointer",
+            "ptr:XPathPointer"
+          ],
+          "ptr:expression": "/html[1]/body[1]/video[1]"
+        }
       },
       "subject": {
-        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html"
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/6c6ed7e366a868cd4f7b7a9189d5c9d42a7860d3.html"
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r33"
@@ -35895,7 +36147,7 @@
             "ptr:ExpressionPointer",
             "ptr:XPathPointer"
           ],
-          "ptr:expression": "/html[1]/body[1]/table[1]/tbody[1]/tr[2]/td[1]/@headers"
+          "ptr:expression": "/html[1]/body[1]/table[1]/tbody[1]/tr[2]/td[2]/@headers"
         }
       },
       "subject": {
@@ -39071,6 +39323,71 @@
       }
     },
     {
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html",
+      "@type": "TestSubject",
+      "dct:hasPart": [
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Request"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": ""
+          },
+          "http-vocab:headers": {
+            "@list": []
+          },
+          "http-vocab:methodName": "GET",
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html"
+        },
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Response"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">`\n<video controls style=\"display: none;\">\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/video.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
+          },
+          "http-vocab:headers": {
+            "@list": [
+              {
+                "@type": "http-vocab:MessageHeader",
+                "http-vocab:fieldName": "content-type",
+                "http-vocab:fieldValue": "text/html; charset=utf-8"
+              }
+            ]
+          },
+          "http-vocab:statusCodeValue": 200
+        }
+      ],
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html"
+    },
+    {
+      "@type": "Assertion",
+      "earl:assertedBy": "Alfa",
+      "earl:mode": "earl:automatic",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "subject": {
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/1a02b0/1594b82a7acb107fc96345b864d4c1fe92f4b165.html"
+      },
+      "test": {
+        "@id": "https://alfa.siteimprove.com/rules/sia-r24"
+      }
+    },
+    {
       "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/59796f/37cce377c874eec22d1137977d2b8f00ebc42ea8.html",
       "@type": "TestSubject",
       "dct:hasPart": [
@@ -39133,6 +39450,71 @@
       },
       "test": {
         "@id": "https://alfa.siteimprove.com/rules/sia-r28"
+      }
+    },
+    {
+      "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html",
+      "@type": "TestSubject",
+      "dct:hasPart": [
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Request"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": ""
+          },
+          "http-vocab:headers": {
+            "@list": []
+          },
+          "http-vocab:methodName": "GET",
+          "http-vocab:requestURI": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html"
+        },
+        {
+          "@type": [
+            "http-vocab:Message",
+            "http-vocab:Response"
+          ],
+          "http-vocab:body": {
+            "@type": [
+              "cnt:Content",
+              "cnt:ContentAsText"
+            ],
+            "cnt:characterEncoding": "utf-8",
+            "cnt:chars": "<!DOCTYPE html>\n<html lang=\"en\">\n<video controls style=\"display: none;\">\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.mp4\" type=\"video/mp4\"></source>\n  <source src=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/silent.webm\" type=\"video/webm\"></source>\n</video>\n<a href=\"/WAI/content-assets/wcag-act-rules/test-assets/rabbit-video/transcript.html\">Transcript</a>\n</html>"
+          },
+          "http-vocab:headers": {
+            "@list": [
+              {
+                "@type": "http-vocab:MessageHeader",
+                "http-vocab:fieldName": "content-type",
+                "http-vocab:fieldValue": "text/html; charset=utf-8"
+              }
+            ]
+          },
+          "http-vocab:statusCodeValue": 200
+        }
+      ],
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html"
+    },
+    {
+      "@type": "Assertion",
+      "earl:assertedBy": "Alfa",
+      "earl:mode": "earl:automatic",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "subject": {
+        "@id": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/ee13b5/413a36ac05a2f6d50722a7614a86184c664053b4.html"
+      },
+      "test": {
+        "@id": "https://alfa.siteimprove.com/rules/sia-r33"
       }
     },
     {
@@ -39650,7 +40032,7 @@
             "ptr:ExpressionPointer",
             "ptr:XPathPointer"
           ],
-          "ptr:expression": "/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[1]/@headers"
+          "ptr:expression": "/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[2]/@headers"
         }
       },
       "subject": {
@@ -59443,7 +59825,7 @@
             "ptr:ExpressionPointer",
             "ptr:XPathPointer"
           ],
-          "ptr:expression": "/html[1]/body[1]/table[1]/tbody[1]/tr[2]/th[2]/@headers"
+          "ptr:expression": "/html[1]/body[1]/table[1]/tbody[1]/tr[3]/td[3]/@headers"
         }
       },
       "subject": {
@@ -68119,15 +68501,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:name-role-value",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Name, Role, Value"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:name-role-value",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r66",
@@ -68162,6 +68553,13 @@
           "title": "Non-text Content"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G94",
           "@type": [
             "TestCriterion",
@@ -68187,15 +68585,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:name-role-value",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Name, Role, Value"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:name-role-value",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r35",
@@ -68212,6 +68619,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Audio-only and Video-only (Prerecorded)"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G159",
@@ -68248,6 +68662,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Captions (Prerecorded)"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G87",
@@ -68329,6 +68750,20 @@
           "title": "Media Alternative (Prerecorded)"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G8",
           "@type": [
             "TestCriterion",
@@ -68397,6 +68832,13 @@
           "title": "Info and Relationships"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/html/H43",
           "@type": [
             "TestCriterion",
@@ -68413,15 +68855,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:error-identification",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Error Identification"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:error-identification",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Error Identification"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r8",
@@ -68429,15 +68880,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:name-role-value",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Name, Role, Value"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:name-role-value",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r19",
@@ -68470,6 +68930,13 @@
           "title": "Language of Page"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/html/H57",
           "@type": [
             "TestCriterion",
@@ -68486,15 +68953,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:text-spacing",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Text Spacing"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:text-spacing",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Text Spacing"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r4",
@@ -68513,6 +68989,13 @@
           "title": "Language of Page"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/html/H57",
           "@type": [
             "TestCriterion",
@@ -68529,15 +69012,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:name-role-value",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Name, Role, Value"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:name-role-value",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r33",
@@ -68580,6 +69072,13 @@
           "title": "Page Titled"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G88",
           "@type": [
             "TestCriterion",
@@ -68605,15 +69104,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:identify-input-purpose",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Identify Input Purpose"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:identify-input-purpose",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Identify Input Purpose"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r65",
@@ -68621,15 +69129,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:focus-visible",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Focus Visible"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:focus-visible",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Focus Visible"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r22",
@@ -68673,15 +69190,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:orientation",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Orientation"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:orientation",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Orientation"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r115",
@@ -68698,6 +69224,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Headings and Labels"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G130",
@@ -68725,6 +69258,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Audio Control"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G60",
@@ -68761,15 +69301,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:name-role-value",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Name, Role, Value"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:name-role-value",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r17",
@@ -68777,15 +69326,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:name-role-value",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Name, Role, Value"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:name-role-value",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r31",
@@ -68817,15 +69375,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:name-role-value",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Name, Role, Value"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:name-role-value",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r86",
@@ -68847,15 +69414,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:info-and-relationships",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Info and Relationships"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:info-and-relationships",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Info and Relationships"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r24",
@@ -68890,15 +69466,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:info-and-relationships",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Info and Relationships"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:info-and-relationships",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Info and Relationships"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r47",
@@ -68906,15 +69491,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:resize-text",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Resize Text"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:resize-text",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Resize Text"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r83",
@@ -68965,6 +69559,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Change on Request"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G110",
@@ -69026,6 +69627,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Info and Relationships"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA4",
@@ -69098,15 +69706,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:text-spacing",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Text Spacing"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:text-spacing",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Text Spacing"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r14",
@@ -69123,6 +69740,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Label in Name"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G208",
@@ -69166,6 +69790,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Language of Page"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/html/H57",
@@ -69212,6 +69843,13 @@
           "title": "Keyboard (No Exception)"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G202",
           "@type": [
             "TestCriterion",
@@ -69245,6 +69883,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Info and Relationships"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/html/H43",
@@ -69281,6 +69926,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Link Purpose (Link Only)"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         }
       ]
     },
@@ -69290,15 +69942,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:name-role-value",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Name, Role, Value"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:name-role-value",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r93",
@@ -69306,15 +69967,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:text-spacing",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Text Spacing"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:text-spacing",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Text Spacing"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r63",
@@ -69322,15 +69992,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:non-text-content",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Non-text Content"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:non-text-content",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Non-text Content"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r49",
@@ -69363,6 +70042,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Language of Parts"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/html/H58",
@@ -69401,6 +70087,20 @@
           "title": "Name, Role, Value"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA5",
           "@type": [
             "TestCriterion",
@@ -69428,6 +70128,13 @@
           "title": "Audio-only and Video-only (Prerecorded)"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G158",
           "@type": [
             "TestCriterion",
@@ -69453,6 +70160,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Info and Relationships"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/html/H42",
@@ -69489,6 +70203,20 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Name, Role, Value"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G94",
@@ -69545,6 +70273,20 @@
           "title": "Name, Role, Value"
         },
         {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        },
+        {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G91",
           "@type": [
             "TestCriterion",
@@ -69570,6 +70312,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Audio Description (Prerecorded)"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G8",
@@ -69624,6 +70373,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Contrast (Enhanced)"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         }
       ]
     },
@@ -69669,15 +70425,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:non-text-content",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Non-text Content"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:non-text-content",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Non-text Content"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     },
     {
       "@id": "https://alfa.siteimprove.com/rules/sia-r114",
@@ -69694,6 +70459,13 @@
           ],
           "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
           "title": "Page Titled"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
         },
         {
           "@id": "https://www.w3.org/WAI/WCAG22/Techniques/general/G88",
@@ -69721,15 +70493,24 @@
         "TestCriterion",
         "TestCase"
       ],
-      "isPartOf": {
-        "@id": "WCAG2:keyboard",
-        "@type": [
-          "TestCriterion",
-          "TestRequirement"
-        ],
-        "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
-        "title": "Keyboard"
-      }
+      "isPartOf": [
+        {
+          "@id": "WCAG2:keyboard",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ],
+          "dct:isPartOf": "https://www.w3.org/TR/WCAG/",
+          "title": "Keyboard"
+        },
+        {
+          "@id": "./",
+          "@type": [
+            "TestCriterion",
+            "TestRequirement"
+          ]
+        }
+      ]
     }
   ]
 }
