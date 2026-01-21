@@ -1,7 +1,7 @@
 ---
 title: "WCAG2ICT Overview"
 lang: en
-last_updated: 2025-12-17
+last_updated: 2026-01-21
 description: "Introduces the W3C Group Note: Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)."
 
 permalink: /standards-guidelines/wcag/non-web-ict/
