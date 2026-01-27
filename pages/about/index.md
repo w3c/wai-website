@@ -132,7 +132,7 @@ WAI includes the following working groups and interest group:
 -   [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/)
 -   [WAI Interest Group (WAI IG)](/about/groups/waiig/) hosts an e-mail discussion list that is open to anyone
 
-### W3C Community Ggoups
+### W3C Community Groups
 
 W3C Community Groups cover a variety of topics. **Anyone can join Community Groups**, after getting a free W3C account and signing the W3C Community Contributor License Agreement. Of the long [list of Community Groups](https://www.w3.org/community/groups/), here are some that are actively seeking contributors:
 <!-- * ARR -->
