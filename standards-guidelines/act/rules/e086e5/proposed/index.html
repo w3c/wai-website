@@ -11,15 +11,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1769167552085795165";
+      element.src = "/WAI/assets/scripts/main.js?1769685374262769914";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1769167552085795165">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1769685374262769914">
 
-<title> Form field has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1769167552085795165"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Form field has non-empty accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1769685374262769914"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Form field has non-empty accessible name" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -331,7 +331,12 @@ h2#sidebar-header {
 
 <h2 id="applicability">Applicability</h2>
 
-<p>This rule applies to any element that is <a href="#included-in-the-accessibility-tree">included in the accessibility tree</a>, and that has one of the following <a href="#semantic-role" title="Definition of semantic role">semantic roles</a>: <code class="language-plaintext highlighter-rouge">checkbox</code>, <code class="language-plaintext highlighter-rouge">combobox</code> (<code class="language-plaintext highlighter-rouge">select</code> elements), <code class="language-plaintext highlighter-rouge">listbox</code>, <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code>, <code class="language-plaintext highlighter-rouge">menuitemradio</code>, <code class="language-plaintext highlighter-rouge">radio</code>, <code class="language-plaintext highlighter-rouge">searchbox</code>, <code class="language-plaintext highlighter-rouge">slider</code>, <code class="language-plaintext highlighter-rouge">spinbutton</code>, <code class="language-plaintext highlighter-rouge">switch</code>, <code class="language-plaintext highlighter-rouge">textbox</code>.</p>
+<p>This rule applies to any element that is <a href="#included-in-the-accessibility-tree">included in the accessibility tree</a> and for which one of the following is true:</p>
+
+<ul>
+  <li>the element has one of the following <a href="#semantic-role" title="Definition of semantic role">semantic roles</a>: <code class="language-plaintext highlighter-rouge">checkbox</code>, <code class="language-plaintext highlighter-rouge">combobox</code> (<code class="language-plaintext highlighter-rouge">select</code> elements), <code class="language-plaintext highlighter-rouge">listbox</code>, <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code>, <code class="language-plaintext highlighter-rouge">menuitemradio</code>, <code class="language-plaintext highlighter-rouge">radio</code>, <code class="language-plaintext highlighter-rouge">searchbox</code>, <code class="language-plaintext highlighter-rouge">slider</code>, <code class="language-plaintext highlighter-rouge">spinbutton</code>, <code class="language-plaintext highlighter-rouge">switch</code>, <code class="language-plaintext highlighter-rouge">textbox</code>; or</li>
+  <li>the element is an <code class="language-plaintext highlighter-rouge">input</code> with no <a href="#semantic-role" title="Definition of Semantic Role">semantic role</a> and a <code class="language-plaintext highlighter-rouge">type</code> <a href="#attribute-value" title="Definition of attribute value">attribute value</a> of <code class="language-plaintext highlighter-rouge">color</code>, <code class="language-plaintext highlighter-rouge">date</code>, <code class="language-plaintext highlighter-rouge">datetime-local</code>, <code class="language-plaintext highlighter-rouge">file</code>, <code class="language-plaintext highlighter-rouge">month</code>, <code class="language-plaintext highlighter-rouge">password</code>, <code class="language-plaintext highlighter-rouge">time</code>, or <code class="language-plaintext highlighter-rouge">week</code>.</li>
+</ul>
 
 <h2 id="expectation">Expectation</h2>
 
@@ -346,7 +351,7 @@ h2#sidebar-header {
   <li>are form field controls (this notably excludes <code class="language-plaintext highlighter-rouge">menu</code>, <code class="language-plaintext highlighter-rouge">option</code> or <code class="language-plaintext highlighter-rouge">tree</code>).</li>
 </ul>
 
-<p>This rule does not test other control-like roles such as <code class="language-plaintext highlighter-rouge">button</code> and <code class="language-plaintext highlighter-rouge">menuitem</code>, because these do not inherit from <code class="language-plaintext highlighter-rouge">input</code> or <code class="language-plaintext highlighter-rouge">select</code>. These should be tested separately.</p>
+<p>This rule does not test other control-like roles such as <code class="language-plaintext highlighter-rouge">button</code> and <code class="language-plaintext highlighter-rouge">menuitem</code>, because these do not inherit from <code class="language-plaintext highlighter-rouge">input</code> or <code class="language-plaintext highlighter-rouge">select</code>; these should be tested separately. This rule tests explicitly input types such as date and color because they have no semantic role, but still require an accessible name.</p>
 
 <p>This rule does not map to <a href="https://www.w3.org/TR/WCAG22/#labels-or-instructions">3.3.2 Labels or Instructions</a> as there are sufficient techniques within 3.3.2 that don’t need the elements to have an <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. For example “<a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G131">G131: Providing descriptive labels</a>” <strong>AND</strong> “<a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G162">G162: Positioning labels to maximize predictability of relationships</a>” would be sufficient.</p>
 
@@ -508,6 +513,18 @@ not tested by the rule:</p>
 <span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
 
+<h4 id="passed-example-9">Passed Example 9</h4>
+
+<p><a class="example-link" title="Passed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/2243d6e9d1eb6938aff03536125ebc582440fbe7.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element with a <code class="language-plaintext highlighter-rouge">type</code> <a href="#attribute-value" title="Definition of attribute value">attribute value</a> of <code class="language-plaintext highlighter-rouge">color</code> has an <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because of its <a href="#programmatic-label">programmatic label</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label&gt;</span>
+	Favorite color
+	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"color"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/label&gt;</span>
+</code></pre></div></div>
+
 <h3 id="failed">Failed</h3>
 
 <h4 id="failed-example-1">Failed Example 1</h4>
@@ -592,6 +609,15 @@ not tested by the rule:</p>
 	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">role=</span><span class="s">"menuitemcheckbox"</span> <span class="nt">/&gt;&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>Ketchup<span class="nt">&lt;/span&gt;&lt;br</span> <span class="nt">/&gt;</span>
 	<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">role=</span><span class="s">"menuitemcheckbox"</span> <span class="nt">/&gt;&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>Mayonnaise<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-9">Failed Example 9</h4>
+
+<p><a class="example-link" title="Failed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/1d9a4d0eba21c8bb02580c46142ec75842bd3557.html">Open in a new tab</a></p>
+
+<p>This <code class="language-plaintext highlighter-rouge">input</code> element with a <code class="language-plaintext highlighter-rouge">type</code> <a href="#attribute-value" title="Definition of attribute value">attribute value</a> of <code class="language-plaintext highlighter-rouge">date</code> has an empty (<code class="language-plaintext highlighter-rouge">""</code>) <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;label&gt;</span>Date of birth<span class="nt">&lt;/label&gt;</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"date"</span> <span class="nt">/&gt;</span>
 </code></pre></div></div>
 
 <h3 id="inapplicable">Inapplicable</h3>
@@ -837,14 +863,14 @@ not tested by the rule:</p>
       </thead>
       <tbody>
           <tr>
-            <td>Alfa (fully automated) 0.108.2</td>
+            <td>Alfa (fully automated) 0.109.0</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-e086e5"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Alfa (semi-automated) 0.108.2</td>
+            <td>Alfa (semi-automated) 0.109.0</td>
             <td>Semi-automated tool</td>
             <td>
               Consistent </td>
@@ -948,7 +974,7 @@ not tested by the rule:</p>
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> e086e5</p>
-<p><strong>Date:</strong> Updated 19 January 2026</p>
+<p><strong>Date:</strong> Updated 23 January 2026</p>
 <p><strong>Authors:</strong> <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/brynanders">Bryn Anderson</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
@@ -1002,9 +1028,9 @@ not tested by the rule:</p>
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1769167552085795165"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1769685374262769914"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1769167552085795165"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1769685374262769914"></script>
 <script>
   svg4everybody();
 </script><script>

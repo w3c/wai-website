@@ -11,15 +11,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1769167552085795165";
+      element.src = "/WAI/assets/scripts/main.js?1769685374262769914";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1769167552085795165">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1769685374262769914">
 
-<title> ARIA required ID references exist[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1769167552085795165"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> ARIA required ID references exist[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1769685374262769914"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="ARIA required ID references exist" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -271,6 +271,8 @@ h2#sidebar-header {
                 <ul>
                 
                 
+                <li><a href="#deprecated">Deprecated</a></li>
+                
                 <li><a href="#description">Description</a></li>
                 
                 <li><a href="#applicability">Applicability</a></li>
@@ -288,8 +290,6 @@ h2#sidebar-header {
                 <li><a href="#glossary">Glossary</a></li>
                 
                 <li><a href="#ruleversions">Rule Versions</a></li>
-                
-                <li><a href="#implementations">Implementations</a></li>
                 
                 <li><a href="#usefullinks">Useful Links</a></li>
                 
@@ -322,6 +322,9 @@ h2#sidebar-header {
   </p>
   </div>
  </aside>
+<h2 id="deprecated">Deprecated</h2>
+<p>This rule has been deprecated because the <code class="language-plaintext highlighter-rouge">aria-controls</code> attribute is no longer required by the combobox and scrollbar roles. This rule is not maintained anymore and should not be used.</p>
+
 
 <h2 id="description">Description</h2>
 <p>This rule checks that every ID reference required by WAI-ARIA exists</p>
@@ -690,65 +693,6 @@ not tested by the rule:</p>
 <h2 id="ruleversions">Rule Versions</h2>
 
 <p>This is the first version of this ACT rule.</p>
-<h2 id="implementations">Implementations</h2>
-  <p>This section is not part of the official rule. It is populated dynamically and 
-    not accounted for in the change history or the last modified date.</p>
-  <div class="scroll-wrap">
-    <table class="act-implementations">
-      <thead>
-        <tr>
-          <th>Implementation</th>
-          <th>Type</th>
-          <th>Consistency</th>
-          <th>Report</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr>
-            <td>Alfa (fully automated) 0.108.2</td>
-            <td>Automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-in6db8"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>Alfa (semi-automated) 0.108.2</td>
-            <td>Semi-automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/alfa-assisted#breakdown-in6db8"><img alt="Alfa (semi-automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>QualWeb 3.0.0</td>
-            <td>Automated tool</td>
-            <td> Partial
-            </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-in6db8"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>Total Validator 17.4.0</td>
-            <td>Linter</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator#breakdown-in6db8"><img alt="Total Validator Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>Total Validator (+Browser) 17.4.0</td>
-            <td>Automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-in6db8"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>Webmate Accessibility Workbench </td>
-            <td>Automated tool</td>
-            <td> Partial
-            </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-in6db8"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-      </tbody>
-    </table>
-  </div>
 
 <h2 id="usefullinks">Useful Links</h2>
 <ul>
@@ -781,7 +725,7 @@ not tested by the rule:</p>
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> in6db8</p>
-<p><strong>Date:</strong> Updated 19 January 2026</p>
+<p><strong>Date:</strong> Updated 27 January 2026</p>
 <p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
@@ -835,9 +779,9 @@ not tested by the rule:</p>
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1769167552085795165"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1769685374262769914"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1769167552085795165"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1769685374262769914"></script>
 <script>
   svg4everybody();
 </script><script>

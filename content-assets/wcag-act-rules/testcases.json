@@ -3,7 +3,7 @@
   "website": "https://www.w3.org/WAI/standards-guidelines/act/rules/",
   "license": "https://act-rules.github.io/pages/license/",
   "description": "Accessibility conformance testing rules for HTML",
-  "count": 1195,
+  "count": 1190,
   "testcases": [
     {
       "ruleId": "674b10",
@@ -15028,231 +15028,6 @@
       "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/ff89c9/proposed/"
     },
     {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "passed",
-      "testcaseId": "ad53952b46a372bddc3d34d82427c9ccbc6ecaa6",
-      "testcaseTitle": "Passed Example 1",
-      "relativePath": "testcases/in6db8/ad53952b46a372bddc3d34d82427c9ccbc6ecaa6.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/ad53952b46a372bddc3d34d82427c9ccbc6ecaa6.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "passed",
-      "testcaseId": "2f505db707edd40237682c62199bf47c27678e07",
-      "testcaseTitle": "Passed Example 2",
-      "relativePath": "testcases/in6db8/2f505db707edd40237682c62199bf47c27678e07.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/2f505db707edd40237682c62199bf47c27678e07.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "passed",
-      "testcaseId": "49adaf491d168fa320ceec321e129ad8515e16fa",
-      "testcaseTitle": "Passed Example 3",
-      "relativePath": "testcases/in6db8/49adaf491d168fa320ceec321e129ad8515e16fa.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/49adaf491d168fa320ceec321e129ad8515e16fa.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "failed",
-      "testcaseId": "0638090ec9e3e5bfaf95d8c38906f1bd600db7d0",
-      "testcaseTitle": "Failed Example 1",
-      "relativePath": "testcases/in6db8/0638090ec9e3e5bfaf95d8c38906f1bd600db7d0.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/0638090ec9e3e5bfaf95d8c38906f1bd600db7d0.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "failed",
-      "testcaseId": "7cdf98178f57c1f64c1bfbe0801b7a5e2e73a89f",
-      "testcaseTitle": "Failed Example 2",
-      "relativePath": "testcases/in6db8/7cdf98178f57c1f64c1bfbe0801b7a5e2e73a89f.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/7cdf98178f57c1f64c1bfbe0801b7a5e2e73a89f.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "failed",
-      "testcaseId": "ee9eeebf0a0b1a514df6202443345d999d2bd575",
-      "testcaseTitle": "Failed Example 3",
-      "relativePath": "testcases/in6db8/ee9eeebf0a0b1a514df6202443345d999d2bd575.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/ee9eeebf0a0b1a514df6202443345d999d2bd575.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "inapplicable",
-      "testcaseId": "ca835c48c5d554fbfaea6d022816e39cda25660a",
-      "testcaseTitle": "Inapplicable Example 1",
-      "relativePath": "testcases/in6db8/ca835c48c5d554fbfaea6d022816e39cda25660a.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/ca835c48c5d554fbfaea6d022816e39cda25660a.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "inapplicable",
-      "testcaseId": "97bd98302238b32e9131d042174502a83db2a4b2",
-      "testcaseTitle": "Inapplicable Example 2",
-      "relativePath": "testcases/in6db8/97bd98302238b32e9131d042174502a83db2a4b2.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/97bd98302238b32e9131d042174502a83db2a4b2.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
-      "ruleId": "in6db8",
-      "ruleName": "ARIA required ID references exist",
-      "ruleAccessibilityRequirements": {
-        "aria12:propcharacteristic_value": {
-          "title": "ARIA 1.2, 6.2.4 Value (Characteristics of States and Properties)",
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "satisfied",
-          "inapplicable": "satisfied"
-        },
-        "wcag20:1.3.1": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        },
-        "wcag20:4.1.2": {
-          "secondary": "This success criterion is **less strict** than this rule. This is because the rule does not check for alternatives which may be accessible. Some of the failed examples satisfy this success criterion."
-        }
-      },
-      "expected": "inapplicable",
-      "testcaseId": "341bc62ae116f74ee37f215b6272043f7f7706ee",
-      "testcaseTitle": "Inapplicable Example 3",
-      "relativePath": "testcases/in6db8/341bc62ae116f74ee37f215b6272043f7f7706ee.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/in6db8/341bc62ae116f74ee37f215b6272043f7f7706ee.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/"
-    },
-    {
       "ruleId": "bc4a75",
       "ruleName": "ARIA required owned elements",
       "ruleAccessibilityRequirements": {
@@ -20503,6 +20278,30 @@
           "inapplicable": "further testing needed"
         }
       },
+      "expected": "passed",
+      "testcaseId": "081e784ed9c1c5f96f02cf04c07b7d861cf3f9af",
+      "testcaseTitle": "Passed Example 7",
+      "relativePath": "testcases/cc0f0a/081e784ed9c1c5f96f02cf04c07b7d861cf3f9af.html",
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/081e784ed9c1c5f96f02cf04c07b7d861cf3f9af.html",
+      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/cc0f0a/proposed/"
+    },
+    {
+      "ruleId": "cc0f0a",
+      "ruleName": "Form field label is descriptive",
+      "ruleAccessibilityRequirements": {
+        "wcag20:2.4.6": {
+          "forConformance": true,
+          "failed": "not satisfied",
+          "passed": "further testing needed",
+          "inapplicable": "further testing needed"
+        },
+        "wcag-technique:G131": {
+          "forConformance": false,
+          "failed": "not satisfied",
+          "passed": "further testing needed",
+          "inapplicable": "further testing needed"
+        }
+      },
       "expected": "failed",
       "testcaseId": "9b967559ff2691dc30436766f53feea55447b348",
       "testcaseTitle": "Failed Example 1",
@@ -20623,6 +20422,30 @@
           "inapplicable": "further testing needed"
         }
       },
+      "expected": "failed",
+      "testcaseId": "3ee841b7513a315f4f5161893d1333386f0f1d21",
+      "testcaseTitle": "Failed Example 6",
+      "relativePath": "testcases/cc0f0a/3ee841b7513a315f4f5161893d1333386f0f1d21.html",
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/cc0f0a/3ee841b7513a315f4f5161893d1333386f0f1d21.html",
+      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/cc0f0a/proposed/"
+    },
+    {
+      "ruleId": "cc0f0a",
+      "ruleName": "Form field label is descriptive",
+      "ruleAccessibilityRequirements": {
+        "wcag20:2.4.6": {
+          "forConformance": true,
+          "failed": "not satisfied",
+          "passed": "further testing needed",
+          "inapplicable": "further testing needed"
+        },
+        "wcag-technique:G131": {
+          "forConformance": false,
+          "failed": "not satisfied",
+          "passed": "further testing needed",
+          "inapplicable": "further testing needed"
+        }
+      },
       "expected": "inapplicable",
       "testcaseId": "1d7c2f68ba65c3d81cb8a858f52be30d48a296c3",
       "testcaseTitle": "Inapplicable Example 1",
@@ -20700,6 +20523,54 @@
       "testcaseTitle": "Passed Example 8",
       "relativePath": "testcases/e086e5/cfb1790405bb1ff793ed15a73372d53e79d2d7e0.html",
       "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/cfb1790405bb1ff793ed15a73372d53e79d2d7e0.html",
+      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/proposed/"
+    },
+    {
+      "ruleId": "e086e5",
+      "ruleName": "Form field has non-empty accessible name",
+      "ruleAccessibilityRequirements": {
+        "wcag20:4.1.2": {
+          "forConformance": true,
+          "failed": "not satisfied",
+          "passed": "further testing needed",
+          "inapplicable": "further testing needed"
+        },
+        "wcag20:1.3.1": {
+          "secondary": "This success criterion is **more strict** than this rule. This is because 1.3.1 Info and Relationship requires that information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text, while 4.1.2 Name, Role, Value only requires an accessible name."
+        },
+        "wcag20:2.5.3": {
+          "secondary": "This success criterion is **more strict** than this rule. This is because 2.5.3 Label in Name requires that if a label is visible, the accessible name contains the label that is presented visually, while 4.1.2 Name, Role, Value only requires an accessible name."
+        }
+      },
+      "expected": "passed",
+      "testcaseId": "2243d6e9d1eb6938aff03536125ebc582440fbe7",
+      "testcaseTitle": "Passed Example 9",
+      "relativePath": "testcases/e086e5/2243d6e9d1eb6938aff03536125ebc582440fbe7.html",
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/2243d6e9d1eb6938aff03536125ebc582440fbe7.html",
+      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/proposed/"
+    },
+    {
+      "ruleId": "e086e5",
+      "ruleName": "Form field has non-empty accessible name",
+      "ruleAccessibilityRequirements": {
+        "wcag20:4.1.2": {
+          "forConformance": true,
+          "failed": "not satisfied",
+          "passed": "further testing needed",
+          "inapplicable": "further testing needed"
+        },
+        "wcag20:1.3.1": {
+          "secondary": "This success criterion is **more strict** than this rule. This is because 1.3.1 Info and Relationship requires that information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text, while 4.1.2 Name, Role, Value only requires an accessible name."
+        },
+        "wcag20:2.5.3": {
+          "secondary": "This success criterion is **more strict** than this rule. This is because 2.5.3 Label in Name requires that if a label is visible, the accessible name contains the label that is presented visually, while 4.1.2 Name, Role, Value only requires an accessible name."
+        }
+      },
+      "expected": "failed",
+      "testcaseId": "1d9a4d0eba21c8bb02580c46142ec75842bd3557",
+      "testcaseTitle": "Failed Example 9",
+      "relativePath": "testcases/e086e5/1d9a4d0eba21c8bb02580c46142ec75842bd3557.html",
+      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/1d9a4d0eba21c8bb02580c46142ec75842bd3557.html",
       "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/proposed/"
     },
     {
