@@ -1,6 +1,6 @@
 ---
 title: How to Change Text Size or Colors
-last_updated: 2019-03-04
+last_updated: 2025-08-20
 first_published: "2005"
 lang: en
 layout: default
@@ -44,61 +44,60 @@ This page shows you how to change text size, text and background colors, and oth
 {% include toc.html type="end" %}
 {:/}
 
-## Change Text Size with Zoom
+## Change text size with zoom
 
   <p>Most web browsers let you increase and decrease the size of text, images, and other web page content with "zoom" features. Some browsers let you choose to zoom only the text size.</p>
   <p>To change the zoom in most browsers, press the following two keys at the same time:</p>
   <ul>
     <li>In Windows, Linux, and Chrome OS:
       <ul>
-        <li>To zoom bigger: "Ctrl" and "+" keys</li>
-        <li>To zoom smaller: "Ctrl" and "-" keys</li>
+        <li>To zoom bigger: Press ‘Ctrl’ and ‘+’ keys</li>
+        <li>To zoom smaller: Press ‘Ctrl’ and ‘-’ keys</li>
       </ul>
     </li>
     <li>Mac OS:
       <ul>
-        <li>To zoom bigger: "⌘" and "+" keys</li>
-        <li>To zoom smaller: "⌘" and "-" keys</li>
+        <li>To zoom bigger: Press ‘⌘’ and ‘+’ keys</li>
+        <li>To zoom smaller: Press ‘⌘’ and ‘-’ keys</li>
       </ul>
     </li>
   </ul>
 
 Browsers provide specific guidance on different ways to change the page zoom or text-only zoom:
 
-* [Google Chrome - Change text, image, and video sizes (zoom)](https://support.google.com/chrome/answer/96810)
-* [Apple Safari - Zoom in on webpages](https://support.apple.com/guide/safari/zoom-in-on-webpages-ibrw1068/mac)
-* [Mozilla Firefox - Font size and zoom](https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages)
-* [Opera - Zoom](https://help.opera.com/en/latest/browser-window/#zoom)
-* [Internet Explorer - Ease of access options](https://support.microsoft.com/en-us/help/17456/windows-internet-explorer-ease-of-access-options)
-* [Microsoft Edge - Ease of Access in Microsoft Edge](https://support.microsoft.com/en-gb/help/4000734/windows-10-microsoft-edge-ease-of-access)
-* [Vivaldi - Zooming options in Vivaldi](https://help.vivaldi.com/article/zooming-options-in-vivaldi/)
+* [Google Chrome &mdash; Change text, image, and video sizes (zoom)](https://support.google.com/chrome/answer/96810)
+* [Apple Safari &mdash; Zoom in on webpages on Mac](https://support.apple.com/guide/safari/zoom-in-on-webpages-ibrw1068/mac)
+* [Mozilla Firefox &mdash; Font size and zoom](https://support.mozilla.org/en-US/kb/font-size-and-zoom-increase-size-of-web-pages)
+* [Opera &mdash; Zoom](https://help.opera.com/en/latest/browser-window/#zoom)
+* [Internet Explorer &mdash; Ease of Access options](https://support.microsoft.com/en-us/windows/internet-explorer-ease-of-access-options-037270c1-db10-7ca8-ccba-ebd83ea6ace9)
+* [Microsoft Edge &mdash; Make text larger](https://support.microsoft.com/en-gb/microsoft-edge/accessibility-features-in-microsoft-edge-4c696192-338e-9465-b2cd-bd9b698ad19a#bkmk_make_text_larger)
+* [Vivaldi &mdash; Zoom options in Vivaldi](https://help.vivaldi.com/desktop/tabs/zooming-options-in-vivaldi/)
 
-## Other Text and Color Changes
+## Other text and color changes
 
-Some browsers provide functionality to set different aspects of font and color in the default view.
+Some browsers provide functionality to set different aspects of font and color in the default view:
 
-* [Mozilla Firefox - Change the fonts and colors websites use](https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use)
-* [Opera - Look and feel > Fonts](https://help.opera.com/en/presto/look-and-feel/#fonts)
-* [Microsoft Internet Explorer - Ease of Access Options](https://support.microsoft.com/en-us/help/17456/windows-internet-explorer-ease-of-access-options)
+* [Mozilla Firefox &mdash; Change the fonts and colors websites use](https://support.mozilla.org/en-US/kb/change-fonts-and-colors-websites-use)
+* [Microsoft Internet Explorer &mdash; Ease of Access Options](https://support.microsoft.com/en-us/help/17456/windows-internet-explorer-ease-of-access-options)
 
 Other text and color settings are available in Reader View.
 
-## Reader View
+## Reader view
 
-Most browsers offer a "Reader View" or "Reading View" that shows just the main content; it gets rid of navigation, ads, etc. Some browsers let you set the text font, text size, text color, background color, and line spacing in Reader View.
+Most browsers offer a ‘Reader View’ or ‘Reading View’ that shows just the main content; it gets rid of navigation, ads, etc. Some browsers let you set the text font, text size, text color, background color, and line spacing in Reader View.
 
-* [Apple Safari - Hide ads when reading articles](https://support.apple.com/en-ca/guide/safari/hide-ads-when-reading-articles-sfri32632/mac)
-* [Mozilla Firefox - Reader View for clutter-free web pages](https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages)
-* [Microsoft Edge - Change font style and size for Reading view in Microsoft Edge](https://support.microsoft.com/en-us/help/4028023/microsoft-edge-change-font-style-and-size-for-reading-view)
-* [Vivaldi - Reader View](https://help.vivaldi.com/article/reader-view/)
+* [Apple Safari &mdash; Hide distractions when reading articles on Mac](https://support.apple.com/en-ca/guide/safari/sfri32632/mac)
+* [Mozilla Firefox &mdash; Reader View for clutter-free web pages](https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages)
+* [Microsoft Edge &mdash; Change font style and size for immersive reader](https://support.microsoft.com/en-us/microsoft-edge/change-font-style-and-size-for-immersive-reader-in-microsoft-edge-1758889f-bf30-64bf-254a-ff6932411a13)
+* [Vivaldi &mdash; Reader View](https://help.vivaldi.com/desktop/tools/reader-view/)
 
-## Advanced Options
+## Advanced options
 
 There are many browser extensions and add-ons that provide additional control over how the browser displays text and other content.
 
 While most browsers no long support user style sheets, extensions provide similar advanced user control. For example, the Stylus extension is available for several major browsers.
 
-## More Information
+## More information
 
 ### Why doesn't this work with some other websites?
 
@@ -112,11 +111,11 @@ Text resizing, browser zoom, and other user choices may not work consistently on
 
 It's up to the website owner. It's not an accessibility requirement that websites include information on changing text sizes and colors like this page. We chose to include this information to help people who want to know how to change their browser settings.
 
-### Should websites provide a widget to change text, color, etc.
+### Should websites provide a widget to change text, color, etc.?
 
 We chose to provide these instructions so that users can learn how to change the display for all websites. Widgets change only the website they are on.
 
-### Note: No Endorsement
+### No Endorsement
 
-The World Wide Web Consortium (W3C) does not endorse specific web browsers or extensions and does not recommend one over another. While some common browsers are included in this page, mention of a specific browser does not imply endorsement or recommendation.
+**Note:** The World Wide Web Consortium (W3C) does not endorse specific web browsers or extensions and does not recommend one over another. While some common browsers are included in this page, mention of a specific browser does not imply endorsement or recommendation.
 

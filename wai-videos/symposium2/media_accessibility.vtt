@@ -1,0 +1,2571 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.960
+Welcome you all to the second panel
+
+00:00:04.680 --> 00:00:06.720
+of the first day and
+
+00:00:09.280 --> 00:00:10.480
+this panel
+
+00:00:11.000 --> 00:00:14.400
+will aim to discuss
+
+00:00:14.960 --> 00:00:19.440
+the current status of natural language
+processing techniques.
+
+00:00:20.000 --> 00:00:25.200
+And during the context of the
+the web, we can think
+
+00:00:25.480 --> 00:00:27.680
+or we know that they can be used
+
+00:00:28.200 --> 00:00:31.440
+to generate
+textual descriptions for images,
+
+00:00:31.440 --> 00:00:36.440
+but also for other visual media
+that's presented on web pages
+
+00:00:37.160 --> 00:00:40.880
+and we will focus today our discussion on
+
+00:00:41.840 --> 00:00:45.480
+or start to consider aspects
+such as text adaptation
+
+00:00:45.480 --> 00:00:51.480
+and how to provide understandable text
+to better meet the web user needs.
+
+00:00:51.480 --> 00:00:55.880
+And they're in different contexts of
+of use and also what
+
+00:00:56.160 --> 00:01:00.000
+our future perspective
+for natural language
+
+00:01:00.000 --> 00:01:03.240
+processing on web accessibility
+
+00:01:03.240 --> 00:01:05.400
+are to support web accessibility.
+
+00:01:06.720 --> 00:01:09.600
+So I'm glad to welcome back
+
+00:01:10.720 --> 00:01:13.000
+Michael, Shivam and Amy.
+
+00:01:13.200 --> 00:01:16.320
+And when
+
+00:01:16.320 --> 00:01:18.840
+you are Amy and also
+
+00:01:19.560 --> 00:01:23.600
+to welcome Shaomei Wu from AImpower
+
+00:01:26.160 --> 00:01:27.480
+who agreed to join
+
+00:01:27.480 --> 00:01:30.920
+us on the second panel of the day.
+
+00:01:31.360 --> 00:01:33.840
+Welcome
+you all back and welcome Shaomei.
+
+00:01:34.760 --> 00:01:36.960
+For your first intervention
+
+00:01:36.960 --> 00:01:41.400
+I ask you
+just to briefly introduce yourself
+
+00:01:42.000 --> 00:01:44.240
+and your three other co panelists
+
+00:01:45.440 --> 00:01:47.600
+already done that on the previous panel.
+
+00:01:47.600 --> 00:01:51.400
+So no need to
+to reintroduce yourselves.
+
+00:01:52.800 --> 00:01:57.520
+But I will start by
+
+00:01:59.840 --> 00:02:02.760
+thinking about once again the quality.
+
+00:02:02.760 --> 00:02:05.560
+So we go back to the to the quality topic,
+
+00:02:06.240 --> 00:02:09.040
+but now the quality of 
+machine generated descriptions
+
+00:02:11.040 --> 00:02:13.920
+now no longer
+from the perspective of image processing,
+
+00:02:14.200 --> 00:02:18.240
+but from the perspective
+of the natural language generation, right?
+
+00:02:18.240 --> 00:02:21.480
+So how can we improve the quality
+
+00:02:21.480 --> 00:02:26.760
+of this machine generated descriptions,
+especially taking into account
+
+00:02:26.880 --> 00:02:30.320
+the personalized preferences from users?
+
+00:02:30.760 --> 00:02:33.360
+And I will start with you Shaomei
+
+00:02:36.720 --> 00:02:39.360
+Hello. So
+
+00:02:41.880 --> 00:02:44.160
+thank you all for
+
+00:02:45.160 --> 00:02:47.640
+having me here
+
+00:02:47.640 --> 00:02:48.200
+today.
+
+00:02:48.200 --> 00:02:53.160
+And my name is Shaomei Wu and right now
+
+00:02:53.160 --> 00:02:57.480
+I'm the founder and CEO of AImpower.org
+
+00:02:58.080 --> 00:03:02.160
+Tech non profit that researches
+
+00:03:02.160 --> 00:03:05.320
+and co-create
+
+00:03:06.080 --> 00:03:09.800
+in-powering technology for
+
+00:03:09.840 --> 00:03:13.640
+other ways marginalized users.
+
+00:03:13.640 --> 00:03:15.800
+And first of all, I want to
+
+00:03:16.960 --> 00:03:20.400
+and also share,
+
+00:03:20.440 --> 00:03:26.200
+that I do have a stutter so that you may hear
+
+00:03:26.440 --> 00:03:30.720
+there'll be more pauses and ...
+when I talk
+
+00:03:32.080 --> 00:03:33.920
+and before AImpower.
+
+00:03:33.920 --> 00:03:37.840
+I was a research scientist at Facebook
+
+00:03:38.920 --> 00:03:42.080
+leading a lot of research and
+
+00:03:43.680 --> 00:03:46.120
+product work on
+
+00:03:46.760 --> 00:03:50.480
+accessibility, inclusion and equity.
+
+00:03:51.160 --> 00:03:56.400
+So one of those product that I shipped is
+
+00:03:56.400 --> 00:03:59.240
+automatic alt texts
+
+00:04:02.840 --> 00:04:07.520
+and these you're allowed to
+we will provide
+
+00:04:08.080 --> 00:04:10.320
+short and
+
+00:04:11.440 --> 00:04:13.560
+machine generated
+
+00:04:13.560 --> 00:04:16.440
+description of
+
+00:04:17.960 --> 00:04:21.800
+images on Facebook and Instagram
+
+00:04:23.160 --> 00:04:28.880
+to screen reader users in real time.
+
+00:04:29.880 --> 00:04:31.880
+So when it comes to
+
+00:04:31.880 --> 00:04:35.280
+quality of automated alt text
+
+00:04:35.840 --> 00:04:39.280
+or other similar
+
+00:04:40.480 --> 00:04:41.880
+systems,
+
+00:04:42.240 --> 00:04:44.400
+we saw two kind of biggest
+
+00:04:45.480 --> 00:04:50.280
+area of development that we wanted to do.
+
+00:04:50.760 --> 00:04:54.240
+And the first one is accuracy,
+
+00:04:54.320 --> 00:04:57.480
+which I think we talked a lot about
+
+00:04:57.480 --> 00:05:00.960
+in the last panel as well.
+
+00:05:02.520 --> 00:05:05.120
+But I want to talk
+
+00:05:05.120 --> 00:05:09.840
+it'll be more about the second one,
+which is the
+
+00:05:10.880 --> 00:05:12.960
+richness of those
+
+00:05:14.000 --> 00:05:16.000
+descriptions.
+
+00:05:16.760 --> 00:05:20.520
+So to be honest,
+
+00:05:20.760 --> 00:05:26.480
+like the alt texts that we generated
+
+00:05:26.520 --> 00:05:29.560
+was quite
+
+00:05:29.880 --> 00:05:32.320
+limited, you know, a lot of
+
+00:05:33.440 --> 00:05:37.880
+users they will say
+that it's more like
+
+00:05:38.560 --> 00:05:40.680
+teasers, kind of, you know,
+
+00:05:41.960 --> 00:05:44.880
+and telling you like, oh yeah, five
+
+00:05:45.720 --> 00:05:49.200
+people smiling, pizza, indoor.
+
+00:05:49.960 --> 00:05:51.600
+But no more than that.
+
+00:05:51.600 --> 00:05:59.880
+No more than what kind of pizza
+and what kind of like
+
+00:06:00.520 --> 00:06:03.000
+indoor environment. Is it at home?
+
+00:06:03.000 --> 00:06:06.200
+Is it like a restaurant?
+
+00:06:06.200 --> 00:06:12.720
+So I think our users really,
+when they kind of gathered all of the
+
+00:06:13.000 --> 00:06:17.520
+richness of what someone who has eyesight can see,
+
+00:06:17.880 --> 00:06:20.320
+you know, can handle access.
+
+00:06:21.120 --> 00:06:24.320
+So one particular kind
+
+00:06:26.240 --> 00:06:31.200
+an area
+that users do really want to know more
+
+00:06:31.360 --> 00:06:37.000
+is it's about people who they are,
+how do they
+
+00:06:38.480 --> 00:06:39.120
+look?
+
+00:06:39.920 --> 00:06:44.280
+Look like... race, gender and
+
+00:06:45.320 --> 00:06:47.640
+even how
+
+00:06:48.320 --> 00:06:49.840
+attractive they are
+
+00:06:49.840 --> 00:06:53.120
+because that is something
+really kind of socially salient.
+
+00:06:53.880 --> 00:06:58.960
+So that was kind of big challenge for us.
+
+00:06:59.040 --> 00:07:01.920
+One way was designing our
+
+00:07:03.560 --> 00:07:07.040
+our system
+
+00:07:08.280 --> 00:07:11.520
+because, you know, like, how can we share
+
+00:07:11.520 --> 00:07:14.560
+those kind of attribute in a, like,
+
+00:07:15.520 --> 00:07:19.720
+you know, both accurate and kind of socially
+
+00:07:20.880 --> 00:07:22.400
+conscious way.
+
+00:07:22.400 --> 00:07:26.840
+So we actually opt to not
+
+00:07:28.080 --> 00:07:29.120
+kind of
+
+00:07:30.120 --> 00:07:34.200
+showing like the race and gender of the,
+
+00:07:35.160 --> 00:07:39.720
+the people being photographed,
+
+00:07:40.640 --> 00:07:43.640
+but which I you know,
+
+00:07:43.920 --> 00:07:46.600
+we got actually a lot of complaint on
+
+00:07:47.160 --> 00:07:52.200
+but how to kind of
+yeah convey those in a kind of socially
+
+00:07:53.400 --> 00:07:57.040
+respectful way I think it's something we
+
+00:07:57.840 --> 00:08:00.520
+we should really work like work on
+
+00:08:00.960 --> 00:08:07.840
+and now I can see kind of like a few ways
+that we can make that better.
+
+00:08:07.880 --> 00:08:12.080
+For example, like, 
+considering the like...
+
+00:08:16.800 --> 00:08:18.480
+relationship
+
+00:08:18.480 --> 00:08:21.760
+between kind of people in the photo and
+
+00:08:23.040 --> 00:08:27.120
+yours, for example,
+like if they are friends
+
+00:08:27.120 --> 00:08:32.600
+and then we can just tell them the name, 
+and, you know, other things about those people
+
+00:08:32.920 --> 00:08:36.320
+and then another thing 
+is to kind of, give people
+
+00:08:38.560 --> 00:08:41.840
+progress details.
+
+00:08:42.040 --> 00:08:48.200
+So then you know, I have some kind of like option
+to kind of allow the consumer
+
+00:08:48.200 --> 00:08:52.200
+of those alt texts
+to kind of request more
+
+00:08:54.840 --> 00:08:57.960
+details that we just cannot provide
+
+00:08:57.960 --> 00:09:02.840
+by our systems.
+
+00:09:03.680 --> 00:09:07.800
+So I will be done here and let
+
+00:09:09.280 --> 00:09:12.560
+others talk.
+
+00:09:12.560 --> 00:09:12.960
+Thank you Shaomei.
+
+00:09:12.960 --> 00:09:16.680
+Shivam, your thoughts on
+
+00:09:17.080 --> 00:09:21.680
+how can we improve the quality of machine
+generated descriptions?
+
+00:09:23.080 --> 00:09:26.280
+Okay, so this is a two part thing.
+
+00:09:26.280 --> 00:09:29.080
+So when you come
+to technically implementing more, say
+
+00:09:30.000 --> 00:09:32.400
+how you have design your model,
+how you train them,
+
+00:09:32.720 --> 00:09:35.800
+and what the whoever the stakeholders
+of designing a particular model
+
+00:09:35.800 --> 00:09:39.760
+is very much necessary
+in how and when to get the quality machine
+
+00:09:39.760 --> 00:09:41.200
+generated description.
+
+00:09:41.200 --> 00:09:44.400
+Now when you when we take into account
+users personalized
+
+00:09:44.400 --> 00:09:47.520
+preferences, this is a two part...
+
+00:09:47.560 --> 00:09:50.320
+So first, let's take an example.
+
+00:09:50.320 --> 00:09:54.360
+I am a person who knows Spanish
+and my model,
+
+00:09:54.800 --> 00:09:58.360
+a very famous model gives descriptions
+in English right, now
+
+00:09:58.720 --> 00:10:01.560
+that model or whatever
+the consumption of that model
+
+00:10:01.680 --> 00:10:04.600
+is like let's say
+you're using an API to consume the model.
+
+00:10:05.040 --> 00:10:08.680
+So that should take into account
+the user's personalized preferences
+
+00:10:08.680 --> 00:10:12.400
+of his language
+and write the output based on that as well.
+
+00:10:12.760 --> 00:10:17.080
+So this diversity of a model
+to prepare output in multiple
+
+00:10:17.080 --> 00:10:21.280
+formats, multiple languages
+is something that can be looked into.
+
+00:10:21.280 --> 00:10:25.160
+This is how the quality of the machine
+generated description increases.
+
+00:10:25.440 --> 00:10:28.600
+Now, you did not train the complete model
+separately.
+
+00:10:28.600 --> 00:10:29.640
+What you can do
+
+00:10:29.640 --> 00:10:33.440
+is just a post-processing scripts
+for your models and that can help.
+
+00:10:33.440 --> 00:10:38.680
+And you it's not much of an effort
+when we say as a model training input,
+
+00:10:38.680 --> 00:10:42.600
+but it's very simple solution
+to what can be a best solution.
+
+00:10:42.920 --> 00:10:45.520
+The other thing is
+how you prepare your quality data.
+
+00:10:45.520 --> 00:10:50.760
+Now you should fully carefully categorize
+it is strictly if needed.
+
+00:10:51.080 --> 00:10:55.640
+And let's say you have input data that are
+blurred images and all sorts of thing.
+
+00:10:55.920 --> 00:10:59.560
+So you need to carefully
+prepare your model, creating data and
+
+00:10:59.800 --> 00:11:02.360
+based on that data,
+your description would be
+
+00:11:02.640 --> 00:11:07.400
+a bit more clearer and the population
+will also be factored in.
+
+00:11:07.400 --> 00:11:08.280
+When you
+
+00:11:08.400 --> 00:11:13.000
+look into how you can both process
+your data for a certain group of people.
+
+00:11:13.760 --> 00:11:17.160
+So that's how I see it.
+
+00:11:17.160 --> 00:11:17.760
+Thank you.
+
+00:11:17.760 --> 00:11:21.880
+And Amy, want to share your experiences?
+
+00:11:22.920 --> 00:11:23.400
+Sure.
+
+00:11:23.400 --> 00:11:25.920
+So a couple of ways that I've seen
+
+00:11:26.720 --> 00:11:31.440
+that I think are sort of promising
+maybe to use NLP to improve quality.
+
+00:11:31.800 --> 00:11:34.600
+One thing I started
+seeing recently is people,
+
+00:11:35.200 --> 00:11:39.080
+you know,
+starting to consider context around the
+
+00:11:39.480 --> 00:11:42.280
+the image that's going to be described,
+to maybe
+
+00:11:42.280 --> 00:11:45.880
+create a description
+that's more that's more helpful.
+
+00:11:45.880 --> 00:11:47.760
+So imagine, you know,
+
+00:11:47.760 --> 00:11:51.720
+someone writes a post on Twitter
+and they couple that post with an image.
+
+00:11:51.880 --> 00:11:57.560
+So considering the the post
+and the image together, maybe might inform
+
+00:11:57.720 --> 00:12:01.080
+models on how to create something
+that's more informative.
+
+00:12:01.080 --> 00:12:05.600
+So for instance,
+if I posted a picture of myself
+
+00:12:06.440 --> 00:12:08.600
+snowboarding
+and I said I learned a new trick,
+
+00:12:08.600 --> 00:12:11.760
+then it might be important to tell me
+what trick you learned.
+
+00:12:12.320 --> 00:12:15.560
+Whereas on the other hand,
+I said, I just went on vacation.
+
+00:12:15.560 --> 00:12:17.800
+You know, the exact trick
+might not matter as much.
+
+00:12:18.360 --> 00:12:22.560
+And so I think that the idea
+of like using language understanding
+
+00:12:22.560 --> 00:12:25.920
+to get more information about the context
+before making a prediction is promising
+
+00:12:26.560 --> 00:12:27.480
+in another way.
+
+00:12:27.480 --> 00:12:30.600
+I've sort of seen it used to
+maybe improve the quality kind of
+
+00:12:30.640 --> 00:12:31.680
+goes back to the other
+
+00:12:32.840 --> 00:12:36.080
+the other answers that were given
+so maybe you can use question
+
+00:12:36.080 --> 00:12:39.080
+answering about the image
+to gain more information when you need it.
+
+00:12:40.440 --> 00:12:42.480
+Oh, one thing
+
+00:12:42.480 --> 00:12:48.040
+I've also thought about is seeing
+if maybe users could give examples
+
+00:12:48.040 --> 00:12:52.640
+or their preferences
+about descriptions in in natural language.
+
+00:12:52.640 --> 00:12:55.800
+So this is an example of a description
+maybe we can copy the style
+
+00:12:55.800 --> 00:12:59.160
+of this description when we're applying it
+to other descriptions.
+
+00:12:59.400 --> 00:13:03.960
+So maybe I like to hear about the costumes
+someone wears in a
+
+00:13:04.920 --> 00:13:08.320
+in in a video,
+and I wish that future descriptions
+
+00:13:08.800 --> 00:13:12.560
+might include more information about that
+rather than summarizing them.
+
+00:13:12.880 --> 00:13:16.400
+And then finally, one other way I've seen,
+
+00:13:17.240 --> 00:13:20.120
+I've used NLP to improve
+
+00:13:20.120 --> 00:13:23.000
+quality, is also based on summarization.
+
+00:13:23.640 --> 00:13:27.520
+So there can be times
+when there's more to describe than time
+
+00:13:27.520 --> 00:13:28.680
+you have to describe it.
+
+00:13:28.680 --> 00:13:32.720
+So especially in videos,
+there's often a really small amount
+
+00:13:32.720 --> 00:13:36.120
+of time to describe
+without overlapping the other audio.
+
+00:13:36.640 --> 00:13:42.080
+So one way you can use use NLP to improve
+the quality
+
+00:13:42.360 --> 00:13:45.320
+is by trying to summarize
+those descriptions so they fit
+
+00:13:45.320 --> 00:13:49.640
+within the time you have and they don't
+decrease the experience of people
+
+00:13:50.560 --> 00:13:53.080
+trying to watch the video
+and hear the audio at the same time.
+
+00:13:53.080 --> 00:13:55.560
+Yeah, yeah.
+
+00:13:55.560 --> 00:14:00.600
+That's that's
+definitely a good use for NLP.
+
+00:14:01.440 --> 00:14:03.800
+Michael, still in this topic
+
+00:14:03.920 --> 00:14:08.560
+and I would like to have your perspective
+
+00:14:08.560 --> 00:14:12.560
+on initiatives from WAI that
+
+00:14:14.200 --> 00:14:17.000
+might assist users in
+
+00:14:17.400 --> 00:14:19.920
+providing their preferences
+
+00:14:20.760 --> 00:14:23.560
+so that eventually
+
+00:14:23.560 --> 00:14:26.760
+models can use those
+
+00:14:27.600 --> 00:14:33.440
+or anything
+that might be ongoing in that regard.
+
+00:14:33.440 --> 00:14:34.200
+Okay.
+
+00:14:34.560 --> 00:14:39.600
+So first of all, just give the disclaimer
+for anybody new to this session
+
+00:14:39.600 --> 00:14:42.320
+that I'm not a machine learning
+professional, I'm speaking from the
+
+00:14:43.080 --> 00:14:46.080
+of my work
+and the Web accessibility initiative.
+
+00:14:46.440 --> 00:14:47.640
+I do want to talk briefly.
+
+00:14:47.640 --> 00:14:52.280
+I think the other panelists
+covered almost anything
+
+00:14:52.280 --> 00:14:54.760
+I would have said
+
+00:14:54.920 --> 00:15:00.720
+one thing that based on my knowledge
+of how machine learning works generally
+
+00:15:00.720 --> 00:15:04.080
+today, our models tend to be focused
+
+00:15:04.080 --> 00:15:06.480
+on, you know, of our particular ability,
+
+00:15:07.680 --> 00:15:09.080
+and it's not universal.
+
+00:15:09.080 --> 00:15:13.640
+And the future models
+will have more abilities combined.
+
+00:15:13.640 --> 00:15:18.440
+But, you know, so there may be one model
+that can recognize this is a human.
+
+00:15:18.440 --> 00:15:22.440
+And here are those attributes, another one
+that you can say this is this human,
+
+00:15:23.280 --> 00:15:26.800
+and yet another one that can say this
+human plus that human
+
+00:15:26.800 --> 00:15:28.320
+equals this relationship.
+
+00:15:29.320 --> 00:15:29.920
+So all of
+
+00:15:29.920 --> 00:15:32.360
+that information,
+I believe is separate right now.
+
+00:15:33.000 --> 00:15:36.800
+So the ability for models
+to share contexts,
+
+00:15:37.080 --> 00:15:40.960
+I think is going to be
+a part of the solution that we need.
+
+00:15:40.960 --> 00:15:47.760
+So what I can speak up for in the Web
+accessibility initiative.
+
+00:15:47.760 --> 00:15:52.680
+So we are only beginning to explore
+
+00:15:52.960 --> 00:15:57.120
+what AI and accessibility means.
+
+00:15:57.120 --> 00:16:00.200
+And so this symposium
+is a part of that process.
+
+00:16:01.160 --> 00:16:04.400
+We have a practice of doing
+
+00:16:04.920 --> 00:16:07.520
+research papers,
+sort of literature reviews,
+
+00:16:08.040 --> 00:16:11.000
+and then proposing accessibility
+user requirements.
+
+00:16:11.000 --> 00:16:16.120
+So that would be something that, you know,
+we could be working on to
+
+00:16:17.160 --> 00:16:18.680
+start gathering this information.
+
+00:16:18.680 --> 00:16:22.640
+And from there we decide what to do,
+whether the content goes into guidelines
+
+00:16:22.640 --> 00:16:26.000
+or into new technologies or whatever.
+
+00:16:26.000 --> 00:16:30.840
+But I think most of the resources around
+AI are
+
+00:16:31.760 --> 00:16:36.200
+would fit into new resources
+for those categories.
+
+00:16:36.200 --> 00:16:38.520
+Okay, great. Thanks. And
+
+00:16:39.480 --> 00:16:42.920
+I would like now to move on to addressing
+something
+
+00:16:42.920 --> 00:16:47.400
+that was basically the core of Jutta’s
+keynote.
+
+00:16:47.400 --> 00:16:48.720
+So it's
+
+00:16:49.080 --> 00:16:52.800
+discrimination bias
+or any other type of bias.
+
+00:16:53.080 --> 00:16:55.280
+And here
+
+00:16:55.720 --> 00:16:58.760
+also looking at something
+that Antonio Gambabari
+
+00:16:59.160 --> 00:17:02.640
+has entered in the Q&amp;A
+for the previous panel.
+
+00:17:02.640 --> 00:17:04.680
+But I think it's also a
+
+00:17:05.760 --> 00:17:07.840
+very well fit.
+
+00:17:07.840 --> 00:17:12.280
+It fits very well into this topic
+and it brought out
+
+00:17:13.760 --> 00:17:15.320
+the use
+
+00:17:15.960 --> 00:17:19.280
+large language models, LLMs
+
+00:17:19.280 --> 00:17:21.560
+and which are currently
+
+00:17:22.160 --> 00:17:25.240
+getting a lot of traction
+and a lot of spotlight.
+
+00:17:25.760 --> 00:17:29.120
+And and do you think these LLMs
+
+00:17:30.240 --> 00:17:33.560
+can open up
+
+00:17:33.600 --> 00:17:39.000
+new avenues, as Antonio
+Gambabari was mentioning, for reducing
+
+00:17:39.320 --> 00:17:42.480
+the different type of bias that we see
+
+00:17:43.160 --> 00:17:48.480
+as a result of the use of AI trained models?
+
+00:17:49.240 --> 00:17:53.280
+And Shivam you want to go first, this time?
+
+00:17:53.280 --> 00:17:54.680
+Yeah, sure, sure.
+
+00:17:54.680 --> 00:17:57.880
+So this is quite a question which is
+
+00:17:58.160 --> 00:18:01.760
+and has been close to my heart as well,
+how can we address social
+
+00:18:01.760 --> 00:18:05.600
+bias, in largely any model.
+As part of industry
+
+00:18:05.600 --> 00:18:08.960
+have seen a lot of ML models trainings
+how the output comes.
+
+00:18:09.360 --> 00:18:11.960
+So social ML model
+results of data that they have
+
+00:18:12.440 --> 00:18:15.920
+and how the social attitudes
+are represented within that model.
+
+00:18:16.520 --> 00:18:20.520
+And most of that available
+data is used between models publicly sold,
+
+00:18:21.280 --> 00:18:23.840
+which continuously degree of bias
+that you can see,
+
+00:18:23.840 --> 00:18:27.480
+because most of the data that are
+generated on Internet is basically
+
+00:18:28.480 --> 00:18:30.280
+those people who can consume it, right?
+
+00:18:30.280 --> 00:18:35.160
+It it's not that everybody once would
+who doesn't even know what it is.
+
+00:18:35.400 --> 00:18:36.840
+They cannot create data over there.
+
+00:18:36.840 --> 00:18:42.040
+So most of the data that is available to
+train the model, it's built out of that.
+
+00:18:42.040 --> 00:18:45.920
+So that's how you see a bias in one way.
+The other
+
+00:18:45.920 --> 00:18:49.720
+instance I can give an example is
+you will see a lot of street violence,
+
+00:18:49.720 --> 00:18:53.760
+homelessness, drug overdose and,
+all those things overrepresented
+
+00:18:54.080 --> 00:18:58.280
+in the text that discuss mental illness,
+although these both are not similar,
+
+00:18:58.960 --> 00:19:01.360
+but you will find this kind
+of representation
+
+00:19:01.600 --> 00:19:03.720
+in ML outputs like
+
+00:19:05.040 --> 00:19:06.080
+how can we address this?
+
+00:19:06.080 --> 00:19:10.040
+Now there
+there is a novel way of human in the loop.
+
+00:19:10.040 --> 00:19:14.480
+Our human feedback loop on an existing
+models where you can provide some feedback
+
+00:19:14.480 --> 00:19:18.840
+to the already existing model that this is
+the sort of output is not correct.
+
+00:19:18.840 --> 00:19:22.600
+This can be a correct version and
+this can be a good version some some human
+
+00:19:23.600 --> 00:19:24.480
+interface
+
+00:19:24.480 --> 00:19:24.920
+is needed or
+
+00:19:24.920 --> 00:19:29.280
+what that now the other aspect of it
+is the representational
+
+00:19:29.280 --> 00:19:30.320
+training of ML models.
+
+00:19:30.320 --> 00:19:32.320
+Now, the underlying data is models.
+
+00:19:32.560 --> 00:19:34.400
+It's the main source of the issue here.
+
+00:19:34.400 --> 00:19:37.960
+So you need to correctly source your data
+and at least up to date,
+
+00:19:38.800 --> 00:19:41.320
+you're not all representing 
+one section of data.
+
+00:19:41.600 --> 00:19:44.000
+For example,
+let's say you have a bigger society.
+
+00:19:44.560 --> 00:19:48.920
+This society can be underprivileged, 
+overprivileged and maybe some rigid persons.
+
+00:19:48.920 --> 00:19:50.960
+They just account society.
+
+00:19:50.960 --> 00:19:53.800
+Now, you cannot just take the data
+from one section of society and train
+
+00:19:53.840 --> 00:19:57.680
+the model and say that I can give you
+a complete picture of the area.
+
+00:19:58.160 --> 00:20:00.920
+There's much a separate section
+which are underrepresented. That's
+
+00:20:00.920 --> 00:20:04.600
+what is happening with all the models
+right from the start of ML.
+
+00:20:05.040 --> 00:20:10.720
+You can see. Now what we can also do to
+mitigate is you can create inclusive buckets
+
+00:20:10.720 --> 00:20:13.960
+where the developer of ML models
+or designer of ML models
+
+00:20:13.960 --> 00:20:17.080
+you can give the inclusive bucket
+training to them.
+
+00:20:17.080 --> 00:20:17.440
+You can
+
+00:20:18.720 --> 00:20:19.160
+get them
+
+00:20:19.160 --> 00:20:22.800
+aware that what is happening
+and what can how we can mitigate this.
+
+00:20:23.000 --> 00:20:26.680
+So all the person who are included
+in ML generation
+
+00:20:26.720 --> 00:20:31.120
+or there are a lot of you still going on,
+I mean a lot of data extraction goes on.
+
+00:20:31.320 --> 00:20:33.640
+So all those people can be trained
+for inclusiveness.
+
+00:20:34.520 --> 00:20:36.920
+There are multiple tools
+that help us do that.
+
+00:20:37.600 --> 00:20:39.760
+Like if you are creating a model,
+you can test in
+
+00:20:39.960 --> 00:20:42.800
+Google helps us in
+
+00:20:43.080 --> 00:20:43.680
+analyzing the
+
+00:20:43.680 --> 00:20:46.320
+models like Google
+has a lot of tools, AI fairness,
+
+00:20:46.440 --> 00:20:49.360
+So how your models are performing
+when talk about
+
+00:20:49.360 --> 00:20:52.560
+a lot of including
+inclusive outputs of your data.
+
+00:20:53.440 --> 00:20:55.960
+Also you need to do a thorough
+testing of your models
+
+00:20:55.960 --> 00:21:02.040
+whenever you go ahead to include that
+all the outputs are properly
+
+00:21:02.840 --> 00:21:06.280
+aligned, properly represented,
+all the sections of your model
+
+00:21:06.560 --> 00:21:10.240
+which it is intended to be used
+should be represented well.
+
+00:21:10.480 --> 00:21:14.520
+Your testing should be that model
+in case of any models you're creating,
+
+00:21:15.000 --> 00:21:16.880
+because now we're not at that stage that
+
+00:21:17.840 --> 00:21:19.080
+AI and ML is
+
+00:21:19.080 --> 00:21:21.840
+in the starting off state,
+it's quite mature
+
+00:21:21.840 --> 00:21:23.080
+right now.
+We are seeing
+
+00:21:23.080 --> 00:21:26.280
+a lot of breakthrough technology
+so we can do this going forward.
+
+00:21:26.280 --> 00:21:28.440
+I guess this can be a solution.
+
+00:21:30.000 --> 00:21:31.800
+Okay, thank you.
+
+00:21:31.800 --> 00:21:36.400
+Shivam.
+Shaomei, can we have your input on how
+
+00:21:36.480 --> 00:21:41.200
+can we address that social bias
+or other types of bias?
+
+00:21:41.200 --> 00:21:44.160
+Yeah. So
+
+00:21:44.520 --> 00:21:44.880
+yeah.
+
+00:21:44.880 --> 00:21:48.120
+So then on these,
+I want to kind of go back to
+
+00:21:48.160 --> 00:21:52.400
+I just kind of talk about before in
+
+00:21:53.520 --> 00:21:55.640
+particular on
+
+00:21:56.400 --> 00:21:58.560
+sensitive social
+
+00:21:58.880 --> 00:22:03.400
+identities, you know, 
+about people
+
+00:22:03.400 --> 00:22:07.080
+on the photos.
+
+00:22:07.080 --> 00:22:10.200
+I, I don't see I kind of the
+
+00:22:10.200 --> 00:22:12.480
+way for the 
+
+00:22:13.880 --> 00:22:16.920
+a current
+
+00:22:16.920 --> 00:22:19.080
+and machine learning
+
+00:22:21.000 --> 00:22:23.240
+system to kind of accurately
+
+00:22:24.320 --> 00:22:26.880
+come out with those labels.
+
+00:22:26.880 --> 00:22:31.800
+I think the key
+kind of issue here is a lot of those
+
+00:22:33.760 --> 00:22:34.720
+systems will
+
+00:22:34.720 --> 00:22:37.560
+kind of really assume these like fixed
+
+00:22:37.720 --> 00:22:41.200
+and definite need
+
+00:22:43.800 --> 00:22:47.560
+these kind of social categorizations
+
+00:22:48.840 --> 00:22:53.800
+such as race and gender.
+
+00:22:53.800 --> 00:22:56.840
+So I think maybe we should think
+
+00:22:56.840 --> 00:22:59.240
+be an kind of
+
+00:23:00.320 --> 00:23:03.720
+a machine learning systems
+
+00:23:03.720 --> 00:23:05.760
+and kind of find a way to
+
+00:23:07.320 --> 00:23:10.000
+to kind of attribute people
+
+00:23:10.880 --> 00:23:13.800
+respective race back fully
+
+00:23:15.520 --> 00:23:17.920
+through by doing this kind of like
+
+00:23:17.920 --> 00:23:20.600
+having to like agencies
+
+00:23:21.000 --> 00:23:23.840
+of those being kind of
+
+00:23:25.880 --> 00:23:29.280
+photographed and being
+
+00:23:29.520 --> 00:23:31.040
+described.
+
+00:23:31.040 --> 00:23:35.480
+For example, I think now a lot of people
+has been kind of
+
+00:23:36.560 --> 00:23:38.960
+specifying their
+
+00:23:39.760 --> 00:23:42.720
+pronouns, for example in their
+
+00:23:42.720 --> 00:23:46.360
+social media bios
+
+00:23:46.800 --> 00:23:49.960
+and I think those kind of
+
+00:23:51.000 --> 00:23:52.680
+information should be
+
+00:23:52.680 --> 00:23:55.720
+made use of or could be kind of
+
+00:23:56.040 --> 00:23:59.000
+made use of one way
+
+00:23:59.000 --> 00:24:01.800
+of assigning on, you know,
+
+00:24:01.800 --> 00:24:04.760
+one way to describing
+
+00:24:04.760 --> 00:24:07.200
+the gender of somebody in the photo.
+
+00:24:07.920 --> 00:24:11.040
+And also another kind of
+
+00:24:13.200 --> 00:24:17.080
+interactions that we have been kind of
+exploring
+
+00:24:17.080 --> 00:24:20.120
+is to just kind of describing
+
+00:24:20.120 --> 00:24:23.120
+the appearances
+
+00:24:23.320 --> 00:24:25.440
+instead of identities.
+
+00:24:26.200 --> 00:24:28.480
+For example, what kind of
+
+00:24:28.480 --> 00:24:31.200
+describe
+
+00:24:31.200 --> 00:24:35.200
+skin tones or hair style
+
+00:24:35.640 --> 00:24:38.560
+and outfit
+
+00:24:39.600 --> 00:24:41.320
+instead of
+
+00:24:41.320 --> 00:24:45.480
+assigning a kind of race
+or gender label of somebody.
+
+00:24:46.320 --> 00:24:51.240
+But I don't think any of those solutions
+can really address
+
+00:24:51.240 --> 00:24:56.280
+the kind of the real cause of the problem.
+
+00:24:56.360 --> 00:25:01.200
+So I don't really have a very good
+answer on this
+
+00:25:01.800 --> 00:25:04.960
+I think maybe we should,
+
+00:25:04.960 --> 00:25:08.520
+you know, like maybe the alternative
+is to kind of think of the way
+
+00:25:08.840 --> 00:25:12.880
+to come away and kind of share who we are.
+
+00:25:13.480 --> 00:25:16.880
+We saw so much relying on the kind of
+
+00:25:21.640 --> 00:25:25.120
+images like we are today.
+
+00:25:25.240 --> 00:25:28.360
+So, you know, like, how can we convey
+
+00:25:28.880 --> 00:25:30.680
+the kind of
+
+00:25:31.800 --> 00:25:34.640
+information that we want to share online,
+
+00:25:35.080 --> 00:25:37.840
+not so visual centric way.
+
+00:25:38.400 --> 00:25:39.440
+I think that's a kind of
+
+00:25:40.520 --> 00:25:41.640
+bigger
+
+00:25:44.520 --> 00:25:47.320
+question, the way I saw it, too.
+
+00:25:47.320 --> 00:25:48.400
+Thank you.
+
+00:25:49.560 --> 00:25:50.640
+Thank you, Shaomei.
+
+00:25:50.640 --> 00:25:53.720
+And Amy next to you.
+
+00:25:54.640 --> 00:25:58.600
+I think the prior
+the prior answer is mostly covered.
+
+00:25:58.600 --> 00:26:00.480
+The things I was going to mention I loved.
+
+00:26:00.480 --> 00:26:03.040
+Shaomei’s answer about,
+
+00:26:03.040 --> 00:26:06.240
+you know, describing ourselves in ways
+that are like figuring out ways
+
+00:26:06.240 --> 00:26:10.320
+that don't rely on the visual information
+and giving agency to people
+
+00:26:10.320 --> 00:26:14.840
+to just to add their own identities
+that they want to be shared.
+
+00:26:15.000 --> 00:26:18.520
+I will say that I think that that depends
+in different contexts.
+
+00:26:18.520 --> 00:26:19.680
+You might want to share
+
+00:26:19.680 --> 00:26:23.800
+different parts of your identity
+if it's important to you and you might.
+
+00:26:24.240 --> 00:26:29.040
+And so I think that even things
+that give like end users agency
+
+00:26:29.040 --> 00:26:33.720
+might have a lot of subtlety and how
+they would be applied in different cases.
+
+00:26:34.640 --> 00:26:37.800
+And I like the idea,
+you know, of describing,
+
+00:26:37.800 --> 00:26:39.560
+you know, aspects of appearance.
+
+00:26:39.560 --> 00:26:42.520
+I think you're missing one
+one challenge with that is
+
+00:26:42.520 --> 00:26:43.920
+you might be sort of trading off
+
+00:26:43.920 --> 00:26:47.280
+between these like aspects of appearance
+that you're describing and
+
+00:26:48.080 --> 00:26:51.520
+and the efficiency
+with which someone can like
+
+00:26:51.720 --> 00:26:52.760
+maybe they're not going to get
+
+00:26:52.760 --> 00:26:56.280
+the information as quickly as a sighted
+person would perceiving that person.
+
+00:26:56.760 --> 00:27:00.040
+And just because,
+you know, audio occurs over time.
+
+00:27:00.040 --> 00:27:04.200
+So so I think there's it's an extremely
+difficult, difficult challenge.
+
+00:27:05.000 --> 00:27:07.280
+And and in some cases it can matter.
+
+00:27:07.280 --> 00:27:10.920
+Like I can imagine, you know,
+seeing a photograph of the leadership
+
+00:27:10.920 --> 00:27:14.080
+of a company,
+you might want to know some some quick
+
+00:27:15.360 --> 00:27:18.120
+details about about the demographics
+of who's who's leading it.
+
+00:27:18.120 --> 00:27:22.680
+For instance,
+one one thing that I've noticed that
+
+00:27:23.240 --> 00:27:26.160
+is is sort of related to
+this is that, you know,
+
+00:27:26.280 --> 00:27:29.640
+when I'm when I am asking.
+
+00:27:29.640 --> 00:27:31.200
+So I sometimes,
+
+00:27:31.200 --> 00:27:35.280
+you know, have people describe videos
+and there can be a lot of differences
+
+00:27:35.280 --> 00:27:38.360
+in which aspects, even if they're going
+to describe the aspects of someone's appearance
+
+00:27:39.080 --> 00:27:42.360
+the way they describe those based on
+who is in front of them
+
+00:27:42.720 --> 00:27:45.880
+can also differ based on biases
+that people have.
+
+00:27:45.880 --> 00:27:49.680
+So if people see a woman,
+they might describe her differently
+
+00:27:49.680 --> 00:27:50.760
+than they would describe a man.
+
+00:27:50.760 --> 00:27:54.360
+They might focus on different
+aspects of of appearance.
+
+00:27:54.360 --> 00:27:58.320
+And so I think even things that go towards
+describing aspects of appearance
+
+00:27:58.320 --> 00:28:02.280
+will have to be, you know, very carefully,
+very carefully designed.
+
+00:28:02.280 --> 00:28:05.680
+And it really feels like a challenging
+a challenging problem.
+
+00:28:05.720 --> 00:28:08.040
+Yeah.
+
+00:28:08.040 --> 00:28:11.080
+Thank you so much, Amy.
+
+00:28:11.080 --> 00:28:14.200
+Michael, any thoughts on this?
+
+00:28:14.200 --> 00:28:15.680
+And I would
+
+00:28:16.680 --> 00:28:18.200
+add something
+
+00:28:18.200 --> 00:28:21.920
+here, especially for you, ...
+
+00:28:22.160 --> 00:28:26.600
+do you see any future role
+in accessibility guidelines
+
+00:28:27.600 --> 00:28:29.760
+in contributing to
+
+00:28:31.560 --> 00:28:34.320
+preventing bias in machine
+
+00:28:34.320 --> 00:28:37.880
+learning, generated descriptions
+or whatever
+
+00:28:38.400 --> 00:28:43.840
+that results from these models?
+
+00:28:43.840 --> 00:28:46.040
+I know my answer to that question.
+
+00:28:46.040 --> 00:28:49.640
+It could be longer
+than my prepared answers.
+
+00:28:49.640 --> 00:28:53.040
+So let's see where we go.
+
+00:28:53.040 --> 00:28:56.760
+I just want to add a couple of thoughts
+to what the others have been saying.
+
+00:28:57.400 --> 00:28:59.880
+I want to first to categorize bias
+
+00:29:00.920 --> 00:29:04.240
+as we're talking
+so far mainly about bias and recognition.
+
+00:29:04.240 --> 00:29:08.360
+You know, this... are there biases
+of how machine learning recognizes
+
+00:29:08.360 --> 00:29:10.680
+objects, people, etc., contexts
+
+00:29:12.240 --> 00:29:17.160
+in that, one thing that magnifies
+the challenge and accessibility context
+
+00:29:17.160 --> 00:29:20.600
+is that the sample size of people
+with disabilities
+
+00:29:20.600 --> 00:29:23.160
+can be smaller in various training sets.
+
+00:29:24.120 --> 00:29:25.440
+And so there is a risk
+
+00:29:26.600 --> 00:29:29.040
+that images of people with
+
+00:29:29.040 --> 00:29:34.440
+disabilities on a training set or contexts
+that are important for them, like wheelchair ramps
+
+00:29:34.440 --> 00:29:38.400
+or something will be excluded as outliers
+
+00:29:38.400 --> 00:29:43.440
+or will be less
+well recognizable by the AI
+
+00:29:43.440 --> 00:29:46.040
+than, you know,
+images of other people are.
+
+00:29:46.760 --> 00:29:49.600
+So, you know, that's just another
+
+00:29:50.920 --> 00:29:55.360
+another dimension to the aspects of bias
+that we need to look at.
+
+00:29:55.720 --> 00:30:00.200
+But then we also need to look at the own
+bias in the application of this.
+
+00:30:00.920 --> 00:30:03.400
+You know, we've talked a few times
+during the session
+
+00:30:03.400 --> 00:30:07.520
+about the risk of relying on machine
+generated
+
+00:30:08.640 --> 00:30:11.320
+descriptions, captions
+as being good enough,
+
+00:30:12.520 --> 00:30:15.520
+whereas content
+that has more of a mainstream
+
+00:30:15.520 --> 00:30:18.440
+audience might also have captions
+as descriptions.
+
+00:30:18.440 --> 00:30:22.680
+But get more curated,
+you know, quality assurance.
+
+00:30:23.280 --> 00:30:27.760
+So, you know,
+that kind of bias could creep in and
+
+00:30:28.920 --> 00:30:29.440
+that can
+
+00:30:29.440 --> 00:30:32.400
+magnify the impact on disability bias,
+
+00:30:33.360 --> 00:30:37.640
+you know, because it can cause people
+to be excluded from the fora
+
+00:30:38.040 --> 00:30:42.400
+that, often, which people are recruited
+to be part of training sets, etc..
+
+00:30:42.720 --> 00:30:45.960
+So, you know, again, the ethical
+principles from where machine learning
+
+00:30:46.240 --> 00:30:47.040
+speaks to that.
+
+00:30:47.040 --> 00:30:50.480
+And I think that we may by identifying
+some content
+
+00:30:50.480 --> 00:30:52.680
+that we need to add to that.
+
+00:30:53.960 --> 00:30:58.560
+So moving on to what we can do about that,
+you know,
+
+00:30:58.560 --> 00:31:02.280
+I do believe that it's within the scope
+of the Web accessibility initiative
+
+00:31:02.560 --> 00:31:05.640
+or the W3C to provide guidance
+
+00:31:05.640 --> 00:31:10.680
+in some form
+about how AI and accessibility
+
+00:31:10.680 --> 00:31:13.320
+should work together,
+addressing many of these things.
+
+00:31:14.640 --> 00:31:16.600
+You know, typically this sort of thing
+
+00:31:16.600 --> 00:31:19.800
+would be a working group
+node, which means that it's a
+
+00:31:21.000 --> 00:31:23.000
+it is a a formal document
+
+00:31:23.520 --> 00:31:27.040
+published by the W3C
+that's had a certain level of review.
+
+00:31:27.600 --> 00:31:30.120
+There's even opportunities for versions
+
+00:31:30.120 --> 00:31:32.880
+that have had more review and signoff.
+
+00:31:33.480 --> 00:31:35.680
+So I think that's one thing
+we might like to do.
+
+00:31:36.320 --> 00:31:39.000
+I'll also talk briefly about the work
+that we're doing
+
+00:31:39.000 --> 00:31:42.000
+on the Web content accessibility guidelines
+
+00:31:42.000 --> 00:31:45.200
+3.0 sorry, the W3C accessibility
+
+00:31:45.200 --> 00:31:48.520
+guidelines 3
+
+00:31:48.520 --> 00:31:50.600
+or WCAG 3.
+
+00:31:50.600 --> 00:31:54.360
+We it's a it's
+a substantial re-envisioning
+
+00:31:54.360 --> 00:31:59.000
+and it's been a core requirement
+
+00:31:59.000 --> 00:32:01.680
+from the beginning
+that we wanted to address, you know,
+
+00:32:03.000 --> 00:32:06.120
+addressed equity in the approach,
+in the guidelines.
+
+00:32:06.120 --> 00:32:09.280
+How are we going to make sure that they're
+equitable to people with disabilities?
+
+00:32:09.520 --> 00:32:13.120
+We've been exploring that in specific ways
+and within the working group,
+
+00:32:13.960 --> 00:32:16.480
+really unpacking that to understand,
+
+00:32:16.640 --> 00:32:19.560
+you know, the relationship of equity
+and accessibility and bias.
+
+00:32:19.560 --> 00:32:20.800
+And in the other dimension.
+
+00:32:20.800 --> 00:32:25.360
+So that's turning, you know,
+we're connecting that with other work
+
+00:32:25.360 --> 00:32:31.480
+W3C has been doing to make itself
+a more equitable organization.
+
+00:32:31.480 --> 00:32:36.120
+And so, you know, this is to say
+that I believe WCAG 3,
+
+00:32:36.560 --> 00:32:40.120
+will also have some structure
+built in and support resources,
+
+00:32:40.120 --> 00:32:43.920
+addressing issues of bias specifically.
+
+00:32:45.040 --> 00:32:47.320
+Now, these are
+
+00:32:47.480 --> 00:32:50.880
+hopes, not promises, but you know,
+
+00:32:51.480 --> 00:32:54.240
+that's the direction from activities
+like this.
+
+00:32:56.280 --> 00:32:57.120
+Thank you so much.
+
+00:32:57.120 --> 00:33:01.200
+And yes, those are really
+some exciting avenues that we
+
+00:33:01.440 --> 00:33:05.400
+we hope that can come to fruition
+in the near future.
+
+00:33:06.360 --> 00:33:08.640
+So I guess final question
+
+00:33:08.640 --> 00:33:12.800
+for everyone, and it is
+
+00:33:13.640 --> 00:33:18.080
+I would like to know a bit
+about your future perspectives on the use
+
+00:33:18.080 --> 00:33:23.800
+of natural language processing for the field
+or in the field of accessibility.
+
+00:33:24.360 --> 00:33:27.200
+And I'll start with you this time, Amy.
+
+00:33:30.920 --> 00:33:33.680
+Yeah,
+So I think this is a really exciting area.
+
+00:33:33.680 --> 00:33:39.200
+And one thing, one one shift
+I've found recently among people in NLP
+
+00:33:39.240 --> 00:33:42.960
+who I talked to is that, you know, as
+the models are getting better
+
+00:33:42.960 --> 00:33:47.880
+at just creating like fluent, fluent text
+that looks reasonable,
+
+00:33:48.240 --> 00:33:49.120
+that lot of people
+
+00:33:49.120 --> 00:33:52.920
+are becoming more interested in
+what are the actual applications of this
+
+00:33:52.920 --> 00:33:56.560
+and how can we build tools
+that actually support those applications
+
+00:33:56.720 --> 00:33:59.440
+rather than relying
+on, you know, automated metrics for,
+
+00:34:00.360 --> 00:34:03.520
+but that might not,
+you know, capture people's experiences.
+
+00:34:03.520 --> 00:34:08.520
+So I wanted to to note
+that that's a direction I found exciting.
+
+00:34:08.520 --> 00:34:12.800
+So I guess a couple a couple of things
+I think could be promising are
+
+00:34:13.200 --> 00:34:17.600
+and I've kind of mentioned them before
+in my other in my other responses, But,
+
+00:34:17.960 --> 00:34:23.040
+you know, as gain the ability to describe
+more and more about the image, I,
+
+00:34:23.240 --> 00:34:28.680
+I think that NLP can provide
+a really good opportunity to personalize
+
+00:34:29.040 --> 00:34:33.480
+those descriptions based on the person
+and what they want as well as the context
+
+00:34:33.680 --> 00:34:34.080
+there is.
+
+00:34:34.080 --> 00:34:35.760
+You know,
+if you think about walking in a room,
+
+00:34:35.760 --> 00:34:38.720
+there's like so much
+you could possibly describe.
+
+00:34:38.720 --> 00:34:41.720
+If we can make it easier for people
+to get the information that they're
+
+00:34:41.720 --> 00:34:46.360
+looking for quickly
+from their media, that that would be a
+
+00:34:47.560 --> 00:34:48.840
+a great improvement.
+
+00:34:48.840 --> 00:34:52.320
+You know, combining computer vision
+to recognize things
+
+00:34:52.320 --> 00:34:56.640
+in the underlying image
+and using something like NLP to
+
+00:34:57.520 --> 00:35:01.680
+to summarize that description
+I think is is promising and exciting.
+
+00:35:02.120 --> 00:35:04.120
+And one other way
+I think I'm excited about
+
+00:35:04.120 --> 00:35:09.080
+it is in its opportunities to maybe help
+people with their own description tasks.
+
+00:35:09.080 --> 00:35:12.600
+So when we have humans
+working on descriptions, it's really hard.
+
+00:35:13.400 --> 00:35:16.360
+So, you know, novices
+sometimes have a hard time remembering
+
+00:35:16.360 --> 00:35:18.560
+and applying the guidelines that exist.
+
+00:35:18.560 --> 00:35:23.280
+You know, maybe we could rewrite people's
+descriptions of videos to be more in line
+
+00:35:23.280 --> 00:35:24.760
+with how an expert would write them
+
+00:35:24.760 --> 00:35:28.560
+by making them more concise
+or changing the grammar a bit
+
+00:35:28.560 --> 00:35:32.640
+so that it fits what people are expecting
+from their guidelines.
+
+00:35:32.640 --> 00:35:36.480
+Or we might alert people
+to aspects of their own descriptions
+
+00:35:36.480 --> 00:35:39.920
+that that might need to
+that could be changed a little bit
+
+00:35:39.920 --> 00:35:44.480
+to perhaps reduce something like bias
+that they have in the description.
+
+00:35:44.480 --> 00:35:47.280
+So I think there's there's really lots
+of exciting opportunities
+
+00:35:47.280 --> 00:35:50.680
+in terms of authoring descriptions
+as well as making those end descriptions
+
+00:35:50.680 --> 00:35:51.640
+a little bit better. Yeah.
+
+00:35:53.280 --> 00:35:53.760
+Great.
+
+00:35:53.760 --> 00:35:54.120
+Yeah.
+
+00:35:54.120 --> 00:35:58.120
+Thanks a lot. Shivam?
+
+00:35:58.120 --> 00:35:59.800
+Yeah, so
+
+00:36:00.080 --> 00:36:04.200
+I see it a bit of more it now
+rather than earlier,
+
+00:36:04.600 --> 00:36:07.040
+because now the models,
+the engines are quite advanced
+
+00:36:08.040 --> 00:36:10.040
+so I see a good context
+
+00:36:10.040 --> 00:36:13.960
+aware solution that gives you faster
+processing some efficient data.
+
+00:36:13.960 --> 00:36:14.440
+Right.
+
+00:36:14.440 --> 00:36:17.840
+And that works on text, video
+and as well as audio.
+
+00:36:17.840 --> 00:36:20.400
+So I see this happening to be a reality.
+
+00:36:21.360 --> 00:36:23.400
+A good use case
+I would have been following up
+
+00:36:23.400 --> 00:36:27.280
+also is how we can make
+the academic textbooks.
+
+00:36:27.280 --> 00:36:29.920
+And we have academic
+assignments, right?
+
+00:36:29.920 --> 00:36:33.600
+There are multiple charts,
+bar chart graphs, all associated data.
+
+00:36:33.920 --> 00:36:38.360
+If some of these models or technologies
+can create better
+
+00:36:39.120 --> 00:36:42.120
+understanding of those things,
+it would help a lot of
+
+00:36:43.160 --> 00:36:46.960
+people in understanding that
+we have difficulty just by reading it.
+
+00:36:46.960 --> 00:36:50.400
+Or maybe in absence of good quality
+
+00:36:50.680 --> 00:36:53.320
+descriptions of these charts, bars
+and all those things.
+
+00:36:53.600 --> 00:36:55.840
+I see this happening in the next
+few years.
+
+00:36:56.320 --> 00:36:58.720
+A better description of the generation.
+
+00:36:59.080 --> 00:37:02.400
+And as a closing comment, I would say
+there are different types of consumers
+
+00:37:02.760 --> 00:37:05.880
+of media that some can easily read
+but not comprehend.
+
+00:37:05.880 --> 00:37:09.440
+Some comprehend easily,
+but have difficulty consuming,
+
+00:37:09.720 --> 00:37:11.200
+consuming it visually.
+
+00:37:11.200 --> 00:37:16.080
+Now in that sense, the coming NLP
+technologies would help designers
+
+00:37:16.080 --> 00:37:19.920
+have contextual description of outputs
+and that I would see in simple terms.
+
+00:37:20.280 --> 00:37:25.000
+If you give me a simple, efficient faster
+output of a media and it's correct,
+
+00:37:25.000 --> 00:37:29.080
+then it will be the pinnacle 
+of what I see as the NLP.
+
+00:37:29.360 --> 00:37:32.440
+And these are for natural language
+processing understanding
+
+00:37:32.560 --> 00:37:37.200
+as well as generation
+for all key technologies.
+
+00:37:37.200 --> 00:37:38.200
+Thank you so much.
+
+00:37:38.200 --> 00:37:40.560
+It's exciting times ahead. Definitely.
+
+00:37:41.400 --> 00:37:43.680
+Michael, you want to share your vision.
+
+00:37:46.120 --> 00:37:49.920
+So based on my knowledge of
+
+00:37:50.560 --> 00:37:52.800
+how machine learning
+in the present day works,
+
+00:37:54.360 --> 00:37:56.720
+you know, the tools tend to be more
+
+00:37:56.720 --> 00:38:00.120
+focused on specific abilities,
+
+00:38:00.120 --> 00:38:02.760
+which means that the context is a bit
+isolated.
+
+00:38:03.680 --> 00:38:09.840
+So I think I'm speaking as a as a person
+working the field,
+
+00:38:09.840 --> 00:38:13.600
+identifying a need rather than something
+that may necessarily be a technological
+
+00:38:15.360 --> 00:38:16.640
+potential.
+
+00:38:16.640 --> 00:38:20.400
+But the Internet of Things used as APIs
+
+00:38:20.400 --> 00:38:23.520
+to exchange data
+between different types of devices.
+
+00:38:24.160 --> 00:38:27.640
+And if we could model some structure
+like that so that these tools
+
+00:38:27.640 --> 00:38:32.280
+could share contexts with each other
+and negotiate a better group description,
+
+00:38:32.520 --> 00:38:35.800
+I think that that might be an opportunity
+for an early
+
+00:38:37.160 --> 00:38:39.960
+evolution of this field.
+
+00:38:39.960 --> 00:38:41.560
+You know, the long term, of course,
+
+00:38:41.560 --> 00:38:45.920
+I think tools will emerge
+with greater sense of context built in,
+
+00:38:46.960 --> 00:38:49.400
+but that'll probably be, you know, another
+
+00:38:49.400 --> 00:38:52.400
+tier slash singularity or whatever.
+
+00:38:52.960 --> 00:38:56.520
+So yeah, that's my view on that near term future
+based on my knowledge.
+
+00:38:57.800 --> 00:38:58.520
+Yeah.
+
+00:38:58.920 --> 00:39:01.400
+Good, good suggestions too to look at
+
+00:39:01.400 --> 00:39:04.760
+also. And Shaomei?
+
+00:39:04.760 --> 00:39:05.600
+Yeah.
+
+00:39:05.600 --> 00:39:08.120
+So yeah. So
+
+00:39:08.720 --> 00:39:10.680
+looking into the future
+
+00:39:10.680 --> 00:39:13.760
+I can see kind of two
+
+00:39:16.680 --> 00:39:22.080
+areas
+
+00:39:22.080 --> 00:39:26.720
+that I think
+will have a lot of potentials.
+
+00:39:26.760 --> 00:39:28.960
+And the first one it's from the
+
+00:39:30.840 --> 00:39:32.480
+technology
+
+00:39:33.240 --> 00:39:39.400
+perspective
+which I agree with Michael that I can see
+
+00:39:39.760 --> 00:39:42.480
+a lot of gain in kind of
+
+00:39:44.520 --> 00:39:47.640
+incorporating the context
+
+00:39:47.640 --> 00:39:50.040
+surrounding photos
+
+00:39:50.040 --> 00:39:53.720
+and by you know like taking advantage
+
+00:39:53.720 --> 00:39:56.480
+of the reason and,
+
+00:39:57.600 --> 00:39:59.800
+and progressing
+
+00:40:00.800 --> 00:40:05.680
+and deep learning models
+that kind of have
+
+00:40:05.680 --> 00:40:08.160
+what kind of math models are
+
+00:40:10.080 --> 00:40:14.720
+representations space
+So you know like we can embed both
+
+00:40:14.800 --> 00:40:18.680
+the kind of image
+as well as the kind of tags
+
+00:40:19.680 --> 00:40:21.840
+surrounding it and then
+
+00:40:21.840 --> 00:40:24.040
+and then add a kind of 
+
+00:40:24.320 --> 00:40:27.760
+metadata such as the author or the time
+
+00:40:27.760 --> 00:40:29.440
+when, you know,
+
+00:40:29.880 --> 00:40:35.520
+when the photo was taken,
+all kind of posted.
+
+00:40:35.520 --> 00:40:39.360
+So, you know, a lot of those
+can be kind of drawing in a kind of big
+
+00:40:40.040 --> 00:40:43.920
+represent patient space that kind of that
+
+00:40:44.960 --> 00:40:47.640
+provides a lot more than just kind of
+
+00:40:49.040 --> 00:40:50.400
+visual
+
+00:40:51.520 --> 00:40:53.800
+information alone.
+
+00:40:53.800 --> 00:40:57.760
+So I think that's a kind of big
+
+00:40:57.840 --> 00:40:59.840
+technology break
+
+00:40:59.840 --> 00:41:03.520
+through that we can see
+in the kind of near-term future.
+
+00:41:03.960 --> 00:41:08.960
+But the kind of second thing
+I think and more important to me
+
+00:41:08.960 --> 00:41:12.360
+is the kind of use case
+
+00:41:12.920 --> 00:41:15.000
+perspectives.
+
+00:41:15.000 --> 00:41:18.440
+I think right now
+when we think about all kind of talk
+
+00:41:18.440 --> 00:41:19.320
+about
+
+00:41:22.160 --> 00:41:24.360
+the media
+
+00:41:25.480 --> 00:41:27.520
+accessibility
+
+00:41:27.520 --> 00:41:30.920
+we are mostly kind of think
+about our consumption case,
+
+00:41:31.200 --> 00:41:34.720
+like how do I help some people
+who can not see to kind of
+
+00:41:35.640 --> 00:41:40.560
+to kind of consume photos that posted by
+
+00:41:42.000 --> 00:41:45.720
+others
+and mostly by kind of sighted folks.
+
+00:41:45.720 --> 00:41:49.920
+But I think it's equally important
+but largely kind of
+
+00:41:51.720 --> 00:41:54.000
+overlook is,
+
+00:41:54.000 --> 00:41:56.520
+is these kind of media
+
+00:41:57.600 --> 00:42:02.760
+creation
+
+00:42:03.680 --> 00:42:06.440
+use cases, you know, like
+how can we support
+
+00:42:07.680 --> 00:42:10.000
+people with visual
+
+00:42:10.320 --> 00:42:12.960
+impairment to kind of
+
+00:42:13.600 --> 00:42:19.080
+create and kind of share photos and videos
+
+00:42:20.440 --> 00:42:22.800
+in my own work into, you know,
+
+00:42:22.960 --> 00:42:26.000
+these use cases, which is why you know
+
+00:42:27.240 --> 00:42:30.000
+there's like such a gap in what
+the kind of
+
+00:42:31.800 --> 00:42:34.120
+current technology can do.
+
+00:42:34.120 --> 00:42:37.360
+For example one like all a kind of modern
+
+00:42:38.520 --> 00:42:41.720
+AI models really failed
+
+00:42:41.720 --> 00:42:45.120
+when it came to processing photos
+
+00:42:46.280 --> 00:42:52.200
+taken by people
+with visual impairments
+
+00:42:53.320 --> 00:42:56.840
+because they are
+just not the same kind of photo that are used to
+
+00:42:56.880 --> 00:43:00.080
+train those
+
+00:43:00.080 --> 00:43:01.360
+models.
+
+00:43:01.360 --> 00:43:06.000
+So, you know, there's a huge gap in
+what kind of current like the kind of
+
+00:43:07.240 --> 00:43:09.080
+fundamentals of
+
+00:43:09.080 --> 00:43:11.760
+those models and then what they can do.
+
+00:43:12.000 --> 00:43:15.840
+And then second is
+there is a lot need for more
+
+00:43:17.640 --> 00:43:20.560
+personalized and
+
+00:43:20.920 --> 00:43:24.600
+and aesthetic needs.
+
+00:43:24.920 --> 00:43:27.920
+Right after I take ten
+
+00:43:28.840 --> 00:43:31.960
+selfies, I wanna find out why
+
+00:43:32.200 --> 00:43:35.800
+I wanna post that kind of share who I am
+
+00:43:36.440 --> 00:43:40.320
+and that it's or
+it's like we cannot do at all.
+
+00:43:40.320 --> 00:43:46.080
+We can, you know we can kind of tell
+you're like, okay, you'll have ten
+
+00:43:47.120 --> 00:43:50.680
+photos
+and are kind of containing your face,
+
+00:43:51.600 --> 00:43:53.760
+but you know but, but,
+
+00:43:54.400 --> 00:43:59.880
+but then how like,
+how can we change kind of the models
+
+00:43:59.880 --> 00:44:04.400
+that can really represent somebody's
+space and then, you know,
+
+00:44:04.440 --> 00:44:09.240
+somebody’s kind of aesthetics
+and I think that's another interesting
+
+00:44:10.560 --> 00:44:11.840
+future
+
+00:44:12.280 --> 00:44:14.640
+development that I want to see.
+
+00:44:15.680 --> 00:44:17.840
+So that's all.
+
+00:44:17.840 --> 00:44:19.400
+Thank you so much, Shaomei.
+
+00:44:19.400 --> 00:44:23.960
+And I think we
+we only have 4 minutes more.
+
+00:44:23.960 --> 00:44:26.800
+So I won’t risk another question
+
+00:44:27.520 --> 00:44:31.160
+because we need to
+to to end at the top of the hour.
+
+00:44:31.560 --> 00:44:36.240
+And so I will take the opportunity
+to once again, thanks
+
+00:44:36.680 --> 00:44:42.360
+thank our our panelists and I hope
+everyone enjoyed it as much as I did.
+
+00:44:42.360 --> 00:44:43.080
+And it was
+
+00:44:44.280 --> 00:44:45.480
+really interesting
+
+00:44:45.480 --> 00:44:51.880
+and very, very optimistic perspectives
+so that
+
+00:44:53.240 --> 00:44:56.600
+we can see that's not just the, uh, the,
+
+00:44:56.960 --> 00:45:00.200
+um, risky, uh,
+
+00:45:00.360 --> 00:45:05.400
+or risk enabling, uh, outputs that A.I.
+
+00:45:05.400 --> 00:45:06.040
+can have.
+
+00:45:06.040 --> 00:45:09.160
+So it's nice to,
+to have these perspectives.
+
+00:45:09.160 --> 00:45:10.600
+So thank you once again.
+
+00:45:10.600 --> 00:45:15.720
+So Shaomei, Shivam, Amy and Michael,
+it was brilliant to have you here,
+
+00:45:17.160 --> 00:45:19.880
+and thanks
+
+00:45:19.880 --> 00:45:21.200
+who attended.
+

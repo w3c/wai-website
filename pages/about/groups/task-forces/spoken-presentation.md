@@ -34,11 +34,11 @@ Find out about the activities of the Spoken Presentation (previously known as Pr
 
 ## Objectives
 
-The Spoken Presentation Task Force develops normative specifications and best practice guidance that provides author-controlled markup to define precise pronunciation across environments when content authors need certainty, as opposed to cross-platform heuristic variability.
+The Spoken Presentation Task Force develops normative specifications and guidance for author-controlled pronunciation across environments, including assistive technology (AT), as opposed to relying on platform heuristics.
 
 ## Work statement
 
-To learn about the focus, scope and deliverables of the task force, see the [Spoken Presentation Task Force Work Statement](/about/groups/task-forces/spoken-presentation/work-statement/).
+To learn about the focus, scope, and deliverables of the task force, see the [Spoken Presentation Task Force Work Statement](/about/groups/task-forces/spoken-presentation/work-statement/).
 
 ## Current work
 
@@ -46,8 +46,8 @@ The Spoken Presentation Task Force supports the deliverables of the [Accessible 
 
 For details of the current work, see:
 
-* [Spoken Presentation Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
 * [Spoken Presentation Task Force current work](https://github.com/w3c/pronunciation/blob/master/README.md)
+* [Spoken Presentation Task Force wiki](https://github.com/w3c/pronunciation/wiki/)
 
 For more information on the spoken presentation work, see:
 
@@ -62,11 +62,11 @@ The Spoken Presentation Task Force welcomes input from individuals and organizat
 
 You can contribute to the work without being a member of the task force:
 
-- **Draft Accessibility Maturity Model resources:** Review and provide feedback on drafts that are still being developed.
-- **Open Accessibility Maturity Model issues:** Comment on or propose solutions for open issues.
-- **Published Accessibility Maturity Model resources:** Let us know if there is a new issue with any of these.
+- **Draft Spoken Presentation resources:** Review and provide feedback on drafts that are still being developed.
+- **Open Spoken Presentation issues:** Comment on or propose solutions for open issues.
+- **Published Spoken Presentation resources:** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [Pronunciation GitHub repository](https://github.com/w3c/pronunciation/issues) or email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs).
+Comment or raise a new issue in the [Pronunciation GitHub repository](https://github.com/w3c/pronunciation/issues) or [email the task force](mailto:public-pronunciation@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -106,14 +106,16 @@ The Spoken Presentation Task Force develops and maintains the following resource
 * [Pronunciation Gap Analysis and Use Cases &mdash; Working Draft](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/) (and latest [Editor’s Draft](https://w3c.github.io/pronunciation/gap-analysis_and_use-case/)) &mdash; provides details of the gap analysis:
     - gives more contextual details
     - describes required features for pronunciation and spoken presentation
-    - describes specific implementation approaches for introducing presentation authoring markup into HTML5 (called “use cases”)
-    - provides a gap analysis
+    - provides a gap analysis of current and proposed technologies
     - describes how the required features may be met by existing approaches    
 * [Explainer: Improving Spoken Presentation on the Web &mdash; Working Draft](https://www.w3.org/TR/pronunciation-explainer/) (and latest [Editor’s Draft](https://w3c.github.io/pronunciation/explainer/)) &mdash; provides an overview of the work:
     - briefly introduces the context for W3C work on pronunciation
     - describes the advantages and disadvantages of two approaches
     - poses questions for additional input
 
-## Contact the chairs
 
-If you have a question for the Spoken Presentation Task Force, email the [chairs](https://www.w3.org/groups/tf/pronunciation-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).
+## Contact the task force
+
+If you have a question for the Spoken Presentation Task Force, [email the task force](mailto:public-pronunciation@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/pronunciation-tf/participants/#staff).

@@ -63,7 +63,7 @@ You can contribute to the work without being a member of the task force:
 - **Open WAI-Adapt issues:** Comment on or propose solutions for open issues.
 - **Published WAI-Adapt resources:** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [WAI-Adapt GitHub repository](https://github.com/w3c/adapt/issues) or email the [chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs).
+Comment or raise a new issue in the [WAI-Adapt GitHub repository](https://github.com/w3c/adapt/issues) or [email the task force](mailto:public-adapt@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -102,6 +102,8 @@ The WAI-Adapt Task Force develops and maintains the following resources for the 
 * [WAI-Adapt: Help and Support Module &mdash; Working Draft](https://www.w3.org/TR/adapt-help/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/help/)) &mdash; examples of the personalized help and support properties
 * [Requirements for WAI-Adapt specification &mdash; Group Draft Note](https://www.w3.org/TR/adapt-requirements/) (and latest [Editor’s Draft](https://w3c.github.io/adapt/requirements/) &mdash; user stories, specific use cases, and requirements for WAI-Adapt
 
-## Contact the chair
+## Contact the task force
 
-If you have a question for the WAI-Adapt Task Force, email the [chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/personalization-tf/participants/#staff).
+If you have a question for the WAI-Adapt Task Force, [email the task force](mailto:public-adapt@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/personalization-tf/participants/#staff).

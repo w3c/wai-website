@@ -4,4 +4,4 @@ Renders link to meeting minutes topic scraper.
 Expected input:
 - group - name of group, matching a key in _data/minutes/groups.json
 {% endcomment -%}
-<a href="https://www.w3.org/services/meeting-minutes?num=200&channels={{ site.data.minutes.groups[include.group] | join: ',' }}">meeting minutes</a>
+<a href="https://www.w3.org/services/meeting-minutes/{{ site.data.minutes.groups[include.group] | join: ',' }}/?num=200">meeting minutes</a>

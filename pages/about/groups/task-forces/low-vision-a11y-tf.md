@@ -58,7 +58,7 @@ The LV Task Force welcomes input from individuals and organizations around the w
 
 You can contribute to the work without being a member of the task force.
 
-If you’re aware of an issue with any of the published low vision accessibility resources, email [public-low-vision-a11y-tf@w3.org](mailto:public-low-vision-a11y-tf@w3.org).
+If you’re aware of an issue with any of the published low vision accessibility resources, email [public-low-vision-a11y-tf@w3.org](mailto:public-low-vision-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -79,6 +79,8 @@ Details of how to join the LV Task Force will be published here when it is react
 
 The LV Task Force develops and maintains the following resource for the AG Working Group: [Accessibility Requirements for People with Low Vision — Working Draft](https://www.w3.org/TR/low-vision-needs/) (and latest [Editor’s Draft](https://w3c.github.io/low-vision-a11y-tf/requirements.html)).
 
-## Contact the chairs
+## Contact the task force
 
-If you have a question for the LV Task Force, email the [chairs](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#staff).
+If you have a question for the LV Task Force, [email the task force](mailto:public-low-vision-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#staff).

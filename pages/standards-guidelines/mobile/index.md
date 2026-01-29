@@ -60,16 +60,16 @@ W3C provides specific guidance on mobile accessibility:
 {% include_cached toc.html type="end" %}
 {:/}
 
-## More than "mobile" {#intro}
+## More than ‘mobile’ {#intro}
 
-"Mobile accessibility" refers to making websites and applications more accessible to people with disabilities when they are using mobile phones and other devices. WAI's work in this area addresses accessibility issues of people using a broad range of devices to interact with the web, including:
+‘Mobile accessibility’ refers to making websites and applications more accessible to people with disabilities when they are using mobile phones and other devices. WAI's work in this area addresses accessibility issues of people using a broad range of devices to interact with the web, including:
 
 -   phones and tablets
 -   digital TVs
 -   wearables such as smart watches
 -   devices in car dashboards and airplane seatbacks
 -   devices in household appliances
--   other "Internet of Things"
+-   other ‘Internet of Things’
 
 It addresses a wide range of issues, including:
 
@@ -83,15 +83,15 @@ It addresses a wide range of issues, including:
 
 ### W3C standards and mobile accessibility
 
-W3C's accessibility standards address mobile accessibility. There are four standards:
+W3C accessibility standards address mobile accessibility. There are four accessibility standards:
 
 -   **Web Content** Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) &mdash; covers web pages and web applications, including content used on mobile devices:
     -   To learn how WCAG 2 can be applied to mobile web content, mobile web apps, native apps, and hybrid apps using web components inside native apps, see:
         - [Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile)](https://www.w3.org/TR/wcag2mobile-22/)
         - [Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply to Mobile](https://www.w3.org/TR/mobile-accessibility-mapping/) &mdash; the previous resource for WCAG 2.0
         - [WCAG2ICT: Applying WCAG 2 to Non-Web Information and Communications Technologies](/standards-guidelines/wcag/non-web-ict/) &mdash; a more general resource that also includes mobile apps
-        - [[What’s New in WCAG 2.1]](/standards-guidelines/wcag/new-in-21/) and [[What’s New in WCAG 2.2]](/standards-guidelines/wcag/new-in-22/) &mdash; introduce requirements ("success criteria") addressing mobile accessibility that have been added to WCAG 2.1 and WCAG 2.2
--   **User Agent** Accessibility Guidelines ([UAAG](/standards-guidelines/uaag/)) covers web browsers and other “user agents”, including mobile browsers:
+        - [[What’s New in WCAG 2.1]](/standards-guidelines/wcag/new-in-21/) and [[What’s New in WCAG 2.2]](/standards-guidelines/wcag/new-in-22/) &mdash; introduce requirements (‘success criteria’) addressing mobile accessibility that have been added to WCAG 2.1 and WCAG 2.2
+-   **User Agent** Accessibility Guidelines ([UAAG](/standards-guidelines/uaag/)) covers web browsers and other ‘user agents’, including mobile browsers:
     -   [Mobile Accessibility Examples from UAAG](https://www.w3.org/TR/IMPLEMENTING-UAAG20/mobile) &mdash; contains examples of how web browsers that follow UAAG benefit people with disabilities who use the web on mobile devices 
     -   [Applying UAAG to Mobile Phones](https://www.w3.org/WAI/UA/work/wiki/Applying_UAAG_to_Mobile_Phones) &mdash; explores the issues with user agents 
 -   **Authoring Tool** Accessibility Guidelines ([ATAG](/standards-guidelines/atag/)) &mdash; covers software used to create web pages and applications, including for mobile
@@ -99,7 +99,7 @@ W3C's accessibility standards address mobile accessibility. There are four stand
 
 ### W3C technologies and mobile accessibility
 
-In addition to ensuring mobile is addressed in W3C’s accessibility standards, WAI ensures that the core W3C technologies, including those that are essential for the mobile web, also support accessibility. All W3C work is reviewed for accessibility by WAI's [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/).
+In addition to ensuring mobile is addressed in W3C’s accessibility standards, WAI ensures that the core W3C technologies, including those that are essential for the mobile web, also support accessibility. All W3C work is reviewed for accessibility by the [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/).
 
 For a summary of technologies developed in W3C that increase the capabilities of web applications and how they apply specifically to the mobile context, see [Standards for Web Applications on Mobile](https://www.w3.org/Mobile/mobile-web-app-state/).
 
@@ -112,7 +112,7 @@ For more on W3C best practices for mobile accessibility, see:
 
 ## Get updates {#updates}
 
-To be notified about future work on mobile accessibility at W3C, see [[Get WAI News]](/news/subscribe/).
+To be notified about future work on mobile accessibility at W3C, see [[Subscribe to WAI News]](/news/subscribe/).
 
 ## Get involved {#involved}
 
@@ -120,6 +120,6 @@ Most of WAI's work related to mobile accessibility is through the [Mobile Access
 
 ## About W3C and WAI {#about}
 
-The World Wide Web Consortium (W3C) is an international consortium where Member organizations, a full-time staff, and the public work together to develop Web standards. W3C primarily pursues its mission through the creation of Web standards and guidelines designed to ensure long-term growth for the Web. To learn more, see [About W3C](https://www.w3.org/about/).
+The World Wide Web Consortium (W3C) is an international consortium where Member organizations, a full-time staff, and the public work together to develop web standards. W3C primarily pursues its mission through the creation of web standards and guidelines designed to ensure long-term growth for the web. To learn more, see [About W3C](https://www.w3.org/about/).
 
-W3C's Web Accessibility Initiative (WAI) brings together individuals and organizations from around the world to develop strategies, guidelines, and resources to help make the Web accessible to people with disabilities. To learn more, see the [WAI website](https://www.w3.org/WAI/).
+W3C's Web Accessibility Initiative (WAI) brings together individuals and organizations from around the world to develop strategies, guidelines, and resources to help make the web accessible to people with disabilities. To learn more, see the [WAI website](https://www.w3.org/WAI/).

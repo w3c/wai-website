@@ -88,7 +88,7 @@ Learn more {#resources}
     -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
     -   [Preety, middle school student with attention deficit hyperactivity disorder and dyslexia](/people-use-web/user-stories/archived/#classroomstudent)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "text"](https://www.w3.org/WAI/WCAG21/quickref/?tags=text)
+    -   [Success Criteria relating to "text"](https://www.w3.org/WAI/WCAG22/quickref/?tags=text)
 -   **User Agent Accessibility Guidelines ([UAAG
     Overview](/standards-guidelines/uaag/)):**
     -   [Provide text configuration](https://www.w3.org/TR/2015/NOTE-UAAG20-20151215/#gl-text-config)

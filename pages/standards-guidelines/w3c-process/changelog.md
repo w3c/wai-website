@@ -12,6 +12,10 @@ permalink: /standards-guidelines/w3c-process/changelog/
 ref: /standards-guidelines/w3c-process/changelog/
 ---
 
+## 19 August 2025
+
+- In the [“Milestones” section](/standards-guidelines/w3c-process/#milestones): Removed Step 4.
+- Minor editorial updates
 
 ## 9 July 2025
 

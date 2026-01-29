@@ -61,7 +61,8 @@ You can contribute to the work without being a member of the task force:
 - **Open COGA issues:** Comment on or propose solutions for open issues.
 - **Published COGA resources:** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [COGA GitHub repository](https://github.com/w3c/coga/issues) or email the [chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs).
+Comment or raise a new issue in the [COGA GitHub repository](https://github.com/w3c/coga/issues) or [email the task force](mailto:public-cognitive-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+
 
 ### Become a participant in the task force
 
@@ -102,6 +103,8 @@ The COGA Task Force has developed the following resources for the AG and APA wor
 * [Cognitive Accessibility Roadmap and Gap Analysis &mdash; Working Draft](https://www.w3.org/TR/coga-gap-analysis/) (and latest [Editor’s Draft](https://w3c.github.io/coga/gap-analysis/))
 * [Cognitive Accessibility Issue Papers &mdash; Editor’s Draft](https://w3c.github.io/coga/issue-papers/)
 
-## Contact the chair
+## Contact the task force
 
-If you have a question for the COGA Task Force, email the [chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs) or the [W3C staff contact](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#staff).
+If you have a question for the COGA Task Force, [email the task force](mailto:public-cognitive-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+
+Alternatively, you can email the [W3C staff contact](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#staff).

@@ -95,7 +95,7 @@ Plus d’informations {#resources}
 -  **Témoignage d’utilisateur :**
   -  [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
 -  **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
-  -  [Critères de succès relatifs aux « sous-titres »](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
+  -  [Critères de succès relatifs aux « sous-titres »](https://www.w3.org/WAI/WCAG22/quickref/?tags=captions)
 -  **Applicabilité mobile :**
   -  [Contenu multimédia sans sous-titres](https://www.w3.org/WAI/mobile/experiences.html#multimedia)
 
