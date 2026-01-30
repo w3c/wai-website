@@ -143,6 +143,7 @@
   name:
     en: "Web Accessibility Perspectives: Keyboard Compatibility"
     fr: "L'accessibilité Web illustrée : compatibilité avec le clavier"
+    zh-hans: "键盘兼容性"
   main-page: /perspective-videos/keyboard/
   path: perspective-videos
   lang-folder: true
@@ -152,14 +153,18 @@
     - en
   subtitles:
     - fr
+    - zh-hans
   subtitles-ad:
     - fr
+    - zh-hans
   descriptions:
     - en
     - fr
+    - zh-hans
   descriptions-ad:
     - en
     - fr
+    - zh-hans
 - id: layout
   name:
     en: "Web Accessibility Perspectives: Clear Layout and Design"
