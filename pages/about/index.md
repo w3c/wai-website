@@ -3,7 +3,7 @@ title: "About W3C WAI"
 permalink: /about/
 ref: /about/
 lang: en
-last_updated: 2025-08-06
+last_updated: 2026-01-30
 feedbackmail: wai@w3.org
 class: tight-page
 github:
@@ -92,7 +92,7 @@ The WAI vision is that the web and related technologies are accessible so that a
 
 Broad vision is in [Vision for W3C](https://www.w3.org/TR/w3c-vision/).
 
-### High-Level Objectives
+### High-level objectives
 
 To contribute to realizing the vision, W3C addresses the following areas:
 
@@ -115,24 +115,24 @@ To contribute to realizing the vision, W3C addresses the following areas:
    - Encourage effective international research to provide a solid basis for accessibility standards.
    - Conduct horizon scanning.
 
-## Current Work and News
+## Current work and news
 
 Current work is introduced in [What We're Working On - Accessibility Activities and Publications](https://www.w3.org/WAI/update/).
 
 New WAI publications, draft documents for review, and other WAI announcements are listed on the [News page](https://www.w3.org/WAI/news/).
 
-You can get news announcements via e-mail, Atom/RSS feed, and social media from [Subscribe to WAI News](https://www.w3.org/WAI/news/subscribe/).
+You can get news announcements via email, Atom/RSS feed, and social media from [Subscribe to WAI News](https://www.w3.org/WAI/news/subscribe/).
 
-## WAI Groups
+## WAI groups
 
 WAI includes the following working groups and interest group:
 
 -   [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly the Web Content Accessibility Guidelines Working Group)
 -   [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/)
 -   [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/)
--   [WAI Interest Group (WAI IG)](/about/groups/waiig/) hosts an e-mail discussion list that is open to anyone
+-   [WAI Interest Group (WAI IG)](/about/groups/waiig/) hosts an email discussion list that is open to anyone
 
-### W3C Community Groups
+### W3C community groups
 
 W3C Community Groups cover a variety of topics. **Anyone can join Community Groups**, after getting a free W3C account and signing the W3C Community Contributor License Agreement. Of the long [list of Community Groups](https://www.w3.org/community/groups/), here are some that are actively seeking contributors:
 <!-- * ARR -->
@@ -141,9 +141,7 @@ W3C Community Groups cover a variety of topics. **Anyone can join Community Grou
 * [Cognitive Accessibility CG](https://www.w3.org/community/coga-community/)
 <!-- * [Low Vision CG](https://www.w3.org/community/low-vision/) -->
 
-Learn more about [Participating in WAI](https://www.w3.org/WAI/about/participating/).
-
-## WAI Staff
+## WAI staff
 
 * [Shawn Lawton Henry](https://www.w3.org/staff/#shawn) — Director, Web Accessibility Initiative (WAI) — leads the WAI program, education, communications, community and global outreach, development, and stakeholder engagement in W3C accessibility activities.
 * [Kevin White](https://www.w3.org/staff/#kevin) — Senior Principal Accessibility Specialist — leads W3C accessibility technical work, oversees accessibility working groups, and supports the Accessibility Guidelines Working Group that develops Web Content Accessibility Guidelines (WCAG).
@@ -153,4 +151,4 @@ Learn more about [Participating in WAI](https://www.w3.org/WAI/about/participati
 * [Tamsin Ewing](https://www.w3.org/staff/#tamsin) — Senior Accessibility Content Specialist — supports accessibility communications, educational resources, and working group deliverables.
 * [Rémi Bétin](https://www.w3.org/staff/#remibetin) — Senior Project Manager, Web Accessibility Initiative (WAI) — supports WAI translations, WAI website processes, WAI training courses, and more.
 
-To reach all WAI staff, you can e-mail <wai@w3.org>.
+To contact WAI staff, email <wai@w3.org>.
