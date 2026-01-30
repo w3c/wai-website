@@ -121,7 +121,7 @@ Current work is introduced in [What We're Working On - Accessibility Activities 
 
 New WAI publications, draft documents for review, and other WAI announcements are listed on the [News page](https://www.w3.org/WAI/news/).
 
-You can get news announcements via e-mail, Atom/RSS feed, and social media from [Subscribe to WAI News](https://www.w3.org/WAI/news/subscribe/).
+You can get news announcements via email, Atom/RSS feed, and social media from [Subscribe to WAI News](https://www.w3.org/WAI/news/subscribe/).
 
 ## WAI groups
 
