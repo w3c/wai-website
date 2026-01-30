@@ -52,7 +52,7 @@ W3C Web Accessibility Initiative (WAI) develops material to help make the web ac
 **There are two conditions for using most WAI material**; you must:
 
 1.  clearly attribute the original source as specified below, and
-2.  not modify the content (with a few exceptions ,noted below).
+2.  not modify the content (with a few exceptions, noted below).
 
 See below for more details, including [**some specially marked material that you can modify for your use**](#cc).
 
