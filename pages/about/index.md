@@ -130,7 +130,7 @@ WAI includes the following working groups and interest group:
 -   [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly the Web Content Accessibility Guidelines Working Group)
 -   [Accessible Platform Architectures (APA) Working Group](/about/groups/apawg/)
 -   [Accessible Rich Internet Applications (ARIA) Working Group](/about/groups/ariawg/)
--   [WAI Interest Group (WAI IG)](/about/groups/waiig/) hosts an e-mail discussion list that is open to anyone
+-   [WAI Interest Group (WAI IG)](/about/groups/waiig/) hosts an email discussion list that is open to anyone
 
 ### W3C community groups
 
