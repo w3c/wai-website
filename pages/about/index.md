@@ -3,7 +3,7 @@ title: "About W3C WAI"
 permalink: /about/
 ref: /about/
 lang: en
-last_updated: 2026-01-29
+last_updated: 2026-01-30
 feedbackmail: wai@w3.org
 class: tight-page
 github:
