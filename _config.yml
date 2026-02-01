@@ -121,6 +121,7 @@ defaults:
       layout: "policy"
       github:
         repository: w3c/wai-policies-prototype
+        branch: master
       footer: |
         <p>Listings are updated regularly. Near the top of each country listing is a 'last updated' date. This user interface was updated 21 March 2018.</p>
         <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Britt Classen, Michel Hansma, Vera Lange, Eric Velleman. <strong>Previous Editors:</strong> Mary Jo Mueller, Robert Jolly, Eric Eggert, Judy Brewer, <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Previous contributors: Jennifer Sutton and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p>

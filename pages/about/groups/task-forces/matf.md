@@ -50,7 +50,7 @@ The Mobile A11y Task Force welcomes input from the global accessibility communit
 
 ### Contribute without joining the task force
 
-You can contribute to the work without being a member of the task force in the [Mobile A11y GitHub repository](https://github.com/w3c/Mobile-A11y-TF-Note/issues):
+You can contribute to the work without being a member of the task force in the [Mobile A11y GitHub repository](https://github.com/w3c/matf/):
 * If you’re aware of an issue with any of the published mobile accessibility resources, raise a new issue.
 * Comment on or propose solutions for open mobile accessibility issues.
 

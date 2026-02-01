@@ -93,7 +93,7 @@ To check other pages you need to add the ‘Check images’ link as a bookmark.
 ## Learn more
 
 * Story: [Someone relying on image alternative text to understand the page information](https://www.w3.org/WAI/people-use-web/user-stories/archived/#accountant)
-* Tip: [Write meaningful text alternatives for images](https://www.w3.org/WAI/tips/writing/#make-link-text-meaningful)
+* Tip: [Write meaningful text alternatives for images](https://www.w3.org/WAI/tips/writing/#write-meaningful-text-alternatives-for-images)
 * Tutorial: [Images](https://www.w3.org/WAI/tutorials/images/) in the W3C tutorials
 * [Understanding 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html)
 

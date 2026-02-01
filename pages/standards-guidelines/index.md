@@ -23,9 +23,7 @@ ref: /standards-guidelines/   # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not change the dates
-
-# Translate the other words below, including "Date:" and "Editor:"
+# Translate the words below, including "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>

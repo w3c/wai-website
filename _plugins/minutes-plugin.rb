@@ -15,7 +15,7 @@ module Jekyll
 
       rawData = nil
       begin
-        rawData = Net::HTTP.get(minutesUri)
+        rawData = Net::HTTP.get(minutesUri, {'User-Agent' => 'W3C/WAI Minutes Plugin'})
       rescue Exception => e
         Jekyll.logger.warn 'WARNING: Meeting minutes could not be fetched; skipping'
         return

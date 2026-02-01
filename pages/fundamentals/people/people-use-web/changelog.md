@@ -4,7 +4,7 @@ title: "Changelog for How People with Disabilities Use the Web"
 title_html: "Changelog for <a href='/WAI/people-use-web/'> How People with Disabilities Use the Web</a>"
 nav_title: "Changelog"
 lang: en
-last_updated: 2024-09-25
+last_updated: 2025-03-13
 
 permalink: /people-use-web/changelog/
 ref: /people-use-web/changelog/
@@ -14,6 +14,10 @@ github:
 
 feedbackmail: wai@w3.org
 ---
+
+## 13 March 2025
+
+- In [Stories of Web Users](https://www.w3.org/WAI/people-use-web/user-stories/) page, changed last bullet to: [Digital Accessibility User Requirements](/research/user-requirements/) links to documents that describe user needs in multimedia, virtual or immersive environments (XR), real-time communication (RTC), and more
 
 ## 25 June 2024
 
