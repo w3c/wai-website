@@ -138,8 +138,7 @@ Auditory disabilities range from mild or moderate hearing loss in one or both ea
 
 **Note:** The examples given in this section are not a complete list of all disabilities or barriers.
 
-
-## Introduction
+## Introduction {#introduction-extended}
 
 While multimedia provides many opportunities for people with auditory disabilities, it also poses challenges when content is not designed to be accessible. For example, while video content can be used to communicate information visually, audio content needs to have alternatives, such as transcripts and captions, so that it is accessible for people with auditory disabilities.
 

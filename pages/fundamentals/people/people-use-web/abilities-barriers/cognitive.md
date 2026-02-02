@@ -138,7 +138,7 @@ Cognitive and learning disabilities affect how people store, retrieve, or use in
 
 **Note:** The examples given in this section are not a complete list of all disabilities or barriers.
 
-## Introduction
+## Introduction {#introduction-extended}
 
 Cognitive and learning disabilities is an umbrella term for a large spectrum of differences and disabilities. They may affect the ability to:
 
