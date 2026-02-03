@@ -54,6 +54,7 @@ This page answers some frequently asked questions (FAQ) about WCAG. Let us know 
     <li><a href="#techsnot">What would be the negative consequences of allowing <em>only</em> W3C's published techniques to be used for conformance to WCAG 2?</a></li>
     <li><a href="#languages">Is WCAG 2 available in other languages?</a></li>
     <li><a href="#othertechs">Can I meet WCAG 2 with JavaScript and other technologies?</a></li>
+    <li><a href="#conformance">What is the difference between conformance and compliance?</a></li>
     <li><a href="#more">Where can I find answers to more of my questions?</a></li>
   </ul>
 {:toc}
@@ -230,6 +231,15 @@ WCAG 2 is designed to apply to a broad range of web technologies.
 
 [Techniques for WCAG 2](https://www.w3.org/WAI/WCAG21/Techniques/) has techniques for several different web technologies. *Note that publication of techniques for a specific technology does not imply that the technology can be used in all cases to create accessible content that meets WCAG 2.* Developers need to be aware of the limitations of specific technologies and ensure that they create content in a way that is accessible to all their potential users.
 
+## What is the difference between conformance and compliance? {#conformance}
+
+WCAG 2 provides information on what is [required for conformance](https://www.w3.org/TR/WCAG22/#conformance). Simply put, a web page will conform to WCAG 2 if it satisfies all the success criteria for the level claimed (Level A, AA, or AAA).
+
+Compliance relates to meeting policies and regulations.
+
+A policy or regulation may include all or parts of WCAG 2. This could mean that specific success criteria need not be satisfied in order to comply with the regulation. For example, alternative text may not be required for certain types of map.
+
+This means that a web page could *comply* with a regulation but not *conform* with WCAG 2.
 
 ## Where can I find answers to more of my questions? {#more}
 
