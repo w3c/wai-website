@@ -216,7 +216,7 @@ The [**WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator**]
 Who develops WCAG-EM {#wg}
 ---------------------------
 
-WCAG-EM is currently maintained by participants of the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/groups/wg/ag/).
+WCAG-EM is currently maintained by participants of the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/groups/wg/ag/)).
 
 WCAG-EM was originally developed by the WCAG 2.0 Evaluation Methodology Task Force ([Eval TF](https://www.w3.org/WAI/ER/2011/eval/eval-tf)), which was a joint task force of the Web Content Accessibility Guidelines Working Group ([WCAG WG](https://www.w3.org/WAI/GL/)) and Evaluation and Repair Tools Working Group ([ERT WG](https://www.w3.org/groups/wg/ertwg/)).
 
