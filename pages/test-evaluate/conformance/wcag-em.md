@@ -195,6 +195,19 @@ WCAG-EM provides guidance on using the methodology and considerations for specif
 
 WCAG-EM follows the W3C format for technical specifications which includes several sections at the beginning: links to different versions, editors, copyright, abstract, and status with the link to errata and the email address for comments. There is a link at the top to the Table of Contents.
 
+WCAG-EM 2.0 {#wcagem2}
+----------------------
+
+[WCAG-EM 2.0](https://w3.org/TR/WCAG-EM-2) is currently in draft and seeking wide feedback. It brings WCAG-EM up-to-date with updated references, examples, and definitions.
+
+The most prominent change is that the subject of evaluations changes from “websites” in 1.0 to “digital products” in 2.0. This allows evaluators to use the methodology for websites as well as apps and other digital products. 
+
+Feedback is welcomed. Editors specifically seek input on the following questions: 
+
+1. Are all digital products that evaluators commonly evaluate (because of regulation or otherwise) covered by this methodology, or are any explicitly excluded?
+2. Does the terminology of 'sample set' and 'sample' match how evaluators use it in their evaluations?
+3. Is this new version more useful for evaluators when they evaluate apps, given that there are legal requirements for apps in addition to websites in some jurisdictions?
+
 WCAG-EM Report Tool {#wert}
 ----------------------------
 
@@ -203,5 +216,7 @@ The [**WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator**]
 Who develops WCAG-EM {#wg}
 ---------------------------
 
-WCAG-EM is developed by the WCAG 2.0 Evaluation Methodology Task Force ([Eval TF](https://www.w3.org/WAI/ER/2011/eval/eval-tf)), which is a joint task force of the Web Content Accessibility Guidelines Working Group ([WCAG WG](https://www.w3.org/WAI/GL/)) and Evaluation and Repair Tools Working Group ([ERT WG](https://www.w3.org/WAI/ER/)). The Working Groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
+WCAG-EM is currently maintained by participants of the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/groups/wg/ag/).
+
+WCAG-EM was originally developed by the WCAG 2.0 Evaluation Methodology Task Force ([Eval TF](https://www.w3.org/WAI/ER/2011/eval/eval-tf)), which was a joint task force of the Web Content Accessibility Guidelines Working Group ([WCAG WG](https://www.w3.org/WAI/GL/)) and Evaluation and Repair Tools Working Group ([ERT WG](https://www.w3.org/groups/wg/ertwg/)).
 
