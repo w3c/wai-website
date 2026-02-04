@@ -205,4 +205,6 @@ Who develops WCAG-EM {#wg}
 
 WCAG-EM 2.0 is developed by the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/groups/wg/ag/)).
 
-WCAG-EM 1.0 was developed by the WCAG 2.0 Evaluation Methodology Task Force, which was a joint task force of the Web Content Accessibility Guidelines Working Group and Evaluation and Repair Tools Working Group. The groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
+WCAG-EM 1.0 was developed by the WCAG 2.0 Evaluation Methodology Task Force, which was a joint task force of the Web Content Accessibility Guidelines Working Group and Evaluation and Repair Tools Working Group.
+
+The groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
