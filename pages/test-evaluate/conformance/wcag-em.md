@@ -164,7 +164,7 @@ WCAG-EM 2 is an in-progress draft for review. What's different:
 - WCAG-EM 1 is specifically for testing websites and web pages.
 - WCAG-EM 2 also applies to apps and other digital products.
 
-Where WCAG-EM 1 focused on 'web pages', version 2 addresses 'digital products'. Specific differences are listed in the WCAG-EM 2 [Changelog (GitHub)](https://github.com/w3c/wai-wcag-em/?tab=readme-ov-file#changelog).
+Specific differences are listed in the WCAG-EM 2 [Changelog (GitHub)](https://github.com/w3c/wai-wcag-em/?tab=readme-ov-file#changelog).
 
 The rest of this page covers WCAG-EM 1. It also applies to WCAG-EM 2.
 
