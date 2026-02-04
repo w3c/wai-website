@@ -40,7 +40,8 @@ This page introduces the Website Accessibility Conformance Evaluation Methodolog
 
 Quick links to the resources:
 
--   [Website Accessibility Conformance Evaluation Methodology (WCAG-EM)](http://www.w3.org/TR/WCAG-EM/)
+-   [Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0](http://www.w3.org/TR/WCAG-EM/)
+-   [Draft W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0](https://www.w3.org/TR/wcag-em-2/)
 -   [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](http://www.w3.org/WAI/eval/report-tool/)
 
 {::nomarkdown}
@@ -157,9 +158,19 @@ Text Transcript with Description of Visuals
 
 {% include excol.html type="end" %}
 
+## Update: WCAG-EM 2 Draft
+
+WCAG-EM 2 is an in-progress draft for review. What's different:
+- WCAG-EM 1 is specifically for testing websites and web pages.
+- WCAG-EM 2 also applies to apps and other digital products.
+
+Where WCAG-EM 1 focused on 'web pages', version 2 addresses 'digital products'. Specific differences are listed in the WCAG-EM 2 [Changelog (GitHub)](https://github.com/w3c/wai-wcag-em/?tab=readme-ov-file#changelog).
+
+The rest of this page covers WCAG-EM 1. It also applies to WCAG-EM 2.
+
 ## Introduction
 
-Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining how well a website conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
+Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0 is an approach for determining how well a website conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
 
 If you want to get a general sense of how a web page addresses a few accessibility issues, see [Easy Checks - A First Review of Web Accessibility](/test-evaluate/preliminary/). It is usually best to do preliminary checks before applying WCAG-EM, and to address potential accessibility barriers before investing in a more thorough review such as WCAG-EM.
 
