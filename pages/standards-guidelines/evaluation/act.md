@@ -46,7 +46,7 @@ A secondary audience is accessibility experts. They often assist in setting an o
 
 Who ACT is **not** for: Users of accessibility tools (web developers, content authors, QA testers, etc.) are not expected to read ACT. These audiences will use products and services that implement ACT Rules.
 
-## ACT Documents
+## ACT documents
 
 ### ACT Rules Format
 
