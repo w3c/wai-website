@@ -3223,6 +3223,9 @@
 /news/2025-09-01/maturity-model/index.html
 /news/2025-09-04/wcag3/index.html
 /news/2025-10-21/wcag22-iso/index.html
+/news/2026-02-05/act-rules-11/index.html
+/news/2026-02-05/coga/index.html
+/news/2026-02-05/wcag-em-2/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html
@@ -3244,6 +3247,7 @@
 /news/38/index.html
 /news/39/index.html
 /news/4/index.html
+/news/40/index.html
 /news/5/index.html
 /news/6/index.html
 /news/7/index.html

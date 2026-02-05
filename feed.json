@@ -13,6 +13,69 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2026-02-05/wcag-em-2/",
+            "title": "For Review: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 — First Draft Note",
+            "summary": null,
+            "content_text": "W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 is available as a first Draft Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2. WCAG-EM 1 is specifically for testing websites and web pages. WCAG-EM 2 also applies to apps and other digital products. For an introduction to WCAG-EM and more information about the WCAG-EM 2 draft, see WCAG-EM Overview.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/wcag-em-2/\">W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0</a> is available as a first Draft Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2. WCAG-EM 1 is specifically for testing websites and web pages. WCAG-EM 2 also applies to apps and other digital products. For an introduction to WCAG-EM and more information about the WCAG-EM 2 draft, see <a href=\"https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/\">WCAG-EM Overview</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2026-02-05/wcag-em-2/",
+            
+            
+            
+            
+            
+            "date_published": "2026-02-05T00:00:00+00:00",
+            "date_modified": "2026-02-05T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2026-02-05/coga/",
+            "title": "For Review: Cognitive Accessibility Research Modules — First Draft Notes",
+            "summary": null,
+            "content_text": "Cognitive Accessibility Research Modules are available as first Draft Notes. The documents cover research on accessibility for people with cognitive and learning disabilities for Voice Systems and Conversational Interface, Technology Assisted Indoor Navigation / Wayfinding, Online Safety and Wellbeing (Algorithms and Data), and Supported Decision-Making Online. They address user needs, accessibility issues, directions for solutions, and areas for further research. We particularly seek input on what might be appropriate to add to these documents, including other relevant research, additional user needs, and the connection between research and priorities for new work in W3C groups. Information on related work is in Cognitive Accessibility at W3C.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/coga-research-modules/\">Cognitive Accessibility Research Modules</a> are available as first Draft Notes. The documents cover research on accessibility for people with cognitive and learning disabilities for <a href=\"https://www.w3.org/TR/coga-voice/\">Voice Systems and Conversational Interface</a>, <a href=\"https://www.w3.org/TR/coga-wayfinding/\">Technology Assisted Indoor Navigation / Wayfinding</a>, <a href=\"https://www.w3.org/TR/coga-safety/\">Online Safety and Wellbeing (Algorithms and Data)</a>, and <a href=\"https://www.w3.org/TR/coga-sdm/\">Supported Decision-Making Online</a>. They address user needs, accessibility issues, directions for solutions, and areas for further research. We particularly seek input on what might be appropriate to add to these documents, including other relevant research, additional user needs, and the connection between research and priorities for new work in W3C groups. Information on related work is in <a href=\"https://www.w3.org/WAI/cognitive/\">Cognitive Accessibility at W3C</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2026-02-05/coga/",
+            
+            
+            
+            
+            
+            "date_published": "2026-02-05T00:00:00+00:00",
+            "date_modified": "2026-02-05T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2026-02-05/act-rules-11/",
+            "title": "ACT Rules Format 1.1 is a Web Standard (W3C Recommendation)",
+            "summary": null,
+            "content_text": "Accessibility Conformance Testing (ACT) Rules Format 1.1 is now a web standard (W3C Recommendation). ACT Rules Format defines a format for writing accessibility test rules. The test rules can be used for developing automated testing tools and manual testing methodologies. For an introduction to ACT Rules, see Accessibility Conformance Testing (ACT) Overview.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/act-rules-format/\">Accessibility Conformance Testing (ACT) Rules Format 1.1</a> is now a web standard (W3C Recommendation). ACT Rules Format defines a format for writing accessibility test rules. The test rules can be used for developing automated testing tools and manual testing methodologies. For an introduction to ACT Rules, see <a href=\"https://www.w3.org/WAI/standards-guidelines/act/\">Accessibility Conformance Testing (ACT) Overview</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2026-02-05/act-rules-11/",
+            
+            
+            
+            
+            
+            "date_published": "2026-02-05T00:00:00+00:00",
+            "date_modified": "2026-02-05T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2025-10-21/wcag22-iso/",
             "title": "WCAG 2.2 Approved as an ISO Standard",
             "summary": null,
@@ -698,69 +761,6 @@
             
             "date_published": "2023-08-30T00:00:00+00:00",
             "date_modified": "2023-08-30T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-08-30/WCAG22-Aug-update/",
-            "title": "WCAG 2.2 Update, August 2023",
-            "summary": null,
-            "content_text": "W3C expects to publish Web Content Accessibility Guidelines WCAG 2.2 as a “W3C Recommendation” web standard in 2023. We are addressing new comments that we received in August 2023. Depending how that goes, the final publication could be in September or later in 2023. For the latest up-to-date information, check What’s New in WCAG 2.2 - Status, Timeline, Changes.",
-            "content_html": "<p>W3C expects to publish Web Content Accessibility Guidelines <a href=\"https://www.w3.org/TR/WCAG22\">WCAG 2.2</a> as a “W3C Recommendation” web standard in 2023. We are addressing new comments that we received in August 2023. Depending how that goes, the final publication could be in September or later in 2023. For the latest up-to-date information, check <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/#status-timeline-changes\">What’s New in WCAG 2.2 - Status, Timeline, Changes</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-08-30/WCAG22-Aug-update/",
-            
-            
-            
-            
-            
-            "date_published": "2023-08-30T00:00:00+00:00",
-            "date_modified": "2023-08-30T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-08-15/wcag2ict/",
-            "title": "For Review: Guidance on Applying WCAG 2.2 to Non-Web ICT (WCAG2ICT)",
-            "summary": null,
-            "content_text": "Guidance on Applying WCAG 2.2 to Non-Web Information and Communications Technologies (WCAG2ICT) is available as a Draft Note. This document is a first draft update to the previous WCAG2ICT Note that provided guidance on applying WCAG 2.0 to non-web documents and software. This updated draft includes guidance for WCAG 2.1 success criteria and glossary terms. We will add guidance for WCAG 2.2 success criteria in upcoming drafts. For an introduction, see the WCAG2ICT Overview.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/wcag2ict-22/\">Guidance on Applying WCAG 2.2 to Non-Web Information and Communications Technologies (WCAG2ICT)</a> is available as a Draft Note. This document is a first draft update to the previous <a href=\"https://www.w3.org/TR/wcag2ict-20/\">WCAG2ICT Note that provided guidance on applying WCAG 2.0</a> to non-web documents and software. This updated draft includes guidance for WCAG 2.1 success criteria and glossary terms. We will add guidance for WCAG 2.2 success criteria in upcoming drafts. For an introduction, see the <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/non-web-ict/\">WCAG2ICT Overview</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-08-15/wcag2ict/",
-            
-            
-            
-            
-            
-            "date_published": "2023-08-15T00:00:00+00:00",
-            "date_modified": "2023-08-15T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-07-24/wcag3/",
-            "title": "WCAG 3 Working Draft Updated July 2023",
-            "summary": null,
-            "content_text": "The updated WCAG 3 Working Draft clarifies the maturity of each section, includes new potential approaches to conformance, and lists some guidelines to be developed. Please see more about this work in an e-mail from the Working Group Chairs. To learn more and get up-to-date information, see the WCAG 3 Introduction.",
-            "content_html": "<p>The updated <a href=\"https://www.w3.org/TR/wcag-3.0/\">WCAG 3 Working Draft</a> clarifies the maturity of each section, includes new potential approaches to conformance, and lists some guidelines to be developed. Please see more about this work in an <a href=\"https://lists.w3.org/Archives/Public/public-wai-announce/2023JulSep/0001.html\">e-mail from the Working Group Chairs</a>. To learn more and get up-to-date information, see the <a href=\"https://www.w3.org/WAI/wcag3\">WCAG 3 Introduction</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-07-24/wcag3/",
-            
-            
-            
-            
-            
-            "date_published": "2023-07-24T00:00:00+00:00",
-            "date_modified": "2023-07-24T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
