@@ -105,7 +105,7 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 We plan to publish the following documents in 2026 Q1 (January, February, March):<!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
 * [Accessibility Conformance Testing (ACT) Rules Format 1.1](https://www.w3.org/TR/act-rules-format/) as a W3C 'Recommendation' Standard
-* Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 2.0 as a Note draft, see [WCAG-EM Overview](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/)
+* W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 as a Note draft, see [WCAG-EM Overview](https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/)
 * Cognitive Accessibility Research Modules as Note drafts
 * WCAG 3 as an updated Working Draft, see [WCAG 3 Introduction](https://www.w3.org/WAI/wcag3)
 * More [WAI Translations](/translations/) &mdash; usually some each month
