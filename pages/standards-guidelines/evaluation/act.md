@@ -51,8 +51,8 @@ Who ACT is **not** for: Users of accessibility tools (web developers, content au
 ### ACT Rules Format
 
 ACT Rules Format is a "W3C Recommendation" web standard that defines a format for writing test rules.
-* [Accessibility Conformance Testing (ACT) Rules Format 1.1](https://www.w3.org/TR/act-rules-format-1.1/) was publised in February 2026
-* [Accessibility Conformance Testing (ACT) Rules Format 1.0](https://www.w3.org/TR/act-rules-format-1.0/) was publised in October 2019
+* [Accessibility Conformance Testing (ACT) Rules Format 1.1](https://www.w3.org/TR/act-rules-format-1.1/) was published in February 2026
+* [Accessibility Conformance Testing (ACT) Rules Format 1.0](https://www.w3.org/TR/act-rules-format-1.0/) was published in October 2019
 
 ### ACT Rules Repository
 
