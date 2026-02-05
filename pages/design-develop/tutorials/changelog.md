@@ -13,7 +13,7 @@ resource:
   ref: /tutorials/
   
 footer: >
-   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. <strong>Update Editor:</strong> Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>.</p>
+   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. <strong>Update Editors:</strong> Becky Gibson, Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>  
 ---
 
@@ -27,6 +27,19 @@ This changelog lists substantive content edits. It does **not** list typo fixes 
 {% include box.html type="end" %}
 {:/}
 
+## February 2026
+In [Tables with Irregular Headers](/tutorials/tables/irregular)
+* Updated bulleted list below overview section to better describe `colgroup` : A column group is defined using the `<colgroup>` and `<col>` elements.
+* In Example 1 "Table with two tier headers", 2nd paragraph, updated the use of `colgroup` and `col` to match the current HTML specification: A `<colgroup>` element contains `<col>` elements to identify each column, beginning on the left. If a header spans two or more columns, use a `<col>` element with the number of columns spans noted in the `span` attribute.
+* In the example and associated code snippet
+    * corrected `colgroup` section
+    * Added a `caption`
+    * Changed empty `td` in header row to be a `th` per the spec
+    * Added `thead` element to the rendered example
+* In Example 2 "Table with headers spanning multiple rows or columns" and associated code snipped
+    * Corrected the `colgroup` section
+* Updated the [example 2 full example code](tutorials/tables/examples/scope-multiple) to match the updated example. It was previously only a snippet and didn't include the `colgroup` info. 
+ 
 ## July 2024
 
 In [Images tutorial](/tutorials/images/)

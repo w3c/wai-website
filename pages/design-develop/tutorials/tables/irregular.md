@@ -25,6 +25,7 @@ editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
 update_editors:
+  - Becky Gibson
   - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
@@ -48,7 +49,7 @@ For example, a header cell that spans three columns should be associated with co
 
 However, before making these associations, the structure of such groups of columns and rows needs to be defined in the table markup:
 
-* A column group is defined using the `<colgroup>` element.
+* A column group is defined using the `<colgroup>` and `<col>` elements.
 * A row group is defined by the `<thead>`, `<tfoot>` and `<tbody>` elements.
   - `<thead>` and  `<tfoot>` elements can be used once in a table.
   - A table can have any number of `<tbody>` elements that each defines a row group.
@@ -58,18 +59,22 @@ However, before making these associations, the structure of such groups of colum
 
 In the table below, there are two pairs of column headers. Each pair of column headers, “Produced” and “Sold” is associated with a first-level header that identifies the pair: “Mars” and “Venus”. These first-level headers are made to span two columns by using the `colspan` attribute with the value of `2`.
 
-The column structure needs to be defined at the beginning of the table to associate first-level headers correctly with all cells of both columns. A `<col>` element identifies each column, beginning on the left. If a header spans two or more columns, use a `<colgroup>` element instead of that number of `<col>` elements, and the number of columns spanned is noted in the `span` attribute.
+The column structure needs to be defined at the beginning of the table to associate first-level headers correctly with all cells of both columns. A `<colgroup>` element contains `<col>` elements to identify each column, beginning on the left. If a header spans two or more columns, use a `<col>` element with the number of columns spans noted in the `span` attribute.
 
 Also, the value of the `scope` attribute in the first-level headers is set to `colgroup` so that it is associated with the entire group of columns. The second-level headers only apply to the corresponding column, so the `scope` attribute is set to `col` as shown in previous examples.
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
 <table class="numbers">
-  <col>
-  <colgroup span="2"></colgroup>
-  <colgroup span="2"></colgroup>
+  <caption>Items produced and sold on Mars and Venus</caption>
+  <colgroup>
+    <col>
+    <col span="2">
+    <col span="2">
+  </colgroup>
+  <thead>
   <tr>
-    <td rowspan="2"></td>
+    <th rowspan="2"></th>
     <th colspan="2" scope="colgroup">Mars</th>
     <th colspan="2" scope="colgroup">Venus</th>
   </tr>
@@ -79,6 +84,8 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
     <th scope="col">Produced</th>
     <th scope="col">Sold</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <th scope="row">Teddy&nbsp;Bears</th>
     <td>50,000</td>
@@ -93,6 +100,7 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
     <td>12,000</td>
     <td>9,000</td>
   </tr>
+  </tbody>
 </table>
 {% include box.html type="end" %}
 {:/}
@@ -103,11 +111,14 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
 
 ~~~ html
 <table>
-  <col>
-  <colgroup span="2"></colgroup>
-  <colgroup span="2"></colgroup>
+  <caption>Items produced and sold on Mars and Venus</caption>
+  <colgroup>
+    <col>
+    <col span="2">
+    <col span="2">
+  </colgroup>
   <tr>
-    <td rowspan="2"></td>
+    <th rowspan="2"></th>
     <th colspan="2" scope="colgroup">Mars</th>
     <th colspan="2" scope="colgroup">Venus</th>
   </tr>
@@ -142,7 +153,7 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
 {% include box.html type="start" title="Note" class="simple notes" %}
 {:/}
 
-Note: A `<colgroup>` element can contain a `<col>` element to identify individual columns in the group. The combined sum of `<col>` elements (not contained in `<colgroup>` elements) and column elements indicated by the `span` attributes of the `<colgroup>` elements should be equal to the total number of columns in the table.
+Note: A `<colgroup>` element contains `<col>` elements to identify individual columns in the group. The combined sum of `<col>` elements including any span values within each `<col>`, should be equal to the total number of columns in the table. If the `<colgroup>` element has no `<col>` children, it contains a span attribute indicating number of consecutive columns the `<colgroup>` element spans. 
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -164,9 +175,11 @@ Due to the complexity of the table a [summary technique](/tutorials/tables/capti
   <caption>
     Poster availability
   </caption>
-  <col>
-  <col>
-  <colgroup span="3"></colgroup>
+  <colgroup>
+    <col>
+    <col>
+    <col span="3">
+  </colgroup>
   <thead>
     <tr>
       <th scope="col">Poster name</th>
@@ -188,11 +201,11 @@ Due to the complexity of the table a [summary technique](/tutorials/tables/capti
       <td>A2</td>
       <td>A3</td>
     </tr>
-    <tr>
-      <th scope="row">Sepia</th>
-      <td>A3</td>
-      <td>A4</td>
-      <td>A5</td>
+      <tr>
+        <th scope="row">Sepia</th>
+        <td>A3</td>
+        <td>A4</td>
+        <td>A5</td>
     </tr>
   </tbody>
   <tbody>
@@ -224,9 +237,11 @@ Due to the complexity of the table a [summary technique](/tutorials/tables/capti
   <caption>
     Poster availability
   </caption>
-  <col>
-  <col>
-  <colgroup span="3"></colgroup>
+  <colgroup>
+    <col>
+    <col>
+    <col span="3">
+  </colgroup>
   <thead>
     <tr>
       <th scope="col">Poster name</th>
@@ -237,13 +252,13 @@ Due to the complexity of the table a [summary technique](/tutorials/tables/capti
   <tbody>
     <tr>
       <th rowspan="3" scope="rowgroup">Zodiac</th>
-      <th scope="row">Full color</th>
+      <td scope="row">Full color</th>
       <td>A2</td>
       <td>A3</td>
       <td>A4</td>
     </tr>
     <tr>
-      <th scope="row">Black and white</th>
+      <td scope="row">Black and white</th>
       <td>A1</td>
       <td>A2</td>
       <td>A3</td>
