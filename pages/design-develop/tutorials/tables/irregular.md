@@ -59,7 +59,7 @@ However, before making these associations, the structure of such groups of colum
 
 In the table below, there are two pairs of column headers. Each pair of column headers, “Produced” and “Sold” is associated with a first-level header that identifies the pair: “Mars” and “Venus”. These first-level headers are made to span two columns by using the `colspan` attribute with the value of `2`.
 
-The column structure needs to be defined at the beginning of the table to associate first-level headers correctly with all cells of both columns. A `<colgroup>` element contains `<col>` elements to identify each column, beginning on the left. If a header spans two or more columns, use a `<col>` element with the number of columns spans noted in the `span` attribute.
+The column structure needs to be defined at the beginning of the table to associate first-level headers correctly with all cells of both columns. A `<colgroup>` element contains `<col>` elements to identify each column, beginning on the left. If a header spans two or more columns, add a `span` attribute to the `col` element. The value specifies the number of columns the hearder spans.
 
 Also, the value of the `scope` attribute in the first-level headers is set to `colgroup` so that it is associated with the entire group of columns. The second-level headers only apply to the corresponding column, so the `scope` attribute is set to `col` as shown in previous examples.
 
