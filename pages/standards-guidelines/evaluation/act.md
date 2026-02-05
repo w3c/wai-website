@@ -2,13 +2,13 @@
 title: Accessibility Conformance Testing (ACT) Overview
 permalink: /standards-guidelines/act/
 lang: en
-last_updated: 2025-08-19
+last_updated: 2026-02-05
 github:
   label: wai-act-intro
 feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a> and <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
-  <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) and the <a href=" https://www.w3.org/WAI/GL/task-forces/conformance-testing ">ACT Task Force</a>. ACT work is supported by the <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>, co-funded by the European Commission.</p>
+  <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
+  <p>Developed with input from the <a href="https://www.w3.org/WAI/GL/task-forces/conformance-testing">ACT Task Force</a>. ACT work was supported by the <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>, co-funded by the European Commission.</p>
 ---
 
 {::nomarkdown}
@@ -20,7 +20,6 @@ This page introduces the [Accessibility Conformance Testing (ACT) Rules Format](
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
-
 
 {::options toc_levels="2" /}
 
@@ -47,22 +46,13 @@ A secondary audience is accessibility experts. They often assist in setting an o
 
 Who ACT is **not** for: Users of accessibility tools (web developers, content authors, QA testers, etc.) are not expected to read ACT. These audiences will use products and services that implement ACT Rules.
 
-## What is in ACT
+## ACT documents
 
-### ACT Rules Format 1.0
+### ACT Rules Format
 
-**[Accessibility Conformance Testing (ACT) Rules Format 1.0](https://www.w3.org/TR/act-rules-format/)** is a W3C Recommendation (web standard) that defines a format for writing test rules.
-
-### ACT Rules Format 1.1
-
-**[Accessibility Conformance Testing (ACT) Rules Format 1.1](https://www.w3.org/TR/act-rules-format-1.1/)** is a [W3C Candidate Recommendation Snapshot](https://www.w3.org/standards/types/#x4-2-2-candidate-recommendation-snapshot). It proposes the following changes:
-
-* new secondary accessibility requirements 
-* allowing subjective applicability statements 
-
-The latest [Editor Draft](https://w3c.github.io/wcag-act/act-rules-format.html) and [GitHub repository](https://github.com/w3c/wcag-act/) are available for future development.
-
-The ACT Rules Format follows the W3C format for technical specifications, which includes several sections at the beginning: links to different versions, editors, copyright, abstract, and status with the link to errata and the email address for comments.
+ACT Rules Format is a "W3C Recommendation" web standard that defines a format for writing test rules.
+* [Accessibility Conformance Testing (ACT) Rules Format 1.1](https://www.w3.org/TR/act-rules-format-1.1/) was publised in February 2026
+* [Accessibility Conformance Testing (ACT) Rules Format 1.0](https://www.w3.org/TR/act-rules-format-1.0/) was publised in October 2019
 
 ### ACT Rules Repository
 
