@@ -170,7 +170,7 @@ The rest of this page covers WCAG-EM 1. It also applies to WCAG-EM 2.
 
 ## Introduction
 
-Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0 is an approach for determining how well a website conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
+Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1 is an approach for determining how well a website conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
 
 If you want to get a general sense of how a web page addresses a few accessibility issues, see [Easy Checks - A First Review of Web Accessibility](/test-evaluate/preliminary/). It is usually best to do preliminary checks before applying WCAG-EM, and to address potential accessibility barriers before investing in a more thorough review such as WCAG-EM.
 
