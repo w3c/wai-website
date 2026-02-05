@@ -160,7 +160,7 @@ Text Transcript with Description of Visuals
 
 ## Update: WCAG-EM 2 Draft
 
-WCAG-EM 2 is an in-progress draft for review. What's different:
+W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2 is an in-progress draft for review. What's different:
 - WCAG-EM 1 is specifically for testing websites and web pages.
 - WCAG-EM 2 also applies to apps and other digital products.
 
