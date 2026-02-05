@@ -166,7 +166,14 @@ W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2 is an in-progres
 
 For more information on the differences, see the WCAG-EM 2 [Changelog (GitHub)](https://github.com/w3c/wai-wcag-em/?tab=readme-ov-file#changelog).
 
-The rest of this page covers WCAG-EM 1. It also applies to WCAG-EM 2.
+We invite you to review and comment on this draft.
+- Are all digital products that evaluators commonly evaluate covered by this methodology, or are any explicitly excluded?
+- Does the terminology of 'sample set' and 'sample' match how evaluators use it in their evaluations?
+- Is this new version more useful for evaluators when they evaluate apps?
+
+To comment, please open a new issue in the [wai-wcag-em GitHub repository](https://github.com/w3c/wai-wcag-em/). Create a separate GitHub issue for each topic, rather than commenting on multiple topics in a single issue. If it's not feasible for you to use GitHub, email your comments to public-agwg-comments@w3.org Please put your comments in the body of the message, not as an attachment.
+
+_The rest of this page covers WCAG-EM 1. It also applies to WCAG-EM 2._
 
 ## Introduction
 
