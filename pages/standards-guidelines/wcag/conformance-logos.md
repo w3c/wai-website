@@ -4,7 +4,7 @@ nav_title: "Conformance Logos"
 lang: en
 last_updated: 2026-02-11
 
-description: W3C WAI provides conformance logos for websites that meet Web Content Accessibility Guidelines (WCAG) 2.
+description: W3C provides conformance logos for websites that meet Web Content Accessibility Guidelines (WCAG) 2.
 
 permalink: /standards-guidelines/wcag/conformance-logos/
 ref: /standards-guidelines/wcag/conformance-logos/
@@ -68,7 +68,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/WCAG22/wcag2.2A"
        alt="Level A conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.2">
+            W3C Web Content Accessibility Guidelines 2.2">
 </a>
 ```
 
@@ -84,7 +84,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/WCAG22/wcag2.2AA"
        alt="Level AA conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.2">
+            W3C Web Content Accessibility Guidelines 2.2">
 </a>
 ```
 
@@ -100,7 +100,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/WCAG22/wcag2.2AAA"
        alt="Level AAA conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.2">
+            W3C Web Content Accessibility Guidelines 2.2">
 </a>
 ```
 
@@ -118,7 +118,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/WCAG21/wcag2.1A-v"
        alt="Level A conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.1">
+            W3C Web Content Accessibility Guidelines 2.1">
 </a>
 ```
 
@@ -134,7 +134,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/WCAG21/wcag2.1AA-v"
        alt="Level AA conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.1">
+            W3C Web Content Accessibility Guidelines 2.1">
 </a>
 ```
 
@@ -150,7 +150,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/WCAG21/wcag2.1AAA-v"
        alt="Level AAA conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.1">
+            W3C Web Content Accessibility Guidelines 2.1">
 </a>
 ```
 
@@ -168,7 +168,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/wcag2A"
        alt="Level A conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.0">
+            W3C Web Content Accessibility Guidelines 2.0">
 </a>
 ```
 
@@ -184,7 +184,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/wcag2AA"
        alt="Level AA conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.0">
+            W3C Web Content Accessibility Guidelines 2.0">
 </a>
 ```
 
@@ -200,7 +200,7 @@ Put the following HTML markup in your page:
   <img height="31" width="88"
        src="https://www.w3.org/WAI/wcag2AAA"
        alt="Level AAA conformance,
-            W3C WAI Web Content Accessibility Guidelines 2.0">
+            W3C Web Content Accessibility Guidelines 2.0">
 </a>
 ```
 
