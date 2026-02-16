@@ -2,7 +2,7 @@
 title: "Adding WCAG Conformance Logos"
 nav_title: "Conformance Logos"
 lang: en
-last_updated: 2026-02-11
+last_updated: 2026-02-20
 
 description: W3C provides conformance logos for websites that meet Web Content Accessibility Guidelines (WCAG) 2.
 
