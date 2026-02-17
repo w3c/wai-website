@@ -50,12 +50,9 @@ Aksesibilitas web sangat penting bagi penyandang disabilitas dan bermanfaat bagi
 {:#film.no-display}
 
 {% include video-player-data.html
+    video-id="notifications"
     yt-id="E1fEv4Vpexg"
     yt-id-ad="jtteu0ilDXk"
-    path="/perspective-videos/cc/"
-    lang-folder=true
-    vtt-data-location="wai-perspective-videos"
-    vtt-name="notifications"
 %}
 
 Informasi video ini tersedia sebagai [Transkripsi dan Deskripsi Visual](#transcript) di bawah.

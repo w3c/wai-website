@@ -52,12 +52,9 @@ Pembaruan: Video ini menggunakan istilah "pengenalan suara". Halaman ini diperba
 {:#film.no-display}
 
 {% include video-player-data.html
+    video-id="voice"
     yt-id="7RHG_XiQ0ck"
     yt-id-ad="21yWr7evHTs"
-    path="/perspective-videos/cc/"
-    lang-folder=true
-    vtt-data-location="wai-perspective-videos"
-    vtt-name="voice"
 %}
 
 Informasi video ini tersedia sebagai [Transkripsi dan Deskripsi Visual](#transcript) di bawah.
