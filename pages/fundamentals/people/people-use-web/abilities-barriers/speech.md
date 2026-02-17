@@ -138,7 +138,7 @@ Speech disabilities include difficulty producing speech that is recognizable by 
 
 **Note:** The examples given in this section are not a complete list of all disabilities or barriers.
 
-## Introduction
+## Introduction {#introduction-extended}
 
 People with speech disabilities encounter barriers with voice-based services, such as automated hotlines and applications that are operated using voice commands. To use services that rely on voice, people with speech disabilities need alternative modes of interaction such as text-based chat to interact with hotline representatives. Also, when the telephone numbers is the only means of communicating with an organization, it poses barriers for people with speech disabilities. Alternative means of communication include e-mail and feedback forms.
 
