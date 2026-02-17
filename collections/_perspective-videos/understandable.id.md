@@ -122,7 +122,7 @@ Pelajari lebih lanjut {#resources}
     </tr>
     <tr>
       <td>Dibanding mengatakan: &quot;Mengejawantahkan ujaran secara congkak menggunakan prosa bersintaksis muluk terang menetaskan rasa dugal&quot;,<br>
-        lebih baik mengatakan: &quot;Diberi tahu dengan bahasa yang terlalu panjang dan rumit itu menyebalkan&quot;..</td>
+        lebih baik mengatakan: &quot;Diberi tahu dengan bahasa yang terlalu panjang dan rumit itu menyebalkan&quot;.</td>
       <td>Dua orang mencoba mengikuti instruksi di situs memasak yang menggunakan banyak teks tanpa ilustrasi atau pun struktur.</td>
     </tr>
     <tr>
