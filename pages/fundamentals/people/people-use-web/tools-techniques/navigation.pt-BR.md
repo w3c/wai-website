@@ -19,7 +19,7 @@ github:
   repository: w3c/wai-people-use-web
   path: content/index.pt-BR.md
 
-permalink: /people-use-web/tools-techniques/navigation/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+permalink: /people-use-web/tools-techniques/navigation/pt-BR # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /people-use-web/tools-techniques/navigation/  # Do not change this
 
 parent_in_h1:
