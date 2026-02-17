@@ -1,0 +1,3416 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.040
+I'm going to move on to the
+
+00:00:03.040 --> 00:00:05.240
+to introducing Shari Trewin
+
+00:00:05.240 --> 00:00:09.000
+and she is an engineering manager
+at Google
+
+00:00:09.000 --> 00:00:13.520
+and leading a team
+that develops assistive technologies.
+
+00:00:13.520 --> 00:00:16.760
+So I'm really looking forward
+
+00:00:17.240 --> 00:00:19.800
+to your vision of and
+
+00:00:20.960 --> 00:00:22.960
+how what's next?
+
+00:00:22.960 --> 00:00:26.960
+What's the future holding for us
+in assistive AI.
+
+00:00:27.760 --> 00:00:30.080
+So as we had yesterday
+
+00:00:31.400 --> 00:00:34.040
+at the end of the keynote Jutta
+
+00:00:35.120 --> 00:00:37.200
+will join us and we'll have this
+
+00:00:38.600 --> 00:00:42.200
+even more interesting conversation
+between Shari Trewin
+
+00:00:42.720 --> 00:00:46.160
+making it really appetizing for the keynote.
+
+00:00:46.160 --> 00:00:51.320
+So Shari the floor is yours.
+
+00:00:51.320 --> 00:00:54.120
+All right. Thank you very much, Carlos.
+
+00:00:55.040 --> 00:01:09.720
+I just.
+
+00:01:09.720 --> 00:01:12.080
+Okay. Can you hear me okay?
+
+00:01:12.080 --> 00:01:14.640
+Yes. Good.
+
+00:01:14.640 --> 00:01:15.440
+All right.
+
+00:01:15.440 --> 00:01:20.120
+What a pleasure
+it is to participate in this symposium and
+
+00:01:21.200 --> 00:01:23.240
+hear from our opening keynote, Jutta,
+
+00:01:23.800 --> 00:01:27.240
+and all our panelists
+over the last two days.
+
+00:01:27.440 --> 00:01:29.240
+Thank you so much for inviting me.
+
+00:01:29.240 --> 00:01:31.880
+It's my privilege to finish us up now.
+
+00:01:33.240 --> 00:01:35.960
+So yesterday Jutta grounded us
+
+00:01:35.960 --> 00:01:39.720
+all in the need to do no harm and talked
+about some of the ways
+
+00:01:39.720 --> 00:01:42.400
+we can think about detecting
+and avoiding harm.
+
+00:01:42.760 --> 00:01:47.120
+Today, I'm going to focus on digital
+accessibility applications
+
+00:01:47.120 --> 00:01:50.880
+of AI in general and ask where next
+
+00:01:50.880 --> 00:01:57.040
+for assistive AI?
+
+00:01:57.040 --> 00:01:59.240
+I You see my screen?
+
+00:02:00.280 --> 00:02:02.360
+Yes, we are. You are. Okay.
+
+00:02:02.360 --> 00:02:08.160
+I just didn't show mine all good.
+
+00:02:08.160 --> 00:02:10.280
+So my name is Shari Trewin.
+
+00:02:10.280 --> 00:02:14.040
+I'm an engineering manager in Google's
+accessibility team.
+
+00:02:14.320 --> 00:02:18.480
+I'm also the past chair of
+the ACM's SIGAccess
+
+00:02:18.680 --> 00:02:22.680
+Special Interest Group
+on accessible computing.
+
+00:02:23.440 --> 00:02:28.720
+My background is computer science and AI,
+and I've been thinking about the ways
+
+00:02:28.720 --> 00:02:32.440
+that AI plays into accessibility
+for many years.
+
+00:02:33.120 --> 00:02:37.040
+Much of my work in thinking on AI
+and the AI fairness was done
+
+00:02:37.040 --> 00:02:41.560
+when I worked at IBM, where I was program
+director for IBM Accessibility.
+
+00:02:41.840 --> 00:02:44.680
+So shout out to any
+IBM friends in the audience.
+
+00:02:46.040 --> 00:02:46.800
+At Google,
+
+00:02:46.800 --> 00:02:51.120
+my team has a focus on developing
+new assistive capabilities
+
+00:02:51.480 --> 00:02:54.920
+and as we've been discussing
+for the last few days,
+
+00:02:54.920 --> 00:02:57.440
+AI has an important role to play.
+
+00:02:59.280 --> 00:03:02.040
+So there's been a lot of buzz in the news
+lately.
+
+00:03:02.040 --> 00:03:06.640
+Both excitement and alarm
+about generative AI,
+
+00:03:06.680 --> 00:03:09.040
+especially these large language models.
+
+00:03:10.520 --> 00:03:13.680
+So for example, the ChatGPT model from OpenAI
+
+00:03:13.680 --> 00:03:17.200
+has been in the news quite a bit,
+
+00:03:17.200 --> 00:03:19.800
+in case you haven't played with it
+yet, here's an example.
+
+00:03:19.800 --> 00:03:26.560
+So I asked ChatGPT how will AI change
+digital accessibility?
+
+00:03:26.960 --> 00:03:30.280
+Let's try to get it to write
+my talk for me.
+
+00:03:30.280 --> 00:03:33.680
+And it responded
+with a pretty positive viewpoint.
+
+00:03:33.680 --> 00:03:36.880
+It said AI has the potential
+to significantly
+
+00:03:36.880 --> 00:03:40.120
+improve digital accessibility
+for people with disabilities.
+
+00:03:40.520 --> 00:03:44.000
+Here's a few ways
+that AI could contribute to this goal.
+
+00:03:45.760 --> 00:03:46.520
+It went on to
+
+00:03:46.520 --> 00:03:49.800
+list four examples of transformative AI.
+
+00:03:49.840 --> 00:03:54.400
+All of these have been major topics
+at this symposium, and for each one
+
+00:03:54.400 --> 00:03:58.200
+it gave a one or two sentence
+explanation of what it was
+
+00:03:58.400 --> 00:04:02.640
+and who it's helpful for.
+
+00:04:02.640 --> 00:04:06.640
+Finally,
+it concluded that AI has the potential
+
+00:04:06.640 --> 00:04:10.640
+to make digital content
+and devices more accessible to people
+
+00:04:10.640 --> 00:04:14.360
+with disabilities, allowing them
+to fully participate in the digital world.
+
+00:04:15.320 --> 00:04:17.440
+It seems pretty convincing
+and well written.
+
+00:04:17.960 --> 00:04:22.520
+Perhaps I should just end here
+and let AI have the last word. But,
+
+00:04:23.960 --> 00:04:26.240
+you know, it's
+kind of it's kind of mind blowing,
+
+00:04:26.360 --> 00:04:31.960
+although it was pretty terrible jokes
+and this is what it can do
+
+00:04:31.960 --> 00:04:35.880
+without explicitly
+being connected to any source of truth.
+
+00:04:36.000 --> 00:04:38.840
+But it does get things
+sometimes flat out wrong.
+
+00:04:39.200 --> 00:04:43.760
+And there's a risk of bias in the training
+data being reflected in the predictions.
+
+00:04:44.720 --> 00:04:46.000
+And this limits the
+
+00:04:46.000 --> 00:04:48.760
+ways that
+we can apply this technology today.
+
+00:04:49.000 --> 00:04:51.800
+But it also gives us a glimpse
+into the future.
+
+00:04:52.640 --> 00:04:55.080
+I'm not going to take medical advice
+
+00:04:55.080 --> 00:04:59.560
+from a generative AI model yet,
+but as we get better
+
+00:04:59.600 --> 00:05:04.400
+at connecting this level
+of language fluency with knowledge,
+
+00:05:05.240 --> 00:05:08.480
+improving accuracy,
+detecting and removing bias,
+
+00:05:09.040 --> 00:05:13.720
+this opens up so many new possibilities
+for interaction models
+
+00:05:14.040 --> 00:05:17.680
+and ways to find to consume
+information in the future.
+
+00:05:18.800 --> 00:05:25.160
+So I'll come back to that later.
+
+00:05:25.160 --> 00:05:26.720
+For today's talk, I'm going to
+
+00:05:26.720 --> 00:05:28.880
+slice the topic a little bit differently.
+
+00:05:28.920 --> 00:05:34.040
+I want to focus on
+some of the general research directions
+
+00:05:34.040 --> 00:05:37.160
+that I see as being important
+for moving digital
+
+00:05:37.160 --> 00:05:39.320
+accessibility forward with AI.
+
+00:05:40.160 --> 00:05:43.520
+So in our opening keynote, Jutta laid out
+
+00:05:43.560 --> 00:05:46.520
+some of the risks
+that can be associated with AI.
+
+00:05:46.560 --> 00:05:49.800
+It's not created and applied with equity
+
+00:05:50.120 --> 00:05:53.480
+and safety in mind, and it's important
+
+00:05:53.480 --> 00:05:57.440
+to keep these considerations
+in mind as we move forward with A.I.
+
+00:05:58.520 --> 00:05:59.640
+When the benefits of
+
+00:05:59.640 --> 00:06:03.040
+AI do outweigh the risks in enabling
+digital access,
+
+00:06:03.400 --> 00:06:07.200
+we still have a way to go in
+making these benefits
+
+00:06:07.200 --> 00:06:10.520
+available to everyone, in fact,
+to make them accessible
+
+00:06:10.960 --> 00:06:14.760
+so start
+by talking about some current efforts
+
+00:06:15.200 --> 00:06:17.640
+in the direction making assistive
+
+00:06:17.800 --> 00:06:21.280
+AI itself more inclusive.
+
+00:06:21.280 --> 00:06:24.520
+The second topic I want to cover is where
+
+00:06:24.520 --> 00:06:27.800
+we choose to apply AI.
+
+00:06:28.640 --> 00:06:30.920
+Focusing on why I called it
+
+00:06:31.200 --> 00:06:35.040
+AI at source and find web
+
+00:06:35.040 --> 00:06:37.840
+accessibility work in role emphasizes
+
+00:06:39.200 --> 00:06:43.480
+the need to shift left that is,
+to bake accessibility
+
+00:06:43.480 --> 00:06:47.960
+in as early as possible in the development
+of a digital experience.
+
+00:06:48.160 --> 00:06:51.920
+So I'll discuss some of the places
+where AI can help with that shift
+
+00:06:51.920 --> 00:06:56.760
+left and highlight both opportunities
+and important emerging challenges
+
+00:06:57.960 --> 00:07:04.600
+that we have for web accessibility.
+
+00:07:04.600 --> 00:07:08.240
+So we know the AI has already changed
+
+00:07:08.240 --> 00:07:11.360
+the landscape of assistive technology.
+
+00:07:11.360 --> 00:07:16.880
+So one research direction is how
+do we make these AI models more inclusive?
+
+00:07:18.520 --> 00:07:19.360
+And I want to
+
+00:07:19.360 --> 00:07:21.680
+start with a little story about captions.
+
+00:07:22.440 --> 00:07:25.200
+In 2020, I was accessibility chair
+
+00:07:25.200 --> 00:07:28.200
+for a very large virtual conference.
+
+00:07:29.520 --> 00:07:32.000
+We provided a human captioner
+
+00:07:32.280 --> 00:07:37.040
+who was live transcribing the sessions
+in a in a separate live feed.
+
+00:07:37.880 --> 00:07:41.560
+So I'm showing an image of a slide
+from a presentation
+
+00:07:41.560 --> 00:07:44.200
+here with a transcription
+window to the right.
+
+00:07:45.560 --> 00:07:49.520
+I spoke with a hard of hearing attendee
+during the conference
+
+00:07:50.160 --> 00:07:53.080
+who used captions to supplement
+what he could hear,
+
+00:07:53.720 --> 00:07:56.560
+and he told me
+while the live feed had quite a delay.
+
+00:07:57.080 --> 00:08:00.680
+So he was also using automated captions
+
+00:08:00.680 --> 00:08:04.920
+that were being streamed
+through the conference provider.
+
+00:08:05.000 --> 00:08:09.080
+Let's add them to this view
+highlighted in Green.
+
+00:08:09.080 --> 00:08:13.520
+So these had a little less delay,
+but they had accuracy problems,
+
+00:08:13.840 --> 00:08:18.440
+especially for foreign speakers
+or people with atypical speech,
+
+00:08:18.880 --> 00:08:21.840
+and especially for people's
+names or technical terms.
+
+00:08:22.600 --> 00:08:25.760
+The important parts.
+
+00:08:25.760 --> 00:08:29.320
+So he also turned on
+the automated captions in his browser,
+
+00:08:29.320 --> 00:08:32.040
+which used a different speech
+to text engine.
+
+00:08:32.320 --> 00:08:34.360
+I've added those on the screen to
+
+00:08:36.200 --> 00:08:39.800
+and supplemented
+that with an app on his phone
+
+00:08:40.160 --> 00:08:43.640
+using a third different speech
+recognition engine, capturing
+
+00:08:43.640 --> 00:08:47.160
+the audio as it was played
+from his computer and transcribing it.
+
+00:08:47.840 --> 00:08:51.360
+So that's four sources of captions
+to read.
+
+00:08:52.080 --> 00:08:56.160
+None of them was perfect,
+but he combined them to triangulate
+
+00:08:56.480 --> 00:08:59.280
+interpretations
+where the transcripts seem to be wrong.
+
+00:09:00.920 --> 00:09:02.360
+So we could say AI
+
+00:09:02.360 --> 00:09:06.560
+powered captions were helping him
+to access the conference, no doubt about it.
+
+00:09:06.560 --> 00:09:09.200
+But it wasn't a very usable experience.
+
+00:09:10.040 --> 00:09:13.680
+He was empowered,
+but he also had a huge burden
+
+00:09:13.920 --> 00:09:16.600
+in managing his own accessibility.
+
+00:09:17.000 --> 00:09:19.520
+And there were still gaps, though,
+
+00:09:19.920 --> 00:09:24.960
+as Michael Cooper pointed out yesterday,
+imperfect captions and descriptions
+
+00:09:25.280 --> 00:09:29.000
+can provide agency
+but can also mislead users
+
+00:09:29.000 --> 00:09:33.440
+and and waste their time.
+
+00:09:33.440 --> 00:09:36.080
+I also want to point out
+that this particular user
+
+00:09:36.080 --> 00:09:41.440
+was in a really privileged position
+because he knows about all these services.
+
+00:09:41.760 --> 00:09:45.360
+He has devices powerful enough to stream
+all these channels,
+
+00:09:45.640 --> 00:09:47.520
+has good Internet access.
+
+00:09:47.520 --> 00:09:50.720
+He has a smartphone,
+he has the cognitive ability
+
+00:09:50.720 --> 00:09:54.560
+to make sense of this incredible
+information overload.
+
+00:09:55.720 --> 00:09:57.760
+This really isn't equitable access.
+
+00:09:57.760 --> 00:09:58.280
+Right.
+
+00:09:58.520 --> 00:10:02.280
+And and the captions themselves weren't
+providing equitable
+
+00:10:02.280 --> 00:10:04.800
+representation of the conference speakers
+
+00:10:05.280 --> 00:10:09.080
+to those with atypical speech
+were at a disadvantage
+
+00:10:09.280 --> 00:10:11.840
+in having their message
+communicated clearly.
+
+00:10:12.640 --> 00:10:17.640
+So there's an important gap to be filled.
+
+00:10:17.640 --> 00:10:20.800
+One of the current limitations
+of automated captions is poor
+
+00:10:20.800 --> 00:10:23.520
+transcription of people
+with atypical speech,
+
+00:10:23.840 --> 00:10:27.360
+and especially when they're using
+technical or specialized language.
+
+00:10:28.480 --> 00:10:30.560
+So for example, Dimitri Kanevsky
+
+00:10:30.560 --> 00:10:32.840
+is a Google researcher and inventor.
+
+00:10:33.800 --> 00:10:38.680
+He's an expert in optimization
+and algebraic geometry, among many other
+
+00:10:38.680 --> 00:10:39.560
+topics.
+
+00:10:40.000 --> 00:10:43.920
+He's Russian and deaf,
+both of which affect his English speech.
+
+00:10:44.600 --> 00:10:54.280
+I'm going to play a short video
+clip of Dimitri.
+
+00:11:10.400 --> 00:11:12.320
+So, Dimitri said
+
+00:11:12.320 --> 00:11:15.440
+Google has very good
+general speech recognition,
+
+00:11:15.480 --> 00:11:19.200
+but if you do not sound like most people,
+it will not understand you.
+
+00:11:19.880 --> 00:11:24.440
+And on the screen a speech engine
+translated that last part of the sentence
+
+00:11:24.440 --> 00:11:28.040
+as. But if you look at most of people
+it will look
+
+00:11:28.040 --> 00:11:29.920
+and defend you.
+
+00:11:31.600 --> 00:11:33.160
+So, people
+
+00:11:33.160 --> 00:11:36.960
+with disabilities
+that impact speech such as verbal palsy,
+
+00:11:37.040 --> 00:11:41.960
+stroke, Down's Syndrome,
+Parkinson's, ALS are also impacted
+
+00:11:41.960 --> 00:11:46.800
+by lack of access to speech recognition,
+whether it's for controlling a digital
+
+00:11:46.800 --> 00:11:50.720
+assistant, communicating with others,
+or creating accessible
+
+00:11:50.720 --> 00:11:56.280
+digital content. Oh,
+
+00:11:57.680 --> 00:12:07.160
+I want to go to the next slide.
+
+00:12:07.160 --> 00:12:11.840
+So Google's Project Euphonia
+set out to explore
+
+00:12:11.840 --> 00:12:16.280
+whether personalized speech recognition
+models can provide accurate speech
+
+00:12:16.280 --> 00:12:19.640
+recognition for people like Dimitri
+with atypical speech.
+
+00:12:20.280 --> 00:12:22.760
+And this is a great example of the way
+research
+
+00:12:22.960 --> 00:12:25.600
+can help
+to move the state of the art forward.
+
+00:12:25.600 --> 00:12:28.600
+So the first challenge, as many people
+
+00:12:28.600 --> 00:12:32.440
+have mentioned already
+today, was a lack of suitable speech data.
+
+00:12:33.440 --> 00:12:34.560
+Project Euphonia
+
+00:12:34.560 --> 00:12:37.520
+collected over a million utterances
+
+00:12:37.520 --> 00:12:40.240
+from individuals with speech impairments.
+
+00:12:41.040 --> 00:12:43.520
+And then the researchers built individual
+
+00:12:43.520 --> 00:12:47.640
+models for 432 people and compared them
+
+00:12:47.960 --> 00:12:50.200
+to state of the art general models.
+
+00:12:51.680 --> 00:12:56.440
+They found that the personalized models
+could significantly reduce
+
+00:12:56.560 --> 00:13:01.080
+word error rates, and so the error rates
+had gone from something like 31%
+
+00:13:01.080 --> 00:13:04.880
+with the general models down to 4.6%.
+
+00:13:05.720 --> 00:13:08.360
+So it's not just
+a significant improvement,
+
+00:13:08.360 --> 00:13:10.160
+but it's enough of improvement.
+
+00:13:10.160 --> 00:13:16.160
+It gets to a high enough point
+to make the technology practically useful.
+
+00:13:16.160 --> 00:13:19.800
+And in fact, they've even found
+that these personalized models
+
+00:13:20.200 --> 00:13:23.960
+could sometimes perform
+better than human transcribers for people
+
+00:13:23.960 --> 00:13:26.520
+with more severely disordered speech.
+
+00:13:30.560 --> 00:13:33.200
+So here's an example of Dimitri
+
+00:13:33.200 --> 00:13:42.520
+using his personal speech
+recognition model.
+
+00:13:57.840 --> 00:14:04.640
+You can see the.
+
+00:14:04.640 --> 00:14:08.840
+So the transcription
+this time is make all voice interactive
+
+00:14:08.840 --> 00:14:12.600
+devices be able to understand any person
+speak to them.
+
+00:14:13.320 --> 00:14:15.760
+It's not perfect, but it's much, much
+
+00:14:16.520 --> 00:14:18.000
+more useful.
+
+00:14:18.760 --> 00:14:22.920
+Project Euphonia has started in English,
+but it's now expanding to include
+
+00:14:22.920 --> 00:14:32.320
+Hindi, French, Spanish and Japanese.
+
+00:14:32.320 --> 00:14:35.840
+So that project demonstrated
+how much better
+
+00:14:35.840 --> 00:14:39.040
+speech recognition
+technology could be.
+
+00:14:39.360 --> 00:14:43.280
+But the original data wasn't
+shareable outside Google
+
+00:14:43.720 --> 00:14:48.680
+and that limited the benefits
+of all that data gathering effort.
+
+00:14:48.680 --> 00:14:53.040
+So the Speech Accessibility Project
+at the University of Illinois
+
+00:14:53.040 --> 00:14:56.360
+is an example of
+of what we might do about that problem.
+
+00:14:56.760 --> 00:15:01.280
+It's an initiative to make a dataset
+for broader research purposes.
+
+00:15:02.080 --> 00:15:05.400
+It was launched in 2022,
+and it's a coalition
+
+00:15:05.400 --> 00:15:10.640
+of technologists, academic researchers
+and community organizations.
+
+00:15:11.240 --> 00:15:15.560
+The goal is to collect
+a diverse speech dataset for training
+
+00:15:15.560 --> 00:15:19.760
+speech recognition models to do better
+at recognizing atypical speech.
+
+00:15:21.400 --> 00:15:24.080
+It's building on some of the lessons
+learned in Project
+
+00:15:24.080 --> 00:15:28.400
+Euphonia, paying attention
+to Ethical data collection.
+
+00:15:28.920 --> 00:15:31.400
+So individuals are paid for participating.
+
+00:15:31.400 --> 00:15:34.720
+Their samples are de-identified
+to protect privacy.
+
+00:15:35.280 --> 00:15:36.680
+The dataset is private.
+
+00:15:36.680 --> 00:15:39.800
+It is managed by UIUC
+
+00:15:40.320 --> 00:15:45.200
+and will be made available
+for research purposes,
+
+00:15:45.200 --> 00:15:49.360
+and this effort is backed
+by cross-industry very broad support
+
+00:15:49.360 --> 00:15:52.960
+from Amazon, Apple, Google, 
+Meta and Microsoft.
+
+00:15:53.720 --> 00:15:57.040
+It's going to enable
+both academic researchers
+
+00:15:57.040 --> 00:15:59.160
+and industry partners to make progress.
+
+00:16:00.920 --> 00:16:02.480
+Although the current work is focused on
+
+00:16:02.480 --> 00:16:07.720
+speech data, this is in general
+a model that could be used for other data
+
+00:16:07.960 --> 00:16:10.560
+that's needed to make models
+more inclusive
+
+00:16:11.720 --> 00:16:14.000
+so we could think of touch data.
+
+00:16:14.720 --> 00:16:18.600
+And there are already significant efforts
+going on together.
+
+00:16:18.600 --> 00:16:26.040
+Sign language video data
+for for sign language translation.
+
+00:16:26.040 --> 00:16:29.680
+Then Project Relate
+is an example of the kind of app
+
+00:16:29.840 --> 00:16:31.960
+that can be developed
+with this kind of data.
+
+00:16:32.520 --> 00:16:36.800
+It's an Android app
+that provides individuals
+
+00:16:36.800 --> 00:16:40.440
+with the ability to build their own
+personalized speech models
+
+00:16:40.880 --> 00:16:44.720
+and then use them for text to speech,
+for communication,
+
+00:16:45.000 --> 00:16:51.200
+for communicating with home assistants.
+
+00:16:51.200 --> 00:16:54.720
+Personalized speech
+models look really promising,
+
+00:16:55.720 --> 00:16:58.880
+and potentially a similar approach
+could be taken into build
+
+00:16:58.880 --> 00:17:02.760
+personalized models
+for other things like gesture recognition,
+
+00:17:02.800 --> 00:17:07.040
+touch screen interactions,
+interpreting inaccurate typing.
+
+00:17:07.160 --> 00:17:08.320
+I think there's
+
+00:17:08.320 --> 00:17:17.800
+there's a world of opportunity there
+that we haven't really begun to explore.
+
+00:17:17.800 --> 00:17:21.800
+So now that we know we can build
+effective personal models
+
+00:17:22.160 --> 00:17:26.120
+from just a few hundred utterances,
+can we learn from this?
+
+00:17:26.400 --> 00:17:31.520
+How to build more inclusive general models
+would be a really important goal.
+
+00:17:32.240 --> 00:17:34.720
+Can we improve the 
+performance even further
+
+00:17:34.720 --> 00:17:38.480
+by drawing on a person's
+frequently used vocabulary?
+
+00:17:39.080 --> 00:17:41.800
+Can we prime models with vocabulary
+
+00:17:41.800 --> 00:17:45.400
+from the current context?
+
+00:17:45.400 --> 00:17:50.680
+And as Shivan Sing mentioned yesterday,
+we're beginning to be able to combine
+
+00:17:50.680 --> 00:17:53.760
+text, image and audio sources to provide
+
+00:17:53.760 --> 00:17:56.480
+a richer context for AI to use.
+
+00:17:57.080 --> 00:17:59.640
+So there's very fast progress happening
+
+00:17:59.640 --> 00:18:03.320
+in all of these areas.
+
+00:18:03.320 --> 00:18:08.000
+Just as another example, the best student
+paper at the Assets 2022 conference
+
+00:18:08.360 --> 00:18:13.480
+was using vocabularies that were generated
+automatically from from photographs
+
+00:18:13.720 --> 00:18:18.120
+to prime the word prediction
+component of a communication system,
+
+00:18:18.520 --> 00:18:21.320
+for a more efficient conversation around those
+
+00:18:21.320 --> 00:18:24.920
+photographs.
+
+00:18:24.920 --> 00:18:25.480
+Finally,
+
+00:18:26.480 --> 00:18:28.400
+bring your own model.
+
+00:18:28.400 --> 00:18:34.080
+I really agree with Shaomei Wu
+when she said yesterday
+
+00:18:34.400 --> 00:18:39.720
+that use cases of media
+creation are under investigated,
+
+00:18:40.280 --> 00:18:43.880
+we can apply personalized models
+in content creation.
+
+00:18:44.400 --> 00:18:47.360
+Think about plugging
+in your personal speech model
+
+00:18:47.680 --> 00:18:52.720
+to contribute captions for your
+livestreamed audio for this meeting.
+
+00:18:52.720 --> 00:18:56.720
+The potential is huge
+and web standards might need to evolve
+
+00:18:56.720 --> 00:19:03.720
+to support
+some of these kinds of use cases.
+
+00:19:03.720 --> 00:19:04.320
+Okay.
+
+00:19:05.000 --> 00:19:08.840
+Next part.
+When we when we talk about assistive AI,
+
+00:19:09.120 --> 00:19:11.640
+we're often talking about technologies
+that are
+
+00:19:11.880 --> 00:19:15.920
+that are being applied at the point
+of consumption, helping an individual
+
+00:19:15.920 --> 00:19:20.960
+to overcome accessibility barriers
+in digital content or in the world.
+
+00:19:20.960 --> 00:19:26.640
+And I want to focus this section on
+AI at source and why that is so important.
+
+00:19:27.520 --> 00:19:30.920
+Powerful AI tools in the hands of users
+
+00:19:31.360 --> 00:19:34.080
+don't mean that authors
+can forget about accessibility,
+
+00:19:35.000 --> 00:19:39.320
+and we've been talking about many examples
+of this through this symposium.
+
+00:19:39.320 --> 00:19:45.760
+But here are a few
+that appealed to me.
+
+00:19:45.760 --> 00:19:48.760
+So I'm showing a figure from a paper.
+
+00:19:49.280 --> 00:19:52.520
+The figure is captioned user response time
+
+00:19:52.520 --> 00:19:57.200
+by authentication condition,
+and the figure itself is a box plot.
+
+00:19:57.200 --> 00:20:00.920
+It shows response times from an experiment
+for six different
+
+00:20:01.040 --> 00:20:03.400
+experimental conditions.
+
+00:20:03.400 --> 00:20:06.040
+So it's a pretty complex figure.
+
+00:20:06.400 --> 00:20:11.160
+And if I'm going to publish this
+in my paper, my paper is available
+
+00:20:11.160 --> 00:20:15.000
+and I need to provide a description
+of this image.
+
+00:20:15.000 --> 00:20:16.520
+There's so much information here.
+
+00:20:18.080 --> 00:20:20.480
+When faced with this task,
+
+00:20:20.480 --> 00:20:24.520
+about 50% of of academic authors
+
+00:20:24.520 --> 00:20:28.120
+resort to simply
+repeating the caption of the figure.
+
+00:20:28.920 --> 00:20:32.240
+And this is really no help at all
+to a blind scholar.
+
+00:20:32.680 --> 00:20:35.040
+They can already read the caption
+that's in text.
+
+00:20:35.800 --> 00:20:38.720
+So usually the caption is saying
+
+00:20:38.920 --> 00:20:42.200
+what information you'll find
+in the figure, but it's not giving you
+
+00:20:42.200 --> 00:20:46.640
+the actual information
+that's in the figure.
+
+00:20:46.640 --> 00:20:49.440
+Now, as we discussed in yesterday's panel,
+
+00:20:50.200 --> 00:20:53.400
+that blind scholar reading
+my paper could use
+
+00:20:53.440 --> 00:20:57.800
+AI to get a description of the figure,
+but AI doesn't
+
+00:20:57.800 --> 00:21:01.520
+really have the context
+to generate a good description.
+
+00:21:02.080 --> 00:21:06.040
+Only the author knows
+what's important to convey.
+
+00:21:06.040 --> 00:21:09.120
+At the same time,
+most authors aren't familiar
+
+00:21:09.120 --> 00:21:12.120
+with the guidelines
+for describing images like this,
+
+00:21:12.800 --> 00:21:16.080
+and writing
+a description can seem like a chore.
+
+00:21:16.080 --> 00:21:20.320
+That's why I really love the ideas
+that Amy Powell shared yesterday
+
+00:21:20.320 --> 00:21:25.680
+for ways that a tool could help content
+creators with their own description tasks,
+
+00:21:26.840 --> 00:21:29.480
+perhaps by generating an overall structure
+
+00:21:30.000 --> 00:21:32.720
+or an initial attempt
+that a person can edit.
+
+00:21:33.360 --> 00:21:34.160
+I mean, there are
+
+00:21:34.160 --> 00:21:37.760
+there are existing guidelines
+for describing different kinds of chart.
+
+00:21:38.200 --> 00:21:43.520
+Why not teach AI
+how to identify different kinds of chart
+
+00:21:43.520 --> 00:21:51.280
+and sort of generate
+a beginning description?
+
+00:21:51.280 --> 00:21:55.800
+And Shivam Singh was talking yesterday as
+well about recent progress in this area.
+
+00:21:57.120 --> 00:22:00.200
+So ideally AI could refine
+
+00:22:00.560 --> 00:22:03.800
+its text in an interactive dialog
+with the author
+
+00:22:04.240 --> 00:22:07.640
+and then the resulting description
+would be provided in the paper
+
+00:22:07.880 --> 00:22:13.440
+and anyone could access it
+whether or not they had their own AI.
+
+00:22:13.440 --> 00:22:17.720
+So that's what I mean by applying
+AI at source where there's a person
+
+00:22:17.720 --> 00:22:20.960
+with the context to make sure
+the description is appropriate
+
+00:22:21.560 --> 00:22:23.480
+and that can provide a better description.
+
+00:22:24.800 --> 00:22:27.080
+Of course,
+it can only provide one description.
+
+00:22:27.080 --> 00:22:31.720
+There is also an important role
+for image understanding that can support
+
+00:22:31.960 --> 00:22:34.360
+personalized exploration of images
+
+00:22:35.600 --> 00:22:37.880
+so that a reader could query information
+
+00:22:37.880 --> 00:22:40.200
+that wasn't available in a short
+description.
+
+00:22:41.040 --> 00:22:43.200
+Like what were the maximum and minimum
+
+00:22:43.200 --> 00:22:46.200
+response times for the gesture condition
+in this experiment?
+
+00:22:46.880 --> 00:22:52.520
+I'm not saying that AI at source
+is the only solution, but it's important
+
+00:22:52.520 --> 00:22:58.000
+and perhaps it's an undeveloped piece.
+
+00:22:58.000 --> 00:22:59.320
+Here's the second example.
+
+00:22:59.320 --> 00:23:01.120
+I love examples
+
+00:23:01.880 --> 00:23:04.120
+as we were just talking about
+in the earlier panel.
+
+00:23:04.120 --> 00:23:08.240
+Text transformations
+can make written content more accessible.
+
+00:23:08.880 --> 00:23:12.040
+So, for example, using literal language
+
+00:23:12.040 --> 00:23:14.760
+is preferable for cognitive accessibility.
+
+00:23:15.680 --> 00:23:19.880
+So an idiom like she was in for a penny
+in for a pound
+
+00:23:20.400 --> 00:23:26.040
+can be hard to spot if you're not familiar
+with that particular idiom.
+
+00:23:26.040 --> 00:23:29.560
+It can be very confusing
+if you try to interpret it literally.
+
+00:23:30.680 --> 00:23:31.880
+Content authors might
+
+00:23:31.880 --> 00:23:34.160
+use this kind of language
+without realizing
+
+00:23:35.200 --> 00:23:40.120
+language models could transform text
+to improve accessibility in many ways.
+
+00:23:40.120 --> 00:23:45.240
+And one is by replacing idioms
+with more literal phrasing.
+
+00:23:45.240 --> 00:23:48.800
+So here I asked a language model
+to rephrase the sentence
+
+00:23:48.800 --> 00:23:52.640
+without the idiom,
+and it came up with a very sensible,
+
+00:23:52.760 --> 00:23:55.520
+although a little complex
+little literal replacement.
+
+00:23:55.880 --> 00:23:59.600
+She decided to fully commit
+to the situation no matter the cost.
+
+00:24:01.560 --> 00:24:03.320
+Again, this could be applied
+
+00:24:03.320 --> 00:24:06.440
+as a user tool and as a tool for authors
+
+00:24:06.800 --> 00:24:10.640
+to help them identify where their writing
+could be misinterpreted.
+
+00:24:11.680 --> 00:24:14.200
+The one puts the onus on the consumer
+
+00:24:14.240 --> 00:24:18.680
+to bring their own solution, apply
+it and be alert for potential mistakes.
+
+00:24:19.120 --> 00:24:21.920
+The other fixes
+the potential access problems
+
+00:24:22.120 --> 00:24:25.120
+at source, where the author 
+can verify accuracy
+
+00:24:27.040 --> 00:24:30.240
+and as I mentioned
+earlier, because today's large language
+
+00:24:30.240 --> 00:24:34.520
+models are not connected to a ground truth
+and they do have a tendency
+
+00:24:34.520 --> 00:24:35.800
+to hallucinate.
+
+00:24:35.800 --> 00:24:39.160
+Applying them at source
+is one way to reap the benefits
+
+00:24:39.160 --> 00:24:43.640
+much more quickly
+without risking harm to vulnerable users.
+
+00:24:43.640 --> 00:24:47.200
+Once we collect language models,
+connect them to facts
+
+00:24:48.280 --> 00:24:50.560
+or connect
+speech to the domain of discourse,
+
+00:24:50.920 --> 00:24:53.760
+we will really see a huge leap
+in performance,
+
+00:24:54.280 --> 00:25:01.000
+reliability and trustworthiness.
+
+00:25:01.000 --> 00:25:05.840
+So in the previous two examples,
+AI could be applied at source.
+
+00:25:06.440 --> 00:25:10.040
+What about when the
+AI has to be on the consumer side,
+
+00:25:10.200 --> 00:25:13.800
+like when using text to speech,
+to read out text on the web.
+
+00:25:15.280 --> 00:25:15.840
+On the screen
+
+00:25:15.840 --> 00:25:20.120
+here is the start of the Google 
+information sidebar about Edinburgh.
+
+00:25:20.480 --> 00:25:25.720
+The capital city of Scotland. Is a heading,
+subheading in the main text paragraph.
+
+00:25:27.240 --> 00:25:28.760
+Text to speech is making
+
+00:25:28.760 --> 00:25:34.600
+huge advances with more and more natural
+sounding voices becoming available
+
+00:25:34.600 --> 00:25:38.160
+and the capability
+of more expressive speech,
+
+00:25:38.480 --> 00:25:41.560
+which itself makes comprehension
+more easy.
+
+00:25:42.840 --> 00:25:45.080
+And expressiveness can include things
+
+00:25:45.080 --> 00:25:47.840
+like adjusting the volume, the prosody.
+
+00:25:49.120 --> 00:25:52.720
+When reading a heading, maybe
+I would naturally read it a little louder.
+
+00:25:53.200 --> 00:25:55.280
+Pause afterwards.
+
+00:25:55.960 --> 00:26:00.760
+For a TTS service to do
+the best job reading out text on the web.
+
+00:26:01.240 --> 00:26:07.520
+It helps to have the semantics
+explicitly expressed.
+
+00:26:07.520 --> 00:26:12.240
+So for example, the use of heading mark up
+on Edinburgh on this passage.
+
+00:26:13.480 --> 00:26:16.280
+It's also important
+that domain specific terms
+
+00:26:16.280 --> 00:26:19.920
+and people's names or place
+names are pronounced correctly.
+
+00:26:20.600 --> 00:26:23.920
+So many people
+not from the UK on first sight,
+
+00:26:23.920 --> 00:26:26.960
+they pronounce Edinburgh.
+
+00:26:27.760 --> 00:26:28.520
+Web standards,
+
+00:26:28.520 --> 00:26:32.520
+if they're applied properly,
+can mark up the semantics like headings
+
+00:26:32.520 --> 00:26:37.680
+and pronunciation of specialized
+or unusual words, helping the downstream AI
+
+00:26:37.760 --> 00:26:41.320
+to perform better. In fact,
+
+00:26:42.520 --> 00:26:42.880
+AI could
+
+00:26:42.880 --> 00:26:47.600
+also be used to identify the intended
+structure and compare against the markup,
+
+00:26:48.120 --> 00:26:51.440
+or identify unusual words or acronyms
+where
+
+00:26:51.440 --> 00:26:53.840
+pronunciation information
+could be helpful,
+
+00:26:54.760 --> 00:26:59.120
+and then the passage can be read
+appropriately by your preferred text
+
+00:26:59.120 --> 00:27:02.160
+to speech Voice at your preferred
+speed and pitch.
+
+00:27:04.640 --> 00:27:07.480
+Can also be used by a speech
+
+00:27:07.480 --> 00:27:11.320
+to text model
+to marry the vocabulary on the page
+
+00:27:11.320 --> 00:27:14.120
+with what you're saying
+as you're interacting with the page
+
+00:27:16.120 --> 00:27:18.680
+to use voice controls.
+
+00:27:18.680 --> 00:27:23.400
+So I'm showing this example to illustrate
+the web accessibility standards
+
+00:27:23.600 --> 00:27:28.840
+work together with assistive AI techniques
+to enable the best outcome. And
+
+00:27:29.480 --> 00:27:34.120
+many uses of assistive technology
+can benefit from this information.
+
+00:27:34.120 --> 00:27:37.480
+So thinking about applying AI at source,
+
+00:27:37.960 --> 00:27:40.840
+there's an important role here for A.I.
+
+00:27:40.840 --> 00:27:44.200
+that makes sure that the visual
+and structural DOM
+
+00:27:44.280 --> 00:27:52.360
+representations are aligned.
+
+00:27:52.360 --> 00:27:55.320
+So I just want to reiterate the
+
+00:27:56.760 --> 00:28:00.200
+the powerful benefits of applying AI
+at authoring time
+
+00:28:00.440 --> 00:28:04.200
+that these examples illustrate.
+
+00:28:04.200 --> 00:28:07.520
+So for software,
+removing the burden from people
+
+00:28:07.520 --> 00:28:11.080
+with disabilities
+to supply their own tools to bridge gaps.
+
+00:28:12.040 --> 00:28:14.400
+Secondly, it benefits more people,
+
+00:28:14.400 --> 00:28:17.880
+including those people
+who don't have access to the AI tools,
+
+00:28:18.280 --> 00:28:21.960
+people with low end devices,
+poor internet connectivity,
+
+00:28:22.160 --> 00:28:25.760
+less technology literacy.
+
+00:28:25.760 --> 00:28:31.080
+Thirdly, content creator can verify
+the accuracy and safety of suggestions,
+
+00:28:31.320 --> 00:28:35.400
+mitigating harms from bias or errors
+because they have the context
+
+00:28:36.560 --> 00:28:41.280
+and AI can also potentially mitigate harms
+in other ways.
+
+00:28:41.280 --> 00:28:47.640
+For example, flagging videos, images
+or animations that might trigger adverse
+
+00:28:47.640 --> 00:28:50.720
+health consequences
+for some people like flashing lights.
+
+00:28:52.400 --> 00:28:55.440
+So AI inside is likely to reach more people
+
+00:28:56.080 --> 00:28:58.440
+than AI provided by end users.
+
+00:28:58.440 --> 00:29:01.720
+I think this is how
+we'll get the most benefit for the least
+
+00:29:01.720 --> 00:29:06.080
+harm.
+
+00:29:06.080 --> 00:29:11.360
+It's also a huge opportunity
+to make accessibility easier to achieve
+
+00:29:12.280 --> 00:29:16.760
+AI can make it much quicker and easier
+to generate the accessibility information
+
+00:29:17.000 --> 00:29:19.880
+like captions or image descriptions
+as we've discussed,
+
+00:29:20.680 --> 00:29:23.640
+and lowering the barrier to entry with
+assistive
+
+00:29:24.440 --> 00:29:29.840
+tools is one way to encourage
+good accessibility practice.
+
+00:29:29.840 --> 00:29:33.680
+AI can proactively identify
+where accessibility work is needed
+
+00:29:35.680 --> 00:29:37.720
+and evaluate designs
+
+00:29:37.720 --> 00:29:40.000
+before
+even a line of code has been written.
+
+00:29:41.720 --> 00:29:43.240
+But perhaps
+
+00:29:43.240 --> 00:29:47.480
+the biggest opportunity and
+the greatest need for our attention
+
+00:29:47.880 --> 00:29:50.920
+is the use of AI to generate code.
+
+00:29:51.440 --> 00:29:54.000
+Which brings us to the final section
+
+00:29:54.800 --> 00:29:56.720
+of this talk.
+
+00:29:57.120 --> 00:29:59.480
+So in previous section
+
+00:29:59.480 --> 00:30:02.200
+we talked about ways that I can be applied
+
+00:30:02.480 --> 00:30:05.800
+in content creation
+to help build accessibility in,
+
+00:30:06.800 --> 00:30:11.120
+but AI itself is also impacting
+the way websites are designed
+
+00:30:11.120 --> 00:30:14.760
+and developed
+independent of accessibility.
+
+00:30:14.760 --> 00:30:19.640
+So in this section, let's
+think about how this change will impact
+
+00:30:19.640 --> 00:30:23.320
+our ability to bake accessibility in
+and can we use
+
+00:30:23.480 --> 00:30:25.320
+AI to help us.
+
+00:30:28.440 --> 00:30:30.800
+As accessibility advocates
+
+00:30:30.800 --> 00:30:36.560
+we have long been pushing
+the need to shift left, and by that
+
+00:30:36.560 --> 00:30:41.680
+we mean paying attention to accessibility
+right from the start of a project.
+
+00:30:42.080 --> 00:30:44.080
+When you're understanding
+the market potential,
+
+00:30:44.080 --> 00:30:47.880
+when you're gathering requirement,
+when you're understanding and evaluating
+
+00:30:47.880 --> 00:30:53.000
+risks, developing designs and developing
+the code that implements those designs.
+
+00:30:55.600 --> 00:30:56.440
+In a reactive
+
+00:30:56.440 --> 00:30:59.720
+approach to accessibility,
+which is too often what happens,
+
+00:31:00.400 --> 00:31:04.960
+the first attention to accessibility comes
+when automated tools
+
+00:31:04.960 --> 00:31:07.760
+are run on an already implemented system.
+
+00:31:09.520 --> 00:31:11.680
+Even then, such tools
+
+00:31:11.680 --> 00:31:14.480
+don't find all issues and
+
+00:31:15.840 --> 00:31:17.920
+may not even find
+the most significant ones
+
+00:31:18.440 --> 00:31:21.280
+which can lead teams to prioritize poorly.
+
+00:31:22.240 --> 00:31:25.880
+So with that, our reactive approach
+
+00:31:26.480 --> 00:31:30.920
+teams, can be kind of 
+overwhelmed with hundreds
+
+00:31:30.920 --> 00:31:35.360
+or even thousands of issues
+kind of late in their process and
+
+00:31:36.760 --> 00:31:38.360
+have difficulty tackling it.
+
+00:31:38.360 --> 00:31:44.240
+It makes accessibility
+seem much harder than than it could be.
+
+00:31:44.240 --> 00:31:47.280
+So this morning's panel,
+we discussed ways that AI can be used
+
+00:31:47.600 --> 00:31:50.560
+in testing to help
+find accessibility problems.
+
+00:31:52.080 --> 00:31:54.800
+AI is also already being used earlier
+
+00:31:54.800 --> 00:31:57.600
+in the process by designers and developers.
+
+00:31:58.840 --> 00:32:00.680
+In development, for example,
+
+00:32:01.880 --> 00:32:04.040
+GitHub Copilot is
+
+00:32:04.040 --> 00:32:07.200
+AI model that makes code completion
+predictions
+
+00:32:07.880 --> 00:32:12.200
+and GitHub claims that in files
+where it's turned on nearly
+
+00:32:12.200 --> 00:32:18.920
+40% of code is being written by GitHub
+copilot in popular
+
+00:32:18.960 --> 00:32:23.520
+coding languages.
+
+00:32:23.520 --> 00:32:27.640
+There's also systems
+that generate code from design wireframes
+
+00:32:27.880 --> 00:32:32.120
+or from high resolution mockups,
+or even from text prompts.
+
+00:32:32.120 --> 00:32:34.920
+So it's incumbent on us to ask
+
+00:32:35.240 --> 00:32:37.560
+what data are those systems trained on
+
+00:32:38.800 --> 00:32:41.480
+in the case of copilot
+is trained on GitHub
+
+00:32:41.480 --> 00:32:45.360
+open source project code.
+
+00:32:45.360 --> 00:32:48.920
+So what's the probability
+that this existing code is accessible?
+
+00:32:49.880 --> 00:32:54.800
+We know that we still have a lot of work
+to do to make digital accessibility
+
+00:32:54.800 --> 00:32:58.320
+the norm on the web.
+Today is the exception,
+
+00:32:59.680 --> 00:33:03.040
+and many of you
+probably know WebAIM does
+
+00:33:03.040 --> 00:33:07.280
+an annual survey
+of the top million website home pages.
+
+00:33:07.800 --> 00:33:11.920
+It runs an automated tool
+and puts the issues that it found
+
+00:33:12.800 --> 00:33:15.200
+almost 97% of
+
+00:33:15.600 --> 00:33:19.480
+the million pages
+had accessibility issues,
+
+00:33:20.000 --> 00:33:22.520
+and that's only the automatically
+detectable ones.
+
+00:33:23.960 --> 00:33:26.840
+They found
+an average of 50 issues per page.
+
+00:33:26.840 --> 00:33:30.440
+And they also found the page
+complexity is growing
+
+00:33:30.440 --> 00:33:33.480
+significantly.
+
+00:33:33.480 --> 00:33:37.160
+Over 80% of the pages
+they looked at had low contrast
+
+00:33:37.400 --> 00:33:40.720
+text issues.
+
+00:33:40.720 --> 00:33:44.640
+More than half had alternative text
+missing for images,
+
+00:33:45.440 --> 00:33:47.560
+almost half had missing form labels.
+
+00:33:48.160 --> 00:33:51.160
+So even though these are issues,
+they're easy to find with
+
+00:33:51.160 --> 00:33:54.800
+the automated tools that we have today,
+they're still not being addressed.
+
+00:33:55.240 --> 00:33:59.840
+These are very basic accessibility issues
+and they're everywhere.
+
+00:33:59.840 --> 00:34:03.440
+So we know what this will surely mean
+for AI models
+
+00:34:03.600 --> 00:34:07.080
+learning from today's web.
+
+00:34:07.120 --> 00:34:10.840
+And here's an example
+of how this might be playing out already.
+
+00:34:11.520 --> 00:34:14.840
+So code
+
+00:34:14.840 --> 00:34:18.560
+snippets are one of the most common
+things that developers search for,
+
+00:34:19.280 --> 00:34:23.720
+and a large language
+model can come up with pretty decent code snippets.
+
+00:34:23.720 --> 00:34:27.760
+And this is this is a game changer
+for developers and it's already happening.
+
+00:34:28.240 --> 00:34:31.480
+So let's say a
+developer is new to Flutter.
+
+00:34:31.920 --> 00:34:36.120
+Flutter is Google's open
+source mobile app development platform.
+
+00:34:36.960 --> 00:34:40.920
+They want to create a button labeled
+with an icon known as an icon button.
+
+00:34:41.880 --> 00:34:43.280
+So on this slide
+
+00:34:43.280 --> 00:34:49.560
+is the code that ChatGPT produces
+when it's asked for a Flutter code
+
+00:34:49.560 --> 00:34:51.760
+for an icon button
+
+00:34:51.920 --> 00:34:56.480
+along with the code snippet,
+it also provided some explanation
+
+00:34:56.480 --> 00:34:58.720
+and it even links
+to the documentation page.
+
+00:34:58.720 --> 00:35:00.800
+So it's pretty useful.
+
+00:35:01.240 --> 00:35:03.080
+And the code it gave for an icon
+
+00:35:03.080 --> 00:35:08.120
+button includes a reference to what icons
+to use and a function to execute
+
+00:35:08.520 --> 00:35:13.640
+when the button is pressed.
+
+00:35:13.640 --> 00:35:18.160
+There's really just one
+important difference between this example
+
+00:35:18.160 --> 00:35:22.280
+generated by ChatGPT and the example given
+
+00:35:22.280 --> 00:35:26.480
+in the Flutter documentation.
+
+00:35:26.480 --> 00:35:29.320
+ChatGPT didn't include a tooltip,
+
+00:35:30.000 --> 00:35:33.560
+which means there's
+no text label associated with this button.
+
+00:35:34.240 --> 00:35:37.880
+That's an accessibility problem.
+
+00:35:37.880 --> 00:35:39.000
+Let's give it credit.
+
+00:35:39.000 --> 00:35:41.520
+ChatGPT did mention that it's possible
+to add a tool,
+
+00:35:42.280 --> 00:35:45.040
+but developers
+look first at the code example.
+
+00:35:45.280 --> 00:35:49.880
+If it's not in the example,
+it's easily missed.
+
+00:35:49.880 --> 00:35:54.080
+But in the training data here,
+it seems the tooltip was not present
+
+00:35:54.320 --> 00:35:59.120
+enough of the time for it to surface
+as an essential component of an icon button.
+
+00:36:02.120 --> 00:36:02.800
+So, you
+
+00:36:02.800 --> 00:36:05.840
+know, there's lots of example code
+available online,
+
+00:36:05.840 --> 00:36:09.960
+but how much of that code demonstrates
+accessible coding practices?
+
+00:36:10.560 --> 00:36:13.640
+Given the state of web accessibility,
+it's likely
+
+00:36:13.640 --> 00:36:17.080
+the answer is not much.
+
+00:36:17.080 --> 00:36:22.200
+So our AI models are not going to learn
+to generate accessible code.
+
+00:36:23.200 --> 00:36:27.080
+It's really it's just like the societal bias
+
+00:36:27.080 --> 00:36:31.400
+of the past being entrenched in training
+sets of today.
+
+00:36:31.400 --> 00:36:36.840
+The past lack of accessibility
+could be propagated into the future.
+
+00:36:36.840 --> 00:36:41.000
+So here we have an opportunity
+and a potential risk.
+
+00:36:41.840 --> 00:36:44.320
+AI can help to write accessible code,
+
+00:36:44.840 --> 00:36:47.480
+but it needs to be trained
+on accessible code
+
+00:36:47.720 --> 00:36:50.480
+or augmented with the tools that can
+
+00:36:50.480 --> 00:36:53.480
+correct accessibility issues.
+
+00:36:53.480 --> 00:36:55.760
+And I think it's important
+to point out as well
+
+00:36:56.440 --> 00:37:00.200
+that I deliberately use
+an example in a framework
+
+00:37:00.520 --> 00:37:06.640
+rather than HTML example, because that's
+what developers are writing in these days.
+
+00:37:07.120 --> 00:37:10.000
+They're not writing raw HTML,
+
+00:37:10.440 --> 00:37:13.720
+their writing of frameworks,
+and there are many, many different
+
+00:37:13.880 --> 00:37:18.520
+frameworks, each with 
+their own levels of accessibility and
+
+00:37:21.680 --> 00:37:22.400
+ways to
+
+00:37:22.400 --> 00:37:26.720
+incorporate accessibility.
+
+00:37:26.720 --> 00:37:28.840
+So one thing
+
+00:37:30.080 --> 00:37:34.560
+is that the theme of this morning
+about data being really essential
+
+00:37:35.600 --> 00:37:37.680
+comes up here again.
+
+00:37:37.680 --> 00:37:39.960
+Do we have training data
+
+00:37:40.320 --> 00:37:44.800
+to train a code prediction model?
+
+00:37:44.800 --> 00:37:48.600
+Perhaps with transfer learning
+to generate more accessible code?
+
+00:37:49.880 --> 00:37:52.840
+Do we have test sets even that we can test
+
+00:37:54.440 --> 00:37:55.880
+code generation
+
+00:37:55.880 --> 00:37:58.880
+for its ability
+to produce accessible code?
+
+00:38:00.080 --> 00:38:04.160
+So when we're developing datasets
+
+00:38:04.480 --> 00:38:07.480
+for either training or testing,
+
+00:38:07.880 --> 00:38:09.960
+we have to think in terms of the diversity
+
+00:38:09.960 --> 00:38:15.000
+of of frameworks and methods
+that developers are actually working with,
+
+00:38:15.000 --> 00:38:18.440
+if we want to catch those issues
+at the point
+
+00:38:18.760 --> 00:38:20.800
+of creation.
+
+00:38:26.240 --> 00:38:28.320
+Again, where, where,
+
+00:38:28.320 --> 00:38:31.560
+AI is generating code
+for a whole user interface
+
+00:38:31.880 --> 00:38:37.520
+based on a visual design,
+we need to be thinking about what
+
+00:38:37.520 --> 00:38:43.320
+semantics should that design tool capture
+to support the generation of code
+
+00:38:43.600 --> 00:38:46.800
+with the right structure,
+the right roles for each area,
+
+00:38:47.120 --> 00:38:51.280
+the basic fundamentals
+of accessibility. So
+
+00:38:52.880 --> 00:38:55.080
+a final call to action for
+
+00:38:55.080 --> 00:39:00.200
+the community here is to think about what
+what do we need to do here, whether it is
+
+00:39:00.480 --> 00:39:06.080
+advocacy, awareness raising, research,
+data gathering, standards
+
+00:39:06.440 --> 00:39:09.840
+or refining models
+to write accessible code.
+
+00:39:10.760 --> 00:39:12.920
+This technology is so really young.
+
+00:39:12.920 --> 00:39:15.160
+It has a lot of room for improvement.
+
+00:39:15.160 --> 00:39:19.880
+This is a perfect time for us to define
+how accessibility
+
+00:39:19.880 --> 00:39:25.160
+should be built in
+and to experiment with different ways.
+
+00:39:25.160 --> 00:39:30.080
+And, you know, in my opinion,
+this perhaps more than anything, is
+
+00:39:30.080 --> 00:39:34.360
+the trend that we need to get in front
+of as an accessibility
+
+00:39:35.480 --> 00:39:36.760
+community, 
+before the poor
+
+00:39:36.760 --> 00:39:40.920
+practices of the past are entrenched
+in the automated code
+
+00:39:40.920 --> 00:39:43.960
+generators of the future.
+
+00:39:43.960 --> 00:39:47.360
+AI is already shifting left,
+so we must make sure
+
+00:39:47.360 --> 00:39:53.360
+accessibility goes with it.
+
+00:39:53.360 --> 00:40:00.080
+So to summarize, we can broaden access
+to assistive AI through personalization.
+
+00:40:01.160 --> 00:40:01.600
+To get the
+
+00:40:01.600 --> 00:40:05.480
+benefits of AI based empowerment
+to all users,
+
+00:40:05.480 --> 00:40:09.680
+we should make sure that AI integration
+with authoring tools
+
+00:40:09.680 --> 00:40:15.280
+and processes is applied where it can
+to make it easier to meet accessibility
+
+00:40:15.280 --> 00:40:17.920
+standards and improve the overall standard.
+
+00:40:18.600 --> 00:40:21.320
+Born accessible is still our goal
+
+00:40:22.520 --> 00:40:26.840
+and AI can help us get there
+if we steer it right. As a community
+
+00:40:26.840 --> 00:40:30.560
+we have, we have a lot of work to do,
+but I'm really excited
+
+00:40:30.640 --> 00:40:35.840
+about the potential here.
+
+00:40:35.840 --> 00:40:38.200
+So thank you all for listening.
+
+00:40:38.200 --> 00:40:41.960
+Thanks to my Google colleagues and the IBM
+
+00:40:41.960 --> 00:40:44.200
+accessibility team for
+
+00:40:45.920 --> 00:40:48.840
+feedback and ideas
+and great conversations.
+
+00:40:49.440 --> 00:40:54.200
+And now I want to invite Jutta to to join
+
+00:40:54.960 --> 00:41:00.800
+and let's let's have the conversation.
+
+00:41:00.800 --> 00:41:02.600
+Thank you, Shari.
+
+00:41:02.600 --> 00:41:05.920
+And I really, really appreciate
+your coverage of authoring
+
+00:41:05.920 --> 00:41:09.440
+and the prevention of barriers
+and the emphasis on timely,
+
+00:41:09.440 --> 00:41:12.800
+proactive measures.
+
+00:41:12.800 --> 00:41:17.240
+There may be an opportunity
+actually to relook at authoring
+
+00:41:17.560 --> 00:41:21.800
+environments, etc., within W3C.
+
+00:41:21.800 --> 00:41:26.400
+Yeah, actually, just just to respond
+to that really quickly, I do wonder, like,
+
+00:41:26.480 --> 00:41:31.800
+should we be focusing
+on evaluating frameworks
+
+00:41:31.800 --> 00:41:34.760
+more than evaluating individual pages?
+
+00:41:35.080 --> 00:41:37.800
+You know,
+I would we get more bang for our buck
+
+00:41:38.120 --> 00:41:40.840
+if that was where we paid attention?
+
+00:41:40.840 --> 00:41:42.080
+Yes, exactly.
+
+00:41:42.080 --> 00:41:44.880
+The opportunity to add, and especially as
+
+00:41:46.160 --> 00:41:47.400
+these tools are
+
+00:41:47.400 --> 00:41:50.960
+now also assisting authors,
+which was part of what
+
+00:41:51.480 --> 00:41:53.920
+the authoring of the authoring
+
+00:41:54.480 --> 00:41:57.000
+standards were looking at, prompting
+
+00:41:57.920 --> 00:42:03.080
+providing the necessary supports
+and making it possible for individuals
+
+00:42:03.080 --> 00:42:07.080
+with disabilities
+to also become authors of code
+
+00:42:07.080 --> 00:42:11.720
+and to produce code so the greater
+participation of the community,
+
+00:42:12.480 --> 00:42:16.040
+I think, will create that
+some of that culture shift.
+
+00:42:17.040 --> 00:42:21.200
+So thank you very much for covering this.
+
+00:42:21.200 --> 00:42:24.560
+So in terms of the questions
+that we were going to talk about,
+
+00:42:24.840 --> 00:42:29.040
+you had suggested that we might start
+with one of the thorny questions
+
+00:42:29.040 --> 00:42:33.320
+that was asked yesterday
+that we didn't get time to respond to.
+
+00:42:34.520 --> 00:42:38.880
+So the the question was,
+do you think that AI
+
+00:42:38.960 --> 00:42:44.240
+and big companies such as Google
+and Meta driving research in AI
+
+00:42:44.240 --> 00:42:49.240
+can be problematic
+with respect to social societal issues
+
+00:42:49.520 --> 00:42:52.480
+which don't necessarily garner
+the highest revenue?
+
+00:42:52.920 --> 00:42:55.640
+And if so,
+how do you think we can approach this?
+
+00:42:56.800 --> 00:42:57.960
+Yeah, thank you Jutta 
+
+00:42:57.960 --> 00:43:01.440
+and thank you to the person
+who asked that question too.
+
+00:43:03.000 --> 00:43:05.760
+It's true that company goals and society
+
+00:43:05.760 --> 00:43:09.440
+can pull in different directions.
+
+00:43:09.440 --> 00:43:12.480
+I do think there are benefits to having
+
+00:43:12.480 --> 00:43:16.920
+big companies working on these core models
+because they often
+
+00:43:16.920 --> 00:43:21.880
+have better access to very large datasets
+that can
+
+00:43:23.000 --> 00:43:25.040
+bring breakthroughs that then
+
+00:43:25.040 --> 00:43:27.440
+others can share, then that can help
+
+00:43:28.880 --> 00:43:31.320
+raise the tide
+to raise all boats in a way.
+
+00:43:31.880 --> 00:43:34.840
+But advocacy and policy definitely have
+
+00:43:35.240 --> 00:43:39.640
+an important role to play in
+guiding the application of AI,
+
+00:43:39.640 --> 00:43:45.560
+in the direction of AI research,
+the ways that it's applied.
+
+00:43:45.560 --> 00:43:50.680
+Also, I wanted to say one approach here
+could be through initiatives
+
+00:43:50.680 --> 00:43:54.320
+like the Speech Accessibility Project
+that I talked about.
+
+00:43:54.680 --> 00:43:57.320
+So that's an example of of big tech
+working
+
+00:43:57.320 --> 00:44:00.800
+together with advocacy groups and academia
+
+00:44:01.160 --> 00:44:05.560
+to create data that can be applied
+to many different research projects.
+
+00:44:05.560 --> 00:44:08.280
+And that's a model
+that we could try to replicate.
+
+00:44:08.280 --> 00:44:13.360
+Do you think that that I mean, you've
+talked quite a bit about the opportunity
+
+00:44:13.360 --> 00:44:17.880
+for personalization and of course,
+one of the biggest issues here is that
+
+00:44:18.240 --> 00:44:23.560
+large companies are looking
+for the largest population,
+
+00:44:23.560 --> 00:44:26.920
+the largest profit,
+which means the largest customer base,
+
+00:44:26.920 --> 00:44:30.680
+which tends to push them towards
+thinking about
+
+00:44:30.720 --> 00:44:35.120
+and not thinking about minorities,
+diversity, etc..
+
+00:44:35.120 --> 00:44:38.720
+But the training models
+and the personalization
+
+00:44:40.240 --> 00:44:42.280
+strategies that you've talked about
+
+00:44:42.320 --> 00:44:47.000
+are things that are emerging possibilities
+within large learning models.
+
+00:44:47.320 --> 00:44:51.080
+We have the opportunity to take
+what has already been done
+
+00:44:51.080 --> 00:44:53.720
+generally and apply
+
+00:44:54.080 --> 00:44:57.680
+more personalized,
+smaller data sets, etc..
+
+00:44:58.040 --> 00:45:01.040
+Do you think there's a there's a role
+
+00:45:01.040 --> 00:45:04.960
+for the large companies to prepare the the
+
+00:45:05.440 --> 00:45:08.960
+the ground and then for
+
+00:45:10.240 --> 00:45:12.360
+the remaining issues to
+
+00:45:13.480 --> 00:45:17.000
+piggyback on that
+with with the new training sets?
+
+00:45:17.480 --> 00:45:20.600
+Or do you think even there
+we're going to have
+
+00:45:22.040 --> 00:45:22.920
+both
+
+00:45:22.920 --> 00:45:25.560
+cost and availability issues?
+
+00:45:27.280 --> 00:45:29.920
+Well, you know,
+I mean, I think that the model
+
+00:45:29.920 --> 00:45:33.640
+that you described is
+is is already happening in places
+
+00:45:33.960 --> 00:45:37.160
+like with the
+the speech accessibility project.
+
+00:45:37.800 --> 00:45:41.360
+The ultimate goal would be
+
+00:45:41.360 --> 00:45:45.080
+to have one model that can handle
+
+00:45:46.640 --> 00:45:49.280
+more diverse datasets 
+
+00:45:50.360 --> 00:45:51.680
+and it takes
+
+00:45:52.760 --> 00:45:55.240
+a concerted effort to gather that data.
+
+00:45:56.920 --> 00:45:59.480
+But if a community gathered the data
+
+00:46:00.560 --> 00:46:03.720
+and it was possible
+to contribute that data, then,
+
+00:46:05.200 --> 00:46:08.120
+you know, that's that's another direction
+that we can
+
+00:46:09.200 --> 00:46:13.400
+influence the the larger models
+that are trained on large data.
+
+00:46:14.000 --> 00:46:16.920
+But personalization is
+
+00:46:18.320 --> 00:46:21.120
+I think it's going to be very important
+
+00:46:21.120 --> 00:46:25.200
+for for tackling some of that tail end. So
+
+00:46:26.480 --> 00:46:30.720
+personalization
+is not just an accessibility benefit.
+
+00:46:31.080 --> 00:46:33.800
+There's there's lots of
+
+00:46:33.880 --> 00:46:36.640
+there's lots of tail populations, small
+
+00:46:36.640 --> 00:46:40.880
+end populations that add up to a large end
+and a lot of people.
+
+00:46:40.880 --> 00:46:45.200
+So the more the
+I think that the big companies benefit
+
+00:46:45.440 --> 00:46:49.880
+greatly
+by exploring these smaller populations
+
+00:46:49.880 --> 00:46:55.400
+and learning how to adapt models
+to different populations.
+
+00:46:55.400 --> 00:46:56.520
+And then
+
+00:46:57.280 --> 00:47:02.000
+as I mentioned, the ultimate goal
+would be to learn how to fold that back
+
+00:47:02.000 --> 00:47:06.120
+in to a larger model
+without it being lost in the process.
+
+00:47:06.200 --> 00:47:10.920
+Yeah, we have the dilemma that the further
+you are from the larger model,
+
+00:47:10.920 --> 00:47:16.400
+the more you need to work
+to shift it in your direction.
+
+00:47:16.920 --> 00:47:17.840
+So the
+
+00:47:19.440 --> 00:47:20.320
+that is
+
+00:47:20.320 --> 00:47:23.480
+something
+I think that will need to be addressed.
+
+00:47:23.480 --> 00:47:28.080
+Whatever personalization happens,
+the people that need the personalization
+
+00:47:28.080 --> 00:47:32.200
+the most will have the greatest difficulty
+with the personalization.
+
+00:47:32.200 --> 00:47:36.200
+Do you think there's any strategies
+that that might be available
+
+00:47:36.440 --> 00:47:40.160
+for us to use to address
+that particular dilemma?
+
+00:47:41.040 --> 00:47:43.800
+Yeah You're you're touching my heart
+with that question
+
+00:47:43.800 --> 00:47:46.640
+because I, I really
+
+00:47:47.680 --> 00:47:51.560
+that's been an ongoing problem
+in accessibility for forever
+
+00:47:52.040 --> 00:47:55.840
+the the and not just in the context of AI,
+
+00:47:56.000 --> 00:47:59.040
+but the people who would benefit the most
+
+00:47:59.040 --> 00:48:04.920
+from personalization may be in a position
+that makes it hard to discover
+
+00:48:04.920 --> 00:48:09.080
+and activate even personalization
+that's already available.
+
+00:48:09.920 --> 00:48:12.200
+So one approach that works, I think in
+
+00:48:12.200 --> 00:48:15.840
+some context is dynamic adaptation,
+
+00:48:16.160 --> 00:48:21.440
+where instead of a person
+needing to adapt to a system,
+
+00:48:21.440 --> 00:48:25.320
+the system can kind of flexibly adapt
+to the person that's using it.
+
+00:48:26.040 --> 00:48:28.960
+And I think that works in situations where
+
+00:48:30.480 --> 00:48:32.560
+the person doesn't need to behave
+any different
+
+00:48:32.600 --> 00:48:35.120
+to take advantage of that adaptation.
+
+00:48:36.800 --> 00:48:38.320
+It doesn't work so well where
+
+00:48:38.320 --> 00:48:40.600
+there's maybe a specific
+
+00:48:41.440 --> 00:48:44.360
+input methods that you might want to use
+
+00:48:44.360 --> 00:48:47.520
+that would be beneficial
+where you need to do something different.
+
+00:48:47.840 --> 00:48:52.240
+So for, you know, for language models,
+maybe we can imagine
+
+00:48:53.200 --> 00:48:55.520
+an Uber language model that
+
+00:48:56.560 --> 00:49:01.400
+first recognizes, Oh, this person's
+speech is closest to this sub model
+
+00:49:01.400 --> 00:49:06.200
+that I have learned, and I'm
+going to use that model for this person.
+
+00:49:06.200 --> 00:49:10.120
+And you could think of that
+in terms of decreasing the
+
+00:49:10.120 --> 00:49:10.960
+distance, yeah.
+
+00:49:11.440 --> 00:49:12.920
+Yeah, yeah.
+
+00:49:13.920 --> 00:49:15.480
+So that's one that's one idea.
+
+00:49:15.480 --> 00:49:17.800
+What what do you think.
+
+00:49:17.800 --> 00:49:19.320
+Yeah.
+
+00:49:19.320 --> 00:49:22.320
+I'm wondering
+whether there is an opportunity
+
+00:49:22.600 --> 00:49:26.120
+or if there ever will be taken
+an opportunity
+
+00:49:26.560 --> 00:49:30.960
+to rethink just how we, we design
+
+00:49:31.280 --> 00:49:35.720
+what design decision we make
+and how we develop
+
+00:49:35.720 --> 00:49:39.160
+and brings the systems to market
+
+00:49:39.560 --> 00:49:42.680
+such that
+there is the opportunity for greater
+
+00:49:43.880 --> 00:49:45.640
+democratization or
+
+00:49:45.640 --> 00:49:48.320
+access to the tools and that
+
+00:49:50.000 --> 00:49:55.160
+don't begin with the the notion of let's
+
+00:49:56.480 --> 00:49:58.880
+design first for the majority
+and then think about
+
+00:49:59.160 --> 00:50:01.760
+I mean, this is is an inflection point.
+
+00:50:01.760 --> 00:50:06.160
+There is an opportunity for small data
+sets, zero shot training,
+
+00:50:06.160 --> 00:50:10.080
+etc., transfer, transformation transfer.
+
+00:50:10.080 --> 00:50:14.800
+Is this a time
+when we can have a strategic push to say,
+
+00:50:15.440 --> 00:50:17.840
+let's think about other ways of
+
+00:50:17.840 --> 00:50:22.240
+of actually developing these tools
+and releasing these tools?
+
+00:50:23.120 --> 00:50:25.760
+Maybe that's a little too idealistic that
+
+00:50:26.560 --> 00:50:29.480
+I don't know what you're thinking,
+is there?
+
+00:50:29.480 --> 00:50:32.600
+Yeah, I, I think especially
+
+00:50:32.720 --> 00:50:36.200
+if you're in a domain
+where you've identified that there's,
+
+00:50:37.400 --> 00:50:40.440
+you real risk and strong risk of bias.
+
+00:50:41.000 --> 00:50:45.480
+It's a
+it should be a part of the design process
+
+00:50:45.800 --> 00:50:51.560
+to include people who would be outliers,
+people
+
+00:50:51.560 --> 00:50:55.760
+who are going to test the boundaries
+of what your solution can do.
+
+00:50:56.560 --> 00:50:58.080
+People that are going to help you
+
+00:50:59.720 --> 00:51:02.240
+understand
+the problems that it might introduce.
+
+00:51:02.640 --> 00:51:06.680
+So it it's
+
+00:51:07.720 --> 00:51:08.720
+it's what should happen
+
+00:51:08.720 --> 00:51:12.560
+I think in design in in any system
+
+00:51:12.560 --> 00:51:16.400
+that especially if you're thinking
+in AI, you need to think about
+
+00:51:16.880 --> 00:51:21.280
+the risks that you might be introducing
+and you can’t really think about that
+
+00:51:21.320 --> 00:51:25.160
+without having the right people involved.
+
+00:51:25.160 --> 00:51:25.480
+Right...
+
+00:51:25.480 --> 00:51:29.000
+Whether that's by... somebody yesterday
+I think mentioned
+
+00:51:29.000 --> 00:51:30.960
+something about
+
+00:51:32.000 --> 00:51:33.840
+teaching designers
+
+00:51:33.840 --> 00:51:37.280
+and developers more about accessibility.
+
+00:51:37.280 --> 00:51:40.640
+And and I think that's
+a really important point too
+
+00:51:41.120 --> 00:51:44.800
+that building diverse
+teams is really important.
+
+00:51:44.920 --> 00:51:48.720
+Getting more diversity into computer
+science is really important.
+
+00:51:49.120 --> 00:51:53.880
+But teaching the people who are already
+there building things is also important.
+
+00:51:54.440 --> 00:51:57.000
+And I don't you know,
+I don't meet very many
+
+00:51:57.000 --> 00:52:00.160
+people who say, Oh,
+I don't care about accessibility.
+
+00:52:00.320 --> 00:52:01.880
+It's not important.
+
+00:52:01.880 --> 00:52:07.120
+It's it's more that it's
+it's still too difficult to do.
+
+00:52:07.120 --> 00:52:11.680
+And that's one place
+where I think AI can really, really help.
+
+00:52:11.680 --> 00:52:16.600
+And some of the the tools that people have
+talked about today are examples of that
+
+00:52:17.040 --> 00:52:21.200
+where if we can make it easy
+enough and lower that barrier
+
+00:52:21.800 --> 00:52:25.040
+and take opportunity of these creation
+points
+
+00:52:25.040 --> 00:52:28.760
+to teach people
+as well about accessibility.
+
+00:52:28.760 --> 00:52:29.200
+So not
+
+00:52:30.480 --> 00:52:31.480
+not always
+
+00:52:31.480 --> 00:52:36.360
+to fix everything for them,
+but to fix things with them
+
+00:52:36.920 --> 00:52:41.880
+so that they can learn going
+forwards and grow.
+
+00:52:41.880 --> 00:52:44.760
+I think that's a really exciting area.
+
+00:52:44.760 --> 00:52:46.840
+Yes, and a great way to to support
+
+00:52:46.840 --> 00:52:50.840
+born accessible,
+so accessible by default
+
+00:52:50.920 --> 00:52:54.720
+with respect to what is the tools
+that are used to create it.
+
+00:52:55.640 --> 00:53:01.000
+I'm you you contributed some questions
+that you would love to discuss
+
+00:53:01.440 --> 00:53:06.480
+and one of the first ones is is
+AI’s role mostly considered
+
+00:53:06.600 --> 00:53:10.800
+as improving assistive technology
+or digital accessibility in general.
+
+00:53:10.800 --> 00:53:15.080
+And of course, this gets to this idea
+of not creating
+
+00:53:15.080 --> 00:53:20.280
+a segregated set of innovations
+that specifically address
+
+00:53:20.280 --> 00:53:24.000
+people with disabilities,
+but also making sure that
+
+00:53:25.160 --> 00:53:27.200
+the innovations that are brought
+
+00:53:27.200 --> 00:53:30.920
+about by addressing
+the needs of people who whose needs of,
+
+00:53:31.280 --> 00:53:35.760
+well, who face barriers can benefit
+the population at large.
+
+00:53:36.440 --> 00:53:39.560
+So do what what do you think?
+
+00:53:40.040 --> 00:53:42.600
+What is the the future direction?
+
+00:53:43.520 --> 00:53:45.800
+Yeah, this was a question that came from
+
+00:53:45.800 --> 00:53:49.280
+an attendee, I think that was put into
+in the registration process.
+
+00:53:49.640 --> 00:53:51.680
+And I,
+
+00:53:51.680 --> 00:53:54.760
+I do think it's really important
+to view AI
+
+00:53:54.760 --> 00:53:58.120
+as a tool for digital 
+accessibility in general and
+
+00:53:58.200 --> 00:54:01.120
+and not to just think about the end
+
+00:54:01.200 --> 00:54:04.120
+user applications
+although those personal AI
+
+00:54:04.160 --> 00:54:08.320
+technologies are really important
+and they're life changing and they can do things
+
+00:54:08.320 --> 00:54:13.240
+that aren't achievable in any other way,
+but AI
+
+00:54:13.240 --> 00:54:16.240
+is already
+a part of the development process
+
+00:54:16.240 --> 00:54:19.280
+and accessibility
+needs to be a part of that.
+
+00:54:19.280 --> 00:54:22.960
+And we have so many challenges
+to solve there.
+
+00:54:22.960 --> 00:54:23.800
+I think it's
+
+00:54:25.640 --> 00:54:28.440
+an area
+that we need to pay more attention to.
+
+00:54:28.640 --> 00:54:33.040
+So not just applying AI
+to detect accessibility problems,
+
+00:54:33.040 --> 00:54:37.160
+but engaging with those mainstream
+development tools
+
+00:54:37.160 --> 00:54:39.600
+to make sure the accessibility
+is considered.
+
+00:54:41.560 --> 00:54:43.680
+One sort of associated
+
+00:54:43.760 --> 00:54:46.640
+piece to this that came to mind.
+
+00:54:47.160 --> 00:54:50.360
+And I'm going to take the privilege
+of being the person asking the questions.
+
+00:54:50.640 --> 00:54:54.200
+I mean, the focus of most of AI innovation
+
+00:54:54.200 --> 00:54:58.400
+has been on replicating and potentially
+replacing human intelligence
+
+00:54:58.800 --> 00:55:05.080
+as opposed to augmenting or thinking
+about other forms of intelligence.
+
+00:55:05.080 --> 00:55:11.320
+And I wonder whether the I mean,
+our experiences in assistive technology
+
+00:55:11.320 --> 00:55:15.520
+and how technology
+can become an accompaniment
+
+00:55:15.520 --> 00:55:19.080
+or an augmentation
+rather than a replacement
+
+00:55:19.600 --> 00:55:22.840
+might have some insights to give in this
+
+00:55:23.480 --> 00:55:26.920
+improvement of digital inclusion.
+
+00:55:26.920 --> 00:55:29.080
+Yeah,
+I think you're you're absolutely right.
+
+00:55:29.080 --> 00:55:34.520
+It's it's human
+AI cooperation and collaboration
+
+00:55:34.760 --> 00:55:39.160
+that's going to
+get us the best results. And
+
+00:55:43.000 --> 00:55:45.440
+the the
+
+00:55:45.640 --> 00:55:47.280
+language the language models
+
+00:55:47.280 --> 00:55:51.080
+that we have,
+the promise that they have of more interactive
+
+00:55:51.120 --> 00:55:53.640
+dialog like interactions
+
+00:55:54.120 --> 00:55:57.280
+are, you know, heading
+
+00:55:57.280 --> 00:55:59.320
+in a direction they're going to support
+
+00:55:59.920 --> 00:56:03.920
+much more natural human AI dialog
+
+00:56:03.920 --> 00:56:06.920
+and accessibility is such a complex
+
+00:56:06.920 --> 00:56:09.960
+topic where
+
+00:56:10.120 --> 00:56:11.920
+it's not always obvious
+
+00:56:11.920 --> 00:56:14.840
+what I'm trying to convey with this image.
+
+00:56:14.840 --> 00:56:18.000
+How important is
+is the thing, you know, it's not it's
+
+00:56:18.000 --> 00:56:20.360
+not necessarily easy to
+
+00:56:21.960 --> 00:56:24.120
+to decide what exactly is the
+
+00:56:25.480 --> 00:56:28.400
+correct alternatives for for something
+
+00:56:28.400 --> 00:56:30.720
+or there's plenty of other examples
+
+00:56:32.200 --> 00:56:34.920
+where a
+
+00:56:35.640 --> 00:56:39.480
+the combination of an AI
+that has been trained on
+
+00:56:39.960 --> 00:56:44.160
+some of the general principles
+of of good accessibility practice
+
+00:56:44.400 --> 00:56:48.040
+and a person who may not be as familiar
+but really understands the domain
+
+00:56:48.040 --> 00:56:50.720
+and the context
+of this particular application.
+
+00:56:51.160 --> 00:56:53.640
+It's when you put those
+two things together
+
+00:56:54.400 --> 00:56:56.920
+that, things are going to start to work
+
+00:56:57.080 --> 00:57:02.600
+so AI can support the person,
+not replace the person.
+
+00:57:02.600 --> 00:57:03.760
+And of course,
+
+00:57:05.280 --> 00:57:06.000
+the the
+
+00:57:06.000 --> 00:57:10.280
+one issue that we need to thorny issue
+that we need to overcome
+
+00:57:10.520 --> 00:57:14.120
+with respect to AI, is that
+
+00:57:14.720 --> 00:57:18.440
+the challenge of addressing
+more qualitative
+
+00:57:18.440 --> 00:57:23.040
+non quantitative values and ideas etc.,
+
+00:57:23.920 --> 00:57:27.240
+so that it'll be interesting
+to see what happens there.
+
+00:57:28.800 --> 00:57:29.440
+Yeah. Yeah.
+
+00:57:29.440 --> 00:57:33.200
+I thought Yeliz
+had a very good suggestion this morning of
+
+00:57:33.760 --> 00:57:35.760
+perhaps we should pay attention to
+
+00:57:36.920 --> 00:57:39.320
+how people are making these judgments,
+how the AI,
+
+00:57:40.040 --> 00:57:42.680
+how the accessibility experts
+
+00:57:42.680 --> 00:57:45.840
+make these judgments,
+what are the principles and,
+
+00:57:45.960 --> 00:57:49.160
+and can we articulate those better
+
+00:57:49.480 --> 00:57:52.040
+than... than we do
+
+00:57:52.600 --> 00:57:56.440
+now and communicate those better to.
+
+00:57:56.480 --> 00:57:57.080
+Right.
+
+00:57:57.080 --> 00:58:02.800
+And there's been this notion of thick data
+which includes the context
+
+00:58:02.800 --> 00:58:07.160
+because frequently we've isolated the data
+from the actual context
+
+00:58:07.480 --> 00:58:11.400
+and many of these things
+are very contextually bound.
+
+00:58:11.400 --> 00:58:14.560
+And so do you see that there might be
+
+00:58:14.920 --> 00:58:17.920
+a reinvestigation of the
+
+00:58:18.680 --> 00:58:22.800
+where that data came from,
+what the context of the data was, etc.?
+
+00:58:24.200 --> 00:58:27.560
+I think there might be a
+
+00:58:28.040 --> 00:58:30.800
+a rise in methods that that
+
+00:58:32.600 --> 00:58:35.200
+bring in the whole context,
+
+00:58:35.200 --> 00:58:38.120
+bring in more of the context,
+multimodal inputs.
+
+00:58:38.720 --> 00:58:43.000
+Do you know even even for
+
+00:58:44.360 --> 00:58:48.280
+speech recognition
+it it's doing what it does
+
+00:58:48.280 --> 00:58:52.200
+without even really knowing the domain
+that it's working in
+
+00:58:53.400 --> 00:58:56.760
+and and that's pretty mindblowing
+really think
+
+00:58:57.440 --> 00:59:02.400
+but when when it breaks down
+is when there are technical terms
+
+00:59:02.400 --> 00:59:05.760
+when you're talking about a domain that is
+
+00:59:07.480 --> 00:59:09.200
+less frequently talked about,
+
+00:59:09.200 --> 00:59:12.400
+less represented and
+
+00:59:12.400 --> 00:59:15.200
+bringing in that domain knowledge
+
+00:59:15.200 --> 00:59:17.400
+I think is going to be huge.
+
+00:59:17.760 --> 00:59:21.680
+And similarly in terms of, of
+
+00:59:22.720 --> 00:59:26.640
+helping to create text alternatives
+for things,
+
+00:59:26.640 --> 00:59:31.160
+the domain knowledge will will help to
+
+00:59:33.000 --> 00:59:36.560
+give a better
+kind of base suggestion from the AI.
+
+00:59:36.920 --> 00:59:39.480
+And perhaps with dialog
+
+00:59:40.120 --> 00:59:45.440
+we can prompt people with
+the right questions to help them decide
+
+00:59:46.080 --> 00:59:48.600
+is this
+is this actually a decorative image
+
+00:59:48.600 --> 00:59:51.760
+or is it important for me to describe
+what's in this image?
+
+00:59:51.760 --> 00:59:56.280
+You know, that's not actually always
+a trivial question to answer.
+
+00:59:56.280 --> 00:59:59.720
+And of course, that brings in the issue
+of classification and labeling
+
+01:00:00.280 --> 01:00:04.960
+and the need to box or classify
+specific things.
+
+01:00:04.960 --> 01:00:08.680
+And many of these things are very fuzzy
+contexts
+
+01:00:08.680 --> 01:00:13.160
+and classifiers are also determined
+hierarchically.
+
+01:00:13.160 --> 01:00:15.200
+And there's yes.
+
+01:00:15.800 --> 01:00:20.960
+So yeah, maybe we don't need a perfect
+classifier, but we need
+
+01:00:22.280 --> 01:00:26.760
+a good dialog where the,
+
+01:00:27.080 --> 01:00:29.520
+the, the system knows what questions
+to ask
+
+01:00:30.040 --> 01:00:32.520
+to help the person decide.
+
+01:00:32.520 --> 01:00:34.160
+Right.
+
+01:00:34.160 --> 01:00:37.280
+And oh, and I just saw a message from
+
+01:00:37.280 --> 01:00:41.720
+Carlos saying to end the discussions
+
+01:00:42.440 --> 01:00:45.600
+and Carlos, I'm wondering
+can we fit in one more question.
+
+01:00:46.520 --> 01:00:49.960
+I actually have to stop
+at the top of the hour. So.
+
+01:00:50.640 --> 01:00:51.920
+Okay.
+
+01:00:52.560 --> 01:00:56.960
+So we will have an opportunity
+to answer the questions
+
+01:00:56.960 --> 01:01:00.240
+that people have submitted in the question
+and answer dialog.
+
+01:01:00.920 --> 01:01:03.360
+And we have access to those. So
+
+01:01:04.440 --> 01:01:06.600
+Shari will be able to respond
+
+01:01:06.920 --> 01:01:09.360
+to some of these additional questions
+that have been asked
+
+01:01:10.960 --> 01:01:15.480
+and and apologies
+that we went a little over time.
+
+01:01:15.480 --> 01:01:17.960
+Carlos. Okay. Turn it back over to you.
+
+01:01:18.520 --> 01:01:20.560
+Okay. Thank you. Thank you, Shari.
+
+01:01:20.840 --> 01:01:23.040
+Thank You. Thank you
+
+01:01:23.040 --> 01:01:23.480
+Thank you.
+
+01:01:23.480 --> 01:01:24.560
+Shari and Jutta.
+
+01:01:24.560 --> 01:01:27.280
+It was I was loving this discussion.
+
+01:01:27.880 --> 01:01:31.960
+So it's really unfortunate that we
+we have stop now.
+
+01:01:32.880 --> 01:01:35.320
+But thank you. Thank you so much for
+
+01:01:37.400 --> 01:01:38.640
+your presentations.
+
+01:01:38.640 --> 01:01:40.280
+Thank you all.
+
+01:01:40.280 --> 01:01:43.880
+Thank you
+also to to all the panelists yesterday
+
+01:01:43.880 --> 01:01:46.640
+and today for making this
+
+01:01:47.840 --> 01:01:49.040
+a great symposium.
+
+01:01:49.040 --> 01:01:52.400
+Lots of interesting
+and thought provoking ideas.
+
+01:01:54.320 --> 01:01:56.400
+And thank you all for attending.
+

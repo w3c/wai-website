@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00:02.200 --> 00:00:05.200 align:middle
+Merhaba! Benim adım Shadi Abou-Zahra.
+
+00:00:05.400 --> 00:00:09.600 align:middle
+Dünya Çapında Ağ Konsorsiyumu’nda (W3C'de),
+
+00:00:09.800 --> 00:00:11.840 align:middle
+Erişilebilirlik Stratejisi ve Teknoloji Uzmanıyım,
+
+00:00:12.040 --> 00:00:15.360 align:middle
+ve bugün size web erişilebilirliğinden bahsetmek istiyorum.
+
+00:00:15.560 --> 00:00:19.240 align:middle
+Web, birçok insan için günlük yaşamın vazgeçilmez bir parçasıdır.
+
+00:00:19.440 --> 00:00:21.080 align:middle
+İş yerinde.
+
+00:00:21.240 --> 00:00:22.840 align:middle
+Evde.
+
+00:00:23.000 --> 00:00:24.880 align:middle
+Ve yolda.
+
+00:00:25.080 --> 00:00:29.640 align:middle
+Web erişilebilirliği, engelli bireylerin web'i eşit şekilde kullanabilmesi anlamına gelir.
+
+00:00:29.840 --> 00:00:35.360 align:middle
+Örneğin, kollarını kullanamayan ve yazı yazmak için ağız çubuğu kullanan biri.
+
+00:00:35.560 --> 00:00:40.240 align:middle
+Ya da iyi duyamayan ve video izlemek için altyazı kullanan biri.
+
+00:00:40.400 --> 00:00:45.800 align:middle
+Ya da iyi göremeyen ve ekrandaki metni sesli okumak için ekran okuyucu kullanan biri.
+
+00:00:46.080 --> 00:00:48.480 align:middle
+Erişilebilirliğin birçok faydası vardır.
+
+00:00:48.760 --> 00:00:54.280 align:middle
+Örneğin, altyazılar sesli veya sessiz bir ortamda bulunan herkese fayda sağlar.
+
+00:00:54.440 --> 00:00:58.120 align:middle
+Ve iyi bir renk kontrastı, parlama olduğu durumlarda daha iyi çalışır.
+
+00:00:58.280 --> 00:01:03.960 align:middle
+Ayrıca, el becerisinin azalması gibi yaşa bağlı kısıtları olan kişiler de bundan faydalanır.
+
+00:01:04.120 --> 00:01:09.120 align:middle
+Aslında, gelişmiş bir düzen ve tasarımla herkes daha iyi bir kullanıcı deneyimine sahip olur.
+
+00:01:09.280 --> 00:01:14.760 align:middle
+Web sitelerinin ve uygulamaların temel kodlarına birçok erişilebilirlik özelliği eklenebilir.
+
+00:01:15.000 --> 00:01:21.640 align:middle
+W3C'nin HTML gibi web teknolojileri birçok erişilebilirlik özelliği için destek sağlar.
+
+00:01:23.120 --> 00:01:27.920 align:middle
+Örneğin, ekran okuyucular tarafından sesli okunan ve arama motorları tarafından da kullanılan, 
+
+00:01:28.480 --> 00:01:33.080 align:middle
+görseller için metin alternatifleri sağlama özellikleri.
+
+00:01:34.640 --> 00:01:39.400 align:middle
+Ayrıca başlıklar, etiketler ve diğer kodlar da erişilebilirliği destekler
+
+00:01:39.880 --> 00:01:42.680 align:middle
+ve genel olarak kaliteyi artırır.
+
+00:01:43.320 --> 00:01:49.840 align:middle
+Wikiler, içerik yönetim sistemleri ve kod düzenleyiciler gibi iyi içerik oluşturma araçları, 
+
+00:01:50.600 --> 00:01:56.760 align:middle
+otomatik olarak veya yazarın katkısıyla erişilebilir kod gekşltşrneye yardımcı olur.
+
+00:01:57.440 --> 00:02:04.480 align:middle
+Ayrıca web tarayıcılarının, medya oynatıcılarının ve uygulamaların da erişilebilirlik özelliklerini desteklemesi gerekir.
+
+00:02:05.480 --> 00:02:09.600 align:middle
+W3C, web'in erişilebilir olmasına yardımcı olan,
+
+00:02:10.040 --> 00:02:13.920 align:middle
+devletler ve işletmeler tarafından uluslararası düzeyde tanınan standartlar sağlar.
+
+00:02:14.480 --> 00:02:19.880 align:middle
+En iyi bilineni Web İçeriği Erişilebilirlik Yönergeleri - WCAG'dir.
+
+00:02:20.680 --> 00:02:24.240 align:middle
+WCAG aynı zamanda ISO standardı 40500'dür,
+
+00:02:24.600 --> 00:02:29.840 align:middle
+ve EN 301 549 adlı Avrupa standardında benimsenmiştir.
+
+00:02:30.520 --> 00:02:33.360 align:middle
+WCAG dört temel prensip etrafında inşa edilmiştir:
+
+00:02:33.560 --> 00:02:39.920 align:middle
+İlk olarak Algılanabilirlik - örneğin, insanların içeriği görebilmesi veya duyabilmesi.
+
+00:02:40.880 --> 00:02:47.160 align:middle
+İşletilebilirlik - örneğin, insanların bilgisayarı klavye ile ya da sesle kullanabilmesi.
+
+00:02:48.000 --> 00:02:53.360 align:middle
+Anlaşılabilirlik - örneğin, insanların net ve sade bir dil anlayabilmesi.
+
+00:02:54.120 --> 00:02:58.600 align:middle
+Ve Sağlamlık - böylece insanlar farklı yardımcı teknolojileri kullanabilir.
+
+00:02:59.360 --> 00:03:07.000 align:middle
+WCAG'ın yanı sıra, W3C, içerik yönetim sistemleri, kod düzenleyiciler ve diğer yazılımlar için gereksinimleri tanımlayan
+
+00:03:07.440 --> 00:03:12.840 align:middle
+içerik Oluşturma Aracı Erişilebilirlik Yönergeleri'ni (ATAG) de sağlar.
+
+00:03:13.240 --> 00:03:16.880 align:middle
+Ve Kullanıcı Aracısı Erişilebilirlik Yönergeleri - UAAG,
+
+00:03:17.160 --> 00:03:20.480 align:middle
+web tarayıcıları ve medya oynatıcıları için gereksinimleri tanımlar.
+
+00:03:21.000 --> 00:03:27.280 align:middle
+Dünya genelinde bir milyardan fazla engelli birey var, bu da nüfusun yaklaşık yüzde 15-20'sine denk geliyor.
+
+00:03:28.160 --> 00:03:31.880 align:middle
+Birleşmiş Milletler Engelli Hakları Sözleşmesi
+
+00:03:32.040 --> 00:03:37.040 align:middle
+Web de dahil olmak bilgiye erişimi bir insan hakkı olarak tanımlamaktadır.
+
+00:03:38.800 --> 00:03:42.920 align:middle
+Dünya genelinde ülkelerin çoğu bu Birleşmiş Milletler sözleşmesini onaylamıştır,
+
+00:03:43.160 --> 00:03:46.960 align:middle
+ve birçkaçı da bağlayıcı politikalar benimsemiştir.
+
+00:03:48.040 --> 00:03:51.000 align:middle
+Ancak, yasa ve düzenlemelerden bağımsız olarak,
+
+00:03:51.160 --> 00:03:56.000 align:middle
+erişilebilirlik standartlarının uygulanması engelli bireyler için hayati önem taşır,
+
+00:03:56.160 --> 00:03:57.800 align:middle
+ve herkes için faydalıdır.
+
+00:03:59.000 --> 00:04:05.880 align:middle
+Web erişilebilirliği hakkında daha fazla bilgi için w3.org/WAI adresini ziyaret edebilirsiniz

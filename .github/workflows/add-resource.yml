@@ -6,7 +6,7 @@ on:
       resource:
         description: 'Resource Name'     
         required: true
-        default: 'wai-about-wai'
+        default: 'wai-resource-name'
 
 jobs:
   build:

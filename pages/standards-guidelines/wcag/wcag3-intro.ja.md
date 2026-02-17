@@ -8,6 +8,7 @@ lang: ja  # Change "en" to the translated-language shortcode
 last_updated: 2024-12-12 # Keep the date of the English version
 
 translation:
+  outdated: true
   last_updated: 2024-12-19 # Keep the date of the English version
 
 translators:
@@ -20,7 +21,7 @@ permalink: /standards-guidelines/wcag/wcag3-intro/ja  # Add the language shortco
 ref: /standards-guidelines/wcag/wcag3-intro/    # Do not change this
 
 description: W3Cアクセシビリティ・ガイドライン（WCAG）3.0 のワーキングドラフトを紹介する。WCAGのドキュメントは、ウェブを障害がある人にとってよりアクセシブルにする方法を説明している。
-image: /content-images/wcag/wcag3_social.png
+image: /content-images/wcag/wcag3-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:
@@ -90,7 +91,7 @@ WCAG 3のドラフト作成が進展に合わせて、このページを定期�
 * <span lang="en">Refining</span>（改良中）
 * <span lang="en">Mature</span>（成熟）
 
-これらのステータス指標の詳細については、解説セクション「[<span lang="en>Current Process for Creating WCAG 3.0</span>（現在の WCAG 3.0 作成プロセス）](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#current-process)を参照してください。
+これらのステータス指標の詳細については、解説セクション「[<span lang="en">Current Process for Creating WCAG 3.0</span>（現在の WCAG 3.0 作成プロセス）](https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/#current-process)を参照してください。
 
 ### ご意見募集
 

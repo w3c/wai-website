@@ -12,7 +12,7 @@ image: /content-images/people-use-web/social.png
 last_updated: 2017-05-15  # Keep the date of the English version
 
 translation:
-  status: outdated
+  outdated: true
   last_updated: 2018-09-12
 
 translators:

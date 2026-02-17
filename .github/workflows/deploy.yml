@@ -17,19 +17,11 @@ jobs:
       with:
         submodules: true
         fetch-depth: 0
-    - name: Set up Ruby 3.3
+    - name: Set up Ruby 3.4.8
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.3.3' # matches Netlify of ruby version
+        ruby-version: '3.4.8' # matches Netlify ruby version
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - name: Update Externals
-      run: |
-        git submodule update --remote
-    - name: Commit changed files
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: Apply automatic changes
-        branch: main
     - name: Build and test with Jekyll
       run: |
         export WAI_LIVE_SITE=true

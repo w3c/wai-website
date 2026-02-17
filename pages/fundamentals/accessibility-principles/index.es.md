@@ -33,7 +33,7 @@ changelog: /fundamentals/accessibility-principles/changelog/   # Do not change t
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p><strong>Editores:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Agradecimientos</a>.</p>
-  <p>Desarrollado por el Grupo de Trabajo de Educación y Divulgación (<a href="https//www.w3.org/WAI/EO/">EOWG</a>). Previamente desarrollado con la <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, con el apoyo del <a href="https://www.w3.org/WAI/WAI-AGE/">Proyecto WAI-AGE </a>.</p>
+  <p>Desarrollado por el Grupo de Trabajo de Educación y Divulgación (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Previamente desarrollado con la <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, con el apoyo del <a href="https://www.w3.org/WAI/WAI-AGE/">Proyecto WAI-AGE </a>.</p>
 ---
 
 {::nomarkdown}

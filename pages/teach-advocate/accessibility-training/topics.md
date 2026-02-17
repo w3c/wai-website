@@ -527,7 +527,7 @@ This topic explains the relationship between user agents (browsers, media player
 
 **Goal:** Help people understand the importance of authoring tools in achieving web accessibility.
 
-**Audience:** Authoring tool developers, web developers, ICT and procurement departments, web developers, accessibility advocates
+**Audience:** Authoring tool developers, web developers, ICT and procurement departments, accessibility advocates.
 
 ### Description
 

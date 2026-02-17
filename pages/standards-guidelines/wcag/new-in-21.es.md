@@ -5,7 +5,7 @@ lang: es
 last_updated: 2019-04-08  # Keep the date of the English version
 
 translation:
-  status: outdated
+  outdated: true
   last_updated: 2019-07-11  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 description: Esta página enumera los nuevos criterios de conformidad de las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1. Incluye citas de personas (ficticias) que ayudarán a comprender algunos aspectos de los criterios de conformidad.
@@ -21,7 +21,7 @@ ref: /standards-guidelines/wcag/new-in-21/
 github:
   label: wai-wcag-intro
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 footer: >
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Colaboradores: Shadi Abou-Zahra, Jonathan Avila, Brent Bakken, Laura Carlson, Stéphane Deschamps, Eric Eggert, James Green, Becky Gibson, Marc Johlic, Robert Jolly, Howard Kramer, Chris O'Brien, Sharron Rush, Nic Steenhout, Glenda Sims, Bill Tyler.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) y el Grupo de Trabajo de Pautas de Accesibilidad (<a href="https://www.w3.org/WAI/about/groups/eowg/">AG WG</a>).</p>
