@@ -8,9 +8,13 @@ lang: pt-BR   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Keep the date of the English version
 description:  Pessoas com deficiência que utilizam a web e destacam o efeito das barreiras de acessibilidade e os benefícios mais amplos das tecnologias digitais acessíveis.
 
-translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-- name: "Israel Cefrin"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+translation:
+  outdated: true
+  draft: true
+  last_updated: 2025-02-16
+
+translators:
+  - name: "Israel Cefrin"
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
@@ -18,7 +22,7 @@ translators:    # remove from the beginning of this line and the lines below: "#
 github:
   label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/pt-BR   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+permalink: /people-use-web/user-stories/pt-BR
 ref: /people-use-web/user-stories/  # Do not change this
 
 parent_in_h1:

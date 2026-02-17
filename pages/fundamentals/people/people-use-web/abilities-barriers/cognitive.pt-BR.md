@@ -9,15 +9,16 @@ last_updated: 2024-06-25
 first_published: "como rascunho em 1999"
 description: Explora a grande diversidade de pessoas e habilidades. Destaca barreiras de acessibilidade que as pessoas podem experimentar devido à tecnologia digital inacessível.
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+translation:
+  # outdated: false
+  draft: true
+  last_updated: 2025-02-16
+
+translators:
+  - name: "Israel Cefrin"
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
-
-translators:
-- name: "Israel Cefrin"
 
 github:
   label: wai-people-use-web

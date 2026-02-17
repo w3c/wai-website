@@ -8,8 +8,16 @@ last_updated: 2024-06-25
 first_published: "como rascunho em 1999"
 description: Introduz algumas das técnicas e ferramentas que pessoas com deficiência usam para interagir com a tecnologia digital — configurações do navegador, texto para fala, reconhecimento de voz e muito mais.
 
+translation:
+  # outdated: false
+  draft: true
+  last_updated: 2025-02-16
+
 translators:
-- name: "Israel Cefrin"
+  - name: "Israel Cefrin"
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
   label: wai-people-use-web

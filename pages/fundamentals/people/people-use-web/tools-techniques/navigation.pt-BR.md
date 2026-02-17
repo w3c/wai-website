@@ -8,16 +8,19 @@ last_updated: 2024-06-25
 first_published: "como rascunho em 1999"
 description: Introduz algumas das técnicas e ferramentas que pessoas com deficiência usam para interagir com a tecnologia digital — configurações do navegador, texto para fala, reconhecimento de voz e muito mais.
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+translation:
+  # outdated: false
+  draft: true
+  last_updated: 2025-02-16
+
+translators:
+  - name: "Israel Cefrin"
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-people-use-web
-  path: content/index.pt-BR.md
+  label: wai-people-use-web
 
 permalink: /people-use-web/tools-techniques/navigation/pt-BR # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /people-use-web/tools-techniques/navigation/  # Do not change this
