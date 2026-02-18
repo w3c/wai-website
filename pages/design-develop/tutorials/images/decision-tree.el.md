@@ -7,9 +7,17 @@ title_html: "Ένα Δέντρο Απόφασης για το <code>alt</code>"
 lang: el  # Change "en" to the translated-language shortcode
 last_updated: 2024-05-13  # Keep the date of the English version
 
-# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-- name: "Πάνος Κουτσοδημητρόπουλος"   # Replace Jan Doe with translator name
+translation:
+#    outdated: false
+  draft: true
+  last_updated: 2025-04-19
 
+translators:
+  - name: "Πάνος Κουτσοδημητρόπουλος"
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+  
 github:
   label: wai-tutorials
 
@@ -28,12 +36,12 @@ changelog: /tutorials/changelog/
 # In the footer below:
 # Translate the Working Group name. Leave the Working Group acronym in English.
 metafooter: true
-Επιμελητές:
+editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-Επιμελητής Ενημερώσεων:
+update_editors:
   - Brian Elton
-Συνεισφέροντες:
+contributing_participants:
   - βλέπε <a href="/WAI/tutorials/acknowledgements/">Ευχαριστίες</a>
 support: Αναπτύχθηκε από την Ομάδα Εργασίας Εκπαίδευσης και Ενημέρωσης (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Αναπτύχθηκε με την υποστήριξη του <a href="https://www.w3.org/WAI/ACT/">έργου WAI-ACT</a>, το οποίο συγχρηματοδοτείται από το <strong>πρόγραμμα <abbr title="Information Society Technologies">IST</abbr> της Ευρωπαϊκής Επιτροπής</strong>.
 
