@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/w3c/wai-website-theme
-  revision: 318161436823ea490803e7df3470819b0bf1380e
+  revision: 05fe64ca53646aefbbd56838abb26eb34dd9cb00
   branch: main
   specs:
     wai-website-theme (1.10)
