@@ -1,7 +1,19 @@
 ---
 title: "Tutorial"
 lang: id
-last_updated: 2024-04-29
+last_updated: 2022-09-09
+first_published: "September 2014"
+
+translation:
+#  outdated: false
+  draft: true
+  last_updated: 2024-04-29
+  
+translators:
+  - name: "Fri Rasyidi"   # Replace Jan Doe with translator name
+#contributors:
+#  - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+#  - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
   label: wai-tutorials
@@ -9,16 +21,13 @@ github:
 permalink: /tutorials/id
 ref: /tutorials/
 
-image: /content-images/wai-tutorials/images/social.png
-
 resource:
   ref: /tutorials/
-
-changelog: /tutorials/changelog/
+  
+image: /content-images/wai-tutorials/images/social.png
 acknowledgements: /tutorials/acknowledgements/
 
 footer: >
-   <p><strong>Date:</strong> Diperbarui 9 September 2022. Pertama kali dipublikasikan September 2014. CHANGELOG.</p>
    <p><strong>Editor:</strong> Eric Eggert, Shadi Abou-Zahra. Editor pembaruan: Brian Elton. Kontributor: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">peserta AG WG</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">peserta EOWG</a>. ACKNOWLEDGEMENTS.</p>
    <p>Dikembangkan oleh Kelompok Developed by the Kelompok Kerja Edukasi dan Pendampingan (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Dikembangkan dengan dukungan dari <a href="https://www.w3.org/WAI/ACT/">proyek WAI-ACT</a>, didanai bersama oleh Program <abbr title="Teknologi Masyarakat Informasi">IST</abbr> Komisi Eropa.</p>
 ---
