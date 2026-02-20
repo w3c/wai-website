@@ -2,7 +2,7 @@
 title: "Web Content Accessibility Guidelines (WCAG) 2 Level AA Conformance"
 title_html: "Web Content Accessibility Guidelines (WCAG) 2<br>Level AA Conformance"
 lang: en
-last_updated: 2020-07-13
+last_updated: 2026-02-20
 permalink: /WCAG2AA-Conformance
 ref: /WCAG2AA-Conformance
 
@@ -11,12 +11,11 @@ github:
 
 layout: minimal
 class: tight-page
-feedbackmail: wai@w3.org
 ---
 
-  <p><img src="https://www.w3.org/WAI/WCAG22/wcag2.2AA-blue.png" alt="W3C WAI-AA WCAG 2.2" width="88" height="32"> <img src="https://www.w3.org/WAI/WCAG22/wcag2.2AA.png" alt="W3C WAI-AA WCAG 2.2" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.2 at Level AA.</p>
-  <p><img src="https://www.w3.org/WAI/wcag21/wcag2.1AA-blue-v.png" alt="W3C WAI-AA WCAG 2.1" width="88" height="32"> <img src="https://www.w3.org/WAI/wcag21/wcag2.1AA-v.png" alt="W3C WAI-AA WCAG 2.1" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.1 at Level AA.</p>
-  <p><img src="https://www.w3.org/WAI/wcag2AA-blue.png" alt="W3C WAI-AA WCAG 2.0" width="88" height="32"> <img src="https://www.w3.org/WAI/wcag2AA.png" alt="W3C WAI-AA WCAG 2.0" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.0 at Level AA.</p>
+  <p><img src="https://www.w3.org/WAI/WCAG22/wcag2.2AA-blue.png" alt="W3C WCAG 2.2 AA" width="88" height="32"> <img src="https://www.w3.org/WAI/WCAG22/wcag2.2AA.png" alt="W3C WCAG 2.2 AA" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.2 at Level AA.</p>
+  <p><img src="https://www.w3.org/WAI/wcag21/wcag2.1AA-blue-v.png" alt="W3C WCAG 2.1 AA" width="88" height="32"> <img src="https://www.w3.org/WAI/wcag21/wcag2.1AA-v.png" alt="W3C WCAG 2.1 AA" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.1 at Level AA.</p>
+  <p><img src="https://www.w3.org/WAI/wcag2AA-blue.png" alt="W3C WCAG 2.0 AA" width="88" height="32"> <img src="https://www.w3.org/WAI/wcag2AA.png" alt="W3C WCAG 2.0 AA" width="88" height="32"> Web pages with one of these logos claim conformance to WCAG 2.0 at Level AA.</p>
   <p><strong><em>Important note:</em> Claims are not verified by W3C. Content providers are solely responsible for the use of these logos.</strong></p>
   <h2>About WCAG</h2>
   <p>Web Content Accessibility Guidelines (WCAG) explains how to make web content more accessible to people with disabilities. WCAG covers web sites, applications, and other digital content. It is developed by the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI). WCAG is an international standard.</p>
