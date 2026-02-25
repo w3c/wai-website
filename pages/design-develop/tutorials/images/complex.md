@@ -79,11 +79,11 @@ See [example long description](/tutorials/images/examples/2014-first-qtr/) assoc
 {% include box.html type="end" %}
 {:/}
 
-Among the approaches below, the first one makes the information available to other programs, such as web browsers and search engines.
-
 ### **Approach 1:** A text link to the long description adjacent to the image
 
-This approach provides a text link next to the image that refers to a separate web page or a section of the same web page that contains the long description. The link text needs to clarify the destination, and associate it with the image.
+This approach provides a text link next to the image that refers to a separate web page or a section of the same web page that contains the long description. The link text needs to clarify the destination, and associate it with the image. 
+
+This approach makes the information available to other programs, such as web browsers and search engines.
 
 {::nomarkdown}
 {% include box.html type="start" title="Code" class="example" %}
@@ -104,6 +104,8 @@ This approach provides a text link next to the image that refers to a separate w
 {:/}
 
 This approach is supported by all web browsers and assistive technologies and makes the long descriptions available to everyone. However, the link is not associated with the image in a semantic way.
+
+#### Semantiac association of the long descripton link to the image
 
 The HTML5 `<figure>` and `<figcaption>` elements can be used to group image and link semantically. Adding `role="group"` to the figure maintains backward compatibility with web browsers that don’t support the native semantics of the `<figure>` element.
 
