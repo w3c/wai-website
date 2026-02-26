@@ -9,7 +9,7 @@ github:
   label: wai-tutorials
 
 metafooter: true
-last_updated: 2015-02-16
+last_updated: 2026-02-27
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -29,7 +29,7 @@ wcag_techniques:
 
 ### Overview
 
-The chart shows the website hits for the first quarter of 2014. It shows that Site 1 has more visitors than either of the other sites, but the number of visitors is decreasing. Site 2 has a fairly constant number of visitors, while for Site 3 page hits are increasing month on month.
+The chart shows the website hits for the first quarter of 2025. It shows that Site 1 has more visitors than either of the other sites, but the number of visitors is decreasing. Site 2 has a fairly constant number of visitors, while for Site 3 page hits are increasing month on month.
 
 ### Values
 
@@ -37,7 +37,7 @@ Numerical values presented on the image:
 
 <table>
   <caption>
-      2014 First Quarter visitors per site (in thousands)
+      2025 First Quarter visitors per site (in thousands)
     </caption>
     <tr>
       <th scope="col">Period</th>
