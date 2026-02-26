@@ -55,12 +55,12 @@
   path: foundations-course
   captions:
     - en
-- id: captions
+- id: perspectives_captions
   name:
     en: "Web Accessibility Perspectives: Video Captions"
     fr: "L'accessibilité Web illustrée : Les sous-titres de vidéo"
   main-page: /perspective-videos/captions/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -80,12 +80,12 @@
     - en
     - fr
     - id
-- id: contrast
+- id: perspectives_contrast
   name:
     en: "Web Accessibility Perspectives: Colors with Good Contrast"
     fr: "L'accessibilité Web illustrée : des couleurs bien contrastées"
   main-page: /perspective-videos/contrast/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -105,12 +105,12 @@
     - en
     - fr
     - id
-- id: controls
+- id: perspectives_controls
   name:
     en: "Web Accessibility Perspectives: Large Links, Buttons, and Controls"
     fr: "L'accessibilité Web illustrée : des liens, boutons, et composants d'interface assez grands"
   main-page: /perspective-videos/controls/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -130,12 +130,12 @@
     - en
     - fr
     - id
-- id: customizable
+- id: perspectives_customizable
   name:
     en: "Web Accessibility Perspectives: Customizable Text"
     fr: "L'accessibilité Web illustrée : un texte personnalisable"
   main-page: /perspective-videos/customizable/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -155,12 +155,12 @@
     - en
     - fr
     - id
-- id: keyboard
+- id: perspectives_keyboard
   name:
     en: "Web Accessibility Perspectives: Keyboard Compatibility"
     fr: "L'accessibilité Web illustrée : compatibilité avec le clavier"
   main-page: /perspective-videos/keyboard/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -180,12 +180,12 @@
     - en
     - fr
     - id
-- id: layout
+- id: perspectives_layout
   name:
     en: "Web Accessibility Perspectives: Clear Layout and Design"
     fr: "L'accessibilité Web illustrée : une mise en page et une conception claires"
   main-page: /perspective-videos/layout/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -205,12 +205,12 @@
     - en
     - fr
     - id
-- id: notifications
+- id: perspectives_notifications
   name:
     en: "Web Accessibility Perspectives: Notifications and Feedback"
     fr: "L'accessibilité Web illustrée : notifications et retours d'information"
   main-page: /perspective-videos/notifications/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -230,12 +230,12 @@
     - en
     - fr
     - id
-- id: speech
+- id: perspectives_text-to-speech
   name:
     en: "Web Accessibility Perspectives: Text to Speech"
     fr: "L'accessibilité Web illustrée : la synthèse vocale"
   main-page: /perspective-videos/speech/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -255,12 +255,12 @@
     - en
     - fr
     - id
-- id: understandable
+- id: perspectives_understandable
   name:
     en: "Web Accessibility Perspectives: Understandable Content"
     fr: "L'accessibilité Web illustrée : un contenu compréhensible"
   main-page: /perspective-videos/understandable/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en
@@ -280,12 +280,12 @@
     - en
     - fr
     - id
-- id: voice
+- id: perspectives_speech-recognition
   name:
     en: "Web Accessibility Perspectives: Speech Recognition"
     fr: "L'accessibilité Web illustrée : la reconnaissance vocale"
   main-page: /perspective-videos/voice/
-  path: perspective-videos
+  path: perspectives
   lang-folder: true
   captions:
     - en

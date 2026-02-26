@@ -45,7 +45,7 @@ Web accessibility is essential for people with disabilities and useful for all. 
 {:#film.no-display}
 
 {% include video-player-data.html
-    video-id="controls"
+    video-id="perspectives_controls"
     yt-id="CzfKB3PuuIY"
     yt-id-ad="65G_twR47OQ"
 %}
