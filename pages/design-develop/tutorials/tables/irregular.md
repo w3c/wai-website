@@ -20,7 +20,7 @@ wcag_techniques:
 - H63
 
 metafooter: true
-last_updated: 2019-07-27
+last_updated: 2026-02-12
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -56,13 +56,16 @@ However, before making these associations, the structure of such groups of colum
 
 In the table below, there are two pairs of column headers. Each pair of column headers, “Produced” and “Sold” is associated with a first-level header that identifies the pair: “Mars” and “Venus”. These first-level headers are made to span two columns by using the `colspan` attribute with the value of `2`.
 
-The column structure needs to be defined at the beginning of the table to associate first-level headers correctly with all cells of both columns. A `<col>` element identifies each column, beginning on the left. If a header spans two or more columns, use a `<colgroup>` element instead of that number of `<col>` elements, and the number of columns spanned is noted in the `span` attribute.
+The column structure needs to be defined at the beginning of the table to associate first-level headers correctly with all cells of both columns. Use `<colgroup>` and nested `<col>` elements to identify each column, beginning on the left. If a header spans two or more columns, add a span attribute to the`<colgroup>` element instead of that number of `<col>` elements. The value of the `span` attribute indicates the number of columns spanned.
 
 Also, the value of the `scope` attribute in the first-level headers is set to `colgroup` so that it is associated with the entire group of columns. The second-level headers only apply to the corresponding column, so the `scope` attribute is set to `col` as shown in previous examples.
+
+Note that `<colgroup>` and `<col>` may be used to style all columns in a table rather than applying the style to each individual column cell. 
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
 <table class="numbers">
+ <caption>Items produced and sold on Mars and Venus</caption>
   <col>
   <colgroup span="2"></colgroup>
   <colgroup span="2"></colgroup>
@@ -101,6 +104,7 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
 
 ~~~ html
 <table>
+ <caption>Items produced and sold on Mars and Venus</caption>
   <col>
   <colgroup span="2"></colgroup>
   <colgroup span="2"></colgroup>
@@ -140,7 +144,11 @@ Also, the value of the `scope` attribute in the first-level headers is set to `c
 {% include box.html type="start" title="Note" class="simple notes" %}
 {:/}
 
-Note: A `<colgroup>` element can contain a `<col>` element to identify individual columns in the group. The combined sum of `<col>` elements (not contained in `<colgroup>` elements) and column elements indicated by the `span` attributes of the `<colgroup>` elements should be equal to the total number of columns in the table.
+A <colgroup> element can contain a <col> element to identify individual columns in the group. The combined sum of <col> elements (not contained in <colgroup> elements) and column elements indicated by the span attributes of the <colgroup> elements should be equal to the total number of columns in the table. 
+
+Normally `<col>` elements are nested within a `<colgroup>` but a subtlety of the [HTML specification](https://html.spec.whatwg.org/#the-colgroup-element) allows `<col>` elements without a parent `<colgroup>`:
+
+> A colgroup element's start tag can be omitted if the first thing inside the colgroup element is a col element, and if the element is not immediately preceded by another colgroup element whose end tag has been omitted. 
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -152,8 +160,6 @@ Note: A `<colgroup>` element can contain a `<col>` element to identify individua
 In the example below, the table consists of two individual columns and one column group spanning three columns. It has six rows. Two headers that span multiple rows. To make sure that such header cells that span multiple rows are correctly associated with all the cells in those rows, the rows must be grouped. To define row groups wrap the corresponding rows in `<tbody>` elements (table body). Additionally, the `scope` attribute of header cells spanning rows has to be set to `rowgroup`.
 
 If a header spans multiple header rows, wrap the rows in a `<thead>` element instead of a `<tbody>` element. Use a `<tfoot>` element if a header spans multiple rows in the footer area of a table.
-
-Due to the complexity of the table a [summary technique](/tutorials/tables/caption-summary/) could be used to describe the layout of the table in detail.
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
@@ -281,7 +287,7 @@ Due to the complexity of the table a [summary technique](/tutorials/tables/capti
 {% include box.html type="start" title="Note" class="simple notes" %}
 {:/}
 
-Note: Using `<thead>`, `<tbody>` and `<tfoot>` in every table, even if there are no headers spanning columns may avoid confusion on when to use them.
+Using `<thead>`, `<tbody>` and `<tfoot>` in every table, even if there are no headers spanning columns may avoid confusion on when to use them.
 
 {::nomarkdown}
 {% include box.html type="end" %}

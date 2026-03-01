@@ -12,11 +12,12 @@ github:
 resource_title: Tables Tutorial
 
 metafooter: true
-last_updated: 2023-02-16
+last_updated: 2026-02-12
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
 update_editors:
+  - Becky Gibson
   - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
