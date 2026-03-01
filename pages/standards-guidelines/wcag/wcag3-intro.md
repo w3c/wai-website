@@ -72,10 +72,10 @@ We will update this page regularly as work on the WCAG 3 Draft progresses.
 
 ## Status: In-progress drafts
 
-In September 2025, we published updated drafts:
+In February 2026, we published updated drafts:
 
-* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.** The main section that changed in the Setpember 2025 update is the [Assertions section](https://www.w3.org/TR/wcag-3.0-explainer/#assertions).
-* **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines and requirements that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed.
+* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.**
+* **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines and requirements that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed. This draft also includes an early version of the Conformance Model with some key questions.
 
 ### Section status
 Each normative section has a status that indicates how far along in the development process this section is, how ready it is for experimental adoption, and what kind of feedback we are looking for.
@@ -87,13 +87,13 @@ Each normative section has a status that indicates how far along in the developm
 
 For more information on these status indicators, see the Explainer section [Current Process for Creating WCAG 3.0](https://www.w3.org/TR/wcag-3.0-explainer/#current-process).
 
-### September 2025 update
+### February 2026 update
 
 <img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
 
 This update includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/).
 
-For review questions and how to comment, please see the section [About this draft](https://www.w3.org/TR/wcag-3.0/#about-this-draft).
+For review questions and how to comment, please see the [About this draft](https://www.w3.org/TR/wcag-3.0/#about-this-draft) section. There are also additional questions related to the Conformance Model. See the [Conformance](https://www.w3.org/TR/wcag-3.0/#conformance) section.
 
 ### Research needed
 
