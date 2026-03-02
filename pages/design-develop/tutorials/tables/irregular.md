@@ -58,7 +58,7 @@ In the table below, there are two pairs of “Produced” and “Sold” column 
 
 The column structure needs to be defined at the beginning of the table to associate first-level headers correctly with all cells of both columns. Use `<colgroup>` and nested `<col>` elements to identify each column, beginning on the left. If a header spans two or more columns, add a span attribute to the`<colgroup>` element instead of that number of `<col>` elements. The value of the `span` attribute indicates the number of columns spanned.
 
-Also, the value of the `scope` attribute in the first-level headers is set to `colgroup` so that it is associated with the entire group of columns. The second-level headers only apply to the corresponding column, so the `scope` attribute is set to `col` as shown in previous examples.
+Also, the value of the `scope` attribute in the first-level headers is set to `colgroup` so that it is associated with the entire group of columns. The second-level headers only apply to the corresponding column, so the `scope` attribute is set to `col`.
 
 Note that `<colgroup>` and `<col>` may be used to style all columns in a table rather than applying the style to each individual column cell. 
 
