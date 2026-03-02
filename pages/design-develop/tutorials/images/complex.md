@@ -19,7 +19,7 @@ wcag_techniques:
 - G94
 
 metafooter: true
-last_updated: 2022-01-17
+last_updated: 2026-02-27
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -57,12 +57,12 @@ It is also good practice to refer to and summarize more complex images from the 
 
 ## **Example 1:** Description containing structured information
 
-In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3”, provided through the `alt` attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart. The [longdesc approach](#providing-a-link-to-the-long-description-via-longdesc) used in the following example is described later in the section.
+In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3”, provided through the `alt` attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart. The [longdesc approach](#providing-a-link-to-the-long-description-via-longdesc) used in the following example is described later in the section.
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
 
-<img src="{{ "/content-images/tutorials/images/chart.png" | relative_url }}" alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3" longdesc="{{ "/tutorials/images/examples/2014-first-qtr/" | relative_url }}"><br><a href="{{ "/tutorials/images/examples/2014-first-qtr/" | relative_url }}">Image Description</a>
+<img src="{{ "/content-images/tutorials/images/chart.png" | relative_url }}" alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3" longdesc="{{ "/tutorials/images/examples/long-description/" | relative_url }}"><br><a href="{{ "/tutorials/images/examples/long-description/" | relative_url }}">Image Description</a>
 
 {% include box.html type="end" %}
 {:/}
@@ -71,7 +71,7 @@ In this example, a bar chart of website visitor statistics has the short descrip
 {% include box.html type="start" title="Note" class="simple notes" %}
 {:/}
 
-See [example long description](/tutorials/images/examples/2014-first-qtr/) associated with this image.
+See [example long description](/tutorials/images/examples/long-description/) associated with this image.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -91,9 +91,9 @@ This approach provides a text link next to the image that refers to a separate w
 <p>
   <img
     src="chart.png"
-    alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3">
+    alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3">
   <br>
-  <a href="2014-first-qtr.html">Example.com Site visitors Jan to March 2014 text description of the bar chart</a>
+  <a href="2025-first-qtr.html">Example.com Site visitors Jan to March 2025 text description of the bar chart</a>
 </p>
 ~~~
 
@@ -102,6 +102,8 @@ This approach provides a text link next to the image that refers to a separate w
 {:/}
 
 This approach is supported by all web browsers and assistive technologies and makes the long descriptions available to everyone. However, the link is not associated with the image in a semantic way.
+
+#### Semantic association of long description link to the image
 
 The HTML5 `<figure>` and `<figcaption>` elements can be used to group image and link semantically. Adding `role="group"` to the figure maintains backward compatibility with web browsers that don’t support the native semantics of the `<figure>` element.
 
@@ -113,9 +115,9 @@ The HTML5 `<figure>` and `<figcaption>` elements can be used to group image and 
 <figure role="group">
     <img
         src="chart.png"
-        alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3">
+        alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3">
     <figcaption>
-        <a href="2014-first-qtr.html">Example.com Site visitors Jan to March 2014 text description of the bar chart</a>
+        <a href="2025-first-qtr.html">Example.com Site visitors Jan to March 2025 text description of the bar chart</a>
     </figcaption>
 </figure>
 ~~~
@@ -137,7 +139,7 @@ When a long description is provided on the same web page as an image, its locati
 <p>
   <img
     src="chart.png"
-    alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3. Described under the heading Site visitors full text.">
+    alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3. Described under the heading Site visitors full text.">
 </p>
 […]
 <h4>Site visitors full text</h4>
@@ -163,13 +165,13 @@ The HTML5 `<figure>` element can be used to enclose both the image and its long 
 ~~~ html
 <figure role="group">
   <img src="chart.png"
-    alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3, described in detail below.">
+    alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3, described in detail below.">
   <figcaption>
     <h2>Overview</h2>
-    <p>The chart shows the website hits for the first quarter of 2014 …</p>
+    <p>The chart shows the website hits for the first quarter of 2025 …</p>
     <h2>Values</h2>
     <table>
-      <caption>Example.com Site visitors Jan to March 2014</caption>
+      <caption>Example.com Site visitors Jan to March 2025</caption>
       <tr>…</tr>
     </table>
   </figcaption>
@@ -207,9 +209,9 @@ When the `longdesc` attribute contains a URI to refer to another web page with t
 ~~~ html
 <img
   src="chart.png"
-  alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3"
-  longdesc="2014-first-qtr.html">
-<a href="2014-first-qtr.html">Long Description</a>
+  alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"
+  longdesc="2025-first-qtr.html">
+<a href="2025-first-qtr.html">Long Description</a>
 ~~~
 
 {::nomarkdown}
@@ -225,7 +227,7 @@ When the `longdesc` attribute contains a fragment identifier (`#` followed by th
 ~~~ html
 <img
   src="chart.png"
-  alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3"
+  alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"
   longdesc="#chart-longdesc">
 […]
 <div id="chart-longdesc">
