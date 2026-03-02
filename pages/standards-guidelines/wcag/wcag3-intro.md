@@ -72,9 +72,9 @@ We will update this page regularly as work on the WCAG 3 Draft progresses.
 
 ## Status: In-progress drafts
 
-In September 2025, we published updated drafts:
+In March 2026, we published updated drafts:
 
-* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.** The main section that changed in the Setpember 2025 update is the [Assertions section](https://www.w3.org/TR/wcag-3.0-explainer/#assertions).
+* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.** Changes include information about [Best Practices](https://www.w3.org/TR/wcag-3.0-explainer/#best-practices) and [Conformance](https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models).
 * **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines and requirements that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed.
 
 ### Section status
@@ -87,7 +87,7 @@ Each normative section has a status that indicates how far along in the developm
 
 For more information on these status indicators, see the Explainer section [Current Process for Creating WCAG 3.0](https://www.w3.org/TR/wcag-3.0-explainer/#current-process).
 
-### September 2025 update
+### March 2026 update
 
 <img src="{{ "/content-images/wcag/dialogs2.svg" | relative_url }}" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px">
 
