@@ -1,15 +1,20 @@
 ---
 title: "Long Description Example"
-permalink: /tutorials/images/examples/2014-first-qtr/
-backlink: /tutorials/images/complex/#image-containing-substantial-information
 lang: en
-description:
-image: /content-images/tutorials/images/social.png
+last_updated: 2026-02-27
+
 github:
   label: wai-tutorials
 
+permalink: /tutorials/images/examples/long-description/
+ref: /tutorials/images/examples/long-description/
+redirect_from:
+  - /tutorials/images/examples/2014-first-qtr/
+backlink: /tutorials/images/complex/#image-containing-substantial-information
+
+changelog: /tutorials/changelog/
+
 metafooter: true
-last_updated: 2026-02-27
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"

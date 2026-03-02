@@ -62,7 +62,7 @@ In this example, a bar chart of website visitor statistics has the short descrip
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
 
-<img src="{{ "/content-images/tutorials/images/chart.png" | relative_url }}" alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3" longdesc="{{ "/tutorials/images/examples/2014-first-qtr/" | relative_url }}"><br><a href="{{ "/tutorials/images/examples/2014-first-qtr/" | relative_url }}">Image Description</a>
+<img src="{{ "/content-images/tutorials/images/chart.png" | relative_url }}" alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3" longdesc="{{ "/tutorials/images/examples/long-description/" | relative_url }}"><br><a href="{{ "/tutorials/images/examples/long-description/" | relative_url }}">Image Description</a>
 
 {% include box.html type="end" %}
 {:/}
@@ -71,7 +71,7 @@ In this example, a bar chart of website visitor statistics has the short descrip
 {% include box.html type="start" title="Note" class="simple notes" %}
 {:/}
 
-See [example long description](/tutorials/images/examples/2014-first-qtr/) associated with this image.
+See [example long description](/tutorials/images/examples/long-description/) associated with this image.
 
 {::nomarkdown}
 {% include box.html type="end" %}
