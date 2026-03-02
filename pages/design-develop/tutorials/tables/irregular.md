@@ -54,7 +54,7 @@ However, before making these associations, the structure of such groups of colum
 ## Table with two tier headers
 {:.ex}
 
-In the table below, there are two pairs of column headers. Each pair of column headers, “Produced” and “Sold” is associated with a first-level header that identifies the pair: “Mars” and “Venus”. These first-level headers are made to span two columns by using the `colspan` attribute with the value of `2`.
+In the table below, there are two pairs of “Produced” and “Sold” column headers. Each pair is associated with a first-level header that identifies the pair: “Mars” and “Venus”. The first-level headers are made to span two columns by using the `colspan` attribute with the value of `2`.
 
 The column structure needs to be defined at the beginning of the table to associate first-level headers correctly with all cells of both columns. Use `<colgroup>` and nested `<col>` elements to identify each column, beginning on the left. If a header spans two or more columns, add a span attribute to the`<colgroup>` element instead of that number of `<col>` elements. The value of the `span` attribute indicates the number of columns spanned.
 
