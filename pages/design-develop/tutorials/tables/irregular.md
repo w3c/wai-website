@@ -144,7 +144,7 @@ Note that `<colgroup>` and `<col>` may be used to style all columns in a table r
 {% include box.html type="start" title="Note" class="simple notes" %}
 {:/}
 
-A <colgroup> element can contain a <col> element to identify individual columns in the group. The combined sum of <col> elements (not contained in <colgroup> elements) and column elements indicated by the span attributes of the <colgroup> elements should be equal to the total number of columns in the table. 
+A `<colgroup>` element can contain `<col>` elements to identify individual columns in the group. The combined sum of `<col>` elements (not contained in `<colgroup>` elements) and column elements indicated by the `span` attributes of the `<colgroup>` elements should be equal to the total number of columns in the table. 
 
 Normally `<col>` elements are nested within a `<colgroup>` but a subtlety of the [HTML specification](https://html.spec.whatwg.org/#the-colgroup-element) allows `<col>` elements without a parent `<colgroup>`:
 
