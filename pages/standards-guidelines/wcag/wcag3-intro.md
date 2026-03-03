@@ -82,7 +82,7 @@ In March 2026, we published updated drafts:
 * **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/). For review questions and how to comment, please see the sections [About this draft](https://www.w3.org/TR/wcag-3.0/#about-this-draft) and [Conformance](https://www.w3.org/TR/wcag-3.0/#conformance).
 
 Changes in these drafts include:
-* "Foundational Requirements" changed to "Core Requirements"
+* "Foundational Requirements" renamed "Core Requirements"
 * "Outcomes" name has changed to "Requirements" and "Guidelines" are written as outcome statements
 * [Best practices section in the Explainer](https://www.w3.org/TR/wcag-3.0-explainer/#best-practices)
 * [Conformance section in the Explainer](https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models)
