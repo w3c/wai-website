@@ -83,8 +83,7 @@ In March 2026, we published updated drafts:
 
 Changes in these drafts include:
 * "Foundational Requirements" changed to "Core Requirements"
-* "Supplemental Requirements" added
-* "Outcomes" removed
+* "Outcomes" name has changed to "Requirements" and "Guidelines" are written as outcome statements
 * [Best practices section in the Explainer](https://www.w3.org/TR/wcag-3.0-explainer/#best-practices)
 * [Conformance section in the Explainer](https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models)
 * [Conformance section in the WCAG 3 Draft](https://www.w3.org/TR/wcag-3.0/#conformance)
