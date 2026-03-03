@@ -74,7 +74,7 @@ We will update this page regularly as work on the WCAG 3 Draft progresses.
 
 The WCAG 3 draft includes potential guidelines and requirements that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed.
 
-### March 2025 updates
+### March 2026 updates
 
 In March 2026, we published updated drafts:
 
