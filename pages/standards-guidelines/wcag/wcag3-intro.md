@@ -79,7 +79,7 @@ The WCAG 3 draft includes potential guidelines and requirements that we are expl
 In March 2026, we published updated drafts:
 
 * **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.**
-* **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/). For review questions and how to comment, please see the section [About this draft](https://www.w3.org/TR/wcag-3.0/#about-this-draft) and [Conformance](https://www.w3.org/TR/wcag-3.0/#conformance).
+* **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/). For review questions and how to comment, please see the sections [About this draft](https://www.w3.org/TR/wcag-3.0/#about-this-draft) and [Conformance](https://www.w3.org/TR/wcag-3.0/#conformance).
 
 Changes in these drafts include:
 * "Foundational Requirements" changed to "Core Requirements"
