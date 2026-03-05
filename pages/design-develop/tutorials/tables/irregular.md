@@ -60,7 +60,6 @@ The column structure needs to be defined at the beginning of the table to associ
 
 Also, the value of the `scope` attribute in the first-level headers is set to `colgroup` so that it is associated with the entire group of columns. The second-level headers only apply to the corresponding column, so the `scope` attribute is set to `col`.
 
-Note that `<colgroup>` and `<col>` may be used to style all columns in a table rather than applying the style to each individual column cell. 
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
