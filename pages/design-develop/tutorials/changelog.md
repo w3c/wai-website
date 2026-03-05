@@ -29,6 +29,12 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 {% include box.html type="end" %}
 {:/}
 
+## February 2026
+In [Tables with Irregular Headers](/tutorials/tables/irregular/)
+* Address issue #1076: added additional notes to better describe use of `<colgroup>` and `<col>` elements. Added note supporting the current `<colgroup>` implementation.
+* Added a `<caption>` to example 1 and associated code snippet
+* Updated the example 2 full example code to match the updated example. It was previously only a snippet and didn't include the `<colgroup>` info. Issue #1822
+ 
 ## July 2024
 
 In [Images tutorial](/tutorials/images/)
