@@ -49,7 +49,7 @@ Aksesibilitas web sangat penting bagi penyandang disabilitas dan bermanfaat bagi
 {:#film.no-display}
 
 {% include video-player-data.html
-    video-id="contrast"
+    video-id="perspectives_contrast"
     yt-id="Hui87z2Vx8o"
     yt-id-ad="a9kNUv6N8Rk"
 %}
