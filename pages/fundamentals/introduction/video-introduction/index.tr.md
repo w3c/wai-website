@@ -9,6 +9,7 @@ first_published: "4 Aralık 2017"
 
 translation:
   draft: true
+  # outdated: false
   last_updated: 2024-12-30
   
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
