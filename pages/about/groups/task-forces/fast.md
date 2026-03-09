@@ -61,7 +61,7 @@ You can contribute to the work without being a member of the task force:
 - **Published FAST resources:** Let us know if there is a
  new issue with any of these.
 
-Either comment / raise a new issue in the [FAST GitHub repository](https://github.com/w3c/fast/issues) or email the [W3C staff contact](https://www.w3.org/groups/tf/fast/participants/#staff).
+Comment or raise a new issue in the [FAST GitHub repository](https://github.com/w3c/fast/issues) or email the [W3C staff contact](https://www.w3.org/groups/tf/fast/participants/#staff).
 
 ### Become a participant in the task force
 

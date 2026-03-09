@@ -2,7 +2,7 @@
 title: WCAG 2 Translations
 nav_title: "Translations"
 lang: en
-last_updated: 2025-03-27
+last_updated: 2025-12-18
 first_published: "2 March 2009"
 description: Links to translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1 and 2.0.
 
@@ -122,6 +122,7 @@ Two types of translations are listed on this page:
               <span class="translation-level">Planned Authorized Translation</span>
               {% if trans.intent_email %}<p><a href="{{ trans.intent_email }}">Notification of intent ({{ trans.intent_date | date: "%-d %B %Y"}})</a></p>{% endif %}
           {% endcase %}
+            {% if trans.comment %}<p>{{ trans.comment }}</p>{% endif %}
           </div>
         {%- endfor -%}
       </td>
@@ -166,6 +167,7 @@ Two types of translations are listed on this page:
               <span class="translation-level">Planned Authorized Translation</span>
               {% if trans.intent_email %}<p><a href="{{ trans.intent_email }}">Notification of intent ({{ trans.intent_date | date: "%-d %B %Y"}})</a></p>{% endif %}
           {% endcase %}
+          {% if trans.comment %}<p>{{ trans.comment }}</p>{% endif %}
           </div>
         {%- endfor -%}
       </td>
@@ -173,7 +175,6 @@ Two types of translations are listed on this page:
   {%- endfor -%}
   </tbody>
 </table>
-
 
 ## WCAG 2.0
 
@@ -211,6 +212,7 @@ Two types of translations are listed on this page:
               <span class="translation-level">Planned Authorized Translation</span>
               {% if trans.intent_email %}<p><a href="{{ trans.intent_email }}">Notification of intent ({{ trans.intent_date | date: "%-d %B %Y"}})</a></p>{% endif %}
           {% endcase %}
+          {% if trans.comment %}<p>{{ trans.comment }}</p>{% endif %}
           </div>
         {%- endfor -%}
       </td>

@@ -2,7 +2,7 @@
 title: "Digital Accessibility User Requirements"
 nav_title: "User Requirements"
 lang: en
-last_updated: 2025-03-05
+last_updated: 2026-02-05
 description: User requirements for virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, cognitive accessibility, low vision, and more.
 
 github:
@@ -47,8 +47,7 @@ WAI continues to analyze research and document user needs in several areas. The 
 
 ## Disability-specific user requirements and research
 * Cognitive and learning disabilities
-  * [Cognitive Accessibility User Research](https://w3c.github.io/coga/user-research/)
-  * [Cognitive Accessibility Issue Papers](https://rawgit.com/w3c/coga/master/issue-papers/)
+  * [Cognitive Accessibility Research Modules](https://www.w3.org/TR/coga-research-modules/)
 * Low vision
   * [Low Vision Accessibility Research notes](https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Research)
   * [Accessibility Requirements for People with Low Vision](https://www.w3.org/TR/low-vision-needs/)
