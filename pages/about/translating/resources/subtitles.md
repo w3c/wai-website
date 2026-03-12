@@ -89,8 +89,7 @@ Look for the embedded video player **in the code of the English version of the p
 
 ## Step 2: Edit video-metadata.yml {#video-metadata}
 
-WAI videos captions, subtitles and descriptions metadata are stored in [
-`video-metadata.yml" in ["wai-website" repository {% include_cached external.html %}](https://github.com/w3c/wai-website/)
+WAI videos captions, subtitles and descriptions metadata are stored in `video-metadata.yml`, in ["wai-website" repository {% include_cached external.html %}](https://github.com/w3c/wai-website/)
 
 {::nomarkdown}
 {% include box.html type="start" title="Video-metadata.yml example" %}
