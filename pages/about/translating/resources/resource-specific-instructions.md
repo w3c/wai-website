@@ -166,7 +166,7 @@ support: Developed by the Education and Outreach Working Group (<a href="https:/
 
 1. Translate content in `editors`, `update_editors`, `contributing_participants` and `support`.\
 2. Translate the Working Group name and leave the Working Group acronym in English.
-3. Add translations for the following terms, used by the footer, in the [translations.yml file {% include_cached external.html %}](https://github.com/w3c/wai-website-data/blob/master/translations.yml) located in [the `wai-website-data` repository {% include_cached external.html %}](https://github.com/w3c/wai-website-data/):
+3. Add translations for the following terms, used by the footer, in the [translations.yml file {% include_cached external.html %}](https://github.com/w3c/wai-website-theme/blob/main/_data/translations.yml) located in [the `wai-website-theme` repository {% include_cached external.html %}](https://github.com/w3c/wai-website-theme/):
 - "Editors:"
 - "Update Editor:"
 - "Status"
