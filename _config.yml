@@ -239,7 +239,7 @@ defaults:
       standalone_resource_header:
         title: ACT Rules
         title-ref: /standards-guidelines/act/rules/
-        subtitle: Rules for accessibility conformance testing (ACT)
+        subtitle: Rules for Accessibility Conformance Testing (ACT)
       standalone_resource_nav_links:
         - name: All Rules
           ref: /standards-guidelines/act/rules/
