@@ -2,7 +2,6 @@ nav.nav li:last-of-type {
   display: none;
 }
 
-/* For tables wider than the viewport */
 .scroll-wrap {
   width: 100%;
   overflow-x: auto;
@@ -33,6 +32,62 @@ table.act-implementations ul {
 }
 .act-proposed .progress-bar {
   height: 2px;
+}
+
+.act-pill {
+  display: inline-block;
+  background-color: var(--wai-green);
+  color: var(--pure-white);
+  font-size: 0.75em;
+  padding: 0.2em 0.6em;
+  border-radius: 1em;
+  margin-left: 0.5em;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.act-pill::before {
+  content: "[";
+  position: absolute;
+  opacity: 0;
+}
+
+.act-pill::after {
+  content: "]";
+  position: absolute;
+  opacity: 0;
+}
+
+.act-pill.proposed {
+  background-color: var(--cloudy-subtle);
+  color: var(--off-black);
+  border: 1px solid var(--cloudy);
+}
+
+.act-pill.deprecated {
+  background-color: var(--grey);
+  color: var(--pure-white);
+}
+
+.sc-item {
+  margin-top: 2em;
+}
+
+h2 + .sc-item {
+  margin-top: 0;
+}
+
+.sc-text > .sc-handle,
+.sc-text > .sc-title {
+  display: inline;
+  font-size: 1em;
+  color: var(--off-black);
+}
+
+.aria-req {
+  font-size: 1em;
+  color: var(--off-black);
+  font-weight: 400;
 }
 
 @media (min-width: 480px) { 
@@ -80,7 +135,6 @@ table.act-rules-summary {
   }
 }
 
-/* Override WAI default, to avoid captions having the same look as h2 */
 table caption {
   color: var(--dk-grey);
   font-size: 1.05rem;
@@ -92,4 +146,164 @@ ul.act-requirements-list {
 
 .act-requirements-list > li {
   list-style: none;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.5em;
+}
+.filter-options:before {
+  display: none;
+}
+
+.filter-group {
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  flex-grow: 1;
+}
+
+#filter-controls .filter-group-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+  color: var(--off-black);
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-option {
+  display: block;
+  align-items: center;
+  padding: 0.2em;
+}
+.checkbox-option input[type="checkbox"] {
+  margin-right: 0.3em;
+}
+.checkbox-option:focus-within {
+  outline: 2px solid var(--wai-green);
+}
+.checkbox-option:focus-within input {
+  outline: none; /* Turn outline off, only if focus-within is supported */
+}
+
+/* Responsive adjustments for filters */
+@media (max-width: 767px) {
+  .filter-options {
+    flex-direction: column;
+  }
+}
+
+#filter-status {
+  margin: 1.5em 0;
+  padding: 0.75em 1.25em;
+  background-color: var(--off-white);
+  border: 1px solid var(--line-grey);
+  border-radius: 4px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+#filter-status > span {
+  font-weight: bold; 
+}
+.sneaky-skiplink {
+  position: relative;
+}
+.sneaky-skiplink > a {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 0;
+  overflow: hidden;
+}
+.sneaky-skiplink > a:focus {
+  height: auto;
+}
+
+/* border fixes for atomic lists and hidden rules */
+.atomic-rules-list {
+  border-bottom: 1px solid var(--line-grey);
+  padding-bottom: 0.5em;
+}
+
+.atomic-rules-list li {
+  list-style: disc;
+}
+
+.atomic-rules-list a {
+    padding-left: 0.5em;
+}
+
+.act-rule-list .has-atomic-rules a {
+  border-bottom: 0;
+}
+
+.rules-item > .box {
+  border-bottom-width: 0;
+}
+
+.rules-item > .box:has(.no-rules) {
+  border-bottom-width: 1px;
+}
+
+.linklist > li:last-child > a:last-child {
+  border-bottom: 1px solid var(--line-grey);
+}
+
+.linklist li li:last-child > a {
+    border-bottom: 0;
+}
+
+.filtered-rules-message {
+  margin: 0;
+  display: none
+}
+
+.act-rule-list[hidden] + .filtered-rules-message {
+  display: block;
+}
+
+/* Page contents styles for disabled menu items */
+.nav-hack.sidebar a[aria-disabled] {
+  color: var(--w3c-storm-gray);
+}
+
+.nav-hack.sidebar a[aria-disabled]:hover, .nav-hack.sidebar a[aria-disabled]:active {
+  color: var(--w3c-storm-gray);
+  text-decoration: none;
+  cursor: text;
+}
+
+/* Filter logic */
+.act-rule.filtered-out {
+  display: none;
+}
+
+.act-rule-list.no-rules {
+  display: none;
+}
+
+.act-rule-list.no-rules + .filtered-rules-message {
+  display: block;
+}
+
+.rules-item.filtered-out {
+    display: none;
+}
+
+.rules-container.filtered-out {
+    display: none;
+}
+
+#all-requirements-hidden {
+  display: none;
+}
+
+main.all-requirements-hidden #all-requirements-hidden {
+  display: block;
 }

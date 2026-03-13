@@ -11,15 +11,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1773306531962266670";
+      element.src = "/WAI/assets/scripts/main.js?1773413763474387721";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1773306531962266670">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1773413763474387721">
 
-<title> All ACT Rules |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1773306531962266670"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> All ACT Rules |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1773413763474387721"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="All ACT Rules" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -54,7 +54,7 @@
         ACT Rules
       </a>
     </div>
-    <p class="minimal-header-subtitle">Rules for accessibility conformance testing (ACT)</p></div>
+    <p class="minimal-header-subtitle">Rules for Accessibility Conformance Testing (ACT)</p></div>
   <div class="minimal-header-logo">
     <div class="logos">
       <a lang="en" class="home w3c" href="https://www.w3.org/">
@@ -271,15 +271,37 @@ h2#sidebar-header {
                 <ul>
                 
                 
-                <li><a href="#rules-for-wcag-2">Rules for WCAG 2</a></li>
+                <li><a href="#guideline1.1-textalternatives">Guideline 1.1 - Text Alternatives</a></li>
                 
-                <li><a href="#rules-for-wai-aria">Rules for WAI-ARIA</a></li>
+                <li><a href="#guideline1.2-time-basedmedia">Guideline 1.2 - Time-based Media</a></li>
                 
-                <li><a href="#proposed-rules-for-wcag-2">Proposed Rules for WCAG 2</a></li>
+                <li><a href="#guideline1.3-adaptable">Guideline 1.3 - Adaptable</a></li>
                 
-                <li><a href="#rules-beyond-wcag">Rules beyond WCAG</a></li>
+                <li><a href="#guideline1.4-distinguishable">Guideline 1.4 - Distinguishable</a></li>
                 
-                <li><a href="#deprecated-act-rules">Deprecated ACT Rules</a></li>
+                <li><a href="#guideline2.1-keyboardaccessible">Guideline 2.1 - Keyboard Accessible</a></li>
+                
+                <li><a href="#guideline2.2-enoughtime">Guideline 2.2 - Enough Time</a></li>
+                
+                <li><a href="#guideline2.3-seizuresandphysicalreactions">Guideline 2.3 - Seizures and Physical Reactions</a></li>
+                
+                <li><a href="#guideline2.4-navigable">Guideline 2.4 - Navigable</a></li>
+                
+                <li><a href="#guideline2.5-inputmodalities">Guideline 2.5 - Input Modalities</a></li>
+                
+                <li><a href="#guideline3.1-readable">Guideline 3.1 - Readable</a></li>
+                
+                <li><a href="#guideline3.2-predictable">Guideline 3.2 - Predictable</a></li>
+                
+                <li><a href="#guideline3.3-inputassistance">Guideline 3.3 - Input Assistance</a></li>
+                
+                <li><a href="#guideline4.1-compatible">Guideline 4.1 - Compatible</a></li>
+                
+                <li><a href="#ariarules">ARIA Rules</a></li>
+                
+                <li><a href="#about-rule-status">About Rule Status</a></li>
+                
+                <li><a href="#about-implementations">About implementations</a></li>
                 
                 </ul>
             </div>
@@ -301,138 +323,2859 @@ h2#sidebar-header {
 
         <aside class="box"><header class="box-h "> Summary</header><div class="box-i">
 
-<p>This page contains list of ACT Rules to test conformance <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>, <a href="https://www.w3.org/WAI/ARIA/">WAI-ARIA <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a> and other accessibility practices.  ACT Rules for WCAG 2 are formally approved by the Accessibility Guidelines Working Group. Proposed rules have not yet completed the approval process. ACT Rules are informative — that means they are not required for determining conformance to WCAG or ARIA. Learn more from <a href="/WAI/standards-guidelines/act/rules/about/">About ACT Rules</a>.</p>
+<p>This page contains Accessibility Conformance Testing (ACT) Rules to test conformance with <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) 2.2 <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>, <a href="https://www.w3.org/WAI/ARIA/">Accessible Rich Internet Applications (ARIA) <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a> and other accessibility practices. ACT Rules are formally approved by the relevant Working Group. Proposed rules have been consensed by the ACT Task Force participants but have not yet been approved by the relevant Working Groups. ACT Rules are informative — that means they are not required for determining conformance to WCAG or ARIA. Learn more from <a href="/WAI/standards-guidelines/act/rules/about/">About ACT Rules</a>.</p>
 
 </div></aside>
 
-<h2 id="rules-for-wcag-2">Rules for WCAG 2</h2>
+<p class="sneaky-skiplink"><a href="#guidelines-start">Skip to guidelines</a></p>
 
-<p>The ACT Rules in this section directly relate to WCAG 2 success criteria. These rules have been approved by the Accessibility Guidelines Working Group. They are fully implemented in at least one <a href="../implementations/">test tool or methodology</a>.</p>
+<form class="box" aria-labelledby="filter-controls-legend" id="filter-controls">
+  <div class="box-h" id="filter-controls-legend">Filter this page</div>
+  <div class="filter-options box-i">
+    <fieldset class="filter-group">
+      <legend class="filter-group-label">Accessibility requirements:</legend>
+      <div class="checkbox-group">
+        <div class="checkbox-option">
+          <input type="checkbox" id="level-a" name="requirements" value="a" checked="">
+          <label for="level-a">WCAG 2.2 Level A</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="level-aa" name="requirements" value="aa" checked="">
+          <label for="level-aa">WCAG 2.2 Level AA</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="level-aaa" name="requirements" value="aaa">
+          <label for="level-aaa">WCAG 2.2 Level AAA</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-aria" name="requirements" value="aria" checked="">
+          <label for="show-aria">ARIA</label>
+        </div>
+      </div>
+    </fieldset>
+    
+    <fieldset class="filter-group">
+      <legend class="filter-group-label">
+        Rule Status:
+      </legend>
+      <div class="checkbox-group">
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-approved" name="status" value="approved" checked="">
+          <label for="show-approved">Approved Rules</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-proposed" name="status" value="proposed" checked="">
+          <label for="show-proposed">Proposed Rules</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-deprecated" name="status" value="deprecated">
+          <label for="show-deprecated">Deprecated Rules</label>
+        </div>
+      </div>
+    </fieldset>
+    
+    <fieldset class="filter-group">
+      <legend class="filter-group-label">
+        Implementation:
+      </legend>
+      <div class="checkbox-group">
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-manual" name="implement" value="manual" checked="">
+          <label for="show-manual">Manual</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-semiauto" name="implement" value="semi-auto" checked="">
+          <label for="show-semiauto">Semi-Automatic</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-automated" name="implement" value="auto" checked="">
+          <label for="show-automated">Automated</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-linter" name="implement" value="lint" checked="">
+          <label for="show-linter">Linter</label>
+        </div>
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-unimplemented" name="implement" value="none" checked="">
+          <label for="show-unimplemented">Not implemented</label>
+        </div>
+      </div>
+    </fieldset>
 
-<ul>
-    <li><a href="/WAI/standards-guidelines/act/rules/73f2c2/">Autocomplete attribute has valid value</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/97a4e1/">Button has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/oj04fd/">Element in sequential focus order has visible focus</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/46ca7f/">Element marked as decorative is not exposed</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/6cfa84/">Element with aria-hidden has no content in sequential focus navigation</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/de46e4/">Element with lang attribute has valid language tag</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/307n5z/">Element with presentational children has no focusable content</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/4e8ab6/">Element with role attribute has required states and properties</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/e086e5/">Form field has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/a25f45/">Headers attribute specified on a cell refers to cells in the same table element</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/0va7u6/">HTML images contain no text</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/b5c3f8/">HTML page has lang attribute</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/2779a5/">HTML page has non-empty title</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/bf051a/">HTML page lang attribute has valid language tag</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/c4a8a4/">HTML page title is descriptive</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/akn7bn/">Iframe with interactive elements is not excluded from tab-order</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/qt1vmo/">Image accessible name is descriptive</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/59796f/">Image button has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/23a2a8/">Image has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/24afc2/">Important letter spacing in style attributes is wide enough</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/78fd32/">Important line height in style attributes is wide enough</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/9e45ec/">Important word spacing in style attributes is wide enough</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/c487ae/">Link has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/m6b1q3/">Menuitem has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/bc659a/">Meta element has no refresh delay</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/bisz58/">Meta element has no refresh delay (no exception)</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/b4f0c3/">Meta viewport allows for zoom</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/8fc3b6/">Object element rendering non-text content has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/b33eff/">Orientation of the page is not restricted using CSS transforms</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/0ssw9k/">Scrollable content can be reached with sequential focus navigation</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/2t702h/">Summary element has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/7d6734/">SVG element with explicit role has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/09o5cg/">Text has enhanced contrast</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/afw4f7/">Text has minimum contrast</a></li>
-</ul>
+    <fieldset class="filter-group">
+      <legend class="filter-group-label">Display Options:</legend>
+      <div class="checkbox-group">
+        <div class="checkbox-option">
+          <input type="checkbox" id="show-empty-sc" name="display" value="no-rules" checked="">
+          <label for="show-empty-sc">Requirements without ACT Rules</label>
+        </div>
+      </div>
+    </fieldset>
 
-<h2 id="rules-for-wai-aria">Rules for WAI-ARIA</h2>
+  </div>
+</form>
 
-<p>The ACT Rules in this section directly relate to WAI-ARIA requirements. These rules have been approved by the WAI-ARIA Working Group. They are fully implemented in at least one <a href="../implementations/">test tool or methodology</a>.</p>
+<div id="filter-status" role="status" aria-live="polite">
+  Showing <span id="wcag-rule-count">-</span> rules for <span id="criteria-with-rules-count">-</span> of <span id="total-selected-criteria-count">-</span> selected WCAG Success Criteria<span id="aria-status-part"> and <span id="aria-rule-count">-</span> rules for ARIA</span>.
+</div>
 
-<ul>
-    <li><a href="/WAI/standards-guidelines/act/rules/5f99a7/">ARIA attribute is defined in WAI-ARIA</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/6a7281/">ARIA state or property has valid value</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/674b10/">Role attribute has valid value</a></li>
-</ul>
+<div id="guidelines-start" tabindex="-1"></div>
 
-<h2 id="proposed-rules-for-wcag-2">Proposed Rules for WCAG 2</h2>
+<section class="guideline-section rules-container">
+    <h2 id="guideline1.1-textalternatives">Guideline 1.1 - Text Alternatives</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">1.1.1 Non-text Content:</a></h3>
+          <p class="sc-title">
+            All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/46ca7f/proposed/">
+                    Element marked as decorative is not exposed
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="manual semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/qt1vmo/proposed/">
+                    Image accessible name is descriptive
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/59796f/proposed/">
+                    Image button has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/23a2a8/proposed/">
+                    Image has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/c487ae/proposed/">
+                    Link has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/8fc3b6/proposed/">
+                    Object element rendering non-text content has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/7d6734/proposed/">
+                    SVG element with explicit role has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="deprecated" data-implement="none">
+                  <a href="/WAI/standards-guidelines/act/rules/9eb3f6/proposed/">
+                    Image filename is accessible name for image
+                    
+                      <span class="act-pill deprecated">deprecated</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/e88epe/proposed/">
+                    Image not in the accessibility tree is decorative
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
 
-<p>The ACT Rules in this section directly relate to WCAG 2 success criteria. These rules will be considered for approval once they are fully implemented in at least one test tool or methodology.</p>
+<section class="guideline-section rules-container">
+    <h2 id="guideline1.2-time-basedmedia">Guideline 1.2 - Time-based Media</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html">1.2.1 Audio-only and Video-only (Prerecorded):</a></h3>
+          <p class="sc-title">
+            For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such:
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/1a02b0/proposed/">
+                    Audio and visuals of video element have transcript
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="manual semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/e7aa44/proposed/">
+                    Audio element content has text alternative
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/2eb176/proposed/">
+                                Audio element content has transcript
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/afb423/proposed/">
+                                Audio element content is media alternative for text
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/f51b46/proposed/">
+                    Video element auditory content has captions
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/c3232f/proposed/">
+                    Video element visual-only content has accessible alternative
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/fd26cf/proposed/">
+                                Video element visual-only content is media alternative for text
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/ee13b5/proposed/">
+                                Video element visual-only content has transcript
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/d7ba54/proposed/">
+                                Video element visual-only content has audio track alternative
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/ee13b5/proposed/">
+                    Video element visual-only content has transcript
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html">1.2.2 Captions (Prerecorded):</a></h3>
+          <p class="sc-title">
+            Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
+             
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/eac66b/proposed/">
+                    Video element auditory content has accessible alternative
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/ab4d13/proposed/">
+                                Video element content is media alternative for text
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/f51b46/proposed/">
+                                Video element auditory content has captions
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded.html">1.2.3 Audio Description or Media Alternative (Prerecorded):</a></h3>
+          <p class="sc-title">
+            An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
+             
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/c5a4ea/proposed/">
+                    Video element visual content has accessible alternative
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/1ea59c/proposed/">
+                                Video element visual content has audio description
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/1a02b0/proposed/">
+                                Audio and visuals of video element have transcript
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/ab4d13/proposed/">
+                                Video element content is media alternative for text
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-live.html">1.2.4 Captions (Live):</a></h3>
+          <p class="sc-title">
+            Captions are provided for all live audio content in synchronized media.
+             
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html">1.2.5 Audio Description (Prerecorded):</a></h3>
+          <p class="sc-title">
+            Audio description is provided for all prerecorded video content in synchronized media.
+             
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/c5a4ea/proposed/">
+                    Video element visual content has accessible alternative
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/1ea59c/proposed/">
+                                Video element visual content has audio description
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/1a02b0/proposed/">
+                                Audio and visuals of video element have transcript
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/ab4d13/proposed/">
+                                Video element content is media alternative for text
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/1ec09b/proposed/">
+                    Video element visual content has strict accessible alternative
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/1ea59c/proposed/">
+                                Video element visual content has audio description
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/ab4d13/proposed/">
+                                Video element content is media alternative for text
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded.html">1.2.6 Sign Language (Prerecorded):</a></h3>
+          <p class="sc-title">
+            Sign language interpretation is provided for all prerecorded audio content in synchronized media.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded.html">1.2.7 Extended Audio Description (Prerecorded):</a></h3>
+          <p class="sc-title">
+            Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html">1.2.8 Media Alternative (Prerecorded):</a></h3>
+          <p class="sc-title">
+            An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/1a02b0/proposed/">
+                    Audio and visuals of video element have transcript
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/c5a4ea/proposed/">
+                    Video element visual content has accessible alternative
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/1ea59c/proposed/">
+                                Video element visual content has audio description
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/1a02b0/proposed/">
+                                Audio and visuals of video element have transcript
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/ab4d13/proposed/">
+                                Video element content is media alternative for text
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live.html">1.2.9 Audio-only (Live):</a></h3>
+          <p class="sc-title">
+            An alternative for time-based media that presents equivalent information for live audio-only content is provided.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
 
-<ul>
-    <li><a href="/WAI/standards-guidelines/act/rules/kb1m8s/proposed/">ARIA global properties not used where prohibited</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ff89c9/proposed/">ARIA required context role</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/bc4a75/proposed/">ARIA required owned elements</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/5c01ea/proposed/">ARIA state or property is permitted</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/1a02b0/proposed/">Audio and visuals of video element have transcript</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/e7aa44/proposed/">Audio element content has text alternative</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/80f0bf/proposed/">Audio or video element avoids automatically playing audio</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/cf77f2/proposed/">Bypass Blocks of Repeated Content</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/9bd38c/proposed/">Content has alternative for visual reference</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/7677a9/proposed/">Device motion based changes to the content can also be created from the user interface</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/c249d5/proposed/">Device motion based changes to the content can be disabled</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/36b590/proposed/">Error message describes invalid form field value</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/80af7b/proposed/">Focusable element has no keyboard trap</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/cc0f0a/proposed/">Form field label is descriptive</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/b49b2e/proposed/">Heading is descriptive</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/off6ek/proposed/">HTML element language subtag matches language</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ucwvc8/proposed/">HTML page language subtag matches default language</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/cae760/proposed/">Iframe element has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/4b1c6c/proposed/">Iframe elements with identical accessible names have equivalent purpose</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/e88epe/proposed/">Image not in the accessibility tree is decorative</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/5effbb/proposed/">Link in context is descriptive</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/aizyf1/proposed/">Link is descriptive</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/fd3a94/proposed/">Links with identical accessible names and same context serve equivalent purpose</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/b20e66/proposed/">Links with identical accessible names have equivalent purpose</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ffbc54/proposed/">No keyboard shortcut uses only printable characters</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/d0f69e/proposed/">Table header cell has assigned cells</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/efbfc7/proposed/">Text content that changes automatically can be paused, stopped or hidden</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/eac66b/proposed/">Video element auditory content has accessible alternative</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/f51b46/proposed/">Video element auditory content has captions</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/c5a4ea/proposed/">Video element visual content has accessible alternative</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/1ec09b/proposed/">Video element visual content has strict accessible alternative</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/c3232f/proposed/">Video element visual-only content has accessible alternative</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ee13b5/proposed/">Video element visual-only content has transcript</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/2ee8b8/proposed/">Visible label is part of accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/59br37/proposed/">Zoomed text node is not clipped with CSS overflow</a></li>
-</ul>
+<section class="guideline-section rules-container">
+    <h2 id="guideline1.3-adaptable">Guideline 1.3 - Adaptable</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html">1.3.1 Info and Relationships:</a></h3>
+          <p class="sc-title">
+            Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
+             
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/5f99a7/proposed/">
+                    ARIA attribute is defined in WAI-ARIA
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/6a7281/proposed/">
+                    ARIA state or property has valid value
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/4e8ab6/proposed/">
+                    Element with role attribute has required states and properties
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/e086e5/proposed/">
+                    Form field has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/a25f45/proposed/">
+                    Headers attribute specified on a cell refers to cells in the same table element
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/674b10/proposed/">
+                    Role attribute has valid value
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/kb1m8s/proposed/">
+                    ARIA global properties not used where prohibited
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/ff89c9/proposed/">
+                    ARIA required context role
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="deprecated" data-implement="none">
+                  <a href="/WAI/standards-guidelines/act/rules/in6db8/proposed/">
+                    ARIA required ID references exist
+                    
+                      <span class="act-pill deprecated">deprecated</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/bc4a75/proposed/">
+                    ARIA required owned elements
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/5c01ea/proposed/">
+                    ARIA state or property is permitted
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/1a02b0/proposed/">
+                    Audio and visuals of video element have transcript
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/d0f69e/proposed/">
+                    Table header cell has assigned cells
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/ee13b5/proposed/">
+                    Video element visual-only content has transcript
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence.html">1.3.2 Meaningful Sequence:</a></h3>
+          <p class="sc-title">
+            When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
+             
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html">1.3.3 Sensory Characteristics:</a></h3>
+          <p class="sc-title">
+            Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/9bd38c/proposed/">
+                    Content has alternative for visual reference
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/orientation.html">1.3.4 Orientation:</a></h3>
+          <p class="sc-title">
+            Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/b33eff/proposed/">
+                    Orientation of the page is not restricted using CSS transforms
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html">1.3.5 Identify Input Purpose:</a></h3>
+          <p class="sc-title">
+            The purpose of each input field collecting information about the user can be programmatically determined when:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/73f2c2/proposed/">
+                    Autocomplete attribute has valid value
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html">1.3.6 Identify Purpose:</a></h3>
+          <p class="sc-title">
+            In content implemented using markup languages, the purpose of user interface components, icons, and regions can be programmatically determined.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
 
-<h2 id="rules-beyond-wcag">Rules beyond WCAG</h2>
+<section class="guideline-section rules-container">
+    <h2 id="guideline1.4-distinguishable">Guideline 1.4 - Distinguishable</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html">1.4.1 Use of Color:</a></h3>
+          <p class="sc-title">
+            Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control.html">1.4.2 Audio Control:</a></h3>
+          <p class="sc-title">
+            If any audio on a web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/80f0bf/proposed/">
+                    Audio or video element avoids automatically playing audio
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                              <a href="/WAI/standards-guidelines/act/rules/4c31df/proposed/">
+                                Audio or video element that plays automatically has a control mechanism
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="auto semi-auto">
+                              <a href="/WAI/standards-guidelines/act/rules/aaa1bf/proposed/">
+                                Audio or video element that plays automatically has no audio that lasts more than 3 seconds
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html">1.4.3 Contrast (Minimum):</a></h3>
+          <p class="sc-title">
+            The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/09o5cg/proposed/">
+                    Text has enhanced contrast
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/afw4f7/proposed/">
+                    Text has minimum contrast
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html">1.4.4 Resize Text:</a></h3>
+          <p class="sc-title">
+            Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
+             
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/b4f0c3/proposed/">
+                    Meta viewport allows for zoom
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="none">
+                  <a href="/WAI/standards-guidelines/act/rules/59br37/proposed/">
+                    Zoomed text node is not clipped with CSS overflow
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html">1.4.5 Images of Text:</a></h3>
+          <p class="sc-title">
+            If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="none">
+                  <a href="/WAI/standards-guidelines/act/rules/0va7u6/proposed/">
+                    HTML images contain no text
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html">1.4.6 Contrast (Enhanced):</a></h3>
+          <p class="sc-title">
+            The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following:
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/09o5cg/proposed/">
+                    Text has enhanced contrast
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/afw4f7/proposed/">
+                    Text has minimum contrast
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html">1.4.7 Low or No Background Audio:</a></h3>
+          <p class="sc-title">
+            For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true:
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html">1.4.8 Visual Presentation:</a></h3>
+          <p class="sc-title">
+            For the visual presentation of blocks of text, a mechanism is available to achieve the following:
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html">1.4.9 Images of Text (No Exception):</a></h3>
+          <p class="sc-title">
+            Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="none">
+                  <a href="/WAI/standards-guidelines/act/rules/0va7u6/proposed/">
+                    HTML images contain no text
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow.html">1.4.10 Reflow:</a></h3>
+          <p class="sc-title">
+            Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/b4f0c3/proposed/">
+                    Meta viewport allows for zoom
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html">1.4.11 Non-text Contrast:</a></h3>
+          <p class="sc-title">
+            The visual presentation of the following have a contrast ratio of at least 3:1 against adjacent color(s):
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html">1.4.12 Text Spacing:</a></h3>
+          <p class="sc-title">
+            In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/24afc2/proposed/">
+                    Important letter spacing in style attributes is wide enough
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/78fd32/proposed/">
+                    Important line height in style attributes is wide enough
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/9e45ec/proposed/">
+                    Important word spacing in style attributes is wide enough
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html">1.4.13 Content on Hover or Focus:</a></h3>
+          <p class="sc-title">
+            Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
 
-<p>The ACT Rules below do not directly relate to WCAG success criteria. They relate to other accessibility guidance such as <a href="https://www.w3.org/TR/wai-aria/">WAI-ARIA <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a> or <a href="https://www.w3.org/WAI/WCAG21/Techniques/">Techniques for WCAG 2 <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg></a>. These rules will be considered for approval once they are fully implemented in at least one test tool or methodology.</p>
+<section class="guideline-section rules-container">
+    <h2 id="guideline2.1-keyboardaccessible">Guideline 2.1 - Keyboard Accessible</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html">2.1.1 Keyboard:</a></h3>
+          <p class="sc-title">
+            All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/akn7bn/proposed/">
+                    Iframe with interactive elements is not excluded from tab-order
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/0ssw9k/proposed/">
+                    Scrollable content can be reached with sequential focus navigation
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html">2.1.2 No Keyboard Trap:</a></h3>
+          <p class="sc-title">
+            If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/80af7b/proposed/">
+                    Focusable element has no keyboard trap
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="none">
+                              <a href="/WAI/standards-guidelines/act/rules/a1b64e/proposed/">
+                                Focusable element has no keyboard trap via standard navigation
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="none">
+                              <a href="/WAI/standards-guidelines/act/rules/ebe86a/proposed/">
+                                Focusable element has no keyboard trap via non-standard navigation
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html">2.1.3 Keyboard (No Exception):</a></h3>
+          <p class="sc-title">
+            All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/akn7bn/proposed/">
+                    Iframe with interactive elements is not excluded from tab-order
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/0ssw9k/proposed/">
+                    Scrollable content can be reached with sequential focus navigation
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html">2.1.4 Character Key Shortcuts:</a></h3>
+          <p class="sc-title">
+            If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="proposed" data-implement="none">
+                  <a href="/WAI/standards-guidelines/act/rules/ffbc54/proposed/">
+                    No keyboard shortcut uses only printable characters
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
 
-<ul>
-    <li><a href="/WAI/standards-guidelines/act/rules/2eb176/proposed/">Audio element content has transcript</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/afb423/proposed/">Audio element content is media alternative for text</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/4c31df/proposed/">Audio or video element that plays automatically has a control mechanism</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/aaa1bf/proposed/">Audio or video element that plays automatically has no audio that lasts more than 3 seconds</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/3e12e1/proposed/">Block of repeated content is collapsible</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/b40fd1/proposed/">Document has a landmark with non-repeated content</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ye5d6e/proposed/">Document has an instrument to move focus to non-repeated content</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/047fe0/proposed/">Document has heading for non-repeated content</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ebe86a/proposed/">Focusable element has no keyboard trap via non-standard navigation</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/a1b64e/proposed/">Focusable element has no keyboard trap via standard navigation</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ffd0e9/proposed/">Heading has non-empty accessible name</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ab4d13/proposed/">Video element content is media alternative for text</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/1ea59c/proposed/">Video element visual content has audio description</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/d7ba54/proposed/">Video element visual-only content has audio track alternative</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/fd26cf/proposed/">Video element visual-only content is media alternative for text</a></li>
-</ul>
+<section class="guideline-section rules-container">
+    <h2 id="guideline2.2-enoughtime">Guideline 2.2 - Enough Time</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html">2.2.1 Timing Adjustable:</a></h3>
+          <p class="sc-title">
+            For each time limit that is set by the content, at least one of the following is true:
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/bc659a/proposed/">
+                    Meta element has no refresh delay
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/bisz58/proposed/">
+                    Meta element has no refresh delay (no exception)
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html">2.2.2 Pause, Stop, Hide:</a></h3>
+          <p class="sc-title">
+            For moving, blinking, scrolling, or auto-updating information, all of the following are true:
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="proposed" data-implement="manual">
+                  <a href="/WAI/standards-guidelines/act/rules/efbfc7/proposed/">
+                    Text content that changes automatically can be paused, stopped or hidden
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/no-timing.html">2.2.3 No Timing:</a></h3>
+          <p class="sc-title">
+            Timing is not an essential part of the event or activity presented by the content, except for non-interactive synchronized media and real-time events.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html">2.2.4 Interruptions:</a></h3>
+          <p class="sc-title">
+            Interruptions can be postponed or suppressed by the user, except interruptions involving an emergency.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/bc659a/proposed/">
+                    Meta element has no refresh delay
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/bisz58/proposed/">
+                    Meta element has no refresh delay (no exception)
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html">2.2.5 Re-authenticating:</a></h3>
+          <p class="sc-title">
+            When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html">2.2.6 Timeouts:</a></h3>
+          <p class="sc-title">
+            Users are warned of the duration of any user inactivity that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
 
-<h2 id="deprecated-act-rules">Deprecated ACT Rules</h2>
+<section class="guideline-section rules-container">
+    <h2 id="guideline2.3-seizuresandphysicalreactions">Guideline 2.3 - Seizures and Physical Reactions</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html">2.3.1 Three Flashes or Below Threshold:</a></h3>
+          <p class="sc-title">
+            Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html">2.3.2 Three Flashes:</a></h3>
+          <p class="sc-title">
+            Web pages do not contain anything that flashes more than three times in any one second period.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html">2.3.3 Animation from Interactions:</a></h3>
+          <p class="sc-title">
+            Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
 
-<p>The ACT Rules below are deprecated and are no longer maintained. For details on why a rule was deprecated see the “Deprecated” section at the top of the rule.</p>
+<section class="guideline-section rules-container">
+    <h2 id="guideline2.4-navigable">Guideline 2.4 - Navigable</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html">2.4.1 Bypass Blocks:</a></h3>
+          <p class="sc-title">
+            A mechanism is available to bypass blocks of content that are repeated on multiple web pages.
+             
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule has-atomic-rules" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/cf77f2/proposed/">
+                    Bypass Blocks of Repeated Content
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                      <ul class="atomic-rules-list act-rule-list">
+                        <li class="act-rule" data-status="proposed" data-implement="none">
+                              <a href="/WAI/standards-guidelines/act/rules/047fe0/proposed/">
+                                Document has heading for non-repeated content
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="auto">
+                              <a href="/WAI/standards-guidelines/act/rules/b40fd1/proposed/">
+                                Document has a landmark with non-repeated content
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="none">
+                              <a href="/WAI/standards-guidelines/act/rules/3e12e1/proposed/">
+                                Block of repeated content is collapsible
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        <li class="act-rule" data-status="proposed" data-implement="none">
+                              <a href="/WAI/standards-guidelines/act/rules/ye5d6e/proposed/">
+                                Document has an instrument to move focus to non-repeated content
+                                
+                                  <span class="act-pill proposed">proposed</span>
+                                
+                              </a>
+                            </li>
+                          
+                        
+                      </ul>
+                    
+                  
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html">2.4.2 Page Titled:</a></h3>
+          <p class="sc-title">
+            Web pages have titles that describe topic or purpose.
+             
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto manual semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/2779a5/proposed/">
+                    HTML page has non-empty title
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto manual semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/c4a8a4/proposed/">
+                    HTML page title is descriptive
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html">2.4.3 Focus Order:</a></h3>
+          <p class="sc-title">
+            If a web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+             
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html">2.4.4 Link Purpose (In Context):</a></h3>
+          <p class="sc-title">
+            The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.
+             
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/c487ae/proposed/">
+                    Link has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto manual semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/5effbb/proposed/">
+                    Link in context is descriptive
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/fd3a94/proposed/">
+                    Links with identical accessible names and same context serve equivalent purpose
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways.html">2.4.5 Multiple Ways:</a></h3>
+          <p class="sc-title">
+            More than one way is available to locate a web page within a set of web pages except where the web page is the result of, or a step in, a process.
+             
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html">2.4.6 Headings and Labels:</a></h3>
+          <p class="sc-title">
+            Headings and labels describe topic or purpose.
+             
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="proposed" data-implement="auto">
+                  <a href="/WAI/standards-guidelines/act/rules/cc0f0a/proposed/">
+                    Form field label is descriptive
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto manual semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/b49b2e/proposed/">
+                    Heading is descriptive
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html">2.4.7 Focus Visible:</a></h3>
+          <p class="sc-title">
+            Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
+             
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto manual semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/oj04fd/proposed/">
+                    Element in sequential focus order has visible focus
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/location.html">2.4.8 Location:</a></h3>
+          <p class="sc-title">
+            Information about the user's location within a set of web pages is available.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html">2.4.9 Link Purpose (Link Only):</a></h3>
+          <p class="sc-title">
+            A mechanism is available to allow the purpose of each link to be identified from link text alone, except where the purpose of the link would be ambiguous to users in general.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/c487ae/proposed/">
+                    Link has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto manual semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/5effbb/proposed/">
+                    Link in context is descriptive
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto">
+                  <a href="/WAI/standards-guidelines/act/rules/aizyf1/proposed/">
+                    Link is descriptive
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/fd3a94/proposed/">
+                    Links with identical accessible names and same context serve equivalent purpose
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/b20e66/proposed/">
+                    Links with identical accessible names have equivalent purpose
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html">2.4.10 Section Headings:</a></h3>
+          <p class="sc-title">
+            Section headings are used to organize the content.
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html">2.4.11 Focus Not Obscured (Minimum):</a></h3>
+          <p class="sc-title">
+            When a user interface component receives keyboard focus, the component is not entirely hidden due to author-created content.
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html">2.4.12 Focus Not Obscured (Enhanced):</a></h3>
+          <p class="sc-title">
+            When a user interface component receives keyboard focus, no part of the component is hidden by author-created content.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html">2.4.13 Focus Appearance:</a></h3>
+          <p class="sc-title">
+            When the keyboard focus indicator is visible, an area of the focus indicator meets all the following:
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
 
-<ul>
-    <li><a href="/WAI/standards-guidelines/act/rules/in6db8/proposed/">ARIA required ID references exist</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/e6952f/proposed/">Attribute is not duplicated</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/5b7ae0/proposed/">HTML page lang and xml:lang attributes have matching values</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/3ea0c8/proposed/">Id attribute value is unique</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/9eb3f6/proposed/">Image filename is accessible name for image</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/f196ce/proposed/">Video element visual content has description track</a></li>
-    <li><a href="/WAI/standards-guidelines/act/rules/ac7dc6/proposed/">Video element visual-only content has description track</a></li>
-</ul>
+<section class="guideline-section rules-container">
+    <h2 id="guideline2.5-inputmodalities">Guideline 2.5 - Input Modalities</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures.html">2.5.1 Pointer Gestures:</a></h3>
+          <p class="sc-title">
+            All functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html">2.5.2 Pointer Cancellation:</a></h3>
+          <p class="sc-title">
+            For functionality that can be operated using a single pointer, at least one of the following is true:
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html">2.5.3 Label in Name:</a></h3>
+          <p class="sc-title">
+            For user interface components with labels that include text or images of text, the name contains the text that is presented visually.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/e086e5/proposed/">
+                    Form field has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/2ee8b8/proposed/">
+                    Visible label is part of accessible name
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html">2.5.4 Motion Actuation:</a></h3>
+          <p class="sc-title">
+            Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/7677a9/proposed/">
+                    Device motion based changes to the content can also be created from the user interface
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/c249d5/proposed/">
+                    Device motion based changes to the content can be disabled
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html">2.5.5 Target Size (Enhanced):</a></h3>
+          <p class="sc-title">
+            The size of the target for pointer inputs is at least 44 by 44 CSS pixels except when:
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html">2.5.6 Concurrent Input Mechanisms:</a></h3>
+          <p class="sc-title">
+            Web content does not restrict use of input modalities available on a platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html">2.5.7 Dragging Movements:</a></h3>
+          <p class="sc-title">
+            All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the user agent and not modified by the author.
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html">2.5.8 Target Size (Minimum):</a></h3>
+          <p class="sc-title">
+            The size of the target for pointer inputs is at least 24 by 24 CSS pixels, except when:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
+
+<section class="guideline-section rules-container">
+    <h2 id="guideline3.1-readable">Guideline 3.1 - Readable</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html">3.1.1 Language of Page:</a></h3>
+          <p class="sc-title">
+            The default human language of each web page can be programmatically determined.
+             
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto manual semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/b5c3f8/proposed/">
+                    HTML page has lang attribute
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/bf051a/proposed/">
+                    HTML page lang attribute has valid language tag
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="deprecated" data-implement="none">
+                  <a href="/WAI/standards-guidelines/act/rules/5b7ae0/proposed/">
+                    HTML page lang and xml:lang attributes have matching values
+                    
+                      <span class="act-pill deprecated">deprecated</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/ucwvc8/proposed/">
+                    HTML page language subtag matches default language
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html">3.1.2 Language of Parts:</a></h3>
+          <p class="sc-title">
+            The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
+             
+            (Level AA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/de46e4/proposed/">
+                    Element with lang attribute has valid language tag
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto manual semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/off6ek/proposed/">
+                    HTML element language subtag matches language
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html">3.1.3 Unusual Words:</a></h3>
+          <p class="sc-title">
+            A mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/abbreviations.html">3.1.4 Abbreviations:</a></h3>
+          <p class="sc-title">
+            A mechanism for identifying the expanded form or meaning of abbreviations is available.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html">3.1.5 Reading Level:</a></h3>
+          <p class="sc-title">
+            When text requires reading ability more advanced than the lower secondary education level after removal of proper names and titles, supplemental content, or a version that does not require reading ability more advanced than the lower secondary education level, is available.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html">3.1.6 Pronunciation:</a></h3>
+          <p class="sc-title">
+            A mechanism is available for identifying specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
+
+<section class="guideline-section rules-container">
+    <h2 id="guideline3.2-predictable">Guideline 3.2 - Predictable</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html">3.2.1 On Focus:</a></h3>
+          <p class="sc-title">
+            When any user interface component receives focus, it does not initiate a change of context.
+             
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input.html">3.2.2 On Input:</a></h3>
+          <p class="sc-title">
+            Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.
+             
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation.html">3.2.3 Consistent Navigation:</a></h3>
+          <p class="sc-title">
+            Navigational mechanisms that are repeated on multiple web pages within a set of web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+             
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification.html">3.2.4 Consistent Identification:</a></h3>
+          <p class="sc-title">
+            Components that have the same functionality within a set of web pages are identified consistently.
+             
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/change-on-request.html">3.2.5 Change on Request:</a></h3>
+          <p class="sc-title">
+            Changes of context are initiated only by user request or a mechanism is available to turn off such changes.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/bc659a/proposed/">
+                    Meta element has no refresh delay
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/bisz58/proposed/">
+                    Meta element has no refresh delay (no exception)
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html">3.2.6 Consistent Help:</a></h3>
+          <p class="sc-title">
+            If a web page contains any of the following help mechanisms, and those mechanisms are repeated on multiple web pages within a set of web pages, they occur in the same order relative to other page content, unless a change is initiated by the user:
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
+
+<section class="guideline-section rules-container">
+    <h2 id="guideline3.3-inputassistance">Guideline 3.3 - Input Assistance</h2>
+    
+      
+        <div class="sc-item rules-item first" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html">3.3.1 Error Identification:</a></h3>
+          <p class="sc-title">
+            If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
+             
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/36b590/proposed/">
+                    Error message describes invalid form field value
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html">3.3.2 Labels or Instructions:</a></h3>
+          <p class="sc-title">
+            Labels or instructions are provided when content requires user input.
+             
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html">3.3.3 Error Suggestion:</a></h3>
+          <p class="sc-title">
+            If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.
+             
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html">3.3.4 Error Prevention (Legal, Financial, Data):</a></h3>
+          <p class="sc-title">
+            For web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/help.html">3.3.5 Help:</a></h3>
+          <p class="sc-title">
+            Context-sensitive help is available.
+             
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html">3.3.6 Error Prevention (All):</a></h3>
+          <p class="sc-title">
+            For web pages that require the user to submit information, at least one of the following is true:
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html">3.3.7 Redundant Entry:</a></h3>
+          <p class="sc-title">
+            Information previously entered by or provided to the user that is required to be entered again in the same process is either:
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html">3.3.8 Accessible Authentication (Minimum):</a></h3>
+          <p class="sc-title">
+            A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:
+            [...] 
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aaa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html">3.3.9 Accessible Authentication (Enhanced):</a></h3>
+          <p class="sc-title">
+            A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following:
+            [...] 
+            (Level AAA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
+
+<section class="guideline-section rules-container">
+    <h2 id="guideline4.1-compatible">Guideline 4.1 - Compatible</h2>
+    
+      
+      
+        <div class="sc-item rules-item" data-level="a">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html">4.1.2 Name, Role, Value:</a></h3>
+          <p class="sc-title">
+            For all user interface components (including but not limited to: form elements, links and components generated by scripts), the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.
+            [...] 
+            (Level A)
+          </p>
+        </div>
+          <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+            
+            <ul class="act-rule-list top-level-list linklist">
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/5f99a7/proposed/">
+                    ARIA attribute is defined in WAI-ARIA
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/6a7281/proposed/">
+                    ARIA state or property has valid value
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/97a4e1/proposed/">
+                    Button has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/6cfa84/proposed/">
+                    Element with aria-hidden has no content in sequential focus navigation
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/307n5z/proposed/">
+                    Element with presentational children has no focusable content
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/4e8ab6/proposed/">
+                    Element with role attribute has required states and properties
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/e086e5/proposed/">
+                    Form field has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/59796f/proposed/">
+                    Image button has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/c487ae/proposed/">
+                    Link has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto manual semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/m6b1q3/proposed/">
+                    Menuitem has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/674b10/proposed/">
+                    Role attribute has valid value
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/2t702h/proposed/">
+                    Summary element has non-empty accessible name
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="deprecated" data-implement="none">
+                  <a href="/WAI/standards-guidelines/act/rules/in6db8/proposed/">
+                    ARIA required ID references exist
+                    
+                      <span class="act-pill deprecated">deprecated</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/5c01ea/proposed/">
+                    ARIA state or property is permitted
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                  <a href="/WAI/standards-guidelines/act/rules/cae760/proposed/">
+                    Iframe element has non-empty accessible name
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              <li class="act-rule" data-status="proposed" data-implement="semi-auto">
+                  <a href="/WAI/standards-guidelines/act/rules/4b1c6c/proposed/">
+                    Iframe elements with identical accessible names have equivalent purpose
+                     
+                      <span class="act-pill proposed">proposed</span>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+            <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+          </div></aside>
+        
+        </div>
+      
+      
+        <div class="sc-item rules-item" data-level="aa">
+        <div class="sc-text">
+          
+          <h3 class="sc-handle"><a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html">4.1.3 Status Messages:</a></h3>
+          <p class="sc-title">
+            In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.
+             
+            (Level AA)
+          </p>
+        </div>
+          <p class="doc-note-box"><em>No ACT Rules available for this criterion yet.</em></p>
+        
+        </div>
+      
+    <p class="sneaky-skiplink"><a href="#top">Back to top</a></p>
+  </section>
+<section class="aria-rules-list-container rules-container">
+  <h2 id="ariarules">ARIA Rules</h2>
+  
+    <div class="ar-item rules-item" data-level="aria">
+      
+        <h3 class="aria-req"><strong>ARIA 1.2</strong>, <a href="https://www.w3.org/TR/wai-aria-1.2/#requiredState"> 5.2.2 Required States and Properties</a></h3>
+      
+      
+        <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+          <ul class="act-rule-list linklist">
+            
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                <a href="/WAI/standards-guidelines/act/rules/4e8ab6/proposed/">
+                  Element with role attribute has required states and properties
+                  
+                </a>
+              </li>
+            
+          </ul>
+          <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+        </div></aside>
+      
+    </div>
+  
+    <div class="ar-item rules-item" data-level="aria">
+      
+        <h3 class="aria-req"><strong>ARIA 1.2</strong>, <a href="https://www.w3.org/TR/wai-aria-1.2/#prohibitedattributes"> 5.2.5 Prohibited States and Properties</a></h3>
+      
+      
+        <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+          <ul class="act-rule-list linklist">
+            
+              <li class="act-rule" data-status="proposed" data-implement="auto lint">
+                <a href="/WAI/standards-guidelines/act/rules/kb1m8s/proposed/">
+                  ARIA global properties not used where prohibited
+                  
+                    <span class="act-pill proposed">proposed</span>
+                  
+                </a>
+              </li>
+            
+          </ul>
+          <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+        </div></aside>
+      
+    </div>
+  
+    <div class="ar-item rules-item" data-level="aria">
+      
+        <h3 class="aria-req"><strong>ARIA 1.2</strong>, <a href="https://www.w3.org/TR/wai-aria-1.2/#namecalculation"> 5.2.8 Accessible Name Calculation</a></h3>
+      
+      
+        <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+          <ul class="act-rule-list linklist">
+            
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                <a href="/WAI/standards-guidelines/act/rules/ffd0e9/proposed/">
+                  Heading has non-empty accessible name
+                  
+                    <span class="act-pill proposed">proposed</span>
+                  
+                </a>
+              </li>
+            
+          </ul>
+          <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+        </div></aside>
+      
+    </div>
+  
+    <div class="ar-item rules-item" data-level="aria">
+      
+        <h3 class="aria-req"><strong>ARIA 1.2</strong>, <a href="https://www.w3.org/TR/wai-aria-1.2/#propcharacteristic_value"> 6.2.4 Value (Characteristics of States and Properties)</a></h3>
+      
+      
+        <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+          <ul class="act-rule-list linklist">
+            
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                <a href="/WAI/standards-guidelines/act/rules/6a7281/proposed/">
+                  ARIA state or property has valid value
+                  
+                </a>
+              </li>
+            
+              <li class="act-rule" data-status="deprecated" data-implement="none">
+                <a href="/WAI/standards-guidelines/act/rules/in6db8/proposed/">
+                  ARIA required ID references exist
+                  
+                    <span class="act-pill deprecated">deprecated</span>
+                  
+                </a>
+              </li>
+            
+          </ul>
+          <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+        </div></aside>
+      
+    </div>
+  
+    <div class="ar-item rules-item" data-level="aria">
+      
+        <h3 class="aria-req"><strong>ARIA 1.2</strong>, <a href="https://www.w3.org/TR/wai-aria-1.2/#state_property_processing"> 8.6 State and Property Attribute Processing</a></h3>
+      
+      
+        <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+          <ul class="act-rule-list linklist">
+            
+              <li class="act-rule" data-status="proposed" data-implement="auto semi-auto lint">
+                <a href="/WAI/standards-guidelines/act/rules/5c01ea/proposed/">
+                  ARIA state or property is permitted
+                  
+                    <span class="act-pill proposed">proposed</span>
+                  
+                </a>
+              </li>
+            
+          </ul>
+          <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+        </div></aside>
+      
+    </div>
+  
+    <div class="ar-item rules-item" data-level="aria">
+      
+        <h3 class="aria-req"><strong>Using ARIA</strong>, <a href="https://www.w3.org/TR/using-aria/#fourth"> 2.4 Fourth Rule of ARIA Use</a></h3>
+      
+      
+        <aside class="box box-linklist"><header class="box-h  box-h-linklist"> Related ACT Rules</header><div class="box-i">
+          <ul class="act-rule-list linklist">
+            
+              <li class="act-rule" data-status="approved" data-implement="auto semi-auto lint">
+                <a href="/WAI/standards-guidelines/act/rules/6cfa84/proposed/">
+                  Element with aria-hidden has no content in sequential focus navigation
+                  
+                </a>
+              </li>
+            
+          </ul>
+          <p class="filtered-rules-message doc-note-box"><em>All related ACT Rules are currently hidden by filters.</em></p>
+        </div></aside>
+      
+    </div>
+  
+</section>
+<p class="filtered-rules-message doc-note-box" id="all-requirements-hidden"><em>All requirements are currently hidden by filters.</em></p>
+
+<h2 id="about-rule-status">About Rule Status</h2>
+
+<p>The ACT Rules are <strong>proposed</strong> by the ACT Rules Community Group. Once a rule is fully implemented by at least one test tool or methodology, the rule is <strong>reviewed and approved</strong> by a W3C Working Group. The Accessibility Guidelines Working Group approves rules for WCAG, the ARIA Working Group approves rules for ARIA. A rule can be <strong>deprecated</strong> if it is no longer necessary, or superseded by other rules.</p>
+
+<h2 id="about-implementations">About implementations</h2>
+
+<p>Filter this page to show rules with specific types of implementations. ACT implementations demonstrate how tools or methodologies rely on ACT rules for testing accessibility. Implementation types can be manual, semi-automated, automated, or linter. For more details and a list of all implementations, see <a href="../implementations/">implementations page</a>.</p>
+
+<script src="/WAI/content-assets/wcag-act-rules/filter-scripts.js"></script>
+
  
 
       </main>
@@ -501,9 +3244,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1773306531962266670"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1773413763474387721"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1773306531962266670"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1773413763474387721"></script>
 <script>
   svg4everybody();
 </script><script>
