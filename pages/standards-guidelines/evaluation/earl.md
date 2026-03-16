@@ -1,13 +1,13 @@
 ---
 title: Evaluation and Report Language (EARL) Overview
 lang: en
+last_updated: 2018-07-03
+first_published: "23 July 2005"
 permalink: /standards-guidelines/earl/
-layout: default
 github:
-  label: wai-intro-earl
+  label: wai-earl-intro
 feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Date:</strong> Updated 3 July 2018. First published 23 July 2005.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a> and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) and the  Evaluation and Repair Tools Working Group Working Group (<a href="https://www.w3.org/WAI/ER/">ERT WG</a>).</p>
 ---

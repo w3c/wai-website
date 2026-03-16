@@ -4,7 +4,7 @@
 title: "Planning and Policies Overview"
 nav_title: "Overview"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2021-05-07    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-03-06    # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -20,17 +20,14 @@ github:
 permalink: /planning/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /planning/    # Do not change this
 
-changelog: /planning/changelog/
 feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
-# Do not change CHANGELOG and the dates
 # Translate the other words below, including "Date:", "Editor:" and "Previous contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 7 May 2021. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Video developed by EOWG, with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements/">Acknowledgements</a>.</p>
 ---
@@ -65,6 +62,9 @@ The following resources provide guidance for individual project management and f
 
 [[Planning and Managing Web Accessibility]](/planning-and-managing/)
 : Describes activities to help you integrate accessibility throughout your organization and projects.
+
+[[Roles and Responsibilities (ARRM)]](/planning/arrm/)
+: Provides an approach for defining roles, tasks, and responsibilities for meeting Web Content Accessibility Guidelines (WCAG).
 
 [[Involving Users in Web Projects for Better, Easier Accessibility]](/planning/involving-users/)
 : Describes how project managers, designers, and developers can better understand accessibility issues and implement more effective accessibility solutions.

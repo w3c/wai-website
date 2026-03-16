@@ -1,12 +1,15 @@
 ---
 title: "Accessibility Statement for WAI Website"
 lang: en
-
+last_updated: 2025-07-09
 permalink: /about/accessibility-statement/
 ref: /about/accessibility-statement/
 
+github:
+  label: wai-about
+
 footer: >
-  <p><strong>This statement was updated on 1 September 2020. It was generated using the <a href=" https://www.w3.org/WAI/planning/statements/">W3C Accessibility Statement Generator Tool</a>.</strong></p>
+  <p><strong>This statement was generated using the <a href=" https://www.w3.org/WAI/planning/statements/">W3C Accessibility Statement Generator Tool</a>.</strong></p>
   <p>Contributors: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>, <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, and <a href="https://www.w3.org/People/CMercier/">Coralie Mercier</a>.</p>
 ---
 
@@ -41,7 +44,7 @@ Web Accessibility Initiative (WAI) website content posted since May 2018 meets W
 <p>We welcome your feedback on the accessibility of the WAI website. Please let us know if you encounter accessibility barriers.</p>
 <ul>
 <li>E-mail: <a href="mailto:wai@w3.org?subject=%5BWAI%20site%20accessibility%5D%20">wai@w3.org</a></li>
-<li>Phone numbers and physical addresses are in the <a href="https://www.w3.org/WAI/about/contacting/#locations-and-address">“Locations and Addresses” section of the Contacting WAI page</a>.</li>
+<li>Phone number and postal address: see <a href="https://www.w3.org/contact/#hq">Business address for W3C, Inc.</a></li>
 </ul>
 <p>We  usually respond to accessibility feedback from e-mail within 3-5 business days. Sometimes it can take up to 3 weeks. If you do not receive a reply to e-mail within 10 business days, you can contact Shawn Henry at +1-617-395-7664.</p>
 
@@ -70,4 +73,4 @@ Web Accessibility Initiative (WAI) website content posted since May 2018 meets W
 <p>WAI assessed the accessibility of the WAI website by self-evaluation.</p>
 
 <h2 id="formal-approval-of-this-accessibility-statement">Formal approval of this accessibility statement</h2>
-<p>This Accessibility Statement is approved by Shawn Lawton Henry, WAI Outreach Coordinator.</p>
+<p>This Accessibility Statement is approved by Shawn Lawton Henry, W3C Director, Web Accessibility Initiative (WAI).</p>

@@ -3,6 +3,8 @@ title: "Shared Web Experiences: Barriers Common to Mobile Device Users and Peopl
 title_html: "Shared Web Experiences:<br>Barriers Common to Mobile Device Users and People with Disabilities"
 lang: en
 permalink: /standards-guidelines/shared-experiences/
+last_updated: 2013-01-22
+first_published: "January 2008"
 github:
   label: wai-shared-experiences
 doc-note-type: archived
@@ -14,7 +16,6 @@ doc-note-message: >
     <li>When you address accessibility, you improve the mobile experience. This can help in presenting your business case for accessibility.</li>
   </ul>
 footer: >
-  <p><strong>Date: Archived.</strong>  Updated 22 January 2013. First published January 2008.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/"></a>Yeliz Yesilada (University of Manchester), Alan Chuter (Fundación ONCE), and <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> (W3C WAI).</p>
   <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with the Mobile Web Best Practices Working Group (<a href="http://www.w3.org/2005/MWI/BPWG/">MWI BPWG</a>).</p>
 ---

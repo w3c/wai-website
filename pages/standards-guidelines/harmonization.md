@@ -4,7 +4,7 @@
 
 title: Why Standards Harmonization is Essential to Web Accessibility
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2024-04-25    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-04-25    # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -183,7 +183,7 @@ Online information repositories allow the gathering and storing of content for r
 
 W3C continues to update and refine the WAI guidelines, supporting techniques, and other resources to keep pace with evolving Web technologies. The following steps can increase the international harmonization of Web accessibility standards, and help lead more rapidly to an accessible Web:
 
--   Participate in development of updated WAI guidelines and support material by reviewing and commenting on drafts, providing feedback during implementation trials, and/or participating in WAI Working Groups. *(See [[Participating in WAI]](/about/participating))*
+-   Participate in development of updated WAI guidelines and support material by reviewing and commenting on drafts, providing feedback during implementation trials, and/or participating in WAI Working Groups. *(See [[Participating in WAI]](/about/participating/))*
 -   Promote awareness among policy-makers, standards developers, technology developers, and disability communities of the strategic importance of standards harmonization towards achieving an accessible Web.
 -   Ensure that developers of authoring tools, browsers, and media players are aware of the need for ATAG- and UAAG- conformant tools, and aware of how implementation of ATAG and UAAG can improve interoperability with assistive technologies and accelerate overall progress on Web accessibility.
 -   For organizations which currently have guidelines that diverge from international standards, consider establishing mechanisms for rapid review and potential transition to the latest version of WCAG.

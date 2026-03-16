@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 280">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #196cac;
+      }
+
+      .cls-4 {
+        fill: #d0e1f1;
+      }
+
+      .cls-5 {
+        fill: #bccbd3;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="59.99" y="8.19" width="387.69" height="271.81" rx="5" ry="5"/>
+  <rect class="cls-1" x=".64" width="490" height="280"/>
+  <g>
+    <rect class="cls-6" x="54.3" y="2.5" width="382.69" height="266.81" rx="2.5" ry="2.5"/>
+    <path class="cls-2" d="m434.49,5v261.81H56.8V5h377.69M434.49,0H56.8C54.05,0,51.8,2.25,51.8,5v261.81c0,2.75,2.25,5,5,5h377.69c2.75,0,5-2.25,5-5V5C439.49,2.25,437.24,0,434.49,0h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-4" x="75.84" y="90.09" width="253.75" height="9.38" rx=".96" ry=".96"/>
+    <rect class="cls-4" x="75.84" y="57.15" width="253.75" height="9.38" rx=".96" ry=".96"/>
+    <rect class="cls-4" x="75.84" y="72.81" width="211.82" height="9.38" rx=".96" ry=".96"/>
+  </g>
+  <g>
+    <rect class="cls-4" x="95.84" y="176.2" width="166.24" height="9.38" rx=".96" ry=".96"/>
+    <rect class="cls-4" x="95.84" y="143.26" width="226.92" height="9.38" rx=".96" ry=".96"/>
+    <rect class="cls-4" x="95.84" y="158.92" width="189.42" height="9.38" rx=".96" ry=".96"/>
+  </g>
+  <rect class="cls-3" x="75.84" y="21.63" width="298.52" height="24.02" rx="5" ry="5"/>
+  <rect class="cls-3" x="95.84" y="113.99" width="217.58" height="18.75" rx="5" ry="5"/>
+  <g>
+    <rect class="cls-4" x="115.84" y="226.36" width="206.43" height="9.38" rx=".96" ry=".96"/>
+    <rect class="cls-4" x="115.84" y="242.01" width="172.32" height="9.38" rx=".96" ry=".96"/>
+  </g>
+  <rect class="cls-3" x="115.84" y="201.08" width="174.67" height="14.88" rx="5" ry="5"/>
+</svg>

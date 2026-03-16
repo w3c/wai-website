@@ -2,8 +2,5 @@
     "scripts": {},
     "dependencies": {
         "uuid": "^10.0.0"
-    },
-    "devDependencies": {
-        "@netlify/plugin-lighthouse": "^6.0.0"
     }
 }

@@ -3,6 +3,8 @@ title: ARIA Authoring Practices Task Force Work Statement
 permalink: /about/groups/task-forces/practices/work-statement/
 ref: /about/groups/task-forces/practices/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}
@@ -34,7 +36,7 @@ The APG Task Force was [approved on 14 September 2017](https://lists.w3.org/Arch
 
 ## Objective
 
-The mission of the APG Task Force is to develop [WAI-ARIA Authoring Practices](http://w3c.github.io/aria-practices/), in consultation with the ARIA Working Group. The task force provides a focused forum for this work while the Working Group continues its work on ARIA development.
+The mission of the APG Task Force is to develop [WAI-ARIA Authoring Practices](https://w3c.github.io/aria-practices/), in consultation with the ARIA Working Group. The task force provides a focused forum for this work while the Working Group continues its work on ARIA development.
 
 ## Scope of Work
 
@@ -65,7 +67,7 @@ Participants may also join APG Task Force sub-groups. Sub-groups take on specifi
 
 If you are interested in becoming a participant of the APG Task Force or have any questions regarding its work, contact the task force facilitators.
 
-[@@Current APG Task Force participants](https://www.w3.org/2000/09/dbwg/details?group=102172&public=1)
+[Current APG Task Force participants](https://www.w3.org/groups/tf/aria-practices/participants/)
 
 ## Facilitation
 
@@ -76,4 +78,4 @@ Staff contacts from the ARIA and APA Working Groups oversee attention to W3C Pro
 
 ## Patent Policy
 
-This Task Force is part of the [ARIA Working Group Charter](https://www.w3.org/WAI/ARIA/charter), which operates under the [W3C Patent Policy](https://www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [ARIA Working Group](https://www.w3.org/2004/01/pp-impl/83726/status).
+This Task Force is part of the [ARIA Working Group Charter](https://www.w3.org/WAI/ARIA/charter), which operates under the [W3C Patent Policy](https://www.w3.org/policies/patent-policy/20200915/) (15 September 2020 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [ARIA Working Group](https://www.w3.org/2004/01/pp-impl/83726/status).

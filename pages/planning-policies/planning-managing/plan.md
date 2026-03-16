@@ -4,7 +4,8 @@
 title: "Plan"
 nav_title: "Plan"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2019-01-09  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-03-06  # Keep the date of the English version
+first_published: "October 2002"
 title_icon: /content-images/planning-managing/icons.svg#plan
 order: 2
 
@@ -25,6 +26,7 @@ ref: /planning-and-managing/plan/  # Do not change this
 resource:
   ref: /planning-and-managing/
 
+changelog: /planning-and-managing/changelog/ # Do not change this
 acknowledgements: /planning-and-managing/acknowledgements/ # Do not change this
 
 # In the footer below:
@@ -32,7 +34,6 @@ acknowledgements: /planning-and-managing/acknowledgements/ # Do not change this
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 9 January 2019. First published October 2002.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS includes information on previous versions and editors.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Updated with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV Project</a> and the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 ---
@@ -78,6 +79,10 @@ It is important to recognize that implementing accessibility is not only a conce
 -   **Acceptance testing** – Ensure that any agency-delivered website or component meets your desired level of accessibility.
 -   **Recruitment** – Incorporate accessibility skills within recruitment profiles.
 
+### For more information
+
+- [Accessibility Roles and Responsibilities Mapping (ARRM)](/planning/arrm/) — provides an approach you can use to define roles, tasks, and responsibilities in your team for meeting Web Content Accessibility Guidelines (WCAG).
+
 {% include excol.html type="end" %}
 {% include excol.html type="start" id="" %}
 
@@ -106,7 +111,7 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 
 ### For more information
 
--   [Financial Factors in Developing a Web Accessibility Business Case : Cost Considerations](/WAI/bcase/fin#invest) – Provides information on personnel costs, capital expenditure, and on-going costs to consider.
+-   [Financial Factors in Developing a Web Accessibility Business Case : Cost Considerations](/WAI/business-case/archive/fin#invest) – Provides information on personnel costs, capital expenditure, and on-going costs to consider.
 -   [Involving Users in Web Projects for Better, Easier Accessibility](/planning/involving-users/) – Provides information on the benefits of involving users and how to do it.
 
 {% include excol.html type="end" %}
@@ -154,8 +159,8 @@ Accessibility checks can be performed at all stages of the process, not only whe
 
 ### For more information
 
+-   [Identify the Issues](/planning/interim-repairs/#explore) in Web Accessibility First Aid: Approaches for Interim Repairs – Links to resources to help evaluate your website.
 -   [WCAG-EM Overview](/test-evaluate/conformance/) – Introduces a methodology for determining how well a website conforms to WCAG.
--   [Assess the Situation](/WAI/impl/improving#assess) – Describes how you might approach evaluating your website.
 -   [Involving Users in Web Projects for Better, Easier Accessibility](/planning/involving-users/) – Describes the benefits of involving users in projects and how to go about it.
 
 {% include excol.html type="end" %}

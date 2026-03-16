@@ -1,3 +1,4 @@
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://wai-website.netlify.com" # the base hostname & protocol for your site
-published: true
+warning_message: >
+  This is an unpublished draft preview that might include content that is not yet approved. The published website is at <a href="https://www.w3.org/WAI/">w3.org/WAI/</a>.

@@ -23,8 +23,6 @@ last_updated: 2019-06-17
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
@@ -202,7 +200,7 @@ type for each link:
 {% include box.html type="start" title="Example" class="example" %}
 {:/}
 
-[2012 Annual report and accounts ![HTML]({{ "/content-images/tutorials/images/html5logo.png" | relative_url }}) (43KB)](../beyond.html), also available in [![Word document]({{ "/content-images/tutorials/images/worddocument.png" | relative_url }}) (254KB)](../beyond.html) or [![PDF]({{ "/content-images/tutorials/images/pdfdocument.png" | relative_url }}) (353KB)](../beyond.html) format.
+[2012 Annual report and accounts ![HTML]({{ "/content-images/tutorials/images/html5logo.png" | relative_url }}) (43KB)]({{ "/example-link/" | relative_url }}), also available in [![Word document]({{ "/content-images/tutorials/images/worddocument.png" | relative_url }}) (254KB)]({{ "/example-link/" | relative_url }}) or [![PDF]({{ "/content-images/tutorials/images/pdfdocument.png" | relative_url }}) (353KB)]({{ "/example-link/" | relative_url }}) format.
 
 {::nomarkdown}
 {% include box.html type="end" %}

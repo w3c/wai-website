@@ -1,8 +1,11 @@
 ---
-title: DRAFT Maturity Model Task Force (MMTF) Work Statement
+title: Maturity Model Task Force Work Statement
 permalink: /about/groups/task-forces/maturity-model/work-statement/
 ref: /about/groups/task-forces/maturity-model/work-statement/
 lang: en
+doc-note-type: draft
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}

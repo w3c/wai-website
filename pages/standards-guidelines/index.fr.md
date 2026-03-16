@@ -4,7 +4,10 @@
 title: Standards d’accessibilité du W3C – Vue d’ensemble
 nav_title: "Standards/Règles"
 lang: fr
-last_updated: 2024-04-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-02-29  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "@code-elegant"
@@ -18,12 +21,12 @@ github:
 permalink: /standards-guidelines/fr   # Add the language shortcode to the end; for example /standards-guidelines/fr
 ref: /standards-guidelines/   # Do not change this
 
-changelog: /standards-guidelines/changelog/ # Do not change this
-layout: default
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>Date :</strong> Mis à jour le 29 février 2024. CHANGELOG.</p>
+# In the footer below:
+# Translate the words below, including "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Élaboré avec des contributions du groupe de travail « Éducation et Promotion » (Education and Outreach Working Group <a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

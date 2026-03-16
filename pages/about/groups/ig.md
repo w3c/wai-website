@@ -1,12 +1,24 @@
 ---
-title: WAI Interest Group (WAI IG)
-nav_title: 'WAI IG: WAI Interest Group'
+title: Web Accessibility Initiative (WAI) Interest Group
+nav_title: 'WAI Interest Group'
 lang: en
 permalink: /about/groups/waiig/
 ref: /about/groups/waiig/
+github:
+    label: wai-groups
 ---
 
-{::options toc_levels="2,3" /}
+{::nomarkdown}
+{% include box.html type="start" title="Summary" class="" %}
+{:/}
+
+The WAI Interest Group is a public forum with two mailing lists for sharing information and exchanging ideas about W3C’s digital accessibility work.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::options toc_levels="2,3,4,5" /}
 
 {::nomarkdown}
 {% include_cached toc.html type="start" title="Page Contents" %}
@@ -19,145 +31,70 @@ ref: /about/groups/waiig/
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Introduction
+## Mission
 
-The Web Accessibility Initiative (WAI) Interest Group (IG) promotes awareness of, and engagement in, accessibility work throughout the World Wide Web Consortium (W3C). More details are in [About WAI IG below](#about-wai-ig).
+The mission of the WAI Interest Group is to promote awareness of W3C accessibility work and publications, encourage engagement in W3C accessibility work, and provide an open public forum for sharing information related to web accessibility.
 
-**Other Interest Group Pages:**
+To learn about the group’s scope, see the [WAI Interest Group’s Charter](https://www.w3.org/2025/05/wai-ig-charter).
 
--   [Charter](/WAI/IG/20200804)
--   [Discussion E-mail List Archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/)
--   [Announcements E-mail List Archives](http://lists.w3.org/Archives/Public/public-wai-announce/)
+## Participate in digital accessibility discussions
 
-## Mailing Lists {#mailinglist}
+W3C and the WAI Interest Group welcome input on W3C’s digital accessibility work from individuals and organizations around the world.
 
-There are two mailing lists:
-1. **Announcements list (public-wai-announce)** &mdash; for WAI announcements only.
-2. **Discussion list (w3c-wai-ig)** &mdash; for WAI announcements and public discussion. All e-mails sent to the Announcements list will also go to this Discussion list, so you don't need to subscribe to both lists. If you want to send messages to the list, you must send them from an e-mail address that is subscribed to the list.
+The WAI Interest Group is open to the public with no requirements for participation in the group.
 
-Details are below.
+The group provides frequent opportunities for you to give input on digital accessibility work at W3C:
 
-### Announcements List - Subscribing and Unsubscribing
+* **Comment on WAI publications:** Review standards and resources in development &mdash; these are announced in the WAI Interest Group mailing lists.
+* **Contribute to discussions:** Share your perspective in the group's discussions on digital accessibility.
+* **Ask questions:** From the group, you can get multiple perspectives on questions or ideas you have about digital accessibility.
 
-* To subscribe, send e-mail to <a href="mailto:public-wai-announce-request@w3.org?subject=subscribe">public-wai-announce-request@w3.org with subject: &ldquo;subscribe&rdquo;</a>.
-* To unsubscribe, send e-mail to <a href="mailto:public-wai-announce-request@w3.org?subject=unsubscribe">public-wai-announce-request@w3.org with subject: &ldquo;unsubscribe&rdquo;</a>.
+## WAI Interest Group mailing lists {#mailinglist}
 
-You can also see the [Announcements List Archives](http://lists.w3.org/Archives/Public/public-wai-announce/).
+The WAI Interest Group has two mailing lists with public archives:
+1. **Announcements List** (public-wai-announce)  &mdash; for WAI announcements only ([Announcements archives](http://lists.w3.org/Archives/Public/public-wai-announce/))
+   * **To subscribe:** Send an email with the subject ‘Subscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=subscribe).
+   * **To unsubscribe:** Send an email with the subject ‘Unsubscribe’ to [public-wai-announce-request@w3.org](mailto:public-wai-announce-request@w3.org?subject=unsubscribe).
+
+2. **Discussion List** (w3c-wai-ig) &mdash; for public discussion and WAI announcements ([Discussion archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/))
+   * If you are subscribed to the Discussion list, you will also receive emails sent to the Announcements list, so you don't need to subscribe to both lists.
+   * If you want to send messages to the Discussion list, you must subscribe to it.
+   * **To subscribe:** Send an email with the subject ‘Subscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=subscribe).
+   * **To unsubscribe:** Send an email with the subject ‘Unsubscribe’ to [w3c-wai-ig-request@w3.org](mailto:w3c-wai-ig-request@w3.org?subject=unsubscribe).
 
 ### Using the Discussion List
 
-[Discussion List Archives](http://lists.w3.org/Archives/Public/w3c-wai-ig/) are useful for
-searching for past messages and getting a feel for the list.
+#### Contributing to positive discussions
 
--   E-mail messages should **contribute to a comfortable, constructive
-    exchange** of ideas to advance web accessibility. Before you send
-    an e-mail, think about how it will come across to the people around the world who are on the list and who can read your publicly-archived message.
-    -   **Be respectful.** Be positive. Be open to different perspectives.
-    -   **Provide constructive information.** Focus on developing potential solutions, rather than just complaining.
-    -   Focus on ideas, not participants. Avoid personal attacks, naming calling, and such.
-    -   Explain the issue clearly. Provide sufficient background information.
-    -   **See additional guidancce in W3C's Code of Ethics and Professional Conduct: [Positive Work Environment at W3C: Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/)**
--   Make sure e-mails are related web accessibility and are appropriate
-    for the WAI IG list.
-    -   If you have questions about whether or not a message is
-        appropriate for the WAI IG list, contact
-        **[Shawn](http://w3.org/People/Shawn/)**.
-    -   When your comments are not useful for the entire list, **reply
-        off-list** — that is, reply directly to the sender and do not
-        send the message to the list.
-    -   No soliciting.
--   Formatting messages:
-    -   Use a Subject line that describes the topic well. If you change
-        topics, change the Subject. This is usually handled as follows:<br>
-        `New Topic XYZ [was: Old Topic]`
-    -   Keep your reply comments near the top of a message, and only
-        quote essential parts of a previous message at the top — so
-        there are few quote markings for readers to wade through.
-    -   If you use a vacation auto-responder, exclude responses to mail
-        with w3c-wai-ig@w3.org in any header.<br>
--   **Send any questions about the WAI IG mailing list to
-    <shawn@w3.org>**, not to the whole list. 
+Email messages should **contribute to a comfortable, constructive exchange** of ideas to advance digital accessibility. Before you send an email, please think about how it will come across to the people around the world who are on the list and everyone who can read your publicly archived message.
+-   **Be respectful.** Be positive. Be open to different perspectives.
+-   **Provide constructive information.** Focus on developing potential solutions, rather than just complaining.
+-   Focus on ideas, not participants. Avoid personal attacks, naming calling, and such.
+-   Explain the issue clearly. Provide sufficient background information.
 
-### Subscribing and Unsubscribing to the Discussion List
+See additional guidance in W3C's Code of Conduct: [Positive Work Environment at W3C: Code of Conduct](https://www.w3.org/Consortium/cepc/).
 
--   **To subscribe** to the list, send e-mail to <a href="mailto:w3c-wai-ig-request@w3.org?subject=subscribe">w3c-wai-ig-request@w3.org with subject: &ldquo;subscribe&rdquo;</a>.
--   **To unsubscribe** from the list, send e-mail to <a href="mailto:w3c-wai-ig-request@w3.org?subject=unsubscribe">w3c-wai-ig-request@w3.org with subject: &ldquo;unsubscribe&rdquo;</a>.
+#### Emailing the Discussion List
 
-**Please note**: The subscription e-mail addresses are different from
-the e-mail address to send an e-mail message, which is in the next
-section.
+Make sure your message is related to digital accessibility and is appropriate for the WAI Interest Group.
+-  No soliciting. You may send messages about public conferences. You may not advertise products or services. 
+-  If you are not sure whether or not a message is appropriate for the WAI IG list, please send a draft message to WAI staff at [wai@w3.org](mailto:wai@w3.org?subject=WAI-IG-message-draft).
+- **If your message is asking about vendors or products**, include the following wording in your message:<br>
+"Please reply to me directly and not to the whole list, so that specific vendor or product information is not discussed on the list."
 
-### Sending Messages to the Discussion List
+##### Sending a message
+- First subscribe to the list (instructions above).
+- Then send your message from your subscribed email address to [w3c-wai-ig@w3.org](mailto:w3c-wai-ig@w3.org).
+- Use a Subject that describes the topic clearly. 
 
-To send a message to the list, first subscribe to the list (instructions
-above), then send your message to
-[w3c-wai-ig@w3.org](mailto:w3c-wai-ig@w3.org)
+**Note:** The first time you send a message to a public W3C mailing list, you will get a reply email asking if you will give permission for your message to be distributed to the list and be part of the public archive. If you choose the option to give permission, you won't receive this email again when sending future messages.
 
-**The first time you send a message to a public W3C mailing list**, you
-will get a reply e-mail asking if you will give permission for your
-message to be distributed to the list and thus go into the public
-archive. There is an option to do this once and then you don't have to
-do it again in the future.
+##### Replying to a message
+-   When your comments are not useful for the entire list, please **reply off-list** &mdash; that is, reply directly to the sender and do not send your message to the list.
+-   If you change topics, change the Subject. This is usually handled as follows:<br>
+    `New Topic XYZ [was: Old Topic]`
+-   Keep your reply comments near the top of your message, and only quote essential parts of a previous message at the top &mdash; so there are few quote markings for readers to wade through. Include the full text of the messages that you are replying to below your reply so that readers can easily get the context from previous messages.
 
-## About WAI IG
+## Contact the chairs
 
-The mission of the WAI Interest
-Group (WAI IG) is to provide a
-forum for reviewing, discussing, and providing input into deliverables
-being developed by WAI Working Groups, including accessibility aspects
-of specification reviews, research topics identified during
-accessibility reviews, and educational materials development; also for
-exploring web accessibility issues and solutions, and sharing
-information about web accessibility activities around the world.<br>
-The [scope of the WAI IG](/WAI/IG/20200804#scope)
-includes:
-
--   reviewing and discussing deliverables being developed by [WAI
-    Working Groups](/about/groups/)
--   providing input into specification reviews, research topics, and
-    educational materials development
--   exploring web accessibility issues and solutions
--   sharing information and exchanging ideas about web accessibility
-    activities around the world.<br>
-
-Work of the WAI IG is in accordance with the [W3C
-Process](http://www.w3.org/2015/Process-20150901/). WAI IG work is
-funded in part by the [WAI-Core Project](http://www.w3.org/WAI/Core2015/) and [WAI
-Sponsors](http://www.w3.org/WAI/Sponsor).
-
-### Chair and Contacts
-
--   The WAI IG Chair is Ashley Abaragu (Knowbility)
--   The W3C Staff Contact is [Shawn Lawton
-    Henry](http://www.w3.org/People/Shawn/)
-
-### Charter
-
--   [WAI IG
-    Charter](/WAI/IG/20200804)
-
-### Past WAI IG Meetings
-
--   March 19, 2005, Los Angeles, California, USA
--   March 19, 2004, Los Angeles, California, USA
--   March 22, 2003, Los Angeles, California, USA
--   March 25, 2002, Los Angeles, California, USA
--   November 14, 2001, Melbourne, Australia
--   [March 24, 2001, Los Angeles, California,
-    USA](http://www.w3.org/WAI/IG/2001/03-agenda.html)
--   [March 25, 2000, Los Angeles, California,
-    USA](http://www.w3.org/WAI/2000/03/agenda#ig)
--   [July 19, 1999, Sophia,
-    France](http://www.w3.org/WAI/1999/07/agenda.htm)
--   [May 15 1999, Toronto Canada](http://www.w3.org/WAI/1999/05/agenda)
--   [March 20, 1999](http://www.w3.org/WAI/1999/03/agenda.htm)
--   [July, 1998, Peterborough,
-    UK](http://www.w3.org/WAI/1998/07/agenda.html)
--   [April, 1998, Brisbane,
-    Australia](http://www.w3.org/WAI/1998/04/agenda.html)
--   [March, 1998, Los Angeles, California,
-    USA](http://www.w3.org/WAI/1998/03/agenda.html)
--   November, 1997, Austin, Texas, USA
--   [August, 1997, Boston, Massachusetts,
-    USA](http://www.w3.org/WAI/group/970805/agenda)
--   [May, 1997, Nice, France](http://www.w3.org/WAI/min22)
+If you have a question about the WAI Interest Group, email the [chair](https://www.w3.org/groups/ig/wai/participants/#chairs) and the [W3C staff contact](https://www.w3.org/groups/ig/wai/participants/#staff).

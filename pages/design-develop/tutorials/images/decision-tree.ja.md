@@ -5,7 +5,10 @@
 title: "altディシジョンツリー"
 title_html: "<code>alt</code>ディシジョンツリー"
 lang: ja
-last_updated: 2024-02-23 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-01-15 # Keep the date of the English version
+
+translation:
+  last_updated: 2024-02-23  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Hiroya UGA"
@@ -25,14 +28,14 @@ navigation:
 permalink: /tutorials/images/decision-tree/ja
 ref: /tutorials/images/decision-tree/ # Do not change this
 
+changelog: /tutorials/changelog/
+
 # In the footer below:
 # Translate the Working Group name. Leave the Working Group acronym in English.
 metafooter: true
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - 詳細：<a href="/WAI/tutorials/acknowledgements/">謝辞</a>
 support: 教育・啓発ワーキンググループ（<a href="https://www.w3.org/groups/wg/eowg"><abbr title="Education and Outreach Working Group">EOWG</abbr></a>）によって開発されました。このプロジェクトは<a href="https://www.w3.org/WAI/ACT/">WAI-ACTプロジェクト</a>の支援を受けて開発され、<strong>欧州委員会<abbr title="Information Society Technologies">IST</abbr>プログラム</strong>の共同資金援助を受けています。

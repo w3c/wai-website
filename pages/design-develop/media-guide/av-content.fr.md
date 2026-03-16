@@ -6,7 +6,10 @@ title: "Contenu audio et contenu vidéo"
 title_image: /content-images/media-guide/av-content.svg
 nav_title: "Contenu audio et contenu vidéo"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-04 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-09-17  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: Sofia Ahmed
@@ -31,11 +34,11 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date :</strong>  Mis à jour le 31 août 2022. Première publication septembre 2019. CHANGELOG.</p>
+   <p>Première publication septembre 2019.</p>
    <p><strong>Rédactrice :</strong> <a href=" https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
    <p>Développé par le groupe de travail Éducation et promotion (<a href=" https://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 ---
@@ -93,7 +96,7 @@ Précisément, faites en sorte que l’arrière-plan sonore soit 20 décibels en
 
 Évitez les sons qui peuvent distraire ou déranger, tels que les sons aigus ou répétitifs.
 
-<span style="color:#585858; font-style:italic;">Retrouvez plus d’informations dans [Comprendre le critère de succès 1.4.7 : Arrière-plan sonore de faible volume ou absent (AAA)](https://www.w3.org/WAI/WCAG21/Understanding/low-or-no-background-audio.html).</span>
+<span style="color:#585858; font-style:italic;">Retrouvez plus d’informations dans [Comprendre le critère de succès 1.4.7 : Arrière-plan sonore de faible volume ou absent (AAA)](https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html).</span>
 
 ### Parlez clairement et lentement – _locuteurs_
 
@@ -118,7 +121,7 @@ Par exemple, au lieu de dire :
 Dites :
 <blockquote>Attachez le petit anneau à l’extrémité verte, qui est l’extrémité la plus grande.</blockquote>
 
-<span style="color:#585858; font-style:italic;">Retrouvez plus d’informations concernant principalement les pages Web, mais qui sont pertinentes pour les contenus audios et vidéos, sur [Comprendre le critère de succès 1.3.3 : Caractéristiques sensorielles (A)](https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html).</span>
+<span style="color:#585858; font-style:italic;">Retrouvez plus d’informations concernant principalement les pages Web, mais qui sont pertinentes pour les contenus audios et vidéos, sur [Comprendre le critère de succès 1.3.3 : Caractéristiques sensorielles (A)](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html).</span>
 
 ## Vidéo
 
@@ -126,7 +129,7 @@ Dites :
 
 Évitez tout élément qui clignote plus de trois fois dans n’importe quel intervalle d’une seconde.
 
-<span style="color:#585858; font-style:italic;">Retrouvez plus d’informations sur [Comprendre le critère de succès 2.3.2 : Trois flashs (AAA)](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes.html) et [Comprendre le critère de succès 2.3.1: Pas plus de trois flashs ou sous le seuil critique (A)](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html)</span>
+<span style="color:#585858; font-style:italic;">Retrouvez plus d’informations sur [Comprendre le critère de succès 2.3.2 : Trois flashs (AAA)](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html) et [Comprendre le critère de succès 2.3.1: Pas plus de trois flashs ou sous le seuil critique (A)](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html)</span>
 
 ### Prenez en compte la visibilité du locuteur – _story-board, enregistrement, postproduction_
 
@@ -136,9 +139,9 @@ Certaines personnes utilisent les mouvements de la bouche pour comprendre le lan
 
 Pour tout texte, prenez en considération la famille de polices, la taille, et le contraste entre le texte et l’arrière-plan.
 
-<span style="color:#585858; font-style:italic;">Retrouvez plus d’informations sur [Comprendre le critère de succès 1.4.3 : Contraste (minimum) (AA)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) et [Comprendre le critère de succès 1.4.6 : Contraste (amélioré) (AAA)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced).</span>
+<span style="color:#585858; font-style:italic;">Retrouvez plus d’informations sur [Comprendre le critère de succès 1.4.3 : Contraste (minimum) (AA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) et [Comprendre le critère de succès 1.4.6 : Contraste (amélioré) (AAA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced).</span>
 
-### Prévoyez l’interprétation en langue des signes – _story-board, enregistrement_ (WCAG AAA)
+### Prévoyez l’interprétation en langue des signes – _story-board, enregistrement_ (WCAG AAA) {#plan-for-sign-language}
 
 Souvent, une interprétation en langue des signes est fournie en superposition dans le coin en bas à droite des vidéos. Par exemple : [Publicité NHS 111 en langue des signes britannique (BSL) (YouTube)<br>{% include image.html src="media-guide/sign-example.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
 

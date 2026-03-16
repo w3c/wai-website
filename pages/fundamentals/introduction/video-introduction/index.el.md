@@ -2,7 +2,10 @@
 title: "Εισαγωγικό Βίντεο για την Προσβασιμότητα στον Παγκόσμιο Ιστό (Web Accessibility) και τα Πρότυπα του W3C"
 nav_title: "Εισαγωγή Βίντεο" # A short title that is used in the navigation
 lang: el
-last_updated: 2021-05-13 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-13 # Keep the date of the English version
+
+translation:
+    last_updated: 2024-01-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Πάνος Κουτσοδημητρόπουλος"
@@ -16,11 +19,10 @@ feedbackmail: wai@w3.org
 changelog: /videos/standards-and-benefits/changelog/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Ημερομηνία:</strong> Ενημερώθηκε 4 Μαΐου 2021. Πρώτη δημοσίευση 4 Δεκεμβρίου 2017. CHANGELOG.</p>
+  <p><strong>Ημερομηνία:</strong> Ενημερώθηκε 4 Μαΐου 2021. Πρώτη δημοσίευση 4 Δεκεμβρίου 2017.</p>
   <p>Επικεφαλής του έργου: <a href="https://www.w3.org/People/shadi/"><span lang="en">Shadi Abou-Zahra</span></a>. Συνεισφέροντες: <a href="https://www.w3.org/People/Shawn/"><span lang="en">Shawn Lawton Henry</span></a>, <a href="https://www.w3.org/People/Brewer/"><span lang="en">Judy Brewer</span></a>, <a href="https://www.w3.org/People/yatil/"><span lang="en">Eric Eggert</span></a>. Εικονοληψία και επεξεργασία βίντεο: <span lang="en">Ulrich Grimm, av-design GmbH</span>. Video clips developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Translations managed with support from the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

@@ -1,8 +1,10 @@
 ---
-title: Low Vision Accessibility Task Force Work Statement)
+title: Low Vision Accessibility Task Force Work Statement
 permalink: /about/groups/task-forces/low-vision-a11y-tf/work-statement/
 ref: /about/groups/task-forces/low-vision-a11y-tf/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}
@@ -20,7 +22,7 @@ lang: en
 
 This Work Statement was approved in 2015. Updated information is available from the [Low Vision Accessibility Task Force home page](/about/groups/task-forces/low-vision-a11y-tf/) and [wiki page](https://www.w3.org/WAI/GL/low-vision-a11y-tf/wiki/Main_Page).
 
-The Low Vision Accessibility Task Force (Low Vision A11Y TF) is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly also of the [User Agent Accessibility Guidelines Working Group (UAWG)](https://www.w3.org/WAI/UA/) which has closed). It assists this Working Group with the work identified below.
+The Low Vision (LV) Accessibility Task Force is a task force of the [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly also of the [User Agent Accessibility Guidelines Working Group (UAWG)](https://www.w3.org/WAI/UA/) which has closed). It assists this Working Group with the work identified below.
 
 ## Status
 
@@ -55,7 +57,7 @@ The Low Vision Accessibility Task Force will also coordinate with the [Accessibl
 
 Low Vision Accessibility Task Force communications are publicly visible. Communication mechanisms for the Low Vision Accessibility Task Force include:
 
-- Low Vision Accessibility Task Force mailing list public-low-vision-a11y-tf@w3.org and [mailing list archive](http://lists.w3.org/Archives/Public/public-low-vision-a11y-tf/) ;
+- Low Vision Accessibility Task Force mailing list public-low-vision-a11y-tf@w3.org and [mailing list archive](https://lists.w3.org/Archives/Public/public-low-vision-a11y-tf/) ;
 - Use of a [wiki](https://www.w3.org/WAI/GL/task-forces/low-vision-a11y-tf/wiki/) to share development of resources;
 - [Web-based surveys](https://www.w3.org/2002/09/wbs/81151/) to poll group opinion;
 - IRC discussion on the [#lvtf](irc://irc.w3.org/lvtf) IRC channel, used largely for minute-taking;

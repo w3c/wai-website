@@ -5,7 +5,7 @@
 title: "Stefan, student with attention deficit hyperactivity disorder and dyslexia"
 nav_title: "Stefan"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -31,18 +31,18 @@ navigation:
   next: /people-use-web/user-stories/story-nine/
 
 image: /content-images/people-use-web/social.png
-changelog: /people-use-web/changelog/
-acknowledgements: /people-use-web/acknowledgements/
+changelog: /people-use-web/changelog/ # Do not change this
+acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -166,8 +166,8 @@ Browser settings aren't respected
 : **Works well:** "It's great when I can turn off these images using the ad blocker in my browser."-->
 
 Complex language
-: **Barrier:** "Complex language and sentence structure are confusing to me and hard to read and retain.
-: **Works well:** Use short sentences and plain language as much as possible."
+: **Barrier:** "Complex language and sentence structure are confusing to me and hard to read and retain."
+: **Works well:** "Use short sentences and plain language as much as possible."
 
 Excessive acronyms and abbreviations
 : **Barrier:** "Excessive use of acronyms and abbreviations is distracting and I often must reread several times or sometimes just get stuck and give up."
@@ -190,31 +190,31 @@ Excessive acronyms and abbreviations
 
 * Use case: [Tal: A Student who has Dyslexia and Impaired Eye Hand Coordination](https://www.w3.org/TR/coga-usable/#tal-a-student-who-has-dyslexia-and-impaired-eye-hand-coordination)
 * Use case: [Yuki: A Yoga Teacher who has AD(H)D](https://www.w3.org/TR/coga-usable/#yuki-a-yoga-teacher-who-has-ad-h-d)
-* Video: [Clear Layout and Design](https://www.w3.org/WAI/perspective-videos/layout/)
-* Tip: [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure)
-* Tip: [Make link text meaningful](https://www.w3.org/WAI/tips/writing/#make-link-text-meaningful)
-* Tip: [Provide clear instructions](https://www.w3.org/WAI/tips/writing/#provide-clear-instructions)
-* Tip: [Keep content clear and concise](https://www.w3.org/WAI/tips/writing/#keep-content-clear-and-concise)
-* Tip: [Include alternative text for images](https://www.w3.org/WAI/tips/developing/#include-alternative-text-for-images)
-* Tip: [Help users avoid and correct mistakes](https://www.w3.org/WAI/tips/developing/#help-users-avoid-and-correct-mistakes)
-* Tip: [Ensure that interactive elements are easy to identify](https://www.w3.org/WAI/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Provide easily identifiable feedback](https://www.w3.org/WAI/tips/designing/#provide-easily-identifiable-feedback)
-* Tip: [Use headings and spacing to group related content](https://www.w3.org/WAI/tips/designing/#use-headings-and-spacing-to-group-related-content)
-* Check: [Image text alternatives ("alt text")](https://www.w3.org/WAI/test-evaluate/preliminary/#images)
-* Check: [Headings](https://www.w3.org/WAI/test-evaluate/preliminary/#headings)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
-* Check: [Moving, Flashing, or Blinking Content](https://www.w3.org/WAI/test-evaluate/preliminary/#moving)
-* Check: [Basic structure check](https://www.w3.org/WAI/test-evaluate/preliminary/#structure)
+* Video: [Clear Layout and Design](/perspective-videos/layout/)
+* Tip: [Use headings to convey meaning and structure](/tips/writing/#use-headings-to-convey-meaning-and-structure)
+* Tip: [Make link text meaningful](/tips/writing/#make-link-text-meaningful)
+* Tip: [Provide clear instructions](/tips/writing/#provide-clear-instructions)
+* Tip: [Keep content clear and concise](/tips/writing/#keep-content-clear-and-concise)
+* Tip: [Include alternative text for images](/tips/developing/#include-alternative-text-for-images)
+* Tip: [Help users avoid and correct mistakes](/tips/developing/#help-users-avoid-and-correct-mistakes)
+* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* Tip: [Provide easily identifiable feedback](/tips/designing/#provide-easily-identifiable-feedback)
+* Tip: [Use headings and spacing to group related content](/tips/designing/#use-headings-and-spacing-to-group-related-content)
+* Check: [Image text alternatives ("alt text")](/test-evaluate/preliminary/#images)
+* Check: [Headings](/test-evaluate/preliminary/#headings)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* Check: [Moving, Flashing, or Blinking Content](/test-evaluate/preliminary/#moving)
+* Check: [Basic structure check](/test-evaluate/preliminary/#structure)
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#alternatives)
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Users have enough time to read and use the content (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#navigable)
-* [Content is readable and understandable (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#tolerant)
+* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
+* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
+* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
+* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
 * [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
@@ -223,12 +223,12 @@ Excessive acronyms and abbreviations
 
 {% include excol.html type="middle" %}
 
-
 {% include video-player-data.html
   video-id="user-stories_8"
   yt-id="Ie-RaV7UTCU"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_8.mp4">Video: Stefan, student with attention deficit hyperactivity disorder and dyslexia (file format: MP4, file size: 346MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Stefan, student with attention deficit hyperactivity disorder and dyslexia (file format: MP4, file size: 346MB](https://media.w3.org/wai/people-use-web/user-stories_8.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

@@ -6,7 +6,8 @@ title: "Sign Languages"
 title_image: /content-images/media-guide/sign.svg
 nav_title: "Sign Languages"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2021-04-12  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+first_published: "September 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -34,11 +35,10 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 12 April 2021. First published September 2019. CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -87,7 +87,7 @@ There are some efforts to provide automatic sign language from text; however, av
 
 Sign language is not required in most web accessibility policies.
 
-Sign language is in the WCAG standard at Level AAA: [Understanding 1.2.6 Sign Language](https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded.html). _(The Planning page of this resource introduces the [WCAG Standard](/media/av/planning/#wcag-standard).)_
+Sign language is in the WCAG standard at Level AAA: [Understanding 1.2.6 Sign Language](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded.html). _(The Planning page of this resource introduces the [WCAG Standard](/media/av/planning/#wcag-standard).)_
 
 ## Skills and Tools {#skills-and-tools}
 
@@ -116,7 +116,7 @@ Ensure the signer is large enough - _post-production_
 
 Avoid obscuring important content - _post-production_
 : Position the signer to avoid obscuring important information in the video. The signer is usually at the bottom right. If your video has information such as a news ticker at the bottom, position the signer above that.
-: Ideally when the video was made, the position of the signer was planned for, as noted in another page of this resource: [Plan for sign language – storyboarding, recording](/media/av/av-content/#plan-for-sign-language--storyboarding-recording).
+: Ideally when the video was made, the position of the signer was planned for, as noted in another page of this resource: [Plan for sign language – storyboarding, recording](/media/av/av-content/#plan-for-sign-language).
 
 Make sign language video(s) easy to discover and use
 : Make it easy to get to the video with sign language and to the video without sign language.

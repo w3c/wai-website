@@ -3,10 +3,12 @@
 
 title: Gambaran Umum Standar Aksesibilitas W3C  # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Standar/Pedoman" # A short title that is used in the navigation
+lang: id
+last_updated: 2024-02-29  # Keep the date of the English version
 
-lang: id   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+translation:
+  last_updated: 2024-03-18 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-last_updated: 2024-03-18 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
 - name: "Fri Rasyidi"   # Replace @@ with translator name
 #  link: @@
@@ -16,19 +18,15 @@ translators:
 # - name: "@@"   # Replace @@ with name, or delete this line if not multiple contributors
 
 ref: /standards-guidelines/   # Do not change this
-changelog: /standards-guidelines/changelog/
 github:
   label: wai-standards-guidelines
 permalink: /standards-guidelines/id   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
-# Translate the other words below, including "Date:" and "Editor:"
+# Translate the words below, including "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
-# Do not change the dates in the footer below.
 footer: >
-  <p><strong>Tanggal:</strong> Diperbarui 29 Juni 2022. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Dikembangkan dengan masukan dari Kelompok Kerja Edukasi dan Pendampingan (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

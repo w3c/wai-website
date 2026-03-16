@@ -5,6 +5,8 @@ lang: en
 last_updated: 2021-03-16
 permalink: /about/projects/wai-tools/session5/
 ref: /about/projects/wai-tools/
+github:
+  label: wai-projects
 ---
 
 {% include video-player.html 

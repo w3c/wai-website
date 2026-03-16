@@ -5,7 +5,7 @@
 title: "Design and Develop Overview"
 nav_title: "Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2022-05-19  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-05-19  # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -20,17 +20,14 @@ github:
 permalink: /design-develop/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /design-develop/ # Do not change this
   
-changelog: /design-develop/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
-footer: > # Text in footer in HTML
-  <p><strong>Date:</strong> Updated 19 May 2022. CHANGELOG.</p>
+footer: >
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

@@ -5,6 +5,8 @@ nav_title: Third Open Meeting
 lang: en
 permalink: /about/projects/wai-tools/third-open-meeting/
 ref: /about/projects/wai-tools/third-open-meeting/
+github:
+  label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right width="105px"}

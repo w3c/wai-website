@@ -5,13 +5,16 @@
 title: Omówienie Wytycznych dla dostępności programu użytkownika (UAAG)
 nav_title: "Omówienie UAAG"
 lang: pl # Change "en" to the translated-language shortcode
-last_updated: 2024-03-08
+last_updated: 2024-05-02
+
+translation:
+  last_updated: 2024-05-02
 
 translators:
 - name: "Stefan Wajda"
 
 github:
-    label: wai-intro-uaag
+    label: wai-uaag-intro
 
 permalink: /standards-guidelines/uaag/pl  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/uaag/    # Do not change this
@@ -23,7 +26,7 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
-  <p><strong>Data:</strong> Uaktualniono 2016. Pierwsza publikacja w czerwcu 2005.</p>
+  <p>Pierwsza publikacja w czerwcu 2005.</p>
   <p><strong>Redaktorzy:</strong> Jeanne Spellman, Jim Allan, <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
   <p>Opracowane z udziałem Grupy Roboczej ds. Wytycznych dla dostępności programów użytkownika
   (<a href="https://www.w3.org/WAI/UA/">UAWG</a>).</p>
@@ -77,7 +80,7 @@ UAAG i zasoby pomocnicze mają również na celu zaspokojenie potrzeb wielu ró�
 
 [UAAG 2.0](https://www.w3.org/TR/UAAG20/) zostały opracowane, aby pomóc w zwiększeniu dostępności przeglądarek internetowych przyszłych generacji, zapewnić alternatywne informacje w oparciu o technologię i&nbsp;platformę użytkownika oraz dostosować się do WCAG 2.0 i ATAG 2.0. UAAG 2.0 jest gotowy. Zawiera szczegółowe wskazówki dotyczące przeglądarek i&nbsp;innych programów użytkownika oraz informacje referencyjne dla specjalistów ds. dostępności.
 
-Grupa Robocza ds. Wytycznych dla dostępności programu użytkownika (UAWG) zidentyfikowała wdrożenia funkcji („kryteria sukcesu”) UAAG 2.0, wykazując, że możliwe jest wdrożenie kryteriów sukcesu UAAG 2.0. Próg dla specyfikacji, aby stała się formalną Rekomendacją W3C, zwykle obejmuje szeroko zakrojone formalne testowanie implementacji każdego kryterium sukcesu w wielu programach użytkownika – co w&nbsp;przypadku UAAG 2.0 wymagałoby ręcznego testowania wielu interfejsów użytkownika przeglądarki. Na tym poziomie testów nie były dostępne wystarczające zasoby testowe. W3C nie planuje obecnie nadania UAAG 2.0 statusu Rekomendacji. W3C planuje uwzględnić kwestie dostępności progrmu użytkownika w przyszłych pracach nad wytycznymi dla dostępności.
+Grupa Robocza ds. Wytycznych dla dostępności programu użytkownika (UAWG) zidentyfikowała wdrożenia funkcji („kryteria sukcesu”) UAAG 2.0, wykazując, że możliwe jest wdrożenie kryteriów sukcesu UAAG 2.0. Próg dla specyfikacji, aby stała się formalną Rekomendacją W3C, zwykle obejmuje szeroko zakrojone formalne testowanie implementacji każdego kryterium sukcesu w wielu programach użytkownika – co w&nbsp;przypadku UAAG 2.0 wymagałoby ręcznego testowania wielu interfejsów użytkownika przeglądarki. Na tym poziomie testów nie były dostępne wystarczające zasoby testowe. W3C nie planuje obecnie nadania UAAG 2.0 statusu Rekomendacji. W3C planuje uwzględnić kwestie dostępności programu użytkownika w przyszłych pracach nad wytycznymi dla dostępności.
 
 UAAG 2.0 są nadal potrzebne i ważne, a w przyszłości mogą mieć coraz większe znaczenie. Prace obecnych grup zadaniowych ds. dostępności mobilnej i dostępności dla osób słabowidzących pokazują, jak ważne jest łączne uwzględnienie treści, interfejsu użytkownika, rozszerzeń, aplikacji i&nbsp;programów użytkownika. Chociaż wiele funkcji UAAG 2.0 jest obsługiwanych w konkretnych przeglądarkach, istnieje potrzeba bardziej spójnego i&nbsp;niezawodnego wsparcia dla funkcji dostępności we wszystkich przeglądarkach i&nbsp;programach użytkownika. UAAG 2.0 zapewnia konkretne wskazówki dotyczące dostępności dla programistów programów użytkownika, którzy chcą zapewnić wszystkim lepsze doświadczenia użytkownika.
 

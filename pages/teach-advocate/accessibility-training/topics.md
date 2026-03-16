@@ -5,7 +5,7 @@
 title: "Topics for Web Accessibility Presentations and Training"
 nav_title: Topics
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2018-05-24 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2018-05-24 # Keep the date of the English version
 order: 1
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -527,7 +527,7 @@ This topic explains the relationship between user agents (browsers, media player
 
 **Goal:** Help people understand the importance of authoring tools in achieving web accessibility.
 
-**Audience:** Authoring tool developers, web developers, ICT and procurement departments, web developers, accessibility advocates
+**Audience:** Authoring tool developers, web developers, ICT and procurement departments, accessibility advocates.
 
 ### Description
 

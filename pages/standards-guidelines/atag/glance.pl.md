@@ -5,7 +5,10 @@
 title: "ATAG w skrócie"
 nav_title: "ATAG w skrócie"
 lang: pl
-last_updated: 2024-03-11   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-11   # Keep the date of the English version
 
 translators:
   - name: "Stefan Wajda"
@@ -14,7 +17,7 @@ contributors:
     org: "Human Thing Ltd"
 
 github:
-  label: wai-intro-atag
+  label: wai-atag-intro
 
 permalink: /standards-guidelines/atag/glance/pl   
 ref: /standards-guidelines/atag/glance/   # Do not change this
@@ -27,7 +30,6 @@ feedbackmail: wai@w3.org
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
-  <p><strong>Data:</strong> Uakualniono 18 maja 2016.</p>
   <p><strong>Redaktorzy:</strong> Jeanne Spellman i <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Opracowane z udziałem Grupy Roboczej ds. dostępności narzędzi autorskich (<a href="https://www.w3.org/WAI/AU/">AUWG</a>) oraz Grupy Roboczej ds. Edukacji i Promocji (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 ---

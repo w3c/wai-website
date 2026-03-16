@@ -4,10 +4,10 @@
 
 title: "Description of Visual Information"
 title_image: /content-images/media-guide/ad.svg
-
 nav_title: "Description"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2022-08-24   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+first_published: "September 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -35,12 +35,10 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-
-   <p><strong>Date:</strong> Updated 24 August 2022. First published September 2019. CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href=" https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href=" https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -167,10 +165,10 @@ Video:
 
 **WCAG excerpts** with emphasis added, additions in [brackets], and links to more information in "Understanding WCAG":
 
-* [A 1.2.1 Audio-only and Video-only](https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html) (Prerecorded): For... Prerecorded Video-only: Either an alternative for time-based media [descriptive transcript] ***or*** an audio track [of description] is provided that presents equivalent information for prerecorded video-only content.
-* [A 1.2.3 Audio Description or Media Alternative](https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html) (Prerecorded): An alternative for time-based media [transcript] ***or*** audio description of the prerecorded video content is provided for synchronized media...
-* [AA 1.2.5 Audio Description](https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html) (Prerecorded): Audio description is provided for all prerecorded video content in synchronized media.
-* [AAA 1.2.7 Extended Audio Description](https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded.html) (Prerecorded): Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media. 
+* [A 1.2.1 Audio-only and Video-only](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html) (Prerecorded): For... Prerecorded Video-only: Either an alternative for time-based media [descriptive transcript] ***or*** an audio track [of description] is provided that presents equivalent information for prerecorded video-only content.
+* [A 1.2.3 Audio Description or Media Alternative](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded.html) (Prerecorded): An alternative for time-based media [transcript] ***or*** audio description of the prerecorded video content is provided for synchronized media...
+* [AA 1.2.5 Audio Description](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html) (Prerecorded): Audio description is provided for all prerecorded video content in synchronized media.
+* [AAA 1.2.7 Extended Audio Description](https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded.html) (Prerecorded): Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media. 
 
 ## Description Considerations, Skills, and Tools {#description-considerations-skills-and-tools}
 

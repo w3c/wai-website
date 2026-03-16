@@ -1,18 +1,25 @@
 ---
-title: Accessible Platform Architectures (APA) Working Group
-nav_title: '<span>APA: Accessible Platform <abbr title="Working Group">WG</abbr></span>'
+title: Accessible Platform Architectures Working Group
+nav_title: 'Accessible Platform Architectures <abbr title="Working Group">WG</abbr>'
 lang: en
 permalink: /about/groups/apawg/
 ref: /about/groups/apawg/
+redirect_from:
+  - /about/groups/apawg/communication/
+  - /about/groups/apawg/contribute/
+  - /about/groups/apawg/deliverables/
+  - /about/groups/apawg/participate/
+  - /about/groups/apawg/task-forces/
+  - /about/groups/apawg/video-examples/
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the Accessible Platform Architectures Working Group (APA WG) is to ensure W3C specifications provide support for accessibility to people with disabilities. The group advances this mission through review of W3C specifications, development of technical support materials, collaboration with other Working Groups, and coordination of harmonized accessibility strategies within W3C.
-
-Some information on this page is also shown on, and may be more current in, the automatically generated [Accessible Platform Architectures Working Group page](https://www.w3.org/groups/wg/apa/).
+Find out about the activities of the Accessible Platform Architectures (APA) Working Group and how you can contribute to its mission.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -31,75 +38,81 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
+## Mission
 
-## Announcements
+The mission of the APA Working Group is to ensure W3C specifications support accessibility for people with disabilities through the following activities: 
 
-No announcements at the moment.
+* reviewing specifications
+* developing new specifications and technical support materials
+* collaborating with other W3C working groups on technology accessibility
+* coordinating harmonized accessibility strategies within W3C that include security, privacy, and internationalization
 
-## Current Work
+To learn about the group’s focus, scope and deliverables, see the [APA Working Group Charter](https://www.w3.org/2025/06/apa-wg-charter.html).
 
-The APA WG is engaged on the following work:
+## Current work
 
-- Publications: The Working Group maintains a comprehensive list of publications and status](/about/groups/apawg/deliverables/), which include:
-    - Several [Accessibility User Requirements](https://www.w3.org/TR/?filter-tr-name=accessibility+user+requirements) guides for specific technologies;
-    - [Framework for Accessible Specification of Technologies](https://w3c.github.io/apa/fast/) plus [FAST checklist](https://w3c.github.io/apa/fast/checklist.html),
-    - [Inaccessibility of CAPTCHA](https://w3c.github.io/apa/captcha/),
-    - [Spoken Presentation technology](https://www.w3.org/TR/?filter-tr-name=spoken+presentation) to provide for proper pronunciation in HTML content when using text to speech (TTS) synthesis,
-    - [WAI-Adapt technology](https://www.w3.org/TR/?filter-tr-name=WAI-Adapt) to enable design of sites in a way that they can be personalized to the needs of each user allows more optimal accessibility.
-- Specification reviews: input is solicited on the [WAI Interest Group mailing list](http://lists.w3.org/Archives/Public/w3c-wai-ig/), tracked in the [APA specification review wiki pages](https://www.w3.org/WAI/APA/wiki/Category:Spec_Review)and comments are copied to the [public-apa mailing list](https://lists.w3.org/Archives/Public/public-apa/).
-- Community groups: the Working Group maintains a [list of community groups to track](https://www.w3.org/WAI/APA/wiki/Community_Groups).
+For details of the current work, see the [APA Working Group wiki](https://www.w3.org/WAI/APA/wiki/).
 
-The [APA Project Plan](/about/groups/apawg/deliverables/) details intended timeline and milestones for this work.
+## Contribute to the work
 
-## Horizontal Review
+W3C and the APA Working Group welcome input on APA work from individuals and organizations around the world.
 
-The APA Working Group performs [accessibility horizontal review](https://www.w3.org/wiki/DocumentReview) of other technologies under development by W3C. Documents reviewed from 2015 to present are shown in the [Specification Review list](https://www.w3.org/WAI/APA/wiki/Category:Spec_Review). Active reviews under way are shown in the [Accessibility Review Comment Tracker](https://w3c.github.io/horizontal-issue-tracker/?repo=w3c/a11y-review). The group also reviews [charters of groups](https://github.com/w3c/strategy/issues?q=is%3Aissue+is%3Aopen+label%3A%22Horizontal+review+requested%22%22) to check that deliverables and liaisons reflect accessibility needs.
+### Contribute without joining the group
 
-To request review of a GitHub issue from the APA, add the "a11y-tracker" label to the issue. If the APA files an issue or agrees to comment on an issue, the label will be changed to "a11y-needs-resolution". To request review outside of a GitHub issue context, send email to [group-apa-chairs@w3.org](mailto:group-apa-chairs@w3.org).
+There are ways you can contribute without being a member of the working group:
 
-## Task Forces
+* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; to be notified about draft documents for review, [subscribe to WAI news](/news/subscribe/).
+* **Raise, comment on, or propose fixes to APA issues:** If you’re aware of an issue with any of the published APA resources, W3C welcomes you to [raise a new issue on GitHub](https://github.com/w3c/apa/issues) &mdash; you can also comment on and, even better, propose solutions for existing issues.
+* **Contribute to APA discussions:** You may contribute your views to the APA Working Group's [mailing list discussions](https://lists.w3.org/Archives/Public/public-apa/).
 
-The APA WG uses [task forces](/about/groups/apawg/task-forces/) to focus work on specific projects. Task Forces are described on the related page.
+### Become a participant in the group
 
-## How to Comment, Contribute, and Participate
+Joining the APA Working Group enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-The APA Working Group engages with stakeholders in a variety of ways. See the following resources for information on:
+Being a participant involves commitment to support the work of the group in the following ways:
 
-- [How to contribute to the Working Group and file comments](/about/groups/apawg/contribute/);
-- [How to contribute to the source repository directly](https://github.com/w3c/apa/);
-- [How to participate in (join) the Working Group](/about/groups/apawg/participate/).
+* Engage actively with other participants in the working group using the group’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
 
-## Meetings and Communication
+See [Instructions for joining the Accessible Platform Architectures Working Group](https://www.w3.org/groups/wg/apa/instructions/).
 
-The APA WG conducts its work using a variety of synchronous and asynchronous tools. The [communication](/about/groups/apawg/communication/) page provides details about:
+## Group participants and task forces
 
-- Teleconferences of the Working Group and its task forces (also see [meeting minutes](https://www.w3.org/WAI/APA/minutes));
-- Face to face meetings (also see face to face [meeting pages](https://www.w3.org/WAI/APA/wiki/Meetings));
-- Email lists;
-- [apa source repository](https://github.com/w3c/apa/);
-- [Wiki](https://www.w3.org/WAI/APA/wiki/);
-- [Web-Based Surveys (WBS)](https://www.w3.org/2002/09/wbs/83907/);
-- [apa source repository issue tracker](https://github.com/w3c/apa/issues).
+* [Chairs](https://www.w3.org/groups/wg/apa/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/wg/apa/participants/#participants)
+* [Task forces](https://www.w3.org/groups/wg/apa/task-forces/) that support the APA Working Group
 
-These tools are used by participants of the Working Group. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/apawg/contribute/).
+## Communications and decisions
 
-### Meeting Minutes
+* [Calendar of meetings](https://www.w3.org/groups/wg/apa/calendar/)
+* [Minutes from previous meetings](/about/groups/apawg/minutes/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-apa/)
+* [Record of decisions](https://www.w3.org/WAI/APA/wiki/Decisions)
+* [Decision policy](/about/groups/apawg/decision-policy/)
 
-[Minutes from previous meetings](https://www.w3.org/WAI/APA/minutes) are available.
+## GitHub repositories
+The APA Working Group maintains the following GitHub repositories:
 
-## Administrative Information
+* [Accessible Platform Architectures](https://github.com/w3c/apa/)
+* [Accessible Platform Architectures Review](https://github.com/w3c/apa-review/issues/)
+* [Accessibility Maturity Model](https://github.com/w3c/maturity-model/)
+* [Accessibility Request](https://github.com/w3c/a11y-request/)
+* [Accessibility Review](https://github.com/w3c/a11y-review/)
+* [Cognitive and Learning Disabilities Accessibility](https://github.com/w3c/coga/)
+* [Framework for Accessible Specification of Technologies](https://github.com/w3c/fast)
+* [Pronunciation](https://github.com/w3c/pronunciation/)
+* [Research Questions](https://github.com/w3c/rqtf/)
+* [WAI-Adapt](https://github.com/w3c/adapt/)
 
-Work of the APA WG is in accordance with the [W3C Process](https://www.w3.org/2023/Process-20231103/). APA work is funded in part by the [WAI Core 2015 Project](http://www.w3.org/WAI/Core2015/). The work of this group does not necessarily reflect the views or policies of the funders.
+## Publications and copyright
 
-The chairs of the APA WG, responsible for overall leadership and management, are [Matthew Atkinson](mailto:m.atkinson@samsung.com) and [Janina Sajka](mailto:janina@rednote.net). The staff contact, responsible for [W3C Process](http://www.w3.org/Consortium/Process/) and general support, is [Ruoxi (Roy) Ran](http://www.w3.org/People/Roy/). Administrative inquiries may be sent to [group-apa-chairs@w3.org](mailto:group-apa-chairs@w3.org).
+[List of technical reports published by the APA Working Group](https://www.w3.org/groups/wg/apa/publications/).
 
-The Accessible Platform Architectures maintains the following operational resources:
+W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; APA Working Group](https://www.w3.org/groups/wg/apa/ipr/).
 
-- [Decision policy](/about/groups/apawg/decision-policy/);
-- [Record of decisions made by the WG](https://www.w3.org/WAI/APA/wiki/Decisions);
-- [Archives of past activity](https://www.w3.org/WAI/APA/archive);
-- [meeting minutes](https://www.w3.org/WAI/APA/minutes).
+There are also instructions for [How to Make a Patent Disclosure](https://www.w3.org/groups/wg/apa/ipr/#discl-howto).
 
-W3C maintains a [public list of any patent disclosures](https://www.w3.org/groups/wg/apa/ipr/) made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent.
+## Contact the chairs
 
-[Current participants in the APA WG](https://www.w3.org/groups/wg/apa/participants/).
+If you have a question for the APA Working Group’s chairs or the W3C staff contact, email [group-apa-chairs@w3.org](mailto:group-apa-chairs@w3.org).

@@ -4,10 +4,12 @@
 title: "Easy Reading"   # Do not translate "title:". Do translate the text after "title:".
 nav_title: "Easy Reading" # A short title that is used in the navigation
 lang: en   # Change "en" to the translated language shortcode
-last_updated: 2019-09-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-09-09   # Keep the date of the English version
 permalink: /about/projects/easy-reading/   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /about/projects/easy-reading/   # Do not change this
 feedbackmail: wai@w3.org
+github:
+  label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}
@@ -66,7 +68,7 @@ Easy Read aims to enable people with cognitive disabilities to better read, unde
 
 The role of the W3C Web Accessibility Initiative (WAI) in this project is two-fold:
 
-- Inform the project on relevant developments in W3C standardization, such as work on [personalization](https://www.w3.org/WAI/personalization/), [pronunciation](https://www.w3.org/WAI/pronunciation/), and requirements and supplemental guidance on people with [cognitive and learning disabilities](https://www.w3.org/WAI/cognitive/);
+- Inform the project on relevant developments in W3C standardization, such as work on [personalization](https://www.w3.org/WAI/adapt/), [pronunciation](https://www.w3.org/WAI/pronunciation/), and requirements and supplemental guidance on people with [cognitive and learning disabilities](https://www.w3.org/WAI/cognitive/);
 - Relay relevant feedback and learnings from the project, such as implementation experiences and user needs from working with the community, into W3C standardization and resource development.
 
 See the [Easy Reading Project Website](https://www.easyreading.eu/) for more information on this project and contact [Shadi Abou-Zahra](http://www.w3.org/People/shadi/) for more questions on W3C's participation in this project.

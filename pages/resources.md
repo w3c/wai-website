@@ -1,7 +1,7 @@
 ---
 title: WAI Resources
 lang: en
-last_updated: 2024-04-29
+last_updated: 2025-03-06
 
 github:
   label: wai-resources-list
@@ -12,9 +12,6 @@ ref: /resources/
 layout: default
 image: /content-images/resources-list/resources-social.png 
 feedbackmail: wai@w3.org
-
-footer: >
-  <p><strong>Date:</strong> Updated 30 April 2024.</p>
 ---
 
 {::nomarkdown}
@@ -78,7 +75,7 @@ The following resources provide information for **getting started with accessibi
     -   [[Video Introduction to Web Accessibility and W3C Standards]](/videos/standards-and-benefits/) 4-minutes {% include image.html src="video.svg" alt="" class="icon" %}
     
 [[Accessibility: It's About People]](/people/)
-:   Explains the people aspect of accessibility and the role of accessibility in diversity, equality, and inclusion (DEI). Links to:
+:   Explains the people aspect of accessibility. Links to:
     -   [[Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone]](/perspective-videos/) - videos that demonstrate that web accessibility is essential for people with disabilities and useful for all. Ten 1-minute videos, and a 7-minute compliation {% include image.html src="video.svg" alt="" class="icon" %}
     -   [[How People with Disabilities Use the Web]](/people-use-web/)<!-- , [Videos of How People with Disabilities Use the Web](/people-use-web/) Eighteen 2+minute videos, and 3 compliations {% include image.html src="video.svg" alt="" class="icon" %} -->
     -   [Older Users and Web Accessibility](/older-users/) resources
@@ -90,8 +87,12 @@ The following resources provide information for **getting started with accessibi
 [[Accessibility Principles]](/fundamentals/accessibility-principles/)
 :   A concise introduction to accessibility requirements for websites, apps, browsers, and other tools. It is organized similar to the WAI accessibility standards and provides a useful bridge to the standards. Read this page before reading the standards/guidelines.
 
+Research:
+:   -   [[Accessibility User Requirements]](/research/user-requirements/) - Documentation of research on user needs in virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, low vision, cognitive accessibility, and more.
+    -   [[Artificial Intelligence (AI) and Accessibility Research Symposium 2023]](/research/ai2023/) - Summaries, transcripts, and videos of the international symposium exploring the positive and negative impacts of artificial intelligence (AI) in digital accessibility.
+
 Digital Accessibility Courses:
-:   -   [[Digital Accessibility Foundations &mdash; Free Online Course]](/fundamentals/foundations-course/) - Introduces a self-paced course from W3C WAI for developers, designers, ux, writers, managers, advocates. **Designed for technical and non-technical learners**, including students, instructors, professionals, and people with disabilities. Course is free with optional certificate.
+:   -   [[Digital Accessibility Foundations &mdash; Free Online Course]](/courses/foundations-course/) - Introduces a self-paced course from W3C WAI for developers, designers, ux, writers, managers, advocates. **Designed for technical and non-technical learners**, including students, instructors, professionals, and people with disabilities. Course is free with optional certificate.
     -   [[Course List - Digital Accessibility Education, Training, and Certification]](/courses/list/) - Lists courses from different providers.    
 
 {% include_cached excol.html type="end" %}
@@ -111,6 +112,9 @@ The following resources provide guidance for individual project management and f
 
 [[Planning and Managing Web Accessibility]](/planning-and-managing/)
 : Describes activities to help you integrate accessibility throughout your organization and projects.
+
+[[Roles and Responsibilities (ARRM)]](/planning/arrm/)
+: Provides an approach for defining roles, tasks, and responsibilities for meeting Web Content Accessibility Guidelines (WCAG).
 
 [[Involving Users in Web Projects for Better, Easier Accessibility]](/planning/involving-users/)
 : Describes how project managers, designers, and developers can better understand accessibility issues and implement more effective accessibility solutions.
@@ -201,12 +205,12 @@ There are evaluation tools that help with evaluation. However, no tool alone can
 ### Initial Checks {#initial}
 
 {% include video-card.html
-    video-url="//media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4"
-    captions="/content-images/wai-eval-overview/easy-checks-accessibility.en.vtt|en|default"
-    poster="video-thumb-easy-checks.png"
-    accessible-version="https://www.w3.org/WAI/test-evaluate/preliminary/#video-intro"
-    accessible-version-label="Video: Easy Checks Overview"
-    poster="/content-images/wai-eval-overview/video-thumb-easy-checks.png"
+  video-url="//media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4"
+  captions="/wai-videos/evaluating/easy-checks-accessibility.en.vtt|en|default"
+  poster="video-thumb-easy-checks.png"
+  accessible-version="https://www.w3.org/WAI/test-evaluate/preliminary/#video-intro"
+  accessible-version-label="Video: Easy Checks Overview"
+  poster="/content-images/test-eval/video-thumb-easy-checks.png"
 %}
 
 Even if you don’t know anything about accessibility and you don’t have a robust accessibility tool, you can check some aspects of accessibility.
@@ -218,11 +222,11 @@ Even if you don’t know anything about accessibility and you don’t have a rob
 {:style="clear:both"}
 
 {% include video-card.html
-    video-url="//media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4"
-    captions="/content-images/wai-eval-overview/tools-for-evaluating.en.vtt|en|default"
-    accessible-version="https://www.w3.org/WAI/test-evaluate/tools/#video-intro"
-    accessible-version-label="Video: Evaluation Tools Overview"
-    poster="/content-images/wai-eval-overview/video-thumb-tools.png"
+  video-url="//media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4"
+  captions="/wai-videos/evaluating/tools-for-evaluating.en.vtt|en|default"
+  accessible-version="https://www.w3.org/WAI/test-evaluate/tools/#video-intro"
+  accessible-version-label="Video: Evaluation Tools Overview"
+  poster="/content-images/test-eval/video-thumb-tools.png"
 %}
 
 Web accessibility evaluation tools are software programs or online services that help determine if web content meets accessibility standards.
@@ -237,11 +241,11 @@ Web accessibility evaluation tools are software programs or online services that
 {:style="clear:both"}
 
 {% include video-card.html
-    video-url="//media.w3.org/wai/evaluation-intros/conformance-evaluation.mp4"
-    captions="/content-images/wai-eval-overview/conformance-evaluation.en.vtt|en|default"
-    accessible-version="https://www.w3.org/WAI/test-evaluate/conformance/#video-intro"
-    accessible-version-label="Video: Conformance Evaluation Overview"
-    poster="/content-images/wai-eval-overview/video-thumb-conformance.png"
+  video-url="//media.w3.org/wai/evaluation-intros/conformance-evaluation.mp4"
+  captions="/wai-videos/evaluating/conformance-evaluation.en.vtt|en|default"
+  accessible-version="https://www.w3.org/WAI/test-evaluate/conformance/#video-intro"
+  accessible-version-label="Video: Conformance Evaluation Overview"
+  poster="/content-images/test-eval/video-thumb-conformance.png"
 %}
 
 Conformance evaluation determines how well web pages or applications meet accessibility standards. W3C’s Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG).
@@ -266,11 +270,11 @@ Specifications for expressing test results (EARL) and for writing accessibility 
 ### People
 
 {% include video-card.html
-    video-url="//media.w3.org/wai/evaluation-intros/involving-users.mp4"
-    captions="/content-images/wai-eval-overview/involving-users.en.vtt|en|default"
-    accessible-version="https://www.w3.org/WAI/test-evaluate/involving-users/#video-intro"
-    accessible-version-label="Video: Involving Users in Web Accessibility Overview"
-    poster="/content-images/wai-eval-overview/video-thumb-involving-users.png"
+  video-url="//media.w3.org/wai/evaluation-intros/involving-users.mp4"
+  captions="/wai-videos/evaluating/involving-users.en.vtt|en|default"
+  accessible-version="https://www.w3.org/WAI/test-evaluate/involving-users/#video-intro"
+  accessible-version-label="Video: Involving Users in Web Accessibility Overview"
+  poster="/content-images/test-eval/video-thumb-involving-users.png"
 %}
 
 Getting the right people and skills involved makes your accessibility evaluations more effective.

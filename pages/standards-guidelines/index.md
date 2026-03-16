@@ -5,7 +5,7 @@
 title: W3C Accessibility Standards Overview
 nav_title: "Standards/Guidelines" # A short title that is used in the navigation
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-02-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-02-29   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -20,16 +20,12 @@ github:
 permalink: /standards-guidelines/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /standards-guidelines/   # Do not change this
 
-changelog: /standards-guidelines/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
-# Translate the other words below, including "Date:" and "Editor:"
+# Translate the words below, including "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 29 February 2024. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

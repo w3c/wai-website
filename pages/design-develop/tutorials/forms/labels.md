@@ -40,8 +40,6 @@ last_updated: 2024-05-13
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
@@ -310,4 +308,4 @@ In general, placing labels above the form fields helps reduce horizontal scrolli
 When HTML5 form fields are used, a virtual keyboard appears making it easier to input data.
 For example, a `number` field shows a numeric keyboard, a `date` field a native date picker.
 
-Sometime designers propose not including visual field labels. However, most users prefer or even need visible labels to understand the form.
+Sometimes designers propose not including visual field labels. However, most users prefer or even need visible labels to understand the form.

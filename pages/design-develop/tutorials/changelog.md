@@ -11,21 +11,30 @@ github:
 
 resource:
   ref: /tutorials/
-  
+
+acknowledgements: /tutorials/acknowledgements/
+
 footer: >
-   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. <strong>Update Editor:</strong> Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>.</p>
+   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. Update Editors: Becky Gibson, Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>. ACKNOWLEDGEMENTS.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>  
 ---
 
 {::nomarkdown}
-{% include box.html type="start" title="Changelog listing note" %}
+{% include box.html type="start" title="Note" %}
 {:/}
 
-This changelog lists substantive content edits. It does **not** list typo fixes and other minor edits.
+This changelog lists substantive content edits. It does _not_ list typo fixes and other minor edits.
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+## July 2024
+
+In [Images tutorial](/tutorials/images/)
+* Updating link in [[Tips and Tricks]](/tutorials/images/tips/)
+  * [GitHub PR #754](https://github.com/w3c/wai-website/pull/754)
+
 ## May 2024
 In [Forms tutorial](/tutorials/forms/)
 * Fixing a broken link in [Form Instructions](/tutorials/forms/instructions/#placeholder-text)
@@ -47,12 +56,18 @@ Added notes about responsive design/smaller screen considerations to:
 * [Forms > Labeling Controls](/tutorials/forms/labels/)
 * [Carousels > Styling](/tutorials/carousels/styling/)
 
+## January 2024
+
+In [Images tutorial](/tutorials/images/)
+* Change "the user" into "users" in [An <code>alt</code> Decision Tree](/tutorials/images/decision-tree/)
+  * [GitHub PR #742](https://github.com/w3c/wai-tutorials/pull/742)
+
 ## February 2023
 
 * In Tables main page, corrected WCAG links under [Related WCAG resources](/tutorials/tables/#related)
 
 ## 2022
-We published several bug fixes and typo fixes throughout 2022
+We published several bug fixes and typo fixes throughout 2022.
 
 ## August 2018
 

@@ -23,8 +23,6 @@ last_updated: 2019-07-27
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
@@ -112,7 +110,7 @@ This illustration of a crocus bulb is used to make the link easier to identify a
 {% include box.html type="start" title="Example" class="example" %}
 {:/}
 
-[![]({{ "/content-images/tutorials/images/crocus.jpg" | relative_url }}){:style="vertical-align: middle; margin-right: 1em;"}**Crocus bulbs**](../beyond.html)
+[![]({{ "/content-images/tutorials/images/crocus.jpg" | relative_url }}){:style="vertical-align: middle; margin-right: 1em;"}**Crocus bulbs**]({{ "/example-link/" | relative_url }})
 
 {::nomarkdown}
 {% include box.html type="end" %}

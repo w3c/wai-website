@@ -6,7 +6,11 @@ title: "Langues des signes"
 title_image: /content-images/media-guide/sign.svg
 nav_title: "Langues des signes"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-09-17  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
@@ -32,11 +36,11 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date :</strong> Mise à jour : 12 avril 2021. Première publication en septembre 2019. CHANGELOG.</p>
+   <p>Première publication en septembre 2019.</p>
    <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
    <p>Développé par le groupe de travail Éducation et promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 ---
@@ -86,7 +90,7 @@ Certains efforts sont faits pour fournir automatiquement une interprétation en 
 
 La langue des signes n’est pas requise par la plupart des politiques d’accessibilité Web.
 
-Le standard des WCAG situe la langue des signes au niveau AAA : [Comprendre 1.2.6 Langue des signes](https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded.html). _(La page Planifier de cette ressource présente le [standard WCAG](/media/av/planning/#wcag-standard).)_
+Le standard des WCAG situe la langue des signes au niveau AAA : [Comprendre 1.2.6 Langue des signes](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded.html). _(La page Planifier de cette ressource présente le [standard WCAG](/media/av/planning/#wcag-standard).)_
 
 ## Compétences et outils {#skills-and-tools}
 
@@ -115,7 +119,7 @@ Assurez-vous que l’image de l’interprète en langue des signes soit suffisam
 
 Évitez de dissimuler du contenu important – _post-production_
 : Positionnez l’interprète en langue des signes de manière à éviter de dissimuler des informations importantes dans la vidéo. L’interprète est généralement placé en bas à droite. Si votre vidéo contient des informations telles qu’un bandeau déroulant d’actualité, positionnez l’interprète en langue des signes au-dessus.
-: Idéalement, lorsque la vidéo a été réalisée, la position de l’interprète a été prévue, comme indiqué dans une autre page de cette ressource : [Prévoyez l’interprétation en langue des signes – storyboarding, enregistrement](/media/av/av-content/#plan-for-sign-language--storyboarding-recording).
+: Idéalement, lorsque la vidéo a été réalisée, la position de l’interprète a été prévue, comme indiqué dans une autre page de cette ressource : [Prévoyez l’interprétation en langue des signes – storyboarding, enregistrement](/media/av/av-content/#plan-for-sign-language).
 
 Rendez la (les) vidéo(s) en langue des signes facile(s) à découvrir et à utiliser
 : Facilitez l’accès à la vidéo avec la langue des signes et à la vidéo sans langue des signes.

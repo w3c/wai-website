@@ -9,7 +9,7 @@ ref: /translations/
 parent: /
 
 sidebaricon: translations
-image: /content-images/social-translations.png
+image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 footer: |
   <p>Translations managers: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin. Programmers: Eric Eggert and Rémi Bétin.</p>
@@ -52,6 +52,7 @@ subtitles_only:
       - mr
       - pl
       - te
+      - tr
 
 other_resources:
   - lang: "fr"
@@ -149,7 +150,7 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 
 {% include excol.html type="start" id=l %}
 
-## <span lang="{{l}}" bidi="auto" style="text-transform: capitalize;">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }})
+## <span lang="{{l}}" bidi="auto" style="text-transform: capitalize;">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }}) {#{{l}}}
 
 {::nomarkdown}
 {% if site.data.lang[l].rtl -%}{%- include excol.html type="middle" dir="rtl" lang=l -%}{%- else -%}{%- include excol.html type="middle" -%}{%- endif %}
@@ -269,7 +270,7 @@ _Languages are listed alphabetically by language code. For example, "Chinese" is
 
 ## Other WAI Translations Listings
 
-_The lists below are for specific standards, whereas the lists above include all published WAI translations. The completed translations in the lists below are included under the languages above._
+_The lists below are for specific standards; the lists above include all published WAI translations. The completed translations in the lists below are included under the languages above._
 
-* [WCAG 2 Translations](/standards-guidelines/wcag/translations/) lists in-progress and completed translations of Web Content Accessibility Guidelines (WCAG) 2.1 and 2.0, including Authorized W3C Translations and unofficial translations.
-* [Authorized Translations of W3C Recommendations](https://www.w3.org/Translations/authorized.html) lists completed Authorized W3C Translations of WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.
+* [WCAG 2 Translations](/standards-guidelines/wcag/translations/) lists in-progress and completed translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1, and 2.0, including Authorized W3C Translations and unofficial translations.
+* [Authorized Translations of W3C Recommendations](https://www.w3.org/Translations/authorized.html) lists completed Authorized W3C Translations of WCAG 2.2, WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.

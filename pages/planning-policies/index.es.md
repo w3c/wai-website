@@ -2,7 +2,10 @@
 title: "Introducción a la planificación y a la normativa"
 nav_title: "Introducción"
 lang: es
-last_updated: 2021-05-15    # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-07    # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -14,17 +17,14 @@ github:
 permalink: /planning/es
 ref: /planning/    # Do not change this
 
-changelog: /planning/changelog/
 feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
-# Do not change CHANGELOG and the dates
 # Translate the other words below, including "Date:", "Editor:" and "Previous contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
   <p>Nota sobre la descripción del vídeo: El vídeo de esta página no contiene audiodescripción sincronizada porque las imágenes se limitan a ilustrar el contenido sonoro y no proporcionan información adicional. En este caso, la audiodescripción generaría más confusión y no sería útil para la mayoría de la gente, incluyendo las personas que no pueden ver las imágenes. La descripción de las imágenes está incluida en la "transcripción textual con descripción de imágenes" (transcripción descriptiva).</p>
-  <p><strong>Fecha:</strong> Actualizado el 7 de mayo del 2021. CHANGELOG.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Video developed by EOWG, with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="/WAI/test-evaluate/acknowledgements/">Acknowledgements</a>.</p>
 ---

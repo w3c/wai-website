@@ -13,7 +13,7 @@ resource:
   ref: /people-use-web/
 ---
 
-<cite>How People with Disabilities Use the Web</cite> was developed by the Education and Outreach Working Group ([EOWG](http://www.w3.org/WAI/EO/)) with support from the [WAI-Guide Project](https://www.w3.org/WAI/about/projects/wai-guide/) and  [WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/) co-funded by the European Commission (EC).
+<cite>How People with Disabilities Use the Web</cite> was developed by the Education and Outreach Working Group ([EOWG](https://www.w3.org/WAI/EO/)) with support from the [WAI-Guide Project](/about/projects/wai-guide/) and  [WAI-AGE Project](https://www.w3.org/WAI/WAI-AGE/) co-funded by the European Commission (EC).
 
 ## 2021-2024 Updates
 
@@ -37,7 +37,7 @@ Additional contributors:
 - Mark Palmer
 - Shawn Lawton Henry
 - and participants of the
-[Education and Outreach Working Group (EOWG)](http://www.w3.org/WAI/EO/)
+[Education and Outreach Working Group (EOWG)](https://www.w3.org/WAI/EO/)
 
 EOWG leadership:
 - Co-Chairs during this revision: Brent Bakken (Pearson), Brian Elton (TPGi), Kris Anne Kinney (ETS), Sharron Rush (Knowbility)
@@ -51,7 +51,7 @@ Editors:
 
 Contributors: Brent Bakken, Eric Eggert, Robert Jolly, Laura Keen, Kris Anne Kinney,
 Howard Kramer, Shawn Lawton Henry, Sharron Rush, and participants of the
-[Education and Outreach Working Group (EOWG)](http://www.w3.org/WAI/EO/).
+[Education and Outreach Working Group (EOWG)](https://www.w3.org/WAI/EO/).
 
 ## Previous drafts
 

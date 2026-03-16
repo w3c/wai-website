@@ -12,6 +12,8 @@ ref: /planning-and-managing/acknowledgements/  # Do not change this
 resource:
   ref: /planning-and-managing/
 
+changelog: /planning-and-managing/changelog/ # Do not change this
+
 footer: >
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Updated with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV Project</a> and the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 ---

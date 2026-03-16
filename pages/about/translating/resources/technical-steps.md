@@ -1,8 +1,8 @@
 ---
 title: "How to Translate a WAI Resource"
-nav_title: New translation
+nav_title: Technical Steps
 lang: en
-last_updated: 2024-05-27
+last_updated: 2024-11-19
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
 permalink: /about/translating/resources/technical-steps/
@@ -11,11 +11,13 @@ redirect_from:
   - /about/translating/guides/translation-guidance/
   - /about/translating/guides/new-translation/
 
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 
 footer: |
-  <p><strong>Date:</strong> Updated 27 May 2024.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin.</p>
   <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
@@ -110,14 +112,12 @@ lang: en
 last_updated: 2020-04-28
 
 github:
-  repository: w3c/wai-eval-tools-overview
-  path: "content/index.md"
+  label: wai-evaluation-tools
 
 permalink: /test-evaluate/tools/
 ref: /test-evaluate/tools/
 
 footer: >
-   <p><strong>Date:</strong> Updated 28 April 2020.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
    <p>Video developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="./acknowledgements/">Acknowledgements</a>.</p>
 ---
@@ -131,10 +131,6 @@ footer: >
 `lang`
 - Replace the original value (`en`) with the language shortcode of your translation.  
 
-`last_updated`
-- Change `last_updated: 2000-00-00` to the date you finish the translation.  
-  Use the format: YYYY-MM-DD (with month in the middle).
-
 `path` (below `github`)
 - Add the language shortcode at the middle of the filename.
 
@@ -143,18 +139,18 @@ footer: >
 
 `footer` (not always present)
 - If this attribute is present, translate its content.
-- Do not change the dates in this section. Those dates should be the same in your translation as in the English version.
 
-### 2.2. Add translators & contributors names.
+### 2.2. Add translation information
 
-After `last_updated`, add these lines, depending on how many translators there are and if there are contributors.  
-
-Policy for names and links is introduced in [Translating WAI Resources]({{ "/about/translating" | relative_url }}#links).
+After `last_updated` (that corresponds to the date of the English version), add these lines:
 
 {::nomarkdown}
 {% include box.html type="start" %}
 {:/}
 ```yaml
+translation:
+  last_updated: 2000-00-00
+
 translators:
   - name: "Your Name"
 contributors:
@@ -165,7 +161,13 @@ contributors:
 {% include box.html type="end" %}
 {:/}
 
-Or, if the lines are there with "`#`" before them to comment them out: delete the # and the space.
+`translation` – `last_updated`
+- Change `last_updated: 2000-00-00` to the date you finish the translation.\
+  Use the format: YYYY-MM-DD (with month in the middle).
+
+`translators` and `contributors`
+- Add information depending on how many translators there are, and if there are contributors. Policy for names and links is introduced in [Translating WAI Resources](/about/translating/#links).
+- If the lines are present and commented out with "`#` " before: delete the # and the space.
 
 {::nomarkdown}
 {% include box.html type="start" title="Updated front matter for a translation into French" %}
@@ -180,7 +182,10 @@ Show example
 ---
 title: Evaluation Tools Overview
 lang: fr
-last_updated: 2023-09-13
+last_updated: 2020-04-28
+
+translation:
+  last_updated: 2024-11-11
 
 translators:
   - name: "Your Name"
@@ -189,14 +194,12 @@ contributors:
   - name: "Other Name"
 
 github:
-  repository: w3c/wai-eval-tools-overview
-  path: "content/index.fr.md"
+  label: wai-evaluation-tools
 
 permalink: /test-evaluate/tools/fr
 ref: /test-evaluate/tools/
 
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 28 avril 2020.</p>
   <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Vidéo créée par le groupe de travail Éducation et Promotion (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) avec le soutien du projet <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> financé par la Commission européenne (CE) dans le cadre du programme Horizon 2020 (convention de subvention n°822245) <a href="./acknowledgements/">Remerciements</a>.</p>
 ---

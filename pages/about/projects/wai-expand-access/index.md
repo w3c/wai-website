@@ -5,12 +5,14 @@ title: "WAI Expanding Access Project: Expanding Web and Mobile Accessibility in 
 title_html: "WAI Expanding Access Project:<br>Expanding Web and Mobile Accessibility in Low Resource Regions and Communities"    # Do translate the text with <br>
 nav_title: "WAI Expanding Access" # A short title that is used in the navigation
 lang: en   # Change "en" to the translated language shortcode
-last_updated: 2022-00-00   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-00-00   # Keep the date of the English version
 
 permalink: /expand-access/   # Add the language shortcode to the end; for example /fundamentals/accessibility-intro/fr
 ref: /expand-access/   # Do not change this
 
 feedbackmail: wai@w3.org
+github:
+  label: wai-projects
 ---
 {::nomarkdown}
 {% include_cached box.html type="start" h="2" title="Introduction" class="full" %}
