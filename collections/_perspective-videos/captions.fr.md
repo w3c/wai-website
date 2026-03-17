@@ -48,7 +48,7 @@ L’accessibilité Web est essentielle pour les personnes en situation de handic
 {:#film.no-display}
 
 {% include video-player-data.html
-  video-id="captions"
+  video-id="perspectives_captions"
   yt-id="iWO5N3n1DXU"
   yt-id-ad="4qIordU8vT8"
 %}
