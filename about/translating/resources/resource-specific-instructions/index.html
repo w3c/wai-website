@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1773413763474387721";
+      element.src = "/WAI/assets/scripts/main.js?1773875010054147513";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1773413763474387721">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1773875010054147513">
 
 <title> Resource-Specific Translation Instructions | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
@@ -216,9 +216,9 @@
 <p>Check if the <a href="https://github.com/ableplayer/ableplayer/blob/master/README.md#user-content-supported-languages">player is available in your translated language <svg focusable="false" aria-label="External Site" class="icon-external-link "><use xlink:href="/WAI/assets/images/icons.svg#icon-external-link"></use></svg></a>.</p>
 
 <p>Then, translate the <a href="/WAI/videos/standards-and-benefits/#translations">“Translations” section</a> of the page accordingly:</p>
-<ol>
+<ul>
   <li><strong>If the player <em>is</em> available in the translated language</strong>:
-    <ul>
+    <ol>
       <li>Translate the following words from the video player interface:
         <ul>
           <li>“Captions”</li>
@@ -227,31 +227,32 @@
         </ul>
       </li>
       <li>Update the image per the instructions below.<br />
-<em>If you are not able to update the image, let us know at <a href="mailto:group-wai-translations@w3.org">group-wai-translations@w3.org</a>.</em>
+ <em>If you are not able to update the image, let us know at <a href="mailto:group-wai-translations@w3.org">group-wai-translations@w3.org</a>.</em>
         <ul>
           <li>Make a new image to replace <a href="https://www.w3.org/WAI/content-images/wai-video-standards-and-benefits/show-language.png">show-language.png</a>. The circle is 7px #eed009 / rgb(238,208,9).</li>
           <li>Name it <code class="language-plaintext highlighter-rouge">show-language.[language tag].png</code><br />
-For example: <code class="language-plaintext highlighter-rouge">show-language.fr.png</code></li>
-          <li>Upload it to the <a href="https://github.com/w3c/wai-video-standards-and-benefits/tree/master/content-images/wai-video-standards-and-benefits">content-images folder</a></li>
+   Example for Japanese: <code class="language-plaintext highlighter-rouge">show-language.ja.png</code></li>
+          <li>Upload it to the <a href="https://github.com/w3c/wai-website/tree/main/content-images/video-introduction">“content-images/video-introduction” folder</a></li>
         </ul>
       </li>
-      <li>In your translation, add the language tag to the image path.</li>
-    </ul>
+      <li>In your translation, add the language tag to the image path.<br />
+   Example for Japanese: <code class="language-plaintext highlighter-rouge">/content-images/video-introduction/show-language.ja.png</code></li>
+    </ol>
   </li>
   <li><strong>If the player is <em>not</em> available in the translated language</strong>:
-    <ul>
-      <li>Do not translate the following words from the video player interface; leave them in English:
+    <ol>
+      <li>Leave the following words from the video player interface in English:
         <ul>
           <li>“Captions”</li>
           <li>“Show transcript”</li>
           <li>“Language”</li>
         </ul>
       </li>
-      <li>Mark up the English words with the lang attribute:<br />
-<code class="language-plaintext highlighter-rouge">&lt;span lang="en"&gt;Captions&lt;/span&gt;</code>.</li>
-    </ul>
+      <li>Mark up the English words with the <code class="language-plaintext highlighter-rouge">lang</code> attribute.<br />
+ Example: <code class="language-plaintext highlighter-rouge">&lt;span lang="en"&gt;Captions&lt;/span&gt;</code>.</li>
+    </ol>
   </li>
-</ol>
+</ul>
 
 </div>
 </details>
@@ -261,7 +262,7 @@ For example: <code class="language-plaintext highlighter-rouge">show-language.fr
 </summary>
   <div markdown="block">
 
-<p>The <a href="/WAI/perspective-videos/">“Web Accessibility Perspective Videos”</a> page points to the resource sub-pages. Once you have translated a sub-page, add your language tag to the end of the corresponding URL in the index page.</p>
+<p>The <a href="/WAI/perspective-videos/">“Web Accessibility Perspective Videos”</a> page points to the resource’s sub-pages. Once you have translated a sub-page, add your language tag to the end of the corresponding URL.</p>
 
 <aside class="box"><header class="box-h "> Example for a French translation:</header><div class="box-i">
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> <span class="p">[</span><span class="nv">![</span><span class="p">](</span><span class="sx">img/thumbnails/keyboard.jpg</span><span class="p">)</span><span class="nt">&lt;br&gt;</span>Compatibilité avec le clavier]({{ "/perspective-videos/keyboard/fr" | relative_url }}) 
@@ -276,7 +277,7 @@ For example: <code class="language-plaintext highlighter-rouge">show-language.fr
 </summary>
   <div markdown="block">
 
-<p>The title “How People with Disabilities Use the Web” is <strong>not a question</strong>: it is a statement. For translation, it might help to think of it as <strong>a shorter version of</strong> “An Introduction to How People with Disabilities Use the Web” or “Description of How People with Disabilities Use the Web”.</p>
+<p>The title “How People with Disabilities Use the Web” is <strong>not a question</strong>: it is a statement. For translation, it might help to think of it as a shorter version of “An Introduction to How People with Disabilities Use the Web” or “Description of How People with Disabilities Use the Web”.</p>
 
 </div>
 </details>
@@ -286,10 +287,10 @@ For example: <code class="language-plaintext highlighter-rouge">show-language.fr
 </summary>
   <div markdown="block">
 
-<p>For the <a href="/WAI/standards-guidelines/wcag/glance/#guidelines">Guidelines</a> section:</p>
+<p>For the <a href="/WAI/standards-guidelines/wcag/glance/#guidelines">“Guidelines”</a> section:</p>
 <ul>
   <li><strong>Please consider the wording in the <a href="https://www.w3.org/TR/WCAG/">WCAG 2.2</a> success criteria.</strong> If there is a <a href="/WAI/standards-guidelines/wcag/translations/">translation of WCAG 2</a> in your language, review it thoughtfully.</li>
-  <li><strong>This text is not the same as the success criteria wording</strong> — it is a paraphrased summary that is intended to be easier to understand and accurate – yet it does not need to be comprehensive.</li>
+  <li><strong>This text is not the same as the success criteria wording</strong>. It is a paraphrased summary that is intended to be easier to understand and accurate – yet it does not need to be comprehensive.</li>
   <li>Please collaborate with others who are familiar with WCAG to refine this wording in your language.</li>
 </ul>
 
@@ -301,7 +302,7 @@ For example: <code class="language-plaintext highlighter-rouge">show-language.fr
 </summary>
   <div markdown="block">
 
-<p>Tutorials resources use a dynamic footer, using specific metadata set in the “front matter” of each page.</p>
+<p>Tutorials resources use a dynamic footer, using specific metadata set at the top of each page.</p>
 
 <aside class="box"><header class="box-h "> Example:</header><div class="box-i">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">metafooter</span><span class="pi">:</span> <span class="kc">true</span>
@@ -319,7 +320,7 @@ For example: <code class="language-plaintext highlighter-rouge">show-language.fr
 <ol>
   <li>Translate content in <code class="language-plaintext highlighter-rouge">editors</code>, <code class="language-plaintext highlighter-rouge">update_editors</code>, <code class="language-plaintext highlighter-rouge">contributing_participants</code> and <code class="language-plaintext highlighter-rouge">support</code>.\</li>
   <li>Translate the Working Group name and leave the Working Group acronym in English.</li>
-  <li>Add translations for the following terms, used by the footer, in the <a href="https://github.com/w3c/wai-website-data/blob/master/translations.yml">translations.yml file <svg focusable="false" aria-label="External Site" class="icon-external-link "><use xlink:href="/WAI/assets/images/icons.svg#icon-external-link"></use></svg></a> located in <a href="https://github.com/w3c/wai-website-data/">the <code class="language-plaintext highlighter-rouge">wai-website-data</code> repository <svg focusable="false" aria-label="External Site" class="icon-external-link "><use xlink:href="/WAI/assets/images/icons.svg#icon-external-link"></use></svg></a>:
+  <li>Add translations for the following terms, used by the footer, in the <a href="https://github.com/w3c/wai-website-theme/blob/main/_data/translations.yml">translations.yml file <svg focusable="false" aria-label="External Site" class="icon-external-link "><use xlink:href="/WAI/assets/images/icons.svg#icon-external-link"></use></svg></a> located in <a href="https://github.com/w3c/wai-website-theme/">the <code class="language-plaintext highlighter-rouge">wai-website-theme</code> repository <svg focusable="false" aria-label="External Site" class="icon-external-link "><use xlink:href="/WAI/assets/images/icons.svg#icon-external-link"></use></svg></a>:
     <ul>
       <li>“Editors:”</li>
       <li>“Update Editor:”</li>
@@ -347,7 +348,7 @@ https://github.com/w3c/wai-website/edit/main/pages/about/translating/resources/r
 
 
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
-    <div class="inner"><p><strong>Updated:</strong> 27 May 2024.</p><p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin.</p>
+    <div class="inner"><p><strong>Updated:</strong> 12 March 2026.</p><p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/staff/#remibetin">Rémi Bétin</a>.</p>
 <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 </div>
   </footer>
@@ -399,9 +400,9 @@ https://github.com/w3c/wai-website/edit/main/pages/about/translating/resources/r
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1773413763474387721"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1773875010054147513"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1773413763474387721"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1773875010054147513"></script>
 <script>
   svg4everybody();
 </script><script>

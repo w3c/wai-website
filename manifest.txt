@@ -3838,6 +3838,7 @@
 /tutorials/images/decorative/index.html
 /tutorials/images/examples/2014-first-qtr/index.html
 /tutorials/images/examples/imagemap/index.html
+/tutorials/images/examples/long-description/index.html
 /tutorials/images/functional/index.html
 /tutorials/images/groups/index.html
 /tutorials/images/imagemap/index.html

@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1773413763474387721";
+      element.src = "/WAI/assets/scripts/main.js?1773875010054147513";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1773413763474387721">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1773875010054147513">
 
 <title> Complex Images | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
@@ -233,17 +233,17 @@
 
 <h2 id="example-1-description-containing-structured-information"><strong>Example 1:</strong> Description containing structured information</h2>
 
-<p>In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3”, provided through the <code class="language-plaintext highlighter-rouge">alt</code> attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart. The <a href="#providing-a-link-to-the-long-description-via-longdesc">longdesc approach</a> used in the following example is described later in the section.</p>
+<p>In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3”, provided through the <code class="language-plaintext highlighter-rouge">alt</code> attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart. The <a href="#providing-a-link-to-the-long-description-via-longdesc">longdesc approach</a> used in the following example is described later in the section.</p>
 
 <aside class="box box-example"><header class="box-h  box-h-example"> Example</header><div class="box-i">
 
-<img src="/WAI/content-images/tutorials/images/chart.png" alt="Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3" longdesc="/WAI/tutorials/images/examples/2014-first-qtr/"><br><a href="/WAI/tutorials/images/examples/2014-first-qtr/">Image Description</a>
+<img src="/WAI/content-images/tutorials/images/chart.png" alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3" longdesc="/WAI/tutorials/images/examples/long-description/"><br><a href="/WAI/tutorials/images/examples/long-description/">Image Description</a>
 
 </div></aside>
 
 <aside class="box box-simple box-notes"><header class="box-h  box-h-simple box-h-notes"> Note</header><div class="box-i">
 
-<p>See <a href="/WAI/tutorials/images/examples/2014-first-qtr/">example long description</a> associated with this image.</p>
+<p>See <a href="/WAI/tutorials/images/examples/long-description/">example long description</a> associated with this image.</p>
 
 </div></aside>
 
@@ -258,15 +258,17 @@
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
   <span class="nt">&lt;img</span>
     <span class="na">src=</span><span class="s">"chart.png"</span>
-    <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3"</span><span class="nt">&gt;</span>
+    <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;br&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"2014-first-qtr.html"</span><span class="nt">&gt;</span>Example.com Site visitors Jan to March 2014 text description of the bar chart<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"2025-first-qtr.html"</span><span class="nt">&gt;</span>Example.com Site visitors Jan to March 2025 text description of the bar chart<span class="nt">&lt;/a&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 </code></pre></div></div>
 
 </div></aside>
 
 <p>This approach is supported by all web browsers and assistive technologies and makes the long descriptions available to everyone. However, the link is not associated with the image in a semantic way.</p>
+
+<h4 id="semantic-association-of-long-description-link-to-the-image">Semantic association of long description link to the image</h4>
 
 <p>The HTML5 <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code> elements can be used to group image and link semantically. Adding <code class="language-plaintext highlighter-rouge">role="group"</code> to the figure maintains backward compatibility with web browsers that don’t support the native semantics of the <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> element.</p>
 
@@ -275,9 +277,9 @@
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;figure</span> <span class="na">role=</span><span class="s">"group"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;img</span>
         <span class="na">src=</span><span class="s">"chart.png"</span>
-        <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3"</span><span class="nt">&gt;</span>
+        <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;figcaption&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"2014-first-qtr.html"</span><span class="nt">&gt;</span>Example.com Site visitors Jan to March 2014 text description of the bar chart<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"2025-first-qtr.html"</span><span class="nt">&gt;</span>Example.com Site visitors Jan to March 2025 text description of the bar chart<span class="nt">&lt;/a&gt;</span>
     <span class="nt">&lt;/figcaption&gt;</span>
 <span class="nt">&lt;/figure&gt;</span>
 </code></pre></div></div>
@@ -293,7 +295,7 @@
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
   <span class="nt">&lt;img</span>
     <span class="na">src=</span><span class="s">"chart.png"</span>
-    <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3. Described under the heading Site visitors full text."</span><span class="nt">&gt;</span>
+    <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3. Described under the heading Site visitors full text."</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/p&gt;</span>
 […]
 <span class="nt">&lt;h4&gt;</span>Site visitors full text<span class="nt">&lt;/h4&gt;</span>
@@ -310,13 +312,13 @@
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;figure</span> <span class="na">role=</span><span class="s">"group"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"chart.png"</span>
-    <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3, described in detail below."</span><span class="nt">&gt;</span>
+    <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3, described in detail below."</span><span class="nt">&gt;</span>
   <span class="nt">&lt;figcaption&gt;</span>
     <span class="nt">&lt;h2&gt;</span>Overview<span class="nt">&lt;/h2&gt;</span>
-    <span class="nt">&lt;p&gt;</span>The chart shows the website hits for the first quarter of 2014 …<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>The chart shows the website hits for the first quarter of 2025 …<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;h2&gt;</span>Values<span class="nt">&lt;/h2&gt;</span>
     <span class="nt">&lt;table&gt;</span>
-      <span class="nt">&lt;caption&gt;</span>Example.com Site visitors Jan to March 2014<span class="nt">&lt;/caption&gt;</span>
+      <span class="nt">&lt;caption&gt;</span>Example.com Site visitors Jan to March 2025<span class="nt">&lt;/caption&gt;</span>
       <span class="nt">&lt;tr&gt;</span>…<span class="nt">&lt;/tr&gt;</span>
     <span class="nt">&lt;/table&gt;</span>
   <span class="nt">&lt;/figcaption&gt;</span>
@@ -343,9 +345,9 @@
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span>
   <span class="na">src=</span><span class="s">"chart.png"</span>
-  <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3"</span>
-  <span class="na">longdesc=</span><span class="s">"2014-first-qtr.html"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"2014-first-qtr.html"</span><span class="nt">&gt;</span>Long Description<span class="nt">&lt;/a&gt;</span>
+  <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"</span>
+  <span class="na">longdesc=</span><span class="s">"2025-first-qtr.html"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"2025-first-qtr.html"</span><span class="nt">&gt;</span>Long Description<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
 </div></aside>
@@ -356,7 +358,7 @@
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span>
   <span class="na">src=</span><span class="s">"chart.png"</span>
-  <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2014 for sites 1 to 3"</span>
+  <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"</span>
   <span class="na">longdesc=</span><span class="s">"#chart-longdesc"</span><span class="nt">&gt;</span>
 […]
 <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"chart-longdesc"</span><span class="nt">&gt;</span>
@@ -444,7 +446,7 @@ https://github.com/w3c/wai-website/edit/main/pages/design-develop/tutorials/imag
         
           Updated
         
-        17 January 2022
+        17 March 2026
         
       </div>
       <div>
@@ -513,9 +515,9 @@ https://github.com/w3c/wai-website/edit/main/pages/design-develop/tutorials/imag
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1773413763474387721"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1773875010054147513"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1773413763474387721"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1773875010054147513"></script>
 <script>
   svg4everybody();
 </script><script>
