@@ -11,21 +11,28 @@ github:
 
 resource:
   ref: /tutorials/
-  
+
+acknowledgements: /tutorials/acknowledgements/
+
 footer: >
-   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. <strong>Update Editor:</strong> Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>.</p>
+   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. Update Editors: Becky Gibson, Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>. ACKNOWLEDGEMENTS.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>  
 ---
 
 {::nomarkdown}
-{% include box.html type="start" title="Changelog listing note" %}
+{% include box.html type="start" title="Note" %}
 {:/}
 
-This changelog lists substantive content edits. It does **not** list typo fixes and other minor edits.
+This changelog lists substantive content edits. It does _not_ list typo fixes and other minor edits.
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+## March 2026
+
+In [Images tutorial](/tutorials/images/):
+* Fixed a color contrast issue in [Complex Images](https://www.w3.org/WAI/tutorials/images/complex/)
 
 ## July 2024
 
@@ -65,7 +72,7 @@ In [Images tutorial](/tutorials/images/)
 * In Tables main page, corrected WCAG links under [Related WCAG resources](/tutorials/tables/#related)
 
 ## 2022
-We published several bug fixes and typo fixes throughout 2022
+We published several bug fixes and typo fixes throughout 2022.
 
 ## August 2018
 
