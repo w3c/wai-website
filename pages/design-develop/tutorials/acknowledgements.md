@@ -63,7 +63,7 @@ For updates:
 
 * [Peacock image](https://en.wikipedia.org/wiki/File:Pavo_Real_Venezolano.jpg), by The Photographer [<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>], <a href="https://commons.wikimedia.org/wiki/File%3APavo_Real_Venezolano.jpg">via Wikimedia Commons</a>
 * [Burtons Creekside](https://secure.flickr.com/photos/makelessnoise/1423697879/in/set-72157602113996846/) by [Brian on Flickr](https://secure.flickr.com/photos/makelessnoise/)
-* <a href="https://www.pexels.com/photo/a-family-sitting-on-green-grass-6182118/" rel="nofollow">Photo of a family</a> by<a href="https://www.pexels.com/@kampus/" rel="nofollow"> Kampus Production</a> from Pexels
+* [Photo of a family](https://www.pexels.com/photo/a-family-sitting-on-green-grass-6182118/) by [Kampus Production](https://www.pexels.com/@kampus/) from Pexels
 
 ### Example text
 
