@@ -199,4 +199,4 @@ If HTML5 cannot be used or if an HTML4 page is retrofitted to improve accessibil
 Explore other WAI-ARIA resources:
 
 * [WAI-ARIA Overview](/standards-guidelines/aria/)
-* [Notes on Using ARIA in HTML](https://www.w3.org/TR/html-aria/)
+* [ARIA in HTML](https://www.w3.org/TR/html-aria/) web standard
