@@ -314,8 +314,6 @@ This technique provides additional styling possibilities.
 {% include box.html type="end" %}
 {:/}
 
-{% include ednote.html note="Consider removal of the following section" %}
-
 {::nomarkdown}
 {% include box.html type="start" title="Code Snippet" class="example" %}
 {:/}
