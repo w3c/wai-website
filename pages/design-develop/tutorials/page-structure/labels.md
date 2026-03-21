@@ -68,7 +68,7 @@ Use `aria-labelledby` to point to an existing element by its (unique) `id`. The 
 Explore other WAI-ARIA resources:
 
 * [WAI-ARIA Overview](/standards-guidelines/aria/)
-* [Notes on Using ARIA in HTML](https://www.w3.org/TR/aria-in-html/)
+* [ARIA in HTML](https://www.w3.org/TR/html-aria/) web standard
 
 Note: This approach using headings is also backward compatible for older web browsers and assistive technologies do not process HTML5 and WAI-ARIA.
 
