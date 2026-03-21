@@ -45,7 +45,9 @@ In some situations a detailed literal description may be needed, but only when t
 
 ## **Example 1:** Images used to label other information
 
-This example shows two image icons – one of a telephone, one of a fax machine. A phone number follows each image. Consistent with the visual presentation, the text alternatives “Telephone:” and “Fax:” are used to identify the device associated with each number.
+This example shows two image icons – one of a telephone, one of a fax machine. A phone number follows each image.
+
+The text alternatives "Telephone:" and "Fax:" are consistent with the visual presentation: they identify the device associated with each number.
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
@@ -75,6 +77,15 @@ This example shows two image icons – one of a telephone, one of a fax machine.
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+{::nomarkdown}
+{% include box.html type="start" title="Note" class="simple" %}
+{:/}
+The colons after "Telephone:" and "Fax:" provide a pause for the screen reader to separate the label from the number within the paragraph. When considering whether to use a separator or not, it's best to test with a screen reader  to ensure the content is understandable.
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 
 ## **Example 2:** Images used to supplement other information
 
