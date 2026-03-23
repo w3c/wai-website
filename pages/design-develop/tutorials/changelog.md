@@ -29,6 +29,12 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 {% include box.html type="end" %}
 {:/}
 
+## March 2026
+
+In [Forms tutorial](https://www.w3.org/WAI/tutorials/forms/) 
+* Removed hidden label in the Example 3: Grouping Controls section of [Forms Grouping Controls](https://www.w3.org/WAI/tutorials/forms/grouping/). This is no longer necessary as browsers and screen readers fully support `<fieldset>`, `<legend>`, and `aria-labelledby`. 
+    * [GitHub PR #1897](https://github.com/w3c/wai-website/pull/1897)
+
 ## July 2024
 
 In [Images tutorial](/tutorials/images/)
@@ -137,3 +143,4 @@ Fixing some issues:
   * Images Tutorial
   * Forms Tutorial
   * Tables Tutorial
+
