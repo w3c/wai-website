@@ -31,6 +31,12 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 
 ## March 2026
 
+Within tutorials, removed references to the deprecated longdesc attribute. [Github PR #1870](https://github.com/w3c/wai-website/pull/1870)
+* In [Images tutorial](https://www.w3.org/WAI/tutorials/images/)
+    * Removed the section about and references to longdesc in the code from [Complex Images](https://www.w3.org/WAI/tutorials/images/complex/) 
+* In [Page Structure tutorial](https://www.w3.org/WAI/tutorials/page-structure/)
+    * Removed longdesc from the sample code in [Content Structure](https://www.w3.org/WAI/tutorials/page-structure/content/)
+
 In [Images tutorial](/tutorials/images/):
 * Fixed a color contrast issue in [Complex Images](https://www.w3.org/WAI/tutorials/images/complex/)
 
