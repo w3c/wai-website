@@ -29,6 +29,11 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 {% include box.html type="end" %}
 {:/}
 
+## March 2026
+
+In [Images tutorial](/tutorials/images/):
+* Fixed a color contrast issue in [Complex Images](https://www.w3.org/WAI/tutorials/images/complex/)
+
 ## July 2024
 
 In [Images tutorial](/tutorials/images/)
