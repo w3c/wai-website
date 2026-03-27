@@ -79,7 +79,7 @@ See [example long description](/tutorials/images/examples/long-description/) ass
 
 ### **Approach 1:** A text link to the long description adjacent to the image
 
-This approach provides a text link next to the image that refers to a separate web page or a section of the same web page that contains the long description. The link text needs to clarify the destination, and associate it with the image. 
+This approach provides a text link next to the image that refers to a separate web page or a section of the same web page that contains the long description. The link text needs to clarify the destination, and associate it with the image.
 
 {::nomarkdown}
 {% include box.html type="start" title="Code" class="example" %}
