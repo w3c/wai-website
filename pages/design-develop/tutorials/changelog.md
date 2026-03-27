@@ -33,9 +33,11 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 
 In [Images tutorial](/tutorials/images/):
 * Fixed a color contrast issue in [Complex Images](https://www.w3.org/WAI/tutorials/images/complex/)
+
 In [Page Structure tutorial](https://www.w3.org/WAI/tutorials/page-structure/)
 * Removed section on "Page regions in HTML5 using WAI-ARIA" from [Page Regions](https://www.w3.org/WAI/tutorials/page-structure/regions/). Browsers and screen readers now fully support HTML5 region elements.
     * [GitHub PR #686](https://github.com/w3c/wai-website/pull/686/)
+
 In [Forms tutorial](https://www.w3.org/WAI/tutorials/forms/) 
 * Removed hidden label in the Example 3: Grouping Controls section of [Forms Grouping Controls](https://www.w3.org/WAI/tutorials/forms/grouping/). This is no longer necessary as browsers and screen readers fully support `<fieldset>`, `<legend>`, and `aria-labelledby`. 
     * [GitHub PR #1897](https://github.com/w3c/wai-website/pull/1897)
