@@ -38,7 +38,15 @@ Within tutorials, removed references to the deprecated longdesc attribute. [Gith
     * Removed longdesc from the sample code in [Content Structure](https://www.w3.org/WAI/tutorials/page-structure/content/)
 
 In [Images tutorial](/tutorials/images/):
-* Fixed a color contrast issue in [Complex Images](https://www.w3.org/WAI/tutorials/images/complex/)
+* Fixed a color contrast issue in [Complex Images](/tutorials/images/complex/)
+
+In [Page Structure tutorial](/tutorials/page-structure/):
+* Removed a section on "Page regions in HTML5 using WAI-ARIA" from [Page Regions](/tutorials/page-structure/regions/). Browsers and screen readers now fully support HTML5 region elements.
+    * [GitHub PR #686](https://github.com/w3c/wai-website/pull/686/)
+
+In [Forms tutorial](/tutorials/forms/):
+* Removed a hidden label in the "Example 3: Related fields" section of [Grouping Controls](/tutorials/forms/grouping/). Browsers and screen readers now fully support `<fieldset>`, `<legend>`, and `aria-labelledby`.
+    * [GitHub PR #1897](https://github.com/w3c/wai-website/pull/1897)
 
 ## July 2024
 
@@ -148,3 +156,4 @@ Fixing some issues:
   * Images Tutorial
   * Forms Tutorial
   * Tables Tutorial
+
