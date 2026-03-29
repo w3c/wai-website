@@ -8,7 +8,7 @@ lang: es   # Change "en" to the translated-language shortcode
 last_updated: 2024-06-25  # Keep the date of the English version
 
 translation:
-  last_updated: 2026-02-15 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2026-03-29 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Patricia Peinado Serrano"   # Replace Jan Doe with translator name
@@ -38,7 +38,7 @@ acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p>Nota sobre la descripción del vídeo: El vídeo de esta página no contiene audiodescripción sincronizada porque las imágenes se limitan a ilustrar el contenido sonoro y no proporcionan información adicional. En este caso, la audiodescripción generaría más confusión y no sería útil para la mayoría de la gente, incluyendo a las personas con discapacidad visual. La descripción de las imágenes está disponible en la "trancripción de texto con descripción de imágenes" (trancripción descriptiva).</p>
+  <p>Nota sobre la descripción del vídeo: El vídeo de esta página no contiene audiodescripción sincronizada porque las imágenes se limitan a ilustrar el contenido sonoro y no proporcionan información adicional. En este caso, la audiodescripción generaría más confusión y no sería útil para la mayoría de la gente, incluyendo a las personas con discapacidad visual. La descripción de las imágenes está disponible en la transcripción de texto con descripción de imágenes o "transcripción descriptiva".</p>
   <p>Primera publicación en 1999.</p>
   <p><strong>Editores:</strong> Kevin White y Shadi Abou-Zahra. Editores anteriores: Judy Brewer y Norah Sinclair. Colaboradores: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, y otros en la sección de agradecimientos: ACKNOWLEDGEMENTS.</p>
   <p>Desarrollado por el Grupo de Trabajo de Educación y Difusión (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) con el apoyo del <a href="https://www.w3.org/WAI/about/projects/wai-guide/">proyecto WAI-Guide</a> y del <a href="https://www.w3.org/WAI/WAI-AGE/">proyecto WAI-AGE, </a>cofundado por la Comisión Europea.</p>
@@ -106,7 +106,7 @@ footer: >
   <div>
 {:/}
 
-Dhruv es un estudiante sordo. Como su primera lengua, o lengua materna, es la lengua de signos, le resulta difícil leer contenido que no está bien estructurado con un diseño y navegación coherentes. En su universidad, muchas de las clases se publican en línea, lo que puede suponer una barrera para Dhruv si los vídeos no tienen subtítulos o si los subtítulos contienen errores o aparecen más tarde con respecto a lo que dice el profesor. En su tiempo libre, a Dhruv le gusta ver películas y programas de televisión en su móvil. Ese contenido debe tener subtítulos precisos y también información sobre quién está hablando.
+Dhruv es un estudiante sordo. Como su primera lengua, o lengua materna, es una lengua de signos, le resulta difícil leer contenido con un diseño poco coherente o una navegación desestructurada. En su universidad, muchas de las clases se publican en línea,  lo que puede suponer una barrera para Dhruv si los vídeos no tienen subtítulos o si los subtítulos contienen errores o aparecen más tarde con respecto a lo que dice su profesor. En su tiempo libre, a Dhruv le gusta ver películas y programas de televisión en su móvil. Ese contenido debe tener subtítulos precisos y también información sobre quién está hablando.
 
 {::options toc_levels="2..2" /}
 
@@ -134,61 +134,60 @@ Dhruv es un estudiante sordo. Como su primera lengua, o lengua materna, es la le
 </aside>
 {:/}
 
-**Nota:** Esta historia de usuario es un ejemplo de una persona con este tipo de discapacidad. Otras personas con esta discapacidad pueden tener experiencias distintas.
+**Nota:** Esta historia de usuario es un ejemplo de una persona con este tipo de discapacidad. Otras personas con esta discapacidad pueden tener experiencias diferentes.
 
 ## Sobre Dhruv
 
-> Mucha genete no se da cuenta de que la lengua de signos es un idioma completamente distinto. Puedo leer subtítulos, pero me lleva más tiempo,  porque no estoy leyendo en mi lengua materna. Los subtítulos no reemplazan a la lengua de signos.
+> Mucha gente no se da cuenta de que la lengua de signos es un idioma completamente diferente. Puedo leer subtítulos, pero me lleva más tiempo, porque no estoy leyendo en mi lengua materna. Los subtítulos no reemplazan a la lengua de signos.
 
-Dhruv es sordo de nacimiento. Es un estudiante adulto que asiste a clases en línea. Aunque puede oír algunos sonidos, no es suficiente para seguir conversaciones. Dhruv aprendió a signar cuando era pequeño. La lengua de signos es su primera lengua, por lo que el texto escrito puede resultarle difícil. Dhruv prefiere que el contenido escrito tenga una buena estructura y encabezados, y poca jerga o tecnicismos para que sea más fácil de entender.
+Dhruv es sordo de nacimiento. Es un estudiante adulto que hace cursos en línea. Aunque puede oír algunos sonidos, no es suficiente para seguir conversaciones. Dhruv aprendió a signar cuando era pequeño. Como la lengua de signos es su primera lengua, el texto escrito puede resultarle difícil. Dhruv prefiere que el contenido escrito tenga una buena estructura y encabezados, y poca jerga o tecnicismos para que sea más fácil de entender.
 
-Dhruv puede leer los labios, pero esto solo es efectivo cuando puede ver completamente la cara de su interlocutor. Y, en estos casos, solo podrá cazar algunas palabras sueltas. No puede confiar únicamente en la lectura labial para entender el contenido.
+Dhruv sabe leer los labios, pero esto solo funciona cuando puede ver al completo la cara de su interlocutor. Incluso en estos casos, solo podrá cazar algunas palabras sueltas, o sea que no puede confiar únicamente en la lectura labial para entender contenido.
 
-La universidad en la que estudia Dhruv cuenta con intérpretes de lengua de signos y subtituladores en tiempo real (o CART por sus siglas en inglés). Sin embargo, este tipo de subtitulado no siempre está disponible en todos los vídeos u otro contenido audiovisual. La universidad está trabajando para subtitular todo el contenido del currículo universitario, pero es un proceso que lleva tiempo. Como cada vez hay más contenido subtitulado, a Dhruv se le hace más fácil terminar sus estudios a distancia.
+La universidad en la que estudia Dhruv cuenta con intérpretes de lengua de signos y subtituladores en tiempo real (CART, por sus siglas en inglés). Sin embargo, este tipo de subtitulación no siempre está disponible en todos los vídeos u otro contenido audiovisual. La universidad está trabajando para subtitular todo el contenido del currículo universitario, pero es un proceso que lleva tiempo. Como cada vez hay más contenido subtitulado, a Dhruv le es más fácil terminar sus estudios a distancia.
 
-Dhruv pasa mucho tiempo libre viendo contenido en directo en plataformas de emisión en directo o streaming. La mejora en la calidad de los subtítulos en estas plataformas en los últimos años ha significado que pueda ver más programas que antes. Dhruv puede tener dificultades para seguir el contenido cuando los subtítulos no tienen un código de color según quién esté hablando. Si están disponibles, los subtítulos generados automáticamente pueden servirle de ayuda, pero también pueden generar problemas si son incorrectos.
+Dhruv pasa mucho tiempo libre viendo contenido en plataformas de emisión en directo o _streaming_. La mejora en la calidad de los subtítulos en estas plataformas en los últimos años ha permitido que pueda ver más programas que antes. Dhruv puede tener dificultades para seguir el contenido si los subtítulos no tienen un código de color asignado según el personaje que esté hablando. Los subtítulos generados automáticamente pueden servirle de ayuda, pero también pueden generar problemas si existen pero son incorrectos.
 
 ## Ejemplos de barreras
 
-Inaccurate captions
-: **Barrier:** "I love that my classes are recorded and available online but sometimes the captions don't convey the exact words that the instructor is saying, especially in some of my more technical classes."
-: **Works well:** "When the captioner gets to know the material so they don't miss words or make mistakes."
+**Subtítulos incorrectos**
+**Barrera:** "Me gusta el hecho de que se graben mis clases y estén disponibles en línea, pero a veces los subtítulos no reflejan exactamente lo que dice el profesor, sobre todo en algunas de mis clases más técnicas".
+**Qué funciona:** "Cuando el subtitulador conoce la materia para no omitir palabras o cometer errores".
 
-Design of captions
-: **Barrier:** "When watching movies online, the captions often cover parts of the video. Sometimes I miss things in the video and it makes the captions hard to read depending on the background."
-: **Works well:** "Captions appear at the bottom of the screen but I can also move them if necessary. They are shown against a solid color background that offers good contrast between the captions and background."
+**El diseño de los subtítulos**
+**Barrera:** "Cuando veo películas en línea, los subtítulos suelen cubrir partes del vídeo. A veces me pierdo elementos de la imagen y, dependiendo del fondo, los subtítulos son difíciles de leer".
+**Qué funciona:** "Que los subtítulos aparezcan en la parte inferior de la pantalla, pero que pueda moverlos si hace falta. Que aparezcan sobre un color de fondo sólido con un buen contraste entre los subtítulos y el fondo".
 
-Good camera position for speaker
-: **Barrier:** "Some classes record the instructor speaking. This is great because I am good at lip reading but the camera is often too far away."
-: **Works well:** "The camera is positioned to focus in on the instructor's face."
+**Buen encuadre de cámara para el interlocutor**
+**Barrera:** "Algunas clases graban a los profesores hablando. Eso está bien porque se me da bien leer los labios, pero a menudo la cámara está demasiado lejos".
+**Qué funciona:** "Que la cámara esté ubicada de forma que enfoque la cara del interlocutor".
 
-No alternative for audio
-: **Barrier:** "When watching a news program online, there isn't an option for me to understand what the speaker is saying."
-: **Works well:** "Provide audio alternatives such as sign language, captions or transcript. If there is a speaker in camera, focus in on the speaker."
+**Falta de alternativas a contenido de audio**
+**Barrera:** "Cuando veo un telediario por internet, no hay ninguna alternativa para que entienda lo que dicen los presentadores".
+**Qué funciona:** "Ofrecer alternativas al audio como interpretación en lengua de signos, subtítulos o transcripciones. Si hay alguien hablando a cámara, que se le enfoque".
 
 ## Tecnologías de apoyo y estrategias adaptativas
 
-* [Captions (Perception)](/people-use-web/tools-techniques/perception/#captions)
-* [Transcripts (Perception)](/people-use-web/tools-techniques/perception/#transcripts)
-* [Sign language (Perception)](/people-use-web/tools-techniques/perception/#sign)
+* [Subtítulos (Percepción) (en inglés)](/people-use-web/tools-techniques/perception/#captions)
+* [Transcripciones (Percepción) (en inglés)](/people-use-web/tools-techniques/perception/#transcripts)
+* [Lengua de signos (Percepción) (en inglés)](/people-use-web/tools-techniques/perception/#sign)
 
-## Recursos de la WAI relacionados
+## Recursos relacionados de la WAI
 
-
-* Video: [Video Captions](/perspective-videos/captions/)
-* Tip: [Create transcripts and captions for multimedia](/tips/writing/#create-transcripts-and-captions-for-multimedia)
-* Tip: [Include image and media alternatives in your design](/tips/designing/#include-image-and-media-alternatives-in-your-design)
-* Tip: [Provide controls for content that starts automatically](/tips/designing/#provide-controls-for-content-that-starts-automatically)
-* Tip: [Write code that adapts to the user's technology](/tips/developing/#write-code-that-adapts-to-the-users-technology)
-* Check: [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
+* Vídeo: [Subtítulos en vídeos (en inglés)](/perspective-videos/captions/)
+* Recomendación: [Crea transcripciones y subtítulos para contenido multimedia (en inglés)](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* Recomendación: [Añade opciones alternativas a imágenes y contenido multimedia en tus diseños (en inglés)](/tips/designing/#include-image-and-media-alternatives-in-your-design)
+* Recomendación: [Incluye comandos para controlar el contenido que se reproduce automáticamente (en inglés)](/tips/designing/#provide-controls-for-content-that-starts-automatically)
+* Recomendación: [Redacta un código que se adapte a la tecnología del usuario (en inglés) code that adapts to the user's technology](/tips/developing/#write-code-that-adapts-to-the-users-technology)
+* Comprueba: [Alternativas para contenido multimedia (audio y vídeo) (en inglés)](/test-evaluate/preliminary/#media)
 
 ## Principios relacionados
 
-* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
-* [Captions and other alternatives for multimedia (Perceivable)](/fundamentals/accessibility-principles/#captions)
-* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
-* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
-* [Success Criteria relating to “captions”](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
+* [Alternativas textuales para contenido no textual (Perceptible) (en inglés)](/fundamentals/accessibility-principles/#alternatives)
+* [Subtítulos y otras alternativas para contenido multimedia (Perceptible) (en inglés)](/fundamentals/accessibility-principles/#captions)
+* [Contenido que sea más fácil de ver y oír (Perceptible) (en inglés)](/fundamentals/accessibility-principles/#distinguishable)
+* [Contenido que sea legible y comprensible (Comprensible) (en inglés)](/fundamentals/accessibility-principles/#readable)
+* [Criterios de conformidad relacionados con "subtítulos" (en inglés)](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
 
 
 {% include excol.html type="start" id="video-transcript" %}
@@ -202,21 +201,21 @@ No alternative for audio
   yt-id="jft__DXkPv8"
 %}
 
-_This video is also available on a W3C server: [Video: Dhruv, older adult student who is deaf (file format: MP4, file size: 307MB)](https://media.w3.org/wai/people-use-web/user-stories_6.mp4)._
+_Este vídeo también está disponible en un servidor de W3C: [Vídeo: Dhruv, un estudiante adulto sordo (formato: MP4, tamaño: 307MB, audio en inglés))](https://media.w3.org/wai/people-use-web/user-stories_6.mp4)._
 
-###  Transcripción de texto con descripción de imágenes {#transcript}
+###  Transcripción con descripción de imágenes {#transcript}
 
-| Audio | Visual |
+| Audio | Imagen |
 | --- | --- |
-| How people with disabilities use digital technology; Dhruv, older adult student who is deaf. | How people with disabilities use digital technology; Dhruv, older adult student who is deaf. |
-| Hello! My name’s D-H-R-U-V, Dhruv. I’m Deaf. I can hear some sounds but not enough to understand speech. I use British Sign Language – I think and dream in signs. | A man speaks and signs directly to the camera. |
-| I recently enrolled in an online degree. For my classes, I schedule interpreters who can interpret the lectures and conversations and voice for me. I need video conferencing apps with functionality to “pin” videos of the interpreters so that I can always see them. | The man is sitting at a desk using a laptop. He is participating in an online meeting using a video conferencing app. He alternates between multiple participant and pinned participant view. |
-| Some lectures have real-time captioning typed by human captioners. This is more accurate than automatic captions, which often don’t recognize specialized terms in the lectures. For our assigned videos, I rely on good captions. These are edited so that each sentence appearing on the screen is not too long and is synchronized with the audio. I also often find myself needing to adjust the text size and colors of the captions, to be able to read them better. Some apps also allow me to move the captions to the top or bottom of the video, so that they are not in the way. | The man is watching a video in a media player and selecting English captions from a list of language options. He then selects options for how he wants the captions to be displayed. |
-| In some situations, I find myself lip reading. For example, when I’m on unplanned calls without interpreters or other people who can sign. I learned lip reading over the years because of such situations but it’s not always reliable for me. I need to see the person’s mouth, have them speak clearly, and seeing their gestures also helps. Yet it’s exhausting and not really something I can keep doing for too long. | The man is sitting at a desk using a laptop. He is participating in an online meeting using a video conferencing app. |
-| I also use the chat function. Some chat tools support real-time text rather than line-by-line text messages only. This is much more interactive. I can engage with my friends in text conversations as others do by voice. | The man is sitting at a desk using a laptop to talk to other people using a chat function. |
-| Of course, the classes also come with a lot of reading. I’m fine with that, except when the writing is unnecessarily complex and without structures like lists and headings. People don’t realize that for me reading text involves extra effort, because sign language is my native language. So, like for everyone else, clear and simple writing makes text easier to understand. | The man is sitting at a desk using a laptop and reading through a long, complex text. |
-| You can help make technology accessible to me. Accessibility: It’s about people. | The man speaks directly to the camera. |
-| For more information from the Web Accessibility Initiative on how people with disabilities use digital technology, visit w3.org/WAI/people | Accessibility: It's about people; w3.org/WAI/people |
+| Cómo las personas con discapacidad utilizan las tecnologías digitales. Dhruv, un estudiante adulto sordo. | Cómo las personas con discapacidad utilizan las tecnologías digitales. Dhruv, un estudiante adulto sordo. |
+| ¡Hola! Me llamo D-H-R-U-V, Dhruv. Soy sordo. Puedo oír algunos sonidos, pero no puedo seguir conversaciones. Uso la Lengua de Signos Británica. Pienso y sueño en signos. | Un hombre habla y signa mirando a cámara. |
+| Hace poco, me he matriculado en un grado a distancia. Para mis clases, puedo concertar intérpretes que me interpreten las clases, las conversaciones o todo lo que se diga. En las apps de videoconferencias, necesito poder fijar los vídeos de los intérpretes para que pueda verlos siempre. | El hombre está sentado frente a una mesa con su ordenador portátil. Participa en una reunión en línea a través de una aplicación de videoconferencia. Cambia entre la vista de grupo y la vista de un único participante anclado. |
+| Algunas clases están subtituladas en directo por profesionales. Son más precisos que los subtítulos automáticos, que a menudo no reconocen la terminología específica de las clases. Para los vídeos de tarea, utilizo subtítulos de buena calidad. Están editados para que las frases que aparecen en pantalla no sean demasiado largas y estén sincronizadas con el audio. Muchas veces, tengo que ajustar el tamaño del texto y los colores de los subtítulos para leerlos mejor. En algunas apps, puedo mover los subtítulos arriba o abajo de la pantalla para que no molesten. | El hombre ve un vídeo en un reproductor y selecciona los subtítulos en inglés de entre un listado de opciones. Después, elige el diseño de los subtítulos. |
+| En ciertos casos, tengo que hacer lectura labial. Por ejemplo, cuando tengo llamadas no planeadas sin intérpretes u otras personas que signen. He aprendido a leer los labios por este tipo de situaciones, pero no siempre es fiable. Tengo que ver los labios del interlocutor, que hable claro y sus gestos también ayudan. Pero es agotador y no es algo que pueda hacer durante mucho tiempo. | El hombre está sentado frente a una mesa con su portátil. Participa en una reunión en línea a través de una aplicación de videoconferencia. |
+| También recurro a los chats. Algunas herramientas de chat muestran texto en tiempo real en vez de mensajes de texto línea por línea. Es mucho más interactivo y puedo conversar con mis amigos por texto igual que otros lo hacen por voz. | El hombre sentado frente a la mesa con su portátil habla con otras personas mediante la función de chat. |
+| Por supuesto, ir a clase implica hacer muchas lecturas. No me parece mal, salvo cuando los textos son innecesariamente complejos o sin una estructura, como listas o encabezados. La gente no se da cuenta de que para mí leer supone un esfuerzo adicional, porque la lengua de signos es mi lengua materna. Como para los demás, una redacción clara y simple hace que el texto sea más fácil de entender. | El hombre sentado frente a una mesa con su ordenador lee un texto largo y complejo. |
+| Puedes ayudar a hacer la tecnología accesible para mí. La accesibilidad va sobre las personas. | El hombre habla directamente a cámara. |
+| Para más información sobre la Iniciativa de Accesibilidad Web sobre cómo las personas con discapacidad utilizan las tecnologías digitales, visita w3.org/WAI/people. | La accesibilidad va sobre las personas, w3.org/WAI/people. |
 
 
 {% include excol.html type="end" %}
