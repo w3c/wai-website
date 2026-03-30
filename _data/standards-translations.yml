@@ -53,11 +53,14 @@
 - lang: fr
   standard: wcag
   standard_version: "2.2"
+  title: "Règles pour l’accessibilité des contenus Web (WCAG) 2.2"
+  url: https://wcag.access42.net/22/REC-WCAG22-20241212.html
+  date: 2026-02-16
   translator: "Access42"
-  type: intent-authorized
+  type: cat
+  comment: "Update of the Authorized Translation of WCAG 2.2"
   intent_email: https://lists.w3.org/Archives/Public/w3c-translators/2025AprJun/0020.html
   intent_date: 2025-06-27
-  comment: "Intent to update the Authorized Translation of WCAG 2.2"
 - lang: hu
   standard: wcag
   standard_version: "2.2"
@@ -98,10 +101,26 @@
   intent_date: 2024-01-18
 - lang: th
   standard: wcag
-  standard_version: "2.2"
-  type: intent-authorized
+  standard_version: "2.2_2023"
+  title: "แนวทางการทำให้เนื้อหาเว็บสามารถเข้าถึงและใช้ประโยชน์ได้ (WCAG) 2.2"
+  url: https://www.nectec.or.th/standard/WCAG/REC-WCAG22-20231005-TH/
+  translator: "National Science and Technology Development Agency"
+  date: 2025-12-28
+  type: cat
   intent_email: https://lists.w3.org/Archives/Public/w3c-translators/2025JulSep/0011.html
   intent_date: 2025-07-18
+  comment: "Translation of the 5 October 2023 version"
+- lang: th
+  standard: wcag
+  standard_version: "2.2"
+  title: "แนวทางการทำให้เนื้อหาเว็บสามารถเข้าถึงและใช้ประโยชน์ได้ (WCAG) 2.2"
+  url: https://www.nectec.or.th/standard/WCAG/REC-WCAG22-20241212-TH/
+  translator: "National Science and Technology Development Agency"
+  date: 2025-12-28
+  type: cat
+  intent_email: https://lists.w3.org/Archives/Public/w3c-translators/2025JulSep/0011.html
+  intent_date: 2025-07-18
+  comment: "Translation of the 12 December 2024 version"
 # WCAG 2.1
 - lang: ar
   standard: wcag
@@ -174,11 +193,14 @@
 - lang: fr
   standard: wcag
   standard_version: "2.1"
+  title: "Règles pour l’accessibilité des contenus Web (WCAG) 2.2"
+  type: cat
+  date: 2026-02-16
+  url: https://wcag.access42.net/21/REC-WCAG21-20250506.html
+  translator: "Access42"
+  comment: "Update of the Authorized Translation of WCAG 2.1"
   intent_email: https://lists.w3.org/Archives/Public/w3c-translators/2025OctDec/0001.html
   intent_date: 2025-11-05
-  type: intent-authorized
-  translator: "Access42"
-  comment: "Intent to update the Authorized Translation of WCAG 2.1"
 - lang: de
   standard: wcag
   standard_version: "2.1_2018"
