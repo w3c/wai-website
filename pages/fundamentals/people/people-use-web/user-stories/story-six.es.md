@@ -152,20 +152,20 @@ Dhruv pasa mucho tiempo libre viendo contenido en plataformas de emisión en dir
 ## Ejemplos de barreras
 
 Subtítulos incorrectos
-:**Barrera:** "Me gusta el hecho de que se graben mis clases y estén disponibles en línea, pero a veces los subtítulos no reflejan exactamente lo que dice el profesor, sobre todo en algunas de mis clases más técnicas".
-:**Qué funciona:** "Cuando el subtitulador conoce la materia para no omitir palabras o cometer errores".
+: **Barrera:** "Me gusta el hecho de que se graben mis clases y estén disponibles en línea, pero a veces los subtítulos no reflejan exactamente lo que dice el profesor, sobre todo en algunas de mis clases más técnicas".
+: **Qué funciona:** "Cuando el subtitulador conoce la materia para no omitir palabras o cometer errores".
 
 El diseño de los subtítulos
-:**Barrera:** "Cuando veo películas en línea, los subtítulos suelen cubrir partes del vídeo. A veces me pierdo elementos de la imagen y, dependiendo del fondo, los subtítulos son difíciles de leer".
-:**Qué funciona:** "Que los subtítulos aparezcan en la parte inferior de la pantalla, pero que pueda moverlos si hace falta. Que aparezcan sobre un color de fondo sólido con un buen contraste entre los subtítulos y el fondo".
+: **Barrera:** "Cuando veo películas en línea, los subtítulos suelen cubrir partes del vídeo. A veces me pierdo elementos de la imagen y, dependiendo del fondo, los subtítulos son difíciles de leer".
+: **Qué funciona:** "Que los subtítulos aparezcan en la parte inferior de la pantalla, pero que pueda moverlos si hace falta. Que aparezcan sobre un color de fondo sólido con un buen contraste entre los subtítulos y el fondo".
 
 Buen encuadre de cámara para el interlocutor
-:**Barrera:** "Algunas clases graban a los profesores hablando. Eso está bien porque se me da bien leer los labios, pero a menudo la cámara está demasiado lejos".
-:**Qué funciona:** "Que la cámara esté ubicada de forma que enfoque la cara del interlocutor".
+: **Barrera:** "Algunas clases graban a los profesores hablando. Eso está bien porque se me da bien leer los labios, pero a menudo la cámara está demasiado lejos".
+: **Qué funciona:** "Que la cámara esté ubicada de forma que enfoque la cara del interlocutor".
 
 Falta de alternativas a contenido de audio
-:**Barrera:** "Cuando veo un telediario por internet, no hay ninguna alternativa para que entienda lo que dicen los presentadores".
-:**Qué funciona:** "Ofrecer alternativas al audio como interpretación en lengua de signos, subtítulos o transcripciones. Si hay alguien hablando a cámara, que se le enfoque".
+: **Barrera:** "Cuando veo un telediario por internet, no hay ninguna alternativa para que entienda lo que dicen los presentadores".
+: **Qué funciona:** "Ofrecer alternativas al audio como interpretación en lengua de signos, subtítulos o transcripciones. Si hay alguien hablando a cámara, que se le enfoque".
 
 ## Tecnologías de apoyo y estrategias adaptativas
 
