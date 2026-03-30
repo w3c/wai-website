@@ -9,6 +9,7 @@ last_updated: 2024-06-25  # Keep the date of the English version
 
 translation:
   last_updated: 2026-03-29 # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  draft: true
 
 translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Patricia Peinado Serrano"   # Replace Jan Doe with translator name
