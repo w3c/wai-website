@@ -139,7 +139,7 @@ Dhruv es un estudiante sordo. Como su primera lengua, o lengua materna, es una l
 
 ## Sobre Dhruv
 
-> Mucha gente no se da cuenta de que la lengua de signos es un idioma completamente diferente. Puedo leer subtítulos, pero me lleva más tiempo, porque no estoy leyendo en mi lengua materna. Los subtítulos no reemplazan a la lengua de signos.
+> Mucha gente no se da cuenta de que la lengua de signos es un idioma completamente diferente. Puedo leer subtítulos, pero me lleva más tiempo, porque no estoy leyendo en mi lengua materna. Los subtítulos no reemplazan a la lengua de signos o viceversa.
 
 Dhruv es sordo de nacimiento. Es un estudiante adulto que hace cursos en línea. Aunque puede oír algunos sonidos, no es suficiente para seguir conversaciones. Dhruv aprendió a signar cuando era pequeño. Como la lengua de signos es su primera lengua, el texto escrito puede resultarle difícil. Dhruv prefiere que el contenido escrito tenga una buena estructura y encabezados, y poca jerga o tecnicismos para que sea más fácil de entender.
 
@@ -176,10 +176,10 @@ Falta de alternativas a contenido de audio
 ## Recursos relacionados de la WAI
 
 * Vídeo: [Subtítulos en vídeos (en inglés)](/perspective-videos/captions/)
-* Recomendación: [Crea transcripciones y subtítulos para contenido multimedia (en inglés)](/tips/writing/#create-transcripts-and-captions-for-multimedia)
-* Recomendación: [Añade opciones alternativas a imágenes y contenido multimedia en tus diseños (en inglés)](/tips/designing/#include-image-and-media-alternatives-in-your-design)
-* Recomendación: [Incluye comandos para controlar el contenido que se reproduce automáticamente (en inglés)](/tips/designing/#provide-controls-for-content-that-starts-automatically)
-* Recomendación: [Redacta un código que se adapte a la tecnología del usuario (en inglés) code that adapts to the user's technology](/tips/developing/#write-code-that-adapts-to-the-users-technology)
+* Consejo: [Crea transcripciones y subtítulos para contenido multimedia (en inglés)](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* Consejo: [Añade opciones alternativas a imágenes y contenido multimedia en tus diseños (en inglés)](/tips/designing/#include-image-and-media-alternatives-in-your-design)
+* Consejo: [Incluye comandos para controlar el contenido que se reproduce automáticamente (en inglés)](/tips/designing/#provide-controls-for-content-that-starts-automatically)
+* Consejo: [Redacta un código que se adapte a la tecnología del usuario (en inglés) code that adapts to the user's technology](/tips/developing/#write-code-that-adapts-to-the-users-technology)
 * Comprueba: [Alternativas para contenido multimedia (audio y vídeo) (en inglés)](/test-evaluate/preliminary/#media)
 
 ## Principios relacionados
