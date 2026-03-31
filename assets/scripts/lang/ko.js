@@ -1,0 +1,1 @@
+var translationStrings = {"Expand All Sections": "모든 섹션 펼치기","Collapse All Sections": "모든 섹션 닫기","to footnote": "각주로 이동","back to footnote": "각주에서 나오기","in text": "텍스트에서",};

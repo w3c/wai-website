@@ -1,0 +1,81 @@
+#accstatement form .information
+{
+  font-size: 1rem;
+  padding: 1px 15px;
+  background-color: #edf4fa;
+  border: solid 1px #2D6197;
+  margin-bottom: 1em;
+}
+
+#accstatement form .information a
+{
+  font-weight: bold;
+}
+
+#accstatement form .field label,
+#accstatement form .field .label
+{
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+#accstatement form .radio-field input[type="text"]
+{
+  box-sizing: content-box;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-left: 0.5em;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+#accstatement form .radio-field label {
+  display: inline-block;
+}
+
+/* Preview */
+#accstatement .print-textarea
+{
+  margin-top: 0;
+  margin-left: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#accstatement #accstmnt_standard_other_name
+{
+  display: none;
+}
+
+#accstatement #accstmnt_standard_other:checked + label
+{
+  flex-basis: auto;
+  width: auto;
+}
+
+#accstatement #accstmnt_standard_other:checked ~ #accstmnt_standard_other_name
+{
+  display: block;
+  flex-basis: auto;
+  width: 100%;
+}
+
+#accstatement #accstmnt_issues > fieldset > legend
+{
+  font-size: 1rem;
+}
+
+#accstatement .proto
+{
+  display: none;
+}
+
+#accstatement .group button.add-line
+{
+  margin-left: 36px;
+}
+
+#accstatement .button-group button:hover {
+  cursor: pointer;
+}

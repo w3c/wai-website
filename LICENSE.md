@@ -1,0 +1,1 @@
+Please read [Using WAI Material: Permission to Use with Attribution](https://www.w3.org/WAI/about/using-wai-material/) to learn more about applicable licenses.

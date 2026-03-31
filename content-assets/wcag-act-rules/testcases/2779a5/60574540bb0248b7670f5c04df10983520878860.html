@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<template id="shadow-element">
+			<title>This is the page title</title>
+		</template>
+		<script>
+      			const host = document.querySelector("body");
+      			const shadow = host.attachShadow({ mode: "open" });
+      			const template = document.getElementById("shadow-element");
+
+      			shadow.appendChild(template.content);
+    		</script>
+	</body>
+</html>

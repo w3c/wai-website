@@ -1,0 +1,100 @@
+﻿WEBVTT
+
+00:00:01.000 --> 00:00:03.900
+Évaluation de conformité de l'accessibilité web 
+
+00:00:04.720 --> 00:00:06.700
+L'évaluation de la conformité détermine
+
+00:00:06.800 --> 00:00:10.300
+dans quelle mesure vos contenus sont conformes à des standards spécifiques
+
+00:00:10.620 --> 00:00:16.480
+comme les "règles pour l'accessibilité des contenus web du W3C"
+ou en plus court "WCAG".
+
+00:00:18.600 --> 00:00:21.220
+Vous voudrez souvent effectuer une évaluation de conformité :
+
+00:00:21.320 --> 00:00:24.240
+comme dernière vérification avant de publier un produit ;
+
+00:00:24.440 --> 00:00:29.060
+afin de fournir des informations
+aux éventuelles personnes souhaitant acheter votre produit ;
+
+00:00:29.580 --> 00:00:33.780
+afin de surveiller régulièrement l'accessibilité de votre site web ;
+
+00:00:34.170 --> 00:00:36.100
+avant d'obtenir un produit ;
+
+00:00:36.100 --> 00:00:39.640
+et lorsque vous débutez dans l'implémentation de l'accessibilité
+
+00:00:39.760 --> 00:00:43.940
+pour avoir une liste des problèmes d'accessibilité que vous devez corriger.
+
+00:00:44.400 --> 00:00:48.180
+Afin d'effectuer une évaluation de conformité efficace,
+il vous faut une expertise dans :
+
+00:00:48.240 --> 00:00:50.160
+les normes d'accessibilité ;
+
+00:00:50.260 --> 00:00:52.960
+le développement web et le design accessibles ;
+
+00:00:53.060 --> 00:00:55.080
+les technologies d'assistance ;
+
+00:00:55.280 --> 00:00:58.320
+et sur la façon dont les personnes handicapées utilisent le web.
+
+00:00:58.480 --> 00:01:03.390
+Vous voudrez aussi probablement utiliser des outils d'évaluation afin d'être plus efficace.
+
+00:01:03.399 --> 00:01:08.351
+"WCAG-EM", la "méthodologie d'évaluation de la conformité à l'accessibilité des sites web",
+
+00:01:08.350 --> 00:01:13.660
+fournit une structure
+pour votre processus d'évaluation.
+
+00:01:14.290 --> 00:01:16.220
+Elle décrit la procédure pour :
+
+00:01:16.340 --> 00:01:18.980
+définir le périmètre de votre évaluation ;
+
+00:01:19.040 --> 00:01:21.700
+explorer les éléments de votre site web ;
+
+00:01:21.700 --> 00:01:25.880
+sélectionner un échantillon représentatif de pages sur votre site web ;
+
+00:01:25.880 --> 00:01:29.100
+évaluer l'échantillon sélectionné ;
+
+00:01:29.240 --> 00:01:32.220
+et donner les résultats de votre évaluation.
+
+00:01:32.220 --> 00:01:38.020
+WCAG-EM recommande également d'inclure de vraies personnes handicapées pendant l'évaluation,
+
+00:01:38.100 --> 00:01:43.630
+pour vous aider à gérer l'expérience réelle des personnes qui utilisent votre site web.
+
+00:01:43.630 --> 00:01:48.760
+L'outil de rapport open source WCAG-EM vous aide à suivre la méthodologie,
+
+00:01:48.860 --> 00:01:53.570
+consigner les résultats,
+et télécharger un rapport de votre évaluation.
+
+00:01:53.570 --> 00:01:58.960
+Accessibilité Web : essentielle pour certains, utile à tous.
+
+00:01:58.960 --> 00:02:08.520
+Pour plus d'informations sur l'évaluation de la conformité,
+allez sur w3.org/WAI/evaluation

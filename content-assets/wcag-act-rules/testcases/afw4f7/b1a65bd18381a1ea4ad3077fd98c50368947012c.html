@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Failed Example 6</title>
+</head>
+<body>
+	<p style="color: #aaa; background: #fff;" id="p"></p>
+	<script>
+		const shadowRoot = document.getElementById('p').attachShadow({ mode: 'open' })
+		shadowRoot.textContent = 'Some text in English'
+	</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Preliminary Insights from a Chatbot Accessibility Playbook and Wizard-of-Oz Study - Submission for the WAI-CooP Project and the W3C APA symposium on Research and Development Questions in Digital Accessibility</title>
+</head>
+
+<body>
+
+
+  <aside style="border: solid #900 1px; background: #ebf4f5; font-weight: bold; padding: 0.5em; margin-bottom: 3em;">This position paper is a contribution to the symposium <a href="https://www.w3.org/WAI/about/projects/wai-coop/symposium1/">"Shape the Future: Research and Development Questions in Digital Accessibility"</a>. The content of this paper was not developed
+    by the W3C Web Accessibility Initiative and does not necessarily represent the consensus view of its membership.</aside>
+
+  <h1>Preliminary Insights from a Chatbot Accessibility Playbook and Wizard-of-Oz Study</h1>
+  <ul>
+    <li>Jeff Stanley. The MITRE Corporation, <a href="mailto:jstanley@mitre.org">jstanley@mitre.org</a></li>
+    <li>Ronna ten Brink. The MITRE Corporation, <a href="mailto:rtenbrink@mitre.org">rtenbrink@mitre.org</a></li>
+    <li>Amna Abbas. The MITRE Corporation, <a href="mailto:amna@mitre.org">amna@mitre.org</a></li>
+    <li>Alexandra Valiton. The MITRE Corporation, <a href="mailto:avaliton@mitre.org">avaliton@mitre.org</a></li>
+  </ul>
+
+  <h2>Keywords</h2>
+  <p>Chatbots, Conversational Agents, Playbook, Wizard-of-oz</p>
+
+  <h2>1. Problem Addressed</h2>
+  <p>Web platforms offer lower operating costs and increased reach. In addition to websites that provide information and support routine processes, a growing number of sites employ chatbots – chat applications in which the human customer engages in conversation
+    with an automated (nonhuman) representative – to offer interactive support to users. When done “right,” chatbots save organizations time and money while effectively delivering services to the public.
+  </p>
+  <p>W3C’s Web Content Accessibility Guidelines (WCAG), government’s most widely adopted accessibility guidelines, inform web page design but do not offer clear guidance on many chatbot-specific features. An additional review of 17 other sources (Stanley
+    et al., 2021) yielded 157 unique recommendations for designing and evaluating chatbot accessibility. Nonetheless, there is currently no comprehensive and agreed-upon method for evaluating or recommending accessibility for chatbots that addresses the
+    enormous user base government platforms serve.
+  </p>
+  <p>What should development teams know to produce chatbots that provide functionally equivalent experiences to all users? There is a need to organize existing guidance to support practical applications, identify gaps, and develop novel guidance through
+    research.
+  </p>
+
+  <h2>2. Relevant background</h2>
+  <p>WCAG is the most widely used web accessibility standard. These guidelines primarily focus on the appearance and functionality of static web pages. For example, they instruct on appropriate color contrast, size, and HTML tags for a button to ensure that
+    users with various levels of vision loss can perceive and operate the button. Dynamic elements like chatbots are more complex and present additional accessibility challenges, such as supporting consistent, accessible navigation between a chatbot and
+    its containing webpage.
+  </p>
+  <p>Blogs and peer-reviewed articles from industry and academia offer piecemeal guidance. The body of chatbot accessibility guidance is scattered and lacks substantial empirical support.
+  </p>
+
+  <h2>3. Challenges</h2>
+  <p>Chatbots have interface features and interactions that are novel among web content and not fully addressed by WCAG. Since chatbots deliver messages in sequence, they raise questions about message content length and pacing for users with different types
+    of needs. Other issues include how the user should be alerted to new messages as they arrive. For each message, depending on whether the chatbot supports free-text input and/or selection from a set of options, keyboard focus must be positioned carefully
+    relative to web elements to align with user expectations. Over time, responses accumulate in a sizeable “conversation history,” which the user may review. What are the most accessible ways to present that history and make it easily navigable? Finally,
+    chatbots are often embedded within a website; chatbot elements must integrate with the larger website experience.
+  </p>
+  <p>Since chatbots interact conversationally, their communication styles affect users. For instance, chatbots exhibiting empathy can improve human mood (de Gennaro et al., 2020). This introduces challenges and responsibilities beyond typical web content,
+    to ensure chatbots do not negatively impact users emotionally or psychologically. In addition, users vary in their preference for anthropomorphism as exhibited by chatbot language style, name, and imagery. Anthropomorphism’s relationship to emotional
+    engagement is not fully understood (Blut et al., 2021).
+  </p>
+  <p>These unique challenges are complicated by the popularity of third-party chatbot development platforms that easily allow only certain adjustments. This means that accessibility must be considered when selecting a platform and when customizing to meet
+    user needs.
+  </p>
+  <p>Chatbot accessibility guidance is available, but provenance and specificity varies widely. Consulting firms publish rules-of-thumb adapting existing WCAG guidelines to chatbots (e.g., BoIA, 2020) but do not identify gaps in guidelines. Studies with
+    small sets of users yield preliminary chatbot-specific guidance (e.g., Baldauf et al., 2018), but results are not consolidated across studies in a way that can be practically applied.
+  </p>
+
+  <h2>4. Outcomes</h2>
+  <p>Stanley et al.’s (2021) survey of existing chatbot accessibility guidance found 17 sources yielding 157 unique recommendations for designing and evaluating chatbot accessibility. We are integrating these recommendations with existing W3C guidance –
+    including WCAG success criteria and Cognitive and Learning Disabilities Accessibility Task Force (Coga TF) design patterns – into a Chatbot Accessibility Playbook.
+  </p>
+  <p>The playbook comprises five plays. First and arguably most important is selecting a platform. Development teams have expressed to us how hard it is to improve their chatbot’s accessibility because of platform limitations. Therefore, we offer a checklist
+    to help establish whether a given platform supports playbook accessibility recommendations. The other plays are: designing the chatbot’s content, designing the chatbot’s interface, integrating the chatbot into the website, and testing the chatbot.
+    We include a checklist for evaluating against recommendations, as well as a questionnaire to be used in user studies. Because existing guidance is disparate and sometimes abstract, we provide concrete activities to help teams implement each recommendation.
+  </p>
+  <p>We conducted a preliminary user study to illuminate gaps and refine playbook guidance. We implemented a wizard-of-oz chatbot prototype – similar to Böhm et al. (2020) – for a tax administration application and tested it with 12 participants: six with
+    no recognized disability and six with partial or total vision loss. We aimed to follow playbook recommendations when developing the chatbot. We collected quantitative survey and task performance results and qualitative results from users’ reactions
+    to using the chatbot and responses to open-ended questions. Preliminary analysis of this small study suggests strengths and weaknesses in our process and in existing guidance. Below we discuss several interesting findings from our preliminary analysis.
+  </p>
+  <p>Users pointed out gaps in our attempts to conform to WCAG in a chatbot context. For instance, the color of chatbot elements blended into certain surrounding webpage colors depending on how the page was scrolled and positioned. Also, we failed to provide
+    visible text labelling of the “open chatbot” button, which would have helped sighted users interpret the button icon; or a header, which would have allowed users with vision loss to locate the chatbot faster.
+  </p>
+  <p>We discovered the current chatbot paradigm may conflict with some users’ needs while helping others. For instance, distinguishing chatbot versus user messages by positioning them on opposite (left or right) sides of the window can help users process
+    them visually. However, a participant with partial vision loss focused only on the chatbot’s messages on the left side of the window and was completely unaware that user messages were recorded on the right.
+  </p>
+  <p>Keyboard navigation did not match users’ expectations. Keyboard focus generally remained in the free-text input field at the bottom of the chatbot. When a message arrived with response options, users expected that tabbing down would take them to the
+    options. Instead, it took them out of the chatbot. We suggest either focus should move automatically to any incoming message, or available response options be positioned after the text input field. Users also liked the idea of “bumpers,” elements
+    positioned immediately before and after the chatbot to let users know they are about to leave the chatbot.
+  </p>
+  <p>Users had difficulty with sequential message pacing; some reported messages were too fast, others too slow, and some did not immediately realize multiple messages in a row had been received. Though sequential messages were labeled “1 of 3 messages,
+    2 of 3 messages,” etc., labeling did not give enough clarity. Users were undecided whether consolidating sequential messages into one long message was the optimal solution. Considering WCAG success criterion 3.2.5: Change on Request, as well as published
+    guidance from the Coga TF, a more appropriate solution could be to advance messages only when requested, such as via a “read more” button.
+  </p>
+
+  <h2>5. Future perspectives</h2>
+  <p>The preliminary user study reinforced the need to test digital products with people with disabilities. It identified open questions for additional research, as well as novel feature ideas to test. While our small study presented one prototype to two
+    groups of users, future studies could compare two different implementations. For instance, users could be presented with one chatbot that sends multiple sequential messages and another that sends longer consolidated messages.
+  </p>
+  <p>Other tradeoffs to explore include the impact of anthropomorphism (in name, imagery, and conversational style) on people with different kinds of disabilities, as well as the layout of messages and conversation history within the chatbot window. Resource
+    limitations constrained this preliminary study to participants with vision loss, but chatbot accessibility must be researched with users with diverse disabilities.
+  </p>
+  <p>Finally, our research suggests existing mental models for navigating chatbots are not sufficient for assistive technology users. Blind and vision-impaired users are still establishing an understanding of what navigating a chatbot should be like and
+    frequently referenced form-type interactions during think-aloud sessions. Future work should discover current mental models of chatbot interaction, establish if there is a current paradigm that satisfies accessibility needs and, if not, create and
+    test possible new models of chatbot interaction. As we converge on a model of interaction that supports diverse users, we must leverage existing user expectations while paving the way for new interaction opportunities.
+  </p>
+
+  <h2>Acknowledgements</h2>
+  <p>This work was funded by MITRE’s Independent Research and Development Program. © 2021 The MITRE Corporation. All rights reserved. Approved for public release. Distribution unlimited 21-3138.
+  </p>
+  <p>We thank the Visually Impaired and Blind User Group (VIBUG) for their invaluable assistance with recruiting.
+  </p>
+
+  <h2>References</h2>
+  <ol>
+    <li id="baldauf">M. Baldauf, R. Bösch, C. Frei, F. Hautle, and M. Jenny (2018) Exploring requirements and opportunities of conversational user interfaces for the cognitively impaired. Proceedings of the 20th International Conference on Human-Computer Interaction with
+      Mobile Devices and Services Adjunct, 119–126. DOI: <a href="http://dx.doi.org/10.1145/3236112.3236128">10.1145/3236112.3236128</a>.</li>
+    <li id="blut">M. Blut, C. Wang, N. V. Wünderlich, and C. Brock (2021) Understanding anthropomorphism in service provision: a meta-analysis of physical robots, chatbots, and other AI. Journal of the Academy of Marketing Science 49(4): 632–658. DOI: <a href="http://dx.doi.org/10.1007/s11747-020-00762-y">10.1007/s11747-020-00762-y</a>.</li>
+    <li id="böhm">Böhm, J. Eißer, and S. Meurer (2020) Wizard-of-Oz Testing as an Instrument for Chatbot Development: An experimental Pre-study for Setting up a Recruiting Chatbot Prototype. The Thirteenth International Conference on Advances in Human-oriented and
+      Personalized Mechanisms, Technologies, and Services (CENTRIC2020). ISBN: 978-1-61208-829-7. <a href="https://www.thinkmind.org/articles/centric_2020_1_90_30036.pdf">https://www.thinkmind.org/articles/centric_2020_1_90_30036.pdf</a> (accessed Sep.
+      30, 2021).</li>
+    <li id="boia">Bureau of Internet Accessibility (BoIA) (2020) Five Key Accessibility Considerations for Chatbots. <a href="https://www.boia.org/blog/five-key-accessibility-considerations-for-chatbots">https://www.boia.org/blog/five-key-accessibility-considerations-for-chatbots</a>      (accessed Sep. 30, 2021).</li>
+    <li id="coga">Cognitive and Learning Disabilities Accessibility Task Force (Coga TF) (2021) Making Content Usable for People with Cognitive and Learning Disabilities. W3C Working Group Note 29 April 2021 (<a href="https://www.w3.org/TR/coga-usable/">https://www.w3.org/TR/coga-usable/</a>).</li>
+    <li id="gennaro">M. de Gennaro, E. G. Krumhuber, and G. Lucas (2020) Effectiveness of an Empathic Chatbot in Combating Adverse Effects of Social Exclusion on Mood. Frontiers in Psychology 10(1): 3061. DOI: <a href="http://dx.doi.org/10.3389/fpsyg.2019.03061">10.3389/fpsyg.2019.03061</a>.</li>
+    <li id="stanley">J. Stanley, R. ten Brink, A. Valiton, T. Bostic, and B. Scollan (2021) Chatbot Accessibility Guidance: A Review and Way Forward. Proceedings of Sixth International Congress on Information and Communication Technology (ICICT2021), 919–942. DOI:
+      <a href="http://dx.doi.org/10.1007/978-981-16-1781-2_80">10.1007/978-981-16-1781-2_80</a>.</li>
+    <li id="wcag">Web Content Accessibility Guidelines (WCAG) (2021) 2.2, W3C World Wide Web Consortium Working Draft 21 May 2021 (<a href="https://www.w3.org/TR/WCAG22/">https://www.w3.org/TR/WCAG22/</a>).</li>
+  </ol>
+
+</body>
+
+</html>

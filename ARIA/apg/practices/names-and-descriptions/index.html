@@ -1,0 +1,2208 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-32.png"/>
+  <link rel="apple-touch-icon" type="image/png" href="https://www.w3.org/assets/logos/w3c-2025/favicons/favicon-180.png"/>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1774962749643043489";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1774962749643043489">
+
+<title> Providing Accessible Names and Descriptions | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Providing Accessible Names and Descriptions" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<meta property="og:description" content="Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI)." />
+<link rel="canonical" href="https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/" />
+<meta property="og:url" content="https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Providing Accessible Names and Descriptions" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"description":"Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","headline":"Providing Accessible Names and Descriptions","url":"https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-providing-accessible-names-and-descriptions  has-sidebar">
+    <a href="#main" class="button button--skip-link">Skip to content</a>
+
+   <div class="minimal-header-container default-grid">
+      
+      <header id="site-header" class="minimal-header">
+  <div class="minimal-header-info">
+    <div class="minimal-header-title">
+    <a href="/WAI/ARIA/apg/">
+        ARIA Authoring Practices Guide (APG)
+      </a>
+    </div>
+    <p class="minimal-header-subtitle">How to build accessibility semantics into web patterns and widgets</p></div>
+  <div class="minimal-header-logo">
+    <div class="logos">
+      <a lang="en" class="home w3c" href="https://www.w3.org/">
+      <svg role="img" width="46" height="46" version="1.1" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" aria-labelledby="w3c-homepage-title"><title id="w3c-homepage-title">W3C homepage</title><g><path d="M306.80028,149.60422c-6.57831-5.22164-16.18258-4.11126-21.40437,2.46705-6.46763,8.15442-12.34209,13.06271-19.03895,15.91953-12.3507,5.25562-22.8198,3.03441-32.94112-6.99345-9.91806-9.82474-19.58153-20.53078-28.95701-30.90671-4.58604-5.07758-9.18023-10.16361-13.83407-15.19045-7.95131-8.58691-15.94475-17.14014-23.93018-25.70183l-.70385-.7546c-17.36893-18.58955-35.32287-37.81514-52.64105-57.12546-13.73244-15.31775-34.95002-22.90466-55.36241-19.83598-20.86179,3.11957-37.73072,16.47071-47.50442,37.58651-9.41762,20.33598-6.23039,43.44391,8.30724,60.30423,25.57483,29.66072,47.14864,54.18407,72.41783,77.24986,10.33349,9.42608,22.83701,14.44431,36.15387,14.51211,8.6381.04258,21.65838-.93219,34.94171-9.87548,5.81526-3.91601,11.23186-7.94285,13.6139-14.08852,2.42447-6.28959.16098-13.52028-5.51838-17.59771-5.51007-3.9672-12.74075-3.68767-17.99637.67804-.66142.55074-1.38204,1.18679-2.17002,1.87358-8.2565,7.23069-18.53079,16.23288-39.47715,1.1948-19.19132-13.78333-34.05106-31.84751-51.26776-52.7682-5.6117-6.8157-11.41836-13.86835-17.62338-21.07381-6.62906-7.68825-8.06169-18.26729-3.73841-27.61741,3.77239-8.13766,11.05382-18.25913,24.37958-20.25096,10.09566-1.51765,21.41238,2.5172,28.16859,10.04507,17.4624,19.47975,35.55195,38.85772,53.04802,57.58302,8.1973,8.77371,16.39415,17.55557,24.54902,26.36326,4.56927,4.93366,9.0789,9.92608,13.65633,14.99535,9.61287,10.63868,19.54755,21.63315,30.04203,32.0343,18.94578,18.7759,42.49435,23.53152,66.33996,13.38482,11.45233-4.89123,21.29399-12.83408,30.95745-25.01519,5.21304-6.56941,4.11126-16.16552-2.46661-21.39577Z" id="path1" /><path d="M330.6361,64.98331c9.85011-4.6709,17.59815-13.46152,18.33554-24.12543,1.87344-18.51314-13.36805-36.22984-35.78948-38.96811-13.76627-1.74599-26.541,2.33145-35.59408,9.83349-4.84019,4.02639-6.14582,11.4777-1.94984,16.73332,4.58589,5.46749,9.87548,6.42505,18.53064,1.67002,3.10236-1.7632,7.76481-3.22981,12.89328-2.87403,9.67207.67003,12.44387,9.38409,12.17266,13.34268-.04258.58501.01706,14.07992-13.60529,13.13912l-5.13707-.35579c-5.72179-.39021-11.44387,4.95888-11.86746,11.07889-.45801,6.51066,4.30622,12.19832,10.23127,12.6139l6.31526.43219c17.37798,1.20385,15.56374,15.95335,15.19935,18.31017-.33902,6.78143-11.22355,18.28435-30.6355,5.20443-6.58662-4.43322-53.56538-63.44072-53.56538-63.44072-22.26001-28.77883-60.0839-33.84809-89.93097-12.0455-3.2804,2.3988-5.44226,5.93366-6.06941,9.9605-.61884,4.01779.35593,8.04448,2.75503,11.32488,2.3988,3.2804,5.93381,5.44226,9.95189,6.06941,4.04316.62745,8.05279-.35593,11.33349-2.75503,20.36135-14.87665,38.51024-6.01022,47.84315,6.06111,0,0,50.43765,64.87335,63.4241,71.74796,8.42608,4.45903,17.22516,7.03588,26.168,7.65487,27.44827,1.89866,44.16438-13.22414,48.67445-33.94142,2.958-13.57992-5.82387-30.55048-19.68361-36.67093Z" id="path2" /></g><g><path d="M7.65638,245.62164h18.68735c1.9807,0,3.61006.4556,4.88419,1.35908s2.13515,2.09267,2.59075,3.56759l16.64873,65.1509c.96139,3.3977,1.86874,7.33594,2.71816,11.80701.45174-2.20851.90348-4.31662,1.35908-6.33208.45174-2.00773.98842-3.86102,1.61391-5.55987l19.70666-65.06596c.45174-1.30503,1.32819-2.44789,2.63322-3.44403,1.30116-.98842,2.85716-1.48263,4.67184-1.48263h6.54057c1.9807,0,3.57917.44016,4.79925,1.31275,1.21622.88031,2.08109,2.08495,2.59075,3.61392l19.70666,65.1509c.56371,1.6448,1.08881,3.43631,1.57144,5.39771.47877,1.94596.94595,4.00002,1.40155,6.15447.39382-2.15445.80695-4.19307,1.23167-6.11586s.86101-3.70658,1.31661-5.35138l16.64873-65.23585c.39382-1.30503,1.25869-2.44789,2.59075-3.44403,1.32819-.98842,2.89963-1.48263,4.71431-1.48263h17.49816l-33.46735,112.80365h-20.21632l-22.33988-75.00423c-.33977-.96526-.66796-2.03862-.97684-3.22782-.31274-1.1892-.61004-2.43244-.8919-3.73747-.28572,1.30503-.5946,2.54828-.93437,3.73747s-.65251,2.26256-.93437,3.22782l-22.76459,75.00423h-20.13137L7.65638,245.62164Z" id="path3" /><path d="M212.19794,244.34751c5.20852,0,9.8958.76448,14.05798,2.29345,4.16218,1.52897,7.6873,3.61392,10.57534,6.23941,2.88805,2.64094,5.10813,5.72204,6.66799,9.26646,1.55599,3.5367,2.33592,7.31278,2.33592,11.33596,0,3.56759-.38224,6.71046-1.14672,9.42862s-1.88418,5.09655-3.35523,7.13517c-1.47491,2.03862-3.28573,3.76836-5.43632,5.18149-2.15445,1.41313-4.5869,2.57916-7.30506,3.48264,12.85335,4.36296,19.28195,13.05026,19.28195,26.07735,0,5.72204-1.03475,10.74909-3.1004,15.07343-2.06951,4.33979-4.84172,7.97687-8.32437,10.91897s-7.53286,5.1506-12.14678,6.62552c-4.61778,1.47491-9.47109,2.20851-14.56764,2.20851-5.38227,0-10.1236-.62549-14.22787-1.86874-4.10813-1.24325-7.70274-3.12743-10.7877-5.65254-3.08882-2.51739-5.74906-5.64482-7.9846-9.38229-2.23939-3.73747-4.1506-8.06954-5.73362-12.9962l9.00391-3.82241c2.37839-.96526,4.59848-1.20464,6.66799-.71815,2.06565.47877,3.52511,1.59846,4.37454,3.35137,1.01931,1.92279,2.09267,3.72203,3.22782,5.38999,1.13128,1.67568,2.42086,3.15059,3.86488,4.41701,1.44402,1.28186,3.1004,2.28573,4.96914,3.01932s4.01932,1.10425,6.45563,1.10425c3.00001,0,5.61779-.49421,7.85718-1.48263,2.23553-.99614,4.08882-2.30117,5.56373-3.90736,1.47105-1.62163,2.5753-3.44403,3.31276-5.48265.73359-2.03862,1.10425-4.07724,1.10425-6.11586,0-2.60233-.24324-4.98072-.72201-7.13517-.48263-2.15445-1.55985-3.9923-3.22782-5.52126-1.67182-1.52897-4.11971-2.71816-7.34753-3.56759s-7.6178-1.27414-13.16609-1.27414v-14.52517c4.64095-.05405,8.45178-.47877,11.42477-1.27414s5.30891-1.91507,7.00776-3.35137c1.69885-1.45174,2.85716-3.15832,3.48264-5.14288.62162-1.98457.93437-4.19307.93437-6.62552,0-5.1506-1.28958-9.03479-3.86488-11.63712-2.57916-2.60233-6.18922-3.90736-10.83017-3.90736-4.13516,0-7.59077,1.15831-10.36299,3.48264-2.77608,2.32434-4.70273,5.18149-5.77609,8.57919-.90734,2.60233-2.11198,4.30118-3.61006,5.09655-1.50194.79537-3.64094.96526-6.41316.50966l-10.7877-1.86874c.79151-5.49037,2.29345-10.29349,4.50195-14.40162,2.20851-4.10041,4.98072-7.52899,8.32437-10.27032,3.33978-2.74905,7.14675-4.81856,11.42477-6.20853,4.27415-1.38225,8.87649-2.07723,13.80316-2.07723Z" id="path4" /><path d="M335.38002,331.07381c1.1892,0,2.20851.4556,3.05793,1.35908l8.91896,9.5985c-4.07724,5.72204-9.18923,10.07727-15.33212,13.08115-6.14675,3.00388-13.43636,4.50195-21.8727,4.50195-7.64483,0-14.52517-1.42858-20.64103-4.29346-6.11586-2.85716-11.3128-6.84945-15.58695-11.96917-4.27801-5.12744-7.55988-11.21241-9.85333-18.27036-2.29345-7.04251-3.44017-14.76455-3.44017-23.14297,0-8.4402,1.23167-16.17769,3.695-23.23564,2.46333-7.04251,5.93053-13.11976,10.40546-18.21631,4.47106-5.09655,9.82244-9.05796,16.05413-11.89195,6.22783-2.83399,13.08115-4.24713,20.55609-4.24713,7.58691,0,14.29737,1.34364,20.13137,4.03863,5.83014,2.68727,10.70276,6.23941,14.61011,10.65642l-7.47494,10.44793c-.50966.62549-1.09267,1.1892-1.74132,1.69885-.65251.50966-1.57144.76448-2.76063.76448s-2.33592-.4556-3.44017-1.35908-2.46333-1.89962-4.07724-2.97299-3.64094-2.06951-6.07339-2.97299c-2.43631-.90348-5.55215-1.35908-9.34368-1.35908-4.13516,0-7.89965.86487-11.29735,2.59461-3.3977,1.72202-6.31663,4.24713-8.74908,7.55216-2.43631,3.32048-4.32048,7.36683-5.64868,12.1545-1.33205,4.77995-1.99615,10.23171-1.99615,16.34757,0,6.16991.73359,11.66801,2.20851,16.47885,1.47105,4.81083,3.4672,8.87263,5.98845,12.19311,2.51739,3.30504,5.47879,5.83014,8.87649,7.55216,3.3977,1.72974,7.05023,2.59461,10.95758,2.59461,2.32047,0,4.41701-.12355,6.28575-.3861,1.86874-.24711,3.61006-.70271,5.22396-1.35908,1.61391-.64865,3.12743-1.48263,4.54442-2.50194,1.41313-1.01931,2.83013-2.29345,4.24713-3.82241.56371-.4556,1.14672-.83398,1.74132-1.15058.5946-.30888,1.20078-.46332,1.82626-.46332Z" id="path5" /></g></svg>
+      </a>
+      <a lang="en" class="home wai" href="https://www.w3.org/WAI/">
+      <svg role="img" width="162.5" height="45.9" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 162.5 45.9" aria-labelledby="wai-homepage-title"><title id="wai-homepage-title">Web Accessibility Initiative (WAI) homepage</title><g><path d="M1.2 24.5h160" stroke="#eed009" stroke-linecap="square" stroke-width="2" /><g><path d="M15.741 15.5h-1.816L11.14 6.145c-.41-1.394-.65-2.334-.722-2.823-.104.749-.332 1.71-.684 2.881L7.04 15.5H5.223L1.444 1.223H3.32l2.217 8.72c.3 1.14.527 2.272.684 3.399.143-1.068.397-2.237.761-3.506l2.52-8.613h1.855l2.627 8.681c.339 1.127.6 2.272.781 3.438.105-.899.336-2.038.694-3.418l2.207-8.701h1.875zm10.127.195c-1.608 0-2.87-.486-3.784-1.46-.915-.973-1.372-2.312-1.372-4.018 0-1.719.426-3.088 1.279-4.107.853-1.019 2.005-1.528 3.457-1.528 1.348 0 2.422.435 3.223 1.304.8.869 1.2 2.046 1.2 3.53v1.064h-7.343c.033 1.218.342 2.142.928 2.774.586.631 1.416.947 2.49.947a8.46 8.46 0 001.631-.151c.514-.101 1.116-.298 1.807-.591v1.543a8.506 8.506 0 01-1.67.537c-.521.104-1.136.156-1.846.156zm-.44-9.677c-.84 0-1.503.27-1.992.81-.488.54-.778 1.292-.869 2.256h5.46c-.014-1.003-.245-1.764-.694-2.285-.45-.521-1.084-.781-1.904-.781zm12.237-1.416c1.413 0 2.503.486 3.271 1.46.769.973 1.153 2.332 1.153 4.077 0 1.77-.39 3.14-1.172 4.106-.781.967-1.865 1.45-3.252 1.45-.723 0-1.367-.13-1.934-.39a3.384 3.384 0 01-1.386-1.162h-.137a48.165 48.165 0 01-.362 1.357h-1.26V.305h1.759v3.691c0 .736-.033 1.471-.098 2.207h.098c.722-1.068 1.829-1.601 3.32-1.601zm-.293 1.455c-1.08 0-1.856.306-2.324.918-.47.612-.703 1.647-.703 3.105v.078c0 1.465.239 2.512.717 3.14.479.628 1.262.942 2.349.942.963 0 1.681-.353 2.153-1.06.472-.706.708-1.726.708-3.06 0-1.355-.237-2.37-.713-3.048-.475-.677-1.204-1.015-2.187-1.015zM59.286 15.5l-1.719-4.424h-5.664l-1.7 4.424h-1.816l5.577-14.336h1.62L61.152 15.5zM57.03 9.484L55.43 5.158l-.684-2.138c-.195.78-.4 1.494-.615 2.138l-1.621 4.326zm10.137 6.211c-1.543 0-2.744-.473-3.604-1.42-.86-.948-1.289-2.307-1.289-4.078 0-1.797.435-3.182 1.304-4.155.87-.973 2.108-1.46 3.716-1.46.52 0 1.037.054 1.548.161.51.108.932.246 1.264.415l-.537 1.465c-.905-.338-1.676-.508-2.314-.508-1.081 0-1.879.34-2.393 1.02-.514.681-.771 1.695-.771 3.043 0 1.295.257 2.287.771 2.973.514.687 1.276 1.03 2.285 1.03.944 0 1.872-.208 2.783-.624v1.562c-.742.384-1.663.576-2.763.576zm9.6 0c-1.544 0-2.745-.473-3.604-1.42-.86-.948-1.29-2.307-1.29-4.078 0-1.797.435-3.182 1.305-4.155.869-.973 2.107-1.46 3.715-1.46.521 0 1.037.054 1.548.161.511.108.933.246 1.265.415l-.537 1.465c-.905-.338-1.677-.508-2.315-.508-1.08 0-1.878.34-2.392 1.02-.515.681-.772 1.695-.772 3.043 0 1.295.257 2.287.772 2.973.514.687 1.276 1.03 2.285 1.03.944 0 1.872-.208 2.783-.624v1.562c-.742.384-1.663.576-2.764.576zm9.863 0c-1.608 0-2.87-.486-3.784-1.46-.915-.973-1.373-2.312-1.373-4.018 0-1.719.427-3.088 1.28-4.107.853-1.019 2.005-1.528 3.457-1.528 1.347 0 2.422.435 3.222 1.304.801.869 1.202 2.046 1.202 3.53v1.064H83.29c.032 1.218.342 2.142.928 2.774.586.631 1.416.947 2.49.947a8.46 8.46 0 001.63-.151c.515-.101 1.117-.298 1.807-.591v1.543a8.506 8.506 0 01-1.67.537c-.52.104-1.136.156-1.845.156zm-.44-9.677c-.84 0-1.504.27-1.992.81s-.778 1.292-.87 2.256h5.46c-.013-1.003-.244-1.764-.693-2.285-.45-.521-1.084-.781-1.905-.781zm14.14 6.523c0 1.003-.373 1.779-1.122 2.33-.749.55-1.8.824-3.154.824-1.413 0-2.536-.224-3.37-.674V13.42c1.179.573 2.315.86 3.409.86.885 0 1.53-.144 1.933-.43.404-.287.606-.671.606-1.153 0-.423-.194-.781-.581-1.074-.388-.293-1.076-.628-2.066-1.006-1.009-.39-1.719-.724-2.129-1-.41-.277-.711-.588-.903-.933-.192-.345-.288-.765-.288-1.26 0-.88.358-1.572 1.074-2.08.716-.508 1.7-.762 2.95-.762a8.17 8.17 0 013.417.723L99.511 6.7c-1.088-.456-2.068-.683-2.94-.683-.73 0-1.282.115-1.66.346-.378.231-.566.549-.566.952 0 .391.162.715.488.972.325.257 1.084.614 2.275 1.07.892.331 1.551.64 1.978.927.426.287.74.609.942.967.202.358.303.788.303 1.289zm9.58 0c0 1.003-.373 1.779-1.122 2.33-.749.55-1.8.824-3.154.824-1.413 0-2.536-.224-3.37-.674V13.42c1.179.573 2.315.86 3.409.86.885 0 1.53-.144 1.933-.43.404-.287.606-.671.606-1.153 0-.423-.194-.781-.581-1.074-.388-.293-1.076-.628-2.066-1.006-1.009-.39-1.719-.724-2.129-1-.41-.277-.71-.588-.903-.933-.192-.345-.288-.765-.288-1.26 0-.88.358-1.572 1.074-2.08.716-.508 1.7-.762 2.95-.762a8.17 8.17 0 013.417.723l-.595 1.396c-1.088-.456-2.067-.683-2.94-.683-.729 0-1.282.115-1.66.346-.378.231-.566.549-.566.952 0 .391.162.715.488.972.325.257 1.084.614 2.275 1.07.892.331 1.551.64 1.978.927.426.287.74.609.942.967.202.358.303.788.303 1.289zm4.356 2.959h-1.757V4.777h1.757zm-1.894-13.623c0-.39.1-.674.298-.85.198-.175.444-.263.737-.263.273 0 .513.088.718.263.205.176.307.46.307.85 0 .384-.102.667-.307.85a1.047 1.047 0 01-.718.273 1.05 1.05 0 01-.737-.273c-.199-.183-.298-.466-.298-.85zm10.371 2.725c1.413 0 2.503.486 3.271 1.46.769.973 1.153 2.332 1.153 4.077 0 1.77-.39 3.14-1.172 4.106-.781.967-1.865 1.45-3.252 1.45-.723 0-1.367-.13-1.934-.39a3.384 3.384 0 01-1.386-1.162h-.137a48.244 48.244 0 01-.361 1.357h-1.26V.305h1.758v3.691c0 .736-.033 1.471-.098 2.207h.098c.722-1.068 1.83-1.601 3.32-1.601zm-.293 1.455c-1.08 0-1.855.306-2.324.918-.469.612-.703 1.647-.703 3.105v.078c0 1.465.239 2.512.717 3.14.479.628 1.262.942 2.35.942.963 0 1.68-.353 2.152-1.06.472-.706.708-1.726.708-3.06 0-1.355-.237-2.37-.713-3.048-.475-.677-1.204-1.015-2.187-1.015zm9.277 9.443h-1.757V4.777h1.757zm-1.894-13.623c0-.39.1-.674.298-.85.198-.175.444-.263.737-.263.273 0 .513.088.718.263.205.176.307.46.307.85 0 .384-.102.667-.307.85a1.047 1.047 0 01-.718.273 1.05 1.05 0 01-.737-.273c-.199-.183-.298-.466-.298-.85zm7.05 13.623h-1.757V.305h1.758zm5.157 0h-1.758V4.777h1.758zm-1.895-13.623c0-.39.1-.674.298-.85.199-.175.444-.263.737-.263.274 0 .513.088.718.263.205.176.308.46.308.85 0 .384-.103.667-.308.85a1.047 1.047 0 01-.718.273 1.05 1.05 0 01-.737-.273c-.198-.183-.298-.466-.298-.85zm8.877 12.383c.228 0 .495-.023.801-.069.306-.045.537-.097.693-.156v1.348c-.162.071-.415.141-.756.21a5.29 5.29 0 01-1.04.102c-2.097 0-3.145-1.103-3.145-3.31v-6.24h-1.514v-.84l1.534-.703.703-2.286h1.045v2.461h3.095v1.368h-3.095v6.19c0 .62.148 1.095.444 1.427.296.332.708.498 1.235.498zm1.953-9.483h1.885l2.315 6.104c.488 1.328.787 2.301.898 2.92h.078c.059-.241.192-.692.4-1.353.209-.66.385-1.19.528-1.587l2.178-6.084h1.894l-4.619 12.207c-.45 1.185-.983 2.035-1.602 2.55-.618.514-1.383.77-2.294.77-.489 0-.974-.055-1.456-.165v-1.397c.326.078.717.117 1.172.117.56 0 1.035-.154 1.426-.463.39-.31.71-.787.957-1.431l.557-1.426zM7.157 45.5H2.001v-1.035l1.68-.381V32.658l-1.68-.4v-1.035h5.156v1.035l-1.68.4v11.426l1.68.38zm9.824 0v-6.855c0-.873-.193-1.522-.58-1.949-.388-.426-.995-.64-1.822-.64-1.1 0-1.9.305-2.398.914-.498.608-.747 1.6-.747 2.973V45.5H9.677V34.777h1.416l.263 1.465h.098a3.31 3.31 0 011.396-1.225 4.492 4.492 0 011.983-.435c1.315 0 2.292.319 2.93.957.638.638.957 1.63.957 2.979V45.5zm6.817 0H22.04V34.777h1.758zm-1.895-13.623c0-.39.1-.674.298-.85.199-.175.444-.263.737-.263.274 0 .513.088.718.263.205.176.308.46.308.85 0 .384-.103.667-.308.85a1.047 1.047 0 01-.718.273 1.05 1.05 0 01-.737-.273c-.199-.183-.298-.466-.298-.85zM30.78 44.26c.228 0 .495-.023.8-.069.307-.045.538-.097.694-.156v1.348c-.163.071-.415.141-.757.21a5.29 5.29 0 01-1.04.102c-2.096 0-3.144-1.103-3.144-3.31v-6.24h-1.514v-.84l1.533-.703.703-2.286H29.1v2.461h3.096v1.368H29.1v6.19c0 .62.149 1.095.445 1.427.296.332.708.498 1.235.498zm5.39 1.24h-1.757V34.777h1.758zm-1.894-13.623c0-.39.1-.674.298-.85.199-.175.444-.263.737-.263.274 0 .513.088.718.263.205.176.308.46.308.85 0 .384-.103.667-.308.85a1.047 1.047 0 01-.718.273 1.05 1.05 0 01-.737-.273c-.199-.183-.298-.466-.298-.85zM46.19 45.5l-.342-1.523h-.078c-.534.67-1.066 1.124-1.596 1.362-.53.237-1.2.356-2.007.356-1.055 0-1.882-.276-2.48-.83-.6-.553-.9-1.334-.9-2.344 0-2.174 1.716-3.313 5.147-3.417l1.817-.069V38.4c0-.813-.176-1.414-.528-1.801-.351-.388-.914-.581-1.689-.581-.566 0-1.102.084-1.606.253-.505.17-.979.359-1.421.567l-.537-1.318a7.958 7.958 0 011.767-.674 7.642 7.642 0 011.895-.244c1.295 0 2.259.286 2.89.859.632.573.948 1.484.948 2.734V45.5zm-3.623-1.22c.983 0 1.756-.266 2.32-.797.563-.53.844-1.284.844-2.26v-.967l-1.582.068c-1.23.046-2.127.241-2.69.586-.563.345-.845.889-.845 1.631 0 .56.171.99.513 1.29.342.299.822.448 1.44.448zm11.807-.02c.228 0 .495-.023.8-.069.307-.045.538-.097.694-.156v1.348c-.163.071-.415.141-.757.21a5.29 5.29 0 01-1.04.102c-2.096 0-3.144-1.103-3.144-3.31v-6.24h-1.514v-.84l1.533-.703.703-2.286h1.045v2.461h3.096v1.368h-3.096v6.19c0 .62.148 1.095.444 1.427.297.332.708.498 1.236.498zm5.39 1.24h-1.757V34.777h1.757zM57.87 31.877c0-.39.1-.674.298-.85.198-.175.444-.263.737-.263.274 0 .513.088.718.263.205.176.307.46.307.85 0 .384-.102.667-.307.85a1.047 1.047 0 01-.718.273 1.05 1.05 0 01-.737-.273c-.199-.183-.298-.466-.298-.85zM65.526 45.5l-4.062-10.723h1.884l2.276 6.319c.45 1.27.736 2.216.86 2.842h.077a11.495 11.495 0 01.176-.64c.04-.127.28-.861.723-2.202l2.285-6.319h1.875L67.548 45.5zm12.354.195c-1.608 0-2.87-.486-3.784-1.46-.915-.973-1.373-2.312-1.373-4.018 0-1.719.427-3.088 1.28-4.107.853-1.019 2.005-1.528 3.457-1.528 1.347 0 2.422.435 3.222 1.304.801.869 1.202 2.046 1.202 3.53v1.064H74.54c.032 1.218.342 2.142.928 2.774.586.631 1.416.947 2.49.947a8.46 8.46 0 001.63-.151c.515-.101 1.117-.298 1.807-.591v1.543a8.506 8.506 0 01-1.67.537c-.52.104-1.136.156-1.845.156zm-.44-9.677c-.84 0-1.504.27-1.992.81s-.778 1.292-.87 2.256h5.46c-.013-1.003-.244-1.764-.693-2.285-.45-.521-1.084-.781-1.905-.781zM137.741 45.5h-1.816l-2.784-9.355c-.41-1.394-.65-2.334-.722-2.823-.104.749-.332 1.71-.684 2.881L129.04 45.5h-1.817l-3.779-14.277h1.875l2.217 8.72c.3 1.14.527 2.272.684 3.399.143-1.068.397-2.237.761-3.506l2.52-8.613h1.855l2.627 8.681c.339 1.127.6 2.272.781 3.438.105-.899.336-2.038.694-3.418l2.207-8.701h1.875zm14.57 0l-1.718-4.424h-5.664l-1.7 4.424h-1.816l5.576-14.336h1.621l5.567 14.336zm-2.256-6.016l-1.601-4.326-.684-2.138c-.195.78-.4 1.494-.615 2.138l-1.621 4.326zm10.098 6.016h-5.156v-1.035l1.68-.381V32.658l-1.68-.4v-1.035h5.156v1.035l-1.68.4v11.426l1.68.38z" /></g></g></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+    </div>
+
+    <div class="default-grid nav-container">
+        <div class="nav" >
+          
+           <nav class="nav" aria-label="APG">
+            <ul>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/">APG Home</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/patterns/">Patterns</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/practices/">Practices</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/example-index/">Index</a></li>
+            
+                <li class="nav__item"><a href="/WAI/ARIA/apg/about/">About</a></li>
+            
+            <li class="nav__item"><a href="https://www.w3.org/WAI/standards-guidelines/wcag/docs/">
+                All WCAG 2 Guidance
+                <svg focusable="false" aria-hidden="true" class="icon-different-view "><use xlink:href="/WAI/assets/images/icons.svg#icon-different-view"></use></svg>
+            </a></li>
+            </ul>
+          </nav>
+          
+        </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
+
+<style>
+.nav {
+  background: none;
+}
+
+.nav-related-info { /* blue bar with the "About:" links */
+  background: #005a9c;
+  color: #fff;
+}
+
+.nav-related-info a {
+  color: #fff !important;
+}
+
+.nav-page-specific { /* light blue bar with page/section specific navigation/pager */
+  margin-bottom: 1.25em;
+}
+
+.nav a:link, .nav a:visited {
+  color: #036;
+  color: var(--w3c-blue);
+}
+
+.nav a:hover, .nav a:active {
+    color: var(--dk-blue);
+}
+
+.nav-hack.sidebar a:hover,
+.nav-hack.sidebar a:active
+ {
+    color: var(--dk-blue);
+    text-decoration: underline;
+}
+
+.standalone-resource-about, .standalone-resource-pager {
+  margin: 0;
+}
+
+nav.standalone-resource-about {
+  padding: .5em 0 1.5em 0;
+  font-style: italic;
+}
+
+
+.nav .standalone-resource-pager ul {
+  align-items: center;
+}
+
+.nav .standalone-resource-pager a,
+.nav .standalone-resource-pager span {
+
+  margin-left: 0;
+  margin-right: 1.5em;
+  padding: .5em;
+}
+
+
+.pager-icon {
+  vertical-align: middle;
+  padding: 0 0 0.15em 0;
+  margin: 0 -0.4em;
+  width: 1.65em;
+  height: 2em;
+  fill: var(--dk-blue)
+}
+
+.category-icon {
+  vertical-align: middle;
+  padding: 0 0.25em 0.25em 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
+.zstandalone-resource-pager {
+  padding: .7em 0;
+}
+
+.standalone-resource-pager zul {
+  display: block;
+}
+
+.standalone-resource-pager zul li {
+  display: inline;
+}
+
+.nav-hack {
+  font-size: .85rem;
+  /*justify-self: end;*/
+  align-self: start;
+}
+.nav-hack ul {
+    list-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    padding-left: 0
+}
+.nav-hack li:not(:first-child){
+    padding-top: 0.4em;
+    line-height: 1.2;
+    border-top: 1px solid #BCBCBC;
+}
+.nav-hack li a {
+    text-decoration: none;
+}
+.nav-hack h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.nav-hack p {
+  margin: 0;
+}
+
+h2#sidebar-header {
+  font-size: .95rem;
+}
+
+/* skip link */
+.button--skip-link {
+  background-color: var(--gold) !important;
+  border-color: var(--gold) !important;
+  outline-color: currentColor !important;
+  color: var(--off-black) !important;
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: 0.5em;
+  width: 10em;
+  opacity: 1;
+  transition: transform 0.1875s ease-out, opacity 0.1875s ease-out;
+}
+
+.button--skip-link:not(:focus):not(:hover) {
+  transform: translateY(-4em);
+  opacity: 0;
+}
+
+.standalone-resource-navrule {
+    border:none;
+    border-top: 1px solid grey
+}
+
+.standalone-resource-about ul,
+.standalone-resource-pager ul {
+    list-style: none;
+}
+
+.standalone-resource-about a,
+.standalone-resource-pager a,
+.standalone-resource-about span,
+.standalone-resource-pager span
+{
+    margin-left:.8em;
+    margin-right:.8em;
+}
+
+.minimal-header-name a {
+  text-decoration: none;
+}
+.minimal-header-name a:hover,
+.minimal-header-name a:focus {
+  text-decoration: underline;
+}
+
+</style>
+
+    
+    
+    
+        <nav class="box nav-hack sidebar standalone-resource__sidebar " aria-labelledby="sidebar-header">
+           <h2 id="sidebar-header" class="box-h ">Page Contents</h2>
+            
+            <div class="box-i">
+                <ul>
+                
+                
+                <li><a href="#introduction">Introduction</a></li>
+                
+                <li><a href="#whatareaccessiblenamesanddescriptions?">What ARE Accessible Names and Descriptions?</a></li>
+                
+                <li><a href="#howarenameanddescriptionstringsderived?">How Are Name and Description Strings Derived?</a></li>
+                
+                <li><a href="#cardinalrulesofnaming">Cardinal Rules of Naming</a></li>
+                
+                <li><a href="#namingtechniques">Naming Techniques</a></li>
+                
+                <li><a href="#composingeffectiveanduser-friendlyaccessiblenames">Composing Effective and User-friendly Accessible Names</a></li>
+                
+                <li><a href="#accessiblenameguidancebyrole">Accessible Name Guidance by Role</a></li>
+                
+                <li><a href="#accessiblenamecalculation">Accessible name calculation</a></li>
+                
+                <li><a href="#describingtechniques">Describing Techniques</a></li>
+                
+                <li><a href="#accessibledescriptioncalculation">Accessible description calculation</a></li>
+                
+                </ul>
+            </div>
+          </nav>
+    
+
+    <main id="main" lang="en" class="standalone-resource__main">
+        <header>
+            <h1>
+              
+              <span class="standalone-resource__type-of-guidance">
+                
+                
+              </span>
+              
+              Providing Accessible Names and Descriptions
+            </h1>
+        </header>
+
+        <meta charset="UTF-8">
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>Providing Accessible Names and Descriptions</title>
+
+<script src="../../../../content-assets/wai-aria-practices/shared/js/highlight.pack.js"></script>
+
+<script src="../../../../content-assets/wai-aria-practices/shared/js/app.js"></script>
+
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/styles.css">
+
+<!-- Code highlighting styles -->
+<link rel="stylesheet" href="/WAI/content-assets/wai-aria-practices/shared/css/github.css">
+
+<script>
+    const parentPage = window.location.pathname.match(
+      /\/(patterns|practices|about)\//
+    )?.[1];
+    if (parentPage) {
+      const parentHref = 'a[href*="' + parentPage + '"]';
+      document.querySelector(parentHref).classList.add('active');
+    }
+  </script>
+
+<div>
+
+    <div>
+      
+
+      <section id="introduction">
+        <h2 id="introduction">Introduction</h2>
+        <p>
+          Providing elements with accessible names, and where appropriate, accessible descriptions, is one of the most important responsibilities authors have when developing accessible web experiences.
+          While doing so is straightforward for most elements, technical mistakes that can completely block users of assistive technologies are easy to make and unfortunately common.
+          To help authors effectively provide accessible names and descriptions, this section explains their purpose, when authors need to provide them, how browsers assemble them, and rules for coding and composing them.
+          It also guides authors in the use of the following naming and describing techniques and WAI-ARIA properties:
+        </p>
+        <ul>
+          <li>
+            Naming:
+            <ul>
+              <li>Naming with child content.</li>
+              <li>Naming with a string attribute via <code>aria-label</code>.</li>
+              <li>Naming by referencing content with <code>aria-labelledby</code>.</li>
+              <li>Naming form controls with the label element.</li>
+              <li>Naming fieldsets with the legend element.</li>
+              <li>Naming tables and figures with captions.</li>
+              <li>Fallback names derived from titles and placeholders.</li>
+            </ul>
+          </li>
+          <li>
+            Describing:
+            <ul>
+              <li>Describing by referencing content with <code>aria-describedby</code>.</li>
+              <li>Describing tables and figures with captions.</li>
+              <li>Descriptions derived from titles.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="names_and_descriptions_definition">
+        <h2 id="whatareaccessiblenamesanddescriptions?">What ARE Accessible Names and Descriptions?</h2>
+        <p>
+          An accessible name is a short string, typically 1 to 3 words, that authors associate with an element to provide users of assistive technologies with a label for the element.
+          For example, an input field might have an accessible name of "User ID" or a button might be named "Submit".
+        </p>
+        <p>An accessible name serves two primary purposes for users of assistive technologies, such as screen readers:</p>
+        <ol>
+          <li>Convey the purpose or intent of the element.</li>
+          <li>Distinguish the element from other elements on the page.</li>
+        </ol>
+        <p>
+          Both the WAI-ARIA specification and WCAG require all focusable, interactive elements to have an accessible name.
+          In addition dialogs and some structural containers, such as <a href="https://w3c.github.io/aria/#table" class="role-reference">tables</a> and <a href="https://w3c.github.io/aria/#region" class="role-reference">regions</a>, are required to have a name.
+          Many other elements can be named, but whether a name will enhance the accessible experience is determined by various characteristics of the surrounding context.
+          Finally, there are some elements where providing an accessible name is technically possible but not advisable.
+          The <a href="#naming_role_guidance">Accessible Name Guidance by Role</a> section lists naming requirements and guidelines for every ARIA role.
+        </p>
+        <p>
+          An accessible description is also an author-provided string that is rendered by assistive technologies.
+          Authors supply a description when there is a need to associate additional information with an element, such as instructions or format requirements for an input field.
+        </p>
+        <p>
+          Assistive technologies present names differently from descriptions.
+          For instance, screen readers typically announce the name and role of an element first, e.g., a button named <q>Mute Conversation</q>could be spoken as <q>Mute Conversation button</q>.
+          If an element has a state, it could be announced either before or after the name and role; after name and role is the typical default.
+          For example, a switch button named <q>Mute Conversation</q> in the <q>off</q> state could be announced as <q>Mute Conversation switch button off</q>.
+          Because descriptions are optional strings that are usually significantly longer than names, they are presented last, sometimes after a slight delay.
+          For example, <q>Mute Conversation Switch button off, Silences alerts and notifications about activity in this conversation.</q>
+          To reduce verbosity, some screen readers do not announce descriptions by default but instead inform users of their presence so that users can press a key that will announce the description.
+        </p>
+      </section>
+
+      <section id="names_and_descriptions_derivation">
+        <h2 id="howarenameanddescriptionstringsderived?">How Are Name and Description Strings Derived?</h2>
+        <p>
+          Because there are several elements and attributes for specifying text to include in an accessible name or description string, and because authors can combine them in a practically endless number of ways, browsers implement fairly complex algorithms for assembling the strings.
+          The sections on <a href="#name_calculation">accessible name calculation</a> and <a href="#description_calculation">accessible description calculation</a> explain the algorithms and how they implement precedence.
+          However, most authors do not need such detailed understanding of the algorithms since nearly all circumstances where a name or description is useful are supported by the coding patterns described in the <a href="#naming_techniques">naming techniques</a> and <a href="#describing_techniques">describing techniques</a> sections.
+        </p>
+      </section>
+
+      <section id="naming_cardinal_rules">
+        <h2 id="cardinalrulesofnaming">Cardinal Rules of Naming</h2>
+
+        <section id="naming_rule_heed_warnings">
+          <h3>Rule 1: Heed Warnings and Test Thoroughly</h3>
+          <p>
+            Several of the <a href="#naming_techniques">naming techniques</a> below include notes that warn against specific coding patterns that are either prohibited by the ARIA specification or fall into gray space that is not yet fully specified.
+            Some of these prohibited or ambiguous patterns may appear logical and even yield desired names in some browsers.
+            However, it is unlikely they will provide consistent results across browsers, especially over time as work to improve the consistency of name calculation across browsers progresses.
+          </p>
+          <p>In addition to heeding the warnings provided in the naming techniques, it is difficult to over emphasize the importance of testing to ensure that names browsers calculate match expectations.</p>
+        </section>
+
+        <section id="naming_rule_visible_text">
+          <h3>Rule 2: Prefer Visible Text</h3>
+          <p>
+            When a user interface includes visible text that could be used to provide an appropriate accessible name, using the visible text for the accessible name simplifies maintenance, prevents bugs, and reduces language translation requirements.
+            When names are generated from text that exists only in markup and is never displayed visually, there is a greater likelihood that accessible names will not be updated when the user interface design or content are changed.
+          </p>
+          <p>
+            If an interactive element, such as an input field or button, does not have a visually persistent text label, consider adjusting the design to include one.
+            In addition to serving as a more robust source for an accessible name, visible text labels enhance accessibility for many people with disabilities who do not use assistive technologies that present invisible accessible names.
+            In most circumstances, visible text labels also make the user interface easier to understand for all users.
+          </p>
+        </section>
+
+        <section id="naming_rule_native_techniques">
+          <h3>Rule 3: Prefer Native Techniques</h3>
+          <p>
+            In HTML documents, whenever possible, rely on HTML naming techniques, such as the HTML <code>label</code> element for form elements and <code>caption</code> element for tables.
+            While less flexible, their simplicity and reliance on visible text help ensure robust accessible experiences.
+            Several of the <a href="#naming_techniques">naming techniques</a> highlight specific accessibility advantages of using HTML features instead of ARIA attributes.
+          </p>
+        </section>
+
+        <section id="naming_rule_avoid_fallback">
+          <h3>Rule 4: Avoid Browser Fallback</h3>
+          <p>
+            When authors do not specify an accessible name using an element or attribute that is intended for naming, browsers attempt to help assistive technology users by resorting to fallback methods for generating a name.
+            For example, the HTML <code>title</code> and <code>placeholder</code> attributes are used as last resort sources of content for accessible names.
+            Because the purpose of these attributes is not naming, their content typically yields low quality accessible names that are not effective.
+          </p>
+        </section>
+
+        <section id="naming_rule_brief_names">
+          <h3>Rule 5: Compose Brief, Useful Names</h3>
+          <p>
+            Similar to how visually crowded screens and ambiguous icons reduce usability, excessively long, insufficiently distinct, or unclear accessible names can make a user interface very difficult, or even impossible, to use for someone who relies on a non-visual form of the user interface.
+            In other words, for a web experience to be accessible, its accessible names must be effective.
+            The section on <a href="#naming_effectively">Composing Effective and User-friendly Accessible Names</a> provides guidance for balancing brevity and clarity.
+          </p>
+        </section>
+      </section>
+
+      <section id="naming_techniques">
+        <h2 id="namingtechniques">Naming Techniques</h2>
+
+        <section id="naming_with_child_content">
+          <h3>Naming with Child Content</h3>
+          <p>
+            Certain elements get their name from the content they contain.
+            For example, the following link is named "Home".
+          </p>
+
+          <pre><code>&lt;a href="/"&gt;Home&lt;/a&gt;</code></pre>
+
+          <p>
+            When assistive technologies render an element that gets its accessible name from its content, such as a link or button, the accessible name is the only content the user can perceive for that element.
+            This is in contrast to other elements, such as text fields or tables, where the accessible name is a label that is presented in addition to the value or content of the element.
+            For instance, the accessible name of a table can be derived from a caption element, and assistive technologies render both the caption and all other content contained inside the table.
+          </p>
+          <p>Elements having one of the following roles are, by default, named by a string calculated from their descendant content:</p>
+          <ul>
+            <li>button</li>
+            <li>cell</li>
+            <li>checkbox</li>
+            <li>columnheader</li>
+            <li>gridcell</li>
+            <li>heading</li>
+            <li>link</li>
+            <li>menuitem (content contained in a child <code>menu</code> element is excluded.)</li>
+            <li>menuitemcheckbox</li>
+            <li>menuitemradio</li>
+            <li>option</li>
+            <li>radio</li>
+            <li>row</li>
+            <li>rowheader</li>
+            <li>switch</li>
+            <li>tab</li>
+            <li>tooltip</li>
+            <li>treeitem (content included in a child <code>group</code> element is excluded.)</li>
+          </ul>
+          <p>
+            When calculating a name from content for an element, user agents recursively walk through each of its descendant elements, calculate a name string for each descendant, and concatenate the resulting strings.
+            In two special cases, certain descendants are ignored: <code>group</code> descendants of <code>treeitem</code> elements and <code>menu</code> descendants of <code>menuitem</code> elements are omitted from the calculation.
+            For example, in the following <code>tree</code>, the name of the first tree item is <q>Fruits</q>; <q>Apples</q>, <q>Bananas</q>, and <q>Oranges</q> are omitted.
+          </p>
+          <pre><code>&lt;ul role="tree"&gt;
+  &lt;li role="treeitem"&gt;Fruits
+    &lt;ul role="group"&gt;
+      &lt;li role="treeitem"&gt;Apples&lt;/li&gt;
+      &lt;li role="treeitem"&gt;Bananas&lt;/li&gt;
+      &lt;li role="treeitem"&gt;Oranges&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+          <div class="warning">
+            <h4>Warning</h4>
+            <p>If an element with one of the above roles that supports naming from child content is named by using <code>aria-label</code> or <code>aria-labelledby</code>, content contained in the element and its descendants is hidden from assistive technology users unless the descendant content is referenced by <code>aria-labelledby</code>.
+            It is strongly recommended to avoid using either of these attributes to override content of one of the above elements except in rare circumstances where hiding content from assistive technology users is beneficial.
+            In addition, in situations where visible content is hidden from assistive technology users by use of one of these attributes, thorough testing with assistive technologies is particularly important.</p>
+          </div>
+        </section>
+
+        <section id="naming_with_aria-label">
+          <h3>Naming with a String Attribute Via <code>aria-label</code></h3>
+          <p>
+            The <a href="https://w3c.github.io/aria/#aria-label" class="property-reference">aria-label</a> property enables authors to name an element with a string that is not visually rendered.
+            For example, the name of the following button is "Close".
+          </p>
+          <pre><code>&lt;button type="button" aria-label="Close"&gt;X&lt;/button&gt;</code></pre>
+          <p>The <code>aria-label</code> property is useful when there is no visible text content that will serve as an appropriate accessible name.</p>
+          <p>
+            The <code>aria-label</code> property affects assistive technology users in one of two different ways, depending on the role of the element to which it is applied.
+            When applied to an element with one of the roles that supports <a href="#naming_with_child_content">naming from child content</a>, <code>aria-label</code> hides descendant content from assistive technology users and replaces it with the value of <code>aria-label</code>.
+            However, when applied to nearly any other type of element, assistive technologies will render both the value of <code>aria-label</code> and the content of the element.
+            For example, the name of the following navigation region is "Product".
+          </p>
+          <pre><code>&lt;nav aria-label="Product"&gt;
+  &lt;!-- list of navigation links to product pages --&gt;
+&lt;/nav&gt;</code></pre>
+          <p>When encountering this navigation region, a screen reader user will hear the name and role of the element, e.g., "Product navigation region", and then be able to read through the links contained in the region.</p>
+          <div class="warning">
+            <h4>Warning</h4>
+            <ol>
+              <li>
+                If <code>aria-label</code> is applied to an element with one of the roles that supports <a href="#naming_with_child_content">naming from child content</a>, content contained in the element and its descendants is hidden from assistive technology users.
+                It is strongly recommended to avoid using <code>aria-label</code> to override content of one of these elements except in rare circumstances where hiding content from assistive technology users is beneficial.
+              </li>
+              <li>
+                There are certain types of elements, such as paragraphs and list items, that should not be named with <code>aria-label</code>.
+                They are identified in the table in the <a href="#naming_role_guidance">Accessible Name Guidance by Role</a> section.
+              </li>
+              <li>Because the value of <code>aria-label</code> is not rendered visually, testing with assistive technologies to ensure the expected name is presented to users is particularly important.</li>
+              <li>When a user interface is translated into multiple languages, ensure that <code>aria-label</code> values are translated.</li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="naming_with_aria-labelledby">
+          <h3>Naming with Referenced Content Via <code>aria-labelledby</code></h3>
+          <p>
+            The <a href="https://w3c.github.io/aria/#aria-labelledby" class="property-reference">aria-labelledby property</a> enables authors to reference other elements on the page to define an accessible name.
+            For example, the following switch is named by the text content of a previous sibling element.
+          </p>
+          <pre><code>&lt;span id="night-mode-label"&gt;Night mode&lt;/span&gt;
+&lt;span role="switch" aria-checked="false" tabindex="0" aria-labelledby="night-mode-label"&gt;&lt;/span&gt;</code></pre>
+          <p>
+            Note that while using <code>aria-labelledby</code> is similar in this situation to using an HTML <code>label</code> element with the <code>for</code> attribute, one significant difference is that browsers do not automatically make clicking on the labeling element activate the labeled element; that is an author responsibility.
+            However, HTML <code>label</code> cannot be used to label a <code>span</code> element.
+            Fortunately, an HTML <code>input</code> with <code>type="checkbox"</code> allows the ARIA <code>switch</code> role, so when feasible, using the following approach creates a more robust solution.
+          </p>
+          <pre><code>&lt;label for="night-mode"&gt;Night mode&lt;/label&gt;
+&lt;input type="checkbox" role="switch" id="night-mode"&gt;</code></pre>
+          <p>The <code>aria-labelledby</code> property is useful in a wide variety of situations because:</p>
+          <ul>
+            <li>It has the highest precedence when browsers calculate accessible names, i.e., it overrides names from child content and all other naming attributes, including <code>aria-label</code>.</li>
+            <li>It can concatenate content from multiple elements into a single name string.</li>
+            <li>It incorporates content from elements regardless of their visibility, i.e., it even includes content from elements with the HTML <code>hidden</code> attribute, CSS <code>display: none</code>, or CSS <code>visibility: hidden</code> in the calculated name string.</li>
+            <li>It incorporates the value of input elements, i.e., if it references a textbox, the value of the textbox is included in the calculated name string.</li>
+          </ul>
+          <p>An example of referencing a hidden element with <code>aria-labelledby</code> could be a label for a night switch control:</p>
+          <pre><code>&lt;span id="night-mode-label" hidden&gt;Night mode&lt;/span&gt;
+&lt;input type="checkbox" role="switch" aria-labelledby="night-mode-label"&gt;</code></pre>
+          <p>
+            In some cases, the most effective name for an element is its own content combined with the content of another element.
+            Because <code>aria-labelledby</code> has highest precedence in name calculation, in those situations, it is possible to use <code>aria-labelledby</code> to reference both the element itself and the other element.
+            In the following example, the "Read more..." link is named by the element itself and the article’s heading, resulting in a name for the link of "Read more... 7 ways you can help save the bees".
+          </p>
+          <pre><code>&lt;h2 id="bees-heading"&gt;7 ways you can help save the bees&lt;/h2&gt;
+&lt;p&gt;Bees are disappearing rapidly. Here are seven things you can do to help.&lt;/p&gt;
+&lt;p&gt;&lt;a id="bees-read-more" aria-labelledby="bees-read-more bees-heading"&gt;Read more...&lt;/a&gt;&lt;/p&gt;</code></pre>
+          <p>
+            When multiple elements are referenced by <code>aria-labelledby</code>, text content from each referenced element is concatenated in the order specified in the <code>aria-labelledby</code> value.
+            If an element is referenced more than one time, only the first reference is processed.
+            When concatenating content from multiple elements, browsers trim leading and trailing white space and separate content from each element with a single space.
+          </p>
+          <pre><code>&lt;button id="download-button" aria-labelledby="download-button download-details"&gt;Download&lt;/button&gt;
+&lt;span id="download-details"&gt;PDF, 2.4 MB&lt;/span&gt;</code></pre>
+          <p>In the above example, the accessible name of the button will be "Download PDF, 2.4 MB", with a space between "Download" and "PDF", and not "DownloadPDF, 2.4 MB".</p>
+          <div class="warning">
+            <h4>Warning</h4>
+            <ol>
+              <li>The <code>aria-labelledby</code> property cannot be chained, i.e., if an element with <code>aria-labelledby</code> references another element that also has <code>aria-labelledby</code>, the <code>aria-labelledby</code> attribute on the referenced element will be ignored.</li>
+              <li>If an element is referenced by <code>aria-labelledby</code> more than one time during a name calculation, the second and any subsequent references will be ignored.</li>
+              <li>
+                There are certain types of elements, such as paragraphs and list items, that should not be named with <code>aria-labelledby</code>.
+                They are identified in the table in the <a href="#naming_role_guidance">Accessible Name Guidance by Role</a> section.
+              </li>
+              <li>
+                If <code>aria-labelledby</code> is applied to an element with one of the roles that supports <a href="#naming_with_child_content">naming from child content</a>, content contained in the element and its descendants is hidden from assistive technology users unless it is also referenced by <code>aria-labelledby</code>.
+                It is strongly recommended to avoid using this attribute to override content of one of these elements except in rare circumstances where hiding content from assistive technology users is beneficial.
+              </li>
+              <li>Because calculating the name of an element with <code>aria-labelledby</code> can be complex and reference hidden content, testing with assistive technologies to ensure the expected name is presented to users is particularly important.</li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="naming_with_labels">
+          <h3>Naming Form Controls with the Label Element</h3>
+          <p>
+            The HTML <code>label</code> element enables authors to identify content that serves as a label and associate it with a form control.
+            When a <code>label</code> element is associated with a form control, browsers calculate an accessible name for the form control from the <code>label</code> content.
+            For example, text displayed adjacent to a checkbox may be visually associated with the checkbox, so it is understood as the checkbox label by users who can perceive that visual association.
+            However, unless the text is programmatically associated with the checkbox, assistive technology users will experience a checkbox without a label.
+          </p>
+          <p>
+            HTML provides two ways of associating a label with a form control.
+            The one that provides the broadest browser and assistive technology support is to set the <code>for</code> attribute on the <code>label</code> element to the <code>id</code> of the control.
+            This way of associating the label with the control is often called explicit association.
+          </p>
+
+          <pre><code>&lt;input type="checkbox" name="subscribe" id="subscribe_checkbox"&gt;
+&lt;label for="subscribe_checkbox"&gt;subscribe to our newsletter&lt;/label&gt;</code></pre>
+
+          <p>
+            The other way, which is known as implicit association,  is to wrap the checkbox and the labeling text in a <code>label</code> element.
+            Some combinations of assistive technologies and browsers fail to treat the element as having an accessible name that is specified by using implicit association.
+          </p>
+
+<pre><code>&lt;label&gt;
+&lt;input type="checkbox" name="subscribe"&gt;
+subscribe to our newsletter
+&lt;/label&gt;</code></pre>
+
+          <p>
+            Using the <code>label</code> element is an effective technique for satisfying <a href="#naming_rule_visible_text">Rule 2: Prefer Visible Text</a>.
+            It also satisfies <a href="#naming_rule_native_techniques">Rule 3: Prefer Native Techniques</a>.
+            Native HTML labels offer an important usability and accessibility advantage over ARIA labeling techniques: browsers automatically make clicking the label equivalent to clicking the form control.
+            This increases the hit area of the form control.
+          </p>
+        </section>
+
+        <section id="naming_with_legends">
+          <h3>Naming Fieldsets with the Legend Element</h3>
+          <p>
+            The HTML <code>fieldset</code> element can be used to group form controls, and the <code>legend</code> element can be used to give the group a name.
+            For example, a group of radio buttons can be grouped together in a <code>fieldset</code>, where the <code>legend</code> element labels the group for the radio buttons.
+          </p>
+          <pre><code>&lt;fieldset&gt;
+  &lt;legend&gt;Select your starter class&lt;/legend&gt;
+  &lt;label&gt;&lt;input type="radio" name="starter-class" value="green"&gt;Green&lt;/label&gt;
+  &lt;label&gt;&lt;input type="radio" name="starter-class" value="red"&gt;Red&lt;/label&gt;
+  &lt;label&gt;&lt;input type="radio" name="starter-class" value="blue"&gt;Blue&lt;/label&gt;
+&lt;/fieldset&gt;</code></pre>
+          <p>
+            This grouping technique is particularly useful for presenting multiple choice questions.
+            It enables authors to associate a question with a group of answers.
+            If a question is not programmatically associated with its answer options, assistive technology users may access the answers without being aware of the question.
+          </p>
+          <p>Similar benefits can be gained from grouping and naming other types of related form fields using <code>fieldset</code> and <code>legend</code>.</p>
+          <pre><code>&lt;fieldset&gt;
+  &lt;legend&gt;Shipping address&lt;/legend&gt;
+  &lt;p&gt;&lt;label&gt;Full name &lt;input name="name" required&gt;&lt;/label&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;label&gt;Address line 1 &lt;input name="address-1" required&gt;&lt;/label&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;label&gt;Address line 2 &lt;input name="address-2"&gt;&lt;/label&gt;&lt;/p&gt;
+  ...
+&lt;/fieldset&gt;
+&lt;fieldset&gt;
+  &lt;legend&gt;Billing address&lt;/legend&gt;
+  ...
+&lt;/fieldset&gt;</code></pre>
+          <p>Using the <code>legend</code> element to name a <code>fieldset</code> element satisfies <a href="#naming_rule_visible_text">Rule 2: Prefer Visible Text</a> and <a href="#naming_rule_native_techniques">Rule 3: Prefer Native Techniques</a>.</p>
+        </section>
+
+        <section id="naming_with_captions">
+          <h3>Naming Tables and Figures with Captions</h3>
+          <p>
+            The accessible name for HTML <code>table</code> and <code>figure</code> elements can be derived from a child <code>caption</code> or <code>figcaption</code> element, respectively.
+            Tables and figures often have a caption to explain what they are about, how to read them, and sometimes giving them numbers used to refer to them in surrounding prose.
+            Captions can help all users better understand content, but are especially helpful to users of assistive technologies.
+          </p>
+          <p>
+            In HTML, the <code>table</code> element marks up a data table, and can be provided with a caption using the <code>caption</code> element.
+            If the <code>table</code> element does not have <code>aria-label</code> or <code>aria-labelledby</code>, then the <code>caption</code> will be used as the accessible name.
+            For example, the accessible name of the following table is <q>Special opening hours</q>.
+          </p>
+          <pre><code>&lt;table&gt;
+  &lt;caption&gt;Special opening hours&lt;/caption&gt;
+  &lt;tr&gt;&lt;td&gt;30 May&lt;/td&gt;&lt;td&gt;Closed&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;6 June&lt;/td&gt;&lt;td&gt;11:00-16:00&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+          <p>The following example gives the table a number (<q>Table 1</q>) so it can be referenced.</p>
+          <pre><code>&lt;table&gt;
+  &lt;caption&gt;Table 1. Traditional dietary intake of Okinawans and other Japanese circa 1950&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Okinawa, 1949&lt;/th&gt;
+      &lt;th&gt;Japan, 1950&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Total calories&lt;/th&gt;
+      &lt;td&gt;1785&lt;/td&gt;
+      &lt;td&gt;2068&lt;/td&gt;
+
+      [...]
+
+&lt;/table&gt;</code></pre>
+          <p>Note: Above table content is from <a href="https://www.ncbi.nlm.nih.gov/pubmed/17986602">Caloric restriction, the traditional Okinawan diet, and healthy aging: the diet of the world's longest-lived people and its potential impact on morbidity and life span</a>.</p>
+          <p>
+            If a <code>table</code> is named using <code>aria-label</code> or <code>aria-labelledby</code>, then a <code>caption</code> element, if present, will become an accessible description.
+            For an example, see <a href="#describing_with_captions">Describing Tables and Figures with Captions</a>.
+          </p>
+          <p>
+            Similarly, an HTML <code>figure</code> element can be given a caption using the <code>figcaption</code> element.
+            The caption can appear before or after the figure, but it is more common for figures to have the caption after.
+          </p>
+          <pre><code>&lt;figure&gt;
+  &lt;img alt="Painting of a person walking in a desert." src="Hole_JesusalDesierto.jpg"&gt;
+  &lt;figcaption&gt;Jesus entering the desert as imagined by William Hole, 1908&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+          <p>
+            Like with <code>table</code> elements, if a <code>figure</code> is not named using <code>aria-label</code> or <code>aria-labelledby</code>, the content of the <code>figcaption</code> element will be used as the accessible name.
+            However unlike <code>table</code> elements, if the <code>figcaption</code> element is not used for the name, it does not become an accessible description unless it is referenced by <code>aria-describedby</code>.
+            Nevertheless, assistive technologies will render the content of a <code>figcaption</code> regardless of whether it is used as a name, description, or neither.
+          </p>
+          <p>Using the <code>caption</code> element to name a <code>table</code> element, or a <code>figcaption</code> element to name a <code>figure</code> element, satisfies <a href="#naming_rule_visible_text">Rule 2: Prefer Visible Text</a> and <a href="#naming_rule_native_techniques">Rule 3: Prefer Native Techniques</a>.</p>
+        </section>
+
+        <section id="naming_with_fallback">
+          <h3>Fallback Names Derived from Titles and Placeholders</h3>
+          <p>
+            When an accessible name is not provided using one of the primary techniques (e.g., the <code>aria-label</code> or <code>aria-labelledby</code> attributes), or native markup techniques (e.g., the HTML <code>label</code> element, or the <code>alt</code> attribute of the HTML <code>img</code> element), browsers calculate an accessible name from other attributes as a fallback mechanism.
+            Because the attributes used in fallback name calculation are not intended for naming, they typically yield low quality accessible names that are not effective.
+            So, As advised by <a href="#naming_rule_avoid_fallback">Rule 4: Avoid Browser Fallback</a>, prefer the explicit labeling techniques described above over fallback techniques described in this section.
+          </p>
+          <p>
+            Any HTML element can have a <code>title</code> attribute specified.
+            The <code>title</code> attribute may be used as the element's fallback accessible name.
+            The <code>title</code> attribute is commonly presented visually as a tooltip when the user hovers over the element with a pointing device, which is not particularly discoverable, and is also not accessible to visual users without a pointing device.
+          </p>
+          <p>For example, a <code>fieldset</code> element without a <code>legend</code> element child, but with a <code>title</code> attribute, gets its accessible name from the <code>title</code> attribute.</p>
+          <pre><code>&lt;fieldset title="Select your starter class"&gt;
+  &lt;label&gt;&lt;input type="radio" name="starter-class" value="green"&gt;Green&lt;/label&gt;
+  &lt;label&gt;&lt;input type="radio" name="starter-class" value="red"&gt;Red&lt;/label&gt;
+  &lt;label&gt;&lt;input type="radio" name="starter-class" value="blue"&gt;Blue&lt;/label&gt;
+&lt;/fieldset&gt;</code></pre>
+          <p>
+            For the HTML <code>input</code> and <code>textarea</code> elements, the <code>placeholder</code> attribute is used as a fallback labeling mechanism if nothing else (including the <code>title</code> attribute) results in a label.
+            It is better to use a <code>label</code> element, since it does not disappear visually when the user focuses the form control.
+          </p>
+          <pre><code>&lt;!-- Using a &lt;label&gt; is recommended --&gt;
+&lt;label&gt;Search &lt;input type=search name=q&gt;&lt;/label&gt;
+
+&lt;!-- A placeholder is used as fallback --&gt;
+&lt;input type=search name=q placeholder="Search"&gt;</code></pre>
+        </section>
+      </section>
+
+      <section id="naming_effectively">
+        <h2 id="composingeffectiveanduser-friendlyaccessiblenames">Composing Effective and User-friendly Accessible Names</h2>
+        <p>
+          For assistive technology users, especially screen reader users, the quality of accessible names is one of the most significant contributors to usability.
+          Names that do not provide enough information reduce users' effectiveness while names that are too long reduce efficiency.
+          And, names that are difficult to understand reduce effectiveness, efficiency, and enjoyment.
+        </p>
+        <p>The following guidelines provide a starting point for crafting user friendly names.</p>
+        <ul>
+          <li>
+            Convey function or purpose, not form.
+            For example, if an icon that looks like the letter <q>X</q> closes a dialog, name it <q>Close</q>, not <q>X</q>.
+            Similarly, if a set of navigation links in the left side bar navigate among the product pages in a shopping site, name the navigation region <q>Product</q>, not <q>Left</q>.
+          </li>
+          <li>
+            Put the most distinguishing and important words first.
+            Often, for interactive elements that perform an action, this means a verb is the first word.
+            For instance, if a list of contacts displays <q>Edit</q>, <q>Delete</q>, and <q>Actions</q> buttons for each contact, then <q>Edit John Doe</q>, <q>Delete John Doe</q>, and <q>Actions for John Doe</q> would be better accessible names than <q>John Doe edit</q>, <q>John Doe delete</q>, and <q>John Doe actions</q>.
+            By placing the verb first in the name, screen reader users can more easily and quickly distinguish the buttons from one another as well as from the element that opens the contact card for John Doe.
+          </li>
+          <li>
+            Be concise.
+            For many elements, one to three words is sufficient.
+            Only add more words when necessary.
+          </li>
+          <li>
+            Do NOT include a WAI-ARIA role name in the accessible name.
+            For example, do not include the word <q>button</q> in the name of a button, the word <q>image</q> in the name of an image, or the word <q>navigation</q> in the name of a navigation region.
+            Doing so would create duplicate screen reader output since screen readers convey the role of an element in addition to its name.
+          </li>
+          <li>
+            Create unique names for elements with the same role unless the elements are actually identical.
+            For example, ensure every link on a page has a different name except in cases where multiple links reference the same location.
+            Similarly, give every navigation region on a page a different name unless there are regions with identical content that performs identical navigation functions.
+          </li>
+          <li>
+            Start names with a capital letter; it helps some screen readers speak them with appropriate inflection.
+            Do not end names with a period; they are not sentences.
+          </li>
+        </ul>
+      </section>
+
+      <section id="naming_role_guidance">
+        <h2 id="accessiblenameguidancebyrole"><span id="naming_role_guidance_heading">Accessible Name Guidance by Role</span></h2>
+        <p>
+          Certain elements always require a name, others may usually or sometimes require a name, and still others should never be named.
+          The table below lists all ARIA roles and provides the following information for each:
+        </p>
+        <dl>
+          <dt>Necessity of Naming</dt>
+          <dd>
+            Indicates how necessary it is for authors to add a naming attribute or element to supplement or override the content of an element with the specified role.
+            This column may include one of the following values:
+            <ul>
+              <li>
+                Required <strong>Only If</strong> Content Insufficient: An element with this role is named by its descendant content.
+                If <code>aria-label</code> or <code>aria-labelledby</code> is applied, content contained in the element and its descendants is hidden from assistive technology users unless it is also referenced by <code>aria-labelledby</code>.
+                Avoid hiding descendant content except in the rare circumstances where doing so benefits assistive technology users.
+              </li>
+              <li>Required: The ARIA specification requires authors to provide a name; a missing name causes accessibility validators to report an error.</li>
+              <li>Recommended: Providing a name is strongly recommended.</li>
+              <li>Discretionary: Naming is either optional or, in the circumstances described in the guidance column, is discouraged.</li>
+              <li>Do Not Name: Naming is strongly discouraged even if it is technically permitted; often assistive technologies do not render a name even if provided.</li>
+              <li>Prohibited: The ARIA specification does not permit the element to be named; If a name is specified, accessibility validators will report an error.</li>
+            </ul>
+          </dd>
+          <dt>Guidance:</dt>
+          <dd>Provides information to help determine if providing a name is beneficial, and if so, describes any recommended techniques.</dd>
+        </dl>
+        <div class="table-wrap"><table aria-labelledby="naming_role_guidance_heading">
+          <thead>
+            <tr>
+              <th>role</th>
+              <th>Necessity of Naming</th>
+              <th>Guidance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#alert" class="role-reference"><code>alert</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                Some screen readers announce the name of an alert before announcing the content of the alert.
+                Thus, <code>aria-label</code> provides a method for prefacing the visible content of an alert with text that is not displayed as part of the alert.
+                Using <code>aria-label</code> is functionally equivalent to providing off-screen text in the contents of the alert, except off-screen text would be announced by screen readers that do not support <code>aria-label</code> on <code>alert</code> elements.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#alertdialog" class="role-reference"><code>alertdialog</code></a>
+              </td>
+              <td>Required</td>
+              <td>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#application" class="role-reference"><code>application</code></a>
+              </td>
+              <td>Required</td>
+              <td>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#article" class="role-reference"><code>article</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>Recommended to distinguish articles from one another; helps users when navigating among articles.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#banner" class="role-reference"><code>banner</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>
+                    Necessary in the uncommon circumstance where two banner landmark regions are present on the same page.
+                    It is otherwise optional.
+                  </li>
+                  <li>Named using <code>aria-labelledby</code> if a visible label is present, otherwise with <code>aria-label</code>.</li>
+                  <li>See the <a href="../landmark-regions/#aria_lh_banner">Banner Landmark</a> section.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#blockquote" class="role-reference"><code>blockquote</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>If a visible label is present, associating it with the blockquote by using <code>aria-labelledby</code> could benefit some assistive technology users.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#button" class="role-reference"><code>button</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#caption" class="role-reference"><code>caption</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#cell" class="role-reference"><code>cell</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>Note that a name is not required; assistive technologies expect an empty cell in a table to be represented by an empty name.</li>
+                  <li>
+                    Note that associated row or column headers do not name a <code>cell</code>; the name of a cell in a table is its content.
+                    Headers are complementary information.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#checkbox" class="role-reference"><code>checkbox</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide any descendant content from assistive technologies.</li>
+                  <li>If based on HTML <code>type="checkbox"</code>, use a <code>label</code> element.</li>
+                  <li>Otherwise, reference visible content via <code>aria-labelledby</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#code" class="role-reference"><code>code</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#columnheader" class="role-reference"><code>columnheader</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>If the <code>columnheader</code> role is implied from an HTML <code>th</code>, the HTML <code>abbr</code> attribute can be used to specify an abbreviated version of the name that is only announced when screen readers are reading an associated <code>cell</code> within the <code>table</code>, <code>grid</code>, or <code>treegrid</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#combobox" class="role-reference"><code>combobox</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>combobox</code> role is applied to an HTML <code>select</code> or <code>input</code> element, can be named with an HTML <code>label</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#complementary" class="role-reference"><code>complementary</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>Naming is necessary when two complementary landmark regions are present on the same page.</li>
+                  <li>Naming is recommended even when one complementary region is present to help users understand the purpose of the region's content when navigating among landmark regions.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../landmark-regions/#aria_lh_complementary">Complementary Landmark</a> section.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#contentinfo" class="role-reference"><code>contentinfo</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>
+                    Necessary in the uncommon circumstance where two contentinfo landmark regions are present on the same page.
+                    It is otherwise optional.
+                  </li>
+                  <li>Named using <code>aria-labelledby</code> if a visible label is present, otherwise with <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#definition" class="role-reference"><code>definition</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>Reference the term being defined with <code>role="term"</code>, using <code>aria-labelledby</code>.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#deletion" class="role-reference"><code>deletion</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#dialog" class="role-reference"><code>dialog</code></a>
+              </td>
+              <td>Required</td>
+              <td>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#directory" class="role-reference"><code>directory</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>Naming can help users understand the purpose of the directory.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#document" class="role-reference"><code>document</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                Elements with the <code>document</code> role are contained within an element with the <code>application</code> role, which is required to have a name.
+                Typically, the name of the <code>application</code> element will provide sufficient context and identity for the <code>document</code> element.
+                Because the <code>application</code> element is used only to create unusual, custom widgets, careful assessment is necessary to determine whether or not adding an accessible name is beneficial.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#emphasis" class="role-reference"><code>emphasis</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#feed" class="role-reference"><code>feed</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>Helps screen reader users understand the context and purpose of the feed.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../../patterns/feed/">Feed Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#figure" class="role-reference"><code>figure</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>
+                    For HTML, use the <code>figure</code> and <code>figcaption</code> elements.
+                    The <code>figcaption</code> will serve as the accessible name for the <code>figure</code>.
+                    See the <a href="#naming_with_captions">Naming Tables and Figures with Captions</a> section.
+                  </li>
+                  <li>When not using HTML, or when retrofitting legacy HTML, use the <code>aria-labelledby</code> on the figure, pointing to the figure's caption.</li>
+                  <li>If there is no visible caption, <code>aria-label</code> can be used.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#form" class="role-reference"><code>form</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>Helps screen reader users understand the context and purpose of the form landmark.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../landmark-regions/#aria_lh_form">Form Landmark</a> section.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#generic" class="role-reference"><code>generic</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#grid" class="role-reference"><code>grid</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>grid</code> is applied to an HTML <code>table</code> element, then the accessible name can be derived from the table's <code>caption</code> element.</li>
+                  <li>Otherwise, use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#gridcell" class="role-reference"><code>gridcell</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>Note that a name is not required; assistive technologies expect an empty cell in a grid to be represented by an empty name.</li>
+                  <li>
+                    Note that associated row or column headers do not name a <code>gridcell</code>; the name of a cell in a grid is its content.
+                    Headers are complementary information.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#group" class="role-reference"><code>group</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>When using the HTML <code>fieldset</code> element, the accessible name can be derived from the <code>legend</code> element.</li>
+                  <li>
+                    When using the HTML <code>details</code> element, do not provide an accessible name for this element.
+                    The user interacts with the <code>summary</code> element, and that can derive its accessible name from its contents.
+                  </li>
+                  <li>When using the HTML <code>optgroup</code> element, use the <code>label</code> attribute.</li>
+                  <li>Otherwise, use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#heading" class="role-reference"><code>heading</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#insertion" class="role-reference"><code>insertion</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#img" class="role-reference"><code>img</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                For the HTML <code>img</code> element, use the <code>alt</code> attribute.
+                For other elements with the <code>img</code> role, use <code>aria-labelledby</code> or <code>aria-label</code>.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#link" class="role-reference"><code>link</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#list" class="role-reference"><code>list</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>Potentially beneficial for users of screen readers that support both list names and navigation among lists on a page.</li>
+                  <li>Potentially a source of distracting or undesirable screen reader verbosity, especially if nested within a named container, such as a navigation region.</li>
+                  <li>Can be named using <code>aria-labelledby</code> if a visible label is present, otherwise with <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#listbox" class="role-reference"><code>listbox</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>listbox</code> role is applied to an HTML <code>select</code> element (with the <code>multiple</code> attribute or a <code>size</code> attribute having a value greater than 1), can be named with an HTML <code>label</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                  <li>See the <a href="../../patterns/listbox/">Listbox Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#listitem" class="role-reference"><code>listitem</code></a>
+              </td>
+              <td>Do Not Name</td>
+              <td>Naming is not supported by assistive technologies; it is necessary to include relevant content within the list item.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#log" class="role-reference"><code>log</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                Some screen readers announce the name of a log element before announcing the content of the log element.
+                Thus, <code>aria-label</code> provides a method for prefacing the visible content of a log element with text that is not displayed as part of the log element.
+                Using <code>aria-label</code> is functionally equivalent to providing off-screen text in the contents of the log element, except off-screen text would be announced by screen readers that do not support <code>aria-label</code> on <code>log</code> elements.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#mark" class="role-reference"><code>mark</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#main" class="role-reference"><code>main</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>Potentially helpful for orienting assistive technology users, especially in single-page applications where main content changes happen without generating a page load event.</li>
+                  <li>Can be named using <code>aria-labelledby</code> if a visible label is present, otherwise with <code>aria-label</code>.</li>
+                  <li>See the <a href="../landmark-regions/#aria_lh_main">Main Landmark</a> section.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#marquee" class="role-reference"><code>marquee</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#math" class="role-reference"><code>math</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>If the <code>math</code> element has only presentational children and the accessible name is intended to convey the mathematical expression, use <code>aria-label</code> to provide a string that represents the expression.</li>
+                  <li>If the <code>math</code> element contains navigable content that conveys the mathematical expression and a visible label for the expression is present, use <code>aria-labelledby</code>.</li>
+                  <li>Otherwise, use a<code>aria-label</code> to name the expression, e.g., <code>aria-label="Pythagorean Theorem"</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#menu" class="role-reference"><code>menu</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>Use <code>aria-labelledby</code> to refer to the menuitem or button that controls this element's display.</li>
+                  <li>Otherwise, use <code>aria-label</code>.</li>
+                  <li>See the <a href="../../patterns/menubar/">Menu and Menubar Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#menubar" class="role-reference"><code>menubar</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>
+                    Helps screen reader users understand the context and purpose of <code>menuitem</code> elements in a <code>menubar</code>.
+                    Naming a <code>menubar</code> is comparable to naming a menu button.
+                    The name of a <code>button</code> that opens a <code>menu</code> conveys the purpose of the menu it opens.
+                    Since a <code>menubar</code> element is displayed persistently, a name on the <code>menubar</code> can serve that same purpose.
+                  </li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../../patterns/menubar/">Menu and Menubar Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#menuitem" class="role-reference"><code>menuitem</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide any descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>Note: content contained within a child <code>menu</code> is automatically excluded from the accessible name calculation.</li>
+                  <li>See the <a href="../../patterns/menubar/">Menu and Menubar Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#menuitemcheckbox" class="role-reference"><code>menuitemcheckbox</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide any descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>See the <a href="../../patterns/menubar/">Menu and Menubar Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#menuitemradio" class="role-reference"><code>menuitemradio</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide any descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>See the <a href="../../patterns/menubar/">Menu and Menubar Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#meter" class="role-reference"><code>meter</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If based on an HTML <code>meter</code> element, can be named with an HTML <code>label</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#navigation" class="role-reference"><code>navigation</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>Helps screen reader users understand the context and purpose of the navigation landmark.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../landmark-regions/#aria_lh_navigation">Navigation Landmark</a> section.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#none" class="role-reference"><code>none</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td>An element with <code>role="none"</code> is not part of the accessibility tree (except in error cases). Do not use <code>aria-labelledby</code> or <code>aria-label</code>.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#note" class="role-reference"><code>note</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>Naming is optional, but can help screen reader users understand the context and purpose of the note.</li>
+                  <li>Named using <code>aria-labelledby</code> if a visible label is present, otherwise with <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#option" class="role-reference"><code>option</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide any descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>See the <a href="../../patterns/combobox/">Combobox Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#paragraph" class="role-reference"><code>paragraph</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#presentation" class="role-reference"><code>presentation</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td>
+                An element with <code>role="presentation"</code> is not part of the accessibility tree (except in error cases).
+                Do not use <code>aria-labelledby</code> or <code>aria-label</code>.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#progressbar" class="role-reference"><code>progressbar</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>progressbar</code> role is applied to an HTML <code>progress</code> element, can be named with an HTML <code>label</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#radio" class="role-reference"><code>radio</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide any descendant content from assistive technologies.</li>
+                  <li>If based on HTML <code>type="checkbox"</code>, use a <code>label</code> element.</li>
+                  <li>Otherwise, reference visible content via <code>aria-labelledby</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#radiogroup" class="role-reference"><code>radiogroup</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>Recommended to help assistive technology users understand the purpose of the group of <code>radio</code> buttons.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../../patterns/radio/">Radio Group Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#region" class="role-reference"><code>region</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>Helps screen reader users understand the context and purpose of the landmark.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../landmark-regions/#aria_lh_region">Region Landmark</a> section.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#row" class="role-reference"><code>row</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient <strong>AND</strong> descendant of a <code>treegrid</code> <strong>AND</strong> the row is focusable</td>
+              <td>
+                When <code>row</code> elements are focusable in a <a href="../../patterns/treegrid/">treegrid</a>, screen readers announce the entire contents of a row when navigating by row.
+                This is typically the most appropriate behavior.
+                However, in some circumstances, it could be beneficial to change the order in which cells are announced or exclude announcement of certain cells by using <code>aria-labelledby</code> to specify which cells to announce.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#rowgroup" class="role-reference"><code>rowgroup</code></a>
+              </td>
+              <td>Do Not Name</td>
+              <td>Naming is not supported by assistive technologies.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#rowheader" class="role-reference"><code>rowheader</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>If the <code>rowheader</code> role is implied from an HTML <code>th</code>, the HTML <code>abbr</code> attribute can be used to specify an abbreviated version of the name that is only announced when screen readers are reading an associated <code>cell</code> within the <code>table</code>, <code>grid</code>, or <code>treegrid</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#scrollbar" class="role-reference"><code>scrollbar</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>
+                    Naming is optional, but can potentially help screen reader users understand the purpose of the scrollbar.
+                    The purpose is also conveyed using the <code>aria-controls</code> attribute, which is required for <code>scrollbar</code>.
+                  </li>
+                  <li>Named using <code>aria-labelledby</code> if a visible label is present, otherwise with <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#search" class="role-reference"><code>search</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>Helps screen reader users understand the context and purpose of the search landmark.</li>
+                  <li>Named using <code>aria-labelledby</code> if a visible label is present, otherwise with <code>aria-label</code>.</li>
+                  <li>See the <a href="../landmark-regions/#aria_lh_search">Search Landmark</a> section.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#searchbox" class="role-reference"><code>searchbox</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>searchbox</code> role is applied to an HTML <code>input</code> element, can be named with an HTML <code>label</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#separator" class="role-reference"><code>separator</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                <ul>
+                  <li>Recommended if there is more than one focusable <code>separator</code> element on the page.</li>
+                  <li>Can help assistive technology users understand the purpose of the separator.</li>
+                  <li>Named using <code>aria-labelledby</code> if a visible label is present, otherwise with <code>aria-label</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#slider" class="role-reference"><code>slider</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>slider</code> role is applied to an HTML <code>input</code> element, can be named with an HTML <code>label</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                  <li>See the <a href="../../patterns/slider/">Slider Pattern</a> and the <a href="../../patterns/slider-multithumb/">Slider (Multi-Thumb) Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#spinbutton" class="role-reference"><code>spinbutton</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>textbox</code> role is applied to an HTML <code>input</code> element, can be named with an HTML <code>label</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                  <li>See the <a href="../../patterns/spinbutton/">Spinbutton Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#status" class="role-reference"><code>status</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                Some screen readers announce the name of a status element before announcing the content of the status element.
+                Thus, <code>aria-label</code> provides a method for prefacing the visible content of a status element with text that is not displayed as part of the status element.
+                Using <code>aria-label</code> is functionally equivalent to providing off-screen text in the contents of the status element, except off-screen text would be announced by screen readers that do not support <code>aria-label</code> on <code>status</code> elements.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#strong" class="role-reference"><code>strong</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#subscript" class="role-reference"><code>subscript</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#superscript" class="role-reference"><code>superscript</code></a>
+              </td>
+              <td>Prohibited</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#switch" class="role-reference"><code>switch</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide any descendant content from assistive technologies.</li>
+                  <li>If based on HTML <code>type="checkbox"</code>, use a <code>label</code> element.</li>
+                  <li>Otherwise, reference visible content via <code>aria-labelledby</code>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#tab" class="role-reference"><code>tab</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#table" class="role-reference"><code>table</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If using HTML <code>table</code> element, use the <code>caption</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                  <li>See the <a href="../../patterns/table/">Table Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#tablist" class="role-reference"><code>tablist</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>Helps screen reader users understand the context and purpose of the tablist.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../../patterns/carousel/">Carousel Pattern</a> and <a href="../../patterns/tabs/">Tabs Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#tabpanel" class="role-reference"><code>tabpanel</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>Use <code>aria-labelledby</code> pointing to the <code>tab</code> element that controls the <code>tabpanel</code>.</li>
+                  <li>See the <a href="../../patterns/carousel/">Carousel Pattern</a> and <a href="../../patterns/tabs/">Tabs Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#term" class="role-reference"><code>term</code></a>
+              </td>
+              <td>Do Not Name</td>
+              <td>Since a term is usually the name for the <code>role="definition"</code> element, it could be confusing if the term itself also has a name.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#textbox" class="role-reference"><code>textbox</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>textbox</code> role is applied to an HTML <code>input</code> or <code>textarea</code> element, can be named with an HTML <code>label</code> element.</li>
+                  <li>Otherwise use <code>aria-labelledby</code> if a visible label is present.</li>
+                  <li>Use <code>aria-label</code> if a visible label is not present.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#time" class="role-reference"><code>time</code></a>
+              </td>
+              <td>Do Not Name</td>
+              <td>Naming is not supported by assistive technologies.</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#timer" class="role-reference"><code>timer</code></a>
+              </td>
+              <td>Discretionary</td>
+              <td>
+                Some screen readers announce the name of a timer element before announcing the content of the timer element.
+                Thus, <code>aria-label</code> provides a method for prefacing the visible content of a timer element with text that is not displayed as part of the timer element.
+                Using <code>aria-label</code> is functionally equivalent to providing off-screen text in the contents of the timer element, except off-screen text would be announced by screen readers that do not support <code>aria-label</code> on <code>timer</code> elements.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#toolbar" class="role-reference"><code>toolbar</code></a>
+              </td>
+              <td>Recommended</td>
+              <td>
+                <ul>
+                  <li>If there is more than one <code>toolbar</code> element on the page, naming is required.</li>
+                  <li>Helps assistive technology users to understand the purpose of the toolbar, even when there is only one toolbar on the page.</li>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../../patterns/toolbar/">Toolbar Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#tooltip" class="role-reference"><code>tooltip</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#tree" class="role-reference"><code>tree</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>Use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../../patterns/treeview/">Tree View Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#treegrid" class="role-reference"><code>treegrid</code></a>
+              </td>
+              <td>Required</td>
+              <td>
+                <ul>
+                  <li>If the <code>treegrid</code> is applied to an HTML <code>table</code> element, then the accessible name can be derived from the table's <code>caption</code> element.</li>
+                  <li>Otherwise, use <code>aria-labelledby</code> if a visible label is present, otherwise use <code>aria-label</code>.</li>
+                  <li>See the <a href="../../patterns/treegrid/">Treegrid Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://w3c.github.io/aria/#treeitem" class="role-reference"><code>treeitem</code></a>
+              </td>
+              <td>Required <strong>Only If</strong> Content Insufficient</td>
+              <td>
+                <ul>
+                  <li>Warning! Using <code>aria-label</code> or <code>aria-labelledby</code> will hide any descendant content from assistive technologies.</li>
+                  <li>Ideally named by visible, descendant content.</li>
+                  <li>Note: content contained within a child <code>group</code> is automatically excluded from the accessible name calculation.</li>
+                  <li>See the <a href="../../patterns/treeview/">Tree View Pattern</a>.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table></div>
+      </section>
+
+      <section id="name_calculation">
+        <h2 id="accessiblenamecalculation">Accessible name calculation</h2>
+        <p>
+          User agents construct an accessible name string for an element by walking through a list of potential naming methods and using the first that generates a name.
+          The algorithm they follow is defined in the <a href="https://w3c.github.io/accname/" class="accname">accessible name specification</a>.
+          It is roughly like the following:
+        </p>
+        <ol>
+          <li>
+            <p>The <code>aria-labelledby</code> property is used if present.</p>
+          </li>
+          <li>
+            <p>If the name is still empty, the <code>aria-label</code> property is used if present.</p>
+          </li>
+          <li>
+            <p>
+              If the name is still empty, then host-language-specific attributes or elements are used if present.
+              For HTML, these are, depending on the element:
+            </p>
+            <dl class="switch">
+              <dt><code>input</code> whose <code>type</code> attribute is in the Button, Submit Button, or Reset Button state</dt>
+              <dd>The <code>value</code> attribute.</dd>
+
+              <dt><code>input</code> whose <code>type</code> attribute is in the Image Button state</dt>
+              <dt><code>img</code></dt>
+              <dt><code>area</code></dt>
+              <dd>The <code>alt</code> attribute.</dd>
+
+              <dt><code>fieldset</code></dt>
+              <dd>The first child <code>legend</code> element.</dd>
+
+              <dt>Other form elements</dt>
+              <dd>The associated <code>label</code> element(s).</dd>
+
+              <dt><code>figure</code></dt>
+              <dd>The first child <code>figcaption</code> element.</dd>
+
+              <dt><code>table</code></dt>
+              <dd>The first child <code>caption</code> element.</dd>
+            </dl>
+          </li>
+          <li><p>If the name is still empty, then for elements with a role that supports naming from child content, the content of the element is used.</p></li>
+          <li>
+            <p>
+              Finally, if the name is still empty, then other fallback host-language-specific attributes or elements are used if present.
+              For HTML, these are, depending on the element:
+            </p>
+            <dl class="switch">
+              <dt><code>input</code> whose <code>type</code> attribute is in the Text, Password, Search, Telephone, or URL states</dt>
+              <dt><code>textarea</code></dt>
+              <dd>
+                The <code>title</code> attribute.
+                Otherwise, the <code>placeholder</code> attribute.
+              </dd>
+
+              <dt><code>input</code> whose <code>type</code> attribute is in the Submit Button state</dt>
+              <dd>A localized string of the word "submit".</dd>
+
+              <dt><code>input</code> whose <code>type</code> attribute is in the Reset Button state</dt>
+              <dd>A localized string of the word "reset".</dd>
+
+              <dt><code>input</code> whose <code>type</code> attribute is in the Image Button state</dt>
+              <dd>
+                The <code>title</code> attribute.
+                Otherwise, a localized string of the phrase "Submit Query".
+              </dd>
+
+              <dt><code>summary</code></dt>
+              <dd>The word "Details".</dd>
+
+              <dt>Other elements</dt>
+              <dd>The <code>title</code> attribute.</dd>
+            </dl>
+          </li>
+        </ol>
+        <p>
+          The final step is a fallback mechanism.
+          Generally when labeling an element, use one of the non-fallback mechanisms.
+        </p>
+        <p>
+          When calculating a name from content, the user agent walks through all descendant nodes except in the cases of <code>treeitem</code> and <code>menuitem</code> as described below.
+          And, when following references in an <code>aria-labelledby</code> attribute, it similarly walks the tree of each referenced element.
+          Thus, the naming algorithm is recursive.
+          The following two sections explain non-recursive and recursive examples of how the algorithm works.
+        </p>
+        <p>
+          When calculating a name from content for the <code>treeitem</code> role, descendant content of child <code>group</code> elements are not included.
+          For example, in the following <code>tree</code>, the name of the first tree item is <q>Fruits</q>; <q>Apples</q>, <q>Bananas</q>, and <q>Oranges</q> are automatically omitted.
+        </p>
+        <pre><code>&lt;ul role="tree"&gt;
+  &lt;li role="treeitem"&gt;Fruits
+    &lt;ul role="group"&gt;
+      &lt;li role="treeitem"&gt;Apples&lt;/li&gt;
+      &lt;li role="treeitem"&gt;Bananas&lt;/li&gt;
+      &lt;li role="treeitem"&gt;Oranges&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        <p>
+          Similarly, when calculating a name from content for the <code>menuitem</code> role, descendant content of child <code>menu</code> elements are not included.
+          So, the name of the first parent <code>menuitem</code> in the following <code>menu</code> is <q>Fruits</q>.
+        </p>
+        <pre><code>&lt;ul role="menu"&gt;
+  &lt;li role="menuitem"&gt;Fruits
+    &lt;ul role="menu"&gt;
+      &lt;li role="menuitem"&gt;Apples&lt;/li&gt;
+      &lt;li role="menuitem"&gt;Bananas&lt;/li&gt;
+      &lt;li role="menuitem"&gt;Oranges&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+        <section id="name_calculation_non-recursive_ex">
+          <h3>Examples of non-recursive accessible name calculation</h3>
+          <p>Consider an <code>input</code> element that has no associated <code>label</code> element and only a <code>name</code> attribute and so does not have an accessible name (do not do this):</p>
+          <pre><code>&lt;input name="code"&gt;</code></pre>
+          <p>If there is a <code>placeholder</code> attribute, then it serves as a naming fallback mechanism (avoid doing this):</p>
+
+          <pre><code>&lt;input name="code"
+  placeholder="One-time code"&gt;</code></pre>
+
+          <p>If there is also a <code>title</code> attribute, then it is used as the accessible name instead of <code>placeholder</code>, but it is still a fallback (avoid doing this):</p>
+          <pre><code>&lt;input name="code"
+  placeholder="123456"
+  title="One-time code"&gt;</code></pre>
+
+          <p>If there is also a <code>label</code> element (recommended), then that is used as the accessible name, and the <code>title</code> attribute is instead used as the accessible description:</p>
+          <pre><code>&lt;label&gt;One-time code
+  &lt;input name="code"
+    placeholder="123456"
+    title="Get your code from the app."&gt;
+&lt;/label&gt;</code></pre>
+
+          <p>If there is also an <code>aria-label</code> attribute (not recommended unless it adds clarity for assistive technology users), then that becomes the accessible name, overriding the <code>label</code> element:</p>
+
+          <pre><code>&lt;label&gt;Code
+  &lt;input name="code"
+    aria-label="One-time code"
+    placeholder="123456"
+    title="Get your code from the app."&gt;
+&lt;/label&gt;</code></pre>
+
+          <p>If there is also an <code>aria-labelledby</code> attribute, that wins over the other elements and attributes (the <code>aria-label</code> attribute ought to be removed if it is not used):</p>
+          <pre><code>&lt;p&gt;Please fill in your &lt;span id="code-label"&gt;one-time code&lt;/span&gt; to log in.&lt;/p&gt;
+&lt;p&gt;
+  &lt;label&gt;Code
+    &lt;input name="code"
+    aria-labelledby="code-label"
+    aria-label="This is ignored"
+    placeholder="123456"
+    title="Get your code from the app."&gt;
+  &lt;/label&gt;
+&lt;/p&gt;</code></pre>
+        </section>
+
+        <section id="name_calculation_recursive_ex">
+          <h3>Examples of recursive accessible name calculation</h3>
+          <p>
+            The accessible name calculation algorithm will be invoked recursively when necessary.
+            An <code>aria-labelledby</code> reference causes the algorithm to be invoked recursively, and when computing an accessible name from content the algorithm is invoked recursively for each child node.
+          </p>
+
+          <p>In this example, the label for the button is computed by recursing into each child node, resulting in <q>Move to trash</q>.</p>
+          <pre><code>&lt;button&gt;Move to &lt;img src="bin.svg" alt="trash"&gt;&lt;/button&gt;</code></pre>
+          <p>When following an <code>aria-labelledby</code> reference, the algorithm avoids following the same reference twice to avoid infinite loops.</p>
+          <p>
+            In this example, the label for the button is computed by first following the <code>aria-labelledby</code> reference to the parent element, and then computing the label for that element from the child nodes, first visiting the <code>button</code> element again but ignoring the <code>aria-labelledby</code> reference and instead using the <code>aria-label</code>, and then visiting the next child (the text node).
+            The resulting label is <q>Remove meeting: Daily status report</q>.
+          </p>
+          <pre><code>&lt;div id="meeting-1"&gt;
+  &lt;button aria-labelledby="meeting-1" aria-label="Remove meeting:"&gt;X&lt;/button&gt;
+  Daily status report
+&lt;/div&gt;</code></pre>
+        </section>
+      </section>
+
+      <section id="describing_techniques">
+        <h2 id="describingtechniques">Describing Techniques</h2>
+        <section id="describing_with_aria-describedby">
+          <h3>Describing by referencing content with <code>aria-describedby</code></h3>
+          <p>
+            The <code>aria-describedby</code> property works similarly to the <code>aria-labelledby</code> property.
+            For example, a button could be described by a sibling paragraph.
+          </p>
+          <pre><code>&lt;button aria-describedby="trash-desc"&gt;Move to trash&lt;/button&gt;
+...
+&lt;p id="trash-desc"&gt;Items in the trash will be permanently removed after 30 days.&lt;/p&gt;</code></pre>
+          <p>
+            Descriptions are reduced to text strings.
+            For example, if the description contains an HTML <code>img</code> element, a text equivalent of the image is computed.
+          </p>
+          <pre><code>&lt;button aria-describedby="trash-desc"&gt;Move to &lt;img src="bin.svg" alt="trash"&gt;&lt;/button&gt;
+...
+&lt;p id="trash-desc"&gt;Items in &lt;img src="bin.svg" alt="the trash"&gt; will be permanently removed after 30 days.&lt;/p&gt;</code></pre>
+          <p>
+            As with <code>aria-labelledby</code>, it is possible to reference an element using <code>aria-describedby</code> even if that element is hidden.
+            For example, a text field in a form could have a description that is hidden by default, but can be revealed on request using a disclosure widget.
+            The description could also be referenced from the text field directly with <code>aria-describedby</code>.
+            In the following example, the accessible description for the <code>input</code> element is <q>Your username is the name that you use to log in to this service.</q>
+          </p>
+          <pre><code>&lt;label for="username"&gt;Username&lt;/label&gt;
+&lt;input id="username" name="username" aria-describedby="username-desc"&gt;
+&lt;button aria-expanded="false" aria-controls="username-desc" aria-label="Help about username"&gt;?&lt;/button&gt;
+&lt;p id="username-desc" hidden&gt;
+  Your username is the name that you use to log in to this service.
+&lt;/p&gt;</code></pre>
+        </section>
+
+        <section id="describing_with_captions">
+          <h3>Describing Tables and Figures with Captions</h3>
+          <p>
+            In HTML, if the <code>table</code> is named using <code>aria-label</code> or <code>aria-labelledby</code>, a child <code>caption</code> element becomes an accessible description.
+            For example, a preceding heading might serve as an appropriate accessible name, and the <code>caption</code> element might contain a longer description.
+            In such a situation, <code>aria-labelledby</code> could be used on the <code>table</code> to set the accessible name to the heading content and the <code>caption</code> would become the accessible description.
+          </p>
+          <pre><code>&lt;h2 id="events-heading"&gt;Upcoming events&lt;/h2&gt;
+&lt;table aria-labelledby="events-heading"&gt;
+  &lt;caption&gt;
+    Calendar of upcoming events, weeks 27 through 31, with each week starting with
+    Monday. The first column is the week number.
+  &lt;/caption&gt;
+  &lt;tr&gt;&lt;th&gt;Week&lt;/th&gt;&lt;th&gt;Monday&lt;/th&gt;&lt;th&gt;Tuesday&lt;/th&gt;&lt;th&gt;Wednesday&lt;/th&gt;&lt;th&gt;Thursday&lt;/th&gt;&lt;th&gt;Friday&lt;/th&gt;&lt;th&gt;Saturday&lt;/th&gt;&lt;th&gt;Sunday&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;28&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="/events/9856"&gt;Crown Princess's birthday&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;29&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;30&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+          <p>
+            The HTML <code>figure</code> element can get its accessible <em>name</em> from its <code>figcaption</code> element, but it will not be used as the accessible <em>description</em>, even if it was not used as the accessible name.
+            If the <code>figcaption</code> element is appropriate as an accessible description, and the accessible name is set using <code>aria-labelledby</code> or <code>aria-label</code>, then the <code>figcaption</code> can be explicitly set as the accessible description using the <code>aria-describedby</code> attribute.
+          </p>
+          <pre><code>&lt;h2 id="neutron"&gt;Neutron&lt;/h2&gt;
+&lt;figure aria-labelledby="neutron" aria-describedby="neutron-caption"&gt;
+  &lt;img src="neutron.svg" alt="Within the neutron are three quarks (blue 'u', red 'd', green 'd') that are interconnected."&gt;
+  &lt;figcaption id="neutron-caption"&gt;
+    The quark content of the neutron. The color assignment of individual quarks is
+    arbitrary, but all three colors must be present. Forces between quarks are
+    mediated by gluons.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+        </section>
+
+        <section id="describing_with_title">
+          <h3>Descriptions Derived from Titles</h3>
+          <p>If an accessible description was not provided using the <code>aria-describedby</code> attribute or one of the primary host-language-specific attributes or elements (e.g., the <code>caption</code> element for <code>table</code>), then, for HTML, if the element has a <code>title</code> attribute, that is used as the accessible description.</p>
+          <p>
+            A visible description together with <code>aria-describedby</code> is generally recommended.
+            If a description that is not visible is desired, then the <code>title</code> attribute can be used, for any HTML element that can have an accessible description.
+          </p>
+          <p>Note that the <code>title</code> attribute might not be accessible to some users, in particular sighted users not using a screen reader and not using a pointing device that supports hover (e.g., a mouse).</p>
+          <p>For example, an <code>input</code> element with input constrained using the <code>pattern</code> attribute can use the <code>title</code> attribute to describe what the expected input is.</p>
+          <pre><code>&lt;label&gt; Part number:
+  &lt;input pattern="[0-9][A-Z]{3}" name="part"
+    title="A part number is a digit followed by three uppercase letters."/&gt;
+&lt;/label&gt;</code></pre>
+          <p>The <code>title</code> attribute in this case can be shown to the user as a tooltip when the user hovers or focuses the control, but also as part of the error message when the user agent validates the form, if the <code>input</code> element's value doesn't match the <code>pattern</code>.</p>
+          <p>As another example, a link can use the <code>title</code> attribute to describe the link in more detail.</p>
+          <pre><code>&lt;a href="http://twitter.com/W3C"
+  title="Follow W3C on Twitter"&gt;
+  &lt;img src="/2008/site/images/Twitter_bird_logo_2012.svg"
+    alt="Twitter" class="social-icon" height="40" /&gt;
+&lt;/a&gt;</code></pre>
+        </section>
+      </section>
+
+      <section id="description_calculation">
+        <h2 id="accessibledescriptioncalculation">Accessible description calculation</h2>
+        <p>Like the <a href="#name_calculation">accessible name calculation</a>, the accessible description calculation produces a text string.</p>
+        <p>
+          The accessible description calculation algorithm is the same as the accessible name calculation algorithm except for a few branch points that depend on whether a name or description is being calculated.
+          In particular, when accumulating text for an accessible description, the algorithm uses <code>aria-describedby</code> instead of <code>aria-labelledby</code>.
+        </p>
+        <p>
+          User agents construct an accessible description string for an element by walking through a list of potential description methods and using the first that generates a description.
+          The algorithm they follow is defined in the <a href="https://w3c.github.io/accname/" class="accname">accessible name specification</a>.
+          It is roughly like the following:
+        </p>
+        <ol>
+          <li>
+            <p>The <code>aria-describedby</code> property is used if present.</p>
+          </li>
+          <li>
+            <p>
+              If the description is still empty, then host-language-specific attributes or elements are used if present, if it wasn't already used as the accessible name.
+              For HTML, these are, depending on the element:
+            </p>
+            <dl class="switch">
+              <dt><code>input</code> whose <code>type</code> attribute is in the Button, Submit Button, or Reset Button state</dt>
+              <dd>The <code>value</code> attribute.</dd>
+
+              <dt><code>summary</code></dt>
+              <dd>The element's subtree.</dd>
+
+              <dt><code>table</code></dt>
+              <dd>The first child <code>caption</code> element.</dd>
+            </dl>
+          </li>
+          <li>
+            <p>
+              Finally, if the description is still empty, then other host-language-specific attributes or elements are used if present, if it wasn't already used for the accessible name.
+              For HTML, this is the <code>title</code> attribute.
+            </p>
+          </li>
+        </ol>
+      </section>
+    </div>
+  
+</div>
+<script src="/WAI/content-assets/wai-aria-practices/shared/js/skipto.js" data-skipto="colorTheme:aria; displayOption:popup; containerElement:div"></script>
+
+ 
+
+      </main>
+
+  </div>
+
+    <div class="default-grid with-gap leftcol">
+      <div class="standalone-resource__prevnext"><aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-aria-practices@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
+https://github.com/w3c/aria-practices/edit/main/content/practices/names-and-descriptions/names-and-descriptions-practice.html
+" class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
+      </div>
+    </div>
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </div>
+
+
+  <footer class="w3c-global-footer wai-global-footer default-grid" aria-label="Site">
+  <div class="inner">
+    <div class="wai-global-footer__content">
+      <div class="wai-global-footer__subsite"><a href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></div>
+      <div class="wai-global-footer__subsite-desc">Strategies, standards, resources to make the Web accessible to people with disabilities</div>
+      <div class="wai-global-footer__cta w3c-l-cluster w3c-l-cluster--vertical-align">
+        <ul class="w3c-clean-list" role="list">
+          <li class="w3c-with-icon--before w3c-with-icon--larger">
+            <img class="w3c-icon w3c-icon--larger" src="/WAI/assets/images/email.svg" width="30" height="30" alt="" aria-hidden="true">
+            <a href="/WAI/news/subscribe/">Get News in Email</a>
+          </li>
+          <li class="w3c-with-icon--before w3c-with-icon--larger">
+            <img class="w3c-icon w3c-icon--larger" src="/WAI/assets/images/social/linkedin.svg" width="30" height="30" alt="" aria-hidden="true">
+            <a href="https://www.linkedin.com/company/w3c-wai/" translate="no">LinkedIn</a>
+          </li>
+          <li class="w3c-with-icon--before w3c-with-icon--larger">
+            <img class="w3c-icon w3c-icon--larger" src="https://www.w3.org/assets/website-2021/svg/mastodon.svg" width="30" height="30" alt="" aria-hidden="true">
+            <a href="https://w3c.social/@wai" translate="no">Mastodon</a>
+          </li>
+          <li class="w3c-with-icon--before w3c-with-icon--larger">
+            <img class="w3c-icon w3c-icon--larger" src="/WAI/assets/images/social/youtube.svg" width="30" height="30" alt="" aria-hidden="true">
+            <a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/" translate="no">YouTube</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="w3c-global-footer__links">
+      <div class="w3c-l-cluster">
+        <ul class="w3c-clean-list" role="list">
+          <li><a href="/WAI/">Home</a></li>
+          <li><a href="/WAI/about/contacting/">Contact</a></li>
+          <li><a href="/WAI/sitemap/">Site map</a></li>
+          <li><a href="/WAI/about/support/">Support WAI</a></li>
+          <li><a href="/WAI/news/">News</a></li>
+          <li><a href="/WAI/about/accessibility-statement/">Accessibility statement</a></li>
+          <li><a href="/WAI/translations/">All Translations</a></li>
+          <li><a href="/WAI/roles/">Resources for roles</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="w3c-copyright" translate="no">Copyright &copy; 2026  <a href="https://www.w3.org/">World Wide Web	Consortium</a>.<br>
+      <abbr title="World Wide Web Consortium">W3C</abbr><sup>&reg;</sup>
+      <a href="https://www.w3.org/policies/#disclaimers">liability</a>,
+      <a href="https://www.w3.org/policies/#trademarks">trademark</a> and
+      <a rel="license" href="https://www.w3.org/copyright/software-license/" title="W3C Software License">permissive license</a>
+      rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1774962749643043489"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1774962749643043489"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Passed Example 6</title>
+</head>
+<body>
+	<div id="host" role="list"></div>
+	
+	<script>
+		const host = document.querySelector('#host')
+		const root = host.attachShadow({ mode: 'open' })
+		root.innerHTML = '<div role="listitem">List item 1</div> <div role="listitem">List item 2</div>'
+	</script>
+</body>
+</html>

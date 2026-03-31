@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Inapplicable Example 6</title>
+</head>
+<body>
+	<iframe id="myFrame" title="Links" srcdoc="<a href='/'>Home</a>"></iframe>
+	<div>
+		<button id="ppButton" onclick="openDialog()">Privacy policy details</button>
+	</div>
+	<dialog id="ppDialog" aria-labelledby="dialogLabel">
+		<h2 id="dialogLabel">Privacy Policy</h2>
+		<p>We store no data.</p>
+		<button id="cancel" onclick="ppDialog.close()">Cancel</button>
+	</dialog>
+	<script>
+		const openDialog = () => {
+			ppDialog.showModal();
+			myFrame.tabIndex = '-1'
+		}
+		ppDialog.addEventListener('close', () => myFrame.tabIndex = 0)
+		window.addEventListener('DOMContentLoaded', openDialog);
+	</script>
+</body>
+</html>
