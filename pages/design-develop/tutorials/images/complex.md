@@ -57,12 +57,12 @@ It is also good practice to refer to and summarize more complex images from the 
 
 ## **Example 1:** Description containing structured information
 
-In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3”, provided through the `alt` attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart. The [longdesc approach](#providing-a-link-to-the-long-description-via-longdesc) used in the following example is described later in the section.
+In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3”, provided through the `alt` attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart.
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
 
-<img src="{{ "/content-images/tutorials/images/chart.png" | relative_url }}" alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3" longdesc="{{ "/tutorials/images/examples/long-description/" | relative_url }}"><br><a href="{{ "/tutorials/images/examples/long-description/" | relative_url }}">Image Description</a>
+<img src="{{ "/content-images/tutorials/images/chart.png" | relative_url }}" alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"><br><a href="{{ "/tutorials/images/examples/long-description/" | relative_url }}">Image Description</a>
 
 {% include box.html type="end" %}
 {:/}
@@ -76,8 +76,6 @@ See [example long description](/tutorials/images/examples/long-description/) ass
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
-
-Among the approaches below, the first and fourth one make the information available to other programs, such as web browsers and search engines.
 
 ### **Approach 1:** A text link to the long description adjacent to the image
 
@@ -101,7 +99,7 @@ This approach provides a text link next to the image that refers to a separate w
 {% include box.html type="end" %}
 {:/}
 
-This approach is supported by all web browsers and assistive technologies and makes the long descriptions available to everyone. However, the link is not associated with the image in a semantic way.
+All web browsers and assistive technologies support this approach. The long descriptions are available to everyone, including search engines and other programs. However, the link is not associated with the image in a semantic way.
 
 #### Semantic association of long description link to the image
 
@@ -241,7 +239,7 @@ When the `longdesc` attribute contains a fragment identifier (`#` followed by th
 
 ## **Example 2:** Description containing textual information
 
-The WAI-ARIA `aria-describedby` attribute can be used to link to a description of the image that is provided anywhere on the same web page, in a similar way to the [longdesc approach](#providing-a-link-to-the-long-description-via-longdesc). The value of the attribute is the `id` of the element that provides the long description.
+The WAI-ARIA `aria-describedby` attribute can be used to link to a description of the image that is provided anywhere on the same web page. The value of the attribute is the `id` of the element that provides the long description.
 
 Important: The element referenced by `aria-describedby` is treated as one continuous paragraph of text. Screen readers and other assistive technology do not have access to structural information, such as any headings and tables. They will read out or provide the text of any contained elements without indicating their structural relationships, and without the corresponding navigation mechanisms. As a result, this approach only works for long descriptions that are text-only, without needing structural information as was needed in the previous example.
 
