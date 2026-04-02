@@ -29,6 +29,11 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 {% include box.html type="end" %}
 {:/}
 
+## April 2026
+
+In [Tables Tutorial](/tutorials/tables/):
+* Updated the Complete “Table with headers spanning multiple rows or columns” [Example code](/tutorials/tables/examples/scope-multiple/) to match the code in the [Tables with irregular headers](/tutorials/tables/irregular/#table-with-headers-spanning-multiple-rows-or-columns/) Example #2.
+
 ## March 2026
 
 In [Images tutorial](/tutorials/images/):
