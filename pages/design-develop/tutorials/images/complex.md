@@ -180,63 +180,6 @@ The HTML5 `<figure>` element can be used to enclose both the image and its long 
 {% include box.html type="end" %}
 {:/}
 
-### **Approach 4:** Providing a link to the long description via `longdesc`
-
-{% include ednote.html issue="599" repo="w3c/wai-tutorials" note="Remove this section depending on the outcome of this issue." status="open" %}
-
-{::nomarkdown}
-{% include box.html type="start" title="Accessibility Support: <code>Longdesc</code>, Web Browsers, and Assistive Technologies" class="note right simple" %}
-{:/}
-
-In Firefox, long descriptions linked by <code>longdesc</code> are available through “View description” in the image’s context menu. There is an <a href="https://chrome.google.com/webstore/detail/long-descriptions-in-cont/ohbmencljkleiedahijfkagnmmhbilgp">official Chrome Extension</a> that adds long description access in a similar way. Safari has no support for <code>longdesc</code>. In other web browsers, <code>longdesc</code> is currently available only to screen reader users. Mobile platforms currently do not support <code>longdesc</code>.
-
-No browser indicates the presence of the <code>longdesc</code> attribute visually, other than through the image context menus as noted above.
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
-The `longdesc` attribute can contain the URI of a separate web page that provides the long description for an image or a fragment identifier that refers to an element on the same page that provides the long description.
-
-When the `longdesc` attribute contains a URI to refer to another web page with the long description, it is recommended to also apply [Approach 1 (a text link to the long description adjacent to the image)](#a-text-link-to-the-long-description-adjacent-to-the-image). This method is a workaround for web browsers and assistive technologies that don’t fully support the `longdesc` attribute.
-
-{::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
-{:/}
-
-~~~ html
-<img
-  src="chart.png"
-  alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"
-  longdesc="2025-first-qtr.html">
-<a href="2025-first-qtr.html">Long Description</a>
-~~~
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
-When the `longdesc` attribute contains a fragment identifier (`#` followed by the `id` of an element on the same web page - a “hash link”), it refers to an element on the same web page that provides the long description. It addresses a similar use case as [Example 2, Approach 1](#structurally-associating-image-and-long-description-with-aria-describedby), though the support by web browsers and assistive technologies may vary. An additional link (by applying [Approach 2](#a-text-link-to-the-long-description-adjacent-to-the-image)) is not needed when the long description is in close proximity to the image.
-
-{::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
-{:/}
-
-~~~ html
-<img
-  src="chart.png"
-  alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"
-  longdesc="#chart-longdesc">
-[…]
-<div id="chart-longdesc">
-  […]
-</div>
-~~~
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
 ## **Example 2:** Description containing textual information
 
 The WAI-ARIA `aria-describedby` attribute can be used to link to a description of the image that is provided anywhere on the same web page. The value of the attribute is the `id` of the element that provides the long description.
