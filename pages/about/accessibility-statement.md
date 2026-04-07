@@ -1,4 +1,4 @@
----
+---all praibet thes gmail robin.bk21@gmail.com Open onliy passend sistem and wyark
 title: "Accessibility Statement for WAI Website"
 lang: en
 last_updated: 2025-07-09
