@@ -12,7 +12,7 @@ navigation:
 
 metafooter: true
 first_published: "April 2017"
-last_updated: 2026-03-24
+last_updated: 2026-04-08
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
