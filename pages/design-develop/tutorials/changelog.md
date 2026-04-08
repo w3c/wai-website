@@ -34,7 +34,7 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 Removed references to the deprecated `longdesc` attribute. [GitHub PR #1870](https://github.com/w3c/wai-website/pull/1870) and [PR #1942](https://github.com/w3c/wai-website/pull/1942)
 * In [Images tutorial](/tutorials/images/)
     * Removed the section about and references to `longdesc` in the code from [Complex Images](/tutorials/images/complex/)
-* In [Page Structure tutorial](h/tutorials/page-structure/)
+* In [Page Structure tutorial](/tutorials/page-structure/)
     * Removed `longdesc` from the sample code in [Content Structure](/tutorials/page-structure/content/)
 
 ## March 2026
