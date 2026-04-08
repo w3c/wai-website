@@ -20,7 +20,6 @@ wcag_success_criteria:
   - 2.4.8
   - 4.1.2
 wcag_techniques:
-  - H4
   - SCR26
   - G65
   - G161
