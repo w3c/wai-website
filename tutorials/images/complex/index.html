@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1775020556453657399";
+      element.src = "/WAI/assets/scripts/main.js?1775646128608099593";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1775020556453657399">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1775646128608099593">
 
 <title> Complex Images | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
@@ -210,7 +210,6 @@
       <li><a href="#approach-1-a-text-link-to-the-long-description-adjacent-to-the-image" id="markdown-toc-approach-1-a-text-link-to-the-long-description-adjacent-to-the-image"><strong>Approach 1:</strong> A text link to the long description adjacent to the image</a></li>
       <li><a href="#approach-2-describing-the-location-of-the-long-description-in-the-alt-attribute" id="markdown-toc-approach-2-describing-the-location-of-the-long-description-in-the-alt-attribute"><strong>Approach 2:</strong> Describing the location of the long description in the <code class="language-plaintext highlighter-rouge">alt</code> attribute</a></li>
       <li><a href="#approach-3-structurally-associating-the-image-and-its-adjacent-long-description-html5" id="markdown-toc-approach-3-structurally-associating-the-image-and-its-adjacent-long-description-html5"><strong>Approach 3:</strong> Structurally associating the image and its adjacent long description (HTML5)</a></li>
-      <li><a href="#approach-4-providing-a-link-to-the-long-description-via-longdesc" id="markdown-toc-approach-4-providing-a-link-to-the-long-description-via-longdesc"><strong>Approach 4:</strong> Providing a link to the long description via <code class="language-plaintext highlighter-rouge">longdesc</code></a></li>
     </ul>
   </li>
   <li><a href="#example-2-description-containing-textual-information" id="markdown-toc-example-2-description-containing-textual-information"><strong>Example 2:</strong> Description containing textual information</a></li>
@@ -233,11 +232,11 @@
 
 <h2 id="example-1-description-containing-structured-information"><strong>Example 1:</strong> Description containing structured information</h2>
 
-<p>In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3”, provided through the <code class="language-plaintext highlighter-rouge">alt</code> attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart. The <a href="#providing-a-link-to-the-long-description-via-longdesc">longdesc approach</a> used in the following example is described later in the section.</p>
+<p>In this example, a bar chart of website visitor statistics has the short description “Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3”, provided through the <code class="language-plaintext highlighter-rouge">alt</code> attribute of the image. The long description provides detailed information, including scales, values, relationships and trends that are represented visually. For example, the long description can point out the declining values for site 1, consistent values for site 2, and increasing values for site 3 that are encoded in the bar chart.</p>
 
 <aside class="box box-example"><header class="box-h  box-h-example"> Example</header><div class="box-i">
 
-<img src="/WAI/content-images/tutorials/images/chart.png" alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3" longdesc="/WAI/tutorials/images/examples/long-description/"><br><a href="/WAI/tutorials/images/examples/long-description/">Image Description</a>
+<img src="/WAI/content-images/tutorials/images/chart.png" alt="Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"><br><a href="/WAI/tutorials/images/examples/long-description/">Image Description</a>
 
 </div></aside>
 
@@ -246,8 +245,6 @@
 <p>See <a href="/WAI/tutorials/images/examples/long-description/">example long description</a> associated with this image.</p>
 
 </div></aside>
-
-<p>Among the approaches below, the first and fourth one make the information available to other programs, such as web browsers and search engines.</p>
 
 <h3 id="approach-1-a-text-link-to-the-long-description-adjacent-to-the-image"><strong>Approach 1:</strong> A text link to the long description adjacent to the image</h3>
 
@@ -266,7 +263,7 @@
 
 </div></aside>
 
-<p>This approach is supported by all web browsers and assistive technologies and makes the long descriptions available to everyone. However, the link is not associated with the image in a semantic way.</p>
+<p>All web browsers and assistive technologies support this approach. The long descriptions are available to everyone, including search engines and other programs. However, the link is not associated with the image in a semantic way.</p>
 
 <h4 id="semantic-association-of-long-description-link-to-the-image">Semantic association of long description link to the image</h4>
 
@@ -327,50 +324,9 @@
 
 </div></aside>
 
-<h3 id="approach-4-providing-a-link-to-the-long-description-via-longdesc"><strong>Approach 4:</strong> Providing a link to the long description via <code class="language-plaintext highlighter-rouge">longdesc</code></h3>
-
-<aside class="box box-note box-right box-simple"><header class="box-h  box-h-note box-h-right box-h-simple"> Accessibility Support: <code>Longdesc</code>, Web Browsers, and Assistive Technologies</header><div class="box-i">
-
-<p>In Firefox, long descriptions linked by <code>longdesc</code> are available through “View description” in the image’s context menu. There is an <a href="https://chrome.google.com/webstore/detail/long-descriptions-in-cont/ohbmencljkleiedahijfkagnmmhbilgp">official Chrome Extension</a> that adds long description access in a similar way. Safari has no support for <code>longdesc</code>. In other web browsers, <code>longdesc</code> is currently available only to screen reader users. Mobile platforms currently do not support <code>longdesc</code>.</p>
-
-<p>No browser indicates the presence of the <code>longdesc</code> attribute visually, other than through the image context menus as noted above.</p>
-
-</div></aside>
-
-<p>The <code class="language-plaintext highlighter-rouge">longdesc</code> attribute can contain the URI of a separate web page that provides the long description for an image or a fragment identifier that refers to an element on the same page that provides the long description.</p>
-
-<p>When the <code class="language-plaintext highlighter-rouge">longdesc</code> attribute contains a URI to refer to another web page with the long description, it is recommended to also apply <a href="#a-text-link-to-the-long-description-adjacent-to-the-image">Approach 1 (a text link to the long description adjacent to the image)</a>. This method is a workaround for web browsers and assistive technologies that don’t fully support the <code class="language-plaintext highlighter-rouge">longdesc</code> attribute.</p>
-
-<aside class="box box-example"><header class="box-h  box-h-example"> Code</header><div class="box-i">
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span>
-  <span class="na">src=</span><span class="s">"chart.png"</span>
-  <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"</span>
-  <span class="na">longdesc=</span><span class="s">"2025-first-qtr.html"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"2025-first-qtr.html"</span><span class="nt">&gt;</span>Long Description<span class="nt">&lt;/a&gt;</span>
-</code></pre></div></div>
-
-</div></aside>
-
-<p>When the <code class="language-plaintext highlighter-rouge">longdesc</code> attribute contains a fragment identifier (<code class="language-plaintext highlighter-rouge">#</code> followed by the <code class="language-plaintext highlighter-rouge">id</code> of an element on the same web page - a “hash link”), it refers to an element on the same web page that provides the long description. It addresses a similar use case as <a href="#structurally-associating-image-and-long-description-with-aria-describedby">Example 2, Approach 1</a>, though the support by web browsers and assistive technologies may vary. An additional link (by applying <a href="#a-text-link-to-the-long-description-adjacent-to-the-image">Approach 2</a>) is not needed when the long description is in close proximity to the image.</p>
-
-<aside class="box box-example"><header class="box-h  box-h-example"> Code</header><div class="box-i">
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span>
-  <span class="na">src=</span><span class="s">"chart.png"</span>
-  <span class="na">alt=</span><span class="s">"Bar chart showing monthly and total visitors for the first quarter 2025 for sites 1 to 3"</span>
-  <span class="na">longdesc=</span><span class="s">"#chart-longdesc"</span><span class="nt">&gt;</span>
-[…]
-<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"chart-longdesc"</span><span class="nt">&gt;</span>
-  […]
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
-
-</div></aside>
-
 <h2 id="example-2-description-containing-textual-information"><strong>Example 2:</strong> Description containing textual information</h2>
 
-<p>The WAI-ARIA <code class="language-plaintext highlighter-rouge">aria-describedby</code> attribute can be used to link to a description of the image that is provided anywhere on the same web page, in a similar way to the <a href="#providing-a-link-to-the-long-description-via-longdesc">longdesc approach</a>. The value of the attribute is the <code class="language-plaintext highlighter-rouge">id</code> of the element that provides the long description.</p>
+<p>The WAI-ARIA <code class="language-plaintext highlighter-rouge">aria-describedby</code> attribute can be used to link to a description of the image that is provided anywhere on the same web page. The value of the attribute is the <code class="language-plaintext highlighter-rouge">id</code> of the element that provides the long description.</p>
 
 <p>Important: The element referenced by <code class="language-plaintext highlighter-rouge">aria-describedby</code> is treated as one continuous paragraph of text. Screen readers and other assistive technology do not have access to structural information, such as any headings and tables. They will read out or provide the text of any contained elements without indicating their structural relationships, and without the corresponding navigation mechanisms. As a result, this approach only works for long descriptions that are text-only, without needing structural information as was needed in the previous example.</p>
 
@@ -446,7 +402,7 @@ https://github.com/w3c/wai-website/edit/main/pages/design-develop/tutorials/imag
         
           Updated
         
-        17 March 2026
+        08 April 2026
         
       </div>
       <div>
@@ -515,9 +471,9 @@ https://github.com/w3c/wai-website/edit/main/pages/design-develop/tutorials/imag
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1775020556453657399"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1775646128608099593"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1775020556453657399"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1775646128608099593"></script>
 <script>
   svg4everybody();
 </script><script>
