@@ -81,7 +81,7 @@ Once you are a member of the APA Working Group, email the [W3C Staff Contact for
 
 ## Task force participants
 
-* [Chairs](https://www.w3.org/groups/tf/fast/participants/#chairs)
+* [Facilitators](https://www.w3.org/groups/tf/fast/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/fast/participants/#participants)
 
 ## Communications
