@@ -83,7 +83,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Task force participants
 
-* [Chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs)
+* [Facilitator](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#participants)
 
 ## Communications
