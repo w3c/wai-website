@@ -31,10 +31,10 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 
 ## April 2026
 
-In [Menus tutorial](/tutorials/menu)
-* Removed references to WCAG Technique H4 concerning logical tab order. It is marked as obsolte and not referenced from any Understanding document. [PR 1954](https://github.com/w3c/wai-website/pull/1954)
+In [Menus tutorial](/tutorials/menus/):
+* Removed references to WCAG Technique H4 concerning logical tab order. It is marked as obsolete and not referenced from any Understanding document. [GitHub PR #1954](https://github.com/w3c/wai-website/pull/1954)
 
-Removed references to the deprecated `longdesc` attribute. [GitHub PR #1870](https://github.com/w3c/wai-website/pull/1870) and [PR #1942](https://github.com/w3c/wai-website/pull/1942)
+Removed references to the deprecated `longdesc` attribute — [GitHub PR #1870](https://github.com/w3c/wai-website/pull/1870) and [PR #1942](https://github.com/w3c/wai-website/pull/1942):
 * In [Images tutorial](/tutorials/images/)
     * Removed the section about and references to `longdesc` in the code from [Complex Images](/tutorials/images/complex/)
 * In [Page Structure tutorial](/tutorials/page-structure/)
