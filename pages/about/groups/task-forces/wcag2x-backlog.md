@@ -85,7 +85,7 @@ Once you are a member of the AG Working Group, email the [W3C staff contact for 
 
 ## Task force participants
 
-* [Chairs](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#chairs)
+* [Facilitators](https://www.w3.org/groups/tf/wcag2x-backlog/participants/#chairs)
 * [Participants](https://www.w3.org/groups/tf/wcag2x-backlog/participants/)
 
 ## Communications
