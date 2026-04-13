@@ -83,7 +83,7 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 
 ## Task force participants
 
-* [Chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
+* [Facilitator](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/personalization-tf/participants/#participants)
 
 ## Communications
