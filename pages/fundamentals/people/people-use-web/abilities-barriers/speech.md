@@ -44,7 +44,7 @@ acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
   <p><strong>Editor:</strong> Shadi Abou-Zahra. Previous editor: Judy Brewer. Contributors listed in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="https//www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -138,7 +138,7 @@ Speech disabilities include difficulty producing speech that is recognizable by 
 
 **Note:** The examples given in this section are not a complete list of all disabilities or barriers.
 
-## Introduction
+## Introduction {#introduction-extended}
 
 People with speech disabilities encounter barriers with voice-based services, such as automated hotlines and applications that are operated using voice commands. To use services that rely on voice, people with speech disabilities need alternative modes of interaction such as text-based chat to interact with hotline representatives. Also, when the telephone numbers is the only means of communicating with an organization, it poses barriers for people with speech disabilities. Alternative means of communication include e-mail and feedback forms.
 

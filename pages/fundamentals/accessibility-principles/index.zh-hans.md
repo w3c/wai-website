@@ -11,7 +11,6 @@ teaser_text: 无障碍原则页面介绍了网站、web应用程序、浏览器�
 
 translation:
   last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators: 
 - name: "李松峰"   # Replace @@ with translator name
@@ -34,7 +33,7 @@ changelog: /fundamentals/accessibility-principles/changelog/   # Do not change t
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p><strong>编者：</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">致谢</a>.</p>
-  <p>由教育及外展工作组(<a href="https//www.w3.org/WAI/EO/">EOWG</a>)开发. 之前该网页受 <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE 特别任务团</a>和<a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE项目</a>的支持.</p>
+  <p>由教育及外展工作组(<a href="https://www.w3.org/WAI/EO/">EOWG</a>)开发. 之前该网页受 <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE 特别任务团</a>和<a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE项目</a>的支持.</p>
 ---
 
 {::nomarkdown}

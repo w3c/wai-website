@@ -2,7 +2,7 @@
 title: Participating in WAI
 nav_title: "Participating"
 lang: en
-last_updated: 2024-10-03
+last_updated: 2025-11-14
 permalink: /about/participating/
 ref: /about/participating/
 
@@ -11,7 +11,6 @@ github:
 
 footer: >
   <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
-  <p>Developed with the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---
 
 {::nomarkdown}
@@ -80,12 +79,13 @@ formal period for public review. To get notified of open calls for review, see v
 
 ### Participating in Community Groups {#CGs}
 
-W3C Community Groups cover a variety of topics. **Anyone can join Community Groups**, after getting a free W3C account and signing the W3C Community Contributor License Agreement. Of the long [list of Community Groups](https://www.w3.org/community/groups/), here are some that are actively seeking contributors:
+**Anyone can join W3C Community Groups** after getting a free W3C account and signing the W3C Community Contributor License Agreement. Of the long [list of Community Groups](https://www.w3.org/community/groups/), here are some acccessibility groups that are actively seeking contributors:
+* [Accessibility for Children CG](https://www.w3.org/community/accessibility4children/)
+* [Accessibility Internationalization CG](https://www.w3.org/community/global-inclusion/)
+* [Accessibility Roles and Responsibilities Mapping (ARRM) CG](https://www.w3.org/community/arrm/)
 * [ACT Rules CG](https://www.w3.org/community/act-r/)
-* [ARIA and Assistive Technologies CG](https://www.w3.org/community/aria-at/)
+* [Authoring Tool Accessibility Guidelines (ATAG) CG](https://www.w3.org/community/atag)
 * [Cognitive Accessibility CG](https://www.w3.org/community/coga-community/)
-* [Immersive Captions CG](https://www.w3.org/community/immersive-captions/)
-* [Low Vision CG](https://www.w3.org/community/low-vision/)
 
 ### Participating in Interest Groups  {#IG}
 
@@ -107,13 +107,13 @@ and to get information on participation.
 -   **[APA](/WAI/APA/)** &mdash; The Accessible Platform Architectures (APA) Working Group reviews W3C's specifications for accessibility support and develops technical support materials. **See [Participating in APA WG](/WAI/APA/participation)**.
 -   **[ARIA](/WAI/ARIA/)** &mdash; The Accessible Rich Internet Applications Working Group develops a suite of accessible rich internet applications (ARIA) resources, and accessible APIs and mappings. **See [Participating in ARIA WG](/WAI/ARIA/participation)**.
 
-## Sponsoring WAI
+## Support WAI Financially
 
 WAI's work is supported in part by sponsorship from industry,
 disability, and government organizations interested in contributing to
 WAI's efforts to make the web more accessible. Please see the list of
-current sponsors and information on WAI sponsorship at [Sponsoring
-WAI]({{"/about/sponsoring/" | relative_url }}).
+current sponsors and information on WAI sponsorship at [[Support
+WAI Financially]](/about/support/).
 
 ## Promoting and Implementing Web Accessibility
 

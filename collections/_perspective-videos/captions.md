@@ -46,7 +46,7 @@ Web accessibility is essential for people with disabilities and useful for all. 
 {:#film.no-display}
 
 {% include video-player-data.html
-    video-id="captions"
+    video-id="perspectives_captions"
     yt-id="iWO5N3n1DXU"
     yt-id-ad="4qIordU8vT8"
 %}
@@ -92,7 +92,7 @@ Learn more {#resources}
 -   **User Story:**
     -   [Martine, online student who is hard of hearing](/people-use-web/user-stories/archived/#onlinestudent)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "captions"](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
+    -   [Success Criteria relating to "captions"](https://www.w3.org/WAI/WCAG22/quickref/?tags=captions)
 -   **Mobile Applicability:**
     -   [Multimedia with no captions](https://www.w3.org/WAI/mobile/experiences.html#multimedia)
 

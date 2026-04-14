@@ -26,8 +26,6 @@ last_updated: 2017-04-21
 editors:
 - Eric Eggert: "https://www.w3.org/People/yatil/"
 - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
@@ -70,7 +68,7 @@ Use `aria-labelledby` to point to an existing element by its (unique) `id`. The 
 Explore other WAI-ARIA resources:
 
 * [WAI-ARIA Overview](/standards-guidelines/aria/)
-* [Notes on Using ARIA in HTML](https://www.w3.org/TR/aria-in-html/)
+* [ARIA in HTML](https://www.w3.org/TR/html-aria/) web standard
 
 Note: This approach using headings is also backward compatible for older web browsers and assistive technologies do not process HTML5 and WAI-ARIA.
 

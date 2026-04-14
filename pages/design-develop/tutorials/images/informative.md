@@ -23,8 +23,6 @@ last_updated: 2019-06-17
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
@@ -47,15 +45,15 @@ In some situations a detailed literal description may be needed, but only when t
 
 ## **Example 1:** Images used to label other information
 
-This example shows two image icons – one of a telephone, one of a fax machine. A phone number follows each image. Consistent with the visual presentation, the text alternatives “Telephone:” and “Fax:” are used to identify the device associated with each number.
+This example shows two image icons – one of a telephone, one of a fax machine. A phone number follows each image. Consistent with the visual presentation, the text alternatives “Telephone” and “Fax” are used to identify the device associated with each number.
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
 {:/}
 
-![Telephone:]({{ "/content-images/tutorials/images/phone.png" | relative_url }}){:style="vertical-align:middle;"} 0123 456 7890
+![Telephone]({{ "/content-images/tutorials/images/phone.png" | relative_url }}){:style="vertical-align:middle;"} 0123 456 7890
 
-![Fax:]({{ "/content-images/tutorials/images/fax.png" | relative_url }}){:style="vertical-align:middle;"} 0123 456 7891
+![Fax]({{ "/content-images/tutorials/images/fax.png" | relative_url }}){:style="vertical-align:middle;"} 0123 456 7891
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -67,10 +65,10 @@ This example shows two image icons – one of a telephone, one of a fax machine.
 
 ~~~ html
 <p>
-  <img src="phone.png" alt="Telephone:"> 0123 456 7890
+  <img src="phone.png" alt="Telephone"> 0123 456 7890
 </p>
 <p>
-  <img src="fax.png" alt="Fax:"> 0123 456 7891
+  <img src="fax.png" alt="Fax"> 0123 456 7891
 </p>
 ~~~
 

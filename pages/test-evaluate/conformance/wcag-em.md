@@ -5,7 +5,7 @@ title: "WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodolo
 title_html: "WCAG-EM Overview:<br>Website Accessibility Conformance Evaluation Methodology"
 nav_title: "WCAG-EM Conformance Methodology"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2020-04-28  # Keep the date of the English version
+last_updated: 2026-02-05  # Keep the date of the English version
 first_published: "as “Conformance Evaluation of Web Sites for Accessibility” in September 2005"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -29,7 +29,7 @@ ref: /test-evaluate/conformance/wcag-em/   # Do not change this
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) and the WCAG 2.0 Evaluation Methodology Task Force (<a href="https://www.w3.org/WAI/ER/2011/eval/eval-tf">Eval TF</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245).</p>
+  <p>Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245).</p>
 ---
 
 {::nomarkdown}
@@ -40,7 +40,8 @@ This page introduces the Website Accessibility Conformance Evaluation Methodolog
 
 Quick links to the resources:
 
--   [Website Accessibility Conformance Evaluation Methodology (WCAG-EM)](http://www.w3.org/TR/WCAG-EM/)
+-   [Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0](http://www.w3.org/TR/WCAG-EM/)
+-   [Draft W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0](https://www.w3.org/TR/wcag-em-2/)
 -   [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](http://www.w3.org/WAI/eval/report-tool/)
 
 {::nomarkdown}
@@ -157,9 +158,26 @@ Text Transcript with Description of Visuals
 
 {% include excol.html type="end" %}
 
+## Update: WCAG-EM 2 Draft
+
+W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2 is an in-progress draft for review. What's different:
+- WCAG-EM 1 is specifically for testing websites and web pages.
+- WCAG-EM 2 also applies to apps and other digital products.
+
+For more information on the differences, see the WCAG-EM 2 [Changelog (GitHub)](https://github.com/w3c/wai-wcag-em/?tab=readme-ov-file#changelog).
+
+We invite you to review and comment on this draft.
+- Are all digital products that evaluators commonly evaluate covered by this methodology, or are any explicitly excluded?
+- Does the terminology of 'sample set' and 'sample' match how evaluators use it in their evaluations?
+- Is this new version more useful for evaluators when they evaluate apps?
+
+To comment, please open a new issue in the [wai-wcag-em GitHub repository](https://github.com/w3c/wai-wcag-em/). Create a separate GitHub issue for each topic, rather than commenting on multiple topics in a single issue. If it's not feasible for you to use GitHub, email your comments to public-agwg-comments@w3.org Please put your comments in the body of the message, not as an attachment.
+
+_The rest of this page covers WCAG-EM 1. It also applies to WCAG-EM 2._
+
 ## Introduction
 
-Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining how well a website conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
+Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1 is an approach for determining how well a website conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
 
 If you want to get a general sense of how a web page addresses a few accessibility issues, see [Easy Checks - A First Review of Web Accessibility](/test-evaluate/preliminary/). It is usually best to do preliminary checks before applying WCAG-EM, and to address potential accessibility barriers before investing in a more thorough review such as WCAG-EM.
 
@@ -203,5 +221,8 @@ The [**WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator**]
 Who develops WCAG-EM {#wg}
 ---------------------------
 
-WCAG-EM is developed by the WCAG 2.0 Evaluation Methodology Task Force ([Eval TF](https://www.w3.org/WAI/ER/2011/eval/eval-tf)), which is a joint task force of the Web Content Accessibility Guidelines Working Group ([WCAG WG](https://www.w3.org/WAI/GL/)) and Evaluation and Repair Tools Working Group ([ERT WG](https://www.w3.org/WAI/ER/)). The Working Groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
+WCAG-EM 2.0 is developed by the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/groups/wg/ag/)).
 
+WCAG-EM 1.0 was developed by the WCAG 2.0 Evaluation Methodology Task Force, which was a joint task force of the Web Content Accessibility Guidelines Working Group and Evaluation and Repair Tools Working Group.
+
+The groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).

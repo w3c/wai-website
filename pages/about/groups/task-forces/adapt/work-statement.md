@@ -44,7 +44,7 @@ As the nature of web technology broadens in scope and reach, and understanding o
 
 ## Approach
 
-The task force will work within the APA Working Group to develop and refine WAI-Adapt. It will coordinate with other stakeholders, such as the [Cognitive and Learning Disabilities Task Force](/about/groups/task-forces/coga/), the [Digital Publishing Working Group](https://www.w3.org/publishing/groups/publ-wg/), [IMS Global Learning Consortium](https://www.imsglobal.org/), etc. It will prepare content for WAI-Adapt, which will be reviewed and published upon approval by the APA Working Group. It may archive features for consideration in a future version in order to maintain an achievable scope for the current version.
+The task force will work within the APA Working Group to develop and refine WAI-Adapt. It will coordinate with other stakeholders, such as the [Cognitive and Learning Disabilities Task Force](/about/groups/task-forces/coga/), the [Digital Publishing Working Group](https://www.w3.org/publishing/groups/publ-wg/), [IMS Global Learning Consortium {% include_cached external.html %}](https://www.imsglobal.org/), etc. It will prepare content for WAI-Adapt, which will be reviewed and published upon approval by the APA Working Group. It may archive features for consideration in a future version in order to maintain an achievable scope for the current version.
 
 In addition to the features defined in WAI-Adapt, other work also addresses the broader topic of personalization to enhance accessibility. [CSS](https://www.w3.org/Style/CSS/) provides many features to allow content to adapt to aspects of the user environment; [RDFa](https://www.w3.org/TR/rdfa-core/) and [HTML Microdata](https://www.w3.org/TR/microdata/) provide ways to add semantics to content that can aid user adaptation; some [Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) can be met by enabling personalization. The task force will seek to develop a common vision for personalization approaches, coordinating with other groups as needed. The task force will engage the [Accessible Platform Architectures Working Group](/about/groups/apawg/) to help harmonize this coordination with other accessibility activity.
 
@@ -69,7 +69,7 @@ Participants may also join WAI-Adapt Task Force sub-groups. Sub-groups take on s
 
 If you are interested in becoming a participant of the WAI-Adapt Task Force or have any questions regarding its work, contact the task force facilitators.
 
-[Current WAI-Adapt Task Force participants](https://www.w3.org/2000/09/dbwg/details?group=101569&public=1)
+[Current WAI-Adapt Task Force participants](https://www.w3.org/groups/tf/personalization-tf/participants/)
 
 ## Facilitation
 
@@ -80,4 +80,4 @@ Staff contacts from the APA Working Groups oversee attention to W3C Process with
 
 ## Patent Policy
 
-This Task Force is part of the [APA Working Group Charter](https://www.w3.org/WAI/APA/charter), which operates under the [W3C Patent Policy](https://www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [APA Working Group](https://www.w3.org/2004/01/pp-impl/83907/status).
+This Task Force is part of the [APA Working Group Charter](https://www.w3.org/WAI/APA/charter), which operates under the [W3C Patent Policy](https://www.w3.org/policies/patent-policy/20200915/) (15 September 2020 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [APA Working Group](https://www.w3.org/2004/01/pp-impl/83907/status).

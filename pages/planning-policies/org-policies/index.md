@@ -229,7 +229,7 @@ Each page of the website will include a link to a form allowing users to submit 
 {% include box.html type="start" title="Example of simple policy" class="example" %}
 {:/}
 
-ACME Inc. is committed to ensuring the accessibility of its web content to people with disabilities. All of the content on our website will meet W3C WAI's [Web Content Accessibility Guidelines](/TR/WCAG/) 2.1, Level AA conformance. Report any issues should to <accessibility@acme.inc>.
+ACME Inc. is committed to ensuring the accessibility of its web content to people with disabilities. All of the content on our website will meet W3C WAI's [Web Content Accessibility Guidelines](/TR/WCAG/) 2.1, Level AA conformance. Report any issues to <accessibility@acme.inc>.
 
 {::nomarkdown}
 {% include box.html type="end" %}

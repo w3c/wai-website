@@ -4,7 +4,7 @@ title: "Changelog for Accessibility Fundamentals Overview"
 title_html: "Changelog for <a href='/WAI/fundamentals/'> Accessibility Fundamentals Overview</a>"
 nav_title: "Changelog"
 lang: en
-last_updated: 2024-09-25
+last_updated: 2025-04-03
 
 permalink: /fundamentals/changelog/
 ref: /fundamentals/changelog/
@@ -14,6 +14,10 @@ github:
 
 feedbackmail: wai@w3.org
 ---
+
+## 3 April 2025
+
+- In the “Research” section: updated the description of “Accessibility User Requirements”.
 
 ## 30 August 2023
 

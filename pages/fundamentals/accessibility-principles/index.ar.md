@@ -10,7 +10,6 @@ description: نبذة عن مبادئ متطلبات إمكانية الوصول
 
 translation:
   last_updated: 2023-12-06  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
 
 translators:
 - name: "محمد سليم"
@@ -32,7 +31,7 @@ image: /content-images/accessibility-principles/social.png
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p><strong>المحررون:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou Zahra</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments"> شكر وتقدير </a>.</p>
-  <p> تم تطويره بمساهمة فريق التعليم و التوعية (<a href="https//www.w3.org/WAI/EO/">EOWG</a>). طور سابقا من قبل <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE فريق</a>, بمساعدة<a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE مشروع</a>.</p>
+  <p> تم تطويره بمساهمة فريق التعليم و التوعية (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). طور سابقا من قبل <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE فريق</a>, بمساعدة<a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE مشروع</a>.</p>
 ---
  
 {::nomarkdown}

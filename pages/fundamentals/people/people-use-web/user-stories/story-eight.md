@@ -166,8 +166,8 @@ Browser settings aren't respected
 : **Works well:** "It's great when I can turn off these images using the ad blocker in my browser."-->
 
 Complex language
-: **Barrier:** "Complex language and sentence structure are confusing to me and hard to read and retain.
-: **Works well:** Use short sentences and plain language as much as possible."
+: **Barrier:** "Complex language and sentence structure are confusing to me and hard to read and retain."
+: **Works well:** "Use short sentences and plain language as much as possible."
 
 Excessive acronyms and abbreviations
 : **Barrier:** "Excessive use of acronyms and abbreviations is distracting and I often must reread several times or sometimes just get stuck and give up."

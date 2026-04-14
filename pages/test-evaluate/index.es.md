@@ -5,11 +5,10 @@
 title: "Visión general sobre la evaluación de la accesibilidad web"
 nav_title: "Visión general sobre la evaluación"
 lang: es
-last_updated: 2021-05-07  # Keep the date of the English version
+last_updated: 2023-08-01  # Keep the date of the English version
 
 translation:
-  last_updated: 2021-05-20  # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
+  last_updated: 2025-04-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Jorge Rumoroso"
@@ -133,7 +132,12 @@ La evaluación de conformidad determina el grado en que las páginas o las aplic
 [Herramienta de informes ATAG](https://www.w3.org/WAI/atag/report-tool/)
 :   Es una ayuda para generar informes sobre el cumplimiento que una herramienta tiene respecto a las Pautas de Accesibilidad de Herramientas de Autor ([ATAG](/standards-guidelines/atag/)). Las herramientas de autoría son programas y servicios utilizados para crear contenidos web, como los sistemas de gestión de contenidos (CMS) y los editores de HTML "lo que ves es lo que obtienes" (WYSIWYG).
 
-Comunique los resultados de la evaluación claramente, incluyendo el ámbito de aplicación.
+[Reglas para pruebas de conformidad de accesibilidad (ACT)](/standards-guidelines/act/rules/about/)
+:  Describen cómo comprobar la conformidad de estándares de accesibilidad tales como WCAG y WAI-ARIA. Las reglas ACT se usan principalmente por desarrolladores de herramientas y metodologías de pruebas. Los evaluadores de accesibilidad pueden encontrar que algunas reglas son útiles para evaluar casos complicados de forma consistente.
+
+<!-- Comunique los resultados de la evaluación claramente, incluyendo el ámbito de aplicación. -->
+
+Las especificaciones para expresar los resultados de las pruebas (EARL) y para escribir reglas para pruebas de accesibilidad (en formato de las reglas para pruebas de conformidad de accesibilidad (ACT)) se presentan en el [resumen de los estándares de evaluación](/standards-guidelines/evaluation/).
 
 ## Personas
 

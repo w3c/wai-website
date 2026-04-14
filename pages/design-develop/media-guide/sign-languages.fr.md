@@ -119,7 +119,7 @@ Assurez-vous que l’image de l’interprète en langue des signes soit suffisam
 
 Évitez de dissimuler du contenu important – _post-production_
 : Positionnez l’interprète en langue des signes de manière à éviter de dissimuler des informations importantes dans la vidéo. L’interprète est généralement placé en bas à droite. Si votre vidéo contient des informations telles qu’un bandeau déroulant d’actualité, positionnez l’interprète en langue des signes au-dessus.
-: Idéalement, lorsque la vidéo a été réalisée, la position de l’interprète a été prévue, comme indiqué dans une autre page de cette ressource : [Prévoyez l’interprétation en langue des signes – storyboarding, enregistrement](/media/av/av-content/#plan-for-sign-language--storyboarding-recording).
+: Idéalement, lorsque la vidéo a été réalisée, la position de l’interprète a été prévue, comme indiqué dans une autre page de cette ressource : [Prévoyez l’interprétation en langue des signes – storyboarding, enregistrement](/media/av/av-content/#plan-for-sign-language).
 
 Rendez la (les) vidéo(s) en langue des signes facile(s) à découvrir et à utiliser
 : Facilitez l’accès à la vidéo avec la langue des signes et à la vidéo sans langue des signes.

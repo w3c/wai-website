@@ -9,6 +9,7 @@ last_updated: 2024-03-07  # Keep the date of the English version
 description: WCAG2.0、WCAG2.1、WCAG2.2を含む、国際標準のウェブコンテンツアクセシビリティガイドライン（WCAG）を紹介。WCAG文書は、ウェブコンテンツを障害がある人にとってよりアクセシブルにする方法を説明しています。
 
 translation:
+  outdated: true
   last_updated: 2024-04-05  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -20,7 +21,7 @@ github:
 permalink: /standards-guidelines/wcag/ja  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /standards-guidelines/wcag/  # Do not change this
 
-image: /content-images/wcag/wcag-intro-social.jpg
+image: /content-images/wcag/general-social.png
 feedbackmail: wai@w3.org
 
 # In the footer below:

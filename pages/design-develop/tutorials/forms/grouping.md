@@ -24,12 +24,10 @@ wcag_techniques:
   - H85
 
 metafooter: true
-last_updated: 2019-07-27
+last_updated: 2026-03-27
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
@@ -154,7 +152,7 @@ In the example below, three checkboxes are part of an opt-in function for receiv
 ### Related fields
 {:.ex.inap}
 
-This example shows form fields to enter shipping and billing addresses. As the labels in both groups have the same text, the `fieldset` element also helps to distinguish the form fields by their groups. In case the `<legend>` is not read by screen readers (see note below), labels for the first form control in each group should include the group’s name. This name can be hidden visually.
+This example shows form fields to enter shipping and billing addresses. As the labels in both groups have the same text, the `fieldset` element also helps to distinguish the form fields by their groups. 
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
@@ -164,7 +162,7 @@ This example shows form fields to enter shipping and billing addresses. As the l
 	<fieldset style="float: left; border: 1px solid #888; padding: 5px; margin-right: 10px;">
 		<legend>Shipping Address:</legend>
 		<div>
-			<label for="shipping_name"><span class="visuallyhidden">Shipping </span>Name:</label><br>
+			<label for="shipping_name">Name:</label><br>
 			<input type="text" name="shipping_name" id="shipping_name">
 		</div>
 		<div>
@@ -187,7 +185,7 @@ This example shows form fields to enter shipping and billing addresses. As the l
 	<fieldset style="float: left; border: 1px solid #888; padding: 5px;">
 		<legend>Billing Address:</legend>
 		<div>
-			<label for="billing_name"><span class="visuallyhidden">Billing </span>Name:</label><br>
+			<label for="billing_name">Name:</label><br>
 			<input type="text" name="billing_name" id="billing_name">
 		</div>
 		<div>
@@ -220,9 +218,7 @@ This example shows form fields to enter shipping and billing addresses. As the l
 <fieldset>
 	<legend>Shipping Address:</legend>
 	<div>
-		<label for="shipping_name">
-      <span class="visuallyhidden">Shipping </span>Name:
-    </label><br>
+		<label for="shipping_name">Name:</label><br>
 		<input type="text" name="shipping_name" id="shipping_name">
 	</div>
   <div>
@@ -234,9 +230,7 @@ This example shows form fields to enter shipping and billing addresses. As the l
 <fieldset>
 	<legend>Billing Address:</legend>
 	<div>
-		<label for="billing_name">
-      <span class="visuallyhidden">Billing </span>Name:
-    </label><br>
+		<label for="billing_name">Name:</label><br>
 		<input type="text" name="billing_name" id="billing_name">
 	</div>
   <div>
@@ -271,7 +265,7 @@ This technique provides additional styling possibilities.
 	<div role="group" aria-labelledby="shipping_head" style="float: left; border: 1px solid #333; padding: 0 .5em .5em; margin-right: 1em;">
 		<div id="shipping_head" style="font-weight: bold; padding: .25em 0;">Shipping Address:</div>
 		<div>
-			<label for="aria_shipping_name"><span class="visuallyhidden">Shipping </span>Name:</label><br>
+			<label for="aria_shipping_name">Name:</label><br>
 			<input type="text" name="aria_shipping_name" id="aria_shipping_name">
 		</div>
 		<div>
@@ -294,7 +288,7 @@ This technique provides additional styling possibilities.
 	<div role="group" aria-labelledby="billing_head" style="float: left; border: 1px solid #333; padding: 0 .5em .5em;">
 		<div id="billing_head" style="font-weight: bold; padding: .25em 0;">Billing Address:</div>
 		<div>
-			<label for="aria_billing_name"><span class="visuallyhidden">Billing </span>Name:</label><br>
+			<label for="aria_billing_name">Name:</label><br>
 			<input type="text" name="aria_billing_name" id="aria_billing_name">
 		</div>
 		<div>
@@ -320,10 +314,6 @@ This technique provides additional styling possibilities.
 {% include box.html type="end" %}
 {:/}
 
-{% include ednote.html note="Consider removal of the following section" %}
-
-Because WAI-ARIA not fully supported in all web browser and screen reader combinations, a group identifier should be added to the first form control in the group.
-
 {::nomarkdown}
 {% include box.html type="start" title="Code Snippet" class="example" %}
 {:/}
@@ -332,9 +322,7 @@ Because WAI-ARIA not fully supported in all web browser and screen reader combin
 <div role="group" aria-labelledby="shipping_head">
 	<div id="shipping_head">Shipping Address:</div>
 	<div>
-		<label for="shipping_name">
-      <span class="visuallyhidden">Shipping </span>Name:
-    </label><br>
+		<label for="shipping_name">Name:</label><br>
 		<input type="text" name="shipping_name" id="shipping_name">
 	</div>
 	[…]
@@ -342,9 +330,7 @@ Because WAI-ARIA not fully supported in all web browser and screen reader combin
 <div role="group" aria-labelledby="billing_head">
 	<div id="billing_head">Billing Address:</div>
 	<div>
-		<label for="billing_name">
-      <span class="visuallyhidden">Billing </span>Name:
-    </label><br>
+		<label for="billing_name">Name:</label><br>
 		<input type="text" name="billing_name" id="billing_name">
 	</div>
 	[…]

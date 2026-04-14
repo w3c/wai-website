@@ -47,7 +47,7 @@ everyone in a variety of situations.
 {:#film.no-display}
 
 {% include video-player-data.html
-    video-id="layout"
+    video-id="perspectives_layout"
     yt-id="tfkzj5VC9P8"
     yt-id-ad="w-2nFEUBELo"
 %}
@@ -90,7 +90,7 @@ Design clear structure, both visually and through the markup. For example, make 
     -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
     -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "layout"](https://www.w3.org/WAI/WCAG21/quickref/?tags=layout)
+    -   [Success Criteria relating to "layout"](https://www.w3.org/WAI/WCAG22/quickref/?tags=layout)
 -   **Tutorial:**
     -   [Page Structure - Web Accessibility Tutorials](/tutorials/page-structure/) (draft)
 

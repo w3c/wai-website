@@ -23,7 +23,10 @@ ref: /standards-guidelines/   # Do not change this
 
 feedbackmail: wai@w3.org
 
-footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
+# In the footer below:
+# Translate the words below, including "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Élaboré avec des contributions du groupe de travail « Éducation et Promotion » (Education and Outreach Working Group <a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

@@ -1,7 +1,7 @@
 ---
 title: WAI Resources
 lang: en
-last_updated: 2024-08-26
+last_updated: 2025-03-06
 
 github:
   label: wai-resources-list
@@ -75,7 +75,7 @@ The following resources provide information for **getting started with accessibi
     -   [[Video Introduction to Web Accessibility and W3C Standards]](/videos/standards-and-benefits/) 4-minutes {% include image.html src="video.svg" alt="" class="icon" %}
     
 [[Accessibility: It's About People]](/people/)
-:   Explains the people aspect of accessibility and the role of accessibility in diversity, equality, and inclusion (DEI). Links to:
+:   Explains the people aspect of accessibility. Links to:
     -   [[Web Accessibility Perspectives: Explore the Impact and Benefits for Everyone]](/perspective-videos/) - videos that demonstrate that web accessibility is essential for people with disabilities and useful for all. Ten 1-minute videos, and a 7-minute compliation {% include image.html src="video.svg" alt="" class="icon" %}
     -   [[How People with Disabilities Use the Web]](/people-use-web/)<!-- , [Videos of How People with Disabilities Use the Web](/people-use-web/) Eighteen 2+minute videos, and 3 compliations {% include image.html src="video.svg" alt="" class="icon" %} -->
     -   [Older Users and Web Accessibility](/older-users/) resources
@@ -86,6 +86,10 @@ The following resources provide information for **getting started with accessibi
 
 [[Accessibility Principles]](/fundamentals/accessibility-principles/)
 :   A concise introduction to accessibility requirements for websites, apps, browsers, and other tools. It is organized similar to the WAI accessibility standards and provides a useful bridge to the standards. Read this page before reading the standards/guidelines.
+
+Research:
+:   -   [[Accessibility User Requirements]](/research/user-requirements/) - Documentation of research on user needs in virtual or immersive environments (XR), real-time communication (RTC), natural language interfaces, multimedia, low vision, cognitive accessibility, and more.
+    -   [[Artificial Intelligence (AI) and Accessibility Research Symposium 2023]](/research/ai2023/) - Summaries, transcripts, and videos of the international symposium exploring the positive and negative impacts of artificial intelligence (AI) in digital accessibility.
 
 Digital Accessibility Courses:
 :   -   [[Digital Accessibility Foundations &mdash; Free Online Course]](/courses/foundations-course/) - Introduces a self-paced course from W3C WAI for developers, designers, ux, writers, managers, advocates. **Designed for technical and non-technical learners**, including students, instructors, professionals, and people with disabilities. Course is free with optional certificate.
@@ -108,6 +112,9 @@ The following resources provide guidance for individual project management and f
 
 [[Planning and Managing Web Accessibility]](/planning-and-managing/)
 : Describes activities to help you integrate accessibility throughout your organization and projects.
+
+[[Roles and Responsibilities (ARRM)]](/planning/arrm/)
+: Provides an approach for defining roles, tasks, and responsibilities for meeting Web Content Accessibility Guidelines (WCAG).
 
 [[Involving Users in Web Projects for Better, Easier Accessibility]](/planning/involving-users/)
 : Describes how project managers, designers, and developers can better understand accessibility issues and implement more effective accessibility solutions.

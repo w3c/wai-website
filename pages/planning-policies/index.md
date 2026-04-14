@@ -4,7 +4,7 @@
 title: "Planning and Policies Overview"
 nav_title: "Overview"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2021-05-07    # Keep the date of the English version
+last_updated: 2025-03-06    # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -62,6 +62,9 @@ The following resources provide guidance for individual project management and f
 
 [[Planning and Managing Web Accessibility]](/planning-and-managing/)
 : Describes activities to help you integrate accessibility throughout your organization and projects.
+
+[[Roles and Responsibilities (ARRM)]](/planning/arrm/)
+: Provides an approach for defining roles, tasks, and responsibilities for meeting Web Content Accessibility Guidelines (WCAG).
 
 [[Involving Users in Web Projects for Better, Easier Accessibility]](/planning/involving-users/)
 : Describes how project managers, designers, and developers can better understand accessibility issues and implement more effective accessibility solutions.

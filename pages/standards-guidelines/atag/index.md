@@ -5,7 +5,7 @@
 title: "Authoring Tool Accessibility Guidelines (ATAG) Overview"
 nav_title: "ATAG Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2023-12-07   # Keep the date of the English version
+last_updated: 2025-11-14   # Keep the date of the English version
 first_published: "July 2005"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -29,7 +29,7 @@ feedbackmail: wai@w3.org
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
-  <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) and the Authoring Tool Accessibility Working Group (<a href="https://www.w3.org/WAI/AU/">AUWG</a>).</p>
+  <!-- <p>Developed with input from the Authoring Tool Accessibility Working Group (<a href="https://www.w3.org/WAI/AU/">AUWG</a>).</p> -->
 ---
 
 {::nomarkdown}
@@ -109,15 +109,22 @@ ATAG and supporting resources are also intended to meet the needs of many differ
 
 [**Implementing ATAG 2.0**](https://www.w3.org/TR/IMPLEMENTING-ATAG20/) is a supporting informative document that helps readers understand and use ATAG. Implementing ATAG provides the rationale for each guideline. For each success criterion, it provides explanation of the intent of the success criteria, examples, and links to resources.
 
-## ATAG Report Tool
+## ATAG resources
 
-The [**ATAG Report Tool**](https://www.w3.org/WAI/atag/report-tool/) helps evaluators report on the accessibility of authoring tools. It guides you through the ATAG requirements, lets you record your evaluation results for each requirement, and generates a report of the authoring tool's ATAG conformance.
+* The [**ATAG Report Tool**](https://www.w3.org/WAI/atag/report-tool/) helps evaluators report on the accessibility of authoring tools. It guides you through the ATAG requirements, lets you record your evaluation results for each requirement, and generates a report of the authoring tool's ATAG conformance.
+* The [**Authoring Tools List**](https://www.w3.org/WAI/tools-list/authoring/) provides information on accessibility support in content management systems (CMS), learning management systems (LMS), web page editors, and other authoring tools.
+* Resources that introduce accessibility issues and how ATAG applies to specific types of tools:
+  * [[Standards to Make Your LMS Accessible]](/standards-guidelines/atag/education/)
+  * [[Guidelines to Make Your No-Code Website Tool Accessible]](/standards-guidelines/atag/no-code/)
+  * [[Guidelines to Make Your Social Media Platform Accessible]](/standards-guidelines/atag/social-media/)
 
 ## Translations
 
 ATAG 2.0 is available as an Authorized W3C Translation in Chinese, Simplified: [无障碍创作工具指南(ATAG) 2.0](https://www.w3.org/Translations/ATAG20-zh/).
 
 ## Who developed ATAG
+
+Updating ATAG is being explored in the [Authoring Tools Accessibility Guidelines (ATAG) Community Group (CG)](https://www.w3.org/community/atag/).
 
 ATAG was developed by the Authoring Tool Accessibility Guidelines Working Group ([ATAG WG](https://www.w3.org/WAI/AU/)) as part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
 

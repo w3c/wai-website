@@ -141,7 +141,7 @@ Pour tout texte, prenez en considération la famille de polices, la taille, et l
 
 <span style="color:#585858; font-style:italic;">Retrouvez plus d’informations sur [Comprendre le critère de succès 1.4.3 : Contraste (minimum) (AA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) et [Comprendre le critère de succès 1.4.6 : Contraste (amélioré) (AAA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced).</span>
 
-### Prévoyez l’interprétation en langue des signes – _story-board, enregistrement_ (WCAG AAA)
+### Prévoyez l’interprétation en langue des signes – _story-board, enregistrement_ (WCAG AAA) {#plan-for-sign-language}
 
 Souvent, une interprétation en langue des signes est fournie en superposition dans le coin en bas à droite des vidéos. Par exemple : [Publicité NHS 111 en langue des signes britannique (BSL) (YouTube)<br>{% include image.html src="media-guide/sign-example.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
 

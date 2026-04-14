@@ -11,7 +11,7 @@ ref: /standards-guidelines/wcag/commenting/
 github:
   label: wai-wcag-intro
 
-image: /content-images/wcag/general-social.jpg
+image: /content-images/wcag/general-social.png
 footer: >
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Cooper/">Michael Cooper</a></p>
 ---
