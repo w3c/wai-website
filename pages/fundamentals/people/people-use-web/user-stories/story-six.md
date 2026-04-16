@@ -2,10 +2,10 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Dhruv, older adult student who is deaf"
+title: "Dhruv, older adult student who is Deaf"
 nav_title: "Dhruv"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Keep the date of the English version
+last_updated: 2026-04-16  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -107,7 +107,7 @@ footer: >
   <div>
 {:/}
 
-Dhruv is a student who is deaf. Because his first, or native, language is sign language, Dhruv has difficulty reading content that is not well structured with consistent layout and navigation. At his university, many of the lectures are being posted online. This can present a barrier to Dhruv if the videos don’t contain captions or if the captions have mistakes or lag behind what the lecturer is saying. In his free time, Dhruv likes to watch movies and TV shows on his mobile device. These must contain accurate captions and also be coded so that he knows who is speaking.
+Dhruv is a student who is Deaf. Because his first, or native, language is sign language, Dhruv has difficulty reading content that is not well structured with consistent layout and navigation. At his university, many of the lectures are being posted online. This can present a barrier to Dhruv if the videos don’t contain captions or if the captions have mistakes or lag behind what the lecturer is saying. In his free time, Dhruv likes to watch movies and TV shows on his mobile device. These must contain accurate captions and also be coded so that he knows who is speaking.
 
 {::options toc_levels="2..2" /}
 
@@ -118,7 +118,7 @@ Dhruv is a student who is deaf. Because his first, or native, language is sign l
    captions="wai-videos/people-use-web/user-stories_6.en.vtt|en"
    subtitles="wai-videos/people-use-web/user-stories_6.es.vtt|es"
    accessible-version="#accessible-video"
-   accessible-version-label="Video: Dhruv, older adult student who is deaf"
+   accessible-version-label="Video: Dhruv, older adult student who is Deaf"
    poster="content-images/people-use-web/user-stories/dhruv-video-frame.png"
 %}
 </div>
@@ -141,7 +141,7 @@ Dhruv is a student who is deaf. Because his first, or native, language is sign l
 
 > Most people don't realise that sign language is a completely different language. I can read text captions but it takes me longer as they are not in my first language. Captions and signing aren't interchangeable.
 
-Dhruv has been deaf since birth. He is a mature student, taking online courses. While he can hear some sounds, he does not hear enough to understand speech. Dhruv learned to sign as a young child. Sign language is his first language. As a result, written language can be difficult. He prefers written content to have good structure and headings with minimal jargon so that it's easier to understand.
+Dhruv has been Deaf since birth. He is a mature student, taking online courses. While he can hear some sounds, he does not hear enough to understand speech. Dhruv learned to sign as a young child. Sign language is his first language. As a result, written language can be difficult. He prefers written content to have good structure and headings with minimal jargon so that it's easier to understand.
 
 Dhruv can lip read but can only do so effectively when he can see the full face of the person who is speaking. Even then, he can only do it well enough to pick up a few words here and there and can't rely on lip reading alone to understand content.
 
@@ -194,7 +194,7 @@ No alternative for audio
 
 {% include excol.html type="start" id="video-transcript" %}
 
-##  Video: Dhruv, older adult student who is deaf {#accessible-video}
+##  Video: Dhruv, older adult student who is Deaf {#accessible-video}
 
 {% include excol.html type="middle" %}
 
@@ -203,13 +203,13 @@ No alternative for audio
   yt-id="jft__DXkPv8"
 %}
 
-_This video is also available on a W3C server: [Video: Dhruv, older adult student who is deaf (file format: MP4, file size: 307MB)](https://media.w3.org/wai/people-use-web/user-stories_6.mp4)._
+_This video is also available on a W3C server: [Video: Dhruv, older adult student who is Deaf (file format: MP4, file size: 307MB)](https://media.w3.org/wai/people-use-web/user-stories_6.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 
 | Audio | Visual |
 | --- | --- |
-| How people with disabilities use digital technology; Dhruv, older adult student who is deaf. | How people with disabilities use digital technology; Dhruv, older adult student who is deaf. |
+| How people with disabilities use digital technology; Dhruv, older adult student who is Deaf. | How people with disabilities use digital technology; Dhruv, older adult student who is Deaf. |
 | Hello! My name’s D-H-R-U-V, Dhruv. I’m Deaf. I can hear some sounds but not enough to understand speech. I use British Sign Language – I think and dream in signs. | A man speaks and signs directly to the camera. |
 | I recently enrolled in an online degree. For my classes, I schedule interpreters who can interpret the lectures and conversations and voice for me. I need video conferencing apps with functionality to “pin” videos of the interpreters so that I can always see them. | The man is sitting at a desk using a laptop. He is participating in an online meeting using a video conferencing app. He alternates between multiple participant and pinned participant view. |
 | Some lectures have real-time captioning typed by human captioners. This is more accurate than automatic captions, which often don’t recognize specialized terms in the lectures. For our assigned videos, I rely on good captions. These are edited so that each sentence appearing on the screen is not too long and is synchronized with the audio. I also often find myself needing to adjust the text size and colors of the captions, to be able to read them better. Some apps also allow me to move the captions to the top or bottom of the video, so that they are not in the way. | The man is watching a video in a media player and selecting English captions from a list of language options. He then selects options for how he wants the captions to be displayed. |
