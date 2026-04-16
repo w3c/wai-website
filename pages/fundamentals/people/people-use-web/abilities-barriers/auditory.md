@@ -5,7 +5,7 @@
 title: "Auditory"
 nav_title: "Auditory"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Keep the date of the English version
+last_updated: 2026-04-16  # Keep the date of the English version
 first_published: "as a draft in 1999"
 description: Explores the wide diversity of people and abilities. Highlights accessibility barriers that people may experience because of inaccessible digital technology.
 
