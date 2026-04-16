@@ -107,7 +107,7 @@ footer: >
   <div>
 {:/}
 
-Dhruv is a student who is Deaf. Because his first, or native, language is sign language, Dhruv has difficulty reading content that is not well structured with consistent layout and navigation. At his university, many of the lectures are being posted online. This can present a barrier to Dhruv if the videos don’t contain captions or if the captions have mistakes or lag behind what the lecturer is saying. In his free time, Dhruv likes to watch movies and TV shows on his mobile device. These must contain accurate captions and also be coded so that he knows who is speaking.
+Dhruv is a student who is [Deaf](/people-use-web/user-stories/story-six/#deaf-deaf). Because his first, or native, language is sign language, Dhruv has difficulty reading content that is not well structured with consistent layout and navigation. At his university, many of the lectures are being posted online. This can present a barrier to Dhruv if the videos don’t contain captions or if the captions have mistakes or lag behind what the lecturer is saying. In his free time, Dhruv likes to watch movies and TV shows on his mobile device. These must contain accurate captions and also be coded so that he knows who is speaking.
 
 {::options toc_levels="2..2" /}
 
