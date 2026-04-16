@@ -151,6 +151,15 @@ To use multimedia, people with auditory disabilities often rely on:
 
 For some people with auditory disabilities, sign language is the primary language, and they may not read the written language as fluently. Providing important information in sign language and using simpler text that is supplemented by images, graphs, and other illustrations help make digital content more understandable to many people. However, it is important to remember that not all people with auditory disabilities know sign language.
 
+It is also important to remember that some people do not consider deafness a disability.
+
+## deaf, Deaf
+
+- “deaf” (with a lower case letter): Refers to a medical condition describing limited or no hearing.
+
+- “Deaf” (with a capital letter): Refers to a cultural identity and a community that primarily uses sign language.
+
+
 ## Examples of auditory disabilities {#examples-of-auditory-disabilities}
 
 -   **Hard of hearing**{:#hardofhearing} – mild or moderate hearing impairments in one or both ears.
