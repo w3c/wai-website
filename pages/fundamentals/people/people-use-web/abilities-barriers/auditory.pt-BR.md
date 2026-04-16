@@ -5,7 +5,7 @@
 title: "Auditivas"
 nav_title: "Auditivas" 
 lang: pt-BR  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Keep the date of the English version
+last_updated: 2026-04-16  # Keep the date of the English version
 first_published: "como rascunho em 1999"
 description: Explora a ampla diversidade de pessoas e habilidades. Destaca barreiras de acessibilidade que as pessoas podem experimentar devido à tecnologia digital inacessível.
 
@@ -166,7 +166,7 @@ Para algumas pessoas com deficiências auditivas, a língua de sinais é a líng
 
 ## Histórias relacionadas a deficiências auditivas {#stories-related-to-auditory-disabilities}
 
--   [Dhruv, older adult student who is deaf](/people-use-web/user-stories/story-six/)
+-   [Dhruv, older adult student who is Deaf](/people-use-web/user-stories/story-six/)
 -   [Marta, marketing assistant who is deaf and blind](/people-use-web/user-stories/story-seven/)
 
 {% include excol.html type="start" id="video-transcript" %}
