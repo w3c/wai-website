@@ -16,7 +16,7 @@ inline_css: |
     color: var(--off-black);
   }
 ---
-<h1 class="visuallyhidden">W3C Web Accessibility Initiative Home</h1>
+<h1 class="visuallyhidden">Learn</h1>
 <section class="default-grid teaser making-web-accessible" aria-labelledby="mwa-title">
   <header class="inner teaser-h">
     <h2 id="mwa-title">
