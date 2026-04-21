@@ -769,6 +769,7 @@
 /content-assets/wcag-act-rules/act-styles.css
 /content-assets/wcag-act-rules/bar-chart-fill.svg
 /content-assets/wcag-act-rules/earl-context.json
+/content-assets/wcag-act-rules/earl/accesslint-core.json
 /content-assets/wcag-act-rules/earl/alfa-assisted.json
 /content-assets/wcag-act-rules/earl/alfa.json
 /content-assets/wcag-act-rules/earl/axe-core.json
@@ -3482,6 +3483,7 @@
 /search/index.html
 /sitemap.xml
 /sitemap/index.html
+/standards-guidelines/act/implementations/accesslint-core/index.html
 /standards-guidelines/act/implementations/alfa-assisted/index.html
 /standards-guidelines/act/implementations/alfa/index.html
 /standards-guidelines/act/implementations/axe-core/index.html

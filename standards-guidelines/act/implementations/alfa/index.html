@@ -11,15 +11,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1776270813963331916";
+      element.src = "/WAI/assets/scripts/main.js?1776776696646696292";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1776270813963331916">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1776776696646696292">
 
-<title> Alfa Fully Automated ACT Implementation |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1776270813963331916"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> Alfa Fully Automated ACT Implementation |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1776776696646696292"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Alfa Fully Automated ACT Implementation" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -303,10 +303,10 @@ h2#sidebar-header {
   </header>
   <div class="box-i"><p>
     <a href="https://alfa.siteimprove.com/">Alfa (fully automated)</a>
-      version 0.112.0
+      version 0.114.3
      is an Automated tool
       by <a href="https://www.siteimprove.com/">Siteimprove</a>.
-      The test results were last updated 2 March 2026.
+      The test results were last updated 20 April 2026.
 
     
 
@@ -332,7 +332,7 @@ h2#sidebar-header {
     <tr>
       <th>Proposed rules</th>
       <td>3</td>
-      <td>6</td>
+      <td>7</td>
     </tr>
   </tbody></table>
 </div>
@@ -713,6 +713,16 @@ h2#sidebar-header {
         </tr>
       
       
+      
+        <tr>
+          <td><a href="#breakdown-kb1m8s">
+            ARIA global properties not used where prohibited
+          </a></td>
+          <td> Proposed Rule
+          </td>
+          <td> Partial
+          </td>
+        </tr>
       
       
       
@@ -5632,6 +5642,123 @@ h2#sidebar-header {
   </table>
 </div>
 
+<h3 id="breakdown-kb1m8s">ARIA global properties not used where prohibited</h3>
+<p>
+  This rule is implemented by Alfa (fully automated) using the
+  <code>sia-r18</code> procedure.
+  The implementation is  partially 
+   consistent with the
+  <a href="/WAI/standards-guidelines/act/rules/kb1m8s/proposed/">ARIA global properties not used where prohibited</a>
+   proposed rule.
+    It covers 7 of the 9 examples.
+  
+  
+    The implementation correctly reports which success criteria are failed by this rule.
+  
+  See <a href="../#understanding-act-consistency">understanding ACT consistency</a>.
+</p>
+
+
+<div class="scroll-wrap">
+  <table class="act-requirements">
+    <caption>Success Criteria</caption>
+    <tbody><tr> <th>Expected</th> <th>Reported</th></tr>
+    <tr>
+      <td>
+         None 
+      </td>
+
+      <td>
+        
+          <ul>
+            <li>
+              
+              
+            </li>
+          
+            <li>
+              
+              
+            </li>
+          </ul>
+        
+      </td>
+    </tr>
+  </tbody></table>
+</div>
+
+
+<div class="scroll-wrap">
+  <table class="act-example-outcomes">
+    <caption>Test Results</caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th>sia-r18</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/f5ec91369a85c8873996b82a4c5151c65a7d2204.html">Passed Example 1</a>
+        </th>
+        <td class="">passed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/ae9e9709911eaa328189f8ab354cba0bb840a6c9.html">Passed Example 2</a>
+        </th>
+        <td class="">passed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/8cf721f0f9490be4e2909caaa944cf3a32a43fc0.html">Passed Example 3</a>
+        </th>
+        <td class="">inapplicable</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/17a785ed25669522866f98997f76d69150243c8b.html">Failed Example 1</a>
+        </th>
+        <td class="">failed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/358fa0b821c3118de63adfbe37bd0e85a3bd6f8c.html">Failed Example 2</a>
+        </th>
+        <td class="">failed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/1345bf067f66f2ee893f75e43d72121a0119d6b1.html">Failed Example 3</a>
+        </th>
+        <td class="
+            act-false-negative">inapplicable</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/7cddc927da518cc9b170051a9010e256068c875b.html">Failed Example 4</a>
+        </th>
+        <td class="">failed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/c4a2fe12d5a48f7ace66475d3791e051ddefa807.html">Failed Example 5</a>
+        </th>
+        <td class="
+            act-false-negative">inapplicable</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/kb1m8s/c33e521a7914c6dc8bde272dcc8e090b7463473c.html">Inapplicable Example 1</a>
+        </th>
+        <td class="">inapplicable</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 <h3 id="breakdown-ff89c9">ARIA required context role</h3>
 <p>
   This rule is implemented by Alfa (fully automated) using the
@@ -7258,9 +7385,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1776270813963331916"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1776776696646696292"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1776270813963331916"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1776776696646696292"></script>
 <script>
   svg4everybody();
 </script><script>
