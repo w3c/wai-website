@@ -84,7 +84,7 @@ Once you are a member of either the AG or APA working groups, email the [W3C sta
 
 ## Task force participants
 
-* [Chair](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs)
+* [Facilitators](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/cognitive-a11y-tf/participants/#participants)
 
 ## Communications

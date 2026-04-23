@@ -82,7 +82,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 ## Task force participants
 
-* [Chairs](https://www.w3.org/groups/tf/aria-practices/participants/#chairs)
+* [Facilitators](https://www.w3.org/groups/tf/aria-practices/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/aria-practices/participants/#participants)
 
 ## Communications
