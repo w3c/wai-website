@@ -11,21 +11,47 @@ github:
 
 resource:
   ref: /tutorials/
-  
+
+acknowledgements: /tutorials/acknowledgements/
+
 footer: >
-   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. <strong>Update Editor:</strong> Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>.</p>
+   <p><strong>Editors:</strong> Eric Eggert, Shadi Abou-Zahra. Update Editors: Becky Gibson, Brian Elton. Contributors: Shawn Lawton Henry, Anna Belle Leiserson, Sharron Rush, Bim Egan, <a href="https://www.w3.org/groups/wg/ag/participants">AG WG participants</a>, <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG participants</a>. ACKNOWLEDGEMENTS.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>  
 ---
 
 {::nomarkdown}
-{% include box.html type="start" title="Changelog listing note" %}
+{% include box.html type="start" title="Note" %}
 {:/}
 
-This changelog lists substantive content edits. It does **not** list typo fixes and other minor edits.
+This changelog lists substantive content edits. It does _not_ list typo fixes and other minor edits.
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+## April 2026
+
+In [Menus tutorial](/tutorials/menus/):
+* Removed references to WCAG Technique H4 concerning logical tab order. It is marked as obsolete and not referenced from any Understanding document. [GitHub PR #1954](https://github.com/w3c/wai-website/pull/1954)
+
+Removed references to the deprecated `longdesc` attribute — [GitHub PR #1870](https://github.com/w3c/wai-website/pull/1870) and [PR #1942](https://github.com/w3c/wai-website/pull/1942):
+* In [Images tutorial](/tutorials/images/)
+    * Removed the section about and references to `longdesc` in the code from [Complex Images](/tutorials/images/complex/)
+* In [Page Structure tutorial](/tutorials/page-structure/)
+    * Removed `longdesc` from the sample code in [Content Structure](/tutorials/page-structure/content/)
+
+## March 2026
+
+In [Images tutorial](/tutorials/images/):
+* Fixed a color contrast issue in [Complex Images](/tutorials/images/complex/)
+
+In [Page Structure tutorial](/tutorials/page-structure/):
+* Removed a section on "Page regions in HTML5 using WAI-ARIA" from [Page Regions](/tutorials/page-structure/regions/). Browsers and screen readers now fully support HTML5 region elements.
+    * [GitHub PR #686](https://github.com/w3c/wai-website/pull/686/)
+
+In [Forms tutorial](/tutorials/forms/):
+* Removed a hidden label in the "Example 3: Related fields" section of [Grouping Controls](/tutorials/forms/grouping/). Browsers and screen readers now fully support `<fieldset>`, `<legend>`, and `aria-labelledby`.
+    * [GitHub PR #1897](https://github.com/w3c/wai-website/pull/1897)
 
 ## July 2024
 
@@ -65,7 +91,7 @@ In [Images tutorial](/tutorials/images/)
 * In Tables main page, corrected WCAG links under [Related WCAG resources](/tutorials/tables/#related)
 
 ## 2022
-We published several bug fixes and typo fixes throughout 2022
+We published several bug fixes and typo fixes throughout 2022.
 
 ## August 2018
 
@@ -135,3 +161,4 @@ Fixing some issues:
   * Images Tutorial
   * Forms Tutorial
   * Tables Tutorial
+

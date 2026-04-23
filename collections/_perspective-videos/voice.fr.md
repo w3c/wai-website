@@ -50,7 +50,7 @@ La « reconnaissance vocale » (ou « reconnaissance automatique de la parole
 {:#film.no-display}
 
 {% include video-player-data.html
-    video-id="voice"
+    video-id="perspectives_speech-recognition"
     yt-id="7RHG_XiQ0ck"
     yt-id-ad="21yWr7evHTs"
 %}
@@ -96,7 +96,7 @@ Plus d’informations {#resources}
 -   **Témoignages d’utilisateurs :**
     -   [Alex, journaliste avec un trouble musculo-squelettique](/people-use-web/user-stories/archived/#reporter)
 -   **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)):**
-    -   [Critères de succès liés au « clavier » et aux « commandes »](https://www.w3.org/WAI/WCAG21/quickref/?tags=keyboard%2Ccontrols) 
+    -   [Critères de succès liés au « clavier » et aux « commandes »](https://www.w3.org/WAI/WCAG22/quickref/?tags=keyboard%2Ccontrols) 
 -   **Applicabilité aux appareils mobiles :**
     -   [La souris est requise pour l’interaction et la navigation](/standards-guidelines/shared-experiences/#mouse) 
     -   [Étiquette de lien non descriptive](/standards-guidelines/shared-experiences/#link-label)

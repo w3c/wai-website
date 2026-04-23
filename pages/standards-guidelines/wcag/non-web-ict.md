@@ -1,7 +1,7 @@
 ---
 title: "WCAG2ICT Overview"
 lang: en
-last_updated: 2025-08-21
+last_updated: 2026-01-21
 description: "Introduces the W3C Group Note: Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)."
 
 permalink: /standards-guidelines/wcag/non-web-ict/
@@ -75,8 +75,8 @@ The main focus of WCAG2ICT is to provide replacements for web-based language in 
 While WCAG2ICT provides guidance on applying WCAG in non-web contexts, application of some success criteria to electronic documents, whose source is driven by non-web markup technologies when they are delivered via a website, may benefit from more specific guidance. Likewise, guidance for mobile applications may also benefit from a greater level of detail.  
 
 ### WCAG2ICT versions
-* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) — published on 15 November 2024, updated on 21 August 2025, and covers WCAG 2.0, 2.1, and 2.2
-* Older version: [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-20/) — published on 5 September 2013 and covers WCAG 2.0
+* [Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-22/) covers WCAG 2.0, 2.1, and 2.2 and is expected to evolve alongside WCAG 2 – for all versions, see the [publication history](https://www.w3.org/standards/history/wcag2ict-22/)
+* Older version: [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/wcag2ict-20/) covers WCAG 2.0
 * The URI [https://www.w3.org/TR/wcag2ict/](https://www.w3.org/TR/wcag2ict/) — points to the latest completed version
 
 ## Who WCAG2ICT is for {#for}

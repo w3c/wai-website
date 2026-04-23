@@ -7,7 +7,7 @@ lang: ru
 last_updated: 2019-03-13  # Keep the date of the English version
 
 translation:
-  status: outdated
+  outdated: true
   last_updated: 2019-07-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:

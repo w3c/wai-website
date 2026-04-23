@@ -1,0 +1,174 @@
+﻿WEBVTT
+
+00:00:02.200 --> 00:00:05.200 align:middle
+Cześć! Nazywam się Shadi Abou-Zahra.
+
+00:00:05.400 --> 00:00:09.600 align:middle
+Jestem specjalistą ds. Strategii Dostępności i Technologii w W3C,
+
+00:00:09.800 --> 00:00:11.840 align:middle
+Konsorcjum World Wide Web,
+
+00:00:12.040 --> 00:00:15.360 align:middle
+i chciałbym dziś opowiedzieć Wam o dostępności stron internetowych.
+
+00:00:15.560 --> 00:00:19.240 align:middle
+Internet jest dla wielu osób istotną częścią codziennego życia.
+
+00:00:19.440 --> 00:00:21.080 align:middle
+W pracy.
+
+00:00:21.240 --> 00:00:22.840 align:middle
+W domu.
+
+00:00:23.000 --> 00:00:24.880 align:middle
+I w drodze.
+
+00:00:25.080 --> 00:00:29.640 align:middle
+Dostępność Internetu oznacza, że osoby z niepełnosprawnościami 
+mogą z niego korzystać w równym stopniu.
+
+00:00:29.840 --> 00:00:35.360 align:middle
+Na przykład ktoś, kto nie może używać rąk 
+i używa do pisania myszy kijkowej trzymanej w ustach.
+
+00:00:35.560 --> 00:00:40.240 align:middle
+Albo ktoś, kto nie słyszy dobrze i podczas oglądania filmów 
+korzysta z napisów rozszerzonych.
+
+00:00:40.400 --> 00:00:45.800 align:middle
+Albo ktoś, kto nie widzi dobrze i używa czytnika ekranu 
+do czytania na głos tego, co jest na ekranie.
+
+00:00:46.080 --> 00:00:48.480 align:middle
+Dostępność ma wiele zalet.
+
+00:00:48.760 --> 00:00:54.280 align:middle
+Na przykład napisy przynoszą korzyści każdemu, 
+kto znajduje się w głośnym lub cichym otoczeniu.
+
+00:00:54.440 --> 00:00:58.120 align:middle
+Dobry kontrast kolorów działa lepiej w przypadku odbicia światła.
+
+00:00:58.280 --> 00:01:03.960 align:middle
+Korzystają na tym również osoby z problemami związanymi z wiekiem, 
+takimi jak zmniejszona zręczność.
+
+00:01:04.120 --> 00:01:09.120 align:middle
+W rzeczywistości każdy ma lepsze doświadczenia w użytkowaniu 
+dzięki ulepszonemu układowi i projektowi.
+
+00:01:09.280 --> 00:01:14.760 align:middle
+Wiele cech dostępności można wbudować w kod źródłowy 
+stron internetowych i aplikacji.
+
+00:01:15.000 --> 00:01:21.640 align:middle
+Technologie internetowe W3C, takie jak HTML, 
+zapewniają obsługę wielu funkcji dostępności.
+
+00:01:23.120 --> 00:01:27.920 align:middle
+Na przykład funkcje zapewniające alternatywy tekstowe dla obrazów,
+
+00:01:28.480 --> 00:01:33.080 align:middle
+które są odczytywane na głos przez czytniki ekranu, 
+a także wykorzystywane przez wyszukiwarki.
+
+00:01:34.640 --> 00:01:39.400 align:middle
+Również nagłówki, etykiety i inny kod wspierają dostępność
+
+00:01:39.880 --> 00:01:42.680 align:middle
+i ogólnie poprawiają jakość.
+
+00:01:43.320 --> 00:01:49.840 align:middle
+Dobre narzędzia autorskie, takie jak wiki, 
+systemy zarządzania treścią i edytory kodu,
+
+00:01:50.600 --> 00:01:56.760 align:middle
+pomagają tworzyć dostępny kod, 
+automatycznie lub przy udziale autora.
+
+00:01:57.440 --> 00:02:04.480 align:middle
+Również przeglądarki internetowe, odtwarzacze mediów i aplikacje 
+muszą obsługiwać funkcje dostępności.
+
+00:02:05.480 --> 00:02:09.600 align:middle
+Aby pomóc uczynić Internet dostępnym, W3C zapewnia standardy, 
+
+00:02:10.040 --> 00:02:13.920 align:middle
+które są uznawane na całym świecie przez rządy i firmy.
+
+00:02:14.480 --> 00:02:19.880 align:middle
+Najbardziej znanym z nich są 
+Wytyczne dla dostępności treści internetowych - WCAG.
+
+00:02:20.680 --> 00:02:24.240 align:middle
+WCAG to także norma ISO 40500,
+
+00:02:24.600 --> 00:02:29.840 align:middle
+przyjęty również jako norma europejska EN 301 549.
+
+00:02:30.520 --> 00:02:33.360 align:middle
+Opiera się na czterech podstawowych zasadach:
+
+00:02:33.560 --> 00:02:39.920 align:middle
+Po pierwsze, postrzegalne - 
+na przykład, aby ludzie mogli treść zobaczyć lub ją usłyszeć.
+
+00:02:40.880 --> 00:02:47.160 align:middle
+Funkcjonalne - 
+na przykład, aby ludzie mogli korzystać z komputera, 
+pisząc na klawiaturze lub używając głosu.
+
+00:02:48.000 --> 00:02:53.360 align:middle
+Zrozumiałe - 
+na przykład, aby treść były pisana jasnym i prostym językiem.
+
+00:02:54.120 --> 00:02:58.600 align:middle
+I solidne - 
+aby ludzie mogli korzystać z różnych technologii wspomagających.
+
+00:02:59.360 --> 00:03:07.000 align:middle
+Oprócz WCAG, W3C udostępnia również 
+Wytyczne dla dostępności narzędzi autorskich - ATAG,
+
+00:03:07.440 --> 00:03:12.840 align:middle
+które określają wymagania dla 
+systemów zarządzania treścią, edytorów kodu i innego oprogramowania.
+
+00:03:13.240 --> 00:03:16.880 align:middle
+Z kolei Wytyczne dla dostępności programu użytkownika - UAAG,
+
+00:03:17.160 --> 00:03:20.480 align:middle
+określają wymagania dla przeglądarek internetowych 
+i odtwarzaczy multimedialnych.
+
+00:03:21.000 --> 00:03:27.280 align:middle
+Na świecie żyje ponad miliard osób niepełnosprawnych, 
+czyli około 15-20% populacji.
+
+00:03:28.160 --> 00:03:31.880 align:middle
+Konwencja ONZ o prawach osób z niepełnosprawnościami
+
+00:03:32.040 --> 00:03:37.040 align:middle
+definiuje dostęp do informacji, w tym do Internetu, 
+jako prawo człowieka.
+
+00:03:38.800 --> 00:03:42.920 align:middle
+Większość krajów na całym świecie ratyfikowała tę konwencję ONZ,
+
+00:03:43.160 --> 00:03:46.960 align:middle
+a kilka z nich przyjęło również wiążące polityki.
+
+00:03:48.040 --> 00:03:51.000 align:middle
+Jednak niezależnie od wszelkich przepisów i regulacji,
+
+00:03:51.160 --> 00:03:56.000 align:middle
+wdrażanie standardów dostępności jest niezbędne 
+dla osób z niepełnosprawnościami
+
+00:03:56.160 --> 00:03:57.800 align:middle
+i przydatne dla wszystkich.
+
+00:03:59.000 --> 00:04:05.880 align:middle
+Aby uzyskać więcej informacji na temat dostępności internetowej, 
+odwiedź stronę w3.org/WAI

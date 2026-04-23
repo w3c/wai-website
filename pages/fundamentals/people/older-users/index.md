@@ -5,9 +5,8 @@ title: "Older Users and Web Accessibility: Meeting the Needs of Ageing Web Users
 title_html: "Older Users and Web Accessibility:<br>Meeting the Needs of Ageing Web Users"
 nav_title: "Meeting the Needs of Ageing Web Users"
 lang: en  # Change "en" to the translated language shortcode
-last_updated: 2024-03-04  # Keep the date of the English version
+last_updated: 2025-11-20  # Keep the date of the English version
 first_published: "2010"
-
 order: 1
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -101,7 +100,7 @@ These issues overlap with the accessibility needs of people with disabilities. T
 {:/}
 
 -   **For statistics on the prevalence of age-related impairments and more on how they impact web use, see the [Summary of Impact and Prevalence section](/older-users/literature/#summary) of the Literature Review Overview.**
--   For short story (_persona_) showing some accessibility issues that an older person can face on the web, see [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree) in Stories of Web Users.
+-   For short story (_persona_) showing some accessibility issues that an older person can face on the web, see [Elias, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/story-nine/) in Stories of Web Users.
 -   If you want to learn about older users directly by including real people in your user studies, see [[Involving Users in Web Projects for Better, Easier Accessibility]](/planning/involving-users/).
 -   **For videos** and descriptions of issues that impact people who are elderly and people with disabilities, see [Web Accessibility Perspectives](/perspective-videos/). These videos include older users: [Customizable Text](/perspective-videos/customizable/), [Colors with Good Contrast](/perspective-videos/contrast/), [Notifications and Feedback](/perspective-videos/notifications/), [Understandable Content](/perspective-videos/understandable/), and [Large Links, Buttons, and Controls.](/perspective-videos/controls/)
 

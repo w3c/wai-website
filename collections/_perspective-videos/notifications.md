@@ -45,7 +45,7 @@ Web accessibility is essential for people with disabilities and useful for all. 
 {:#film.no-display}
 
 {% include video-player-data.html
-    video-id="notifications"
+    video-id="perspectives_notifications"
     yt-id="E1fEv4Vpexg"
     yt-id-ad="jtteu0ilDXk"
 %}
@@ -91,7 +91,7 @@ Learn more {#resources}
     -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
     -   [Luis, supermarket assistant with Down syndrome](/people-use-web/user-stories/archived/#supermarketassistant)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "errors"](https://www.w3.org/WAI/WCAG21/quickref/?tags=errors)
+    -   [Success Criteria relating to "errors"](https://www.w3.org/WAI/WCAG22/quickref/?tags=errors)
 -   **Tutorial:**
     -   [Forms - Web Accessibility Tutorials](/tutorials/)
 

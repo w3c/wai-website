@@ -138,7 +138,7 @@ Physical disabilities (sometimes called "motor disabilities") include weakness a
 
 **Note:** The examples given in this section are not a complete list of all disabilities or barriers.
 
-## Introduction
+## Introduction {#introduction-extended}
 
 To use digital technology, people with physical disabilities often use specialized hardware and software such as:
 

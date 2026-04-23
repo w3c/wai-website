@@ -5,15 +5,16 @@ command = "npm install && bundle exec jekyll build --profile --trace --config '_
 
 [context.deploy-preview]
 # Applies to deploy previews, generated from pull requests.
+# Use the latest versions of submodules, wai-website-theme and wai-website-plugin
 # Include posts with a future date
-command = "git submodule update --init --remote && npm install && bundle exec jekyll build --profile --trace --config '_config.yml,_config_staging.yml' --future"
+command = "git submodule update --init --remote && npm install && bundle update wai-website-theme --conservative && bundle update wai-website-plugin --conservative && bundle exec jekyll build --profile --trace --config '_config.yml,_config_staging.yml' --future"
 # with debugging: command = "git submodule update --init --remote && bundle exec jekyll build --verbose --trace --config '_config.yml,_config_staging.yml' --future"
 
 [build]
 publish = "_site"
 
 [build.environment]
-RUBY_VERSION = "3.3.3"
+RUBY_VERSION = "3.4.8"
 
 [[redirects]]
 from = "/wai-website"
