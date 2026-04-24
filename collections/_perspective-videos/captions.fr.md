@@ -48,7 +48,7 @@ L’accessibilité Web est essentielle pour les personnes en situation de handic
 {:#film.no-display}
 
 {% include video-player-data.html
-  video-id="captions"
+  video-id="perspectives_captions"
   yt-id="iWO5N3n1DXU"
   yt-id-ad="4qIordU8vT8"
 %}
@@ -95,7 +95,7 @@ Plus d’informations {#resources}
 -  **Témoignage d’utilisateur :**
   -  [Martine, étudiante en ligne, malentendante](/people-use-web/user-stories/archived/#onlinestudent)
 -  **Règles pour l’accessibilité des contenus Web ([Vue d’ensemble des WCAG](/standards-guidelines/wcag/)) :**
-  -  [Critères de succès relatifs aux « sous-titres »](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
+  -  [Critères de succès relatifs aux « sous-titres »](https://www.w3.org/WAI/WCAG22/quickref/?tags=captions)
 -  **Applicabilité mobile :**
   -  [Contenu multimédia sans sous-titres](https://www.w3.org/WAI/mobile/experiences.html#multimedia)
 

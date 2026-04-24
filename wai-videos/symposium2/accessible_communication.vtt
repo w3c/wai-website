@@ -1,0 +1,2859 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.720
+Hello, everyone, and welcome back
+
+00:00:03.720 --> 00:00:05.880
+to the second panel.
+
+00:00:05.880 --> 00:00:08.800
+And I'm now joined by
+
+00:00:10.360 --> 00:00:14.080
+Chaohai Ding
+from the University of Southampton.
+
+00:00:14.760 --> 00:00:17.840
+Lourdes Moreno
+from the Universidade
+
+00:00:17.880 --> 00:00:20.880
+Carlos III de Madrid
+in Spain.
+
+00:00:21.120 --> 00:00:24.120
+And Vikas Ashok from
+
+00:00:24.320 --> 00:00:26.960
+Old Dominion University in the US.
+
+00:00:27.760 --> 00:00:31.120
+So thank you all for your availability.
+
+00:00:31.120 --> 00:00:33.840
+It's great to have you here.
+
+00:00:33.840 --> 00:00:37.800
+And let's as I said before,
+
+00:00:37.800 --> 00:00:42.000
+let's bring back the topic
+of natural language processing. We
+
+00:00:43.160 --> 00:00:44.640
+we addressed it
+
+00:00:44.640 --> 00:00:49.160
+yesterday, but now from the perspective of
+
+00:00:49.160 --> 00:00:54.240
+how can it be used to enhance
+accessible communication on the Web.
+
+00:00:54.560 --> 00:00:57.680
+And so here and I guess
+
+00:00:58.160 --> 00:01:01.120
+once again, similar to what I've done
+
+00:01:01.800 --> 00:01:04.720
+an hour ago in the first panel,
+
+00:01:04.720 --> 00:01:07.920
+you've been working on different aspects
+of this
+
+00:01:08.160 --> 00:01:11.400
+large domain of accessible communication.
+
+00:01:11.840 --> 00:01:13.440
+And you’ve
+
+00:01:13.720 --> 00:01:16.520
+pursued advances in machine
+
+00:01:16.520 --> 00:01:20.000
+translation, in sign language,
+
+00:01:20.400 --> 00:01:24.400
+AAC, and so from your perspective
+
+00:01:24.400 --> 00:01:27.120
+and from your focus on the work,
+
+00:01:27.640 --> 00:01:32.160
+what are the current challenges
+that that you've been facing?
+
+00:01:32.160 --> 00:01:34.200
+And that's that are preventing
+
+00:01:35.920 --> 00:01:38.080
+the next breakthrough, I guess.
+
+00:01:38.080 --> 00:01:43.560
+And also I would like to ask you to,
+uh, for your first intervention also to do
+
+00:01:44.080 --> 00:01:47.680
+a brief introduction to yourself
+and to what you've been doing.
+
+00:01:48.240 --> 00:01:54.080
+Okay, So I can start with you
+Chaohai.
+
+00:01:54.120 --> 00:01:55.920
+Thank you for having me today.
+
+00:01:55.920 --> 00:02:00.720
+My name is Chaohai Ding and I'm a senior research
+fellow at the University of Southampton.
+
+00:02:01.160 --> 00:02:05.560
+And my research interest is
+AI and inclusion
+
+00:02:06.200 --> 00:02:09.440
+which includes using data science and AI
+
+00:02:10.400 --> 00:02:12.000
+techniques to enhance
+
+00:02:12.000 --> 00:02:15.440
+accessible learning, traveling and
+
+00:02:16.520 --> 00:02:17.920
+communication.
+
+00:02:17.920 --> 00:02:20.600
+So, yes, we used...
+
+00:02:21.120 --> 00:02:22.400
+NLP has been widely
+
+00:02:22.400 --> 00:02:26.160
+used in our research to
+support accessible communication.
+
+00:02:27.200 --> 00:02:31.480
+Currently, we are working on
+several projects focused on AAC.
+
+00:02:31.480 --> 00:02:33.520
+So for example,
+
+00:02:33.600 --> 00:02:36.280
+we applied the concept
+
+00:02:36.280 --> 00:02:39.960
+net of ...  knowledge graph
+
+00:02:40.080 --> 00:02:42.600
+to interlinking AAC
+
+00:02:43.920 --> 00:02:46.000
+symbols from different symbol sets.
+
+00:02:47.200 --> 00:02:49.120
+This can be used
+
+00:02:49.120 --> 00:02:51.800
+for symbol to symbol translation.
+
+00:02:52.640 --> 00:02:57.840
+And we also developed an NLP model
+to translate
+
+00:02:57.840 --> 00:03:02.760
+the AAC symbol sequence
+into spoke text sequence.
+
+00:03:03.400 --> 00:03:07.200
+So so that's the two projects
+we're working on currently
+
+00:03:07.920 --> 00:03:12.000
+and we also working on 
+accessible e-learning project
+
+00:03:12.360 --> 00:03:14.880
+that we applied a machine translation
+
+00:03:16.040 --> 00:03:18.480
+to provide transcripts
+
+00:03:18.480 --> 00:03:20.600
+from English to,
+
+00:03:20.600 --> 00:03:23.400
+other languages
+for our international users.
+
+00:03:24.000 --> 00:03:27.680
+So that's another scenario
+we are working with on a machine
+
+00:03:27.680 --> 00:03:30.800
+translation for accessible communication.
+
+00:03:30.800 --> 00:03:35.360
+So there are a few challenges we have
+identified in our kind of research.
+
+00:03:36.240 --> 00:03:38.640
+The first one is always the data,
+
+00:03:38.640 --> 00:03:42.640
+data availability
+and the data opti...bility
+
+00:03:43.160 --> 00:03:48.360
+So as we know, an NLP model is normally
+trained on a large amount of data. So
+
+00:03:49.360 --> 00:03:52.200
+especially for AAC,
+
+00:03:53.720 --> 00:03:57.200
+we, we are... 
+one of the biggest challenges
+
+00:03:57.200 --> 00:04:00.480
+is that we are lack of a
+
+00:04:00.480 --> 00:04:03.360
+data like user
+
+00:04:04.240 --> 00:04:07.720
+user user data... AAC data,
+and also
+
+00:04:08.360 --> 00:04:12.120
+how a user interact with the AAC.
+
+00:04:12.520 --> 00:04:14.600
+So so
+
+00:04:16.080 --> 00:04:17.600
+which...
+
+00:04:17.600 --> 00:04:20.400
+and also we have several different
+
+00:04:21.000 --> 00:04:25.800
+AAC symbol sets used
+by the different individuals
+
+00:04:26.040 --> 00:04:30.600
+and which make it very difficult
+to develop NLP models as well
+
+00:04:30.840 --> 00:04:33.760
+because the AAC symbols
+
+00:04:33.760 --> 00:04:38.040
+are separate for each symbol set
+and that's the
+
+00:04:38.080 --> 00:04:40.720
+another challenge is the lack of data
+
+00:04:41.480 --> 00:04:45.080
+interoperability in AAC symbol sets.
+
+00:04:46.320 --> 00:04:51.000
+Yet the third challenge
+we are identified is the inclusion
+
+00:04:51.240 --> 00:04:54.960
+because we are working on AAC symbol sets
+
+00:04:55.720 --> 00:04:59.000
+from Arabic, English and Chinese.
+
+00:04:59.280 --> 00:05:05.040
+So there are cultural and social
+difference in AAC symbols, which is
+
+00:05:06.760 --> 00:05:08.240
+important to
+
+00:05:08.240 --> 00:05:13.880
+consider the needs of different end
+user groups on the cultural and the social
+
+00:05:14.160 --> 00:05:18.240
+factors,
+and to be involved in the development
+
+00:05:18.360 --> 00:05:20.960
+of the NLP models for AAC.
+
+00:05:22.440 --> 00:05:24.160
+The first one is
+
+00:05:24.400 --> 00:05:28.120
+data privacy and safety 
+and this has been
+
+00:05:29.760 --> 00:05:33.360
+identified in our web application for
+
+00:05:33.360 --> 00:05:38.760
+or from AAC symbols to spoken texts.
+
+00:05:38.760 --> 00:05:42.600
+So how do we,
+if we want to, a more accurate
+
+00:05:42.600 --> 00:05:44.960
+or more specific,
+
+00:05:45.960 --> 00:05:47.400
+personalized
+
+00:05:47.960 --> 00:05:48.840
+application?
+
+00:05:48.840 --> 00:05:51.000
+We need the user's information.
+
+00:05:51.000 --> 00:05:54.000
+So the challenge is how
+
+00:05:54.000 --> 00:05:57.160
+how can we store this
+
+00:05:57.520 --> 00:05:59.040
+personal information
+
+00:05:59.040 --> 00:06:03.000
+and how how prevent the data
+misuse and the bridge
+
+00:06:03.400 --> 00:06:06.200
+and how to make the tradeoff
+
+00:06:06.200 --> 00:06:08.760
+between the user
+
+00:06:09.240 --> 00:06:12.000
+information and the the model performance.
+
+00:06:13.720 --> 00:06:17.040
+And the last one
+
+00:06:17.040 --> 00:06:20.360
+is always the accessible user interface.
+
+00:06:20.360 --> 00:06:22.480
+So in the how,
+
+00:06:22.480 --> 00:06:26.040
+how to makes this AI powered tool, 
+NLP powered
+
+00:06:26.280 --> 00:06:30.840
+tools accessible
+for for end users and
+
+00:06:32.680 --> 00:06:34.040
+and also
+
+00:06:34.040 --> 00:06:36.760
+there are more generic issues in
+
+00:06:37.760 --> 00:06:42.400
+AI like accountability Explainability
+so yes I think
+
+00:06:42.400 --> 00:06:46.200
+that's the last of the challenges
+we have identified in our research.
+
+00:06:47.760 --> 00:06:48.480
+Thank you.
+
+00:06:48.720 --> 00:06:49.000
+Thank you, Chaohai.
+
+00:06:49.000 --> 00:06:54.920
+Is a great summary of definitely 
+some of the major challenges
+
+00:06:54.920 --> 00:06:59.000
+that well are spread
+across the entire domain.
+
+00:06:59.400 --> 00:07:01.200
+Definitely. Thank you so much.
+
+00:07:01.200 --> 00:07:04.280
+Lourdes, do you want to go next?
+
+00:07:06.400 --> 00:07:11.240
+You’re muted.
+
+00:07:11.240 --> 00:07:12.240
+Thank you.
+
+00:07:12.840 --> 00:07:14.520
+Thanks for the invitation.
+
+00:07:14.520 --> 00:07:16.920
+Good afternoon everyone. I’m Lourdes
+
+00:07:16.920 --> 00:07:21.400
+Moreno. I work as an associate
+professor in the computer
+
+00:07:21.400 --> 00:07:24.880
+science department
+on the Universidad Carlos III
+
+00:07:24.960 --> 00:07:27.880
+de Madrid, Spain.
+
+00:07:27.880 --> 00:07:29.160
+I am an accessibility
+
+00:07:29.160 --> 00:07:33.160
+expert. I have been working
+in the area of technology
+
+00:07:33.160 --> 00:07:38.080
+for disability for 20 years. And...
+
+00:07:38.600 --> 00:07:41.200
+I have previously worked on
+
+00:07:41.200 --> 00:07:44.120
+sensory disability but currently
+
+00:07:44.640 --> 00:07:47.080
+I work on cognitive accessibility.
+
+00:07:47.640 --> 00:07:50.560
+In my research work I combinate
+
+00:07:50.880 --> 00:07:53.920
+method from the human computer interaction
+
+00:07:54.320 --> 00:07:57.720
+and natural language processing areas
+
+00:07:58.280 --> 00:08:00.480
+to obtain accessible solutions
+
+00:08:00.960 --> 00:08:03.560
+from the point of view of reability
+
+00:08:03.560 --> 00:08:07.120
+and the stability of the language
+in user interfaces.
+
+00:08:08.080 --> 00:08:09.080
+And so is
+
+00:08:09.080 --> 00:08:15.320
+the question currently in natural
+language research is being developed
+
+00:08:15.440 --> 00:08:18.360
+at our language model in recent years,
+
+00:08:18.680 --> 00:08:20.960
+there had been many advances
+
+00:08:22.080 --> 00:08:24.320
+due to the increasing resources
+
+00:08:24.720 --> 00:08:28.680
+such as large dataset and cloud platform
+
+00:08:29.240 --> 00:08:32.320
+that allow the training of large models.
+
+00:08:33.120 --> 00:08:36.480
+But the most crucial factor is the use
+
+00:08:36.480 --> 00:08:41.200
+of transforming technology
+and the use of transfer learning.
+
+00:08:41.200 --> 00:08:47.640
+These are methods based on deep 
+learning to create language model
+
+00:08:48.160 --> 00:08:50.280
+base of the neural network.
+
+00:08:51.440 --> 00:08:53.400
+They are universal models,
+
+00:08:53.400 --> 00:08:57.160
+but then support is different
+in natural processing
+
+00:08:57.160 --> 00:09:03.240
+language tasks, such as 
+question answering, translation,
+
+00:09:03.240 --> 00:09:06.920
+summarization,
+speech recognition and more.
+
+00:09:07.840 --> 00:09:13.840
+The most extensively used models
+are the GPT
+
+00:09:13.840 --> 00:09:17.280
+from OpenAI, 
+and Bard from Google.
+
+00:09:17.760 --> 00:09:22.680
+But new and bigger models
+continually appear
+
+00:09:23.360 --> 00:09:25.720
+that outperform previous one
+
+00:09:25.720 --> 00:09:31.200
+because they are a performance continuous
+to a scale
+
+00:09:31.400 --> 00:09:37.440
+as more parameters are added to their
+models and more data are added.
+
+00:09:38.640 --> 00:09:42.920
+However, and despite these great advance
+
+00:09:43.440 --> 00:09:46.160
+there are issues
+
+00:09:46.160 --> 00:09:51.240
+in the accessibility scope
+challenges to address.
+
+00:09:51.240 --> 00:09:55.280
+One of them is bias.
+
+00:09:55.280 --> 00:09:59.000
+Language models have
+different types of bias
+
+00:09:59.440 --> 00:10:03.240
+such as gender, race and disability
+
+00:10:03.840 --> 00:10:07.680
+but gender and race
+
+00:10:07.760 --> 00:10:11.040
+biases are highly analyzed.
+
+00:10:11.640 --> 00:10:14.640
+However it is in the case
+
+00:10:14.720 --> 00:10:16.840
+with disability biases.
+
+00:10:17.960 --> 00:10:22.240
+It has been a relatively underexplored.
+
+00:10:23.040 --> 00:10:27.600
+There are studies relative
+this matter for for example
+
+00:10:27.600 --> 00:10:32.880
+in in these work
+in the in the sentiment and analysis text
+
+00:10:33.400 --> 00:10:37.200
+the terms relative to disability
+
+00:10:37.200 --> 00:10:40.320
+have a negative value
+
+00:10:40.320 --> 00:10:45.120
+or in another work using a
+model to moderate conversation
+
+00:10:45.120 --> 00:10:48.840
+classified takes mentions of disability
+
+00:10:49.080 --> 00:10:52.360
+as more toxics.
+
+00:10:53.200 --> 00:10:57.600
+That is algorithms
+are trained to be restful
+
+00:10:57.600 --> 00:11:00.040
+that can be offensive and cause
+
+00:11:00.040 --> 00:11:03.000
+disadvantage to individual
+with disabilities.
+
+00:11:04.240 --> 00:11:07.320
+So, a investigation is necessary
+
+00:11:07.320 --> 00:11:13.000
+to study in depth models to reduce biases.
+
+00:11:13.000 --> 00:11:16.640
+We cannot only use these language model
+and directly
+
+00:11:16.640 --> 00:11:19.520
+use the outcome.
+
+00:11:20.240 --> 00:11:22.520
+Another problem with these model
+
+00:11:23.520 --> 00:11:26.880
+is that there aren’t too many dataset
+
+00:11:27.360 --> 00:11:30.000
+related to accessibility area.
+
+00:11:30.000 --> 00:11:34.000
+For instance, there a few label corpora
+
+00:11:34.400 --> 00:11:36.760
+to be used in training simplification,
+
+00:11:37.200 --> 00:11:41.280
+algorithms,
+lexical or syntactic simplification
+
+00:11:41.880 --> 00:11:43.600
+in natural language processing.
+
+00:11:43.600 --> 00:11:50.720
+I work in cognitive accessibility
+in a in Spanish to simplify text
+
+00:11:50.720 --> 00:11:57.960
+to plain language and easy
+reading language. To carry out this case
+
+00:11:57.960 --> 00:12:02.680
+we had to create a corpus
+with an expert in easy reading,
+
+00:12:03.000 --> 00:12:05.680
+with the participation of older people
+
+00:12:06.360 --> 00:12:10.680
+and with people with disability
+intellectual disabilities
+
+00:12:11.480 --> 00:12:14.480
+because the current corpora
+had been created
+
+00:12:14.480 --> 00:12:19.520
+with non expert in disability,
+non expert in plain language
+
+00:12:19.960 --> 00:12:24.000
+and they haven't taken into account
+the people with disability.
+
+00:12:25.560 --> 00:12:30.360
+Also an effort devoted to solving this
+
+00:12:30.360 --> 00:12:34.040
+scarcity of resources are required
+
+00:12:34.040 --> 00:12:37.200
+in language with low resources.
+
+00:12:37.680 --> 00:12:42.600
+English is the language with more developed
+with many natural language processing.
+
+00:12:42.600 --> 00:12:46.200
+But others, such as Spanish, have hardly
+
+00:12:46.200 --> 00:12:49.280
+any resources. We need system
+
+00:12:49.400 --> 00:12:54.720
+trained for English language
+to work for Spanish as well.
+
+00:12:54.720 --> 00:12:58.680
+And finally,
+with the proliferation of GPT models
+
+00:12:58.680 --> 00:13:03.160
+with application
+such as ChatGPT
+
+00:13:03.480 --> 00:13:06.320
+another problem to address
+
+00:13:06.360 --> 00:13:09.760
+is the regulation on ethical aspect of
+
+00:13:10.800 --> 00:13:14.920
+artificial intelligence.
+
+00:13:15.840 --> 00:13:17.240
+Okay, thank you so much.
+
+00:13:17.240 --> 00:13:22.280
+Lourdes, definitely
+some very relevant challenges in there.
+
+00:13:23.600 --> 00:13:26.160
+Vikas, I’ll end this first round with you.
+
+00:13:27.440 --> 00:13:30.360
+Thank you Carlos. 
+I’m Vikas Ashok
+
+00:13:30.440 --> 00:13:34.600
+from Old Dominion University
+in Virginia United States.
+
+00:13:35.160 --> 00:13:37.680
+So I have been working researching
+
+00:13:37.680 --> 00:13:41.480
+in the area of accessible
+computing for like ten years now.
+
+00:13:42.000 --> 00:13:46.920
+And my specialty focus area
+is of people with visual disabilities.
+
+00:13:47.320 --> 00:13:50.840
+So I have mostly concentrated
+on their accessibility
+
+00:13:50.840 --> 00:13:54.000
+as well as usability needs
+when it comes to interacting
+
+00:13:54.000 --> 00:13:56.280
+with computer applications.
+
+00:13:57.080 --> 00:14:01.560
+So with the topic at hand,
+which is accessible communication.
+
+00:14:01.600 --> 00:14:04.560
+So one of the projects
+that I'm currently looking at
+
+00:14:04.560 --> 00:14:10.080
+is understandably of social media content
+for people
+
+00:14:10.600 --> 00:14:13.920
+who listen to content such as,
+you know, people who are blind.
+
+00:14:14.640 --> 00:14:18.000
+So listening,
+you know, social media content,
+
+00:14:18.000 --> 00:14:21.640
+text is not the same as looking at it.
+
+00:14:22.120 --> 00:14:25.320
+So, even though the social media text
+
+00:14:25.320 --> 00:14:31.160
+is accessible, it's not necessarily
+understandable because of presence
+
+00:14:31.160 --> 00:14:34.880
+of a lot of nonstandard language
+
+00:14:34.880 --> 00:14:37.880
+content in social media such as Twitter.
+
+00:14:37.920 --> 00:14:39.600
+Like people create their own words.
+
+00:14:39.600 --> 00:14:44.040
+They're very inventive there,
+so they hardly follow any grammar.
+
+00:14:44.880 --> 00:14:48.920
+So text to speech systems
+such as those used in screen
+
+00:14:48.920 --> 00:14:52.920
+readers cannot necessarily pronounce
+
+00:14:52.960 --> 00:14:56.480
+these out of
+vocabulary words in the right way,
+
+00:14:56.880 --> 00:14:59.920
+because most of these words,
+even though they're in text form,
+
+00:15:00.360 --> 00:15:05.200
+they're mostly intended for visual consumption, 
+such as some kind of exaggeration
+
+00:15:05.560 --> 00:15:10.680
+where the letters are duplicated
+just for some kind of additional effect.
+
+00:15:11.000 --> 00:15:14.800
+Sometimes even emotions are attached
+to the text itself without any,
+
+00:15:15.160 --> 00:15:17.480
+you know, emoticons or anything else.
+
+00:15:17.960 --> 00:15:22.640
+So and sometimes they try
+to phonetically match it,
+
+00:15:22.640 --> 00:15:27.080
+use a different spelling for a word
+just for fun purposes.
+
+00:15:27.240 --> 00:15:33.320
+So this kind of fun as communication
+has increased tremendously on social media
+
+00:15:33.320 --> 00:15:39.000
+and people are depending on social media
+to understand or get news, even,
+
+00:15:39.400 --> 00:15:42.760
+you know, some kind of disaster news
+or something happens anywhere.
+
+00:15:42.760 --> 00:15:46.680
+Some even, they first flock to the
+social media to get it. So
+
+00:15:47.680 --> 00:15:48.880
+people who listen
+
+00:15:48.880 --> 00:15:53.760
+to content also should be able to easily
+understand, so I’m focusing on that area
+
+00:15:53.760 --> 00:15:57.480
+how to use NLP to make this possible.
+
+00:15:58.360 --> 00:16:02.360
+Because even though this is not exactly
+a question
+
+00:16:02.440 --> 00:16:08.400
+of accessibility in a conventional sense,
+but it's more like accessibility
+
+00:16:08.400 --> 00:16:12.960
+in terms of being able to understand
+the already accessible content.
+
+00:16:12.960 --> 00:16:14.920
+So that's one of the things.
+
+00:16:14.920 --> 00:16:18.760
+The other thing that we're looking at,
+which is related to this panel
+
+00:16:18.800 --> 00:16:22.600
+is the... related to the bias, disability
+
+00:16:22.600 --> 00:16:27.720
+bias of natural language models,
+especially those large language models.
+
+00:16:28.480 --> 00:16:33.960
+So unfortunately, these models
+are reflective of the data it's trained on
+
+00:16:34.600 --> 00:16:40.720
+because most of the data associates words
+that are used to describe people
+
+00:16:40.720 --> 00:16:45.080
+with disabilities somehow end up having
+negative connotation.
+
+00:16:45.360 --> 00:16:47.680
+So they're using negative context.
+
+00:16:48.040 --> 00:16:51.760
+So it's nobody's telling these models
+to learn it that way
+
+00:16:52.320 --> 00:16:56.640
+except that the documents
+or the text corpus that these models
+
+00:16:56.640 --> 00:17:01.240
+are looking at inherently
+put these words that are,
+
+00:17:01.680 --> 00:17:06.200
+you know, many times
+not offensive into the negative category.
+
+00:17:07.440 --> 00:17:10.080
+So I'm looking at how we can counter
+
+00:17:10.080 --> 00:17:14.160
+this. One example is toxicity detection
+
+00:17:14.320 --> 00:17:19.280
+in discussion forums, online discussion
+forums are very popular.
+
+00:17:19.280 --> 00:17:22.280
+People go there, sometimes anonymously,
+
+00:17:22.280 --> 00:17:24.720
+post content, interact with each other.
+
+00:17:25.320 --> 00:17:28.440
+And, you know,
+some of the posts get flagged
+
+00:17:28.560 --> 00:17:32.360
+as, you know, toxic
+or this get filtered out.
+
+00:17:32.680 --> 00:17:35.800
+So even if they're not toxic
+
+00:17:36.160 --> 00:17:41.520
+because of the use of certain words
+to describe disabilities or something.
+
+00:17:41.520 --> 00:17:43.760
+So we want to avoid that.
+
+00:17:43.760 --> 00:17:47.920
+So how do we
+how can we use NLP to not do that.
+
+00:17:48.520 --> 00:17:52.920
+So these two projects are pretty much
+what's closely related to the panel.
+
+00:17:53.400 --> 00:17:55.160
+So stick to these.
+
+00:17:55.160 --> 00:17:58.840
+This session.
+
+00:17:58.840 --> 00:17:59.240
+Thank you, Vikas.
+
+00:18:00.920 --> 00:18:05.720
+I'll follow up with that
+with what you've mentioned and Lourdes
+
+00:18:05.800 --> 00:18:08.960
+has also previously highlighted
+
+00:18:08.960 --> 00:18:14.320
+the disability bias
+and... and I'm wondering
+
+00:18:14.320 --> 00:18:18.240
+if you have any ideas
+and suggestions on how can
+
+00:18:19.560 --> 00:18:22.320
+NLP tools
+
+00:18:22.920 --> 00:18:24.960
+address such issues.
+
+00:18:24.960 --> 00:18:27.960
+I'm thinking,
+for instance, text summarization tools,
+
+00:18:27.960 --> 00:18:30.680
+but also other also NLP tools.
+
+00:18:30.680 --> 00:18:33.840
+How can they help us
+address issues of disability bias,
+
+00:18:33.840 --> 00:18:37.920
+but also how can they explore other aspects
+
+00:18:37.920 --> 00:18:41.280
+like accountability or personalization
+
+00:18:41.280 --> 00:18:44.320
+of in the case of
+
+00:18:44.320 --> 00:18:45.480
+text summaries?
+
+00:18:45.480 --> 00:18:49.200
+And how can I personalize a summary
+
+00:18:49.200 --> 00:18:53.080
+for specific audiences
+for the needs of specific people?
+
+00:18:54.200 --> 00:18:56.640
+I'll start with you now Lourdes.
+
+00:18:56.640 --> 00:18:57.600
+OK.
+
+00:18:58.680 --> 00:19:00.080
+Text summarization is
+
+00:19:00.080 --> 00:19:02.680
+a natural language
+processing task.
+
+00:19:02.680 --> 00:19:04.920
+Is a... is a great resource
+
+00:19:06.720 --> 00:19:08.360
+because improve cognitive
+
+00:19:08.360 --> 00:19:14.080
+accessibility in order to help people
+people with disabilities to process alone
+
+00:19:14.080 --> 00:19:16.880
+and deduce text.
+
+00:19:17.400 --> 00:19:20.280
+Also, in the web
+content accessibility guidelines
+
+00:19:20.760 --> 00:19:25.200
+following success criteria 3.1.5 
+Reading Level
+
+00:19:25.200 --> 00:19:29.720
+the readable summary is a 
+
+00:19:30.160 --> 00:19:33.000
+resource that is recommended.
+
+00:19:34.640 --> 00:19:37.920
+But these task has challenges.
+
+00:19:38.320 --> 00:19:42.680
+Such us, bias, disability biasis.
+
+00:19:43.040 --> 00:19:46.000
+And the summaries generated
+
+00:19:46.000 --> 00:19:49.320
+are understandable 
+for people with disability is
+
+00:19:50.000 --> 00:19:54.520
+is at a is understandable
+for people with disability
+
+00:19:55.080 --> 00:20:00.560
+therefore some aspects must be taken
+into account: is necessary
+
+00:20:00.560 --> 00:20:06.320
+to approach this task
+which is summarize of the extractive type
+
+00:20:07.520 --> 00:20:12.240
+where the extracted sentences
+can be modified with paraphrases
+
+00:20:12.320 --> 00:20:17.400
+resources and help understandability
+and readability of the text.
+
+00:20:18.520 --> 00:20:22.400
+To summarize text
+different input are required
+
+00:20:22.960 --> 00:20:28.440
+not only knowledge about the sequences
+of words or other
+
+00:20:28.800 --> 00:20:32.600
+leads about sentences,
+
+00:20:33.000 --> 00:20:37.320
+but also about the target of audience
+is important.
+
+00:20:37.440 --> 00:20:40.480
+Different type of user
+
+00:20:40.480 --> 00:20:44.760
+require different type
+or personalization of summaries.
+
+00:20:46.400 --> 00:20:50.520
+It also a
+
+00:20:50.760 --> 00:20:53.320
+I think that this is
+
+00:20:53.760 --> 00:20:56.280
+it will be recommendable to include
+
+00:20:56.480 --> 00:21:00.720
+readability metric
+in the summary generation process
+
+00:21:01.240 --> 00:21:06.560
+to ensure that the resulting
+summary is minimally readable.
+
+00:21:08.400 --> 00:21:09.000
+For instance
+
+00:21:09.000 --> 00:21:10.680
+if
+
+00:21:10.680 --> 00:21:15.880
+we are in the context of a system
+that provides summaries of public
+
+00:21:15.960 --> 00:21:18.560
+administration information 
+for old people,
+
+00:21:19.000 --> 00:21:22.880
+it's necessary
+to take into account that the summary
+
+00:21:23.160 --> 00:21:26.600
+must be in plain language,
+
+00:21:26.760 --> 00:21:30.520
+therefore in addition
+to extract the relevant sentences
+
+00:21:30.520 --> 00:21:35.760
+and paraphrases it will be necessary
+to include knowledge about of guideline
+
+00:21:35.760 --> 00:21:39.720
+of plain language to make
+the text easier to read
+
+00:21:40.560 --> 00:21:45.480
+and finally corpora use
+
+00:21:46.240 --> 00:21:50.280
+to train natural language
+processing system shall be tested
+
+00:21:50.280 --> 00:21:54.880
+with users it in order to attain
+useful solution.
+
+00:21:55.520 --> 00:21:59.520
+Only then it will be possible
+to obtain understandable summaries
+
+00:21:59.520 --> 00:22:03.440
+for the whole of society and the elderly
+
+00:22:03.720 --> 00:22:07.920
+and and with respect to accountability
+
+00:22:09.120 --> 00:22:13.600
+as as in every artificial intelligence
+algorithm,
+
+00:22:13.680 --> 00:22:16.200
+these must be explainable
+
+00:22:18.000 --> 00:22:21.120
+so is necessary to respond to answer
+
+00:22:21.680 --> 00:22:25.160
+to questions such as how processing
+
+00:22:25.160 --> 00:22:29.440
+actually perform,
+the limitation of the dataset
+
+00:22:29.880 --> 00:22:34.960
+used to train and test algorithms
+and the outcomes of the model
+
+00:22:36.040 --> 00:22:37.480
+a therefore good
+
+00:22:37.480 --> 00:22:41.640
+data manager, management
+and machine learning models
+
+00:22:41.640 --> 00:22:42.640
+trained in practice
+
+00:22:42.640 --> 00:22:46.320
+shall be promote 
+to ensure quality results.
+
+00:22:49.080 --> 00:22:51.000
+And nothing else.
+
+00:22:51.000 --> 00:22:52.880
+Thank you Lourdes.
+
+00:22:53.800 --> 00:22:58.920
+Vikas, do you want to... even though we...
+from what I understood,
+
+00:22:58.920 --> 00:23:03.480
+you don't work directly
+with text summarization but still others
+
+00:23:03.480 --> 00:23:07.720
+aspects of disability
+bias, accountability,
+
+00:23:07.720 --> 00:23:11.040
+personalization, impact what you're doing.
+
+00:23:12.080 --> 00:23:16.760
+Yeah, I mean I use a lot of text summarization
+so I can add to it.
+
+00:23:16.760 --> 00:23:21.520
+So to add to what Lourdes said,
+
+00:23:22.440 --> 00:23:26.560
+simplification
+is also as important as summarization
+
+00:23:26.920 --> 00:23:32.240
+because sometimes it's not just
+summarizing or shortening the content
+
+00:23:32.400 --> 00:23:35.840
+to be consumed, but it's also making
+it understandable, like I said.
+
+00:23:36.280 --> 00:23:40.040
+So that means that certain complex
+sentence structures
+
+00:23:40.040 --> 00:23:41.680
+and some exotic words
+
+00:23:41.680 --> 00:23:44.880
+we need to replace them
+with equal and easier
+
+00:23:44.880 --> 00:23:48.080
+to understand
+more frequently used words.
+
+00:23:48.240 --> 00:23:54.080
+So there there is some work there that has
+been gone into text simplification.
+
+00:23:54.120 --> 00:23:57.840
+We created some kind of summarization
+in the special case.
+
+00:23:58.160 --> 00:24:01.640
+It's from the same language
+to text from between the same language.
+
+00:24:01.840 --> 00:24:05.800
+So the input is a text
+in the same language as the output text,
+
+00:24:06.000 --> 00:24:09.720
+except that the output text
+is more readable, more understandable.
+
+00:24:10.320 --> 00:24:12.360
+So that is extremely important.
+
+00:24:12.360 --> 00:24:13.440
+The other thing is
+
+00:24:14.400 --> 00:24:15.240
+summarization.
+
+00:24:15.240 --> 00:24:19.240
+Most of them tend
+to rely extractive summarization wherein
+
+00:24:19.560 --> 00:24:24.080
+they just pick certain sentences
+from the original piece of text
+
+00:24:24.760 --> 00:24:26.840
+so that they don't have to worry about the
+
+00:24:27.560 --> 00:24:30.800
+grammatical correctness 
+and proper sentence structures
+
+00:24:31.320 --> 00:24:34.400
+so that because they rely on humans
+
+00:24:34.400 --> 00:24:37.320
+who have written the text
+in order to generate the summaries.
+
+00:24:37.760 --> 00:24:40.080
+So I can speak about
+
+00:24:40.440 --> 00:24:44.840
+how summarization needs to be personalized
+in certain way for certain groups,
+
+00:24:44.960 --> 00:24:47.560
+especially for people
+with visual disabilities.
+
+00:24:47.920 --> 00:24:51.720
+So what I have noticed in
+some of my studies is that
+
+00:24:52.640 --> 00:24:56.480
+even though they can hear it,
+they don't necessarily understand it
+
+00:24:56.480 --> 00:24:59.840
+because the writing
+is sort of visual in the sense
+
+00:24:59.840 --> 00:25:03.040
+it needs to need you
+to be visually imaginative.
+
+00:25:03.600 --> 00:25:06.560
+So what is the alt... 
+the non-visual alternative
+
+00:25:07.240 --> 00:25:09.480
+for such kind of text?
+
+00:25:09.840 --> 00:25:15.080
+So how do you summarize the text that
+includes a lot of visual elements to it.
+
+00:25:15.280 --> 00:25:18.080
+So how do you convert it into non
+
+00:25:18.840 --> 00:25:21.520
+equal non-visual explanations?
+
+00:25:21.640 --> 00:25:26.000
+This necessarily goes
+beyond the extractive summarization.
+
+00:25:26.000 --> 00:25:27.760
+You cannot just pick and choose,
+
+00:25:27.760 --> 00:25:31.760
+so you need to replace the wordings
+in the sentence.
+
+00:25:31.760 --> 00:25:36.120
+By other wordings that they can understand
+and some of the text,
+
+00:25:36.120 --> 00:25:37.960
+you know, these days, especially
+
+00:25:37.960 --> 00:25:42.240
+the articles, news articles and all,
+they don't come purely as text.
+
+00:25:42.240 --> 00:25:44.920
+They're sort of multi-modal in the sense
+
+00:25:45.240 --> 00:25:48.000
+there are pictures, there are GIFs everything.
+
+00:25:48.000 --> 00:25:51.200
+And the text sort of refers
+to these pictures
+
+00:25:52.120 --> 00:25:56.840
+so that this is another problem
+because then it becomes highly visual.
+
+00:25:56.840 --> 00:26:00.240
+So you have to take
+some of the visual elements
+
+00:26:00.240 --> 00:26:03.920
+of the picture, probably through computer
+vision techniques or something,
+
+00:26:03.920 --> 00:26:08.760
+and then inject it into the text
+in order to make it more self-sufficient
+
+00:26:08.760 --> 00:26:12.800
+and understandable
+for people who cannot see the images.
+
+00:26:13.760 --> 00:26:17.240
+So that's my take on it.
+
+00:26:17.280 --> 00:26:23.240
+Yeah, that's a very good point
+about the multimedia information
+
+00:26:23.240 --> 00:26:26.320
+and how do we summarize everything
+into text.
+
+00:26:26.320 --> 00:26:28.920
+Yeah, that's a great point.
+
+00:26:28.920 --> 00:26:31.560
+Chaohai, your take on this?
+
+00:26:31.560 --> 00:26:33.240
+Oh yes. Yeah.
+
+00:26:33.240 --> 00:26:36.880
+But we don't know much experience
+in text summarization.
+
+00:26:36.880 --> 00:26:42.640
+Most our research is focused
+on the residual AAC and interlinking
+
+00:26:42.680 --> 00:26:46.600
+and the AAC generation,
+but we do how well the project
+
+00:26:47.040 --> 00:26:49.200
+involved part of the text summarization.
+
+00:26:50.040 --> 00:26:53.240
+We construct a knowledge graph
+
+00:26:53.640 --> 00:26:56.520
+for e-learning platform
+and that we need to
+
+00:26:57.680 --> 00:26:58.880
+extract
+
+00:26:59.280 --> 00:27:04.520
+the text summarization from lecture notes
+to, make it easier
+
+00:27:04.520 --> 00:27:07.680
+and accessible for people, students
+
+00:27:07.680 --> 00:27:11.160
+with disabilities. So,
+
+00:27:11.160 --> 00:27:15.440
+so based on that project,
+
+00:27:15.440 --> 00:27:19.440
+what we learned is that text
+summarization is very difficult task
+
+00:27:20.880 --> 00:27:24.480
+in NLP because these are
+highly dependent on the text
+
+00:27:25.600 --> 00:27:27.240
+context domain or
+
+00:27:27.240 --> 00:27:31.040
+target audience and even the goal summary.
+
+00:27:31.040 --> 00:27:36.680
+For example, in our scenario,
+we want to have the summary of
+
+00:27:37.960 --> 00:27:39.880
+each lecture notes,
+
+00:27:39.880 --> 00:27:43.480
+but we a very long transcripts
+in that lecture.
+
+00:27:43.920 --> 00:27:46.280
+So we use a few
+
+00:27:47.480 --> 00:27:49.680
+text summarization models to generate
+
+00:27:52.360 --> 00:27:55.200
+the summaries, but the outcome is not good
+
+00:27:56.360 --> 00:27:56.920
+somewhere.
+
+00:27:56.920 --> 00:27:59.120
+It is mainly as
+
+00:28:00.280 --> 00:28:03.520
+Vikas just said, some of the text
+
+00:28:03.520 --> 00:28:07.880
+summarization is just pick
+some of the text and replace
+
+00:28:07.880 --> 00:28:12.960
+some of the words that say so
+or even some that doesn't make sense.
+
+00:28:13.360 --> 00:28:16.520
+So that's the one.
+
+00:28:16.520 --> 00:28:20.640
+One problem
+we identified in text summarization
+
+00:28:21.120 --> 00:28:24.000
+and we also have some
+
+00:28:26.000 --> 00:28:28.200
+method to
+
+00:28:28.920 --> 00:28:29.800
+to read
+
+00:28:31.440 --> 00:28:33.360
+because we we
+
+00:28:33.360 --> 00:28:36.400
+we need to personalize
+because the project is
+
+00:28:37.240 --> 00:28:41.280
+related to the adaptive learning
+for individual students.
+
+00:28:41.280 --> 00:28:44.080
+We need a personalization
+for each student. So
+
+00:28:45.200 --> 00:28:47.920
+personalization could be
+
+00:28:47.920 --> 00:28:51.760
+customized, adapted to user need.
+
+00:28:52.240 --> 00:28:55.760
+But this is actually
+
+00:28:55.760 --> 00:28:58.920
+can can be improved the ways
+
+00:29:01.000 --> 00:29:04.000
+users’ personal preferences
+
+00:29:04.400 --> 00:29:06.720
+or feedback and
+
+00:29:08.200 --> 00:29:11.040
+and also allow user to set the
+
+00:29:12.600 --> 00:29:14.800
+summary goal and...
+
+00:29:14.800 --> 00:29:20.120
+and also the simplification
+is very important because some students
+
+00:29:20.360 --> 00:29:25.320
+may have cognitive disability
+or or other type of disability.
+
+00:29:25.320 --> 00:29:28.200
+They need to have simplified or blend
+
+00:29:28.760 --> 00:29:33.720
+plain language. Yet.
+
+00:29:33.720 --> 00:29:35.760
+Yeah, I think that's mainly what we
+
+00:29:37.200 --> 00:29:40.840
+have for text summarization.
+
+00:29:40.840 --> 00:29:41.520
+Thank you, Chaohai.
+
+00:29:41.600 --> 00:29:43.920
+Thank you. Uh.
+
+00:29:43.920 --> 00:29:48.480
+Okay, so let's move on to what we started
+with the challenges
+
+00:29:48.480 --> 00:29:53.240
+and now I would like to move on
+to the future perspectives.
+
+00:29:53.240 --> 00:29:58.440
+How do... what are the breakthroughs
+that you see happening
+
+00:29:58.960 --> 00:30:01.280
+promoted by the use of NLP
+
+00:30:02.080 --> 00:30:04.320
+for accessible communication.
+
+00:30:04.680 --> 00:30:06.920
+And I'll we'll start with you now, Vikas.
+
+00:30:10.960 --> 00:30:12.840
+So my
+
+00:30:12.840 --> 00:30:16.200
+perspective
+is that there's plenty of NLP,
+
+00:30:16.200 --> 00:30:20.120
+you know tools out there already
+that haven’t been exploited
+
+00:30:20.120 --> 00:30:24.760
+to the fullest extent to address
+accessibility and usability issues.
+
+00:30:25.280 --> 00:30:27.960
+The growth in NLP techniques
+
+00:30:27.960 --> 00:30:33.080
+and methods that has been extremely steep
+in the recent years
+
+00:30:33.080 --> 00:30:37.080
+and the rest of us in different
+fields are trying to catch up.
+
+00:30:37.560 --> 00:30:39.840
+I mean, still,
+there is a lot to be explored
+
+00:30:40.400 --> 00:30:43.320
+as to how they can be used to address
+
+00:30:43.320 --> 00:30:45.880
+real world accessibility problems,
+
+00:30:46.360 --> 00:30:51.120
+and we are in the process of doing that,
+I would say so
+
+00:30:51.120 --> 00:30:53.320
+text summarization is one thing
+
+00:30:54.240 --> 00:30:57.000
+that we discussed already,
+which can be exploited
+
+00:30:57.000 --> 00:31:01.840
+in a lot of scenarios
+to improve the efficiency
+
+00:31:01.840 --> 00:31:05.880
+of computer interaction
+for people with disabilities.
+
+00:31:06.240 --> 00:31:09.840
+But the main problem, as we discussed
+not only in this panel
+
+00:31:09.840 --> 00:31:12.120
+but also on other panels, is the data.
+
+00:31:12.120 --> 00:31:16.560
+So for some languages
+there is enough ... corpus
+
+00:31:16.560 --> 00:31:19.960
+where the translation is good,
+because the translation
+
+00:31:19.960 --> 00:31:23.280
+essentially depends on
+how much data you have trained on.
+
+00:31:23.640 --> 00:31:27.200
+But for some pair of
+languages it may not be that
+
+00:31:28.200 --> 00:31:28.800
+easy.
+
+00:31:28.800 --> 00:31:31.680
+Or even if it
+does something may not be that accurate.
+
+00:31:31.680 --> 00:31:33.800
+So that may be a problem.
+
+00:31:33.800 --> 00:31:36.920
+And then the biggest area where I see,
+
+00:31:37.480 --> 00:31:41.160
+which can be very useful for solving
+
+00:31:41.160 --> 00:31:46.560
+many accessibility problems
+is the improvement in dialog systems.
+
+00:31:46.560 --> 00:31:49.560
+So natural language dialog is more like
+
+00:31:49.560 --> 00:31:52.000
+a really intuitive interface for many
+
+00:31:53.360 --> 00:31:56.840
+users, including many people
+with disabilities.
+
+00:31:57.360 --> 00:32:00.240
+So those who have physical impairments
+which
+
+00:32:01.280 --> 00:32:05.040
+prevent them from conveniently
+using the keyboard or the mouse
+
+00:32:05.040 --> 00:32:08.080
+and those are blind
+who have to use screen readers,
+
+00:32:08.080 --> 00:32:11.040
+which is time
+consuming, is known to be time consuming.
+
+00:32:11.040 --> 00:32:15.080
+So dialog assistants are, I would say
+
+00:32:16.320 --> 00:32:17.720
+under-explored...
+they're still exploring it.
+
+00:32:17.720 --> 00:32:21.840
+We see that commercialization is going on
+like smartphones and all,
+
+00:32:22.080 --> 00:32:26.240
+but still it's at the level
+of some high level interaction
+
+00:32:26.240 --> 00:32:30.840
+like setting alarms or turning on lights
+and answering some questions.
+
+00:32:31.280 --> 00:32:34.760
+But what about using that to interact
+with applications
+
+00:32:34.760 --> 00:32:36.760
+in the context of an application?
+
+00:32:37.360 --> 00:32:39.480
+So if I see a play,
+
+00:32:41.040 --> 00:32:41.760
+I had a user
+
+00:32:41.760 --> 00:32:44.760
+comment to this particular document.
+
+00:32:44.760 --> 00:32:49.280
+It's in word or Google Docs. So can an
+assistant spoken
+
+00:32:49.280 --> 00:32:52.200
+dialog assistant
+understand that an automated
+
+00:32:53.360 --> 00:32:55.440
+means so this kind of automation
+
+00:32:56.240 --> 00:33:01.240
+will sort of address,
+I feel will address many of the issues
+
+00:33:01.240 --> 00:33:04.640
+that people face
+interacting with digital content.
+
+00:33:04.640 --> 00:33:09.080
+So that's one of the things I would say
+we can use NLP for.
+
+00:33:09.480 --> 00:33:15.120
+The other thing is the increased
+availability of large language
+
+00:33:15.120 --> 00:33:20.280
+models, Pre-trained models
+like one Lourdes mentioned, like GPT,
+
+00:33:20.840 --> 00:33:25.680
+which is essentially transformer decoder
+or generator based model.
+
+00:33:25.680 --> 00:33:28.040
+Then there's also Bert,
+which encoder based.
+
+00:33:28.440 --> 00:33:32.040
+So these help us, you know,
+
+00:33:32.120 --> 00:33:36.920
+in a way that we don't need large
+amounts of data to solve problems
+
+00:33:36.920 --> 00:33:40.320
+because they're already pre-trained
+on a large amount of data.
+
+00:33:40.800 --> 00:33:44.560
+So what we would need are kind of small
+
+00:33:44.760 --> 00:33:49.800
+data sets that are more fine tuned
+towards the problem we are addressing.
+
+00:33:50.520 --> 00:33:53.960
+So the datasets,
+they're accessibility datasets.
+
+00:33:53.960 --> 00:33:57.600
+They're I think there needs to be
+a little bit more investment
+
+00:33:58.480 --> 00:34:02.960
+doesn't have to be that big
+because the large language models
+
+00:34:02.960 --> 00:34:06.640
+already take care of most of the language
+complexity.
+
+00:34:06.760 --> 00:34:08.200
+It's more like fine tuning
+
+00:34:09.160 --> 00:34:10.560
+the problem at hand.
+
+00:34:10.560 --> 00:34:14.400
+So that's where I think
+some effort should go.
+
+00:34:14.400 --> 00:34:18.800
+And once we do that, obviously
+we can fine tune and solve the problems
+
+00:34:18.800 --> 00:34:23.640
+and then there is a tremendous enhancement
+or advancement
+
+00:34:23.640 --> 00:34:27.920
+in transport learning techniques
+which we can exploit that as well,
+
+00:34:28.440 --> 00:34:32.280
+in order to not do stuff from scratch,
+instead borrow
+
+00:34:32.280 --> 00:34:35.640
+some things that are already there
+for something different.
+
+00:34:36.320 --> 00:34:38.280
+I mean, similar problem.
+
+00:34:38.280 --> 00:34:43.880
+So, so there is a lot to be explored,
+but we haven't done that yet.
+
+00:34:43.880 --> 00:34:45.920
+So there's plenty of opportunity
+
+00:34:45.920 --> 00:34:48.960
+for research
+using NLP expertise for
+
+00:34:49.560 --> 00:34:53.400
+problems in accessible communication,
+especially.
+
+00:34:53.400 --> 00:34:56.160
+Yes, definitely
+some exciting avenues there.
+
+00:34:57.120 --> 00:35:00.680
+So, Chaohai, can we have your take on this?
+
+00:35:01.120 --> 00:35:04.080
+What are your breakthroughs?
+
+00:35:04.200 --> 00:35:04.960
+OK.
+
+00:35:04.960 --> 00:35:08.560
+Just listened them,
+Vikas, I totally agree with him.
+
+00:35:08.880 --> 00:35:09.240
+He's
+
+00:35:11.160 --> 00:35:13.200
+all opinions and
+
+00:35:13.200 --> 00:35:15.320
+for... for my research
+
+00:35:15.720 --> 00:35:18.480
+because I've mainly worked on AAC, 
+so, currently,
+
+00:35:19.160 --> 00:35:22.160
+so I would take AAC for example.
+
+00:35:22.920 --> 00:35:26.120
+So the future perspective for AAC,
+
+00:35:27.040 --> 00:35:29.200
+NLP for AAC, I think the first of
+
+00:35:29.240 --> 00:35:32.920
+that will be the personalized adaptive
+
+00:35:34.160 --> 00:35:37.480
+communication for each individual,
+because
+
+00:35:39.240 --> 00:35:42.520
+each individual
+has their own communication,
+
+00:35:43.640 --> 00:35:45.760
+their own way to communicate
+with each other
+
+00:35:46.120 --> 00:35:49.200
+and NLP techniques can be used to make
+
+00:35:50.320 --> 00:35:52.720
+this communication more accessible,
+
+00:35:52.920 --> 00:35:56.480
+more personalized
+and adaptive based on their
+
+00:35:58.000 --> 00:36:01.200
+personal preferences of feedback.
+
+00:36:02.440 --> 00:36:06.520
+So this can can be used to
+
+00:36:06.840 --> 00:36:10.320
+for personalize the AAC symbols so
+
+00:36:11.320 --> 00:36:14.440
+currently, AAC users
+
+00:36:14.440 --> 00:36:19.080
+they just using some standard
+AAC symbol set for
+
+00:36:19.160 --> 00:36:24.480
+their daily communications,
+so how can we use NLP to
+
+00:36:25.680 --> 00:36:29.520
+and generic and the generic AI models
+
+00:36:30.240 --> 00:36:34.720
+to create a more customized
+personalized AAC symbols
+
+00:36:36.080 --> 00:36:37.440
+that's which
+
+00:36:37.440 --> 00:36:40.800
+which you could be have ability
+to adapt to the
+
+00:36:42.720 --> 00:36:45.240
+individual's
+unique cultural and social needs.
+
+00:36:45.560 --> 00:36:48.240
+I think that's one potentially
+
+00:36:49.280 --> 00:36:52.280
+contribute to the AAC users.
+
+00:36:52.800 --> 00:36:56.160
+The second one will be accessible multi
+
+00:36:56.320 --> 00:36:59.440
+modal communication
+
+00:37:00.120 --> 00:37:01.720
+because a
+
+00:37:02.000 --> 00:37:03.920
+that NLP techniques
+
+00:37:03.920 --> 00:37:07.560
+they have the potential to enhance this
+
+00:37:08.520 --> 00:37:11.600
+accessible communication by improving
+
+00:37:12.960 --> 00:37:16.320
+interoperability in training data
+
+00:37:17.000 --> 00:37:22.160
+and the between the verbal language
+sign language and that AAC so data
+
+00:37:22.160 --> 00:37:26.280
+interoperability could provide
+more high quality training data for this
+
+00:37:28.120 --> 00:37:28.960
+language with
+
+00:37:28.960 --> 00:37:31.040
+elastic set and
+
+00:37:32.200 --> 00:37:35.400
+additionally,
+
+00:37:35.400 --> 00:37:39.720
+it can provide the ability to translate
+
+00:37:40.280 --> 00:37:43.200
+different communication models
+
+00:37:43.800 --> 00:37:46.280
+and to make it more accessible
+and inclusive.
+
+00:37:47.480 --> 00:37:50.280
+So in AAC, so we can have
+
+00:37:51.440 --> 00:37:55.080
+multiple AAC symbol sets can be link
+
+00:37:55.640 --> 00:37:58.200
+mapped and interlinked by NLP models
+
+00:37:58.680 --> 00:38:03.200
+and this can be contribute
+to the translation between the AAC to AAC
+
+00:38:03.520 --> 00:38:07.800
+and AAC to text, AAC to some language
+and vice versa.
+
+00:38:08.480 --> 00:38:13.880
+Yeah, that's the,
+the the second aspect I think about.
+
+00:38:13.880 --> 00:38:15.240
+And then the third one is the
+
+00:38:17.240 --> 00:38:19.720
+AI assistant
+communication that Vikas
+
+00:38:19.720 --> 00:38:23.760
+just, just talk about the ChatGPT.
+
+00:38:23.760 --> 00:38:26.760
+So with this,
+
+00:38:26.760 --> 00:38:30.080
+this large language model has been trained
+
+00:38:30.080 --> 00:38:32.840
+by this big companies and
+
+00:38:33.960 --> 00:38:35.680
+and they have been widely 
+spreading on social media.
+
+00:38:35.680 --> 00:38:38.560
+So how
+
+00:38:38.560 --> 00:38:40.680
+how to using this
+
+00:38:40.680 --> 00:38:42.920
+this trained large
+
+00:38:43.400 --> 00:38:48.360
+language models incorporated
+with other applications and then can use it
+
+00:38:48.360 --> 00:38:53.560
+for a more accessible communication
+to help people with disabilities.
+
+00:38:54.000 --> 00:38:56.800
+That's that's another
+
+00:38:57.000 --> 00:38:57.560
+future
+
+00:38:57.560 --> 00:38:59.200
+we are looking for.
+
+00:38:59.200 --> 00:39:01.320
+The last one 
+that I'm going to talk about
+
+00:39:01.560 --> 00:39:04.880
+is more regarding the AAC
+because it's quite expensive.
+
+00:39:05.160 --> 00:39:07.960
+So affordability is very important
+
+00:39:08.640 --> 00:39:13.080
+and it can be achieved by the NLP
+
+00:39:13.320 --> 00:39:18.120
+or AI. That's what I mentioned
+that we are currently looking into
+
+00:39:18.640 --> 00:39:23.320
+how to turn images into symbols
+and how to generate
+
+00:39:24.640 --> 00:39:28.200
+AAC symbols automatically by using
+
+00:39:29.520 --> 00:39:33.720
+image generative AI models
+like stable diffusion. So
+
+00:39:34.840 --> 00:39:37.960
+so that's
+the another future we are looking forward
+
+00:39:37.960 --> 00:39:41.280
+how to reduce the cost
+for accessible communication.
+
+00:39:42.000 --> 00:39:44.280
+Yeah. Thank you.
+
+00:39:44.280 --> 00:39:44.640
+Thank you,
+
+00:39:44.640 --> 00:39:47.520
+Chaohai. Definitely a relevant point.
+
+00:39:47.520 --> 00:39:52.040
+Reducing costs of getting data
+and all of that.
+
+00:39:52.320 --> 00:39:54.120
+That's important everywhere.
+
+00:39:54.120 --> 00:39:57.120
+So, Lourdes, what are you looking for
+
+00:39:57.360 --> 00:40:01.840
+in the near future?
+
+00:40:01.840 --> 00:40:05.880
+And you are muted.
+
+00:40:05.880 --> 00:40:11.920
+So as we have mentioned before,
+there are two trends that are the
+
+00:40:12.360 --> 00:40:16.680
+the appearance of new and better
+language model than the previous one
+
+00:40:17.120 --> 00:40:19.680
+working in these these new models
+
+00:40:20.120 --> 00:40:25.080
+and to reduce the disability biases.
+
+00:40:25.080 --> 00:40:29.040
+Also I am going to list a specific
+natural language processing
+
+00:40:29.040 --> 00:40:31.800
+task and data application
+
+00:40:32.080 --> 00:40:34.320
+that I will work in the coming year.
+
+00:40:35.480 --> 00:40:39.960
+And one of them is accessibility
+to domain specific.
+
+00:40:39.960 --> 00:40:41.680
+task, such as, health
+
+00:40:42.760 --> 00:40:44.720
+the the
+
+00:40:44.720 --> 00:40:47.960
+health language is highly
+demanded need
+
+00:40:48.960 --> 00:40:51.800
+but patients have problems understanding
+
+00:40:51.800 --> 00:40:57.240
+information about their health
+condition, diagnosis, treatment
+
+00:40:57.520 --> 00:41:02.560
+and natural language processing
+method could improve their understanding
+
+00:41:02.560 --> 00:41:05.440
+of health related documents.
+
+00:41:06.400 --> 00:41:10.800
+Similar sample appear in
+legal and financial documents,
+
+00:41:10.800 --> 00:41:14.880
+the language of administration,
+e-government...
+
+00:41:15.480 --> 00:41:18.960
+Current natural language
+processing technology
+
+00:41:18.960 --> 00:41:27.240
+that simplifies and summarizes
+this could help in the roadmap.
+
+00:41:27.240 --> 00:41:29.480
+And another
+
+00:41:31.000 --> 00:41:33.720
+line is speech to text
+
+00:41:35.040 --> 00:41:37.800
+speech to text will be a relevant area
+
+00:41:37.800 --> 00:41:40.800
+of research in the field
+of virtual meetings
+
+00:41:41.720 --> 00:41:46.440
+in order to facilitate accessible,
+accessible communication by generation
+
+00:41:46.440 --> 00:41:50.120
+of summaries of meeting
+as well as minutes
+
+00:41:51.280 --> 00:41:53.640
+in plain language.
+
+00:41:53.960 --> 00:41:56.320
+Another topic is the
+
+00:41:57.240 --> 00:42:00.600
+integration of natural language
+processing
+
+00:42:00.600 --> 00:42:03.960
+method into the design
+
+00:42:03.960 --> 00:42:07.320
+and development of
+multimedia user interface
+
+00:42:08.400 --> 00:42:12.120
+is necessary to face accessible
+accessible communication
+
+00:42:12.120 --> 00:42:17.000
+from a multi-disciplinary approach
+between different areas
+
+00:42:17.000 --> 00:42:20.520
+such as, human computer interaction
+software engineering
+
+00:42:20.840 --> 00:42:24.360
+and natural language processing.
+
+00:42:24.360 --> 00:42:29.280
+Finally, another
+issue is advancing
+
+00:42:29.280 --> 00:42:33.400
+application in smart assistant
+in natural language processing
+
+00:42:33.920 --> 00:42:37.440
+method to support people with disabilities
+and the elderly.
+
+00:42:38.520 --> 00:42:41.480
+Assist them in their daily tasks,
+
+00:42:41.760 --> 00:42:46.560
+and promote active living.
+
+00:42:46.560 --> 00:42:47.920
+Okay thank you so much, Lourdes,
+
+00:42:47.920 --> 00:42:52.120
+and everyone of you
+for for those perspectives.
+
+00:42:52.520 --> 00:42:55.480
+I guess we still have 5 minutes
+
+00:42:55.480 --> 00:43:00.520
+more in this session,
+so I will risk another question
+
+00:43:00.520 --> 00:43:05.040
+and I will ask you to
+to try to to be brief on this one.
+
+00:43:05.040 --> 00:43:09.720
+But the the need for data
+
+00:43:09.720 --> 00:43:13.720
+was common across all your interventions.
+
+00:43:13.720 --> 00:43:17.480
+And if we go back to the previous
+panel, also,
+
+00:43:17.480 --> 00:43:21.360
+it was brought up by every every panelist.
+
+00:43:21.360 --> 00:43:23.760
+So yeah, we need data.
+
+00:43:25.000 --> 00:43:26.880
+What are your thoughts and
+
+00:43:26.880 --> 00:43:29.600
+how can we make it easier
+
+00:43:30.120 --> 00:43:32.600
+and to collect more data
+
+00:43:32.880 --> 00:43:37.120
+for the specific aspect
+of accessible communication?
+
+00:43:37.120 --> 00:43:38.960
+Because, we communicate a lot, right?
+
+00:43:38.960 --> 00:43:41.280
+Technology has
+
+00:43:41.680 --> 00:43:43.720
+allowed us and open up
+
+00:43:44.320 --> 00:43:46.760
+several channels
+to where we can communicate
+
+00:43:46.960 --> 00:43:49.960
+even when we're not co-located.
+
+00:43:50.520 --> 00:43:52.600
+So yeah, every one of us is
+
+00:43:53.160 --> 00:43:56.200
+different points of the planet
+and we are communicating right now.
+
+00:43:56.360 --> 00:44:01.440
+Technology improved those that
+that possibility a lot.
+
+00:44:01.880 --> 00:44:04.680
+And however
+
+00:44:04.680 --> 00:44:07.320
+we always hear this, 
+we need more data.
+
+00:44:07.320 --> 00:44:08.520
+We can't get data.
+
+00:44:08.520 --> 00:44:11.760
+So how do you think we can get more data
+
+00:44:13.160 --> 00:44:15.240
+is and of course we need
+
+00:44:15.240 --> 00:44:17.760
+the data to train these models, but
+
+00:44:18.280 --> 00:44:21.760
+can't we also rely on these models
+to generate data?
+
+00:44:22.960 --> 00:44:25.320
+So let me just
+
+00:44:25.320 --> 00:44:28.560
+drop this on you now and
+
+00:44:30.120 --> 00:44:31.320
+any of you want
+
+00:44:31.320 --> 00:44:37.120
+to go first?
+
+00:44:37.120 --> 00:44:40.160
+I can go first. Okay. Yeah. Yeah.
+
+00:44:40.160 --> 00:44:43.320
+Because we have actually working on open
+
+00:44:43.320 --> 00:44:46.240
+data four years ago before, I mean
+
+00:44:47.440 --> 00:44:50.680
+the AI and the data science
+because when I started my PhD
+
+00:44:50.840 --> 00:44:55.720
+we working on the open data and
+there is a open data initiative in UK.
+
+00:44:56.040 --> 00:44:59.720
+So we want to open our data
+and government data
+
+00:45:01.120 --> 00:45:05.120
+and the, and the public transport data
+and that's
+
+00:45:05.120 --> 00:45:09.200
+how long working on public transportation
+with accessibility needs.
+
+00:45:09.200 --> 00:45:11.400
+So there's a lack of data.
+
+00:45:11.520 --> 00:45:13.240
+At the beginning of my Ph.D.
+
+00:45:13.240 --> 00:45:17.320
+so few years later, the still
+lack of the accessibility information data
+
+00:45:18.000 --> 00:45:19.240
+on this data.
+
+00:45:19.240 --> 00:45:23.400
+So the I think the so how can we
+how is this
+
+00:45:23.760 --> 00:45:28.920
+I mean, the accessibility area,
+how can we have such a data
+
+00:45:29.320 --> 00:45:32.000
+to to have to train our model?
+
+00:45:32.000 --> 00:45:36.320
+I mean, the first advice,
+what I used to do
+
+00:45:36.320 --> 00:45:40.560
+with public transport data is I mapped all
+
+00:45:41.520 --> 00:45:42.760
+available data
+
+00:45:42.760 --> 00:45:46.400
+into a larger dataset. That's incurred
+
+00:45:46.480 --> 00:45:50.120
+a lot of labor work
+like the cleaning data integration
+
+00:45:50.120 --> 00:45:54.560
+and all this
+method to make data available.
+
+00:45:55.120 --> 00:45:57.560
+That's the first first approach.
+
+00:45:57.840 --> 00:46:00.960
+The second is we think about how can we
+
+00:46:02.200 --> 00:46:05.360
+contribute like
+
+00:46:05.360 --> 00:46:08.160
+a data repository or something
+
+00:46:08.160 --> 00:46:13.120
+like an image net or word net
+that we can collaborate to together
+
+00:46:13.160 --> 00:46:15.520
+to contribute the identified
+
+00:46:16.520 --> 00:46:19.320
+data related to accessibility research.
+
+00:46:20.160 --> 00:46:25.680
+I think that that's we can as a community,
+we can create such a universal
+
+00:46:26.000 --> 00:46:28.320
+repository or, or
+
+00:46:30.160 --> 00:46:32.200
+yeah, some kind of data initiative
+
+00:46:32.200 --> 00:46:35.480
+that we can working on
+accessibility research.
+
+00:46:36.240 --> 00:46:38.920
+And the third approach 
+is that definitely 
+
+00:46:39.000 --> 00:46:42.440
+that we can generate
+the data based on the small data.
+
+00:46:42.440 --> 00:46:45.400
+We can be using
+
+00:46:45.840 --> 00:46:48.720
+generative AI model to generate more,
+
+00:46:49.840 --> 00:46:53.000
+but to
+do the question is, is that data reliable?
+
+00:46:53.080 --> 00:46:58.240
+The data to generate generate enough,
+or is that then the bias?
+
+00:46:58.640 --> 00:47:01.600
+So yeah, that's my my conclusion.
+
+00:47:01.960 --> 00:47:02.680
+Thank you.
+
+00:47:03.400 --> 00:47:04.440
+Yes, exactly.
+
+00:47:04.440 --> 00:47:07.440
+That's the... the big question mark.
+
+00:47:07.440 --> 00:47:08.200
+Right.
+
+00:47:08.360 --> 00:47:11.520
+Is that synthetic data
+reliable or not, so
+
+00:47:12.000 --> 00:47:14.440
+Vikas or Lourdes
+do you want to add something?
+
+00:47:15.480 --> 00:47:18.000
+So yeah I mean I have used synthetic data
+
+00:47:18.120 --> 00:47:21.000
+before based
+
+00:47:21.040 --> 00:47:24.240
+the little bit of real data
+and in some cases
+
+00:47:24.240 --> 00:47:26.440
+you can generate synthetic data.
+
+00:47:26.680 --> 00:47:29.640
+So one of the things I had to do
+was extract
+
+00:47:30.400 --> 00:47:32.440
+user comments in documents.
+
+00:47:33.280 --> 00:47:37.480
+Most of these word processing applications
+allow you to post comments
+
+00:47:37.960 --> 00:47:42.800
+to the right for your collaborators to look at
+and then, you know, address them.
+
+00:47:43.240 --> 00:47:47.360
+So automatically extracting
+that I had to generate synthetic data
+
+00:47:47.360 --> 00:47:51.800
+because obviously you have few documents
+with collaborative comments.
+
+00:47:52.320 --> 00:47:54.800
+So the appearance there is like, okay
+
+00:47:54.840 --> 00:47:58.360
+comments will appear somewhere
+on the right side, right corner,
+
+00:47:59.080 --> 00:48:02.400
+which will have some text in it
+with a few sentences.
+
+00:48:02.680 --> 00:48:04.680
+So there are some characteristics.
+
+00:48:04.680 --> 00:48:07.640
+So in those cases
+we generated synthetic data.
+
+00:48:07.640 --> 00:48:09.960
+We train the machine learning model.
+
+00:48:09.960 --> 00:48:13.720
+It was pretty accurate on this data,
+which was like real data.
+
+00:48:14.520 --> 00:48:16.200
+So... exploit...
+
+00:48:16.200 --> 00:48:19.320
+In some cases you can exploit the
+
+00:48:19.680 --> 00:48:23.840
+way data will appear
+and then generate the synthetic data.
+
+00:48:23.920 --> 00:48:27.240
+But in many cases it may not be possible.
+
+00:48:27.480 --> 00:48:30.480
+Like for the project
+I mentioned, social media,
+
+00:48:30.480 --> 00:48:34.000
+where text contains
+a lot of nonstandard words.
+
+00:48:34.600 --> 00:48:39.800
+Simply replacing the nonstandard words
+with synonyms may not do the job
+
+00:48:39.880 --> 00:48:43.920
+because then you take the fun aspect
+away from social media.
+
+00:48:44.280 --> 00:48:47.320
+Like, it should be as fun and entertaining
+
+00:48:47.320 --> 00:48:51.120
+when you listen to social media text 
+as it is when you look at it.
+
+00:48:51.640 --> 00:48:54.360
+So. So you have to do some kind of clever,
+
+00:48:55.360 --> 00:48:56.880
+you know, replacement.
+
+00:48:56.880 --> 00:49:01.040
+And for that you need some kind of expert
+human expert going there and
+
+00:49:03.000 --> 00:49:04.200
+doing that.
+
+00:49:04.200 --> 00:49:07.920
+So crowdsourcing
+I think is one way to get data
+
+00:49:07.920 --> 00:49:11.040
+quickly and it's pretty reliable.
+
+00:49:11.440 --> 00:49:14.200
+And see, I've seen in the NLP community
+
+00:49:14.240 --> 00:49:19.560
+like NLP papers that appear in ACL
+and they rely heavily on the Amazon
+
+00:49:20.160 --> 00:49:23.280
+Mechanical Turk and other online
+
+00:49:26.160 --> 00:49:29.120
+incentivized data collection mechanisms.
+
+00:49:29.560 --> 00:49:31.720
+So that I think is one thing.
+
+00:49:31.720 --> 00:49:35.640
+The other thing I do
+know, you know, in my classes
+
+00:49:35.640 --> 00:49:39.840
+especially, I get the students
+to help each other out, collect the data
+
+00:49:40.160 --> 00:49:43.560
+so it doesn't have to be that intensive
+every day.
+
+00:49:43.560 --> 00:49:47.400
+If they just even one student
+collects like ten data points
+
+00:49:47.880 --> 00:49:52.560
+over the semester, it would be like
+enough data for a lot of things.
+
+00:49:52.560 --> 00:49:56.960
+So you know, in each other projects
+and in the end of the course
+
+00:49:57.120 --> 00:50:00.320
+pretty much they'll have a
+lot of data for research. So
+
+00:50:01.320 --> 00:50:02.120
+you know,
+
+00:50:02.120 --> 00:50:06.040
+everybody can contribute
+in a way and students
+
+00:50:06.040 --> 00:50:10.200
+especially are much more reliable
+because they are familiar
+
+00:50:10.200 --> 00:50:14.840
+with the mechanisms
+how to label collect data.
+
+00:50:14.840 --> 00:50:18.520
+And also they can understand
+how things work as well.
+
+00:50:18.520 --> 00:50:22.760
+So, it’s like a win-win.
+
+00:50:22.760 --> 00:50:25.000
+Okay, yeah, thanks for that contribution.
+
+00:50:25.480 --> 00:50:26.880
+Good suggestion.
+
+00:50:26.880 --> 00:50:31.040
+And, Lourdes, we are really running out of time
+
+00:50:31.040 --> 00:50:34.120
+but if you still want to intervene,
+
+00:50:34.120 --> 00:50:36.200
+I can give you a couple of minutes.
+
+00:50:37.240 --> 00:50:37.760
+Okay.
+
+00:50:37.760 --> 00:50:40.720
+Only a I think that also
+
+00:50:40.720 --> 00:50:46.080
+we don't find many
+we need a few data, but in my vision
+
+00:50:46.080 --> 00:50:49.240
+is also negative because obtaining
+
+00:50:49.240 --> 00:50:52.640
+the dataset is expensive.
+
+00:50:52.680 --> 00:50:56.760
+An in accessible communication,
+I work in simplification.
+
+00:50:57.960 --> 00:50:59.880
+these data must be prepared
+
+00:50:59.880 --> 00:51:01.960
+by the expert in accessibility
+
+00:51:03.360 --> 00:51:05.720
+is important as these data
+
+00:51:07.240 --> 00:51:11.400
+is validated
+by people with disability
+
+00:51:11.680 --> 00:51:16.160
+and use
+plain language resources
+
+00:51:16.880 --> 00:51:20.040
+and then it is a problem
+
+00:51:20.520 --> 00:51:25.640
+to obtain data with quality.
+
+00:51:26.880 --> 00:51:28.840
+Okay, thank you so much,
+
+00:51:28.840 --> 00:51:29.320
+Lourdes.
+
+00:51:29.320 --> 00:51:34.800
+And thanks a very big
+thank you to the three of you, Chaohai,
+
+00:51:34.800 --> 00:51:36.680
+Vikas and Lourdes. It
+
+00:51:36.760 --> 00:51:38.760
+was a really interesting panel
+
+00:51:39.480 --> 00:51:42.040
+thank you so much for
+for your availability and
+

@@ -18,7 +18,7 @@ description:  Personas of people with disabilities using the Web that highlight 
 github:
   label: wai-people-use-web
 
-permalink: /people-use-web/user-stories/   # Add the language shortcode to the end, with no slash at end, for example: /people-use-web/user-stories/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+permalink: /people-use-web/user-stories/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /people-use-web/user-stories/  # Do not change this
 
 parent_in_h1:

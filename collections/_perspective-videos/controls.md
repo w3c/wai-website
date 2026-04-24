@@ -45,7 +45,7 @@ Web accessibility is essential for people with disabilities and useful for all. 
 {:#film.no-display}
 
 {% include video-player-data.html
-    video-id="controls"
+    video-id="perspectives_controls"
     yt-id="CzfKB3PuuIY"
     yt-id-ad="65G_twR47OQ"
 %}
@@ -87,7 +87,7 @@ Learn more {#resources}
 -   **User Story:**
     -   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss](/people-use-web/user-stories/archived/#retiree)
 -   **Web Content Accessibility Guidelines ([WCAG Overview](/standards-guidelines/wcag/)):**
-    -   [Success Criteria relating to "labels"](https://www.w3.org/WAI/WCAG21/quickref/?tags=labels)
+    -   [Success Criteria relating to "labels"](https://www.w3.org/WAI/WCAG22/quickref/?tags=labels)
 
 ## Text Transcript with Description of Visuals {#transcript}
 

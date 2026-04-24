@@ -10,7 +10,7 @@ first_published: "September 2015"
 
 translation:
   last_updated: 2023-11-24 # Put the date of this translation YYYY-MM-DD (with month in the middle)
-  status: outdated
+  outdated: true
 
 resource:
   title: "Kiat Memulai"
