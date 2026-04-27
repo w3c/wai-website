@@ -30,6 +30,8 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 {:/}
 
 ## April 2026
+In [Tables tutorial](/tutorials/tables/):
+* Redirect the Full example page back to Example 2 in [Irregular Headers](/tutorials/tables/irregular) as the full code is available in the Code Snippet. 
 
 In [Menus tutorial](/tutorials/menus/):
 * Removed references to WCAG Technique H4 concerning logical tab order. It is marked as obsolete and not referenced from any Understanding document. [GitHub PR #1954](https://github.com/w3c/wai-website/pull/1954)

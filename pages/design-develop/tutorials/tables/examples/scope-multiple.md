@@ -1,6 +1,8 @@
 ---
 title: Complete “Table with headers spanning multiple rows or columns” Example
 lang: en
+redirect_to:
+ - /tutorials/tables/irregular/#table-with-headers-spanning-multiple-rows-or-columns
 permalink: /tutorials/tables/examples/scope-multiple/
 ref: /tutorials/tables/examples/scope-multiple/
 github:
