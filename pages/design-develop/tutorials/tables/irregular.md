@@ -275,8 +275,6 @@ Due to the complexity of the table a [summary technique](/tutorials/tables/capti
 {% include box.html type="end" %}
 {:/}
 
-[Full code example](/tutorials/tables/examples/scope-multiple/)
-
 {::nomarkdown}
 {% include box.html type="start" title="Note" class="simple notes" %}
 {:/}
