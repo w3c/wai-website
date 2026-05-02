@@ -5,7 +5,7 @@
 title: "The WCAG 2 Documents"
 nav_title: "The Documents"
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2024-03-14 # Keep the date of the English version
+last_updated: 2026-05-05 # Keep the date of the English version
 first_published: "July 2005"
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -31,7 +31,6 @@ description:  Describes Web Content Accessibility Guidelines (WCAG) 2 supporting
 # Do not change the dates in the footer below.
 footer: >
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: <a href="https://www.w3.org/People/hidde/">Hidde de Vries</a> and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
-   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 # Read Translations Notes for this resource at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/
 ---
@@ -60,11 +59,15 @@ This page describes WCAG 2 supporting documents and supplemental guidance. It he
 {% include_cached toc.html type="end" %}
 {:/}
 
-## WCAG 2 Standard
+## WCAG 2 standard
 
-Web Content Accessibility Guidelines (WCAG) 2 is a stable, referenceable technical standard. Learn more from the [[WCAG 2 Overview]](/standards-guidelines/wcag/).
+Web Content Accessibility Guidelines (WCAG) 2 provides a stable, referenceable technical standard. Learn more about WCAG versions from the [[WCAG 2 Overview]](/standards-guidelines/wcag/).
 
-When developing web content and web tools, most people will use the documents introduced below, instead of the actual standard document.
+When developing web content and web tools, most people will use the documents introduced below, instead of the actual technical standard document.
+
+**Only the WCAG technical standard includes requirements**, which are called "normative". The supporting materials below are informative; they are not normative. That means the techniques and other supporting materials:
+* do not set or change requirements for WCAG
+* are not required for conformance to WCAG
 
 ## Quick Reference / How to Meet WCAG 2 / WCAG 2 Checklist
 
@@ -72,7 +75,7 @@ When developing web content and web tools, most people will use the documents in
 
 You can customize it so it shows what you are interested in at the time. There are "filters" for different roles, topics, and technologies (such as HTML, CSS, ARIA). And filters for [Level A, AA, or AAA success criteria](https://www.w3.org/WAI/WCAG22/Understanding/conformance#levels).
 
-## Supporting Documents
+## Supporting documents
 
 The supporting documents directly relate to WCAG guidelines and success criteria. They are **not required** to meet WCAG; they are "informative" or "non-normative".
 
@@ -113,14 +116,14 @@ More:
 * [About WCAG 2 ACT Rules](/standards-guidelines/act/rules/about/)
 * [All WCAG 2 ACT Rules List](/standards-guidelines/act/rules/)
 
-## Supplemental Guidance {#supplement}
+## Supplemental guidance {#supplement}
 
 Supplemental guidance goes beyond the requirements of WCAG. It is **not required** to meet WCAG. Much of the guidance is essential for people with certain impairments, including cognitive and learning disabilities.
 
 * **[About Supplemental Guidance](/WCAG2/supplemental/about/)**
 * **[All Supplemental Guidance list](/WCAG2/supplemental/)**
 
-## Additional Resources
+## Resources for getting started
 
 **Before you start working with WCAG**, you probably want to read these resources:
 * [[Introduction to Web Accessibility]](/fundamentals/accessibility-intro/)
@@ -136,15 +139,17 @@ We encourage you to look around the W3C WAI website to find other information th
 
 {% include_cached excol.html type="start" id="diagram" %}
 
-## Old Diagram
+## WCAG 2 documents diagram
 
 {% include_cached excol.html type="middle" %}
 
-The diagram below shows the different WCAG 2 documents for different purposes. It uses "WCAG 2.0" yet still applies for WCAG 2.1 and WCAG 2.2.
+The diagram below shows the different WCAG 2 documents for different purposes. **It uses "WCAG 2.0" yet it still applies for WCAG 2.1 and WCAG 2.2.**
+
+_(It is referenced in WCAG 2.0: "The WCAG 2.0 Documents - A diagram and description of how the technical documents are related and linked".)_
 
 {% include image.html src="wcag/wcag20docs.png" alt="" %}
 
-Not included in the old diagram:
+Not included in the this diagram:
 * ACT Rules
 * Supplemental Guidance
 
@@ -179,4 +184,3 @@ Lines indicate links for users to get from one document to others:
 * From Understanding to the Standard, Techniques
 
 {% include_cached excol.html type="end" %}
-
