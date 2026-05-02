@@ -81,10 +81,10 @@ WCAG is for those who want a technical standard. **It is not an introduction to 
 
 WCAG is primarily intended for:
 
--   Web content developers (page authors, site designers, etc.)
--   Web authoring tool developers
--   Web accessibility evaluation tool developers
--   Others who want or need a standard for web accessibility, including for mobile accessibility
+-   web content developers (page authors, site designers, etc.)
+-   web authoring tool developers
+-   web accessibility evaluation tool developers
+-   others who want or need a standard for web accessibility, including for mobile accessibility
 
 To meet the needs of others &mdash; including policy makers, managers, and researchers &mdash; there are many different [[WAI Resources]](/resources/).
 
@@ -111,22 +111,25 @@ The following resources help you understand and implement WCAG, and improve acce
 
 ## WCAG 2.0, 2.1, 2.2 {#versions}
 
-The Web Content Accessibility Guidelines (WCAG) standards are referenceable when they are published as a 'W3C Recommendation' web standard.
+Web Content Accessibility Guidelines (WCAG) versions are stable, referenceable standards when they are published as a 'W3C Recommendation' web standard.
 
-* [WCAG 2.0](https://www.w3.org/TR/WCAG20/) was published on 11 December 2008.
-* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) was published on 5 June 2018, and updates were published on 21 September 2023, 12 December 2024, and 6 May 2025.
-* [WCAG 2.2](https://www.w3.org/TR/WCAG22/) was published on 5 October 2023, and an update was published on 12 December 2024.
+The first links below go to the latest publication. The date links go to dated web addresses (URLs). **The standard at a dated URL does not change.** Updates get a new dated URL. Updates are listed in the document's Change log section.
+
+* [WCAG 2.0](https://www.w3.org/TR/WCAG20/) was published on [11 December 2008](https://www.w3.org/TR/2008/REC-WCAG20-20081211/).
+* [WCAG 2.1](https://www.w3.org/TR/WCAG21/) was published on [5 June 2018 at https://www.w3.org/TR/2018/REC-WCAG21-20180605/](https://www.w3.org/TR/2018/REC-WCAG21-20180605/) and updates were published on [21 September 2023](https://www.w3.org/TR/2023/REC-WCAG21-20230921/), [12 December 2024](https://www.w3.org/TR/2024/REC-WCAG21-20241212/), and [6 May 2025](https://www.w3.org/TR/2025/REC-WCAG21-20250506/).
+* **[WCAG 2.2](https://www.w3.org/TR/WCAG22/)** was published on [5 October 2023](https://www.w3.org/TR/2023/REC-WCAG22-20231005/), and an update was published on [12 December 2024](https://www.w3.org/TR/2024/REC-WCAG22-20241212/).
 
 For information on the updates, see the [WCAG 2 FAQ](/standards-guidelines/wcag/faq/).
 
-WCAG 2.0, 2.1, and 2.2 are designed to be "backwards compatible", which means content that conforms to WCAG 2.2 also conforms to WCAG 2.1 and WCAG 2.0. If you want to meet all the versions, you can use the WCAG 2.2 resources and you don’t need to bother looking at earlier versions.
+WCAG 2.0, 2.1, and 2.2 are designed to be "backwards compatible", which means content that conforms to WCAG 2.2 also conforms to WCAG 2.1 and WCAG 2.0. If you want to meet all the versions, you can use the WCAG 2.2 resources and you do not need to bother looking at earlier versions.
 
-All the success criteria from 2.0 are included in 2.1, and all from 2.1 are in 2.2 (except 4.1.1, explained in the next paragraph).
+The WCAG 2 requirements ("success criteria") are the same in later versions. For example, the success criteria in WCAG 2.1 are not changed in WCAG 2.2. Later versions add new success criteria, and do not change existing success criteria. One exception is 4.1.1 Parsing noted below.
+
 * WCAG 2.0 has 12 guidelines.
 * WCAG 2.1 adds 1 guideline and 17 success criteria. They are introduced in [What's New in WCAG 2.1](/standards-guidelines/wcag/new-in-21/).
 * WCAG 2.2 adds 9 success criteria. They are introduced in [What's New in WCAG 2.2](/standards-guidelines/wcag/new-in-22/).
 
-A few things have changed, and we intend the updates in the related documents to support backwards compatibility in practice. The main change is that in WCAG 2.2, one success criteria (4.1.1 Parsing) is obsolete. Notes added to WCAG 2.1 and WCAG 2.0 errata address this, as explained in [WCAG 2 FAQ, 4.1.1 Parsing](/standards-guidelines/wcag/faq/#parsing411). WCAG 2.2 also includes Notes about different languages; more information is in [WCAG 2 FAQ, internationalization](/standards-guidelines/wcag/faq/#i18n22).
+An updates in related documents are intended to support backwards compatibility in practice. The main change is that in WCAG 2.2, one success criteria (4.1.1 Parsing) is obsolete. Notes added to WCAG 2.1 and WCAG 2.0 errata address this, as explained in [WCAG 2 FAQ, 4.1.1 Parsing](/standards-guidelines/wcag/faq/#parsing411). WCAG 2.2 also includes Notes about different languages; more information is in [WCAG 2 FAQ, internationalization](/standards-guidelines/wcag/faq/#i18n22).
 
 WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not deprecate or supersede WCAG 2.1, and WCAG 2.1 does not deprecate or supersede WCAG 2.0. W3C encourages you to use the latest version of WCAG.
 
@@ -161,7 +164,7 @@ WCAG is part of a series of accessibility guidelines, including the Authoring To
 See the [[WCAG 2 FAQ]](/standards-guidelines/wcag/faq/) for more information on:
 
 -   **WCAG 2 coverage of [mobile accessibility](/standards-guidelines/wcag/faq/#mobile)**
--   **Applying WCAG 2 to [documents and software](/standards-guidelines/wcag/faq/#wcag2ict)**
+-   **applying WCAG 2 to [documents and software](/standards-guidelines/wcag/faq/#wcag2ict)**
 -   and more...
 
 ### JSON machine-readable files {#json-files}
