@@ -43,7 +43,7 @@ This page answers some frequently asked questions (FAQ) about WCAG. Let us know 
     <ul>
       <li><a href="#start">Where should I start learning about WCAG 2?</a></li>
       <li><a href="#next">What about WCAG 3?</a></li>
-      <li><a href="#parsing411">How and why is WCAG 2 Success Criteria 4.1.1 Parsing obsolete?</a></li>
+      <li><a href="#parsing411">How and why is WCAG 2 Success Criterion 4.1.1 Parsing obsolete?</a></li>
     </ul>
   </li>
   <li>WCAG 2 versions and updates
