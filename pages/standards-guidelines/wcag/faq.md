@@ -264,7 +264,7 @@ See [[Cognitive Accessibility at W3C]](/cognitive/) for information on:
 
 ### How can I get notified of updates? {#getnews}
 
-We will announce when more information is available on WCAG 2 and WCAG 3. To get announcements of updated drafts for review in e-mail, tweets, and RSS, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/).
+We will announce when more information is available on WCAG 2 and WCAG 3. To get announcements of updated drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/).
 
 ### Where can I find answers to more of my questions? {#more}
 
