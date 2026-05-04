@@ -104,7 +104,7 @@ To learn about web accessibility principles and guidelines, see [[Accessibility 
 
 WCAG 3 years away from being completed.
 
-WCAG 3 is the result of the project previously temporarily referred to as “Silver”.
+WCAG 3 is the result of the project previously referred to as “Silver”.
 
 **Please see important up-to-date information in the [WCAG 3 Introduction page](https://www.w3.org/WAI/wcag3).**
 
