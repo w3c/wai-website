@@ -191,7 +191,7 @@ Along with WCAG are supporting materials including Understanding WCAG, WCAG Tech
 
 To learn how the different WCAG 2 technical documents are related and linked, see [[The WCAG 2 Documents]](/standards-guidelines/wcag/docs/).
 
-Some background: Here’s a little more perspective on the different technical documents. When web content and web software developers were using WCAG ***1.0***, they had many questions on how to implement it, how to evaluate for it, and the reasons behind its requirements. WAI wanted to provide this information with WCAG 2, and since those details don’t fit well in a technical standard, they are in the supporting documents.
+Some background: Here’s a little more perspective on the different technical documents. When content authors and developers were using WCAG ***1.0***, they had many questions on how to implement it, how to evaluate conformance, and the reasons behind its requirements. W3C wanted to provide this information with WCAG 2. Since those details do not fit well in a technical standard, they are in separate supporting documents.
 
 ### Do the supporting documents change WCAG 2 requirements and conformance?  {#independent}
 
