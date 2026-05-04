@@ -114,7 +114,7 @@ WCAG 2 and WCAG 3 have different names.
 
 The new standard is currently referred to as “W3C Accessibility Guidelines (WCAG) 3.0”. This name was chosen because of wide-spread familiarity with the “WCAG” acronym, and to encompass the broader scope beyond “web content”.
 
-### How and why is WCAG 2 Success Criteria 4.1.1 Parsing obsolete? {#parsing411}
+### How and why is WCAG 2 Success Criterion 4.1.1 Parsing obsolete? {#parsing411}
 
 Success criteria 4.1.1 Parsing is obsolete. WCAG 2.2 indicates it as [4.1.1 Parsing (Obsolete and removed)](https://www.w3.org/TR/WCAG22/#parsing), along with a note.
 
