@@ -43,7 +43,7 @@ This page answers some frequently asked questions (FAQ) about WCAG. Let us know 
     <ul>
       <li><a href="#start">Where should I start learning about WCAG 2?</a></li>
       <li><a href="#next">What about WCAG 3?</a></li>
-      <li><a href="#parsing411">How and why is WCAG 2 Success Criterion 4.1.1 Parsing obsolete?</a></li>
+      <li><a href="#parsing411">How and why is WCAG 2 Success Criteria 4.1.1 Parsing obsolete?</a></li>
     </ul>
   </li>
   <li>WCAG 2 versions and updates
@@ -114,12 +114,12 @@ WCAG 2 and WCAG 3 have different names.
 
 The new standard is currently referred to as “W3C Accessibility Guidelines (WCAG) 3.0”. This name was chosen because of wide-spread familiarity with the “WCAG” acronym, and to encompass the broader scope beyond “web content”.
 
-### How and why is WCAG 2 Success Criterion 4.1.1 Parsing obsolete? {#parsing411}
+### How and why is WCAG 2 Success Criteria 4.1.1 Parsing obsolete? {#parsing411}
 
-Success Criterion 4.1.1 Parsing is obsolete. WCAG 2.2 indicates it as [4.1.1 Parsing (Obsolete and removed)](https://www.w3.org/TR/WCAG22/#parsing), along with a note.
+Success Criteria 4.1.1 Parsing is obsolete. WCAG 2.2 indicates it as [4.1.1 Parsing (Obsolete and removed)](https://www.w3.org/TR/WCAG22/#parsing), along with a note.
 
 WCAG 2.1 and WCAG 2.0 now include this note from a conformance perspective:
-<blockquote>This Success Criterion should be considered as always satisfied for any content using HTML or XML.</blockquote>
+<blockquote>This Success Criteria should be considered as always satisfied for any content using HTML or XML.</blockquote>
 
 That note is in:
 
