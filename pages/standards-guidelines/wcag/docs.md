@@ -61,7 +61,7 @@ This page describes WCAG 2 supporting documents and supplemental guidance. It he
 
 ## WCAG 2 standard
 
-Web Content Accessibility Guidelines (WCAG) 2 provides a stable, referenceable technical standard. Learn more about WCAG versions from the [[WCAG 2 Overview]](/standards-guidelines/wcag/).
+Web Content Accessibility Guidelines (WCAG) 2 is a stable, referenceable technical standard. Learn more about WCAG versions from the [[WCAG 2 Overview]](/standards-guidelines/wcag/).
 
 When developing web content and web tools, most people will use the documents introduced below, instead of the actual technical standard document.
 
