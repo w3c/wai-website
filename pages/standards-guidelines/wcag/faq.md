@@ -258,7 +258,7 @@ See [[Cognitive Accessibility at W3C]](/cognitive/) for information on:
 * accessibility for people with cognitive and learning disabilities (“cognitive accessibility”)
 * existing standards from the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI)
 * informative guidance beyond the standards
-* on-going work on cognitive accessibility support at W3C WAI
+* ongoing work on cognitive accessibility support at W3C WAI
 
 ## Get updates and more information
 
