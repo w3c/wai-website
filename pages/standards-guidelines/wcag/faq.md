@@ -148,7 +148,7 @@ See:
 * [What's New in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/)
 * [What's New in WCAG 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/)
 
-The Accessibility Guidelines Working Group (AG WG) will probably not do another version of WCAG 2, that is, not do WCAG 2.3. AG WG is working on WCAG 3.0.
+The Accessibility Guidelines Working Group (AG WG) is not planning to do another version of WCAG 2, that is, not do WCAG 2.3. AG WG is working on WCAG 3.
 
 ### What was updated in WCAG 2.2 in December 2024? {#Dec2024}
 
