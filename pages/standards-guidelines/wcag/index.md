@@ -131,7 +131,7 @@ Any updates in related documents are intended to support backwards compatibility
 
 WCAG 2.0, WCAG 2.1, and WCAG 2.2 are all existing standards. WCAG 2.2 does not deprecate or supersede WCAG 2.1, and WCAG 2.1 does not deprecate or supersede WCAG 2.0. W3C encourages you to use the latest version of WCAG.
 
-WCAG 2.0, 2.1, and 2.2 are designed to be "backwards compatible", which means content that conforms to WCAG 2.2 also conforms to WCAG 2.1 and WCAG 2.0. If you want to meet all the versions, you can use the WCAG 2.2 resources and you do not need to bother looking at earlier versions.
+WCAG 2.0, 2.1, and 2.2 are designed to be "backwards compatible", which means content that conforms to WCAG 2.2 also conforms to WCAG 2.1 and WCAG 2.0. If you want to meet all the versions, you can use the WCAG 2.2 resources and you do not need to look at earlier versions.
 
 ## Translations
 
