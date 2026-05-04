@@ -149,7 +149,7 @@ _(It is referenced in WCAG 2.0: "The WCAG 2.0 Documents - A diagram and descript
 
 {% include image.html src="wcag/wcag20docs.png" alt="" %}
 
-Not included in the this diagram:
+Not included in this diagram:
 * ACT Rules
 * Supplemental Guidance
 
