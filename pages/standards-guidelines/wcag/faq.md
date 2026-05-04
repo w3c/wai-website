@@ -112,7 +112,7 @@ WCAG 3 is the result of the project previously referred to as “Silver”.
 
 WCAG 2 and WCAG 3 have different names.
 
-The new standard is currently referred to as “W3C Accessibility Guidelines (WCAG) 3.0”. This name was chosen because of wide-spread familiarity with the “WCAG” acronym, and to encompass the broader scope beyond “content”.
+The new standard is currently referred to as “W3C Accessibility Guidelines (WCAG) 3.0”. This name was chosen because of wide-spread familiarity with the “WCAG” acronym, and to encompass the broader scope beyond “web content”.
 
 ### How and why is WCAG 2 Success Criteria 4.1.1 Parsing obsolete? {#parsing411}
 
