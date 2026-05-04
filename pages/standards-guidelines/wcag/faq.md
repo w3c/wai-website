@@ -162,7 +162,7 @@ On 12 December 2024, we published an update to WCAG 2.1. The update includes:
 * minor formatting and editorial changes listed in the [WCAG 2.1 Change Log](https://www.w3.org/TR/WCAG21/#changelog)
 
 On 21 September 2023, we published an update to WCAG 2.1. The update includes:
-* added informative notes to success criteria 4.1.1 Parsing more information is above in [Why is success criteria 4.1.1 Parsing obsolete](https://www.w3.org/WAI/standards-guidelines/wcag/faq/#parsing411)
+* added informative notes to success criteria 4.1.1 Parsing (more information is in [Why is success criteria 4.1.1 Parsing obsolete](https://www.w3.org/WAI/standards-guidelines/wcag/faq/#parsing411))
 * incorporation of existing errata that are mostly minor wording corrections
 
 You can link to the latest version or specific versions of WCAG 2.1:
