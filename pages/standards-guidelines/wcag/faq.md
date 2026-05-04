@@ -116,7 +116,7 @@ The new standard is currently referred to as “W3C Accessibility Guidelines (WC
 
 ### How and why is WCAG 2 Success Criterion 4.1.1 Parsing obsolete? {#parsing411}
 
-Success criteria 4.1.1 Parsing is obsolete. WCAG 2.2 indicates it as [4.1.1 Parsing (Obsolete and removed)](https://www.w3.org/TR/WCAG22/#parsing), along with a note.
+Success Criterion 4.1.1 Parsing is obsolete. WCAG 2.2 indicates it as [4.1.1 Parsing (Obsolete and removed)](https://www.w3.org/TR/WCAG22/#parsing), along with a note.
 
 WCAG 2.1 and WCAG 2.0 now include this note from a conformance perspective:
 <blockquote>This Success Criterion should be considered as always satisfied for any content using HTML or XML.</blockquote>
