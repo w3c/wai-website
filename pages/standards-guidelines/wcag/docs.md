@@ -69,7 +69,7 @@ When developing web content and web tools, most people will use the documents in
 * do not set or change requirements for WCAG
 * are not required for conformance to WCAG
 
-## Quick Reference / How to Meet WCAG 2 / WCAG 2 Checklist
+## Quick Reference / How to Meet WCAG 2 / WCAG 2 checklist
 
 **A key resource for designers and developers using WCAG 2 is [How to Meet WCAG 2 (Quick Reference): A customizable quick reference to WCAG 2 requirements (Success Criteria) and techniques](https://www.w3.org/WAI/WCAG22/quickref/).** It includes all the WCAG 2 guidelines and success criteria. It is essentially the WCAG 2 checklist.
 
