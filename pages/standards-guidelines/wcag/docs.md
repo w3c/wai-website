@@ -65,7 +65,7 @@ Web Content Accessibility Guidelines (WCAG) 2 is a stable, referenceable technic
 
 When developing web content and web tools, most people will use the documents introduced below, instead of the actual technical standard document.
 
-**Only the WCAG technical standard includes requirements**, which are called "normative". The supporting materials below are informative; they are not normative. That means the techniques and other supporting materials:
+**Only the WCAG technical standard includes requirements**, which are [normative](https://www.w3.org/TR/WCAG22/#interpreting-normative-requirements). The supporting materials below are informative; they are not normative. That means the techniques and other supporting materials:
 * do not set or change requirements for WCAG
 * are not required for conformance to WCAG
 
