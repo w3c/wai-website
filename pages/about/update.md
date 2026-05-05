@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, April 2026</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, May 2026</span>"
 lang: en
-last_updated: 2026-03-31 # REMEMBER to update the HTML title month, too
+last_updated: 2026-05-05 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -104,7 +104,6 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 We plan to publish the following documents in 2026 Q2 (April, May, June):<!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
-* ARIA in HTML ([Editor's Draft](https://w3c.github.io/html-aria/))
 * WCAG Evaluation Methodology (WCAG-EM) 2.0 ([Editor's Draft](https://w3c.github.io/wai-wcag-em/))
 * More [WAI Translations](/translations/) &mdash; usually some each month
 
@@ -191,7 +190,9 @@ To learn about contributing to W3C WAI accessibility work generally, **see [[Par
 
 {% include_cached excol.html type="middle" %}
 
-* 21 March 2026
+* 5 May 2026
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+* 31 March 2026
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 28 February 2026
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
