@@ -3866,7 +3866,6 @@
 /tutorials/tables/examples/headertoprow/index.html
 /tutorials/tables/examples/headertoprowfirstcol/index.html
 /tutorials/tables/examples/multiplecolumnheaders/index.html
-/tutorials/tables/examples/scope-multiple/index.html
 /tutorials/tables/examples/scope-offset/index.html
 /tutorials/tables/examples/scope-simple/index.html
 /tutorials/tables/examples/threeheaders/index.html
