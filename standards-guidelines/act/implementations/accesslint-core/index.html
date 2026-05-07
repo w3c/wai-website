@@ -11,15 +11,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1778084617660258019";
+      element.src = "/WAI/assets/scripts/main.js?1778170473041172793";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1778084617660258019">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1778170473041172793">
 
-<title> @accesslint/core ACT Implementation |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1778084617660258019"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title> @accesslint/core ACT Implementation |  | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1778170473041172793"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="@accesslint/core ACT Implementation" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -303,10 +303,10 @@ h2#sidebar-header {
   </header>
   <div class="box-i"><p>
     <a href="https://github.com/AccessLint/accesslint">@accesslint/core</a>
-      version 0.8.8
+      version 0.12.1
      is an Automated tool
       by <a href="https://github.com/AccessLint/">accesslint</a>.
-      The test results were last updated 21 April 2026.
+      The test results were last updated 28 April 2026.
 
     
 
@@ -327,7 +327,7 @@ h2#sidebar-header {
     <tr>
       <th>WCAG 2 rules</th>
       <td>5</td>
-      <td>28</td>
+      <td>29</td>
     </tr>
     <tr>
       <th>Proposed rules</th>
@@ -409,6 +409,16 @@ h2#sidebar-header {
         </tr>
       
       
+      
+        <tr>
+          <td><a href="#breakdown-akn7bn">
+            Iframe with interactive elements is not excluded from tab-order
+          </a></td>
+          <td>
+            WCAG 2 Rule </td>
+          <td> Partial
+          </td>
+        </tr>
       
       
       
@@ -875,7 +885,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-674b10">Role attribute has valid value</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>aria/aria-roles</code> procedure.
   The implementation is 
     fully  consistent with the
@@ -952,7 +962,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/674b10/ebd0080bacb8debc7ad069072240657df38c3e2c.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -995,7 +1005,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-6a7281">ARIA state or property has valid value</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>aria/aria-valid-attr-value</code> procedure.
   The implementation is 
     fully  consistent with the
@@ -1144,13 +1154,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/6a7281/9d80b71ad39b258fb75db804867f189d76ecdab8.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/6a7281/90428c9c8cc74d6a3047775637078366994a8e88.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -1170,7 +1180,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-5f99a7">ARIA attribute is defined in WAI-ARIA</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>aria/aria-valid-attr</code> procedure.
   The implementation is 
     fully  consistent with the
@@ -1253,7 +1263,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/5f99a7/d528a33258103014c0a03cf1e418ee0620f7b4f6.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -1272,7 +1282,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-de46e4">Element with lang attribute has valid language tag</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>readable/valid-lang</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -1350,7 +1360,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/de46e4/cecfce83c949d20c816a0e43cbc4c26a3468754b.html">Passed Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -1422,19 +1432,19 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/de46e4/a44f5e11d20feec4ae39e2db0336ddef0a8e04ec.html">Inapplicable Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/de46e4/471e3f82cdd9122e2886d2d7bcfc8cda1397a51d.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/de46e4/4fa5219cf39dc536c51d67f6c4f9f54271a8dcfa.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
     </tbody>
   </table>
@@ -1442,7 +1452,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-m6b1q3">Menuitem has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>labels-and-names/aria-command-name</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -1532,7 +1542,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/m6b1q3/4eec4a33bca54e6313e0af600af41797bb7c4213.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -1544,9 +1554,130 @@ h2#sidebar-header {
   </table>
 </div>
 
+<h3 id="breakdown-akn7bn">Iframe with interactive elements is not excluded from tab-order</h3>
+<p>
+  This rule is implemented by @accesslint/core using the
+  <code>labels-and-names/frame-focusable-content</code> procedure.
+  The implementation is  partially 
+   consistent with the
+  <a href="/WAI/standards-guidelines/act/rules/akn7bn">Iframe with interactive elements is not excluded from tab-order</a>
+  WCAG 2 rule. 
+    It covers all 9 examples.
+  
+  
+    The implementation reports different success criteria as failed from what is expected by this rule.
+  
+  See <a href="../#understanding-act-consistency">understanding ACT consistency</a>.
+</p>
+
+
+<div class="scroll-wrap">
+  <table class="act-requirements">
+    <caption>Success Criteria</caption>
+    <tbody><tr> <th>Expected</th> <th>Reported</th></tr>
+    <tr>
+      <td>
+        
+          <ul>
+            <li>
+              2.1.1
+              Keyboard
+            </li>
+          </ul>
+        
+      </td>
+
+      <td>
+         None 
+      </td>
+    </tr>
+  </tbody></table>
+</div>
+
+
+<div class="scroll-wrap">
+  <table class="act-example-outcomes">
+    <caption>Test Results</caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th>labels-and-names/frame-focusable-content</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/1e3939d9f8e0f78f9c564ec6feb12cc5635c0acb.html">Passed Example 1</a>
+        </th>
+        <td class="">inapplicable</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/a16be608639d0976b9d044360695d853384f56f0.html">Passed Example 2</a>
+        </th>
+        <td class="">inapplicable</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/62673162e22ee1e95e962522b1d1c3b549dbfc49.html">Failed Example 1</a>
+        </th>
+        <td class="">failed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/c90de6661c91b4449b96fb31e487c70d1e3350df.html">Inapplicable Example 1</a>
+        </th>
+        <td class="">passed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/033e04cced5973596d9aa724feacb027d23b4c53.html">Inapplicable Example 2</a>
+        </th>
+        <td class="">passed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/63cd20ec8886f4c59ff54f406a0e5933847bce75.html">Inapplicable Example 3</a>
+        </th>
+        <td class="">passed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/aa153f6799d28563054ce66bcf7dfcedf9b75288.html">Inapplicable Example 4</a>
+        </th>
+        <td class="">passed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/17a371c470316dc29e424101065ebfe9f7b2e990.html">Inapplicable Example 5</a>
+        </th>
+        <td class="">passed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/c88fcaf4d90e2156de75a1cdad8734a3d75c49e4.html">Inapplicable Example 6</a>
+        </th>
+        <td class="">passed</td>
+      </tr>
+      <tr>
+        <th>
+          <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/akn7bn/a13349ef619df6256bd52acb8008760c3711f5dd.html">Inapplicable Example 6</a>
+            <abbr title="Proposed example">*</abbr>
+        </th>
+        <td class="act-untested">untested</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p>
+  *: These examples are not yet approved for the rule. Results on these outcomes are not
+  taken into consideration determining the consistency and coverage.
+</p>
+
 <h3 id="breakdown-24afc2">Important letter spacing in style attributes is wide enough</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>distinguishable/letter-spacing</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -1660,13 +1791,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/24afc2/eeca04eb6d00ab0aca01d460f0861f3328d4992d.svg">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/24afc2/9af5662e9957191c22c558a1a8511bae709a2b36.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -1684,19 +1815,19 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/24afc2/92e706402d8f8cb13d73ffb759ce35ec910d272c.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/24afc2/9608b535262c655f523314958f8ca3019a0968fe.html">Inapplicable Example 6</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/24afc2/1877242970bb7a92b5c8ee7bc5c5e5ec87877890.html">Inapplicable Example 7</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -1716,7 +1847,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-9e45ec">Important word spacing in style attributes is wide enough</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>distinguishable/word-spacing</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -1830,13 +1961,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/cc484992ddeab663aa5e490f3fd71806c9bd8528.svg">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/fdd3c30f28464b32eb8a1397f70a41dfd3b2cb1c.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -1854,19 +1985,19 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/92e706402d8f8cb13d73ffb759ce35ec910d272c.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/51faee765656c7bfe86b959373e1df8679726779.html">Inapplicable Example 6</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/9e45ec/d32bae2609b7c0c66a1df8dbfc182fb10c16805d.html">Inapplicable Example 7</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -1886,7 +2017,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-78fd32">Important line height in style attributes is wide enough</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>distinguishable/line-height</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -2024,13 +2155,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/78fd32/e998ec72eef90b46574b39d2657ef278b61b51eb.svg">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/78fd32/0128de1beb7862298366680f6920bd3b3874d752.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -2054,19 +2185,19 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/78fd32/7f23d5ee7e2a51c9d0922493c542953680972bb6.html">Inapplicable Example 6</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/78fd32/a2bfcb630ad36d8f8e49fb02aa5b3d8db2aec2fc.html">Inapplicable Example 7</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/78fd32/f6c53855436de3898c29ee685d5c1cf02be24c72.html">Inapplicable Example 8</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -2086,7 +2217,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-73f2c2">autocomplete attribute has valid value</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>adaptable/autocomplete-valid</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -2218,7 +2349,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/73f2c2/b08efeaf52bbd436d492213c3843894ce4e1151f.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -2328,7 +2459,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-97a4e1">Button has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>labels-and-names/button-name</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -2454,7 +2585,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/97a4e1/0666607827b30150ed0a5be439f58623b3222131.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -2472,7 +2603,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/97a4e1/b6b0eec01fc2759e3335fa4e448e5772161a9da6.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -2486,7 +2617,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-46ca7f">Element marked as decorative is not exposed</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>aria/presentation-role-conflict</code> procedure.
   The implementation is 
     fully  consistent with the
@@ -2533,19 +2664,19 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/46ca7f/e5b8fa7ab66409e7b52b335a8b6aebe11fd78635.html">Passed Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/46ca7f/b40e6ce081099b8bf0f76a43f4c27f12df342ddd.html">Passed Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/46ca7f/6f8e6014c133635fecac02e1087a666c5014ae5f.html">Passed Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -2587,7 +2718,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/46ca7f/a48478825dc5baf21cc79bfcfbe12ed462590f1e.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
     </tbody>
   </table>
@@ -2595,7 +2726,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-e086e5">Form field has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>labels-and-names/form-label</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -2679,13 +2810,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/ca41ec5f1dba602b8b6e332ad524cbfc5cd1505e.html">Passed Example 6</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/09ea6ee13f7f26b0d6e3103946209ea0726876de.html">Passed Example 7</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -2733,7 +2864,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/e086e5/c828178c45e9299883296cf425144d2ae804fc27.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -2790,7 +2921,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-bf051a">HTML page lang attribute has valid language tag</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>readable/html-lang-valid</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -2888,7 +3019,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-2779a5">HTML page has non-empty title</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>navigable/document-title</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -3028,7 +3159,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-59796f">Image button has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>text-alternatives/input-image-alt</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -3129,25 +3260,25 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/59796f/a4cc71b0434f71f4ea0069c409f73e0207dfb403.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/59796f/37cce377c874eec22d1137977d2b8f00ebc42ea8.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/59796f/9ceceeffee45fea0d16ce4d87d4c048f1a68ca93.html">Inapplicable Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/59796f/ebd0080bacb8debc7ad069072240657df38c3e2c.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3161,7 +3292,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-23a2a8">Image has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>text-alternatives/img-alt</code>, and <code>text-alternatives/role-img-alt</code> procedures.
     Failed examples should be failed by <em>at least one</em> of these procedures.
   The implementation is  partially 
@@ -3308,8 +3439,8 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/23a2a8/cd3b3a4046451da9b9cc3e166c09d27583a2c30b.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3345,7 +3476,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-c487ae">Link has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>navigable/link-name</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -3410,13 +3541,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c487ae/d761116217a5875490cd7a2adf0219bdb1bff5cf.html">Passed Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c487ae/ada7438401aba500eb03f678b05b9821a758336a.html">Passed Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3524,7 +3655,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c487ae/322c1a6d65f31fd534b1ddac680e3c6ea69e3207.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3548,19 +3679,19 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c487ae/7ce0b9a2a11f1c10f71f1786e4154e6164356fb6.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c487ae/f417fbb0db2a62f84dd79497b23b1e6e97007740.html">Inapplicable Example 6</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/c487ae/d36abfa44924a4d4088bada05f439ae392dfd662.html">Passed Example 11</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3574,7 +3705,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-7d6734">SVG element with explicit role has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>text-alternatives/svg-img-alt</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -3634,13 +3765,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/8ad324fd8d3f5113f72ac40f978a85e1777d43d1.html">Passed Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/f2af674524641f89a409d5f91caf512b162d5778.html">Passed Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3670,7 +3801,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/1f2223805c79c21fade3ebf0d9a29f979c16f581.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3682,7 +3813,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/7d6734/ec2a7a47c3850e8aacd971a445b90390b2ab73bb.html">Inapplicable Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
     </tbody>
   </table>
@@ -3690,7 +3821,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-307n5z">Element with presentational children has no focusable content</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>aria/presentational-children-focusable</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -3744,13 +3875,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/307n5z/ccaf2315b5268a447dff07aad635b3ad27aabaf8.html">Passed Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/307n5z/9bdea8c670e441afe5299bed4ea02b304becaaf8.html">Passed Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3780,7 +3911,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/307n5z/54cd6b714326ddf6ae1181112d6ce35f6f3e3579.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3827,7 +3958,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-a25f45">Headers attribute specified on a cell refers to cells in the same table element</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>adaptable/td-headers-attr</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -3953,7 +4084,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/a25f45/9f7979f4854efa0b1ac299f920229d20246710b9.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -3971,7 +4102,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/a25f45/57382c6bd42af05f3b9836a95bee672d1b9330d7.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4003,7 +4134,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-6cfa84">Element with aria-hidden has no content in sequential focus navigation</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>aria/aria-hidden-focus</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -4129,19 +4260,19 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/6cfa84/afb819d4c7cfdf8fc468bb2297da3247fb5ac056.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/6cfa84/22d7a78f0d6680f70dae9cc412f496450a2acf4e.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/6cfa84/4d71a1ad253efab083f05dc558656d94eb430ca7.html">Inapplicable Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
     </tbody>
   </table>
@@ -4149,7 +4280,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-bc659a">Meta element has no refresh delay</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>enough-time/meta-refresh</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -4245,13 +4376,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bc659a/48a600254c0883cd5a72471420b1ac5a532ca6c3.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bc659a/4dffd30573a924ad0158d813733e029aac160194.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4263,31 +4394,31 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bc659a/a8c47bb26867342e83342645507fb766648799d7.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bc659a/ca4a053f47b6e322ad6de680fdabd05f651bf49b.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bc659a/b42a3a108d5d0f65258cd8157eb0011b78ce9253.html">Inapplicable Example 6</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bc659a/0bf30cdf02ff26dfca5aa705b7023227da221e05.html">Inapplicable Example 7</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bc659a/8ce8198a1e6907ae25eb957eb0a5a99e719131a1.html">Inapplicable Example 8</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
     </tbody>
   </table>
@@ -4295,7 +4426,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-b4f0c3">Meta viewport allows for zoom</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>distinguishable/meta-viewport</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -4391,7 +4522,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b4f0c3/824fa57ab563edbac93384a58e21b3045bd71c65.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4456,7 +4587,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-8fc3b6">Object element rendering non-text content has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>text-alternatives/object-alt</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -4588,13 +4719,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/90927d72c81e9a9b27034a1a99adbab46c86e196.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/511c1b1647549d8af305f68253dda6d4161bd9bc.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4606,7 +4737,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/fac8b25d43d0bbea83f5fe8c5fddf1b3566ac1fb.html">Inapplicable Example 7</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4620,7 +4751,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-b5c3f8">HTML page has lang attribute</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>readable/html-has-lang</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -4718,7 +4849,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-0ssw9k">Scrollable content can be reached with sequential focus navigation</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>keyboard-accessible/scrollable-region</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -4801,7 +4932,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0ssw9k/bb9ee4cc0b4779228701779090f461ecb2947b82.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4813,13 +4944,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0ssw9k/d7f9b0ca63b41bfc560c867696744a14f8590394.html">Inapplicable Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0ssw9k/5d06e0832a2a97d6dd2e5657f00dcb93c584135b.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4831,7 +4962,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0ssw9k/dd5ca5252dacc6d5e0fabb30e92633b284336832.html">Inapplicable Example 6</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4878,7 +5009,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-oj04fd">Element in sequential focus order has visible focus</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>keyboard-accessible/focus-visible</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -4966,7 +5097,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/oj04fd/90789ad82a761b7697418e8cb403db103f0925a2.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -4998,7 +5129,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-afw4f7">Text has minimum contrast</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>distinguishable/color-contrast</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -5182,7 +5313,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/2347a45232c34aa309087ed099f4781cd70b5b1e.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -5206,7 +5337,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/afw4f7/20f9cd78dd0fa87ee8d40ea3ed35a1fe3ff66508.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -5268,7 +5399,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-09o5cg">Text has enhanced contrast</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>distinguishable/color-contrast-enhanced</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -5464,7 +5595,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/09o5cg/2347a45232c34aa309087ed099f4781cd70b5b1e.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -5488,7 +5619,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/09o5cg/8df570a7bb69487e5f3b5d07a7af45cc881dc449.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -5543,7 +5674,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-bisz58">Meta element has no refresh delay (no exception)</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>enough-time/meta-refresh-no-exception</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -5608,7 +5739,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/24a98a3ff6a69e073f768bb198671ea6a1c4568a.html">Passed Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -5632,49 +5763,49 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/3761ce87e64549073f62df26071fbde9850e649e.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/c73e036ba88dbbedf6b6a90b69328208eb1e14d0.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/31864b9243c7565e802c6b4f36faed5861a631d3.html">Inapplicable Example 3</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/e6e51895cab42ee6adf2ade5b654808d830e673b.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/a32834c94a9dd1869e22ccfb0b7b753648c8d469.html">Inapplicable Example 5</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/c3cc2e9d19259f7a7ffa99818ac44d034127f01f.html">Inapplicable Example 6</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/1846b9116a8563e653cee40753b4c904696851f9.html">Inapplicable Example 7</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/bisz58/0dcdacefc963adfbb2d3493e5468f8f12f0ac6de.html">Inapplicable Example 8</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
     </tbody>
   </table>
@@ -5682,7 +5813,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-b33eff">Orientation of the page is not restricted using CSS transforms</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>adaptable/orientation-lock</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -5778,13 +5909,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b33eff/c59f09b11f0743c523cc63ae3c827996889fa32d.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b33eff/b8d71ae629b704bd374b0a2dcde569bd108c848e.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -5796,7 +5927,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b33eff/4c34705d8d866194fd8fe96a0bd1abaf267b11f0.html">Inapplicable Example 4</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -5821,7 +5952,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-4e8ab6">Element with role attribute has required states and properties</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>aria/aria-required-attr</code> procedure.
   The implementation is 
     fully  consistent with the
@@ -5934,7 +6065,7 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/4e8ab6/9d80b71ad39b258fb75db804867f189d76ecdab8.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -5954,7 +6085,7 @@ h2#sidebar-header {
 
 <h3 id="breakdown-2t702h">Summary element has non-empty accessible name</h3>
 <p>
-  This rule is implemented by @accesslint/Core using the
+  This rule is implemented by @accesslint/core using the
   <code>labels-and-names/summary-name</code> procedure.
   The implementation is  partially 
    consistent with the
@@ -6056,13 +6187,13 @@ h2#sidebar-header {
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/2t702h/d0f1dd469c5e48feec2db9ef84a98e143212f574.html">Inapplicable Example 1</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
           <a href="https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/2t702h/eb98ae3dbf17cb6ca91f27b0ae8d9d05f81cbb4d.html">Inapplicable Example 2</a>
         </th>
-        <td class="">passed</td>
+        <td class="">inapplicable</td>
       </tr>
       <tr>
         <th>
@@ -6147,9 +6278,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1778084617660258019"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1778170473041172793"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1778084617660258019"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1778170473041172793"></script>
 <script>
   svg4everybody();
 </script><script>
