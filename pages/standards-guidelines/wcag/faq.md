@@ -32,54 +32,12 @@ This page answers some frequently asked questions (FAQ) about WCAG. Let us know 
 {% include box.html type="end" %}
 {:/}
 
+{::options toc_levels="2, 3" /}
 {::nomarkdown}
 {% include_cached toc.html type="start" title="Page Contents" class="simple" %}
 {:/}
 
-{::options toc_levels="2, 3" /}
-
-<ul class="questions">
-  <li>Top questions
-    <ul>
-      <li><a href="#start">Where should I start learning about WCAG 2?</a></li>
-      <li><a href="#next">What about WCAG 3?</a></li>
-      <li><a href="#parsing411">How and why is WCAG 2 Success Criteria 4.1.1 Parsing obsolete?</a></li>
-    </ul>
-  </li>
-  <li>WCAG 2 versions and updates
-    <ul>
-      <li><a href="#wcag-stable">When a new version of WCAG 2 is published, does it change the previous version?</a></li>
-      <li><a href="#done">What is different in WCAG 2.0, 2.1, and 2.2?</a></li>
-      <li><a href="#Dec2024">What was updated in WCAG 2.2 in December 2024?</a></li>
-      <li><a href="#Sept2023">What was updated in WCAG 2.1 in 2023 and 2024?</a></li>
-      <li><a href="#i18n22">What was updated in WCAG 2 for internationalization?</a></li>
-    </ul>
-  </li>
-  <li>Supporting documents
-    <ul>
-      <li><a href="#docs">What are the different WCAG 2 documents?</a></li>
-      <li><a href="#independent">Do the supporting documents change WCAG 2 requirements and conformance?</a></li>
-      <li><a href="#techs">Do content authors (developers, designers, etc.) have to follow W3C's techniques to meet WCAG?</a></li>
-      <li><a href="#techsnot">What would be the negative consequences of allowing only W3C's published techniques to be used for conformance to WCAG 2?</a></li>
-    </ul>
-  </li>
-  <li>Scope
-    <ul>
-      <li><a href="#mobile">Does WCAG 2 address mobile accessibility?</a></li>
-      <li><a href="#wcag2ict">Does WCAG 2 apply to documents and non-web software?</a></li>
-      <li><a href="#othertechs">Do the techniques ensure accessibility in different technologies?</a></li>
-      <li><a href="#coga">Does WCAG 2 cover the accessibility needs of people with cognitive and learning disabilities?</a></li>
-    </ul>
-  </li>
-  <li>Get updates and more information
-    <ul>
-      <li><a href="#getnews">How can I get notified of updates?</a></li>
-      <li><a href="#more">Where can I find answers to more of my questions?</a></li>
-      <li><a href="#languages">Is WCAG 2 available in other languages?</a></li>
-    </ul>
-  </li>
-</ul>
-
+-   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
@@ -141,10 +99,10 @@ No. The WCAG 2 requirements (success criteria) are the same in later versions. F
 
 Each updated WCAG standard (called a "W3C Recommendation") has a unique web address (URI). The standard at that URI does not change. For example, the standard published [5 June 2018 at https://www.w3.org/TR/2018/REC-WCAG21-20180605/](https://www.w3.org/TR/2018/REC-WCAG21-20180605/) will not change.
 
-### What is different in WCAG 2.0, 2.1, and 2.2? {#done} {#v21} {#v22}
+### What is different in WCAG 2.0, 2.1, and 2.2? {#diff}
 
 See:
-* [WCAG 2.0, 2.1, 2.2 section of WCAG 2 Overview ](https://www.w3.org/WAI/standards-guidelines/wcag/#versions)
+* [WCAG 2.0, 2.1, 2.2 section of WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/#versions)
 * [What's New in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/)
 * [What's New in WCAG 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/)
 
