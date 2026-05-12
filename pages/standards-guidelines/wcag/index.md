@@ -113,11 +113,11 @@ The following resources help you understand and implement WCAG, and improve acce
 
 Web Content Accessibility Guidelines (WCAG) versions are stable, referenceable standards when they are published as a "W3C Recommendation" web standard.
 
-The first links below go to the latest publication. Each publication has a unqiue web address (URL) that includes the date in the URL. **The standard at a dated URL does not change.**
+The first links below go to the latest publication. Each publication has a unique web address (URL) that includes the date in the URL. **The standard at a dated URL does not change.**
 
 * [WCAG 2.0](https://www.w3.org/TR/WCAG20/) was published on 11 December 2008.
 * [WCAG 2.1](https://www.w3.org/TR/WCAG21/) was published on [5 June 2018 at https://www.w3.org/TR/2018/REC-WCAG21-20180605/](https://www.w3.org/TR/2018/REC-WCAG21-20180605/), and updates were published on 21 September 2023, 12 December 2024, and 6 May 2025.
-* **[WCAG 2.2](https://www.w3.org/TR/WCAG22/)** was published on 5 October 2023, and an update was published on [12 December 2024.
+* **[WCAG 2.2](https://www.w3.org/TR/WCAG22/)** was published on 5 October 2023, and an update was published on 12 December 2024.
 
 For more information on the updates, see the [WCAG 2 FAQ](/standards-guidelines/wcag/faq/).
 
