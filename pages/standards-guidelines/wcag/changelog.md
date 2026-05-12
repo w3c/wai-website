@@ -23,7 +23,7 @@ ref: /standards-guidelines/wcag/changelog/
     * [Does WCAG 2 cover the accessibility needs of people with cognitive and learning disabilities?](/standards-guidelines/wcag/faq/#coga)
   * Renamed:
     * "Where should I start?" into [Where should I start learning about WCAG 2?](/standards-guidelines/wcag/faq/#start)
-    * "What about WCAG 3.0? What about “Silver”?" into [What about WCAG 3](/standards-guidelines/wcag/faq/#next) and updated the answer
+    * "What about WCAG 3.0? What about “Silver”?" into [What about WCAG 3?](/standards-guidelines/wcag/faq/#next) and updated the answer
     * "How Can I Get Updates?" into [How can I get notified of updates?](/standards-guidelines/wcag/faq/#getnews) and updated the answer 
     * Renamed "Can I meet WCAG 2 with JavaScript and other technologies?" into [Do the techniques ensure accessibility in different technologies?](/standards-guidelines/wcag/faq/#othertechs)
   * Updated [What are the different WCAG 2 documents?](/standards-guidelines/wcag/faq/#docs)
