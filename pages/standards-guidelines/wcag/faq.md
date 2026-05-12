@@ -102,7 +102,7 @@ To learn about web accessibility principles and guidelines, see [[Accessibility 
 
 ### What about WCAG 3? {#next}
 
-WCAG 3 years away from being completed.
+WCAG 3 is years away from being completed.
 
 WCAG 3 is the result of the project previously referred to as “Silver”.
 
