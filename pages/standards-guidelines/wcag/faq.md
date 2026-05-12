@@ -281,6 +281,6 @@ WAI staff are actively developing guidelines, technical reports, and supporting 
 
 **Yes.** Authorized Translations and unofficial translations of the technical documents WCAG 2 are listed in [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/).
 
-Unofficial translations of other WAI documents are listed in [[All WAI Translations]](/translations/).
+Unofficial translations of other WAI documents are listed in [All WAI Translations](/translations/).
 
 For more information on how you can contribute to WAI translations, see [[Translating WAI Documents]](/about/translating/).
