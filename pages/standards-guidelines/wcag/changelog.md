@@ -14,7 +14,7 @@ ref: /standards-guidelines/wcag/changelog/
 * In [WCAG 2 Overview](/standards-guidelines/wcag/): Updated the [WCAG 2.0, 2.1, 2.2 section](/standards-guidelines/wcag/#versions) to clarify that the standard at a dated URL does not change and how WCAG 2 documents support backward compatibility.
 * In [WCAG 2 Documents](/standards-guidelines/wcag/docs/):
   * Updated the [WCAG 2 standard section](/standards-guidelines/wcag/docs/#wcag-2-standard) to clarify that the supporting materials are not normative
-  * Renamed the "Old Diagram" section into "WCAG 2 documents diagram" and explain that the diagram is referenced in WCAG 2.0.
+  * Renamed the "Old Diagram" section into "WCAG 2 documents diagram" and explained that the diagram is referenced in WCAG 2.0.
 * In [WCAG 2 FAQ](/standards-guidelines/wcag/faq/):
   * Changed the structure of the FAQ
   * Added: 
