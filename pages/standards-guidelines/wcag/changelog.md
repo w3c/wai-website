@@ -8,7 +8,7 @@ permalink: /standards-guidelines/wcag/changelog/
 ref: /standards-guidelines/wcag/changelog/
 ---
 
-## 6 May 2026
+## 5 May 2026
 
 * In [WCAG 2 Overview](/standards-guidelines/wcag/): Updated the [WCAG 2.0, 2.1, 2.2 section](/standards-guidelines/wcag/#versions) to clarify that the standard at a dated URL does not change and how WCAG 2 documents support backward compatibility.
 * In [WCAG 2 Documents](/standards-guidelines/wcag/docs/):
