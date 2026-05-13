@@ -2867,7 +2867,6 @@
 /content-images/wai-aria-practices/wai.svg
 /content-images/wai-arrm/arrm-social.png
 /content-images/wai-course-list/clear.svg
-/content-images/wai-course-list/w3c.png
 /content-images/wai-evaluation-tools-list/accessibilitystatement.png
 /content-images/wai-evaluation-tools-list/actrules.png
 /content-images/wai-evaluation-tools-list/browsers.png
