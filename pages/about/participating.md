@@ -1,6 +1,6 @@
 ---
-title: Participating in WAI
-nav_title: "Participating"
+title: Participate in WAI
+nav_title: "Participate in WAI"
 lang: en
 last_updated: 2025-11-14
 permalink: /about/participating/
