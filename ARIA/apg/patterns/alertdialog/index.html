@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1779180315527636366";
+      element.src = "/WAI/assets/scripts/main.js?1779181773542238468";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1779180315527636366">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1779181773542238468">
 
 <title> Alert and Message Dialogs Pattern | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
@@ -357,6 +357,7 @@ h2#sidebar-header {
           <li>
             The element that contains all elements of the dialog, including the alert message and any dialog buttons, has role <a class="role-reference" href="https://w3c.github.io/aria/#alertdialog">alertdialog</a>.
           </li>
+          <li>The dialog container element has <a href="https://w3c.github.io/aria/#aria-modal" class="property-reference">aria-modal</a> set to <code>true</code>.</li>
           <li>
             The element with role <code>alertdialog</code> has either:
             <ul>
@@ -372,6 +373,27 @@ h2#sidebar-header {
             The element with role <code>alertdialog</code> has a value set for <a href="https://w3c.github.io/aria/#aria-describedby" class="property-reference">aria-describedby</a> that refers to the element containing the alert message.
           </li>
         </ul>
+        <div class="note">
+          <h3>Note</h3>
+          <ul>
+            <li>
+              Because marking a dialog modal by setting <a href="https://w3c.github.io/aria/#aria-modal" class="property-reference">aria-modal</a> to <code>true</code> can prevent users of some assistive technologies from perceiving content outside the dialog, users of those technologies will experience severe negative ramifications if a dialog is marked modal but does not behave as a modal for other users.
+              So, mark a dialog modal <strong>only when both:</strong>
+              <ol>
+                <li>Application code prevents all users from interacting in any way with content outside of it.</li>
+                <li>Visual styling obscures the content outside of it.</li>
+              </ol>
+            </li>
+            <li>
+              The <code>aria-modal</code> property introduced by ARIA 1.1 replaces <a href="https://w3c.github.io/aria/#aria-hidden" class="state-reference">aria-hidden</a> for informing assistive technologies that content outside a dialog is inert.
+              However, in legacy dialog implementations where <code>aria-hidden</code> is used to make content outside a dialog inert for assistive technology users, it is important that:
+              <ol>
+                <li><code>aria-hidden</code> is set to <code>true</code> on each element containing a portion of the inert layer.</li>
+                <li>The dialog element is not a descendant of any element that has <code>aria-hidden</code> set to <code>true</code>.</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
       </section>
     </div>
   
@@ -446,9 +468,9 @@ https://github.com/w3c/aria-practices/edit/main/content/patterns/alertdialog/ale
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1779180315527636366"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1779181773542238468"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1779180315527636366"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1779181773542238468"></script>
 <script>
   svg4everybody();
 </script><script>
