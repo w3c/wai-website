@@ -17,6 +17,10 @@ footer: >
  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin. Contributor: Tolu Adegbite.</p>
 ---
 
+## 26 May 2026
+
+- Under [Web Content Accessibility Guidelines (WCAG) 2](/standards-guidelines/#wcag2), updated the paragraph "WCAG applies to ... as described in WCAG2ICT." 
+
 ## 7 March 2024
 
 - In the “Web Content Accessibility Guidelines (WCAG) 2” section: replaced “WCAG 2.1 at a Glance” with “WCAG 2 at a Glance”.
