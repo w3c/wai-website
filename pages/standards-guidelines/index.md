@@ -5,7 +5,7 @@
 title: W3C Accessibility Standards Overview
 nav_title: "Standards/Guidelines" # A short title that is used in the navigation
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-02-29   # Keep the date of the English version
+last_updated: 2026-05-26   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -72,7 +72,7 @@ Web "content" generally refers to the information in a web page or web applicati
 * natural information such as text, images, and sounds
 * code or markup that defines structure, presentation, etc.
 
-WCAG applies to dynamic content, multimedia, "mobile", etc. WCAG can also be applied to non-web information and communications technologies (ICT), as described in [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
+WCAG applies to dynamic content, multimedia, web on mobile, and AI web interfaces. WCAG can also be applied to non-web information and communications technologies (ICT) such as native apps, software, and documents, as described in [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
 WCAG 2 info:
 - [WCAG Overview](/standards-guidelines/wcag/)
