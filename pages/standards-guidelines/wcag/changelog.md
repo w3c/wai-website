@@ -8,6 +8,10 @@ permalink: /standards-guidelines/wcag/changelog/
 ref: /standards-guidelines/wcag/changelog/
 ---
 
+## 16 May 2026
+
+* In [WCAG 2 Overview](/standards-guidelines/wcag/): In the [Introduction section](https://www.w3.org/WAI/standards-guidelines/wcag/#intro), added paragraph at the end clarifying applicability and pointing to WCAG2ICT.
+
 ## 5 May 2026
 
 * In [WCAG 2 Overview](/standards-guidelines/wcag/): Updated the [WCAG 2.0, 2.1, 2.2 section](/standards-guidelines/wcag/#versions) to clarify that the standard at a dated URL does not change and how WCAG 2 documents support backward compatibility.
