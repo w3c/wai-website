@@ -5,7 +5,7 @@
 title: "WCAG 2 Overview"
 nav_title: "Web Content – WCAG 2"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-05-05 # Keep the date of the English version
+last_updated: 2026-05-26 # Keep the date of the English version
 first_published: "July 2005"
 description: Introduces the Web Content Accessibility Guidelines (WCAG) international standard, including WCAG 2.0, WCAG 2.1, and WCAG 2.2. WCAG documents explain how to make web content more accessible to people with disabilities.
 
@@ -74,6 +74,8 @@ The WCAG documents explain how to make web content more accessible to people wit
 
 -   natural information such as text, images, and sounds
 -   code or markup that defines structure, presentation, etc.
+
+WCAG applies to dynamic content, multimedia, web on mobile, and AI web interfaces. WCAG can also be applied to non-web information and communications technologies (ICT) such as native apps, software, and documents, as described in [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
 ## Who WCAG is for {#for}
 
