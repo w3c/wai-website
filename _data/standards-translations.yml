@@ -40,6 +40,12 @@
   translator: "Accessibility Foundation"
   intent_email: https://lists.w3.org/Archives/Public/w3c-translators/2023AprJun/0016.html
   intent_date: 2023-06-05
+- lang: fi
+  standard: wcag
+  standard_version: "2.2"
+  type: intent-authorized
+  intent_email: https://lists.w3.org/Archives/Public/w3c-translators/2026AprJun/0001.html
+  intent_date: 2026-04-28
 - lang: fr
   standard: wcag
   standard_version: "2.2_2023"
@@ -121,6 +127,12 @@
   intent_email: https://lists.w3.org/Archives/Public/w3c-translators/2025JulSep/0011.html
   intent_date: 2025-07-18
   comment: "Translation of the 12 December 2024 version"
+- lang: tr
+  standard: wcag
+  standard_version: "2.2"
+  type: intent-authorized
+  intent_email: https://lists.w3.org/Archives/Public/w3c-translators/2026AprJun/0002.html
+  intent_date: 2026-05-05
 # WCAG 2.1
 - lang: ar
   standard: wcag
