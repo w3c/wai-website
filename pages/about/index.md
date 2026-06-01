@@ -3,7 +3,7 @@ title: "About W3C WAI"
 permalink: /about/
 ref: /about/
 lang: en
-last_updated: 2026-05-25
+last_updated: 2026-06-02
 feedbackmail: wai@w3.org
 class: tight-page
 github:
@@ -53,7 +53,11 @@ github:
 
 ## W3C WAI
 
-The World Wide Web Consortium ([W3C](https://www.w3.org/about/)) is an international public-interest non-profit organization where Member organizations, a full-time staff, and the public work together to develop open web standards. The Web Accessibility Initiative (WAI) is a key aspect of W3C's work to enable a web that connects and empowers humanity.
+The World Wide Web Consortium ([W3C](https://www.w3.org/about/)) is an international public-interest non-profit organization where Member organizations, a full-time staff, and the public work together to develop open web standards.
+
+W3C's [mission](https://www.w3.org/mission/) is to make the web work — for everyone.
+
+The Web Accessibility Initiative (WAI) is a key aspect of W3C's work to **enable a web that connects and empowers humanity**.
 
 <img src="https://www.w3.org/WAI/content-images/people/still-dog-outside.png" alt="" style="float:right; margin-left:1em; width:240px; clear:both;" />
 <div style="float:right; margin-left:1em; width:90px; clear:both;"><br><br>
@@ -73,15 +77,13 @@ The World Wide Web Consortium ([W3C](https://www.w3.org/about/)) is an internati
 <img src="https://www.w3.org/WAI/content-images/media-guide/speech.svg" alt="" />
 </div>
 
-**W3C's [mission](https://www.w3.org/mission/) is to make the web work — for everyone.**
-
 WAI develops strategies, standards, and resources to make the web accessible to people with disabilities and enable equal participation.
 
 See [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) and [WAI Resources](https://www.w3.org/WAI/resources/).
 
 ## Accessibility vision
 
-W3C's vision includes [core values](https://www.w3.org/TR/w3c-vision/) and the [Vision for W3C](https://www.w3.org/TR/w3c-vision/).
+WAI supports W3C's [vision](https://www.w3.org/TR/w3c-vision/) of a web for all humanity, designed for the good of all people.
 
 The WAI vision is that the web and related technologies are accessible so that all people with disabilities around the globe can **participate equally** in the digital world. That includes:
 * Accessibility standards/guidelines are harmonized globally.
@@ -92,9 +94,7 @@ The WAI vision is that the web and related technologies are accessible so that a
 
 ## High-level objectives
 
-W3C [strategic goals](https://www.w3.org/mission/#strategy) include: _Ensure efforts on accessibility and internationalization continue to achieve the goal of a web for everyone._
-
-To contribute to realizing the WAI vision and this W3C strategic goal, we address the following areas:
+WAI contributes to W3C's vision and [strategic goals](https://www.w3.org/mission/#strategy)  by addressing the following areas:
 
 1. **Specifications, standards, and technologies support accessibility:**
    - Ensure that W3C specifications support accessibility.
@@ -117,8 +117,6 @@ To contribute to realizing the WAI vision and this W3C strategic goal, we addres
 
 ## Current work and news
 
-@@ revise...
-
 Current work is introduced in [What We're Working On - Accessibility Activities and Publications](https://www.w3.org/WAI/update/).
 
 New WAI publications, draft documents for review, and other WAI announcements are listed on the [News page](https://www.w3.org/WAI/news/).
@@ -128,8 +126,6 @@ To get announcements via email, Atom/RSS feed, and social media, see [Subscribe 
 
 ## WAI groups
 
-@@ instead of listing here, point to https://www.w3.org/WAI/about/groups/ ?
-
 WAI includes the following working groups and interest group:
 
 -   [Accessibility Guidelines Working Group (AG WG)](/about/groups/agwg/) (formerly the Web Content Accessibility Guidelines Working Group)
@@ -138,8 +134,6 @@ WAI includes the following working groups and interest group:
 -   [WAI Interest Group (WAI IG)](/about/groups/waiig/) hosts an email discussion list that is open to anyone
 
 ### W3C community groups
-
-@@ instead of listing here, point to else where. see issue 2042 https://github.com/w3c/wai-website/issues/2042
 
 W3C Community Groups cover a variety of topics. **Anyone can join Community Groups**, after getting a free W3C account and signing the W3C Community Contributor License Agreement. Of the long [list of Community Groups](https://www.w3.org/community/groups/), here are some that are actively seeking contributors:
 <!-- * ARR -->
@@ -157,5 +151,3 @@ W3C Community Groups cover a variety of topics. **Anyone can join Community Grou
 * [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro) — Senior Software Engineer — supports the technical architecture for WCAG 2, WCAG 3, and more.
 * [Tamsin Ewing](https://www.w3.org/staff/#tamsin) — Senior Accessibility Content Specialist — supports accessibility communications, educational resources, and working group deliverables.
 * [Rémi Bétin](https://www.w3.org/staff/#remibetin) — Senior Project Manager, Web Accessibility Initiative (WAI) — supports WAI translations, WAI website processes, WAI training courses, and more.
-
-## @@ ending info ? support? other?
