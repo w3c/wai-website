@@ -102,7 +102,7 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in June or July 2026 <!-- ... in 2026 Q2 (April, May, June) ... To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
+We plan to publish the following documents in June or July 2026: <!-- ... in 2026 Q2 (April, May, June) ... To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/). --> 
 
 * WCAG Evaluation Methodology (WCAG-EM) 2.0 ([Editor's Draft](https://w3c.github.io/wai-wcag-em/))
 * More [WAI Translations](/translations/) &mdash; usually some each month
