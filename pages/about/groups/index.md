@@ -23,7 +23,7 @@ github:
 {% include_cached toc.html type="end" %}
 {:/}
 
-The Web Accessibility Initiative (WAI)’s working groups develop digital accessibility guidelines and related materials. The working groups draw on additional contributions from task forces that operate under them and from accessibility discussions in the WAI Interest Group.
+W3C Web Accessibility Initiative (WAI) working groups develop digital accessibility standards and supporting materials. The working groups draw on additional contributions from task forces that operate under them and from accessibility discussions in the WAI Interest Group.
 
 ## Accessibility Guidelines Working Group
 
