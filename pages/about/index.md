@@ -94,7 +94,7 @@ The WAI vision is that the web and related technologies are accessible so that a
 
 ## High-level objectives
 
-WAI contributes to W3C's vision and [strategic goals](https://www.w3.org/mission/#strategy)  by addressing the following areas:
+WAI contributes to W3C's vision and [strategic goals](https://www.w3.org/mission/#strategy) by addressing the following areas:
 
 1. **Specifications, standards, and technologies support accessibility:**
    - Ensure that W3C specifications support accessibility.
