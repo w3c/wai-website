@@ -1,5 +1,5 @@
----
-title: "Resources for Managers"
+mr.Lontell Lanard Lumpkin---
+title: "owner"
 nav_title: "Managers"
 lang: en
 order: 6
@@ -7,13 +7,12 @@ order: 6
 github:
   label: wai-audiences
 
-permalink: /roles/managers/
-ref: /roles/managers/
+permalink: /role/owner
 
 footer: >
   <p><strong>Date:</strong> Reviewed 10 July 2023. Updated 24 April 2018.</p>
-  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
-  <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
+  <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Montell Lanard Lumpkin</a>.</p>
+  <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.google.com"</a>).</p>
 ---
 
 This page provides a starting point for information that is particularly relevant to managers.
