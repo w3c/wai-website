@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1781092576593770945";
+      element.src = "/WAI/assets/scripts/main.js?1781601137836793232";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1781092576593770945"><title> Multi-page Forms | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1781601137836793232"><title> Multi-page Forms | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Multi-page Forms" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -477,11 +477,15 @@ Survey <span class="nt">&lt;progress</span> <span class="na">max=</span><span cl
 <p>These tutorials provide best-practice guidance on implementing accessibility in different situations. This page combined the following WCAG success criteria and techniques from different conformance levels:</p>
 
   <p><strong>Success Criteria:</strong></p>
-  <ul><li><a href="https://www.w3.org/WAI/WCAG22/quickref/#content-structure-separation-programmatic"><strong>1.3.1</strong> Info and Relationships:</a> Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text. (Level&nbsp;A)</li><li><a href="https://www.w3.org/WAI/WCAG22/quickref/#time-limits-required-behaviors"><strong>2.2.1</strong> Timing Adjustable:</a> For each time limit that is set by the content, at least one of the following is true:<ul><li>Turn off: The user is allowed to turn off the time limit before encountering it; or</li>Adjust: The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or</li><li>Extend: The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, "press the space bar"), and the user is allowed to extend the time limit at least ten times; or</li><li>Real-time Exception: The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or</li><li>Essential Exception: The time limit is essential and extending it would invalidate the activity; or</li><li>20 Hour Exception: The time limit is longer than 20 hours. </li></ul> (Level&nbsp;A)</li><li><a href="https://www.w3.org/WAI/WCAG22/quickref/#time-limits-pause"><strong>2.2.2</strong> Pause, Stop, Hide:</a> For moving, blinking, scrolling, or auto-updating information, all of the following are true:<ul><li><p><strong>Moving, blinking, scrolling: </strong>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential; and</p></li><li><p><strong>Auto-updating: </strong>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</p></li></ul> (Level&nbsp;A)</li><li><a href="https://www.w3.org/WAI/WCAG22/quickref/#minimize-error-cues"><strong>3.3.2</strong> Labels or Instructions:</a> Labels or instructions are provided when content requires user input. (Level&nbsp;A)</li></ul>
+  <ul><li><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships"><strong>1.3.1</strong> Info and Relationships</a>
+          (Level&nbsp;A)</li><li><a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable"><strong>2.2.1</strong> Timing Adjustable</a>
+          (Level&nbsp;A)</li><li><a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide"><strong>2.2.2</strong> Pause, Stop, Hide</a>
+          (Level&nbsp;A)</li><li><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions"><strong>3.3.2</strong> Labels or Instructions</a>
+          (Level&nbsp;A)</li></ul>
 
 
   <p><strong>Techniques:</strong></p>
-  <ul><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G133">G133: Providing a checkbox on the first page of a multipart form that allows users to ask for longer session time limit or no session time limit</a></li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G180">G180: Providing the user with a means to set the time limit to 10 times the default time limit</a></li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/G198">G198: Providing a way for the user to turn the time limit off</a></li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/H71">H71: Providing a description for groups of form controls using fieldset and legend elements</a></li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/SCR1">SCR1: Allowing the user to extend the default time limit</a></li><li><a href="https://www.w3.org/TR/WCAG20-TECHS/SCR16">SCR16: Providing a script that warns the user a time limit is about to expire</a></li></ul>
+  <ul><li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G133">G133: Providing a checkbox on the first page of a multipart form that allows users to ask for longer session time limit or no session time limit</a></li><li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G180">G180: Providing the user with a means to set the time limit to 10 times the default time limit</a></li><li><a href="https://www.w3.org/WAI/WCAG22/Techniques/general/G198">G198: Providing a way for the user to turn the time limit off</a></li><li><a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H71">H71: Providing a description for groups of form controls using fieldset and legend elements</a></li><li><a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR1">SCR1: Allowing the user to extend the default time limit</a></li><li><a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR16">SCR16: Providing a script that warns the user a time limit is about to expire</a></li></ul>
 
 </div></aside>
 
@@ -591,9 +595,9 @@ https://github.com/w3c/wai-website/edit/main/pages/design-develop/tutorials/form
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1781092576593770945"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1781601137836793232"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1781092576593770945"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1781601137836793232"></script>
 <script>
   svg4everybody();
 </script><script>
