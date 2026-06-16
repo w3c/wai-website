@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v6
     - name: Adding resource submodule
       run: |
         [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists" && exit 1
