@@ -374,7 +374,7 @@ http://www.tipue.com/search
                               {
                                    if (l_o >= start && l_o < set.show + start)
                                    {
-                                        out += '<li><h3"><a href="' + found[i].url + '"' + tipue_search_w + '>' +  found[i].title + '</a></h2>';
+                                        out += '<li><h3><a href="' + found[i].url + '"' + tipue_search_w + '>' +  found[i].title + '</a></h3>';
 
                                         if (set.debug)
                                         {
