@@ -33,6 +33,11 @@ This page provides a starting point for information that is particularly relevan
 [Digital Accessibility Foundations - Free Online Course](/courses/foundations-course/)
 : Introduces a self-paced course from W3C WAI for developers, designers, ux, writers, managers, advocates. It is designed **for technical and non-technical learners**, including students, instructors, professionals, and people with disabilities. The course is free, with optional certificate.
 
+## Test Edge Cases Consistently
+
+[Accessibility Conformance Testing (ACT) Rules](/standards-guidelines/act/rules/about/)
+: ACT Rules describe how to test conformance of accessibility standards such as Web Content Accessibility Guidelines (WCAG) and WAI-ARIA. ACT Rules inform accessibility testers on how to evaluate edge cases in way that is consistent with other accessibility testers, test tools, and methodologies.
+
 ## More
 
 We encourage you to look around the W3C WAI website to find other information that you might be interested in reading or sharing with others.
