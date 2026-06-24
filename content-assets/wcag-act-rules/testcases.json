@@ -20790,42 +20790,6 @@
       "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/b49b2e/proposed/"
     },
     {
-      "ruleId": "b49b2e",
-      "ruleName": "Heading is descriptive",
-      "ruleAccessibilityRequirements": {
-        "wcag20:2.4.6": {
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "further testing needed",
-          "inapplicable": "further testing needed"
-        }
-      },
-      "expected": "inapplicable",
-      "testcaseId": "b67b5eda7529c918280b442609e5b7d59c57317b",
-      "testcaseTitle": "Inapplicable Example 3",
-      "relativePath": "testcases/b49b2e/b67b5eda7529c918280b442609e5b7d59c57317b.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/b67b5eda7529c918280b442609e5b7d59c57317b.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/b49b2e/proposed/"
-    },
-    {
-      "ruleId": "b49b2e",
-      "ruleName": "Heading is descriptive",
-      "ruleAccessibilityRequirements": {
-        "wcag20:2.4.6": {
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "further testing needed",
-          "inapplicable": "further testing needed"
-        }
-      },
-      "expected": "inapplicable",
-      "testcaseId": "26d71f03f10bc14b28212699eddafe17adafc6b8",
-      "testcaseTitle": "Inapplicable Example 4",
-      "relativePath": "testcases/b49b2e/26d71f03f10bc14b28212699eddafe17adafc6b8.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/26d71f03f10bc14b28212699eddafe17adafc6b8.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/b49b2e/proposed/"
-    },
-    {
       "ruleId": "ffd0e9",
       "ruleName": "Heading has non-empty accessible name",
       "ruleAccessibilityRequirements": {

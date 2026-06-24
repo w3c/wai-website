@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1782229705330149208";
+      element.src = "/WAI/assets/scripts/main.js?1782297072424040525";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1782229705330149208"><title> Heading is descriptive[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1782229705330149208"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1782297072424040525"><title> Heading is descriptive[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1782297072424040525"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Heading is descriptive" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -340,11 +340,13 @@ h2#sidebar-header {
 
 <p>Headings that are visible but not in the accessibility tree are a failure of <a href="https://www.w3.org/TR/WCAG22/#info-and-relationships" title=" Success Criterion 1.3.1 Info and Relationships">Success Criterion 1.3.1 Info and Relationships</a>. These are not tested by this rule but they can still fail <a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" title="Success Criterion 2.4.6 Headings and Labels">Success Criterion 2.4.6 Headings and Labels</a>.</p>
 
+<p>Testing tools treat empty headings <code class="language-plaintext highlighter-rouge">&lt;h1&gt;&lt;/h1&gt;</code> or <code class="language-plaintext highlighter-rouge">div role="heading" aria-level="1"&gt;&lt;/div&gt;</code> differently. Some fail empty headings under 1.3.1, others under 2.4.6, while others pass these headings because they are ignored by most assistive technologies causing no accessibility barriers at all. This rule doesn’t include examples of empty headings because there is currently no harmonized approach for testing them.</p>
+
 <h3 id="assumptions">Assumptions</h3>
 
-<p>This rule assumes that the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a> order is close to the reading order as elements are rendered on the page. Due to positioning, it is possible to render a document in an order that greatly differs from the tree order, in which case the content which is visually associated with a heading might not be the content following it in tree order and this rule might fail while <a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" title="Success Criterion 2.4.6 Headings and Labels">Success Criterion 2.4.6 Headings and Label</a> is still satisfied.</p>
+<p>This rule assumes that the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a> order is close to the reading order as elements are rendered on the page. Due to positioning, it is possible to render a document in an order that greatly differs from the tree order, in which case the content which is visually associated with a heading might not be the content following it in tree order and this rule might fail while <a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" title="Success Criterion 2.4.6 Headings and Labels">Success Criterion 2.4.6 Headings and Labels</a> is still satisfied.</p>
 
-<p>This rule also assumes that the content the heading is intended to describe is <a href="#visible" title="Definition of visible">visible</a> and not hidden from assistive technologies. Otherwise, cases such as expandable content using a heading might fail this rule while <a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" title="Success Criterion 2.4.6 Headings and Labels">Success Criterion 2.4.6 Headings and Label</a> is still satisfied.</p>
+<p>This rule also assumes that the content the heading is intended to describe is <a href="#visible" title="Definition of visible">visible</a> and not hidden from assistive technologies. Otherwise, cases such as expandable content using a heading might fail this rule while <a href="https://www.w3.org/TR/WCAG22/#headings-and-labels" title="Success Criterion 2.4.6 Headings and Labels">Success Criterion 2.4.6 Headings and Labels</a> is still satisfied.</p>
 
 <h3 id="accessibility-support">Accessibility Support</h3>
 
@@ -400,8 +402,8 @@ h2#sidebar-header {
 <p>This <code class="language-plaintext highlighter-rouge">h1</code> heading element describes the topic of the following paragraph.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;h1&gt;</span>Opening Hours<span class="nt">&lt;/h1&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;h1&gt;</span>Opening Hours<span class="nt">&lt;/h1&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -412,8 +414,8 @@ h2#sidebar-header {
 <p>This heading marked up with an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a> of <code class="language-plaintext highlighter-rouge">heading</code> describes the topic of the following paragraph.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span><span class="nt">&gt;</span>Opening Hours<span class="nt">&lt;/span&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span><span class="nt">&gt;</span>Opening Hours<span class="nt">&lt;/span&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -424,10 +426,10 @@ h2#sidebar-header {
 <p>This <code class="language-plaintext highlighter-rouge">h1</code> heading element with an image describes the topic of the following paragraph.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;h1&gt;</span>
-		<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/descriptive-heading-b49b2e/opening_hours_icon.png"</span> <span class="na">alt=</span><span class="s">"Opening hours"</span> <span class="nt">/&gt;</span>
-	<span class="nt">&lt;/h1&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;h1&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/descriptive-heading-b49b2e/opening_hours_icon.png"</span> <span class="na">alt=</span><span class="s">"Opening hours"</span> <span class="nt">/&gt;</span>
+ <span class="nt">&lt;/h1&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -438,17 +440,17 @@ h2#sidebar-header {
 <p>This <code class="language-plaintext highlighter-rouge">h1</code> heading element has a single character text that describes the topic of the following description list.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;h1&gt;</span>A<span class="nt">&lt;/h1&gt;</span>
-	<span class="nt">&lt;dl&gt;</span>
-		<span class="nt">&lt;dt&gt;</span>airplane<span class="nt">&lt;/dt&gt;</span>
-		<span class="nt">&lt;dd&gt;</span>
-			a powered flying vehicle with fixed wings and a weight greater than that of the air it displaces.
-		<span class="nt">&lt;/dd&gt;</span>
-		<span class="nt">&lt;dt&gt;</span>apple<span class="nt">&lt;/dt&gt;</span>
-		<span class="nt">&lt;dd&gt;</span>
-			the round fruit of a tree of the rose family, which typically has thin green or red skin and crisp flesh.
-		<span class="nt">&lt;/dd&gt;</span>
-	<span class="nt">&lt;/dl&gt;</span>
+ <span class="nt">&lt;h1&gt;</span>A<span class="nt">&lt;/h1&gt;</span>
+ <span class="nt">&lt;dl&gt;</span>
+  <span class="nt">&lt;dt&gt;</span>airplane<span class="nt">&lt;/dt&gt;</span>
+  <span class="nt">&lt;dd&gt;</span>
+   a powered flying vehicle with fixed wings and a weight greater than that of the air it displaces.
+  <span class="nt">&lt;/dd&gt;</span>
+  <span class="nt">&lt;dt&gt;</span>apple<span class="nt">&lt;/dt&gt;</span>
+  <span class="nt">&lt;dd&gt;</span>
+   the round fruit of a tree of the rose family, which typically has thin green or red skin and crisp flesh.
+  <span class="nt">&lt;/dd&gt;</span>
+ <span class="nt">&lt;/dl&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -459,10 +461,10 @@ h2#sidebar-header {
 <p>This heading marked up with an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a> of <code class="language-plaintext highlighter-rouge">heading</code> describes the topic of the following paragraph. The heading is positioned off screen but is <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span> <span class="na">style=</span><span class="s">"position: absolute; top: -9999px; left: -9999px;"</span><span class="nt">&gt;</span>Opening Hours<span class="nt">&lt;/span&gt;</span>
-	<span class="nt">&lt;p&gt;</span>
-		We are open Monday through Friday from 10 to 16
-	<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span> <span class="na">style=</span><span class="s">"position: absolute; top: -9999px; left: -9999px;"</span><span class="nt">&gt;</span>Opening Hours<span class="nt">&lt;/span&gt;</span>
+ <span class="nt">&lt;p&gt;</span>
+  We are open Monday through Friday from 10 to 16
+ <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -473,9 +475,9 @@ h2#sidebar-header {
 <p>This heading describes the first <a href="#perceivable-content" title="Definition of perceivable content">perceivable content</a> after it (the first <code class="language-plaintext highlighter-rouge">p</code> element). The next <a href="#perceivable-content" title="Definition of perceivable content">perceivable content</a> (the second <code class="language-plaintext highlighter-rouge">p</code> element) is not considered by this rule.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;h1&gt;</span>Opening Hours<span class="nt">&lt;/h1&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Saturday from 10 to 13<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;h1&gt;</span>Opening Hours<span class="nt">&lt;/h1&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Saturday from 10 to 13<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -488,8 +490,8 @@ h2#sidebar-header {
 <p>This <code class="language-plaintext highlighter-rouge">h1</code> heading element does not describes the topic of the following paragraph.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;h1&gt;</span>Weather<span class="nt">&lt;/h1&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;h1&gt;</span>Weather<span class="nt">&lt;/h1&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -500,8 +502,8 @@ h2#sidebar-header {
 <p>This heading marked up with an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a> of <code class="language-plaintext highlighter-rouge">heading</code> does not describe the topic of the following paragraph.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span><span class="nt">&gt;</span>Weather<span class="nt">&lt;/span&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span><span class="nt">&gt;</span>Weather<span class="nt">&lt;/span&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -512,10 +514,10 @@ h2#sidebar-header {
 <p>This heading marked up with an <a href="#explicit-role" title="Definition of Explicit Role">explicit role</a> of <code class="language-plaintext highlighter-rouge">heading</code> does not describe the topic of the following paragraph. The heading is positioned off screen but is <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span> <span class="na">style=</span><span class="s">"position: absolute; top: -9999px; left: -9999px;"</span><span class="nt">&gt;</span>Weather<span class="nt">&lt;/span&gt;</span>
-	<span class="nt">&lt;p&gt;</span>
-		We are open Monday through Friday from 10 to 16
-	<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span> <span class="na">style=</span><span class="s">"position: absolute; top: -9999px; left: -9999px;"</span><span class="nt">&gt;</span>Weather<span class="nt">&lt;/span&gt;</span>
+ <span class="nt">&lt;p&gt;</span>
+  We are open Monday through Friday from 10 to 16
+ <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -526,9 +528,9 @@ h2#sidebar-header {
 <p>This <code class="language-plaintext highlighter-rouge">h1</code> heading element does not describe the first <a href="#perceivable-content" title="Definition of perceivable content">perceivable content</a> after it (the first <code class="language-plaintext highlighter-rouge">p</code> element). The next <a href="#perceivable-content" title="Definition of perceivable content">perceivable content</a> (the second <code class="language-plaintext highlighter-rouge">p</code> element) is not considered by this rule.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;h1&gt;</span>Weather<span class="nt">&lt;/h1&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
-	<span class="nt">&lt;p&gt;</span>It is going to rain tomorrow<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;h1&gt;</span>Weather<span class="nt">&lt;/h1&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;p&gt;</span>It is going to rain tomorrow<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -541,7 +543,7 @@ h2#sidebar-header {
 <p>There is no heading.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -552,30 +554,8 @@ h2#sidebar-header {
 <p>This <code class="language-plaintext highlighter-rouge">h1</code> heading element is not <a href="#included-in-the-accessibility-tree" title="Definition of included in the accessibility tree">included in the accessibility tree</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;h1</span> <span class="na">hidden</span><span class="nt">&gt;</span>Opening Hours<span class="nt">&lt;/h1&gt;</span>
-	<span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-
-<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
-
-<p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/b67b5eda7529c918280b442609e5b7d59c57317b.html">Open in a new tab</a></p>
-
-<p>This <code class="language-plaintext highlighter-rouge">h1</code> heading element has an empty <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;h1&gt;&lt;/h1&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-
-<h4 id="inapplicable-example-4">Inapplicable Example 4</h4>
-
-<p><a class="example-link" title="Inapplicable Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/b49b2e/26d71f03f10bc14b28212699eddafe17adafc6b8.html">Open in a new tab</a></p>
-
-<p>Semantic heading has an empty <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;p</span> <span class="na">role=</span><span class="s">"heading"</span> <span class="na">aria-level=</span><span class="s">"1"</span><span class="nt">&gt;&lt;/p&gt;</span>
+ <span class="nt">&lt;h1</span> <span class="na">hidden</span><span class="nt">&gt;</span>Opening Hours<span class="nt">&lt;/h1&gt;</span>
+ <span class="nt">&lt;p&gt;</span>We are open Monday through Friday from 10 to 16<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
@@ -746,18 +726,25 @@ h2#sidebar-header {
       </thead>
       <tbody>
           <tr>
-            <td>Alfa (fully automated) 0.114.3</td>
+            <td>Alfa (fully automated) 0.117.0</td>
             <td>Automated tool</td>
             <td> Partial
             </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-b49b2e"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Alfa (semi-automated) 0.114.3</td>
+            <td>Alfa (semi-automated) 0.117.0</td>
             <td>Semi-automated tool</td>
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa-assisted#breakdown-b49b2e"><img alt="Alfa (semi-automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Axe DevTools Pro 4.37.1</td>
+            <td>Semi-automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/axe-devtools-pro#breakdown-b49b2e"><img alt="Axe DevTools Pro Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
             <td>Trusted Tester 5.1</td>
@@ -815,7 +802,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> b49b2e</p>
-<p><strong>Date:</strong> Updated 19 January 2026</p>
+<p><strong>Date:</strong> Updated 18 May 2026</p>
 <p><strong>Authors:</strong> <a href="https://github.com/carlosapaduarte">Carlos Duarte</a>, <a href="https://github.com/DagfinnRomen">Dagfinn Rømen</a>, <a href="https://github.com/geirsf">Geir Sindre Fossøy</a>, <a href="https://github.com/Jym77">Jean-Yves Moyen</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
@@ -869,9 +856,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1782229705330149208"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1782297072424040525"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1782229705330149208"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1782297072424040525"></script>
 <script>
   svg4everybody();
 </script><script>
