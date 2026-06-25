@@ -65,6 +65,7 @@
 /ARIA/apg/patterns/landmarks/index.html
 /ARIA/apg/patterns/link/examples/link/index.html
 /ARIA/apg/patterns/link/index.html
+/ARIA/apg/patterns/listbox/examples/listbox-actions/index.html
 /ARIA/apg/patterns/listbox/examples/listbox-collapsible/index.html
 /ARIA/apg/patterns/listbox/examples/listbox-grouped/index.html
 /ARIA/apg/patterns/listbox/examples/listbox-rearrangeable/index.html
@@ -662,9 +663,11 @@
 /content-assets/wai-aria-practices/patterns/link/examples/css/link.css
 /content-assets/wai-aria-practices/patterns/link/examples/images/w3c-logo.svg
 /content-assets/wai-aria-practices/patterns/link/examples/js/link.js
+/content-assets/wai-aria-practices/patterns/listbox/examples/css/listbox-actions.css
 /content-assets/wai-aria-practices/patterns/listbox/examples/css/listbox.css
 /content-assets/wai-aria-practices/patterns/listbox/examples/imgs/Arrows-Left-icon.png
 /content-assets/wai-aria-practices/patterns/listbox/examples/imgs/Arrows-Right-icon.png
+/content-assets/wai-aria-practices/patterns/listbox/examples/js/listbox-actions.js
 /content-assets/wai-aria-practices/patterns/listbox/examples/js/listbox-collapsible.js
 /content-assets/wai-aria-practices/patterns/listbox/examples/js/listbox-rearrangeable.js
 /content-assets/wai-aria-practices/patterns/listbox/examples/js/listbox-scrollable.js

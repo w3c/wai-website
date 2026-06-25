@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1782389746328337031";
+      element.src = "/WAI/assets/scripts/main.js?1782411455641568319";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1782389746328337031"><title> Experimental Example of Tabs with Action Buttons | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1782411455641568319"><title> Experimental Example of Tabs with Action Buttons | APG | WAI | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Experimental Example of Tabs with Action Buttons" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -601,12 +601,12 @@ h2#sidebar-header {
               <th><kbd>Tab</kbd></th>
               <td>
                 <ul>
-                  <li>When focus moves into the <code>tablist</code>, places focus on the active <code>tab</code>.</li>
-                  <li>When focus is on a <code>tab</code>, places focus on its associated menu <code>button</code>.</li>
-                  <li>When focus is on the menu <code>button</code> associated with a <code>tab</code>, moves focus to one of the following depending on which is nearest in the forward tab sequence:
+                  <li>When focus moves into the <code>tablist</code>, moves focus to the active <code>tab</code>.</li>
+                  <li>When focus is on a <code>tab</code>, moves focus to its associated menu <code>button</code>.</li>
+                  <li>When focus is on a menu <code>button</code> associated with a <code>tab</code>:
                     <ul>
-                      <li>The active <code>tab</code>.</li>
-                      <li>The first focusable element following the <code>tablist</code>. In this example, that is the <code>a</code> element in <code>tabpanel</code>.</li>
+                      <li>If the current focus precedes the active <code>tab</code> (is to the left in left-to-right layouts), moves focus to the active <code>tab</code>.</li>
+                      <li>Otherwise, moves focus to the first <code>a</code> element in the active <code>tabpanel</code>.</li>
                     </ul>
                   </li>
                 </ul>
@@ -616,12 +616,12 @@ h2#sidebar-header {
               <th><kbd>Shift</kbd> + <kbd>Tab</kbd></th>
               <td>
                 <ul>
-                  <li>When focus moves into the <code>tablist</code>, places focus on the menu <code>button</code> associated with the active <code>tab</code>.</li>
-                  <li>When focus is on the menu <code>button</code> associated with a <code>tab</code>, places focus on that <code>tab</code>.</li>
-                  <li>When focus is on a <code>tab</code>, moves focus to one of the following depending on which is nearest in the backward tab sequence:
+                  <li>When focus moves from the active tab panel content into the <code>tablist</code>, moves focus to the menu <code>button</code> associated with the active <code>tab</code>.</li>
+                  <li>When focus is on a menu <code>button</code> associated with a <code>tab</code>, moves focus to the associated <code>tab</code>.</li>
+                  <li>When focus is on a <code>tab</code>:
                     <ul>
-                      <li>The active <code>tab</code>.</li>
-                      <li>The first focusable element preceding the <code>tablist</code>.</li>
+                      <li>If the current focus follows the active <code>tab</code> (is to the right in left-to-right layouts), moves focus to the menu <code>button</code> associated with the active <code>tab</code>.</li>
+                      <li>Otherwise, moves focus to the first focusable element preceding the <code>tablist</code>.</li>
                     </ul>
                   </li>
                 </ul>
@@ -864,7 +864,7 @@ https://github.com/w3c/aria-practices/edit/main/content/patterns/tabs/examples/t
 
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
-    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;">      <div class='example-page-footer'>        <p><a href='https://github.com/orgs/w3c/projects/130'>View issues related to this example</a></p>        <p>Page last updated: 12 August 2025</p>      </div>    </div>
+    <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;">      <div class='example-page-footer'>        <p><a href='https://github.com/orgs/w3c/projects/130'>View issues related to this example</a></p>        <p>Page last updated: 23 June 2026</p>      </div>    </div>
   </footer>
   <footer class="w3c-global-footer wai-global-footer default-grid" aria-label="Site">
   <div class="inner">
@@ -914,9 +914,9 @@ https://github.com/w3c/aria-practices/edit/main/content/patterns/tabs/examples/t
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1782389746328337031"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1782411455641568319"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1782389746328337031"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1782411455641568319"></script>
 <script>
   svg4everybody();
 </script><script>
