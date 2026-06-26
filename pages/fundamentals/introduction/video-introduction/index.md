@@ -5,7 +5,7 @@ title: "Video Introduction to Web Accessibility and W3C Standards"
 nav_title: "Video Introduction" # A short title that is used in the navigation
 lang: en   # Change "en" to the translated language shortcode
 last_updated: 2021-05-04   # Keep the date of the English version
-first_published: "4 December 2017"
+first_published: "4 December 2024"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
