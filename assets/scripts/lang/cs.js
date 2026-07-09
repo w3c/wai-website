@@ -1,0 +1,1 @@
+var translationStrings = {"Expand All Sections": "Rozbalit všechny sekce","Collapse All Sections": "Sbalit všechny sekce","to footnote": "k poznámce pod čarou","back to footnote": "zpět k poznámce pod čarou","in text": "v textu",};

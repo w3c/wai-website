@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>The Transparency of Automatic Web Accessibility Evaluation Tools - Submission for the WAI-CooP Project and the W3C APA symposium on Research and Development Questions in Digital Accessibility</title>
+</head>
+
+<body>
+  <aside style="border: solid #900 1px; background: #ebf4f5; font-weight: bold; padding: 0.5em; margin-bottom: 3em;">This position paper is a contribution to the symposium <a href="https://www.w3.org/WAI/about/projects/wai-coop/symposium1/">"Shape the
+Future: Research and Development Questions in Digital Accessibility"</a>. The content of this paper was not developed by the W3C Web Accessibility Initiative and does not necessarily represent the consensus view of its membership.</aside>
+
+  <h1>The Transparency of Automatic Web Accessibility Evaluation Tools</h1>
+  <ul>
+    <li>Marco Manca. CNR-ISTI, HIIS Laboratory, <a href="mailto:marco.manca@isti.cnr.it">marco.manca@isti.cnr.it</a></li>
+    <li>Fabio Paternò. CNR-ISTI, HIIS Laboratory, <a href="mailto:fabio.paterno@isti.cnr.it">fabio.paterno@isti.cnr.it</a></li>
+    <li>Carmen Santoro. CNR-ISTI, HIIS Laboratory, <a href="mailto:carmen.santoro@isti.cnr.it">carmen.santoro@isti.cnr.it</a></li>
+  </ul>
+
+  <h2>Keywords</h2>
+  <p>Accessibility validation tools, Transparency, Guidelines</p>
+
+  <h2>1. Problem Addressed</h2>
+  <p>Following the adoption of accessibility laws, many public organizations started paying more attention to accessibility guidelines. However, Web accessibility requires constant monitoring of numerous details across many pages in a given site. Thus, to
+    simplify the monitoring, analysis, detection, and correction of website accessibility problems, several automatic and semi-automatic tools have been proposed. Even though accessibility validation is a process that cannot be fully automated [<a href="#10">10</a>],
+    automatic tools [<a href="#1">1</a>] still play a crucial role in ensuring the accessibility of websites. They help human operators collect and analyse data about the actual application of accessibility guidelines, detect non-compliance, and provide
+    relevant information about addressing the possible problems</p>
+
+  <h2>2. Relevant background</h2>
+  <p>Our group has long experience in tools for accessibility evaluation [<a href="#2">2</a>, <a href="#7">7</a>, <a href="#8">8</a>]. We have also participated in the Wadcher EU project , with the aim to develop a set of tools to monitor large scale accessibility.
+    While discussing with users of such tools and other tool developers, we often noticed that such tools differ in their coverage of accessibility guidelines, in how they interpret and to what extent they are able to support them, and in the design of
+    how they present the results, including errors (and likely errors). Such differences are perceived in different ways by users, are sometimes misinterpreted, and can generate misunderstandings. Better explaining these differences can help create tools
+    that assist web site designers and developers in making informed decisions, and indicate gaps that could be addressed in future versions of these tools (or in new tools). Unfortunately, this issue has not been sufficiently dealt with in previous studies
+    of accessibility tools such as [<a href="#3">3</a>, <a href="#5">5</a>, <a href="#10">10</a>]. We have thus introduced [<a href="#6">6</a>] the concept of transparency of such tools, as well as some criteria that could be used to analyse it, and provided
+    an initial comparative analysis of four validation tools according to them.</p>
+
+  <h2>3. Challenges</h2>
+  <p>By the transparency of an accessibility validation tool we mean its ability to clearly indicate to its users what accessibility aspects it is able to validate and the meaning of the results generated. The various available tools follow different approaches
+    to checking accessibility, and have to keep up with the continuous evolution of Web technologies and their use, which imply the need to continuously update their support for the validation of the associated accessibility guidelines. Users are sometimes
+    not even aware of such differences, and they may become disoriented when they see different results in terms of validation. Thus, it is important to make them more aware of this issue, and provide tool developers with indications for making their
+    accessibility tools more transparent. To some extent, we face similar issues to those that people are encountering with the increasing deployment of Artificial Intelligence (AI) tools, which often generate various problems for their users since they
+    do not explain why they are operating in a certain way. Thus, interest in techniques for explainable AI has been increasing in recent times. In this perspective, some researchers have explored the space of user needs for explanations using a question-driven
+    framework. For example, some authors [<a href="#9">9</a>] propose a question bank in which user needs for explainability are represented as prototypical questions users might ask about the AI, such as “Why is this instance given this prediction?”,
+    “What would the system predict if this instance changes to …?” Some of such questions can still be relevant for accessibility validation tools, even when they do not use AI methods at all.</p>
+
+  <h2>4. Outcomes</h2>
+  <p>As stated, transparent tools should enable users to make fully informed decisions based on a clear understanding of how the automatic validation tools work. In particular, in order to be transparent, an automated validation tool should make explicit
+    the following information:
+    <ul>
+      <li>what standards, success criteria, and techniques are considered. This point is critical because it helps clarify the reasons for the different results in different tools. Besides, the more techniques a tool covers, the more precise the results are
+        because different techniques reveal different accessibility problems.</li>
+      <li>how it categorizes accessibility issues. The classification of the accessibility validation results indicated by the W3C organization in the EARL standard recommends using one of the following categories to indicate the tests’ results: passed, failed,
+        cannot tell, inapplicable and untested. The more a tool utilises this standard classification for the accessibility issues, the more understandable its results will be for the user. If a tool uses different terms to categorize the accessibility
+        issues, its explanation must be clear and available for users.</li>
+      <li>how the reported information is organised:
+        <ul>
+          <li>is the tool capable of giving overall accessibility measures for entire web pages or sites. In addition to the ability to report lists of issues, the use of relevant metrics can help indicate the overall accessibility level of the considered
+            websites. These metrics can be defined on the basis of success criteria and their corresponding sufficient, advisory and failure techniques.</li>
+          <li>are there different report formats depending on the target users? Different report formats can fulfil the needs of users with various expertise. For example, a code overview is more suitable for developers, while a report with charts and statistics
+            summarising the detected issues can be sufficient for non-technical users.</li>
+          <li>whether the tool is able to evaluate dynamic pages or not. Indicating whether a tool can evaluate dynamic web pages is useful information that can help users interpret the results properly. Several accessibility validations tools rely on static
+            HTML to analyse the DOM composing the web page. However, current web sites have largely evolved into more dynamic applications. By evaluating the static HTML composing a modern web application, a tool may erroneously return no errors. However,
+            in this case, the absence of errors may not indicate that the target application is fully accessible, but rather that the tool is unable to assess the issues and does not give any indication of this limitation to the user. Thus, to be transparent,
+            the accessibility validation tools should provide their users with clear information about their full functionality, including possible limitations.</li>
+        </ul>
+      </li>
+    </ul>
+  </p>
+
+  <h2>5. Future perspectives</h2>
+  <p>We are carrying out work on empirical validation of the issues associated with transparency, in order to define more precisely such concept and the associated criteria, provide an analysis of a broader set of accessibility validation tools according
+    to such criteria, with the ultimate goal of providing some recommendations for tools developers to improve the transparency of their tools. In this work we consider people who have used accessibility validation tools from different perspectives: web
+    commissioners (people who mainly decide and manage the content of a Web site), accessibility experts (those who are in charge of actually checking whether an application is accessible), and web developers. We will be happy to share and discuss initial
+    results of this new work at the workshop. </p>
+
+  <h2>References</h2>
+  <ol>
+    <li id="1">W3C, Web Accessibility Evaluation Tools List, https://www.w3.org/WAI/ER/tools/ </li>
+    <li id="2">Giovanna Broccia, Marco Manca, Fabio Paternò, Francesca Pulina, Flexible Automatic Support for Web Accessibility Validation. Proc. ACM Hum. Comput. Interact. 4(EICS): 83:1-83:24 (2020) </li>
+    <li id="3">Andreas Burkard, Gottfried Zimmermann, and Bettina Schwarzer. 2021. Monitoring Systems for Checking Websites on Accessibility. Frontiers in Computer Science 3 (2021), 2. </li>
+    <li id="">4Siddikjon Gaibullojonovich Abduganiev. 2017. Towards automated web accessibility evaluation: a comparative study. Int. J. Inf. Technol. Comput. Sci.(IJITCS) 9, 9 (2017), 18–44. </li>
+    <li id="5">Marian Pădure and Costin Pribeanu. 2019. Exploring the differences between five accessibility evaluation tools. (2019). </li>
+    <li id="6">P. Parvin, V. Palumbo, M. Manca, F. Paternò. 2021. The Transparency of Automatic Accessibility Evaluation Tools. In Proceedings of the 18th International Web for All Conference (W4A ’21), April 19–20, 2021, </li> Ljubljana, Slovenia. ACM, New York,
+    NY, USA, 5 pages. https://doi.org/10. 1145/3430263.3452436 </li>
+    <li id="7">Paternò F., Schiavone A., The role of tool support in public policies and accessibility. ACM Interactions 22(3): 60-63 (2015) </li>
+    <li id="8">
+      Schiavone A., Paternò F., An extensible environment for guideline-based accessibility evaluation of dynamic Web applications, Universal Access in the Information Society, Springer Verlag, 14(1): 111-132, 2015. </li>
+    <li id="9"> Q. Vera Liao, Daniel M Gruen, Sarah Miller, Questioning the AI: Informing Design Practices for Explainable AI User Experiences, CHI 2020 </li>
+    <li id="10"> Markel Vigo, Justin Brown, and Vivienne Conway. 2013. Benchmarking web accessibility evaluation tools: measuring the harm of sole reliance on automated tests. In Proceedings of the 10th International Cross-Disciplinary Conference on Web Accessibility.
+      1–10. </li>
+
+  </ol>
+
+</body>
+
+</html>

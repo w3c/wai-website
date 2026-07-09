@@ -1,0 +1,712 @@
+WEBVTT
+
+00:00:00.533 --> 00:00:01.533 align:middle line:79% position:50% size:58%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Just a little bit about
+
+00:00:01.600 --> 00:00:03.133 align:middle line:85% position:50% size:48%
+the project itself.
+
+00:00:03.200 --> 00:00:09.933 align:middle line:79% position:50% size:58%
+WAI-Tools Project is
+an acronym for Advanced
+
+00:00:10.000 --> 00:00:13.699 align:middle line:79% position:50% size:65%
+Decision Support Tools for
+Scalable Web Accessibility
+
+00:00:13.766 --> 00:00:16.133 align:middle line:79% position:50% size:63%
+Assessments of the Web
+Accessibility Initiative.
+
+00:00:16.199 --> 00:00:17.533 align:middle line:85% position:50% size:35%
+So, WAI-Tools.
+
+00:00:17.600 --> 00:00:22.000 align:middle line:79% position:50% size:63%
+So, it's a project of
+the W3C Web Accessibility
+
+00:00:22.066 --> 00:00:25.533 align:middle line:79% position:50% size:60%
+Initiative co-funded by
+the European Commission,
+
+00:00:25.600 --> 00:00:29.133 align:middle line:79% position:50% size:53%
+the EC, under the
+Horizon 2020 program.
+
+00:00:29.199 --> 00:00:31.600 align:middle line:79% position:50% size:65%
+It's a so-called
+Innovation Action project.
+
+00:00:31.666 --> 00:00:34.200 align:middle line:79% position:50% size:65%
+So there are different
+types of projects that the
+
+00:00:34.266 --> 00:00:38.533 align:middle line:79% position:50% size:70%
+European Commission supports
+and this is one of them.
+
+00:00:38.600 --> 00:00:41.433 align:middle line:79% position:50% size:53%
+It's under the line
+of innovation action.
+
+00:00:41.500 --> 00:00:46.333 align:middle line:79% position:50% size:53%
+It started on the 1st
+of November in 2017.
+
+00:00:46.399 --> 00:00:50.700 align:middle line:79% position:50% size:70%
+It also - it already
+feels like many decades ago.
+
+00:00:50.766 --> 00:00:53.666 align:middle line:79% position:50% size:65%
+And unfortunately
+actually, coming to an end
+
+00:00:53.733 --> 00:00:55.233 align:middle line:85% position:50% size:63%
+at the end of this month.
+
+00:00:55.299 --> 00:00:58.100 align:middle line:79% position:50% size:70%
+As I mentioned, it's
+been a really great project,
+
+00:00:58.166 --> 00:01:01.633 align:middle line:79% position:50% size:45%
+great fun working
+with the partners.
+
+00:01:01.700 --> 00:01:04.766 align:middle line:79% position:50% size:60%
+Speaking of the partners
+of the project, the lead
+
+00:01:04.833 --> 00:01:08.133 align:middle line:79% position:50% size:58%
+partner is the European
+Research Consortium for
+
+00:01:08.200 --> 00:01:11.000 align:middle line:79% position:50% size:60%
+Informatics and
+Mathematics, ERCIM which
+
+00:01:11.066 --> 00:01:14.299 align:middle line:79% position:50% size:55%
+is the
+European host for W3C.
+
+00:01:14.366 --> 00:01:17.966 align:middle line:79% position:50% size:63%
+So, this is the legal
+footing of W3C in Europe.
+
+00:01:18.033 --> 00:01:20.866 align:middle line:79% position:50% size:58%
+Other partners in the
+project are Siteimprove
+
+00:01:20.933 --> 00:01:23.866 align:middle line:79% position:50% size:60%
+from Denmark, the
+Accessibility Foundation
+
+00:01:23.933 --> 00:01:27.233 align:middle line:79% position:50% size:60%
+in the Netherlands, the
+Norwegian Digitalisation
+
+00:01:27.299 --> 00:01:32.166 align:middle line:79% position:50% size:48%
+Agency, Digdir, and
+the Administrative
+
+00:01:32.233 --> 00:01:34.666 align:middle line:79% position:50% size:60%
+Modernization
+Agency in Portugal, AMA.
+
+00:01:34.733 --> 00:01:40.200 align:middle line:79% position:50% size:63%
+The University of Lisbon,
+FCID, in Portugal, and
+
+00:01:40.266 --> 00:01:43.700 align:middle line:79% position:50% size:63%
+Deque Research which is
+based in the Netherlands.
+
+00:01:43.766 --> 00:01:48.666 align:middle line:79% position:50% size:63%
+So, these are the project
+partners who together are
+
+00:01:48.733 --> 00:01:51.099 align:middle line:79% position:50% size:68%
+responsible for moving
+this forward, this project,
+
+00:01:51.166 --> 00:01:54.299 align:middle line:79% position:50% size:55%
+but really a lot of
+this work is happening
+
+00:01:54.366 --> 00:01:58.333 align:middle line:79% position:50% size:63%
+or happened in - directly
+in open W3C groups and
+
+00:01:58.400 --> 00:02:01.166 align:middle line:79% position:50% size:65%
+we're going to be talking
+more about that, about how
+
+00:02:01.233 --> 00:02:04.633 align:middle line:79% position:50% size:60%
+the project work has
+happened and how you can
+
+00:02:04.700 --> 00:02:07.366 align:middle line:79% position:50% size:65%
+still contribute to some
+of this project work which
+
+00:02:07.433 --> 00:02:11.366 align:middle line:79% position:50% size:65%
+is going to continue
+happening in these groups.
+
+00:02:11.433 --> 00:02:13.433 align:middle line:79% position:50% size:50%
+But just to give you
+a little bit of the
+
+00:02:13.500 --> 00:02:16.233 align:middle line:79% position:50% size:65%
+objectives of the project,
+what did we really want to
+
+00:02:16.300 --> 00:02:18.066 align:middle line:85% position:50% size:63%
+achieve with the project?
+
+00:02:18.133 --> 00:02:23.166 align:middle line:79% position:50% size:65%
+One of the main objectives
+here on the screen is an
+
+00:02:23.233 --> 00:02:25.500 align:middle line:79% position:50% size:53%
+illustration where at
+the very top of the
+
+00:02:25.566 --> 00:02:28.333 align:middle line:79% position:50% size:53%
+illustration is kind
+of the ultimate goal.
+
+00:02:28.400 --> 00:02:31.466 align:middle line:79% position:50% size:65%
+We all want
+compatible results, right?
+
+00:02:31.533 --> 00:02:33.900 align:middle line:79% position:50% size:55%
+When we are evaluating
+for the Web Content
+
+00:02:33.966 --> 00:02:36.300 align:middle line:79% position:50% size:63%
+Accessibility Guidelines
+which is the layer below,
+
+00:02:36.366 --> 00:02:38.833 align:middle line:79% position:50% size:60%
+we're evaluating for
+accessibility or testing
+
+00:02:38.900 --> 00:02:41.400 align:middle line:79% position:50% size:53%
+for accessibility,
+we're using different
+
+00:02:41.466 --> 00:02:43.833 align:middle line:79% position:50% size:45%
+methodologies, so
+different methods.
+
+00:02:43.900 --> 00:02:46.166 align:middle line:79% position:50% size:65%
+But at the end of the day,
+we're testing for the same
+
+00:02:46.233 --> 00:02:50.266 align:middle line:79% position:50% size:78%
+set of guidelines and we
+want to get compatible results.
+
+00:02:50.333 --> 00:02:52.966 align:middle line:79% position:50% size:73%
+We want to get the same
+results when we test the same
+
+00:02:53.033 --> 00:02:56.666 align:middle line:79% position:50% size:65%
+things, right, no matter
+how we actually test them.
+
+00:02:58.800 --> 00:03:01.433 align:middle line:79% position:50% size:63%
+And so, this was really
+the focus of the project,
+
+00:03:01.500 --> 00:03:04.266 align:middle line:79% position:50% size:50%
+to look at what we
+call ACT test rules,
+
+00:03:04.333 --> 00:03:07.733 align:middle line:79% position:50% size:65%
+Accessibility
+Conformance Testing rules.
+
+00:03:07.800 --> 00:03:11.766 align:middle line:79% position:50% size:50%
+The point is these
+are very, very small
+
+00:03:11.833 --> 00:03:14.699 align:middle line:79% position:50% size:55%
+procedures for testing
+that can be combined
+
+00:03:14.766 --> 00:03:16.966 align:middle line:79% position:50% size:60%
+together for
+different methodologies.
+
+00:03:17.033 --> 00:03:19.733 align:middle line:79% position:50% size:53%
+And methodologies
+here is a broad term.
+
+00:03:19.800 --> 00:03:23.000 align:middle line:79% position:50% size:53%
+It could be automated
+tools or anything.
+
+00:03:23.066 --> 00:03:26.400 align:middle line:79% position:50% size:58%
+Any procedure that
+you follow for manually
+
+00:03:26.466 --> 00:03:29.033 align:middle line:79% position:50% size:50%
+checking, this is a
+methodology as well.
+
+00:03:29.099 --> 00:03:31.266 align:middle line:79% position:50% size:65%
+So, really, anything
+that encodes how you check
+
+00:03:31.333 --> 00:03:33.433 align:middle line:79% position:50% size:43%
+accessibility
+is a methodology.
+
+00:03:33.500 --> 00:03:34.333 align:middle line:85% position:50% size:48%
+It could be manual.
+
+00:03:34.400 --> 00:03:35.433 align:middle line:85% position:50% size:55%
+It could be automated.
+
+00:03:35.500 --> 00:03:39.933 align:middle line:79% position:50% size:80%
+It could be a combination,
+semi-automated, so a combination
+
+00:03:40.000 --> 00:03:44.333 align:middle line:79% position:50% size:75%
+of automated and non-automated
+approaches together.
+
+00:03:44.400 --> 00:03:48.066 align:middle line:79% position:50% size:63%
+So, if we have very small
+building blocks, and they
+
+00:03:48.133 --> 00:03:51.800 align:middle line:79% position:50% size:65%
+are depicted here as these
+small boxes, these small
+
+00:03:51.866 --> 00:03:55.400 align:middle line:79% position:50% size:65%
+squares, very, very small,
+like Lego pieces, we can
+
+00:03:55.466 --> 00:03:58.900 align:middle line:79% position:50% size:55%
+combine these together
+to provide different
+
+00:03:58.966 --> 00:04:02.699 align:middle line:79% position:50% size:65%
+methodologies but at the
+end of the day, if we test
+
+00:04:02.766 --> 00:04:05.533 align:middle line:79% position:50% size:58%
+the same thing, we want
+to get the same result.
+
+00:04:05.599 --> 00:04:08.766 align:middle line:79% position:50% size:65%
+So, that's really the
+objective or the vision of
+
+00:04:08.833 --> 00:04:11.500 align:middle line:79% position:50% size:65%
+the project is to try to
+get consistency because we
+
+00:04:11.566 --> 00:04:14.900 align:middle line:79% position:50% size:60%
+know that one of the big
+issues of accessibility
+
+00:04:14.966 --> 00:04:17.933 align:middle line:79% position:50% size:65%
+right now is that we don't
+have that consistency.
+
+00:04:18.000 --> 00:04:20.566 align:middle line:79% position:50% size:58%
+We have different tools
+that provide different
+
+00:04:20.633 --> 00:04:23.199 align:middle line:79% position:50% size:50%
+results or different
+evaluation methods.
+
+00:04:23.266 --> 00:04:26.100 align:middle line:79% position:50% size:65%
+So, you go to one person
+and you get one result and
+
+00:04:26.166 --> 00:04:28.566 align:middle line:79% position:50% size:65%
+then sometimes you can get
+slightly different results
+
+00:04:28.633 --> 00:04:30.899 align:middle line:79% position:50% size:65%
+when you go to a different
+person to get it checked.
+
+00:04:30.966 --> 00:04:33.433 align:middle line:79% position:50% size:60%
+That's a big problem for
+accessibility that we're
+
+00:04:33.500 --> 00:04:36.466 align:middle line:79% position:50% size:80%
+trying to address to have
+more consistency of how we test.
+
+00:04:39.000 --> 00:04:43.500 align:middle line:79% position:50% size:65%
+Another objective of the
+project, by defining these
+
+00:04:43.566 --> 00:04:45.933 align:middle line:79% position:50% size:60%
+checks and finally
+agreeing on them and not
+
+00:04:46.000 --> 00:04:49.733 align:middle line:79% position:50% size:53%
+having to constantly
+re-repeat how we test
+
+00:04:49.800 --> 00:04:53.266 align:middle line:79% position:50% size:63%
+certain things, how do we
+test the text alternative
+
+00:04:53.333 --> 00:04:55.199 align:middle line:79% position:50% size:38%
+or how do we
+test the label.
+
+00:04:55.266 --> 00:04:57.833 align:middle line:79% position:50% size:60%
+If we can finally decide
+and agree on a common
+
+00:04:57.899 --> 00:05:00.433 align:middle line:79% position:50% size:55%
+interpretation for
+these checks, maybe we
+
+00:05:00.500 --> 00:05:02.933 align:middle line:79% position:50% size:48%
+can increase
+automation in that.
+
+00:05:03.000 --> 00:05:06.000 align:middle line:79% position:50% size:58%
+Right now, a very large
+part of accessibility
+
+00:05:06.066 --> 00:05:07.300 align:middle line:79% position:50% size:40%
+needs to be
+tested manually.
+
+00:05:07.366 --> 00:05:10.466 align:middle line:79% position:50% size:75%
+But we also know that
+there is a lot of advancements
+
+00:05:10.533 --> 00:05:12.566 align:middle line:85% position:50% size:70%
+happening in the technology.
+
+00:05:12.633 --> 00:05:16.633 align:middle line:79% position:50% size:58%
+Buzzwords, artificial
+intelligence or machine
+
+00:05:16.699 --> 00:05:19.566 align:middle line:79% position:50% size:50%
+learning, natural
+language processing.
+
+00:05:19.633 --> 00:05:23.466 align:middle line:79% position:50% size:65%
+All of these technologies
+are evolving, all of these
+
+00:05:23.533 --> 00:05:25.533 align:middle line:79% position:50% size:58%
+innovations that would
+essentially allow us to
+
+00:05:25.600 --> 00:05:27.766 align:middle line:79% position:50% size:50%
+increase the
+level of automation.
+
+00:05:27.833 --> 00:05:29.600 align:middle line:79% position:50% size:53%
+It doesn't mean that
+accessibility will be
+
+00:05:29.666 --> 00:05:32.800 align:middle line:79% position:50% size:60%
+fully automatable, at
+least in the foreseeable
+
+00:05:32.866 --> 00:05:36.500 align:middle line:79% position:50% size:58%
+future, but at least we
+can maybe increase the
+
+00:05:36.566 --> 00:05:40.266 align:middle line:79% position:50% size:55%
+amount of tool support
+which would be - would
+
+00:05:40.333 --> 00:05:42.666 align:middle line:79% position:50% size:58%
+make things much more
+effective and much more
+
+00:05:42.733 --> 00:05:47.633 align:middle line:79% position:50% size:70%
+efficient if we can increase
+this level of automation.
+
+00:05:47.699 --> 00:05:50.100 align:middle line:79% position:50% size:60%
+So, these are really the
+objectives or the core
+
+00:05:50.166 --> 00:05:51.699 align:middle line:85% position:50% size:55%
+pieces of the project.
+
+00:05:51.766 --> 00:05:54.800 align:middle line:79% position:50% size:65%
+The deliverables of the
+project, which we're going
+
+00:05:54.866 --> 00:05:57.533 align:middle line:79% position:50% size:63%
+to go into more detail,
+but hopefully from a more
+
+00:05:57.600 --> 00:06:01.766 align:middle line:79% position:50% size:63%
+applied side, is the main
+part of the project, the
+
+00:06:01.833 --> 00:06:05.899 align:middle line:79% position:50% size:63%
+heart piece is to develop
+Accessibility Conformance
+
+00:06:05.966 --> 00:06:07.633 align:middle line:85% position:50% size:53%
+Testing rules, right.
+
+00:06:07.699 --> 00:06:10.100 align:middle line:79% position:50% size:60%
+So, this is to create an
+initial set hopefully to
+
+00:06:10.166 --> 00:06:14.066 align:middle line:79% position:50% size:60%
+get the work in the
+community kickstarted to
+
+00:06:14.133 --> 00:06:16.466 align:middle line:79% position:50% size:53%
+help establish an
+active community that
+
+00:06:16.533 --> 00:06:20.133 align:middle line:79% position:50% size:48%
+will sustain
+beyond the project.
+
+00:06:20.199 --> 00:06:24.866 align:middle line:79% position:50% size:65%
+So, this is a call on -
+call for action for you to
+
+00:06:24.933 --> 00:06:27.333 align:middle line:79% position:50% size:58%
+get involved in this
+work that will continue
+
+00:06:27.399 --> 00:06:29.466 align:middle line:85% position:50% size:48%
+beyond the project.
+
+00:06:29.533 --> 00:06:33.600 align:middle line:79% position:50% size:65%
+We implemented these
+rules that we developed in
+
+00:06:33.666 --> 00:06:36.300 align:middle line:79% position:50% size:58%
+different tools from
+project partners in the
+
+00:06:36.366 --> 00:06:41.100 align:middle line:79% position:50% size:65%
+project, here specifically
+the partners Siteimprove
+
+00:06:41.166 --> 00:06:47.466 align:middle line:79% position:50% size:58%
+in their checker called
+Alfa, in Deque in their
+
+00:06:47.533 --> 00:06:52.166 align:middle line:79% position:50% size:60%
+checker called Axe-core,
+and in - a tool from the
+
+00:06:52.233 --> 00:06:56.300 align:middle line:79% position:50% size:63%
+University of Lisbon in
+a checker called QualWeb.
+
+00:06:56.366 --> 00:06:59.933 align:middle line:79% position:50% size:75%
+And we also validated these
+rules in real-life situations.
+
+00:07:00.000 --> 00:07:02.833 align:middle line:79% position:50% size:60%
+We had a set of websites
+that we took and that we
+
+00:07:02.899 --> 00:07:05.600 align:middle line:85% position:50% size:58%
+ran these rules across.
+
+00:07:05.666 --> 00:07:09.133 align:middle line:79% position:50% size:65%
+Now, these rules were
+applied in different ways,
+
+00:07:09.199 --> 00:07:13.800 align:middle line:79% position:50% size:65%
+were test-driven, or were
+taken up by the Portuguese
+
+00:07:13.866 --> 00:07:15.333 align:middle line:79% position:50% size:35%
+and Norwegian
+observatories.
+
+00:07:15.399 --> 00:07:18.133 align:middle line:79% position:50% size:63%
+These were part of the
+project to kind of really
+
+00:07:18.199 --> 00:07:22.600 align:middle line:79% position:50% size:68%
+ground us and look at when
+entire countries want to do
+
+00:07:22.666 --> 00:07:25.666 align:middle line:79% position:50% size:55%
+large scale monitoring
+of accessibility, what
+
+00:07:25.733 --> 00:07:26.433 align:middle line:85% position:50% size:40%
+are their needs?
+
+00:07:26.500 --> 00:07:27.600 align:middle line:79% position:50% size:40%
+What can we
+learn from that?
+
+00:07:27.666 --> 00:07:30.666 align:middle line:79% position:50% size:63%
+And how can we provide
+them with different types
+
+00:07:30.733 --> 00:07:33.733 align:middle line:79% position:50% size:50%
+of rules that
+will support getting
+
+00:07:33.800 --> 00:07:36.633 align:middle line:85% position:50% size:65%
+them valuable information?
+
+00:07:36.699 --> 00:07:41.899 align:middle line:79% position:50% size:73%
+We looked at improving the
+existing WCAG-EM Report Tool.
+
+00:07:41.966 --> 00:07:44.199 align:middle line:79% position:50% size:53%
+So, people
+might know that tool.
+
+00:07:44.266 --> 00:07:45.933 align:middle line:85% position:50% size:48%
+It already existed.
+
+00:07:46.000 --> 00:07:49.333 align:middle line:79% position:50% size:58%
+WCAG-EM stands for WCAG
+evaluation methodology.
+
+00:07:49.399 --> 00:07:51.100 align:middle line:79% position:50% size:50%
+It actually has a
+longer name, Website
+
+00:07:51.166 --> 00:07:54.533 align:middle line:79% position:50% size:63%
+Accessibility Conformance
+Evaluation Methodology.
+
+00:07:54.600 --> 00:07:55.600 align:middle line:85% position:50% size:43%
+It's a long name.
+
+00:07:55.666 --> 00:07:59.666 align:middle line:79% position:50% size:63%
+But this is an evaluation
+methodology for WCAG that
+
+00:07:59.733 --> 00:08:02.600 align:middle line:79% position:50% size:53%
+can be used to
+test entire websites.
+
+00:08:02.666 --> 00:08:05.399 align:middle line:79% position:50% size:63%
+And it was a tool to help
+you walk through that and
+
+00:08:05.466 --> 00:08:08.100 align:middle line:79% position:50% size:65%
+now we have added to that
+tool an import function so
+
+00:08:08.166 --> 00:08:11.333 align:middle line:79% position:50% size:60%
+that you can import test
+results from automated
+
+00:08:11.399 --> 00:08:14.166 align:middle line:79% position:50% size:63%
+tools, again here to
+show the idea that we can
+
+00:08:14.233 --> 00:08:18.100 align:middle line:79% position:50% size:58%
+combine automated and
+manual when we're using
+
+00:08:18.166 --> 00:08:21.566 align:middle line:85% position:50% size:50%
+open standards here.
+
+00:08:21.633 --> 00:08:26.566 align:middle line:79% position:50% size:80%
+We also created an accessibility
+statements generator tool.
+
+00:08:26.633 --> 00:08:30.433 align:middle line:79% position:50% size:63%
+So, this helps you create
+accessibility statements
+
+00:08:30.500 --> 00:08:33.500 align:middle line:79% position:50% size:63%
+for your website once you
+have done the testing to
+
+00:08:33.566 --> 00:08:37.166 align:middle line:79% position:50% size:60%
+explain to the world the
+accessibility that you
+
+00:08:37.233 --> 00:08:39.366 align:middle line:85% position:50% size:53%
+have on your website.
+
+00:08:39.433 --> 00:08:44.500 align:middle line:79% position:50% size:63%
+And last but not least, a
+demo, a proof of concept
+
+00:08:44.566 --> 00:08:47.466 align:middle line:79% position:50% size:58%
+to show, to demonstrate
+the potential of open
+
+00:08:47.533 --> 00:08:49.700 align:middle line:79% position:50% size:45%
+linked data
+for accessibility.
+
+00:08:49.766 --> 00:08:54.600 align:middle line:79% position:50% size:63%
+So, what if - right -
+what if we had these test
+
+00:08:54.666 --> 00:08:59.100 align:middle line:79% position:50% size:60%
+results being published,
+at least those by public
+
+00:08:59.166 --> 00:09:01.200 align:middle line:79% position:50% size:65%
+bodies, and we could
+connect these and we could
+
+00:09:01.266 --> 00:09:03.600 align:middle line:79% position:50% size:63%
+scrape these and we
+could do a more active or
+
+00:09:03.666 --> 00:09:07.533 align:middle line:79% position:50% size:50%
+decentralized
+monitoring approach?
+
+00:09:07.600 --> 00:09:09.399 align:middle line:79% position:50% size:53%
+So, these are the
+project deliverables.
+
+00:09:09.466 --> 00:09:12.733 align:middle line:79% position:50% size:45%
+More information
+is on the website.
+
+00:09:12.799 --> 00:09:17.366 align:middle line:79% position:50% size:63%
+We will provide you these
+links at the end again so
+
+00:09:17.433 --> 00:09:20.766 align:middle line:79% position:50% size:58%
+you don't need to start
+looking at the links.
+
+00:09:20.833 --> 00:09:27.100 align:middle line:79% position:50% size:43%
+The address is
+w3.org/WAI/Tools.
+
+00:09:27.166 --> 00:09:30.000 align:middle line:79% position:50% size:63%
+That is the project page
+for the WAI-Tools Project
+
+00:09:30.066 --> 00:09:32.666 align:middle line:79% position:50% size:60%
+and you can find here
+further information, all
+
+00:09:32.733 --> 00:09:36.000 align:middle line:79% position:50% size:58%
+the resources, all the
+deliverables, including
+
+00:09:36.066 --> 00:09:39.600 align:middle line:79% position:50% size:65%
+this open meeting with
+the slides online as well.

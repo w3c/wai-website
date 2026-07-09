@@ -1,0 +1,885 @@
+WEBVTT
+
+00:00:02.266 --> 00:00:03.233 align:middle line:79% position:50% size:43%
+&gt;&gt; CARLOS DUARTE:
+All right.
+
+00:00:03.299 --> 00:00:12.400 align:middle line:79% position:50% size:75%
+So as Shadi mentioned, earlier
+in the project we tried to
+
+00:00:12.466 --> 00:00:19.033 align:middle line:79% position:50% size:68%
+think of ways that we could
+use all the data that might
+
+00:00:19.100 --> 00:00:22.766 align:middle line:79% position:50% size:75%
+come out of tools that
+implementation rules and other
+
+00:00:22.833 --> 00:00:29.000 align:middle line:79% position:50% size:73%
+open data formats, and it was
+one of our goals to propose a
+
+00:00:29.066 --> 00:00:33.466 align:middle line:79% position:50% size:73%
+prototype that could show how
+we could browse the large
+
+00:00:33.533 --> 00:00:38.166 align:middle line:79% position:50% size:75%
+amounts of accessibility
+testing data that might become
+
+00:00:38.233 --> 00:00:40.933 align:middle line:85% position:50% size:68%
+available in such a future.
+
+00:00:41.000 --> 00:00:50.533 align:middle line:79% position:50% size:73%
+So for this, we tried to look
+at this from the perspective
+
+00:00:50.600 --> 00:00:55.833 align:middle line:79% position:50% size:75%
+of someone that's responsible
+for monitoring efforts, and so
+
+00:00:55.899 --> 00:01:00.100 align:middle line:79% position:50% size:75%
+we asked ourselves: How can we
+leverage the support of open
+
+00:01:00.166 --> 00:01:04.733 align:middle line:79% position:50% size:45%
+data for those
+monitoring bodies?
+
+00:01:04.799 --> 00:01:07.866 align:middle line:79% position:50% size:48%
+And we came up with
+this prototype, and
+
+00:01:07.933 --> 00:01:10.799 align:middle line:85% position:50% size:45%
+we emphasize this.
+
+00:01:10.866 --> 00:01:13.166 align:middle line:85% position:50% size:45%
+It is a prototype.
+
+00:01:13.233 --> 00:01:17.200 align:middle line:79% position:50% size:63%
+It's not something that's
+production ready, but we
+
+00:01:17.266 --> 00:01:23.200 align:middle line:79% position:50% size:75%
+developed this as a way to
+support future explorations of
+
+00:01:23.266 --> 00:01:28.400 align:middle line:85% position:50% size:68%
+what can such a tool offer.
+
+00:01:28.466 --> 00:01:34.466 align:middle line:79% position:50% size:73%
+So let me start by addressing
+what types of data did we
+
+00:01:34.533 --> 00:01:37.599 align:middle line:85% position:50% size:70%
+consider for this prototype.
+
+00:01:37.666 --> 00:01:41.666 align:middle line:79% position:50% size:70%
+So to begin with, we need to
+get data from somewhere, and
+
+00:01:41.733 --> 00:01:44.333 align:middle line:79% position:50% size:40%
+we can see there
+are two sources.
+
+00:01:44.400 --> 00:01:47.933 align:middle line:79% position:50% size:65%
+First, the accessibility
+evaluation reports that we
+
+00:01:48.000 --> 00:01:50.400 align:middle line:85% position:50% size:58%
+have been listening to.
+
+00:01:50.466 --> 00:01:56.233 align:middle line:79% position:50% size:75%
+So these evaluation reports
+are written using EARL so that
+
+00:01:56.299 --> 00:01:58.200 align:middle line:85% position:50% size:48%
+we can import them.
+
+00:01:58.266 --> 00:02:05.466 align:middle line:79% position:50% size:73%
+So something that's an output
+of an Axe evaluation and Alfa
+
+00:02:05.533 --> 00:02:09.866 align:middle line:79% position:50% size:75%
+evaluation or a QualWeb
+evaluation, all tools that can
+
+00:02:09.933 --> 00:02:13.233 align:middle line:79% position:50% size:60%
+output their evaluation
+reports in EARL we could
+
+00:02:13.300 --> 00:02:17.599 align:middle line:85% position:50% size:70%
+import that to this browser.
+
+00:02:17.666 --> 00:02:20.800 align:middle line:79% position:50% size:63%
+And, second, all the
+accessibility statements.
+
+00:02:20.866 --> 00:02:26.466 align:middle line:79% position:50% size:73%
+We included statements that
+use the open format, both the
+
+00:02:26.533 --> 00:02:29.800 align:middle line:79% position:50% size:75%
+one that Eric just presented
+and that was developed as part
+
+00:02:29.866 --> 00:02:32.833 align:middle line:79% position:50% size:60%
+of the project, but also
+the one that we adapted
+
+00:02:32.900 --> 00:02:34.733 align:middle line:85% position:50% size:58%
+to be used in Portugal.
+
+00:02:34.800 --> 00:02:40.400 align:middle line:79% position:50% size:55%
+And from both of these
+sources, we collect an
+
+00:02:40.466 --> 00:02:42.166 align:middle line:85% position:50% size:70%
+interesting variety of data.
+
+00:02:42.233 --> 00:02:48.166 align:middle line:79% position:50% size:60%
+So we extract from these
+sources data on success
+
+00:02:48.233 --> 00:02:54.000 align:middle line:79% position:50% size:75%
+criteria, on the elements that
+have been assessed on the ACT
+
+00:02:54.066 --> 00:02:59.766 align:middle line:79% position:50% size:73%
+rules that were used to check
+if the tool uses ACT rules,
+
+00:02:59.833 --> 00:03:02.833 align:middle line:79% position:50% size:68%
+the assertions that
+were made, and the outcomes
+
+00:03:02.900 --> 00:03:04.800 align:middle line:85% position:50% size:50%
+of those assertions.
+
+00:03:04.866 --> 00:03:08.466 align:middle line:79% position:50% size:70%
+And so that we can browse
+this, we have also added the
+
+00:03:08.533 --> 00:03:13.000 align:middle line:79% position:50% size:75%
+five -- a set of metadata that
+can be used to categorize and
+
+00:03:13.066 --> 00:03:15.266 align:middle line:85% position:50% size:73%
+support this evaluation data.
+
+00:03:15.333 --> 00:03:19.766 align:middle line:79% position:50% size:58%
+So here we can see the
+continent, country, the
+
+00:03:19.833 --> 00:03:23.966 align:middle line:79% position:50% size:65%
+category of the website or
+the mobile app owner.
+
+00:03:24.033 --> 00:03:28.233 align:middle line:79% position:50% size:63%
+So if it's a private or a
+public entity, the sector
+
+00:03:28.300 --> 00:03:35.533 align:middle line:79% position:50% size:73%
+where the entity operates in,
+and even what evaluation tool
+
+00:03:35.599 --> 00:03:40.666 align:middle line:79% position:50% size:48%
+it was used to
+produce the report.
+
+00:03:40.733 --> 00:03:47.433 align:middle line:79% position:50% size:68%
+And we in the tool designed
+a number of visualizations.
+
+00:03:47.500 --> 00:03:51.533 align:middle line:79% position:50% size:73%
+So you will be able to see --
+we'll do a short
+
+00:03:51.599 --> 00:03:54.133 align:middle line:85% position:50% size:53%
+demo after the slide.
+
+00:03:54.199 --> 00:03:58.699 align:middle line:79% position:50% size:73%
+So most data is presented
+using bar charts with -- that
+
+00:03:58.766 --> 00:04:04.300 align:middle line:79% position:50% size:73%
+are grouped by the assertions
+or the success criteria.
+
+00:04:04.366 --> 00:04:08.633 align:middle line:79% position:50% size:60%
+We -- besides the bar
+charts, we have a table.
+
+00:04:08.699 --> 00:04:12.300 align:middle line:79% position:50% size:70%
+We provide access to a table
+with the equivalent data of
+
+00:04:12.366 --> 00:04:17.266 align:middle line:79% position:50% size:75%
+the bar charts, but we made an
+effort so that all the charts
+
+00:04:17.333 --> 00:04:23.866 align:middle line:79% position:50% size:75%
+are keyboard navigable, and we
+also include a timeline view
+
+00:04:23.933 --> 00:04:28.000 align:middle line:79% position:50% size:65%
+so that it's easier to get
+this grasping of how the
+
+00:04:28.066 --> 00:04:31.733 align:middle line:79% position:50% size:55%
+different metrics have
+evolved over time.
+
+00:04:31.800 --> 00:04:38.833 align:middle line:79% position:50% size:73%
+And I think it's best to
+illustrate the different ways
+
+00:04:38.899 --> 00:04:43.866 align:middle line:79% position:50% size:68%
+that we can interact with
+the demo, with the data, by
+
+00:04:43.933 --> 00:04:45.500 align:middle line:85% position:50% size:48%
+showing you a demo.
+
+00:04:45.566 --> 00:04:56.733 align:middle line:79% position:50% size:50%
+So let me switch to
+new -- a new window.
+
+00:05:00.366 --> 00:05:01.533 align:middle line:85% position:50% size:13%
+Okay.
+
+00:05:01.600 --> 00:05:10.133 align:middle line:79% position:50% size:73%
+And so now this is the -- the
+initial page that you access
+
+00:05:10.199 --> 00:05:14.266 align:middle line:85% position:50% size:63%
+when you enter this tool.
+
+00:05:14.333 --> 00:05:19.033 align:middle line:79% position:50% size:60%
+Here we have -- let me
+start with a disclaimer.
+
+00:05:19.100 --> 00:05:22.399 align:middle line:79% position:50% size:65%
+All the data that's being
+presented in this demo was
+
+00:05:22.466 --> 00:05:27.300 align:middle line:79% position:50% size:73%
+randomly generated, including
+the name of websites and the
+
+00:05:27.366 --> 00:05:29.633 align:middle line:79% position:50% size:43%
+evaluation tools,
+so everything has
+
+00:05:29.699 --> 00:05:31.733 align:middle line:85% position:50% size:60%
+been randomly generated.
+
+00:05:31.800 --> 00:05:35.333 align:middle line:79% position:50% size:75%
+And the volume of data that we
+have here is representative of
+
+00:05:35.399 --> 00:05:39.399 align:middle line:79% position:50% size:75%
+the number of evaluations that
+a country the size of Portugal
+
+00:05:39.466 --> 00:05:44.433 align:middle line:79% position:50% size:63%
+can expect to have in
+their monitoring process.
+
+00:05:44.500 --> 00:05:49.766 align:middle line:79% position:50% size:68%
+So as I was saying, this is
+the initial visualization.
+
+00:05:49.833 --> 00:05:58.933 align:middle line:79% position:50% size:75%
+You get a chart grouped by
+pages that have been evaluated
+
+00:05:59.000 --> 00:06:02.533 align:middle line:85% position:50% size:65%
+over different continents.
+
+00:06:02.600 --> 00:06:04.533 align:middle line:79% position:50% size:40%
+We start at the
+continent level.
+
+00:06:04.600 --> 00:06:11.899 align:middle line:79% position:50% size:68%
+You can include information
+about the assertions, the
+
+00:06:11.966 --> 00:06:14.600 align:middle line:79% position:50% size:73%
+passed assertions, the failed
+assertions, the ones that the
+
+00:06:14.666 --> 00:06:18.133 align:middle line:79% position:50% size:58%
+tool can't tell if they
+have passed or failed,
+
+00:06:18.199 --> 00:06:21.600 align:middle line:79% position:50% size:55%
+the inapplicable ones,
+and the untested ones.
+
+00:06:21.666 --> 00:06:26.433 align:middle line:79% position:50% size:58%
+So similar to what Eric
+just showed previously.
+
+00:06:26.500 --> 00:06:32.633 align:middle line:79% position:50% size:68%
+You can, instead of showing
+assertions, show the
+
+00:06:32.699 --> 00:06:34.899 align:middle line:79% position:50% size:50%
+information based
+on success criteria.
+
+00:06:34.966 --> 00:06:37.866 align:middle line:79% position:50% size:63%
+So passed, fail,
+can't tell, inapplicable,
+
+00:06:37.933 --> 00:06:41.199 align:middle line:85% position:50% size:55%
+and untested criteria.
+
+00:06:41.266 --> 00:06:48.766 align:middle line:79% position:50% size:73%
+And let me go back to
+assertions and move this Zoom
+
+00:06:48.833 --> 00:06:55.666 align:middle line:79% position:50% size:68%
+window to another place
+and show you the data table
+
+00:06:55.733 --> 00:06:58.133 align:middle line:85% position:50% size:33%
+that we have.
+
+00:06:58.199 --> 00:07:01.766 align:middle line:79% position:50% size:75%
+Basically, the same data that
+you have in the bar charts can
+
+00:07:01.833 --> 00:07:06.066 align:middle line:79% position:50% size:48%
+be presented in
+the tabular format.
+
+00:07:06.133 --> 00:07:07.399 align:middle line:85% position:50% size:13%
+Okay.
+
+00:07:07.466 --> 00:07:10.000 align:middle line:79% position:50% size:70%
+So if you want to see data
+grouped by country, you just
+
+00:07:10.066 --> 00:07:15.066 align:middle line:85% position:50% size:65%
+pick that on that sidebar.
+
+00:07:15.133 --> 00:07:19.833 align:middle line:79% position:50% size:68%
+And now that's -- instead
+of just seeing, okay, like,
+
+00:07:19.899 --> 00:07:22.300 align:middle line:79% position:50% size:68%
+seeing everything on the
+sector page, I just want to
+
+00:07:22.366 --> 00:07:27.633 align:middle line:79% position:50% size:73%
+know information about the
+two -- the testability of the
+
+00:07:27.699 --> 00:07:29.866 align:middle line:79% position:50% size:55%
+private and public
+sectors in the British
+
+00:07:29.933 --> 00:07:31.833 align:middle line:85% position:50% size:58%
+Indian Ocean territory.
+
+00:07:31.899 --> 00:07:38.466 align:middle line:79% position:50% size:75%
+So I just select that bar, and
+I can drill down on sector
+
+00:07:38.533 --> 00:07:44.699 align:middle line:79% position:50% size:60%
+information on the model
+window that shows up.
+
+00:07:44.766 --> 00:07:52.766 align:middle line:79% position:50% size:75%
+And now I have the information
+about just the British Indian
+
+00:07:52.833 --> 00:07:57.266 align:middle line:79% position:50% size:65%
+Ocean territory grouped by
+private sector and public
+
+00:07:57.333 --> 00:08:00.500 align:middle line:79% position:50% size:43%
+sector, and I
+can compare that.
+
+00:08:00.566 --> 00:08:04.533 align:middle line:79% position:50% size:63%
+So if I want to see all
+data about sectors, I can
+
+00:08:04.600 --> 00:08:05.866 align:middle line:85% position:50% size:43%
+just press there.
+
+00:08:05.933 --> 00:08:10.866 align:middle line:79% position:50% size:70%
+And I see, okay, I have over
+4,000 pages on the private
+
+00:08:10.933 --> 00:08:16.966 align:middle line:79% position:50% size:68%
+sector and over 3,000
+pages on the public sector.
+
+00:08:17.033 --> 00:08:22.399 align:middle line:79% position:50% size:68%
+And now let's say I want to
+compare data of the public
+
+00:08:22.466 --> 00:08:24.833 align:middle line:79% position:50% size:48%
+sector onto
+specific countries.
+
+00:08:24.899 --> 00:08:31.066 align:middle line:79% position:50% size:75%
+So instead of drilling down, I
+want to group by this -- a way
+
+00:08:31.133 --> 00:08:34.466 align:middle line:79% position:50% size:68%
+to group this kind of data
+using another category and,
+
+00:08:34.533 --> 00:08:39.033 align:middle line:79% position:50% size:58%
+say, okay, let me group
+this, for instance,
+
+00:08:39.100 --> 00:08:40.933 align:middle line:85% position:50% size:55%
+France and Luxembourg.
+
+00:08:41.000 --> 00:08:42.200 align:middle line:85% position:50% size:13%
+Okay.
+
+00:08:42.266 --> 00:08:49.366 align:middle line:79% position:50% size:70%
+So I can now see the data on
+public sector bodies only.
+
+00:08:49.433 --> 00:08:53.433 align:middle line:79% position:50% size:63%
+So we're comparing sector
+public grouped by two
+
+00:08:53.500 --> 00:08:55.966 align:middle line:79% position:50% size:43%
+countries, France
+and Luxembourg.
+
+00:08:56.033 --> 00:09:01.433 align:middle line:79% position:50% size:63%
+And in this visualization
+I can have them both at
+
+00:09:01.500 --> 00:09:03.500 align:middle line:85% position:50% size:35%
+the same time.
+
+00:09:03.566 --> 00:09:06.033 align:middle line:79% position:50% size:43%
+Let me move
+to another class.
+
+00:09:06.100 --> 00:09:07.566 align:middle line:85% position:50% size:28%
+Let me see.
+
+00:09:07.633 --> 00:09:10.833 align:middle line:85% position:50% size:75%
+We can see tags or categories.
+
+00:09:10.899 --> 00:09:14.766 align:middle line:79% position:50% size:58%
+Here we have, once
+again, randomized data.
+
+00:09:14.833 --> 00:09:20.533 align:middle line:79% position:50% size:73%
+Don't forget if I want to see
+how health -- how the health
+
+00:09:20.600 --> 00:09:24.666 align:middle line:79% position:50% size:73%
+sector has been doing over
+time, I can just, once again,
+
+00:09:24.733 --> 00:09:30.000 align:middle line:85% position:50% size:75%
+select this on the bar charts.
+
+00:09:30.066 --> 00:09:31.566 align:middle line:85% position:50% size:15%
+Sorry.
+
+00:09:31.633 --> 00:09:34.899 align:middle line:79% position:50% size:65%
+And then I can go and do
+-- and select the timeline
+
+00:09:34.966 --> 00:09:40.733 align:middle line:79% position:50% size:68%
+option, which will show me
+for every month that I have
+
+00:09:40.799 --> 00:09:48.700 align:middle line:79% position:50% size:70%
+collected data on this -- on
+websites or mobile apps that
+
+00:09:48.766 --> 00:09:55.299 align:middle line:79% position:50% size:68%
+have been tagged as health,
+I can see the data here.
+
+00:09:55.366 --> 00:10:00.033 align:middle line:79% position:50% size:75%
+Let me go back to tag and show
+you how I can compare, for
+
+00:10:00.100 --> 00:10:04.299 align:middle line:79% position:50% size:70%
+instance, data on the health
+and the media sector.
+
+00:10:04.366 --> 00:10:08.766 align:middle line:79% position:50% size:70%
+So here I can use the
+comparison and health, which
+
+00:10:08.833 --> 00:10:11.566 align:middle line:79% position:50% size:50%
+is the one that I've
+selected it already.
+
+00:10:11.633 --> 00:10:12.899 align:middle line:85% position:50% size:50%
+Previously selected.
+
+00:10:12.966 --> 00:10:16.299 align:middle line:79% position:50% size:75%
+And now I can also select
+media, and the comparison page
+
+00:10:16.366 --> 00:10:20.000 align:middle line:79% position:50% size:75%
+will show me, okay, the number
+of pages that have been
+
+00:10:20.066 --> 00:10:22.799 align:middle line:79% position:50% size:75%
+evaluated and the passed
+assertions, failed assertions,
+
+00:10:22.866 --> 00:10:24.500 align:middle line:79% position:50% size:65%
+can't tell assertions,
+inapplicable, and untested
+
+00:10:24.566 --> 00:10:28.633 align:middle line:79% position:50% size:68%
+assertions for both sectors
+side by side so that I
+
+00:10:28.700 --> 00:10:32.266 align:middle line:85% position:50% size:43%
+can compare them.
+
+00:10:32.333 --> 00:10:37.100 align:middle line:79% position:50% size:48%
+Let me just present
+one more feature.
+
+00:10:37.166 --> 00:10:39.833 align:middle line:79% position:50% size:58%
+If I go -- this is
+specific at this level.
+
+00:10:39.899 --> 00:10:44.700 align:middle line:79% position:50% size:65%
+If I go to the application
+website and I change my
+
+00:10:44.766 --> 00:10:48.133 align:middle line:79% position:50% size:63%
+visualization from the
+assertions to the success
+
+00:10:48.200 --> 00:10:54.500 align:middle line:79% position:50% size:68%
+criteria, now I can have
+access to specific tests of
+
+00:10:54.566 --> 00:10:57.466 align:middle line:79% position:50% size:53%
+each success criteria
+for one application.
+
+00:10:57.533 --> 00:11:04.366 align:middle line:79% position:50% size:75%
+So we can see here for the
+front applications of the fair
+
+00:11:04.433 --> 00:11:07.600 align:middle line:79% position:50% size:63%
+success criteria, and I'm
+going to select here this
+
+00:11:07.666 --> 00:11:10.100 align:middle line:79% position:50% size:45%
+application or
+website, whatever.
+
+00:11:10.166 --> 00:11:13.799 align:middle line:79% position:50% size:73%
+And I have this -- it's only
+in this view that I have this
+
+00:11:13.866 --> 00:11:16.299 align:middle line:79% position:50% size:40%
+option here, the
+Details option.
+
+00:11:16.366 --> 00:11:20.500 align:middle line:79% position:50% size:73%
+So if I go to the Details
+page, now I have -- okay, for
+
+00:11:20.566 --> 00:11:23.733 align:middle line:79% position:50% size:75%
+this application or website, I
+know that passed the success
+
+00:11:23.799 --> 00:11:27.733 align:middle line:79% position:50% size:70%
+criteria, and I can see the
+different tests that tell me
+
+00:11:27.799 --> 00:11:31.366 align:middle line:79% position:50% size:73%
+that, and I see that it
+failed this success criteria.
+
+00:11:31.433 --> 00:11:33.500 align:middle line:79% position:50% size:58%
+And, once again, I have
+access to the different
+
+00:11:33.566 --> 00:11:35.766 align:middle line:85% position:50% size:53%
+tests where it fails.
+
+00:11:35.833 --> 00:11:42.333 align:middle line:79% position:50% size:75%
+So we can, in fact, go all the
+way up from a grouping of the
+
+00:11:42.399 --> 00:11:51.399 align:middle line:79% position:50% size:75%
+data by continent to specific
+assertions of one application.
+
+00:11:51.466 --> 00:11:57.833 align:middle line:79% position:50% size:65%
+So this shows us the range
+that we can have just by
+
+00:11:57.899 --> 00:12:03.299 align:middle line:79% position:50% size:70%
+visualizing data that's made
+available from this --
+
+00:12:03.366 --> 00:12:05.366 align:middle line:85% position:50% size:43%
+from these tools.
+
+00:12:05.433 --> 00:12:10.433 align:middle line:79% position:50% size:60%
+So let me go back to the
+slides and just -- I've
+
+00:12:10.500 --> 00:12:13.666 align:middle line:85% position:50% size:63%
+finished my presentation.
+
+00:12:13.733 --> 00:12:17.933 align:middle line:85% position:50% size:75%
+So all of this is open source.
+
+00:12:18.000 --> 00:12:22.466 align:middle line:85% position:50% size:70%
+You can play with this demo.
+
+00:12:22.533 --> 00:12:23.733 align:middle line:85% position:50% size:43%
+It's available at
+
+00:12:23.799 --> 00:12:37.133 align:middle line:79% position:50% size:60%
+www.qualweb.di.fc.ul.pt/
+placm/test.
+
+00:12:37.200 --> 00:12:42.866 align:middle line:79% position:50% size:75%
+The source code will be really
+soon available at this rep.
+
+00:12:42.933 --> 00:12:44.833 align:middle line:79% position:50% size:65%
+It's not there yet because
+we're moving this to a
+
+00:12:44.899 --> 00:12:50.766 align:middle line:79% position:50% size:60%
+dedicated repository for
+this -- for these tools.
+
+00:12:50.833 --> 00:12:58.799 align:middle line:79% position:50% size:75%
+So you will be able to find it
+at GitHub.com/carlosapaduarte.
+
+00:12:58.866 --> 00:12:59.733 align:middle line:85% position:50% size:23%
+That's --
+
+00:12:59.799 --> 00:13:10.000 align:middle line:79% position:50% size:80%
+C-A-R-L-O-S-A-P-A-D-U-A-R-T-E/pl
+acm. Okay?
+
+00:13:10.066 --> 00:13:13.966 align:middle line:79% position:50% size:73%
+And if you have any questions
+or any problems getting this
+
+00:13:14.033 --> 00:13:17.033 align:middle line:79% position:50% size:48%
+to run, you can get
+in touch with me at
+
+00:13:17.100 --> 00:13:24.566 align:middle line:85% position:50% size:55%
+caduarte@campus.ul.pt.
+
+00:13:24.633 --> 00:13:26.933 align:middle line:85% position:50% size:35%
+And thank you.
+
+00:13:27.000 --> 00:13:29.233 align:middle line:79% position:50% size:60%
+I think I've gone a
+little bit over my time.
+
+00:13:29.299 --> 00:13:31.700 align:middle line:85% position:50% size:55%
+Sorry for that, Shadi.
+
+00:13:31.766 --> 00:13:33.000 align:middle line:79% position:50% size:60%
+&gt;&gt; SHADI ABOU-ZAHRA: No.
+You're spot on.
+
+00:13:33.066 --> 00:13:34.200 align:middle line:85% position:50% size:45%
+Thank you, Carlos.
+
+00:13:34.266 --> 00:13:38.833 align:middle line:79% position:50% size:68%
+And as I told folks earlier
+on, this is a bit more
+
+00:13:38.899 --> 00:13:40.166 align:middle line:85% position:50% size:45%
+aspirational part.
+
+00:13:40.233 --> 00:13:45.000 align:middle line:79% position:50% size:70%
+So just to recap, we looked
+at, you know, in the morning
+
+00:13:45.066 --> 00:13:49.566 align:middle line:79% position:50% size:73%
+of these many, many small
+rules, right, that test very,
+
+00:13:49.633 --> 00:13:51.866 align:middle line:85% position:50% size:50%
+very specific parts.
+
+00:13:51.933 --> 00:13:54.866 align:middle line:79% position:50% size:60%
+And we looked at
+so-called implementation
+
+00:13:54.933 --> 00:13:56.166 align:middle line:85% position:50% size:45%
+reports for these.
+
+00:13:56.233 --> 00:13:58.566 align:middle line:79% position:50% size:55%
+So how do we collect
+information from these
+
+00:13:58.633 --> 00:14:00.799 align:middle line:79% position:50% size:48%
+different rules and
+the tools and the
+
+00:14:00.866 --> 00:14:02.866 align:middle line:85% position:50% size:65%
+methodologies implemented?
+
+00:14:02.933 --> 00:14:07.466 align:middle line:79% position:50% size:70%
+And then if we can aggregate
+that on a, say, monitoring
+
+00:14:07.533 --> 00:14:11.899 align:middle line:79% position:50% size:73%
+body level or, you know, even
+more widely, can we collect
+
+00:14:11.966 --> 00:14:15.566 align:middle line:79% position:50% size:45%
+all this data, all
+this information?
+
+00:14:15.633 --> 00:14:19.100 align:middle line:79% position:50% size:63%
+I understand this seems a
+bit more futuristic, but,
+
+00:14:19.166 --> 00:14:22.033 align:middle line:79% position:50% size:43%
+you know, why not
+think about that.
+
+00:14:22.100 --> 00:14:26.066 align:middle line:79% position:50% size:55%
+Public websites are
+required to be public.
+
+00:14:26.133 --> 00:14:29.799 align:middle line:79% position:50% size:75%
+The monitoring of their
+reports is required to happen.
+
+00:14:29.866 --> 00:14:33.333 align:middle line:79% position:50% size:73%
+If we can provide this open
+data, we can look more -- and
+
+00:14:33.399 --> 00:14:34.966 align:middle line:79% position:50% size:43%
+this is not about
+shaming people.
+
+00:14:35.033 --> 00:14:38.299 align:middle line:79% position:50% size:73%
+This is about analyzing where
+are there issues, which
+
+00:14:38.366 --> 00:14:43.299 align:middle line:79% position:50% size:70%
+particular sectors need more
+support, need more training
+
+00:14:43.366 --> 00:14:48.233 align:middle line:79% position:50% size:75%
+and advocation, and, you know,
+member states or countries or
+
+00:14:48.299 --> 00:14:50.700 align:middle line:85% position:50% size:48%
+even organizations.
+
+00:14:50.766 --> 00:14:54.966 align:middle line:79% position:50% size:75%
+It could be on an organization
+level could use that to
+
+00:14:55.033 --> 00:15:00.233 align:middle line:79% position:50% size:75%
+improve their actions and what
+they're doing to make sure
+
+00:15:00.299 --> 00:15:02.200 align:middle line:85% position:50% size:73%
+accessibility is implemented.
+
+00:15:02.266 --> 00:15:05.633 align:middle line:79% position:50% size:58%
+So the key word here
+is EARL, the evaluation
+
+00:15:05.700 --> 00:15:08.333 align:middle line:85% position:50% size:50%
+and report language.
+
+00:15:08.399 --> 00:15:13.366 align:middle line:79% position:50% size:73%
+This is a format to write
+down test results, basically.
+
+00:15:13.433 --> 00:15:18.399 align:middle line:79% position:50% size:75%
+I'll read out the GitHub URL
+for that, where you can go and
+
+00:15:18.466 --> 00:15:22.633 align:middle line:79% position:50% size:53%
+see that syntax for
+writing such results.
+
+00:15:22.700 --> 00:15:31.566 align:middle line:79% position:50% size:70%
+So it's github.com/w3c/earl,
+E-A-R-L,
+
+00:15:31.633 --> 00:15:35.299 align:middle line:85% position:50% size:78%
+Evaluation And Report Language.
+
+00:15:35.366 --> 00:15:36.966 align:middle line:85% position:50% size:13%
+Okay.
+
+00:15:37.033 --> 00:15:39.266 align:middle line:79% position:50% size:43%
+We had a question
+for you, Carlos.
+
+00:15:39.333 --> 00:15:41.933 align:middle line:79% position:50% size:75%
+My master's student is
+studying the Portuguese public
+
+00:15:42.000 --> 00:15:44.799 align:middle line:79% position:50% size:43%
+libraries website
+accessibility.
+
+00:15:44.866 --> 00:15:47.799 align:middle line:79% position:50% size:65%
+He has full list of public
+libraries' addresses.
+
+00:15:47.866 --> 00:15:51.066 align:middle line:79% position:50% size:75%
+Can he import the list to test
+data browser and do a summary
+
+00:15:51.133 --> 00:15:53.533 align:middle line:85% position:50% size:60%
+analysis of all of them?
+
+00:15:54.899 --> 00:15:58.500 align:middle line:85% position:50% size:63%
+&gt;&gt; CARLOS DUARTE: No. No.
+
+00:15:58.566 --> 00:16:03.899 align:middle line:79% position:50% size:75%
+Because this, too, does not do
+the accessibility evaluation.
+
+00:16:03.966 --> 00:16:10.066 align:middle line:79% position:50% size:73%
+If you have the accessibility
+evaluation of all of those
+
+00:16:10.133 --> 00:16:15.233 align:middle line:79% position:50% size:70%
+libraries in EARL format, as
+Shadi was just mentioning,
+
+00:16:15.299 --> 00:16:23.666 align:middle line:79% position:50% size:75%
+yes, then you can import those
+reports and use this tool to
+
+00:16:23.733 --> 00:16:27.433 align:middle line:79% position:50% size:65%
+go over and do the --
+what kind of analysis that
+
+00:16:27.500 --> 00:16:29.133 align:middle line:85% position:50% size:38%
+you want to do.

@@ -1,0 +1,1 @@
+var translationStrings = {"Expand All Sections": "Afficher toutes les sections","Collapse All Sections": "Réduire toutes les sections","to footnote": "vers la note de bas de page","back to footnote": "retour à la note de bas de page","in text": "dans le texte",};

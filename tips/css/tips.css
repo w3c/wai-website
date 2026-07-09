@@ -1,0 +1,1219 @@
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.8) !important;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    transition: opacity .2s;
+    z-index: 2;
+    display: none
+}
+
+.modal-holder {
+    box-sizing: border-box;
+    background: #efefef;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    overflow: auto !important;
+    padding: 1.5em !important;
+    position: fixed;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    max-height: 80%;
+    top: 10%;
+    left: 15%;
+    z-index: 3
+}
+
+.modal-holder[aria-hidden="true"] {
+    opacity: 0;
+    visibility: hidden
+}
+
+.modal-holder[aria-hidden="false"] {
+    opacity: 1;
+    visibility: visible
+}
+
+.modal-title {
+    margin-top: 0;
+    padding-right: 1.25em
+}
+
+.modal-desc {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    right: .25em;
+    top: .25em;
+    z-index: 2
+}
+
+.btn-close:focus {
+    color: #993300
+}
+
+.font-primary {
+    font-family: "Trebuchet MS", "HelveticaNeue", "Helvetica", "Arial", sans-serif
+}
+
+.font-secondary, #main header .subtitle, #main .contribute .heading {
+    font-family: Georgia, Times, "Times New Roman", serif
+}
+
+.related-issue {
+    display: inline-block;
+    margin: 0.5em 0 0 0;
+    padding: 0.5em 1em;
+    background: #ccffcc
+}
+
+.related-issue i {
+    margin-right: 0.5em
+}
+
+.icon-definitions {
+    display: none
+}
+
+#nav {
+    float: none;
+    width: auto
+}
+#main .tips-grid {
+    margin-left: 0;
+    margin-top: 2em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none
+}
+
+#main .tips-grid li {
+    margin: 0;
+    padding: 0 1em 2em 1em;
+    text-align: center
+}
+
+#main .tips-grid li .fa-li {
+    position: static;
+    font-size: 250%;
+    margin-bottom: 10px;
+    width: auto
+}
+
+@media screen and (min-width: 25em) {
+    #main .tips-grid li {
+        width: 50%
+    }
+}
+
+@media screen and (min-width: 43em) {
+    #main .tips-grid li {
+        width: 25%
+    }
+}
+
+#main .tips-grid li svg {
+    width: 44px;
+    height: 40px
+}
+
+#main .tips-grid li a {
+    display: block;
+    font-size: 105%;
+    margin-bottom: 0.2em;
+    padding-bottom: 0.2em;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    stroke: #003366;
+    fill: #003366
+}
+
+#main .tips-grid li a span {
+    display: block;
+    font-size: 140%
+}
+
+#main .tips-grid li a:visited {
+    color: #003366;
+    stroke: #003366;
+    fill: #003366
+}
+
+#main .tips-grid li a:hover, #main .tips-grid li a:focus {
+    border-bottom: 2px solid #993300;
+    color: #993300;
+    stroke: #993300;
+    fill: #993300
+}
+
+#main .contribute {
+    border: 1px solid #666 !important;
+    background-color: #fff7f0;
+    border-radius: .5em;
+    padding: 1em;
+    margin: 2em auto;
+    width: 60%
+}
+
+#main .contribute .heading {
+    color: #333333 !important;
+    border-bottom: none !important;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+#main .contribute .heading + p {
+    margin-top: 0.5em
+}
+
+#main .contribute .buttons {
+    text-align: center;
+    margin-top: 1em;
+    padding: .5em 0 0;
+    border-top: 1px solid #ccc;
+    line-height: 300%
+}
+
+.index #main .contribute {
+    margin-top: 8em
+}
+
+#main .btn, #main .btn-primary, #main .btn-small {
+    background: linear-gradient(to bottom, #e6e6e6, #ccc);
+    color: #333;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 244.44444%;
+    padding: .5em .75em;
+    text-decoration: none;
+    white-space: nowrap;
+    border-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: .25em
+}
+
+#main .btn:hover, #main .btn-primary:hover, #main .btn-small:hover,
+#main .btn:focus, #main .btn-primary:focus, #main .btn-small:focus {
+    color: #333;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #ccc, #b3b3b3)
+}
+
+#main .btn-primary {
+    background: linear-gradient(to bottom, #004c99, #036);
+    color: #fff;
+    border-color: #001933
+}
+
+#main .btn-primary:hover, #main .btn-primary:focus {
+    color: #fff;
+    background: linear-gradient(to bottom, #036, #001933)
+}
+
+#main .btn-small {
+    padding: .15em .2em;
+    line-height: 1.75
+}
+
+#main .btn-flat {
+    font-weight: normal;
+    font-size: 1em;
+    color: #333333;
+    text-shadow: 0 1px 5px rgba(255, 255, 255, 0.25);
+    line-height: 244.44444%;
+    padding: .25em .5em;
+    background: #ddecf5;
+    box-shadow: inset 0 -2px #c9e0f0;
+    border-bottom: 2px solid #b6d5ea;
+    cursor: pointer
+}
+
+#main .btn-flat:hover, #main .btn-flat:focus {
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #0077cf;
+    border-bottom: 2px solid #0069b6;
+    box-shadow: inset 0 -2px #005A9C
+}
+
+#main .btn-icon {
+    border: none;
+    background-color: transparent;
+    padding: 0
+}
+
+#main .btn-next {
+    float: right
+}
+
+#main .btn-jump {
+    display: block;
+    margin: 0 1em 1em;
+    text-align: center
+}
+
+.resource-tips .tip {
+    margin-bottom: 5em
+}
+
+.resource-tips .tip > h2 {
+    margin-left: 0
+}
+
+.resource-tips .tip > p, .resource-tips .tip > ul li {
+    font-size: 110%;
+    line-height: 155%
+}
+
+.resource-tips h3 {
+    color: black;
+    margin: 0 0 0.5em 0;
+    font-size: 115%
+}
+
+.resource-tips h3 + ul, .resource-tips h3 + ol {
+    margin-top: 0
+}
+
+.resource-tips h3 span {
+    font-weight: normal
+}
+
+.acknowledgements .resource-tips h3 {
+    margin-top: 1em
+}
+
+.resource-tips cite {
+    padding: 1em 0
+}
+
+@media screen and (min-width: 43em) {
+    .resource-tips article:first-of-type .permalink-wrapper {
+        margin-right: 28%
+    }
+}
+
+.resource-tips article .permalink-wrapper h2 {
+    padding-right: 2.8em
+}
+
+.resource-tips article .permalink-wrapper .permalink {
+    background: #fffaf5
+}
+
+.resource-tips .box-example:nth-last-of-type(2) {
+    margin-bottom: 2em
+}
+
+.resource-tips .box-example figure.keyboard, .resource-tips .box-example figure.active {
+    margin-top: 1em
+}
+
+.resource-tips .box-example figure > div:after {
+    content: '';
+    height: 0;
+    width: 0;
+    clear: both;
+}
+
+.resource-tips .box-example figure .icon {
+    height: 1em;
+    width: 1em;
+    position: relative;
+    top: 3px
+}
+
+.resource-tips .box-example pre {
+    margin: 0
+}
+
+.resource-tips .box-example fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0
+}
+
+.resource-tips .more_information {
+    clear: both
+}
+
+.resource-tips .note {
+    margin-bottom: 0;
+    font-style: italic
+}
+
+.resource-tips form {
+    box-sizing: border-box
+}
+
+.resource-tips form * , .resource-tips form * :before, .resource-tips form * :after {
+    box-sizing: inherit
+}
+
+.resource-tips form label {
+    text-align: right;
+    padding-right: 0.25em
+}
+
+.resource-tips form .row.checkbox label {
+    text-align: left;
+    padding-right: 0
+}
+
+.resource-tips form legend {
+    font-weight: bold
+}
+
+.resource-tips form .instruction {
+    margin: 0
+}
+
+.resource-tips form .row {
+    margin-bottom: 0.2em
+}
+
+.resource-tips form .row:first-of-type {
+    margin-top: 0.5em
+}
+
+.resource-tips form .row:last-of-type {
+    margin-bottom: 0em
+}
+
+.resource-tips form .required {
+    color: #992929
+}
+
+.resource-tips .two-column figure,
+.resource-tips .two-column > div {
+    margin-bottom: 1em
+}
+
+.resource-tips .two-column figure:last-of-type,
+.resource-tips .two-column > div:last-of-type {
+    margin-bottom: 0
+}
+
+@media screen and (min-width: 43em) {
+    .resource-tips .two-column {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .resource-tips .two-column figure,
+    .resource-tips .two-column > div {
+        width: 49%
+    }
+
+    .resource-tips .three-column {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .resource-tips .three-column figure {
+        width: 32%
+    }
+
+    .resource-tips .four-column {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .resource-tips .four-column figure {
+        width: 24.5%
+    }
+}
+
+.resource-tips .contrast .fail {
+    color: #999999
+}
+
+.resource-tips .contrast .pass {
+    color: #525252
+}
+
+@media screen and (min-width: 25em) {
+    .resource-tips .color-alone figure div svg {
+        float: left;
+        margin: 0 1em 1.5em 0
+    }
+}
+
+@media screen and (min-width: 43em) {
+    .resource-tips .color-alone figure div svg {
+        float: none;
+        margin: 0
+    }
+}
+
+@media screen and (min-width: 56em) {
+    .resource-tips .color-alone figure div svg {
+        float: left;
+        margin: 0 1em 0 0
+    }
+}
+
+.resource-tips .focus figure {
+    width: auto
+}
+
+.resource-tips .focus figure figcaption {
+    padding-right: 1em
+}
+
+.resource-tips .focus figure > div {
+    overflow: visible
+}
+
+.resource-tips .focus figure:first-of-type {
+    margin-bottom: 1em
+}
+
+.resource-tips .focus p {
+    position: relative
+}
+
+.resource-tips .focus a {
+    text-decoration: underline;
+    color: #850BAC
+}
+
+.resource-tips .focus a:hover {
+    color: #850BAC;
+    background-color: rgba(253, 247, 15, 0.3)
+}
+
+.resource-tips .focus a:focus {
+    color: #850BAC;
+    background-color: #fdf70f
+}
+
+.resource-tips .focus a:active {
+    background: #850BAC;
+    color: #f4f4f4
+}
+
+.resource-tips .focus .hover p {
+    text-align: center
+}
+
+.resource-tips .focus .hover a {
+    color: #850BAC;
+    background-color: rgba(253, 247, 15, 0.3)
+}
+
+.resource-tips .focus .hover a:active {
+    background: #850BAC;
+    color: #f4f4f4
+}
+
+.resource-tips .focus .hover div img {
+    position: absolute;
+    top: 1em;
+    left: 50%
+}
+
+.resource-tips .focus .keyboard p {
+    text-align: center
+}
+
+.resource-tips .focus .keyboard a {
+    color: #850BAC;
+    background-color: #fdf70f
+}
+
+.resource-tips .focus .keyboard a:active {
+    background: #850BAC;
+    color: #f4f4f4
+}
+
+.resource-tips .focus .active p {
+    text-align: center
+}
+
+.resource-tips .focus .active a {
+    background: #850BAC;
+    color: #f4f4f4
+}
+
+.resource-tips .focus .active div img {
+    position: absolute;
+    top: 1em;
+    left: 50%
+}
+
+.resource-tips .labels input, .resource-tips .labels textarea {
+    border: 1px solid #bfbfbf;
+    padding: 2px 4px
+}
+
+.resource-tips .labels input:focus, .resource-tips .labels textarea:focus {
+    border: 1px solid #003366
+}
+
+.resource-tips .labels .row {
+    padding: 0.25em 0;
+    position: relative
+}
+
+.resource-tips .labels label {
+    width: 100%;
+    display: block;
+    text-align: left
+}
+
+.resource-tips .labels input {
+    width: 100%
+}
+
+.resource-tips .labels textarea {
+    width: 100%;
+    height: 5em
+}
+
+.resource-tips .labels .checkbox label {
+    width: auto;
+    padding-left: 1.2em
+}
+
+.resource-tips .labels .checkbox input {
+    width: auto;
+    position: absolute;
+    top: 0.5em
+}
+
+@media screen and (min-width: 43em) {
+    .resource-tips .labels {
+        width: 35em
+    }
+
+    .resource-tips .labels label {
+        width: 23%;
+        display: inline-block;
+        text-align: right
+    }
+
+    .resource-tips .labels input, .resource-tips .labels textarea {
+        width: 75.5%
+    }
+
+    .resource-tips .labels .checkbox {
+        padding-left: 21%
+    }
+}
+
+.resource-tips .errors input, .resource-tips .errors textarea {
+    border: 1px solid #bfbfbf;
+    padding: 2px 4px
+}
+
+.resource-tips .errors input:focus, .resource-tips .errors textarea:focus {
+    border: 1px solid #003366
+}
+
+.resource-tips .errors .error-list {
+    margin-bottom: 1em
+}
+
+.resource-tips .errors .error-list li span {
+    color: #992929
+}
+
+.resource-tips .errors .error-list li svg {
+    width: 1em;
+    height: 1em;
+    top: 2px;
+    position: relative;
+    margin-right: 0.5em;
+    fill: #992929
+}
+
+.resource-tips .errors .row {
+    padding: 0.25em
+}
+
+.resource-tips .errors .row.error {
+    background: #ffc0cb
+}
+
+.resource-tips .errors .row.error svg {
+    width: 1em;
+    height: 1em;
+    top: 1px;
+    position: relative;
+    fill: #992929
+}
+
+.resource-tips .errors label {
+    width: 100%;
+    display: block;
+    text-align: left
+}
+
+.resource-tips .errors input {
+    width: 100%
+}
+
+.resource-tips .errors textarea {
+    width: 100%;
+    height: 5em
+}
+
+@media screen and (min-width: 43em) {
+    .resource-tips .errors {
+        width: 35em
+    }
+
+    .resource-tips .errors label {
+        width: 23%;
+        display: inline-block
+    }
+
+    .resource-tips .errors input, .resource-tips .errors textarea {
+        width: 75.5%
+    }
+}
+
+.resource-tips .headings svg text {
+    fill: #333333;
+    font-weight: bold
+}
+
+.resource-tips .headings svg text.heading {
+    font-size: 0.9em
+}
+
+.resource-tips .headings svg rect, .resource-tips .headings svg circle {
+    fill: #999999
+}
+
+.resource-tips .headings svg line {
+    stroke: #999999;
+    stroke-linecap: round
+}
+
+.resource-tips .headings svg .image {
+    fill: #d9d9d9
+}
+
+.resource-tips .headings svg text.sub-heading {
+    font-size: 0.8em
+}
+
+@media screen and (min-width: 43em) {
+    .resource-tips .responsive img:first-child {
+        margin-right: 1em
+    }
+}
+
+.resource-tips .autoplay figure {
+    display: inline-block
+}
+
+.resource-tips .page-title div svg {
+    width: 100%;
+}
+
+.resource-tips .page-title div svg text {
+    font-size: 0.8em;
+    fill: #333333
+}
+
+.resource-tips .page-title div svg .banner {
+    stroke: #9d9d9d;
+    stroke-width: 0.5;
+    fill: #f4f4f4
+}
+
+.resource-tips .page-title div svg path, .resource-tips .page-title div svg rect {
+    fill: #737373
+}
+
+.resource-tips .heading-structure figure {
+    display: inline-block
+}
+
+.resource-tips .heading-structure figure > a {
+    display: block;
+    text-decoration: none
+}
+
+.resource-tips .heading-structure figure > a:hover, .resource-tips .heading-structure figure > afocus {
+    text-decoration: underline
+}
+
+.resource-tips .heading-structure figure > a figcaption {
+    color: #003366
+}
+
+.resource-tips .heading-structure figure > a div {
+    padding: .5em;
+    background: #fffdfa;
+    border: 1px solid #e0e0e0
+}
+
+.designing .resource-tips .text-alt ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.designing .resource-tips .text-alt ul li {
+    display: inline
+}
+
+.designing .resource-tips .text-alt ul li:after {
+    content: '|';
+    margin-left: 0.5em;
+    margin-right: 0.2em
+}
+
+.designing .resource-tips .text-alt ul li.last:after {
+    content: ''
+}
+
+.designing .resource-tips .text-alt .audio-description {
+    vertical-align: bottom
+}
+
+@media screen and (min-width: 43em) {
+    .designing .resource-tips .text-alt {
+        width: 35em
+    }
+}
+
+.resource-tips .text-alt img {
+    margin-right: 1em
+}
+
+.resource-tips .html-example > div {
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px 3px 0 0;
+    background: #fffdfa
+}
+
+.resource-tips .html-example > div figure figcaption {
+    border: none
+}
+
+.resource-tips .html-example > div figure div {
+    border: none
+}
+
+.resource-tips .html-example > div .rendered, .resource-tips .html-example > div .code {
+    width: auto;
+    overflow: hidden
+}
+
+.resource-tips .html-example > div .rendered {
+    margin-bottom: 1em
+}
+
+.resource-tips .html-example > div .rendered figcaption {
+    border-radius: 3px 3px 0 0
+}
+
+.resource-tips .html-example > div .code figcaption {
+    border-radius: 0
+}
+
+@media screen and (min-width: 43em) {
+    .resource-tips .html-example > div {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .resource-tips .html-example > div .rendered {
+        width: 40%;
+        margin-right: -1px
+    }
+
+    .resource-tips .html-example > div .rendered figcaption {
+        border-radius: 3px 0 0 0
+    }
+
+    .resource-tips .html-example > div .code {
+        width: 61%;
+        margin-top: 0;
+        border-left: 1px solid #e0e0e0
+    }
+
+    .resource-tips .html-example > div .code figcaption {
+        border-radius: 0 3px 0 0
+    }
+}
+
+.resource-tips .mark-up figure h2 {
+    border-bottom: none
+}
+
+.resource-tips .avoid-mistakes #dob-format, .resource-tips .avoid-mistakes #phone-desc {
+    color: #4d4d4d;
+    font-size: 90%;
+    margin-top: 0em
+}
+
+.resource-tips .order article {
+    position: relative;
+    overflow: hidden;
+    margin: 1em 0 2em 1em
+}
+
+.resource-tips .order article h3, .resource-tips .order article .desc, .resource-tips .order article .buy {
+    margin-left: 130px
+}
+
+.resource-tips .order article img {
+    float: left;
+    margin-top: -2em;
+    width: 120px
+}
+
+@media screen and (min-width: 43em) {
+    .resource-tips .order article img {
+        width: 200px
+    }
+
+    .resource-tips .order article h3, .resource-tips .order article .desc, .resource-tips .order article .buy {
+        margin-left: 210px
+    }
+}
+
+.resource-tips .order article .buy svg {
+    height: 1em;
+    width: 1em;
+    padding-bottom: 0.2em;
+    padding-right: 0.2em;
+    vertical-align: bottom
+}
+
+.resource-tips .order article .buy a {
+    background-color: #44c767;
+    border-radius: 19px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    color: #1e1e1e;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #6bd387
+}
+
+.resource-tips .order article .buy a:hover {
+    background-color: #5cbf2a
+}
+
+.resource-tips .order article .buy a:active {
+    position: relative;
+    top: 1px
+}
+
+.resource-tips .adapt-code pre {
+    margin: 0
+}
+
+.resource-tips .non-standard .slider {
+    width: 15em;
+    height: 0.5em;
+    border-radius: 10px;
+    background: #999999;
+    position: relative;
+    float: left;
+    margin-right: 1em;
+    margin-top: 0.7em
+}
+
+.resource-tips .non-standard .slider button {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 20px;
+    background: #4d4d4d;
+    border: 0;
+    box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.75) inset;
+    position: absolute;
+    top: -0.5em
+}
+
+.resource-tips .non-standard .slider-value {
+    width: 2em
+}
+
+.resource-tips .non-standard .switch {
+    position: relative;
+    width: 5em;
+    height: 2em;
+    border-radius: 20px;
+    color: #ffffff
+}
+
+.resource-tips .non-standard .switch span {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0.4em;
+    text-transform: uppercase;
+    font-size: 90%
+}
+
+.resource-tips .non-standard .switch span:before {
+    box-sizing: border-box;
+    content: ' ';
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 20px;
+    position: absolute;
+    top: -1px
+}
+
+.resource-tips .non-standard .switch[aria-checked=true] span:before {
+    background: #d7f7e3
+}
+
+.resource-tips .non-standard .switch[aria-checked=false] span:before {
+    background: #ffc7c7
+}
+
+.resource-tips .non-standard .switch[aria-checked=false] {
+    background: #bb0000
+}
+
+.resource-tips .non-standard .switch[aria-checked=false] span {
+    right: 12px
+}
+
+.resource-tips .non-standard .switch[aria-checked=false] span:before {
+    left: -2.5em
+}
+
+.resource-tips .non-standard .switch[aria-checked=true] {
+    background: green
+}
+
+.resource-tips .non-standard .switch[aria-checked=true] span {
+    left: 12px
+}
+
+.resource-tips .non-standard .switch[aria-checked=true] span:before {
+    right: -2.9em
+}
+
+.resource-tips .keyboard-accessible .menu-button {
+    background: lightgray;
+    display: inline-block;
+    padding: 0.4em 0.8em;
+    border-radius: 2px
+}
+
+.resource-tips .keyboard-accessible .menu-button:hover, .resource-tips .keyboard-accessible .menu-button:focus {
+    background: #bababa;
+    outline: 0;
+    text-decoration: underline
+}
+
+.resource-tips .keyboard-accessible .menu-button:active {
+    margin-top: 1px
+}
+
+.resource-tips .keyboard-accessible .menu-button svg {
+    top: 2px;
+    height: 1em;
+    width: 1em;
+    padding-bottom: 0.2em;
+    padding-right: 0.2em;
+    vertical-align: bottom
+}
+
+.resource-tips .keyboard-accessible .menu {
+    position: relative;
+    border: 1px solid #adadad;
+    border-radius: 2px;
+    background: #c7c7c7;
+    box-shadow: 0px 0px 2px #bababa;
+    padding: 1em;
+    margin-top: 0.5em;
+    width: 10em
+}
+
+.resource-tips .keyboard-accessible .menu:focus {
+    outline: 0
+}
+
+.resource-tips .keyboard-accessible .menu[aria-hidden=true] {
+    display: none
+}
+
+.resource-tips .keyboard-accessible .menu[aria-hidden=false] {
+    display: block
+}
+
+.resource-tips .keyboard-accessible .menu:before, .resource-tips .keyboard-accessible .menu:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0
+}
+
+.resource-tips .keyboard-accessible .menu:before {
+    border-bottom: 12px solid #adadad;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    left: 20px;
+    top: -12px
+}
+
+.resource-tips .keyboard-accessible .menu:after {
+    border-bottom: 9px solid #c7c7c7;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    left: 22px;
+    top: -9px
+}
+
+.resource-tips .keyboard-accessible .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.resource-tips .keyboard-accessible .menu ul li {
+    margin-left: 0
+}
+
+.resource-tips .keyboard-accessible .menu ul li a {
+    text-decoration: none
+}
+
+.heading-structure h2, .heading-structure h3, .heading-structure h4 {
+    color: black;
+    border-bottom: none;
+    margin: 0;
+    padding: 0.5em 0
+}
+
+.heading-structure h2 + p, .heading-structure h3 + p, .heading-structure h4 + p {
+    margin-top: 0
+}
+
+.heading-structure h2 {
+    font-size: 3em;
+    line-height: 1em
+}
+
+.heading-structure h3 {
+    font-size: 2em
+}
+
+.heading-structure h4 {
+    font-size: 1.4em
+}
+
+.heading-structure.modal-holder {
+    font-size: 80%
+}
+
+@media screen and (min-width: 43em) {
+    .heading-structure.modal-holder {
+        font-size: 100%
+    }
+}
+
+@media print {
+    body {
+        background: #ffffff
+    }
+
+    header img {
+        max-width: none
+    }
+
+    header #masthead {
+        margin: 0;
+        float: left
+    }
+
+    header #masthead > p, header #masthead p {
+        margin: 0;
+        width: auto;
+        border-right: none
+    }
+
+    header #tagline {
+        background: none;
+        color: #333
+    }
+
+    header #tagline p {
+        text-align: left
+    }
+
+    #main {
+        margin: 0
+    }
+
+    #controls, #nav, nav.section, .contribute, .permalink {
+        display: none
+    }
+
+    .color-alone img {
+        width: 150px;
+        height: 150px
+    }
+}
+
+
+.icon-in-title {
+    stroke-width: 1px;
+}

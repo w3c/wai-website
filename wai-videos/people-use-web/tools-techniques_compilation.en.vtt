@@ -1,0 +1,1186 @@
+﻿WEBVTT
+
+1
+00:00:00.960 --> 00:00:05.000
+This video from the W3C Web Accessibility Initiative
+
+2
+00:00:05.000 --> 00:00:10.120
+introduces some of the tools and techniques that people with disabilities use to interact with the web. 
+
+3
+00:00:10.120 --> 00:00:15.040
+Some use specialized software or hardware, called assistive technology.
+
+4
+00:00:15.040 --> 00:00:19.000
+Others adapt standard software or hardware to better meet their needs.
+
+5
+00:00:19.720 --> 00:00:23.880
+Perception - hearing, feeling and seeing.
+
+6
+00:00:24.680 --> 00:00:26.320
+When content is accessible,
+
+7
+00:00:26.320 --> 00:00:28.360
+people can perceive it through different senses,
+
+8
+00:00:28.360 --> 00:00:30.800
+depending on their needs and preferences.
+
+9
+00:00:30.800 --> 00:00:31.760
+For example,
+
+10
+00:00:31.760 --> 00:00:33.360
+some people who can't see a screen
+
+11
+00:00:33.360 --> 00:00:34.400
+or hear audio,
+
+12
+00:00:34.400 --> 00:00:35.920
+rely on websites and apps
+
+13
+00:00:35.920 --> 00:00:37.120
+that can present the information
+
+14
+00:00:37.120 --> 00:00:38.600
+in different ways.
+
+15
+00:00:38.600 --> 00:00:39.960
+People who are blind may
+
+16
+00:00:39.960 --> 00:00:41.240
+use assistive technology
+
+17
+00:00:41.240 --> 00:00:43.000
+on computers and mobile phones
+
+18
+00:00:43.000 --> 00:00:44.680
+called screen readers.
+
+19
+00:00:44.680 --> 00:00:46.000
+These software tools
+
+20
+00:00:46.000 --> 00:00:48.320
+read the information on the screen out loud,
+
+21
+00:00:48.320 --> 00:00:50.560
+or they can present it in braille.
+
+22
+00:00:51.720 --> 00:00:52.400
+Bird.
+
+23
+00:00:52.400 --> 00:00:53.560
+Birds are a group of warm-blooded vertebrates
+
+24
+00:00:53.560 --> 00:00:54.720
+constituting the class Aves,
+
+25
+00:00:54.720 --> 00:00:55.400
+(/’eIvi:z/)
+
+26
+00:00:55.400 --> 00:00:57.840
+characterised by feathers, toothless beaked jaws, the laying of
+
+27
+00:00:58.200 --> 00:01:00.240
+Screen readers process websites and apps
+
+28
+00:01:00.240 --> 00:01:01.920
+with correctly coded headings,
+
+29
+00:01:01.920 --> 00:01:06.400
+lists, links, buttons, and other structures much better.
+
+30
+00:01:06.400 --> 00:01:08.840
+People who are blind rely on hearing or touch,
+
+31
+00:01:08.840 --> 00:01:10.440
+rather than sight.
+
+32
+00:01:10.440 --> 00:01:11.280
+For video,
+
+33
+00:01:11.280 --> 00:01:12.720
+content creators need to ensure
+
+34
+00:01:12.720 --> 00:01:14.360
+that visual information is provided
+
+35
+00:01:14.360 --> 00:01:16.720
+in auditory form as well.
+
+36
+00:01:18.320 --> 00:01:19.560
+Often these descriptions
+
+37
+00:01:19.560 --> 00:01:21.040
+of visual information can be placed
+
+38
+00:01:21.040 --> 00:01:23.080
+in existing pauses in the audio,
+
+39
+00:01:23.080 --> 00:01:24.440
+or the script can be created
+
+40
+00:01:24.440 --> 00:01:26.280
+from the start with sufficient description
+
+41
+00:01:26.280 --> 00:01:28.040
+of the scenes, characters,
+
+42
+00:01:28.040 --> 00:01:30.120
+and other important visual information.
+
+43
+00:01:30.920 --> 00:01:32.280
+People who are deaf-blind
+
+44
+00:01:32.280 --> 00:01:35.080
+also use screen readers to present the information
+
+45
+00:01:35.080 --> 00:01:36.440
+using a device called a
+
+46
+00:01:36.440 --> 00:01:38.800
+Refreshable Braille display.
+
+47
+00:01:38.800 --> 00:01:40.520
+Braille characters are a combination
+
+48
+00:01:40.520 --> 00:01:42.040
+of raised or lowered dots,
+
+49
+00:01:42.040 --> 00:01:43.880
+which people read by scanning over them
+
+50
+00:01:43.880 --> 00:01:45.520
+with their fingertips.
+
+51
+00:01:45.520 --> 00:01:48.320
+Similarly to people who are blind and deaf-blind,
+
+52
+00:01:48.320 --> 00:01:50.640
+people who are Deaf or hard of hearing
+
+53
+00:01:50.640 --> 00:01:52.920
+may use haptic feedback too;
+
+54
+00:01:52.920 --> 00:01:55.600
+for example, through vibration alerts on a mobile phone
+
+55
+00:01:55.600 --> 00:01:57.640
+instead of auditory notifications.
+
+56
+00:01:57.880 --> 00:02:00.200
+People who are Deaf or hard of hearing
+
+57
+00:02:00.200 --> 00:02:02.920
+often rely on seeing instead of hearing.
+
+58
+00:02:02.920 --> 00:02:04.760
+For example, while watching a video
+
+59
+00:02:04.760 --> 00:02:07.000
+they may use captions or sign language
+
+60
+00:02:07.000 --> 00:02:09.240
+as an alternative to the audio.
+
+61
+00:02:09.920 --> 00:02:12.160
+You can help
+
+62
+00:02:13.120 --> 00:02:16.000
+make technology
+
+63
+00:02:16.600 --> 00:02:18.000
+accessible
+
+64
+00:02:18.000 --> 00:02:19.280
+to me.
+
+65
+00:02:22.040 --> 00:02:25.080
+Accessibility: It's about people. 
+
+66
+00:02:27.120 --> 00:02:29.480
+Presentation: distinguishing
+
+67
+00:02:29.640 --> 00:02:31.200
+and understanding.
+
+68
+00:02:33.560 --> 00:02:35.120
+When content is accessible,
+
+69
+00:02:35.120 --> 00:02:37.760
+people can adjust its presentation to make it easier
+
+70
+00:02:37.760 --> 00:02:39.560
+to distinguish and understand.
+
+71
+00:02:39.800 --> 00:02:41.000
+This could include adjusting
+
+72
+00:02:41.000 --> 00:02:42.200
+screen size and color
+
+73
+00:02:42.200 --> 00:02:43.320
+to see better,
+
+74
+00:02:43.320 --> 00:02:44.600
+adjusting audio volume
+
+75
+00:02:44.600 --> 00:02:46.400
+to hear better, or adjusting
+
+76
+00:02:46.400 --> 00:02:49.480
+how text is presented to read it better.
+
+77
+00:02:51.160 --> 00:02:52.520
+Some people with low vision
+
+78
+00:02:52.520 --> 00:02:53.600
+increased the text size
+
+79
+00:02:53.600 --> 00:02:55.360
+to make it easier to read.
+
+80
+00:02:55.360 --> 00:02:56.560
+They might adjust properties
+
+81
+00:02:56.560 --> 00:02:58.760
+in the web browser or operating system,
+
+82
+00:02:58.760 --> 00:02:59.720
+such as increasing
+
+83
+00:02:59.720 --> 00:03:00.960
+the default text size,
+
+84
+00:03:00.960 --> 00:03:02.080
+font type, and line
+
+85
+00:03:02.080 --> 00:03:04.080
+spacing to better see the text.
+
+86
+00:03:04.680 --> 00:03:06.520
+Websites and apps that are programmed
+
+87
+00:03:06.520 --> 00:03:08.520
+and designed to adapt to these properties,
+
+88
+00:03:08.520 --> 00:03:10.280
+allow people to use the content
+
+89
+00:03:10.280 --> 00:03:11.880
+without the text overlapping,
+
+90
+00:03:11.880 --> 00:03:12.960
+getting cropped,
+
+91
+00:03:12.960 --> 00:03:14.320
+or requiring them to scroll
+
+92
+00:03:14.320 --> 00:03:17.040
+both vertically and horizontally.
+
+93
+00:03:18.560 --> 00:03:19.920
+Other people with low vision
+
+94
+00:03:19.920 --> 00:03:21.560
+increase everything on the screen,
+
+95
+00:03:21.560 --> 00:03:23.120
+not only text.
+
+96
+00:03:23.120 --> 00:03:25.480
+They might use screen magnification software
+
+97
+00:03:25.480 --> 00:03:27.640
+as a digital magnifying glass.
+
+98
+00:03:27.640 --> 00:03:29.440
+Some might also change the text
+
+99
+00:03:29.440 --> 00:03:30.440
+and background colors
+
+100
+00:03:30.440 --> 00:03:31.920
+to better read the text
+
+101
+00:03:31.920 --> 00:03:33.200
+and text-to-speech
+
+102
+00:03:33.200 --> 00:03:36.000
+to hear the text while they're reading.
+
+103
+00:03:36.000 --> 00:03:37.520
+This means that websites and apps
+
+104
+00:03:37.520 --> 00:03:39.080
+need to be programmed and designed
+
+105
+00:03:39.080 --> 00:03:41.240
+to allow people to change the colors
+
+106
+00:03:41.240 --> 00:03:42.400
+rather than forcing them
+
+107
+00:03:42.400 --> 00:03:44.560
+to appear in a certain way.
+
+108
+00:03:45.840 --> 00:03:48.040
+Presentation is not only visual.
+
+109
+00:03:48.040 --> 00:03:50.600
+People with auditory disabilities, for example,
+
+110
+00:03:50.600 --> 00:03:51.600
+might need to increase
+
+111
+00:03:51.600 --> 00:03:53.120
+the volume of online meetings
+
+112
+00:03:53.120 --> 00:03:54.880
+and multimedia like videos,
+
+113
+00:03:54.880 --> 00:03:56.360
+podcasts and music,
+
+114
+00:03:56.360 --> 00:03:58.160
+without increasing the volume of other
+
+115
+00:03:58.160 --> 00:04:01.080
+system sounds like notification alerts.
+
+116
+00:04:01.080 --> 00:04:02.280
+Adjusting the bass,
+
+117
+00:04:02.280 --> 00:04:04.000
+treble and balance of the sound
+
+118
+00:04:04.000 --> 00:04:06.000
+can make the audio easier to hear,
+
+119
+00:04:06.000 --> 00:04:08.320
+so operating systems and media players
+
+120
+00:04:08.320 --> 00:04:10.080
+need to provide these settings.
+
+121
+00:04:10.240 --> 00:04:11.520
+Also, these settings work
+
+122
+00:04:11.520 --> 00:04:13.040
+better with high quality audio
+
+123
+00:04:13.040 --> 00:04:15.080
+that does not have background noise.
+
+124
+00:04:16.480 --> 00:04:17.760
+Presentation adjustments
+
+125
+00:04:17.760 --> 00:04:19.240
+can also make content easier
+
+126
+00:04:19.240 --> 00:04:20.400
+to focus on,
+
+127
+00:04:20.400 --> 00:04:21.440
+particularly for people
+
+128
+00:04:21.440 --> 00:04:23.000
+with different types of cognitive
+
+129
+00:04:23.000 --> 00:04:24.600
+and learning disabilities.
+
+130
+00:04:24.800 --> 00:04:26.160
+This includes “reading modes”
+
+131
+00:04:26.160 --> 00:04:28.440
+that hide less relevant parts of the content,
+
+132
+00:04:28.440 --> 00:04:30.600
+such as sidebars and front matter;
+
+133
+00:04:30.600 --> 00:04:32.040
+pop up and animation blockers
+
+134
+00:04:32.040 --> 00:04:33.320
+that help avoid distraction
+
+135
+00:04:33.320 --> 00:04:34.440
+and interruption;
+
+136
+00:04:34.440 --> 00:04:36.040
+and digital reading rules
+
+137
+00:04:36.040 --> 00:04:36.840
+that help readers
+
+138
+00:04:36.840 --> 00:04:39.320
+focus on one line at a time.
+
+139
+00:04:40.520 --> 00:04:41.920
+Some reading assistants,
+
+140
+00:04:41.920 --> 00:04:42.960
+for example, those that 
+
+141
+00:04:42.960 --> 00:04:44.880
+some people with dyslexia might use
+
+142
+00:04:44.880 --> 00:04:46.520
+adjust how the text is presented
+
+143
+00:04:46.520 --> 00:04:48.480
+to make it easier to read.
+
+144
+00:04:48.480 --> 00:04:50.200
+This includes changing the font type,
+
+145
+00:04:50.200 --> 00:04:52.000
+text size, colors
+
+146
+00:04:52.000 --> 00:04:53.720
+and the spacing between letters,
+
+147
+00:04:53.720 --> 00:04:55.760
+sentences and paragraphs.
+
+148
+00:04:55.760 --> 00:04:58.240
+Some people read better with serif-type fonts
+
+149
+00:04:58.240 --> 00:05:00.280
+and others with sensory fonts.
+
+150
+00:05:00.560 --> 00:05:02.360
+Adjusting these properties are individual
+
+151
+00:05:02.360 --> 00:05:03.920
+from one person to another,
+
+152
+00:05:03.920 --> 00:05:05.000
+which is why flexible
+
+153
+00:05:05.000 --> 00:05:07.160
+design is so important.
+
+154
+00:05:08.680 --> 00:05:09.800
+Other reading assistants
+
+155
+00:05:09.800 --> 00:05:11.360
+support comprehension.
+
+156
+00:05:11.360 --> 00:05:12.720
+Some can process a text
+
+157
+00:05:12.720 --> 00:05:14.600
+to simplify words and phrases,
+
+158
+00:05:14.600 --> 00:05:16.240
+and sometimes also simplify
+
+159
+00:05:16.240 --> 00:05:17.920
+complex sentences.
+
+160
+00:05:17.920 --> 00:05:19.280
+These tools rely on proper
+
+161
+00:05:19.280 --> 00:05:22.280
+programming and design to work.
+
+162
+00:05:22.280 --> 00:05:26.720
+You can help make technology accessible to me.
+
+163
+00:05:27.160 --> 00:05:30.320
+Accessibility: It’s about people.
+
+164
+00:05:32.360 --> 00:05:36.800
+Input - Typing, Writing and Clicking
+
+165
+00:05:37.840 --> 00:05:42.160
+When content is accessible, people can 
+use a variety of hardware and software
+
+166
+00:05:42.160 --> 00:05:44.400
+to enter text and activate commands.
+
+167
+00:05:45.520 --> 00:05:47.720
+Some people do not use keyboards
+
+168
+00:05:47.720 --> 00:05:50.040
+and use only pointing devices instead.
+
+169
+00:05:50.280 --> 00:05:52.280
+This could include a specialised mouse,
+
+170
+00:05:52.280 --> 00:05:53.880
+joystick, trackball,
+
+171
+00:05:54.040 --> 00:05:58.440
+or touch screen to click links and buttons
+and to type on on-screen keyboards.
+
+172
+00:05:58.440 --> 00:06:00.520
+However, even when using these tools,
+
+173
+00:06:00.520 --> 00:06:01.920
+people might have difficulty
+
+174
+00:06:01.920 --> 00:06:03.480
+selecting small targets,
+
+175
+00:06:03.480 --> 00:06:06.280
+such as small links, buttons and controls.
+
+176
+00:06:06.640 --> 00:06:10.240
+Websites and apps with large
+clickable areas around checkboxes,
+
+177
+00:06:10.440 --> 00:06:12.520
+radio buttons, and other controls,
+
+178
+00:06:12.520 --> 00:06:14.040
+are easier to use for people
+
+179
+00:06:14.040 --> 00:06:15.320
+with limited mobility
+
+180
+00:06:15.320 --> 00:06:16.800
+and reduced dexterity.
+
+181
+00:06:18.080 --> 00:06:20.600
+Websites and apps also
+need to provide support
+
+182
+00:06:20.600 --> 00:06:22.560
+for people who use the keyboard only.
+
+183
+00:06:23.200 --> 00:06:26.280
+This includes providing ways
+to skip over repeated content,
+
+184
+00:06:26.280 --> 00:06:29.720
+such as headers and navigation bars, 
+as well as not breaking the default
+
+185
+00:06:29.720 --> 00:06:32.880
+functionality in browsers
+and operating systems.
+
+186
+00:06:33.000 --> 00:06:33.960
+For example,
+
+187
+00:06:33.960 --> 00:06:35.800
+using the Tab key to move around
+
+188
+00:06:35.800 --> 00:06:37.440
+clickable items in the content,
+
+189
+00:06:37.440 --> 00:06:39.720
+using the Enter key for selecting items,
+
+190
+00:06:39.720 --> 00:06:42.160
+and making the currently active item visible
+
+191
+00:06:42.160 --> 00:06:44.520
+by showing a rectangular box around it.
+
+192
+00:06:44.520 --> 00:06:47.880
+Websites and apps that provide
+word prediction and accelerators,
+
+193
+00:06:47.880 --> 00:06:49.640
+for example for search terms,
+
+194
+00:06:49.640 --> 00:06:51.320
+reduce the amount of typing,
+
+195
+00:06:51.320 --> 00:06:52.720
+and make them more efficient
+
+196
+00:06:52.720 --> 00:06:54.000
+for keyboard users.
+
+197
+00:06:55.320 --> 00:06:59.080
+Additionally, not everyone using
+only the keyboard can see the screen;
+
+198
+00:06:59.080 --> 00:07:01.600
+for example, people who are blind.
+
+199
+00:07:01.600 --> 00:07:04.600
+So, in addition to
+ensuring keyboard support,
+
+200
+00:07:04.600 --> 00:07:07.840
+websites and apps also need
+to provide clear instructions, 
+
+201
+00:07:07.840 --> 00:07:12.160
+labels for form controls, error
+messages, and status notifications,
+
+202
+00:07:12.520 --> 00:07:14.840
+so that people know what
+is happening on the screen.
+
+203
+00:07:15.360 --> 00:07:19.200
+Websites and apps need to help people
+find and correct mistakes in their input;
+
+204
+00:07:19.600 --> 00:07:23.000
+for example, by showing a summary
+of the entered data before submitting it.
+
+205
+00:07:23.440 --> 00:07:26.440
+They also need to provide sufficient
+time to complete tasks,
+
+206
+00:07:26.760 --> 00:07:28.960
+or avoid timing limitations altogether.
+
+207
+00:07:29.560 --> 00:07:32.480
+Many people with disabilities
+require more time to navigate
+
+208
+00:07:32.480 --> 00:07:35.560
+and orient themselves in the
+content, and to click and type.
+
+209
+00:07:36.040 --> 00:07:39.200
+In particular, people with cognitive
+and learning disabilities.
+
+210
+00:07:40.200 --> 00:07:44.400
+Finally, websites and apps also need
+to consider people who do not use
+
+211
+00:07:44.400 --> 00:07:47.800
+keyboard or pointing devices at all,
+and use speech input instead.
+
+212
+00:07:48.240 --> 00:07:51.400
+For example, websites and apps
+need to be programmed and designed
+
+213
+00:07:51.480 --> 00:07:52.760
+so that the name of a button
+
+214
+00:07:52.760 --> 00:07:55.920
+in the software code matches
+the name displayed to the user.
+
+215
+00:07:56.680 --> 00:07:57.960
+Click send email.
+
+216
+00:07:58.760 --> 00:08:01.480
+You can help make technology
+accessible to me.
+
+217
+00:08:03.040 --> 00:08:05.960
+Accessibility: it's about people.
+
+218
+00:08:09.600 --> 00:08:12.600
+Interaction - navigation and finding
+
+219
+00:08:14.480 --> 00:08:16.400
+When content is accessible,
+
+220
+00:08:16.400 --> 00:08:18.480
+people can navigate and find information
+
+221
+00:08:18.480 --> 00:08:20.760
+using different strategies and approaches
+
+222
+00:08:20.760 --> 00:08:22.280
+depending on their preferences,
+
+223
+00:08:22.280 --> 00:08:25.160
+skills and abilities.
+
+224
+00:08:25.160 --> 00:08:26.920
+Many people with cognitive
+
+225
+00:08:26.920 --> 00:08:28.280
+and learning disabilities
+
+226
+00:08:28.280 --> 00:08:30.160
+rely on clear layout and design
+
+227
+00:08:30.160 --> 00:08:33.280
+to find information on websites and apps.
+
+228
+00:08:33.280 --> 00:08:34.400
+This includes different ways
+
+229
+00:08:34.400 --> 00:08:35.960
+of navigating the content,
+
+230
+00:08:35.960 --> 00:08:37.840
+such as using hierarchical menus
+
+231
+00:08:37.840 --> 00:08:39.760
+as well as search functionality;
+
+232
+00:08:39.760 --> 00:08:41.280
+with visual orientation cues,
+
+233
+00:08:41.280 --> 00:08:42.840
+such as using background colors
+
+234
+00:08:42.840 --> 00:08:44.080
+to indicate different parts
+
+235
+00:08:44.080 --> 00:08:45.120
+of the content,
+
+236
+00:08:45.120 --> 00:08:46.640
+using unique headings,
+
+237
+00:08:46.640 --> 00:08:48.080
+and placing relevant information
+
+238
+00:08:48.080 --> 00:08:49.960
+in prominent areas.
+
+239
+00:08:49.960 --> 00:08:51.360
+It's also important to use
+
+240
+00:08:51.360 --> 00:08:53.600
+a consistent and predictable design.
+
+241
+00:08:54.600 --> 00:08:56.880
+While many of these are typically usability
+
+242
+00:08:56.880 --> 00:08:58.600
+aspects that affect people with
+
+243
+00:08:58.600 --> 00:09:00.240
+and without disabilities,
+
+244
+00:09:00.240 --> 00:09:01.480
+these situations often
+
+245
+00:09:01.480 --> 00:09:04.680
+affect people with disabilities to a greater extent.
+
+246
+00:09:04.680 --> 00:09:05.560
+For example,
+
+247
+00:09:05.560 --> 00:09:06.560
+people with low vision
+
+248
+00:09:06.560 --> 00:09:08.160
+who use screen magnification
+
+249
+00:09:08.160 --> 00:09:10.800
+also rely on visual orientation cues
+
+250
+00:09:10.800 --> 00:09:13.120
+to orient themselves and find information
+
+251
+00:09:13.120 --> 00:09:14.520
+on websites and apps.
+
+252
+00:09:15.480 --> 00:09:18.560
+And consistency predictability helps everyone.
+
+253
+00:09:18.560 --> 00:09:19.240
+For example,
+
+254
+00:09:19.240 --> 00:09:21.080
+people who are blind use screen readers
+
+255
+00:09:21.080 --> 00:09:22.800
+to scan the content structures,
+
+256
+00:09:22.800 --> 00:09:23.880
+such as headings,
+
+257
+00:09:23.880 --> 00:09:25.760
+links, and navigational menus
+
+258
+00:09:25.760 --> 00:09:28.360
+to get an overview and orient themselves.
+
+259
+00:09:28.360 --> 00:09:29.920
+Websites and apps with clear
+
+260
+00:09:29.920 --> 00:09:31.280
+and consistent headings,
+
+261
+00:09:31.280 --> 00:09:33.040
+labels and structures
+
+262
+00:09:33.040 --> 00:09:33.800
+make the content
+
+263
+00:09:33.800 --> 00:09:36.200
+more predictable and easier to navigate.
+
+264
+00:09:37.960 --> 00:09:39.040
+In addition,
+
+265
+00:09:39.040 --> 00:09:41.040
+people who are blind rely on mechanisms
+
+266
+00:09:41.040 --> 00:09:42.960
+to skip over blocks of content,
+
+267
+00:09:42.960 --> 00:09:44.040
+such as headings,
+
+268
+00:09:44.040 --> 00:09:45.080
+navigation bars,
+
+269
+00:09:45.080 --> 00:09:46.000
+or menus,
+
+270
+00:09:46.000 --> 00:09:48.520
+repeated within websites and apps.
+
+271
+00:09:48.520 --> 00:09:50.840
+They also rely on websites and apps to provide
+
+272
+00:09:50.840 --> 00:09:52.040
+clear instructions
+
+273
+00:09:52.040 --> 00:09:53.520
+and help users identify
+
+274
+00:09:53.520 --> 00:09:54.840
+and correct mistakes,
+
+275
+00:09:54.840 --> 00:09:56.200
+such as incorrect dates,
+
+276
+00:09:56.200 --> 00:09:58.360
+numbers and other input.
+
+277
+00:09:59.440 --> 00:10:00.400
+In addition,
+
+278
+00:10:00.400 --> 00:10:02.040
+people with physical disabilities
+
+279
+00:10:02.040 --> 00:10:04.440
+rely on consistent labels which allow browsers
+
+280
+00:10:04.440 --> 00:10:07.320
+to optionally remember previous entries.
+
+281
+00:10:07.320 --> 00:10:08.640
+This speeds up typing
+
+282
+00:10:08.640 --> 00:10:10.800
+because people can select previous entries,
+
+283
+00:10:10.800 --> 00:10:13.480
+for example, names and addresses.
+
+284
+00:10:13.480 --> 00:10:16.920
+You can help make technology
+accessible to me.
+
+285
+00:10:18.080 --> 00:10:21.000
+Accessibility: it's about people.
+
+286
+00:10:21.800 --> 00:10:22.600
+For more information
+
+287
+00:10:22.600 --> 00:10:24.280
+from the Web Accessibility Initiative
+
+288
+00:10:24.280 --> 00:10:25.800
+on How People With Disabilities
+
+289
+00:10:25.800 --> 00:10:27.280
+Use Digital Technology
+
+290
+00:10:27.280 --> 00:10:32.000
+visit w3.org/WAI/people

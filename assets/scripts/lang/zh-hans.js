@@ -1,0 +1,1 @@
+var translationStrings = {"Expand All Sections": "展开所有章节","Collapse All Sections": "收起所有章节","to footnote": "访问脚注","back to footnote": "返回脚注","in text": "在文中",};

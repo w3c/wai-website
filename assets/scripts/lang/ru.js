@@ -1,0 +1,1 @@
+var translationStrings = {"Expand All Sections": "Развернуть Все Разделы","Collapse All Sections": "Свернуть Все Разделы","to footnote": "к примечанию","back to footnote": "вернуться к примечанию","in text": "в тексте",};

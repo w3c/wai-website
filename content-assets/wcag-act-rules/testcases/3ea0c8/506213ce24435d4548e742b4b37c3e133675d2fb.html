@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Passed Example 3</title>
+</head>
+<body>
+	<div id="my-elt"></div>
+	<div id="host"></div>
+	<script>
+		var host = document.getElementById('host')
+		var shadow = host.attachShadow({ mode: 'open' })
+		shadow.innerHTML = '<b id="my-elt"></b>'
+	</script>
+</body>
+</html>

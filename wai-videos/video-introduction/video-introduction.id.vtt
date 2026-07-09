@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00:02.200 --> 00:00:05.200 align:middle
+Hai! Nama saya Shadi Abou-Zahra.
+
+00:00:05.400 --> 00:00:09.600 align:middle
+Saya adalah Spesialis Strategi dan Teknologi Aksesibilitas di W3C,
+
+00:00:09.800 --> 00:00:11.840 align:middle
+Konsorsium World Wide Web,
+
+00:00:12.040 --> 00:00:15.360 align:middle
+dan hari ini saya ingin membicarakan pada Anda tentang aksesibilitas web.
+
+00:00:15.560 --> 00:00:19.240 align:middle
+Web adalah bagian yang esensial dalam keseharian banyak orang.
+
+00:00:19.440 --> 00:00:21.080 align:middle
+Di kantor.
+
+00:00:21.240 --> 00:00:22.840 align:middle
+Di rumah.
+
+00:00:23.000 --> 00:00:24.880 align:middle
+Dan di jalan.
+
+00:00:25.080 --> 00:00:29.640 align:middle
+Aksesibilitas web berarti penyandang disabilitas berkemampuan sama dalam mengakses Web.
+
+00:00:29.840 --> 00:00:35.360 align:middle
+Contohnya, seseorang yang tidak bisa menggunakan tangannya dan menggunakan tongkat mulut untuk mengetik.
+
+00:00:35.560 --> 00:00:40.240 align:middle
+Atau seseorang yang tidak bisa mendengar dengan baik, dan menggunakan takarir untuk menonton video.
+
+00:00:40.400 --> 00:00:45.800 align:middle
+Atau seseorang yang tidak bisa melihat dengan baik, dan menggunakan pembaca takarir untuk mendengarkan apa yang tertulis di layar.
+
+00:00:46.080 --> 00:00:48.480 align:middle
+Aksesibilitas memiliki banyak manfaat.
+
+00:00:48.760 --> 00:00:54.280 align:middle
+Sebagai contoh, takarir bermanfaat bagi semua orang pada lingkungan yang bising atau butuh keheningan.
+
+00:00:54.440 --> 00:00:58.120 align:middle
+Dan kontras warna yang baik akan berguna ketika ada pantulan cahaya.
+
+00:00:58.280 --> 00:01:03.960 align:middle
+Mereka yang memiliki keterbatasan karena usia, seperti berkurangnya kecekatan, pun akan merasakan manfaatnya.
+
+00:01:04.120 --> 00:01:09.120 align:middle
+Faktanya, semua orang akan memiliki pengalaman menggunakan yang lebih baik dengan adanya peningkatan desain dan tata letak.
+
+00:01:09.280 --> 00:01:14.760 align:middle
+Banyak unsur aksesibilitas yang bisa dibangun pada kode dasar situs dan aplikasi.
+
+00:01:15.000 --> 00:01:21.640 align:middle
+Teknologi web dari W3C, seperti HTML, mendukung banyak fitur aksesibilitas.
+
+00:01:23.120 --> 00:01:27.920 align:middle
+Contohnya, fitur yang menyediakan alternatif teks untuk gambar,
+
+00:01:28.480 --> 00:01:33.080 align:middle
+yang bisa dibaca dengan lantang oleh pembaca layar dan juga digunakan oleh mesin pencarian.
+
+00:01:34.640 --> 00:01:39.400 align:middle
+Begitu juga dengan judul, label, dan kode lainnya mendukung aksesibilitas
+
+00:01:39.880 --> 00:01:42.680 align:middle
+dan meningkatkan kualitas secara keseluruhan.
+
+00:01:43.320 --> 00:01:49.840 align:middle
+Sarana penulisan yang bagus, seperti wiki, sistem manajemen konten, dan editor kode,
+
+00:01:50.600 --> 00:01:56.760 align:middle
+membantu membuat kode yang aksesibel, baik secara otomatis mau pun melalui input dari penulis.
+
+00:01:57.440 --> 00:02:04.480 align:middle
+Browser web, pemutar media, dan aplikasi juga perlu mendukung fitur aksesibilitas.
+
+00:02:05.480 --> 00:02:09.600 align:middle
+W3C menyediakan standar untuk membantu membuat Web yang aksesibel,
+
+00:02:10.040 --> 00:02:13.920 align:middle
+yang telah diakui oleh pemerintah dan bisnis secara internasional.
+
+00:02:14.480 --> 00:02:19.880 align:middle
+Yang paling dikenal adalah Pedoman Aksesibilitas Konten Web - WCAG.
+
+00:02:20.680 --> 00:02:24.240 align:middle
+WCAG juga merupakan standar ISO 40500,
+
+00:02:24.600 --> 00:02:29.840 align:middle
+dan diadopsi sebagai standar di Eropa dengan nama EN 301 549.
+
+00:02:30.520 --> 00:02:33.360 align:middle
+WCAG dibangun berdasarkan empat prinsip utama:
+
+00:02:33.560 --> 00:02:39.920 align:middle
+Pertama, Bisa Ditangkap - sebagai contoh, seseorang bisa melihat sebuah konten, atau mendegarnya.
+
+00:02:40.880 --> 00:02:47.160 align:middle
+Bisa Dioperasikan - sebagai contoh, seseorang bisa menggunakan komputer dengan mengetik, atau melalui suara.
+
+00:02:48.000 --> 00:02:53.360 align:middle
+Bisa Dimengerti - sebagai contoh, seseorang menerima dengan bahasa yang jelas dan sederhana.
+
+00:02:54.120 --> 00:02:58.600 align:middle
+Dan Ulet - agar seseorang dapat menggunakan berbagai teknologi pendukung.
+
+00:02:59.360 --> 00:03:07.000 align:middle
+Selain WCAG, W3C juga menyediakan Pedoman Aksesibilitas Sarana Penulisan - ATAG,
+
+00:03:07.440 --> 00:03:12.840 align:middle
+yang mendefinisikan persyaratan untuk sistem manajemen konten, editor kode, dan perangkat lunak lainnya.
+
+00:03:13.240 --> 00:03:16.880 align:middle
+Dan Pedoman Aksesibilitas Agen Pengguna - UAAG,
+
+00:03:17.160 --> 00:03:20.480 align:middle
+yang mendefinisikan persyaratan untuk browser web dan pemutar media.
+
+00:03:21.000 --> 00:03:27.280 align:middle
+Ada lebih dari satu miliar orang penyandang disabilitas, atau sekitar 15–20% dari populasi.
+
+00:03:28.160 --> 00:03:31.880 align:middle
+Konvensi PBB tentang Hak-hak Penyandang Disabilitas
+
+00:03:32.040 --> 00:03:37.040 align:middle
+menjelaskan bahwa akses pada informasi, termasuk Web, sebagai bagian dari hak asasi manusia.
+
+00:03:38.800 --> 00:03:42.920 align:middle
+Sebagian besar negara di seluruh dunia telah menyepakati konvensi PBB ini,
+
+00:03:43.160 --> 00:03:46.960 align:middle
+dan beberapa juga sudah mengadopsi kebijakan yang mengikat.
+
+00:03:48.040 --> 00:03:51.000 align:middle
+Namun, terlepas dari peraturan mau pun regulasi yang ada,
+
+00:03:51.160 --> 00:03:56.000 align:middle
+menerapkan standar aksesibilitas bersifat esensial bagi penyandang disabilitas,
+
+00:03:56.160 --> 00:03:57.800 align:middle
+dan bermanfaat bagi semua.
+
+00:03:59.000 --> 00:04:05.880 align:middle
+Untuk informasi seputar aksesibilitas web, kunjungi w3.org/WAI

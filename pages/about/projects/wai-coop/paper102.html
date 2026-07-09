@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Are Best Practices Best? Making Technical PDFs More Accessible - Submission for the WAI-CooP Project and the W3C APA symposium on Research and Development Questions in Digital Accessibility</title>
+</head>
+
+<body>
+
+  <aside style="border: solid #900 1px; background: #ebf4f5; font-weight: bold; padding: 0.5em; margin-bottom: 3em;">This position paper is a contribution to the symposium <a href="https://www.w3.org/WAI/about/projects/wai-coop/symposium1/">"Shape the Future: Research and Development Questions in Digital Accessibility"</a>. The content of this paper was not developed
+    by the W3C Web Accessibility Initiative and does not necessarily represent the consensus view of its membership.</aside>
+
+  <h1>Are Best Practices Best? Making Technical PDFs More Accessible</h1>
+  <ul>
+    <li>Seth Polsley. Texas A&amp;M University, <a href="mailto:spolsley@tamu.edu">spolsley@tamu.edu</a></li>
+    <li>Amanda Lacy. Texas A&amp;M University, <a href="mailto:aklacy@tamu.edu">aklacy@tamu.edu</a></li>
+    <li>Tracy Hammond. Texas A&amp;M University, <a href="mailto:hammond@tamu.edu">hammond@tamu.edu</a></li>
+  </ul>
+
+  <h2>Keywords</h2>
+  <p>accessible PDFs, conference guidelines, machine learning</p>
+
+  <h2>1. Problem Addressed</h2>
+  <p>Accessing technical information can be a significant challenge for those who have visual impairments. The Royal National Institute for the Blind identifies several key barriers for those who are blind, including access to technical notation and visual
+    resources, difficulty interpreting visual concepts, exclusionary teaching methods, and more (<a href="#cryer" aria-label="Reference 6">6</a>). While some of these barriers may be unintentional, their impact is worsened by alarming rates of Braille
+    illiteracy, since that is an important skill for comprehension of words and notation-based concepts like math (<a href="#argyropoulos" aria-label="Reference 1">1</a>, <a href="#massof" aria-label="Reference 10">10</a>, <a href="#sauer" aria-label="Reference 15">15</a>).</p>
+  <p>Inaccessible technical content continues to thrive in the most ubiquitous component of academia: research papers. One of the authors of this work is a blind graduate student with an advanced technical degree. A recent experience of writing and submitting
+    a research paper to a top conference uncovered several issues in the way the academic community is approaching accessibility. Most major conferences have guidelines for creating accessible materials, but we followed those guidelines, which required
+    a paid version of <a href="https://www.adobe.com/acrobat/acrobat-pro.html">Adobe Acrobat Pro</a>, only to find the resulting file was very difficult to use.</p>
+  <p>There were a couple reasons for this. First, the file was compiled using <a href="https://www.overleaf.com/project">Overleaf</a>, which does not produce a properly tagged <acronym title="Portable Document Format file">PDF</acronym>. Second, even though
+    Acrobat Pro can add tagging after the fact, our preferred reader is Preview in Mac OS. As Preview does not fully support tagging, the requirement to produce a PDF with line numbers made the resulting file unreadable using Apple's VoiceOver software.</p>
+  <p>It led us to ask the questions: why should a blind researcher be unable to use their preferred reader for technical papers? Sighted researchers generally use any PDF tool they wish. More generally, we ask if the best practices are always best? Given
+    that those with disability continue to be underrepresented in technical fields (<a href="#bellman" aria-label="Reference 3">3</a>), there seems to be a problem. We believe that practices, standards, and software limitations contribute to this problem,
+    and we outline three key issues around these points.</p>
+
+  <h2>2. Relevant background</h2>
+  <p>A recent study found that a significant gap remains in employment rates between those with visual impairments or other disabilities as opposed to those who report having no disability (<a href="#mcdonnall" aria-label="Reference 12">12</a>). While schools
+    and companies have been making strides to be more inclusive and promote diverse voices, underlying issues remain (<a href="#swenor-2019" aria-label="Reference 17">17</a>). One study suggested that young students who are blind are just as likely to
+    want to pursue a technical degree as their peers, but a lack of access to resources and non-inclusive teaching methods can reduce their confidence and ultimately diminish their future prospects for such careers (<a href="#beck-winchatz" aria-label="Reference 2">2</a>,
+    <a href="#villanueva" aria-label="Reference 20">20</a>). Others point to the lack of developing Braille skills at a young age as negatively impacting literacy and learning (<a href="#sauer" aria-label="Reference 15">15</a>, <a href="#schroeder" aria-label="Reference 16">16</a>).</p>
+  <p>Those who have a disability continue to fight barriers in technical fields. This includes lack of teacher awareness for providing materials and a general lack of access to resources (<a href="#villanueva" aria-label="Reference 20">20</a>), although
+    a move to better teaching practices and universal design may help address this issue (<a href="#elliot" aria-label="Reference 7">7</a>). Studies have found a disparity in the awarding of grant funding for research by those with disability (<a href="swenor-2020"
+      aria-label="Reference 18">18</a>). Combined with our own observations of attempting to navigate academic websites, it is understandable how individuals with a disability remain underrepresented in the scientific workforce (<a href="#bellman" aria-label="Reference 3">3</a>,
+    <a href="#greenberg" aria-label="Reference 8">8</a>).</p>
+
+  <h2>3. Challenges</h2>
+  <p>This is a complex topic with many associated challenges. The authors of this paper have encountered many issues with inaccessible websites and requirements that are accidentally exclusive. For this paper we focus specifically on access to technical
+    materials in the form of research papers as PDFs. We break the problem down to address three key aspects based on our experiences:</p>
+  <ol>
+    <li id="practices">Policy and practice regarding accessible research papers</li>
+    <li id="standards">Limitations in PDF authoring and reading software</li>
+    <li id="software">The need for novel software tools to reduce clutter and improve access to resources</li>
+  </ol>
+  <p>It is important to recognize that the landscape of accessible technologies is constantly changing, so while we hope these issues will mostly be resolved in the future, we focus on more immediate outcomes in the form of practical suggestions for updates
+    to conference and journal policies. We then discuss the future aspects on limitations of current software and the need for better approaches.</p>
+
+  <h2>4. Outcomes</h2>
+  <p>Many guidelines for accessible PDFs rely on tagging (<a href="#brady" aria-label="Reference 4">4</a>, <a href="#caldwell" aria-label="Reference 5">5</a>). Tagged PDFs are desirable, but in light of software limitations, it would be ideal if PDFs emphasized
+    having a clear document structure instead of relying entirely on tagging. For example, two column layouts are more complex than single column layouts and may be difficult for screen readers to follow without tagging.</p>
+  <p>Figure 1 demonstrates these simple attributes on an axis of accessibility. It shows three sample PDF layouts with generic filler text, and they are aligned left to right, from inherently less accessible to more. The first sample uses a two column layout
+    with line numbers. While it might be the most efficient for quick reviewing by sighted readers, it is likely to require tagging and need specific software for a blind reviewer. The second sample show a one column layout with line numbers, which makes
+    scrolling easier for everyone but still must be tagged due to line numbers. The third sample shows a single column paper with no line numbers. We believe it to be the simplest and inherently most readable of the three.</p>
+
+  <p>
+    <img src="/WAI/content-images/about/wai-coop/fig1_sample_layouts.png" width=1000px height=265px alt="An image showing sample layouts of three different PDFs, arranged from less accessible layouts on the left to more accessible on the right. In this example, the least is a two-column document with line numbers. The middle is a single-column with numbers, and the most on the right is a single-column with no numbers. The axis is represented as an arrow pointing to the right with the text 'Accessibility of base structure'.">
+    <br> Figure 1: A sample of three PDF layouts sorted from left-to-right in terms of ease and accessibility.
+  </p>
+
+  <p>We recommend that conferences observe a few simple changes to their policies to reduce the risk of undermining their accessibility goals. First, embrace single column and non-numbered layouts. Alternatively, submission sites could provide a separate
+    upload for this version of the paper. Second, in addition to collecting alternative text as submissions fields, encourage the use of more descriptive captions and in-text references. In our experience, many images would be more accessible if the authors
+    focused on making the text description and caption more clear, rather than relying only on alt text. For example, authors should be encouraged to state numbers from tables and graphs where appropriate in text. Third, authors should try to explain
+    their algorithms descriptively instead of only using technical notation.</p>
+
+  <h2>5. Future perspectives</h2>
+  <p>In an ideal case, everyone could use Adobe Acrobat Pro to create and read PDFs. Unfortunately, the software is only available as a paid solution, which is inherently inaccessible for those who have monetary constraints, and it may not be everyone's
+    preferred PDF viewer. We use Apple's Preview. The lack of proper tagging support is an important accessibility issue and must be addressed by Apple, but this is not unique to Preview since many PDF viewers have limited tagging support.</p>
+  <p>Additionally, few alternatives exist to Adobe's software for creating tagged PDFs. Microsoft Word can, but LaTeX, which is widely used in technical fields, continues to create inaccessible PDFs, although there are efforts underway to address this limitation
+    (
+    <a href="#mittelbach" aria-label="Reference 13">13</a>). Post-processors don't have access to the sophisticated algorithm Adobe uses for analyzing layout and assigning tags, and they usually only identify when tags and alt text are missing.</p>
+  <p>Even if all software supported taggingg, does it address every issue? We argue no. A tagged PDF can still have inaccessible math equations, distracting in-text citations, poor alt text, or other issues associated with the PDF format (<a href="#turro"
+      aria-label="Reference 19">19</a>). Sighted individuals often skim over content, having trained themselves to ignore the visual clutter of details like line numbers unless needed. We propose leveraging intelligent interfaces and machine learning to
+    create software to provide blind researchers more of these capabilities.</p>
+  <p>Researchers are already developing some of these ideas, including software to create audio representations of visual spaces (<a href="#kruger" aria-label="Reference 9">9</a>) and pushing for adoption of more extensible tagging in PDFs (<a href="#moore"
+      aria-label="Reference 14">14</a>). Microsoft Word provides an option to automatically recommend alt text. We are working to develop a PDF post-processor to integrate several such features. First, our emphasis is on creating a published tagging algorithm.
+    Second, we seek to reduce clutter by giving the option to remove attributes like line numbers. Third, we wish to provide a summary of text and, potentially, charts. Our goal is to promote the use of machine learning in assistive interfaces to make
+    content more accessible for everyone.</p>
+  <p>In the meantime, we believe great progress can be made through practice. The Easy to Read and Plain Language criteria may be used as guidance for writing descriptions of figures and equations (<a href="#matausch" aria-label="Reference 11">11</a>). Standards
+    should be extended to cover more technical material, as recommended by contemporary research (<a href="#white" aria-label="Reference 21">21</a>); for instance, sonification could be used as an alternative presentation of graphics. File uploads could
+    encourage alternate versions of the same file, and conferences should request paper sources to generate custom outputs, such as HTML and MathML hybrids.</p>
+
+  <h2>References</h2>
+  <ol>
+    <li id="argyropoulos">V. S. Argyropoulos and A. C. Martos (2006) Braille Literacy Skills: An Analysis Of The Concept Of Spelling. Journal Of Visual Impairment And Blindness, 100(11), 676–686.</li>
+    <li id="beck-winchatz">B. Beck-Winchatz and M. A. Riccobono (2008) Advancing Participation Of Blind Students In Science, Technology, Engineering, And Math. Advances In Space Research, 42(11), 1855–1858.</li>
+    <li id="bellman">S. Bellman, S. Burgstahler, and E. H. Chudler (2018) Broadening Participation By Including More Individuals With Disabilities In Stem: Promising Practices From An Engineering Research Center. American Behavioral Scientist, 62 (5), 645–656.</li>
+    <li id="brady">E. Brady, Y. Zhong, and J. P. Bigham (2015) Creating Accessible Pdfs For Conference Proceedings. Proceedings Of The 12th International Web For All Conference, 1–4.</li>
+    <li id="caldwell">B. Caldwell, M. Cooper, L. Guarino-Reid, and G. Vanderheiden (2008) Techniques For Wcag 2.0. World Wide Web Consortium.</li>
+    <li id="cryer">H. Cryer (2013) Teaching Stem Subjects To Blind And Partially Sighted Students: Literature Review And Resources. RNIB Centre For Accessible Information.</li>
+    <li id="elliot">S. N. Elliott, R. J. Kettler, P. A. Beddow, and A. Kurz (2018) Handbook Of Accessible Instruction And Testing Practices: Issues, Innovations, And Applications. Springer.</li>
+    <li id="greenberg">E. E. Greenberg (2012) Overcoming Our Global Disability In The Workforce: Mediating The Dream. St. John's Law Review, 86, 579.</li>
+    <li id="kruger">R. Kruger and L. Van Zijl (2014) Rendering Virtual Worlds In Audio And Text. Proceedings Of International Workshop On Massively Multiuser Virtual Environments, 1–2.</li>
+    <li id="massof">R. W. Massof (2009) The Role Of Braille In The Literacy Of Blind And Visually Impaired Children. Archives Of Ophthalmology, 127 (11), 1530–1531.</li>
+    <li id="matausch">K. Matausch and A. Nietzio (2012) Easy-To-Read And Plain Language: Defining Criteria And Refining Rules. W3C WAI Symposium on Easy-to-Read on the Web.</li>
+    <li id="mcdonnall">M. C. McDonnall and Z. Sui (2019) Employment And Unemployment Rates Of People Who Are Blind Or Visually Impaired: Estimates From Multiple Sources. Journal Of Visual Impairment And Blindness, 113 (6), 481–492.</li>
+    <li id="mittelbach">F. Mittelbach and C. Rowley (2020) Latex Tagged Pdf — A Blueprint For A Large Project. TUGBoat 41 (3), 292</li>
+    <li id="moore">R. Moore (2014) Pdf/a-3u As An Archival Format For Accessible Mathematics. In International Conference on Intelligent Computer Mathematics (pp. 184-199). Springer, Cham.</li>
+    <li id="sauer">L. Sauer (2020) Mathematics For Visually Impaired Students: Increasing Accessibility Of Mathematics Resources With Latex And Nemeth Mathspeak.</li>
+    <li id="schroeder">F. Schroeder (1989) Literacy: The Key To Opportunity. Journal Of Visual Impairment And Blindness, 83(6), 290–293.</li>
+    <li id="swenor-2019">B. Swenor and L. M. Meeks (2019) Disability Inclusion—moving Beyond Mission Statements. New England Journal Of Medicine, 380 (22), 2089–2091.</li>
+    <li id="swenor-2020">B. Swenor, B. Munoz, and L. M. Meeks, (2020) A Decade Of Decline: Grant Funding For Researchers With Disabilities 2008 To 2018. Plos One, 15 (3), E0228686.</li>
+    <li id="turro">M. R. Turro (2008) Are Pdf Documents Accessible? Information Technology And Libraries, 27(3), 25–43.</li>
+    <li id="villanueva">I. Villanueva and M. Di Stefano (2017) Narrative Inquiry On The Teaching Of Stem To Blind High School Students. Education Sciences, 7(4), 89.</li>
+    <li id="white">J. J. White (2021) Making Scientific And Technical Materials Pervasively Accessible. Journal of Science Education for Students with Disabilities, 24(1), 1-19.</li>
+  </ol>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Passed Example 3</title>
+</head>
+<body>
+	<script src="/WAI/content-assets/wcag-act-rules/test-assets/focusable-no-keyboard-trap/keyboard.js"></script>
+	
+	<div onkeydown="escapeTrapOnCtrlM(event)">
+		<a id="link1" href="#">Link 1</a>
+		<button id="btn1" onfocus="trapOn = true" onblur="moveFocusTo('helpLink')">
+			Button 1
+		</button>
+		<a id="helpLink" href="#" onclick="showHelpText()">How to go the next element</a>
+		<div id="helptext"></div>
+		<button id="btn2" onblur="moveFocusTo('btn1')">
+			Button 2
+		</button>
+	</div>
+	<a id="link2" href="#">Link 2</a>
+</body>
+</html>

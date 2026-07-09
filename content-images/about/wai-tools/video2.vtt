@@ -1,0 +1,2984 @@
+WEBVTT
+
+00:00:00.066 --> 00:00:01.533 align:middle line:79% position:50% size:58%
+&gt;&gt; SHADI ABOU-ZAHRA:
+So, let's move directly
+
+00:00:01.600 --> 00:00:04.299 align:middle line:79% position:50% size:53%
+to our first session
+on the development of
+
+00:00:04.366 --> 00:00:06.900 align:middle line:79% position:50% size:65%
+Accessibility
+Conformance Testing rules.
+
+00:00:06.966 --> 00:00:12.500 align:middle line:79% position:50% size:65%
+I want to ask on the
+virtual stage, Wilco Fiers
+
+00:00:12.566 --> 00:00:19.666 align:middle line:79% position:50% size:70%
+from Deque and Kasper Isager
+from Siteimprove and Carlos
+
+00:00:19.733 --> 00:00:24.133 align:middle line:79% position:50% size:65%
+Duarte - Carlos Duarte
+from University of Lisbon.
+
+00:00:24.199 --> 00:00:27.266 align:middle line:79% position:50% size:63%
+If the three of you could
+just briefly - Wilco can
+
+00:00:27.333 --> 00:00:29.266 align:middle line:79% position:50% size:63%
+you say a few words about
+yourself, just introduce
+
+00:00:29.333 --> 00:00:30.966 align:middle line:85% position:50% size:63%
+yourself to the audience.
+
+00:00:31.033 --> 00:00:32.200 align:middle line:79% position:50% size:38%
+&gt;&gt; WILCO FIERS:
+I sure can.
+
+00:00:32.266 --> 00:00:34.899 align:middle line:79% position:50% size:40%
+Can you guys
+hear me alright?
+
+00:00:34.966 --> 00:00:36.233 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Yep, all fine.
+
+00:00:36.299 --> 00:00:37.066 align:middle line:79% position:50% size:38%
+&gt;&gt; WILCO FIERS:
+Fantastic.
+
+00:00:37.133 --> 00:00:38.799 align:middle line:79% position:50% size:50%
+Alright, so my
+name is Wilco Fiers.
+
+00:00:38.866 --> 00:00:40.899 align:middle line:85% position:50% size:63%
+I work for Deque Systems.
+
+00:00:40.966 --> 00:00:43.833 align:middle line:79% position:50% size:50%
+I am a product owner
+and project manager.
+
+00:00:43.899 --> 00:00:48.166 align:middle line:79% position:50% size:73%
+There, I am responsible
+for Axe-core which is Deque's
+
+00:00:48.233 --> 00:00:52.833 align:middle line:79% position:50% size:73%
+open source accessibility
+engine which Shadi mentioned.
+
+00:00:52.899 --> 00:00:56.366 align:middle line:79% position:50% size:58%
+In addition to that,
+I spend part of my time
+
+00:00:56.433 --> 00:00:58.266 align:middle line:85% position:50% size:45%
+on W3C activities.
+
+00:00:58.333 --> 00:01:04.566 align:middle line:79% position:50% size:63%
+I am the chair of the ACT
+Rules Community Group, a
+
+00:01:04.633 --> 00:01:08.966 align:middle line:79% position:50% size:60%
+facilitator on the ACT
+Task Force, as well as a
+
+00:01:09.033 --> 00:01:13.000 align:middle line:79% position:50% size:50%
+member of the Silver
+Task Force which is
+
+00:01:13.066 --> 00:01:17.200 align:middle line:85% position:50% size:70%
+currently developing WCAG 3.
+
+00:01:17.266 --> 00:01:18.566 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Thank you, Wilco.
+
+00:01:18.633 --> 00:01:21.700 align:middle line:79% position:50% size:63%
+And all these groups that
+Wilco mentioned, the task
+
+00:01:21.766 --> 00:01:23.933 align:middle line:79% position:50% size:53%
+force and community
+group and so on, will
+
+00:01:24.000 --> 00:01:25.766 align:middle line:79% position:50% size:45%
+be explained in
+this presentation.
+
+00:01:25.833 --> 00:01:27.500 align:middle line:79% position:50% size:45%
+&gt;&gt; WILCO FIERS:
+Don't worry about.
+
+00:01:27.566 --> 00:01:28.233 align:middle line:85% position:50% size:33%
+We'll get it.
+
+00:01:28.299 --> 00:01:30.233 align:middle line:85% position:50% size:40%
+We'll get to it.
+
+00:01:30.299 --> 00:01:31.566 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+We'll get there.
+
+00:01:31.633 --> 00:01:32.233 align:middle line:85% position:50% size:38%
+Piece by piece.
+
+00:01:32.299 --> 00:01:33.666 align:middle line:85% position:50% size:60%
+We love acronyms in W3C.
+
+00:01:33.733 --> 00:01:36.733 align:middle line:79% position:50% size:78%
+&gt;&gt; WILCO FIERS: I have
+too many hats also, to be fair.
+
+00:01:36.799 --> 00:01:40.599 align:middle line:79% position:50% size:70%
+&gt;&gt; SHADI ABOU-ZAHRA: Kasper,
+please introduce yourself.
+
+00:01:40.666 --> 00:01:41.933 align:middle line:79% position:50% size:65%
+&gt;&gt; KASPER ISAGER:
+Yes, I will make it short.
+
+00:01:42.000 --> 00:01:43.466 align:middle line:85% position:50% size:65%
+I don't have as many hats.
+
+00:01:43.533 --> 00:01:46.700 align:middle line:79% position:50% size:63%
+My name is Kasper Isager
+and I work as the product
+
+00:01:46.766 --> 00:01:49.299 align:middle line:79% position:50% size:38%
+owner of Alfa
+at Siteimprove.
+
+00:01:49.366 --> 00:01:52.033 align:middle line:79% position:50% size:43%
+And then Alfa is
+our accessibility
+
+00:01:52.099 --> 00:01:54.099 align:middle line:85% position:50% size:60%
+conformance test engine.
+
+00:01:56.500 --> 00:01:57.099 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Welcome.
+
+00:01:57.166 --> 00:02:01.566 align:middle line:79% position:50% size:53%
+Well, you don't
+need to be so humble.
+
+00:02:01.633 --> 00:02:05.433 align:middle line:79% position:50% size:65%
+Kasper is a mastermind of
+a lot of the accessibility
+
+00:02:05.500 --> 00:02:10.500 align:middle line:79% position:50% size:73%
+engines at
+Siteimprove as far as I know.
+
+00:02:14.166 --> 00:02:16.199 align:middle line:79% position:50% size:55%
+&gt;&gt; CARLOS DUARTE:
+Hi, I'm Carlos Duarte.
+
+00:02:16.266 --> 00:02:19.400 align:middle line:79% position:50% size:65%
+I teach - well my main
+responsibility is to teach
+
+00:02:19.466 --> 00:02:23.933 align:middle line:79% position:50% size:75%
+computer science at the
+University of Lisbon, although
+
+00:02:24.000 --> 00:02:28.166 align:middle line:79% position:50% size:63%
+my research is focused a
+lot on web accessibility.
+
+00:02:28.233 --> 00:02:31.433 align:middle line:79% position:50% size:70%
+And so, as part of my
+responsibilities in teaching
+
+00:02:31.500 --> 00:02:35.699 align:middle line:79% position:50% size:73%
+computer science, I also
+teach web accessibility to my
+
+00:02:35.766 --> 00:02:40.599 align:middle line:79% position:50% size:50%
+students and I also
+have some more hats.
+
+00:02:40.666 --> 00:02:46.033 align:middle line:79% position:50% size:58%
+Together with Wilco,
+I'm co-chairing the ACT
+
+00:02:46.099 --> 00:02:52.066 align:middle line:79% position:50% size:60%
+Community Group and also
+another hat for the W3C
+
+00:02:52.133 --> 00:02:53.900 align:middle line:79% position:50% size:58%
+where I do work for the
+Education and Outreach
+
+00:02:53.966 --> 00:02:59.966 align:middle line:79% position:50% size:68%
+Working Group, specifically
+on preparing the new - the
+
+00:03:00.033 --> 00:03:02.966 align:middle line:79% position:50% size:60%
+curricula, the new web
+accessibility curricula.
+
+00:03:05.900 --> 00:03:07.166 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Thank you, Carlos.
+
+00:03:07.233 --> 00:03:09.500 align:middle line:85% position:50% size:50%
+And Wilco, go ahead.
+
+00:03:09.566 --> 00:03:13.000 align:middle line:79% position:50% size:55%
+Take it away please
+with the presentation.
+
+00:03:18.566 --> 00:03:19.833 align:middle line:79% position:50% size:35%
+And this time
+you are muted.
+
+00:03:19.900 --> 00:03:21.466 align:middle line:79% position:50% size:40%
+&gt;&gt; WILCO FIERS:
+I should unmute.
+
+00:03:21.533 --> 00:03:22.866 align:middle line:79% position:50% size:45%
+Do you mind going
+to the next slide?
+
+00:03:28.166 --> 00:03:29.566 align:middle line:85% position:50% size:50%
+Thank you very much.
+
+00:03:29.633 --> 00:03:35.333 align:middle line:79% position:50% size:75%
+So, I just wanted to get into
+the goals of ACT really quick.
+
+00:03:35.400 --> 00:03:37.566 align:middle line:79% position:50% size:43%
+Again, ACT stands
+for Accessibility
+
+00:03:37.633 --> 00:03:39.300 align:middle line:85% position:50% size:50%
+Conformance Testing.
+
+00:03:39.366 --> 00:03:42.733 align:middle line:79% position:50% size:68%
+The project wasn't
+setup as part of WAI-Tools.
+
+00:03:42.800 --> 00:03:46.300 align:middle line:79% position:50% size:43%
+It predates it
+by several years.
+
+00:03:46.366 --> 00:03:51.066 align:middle line:79% position:50% size:65%
+Some of you may also know
+it as Auto-WCAG which is a
+
+00:03:51.133 --> 00:03:57.199 align:middle line:79% position:50% size:78%
+group that later got
+renamed to the ACT Rules Group.
+
+00:04:00.300 --> 00:04:03.633 align:middle line:79% position:50% size:68%
+And the reason that
+group was started off is to
+
+00:04:03.699 --> 00:04:07.199 align:middle line:79% position:50% size:55%
+improve consistency in
+accessibility testing.
+
+00:04:07.266 --> 00:04:10.833 align:middle line:79% position:50% size:65%
+So, one of the greater
+challenges Shadi mentioned
+
+00:04:10.900 --> 00:04:13.199 align:middle line:85% position:50% size:55%
+is consistent testing.
+
+00:04:13.266 --> 00:04:17.466 align:middle line:79% position:50% size:68%
+You do want, when you
+get a report from somebody,
+
+00:04:17.533 --> 00:04:22.466 align:middle line:79% position:50% size:53%
+for that report to be
+accurate and based on
+
+00:04:22.533 --> 00:04:25.000 align:middle line:85% position:50% size:48%
+well-founded ideas.
+
+00:04:25.066 --> 00:04:29.233 align:middle line:79% position:50% size:65%
+Otherwise, you might
+fix something and you have
+
+00:04:29.300 --> 00:04:32.466 align:middle line:79% position:50% size:73%
+somebody else take a look at
+it and they find more things.
+
+00:04:32.533 --> 00:04:35.533 align:middle line:79% position:50% size:60%
+Or they may find
+completely contradicting
+
+00:04:35.600 --> 00:04:40.500 align:middle line:79% position:50% size:48%
+things which can be
+fairly frustrating.
+
+00:04:40.566 --> 00:04:44.399 align:middle line:79% position:50% size:63%
+If you don't have a clear
+definition of when your
+
+00:04:44.466 --> 00:04:48.300 align:middle line:79% position:50% size:58%
+project is sufficiently
+accessible, that makes
+
+00:04:48.366 --> 00:04:51.966 align:middle line:85% position:50% size:43%
+life pretty hard.
+
+00:04:52.033 --> 00:04:58.000 align:middle line:79% position:50% size:63%
+This kind of gets
+exacerbated when you look
+
+00:04:58.066 --> 00:05:01.800 align:middle line:79% position:50% size:65%
+at something like European
+Union which is starting to
+
+00:05:01.866 --> 00:05:07.766 align:middle line:79% position:50% size:65%
+track the accessibility of
+government websites across
+
+00:05:07.833 --> 00:05:09.466 align:middle line:85% position:50% size:50%
+the whole of Europe.
+
+00:05:09.533 --> 00:05:12.433 align:middle line:79% position:50% size:68%
+If Denmark tests things
+in a different way than the
+
+00:05:12.500 --> 00:05:15.399 align:middle line:79% position:50% size:65%
+Netherlands does, what
+you'll end up with is with
+
+00:05:15.466 --> 00:05:20.033 align:middle line:79% position:50% size:58%
+results that don't -
+aren't very comparable.
+
+00:05:20.100 --> 00:05:25.033 align:middle line:79% position:50% size:65%
+Even worse, you might have
+a website that is relevant
+
+00:05:25.100 --> 00:05:27.733 align:middle line:79% position:50% size:63%
+in multiple countries and
+if they used different
+
+00:05:27.800 --> 00:05:30.466 align:middle line:79% position:50% size:60%
+testing methodologies to
+gauge whether or not you
+
+00:05:30.533 --> 00:05:33.533 align:middle line:79% position:50% size:63%
+complied with the law -
+because that's what we're
+
+00:05:33.600 --> 00:05:37.866 align:middle line:79% position:50% size:68%
+getting to at a certain
+point; it should be legally
+
+00:05:37.933 --> 00:05:40.766 align:middle line:79% position:50% size:58%
+required to meet these
+standards - if they are
+
+00:05:40.833 --> 00:05:45.300 align:middle line:79% position:50% size:65%
+testing along different
+methods, you may find that
+
+00:05:45.366 --> 00:05:49.066 align:middle line:79% position:50% size:70%
+your website complies in one
+country but not in the other
+
+00:05:49.133 --> 00:05:53.500 align:middle line:79% position:50% size:73%
+even though you're testing
+along the same WCAG standard.
+
+00:05:53.566 --> 00:05:56.566 align:middle line:79% position:50% size:53%
+So, that's really the
+issue and the problem
+
+00:05:56.633 --> 00:05:57.933 align:middle line:85% position:50% size:45%
+isn't too extreme.
+
+00:05:58.000 --> 00:06:00.833 align:middle line:79% position:50% size:63%
+Like, it's not like WCAG
+is all over the place and
+
+00:06:00.899 --> 00:06:04.899 align:middle line:85% position:50% size:50%
+results go anywhere.
+
+00:06:04.966 --> 00:06:11.466 align:middle line:79% position:50% size:68%
+But there are differences
+there and it kind of erodes
+
+00:06:11.533 --> 00:06:15.000 align:middle line:79% position:50% size:68%
+the trust that you can
+get from results like that.
+
+00:06:15.066 --> 00:06:20.566 align:middle line:79% position:50% size:50%
+So, that is what
+ACT was setup to do.
+
+00:06:20.633 --> 00:06:25.600 align:middle line:79% position:50% size:63%
+And our goal there is, as
+I mentioned, we started
+
+00:06:25.666 --> 00:06:29.199 align:middle line:79% position:50% size:65%
+first off with Auto-WCAG
+which is really focused on
+
+00:06:29.266 --> 00:06:31.100 align:middle line:85% position:50% size:65%
+doing this for automation.
+
+00:06:31.166 --> 00:06:35.933 align:middle line:79% position:50% size:63%
+But then we broadened
+it out to address testing
+
+00:06:36.000 --> 00:06:37.800 align:middle line:85% position:50% size:55%
+methodologies as well.
+
+00:06:37.866 --> 00:06:40.433 align:middle line:79% position:50% size:63%
+And testing methodology
+is not a well-established
+
+00:06:40.500 --> 00:06:44.500 align:middle line:79% position:50% size:58%
+term but if you ask
+around in accessibility
+
+00:06:44.566 --> 00:06:47.833 align:middle line:79% position:50% size:60%
+institutions around the
+world, most of them have
+
+00:06:47.899 --> 00:06:52.633 align:middle line:79% position:50% size:65%
+some sort of document that
+tells you how to interpret
+
+00:06:52.699 --> 00:06:55.833 align:middle line:79% position:50% size:70%
+WCAG, like what you do
+with this particular element
+
+00:06:55.899 --> 00:06:59.466 align:middle line:79% position:50% size:73%
+on a page and with that
+particular element on a page.
+
+00:06:59.533 --> 00:07:04.166 align:middle line:79% position:50% size:78%
+One of the great things
+about the kind of accessibility
+
+00:07:04.233 --> 00:07:11.033 align:middle line:79% position:50% size:68%
+guidelines is that it was
+written in a way that it is
+
+00:07:11.100 --> 00:07:14.466 align:middle line:79% position:50% size:70%
+technology agnostic so that
+it can live for a long time,
+
+00:07:14.533 --> 00:07:18.633 align:middle line:79% position:50% size:70%
+so that it isn't just
+applicable to one particular
+
+00:07:18.699 --> 00:07:21.966 align:middle line:79% position:50% size:73%
+version of the web standards,
+but it should be applicable
+
+00:07:22.033 --> 00:07:24.000 align:middle line:85% position:50% size:38%
+to all of them.
+
+00:07:24.066 --> 00:07:26.733 align:middle line:79% position:50% size:63%
+But that also means there
+is some vagueness there
+
+00:07:26.800 --> 00:07:30.800 align:middle line:79% position:50% size:50%
+that does require
+that interpretation.
+
+00:07:30.866 --> 00:07:33.666 align:middle line:79% position:50% size:63%
+So those interpretations,
+those are what we are
+
+00:07:33.733 --> 00:07:38.199 align:middle line:79% position:50% size:65%
+trying to capture with the
+ACT Rules and so this is
+
+00:07:38.266 --> 00:07:42.633 align:middle line:79% position:50% size:65%
+applicable really to lots
+and lots of organizations.
+
+00:07:42.699 --> 00:07:44.699 align:middle line:85% position:50% size:45%
+Next slide please.
+
+00:07:49.866 --> 00:07:53.933 align:middle line:79% position:50% size:68%
+So, we've developed this
+rules format, the ACT Rules
+
+00:07:54.000 --> 00:07:59.899 align:middle line:79% position:50% size:60%
+Format, and the benefits
+of that are fairly wide.
+
+00:07:59.966 --> 00:08:04.233 align:middle line:79% position:50% size:58%
+So, like I mentioned,
+we've been working with
+
+00:08:04.300 --> 00:08:06.366 align:middle line:79% position:50% size:45%
+this format for
+several years now.
+
+00:08:06.433 --> 00:08:09.199 align:middle line:79% position:50% size:65%
+That is really the goal
+of this project, is to use
+
+00:08:09.266 --> 00:08:12.033 align:middle line:79% position:50% size:50%
+the rules format and
+develop these rules.
+
+00:08:12.100 --> 00:08:16.300 align:middle line:79% position:50% size:80%
+And it has really improved
+the quality of the organizations
+
+00:08:16.366 --> 00:08:21.266 align:middle line:79% position:50% size:75%
+that have adopted this,
+like in noticeable ways things
+
+00:08:21.333 --> 00:08:24.500 align:middle line:79% position:50% size:40%
+have gotten
+more consistent.
+
+00:08:24.566 --> 00:08:27.433 align:middle line:79% position:50% size:63%
+That has been between the
+project partners but also
+
+00:08:27.500 --> 00:08:31.600 align:middle line:79% position:50% size:65%
+organizations outside of
+the WAI-Tools Project that
+
+00:08:31.666 --> 00:08:35.766 align:middle line:79% position:50% size:65%
+have been using the ACT
+Rules to make their tools,
+
+00:08:35.833 --> 00:08:38.533 align:middle line:79% position:50% size:75%
+to make their testing
+methodologies more consistent.
+
+00:08:38.600 --> 00:08:41.733 align:middle line:79% position:50% size:68%
+So, we are seeing
+concrete evidence that this
+
+00:08:41.799 --> 00:08:43.533 align:middle line:79% position:50% size:35%
+approach seems
+to be working.
+
+00:08:46.566 --> 00:08:52.666 align:middle line:79% position:50% size:58%
+By writing these rules,
+we then have a more
+
+00:08:52.733 --> 00:08:57.766 align:middle line:79% position:50% size:58%
+authoritative set of
+things that we know are
+
+00:08:57.833 --> 00:09:02.966 align:middle line:79% position:50% size:65%
+conforming to WCAG or are
+not conforming to WCAG and
+
+00:09:03.033 --> 00:09:06.399 align:middle line:79% position:50% size:63%
+what we've ended up doing
+is to share these rules
+
+00:09:06.466 --> 00:09:09.500 align:middle line:79% position:50% size:53%
+with the W3C and to
+have those published.
+
+00:09:09.566 --> 00:09:12.766 align:middle line:79% position:50% size:68%
+There are currently eleven
+of the rules that have been
+
+00:09:12.833 --> 00:09:15.399 align:middle line:79% position:50% size:65%
+developed, that have
+been published by the W3C.
+
+00:09:15.466 --> 00:09:19.100 align:middle line:79% position:50% size:58%
+So, these are really
+validated by the people
+
+00:09:19.166 --> 00:09:21.566 align:middle line:85% position:50% size:60%
+that wrote the standard.
+
+00:09:21.633 --> 00:09:24.233 align:middle line:79% position:50% size:60%
+So, this gives us a lot
+more credibility as well
+
+00:09:24.299 --> 00:09:25.466 align:middle line:79% position:50% size:40%
+for the work
+that we've done.
+
+00:09:25.533 --> 00:09:29.433 align:middle line:79% position:50% size:65%
+This is the way you're
+supposed to interpret WCAG
+
+00:09:29.500 --> 00:09:35.866 align:middle line:79% position:50% size:53%
+for the HTML standard
+or for SVG documents.
+
+00:09:35.933 --> 00:09:38.966 align:middle line:79% position:50% size:53%
+And by doing this, we
+resolve a lot of open
+
+00:09:39.033 --> 00:09:41.100 align:middle line:85% position:50% size:48%
+questions for WCAG.
+
+00:09:41.166 --> 00:09:49.399 align:middle line:79% position:50% size:65%
+One example of such a
+question is if you have an
+
+00:09:49.466 --> 00:09:53.899 align:middle line:79% position:50% size:63%
+image with the text right
+next to it and the image
+
+00:09:53.966 --> 00:09:58.033 align:middle line:79% position:50% size:65%
+basically says the same as
+the text, does that image
+
+00:09:58.100 --> 00:10:01.866 align:middle line:79% position:50% size:48%
+need to have a text
+alternative or not?
+
+00:10:01.933 --> 00:10:05.133 align:middle line:79% position:50% size:43%
+It's kind of a
+debated question.
+
+00:10:05.200 --> 00:10:08.200 align:middle line:79% position:50% size:53%
+Some accessibility
+experts say yes, some
+
+00:10:08.266 --> 00:10:10.433 align:middle line:79% position:50% size:63%
+accessibility experts say
+no, you absolutely should
+
+00:10:10.500 --> 00:10:14.866 align:middle line:79% position:50% size:68%
+not do that, and the rules
+answer this question for us
+
+00:10:14.933 --> 00:10:18.766 align:middle line:79% position:50% size:55%
+definitively so we do
+not have to have these
+
+00:10:18.833 --> 00:10:21.200 align:middle line:85% position:50% size:55%
+conversations anymore.
+
+00:10:21.266 --> 00:10:25.733 align:middle line:79% position:50% size:50%
+It clears things
+up in a lot of ways.
+
+00:10:25.799 --> 00:10:31.200 align:middle line:79% position:50% size:65%
+And by clearing this up,
+we enable organizations to
+
+00:10:31.266 --> 00:10:36.666 align:middle line:79% position:50% size:70%
+test more consistently,
+which - allows accessibility
+
+00:10:36.733 --> 00:10:39.066 align:middle line:79% position:50% size:50%
+results to be
+more widely trusted.
+
+00:10:39.133 --> 00:10:43.466 align:middle line:79% position:50% size:55%
+You can trust that one
+organization using ACT
+
+00:10:43.533 --> 00:10:49.833 align:middle line:79% position:50% size:70%
+Rules will produce almost
+identical results to another
+
+00:10:49.899 --> 00:10:53.200 align:middle line:79% position:50% size:63%
+organization using
+those same sets of rules.
+
+00:10:53.266 --> 00:10:55.299 align:middle line:79% position:50% size:63%
+There can still be
+small differences but the
+
+00:10:55.366 --> 00:10:58.700 align:middle line:79% position:50% size:68%
+differences are far smaller
+than what they used to be.
+
+00:10:58.766 --> 00:11:01.166 align:middle line:85% position:50% size:45%
+Next slide please.
+
+00:11:07.100 --> 00:11:09.733 align:middle line:79% position:50% size:68%
+So, just to get into
+some of the things that you
+
+00:11:09.799 --> 00:11:12.000 align:middle line:85% position:50% size:48%
+get from ACT Rules.
+
+00:11:12.066 --> 00:11:16.100 align:middle line:79% position:50% size:63%
+I think I might have been
+going over time already,
+
+00:11:16.166 --> 00:11:17.600 align:middle line:85% position:50% size:60%
+so I'll keep that quick.
+
+00:11:17.666 --> 00:11:23.266 align:middle line:79% position:50% size:65%
+So, ACT Rules use
+unambiguous language which
+
+00:11:23.333 --> 00:11:25.866 align:middle line:79% position:50% size:58%
+is great because it
+helps you answer things
+
+00:11:25.933 --> 00:11:28.266 align:middle line:85% position:50% size:55%
+in a very precise way.
+
+00:11:28.333 --> 00:11:33.066 align:middle line:79% position:50% size:60%
+If you need to know what
+something means, how to
+
+00:11:33.133 --> 00:11:36.033 align:middle line:79% position:50% size:53%
+interpret a thing,
+the ACT Rules offer a
+
+00:11:36.100 --> 00:11:39.033 align:middle line:85% position:50% size:63%
+very precise description.
+
+00:11:39.100 --> 00:11:45.166 align:middle line:79% position:50% size:78%
+So there's no more, well, it
+depends kind of thing going on.
+
+00:11:45.233 --> 00:11:48.033 align:middle line:79% position:50% size:60%
+ACT Rules are very clear
+on when something should
+
+00:11:48.100 --> 00:11:50.066 align:middle line:79% position:50% size:55%
+pass and when
+something should fail.
+
+00:11:50.133 --> 00:11:57.799 align:middle line:79% position:50% size:58%
+ACT Rules also document
+assistive technologies.
+
+00:11:57.866 --> 00:12:03.966 align:middle line:79% position:50% size:65%
+If something doesn't work
+in some screen readers but
+
+00:12:04.033 --> 00:12:06.500 align:middle line:79% position:50% size:63%
+it does in others, you
+can find that information
+
+00:12:06.566 --> 00:12:10.100 align:middle line:79% position:50% size:55%
+in the rules and this
+helps you frame how to
+
+00:12:10.166 --> 00:12:12.299 align:middle line:85% position:50% size:58%
+understand the results.
+
+00:12:12.366 --> 00:12:15.533 align:middle line:79% position:50% size:63%
+So, in some cases you may
+still see an issue if you
+
+00:12:15.600 --> 00:12:18.733 align:middle line:79% position:50% size:60%
+try something with a
+particular screen reader
+
+00:12:18.799 --> 00:12:22.066 align:middle line:79% position:50% size:45%
+that you don't
+see in the report.
+
+00:12:22.133 --> 00:12:24.866 align:middle line:79% position:50% size:58%
+That really helps
+you understand what the
+
+00:12:24.933 --> 00:12:26.100 align:middle line:85% position:50% size:55%
+results actually mean.
+
+00:12:26.166 --> 00:12:30.966 align:middle line:79% position:50% size:53%
+Then they
+document assumptions.
+
+00:12:31.033 --> 00:12:37.600 align:middle line:79% position:50% size:63%
+So, if there are very
+unlikely edge cases or if
+
+00:12:37.666 --> 00:12:40.500 align:middle line:79% position:50% size:65%
+there's a particular
+interpretation that may be
+
+00:12:40.566 --> 00:12:47.166 align:middle line:79% position:50% size:65%
+controversial or that is
+unusual, then that will be
+
+00:12:47.233 --> 00:12:49.766 align:middle line:79% position:50% size:58%
+documented in the
+rule itself so you will
+
+00:12:49.833 --> 00:12:54.399 align:middle line:79% position:50% size:60%
+understand why is the
+result the way it is and
+
+00:12:54.466 --> 00:12:59.399 align:middle line:79% position:50% size:60%
+that really helps you
+frame the results again.
+
+00:12:59.466 --> 00:13:04.200 align:middle line:79% position:50% size:58%
+And then lastly but not
+least important either,
+
+00:13:04.266 --> 00:13:08.166 align:middle line:79% position:50% size:60%
+diagnostic for
+tools and methodologies.
+
+00:13:08.233 --> 00:13:12.733 align:middle line:79% position:50% size:60%
+We want ACT Rules to
+be something that can be
+
+00:13:12.799 --> 00:13:17.233 align:middle line:79% position:50% size:60%
+implemented irrespective
+of whether or not you're
+
+00:13:17.299 --> 00:13:20.433 align:middle line:79% position:50% size:53%
+doing it manually or
+if you're automating.
+
+00:13:20.500 --> 00:13:23.899 align:middle line:79% position:50% size:43%
+That really
+shouldn't matter.
+
+00:13:23.966 --> 00:13:26.399 align:middle line:79% position:50% size:63%
+It shouldn't matter if
+you're using a particular
+
+00:13:26.466 --> 00:13:31.799 align:middle line:79% position:50% size:78%
+technology stack in your tool
+or some other technology stack.
+
+00:13:31.866 --> 00:13:34.933 align:middle line:79% position:50% size:58%
+These are written in
+a way that everybody is
+
+00:13:35.000 --> 00:13:36.799 align:middle line:85% position:50% size:70%
+doing accessibility testing.
+
+00:13:36.866 --> 00:13:39.266 align:middle line:79% position:50% size:58%
+Whether it be fully
+automated or completely
+
+00:13:39.333 --> 00:13:42.233 align:middle line:79% position:50% size:55%
+manual or somewhere in
+between, you should be
+
+00:13:42.299 --> 00:13:44.200 align:middle line:85% position:50% size:60%
+able to implement these.
+
+00:13:44.266 --> 00:13:50.166 align:middle line:79% position:50% size:60%
+I think with that, I am
+passing it on to Kasper.
+
+00:13:50.233 --> 00:13:53.266 align:middle line:79% position:50% size:43%
+&gt;&gt; KASPER ISAGER:
+Alrighty.
+
+00:13:53.333 --> 00:13:57.000 align:middle line:79% position:50% size:63%
+So, I will just briefly
+talk about the rules that
+
+00:13:57.066 --> 00:14:00.233 align:middle line:79% position:50% size:63%
+we developed as part of
+the project and then also
+
+00:14:00.299 --> 00:14:04.366 align:middle line:79% position:50% size:65%
+briefly touch on how these
+were actually developed.
+
+00:14:04.433 --> 00:14:09.266 align:middle line:79% position:50% size:63%
+So, just for an overview,
+we initially set out to
+
+00:14:09.333 --> 00:14:13.366 align:middle line:79% position:50% size:65%
+develop a total of seventy
+of these ACT Rules, of
+
+00:14:13.433 --> 00:14:16.500 align:middle line:79% position:50% size:60%
+which we wanted thirty
+to be fully automatable,
+
+00:14:16.566 --> 00:14:18.866 align:middle line:79% position:50% size:60%
+twenty-five of them were
+to be semi-automatable,
+
+00:14:18.933 --> 00:14:23.799 align:middle line:79% position:50% size:60%
+and fifteen were to be
+completely manual rules.
+
+00:14:23.866 --> 00:14:27.399 align:middle line:79% position:50% size:58%
+And we started out by
+trying to cover as much
+
+00:14:27.466 --> 00:14:31.133 align:middle line:79% position:50% size:70%
+crowd as possible in
+terms of the type of content
+
+00:14:31.200 --> 00:14:32.600 align:middle line:85% position:50% size:65%
+that the rules dealt with.
+
+00:14:32.666 --> 00:14:35.799 align:middle line:79% position:50% size:68%
+So, we were looking at
+the text content, graphics,
+
+00:14:35.866 --> 00:14:40.000 align:middle line:79% position:50% size:63%
+audio/visual media, all
+the stuff that was really
+
+00:14:40.066 --> 00:14:44.233 align:middle line:79% position:50% size:65%
+based on, in many cases,
+the existing rulesets that
+
+00:14:44.299 --> 00:14:47.000 align:middle line:79% position:50% size:55%
+the individual project
+partners already had
+
+00:14:47.066 --> 00:14:49.633 align:middle line:79% position:50% size:58%
+implemented in
+their individual tools.
+
+00:14:49.700 --> 00:14:53.100 align:middle line:79% position:50% size:75%
+And then later on as the
+project progressed, we started
+
+00:14:53.166 --> 00:14:55.333 align:middle line:79% position:50% size:63%
+seeing more and more
+specialized rules focused
+
+00:14:55.399 --> 00:14:58.500 align:middle line:79% position:50% size:63%
+on increasingly narrow
+aspects of their content.
+
+00:14:58.566 --> 00:15:01.966 align:middle line:79% position:50% size:60%
+We started looking at
+stuff like orientational
+
+00:15:02.033 --> 00:15:09.100 align:middle line:79% position:50% size:70%
+arcs implemented using
+CSS and also things like CSS
+
+00:15:09.166 --> 00:15:13.100 align:middle line:79% position:50% size:70%
+declarations that couldn't
+be overwritten by the users.
+
+00:15:13.166 --> 00:15:16.500 align:middle line:79% position:50% size:63%
+So, much more specialized
+failure cases than the
+
+00:15:16.566 --> 00:15:19.233 align:middle line:79% position:50% size:45%
+stuff that we
+initially covered.
+
+00:15:19.299 --> 00:15:21.733 align:middle line:79% position:50% size:60%
+We also ended up
+developing several rules
+
+00:15:21.799 --> 00:15:26.166 align:middle line:79% position:50% size:60%
+that didn't relate
+directly to the WCAG but
+
+00:15:26.233 --> 00:15:29.200 align:middle line:79% position:50% size:63%
+we are looking at things
+like WAI-ARIA conformance
+
+00:15:29.266 --> 00:15:32.033 align:middle line:79% position:50% size:60%
+and also its associated
+authoring practices that
+
+00:15:32.100 --> 00:15:36.833 align:middle line:79% position:50% size:53%
+define best practices
+for use of WAI-ARIA.
+
+00:15:36.899 --> 00:15:39.233 align:middle line:79% position:50% size:60%
+And with that, I
+will cue the next slide.
+
+00:15:43.466 --> 00:15:44.666 align:middle line:85% position:50% size:25%
+Thank you.
+
+00:15:44.733 --> 00:15:47.066 align:middle line:79% position:50% size:65%
+So, as already mentioned,
+these rules were developed
+
+00:15:47.133 --> 00:15:51.633 align:middle line:79% position:50% size:60%
+in an open W3C Community
+Group, and within that
+
+00:15:51.700 --> 00:15:53.933 align:middle line:79% position:50% size:60%
+group the first thing we
+of course had to decide,
+
+00:15:54.000 --> 00:15:56.899 align:middle line:79% position:50% size:65%
+also among the project
+partners, were which rules
+
+00:15:56.966 --> 00:15:59.433 align:middle line:79% position:50% size:45%
+we actually
+wanted to develop.
+
+00:15:59.500 --> 00:16:02.233 align:middle line:79% position:50% size:50%
+And for this, we had
+a list of a defined
+
+00:16:02.299 --> 00:16:05.666 align:middle line:79% position:50% size:65%
+selection criteria so we
+would look at things like,
+
+00:16:05.733 --> 00:16:10.500 align:middle line:79% position:50% size:58%
+so, a proposed rule for
+example or how many new
+
+00:16:10.566 --> 00:16:12.566 align:middle line:79% position:50% size:55%
+additional success
+criteria from the WCAG
+
+00:16:12.633 --> 00:16:15.633 align:middle line:79% position:50% size:73%
+does it cover that we haven't
+already covered, and what is
+
+00:16:15.700 --> 00:16:19.600 align:middle line:79% position:50% size:73%
+the, sort of the options both
+across the project partners
+
+00:16:19.666 --> 00:16:23.333 align:middle line:79% position:50% size:65%
+and how easy would it be
+to implement in our tools,
+
+00:16:23.399 --> 00:16:26.766 align:middle line:79% position:50% size:70%
+and also how likely was
+it that this was a rule that
+
+00:16:26.833 --> 00:16:29.933 align:middle line:79% position:50% size:50%
+would be picked
+up by the community.
+
+00:16:30.000 --> 00:16:33.166 align:middle line:79% position:50% size:65%
+And then once we had
+selected rules to develop,
+
+00:16:33.233 --> 00:16:36.966 align:middle line:79% position:50% size:63%
+we would incubate them in
+this open community group
+
+00:16:37.033 --> 00:16:39.866 align:middle line:79% position:50% size:63%
+with input both from the
+project partners but also
+
+00:16:39.933 --> 00:16:40.833 align:middle line:85% position:50% size:50%
+the wider community.
+
+00:16:40.899 --> 00:16:42.833 align:middle line:79% position:50% size:60%
+And this is really when
+the bulk of the work was
+
+00:16:42.899 --> 00:16:46.566 align:middle line:79% position:50% size:60%
+spent, with the biggest
+and most important point
+
+00:16:46.633 --> 00:16:49.566 align:middle line:79% position:50% size:58%
+probably being
+reaching a consensus on
+
+00:16:49.633 --> 00:16:53.566 align:middle line:79% position:50% size:65%
+interpretation of whatever
+success criteria it was
+
+00:16:53.633 --> 00:16:56.766 align:middle line:79% position:50% size:63%
+that the rule is
+supposed to test and also
+
+00:16:56.833 --> 00:16:59.533 align:middle line:79% position:50% size:65%
+researching, like, the
+real world implications of
+
+00:16:59.600 --> 00:17:03.266 align:middle line:79% position:50% size:63%
+what the rule would look
+at, figuring out so under
+
+00:17:03.333 --> 00:17:06.299 align:middle line:79% position:50% size:65%
+what assumptions would the
+thing that the rule looked
+
+00:17:06.366 --> 00:17:09.266 align:middle line:85% position:50% size:63%
+at actually be a problem.
+
+00:17:09.333 --> 00:17:11.200 align:middle line:79% position:50% size:60%
+And in case those
+assumptions didn't hold,
+
+00:17:11.266 --> 00:17:15.000 align:middle line:79% position:50% size:63%
+then would there actually
+be an actual problem?
+
+00:17:15.066 --> 00:17:19.833 align:middle line:79% position:50% size:58%
+So, really finding out
+where, you know, theory
+
+00:17:19.900 --> 00:17:23.200 align:middle line:79% position:50% size:48%
+and reality aligned
+and agreeing on an
+
+00:17:23.266 --> 00:17:25.233 align:middle line:79% position:50% size:65%
+interpretation that will
+then form the basis of the
+
+00:17:25.299 --> 00:17:27.033 align:middle line:85% position:50% size:60%
+rules that we developed.
+
+00:17:27.099 --> 00:17:30.366 align:middle line:79% position:50% size:65%
+And once we had the
+rules developed, they were
+
+00:17:30.433 --> 00:17:32.833 align:middle line:79% position:50% size:65%
+implemented by the project
+partners in our various
+
+00:17:32.900 --> 00:17:36.599 align:middle line:79% position:50% size:65%
+tools and also validated
+by another project partner
+
+00:17:36.666 --> 00:17:39.566 align:middle line:79% position:50% size:55%
+on this fixed set of
+real web pages that we
+
+00:17:39.633 --> 00:17:42.666 align:middle line:85% position:50% size:60%
+had selected beforehand.
+
+00:17:42.733 --> 00:17:47.333 align:middle line:79% position:50% size:63%
+And then once implemented
+and validated and matured
+
+00:17:47.400 --> 00:17:50.799 align:middle line:79% position:50% size:65%
+in the community, we would
+ship them off to the ACT
+
+00:17:50.866 --> 00:17:56.000 align:middle line:79% position:50% size:60%
+Task Force to eventually
+be included as official
+
+00:17:56.066 --> 00:17:58.700 align:middle line:79% position:50% size:48%
+live resources
+on the WAI webpage.
+
+00:18:02.400 --> 00:18:04.933 align:middle line:79% position:50% size:53%
+And with that, I will
+pass it on to Carlos.
+
+00:18:08.533 --> 00:18:10.066 align:middle line:79% position:50% size:45%
+&gt;&gt; CARLOS DUARTE:
+Thank you, Kasper.
+
+00:18:10.133 --> 00:18:15.966 align:middle line:79% position:50% size:58%
+I'm going to start by
+talking a bit about how
+
+00:18:16.033 --> 00:18:18.233 align:middle line:79% position:50% size:43%
+does this
+impact you, okay.
+
+00:18:18.299 --> 00:18:23.066 align:middle line:79% position:50% size:68%
+So, what does it mean
+for you, for the community,
+
+00:18:23.133 --> 00:18:27.866 align:middle line:79% position:50% size:60%
+that we have
+developed seventy rules?
+
+00:18:27.933 --> 00:18:33.599 align:middle line:79% position:50% size:65%
+So, first it means that we
+now have more than seventy
+
+00:18:33.666 --> 00:18:38.200 align:middle line:79% position:50% size:73%
+different aspects about WCAG
+that at least three different
+
+00:18:38.266 --> 00:18:40.766 align:middle line:79% position:50% size:68%
+organizations agree on
+how they need to be tested.
+
+00:18:40.833 --> 00:18:44.599 align:middle line:79% position:50% size:63%
+Okay, so I think this is
+already very significant.
+
+00:18:44.666 --> 00:18:47.400 align:middle line:79% position:50% size:53%
+And when I say at
+least three different
+
+00:18:47.466 --> 00:18:51.333 align:middle line:79% position:50% size:55%
+organizations, I'm not
+saying three different
+
+00:18:51.400 --> 00:18:53.799 align:middle line:79% position:50% size:55%
+project partners, and
+this is something that
+
+00:18:53.866 --> 00:18:55.633 align:middle line:85% position:50% size:63%
+Kasper just talked about.
+
+00:18:55.700 --> 00:18:59.033 align:middle line:79% position:50% size:65%
+So, because the main work
+we've done in this project
+
+00:18:59.099 --> 00:19:02.166 align:middle line:79% position:50% size:60%
+was done in the scope of
+the ACT Community Group,
+
+00:19:02.233 --> 00:19:05.700 align:middle line:79% position:50% size:65%
+which means that it was
+an open group and its work
+
+00:19:05.766 --> 00:19:07.833 align:middle line:85% position:50% size:58%
+was publicly available.
+
+00:19:07.900 --> 00:19:10.700 align:middle line:79% position:50% size:45%
+So, we are not
+just three project
+
+00:19:10.766 --> 00:19:12.299 align:middle line:85% position:50% size:70%
+partners reaching consensus.
+
+00:19:12.366 --> 00:19:15.233 align:middle line:85% position:50% size:53%
+It's wider than that.
+
+00:19:15.299 --> 00:19:19.133 align:middle line:79% position:50% size:65%
+And there were involvement
+at different levels from
+
+00:19:19.200 --> 00:19:21.133 align:middle line:79% position:50% size:60%
+these organizations
+outside the project that
+
+00:19:21.200 --> 00:19:24.566 align:middle line:79% position:50% size:60%
+fortunately was not
+just at the rule writing
+
+00:19:24.633 --> 00:19:25.733 align:middle line:85% position:50% size:50%
+and reviewing level.
+
+00:19:25.799 --> 00:19:30.200 align:middle line:79% position:50% size:63%
+So, not surprisingly, the
+project partners included
+
+00:19:30.266 --> 00:19:34.833 align:middle line:79% position:50% size:75%
+in their products, the ACT
+Rules that we were developing.
+
+00:19:34.900 --> 00:19:38.866 align:middle line:79% position:50% size:68%
+But I think we can say that
+we are really happy to see
+
+00:19:38.933 --> 00:19:41.500 align:middle line:79% position:50% size:60%
+that other organizations
+started to do the same.
+
+00:19:41.566 --> 00:19:45.633 align:middle line:79% position:50% size:63%
+So, the other two vendors
+have now products that
+
+00:19:45.700 --> 00:19:49.833 align:middle line:79% position:50% size:60%
+include conformance
+testing using ACT Rules,
+
+00:19:49.900 --> 00:19:54.333 align:middle line:79% position:50% size:58%
+manual testing
+methodologies that also
+
+00:19:54.400 --> 00:19:57.166 align:middle line:85% position:50% size:45%
+include ACT Rules.
+
+00:19:57.233 --> 00:20:01.366 align:middle line:79% position:50% size:63%
+So, from this you can
+understand that ACT Rules
+
+00:20:01.433 --> 00:20:05.733 align:middle line:79% position:50% size:63%
+already have an impact on
+several tools, on several
+
+00:20:05.799 --> 00:20:09.833 align:middle line:79% position:50% size:65%
+methodologies, and let me
+stress this out again, not
+
+00:20:09.900 --> 00:20:12.700 align:middle line:79% position:50% size:55%
+only from the tools
+and methodologies made
+
+00:20:12.766 --> 00:20:16.733 align:middle line:79% position:50% size:43%
+available by the
+project partners.
+
+00:20:16.799 --> 00:20:20.400 align:middle line:79% position:50% size:65%
+So, if you use one of
+these tools or if you have
+
+00:20:20.466 --> 00:20:23.466 align:middle line:79% position:50% size:53%
+your projects checked
+with one of those
+
+00:20:23.533 --> 00:20:27.400 align:middle line:79% position:50% size:55%
+methodologies, then
+ACT Rules have already
+
+00:20:27.466 --> 00:20:32.700 align:middle line:79% position:50% size:60%
+impacted you, and we can
+also say - you will be
+
+00:20:32.766 --> 00:20:36.866 align:middle line:79% position:50% size:65%
+able to hear about this
+in the next presentation -
+
+00:20:36.933 --> 00:20:40.799 align:middle line:79% position:50% size:73%
+that these tools and
+these methodologies are being
+
+00:20:40.866 --> 00:20:43.599 align:middle line:79% position:50% size:53%
+used by monitoring
+bodies across Europe.
+
+00:20:43.666 --> 00:20:47.400 align:middle line:79% position:50% size:60%
+So, we are already
+witnessing the impact of
+
+00:20:47.466 --> 00:20:51.533 align:middle line:79% position:50% size:35%
+ACT Rules at
+a large scale.
+
+00:20:51.599 --> 00:20:54.299 align:middle line:79% position:50% size:55%
+And we believe that
+ACT Rules will play an
+
+00:20:54.366 --> 00:20:57.033 align:middle line:79% position:50% size:55%
+important role for the
+European monitoring
+
+00:20:57.099 --> 00:20:59.599 align:middle line:85% position:50% size:55%
+efforts as Wilco said.
+
+00:20:59.666 --> 00:21:03.099 align:middle line:79% position:50% size:63%
+So, given the consistency
+that the ACT Rules offer,
+
+00:21:03.166 --> 00:21:06.400 align:middle line:79% position:50% size:58%
+even when monitoring
+agencies from different
+
+00:21:06.466 --> 00:21:09.833 align:middle line:79% position:50% size:58%
+countries use different
+tools, if those tools
+
+00:21:09.900 --> 00:21:13.533 align:middle line:79% position:50% size:63%
+implement ACT Rules,
+then their results can be
+
+00:21:13.599 --> 00:21:16.933 align:middle line:79% position:50% size:55%
+compared with a higher
+degree of confidence.
+
+00:21:17.000 --> 00:21:21.366 align:middle line:79% position:50% size:75%
+We think this is already a
+great start but in the future,
+
+00:21:21.433 --> 00:21:24.866 align:middle line:79% position:50% size:68%
+we can only hope that the
+impact will be even bigger.
+
+00:21:24.933 --> 00:21:28.366 align:middle line:79% position:50% size:60%
+So, as also Wilco
+mentioned, eleven of the
+
+00:21:28.433 --> 00:21:32.500 align:middle line:79% position:50% size:65%
+ACT Rules developed by the
+project and adopted by the
+
+00:21:32.566 --> 00:21:35.833 align:middle line:79% position:50% size:65%
+community have already
+been published by the W3C.
+
+00:21:35.900 --> 00:21:39.633 align:middle line:79% position:50% size:63%
+There are more in the
+pipeline that should soon
+
+00:21:39.700 --> 00:21:44.700 align:middle line:79% position:50% size:65%
+increase this number and I
+think that the interest in
+
+00:21:44.766 --> 00:21:47.700 align:middle line:79% position:50% size:65%
+ACT Rules is only bound
+to grow when the community
+
+00:21:47.766 --> 00:21:51.733 align:middle line:79% position:50% size:50%
+starts finding
+ACT Rules elsewhere.
+
+00:21:51.799 --> 00:21:54.933 align:middle line:79% position:50% size:58%
+Shadi, can you move to
+the next slide, please?
+
+00:21:58.000 --> 00:21:58.933 align:middle line:85% position:50% size:18%
+Thanks.
+
+00:21:59.000 --> 00:22:03.866 align:middle line:79% position:50% size:65%
+So, you have a screenshot,
+so a sneak peek at the
+
+00:22:03.933 --> 00:22:12.500 align:middle line:79% position:50% size:73%
+Understanding document for
+WCAG 2.2 soon to be released.
+
+00:22:12.566 --> 00:22:17.500 align:middle line:79% position:50% size:65%
+And you can find there -
+yes, thanks, Shadi - a new
+
+00:22:17.566 --> 00:22:21.400 align:middle line:79% position:50% size:65%
+section on Understanding
+ACT Rules and we have this
+
+00:22:21.466 --> 00:22:24.166 align:middle line:79% position:50% size:65%
+section at the same level
+that we have currently for
+
+00:22:24.233 --> 00:22:28.099 align:middle line:79% position:50% size:70%
+the Understanding Techniques
+for WCAG's success criteria.
+
+00:22:28.166 --> 00:22:31.133 align:middle line:79% position:50% size:65%
+So, this is really
+exciting and we are really
+
+00:22:31.200 --> 00:22:36.133 align:middle line:79% position:50% size:55%
+seeing ACT Rules being
+adopted and promoted.
+
+00:22:36.200 --> 00:22:40.933 align:middle line:79% position:50% size:63%
+Okay, so now I want to
+talk to you about how you
+
+00:22:41.000 --> 00:22:44.866 align:middle line:79% position:50% size:60%
+can contribute to
+keep ACT Rules going on.
+
+00:22:44.933 --> 00:22:48.500 align:middle line:79% position:50% size:65%
+So, we like to believe
+that this was a successful
+
+00:22:48.566 --> 00:22:53.166 align:middle line:79% position:50% size:65%
+project and that we really
+kickstarted the work on
+
+00:22:53.233 --> 00:22:55.433 align:middle line:79% position:50% size:63%
+ACT Rules but now it's up
+to you, to the community
+
+00:22:55.500 --> 00:22:57.500 align:middle line:79% position:50% size:38%
+to keep this
+momentum going.
+
+00:22:57.566 --> 00:23:01.233 align:middle line:79% position:50% size:55%
+And fortunately, there
+are many ways in which
+
+00:23:01.299 --> 00:23:02.200 align:middle line:85% position:50% size:48%
+you can contribute.
+
+00:23:02.266 --> 00:23:05.866 align:middle line:79% position:50% size:60%
+For instance, if you are
+a tool or a methodology
+
+00:23:05.933 --> 00:23:09.000 align:middle line:79% position:50% size:65%
+developer, you can
+start by checking how well
+
+00:23:09.066 --> 00:23:12.966 align:middle line:79% position:50% size:60%
+aligned your project is
+to the current consensus
+
+00:23:13.033 --> 00:23:15.066 align:middle line:85% position:50% size:58%
+expressed in ACT Rules.
+
+00:23:15.133 --> 00:23:17.599 align:middle line:79% position:50% size:63%
+So you can read the rules
+that are related to the
+
+00:23:17.666 --> 00:23:19.366 align:middle line:85% position:50% size:60%
+checks that you support.
+
+00:23:19.433 --> 00:23:24.200 align:middle line:79% position:50% size:70%
+You can see how well you do
+on the published test cases.
+
+00:23:24.266 --> 00:23:27.966 align:middle line:79% position:50% size:60%
+And you don't agree with
+some aspect of the rule?
+
+00:23:28.033 --> 00:23:29.000 align:middle line:85% position:50% size:15%
+Great.
+
+00:23:29.066 --> 00:23:32.466 align:middle line:79% position:50% size:70%
+We did try our best but
+we know we are not flawless.
+
+00:23:32.533 --> 00:23:35.266 align:middle line:79% position:50% size:60%
+So, raise an issue
+reporting what you found
+
+00:23:35.333 --> 00:23:39.233 align:middle line:79% position:50% size:60%
+and it will be discussed
+in the community and the
+
+00:23:39.299 --> 00:23:41.200 align:middle line:79% position:50% size:45%
+rule will be
+updated if needed.
+
+00:23:41.266 --> 00:23:44.900 align:middle line:79% position:50% size:38%
+It wouldn't be
+the first time.
+
+00:23:44.966 --> 00:23:47.566 align:middle line:79% position:50% size:50%
+While you are at it,
+you can send us the
+
+00:23:47.633 --> 00:23:50.766 align:middle line:79% position:50% size:73%
+implementation reports of
+your tools and methodologies.
+
+00:23:50.833 --> 00:23:53.966 align:middle line:79% position:50% size:63%
+In the ACT Rules website,
+we have a section for
+
+00:23:54.033 --> 00:23:56.366 align:middle line:79% position:50% size:53%
+implementations where
+all reports that we
+
+00:23:56.433 --> 00:23:58.299 align:middle line:85% position:50% size:55%
+receive are displayed.
+
+00:23:58.366 --> 00:24:01.366 align:middle line:79% position:50% size:63%
+So, this is a great way
+to let the community know
+
+00:24:01.433 --> 00:24:04.633 align:middle line:79% position:50% size:58%
+that your products are
+supported by ACT Rules.
+
+00:24:04.700 --> 00:24:08.766 align:middle line:79% position:50% size:60%
+And irrespectively of
+your developing tools or
+
+00:24:08.833 --> 00:24:12.933 align:middle line:79% position:50% size:70%
+methodologies or being a
+user of such or a monitoring
+
+00:24:13.000 --> 00:24:16.299 align:middle line:79% position:50% size:55%
+body or someone
+that's responsible for
+
+00:24:16.366 --> 00:24:19.599 align:middle line:79% position:50% size:65%
+publishing accessible
+information on the web, be
+
+00:24:19.666 --> 00:24:23.033 align:middle line:79% position:50% size:60%
+happy because there are
+other ways you can help.
+
+00:24:23.099 --> 00:24:25.766 align:middle line:79% position:50% size:78%
+We are always looking for more
+people to help reviewing rules.
+
+00:24:25.833 --> 00:24:28.233 align:middle line:79% position:50% size:55%
+So, it's great to have
+people with different
+
+00:24:28.299 --> 00:24:31.833 align:middle line:79% position:50% size:68%
+experience and perspectives
+contributing to this work.
+
+00:24:31.900 --> 00:24:34.700 align:middle line:79% position:50% size:63%
+If you have an idea for
+a rule, you can write it.
+
+00:24:34.766 --> 00:24:37.400 align:middle line:79% position:50% size:50%
+Don't worry if
+you feel overwhelmed
+
+00:24:37.466 --> 00:24:38.866 align:middle line:85% position:50% size:53%
+about writing a rule.
+
+00:24:38.933 --> 00:24:41.200 align:middle line:79% position:50% size:53%
+You can team up with
+others and do it as a
+
+00:24:41.266 --> 00:24:43.000 align:middle line:85% position:50% size:55%
+collaborative project.
+
+00:24:43.066 --> 00:24:45.700 align:middle line:79% position:50% size:63%
+That's what we are all
+doing here, collaborating
+
+00:24:45.766 --> 00:24:48.166 align:middle line:79% position:50% size:40%
+to make the web
+more accessible.
+
+00:24:48.233 --> 00:24:52.400 align:middle line:79% position:50% size:65%
+And to do any of this,
+you don't have to be a W3C
+
+00:24:52.466 --> 00:24:56.466 align:middle line:79% position:50% size:63%
+member, but if you are or
+want to become one, then
+
+00:24:56.533 --> 00:24:58.766 align:middle line:79% position:50% size:63%
+you can actively
+contribute to support the
+
+00:24:58.833 --> 00:25:03.000 align:middle line:79% position:50% size:73%
+adoption of more rules
+into WCAG 2.2 and potentially
+
+00:25:03.066 --> 00:25:07.466 align:middle line:85% position:50% size:38%
+the new WCAG 3.
+
+00:25:07.533 --> 00:25:11.366 align:middle line:79% position:50% size:70%
+So, Shadi, I think we
+can move to the final slide.
+
+00:25:11.433 --> 00:25:18.200 align:middle line:79% position:50% size:58%
+And you can find more
+details about ACT Rules
+
+00:25:18.266 --> 00:25:20.466 align:middle line:79% position:50% size:48%
+and how you can
+join this community
+
+00:25:20.533 --> 00:25:28.533 align:middle line:85% position:50% size:58%
+at act-rules.github.io.
+
+00:25:28.599 --> 00:25:32.500 align:middle line:79% position:50% size:65%
+And thanks for listening
+and I think Shadi, now you
+
+00:25:32.566 --> 00:25:35.066 align:middle line:79% position:50% size:43%
+want to take some
+questions, right?
+
+00:25:35.133 --> 00:25:37.633 align:middle line:79% position:50% size:63%
+&gt;&gt; SHADI ABOU-ZAHRA: Yes,
+questions are coming in.
+
+00:25:37.700 --> 00:25:40.233 align:middle line:79% position:50% size:65%
+Thank you, everybody who
+is contributing questions.
+
+00:25:40.299 --> 00:25:44.066 align:middle line:79% position:50% size:80%
+If you have questions, now
+is the time in the Q&amp;A function.
+
+00:25:44.133 --> 00:25:46.266 align:middle line:79% position:50% size:60%
+Before we get to that,
+just to get a little bit
+
+00:25:46.333 --> 00:25:53.700 align:middle line:79% position:50% size:65%
+of a feel, how many people
+are subscribed to the
+
+00:25:53.766 --> 00:25:56.766 align:middle line:79% position:50% size:50%
+community group and
+roughly how many are
+
+00:25:56.833 --> 00:26:02.466 align:middle line:79% position:50% size:63%
+active in the calls and,
+you know, the active part
+
+00:26:02.533 --> 00:26:05.400 align:middle line:79% position:50% size:40%
+of the work, not
+just subscribed?
+
+00:26:05.466 --> 00:26:08.133 align:middle line:79% position:50% size:48%
+Who wants to
+take that question?
+
+00:26:08.200 --> 00:26:09.900 align:middle line:79% position:50% size:38%
+&gt;&gt; WILCO FIERS:
+I'll take it.
+
+00:26:09.966 --> 00:26:13.900 align:middle line:79% position:50% size:58%
+It depends a little bit
+because there are two
+
+00:26:13.966 --> 00:26:19.133 align:middle line:79% position:50% size:68%
+groups, one in W3C itself
+and a Community Group which
+
+00:26:19.200 --> 00:26:24.000 align:middle line:79% position:50% size:70%
+has no official standing at
+the W3C but is hosted by it.
+
+00:26:24.066 --> 00:26:28.733 align:middle line:79% position:50% size:60%
+The Community Group has,
+I believe, around ninety
+
+00:26:28.799 --> 00:26:31.266 align:middle line:85% position:50% size:45%
+members right now.
+
+00:26:31.333 --> 00:26:35.266 align:middle line:79% position:50% size:60%
+As for active
+participants, again that
+
+00:26:35.333 --> 00:26:37.566 align:middle line:79% position:50% size:58%
+depends on how
+active you mean active.
+
+00:26:37.633 --> 00:26:42.233 align:middle line:79% position:50% size:63%
+I think right now we have
+ten to twelve people that
+
+00:26:42.299 --> 00:26:49.166 align:middle line:79% position:50% size:63%
+regularly attend meetings
+like every month, every
+
+00:26:49.233 --> 00:26:53.533 align:middle line:79% position:50% size:50%
+twice a month,
+something like that.
+
+00:26:53.599 --> 00:26:55.900 align:middle line:79% position:50% size:60%
+There's a whole bunch of
+people that are slightly
+
+00:26:55.966 --> 00:27:01.533 align:middle line:79% position:50% size:68%
+less active but that
+still regularly contribute.
+
+00:27:01.599 --> 00:27:04.133 align:middle line:79% position:50% size:58%
+As a rule comes up that
+they are interested in,
+
+00:27:04.200 --> 00:27:05.099 align:middle line:85% position:50% size:55%
+they'll drop a review.
+
+00:27:05.166 --> 00:27:09.000 align:middle line:79% position:50% size:60%
+That happens quite a
+lot and I frequently get
+
+00:27:09.066 --> 00:27:12.433 align:middle line:79% position:50% size:58%
+surprised by new people
+who have come out of
+
+00:27:12.500 --> 00:27:14.700 align:middle line:79% position:50% size:68%
+nowhere and
+submitted some information.
+
+00:27:17.099 --> 00:27:18.033 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Thanks.
+
+00:27:18.099 --> 00:27:19.033 align:middle line:79% position:50% size:58%
+Yeah, I just wanted to
+give a little bit of an
+
+00:27:19.099 --> 00:27:22.400 align:middle line:79% position:50% size:58%
+idea and people are, as
+you were saying, Wilco,
+
+00:27:22.466 --> 00:27:24.000 align:middle line:79% position:50% size:45%
+participating
+in different ways.
+
+00:27:24.066 --> 00:27:26.500 align:middle line:79% position:50% size:80%
+Some people are attending
+the calls and discussing things.
+
+00:27:26.566 --> 00:27:29.200 align:middle line:79% position:50% size:60%
+Others completely
+asynchronously, they are
+
+00:27:29.266 --> 00:27:33.700 align:middle line:85% position:50% size:65%
+using the GitHub platform.
+
+00:27:33.766 --> 00:27:37.400 align:middle line:79% position:50% size:65%
+&gt;&gt; WILCO FIERS: Yeah,
+it's - it takes relatively
+
+00:27:37.466 --> 00:27:39.766 align:middle line:79% position:50% size:58%
+little time for
+anybody to participate.
+
+00:27:39.833 --> 00:27:42.500 align:middle line:79% position:50% size:70%
+You can spend as little
+or as much time as you want.
+
+00:27:42.566 --> 00:27:46.366 align:middle line:79% position:50% size:65%
+I do also think it's worth
+mentioning that just from
+
+00:27:46.433 --> 00:27:49.599 align:middle line:79% position:50% size:63%
+the people that have
+joined over the last year
+
+00:27:49.666 --> 00:27:54.000 align:middle line:79% position:50% size:63%
+maybe, year and half, I
+frequently hear that they
+
+00:27:54.066 --> 00:27:58.566 align:middle line:79% position:50% size:70%
+join and they find it a lot
+of fun and they learn a lot.
+
+00:27:58.633 --> 00:28:01.599 align:middle line:79% position:50% size:60%
+It is a group where you
+get to learn quite a lot
+
+00:28:01.666 --> 00:28:04.033 align:middle line:85% position:50% size:65%
+of in-depth accessibility.
+
+00:28:04.099 --> 00:28:07.099 align:middle line:79% position:50% size:68%
+So, if you're interested
+in the nitty gritty details
+
+00:28:07.166 --> 00:28:09.200 align:middle line:79% position:50% size:53%
+of accessibility,
+this is really a good
+
+00:28:09.266 --> 00:28:11.099 align:middle line:79% position:50% size:45%
+group for you
+to participate in.
+
+00:28:11.166 --> 00:28:13.933 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Great.
+
+00:28:14.000 --> 00:28:16.666 align:middle line:79% position:50% size:60%
+So, one of the questions
+that we have is - I'll
+
+00:28:16.733 --> 00:28:20.599 align:middle line:79% position:50% size:65%
+read it aloud - WCAG is
+supposed to be interpreted
+
+00:28:20.666 --> 00:28:23.333 align:middle line:79% position:50% size:48%
+to be relevant in
+different contexts.
+
+00:28:23.400 --> 00:28:25.933 align:middle line:79% position:50% size:75%
+In one country, users
+might be using older assistive
+
+00:28:26.000 --> 00:28:28.799 align:middle line:79% position:50% size:68%
+technology for example and
+it would be relevant to use
+
+00:28:28.866 --> 00:28:31.466 align:middle line:79% position:50% size:60%
+all the techniques
+to meet the requirement.
+
+00:28:31.533 --> 00:28:33.833 align:middle line:79% position:50% size:63%
+Then in a country where
+all users have the latest
+
+00:28:33.900 --> 00:28:37.666 align:middle line:79% position:50% size:65%
+versions of assistive
+technology, in practice it
+
+00:28:37.733 --> 00:28:41.400 align:middle line:79% position:50% size:65%
+means a solution that is
+good enough in Germany for
+
+00:28:41.466 --> 00:28:45.400 align:middle line:79% position:50% size:70%
+example, might not be good
+enough in Italy for example.
+
+00:28:45.466 --> 00:28:46.500 align:middle line:85% position:50% size:43%
+And that is fine.
+
+00:28:46.566 --> 00:28:49.166 align:middle line:79% position:50% size:60%
+So, how do the ACT Rules
+take this into account?
+
+00:28:54.933 --> 00:28:56.533 align:middle line:85% position:50% size:20%
+Silence?
+
+00:28:56.599 --> 00:28:58.533 align:middle line:79% position:50% size:65%
+&gt;&gt; WILCO FIERS:
+You want to pick somebody?
+
+00:28:58.599 --> 00:29:01.066 align:middle line:79% position:50% size:63%
+I mean I can answer all
+of them if you want, but.
+
+00:29:01.133 --> 00:29:02.400 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Go ahead.
+
+00:29:02.466 --> 00:29:06.400 align:middle line:79% position:50% size:70%
+&gt;&gt; WILCO FIERS: Okay, so,
+it's a really good question.
+
+00:29:06.466 --> 00:29:07.233 align:middle line:85% position:50% size:25%
+Thank you.
+
+00:29:07.299 --> 00:29:11.133 align:middle line:79% position:50% size:40%
+How do ACT Rules
+deal with that?
+
+00:29:11.200 --> 00:29:13.799 align:middle line:79% position:50% size:53%
+ACT Rules have an
+accessibility support
+
+00:29:13.866 --> 00:29:18.466 align:middle line:79% position:50% size:60%
+section, so if we know
+about these differences,
+
+00:29:18.533 --> 00:29:21.400 align:middle line:79% position:50% size:53%
+we will mention
+them in that section.
+
+00:29:21.466 --> 00:29:24.433 align:middle line:79% position:50% size:65%
+You can find information
+about things that may work
+
+00:29:24.500 --> 00:29:28.599 align:middle line:79% position:50% size:50%
+slightly differently
+depending on which
+
+00:29:28.666 --> 00:29:30.266 align:middle line:85% position:50% size:65%
+technology you were using.
+
+00:29:30.333 --> 00:29:32.966 align:middle line:79% position:50% size:65%
+That information is
+documented in the rule and
+
+00:29:33.033 --> 00:29:37.299 align:middle line:79% position:50% size:65%
+if you happen to know any
+that isn't, please open an
+
+00:29:37.366 --> 00:29:38.933 align:middle line:85% position:50% size:63%
+issue and we will add it.
+
+00:29:39.000 --> 00:29:43.466 align:middle line:79% position:50% size:40%
+It belongs in
+those documents.
+
+00:29:43.533 --> 00:29:45.233 align:middle line:79% position:50% size:55%
+I also think it's
+worth mentioning those
+
+00:29:45.299 --> 00:29:47.566 align:middle line:79% position:50% size:45%
+differences aren't
+that big anymore.
+
+00:29:50.266 --> 00:29:53.266 align:middle line:79% position:50% size:60%
+The types of assistive
+technologies that people
+
+00:29:53.333 --> 00:29:57.166 align:middle line:79% position:50% size:55%
+are using tend to
+be international ones.
+
+00:29:57.233 --> 00:30:00.500 align:middle line:79% position:50% size:63%
+There are only a handful
+of big players out there,
+
+00:30:00.566 --> 00:30:03.700 align:middle line:79% position:50% size:55%
+so the differences
+really aren't that big
+
+00:30:03.766 --> 00:30:06.000 align:middle line:85% position:50% size:48%
+anymore these days.
+
+00:30:06.066 --> 00:30:11.700 align:middle line:79% position:50% size:63%
+What does matter a little
+bit is whether or not you
+
+00:30:11.766 --> 00:30:14.099 align:middle line:85% position:50% size:53%
+exclude some of them.
+
+00:30:14.166 --> 00:30:17.400 align:middle line:79% position:50% size:60%
+So, for example, if you
+want to exclude a common
+
+00:30:17.466 --> 00:30:21.799 align:middle line:79% position:50% size:63%
+screen reader on the Mac,
+you might have slightly
+
+00:30:21.866 --> 00:30:26.966 align:middle line:79% position:50% size:70%
+different tasks then if
+you wanted to include those.
+
+00:30:27.033 --> 00:30:30.799 align:middle line:79% position:50% size:70%
+The rule documents this
+kind of information for you.
+
+00:30:30.866 --> 00:30:39.133 align:middle line:79% position:50% size:65%
+That freedom is
+available within the rule.
+
+00:30:39.200 --> 00:30:39.799 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Thank you.
+
+00:30:39.866 --> 00:30:41.799 align:middle line:79% position:50% size:50%
+Kasper, I think
+this one is for you.
+
+00:30:41.866 --> 00:30:46.066 align:middle line:79% position:50% size:75%
+So, do ACT Rules only
+cover accessibility tests that
+
+00:30:46.133 --> 00:30:49.400 align:middle line:79% position:50% size:53%
+can be semi-automated
+or fully automated?
+
+00:30:49.466 --> 00:30:54.099 align:middle line:79% position:50% size:63%
+Or are there also
+rules that clarify rather
+
+00:30:54.166 --> 00:30:58.933 align:middle line:79% position:50% size:60%
+subjective WCAG criteria
+like 2.4.6, adding the
+
+00:30:59.000 --> 00:31:01.200 align:middle line:79% position:50% size:55%
+label that needs to
+be manually evaluated?
+
+00:31:03.733 --> 00:31:05.000 align:middle line:79% position:50% size:65%
+&gt;&gt; KASPER ISAGER:
+You know, I can definitely
+
+00:31:05.066 --> 00:31:05.900 align:middle line:85% position:50% size:65%
+provide an answer to that.
+
+00:31:05.966 --> 00:31:09.533 align:middle line:79% position:50% size:60%
+And the answer is yes,
+we also have affordances
+
+00:31:09.599 --> 00:31:10.766 align:middle line:85% position:50% size:43%
+for manual rules.
+
+00:31:10.833 --> 00:31:15.533 align:middle line:79% position:50% size:60%
+I also mentioned we
+did set out to implement
+
+00:31:15.599 --> 00:31:19.233 align:middle line:79% position:50% size:65%
+fifteen fully manual
+rules, so rules that could
+
+00:31:19.299 --> 00:31:22.400 align:middle line:79% position:50% size:60%
+not reasonably be
+implemented in automated
+
+00:31:22.466 --> 00:31:25.033 align:middle line:79% position:50% size:55%
+tools but could be
+implemented as part of
+
+00:31:25.099 --> 00:31:27.233 align:middle line:85% position:50% size:65%
+manual test methodologies.
+
+00:31:27.299 --> 00:31:30.599 align:middle line:79% position:50% size:58%
+I would say, the manual
+rules are slightly more
+
+00:31:30.666 --> 00:31:33.700 align:middle line:79% position:50% size:55%
+difficult in the sense
+that you still have to
+
+00:31:33.766 --> 00:31:36.400 align:middle line:79% position:50% size:50%
+follow the ACT Rules
+from it, of course.
+
+00:31:36.466 --> 00:31:39.700 align:middle line:79% position:50% size:63%
+And the ACT Rules from it
+are fairly strict on what
+
+00:31:39.766 --> 00:31:42.000 align:middle line:79% position:50% size:45%
+kind of rules you
+all have to write.
+
+00:31:42.066 --> 00:31:45.533 align:middle line:79% position:50% size:63%
+One of the big things
+is that the applicability
+
+00:31:45.599 --> 00:31:48.466 align:middle line:79% position:50% size:60%
+section of the rules for
+the description of what
+
+00:31:48.533 --> 00:31:51.799 align:middle line:79% position:50% size:63%
+kinds of content the rule
+applies to has to be both
+
+00:31:51.866 --> 00:31:54.599 align:middle line:79% position:50% size:65%
+completely
+unambiguous and objective.
+
+00:31:54.666 --> 00:31:57.633 align:middle line:79% position:50% size:53%
+And for some of the
+success criteria, the
+
+00:31:57.700 --> 00:32:01.900 align:middle line:79% position:50% size:55%
+objectiveness criteria
+is really difficult to
+
+00:32:01.966 --> 00:32:04.233 align:middle line:85% position:50% size:50%
+meet, it has proved.
+
+00:32:04.299 --> 00:32:09.633 align:middle line:79% position:50% size:58%
+So, yes, you can author
+manual rules using the
+
+00:32:09.700 --> 00:32:11.066 align:middle line:85% position:50% size:43%
+ACT Rules format.
+
+00:32:11.133 --> 00:32:13.400 align:middle line:79% position:50% size:58%
+But it may be slightly
+more difficult that you
+
+00:32:13.466 --> 00:32:15.266 align:middle line:79% position:50% size:58%
+still have to
+remain objective in the
+
+00:32:15.333 --> 00:32:18.200 align:middle line:79% position:50% size:55%
+applicability section
+of the rule and that's
+
+00:32:18.266 --> 00:32:21.466 align:middle line:79% position:50% size:63%
+difficult to do with some
+of the more, I would say,
+
+00:32:21.533 --> 00:32:23.633 align:middle line:79% position:50% size:43%
+subjective WCAG
+success criteria.
+
+00:32:28.333 --> 00:32:29.599 align:middle line:79% position:50% size:53%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Right, but that's - I
+
+00:32:29.666 --> 00:32:31.266 align:middle line:79% position:50% size:50%
+think an important
+- thank you, Kasper.
+
+00:32:31.333 --> 00:32:33.233 align:middle line:79% position:50% size:65%
+I think that's an
+important question because
+
+00:32:33.299 --> 00:32:35.466 align:middle line:79% position:50% size:55%
+it also came up in the
+questions that people
+
+00:32:35.533 --> 00:32:37.466 align:middle line:79% position:50% size:45%
+asked in the
+registration form.
+
+00:32:37.533 --> 00:32:41.200 align:middle line:79% position:50% size:65%
+I think a lot of people
+think about when they hear
+
+00:32:41.266 --> 00:32:44.400 align:middle line:79% position:50% size:63%
+rules, they automatically
+think of automated tools
+
+00:32:44.466 --> 00:32:46.799 align:middle line:79% position:50% size:60%
+only and I think here
+it's really important to
+
+00:32:46.866 --> 00:32:50.133 align:middle line:79% position:50% size:75%
+emphasize that these
+apply to both manual and not -
+
+00:32:50.200 --> 00:32:53.200 align:middle line:79% position:50% size:65%
+in fact, actually, we
+have several rules that we
+
+00:32:53.266 --> 00:32:56.299 align:middle line:79% position:50% size:55%
+created as part of the
+project that relate to
+
+00:32:56.366 --> 00:32:59.599 align:middle line:79% position:50% size:60%
+that specific success
+criteria on headings and
+
+00:32:59.666 --> 00:33:02.299 align:middle line:85% position:50% size:63%
+we have others on labels.
+
+00:33:05.866 --> 00:33:10.900 align:middle line:79% position:50% size:58%
+So, yes - it is done
+and we also have manual
+
+00:33:10.966 --> 00:33:18.366 align:middle line:79% position:50% size:70%
+methodology developers who
+have been implementing these
+
+00:33:18.433 --> 00:33:21.266 align:middle line:79% position:50% size:70%
+rules in their methodology,
+comparing their methodology.
+
+00:33:21.333 --> 00:33:24.566 align:middle line:79% position:50% size:65%
+Speaking of, this is a
+question that also came up
+
+00:33:24.633 --> 00:33:27.599 align:middle line:85% position:50% size:63%
+in the registration form.
+
+00:33:27.666 --> 00:33:29.799 align:middle line:79% position:50% size:40%
+Carlos, maybe
+this is for you.
+
+00:33:29.866 --> 00:33:34.599 align:middle line:79% position:50% size:60%
+So, somebody wants to
+create an implementation
+
+00:33:34.666 --> 00:33:38.700 align:middle line:79% position:50% size:63%
+report for their tool
+or for their methodology.
+
+00:33:38.766 --> 00:33:39.666 align:middle line:85% position:50% size:50%
+How do they do that?
+
+00:33:39.733 --> 00:33:41.866 align:middle line:79% position:50% size:65%
+Can you first explain what
+an implementation report
+
+00:33:41.933 --> 00:33:44.766 align:middle line:79% position:50% size:65%
+is and then how they
+actually do that, how they
+
+00:33:44.833 --> 00:33:46.366 align:middle line:85% position:50% size:63%
+provide such information?
+
+00:33:46.433 --> 00:33:50.133 align:middle line:79% position:50% size:43%
+&gt;&gt; CARLOS DUARTE:
+Yeah, sure.
+
+00:33:50.200 --> 00:33:53.433 align:middle line:79% position:50% size:60%
+So, perhaps I need to
+start by providing a bit
+
+00:33:53.500 --> 00:33:58.233 align:middle line:79% position:50% size:70%
+of context on what's inside
+an ACT Rule and specifically
+
+00:33:58.299 --> 00:34:02.066 align:middle line:79% position:50% size:68%
+an ACT Rule besides
+having an applicability and
+
+00:34:02.133 --> 00:34:05.266 align:middle line:79% position:50% size:45%
+expectation as
+a set of examples.
+
+00:34:05.333 --> 00:34:11.633 align:middle line:79% position:50% size:63%
+Some of them are examples
+of elements, documents,
+
+00:34:11.699 --> 00:34:16.433 align:middle line:79% position:50% size:78%
+pages that meet the
+criteria and so pass the rules.
+
+00:34:16.500 --> 00:34:20.266 align:middle line:79% position:50% size:63%
+Some of them are failed
+examples and some of them
+
+00:34:20.333 --> 00:34:23.500 align:middle line:79% position:50% size:65%
+are examples of pieces of
+code that are inapplicable
+
+00:34:23.566 --> 00:34:25.233 align:middle line:85% position:50% size:35%
+for that rule.
+
+00:34:25.300 --> 00:34:29.566 align:middle line:79% position:50% size:63%
+So, what we expect to
+have in an implementation
+
+00:34:29.633 --> 00:34:34.666 align:middle line:79% position:50% size:60%
+report is how well does
+your implementation fair
+
+00:34:34.733 --> 00:34:36.199 align:middle line:85% position:50% size:58%
+against those examples?
+
+00:34:36.266 --> 00:34:39.900 align:middle line:79% position:50% size:45%
+So, does it pass
+the test examples?
+
+00:34:39.966 --> 00:34:42.466 align:middle line:79% position:50% size:40%
+Does it fail the
+failed examples?
+
+00:34:42.533 --> 00:34:46.800 align:middle line:79% position:50% size:63%
+And does it not consider
+the inapplicable examples
+
+00:34:46.866 --> 00:34:48.566 align:middle line:85% position:50% size:38%
+of such a rule?
+
+00:34:48.633 --> 00:34:51.500 align:middle line:79% position:50% size:53%
+So, an implementation
+report is basically a
+
+00:34:51.566 --> 00:34:57.133 align:middle line:79% position:50% size:68%
+report of the outcomes of
+your implementation for the
+
+00:34:57.199 --> 00:35:03.333 align:middle line:79% position:50% size:73%
+different test cases that
+are described in an ACT Rule.
+
+00:35:03.400 --> 00:35:07.533 align:middle line:79% position:50% size:65%
+How can you submit one and
+how can you prepare one?
+
+00:35:07.599 --> 00:35:14.633 align:middle line:79% position:50% size:70%
+Well, we expect your reports
+to be provided using EARL.
+
+00:35:14.699 --> 00:35:20.066 align:middle line:79% position:50% size:80%
+The Evaluation And Report
+Language, serialized in JSON-LD.
+
+00:35:20.133 --> 00:35:23.266 align:middle line:79% position:50% size:60%
+So, if you do provide us
+that, we can import that
+
+00:35:23.333 --> 00:35:28.199 align:middle line:79% position:50% size:60%
+into our website and
+display it together with
+
+00:35:28.266 --> 00:35:33.333 align:middle line:79% position:50% size:58%
+the current displayed
+implementation reports.
+
+00:35:33.400 --> 00:35:37.133 align:middle line:79% position:50% size:63%
+We have a section on
+the website, so if you go
+
+00:35:37.199 --> 00:35:41.266 align:middle line:79% position:50% size:68%
+online to the website,
+there's a section dedicated
+
+00:35:41.333 --> 00:35:43.166 align:middle line:79% position:50% size:63%
+specifically to
+implementations and there
+
+00:35:43.233 --> 00:35:44.699 align:middle line:79% position:50% size:50%
+are instructions
+there on how you can
+
+00:35:44.766 --> 00:35:48.800 align:middle line:85% position:50% size:63%
+submit an implementation.
+
+00:35:48.866 --> 00:35:53.099 align:middle line:79% position:50% size:60%
+And we have some tools
+that you can use to help
+
+00:35:53.166 --> 00:35:56.166 align:middle line:79% position:50% size:55%
+you prepare an
+implementation report.
+
+00:35:56.233 --> 00:35:59.800 align:middle line:79% position:50% size:73%
+We have all the test cases
+for all the rules accessible.
+
+00:35:59.866 --> 00:36:04.833 align:middle line:79% position:50% size:68%
+So, it can help you
+prepare for implementation.
+
+00:36:04.900 --> 00:36:07.699 align:middle line:79% position:50% size:55%
+If you have some
+problems setting up an
+
+00:36:07.766 --> 00:36:10.699 align:middle line:79% position:50% size:63%
+infrastructure for
+preparing implementation,
+
+00:36:10.766 --> 00:36:14.533 align:middle line:79% position:50% size:63%
+do reach out to us and we
+should be able to assist
+
+00:36:14.599 --> 00:36:17.500 align:middle line:79% position:50% size:40%
+you in that,
+in your project.
+
+00:36:21.199 --> 00:36:22.400 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Thank you, Carlos.
+
+00:36:22.466 --> 00:36:26.066 align:middle line:79% position:50% size:58%
+While I have you on
+the line, we're kind of
+
+00:36:26.133 --> 00:36:27.099 align:middle line:85% position:50% size:50%
+running out of time.
+
+00:36:27.166 --> 00:36:28.866 align:middle line:79% position:50% size:65%
+There are more questions
+coming so we might need to
+
+00:36:28.933 --> 00:36:32.666 align:middle line:79% position:50% size:55%
+push some of these
+towards the end of the
+
+00:36:32.733 --> 00:36:35.500 align:middle line:85% position:50% size:50%
+day just to move on.
+
+00:36:35.566 --> 00:36:38.933 align:middle line:79% position:50% size:63%
+But I think, maybe
+briefly, Carlos, this one
+
+00:36:39.000 --> 00:36:43.933 align:middle line:79% position:50% size:58%
+it says, can you give a
+concrete example of the
+
+00:36:44.000 --> 00:36:49.566 align:middle line:79% position:50% size:68%
+rule on should we have
+alt text in an image if the
+
+00:36:49.633 --> 00:36:53.066 align:middle line:79% position:50% size:55%
+text that is next to
+the image is the same?
+
+00:36:53.133 --> 00:36:55.699 align:middle line:79% position:50% size:53%
+I think it would help
+to understand how you
+
+00:36:55.766 --> 00:36:56.933 align:middle line:85% position:50% size:58%
+choose a specific rule.
+
+00:36:57.000 --> 00:37:01.933 align:middle line:79% position:50% size:63%
+I think here, if you can
+explain the test cases in
+
+00:37:02.000 --> 00:37:06.733 align:middle line:79% position:50% size:63%
+the context here that are
+part of the rules to help
+
+00:37:06.800 --> 00:37:09.300 align:middle line:79% position:50% size:60%
+you understand what the
+rule actually refers to.
+
+00:37:13.733 --> 00:37:19.133 align:middle line:79% position:50% size:65%
+&gt;&gt; CARLOS DUARTE: Wilco
+you seem to have the rules
+
+00:37:19.199 --> 00:37:21.566 align:middle line:79% position:50% size:35%
+in your head
+better than I.
+
+00:37:21.633 --> 00:37:24.900 align:middle line:79% position:50% size:65%
+Which - this is definitely
+coming from the example
+
+00:37:24.966 --> 00:37:26.800 align:middle line:79% position:50% size:45%
+that you gave in
+your presentation.
+
+00:37:26.866 --> 00:37:29.633 align:middle line:85% position:50% size:48%
+Can you point me -?
+
+00:37:29.699 --> 00:37:30.966 align:middle line:79% position:50% size:60%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Sorry, we don't actually
+
+00:37:31.033 --> 00:37:31.833 align:middle line:79% position:50% size:40%
+have the time
+to go into this.
+
+00:37:31.900 --> 00:37:33.000 align:middle line:79% position:50% size:43%
+&gt;&gt; CARLOS DUARTE:
+Okay.
+
+00:37:33.066 --> 00:37:34.566 align:middle line:79% position:50% size:75%
+&gt;&gt; SHADI ABOU-ZAHRA: We
+could come back to this later.
+
+00:37:34.633 --> 00:37:36.699 align:middle line:85% position:50% size:65%
+So maybe let me summarize.
+
+00:37:36.766 --> 00:37:42.933 align:middle line:79% position:50% size:68%
+So, the point is that
+this rule, there would be a
+
+00:37:43.000 --> 00:37:46.366 align:middle line:79% position:50% size:53%
+rule that is talking
+about, let's say text
+
+00:37:46.433 --> 00:37:50.066 align:middle line:79% position:50% size:58%
+alternatives for images
+and these will consider
+
+00:37:50.133 --> 00:37:53.133 align:middle line:79% position:50% size:60%
+different techniques and
+the examples, the test
+
+00:37:53.199 --> 00:37:57.666 align:middle line:79% position:50% size:63%
+cases in the rule would
+have an example when what
+
+00:37:57.733 --> 00:38:01.033 align:middle line:79% position:50% size:75%
+happens if there is a
+description next to the image.
+
+00:38:01.099 --> 00:38:04.733 align:middle line:79% position:50% size:58%
+What in that case, what
+the alt text should be?
+
+00:38:04.800 --> 00:38:07.466 align:middle line:79% position:50% size:58%
+So, if we were to write
+the rule for a good alt
+
+00:38:07.533 --> 00:38:12.866 align:middle line:79% position:50% size:65%
+text, so the rule that we
+have right now only checks
+
+00:38:12.933 --> 00:38:16.400 align:middle line:79% position:50% size:63%
+for alt text
+whether it exists or not.
+
+00:38:16.466 --> 00:38:18.633 align:middle line:79% position:50% size:63%
+And if we would have a
+rule that checks how good
+
+00:38:18.699 --> 00:38:20.733 align:middle line:79% position:50% size:60%
+an alt text is, it would
+be - we would have tests
+
+00:38:20.800 --> 00:38:25.066 align:middle line:79% position:50% size:58%
+cases where we would
+have different types of
+
+00:38:25.133 --> 00:38:30.166 align:middle line:79% position:50% size:63%
+situations and so that
+people could compare test
+
+00:38:30.233 --> 00:38:31.766 align:middle line:85% position:50% size:48%
+cases towards that.
+
+00:38:31.833 --> 00:38:34.300 align:middle line:79% position:50% size:55%
+Again, we could come
+back to this later on.
+
+00:38:34.366 --> 00:38:38.866 align:middle line:79% position:50% size:65%
+We are kind of running
+out of time but one of the
+
+00:38:38.933 --> 00:38:47.866 align:middle line:79% position:50% size:55%
+things that was asked
+is, do rules cover all
+
+00:38:47.933 --> 00:38:49.000 align:middle line:85% position:50% size:60%
+of the success criteria?
+
+00:38:49.066 --> 00:38:54.066 align:middle line:79% position:50% size:73%
+Or will the work
+continue to cover everything?
+
+00:38:57.533 --> 00:38:59.800 align:middle line:79% position:50% size:35%
+Who wants to
+take that one?
+
+00:38:59.866 --> 00:39:01.533 align:middle line:79% position:50% size:38%
+&gt;&gt; WILCO FIERS:
+I'll go.
+
+00:39:01.599 --> 00:39:05.633 align:middle line:79% position:50% size:63%
+So, we haven't completed
+all the success criteria.
+
+00:39:05.699 --> 00:39:10.900 align:middle line:79% position:50% size:58%
+I don't know if we ever
+will fully complete
+
+00:39:10.966 --> 00:39:12.900 align:middle line:79% position:50% size:48%
+everything but we
+certainly intend to
+
+00:39:12.966 --> 00:39:16.466 align:middle line:79% position:50% size:45%
+continue to go
+on with this work.
+
+00:39:16.533 --> 00:39:20.300 align:middle line:79% position:50% size:63%
+WAI-Tools Project is over
+but the ACT work is not.
+
+00:39:20.366 --> 00:39:24.333 align:middle line:79% position:50% size:63%
+This is going to be, you
+know, ongoing projects to
+
+00:39:24.400 --> 00:39:26.099 align:middle line:79% position:50% size:50%
+continue to
+extend the coverage.
+
+00:39:26.166 --> 00:39:32.266 align:middle line:79% position:50% size:65%
+Some of the things not
+currently done is so - our
+
+00:39:32.333 --> 00:39:37.866 align:middle line:79% position:50% size:68%
+main focus has been on HTML
+where it sees it as an SVG.
+
+00:39:37.933 --> 00:39:41.533 align:middle line:79% position:50% size:50%
+There are definitely
+still gaps in those,
+
+00:39:41.599 --> 00:39:44.266 align:middle line:79% position:50% size:58%
+specifically the things
+that are difficult to
+
+00:39:44.333 --> 00:39:46.433 align:middle line:79% position:50% size:53%
+automate, but beyond
+that, there are other
+
+00:39:46.500 --> 00:39:48.233 align:middle line:79% position:50% size:43%
+technologies to
+consider as well.
+
+00:39:48.300 --> 00:39:51.333 align:middle line:79% position:50% size:65%
+There are currently no
+rules for PDF for example.
+
+00:39:51.400 --> 00:39:53.266 align:middle line:79% position:50% size:58%
+That is certainly a
+thing that I would love
+
+00:39:53.333 --> 00:39:55.266 align:middle line:85% position:50% size:45%
+to see us develop.
+
+00:39:55.333 --> 00:39:59.900 align:middle line:79% position:50% size:60%
+So, there's definitely
+more work and it is also
+
+00:39:59.966 --> 00:40:03.733 align:middle line:79% position:50% size:63%
+good to mention that this
+is an ongoing process.
+
+00:40:03.800 --> 00:40:07.699 align:middle line:79% position:50% size:58%
+As technology develops,
+as the HTML standard
+
+00:40:07.766 --> 00:40:11.533 align:middle line:79% position:50% size:55%
+develops, as assistive
+technologies develop,
+
+00:40:11.599 --> 00:40:14.500 align:middle line:79% position:50% size:60%
+these rules will
+continually get updated.
+
+00:40:14.566 --> 00:40:17.633 align:middle line:79% position:50% size:65%
+So, unlike WCAG, these
+rules are an ongoing thing
+
+00:40:17.699 --> 00:40:21.266 align:middle line:79% position:50% size:68%
+that need to be maintained
+so this work is never going
+
+00:40:21.333 --> 00:40:23.166 align:middle line:79% position:50% size:55%
+to end and I'm going
+to continue doing this
+
+00:40:23.233 --> 00:40:28.166 align:middle line:85% position:50% size:48%
+until I retire, so.
+
+00:40:28.233 --> 00:40:29.800 align:middle line:79% position:50% size:58%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Yeah, I like to use the
+
+00:40:29.866 --> 00:40:33.599 align:middle line:79% position:50% size:70%
+metaphor of snowballs,
+especially now in winter for
+
+00:40:33.666 --> 00:40:37.000 align:middle line:79% position:50% size:68%
+many of us, so snowballing,
+and I think this project
+
+00:40:37.066 --> 00:40:40.300 align:middle line:79% position:50% size:65%
+started the snowball with
+seventy rules and now it's
+
+00:40:40.366 --> 00:40:43.199 align:middle line:79% position:50% size:75%
+really, as Carlos was
+saying, now it's up to you the
+
+00:40:43.266 --> 00:40:46.433 align:middle line:79% position:50% size:48%
+community to
+help continue that.
+
+00:40:46.500 --> 00:40:48.699 align:middle line:79% position:50% size:58%
+Speaking of, Wilco,
+while I have you on the
+
+00:40:48.766 --> 00:40:50.366 align:middle line:79% position:50% size:48%
+line, there was
+a question for you.
+
+00:40:50.433 --> 00:40:52.833 align:middle line:79% position:50% size:43%
+This might be a
+misunderstanding.
+
+00:40:52.900 --> 00:40:57.199 align:middle line:79% position:50% size:55%
+Can you talk about how
+authoritative the ACT
+
+00:40:57.266 --> 00:41:00.699 align:middle line:79% position:50% size:55%
+Rules are versus the
+WCAG success criteria?
+
+00:41:00.766 --> 00:41:03.800 align:middle line:79% position:50% size:65%
+What is the normative part
+and what is informative?
+
+00:41:03.866 --> 00:41:05.966 align:middle line:79% position:50% size:70%
+&gt;&gt; WILCO FIERS:
+That's a fantastic question.
+
+00:41:06.033 --> 00:41:11.699 align:middle line:79% position:50% size:63%
+So, the WCAG success
+criteria are published by
+
+00:41:11.766 --> 00:41:14.533 align:middle line:79% position:50% size:38%
+the W3C as a
+Recommendation.
+
+00:41:14.599 --> 00:41:17.599 align:middle line:79% position:50% size:58%
+They've gone through
+an extensive process of
+
+00:41:17.666 --> 00:41:21.533 align:middle line:79% position:50% size:50%
+public reviews by
+the W3C and they are
+
+00:41:21.599 --> 00:41:24.033 align:middle line:79% position:50% size:50%
+an internationally
+recognized standard.
+
+00:41:24.099 --> 00:41:28.900 align:middle line:79% position:50% size:45%
+So, those are
+solid as anything.
+
+00:41:28.966 --> 00:41:35.300 align:middle line:79% position:50% size:65%
+ACT Rules are
+written by smaller groups.
+
+00:41:35.366 --> 00:41:41.366 align:middle line:79% position:50% size:65%
+They go through a less
+involved process of review
+
+00:41:41.433 --> 00:41:47.500 align:middle line:79% position:50% size:60%
+and they get published
+still by the W3C but not
+
+00:41:47.566 --> 00:41:49.366 align:middle line:85% position:50% size:60%
+by the whole of the W3C.
+
+00:41:49.433 --> 00:41:55.099 align:middle line:79% position:50% size:63%
+There is no massive
+W3C-wide review but there
+
+00:41:55.166 --> 00:41:58.033 align:middle line:79% position:50% size:60%
+is a review and an
+approval that comes from
+
+00:41:58.099 --> 00:42:00.533 align:middle line:79% position:50% size:60%
+the Accessibility
+Guidelines Working Group
+
+00:42:00.599 --> 00:42:05.000 align:middle line:79% position:50% size:40%
+which are the
+authors of WCAG.
+
+00:42:05.066 --> 00:42:09.366 align:middle line:79% position:50% size:63%
+So, you can see them as
+these are rules published
+
+00:42:09.433 --> 00:42:13.300 align:middle line:79% position:50% size:58%
+by the authors of WCAG,
+whereas WCAG itself is
+
+00:42:13.366 --> 00:42:16.333 align:middle line:79% position:50% size:60%
+published by the W3C as
+a standards organization
+
+00:42:16.400 --> 00:42:19.133 align:middle line:85% position:50% size:38%
+as a whole, so.
+
+00:42:19.199 --> 00:42:20.866 align:middle line:79% position:50% size:50%
+&gt;&gt; SHADI ABOU-ZAHRA:
+Thanks.
+
+00:42:20.933 --> 00:42:22.199 align:middle line:79% position:50% size:45%
+We call these -
+internally we call
+
+00:42:22.266 --> 00:42:23.900 align:middle line:85% position:50% size:65%
+them supporting documents.
+
+00:42:23.966 --> 00:42:27.833 align:middle line:79% position:50% size:63%
+These are the so-called
+Techniques documents, the
+
+00:42:27.900 --> 00:42:30.099 align:middle line:79% position:50% size:58%
+Understanding documents
+- Understanding WCAG 2.
+
+00:42:30.166 --> 00:42:32.000 align:middle line:79% position:50% size:55%
+So, with every success
+criteria, there is a
+
+00:42:32.066 --> 00:42:35.833 align:middle line:79% position:50% size:60%
+document associated with
+it called Understanding
+
+00:42:35.900 --> 00:42:40.666 align:middle line:79% position:50% size:63%
+Success Criteria XYZ that
+explains more background
+
+00:42:40.733 --> 00:42:42.533 align:middle line:85% position:50% size:63%
+and would help and so on.
+
+00:42:42.599 --> 00:42:44.566 align:middle line:79% position:50% size:58%
+Then there are several
+Techniques, how you can
+
+00:42:44.633 --> 00:42:48.366 align:middle line:79% position:50% size:65%
+meet that requirement,
+and now we also have tests
+
+00:42:48.433 --> 00:42:50.766 align:middle line:79% position:50% size:43%
+associated with
+success criteria.
+
+00:42:50.833 --> 00:42:54.300 align:middle line:79% position:50% size:68%
+These supporting documents
+are informative, so they're
+
+00:42:54.366 --> 00:42:57.233 align:middle line:79% position:50% size:70%
+not normative like the
+success criteria themselves.
+
+00:42:57.300 --> 00:43:00.599 align:middle line:79% position:50% size:68%
+That is what you have
+to meet but these are all -
+
+00:43:00.666 --> 00:43:03.366 align:middle line:79% position:50% size:58%
+all these supporting
+documents help you make
+
+00:43:03.433 --> 00:43:05.433 align:middle line:79% position:50% size:45%
+sure that you meet
+the requirements.
+
+00:43:05.500 --> 00:43:06.699 align:middle line:85% position:50% size:13%
+Good.
+
+00:43:06.766 --> 00:43:08.633 align:middle line:79% position:50% size:58%
+I will take the liberty
+of answering two more
+
+00:43:08.699 --> 00:43:10.466 align:middle line:79% position:50% size:48%
+questions and
+then we'll move on.
+
+00:43:10.533 --> 00:43:14.066 align:middle line:79% position:50% size:60%
+One question was
+when will WCAG 2.2, when
+
+00:43:14.133 --> 00:43:15.966 align:middle line:85% position:50% size:50%
+will it be released?
+
+00:43:16.033 --> 00:43:18.266 align:middle line:79% position:50% size:60%
+That was a teaser from
+you, Carlos, because you
+
+00:43:18.333 --> 00:43:19.400 align:middle line:79% position:50% size:38%
+mentioned that
+in your slides.
+
+00:43:19.466 --> 00:43:23.333 align:middle line:79% position:50% size:63%
+Currently, it's planned
+for mid-2021, so mid this
+
+00:43:23.400 --> 00:43:26.800 align:middle line:79% position:50% size:60%
+year we expect the new
+version of WCAG 2.2, and
+
+00:43:26.866 --> 00:43:30.533 align:middle line:79% position:50% size:63%
+hopefully with as many
+test rules as possible as
+
+00:43:30.599 --> 00:43:32.599 align:middle line:79% position:50% size:53%
+part of the
+supporting documents.
+
+00:43:32.666 --> 00:43:35.133 align:middle line:79% position:50% size:73%
+And then there was
+another really good question.
+
+00:43:35.199 --> 00:43:38.966 align:middle line:79% position:50% size:60%
+When can we expect -
+can we expect the WCAG 3
+
+00:43:39.033 --> 00:43:43.233 align:middle line:79% position:50% size:65%
+guidelines to follow the
+same approach as ACT Rules
+
+00:43:43.300 --> 00:43:46.133 align:middle line:79% position:50% size:68%
+so WCAG 3 success
+criteria can be tested more
+
+00:43:46.199 --> 00:43:49.466 align:middle line:79% position:50% size:65%
+objectively with
+automation where relevant?
+
+00:43:49.533 --> 00:43:52.233 align:middle line:79% position:50% size:65%
+This is a really good
+question because just this
+
+00:43:52.300 --> 00:43:55.933 align:middle line:79% position:50% size:60%
+- just last week on
+Thursday, fresh, hot off
+
+00:43:56.000 --> 00:44:01.466 align:middle line:79% position:50% size:65%
+the press, we, the W3C,
+published the first public
+
+00:44:01.533 --> 00:44:04.133 align:middle line:85% position:50% size:45%
+draft of WCAG 3.0.
+
+00:44:04.199 --> 00:44:07.400 align:middle line:79% position:50% size:58%
+This is still a very,
+very early draft and we
+
+00:44:07.466 --> 00:44:08.500 align:middle line:85% position:50% size:63%
+would love your comments.
+
+00:44:08.566 --> 00:44:11.699 align:middle line:79% position:50% size:53%
+We, of course, want
+to make WCAG 3.0 more
+
+00:44:11.766 --> 00:44:15.699 align:middle line:79% position:50% size:58%
+testable and so we
+want to look at as much
+
+00:44:15.766 --> 00:44:18.833 align:middle line:79% position:50% size:55%
+approaches, as much
+carry-over as possible
+
+00:44:18.900 --> 00:44:20.000 align:middle line:85% position:50% size:43%
+of the ACT Rules.
+
+00:44:20.066 --> 00:44:25.000 align:middle line:79% position:50% size:73%
+At the same time, WCAG 3 has
+a very new conformance model.
+
+00:44:25.066 --> 00:44:28.933 align:middle line:79% position:50% size:50%
+So, they are looking
+at different ways of
+
+00:44:29.000 --> 00:44:33.633 align:middle line:79% position:50% size:70%
+evaluating, so not just
+binary but maybe on a scale.
+
+00:44:33.699 --> 00:44:36.533 align:middle line:79% position:50% size:65%
+This is maybe a topic for
+another webinar about WCAG
+
+00:44:36.599 --> 00:44:41.666 align:middle line:79% position:50% size:65%
+3.0 but the thing is, yes,
+we are working closely to
+
+00:44:41.733 --> 00:44:44.333 align:middle line:79% position:50% size:53%
+try to get - improve
+the testing in future
+
+00:44:44.400 --> 00:44:45.733 align:middle line:85% position:50% size:43%
+versions of WCAG.
