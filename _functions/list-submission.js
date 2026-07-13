@@ -69,6 +69,38 @@ function callGitHubWebhook(formData) {
   })
 }
 
+/**
+ * Validates turnstile tokens;
+ * see https://developers.cloudflare.com/turnstile/get-started/server-side-validation/#form-data
+ * @param {string} response The response value sent by the Turnstile widget
+ * @param {string} remoteip End-user IP that accessed the page
+ * @param {boolean} isTesting Whether to use the test secret key instead of the real one
+ */
+async function validateTurnstile(response, remoteip, isTesting) {
+  const body = new FormData();
+
+  if (isTesting)
+    body.append("secret", "1x0000000000000000000000000000000AA"); // Always succeeds
+  else if (process.env.TURNSTILE_SECRET)
+    body.append("secret", process.env.TURNSTILE_SECRET);
+  else
+    console.warn("WARNING: TURNSTILE_SECRET environment variable not set in a non-testing environment!")
+
+  body.append("response", response);
+  body.append("remoteip", remoteip);
+
+  try {
+    const response = await fetch(
+      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+      { method: "POST", body }
+    );
+    return await response.json();
+  } catch (error) {
+    console.error("Turnstile validation error:", error);
+    return { success: false, "error-codes": ["internal-error"] };
+  }
+}
+
 function formEncodedToPOJO(formEncoded) {
   const form = new URLSearchParams(formEncoded)
   return Array.from(form.keys()).reduce((result, key) => {
@@ -124,6 +156,18 @@ exports.handler = async function (event, context) {
   }
 
   const formData = formEncodedToPOJO(event.body)
+
+  const turnstileResult = await validateTurnstile(
+    formData["cf-turnstile-response"],
+    event.headers["CF-Connecting-IP"] ||
+      event.headers["X-Forwarded-For"] ||
+      "unknown",
+    formData['DEBUG'] || module === require.main
+  );
+  if (!turnstileResult.success) {
+    console.error(`Rejecting form submission which failed Turnstile challenge`);
+    return { statusCode: 400, body: "Form submission failed challenge validation" };
+  }
 
   if (!(formData.repository in requiredKeys)) {
     console.error(`Rejecting form submission for invalid repository ${formData.repository}`);
