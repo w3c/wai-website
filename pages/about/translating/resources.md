@@ -47,7 +47,22 @@ To get announcements related to WAI translations, subscribe to the WAI Translati
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Overview 
+{::nomarkdown}
+{% include box.html type="start" class="highlighted" %}
+{:/}
+**Translation development is temporarily on hold.** 
+
+For time-sensitive requests, contact <wai@w3.org>.
+
+To be notified when support resumes, subcribe to the WAI Translations mailing list by sending e-mail to <public-wai-translations-request@w3.org> with subject: “subscribe”.
+
+Thank you for your patience. We truly value your contributions and look forward to supporting you again soon.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+## Overview
 
 There are 6 steps to contribute as a volunteer translator:
 
