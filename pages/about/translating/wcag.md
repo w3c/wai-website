@@ -2,7 +2,7 @@
 title: How to Translate WCAG 2
 nav_title: "Translate WCAG 2"
 lang: en
-last_updated: 2026-04-15
+last_updated: 2026-07-21
 description: Technical instructions on translating WCAG
 
 permalink: /about/translating/wcag/
@@ -85,7 +85,7 @@ Make sure to follow these guidelines:
   Use the appropriate "language tag" from the [Language Subtag Registry {% include_cached external.html %}](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry)
 - Do not add or edit CSS.
 - Do not translate `id`s.
-- Add `hreflang="en"` to links when needed, and `lang="en"` where needed.
+- Add `lang="en"` where needed.
 - Follow the guidelines of the [W3C Internationalization Activity {% include_cached external.html %}](https://www.w3.org/International/): for example, the proper usage of language tags, encoding declarations, handling bidirectional text, etc.
 
 ## Step 3: Preview your changes and export in HTML {#preview-export}
@@ -122,7 +122,7 @@ The text in this disclaimer must be in the target language, except for the origi
 Make sure to follow these guidelines:
 - Do not add or edit CSS.
 - Do not translate `id`s.
-- Add `hreflang="en"` to links when needed, and `lang="en"` where needed.
+- Add `lang="en"` where needed.
 - Follow the guidelines of the [W3C Internationalization Activity](https://www.w3.org/International/): for example, the proper usage of language tags, encoding declarations, handling bidirectional text, etc.
 
 ### Translate the text added by `fixup.js`
@@ -146,7 +146,6 @@ In particular, make sure that:
 - All relevant content has been properly translated
 - All `id`s are in English; that is, they have not been translated. If you have followed [How to Translate WCAG 2 – Get the source files](#get-source-files), this should be fine.
 - `lang` and `xml:lang` attributes of the `<html>` tag are correct
-- `hreflang` attribute has been added to links when relevant
 - `lang` attribute has been used when relevant (especially when some text has been kept in English)
 - The links/anchors of the original and translated versions match.
 - “Jump to table of contents”, “Collapse sidebar” and “Hide sidebar” have been translated.
