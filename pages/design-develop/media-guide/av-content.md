@@ -6,7 +6,8 @@ title: "Audio Content and Video Content"
 title_image: /content-images/media-guide/av-content.svg
 nav_title: "Audio Content & Video Content"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2022-08-31   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+first_published: "September 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -35,11 +36,10 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 31 August 2022. First published September 2019. CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href=" https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href=" https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -97,7 +97,7 @@ Specifically, make the background sounds at least 20 decibels lower than the for
 
 Avoid sounds that can be distracting or irritating, such as some high pitches and repeating patterns.
 
-<span style="color:#585858; font-style:italic;">More information is in [Understanding Success Criterion 1.4.7: Low or No Background Audio (AAA)](https://www.w3.org/WAI/WCAG21/Understanding/low-or-no-background-audio.html).</span>
+<span style="color:#585858; font-style:italic;">More information is in [Understanding Success Criterion 1.4.7: Low or No Background Audio (AAA)](https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html).</span>
 
 ### Speak clearly and slowly – _speakers_
 
@@ -122,7 +122,7 @@ For example, instead of saying:
 Say:
 <blockquote>Attach the small ring to the green end, which is the larger end.</blockquote>
 
-<span style="color:#585858; font-style:italic;">More information that primarily addresses web pages, yet is relevant to audio and video, is in [Understanding Success Criterion 1.3.3: Sensory Characteristics (A)](https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html).</span>
+<span style="color:#585858; font-style:italic;">More information that primarily addresses web pages, yet is relevant to audio and video, is in [Understanding Success Criterion 1.3.3: Sensory Characteristics (A)](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html).</span>
 
 ## Video
 
@@ -130,7 +130,7 @@ Say:
 
 Avoid anything that flashes more than three times in any one second period. 
 
-<span style="color:#585858; font-style:italic;">More information is in [Understanding Success Criterion 2.3.2: Three Flashes (AAA)](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes.html) and [Understanding Success Criterion 2.3.1: Three Flashes or Below Threshold (A)](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html)</span>
+<span style="color:#585858; font-style:italic;">More information is in [Understanding Success Criterion 2.3.2: Three Flashes (AAA)](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html) and [Understanding Success Criterion 2.3.1: Three Flashes or Below Threshold (A)](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html)</span>
 
 ### Consider speaker visibility – _storyboarding, recording, post-production_
 
@@ -140,9 +140,9 @@ Some people use mouth movement to help understand spoken language. When feasible
 
 For any text, consider the font family, size, and contrast between the text and background.
 
-<span style="color:#585858; font-style:italic;">More information is in [Understanding Success Criterion 1.4.3: Contrast (Minimum) (AA)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) and [Understanding Success Criterion 1.4.6: Contrast (Enhanced) (AAA)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced).</span>
+<span style="color:#585858; font-style:italic;">More information is in [Understanding Success Criterion 1.4.3: Contrast (Minimum) (AA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) and [Understanding Success Criterion 1.4.6: Contrast (Enhanced) (AAA)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced).</span>
 
-### Plan for sign language – _storyboarding, script, recording_ (WCAG AAA)
+### Plan for sign language – _storyboarding, script, recording_ (WCAG AAA) {#plan-for-sign-language}
 
 Often sign languages are provided as an overlay in the bottom right corner of videos. For example: [NHS 111 British Sign Language (BSL) Advert (YouTube)<br>{% include image.html src="media-guide/sign-example.jpg" alt="" class="normal video" %}](https://www.youtube.com/watch?v=TCq3ru9HQSc)
 

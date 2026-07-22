@@ -3,6 +3,8 @@ title: "WAI-Guide"
 lang: en
 permalink: /about/projects/wai-guide/
 ref: /about/projects/wai-guide/
+github:
+    label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right.small}

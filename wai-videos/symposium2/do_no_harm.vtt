@@ -1,0 +1,3464 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:03.200
+And now let's move to the opening keynote,
+
+00:00:03.640 --> 00:00:08.600
+for which we are delighted
+to welcome Jutta Treviranus
+
+00:00:08.680 --> 00:00:12.200
+Jutta is the director
+of the Inclusive Design Research Center
+
+00:00:12.200 --> 00:00:17.880
+and a professor in the Faculty of Design
+at the OCAD University in Toronto.
+
+00:00:18.280 --> 00:00:20.640
+So, Jutta, the floor is yours.
+
+00:00:21.760 --> 00:00:22.880
+Thank you.
+
+00:00:22.880 --> 00:00:26.960
+And if you stop sharing,
+then I can share my slides.
+
+00:00:27.920 --> 00:00:29.360
+Thank you, Carlos.
+
+00:00:29.360 --> 00:00:35.720
+And it's a great pleasure to be able
+to talk to you about this important topic.
+
+00:00:35.720 --> 00:00:38.120
+I am going to
+
+00:00:38.560 --> 00:00:41.000
+just start my slides
+
+00:00:43.080 --> 00:00:47.280
+and I'm hoping that
+what you see is just the
+
+00:00:47.440 --> 00:00:50.960
+the primary slide, correct?
+
+00:00:50.960 --> 00:00:51.880
+Correct.
+
+00:00:51.880 --> 00:00:54.680
+Oh, wonderful. Okay.
+
+00:00:54.680 --> 00:00:56.120
+And thank you, everyone.
+
+00:00:56.120 --> 00:00:59.440
+I will voice my slides
+and the information in the images.
+
+00:00:59.960 --> 00:01:03.960
+And I've titled my talk first, Do no harm.
+
+00:01:04.760 --> 00:01:07.880
+I'm usually a really optimistic person,
+
+00:01:07.880 --> 00:01:11.680
+and I'm hoping to provide
+an optimistic message.
+
+00:01:11.680 --> 00:01:16.520
+But to realize the benefits of AI
+I believe we need to first recognize
+
+00:01:16.880 --> 00:01:18.920
+and take into account the harms.
+
+00:01:19.520 --> 00:01:21.080
+I'm going to limit my discussion
+
+00:01:21.080 --> 00:01:24.120
+to the harms that are specific to people
+with disabilities.
+
+00:01:25.040 --> 00:01:30.040
+There's a great deal of work detailing the
+ethical concerns of currently deployed
+
+00:01:30.280 --> 00:01:35.120
+AI from lack of representation
+to human bigotry,
+
+00:01:35.480 --> 00:01:39.560
+finding its way into algorithms
+to manipulative practices,
+
+00:01:39.840 --> 00:01:44.640
+unfair value extraction and exploitation
+and disinformation.
+
+00:01:45.000 --> 00:01:47.920
+I'll focus on accessibility
+and disability,
+
+00:01:48.320 --> 00:01:50.600
+including the recognition that disability
+
+00:01:51.320 --> 00:01:54.760
+is at the margins of all other justice
+deserving groups
+
+00:01:54.760 --> 00:01:58.880
+and therefore most vulnerable
+to the general and emerging harms,
+
+00:01:58.880 --> 00:02:01.880
+but also the potential
+opportunities of AI.
+
+00:02:02.960 --> 00:02:06.200
+Carlos shared a number of questions
+that were submitted
+
+00:02:06.200 --> 00:02:10.600
+by those of you attending today,
+and they are great questions.
+
+00:02:10.760 --> 00:02:13.880
+Shari and I have agreed
+that these will be better
+
+00:02:13.880 --> 00:02:16.720
+covered through a conversation
+than a presentation.
+
+00:02:17.160 --> 00:02:21.040
+So at the end of my talk,
+
+00:02:21.720 --> 00:02:24.680
+I'm going to invite Shari to talk
+
+00:02:25.200 --> 00:02:29.720
+about those particular questions,
+and we'll do the same at the book
+
+00:02:29.720 --> 00:02:34.280
+ending talk
+that Shari is giving tomorrow.
+
+00:02:37.400 --> 00:02:41.080
+So our society is plagued
+
+00:02:41.080 --> 00:02:43.720
+by more and more difficulties
+
+00:02:45.240 --> 00:02:48.000
+as the world becomes more and more complex
+
+00:02:48.000 --> 00:02:51.320
+and entangled, the choices
+increase in ambiguity,
+
+00:02:51.320 --> 00:02:55.520
+the risks associated with each decision
+become more consequential.
+
+00:02:55.960 --> 00:02:58.760
+The factors to consider in each decision
+
+00:02:58.760 --> 00:03:04.640
+more numerous, convoluted and confusing,
+and especially in times of crisis
+
+00:03:04.640 --> 00:03:07.400
+like we've been experiencing
+these last few years
+
+00:03:07.720 --> 00:03:11.800
+and in highly competitive situations
+where there is scarcity,
+
+00:03:12.080 --> 00:03:15.920
+AI decision tools become more
+and more attractive and useful.
+
+00:03:17.640 --> 00:03:20.480
+As a illustrative example,
+
+00:03:20.480 --> 00:03:24.400
+it is no wonder that over
+90% of organized nations
+
+00:03:24.760 --> 00:03:28.560
+use some form of AI hiring tool,
+according to the U.S.
+
+00:03:28.880 --> 00:03:31.600
+Equal Employment Opportunity Commission.
+
+00:03:32.560 --> 00:03:35.440
+As work becomes less formulaic
+
+00:03:35.440 --> 00:03:38.000
+and finding the right fit
+becomes more difficult.
+
+00:03:38.600 --> 00:03:42.480
+They are a highly seductive tool.
+As an employer
+
+00:03:42.960 --> 00:03:46.400
+when choosing who to hire
+from a huge pool of applicants,
+
+00:03:46.400 --> 00:03:48.520
+what better way to sift through
+
+00:03:48.520 --> 00:03:52.520
+and find the gems
+and eliminate the potential failed choices
+
+00:03:52.520 --> 00:03:57.320
+than to use AI system
+with an AI tool making the decisions,
+
+00:03:57.320 --> 00:04:01.560
+we remove the risks of conflicts
+of interest and nepotism.
+
+00:04:02.120 --> 00:04:06.480
+What better way to determine who will be
+a successful candidate than to use
+
+00:04:06.480 --> 00:04:10.520
+all the evidence we've gathered
+from our current successful employees,
+
+00:04:11.240 --> 00:04:15.400
+especially when the jobs we're trying to
+fill are not formulaic.
+
+00:04:15.680 --> 00:04:18.840
+When there isn't a valid test
+we can devise for candidates
+
+00:04:19.600 --> 00:04:21.560
+to determine their suitability.
+
+00:04:21.560 --> 00:04:25.920
+AI can use predictive analytics
+to find the optimal candidates.
+
+00:04:26.840 --> 00:04:31.360
+In this way, we're applying solid,
+rigorous science and what would be
+
+00:04:31.360 --> 00:04:34.400
+an unscientific decision otherwise,
+
+00:04:34.400 --> 00:04:37.520
+we're not relying
+on fallible human intuition
+
+00:04:39.080 --> 00:04:39.720
+tools are
+
+00:04:39.720 --> 00:04:42.880
+even adding information
+beyond the application
+
+00:04:42.880 --> 00:04:46.520
+to rule out falsehoods or exaggerations
+in the applications.
+
+00:04:46.920 --> 00:04:48.800
+After all, you never know.
+
+00:04:48.800 --> 00:04:51.280
+There are so many ways to fake
+
+00:04:51.800 --> 00:04:55.400
+a work history,
+a cover letter, or to cheat in academia.
+
+00:04:56.280 --> 00:05:00.640
+The AI hiring tools can verify through
+gleaned social media data
+
+00:05:00.640 --> 00:05:05.200
+and information available on the web
+or through networked employment data.
+
+00:05:05.440 --> 00:05:06.800
+After all, employees
+
+00:05:06.800 --> 00:05:10.720
+have agreed to share this
+as part of the conditions of employment
+
+00:05:11.040 --> 00:05:15.200
+and other employers have agreed
+as the conditions of using the tool.
+
+00:05:15.640 --> 00:05:18.800
+If that is not enough, AI administered
+and processed
+
+00:05:18.800 --> 00:05:20.880
+assessments can be integrated
+
+00:05:22.400 --> 00:05:25.040
+and the tools are going
+beyond the practical
+
+00:05:25.040 --> 00:05:29.120
+and qualitatively determinable capacity
+of candidates
+
+00:05:29.480 --> 00:05:33.600
+to finding the best fit
+culturally to make sure that the chosen
+
+00:05:33.600 --> 00:05:37.400
+candidates don't cause friction
+but integrate comfortably.
+
+00:05:37.880 --> 00:05:41.920
+The tools will even analyze data
+from interviews to rate the socio
+
+00:05:42.120 --> 00:05:44.480
+emotional fit of candidates.
+
+00:05:44.920 --> 00:05:48.800
+If that's not satisfactory,
+an employer can tweak the system
+
+00:05:49.160 --> 00:05:53.200
+to add additional factors
+such as their favored university
+
+00:05:53.520 --> 00:05:55.640
+or to create an ideal persona.
+
+00:05:56.000 --> 00:05:58.880
+Pick an ideal employee
+as the model and the systems
+
+00:05:58.880 --> 00:06:02.600
+are becoming better
+and more sophisticated in finding a match.
+
+00:06:03.240 --> 00:06:06.720
+The same system can then guide promotion
+and termination,
+
+00:06:07.080 --> 00:06:10.400
+ensuring
+consistency of employment policies.
+
+00:06:11.280 --> 00:06:13.840
+So what's wrong with this? Science.
+
+00:06:13.880 --> 00:06:15.920
+Math. Statistical reasoning.
+
+00:06:16.160 --> 00:06:18.840
+Efficiency. Accuracy. Consistency.
+
+00:06:19.320 --> 00:06:22.080
+Better
+and more accurate screening for the best
+
+00:06:22.080 --> 00:06:25.720
+fit of the scientifically determined
+optimal employ
+
+00:06:25.720 --> 00:06:29.480
+accurate replication
+and scaling of a winning formula.
+
+00:06:30.160 --> 00:06:32.600
+It's a very seductive opportunity.
+
+00:06:33.680 --> 00:06:36.320
+What could be wrong
+
+00:06:36.720 --> 00:06:38.640
+for the employing organization?
+
+00:06:38.640 --> 00:06:43.640
+We arrive at a comfortable monoculture
+that recreates and intensifies
+
+00:06:44.040 --> 00:06:46.200
+the successful patterns of the past.
+
+00:06:46.720 --> 00:06:50.440
+With more data and more powerful analysis.
+
+00:06:50.480 --> 00:06:53.960
+The intended target becomes more
+and more precise.
+
+00:06:54.560 --> 00:06:58.040
+The employer finds more and more perfect
+fits.
+
+00:06:58.440 --> 00:07:00.600
+What is wrong with that?
+
+00:07:00.680 --> 00:07:03.920
+For the organization,
+what's wrong is what happens
+
+00:07:04.080 --> 00:07:08.000
+when the context changes,
+when the unexpected happens.
+
+00:07:08.400 --> 00:07:11.840
+A monoculture doesn't offer
+much adaptation,
+
+00:07:11.880 --> 00:07:14.720
+flexibility, or alternative choices.
+
+00:07:14.920 --> 00:07:16.320
+That's a visual description.
+
+00:07:16.320 --> 00:07:19.680
+I have an image showing
+what happened to clone potatoes
+
+00:07:19.680 --> 00:07:25.000
+during a blight
+that was survived by a diverse crop.
+
+00:07:25.600 --> 00:07:28.520
+Of course, we have diversity,
+equity and inclusion
+
+00:07:28.520 --> 00:07:32.680
+measures to compensate for discriminatory
+hiring and increase
+
+00:07:32.680 --> 00:07:36.520
+the number of employees
+from protected underrepresented groups.
+
+00:07:37.400 --> 00:07:38.360
+But even there,
+
+00:07:39.320 --> 00:07:40.480
+there will be an
+
+00:07:40.480 --> 00:07:44.040
+even greater rift
+between the monoculture and the candidates
+
+00:07:44.040 --> 00:07:48.680
+hired through diversity
+and equity programs.
+
+00:07:48.800 --> 00:07:53.120
+What happens to the candidate
+with a disability who would
+
+00:07:53.120 --> 00:07:57.080
+otherwise be a great fit
+for doing the job,
+
+00:07:57.560 --> 00:08:00.040
+when judged by these hiring systems?
+
+00:08:01.840 --> 00:08:04.880
+When AI is analyzing,
+sorting, filtering data
+
+00:08:05.360 --> 00:08:08.840
+about a large group of people,
+what does disability look like?
+
+00:08:09.200 --> 00:08:12.280
+Where is disability in a complex
+and tangled
+
+00:08:12.280 --> 00:08:14.400
+adaptive multivariate data set?
+
+00:08:15.360 --> 00:08:17.560
+Self-identification is often
+
+00:08:17.560 --> 00:08:20.840
+disallowed
+and many people don't self-identify.
+
+00:08:21.200 --> 00:08:24.800
+Even if we had a way to identify
+the definition
+
+00:08:24.800 --> 00:08:27.920
+and boundaries of disability
+are highly contested.
+
+00:08:28.280 --> 00:08:32.120
+Disability statisticians are acutely aware
+of some of the challenges.
+
+00:08:33.240 --> 00:08:37.280
+In any normal distribution,
+someone with a disability is an outlier.
+
+00:08:37.360 --> 00:08:41.200
+The only common data
+characteristic of disability is difference
+
+00:08:41.200 --> 00:08:43.080
+from the average or norm.
+
+00:08:43.080 --> 00:08:45.440
+People with disabilities
+are also more diverse
+
+00:08:45.440 --> 00:08:47.600
+from each other than people
+without disabilities.
+
+00:08:48.480 --> 00:08:52.520
+Data points in the middle are close
+together, meaning they are more alike.
+
+00:08:52.560 --> 00:08:54.320
+Data points at the periphery
+
+00:08:54.320 --> 00:08:57.560
+are further apart, meaning
+they are more different from each other.
+
+00:08:57.960 --> 00:09:01.080
+Data regarding people
+living with disabilities are spread
+
+00:09:01.080 --> 00:09:05.520
+the furthest in what
+I call the starburst of human needs.
+
+00:09:07.280 --> 00:09:09.320
+And as a result of this pattern,
+
+00:09:09.320 --> 00:09:12.800
+any statistically determined
+prediction is highly accurate
+
+00:09:13.200 --> 00:09:17.000
+for people that cluster in the middle,
+inaccurate, as you move from the middle
+
+00:09:17.280 --> 00:09:20.400
+and wrong,
+as you get to the edge of a data plot
+
+00:09:24.160 --> 00:09:24.680
+here,
+
+00:09:24.680 --> 00:09:29.200
+I'm not talking about AI's ability
+to recognize and translate things
+
+00:09:29.200 --> 00:09:33.520
+that are average or typical,
+like typical speech or text or from one
+
+00:09:33.520 --> 00:09:38.040
+typical language to another or to label
+typical objects in the environment
+
+00:09:38.360 --> 00:09:42.680
+or to find the path that most people
+are taking from one place to another.
+
+00:09:43.200 --> 00:09:46.560
+But even there, in these miraculous tools
+that we're using,
+
+00:09:46.560 --> 00:09:47.960
+if we have a disability,
+
+00:09:47.960 --> 00:09:52.240
+if your speech is not average or
+the environment you're in is not typical,
+
+00:09:52.520 --> 00:09:55.880
+AI also fails.
+
+00:09:56.120 --> 00:09:59.760
+Disability is the Achilles heel of AI
+
+00:09:59.760 --> 00:10:03.160
+applying statistical 
+reasoning and disability.
+
+00:10:04.160 --> 00:10:06.240
+You have the culmination of
+
+00:10:06.320 --> 00:10:11.760
+diversity variability,
+the unexpected complexity and entanglement
+
+00:10:12.080 --> 00:10:15.600
+and the exception
+to every rule or determination.
+
+00:10:17.320 --> 00:10:18.880
+AI systems are used to find
+
+00:10:18.880 --> 00:10:21.600
+applicants that match predetermined optima
+
+00:10:21.880 --> 00:10:25.560
+using large data
+sets of successful employees and hires.
+
+00:10:26.360 --> 00:10:30.280
+The system is optimizing
+the successful patterns of the past.
+
+00:10:30.320 --> 00:10:32.520
+All data is from the past.
+
+00:10:32.520 --> 00:10:35.360
+The analytical power tool is honing in on
+
+00:10:35.360 --> 00:10:38.000
+and polishing
+the factors that worked before,
+
+00:10:38.360 --> 00:10:41.200
+and we know how much hiring there is
+
+00:10:41.200 --> 00:10:43.280
+of people with disabilities in the past.
+
+00:10:44.480 --> 00:10:47.720
+The tool is built to be biased
+against difference.
+
+00:10:47.760 --> 00:10:49.760
+Disability is difference.
+
+00:10:49.760 --> 00:10:51.440
+Different ways of doing the job.
+
+00:10:51.440 --> 00:10:55.320
+Different digital traces,
+different work and education history,
+
+00:10:55.320 --> 00:11:00.920
+different social media topics,
+and a tangled profile of many differences
+
+00:11:02.360 --> 00:11:06.200
+as AI gets better
+or more accurate
+
+00:11:06.200 --> 00:11:10.920
+in its identification of the optima,
+AI gets more discriminatory
+
+00:11:10.920 --> 00:11:15.960
+and better at eliminating applicants
+that don't match the optima in some way.
+
+00:11:17.360 --> 00:11:20.760
+The assumptions
+these air power tools are built
+
+00:11:20.760 --> 00:11:24.080
+upon are that scaling and replicating
+
+00:11:24.080 --> 00:11:26.840
+past success
+will bring about future success.
+
+00:11:27.160 --> 00:11:31.760
+Optimizing data characteristics
+associated with past successes
+
+00:11:32.000 --> 00:11:36.200
+increases future successes
+and the data characteristics
+
+00:11:36.480 --> 00:11:40.200
+that determine success
+need not be specified or known
+
+00:11:40.520 --> 00:11:45.440
+to the operators of the AI or the people
+who are subject to the decisions.
+
+00:11:45.760 --> 00:11:49.480
+And the AI cannot articulate at the moment
+
+00:11:49.480 --> 00:11:54.280
+the highly diffuse and possibly
+adaptive reasons behind the choices.
+
+00:11:54.600 --> 00:11:59.280
+Current AI systems cannot really explain
+themselves or their choices.
+
+00:11:59.560 --> 00:12:06.920
+Despite the emergence of explainable AI,
+how many of you have experienced tools
+
+00:12:06.920 --> 00:12:12.800
+like Microsoft Viva or many other
+similar tools that purport to help you
+
+00:12:12.800 --> 00:12:16.840
+with be more efficient and productive
+by analyzing your work habits?
+
+00:12:17.240 --> 00:12:21.760
+These surveillance systems provide more
+and more granular data about employment,
+
+00:12:21.760 --> 00:12:26.360
+providing intelligence about the details
+of the average optimal employee.
+
+00:12:27.440 --> 00:12:29.560
+The results of this AI design
+
+00:12:29.920 --> 00:12:34.160
+is that the optima will not be a person
+with a disability.
+
+00:12:35.040 --> 00:12:38.680
+There are not enough successfully
+employed persons with disability,
+
+00:12:39.800 --> 00:12:42.040
+but it is more than data gaps.
+
+00:12:42.080 --> 00:12:46.640
+Even if we have full representation
+of data from persons with disabilities,
+
+00:12:47.000 --> 00:12:50.440
+there will not be enough
+consistent data regarding success
+
+00:12:50.440 --> 00:12:53.000
+to reach probability thresholds.
+
+00:12:53.000 --> 00:12:57.040
+Even if all data gaps are filled,
+each pattern will still be an outlier
+
+00:12:57.040 --> 00:13:01.400
+or a minority and will lack
+probabilistic power in the algorithm.
+
+00:13:03.080 --> 00:13:05.040
+The same pattern is happening
+
+00:13:05.040 --> 00:13:08.200
+in all life altering difficult decisions.
+
+00:13:09.000 --> 00:13:12.600
+AI is being applied
+and offered to competitive academic
+
+00:13:12.600 --> 00:13:15.840
+admissions departments
+so you won't get admitted
+
+00:13:16.480 --> 00:13:20.320
+to beleaguered health providers
+in the form of medical calculators
+
+00:13:20.320 --> 00:13:23.320
+and emergency triage tools resulting
+
+00:13:23.440 --> 00:13:26.000
+in more iatrogenic death and illness.
+
+00:13:26.320 --> 00:13:30.080
+If you're different
+from your classification to policing
+
+00:13:30.080 --> 00:13:34.000
+to parole boards to immigration
+and refugee adjudications
+
+00:13:35.360 --> 00:13:36.000
+to tax
+
+00:13:36.000 --> 00:13:40.360
+auditors, meaning more taxpayers
+with disabilities are flagged to loans
+
+00:13:40.360 --> 00:13:43.800
+and mortgage officers,
+meaning people with unusual asset
+
+00:13:43.800 --> 00:13:47.920
+patterns won't get credit
+to security departments, meaning outliers
+
+00:13:47.920 --> 00:13:52.000
+become collateral damage.
+
+00:13:52.320 --> 00:13:57.160
+At a community level, we have evidence
+based investment by governments,
+
+00:13:57.560 --> 00:14:02.400
+AI guiding political platforms,
+public health decisions, urban planning,
+
+00:14:02.720 --> 00:14:06.080
+emergency
+preparedness and security programs.
+
+00:14:06.560 --> 00:14:08.040
+None will decide.
+
+00:14:08.040 --> 00:14:11.800
+With the marginalized outlier,
+the outliers will be marked
+
+00:14:12.040 --> 00:14:15.080
+as security risks.
+
+00:14:15.360 --> 00:14:18.440
+These are monumental life
+changing decisions.
+
+00:14:18.440 --> 00:14:20.560
+But even the smaller, seemingly
+
+00:14:20.560 --> 00:14:24.600
+inconsequential decisions
+can harm by a million cuts.
+
+00:14:25.240 --> 00:14:27.000
+What gets covered by the news?
+
+00:14:27.000 --> 00:14:29.120
+What products make it to the market?
+
+00:14:29.480 --> 00:14:32.840
+The recommended route
+be provided by the GPS.
+
+00:14:33.480 --> 00:14:36.360
+The priority given to supply chain
+processes.
+
+00:14:36.360 --> 00:14:40.600
+What design features
+make it to the market?
+
+00:14:40.760 --> 00:14:45.640
+Statistical reasoning that is inherently
+biased against difference from the average
+
+00:14:45.920 --> 00:14:51.440
+is not only used to apply the metrics,
+but to determine the optimal metrics.
+
+00:14:52.800 --> 00:14:56.000
+And this harm predates AI, statistical
+
+00:14:56.000 --> 00:14:59.240
+reasoning as the means of making decisions
+does harm.
+
+00:14:59.480 --> 00:15:03.320
+It does harm to anyone
+not like the statistical average
+
+00:15:03.640 --> 00:15:06.200
+or the statistically determined optima.
+
+00:15:07.440 --> 00:15:11.480
+Assuming that that we know about the
+what we know about
+
+00:15:11.480 --> 00:15:14.480
+the majority applies to the minority,
+it does harm
+
+00:15:15.560 --> 00:15:20.320
+equating truth and valid evidence
+with singular statistically determined
+
+00:15:20.480 --> 00:15:23.480
+findings or majority truth does harm
+
+00:15:25.680 --> 00:15:28.680
+and AI amplifies,
+
+00:15:28.680 --> 00:15:31.160
+accelerates and automates this harm
+
+00:15:32.040 --> 00:15:34.600
+and it is used to exonerate us
+
+00:15:34.600 --> 00:15:38.800
+of responsibility for this harm.
+
+00:15:39.520 --> 00:15:42.680
+We've even heard a great deal
+about the concern for privacy.
+
+00:15:43.280 --> 00:15:47.600
+Well, people with disability are most
+vulnerable to data abuse and misuse.
+
+00:15:48.080 --> 00:15:50.400
+De-identification doesn't work.
+
+00:15:50.520 --> 00:15:53.520
+If you are highly unique,
+you will be re-identified.
+
+00:15:54.080 --> 00:15:57.800
+Differential privacy
+will remove the helpful data specifics
+
+00:15:57.800 --> 00:16:02.920
+that you need to take to make the AI work
+for you and your unique needs.
+
+00:16:03.160 --> 00:16:06.000
+Most people with disabilities
+are actually forced
+
+00:16:06.000 --> 00:16:08.920
+to barter
+their privacy for essential services.
+
+00:16:09.680 --> 00:16:11.720
+We need to go beyond privacy.
+
+00:16:11.720 --> 00:16:16.760
+Assume there will be breaches and create
+systems to prevent data abuse and misuse.
+
+00:16:17.240 --> 00:16:21.120
+We need to ensure transparency regarding
+how data is used, by whom
+
+00:16:21.400 --> 00:16:22.880
+and for what purpose.
+
+00:16:22.880 --> 00:16:25.360
+And it's wonderful that the EU is
+
+00:16:27.440 --> 00:16:30.560
+organizing this talk because the EU
+is doing
+
+00:16:30.560 --> 00:16:34.600
+some wonderful measures in this regard.
+
+00:16:36.200 --> 00:16:39.080
+But wait,
+
+00:16:39.080 --> 00:16:41.120
+we're talking about a great number
+
+00:16:41.120 --> 00:16:43.320
+of harms, haven't we
+
+00:16:44.160 --> 00:16:47.440
+developed some approaches,
+some solutions to this?
+
+00:16:47.960 --> 00:16:52.760
+Don't we have auditing tools that detect
+and eliminate bias and discrimination of
+
+00:16:53.000 --> 00:16:56.520
+AI and don't
+we have some systems that certify
+
+00:16:56.720 --> 00:16:59.200
+whether an AI is ethical or not?
+
+00:17:00.080 --> 00:17:03.600
+Can't we test tools for unwanted bias?
+
+00:17:03.720 --> 00:17:06.760
+Unfortunately,
+AI auditing tools are misleading
+
+00:17:06.760 --> 00:17:10.400
+in that they don't detect bias
+against outliers and small minorities
+
+00:17:10.400 --> 00:17:13.360
+or anyone who doesn't fit
+the bounded groupings.
+
+00:17:13.760 --> 00:17:18.200
+Most AI ethics auditing systems
+use cluster analysis,
+
+00:17:18.200 --> 00:17:21.920
+comparing the performance
+regarding a bounded justice
+
+00:17:21.920 --> 00:17:25.640
+deserving group with the performance
+for the general population.
+
+00:17:26.080 --> 00:17:29.600
+There is no bounded cluster
+for disability.
+
+00:17:30.080 --> 00:17:33.360
+Disability
+means a diffuse and highly diverse
+
+00:17:33.360 --> 00:17:36.400
+set of differences.
+
+00:17:36.680 --> 00:17:41.080
+Those AI ethics certification systems
+and the industry
+
+00:17:41.080 --> 00:17:46.000
+that is growing around them
+raise the expectation of ethical conduct
+
+00:17:46.840 --> 00:17:50.200
+that the problem has been fixed,
+making it even more difficult
+
+00:17:50.200 --> 00:17:54.400
+for the individual to assert and address
+harm.
+
+00:17:54.840 --> 00:17:59.120
+Many of them fall prey to Cobra effects
+or the unintended consequences
+
+00:17:59.120 --> 00:18:03.560
+of oversimplistic solutions
+to complex problems or linear thinking.
+
+00:18:04.240 --> 00:18:07.880
+Falling into the rut of mono-causality
+when the causes are
+
+00:18:07.880 --> 00:18:09.880
+very complex and entangled,
+
+00:18:11.760 --> 00:18:12.320
+there's
+
+00:18:12.440 --> 00:18:16.160
+some helpful progress in
+regulatory guidance.
+
+00:18:16.200 --> 00:18:18.880
+One example is the U.S.
+
+00:18:18.880 --> 00:18:23.000
+Equal Employment Opportunity Commission,
+which has developed the Americans
+
+00:18:23.000 --> 00:18:26.200
+with disabilities Act
+and the use of software, algorithms
+
+00:18:26.200 --> 00:18:30.280
+and artificial intelligence
+to assess job applicants and employees.
+
+00:18:30.320 --> 00:18:32.000
+A very long title.
+
+00:18:32.000 --> 00:18:37.000
+But much of the guidance focuses on fair
+assessments or tests and accommodation,
+
+00:18:37.400 --> 00:18:40.880
+not on the filtering out of applicants
+before they are invited
+
+00:18:40.880 --> 00:18:45.880
+to take an assessment or by employers
+who don't use assessments.
+
+00:18:46.440 --> 00:18:50.680
+The data related suggestion
+is to remove the disability related data
+
+00:18:51.160 --> 00:18:54.680
+that is the basis of disability
+discrimination.
+
+00:18:55.240 --> 00:18:58.520
+But what we found
+is that the data cannot be isolated.
+
+00:18:58.520 --> 00:19:03.080
+For example, an interrupted work
+history will have other data effects
+
+00:19:03.080 --> 00:19:08.000
+and markers, making it hard to match the
+optimal pattern even when that is removed
+
+00:19:11.000 --> 00:19:13.480
+For the ethical harms there are
+
+00:19:13.760 --> 00:19:18.320
+that are common to a whole group
+of marginalized individuals.
+
+00:19:18.800 --> 00:19:22.280
+There are numerous AI
+ethics efforts emerging globally.
+
+00:19:22.560 --> 00:19:27.320
+We've tried to capture the disability
+relevant ones in the We Count project.
+
+00:19:27.320 --> 00:19:32.040
+These include standards, bodies,
+which are creating
+
+00:19:32.040 --> 00:19:34.880
+a number of standards
+that act as guidance.
+
+00:19:35.240 --> 00:19:39.720
+Government initiatives
+that are looking at the impact
+
+00:19:39.720 --> 00:19:42.600
+of their decisions
+using automated decision tools.
+
+00:19:42.920 --> 00:19:46.320
+Academic research units
+that are looking at the effects
+
+00:19:46.320 --> 00:19:50.000
+and possible approaches
+and think tanks and not for profits.
+
+00:19:50.600 --> 00:19:54.280
+One of the things that we found, though,
+is that disability is often
+
+00:19:54.280 --> 00:20:01.760
+left out of the considerations
+or the ethics approaches.
+
+00:20:01.760 --> 00:20:07.040
+And we as the questions
+that were submitted, indicate
+
+00:20:07.480 --> 00:20:09.640
+we're at an inflection point.
+
+00:20:09.640 --> 00:20:13.280
+And this current inflection point
+we’re at reminds me
+
+00:20:13.280 --> 00:20:17.160
+of Burke and Ornstein
+book, The Axemaker’s Gift,
+
+00:20:18.360 --> 00:20:19.520
+they wanted us to be
+
+00:20:19.520 --> 00:20:22.160
+aware of the Axemaker's gifts.
+
+00:20:23.480 --> 00:20:26.600
+Each time
+the Axemaker offered a new way
+
+00:20:26.720 --> 00:20:29.840
+to cut and control
+the world to make us rich
+
+00:20:30.920 --> 00:20:34.240
+or safe or invincible
+or more knowledgeable,
+
+00:20:34.240 --> 00:20:38.040
+we accepted the gift and used it,
+and we changed the world.
+
+00:20:38.040 --> 00:20:43.960
+We changed our minds for each gift,
+redefined the way we thought, the values
+
+00:20:43.960 --> 00:20:47.000
+by which we lived, and the truths
+
+00:20:47.000 --> 00:20:49.640
+for which we died.
+
+00:20:54.080 --> 00:20:55.000
+But to regain
+
+00:20:55.000 --> 00:20:58.040
+my optimism, even AI's potential
+
+00:20:58.040 --> 00:21:01.080
+harm may be a double edged sword.
+
+00:21:02.200 --> 00:21:04.120
+The most significant
+
+00:21:04.120 --> 00:21:08.960
+gift of a AI is that it makes manifest
+the harms that have been
+
+00:21:09.520 --> 00:21:12.880
+dismissed as unscientific concerns.
+
+00:21:13.520 --> 00:21:16.560
+It gives us an opportunity to step back
+
+00:21:17.080 --> 00:21:22.240
+and reconsider what we want to automate
+or what we want to accelerate.
+
+00:21:22.960 --> 00:21:26.320
+It makes us consider what we mean by Best
+
+00:21:26.320 --> 00:21:30.920
+Buy optimal truth, democracy,
+planning, efficiency,
+
+00:21:31.280 --> 00:21:36.080
+fairness, progress, and the common good.
+
+00:21:38.680 --> 00:21:41.840
+Some of
+the things we've done within my unit
+
+00:21:41.840 --> 00:21:46.160
+to provoke this rethinking
+include our inverted word cloud,
+
+00:21:46.840 --> 00:21:49.520
+which is a tiny little mechanism
+
+00:21:49.880 --> 00:21:53.840
+that conventional word cloud increases
+the size and centrality
+
+00:21:53.840 --> 00:21:57.120
+of the most popular
+or statistically frequent words.
+
+00:21:57.440 --> 00:22:01.640
+The less popular or outlying words
+decrease in size and disappear.
+
+00:22:02.160 --> 00:22:04.800
+We've simply inverted that behavior.
+
+00:22:04.800 --> 00:22:08.120
+The novel
+and the unique words go to the center
+
+00:22:08.320 --> 00:22:11.480
+and grow in size.
+
+00:22:12.120 --> 00:22:16.520
+We've been trying to provocate
+with models like the Lawnmower of Justice,
+
+00:22:16.880 --> 00:22:20.720
+where we take the top off
+the Gaussian curve or the bell curve
+
+00:22:21.000 --> 00:22:23.960
+as it might be called,
+to remove the privilege
+
+00:22:24.320 --> 00:22:26.360
+of being the same as the majority.
+
+00:22:26.800 --> 00:22:33.280
+So the model needs to pay greater
+attention to the breadth of data,
+
+00:22:33.280 --> 00:22:37.600
+and we're exploring
+bottom up community led data ecosystems
+
+00:22:37.600 --> 00:22:40.680
+where the members govern
+and share in the value of the data.
+
+00:22:41.080 --> 00:22:44.960
+This fills the gap left by things
+like impact investing.
+
+00:22:45.160 --> 00:22:48.600
+For example,
+when social entrepreneurship efforts
+
+00:22:48.600 --> 00:22:52.280
+that are supposedly addressing
+these problems can't scale
+
+00:22:52.280 --> 00:22:56.400
+a single impactful formula
+sufficiently to garner support.
+
+00:22:56.760 --> 00:23:02.120
+It also works well to grow knowledge
+of things like rare illnesses that
+
+00:23:02.120 --> 00:23:06.240
+won't garner a market for the treatments
+and therefore are not invested in
+
+00:23:09.240 --> 00:23:09.960
+And create,
+
+00:23:09.960 --> 00:23:14.920
+we're also creating tools to reduce harm
+by signaling when a model will be wrong
+
+00:23:14.920 --> 00:23:18.560
+or unreliable, because the evidence
+based guidance is wrong
+
+00:23:18.880 --> 00:23:20.880
+for the person being decided about.
+
+00:23:21.640 --> 00:23:24.920
+Here we're using a tool called the Data
+Set Nutrition label
+
+00:23:25.280 --> 00:23:31.480
+that gives information about what
+data is used to train the model.
+
+00:23:31.480 --> 00:23:35.640
+But back to the axemaker’s gifts
+and the opportunity to reconsider
+
+00:23:35.640 --> 00:23:36.800
+where we're going.
+
+00:23:36.800 --> 00:23:41.880
+From a complexity theory perspective,
+where I think we're collectively stuck
+
+00:23:41.880 --> 00:23:46.680
+on a local optima and unable
+to unlearn our fundamental assumptions
+
+00:23:46.920 --> 00:23:50.120
+and approach approaches
+to find the global optimal.
+
+00:23:51.080 --> 00:23:53.880
+And I believe there is a global optima
+
+00:23:55.280 --> 00:23:56.720
+At the moment,
+
+00:23:56.720 --> 00:24:00.440
+as a society,
+we believe, or we act like we believe,
+
+00:24:00.760 --> 00:24:03.080
+to succeed,
+we need to do what we've been doing
+
+00:24:03.080 --> 00:24:06.800
+more effectively, efficiently,
+accurately and consistently.
+
+00:24:07.280 --> 00:24:12.120
+We're hill climbing, optimizing the
+patterns of the past, eroding the slope.
+
+00:24:12.560 --> 00:24:16.280
+For anyone following us,
+we need to stop doing
+
+00:24:16.280 --> 00:24:20.120
+the same things more efficiently
+and potentially reverse course.
+
+00:24:21.280 --> 00:24:23.720
+I've been
+considering the many local optima
+
+00:24:24.520 --> 00:24:27.560
+we keep hill climbing,
+not just statistical reasoning
+
+00:24:27.560 --> 00:24:32.800
+that finds a single winning answer,
+not just winner takes all zero sum game
+
+00:24:32.800 --> 00:24:38.120
+capitalism and economic growth
+at all costs, but also majority rules.
+
+00:24:38.120 --> 00:24:40.040
+All or nothing decisions.
+
+00:24:40.040 --> 00:24:43.520
+And even in our community,
+this accessibility community,
+
+00:24:43.840 --> 00:24:47.000
+the notion of a single checklist
+of full accessibility
+
+00:24:47.400 --> 00:24:52.000
+for a group of hugely diverse people,
+many of whom are not represented
+
+00:24:52.240 --> 00:24:55.360
+when coming up with the list,
+
+00:24:55.400 --> 00:24:58.800
+the people closest to the bottom
+are more diverse,
+
+00:24:59.120 --> 00:25:02.840
+closest to the path we need to follow
+to find the global optima.
+
+00:25:03.280 --> 00:25:07.720
+Less invested in current conventions,
+we need to diversify
+
+00:25:07.720 --> 00:25:10.080
+and learn to use our complementary skills
+
+00:25:10.320 --> 00:25:13.040
+and learn from people
+who are currently marginalized.
+
+00:25:13.680 --> 00:25:18.960
+Even in this community,
+focused on accessibility.
+
+00:25:18.960 --> 00:25:24.680
+Because if anyone knows,
+we know that it is at the margins or outer
+
+00:25:24.680 --> 00:25:29.200
+edge of our human starburst
+that we find the greatest innovation
+
+00:25:29.200 --> 00:25:33.160
+and the weakest
+and the weak signals of crisis to come.
+
+00:25:33.760 --> 00:25:38.360
+This is where you feel the extremes
+of both the opportunities and the risks.
+
+00:25:41.120 --> 00:25:45.000
+One of the emerging uncertainties
+that holds
+
+00:25:45.000 --> 00:25:48.760
+both greater
+opportunities and risks is generative AI.
+
+00:25:49.520 --> 00:25:52.240
+What are the implications
+if you have a disability?
+
+00:25:52.280 --> 00:25:54.320
+What will it do for accessibility?
+
+00:25:55.080 --> 00:25:59.200
+I'm sure you've heard about tools
+like GPT, ChatGPT,
+
+00:25:59.800 --> 00:26:03.840
+stable infusion and various word
+versions of Dall-E
+
+00:26:05.480 --> 00:26:08.480
+Midjourney and other emerging tools.
+
+00:26:08.520 --> 00:26:11.840
+Even today there's new announcements
+regarding new tools.
+
+00:26:12.280 --> 00:26:16.720
+These tools do not rely on purely on
+statistical reasoning.
+
+00:26:17.080 --> 00:26:20.360
+They can transfer learning
+from context to context.
+
+00:26:20.760 --> 00:26:24.320
+They use new processes
+called transformers
+
+00:26:24.320 --> 00:26:27.080
+that can pivot to new applications,
+
+00:26:27.640 --> 00:26:31.640
+but they can also create
+convincing and toxic lies.
+
+00:26:31.640 --> 00:26:34.520
+People with disabilities
+tend to be most vulnerable
+
+00:26:34.760 --> 00:26:37.800
+to the misuse and abuse of toxic tools.
+
+00:26:38.520 --> 00:26:40.880
+I'm going to invite Shari
+to help me discuss
+
+00:26:40.880 --> 00:26:44.800
+these emerging possibilities.
+
+00:26:50.480 --> 00:26:51.560
+Hello.
+
+00:26:51.560 --> 00:26:52.960
+Hello, everybody.
+
+00:26:52.960 --> 00:26:54.600
+I'm Shari Trewin.
+
+00:26:54.600 --> 00:26:57.120
+I'm from Google.
+
+00:26:57.440 --> 00:27:00.120
+And a middle aged white woman
+
+00:27:00.120 --> 00:27:04.120
+with lots of smile lines on my face.
+
+00:27:09.400 --> 00:27:15.280
+So, Jutta, you’ve given us a lot to think about there.
+
+00:27:16.800 --> 00:27:21.640
+I wonder if we might start off
+where you ended there.
+
+00:27:21.640 --> 00:27:25.000
+Talking a little bit
+about generative A.I.
+
+00:27:25.040 --> 00:27:28.280
+models and language models
+
+00:27:29.360 --> 00:27:30.200
+and the
+
+00:27:30.200 --> 00:27:34.760
+they're trained on large corpora of data
+that may not reflect
+
+00:27:35.120 --> 00:27:38.920
+the the moral values that we would like
+
+00:27:39.120 --> 00:27:41.360
+our models to incorporate.
+
+00:27:42.280 --> 00:27:45.080
+So one question I think
+would be interesting for us to talk about
+
+00:27:45.080 --> 00:27:50.200
+is can we teach these large language
+models or generative A.I.
+
+00:27:50.520 --> 00:27:52.960
+to apply these moral values,
+
+00:27:53.360 --> 00:27:56.880
+even though the
+the very large datasets may not
+
+00:27:58.040 --> 00:28:00.680
+represent that?
+
+00:28:00.760 --> 00:28:02.600
+That's a great question.
+
+00:28:02.600 --> 00:28:06.240
+And in thinking
+about how that might be done.
+
+00:28:07.480 --> 00:28:08.120
+One of
+
+00:28:08.120 --> 00:28:11.840
+the dilemmas
+is that we may need to find a way
+
+00:28:11.840 --> 00:28:15.720
+to quantify complex,
+abstract, qualitative values.
+
+00:28:16.760 --> 00:28:20.600
+And in that process,
+will that reduce these values?
+
+00:28:21.320 --> 00:28:24.400
+I mean, deep learning lacks judgment.
+
+00:28:24.440 --> 00:28:28.400
+Humans sort of value human judgment
+that isn't quantitative.
+
+00:28:29.120 --> 00:28:31.960
+Perhaps one way to start is
+
+00:28:31.960 --> 00:28:34.640
+by recognizing human diversity
+
+00:28:35.760 --> 00:28:38.720
+and the diversity of contexts.
+
+00:28:38.720 --> 00:28:41.000
+There is a lot of talk about
+
+00:28:41.960 --> 00:28:44.080
+individualizing applications
+
+00:28:44.440 --> 00:28:47.280
+without making the costs exorbitant
+
+00:28:47.760 --> 00:28:50.480
+and to the people that need them.
+
+00:28:51.200 --> 00:28:55.120
+The irony, of course, in that
+is that the people that need
+
+00:28:55.120 --> 00:28:59.360
+that type of individualization
+the most are also most likely
+
+00:28:59.360 --> 00:29:01.960
+to be the people
+that can't afford it.
+
+00:29:02.720 --> 00:29:06.760
+And I think it's not yet known.
+
+00:29:06.760 --> 00:29:08.960
+Can we do that?
+
+00:29:08.960 --> 00:29:11.960
+And of course,
+there's been surprising advances
+
+00:29:11.960 --> 00:29:17.120
+in all sorts of different areas
+with respect to AI and generative AI.
+
+00:29:17.960 --> 00:29:22.560
+But I think this is the issue of values
+
+00:29:22.760 --> 00:29:27.400
+and shared values and the the articulation
+
+00:29:27.640 --> 00:29:33.760
+and making mechanizable, because,
+of course, we're talking about a machine
+
+00:29:33.760 --> 00:29:38.280
+and mechanization values
+that that we have difficulty
+
+00:29:38.280 --> 00:29:42.640
+even fully
+expressing is it's quite a challenge.
+
+00:29:42.680 --> 00:29:43.960
+What do you think, Shari?
+
+00:29:45.320 --> 00:29:45.880
+Now, I
+
+00:29:45.880 --> 00:29:48.440
+think that
+you've hit a really good point there with
+
+00:29:49.040 --> 00:29:52.440
+can we express or can we measure
+
+00:29:53.120 --> 00:29:57.400
+whether a model meets our values
+or whether
+
+00:29:58.760 --> 00:30:01.640
+we think it is free from bias
+
+00:30:01.640 --> 00:30:04.360
+or as free from bias as we can make it?
+
+00:30:05.120 --> 00:30:06.440
+Do we know?
+
+00:30:06.440 --> 00:30:07.880
+Do we know how to evaluate?
+
+00:30:07.880 --> 00:30:10.520
+That I think is an important question.
+
+00:30:11.480 --> 00:30:15.320
+And some of the steps
+that that often get missed
+
+00:30:15.320 --> 00:30:19.600
+when creating a system that uses AI might
+
+00:30:21.280 --> 00:30:24.680
+that might help with
+that would be starting off
+
+00:30:24.680 --> 00:30:28.600
+from the beginning by thinking about
+who are the people
+
+00:30:29.000 --> 00:30:34.000
+who might be at risk, what are the issues
+that might be in the data?
+
+00:30:34.000 --> 00:30:39.800
+What historical biases
+might the data represent and include?
+
+00:30:40.040 --> 00:30:44.280
+And then actively working with members
+of those communities
+
+00:30:44.640 --> 00:30:48.960
+to understand how are we going to measure
+fairness here?
+
+00:30:49.080 --> 00:30:50.880
+How are we going to measure bias?
+
+00:30:50.880 --> 00:30:52.200
+What's our goal?
+
+00:30:52.200 --> 00:30:54.280
+And how are we going to test?
+
+00:30:54.280 --> 00:30:57.560
+How are we going to know
+when we've achieved our goal?
+
+00:30:59.160 --> 00:31:01.160
+So I think there's some
+
+00:31:01.400 --> 00:31:04.040
+progress
+that can be made in the design process
+
+00:31:04.040 --> 00:31:08.560
+and thinking about the larger system
+that we're embedding AI in,
+
+00:31:09.640 --> 00:31:13.960
+everything
+doesn't have to be built into one AI model
+
+00:31:14.480 --> 00:31:18.640
+and we can augment models,
+We can build systems around models
+
+00:31:18.800 --> 00:31:22.040
+that take into account
+their limitations and
+
+00:31:23.360 --> 00:31:26.160
+create a better overall whole system.
+
+00:31:27.080 --> 00:31:31.680
+So thinking about what
+the models are currently trained on
+
+00:31:31.680 --> 00:31:35.360
+and just the masses of data
+that are used to build the models
+
+00:31:36.080 --> 00:31:39.360
+and the training data is rife
+
+00:31:39.360 --> 00:31:42.400
+with discrimination against difference.
+
+00:31:42.400 --> 00:31:46.520
+So how do we how do they unlearn?
+
+00:31:46.560 --> 00:31:51.920
+I mean, this is it's sort of
+it matches some of the training
+
+00:31:51.920 --> 00:31:55.400
+that I do within my program and that
+
+00:31:56.720 --> 00:32:00.000
+students have been socialized
+with very similar things.
+
+00:32:00.000 --> 00:32:03.600
+And then often the issue is not learning.
+
+00:32:03.600 --> 00:32:09.200
+The issue is unlearning, like
+how do you remove those those unconscious
+
+00:32:10.520 --> 00:32:13.480
+habituated values that that
+
+00:32:14.600 --> 00:32:18.000
+are so embedded in our learning systems?
+
+00:32:18.360 --> 00:32:23.240
+So it is I agree that there is is huge
+
+00:32:23.240 --> 00:32:28.040
+opportunity,
+especially with more context aware systems
+
+00:32:28.480 --> 00:32:31.400
+and maybe what we need to pursue
+
+00:32:31.400 --> 00:32:34.920
+is even to address things like
+
+00:32:35.960 --> 00:32:39.760
+privacy
+and the need to swim against this massive
+
+00:32:39.760 --> 00:32:43.320
+amount of data
+that is not applicable to you
+
+00:32:43.520 --> 00:32:46.440
+is on device
+
+00:32:46.440 --> 00:32:51.080
+personalized or not personalized,
+because personalized is a term
+
+00:32:51.080 --> 00:32:54.440
+that's also sort of been hijacked to mean
+
+00:32:54.440 --> 00:32:57.640
+cushioning but individualized.
+
+00:32:57.640 --> 00:33:02.080
+Let's use that term system
+that takes your data
+
+00:33:02.080 --> 00:33:04.840
+and creates a bottom up picture
+
+00:33:05.080 --> 00:33:07.000
+of what is needed.
+
+00:33:07.880 --> 00:33:10.000
+Yeah, I think, you know, there
+
+00:33:10.200 --> 00:33:15.160
+there is definitely interesting avenues
+to explore with transfer learning.
+
+00:33:15.160 --> 00:33:19.080
+And can we take a model
+that's been trained on data
+
+00:33:19.080 --> 00:33:23.360
+and has learned some of the concepts
+of the task that we want, but
+
+00:33:23.600 --> 00:33:26.760
+maybe we'd like it to unlearn
+some of the things that it's learned.
+
+00:33:27.120 --> 00:33:30.880
+Can we use techniques like transfer
+learning to layer on top
+
+00:33:31.360 --> 00:33:34.640
+and and teach the
+model and direct the model
+
+00:33:35.920 --> 00:33:38.200
+more in the direction that we want?
+
+00:33:38.200 --> 00:33:41.720
+And the
+I think the the hopeful thing about that
+
+00:33:41.720 --> 00:33:44.600
+is that it needs orders of magnitude
+less data
+
+00:33:45.240 --> 00:33:47.800
+to to train such a model.
+
+00:33:47.800 --> 00:33:50.240
+And so that makes it
+
+00:33:51.000 --> 00:33:53.720
+a little more achievable,
+a little less daunting for
+
+00:33:54.240 --> 00:33:57.680
+for the community to take on.
+
+00:33:59.920 --> 00:34:00.640
+Yeah.
+
+00:34:01.880 --> 00:34:03.960
+Do you think that current
+
+00:34:04.200 --> 00:34:07.960
+regulation systems
+are really up to the task of
+
+00:34:09.160 --> 00:34:11.920
+regulating current and emerging A.I.
+
+00:34:12.000 --> 00:34:14.920
+and preventing the kinds of harms
+that you've been talking about?
+
+00:34:16.000 --> 00:34:18.480
+No. A simple answer.
+
+00:34:18.560 --> 00:34:20.480
+I don't think so.
+
+00:34:20.480 --> 00:34:23.360
+I mean, there's so many issues.
+
+00:34:23.360 --> 00:34:27.080
+Laws and policies are developed
+at a much slower pace
+
+00:34:28.400 --> 00:34:28.880
+They’re.
+
+00:34:28.880 --> 00:34:31.360
+We're dealing with an uncertain
+
+00:34:31.360 --> 00:34:34.480
+very, very quickly
+moving, quickly adapting area.
+
+00:34:35.120 --> 00:34:38.480
+And when laws are
+
+00:34:40.360 --> 00:34:42.520
+well, they need to be testable.
+
+00:34:42.520 --> 00:34:45.200
+And so in order to be testable,
+we have to create
+
+00:34:45.200 --> 00:34:48.920
+these static rules that can be tested,
+which means we have to be
+
+00:34:50.200 --> 00:34:51.560
+fairly specific as
+
+00:34:51.560 --> 00:34:54.400
+opposed to sort of general and abstract.
+
+00:34:55.000 --> 00:34:59.120
+And that tends to lead us
+towards one size fits,
+
+00:34:59.120 --> 00:35:03.800
+one criteria
+which we know are are not great.
+
+00:35:03.920 --> 00:35:07.800
+If we're trying to design for diversity
+or encourage diversity.
+
+00:35:08.760 --> 00:35:12.200
+I think we, one of the things
+we need to innovate in
+
+00:35:12.200 --> 00:35:17.560
+is the regulatory instruments
+that we can use here.
+
+00:35:18.400 --> 00:35:21.600
+What's your thinking about this?
+
+00:35:21.600 --> 00:35:24.000
+Yeah, I think some of those
+
+00:35:24.000 --> 00:35:27.880
+regulatory instruments
+that we have do apply.
+
+00:35:28.280 --> 00:35:31.240
+So if you're a company that's using a
+
+00:35:31.560 --> 00:35:34.520
+a AI system in screening job
+
+00:35:34.520 --> 00:35:37.760
+applicants,
+
+00:35:37.760 --> 00:35:40.880
+the disability discrimination laws
+still apply to you.
+
+00:35:41.320 --> 00:35:43.680
+Somebody can still bring a lawsuit
+against you
+
+00:35:44.720 --> 00:35:48.920
+saying that your system discriminated
+against them and you are still liable
+
+00:35:49.400 --> 00:35:53.680
+to defend against that and to watch out
+
+00:35:53.680 --> 00:35:56.680
+for those kinds of issues.
+
+00:35:56.800 --> 00:36:01.160
+So in in some ways,
+there are important pieces
+
+00:36:01.520 --> 00:36:06.440
+that we need in place
+that can be used to tackle problems
+
+00:36:06.440 --> 00:36:09.800
+introduced when AI systems are introduced.
+
+00:36:10.520 --> 00:36:11.760
+But then in other ways,
+
+00:36:12.760 --> 00:36:14.400
+there was a lot more of a gray area.
+
+00:36:14.400 --> 00:36:16.720
+When the technology is not making
+
+00:36:17.840 --> 00:36:19.760
+discriminatory decisions, but
+
+00:36:19.760 --> 00:36:22.400
+it still might make harmful mistakes
+
+00:36:22.760 --> 00:36:25.520
+or that mislead people
+
+00:36:26.000 --> 00:36:29.400
+or that people are relying on it for.
+
+00:36:29.400 --> 00:36:34.400
+And so, you know, if anybody here has
+a legal background, I would love to hear
+
+00:36:35.480 --> 00:36:38.720
+their take as well on
+
+00:36:39.000 --> 00:36:42.320
+how well do
+current consumer protections apply.
+
+00:36:42.520 --> 00:36:45.080
+For example, if you're using an AI.
+
+00:36:45.880 --> 00:36:49.240
+I've become aware of and worried
+
+00:36:49.240 --> 00:36:52.440
+about the people for whom
+the law isn't adequate.
+
+00:36:52.960 --> 00:36:57.680
+So the fact that we have a law,
+the fact that we supposedly have measures
+
+00:36:57.680 --> 00:37:02.240
+that prevent abuse or unethical practice,
+
+00:37:02.640 --> 00:37:05.320
+if that if you are still
+
+00:37:05.760 --> 00:37:10.040
+being treated unethically,
+then it makes it even harder for you.
+
+00:37:10.520 --> 00:37:16.160
+So I think the the measures that we do
+have, the regulations that we do
+
+00:37:16.160 --> 00:37:20.000
+have have to have some way of continuously
+
+00:37:20.480 --> 00:37:23.600
+being iterated upon so that we can catch
+
+00:37:24.560 --> 00:37:27.080
+the individuals that are not included.
+
+00:37:27.080 --> 00:37:29.760
+And we have to recognize that
+
+00:37:29.760 --> 00:37:33.320
+our supposed solutions
+are actually not solutions,
+
+00:37:33.320 --> 00:37:36.040
+that this is never fixed, that it's
+
+00:37:36.320 --> 00:37:38.640
+it requires this ongoing vigilance.
+
+00:37:39.200 --> 00:37:45.240
+And so the yeah, there's
+that there's much more to say about that.
+
+00:37:45.240 --> 00:37:46.160
+But yes, you're right.
+
+00:37:46.160 --> 00:37:48.680
+It would be great to hear from any
+
+00:37:49.520 --> 00:37:55.640
+anyone with a legal background.
+
+00:37:55.640 --> 00:37:59.080
+Yeah.
+
+00:37:59.080 --> 00:38:02.760
+Let's maybe talk a little bit about it's
+
+00:38:03.080 --> 00:38:05.280
+a bit more about generative AI
+
+00:38:05.840 --> 00:38:09.320
+that you mentioned at the end there.
+
+00:38:09.320 --> 00:38:11.800
+Know it. It
+
+00:38:12.000 --> 00:38:17.120
+produces very plausible convincing
+
+00:38:19.640 --> 00:38:22.400
+statements when when asked the question,
+
+00:38:22.640 --> 00:38:26.360
+but it also very plausibly
+and convincingly,
+
+00:38:26.360 --> 00:38:31.600
+completely makes things up
+and isn't always reliable.
+
+00:38:31.600 --> 00:38:34.720
+And in fact right now is not connected
+
+00:38:35.040 --> 00:38:38.080
+to any form of ground truth or
+
+00:38:39.160 --> 00:38:41.600
+able to assess the accuracy of what makes
+
+00:38:42.880 --> 00:38:45.080
+the one
+question I think that's interesting is
+
+00:38:45.320 --> 00:38:48.680
+will this technology reach a stage where
+
+00:38:50.280 --> 00:38:52.480
+it can support
+
+00:38:52.480 --> 00:38:58.160
+the kinds of decisions that we're using,
+statistical reasoning for right now?
+
+00:38:58.160 --> 00:39:02.000
+Eventually, obviously, right now it's it's
+not there yet.
+
+00:39:03.600 --> 00:39:03.920
+Yeah.
+
+00:39:03.920 --> 00:39:08.680
+And it's interesting because just recently
+there have been the announcements
+
+00:39:09.120 --> 00:39:12.240
+of these systems
+being used for medical guidance
+
+00:39:13.520 --> 00:39:15.440
+using large
+
+00:39:15.440 --> 00:39:19.960
+language models to come up with answers
+to your medical questions,
+
+00:39:20.440 --> 00:39:23.600
+which of course is
+
+00:39:23.600 --> 00:39:24.480
+quite.
+
+00:39:25.040 --> 00:39:27.360
+Yeah, it'll be interesting
+to see what happens.
+
+00:39:28.040 --> 00:39:31.160
+It's scary, I think is exactly scary.
+
+00:39:31.400 --> 00:39:36.560
+And what about the the the medical advice
+given to someone where
+
+00:39:37.320 --> 00:39:42.040
+within the data set that is provided,
+there isn't a lot of advice.
+
+00:39:42.040 --> 00:39:44.560
+So that given that the system does
+
+00:39:45.200 --> 00:39:49.480
+I mean ask any of the LLMs
+or the chat bots
+
+00:39:49.880 --> 00:39:53.400
+how confident they are in their
+their answers.
+
+00:39:53.400 --> 00:39:54.160
+They'll answer that
+
+00:39:54.160 --> 00:39:57.320
+they are confident
+because there isn't a sense of
+
+00:39:58.520 --> 00:40:00.400
+what is the the risk level,
+
+00:40:00.400 --> 00:40:05.000
+what is the the confidence level
+of this particular response.
+
+00:40:05.000 --> 00:40:10.280
+There
+there's no self-awareness of what is wrong
+
+00:40:10.280 --> 00:40:13.680
+and what is right and what is the context
+that is in front of me.
+
+00:40:14.560 --> 00:40:16.640
+Yeah, I think that's actually
+a great opportunity.
+
+00:40:16.640 --> 00:40:21.000
+There to explore whether we can enable
+
+00:40:22.520 --> 00:40:25.360
+models a little better to know
+what they don't know,
+
+00:40:26.000 --> 00:40:29.320
+to know when the case with right now
+
+00:40:29.840 --> 00:40:35.560
+isn't well-represented in their models
+or maybe an outlier case.
+
+00:40:35.880 --> 00:40:38.000
+That they
+
+00:40:39.920 --> 00:40:41.120
+should perhaps pass on
+
+00:40:41.120 --> 00:40:45.880
+to some other form of decision
+making or at least convey
+
+00:40:46.520 --> 00:40:48.560
+the less confidence
+
+00:40:48.960 --> 00:40:53.200
+in the voice of their, you know,
+
+00:40:53.480 --> 00:40:55.640
+I think generative AI today
+
+00:40:56.560 --> 00:41:00.440
+gives us a glimpse of the future
+and the kinds of interactions
+
+00:41:00.680 --> 00:41:05.120
+that are possible, the kinds of ways
+we might interact with technology
+
+00:41:05.440 --> 00:41:07.000
+in the future.
+
+00:41:07.000 --> 00:41:11.000
+You know, clearly there's
+a research priority to ground it better.
+
+00:41:11.040 --> 00:41:12.640
+In truth, and
+
+00:41:13.880 --> 00:41:14.360
+it needs to
+
+00:41:14.360 --> 00:41:17.840
+be much more reliable,
+much more trustworthy, much more accurate.
+
+00:41:18.320 --> 00:41:24.680
+But then you go to the
+it can support serious applications.
+
+00:41:24.680 --> 00:41:28.160
+And the idea of
+using it to get medical advice just is
+
+00:41:28.840 --> 00:41:32.000
+that that's a very, very scary
+
+00:41:32.360 --> 00:41:35.120
+because it is so eloquent
+
+00:41:35.840 --> 00:41:40.320
+that it's immediately trustworthy
+and it gets enough things
+
+00:41:40.320 --> 00:41:44.200
+right
+that we begin to trust it very quickly.
+
+00:41:44.200 --> 00:41:46.600
+And so in some ways, the the
+
+00:41:47.600 --> 00:41:50.680
+the advances that have been made are
+
+00:41:52.760 --> 00:41:54.440
+it's it's so good
+
+00:41:54.440 --> 00:41:58.720
+that it really highlights the dangers,
+
+00:41:58.720 --> 00:42:07.560
+I think, more effectively.
+
+00:42:07.560 --> 00:42:10.120
+So, yeah, I think that's interesting
+to think about
+
+00:42:10.120 --> 00:42:12.920
+what would a human A.I.
+
+00:42:13.000 --> 00:42:17.080
+interaction look like in the future?
+
+00:42:17.080 --> 00:42:20.640
+Would would we need to change train
+
+00:42:21.720 --> 00:42:26.600
+or was one to divide by bias
+
+00:42:26.840 --> 00:42:31.080
+and kind of work with a larger language
+
+00:42:31.080 --> 00:42:34.360
+model to adapt responses?
+
+00:42:34.360 --> 00:42:35.600
+Would we you know how
+
+00:42:37.120 --> 00:42:40.040
+automatic
+image description has sort of evolved?
+
+00:42:40.040 --> 00:42:41.360
+At first it would
+
+00:42:41.360 --> 00:42:45.440
+you know, we would throw out words
+and that might be in the picture.
+
+00:42:45.440 --> 00:42:48.440
+And sometimes it was right
+and sometimes it would be wrong.
+
+00:42:48.800 --> 00:42:53.240
+And now you see these generated
+alternative text
+
+00:42:53.720 --> 00:42:58.320
+being phrased in a way
+that conveys the uncertainty.
+
+00:42:58.320 --> 00:43:01.800
+So could be a tree or something like that.
+
+00:43:01.800 --> 00:43:05.120
+And I think the large language models
+could do something
+
+00:43:05.120 --> 00:43:08.840
+similar to
+
+00:43:08.840 --> 00:43:11.360
+reduce the chances of misleading people.
+
+00:43:11.360 --> 00:43:15.440
+So they might say things
+like many people seem to think
+
+00:43:16.040 --> 00:43:19.280
+blah, blah, blah,
+or get better at citing sources.
+
+00:43:19.520 --> 00:43:23.240
+I think there's a lot of ways
+that we can use
+
+00:43:23.240 --> 00:43:25.640
+these in direct research to,
+
+00:43:27.160 --> 00:43:32.480
+you know, to overcome some of the really
+obvious failings that are there right now.
+
+00:43:32.480 --> 00:43:38.280
+But the limitations
+that we currently have,
+
+00:43:38.280 --> 00:43:44.040
+Mark Urban has shared
+in in the chat that I can see
+
+00:43:45.240 --> 00:43:48.040
+from the US government regulatory side,
+
+00:43:48.560 --> 00:43:51.160
+much of the current laws
+
+00:43:51.160 --> 00:43:56.400
+or regulations for access to government
+services are about the technical
+
+00:43:56.400 --> 00:44:00.360
+accessibility of the interfaces
+rather than the more
+
+00:44:01.560 --> 00:44:06.080
+AI focused questions
+around system exclusion or mismatch.
+
+00:44:06.080 --> 00:44:07.440
+So that's
+
+00:44:08.480 --> 00:44:14.400
+coming back to our point
+about the regulatory systems.
+
+00:44:14.400 --> 00:44:18.760
+And I just noticed that
+Mike Calvo says what a Debbie Downer
+
+00:44:19.400 --> 00:44:23.120
+my talk is, which
+
+00:44:23.120 --> 00:44:25.520
+I think by design,
+
+00:44:25.520 --> 00:44:28.320
+we decided between Shari and I that
+
+00:44:28.760 --> 00:44:31.360
+I would provide the warnings
+
+00:44:31.480 --> 00:44:34.360
+and then Shari would provide optimism.
+
+00:44:36.120 --> 00:44:38.480
+I say I get the best of their.
+
+00:44:41.480 --> 00:44:44.120
+I think there are
+
+00:44:44.120 --> 00:44:47.480
+quite a few questions
+in the question and answer panel. Yes.
+
+00:44:47.680 --> 00:44:51.040
+And so maybe what we should do is...
+
+00:44:51.160 --> 00:44:52.640
+Over there's so many things
+
+00:44:52.640 --> 00:44:56.480
+to explore with the emerging models
+and so many uncertainties,
+
+00:44:56.800 --> 00:45:03.680
+but there's some great questions
+there as well.
+
+00:45:04.320 --> 00:45:06.000
+Yeah, How about
+
+00:45:10.520 --> 00:45:13.880
+jumping around on me...
+
+00:45:13.880 --> 00:45:17.120
+So many new questions.
+
+00:45:17.120 --> 00:45:22.640
+So I know
+this is not in the right order, but
+
+00:45:24.240 --> 00:45:26.560
+as people are adding questions,
+they're kind of
+
+00:45:26.560 --> 00:45:31.640
+they're kind of jumping.
+
+00:45:31.640 --> 00:45:33.640
+Okay, so Bruce Bailey is asking.
+
+00:45:33.640 --> 00:45:35.440
+He says, Fantastic keynote.
+
+00:45:35.440 --> 00:45:39.200
+Please expound on personalization
+having been hijacked
+
+00:45:39.440 --> 00:45:42.320
+to mean cushioning
+
+00:45:42.440 --> 00:45:44.840
+time and perspective as new.
+
+00:45:44.840 --> 00:45:45.360
+Sure.
+
+00:45:45.360 --> 00:45:48.560
+Yeah, I can definitely talk about that.
+
+00:45:48.560 --> 00:45:50.480
+I mean, one of the ways in which
+
+00:45:50.480 --> 00:45:54.480
+we recognize that we're all diverse,
+and especially
+
+00:45:55.000 --> 00:45:58.520
+if you have a disability, you're diverse
+from other people with disabilities
+
+00:45:58.920 --> 00:46:00.360
+and that our needs are there for
+
+00:46:00.360 --> 00:46:04.160
+a diverse has been to look at
+how do we personalize.
+
+00:46:04.160 --> 00:46:08.600
+But personalization has been used
+
+00:46:08.720 --> 00:46:11.360
+as a term to look at
+
+00:46:13.160 --> 00:46:15.560
+using recommender engines, using
+
+00:46:15.560 --> 00:46:18.160
+various ways in which we’re offered
+
+00:46:18.600 --> 00:46:23.840
+only information
+and recommendations from people like us,
+
+00:46:24.200 --> 00:46:28.800
+which of course removes any dissonance
+and any diverse
+
+00:46:28.800 --> 00:46:33.480
+thinking and our exposure
+to alternative views and perspectives.
+
+00:46:34.160 --> 00:46:38.280
+And to some extent it causes us to
+
+00:46:39.040 --> 00:46:43.120
+it causes greater polarization
+because we're also
+
+00:46:44.000 --> 00:46:46.720
+offered a personalized view
+
+00:46:46.720 --> 00:46:49.520
+of the current stance that we're taking
+
+00:46:49.880 --> 00:46:52.720
+so that it gets confirmed again
+and again and again.
+
+00:46:53.080 --> 00:46:56.480
+So I'm not talking about that type
+of personalization.
+
+00:46:56.840 --> 00:47:01.920
+I'm talking about the type
+of personalization where the interface
+
+00:47:02.480 --> 00:47:06.320
+makes it easier
+for us to participate and addresses
+
+00:47:06.320 --> 00:47:09.720
+our specific, very diverse requirements
+with respect
+
+00:47:10.120 --> 00:47:12.760
+to that participation so that
+
+00:47:13.760 --> 00:47:17.480
+I've moved
+away from the term personalization simply
+
+00:47:17.480 --> 00:47:22.760
+because I don't want it to be mistaken
+for the type of personalization
+
+00:47:23.120 --> 00:47:27.080
+that cushions us away from diverse
+perspectives.
+
+00:47:27.080 --> 00:47:32.160
+Because certainly we need to be exposed
+to those that diversity of perspectives,
+
+00:47:33.080 --> 00:47:35.600
+and we need to consider
+
+00:47:35.600 --> 00:47:40.160
+the diverse stories that people have.
+
+00:47:40.160 --> 00:47:47.080
+You know, I think personalization,
+personalization is
+
+00:47:48.440 --> 00:47:52.480
+really part of accessibility in general,
+
+00:47:52.480 --> 00:47:55.560
+but there's
+
+00:47:55.560 --> 00:47:58.760
+you know, you're talking about
+a particular kind of personalization,
+
+00:47:59.160 --> 00:48:00.520
+but AI personalization.
+
+00:48:00.520 --> 00:48:03.640
+I'm going to talk a little bit more
+in the keynote at the end about an example
+
+00:48:03.640 --> 00:48:06.920
+of AI personalization
+of personalized models
+
+00:48:06.920 --> 00:48:09.440
+that are
+
+00:48:12.800 --> 00:48:14.560
+providing personalized access
+
+00:48:14.560 --> 00:48:19.040
+to digital content, which I think
+is a good use of personalization.
+
+00:48:19.400 --> 00:48:20.880
+Yeah, Yeah.
+
+00:48:21.800 --> 00:48:25.040
+So Carve or Convey
+
+00:48:25.520 --> 00:48:30.200
+from EDF says thank you
+Jutta for this important keynote.
+
+00:48:30.200 --> 00:48:34.400
+I've seen different toolkits
+to test and mitigate bias in AI.
+
+00:48:34.400 --> 00:48:39.640
+What is your view on them
+and their usefulness?
+
+00:48:39.640 --> 00:48:42.080
+Right. So we've been doing a
+
+00:48:43.160 --> 00:48:44.280
+well actually
+
+00:48:44.280 --> 00:48:48.840
+as part of a number of our projects,
+including ODD, which is optimizing
+
+00:48:48.840 --> 00:48:52.520
+diversity with disability
+and our We Count project,
+
+00:48:52.800 --> 00:48:57.400
+we've been looking at a variety of A.I.
+
+00:48:57.400 --> 00:49:02.360
+ethics, auditing tools, but
+also we've done sort of the secret shopper
+
+00:49:03.080 --> 00:49:05.960
+test of employment tools
+
+00:49:06.320 --> 00:49:11.680
+and then seen whether we can detect the
+the particular biases
+
+00:49:12.000 --> 00:49:16.640
+that unwanted biases
+as is is made clear by AI.
+
+00:49:16.640 --> 00:49:20.480
+So I mean bias of course,
+the tools are intended to be biased.
+
+00:49:21.080 --> 00:49:24.680
+And so it's
+the unwanted bias as a proviso.
+
+00:49:24.960 --> 00:49:27.760
+And what we find is that
+
+00:49:28.120 --> 00:49:30.880
+they're great at cluster analysis
+
+00:49:31.640 --> 00:49:34.400
+and then they they supplement the cluster
+
+00:49:34.400 --> 00:49:39.120
+analysis with a number of questions
+that is
+
+00:49:39.120 --> 00:49:42.880
+asked of the implementer of the system.
+
+00:49:43.320 --> 00:49:46.440
+So the primary technical key to to
+
+00:49:46.440 --> 00:49:51.440
+the tools is determining
+whether there is unfair
+
+00:49:51.440 --> 00:49:54.560
+treatment of one
+bounded group with another.
+
+00:49:54.560 --> 00:49:57.040
+And that works
+well if you have something like
+
+00:49:57.840 --> 00:50:02.760
+determining whether there's discrimination
+regarding gender or discrimination
+
+00:50:03.440 --> 00:50:08.400
+regarding declared race or language
+or those sorts of things
+
+00:50:08.640 --> 00:50:13.200
+which do cluster well, but it doesn't
+
+00:50:13.400 --> 00:50:18.560
+none of the tools really detect
+whether there is discrimination
+
+00:50:19.600 --> 00:50:22.120
+based upon disability.
+
+00:50:22.120 --> 00:50:25.160
+And and the
+
+00:50:25.160 --> 00:50:27.400
+because the the particular
+
+00:50:28.680 --> 00:50:33.760
+discriminating characteristics
+are so diffuse and different
+
+00:50:33.760 --> 00:50:38.960
+from person to person,
+we can't see how it would be possible
+
+00:50:39.320 --> 00:50:42.560
+in a litigation perspective
+
+00:50:42.560 --> 00:50:45.080
+or in a regulatory perspective to prove
+
+00:50:45.560 --> 00:50:49.080
+that you have been discriminated
+against it.
+
+00:50:49.240 --> 00:50:53.080
+It's going to be very,
+very difficult to come up with that proof
+
+00:50:53.560 --> 00:50:57.440
+because the
+the particular characteristics are
+
+00:50:59.080 --> 00:51:01.320
+themselves so entangled and diffuse.
+
+00:51:01.640 --> 00:51:05.600
+And so it may not be one
+particular characteristic associated
+
+00:51:05.600 --> 00:51:08.240
+with your disability
+that you would use to say,
+
+00:51:08.240 --> 00:51:11.480
+well, look at here, I'm
+being discriminated against
+
+00:51:11.480 --> 00:51:16.640
+because of this characteristic
+that relates to my disability.
+
+00:51:16.640 --> 00:51:17.000
+Yeah.
+
+00:51:17.000 --> 00:51:20.920
+So I think there are a lot
+of the toolkits.
+
+00:51:21.320 --> 00:51:24.360
+Many of the methods in the toolkit
+are group fairness
+
+00:51:24.840 --> 00:51:27.200
+metrics like, like you say, where.
+
+00:51:28.480 --> 00:51:30.920
+And that's an important thing to measure.
+
+00:51:30.920 --> 00:51:34.560
+It is when we when we do have the ability
+
+00:51:34.560 --> 00:51:39.320
+to identify groups and to know for sure
+who's in which group and which one,
+
+00:51:39.960 --> 00:51:43.520
+the boundaries of these groups are always
+not fuzzy.
+
+00:51:43.520 --> 00:51:46.080
+You know, there's the there's
+
+00:51:47.440 --> 00:51:50.080
+a deeply embedded assumption that there's
+
+00:51:50.080 --> 00:51:54.000
+only two genders, for example,
+in a lot of the data.
+
+00:51:54.000 --> 00:51:56.000
+And many of these tools.
+
+00:51:56.000 --> 00:52:01.480
+So they have their problems
+and this ability exemplifies this.
+
+00:52:01.640 --> 00:52:04.720
+The same problem. Yeah, same problems.
+
+00:52:04.920 --> 00:52:09.240
+But there are also individual
+fairness metrics and measures,
+
+00:52:09.600 --> 00:52:13.240
+and some of the toolkits
+include some of these kinds of measures.
+
+00:52:13.240 --> 00:52:16.800
+And so instead of asking,
+is this group as a whole,
+
+00:52:17.000 --> 00:52:21.080
+treated equivalently to this other group,
+they ask
+
+00:52:21.720 --> 00:52:26.200
+is a similar
+are similar individuals treated similarly?
+
+00:52:26.200 --> 00:52:29.320
+And so you could imagine with an approach
+like that,
+
+00:52:29.720 --> 00:52:33.920
+if I as an individual with my unique data,
+
+00:52:34.920 --> 00:52:35.520
+I could make a
+
+00:52:35.520 --> 00:52:38.000
+case that I was discriminated against by
+
+00:52:39.400 --> 00:52:41.880
+creating another person
+
+00:52:42.200 --> 00:52:45.080
+who was similar to me in the respects
+
+00:52:45.080 --> 00:52:47.440
+that are important for this job.
+
+00:52:47.440 --> 00:52:49.240
+Mm hmm. Yeah.
+
+00:52:49.720 --> 00:52:53.240
+And. And see what kind of result
+they got compared to my result.
+
+00:52:53.240 --> 00:52:56.480
+And that would be,
+you know, a way to measure
+
+00:52:56.480 --> 00:52:59.800
+individual fairness
+and and build up a case.
+
+00:53:00.400 --> 00:53:01.640
+Yes. Yeah.
+
+00:53:01.640 --> 00:53:05.480
+Unfortunately, there's not that
+many schools that that currently do that.
+
+00:53:05.480 --> 00:53:08.280
+And the certification systems
+that currently exist
+
+00:53:08.640 --> 00:53:12.720
+are not implementing those
+so that there is much to work on there.
+
+00:53:13.400 --> 00:53:14.000
+Yeah.
+
+00:53:14.000 --> 00:53:17.240
+Think it's sort of more of a case, a
+
+00:53:21.000 --> 00:53:22.160
+case by case basis,
+
+00:53:22.160 --> 00:53:25.320
+but this particular job to me
+
+00:53:25.320 --> 00:53:29.320
+so it's not so easy
+to make a blanket statement about it,
+
+00:53:29.320 --> 00:53:31.960
+but I think it's not impossible to
+
+00:53:32.840 --> 00:53:38.000
+assess.
+
+00:53:38.000 --> 00:53:39.400
+Okay, so
+
+00:53:43.000 --> 00:53:44.480
+do we have time for one more?
+
+00:53:44.480 --> 00:53:44.920
+How long?
+
+00:53:44.920 --> 00:53:47.880
+How much longer do we have
+another three minute?
+
+00:53:48.920 --> 00:53:51.600
+Well, you have almost 10 minutes more,
+
+00:53:51.600 --> 00:53:54.000
+so you can definitely take one more.
+
+00:53:55.160 --> 00:53:59.920
+Awesome, great. Um,
+
+00:54:01.800 --> 00:54:11.240
+let's see.
+
+00:54:11.240 --> 00:54:15.680
+So Fabian Berger
+
+00:54:16.640 --> 00:54:18.920
+says, I feel that AI
+
+00:54:18.920 --> 00:54:23.560
+but before it was KPIs or else are
+
+00:54:23.640 --> 00:54:28.120
+are searched by managers
+to justify their decisions or run away
+
+00:54:28.440 --> 00:54:30.920
+from the responsibility
+of their decisions.
+
+00:54:32.480 --> 00:54:34.520
+It follows a need for them
+
+00:54:34.800 --> 00:54:37.360
+but with a wrong incomplete answer.
+
+00:54:37.960 --> 00:54:42.200
+Do you agree? Yes.
+
+00:54:42.440 --> 00:54:46.080
+I mean, I think that the issue
+
+00:54:46.080 --> 00:54:50.080
+and I was trying to make that point,
+but possibly not well enough
+
+00:54:50.960 --> 00:54:54.560
+that AI is doing much of what
+
+00:54:54.560 --> 00:54:57.920
+we've done before, but
+
+00:54:57.920 --> 00:55:00.200
+it's amplifying, accelerating
+
+00:55:00.200 --> 00:55:03.240
+and automating those things.
+
+00:55:03.560 --> 00:55:06.320
+And certainly AI can be used to
+
+00:55:06.400 --> 00:55:10.640
+for confirmation bias to find the specific
+
+00:55:11.760 --> 00:55:14.280
+justification for what it is
+
+00:55:14.280 --> 00:55:18.400
+that we need to justify whether it's
+something good or something bad.
+
+00:55:18.400 --> 00:55:22.680
+So the a lot of the the harms of AI
+
+00:55:22.720 --> 00:55:25.040
+already existed
+
+00:55:26.360 --> 00:55:29.240
+because of course AI is learning
+
+00:55:29.240 --> 00:55:31.720
+our past practices and our data,
+
+00:55:32.520 --> 00:55:35.240
+but because it
+
+00:55:35.520 --> 00:55:38.720
+I guess I've often used the analogy
+of a power tool
+
+00:55:39.200 --> 00:55:41.280
+before it was this
+
+00:55:42.360 --> 00:55:47.240
+practice
+that was not that we did manually.
+
+00:55:47.240 --> 00:55:51.440
+And so there was an opportunity
+to make exceptions,
+
+00:55:51.440 --> 00:55:55.960
+to reconsider, you know,
+is this actually what we're we're doing?
+
+00:55:56.360 --> 00:55:58.640
+And to, to do something different?
+
+00:55:58.640 --> 00:56:01.720
+But with the with a power tool, it's
+
+00:56:02.480 --> 00:56:06.920
+it becomes this much more impactful thing.
+
+00:56:07.400 --> 00:56:10.680
+And there's less opportunity to
+
+00:56:10.720 --> 00:56:15.560
+to craft the approach that we take.
+
+00:56:15.560 --> 00:56:18.680
+Yeah, I think that's
+why it's really important to
+
+00:56:19.520 --> 00:56:21.680
+to try to design for outliers
+
+00:56:21.840 --> 00:56:24.800
+and consider outliers in in and again
+
+00:56:24.800 --> 00:56:27.480
+I come back to this point of a system
+
+00:56:27.800 --> 00:56:32.360
+that the system
+as a whole that includes AI if we can't
+
+00:56:34.040 --> 00:56:35.440
+guarantee that the AI
+
+00:56:35.440 --> 00:56:38.440
+itself is going to give us the
+
+00:56:38.440 --> 00:56:42.320
+characteristics that we want,
+then we need to design around that
+
+00:56:42.800 --> 00:56:45.680
+and and be mindful of that
+
+00:56:45.680 --> 00:56:51.040
+while we're designing.
+
+00:56:51.040 --> 00:56:57.600
+There's also, of course, the opportunity
+to try to clean up our data in general
+
+00:56:58.000 --> 00:57:01.960
+is there are in situations
+where we can identify
+
+00:57:03.160 --> 00:57:05.640
+problems with the data,
+we should certainly tackle
+
+00:57:05.640 --> 00:57:07.440
+that or imbalances in the data.
+
+00:57:07.440 --> 00:57:08.720
+We should certainly tackle that.
+
+00:57:08.720 --> 00:57:11.640
+That's one you know, one other step that
+
+00:57:11.760 --> 00:57:15.200
+I think there's many steps to fairness and
+
+00:57:16.160 --> 00:57:19.000
+and to ethical application of AI.
+
+00:57:19.520 --> 00:57:21.560
+And no one step
+
+00:57:22.480 --> 00:57:25.680
+is a magic solution to all of that.
+
+00:57:25.680 --> 00:57:27.440
+But if we
+
+00:57:27.800 --> 00:57:32.280
+stay aware of the risks,
+make sure we're talking
+
+00:57:32.280 --> 00:57:37.200
+to the right people and involving them,
+then I think we can we can at least
+
+00:57:38.360 --> 00:57:40.440
+mitigate problems and know
+
+00:57:40.440 --> 00:57:42.800
+the limits of the technologies
+that we're using
+
+00:57:44.680 --> 00:57:47.720
+better.
+
+00:57:47.720 --> 00:57:51.440
+Yeah, I've been looking at some of
+the other questions that have come in
+
+00:57:51.840 --> 00:57:57.800
+and one of the discussions was about
+the Gaussian curve and or the Gaussian center.
+
+00:57:57.800 --> 00:58:00.080
+And one thing I think that
+
+00:58:01.120 --> 00:58:03.840
+one point that I may not have made
+as clearly
+
+00:58:03.840 --> 00:58:07.640
+is that in fact the the myth
+
+00:58:07.640 --> 00:58:11.160
+that we need to have a single answer
+
+00:58:11.520 --> 00:58:17.000
+at the very middle of the Gaussian curve,
+which of course matches our notion
+
+00:58:17.000 --> 00:58:21.560
+of majority rules
+or as the way to decide amongst
+
+00:58:21.560 --> 00:58:23.680
+difficult decisions, it
+
+00:58:24.880 --> 00:58:28.200
+an alternative to that is to address
+
+00:58:28.200 --> 00:58:31.160
+the very, very diverse edges
+
+00:58:32.280 --> 00:58:34.520
+initially and to prioritize those.
+
+00:58:34.520 --> 00:58:39.560
+Because what what then happens is
+it gives us room
+
+00:58:40.560 --> 00:58:43.240
+for to change.
+
+00:58:43.640 --> 00:58:45.800
+It helps us address the uncertainty.
+
+00:58:45.800 --> 00:58:49.040
+It makes the whole design or
+
+00:58:49.280 --> 00:58:52.480
+decision or options that are available
+
+00:58:54.440 --> 00:58:56.000
+much more
+
+00:58:56.000 --> 00:58:59.480
+generous and therefore prepares us better
+
+00:58:59.480 --> 00:59:03.680
+for the vulnerabilities that we're going
+to experience in the future.
+
+00:59:03.680 --> 00:59:04.840
+So that,
+
+00:59:05.520 --> 00:59:08.440
+of course I'm an academic, and to say that
+
+00:59:08.800 --> 00:59:11.640
+that statistical reasoning and evidence
+
+00:59:11.960 --> 00:59:14.760
+through scientific methods is at
+
+00:59:14.760 --> 00:59:19.320
+fault is is a fairly dangerous thing
+to say, especially during a time
+
+00:59:19.720 --> 00:59:23.440
+when truth is so much under attack and
+
+00:59:24.000 --> 00:59:29.000
+but I think what we need to do is
+not reduce truth to statistical reasoning,
+
+00:59:29.680 --> 00:59:32.120
+but to acknowledge that there are
+
+00:59:32.840 --> 00:59:37.880
+a variety of perspectives, untruth,
+and that we need to come up with one
+
+00:59:37.880 --> 00:59:43.040
+that that addresses
+the people that we're currently excluding
+
+00:59:43.040 --> 00:59:58.400
+in our notions of truth.
+
+00:59:58.400 --> 01:00:01.480
+Yeah, So there's 2 minutes left.
+
+01:00:01.720 --> 01:00:05.080
+I, I think now
+
+01:00:05.880 --> 01:00:07.800
+maybe we could squeeze in one more
+
+01:00:07.800 --> 01:00:12.640
+question here.
+
+01:00:12.640 --> 01:00:14.280
+Jen Benjamin
+
+01:00:15.440 --> 01:00:17.040
+asks, Do we think
+
+01:00:17.040 --> 01:00:23.120
+that AI and big companies driving
+research on it can be problematic towards
+
+01:00:23.120 --> 01:00:27.240
+societal issues which don't necessarily
+give the highest revenue?
+
+01:00:29.040 --> 01:00:31.440
+And if so, how can it be faced?
+
+01:00:33.400 --> 01:00:35.920
+Yeah, that's a huge question.
+
+01:00:36.320 --> 01:00:37.680
+I think even government
+
+01:00:37.680 --> 01:00:43.400
+efforts are facing in their decision
+making on profit
+
+01:00:43.400 --> 01:00:45.920
+and economic progress and
+
+01:00:47.800 --> 01:00:50.240
+and impact measures that are
+
+01:00:51.000 --> 01:00:55.760
+so that I think
+one of the things we need to abandon
+
+01:00:56.160 --> 01:01:00.960
+is this idea
+that a solution needs to be formulaic
+
+01:01:00.960 --> 01:01:04.480
+and that we need to scale it
+by a formulaic replication.
+
+01:01:05.120 --> 01:01:08.000
+And we need to recognize that
+
+01:01:08.600 --> 01:01:11.480
+that there's a different form of scaling
+
+01:01:11.920 --> 01:01:14.760
+that is by diversification,
+
+01:01:15.200 --> 01:01:18.560
+and that we need
+to contextually apply things.
+
+01:01:19.080 --> 01:01:25.680
+And I mean, that's one of the lessons
+of Indigenous and indigenous cultures
+
+01:01:27.200 --> 01:01:29.280
+that the
+
+01:01:29.280 --> 01:01:34.040
+what, what has been labeled as colonialist
+is, is actually what many governments
+
+01:01:34.040 --> 01:01:40.520
+are still implementing, even in things
+like social entrepreneurship.
+
+01:01:41.000 --> 01:01:44.680
+But yes, big companies,
+of course, are driven by profit and
+
+01:01:46.160 --> 01:01:49.160
+is that the best approach
+
+01:01:49.600 --> 01:01:52.680
+to achieve the common good?
+
+01:01:52.680 --> 01:01:54.840
+That's a huge question.
+
+01:01:54.840 --> 01:01:55.520
+I think.
+
+01:01:55.520 --> 01:01:59.320
+And I think this would be a great one
+to come back to tomorrow, actually.
+
+01:01:59.320 --> 01:02:00.400
+Yeah, exactly.
+
+01:02:00.400 --> 01:02:03.200
+I mean, the symposium
+let's let's come back to that one
+
+01:02:03.200 --> 01:02:05.680
+because I see that
+we're out of time right now.
+
+01:02:05.680 --> 01:02:08.080
+But thank you very much.
+
+01:02:08.320 --> 01:02:09.560
+Thank you.
+

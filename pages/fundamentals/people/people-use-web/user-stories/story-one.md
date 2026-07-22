@@ -5,7 +5,7 @@
 title: "Ade, reporter with limited use of his arms"
 nav_title: "Ade"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -31,18 +31,18 @@ navigation:
   next: /people-use-web/user-stories/story-two/
 
 image: /content-images/people-use-web/social.png
-changelog: /people-use-web/changelog/
-acknowledgements: /people-use-web/acknowledgements/
+changelog: /people-use-web/changelog/ # Do not change this
+acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -143,7 +143,7 @@ Ade is a reporter who has limited use of his arms. He has several strategies for
 
 > It's not like I can't use a keyboard or pointer, I just can't use them for long periods because it is tiring.
 
-Ade was involved in a accident which caused a spinal cord injury. This left him with limited use of his arms and no movement or sensation in his legs. He has worked as a reporter for many years. Ade sometimes uses a keyboard with larger keys to help him more easily hit the correct key and a joystick instead of a mouse. However, using these for extended periods can be tiring so he has started using speech recognition software for some tasks, such as dictating long pieces.
+Ade was involved in an accident which caused a spinal cord injury. This left him with limited use of his arms and no movement or sensation in his legs. He has worked as a reporter for many years. Ade sometimes uses a keyboard with larger keys to help him more easily hit the correct key and a joystick instead of a mouse. However, using these for extended periods can be tiring so he has started using speech recognition software for some tasks, such as dictating long pieces.
 
 Rather than using his fingers, Ade uses the palm of his hand to operate a joystick that has an enlarged lever. This can be inaccurate to use, particularly when pointing to and clicking on small areas. When this happens, he sometimes switches to using the keyboard for navigation. He can use the tab key to move through links and form elements. When using the keyboard, Ade has found that on some sites he couldn't see which field or link had focus. He also found that sometimes the links weren't in a logical order, which made it hard to find the element he was interested in. He could always use his joystick but that can interrupt his flow and slow him down. Sites often include good visual styling when you hover over a link but sometimes don't include this when the link has keyboard focus. For Ade, it is important that websites clearly show which link has the current focus and to navigate through links in a logical order, that is, following the visual order of links on the page.
 
@@ -182,25 +182,25 @@ Popup windows barrier
 
 ## Related WAI resources
 
-* Video: [Speech Recognition](https://www.w3.org/WAI/perspective-videos/voice/)
-* Tip: [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure)
-* Tip: [Make link text meaningful](https://www.w3.org/WAI/tips/writing/#make-link-text-meaningful)
-* Tip: [Ensure that interactive elements are easy to identify](https://www.w3.org/WAI/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Associate a label with every form control](https://www.w3.org/WAI/tips/developing/#associate-a-label-with-every-form-control)
-* Tip: [Ensure that all interactive elements are keyboard accessible](https://www.w3.org/WAI/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
-* Check: [Keyboard access and visual focus](https://www.w3.org/WAI/test-evaluate/preliminary/#interaction)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
+* Video: [Speech Recognition](/perspective-videos/voice/)
+* Tip: [Use headings to convey meaning and structure](/tips/writing/#use-headings-to-convey-meaning-and-structure)
+* Tip: [Make link text meaningful](/tips/writing/#make-link-text-meaningful)
+* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* Tip: [Associate a label with every form control](/tips/developing/#associate-a-label-with-every-form-control)
+* Tip: [Ensure that all interactive elements are keyboard accessible](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
+* Check: [Keyboard access and visual focus](/test-evaluate/preliminary/#interaction)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#alternatives)
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Functionality is available from a keyboard (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#keyboard)
-* [Users have enough time to read and use the content (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#navigable)
-* [Content appears and operates in predictable ways (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#tolerant)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Functionality is available from a keyboard (Operable)](/fundamentals/accessibility-principles/#keyboard)
+* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
+* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
+* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
+* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -213,7 +213,8 @@ Popup windows barrier
   video-id="user-stories_1"
   yt-id="Z5dMdJzUy7w"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_1.mp4">Video: Ade, reporter with limited use of his arms (file format: MP4, file size: 162MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Ade, reporter with limited use of his arms (file format: MP4, file size: 162MB)](https://media.w3.org/wai/people-use-web/user-stories_1.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

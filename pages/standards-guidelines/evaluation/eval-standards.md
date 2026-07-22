@@ -5,7 +5,7 @@
 title: "Evaluation Standards Overview - ACT & EARL"
 nav_title: Evauation - ACT & EARL
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-05-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-05-06   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -26,7 +26,6 @@ ref: /standards-guidelines/evaluation/  # Do not change this
 # Translate the other words below, including "Date:" and "Editors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 6 May 2024.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

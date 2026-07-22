@@ -6,7 +6,8 @@ title: "Transcripts"
 title_image: /content-images/media-guide/transcript.svg
 nav_title: "Transcripts"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2021-04-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+first_published: "September 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -34,11 +35,10 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 12 April 2021. First published September 2019. CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -151,11 +151,11 @@ Video with audio content:
 <br>
 
 **WCAG excerpts** with emphasis added, additions in [brackets], and links to more information in "Understanding WCAG":
-* [A 1.2.1 Audio-only and Video-only](https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html) (Prerecorded): For prerecorded audio-only and prerecorded video-only media, the following are true...
+* [A 1.2.1 Audio-only and Video-only](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html) (Prerecorded): For prerecorded audio-only and prerecorded video-only media, the following are true...
   * Prerecorded Audio-only: An alternative for time-based media [transcript] is provided that presents equivalent information for prerecorded audio-only content.
   * Prerecorded Video-only: Either an alternative for time-based media [descriptive transcript] ***or*** an audio track [of description] is provided that presents equivalent information for prerecorded video-only content.
-* [AAA 1.2.8 Media Alternative](https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded.html) (Prerecorded):  An alternative for time-based media [transcript] is provided for all prerecorded synchronized media and for all prerecorded video-only media.
-* [AAA 1.2.9 Audio-only](https://www.w3.org/WAI/WCAG21/Understanding/audio-only-live.html) (Live):  An alternative for time-based media [live stream text or transcript] that presents equivalent information for live audio-only content is provided. 
+* [AAA 1.2.8 Media Alternative](https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html) (Prerecorded):  An alternative for time-based media [transcript] is provided for all prerecorded synchronized media and for all prerecorded video-only media.
+* [AAA 1.2.9 Audio-only](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live.html) (Live):  An alternative for time-based media [live stream text or transcript] that presents equivalent information for live audio-only content is provided. 
 
 ### Provide a Descriptive Transcript for Your Videos
 {:.no_toc}
@@ -187,7 +187,7 @@ If you already have captions, you can use that file to create the transcript. Mo
 
 If you don't have captions, you'll need transcription of the audio information. That's addressed in another page of this resource: [Transcribing Audio to Text](/media/av/transcribing/).
 
-Captions are generally written to be viewed along with the visual video. Transcripts should include important visual infomation for those not seeing the video. When you use captions to create transcripts, **usually you will need to add visual information to the transcript**, such as text that is in the video and speaker identification.
+Captions are generally written to be viewed along with the visual video. Transcripts should include important visual information for those not seeing the video. When you use captions to create transcripts, **usually you will need to add visual information to the transcript**, such as text that is in the video and speaker identification.
 
 ### Transcript File Format
 

@@ -5,7 +5,7 @@
 title: "Marta, marketing assistant who is deaf and blind"
 nav_title: "Marta"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -31,18 +31,18 @@ navigation:
   next: /people-use-web/user-stories/story-eight/
 
 image: /content-images/people-use-web/social.png
-changelog: /people-use-web/changelog/
-acknowledgements: /people-use-web/acknowledgements/
+changelog: /people-use-web/changelog/ # Do not change this
+acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -153,7 +153,7 @@ Socially, Marta loves being out and about with her friends. She will not be able
 
 Consistent layout
 : **Barrier:** "Some shopping sites I visit have completely different styles for different sections. It takes me a while to work out where everything is in each section which is really frustrating."
-: **Works well:** "The shopping website I use has the same layout on all of it's sections which makes it easy to work my way around pages."
+: **Works well:** "The shopping website I use has the same layout on all of its sections which makes it easy to work my way around pages."
 
 No transcript
 : **Barrier:** "Some videos only have embedded captions which I can't access easily."
@@ -188,26 +188,26 @@ Changes elsewhere on a page
 
 ## Related WAI resources
 
-* Video: [Video Captions](https://www.w3.org/WAI/perspective-videos/captions/)
-* Tip: [Create transcripts and captions for multimedia](https://www.w3.org/WAI/tips/writing/#create-transcripts-and-captions-for-multimedia)
-* Tip: [Avoid CAPTCHA where possible](https://www.w3.org/WAI/tips/developing/#avoid-captcha-where-possible)
-* Tip: [Ensure that all interactive elements are keyboard accessible](https://www.w3.org/WAI/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
-* Tip: [Provide clear and consistent navigation options](https://www.w3.org/WAI/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Check: [Image text alternatives ("alt text")](https://www.w3.org/WAI/test-evaluate/preliminary/#images)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
-* Check: [Multimedia (video, audio) alternatives](https://www.w3.org/WAI/test-evaluate/preliminary/#media)
-* Check: [Basic Structure Check](https://www.w3.org/WAI/test-evaluate/preliminary/#structure)
+* Video: [Video Captions](/perspective-videos/captions/)
+* Tip: [Create transcripts and captions for multimedia](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* Tip: [Avoid CAPTCHA where possible](/tips/developing/#avoid-captcha-where-possible)
+* Tip: [Ensure that all interactive elements are keyboard accessible](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
+* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* Check: [Image text alternatives ("alt text")](/test-evaluate/preliminary/#images)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* Check: [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
+* Check: [Basic Structure Check](/test-evaluate/preliminary/#structure)
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#alternatives)
-* [Alternatives for audio and video content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#captions)
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Content is easier to see and hear (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#distinguishable)
-* [Users have enough time to read and use the content (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#navigable)
-* [Content appears and operates in predictable ways (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#predictable)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
+* [Alternatives for audio and video content (Perceivable)](/fundamentals/accessibility-principles/#captions)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
+* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
+* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
+* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -220,7 +220,8 @@ Changes elsewhere on a page
   video-id="user-stories_7"
   yt-id="llTnoiq2Mow"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_7.mp4">Video: Marta, marketing assistant who is deaf and blind (file format: MP4, file size: 360MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Marta, marketing assistant who is deaf and blind (file format: MP4, file size: 360MB)](https://media.w3.org/wai/people-use-web/user-stories_7.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

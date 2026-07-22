@@ -5,7 +5,7 @@
 title: "Dhruv, older adult student who is deaf"
 nav_title: "Dhruv"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -31,18 +31,18 @@ navigation:
   next: /people-use-web/user-stories/story-seven/
 
 image: /content-images/people-use-web/social.png
-changelog: /people-use-web/changelog/
-acknowledgements: /people-use-web/acknowledgements/
+changelog: /people-use-web/changelog/ # Do not change this
+acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -116,6 +116,7 @@ Dhruv is a student who is deaf. Because his first, or native, language is sign l
   {% include video-card.html
    video-url="//media.w3.org/wai/people-use-web/user-stories_6.mp4"
    captions="wai-videos/people-use-web/user-stories_6.en.vtt|en"
+   subtitles="wai-videos/people-use-web/user-stories_6.es.vtt|es"
    accessible-version="#accessible-video"
    accessible-version-label="Video: Dhruv, older adult student who is deaf"
    poster="content-images/people-use-web/user-stories/dhruv-video-frame.png"
@@ -175,19 +176,19 @@ No alternative for audio
 ## Related WAI resources
 
 
-* Video: [Video Captions](https://www.w3.org/WAI/perspective-videos/captions/)
-* Tip: [Create transcripts and captions for multimedia](https://www.w3.org/WAI/tips/writing/#create-transcripts-and-captions-for-multimedia)
-* Tip: [Include image and media alternatives in your design](https://www.w3.org/WAI/tips/designing/#include-image-and-media-alternatives-in-your-design)
-* Tip: [Provide controls for content that starts automatically](https://www.w3.org/WAI/tips/designing/#provide-controls-for-content-that-starts-automatically)
-* Tip: [Write code that adapts to the user's technology](https://www.w3.org/WAI/tips/developing/#write-code-that-adapts-to-the-users-technology)
-* Check: [Multimedia (video, audio) alternatives](https://www.w3.org/WAI/test-evaluate/preliminary/#media)
+* Video: [Video Captions](/perspective-videos/captions/)
+* Tip: [Create transcripts and captions for multimedia](/tips/writing/#create-transcripts-and-captions-for-multimedia)
+* Tip: [Include image and media alternatives in your design](/tips/designing/#include-image-and-media-alternatives-in-your-design)
+* Tip: [Provide controls for content that starts automatically](/tips/designing/#provide-controls-for-content-that-starts-automatically)
+* Tip: [Write code that adapts to the user's technology](/tips/developing/#write-code-that-adapts-to-the-users-technology)
+* Check: [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#alternatives)
-* [Captions and other alternatives for multimedia (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#captions)
-* [Content is easier to see and hear (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#distinguishable)
-* [Content is readable and understandable (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#readable)
+* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
+* [Captions and other alternatives for multimedia (Perceivable)](/fundamentals/accessibility-principles/#captions)
+* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
+* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
 * [Success Criteria relating to “captions”](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)
 
 
@@ -201,7 +202,8 @@ No alternative for audio
   video-id="user-stories_6"
   yt-id="jft__DXkPv8"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_6.mp4">Video: Dhruv, older adult student who is deaf (file format: MP4, file size: 307MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Dhruv, older adult student who is deaf (file format: MP4, file size: 307MB)](https://media.w3.org/wai/people-use-web/user-stories_6.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

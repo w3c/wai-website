@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 280">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 32.23px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: NotoSansMono-Bold, 'Noto Sans Mono';
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-size: 55.11px;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #196cac;
+      }
+
+      .cls-7 {
+        fill: #d0e1f1;
+      }
+
+      .cls-8 {
+        fill: #bccbd3;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" width="490" height="280"/>
+  <rect class="cls-8" x="59.99" y="8.19" width="387.69" height="271.81" rx="5" ry="5"/>
+  <g>
+    <rect class="cls-3" x="54.3" y="2.5" width="382.69" height="266.81" rx="2.5" ry="2.5"/>
+    <path class="cls-5" d="m434.49,5v261.81H56.8V5h377.69M434.49,0H56.8C54.05,0,51.8,2.25,51.8,5v261.81c0,2.75,2.25,5,5,5h377.69c2.75,0,5-2.25,5-5V5C439.49,2.25,437.24,0,434.49,0h0Z"/>
+  </g>
+  <g>
+    <path class="cls-8" d="m54.3,45.88V5c0-1.38,1.12-2.5,2.5-2.5h376.69c1.93,0,3.5,1.57,3.5,3.5v39.88H54.3Z"/>
+    <path class="cls-5" d="m433.49,5c.55,0,1,.45,1,1v37.38H56.8V5h376.69M433.49,0H56.8C54.03,0,51.8,2.24,51.8,5v43.38h387.69V6C439.49,2.69,436.8,0,433.49,0h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-7" x="79.06" y="146.6" width="336.02" height="74.81" rx=".62" ry=".62"/>
+    <path class="cls-5" d="m412.58,149.1v69.81H81.56v-69.81h331.02m1.88-5H79.67c-1.72,0-3.12,1.4-3.12,3.12v73.58c0,1.72,1.4,3.12,3.12,3.12h334.78c1.72,0,3.12-1.4,3.12-3.12v-73.58c0-1.72-1.4-3.12-3.12-3.12h0Z"/>
+  </g>
+  <text class="cls-2" transform="translate(72.42 125.95)"><tspan x="0" y="0">*</tspan></text>
+  <rect class="cls-6" x="114.78" y="82.7" width="302.79" height="49.15" rx="5" ry="5"/>
+  <text class="cls-1" transform="translate(127.91 119.37)"><tspan x="0" y="0">Required field</tspan></text>
+  <g>
+    <path class="cls-5" d="m108.18,206.79c0,1.03-.84,1.87-1.87,1.87h-3.84c-3.07,0-3.07-3.18-3.07-3.18,0,0,0,3.18-3.07,3.18h-3.84c-1.03,0-1.87-.84-1.87-1.87h0c0-1.03.84-1.87,1.87-1.87h13.82c1.03,0,1.87.84,1.87,1.87h0Z"/>
+    <path class="cls-5" d="m90.63,160.09c0-1.03.84-1.87,1.87-1.87h3.84c3.07,0,3.07,3.18,3.07,3.18,0,0,0-3.18,3.07-3.18h3.84c1.03,0,1.87.84,1.87,1.87h0c0,1.03-.84,1.87-1.87,1.87h-13.82c-1.03,0-1.87-.84-1.87-1.87h0Z"/>
+    <path class="cls-5" d="m97.01,183.44s2.4,21.48-2.84,21.48h10.48c-5.24,0-2.84-21.48-2.84-21.48,0,0-2.39-21.48,2.84-21.48h-10.48c5.24,0,2.84,21.48,2.84,21.48Z"/>
+  </g>
+</svg>

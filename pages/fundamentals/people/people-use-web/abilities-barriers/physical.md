@@ -5,7 +5,8 @@
 title: "Physical"
 nav_title: "Physical"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
+first_published: "as a draft in 1999"
 description: Explores the wide diversity of people and abilities. Highlights accessibility barriers that people may experience because of inaccessible digital technology.
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -32,19 +33,18 @@ navigation:
   next: /people-use-web/abilities-barriers/speech/
 
 image: /content-images/people-use-web/social.png
-changelog: /people-use-web/changelog/
-acknowledgements: /people-use-web/acknowledgements/
+changelog: /people-use-web/changelog/ # Do not change this
+acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 25 June 2024. First published as a draft in 1999.<!-- CHANGELOG.--></p>
   <p><strong>Editor:</strong> Shadi Abou-Zahra. Previous editor: Judy Brewer. Contributors listed in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -138,7 +138,7 @@ Physical disabilities (sometimes called "motor disabilities") include weakness a
 
 **Note:** The examples given in this section are not a complete list of all disabilities or barriers.
 
-## Introduction
+## Introduction {#introduction-extended}
 
 To use digital technology, people with physical disabilities often use specialized hardware and software such as:
 
@@ -190,7 +190,9 @@ People with physical disabilities may have trouble clicking small areas and are 
   video-id="abilities-barriers_physical"
   yt-id="z_5l75rksSA"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/abilities-barriers_physical.mp4">Video: Diverse Abilities and Barriers - Physical (file format: MP4, file size: 277MB)</a>.</em></p>
+
+
+_This video is also available on a W3C server: [Video: Diverse Abilities and Barriers - Physical (file format: MP4, file size: 277MB)](https://media.w3.org/wai/people-use-web/abilities-barriers_physical.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

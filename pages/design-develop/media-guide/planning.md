@@ -6,7 +6,8 @@ title: "Planning Audio and Video Media"
 title_image: /content-images/media-guide/planning.svg
 nav_title: "Planning"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2021-01-11   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+first_published: "September 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -34,11 +35,10 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 11 January 2021. First published September 2019. CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -160,7 +160,7 @@ This section covers audio-only media, like podcasts that don't have video.
 -   If yes,
     -   **[Audio description of the visual information](/media/av/description/) _or_  [descriptive transcript](//media/av/transcripts/) (A)**
     -   **[Audio description of the visual information](/media/av/description/) (AA)**
-    -   **[Descriptive transcript](//media/av/transcripts/) (AAA)** *(If you have a descriptive transcript, you do not need an additional transcript of only audio information from the previous question.)*
+    -   **[Descriptive transcript](/media/av/transcripts/) (AAA)** *(If you have a descriptive transcript, you do not need an additional transcript of only audio information from the previous question.)*
     {:.alt}
 -   If no, [inform users](#none).
 
@@ -306,7 +306,7 @@ This resource uses most WCAG terminology, with a few differences:
 {% include box.html type="end" %}
 {:/}
 
-WCAG includes requirements for audio and video media at Level A, AA, and AAA. (More info in a separate resource: [Understanding Levels of Conformance](https://www.w3.org/WAI/WCAG21/Understanding/conformance.html#levels).) Most media is required by governing policies to meet Level AA &mdash; which includes both A and AA listed in the tables below.
+WCAG includes requirements for audio and video media at Level A, AA, and AAA. (More info in a separate resource: [Understanding Levels of Conformance](https://www.w3.org/WAI/WCAG22/Understanding/conformance.html#levels).) Most media is required by governing policies to meet Level AA &mdash; which includes both A and AA listed in the tables below.
 
 Accessibility requirements for video and audio are different based on if they are:
 * pre-recorded or live
@@ -327,27 +327,27 @@ The links in the tables below go to a page in a separate resource: Understanding
 </tr>
 <tr>
   <th scope="row">Audio-only</th>
-  <td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong></td>
+  <td><strong><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong></td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
 </tr>
 <tr>
 <th scope="row">Video-only</th>
-<td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong> (transcript <em><strong>or</strong></em> audio track)<br>
-<a href="https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded">AAA 1.2.8</a></td>
+<td><strong><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong> (transcript <em><strong>or</strong></em> audio track)<br>
+<a href="https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded">AAA 1.2.8</a></td>
 <td>&nbsp;</td>
-<td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong> (audio track <em><strong>or</strong></em> transcript)</td>
+<td><strong><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong> (audio track <em><strong>or</strong></em> transcript)</td>
 <td>&nbsp;</td>
 </tr>
 <tr>
   <th scope="row">Video with Audio</th>
-  <td><a href="https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded">AAA 1.2.8</a></td>
-  <td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded">A 1.2.2</a></strong></td>
-  <td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded">A 1.2.3</a></strong>&nbsp;(audio description <em><strong>or</strong></em> transcript)<br>
-    <strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded">AA 1.2.5</a></strong><br>
-    <a href="https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded">AAA 1.2.7</a></td>
-  <td><a href="https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded">AAA 1.2.6</a></td>
+  <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded">AAA 1.2.8</a></td>
+  <td><strong><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded">A 1.2.2</a></strong></td>
+  <td><strong><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded">A 1.2.3</a></strong>&nbsp;(audio description <em><strong>or</strong></em> transcript)<br>
+    <strong><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded">AA 1.2.5</a></strong><br>
+    <a href="https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded">AAA 1.2.7</a></td>
+  <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded">AAA 1.2.6</a></td>
 </tr>
 </table>
 
@@ -364,7 +364,7 @@ The links in the tables below go to a page in a separate resource: Understanding
 </tr>
 <tr>
   <th scope="row">Audio-only</th>
-  <td><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-live">AAA 1.2.9</a> (live stream <em><strong>or</strong></em> accurate transcript when live)</td>
+  <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live">AAA 1.2.9</a> (live stream <em><strong>or</strong></em> accurate transcript when live)</td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
@@ -379,7 +379,7 @@ The links in the tables below go to a page in a separate resource: Understanding
 <tr>
   <th scope="row">Video with Audio</th>
   <td>&nbsp;</td>
-  <td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-live">AA 1.2.4</a></strong></td>
+  <td><strong><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-live">AA 1.2.4</a></strong></td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
 </tr>
@@ -388,14 +388,14 @@ The links in the tables below go to a page in a separate resource: Understanding
 ### More about Standards
 {:.no_toc}
 
-To learn more about WCAG requirements for media, see [Understanding Guideline 1.2: Time-based Media](https://www.w3.org/WAI/WCAG21/Understanding/time-based-media).
+To learn more about WCAG requirements for media, see [Understanding Guideline 1.2: Time-based Media](https://www.w3.org/WAI/WCAG22/Understanding/time-based-media).
 
 Other WCAG requirements related to audio and video include:
 * In this resource:
   * [Accessible Audio and Video Content](/media/av/av-content/)
   * [Media Player Functionality](/media/av/player/#player-accessibility-functionality)
 * In Understanding WCAG:
-   * [2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide) (Level A) For moving, blinking, scrolling, or auto-updating information, all of the following are true:...
-   * [1.4.2 Audio Control](https://www.w3.org/WAI/WCAG21/Understanding/audio-control) (Level A) If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume...
+   * [2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide) (Level A) For moving, blinking, scrolling, or auto-updating information, all of the following are true:...
+   * [1.4.2 Audio Control](https://www.w3.org/WAI/WCAG22/Understanding/audio-control) (Level A) If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume...
 
 Your audio and video may be subject to additional requirements, for example under governmental regulations. Some of these are listed in [Web Accessibility Laws & Policies](/policies/).

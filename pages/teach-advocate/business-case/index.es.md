@@ -4,9 +4,12 @@
 title: "El caso de negocios de la accesibilidad digital"
 nav_title: "Caso de negocios"
 lang: es
-last_updated: 2019-08-07  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15  # Keep the date of the English version
 description: Razones que tienen las organizaciones para cumplir con la accesibilidad. Incluye beneficios tangibles e intangibles, así como los riesgos de no cumplir con la accesibilidad adecuadamente.
 footnotestitle: Resources
+
+translation:
+  last_updated: 2025-04-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 
 - name: "Carlos Muncharaz"
@@ -280,7 +283,7 @@ Con el tiempo, el riesgo legal ha aumentado debido a la adopción de leyes y nor
 
 - La Convención sobre los Derechos de las Personas con Discapacidad (CDPD) es un amplio documento de derechos humanos que incluye una referencia directa a los derechos de toda la gente para acceder en igualdad de condiciones a las tecnologías de la comunicación. Fue aprobada por la Asamblea General de las Naciones Unidas y ya ha sido ratificada por más de 175 países en el año 2018. 
 
-- La Comisión Europea ha adoptado la Directiva de Accesibilidad Europea, la cual exige se cumplan los requisitos de accesibilidad en cajeros y servicios bancarios, ordenadores, teléfonos y televisores, servicios de telefonía y audiovisuales, transporte, libros electrónicos y comercio electrónico.
+- La Unión Europea ha adoptado la Directiva de Accesibilidad Europea, la cual exige se cumplan los requisitos de accesibilidad en cajeros y servicios bancarios, ordenadores, teléfonos y televisores, servicios de telefonía y audiovisuales, transporte, libros electrónicos y comercio electrónico.
 
 - En los Estados Unidos, las acciones legales van en aumento y la justicia decide cada vez más a favor del acceso igualitario[^23], con frecuencia citando la Ley de Estadounidenses con Discapacidades (ADA por sus siglas en inglés). La negociación estructurada es otro método efectivo de presión legal, la cual conmina a las empresas a cumplir con los requisitos de accesibilidad para evitar demandas.[^24]
 

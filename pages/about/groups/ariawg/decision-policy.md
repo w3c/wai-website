@@ -1,11 +1,13 @@
 ---
-title: ARIA Decision Policy
+title: ARIA Working Group Decision Policy
 permalink: /about/groups/ariawg/decision-policy/
 ref: /about/groups/ariawg/decision-policy/
 lang: en
+github:
+  label: wai-groups
 ---
 
-This document explains the decision process of the Accessible Rich Internet Applications Working Group.
+This document explains the decision process of the [Accessible Rich Internet Applications (ARIA) Working Group](https://www.w3.org/groups/wg/aria/).
 
 There are often divergent opinions on issues. It is important that all views are expressed and considered, but it is critical to Working Group function that it can come to conclusions. The procedures set out here describe how the WG discusses a topic and forms a decision, preferably by [consensus](https://www.w3.org/Consortium/Process/#Consensus). These procedures are designed to ensure that input is considered, whether in teleconferences or using asynchronous communication tools.
 

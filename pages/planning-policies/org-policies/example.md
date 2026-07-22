@@ -4,7 +4,8 @@
 title: Example of a Comprehensive Organizational Policy
 nav_title: "Example"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2016-05-08  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2016-05-08  # Keep the date of the English version
+first_published: "October 2002"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -25,7 +26,6 @@ ref: /planning/org-policies/example/  # Do not change this
 # Translate the other words below, including "Date:", "Editors:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 8 May 2016. First published October 2002.</p>
   <p>Editors: <a href="/People/#kevin">Kevin White</a> and <a href="/People/shadi/">Shadi Abou-Zahra</a>. Contributors: <a href="/People/Brewer/">Judy Brewer</a>, <a href="/People/Shawn/">Shawn Lawton Henry</a>, and <a href="/WAI/EO/EOWG-members">participants</a> of the <a href="/WAI/EO/">Education and Outreach Working Group</a>. Updated with support from <a href="/WAI/ACT/" shape="rect"><acronym title="Web Accessibility Initiative - Cooperation Framework for Guidance on Advanced Technologies, Evaluation Methodologies, and Research Agenda Setting to Support eAccessibility">WAI-ACT</acronym></a>, a project of the European Commission <acronym title="Information Society Technologies">IST</acronym> Programme.</p>
 ---
 

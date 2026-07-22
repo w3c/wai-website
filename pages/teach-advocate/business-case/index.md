@@ -4,7 +4,7 @@
 title: "The Business Case for Digital Accessibility"
 nav_title: "Business Case"
 lang: en    # Change "en" to the translated-language shortcode
-last_updated: 2024-07-15  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-07-15  # Keep the date of the English version
 description: The rationale for organizations to address accessibility. It includes tangible and intangible benefits, and the risks of not addressing accessibility adequately.
 footnotestitle: Resources
 
@@ -30,7 +30,7 @@ image: /content-images/business-case/social.png
 # Translate the other words below, including "Date:", "Editor:" and "Contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Published 9 Nov 2018. Minor update 15 July 2024.</p>
+  <p>Published 9 Nov 2018.</p>
   <p><strong>Editor:</strong> Sharron Rush. Contributors: Shawn Lawton Henry, Eric Eggert, Brent Bakken, Vicki Menezes Miller, Laura Keen. ACKNOWLEDGEMENTS lists additional contributors.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 

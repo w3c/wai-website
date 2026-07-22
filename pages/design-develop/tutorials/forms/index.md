@@ -24,7 +24,7 @@ wcag_success_criteria:
 
 metafooter: true
 first_published: "September 2014"
-last_updated: 2019-07-27
+last_updated: 2026-03-27
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"

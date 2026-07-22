@@ -2,7 +2,10 @@
 title: "Video-Einführung in Web-Accessibility und W3C-Standards"
 nav_title: "Video-Einführung"
 lang: de
-last_updated: 2024-01-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-01-29
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Sandra Kallmeyer"
@@ -20,11 +23,10 @@ ref: /videos/standards-and-benefits/   # Do not change this
 changelog: /videos/standards-and-benefits/changelog/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Datum:</strong> Aktualisiert am 4. Mai 2021. Erstmals veröffentlicht am 4. Dezember 2017. CHANGELOG.</p>
+  <p><strong>Datum:</strong> Aktualisiert am 4. Mai 2021. Erstmals veröffentlicht am 4. Dezember 2017.</p>
   <p>Projektleiter: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Mitwirkende: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Videofilmer und -editor: Ulrich Grimm, av-design GmbH. Videoclips entwickelt mit Unterstützung vom <a href="https://www.w3.org/WAI/DEV/">WAI-DEV-Projekt</a>, kofinanziert von der Europäischen Kommission. Übersetzungen verwaltet mit Unterstützung vom <a href="https://www.w3.org/WAI/expand-access/">WAI-Projekt zur Erweiterung des Zugriffs</a>, finanziert von der Ford-Stiftung.</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

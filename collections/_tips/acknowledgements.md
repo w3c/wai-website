@@ -4,9 +4,11 @@ title: Acknowledgements
 nav_title: Acknowledgements
 lang: en
 last_updated: 2016-04-15
+first_published: "September 2015"
 
 github:
   label: wai-tips
+
 permalink: /tips/acknowledgements/
 ref: /tips/acknowledgements/
 
@@ -14,12 +16,6 @@ nosidenav: true
 
 acknowledgements: /tips/acknowledgements/
 footer: >
-  <p>
-    <strong>Status:</strong>
-      Updated
-      15 April 2016
-    (first published September 2015)
-    <br>
     <strong>Editors:</strong>
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and

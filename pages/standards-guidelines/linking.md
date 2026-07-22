@@ -1,12 +1,12 @@
 ---
 title: Referencing and Linking to WAI Guidelines and Technical Documents
 permalink: /standards-guidelines/linking/
-layout: default
+last_updated: 2024-03-21
+first_published: "11 March 2009"
 github:
-  label: wai-intro-linking
+  label: wai-linking-intro
 feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Date:</strong>Updated 21 March 2024. First published 11 March 2009.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

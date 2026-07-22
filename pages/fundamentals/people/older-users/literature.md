@@ -4,7 +4,8 @@
 title: "Overview of “Web Accessibility for Older Users: A Literature Review”"
 nav_title: "Literature Review Overview"
 lang: en  # Change "en" to the translated language shortcode
-last_updated: 2018-02-22  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2018-02-22  # Keep the date of the English version
+first_published: "2008"
 order: 3
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -30,7 +31,6 @@ changelog: /older-users/changelog/  # Do not change this
 # Translate the other words, including "Date:", "Editors:" and "Contributors".
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 22 February 2018. First published 2008. CHANGELOG</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/Andrew/" >Andrew Arch</a>. Contributors: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a> and Vicki Menezes Miller.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Related to the  <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> funded by the European Commission under the 6th Framework.</p>
 ---

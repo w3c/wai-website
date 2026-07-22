@@ -6,7 +6,11 @@ title: "Développer pour l’accessibilité Web – Conseils pour démarrer"
 title_html: "Développer pour l’accessibilité Web"
 nav_title: Conseils pour le développement
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  outdated: true
 
 resource:
   ref: /tips/
@@ -29,6 +33,7 @@ ref: /tips/developing/  # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#developing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
@@ -121,7 +126,7 @@ Veillez à ce qu’un équivalent textuel pour les images soit ajouté à toutes
 * **Tutoriel**
   * [Images](/tutorials/images/)
 * **Témoignage d’utilisateur**
-  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/#accountant)
+  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -243,7 +248,7 @@ Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, et
   * [Structure de page](/tutorials/page-structure/)
   * [Tableaux](/tutorials/tables/)
 * **Témoignage d’utilisateur**
-  * [Comment les informations structurées aident les utilisateurs de lecteur d’écran](/people-use-web/user-stories/#accountant)
+  * [Comment les informations structurées aident les utilisateurs de lecteur d’écran](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -296,7 +301,7 @@ Soyez aussi flexibles que possible vis-à-vis du format lors du traitement des d
 * **Tutoriel**
   * [Valider la saisie](/tutorials/forms/validation/)
 * **Témoignage d’utilisateur**
-  * [Comment des erreurs utiles aident un utilisateur dyslexique](/people-use-web/user-stories/#classroomstudent)
+  * [Comment des erreurs utiles aident un utilisateur dyslexique](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -454,7 +459,7 @@ Utilisez un design réactif pour adapter l’affichage à différents niveaux d�
 * **Contexte**
   * [Écran de petite taille](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **Témoignage d’utilisateur**
-  * [Comment les vues équivalentes des pages agrandies peuvent être utiles](/people-use-web/user-stories/#retiree)
+  * [Comment les vues équivalentes des pages agrandies peuvent être utiles](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -589,7 +594,7 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [Clavier 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Comprendre 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **Témoignage d’utilisateur**
-  * [Comment un utilisateur avec un trouble musculosquelettique a besoin du support du clavier](/people-use-web/user-stories/#reporter)
+  * [Comment un utilisateur avec un trouble musculosquelettique a besoin du support du clavier](/people-use-web/user-stories/archived/#reporter)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

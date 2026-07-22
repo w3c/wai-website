@@ -1,11 +1,13 @@
 ---
-title: Decision Policy
+title: Accessible Platform Architectures Working Group Decision Policy
 permalink: /about/groups/apawg/decision-policy/
 ref: /about/groups/apawg/decision-policy/
 lang: en
+github:
+  label: wai-groups
 ---
 
-This document explains the decision process of the Accessible Platform Architectures Working Group.
+This document explains the decision process of the [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/groups/wg/apa/).
 
 There are often divergent opinions on issues. It is important that all views are expressed and considered, but it is critical to Working Group function that it can come to conclusions. The procedures set out here describe how the WG discusses a topic and forms a decision, preferably by [consensus](https://www.w3.org/Consortium/Process/#Consensus). These procedures are designed to ensure that input is considered, whether in teleconferences or using asynchronous communication tools.
 

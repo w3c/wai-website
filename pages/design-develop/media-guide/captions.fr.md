@@ -6,7 +6,11 @@ title: "Sous-titres"
 title_image: /content-images/media-guide/cc.svg
 nav_title: "Sous-titres"
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-09-23   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-09-17  # Put the date of the translation YYYY-MM-DD (with month in the middle)
+
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
@@ -32,11 +36,11 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date :</strong> Mise à jour : 14 juillet 2022. Première publication en septembre 2019 CHANGELOG.</p>
+   <p>Première publication en septembre 2019</p>
    <p><strong>Rédactrice :</strong> <a href=" https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
    <p>Développé par le groupe de travail Éducation et promotion (<a href=" https://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 ---
@@ -179,8 +183,8 @@ La vidéo contient-elle des informations audios nécessaires pour comprendre le 
 <br>
 
 **Extraits des WCAG** avec des liens vers plus d’informations dans « Comprendre les WCAG » :
-* [A 1.2.2 Sous-titres](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html) (pré-enregistrés) : fournir des sous-titres pour tout contenu audio pré-enregistré dans un média synchronisé...
-* [AA 1.2.4 Sous-titres](https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html) (en direct) : fournir une audio-description pour tout contenu vidéo pré-enregistré, sous forme de média synchronisé.
+* [A 1.2.2 Sous-titres](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html) (pré-enregistrés) : fournir des sous-titres pour tout contenu audio pré-enregistré dans un média synchronisé...
+* [AA 1.2.4 Sous-titres](https://www.w3.org/WAI/WCAG22/Understanding/captions-live.html) (en direct) : fournir une audio-description pour tout contenu vidéo pré-enregistré, sous forme de média synchronisé.
 
 ## Compétences et outils {#skills-and-tools}
 

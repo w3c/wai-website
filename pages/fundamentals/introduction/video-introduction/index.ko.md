@@ -2,7 +2,11 @@
 title: "웹 접근성 소개 영상과 W3C 표준"
 nav_title: "소개 영상" # A short title that is used in the navigation
 lang: ko
-last_updated: 2021-05-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2021-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+   # Keep the date of the English version
 
 translators: 
 - name: "Yong Ui Lee"
@@ -19,11 +23,10 @@ ref: /videos/standards-and-benefits/   # Do not change this
 changelog: /videos/standards-and-benefits/changelog/
    
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>날짜:</strong> 2021 년 5 월 4 일 업데이트 됨. 2017 년 12 월 4 일에 처음 게시 됨. CHANGELOG.</p>
+   <p><strong>날짜:</strong> 2021 년 5 월 4 일 업데이트 됨. 2017 년 12 월 4 일에 처음 게시 됨.</p>
    <p>프로젝트 리더: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. 기여한 사람들: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. 영상 촬영자와 편집자: Ulrich Grimm, av-design GmbH. 영상은 European Commission에 의해 공동 창립된 <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>의 지원을 받아 만들어졌습니다. 번역은 Ford Foundation의 재정 지원을 받은 <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>의 지원을 받아 운영되고 있습니다.
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

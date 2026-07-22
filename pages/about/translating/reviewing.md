@@ -2,7 +2,7 @@
 title: "Reviewing a WAI Translation"
 nav_title: Reviewing a Translation
 lang: en
-last_updated: 2024-03-07
+last_updated: 2024-11-21
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
 # Do not delete the following translators/contributors lines: they are used to display an example in the page.
@@ -18,11 +18,13 @@ ref: /about/translating/review/
 redirect_from:
   - /about/translating/guides/review-translation/
 
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 
 footer: |
-  <p><strong>Date:</strong> Updated 7 March 2024.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin.</p>
   <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 ---
@@ -50,11 +52,11 @@ This page explains how you can participate in reviewing translations of Web Acce
 
 ## Overview
 
-The W3C Web Accessibility Initiative (WAI) welcomes contributions to review volunteer translations, before they are published on the WAI website.
+The W3C Web Accessibility Initiative (WAI) welcomes contributions to review volunteer translations before they are published on the WAI website.
 
 There are 3 steps to contribute as a reviewer:
 
-1. **[Find a translation](#find)** ready for review
+1. **[Find a translation](#find)** that is ready for review
 
 2. **[Declare your intent](#volunteer)** to review the translation by a date.
 
@@ -62,35 +64,33 @@ There are 3 steps to contribute as a reviewer:
 
 ## Step 1: How to find a translation ready for review? {#find}
 
-You can find translations to review in the [GitHub project {% include_cached external.html %}](https://github.com/orgs/w3c/projects/46/views/2) we use to track translations:
-- Filter the view by clicking on your language in the "Language" sidebar.
-- Look into the "Review" column of the board: this lists the translations that are ready for review. 
+You can find translations to review in the [“Review needed” view of the dedicated GitHub project {% include_cached external.html %}](https://github.com/orgs/w3c/projects/46/views/9).
 
-If you have trouble using this _board_ view, you can look at the [equivalent table view {% include_cached external.html %}](https://github.com/orgs/w3c/projects/46/views/3), or you can contact us at [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)[^1].
+If you have trouble using this tool, you can contact us at [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)[^1].
 
 ## Step 2: How to volunteer? {#volunteer}
 
-### New volunteers:
+### New volunteer:
 
 Please send an email to [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)[^1], expressing your interest in joining the WAI translator volunteers community. We will guide you through the next steps.
 
-### Regular volunteers:
+### Regular volunteer:
 
-Indicate that you are volunteering to review the translation in the related GitHub issue. 
+Indicate that you are volunteering to review the translation in the related GitHub issue.
 
 **Please always indicate the date by which you plan to review the translation.** This way, we can ask other volunteers if you are unable to complete the review by this date.
 
 ## Step 3: How to review a translation? {#review}
 
-Review discussions take place directly in the Pull Request(s) opened by the translator. These are listed in the GitHub issue related to the translation. 
+Review discussions take place directly in the Pull Request(s) opened by the translator. These are listed in the GitHub issue related to the translation.
 
 We encourage you to respectfully share your comments, suggested changes, spotted issues; and to work together with the translator(s) and other reviewer(s) to improve the translation.
 
 The most important things for review are:
-- **helping accurately convey the meaning from the English version** in the translated language. Translations must not change or adapt or add to the meaning of the English version in their translation.
-- **using respectful disability terminology** in the target language and region.
+- the translation **accurately conveys the meaning from the English version** in the translated language. You must not change or adapt or add to the meaning of the English version in the translation.
+- the translation **uses respectful disability terminology** in the target language and region.
 
-For that, you will need to read the English version and compare it to the translation. Often, it is best to have them open in side-by-side windows. A preview is included in most Pull Requests, to see the rendered page.
+For that, you need to read the English version and compare it to the translation. Often, it is best to have them open in side-by-side windows. A preview is included in most Pull Requests, to see the rendered page.
 
 {::nomarkdown}
 {% include box.html type="start" title="Helpful tip" %}
@@ -106,7 +106,7 @@ A technique for proof-reading is to listen to the translation being read aloud, 
 - Check [other translations in your language](/translations) to see how similar words and concepts have been translated. In particular, [Authorized Translations](https://www.w3.org/Translations/authorized.html) have had significant review and input.
 - Consider different dialects. Where possible, the translation should use words and phrases that will be best understood across different areas.
 - The translator and reviewer(s) might want to work together to consider different options for some wording.
-- When you decide on translation of unclear words and phrases that will likely be in other resources, feel free to add them to the [Glossary for your language {% include_cached external.html %}](https://github.com/w3c/translation-glossaries).
+- When you decide on translation of unclear words and phrases that will likely be in other resources, feel free to add them to the [Glossary for your language {% include_cached external.html %}](https://github.com/w3c/wai-translations/tree/main/glossaries/).
 
 {::nomarkdown}
 {% include box.html type="start" title="We are here to help" %}
@@ -146,29 +146,30 @@ The language codes in the [frontmatter](/about/translating/resources/technical-s
 The information in the "About this translation" box is correct.
 
 {::nomarkdown}
-{% include box.html type="start" title='There should be 5 lines, for example:' %}
+{% include box.html type="start" title='There should be 3 lines, for example:' %}
 {:/}
- <section class="doc-note-box doc-note-translation">
-   <h2 class="visuallyhidden">{% include t.html t="About this Translation" %}</h2>
-   <p>{% assign replacepattern = page.url | relative_url | prepend: "$1|"  %}{% include t.html t='This volunteer translation might not accurately reflect the intentions of the <a href="$1">English original</a>.' replace=replacepattern %}</p>
-   <p>{% include_cached icon.html name="check-circle" %} {% include t.html t='Translation up-to-date with the English version.' %}
-     <br>{% include t.html t='Translation updated:' %} <span dir="auto">{{page.last_updated | date: "%Y-%m-%d"}}</span>. {% include t.html t='English updated:' %} <span dir="auto">{{page.last_updated | date: "%Y-%m-%d"}}</span>.
+<section class="doc-note-box doc-note-translation">
+    <h2 class="visuallyhidden">{% include_cached t.html t="About this translation" lang=page.lang %}</h2>
+    <p>
+      {%- assign replace_pattern = page.url | relative_url | prepend: "$1|" -%}
+      {%- include t.html t='This volunteer translation might not accurately reflect the intentions of the <a href="$1">English original</a>.' replace=replace_pattern lang=page.lang -%}
     </p>
-   <p>
-     {%- capture translatorslabel %}<strong>{% include t.html t='Translators:' %}</strong>{%- endcapture %}
-     {% include peoplelist.html label=translatorslabel people=page.translators %}
-     {%- capture contributorslabel %}{% include t.html t='Contributors:' %}{%- endcapture %}
-     {% include peoplelist.html label=contributorslabel people=page.contributors %}
-     {%- assign replacepattern = "/about/translating/" | relative_url | prepend: "$1|" -%}
-     <br>{% include t.html t='WAI thanks translators, and welcomes other <a href="$1">translations</a>.' replace=replacepattern %}</p>
- </section>
+    <p>
+      {%- capture translatorslabel %}<strong>{% include_cached t.html t='Translator:' lang=page.lang %}</strong>{%- endcapture %}
+      {%- include peoplelist.html label=translatorslabel people=page.translators -%}
+      {%- capture contributorslabel %}{% include_cached t.html t='Contributor:' lang=page.lang %}{%- endcapture -%}
+      {%- include peoplelist.html label=contributorslabel people=page.contributors -%}
+      <br />
+      {%- assign replace_pattern = "/about/translating/" | relative_url | prepend: "$1|" -%}
+      {%- include_cached t.html t='The Web Accessibility Initiative (WAI) thanks translators, and welcomes other <a href="$1">translations</a>.' replace=replace_pattern lang=page.lang -%}
+    </p>
+</section>
  {::nomarkdown}
  {% include box.html type="end" %}
  {:/}
 
-- If translator or contributor names are missing, it is because they are still commented out.\
-Delete the hashmark and space (`# `) before the lines.
-- Check the dates: one is the date of the translation; the other should usually match the date in the footer.
+If some translator or contributor names are missing, it is because they are still commented out.\
+In the code, delete the hashmark and space (`# `) from the beggining of the lines.
 
 {::nomarkdown}
   </li>
@@ -185,7 +186,7 @@ In the footer, the dates are the same in the English version and the translated 
 For any videos on the page, the `[CC]` icon of the video player defaults to the translated language.\
 See for example [_Keyboard Compatibility_ video in French](https://www.w3.org/WAI/perspective-videos/keyboard/fr).
 
-If not, some [video subtitles steps](/about/translating/resources/video-subtitles/) are probably missing.
+If not, some [video subtitles steps](/about/translating/resources/subtitles/) are probably missing.
 
 {::nomarkdown}
   </li>

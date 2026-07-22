@@ -2,9 +2,7 @@
 // NETLIFY function to call a github repository-dispatch Web hook
 // when a form submission occurs
 
-const { debug } = require('console')
 const https = require('https')
-const { isArray } = require('util')
 const { v1: uuidv1 } = require('uuid') // use v1, time-based so unique each call
 
 // GitHub dispatch web hook handler used to trigger the workflow
@@ -83,6 +81,27 @@ function formEncodedToPOJO(formEncoded) {
   }, {})
 }
 
+/**
+ * Defines a subset of required fields expected to exist
+ * in the request body for each supported repository
+ */
+const requiredKeys = {
+  "wai-authoring-tools-list": [
+    "submitter-name",
+    "submitter-email",
+    "tool-name",
+  ],
+  "wai-course-list": [
+    "submitter_name",
+    "submitter_email",
+    "title",
+  ],
+  "wai-evaluation-tools-list": [
+    "title",
+    "website",
+    "provider",
+  ]
+};
 
 exports.handler = async function (event, context) {
   const response = (code, redir, body) =>
@@ -106,6 +125,18 @@ exports.handler = async function (event, context) {
 
   const formData = formEncodedToPOJO(event.body)
 
+  if (!(formData.repository in requiredKeys)) {
+    console.error(`Rejecting form submission for invalid repository ${formData.repository}`);
+    return { statusCode: 400, body: 'Unsupported repository value' };
+  }
+
+  for (const key of requiredKeys[formData.repository]) {
+    if (!formData[key]) {
+      console.error(`Rejecting form submission for ${formData.repository} due to missing value for ${key}`);
+      return { statusCode: 400, body: 'Form submission lacks value for required field(s)' };
+    }
+  }
+
   // new id if not in form - v1 date based to avoid duplications
   formData['submission_ref'] = formData['submission_ref'] || uuidv1()
   formData['submission_date'] = (new Date).toISOString()
@@ -128,4 +159,21 @@ exports.handler = async function (event, context) {
   }
 
   return response(200, mkURI(formData['success']), formData )
+}
+
+// Allow test-running locally by invoking this module directly
+if (module === require.main) {
+  const server = require('http').createServer(async (req, res) => {
+    req.setEncoding("utf8");
+    const response = await exports.handler({
+      body: (await req.toArray()).join(""),
+      headers: req.headers,
+      httpMethod: req.method,
+    });
+    res.writeHead(response.statusCode, response.headers);
+    res.end(response.body);
+  });
+  const port = 8000;
+  server.listen(port);
+  console.log(`Listening for list submissions at http://localhost:${port}`);
 }

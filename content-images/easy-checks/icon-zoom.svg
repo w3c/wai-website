@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 280">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-8 {
+        font-size: 179.28px;
+      }
+
+      .cls-8, .cls-9 {
+        font-family: NotoSansMono-SemiBold, 'Noto Sans Mono';
+        font-variation-settings: 'wght' 600, 'wdth' 100;
+        font-weight: 600;
+      }
+
+      .cls-8, .cls-5 {
+        fill: #bccbd3;
+      }
+
+      .cls-10 {
+        stroke: #000;
+      }
+
+      .cls-10, .cls-3 {
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+
+      .cls-10, .cls-9 {
+        fill: #196cac;
+      }
+
+      .cls-11 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-3 {
+        stroke: #bccbd3;
+      }
+
+      .cls-9 {
+        font-size: 131.3px;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="59.99" y="8.19" width="387.69" height="271.81" rx="5" ry="5"/>
+  <rect class="cls-2" x=".64" width="490" height="280"/>
+  <g>
+    <rect class="cls-6" x="54.3" y="2.5" width="382.69" height="266.81" rx="2.5" ry="2.5"/>
+    <path class="cls-4" d="m434.49,5v261.81H56.8V5h377.69M434.49,0H56.8C54.05,0,51.8,2.25,51.8,5v261.81c0,2.75,2.25,5,5,5h377.69c2.75,0,5-2.25,5-5V5C439.49,2.25,437.24,0,434.49,0h0Z"/>
+  </g>
+  <circle class="cls-5" cx="362.61" cy="87.45" r="64.28"/>
+  <rect class="cls-2" x=".64" width="490" height="280"/>
+  <g>
+    <path class="cls-5" d="m54.3,45.88V5c0-1.38,1.12-2.5,2.5-2.5h376.69c1.93,0,3.5,1.57,3.5,3.5v39.88H54.3Z"/>
+    <path class="cls-4" d="m433.49,5c.55,0,1,.45,1,1v37.38H56.8V5h376.69M433.49,0H56.8C54.03,0,51.8,2.24,51.8,5v43.38h387.69V6C439.49,2.69,436.8,0,433.49,0h0Z"/>
+  </g>
+  <g>
+    <line class="cls-3" x1="356.61" y1="89.13" x2="454.17" y2="186.68"/>
+    <line class="cls-10" x1="358.61" y1="82.45" x2="456.17" y2="180"/>
+    <circle class="cls-6" cx="358.61" cy="82.45" r="64.28"/>
+  </g>
+  <text class="cls-8" transform="translate(108.71 206.06)"><tspan class="cls-12" x="0" y="0">a</tspan><tspan class="cls-7" x="98.6" y="0">b</tspan><tspan class="cls-11" x="191.82" y="0">c</tspan></text>
+  <text class="cls-9" transform="translate(74.27 232.67)"><tspan class="cls-13" x="0" y="0">a</tspan><tspan class="cls-1" x="72.21" y="0">b</tspan><tspan class="cls-13" x="140.49" y="0">c</tspan></text>
+  <path class="cls-4" d="m353.55,108.88v-19.85c0-1.23-.99-2.22-2.22-2.22h-18.71c-1.23,0-2.22-.99-2.22-2.22v-5.81c0-1.23.99-2.22,2.22-2.22h18.71c1.23,0,2.22-.99,2.22-2.22v-20.1c0-1.23.99-2.22,2.22-2.22h5.93c1.23,0,2.22.99,2.22,2.22v20.1c0,1.23.99,2.22,2.22,2.22h18.46c1.23,0,2.22.99,2.22,2.22v5.81c0,1.23-.99,2.22-2.22,2.22h-18.46c-1.23,0-2.22.99-2.22,2.22v19.85c0,1.23-.99,2.22-2.22,2.22h-5.93c-1.23,0-2.22-.99-2.22-2.22Z"/>
+  <path class="cls-4" d="m358.61,28.16c29.93,0,54.28,24.35,54.28,54.28s-24.35,54.28-54.28,54.28-54.28-24.35-54.28-54.28,24.35-54.28,54.28-54.28m0-10c-35.5,0-64.28,28.78-64.28,64.28s28.78,64.28,64.28,64.28,64.28-28.78,64.28-64.28-28.78-64.28-64.28-64.28h0Z"/>
+</svg>

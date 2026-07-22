@@ -4,7 +4,8 @@
 title: "Video Introduction to Web Accessibility and W3C Standards"
 nav_title: "Video Introduction" # A short title that is used in the navigation
 lang: en   # Change "en" to the translated language shortcode
-last_updated: 2021-05-04   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-04   # Keep the date of the English version
+first_published: "4 December 2017"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -19,14 +20,10 @@ github:
 permalink: /videos/standards-and-benefits/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /videos/standards-and-benefits/  # Do not change this
 
-changelog: /videos/standards-and-benefits/changelog/  # Do not change this
-
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-  <p><strong>Date:</strong> Updated 4 May 2021. First published 4 December 2017. CHANGELOG.</p>
   <p>Project lead: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Contributors: <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>, <a href="https://www.w3.org/People/yatil/">Eric Eggert</a>. Videographer and video editor: Ulrich Grimm, av-design GmbH. Video clips developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Translations managed with support from the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.</p>
 ---
 

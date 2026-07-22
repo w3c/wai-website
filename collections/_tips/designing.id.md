@@ -6,7 +6,11 @@ title: "Mendesain untuk Aksesibilitas Web – Kiat Memulai"
 title_html: "Mendesain untuk Aksesibilitas Web"
 nav_title: Kiat Mendesain
 lang: id  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  outdated: true
 
 resource:
   ref: /tips/  # Do not change this
@@ -31,6 +35,7 @@ ref: /tips/designing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#designing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
@@ -102,7 +107,7 @@ Teks pada latar depan harus memiliki kontras yang cukup dengan warna latar belak
 * **WCAG**
   * [Kontras (Minimum) 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([Memahami 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
 * **Kisah Pengguna**
-  * [Bagaimana seorang pengguna dengan "buta warna" menjelajahi Web](/people-use-web/user-stories/#shopper)
+  * [Bagaimana seorang pengguna dengan "buta warna" menjelajahi Web](/people-use-web/user-stories/archived/#shopper)
 * **Pengecekan Sederhana**
   * [Cara memeriksa rasio kontras](/test-evaluate/preliminary/#contrast)
 * **Sarana Pendukung**
@@ -223,7 +228,7 @@ Meskipun warna dapat berguna untuk menyampaikan informasi, warna seharusnya tida
 * **WCAG**
   * [Penggunaan Warna 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([Memahami 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
 * **Kisah Pengguna**
-  * [Bagaimana seorang pengguna dengan "buta warna" menjelajahi Web](/people-use-web/user-stories/#shopper)
+  * [Bagaimana seorang pengguna dengan "buta warna" menjelajahi Web](/people-use-web/user-stories/archived/#shopper)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -253,7 +258,7 @@ Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, ag
     <figure class="hover">
       <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya ketika disoroti tetikus</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya dengan latar belakang yang halus untuk menyorot saat disoroti" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">navigasi dengan kibor</a><img src="/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya dengan latar belakang yang halus untuk menyorot saat disoroti" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">navigasi dengan kibor</a><img src="/WAI/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
@@ -265,7 +270,7 @@ Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, ag
     <figure class="active">
       <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya ketika diklik atau disentuh</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya yang kuat untuk menunjukkan bahwa suatu tindakan akan terjadi" style="background: #850BAC; color: #f4f4f4">navigasi dengan kibor</a><img src="/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya yang kuat untuk menunjukkan bahwa suatu tindakan akan terjadi" style="background: #850BAC; color: #f4f4f4">navigasi dengan kibor</a><img src="/WAI/content-images/tips/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
   </div>
@@ -283,8 +288,8 @@ Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, ag
   * [Fokus Tampak 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([Memahami 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
   * [Identifikasi yang Konsisten 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Memahami 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **Kisah Pengguna**
-  * [Tantangan yang dihadapi oleh seseorang dengan keterbatasan kemampuan dalam menggunakan tetikus](/people-use-web/user-stories/#reporter)
-  * [Tantangan yang dihadapi oleh pengguna lanjut usia dengan tremor di tangan](/people-use-web/user-stories/#retiree)
+  * [Tantangan yang dihadapi oleh seseorang dengan keterbatasan kemampuan dalam menggunakan tetikus](/people-use-web/user-stories/archived/#reporter)
+  * [Tantangan yang dihadapi oleh pengguna lanjut usia dengan tremor di tangan](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -302,7 +307,7 @@ Pastikan navigasi di seluruh halaman dalam situs web memiliki penamaan, pemberia
   * [Navigasi yang Konsisten 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([Memahami 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
   * [Beragam Cara 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([Memahami 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
 * **Kisah Pengguna**
-  * [Bagaimana konsistensi dan navigasi dapat membantu seseorang dengan kesulitan kognitif](/people-use-web/user-stories/#supermarketassistant)
+  * [Bagaimana konsistensi dan navigasi dapat membantu seseorang dengan kesulitan kognitif](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -358,7 +363,7 @@ Pastikan semua bidang memiliki label deskriptif yang bersebelahan dengan bidang 
 * **Tutorial**
   * [Posisi teks label secara visual](/tutorials/forms/labels/#visual-position-of-label-text)
 * **Kisah Pengguna**
-  * [Bagaimana pemberian label yang jelas dapat membantu seseorang yang mengalami kesulitan kognitif](/people-use-web/user-stories/#supermarketassistant)
+  * [Bagaimana pemberian label yang jelas dapat membantu seseorang yang mengalami kesulitan kognitif](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -423,7 +428,7 @@ Berikan umpan balik untuk interaksi, seperti mengkonfirmasi pengiriman isian, me
 * **Tutorial**
   * [Notifikasi Pengguna](/tutorials/forms/notifications/)
 * **Kisah Pengguna**
-  * [Bagaimana membuat konten yang penting mudah diidentifikasi dapat membantu](/people-use-web/user-stories/#classroomstudent)
+  * [Bagaimana membuat konten yang penting mudah diidentifikasi dapat membantu](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -534,7 +539,7 @@ Gunakan spasi dan kedekatan posisi untuk membuat hubungan antar konten menjadi l
 * **Tutorial**
   * [Judul](/tutorials/page-structure/headings/)
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana judul dapat berguna untuk navigasi](/people-use-web/user-stories/#accountant)
+  * [Menjelaskan bagaimana judul dapat berguna untuk navigasi](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -571,7 +576,7 @@ Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran porta 
   * [Layar Ukuran Kecil](/TR/mobile-accessibility-mapping/#h-small-screen-size)
   * [Pertimbangan pada perangkat seluler terkait Bisa Dimengerti](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana alternatif tampilan pada halaman yang dizum dapat membantu](/people-use-web/user-stories/#retiree)
+  * [Menjelaskan bagaimana alternatif tampilan pada halaman yang dizum dapat membantu](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -613,7 +618,7 @@ Bekerjalah bersama penulis dan pengembang konten untuk memberikan alternatif unt
 * **Tutorial**
   * [Gambar](/tutorials/images/)
 * **Kisah Pengguna**
-  * [Menjelaskan nilai dari alternatif teks bagi pengguna disabilitas netra](/people-use-web/user-stories/#accountant)
+  * [Menjelaskan nilai dari alternatif teks bagi pengguna disabilitas netra](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

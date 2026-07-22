@@ -1,18 +1,28 @@
 ---
-title: Accessible Rich Internet Applications (ARIA) Working Group
-nav_title: '<span>ARIA: Accessible Rich Internet Applications <abbr title="Working Group">WG</abbr></span>'
+title: ARIA Working Group
+nav_title: 'ARIA <abbr title="Working Group">WG</abbr>'
 lang: en
 permalink: /about/groups/ariawg/
 ref: /about/groups/ariawg/
+redirect_from:
+  - /about/groups/ariawg/communication/
+  - /about/groups/ariawg/contribute/
+  - /about/groups/ariawg/deliverables/
+  - /about/groups/ariawg/editors/
+  - /about/groups/ariawg/participate/
+  - /about/groups/ariawg/planning/
+  - /about/groups/ariawg/roadmap/
+  - /about/groups/ariawg/task-forces/
+  - /about/groups/ariawg/workflow/
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The mission of the Accessible Rich Internet Applications Working Group (ARIA WG) is to develop technologies that enhance accessibility of web content for people with disabilities. This includes continued development of the Accessible Rich Internet Applications (WAI-ARIA) suite of technologies and other technical specifications when needed to bridge known gaps.
-
-Some information on this page is also shown on, and may be more current in, the automatically generated [ARIA Working Group page](https://www.w3.org/groups/wg/aria/).
+Find out about the activities of the Accessible Rich Internet Applications (ARIA) Working Group and how you can contribute to its mission.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -31,66 +41,113 @@ Some information on this page is also shown on, and may be more current in, the 
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Announcements
+## Mission
 
-No announcements at the moment.
+The mission of the ARIA Working Group is to enhance the accessibility of web content through developing supplemental attributes that can be applied to native host language interactive elements and exposed via platform accessibility application programming interfaces (APIs).
 
-## Current Work
+To learn about the group’s focus, scope and deliverables, see the [ARIA Working Group Charter](https://www.w3.org/2025/01/aria-charter).
 
-The Working Group has established a [road map](roadmap) for upcoming work. This road map is executed via [publications and status](deliverables), which include:
+## Current work 
 
-- WAI-ARIA 1.3,
-- WAI-ARIA modules for Digital Publishing and Graphics,
-- Accessibility API Mappings for ARIA, Digital Publishing, HTML, and SVG, and
-- WAI-ARIA Authoring Practices.
+For details of the current work, see the [ARIA Working Group README on GitHub](https://github.com/w3c/aria/#readme).
 
-The [ARIA Project Plan](/about/groups/ariawg/planning/) details intended timeline and milestones for this work and proceeds according to the [ARIA Working Group Work Flow](/about/groups/ariawg/workflow/).
+The ARIA Working Group follows a set process for developing ARIA guidelines and resolving ARIA issues &mdash; for details, see [ARIA Working Group Process Document](https://github.com/w3c/aria/blob/main/documentation/process.md).
 
-## Task Forces
+For more information, see [WAI-ARIA Overview](https://www.w3.org/WAI/standards-guidelines/aria/).
 
-The ARIA WG uses [task forces](task-forces) to focus work on specific projects. Current task forces include:
+### WAI-ARIA
 
-- ARIA Authoring Practices Task Force: focuses on ARIA Authoring Practices.
-- CSS Accessibility Task Force; focuses on accessibility of CSS, ARIA role is to explore ARIA and accessibility API mapping features.
+The [WAI-ARIA specification](https://www.w3.org/TR/wai-aria/) defines roles, states, and properties that can be used in a variety of host languages to enhance the accessibility of user interfaces.
 
-## How to Comment, Contribute, and Participate
+### WAI-ARIA modules
 
-The ARIA Working Group engages with stakeholders in a variety of ways. See the following resources for information on:
+The ARIA modules extend the roles, states, and properties for specific host languages, such as:
 
-- [How to contribute to the Working Group, file comments, and contribute to the source code repositories](contribute);
-- [How to participate in (join) the Working Group](https://www.w3.org/groups/wg/aria/instructions/).
+* [Digital Publishing](https://www.w3.org/TR/dpub-aria-1.1/)
+* [Graphics](https://www.w3.org/TR/graphics-aria-1.0/)
+* [HTML](https://www.w3.org/TR/html-aria/)
 
-## Meetings and Communication
+### ARIA Core Accessibility API Mappings
 
-The ARIA WG conducts its work using a variety of synchronous and asynchronous tools. The [communication](/about/groups/ariawg/communication/) page provides details about:
+The ARIA [Core Accessibility API Mappings](https://www.w3.org/TR/core-aam-1.2/) describe how user agents should expose semantics of web content languages to accessibility APIs. The mappings apply broadly to multiple technologies. In addition, the ARIA Working Group develops specific mappings for:
 
-- Teleconferences of the Working Group and its task forces (also see [meeting minutes](https://www.w3.org/WAI/ARIA/minutes));
-- Face to face meetings (also see face to face [meeting pages](https://www.w3.org/WAI/ARIA/wiki/Meetings));
-- Email lists;
-- [ARIA source repository](https://github.com/w3c/aria/);
-- [Wiki](https://www.w3.org/WAI/ARIA/wiki/);
-- [Web-Based Surveys (WBS)](https://www.w3.org//2002/09/wbs/83726/);
-- [Issue Tracker](https://github.com/w3c/aria/issues);
-- [ARIA source repository issue tracker](https://github.com/w3c/aria/issues).
+* CSS
+* [Digital Publishing](https://www.w3.org/TR/dpub-aam-1.1/)
+* [Graphics](https://www.w3.org/TR/graphics-aam/)
+* [HTML](https://www.w3.org/TR/html-aam-1.0/)
+* MathML
+* PDF
+* [SVG](https://www.w3.org/TR/svg-aam-1.0/)
 
-These tools are used by participants of the Working Group. For ways non-participants can contribute, see [how to contribute to the Working Group and file comments](/about/groups/ariawg/contribute/).
+### WAI-ARIA Authoring Practices
 
-### Meeting Minutes
+The [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) describes how to apply accessibility semantics to common design patterns and widgets, and provides overall guidance on how to use ARIA.
 
-[Minutes from previous meetings](https://www.w3.org/WAI/ARIA/minutes) are available.
+## Contribute to the work
 
-## Administrative Information
+W3C and the ARIA Working Group welcome input on ARIA work from individuals and organizations around the world.
 
-Work of the ARIA WG is in accordance with the [W3C Process](https://www.w3.org/Process). ARIA WG work is funded in part by the [WAI Core 2015 Project](https://www.w3.org/WAI/Core2015/). The work of this group does not necessarily reflect the views or policies of the funders.
+### Contribute without joining the group
 
-The chairs of the ARIA WG, responsible for overall leadership and management, are James Nurthen and Valerie Young. The staff contact, responsible for [W3C Process](https://www.w3.org/Process/) and general support, is [Daniel Montalvo](https://www.w3.org/staff#dmontalvo).
+There are ways you can contribute without being a member of the working group:
 
-The Accessible Rich Internet Applications Working Group maintains the following operational resources:
+* **Comment on publications:** During development, the group publishes working drafts for public comment &mdash; to be notified about draft documents for review, [subscribe to WAI news](/news/subscribe/).
+* **Raise, comment on, or propose fixes to ARIA issues:** If you’re aware of an issue with any of the published ARIA resources, W3C welcomes you to raise a new issue on GitHub, or you can also comment on and, even better, propose solutions for existing issues &mdash; see the list of [repositories maintained by the ARIA Working Group below](#github-repositories).
+* **Contribute to ARIA discussions:** You may contribute your views to the ARIA Working Group's [open ARIA discussions in GitHub](https://github.com/w3c/aria/discussions) and [mailing list discussions](https://lists.w3.org/Archives/Public/public-aria/).
 
-- [Decision policy](/about/groups/ariawg/decision-policy/);
-- [Record of decisions made by the WG](https://www.w3.org/WAI/ARIA/wiki/Decisions);
-- [meeting minutes](https://www.w3.org/WAI/ARIA/minutes).
+### Become a participant in the group
 
-W3C maintains a [public list of any patent disclosures](http://www.w3.org/2004/01/pp-impl/83726/status) made in connection with the deliverables of the group; that page also includes instructions for disclosing a patent.
+Joining the ARIA Working Group enables you to participate fully in the development of the work and influence the deliverables. You and your organization will also be listed as contributors, where appropriate.
 
-[Current participants in the ARIA WG](https://www.w3.org/groups/wg/aria/participants/).
+Being a participant involves commitment to support the work of the group in the following ways:
+
+* Engage actively with other participants in the working group using the group’s communication channels.
+* Keep up with weekly tasks and the progress of the work &mdash; for example, via the minutes of past meetings, mailing list discussions, and GitHub issue comments.
+* Give your input promptly, when it’s needed.
+
+See [Instructions for joining the Accessible Rich Internet Applications Working Group](https://www.w3.org/groups/wg/aria/instructions/).
+
+## Group participants and task forces
+
+* [Chairs](https://www.w3.org/groups/wg/aria/participants/#chairs)
+* [Current participants](https://www.w3.org/groups/wg/aria/participants/#participants)
+* [Task forces](https://www.w3.org/groups/wg/aria/task-forces/) that support the ARIA Working Group
+
+## Communications and decisions
+
+* [Calendar of meetings](https://www.w3.org/groups/wg/aria/calendar/)
+* [Minutes from previous meetings](/about/groups/ariawg/minutes/)
+* [Mailing list archive](https://lists.w3.org/Archives/Public/public-aria/)
+* Record of decisions (mainly in GitHub pull request reviews)
+* [Decision policy](/about/groups/ariawg/decision-policy/)
+
+## GitHub repositories
+
+The ARIA Working Group maintains the following GitHub repositories:
+
+- [Accessible Name and Description Computation](https://github.com/w3c/accname/)
+- [ARIA](https://github.com/w3c/aria/) &mdash; for spec development
+- [Core Accessibility API Mappings](https://github.com/w3c/core-aam/)
+- [CSS Accessibility API Mappings](https://github.com/w3c/css-aam/)
+- [Digital Publishing Accessibility API Mappings](https://github.com/w3c/dpub-aam/)
+- [Digital Publishing WAI-ARIA Module](https://github.com/w3c/dpub-aria/)
+- [Graphics Accessibility API Mappings](https://github.com/w3c/graphics-aam/)
+- [HTML Accessibility API Mappings](https://github.com/w3c/html-aam/)
+- [MathML Accessibility API Mappings](https://github.com/w3c/mathml-aam/)
+- [PDF Accessibility API Mappings](https://github.com/w3c/pdf-aam)
+- [SVG Accessibility API Mappings](https://github.com/w3c/svg-aam/)
+- [WAI-ARIA Authoring Practices](https://github.com/w3c/aria-practices/)
+- [WAI-ARIA Graphics Module](https://github.com/w3c/graphics-aria/)
+
+## Publications and copyright
+
+* [List of technical reports published by the ARIA Working Group](https://www.w3.org/groups/wg/aria/publications/)
+* [WAI-ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) 
+
+W3C maintains a public list of any patent disclosures made in connection with the deliverables of the group &mdash; for details, see [Intellectual property rights &mdash; ARIA Working Group](https://www.w3.org/groups/wg/aria/ipr/).
+
+There are also instructions for [How to Make a Patent Disclosure](https://www.w3.org/groups/wg/aria/ipr/#discl-howto).
+
+## Contact the chairs
+
+If you have a question for the ARIA Working Group’s chairs or the W3C staff contact, email [group-aria-chairs@w3.org](mailto:group-aria-chairs@w3.org).

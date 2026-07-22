@@ -10,11 +10,13 @@ ref: /about/translating/resources/using-github/
 redirect_from:
   - /about/translating/guides/using-github/
 
+github:
+  label: wai-translation-guidance
+
 image: /content-images/about/social-translations.png
 feedbackmail: wai@w3.org
 
 footer: |
-  <p><strong>Date:</strong> Updated 9 April 2024.</p>
   <p><strong>Editors:</strong> Rémi Bétin and <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
 

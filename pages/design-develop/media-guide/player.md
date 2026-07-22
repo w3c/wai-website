@@ -6,7 +6,8 @@ title: "Media Players"
 title_image: /content-images/media-guide/player-nobackground.svg
 nav_title: "Media Player"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2021-11-29   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-09-17  # Keep the date of the English version
+first_published: "September 2019"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -34,11 +35,10 @@ image: /content-images/media-guide/social.png
 
 # In the footer below:
 # Do not change the dates
-# Do not translate CHANGELOG and ACKNOWLEDGEMENTS
+# Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-   <p><strong>Date:</strong> Updated 29 November 2021. First published September 2019. CHANGELOG.</p>
    <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
    <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 ---
@@ -81,10 +81,10 @@ Developing your own accessible media player requires advanced HTML and JavaScrip
 ## Player Accessibility Functionality {#player-accessibility-functionality}
 
 Accessible media players provide a user interface that works without a mouse, through speech interface, when the page is zoomed larger, and with screen readers. For example, media players need to:
-* Provide keyboard support ([in Understanding WCAG: Keyboard Accessible](https://www.w3.org/WAI/WCAG21/Understanding/keyboard-accessible))
-* Make the keyboard focus indicator visible ([in Understanding WCAG: Focus Visible](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible))
-* Provide clear labels ([in Understanding WCAG: Labels or Instructions](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions), [Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships))
-* Have sufficient contrast between colors for text, controls, and backgrounds ([in Understanding WCAG: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum), [Contrast (Enhanced)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced), [Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html))
+* Provide keyboard support ([in Understanding WCAG: Keyboard Accessible](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-accessible))
+* Make the keyboard focus indicator visible ([in Understanding WCAG: Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible))
+* Provide clear labels ([in Understanding WCAG: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions), [Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships))
+* Have sufficient contrast between colors for text, controls, and backgrounds ([in Understanding WCAG: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum), [Contrast (Enhanced)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced), [Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html))
 
 Some media players provide additional accessibility functionality to users such as:
 * Changing the speed of the video

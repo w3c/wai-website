@@ -5,7 +5,7 @@
 title: "Lakshmi, senior accountant who is blind"
 nav_title: "Lakshmi"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -31,18 +31,18 @@ navigation:
   next: /people-use-web/user-stories/story-four/
 
 image: /content-images/people-use-web/social.png
-changelog: /people-use-web/changelog/
-acknowledgements: /people-use-web/acknowledgements/
+changelog: /people-use-web/changelog/ # Do not change this
+acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
  <!--  <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p> -->
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -183,26 +183,26 @@ Keyboard trap
 
 ## Related WAI resources
 
-* Video: [Text to Speech](https://www.w3.org/WAI/perspective-videos/speech/)
-* Tip: [Write meaningful text alternatives for images](https://www.w3.org/WAI/tips/writing/#write-meaningful-text-alternatives-for-images)
-* Tip: [Associate a label with every form control](https://www.w3.org/WAI/tips/developing/#associate-a-label-with-every-form-control)
-* Tip: [Use headings to convey meaning and structure](https://www.w3.org/WAI/tips/writing/#use-headings-to-convey-meaning-and-structure)
-* Tip: [Ensure that all interactive elements are keyboard accessible](https://www.w3.org/WAI/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
-* Tip: [Make link text meaningful](https://www.w3.org/WAI/tips/writing/#make-link-text-meaningful)
-* Check: [Image text alternatives ("alt text")](https://www.w3.org/WAI/test-evaluate/preliminary/#images)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
-* Check: [Multimedia (video, audio) alternatives](https://www.w3.org/WAI/test-evaluate/preliminary/#media)
-* Check: [Basic Structure Check](https://www.w3.org/WAI/test-evaluate/preliminary/#structure)
+* Video: [Text to Speech](/perspective-videos/speech/)
+* Tip: [Write meaningful text alternatives for images](/tips/writing/#write-meaningful-text-alternatives-for-images)
+* Tip: [Associate a label with every form control](/tips/developing/#associate-a-label-with-every-form-control)
+* Tip: [Use headings to convey meaning and structure](/tips/writing/#use-headings-to-convey-meaning-and-structure)
+* Tip: [Ensure that all interactive elements are keyboard accessible](/tips/developing/#ensure-that-all-interactive-elements-are-keyboard-accessible)
+* Tip: [Make link text meaningful](/tips/writing/#make-link-text-meaningful)
+* Check: [Image text alternatives ("alt text")](/test-evaluate/preliminary/#images)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* Check: [Multimedia (video, audio) alternatives](/test-evaluate/preliminary/#media)
+* Check: [Basic Structure Check](/test-evaluate/preliminary/#structure)
 
 ## Related principles
 
-* [Text alternatives for non-text content (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#alternatives)
-* [Captions and other alternatives for multimedia (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#captions)
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Content is easier to see and hear (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#distinguishable)
-* [Functionality is available from a keyboard (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#keyboard)
-* [Users can easily navigate, find content, and determine where they are (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#navigable)
-* [Content is readable and understandable (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#predictable)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [Text alternatives for non-text content (Perceivable)](/fundamentals/accessibility-principles/#alternatives)
+* [Captions and other alternatives for multimedia (Perceivable)](/fundamentals/accessibility-principles/#captions)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Content is easier to see and hear (Perceivable)](/fundamentals/accessibility-principles/#distinguishable)
+* [Functionality is available from a keyboard (Operable)](/fundamentals/accessibility-principles/#keyboard)
+* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
+* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
+* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
 * [Success Criteria relating to “captions”](https://www.w3.org/WAI/WCAG21/quickref/?tags=captions)

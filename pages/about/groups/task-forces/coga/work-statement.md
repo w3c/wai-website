@@ -1,8 +1,10 @@
 ---
-title: Cognitive and Learning Disabilities Accessibility Task Force (Coga TF) Work Statement
+title: Cognitive and Learning Disabilities Accessibility Task Force Work Statement
 permalink: /about/groups/task-forces/coga/work-statement/
 ref: /about/groups/task-forces/coga/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::options toc_levels="2..3" /}
@@ -44,7 +46,7 @@ The objective of the Cognitive and Learning Disabilities Accessibility Task Forc
 - intellectual disabilities,
 - age-related memory loss,
 - a subset of mental health conditions that have clear research that can be integrated into Making Content Usable,
-- and specific learning disabilities (SLD). \[[Making Content Usable 2.4, Language Use](#References)\]
+- and specific learning disabilities (SLD). \[[Making Content Usable 2.4, Language Use](#references)\]
 
 **Our work includes:**
 

@@ -1,0 +1,76 @@
+﻿WEBVTT
+
+00:00:00.840 --> 00:00:05.000
+Evaluation de l'accessibilité Web : vue d'ensemble des ressources
+
+00:00:05.800 --> 00:00:08.500
+L'évaluation permet de vous assurer que vos sites web 
+
+00:00:08.500 --> 00:00:11.840
+et vos applications répondent aux exigences d'accessibilité.
+
+00:00:12.440 --> 00:00:17.000
+Idéalement, vous évaluez régulièrement tout au long du processus de design et de développement.
+
+00:00:17.000 --> 00:00:22.240
+Ainsi, vous repérez les erreurs rapidement
+et évitez des corrections coûteuses plus tard dans le processus.
+
+00:00:23.730 --> 00:00:28.300
+L'Initiative pour l'accessibilité du Web du W3C, la W-A-I, ou WAI, 
+
+00:00:28.400 --> 00:00:32.560
+fournit des ressources gratuites pour vous aider à faire votre évaluation.
+
+00:00:34.080 --> 00:00:41.640
+"Vérifications faciles - Une première vérification de l'accessibilité Web"
+explique comment vous pouvez faire certaines vérifications vous-mêmes.
+
+00:00:41.649 --> 00:00:44.900
+Même si vous débutez dans l'accessibilité Web et que vous n'êtes pas technique, 
+
+00:00:44.900 --> 00:00:49.300
+ces vérifications vous donnent une idée approximative de l'accessibilité pour n'importe quelle page Web.
+
+00:00:50.620 --> 00:00:57.280
+La WAI tient également une "Liste des outils d'évaluation de l'accessibilité Web" que vous pouvez filtrer.
+
+00:00:57.280 --> 00:01:03.900
+"Sélection des outils d'évaluation de l'accessibilité Web" explique ce qu'un outil peut et ne peut pas faire.
+
+00:01:06.020 --> 00:01:10.380
+Pour les personnes plus expérimentées dans l'évaluation, la WAI fournit "WCAG-EM", 
+
+00:01:10.460 --> 00:01:14.880
+la méthodologie d'évaluation de la conformité à l'accessibilité Web.
+
+00:01:16.160 --> 00:01:18.280
+"L'outil d'audit WCAG-EM" 
+
+00:01:18.280 --> 00:01:22.420
+vous permet d'enregistrer les résultats à mesure que vous suivez la méthodologie.
+
+00:01:22.900 --> 00:01:24.620
+Pour vous aider à mieux comprendre
+
+00:01:24.620 --> 00:01:28.040
+comment différentes personnes utilisent vos sites et applications, 
+
+00:01:28.140 --> 00:01:34.360
+la WAI fournit des conseils dans "impliquer des personnes utilisant des projets web pour une accessibilité plus optimale et plus facile"
+
+00:01:34.920 --> 00:01:39.440
+et "impliquer les utilisateurs
+dans l'évaluation de l'accessibilité Web".
+
+00:01:40.140 --> 00:01:44.900
+Grâce à ces ressources, vous pouvez apprendre comment vérifier l'accessibilité de votre site Web
+
+00:01:45.020 --> 00:01:48.180
+et donner la priorité aux problèmes que vous devez régler en premier.
+
+00:01:49.880 --> 00:01:54.780
+Accessibilité Web : essentielle pour certains, utile à tous.
+
+00:01:55.160 --> 00:02:03.820
+Pour des ressources sur l'évaluation de l'accessibilité Web, allez sur  w3.org/WAI/evaluation

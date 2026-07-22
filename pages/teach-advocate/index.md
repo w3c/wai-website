@@ -4,7 +4,7 @@
 title: "Teach and Advocate Overview"
 nav_title: "Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2022-08-31  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-08-31  # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -20,19 +20,15 @@ github:
 permalink: /teach-advocate/ # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /teach-advocate/    # Do not change this
 
-changelog: /teach-advocate/changelog/
 feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
-# Do not change the dates or CHANGELOG
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date:</strong> Updated 31 August 2022. CHANGELOG.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
 ---
 
 {::nomarkdown}

@@ -12,6 +12,8 @@ footer: >
    <p><strong>Date:</strong> Updated 30 August 2023.</p>
    <p><strong>Editors:</strong> Letícia Seixas Pereira and Carlos Duarte. Contributors: <a href="https://www.w3.org/People/kevin/">Kevin White</a>, <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, and <a href="https://www.w3.org/groups/wg/apa/participants">participants of the APA WG</a>.</p>
    <p>Developed under the Research Questions Task Force (<a href="https://www.w3.org/groups/tf/rqtf/">RQTF</a>) of the Accessible Platform Architectures Working Group (<a href="https://www.w3.org/groups/wg/apa/">APA WG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.</p>
+github:
+  label: wai-projects
 ---
 
 {::nomarkdown}
@@ -902,11 +904,3 @@ The symposium on AI and digital accessibility highlighted the potential of AI to
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
 <script src="{{ '/assets/ableplayer/build/ableplayer.min.js' | relative_url }}"></script>
-<script>
-    var youTubeDataAPIKey = "{{ site.ytkey }}";
-    var googleApiReady = false;
-    function initGoogleClientApi() {
-        googleApiReady = true;
-    }
-</script>
-<script src="//apis.google.com/js/client.js?onload=initGoogleClientApi"></script>

@@ -6,7 +6,11 @@ title: "ウェブ・アクセシビリティのための開発 – 始めるに�
 title_html: "ウェブ・アクセシビリティのための開発"
 nav_title: "始めるにあたってのヒント"
 lang: ja  # Change "en" to the translated-language shortcode
-last_updated: 2024-04-16   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-16   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  outdated: true
 
 resource:
   ref: /tips/
@@ -30,6 +34,7 @@ ref: /tips/developing/  # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#developing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
@@ -120,7 +125,7 @@ footer: >
 * **チュートリアル**
   * [画像](/tutorials/images/)
 * **ユーザーストーリー**
-  * [視覚障害者にとっての代替テキストの価値を説明](/people-use-web/user-stories/#accountant)
+  * [視覚障害者にとっての代替テキストの価値を説明](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -243,7 +248,7 @@ footer: >
   * [ページの構造](/tutorials/page-structure/)
   * [テーブル](/tutorials/tables/)
 * **ユーザーストーリー**
-  * [構造情報がスクリーン・リーダー・ユーザーにどのように役立つかを説明する](/people-use-web/user-stories/#accountant)
+  * [構造情報がスクリーン・リーダー・ユーザーにどのように役立つかを説明する](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -296,7 +301,7 @@ footer: >
 * **チュートリアル**
   * [入力の検証](/tutorials/forms/validation/)
 * **ユーザーストーリー**
-  * [失読症のユーザーに役立つエラーの説明](/people-use-web/user-stories/#classroomstudent)
+  * [失読症のユーザーに役立つエラーの説明](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -456,7 +461,7 @@ footer: >
 * **背景**
   * [画面が小さい場合](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **ユーザーストーリー**
-  * [ズームされたページの代替ビューがどのように役立つかを説明](/people-use-web/user-stories/#retiree)
+  * [ズームされたページの代替ビューがどのように役立つかを説明](/people-use-web/user-stories/archived/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -592,7 +597,7 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [キーボード 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([理解のため 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **ユーザーストーリー**
-  * [RSI(関節炎)患者がどのようにキーボードサポートを必要としているかを説明](/people-use-web/user-stories/#reporter)
+  * [RSI(関節炎)患者がどのようにキーボードサポートを必要としているかを説明](/people-use-web/user-stories/archived/#reporter)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

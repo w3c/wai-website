@@ -6,7 +6,11 @@ title: "ウェブ・アクセシビリティを考慮した記述法 – 始め�
 title_html: "ウェブ・アクセシビリティを考慮した記述法"
 nav_title: 始めるためのヒント
 lang: ja  # Change "en" to the translated-language shortcode
-last_updated: 2024-04-16  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2022-08-05  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-16  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  outdated: true
 
 resource:
   ref: /tips/  # Do not change this
@@ -31,6 +35,7 @@ ref: /tips/writing/   # Do not change this
 ext_css: tips.css
 title_icon: /content-images/tips/icons.svg#writing
 
+changelog: /tips/changelog/
 acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
@@ -221,7 +226,7 @@ footer: >
   * [章見出し 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([理解のため 2.4.10](/WAI/WCAG21/Understanding/section-headings))
   * [情報と関係性 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([理解のため 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **ユーザーストーリー**
-  * [   スクリーン・リーダー・ユーザーが見出しを使ってナビゲートする方法](/people-use-web/user-stories/#accountant)
+  * [   スクリーン・リーダー・ユーザーが見出しを使ってナビゲートする方法](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -314,7 +319,7 @@ footer: >
 * **チュートリアル**
   * [画像](/tutorials/images/)
 * **ユーザーストーリー**
-  * [視覚障害者にとっての代替テキストの価値を説明](/people-use-web/user-stories/#accountant)
+  * [視覚障害者にとっての代替テキストの価値を説明](/people-use-web/user-stories/archived/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -334,7 +339,7 @@ footer: >
   * [字幕 (あらかじめ録音されたもの) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([理解のため 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
   * [音声説明または代替メディア (あらかじめ録音されたもの) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([理解のため 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **ユーザーストーリー**
-  * [耳の不自由な生徒のために､キャプションがどのように役立つかを説明](/people-use-web/user-stories/#onlinestudent)
+  * [耳の不自由な生徒のために､キャプションがどのように役立つかを説明](/people-use-web/user-stories/archived/#onlinestudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -392,7 +397,7 @@ footer: >
 * **WCAG**
   * [ラベルと指示 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解のため 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **ユーザーストーリー**
-  * [学習困難な人を助ける簡単な指示について説明](/people-use-web/user-stories/#supermarketassistant)
+  * [学習困難な人を助ける簡単な指示について説明](/people-use-web/user-stories/archived/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -450,7 +455,7 @@ footer: >
   * [普段使わない言葉 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([理解のため 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
   * [略語 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([理解のため 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
 * **ユーザーストーリー**
-  * [読書障害のあるユーザーにとって､読みやすいテキストは有益である｡](/people-use-web/user-stories/#classroomstudent)
+  * [読書障害のあるユーザーにとって､読みやすいテキストは有益である｡](/people-use-web/user-stories/archived/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

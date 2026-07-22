@@ -1,12 +1,14 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
-
 title: "Premiers secours de l'accessibilité Web : stratégies de réparations provisoires"
 title_html: "Premiers secours de l'accessibilité Web&nbsp;:<br />stratégies de réparations provisoires"
 nav_title: des solutions provisoires
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2023-10-18   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2019-01-09   # Keep the date of the English version
+
+translation:
+  last_updated: 2023-10-18  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Sofia Ahmed"
@@ -27,7 +29,7 @@ feedbackmail: wai@w3.org
 # Translate the other words below, including "Date:", "Editor:" and "Previous contributors:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour le 9 janvier 2019. Première publication en mars 2006.<br>Historique : précédemment intitulé "Améliorations à court terme de l'accessibilité de votre site Web" et "Améliorer l'accessibilité de votre site Web".</p>
+  <p>Première publication en mars 2006.<br>Historique : précédemment intitulé "Améliorations à court terme de l'accessibilité de votre site Web" et "Améliorer l'accessibilité de votre site Web".</p>
   <p><strong>Rédacteur : </strong><a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>. Rédacteurs précédents : <a href="https://www.w3.org/People/kevin">Kevin White</a> et <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.  Contributeurs précédents : Sharron Rush, Anna Belle Leiserson, Judy Brewer, et les <a href="https://www.w3.org/groups/wg/eowg/participants/">participants au groupe de travail Éducation et Promotion (<abbr lang="en" title="Education and Outreach Working Group">EOWG</abbr>)</a>.</p>
   <p>Développé par le groupe de travail Éducation et Promotion (<a href="http://www.w3.org/WAI/EO/"><abbr>EOWG</abbr></a>). Initialement développé avec le soutien du projet <a href="https://www.w3.org/WAI/TIES/"><abbr lang="en" title="Web Accessibility Initiative: Training, Implementation, Education, Support">WAI-TIES</abbr></a>, mis à jour par la suite avec le soutien du projet <a href="https://www.w3.org/WAI/ACT/"><abbr lang="en" title="Web Accessibility Initiative - Cooperation Framework for Guidance on Advanced Technologies, Evaluation Methodologies, and Research Agenda Setting to Support eAccessibility">WAI-ACT</abbr></a>, puis du projet <a href="https://www.w3.org/WAI/DEV/"><abbr>WAI-DEV</abbr></a>.</p>
 ---

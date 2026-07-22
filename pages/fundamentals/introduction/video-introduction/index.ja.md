@@ -2,7 +2,11 @@
 title: "W3Cのアクセシビリティと標準技術の紹介動画"
 nav_title: "紹介動画" # A short title that is used in the navigation
 lang: ja
-last_updated: 2024-03-03   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-04   # Keep the date of the English version
+
+translation:
+  last_updated: 2024-03-03  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+   # Keep the date of the English version
 
 translators: 
 - name: "Naomi Yoshizawa"
@@ -20,11 +24,10 @@ ref: /videos/standards-and-benefits/   # Do not change this
 changelog: /videos/standards-and-benefits/changelog/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:", "Project Lead:" and "Contributors:"
 # Do not change the dates in the footer below.
 footer: >
-   <p><strong>更新日:</strong> 2021年5月4日初版2017年12月4日. CHANGELOG.</p>
+   <p><strong>更新日:</strong> 2021年5月4日初版2017年12月4日.</p>
    <p>プロジェクトリーダー：<a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>。寄稿者：<a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>、<a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>、<a href="https://www.w3.org/People/yatil/">Eric Eggert</a>。撮影・編集者：Ulrich Grimm、av-design GmbH。<a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>の支援を受けて開発されたビデオクリップは欧州委員会の共同資金援助を受けています。各翻訳は、フォード財団が資金提供する<a href="https://www.w3.org/WAI/expand-access/">WAIアクセス拡大プロジェクト</a>の支援を受けて管理されています。</p>
 
 # Read Translations Instructions at https://www.w3.org/WAI/about/translating/resources/resource-specific-instructions/

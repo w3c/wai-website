@@ -1,1 +1,51 @@
-../_external/data/standards.yml
+#
+# - standard: <standard_shortname>
+#  standard_version: <standard_version> (if outdated, append with year)
+#  title: <standard_title_in_english>
+#  status: outdated (optional: add this line for outdated versions only)
+#  url: <standard_url>
+#  date: <date_of_this_version>
+#
+- standard: wcag
+  standard_version: "2.0"
+  title: "Web Content Accessibility Guidelines (WCAG) 2.0"
+  url: https://www.w3.org/TR/WCAG20/
+  date: 2008-12-11
+- standard: wcag
+  standard_version: "2.1"
+  title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+  url: https://www.w3.org/TR/WCAG21/
+  date: 2024-12-12
+- standard: wcag
+  standard_version: "2.1_2023"
+  status: outdated
+  title: "Web Content Accessibility Guidelines (WCAG) 2.1"
+  url: https://www.w3.org/TR/2023/REC-WCAG21-20230921/
+  date: 2023-09-21
+- standard: wcag
+  standard_version: "2.1_2018"
+  status: outdated
+  title: "Web Content Accessibility Guidelines (WCAG) 2.1 (outdated version)"
+  url: https://www.w3.org/TR/2018/REC-WCAG21-20180605/
+  date: 2018-06-05
+- standard: wcag
+  standard_version: "2.2"
+  title: "Web Content Accessibility Guidelines (WCAG) 2.2"
+  url: https://www.w3.org/TR/WCAG22/
+  date: 2024-12-12
+- standard: wcag
+  standard_version: "2.2_2023"
+  status: outdated
+  title: "Web Content Accessibility Guidelines (WCAG) 2.2"
+  url: https://www.w3.org/TR/WCAG22/
+  date: 2023-09-21
+- standard: atag
+  standard_version: "2.0"
+  title: "Authoring Tool Accessibility Guidelines (ATAG) 2.0"
+  url: https://www.w3.org/TR/ATAG20/
+  date: 2015-09-24
+- standard: uaag
+  standard_version: "1.0"
+  title: "User Agent Accessibility Guidelines 1.0"
+  url: https://www.w3.org/TR/ATAG20/
+  date: 2002-12-17

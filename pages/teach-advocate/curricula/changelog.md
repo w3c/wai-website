@@ -2,10 +2,8 @@
 # Do not translate Changelog
 title: "Changelog"
 nav_title: "Changelog"
-
 lang: en
 last_updated: 2021-02-09
-
 permalink: /curricula/changelog/
 ref: /curricula/changelog/
 github:

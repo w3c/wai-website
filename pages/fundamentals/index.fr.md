@@ -5,7 +5,10 @@
 title: "Principes fondamentaux de l’accessibilité – Vue d’ensemble"
 nav_title: "Vue d'ensemble"
 lang: fr
-last_updated: 2023-11-28  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2023-08-30  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-11-28  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name : "Rémi Bétin"
@@ -20,20 +23,15 @@ github:
 permalink: /fundamentals/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /fundamentals/ # Do not change this
 
-changelog: /fundamentals/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 
 # In the footer below:
-# Do not change the dates or CHANGELOG
+# Do not change the dates
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 8 août 2023. CHANGELOG.</p>
   <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé par le Groupe de travail Éducation et Promotion (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
-inline_css: |
-  img.icon {--img-width:1em}
 ---
 
 Les ressources suivantes fournissent des informations pour **débuter en accessibilité** :

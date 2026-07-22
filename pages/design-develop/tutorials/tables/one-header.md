@@ -25,8 +25,6 @@ last_updated: 2019-07-27
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
@@ -45,7 +43,7 @@ support: Developed by the Education and Outreach Working Group (<a href="https:/
 
 {% include_cached toc.html %}
 
-If the table content is ambiguous or has both column and row headings, the `scope` attribute should be used to avoid confusion. For more guidance on such tables, see [tables with two headers](/tutorials/two-headers/).
+If the table content is ambiguous or has both column and row headings, the `scope` attribute should be used to avoid confusion. For more guidance on such tables, see [tables with two headers](/tutorials/tables/two-headers/).
 
 ## Table with header cells in the top row only
 {:.ex}

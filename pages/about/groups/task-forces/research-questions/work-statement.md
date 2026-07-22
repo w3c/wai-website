@@ -1,15 +1,17 @@
 ---
-title: Research Questions Task Force (RQTF) Work Statement
+title: Research Questions Task Force Work Statement
 permalink: /about/groups/task-forces/research-questions/work-statement/
 ref: /about/groups/task-forces/research-questions/work-statement/
 lang: en
+github:
+  label: wai-groups
 ---
 
 {::nomarkdown}
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-The Research Questions Task Force is a task force of the [Accessible Platform Architectures Working Group (APA Working Group)](/about/groups/apawg/). It assists this Working Group with the work identified below.
+The Research Questions (RQ) Task Force is a task force of the [Accessible Platform Architectures Working Group (APA Working Group)](/about/groups/apawg/). It assists this Working Group with the work identified below.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -72,7 +74,7 @@ Participants may also join Research Questions Task Force sub-groups. Sub-groups 
 
 If you are interested in becoming a participant of the Research Questions Task Force or have any questions regarding its work, contact the task force facilitators.
 
-[Current Research Questions Task Force participants](https://www.w3.org/2000/09/dbwg/details?group=91497&public=1)
+[Current Research Questions Task Force participants](https://www.w3.org/groups/tf/rqtf/participants/)
 
 ## Facilitation
 
@@ -83,4 +85,4 @@ Staff contacts from the APA Working Group oversee attention to W3C Process with 
 
 ## Patent Policy
 
-This Task Force is part of the [APA Working Group Charter](https://www.w3.org/WAI/APA/charter), which operates under the [W3C Patent Policy](https://www.w3.org/Consortium/Patent-Policy-20040205/) (5 February 2004 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [APA Working Group](https://www.w3.org/2004/01/pp-impl/83907/status).
+This Task Force is part of the [APA Working Group Charter](https://www.w3.org/WAI/APA/charter), which operates under the [W3C Patent Policy](https://www.w3.org/policies/patent-policy/20200915/) (15 September 2020 Version). W3C maintains a public list of any patent disclosures made in connection with the deliverables of the [APA Working Group](https://www.w3.org/2004/01/pp-impl/83907/status).

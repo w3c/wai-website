@@ -5,7 +5,7 @@
 title: "An alt Decision Tree"
 title_html: "An <code>alt</code> Decision Tree"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-05-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-05-13  # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -28,14 +28,14 @@ navigation:
 permalink: /tutorials/images/decision-tree/ # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /tutorials/images/decision-tree/ # Do not change this
 
+changelog: /tutorials/changelog/
+
 # In the footer below:
 # Translate the Working Group name. Leave the Working Group acronym in English.
 metafooter: true
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.

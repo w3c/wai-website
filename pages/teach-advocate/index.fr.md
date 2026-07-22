@@ -2,7 +2,10 @@
 title: "Former et promouvoir – Vue d’ensemble"
 nav_title: "Vue d'ensemble"
 lang: fr
-last_updated: 2023-11-30
+last_updated: 2022-08-31  # Keep the date of the English version
+
+translation:
+  last_updated: 2023-11-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Sofia Ahmed"
@@ -16,16 +19,13 @@ github:
 permalink: /teach-advocate/fr
 ref: /teach-advocate/    # Do not change this
 
-changelog: /teach-advocate/changelog/
 feedbackmail: wai@w3.org
 class: tight-page
 
 # In the footer below:
-# Do not change the dates or CHANGELOG
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour : 31 août 2022. CHANGELOG.</p>
   <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé avec les contributions du <em>groupe de travail Éducation et Promotion</em> (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 ---

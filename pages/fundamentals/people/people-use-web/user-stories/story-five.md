@@ -5,7 +5,7 @@
 title: "Sophie, basketball fan with Down syndrome"
 nav_title: "Sophie"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-06-25  # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -31,18 +31,18 @@ parent_in_h1:
     name: nav_title
 
 image: /content-images/people-use-web/social.png
-changelog: /people-use-web/changelog/
-acknowledgements: /people-use-web/acknowledgements/
+changelog: /people-use-web/changelog/ # Do not change this
+acknowledgements: /people-use-web/acknowledgements/ # Do not change this
 # In the footer below:
 # Do not change the dates
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Do not translate or change ACKNOWLEDGEMENTS.
 # Translate the other words below, including "Date:" and "Editor:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is available in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
-  <p><strong>Date:</strong> Updated 25 June 2024.  First posted as a draft in 1999.<!-- CHANGELOG.--></p>
+  <p>First posted as a draft in 1999.</p>
   <p><strong>Editors:</strong> Kevin White and Shadi Abou-Zahra. Previous editors: Judy Brewer and Norah Sinclair. Contributors: Brent Bakken, Jade Matos Carew, Jayne Schurick, Michele Williams, and others in ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide Project</a> and <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a> co-funded by the European Commission (EC).</p>
 ---
 
 {::nomarkdown}
@@ -201,24 +201,24 @@ Animation
 ## Related WAI resources
 
 * Use case: [George: A User who Works in a Supermarket and has Down Syndrome](https://www.w3.org/TR/coga-usable/#george-a-user-who-works-in-a-supermarket-and-has-down-syndrome)
-* Video: [Understandable Content](https://www.w3.org/WAI/perspective-videos/understandable/)
-* Tip: [Keep content clear and concise](https://www.w3.org/WAI/tips/writing/#keep-content-clear-and-concise)
-* Tip: [Ensure that interactive elements are easy to identify](https://www.w3.org/WAI/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
-* Tip: [Provide clear and consistent navigation options](https://www.w3.org/WAI/tips/designing/#provide-clear-and-consistent-navigation-options)
-* Tip: [Provide meaning for non-standard interactive elements](https://www.w3.org/WAI/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
-* Tip: [Use heading and spacing to group related content](https://www.w3.org/WAI/tips/designing/#use-headings-and-spacing-to-group-related-content)
-* Check: [Forms, labels, and errors](https://www.w3.org/WAI/test-evaluate/preliminary/#forms)
-* Check: [Moving, Flashing, or Blinking Content](https://www.w3.org/WAI/test-evaluate/preliminary/#moving)
+* Video: [Understandable Content](/perspective-videos/understandable/)
+* Tip: [Keep content clear and concise](/tips/writing/#keep-content-clear-and-concise)
+* Tip: [Ensure that interactive elements are easy to identify](/tips/designing/#ensure-that-interactive-elements-are-easy-to-identify)
+* Tip: [Provide clear and consistent navigation options](/tips/designing/#provide-clear-and-consistent-navigation-options)
+* Tip: [Provide meaning for non-standard interactive elements](/tips/developing/#provide-meaning-for-non-standard-interactive-elements)
+* Tip: [Use heading and spacing to group related content](/tips/designing/#use-headings-and-spacing-to-group-related-content)
+* Check: [Forms, labels, and errors](/test-evaluate/preliminary/#forms)
+* Check: [Moving, Flashing, or Blinking Content](/test-evaluate/preliminary/#moving)
 
 ## Related principles
 
-* [Content can be presented in different ways (Perceivable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#adaptable)
-* [Users have enough time to read and use the content (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#time)
-* [Users can easily navigate, find content, and determine where they are (Operable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#navigable)
-* [Content is readable and understandable (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#readable)
-* [Content appears and operates in predictable ways (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#predictable)
-* [Users are helped to avoid and correct mistakes (Understandable)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#tolerant)
-* [Content is compatible with current and future user tools (Robust)](https://www.w3.org/WAI/fundamentals/accessibility-principles/#compatible)
+* [Content can be presented in different ways (Perceivable)](/fundamentals/accessibility-principles/#adaptable)
+* [Users have enough time to read and use the content (Operable)](/fundamentals/accessibility-principles/#time)
+* [Users can easily navigate, find content, and determine where they are (Operable)](/fundamentals/accessibility-principles/#navigable)
+* [Content is readable and understandable (Understandable)](/fundamentals/accessibility-principles/#readable)
+* [Content appears and operates in predictable ways (Understandable)](/fundamentals/accessibility-principles/#predictable)
+* [Users are helped to avoid and correct mistakes (Understandable)](/fundamentals/accessibility-principles/#tolerant)
+* [Content is compatible with current and future user tools (Robust)](/fundamentals/accessibility-principles/#compatible)
 
 {% include excol.html type="start" id="video-transcript" %}
 
@@ -230,7 +230,8 @@ Animation
   video-id="user-stories_5"
   yt-id="gmrnVAQuSI8"
 %}
-<p><em>This video is also available on a W3C server: <a href="https://media.w3.org/wai/people-use-web/user-stories_5.mp4">Video: Sophie, basketball fan with Down syndrome (file format: MP4, file size: 282MB)</a>.</em></p>
+
+_This video is also available on a W3C server: [Video: Sophie, basketball fan with Down syndrome (file format: MP4, file size: 282MB)](https://media.w3.org/wai/people-use-web/user-stories_5.mp4)._
 
 ###  Text Transcript with Description of Visuals {#transcript}
 

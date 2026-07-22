@@ -4,7 +4,7 @@
 
 title: "Involving Users in Evaluating Web Accessibility"
 lang: en
-last_updated: 2024-04-30
+last_updated: 2024-04-30    # Keep the date of the English version
 description: Introduces considerations for usability testing and other evaluation with disabled people (“users with disabilities”).
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

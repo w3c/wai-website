@@ -5,6 +5,8 @@ nav_title: First Open Meeting
 lang: en
 permalink: /about/projects/wai-tools/first-open-meeting/
 ref: /about/projects/wai-tools/first-open-meeting/
+github:
+  label: wai-projects
 ---
 
 ![An EU Project]({{ "/content-images/about/eu.svg" | relative_url }}){:.right style="width: 105px;"}

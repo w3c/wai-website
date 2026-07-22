@@ -2,7 +2,10 @@
 title: "Ein alt-Entscheidungsbaum"
 title_html: "Ein <code>alt</code>-Entscheidungsbaum"
 lang: de
-last_updated: 2024-04-08
+last_updated: 2024-01-15  # Keep the date of the English version
+
+translation:
+  last_updated: 2024-04-08  # Put the date of the translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Alexej Rotar"
@@ -23,12 +26,12 @@ navigation:
 permalink: /tutorials/images/decision-tree/de
 ref: /tutorials/images/decision-tree/
 
+changelog: /tutorials/changelog/
+
 metafooter: true
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - siehe <a href="/WAI/tutorials/acknowledgements/">Danksagung</a>
 support: Entwickelt von der Arbeitsgruppe für Bildung und Öffentlichkeitsarbeit (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Entwickelt mit der Unterstützung vom <a href="https://www.w3.org/WAI/ACT/">WAI-ACT-Projekt</a>, kofinanziert vom <strong><abbr title="Information Society Technologies">IST</abbr>-Programm der Europäischen Kommission</strong>.
