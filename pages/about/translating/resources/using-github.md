@@ -52,6 +52,21 @@ This page guide you through the steps to translate WAI resources using GitHub.
 {% include toc.html type="end" %}
 {:/}
 
+{::nomarkdown}
+{% include box.html type="start" class="highlighted" %}
+{:/}
+**W3C staff temporarily has limited availability to support WAI translations.**
+
+We expect to resume full support in early November 2026. Thank you very much for your patience, if we are not able to reply to you until then. We greatly appreciate contributions and look forward to supporting you as soon as possible.
+
+To receive updates, subscribe to the WAI Translations mailing list by sending an e-mail to <public-wai-translations-request@w3.org> with subject: “subscribe”.
+
+For time-sensitive requests, contact <wai@w3.org>.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 {% include showhidebutton.html showtext="Show all screenshots" hidetext="Hide all screenshots" target=".screenshot" %}
 
 ## Initial step: Declare your intent

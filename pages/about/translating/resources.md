@@ -50,13 +50,13 @@ To get announcements related to WAI translations, subscribe to the WAI Translati
 {::nomarkdown}
 {% include box.html type="start" class="highlighted" %}
 {:/}
-**Translation development is temporarily on hold.** 
+**W3C staff temporarily has limited availability to support WAI translations.** 
+
+We expect to resume full support in early November 2026. Thank you very much for your patience, if we are not able to reply to you until then. We greatly appreciate contributions and look forward to supporting you as soon as possible.
+
+To receive updates, subscribe to the WAI Translations mailing list by sending an e-mail to <public-wai-translations-request@w3.org> with subject: “subscribe”.
 
 For time-sensitive requests, contact <wai@w3.org>.
-
-To be notified when support resumes, subcribe to the WAI Translations mailing list by sending e-mail to <public-wai-translations-request@w3.org> with subject: “subscribe”.
-
-Thank you for your patience. We truly value your contributions and look forward to supporting you again soon.
 
 {::nomarkdown}
 {% include box.html type="end" %}
