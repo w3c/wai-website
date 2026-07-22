@@ -108,7 +108,7 @@ Foreground text needs to have sufficient contrast with background colors. This i
 * **Easy Check**
   * [How to check contrast ratio](/test-evaluate/preliminary/#contrast)
 * **Support Tools**
-  * [List of tools to help determine contrast ratio](/WCAG21/Understanding/contrast-minimum#resources)
+  * [List of tools to help determine contrast ratio](/WCAG22/Understanding/contrast-minimum#resources)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
