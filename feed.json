@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2026-07-23/wcag-em-2/",
+            "title": "WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published",
+            "summary": null,
+            "content_text": "WCAG Evaluation Methodology (WCAG-EM) 2.0  is published as a W3C Group Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2. WCAG-EM 1 was specifically for testing websites and web pages. WCAG-EM 2 also applies to apps and other digital products. For an introduction to WCAG-EM, see WCAG-EM Overview.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/wcag-em-2/\">WCAG Evaluation Methodology (WCAG-EM) 2.0 </a> is published as a W3C Group Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2. WCAG-EM 1 was specifically for testing websites and web pages. WCAG-EM 2 also applies to apps and other digital products. For an introduction to WCAG-EM, see <a href=\"/WAI/test-evaluate/conformance/wcag-em/\">WCAG-EM Overview</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2026-07-23/wcag-em-2/",
+            
+            
+            
+            
+            
+            "date_published": "2026-07-23T00:00:00+00:00",
+            "date_modified": "2026-07-23T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2026-03-03/wcag3/",
             "title": "For Review: WCAG 3 Working Draft – March 2026",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-09-21T00:00:00+00:00",
             "date_modified": "2023-09-21T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-09-08/job-opening/",
-            "title": "Job Opening: Accessibility Specialist",
-            "summary": null,
-            "content_text": "W3C is seeking an Accessibility Specialist to work on digital accessibility standards and supporting materials. This is a unique opportunity to contribute to the vision of an accessible digital future. Please see details in Accessibility Specialist job posting.",
-            "content_html": "<p>W3C is seeking an Accessibility Specialist to work on digital accessibility standards and supporting materials. This is a unique opportunity to contribute to the vision of an accessible digital future. Please see details in <a href=\"https://w3.org/careers/2023-accessibility-specialist/\">Accessibility Specialist job posting</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-09-08/job-opening/",
-            
-            
-            
-            
-            
-            "date_published": "2023-09-08T00:00:00+00:00",
-            "date_modified": "2023-09-08T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
