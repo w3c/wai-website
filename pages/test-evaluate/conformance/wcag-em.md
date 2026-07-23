@@ -204,7 +204,7 @@ The [**WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator**]
 WCAG-EM 2 vs WCAG-EM {#versiondiff}
 -----------------------
 
-W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2 was published on @@@ and supersedes WCAG-EM 1. 
+W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2 was published on 23 July 2026. 
 
 What's different:
 
