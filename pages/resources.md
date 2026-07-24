@@ -1,7 +1,7 @@
 ---
 title: WAI Resources
 lang: en
-last_updated: 2025-03-06
+last_updated: 2026-07-24
 
 github:
   label: wai-resources-list
