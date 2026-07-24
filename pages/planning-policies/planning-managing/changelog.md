@@ -4,7 +4,7 @@ title: "Changelog for Planning and Managing Web Accessibility"
 title_html: "Changelog for <a href='/WAI/planning-and-managing/'>Planning and Managing Web Accessibility</a>"
 nav_title: "Changelog"
 lang: en
-last_updated: 2025-03-06
+last_updated: 2026-07-24
 
 github:
   label: wai-planning-managing
