@@ -15,6 +15,10 @@ ref: /planning-and-managing/changelog/
 feedbackmail: wai@w3.org
 ---
 
+## 24 July 2026
+
+We've updated the [Plan](/planning-and-managing/plan/) and [Implement](/planning-and-managing/implement/) pages to reflect that [WCAG-EM](/test-evaluate/conformance/wcag-em/) now applies to digital products, beyond just websites.
+
 ## 6 March 2025
 
 In [Plan](/planning-and-managing/plan/):

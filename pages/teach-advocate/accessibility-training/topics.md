@@ -5,7 +5,7 @@
 title: "Topics for Web Accessibility Presentations and Training"
 nav_title: Topics
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2018-05-24 # Keep the date of the English version
+last_updated: 2026-07-24 # Keep the date of the English version
 order: 1
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -21,6 +21,8 @@ github:
 
 permalink: /teach-advocate/accessibility-training/topics/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /teach-advocate/accessibility-training/topics/  # Do not change this
+
+custom_changelog: /teach-advocate/accessibility-training/changelog/
 
 # In the footer below:
 # Do not change the dates

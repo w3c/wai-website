@@ -6,7 +6,7 @@ title: "Web Accessibility First Aid: Approaches for Interim Repairs"
 title_html: "Web Accessibility First Aid:<br> Approaches for Interim Repairs"
 nav_title: Approaches for Interim Repairs
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2019-01-09   # Keep the date of the English version
+last_updated: 2026-07-24   # Keep the date of the English version
 first_published: "March 2006"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

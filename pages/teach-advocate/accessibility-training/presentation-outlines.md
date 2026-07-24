@@ -22,6 +22,8 @@ github:
 permalink: /teach-advocate/accessibility-training/presentation-outlines/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /teach-advocate/accessibility-training/presentation-outlines/  # Do not change this
 
+custom_changelog: /teach-advocate/accessibility-training/changelog/
+
 # In the footer below:
 # Do not change the dates
 # Translate the other words below, including "Date:", "Editors:", "Previous editor" and "Contributors"

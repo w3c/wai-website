@@ -4,7 +4,7 @@
 title: Developing Organizational Policies on Web Accessibility
 nav_title: "Developing an Organizational Policy"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2016-06-05  # Keep the date of the English version
+last_updated: 2026-07-24  # Keep the date of the English version
 first_published: "October 2002"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
