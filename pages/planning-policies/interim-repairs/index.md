@@ -91,7 +91,7 @@ If you already know your accessibility issues, you can skip this section. If you
 
 When you want to do a comprehensive evaluation:
 
-- [Website Accessibility Conformance Evaluation Methodology (WCAG-EM)](/test-evaluate/conformance/wcag-em/) — Provides a structured approach to help evaluate websites for accessibility.
+- [WCAG Evaluation Methodology (WCAG-EM)](/test-evaluate/conformance/wcag-em/) — Provides a structured approach to help evaluate digital products for accessibility.
 - [WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/) — Free online tool to help create evaluation reports following the WCAG-EM procedure.
 
 Consider the Scope {#scope}

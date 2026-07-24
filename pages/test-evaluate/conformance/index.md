@@ -30,7 +30,7 @@ footer: >
    <p>Video developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245).</p>
 ---
 
-Conformance evaluation determines how well web pages or applications meet accessibility standards. <acronym title="World Wide Web Consortium">W3C</acronym>'s Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG).
+Conformance evaluation determines how well web pages or applications meet accessibility standards. <acronym title="World Wide Web Consortium">W3C</acronym>'s WCAG Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG).
 
 <div class="video-card" id="video-intro">
   {% include video-player-data.html
@@ -40,7 +40,7 @@ Conformance evaluation determines how well web pages or applications meet access
   <p><a href="#alternatives">Alternatives for Conformance Evaluation Overview Video</a></p>
 </div>
 
-[[WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
+[[WCAG-EM Overview: WWCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
 :   A short page with basic information to get you started. We suggest you read it before going to the [full WCAG-EM document](https://www.w3.org/TR/WCAG-EM/).
 
 [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/)

@@ -207,7 +207,7 @@ Feedback from users who might find accessibility barriers can help you identify 
 {% include box.html type="start" title="Example simple review policy" class="example" %}
 {:/}
 
-ACME Inc. will review all area of the website every year. We will use the process described at [Website Accessibility Conformance Evaluation Methodology](/TR/WCAG-EM/). Reviews are the responsibility of the ICT department. Accessibility checks will be incorporated into the publishing workflow for all new content.
+ACME Inc. will review all area of the website every year. We will use the process described at [WCAG Evaluation Methodology](/TR/WCAG-EM/). Reviews are the responsibility of the ICT department. Accessibility checks will be incorporated into the publishing workflow for all new content.
 
 {::nomarkdown}
 {% include box.html type="end" %}
