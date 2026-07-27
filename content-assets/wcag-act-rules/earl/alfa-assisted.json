@@ -70,7 +70,7 @@
       "name": "Alfa",
       "release": {
         "@type": "Version",
-        "revision": "0.117.0"
+        "revision": "0.118.0"
       },
       "doap:url": "https://alfa.siteimprove.com"
     },

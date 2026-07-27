@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1784821363300549072";
+      element.src = "/WAI/assets/scripts/main.js?1785157102632026398";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1784821363300549072"><title> Visible label is part of accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1784821363300549072"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1785157102632026398"><title> Visible label is part of accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1785157102632026398"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Visible label is part of accessible name" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -331,24 +331,34 @@ h2#sidebar-header {
 <p>This rule applies to any element for which all the following is true:</p>
 
 <ul>
-  <li>The element has a <a href="#semantic-role" title="Definition of Semantic role">semantic role</a> that is a <a href="https://www.w3.org/TR/wai-aria-1.2/#widget_roles" title="Definition of Widget role">widget</a> that <a href="https://www.w3.org/TR/wai-aria-1.2/#namefromcontent" title="Definition of Supports name from contents">supports name from content</a>; and</li>
+  <li>The element has a <a href="#semantic-role" title="Definition of Semantic role">semantic role</a> that is a <a href="https://www.w3.org/TR/wai-aria-1.2/#widget_roles" title="Definition of Widget role">widget</a> that <a href="https://www.w3.org/TR/wai-aria-1.2/#namefromcontent" title="Definition of Supports name from content">supports name from content</a>; and</li>
   <li>The element has <a href="#visible-text-content" title="Definition of Visible text content">visible text content</a>; and</li>
-  <li>The element has an <code class="language-plaintext highlighter-rouge">aria-label</code> or <code class="language-plaintext highlighter-rouge">aria-labelledby</code> attribute.</li>
+  <li>The element has an <code class="language-plaintext highlighter-rouge">aria-label</code> or <code class="language-plaintext highlighter-rouge">aria-labelledby</code> attribute; and</li>
+  <li>Neither the element’s accessible name nor its visible label contains any abbreviations; and</li>
+  <li>Every word that appears in both the element’s accessible name and its visible label uses the same spelling and hyphenation in both places.</li>
 </ul>
 
 <h2 id="expectation">Expectation</h2>
 
-<p>For each target element, all <a href="https://dom.spec.whatwg.org/#text" title="DOM text, 2020/08/18">text nodes</a> in the <a href="#visible-text-content" title="Definition of Visible text content">visible text content</a> <a href="#matching-characters" title="Definition of matching characters">match characters</a> and are contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> of this target element, except for characters in the <a href="https://dom.spec.whatwg.org/#text" title="DOM text, 2020/08/18">text nodes</a> used to express <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG Definition of Non-text content">non-text content</a>. Leading and trailing <a href="#whitespace" title="Definition of Whitespace">whitespace</a> and difference in case sensitivity should be ignored.</p>
+<p>For each target element, the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> is contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> according to the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>.</p>
 
 <h2 id="background">Background</h2>
 
-<p>This rule applies to elements with a <a href="https://www.w3.org/TR/wai-aria-1.2/#widget_roles" title="Definition of Widget role">widget role</a> that <a href="https://www.w3.org/TR/wai-aria-1.2/#namefromcontent" title="Definition of Supports name from contents">support name from content</a>. This includes the following: <code class="language-plaintext highlighter-rouge">button</code>, <code class="language-plaintext highlighter-rouge">checkbox</code>, <code class="language-plaintext highlighter-rouge">gridcell</code>, <code class="language-plaintext highlighter-rouge">link</code>, <code class="language-plaintext highlighter-rouge">menuitem</code>, <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code>, <code class="language-plaintext highlighter-rouge">menuitemradio</code>, <code class="language-plaintext highlighter-rouge">option</code>, <code class="language-plaintext highlighter-rouge">radio</code>, <code class="language-plaintext highlighter-rouge">searchbox</code>, <code class="language-plaintext highlighter-rouge">switch</code>, <code class="language-plaintext highlighter-rouge">tab</code>, <code class="language-plaintext highlighter-rouge">treeitem</code>.</p>
+<p>This rule applies to elements with a <a href="https://www.w3.org/TR/wai-aria-1.2/#widget_roles" title="Definition of Widget role">widget role</a> that <a href="https://www.w3.org/TR/wai-aria-1.2/#namefromcontent" title="Definition of Supports name from content">support name from content</a>. This includes the following: <code class="language-plaintext highlighter-rouge">button</code>, <code class="language-plaintext highlighter-rouge">checkbox</code>, <code class="language-plaintext highlighter-rouge">gridcell</code>, <code class="language-plaintext highlighter-rouge">link</code>, <code class="language-plaintext highlighter-rouge">menuitem</code>, <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code>, <code class="language-plaintext highlighter-rouge">menuitemradio</code>, <code class="language-plaintext highlighter-rouge">option</code>, <code class="language-plaintext highlighter-rouge">radio</code>, <code class="language-plaintext highlighter-rouge">searchbox</code>, <code class="language-plaintext highlighter-rouge">switch</code>, <code class="language-plaintext highlighter-rouge">tab</code>, <code class="language-plaintext highlighter-rouge">treeitem</code>.</p>
 
 <p>The understanding document of <a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html">2.5.3 Label in Name</a> use the term “symbolic text characters” to refer to a type of <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG Definition of Non-text content">non-text content</a> that uses text characters as symbols, such as using “x” to mean “close”. This rule considers them as “characters expressing non-text content”. Unicode emojis are another example of characters expressing non-text content, although these are not “symbolic text characters”.</p>
 
+<p>If the target element contains an <a href="https://www.w3.org/TR/WCAG22/#dfn-images-of-text">image of text</a>, it may pass this rule but fail <a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html">2.5.3 Label in Name</a> (because the accessible name should then match the text inside the image, which is not taken into account by this rule). So further testing is needed. This case might be handled by a different rule in the future.</p>
+
 <h3 id="assumptions">Assumptions</h3>
 
-<p>This rule assumes that all resources needed for rendering the page are properly loaded. Checking if resources are missing is out of the scope of rules. Missing resources may be rendered as text (for example, missing <code class="language-plaintext highlighter-rouge">img</code> are rendered as their <code class="language-plaintext highlighter-rouge">alt</code> attribute).</p>
+<p>This rule assumes that the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> is equal to the <a href="https://www.w3.org/wai/wcag22/understanding/label-in-name#dfn-label">label as defined by WCAG</a>, even though “label” is not precisely defined at this point in history.</p>
+
+<p>This rule assumes that the visible label isn’t rearranged with CSS so that it appears to the user in a different order than it appears in the DOM.</p>
+
+<p>This rule assumes that the visible label doesn’t use CSS to add whitespace where none exists in the DOM.</p>
+
+<p>This rule — specifically, the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> that this rule relies on — assumes that content within parentheses can be ignored (“Parentheses” are also known as “round brackets”). This is important because the algorithm’s treatment of parentheses is to remove them and all characters within them. This assumption is almost always true in English.  Exceptions include links with names such “Dune (1984 film)” and “Dune (2021 film)”. This assumption is known to be often false in languages other than English, such as German (where parentheses indicate dual states) and Arabic (where parentheses are often used as quotation marks). Violations of this assumption will, in real-world scenarios, more often result in a false negative for this rule rather than a false positive.</p>
 
 <h3 id="accessibility-support">Accessibility Support</h3>
 
@@ -408,7 +418,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Passed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/326f6768ecbf60ca31149e65ab2853c138095fd7.html">Open in a new tab</a></p>
 
-<p>This link has <a href="#visible" title="Definition of visible">visible</a> text that matches the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This link has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that is equal to the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span> <span class="na">aria-label=</span><span class="s">"ACT rules"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
@@ -417,25 +427,25 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Passed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/02f6608c4242efccba3ceeb8b73cc6b1255e362d.html">Open in a new tab</a></p>
 
-<p>This link has <a href="#visible" title="Definition of visible">visible</a> text that, ignoring trailing whitespace, matches the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This link has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that, ignoring whitespace, is equal to the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span> <span class="na">aria-label=</span><span class="s">"  ACT rules  "</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span> <span class="na">aria-label=</span><span class="s">"  ACT   rules  "</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
 <h4 id="passed-example-3">Passed Example 3</h4>
 
-<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/71c4a612a2e00a8abd3d33b4a66ca8e5079fff1b.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/d2e93952838fd20d2dc7ef7a430b8fe960bf3391.html">Open in a new tab</a></p>
 
-<p>This link has <a href="#visible" title="Definition of visible">visible</a> text that, ignoring case, matches the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This link has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that, ignoring case, is equal to the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span> <span class="na">aria-label=</span><span class="s">"act rules"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span> <span class="na">aria-label=</span><span class="s">"act Rules"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
 <h4 id="passed-example-4">Passed Example 4</h4>
 
 <p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/f88ac89cc14d59302666047a0da91bbc51d27bb2.html">Open in a new tab</a></p>
 
-<p>This button has <a href="#visible" title="Definition of visible">visible</a> text that is contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This button has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that is contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> according to the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"Next Page in the list"</span><span class="nt">&gt;</span>Next Page<span class="nt">&lt;/button&gt;</span>
 </code></pre></div></div>
@@ -444,7 +454,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Passed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/79af5d3e531aecd27961f0b9ed260d95f39440c0.html">Open in a new tab</a></p>
 
-<p>This button has <a href="#visible" title="Definition of visible">visible</a> text that does not need to be contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>, because the “x” text node is <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG Definition of Non-text content">non-text content</a>. Note: this would need to meet SC 1.1.1 Non text content.</p>
+<p>This button has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that does not need to be contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>, because the “X” text node is <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG Definition of Non-text content">non-text content</a>; the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> therefore ignores it. Note: this would need to meet SC 1.1.1 Non text content.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"anything"</span><span class="nt">&gt;</span>X<span class="nt">&lt;/button&gt;</span>
 </code></pre></div></div>
@@ -453,7 +463,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Passed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/efa9543339cdad5412c7719b266a633a29ce149e.html">Open in a new tab</a></p>
 
-<p>This <code class="language-plaintext highlighter-rouge">button</code> element has the text “search” rendered as an magnifying glass icon by the font. Because the text is rendered as <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG Definition of Non-text content">non-text content</a>, the text does not need to be contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">button</code> element has the text “search” rendered as a magnifying glass icon by the font. Because the text is rendered as <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG Definition of Non-text content">non-text content</a>, the text does not need to be contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>; and the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> ignores it.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"https://fonts.googleapis.com/icon?family=Material+Icons"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;style&gt;</span>
@@ -464,13 +474,128 @@ h2#sidebar-header {
 <span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"Find"</span><span class="nt">&gt;</span>search<span class="nt">&lt;/button&gt;</span>
 </code></pre></div></div>
 
+<h4 id="passed-example-7">Passed Example 7</h4>
+
+<p><a class="example-link" title="Passed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/aa38d4aa8f070ed0d96a67dda33c040f965c24be.html">Open in a new tab</a></p>
+
+<p>This button has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that, according to the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>, is contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. This example shows why the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> uses the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> and not the <a href="#visible-text-content" title="Definition of Visible text content">visible text content</a>: the <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> tags insert whitespace into the result in the former but not the latter.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"Hello world"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;p&gt;</span>Hello<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;p&gt;</span>world<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-8">Passed Example 8</h4>
+
+<p><a class="example-link" title="Passed Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/537a6e1314457e7f38f7a63e961da308d976df78.html">Open in a new tab</a></p>
+
+<p>Similar to the previous example, this link has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that, according to the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>, is contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. This example shows why the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> uses the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> and not the <a href="#visible-text-content" title="Definition of Visible text content">visible text content</a>: the <code class="language-plaintext highlighter-rouge">&lt;h6&gt;</code> tags insert whitespace into the result in the former but not the latter.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">aria-label=</span><span class="s">"Some article by John Doe"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;h6&gt;</span>Some article<span class="nt">&lt;/h6&gt;</span>
+	<span class="nt">&lt;p&gt;</span>by John Doe<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-9">Passed Example 9</h4>
+
+<p><a class="example-link" title="Passed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/5fccc3aa980834bf0889dbd79fba656eeb208fe4.html">Open in a new tab</a></p>
+
+<p>The <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> of this link is “ACT” (with no spaces) because of the explicit styles of <code class="language-plaintext highlighter-rouge">display: inline</code> on the <code class="language-plaintext highlighter-rouge">div</code> elements and the absence of whitespace between them. The cases of <code class="language-plaintext highlighter-rouge">display: inline</code> and <code class="language-plaintext highlighter-rouge">display: block</code> are handled by the definition of <a href="#visible-inner-text:for-element" title="Definition of Visible inner text of an element">visible inner text of an element</a>. This example shows that the definition agrees with the visual rendering done by the browser.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">aria-label=</span><span class="s">"ACT"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"display: inline"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/div&gt;&lt;div</span> <span class="na">style=</span><span class="s">"display: inline"</span><span class="nt">&gt;</span>C<span class="nt">&lt;/div&gt;&lt;div</span> <span class="na">style=</span><span class="s">"display: inline"</span><span class="nt">&gt;</span>T<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-10">Passed Example 10</h4>
+
+<p><a class="example-link" title="Passed Example 10" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/6b4b31eda2d3dc72d5b5d7dc18f594336ce3de7d.html">Open in a new tab</a></p>
+
+<p>The <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> is “Download specification”. The words “the” and “gizmo” aren’t part of it.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"Download specification"</span> <span class="na">href=</span><span class="s">"#"</span>
+	<span class="nt">&gt;</span>Download <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"visibility: hidden"</span><span class="nt">&gt;</span>the<span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;span</span> <span class="na">style=</span><span class="s">"display: none"</span><span class="nt">&gt;</span>gizmo<span class="nt">&lt;/span&gt;</span> specification<span class="nt">&lt;/a</span>
+<span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-11">Passed Example 11</h4>
+
+<p><a class="example-link" title="Passed Example 11" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/fab659b02c1edb4f2c8f0bda524b1076abab7df6.html">Open in a new tab</a></p>
+
+<p>The <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> is “Download specification”, which includes a space character between the two words due to the <a href="#visible-inner-text:for-text-whitespace" title="definition of Visible inner text of a text node for text which is visible whitespace">definition of Visible inner text of a text node for text which is visible whitespace</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"Download specification"</span> <span class="na">href=</span><span class="s">"#"</span>
+	<span class="nt">&gt;&lt;span&gt;</span>Download<span class="nt">&lt;/span&gt;&lt;span</span> <span class="na">id=</span><span class="s">"space"</span><span class="nt">&gt;</span> <span class="nt">&lt;/span&gt;&lt;span&gt;</span>specification<span class="nt">&lt;/span&gt;&lt;/a</span>
+<span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-12">Passed Example 12</h4>
+
+<p><a class="example-link" title="Passed Example 12" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/2c5fa101415fbeeb8802044427d3f8762a63f1b1.html">Open in a new tab</a></p>
+
+<p>This example shows that the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> isn’t always the same as the <a href="https://html.spec.whatwg.org/multipage/dom.html#the-innertext-idl-attribute"><code class="language-plaintext highlighter-rouge">innerText</code> IDL attribute</a>. The visible inner text is “Download specification”. The <code class="language-plaintext highlighter-rouge">innerText</code> is <code class="language-plaintext highlighter-rouge">Download \ngizmo\nspecification</code>. This rule uses the visible inner text — not innerText.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;style&gt;</span>
+	<span class="nc">.visually-hidden</span> <span class="p">{</span>
+		<span class="nl">clip-path</span><span class="p">:</span> <span class="nb">inset</span><span class="p">(</span><span class="m">50%</span><span class="p">);</span>
+		<span class="nl">height</span><span class="p">:</span> <span class="m">1px</span><span class="p">;</span>
+		<span class="nl">overflow</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+		<span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+		<span class="nl">white-space</span><span class="p">:</span> <span class="nb">nowrap</span><span class="p">;</span>
+		<span class="nl">width</span><span class="p">:</span> <span class="m">1px</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"Download specification"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Download <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>gizmo<span class="nt">&lt;/span&gt;</span> specification<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-13">Passed Example 13</h4>
+
+<p><a class="example-link" title="Passed Example 13" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/567f59f87c0a01a4446019cc77b1fd40b1fd649e.html">Open in a new tab</a></p>
+
+<p>This example shows that the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> handles many kinds of whitespace.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"compose email"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+	compose <span class="ni">&amp;nbsp;&amp;nbsp;</span><span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+	email
+<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-14">Passed Example 14</h4>
+
+<p><a class="example-link" title="Passed Example 14" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/94a7ce7aea9dbfaa375c459c26d3a5923de84e7a.html">Open in a new tab</a></p>
+
+<p>This example passes the rule because “YYYY-MM-DD” is in round brackets. Text in round brackets is removed by the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>, because it is not normally spoken by speech-input users.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"Search by date"</span><span class="nt">&gt;</span>Search by date (YYYY-MM-DD)<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-15">Passed Example 15</h4>
+
+<p><a class="example-link" title="Passed Example 15" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/c9b81bf076633f3d7c2c52b75e11ca89f921bf29.html">Open in a new tab</a></p>
+
+<p>This passes for two reasons: 1) because the ellipsis (“…”) is <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG Definition of Non-text content">non-text content</a>, and 2) because the ellipsis is neither a letter nor a digit and so is filtered out by the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"Next"</span><span class="nt">&gt;</span>Next…<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-16">Passed Example 16</h4>
+
+<p><a class="example-link" title="Passed Example 16" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/710e48ef6593478abfd4a367b0b3668c5f410092.html">Open in a new tab</a></p>
+
+<p>This passes because the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> effectively ignores all punctuation and emoji, in both the visible inner text and the accessible name, as long as they don’t break up words.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"💡 Submit 💡"</span><span class="nt">&gt;</span><span class="ni">&amp;gt;&amp;gt;&amp;gt;</span> ** Submit ** <span class="ni">&amp;lt;&amp;lt;&amp;lt;</span><span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
 <h3 id="failed">Failed</h3>
 
 <h4 id="failed-example-1">Failed Example 1</h4>
 
 <p><a class="example-link" title="Failed Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/4ee91039726503da19c9bc58e08e800464d94d82.html">Open in a new tab</a></p>
 
-<p>This link has <a href="#visible" title="Definition of visible">visible</a> text that is different from the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This link has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that is very different from the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://act-rules.github.io/"</span> <span class="na">aria-label=</span><span class="s">"WCAG"</span><span class="nt">&gt;</span>ACT rules<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
@@ -479,36 +604,135 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Failed Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/8db20b5fa0a59906a7b182c5698d6a9ce7e85f10.html">Open in a new tab</a></p>
 
-<p>This button has <a href="#visible" title="Definition of visible">visible</a> text that is only partially contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This button has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that is only partially contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"the full"</span><span class="nt">&gt;</span>The full label<span class="nt">&lt;/button&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-3">Failed Example 3</h4>
 
-<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/20a5e321fc6a5cb2bfcd520acb8cda21e6925254.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Failed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/e117393d6711d6bdf32821005219c9d9474dfeb8.html">Open in a new tab</a></p>
 
-<p>This link has <a href="#visible" title="Definition of visible">visible</a> text with mathematical symbols, that does not match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because the mathematical symbols were written out in the accessible name. This is <a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name#mathematical-expressions-and-formulae">explicitly mentioned in WCAG</a>.</p>
+<p>This link has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> that is fully contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> when viewed as a character-by-character substring. But that does not satisfy the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>, which works on full words.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/"</span> <span class="na">aria-label=</span><span class="s">"Proof of two multiplied by two is four"</span><span class="nt">&gt;</span>Proof of 2<span class="ni">&amp;times;</span>2=4<span class="nt">&lt;/a&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">aria-label=</span><span class="s">"Discover Italy"</span><span class="nt">&gt;</span>Discover It<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-4">Failed Example 4</h4>
 
-<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/e9bbdbec137223e2973c6d2896050770c84c26e5.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/b6d8143aab885efb58369d4b86b2e32be5a66cfb.html">Open in a new tab</a></p>
 
-<p>This link has <a href="#visible" title="Definition of visible">visible</a> text does not match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because there is a hyphen in the accessible name.</p>
+<p>This link’s <a href="#accessible-name" title="Definition of accessible name">accessible name</a> contains two tokens (according to the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>) and the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> contains one token.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">aria-label=</span><span class="s">"non-standard"</span><span class="nt">&gt;</span>nonstandard<span class="nt">&lt;/a&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"just ice"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>justice<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-5">Failed Example 5</h4>
 
-<p><a class="example-link" title="Failed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/fd0c075f565b6f42be0ded6a959bea82ebff15e5.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Failed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/2d84f4a814eeb0765868126ab9ff8ce678101e01.html">Open in a new tab</a></p>
 
-<p>This link has <a href="#visible" title="Definition of visible">visible</a> text does not match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because there are extra spaces in the accessible name.</p>
+<p>The rule has no special handling for acronyms or initialisms.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"1 2 3. 4 5 6. 7 8 9 0"</span> <span class="na">href=</span><span class="s">"tel:1234567890"</span><span class="nt">&gt;</span>123.456.7890<span class="nt">&lt;/a&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"WCAG"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>W C A G<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-6">Failed Example 6</h4>
+
+<p><a class="example-link" title="Failed Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/20a5e321fc6a5cb2bfcd520acb8cda21e6925254.html">Open in a new tab</a></p>
+
+<p>This link has <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> with mathematical symbols and is not contained within the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> because the mathematical symbols are represented as English words (not digits) in the accessible name. This is <a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name#mathematical-expressions-and-formulae">explicitly mentioned in WCAG</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/"</span> <span class="na">aria-label=</span><span class="s">"Proof of two multiplied by two is four"</span><span class="nt">&gt;</span>Proof of 2<span class="ni">&amp;times;</span>2=4<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-7">Failed Example 7</h4>
+
+<p><a class="example-link" title="Failed Example 7" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/717b92a7cf27de3490f81971e714dfb39a1656a5.html">Open in a new tab</a></p>
+
+<p>This rule has no special handling for converting mathematical symbols into words, or vice versa.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"11 times 3 equals 33"</span><span class="nt">&gt;</span>11×3=33<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-8">Failed Example 8</h4>
+
+<p><a class="example-link" title="Failed Example 8" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/76f13f1f281ce75a9ec30edf1729462ac3e0ac57.html">Open in a new tab</a></p>
+
+<p>This button’s accessible name contains the same tokens that are in the visible label. But they aren’t in the same order, so it fails the <a href="#label-in-name-algorithm:contiguous-subsequence" title="Definition of contiguous subsequence">contiguous subsequence</a> check part of the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"how are you"</span><span class="nt">&gt;&lt;span&gt;</span>you<span class="nt">&lt;/span&gt;&lt;span&gt;</span>how<span class="nt">&lt;/span&gt;&lt;span&gt;</span>are<span class="nt">&lt;/span&gt;&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-9">Failed Example 9</h4>
+
+<p><a class="example-link" title="Failed Example 9" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/9bc0a53c1621afedb8621a4c36c01c9a5e809ea3.html">Open in a new tab</a></p>
+
+<p>This button’s accessible name contains the word “the” in the middle of it, which causes the <a href="#label-in-name-algorithm:contiguous-subsequence" title="Definition of contiguous subsequence">contiguous subsequence</a> check of the <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> (in particular: the “contiguous” requirement) to fail.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">aria-label=</span><span class="s">"Download the specification"</span><span class="nt">&gt;</span>Download specification<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-10">Failed Example 10</h4>
+
+<p><a class="example-link" title="Failed Example 10" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/48561a6e709e2f866c9d365f930c7055d620549f.html">Open in a new tab</a></p>
+
+<p>This link’s accessible name contains the same digits that are in the visible label, and in the same order. But they have different spaces and punctuation between them, so they are considered separate tokens.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"1 2 3. 5 5 5. 0 1 2 3"</span> <span class="na">href=</span><span class="s">"tel:1235550123"</span><span class="nt">&gt;</span>123.555.0123<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-11">Failed Example 11</h4>
+
+<p><a class="example-link" title="Failed Example 11" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/d2054fb7aaf3f6f34ec2b146add8e3cfce3409ff.html">Open in a new tab</a></p>
+
+<p>This rule has no special handling which tries to guess when numbers have the same semantic meaning. It operates on tokens only.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#2021"</span> <span class="na">aria-label=</span><span class="s">"20 21"</span><span class="nt">&gt;</span>2021<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-12">Failed Example 12</h4>
+
+<p><a class="example-link" title="Failed Example 12" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/8303bfbcf99b4b105928ee3ccd2bb90225cd5361.html">Open in a new tab</a></p>
+
+<p>This rule has no special handling which tries to guess when numbers have the same semantic meaning. It operates on tokens only.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">aria-label=</span><span class="s">"fibonacci: 0 1 1 2 3 5 8 13 21 34"</span><span class="nt">&gt;</span>fibonacci: 0112358132134<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-13">Failed Example 13</h4>
+
+<p><a class="example-link" title="Failed Example 13" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/f57e78e77994e7a47ed101960089dacefd0786be.html">Open in a new tab</a></p>
+
+<p>This rule has no special handling for converting digits into words, or vice versa.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#2021"</span> <span class="na">aria-label=</span><span class="s">"twenty twenty-one"</span><span class="nt">&gt;</span>two thousand twenty-one<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-14">Failed Example 14</h4>
+
+<p><a class="example-link" title="Failed Example 14" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/dd8d7419bca332d96b15ca14b9ba46e5233ab676.html">Open in a new tab</a></p>
+
+<p>This rule has no special handling for converting digits into words, or vice versa.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"two zero two three"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>2 0 2 3<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-15">Failed Example 15</h4>
+
+<p><a class="example-link" title="Failed Example 15" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/f5c9811c984987443476760a1c5b91b1067f7e19.html">Open in a new tab</a></p>
+
+<p>The <a href="#label-in-name-algorithm" title="Definition of Label in Name Algorithm">label in name algorithm</a> works on full words. That is: it requires that each full word in the visible label (“1” in this case) is equal to a full word in the accessible name (“1a” in this case). Those two words - “1” and “1a” - are not equal.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"1a"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-16">Failed Example 16</h4>
+
+<p><a class="example-link" title="Failed Example 16" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/40838e577307be46e8de7e090faf04da7787f8b0.html">Open in a new tab</a></p>
+
+<p>The definition of <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> doesn’t treat text any differently if it’s excluded from the accessibility tree with aria-hidden. This rule effectively ignores aria-hidden.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"Download specification"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Download <span class="nt">&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>gizmo<span class="nt">&lt;/span&gt;</span> specification<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
 <h3 id="inapplicable">Inapplicable</h3>
@@ -517,7 +741,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/cf98c9678e70f160afcd5af246c0070550ad7398.html">Open in a new tab</a></p>
 
-<p>This <code class="language-plaintext highlighter-rouge">nav</code> is not a widget, so the <a href="#visible" title="Definition of visible">visible</a> text does not need to match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">nav</code> is not a widget, so the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> does not need to match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;nav</span> <span class="na">aria-label=</span><span class="s">"main nav"</span><span class="nt">&gt;</span>W3C navigation<span class="nt">&lt;/nav&gt;</span>
 </code></pre></div></div>
@@ -526,7 +750,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/87e3c42fdc98d63d89a6a0d984f44f00adf02015.html">Open in a new tab</a></p>
 
-<p>This email text field does not need to have its <a href="#visible" title="Definition of visible">visible</a> text match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. The content of a textfield shows its value instead of its label; it does not <a href="https://www.w3.org/TR/wai-aria-1.2/#namefromcontent" title="Definition of Supports name from contents">support name from content</a>. The label is usually adjacent to the textfield instead.</p>
+<p>This email text field has a role of <code class="language-plaintext highlighter-rouge">textbox</code> which does not <a href="https://www.w3.org/TR/wai-aria-1.2/#namefromcontent" title="Definition of Supports name from content">support name from content</a>; so it does not need to have its <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>. The content of a text field shows its value instead of its label. The label is usually adjacent to the text field instead.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>E-mail<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">aria-label=</span><span class="s">"E-mail"</span> <span class="na">value=</span><span class="s">"Contact"</span> <span class="nt">/&gt;</span>
@@ -536,7 +760,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Inapplicable Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/f02ba15667ff1b80a269e5ce66f152e93396c029.html">Open in a new tab</a></p>
 
-<p>This <code class="language-plaintext highlighter-rouge">div</code> element does not have a widget role, so the <a href="#visible" title="Definition of visible">visible</a> text does not need to match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
+<p>This <code class="language-plaintext highlighter-rouge">div</code> element does not have a widget role, so the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> does not need to match the <a href="#accessible-name" title="Definition of accessible name">accessible name</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tooltip"</span> <span class="na">aria-label=</span><span class="s">"OK"</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/div&gt;</span>
 </code></pre></div></div>
@@ -550,6 +774,24 @@ h2#sidebar-header {
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://w3.org"</span> <span class="na">aria-label=</span><span class="s">"W3C homepage"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/test-assets/shared/w3c-logo.png"</span> <span class="na">alt=</span><span class="s">"w3c logo"</span> <span class="nt">/&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-5">Inapplicable Example 5</h4>
+
+<p><a class="example-link" title="Inapplicable Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/4c8c38022d15c92158ecaaa647fe8ca2c330f485.html">Open in a new tab</a></p>
+
+<p>This link’s label contains an abbreviation.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"University Avenue"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>University Ave.<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-6">Inapplicable Example 6</h4>
+
+<p><a class="example-link" title="Inapplicable Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/e9bbdbec137223e2973c6d2896050770c84c26e5.html">Open in a new tab</a></p>
+
+<p>This word - non-standard / nonstandard - appears in both the element’s accessible name and its visible label, using different hyphenation.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">aria-label=</span><span class="s">"non-standard"</span><span class="nt">&gt;</span>nonstandard<span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
 <h2 id="glossary">Glossary</h2>
@@ -610,6 +852,54 @@ h2#sidebar-header {
 
 <p><a href="#programmatically-hidden">Programmatically hidden</a> elements are removed from the accessibility tree. However, some browsers will leave <a href="#focusable">focusable</a> elements with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute set to <code class="language-plaintext highlighter-rouge">true</code> in the accessibility tree. Because they are hidden, these elements are considered <strong>not</strong> included in the accessibility tree. This may cause confusion for users of assistive technologies because they may still be able to interact with these focusable elements using sequential keyboard navigation, even though the element should not be included in the accessibility tree.</p>
 
+<h3 id="label-in-name-algorithm">Label in Name Algorithm</h3>
+
+<p>To check whether an <a href="https://dom.spec.whatwg.org/#element">element</a> has <dfn>its label contained in its name</dfn>, follow this algorithm:</p>
+
+<p>Let <code class="language-plaintext highlighter-rouge">label</code> be the <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a> of the target element.  Let <code class="language-plaintext highlighter-rouge">name</code> be the <a href="#accessible-name" title="Definition of accessible name">accessible name</a> of the target element.  Both <code class="language-plaintext highlighter-rouge">label</code> and <code class="language-plaintext highlighter-rouge">name</code> are strings.</p>
+
+<p>Sub-algorithm to tokenize a string:</p>
+
+<ol>
+  <li>Remove parentheses (U+0028 LEFT PARENTHESIS and U+0029 RIGHT PARENTHESIS, known colloquially as round brackets) and all characters that are between a left and right parenthesis.
+    <ul>
+      <li>Don’t do this for other kind of brackets such as square brackets and curly brackets.</li>
+    </ul>
+  </li>
+  <li>Do Unicode <a href="https://www.w3.org/TR/charmod-norm/#dfn-case-folding">case folding</a> on the string then convert it to <a href="https://www.unicode.org/glossary/#normalization_form_kd">normalization form KD</a>.</li>
+  <li>For each character that either a) represents non-text content, or b) isn’t a letter or a digit: replace that character with a space character.
+    <ul>
+      <li>For a) Determination of what “non-text” is often requires a judgment call.  Non-text includes, but is not limited to, emoji, and the use of the letter ‘X’ as a symbol which means ‘close this modal dialog’.</li>
+      <li>For b) Use the <a href="https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-4/#G134153">Unicode general categories “L” (Letter) and “N” (Number)</a>.  (This will exclude hyphens, punctuation, emoji, and more.)</li>
+    </ul>
+  </li>
+  <li>Split the string into a list of strings, one string per word, according to the word segmentation rules for the <a href="https://html.spec.whatwg.org/multipage/dom.html#language">language of the element</a>.
+    <ul>
+      <li>This ‘split’ operation must:
+        <ul>
+          <li>Effectively remove leading and trailing <a href="#whitespace" title="Definition of whitespace">whitespace</a>.</li>
+          <li>If the input string contains nothing but <a href="#whitespace" title="Definition of whitespace">whitespace</a> before this operation: return an empty list.</li>
+        </ul>
+      </li>
+      <li>In English and most other European languages, a greedy <a href="#whitespace" title="Definition of whitespace">whitespace</a> regular expression will accomplish this. In languages such as Thai, Chinese, and Japanese, it won’t.</li>
+      <li>A consequence of using the ACT definition of <a href="#whitespace" title="Definition of whitespace">whitespace</a> here is that all kinds of whitespace are covered. That includes the Unicode code point U+00A0 NO-BREAK SPACE (NBSP), which can be represented by the HTML named character reference <code class="language-plaintext highlighter-rouge">&amp;nbsp;</code>.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Then do the check: is the tokenized <code class="language-plaintext highlighter-rouge">label</code> a contiguous subsequence of the tokenized <code class="language-plaintext highlighter-rouge">name</code>?</p>
+<ul>
+  <li>This “<dfn id="label-in-name-algorithm:contiguous-subsequence">contiguous subsequence</dfn>” check has these properties:
+    <ul>
+      <li>Each string comparison (between a list element in the tokenized label and a list element in the tokenized name) is a simple string equality check.</li>
+      <li>The “contiguous” aspect means that it’s crucial that the elements are consecutive in the original list. Put another way: a contiguous subsequence of X can be obtained by removing any number of tokens from the start and/or end (but not the middle) of X. For example: [“A”, “B”, “C”] is a contiguous subsequence of [“A”, “B”, “C”, “D”]; but [“A”, “B”, “D”] is not.</li>
+      <li>An empty list is a contiguous subsequence of any list.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>If the answer is “yes” (that is: the tokenized ‘label’ is a contiguous subsequence of the tokenized ‘name’), then this algorithm returns “is contained”.  Otherwise, it returns “is not contained”.</p>
+
 <h3 id="marked-as-decorative">Marked as decorative</h3>
 
 <p>An element is <em>marked as decorative</em> if one or more of the following conditions is true:</p>
@@ -622,10 +912,6 @@ h2#sidebar-header {
 <p>Elements are marked as decorative as a way to convey the intention of the author that they are <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a>. It is different from the element actually being <a href="https://www.w3.org/TR/WCAG22/#dfn-pure-decoration" title="WCAG definition of Pure Decoration">pure decoration</a> as authors may make mistakes. It is different from the element being effectively ignored by assistive technologies as rules such as <a href="https://www.w3.org/TR/wai-aria-1.2/#conflict_resolution_presentation_none" title="Presentational Roles Conflict Resolution">presentational roles conflict resolution</a> may overwrite this intention.</p>
 
 <p>Elements can also be ignored by assistive technologies if they are <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a>. This is different from marking the element as decorative and does not convey the same intention. Notably, being <a href="#programmatically-hidden" title="Definition of Programmatically Hidden">programmatically hidden</a> may change as users interact with the page (showing and hiding elements) while being marked as decorative should stay the same through all states of the page.</p>
-
-<h3 id="matching-characters">Matching characters</h3>
-
-<p>A sequence of characters is considered to <em>match</em> another if, after removing leading and trailing <a href="#whitespace" title="Definition of Whitespace">whitespace characters</a> and replacing remaining occurrences of one or more whitespace characters with a single space, the two sequences of characters are equal character-by-character, ignoring any differences in letter casing.</p>
 
 <h3 id="outcome">Outcome</h3>
 
@@ -680,9 +966,35 @@ h2#sidebar-header {
 
 <p>For more details, see <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/terms/visible/examples/">examples of visible</a>.</p>
 
+<h3 id="visible-inner-text">Visible Inner Text</h3>
+
+<p>The “visible inner text” defined here is similar to, but not the same as, <a href="#visible-text-content" title="Definition of Visible text content">visible text content</a> and <a href="https://html.spec.whatwg.org/multipage/dom.html#the-innertext-idl-attribute">innerText</a>.</p>
+
+<p>The <dfn>visible inner text of a node</dfn> depends on the kind of node.</p>
+
+<p>The <dfn id="visible-inner-text:for-text">visible inner text of a <a href="https://dom.spec.whatwg.org/#text">text node</a></dfn> is:</p>
+<ol>
+  <li>if the <a href="https://dom.spec.whatwg.org/#text">text node</a> is <a href="#visible">visible</a>, its visible inner text is its <a href="https://dom.spec.whatwg.org/#concept-cd-data">data</a> with whitespace normalized by replacing contiguous <a href="#whitespace" title="Definition of whitespace">whitespace</a> with <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE);</li>
+  <li><dfn id="visible-inner-text:for-text-whitespace">if the <a href="https://dom.spec.whatwg.org/#text">text node</a> is not <a href="#visible">visible</a>, is <a href="https://html.spec.whatwg.org/#being-rendered">rendered</a>, and contains only <a href="#whitespace" title="Definition of whitespace">whitespace</a>, its visible inner text is <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE);</dfn></li>
+  <li>otherwise, the visible inner text of the <a href="https://dom.spec.whatwg.org/#text">text node</a> is <code class="language-plaintext highlighter-rouge">""</code> (the empty string).</li>
+</ol>
+
+<p>The <dfn id="visible-inner-text:for-element">visible inner text of an <a href="https://dom.spec.whatwg.org/#element">element</a></dfn> is:</p>
+<ol>
+  <li>if the <a href="https://dom.spec.whatwg.org/#element">element</a> is not <a href="https://html.spec.whatwg.org/#being-rendered">rendered</a>, its visible inner text is <code class="language-plaintext highlighter-rouge">""</code> (the empty string);</li>
+  <li>if the <a href="https://dom.spec.whatwg.org/#element">element</a> is <a href="https://html.spec.whatwg.org/#being-rendered">rendered</a> and not <a href="#visible">visible</a> and has a <a href="https://www.w3.org/TR/css-ui-3/#valdef-box-sizing-border-box">bounding box</a> which has width greater than 0, its visible inner text is <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE);</li>
+  <li>if the <a href="https://dom.spec.whatwg.org/#element">element</a> is <a href="https://html.spec.whatwg.org/#being-rendered">rendered</a> and not <a href="#visible">visible</a> and has a <a href="https://www.w3.org/TR/css-ui-3/#valdef-box-sizing-border-box">bounding box</a> which has width of 0, its visible inner text is <code class="language-plaintext highlighter-rouge">""</code> (the empty string);</li>
+  <li>if the <a href="https://dom.spec.whatwg.org/#element">element</a> is a <a href="https://html.spec.whatwg.org/#the-br-element"><code class="language-plaintext highlighter-rouge">&lt;br&gt;</code></a> element, its visible inner text is <code class="language-plaintext highlighter-rouge">"\n"</code> (U+000A END OF LINE).</li>
+  <li>if the <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> <a href="https://drafts.csswg.org/css2/#propdef-display"><code class="language-plaintext highlighter-rouge">display</code></a> property of the <a href="https://dom.spec.whatwg.org/#element">element</a> has an <a href="https://drafts.csswg.org/css-display/#outer-display-type">outer display type</a> of <code class="language-plaintext highlighter-rouge">block</code>, or an <a href="https://drafts.csswg.org/css-display/#inner-display-type">inner display type</a> of <code class="language-plaintext highlighter-rouge">table-caption</code>, the visible inner text of the <a href="https://dom.spec.whatwg.org/#element">element</a> is the concatenation of <code class="language-plaintext highlighter-rouge">"\n"</code> (U+000A END OF LINE) plus the visible inner text of its children (in <a href="https://dom.spec.whatwg.org/#concept-tree-order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>) plus another <code class="language-plaintext highlighter-rouge">"\n"</code> (U+000A END OF LINE);</li>
+  <li>if the <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> <a href="https://drafts.csswg.org/css2/#propdef-display"><code class="language-plaintext highlighter-rouge">display</code></a> property of the <a href="https://dom.spec.whatwg.org/#element">element</a> has an <a href="https://drafts.csswg.org/css-display/#inner-display-type">inner display type</a> of <code class="language-plaintext highlighter-rouge">table-cell</code> or <code class="language-plaintext highlighter-rouge">table-row</code>, the visible inner text of the <a href="https://dom.spec.whatwg.org/#element">element</a> is the concatenation of <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE) plus the visible inner text of its children (in <a href="https://dom.spec.whatwg.org/#concept-tree-order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>) plus another <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE);</li>
+  <li>otherwise, the visible inner text of the <a href="https://dom.spec.whatwg.org/#element">element</a> is the concatenation of the visible inner text of its children (in <a href="https://dom.spec.whatwg.org/#concept-tree-order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>).</li>
+</ol>
+
+<p>The <dfn>visible inner text</dfn> of any other node is the concatenation of the visible inner text of its children (in <a href="https://dom.spec.whatwg.org/#concept-tree-order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>).</p>
+
 <h3 id="visible-text-content">Visible Text Content</h3>
 
-<p>The <em>visible text content</em> of an <a href="https://dom.spec.whatwg.org/#element" title="DOM element, 2020/08/18">element</a> is a set of all <a href="#visible" title="Definition of visible">visible</a> <a href="https://dom.spec.whatwg.org/#text" title="DOM text, 2020/08/18">text nodes</a> that are <a href="https://dom.spec.whatwg.org/#concept-tree-descendant" title="DOM tree descendant, 2020/08/18">descendants</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a> of this element</p>
+<p>The <em>visible text content</em> of an <a href="https://dom.spec.whatwg.org/#element">element</a> is a set of all <a href="#visible">visible</a> <a href="https://dom.spec.whatwg.org/#text" title="DOM text, 2020/08/18">text nodes</a> that are <a href="https://dom.spec.whatwg.org/#concept-tree-descendant" title="DOM tree descendant, 2020/08/18">descendants</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a> of this element.  (This is similar to, but not the same as, <a href="#visible-inner-text" title="Definition of Visible inner text">visible inner text</a>.)</p>
 
 <h3 id="wai-aria-specifications">WAI-ARIA specifications</h3>
 
@@ -750,48 +1062,6 @@ h2#sidebar-header {
             </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/axe-core#breakdown-2ee8b8"><img alt="Axe-core Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
-          <tr>
-            <td>QualWeb 3.0.0</td>
-            <td>Automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-2ee8b8"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>SortSite 6.55</td>
-            <td>Automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-2ee8b8"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>Total Validator 17.4.0</td>
-            <td>Linter</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator#breakdown-2ee8b8"><img alt="Total Validator Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>Total Validator (+Browser) 17.4.0</td>
-            <td>Automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-2ee8b8"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2026.03 1.0.2</td>
-            <td>Semi-automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-2ee8b8"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
-          <tr>
-            <td>Webmate Accessibility Workbench </td>
-            <td>Automated tool</td>
-            <td>
-              Consistent </td>
-            <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-2ee8b8"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
-          </tr>
       </tbody>
     </table>
   </div>
@@ -827,8 +1097,8 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 2ee8b8</p>
-<p><strong>Date:</strong> Updated 19 January 2026</p>
-<p><strong>Authors:</strong> <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/brynanders">Bryn Anderson</a>, <a href="https://github.com/jkodu">Jey Nandakumar</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
+<p><strong>Date:</strong> Updated 24 July 2026</p>
+<p><strong>Authors:</strong> <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/brynanders">Bryn Anderson</a>, Dan Tripp, <a href="https://github.com/jkodu">Jey Nandakumar</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
 </div>
@@ -881,9 +1151,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1784821363300549072"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1785157102632026398"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1784821363300549072"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1785157102632026398"></script>
 <script>
   svg4everybody();
 </script><script>

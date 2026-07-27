@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1784821363300549072";
+      element.src = "/WAI/assets/scripts/main.js?1785157102632026398";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1784821363300549072"><title> Scrollable content can be reached with sequential focus navigation[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1784821363300549072"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1785157102632026398"><title> Scrollable content can be reached with sequential focus navigation[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1785157102632026398"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Scrollable content can be reached with sequential focus navigation" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -339,6 +339,7 @@ h2#sidebar-header {
 <h2 id="expectation">Expectation</h2>
 
 <p>For each target element, at least one of the following is true:</p>
+
 <ul>
   <li>the element is included in <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/04/03">sequential focus navigation</a>; or</li>
   <li>the element has a <a href="https://dom.spec.whatwg.org/#concept-tree-descendant" title="DOM descendant, 2020/04/03">descendant</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="CSS draft, flat tree, 2020/04/03">flat tree</a> that is included in <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/04/03">sequential focus navigation</a>; or</li>
@@ -468,13 +469,13 @@ h2#sidebar-header {
 
 <h4 id="passed-example-3">Passed Example 3</h4>
 
-<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/0ssw9k/c5f649f91ebe4979270972db7c42279a74efc6c5.html">Open in a new tab</a></p>
+<p><a class="example-link" title="Passed Example 3" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/0ssw9k/fa27b58829c18976ac66f3874f40c5be712fe64b.html">Open in a new tab</a></p>
 
 <p>This <a href="#scrollable-element">scrollable</a> <code class="language-plaintext highlighter-rouge">section</code> element is <a href="#inert" title="Definition of Inert">inert</a> because of the modal dialog, so neither the <code class="language-plaintext highlighter-rouge">section</code> nor its <a href="https://dom.spec.whatwg.org/#concept-tree-descendant" title="DOM descendant, 2020/04/03">descendant</a> elements are included in <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/04/03">sequential focus navigation</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;style&gt;</span>
 	<span class="nt">dialog</span><span class="nd">:-internal-dialog-in-top-layer::backdrop</span> <span class="p">{</span>
-    		<span class="nl">background</span><span class="p">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">0.8</span><span class="p">);</span>
+		<span class="nl">background</span><span class="p">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">0.8</span><span class="p">);</span>
 	<span class="p">}</span>
 <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;section</span> <span class="na">style=</span><span class="s">"height: 100px; width: 500px; overflow: scroll;"</span> <span class="na">tabindex=</span><span class="s">"0"</span><span class="nt">&gt;</span>
@@ -499,11 +500,11 @@ h2#sidebar-header {
 <span class="nt">&lt;/dialog&gt;</span>
 <span class="nt">&lt;script&gt;</span>
 	<span class="kd">const</span> <span class="nx">openDialog</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-		<span class="nx">ppDialog</span><span class="p">.</span><span class="nf">showModal</span><span class="p">();</span>
+		<span class="nx">ppDialog</span><span class="p">.</span><span class="nf">showModal</span><span class="p">()</span>
 		<span class="nx">myFrame</span><span class="p">.</span><span class="nx">tabIndex</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">-1</span><span class="dl">'</span>
 	<span class="p">}</span>
-	<span class="nx">ppDialog</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">close</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">myFrame</span><span class="p">.</span><span class="nx">tabIndex</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
-	<span class="nb">window</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">DOMContentLoaded</span><span class="dl">'</span><span class="p">,</span> <span class="nx">openDialog</span><span class="p">);</span>
+	<span class="nx">ppDialog</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">close</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="nx">myFrame</span><span class="p">.</span><span class="nx">tabIndex</span> <span class="o">=</span> <span class="mi">0</span><span class="p">))</span>
+	<span class="nb">window</span><span class="p">.</span><span class="nf">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">DOMContentLoaded</span><span class="dl">'</span><span class="p">,</span> <span class="nx">openDialog</span><span class="p">)</span>
 <span class="nt">&lt;/script&gt;</span>
 </code></pre></div></div>
 
@@ -770,7 +771,7 @@ h2#sidebar-header {
       </thead>
       <tbody>
           <tr>
-            <td>@accesslint/core 0.12.1</td>
+            <td>@accesslint/core 0.16.0</td>
             <td>Automated tool</td>
             <td> Partial
             </td>
@@ -867,7 +868,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 0ssw9k</p>
-<p><strong>Date:</strong> Updated 19 January 2026</p>
+<p><strong>Date:</strong> Updated 9 July 2026</p>
 <p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
@@ -921,9 +922,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1784821363300549072"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1785157102632026398"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1784821363300549072"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1785157102632026398"></script>
 <script>
   svg4everybody();
 </script><script>

@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1784821363300549072";
+      element.src = "/WAI/assets/scripts/main.js?1785157102632026398";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1784821363300549072"><title> Content has alternative for visual reference[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1784821363300549072"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1785157102632026398"><title> Content has alternative for visual reference[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1785157102632026398"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Content has alternative for visual reference" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -1034,9 +1034,35 @@ h2#sidebar-header {
 
 <p>For more details, see <a href="https://www.w3.org/WAI/standards-guidelines/act/rules/terms/visible/examples/">examples of visible</a>.</p>
 
+<h3 id="visible-inner-text">Visible Inner Text</h3>
+
+<p>The “visible inner text” defined here is similar to, but not the same as, <a href="#visible-text-content" title="Definition of Visible Text Content">visible text content</a> and <a href="https://html.spec.whatwg.org/multipage/dom.html#the-innertext-idl-attribute">innerText</a>.</p>
+
+<p>The <dfn>visible inner text of a node</dfn> depends on the kind of node.</p>
+
+<p>The <dfn id="visible-inner-text:for-text">visible inner text of a <a href="https://dom.spec.whatwg.org/#text" title="Specification of Text Node">text node</a></dfn> is:</p>
+<ol>
+  <li>if the <a href="https://dom.spec.whatwg.org/#text" title="Specification of Text Node">text node</a> is <a href="#visible" title="Definition of Visible">visible</a>, its visible inner text is its <a href="https://dom.spec.whatwg.org/#concept-cd-data">data</a> with whitespace normalized by replacing contiguous <a href="#whitespace">whitespace</a> with <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE);</li>
+  <li><dfn id="visible-inner-text:for-text-whitespace">if the <a href="https://dom.spec.whatwg.org/#text" title="Specification of Text Node">text node</a> is not <a href="#visible" title="Definition of Visible">visible</a>, is <a href="https://html.spec.whatwg.org/#being-rendered">rendered</a>, and contains only <a href="#whitespace">whitespace</a>, its visible inner text is <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE);</dfn></li>
+  <li>otherwise, the visible inner text of the <a href="https://dom.spec.whatwg.org/#text" title="Specification of Text Node">text node</a> is <code class="language-plaintext highlighter-rouge">""</code> (the empty string).</li>
+</ol>
+
+<p>The <dfn id="visible-inner-text:for-element">visible inner text of an <a href="https://dom.spec.whatwg.org/#element">element</a></dfn> is:</p>
+<ol>
+  <li>if the <a href="https://dom.spec.whatwg.org/#element">element</a> is not <a href="https://html.spec.whatwg.org/#being-rendered">rendered</a>, its visible inner text is <code class="language-plaintext highlighter-rouge">""</code> (the empty string);</li>
+  <li>if the <a href="https://dom.spec.whatwg.org/#element">element</a> is <a href="https://html.spec.whatwg.org/#being-rendered">rendered</a> and not <a href="#visible" title="Definition of Visible">visible</a> and has a <a href="https://www.w3.org/TR/css-ui-3/#valdef-box-sizing-border-box">bounding box</a> which has width greater than 0, its visible inner text is <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE);</li>
+  <li>if the <a href="https://dom.spec.whatwg.org/#element">element</a> is <a href="https://html.spec.whatwg.org/#being-rendered">rendered</a> and not <a href="#visible" title="Definition of Visible">visible</a> and has a <a href="https://www.w3.org/TR/css-ui-3/#valdef-box-sizing-border-box">bounding box</a> which has width of 0, its visible inner text is <code class="language-plaintext highlighter-rouge">""</code> (the empty string);</li>
+  <li>if the <a href="https://dom.spec.whatwg.org/#element">element</a> is a <a href="https://html.spec.whatwg.org/#the-br-element"><code class="language-plaintext highlighter-rouge">&lt;br&gt;</code></a> element, its visible inner text is <code class="language-plaintext highlighter-rouge">"\n"</code> (U+000A END OF LINE).</li>
+  <li>if the <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> <a href="https://drafts.csswg.org/css2/#propdef-display"><code class="language-plaintext highlighter-rouge">display</code></a> property of the <a href="https://dom.spec.whatwg.org/#element">element</a> has an <a href="https://drafts.csswg.org/css-display/#outer-display-type">outer display type</a> of <code class="language-plaintext highlighter-rouge">block</code>, or an <a href="https://drafts.csswg.org/css-display/#inner-display-type">inner display type</a> of <code class="language-plaintext highlighter-rouge">table-caption</code>, the visible inner text of the <a href="https://dom.spec.whatwg.org/#element">element</a> is the concatenation of <code class="language-plaintext highlighter-rouge">"\n"</code> (U+000A END OF LINE) plus the visible inner text of its children (in <a href="https://dom.spec.whatwg.org/#concept-tree-order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>) plus another <code class="language-plaintext highlighter-rouge">"\n"</code> (U+000A END OF LINE);</li>
+  <li>if the <a href="https://www.w3.org/TR/css-cascade/#computed-value" title="CSS definition of computed value">computed</a> <a href="https://drafts.csswg.org/css2/#propdef-display"><code class="language-plaintext highlighter-rouge">display</code></a> property of the <a href="https://dom.spec.whatwg.org/#element">element</a> has an <a href="https://drafts.csswg.org/css-display/#inner-display-type">inner display type</a> of <code class="language-plaintext highlighter-rouge">table-cell</code> or <code class="language-plaintext highlighter-rouge">table-row</code>, the visible inner text of the <a href="https://dom.spec.whatwg.org/#element">element</a> is the concatenation of <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE) plus the visible inner text of its children (in <a href="https://dom.spec.whatwg.org/#concept-tree-order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>) plus another <code class="language-plaintext highlighter-rouge">" "</code> (U+0020 SPACE);</li>
+  <li>otherwise, the visible inner text of the <a href="https://dom.spec.whatwg.org/#element">element</a> is the concatenation of the visible inner text of its children (in <a href="https://dom.spec.whatwg.org/#concept-tree-order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>).</li>
+</ol>
+
+<p>The <dfn>visible inner text</dfn> of any other node is the concatenation of the visible inner text of its children (in <a href="https://dom.spec.whatwg.org/#concept-tree-order">tree order</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a>).</p>
+
 <h3 id="visible-text-content">Visible Text Content</h3>
 
-<p>The <em>visible text content</em> of an <a href="https://dom.spec.whatwg.org/#element" title="DOM element, 2020/08/18">element</a> is a set of all <a href="#visible" title="Definition of Visible">visible</a> <a href="https://dom.spec.whatwg.org/#text" title="DOM text, 2020/08/18">text nodes</a> that are <a href="https://dom.spec.whatwg.org/#concept-tree-descendant" title="DOM tree descendant, 2020/08/18">descendants</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a> of this element</p>
+<p>The <em>visible text content</em> of an <a href="https://dom.spec.whatwg.org/#element">element</a> is a set of all <a href="#visible" title="Definition of Visible">visible</a> <a href="https://dom.spec.whatwg.org/#text" title="DOM text, 2020/08/18">text nodes</a> that are <a href="https://dom.spec.whatwg.org/#concept-tree-descendant" title="DOM tree descendant, 2020/08/18">descendants</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree" title="Definition of flat tree">flat tree</a> of this element.  (This is similar to, but not the same as, <a href="#visible-inner-text">visible inner text</a>.)</p>
 
 <h3 id="visual-reference-words">Visual Reference Words</h3>
 
@@ -1191,6 +1217,28 @@ h2#sidebar-header {
   </li>
 </ul>
 
+<h3 id="whitespace">Whitespace</h3>
+
+<p><em>Whitespace</em> are characters that have the Unicode “White_Space” property in the <a href="https://www.unicode.org/Public/UCD/latest/ucd/PropList.txt">Unicode properties list</a>.</p>
+
+<p>This includes:</p>
+
+<ul>
+  <li>all characters in the <a href="https://www.unicode.org/versions/Unicode11.0.0/ch04.pdf#G134153">Unicode Separator categories</a>, and</li>
+  <li>
+    <p>the following characters in the <a href="https://www.unicode.org/versions/Unicode11.0.0/ch04.pdf#G134153">Other, Control</a> category:</p>
+
+    <ul>
+      <li>Character tabulation (U+0009)</li>
+      <li>Line Feed (LF) (U+000A)</li>
+      <li>Line Tabulation (U+000B)</li>
+      <li>Form Feed (FF) (U+000C)</li>
+      <li>Carriage Return (CR) (U+000D)</li>
+      <li>Next Line (NEL) (U+0085)</li>
+    </ul>
+  </li>
+</ul>
+
 
 <h2 id="ruleversions">Rule Versions</h2>
 
@@ -1251,7 +1299,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 9bd38c</p>
-<p><strong>Date:</strong> Updated 19 January 2026</p>
+<p><strong>Date:</strong> Updated 9 July 2026</p>
 <p><strong>Authors:</strong> <a href="https://www.linkedin.com/in/brianbors/">Brian Bors</a>, <a href="https://github.com/danistr">Daniël Strik</a>, <a href="https://github.com/Jym77">Jean-Yves Moyen</a>, <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
@@ -1305,9 +1353,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1784821363300549072"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1785157102632026398"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1784821363300549072"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1785157102632026398"></script>
 <script>
   svg4everybody();
 </script><script>

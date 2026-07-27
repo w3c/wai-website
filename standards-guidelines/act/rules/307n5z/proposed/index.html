@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1784821363300549072";
+      element.src = "/WAI/assets/scripts/main.js?1785157102632026398";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1784821363300549072"><title> Element with presentational children has no focusable content[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1784821363300549072"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1785157102632026398"><title> Element with presentational children has no focusable content[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1785157102632026398"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Element with presentational children has no focusable content" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -348,7 +348,7 @@ h2#sidebar-header {
 
 <p>Several major browsers ignore the WAI-ARIA requirements on <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a> for most or sometimes all roles, or in presence of focusable content. Since some browsers implement presentational children while others do not, pages failing this rule may only be problematic with some browsers.</p>
 
-<p>This rule is often misunderstood as applying to elements with an <em>explicit</em> role of <code class="language-plaintext highlighter-rouge">presentation</code>.  In fact, this rule only applies to elements which have been given an <em>implicit</em> role of <code class="language-plaintext highlighter-rouge">presentation</code> through the <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a> mechanism.  Similarly, this rule does not apply to elements with <code class="language-plaintext highlighter-rouge">aria-hidden="true"</code>.</p>
+<p>This rule is often misunderstood as applying to elements with an <em>explicit</em> role of <code class="language-plaintext highlighter-rouge">presentation</code>. In fact, this rule only applies to elements which have been given an <em>implicit</em> role of <code class="language-plaintext highlighter-rouge">presentation</code> through the <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a> mechanism. Similarly, this rule does not apply to elements with <code class="language-plaintext highlighter-rouge">aria-hidden="true"</code>.</p>
 
 <h3 id="related-rules">Related rules</h3>
 
@@ -437,7 +437,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Passed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/307n5z/ede992d9573d350db7cd0cb8685de5b96460fbc1.html">Open in a new tab</a></p>
 
-<p>This <code class="language-plaintext highlighter-rouge">&lt;button&gt;</code> element has an <code class="language-plaintext highlighter-rouge">a</code> element as a <a href="https://dom.spec.whatwg.org/#concept-tree-child" title="Definition child, as on 2020-10-21">child</a>.  The <code class="language-plaintext highlighter-rouge">a</code> element has no <code class="language-plaintext highlighter-rouge">href</code> attribute, so it isn’t included in <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/10/21">sequential focus navigation</a>.  So this <code class="language-plaintext highlighter-rouge">button</code> element passes the rule.</p>
+<p>This <code class="language-plaintext highlighter-rouge">&lt;button&gt;</code> element has an <code class="language-plaintext highlighter-rouge">a</code> element as a <a href="https://dom.spec.whatwg.org/#concept-tree-child" title="Definition child, as on 2020-10-21">child</a>. The <code class="language-plaintext highlighter-rouge">a</code> element has no <code class="language-plaintext highlighter-rouge">href</code> attribute, so it isn’t included in <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/10/21">sequential focus navigation</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button&gt;&lt;a&gt;</span>button/link<span class="nt">&lt;/a&gt;&lt;/button&gt;</span>
 </code></pre></div></div>
@@ -483,7 +483,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Failed Example 4" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/307n5z/7bfb3a2d5783ade108f4f9fee10597a2343f8665.html">Open in a new tab</a></p>
 
-<p>This element with the <code class="language-plaintext highlighter-rouge">tab</code> role contains an <code class="language-plaintext highlighter-rouge">a</code> element.  The <code class="language-plaintext highlighter-rouge">tab</code> role has <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a>.  The <code class="language-plaintext highlighter-rouge">a</code> element is included in <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/10/21">sequential focus navigation</a>.  So the element with the <code class="language-plaintext highlighter-rouge">tab</code> role fails the rule.  (This tablist implementation is non-functional for users.  It’s not meant to function - it’s only meant to show roles.)</p>
+<p>This element with the <code class="language-plaintext highlighter-rouge">tab</code> role contains an <code class="language-plaintext highlighter-rouge">a</code> element. The <code class="language-plaintext highlighter-rouge">tab</code> role has <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a>. The <code class="language-plaintext highlighter-rouge">a</code> element is included in <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/10/21">sequential focus navigation</a>. This tablist implementation is non-functional for users. It’s not meant to function - it’s only meant to show roles.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul</span> <span class="na">role=</span><span class="s">"tablist"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"tab"</span><span class="nt">&gt;</span>
@@ -496,7 +496,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Failed Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/307n5z/ad7e2441b992318debdeec5a07f92b0241f80a14.html">Open in a new tab</a></p>
 
-<p>This element with the <code class="language-plaintext highlighter-rouge">img</code> role contains an <code class="language-plaintext highlighter-rouge">a</code> element.  The <code class="language-plaintext highlighter-rouge">img</code> role has <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a>.  The <code class="language-plaintext highlighter-rouge">a</code> element is included in <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/10/21">sequential focus navigation</a>.  So the element with the <code class="language-plaintext highlighter-rouge">img</code> role fails the rule.</p>
+<p>This element with the <code class="language-plaintext highlighter-rouge">img</code> role contains an <code class="language-plaintext highlighter-rouge">a</code> element. The <code class="language-plaintext highlighter-rouge">img</code> role has <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a>. The <code class="language-plaintext highlighter-rouge">a</code> element is included in <a href="https://html.spec.whatwg.org/#sequential-focus-navigation" title="HTML sequential focus navigation, 2020/10/21">sequential focus navigation</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">role=</span><span class="s">"img"</span> <span class="na">aria-label=</span><span class="s">"some ASCII art"</span><span class="nt">&gt;</span>****** This ASCII art ******* <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>contains a link.<span class="nt">&lt;/a&gt;&lt;/span&gt;</span>
 </code></pre></div></div>
@@ -507,7 +507,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Inapplicable Example 1" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/307n5z/837f998533e07e309d5f9a587b7a5ff013a73c7a.html">Open in a new tab</a></p>
 
-<p>None of the roles that build this semantic table structure (<code class="language-plaintext highlighter-rouge">table</code> for <code class="language-plaintext highlighter-rouge">table</code>, <code class="language-plaintext highlighter-rouge">row</code> for <code class="language-plaintext highlighter-rouge">tr</code>, <code class="language-plaintext highlighter-rouge">columnheader</code> for <code class="language-plaintext highlighter-rouge">th</code>, and <code class="language-plaintext highlighter-rouge">cell</code> for <code class="language-plaintext highlighter-rouge">td</code>) have <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a>.  So this rule does not apply to them.</p>
+<p>None of the roles that build this semantic table structure (<code class="language-plaintext highlighter-rouge">table</code> for <code class="language-plaintext highlighter-rouge">table</code>, <code class="language-plaintext highlighter-rouge">row</code> for <code class="language-plaintext highlighter-rouge">tr</code>, <code class="language-plaintext highlighter-rouge">columnheader</code> for <code class="language-plaintext highlighter-rouge">th</code>, and <code class="language-plaintext highlighter-rouge">cell</code> for <code class="language-plaintext highlighter-rouge">td</code>) have <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table&gt;</span>
 	<span class="nt">&lt;thead&gt;</span>
@@ -527,7 +527,7 @@ h2#sidebar-header {
 
 <p><a class="example-link" title="Inapplicable Example 2" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/307n5z/e687f56e16c718c737b2ebc096ab768bd9d87d50.html">Open in a new tab</a></p>
 
-<p>This <code class="language-plaintext highlighter-rouge">a</code> element has a <code class="language-plaintext highlighter-rouge">link</code> role, which does not have <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a>.  So this <code class="language-plaintext highlighter-rouge">a</code> element does not fail this rule, because it’s inapplicable.  To have a “focusable element within a focusable element” like this is a bad practice, but this rule doesn’t directly check for it.</p>
+<p>This <code class="language-plaintext highlighter-rouge">a</code> element has a <code class="language-plaintext highlighter-rouge">link</code> role, which does not have <a href="https://www.w3.org/TR/wai-aria-1.2/#childrenArePresentational" title="WAI-ARIA 1.2 Presentational Children">presentational children</a>. To have a “focusable element within a focusable element” like this is a bad practice, but this rule doesn’t directly check for it.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://w3.org"</span><span class="nt">&gt;&lt;span</span> <span class="na">tabindex=</span><span class="s">"0"</span><span class="nt">&gt;</span>W3C Website<span class="nt">&lt;/span&gt;&lt;/a&gt;</span>
 </code></pre></div></div>
@@ -715,21 +715,21 @@ h2#sidebar-header {
       </thead>
       <tbody>
           <tr>
-            <td>@accesslint/core 0.12.1</td>
+            <td>@accesslint/core 0.16.0</td>
             <td>Automated tool</td>
             <td> Partial
             </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/accesslint-core#breakdown-307n5z"><img alt="@accesslint/core Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Alfa (fully automated) 0.117.0</td>
+            <td>Alfa (fully automated) 0.118.0</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/alfa#breakdown-307n5z"><img alt="Alfa (fully automated) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
-            <td>Alfa (semi-automated) 0.117.0</td>
+            <td>Alfa (semi-automated) 0.118.0</td>
             <td>Semi-automated tool</td>
             <td>
               Consistent </td>
@@ -748,6 +748,13 @@ h2#sidebar-header {
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/axe-core#breakdown-307n5z"><img alt="Axe-core Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Equal Access Accessibility Checker 3.1.42-rc.0</td>
+            <td>Automated tool</td>
+            <td>
+              Consistent </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/equal-access#breakdown-307n5z"><img alt="Equal Access Accessibility Checker Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
             <td>QualWeb 3.0.0</td>
@@ -833,7 +840,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 307n5z</p>
-<p><strong>Date:</strong> Updated 19 January 2026</p>
+<p><strong>Date:</strong> Updated 24 July 2026</p>
 <p><strong>Authors:</strong> <a href="https://github.com/wilcofiers">Wilco Fiers</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
@@ -887,9 +894,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1784821363300549072"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1785157102632026398"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1784821363300549072"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1785157102632026398"></script>
 <script>
   svg4everybody();
 </script><script>
