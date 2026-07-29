@@ -160,7 +160,7 @@ Accessibility checks can be performed at all stages of the process, not only whe
 ### For more information
 
 -   [Identify the Issues](/planning/interim-repairs/#explore) in Web Accessibility First Aid: Approaches for Interim Repairs – Links to resources to help evaluate your website.
--   [WCAG-EM Overview](/test-evaluate/conformance/) – Introduces a methodology for determining how well a website conforms to WCAG.
+-   [WCAG-EM Overview](/test-evaluate/conformance/wcag-em/) – Introduces a methodology for determining how well a digital product conforms to WCAG.
 -   [Involving Users in Web Projects for Better, Easier Accessibility](/planning/involving-users/) – Describes the benefits of involving users in projects and how to go about it.
 
 {% include excol.html type="end" %}

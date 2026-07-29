@@ -9,6 +9,7 @@ last_updated: 2023-08-01  # Keep the date of the English version
 
 translation:
   last_updated: 2025-04-13  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  outdated: true
 
 translators:
   - name: "Jorge Rumoroso"

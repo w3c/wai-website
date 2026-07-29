@@ -5,10 +5,10 @@
 title: "Évaluer l’accessibilité Web – Vue d’ensemble"
 nav_title: "Vue d’ensemble de l’évaluation"
 lang: fr
-last_updated: 2023-08-01 # Keep the date of the English version
+last_updated: 2026-07-24 # Keep the date of the English version
 
 translation:
-  last_updated: 2023-11-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2026-07-24  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Sofia Ahmed"
@@ -126,9 +126,9 @@ Les outils d’évaluation de l’accessibilité Web sont des logiciels ou des s
   poster="/content-images/test-eval/video-thumb-conformance.png"
 %}
 
-L’évaluation de la conformité détermine dans quelle mesure les pages ou les applications Web sont conformes aux standards d’accessibilité. La méthodologie d’évaluation de la conformité à l’accessibilité d’un site Web de W3C (WCAG-EM) constitue une approche pour déterminer la conformité aux Règles pour l’accessibilité des contenus Web (WCAG).
+L’évaluation de la conformité détermine dans quelle mesure les pages ou les applications Web sont conformes aux standards d’accessibilité. La méthodologie d’évaluation de la conformité aux WCAG (WCAG-EM) constitue une approche pour déterminer la conformité aux Règles pour l’accessibilité des contenus Web (WCAG).
 
-[[Vue d’ensemble de WCAG-EM : méthodologie de l’évaluation de la conformité à l’accessibilité d’un site Web]](/test-evaluate/conformance/wcag-em/)
+[[Vue d’ensemble de WCAG-EM : méthodologie d’évaluation de la conformité aux WCAG]](/test-evaluate/conformance/wcag-em/)
 : Une courte page contenant des informations de base pour débuter. Nous vous suggérons de la lire avant de consulter le [document complet sur WCAG-EM](https://www.w3.org/TR/WCAG-EM/)
 
 [Outil de création de rapports WCAG-EM : un générateur de rapports d’évaluation de l’accessibilité Web](https://www.w3.org/WAI/eval/report-tool/#/)

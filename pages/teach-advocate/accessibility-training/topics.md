@@ -5,7 +5,7 @@
 title: "Topics for Web Accessibility Presentations and Training"
 nav_title: Topics
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2018-05-24 # Keep the date of the English version
+last_updated: 2026-07-24 # Keep the date of the English version
 order: 1
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -21,6 +21,8 @@ github:
 
 permalink: /teach-advocate/accessibility-training/topics/  # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
 ref: /teach-advocate/accessibility-training/topics/  # Do not change this
+
+custom_changelog: /teach-advocate/accessibility-training/changelog/
 
 # In the footer below:
 # Do not change the dates
@@ -704,7 +706,7 @@ This topic introduces the process of embracing web accessibility by improving ex
 - [Web Accessibility First Aid: Approaches for Interim Repairs](https://www.w3.org/WAI/impl/improving) - approaches to make the process of improving accessibility more efficient and effective
 - [Planning and Managing Web Accessibility](https://www.w3.org/WAI/impl/) - considerations for the planning process for implementing web accessibility
 - [Easy Checks - A First Review of Web Accessibility](/test-evaluate/preliminary/) - provides step-by-step guidance and brief explanations for checking some aspects of accessibility.
-- [WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology](/test-evaluate/conformance/) - introduces an approach for determining conformance to Web Content Accessibility Guidelines (WCAG)
+- [WCAG-EM Overview: WCAG Evaluation Methodology](/test-evaluate/conformance/) - introduces an approach for determining conformance to Web Content Accessibility Guidelines (WCAG)
 
 ### Suggestions for speakers
 
@@ -908,9 +910,9 @@ Introducing WCAG 2](#intro20).
 
 #### Primary resources
 
-- Website Accessibility Conformance Evaluation Methodology (WCAG-EM) documents:
+- WCAG Evaluation Methodology (WCAG-EM) documents:
   - [WCAG-EM Overview](/test-evaluate/conformance/) - introduces an approach for determining conformance to Web Content Accessibility Guidelines (WCAG)
-  - [Website Accessibility Conformance Evaluation Methodology (WCAG-EM) ](https://www.w3.org/TR/WCAG-EM/)
+  - [WCAG Evaluation Methodology (WCAG-EM) ](https://www.w3.org/TR/WCAG-EM/)
   - [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/#/) - helps you generate evaluation reports according to WCAG-EM.
 - [Using Combined Expertise to Evaluate Web Accessibility](https://www.w3.org/WAI/eval/reviewteams) - describes the diverse kinds of expertise and perspectives required to evaluate the accessibility of web content
 - [Involving Users in Evaluating Web Accessibility](https://www.w3.org/WAI/eval/users) - describes the benefits from evaluating with real people and identifying usability issues that are not discovered by conformance evaluation alone

@@ -1,7 +1,7 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
-title: "WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology"
+title: "WCAG-EM Overview: WCAG Evaluation Methodology"
 title_html: "WCAG-EM Overview:<br>WCAG Evaluation Methodology"
 nav_title: "WCAG-EM Evaluation Methodology"
 lang: en  # Change "en" to the translated-language shortcode

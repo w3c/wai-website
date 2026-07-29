@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/w3c/wai-website-theme
-  revision: 468c42cf13a29f4921df47caae7abc35269a77ff
-  branch: main
+  revision: 02a34d61d94d03f2bffec82b14ac8054cc48a24c
+  branch: add-changelogs
   specs:
     wai-website-theme (1.10)
       jekyll (~> 4.4.1)

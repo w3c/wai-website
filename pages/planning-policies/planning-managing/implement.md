@@ -145,7 +145,7 @@ Use a standard report structure to capture evaluation findings. This allows for 
 ### For more information
 
 -   [Easy Checks - A First Review of Web Accessibility](/test-evaluate/preliminary/) – Provides simple steps to help assess if a web page addresses accessibility.
--   [WCAG-EM Overview](/test-evaluate/conformance/) – Introduces a methodology for determining how well a website conforms to WCAG.
+-   [WCAG-EM Overview](/test-evaluate/conformance/wcag-em/) – Introduces a methodology for determining how well a digital product conforms to WCAG.
 -   [Involving Users with Disabilities](/planning/involving-users/) – Describes how to involve users to help better understand accessibility issues.
 
 {% include excol.html type="end" %}{% include excol.html type="start" id="" %}
