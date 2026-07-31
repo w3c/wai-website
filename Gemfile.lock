@@ -9,8 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/w3c/wai-website-theme
-  revision: d391719682fc100fd2f307b6825178685bd3164c
-  branch: kgf-turnstile
+  revision: 468c42cf13a29f4921df47caae7abc35269a77ff
+  branch: main
   specs:
     wai-website-theme (1.10)
       jekyll (~> 4.4.1)
