@@ -162,7 +162,9 @@ exports.handler = async function (event, context) {
     event.headers["CF-Connecting-IP"] ||
       event.headers["X-Forwarded-For"] ||
       "unknown",
-    formData['DEBUG'] || module === require.main
+    (process.env.CONTEXT && process.env.CONTEXT !== "production") ||
+      module === require.main ||
+      formData['DEBUG']
   );
   if (!turnstileResult.success) {
     console.error(`Rejecting form submission which failed Turnstile challenge`);
