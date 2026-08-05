@@ -24,41 +24,43 @@ footer: >
   </p>
 ---
 
-
 ## What is Zoom?
 
-Zoom is used to enlarge the text and images on web pages to make them more readable. In most browsers the 'Ctrl' or 'Cmd' with '+' will increase zoom. 'Ctrl' or 'Cmd' with '-' will reduce zoom and 'Ctrl' or 'Cmd' with '0' will reset it.
+Zoom is used to increase the size of text and images on web pages to make them more readable. In most browsers the 'Ctrl' or 'Cmd' keys together with '+' will increase zoom. 'Ctrl' or 'Cmd' with '-' will reduce zoom and 'Ctrl' or 'Cmd' with '0' will reset it.
 
 ![Example of an unzoomed webpage]({{ "/content-images/easy-checks/example-zoom-nozoom.png" | relative_url }}){:.normal}&nbsp;![Example of an zoomed webpage]({{ "/content-images/easy-checks/example-zoom-zoomed.png" | relative_url }}){:.normal}
 
 ## Why is Zoom important?
 
-Zoom is used to magnify text and other elements so it becomes readable for people with low vision.
-
-Some people just need to enlarge the text a little if they forgot their reading glasses. Others need to enlarge it a lot, for example up to 200% or even larger.
+People with low vision use zoom to increase the size of text and other elements, so they can see it better.
+Some people only need to increase the text size a little, for example if they forgot their reading glasses. Others need to increase the text size a lot, for example up to 200% or even larger.
 
 
 ## Checking Zoom
 
 ### Checking this page
 
-This is just for practice. Also, you can see what the check will look like on an accessible page.
+Practice checking how zoom works on this page. You can also see how zoom works on this accessible page. Follow these steps:
 
-* Don't use a big wide browser window. Resize your browser so that it is quite narrow
-* Press 'Ctrl'/'Cmd' with '+' to enlarge the text to 200%. Doing it five times should bring you to 200%
-* Note that all the text wraps to remain within the visible area as you zoomed
-* This page has horizontal text, so no horizontal scrolling is should be required
+1. Resize your browser window so it's quite narrow, don't use a big wide browser window
+1. Press 'Ctrl'/'Cmd' with '+' and repeat as often as you need to get the text to 200%, stop when you reach 200%
 
-### Checking other pages 
+While you zoom in, see how:
 
-The same process will work on other pages. However, if the page hasn't been coded with accessibility in mind, the content may become unusable.
-   
+- All the text wraps when you zoom, so you can always see the text
+- This page has horizontal text, but you do not need to scroll horizontally
+
+### Checking other pages
+
+You can check other pages by following the steps listed above. But, if the page you're checking was not programmed with accessibility in mind, zooming in may make the content unusable.
+
 ### What to look for
 
-* All text is still readable
-* Text isn't hidden behind other text or images
-* If the content uses a horizontal-writing system then check that horizontal scrolling isn't required to view all the content. For content using vertical-writing systems, vertical scrolling shouldn't be required
-* Sometimes navigation menus change to an icon that can be clicked to access the menu. This is fine
+* All text is readable
+* Text is not hidden behind other text or images
+* If the content uses a horizontal-writing system: you should not need to scroll horizontally to see all the content
+* If the content uses a vertical-writing system: you should not need to scroll vertically to see all the content
+* When zoomed in, navigation menus may change from the full menu into an icon that you can select to access the menu. This is fine
 
 ## Learn more
 
