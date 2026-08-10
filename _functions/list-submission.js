@@ -155,16 +155,17 @@ exports.handler = async function (event, context) {
     return { statusCode: 415, body: 'Unsupported Media Type' }
   }
 
-  const formData = formEncodedToPOJO(event.body)
+  const formData = formEncodedToPOJO(event.body);
+  const isDebug = formData["DEBUG"] && process.env.DEPLOY_CONTEXT !== "production";
 
   const turnstileResult = await validateTurnstile(
     formData["cf-turnstile-response"],
     event.headers["CF-Connecting-IP"] ||
       event.headers["X-Forwarded-For"] ||
       "unknown",
-    (process.env.CONTEXT && process.env.CONTEXT !== "production") ||
+    (process.env.DEPLOY_CONTEXT && process.env.DEPLOY_CONTEXT !== "production") ||
       module === require.main ||
-      formData['DEBUG']
+      isDebug
   );
   if (!turnstileResult.success) {
     console.error(`Rejecting form submission which failed Turnstile challenge`);
@@ -184,12 +185,13 @@ exports.handler = async function (event, context) {
   }
 
   // new id if not in form - v1 date based to avoid duplications
-  formData['submission_ref'] = formData['submission_ref'] || uuidv1()
-  formData['submission_date'] = (new Date).toISOString()
+  formData['submission_ref'] = uuidv1();
+  formData['submission_date'] = (new Date).toISOString();
+  delete formData['cf-turnstile-response'];
 
   console.info(`Processing form ${formData['repository']}/${formData['form_name']} ${formData['submission_ref']}`)
 
-  if (formData['DEBUG']) {
+  if (isDebug) {
     console.info("Debugging: returning form JSON and not calling GitHub")
     const result = {JSON: formData, form: event.body, headers: event.headers}
     //console.info(result)
@@ -200,8 +202,13 @@ exports.handler = async function (event, context) {
   const res = await callGitHubWebhook(formData)
   const success = res.statusCode >= 200 && res.statusCode <= 299
   if (!success) {
-    console.error(`GitHub returned failure: ${res.statusCode}, ${res.body}`)
-    return response(res.statusCode, mkURI(formData['failure']), {"error": "GitHub Action failed with ${res.statusCode}, ${res.body}"})
+    console.error(`GitHub returned failure: ${res.statusCode}, ${res.body}`);
+    // In case of schema error, include problematic field value in log
+    if (res.body.includes("links/0/schema")) {
+      const match = /links\/0\/schema', \\"([^\\]+)/.exec(res.body);
+      if (match?.[1]) console.info(`formData[${match[1]}] = ${formData[match[1]]}`);
+    }
+    return response(res.statusCode, mkURI(formData['failure']), {"error": "GitHub Action failed with ${res.statusCode}, ${res.body}"});
   }
 
   return response(200, mkURI(formData['success']), formData )
