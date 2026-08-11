@@ -131,7 +131,7 @@ _To get short descriptions of primary content, see [[WAI Resources]](/resources/
   - [[Web Accessibility Evaluation Tools List]](/test-evaluate/tools/list/)
 - Conformance Evaluation and Reports
   - [[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
-  - [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator {% include_cached external.html label="Different format" %}](https://www.w3.org/WAI/eval/report-tool/)
+  - [WCAG-EM Report Tool: WCAG Evaluation Report Generator {% include_cached external.html label="Different format" %}](https://www.w3.org/WAI/eval/report-tool/)
   - [[Template for Accessibility Evaluation Reports]](/test-evaluate/report-template/)
   - [ATAG Report Tool {% include_cached external.html label="Different format" %}](https://www.w3.org/WAI/atag/report-tool/)
 - For Developers of Test Tools and Methodologies

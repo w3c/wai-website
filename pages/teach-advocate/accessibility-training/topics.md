@@ -913,7 +913,7 @@ Introducing WCAG 2](#intro20).
 - WCAG Evaluation Methodology (WCAG-EM) documents:
   - [WCAG-EM Overview](/test-evaluate/conformance/) - introduces an approach for determining conformance to Web Content Accessibility Guidelines (WCAG)
   - [WCAG Evaluation Methodology (WCAG-EM) ](https://www.w3.org/TR/WCAG-EM/)
-  - [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/#/) - helps you generate evaluation reports according to WCAG-EM.
+  - [WCAG-EM Report Tool: WCAG Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/) - helps you generate evaluation reports according to WCAG-EM.
 - [Using Combined Expertise to Evaluate Web Accessibility](https://www.w3.org/WAI/eval/reviewteams) - describes the diverse kinds of expertise and perspectives required to evaluate the accessibility of web content
 - [Involving Users in Evaluating Web Accessibility](https://www.w3.org/WAI/eval/users) - describes the benefits from evaluating with real people and identifying usability issues that are not discovered by conformance evaluation alone
 - [Selecting Web Accessibility Evaluation Tools](https://www.w3.org/WAI/eval/selectingtools) - provides guidance on choosing tools; describes the features and functionality of different types of evaluation tools, and discusses things to consider for your situation

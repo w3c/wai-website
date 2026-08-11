@@ -43,7 +43,7 @@ Conformance evaluation determines how well web pages or applications meet access
 [[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
 :   A short page with basic information to get you started. We suggest you read it before going to the [full WCAG-EM document](https://www.w3.org/TR/WCAG-EM/).
 
-[WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/)
+[WCAG-EM Report Tool: WCAG Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/)
 :   Helps you generate evaluation reports according to WCAG-EM. It does not do the checking for you. It helps you follow the steps of WCAG-EM and it generates a report from the input you provide.
 
 [[Template for Web Accessibility Evaluation Reports]](/test-evaluate/report-template/)
