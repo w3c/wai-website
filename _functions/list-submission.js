@@ -181,7 +181,7 @@ exports.handler = async function (event, context) {
     }
   }
 
-  // new id if not in form - v1 date based to avoid duplications
+  // Generates a v1 uuid (time-based) to avoid ID collisions
   formData['submission_ref'] = uuidv1();
   formData['submission_date'] = (new Date).toISOString();
   delete formData['cf-turnstile-response'];
