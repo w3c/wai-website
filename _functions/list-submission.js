@@ -155,17 +155,14 @@ exports.handler = async function (event, context) {
     return { statusCode: 415, body: 'Unsupported Media Type' }
   }
 
-  const formData = formEncodedToPOJO(event.body);
-  const isDebug = formData["DEBUG"] && process.env.DEPLOY_CONTEXT !== "production";
+  const formData = formEncodedToPOJO(event.body)
 
   const turnstileResult = await validateTurnstile(
     formData["cf-turnstile-response"],
     event.headers["CF-Connecting-IP"] ||
       event.headers["X-Forwarded-For"] ||
       "unknown",
-    (process.env.DEPLOY_CONTEXT && process.env.DEPLOY_CONTEXT !== "production") ||
-      module === require.main ||
-      isDebug
+    module === require.main || formData["DEBUG"]
   );
   if (!turnstileResult.success) {
     console.error(`Rejecting form submission which failed Turnstile challenge`);
@@ -191,7 +188,7 @@ exports.handler = async function (event, context) {
 
   console.info(`Processing form ${formData['repository']}/${formData['form_name']} ${formData['submission_ref']}`)
 
-  if (isDebug) {
+  if (formData['DEBUG']) {
     console.info("Debugging: returning form JSON and not calling GitHub")
     const result = {JSON: formData, form: event.body, headers: event.headers}
     //console.info(result)
