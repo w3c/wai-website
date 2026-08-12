@@ -22,7 +22,7 @@ footer: >
 ## 24 July 2026
 
 We've updated the [Evaluation section](/standards-guidelines/#evaluation) to:
-- reflect the new expanded form or WCAG-EM: WCAG Evaluation Methodology
+- reflect the new expanded form of WCAG-EM: WCAG Evaluation Methodology
 - clarify that WCAG-EM now applies to digital products, beyond just websites
 
 ## 26 May 2026
