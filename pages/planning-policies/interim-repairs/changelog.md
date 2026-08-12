@@ -4,7 +4,7 @@
 title: "Changelog for Web Accessibility First Aid"
 nav_title: Changelog
 lang: en
-last_updated: 2026-07-24
+last_updated: 2026-08-12
 
 github:
   label: wai-first-aid
