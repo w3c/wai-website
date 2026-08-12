@@ -3428,10 +3428,12 @@
 /planning/es.html
 /planning/fr.html
 /planning/index.html
+/planning/interim-repairs/changelog/index.html
 /planning/interim-repairs/fr.html
 /planning/interim-repairs/index.html
 /planning/involving-users/fr.html
 /planning/involving-users/index.html
+/planning/org-policies/changelog/index.html
 /planning/org-policies/example/index.html
 /planning/org-policies/index.html
 /planning/statements/acknowledgements/index.html
@@ -3771,6 +3773,7 @@
 /standards-guidelines/wcag/wcag3-intro/index.html
 /standards-guidelines/wcag/wcag3-intro/ja.html
 /standards-guidelines/zh-hans.html
+/teach-advocate/accessibility-training/changelog/index.html
 /teach-advocate/accessibility-training/index.html
 /teach-advocate/accessibility-training/presentation-outlines/index.html
 /teach-advocate/accessibility-training/topics/index.html
@@ -3784,6 +3787,7 @@
 /test-evaluate/acknowledgements/index.html
 /test-evaluate/changelog/index.html
 /test-evaluate/combined-expertise/index.html
+/test-evaluate/conformance/changelog/index.html
 /test-evaluate/conformance/fr.html
 /test-evaluate/conformance/index.html
 /test-evaluate/conformance/wcag-em/index.html
