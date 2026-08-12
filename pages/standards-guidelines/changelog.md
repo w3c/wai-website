@@ -21,7 +21,7 @@ footer: >
 
 ## 12 August 2026
 
-We updated the [Evaluation section](/standards-guidelines/#evaluation) to:
+We updated the [Evaluation section](/standards-guidelines/#eval) to:
 - use the new title of WCAG-EM: WCAG Evaluation Methodology
 - clarify that WCAG-EM now applies to digital products, beyond just websites
 
