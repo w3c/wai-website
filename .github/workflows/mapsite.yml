@@ -2,15 +2,16 @@ name: mapsite
 
 on:
   workflow_dispatch
-  
+
+permissions:
+  contents: read
+
 jobs:
   map:
-
     runs-on: ubuntu-latest
-
     steps:
     - name: Update URL mapping on W3C site
-      uses: fjogeleit/http-request-action@v2
+      uses: fjogeleit/http-request-action@f98bb26551cd1af7d3eb2674578a80754ece88db #v2.0.1
       with:
         url: 'https://www.w3.org/services/update-wai-map'
         method: 'POST'
