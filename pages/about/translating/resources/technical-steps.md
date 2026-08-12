@@ -51,7 +51,7 @@ For instructions on translating the Web Content Accessibility Guidelines (WCAG),
 {:/}
 **W3C staff temporarily has limited availability to support WAI translations.**
 
-We expect to resume full support in early November 2026. Thank you very much for your patience, if we are not able to reply to you until then. We greatly appreciate contributions and look forward to supporting you as soon as possible.
+We expect to resume full support by late October 2026. Thank you very much for your patience, if we are not able to reply to you until then. We greatly appreciate contributions and look forward to supporting you as soon as possible.
 
 To receive updates, subscribe to the WAI Translations mailing list by sending an e-mail to <public-wai-translations-request@w3.org> with subject: “subscribe”.
 
