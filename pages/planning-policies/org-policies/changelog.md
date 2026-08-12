@@ -15,4 +15,4 @@ ref: /planning/org-policies/changelog/
 
 ## 12 August 2026
 
-In the [Designing a Policy section](/planning/org-policies/#about), we updated the example to use the new title of WCAG-EM: WCAG Evaluation Methodology.
+In the [Define monitoring and review process section](/planning/org-policies/#monitor), we updated the first example to use the new title of WCAG-EM: WCAG Evaluation Methodology.
