@@ -1,10 +1,10 @@
 ---
 title: Évaluation de la conformité et rapports
 lang: fr
-last_updated: 2023-08-01  # Keep the date of the English version
+last_updated: 2026-08-12 # Keep the date of the English version
 
 translation:
-  last_updated: 2023-11-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2026-08-12  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Rémi Bétin"
@@ -37,10 +37,10 @@ L’évaluation de la conformité détermine dans quelle mesure les pages ou les
   <p><a href="#alternatives">Alternatives pour la vidéo « Vue d’ensemble de l’évaluation de la conformité »</a></p>
 </div>
 
-[[Vue d’ensemble de WCAG-EM : méthodologie de l’évaluation de la conformité à l’accessibilité d’un site Web]](/test-evaluate/conformance/wcag-em/)
+[[Vue d’ensemble de WCAG-EM : méthodologie d’évaluation de la conformité aux WCAG]](/test-evaluate/conformance/wcag-em/)
 : Une courte page contenant des informations de base pour débuter. Nous vous suggérons de la lire avant de consulter le [document complet sur WCAG-EM](https://www.w3.org/TR/WCAG-EM/)
 
-[Outil de création de rapports WCAG-EM : un générateur de rapports d’évaluation de l’accessibilité Web](https://www.w3.org/WAI/eval/report-tool/)
+[Outil de création de rapports WCAG-EM : un générateur de rapports d’évaluation de la conformité aux WCAG](https://www.w3.org/WAI/eval/report-tool/)
 : Vous aide à générer des rapports d’évaluation selon WCAG-EM. L’outil ne fait pas la vérification à votre place. Il vous aide à suivre les étapes de WCAG-EM et génère un rapport à partir des données fournies.
 
 [[Modèle de rapports d’évaluation de l’accessibilité Web]](/test-evaluate/report-template/)

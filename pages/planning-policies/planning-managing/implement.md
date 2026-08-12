@@ -4,7 +4,7 @@
 title: "Implement"
 nav_title: "Implement"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2018-01-09  # Keep the date of the English version
+last_updated: 2026-08-12  # Keep the date of the English version
 first_published: "October 2002"
 title_icon: /content-images/planning-managing/icons.svg#implement
 order: 3
@@ -145,7 +145,7 @@ Use a standard report structure to capture evaluation findings. This allows for 
 ### For more information
 
 -   [Easy Checks - A First Review of Web Accessibility](/test-evaluate/preliminary/) – Provides simple steps to help assess if a web page addresses accessibility.
--   [WCAG-EM Overview](/test-evaluate/conformance/) – Introduces a methodology for determining how well a website conforms to WCAG.
+-   [WCAG-EM Overview](/test-evaluate/conformance/wcag-em/) – Introduces a methodology for determining how well websites and other digital products conform to WCAG.
 -   [Involving Users with Disabilities](/planning/involving-users/) – Describes how to involve users to help better understand accessibility issues.
 
 {% include excol.html type="end" %}{% include excol.html type="start" id="" %}

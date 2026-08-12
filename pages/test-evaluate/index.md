@@ -5,7 +5,7 @@
 title: "Evaluating Web Accessibility Overview"
 nav_title: "Evaluation Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2023-08-01 # Keep the date of the English version
+last_updated: 2026-08-12 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -119,12 +119,12 @@ accessible-version-label="Video: Conformance Evaluation Overview"
 poster="/content-images/test-eval/video-thumb-conformance.png"
 %}
 
-Conformance evaluation determines how well web pages or applications meet accessibility standards. W3C’s Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG).
+Conformance evaluation determines how well web pages or applications meet accessibility standards. W3C’s WCAG Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG).
 
-[[WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
+[[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
 :   A short page with basic information to get you started. We suggest you read it before going to the [full WCAG-EM document](https://www.w3.org/TR/WCAG-EM/).
 
-[WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/)
+[WCAG-EM Report Tool: WCAG Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/)
 :   Helps you generate evaluation reports according to WCAG-EM. It does not do the checking for you. It helps you follow the steps of WCAG-EM and it generates a report from the input you provide.
 
 [[Template for Web Accessibility Evaluation Reports]](/test-evaluate/report-template/)

@@ -1,11 +1,11 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
-title: "WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology"
+title: "WCAG-EM Overview: WCAG Evaluation Methodology"
 title_html: "WCAG-EM Overview:<br>WCAG Evaluation Methodology"
 nav_title: "WCAG-EM Evaluation Methodology"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-07-23  # Keep the date of the English version
+last_updated: 2026-08-12  # Keep the date of the English version
 first_published: "as “Conformance Evaluation of Web Sites for Accessibility” in September 2005"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -41,7 +41,7 @@ This page introduces the WCAG Evaluation Methodology (WCAG-EM).
 Quick links to the resources:
 
 -   [WCAG Evaluation Methodology (WCAG-EM) 2.0](https://www.w3.org/TR/wcag-em-2/)
--   [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](http://www.w3.org/WAI/eval/report-tool/)
+-   [WCAG-EM Report Tool: WCAG Evaluation Report Generator](http://www.w3.org/WAI/eval/report-tool/)
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -198,7 +198,7 @@ WCAG-EM follows the W3C format for technical specifications which includes sever
 WCAG-EM Report Tool {#wert}
 ----------------------------
 
-The [**WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator**](https://www.w3.org/WAI/eval/report-tool/) helps you follow the steps of WCAG-EM and generate a structured report from the input that you provide. The tool is currently for WCAG-EM 1. We plan to provide an updated WCAG-EM 2 Report Tool later in 2026.
+The [**WCAG-EM Report Tool: WCAG Evaluation Report Generator**](https://www.w3.org/WAI/eval/report-tool/) helps you follow the steps of WCAG-EM and generate a structured report from the input that you provide.
 
 WCAG-EM 2 and WCAG-EM 1 {#versiondiff}
 -----------------------
