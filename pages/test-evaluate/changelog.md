@@ -4,7 +4,7 @@ title: "Changelog for Evaluating Web Accessibility Overview"
 title_html: "Changelog for <a href='/WAI/teach-advocate/'>Evaluating Web Accessibility Overview</a>"
 nav_title: "Changelog"
 lang: en
-last_updated: 2026-07-24
+last_updated: 2026-08-12
 
 permalink: /test-evaluate/changelog/
 ref: /test-evaluate/changelog/
@@ -15,9 +15,9 @@ github:
 feedbackmail: wai@w3.org
 ---
 
-## 24 July 2026
+## 12 August:
 
-* We've updated the [Conformance Evaluation and Reports section](/test-evaluate/#conformance) to reflect the new expanded form of WCAG-EM: WCAG Evaluation Methodology.
+* We updated the [Conformance Evaluation and Reports section](/test-evaluate/#conformance) to use the new title of WCAG-EM: WCAG Evaluation Methodology.
 
 ## August 2023
 

@@ -5,7 +5,7 @@ title: "WCAG-EM Overview: WCAG Evaluation Methodology"
 title_html: "WCAG-EM Overview:<br>WCAG Evaluation Methodology"
 nav_title: "WCAG-EM Evaluation Methodology"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-07-23  # Keep the date of the English version
+last_updated: 2026-08-12  # Keep the date of the English version
 first_published: "as “Conformance Evaluation of Web Sites for Accessibility” in September 2005"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)

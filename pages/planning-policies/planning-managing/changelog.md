@@ -4,7 +4,7 @@ title: "Changelog for Planning and Managing Web Accessibility"
 title_html: "Changelog for <a href='/WAI/planning-and-managing/'>Planning and Managing Web Accessibility</a>"
 nav_title: "Changelog"
 lang: en
-last_updated: 2026-07-24
+last_updated: 2026-08-12
 
 github:
   label: wai-planning-managing
@@ -15,9 +15,9 @@ ref: /planning-and-managing/changelog/
 feedbackmail: wai@w3.org
 ---
 
-## 24 July 2026
+## 12 August 2026
 
-We've updated the [Plan](/planning-and-managing/plan/) and [Implement](/planning-and-managing/implement/) pages to reflect that [WCAG-EM](/test-evaluate/conformance/wcag-em/) now applies to digital products, beyond just websites.
+We updated the [Plan](/planning-and-managing/plan/) and [Implement](/planning-and-managing/implement/) pages to indicate that [WCAG-EM](/test-evaluate/conformance/wcag-em/) now applies to digital products, beyond just websites.
 
 ## 6 March 2025
 

@@ -5,10 +5,10 @@ title: "Premiers secours de l'accessibilité Web : stratégies de réparations p
 title_html: "Premiers secours de l'accessibilité Web&nbsp;:<br />stratégies de réparations provisoires"
 nav_title: des solutions provisoires
 lang: fr   # Change "en" to the translated-language shortcode
-last_updated: 2026-07-24   # Keep the date of the English version
+last_updated: 2026-08-12   # Keep the date of the English version
 
 translation:
-  last_updated: 2026-07-24  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+  last_updated: 2026-08-12  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
   - name: "Sofia Ahmed"
@@ -92,9 +92,9 @@ Si vous avez déjà détecté les problèmes d'accessibilité, vous pouvez passe
 
 Pour une évaluation approfondie&nbsp;:
 
-- [Méthodologie pour l'évaluation de la conformité aux WCAG (WCAG-EM)](/test-evaluate/conformance/wcag-em/)&nbsp;— Fournit une approche structurée pour aider à évaluer l'accessibilité de produits numériques.
+- [Méthodologie pour l'évaluation de la conformité aux WCAG (WCAG-EM)](/test-evaluate/conformance/wcag-em/)&nbsp;— Fournit une approche structurée pour aider à évaluer l’accessibilité des sites web et d'autres produits numériques.
 - [Outil de rapport WCAG-EM](https://www.w3.org/WAI/eval/report-tool/)&nbsp;—
-    Outil en ligne gratuit qui vous aide à créer des rapports d'évaluation suivant la procédure WCAG-EM.
+    Outil en ligne gratuit qui vous aide à créer des rapports d’évaluation suivant la procédure WCAG-EM.
 
 Soyez attentif au périmètre {#scope}
 ------------------

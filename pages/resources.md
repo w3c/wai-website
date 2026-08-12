@@ -1,7 +1,7 @@
 ---
 title: WAI Resources
 lang: en
-last_updated: 2026-07-24
+last_updated: 2026-08-12
 
 github:
   label: wai-resources-list
@@ -409,7 +409,7 @@ The following resources support development of accessibility evaluation methods 
 
 Additional resources related to evaluation are listed in the [[Evaluating Web Accessibility Overview]](/test-evaluate/), including:
 
-- [[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM is an approach for determining how well a digital product conforms to Web Content Accessibility Guidelines (WCAG).
+- [[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM is an approach for determining how well websites and other digital products conform to Web Content Accessibility Guidelines (WCAG).
 
 #### WAI-Adapt
 

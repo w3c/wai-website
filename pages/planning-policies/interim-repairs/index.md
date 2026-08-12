@@ -6,7 +6,7 @@ title: "Web Accessibility First Aid: Approaches for Interim Repairs"
 title_html: "Web Accessibility First Aid:<br> Approaches for Interim Repairs"
 nav_title: Approaches for Interim Repairs
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2026-07-24   # Keep the date of the English version
+last_updated: 2026-08-12   # Keep the date of the English version
 first_published: "March 2006"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -91,7 +91,7 @@ If you already know your accessibility issues, you can skip this section. If you
 
 When you want to do a comprehensive evaluation:
 
-- [WCAG Evaluation Methodology (WCAG-EM)](/test-evaluate/conformance/wcag-em/) — Provides a structured approach to help evaluate digital products for accessibility.
+- [WCAG Evaluation Methodology (WCAG-EM)](/test-evaluate/conformance/wcag-em/) — Provides a structured approach to help evaluate websites and other digital products for accessibility.
 - [WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/) — Free online tool to help create evaluation reports following the WCAG-EM procedure.
 
 Consider the Scope {#scope}

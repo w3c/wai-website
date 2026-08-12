@@ -5,7 +5,7 @@
 title: "Evaluating Web Accessibility Overview"
 nav_title: "Evaluation Overview"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-07-24 # Keep the date of the English version
+last_updated: 2026-08-12 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator

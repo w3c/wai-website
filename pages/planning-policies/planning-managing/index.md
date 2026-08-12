@@ -4,7 +4,7 @@
 title: "Planning and Managing Web Accessibility"
 nav_title: Overview
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-07-24  # Keep the date of the English version
+last_updated: 2026-08-12  # Keep the date of the English version
 first_published: "October 2002"
 rder: 0
 

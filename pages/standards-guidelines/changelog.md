@@ -6,7 +6,7 @@ nav_title: "Changelog"
 lang: en
 class: tight-page
 
-last_updated: 2026-07-24
+last_updated: 2026-08-12
 
 permalink: /standards-guidelines/changelog/
 ref: /standards-guidelines/changelog/
@@ -19,10 +19,10 @@ footer: >
  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and Rémi Bétin. Contributor: Tolu Adegbite.</p>
 ---
 
-## 24 July 2026
+## 12 August 2026
 
-We've updated the [Evaluation section](/standards-guidelines/#evaluation) to:
-- reflect the new expanded form of WCAG-EM: WCAG Evaluation Methodology
+We updated the [Evaluation section](/standards-guidelines/#evaluation) to:
+- use the new title of WCAG-EM: WCAG Evaluation Methodology
 - clarify that WCAG-EM now applies to digital products, beyond just websites
 
 ## 26 May 2026

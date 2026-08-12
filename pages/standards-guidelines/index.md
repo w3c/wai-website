@@ -5,7 +5,7 @@
 title: W3C Accessibility Standards Overview
 nav_title: "Standards/Guidelines" # A short title that is used in the navigation
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-07-24   # Keep the date of the English version
+last_updated: 2026-08-12   # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -138,7 +138,7 @@ The following resources support development of accessibility evaluation methods 
 
 Additional resources related to evaluation are listed in the [[Evaluating Web Accessibility Overview]](/test-evaluate/), including:
 
-- [[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM is an approach for determining how well a digital product conforms to Web Content Accessibility Guidelines (WCAG).
+- [[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM is an approach for determining how well websites and other digital products conform to Web Content Accessibility Guidelines (WCAG).
 
 ### WAI-Adapt
 

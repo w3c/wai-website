@@ -140,7 +140,7 @@ Les ressources suivantes favorisent le développement de méthodes et d’outils
 
 Des ressources additionnelles relatives à l’évaluation sont disponibles dans la [vue d’ensemble « Évaluer l’accessibilité web »](/test-evaluate/), dont :
 
-- [[Vue d’ensemble de WCAG-EM : méthodologie d’évaluation de la conformité aux WCAG]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM est une approche pour déterminer dans quelle mesure un produit numérique est conforme aux Règles pour l’accessibilité des contenus Web (WCAG).
+- [[Vue d’ensemble de WCAG-EM : méthodologie d’évaluation de la conformité à l’accessibilité web]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM est une approche pour déterminer dans quelle mesure un site web est conforme aux Règles pour l’accessibilité des contenus Web (WCAG).
 
 ### WAI-Adapt
 

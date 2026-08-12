@@ -13,8 +13,8 @@ permalink: /planning/interim-repairs/changelog/
 ref: /planning/interim-repairs/changelog/
 ---
 
-## 24 July 2026
+## 12 August 2026
 
-We've updated the [Detailed Review section](/planning/interim-repairs/#comprehensive) to:
-- reflect the new expanded form of WCAG-EM, WCAG Evaluation Methodology
+We updated the [Detailed Review section](/planning/interim-repairs/#comprehensive) to:
+- use the new title of WCAG-EM: WCAG Evaluation Methodology
 - clarify that WCAG-EM now applies to digital products, beyond just websites
