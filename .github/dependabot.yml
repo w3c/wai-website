@@ -16,3 +16,6 @@ updates:
     open-pull-requests-limit: 10
     labels:
       - "submodules"
+    cooldown:
+      exclude:
+        - "_external/resources/*"

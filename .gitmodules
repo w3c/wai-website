@@ -32,5 +32,5 @@
 	branch = master
 [submodule "_external/resources/wai-wcag-supplemental"]
 	path = _external/resources/wai-wcag-supplemental
-	url = https://github.com/w3c/wai-wcag-supplemental/
+	url = https://github.com/w3c/wai-wcag-supplemental.git
 	branch = main
