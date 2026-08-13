@@ -5,21 +5,19 @@ on:
   
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write
+      contents: read
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
       with:
         submodules: true
         fetch-depth: 0
-    - name: Set up Ruby 3.3
-      uses: ruby/setup-ruby@v1
+    - name: Set up Ruby 3.4.8
+      uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b #v1.321.0
       with:
-        ruby-version: 3.3.3
+        ruby-version: 3.4.8
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Build and test with Jekyll
       run: |

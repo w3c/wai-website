@@ -15,12 +15,10 @@ navigation:
   next: /tutorials/page-structure/example/
 
 metafooter: true
-last_updated: 2017-04-13
+last_updated: 2026-04-08
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - see <a href="/WAI/tutorials/acknowledgements/">Acknowledgements</a>
 support: Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT project</a>, co-funded by the <strong>European Commission <abbr title="Information Society Technologies">IST</abbr> Programme</strong>.
@@ -90,7 +88,6 @@ The HTML5 `<section>` element marks a general region of a web page or an article
 {:/}
 
 ## Paragraphs
-
 
 Use the paragraph element (`<p>`) to mark up paragraphs of text, such as this one. The consistent styling of paragraphs improves text readability. It also gives users more control when customizing their view.
 
@@ -426,8 +423,7 @@ Each figure is wrapped in a `<figure>` element and labeled using a nested `<figc
 <figure role="group" aria-labelledby="fig-t3-capt">
     <figcaption id="fig-t3-capt">G3: SpaceBear sales volume</figcaption>
     <img src="…"
-         alt="SpaceBear sales diagram, showing the huge success in Q4"
-         longdesc="…">
+         alt="SpaceBear sales diagram, showing the huge success in Q4">
     <a href="…">Long Description</a>
 </figure>
 ~~~

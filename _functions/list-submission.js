@@ -2,9 +2,7 @@
 // NETLIFY function to call a github repository-dispatch Web hook
 // when a form submission occurs
 
-const { debug } = require('console')
 const https = require('https')
-const { isArray } = require('util')
 const { v1: uuidv1 } = require('uuid') // use v1, time-based so unique each call
 
 // GitHub dispatch web hook handler used to trigger the workflow
@@ -71,6 +69,38 @@ function callGitHubWebhook(formData) {
   })
 }
 
+/**
+ * Validates turnstile tokens;
+ * see https://developers.cloudflare.com/turnstile/get-started/server-side-validation/#form-data
+ * @param {string} response The response value sent by the Turnstile widget
+ * @param {string} remoteip End-user IP that accessed the page
+ * @param {boolean} isTesting Whether to use the test secret key instead of the real one
+ */
+async function validateTurnstile(response, remoteip, isTesting) {
+  const body = new FormData();
+
+  if (isTesting)
+    body.append("secret", "1x0000000000000000000000000000000AA"); // Always succeeds
+  else if (process.env.TURNSTILE_SECRET)
+    body.append("secret", process.env.TURNSTILE_SECRET);
+  else
+    console.warn("WARNING: TURNSTILE_SECRET environment variable not set in a non-testing environment!")
+
+  body.append("response", response);
+  body.append("remoteip", remoteip);
+
+  try {
+    const response = await fetch(
+      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+      { method: "POST", body }
+    );
+    return await response.json();
+  } catch (error) {
+    console.error("Turnstile validation error:", error);
+    return { success: false, "error-codes": ["internal-error"] };
+  }
+}
+
 function formEncodedToPOJO(formEncoded) {
   const form = new URLSearchParams(formEncoded)
   return Array.from(form.keys()).reduce((result, key) => {
@@ -83,6 +113,27 @@ function formEncodedToPOJO(formEncoded) {
   }, {})
 }
 
+/**
+ * Defines a subset of required fields expected to exist
+ * in the request body for each supported repository
+ */
+const requiredKeys = {
+  "wai-authoring-tools-list": [
+    "submitter-name",
+    "submitter-email",
+    "tool-name",
+  ],
+  "wai-course-list": [
+    "submitter_name",
+    "submitter_email",
+    "title",
+  ],
+  "wai-evaluation-tools-list": [
+    "title",
+    "website",
+    "provider",
+  ]
+};
 
 exports.handler = async function (event, context) {
   const response = (code, redir, body) =>
@@ -106,9 +157,34 @@ exports.handler = async function (event, context) {
 
   const formData = formEncodedToPOJO(event.body)
 
-  // new id if not in form - v1 date based to avoid duplications
-  formData['submission_ref'] = formData['submission_ref'] || uuidv1()
-  formData['submission_date'] = (new Date).toISOString()
+  const turnstileResult = await validateTurnstile(
+    formData["cf-turnstile-response"],
+    event.headers["CF-Connecting-IP"] ||
+      event.headers["X-Forwarded-For"] ||
+      "unknown",
+    module === require.main || formData["DEBUG"]
+  );
+  if (!turnstileResult.success) {
+    console.error(`Rejecting form submission which failed Turnstile challenge`);
+    return { statusCode: 400, body: "Form submission failed challenge validation" };
+  }
+
+  if (!(formData.repository in requiredKeys)) {
+    console.error(`Rejecting form submission for invalid repository ${formData.repository}`);
+    return { statusCode: 400, body: 'Unsupported repository value' };
+  }
+
+  for (const key of requiredKeys[formData.repository]) {
+    if (!formData[key]) {
+      console.error(`Rejecting form submission for ${formData.repository} due to missing value for ${key}`);
+      return { statusCode: 400, body: 'Form submission lacks value for required field(s)' };
+    }
+  }
+
+  // Generates a v1 uuid (time-based) to avoid ID collisions
+  formData['submission_ref'] = uuidv1();
+  formData['submission_date'] = (new Date).toISOString();
+  delete formData['cf-turnstile-response'];
 
   console.info(`Processing form ${formData['repository']}/${formData['form_name']} ${formData['submission_ref']}`)
 
@@ -123,9 +199,31 @@ exports.handler = async function (event, context) {
   const res = await callGitHubWebhook(formData)
   const success = res.statusCode >= 200 && res.statusCode <= 299
   if (!success) {
-    console.error(`GitHub returned failure: ${res.statusCode}, ${res.body}`)
-    return response(res.statusCode, mkURI(formData['failure']), {"error": "GitHub Action failed with ${res.statusCode}, ${res.body}"})
+    console.error(`GitHub returned failure: ${res.statusCode}, ${res.body}`);
+    // In case of schema error, include problematic field value in log
+    if (res.body.includes("links/0/schema")) {
+      const match = /links\/0\/schema', \\"([^\\]+)/.exec(res.body);
+      if (match?.[1]) console.info(`formData[${match[1]}] = ${formData[match[1]]}`);
+    }
+    return response(res.statusCode, mkURI(formData['failure']), {"error": "GitHub Action failed with ${res.statusCode}, ${res.body}"});
   }
 
   return response(200, mkURI(formData['success']), formData )
+}
+
+// Allow test-running locally by invoking this module directly
+if (module === require.main) {
+  const server = require('http').createServer(async (req, res) => {
+    req.setEncoding("utf8");
+    const response = await exports.handler({
+      body: (await req.toArray()).join(""),
+      headers: req.headers,
+      httpMethod: req.method,
+    });
+    res.writeHead(response.statusCode, response.headers);
+    res.end(response.body);
+  });
+  const port = 8000;
+  server.listen(port);
+  console.log(`Listening for list submissions at http://localhost:${port}`);
 }

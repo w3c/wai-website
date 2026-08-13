@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00:02.200 --> 00:00:05.200 align:middle
+¡Hola! Mi nombre es Shadi Abou-Zahra.
+
+00:00:05.400 --> 00:00:09.600 align:middle
+Soy el especialista en estrategia y tecnologías de accesibilidad del W3C,
+
+00:00:09.800 --> 00:00:11.840 align:middle
+el World Wide Web Consortium,
+
+00:00:12.040 --> 00:00:15.360 align:middle
+y hoy me gustaría hablaros sobre la accesibilidad web.
+
+00:00:15.560 --> 00:00:19.240 align:middle
+La Web es para mucha gente una parte esencial de su vida diaria
+
+00:00:19.440 --> 00:00:21.080 align:middle
+En el trabajo.
+
+00:00:21.240 --> 00:00:22.840 align:middle
+En casa.
+
+00:00:23.000 --> 00:00:24.880 align:middle
+Y en la carretera.
+
+00:00:25.080 --> 00:00:29.640 align:middle
+Accesibilidad Web significa que la gente con discapacidades pueda usar igualmente la Web.
+
+00:00:29.840 --> 00:00:35.360 align:middle
+Por ejemplo, alguien que no puede usar sus brazos, y utiliza un palo con su boca para escribir.
+
+00:00:35.560 --> 00:00:40.240 align:middle
+O alguien que no oye bien, y usa subtítulos para ver los vídeos.
+
+00:00:40.400 --> 00:00:45.800 align:middle
+O alguien que no ve bien, y usa un lector de pantalla para leer en alto lo que hay en la pantalla.
+
+00:00:46.080 --> 00:00:48.480 align:middle
+La accesibilidad tiene muchos beneficios.
+
+00:00:48.760 --> 00:00:54.280 align:middle
+Por ejemplo, los subtítulos nos benefician a todos en un entorno ruidoso o silencioso.
+
+00:00:54.440 --> 00:00:58.120 align:middle
+Un buen contraste de color funciona mejor cuando hay reflejos.
+
+00:00:58.280 --> 00:01:03.960 align:middle
+También se beneficia la gente con problemas relacionados con la edad, como en movilidad reducida.
+
+00:01:04.120 --> 00:01:09.120 align:middle
+De hecho, cualquiera tiene una mejor experiencia de usuario con una estructura y diseño mejorados.
+
+00:01:09.280 --> 00:01:14.760 align:middle
+Se puede construir gran parte de la accesibilidad en el código subyacente de las aplicaciones y sitios web.
+
+00:01:15.000 --> 00:01:21.640 align:middle
+Las tecnologías de la Web del W3C, como HTML, ofrecen apoyo en muchas características de la accesibilidad.
+
+00:01:23.120 --> 00:01:27.920 align:middle
+Por ejemplo, características para ofrecer alternativas de texto en imágenes,
+
+00:01:28.480 --> 00:01:33.080 align:middle
+que son leídas en alto por los lectores de pantalla y también usan los motores de búsqueda.
+
+00:01:34.640 --> 00:01:39.400 align:middle
+También otro código como las cabeceras o etiquetas apoyan la accesibilidad
+
+00:01:39.880 --> 00:01:42.680 align:middle
+y mejoran la calidad en general.
+
+00:01:43.320 --> 00:01:49.840 align:middle
+Las buenas herramientas de autor, como los wikis, sistemas de gestión de contenido y editores de código
+
+00:01:50.600 --> 00:01:56.760 align:middle
+ayudan a crear código accesible, bien de forma automática o a través del autor.
+
+00:01:57.440 --> 00:02:04.480 align:middle
+También los navegadores web, los reproductores multimedia y las aplicaciones deben ser compatibles con las funciones de accesibilidad.
+
+00:02:05.480 --> 00:02:09.600 align:middle
+El W3C ofrece estándares para ayudar a hacer la Web accesible,
+
+00:02:10.040 --> 00:02:13.920 align:middle
+que son reconocidos internacionalmente por gobiernos y empresas.
+
+00:02:14.480 --> 00:02:19.880 align:middle
+El más conocido son las Pautas de Accesibilidad para el Contenido Web - WCAG.
+
+00:02:20.680 --> 00:02:24.240 align:middle
+Las WCAG son también el estándar ISO 40500,
+
+00:02:24.600 --> 00:02:29.840 align:middle
+y se han adoptado en el estándar europeo EN 301 549.
+
+00:02:30.520 --> 00:02:33.360 align:middle
+Se construyen sobre cuatro principios básicos:
+
+00:02:33.560 --> 00:02:39.920 align:middle
+Primero, Perceptible - por ejemplo, para que las personas puedan ver el contenido u oírlo.
+
+00:02:40.880 --> 00:02:47.160 align:middle
+Operable - por ejemplo, para que las personas puedan usar un equipo informático escribiendo o con la voz.
+
+00:02:48.000 --> 00:02:53.360 align:middle
+Comprensible - por ejemplo, para que la gente entienda un lenguaje claro y sencillo.
+
+00:02:54.120 --> 00:02:58.600 align:middle
+Y Robusto - así la gente puede usar diferentes tecnologías asistivas.
+
+00:02:59.360 --> 00:03:07.000 align:middle
+Además de las WCAG, el W3C también proporciona las Pautas de Accesibilidad de Herramientas de Autor – ATAG,
+
+00:03:07.440 --> 00:03:12.840 align:middle
+que definen los requisitos para los sistemas de gestión de código, editores de código y otros programas.
+
+00:03:13.240 --> 00:03:16.880 align:middle
+Y las Pautas de Accesibilidad para Agentes de Usuario - UAAG,
+
+00:03:17.160 --> 00:03:20.480 align:middle
+que definen los requisitos para los navegadores web y los reproductores de medios.
+
+00:03:21.000 --> 00:03:27.280 align:middle
+Hay más de mil millones de personas con discapacidades, o alrededor del 15-20% de la población.
+
+00:03:28.160 --> 00:03:31.880 align:middle
+La Convención de las Naciones Unidas sobre los Derechos de las Personas con Discapacidad
+
+00:03:32.040 --> 00:03:37.040 align:middle
+define el acceso a la información, incluyendo la Web, como un derecho fundamental.
+
+00:03:38.800 --> 00:03:42.920 align:middle
+La mayoría de los países del mundo han ratificado esta convención de la ONU,
+
+00:03:43.160 --> 00:03:46.960 align:middle
+y muchos de ellos también han adoptado políticas asociadas.
+
+00:03:48.040 --> 00:03:51.000 align:middle
+Incluso aparte de cualquier ley o regulación,
+
+00:03:51.160 --> 00:03:56.000 align:middle
+la implementación de los estándares de accesibilidad es esencial para las personas con discapacidades
+
+00:03:56.160 --> 00:03:57.800 align:middle
+y es útil para todo el mundo.
+
+00:03:59.000 --> 00:04:05.880 align:middle
+Para obtener más información sobre la accesibilidad web visita w3.org/WAI

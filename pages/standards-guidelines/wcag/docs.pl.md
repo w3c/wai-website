@@ -8,6 +8,7 @@ lang: pl   # Change "en" to the translated-language shortcode from https://www.i
 last_updated: 2024-03-14 # Keep the date of the English version
 
 translation:
+  outdated: true
   last_updated: 2024-08-07 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:

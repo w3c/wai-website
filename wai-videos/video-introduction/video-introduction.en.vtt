@@ -1,0 +1,148 @@
+﻿WEBVTT
+
+00:00:02.200 --> 00:00:05.200 align:middle
+Hi! My name is Shadi Abou-Zahra.
+
+00:00:05.400 --> 00:00:09.600 align:middle
+I'm the Accessibility Strategy and Technology Specialist at W3C,
+
+00:00:09.800 --> 00:00:11.840 align:middle
+the World Wide Web Consortium,
+
+00:00:12.040 --> 00:00:15.360 align:middle
+and today I'd like to tell you about web accessibility.
+
+00:00:15.560 --> 00:00:19.240 align:middle
+The Web is for many people an essential part of daily life.
+
+00:00:19.440 --> 00:00:21.080 align:middle
+At work.
+
+00:00:21.240 --> 00:00:22.840 align:middle
+At home.
+
+00:00:23.000 --> 00:00:24.880 align:middle
+And on the road.
+
+00:00:25.080 --> 00:00:29.640 align:middle
+Web accessibility means that people with disabilities can use the Web equally.
+
+00:00:29.840 --> 00:00:35.360 align:middle
+For example, somebody who cannot use their arms, and uses a mouthstick to type.
+
+00:00:35.560 --> 00:00:40.240 align:middle
+Or someone who cannot hear well, and uses captions to watch videos.
+
+00:00:40.400 --> 00:00:45.800 align:middle
+Or someone who cannot see well, and uses a screen reader to read aloud what's on the screen.
+
+00:00:46.080 --> 00:00:48.480 align:middle
+Accessibility has many benefits.
+
+00:00:48.760 --> 00:00:54.280 align:middle
+For example, captions benefit anyone in a loud or in a quiet environment.
+
+00:00:54.440 --> 00:00:58.120 align:middle
+And good color contrast works better when there is glare.
+
+00:00:58.280 --> 00:01:03.960 align:middle
+Also people with age-related impairments, such as reduced dexterity, benefit.
+
+00:01:04.120 --> 00:01:09.120 align:middle
+In fact, everyone has a better user experience with an improved layout and design.
+
+00:01:09.280 --> 00:01:14.760 align:middle
+A lot of accessibility can be built into the underlying code of websites and applications.
+
+00:01:15.000 --> 00:01:21.640 align:middle
+Web technologies from W3C, such as HTML, provide support for many accessibility features.
+
+00:01:23.120 --> 00:01:27.920 align:middle
+For example, features to provide text alternatives for images,
+
+00:01:28.480 --> 00:01:33.080 align:middle
+which are read aloud by screen readers and also used by search engines.
+
+00:01:34.640 --> 00:01:39.400 align:middle
+Also headings, labels, and other code supports accessibility
+
+00:01:39.880 --> 00:01:42.680 align:middle
+and improves the quality overall.
+
+00:01:43.320 --> 00:01:49.840 align:middle
+Good authoring tools, such as wikis, content management systems, and code editors,
+
+00:01:50.600 --> 00:01:56.760 align:middle
+help create accessible code, either automatically or with input from the author.
+
+00:01:57.440 --> 00:02:04.480 align:middle
+Also web browsers, media players, and apps need to support accessibility features.
+
+00:02:05.480 --> 00:02:09.600 align:middle
+W3C provides standards to help make the Web accessible,
+
+00:02:10.040 --> 00:02:13.920 align:middle
+which are internationally recognized by governments and businesses.
+
+00:02:14.480 --> 00:02:19.880 align:middle
+Most well-known is the Web Content Accessibility Guidelines - WCAG.
+
+00:02:20.680 --> 00:02:24.240 align:middle
+WCAG is also the ISO standard 40500,
+
+00:02:24.600 --> 00:02:29.840 align:middle
+and adopted in the European standard called EN 301 549.
+
+00:02:30.520 --> 00:02:33.360 align:middle
+It is built around four core principles:
+
+00:02:33.560 --> 00:02:39.920 align:middle
+First Perceivable - for example, so people can see the content, or hear it.
+
+00:02:40.880 --> 00:02:47.160 align:middle
+Operable - for example, so people can use the computer by typing, or by voice.
+
+00:02:48.000 --> 00:02:53.360 align:middle
+Understandable - for example, so people get clear and simple language.
+
+00:02:54.120 --> 00:02:58.600 align:middle
+And Robust - so people can use different assistive technologies.
+
+00:02:59.360 --> 00:03:07.000 align:middle
+Besides WCAG, W3C also provides the Authoring Tool Accessibility Guidelines - ATAG,
+
+00:03:07.440 --> 00:03:12.840 align:middle
+which defines requirements for content management systems, code editors and other software.
+
+00:03:13.240 --> 00:03:16.880 align:middle
+And the User Agent Accessibility Guidelines - UAAG,
+
+00:03:17.160 --> 00:03:20.480 align:middle
+defines requirements for web browsers and media players.
+
+00:03:21.000 --> 00:03:27.280 align:middle
+There are over one billion people with disabilities, or about 15-20% of the population.
+
+00:03:28.160 --> 00:03:31.880 align:middle
+The UN Convention on the Rights of Persons with Disabilities
+
+00:03:32.040 --> 00:03:37.040 align:middle
+defines that access to information, including the Web, as a human right.
+
+00:03:38.800 --> 00:03:42.920 align:middle
+Most countries around the world have ratified this UN convention,
+
+00:03:43.160 --> 00:03:46.960 align:middle
+and several have adopted binding policies too.
+
+00:03:48.040 --> 00:03:51.000 align:middle
+Yet regardless of any laws and regulations,
+
+00:03:51.160 --> 00:03:56.000 align:middle
+implementing the accessibility standards is essential for people with disabilities,
+
+00:03:56.160 --> 00:03:57.800 align:middle
+and useful for all.
+
+00:03:59.000 --> 00:04:05.880 align:middle
+For more information on web accessibility, visit w3.org/WAI

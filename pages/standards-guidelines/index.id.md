@@ -7,6 +7,7 @@ lang: id
 last_updated: 2024-02-29  # Keep the date of the English version
 
 translation:
+  outdated: true
   last_updated: 2024-03-18 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators: 

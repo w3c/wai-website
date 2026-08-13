@@ -57,7 +57,7 @@ You can contribute to the work without being a member of the task force:
 - **Open PDF-AAM issues:** Comment on or propose solutions for open issues.
 - **Published PDF-AAM resources** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [PDF-AAM GitHub repository](https://github.com/w3c/pdf-aam/issues) or [email the task force](mailto:public-pdf-aam@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+Comment or raise a new issue in the [PDF-AAM GitHub repository](https://github.com/w3c/pdf-aam/issues) or [email the task force](mailto:public-pdf-aam@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -77,7 +77,7 @@ Once you are a member of the ARIA Working Group, email the [W3C Staff Contact fo
 
 ## Task force participants
 
-* [Chairs](https://www.w3.org/groups/tf/pdf-aam/participants/#chairs)
+* [Facilitators](https://www.w3.org/groups/tf/pdf-aam/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/pdf-aam/participants/#participants)
 
 ## Communications

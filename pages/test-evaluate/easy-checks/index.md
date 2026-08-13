@@ -181,7 +181,7 @@ A skip link is the first interactive element on a page. People using keyboards, 
 
 ### [Visible Keyboard Focus](/test-evaluate/easy-checks/keyboard-focus/)
 
-Keyboard focus is a visible indicator that identifies the element with focus and moves as your tab through a page. For people who rely on a keyboard to navigate it is important that they know which link or form control has focus. 
+Keyboard focus is a visible indicator that identifies the element with focus and moves as you tab through a page. For people who rely on a keyboard to navigate it is important that they know which link or form control has focus. 
 
 {::nomarkdown}
   </div>
@@ -205,7 +205,7 @@ Web pages should identify the primary language of the page. Specifying the langu
 
 ### [Zoom](/test-evaluate/easy-checks/zoom/)
 
-Zoom is used to enlarge the text and images on web pages to make them more readable. Some people need to enlarge content in order to read it. When content is zoomed it still needs to legible and usable.
+Zoom is used to enlarge the text and images on web pages to make them more readable. Some people need to enlarge content in order to read it. When content is zoomed it still needs to be legible and usable.
 
 {::nomarkdown}
   </div>

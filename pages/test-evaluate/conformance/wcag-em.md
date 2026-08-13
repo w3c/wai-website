@@ -1,11 +1,11 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
-title: "WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology"
-title_html: "WCAG-EM Overview:<br>Website Accessibility Conformance Evaluation Methodology"
-nav_title: "WCAG-EM Conformance Methodology"
+title: "WCAG-EM Overview: WCAG Evaluation Methodology"
+title_html: "WCAG-EM Overview:<br>WCAG Evaluation Methodology"
+nav_title: "WCAG-EM Evaluation Methodology"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2020-04-28  # Keep the date of the English version
+last_updated: 2026-08-12  # Keep the date of the English version
 first_published: "as “Conformance Evaluation of Web Sites for Accessibility” in September 2005"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -29,19 +29,19 @@ ref: /test-evaluate/conformance/wcag-em/   # Do not change this
 footer: >
   <p>Note about video description: The video on this page does not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>.</p>
-  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) and the WCAG 2.0 Evaluation Methodology Task Force (<a href="https://www.w3.org/WAI/ER/2011/eval/eval-tf">Eval TF</a>). Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245).</p>
+  <p>Video developed with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245).</p>
 ---
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page introduces the Website Accessibility Conformance Evaluation Methodology (WCAG-EM).
+This page introduces the WCAG Evaluation Methodology (WCAG-EM).
 
 Quick links to the resources:
 
--   [Website Accessibility Conformance Evaluation Methodology (WCAG-EM)](http://www.w3.org/TR/WCAG-EM/)
--   [WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](http://www.w3.org/WAI/eval/report-tool/)
+-   [WCAG Evaluation Methodology (WCAG-EM) 2.0](https://www.w3.org/TR/wcag-em-2/)
+-   [WCAG-EM Report Tool: WCAG Evaluation Report Generator](http://www.w3.org/WAI/eval/report-tool/)
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -159,26 +159,26 @@ Text Transcript with Description of Visuals
 
 ## Introduction
 
-Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining how well a website conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
+WCAG Evaluation Methodology (WCAG-EM) is an approach for determining how well a digital product conforms to Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)).
 
-If you want to get a general sense of how a web page addresses a few accessibility issues, see [Easy Checks - A First Review of Web Accessibility](/test-evaluate/preliminary/). It is usually best to do preliminary checks before applying WCAG-EM, and to address potential accessibility barriers before investing in a more thorough review such as WCAG-EM.
+If you want to get a general sense of how a web page or view addresses a few accessibility issues, see [Easy Checks - A First Review of Web Accessibility](/test-evaluate/preliminary/). It is usually best to do preliminary checks before applying WCAG-EM, and to address potential accessibility barriers before investing in a more thorough review such as WCAG-EM.
 
-WCAG-EM is a supporting resource for the WCAG standard; it does not define additional WCAG requirements. It is published as a W3C Working Group Note.
+WCAG-EM is a supporting resource for the WCAG standard; it does not define additional WCAG requirements. It is published as a W3C Group Note.
 
 ### Scope
 
-WCAG-EM applies to all websites, including web applications and mobile websites. It covers different situations, including self-assessment and third-party evaluation. It is independent of particular evaluation tools, web browsers, or assistive technologies.
+WCAG-EM can be applied to all digital products, including websites, mobile applications, and kiosks. It covers different situations, including self-assessment and third-party evaluation. It is independent of particular evaluation tools, web browsers, or assistive technologies.
 
-WCAG-EM is primarily for evaluating conformance of existing websites. However, accessibility should not be left until the evaluation stage; it should be integrated from the beginning and throughout the project lifecycle — in planning, design, and development.
+WCAG-EM is primarily for evaluating conformance of existing digital products. However, accessibility should not be left until the evaluation stage. Accessibility should be integrated from the beginning and throughout the project lifecycle — in planning, design, and development.
 
 Other aspects of evaluation are addressed in related pages of the [Evaluating Web Accessibility](/test-evaluate/) resource suite. For example, guidance to help you better understand real-world accessibility issues and evaluate effective accessibility solutions is in [Involving Users in Evaluating Web Accessibility](/test-evaluate/involving-users/).
 
 Who WCAG-EM is for {#for}
 --------------------------
 
-WCAG-EM is for anyone who wants a common procedure for auditing websites. It is for direct use by internal evaluators, external auditors, benchmarkers, and researchers. Additionally, WCAG-EM can be referred to by managers, procurers, policy makers, regulators, and others. 
+WCAG-EM is for anyone who wants a common procedure for auditing digital products, like websites. It is for direct use by internal evaluators, external auditors, benchmarkers, and researchers. Additionally, WCAG-EM can be referred to by managers, procurers, policy makers, regulators, and others. 
 
-Applying WCAG-EM successfully requires knowledge of WCAG, accessible web design, assistive technologies, and how people with different disabilities use the Web (as described in the WCAG-EM [Required Expertise section](https://www.w3.org/TR/WCAG-EM/#expertise)).
+Applying WCAG-EM successfully requires knowledge of WCAG, accessible design, assistive technologies, and how people with different disabilities use digital products. This is  described in the WCAG-EM [Required Expertise section](https://www.w3.org/TR/WCAG-EM/#expertise).
 
 What is in WCAG-EM {#whatis}
 -----------------------------
@@ -186,9 +186,9 @@ What is in WCAG-EM {#whatis}
 WCAG-EM provides guidance on using the methodology and considerations for specific situations. The conformance evaluation procedure is detailed under 5 main steps:
 
 1.  **Define the scope of the evaluation** - defining what is included in the evaluation; the goal of the evaluation; and the WCAG conformance level (A, AA, AAA).
-2.  **Explore the website** - identifying key web pages; key functionality; types of web content, designs, functionality, etc.; required web technologies.
-3.  **Select a representative sample** - guidance on structured and randomly selected web pages when it is not feasible to evaluate every web page on a website.
-4.  **Evaluate the selected sample** - determining successes and failures in meeting WCAG; accessibility support for website features; and recording evaluation steps.
+2.  **Explore the product** - identifying key views; key functionality; types of content, designs, functionality, etc.; required technologies.
+3.  **Select a representative sample** - guidance on structured and randomly selected views when it is not feasible to evaluate every view in a digital product.
+4.  **Evaluate the selected sample** - determining successes and failures in meeting WCAG; accessibility support for specific features; and recording evaluation steps.
 5.  **Report the evaluation findings** - aggregating and reporting evaluation findings; making evaluation statements; and calculating overall scores.
 
 ### Technical document format
@@ -198,10 +198,27 @@ WCAG-EM follows the W3C format for technical specifications which includes sever
 WCAG-EM Report Tool {#wert}
 ----------------------------
 
-The [**WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator**](https://www.w3.org/WAI/eval/report-tool/) helps you follow the steps of WCAG-EM and generate a structured report from the input that you provide.
+The [**WCAG-EM Report Tool: WCAG Evaluation Report Generator**](https://www.w3.org/WAI/eval/report-tool/) helps you follow the steps of WCAG-EM and generate a structured report from the input that you provide.
+
+WCAG-EM 2 and WCAG-EM 1 {#versiondiff}
+-----------------------
+
+WCAG Evaluation Methodology (WCAG-EM) 2 was published on 23 July 2026. 
+
+What's different:
+
+- WCAG-EM 1 was specifically for testing websites and web pages.
+- WCAG-EM 2 also applies to apps and other digital products.
+
+For more information on the differences, see the WCAG-EM 2 [Changelog (GitHub)](https://github.com/w3c/wai-wcag-em/?tab=readme-ov-file#changelog).
+
+The [1.0 version of WCAG-EM](https://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/) is still available.
 
 Who develops WCAG-EM {#wg}
 ---------------------------
 
-WCAG-EM is developed by the WCAG 2.0 Evaluation Methodology Task Force ([Eval TF](https://www.w3.org/WAI/ER/2011/eval/eval-tf)), which is a joint task force of the Web Content Accessibility Guidelines Working Group ([WCAG WG](https://www.w3.org/WAI/GL/)) and Evaluation and Repair Tools Working Group ([ERT WG](https://www.w3.org/WAI/ER/)). The Working Groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
+WCAG-EM 2.0 is developed by the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/groups/wg/ag/)).
 
+WCAG-EM 1.0 was developed by the WCAG 2.0 Evaluation Methodology Task Force, which was a joint task force of the Web Content Accessibility Guidelines Working Group and Evaluation and Repair Tools Working Group.
+
+The groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).

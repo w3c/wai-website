@@ -52,11 +52,11 @@ This resource introduces how disabled people use the web, including people with 
 
 ## Sections in this resource
 
-- **[[Stories of Web Users]](/people-use-web/user-stories/)** (also called "personas") &mdash; represent the experiences of people with different disabilities.
-- **[[Diverse Abilities and Barriers]](/people-use-web/abilities-barriers/)** &mdash; introduces the wide diversity of abilities and highlights some accessibility barriers that people experience because of inaccessible digital technology.
-- **[[Tools and Techniques]](/people-use-web/tools-techniques/)** &mdash; covers the tools and techniques that disabled people use to interact with digital technology.
+- **[[Stories of Web Users]](/people-use-web/user-stories/)** (also called "personas") — represent the experiences of people with different disabilities.
+- **[[Diverse Abilities and Barriers]](/people-use-web/abilities-barriers/)** — introduces the wide diversity of abilities and highlights some accessibility barriers that people experience because of inaccessible digital technology.
+- **[[Tools and Techniques]](/people-use-web/tools-techniques/)** — covers the tools and techniques that disabled people use to interact with digital technology.
 
 ## Related WAI resources
 
-- **[[Accessibility Principles]](/fundamentals/accessibility-principles/)** – introduces the four principles used to organize accessibility requirements and provides examples of requirements related to each principle from the international accessibility standards from the W3C Web Accessibility Initiative (WAI).
-- **[[Web Accessibility Perspectives]](/perspective-videos/)** – presents a collection of short videos highlighting accessibility features that are essential to people with disabilities and useful for all.
+- **[[Accessibility Principles]](/fundamentals/accessibility-principles/)** — introduces the four principles used to organize accessibility requirements and provides examples of requirements related to each principle from the international accessibility standards from the W3C Web Accessibility Initiative (WAI).
+- **[[Web Accessibility Perspectives]](/perspective-videos/)** — presents a collection of short videos highlighting accessibility features that are essential to people with disabilities and useful for all.

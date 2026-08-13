@@ -15,7 +15,7 @@ footer: >
 {% include box.html type="start" title="Updated Template" icon="default" %}
 {:/}
 
-More robust information on evaluation reports is in the **[WCAG-EM Report Tool](/eval/report-tool/)**.<br>From there you can:
+More robust information on evaluation reports is in the **[WCAG-EM Report Tool](https://www.w3.org/WAI/eval/report-tool/)**.<br>From there you can:
 * Go through the pages to get explanations for each field. Click the "+" buttons to show info.
 * Use the [blank report as a template](https://www.w3.org/WAI/eval/report-tool/evaluation/view-report). Click the "Download Report (HTML)" button.
 * Enter your information in the tool and it will generate a report for you.

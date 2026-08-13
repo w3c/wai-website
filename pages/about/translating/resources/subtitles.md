@@ -2,7 +2,7 @@
 title: "How to Create Translated Video Subtitles and Descriptions"
 nav_title: Subtitles/Descriptions
 lang: en
-last_updated: 2024-04-12
+last_updated: 2026-03-12
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 
 permalink: /about/translating/resources/subtitles/
@@ -41,6 +41,21 @@ This page guides you through the technical steps to create new subtitles and tra
 
 {::nomarkdown}
 {% include toc.html type="end" %}
+{:/}
+
+{::nomarkdown}
+{% include box.html type="start" class="highlighted" %}
+{:/}
+**W3C staff temporarily has limited availability to support WAI translations.**
+
+We expect to resume full support by late October 2026. Thank you very much for your patience, if we are not able to reply to you until then. We greatly appreciate contributions and look forward to supporting you as soon as possible.
+
+To receive updates, subscribe to the WAI Translations mailing list by sending an e-mail to <public-wai-translations-request@w3.org> with subject: “subscribe”.
+
+For time-sensitive requests, contact <wai@w3.org>.
+
+{::nomarkdown}
+{% include box.html type="end" %}
 {:/}
 
 ## Overview
@@ -89,7 +104,7 @@ Look for the embedded video player **in the code of the English version of the p
 
 ## Step 2: Edit video-metadata.yml {#video-metadata}
 
-WAI videos captions, subtitles and descriptions metadata are stored in "video-metadata.yml" in ["wai-website-data" repository {% include_cached external.html %}](https://github.com/w3c/wai-website-data/)
+WAI videos captions, subtitles and descriptions metadata are stored in `video-metadata.yml`, in ["wai-website" repository {% include_cached external.html %}](https://github.com/w3c/wai-website/)
 
 {::nomarkdown}
 {% include box.html type="start" title="Video-metadata.yml example" %}
@@ -132,7 +147,7 @@ Show example
 <ol>
   <li>
 {:/}
-Navigate to the [wai-website-data repository {% include_cached external.html %}](https://github.com/w3c/wai-website-data/).
+Navigate to the [wai-website repository {% include_cached external.html %}](https://github.com/w3c/wai-website/).
 {::nomarkdown}
     </li>
     <li>
@@ -176,7 +191,7 @@ Do not change the following attributes
 
 ## Step 3: Create the subtitles/descriptions file(s) {#create-vtt}
 
-Captions, subtitles and descriptions are stored in WebVTT (`.vtt`) files. VTT files are located in "wai-videos" folder, in ["wai-website-data" repository {% include_cached external.html %}](https://github.com/w3c/wai-website-data/).
+Captions, subtitles and descriptions are stored in WebVTT (`.vtt`) files. VTT files are located in "wai-videos" folder, in ["wai-website" repository {% include_cached external.html %}](https://github.com/w3c/wai-website/).
 
 {::nomarkdown}
 <ol>

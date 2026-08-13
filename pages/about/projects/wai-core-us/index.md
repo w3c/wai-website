@@ -37,20 +37,18 @@ This page provides information on the Web Accessibility Initiative - Core **(WAI
 
 ## About WAI-Core
 
-The WAI-Core US Project, funded by HHS, supports accessibility work at W3C. WAI-Core-funded staff lead the Web Accessibility Initiative (WAI) program and technical architecture for developing open, royalty-free standards and supporting resources through the W3C Process.
+The WAI-Core US Project, funded by HHS, supported accessibility work at W3C. WAI-Core-funded staff led the Web Accessibility Initiative (WAI) program and technical architecture for developing open, royalty-free standards and supporting resources through the W3C Process.
 
-WAI-Core US Project staff lead work to:
+WAI-Core US Project staff led work to:
 
 * Develop standards, guidance, and supporting materials for accessibility of web sites, mobile apps, software, browsers, development tools, and other digital technology/information and communications technology (ICT)
 * Review all W3C standards to ensure they support accessibility
 * Develop technical specifications (such as WAI-ARIA) to fill gaps
 * Document accessibility user requirements in emerging technologies and essential tools such as online meeting and collaboration tools, virtual or immersive environments (XR), and AI
 
-
-
 ## How to Participate
 
-We welcome contributions to the work under WAI-Core US.
+We welcomed contributions to the work under WAI-Core US.
 
 Anyone can review and comment on drafts in development. To get notifications of drafts for review, you can subscribe to [Get WAI News](https://www.w3.org/WAI/news/subscribe/) via email, RSS feed, LinkedIn, and other social media.
 
@@ -65,7 +63,7 @@ If you have any questions, contact [Shawn Lawton Henry](https://www.w3.org/Peopl
 
 ## Project Staff
 
-The following staff are primarily or partially supported by WAI-Core US funds:
+The following staff were primarily or partially supported by WAI-Core US funds:
 
 *   [Shawn Lawton Henry](https://www.w3.org/People/Shawn/), W3C, MIT
 *   [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro), W3C, MIT

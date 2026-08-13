@@ -63,7 +63,7 @@ You can contribute to the work without being a member of the task force:
 - **Open WAI-Adapt issues:** Comment on or propose solutions for open issues.
 - **Published WAI-Adapt resources:** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [WAI-Adapt GitHub repository](https://github.com/w3c/adapt/issues) or [email the task force](mailto:public-adapt@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+Comment or raise a new issue in the [WAI-Adapt GitHub repository](https://github.com/w3c/adapt/issues) or [email the task force](mailto:public-adapt@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -83,7 +83,7 @@ Once you are a member of the APA Working Group, email the [W3C staff contact for
 
 ## Task force participants
 
-* [Chair](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
+* [Facilitators](https://www.w3.org/groups/tf/personalization-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/personalization-tf/participants/#participants)
 
 ## Communications
