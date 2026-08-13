@@ -39,8 +39,6 @@ metafooter: true
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - lihat <a href="/WAI/tutorials/acknowledgements/">Pengakuan kontribusi</a>
 support: Dikembangkan oleh Kelompok Developed by the Kelompok Kerja Edukasi dan Pendampingan (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Dikembangkan dengan dukungan dari <a href="https://www.w3.org/WAI/ACT/">proyek WAI-ACT</a>, didanai bersama oleh  <strong>Program <abbr title="Teknologi Masyarakat Informasi">IST</abbr> Komisi Eropa</strong>.

@@ -1,7 +1,7 @@
 ---
 title: WAI Resources
 lang: en
-last_updated: 2025-03-06
+last_updated: 2026-08-12
 
 github:
   label: wai-resources-list
@@ -248,12 +248,12 @@ Web accessibility evaluation tools are software programs or online services that
   poster="/content-images/test-eval/video-thumb-conformance.png"
 %}
 
-Conformance evaluation determines how well web pages or applications meet accessibility standards. W3C’s Website Accessibility Conformance Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG).
+Conformance evaluation determines how well web pages or applications meet accessibility standards. W3C’s WCAG Evaluation Methodology (WCAG-EM) is an approach for determining conformance to Web Content Accessibility Guidelines (WCAG).
 
-[[WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
+[[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/)
 :   A short page with basic information to get you started. We suggest you read it before going to the [full WCAG-EM document](https://www.w3.org/TR/WCAG-EM/).
 
-[WCAG-EM Report Tool: Website Accessibility Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/)
+[WCAG-EM Report Tool: WCAG Evaluation Report Generator](https://www.w3.org/WAI/eval/report-tool/)
 :   Helps you generate evaluation reports according to WCAG-EM. It does not do the checking for you. It helps you follow the steps of WCAG-EM and it generates a report from the input you provide.
 
 [[Template for Web Accessibility Evaluation Reports]](/test-evaluate/report-template/)
@@ -409,7 +409,7 @@ The following resources support development of accessibility evaluation methods 
 
 Additional resources related to evaluation are listed in the [[Evaluating Web Accessibility Overview]](/test-evaluate/), including:
 
-- [[WCAG-EM Overview: Website Accessibility Conformance Evaluation Methodology]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM is an approach for determining how well a website conforms to Web Content Accessibility Guidelines (WCAG).
+- [[WCAG-EM Overview: WCAG Evaluation Methodology]](/test-evaluate/conformance/wcag-em/) &mdash; WCAG-EM is an approach for determining how well websites and other digital products conform to Web Content Accessibility Guidelines (WCAG).
 
 #### WAI-Adapt
 

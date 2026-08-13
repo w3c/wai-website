@@ -6,15 +6,16 @@ on:
       resource:
         description: 'Resource Name'     
         required: true
-        default: 'wai-about-wai'
+        default: 'wai-resource-name'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
     - name: Adding resource submodule
       run: |
         [ -d _external/resources/$WAI_NEW_RESOURCE ] && echo "Resource $WAI_NEW_RESOURCE exists" && exit 1
@@ -30,7 +31,7 @@ jobs:
       env:
         WAI_NEW_RESOURCE: ${{ github.event.inputs.resource }}
     - name: Commit changed files
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d #v7.2.0
       with:
         commit_message: Apply automatic changes
   

@@ -14,6 +14,10 @@ github:
 feedbackmail: wai@w3.org
 ---
 
+## 3 February 2026
+
+- In [‘Making the Web Accessible’ section](/fundamentals/accessibility-intro/#making), replaced "WCAG 2.0 is an ISO standard: ISO/IEC 40500" with "WCAG 2.2 is an ISO standard: ISO/IEC 40500".
+
 ## 7 March 2024
 
 - Update some links to use HTTPS

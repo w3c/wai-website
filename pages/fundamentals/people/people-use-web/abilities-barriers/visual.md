@@ -137,7 +137,7 @@ Visual disabilities range from mild or moderate vision loss in one or both eyes 
 
 **Note:** The examples given in this section are not a complete list of all disabilities or barriers.
 
-## Introduction
+## Introduction {#introduction-extended}
 
 People with visual disabilities typically rely on changing the presentation of digital technology into forms that are more usable for their particular needs. For example by:
 

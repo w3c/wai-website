@@ -4,7 +4,7 @@ title: "Changelog for Evaluating Web Accessibility Overview"
 title_html: "Changelog for <a href='/WAI/teach-advocate/'>Evaluating Web Accessibility Overview</a>"
 nav_title: "Changelog"
 lang: en
-last_updated: 2024-09-25
+last_updated: 2026-08-12
 
 permalink: /test-evaluate/changelog/
 ref: /test-evaluate/changelog/
@@ -15,11 +15,14 @@ github:
 feedbackmail: wai@w3.org
 ---
 
+## 12 August:
+
+* We updated the [Conformance Evaluation and Reports section](/test-evaluate/#conformance) to use the new title of WCAG-EM: WCAG Evaluation Methodology.
+
 ## August 2023
 
-* In [Conformance Evaluation and Reports](/test-evaluate/#conformance): added "Accessibility Conformance Testing (ACT) Rules" link and description.\
-[Diff of markup](https://github.com/w3c/wai-eval-overview/commit/eadbe76a38be180001a911df6e2843aa4276a25d)
+* In the [Conformance Evaluation and Reports section](/test-evaluate/#conformance) section: added "Accessibility Conformance Testing (ACT) Rules" link and description.
 
 ## May 2021
 
-* Added changelog. [Diff of markup](https://github.com/w3c/wai-eval-overview/commit/4843dca9aba0d63b044cb4c784cdf0b4b8b75984#diff-a4f40b84fbcf1a7939d596dca4939bbae6e56c05ad06a62b719b42693a9baf07)
+* Added changelog.

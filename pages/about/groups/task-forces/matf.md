@@ -63,7 +63,7 @@ You can contribute to the work without being a member of the task force:
 - **Open mobile accessibility issues:** Comment on or propose solutions for open issues.
 - **Published mobile accessibility resources:** Let us know if there is a new issue with any of these.
 
-Either comment / raise a new issue in the [Mobile Accessibility GitHub repository](https://github.com/w3c/matf/issues) or [email the task force](mailto:public-mobile-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
+Comment or raise a new issue in the [Mobile Accessibility GitHub repository](https://github.com/w3c/matf/issues) or [email the task force](mailto:public-mobile-a11y-tf@w3.org) (**Note:** This email will go to a publicly archived mailing list).
 
 ### Become a participant in the task force
 
@@ -83,7 +83,7 @@ Once you are a member of the AG Working Group, email the [W3C Staff Contact for 
 
 ## Task force participants
 
-* [Chair](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs)
+* [Facilitators](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/mobile-a11y-tf/participants/#participants)
 
 ## Communications

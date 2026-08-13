@@ -6,21 +6,19 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
       with:
         submodules: true
         fetch-depth: 0
-    - name: Set up Ruby 3.3
-      uses: ruby/setup-ruby@v1
+    - name: Set up Ruby 3.4.8
+      uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b #v1.321.0
       with:
-        ruby-version: '3.3.3' # matches Netlify of ruby version
+        ruby-version: '3.4.8' # matches Netlify ruby version
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Build and test with Jekyll
       run: |
@@ -30,16 +28,16 @@ jobs:
       run: |
         find ./_site -type f | sed 's,^\.\/_site,,' | sort > ./_site/manifest.txt
     - name: Publish to gh-pages
-      uses: peaceiris/actions-gh-pages@v4
+      uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 #v4.1.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: _site
     - name: Zip Files
-      uses: montudor/action-zip@v1
+      uses: montudor/action-zip@0852c26906e00f8a315c704958823928d8018b28 #v1.0.0
       with:
         args: zip -r build.zip ./_site
     - name: Upload zip file to release
-      uses: svenstaro/upload-release-action@v2
+      uses: svenstaro/upload-release-action@29e53e917877a24fad85510ded594ab3c9ca12de #v2.11.5
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: build.zip
@@ -50,7 +48,7 @@ jobs:
       run: sleep 90s
       shell: bash
     - name: Update URL mapping on W3C site
-      uses: fjogeleit/http-request-action@v1
+      uses: fjogeleit/http-request-action@f98bb26551cd1af7d3eb2674578a80754ece88db #v2.0.1
       with:
         url: 'https://www.w3.org/services/update-wai-map'
         method: 'POST'

@@ -20,7 +20,6 @@ wcag_success_criteria:
   - 2.4.8
   - 4.1.2
 wcag_techniques:
-  - H4
   - SCR26
   - G65
   - G161
@@ -35,7 +34,7 @@ wcag_techniques:
 
 metafooter: true
 first_published: "May 2015"
-last_updated: 2017-04-13
+last_updated: 2026-04-13
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"

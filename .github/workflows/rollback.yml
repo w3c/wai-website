@@ -1,5 +1,5 @@
-# Warning this hides checkouts from the Github commits view
-# So unless you record a latter ref you will not be able to revert to the pre rollback state
+# Warning this hides checkouts from the GitHub commits view
+# So unless you record a latter ref you will not be able to revert to the pre-rollback state
 
 name: Rollback Website
 
@@ -15,14 +15,15 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Check confirmation
       run: |
         test "yes" == "${{ github.event.inputs.areYouSure }}"
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
       with:
         ref: gh-pages
         fetch-depth: 10
@@ -31,7 +32,7 @@ jobs:
         git reset --hard ${{ github.event.inputs.targetRef }}
         git push -f
     - name: Update URL mapping on W3C site
-      uses: fjogeleit/http-request-action@v1
+      uses: fjogeleit/http-request-action@f98bb26551cd1af7d3eb2674578a80754ece88db #v2.0.1
       with:
         url: 'https://www.w3.org/services/update-wai-map'
         method: 'POST'

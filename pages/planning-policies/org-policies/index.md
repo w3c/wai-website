@@ -4,7 +4,7 @@
 title: Developing Organizational Policies on Web Accessibility
 nav_title: "Developing an Organizational Policy"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2016-06-05  # Keep the date of the English version
+last_updated: 2026-08-12  # Keep the date of the English version
 first_published: "October 2002"
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
@@ -207,7 +207,7 @@ Feedback from users who might find accessibility barriers can help you identify 
 {% include box.html type="start" title="Example simple review policy" class="example" %}
 {:/}
 
-ACME Inc. will review all area of the website every year. We will use the process described at [Website Accessibility Conformance Evaluation Methodology](/TR/WCAG-EM/). Reviews are the responsibility of the ICT department. Accessibility checks will be incorporated into the publishing workflow for all new content.
+ACME Inc. will review all area of the website every year. We will use the process described at [WCAG Evaluation Methodology](https://www.w3.org/TR/wcag-em/). Reviews are the responsibility of the ICT department. Accessibility checks will be incorporated into the publishing workflow for all new content.
 
 {::nomarkdown}
 {% include box.html type="end" %}

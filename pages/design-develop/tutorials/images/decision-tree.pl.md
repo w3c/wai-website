@@ -34,8 +34,6 @@ metafooter: true
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
-update_editors:
-  - Brian Elton
 contributing_participants:
   - zobacz <a href="/WAI/tutorials/acknowledgements/">Podziękowania</a>
 support: Opracowane przez Grupę Roboczą Edukacji i Promocji (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Opracowane przy wsparciu <a href="https://www.w3.org/WAI/ACT/"> projektu WAI-ACT</a>, współfinansowanego przez <strong>European Commission  Program <abbr title="Technologie Społeczeństwa Informacyjnego">IST</abbr> Komisji Europejskiej</strong>.

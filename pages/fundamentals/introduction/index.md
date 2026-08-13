@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 title: Introduction to Web Accessibility
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2024-03-07   # Keep the date of the English version
+last_updated: 2026-02-03   # Keep the date of the English version
 first_published: "February 2005"
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -140,7 +140,7 @@ Web accessibility is **required by law** in many situations.
 
 Web accessibility depends on several components working together, including web technologies, web browsers and other \"user agents\", authoring tools, and websites.
 
-The W3C Web Accessibility Initiative ([WAI](/about/participating/)) develops technical specifications, guidelines, techniques, and supporting resources that describe accessibility solutions. These are considered international standards for web accessibility; for example, <abbr title="Web Content Accessibility Guidelines (WCAG)">WCAG</abbr> 2.0 is also an <abbr title="International Organization for Standardization">ISO</abbr> standard: ISO/<abbr title="International Electrotechnical Commission">IEC</abbr> 40500.
+The W3C Web Accessibility Initiative ([WAI](/about/participating/)) develops technical specifications, guidelines, techniques, and supporting resources that describe accessibility solutions. These are considered international standards for web accessibility; for example, <abbr title="Web Content Accessibility Guidelines (WCAG)">WCAG</abbr> 2.2 is also an <abbr title="International Organization for Standardization">ISO</abbr> standard: ISO/<abbr title="International Electrotechnical Commission">IEC</abbr> 40500.
 
 {::nomarkdown}
 {% include box.html type="start" h="3" title="More Info on Making the Web Accessible" class="simple aside" %}

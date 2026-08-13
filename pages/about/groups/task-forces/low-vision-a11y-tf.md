@@ -66,7 +66,7 @@ Details of how to join the LV Task Force will be published here when it is react
 
 ## Task force participants
 
-* [Chairs](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#chairs)
+* [Facilitators](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#chairs)
 * [Current participants](https://www.w3.org/groups/tf/low-vision-a11y-tf/participants/#participants)
 
 ## Communications
