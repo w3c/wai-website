@@ -107,7 +107,7 @@ footer: >
   <div>
 {:/}
 
-Ade is a reporter who has limited use of his arms. He has several strategies for navigating websites, including using his palm to operate a joystick, using one finger to press keys on the keyboard, which allows him to move up and down the page and tab from link to link, and more recently, using speech recognition. All of these methods, however, have drawbacks. When using the joystick, it is hard to click on small targets such as placing the cursor between words or at the end of a sentence. When using the keyboard, it’s sometimes hard to know which page element has focus, plus the order of links often doesn’t match what he sees when looking at the page. Speech recognition has promise but it involves a whole new way of working to someone who is used to typing. So that Ade can switch from one method to another, it is important to make sure links and other page elements have visual focus indicators and match the order that they appear on the page and that content flows correctly when the site is zoomed to make everything appear larger.
+Ade is a reporter who has limited use of his arms. He has several strategies for navigating websites, including using his palm to operate a joystick, using one finger to press keys on the keyboard, which allows him to move up and down the page and tab from link to link, and, more recently, using speech recognition. All of these methods, however, have drawbacks. When using the joystick, it’s hard to click on small targets such as placing the cursor between words or at the end of a sentence. When using the keyboard, it’s sometimes hard to know which page element has focus, plus the order of links often does not always match what he sees when looking at the page. Speech recognition has promise, but it involves a whole new way of working for someone who is used to typing. So that Ade can switch from one method to another, it’s important to make sure that links and other interactive page elements have visual focus indicators; that the tab order matches the visual order of the links on the page; and that content reflows correctly when zoomed to enlarge it.
 
 {::options toc_levels="2..2" /}
 
@@ -141,35 +141,35 @@ Ade is a reporter who has limited use of his arms. He has several strategies for
 
 ## About Ade
 
-> It's not like I can't use a keyboard or pointer, I just can't use them for long periods because it is tiring.
+> It’s not like I can’t use a keyboard or pointer, I just can’t use them for long periods because it is tiring.
 
-Ade was involved in an accident which caused a spinal cord injury. This left him with limited use of his arms and no movement or sensation in his legs. He has worked as a reporter for many years. Ade sometimes uses a keyboard with larger keys to help him more easily hit the correct key and a joystick instead of a mouse. However, using these for extended periods can be tiring so he has started using speech recognition software for some tasks, such as dictating long pieces.
+Ade was involved in an accident that injured his spinal cord. This left him with limited use of his arms and no movement or sensation in his legs. He has worked as a reporter for many years. Ade sometimes uses a keyboard with larger keys to help him more easily press the correct key, and a joystick instead of a mouse. However, using these devices for extended periods can be tiring for Ade. So he has started using speech recognition software for some tasks, such as dictating long passages or words to transcribe them into text.
 
-Rather than using his fingers, Ade uses the palm of his hand to operate a joystick that has an enlarged lever. This can be inaccurate to use, particularly when pointing to and clicking on small areas. When this happens, he sometimes switches to using the keyboard for navigation. He can use the tab key to move through links and form elements. When using the keyboard, Ade has found that on some sites he couldn't see which field or link had focus. He also found that sometimes the links weren't in a logical order, which made it hard to find the element he was interested in. He could always use his joystick but that can interrupt his flow and slow him down. Sites often include good visual styling when you hover over a link but sometimes don't include this when the link has keyboard focus. For Ade, it is important that websites clearly show which link has the current focus and to navigate through links in a logical order, that is, following the visual order of links on the page.
+Rather than using his fingers to maneuver a mouse, Ade uses the palm of his hand to operate a joystick with an enlarged lever. This can be inaccurate to use, particularly when pointing to and clicking on small areas. When this happens, he sometimes switches to using a keyboard for navigation, where he can use the tab key to move through links and form elements. Ade has found that on some sites while using a keyboard, he cannot see which field or link has focus. He has also found that sometimes the links are not in a logical order, which makes it hard to find the content he’s interested in. He could always revert to using his joystick, but that can interrupt his flow and slow him down. Sites often include good visual styling when you hover over a link, but sometimes they do not include such styling when the link has keyboard focus. For Ade, it’s important that websites clearly show which link has focus and that he can navigate through links in a logical order — that is, the order of the links he tabs to follows the visual order of the links on the page.
 
-When using a keyboard, Ade has found some features which really help. For example, a skip link that moves focus past all the navigation on the page is a big help. Ade tries to avoid sites that don't have this feature. However, it limits his research sources a bit.
+When using a keyboard, Ade has found some features really help. For example, a skip link that enables him to jump past all the navigation links to the start of the main content on the page saves him a lot of time. Ade tries to avoid sites that do not have a skip link. However, this can limit his research sources.
 
-Ade has started using speech control software which helps him to avoid having to use the joystick and keyboard. The software allows him to select and 'click' on links by speaking but only when the links are clear and coded correctly. The software also has a speech-to-text dictation feature. As someone who has spent years typing out his articles, Ade is having to train himself in a new way of working. He would still prefer to type as he thinks he is much slower with dictation but he is hopeful that his speed will improve.
+Ade has started using speech control software, which helps him avoid having to use a joystick and keyboard so much. The software allows him to select and ‘click’ on links by speaking, but this is only possible when the links are clear and coded correctly. Speech control software also has a speech-to-text dictation feature that Ade finds useful. As someone who has spent years typing out his articles, Ade is having to train himself in a new way of working since his accident. He would still prefer to type as he thinks he’s much slower using dictation, but he’s hopeful that his speed will improve.
 
-Outside of work, Ade finds his mobile device easier to use than the computer because there is limited navigation and no pointer device. Since it is hand-held, he has more options to place it in a position that he is comfortable with. He wishes his employer would create a mobile-friendly or responsive site that he could use for his job.
+Outside work, Ade finds his tablet easier to use than his computer because it has simpler navigation and does not require a pointer device. He also has more options to place the device in a position he is comfortable with. He wishes his employer would create a mobile-friendly or responsive site that he could use for his job.
 
 ## Barrier examples
 
 Focus styling barrier
-: **Barrier:** "When I tab through links and form fields there is no visual styling to show me which element I am on."
-: **Works well:** "There is clear and strong visual styling for links and form fields when they receive focus."
+: **Barrier:** “When I tab through links and form fields there is no visual styling to show me which element I am on.”
+: **Works well:** “There is clear, strong visual styling for links and form fields when they receive focus.”
 
 Process time outs barrier
-: **Barrier:** "I usually take much longer to complete long forms or processes and often get timed out."
-: **Works well:** "At the start of a long form or process, I am told that there is a time out and given the option to set it to be slightly longer."
+: **Barrier:** “I usually take much longer to complete long forms or processes and often get timed out.”
+: **Works well:** “At the start of a long form or process, I am told that there is a time out and given the option to set it to be slightly longer.”
 
 Saving progress barrier
-: **Barrier:** "Completing long forms with no way to save progress and take a break can be tiring."
-: **Works well:** "I have an option to save progress and take a break when completing long, multi-step forms like when I have to get a code in email or text and type it in."
+: **Barrier:** “Completing long forms with no way to save progress and take a break can be tiring.”
+: **Works well:** “I have an option to save progress and take a break when completing long, multi-step forms, like when I have to get a code in email or text and type it in.”
 
 Popup windows barrier
-: **Barrier:** "When a window opens and I can't close it using only the keyboard it can be difficult."
-: **Works well:** "New windows have a close icon that I can access using the keyboard and some include the option to press the escape key to close them."
+: **Barrier:** “When a window opens and I can’t close it using only the keyboard it can be difficult.”
+: **Works well:** “New windows have a close icon that I can access using the keyboard, and some include the option to press the Escape key to close them.”
 
 ## Assistive technologies and adaptive strategies used
 
