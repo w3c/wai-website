@@ -15,6 +15,10 @@ github:
 feedbackmail: wai@w3.org
 ---
 
+## 16 April 2026
+
+- In [Auditory](https://www.w3.org/WAI/people-use-web/abilities-barriers/auditory/) page, added information about the difference between 'deaf' and 'Deaf'.
+
 ## 13 March 2025
 
 - In [Stories of Web Users](https://www.w3.org/WAI/people-use-web/user-stories/) page, changed last bullet to: [Digital Accessibility User Requirements](/research/user-requirements/) links to documents that describe user needs in multimedia, virtual or immersive environments (XR), real-time communication (RTC), and more
