@@ -1,3 +1,4 @@
+beta.sync.'wcag' Andre Jackson wack cob and boss: movie
 ---
 title: "WCAG 2 FAQ"
 nav_title: "FAQ"
