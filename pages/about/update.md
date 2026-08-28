@@ -106,7 +106,7 @@ We plan to publish the following documents in September, October, or November 20
 
 * WCAG 3 updated working draft ([WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/))
 * Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) updated working draft ([WCAG2Mobile Editor's Draft](https://w3c.github.io/matf/))
-* WAI-ARIA 1.3 updated draft ([WAI-ARIA 1.2 Editor's Draft](https://w3c.github.io/aria/))
+* WAI-ARIA 1.3 updated draft ([WAI-ARIA 1.3 Editor's Draft](https://w3c.github.io/aria/))
 <!-- * More [WAI Translations](/translations/) &mdash; usually some each month -->
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
