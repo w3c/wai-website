@@ -190,7 +190,7 @@ To learn about contributing to W3C WAI accessibility work generally, **see [[Par
 
 W3C greatly appreciates the support WAI receives from contributors committed to making digital technology accessible. Sponsorships, donations, and grants enable WAI to bring together a unique collaboration of industry, government, research, and people with disabilities in a cooperative effort to improve digital accessibility for disabled people.
 
-**We invite organizations and individuals to support WAI financially. Please see [Support us | W3C](https://www.w3.org/support-us/) and let us know if you would like more information on specifically supporting W3C accessibility work.**
+**We invite organizations and individuals to support WAI financially. Please see [Support us \| W3C](https://www.w3.org/support-us/) and let us know if you would like more information on specifically supporting W3C accessibility work.**
 
 {% include_cached excol.html type="start" id="changelog" %}
 
