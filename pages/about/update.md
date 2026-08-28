@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, August 2026</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, September 2026</span>"
 lang: en
-last_updated: 2026-08-03 # REMEMBER to update the HTML title month, too
+last_updated: 2026-08-28 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -102,10 +102,12 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in 2026 Q3 (July, August, September). <!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/) --> 
+We plan to publish the following documents in September, October, or November 2026. <!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/) --> 
 
-* ARIA in HTML update ([Editor's Draft](https://w3c.github.io/html-aria/)) 
-* More [WAI Translations](/translations/) &mdash; usually some each month
+* WCAG 3 updated working draft ([WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/))
+* Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) updated working draft ([WCAG2Mobile Editor's Draft](https://w3c.github.io/matf/))
+* WAI-ARIA 1.3 updated draft ([WAI-ARIA 1.2 Editor's Draft](https://w3c.github.io/aria/))
+<!-- * More [WAI Translations](/translations/) &mdash; usually some each month -->
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
@@ -184,12 +186,21 @@ To learn about contributing to W3C WAI accessibility work generally, **see [[Par
   </div>
 </section>
 
+## Support WAI {#support}
+
+W3C greatly appreciates the support WAI receives from contributors committed to making digital technology accessible. Sponsorships, donations, and grants enable WAI to bring together a unique collaboration of industry, government, research, and people with disabilities in a cooperative effort to improve digital accessibility for disabled people.
+
+**We invite organizations and individuals to support WAI financially. Please see [Support us | W3C](https://www.w3.org/support-us/) and let us know if you would like more information on specifically supporting W3C accessibility work.**
+
 {% include_cached excol.html type="start" id="changelog" %}
 
 ## Updates to this page (changelog)
 
 {% include_cached excol.html type="middle" %}
 
+* 28 August 2026
+  * Added [Support WAI](/update/#support) section
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 3 August 2026
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 30 June 2026
