@@ -24,7 +24,7 @@ The Mobile Accessibility Task Force (MATF) is a task force of the [Accessibility
 
 ## Status
 
-This work statement is a draft yet to be approved. The task force is active.
+This work statement was reviewed by the AG WG in Q1 2025. The Task Force is active.
 
 NOTE: This work is mentioned in the [Other Deliverables section of the current AG WG Charter.](https://www.w3.org/2019/12/ag-charter#ig-other-deliverables) The continuation of the work is also included in the [current AG WG Charter](https://www.w3.org/2023/11/ag-charter).
 
@@ -56,7 +56,11 @@ The work may be broken down into-subgroups to improve efficiency. Success Criter
 
 ## Timeline
 
-The following sections contain rough timelines for the MATF work. Our goal is to publish a W3C Group Note in the first half of 2025.
+The following sections contain rough timelines for the MATF work. 
+
+* Our primary goal is to publish a W3C Group Note with guidance for Success Criteria at level A and AA, by the end of 2025.
+* Our secondary goal is to publish an updated W3C Group Note, with additional guidance for Success Criteria at Level AAA, by the end of 2026.
+* Our continuous goal is to provide supporting documentation for mobile accessibility within the W3C, including updates to Guidelines, Understanding and Technique pages.
 
 Actual timelines and project management will be handled outside of this work statement, and will not be maintained herein.
 
@@ -68,35 +72,72 @@ Actual timelines and project management will be handled outside of this work sta
 * Figure out efficient way of collaborating;
 * List existing resources for applying WCAG to Mobile Applications.
 
-**Phase 2: April - June 2024**
+**Phase 2: April - September 2024**
 
-* Develop an initial draft, focusing on Success Criteria at Level A;
+* Discuss all Success Criteria at level A+AA during our weekly meetings; mark them as “Small”, “Medium”, or “Large” variation;
 * Publish Level A draft on Github;
 * Request feedback from stakeholders, participants and AG WG.
 
-**Phase 3: July - September 2024**
+**Phase 3: October - December 2024**
 
-* Develop second draft, process feedback, add Success Criteria at Level AA;
-* Publish Level AA draft on Github;
-* Request and process feedback from stakeholders, participants and AG WG.
+* Develop an initial draft, focusing on Success Criteria marked as Small Variation;
+* Publish Small Variation draft on Github;
+* Request feedback from stakeholders, participants and AG WG.
 
-**Phase 4: October - December 2024**
+**Phase 4: January - March 2025**
 
-* Publish an First Public Working Draft through W3C, taking all feedback into account;
-* Process feedback from the public, stakeholders, participants and AG WG;
-* Publish new W3C Group Note.
+* Process feedback from stakeholders, participants and AG WG.
+* Publish First Public Working Draft;
+* Request feedback from the public, stakeholders, participants and AG WG.
 
-**Phase 5: January - March 2025**
+**Phase 5: April - June 2025**
 
-* Expand Working Group Note with guidance for Level AAA criteria;
-* Publish Level AAA draft on Github;
-* Request and process feedback from stakeholders, participants and AG WG.
+* Process feedback from public, stakeholders, participants and AG WG.
+* Work on Second Draft, focusing on Success Criteria marked as Medium Variation;
+* Publish Second Public Working Draft, including Success Criteria marked as Medium Variation;
+* Request feedback from the public, stakeholders, participants and AG WG.
 
-**Phase 6: April - June 2025**
+**Phase 6: July - September 2025**
 
-* Publish a Group Note through W3C, taking all feedback into account;
-* Process feedback from the public, stakeholders, participants and AG WG;
-* Publish updated W3C Group Note.
+* Process feedback from public, stakeholders, participants and AG WG;
+* Work on Third Draft, focusing on Success Criteria marked as Large Variation;
+* Publish Third Public Working Draft, including Success Criteria marked as Large Variation;
+* Request feedback from the public, stakeholders, participants and AG WG.
+
+**Phase 7: October - December 2025**
+
+* Process feedback from public, stakeholders, participants and AG WG.
+* **Publish W3C Group Note.**
+
+**Phase 8: January - February 2026**
+
+* Discuss all Success Criteria at level AAA during our weekly meetings; mark them as “Small”, “Medium”, or “Large” variation;
+* Work on Updated Group Note with guidance for Level AAA criteria;
+* Request feedback from stakeholders, participants and AG WG.
+
+**Phase 9: March - April 2026**
+
+* Process feedback from stakeholders, participants and AG WG;
+* Publish First Public Working Draft of Updated Group Note, including Success Criteria at level AAA marked as Small Variation;
+* Request feedback from the public, stakeholders, participants and AG WG.
+
+**Phase 10: May - June 2026**
+
+* Process feedback from public, stakeholders, participants and AG WG;
+* Publish Second Public Working Draft of Updated Group Note, including Success Criteria at level AAA marked as Medium Variation;
+* Request feedback from the public, stakeholders, participants and AG WG.
+  
+**Phase 11: July - September 2026**
+
+* Process feedback from public, stakeholders, participants and AG WG;
+* Publish Second Public Working Draft of Updated Group Note, including Success Criteria at level AAA marked as Large Variation;
+* Request feedback from the public, stakeholders, participants and AG WG.
+
+**Phase 12: October - December 2026**
+
+* Process feedback from public, stakeholders, participants and AG WG;
+* **Publish updated W3C Group Note.**
+
 
 ## Dependencies
 
