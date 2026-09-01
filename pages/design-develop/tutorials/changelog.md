@@ -29,7 +29,13 @@ This changelog lists substantive content edits. It does _not_ list typo fixes an
 {% include box.html type="end" %}
 {:/}
 
+## August 2026
+
+In the [top-level page](/tutorials/):
+* Under Relationship to WCAG, added a link to WCAG 2.2, and updated the Quickref link. [GitHub PR #2238](https://github.com/w3c/wai-website/pull/2238)
+
 ## April 2026
+
 In [Tables tutorial](/tutorials/tables/):
 * Removed a link to a "Full code example" page in [Irregular Headers](/tutorials/tables/irregular/). The complete code of Example 2 is already available in the "Code Snippet" box.
 
