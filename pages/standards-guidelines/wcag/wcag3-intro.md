@@ -5,7 +5,7 @@
 title: "WCAG 3 Introduction"
 nav_title: "WCAG 3 Draft"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-03-03 # Keep the date of the English version
+last_updated: 2026-09-10 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -38,9 +38,9 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory or developing phase and will change substantially.
+Many aspects of W3C Accessibility Guidelines (WCAG) 3 Draft are in an exploratory or developing phase and will change substantially.
 
-WCAG 3 will have similar accessibility requirements as WCAG 2. WCAG 3 will have a different structure, different conformance model, and broader scope.
+WCAG 3 will generally maintain and build on the WCAG 2 accessibility requirements. WCAG 3 will have a different structure, different conformance model, and broader scope.
 
 Please share this page as the starting point for official information about WCAG 3 now and in the future. Short link: w3.org/WAI/wcag3
 
@@ -64,30 +64,42 @@ Please share this page as the starting point for official information about WCAG
 ## Introduction
 {:.no_toc}
 
-W3C Accessibility Guidelines (WCAG) 3 is currently an incomplete draft. WCAG 3 is intended to develop into a W3C Standard **in a few years**. The current standard, Web Content Accessibility Guidelines (WCAG 2), is introduced in the [WCAG 2 Overview](/standards-guidelines/wcag/).
+The WCAG documents explain how to make the web more accessible to people with disabilities. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web. 
 
-The WCAG 3 documents will explain how to make the web more accessible to people with disabilities. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web. 
+W3C Accessibility Guidelines (WCAG) 3 is currently an **incomplete draft that will change**. WCAG 3 is intended to develop into a W3C Standard **in a few years**.
+
+The current standard, Web Content Accessibility Guidelines (WCAG 2), is introduced in the [WCAG 2 Overview](/standards-guidelines/wcag/).
+
+When WCAG 3 is fairly stable, we will provide guidance on transitioning from WCAG 2 to WCAG 3. The best way to prepare for WCAG 3 in the future, is to meet WCAG 2 Level A and AA success criteria now.
 
 We will update this page regularly as work on the WCAG 3 Draft progresses.
 
 ## Status: In-progress drafts
 
-The WCAG 3 draft includes potential guidelines and requirements that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed.
+The WCAG 3 Draft includes potential guidelines, requirements, and conformance model that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed. The conformance model may change.
 
-### March 2026 updates
+### September 2026 updates
 
-In March 2026, we published updated drafts:
+In September 2026, we published updated drafts with the following changes.
 
-* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.**
-* **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/). For review questions and how to comment, please see the sections [About this draft](https://www.w3.org/TR/wcag-3.0/#about-this-draft) and [Conformance](https://www.w3.org/TR/wcag-3.0/#conformance).
+* **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.** Changes include:
+  * [Conformance section in Explainer](https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models)
+* **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/). Changes include:
+  * [Conformance section in WCAG 3 Draft](https://w3c.github.io/wcag3/guidelines/#conformance)
+  * Guidelines, requirements, and assertions
 
-Changes in these drafts include:
-* "Foundational Requirements" renamed "Core Requirements"
-* "Outcomes" changed to "Requirements", and "Guidelines" are written as outcome statements
-* [Best practices section in the Explainer](https://www.w3.org/TR/wcag-3.0-explainer/#best-practices)
-* [Conformance section in the Explainer](https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models)
-* [Conformance section in the WCAG 3 Draft](https://www.w3.org/TR/wcag-3.0/#conformance)
-* Updated draft guidelines, requirements, and assertions in the [WCAG 3 draft](https://www.w3.org/TR/wcag-3.0/)
+### Review questions
+
+We encourage review and comment, particularly on the conformance model.
+* The [proposed conformance approach](https://www.w3.org/TR/wcag-3.0/#conformance-models) sets a single conformance level and uses [tags](https://www.w3.org/TR/wcag-3.0/#core-requirement-tags) to provide reporting tiers below and above that level. Does this improve upon the conformance approach in previous drafts?
+* An alternate conformance approach proposal in the Explainer under "[Alternative approach - Scoring](https://www.w3.org/TR/wcag-3.0-explainer/#alternative-approach-scoring)" uses the tags to generate a score above and below conformance. What pros and cons do you see for each approach? 
+* In your role, how would you leverage reporting tiers leading to conformance or above conformance?
+
+### To comment
+
+To comment, please open new issues in the [WCAG 3 GitHub repository](https://github.com/w3c/wcag3/issues). If it's not feasible for you to use GitHub, email your comments to public-agwg-comments@w3.org
+
+Please create separate GitHub issues or email messages for each topic (rather than putting multiple topics in a single issue or email).
 
 ### Section status
 Each normative section has a status that indicates how far along in the development process this section is, how ready it is for experimental adoption, and what kind of feedback we are looking for.
@@ -166,16 +178,12 @@ Information on the draft conformance model is in:
 
 WCAG 3 will not supersede WCAG 2 and WCAG 2 will not be deprecated for at least several years after WCAG 3 is finalized.
 
-The Accessibility Guidelines Working Group (AG WG) previously created an initial set of guidelines and explored conformance models. In 2025, AG WG focused on progressing guidelines, requirements, assertions, and supporting material to Developing status. During the rest of 2025, the group will focus on completing the proposed guidelines and proposed conformance model for public review.
-
-AG WG plans to develop a projected [WCAG 3 timeline](https://www.w3.org/WAI/GL/wiki/WCAG_3_Timeline) by April 2026.
-
-We will update this section with more specific timeline information as it is available.
+The Accessibility Guidelines Working Group provides a projected [WCAG 3 schedule](https://github.com/w3c/wcag3/wiki/Schedule).
 
 ### Who develops WCAG 3
 
 The WCAG technical documents are developed by the Accessibility Guidelines Working Group ([AG WG](https://www.w3.org/WAI/about/groups/agwg/)) (previously under the Silver Task Force) with the Silver Community Group. These Groups are part of the World Wide Web Consortium ([W3C](https://www.w3.org)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)). You can learn about the development process from [[How WAI Develops Accessibility Standards through the W3C Process: Milestones and Opportunities to Contribute]](/standards-guidelines/w3c-process/).
 
-We welcome your comments on WCAG 3 Working Drafts. The best way to provide feedback is by opening new [GitHub issues](https://github.com/w3c/wcag3/issues). Alternatively, e-mail public-agwg-comments@w3.org
+We welcome your comments on WCAG 3 Working Drafts. The best way to provide feedback is by opening new [GitHub issues](https://github.com/w3c/wcag3/issues). Alternatively, email public-agwg-comments@w3.org
 
 Opportunities for contributing more directly to WCAG and other WAI work are introduced in [[Participating in WAI]](/about/participating/).
