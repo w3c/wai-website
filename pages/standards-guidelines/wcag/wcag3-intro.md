@@ -38,7 +38,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Many aspects of W3C Accessibility Guidelines (WCAG) 3 are in an exploratory or developing phase and will change substantially.
+Many aspects of W3C Accessibility Guidelines (WCAG) 3 Draft are in an exploratory or developing phase and will change substantially.
 
 WCAG 3 will generally maintain and build on the WCAG 2 accessibility requirements. WCAG 3 will have a different structure, different conformance model, and broader scope.
 
