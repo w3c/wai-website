@@ -85,7 +85,7 @@ In September 2026, we published updated drafts with the following changes.
 * **[Explainer for WCAG 3](https://www.w3.org/TR/wcag-3.0-explainer/)** provides background information and describes the structure of the WCAG 3 Draft. **We suggest reading the Explainer before reading WCAG 3.** Changes include:
   * [Conformance section in Explainer](https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models)
 * **[WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/)** includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the [Editor's Draft](https://w3c.github.io/wcag3/guidelines/). Changes include:
-  * [Conformance section in WCAG 3 Draft](https://w3c.github.io/wcag3/guidelines/#conformance)
+  * [Conformance section in WCAG 3 Draft](https://www.w3.org/TR/wcag-3.0/#conformance)
   * Guidelines, requirements, and assertions
 
 ### Review questions
@@ -162,7 +162,7 @@ The conformance model in WCAG 3 will be very different from WCAG 2. It is intend
 * be more flexible for organizations (that is, owners and developers of websites, apps, tools, etc.)
 * encourage more accessible user experiences
 
-Developing and vetting the conformance model is a large portion of the work AG needs to complete over the next few years.
+Refining the conformance model is a large part of the work the AG WG needs to complete.
 
 Information on the draft conformance model is in:
 * Explainer section [Conformance approach](https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models)
