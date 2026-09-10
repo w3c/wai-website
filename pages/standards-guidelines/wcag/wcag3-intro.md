@@ -88,14 +88,18 @@ In September 2026, we published updated drafts with the following changes.
   * [Conformance section in WCAG 3 Draft](https://w3c.github.io/wcag3/guidelines/#conformance)
   * Guidelines, requirements, and assertions
 
-#### Review questions
+### Review questions
 
 We encourage review and comment, particularly on the conformance model.
 * The [proposed conformance approach](https://www.w3.org/TR/wcag-3.0/#conformance-models) sets a single conformance level and uses [tags](https://www.w3.org/TR/wcag-3.0/#core-requirement-tags) to provide reporting tiers below and above that level. Does this improve upon the conformance approach in previous drafts?
 * An alternate conformance approach proposal in the Explainer under "[Alternative approach - Scoring](https://www.w3.org/TR/wcag-3.0-explainer/#alternative-approach-scoring)" uses the tags to generate a score above and below conformance. What pros and cons do you see for each approach? 
 * In your role, how would you leverage reporting tiers leading to conformance or above conformance?
 
-The best way to provide feedback is by opening new [GitHub issues](https://github.com/w3c/wcag3/issues). Alternatively, email public-agwg-comments@w3.org
+### To comment
+
+To comment, please open new issues in the [WCAG 3 GitHub repository](https://github.com/w3c/wcag3/issues). If it's not feasible for you to use GitHub, email your comments to public-agwg-comments@w3.org
+
+Please create separate GitHub issues or email messages for each topic (rather than putting multiple topics in a single issue or email).
 
 ### Section status
 Each normative section has a status that indicates how far along in the development process this section is, how ready it is for experimental adoption, and what kind of feedback we are looking for.
