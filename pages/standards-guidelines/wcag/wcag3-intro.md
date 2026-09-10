@@ -91,7 +91,7 @@ In September 2026, we published updated drafts with the following changes.
 ### Review questions
 
 We encourage review and comment, particularly on the conformance model.
-* The [proposed conformance approach](https://www.w3.org/TR/wcag-3.0/#conformance-models) sets a single conformance level and uses [tags](https://www.w3.org/TR/wcag-3.0/#core-requirement-tags) to provide reporting tiers below and above that level. Does this improve upon the conformance approach in previous drafts?
+* The [proposed conformance approach](https://www.w3.org/TR/wcag-3.0/#conformance) sets a single conformance level and uses [tags](https://www.w3.org/TR/wcag-3.0/#core-requirement-tags) to provide reporting tiers below and above that level. Does this improve upon the conformance approach in previous drafts?
 * An alternate conformance approach proposal in the Explainer under "[Alternative approach - Scoring](https://www.w3.org/TR/wcag-3.0-explainer/#alternative-approach-scoring)" uses the tags to generate a score above and below conformance. What pros and cons do you see for each approach? 
 * In your role, how would you leverage reporting tiers leading to conformance or above conformance?
 
