@@ -5,7 +5,7 @@
 title: "WCAG 3 Introduction"
 nav_title: "WCAG 3 Draft"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-09-10 # Keep the date of the English version
+last_updated: 2026-09-11 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -68,7 +68,7 @@ The WCAG documents explain how to make the web more accessible to people with di
 
 W3C Accessibility Guidelines (WCAG) 3 is currently an **incomplete draft that will change**. WCAG 3 is intended to develop into a W3C Standard **in a few years**.
 
-The current standard, Web Content Accessibility Guidelines (WCAG 2), is introduced in the [WCAG 2 Overview](/standards-guidelines/wcag/).
+The current standard, Web Content Accessibility Guidelines (WCAG) 2, is introduced in the [WCAG 2 Overview](/standards-guidelines/wcag/).
 
 The best way to prepare for WCAG 3 in the future, is to meet WCAG 2.2 success criteria now.
 
@@ -184,7 +184,7 @@ WCAG 3 will not supersede WCAG 2 and WCAG 2 will not be deprecated for several y
 
 The Accessibility Guidelines Working Group provides a projected [WCAG 3 schedule](https://github.com/w3c/wcag3/wiki/Schedule).
 
-When WCAG 3 is fairly stable, we will provide guidance on transitioning from WCAG 2 to WCAG 3.
+When WCAG 3 is more stable, we will provide guidance on transitioning from WCAG 2 to WCAG 3.
 
 ### Who develops WCAG 3
 
