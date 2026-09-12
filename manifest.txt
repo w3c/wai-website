@@ -3263,6 +3263,7 @@
 /news/2026-02-05/wcag-em-2/index.html
 /news/2026-03-03/wcag3/index.html
 /news/2026-07-23/wcag-em-2/index.html
+/news/2026-09-10/wcag3/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html

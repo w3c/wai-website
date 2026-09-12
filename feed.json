@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2026-09-10/wcag3/",
+            "title": "For Review: WCAG 3 Working Draft – September 2026",
+            "summary": null,
+            "content_text": "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft is updated. The starting place for background, timeline, and up-to-date information is the WCAG 3 Introduction. For a list of changes in the September 2026 draft and review questions on the conformance model, see Status: In-progress drafts.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/wcag-3.0/\">W3C Accessibility Guidelines (WCAG) 3.0 Working Draft</a> is updated. The starting place for background, timeline, and up-to-date information is the <a href=\"/WAI/standards-guidelines/wcag/wcag3-intro/\">WCAG 3 Introduction</a>. For a list of changes in the September 2026 draft and review questions on the conformance model, see <a href=\"/WAI/standards-guidelines/wcag/wcag3-intro/#status-in-progress-drafts\">Status: In-progress drafts</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2026-09-10/wcag3/",
+            
+            
+            
+            
+            
+            "date_published": "2026-09-10T00:00:00+00:00",
+            "date_modified": "2026-09-10T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2026-07-23/wcag-em-2/",
             "title": "WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-10-05T00:00:00+00:00",
             "date_modified": "2023-10-05T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-09-21/wcag21updated/",
-            "title": "Web Content Accessibility Guidelines (WCAG) 2.1 is Updated",
-            "summary": null,
-            "content_text": "Web Content Accessibility Guidelines (WCAG) 2.1 is updated to include errata and informative notes to success criteria 4.1.1 Parsing. To learn more about WCAG and these updates, see WCAG 2 Overview and WCAG 2 FAQ.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/WCAG21/\">Web Content Accessibility Guidelines (WCAG) 2.1</a> is updated to include <a href=\"https://www.w3.org/TR/WCAG21/#changelog\">errata</a> and informative notes to success criteria <a href=\"https://www.w3.org/TR/WCAG21/#parsing\">4.1.1 Parsing</a>. To learn more about WCAG and these updates, see <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">WCAG 2 Overview</a> and <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/faq/#Sept2023\">WCAG 2 FAQ</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-09-21/wcag21updated/",
-            
-            
-            
-            
-            
-            "date_published": "2023-09-21T00:00:00+00:00",
-            "date_modified": "2023-09-21T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
