@@ -81,7 +81,11 @@ We will update this page regularly as work on the WCAG 3 Draft progresses.
 
 ## Status: In-progress drafts
 
-The WCAG 3 Draft includes potential guidelines, requirements, and conformance model that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed. The conformance model will be refined.
+The WCAG 3 Draft includes potential guidelines, requirements, and assertions.
+
+It also introduces an exploratory six-tier conformance model that shows progress toward, at, and beyond conformance. Tiers 1 and 2 show progress toward conformance, Tier 3 requires all core requirements to be met for conformance, and tiers 4 through 6 provide ways to demonstrate accessibility beyond conformance using supplemental requirements and assertions about accessibility-related practices and processes.
+
+The final provisions in WCAG 3 will be different from this draft. Guidelines, requirements, and assertions will be edited, added, combined, and removed. The conformance model is still being developed, with alternative approaches to measuring and reporting progress being explored, and will be refined in future drafts.
 
 ### September 2026 updates
 
