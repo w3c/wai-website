@@ -166,7 +166,7 @@ For a description of the structure of the WCAG 3 Draft, see the Explainer sectio
 
 ### Conformance approach {#model}
 
-A conformance model defines how to determine and communicate whether a website, app, or other content meets WCAG requirements.
+The conformance model defines how to determine and communicate whether a website, app, or other content meets WCAG requirements.
 
 The conformance model in WCAG 3 will be very different from WCAG 2. It is intended to:
 * be more flexible for organizations (that is, owners and developers of websites, apps, tools, and so on)
