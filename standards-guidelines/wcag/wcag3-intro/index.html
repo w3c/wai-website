@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1789176152965738918";
+      element.src = "/WAI/assets/scripts/main.js?1789539005412975041";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1789176152965738918"><title> WCAG 3 Introduction | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1789539005412975041"><title> WCAG 3 Introduction | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="WCAG 3 Introduction" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -176,23 +176,28 @@
 
 <ul id="markdown-toc">
   <li><a href="#status-in-progress-drafts" id="markdown-toc-status-in-progress-drafts">Status: In-progress drafts</a>    <ul>
-      <li><a href="#september-2026-updates" id="markdown-toc-september-2026-updates">September 2026 updates</a></li>
-      <li><a href="#review-questions" id="markdown-toc-review-questions">Review questions</a></li>
-      <li><a href="#to-comment" id="markdown-toc-to-comment">To comment</a></li>
       <li><a href="#section-status" id="markdown-toc-section-status">Section status</a></li>
+      <li><a href="#september-2026-updates" id="markdown-toc-september-2026-updates">September 2026 updates</a>        <ul>
+          <li><a href="#review-questions" id="markdown-toc-review-questions">Review questions</a></li>
+        </ul>
+      </li>
       <li><a href="#research-needed" id="markdown-toc-research-needed">Research needed</a></li>
     </ul>
   </li>
   <li><a href="#wcag-3-draft-approach" id="markdown-toc-wcag-3-draft-approach">WCAG 3 Draft approach</a>    <ul>
       <li><a href="#compare" id="markdown-toc-compare">Some similar, some different</a></li>
-      <li><a href="#wcag-3-name" id="markdown-toc-wcag-3-name">WCAG 3 name</a></li>
       <li><a href="#structure" id="markdown-toc-structure">Structure</a></li>
-      <li><a href="#model" id="markdown-toc-model">Conformance approach</a></li>
+      <li><a href="#model" id="markdown-toc-model">Conformance approach</a>        <ul>
+          <li><a href="#conformance-in-the-september-2026-draft" id="markdown-toc-conformance-in-the-september-2026-draft">Conformance in the September 2026 draft</a></li>
+        </ul>
+      </li>
+      <li><a href="#wcag-3-name" id="markdown-toc-wcag-3-name">WCAG 3 name</a></li>
     </ul>
   </li>
   <li><a href="#development" id="markdown-toc-development">Development</a>    <ul>
       <li><a href="#timeline" id="markdown-toc-timeline">Timeline</a></li>
       <li><a href="#who-develops-wcag-3" id="markdown-toc-who-develops-wcag-3">Who develops WCAG 3</a></li>
+      <li><a href="#comment" id="markdown-toc-comment">Your comments</a></li>
     </ul>
   </li>
 </ul>
@@ -217,7 +222,7 @@
 <p>WCAG 3 is being designed to:</p>
 <ul>
   <li><strong>have similar core requirements as WCAG 2, with some revisions and additions</strong></li>
-  <li>provide additional supplemental requirements, assertions, and recommended practices</li>
+  <li>provide additional requirements and guidance</li>
   <li>provide a conformance model that allows more specific reporting of progress towards conformance and above minimal conformance</li>
 </ul>
 
@@ -226,39 +231,6 @@
 <h2 id="status-in-progress-drafts">Status: In-progress drafts</h2>
 
 <p>The WCAG 3 Draft includes potential guidelines, requirements, and conformance model that we are exploring. The final requirements in WCAG 3 will be different from this draft. Guidelines and requirements will be edited, added, combined, and removed. The conformance model will be refined.</p>
-
-<h3 id="september-2026-updates">September 2026 updates</h3>
-
-<p>In September 2026, we published updated drafts with the following changes.</p>
-
-<ul>
-  <li><strong><a href="https://www.w3.org/TR/wcag-3.0-explainer/">Explainer for WCAG 3</a></strong> provides background information and describes the structure of the WCAG 3 Draft. <strong>We suggest reading the Explainer before reading WCAG 3.</strong> Changes include:
-    <ul>
-      <li><a href="https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models">Conformance section in Explainer</a></li>
-    </ul>
-  </li>
-  <li><strong><a href="https://www.w3.org/TR/wcag-3.0/">WCAG 3 Working Draft</a></strong> includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the <a href="https://w3c.github.io/wcag3/guidelines/">Editor’s Draft</a>. Changes include:
-    <ul>
-      <li><a href="https://www.w3.org/TR/wcag-3.0/#conformance">Conformance section in WCAG 3 Draft</a></li>
-      <li>Guidelines, requirements, and assertions</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="review-questions">Review questions</h3>
-
-<p>We encourage review and comment, particularly on the conformance model.</p>
-<ul>
-  <li>The <a href="https://www.w3.org/TR/wcag-3.0/#conformance">proposed conformance approach</a> sets a single conformance level and uses <a href="https://www.w3.org/TR/wcag-3.0/#core-requirement-tags">tags</a> to provide reporting tiers below and above that level. Does this improve upon the conformance approach in previous drafts?</li>
-  <li>An alternate conformance approach proposal in the Explainer under “<a href="https://www.w3.org/TR/wcag-3.0-explainer/#alternative-approach-scoring">Alternative approach - Scoring</a>” uses the tags to generate a score above and below conformance. What pros and cons do you see for each approach?</li>
-  <li>In your role, how would you leverage reporting tiers leading to conformance or above conformance?</li>
-</ul>
-
-<h3 id="to-comment">To comment</h3>
-
-<p>To comment, please open new issues in the <a href="https://github.com/w3c/wcag3/issues">WCAG 3 GitHub repository</a>. If it’s not feasible for you to use GitHub, email your comments to public-agwg-comments@w3.org</p>
-
-<p>Please create separate GitHub issues or email messages for each topic (rather than putting multiple topics in a single issue or email).</p>
 
 <h3 id="section-status">Section status</h3>
 
@@ -271,9 +243,31 @@
   <li>Mature</li>
 </ul>
 
-<p>For more information on these status indicators, see the Explainer section <a href="https://www.w3.org/TR/wcag-3.0-explainer/#current-process">Current Process for Creating WCAG 3</a>.</p>
+<p>For more information on the status indicators, see the Explainer section <a href="https://www.w3.org/TR/wcag-3.0-explainer/#current-process">Current process for creating WCAG 3</a>.</p>
+
+<h3 id="september-2026-updates">September 2026 updates</h3>
+
+<p>In September 2026, we published updated drafts:</p>
+
+<ul>
+  <li><a href="https://www.w3.org/TR/wcag-3.0-explainer/">Explainer for WCAG 3</a> provides background information and describes the structure of the WCAG 3 Draft. <strong>We suggest reading the Explainer before reading WCAG 3.</strong></li>
+  <li><a href="https://www.w3.org/TR/wcag-3.0/">WCAG 3 Working Draft</a> includes potential guidelines, requirements, and assertions that have progressed to Developing status. Those that are still Exploratory are available in the <a href="https://w3c.github.io/wcag3/guidelines/">Editor’s Draft</a>.</li>
+</ul>
+
+<p><strong>The conformance approach is substantially updated. For a brief description, see <a href="#model">Conformance approach</a> below.</strong></p>
 
 <p><img src="/WAI/content-images/wcag/dialogs2.svg" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px" /></p>
+
+<h4 id="review-questions">Review questions</h4>
+
+<p>We encourage review and comment, particularly on the conformance model.</p>
+<ul>
+  <li>The proposed conformance approach sets a single conformance level and uses tags to provide reporting tiers below and above that level. Does this improve upon the conformance approach in previous drafts?</li>
+  <li>An alternate conformance approach proposal in the Explainer under “Alternative approach - Scoring” uses the tags to generate a score above and below conformance. What pros and cons do you see for each approach?</li>
+  <li>In your role, how would you leverage reporting tiers leading to conformance or above conformance?</li>
+</ul>
+
+<p><a href="#comment">Instructions for commenting</a> are below.</p>
 
 <h3 id="research-needed">Research needed</h3>
 
@@ -311,6 +305,68 @@
   <li>broader scope, beyond just web content</li>
 </ul>
 
+<h3 id="structure">Structure</h3>
+
+<p>The WCAG 3 Draft includes:</p>
+<ul>
+  <li>Guidelines (outcome statements)
+    <ul>
+      <li>Core Requirements</li>
+      <li>Supplemental Requirements</li>
+      <li>Assertions</li>
+      <li>Recommended practices</li>
+    </ul>
+  </li>
+</ul>
+
+<p>WCAG 3 Draft supporting material includes:</p>
+<ul>
+  <li>Methods (that are somewhat similiar to WCAG 2 Techniques)</li>
+  <li>How to Document (that are somewhat similiar to Understanding WCAG 2 documents)</li>
+</ul>
+
+<p>For more information, see the Explainer section <a href="https://www.w3.org/TR/wcag-3.0-explainer/#structure">WCAG 3 Structure</a>.</p>
+
+<h3 id="model">Conformance approach</h3>
+
+<p>The <em>conformance model</em> is the way to determine and communicate how well content, a website, an app, etc. meets WCAG.</p>
+
+<p>The conformance model in WCAG 3 will be very different from WCAG 2. It is intended to:</p>
+<ul>
+  <li>be more flexible for organizations (that is, owners and developers of websites, apps, tools, etc.)</li>
+  <li>encourage more accessible user experiences</li>
+</ul>
+
+<h4 id="conformance-in-the-september-2026-draft">Conformance in the September 2026 draft</h4>
+
+<p>The draft conformance model uses <strong><em>tags</em></strong> and <strong><em>tiers</em></strong>  to report progress towards conformance and beyond minimal conformance.</p>
+
+<p>For this model, all <strong>core requirements</strong> will have <strong>tags</strong>:</p>
+
+<ul>
+  <li>Physical harm — Not meeting the requirement can cause someone with a disability immediate physical harm.</li>
+  <li>Risk — Not meeting the requirement unreasonably increases financial, medical, legal, privacy, or security risk for someone with a disability.</li>
+  <li>Barrier — Not meeting the requirement can prevent someone with a disability from proceeding.</li>
+  <li>Friction — Not meeting the requirement can hinder someone with a disability.</li>
+</ul>
+
+<p>The conformance reporting tiers are based on the requirement tags, supplemental requirements, and assertions:</p>
+<ul>
+  <li>Tier 1 — “Physical harm” and “Risk” requirements</li>
+  <li>Tier 2 — “Physical harm”, “Risk”, and “Barrier” requirements</li>
+  <li><strong>Tier 3</strong> — “Physical harm”, “Risk”,  “Barrier”, and “Friction” requirements, that is, all core requirements. Tier 3 is minimal conformance.</li>
+  <li>Tier 4 — All core requirements and [a to-be-determined number of] supplemental requirements and assertions about content</li>
+  <li>Tier 5 — All core requirements and [a to-be-determined greater number of] supplemental requirements and assertions about the content</li>
+  <li>Tier 6 — All core requirements and [a to-be-determined greater number of] supplemental requirements and assertions about the content, and assertions about the organization</li>
+</ul>
+
+<p>For more information, see:</p>
+
+<ul>
+  <li>Explainer section <a href="https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models">Conformance approach</a></li>
+  <li>WCAG 3 Draft section <a href="https://www.w3.org/TR/wcag-3.0/#conformance">Conformance</a></li>
+</ul>
+
 <h3 id="wcag-3-name">WCAG 3 name</h3>
 
 <p>The name of WCAG 3 is different from WCAG 2:</p>
@@ -323,26 +379,6 @@
 <ul>
   <li>because of wide-spread familiarity with the “WCAG” acronym</li>
   <li>to encompass the broader scope beyond “content”</li>
-</ul>
-
-<h3 id="structure">Structure</h3>
-
-<p>For a description of the structure of the WCAG 3 Draft, see the Explainer section <a href="https://www.w3.org/TR/wcag-3.0-explainer/#structure">WCAG 3 Structure</a>.</p>
-
-<h3 id="model">Conformance approach</h3>
-
-<p>The <em>conformance model</em> is the way to determine and communicate how well content, a website, an app, etc. meets WCAG.</p>
-
-<p>The conformance model in WCAG 3 will be very different from WCAG 2. It is intended to:</p>
-<ul>
-  <li>be more flexible for organizations (that is, owners and developers of websites, apps, tools, etc.)</li>
-  <li>encourage more accessible user experiences</li>
-</ul>
-
-<p>Information on the draft conformance model is in:</p>
-<ul>
-  <li>Explainer section <a href="https://www.w3.org/TR/wcag-3.0-explainer/#conformance-models">Conformance approach</a></li>
-  <li>WCAG 3 Draft section <a href="https://www.w3.org/TR/wcag-3.0/#conformance">Conformance</a></li>
 </ul>
 
 <h2 id="development">Development</h2>
@@ -361,11 +397,17 @@
 
 <h3 id="who-develops-wcag-3">Who develops WCAG 3</h3>
 
-<p>The WCAG technical documents are developed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>) (previously under the Silver Task Force) with the Silver Community Group. These Groups are part of the World Wide Web Consortium (<a href="https://www.w3.org">W3C</a>) Web Accessibility Initiative (<a href="https://www.w3.org/WAI/">WAI</a>). You can learn about the development process from <a href="/WAI/standards-guidelines/w3c-process/">How WAI Develops Accessibility Standards through the W3C Process: Milestones and Opportunities to Contribute</a>.</p>
+<p>The WCAG technical documents are developed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>) (previously under the Silver Task Force) with the Silver Community Group. These groups are part of the World Wide Web Consortium (<a href="https://www.w3.org">W3C</a>) Web Accessibility Initiative (<a href="https://www.w3.org/WAI/">WAI</a>). You can learn about the development process from <a href="/WAI/standards-guidelines/w3c-process/">How WAI Develops Accessibility Standards through the W3C Process: Milestones and Opportunities to Contribute</a>.</p>
 
-<p>We welcome your comments on WCAG 3 draft documents. To comment, please open new issues in the <a href="https://github.com/w3c/wcag3/issues">WCAG 3 GitHub repository</a>. If it’s not feasible for you to use GitHub, email your comments to public-agwg-comments@w3.org Please create separate GitHub issues or email messages for each topic (rather than putting multiple topics in a single issue or email).</p>
+<p><img src="/WAI/content-images/wcag/dialogs2.svg" alt="" style="float: right; margin-left: 2rem; width: 30%; max-width: 220px" /></p>
 
-<p>Opportunities for contributing more directly to WCAG and other WAI work are introduced in <a href="/WAI/about/participating/">Participate in WAI</a>.</p>
+<h3 id="comment">Your comments</h3>
+
+<p>We welcome your comments on WCAG 3 draft documents.</p>
+
+<p>To comment, open new issues in the <a href="https://github.com/w3c/wcag3/issues">WCAG 3 GitHub repository</a>. It’s free to create a GitHub account to create issues. If using GitHub is not feasible, email public-agwg-comments@w3.org</p>
+
+<p>Please create separate GitHub issues or email messages for each topic, rather than commenting on multiple topics in a single issue or email.</p>
 
 
     <aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.">wai@w3.org</a> or via GitHub.</p>
@@ -381,7 +423,7 @@ https://github.com/w3c/wai-website/edit/main/pages/standards-guidelines/wcag/wca
 
 
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
-    <div class="inner"><p><strong>Updated:</strong> 11 September 2026.</p><p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Rachael Bradley Montgomery, Jeanne Spellman, Kevin White.</p> <p>Developed with input from the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>), Silver Task Force, and Silver Community Group.</p>
+    <div class="inner"><p><strong>Updated:</strong> 16 September 2026.</p><p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Rachael Bradley Montgomery, Jeanne Spellman, Kevin White.</p> <p>Developed with input from the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>), Silver Task Force, and Silver Community Group.</p>
 </div>
   </footer>
   <footer class="w3c-global-footer wai-global-footer default-grid" aria-label="Site">
@@ -432,9 +474,9 @@ https://github.com/w3c/wai-website/edit/main/pages/standards-guidelines/wcag/wca
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1789176152965738918"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1789539005412975041"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1789176152965738918"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1789539005412975041"></script>
 <script>
   svg4everybody();
 </script><script>
