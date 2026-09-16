@@ -166,7 +166,9 @@ The conformance model in WCAG 3 will be very different from WCAG 2. It is intend
 
 #### Conformance in the September 2026 draft
 
-The draft conformance model uses **_tags_** and **_tiers_**  to report progress towards conformance and beyond minimal conformance.
+The draft conformance model uses **_tags_** and **_tiers_**  to report progress towards conformance and beyond conformance.
+
+To conform to WCAG 3, content must meet all core requirements.
 
 For this model, all **core requirements** will have **tags**:
 
@@ -175,10 +177,10 @@ For this model, all **core requirements** will have **tags**:
 * Barrier — Not meeting the requirement can prevent someone with a disability from proceeding.
 * Friction — Not meeting the requirement can hinder someone with a disability.
 
-The conformance reporting tiers are based on the requirement tags, supplemental requirements, and assertions:
+The reporting tiers are based on the requirement tags, supplemental requirements, and assertions:
 * Tier 1 — "Physical harm" and "Risk" requirements
 * Tier 2 — "Physical harm", "Risk", and "Barrier" requirements
-* **Tier 3** — "Physical harm", "Risk",  "Barrier", and "Friction" requirements, that is, all core requirements. Tier 3 is minimal conformance.
+* **Tier 3** — "Physical harm", "Risk",  "Barrier", and "Friction" requirements, that is, all core requirements. Tier 3 is conformance.
 * Tier 4 — All core requirements and [a to-be-determined number of] supplemental requirements and assertions about content
 * Tier 5 — All core requirements and [a to-be-determined greater number of] supplemental requirements and assertions about the content
 * Tier 6 — All core requirements and [a to-be-determined greater number of] supplemental requirements and assertions about the content, and assertions about the organization
