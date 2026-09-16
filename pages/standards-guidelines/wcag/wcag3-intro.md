@@ -75,7 +75,7 @@ The best way to prepare for WCAG 3 in the future, is to meet WCAG 2.2 success cr
 WCAG 3 is being designed to:
 * **have similar core requirements as WCAG 2, with some revisions and additions**
 * provide additional requirements and guidance
-* provide a conformance model that allows more specific reporting of progress towards conformance and above minimal conformance
+* provide a conformance model that allows more specific reporting of progress towards conformance and above conformance
 
 We will update this page regularly as work on the WCAG 3 Draft progresses.
 
