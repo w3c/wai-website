@@ -8,6 +8,11 @@ permalink: /standards-guidelines/wcag/changelog/
 ref: /standards-guidelines/wcag/changelog/
 ---
 
+
+## 17 September 2026
+
+* In [WCAG 2 Overview](/standards-guidelines/wcag/): Updated "EN 301 549 currently uses WCAG 2.1. We expect the next version of EN 301 549 to use the latest version of WCAG 2.2." to "The 2026 version of EN 301 549 uses WCAG 2.2.".
+
 ## 16 May 2026
 
 * In [WCAG 2 Overview](/standards-guidelines/wcag/): In the [Introduction section](https://www.w3.org/WAI/standards-guidelines/wcag/#intro), added paragraph at the end clarifying applicability and pointing to WCAG2ICT.
