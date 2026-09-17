@@ -5,7 +5,7 @@
 title: "WCAG 2 Overview"
 nav_title: "Web Content – WCAG 2"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-05-26 # Keep the date of the English version
+last_updated: 2026-09-17 # Keep the date of the English version
 first_published: "July 2005"
 description: Introduces the Web Content Accessibility Guidelines (WCAG) international standard, including WCAG 2.0, WCAG 2.1, and WCAG 2.2. WCAG documents explain how to make web content more accessible to people with disabilities.
 
@@ -143,7 +143,7 @@ Authorized Translations and unofficial translations of WCAG 2 are listed in [[WC
 
 WCAG 2.2 is an approved International Organization for Standardization (ISO) standard: [ISO/IEC 40500:2025](https://www.iso.org/standard/91029.html), and is available free from ISO. ISO/IEC 40500:2025 is exactly the same as the October 2023 version of WCAG 2.2. We expect the December 2024 version of WCAG 2.2 to be available as ISO/IEC 40500:2026 by late 2026.
 
-In addressing the European Accessibility Act (EAA), most organizations use WCAG and the European Standard EN 301 549: Accessibility requirements for ICT products and services. EN 301 549 currently uses WCAG 2.1. We expect the next version of EN 301 549 to use the latest version of WCAG 2.2.
+In addressing the European Accessibility Act (EAA), most organizations use WCAG and the European Standard EN 301 549: Accessibility requirements for ICT products and services. The 2026 version of EN 301 549 uses WCAG 2.2.
 
 To find how laws around the world use WCAG, see [Web Accessibility Laws & Policies](/policies/).
 
