@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2026-09-22/wcag-french/",
+            "title": "WCAG 2.2 and 2.1 in French — Authorized translations updated",
+            "summary": null,
+            "content_text": "The French authorized translations of Web Content Accessibility Guidelines (WCAG) are updated:  Règles pour l’accessibilité des contenus web (WCAG) 2.2 is now based on the 12 December 2024 publication of WCAG 2.2.  Règles pour l’accessibilité des contenus web (WCAG) 2.1 is now based on the 6 May 2025 publication of WCAG 2.1.These translations followed the W3C authorized translations process.Other translations of WAI resources are listed in All WAI Translations.W3C WAI thanks all who contribute to translations, and encourages translations of W3C accessibility standards and resources in all languages. If you might be interested in translating resources, see Translating WAI Resources.",
+            "content_html": "<p>The French authorized translations of Web Content Accessibility Guidelines (<a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">WCAG</a>) are updated:</p><ul>  <li><a href=\"https://www.w3.org/Translations/WCAG22-fr/\">Règles pour l’accessibilité des contenus web (WCAG) 2.2</a> is now based on the 12 December 2024 publication of WCAG 2.2.</li>  <li><a href=\"https://www.w3.org/Translations/WCAG21-fr/\">Règles pour l’accessibilité des contenus web (WCAG) 2.1</a> is now based on the 6 May 2025 publication of WCAG 2.1.</li></ul><p>These translations followed the <a href=\"https://www.w3.org/2005/02/TranslationPolicy\">W3C authorized translations process</a>.</p><p>Other translations of WAI resources are listed in <a href=\"https://www.w3.org/WAI/translations/\">All WAI Translations</a>.</p><p>W3C WAI thanks all who contribute to translations, and encourages translations of W3C accessibility standards and resources in all languages. If you might be interested in translating resources, see <a href=\"https://www.w3.org/WAI/about/translating/\">Translating WAI Resources</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2026-09-22/wcag-french/",
+            
+            
+            
+            
+            
+            "date_published": "2026-09-22T00:00:00+00:00",
+            "date_modified": "2026-09-22T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2026-09-10/wcag3/",
             "title": "For Review: WCAG 3 Working Draft – September 2026",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-10-30T00:00:00+00:00",
             "date_modified": "2023-10-30T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-10-05/wcag22rec/",
-            "title": "WCAG 2.2 is a Web Standard \"W3C Recommendation\"",
-            "summary": null,
-            "content_text": "Web Content Accessibility Guidelines (WCAG) 2.2 is now a “W3C Recommendation” web standard. For an introduction to WCAG, see the WCAG 2 Overview. WCAG 2.2 adds 9 requirements (called success criteria) since WCAG 2.1. To learn more about WCAG 2.2, see What’s New in WCAG 2.2.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/WCAG22/\">Web Content Accessibility Guidelines (WCAG) 2.2</a> is now a “W3C Recommendation” web standard. For an introduction to WCAG, see the <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">WCAG 2 Overview</a>. WCAG 2.2 adds 9 requirements (called success criteria) since WCAG 2.1. To learn more about WCAG 2.2, see <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/\">What’s New in WCAG 2.2</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-10-05/wcag22rec/",
-            
-            
-            
-            
-            
-            "date_published": "2023-10-05T00:00:00+00:00",
-            "date_modified": "2023-10-05T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
