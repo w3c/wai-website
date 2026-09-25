@@ -3265,6 +3265,7 @@
 /news/2026-07-23/wcag-em-2/index.html
 /news/2026-09-10/wcag3/index.html
 /news/2026-09-22/wcag-french/index.html
+/news/2026-09-25/wcag3-blog/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html

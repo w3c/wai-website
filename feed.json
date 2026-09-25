@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2026-09-25/wcag3-blog/",
+            "title": "Crafting WCAG 3 for more accessible user experiences",
+            "summary": null,
+            "content_text": "In the W3C blog post Crafting WCAG 3 for more accessible user experiences, W3C WAI Director Shawn Lawton Henry covers some of the stakes and challenges in developing W3C Accessibility Guidelines (WCAG) 3.",
+            "content_html": "<p>In the W3C blog post <a href=\"https://www.w3.org/blog/2026/crafting-wcag-3-for-more-accessible-user-experiences/\">Crafting WCAG 3 for more accessible user experiences</a>, W3C WAI Director <a href=\"https://www.w3.org/staff/#shawn\">Shawn Lawton Henry</a> covers some of the stakes and challenges in developing W3C Accessibility Guidelines (WCAG) 3.</p>",
+            "url": "https://www.w3.org/WAI/news/2026-09-25/wcag3-blog/",
+            
+            
+            
+            
+            
+            "date_published": "2026-09-25T00:00:00+00:00",
+            "date_modified": "2026-09-25T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2026-09-22/wcag-french/",
             "title": "WCAG 2.2 and 2.1 in French — Authorized translations updated",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-10-31T00:00:00+00:00",
             "date_modified": "2023-10-31T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-10-30/wai-coop-meeting/",
-            "title": "Invitation: WAI-CooP Meeting, Online, 14 November 2023",
-            "summary": null,
-            "content_text": "You are invited to the WAI-CooP Open Meeting, online 14 November 2023. Participation is free and registration is required by 13 November 2023. We encourage participation from people interested in: digital accessibility implementation in Europe and internationally; guidance on available web accessibility training, tools, and resources; and exchanges on the European Union (EU) Web Accessibility Directive (WAD). The link to register, the agenda, and more is in the  meeting page.",
-            "content_html": "<p>You are invited to the <a href=\"https://www.edf-feph.org/events-slug/wai-coop-open-meeting-14-november-2023\">WAI-CooP Open Meeting, online 14 November 2023</a>. Participation is free and registration is required by 13 November 2023. We encourage participation from people interested in: digital accessibility implementation in Europe and internationally; guidance on available web accessibility training, tools, and resources; and exchanges on the European Union (EU) Web Accessibility Directive (WAD). The link to register, the agenda, and more is in the  <a href=\"https://www.edf-feph.org/events-slug/wai-coop-open-meeting-14-november-2023\">meeting page</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-10-30/wai-coop-meeting/",
-            
-            
-            
-            
-            
-            "date_published": "2023-10-30T00:00:00+00:00",
-            "date_modified": "2023-10-30T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
