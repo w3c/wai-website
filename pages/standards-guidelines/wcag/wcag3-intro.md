@@ -5,7 +5,7 @@
 title: "WCAG 3 Introduction"
 nav_title: "WCAG 3 Draft"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2026-09-16 # Keep the date of the English version
+last_updated: 2026-09-25 # Keep the date of the English version
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Translator Name Here" # Add one -name: line for every translator
@@ -78,6 +78,17 @@ WCAG 3 is being designed to:
 * provide a conformance model that allows more specific reporting of progress towards conformance and above conformance
 
 We will update this page regularly as work on the WCAG 3 Draft progresses.
+
+{::nomarkdown}
+{% include box.html type="start" title="Blog September 2026" icon="default" %}
+{:/}
+
+For perspectives on the stakes and challenges developing W3C Accessibility Guidelines (WCAG) 3, see the W3C blog post [Crafting WCAG 3 for more accessible user experiences](https://www.w3.org/blog/2026/crafting-wcag-3-for-more-accessible-user-experiences/).
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 
 ## Status: In-progress drafts
 
@@ -165,6 +176,8 @@ The conformance model in WCAG 3 will be very different from WCAG 2. It is intend
 * encourage more accessible user experiences
 
 #### Conformance and reporting in the September 2026 draft
+
+Background on this conformance model is in the W3C blog post [Crafting WCAG 3 for more accessible user experiences](https://www.w3.org/blog/2026/crafting-wcag-3-for-more-accessible-user-experiences/).
 
 To conform to WCAG 3, content must meet all core requirements.
 
