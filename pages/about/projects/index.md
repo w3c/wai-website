@@ -13,6 +13,7 @@ github:
 ## Current Projects
 
    * WAI-Core Ford<!-- (/about/projects/wai-core-ford/) -->, Ford Foundation, Technology and Society Program
+   * [WAI-Core US 2025](/about/projects/wai-core-us/), U.S. National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILLR), Department of Health and Human Services (HHS)
 
 ## Previous Projects
 
