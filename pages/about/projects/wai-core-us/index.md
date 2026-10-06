@@ -48,7 +48,7 @@ WAI-Core US Project staff work to:
 
 ## How to Participate
 
-We welcomes contributions to the work under WAI-Core US.
+We welcome contributions to the work under WAI-Core US.
 
 Anyone can review and comment on drafts in development. To get notifications of drafts for review, you can subscribe to [Get WAI News](https://www.w3.org/WAI/news/subscribe/) via email, RSS feed, LinkedIn, and other social media.
 
