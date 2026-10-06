@@ -37,9 +37,9 @@ This page provides information on the Web Accessibility Initiative - Core **(WAI
 
 ## About WAI-Core
 
-The WAI-Core US Project, funded by HHS, supported accessibility work at W3C. WAI-Core-funded staff led the Web Accessibility Initiative (WAI) program and technical architecture for developing open, royalty-free standards and supporting resources through the W3C Process.
+The WAI-Core US Project, funded by HHS, supports accessibility work at W3C. WAI-Core-funded staff have led the Web Accessibility Initiative (WAI) program and technical architecture for developing open, royalty-free standards and supporting resources through the W3C Process.
 
-WAI-Core US Project staff led work to:
+WAI-Core US Project staff work to:
 
 * Develop standards, guidance, and supporting materials for accessibility of web sites, mobile apps, software, browsers, development tools, and other digital technology/information and communications technology (ICT)
 * Review all W3C standards to ensure they support accessibility
@@ -48,7 +48,7 @@ WAI-Core US Project staff led work to:
 
 ## How to Participate
 
-We welcomed contributions to the work under WAI-Core US.
+We welcomes contributions to the work under WAI-Core US.
 
 Anyone can review and comment on drafts in development. To get notifications of drafts for review, you can subscribe to [Get WAI News](https://www.w3.org/WAI/news/subscribe/) via email, RSS feed, LinkedIn, and other social media.
 
@@ -63,10 +63,13 @@ If you have any questions, contact [Shawn Lawton Henry](https://www.w3.org/Peopl
 
 ## Project Staff
 
-The following staff were primarily or partially supported by WAI-Core US funds:
+The following are primarily or partially supported by WAI-Core US funds:
 
-*   [Shawn Lawton Henry](https://www.w3.org/People/Shawn/), W3C, MIT
 *   [Ken Franqueiro](https://www.w3.org/staff/#kfranqueiro), W3C, MIT
 *   [Lalana Kagal](https://www.csail.mit.edu/person/lalana-kagal), MIT
+*   Wendy Chisholm, MIT
+*   Becky Gibson, MIT
+*   Irene Tenison, MIT (2026)
+*   [Shawn Lawton Henry](https://www.w3.org/People/Shawn/), W3C, MIT (through September 2025)
 *   Michael Cooper, W3C, MIT (through July 2023)
 *   Judy Brewer, W3C, MIT (through December 2022)
