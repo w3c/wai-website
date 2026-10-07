@@ -118,9 +118,9 @@ Summary: While the page itself is mostly a promotional vehicle for IBM products,
 Summary: The author interviews  Neil Lenane, Business Leader of Talent Management at Progressive who is a strong advocate of the value of diversity. Not specifically focused on disability and includes links to related articles and research. 
 
 ## Increase Revenue/Decrease Costs
-* [_SEO and Web Accessibility CrossOver_](http://www.iadcontrol.com/seo-and-web-accessibility-crossover){:rel="nofollow"}. By iAdControl.com. (2018) <br />
+* [_How Web Accessibility and SEO crossover_](https://www.iadcontrol.com/seo-and-web-accessibility-crossover.html){:rel="nofollow"}. By iAdControl.com. (2015, updated 2025) <br />
 Type: Online article <br />
-Summary: Compilation of examples and links to other resources produced to celebrate Global Accessibility Awareness Day (GAAD) 2018 by illustrating how SEO and website accessibility are mutually supportive and have common outcomes.  
+Summary: Explains how web accessibility and search engine optimization (SEO) can support each other, with examples of practices that can improve both accessibility and search visibility, including page titles, headings, alternative text, meaningful links, information architecture, and semantic code.  
 
 * [_Assessing the Value 0f Accessible Technologies for Organizations_](https://web.archive.org/web/20170710171528/https://mscorpmedia.azureedge.net/mscorpmedia/2016/07/Microsoft-TEI-Accessibility-Study_Edited_FINAL-v2.pdf){:rel="nofollow"}. Parks, S. and Sedov V.; Forrester Research, Inc. (2017) <br />
 Type:Archived research study commissioned by Microsoft <br />
