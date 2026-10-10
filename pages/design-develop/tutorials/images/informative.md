@@ -12,7 +12,7 @@ resource:
   ref: /tutorials/images/
 navigation:
   previous: /tutorials/images/
-  next: /tutorials/images/decorative/
+  next: /tutorials/images/pure-decoration/
 
 wcag_techniques:
 - H37
@@ -35,7 +35,7 @@ support: Developed by the Education and Outreach Working Group (<a href="https:/
 
 Informative images convey a simple concept or information that can be expressed in a short phrase or sentence. The text alternative should convey the meaning or content that is displayed visually, which typically isn’t a literal description of the image.
 
-In some situations a detailed literal description may be needed, but only when the content of the image is all or part of the conveyed information. Whether to treat an image as informative or [decorative](/tutorials/images/decorative/) is a judgment that authors make, based on the reason for including the image on the page.
+In some situations a detailed literal description may be needed, but only when the content of the image is all or part of the conveyed information.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -100,16 +100,6 @@ The following image shows a dog wearing a bell. It supplements the adjacent text
   Off-duty guide dogs often wear ...
 </p>
 ~~~
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
-{::nomarkdown}
-{% include box.html type="start" title="Note" class="simple" %}
-{:/}
-
-If the text included an explanation of how the dog wears a bell, the image might be considered redundant and therefore [decorative](/tutorials/images/decorative/). As this isn’t mentioned in the text, the image is deemed to be informative.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -183,7 +173,7 @@ This photograph shows a happy family group. It’s a stock image so the individu
 {% include box.html type="start" title="Note" class="simple" %}
 {:/}
 
-If the purpose of this image were simply to improve the look of a page rather than convey an impression, it could be deemed to be decorative, as shown in [“Decorative Images: Image used for ambiance”](/tutorials/images/decorative/#image-used-for-ambiance-eye-candy). The author determines the purpose for using the image.
+If the purpose of this image were simply to improve the look of a page rather than convey an impression, it could be deemed to be pure-decoration, as shown in [“Images for pure decoration: Image used for ambiance”](/tutorials/images/pure-decoration/#image-used-for-ambiance-eye-candy). The author determines the purpose for using the image.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -235,7 +225,7 @@ type for each link:
 {% include box.html type="start" title="Note" class="simple" %}
 {:/}
 
-1. If the format identification were written as part of the link text, the image might be considered [decorative](/tutorials/images/decorative/) and have a null (empty) `alt` attribute (`alt=""`). It could remain in the same link element (`<a>`) as the text, to include it in the clickable area. Further discussion is provided in [“Functional Images: Logo image within link text”](/tutorials/images/functional/#logo-image-within-link-text).
+1. If the format identification were written as part of the link text, the image can be considered [pure decoration](/tutorials/images/pure decoration/) and have an empty `alt` attribute (`alt=""`). It could remain in the same link element (`<a>`) as the text, to include it in the clickable area. Further discussion is provided in [“Functional Images: Logo image within link text”](/tutorials/images/functional/#logo-image-within-link-text).
 
 2. This particular example is similar to the [Functional Images: icon within linked text](/tutorials/images/functional/#icon-image-conveying-information-within-link-text) in that the image conveys information that isn’t given in the link text.
 
