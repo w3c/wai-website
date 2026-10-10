@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Images for pure decoration"
 permalink: /tutorials/images/pure-decoration/
 ref: /tutorials/images/pure-decoration/
 lang: en
