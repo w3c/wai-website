@@ -1,4 +1,4 @@
----
+-
 title: "Digital Accessibility Courses Overview"
 nav_title: "Courses"
 lang: en
