@@ -2,7 +2,7 @@
 title: "WCAG 2 FAQ"
 nav_title: "FAQ"
 lang: en
-last_updated: 2026-05-05
+last_updated: 2026-10-13
 first_published: "October 2006"
 description: Answers to some frequently asked questions (FAQ) about Web Content Accessibility Guidelines (WCAG).
 
