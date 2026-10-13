@@ -2,7 +2,7 @@
 title: "WCAG 2 FAQ"
 nav_title: "FAQ"
 lang: en
-last_updated: 2026-05-05
+last_updated: 2026-10-13
 first_published: "October 2006"
 description: Answers to some frequently asked questions (FAQ) about Web Content Accessibility Guidelines (WCAG).
 
@@ -137,7 +137,7 @@ Updates to WCAG documents will better support accessibility in different languag
 
 In October 2023, we added Notes to WCAG 2.2 to clarify that differences in languages do not impact conformance:
 * [1.4.8 Visual Presentation, AAA](https://www.w3.org/TR/2023/REC-WCAG22-20231005/#visual-presentation)
-* [1.4.13 Text Spacing, AA](https://www.w3.org/TR/2023/REC-WCAG22-20231005/#text-spacing)
+* [1.4.12 Text Spacing, AA](https://www.w3.org/TR/2023/REC-WCAG22-20231005/#text-spacing)
 
 We are updating Understanding WCAG 2.2 documents to address internationalization considerations more thoroughly.
 
