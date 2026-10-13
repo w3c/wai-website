@@ -3,7 +3,7 @@
   "website": "https://www.w3.org/WAI/standards-guidelines/act/rules/",
   "license": "https://act-rules.github.io/pages/license/",
   "description": "Accessibility conformance testing rules for HTML",
-  "count": 1213,
+  "count": 1211,
   "testcases": [
     {
       "ruleId": "674b10",
@@ -28914,54 +28914,6 @@
       "testcaseTitle": "Inapplicable Example 4",
       "relativePath": "testcases/2ee8b8/8c26a3506e424766019341f3b86d2f758ca1aced.html",
       "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/8c26a3506e424766019341f3b86d2f758ca1aced.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/"
-    },
-    {
-      "ruleId": "2ee8b8",
-      "ruleName": "Visible label is part of accessible name",
-      "ruleAccessibilityRequirements": {
-        "wcag21:2.5.3": {
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "further testing needed",
-          "inapplicable": "further testing needed"
-        },
-        "wcag-technique:G208": {
-          "forConformance": false,
-          "failed": "not satisfied",
-          "passed": "further testing needed",
-          "inapplicable": "further testing needed"
-        }
-      },
-      "expected": "inapplicable",
-      "testcaseId": "4c8c38022d15c92158ecaaa647fe8ca2c330f485",
-      "testcaseTitle": "Inapplicable Example 5",
-      "relativePath": "testcases/2ee8b8/4c8c38022d15c92158ecaaa647fe8ca2c330f485.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/4c8c38022d15c92158ecaaa647fe8ca2c330f485.html",
-      "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/"
-    },
-    {
-      "ruleId": "2ee8b8",
-      "ruleName": "Visible label is part of accessible name",
-      "ruleAccessibilityRequirements": {
-        "wcag21:2.5.3": {
-          "forConformance": true,
-          "failed": "not satisfied",
-          "passed": "further testing needed",
-          "inapplicable": "further testing needed"
-        },
-        "wcag-technique:G208": {
-          "forConformance": false,
-          "failed": "not satisfied",
-          "passed": "further testing needed",
-          "inapplicable": "further testing needed"
-        }
-      },
-      "expected": "inapplicable",
-      "testcaseId": "e9bbdbec137223e2973c6d2896050770c84c26e5",
-      "testcaseTitle": "Inapplicable Example 6",
-      "relativePath": "testcases/2ee8b8/e9bbdbec137223e2973c6d2896050770c84c26e5.html",
-      "url": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/e9bbdbec137223e2973c6d2896050770c84c26e5.html",
       "rulePage": "https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/"
     },
     {

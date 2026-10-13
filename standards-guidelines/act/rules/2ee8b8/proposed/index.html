@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1791404292235714879";
+      element.src = "/WAI/assets/scripts/main.js?1791921486876154483";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1791404292235714879"><title> Visible label is part of accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1791404292235714879"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1791921486876154483"><title> Visible label is part of accessible name[proposed] | ACT Rule | WAI | W3C</title><link rel="stylesheet" href="/WAI/content-assets/wcag-act-rules/act-styles.css?1791921486876154483"><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Visible label is part of accessible name" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -344,11 +344,13 @@ h2#sidebar-header {
 
 <h2 id="background">Background</h2>
 
-<p>This rule applies to elements with a <a href="https://www.w3.org/TR/wai-aria-1.2/#widget_roles" title="Definition of Widget role">widget role</a> that <a href="https://www.w3.org/TR/wai-aria-1.2/#namefromcontent" title="Definition of Supports name from content">support name from content</a>. This includes the following: <code class="language-plaintext highlighter-rouge">button</code>, <code class="language-plaintext highlighter-rouge">checkbox</code>, <code class="language-plaintext highlighter-rouge">gridcell</code>, <code class="language-plaintext highlighter-rouge">link</code>, <code class="language-plaintext highlighter-rouge">menuitem</code>, <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code>, <code class="language-plaintext highlighter-rouge">menuitemradio</code>, <code class="language-plaintext highlighter-rouge">option</code>, <code class="language-plaintext highlighter-rouge">radio</code>, <code class="language-plaintext highlighter-rouge">searchbox</code>, <code class="language-plaintext highlighter-rouge">switch</code>, <code class="language-plaintext highlighter-rouge">tab</code>, <code class="language-plaintext highlighter-rouge">treeitem</code>.</p>
+<p>This rule applies to elements with a <a href="https://www.w3.org/TR/wai-aria-1.2/#widget_roles" title="Definition of Widget role">widget role</a> that <a href="https://www.w3.org/TR/wai-aria-1.2/#namefromcontent" title="Definition of Supports name from content">support name from content</a>. This includes the following: <code class="language-plaintext highlighter-rouge">button</code>, <code class="language-plaintext highlighter-rouge">checkbox</code>, <code class="language-plaintext highlighter-rouge">gridcell</code>, <code class="language-plaintext highlighter-rouge">link</code>, <code class="language-plaintext highlighter-rouge">menuitem</code>, <code class="language-plaintext highlighter-rouge">menuitemcheckbox</code>, <code class="language-plaintext highlighter-rouge">menuitemradio</code>, <code class="language-plaintext highlighter-rouge">option</code>, <code class="language-plaintext highlighter-rouge">radio</code>, <code class="language-plaintext highlighter-rouge">switch</code>, <code class="language-plaintext highlighter-rouge">tab</code>, <code class="language-plaintext highlighter-rouge">treeitem</code>.</p>
 
 <p>The understanding document of <a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html">2.5.3 Label in Name</a> use the term “symbolic text characters” to refer to a type of <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content" title="WCAG Definition of Non-text content">non-text content</a> that uses text characters as symbols, such as using “x” to mean “close”. This rule considers them as “characters expressing non-text content”. Unicode emojis are another example of characters expressing non-text content, although these are not “symbolic text characters”.</p>
 
 <p>If the target element contains an <a href="https://www.w3.org/TR/WCAG22/#dfn-images-of-text">image of text</a>, it may pass this rule but fail <a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html">2.5.3 Label in Name</a> (because the accessible name should then match the text inside the image, which is not taken into account by this rule). So further testing is needed. This case might be handled by a different rule in the future.</p>
+
+<p>This rule does not include examples of abbreviations or differently hyphenated text because the label in name algorithm should not be used. While such examples are not covered by this rule, <a href="https://www.w3.org/TR/wcag22/#label-in-name">Success Criterion 2.5.3 Label in Name</a> could apply.</p>
 
 <h3 id="assumptions">Assumptions</h3>
 
@@ -776,24 +778,6 @@ h2#sidebar-header {
 <span class="nt">&lt;/a&gt;</span>
 </code></pre></div></div>
 
-<h4 id="inapplicable-example-5">Inapplicable Example 5</h4>
-
-<p><a class="example-link" title="Inapplicable Example 5" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/4c8c38022d15c92158ecaaa647fe8ca2c330f485.html">Open in a new tab</a></p>
-
-<p>This link’s label contains an abbreviation.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">aria-label=</span><span class="s">"University Avenue"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>University Ave.<span class="nt">&lt;/a&gt;</span>
-</code></pre></div></div>
-
-<h4 id="inapplicable-example-6">Inapplicable Example 6</h4>
-
-<p><a class="example-link" title="Inapplicable Example 6" target="_blank" href="https://w3.org/WAI/content-assets/wcag-act-rules/testcases/2ee8b8/e9bbdbec137223e2973c6d2896050770c84c26e5.html">Open in a new tab</a></p>
-
-<p>This word - non-standard / nonstandard - appears in both the element’s accessible name and its visible label, using different hyphenation.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">aria-label=</span><span class="s">"non-standard"</span><span class="nt">&gt;</span>nonstandard<span class="nt">&lt;/a&gt;</span>
-</code></pre></div></div>
-
 <h2 id="glossary">Glossary</h2>
 
 <h3 id="accessible-name">Accessible Name</h3>
@@ -1063,11 +1047,53 @@ h2#sidebar-header {
             <td><a href="/WAI/standards-guidelines/act/implementations/axe-core#breakdown-2ee8b8"><img alt="Axe-core Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
           <tr>
+            <td>Equal Access Accessibility Checker 3.1.42-rc.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/equal-access#breakdown-2ee8b8"><img alt="Equal Access Accessibility Checker Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>QualWeb 3.0.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/qualweb#breakdown-2ee8b8"><img alt="QualWeb Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
             <td>SortSite 6.55</td>
             <td>Automated tool</td>
             <td>
               Consistent </td>
             <td><a href="/WAI/standards-guidelines/act/implementations/sortsite#breakdown-2ee8b8"><img alt="SortSite Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator 17.4.0</td>
+            <td>Linter</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator#breakdown-2ee8b8"><img alt="Total Validator Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Total Validator (+Browser) 17.4.0</td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/total-validator-browser#breakdown-2ee8b8"><img alt="Total Validator (+Browser) Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>UsableNet AQA - WCAG 2.2 AA Semi-auto 2026.03 1.0.2</td>
+            <td>Semi-automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/usablenet-aqa-semi-auto#breakdown-2ee8b8"><img alt="UsableNet AQA - WCAG 2.2 AA Semi-auto Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
+          </tr>
+          <tr>
+            <td>Webmate Accessibility Workbench </td>
+            <td>Automated tool</td>
+            <td> Partial
+            </td>
+            <td><a href="/WAI/standards-guidelines/act/implementations/webmate-accessibility-workbench#breakdown-2ee8b8"><img alt="Webmate Accessibility Workbench Report" src="/WAI/content-assets/wcag-act-rules/bar-chart-fill.svg"></a></td>
           </tr>
       </tbody>
     </table>
@@ -1104,7 +1130,7 @@ h2#sidebar-header {
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner"style="-ms-grid-column: 2; -ms-grid-column-span: 8; grid-column: 2 / 8;"><p><strong>Rule Identifier:</strong> 2ee8b8</p>
-<p><strong>Date:</strong> Updated 24 July 2026</p>
+<p><strong>Date:</strong> Updated 8 October 2026</p>
 <p><strong>Authors:</strong> <a href="https://github.com/annethyme">Anne Thyme Nørregaard</a>, <a href="https://github.com/brynanders">Bryn Anderson</a>, Dan Tripp, <a href="https://github.com/jkodu">Jey Nandakumar</a>. Contributors: <a href="https://www.w3.org/community/act-r/participants">Participants of the ACT Rules Community Group (CG)</a>.</p>
 <p>This rule conforms to <a href="https://www.w3.org/TR/act-rules-format-1.1/">ACT Rules Format 1.1</a>.</p>
 <p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules Community Group</a>. It is written as part of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>. Implementations are part of the EU funded <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP Project</a>. It will be reviewed by the Accessibility Guidelines Working Group (<a href="https://www.w3.org/groups/wg/ag">AG WG</a>).</p>
@@ -1158,9 +1184,9 @@ h2#sidebar-header {
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1791404292235714879"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1791921486876154483"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1791404292235714879"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1791921486876154483"></script>
 <script>
   svg4everybody();
 </script><script>
