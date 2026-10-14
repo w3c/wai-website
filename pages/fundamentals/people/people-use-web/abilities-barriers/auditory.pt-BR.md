@@ -10,7 +10,7 @@ first_published: "como rascunho em 1999"
 description: Explora a ampla diversidade de pessoas e habilidades. Destaca barreiras de acessibilidade que as pessoas podem experimentar devido à tecnologia digital inacessível.
 
 translation:
-  # outdated: false
+  outdated: true
   draft: true
   last_updated: 2025-02-16
 
