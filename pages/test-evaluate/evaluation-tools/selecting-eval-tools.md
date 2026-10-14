@@ -24,9 +24,8 @@ ref: /test-evaluate/tools/selecting/  # Do not change this
 # Translate the other words below, including "Date:" and "Latest editors and developers:"
 # Translate the Working Group and projects names. Leave the Working Group and projects acronyms in English.
 footer: >
-   <p><strong>Date:</strong> Information on specific tools is updated frequently, as we receive it. In the information for each tool there is a last updated date. The Evaluation Tools List user interface was updated in December 2023. First published in March 2006.</p>
-   <p><strong>Latest editors and developers:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Eric Velleman, Michel Hansma, and Vera Lange. <strong>Content maintainer:</strong> José Ramón Hilera González. <a href="https://www.w3.org/WAI/ER/tools/acknowledgements">Acknowledgements</a> lists contributors and previous editors, including <a href="https://www.w3.org/groups/wg/eowg/participants/">EOWG participants</a>, Eric Eggert, and Shadi Abou-Zahra.</p>
-   <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>) Developed with support from the <a href="https://www.w3.org/WAI/TIES/">WAI-TIES Project</a> in 2006, updated with support from the <a href="https://www.w3.org/WAI/ACT/">WAI-ACT Project</a> in 2014, and revised in 2023 as part of the <a href="https://www.w3.org/WAI/about/projects/wai-coop/">WAI-CooP project</a>, co-funded by the European Commission.
+    <p><strong>Date:</strong> Information on specific tools is updated frequently, as we receive it. In the information for each tool there is a last updated date. The Evaluation Tools List user interface was updated in December 2023.</p>
+    <p><strong>Editors and developers:</strong> <a href="https://www.w3.org/People/kevin/">Kevin White</a>, Michel Hansma, and Vera Lange. <strong>Content maintainers:</strong> José Ramón Hilera González and Len Beasley. <a href="https://w3.org/WAI/test-evaluate/tools/acknowledgements/">Acknowledgements</a> lists previous contributors, previous editors, and funders.</p>
 ---
 
 {::nomarkdown}
