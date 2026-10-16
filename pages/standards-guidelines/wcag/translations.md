@@ -2,7 +2,7 @@
 title: WCAG 2 Translations
 nav_title: "Translations"
 lang: en
-last_updated: 2026-06-01
+last_updated: 2026-10-16
 first_published: "2 March 2009"
 description: Links to translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1 and 2.0.
 
