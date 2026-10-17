@@ -54,7 +54,8 @@ inline_css: |
         </header>
 	    <h3>Current Work</h3>
 	    <p><small>(updated monthly)</small></p>
-	    <p><strong>See <a href="{{ '/update/' | relative_url }}">What We're Working On &ndash; Accessibility Activities and Publications</a></strong></p>
+	    <p><strong>See <a href="{{ '/update/' | relative_url }}">What We're Working On &ndash; Accessibility Activities and Publications<br><img src="{{ "/content-images/wai-about-wai/update_social.png" | relative_url }}" alt="">
+</a></strong></p>
         {%- for post in site.posts -%}
           <article class="news-teaser">
               <h3>{%comment%}<a href="{{ post.url | relative_url }}">{%endcomment%}{{post.title}}{%comment%}</a>{%endcomment%}</h3>
