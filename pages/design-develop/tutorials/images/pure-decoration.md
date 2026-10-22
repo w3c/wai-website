@@ -1,7 +1,7 @@
 ---
-title: "Decorative Images"
-permalink: /tutorials/images/decorative/
-ref: /tutorials/images/decorative/
+title: "Images for pure decoration"
+permalink: /tutorials/images/pure-decoration/
+ref: /tutorials/images/pure-decoration/
 lang: en
 description:
 image: /content-images/tutorials/images/social.png
@@ -19,7 +19,7 @@ wcag_techniques:
 - H67
 
 metafooter: true
-last_updated: 2019-07-27
+last_updated: 2026-10-10
 editors:
   - Eric Eggert: "https://www.w3.org/People/yatil/"
   - Shadi Abou-Zahra: "https://www.w3.org/People/shadi/"
@@ -32,18 +32,18 @@ support: Developed by the Education and Outreach Working Group (<a href="https:/
 {% include box.html type="start" h="2" title="Overview" class="full" %}
 {:/}
 
-Decorative images don’t add information to the content of a page. For example, the information provided by the image might already be given using adjacent text, or the image might be included to make the website more visually attractive.
+Images that don’t add information to the content of a page are pure decoration. Pure decoration images are only included to make the website more visually attractive. If a pure decoration image is unavailable, the content and feel of the site would not change drastically.
 
-In these cases, a null (empty) `alt` text should be provided (`alt=""`) so that they can be ignored by assistive technologies, such as screen readers. Text values for these types of images would add audible clutter to screen reader output or could distract users if the topic is different from that in adjacent text. Leaving out the `alt` attribute is also not an option because when it is not provided, some screen readers will announce the file name of the image instead.
+In these cases, an empty `alt` attribute should be provided (`alt=""`). Images that use such a "null alt" are then ignored by assistive technologies, such as screen readers. Non-empty values for these types of images add audible clutter to screen reader output. Leaving out the `alt` attribute is also not an option because when it is not provided, some screen readers will announce the file name of the image instead.
 
-Whether to treat an image as decorative or [informative](/tutorials/images/informative/) is a judgment that only the author can make, based on the reason for including the image on the page. Images may be decorative when they are:
+Whether to treat an image as pure decoration or [informative](/tutorials/images/informative/) can be made based on the reason for including the image on the page. Images are pure decoration when they are:
 
 -   Visual styling such as borders, spacers, and corners;
 -   Supplementary to link text to improve its appearance or increase the clickable area;
 -   Illustrative of adjacent text but not contributing information (“eye-candy”);
 -   Identified and described by surrounding text.
 
-The examples below show how to use the `alt` attribute when decorative images are provided using the `<img>` element. Where possible, decorative images should be provided using CSS background images instead.
+The examples below show how to use the `alt` attribute when pure decoration images are provided using the `<img>` element. Many of the usecases of pure decoration images should be covered by other technologies, including background images or CSS borders and shadows.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -78,14 +78,14 @@ decorative purpose.
 {% include box.html type="end" %}
 {:/}
 
-Screen readers also allow the use of WAI-ARIA to hide elements by using `role="presentation"`. However, currently, this feature is not as widely supported as using a null `alt` attribute.
+Screen readers also allow the use of ARIA to hide elements by using `aria-hidden="true"`. However, there is no advantage using ARIA instead of using the empty `alt` attribute.
 
 {::nomarkdown}
 {% include box.html type="start" title="Code" class="example" %}
 {:/}
 
 ~~~ html
-<img src="topinfo_bg.png" role="presentation">
+<img src="topinfo_bg.png" aria-hidden="true">
 ~~~
 
 {::nomarkdown}
@@ -102,9 +102,9 @@ If the image was used to indicate a thematic break, e.g. a scene change in a sto
 {% include box.html type="end" %}
 {:/}
 
-## **Example 2:** Decorative image as part of a text link
+## **Example 2:** Redundant image as part of a text link
 
-This illustration of a crocus bulb is used to make the link easier to identify and to increase the clickable area but doesn’t add to the information already provided in the adjacent link text (of the same anchor). In this case, use a null (empty) `alt` value for the image.
+This illustration of a crocus bulb is used to make the link easier to identify and to increase the clickable area but doesn’t add to the information already provided in the adjacent link text (of the same link). In this case, use an empty `alt` attribute for the image.
 
 {::nomarkdown}
 {% include box.html type="start" title="Example" class="example" %}
@@ -131,36 +131,7 @@ This illustration of a crocus bulb is used to make the link easier to identify a
 {% include box.html type="end" %}
 {:/}
 
-## **Example 3:** Image with adjacent text alternative
-
-This picture of a sleeping dog is already sufficiently described by the adjacent text. There is no need to repeat this information, and a null (empty) `alt` value can be used for this image.
-
-{::nomarkdown}
-{% include box.html type="start" title="Example" class="example" %}
-{:/}
-
-![]({{ "/content-images/tutorials/images/sleeping.jpg" | relative_url }}){:style="float:left; margin-right: 1em;"} **The sleeping dog:** Let sleeping dogs lie is a proverb that means “don’t initiate trouble. If something that could be troublesome is quiet, then leave it alone”.
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
-{::nomarkdown}
-{% include box.html type="start" title="Code" class="example" %}
-{:/}
-
-~~~ html
-<p>
-  <img src="sleepingdog.jpg" alt="">
-  <strong>The sleeping dog:</strong> ...
-</p>
-~~~
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
-## **Example 4:** Image used for ambiance (eye-candy)
+## **Example 3:** Image used for ambiance (eye-candy)
 
 This image is used only to add ambiance or visual interest to the page.
 
@@ -190,7 +161,7 @@ This image is used only to add ambiance or visual interest to the page.
 {% include box.html type="start" title="Note" class="simple note" %}
 {:/}
 
-If the purpose of this image was to identify a plant or convey other information, rather than just to improve the look of the page, it should probably be treated as [informative](/tutorials/images/informative/). The author determines the purpose for the use of the image.
+If the purpose of this image was to identify a plant or convey other information, rather than just to improve the look of the page, it must be treated as [informative](/tutorials/images/informative/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
