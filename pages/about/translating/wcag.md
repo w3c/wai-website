@@ -2,7 +2,7 @@
 title: How to Translate WCAG 2
 nav_title: "Translate WCAG 2"
 lang: en
-last_updated: 2026-07-21
+last_updated: 2026-10-22
 description: Technical instructions on translating WCAG
 
 permalink: /about/translating/wcag/
@@ -55,7 +55,7 @@ Web Content Accessibility Guidelines (WCAG) 2.1/2.2 are currently [available in 
 There are 6 main steps to create a new translation:
 1. **[Get the source files](#get-source-files)** from [`w3c/wcag/` {% include_cached external.html %}](https://github.com/w3c/wcag/) repository
 2. **[Translate WCAG source files](#translate-source-files)**
-3. **[Export in HTML](#preview-export)**
+3. **[Preview your changes and export in HTML](#preview-export)**
 4. **[Edit the HTML files](#edit-html)** to complete the translation
 5. **[Check your translation](#check)**
 6. **[Deliver the final files to W3C](#deliver-files)**
@@ -90,15 +90,14 @@ Make sure to follow these guidelines:
 
 ## Step 3: Preview your changes and export in HTML {#preview-export}
 
-To preview your changes, open the `index.html` file in a modern browser, on a local server. Without a server, the success criteria and glossary terms will not be included. 
-
+1. Serve the repository root folder from step 1 on a local server.
+2. Once the server is running, navigate to the `guidelines/index.html` file in your browser.\
 Allow the script to compile and format the content.
-
-1. If your document has "ReSpec" errors or warnings, they will shop up at the top of the page, next to the "ReSpec Menu" link.
+**Note:** Without a server, the success criteria and glossary terms will not be included.
+3. If your document has "ReSpec" errors or warnings, they will shop up at the top of the page, next to the "ReSpec Menu" link.
 - Check and resolve (potential) "ReSpec Errors".
 - Check "ReSpec Warnings". The original document may contain some warnings. Make sure you do not introduce new ones.
-
-2. Export in HTML using ReSpec:
+4. Export in HTML using ReSpec:
 - Activate the "Respec Menu" link in the top right corner
 - Choose "Export...", then the "HTML" option.
 
