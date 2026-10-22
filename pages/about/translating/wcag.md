@@ -91,9 +91,10 @@ Make sure to follow these guidelines:
 ## Step 3: Preview your changes and export in HTML {#preview-export}
 
 1. Serve the repository root folder from step 1 on a local server.
-2. Once the server is running, navigate to the `guidelines/index.html` file in your browser.\
-Allow the script to compile and format the content.
-**Note:** Without a server, the success criteria and glossary terms will not be included.
+2. Once the server is running, navigate to the `guidelines/index.html` file in your browser.
+   Allow the script to compile and format the content.
+
+   **Note:** Without a server, the success criteria and glossary terms will not be included.
 3. If your document has "ReSpec" errors or warnings, they will shop up at the top of the page, next to the "ReSpec Menu" link.
 - Check and resolve (potential) "ReSpec Errors".
 - Check "ReSpec Warnings". The original document may contain some warnings. Make sure you do not introduce new ones.
