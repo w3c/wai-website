@@ -96,7 +96,6 @@ Follow these guidelines:
    The use of a local server is required by [ReSpec](https://respec.org/) to insert the success criteria and glossary term content into the `guidelines/index.html` file. You can use any local HTTP server.
 
 2. Once the server is running, navigate to the `guidelines/index.html` file in your browser.
-   
    Allow the script to compile and format the content.
 
 3. If your document has any ReSpec errors or warnings, they will show up at the top of the page, next to the "ReSpec" button.
