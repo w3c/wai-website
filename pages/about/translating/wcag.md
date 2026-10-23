@@ -98,7 +98,7 @@ Follow these guidelines:
    
    Allow the script to compile and format the content.
 
-3. If your document has any ReSpec errors or warnings, they will show up at the top of the page, next to the "ReSpec Menu" link:
+3. If your document has any ReSpec errors or warnings, they will show up at the top of the page, next to the "ReSpec" button.
  - Check and resolve any ReSpec errors.
  - The original document may contain some warnings. Make sure you do not introduce new ones.
 
