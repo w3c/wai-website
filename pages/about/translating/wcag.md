@@ -52,14 +52,15 @@ For general information on WCAG 2 Translations, see [Contributing to W3C Transla
 
 Web Content Accessibility Guidelines (WCAG) 2.1/2.2 are currently [available in more than 14 languages](/standards-guidelines/wcag/translations/)!
 
-There are 7 main steps to create a new translation:
+There are 8 main steps to create a new translation:
 1. **[Get the source files](#get-source-files)** from the [`w3c/wcag/` {% include_cached external.html %}](https://github.com/w3c/wcag/) repository
 2. **[Translate the source files](#translate-source-files)**
 3. **[Preview your changes](#preview)**
 4. **[Export to HTML](#export)**
 5. **[Edit the resulting HTML file](#edit-html)** to complete the translation
-6. **[Check your translation](#check)**
-7. **[Deliver the final files to W3C](#deliver-files)**
+6. **[Translate the text added by fixup.js](#fixup)**
+7. **[Check your translation](#check)**
+8. **[Deliver the final files to W3C](#deliver-files)**
 
 ## Step 1: Get the source files {#get-source-files}
 
@@ -130,7 +131,7 @@ Follow these guidelines:
 - Add `lang="en"` where needed.
 - Follow the guidelines of the [W3C Internationalization Activity](https://www.w3.org/International/): for example, the proper usage of language tags, encoding declarations, handling bidirectional text, etc.
 
-## Step 6: Translate the text added by `fixup.js`
+## Step 6: Translate the text added by `fixup.js` {#fixup}
 
 The `fixup.js` file adds links that allow users to jump to the table of contents and to collapse/expand the sidebar.
 
@@ -139,7 +140,7 @@ Download [`fixup.js` {% include_cached external.html %}](https://www.w3.org/scr
 - "Pop Out Sidebar"
 - "Jump to Table of Contents"
 
-## Step 6: Check your translation thoroughly {#check}
+## Step 7: Check your translation thoroughly {#check}
 
 Properly check your files before submission to W3C.
 
@@ -158,7 +159,7 @@ In particular, make sure that:
 - No custom CSS has been added.
 - (Authorized translation) An errata has been created and is hosted on the Lead Translation Organization (LTO)'s website.
 
-## Step 7: Deliver the final files to W3C {#deliver-files}
+## Step 8: Deliver the final files to W3C {#deliver-files}
 
 In conformance with step 6.3 of the [Policy for Authorized W3C Translations {% include_cached external.html %}](https://www.w3.org/2005/02/TranslationPolicy.html), deliver the following files to W3C for publication:
 - `index.html`
