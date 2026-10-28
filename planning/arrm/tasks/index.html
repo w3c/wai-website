@@ -11,15 +11,20 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1792749673288311327";
+      element.src = "/WAI/assets/scripts/main.js?1793179807369694164";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1792749673288311327"><title>[Draft] Tasks Involved in Accessibility | Web Accessibility Initiative (WAI) | W3C</title><style>/* Only display navigation toggle at breakpoints where navigation appears */
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1793179807369694164"><title> Tasks Involved in Accessibility | Web Accessibility Initiative (WAI) | W3C</title><style>/* Only display navigation toggle at breakpoints where navigation appears */
 .showhidebutton[data-target=".sidenav"] {
   display: none;
+}
+
+.task-status {
+  color: var(--dk-grey);
+  font-size: 0.85em;
 }
 
 @media (min-width: 60em) {
@@ -61,7 +66,7 @@
 
   <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
 </head>
-<body id="top" class="page-tasks-involved-in-accessibility  doc-note doc-draft">
+<body id="top" class="page-tasks-involved-in-accessibility ">
     
 <nav aria-label="Skip Link and Language Selector" id="controls" class="default-grid">
   <ul>
@@ -158,12 +163,9 @@
     <header class="in-resource">
       <h1>Tasks Involved in Accessibility<span class="in-resource-sub">
           in <a lang="en" href="/WAI/planning/arrm/"><span>Accessibility Roles and Responsibilities Mapping (ARRM)</span></a></span></h1>
-    </header><section class="doc-note-box">
-  <p>This is an in-progress draft. We welcome your comments via GitHub or email from the links below under <a href="#helpimprove">Help improve this page</a>. You are also welcome to join the <a href="https://www.w3.org/community/arrm/">ARRM Community Group</a> to contribute.</p>
+    </header><aside class="box"><header class="box-h "> Summary</header><div class="box-i">
 
-</section><aside class="box"><header class="box-h "> Summary</header><div class="box-i">
-
-<p>This page provides an approach to addressing accessibility requirements in WCAG as tasks for specific roles.</p>
+<p>This page provides a list of tasks involved in accessibility. It gives you an idea of which roles are typically responsible for implementing different aspects of accessibility.</p>
 
 </div></aside>
 
@@ -199,15 +201,20 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<aside class="box"><header class="box-h  box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-warning "><use xlink:href="/WAI/assets/images/icons.svg#icon-warning"></use></svg> Important</header><div class="box-i">
+<p>The following accessibility tasks offer a starting point for assigning responsibilities for digital accessibility to appropriate roles.</p>
 
-<p>This is not a definitive or complete list of accessibility tasks.</p>
+<p>For each task, the tables identify which role typically has primary, secondary, and contributor responsibilities. For more information on levels, see <a href="/WAI/planning/arrm/decision-tree/#ownership-levels">Ownership levels</a>.</p>
 
-</div></aside>
+<p>Each task also includes the WCAG success criterion it relates to.</p>
 
-<p>These tasks offer a starting point for a role-based approach to addressing Web Content Accessibility Guidelines (<a href="/WAI/standards-guidelines/wcag/">WCAG</a>) 2.1 success criteria (SC). A later iteration will include the success criteria added in WCAG 2.2.</p>
+<p><svg focusable="false" aria-hidden="true" class="icon-warning "><use xlink:href="/WAI/assets/images/icons.svg#icon-warning"></use></svg> <strong>Important notes:</strong></p>
+<ul>
+  <li>This resource does not set requirements to meet WCAG.</li>
+  <li>This is not a definitive list of accessibility tasks.</li>
+  <li>Some tasks support accessibility beyond what WCAG requires.</li>
+</ul>
 
-<p>This information is also available to download as a <a href="/WAI/content-assets/wai-arrm/arrm-all-tasks.csv">single CSV file</a>.</p>
+<p>This information is also available to download as a <a href="/WAI/content-assets/wai-arrm/arrm-all-tasks.csv">CSV file</a>.</p>
 
 <p><button class="showhidebutton button-icon button-small" data-target=".sidenav" aria-expanded="true" data-showtext="Show navigation" data-hidetext="Show tables full width, hide navigation">Show tables full width, hide navigation</button></p>
 
@@ -217,12 +224,12 @@
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
@@ -233,7 +240,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Informative alternate text is provided for images (i.e. not "spacer" or image file name).</td>
           <td>Content Authoring</td>
@@ -248,7 +255,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Informative images are described with a clear and meaningful text equivalent (alt attribute or other equivalent means).</td>
           <td>Content Authoring</td>
@@ -263,7 +270,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Purely decorative images are provided with null alt attribute values (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -278,7 +285,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Null alt attribute values are used for images that are already described in text in adjacent page content.</td>
           <td>Front-End Development</td>
@@ -293,7 +300,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Adjacent linked images and text links pointing the same URL are combined into single links.</td>
           <td>Front-End Development</td>
@@ -308,7 +315,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Alt text used for images of text include all relevant text found in the image.</td>
           <td>Content Authoring</td>
@@ -323,7 +330,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Informative images are marked up as foreground images, and not embedded as part of the CSS.</td>
           <td>Front-End Development</td>
@@ -338,7 +345,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>The purpose or function of complex images is accurately described in text.</td>
           <td>Content Authoring</td>
@@ -353,7 +360,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>The purpose or function of complex images is conveyed using a text description, via an alt attribute.</td>
           <td>Front-End Development</td>
@@ -368,7 +375,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>The full explanation of complex images is accurately described in text.</td>
           <td>Content Authoring</td>
@@ -383,7 +390,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>A mechanism that conveys the way through which the full explanation of complex images is defined.</td>
           <td>User Experience (UX) Design</td>
@@ -398,7 +405,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>The full explanation of complex images is provided through the longdesc attribute (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -413,7 +420,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Images primarily conveying function use alternative text to describe their purpose, rather than what they look like.</td>
           <td>Content Authoring</td>
@@ -428,7 +435,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Text alternatives of static and linked images do not replicate any information that is already being conveyed by screen reader technology.</td>
           <td>Content Authoring</td>
@@ -443,7 +450,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Text alternatives of dynamically updated images are simultaneously updated as the images change.</td>
           <td>Front-End Development</td>
@@ -458,10 +465,10 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Alternate means of accessing CAPTCHA information are provided, such as audio CAPTCHA, logical question, or other equivalent means.</td>
-          <td>Business Analyst</td>
+          <td>Business Analysis</td>
           <td>User Experience (UX) Design</td>
           <td>none</td>
         </tr>
@@ -473,7 +480,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Images which do not convey information are defined as decorative.</td>
           <td>Content Authoring</td>
@@ -488,7 +495,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-018</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">1.4.1 Use of Color (A)</a>
           </td>
           <td>Charts, graphs, infographics and other visual representations of information don't rely on color alone to convey information.</td>
           <td>Visual Design</td>
@@ -503,7 +510,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-019</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 Images of Text (AA)</a>
           </td>
           <td>Text content that conveys information is not part of images.</td>
           <td>User Experience (UX) Design</td>
@@ -518,7 +525,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-020</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 Images of Text (AA)</a>
           </td>
           <td>Text that is placed on top of an image is handled semantically through HTML and CSS instead.</td>
           <td>Front-End Development</td>
@@ -533,7 +540,7 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-021</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 Images of Text (AA)</a>
           </td>
           <td>Unless a particular presentation of text is essential to the information being conveyed, all images that contain text are only used for purely decorative purposes.</td>
           <td>Visual Design</td>
@@ -548,13 +555,73 @@
       
         <tr>
           <td style="white-space:nowrap;">IMG-022</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception">1.4.9 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception">1.4.9 Images of Text (No Exception) (AAA)</a>
           </td>
           <td>With the exception of logos, all images that contain text are only used for purely decorative purposes.</td>
           <td>Visual Design</td>
           <td>Content Authoring</td>
           <td>none</td>
         </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
       
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
@@ -1726,12 +1793,12 @@
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
@@ -1852,12 +1919,11 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Informative content is provided through HTML markup.</td>
           <td>Front-End Development</td>
-          <td>User Experience (UX) Design
- Content Authoring</td>
+          <td>User Experience (UX) Design, Content Authoring</td>
           <td>none</td>
         </tr>
       
@@ -1868,7 +1934,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>HTML elements are used according to the HTML specification.</td>
           <td>Front-End Development</td>
@@ -1883,7 +1949,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Navigation groupings are marked up using HTML list or nav elements (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -1898,7 +1964,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Header sections are marked up using HTML header elements (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -1913,7 +1979,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>The main section of a page is marked up using a HTML main element (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -1928,7 +1994,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>The footer of the page is marked up using a HTML footer element (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -1943,7 +2009,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Content that is complementary to the main section is marked up using HTML aside elements (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -1958,7 +2024,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>HTML elements are used based on the semantics they provide, not based on what they look like.</td>
           <td>Front-End Development</td>
@@ -1973,7 +2039,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Decorative elements are embedded through the CSS presentation layer (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -1988,7 +2054,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>All scripting behaviors are handled through JavaScript.</td>
           <td>Front-End Development</td>
@@ -2003,7 +2069,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Elements that act as headings are marked up as such.</td>
           <td>Front-End Development</td>
@@ -2018,7 +2084,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Headings follow a hierarchical sequence without skipping any levels.</td>
           <td>Content Authoring</td>
@@ -2033,12 +2099,11 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Headings are marked up using h1 to h6 elements or other equivalent means.</td>
           <td>Front-End Development</td>
-          <td>User Experience (UX) Design
- Content Authoring</td>
+          <td>User Experience (UX) Design, Content Authoring</td>
           <td>none</td>
         </tr>
       
@@ -2049,12 +2114,11 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Page contains a level 1 heading that describes the page content.</td>
           <td>Front-End Development</td>
-          <td>User Experience (UX) Design
- Content Authoring</td>
+          <td>User Experience (UX) Design, Content Authoring</td>
           <td>none</td>
         </tr>
       
@@ -2065,7 +2129,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Whitespace or pre-formatted text is not used to render content to appear as multiple columns or tabular information.</td>
           <td>Front-End Development</td>
@@ -2080,7 +2144,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Use of native, semantic HTML elements are prioritized over other methods.</td>
           <td>Front-End Development</td>
@@ -2095,7 +2159,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 Meaningful Sequence (A)</a>
           </td>
           <td>The source code (or DOM) order matches the suggested visual order of the design.</td>
           <td>Front-End Development</td>
@@ -2110,7 +2174,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-018</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 Bypass Blocks (A)</a>
           </td>
           <td>iFrames displaying content are provided with a clear, informative title attribute value.</td>
           <td>User Experience (UX) Design</td>
@@ -2125,7 +2189,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-019</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/page-titled">2.4.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/page-titled">2.4.2 Page Titled (A)</a>
           </td>
           <td>Page title text matches the level 1 heading text.</td>
           <td>Content Authoring</td>
@@ -2140,7 +2204,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-020</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/page-titled">2.4.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/page-titled">2.4.2 Page Titled (A)</a>
           </td>
           <td>Pages are described using unique and descriptive page title values.</td>
           <td>Content Authoring</td>
@@ -2155,7 +2219,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-021</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>The tab order logically and predictably follows the expected interaction order of the visual design.</td>
           <td>Front-End Development</td>
@@ -2170,7 +2234,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-022</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels">2.4.6 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels">2.4.6 Headings and Labels (AA)</a>
           </td>
           <td>Heading text meaningfully describes the content's topic or purpose.</td>
           <td>Content Authoring</td>
@@ -2185,7 +2249,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-023</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels">2.4.6 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels">2.4.6 Headings and Labels (AA)</a>
           </td>
           <td>The main heading of the page describes the content of the page.</td>
           <td>Content Authoring</td>
@@ -2200,7 +2264,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-024</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing">4.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing">4.1.1 Parsing (Obsolete and removed) (A)</a>
           </td>
           <td>Source code is properly nested, according to its specification.</td>
           <td>Front-End Development</td>
@@ -2215,7 +2279,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-025</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing">4.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing">4.1.1 Parsing (Obsolete and removed) (A)</a>
           </td>
           <td>Source code elements are provided with complete start and end tags (or are self-closed) according to specification.</td>
           <td>Front-End Development</td>
@@ -2230,7 +2294,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-026</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing">4.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing">4.1.1 Parsing (Obsolete and removed) (A)</a>
           </td>
           <td>ID attribute values assigned to elements are unique.</td>
           <td>Front-End Development</td>
@@ -2245,7 +2309,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-027</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing">4.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing">4.1.1 Parsing (Obsolete and removed) (A)</a>
           </td>
           <td>Elements do not contain duplicate attributes.</td>
           <td>Front-End Development</td>
@@ -2260,7 +2324,7 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-028</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value">4.1.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value">4.1.2 Name, Role, Value (A)</a>
           </td>
           <td>iFrames are given a title that describes their content or purpose.</td>
           <td>User Experience (UX) Design</td>
@@ -2275,13 +2339,73 @@
       
         <tr>
           <td style="white-space:nowrap;">SEM-029</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value">4.1.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value">4.1.2 Name, Role, Value (A)</a>
           </td>
           <td>iFrames are implemented using title attribute values that describe their content or purpose.</td>
           <td>Front-End Development</td>
           <td>Content Authoring</td>
           <td>none</td>
         </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
       
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
@@ -3308,12 +3432,12 @@
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
@@ -3579,7 +3703,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus">1.4.13 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus">1.4.13 Content on Hover or Focus (AA)</a>
           </td>
           <td>Additional content triggered by focus or hover that covers other information can be dismissed by the user.</td>
           <td>User Experience (UX) Design</td>
@@ -3594,7 +3718,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus">1.4.13 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus">1.4.13 Content on Hover or Focus (AA)</a>
           </td>
           <td>Additional content triggered by pointer hover does not disappear when trying to move the pointer over it.</td>
           <td>User Experience (UX) Design</td>
@@ -3609,7 +3733,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus">1.4.13 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus">1.4.13 Content on Hover or Focus (AA)</a>
           </td>
           <td>Additional content triggered by hover or focus stays visible until purposefully un-triggered, dismissed, or is no longer valid.</td>
           <td>User Experience (UX) Design</td>
@@ -3624,7 +3748,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>All actionable elements can be reached, using only the keyboard.</td>
           <td>Front-End Development</td>
@@ -3639,7 +3763,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>All active elements can be triggered, using only the keyboard.</td>
           <td>Front-End Development</td>
@@ -3654,7 +3778,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>Device-specific programmatic event handlers are not used as the only way to trigger interactions.</td>
           <td>Front-End Development</td>
@@ -3669,7 +3793,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>Behaviors for hover and focus states are planned and included with the design assets.</td>
           <td>User Experience (UX) Design</td>
@@ -3684,7 +3808,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>Keyboard focus states are planned for every active element.</td>
           <td>User Experience (UX) Design</td>
@@ -3699,7 +3823,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>Keyboard focus is not applied to non-active or static elements.</td>
           <td>Front-End Development</td>
@@ -3714,7 +3838,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>Custom active elements replicate all inherent keyboard behaviors of native active HTML elements.</td>
           <td>Front-End Development</td>
@@ -3729,7 +3853,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>Non-interactive elements are not assigned JavaScript event handlers.</td>
           <td>Front-End Development</td>
@@ -3744,7 +3868,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap">2.1.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap">2.1.2 No Keyboard Trap (A)</a>
           </td>
           <td>Users can navigate away from all active elements, using only the keyboard.</td>
           <td>Front-End Development</td>
@@ -3759,7 +3883,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception">2.1.3 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception">2.1.3 Keyboard (No Exception) (AAA)</a>
           </td>
           <td>All actionable elements can be reached using only the keyboard without requiring specific timings for individual keystrokes.</td>
           <td>User Experience (UX) Design</td>
@@ -3774,7 +3898,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts">2.1.4 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts">2.1.4 Character Key Shortcuts (A)</a>
           </td>
           <td>Single-key keyboard shortcuts can be disabled or remapped, unless they are only active on keyboard focus.</td>
           <td>User Experience (UX) Design</td>
@@ -3789,12 +3913,11 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>Users can tab through active elements in an order that reflects the intended interaction order of the design.</td>
           <td>Front-End Development</td>
-          <td>User Experience (UX) Design
- Visual Design</td>
+          <td>User Experience (UX) Design, Visual Design</td>
           <td>none</td>
         </tr>
       
@@ -3805,7 +3928,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>Tabindex attributes are not assigned positive integer values.</td>
           <td>Front-End Development</td>
@@ -3820,7 +3943,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible">2.4.7 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible">2.4.7 Focus Visible (AA)</a>
           </td>
           <td>Every element that receives keyboard focus is designed to display a visible focus indicator.</td>
           <td>Visual Design</td>
@@ -3835,7 +3958,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-018</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible">2.4.7 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible">2.4.7 Focus Visible (AA)</a>
           </td>
           <td>Every element that receives keyboard focus displays a visible focus indicator.</td>
           <td>Front-End Development</td>
@@ -3850,7 +3973,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-019</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures">2.5.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures">2.5.1 Pointer Gestures (A)</a>
           </td>
           <td>Non-essential multipoint, path- or gesture-based functions have single-pointer alternatives.</td>
           <td>User Experience (UX) Design</td>
@@ -3865,9 +3988,9 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-020</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation">2.5.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation">2.5.2 Pointer Cancellation (A)</a>
           </td>
-          <td>Non-essential single pointer functionality is not triggered on down events, unless the functionality can be canceled, undone, or reversed.</td>
+          <td>Non-essential single-pointer functionality is not triggered on down events, unless the functionality can be canceled, undone, or reversed.</td>
           <td>User Experience (UX) Design</td>
           <td>Front-End Development</td>
           <td>none</td>
@@ -3880,7 +4003,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-021</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name">2.5.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/label-in-name">2.5.3 Label in Name (A)</a>
           </td>
           <td>Text or images of text that is usually included in a user interface control is part of its accessible name.</td>
           <td>Content Authoring</td>
@@ -3895,7 +4018,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-022</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation">2.5.4 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation">2.5.4 Motion Actuation (A)</a>
           </td>
           <td>All non-essential motion-related functionalities have alternative user interface controls that allow for equivalent actions.</td>
           <td>User Experience (UX) Design</td>
@@ -3910,7 +4033,7 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-023</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation">2.5.4 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation">2.5.4 Motion Actuation (A)</a>
           </td>
           <td>All non-essential motion-related functionality can be turned off to prevent accidental actuation.</td>
           <td>User Experience (UX) Design</td>
@@ -3925,13 +4048,93 @@
       
         <tr>
           <td style="white-space:nowrap;">INP-024</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input">3.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements">2.5.7 Dragging Movements (AA)</a>
+          </td>
+          <td>All functionality requiring dragging movements can also be operated using single-pointer alternatives.</td>
+          <td>User Experience (UX) Design</td>
+          <td>none</td>
+          <td>none</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">INP-025</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum">2.5.8 Target Size (Minimum) (AA)</a>
+          </td>
+          <td>Any programmatic grouping of controls has a target area of at least 24 by 24 CSS pixels.</td>
+          <td>Front-End Development</td>
+          <td>Visual Design</td>
+          <td>User Experience (UX) Design</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">INP-026</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input">3.2.2 On Input (A)</a>
           </td>
           <td>Keyboard focus does not move automatically from one form control to the next.</td>
           <td>User Experience (UX) Design</td>
           <td>Front End Development</td>
           <td>none</td>
         </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
       
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
@@ -4838,12 +5041,12 @@
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
@@ -5227,9 +5430,19 @@
       
       
       
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
         <tr>
           <td style="white-space:nowrap;">FRM-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Text labels are marked up using the label element or other equivalent means.</td>
           <td>Front-End Development</td>
@@ -5244,7 +5457,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Text labels and form controls are programmatically associated (using the FOR and ID attributes, or equivalent means).</td>
           <td>Front-End Development</td>
@@ -5259,7 +5472,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Submit buttons in forms rely on a submit input type, a button element, or other equivalent means.</td>
           <td>Front-End Development</td>
@@ -5274,7 +5487,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Related form controls are programmatically associated using fieldset and legend elements or other equivalent means.</td>
           <td>Front-End Development</td>
@@ -5289,7 +5502,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Long option lists in select elements are grouped semantically (using the optgroup element, or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -5304,7 +5517,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Common group label text is informative, meaningful and provides context for the grouping.</td>
           <td>Content Authoring</td>
@@ -5319,7 +5532,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Instructions and messages are programmatically conveyed to assistive technologies.</td>
           <td>Front-End Development</td>
@@ -5334,7 +5547,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Use of native HTML controls are prioritized over other methods.</td>
           <td>Front-End Development</td>
@@ -5349,7 +5562,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Required fields are programmatically conveyed as such to assistive technologies.</td>
           <td>Front-End Development</td>
@@ -5364,7 +5577,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Instructions on how to use forms are programmatically conveyed to assistive technologies.</td>
           <td>Front-End Development</td>
@@ -5379,7 +5592,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 Meaningful Sequence (A)</a>
           </td>
           <td>Information that is relevant to a form does not appear after the submit button.</td>
           <td>User Experience (UX) Design</td>
@@ -5394,7 +5607,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose">1.3.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose">1.3.5 Identify Input Purpose (AA)</a>
           </td>
           <td>Data entry fields are designed to autofill previously entered user information when that information is available.</td>
           <td>User Experience (UX) Design</td>
@@ -5409,7 +5622,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose">1.3.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose">1.3.5 Identify Input Purpose (AA)</a>
           </td>
           <td>Data entry fields using the autocomplete attribute for previously entered information are set to the appropriate value.</td>
           <td>Front-End Development</td>
@@ -5424,7 +5637,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose">1.3.6 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose">1.3.6 Identify Purpose (AAA)</a>
           </td>
           <td>The purpose of user interface components, icons, and regions is implemented using markup languages, in a way that can be programmatically determined.</td>
           <td>Front-End Development</td>
@@ -5439,7 +5652,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>Keyboard focus is dynamically moved to the error message when errors are returned.</td>
           <td>Front-End Development</td>
@@ -5454,7 +5667,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels">2.4.6 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels">2.4.6 Headings and Labels (AA)</a>
           </td>
           <td>The purpose of the form control is clearly described in text.</td>
           <td>Content Authoring</td>
@@ -5469,7 +5682,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms">2.5.6 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms">2.5.6 Concurrent Input Mechanisms (AAA)</a>
           </td>
           <td>The content is designed in a way that does not restrict input modalities available.</td>
           <td>User Experience (UX) Design</td>
@@ -5484,7 +5697,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-018</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-focus">3.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-focus">3.2.1 On Focus (A)</a>
           </td>
           <td>Changes of context are not initiated automatically as user interface components receive focus.</td>
           <td>User Experience (UX) Design</td>
@@ -5499,7 +5712,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-019</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input">3.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input">3.2.2 On Input (A)</a>
           </td>
           <td>Event handlers are not used to automatically trigger a change of context upon input that would otherwise require explicit user action unless previously communicated.</td>
           <td>Front-End Development</td>
@@ -5514,7 +5727,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-020</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input">3.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input">3.2.2 On Input (A)</a>
           </td>
           <td>Form interactions are not designed to include automatic changes of context upon input that would otherwise require explicit user action unless previously communicated.</td>
           <td>User Experience (UX) Design</td>
@@ -5529,7 +5742,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-021</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 Consistent Identification (A)</a>
           </td>
           <td>Error messages and alerts are visually displayed across the site in a consistent manner.</td>
           <td>User Experience (UX) Design</td>
@@ -5544,7 +5757,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-022</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 Consistent Identification (A)</a>
           </td>
           <td>Visual indicators are presented to support error messages when errors are returned.</td>
           <td>Visual Design</td>
@@ -5559,7 +5772,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-023</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-identification">3.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-identification">3.3.1 Error Identification (A)</a>
           </td>
           <td>Inline error messages are displayed next to their related form controls.</td>
           <td>User Experience (UX) Design</td>
@@ -5574,7 +5787,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-024</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-identification">3.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-identification">3.3.1 Error Identification (A)</a>
           </td>
           <td>Error messages are grouped as a list at the top of the form.</td>
           <td>User Experience (UX) Design</td>
@@ -5589,7 +5802,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-025</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (A)</a>
           </td>
           <td>Radio buttons and checkbox labels are positioned to the right of their respective form controls (for left-to-right languages).</td>
           <td>User Experience (UX) Design</td>
@@ -5604,7 +5817,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-026</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (A)</a>
           </td>
           <td>Related form controls and their respective labels are grouped together visually.</td>
           <td>User Experience (UX) Design</td>
@@ -5619,7 +5832,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-027</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (A)</a>
           </td>
           <td>Instructions are in close visual proximity to their related controls.</td>
           <td>User Experience (UX) Design</td>
@@ -5634,7 +5847,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-028</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (A)</a>
           </td>
           <td>Form controls are coded to have persistent visual labels.</td>
           <td>Front-End Development</td>
@@ -5649,7 +5862,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-029</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (A)</a>
           </td>
           <td>Form controls are designed to have persistent visual labels.</td>
           <td>User Experience (UX) Design</td>
@@ -5664,7 +5877,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-030</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (A)</a>
           </td>
           <td>Clear text-based instructions are provided on how to use the form controls.</td>
           <td>Content Authoring</td>
@@ -5679,7 +5892,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-031</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (A)</a>
           </td>
           <td>Instructions provided in forms are displayed in a clear and unambiguous way.</td>
           <td>Visual Design</td>
@@ -5694,7 +5907,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-032</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (A)</a>
           </td>
           <td>Placeholder text is not used in lieu of regular text label elements.</td>
           <td>User Experience (UX) Design</td>
@@ -5709,7 +5922,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-033</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion">3.3.3 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion">3.3.3 Error Suggestion (AA)</a>
           </td>
           <td>Error messages returned provide clear instructions on how to fix them.</td>
           <td>Content Authoring</td>
@@ -5724,7 +5937,7 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-034</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion">3.3.3 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions">3.3.2 Labels or Instructions (AA)</a>
           </td>
           <td>Instructions intending to prevent errors are provided in text and available.</td>
           <td>Front-End Development</td>
@@ -5739,12 +5952,11 @@
       
         <tr>
           <td style="white-space:nowrap;">FRM-035</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion">3.3.3 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion">3.3.3 Error Suggestion (AA)</a>
           </td>
           <td>Text-based instructions are provided to help users correct errors.</td>
           <td>User Experience (UX) Design</td>
-          <td>Content Authoring
-Visual Design</td>
+          <td>Content Authoring, Visual Design</td>
           <td>none</td>
         </tr>
       
@@ -5755,11 +5967,11 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">FRM-036</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data">3.3.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data">3.3.4 Error Prevention (Legal, Financial, Data) (AA)</a>
           </td>
           <td>Users are provided with means to prevent and correct form errors when legal, financial, or data information is involved.</td>
           <td>User Experience (UX) Design</td>
-          <td>Business</td>
+          <td>Business Analysis</td>
           <td>none</td>
         </tr>
       
@@ -5770,11 +5982,11 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">FRM-037</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data">3.3.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data">3.3.4 Error Prevention (Legal, Financial, Data) (AA)</a>
           </td>
           <td>When legal, financial, or data information is involved, confirmation screens are provided prior to any final form submission.</td>
           <td>User Experience (UX) Design</td>
-          <td>Business</td>
+          <td>Business Analysis</td>
           <td>Front-End Development</td>
         </tr>
       
@@ -5785,7 +5997,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">FRM-038</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/help">3.3.5 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/help">3.3.5 Help (AAA)</a>
           </td>
           <td>Context-sensitive help text is available.</td>
           <td>User Experience (UX) Design</td>
@@ -5800,13 +6012,93 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">FRM-039</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all">3.3.6 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all">3.3.6 Error Prevention (All) (AAA)</a>
           </td>
           <td>Users are provided with means to prevent and correct form errors.</td>
           <td>User Experience (UX) Design</td>
-          <td>Business</td>
+          <td>Business Analysis</td>
           <td>none</td>
         </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">FRM-040</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry">3.3.7 Redundant Entry (A)</a>
+          </td>
+          <td>Except when it is essential for users to re-enter information in the same session, previously entered information is made available through auto-population or user selection.</td>
+          <td>User Experience (UX) Design</td>
+          <td>Front-End Development</td>
+          <td></td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">FRM-041</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum">3.3.8 Accessible Authentication (Minimum) (AA)</a>
+          </td>
+          <td>Cognitive function tests that do not rely on object recognition or personal content must provide an alternative non-cognitive method or an assistive mechanism.</td>
+          <td>User Experience (UX) Design</td>
+          <td>Front-End Development</td>
+          <td>Business Analysis</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">FRM-042</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced">3.3.9 Accessible Authentication (Enhanced) (AAA)</a>
+          </td>
+          <td>A cognitive function test during authentication is not required unless an alternative non-cognitive method or an assistive mechanism is provided.</td>
+          <td>User Experience (UX) Design</td>
+          <td>Front-End Development</td>
+          <td>Business Analysis</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
       
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
@@ -6518,12 +6810,12 @@ Visual Design</td>
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
@@ -7102,9 +7394,34 @@ Visual Design</td>
       
       
       
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
         <tr>
           <td style="white-space:nowrap;">CSS-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Icon fonts used to convey information are provided with a text equivalent.</td>
           <td>User Experience (UX) Design</td>
@@ -7119,7 +7436,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>The meaning of icon fonts is determined programmatically using the aria-label attribute (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -7134,7 +7451,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Icon fonts whose default accessible name do not represent what the icon is, are overwritten using an aria-hidden attribute (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -7149,7 +7466,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Background images identified as decorative are implemented as such.</td>
           <td>Front-End Development</td>
@@ -7164,7 +7481,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>CSS pseudo-selectors such as :before and :after are not used to integrate informative content.</td>
           <td>Front-End Development</td>
@@ -7179,7 +7496,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 Sensory Characteristics (A)</a>
           </td>
           <td>Shape and location are never used as the only way to convey information and relationships between page components.</td>
           <td>Visual Design</td>
@@ -7194,7 +7511,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 Sensory Characteristics (A)</a>
           </td>
           <td>Users relying on High Contrast themes don't lose information as a result of doing so.</td>
           <td>Front-End Development</td>
@@ -7209,7 +7526,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/orientation">1.3.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/orientation">1.3.4 Orientation (AA)</a>
           </td>
           <td>Content is viewable in both portrait and landscape orientation, unless a particular orientation is essential.</td>
           <td>User Experience (UX) Design</td>
@@ -7224,7 +7541,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">1.4.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">1.4.1 Use of Color (A)</a>
           </td>
           <td>Color is never used as the only way to convey information, context, indicate selection or the presence of errors.</td>
           <td>Visual Design</td>
@@ -7239,7 +7556,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">1.4.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">1.4.1 Use of Color (A)</a>
           </td>
           <td>For a link that is not underlined and in a paragraph text, its text color is sufficiently contrasted by providing a luminosity ratio of at least 3:1 against its surrounding text.</td>
           <td>Visual Design</td>
@@ -7254,7 +7571,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum">1.4.3 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum">1.4.3 Contrast (Minimum) (AA)</a>
           </td>
           <td>Regular-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 4.5:1.</td>
           <td>Visual Design</td>
@@ -7269,7 +7586,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum">1.4.3 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum">1.4.3 Contrast (Minimum) (AA)</a>
           </td>
           <td>Large-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 3:1.</td>
           <td>Visual Design</td>
@@ -7284,7 +7601,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text">1.4.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text">1.4.4 Resize Text (AA)</a>
           </td>
           <td>Users can resize the text on the page up to 200% without any loss of content or functionality.</td>
           <td>Visual Design</td>
@@ -7299,7 +7616,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text">1.4.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text">1.4.4 Resize Text (AA)</a>
           </td>
           <td>CSS techniques are used to ensure that content doesn't overflow, overlap or get truncated as a result of increasing the text size.</td>
           <td>Front-End Development</td>
@@ -7314,12 +7631,11 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 Images of Text (AA)</a>
           </td>
           <td>CSS background sprites don't include images of text, unless equivalent text alternatives are also provided as part of the HTML.</td>
           <td>Front-End Development</td>
-          <td>Content Authoring
- Visual Design</td>
+          <td>Content Authoring, Visual Design</td>
           <td>none</td>
         </tr>
       
@@ -7330,7 +7646,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced">1.4.6 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced">1.4.6 Contrast (Enhanced) (AAA)</a>
           </td>
           <td>Regular-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 7:1.</td>
           <td>Visual Design</td>
@@ -7345,7 +7661,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced">1.4.6 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced">1.4.6 Contrast (Enhanced) (AAA)</a>
           </td>
           <td>Large-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 4.5:1.</td>
           <td>Visual Design</td>
@@ -7360,7 +7676,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-018</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow">1.4.10 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow">1.4.10 Reflow (AA)</a>
           </td>
           <td>The design makes it possible for end users to enlarge the text so that it reflows into a single column without any loss of information or functionality.</td>
           <td>Visual Design</td>
@@ -7375,7 +7691,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-019</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow">1.4.10 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow">1.4.10 Reflow (AA)</a>
           </td>
           <td>Displaying content on narrower screens or magnifying it does not cause multidirectional scrolling.</td>
           <td>Visual Design</td>
@@ -7390,7 +7706,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-020</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast">1.4.11 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast">1.4.11 Non-text Contrast (AA)</a>
           </td>
           <td>All non-text user interface components and graphical objects are sufficiently contrasted against their background, with a luminosity ratio of at least 3:1.</td>
           <td>Visual Design</td>
@@ -7405,7 +7721,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-021</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-spacing">1.4.12 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/text-spacing">1.4.12 Text Spacing (AA)</a>
           </td>
           <td>Adjusting spacing between letters, words, or paragraphs, or adjusting line height does not cause a loss of content or functionality.</td>
           <td>Visual Design</td>
@@ -7420,7 +7736,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-022</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible">2.4.7 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible">2.4.7 Focus Visible (AA)</a>
           </td>
           <td>The CSS outline property of objects that receive keyboard focus are not set to zero or none.</td>
           <td>Front-End Development</td>
@@ -7435,12 +7751,117 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">CSS-023</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced">2.5.5 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum">2.4.11 Focus Not Obscured (Minimum) (AA)</a>
+          </td>
+          <td>Elements that receive keyboard focus are at least partially visible in the viewport, without being covered by other content.</td>
+          <td>User Experience (UX) Design</td>
+          <td>Front-End Development</td>
+          <td>Visual Design</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">CSS-024</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced">2.4.12 Focus Not Obscured (Enhanced) (AAA)</a>
+          </td>
+          <td>Elements that receive keyboard focus are fully visible within the viewport, without being covered by other content.</td>
+          <td>User Experience (UX) Design</td>
+          <td>Front-End Development</td>
+          <td>Visual Design</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">CSS-025</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance">2.4.13 Focus Appearance (AAA)</a>
+          </td>
+          <td>The keyboard focus indicator is clearly visible and has a minimum area equivalent to a 2 CSS pixel thick border around the focused element, except situations where no visible change is required.</td>
+          <td>Visual Design</td>
+          <td></td>
+          <td>User Experience (UX) Design, Front-End Development</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">CSS-026</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance">2.4.13 Focus Appearance (AAA)</a>
+          </td>
+          <td>The focus indicator has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.</td>
+          <td>Visual Design</td>
+          <td>none</td>
+          <td>none</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">CSS-027</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced">2.5.5 Target Size (Enhanced) (AAA)</a>
           </td>
           <td>Unless the interactive element is part of a sentence or a block of text, its size must be at least 44 x 44 pixels.</td>
           <td>Visual Design</td>
           <td>none</td>
           <td>none</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">CSS-028</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum">2.5.8 Target Size (Minimum) (AA)</a>
+          </td>
+          <td>A minimum height and width of 24 CSS pixels is provided for each interactive target that is not an inline link or control.</td>
+          <td>Visual Design</td>
+          <td>none</td>
+          <td>none</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">CSS-029</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum">2.5.8 Target Size (Minimum) (AA)</a>
+          </td>
+          <td>For any control that is less than 24 by 24 CSS pixels, add padding so that the target area is at least 24 by 24 CSS pixels.</td>
+          <td>Visual Design</td>
+          <td>none</td>
+          <td>none</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">CSS-030</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum">2.5.8 Target Size (Minimum) (AA)</a>
+          </td>
+          <td>Controls with the same functionality or destination are combined within a single target area that is at least 24 by 24 CSS pixels.</td>
+          <td>User Experience (UX) Design</td>
+          <td>Visual Design</td>
+          <td>Front-End Development</td>
         </tr>
       
     
@@ -8038,15 +8459,75 @@ Visual Design</td>
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
       
@@ -8739,7 +9220,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Active objects and other calls to action are visually identifiable as such.</td>
           <td>Visual Design</td>
@@ -8754,7 +9235,7 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 Sensory Characteristics (A)</a>
           </td>
           <td>Instructions are conveyed through more than shape, size, position, or sound alone.</td>
           <td>Content Authoring</td>
@@ -8769,12 +9250,11 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">1.4.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color">1.4.1 Use of Color (A)</a>
           </td>
           <td>Additional visual and/or textual cues are provided when color is used to convey information.</td>
           <td>User Experience (UX) Design</td>
-          <td>Visual Design 
-Content Authoring</td>
+          <td>Visual Design, Content Authoring</td>
           <td>none</td>
         </tr>
       
@@ -8785,11 +9265,11 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable">2.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable">2.2.1 Timing Adjustable (A)</a>
           </td>
           <td>Users are notified when time limits are about to expire.</td>
           <td>User Experience (UX) Design</td>
-          <td>Business</td>
+          <td>Business Analysis</td>
           <td>none</td>
         </tr>
       
@@ -8800,11 +9280,11 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable">2.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable">2.2.1 Timing Adjustable (A)</a>
           </td>
           <td>Options to extend, or even turn off time limits are provided.</td>
           <td>User Experience (UX) Design</td>
-          <td>Business</td>
+          <td>Business Analysis</td>
           <td>none</td>
         </tr>
       
@@ -8815,7 +9295,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide">2.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide">2.2.2 Pause, Stop, Hide (A)</a>
           </td>
           <td>Users are given means to pause, stop or hide content that automatically updates.</td>
           <td>User Experience (UX) Design</td>
@@ -8830,7 +9310,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/interruptions">2.2.4 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/interruptions">2.2.4 Interruptions (AAA)</a>
           </td>
           <td>Users are provided with means to turn off all updates, except in case of emergencies.</td>
           <td>User Experience (UX) Design</td>
@@ -8845,7 +9325,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating">2.2.5 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating">2.2.5 Re-authenticating (AAA)</a>
           </td>
           <td>Users are provided with means to re-authenticate sessions without loss of data.</td>
           <td>User Experience (UX) Design</td>
@@ -8860,7 +9340,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 Bypass Blocks (A)</a>
           </td>
           <td>Users can bypass blocks of content using skip links or similar mechanisms.</td>
           <td>User Experience (UX) Design</td>
@@ -8875,7 +9355,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 Bypass Blocks (A)</a>
           </td>
           <td>Skip links (and similar mechanisms) for main content and navigation are provided at the most effective location in the interface (such as the very first tab stop).</td>
           <td>User Experience (UX) Design</td>
@@ -8890,7 +9370,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 Bypass Blocks (A)</a>
           </td>
           <td>The functionality and expected destination of skip links and similar mechanisms is clearly defined.</td>
           <td>User Experience (UX) Design</td>
@@ -8905,7 +9385,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks">2.4.1 Bypass Blocks (A)</a>
           </td>
           <td>Skip links and similar mechanisms point to the expected destination.</td>
           <td>Front-End Development</td>
@@ -8920,12 +9400,12 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>All active elements receive focus in a logical and predictable order that is prescribed by the visual presentation.</td>
           <td>Front-End Development</td>
           <td>User Experience (UX) Design</td>
-          <td>User Experience (UX) Design, Visual Design</td>
+          <td>User Experience (UX), Design Visual Design</td>
         </tr>
       
     
@@ -8935,7 +9415,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>A logical and predictable focus order is defined for complex interactions.</td>
           <td>User Experience (UX) Design</td>
@@ -8950,7 +9430,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>Objects that are not actionable are not part of the tabbing order.</td>
           <td>Front-End Development</td>
@@ -8965,7 +9445,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>Focus is sent back to the initiating point when modal dialogs and controls are dismissed.</td>
           <td>Front-End Development</td>
@@ -8980,7 +9460,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-order">2.4.3 Focus Order (A)</a>
           </td>
           <td>Event handlers do not unexpectedly send the focus somewhere else on the page.</td>
           <td>Front-End Development</td>
@@ -8995,7 +9475,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-018</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context">2.4.4 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context">2.4.4 Link Purpose (In Context) (A)</a>
           </td>
           <td>Link text and alternate text for images, when used as links, describe the destination or purpose of the link.</td>
           <td>Content Authoring</td>
@@ -9010,7 +9490,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-019</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context">2.4.4 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context">2.4.4 Link Purpose (In Context) (A)</a>
           </td>
           <td>Links are marked up using the anchor element and have a valid href attribute value (or use other equivalent means).</td>
           <td>Front-End Development</td>
@@ -9025,7 +9505,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-020</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways">2.4.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways">2.4.5 Multiple Ways (AA)</a>
           </td>
           <td>Multiple mechanisms are provided for wayfinding, such as navigation menus, breadcrumbs, search features, site map, progress bar, steps, etc.</td>
           <td>User Experience (UX) Design</td>
@@ -9040,7 +9520,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-021</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/location">2.4.8 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/location">2.4.8 Location (AAA)</a>
           </td>
           <td>Indications are provided to help users identify their current location within the site.</td>
           <td>User Experience (UX) Design</td>
@@ -9055,7 +9535,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-022</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only">2.4.9 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only">2.4.9 Link Purpose (Link Only) (AAA)</a>
           </td>
           <td>The purpose of each link can be identified in its immediate context, or from the link text alone.</td>
           <td>Content Authoring</td>
@@ -9070,7 +9550,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-023</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/section-headings">2.4.10 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/section-headings">2.4.10 Section Headings (AAA)</a>
           </td>
           <td>Content is logically organized using section headings.</td>
           <td>Content Authoring</td>
@@ -9085,7 +9565,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-024</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-focus">3.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-focus">3.2.1 On Focus (A)</a>
           </td>
           <td>Setting the focus to a new element doesn't automatically trigger a context change, such as content updates or the opening of new windows.</td>
           <td>User Experience (UX) Design</td>
@@ -9100,7 +9580,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-025</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input">3.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/on-input">3.2.2 On Input (A)</a>
           </td>
           <td>Interacting with input controls or other equivalent elements doesn't automatically trigger a change of context, unless the user has been notified ahead of time.</td>
           <td>User Experience (UX) Design</td>
@@ -9115,7 +9595,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-026</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation">3.2.3 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation">3.2.3 Consistent Navigation (AA)</a>
           </td>
           <td>Navigation mechanisms are repeated consistently throughout the site or application in the same relative order.</td>
           <td>User Experience (UX) Design</td>
@@ -9130,7 +9610,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-027</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 Consistent Identification (AA)</a>
           </td>
           <td>Navigational graphics and icons used throughout the site or application are designed to always serve the same function and or meaning.</td>
           <td>Visual Design</td>
@@ -9145,7 +9625,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-028</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 Consistent Identification (AA)</a>
           </td>
           <td>The accessible name of user interface components used across the site or application are defined consistently.</td>
           <td>Content Authoring</td>
@@ -9160,7 +9640,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-029</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification">3.2.4 Consistent Identification (AA)</a>
           </td>
           <td>Users can consistently distinguish between links internal to a page and links going to different locations.</td>
           <td>Visual Design</td>
@@ -9175,7 +9655,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-030</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/change-on-request">3.2.5 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/change-on-request">3.2.5 Change on Request (AAA)</a>
           </td>
           <td>Links that open new windows visually indicate they will do so.</td>
           <td>User Experience (UX) Design</td>
@@ -9190,7 +9670,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">NAV-031</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/change-on-request">3.2.5 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/change-on-request">3.2.5 Change on Request (AAA)</a>
           </td>
           <td>Links that open new windows indicate they will do so, either as part of the link text, or using aria-label or equivalent means.</td>
           <td>Front-End Development</td>
@@ -9202,6 +9682,16 @@ Content Authoring</td>
       <!-- Only display rows where 'Starter List' is not null or empty -->
       
       
+      
+        <tr>
+          <td style="white-space:nowrap;">NAV-032</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-help">3.2.6 Consistent Help (AAA)</a>
+          </td>
+          <td>Help mechanisms are repeated consistently throughout the site or application in the same relative order.</td>
+          <td>User Experience (UX) Design</td>
+          <td>Visual Design</td>
+          <td>none</td>
+        </tr>
       
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
@@ -9638,15 +10128,80 @@ Content Authoring</td>
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
       
@@ -10494,7 +11049,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Tables are only to be used to lay out tabular information or data.</td>
           <td>Front-End Development</td>
@@ -10509,7 +11064,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Table row and/or column headers provide context for data within the table.</td>
           <td>User Experience (UX) Design</td>
@@ -10524,7 +11079,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Data table structure is appropriate for the data being included.</td>
           <td>User Experience (UX) Design</td>
@@ -10539,7 +11094,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Tabular data and corresponding header cells for that data are part of the same table.</td>
           <td>Front-End Development</td>
@@ -10554,7 +11109,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Header cells for rows are marked up using THEAD elements.</td>
           <td>Front-End Development</td>
@@ -10569,7 +11124,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Header cells for columns are marked up using TH elements.</td>
           <td>Front-End Development</td>
@@ -10584,7 +11139,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>The relationship between table header rows and table header columns with data cells in simple data tables is provided through the SCOPE attributes.</td>
           <td>Front-End Development</td>
@@ -10599,7 +11154,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>The relationship between table header rows and table header columns with data cells in complex data tables is provided through the HEADERS and ID attributes.</td>
           <td>Front-End Development</td>
@@ -10614,7 +11169,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Caption elements are used to associate caption information with data tables.</td>
           <td>Front-End Development</td>
@@ -10629,12 +11184,11 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Large, complex data tables are broken into smaller, simpler data tables (when possible).</td>
           <td>User Experience (UX) Design</td>
-          <td>Visual Design
-Content Authoring</td>
+          <td>Visual Design, Content Authoring</td>
           <td>none</td>
         </tr>
       
@@ -10645,7 +11199,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Unrelated data is not included in the same data table.</td>
           <td>User Experience (UX) Design</td>
@@ -10660,7 +11214,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Tables are not used for layout purposes.</td>
           <td>Front-End Development</td>
@@ -10675,7 +11229,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Tables are not used to layout lists.</td>
           <td>Front-End Development</td>
@@ -10690,7 +11244,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Caption elements, aria-labelledby attributes or other equivalent means are used to explain the structure of data tables.</td>
           <td>Front-End Development</td>
@@ -10705,7 +11259,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>A meaningful description of the structure of data tables is provided.</td>
           <td>Content Authoring</td>
@@ -10720,7 +11274,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 Meaningful Sequence (A)</a>
           </td>
           <td>The programmatic order of the table content matches the intended reading order, so not to affect its meaning.</td>
           <td>Front-End Development</td>
@@ -10735,18 +11289,13 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">TAB-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels">2.4.6 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels">2.4.6 Headings and Labels (AA)</a>
           </td>
           <td>All data table header cells are identified.</td>
           <td>User Experience (UX) Design</td>
           <td>Front-End Development</td>
           <td>none</td>
         </tr>
-      
-    
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      
-      
       
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
@@ -11098,15 +11647,80 @@ Content Authoring</td>
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
       
@@ -12039,7 +12653,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 Audio-only and Video-only (Prerecorded) (A)</a>
           </td>
           <td>Text transcripts are provided for prerecorded audio-only files.</td>
           <td>Content Authoring</td>
@@ -12054,7 +12668,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 Audio-only and Video-only (Prerecorded) (A)</a>
           </td>
           <td>Text transcripts are provided for prerecorded video-only files.</td>
           <td>Content Authoring</td>
@@ -12069,7 +12683,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 Audio-only and Video-only (Prerecorded) (A)</a>
           </td>
           <td>Links to transcript files are provided in close proximity to the audio-only files.</td>
           <td>User Experience (UX) Design</td>
@@ -12084,7 +12698,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 Audio-only and Video-only (Prerecorded) (A)</a>
           </td>
           <td>The relationship between multimedia files and their associated transcript is clearly communicated through content sequence or focus order.</td>
           <td>User Experience (UX) Design</td>
@@ -12099,7 +12713,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 Audio-only and Video-only (Prerecorded) (A)</a>
           </td>
           <td>Copy on the page identifies when video content has no sound.</td>
           <td>User Experience (UX) Design</td>
@@ -12114,7 +12728,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded">1.2.1 Audio-only and Video-only (Prerecorded) (A)</a>
           </td>
           <td>When appropriate, further information about the multimedia file is provided in proximity to the multimedia file.</td>
           <td>User Experience (UX) Design</td>
@@ -12129,7 +12743,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded">1.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded">1.2.2 Captions (Prerecorded) (A)</a>
           </td>
           <td>Synchronized captions are provided for all prerecorded video content.</td>
           <td>Content Authoring</td>
@@ -12144,7 +12758,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded">1.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded">1.2.2 Captions (Prerecorded) (A)</a>
           </td>
           <td>Captions do not skip dialogues or important sounds.</td>
           <td>Content Authoring</td>
@@ -12159,7 +12773,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded">1.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded">1.2.2 Captions (Prerecorded) (A)</a>
           </td>
           <td>Multimedia player controls are provided to turn captions on or off.</td>
           <td>User Experience (UX) Design</td>
@@ -12174,7 +12788,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded">1.2.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded">1.2.3 Audio Description or Media Alternative (Prerecorded) (A)</a>
           </td>
           <td>Text transcripts report all significant information from the audio track.</td>
           <td>Content Authoring</td>
@@ -12189,7 +12803,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded">1.2.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded">1.2.3 Audio Description or Media Alternative (Prerecorded) (A)</a>
           </td>
           <td>Text transcripts or audio descriptions report all significant information from the visual track.</td>
           <td>Content Authoring</td>
@@ -12204,7 +12818,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-live">1.2.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-live">1.2.4 Captions (Live) (AA)</a>
           </td>
           <td>Synchronized captions are provided for all live video content.</td>
           <td>Content Authoring</td>
@@ -12219,7 +12833,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-live">1.2.4 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-live">1.2.4 Captions (Live) (AA)</a>
           </td>
           <td>Captions for live audio content are generated using real-time text transcription services.</td>
           <td>Content Authoring</td>
@@ -12234,7 +12848,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded">1.2.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded">1.2.5 Audio Description (Prerecorded) (AA)</a>
           </td>
           <td>Prerecorded videos have audio descriptions that captures all significant information from the visual track.</td>
           <td>Content Authoring</td>
@@ -12249,7 +12863,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded">1.2.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded">1.2.5 Audio Description (Prerecorded) (AA)</a>
           </td>
           <td>Controls to toggle audio descriptions features are provided as part of the media player controls.</td>
           <td>User Experience (UX) Design</td>
@@ -12264,7 +12878,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded">1.2.5 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded">1.2.5 Audio Description (Prerecorded) (AA)</a>
           </td>
           <td>Multimedia player controls are provided to access a version of the video with audio description.</td>
           <td>User Experience (UX) Design</td>
@@ -12279,7 +12893,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded">1.2.6 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded">1.2.6 Sign Language (Prerecorded) (AAA)</a>
           </td>
           <td>Sign language interpretation is provided for all prerecorded audio content in synchronized media.</td>
           <td>Content Authoring</td>
@@ -12294,7 +12908,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-018</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded">1.2.7 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded">1.2.7 Extended Audio Description (Prerecorded) (AAA)</a>
           </td>
           <td>Extended audio description is provided for all prerecorded synchronized video content when pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video.</td>
           <td>Content Authoring</td>
@@ -12309,7 +12923,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-019</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded">1.2.8 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded">1.2.8 Media Alternative (Prerecorded) (AAA)</a>
           </td>
           <td>Text alternatives are provided for all prerecorded audio and video files.</td>
           <td>Content Authoring</td>
@@ -12324,7 +12938,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-020</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded">1.2.8 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded">1.2.8 Media Alternative (Prerecorded) (AAA)</a>
           </td>
           <td>Brief descriptions summarizing multimedia content are provided in close proximity to the audio and video files.</td>
           <td>User Experience (UX) Design</td>
@@ -12339,7 +12953,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-021</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live">1.2.9 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live">1.2.9 Audio-only (Live) (AAA)</a>
           </td>
           <td>Live transcripts are provided for all audio content happening in real-time.</td>
           <td>Content Authoring</td>
@@ -12354,7 +12968,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-022</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 Audio Control (A)</a>
           </td>
           <td>Multimedia player controls are provided to turn sound on and off.</td>
           <td>User Experience (UX) Design</td>
@@ -12369,7 +12983,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-023</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 Audio Control (A)</a>
           </td>
           <td>Volume controls for page-level multimedia files are independent from general computer audio controls.</td>
           <td>Front-End Development</td>
@@ -12384,7 +12998,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-024</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 Audio Control (A)</a>
           </td>
           <td>Volume controls for page-level multimedia files are visually located at the top of the page.</td>
           <td>User Experience (UX) Design</td>
@@ -12399,7 +13013,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-025</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 Audio Control (A)</a>
           </td>
           <td>Audio content that automatically starts on page load lasts no longer than 3 seconds.</td>
           <td>Front-End Development</td>
@@ -12414,7 +13028,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-026</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control">1.4.2 Audio Control (A)</a>
           </td>
           <td>Prerecorded or live video content is not set to auto-play.</td>
           <td>User Experience (UX) Design</td>
@@ -12429,7 +13043,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-027</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio">1.4.7 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio">1.4.7 Low or No Background Audio (AAA)</a>
           </td>
           <td>Prerecorded audio-only background sounds can be controlled by the user.</td>
           <td>User Experience (UX) Design</td>
@@ -12444,7 +13058,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-028</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio">1.4.7 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio">1.4.7 Low or No Background Audio (AAA)</a>
           </td>
           <td>Prerecorded audio-only speeches contain no background sound, or if they do, must be at least 20 decibels lower than the foreground speech content.</td>
           <td>Content Authoring</td>
@@ -12459,7 +13073,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-029</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard">2.1.1 Keyboard (A)</a>
           </td>
           <td>Multimedia player controls can be fully operated using only the keyboard.</td>
           <td>Front-End Development</td>
@@ -12474,7 +13088,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-030</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide">2.2.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide">2.2.2 Pause, Stop, Hide (A)</a>
           </td>
           <td>Multimedia player controls are provided to pause or play the multimedia file.</td>
           <td>User Experience (UX) Design</td>
@@ -12489,12 +13103,12 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-031</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/no-timing">2.2.3 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/no-timing">2.2.3 No Timing (AAA)</a>
           </td>
           <td>Timing is not an essential part of the event or activity presented by the content.</td>
           <td>User Experience (UX) Design</td>
           <td>Content Authoring</td>
-          <td>Business</td>
+          <td>Business Analysis</td>
         </tr>
       
     
@@ -12504,7 +13118,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-032</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/timeouts">2.2.6 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/timeouts">2.2.6 Timeouts (AAA)</a>
           </td>
           <td>Users are warned that more than 20 hours of inactivity could lead to data loss.</td>
           <td>User Experience (UX) Design</td>
@@ -12519,7 +13133,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-033</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold">2.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold">2.3.1 Three Flashes or Below Threshold (A)</a>
           </td>
           <td>Content on the screen does not flash or blink more than three times in any one-second period, or the flash is below the general flash and red flash thresholds.</td>
           <td>Visual Design</td>
@@ -12534,7 +13148,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-034</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes">2.3.2 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes">2.3.2 Three Flashes (AAA)</a>
           </td>
           <td>Content on the screen does not flash or blink at a rate that is higher than three times in any one-second period.</td>
           <td>Visual Design</td>
@@ -12549,7 +13163,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-035</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions">2.3.3 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions">2.3.3 Animation from Interactions (AAA)</a>
           </td>
           <td>Animation features that create the illusion of movement are defined so that users can disable them.</td>
           <td>User Experience (UX) Design</td>
@@ -12564,7 +13178,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-036</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions">2.3.3 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions">2.3.3 Animation from Interactions (AAA)</a>
           </td>
           <td>Animation features that create the illusion of movement support prefers-reduced-motion (or other equivalent means).</td>
           <td>Front-End Development</td>
@@ -12579,18 +13193,13 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">ANM-037</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value">4.1.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value">4.1.2 Name, Role, Value (A)</a>
           </td>
           <td>Information conveyed by multimedia player controls are programmatically announced through assistive technologies.</td>
           <td>Front-End Development</td>
           <td>User Experience (UX) Design</td>
-          <td>none</td>
+          <td></td>
         </tr>
-      
-    
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      
-      
       
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
@@ -12757,15 +13366,80 @@ Content Authoring</td>
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
       
@@ -13883,7 +14557,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content">1.1.1 Non-text Content (A)</a>
           </td>
           <td>Emoticons, emojis, ASCII art, and other non-markup language constructs are supported with equivalent text alternatives and conveyed to assistive technologies.</td>
           <td>User Experience (UX) Design</td>
@@ -13898,7 +14572,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Emoticons, emojis, ASCII art, and other non-markup language constructs are not used as the only way to structure content or convey information.</td>
           <td>User Experience (UX) Design</td>
@@ -13913,7 +14587,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Proper markup is used to render emphasized, bolded text and other stylistic or presentational effects.</td>
           <td>Front-End Development</td>
@@ -13928,7 +14602,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-004</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Proper markup is used to structure quotes, blockquotes and citations.</td>
           <td>Front-End Development</td>
@@ -13943,7 +14617,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-005</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Heading markup is only used for text which acts as a section heading.</td>
           <td>Front-End Development</td>
@@ -13958,7 +14632,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-006</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>Heading markup is not used for formatting effects.</td>
           <td>Front-End Development</td>
@@ -13973,7 +14647,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-007</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships">1.3.1 Info and Relationships (A)</a>
           </td>
           <td>The headings used in a page provide a logical outline for the document.</td>
           <td>Content Authoring</td>
@@ -13988,7 +14662,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-008</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 Meaningful Sequence (A)</a>
           </td>
           <td>The intended reading order of the content remains logical when CSS and images are turned off.</td>
           <td>Front-End Development</td>
@@ -14003,7 +14677,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-009</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence">1.3.2 Meaningful Sequence (A)</a>
           </td>
           <td>The source code order reflects the intended reading order of the document.</td>
           <td>Front-End Development</td>
@@ -14018,38 +14692,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-010</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
-          </td>
-          <td>Site supports internationalization with multiple languages, including right-to-left languages.</td>
-          <td>Business Analysis</td>
-          <td>User Experience (UX) Design</td>
-          <td>Content Authoring
-Visual Design</td>
-        </tr>
-      
-    
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      
-      
-      
-        <tr>
-          <td style="white-space:nowrap;">SCT-011</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
-          </td>
-          <td>Text direction is properly marked up as such, especially for right-to-left languages.</td>
-          <td>Front-End Development</td>
-          <td>none</td>
-          <td>none</td>
-        </tr>
-      
-    
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      
-      
-      
-        <tr>
-          <td style="white-space:nowrap;">SCT-012</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 Sensory Characteristics (A)</a>
           </td>
           <td>Objects that rely on shape to be properly perceived are supported with additional text information.</td>
           <td>User Experience (UX) Design</td>
@@ -14063,8 +14706,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-013</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
+          <td style="white-space:nowrap;">SCT-011</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 Sensory Characteristics (A)</a>
           </td>
           <td>Objects that rely on size to be properly perceived are supported with additional text information.</td>
           <td>User Experience (UX) Design</td>
@@ -14078,8 +14721,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-014</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
+          <td style="white-space:nowrap;">SCT-012</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 Sensory Characteristics (A)</a>
           </td>
           <td>Objects that rely on visual location to be properly perceived are supported with additional text information.</td>
           <td>User Experience (UX) Design</td>
@@ -14093,8 +14736,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-015</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
+          <td style="white-space:nowrap;">SCT-013</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 Sensory Characteristics (A)</a>
           </td>
           <td>Objects that rely on orientation to be properly perceived are supported with additional text information.</td>
           <td>User Experience (UX) Design</td>
@@ -14108,8 +14751,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-016</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 (A)</a>
+          <td style="white-space:nowrap;">SCT-014</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics">1.3.3 Sensory Characteristics (A)</a>
           </td>
           <td>Objects that rely on sound to be properly perceived are supported with additional text information.</td>
           <td>User Experience (UX) Design</td>
@@ -14123,8 +14766,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-017</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 (AA)</a>
+          <td style="white-space:nowrap;">SCT-015</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text">1.4.5 Images of Text (AA)</a>
           </td>
           <td>Mathematical formulas are marked up using MathML.</td>
           <td>Front-End Development</td>
@@ -14138,8 +14781,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-018</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation">1.4.8 (AAA)</a>
+          <td style="white-space:nowrap;">SCT-016</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation">1.4.8 Visual Presentation (AAA)</a>
           </td>
           <td>Text content in design assets such as content blocks is left-aligned in left-to-right languages.</td>
           <td>Visual Design</td>
@@ -14153,8 +14796,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-019</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation">1.4.8 (AAA)</a>
+          <td style="white-space:nowrap;">SCT-017</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation">1.4.8 Visual Presentation (AAA)</a>
           </td>
           <td>Fully justified text can easily be changed to ragged right text with a simple action.</td>
           <td>User Experience (UX) Design</td>
@@ -14168,8 +14811,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-020</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page">3.1.1 (A)</a>
+          <td style="white-space:nowrap;">SCT-018</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page">3.1.1 Language of Page (A)</a>
           </td>
           <td>The primary language used in the document is properly identified using the lang attribute.</td>
           <td>Front-End Development</td>
@@ -14183,8 +14826,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-021</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page">3.1.1 (A)</a>
+          <td style="white-space:nowrap;">SCT-019</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page">3.1.1 Language of Page (A)</a>
           </td>
           <td>The language definition of the document uses the correct value for language and locale.</td>
           <td>Content Authoring</td>
@@ -14198,8 +14841,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-022</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts">3.1.2 (AA)</a>
+          <td style="white-space:nowrap;">SCT-020</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts">3.1.2 Language of Parts (AA)</a>
           </td>
           <td>Content passages that differ from the default are identified with the correct value for language and locale.</td>
           <td>Content Authoring</td>
@@ -14213,8 +14856,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-023</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/unusual-words">3.1.3 (AAA)</a>
+          <td style="white-space:nowrap;">SCT-021</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/unusual-words">3.1.3 Unusual Words (AAA)</a>
           </td>
           <td>Unusual words, phrases, and abbreviations are organized into a glossary.</td>
           <td>User Experience (UX) Design</td>
@@ -14228,8 +14871,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-024</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/unusual-words">3.1.3 (AAA)</a>
+          <td style="white-space:nowrap;">SCT-022</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/unusual-words">3.1.3 Unusual Words (AAA)</a>
           </td>
           <td>Unusual words found in the content are linked to their definitions in a glossary.</td>
           <td>User Experience (UX) Design</td>
@@ -14243,8 +14886,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-025</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/abbreviations">3.1.4 (AAA)</a>
+          <td style="white-space:nowrap;">SCT-023</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/abbreviations">3.1.4 Abbreviations (AAA)</a>
           </td>
           <td>Abbreviations are programmatically associated with their definition.</td>
           <td>Front-End Development</td>
@@ -14258,8 +14901,8 @@ Visual Design</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">SCT-026</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level">3.1.5 (AAA)</a>
+          <td style="white-space:nowrap;">SCT-024</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level">3.1.5 Reading Level (AAA)</a>
           </td>
           <td>Content is written in plain language using everyday words, to help users with different literacy levels and access needs.</td>
           <td>Content Authoring</td>
@@ -14274,12 +14917,11 @@ Visual Design</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-027</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level">3.1.5 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level">3.1.5 Reading Level (AAA)</a>
           </td>
           <td>Ideas conveyed through text are supported with illustrations or other visuals.</td>
           <td>Visual Design</td>
-          <td>User Experience (UX) Design 
-Content Authoring</td>
+          <td>User Experience (UX) Design, Content Authoring</td>
           <td>none</td>
         </tr>
       
@@ -14290,7 +14932,7 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-028</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level">3.1.5 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/reading-level">3.1.5 Reading Level (AAA)</a>
           </td>
           <td>Content is displayed and structured in a way that makes it easier to read.</td>
           <td>User Experience (UX) Design</td>
@@ -14305,13 +14947,18 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">SCT-029</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/pronunciation">3.1.6 (AAA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/pronunciation">3.1.6 Pronunciation (AAA)</a>
           </td>
           <td>Ambiguous words are supported by a mechanism that helps users identify their specific pronunciation.</td>
           <td>User Experience (UX) Design</td>
           <td>Front-End Development</td>
           <td>Content Authoring</td>
         </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
       
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
@@ -14338,15 +14985,70 @@ Content Authoring</td>
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
-      <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
+      <th style="width:15%">Primary Ownership</th>
+      <th style="width:15%">Secondary Ownership</th>
+      <th style="width:15%">Contributor</th>
     </tr>
   </thead>
   <tbody>
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
     
       <!-- Only display rows where 'Starter List' is not null or empty -->
       
@@ -15609,12 +16311,12 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">DYN-001</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages">4.1.3 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum">2.4.11 Focus Not Obscured (Minimum) (AA)</a>
           </td>
-          <td>Information conveyed by multimedia player controls are programmatically announced through assistive technologies.</td>
-          <td>Front-End Development</td>
+          <td>Fixed-position content does not fully cover focused elements.</td>
           <td>User Experience (UX) Design</td>
-          <td>none</td>
+          <td>Front-End Development</td>
+          <td>Visual Design</td>
         </tr>
       
     
@@ -15624,7 +16326,22 @@ Content Authoring</td>
       
         <tr>
           <td style="white-space:nowrap;">DYN-002</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages">4.1.3 (AA)</a>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced">2.4.12 Focus Not Obscured (Enhanced) (AA)</a>
+          </td>
+          <td>Fixed-position content does not cover any part of focused elements.</td>
+          <td>User Experience (UX) Design</td>
+          <td>Front-End Development</td>
+          <td>Visual Design</td>
+        </tr>
+      
+    
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      
+      
+      
+        <tr>
+          <td style="white-space:nowrap;">DYN-003</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages">4.1.3 Status Messages (AA)</a>
           </td>
           <td>Status messages are announced by assistive technologies without affecting the focus.</td>
           <td>User Experience (UX) Design</td>
@@ -15638,8 +16355,8 @@ Content Authoring</td>
       
       
         <tr>
-          <td style="white-space:nowrap;">DYN-003</td>
-          <td style="white-space:nowrap;"><a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages">4.1.3 (AA)</a>
+          <td style="white-space:nowrap;">DYN-004</td>
+          <td><a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages">4.1.3 Status Messages (AA)</a>
           </td>
           <td>Status, toast, or similar messages are programmatically determined through WAI-ARIA roles or properties, so they can be presented to assistive technology users without receiving focus.</td>
           <td>Front-End Development</td>
@@ -15655,7 +16372,7 @@ Content Authoring</td>
     <aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:public-arrm@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A">public-arrm@w3.org</a> or via GitHub.</p>
 <div class="button-group">
     <a href="mailto:public-arrm@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A" class="button"><span>E-mail</span></a><a href="
-https://github.com/w3c/wai-arrm/edit/draft/content/tasks.md
+https://github.com/w3c/wai-arrm/edit/draft/pages/planning-policies/arrm/tasks.md
 " class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wai-arrm/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/planning/arrm/tasks/" class="button"><span>New GitHub Issue</span></a></div></div></aside>
 
 
@@ -15665,7 +16382,8 @@ https://github.com/w3c/wai-arrm/edit/draft/content/tasks.md
 
 
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
-    <div class="inner"><p><strong>Updated:</strong> 24 July 2025.</p><p><strong>Editors and contributors:</strong> See <a href="/WAI/planning/arrm/acknowledgements/">Acknowledgements</a>.</p> <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+    <div class="inner"><p><strong>Updated:</strong> 28 October 2026.
+          <a href="/WAI/planning/arrm/changelog/">Latest changes</a>.</p><p><strong>Editors and contributors:</strong> See <a href="/WAI/planning/arrm/acknowledgements/">Acknowledgements</a>.</p> <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 <p><svg focusable="false" aria-hidden="true" class="icon-creative-commons "><use xlink:href="/WAI/assets/images/icons.svg#icon-creative-commons"></use></svg> This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p></div>
   </footer>
   <footer class="w3c-global-footer wai-global-footer default-grid" aria-label="Site">
@@ -15716,9 +16434,9 @@ https://github.com/w3c/wai-arrm/edit/draft/content/tasks.md
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1792749673288311327"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1793179807369694164"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1792749673288311327"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1793179807369694164"></script>
 <script>
   svg4everybody();
 </script><script>

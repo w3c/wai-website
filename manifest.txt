@@ -3419,6 +3419,7 @@
 /planning-and-managing/plan/index.html
 /planning-and-managing/sustain/index.html
 /planning/arrm/acknowledgements/index.html
+/planning/arrm/changelog/index.html
 /planning/arrm/content-author/index.html
 /planning/arrm/decision-tree/index.html
 /planning/arrm/front-end/index.html
