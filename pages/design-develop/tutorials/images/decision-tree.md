@@ -56,9 +56,9 @@ This decision tree describes how to use the `alt` attribute of the `<img>` eleme
 - **Does the image contain text?**
   - {:.yes} **Yes:**
     -   **… and the text is also present as *real* text nearby.**
-      _Use an empty `alt` attribute. See [Decorative Images](/tutorials/images/decorative/)._
+      _Use an empty `alt` attribute. See [Images for pure decoration](/tutorials/images/pure-decoration/)._
     -   **… and the text is only shown for visual effects.**
-      _Use an empty `alt` attribute. See [Decorative Images](/tutorials/images/decorative/)._
+      _Use an empty `alt` attribute. See [Images for pure decoration](/tutorials/images/pure-decoration/)._
     -   **… and the text has a specific function, for example is an icon.**
       _Use the `alt` attribute to communicate the function of the image. See [Functional Images](/tutorials/images/functional/)._
     -   **… and the text in the image is not present otherwise.** _Use the `alt` attribute to include the text of the image. See [Images of Text](/tutorials/images/textual/#styled-text-decorative-effect)._
@@ -81,7 +81,7 @@ This decision tree describes how to use the `alt` attribute of the `<img>` eleme
     - Continue.
 - **Is the image purely decorative or not intended for users?**
   - {:.yes} **Yes:**
-    - _Use an empty `alt` attribute. See [Decorative Images](/tutorials/images/decorative/)._
+    - _Use an empty `alt` attribute. See [Images for pure decoration](/tutorials/images/pure-decoration/)._
   - {:.no} **No:**
     - Continue.
 - **Is the image’s use not listed above or it’s unclear what `alt` text to provide?**
