@@ -105,7 +105,7 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 We plan to publish the following documents in November or December 2026. <!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/) --> 
 
 * Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) updated working draft ([WCAG2Mobile Editor's Draft](https://w3c.github.io/matf/))
-* WAI-ARIA 1.3 updated working draft ([WAI-ARIA 1.3 Editor's Draft](https://w3c.github.io/aria/))
+* WAI-ARIA 1.3 Candidate Recommendation Snapshot ([WAI-ARIA 1.3 Editor's Draft](https://w3c.github.io/aria/))
 * More [WAI Translations](/translations/) &mdash; usually some each month
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
