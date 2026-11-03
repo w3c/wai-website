@@ -54,7 +54,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 * **W3C Accessibility Guidelines (WCAG) 3** is an in-progress draft that will change substantially. It's years away from being finalized. Please see important information in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
 
-* **ARIA 1.3** &mdash; We're working on additional support for Braille, accessible notifications, and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog).  _[ARIA WG]_
+* **ARIA 1.3** &mdash; We're working on additional support for braille, accessible notifications, and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog).  _[ARIA WG]_
 
 * **Authoring Tool Accessibility Guidelines ([ATAG](/standards-guidelines/atag/))** update is being explored in a W3C Community Group.
 
@@ -98,14 +98,14 @@ Documenting the user needs of people with disabilities helps develop standards t
 
 ### Translating Resources
 
-Existing translations of W3C accessibility resources are listed in [All WAI Translations](/translations/). We are currently working with volunteer translators to translate more resources and update existing translations, including translations of WCAG and of educational resources. See [WCAG 2 Translations](https://www.w3.org/WAI/standards-guidelines/wcag/translations/) and [Translating WAI resources](/about/translating/).
+Existing translations of W3C accessibility resources are listed in [All WAI Translations](/translations/). We are working with volunteer translators to translate more resources and update existing translations, including translations of WCAG and of educational resources. See [Translating WAI resources](/about/translating/).
 
 ## Upcoming Publications
 
 We plan to publish the following documents in November or December 2026. <!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/) --> 
 
 * Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) updated working draft ([WCAG2Mobile Editor's Draft](https://w3c.github.io/matf/))
-* WAI-ARIA 1.3 updated draft ([WAI-ARIA 1.3 Editor's Draft](https://w3c.github.io/aria/))
+* WAI-ARIA 1.3 updated working draft ([WAI-ARIA 1.3 Editor's Draft](https://w3c.github.io/aria/))
 * More [WAI Translations](/translations/) &mdash; usually some each month
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
@@ -143,7 +143,7 @@ We are particularly seeking volunteer contributors for:
 * **WCAG 2** Understanding document updates. Skills: Expert knowledge of accessibility. Contact [Kevin White](https://www.w3.org/staff/#kevin) at [kevin@w3.org](mailto:kevin@w3.org)
 * **<abbr title="Scalable Vector Graphics">SVG</abbr> ARIA** and SVG <abbr title="Accessibility Application Programming Interface (API) Mappings">AAM</abbr> editing. Skills: Robust knowledge of SVG and of browser accessibility APIs. Contact [Daniel Montalvo](https://www.w3.org/staff#dmontalvo) at [dmontalvo@w3.org](mailto:dmontalvo@w3.org)
 * Translations:
-  * Reviewing draft translations in **Arabic, Czech, Indonesian, Simplified Chinese, or Turkish**. Skills: Strong knowledge of disability terminology in the language and culture of the translation. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
+  * Reviewing draft translations in **Arabic or Simplified Chinese**. Skills: Strong knowledge of disability terminology in the language and culture of the translation. Contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
   * Translating WAI resources in all languages. See [Translating WAI resources](/about/translating/) and contact [group-wai-translations@w3.org](mailto:group-wai-translations@w3.org)
 
 To learn about contributing to W3C WAI accessibility work generally, **see [[Participating in WAI]](/about/participating/)**.
