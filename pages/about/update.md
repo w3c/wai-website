@@ -52,7 +52,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 ### Updating Core Guidelines and Other Standards
 
-* **W3C Accessibility Guidelines (WCAG) 3** is in an in-progress draft that will change substantially. It's years away from being finalized. Please see important information in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
+* **W3C Accessibility Guidelines (WCAG) 3** is an in-progress draft that will change substantially. It's years away from being finalized. Please see important information in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
 
 * **ARIA 1.3** &mdash; We're working on additional support for Braille, accessible notifications, and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog).  _[ARIA WG]_
 
