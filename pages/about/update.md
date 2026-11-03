@@ -1,8 +1,8 @@
 ---
 title: "What We're Working On"
-title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, September 2026</span>"
+title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, November and December 2026</span>"
 lang: en
-last_updated: 2026-08-28 # REMEMBER to update the HTML title month, too
+last_updated: 2026-11-03 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -52,11 +52,11 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 ### Updating Core Guidelines and Other Standards
 
-* **W3C Accessibility Guidelines (WCAG) 3** is in an exploratory phase, and will change substantially. It's years away from being finalized. Please see information on the latest draft and [review questions](/standards-guidelines/wcag/wcag3-intro/#for-your-review) in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
+* **W3C Accessibility Guidelines (WCAG) 3** is in an in-progress draft that will change substantially. It's years away from being finalized. Please see important information in [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/) _[AG WG]_
 
 * **ARIA 1.3** &mdash; We're working on additional support for Braille, accessible notifications, and other [new features for ARIA 1.3](https://w3c.github.io/aria/#changelog).  _[ARIA WG]_
 
-* **Authoring Tool Accessibility Guidelines (ATAG)** update is being explored in a W3C Community Group.
+* **Authoring Tool Accessibility Guidelines ([ATAG](/standards-guidelines/atag/))** update is being explored in a W3C Community Group.
 
 ### Developing New Standards
 
@@ -76,7 +76,7 @@ We hope you'll find accessibility work on this page that you are interested in c
 
 ### Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility
 
-* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). We continue analyzing challenges and improving documentation supporting WCAG 2.2, and plan to work on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
+* **WCAG2ICT** describes how Web Content Accessibility Guidelines (WCAG) 2 can be applied to non-web information and communications technologies (ICT). We continue analyzing challenges and improving documentation supporting WCAG 2.2, and are working on Level AAA success criteria. [[WCAG2ICT Overview]](/standards-guidelines/wcag/non-web-ict/) _[AG WG, WCAG2ICT TF]_
 
 * **EPUB Fixed Layout Accessibility** aims to help publishers address challenges for people with cognitive disabilities and low vision. [EPUB Fixed Layout Accessibility Editor's Draft](https://w3c.github.io/epub-specs/epub33/fxl-a11y/) _[EPUB3 WG, FXL A11y TF]_
 
@@ -102,12 +102,11 @@ Existing translations of W3C accessibility resources are listed in [All WAI Tran
 
 ## Upcoming Publications
 
-We plan to publish the following documents in September, October, or November 2026. <!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/) --> 
+We plan to publish the following documents in November or December 2026. <!-- To learn about "Candidate Recommendation" (**CR**) and other stages, see [How WAI Develops Accessibility Standards through the W3C Process: **Milestones** and Opportunities to Contribute](/standards-guidelines/w3c-process/) --> 
 
-* WCAG 3 updated working draft ([WCAG 3 Introduction](/standards-guidelines/wcag/wcag3-intro/))
 * Guidance on Applying WCAG 2.2 to Mobile Applications (WCAG2Mobile) updated working draft ([WCAG2Mobile Editor's Draft](https://w3c.github.io/matf/))
 * WAI-ARIA 1.3 updated draft ([WAI-ARIA 1.3 Editor's Draft](https://w3c.github.io/aria/))
-<!-- * More [WAI Translations](/translations/) &mdash; usually some each month -->
+* More [WAI Translations](/translations/) &mdash; usually some each month
 
 Recent publications and other announcements are listed on the **[News page](/news/)**.
 
@@ -198,6 +197,10 @@ W3C greatly appreciates the support WAI receives from contributors committed to 
 
 {% include_cached excol.html type="middle" %}
 
+* 3 November 2026
+  * To the [Updating Core Guidelines and Other Standards](/update/#updating-core-guidelines-and-other-standards) section, updated wording on W3C Accessibility Guidelines (WCAG) 3 and added link for ATAG
+  * To the [Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility]() section, updated WCAG2ICT wording to include "and are working on Level AAA success criteria"
+  * Updated the [Upcoming Publications list](/update/#upcoming-publications)
 * 28 August 2026
   * Added [Support WAI](/update/#support) section
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
