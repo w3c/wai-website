@@ -96,7 +96,7 @@ WAI also develops documents that support the guidelines and do not go through th
 
 ## Get WAI news for community collaboration {#community}
 
-To get WAI announcements of Working Drafts for review via email, LinkedIn, Mastodon, or Atom/RSS feed, see [[Subscribe to WAI News]](/news/subscribe/).
+To get WAI announcements of working drafts for review via email, LinkedIn, or Atom/RSS feed, see [[Subscribe to WAI News]](/news/subscribe/).
 
 WAI's W3C Recommendations, Group Notes, and Resources are primarily developed in [WAI Working Groups](/about/groups/) with input from the community. WAI actively encourages broad participation from industry, disability organizations, accessibility researchers, government, and others interested in web accessibility.
 
