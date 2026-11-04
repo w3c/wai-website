@@ -2,7 +2,7 @@
 title: "What We're Working On"
 title_html: "What We're Working On<br><span style='font-style: italic; font-size: 0.625em;'> Accessibility Activities and Publications, November and December 2026</span>"
 lang: en
-last_updated: 2026-11-03 # REMEMBER to update the HTML title month, too
+last_updated: 2026-11-04 # REMEMBER to update the HTML title month, too
 first_published: "March 2022"
 description: Find out what we're doing now at the W3C Web Accessibility Initiative (WAI). Get news and learn about upcoming publications and opportunities to contribute.
 
@@ -112,7 +112,7 @@ Recent publications and other announcements are listed on the **[News page](/new
 
 ### Get Updated
 
-To get news via email, LinkedIn, Mastodon, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Subscribe to WAI News]](/news/subscribe/)**.
+To get news via email, LinkedIn, or Atom/RSS feed when these and other accessibility documents are _ready for review_ or _published as final_, see **[[Subscribe to WAI News]](/news/subscribe/)**.
 
 ## Wait, Wait, There's More
 
@@ -197,10 +197,11 @@ W3C greatly appreciates the support WAI receives from contributors committed to 
 
 {% include_cached excol.html type="middle" %}
 
-* 3 November 2026
+* 4 November 2026
   * To the [Updating Core Guidelines and Other Standards](/update/#updating-core-guidelines-and-other-standards) section, updated wording on W3C Accessibility Guidelines (WCAG) 3 and added link for ATAG
   * To the [Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility](#updating-guidance-on-applying-wcag-to-ict-and-on-epub-accessibility) section, updated WCAG2ICT wording to include "and are working on Level AAA success criteria"
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
+  * To the [How to Get Involved](/update/#how-to-get-involved/) section, updated languages for which we are looking for reviewers.
 * 28 August 2026
   * Added [Support WAI](/update/#support) section
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
