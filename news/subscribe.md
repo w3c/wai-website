@@ -25,6 +25,7 @@ Follow WAI to get news from us on:
 
 - [W3C-WAI on LinkedIn {% include_cached external.html %}](https://www.linkedin.com/company/w3c-wai/)
 - [W3C WAI on YouTube {% include_cached external.html %}](https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA)
+
 <!-- - [W3C_WAI on Mastodon {% include_cached external.html %}](https://w3c.social/@wai) -->
 
 (We are no longer using Twitter/X)
