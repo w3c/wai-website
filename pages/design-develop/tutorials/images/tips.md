@@ -26,7 +26,7 @@ support: Developed by the Education and Outreach Working Group (<a href="https:/
 ---
 
 - **Choosing appropriate text alternatives:** <br>
-  Imagine that you’re reading the web page aloud over the phone to someone who needs to understand the page. This should help you decide what (if any) information or function the images have. If they appear to have no informative value and aren’t links or buttons, it’s probably safe to treat them as [decorative](/tutorials/images/decorative/).
+  Imagine that you’re reading the web page aloud over the phone to someone who needs to understand the page. This should help you decide what (if any) information or function the images have. If they appear to have no informative value and aren’t links or buttons, it’s probably safe to treat them as [pure decoration](/tutorials/images/pure-decoration/).
 
 - **Prioritize information in text alternative:** <br>
   Aim to put the most important information at the beginning.

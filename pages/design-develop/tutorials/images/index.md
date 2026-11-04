@@ -37,7 +37,7 @@ Images must have text alternatives that describe the information or function rep
 
 -   **[Informative images](/tutorials/images/informative/)**: Images that graphically represent concepts and information, typically pictures, photos, and illustrations. The text alternative should be at least a short description conveying the essential information presented by the image.
 
--   **[Decorative images](/tutorials/images/decorative/)**: Provide a null text alternative (`alt=""`) when the only purpose of an image is to add visual decoration to the page, rather than to convey information that is important to understanding the page.
+-   **[Images for pure decoration](/tutorials/images/pure-decoration/)**: Provide an empty `alt` attribute (`alt=""`) when the sole purpose of an image is to add visual decoration to the page, rather than to convey information.
 
 -   **[Functional images](/tutorials/images/functional/)**: The text alternative of an image used as a link or as a button should describe the functionality of the link or button rather than the visual image. Examples of such images are a printer icon to represent the print function or a button to submit a form.
 
