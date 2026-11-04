@@ -54,7 +54,7 @@ _After you read this page_, if you have any questions about getting involved wit
 
 Draft documents for review are listed on the WAI home page and [News page](https://www.w3.org/WAI/news/).
 
-You can subscribe to get announcements via e-mail, Atom/RSS feed, or Twitter from [Get WAI News](https://www.w3.org/WAI/news/subscribe/).
+You can subscribe to get announcements via e-mail, Atom/RSS feed, or LinkedIn from [Get WAI News](/news/subscribe/).
 
 ## Participating in Guidelines and Groups
 
