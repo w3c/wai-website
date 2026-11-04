@@ -13591,6 +13591,438 @@
           "earl:TestSubject",
           "sch:WebPage"
         ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/2c4e13b6606b88bbe10bfffbe4b6f4e6d373c4a7.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/dd651de8f984bc2bc5d791eceedf16e70cca0cdc.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/1b172036f8e219ef9b6f591d7f5df26e4ba11327.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/c3ed1c920db04a7b13d043fae5766694cf50d561.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/4147da2dd50e2326a7985207296cfcd0ba57a1ee.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/8bd420282f8209ce236004c61bc4bbd728afceb7.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/0f4a37cd30bd688d1a8ebbb915b2c70a4bf0272c.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/dcb42362e4cd8108444dd64c8538ef0523de0aa7.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/a2525d7f2db0db246df0a702416606c56085a17a.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/f6b0a52f8bb37ab0a8b290237add5be669a28b2f.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/fd273c99d6129f0972ffdbe529b2b1cfa1116cf0.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/84c10ba8bc5570e900a60a2e29b319e68fc093da.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/52ac3fd2be278ede2bb32987a32673c6d5ee5edb.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/90927d72c81e9a9b27034a1a99adbab46c86e196.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/511c1b1647549d8af305f68253dda6d4161bd9bc.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/852f57fb1f11a0a58d288746c14d52ce8f8dd97a.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/fac8b25d43d0bbea83f5fe8c5fddf1b3566ac1fb.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
+        "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/8fc3b6/25b2c00b86322f15c0cbb376b58b342fff916f62.html"
+      },
+      "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
+      "result": {
+        "@type": "TestResult",
+        "outcome": "earl:inapplicable"
+      },
+      "test": {
+        "@type": "TestCase",
+        "title": "object-alt",
+        "@id": "https://dequeuniversity.com/rules/axe/4.14/object-alt?application=axeAPI",
+        "isPartOf": [
+          "WCAG2:non-text-content"
+        ]
+      }
+    },
+    {
+      "@type": "Assertion",
+      "mode": "earl:automatic",
+      "subject": {
+        "@type": [
+          "earl:TestSubject",
+          "sch:WebPage"
+        ],
         "source": "https://wai-wcag-act-rules.netlify.app/content-assets/wcag-act-rules/testcases/b5c3f8/0fac26928e2bf6b7db6c7f46a1e0ab50aaa8a7c1.html"
       },
       "assertedBy": "https://github.com/dequelabs/axe-core/releases/tag/4.14.0",
