@@ -201,7 +201,7 @@ W3C greatly appreciates the support WAI receives from contributors committed to 
   * To the [Updating Core Guidelines and Other Standards](/update/#updating-core-guidelines-and-other-standards) section, updated wording on W3C Accessibility Guidelines (WCAG) 3 and added link for ATAG
   * To the [Updating Guidance on Applying WCAG to ICT and on EPUB Accessibility](#updating-guidance-on-applying-wcag-to-ict-and-on-epub-accessibility) section, updated WCAG2ICT wording to include "and are working on Level AAA success criteria"
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
-  * To the [How to Get Involved](/update/#how-to-get-involved/) section, updated languages for which we are looking for reviewers.
+  * To the [How to Get Involved](/update/#how-to-get-involved/) section, updated languages for which we are looking for reviewers
 * 28 August 2026
   * Added [Support WAI](/update/#support) section
   * Updated the [Upcoming Publications list](/update/#upcoming-publications)
