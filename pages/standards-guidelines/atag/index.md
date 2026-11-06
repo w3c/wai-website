@@ -30,7 +30,8 @@ feedbackmail: wai@w3.org
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: |
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
-  <!-- <p>Developed with input from the Authoring Tool Accessibility Working Group (<a href="https://www.w3.org/WAI/AU/">AUWG</a>).</p> -->
+  <p>Developed with input from the Authoring Tool Accessibility Guidelines Community Group (<a href="https://www.w3.org/groups/cg/atag/">ATAG CG</a>).</p>
+  <!-- <p>Developed with input from the Authoring Tool Accessibility Working Group (<a x(href="https://www.w3.org/WAI/AU/">AUWG</a>).</p> -->
 ---
 
 {::nomarkdown}
