@@ -38,11 +38,7 @@ footer: |
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Authoring Tool Accessibility Guidelines (ATAG) is the standard for accessibility support of content management systems (CMS), social media, and other authoring tools.
-
-Please share this page as the starting point for official information about ATAG now and in the future.\
-Short link: w3.org/WAI/atag/
-<!-- TODO: Create shortlink -->
+ATAG is the standard for accessibility support of content management systems (CMS), social media, and other web authoring tools.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -61,20 +57,16 @@ Short link: w3.org/WAI/atag/
 {% include_cached toc.html type="end" %}
 {:/}
 
-{::nomarkdown}
-{% include box.html type="start" title="Blog November 2026" icon="default" %}
-{:/}
 
-For background on how authoring tools can help make vast amounts of web content more accessible with less effort, see the blog post by Shawn Lawton Henry, Director of W3C Web Accessibility Initiative (WAI):
+## Background
+
+For background on how authoring tools can help make vast amounts of web content more accessible with less effort, see the blog post:
 [The multiplier effect: How authoring tools can transform web accessibility](https://www.w3.org/blog/2026/@@).
 
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
 
+## What are authoring tools {#who-atag-is-for}
 
-## What are authoring tools {#who-atag-is-for} <!-- leave this anchor because we have lots of pointers to it for the list of tools -->
-
+<!-- leave the {#who-atag-is-for} anchor because we have lots of pointers to it for the list of authoring tools -->
 
 Authoring tools are software and services that "authors" (developers, designers, writers) use to produce web content (web pages, web applications, social media, and more). There are many different types of authoring tools, including:
 
@@ -163,6 +155,6 @@ In 2026, the ATAG Community Group (CG) and Accessibility Standards Canada (ASC) 
 
 Anyone is welcome to join the [ATAG Community Group](https://www.w3.org/community/atag/).
 
-For more information on contributing to WAI work, see [[Participating in WAI]](/about/participating/).
+<!-- For more information on contributing to WAI work, see [[Participating in WAI]](/about/participating/). -->
 
 To get notification when ATAG drafts are available for review, [subscribe to get WAI news](https://www.w3.org/WAI/news/subscribe/).
