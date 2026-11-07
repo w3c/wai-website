@@ -11,7 +11,7 @@ translation:
   last_updated: 2026-11-07  # تاریخ پایان این ترجمه (YYYY-MM-DD)
 
 translators:
-  - name: "نام مترجم"   # جای‌گزین شود با نام و نام خانوادگی مترجم
+  - name: "حسین صداقت"
 # contributors:
 #   - name: "نام همکار"   # در صورت وجود
 
