@@ -7,7 +7,6 @@ nav_title: "ATAG Overview"
 lang: en  # Change "en" to the translated-language shortcode
 last_updated: 2026-11-09   # Keep the date of the English version
 first_published: "July 2005"
-doc-note-type: draft
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
