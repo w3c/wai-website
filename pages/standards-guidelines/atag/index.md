@@ -125,7 +125,7 @@ ATAG 2.0 refers to WCAG 2.0 because it was the current version at the time of pu
 : Provides a short summary of the accessibility principles and guidelines in ATAG.
 
 [**ATAG 2.0**](https://www.w3.org/TR/ATAG20/) 
-: Provides a global standard (called a "W3C Reccommendationn").@@spell
+: Provides a global standard (called a "[W3C Recommendation](https://www.w3.org/standards/types/#x5-1-recommendation)").
 
 [**Implementing ATAG 2.0**](https://www.w3.org/TR/IMPLEMENTING-ATAG20/) 
 : Helps readers understand and use ATAG. This informative document provides the rationale for each guideline. For each success criterion, it provides explanation of the intent of the success criteria, examples, and links to resources.
@@ -150,7 +150,7 @@ ATAG 2.0 is available as an Authorized W3C Translation in Simplified Chinese: [æ
 
 ATAG was developed by the Authoring Tool Accessibility Guidelines Working Group (ATAG WG) as part of the World Wide Web Consortium ([W3C](https://www.w3.org/)) Web Accessibility Initiative ([WAI](https://www.w3.org/WAI/)).
 
-In 2026, the ATAG Community Group (CG) and Accessibility Standards Canada (ASC) explored updating ATAG at W3C. In November 2026, W3C staff proposed a new charter for the ATAG Working Group to update ATAG as a joint W3C ASC standard.
+In 2026, the ATAG Community Group (CG) and Accessibility Standards Canada (ASC) explored updating ATAG at W3C. In November 2026, W3C staff proposed a new charter for the ATAG Working Group to update ATAG as a joint W3Câ€“ASC standard.
 
 Anyone is welcome to join the [ATAG Community Group](https://www.w3.org/community/atag/).
 
