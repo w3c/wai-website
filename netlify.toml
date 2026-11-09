@@ -14,7 +14,7 @@ command = "git submodule update --init --remote && npm install && bundle update 
 publish = "_site"
 
 [build.environment]
-RUBY_VERSION = "3.4.8"
+RUBY_VERSION = "3.4.12"
 
 [[redirects]]
 from = "/wai-website"
