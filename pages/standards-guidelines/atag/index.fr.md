@@ -10,6 +10,7 @@ first_published: "Juillet 2005"
 
 translation:
     last_updated: 2025-11-18   # Keep the date of the English version
+    outdated: true
 
 translators:
   - name: "Sofia Ahmed"
