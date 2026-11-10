@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1793800641907723896";
+      element.src = "/WAI/assets/scripts/main.js?1794327276352040145";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1793800641907723896"><title> Authoring Tool Accessibility Guidelines (ATAG) Overview | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1794327276352040145"><title> Authoring Tool Accessibility Guidelines (ATAG) Overview | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Authoring Tool Accessibility Guidelines (ATAG) Overview" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -156,15 +156,7 @@
       <h1>Authoring Tool Accessibility Guidelines (ATAG) Overview</h1>
     </header><aside class="box box-full"><header class="box-h  box-h-full"> <h2> Summary </h2></header><div class="box-i">
 
-<p>This page introduces the Authoring Tool Accessibility Guidelines (ATAG) web standard.</p>
-
-<p>Quick links to resources:</p>
-<ul>
-  <li><a href="/WAI/standards-guidelines/atag/glance/">ATAG at a Glance</a></li>
-  <li><a href="https://www.w3.org/TR/ATAG20/">ATAG 2.0 Standard</a></li>
-  <li><a href="https://www.w3.org/TR/IMPLEMENTING-ATAG20/">Implementing ATAG 2.0</a></li>
-  <li><a href="https://www.w3.org/WAI/atag/report-tool/">ATAG Report Tool</a></li>
-</ul>
+<p>ATAG is the standard for accessibility support of content management systems (CMS), social media, and other web authoring tools.</p>
 
 </div></aside>
 
@@ -178,12 +170,18 @@
 
 
 <ul id="markdown-toc">
-  <li><a href="#authoring-tools-and-atag" id="markdown-toc-authoring-tools-and-atag">Authoring Tools and ATAG</a></li>
+  <li><a href="#background" id="markdown-toc-background">Background</a></li>
+  <li><a href="#who-atag-is-for" id="markdown-toc-who-atag-is-for">What are authoring tools</a></li>
+  <li><a href="#what-is-atag" id="markdown-toc-what-is-atag">What is ATAG</a></li>
   <li><a href="#who-atag-is-for" id="markdown-toc-who-atag-is-for">Who ATAG is for</a></li>
-  <li><a href="#what-is-in-atag" id="markdown-toc-what-is-in-atag">What is in ATAG</a></li>
-  <li><a href="#atag-resources" id="markdown-toc-atag-resources">ATAG resources</a></li>
+  <li><a href="#what-is-in-atag" id="markdown-toc-what-is-in-atag">What is in ATAG</a>    <ul>
+      <li><a href="#structure" id="markdown-toc-structure">Structure</a></li>
+      <li><a href="#how-atag-2-is-related-to-wcag-2" id="markdown-toc-how-atag-2-is-related-to-wcag-2">How ATAG 2 is related to WCAG 2</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-atag-documents" id="markdown-toc-the-atag-documents">The ATAG documents</a></li>
   <li><a href="#translations" id="markdown-toc-translations">Translations</a></li>
-  <li><a href="#who-developed-atag" id="markdown-toc-who-developed-atag">Who developed ATAG</a></li>
+  <li><a href="#who-develops-atag" id="markdown-toc-who-develops-atag">Who develops ATAG</a></li>
 </ul>
 
 
@@ -193,24 +191,16 @@
 
 
 
-<h2 id="authoring-tools-and-atag">Authoring Tools and ATAG</h2>
+<h2 id="background">Background</h2>
 
-<p>Authoring tools are software and services that “authors” (web developers, designers, writers, etc.) use to produce web content (static web pages, dynamic web applications, etc.). Examples of authoring tools are listed below under “<a href="#who-atag-is-for">Who ATAG is for</a>”.</p>
+<p>For background on how authoring tools can help make vast amounts of web content more accessible with less effort, see the blog post:
+<a href="https://www.w3.org/blog/2026/the-multiplier-effect-how-authoring-tools-can-transform-web-accessibility/">The multiplier effect: How authoring tools can transform web accessibility</a>.</p>
 
-<p>Authoring Tool Accessibility Guidelines (ATAG) explains how to:</p>
+<h2 id="who-atag-is-for">What are authoring tools</h2>
 
-<ul>
-  <li>make the authoring tools themselves accessible, so that people with disabilities can create web content, <strong><em>and</em></strong></li>
-  <li>help authors create more accessible web content — specifically: enable, support, and promote the production of content that conforms to Web Content Accessibility Guidelines (<a href="/WAI/standards-guidelines/wcag/">WCAG</a>).</li>
-</ul>
+<!-- leave the {#who-atag-is-for} anchor because we have lots of pointers to it for the list of authoring tools -->
 
-<p>ATAG is part of a series of accessibility guidelines, including Web Content Accessibility Guidelines (WCAG) and User Agent Accessibility Guidelines (UAAG). <a href="/WAI/fundamentals/components/">Essential Components of Web Accessibility</a> explains the relationship between the different guidelines.</p>
-
-<p>ATAG is relevant today, as it is technology agnostic. ATAG was published in 2015 and references WCAG 2.0. We encourage you to use the latest version of <a href="https://www.w3.org/TR/WCAG2/">WCAG 2</a>.</p>
-
-<h2 id="who-atag-is-for">Who ATAG is for</h2>
-
-<p>ATAG is primarily for developers of authoring tools, including the following types of authoring tools:</p>
+<p>Authoring tools are software and services that “authors” (developers, designers, writers) use to produce web content (web pages, web applications, social media, and more). There are many different types of authoring tools, including:</p>
 
 <ul>
   <li>web page authoring tools, for example, what-you-see-is-what-you-get (WYSIWYG) HTML editors</li>
@@ -221,6 +211,18 @@
   <li>other types of tools listed in the glossary definition of <a href="https://www.w3.org/TR/ATAG20/#def-Authoring-Tool">authoring tools</a></li>
 </ul>
 
+<h2 id="what-is-atag">What is ATAG</h2>
+
+<p>Authoring Tools Accessibility Guidelines (ATAG) is a global web standard. <a href="https://www.w3.org/TR/ATAG20/">ATAG 2.0</a> explains how to:</p>
+<ul>
+  <li>make authoring tools accessible, so that people with disabilities can create web content, <strong><em>and</em></strong></li>
+  <li>help authors create more accessible web content — specifically: enable, support, and promote the production of content that conforms to Web Content Accessibility Guidelines (WCAG).</li>
+</ul>
+
+<h2 id="who-atag-is-for">Who ATAG is for</h2>
+
+<p>ATAG is primarily for authoring tool developers.</p>
+
 <p>ATAG and supporting resources are also intended to meet the needs of many different audiences, including policy makers, managers, and others. For example:</p>
 
 <ul>
@@ -230,52 +232,73 @@
 
 <h2 id="what-is-in-atag">What is in ATAG</h2>
 
-<p><strong>ATAG</strong> has two main parts:</p>
+<h3 id="structure">Structure</h3>
 
+<p>ATAG has two main parts:</p>
 <ul>
   <li>Part A is about making the authoring tool itself accessible.</li>
   <li>Part B is about the authoring tool helping authors produce accessible content.</li>
 </ul>
 
-<p><a href="/WAI/standards-guidelines/atag/glance/">ATAG at a Glance</a> provides a short summary of the accessibility principles and guidelines in ATAG.</p>
-
-<p><strong>ATAG</strong> is organized in layers:</p>
-
+<p>ATAG is organized in layers:</p>
 <ul>
   <li><strong>Principles</strong> provide high-level organization for the guidelines.</li>
   <li><strong>Guidelines</strong> provide the framework and objectives for the success criteria.</li>
-  <li><strong>Success criteria are the accessibility requirements</strong>, which are written as testable statements, at <a href="https://www.w3.org/TR/ATAG20/#intro_understand_levels_conformance">three levels</a>: A, AA, AAA.</li>
+  <li><strong>Success criteria are the accessibility requirements</strong>, which are written as testable statements, at three levels: A, AA, AAA.</li>
 </ul>
 
-<p><a href="https://www.w3.org/TR/ATAG20/"><strong>ATAG 2.0</strong></a> is a <em>W3C Recommendation</em>, which is a technical standard.</p>
+<p><a href="/WAI/standards-guidelines/atag/glance/">ATAG at a Glance</a> provides a short summary of the accessibility principles and guidelines in ATAG.</p>
 
-<p><a href="https://www.w3.org/TR/IMPLEMENTING-ATAG20/"><strong>Implementing ATAG 2.0</strong></a> is a supporting informative document that helps readers understand and use ATAG. Implementing ATAG provides the rationale for each guideline. For each success criterion, it provides explanation of the intent of the success criteria, examples, and links to resources.</p>
+<h3 id="how-atag-2-is-related-to-wcag-2">How ATAG 2 is related to WCAG 2</h3>
 
-<h2 id="atag-resources">ATAG resources</h2>
+<p>ATAG is part of a series of accessibility guidelines, including Web Content Accessibility Guidelines (<a href="/WAI/standards-guidelines/wcag/">WCAG</a>) and User Agent Accessibility Guidelines (<a href="/WAI/standards-guidelines/uaag/">UAAG</a>). <a href="/WAI/fundamentals/components/">Essential Components of Web Accessibility</a> explains the relationship between the different guidelines.</p>
 
+<p>ATAG includes references to WCAG when setting requirements for:</p>
 <ul>
-  <li>The <a href="https://www.w3.org/WAI/atag/report-tool/"><strong>ATAG Report Tool</strong></a> helps evaluators report on the accessibility of authoring tools. It guides you through the ATAG requirements, lets you record your evaluation results for each requirement, and generates a report of the authoring tool’s ATAG conformance.</li>
-  <li>The <a href="https://www.w3.org/WAI/tools-list/authoring/"><strong>Authoring Tools List</strong></a> provides information on accessibility support in content management systems (CMS), learning management systems (LMS), web page editors, and other authoring tools.</li>
-  <li>Resources that introduce accessibility issues and how ATAG applies to specific types of tools:
+  <li>the accessibility of web-based authoring tool user interfaces</li>
+  <li>how tools should support authors toward producting accessible content.</li>
+</ul>
+
+<p>ATAG 2.0 refers to WCAG 2.0 because it was the current version at the time of publishing. Today, <strong>we encourage you to use the latest version of <a href="/WAI/standards-guidelines/wcag/">WCAG 2</a></strong>.</p>
+
+<h2 id="the-atag-documents">The ATAG documents</h2>
+
+<dl>
+  <dt><a href="/WAI/standards-guidelines/atag/glance/"><strong>ATAG at a Glance</strong></a></dt>
+  <dd>Provides a short summary of the accessibility principles and guidelines in ATAG.</dd>
+  <dt><a href="https://www.w3.org/TR/ATAG20/"><strong>ATAG 2.0</strong></a></dt>
+  <dd>Provides a global standard (called a “<a href="https://www.w3.org/standards/types/#x5-1-recommendation">W3C Recommendation</a>”).</dd>
+  <dt><a href="https://www.w3.org/TR/IMPLEMENTING-ATAG20/"><strong>Implementing ATAG 2.0</strong></a></dt>
+  <dd>Helps readers understand and use ATAG. This informative document provides the rationale for each guideline. For each success criterion, it provides explanation of the intent of the success criteria, examples, and links to resources.</dd>
+  <dt><a href="https://www.w3.org/WAI/atag/report-tool/"><strong>ATAG Report Tool</strong></a></dt>
+  <dd>Helps evaluators report on the accessibility of authoring tools. It guides you through the ATAG requirements, lets you record your evaluation results for each requirement, and generates a report of the authoring tool’s ATAG conformance.</dd>
+  <dt><a href="https://www.w3.org/WAI/tools-list/authoring/"><strong>Authoring Tools List</strong></a></dt>
+  <dd>Provides information on accessibility support in content management systems (CMS), learning management systems (LMS), web page editors, and other authoring tools.</dd>
+  <dt><strong>Promotional material</strong></dt>
+  <dd>Encourages authoring tools to meet ATAG. The following resources introduce accessibility issues and how ATAG applies to specific types of tools. Note that these address just a few of the many types of tools listed above.
     <ul>
       <li><a href="/WAI/standards-guidelines/atag/education/">Standards to Make Your LMS Accessible</a></li>
       <li><a href="/WAI/standards-guidelines/atag/no-code/">Guidelines to Make Your No-Code Website Tool Accessible</a></li>
       <li><a href="/WAI/standards-guidelines/atag/social-media/">Guidelines to Make Your Social Media Platform Accessible</a></li>
     </ul>
-  </li>
-</ul>
+  </dd>
+</dl>
 
 <h2 id="translations">Translations</h2>
 
-<p>ATAG 2.0 is available as an Authorized W3C Translation in Chinese, Simplified: <a href="https://www.w3.org/Translations/ATAG20-zh/">无障碍创作工具指南(ATAG) 2.0</a>.</p>
+<p>ATAG 2.0 is available as an Authorized W3C Translation in Simplified Chinese: <a href="https://www.w3.org/Translations/ATAG20-zh/">无障碍创作工具指南(ATAG) 2.0</a>.</p>
 
-<h2 id="who-developed-atag">Who developed ATAG</h2>
+<h2 id="who-develops-atag">Who develops ATAG</h2>
 
-<p>Updating ATAG is being explored in the <a href="https://www.w3.org/community/atag/">Authoring Tools Accessibility Guidelines (ATAG) Community Group (CG)</a>.</p>
+<p>ATAG was developed by the Authoring Tool Accessibility Guidelines Working Group (ATAG WG) as part of the World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a>) Web Accessibility Initiative (<a href="https://www.w3.org/WAI/">WAI</a>).</p>
 
-<p>ATAG was developed by the Authoring Tool Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/AU/">ATAG WG</a>) as part of the World Wide Web Consortium (<a href="https://www.w3.org/">W3C</a>) Web Accessibility Initiative (<a href="https://www.w3.org/WAI/">WAI</a>).</p>
+<p>In 2026, the ATAG Community Group (CG) and Accessibility Standards Canada (ASC) explored updating ATAG at W3C. In November 2026, W3C staff proposed a new charter for the ATAG Working Group to update ATAG as a joint W3C–ASC standard.</p>
 
-<p>Opportunities for contributing to WAI work is explained in <a href="/WAI/about/participating/">Participate in WAI</a>.</p>
+<p>Anyone is welcome to join the <a href="https://www.w3.org/community/atag/">ATAG Community Group</a>.</p>
+
+<!-- For more information on contributing to WAI work, see [Participate in WAI](/WAI/about/participating/). -->
+
+<p>To get notification when ATAG drafts are available for review, <a href="https://www.w3.org/WAI/news/subscribe/">subscribe to get WAI news</a>.</p>
 
 
     <aside class="box box-icon box-space-above" id="helpimprove" aria-label="feedback"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.">wai@w3.org</a> or via GitHub.</p>
@@ -291,9 +314,10 @@ https://github.com/w3c/wai-website/edit/main/pages/standards-guidelines/atag/ind
 
 
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
-    <div class="inner"><p><strong>Updated:</strong> 14 November 2025.<br />
+    <div class="inner"><p><strong>Updated:</strong>  9 November 2026.<br />
           First published July 2005.</p><p><strong>Editor:</strong> <a href="https://www.w3.org/People/shawn">Shawn Lawton Henry</a>.</p>
-<!-- <p>Developed with input from the Authoring Tool Accessibility Working Group (<a href="https://www.w3.org/WAI/AU/">AUWG</a>).</p> -->
+<p>Updated with input from the Authoring Tool Accessibility Guidelines Community Group (<a href="https://www.w3.org/groups/cg/atag/">ATAG CG</a>).</p>
+<!-- <p>Developed with input from the Authoring Tool Accessibility Working Group (<a x(href="https://www.w3.org/WAI/AU/">AUWG</a>).</p> -->
 </div>
   </footer>
   <footer class="w3c-global-footer wai-global-footer default-grid" aria-label="Site">
@@ -344,9 +368,9 @@ https://github.com/w3c/wai-website/edit/main/pages/standards-guidelines/atag/ind
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1793800641907723896"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1794327276352040145"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1793800641907723896"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1794327276352040145"></script>
 <script>
   svg4everybody();
 </script><script>
