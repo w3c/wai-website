@@ -60,7 +60,7 @@ ATAG is the standard for accessibility support of content management systems (CM
 ## Background
 
 For background on how authoring tools can help make vast amounts of web content more accessible with less effort, see the blog post:
-[The multiplier effect: How authoring tools can transform web accessibility](https://www.w3.org/blog/2026/@@).
+[The multiplier effect: How authoring tools can transform web accessibility](https://www.w3.org/blog/2026/the-multiplier-effect-how-authoring-tools-can-transform-web-accessibility/).
 
 
 ## What are authoring tools {#who-atag-is-for}
