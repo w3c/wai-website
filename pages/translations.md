@@ -87,6 +87,13 @@ other_resources:
             org: "HAN University"
           - name: "Hidde de Vries"
             org: "W3C WAI"
+          - name: "Jeroen Hulscher"
+            org: "Logius"
+        contributors:
+          - name: "Hidde de Vries"
+            org: "Logius"
+          - name: "Jan Jaap de Groot"
+            org: "Abra"
   - lang: "pl"
     docs:
       - title: "Generator raportów WCAG-EM"
