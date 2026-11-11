@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2026-11-10/atag-blog/",
+            "title": "The multiplier effect: How authoring tools can transform web accessibility",
+            "summary": null,
+            "content_text": "In the W3C blog post The multiplier effect: How authoring tools can transform web accessibility, W3C WAI Director Shawn Lawton Henry covers how authoring tools can help make vast amounts of content more accessible with less effort.",
+            "content_html": "<p>In the W3C blog post <a href=\"https://www.w3.org/blog/2026/the-multiplier-effect-how-authoring-tools-can-transform-web-accessibility/\">The multiplier effect: How authoring tools can transform web accessibility</a>, W3C WAI Director Shawn Lawton Henry covers how authoring tools can help make vast amounts of content more accessible with less effort.</p>",
+            "url": "https://www.w3.org/WAI/news/2026-11-10/atag-blog/",
+            
+            
+            
+            
+            
+            "date_published": "2026-11-10T00:00:00+00:00",
+            "date_modified": "2026-11-10T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2026-09-25/wcag3-blog/",
             "title": "Crafting WCAG 3 for more accessible user experiences",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2023-12-05T00:00:00+00:00",
             "date_modified": "2023-12-05T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2023-10-31/symposium-3/",
-            "title": "Invitation: Evaluating Accessibility Symposium, Online, 16 November 2023",
-            "summary": null,
-            "content_text": "You are invited to the symposium Evaluating Accessibility: Meeting Key Challenges, online 16 November 2023. Participation is free and registration is required by 13 November 2023. We encourage participation from researchers, academics, industry, government, and people with disabilities. Join us to explore practices and challenges monitoring and evaluating digital accessibility. The symposium will focus on: digital accessibility training, mobile accessibility, and artificial intelligence (AI). The link to register, the agenda, and more is in the symposium page.",
-            "content_html": "<p>You are invited to the symposium <a href=\"https://www.w3.org/WAI/about/projects/wai-coop/symposium3/\">Evaluating Accessibility: Meeting Key Challenges, online 16 November 2023</a>. Participation is free and registration is required by 13 November 2023. We encourage participation from researchers, academics, industry, government, and people with disabilities. Join us to explore practices and challenges monitoring and evaluating digital accessibility. The symposium will focus on: digital accessibility training, mobile accessibility, and artificial intelligence (AI). The link to register, the agenda, and more is in the <a href=\"https://www.w3.org/WAI/about/projects/wai-coop/symposium3/\">symposium page</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2023-10-31/symposium-3/",
-            
-            
-            
-            
-            
-            "date_published": "2023-10-31T00:00:00+00:00",
-            "date_modified": "2023-10-31T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
