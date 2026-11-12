@@ -9,7 +9,7 @@
         "@type": "Software",
         "title": "Total Validator CI (+Browser)",
         "description": "Total Validator checks websites are accessible, use valid HTML and CSS, have no broken links, and are free from spelling mistakes.",
-        "hasVersion": "18.6.0 (+6.3)",
+        "hasVersion": "19.1.0 (+6.3)",
         "homepage": "https://www.totalvalidator.com"
       },
       "assertions": [
@@ -15859,12 +15859,40 @@
     },
     {
       "@type": "TestSubject",
-      "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/674b10/351e4bd097e4e1217d64a6c32ae09987c8d4db4a.html",
+      "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/674b10/bd56be0bc987f29ac92355ed781fe06ae8e57176.html",
       "assertions": [
         {
           "@type": "Assertion",
           "test": {
             "title": "E9651",
+            "isPartOf": ["WCAG2:info-and-relationships", "WCAG2:name-role-value"]
+           },
+          "result": { "outcome": "earl:passed" }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/4e8ab6/8122ef64b86fcd30dadeea664029af028382d1b4.html",
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "E957",
+            "isPartOf": ["WCAG2:info-and-relationships", "WCAG2:name-role-value"]
+           },
+          "result": { "outcome": "earl:passed" }
+        }
+      ]
+    },
+    {
+      "@type": "TestSubject",
+      "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/4e8ab6/cde160492f9d0a309b4f8624e51d3380b318b046.html",
+      "assertions": [
+        {
+          "@type": "Assertion",
+          "test": {
+            "title": "E957",
             "isPartOf": ["WCAG2:info-and-relationships", "WCAG2:name-role-value"]
            },
           "result": { "outcome": "earl:passed" }
@@ -15887,7 +15915,7 @@
     },
     {
       "@type": "TestSubject",
-      "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0ssw9k/c5f649f91ebe4979270972db7c42279a74efc6c5.html",
+      "source": "https://www.w3.org/WAI/content-assets/wcag-act-rules/testcases/0ssw9k/fa27b58829c18976ac66f3874f40c5be712fe64b.html",
       "assertions": [
         {
           "@type": "Assertion",
