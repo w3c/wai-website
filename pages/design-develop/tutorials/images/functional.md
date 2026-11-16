@@ -11,7 +11,7 @@ github:
 resource:
   ref: /tutorials/images/
 navigation:
-  previous: /tutorials/images/decorative/
+  previous: /tutorials/images/pure-decoration/
   next: /tutorials/images/textual/
 
 wcag_techniques:
