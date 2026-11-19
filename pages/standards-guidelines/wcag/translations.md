@@ -231,7 +231,7 @@ For information on WCAG, see the [[Web Content Accessibility Guidelines (WCAG) O
 
 For other translations lists, see:
 * **[All WAI Translations](https://www.w3.org/WAI/translations/)** for translations of other accessibility resources
-* **[Translations of Current W3C Technical Reports](https://www.w3.org/Translations/)**
+* **[Translations of W3C standards and notes](https://www.w3.org/standards/translations/)**
 
 ### About Translating
 

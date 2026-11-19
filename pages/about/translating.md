@@ -97,7 +97,7 @@ To avoid overlapping work:
 
 All translations are reviewed before they are published.
 - WAI resources translations are reviewed by other volunteers and WAI staff. Once reviewed, they are published on the W3C WAI website.
-- WCAG Candidate Authorized Translations (CAT) follow a formal review process described in the [Policy for Authorized W3C Translations](https://www.w3.org/2005/02/TranslationPolicy.html). Once reviewed, they are published on the W3C website.
+- WCAG Candidate Authorized Translations (CAT) follow a formal review process described in the [Policy for Authorized W3C Translations](https://www.w3.org/policies/authorized-translations/). Once reviewed, they are published on the W3C website.
 - WCAG Unofficial translations follow a simpler review process.
 
 ## Additional information
@@ -151,7 +151,7 @@ There is also a broader W3C Translators list. To subscribe: email [w3c-translato
 
 Web pages at URIs that begin with www.w3.org/TR/ (for "Technical Report") follow the process described in [W3C Translations](https://www.w3.org/Consortium/Translation/).
 
-Most translations are informative and unofficial. In cases where standards translations are meant for official purposes, they may be developed as Authorized W3C Translations according to the **[Policy for Authorized W3C Translations](https://www.w3.org/2005/02/TranslationPolicy.html)**. Generally only completed W3C Recommendations and Working Group Notes are candidates for Authorized W3C Translations, including the WAI guidelines. The authorized translations policy is designed to ensure transparency and community accountability in the development of authorized translations under the oversight of W3C.
+Most translations are informative and unofficial. In cases where standards translations are meant for official purposes, they may be developed as Authorized W3C Translations according to the **[Policy for authorized W3C translations](https://www.w3.org/policies/authorized-translations/)**. Generally only completed W3C Recommendations and Working Group Notes are candidates for Authorized W3C Translations, including the WAI guidelines. The authorized translations policy is designed to ensure transparency and community accountability in the development of authorized translations under the oversight of W3C.
 
 * [WCAG 2 Translations](/standards-guidelines/wcag/translations/) lists in-progress and completed translations of Web Content Accessibility Guidelines (WCAG) 2.2, 2.1 and 2.0, including unofficial translations and Authorized W3C Translations. To translate WCAG 2, follow the instructions at [[How to translate WCAG 2]](/about/translating/wcag/).
-* [Authorized Translations of W3C Recommendations](https://www.w3.org/Translations/authorized.html) lists completed Authorized W3C Translations of WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.
+* [Authorized translations of W3C standards and notes](https://www.w3.org/standards/translations/authorized/) lists completed authorized W3C translations of WCAG 2.2, WCAG 2.1, WCAG 2.0, Authoring Tool Accessibility Guidelines (ATAG) 2.0, and others.
