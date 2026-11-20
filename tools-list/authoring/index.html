@@ -11,13 +11,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1794870486199399280";
+      element.src = "/WAI/assets/scripts/main.js?1795174694314075124";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1794870486199399280"><title> Authoring Tools List | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1795174694314075124"><title> Authoring Tools List | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Authoring Tools List" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -592,7 +592,7 @@ h2 {
       <p class="status status-busy" hidden="">Loading tools…</p>
       <p class="status status-failure" hidden="">something went wrong…</p>
     </div>
-      <p>Showing 5 authoring tools</p>
+      <p>Showing 6 authoring tools</p>
       <div class="excol-all"></div>
       <div id="tools-list">
         
@@ -1909,6 +1909,289 @@ partially
 
 
         
+          
+
+
+
+
+<aside class="box box-tool" id="e95f14e0-e2fa-11f1-b4dd-bb80fb1085f8"><header class="box-h  box-h-tool"> <h3> <a href="https://pkp.sfu.ca/ojs">Open Journal Systems (OJS)</a> by Public Knowledge Project (PKP) </h3></header><div class="box-i">
+Open Journal Systems (OJS) is an open-source journal management and publishing platform developed by Public Knowledge Project (PKP). It manages the full editorial workflow: author submissions, peer review, editing, scheduling, and publication. It also publishes journals online.
+OJS is used both as an authoring environment (authors can submit their manuscripts and editors create announcements and editorial communications) and as a publishing platform for readers.
+
+<br /><br />
+
+<dt>License:</dt>
+<dd>
+
+  free
+
+</dd>
+<dt>Accessibility information:</dt>
+<dd>
+
+  <a href="https://pkp.sfu.ca/general-accessibility-statement/" rel="external">https://pkp.sfu.ca/general-accessibility-statement/</a>
+
+</dd>
+
+<details id="details_e95f14e0-e2fa-11f1-b4dd-bb80fb1085f8"><summary>
+              <p>Details</p>
+            </summary>
+  <div>
+
+              <dt>Version</dt>
+              <dd>
+
+  3.5.x
+
+</dd>
+
+              <dt>Release Date</dt>
+              <dd>
+
+  2026-07-01
+
+</dd>
+
+              <p><em>This tool listing was updated on 18 November 2026.</em></p>
+
+              <h4>Authoring tool user interface accessibility</h4>
+
+              <dt>Web-based functionality is accessible</dt>
+              <dd>
+
+partially
+
+<div>Description: OJS is fully web-based. Most core editing, submission, and editorial-workflow screens are keyboard operable, honour browser text scaling and text spacing, and were tested by independent auditors with disabilities using JAWS, NVDA, Narrator, VoiceOver, and braille displays (audit completed March 2026). The tool does not yet fully conform to WCAG 2.2 AA: known gaps include drag-and-drop reordering without a keyboard alternative, rich text editors that are hard for screen readers to use, reflow problems at 200–400% zoom in editorial views, and incomplete form error messages. Each gap is documented per WCAG success criterion (with linked GitHub issues) in our public <a href="https://docs.pkp.sfu.ca/acr-vpat/en/" rel="nofollow">Accessibility Conformance Report</a>. Remediation is underway; fixes are tracked on our public roadmap, and the report is updated as releases ship.</div>
+
+
+</dd>
+
+              <dt>Non web-based functionality is accessible</dt>
+              <dd>
+
+not applicable
+
+
+</dd>
+
+              <dt>Alternative content available to editors</dt>
+              <dd>
+
+partially
+
+<div>Description: Most essential controls and images expose text alternatives, but several gaps remain. Small action icons (edit, delete, view) often lack descriptive labels, forcing reliance on visual cues alone; statistics graphs and charts lack text alternatives, making data points inaccessible to screen reader users; and some logos, and institution (ROR) icons are missing alt text. 
+The dashboard presents many identical "View" links that screen reader users cannot distinguish. Each issue is tracked publicly in our Accessibility Conformance Report with linked GitHub issues; fixes are part of the ongoing remediation cycle.</div>
+
+
+</dd>
+
+              <dt>Editing-view presentation can be programmatically determined</dt>
+              <dd>
+
+partially
+
+<div>Description: Status and save notifications are announced programmatically, but some custom widgets and dynamic components expose state incorrectly to assistive technologies; tracked in our public <a href="https://docs.pkp.sfu.ca/acr-vpat/en/" rel="nofollow">Accessibility Conformance Report</a>.</div>
+
+
+</dd>
+
+              <dt>Works with keyboard</dt>
+              <dd>
+
+partially
+
+<div>Description: All core functions are operable by keyboard, and no keyboard traps were identified. However, some complex interactions are not yet fully keyboard-accessible: reordering by drag-and-drop lacks a keyboard alternative, and rich text editors can trap focus or require undocumented key combinations to exit. 
+</div>
+
+
+</dd>
+
+              <dt>Enough time</dt>
+              <dd>
+
+partially
+
+<div>Description: No time-based limits are enforced on user sessions in the editorial interface. An auto-save timer announces itself in a way testers found distracting; this is tracked for improvement in the Q2 2027 remediation cycle</div>
+
+
+</dd>
+
+              <dt>Flashing content optional</dt>
+              <dd>
+
+not applicable
+
+
+</dd>
+
+              <dt>Content can be navigated by structure</dt>
+              <dd>
+
+partially
+
+<div>Description: Focus order and navigation order generally follow a logical sequence, and multiple ways to reach pages exist (menu, breadcrumbs, dashboard links). But heading hierarchy has known problems: missing or invisible page H1s, duplicate headings, and over-use of H2 on landing pages, and page titles in the editorial dashboard do not change per view. Tracked in the Github issues Accessibility Roadmap to be included in constant release for the LTS version.</div>
+
+
+</dd>
+
+              <dt>Content searchable</dt>
+              <dd>
+
+yes
+
+
+</dd>
+
+              <dt>Supports display preferences</dt>
+              <dd>
+
+not applicable
+
+
+</dd>
+
+              <dt>Previews are accessible</dt>
+              <dd>
+
+partially
+
+<div>Description: Published galleys (HTML, PDF) are previewed/read in the browser. The accessibility of generated galleys depends partly on files uploaded by authors. We will assess and update this answer.</div>
+
+
+</dd>
+
+              <dt>Helps editor prevent and correct mistakes</dt>
+              <dd>
+
+partially
+
+<div>Description: Rich text editors include standard undo/redo for content edits, and destructive workflow actions (declining or deleting a submission) require explicit confirmation before taking effect. However, there is no general undo for workflow actions themselves. 
+Changes like sending a submission to a new review stage, modifying settings, or bulk edits to submissions generally cannot be reversed by the user. 
+Some form flows also lose edits when errors occur. These limitations are noted in our audit and will inform upcoming remediation work.</div>
+
+
+</dd>
+
+              <dt>(Accessibility) features documented</dt>
+              <dd>
+
+yes
+
+
+</dd>
+
+              <h4>Support for producing accessible content</h4>
+
+              <dt>Generates accessible markup</dt>
+              <dd>
+
+partially
+
+<div>Description: OJS generates published article pages, journal homepages, and email communications from the Default Theme. The front end was audited (March 2026) and performs well overall but does not yet fully conform to WCAG 2.2 AA. 
+Accessibility of submitted manuscript files (e.g., author-produced PDFs) remains the responsibility of each author/journal, as documented in PKP's accessibility statement scope.</div>
+
+
+</dd>
+
+              <dt>Preserves accessibility information</dt>
+              <dd>
+
+partially
+
+<div>Description: Preservation is not guaranteed for all accessibility information, e.g. alternative text for embedded images can be lost or become non-descriptive during a copy-and-paste process, and table semantics from the source document are not reliably retained. Authors are advised to review pasted output, but no in-tool warnings flag dropped accessibility information.</div>
+
+
+</dd>
+
+              <dt>Accessible content production is possible</dt>
+              <dd>
+
+partially
+
+<div>Description: Structured metadata fields and rich text formatting with headings/lists make accessible content production possible, but accessibility-relevant options (like image alt text) are not prominently surfaced or prompted; authors can produce accessible content without being guided to it.</div>
+
+
+</dd>
+
+              <dt>Editors guided</dt>
+              <dd>
+
+no
+
+
+</dd>
+
+              <dt>Text alternatives can be managed</dt>
+              <dd>
+
+partially
+
+<div>Description: Alt text and caption fields are available for image uploads and rendered in published output, but there is no mechanism for the dashboard's statistics charts, and providing alternatives is not enforced; tracked in our public Accessibility Conformance Report.</div>
+
+
+</dd>
+
+              <dt>Accessible templates available</dt>
+              <dd>
+
+yes
+
+
+</dd>
+
+              <dt>Accessible components/plug-ins available</dt>
+              <dd>
+
+partially
+
+<div>Description: Core built-in components were independently audited (March 2026; see our Accessibility Conformance Report), but third-party plugins are not evaluated, and the plugin gallery does not indicate accessible options; plugin accessibility varies and relies on plugin developers to comply.</div>
+
+
+</dd>
+
+              <dt>Checks accessibility automatically</dt>
+              <dd>
+
+no
+
+
+</dd>
+
+              <dt>Provides suggestions to content editor about accessibility problems</dt>
+              <dd>
+
+no
+
+
+</dd>
+
+              <dt>Accessibility features prominent</dt>
+              <dd>
+
+partially
+
+<div>Description: Semantic structure, responsive layout, and labelled metadata fields are on by default in the standard theme, but accessibility features are not surfaced or explained in the editing workflow; users must consult documentation to discover them.</div>
+
+
+</dd>
+
+              <dt>Documentation promotes accessibility</dt>
+              <dd>
+
+partially
+
+<div>Description: PKP Docs and the accessibility documentation aim to be accessible; PKP's website statement notes its own web properties are still working toward verified WCAG 2.1 AA conformance end-to-end.</div>
+
+
+</dd>
+
+            </div>
+</details>
+</div></aside>
+
+
+
+        
     </div>
   </div>
 
@@ -2085,7 +2368,7 @@ https://github.com/w3c/wai-authoring-tools-list/edit/main/content/index.md
 
 
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
-    <div class="inner"><p><strong>Updated:</strong> 12 May 2026.</p><p><strong>Previous Editor:</strong> Hidde de Vries. <strong>Contributors:</strong> Steve Lee, Shawn Lawton Henry, Kevin White, and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p> <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide project</a>, co-funded by the European Commission.</p>
+    <div class="inner"><p><strong>Updated:</strong> 18 November 2026.</p><p><strong>Previous Editor:</strong> Hidde de Vries. <strong>Contributors:</strong> Steve Lee, Shawn Lawton Henry, Kevin White, and <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>.</p> <p>Developed by the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/groups/wg/eowg">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide project</a>, co-funded by the European Commission.</p>
 </div>
   </footer>
   <footer class="w3c-global-footer wai-global-footer default-grid" aria-label="Site">
@@ -2136,9 +2419,9 @@ https://github.com/w3c/wai-authoring-tools-list/edit/main/content/index.md
       rules apply unless otherwise noted. See <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1794870486199399280"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1795174694314075124"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1794870486199399280"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1795174694314075124"></script>
 <script>
   svg4everybody();
 </script><script>
