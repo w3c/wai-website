@@ -238,7 +238,7 @@ For other translations lists, see:
 For information on translating W3C documents, see:
 * [[How to Translate WCAG 2]](/about/translating/wcag/) for WCAG 2
 * [Translating WAI Resources](/about/translating/) for accessibility resources
-* [Contributing to W3C Translations](https://www.w3.org/Consortium/Translation/) for W3C Technical Reports
+* [Contributing to W3C Translations](https://www.w3.org/translate/) for W3C Technical Reports
 
 **Note:** If you are interested in translating a specific document, make sure to announce it (as instructed in the links above) to facilitate collaboration, to avoid duplication of effort, to ensure that you have the latest version, and to appropriately address pending updates and errata.
 

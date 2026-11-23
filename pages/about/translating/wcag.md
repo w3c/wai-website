@@ -28,7 +28,7 @@ This page guides you through the technical steps to translate the Web Content Ac
 
 
 For general information on WCAG 2 Translations, see [Contributing to W3C Translations  {% include_cached external.html %}
-](https://www.w3.org/Consortium/Translation/) and [Policy for authorized W3C translations {% include_cached external.html %}](https://www.w3.org/policies/authorized-translations/).
+](https://www.w3.org/translate/) and [Policy for authorized W3C translations {% include_cached external.html %}](https://www.w3.org/policies/authorized-translations/).
 
 
 {::nomarkdown}
