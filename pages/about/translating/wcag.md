@@ -28,7 +28,7 @@ This page guides you through the technical steps to translate the Web Content Ac
 
 
 For general information on WCAG 2 Translations, see [Contributing to W3C Translations  {% include_cached external.html %}
-](https://www.w3.org/Consortium/Translation/) and [Policy for Authorized W3C Translations {% include_cached external.html %}](https://www.w3.org/2005/02/TranslationPolicy.html).
+](https://www.w3.org/translate/) and [Policy for authorized W3C translations {% include_cached external.html %}](https://www.w3.org/policies/authorized-translations/).
 
 
 {::nomarkdown}
@@ -160,7 +160,7 @@ In particular, make sure that:
 
 ## Step 8: Deliver the final files to W3C {#deliver-files}
 
-In conformance with step 6.3 of the [Policy for Authorized W3C Translations {% include_cached external.html %}](https://www.w3.org/2005/02/TranslationPolicy.html), deliver the following files to W3C for publication:
+In conformance with step 6.3 of the [Policy for authorized W3C translations {% include_cached external.html %}](https://www.w3.org/policies/authorized-translations/), deliver the following files to W3C for publication:
 - `index.html`
 - `relative-luminance.html`
 - `fixup.js`

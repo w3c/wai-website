@@ -231,14 +231,14 @@ For information on WCAG, see the [[Web Content Accessibility Guidelines (WCAG) O
 
 For other translations lists, see:
 * **[All WAI Translations](https://www.w3.org/WAI/translations/)** for translations of other accessibility resources
-* **[Translations of Current W3C Technical Reports](https://www.w3.org/Translations/)**
+* **[Translations of W3C standards and notes](https://www.w3.org/standards/translations/)**
 
 ### About Translating
 
 For information on translating W3C documents, see:
 * [[How to Translate WCAG 2]](/about/translating/wcag/) for WCAG 2
 * [Translating WAI Resources](/about/translating/) for accessibility resources
-* [Contributing to W3C Translations](https://www.w3.org/Consortium/Translation/) for W3C Technical Reports
+* [Contributing to W3C Translations](https://www.w3.org/translate/) for W3C Technical Reports
 
 **Note:** If you are interested in translating a specific document, make sure to announce it (as instructed in the links above) to facilitate collaboration, to avoid duplication of effort, to ensure that you have the latest version, and to appropriately address pending updates and errata.
 

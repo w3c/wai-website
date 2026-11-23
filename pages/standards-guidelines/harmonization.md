@@ -107,7 +107,7 @@ Various circumstances or beliefs in different countries and organizations can co
     </tr>
     <tr>
       <td>A requirement that only standards officially available in local language(s) can be adopted</td>
-      <td>W3C now allows the development of authorized translations in local languages through its <a href="https://www.w3.org/2005/02/TranslationPolicy">Policy for Authorized W3C Translations</a>. For example, <a href="https://www.w3.org/WAI/standards-guidelines/wcag/translations/">Authorized Translations of WCAG</a> are available in several languages.</td>
+      <td>W3C now allows the development of authorized translations in local languages through its <a href="https://www.w3.org/policies/authorized-translations/">Policy for authorized W3C translations</a>. For example, <a href="https://www.w3.org/WAI/standards-guidelines/wcag/translations/">Authorized Translations of WCAG</a> are available in several languages.</td>
     </tr>
     <tr>
       <td>The belief that only local guidelines can meet the needs of the local disability community</td>

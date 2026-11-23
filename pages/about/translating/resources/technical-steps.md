@@ -294,7 +294,7 @@ Make sure to:
 
 ### Links to W3C standards
 
-If an [Authorized Translation of a W3C standard](https://www.w3.org/Translations/authorized.html) has been published in your language, please point to the translated version.
+If an [Authorized Translation of a W3C standard](https://www.w3.org/standards/translations/authorized/) has been published in your language, please point to the translated version.
 
 Example:
 
@@ -312,7 +312,7 @@ Example:
 ```
 
 ### Specific wording {#specific-wording}
-- Check [other translations in your language](/translations/) to see how similar words and concepts have been translated. In particular, [Authorized Translations](https://www.w3.org/Translations/authorized.html) have had significant review and input.
+- Check [other translations in your language](/translations/) to see how similar words and concepts have been translated. In particular, [authorized translations](https://www.w3.org/standards/translations/authorized/) have had significant review and input.
 - Read the [General Translation Glossary {% include_cached external.html %}](https://github.com/w3c/wai-translations/blob/main/glossaries/general.md) and see if there is a [glossary for your language {% include_cached external.html %}](https://github.com/w3c/wai-translations#list-of-glossaries).
 - Consider different dialects. Where possible, the translation should use words and phrases that will be best understood across different areas.
 

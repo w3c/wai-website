@@ -103,7 +103,7 @@ A technique for proof-reading is to listen to the translation being read aloud, 
 {:/}
 
 ### Specific wording {#specific-wording}
-- Check [other translations in your language](/translations) to see how similar words and concepts have been translated. In particular, [Authorized Translations](https://www.w3.org/Translations/authorized.html) have had significant review and input.
+- Check [other translations in your language](/translations) to see how similar words and concepts have been translated. In particular, [authorized translations](https://www.w3.org/standards/translations/authorized/) have had significant review and input.
 - Consider different dialects. Where possible, the translation should use words and phrases that will be best understood across different areas.
 - The translator and reviewer(s) might want to work together to consider different options for some wording.
 - When you decide on translation of unclear words and phrases that will likely be in other resources, feel free to add them to the [Glossary for your language {% include_cached external.html %}](https://github.com/w3c/wai-translations/tree/main/glossaries/).
