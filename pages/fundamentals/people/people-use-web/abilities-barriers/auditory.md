@@ -5,7 +5,7 @@
 title: "Auditory"
 nav_title: "Auditory"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Keep the date of the English version
+last_updated: 2026-04-16  # Keep the date of the English version
 first_published: "as a draft in 1999"
 description: Explores the wide diversity of people and abilities. Highlights accessibility barriers that people may experience because of inaccessible digital technology.
 
@@ -144,30 +144,30 @@ While multimedia provides many opportunities for people with auditory disabiliti
 
 To use multimedia, people with auditory disabilities often rely on:
 
--   Transcripts and captions of audio content, including audio-only content and audio tracks in multimedia;
--   Media players that display captions and provide options to adjust the text size and colors of captions;
--   Options to stop, pause, and adjust the volume of audio content (independently of the system volume);
--   High-quality foreground audio that is clearly distinguishable from any background noise.
+-   transcripts and captions of audio content, including audio-only content and audio tracks in multimedia
+-   media players that display captions and provide options to adjust the text size and colors of captions
+-   options to stop, pause, and adjust the volume of audio content (independently of the system volume)
+-   high-quality foreground audio that is clearly distinguishable from any background noise
 
 For some people with auditory disabilities, sign language is the primary language, and they may not read the written language as fluently. Providing important information in sign language and using simpler text that is supplemented by images, graphs, and other illustrations help make digital content more understandable to many people. However, it is important to remember that not all people with auditory disabilities know sign language.
 
 ## Examples of auditory disabilities {#examples-of-auditory-disabilities}
 
--   **Hard of hearing**{:#hardofhearing} – mild or moderate hearing impairments in one or both ears.
--   **Deafness**{:#deafness} – substantial, uncorrectable impairment of hearing in both ears.
--   **Deaf-blindness**{:#deafblindness} – substantial, uncorrectable hearing and visual impairments.
+-   **Hard of hearing**{:#hardofhearing} – mild or moderate hearing impairments in one or both ears
+-   **Deafness**{:#deafness} – substantial, uncorrectable impairment of hearing in both ears
+-   **Deaf-blindness**{:#deafblindness} – substantial, uncorrectable hearing and visual impairments
 
 ## Examples of barriers for people with auditory disabilities {#examples-of-barriers-for-people-with-auditory-disabilities}
 
--   Audio content, such as videos with voices and sounds, without captions or transcripts.
--   Media players that do not display captions and that do not provide volume controls.
--   Media players that do not provide options to adjust the text size and colors for captions.
--   Web-based services, including web applications, that rely on interaction using voice only.
--   Lack of sign language to supplement important information and text that is difficult to read.
+-   Audio content, such as videos with voices and sounds, without captions or transcripts
+-   Media players that do not display captions and that do not provide volume controls
+-   Media players that do not provide options to adjust the text size and colors for captions
+-   Web-based services, including web applications, that rely on interaction using voice only
+-   Lack of sign language to supplement important information and text that is difficult to read
 
 ## Stories related to auditory disabilities {#stories-related-to-auditory-disabilities}
 
--   [Dhruv, older adult student who is deaf](/people-use-web/user-stories/story-six/)
+-   [Dhruv, older adult student who is Deaf](/people-use-web/user-stories/story-six/)
 -   [Marta, marketing assistant who is deaf and blind](/people-use-web/user-stories/story-seven/)
 
 {% include excol.html type="start" id="video-transcript" %}
