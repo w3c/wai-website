@@ -108,7 +108,7 @@ footer: >
   <div>
 {:/}
 
-Physical disabilities (sometimes called "motor disabilities") include weakness and limitations of muscular control (such as involuntary movements including tremors, lack of coordination, or paralysis), limitations of sensation, joint disorders (such as arthritis), pain that impedes movement, and missing limbs.
+Physical disabilities (sometimes called ‘motor disabilities’) include weakness and limitations of muscular control (such as involuntary movements including tremors; lack of coordination, or paralysis); limitations of sensation; joint disorders (such as arthritis); pain that impedes movement; and missing limbs.
 
 {::options toc_levels="2..2" /}
 
@@ -142,37 +142,37 @@ Physical disabilities (sometimes called "motor disabilities") include weakness a
 
 To use digital technology, people with physical disabilities often use specialized hardware and software such as:
 
-- Ergonomic or specially designed keyboard or mouse;
-- Head pointer, mouth stick, and other aids to help with typing;
-- On-screen keyboard with trackball, joysticks, or other pointing devices;
-- Switches operated by foot, shoulder, sip-and-puff, or other movements;
-- Speech recognition, eye tracking, and other approaches for hands-free interaction.
+- ergonomic or a specially designed keyboard or mouse
+- a head pointer, mouth stick, and other aids to help with typing
+- an on-screen keyboard with a trackball, joystick, or other pointing device
+- switches operated by foot, shoulder, sip-and-puff, or other movements
+- speech recognition, eye tracking, and other approaches for hands-free interaction
 
-People with physical disabilities may be using a mouse or mouse-like device only, or keyboard or keyboard-like device only to operate the computer. People with physical disabilities rely on keyboard support to activate functionality provided on web pages. They may need more time to type, click, or carry out other interactions, and they may type single keystrokes in sequence or use sticky keys rather than typing simultaneous keystrokes ("chording") to activate commands. Such keystrokes include commands for special characters, shortcut keys, and to active menu items.
+People with physical disabilities may be using a mouse or mouse-like device only or a keyboard or keyboard-like device only to operate the computer. People with physical disabilities rely on keyboard support to activate the functionality provided on web pages. They may need more time to type, click, or carry out other interactions, and they may type single keystrokes in sequence or use sticky keys to enable simultaneous keystrokes to be typed ("chording") in order to activate commands. Such keystrokes include commands for special characters and shortcut keys, and to active menu items.
 
-People with physical disabilities may have trouble clicking small areas and are more likely to make mistakes in typing and clicking. Providing large clickable areas, enough time to complete tasks, and error correction options for forms are important design aspects. Other important design aspects include providing visible indicators of the current focus, and mechanisms to skip over blocks, such as over page headers or navigation bars. People with cognitive and visual disabilities share many of these requirements.
+People with physical disabilities may have trouble clicking small areas and are more likely to make mistakes in typing and clicking. Providing large clickable areas, enough time to complete tasks, and error correction options for forms are important design aspects. Other important design aspects include providing a visible indicator that shows when interactive elements have focus, and mechanisms to skip over blocks of content, such as over page headers or navigation bars. People with cognitive and visual disabilities share many of these requirements.
 
 ## Examples of physical disabilities {#examples-of-physical-disabilities}
 
-- **Amputation**{:#limbs} – includes missing fingers, limbs, or other parts of the human body.
-- **Arthritis**{:#arthritis} (previously called "[rheumatism](#rheumatism){:.termref}") – inflammation, degeneration, or damage to the joints.
-- **Fibromyalgia**{:#fibromyalgia} (formerly called "[rheumatism](#rheumatism){:.termref}") – the chronic pain of muscle and connective tissues.
-- **Rheumatism**{:#rheumatism} – typically refers to [arthritis](#arthritis){:.termref} and other causes of bone or joint pain, and sometimes to [fibromyalgia](#fibromyalgia){:.termref} and other causes for muscular and other soft tissue pain.
-- **Reduced dexterity**{:#dexterity} – is a functional term (rather than a medical condition) that describes the ability to control the hand, such as hand-eye coordination of people with cognitive and neurological disabilities.
-- **Multiple sclerosis**{:#ms} – causes damage to nerve cells in the brain and spinal cord, and can affect physical, cognitive, and visual abilities, in particular during relapses.
-- **Muscular dystrophy**{:#md} – progressive weakness and degeneration of muscles, sometimes including in arms and hands.
-- **Repetitive stress injury (RSI)**{:#rsi} (also called "repetitive motion disorder" (RMD) and "cumulative trauma disorder" (CT)) - involves injuries to the musculoskeletal system (bones, joints, tendons, and other connective tissues) and the nervous system from repetitive tasks and damage.
-- **Tremor and spasms**{:#tremor} – involuntary movement or muscle contraction, including short twitches, and continual or rhythmic muscle contractions.
-- **Quadriplegia**{:#quadriplegia} (sometimes called "tetraplegia") - partial or total paralysis (includes motor control and sensation) to all four body limbs (legs and arms) and the torso.
-- **Seizure disorders**{:#seizure} – includes different types of epilepsy and migraines, which may be in reaction to visual flickering or audio signals at certain frequencies or patterns.
+- **Amputation**{:#limbs} — includes missing fingers, limbs, or other parts of the human body
+- **Arthritis**{:#arthritis} (formerly called ‘[rheumatism](#rheumatism){:.termref}’) — inflammation, degeneration, or damage to the joints
+- **Fibromyalgia**{:#fibromyalgia} (formerly called ‘[rheumatism](#rheumatism){:.termref}’) — the chronic pain of muscle and connective tissues
+- **Reduced dexterity**{:#dexterity} — a functional term (not a medical condition) that describes difficulties in controlling the hand, such as poor hand-eye coordination, which can be experienced by people with cognitive and neurological disabilities
+- **Rheumatism**{:#rheumatism} — typically refers to [arthritis](#arthritis){:.termref} and other causes of bone or joint pain, and sometimes to [fibromyalgia](#fibromyalgia){:.termref} and other causes of muscular and other soft tissue pain
+- **Multiple sclerosis**{:#ms} — causes damage to nerve cells in the brain and spinal cord, and can affect physical, cognitive, and visual abilities — in particular, during relapses
+- **Muscular dystrophy**{:#md} — progressive weakness and degeneration of skeletal muscles, and the muscles that control movement, such as in the arms and hands
+- **Seizure disorders**{:#seizure} — includes different types of epilepsy and migraines, which may occur in reaction to visual flickering or audio signals at certain frequencies or patterns
+- **Repetitive stress injury (RSI)**{:#rsi} (also called ‘repetitive motion disorder’ (RMD) and ‘cumulative trauma disorder’ (CT)) — involves injuries to the musculoskeletal system (bones, joints, tendons, and other connective tissues) and the nervous system from repetitive tasks and damage
+- **Tremor and spasms**{:#tremor} — involuntary movement or muscle contraction, including short twitches, and continual or rhythmic muscle contractions
+- **Quadriplegia**{:#quadriplegia} (sometimes called ‘tetraplegia’) — partial or total paralysis (includes motor control and sensation) to all four body limbs (legs and arms) and the torso
 
 ## Examples of barriers for people with physical disabilities {#examples-of-barriers-for-people-with-physical-disabilities}
 
-- Websites, web browsers, and authoring tools that do not provide full keyboard support.
-- Insufficient time limits to respond or to complete tasks, such as to fill out online forms.
-- Controls, including links with images of text, that do not have equivalent text alternatives.
-- Missing visual and non-visual orientation cues, page structure, and other navigational aids.
-- Inconsistent, unpredictable, and overly complicated navigation mechanisms and page functions.
+- Websites, web browsers, and authoring tools that do not provide full keyboard support
+- Insufficient time limits to respond or to complete tasks, such as to fill out online forms
+- Controls, including links with images of text, that do not have equivalent text alternatives
+- Missing visual and non-visual orientation cues, page structure, and other navigational aids
+- Inconsistent, unpredictable, and overly complicated navigation mechanisms and page functions
 
 ## Stories related to physical disabilities {#stories-related-to-physical-disabilities}
 

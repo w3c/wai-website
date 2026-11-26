@@ -141,9 +141,9 @@ Dhruv is a student who is deaf. Because his first, or native, language is sign l
 
 > Most people don't realise that sign language is a completely different language. I can read text captions but it takes me longer as they are not in my first language. Captions and signing aren't interchangeable.
 
-Dhruv has been deaf since birth. He is a mature student, taking online courses. While he can hear some sounds, he does not hear enough to understand speech. Dhruv learned to sign as a young child. Sign language is his first language. As a result, written language can be difficult. He prefers written content to have good structure and headings with minimal jargon so that it's easier to understand.
+Dhruv has been deaf since birth. He is a mature student, taking online courses. While Dhruv can hear some sounds, he does not hear well enough to understand speech. Sign language is Dhruv's first language. He learned to sign as a young child. As a result, using written language can be difficult for him. He prefers written content to have good structure and headings with minimal jargon so that it's easier to understand.
 
-Dhruv can lip read but can only do so effectively when he can see the full face of the person who is speaking. Even then, he can only do it well enough to pick up a few words here and there and can't rely on lip reading alone to understand content.
+Dhruv can lip read but is only able to do so effectively when he can see the speaker's full face. Even then, he can only do it well enough to pick up a few words here and there, and he cannot rely on lip reading alone to understand everything that's said.
 
 The university where Dhruv studies provides sign language interpreters and Communication Access Realtime Translation (CART); however, this captioning is not always present on video and other media content. The university is now working to caption all content across their curriculum, however it is a lengthy process. As more and more content is captioned, Dhruv is finding it easier to complete his studies remotely.
 
