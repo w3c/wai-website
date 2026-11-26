@@ -5,7 +5,7 @@
 title: "Auditory"
 nav_title: "Auditory"
 lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2024-06-25  # Keep the date of the English version
+last_updated: 2026-04-16  # Keep the date of the English version
 first_published: "as a draft in 1999"
 description: Explores the wide diversity of people and abilities. Highlights accessibility barriers that people may experience because of inaccessible digital technology.
 
@@ -150,6 +150,15 @@ To use multimedia, people with auditory disabilities often rely on:
 -   High-quality foreground audio that is clearly distinguishable from any background noise.
 
 For some people with auditory disabilities, sign language is the primary language, and they may not read the written language as fluently. Providing important information in sign language and using simpler text that is supplemented by images, graphs, and other illustrations help make digital content more understandable to many people. However, it is important to remember that not all people with auditory disabilities know sign language.
+
+It is also important to remember that some people do not consider deafness a disability.
+
+## deaf, Deaf
+
+- “deaf” (with a lower case letter): Refers to a medical condition describing limited or no hearing.
+
+- “Deaf” (with a capital letter): Refers to a cultural identity and a community that primarily uses sign language.
+
 
 ## Examples of auditory disabilities {#examples-of-auditory-disabilities}
 
